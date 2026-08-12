@@ -1,0 +1,158 @@
+# 00. Overview — 文献基本信息与结构
+
+> 本章属于：Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)
+>
+> 下一章：`01_theoretical_background.md`
+
+---
+
+## 0.1 文献基本信息
+
+| 字段 | 内容 |
+|---|---|
+| **Title** | Cosmic-ray propagation and interactions in the Galaxy |
+| **Authors** | Andrew W. Strong¹, Igor V. Moskalenko², Vladimir S. Ptuskin³ |
+| **Collaboration** | 未提供 |
+| **Institutions** | ¹ Max-Planck-Institut für extraterrestrische Physik, Garching, Germany<br>² Hansen Experimental Physics Laboratory (HEPL) and KIPAC, Stanford University, U.S.A.<br>³ Institute for Terrestrial Magnetism, Ionosphere and Radiowave Propagation (IZMIRAN), Troitsk, Moscow region, Russia |
+| **Journal / Conference** | Reviews of Modern Physics（根据格式推断，arXiv 上标注为 RMP 投稿，2008 年 2 月为草稿日期） |
+| **Publication Date** | arXiv 提交日期：2007 年 1 月 18 日；草稿日期：2008 年 2 月 5 日；正式发表：2007 年（Rev. Mod. Phys. 79:2451, 2007） |
+| **DOI** | 10.1103/RevModPhys.79.2451 |
+| **arXiv** | arXiv:astro-ph/0701517v1 |
+| **Research Field** | 宇宙线传播（Cosmic-ray propagation）、星际介质、伽马射线天文学、高能天体物理 |
+| **Keywords** | energetic particles, gamma rays, interstellar medium, magnetic fields, plasmas |
+
+> **分析 / Interpretation**：本文发表于 2007 年（Rev. Mod. Phys. 79:2451），属于该领域里程碑式的综述，GALPROP 代码的主要开发者参与撰写，因此对数值方法的描述具有权威性。
+
+---
+
+## 0.2 Abstract（中文精读）
+
+### 原文
+
+> We survey the theory and experimental tests for the propagation of cosmic rays in the Galaxy up to energies of 10¹⁵ eV. A guide to the previous reviews and essential literature is given, followed by an exposition of basic principles. The basic ideas of cosmic-ray propagation are described, and the physical origin of its processes are explained. The various techniques for computing the observational consequences of the theory are described and contrasted. These include analytical and numerical techniques. We present the comparison of models with data including direct and indirect – especially gamma-ray – observations, and indicate what we can learn about cosmic-ray propagation. Some particular important topics including electrons and antiparticles are chosen for discussion.
+
+### 自然中文
+
+本文综述了银河系中宇宙线传播至 10¹⁵ eV 能量的理论与实验检验。首先给出了以往综述和重要文献的导览，随后阐述基本原理。介绍了宇宙线传播的基本思想及其物理起源，描述并比较了计算理论观测后果的各种方法——包括解析法和数值法。呈现了模型与数据的比较，涵盖直接观测和间接观测（尤其是伽马射线），并指出我们能从中学到关于宇宙线传播的什么知识。选取电子和反物质等若干重要专题进行讨论。
+
+### 关键词与要点
+
+- **能量上限**：10¹⁵ eV（"膝"区，作者明确排除高于此能量的宇宙线）
+- **直接观测**：气球/卫星直接探测到的粒子
+- **间接观测**：通过伽马射线和同步辐射
+- **核心方法对比**：解析法 vs. 数值法（作者倾向数值法）
+- **专题**：电子、正电子、反质子、同步辐射
+
+### [FACT]
+
+作者声明："concerning the origin of CR, we will, for the most part, sidestep this problem"——即本篇**不讨论宇宙线起源问题**。也明确排除了太阳调制、星系团和外银河宇宙线。
+
+---
+
+## 0.3 论文结构树
+
+```
+1. Introduction（引言，第2页）
+   - 宇宙线在 Astrophysics 中的独特地位
+   - 综述文献导览
+   - 两种研究方法的对比：粒子观点 vs. ISM 气体观点
+   - 本文范围声明
+
+2. Cosmic-ray Propagation: Theory（传播理论，第3–13页）
+   2.1 Basics and Approaches（基本概念与途径）
+   2.2 Propagation equation（传播方程——核心方程 (1)）
+   2.3 Diffusion（扩散：准线性理论、Kolmogorov vs. Kraichnan 谱）
+   2.4 Convection（对流/银河风）
+   2.5 Reacceleration（再加速：动量空间扩散、K-capture 同位素检验）
+   2.6 Galactic structure（银河系结构：气体、磁场、辐射场、本地环境）
+   2.7 Interactions（相互作用：核碎裂、能量损失、伽马射线产生）
+   2.8 Weighted Slabs and Leaky Boxes（加权板与泄漏盒模型）
+   2.9 Explicit models（显式模型：解析解与数值解对比）
+   2.10 GALPROP（GALPROP 代码详解）
+   2.11 Numerical versus analytical（数值法 vs. 解析法——作者观点）
+   2.12 Self-consistent models（自洽模型）
+
+3. Confrontation of Theory with Data（理论对数据的检验，第14–23页）
+   3.1 Stable secondary/primary ratios（稳定次级/初级比——B/C 为核心）
+   3.2 Unstable secondary/primary ratios: radioactive clocks（放射性时钟）
+   3.3 K-capture isotopes and acceleration delay（K-俘获同位素与加速延迟）
+   3.4 K-capture isotopes and reacceleration（K-俘获与再加速的检验）
+   3.5 Anisotropy（各向异性：扩散 vs. 对流各向异性）
+   3.6 Diffuse Galactic Gamma Rays（弥散银河伽马射线——GeV 过剩问题）
+   3.7 Antiprotons and positrons（反质子和正电子）
+   3.8 Electrons and Synchrotron Radiation（电子与同步辐射）
+   3.9 Time- and space-dependent effects（时空依赖效应）
+
+4. Summary Points list（要点总结，第23页）
+5. Future Issues（未来问题，第24页）
+6. Related Resources（相关资源）
+7. Key terms, definitions and acronyms（术语表）
+8. Acknowledgements（致谢）
+
+附录：Figures 1–16（第25–39页）+ References 1–189（第25–30页）
+```
+
+---
+
+## 0.4 研究方法总览
+
+| 方法类别 | 关键内容 | 涉及章节 |
+|---|---|---|
+| **基础方程** | 宇宙线传播偏微分方程 (1)，含源项、扩散、对流、再加速、能量损失、碎裂、放射性衰变 | §2.2 |
+| **解析方法** | 泄漏盒模型、加权板方法、显式解析解 | §2.8–2.9 |
+| **数值方法** | GALPROP 三维数值求解 | §2.10 |
+| **实验数据检验** | 次级/初级比、放射性时钟、伽马射线、反质子、正电子、电子、各向异性 | §3.1–3.9 |
+
+---
+
+## 0.5 关键定义与缩写（第7节摘录）
+
+| 缩写 | 全称 |
+|---|---|
+| CR | Cosmic rays（宇宙线） |
+| ISM | Interstellar medium（星际介质） |
+| ISRF | Interstellar radiation field（星际辐射场） |
+| GALPROP | Galactic Propagation code |
+| GLAST/EGRET | Gamma-ray Large Area Telescope / Energetic Gamma Ray Experiment Telescope |
+| SNR | Supernova remnant（超新星遗迹） |
+| PLD | Path-length distribution |
+| B/C | Boron-to-Carbon ratio |
+| p̄ | Antiproton（反质子） |
+| ACE | Advanced Composition Explorer |
+| HePL | Hansen Experimental Physics Laboratory |
+| KIPAC | Kavli Institute for Particle Astrophysics and Cosmology |
+
+| 关键物理量 | 含义 |
+|---|---|
+| Dxx | 空间扩散系数 |
+| V | 对流速度 |
+| Dpp | 动量空间扩散系数（再加速） |
+| ψ(r⃗, p, t) | 单位动量的宇宙线密度 |
+| q(r⃗, p, t) | 源项（含初级、碎裂、衰变） |
+| τf | 碎裂时间尺度 |
+| τr | 放射性衰变时间尺度 |
+| R | 粒子磁刚度 = pc/Ze |
+| zh | 宇宙线晕（halo）高度 |
+
+---
+
+## 0.6 重要参考文献（全文引用 189 篇，以下为最关键部分）
+
+详细参考文献列表见 `04_references.md`。本节列出在分析中起支柱作用的核心文献。
+
+| Ref | 引用内容 | 在本文中的作用 |
+|---|---|---|
+| (4) Cesarsky (1980) | 宇宙线传播经典综述 | 本文范围声明与历史背景的基础 |
+| (8) Berezinskii et al. (1990) | 《Astrophysics of Cosmic Rays》 | 理论框架与传播方程推导的权威教科书 |
+| (9) Ginzburg & Syrovatskii (1964) | 《The Origin of Cosmic Rays》 | 现代宇宙线研究的奠基著作 |
+| (10) Ginzburg & Ptuskin (1976) | RMP 综述 | 显式解方法的开创性工作 |
+| (67) Strong & Moskalenko (1998) | ApJ 509:212 | GALPROP 与传播模型的核心论文 |
+| (69) Jones, Lukasiak, Ptuskin, Webber (2001) | ApJ 547:264 | B/C 数据拟合与加权板技术的代表作 |
+| (75) Ptuskin et al. (2006) | ApJ 642:902 | 非线性波阻尼模型的现代结果 |
+| (113) Strong, Moskalenko & Reimer (2004) | ApJ 613:962 | 伽马射线模型与 CR 修正的核心计算 |
+| (39) Moskalenko & Strong (1998) | ApJ 493:694 | 伽马射线产生与电子/正电子传播 |
+| (81) Strong, Moskalenko & Reimer (2000) | ApJ 537:763 | 银河系磁场建模与同步辐射 |
+
+---
+
+> 下一章：`01_theoretical_background.md`

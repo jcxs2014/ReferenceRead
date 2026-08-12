@@ -1,0 +1,2628 @@
+
+
+=== PAGE 1 ===
+arXiv:astro-ph/0701517v1  18 Jan 2007
+Strong, Moskalenko, and Ptuskin
+1
+Cosmic-ray propagation and interactions in
+the Galaxy
+Andrew
+W.
+Strong1,
+Igor
+V.
+Moskalenko2,
+Vladimir
+S.
+Ptuskin3
+1. Max-Planck-Institut f¨ur extraterrestrische Physik, Postfach 1312, 85741
+Garching, Germany. aws@mpe.mpg.de
+2. Hansen Experimental Physics Laboratory (HEPL) and KIPAC, Stanford
+University, Stanford, CA 94305, U.S.A. imos@stanford.edu
+3. Institute for Terrestrial Magnetism, Ionosphere and Radiowave Propagation
+of the Russian Academy of Sciences (IZMIRAN), Troitsk, Moscow region
+142190, Russia. vptuskin@izmiran.ru
+Key Words
+energetic particles, gamma rays, interstellar medium, magnetic
+ﬁelds, plasmas This draft was made on February 5, 2008.
+Abstract
+We survey the theory and experimental tests for the propagation of cosmic rays in the Galaxy
+up to energies of 1015 eV. A guide to the previous reviews and essential literature is given,
+followed by an exposition of basic principles. The basic ideas of cosmic-ray propagation are
+described, and the physical origin of its processes are explained. The various techniques for
+computing the observational consequences of the theory are described and contrasted. These
+include analytical and numerical techniques. We present the comparison of models with data
+including direct and indirect – especially gamma-ray – observations, and indicate what we can
+learn about cosmic-ray propagation. Some particular important topics including electrons and
+antiparticles are chosen for discussion.
+CONTENTS
+Introduction
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+Cosmic-ray Propagation: Theory . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Basics and Approaches . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Propagation equation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Diﬀusion
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Convection
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Reacceleration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Galactic structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Interactions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Weighted Slabs and Leaky Boxes
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Explicit models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+GALPROP
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Numerical versus analytical . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Self-consistent models
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+
+
+=== PAGE 2 ===
+Confrontation of Theory with Data . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Stable secondary/primary ratios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Unstable secondary/primary ratios: ‘radioactive clocks’ . . . . . . . . . . . . . . . . . .
+15
+K-capture isotopes and acceleration delay
+. . . . . . . . . . . . . . . . . . . . . . . . .
+16
+K-capture isotopes and reacceleration . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Anisotropy
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Diﬀuse Galactic Gamma Rays . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Antiprotons and positrons . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Electrons and Synchrotron Radiation . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Time- and space-dependent eﬀects
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Summary Points list . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Future Issues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Related Resources
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Key terms, deﬁnitions and acronyms . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Acknowledgements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+1
+Introduction
+Cosmic rays (hereafter CR) are almost unique in astrophysics in that they can
+be directly sampled, not just observed via electromagnetic radiation. Other ex-
+amples are meteorites and stardust. CR provide us with a detailed elemental
+and isotopic sample of the current (few million years old) interstellar medium
+not available in any other way. It is this which makes the subject especially rich
+and complementary to other disciplines.
+CR have featured frequently in Annual Reviews: about 15 articles from 1952
+to 1989! Reviews include heavy nuclei (1), collective transport eﬀects (2), com-
+position (3) and propagation (4). Cox’s recent Annual Review ‘The Three Phase
+Interstellar Medium’ (5) contains much discussion of CR as one essential com-
+ponent of the interstellar medium (ISM), but inevitably no mention of their
+propagation. Two recent AnnRev articles (6; 7) give extensive discussion of the
+relation of CR to turbulence which means we do not try to cover this also.
+A basic reference is the book ‘Astrophysics of Cosmic Rays’ (8) which expounds
+all the essential concepts, and is an update of the classic ‘The Origin of Cosmic
+Rays’ (9) which laid the modern foundations of the subject, with an updated
+presentation in (10).
+Good books for basic expositions are (11; 12) and for
+high energies (13).
+A basic text emphasizing theory is (14), while the book
+‘Astrophysics of Galactic Cosmic Rays’ (15) gives an valuable overview of the
+experimental data and theoretical ideas as of 2001. The bi-annual International
+Cosmic Ray Conference proceedings1 are also an essential source of information,
+especially for the latest news on the subject.
+Recently a plethora of reviews have appeared on the subject of CR above 1015
+eV, e.g. (16; 17; 18); on interactions (19), on experiments and astrophysics (20),
+more on astrophysics, propagation and composition (21; 22; 23), and a review
+of models (24); we recommend (25) and the very up to date (26; 27). Therefore
+this topic has been excluded here. At the lowest energy end, we note that MeV
+particles are non-thermal (even if not relativistic) and must be mentioned in a
+1the recent conferences are available via the NASA Astrophysics Data System ADS
+2
+
+
+=== PAGE 3 ===
+Strong, Moskalenko, and Ptuskin
+3
+review of CR, especially since they are important sources of heating and ionization
+of the interstellar medium (28). As one example of their far-ranging inﬂuence,
+star formation in molecular clouds may be suppressed by CR produced in SNR
+nearby (29).
+It is worth distinguishing between two ways of approaching CR propagation:
+either from the particle point-of-view, including the spectrum and interactions,
+or treating the CR as a weightless collisionless relativistic gas with pressure and
+energy and considering it alongside other components of the interstellar medium
+(30; 31). Both ways of looking at the problem are valid up to a point, but for
+consistency a uniﬁed approach would be desirable and to our knowledge has never
+been attempted. The nearest approach to this is (32; 33). Most papers address
+exclusively one or the other aspect. The ﬁrst approach is required for comparison
+with observations of CR (direct and indirect) while the second is required for the
+ISM: stability, heating etc. (5).
+The major recent advances in the ﬁeld are the high quality measurements
+of isotopic composition and element spectra, and observations by gamma-ray
+telescopes, both satellite and ground-based. Space does not allow any discussion
+of the observational data here, but the ﬁgures give an illustrative overview of what
+is now available from both direct (Figs. 1–13) and indirect (γ-ray) measurements
+(Figs. 14, 16). Concerning the origin of CR, we follow Cesarsky’s 1980 Annual
+Review (4) ‘we will, for the most part, sidestep this problem.’ Hence we omit CR
+sources including composition and acceleration; for supernova remnants as CR
+sources the literature can be traced back from the most recent H.E.S.S. TeV γ-ray
+results (34). We also omit solar modulation, galaxy clusters and extragalactic
+CR. We mostly restrict attention to our own Galaxy, but mention important
+information coming from external galaxies (via synchrotron radiation).
+We ﬁrst introduce the theoretical background, and then consider the confronta-
+tion of theory with observation. A number of particular topics are selected for
+further discussion.
+2
+Cosmic-ray Propagation: Theory
+2.1
+Basics and Approaches
+We present the basic concepts of CR propagation, and techniques for relat-
+ing these to observational data.
+Practically all our knowledge of CR propa-
+gation comes via secondary CR, with additional information from γ-rays and
+synchrotron radiation. It is useful at the outset to point out why secondary nu-
+clei in particular are a good probe of CR propagation: the fact that the primary
+nuclei are measured (at least locally) means that the secondary production func-
+tions can be computed from primary spectra, cross-sections and interstellar gas
+densities with reasonable precision; the secondaries can then be ‘propagated’ and
+compared with observations.
+Since the realization that CR ﬁll the Galaxy it has been clear that nuclear
+interactions imply that their composition contains information on their propaga-
+tion (44). A historical event was the arrival of satellite measurements of isotopic
+Li, Be, B in the 1970’s (45). Since then the subject has expanded enormously
+with models of increasing degrees of sophistication. The simple observation that
+the observed composition of CR is diﬀerent from that of solar, in that rare solar-
+system nuclei like Boron are abundant in CR, proves the importance of propaga-
+
+
+=== PAGE 4 ===
+4
+Cosmic-ray propagation
+tion in the interstellar medium. The canonical ‘few g cm−2’ of traversed material
+is one of the widest-known facts of cosmic-ray physics.
+At present we believe that the diﬀusion model with possible inclusion of con-
+vection provides the most adequate description of CR transport in the Galaxy at
+energies below about 1017 eV so we begin by presenting this model.
+2.2
+Propagation equation
+The CR propagation equation for a particular particle species can be written in
+the general form:
+∂ψ(⃗r, p, t)
+∂t
+=
+q(⃗r, p, t) +⃗∇· (Dxx⃗∇ψ −⃗V ψ)
++
+∂
+∂p p2Dpp
+∂
+∂p
+1
+p2 ψ −∂
+∂p
+
+˙pψ −p
+3 (⃗∇·⃗V )ψ
+
+−1
+τf
+ψ −1
+τr
+ψ (1)
+where ψ(⃗r, p, t) is the CR density per unit of total particle momentum p at posi-
+tion⃗r, ψ(p)dp = 4πp2f(⃗p)dp in terms of phase-space density f(⃗p), q(⃗r, p) is the
+source term including primary, spallation and decay contributions, Dxx is the
+spatial diﬀusion coeﬃcient,⃗V is the convection velocity, diﬀusive reacceleration
+is described as diﬀusion in momentum space and is determined by the coeﬃcient
+Dpp , ˙p ≡dp/dt is the momentum gain or loss rate, τf is the time scale for loss
+by fragmentation, and τr is the time scale for radioactive decay.
+CR sources are usually assumed to be concentrated near the Galactic disk
+and to have a radial distribution like for example supernova remnants (SNR). A
+source injection spectrum and its isotopic composition are required; composition
+is usually initially based on primordial solar but can be determined iteratively
+from the CR data themselves for later comparison with solar. The spallation part
+of q(⃗r, p, t) depends on all progenitor species and their energy-dependent cross-
+sections, and the gas density n(⃗r); it is generally assumed that the spallation
+products have the same kinetic energy per nucleon as the progenitor. K-electron
+capture and electron stripping can be included via τf and q. Dxx is in general a
+function of (⃗r, β, p/Z) where β = v/c and Z is the charge, and p/Z determines the
+gyroradius in a given magnetic ﬁeld; Dxx may be isotropic, or more realistically
+anisotropic, and may be inﬂuenced by the CR themselves (e.g. in wave-damping
+models). Dpp is related to Dxx by DppDxx ∝p2, with the proportionality con-
+stant depending on the theory of stochastic reacceleration (8; 46) as described
+in Section 2.5.⃗V is a function of⃗r and depends on the nature of the Galactic
+wind. The term in⃗∇·⃗V represents adiabatic momentum gain or loss in the
+non-uniform ﬂow of gas with a frozen-in magnetic ﬁeld whose inhomogeneities
+scatter the CR. τf depends on the total spallation cross-section and n(⃗r). n(⃗r)
+can be based on surveys of atomic and molecular gas, but can also incorporate
+small-scale variations such as the region of low gas density surrounding the Sun.
+The presence of interstellar helium at about 10% of hydrogen by number must
+be included; heavier components of the ISM are not important for producing CR
+by spallation. This equation only treats continous momentum-loss; catastrophic
+losses can be included via τf and q. CR electrons, positrons and antiprotons
+propagation constitute just special cases of this equation, diﬀering only in their
+energy losses and production rates.
+The boundary conditions depend on the model; often ψ = 0 is assumed at the
+‘halo boundary’ where particles escape into intergalactic space, but this obviously
+
+
+=== PAGE 5 ===
+Strong, Moskalenko, and Ptuskin
+5
+just an approximation (since the intergalactic ﬂux is not zero) which can be
+relaxed for models with a physical treatment of the boundary.
+Equation (1) is a time-dependent equation; usually the steady-state solution
+is required, which can be obtained either by setting ∂ψ/∂t = 0 or following the
+time dependence until a steady state is reached; the latter procedure is much
+easier to implement numerically. The time-dependence of q is neglected unless
+eﬀects of nearby recent sources or the stochastic nature of sources are being
+studied. Starting with the solution for the heaviest primaries and using this to
+compute the spallation source for their products, the complete system can be
+solved including secondaries, tertiaries etc. Then the CR spectra at the solar
+position can be compared with direct observations, including solar modulation if
+required.
+Source abundances are determined iteratively, comparing propagation calcula-
+tions with data; for nuclei with very small source abundances, the source values
+are masked by secondaries and cross-section uncertainties and are therefore hard
+to determine. Webber (47) gives a ranking from ‘easy’ to ‘impossible’ for the
+possibility of getting the source abundances using ACE data. A recent review of
+the high-precision abundances from ACE is in (48) and for Ulysses in (49). For a
+useful summary of the various astrophysical abundances relevant to interpreting
+CR abundances see (50).
+2.3
+Diﬀusion
+The concept of CR diﬀusion explains why energetic charged particles have highly
+isotropic distributions and why they are retained well in the Galaxy. The Galactic
+magnetic ﬁeld which tangles the trajectories of particles plays a crucial role in
+this process. Typical values of the diﬀusion coeﬃcient found from ﬁtting to CR
+data is Dxx ∼(3 −5) × 1028 cm2 s−1 at energy ∼1 GeV/n and it increases with
+magnetic rigidity as R0.3 −R0.6 in diﬀerent versions of the empirical diﬀusion
+model of CR propagation.
+On the “microscopic level” the diﬀusion of CR results from particle scattering
+on random MHD waves and discontinuities.
+The eﬀective “collision integral”
+for charged energetic particles moving in a magnetic ﬁeld with small random
+ﬂuctuations δB ≪B can be taken from the standard quasi-linear theory of
+plasma turbulence (51). The wave-particle interaction is of resonant character
+so that an energetic particle is predominantly scattered by those irregularities
+of magnetic ﬁeld which have their projection of the wave vector on the average
+magnetic ﬁeld direction equal to k∥= ±s/ (rgµ), where µ is the particle pitch
+angle. The integers s = 0, 1, 2... correspond to cyclotron resonances of diﬀerent
+orders.
+The eﬃciency of scattering depends on the polarization of the waves
+and on their distribution in k-space.
+The ﬁrst-order resonance s = 1 is the
+most important for the isotropic and also for the one-dimensional distribution
+of random MHD waves along the average magnetic ﬁeld. In some cases – for
+calculation of scattering at small µ and for calculation of perpendicular diﬀusion
+– the broadening of resonances and magnetic mirroring eﬀects should be taken
+into account. The resulting spatial diﬀusion is strongly anisotropic locally and
+goes predominantly along the magnetic ﬁeld lines. However, strong ﬂuctuations of
+magnetic ﬁeld on large scales L ∼100 pc, where the strength of the random ﬁeld
+is several times higher than the average ﬁeld strength, lead to the isotropization
+of global CR diﬀusion in the Galaxy. The rigorous treatment of this eﬀect is not
+
+
+=== PAGE 6 ===
+6
+Cosmic-ray propagation
+trivial, since the ﬁeld is almost static and the strictly one-dimensional diﬀusion
+along the magnetic ﬁeld lines does not lead to non-zero diﬀusion perpendicular
+to B, see (52) and the references cited there.
+Following several detailed reviews of the theory of CR diﬀusion (53; 54; 8;
+14) the diﬀusion coeﬃcient at rg < L can be roughly estimated as Dxx ≈
+(δBres/B)−2 vrg/3, where δBres is the amplitude of random ﬁeld at the resonant
+wave number kres = 1/rg. The spectral energy density of interstellar turbulence
+has a power law form w(k)dk ∼k−2+adk, a = 1/3 over a wide range of wave
+numbers 1/(1020 cm) < k < 1/(108 cm), see (6), and the strength of the random
+ﬁeld at the main scale is δB ≈5 µG. This gives an estimate of the diﬀusion coef-
+ﬁcient Dxx ≈2 × 1027βR1/3
+GV cm2 s−1 for all CR particles with magnetic rigidities
+R < 108 GV, in a fair agreement with the empirical diﬀusion model (the version
+with distributed reacceleration). The scaling law Dxx ∼R1/3 is determined by
+the value of the exponent a = 1/3, typical for a Kolmogorov spectrum. The-
+oretically (55) the Kolmogorov type spectrum might refer only to some part of
+the MHD turbulence which includes the (Alfvenic) structures strongly elongated
+along the magnetic-ﬁeld direction and which are not able to provide the signiﬁcant
+scattering and required diﬀusion of cosmic rays. In parallel, the more isotropic
+(fast magnetosonic) part of the turbulence, with a smaller value of random ﬁeld
+at the main scale and with the exponent a = 1/2 typical for the Kraichnan type
+turbulence spectrum, may exist in the interstellar medium (56). The Kraichnan
+spectrum gives a scaling Dxx ∼R1/2 which is close to the high-energy asymptotic
+form of the diﬀusion coeﬃcient obtained in the ‘plain diﬀusion’ version of the em-
+pirical propagation model. Thus the approach based on kinetic theory gives a
+proper estimate of the diﬀusion coeﬃcient and predicts a power-law dependence
+of diﬀusion on magnetic rigidity, but the determination of the actual diﬀusion
+coeﬃcient has to be done with the help of empirical models of CR propagation
+in the Galaxy.
+2.4
+Convection
+While the most frequently considered mode of CR transport is diﬀusion, the ex-
+istence of galactic winds in many galaxies suggests that convective (or advective)
+transport could be important. Winds are common in galaxies and can be CR
+driven (57). CR play a dynamical role in galactic halos (58; 59). Convection
+not only transports CR, it can also produce adiabatic energy losses as the wind
+speed increases away from the disk.
+Convection was ﬁrst considered by (60)
+and followed up by (61; 62; 63; 64; 65). Both 1-zone and 2-zone models have
+been studied: a 1-zone model has convection and diﬀusion everywhere, a 2-zone
+model has diﬀusion alone up to some distance from the plane, and diﬀusion plus
+convection beyond.
+A recent AnnRev on galactic winds (66) does not mention CR, surprisingly.
+In the same volume, Cox’s article on the Three Phase Interstellar Medium (5)
+includes CR as a basic component. Direct evidence for winds in our own Galaxy
+seems to be conﬁned to the Galactic centre region from X-ray images. However
+Cox (5) is not sure there is a wind: ‘A Galactic wind may be occurring, but I
+do not believe that it carries oﬀa signiﬁcant fraction of the supernova power
+from the Solar Neighborhood because it would carry oﬀa similar power in the
+pervading cosmic rays...’
+For one-zone diﬀusion/convection models a good diagnostic is the energy-
+
+
+=== PAGE 7 ===
+Strong, Moskalenko, and Ptuskin
+7
+dependence of the secondary-to-primary ratio:
+a purely convective transport
+would have no energy dependence (apart from the velocity-dependence of the
+reaction rate), contrary to what is observed.
+If the diﬀusion rate decreases
+with decreasing energy, any convection will eventually take over and cause the
+secondary-to-primary ratio to ﬂatten at low energy: this is observed but con-
+vection ( proposed (64) to explain just this eﬀect) does not reproduce e.g. B/C
+very well (67). Another test is provided by radioactive isotopes which eﬀectively
+constrain the wind speed to <10 km s−1 kpc−1 for a speed increasing linearly
+with distance from the disk (67). A value of ≈15 km s−1 (constant speed wind)
+is required to ﬁt B/C even in the presence of reacceleration according to (68)
+which can be compared to 30 km s−1 in the wind model of (69); the latter value
+implies an energy dependence of the diﬀusion coeﬃcient which may conﬂict with
+CR anisotropy.
+(33) studied a self-consistent two-zone model with a wind driven by CR and
+thermal gas in a rotating Galaxy. The CR propagation is entirely diﬀusive in a
+zone |z| < 1 kpc, and diﬀusive-convective outside. CR reaching the convective
+zone do not return, so it acts as a halo boundary with height varying with energy
+and Galactocentric radius. It is possible to explain the energy-dependence of the
+secondary-to-primary ratio with this model, and it is also claimed to be consistent
+with radioactive isotopes. The eﬀect of a Galactic wind on the radial CR gradient
+has been investigated (70); they constructed a self-consistent model with the wind
+driven by CR, and with anisotropic diﬀusion. The convective velocities involved
+in the outer zone are large (100 km s−1) but this model is still consistent with
+radioactive CR nuclei which set a much lower limit (67), since this limit is only
+applicable in the inner zone. Observational support of such models would require
+direct evidence for a Galactic wind in the halo.
+2.5
+Reacceleration
+In addition to spatial diﬀusion, the scattering of CR particles on randomly moving
+MHD waves leads to stochastic acceleration which is described in the transport
+equation as diﬀusion in momentum space with some diﬀusion coeﬃcient Dpp. One
+can estimate it as Dpp = p2V 2
+a / (9Dxx) where the Alfv´en velocity Va is introduced
+as a characteristic velocity of weak disturbances propagating in a magnetic ﬁeld,
+see (8; 14) for rigorous formulas.
+Distributed acceleration in the entire Galactic volume cannot serve as the main
+mechanism of acceleration of CR at least in the energy range 1 −100 GeV/n.
+In this case the particles of higher energy would spend longer in the system,
+which would result in an increase of the relative abundance of secondary nuclei
+as energy increases, contrary to observation. This argument does not hold at
+low energies where distributed acceleration may be strong and it may explain the
+existence of peaks in the ratios of secondary to primary nuclei at about 1 GeV/n
+if the distributed acceleration becomes signiﬁcant at this energy. The process
+of distributed acceleration in the interstellar medium is also referred to as ‘reac-
+celeration’ to distinguish it from the primary acceleration process which occurs
+in the CR sources. It has been shown (71; 46) that the observed dependence
+of abundance of secondary nuclei on energy can be explained in the model with
+reacceleration if the CR diﬀusion coeﬃcient varies as a single power law of rigidity
+Dxx ∼Ra with an exponent a ∼0.3 over the whole energy range (corresponding
+to particle scattering on MHD turbulence with a Kolmogorov spectrum), and if
+
+
+=== PAGE 8 ===
+8
+Cosmic-ray propagation
+the Alfv´en velocity is Va ∼30 km s−1, which is close to its actual value in the
+interstellar medium.
+In addition to stable secondary nuclei, the secondary K-capture isotopes are
+useful for the study of possible reacceleration in the interstellar medium (72).
+The isotopes 37Ar, 44Ti, 49V, 51Cr and some others decay rapidly by electron
+capture at low energies where energetic ions can have an orbital electron. The
+probability to have an orbital electron depends strongly on energy and because
+of this the abundance of these isotopes and of their decay products are strong
+functions of energy and sensitive to changes of particle energy in the interstellar
+medium. The ﬁrst measurements of an energy-dependent decay of 49V and 51Cr
+in CR (73) were used to test the rate of distributed interstellar reacceleration (74)
+but reﬁnement of nuclear production cross sections is required to draw deﬁnite
+conclusions.
+The gain of particle energy in the process of reacceleration is accompanied by
+a corresponding energy loss of the interstellar MHD turbulence. According to
+calculations (75) the dissipation on CR may signiﬁcantly inﬂuence the Kraichnan
+nonlinear cascade of waves at less 1013 cm and even terminate the cascade at
+small scales. This results in a self-consistent change of the rigidity dependence
+of diﬀusion coeﬃcient with a steep rise of Dxx to small rigidities. The scheme
+explains the high-energy scaling of diﬀusion Dxx ∼R0.5 and oﬀers an explanation
+of the observed energy dependence of primary to secondary ratios.
+As mentioned above, the data on secondary nuclei provide evidence against
+strong reacceleration in the entire Galaxy at 1−100 GeV/n. However, the spectra
+of secondaries can be considerably modiﬁed due to processes in the source regions,
+with a small total Galactic volume ﬁlling factor, for the regions where the high-
+velocity SNR shocks accelerate primary CR. Two eﬀects could be operating there
+and both lead to the production of a component of secondaries with ﬂat energy
+spectra (76; 77).
+One eﬀect is the production of secondaries in SNR by the
+spallation of primary nuclei which have a ﬂat source energy spectrum close to E−2.
+Another eﬀect is the direct acceleration by strong SNR shocks of background
+secondary nuclei residing in the interstellar medium; again the secondaries acquire
+the ﬂat source energy spectrum.
+Calculations (77) showed that these eﬀects
+might produce a ﬂat component of secondary nuclei rising above the standard
+steep spectrum of secondaries at energies above about 100 GeV/n.
+2.6
+Galactic structure
+Almost all aspects of Galactic structure aﬀect CR propagation, but the most
+important are the gas content for secondary production and the interstellar ra-
+diation ﬁeld and magnetic ﬁeld for electron energy losses. The magnetic ﬁeld
+is clearly also important for diﬀusion but the precise absolute magnitude and
+large-scale structure are less important (at least for CR below 1015 eV) than the
+turbulence properties.
+The distribution of atomic hydrogen is reasonably well known from 21-cm
+surveys, but the molecular hydrogen is less well known since it has to use the CO
+molecular tracer and the conversion factor is hard to determine and may depend
+on position in the Galaxy. In fact CR–gas interactions provide one of the best
+methods to determine the molecular hydrogen content of the Galaxy, because
+of its basic simplicity, as we describe in the chapter on gamma rays. For more
+details we refer to another review (78).
+
+
+=== PAGE 9 ===
+Strong, Moskalenko, and Ptuskin
+9
+The Galactic magnetic ﬁeld can be determined from pulsar rotation and dis-
+persion measures combined with a model for the distribution of ionized gas. A
+large-scale ﬁeld of a few µG aligned with spiral arms exists, but there is no
+general agreement on the details (79). One recent analysis gives a bisymmetric
+model for the large-scale Galactic magnetic ﬁeld with reversals on arm-interarm
+boundaries (80). Independent estimates of the strength and distribution of the
+ﬁeld can be made by simultaneous analysis of radio synchrotron, CR and γ-ray
+data, and these conﬁrm a value of a few µG, increasing towards the inner Galaxy
+(81). A lot of eﬀort has gone into constructing magnetic ﬁeld models to study
+propagation at energies >1015 eV where the Larmor radius is large enough for the
+global topology to be important; this is relevant to CR anisotropy and the search
+for point sources. Since this is excluded from our review we refer the reader to
+(82; 83; 84).
+The interstellar radiation ﬁeld (ISRF) comes from stars of all types and is
+processed by absorption and re-emission by interstellar dust; it extends from the
+far-infrared though optical to the UV. Computing the ISRF is diﬃcult, but a
+great deal of new information on the stellar content of the Galaxy and dust is
+now available to make better models for use in propagation codes (85).
+The local environment around the Sun (86) is also important, for example the
+local bubble can have an eﬀect on radioactive nuclei as described in Sec 3.2.
+Extensive coverage of the local environment including CR is in (87).
+2.7
+Interactions
+This large subject is well covered in the literature. Details of the essential pro-
+cesses with references have been conveniently collected in our series of papers:
+energy losses of nuclei and electrons (67), bremsstrahlung and synchrotron emis-
+sion (81), inverse-Compton emission including anisotropic scattering (88), pion
+production of γ-rays, electrons and positrons (39). Pion production has recently
+been studied in great detail using modern particle-physics codes (89; 90), the for-
+mer giving spectra harder by 0.05 in the index and γ-ray yields somewhat higher
+at a few GeV than older treatments. New more accurate parameterizations will
+be important for the new generation of CR and γ-ray experiments.
+A useful
+guide to spallation cross-section measurements and models is the contribution by
+J. Connell in (91), and a summary of recent advances is in (92; 93; 94). Accounts
+of radioactive and K-capture processes are in (95; 96; 97; 73; 98).
+2.8
+Weighted Slabs and Leaky Boxes
+As mentioned at the start of this section, at present we believe that the diﬀusion
+model with possible inclusion of convection provides the most adequate descrip-
+tion of CR transport in the Galaxy at energies below about 1017 eV. The closely
+related leaky-box and weighted slab formalisms have provided the basis for most
+of the literature interpreting CR data.
+In the leaky-box model, the diﬀusion and convection terms are approximated
+by the leakage term with some characteristic escape time of CR from the Galaxy.
+The escape time τesc may be a function of particle energy (momentum), charge,
+and mass number if needed, but it does not depend on the spatial coordinates.
+There are two cases when the leaky box equations can be obtained as a correct
+approximation to the diﬀusion model: 1) the model with fast CR diﬀusion in the
+
+
+=== PAGE 10 ===
+10
+Cosmic-ray propagation
+Galaxy and particle reﬂection at the CR halo boundaries with some probability
+to escape (9), 2) the formulae for CR density in the Galactic disk in the ﬂat halo
+model (zh ≪R) with thin source and gas disks (zgas ≪zh) which are formally
+equivalent to the leaky-box model formulae in the case when stable nuclei are
+considered (10). The nuclear fragmentation is actually determined not by the
+escape time τesc but rather by the escape length in g cm−2: x = vρτesc , where ρ
+is the average gas density of interstellar gas in a galaxy with the volume of the
+cosmic ray halo included.
+The solution of a system of coupled transport equations for all isotopes involved
+in the process of nuclear fragmentation is required for studying CR propaga-
+tion. A powerful method, the weighted-slab technique, which consists of splitting
+the problem into astrophysical and nuclear parts was suggested for this problem
+(99; 9) before the modern computer epoch. The nuclear fragmentation prob-
+lem is solved in terms of the slab model wherein the CR beam is allowed to
+traverse a thickness x of the interstellar gas and these solutions are integrated
+over all values of x weighted with a distribution function G(x) derived from
+an astrophysical propagation model. In its standard realization (100; 101) the
+weighted-slab method breaks down for low energy CR where one has strong en-
+ergy dependence of nuclear cross sections, strong energy losses, and energy de-
+pendent diﬀusion. Furthermore, if the diﬀusion coeﬃcient depends on the nuclear
+species the method has rather signiﬁcant errors. After some modiﬁcation (102)
+the weighted-slab method becomes rigorous for the important special case of sep-
+arable dependence of the diﬀusion coeﬃcient on particle energy (or rigidity) and
+position with no convective transport. The modiﬁed weighted-slab method was
+applied to a few simple diﬀusion models in (69; 74). The weighted-slab method
+can also be applied to the solution of the leaky-box equations. It can easily be
+shown that the leaky-box model has an exponential distribution of path lengths
+G(x) ∝exp(−x/X) with the mean grammage equal to the escape length X.
+In a purely empirical approach, one can try to determine the shape of the
+distribution function G(x) which best ﬁts the data on abundances of stable pri-
+mary and secondary nuclei (1). It has been established that the shape of G(x)
+is close to exponential: G(x) ∝exp(−x/X(R, β)), and this justiﬁes the use of
+the leaky-box model in this case. There are several recent calculations of G(x)
+(103; 104; 69; 74).
+The possible existence of truncation, a deﬁcit at small path lengths (below a
+few g cm−2 at energies near 1 GeV/n), relative to an exponential path-length
+distribution, has been discussed for decades (1; 101; 105; 106). The problem was
+not solved mainly because of cross-sectional uncertainties. In a consistent theory
+of CR diﬀusion and nuclear fragmentation in the cloudy interstellar medium, the
+truncation occurs naturally if some fraction of CR sources resides inside dense
+giant molecular clouds (107).
+For radioactive nuclei, the classical approach is to compute the ‘surviving frac-
+tion’ which is the ratio of the observed abundance to that expected in the case
+of no decay. Often the result is given in the form of an eﬀective mean gas den-
+sity, to be compared with the average density in the Galaxy, but this density
+should not be taken at face value. The surviving fraction can better be related
+to physical parameters (108). None of these methods can face the complexities of
+propagation of CR electrons and positrons with their large energy and spatially
+dependent energy losses.
+
+
+=== PAGE 11 ===
+Strong, Moskalenko, and Ptuskin
+11
+2.9
+Explicit models
+Finally the mathematical eﬀort required to put the 3-D Galaxy into a 1-D for-
+malism becomes overwhelming, and it seems better to work in physical space
+from the beginning: this approach is intuitively simple and easy to interpret.
+We can call these ‘explicit solutions.’ The explicit solution approach including
+secondaries was pioneered by (10) and applied to newer data by (109; 65) with
+analytical solutions for 2D diﬀusion-convection models with a cosmic-ray source
+distribution, which however had many restrictive approximations to make them
+tractable (no energy losses, simple gas model). More recently a semi-empirical
+model which is 2D and includes energy-losses and reacceleration has been devel-
+oped (110; 68). This is a closed-form solution expressed as a Green’s function to
+be integrated over the sources. It incorporates a radial CR source distribution,
+but the gas model is a simple constant density within the disk. (111) give an an-
+alytical solution for the time-dependent case with a generalized gas distribution
+but now without energy losses. (This shows again the problem of handling both
+gas and energy losses simultaneously in analytical schemes).
+A ‘myriad sources model’ (112), which is actually a Green’s function method
+without energy losses, yields similar results to (113) for the diﬀusion coeﬃcient
+and halo size. But applying the no-energy loss case to ACE data is not really
+justiﬁed, and some defects in their formulation have been pointed out (111). A
+3D analytical propagation method has been developed (114; 115) with energy
+loss and reacceleration, going via a PLD, but it cannot handle ionization losses
+properly, see section 2.2 of (115). They have no spatial boundaries at all and
+rather simpliﬁed (exponential) forms for the gas and other distributions.
+An
+approach adapted to ﬁne-scale spatial and temporal variations has been described
+(116). This uses a Green’s function without energy losses or detailed gas model
+and hence is limited in its application, but is useful for studying the eﬀect of
+discrete sources.
+The most advanced explicit solution to date is the fully numerical model de-
+scribed in the next section. Even this has limitations in treating some aspects
+(e.g. when particle trajectories become important at high energies) so one might
+ask whether a fully Monte-Carlo approach (as is commonly done for energies
+> 1015 eV) would not be better in the future, given increasing computing power.
+This would allow eﬀects like ﬁeld-line diﬀusion (important for propagation per-
+pendicular to the Galactic plane) to be explicitly included. However it is still
+challenging: a GeV particle diﬀusing with a mean free path of 1 pc in a Galaxy
+with 4 kpc halo height takes ∼(4000/1)2 ≈107 scatterings to leave the Galaxy,
+which would even now need supercomputers to obtain adequate statistics. Hence
+we expect numerical solution of the propagation equations to remain an impor-
+tant approach for the foreseeable future.
+2.10
+GALPROP
+The GALPROP code (67) was created with the following aims: 1. to enable si-
+multaneous predictions of all relevant observations including CR nuclei, electrons
+and positrons, γ-rays and synchrotron radiation, 2. to overcome the limitations of
+analytical and semi-analytical methods, taking advantage of advances in comput-
+ing power, as CR, γ-ray and other data become more accurate, 3. to incorporate
+current information on Galactic structure and source distributions, 4. to pro-
+
+
+=== PAGE 12 ===
+12
+Cosmic-ray propagation
+vide a publicly-available code as a basis for further expansion. The ﬁrst point is
+the most important, the idea being that all data relate to the same system, the
+Galaxy, and one cannot for example allow a model which ﬁts secondary/primary
+ratios while not ﬁtting γ-rays or not being compatible with the known interstel-
+lar gas distribution. There are many simultaneous constraints, and to ﬁnd one
+model satisfying all of them is a challenge, which in fact has not been met up to
+now. Upcoming missions should beneﬁt2.
+We give a very brief summary of GALPROP; for details we refer the reader
+to the relevant papers (67; 39; 81; 117; 113; 75) and a dedicated website3. The
+propagation equation (1) is solved numerically on a spatial grid, either in 2D with
+cylindrical symmetry in the Galaxy or in full 3D. The boundaries of the model in
+radius and height, and the grid spacing, are user-deﬁnable. In addition there is a
+grid in momentum; momentum (not e.g. kinetic energy) is used because it is the
+natural quantity for propagation in equation (1). Parameters for all processes
+in equation (1) can be controlled on input. The distribution of CR sources can
+be freely chosen, typically to represent SNR. Source spectral shape and isotopic
+composition (relative to protons) are input parameters. Interstellar gas distri-
+butions are based on current HI and CO surveys, and the interstellar radiation
+ﬁeld is based on a detailed calculation. Cross-sections are based on extensive
+compilations and parameterizations (92).
+The numerical solution proceeds in
+time until a steady-state is reached; a time-dependent solution is also an option.
+Starting with the heaviest primary nucleus considered (e.g. 64Ni) the propagation
+solution is used to compute the source term for its spallation products, which are
+then propagated in turn, and so on down to protons, secondary electrons and
+positrons, and antiprotons. In this way secondaries, tertiaries etc. are included.
+(Production of 10B via the 10Be-decay channel is important and requires a second
+iteration of this procedure.) GALPROP includes K-capture and electron strip-
+ping processes, where a nucleus with an electron (H-like) is considered a separate
+species because of the diﬀerence in the lifetime. Since H-like atoms have only
+one K-shell electron, the K-capture decay half-life has to be increased by a fac-
+tor of 2 compared to the measured half-life value. Primary electrons are treated
+separately. Normalization of protons, helium and electrons to experimental data
+is provided (all other isotopes are determined by the source composition and
+propagation). γ-rays and synchrotron are computed using interstellar gas data
+(for pion-decay and bremsstrahlung) and the ISRF model (for inverse Compton).
+Spectra of all species on the chosen grid and the γ-ray and synchrotron skymaps
+are output in a standard astronomical format for comparison with data.
+Re-
+cent extensions to GALPROP include non-linear wave damping (75) and a dark
+matter package.
+The computing resources required by GALPROP are moderate by today’s
+standards. We remark that while GALPROP has the ambitious goal of being
+‘realistic’, it is obvious that any such model can only be a crude approximation
+to reality. Some known limitations are: only energies below 1015 eV (no trajectory
+calculations), uniform source abundances (no superbubble enhancements), only
+scales >10 pc (no clumpy ISM: limited by computer power), B-ﬁeld treated as
+random for synchrotron (regular component aﬀects structure of radio emission).
+2GALPROP has been adopted as the standard for diﬀuse Galactic γ-ray emission for NASA’s
+GLAST γ-ray observatory, and is also made use of by the AMS, ACE, HEAT and Pamela
+collaborations.
+3http://galprop.stanford.edu
+
+
+=== PAGE 13 ===
+Strong, Moskalenko, and Ptuskin
+13
+For these cases other techniques may be more appropriate, and they provide a
+goal for future developments of GALPROP.
+2.11
+Numerical versus analytical
+The following expresses the authors’ opinion on this matter.
+The analytical
+approaches are claimed to have various advantages as follows:
+1. Physical insight: of course it is true that analytical solutions for simple
+cases are very useful to get insight into the relations between the quantities
+involved, and for rough estimates. In fact the analytical formulae may become so
+complicated that ﬁnally no insight is gained. In contrast the numerical models are
+very intuitive since they generate explicitly the CR distribution over the Galaxy
+for all species. 2. Equivalent to full solution of propagation equation: only
+true under restrictive conditions, especially involving energy-losses and spatially
+varying densities. Electrons and positrons are anyway beyond analytical methods
+(for energy-losses on realistic interstellar radiation ﬁelds), while these are an
+essential component of the CR. 3. Faster, easier to compute: with todays
+computers the speed issue has become irrelevant, and the implementation of a
+numerical model is not harder than the complicated integrals over Bessel functions
+etc.
+In summary we can do no better than a quotation from a paper of 26 years ago
+(!) (118): ‘It is unclear whether one would wish to go much beyond the general-
+izations discussed above for an analytically soluble diﬀusion model. The added
+insight from any analytic solution over a purely numerical approach is quickly
+cancelled by the growing complexity of the formulae. With rapidly developing
+computational capabilities, one could proﬁtably employ numerical solutions...’
+We remark also that for CR air-shower calculations, analytical methods gave
+way to numerical ones at least 40 years ago.
+2.12
+Self-consistent models
+A few attempts at a self-consistent description of CR in the Galaxy have been
+made, including them as a relativistic gas as one component of ISM dynamics.
+This is obviously much harder than the phenomenological models described above
+which treat propagation in a prescribed environment. 3D models of the magne-
+tized ISM with a CR-driven wind have been made by (32; 33) and this is claimed
+to be also consistent with CR secondary/primary ratios. Such a wind has been
+put forward as a possible explanation of the CR gradient problem (70). The
+Parker instability has been re-analysed recently (119) using anisotropic diﬀusion
+(120) and followed by a CR-driven Galactic dynamo model (121) which uses an
+extension the Zeus-3D MHD code (30) including CR propagation and sources.
+CR propagation in a magnetic ﬁeld produced by dynamo action of a turbulent
+ﬂow (31) presents the whole subject from a novel viewpoint. The extension of
+such approaches to include CR spectra, secondaries, γ-rays etc., which would
+provide a complete set of comparisons with observations, would be very desirable
+but has not yet been attempted. Another kind of self-consistency is to include
+the eﬀect of CR on the diﬀusion coeﬃcient (75) as described in more detail in
+Section 2.5.
+
+
+=== PAGE 14 ===
+14
+Cosmic-ray propagation
+3
+Confrontation of Theory with Data
+3.1
+Stable secondary/primary ratios
+The reference ratio is almost always B/C because B is entirely secondary, the
+measurements are better than for other ratios and are available up to 100 GeV.
+Because C,N,O are the major progenitors of B, the production cross sections are
+better known than, e.g. in the case of Be and Li (122; 94).
+The usual procedure is to use a leaky-box or weighted-slab formalism with the
+empirical rigidity-dependence X(R) = (β/β0)X0, (β/β0)(R/R0)−αX0 for R <
+R0, R > R0 respectively. The break at R0 is required because B/C is observed
+to decrease to low energies faster than the β-dependence (which just describes
+the velocity eﬀect on the reaction rate). The source composition depends on the
+form and parameters of X(R), and vice-versa, (since for example B is produced
+by C,N,O etc) so the procedure is iterative, starting from a solar-like composition.
+A typical parameter set ﬁtting the data (69) is α = 0.54 , X0 = 11.8 g cm−2, R0
+= 4.9 GV/c, with a source spectrum rigidity index –2.35. In principle all other
+secondary/primary ratios should be consistent with the same parameter set. This
+is generally found to be the case. As a state-of-the-art application of the weighted
+slab technique of (102) we again refer to (69). This is applicable to stable nuclei
+only but includes energy losses and gains subject to the limitations described
+in Section 2.8. They apply the method to 1-D disk-halo diﬀusion, convection,
+turbulent diﬀusion and reacceleration models cast in weighted-slab form. Fig. 8
+shows B/C and (Sc+Ti+V)/Fe, so-called sub-Fe/Fe, from their paper. Clearly
+the models cannot be distinguished based on these types of data alone, and they
+can all provide an adequate ﬁt; this shows the importance of using other species
+as well as the ones used here. The models can be used to obtain the injection
+spectrum of primaries, and they ﬁnd an index of 2.3 to 2.4 for C and Fe in the
+energy range 0.5 – 100 TeV, with the propagated spectrum and data shown in
+Fig. 9.
+It has been claimed that no break in X(R) is required to ﬁt Voyager 2 outer-
+heliosphere B/C, N/O and sub-Fe/Fe data extended to 1.5 GeV, plus HEAO3
+data, and adopting suitable solar modulation levels (123). Voyager 2 provides a
+unique dataset because of the low solar modulation.
+We consider now explicit models in the sense of Section 2.9. Basically the same
+procedure is adopted, with Dxx(R) replacing X(R). Again an ad-hoc break in
+Dxx(R) is required in the absence of other mechanisms. Because of the unphysical
+nature of such a Dxx(R), many attempts to ﬁnd a better explanation have been
+made, including convection, reacceleration/wave damping, and local sources.
+Convection implies an energy-independent escape from the Galaxy so that it
+dominates at low energies as the diﬀusion rate decreases, so it gives a simple low-
+energy asymptotic X(R) ∝β. However this does not resemble the observed B/C
+energy-dependence, being too monotonic (67). Furthermore quite severe limits
+on the convection velocity come from unstable nuclei.
+Reacceleration aﬀects the secondary-primary ratio as described in Section 2.5.
+Many papers have shown how B/C and other ratios can be reproduced with
+reacceleration at a plausible level and no ad-hoc break in the diﬀusion coeﬃcient.
+An example is shown in Fig. 8. An application including recent ACE (Li, Be, B,
+C) data is in (94). Since reacceleration at some level must be present if diﬀusion
+occurs on moving scatterers (e.g. Alfv´en waves) this mechanism is favoured but
+
+
+=== PAGE 15 ===
+Strong, Moskalenko, and Ptuskin
+15
+it is not proven.
+Direct evidence for reacceleration could come from certain
+K-capture nuclei (Section 3.4).
+Reacceleration requires a smaller value of α,
+typically 0.3 – 0.4 , consistent with Kolmogorov turbulence, which helps solve
+the problems with anisotropy (section 3.5).
+Closely related to reacceleration is wave-damping as described in Section 2.5.
+This can reproduce B/C, protons and antiprotons satisfactorily as shown in
+Fig. 10, and also other data (75). The result of this process is a very sharp rise
+of the diﬀusion coeﬃcient at rigidities less than about 1.5 GV. The Kolmogorov-
+type dependence is not very successful in this scheme, while a Kraichnan-type
+works better with a high rigidity asymptotic D ∼R0.5 (ﬁrst panel in Fig. 10).
+A quite diﬀerent set of parameters has been proposed (68): α = 0.7 −0.9
+and injection index ≈2.0, based on ﬁtting many species simultaneously, and is
+suggested to produce the B/C low-energy decrease from convection. Such a large
+α would give problems for the anisotropy (Section 3.5). A related analysis (110)
+claims to exclude the Kolmogorov-type spectrum.
+An alternative explanation for the falloﬀin B/C at low energies invokes weakly
+nonlinear (in contrast to quasi-linear) transport theory of cosmic rays in turbulent
+Galactic magnetic ﬁelds (124; 125).
+Another, simpler, explanation of the B/C energy-dependence is the local-source
+model (104; 126) in which part of the primary CR have an additional local com-
+ponent. Since the secondary ﬂux has to come from the Galaxy-at-large (the local
+secondaries being negligible) a steep local primary source will cause B/C to de-
+crease at low energies. The known existence of the local bubble containing the
+Sun, and its probable origin in a few supernovae in the last few million years,
+make this a plausible possibility, but hard to prove or disprove. It is claimed
+(104) that if B/C is ﬁtted in such a model, then sub-Fe/Fe is not ﬁtted, but an
+acceptable ﬁt to this and other data is found in (126) using a diﬀusion model for
+the large-scale component.
+3.2
+Unstable secondary/primary ratios: ‘radioactive clocks’
+The ﬁve unstable secondary nuclei which live long enough to be useful probes
+of cosmic-ray propagation are 14C, 10Be, 26Al, 36Cl and 54Mn, with properties
+summarized in (101; 127; 126). 10Be is the longest-lived and best measured. The
+theory is presented in section 2.2. Based on these isotopes and updated cross-
+sections (128) ﬁnd zh=4–6 kpc, consistent with their earlier estimates of 3–7 kpc
+(98) and 4–12 kpc (67). Fig. 11 shows a comparison of 10Be/9Be with models;
+the ISOMAX 10Be measurements (129) up to 2 GeV (and hence longer decay
+lifetime) are consistent with the ﬁt to the other data, although the statistics are
+not very constraining.
+The data are often interpreted in terms of the leaky-box model, but this is
+misleading (108; 131; 127).
+For the formulae and the detailed procedure for
+the leaky-box model interpretation see (132). Luckily the leaky-box model sur-
+viving fraction can be converted to a physically meaningful quantities (131)
+for a given model; for example in a simple diﬀusive halo model, the surviv-
+ing fraction determines the diﬀusion coeﬃcient, which can be combined with
+stable secondary/primary ratios to derive the halo size.
+Typical results are
+Dxx = (3 −5) × 1028 cm2 s−1 (at 3 GV) and zh = 4 kpc. We can then compare
+the leaky-box model ‘escape time’ ≈107 yr with the actual time for CR to reach
+the halo boundary after leaving their sources, the latter being typically an order
+
+
+=== PAGE 16 ===
+16
+Cosmic-ray propagation
+of magnitude larger. The leaky-box model ‘gas density’ is typically 0.3 cm−3
+compared to the actual average density 0.03 cm−3 for a 4 kpc halo height, again
+an order-of-magnitude diﬀerence.
+Since radioactive secondaries only travel a few hundred pc before decaying it is
+sometimes considered (133) that they cannot give information on the propagation
+region of CR; this is somewhat misleading since it is precisely the combination
+of stable and radioactive data which does allow this; the radioactives determine
+the diﬀusion coeﬃcient, which then allows the size of the full propagation region
+to be determined from the stable secondary/primary ratio (where the CR do
+come from the entire containment region). This of course assumes the diﬀusion
+coeﬃcient does not vary greatly from the local region to the full volume.
+The eﬀect of the local bubble surrounding the Sun on the interpretation of
+radioactive nuclei was pointed out by (127). The ﬂux of unstable secondaries is
+reduced if they are not produced in a gas-depleted region around the Sun, since
+they will decay before reaching us, and this could lead to an overestimate of the
+halo size if interpreted in a simple diﬀusive halo model. This eﬀect would be
+reduced if the diﬀusion coeﬃcient in the local region were larger than the large-
+scale value. In fact the situation is even more complex. According to (86; 87; 134)
+the Sun left the local bubble about 105 years ago after spending several million
+years inside, and we now live in the CLIC (collection of local interstellar clouds)
+with HI density about 0.2 cm−3 and 35 pc extent. This aspect of the problem
+for CR propagation has not yet been addressed.
+3.3
+K-capture isotopes and acceleration delay
+Three isotopes produced in explosive nucleosynthesis decay essentially only by
+K-capture: 59Ni (7.6 × 104 y), 57Co (0.74 yr), 56Ni (6d). If acceleration occurs
+before decay, the decay will be suppressed since the nuclei are stripped. 56Ni is
+absent as expected, but the other two nuclei are more interesting. (135) used ACE
+data on these nuclei to show that the delay between synthesis and acceleration is
+long compared with the 59Ni decay-time, unless signiﬁcant 59Co is synthesised in
+supernovae; considering theoretical 59Co yields they conclude on a delay ≥105 y.
+This is inconsistent with models in which supernova accelerate their own ejecta,
+but consistent with acceleration of existing interstellar material. The possibility
+of in-ﬂight electron attachment complicates the analysis however (135). For more
+discussion see (133). A result from TIGER on Co/Ni at 1-5 GeV/n (136) supports
+the acceleration delay also at higher energies.
+3.4
+K-capture isotopes and reacceleration
+Analyses using ACE data for 49V, 51V, 51Cr, 52Cr and 49Ti and other nuclei
+have been made (73), (137), (74). (137) found that while 51V/52Cr was in better
+agreement with reacceleration models, 49Ti/46+47+48Ti gave the opposite result.
+(74) ﬁnd that while V/Cr ratios are in slightly better agreement with models
+including reacceleration, the ratios involving Ti are inconclusive. (137) used ACE
+data on 37Ar, 44Ti, 49V, 51Cr, 55Fe and 57Co, with inconclusive results. The main
+problem is the accuracy of the fragmentation cross-sections (126). Discussion of
+ACE and previous results can be found in section 3 of (133).
+
+
+=== PAGE 17 ===
+Strong, Moskalenko, and Ptuskin
+17
+3.5
+Anisotropy
+High isotropy is a distinctive quality of Galactic CR observed at the Earth. The
+global leakage of CR from the Galaxy and the contribution of individual sources
+lead to anisotropy but the trajectories of energetic charged particles are highly
+tangled by regular and stochastic interstellar magnetic ﬁelds which isotropize
+the CR angular distribution. This makes diﬃcult or even impossible the direct
+association of detected CR particles with their sources, except for the highest
+energy particles. Observations give the amplitude of the ﬁrst angular harmonic
+of anisotropy at the level of δ ∼10−3 in the energy range 1012 to 1014 eV where
+the most reliable data are available, see (138; 139) and Fig. 12. The angular
+distribution of particles at lower energies is signiﬁcantly modulated by the so-
+lar wind.
+The statistics at higher energies are not good enough yet but the
+measurements indicate the anisotropy amplitude at a level of a few percent at
+1016 −1018 eV. The data of the Super-Kamiokande-I detector (140) allowed ac-
+curate two-dimensional mapping of CR anisotropy at 1013 eV (see also the Tibet
+Air Shower Array results (138)). After correction for atmospheric eﬀects, the
+deviation from the isotropic event rate is 0.1% with a statistical signiﬁcance of
+>5σ and direction to maximum excess at roughly α = 75◦, δ = −5◦.
+The amplitude of anisotropy in the diﬀusion approximation is given by the
+following equation which includes pure diﬀusion and convection terms:
+δ =
+−[3D∇f + up (∂f/∂p)]/vf, see (8). Here D is the diﬀusion tensor, and it is as-
+sumed that the magnetic inhomogeneities which scatter CR particles are frozen
+in the background medium, moving with velocity u ≪v, which gives rise to the
+convection term (also called the Compton-Getting term).
+The Compton-Getting anisotropy is equal to (γ + 2)u/c for ultra-rerelativistic
+CR with a power law spectrum I(E) ∼p2f(p) ∼E−γ. The motion of the Solar
+System through the local interstellar medium produces the constant term in the
+energy-dependence of the anisotropy ∼4 × 10−4, with a maximum intensity in
+the general direction to the Galactic centre region, which does not agree with
+the data at 1012 −1014 eV which point to an excess intensity from the anticenter
+hemisphere. The convection eﬀect is outweighed by the diﬀusion anisotropy which
+is due to the non-uniform distribution of CR in the Galaxy.
+The systematic
+decrease of CR intensity to the periphery of the Galaxy and the CR ﬂuctuations
+produced by nearby SNR are approximately equally important for the formation
+of the local CR gradient.
+Calculations of CR anisotropy (141) are illustrated in Fig. 12 where the eﬀect
+of global leakage from the Galaxy and the overall contribution of known SNR
+with distances up to 1 kpc are shown separately. Two basic versions of the ﬂat-
+halo diﬀusion model – the plain diﬀusion model with D ∼E0.54 and the model
+with reacceleration where Dxx ∼E0.3 – were used in the calculations. The values
+of Dxx were taken from (69). The diﬀusion from a few nearby SNR with diﬀerent
+ages and distances results in a non-monotonic dependence of anisotropy on energy.
+The ﬂux from the Vela SNR probably dominates over other SNR at energies
+below about 6×1013 eV in the plain diﬀusion model and below about 1014 eV for
+the model with reacceleration. The results of these calculations indicate that the
+diﬀusion model with reacceleration is compatible with the data on CR anisotropy
+within a factor of about 3. On the other hand it seems that the plain diﬀusion
+model with its relatively strong dependence of diﬀusion on energy predicts a too
+large anisotropy at E > 1014 eV. It should be stressed that CR diﬀusion is here
+
+
+=== PAGE 18 ===
+18
+Cosmic-ray propagation
+assumed to be isotropic, which is a seriously simplifying assumption but which
+is diﬃcult to avoid because of the complicated and in fact unknown detailed
+structure of the Galactic magnetic ﬁeld. The presence of a large-scale random
+magnetic ﬁeld justiﬁes the approximation of isotropic diﬀusion on scales larger
+than a few hundred parsecs, but the anisotropy is a characteristic which is very
+sensitive to the local surroundings of the Solar System including the direction of
+magnetic ﬁeld and the value of diﬀusion tensor, see discussion in (8).
+3.6
+Diﬀuse Galactic Gamma Rays
+Gamma rays (above about 100 MeV) from the interstellar medium hold great
+promise for CR studies since they originate throughout the Galaxy, not just the
+local region of direct measurements. The complementarity of γ-rays and direct
+measurements can be exploited to learn most about CR origin and propagation.
+Despite this the interpretation has brought surprises in that the γ-ray spectrum
+is not just as would be expected from the directly-observed CR spectra.
+γ-
+rays are produced in the interstellar medium by interactions of CR protons and
+He (π0-decay) and electrons (bremsstrahlung) with gas, and electrons with the
+interstellar radiation ﬁeld via inverse-Compton scattering.
+For details of the
+processes the reader is referred to (39; 81; 88; 113). Additional astronomical
+material comes into play like the distribution of atomic and molecular gas, and
+the interstellar radiation ﬁeld. In fact γ-rays provide an important independent
+handle on molecular hydrogen and its relation to its CO molecular tracer, which
+has taken its place beside more traditional determinations.
+Historically observations started with the OSO-III satellite in 1968, followed
+by SAS-2 in 1972, COS-B (1975–1982) and CGRO (1991–2000). Each of these
+experiments represented a signiﬁcant leap forward with respect to its predeces-
+sor. SAS-2 established the existence of emission from the interstellar medium
+and allowed a ﬁrst attempt to derive the CR distribution. With COS-B the CR
+distribution could be better derived and it was found not to follow the canonical
+distribution of supernova remnants, which posed a problem for the SNR origin
+of CR. A rather dependable value for the CO-H2 relation was derived. With
+EGRET and COMPTEL on the Compton Gamma Ray Observatory (CGRO)
+the improvement in data quality was suﬃcient to allow such studies to be per-
+formed in much greater detail. There is now so much relevant information and
+theory that a rather ‘realistic’ approach is justiﬁed and indeed necessary. At this
+point the best approach seems to be explicit modelling of the high-energy Galaxy
+putting in concepts from CR sources and propagation, Galactic structure, etc.
+The idea of a single model to reproduce both CR and gamma-ray (and other)
+data simultaneously arose naturally and is the goal of the GALPROP project
+(see Sec 2.10). For a recent review see (143).
+To illustrate the current state of the art, we show spectra and proﬁles from a
+recent GALPROP model compared with CGRO/EGRET and COMPTEL data.
+This is based on (113) and (144) where full details can be found. The ﬁrst model is
+based simply on the directly-measured CR spectra together with a radial gradient
+in the CR sources. It is immediately clear that the spectrum is not well predicted,
+being below the EGRET data for energies above 1 GeV. However remembering
+that this is an unﬁtted prediction, it does show that the basic assumption that
+the γ-rays are produced in CR interactions is correct; the factor 2 diﬀerences are
+telling us something about the remaining uncertainties. The extent to which the
+
+
+=== PAGE 19 ===
+Strong, Moskalenko, and Ptuskin
+19
+CR spectra have to be modiﬁed to get a good ﬁt including the GeV excess is shown
+in Fig. 13 and the resulting γ-ray model prediction in Fig. 14. The diﬀerence
+between the directly-observed and modiﬁed spectra are within plausible limits
+considering solar modulation and spatial ﬂuctuations in the Galaxy on scales
+>100 pc. A detailed justiﬁcation is lacking however, so this so-called ‘optimized’
+model is just an existence proof rather than a conclusive result.
+Other more
+drastic modiﬁcations to the CR spectrum have been proposed (78) as follows:
+(i) a very hard electron injection spectrum, which could be allowed invoking
+large ﬂuctuations due to energy losses and the stochastic nature of supernova
+remnants in space and time – the solar vicinity is not necessarily a ‘typical’ place
+for electron measurements to be representative (145; 81). However the variations
+required are even larger than can reasonably be expected (113), so this model
+seems unlikely.
+(ii) a hard proton spectrum, again invoking spatial variations in the Galaxy
+so the solar vicinity is not typical; this is more diﬃcult than for electrons since
+the proton energy-losses are negligible. It turns out this possibility can be ruled
+out on the basis of antiproton measurements: too many antiprotons would be
+produced by the same protons which generate the gamma rays (146; 113; 78).
+A related suggestion invokes the dispersion in the radio spectral indices of SNR,
+which indicates a dispersion in electron indices and if assumed to apply to CR
+protons (147) could produce the GeV excess; this should also be tested against
+antiprotons.
+Perhaps a completely diﬀerent source of the excess GeV gamma rays is present,
+and the possibility of a dark-matter origin has been pursued (148) but found to
+produces an excess of CR antiprotons (149). We will not enter this debate here
+since it is not directly related to the problem of CR propagation. It does however
+show how essential is a good understanding of the CR-induced γ-rays in the
+Galaxy for the study of potentially more fundamental physics (150).
+The angular distribution of γ-rays provides an essential test for any model. The
+problem with the large expected gradient from SNR is critical. The distribution
+of SNR is hard to measure because of selection eﬀects, so this problem could be
+safely ignored in the past, but now the distribution of pulsars can be determined
+with reasonable accuracy and this should trace SNR since supernovae are pulsar
+progenitors. The pulsar gradient is indeed larger than originally deduced from
+γ-rays as shown in Fig. 15. The distribution of SNR in external galaxies shows a
+similar gradient to pulsars (152). The problem therefore remains, but a possible
+solution may be found in another uncertainty, the Galactic distribution of molec-
+ular hydrogen. Since we have to rely on the CO tracer molecule, any variation
+in the relation of CO to H2 will aﬀect the interpretation of the γ-ray data. (144)
+noted that there is independent evidence for an increase in the ratio of H2 to CO
+with Galactocentric radius, related to Galactic metallicity gradients, and that
+this can resolve the problem, allowing CR sources to follow the SNR distribu-
+tion as traced by pulsars. Fig. 16 shows longitude and latitude proﬁles based on
+such a model, showing a satisfactory agreement with EGRET data. However the
+magnitude of the variation in H2 to CO, or its relation to metallicity and other
+eﬀects, is uncertain so the issue will need more study. Future data from GLAST
+will help by giving much ﬁner angular resolution and the possibility of better
+separating the molecular and atomic hydrogen components. Another possible
+solution to the gradient puzzle in terms of a radially dependent Galactic wind
+was proposed by (70) (see Sections 2.4 and 2.12).
+
+
+=== PAGE 20 ===
+20
+Cosmic-ray propagation
+Note the large contribution inverse-Compton emission to the spectra and pro-
+ﬁles (Figs. 14, 16); this is the reason that the predicted emission is in good
+agreement with the EGRET data right up to the highest latitudes (where the
+gas-relation pion-decay emission is small). Therefore γ-rays constrain both pro-
+tons and electrons, the diﬀerent angular distributions being clearly distinguish-
+able. The high-latitude inverse-Compton emission is independent evidence for
+the existence of a CR halo extending up to several kpc above the plane, de-
+duced from radioactive CR isotopes as explained in Section 3.2. Interestingly,
+secondary electrons and positrons make a signiﬁcant contribution to the lower-
+energy bremsstrahlung and inverse-Compton gamma-rays (113); so we can in
+principle observe secondaries from all over the Galaxy, complementary to the
+local direct measurements.
+3.7
+Antiprotons and positrons
+The spectrum and origin of antiprotons in CR has been a matter of active de-
+bate since the ﬁrst reported detections in balloon ﬂights (153; 154). There is a
+consensus that most of the CR antiprotons observed near the Earth are secon-
+daries (155). Due to the kinematics of secondary production, the spectrum of
+antiprotons has a unique shape distinguishing it from other cosmic-ray species.
+It peaks at about 2 GeV, decreasing sharply towards lower energies. In addition
+to secondary antiprotons there are possible sources of primary antiprotons; those
+most often discussed are dark matter particle annihilation and evaporation of
+primordial black holes.
+In recent years, new data with large statistics on both low and high energy
+antiproton ﬂuxes have become available (156; 157; 158; 159; 160; 161; 162) thanks
+mostly to continuous improvements of the BESS instrument and its systematic
+launches every 1-2 years.
+This allows one to test models of CR propagation
+and heliospheric modulation. Additionally, accurate calculation of the secondary
+antiproton ﬂux predicts the “background” for searches for exotic signals such as
+WIMP annihilation.
+Despite numerous eﬀorts and overall agreement on the secondary nature of
+the majority of CR antiprotons, published estimates of the expected ﬂux diﬀer
+signiﬁcantly (see, e.g., Fig. 3 in (158)). Calculation of the secondary antiproton
+ﬂux is a complicated task. The major sources of uncertainties are three-fold: (i)
+incomplete knowledge of cross sections for antiproton production, annihilation,
+and scattering, (ii) parameters and models of particle propagation in the Galaxy,
+and (iii) modulation in the heliosphere. While the interstellar antiproton ﬂux
+is aﬀected only by uncertainties in the cross sections and propagation models,
+the ﬁnal comparison with experiment can only be made after correcting for the
+solar modulation. Besides, the spectra of CR nucleons have been directly mea-
+sured only inside the heliosphere while we need to know the spectrum outside, in
+interstellar space, to compute the antiproton production rate correctly.
+It has recently been shown (117) that accurate antiproton measurements during
+the last solar minimum 1995–1997 (158) are inconsistent with existing propaga-
+tion models at the ∼40% level at about 2 GeV, while the stated measurement
+uncertainties in this energy range are now ∼20%. The conventional models based
+on local CR measurements, simple energy dependence of the diﬀusion coeﬃcient,
+and uniform CR source spectra throughout the Galaxy fail to reproduce simul-
+taneously both the secondary to primary nuclei ratio and antiproton ﬂux.
+
+
+=== PAGE 21 ===
+Strong, Moskalenko, and Ptuskin
+21
+A reacceleration model designed to match secondary to primary nuclei ratios
+produces too few antiprotons because the diﬀusion coeﬃcient is too large. Models
+without reacceleration can reproduce the antiproton ﬂux, but cannot explain the
+low-energy decrease in the secondary-to-primary nuclei ratios. To be consistent
+with both, the introduction of breaks in the diﬀusion coeﬃcient and the injection
+spectrum is required, which would suggest new phenomena in particle acceleration
+and propagation. A solution in terms of propagation models requires a break in
+the diﬀusion coeﬃcient at a few GeV which has been interpreted as a change in
+the propagation mode (117). The latter calculation employs a modern steady-
+state drift model of propagation in the heliosphere to predict the proton and
+antiproton ﬂuxes near the Earth for diﬀerent modulation levels and magnetic
+polarity.
+If our local environment inﬂuences the spectrum of CR, then it is possible to
+solve the problem by invoking a fresh “unprocessed” nuclei component at low
+energies (126), which may be produced in the Local Bubble. The idea is that
+primary CR like C and O have a local low-energy component, while secondary
+CR like B are produced Galaxy-wide over the conﬁnement time of 10–100 Myr.
+In this way an excess of B, which appears when propagation parameters are tuned
+to match the ¯p data, can be eliminated by an additional local source of C (see
+Section 3.1). The model appears to be able to describe a variety of CR data, but
+at the cost of additional parameters.
+A consistent ¯p ﬂux in reacceleration models can be obtained if there are addi-
+tional sources of protons ∼<20 GeV (163). This energy is above the ¯p production
+threshold and eﬀectively produces ¯p’s at ∼<2 GeV. The intensity and spectral
+shape of this component could be derived by combining restrictions from ¯p’s and
+diﬀuse γ-rays.
+It is clear that accurate measurements of ¯p ﬂux are the key to testing cur-
+rent propagation models. If new measurements conﬁrm the ¯p “excess,” current
+propagation and/or modulation models will face a challenge. If not – it will be
+evidence that the reacceleration model is currently the best one to describe the
+data. Here we have to await for the next BESS-Polar ﬂight which should bring
+much larger statistics, and Pamela (164), currently in orbit.
+Positrons in CR were discovered in 1964 (165). The ratio of positrons to elec-
+trons is approximately 0.1 above ∼1 GeV as measured near the Earth. Secondary
+positrons in CR are mostly the decay products of charged pions and kaons (π+,
+K+) produced in CR interactions with interstellar gas. The calculation of the
+positron production by CR generally agrees with the data and indicates that
+the majority of CR positrons are secondary (166; 39). Some small fraction of
+positrons may also come from sources (167), such as pulsar winds (168) or WIMP
+annihilations (169).
+In interstellar space the secondary positron ﬂux below ∼1 GeV is comparable to
+the electron ﬂux which makes positrons non-negligible contributors to the diﬀuse
+γ-ray emission in the MeV range (113). The contribution of secondary positrons
+and electrons in diﬀuse Galactic γ-ray emission models essentially improves the
+agreement with the data, making secondary positrons eﬀectively detectable in
+γ-rays.
+The accuracy of spacecraft and balloon-borne experiments has substantially in-
+creased during the last decade. The data taken by various instruments including
+AMS, CAPRICE and HEAT (170; 41; 171; 172) are in agreement with each other
+within the error bars, which are however still quite large. A recent measurement
+
+
+=== PAGE 22 ===
+22
+Cosmic-ray propagation
+of CR positron fraction by the HEAT instrument (42) indicates an excess (fea-
+ture) between 5 and 7 GeV at the level of ∼3σ over the smooth prediction of a
+propagation model (39). When all the HEAT ﬂights are combined, the data show
+an excess above ∼8 GeV, with the most signiﬁcant point at ∼8 GeV (42). The
+Pamela satellite (164) currently in orbit, will have a very good positron statistics.
+3.8
+Electrons and Synchrotron Radiation
+CR electrons require a separate treatment from nuclei because of their rapid en-
+ergy losses and their link with synchrotron radiation. Their low energy density
+compared with nuclei (≈1%) is not yet understood; standard SNR shock acceler-
+ation does not predict such a ratio and it is normally a free parameter in models
+e.g. (173). Direct measurements extend from MeV to TeV ; at low energies solar
+modulation is so large that the interstellar ﬂuxes are really unknown. At TeV
+energies the statistics are very poor but new experiments are in progress. Young
+SNR contain TeV electrons as is shown by their non-thermal X-ray emission, and
+energies up to 100 TeV are possible (174). The rapid energy losses mean that
+contributions from old nearby SNR such as Loop 1, Vela, the Cygnus Loop and
+MonoGem could make an important contribution to the local electron spectrum
+above 100 GeV and dominate above 1 TeV, see Fig. 4 (37). The rapid energy
+losses of electrons also produce time- and space-dependent eﬀects described in
+the next section. The essential propagation eﬀects are seen in Fig. 13; at energies
+below 1 GeV the interstellar spectrum is ﬂatter than the injection spectrum, due
+to Coulomb losses; there is an intermediate energy range where the spectrum
+is similar to that at injection, and at high energies it steepens due to inverse
+Compton and synchrotron losses and energy-dependent diﬀusion. For propaga-
+tion models we need an injection spectrum which reproduces the observations;
+a typical spectral index is 2.4, similar to nuclei, which produces the observed
+high-energy slope of 3.3 (113). The synchrotron spectral index is βν = (γ −1)/2
+for an electron index γ; the observed βν = 0.6 −1, increasing with frequency,
+implies γ = 2.4 −3 increasing with energy, in satisfactory agreement. Detailed
+geometrical models of the Galactic synchrotron emission have been constructed
+(175; 176). A more physical interpretation requires propagation and magnetic
+ﬁeld modelling as for example in (81). Combined with γ-ray data this allows the
+magnetic ﬁeld to be determined as a function of Galactocentric radius indepen-
+dent of other techniques (81). Since that work a great deal of new radio data
+has become available both from new ground-based surveys and from balloons
+and satellites for cosmology (e.g. WMAP). Since Galactic synchrotron is an es-
+sential ‘foreground’ for CMB studies there is a large overlap of interest between
+these ﬁelds. Exploitation of these data for CR studies has only just begun but is
+expected to accelerate with the forthcoming Planck mission.
+Radio continuum observations of other galaxies provide a complementary view
+of electrons via synchrotron radiation (177; 178). The classical case is the edge-on
+galaxy NGC891 (179; 180) which has a non-thermal halo extending to several kpc,
+and this helped to give credence to the idea of a large halo in our Galaxy. More
+recent observations of this and other edge-on galaxies conﬁrm large halos (181).
+The spectral index variations due to energy losses provide a test of propagation in
+principle, although this has not been very fruitful up to now. This eﬀect can also
+be measured in starburst galaxies (182). Face-on galaxies like M51 show marked
+spiral structure in the continuum (177), but this is probably mainly a magnetic-
+
+
+=== PAGE 23 ===
+Strong, Moskalenko, and Ptuskin
+23
+ﬁeld eﬀect. It is not possible reliably to separate CR and magnetic ﬁeld variations,
+although this is often attempted assuming equipartition of energy between CR
+and ﬁeld, which although having no ﬁrmly established physical basis nevertheless
+gives ﬁeld values quite similar to other methods (183; 178).
+The tight radio-continuum/far-infrared correlation for galaxies (184; 185; 186)
+is worth mentioning here. It holds both within galaxies (down to 100 pc or less)
+and from galaxy to galaxy, and over several orders of magnitude in luminosity; it
+presumably contains clues to CR origin and propagation. The ‘CR calorimeter’
+(187) is the simplest interpretation. Simply relating both CR production and
+UV (reprocessed to far-infrared) to star formation rates is apparently insuﬃcient
+to explain the close correlation, and this has given rise to several diﬀerent inter-
+pretations including hydrostatic regulation, without being very conclusive as yet
+(184; 185; 186).
+3.9
+Time- and space-dependent eﬀects
+CR propagation is usually modelled as a spatially smooth, temporally steady-
+state process. Because of the rapid diﬀusion and long containment time-scales in
+the Galaxy this is usually a suﬃcient approximation, but there are cases where it
+breaks down. The rapid energy loss of electrons above 100 GeV and the stochastic
+nature of their sources produces spatial and temporal variations. Supernovae are
+stochastic events and each SNR source of CR lasts only perhaps 104 −105 years,
+so that they leave their imprint on the distribution of electrons.
+This leads
+to large ﬂuctuations in the CR electron density at high energies, so that the
+electron spectrum measured near the Sun may not be typical (113); a statistical
+calculation of this eﬀect can be found in (145; 188) and for local SNR in (37).
+These eﬀects are much smaller for nucleons since there are essentially no energy
+losses, but they can still be important (189); for the theory of CR ﬂuctuations
+for a galaxy with random SNR events see (141) and Section 3.5. Such eﬀects
+can inﬂuence the B/C ratio (111; 116) mainly through variations in the primary
+spectra. The local bubble can also have an eﬀect on the energy-dependence of
+B/C (126). Dispersion in CR injection spectra from SNR may cause the locally
+observed spectrum to deviate from the average (147).
+4
+Summary Points list
+Progress in CR research is rapid at the present time with the new generation
+of detectors for both direct and indirect measurements. But still it is hard to
+pin-down particular theories and even now the origin of the nucleonic component
+is not proven (34), although SNR are the leading candidates.
+The main points we want to make are
+• the importance of considering all relevant data, both direct (particles) and
+indirect (γ-ray, synchrotron) measurements
+• increase in computing power has made many of the old approximations for
+interpreting CR data unnecessary
+• new high-quality data will require detailed numerical models
+
+
+=== PAGE 24 ===
+24
+Cosmic-ray propagation
+5
+Future Issues
+We end by listing some of the open questions regarding CR propagation which
+might be answered with observations in the near future.
+• the interpretation of the energy-dependence of the secondary/primary ratio,
+requiring accurate measurements at both, low and high energies
+• the size of the propagation region – existence of an extended halo, requiring
+measurements of radioactive species over a broad energy range
+• the relative roles of diﬀusion, convection and reacceleration
+• the importance of local sources to the primary CR ﬂux
+• the origin of the GeV excess in γ-rays relative to the prediction based on
+locally observed CR
+• the CR source distribution: is it like SNR or not?
+• are positrons and antiprotons explained as secondaries from primary CR or
+is there a – perhap exotic – excess?
+In addition, on the theoretical side, we mention
+• the relation of CR-dynamical models of the Galaxy to CR propagation
+theory
+6
+Related Resources
+GALPROP website: http://galprop.stanford.edu,
+GLAST website: http://glast.stanford.edu
+7
+Key terms, deﬁnitions and acronyms
+Key terms/deﬁnitions:
+Direct measurements: measurements on CR themselves with detectors in bal-
+loons and satellites. Indirect measurements: via electromagnetic radiation (γ-
+rays and synchrotron) emitted by CR interacting with interstellar matter and
+radiation ﬁelds. Primary CR: CR accelerated at sources (for example in SNR).
+Secondary CR: CR generated by spallation of primary CR on interstellar gas. p:
+particle momentum, R: particle magnetic rigidity = pc/Ze, β: velocity/speed-
+of-light, zh: height of CR halo in direction perpendicular to Galactic plane
+Acronyms:
+ACE: Advanced Composition Explorer, B/C: cosmic-ray Boron-to-Carbon ra-
+tio, CMB: cosmic microwave background, CGRO: Compton Gamma Ray Obser-
+vatory, CR: cosmic rays, EGRET: Energetic gamma-ray telescope, GALPROP:
+Galactic Propagation code, GLAST: Gamma-ray Large Area Telescope, H.E.S.S.:
+High Energy Stereoscopic System, ISRF: interstellar radiation ﬁeld, PLD: path-
+length distribution, SNR: supernova remnant
+8
+Acknowledgements
+I.V.M. acknowledges partial support from a NASA Astronomy and Physics Re-
+search and Analysis Program (APRA) grant.
+
+
+=== PAGE 25 ===
+Strong, Moskalenko, and Ptuskin
+25
+References
+1. Shapiro MM, Silberberg R. Annu. Rev. Nuclear and Particle Sci. 20:323
+(1970)
+2. Wentzel DG. Annu. Rev. Astron. Astrophys. 12:71 (1974)
+3. Simpson JA. Annu. Rev. Nuclear and Particle Sci. 33:323 (1983)
+4. Cesarsky CJ. Annu. Rev. Astron. Astrophys. 18:289 (1980)
+5. Cox DP. Annu. Rev. Astron. Astrophys. 43:337 (2005)
+6. Elmegreen BG, Scalo J. Annu. Rev. Astron. Astrophys. 42:211 (2004)
+7. Scalo J, Elmegreen BG. Annu. Rev. Astron. Astrophys. 42:275 (2004)
+8. Berezinskii VS, Bulanov SV, Dogiel VA, Ptuskin VS. Astrophysics of cosmic
+rays, edited by VL Ginzburg. Amsterdam: North-Holland (1990)
+9. Ginzburg VL, Syrovatskii SI. The Origin of Cosmic Rays. New York:
+Macmillan (1964)
+10. Ginzburg VL, Ptuskin VS. Rev. Mod. Phys. 48:161 (1976)
+11. Hillas AM. Cosmic rays, The Commonwealth and International Library,
+Selected Readings in Physics. Oxford: Pergamon Press (1972)
+12. Gaisser TK. Cosmic rays and particle physics, 292 p. Cambridge and New
+York: Cambridge University Press, 1990
+13. Stanev T. High energy cosmic rays, Praxis Books in Astrophysics and As-
+tronomy. Chichester, UK: Springer (2004)
+14. Schlickeiser R. Cosmic ray astrophysics, Astronomy and Astrophysics Li-
+brary. Berlin: Springer (2002)
+15. Diehl R, Parizot E, Kallenbach R, von Steiger R. in The Astrophysics of
+Galactic Cosmic Rays. Dordrecht: Kluwer (2002)
+16. Nagano M, Watson AA. Rev. Mod. Phys. 72:689 (2000)
+17. Cronin JW. Nucl. Phys. B, Proc. Supp. 138:465 (2005)
+18. H¨orandel JR. astro-ph/0508014 (2005); Journal of Physics: Conference Se-
+ries 47:41 (2006)
+19. Engel R. Nucl. Phys. B, Proc. Supp. 151:437 (2006)
+20. Stanev T. in AIP Conf. Proc. 698: Intersections of Particle and Nuclear
+Physics, p.357. New York: AIP (2004)
+21. Berezinsky V, Gazizov A, Grigorieva S. Nucl. Phys. B, Proc. Supp. 136:147
+(2004)
+22. Berezinsky V, Gazizov A, Kachelrieß M. astro-ph/0612247 (2006); Phys.
+Rev. Lett. 97:231101 (2006)
+23. Hooper D, Sarkar S, Taylor AM. astro-ph/0608085 (2006)
+24. H¨orandel JR. Astropart. Phys. 21:241 (2004)
+25. Hillas AM. astro-ph/0607109 (2006)
+26. Gaisser TK. astro-ph/0608553 (2006)
+27. Kampert KH. astro-ph/0611884 (2006)
+28. Webber WR. Astrophys. J. 506:329 (1998)
+
+
+=== PAGE 26 ===
+26
+Cosmic-ray propagation
+29. Fatuzzo M, Adams FC, Melia F. Astrophys. J. 653:L49 (2006)
+30. Hanasz M, Lesch H. Astron. Astrophys. 412:331 (2003)
+31. Snodin AP, Brandenburg A, Mee AJ, Shukurov A. MNRAS 373:643 (2006)
+32. Zirakashvili VN, Breitschwerdt D, Ptuskin VS, V¨olk HJ. Astron. Astrophys.
+311:113 (1996)
+33. Ptuskin VS, V¨olk HJ, Zirakashvili VN, Breitschwerdt D. Astron. Astrophys.
+321:434 (1997)
+34. Aharonian F, et al. Astron. Astrophys. 449:223 (2006)
+35. Panov AD, et al. astro-ph/0612377 (2006)
+36. Derbina VA, et al. Astrophys. J. 628:L41 (2005)
+37. Kobayashi T, Komori Y, Yoshida K, Nishimura J. Astrophys. J. 601:340
+(2004)
+38. Grimani C, et al. Astron. Astrophys. 392:287 (2002)
+39. Moskalenko IV, Strong AW. Astrophys. J. 493:694 (1998)
+40. Stephens SA. Adv. Spa. Res. 27:687 (2001)
+41. Gast H, Olzem J, Schael S. astro-ph/0605254 (2006)
+42. Beatty JJ, et al. Phys. Rev. Lett. 93:241102 (2004)
+43. Moskalenko IV, Strong AW, Ormes JF, Mashnik SG. Adv. Spa. Res. 35:156
+(2005)
+44. Bradt HL, Peters B. Phys. Rev. 80:943 (1950)
+45. Garcia-Munoz M, Mason GM, Simpson JA. Astrophys. J. 201:L145 (1975)
+46. Seo ES, Ptuskin VS. Astrophys. J. 431:705 (1994)
+47. Webber WR. Space Sci. Rev. 86:239 (1998)
+48. Wiedenbeck ME, et al. Space Sci. Rev. 99:15 (2001)
+49. Connell JJ. Space Sci. Rev. 99:41 (2001)
+50. Binns WR, et al. Astrophys. J. 634:351 (2005)
+51. Kennel C, Engelmann F. Phys. Fluids 9:2377 (1966)
+52. Casse F, Lemoine M, Pelletier G. Phys. Rev. D. 65:023002 (2002)
+53. Jokipii JR. Reviews of Geophysics and Space Physics 9:27 (1971)
+54. Toptygin IN. Cosmic Rays in Interplanetary Magnetic Fields. Dordrecht:
+Reidel (1985)
+55. Goldreich P, Sridhar S. Astrophys. J. 438:763 (1995)
+56. Yan H, Lazarian A. Astrophys. J. 614:757 (2004)
+57. Breitschwerdt D, Komossa S. Astrophys. Sp. Sci. 272:3 (2000)
+58. Breitschwerdt D, V¨olk HJ, McKenzie JF. Astron. Astrophys. 245:79 (1991)
+59. Breitschwerdt D, McKenzie JF, V¨olk HJ. Astron. Astrophys. 269:54 (1993)
+60. Jokipii JR. Astrophys. J. 208:900 (1976)
+61. Owens AJ, Jokipii JR. Astrophys. J. 215:677 (1977)
+62. Owens AJ, Jokipii JR. Astrophys. J. 215:685 (1977)
+63. Jones FC. Astrophys. J. 222:1097 (1978)
+
+
+=== PAGE 27 ===
+Strong, Moskalenko, and Ptuskin
+27
+64. Jones FC. Astrophys. J. 229:747 (1979)
+65. Bloemen JBGM, Dogel’ VA, Dorman VL, Ptuskin VS. Astron. Astrophys.
+267:372 (1993)
+66. Veilleux S, Cecil G, Bland-Hawthorn J. Annu. Rev. Astron. Astrophys.
+43:769 (2005)
+67. Strong AW, Moskalenko IV. Astrophys. J. 509:212 (1998)
+68. Maurin D, Taillet R, Donato F. Astron. Astrophys. 394:1039 (2002)
+69. Jones FC, Lukasiak A, Ptuskin V, Webber W. Astrophys. J. 547:264 (2001)
+70. Breitschwerdt D, Dogiel VA, V¨olk HJ. Astron. Astrophys. 385:216 (2002)
+71. Simon M, Heinrich W, Mathis KD. Astrophys. J. 300:32 (1986)
+72. Letaw JR, Adams JHJr., Silberberg R, Tsao CH. Astrophys. Sp. Sci. 114:365
+(1985)
+73. Niebur SM, et al. in AIP Conf. Proc. 528: Acceleration and Transport of
+Energetic Particles Observed in the Heliosphere, ed. RA Mewaldt et al.,
+p.406. New York: AIP (2000)
+74. Jones FC, Lukasiak A, Ptuskin VS, Webber WR. Adv. Spa. Res. 27:737
+(2001)
+75. Ptuskin VS, et al. Astrophys. J. 642:902 (2006)
+76. Wandel A, et al. Astrophys. J. 316:676 (1987)
+77. Berezhko EG, et al. Astron. Astrophys. 410:189 (2003)
+78. Moskalenko IV, Strong AW, Reimer O. in ASSL Vol. 304: Cosmic Gamma-
+Ray Sources, eds. KS Cheng and GE Romero, G. E., p.279. Dordrecht:
+Kluwer (2004)
+79. Beck R. Space Sci. Rev. 99:243 (2001)
+80. Han JL, et al. Astrophys. J. 642:868 (2006)
+81. Strong AW, Moskalenko IV, Reimer O. Astrophys. J. 537:763 (2000)
+82. Alvarez-Mu˜niz J, Engel R, Stanev T. Astrophys. J. 572:185 (2002)
+83. Takami H, Yoshiguchi H, Sato K. Astrophys. J. 639:803 (2006)
+84. Kachelriess M, Serpico PD, Teshima M. astro-ph/0510444 (2005)
+85. Moskalenko IV, Porter TA, Strong AW. Astrophys. J. 640:L155 (2006)
+86. Frisch PC, Slavin JD. astro-ph/0606743 (2006)
+87. Frisch PC. ASSL Vol. 338: Solar Journey: The Signiﬁcance of our Galactic
+Environment for the Heliosphere and Earth. Dordrecht: Springer (2006)
+88. Moskalenko IV, Strong AW. Astrophys. J. 528:357 (2000)
+89. Kamae T, et al. Astrophys. J. 647:692 (2006)
+90. Kelner SR, Aharonian FA, Bugayov VV. Phys. Rev. D. 74:034018 (2006)
+91. M¨uller D, et al. Space Sci. Rev. 99:353 (2001)
+92. Mashnik SG, et al. Adv. Spa. Res. 34:1288 (2004)
+93. Moskalenko IV, Strong AW, Mashnik SG. in AIP Conf. Proc. 769: Int.
+Conf. on Nuclear Data for Science and Technology, eds. RC Haight et al.,
+p.1612. New York: AIP (2005)
+
+
+=== PAGE 28 ===
+28
+Cosmic-ray propagation
+94. de Nolfo GA, et al. Adv. Spa. Res. 38:1558 (2006)
+95. Endt PM, van der Leun C. Nucl. Phys. A 310:1 (1978)
+96. Mart´ınez-Pinedo G, Vogel P. Phys. Rev. Lett. 81:281 (1998)
+97. Wuosmaa AH, et al. Phys. Rev. Lett. 80:2085 (1998)
+98. Strong AW, Moskalenko IV. Adv. Spa. Res. 27:717 (2001)
+99. Davis LJr.. Proc. 6th Int. Cosmic Ray Conf. (Moscow) 3:220 (1960)
+100. Protheroe RJ, Ormes JF, Comstock GM. Astrophys. J. 247:362 (1981)
+101. Garcia-Munoz M, et al. Astrophys. J. Suppl. 64:269 (1987)
+102. Ptuskin VS, Jones FC, Ormes JF. Astrophys. J. 465:972 (1996)
+103. Stephens SA, Streitmatter RE. Astrophys. J. 505:266 (1998)
+104. Davis AJ, et al. in AIP Conf. Proc. 528: Acceleration and Transport of
+Energetic Particles Observed in the Heliosphere, eds. RA Mewaldt et al.,
+p.421. New York: AIP (2000)
+105. Webber WR. Astrophys. J. 402:188 (1993)
+106. Duvernois MA, Simpson JA, Thayer MR. Astron. Astrophys. 316:555 (1996)
+107. Ptuskin VS, Soutoul A. Astron. Astrophys. 237:445 (1990)
+108. Ptuskin VS, Soutoul A. Astron. Astrophys. 337:859 (1998)
+109. Webber WR, Lee MA, Gupta M. Astrophys. J. 390:96 (1992)
+110. Maurin D, Donato F, Taillet R, Salati P. Astrophys. J. 555:585 (2001)
+111. Taillet R, et al. Astrophys. J. 609:173 (2004)
+112. Higdon JC, Lingenfelter RE. Astrophys. J. 582:330 (2003)
+113. Strong AW, Moskalenko IV, Reimer O. Astrophys. J. 613:962 (2004)
+114. Shibata T, Hareyama M, Nakazawa M, Saito C. Astrophys. J. 612:238 (2004)
+115. Shibata T, Hareyama M, Nakazawa M, Saito C. Astrophys. J. 642:882 (2006)
+116. B¨usching I, et al. Astrophys. J. 619:314 (2005)
+117. Moskalenko IV, Strong AW, Ormes JF, Potgieter MS. Astrophys. J. 565:280
+(2002)
+118. Wallace JM. Astrophys. J. 245:753 (1981)
+119. Hanasz M, Lesch H. Astrophys. J. 543:235 (2000)
+120. Giacalone J, Jokipii JR. Astrophys. J. 520:204 (1999)
+121. Hanasz M, Kowal G, Otmianowska-Mazur K, Lesch H. Astrophys. J. 605:L33
+(2004)
+122. Moskalenko IV, Mashnik SG. Proc. 28th Int. Cosmic Ray Conf. (Tsukuba)
+4:1969 (2003)
+123. Webber WR, McDonald FB, Lukasiak A. Astrophys. J. 599:582 (2003)
+124. Shalchi A, Bieber JW, Matthaeus WH, Qin G. Astrophys. J. 616:617 (2004)
+125. Shalchi A, Schlickeiser R. Astrophys. J. 626:L97 (2005)
+126. Moskalenko IV, Strong AW, Mashnik SG, Ormes JF. Astrophys. J. 586:1050
+(2003)
+127. Donato F, Maurin D, Taillet R. Astron. Astrophys. 381:539 (2002)
+
+
+=== PAGE 29 ===
+Strong, Moskalenko, and Ptuskin
+29
+128. Moskalenko IV, Mashnik SG, Strong AW. Proc. 27th Int. Cosmic Ray Conf.
+(Hamburg) 5:1836 (2001)
+129. Hams T, et al. Astrophys. J. 611:892 (2004)
+130. Streitmatter RE, Stephens SA. Adv. Spa. Res. 27:743 (2001)
+131. Ptuskin VS, Soutoul A. Space Sci. Rev. 86:225 (1998)
+132. Yanasak NE, et al. Astrophys. J. 563:768 (2001)
+133. Mewaldt RA, et al. Space Sci. Rev. 99:27 (2001)
+134. Mueller HR, Frisch PC, Florinski V, Zank GP. astro-ph/0607600 (2006)
+135. Wiedenbeck ME, et al. in AIP Conf. Proc. 528: Acceleration and Transport
+of Energetic Particles Observed in the Heliosphere, p.363. New York: AIP
+(2000)
+136. de Nolfo GA, et al.. Proc. 29th Int. Cosmic Ray Conf. (Pune) 3:61 (2005)
+137. Niebur SM, et al. Proc. 27th Int. Cosmic Ray Conf. (Hamburg) 5:1675 (2001)
+138. Amenomori M, et al. Astrophys. J. 626:L29 (2005)
+139. Tada J, et al. Nucl. Phys. B, Proc. Supp. 151:485 (2006)
+140. Guillian G. Proc. 29th Int. Cosmic Ray Conf. (Pune) 6:85 (2005)
+141. Ptuskin VS, Jones FC, Seo ES, Sina R. Adv. Spa. Res. 37:1909 (2006)
+142. Ambrosio M, et al. Phys. Rev. D. 67:042002 (2003)
+143. Moskalenko IV, Strong AW. in AIP Conf. Proc. 801: Astrophysical Sources
+of High Energy Particles and Radiation, eds. T Bulik et al., p.57. New York:
+AIP (2005)
+144. Strong AW, et al. Astron. Astrophys. 422:L47 (2004)
+145. Pohl M, Esposito JA. Astrophys. J. 507:327 (1998)
+146. Moskalenko IV, Strong AW, Reimer O. Astron. Astrophys. 338:L75 (1998)
+147. B¨usching I, Pohl M, Schlickeiser R. Astron. Astrophys. 377:1056 (2001)
+148. de Boer W, et al. Astron. Astrophys. 444:51 (2005)
+149. Bergstr¨om L, Edsj¨o J, Gustafsson M, Salati P. JCAP 5:6 (2006)
+150. Moskalenko IV, et al. astro-ph/0609768 (2006)
+151. Strong AW, et al. Astron. Astrophys. 444:495 (2005)
+152. Sasaki M, Breitschwerdt D, Supper R. Astrophys. Sp. Sci. 289:283 (2004)
+153. Golden RL, et al. Phys. Rev. Lett. 43:1196 (1979)
+154. Bogomolov EA, et al. Proc. 19th Int. Cosmic Ray Conf. (La Jolla) 2:362
+(1985)
+155. Mitchell JW, et al. Phys. Rev. Lett. 76:3057 (1996)
+156. Hof M, et al. Astrophys. J. 467:L33 (1996)
+157. Grimani C, et al. Astron. Astrophys. 392:287 (2002)
+158. Orito S, et al. Phys. Rev. Lett. 84:1078 (2000)
+159. Bergstr¨om D, et al. Astrophys. J. 534:L177 (2000)
+160. Sanuki T, et al. Astrophys. J. 545:1135 (2000)
+161. Maeno T, et al. Astropart. Phys. 16:121 (2001)
+
+
+=== PAGE 30 ===
+30
+Cosmic-ray propagation
+162. Asaoka Y, et al. Phys. Rev. Lett. 88:051101 (2002)
+163. Moskalenko IV, Strong AW, Mashnik SG, Ormes JF. Proc. 28th Int. Cosmic
+Ray Conf. (Tsukuba) 4:1921 (2003)
+164. Picozza P, et al. astro-ph/0608697 (2006)
+165. de Shong JA, Hildebrand RH, Meyer P. Phys. Rev. Lett. 12:3 (1964)
+166. Protheroe RJ. Astrophys. J. 254:391 (1982)
+167. Coutu S, et al. Astropart. Phys. 11:429 (1999)
+168. Chi X, Cheng KS, Young ECM. Astrophys. J. 459:L83 (1996)
+169. Baltz EA, Edsj¨o J. Phys. Rev. D. 59:023511 (1999)
+170. AMS Collaboration, et al. Phys. Rep. 366:331 (2002)
+171. Boezio M, et al. Astrophys. J. 532:653 (2000)
+172. DuVernois MA, et al. Astrophys. J. 559:296 (2001)
+173. Ellison DC. Space Sci. Rev. 99:305 (2001)
+174. Allen G. Proc. 26th Int. Cosmic Ray Conf. (Salt Lake City) 3:480 (1999)
+175. Beuermann K, Kanbach G, Berkhuijsen EM. Astron. Astrophys. 153:17
+(1985)
+176. Broadbent A, Haslam TCG, Osborne LJ. Proc. 21st Int. Cosmic Ray Conf.
+(Adelaide) 3:229 (1990)
+177. Beck R. in The Magnetized Plasma in Galaxy Evolution, eds. KT Chyzy et
+al., p.193. Krak´ow: Jagiellonian University (2005)
+178. Beck R. astro-ph/0603531 (2006)
+179. Allen RJ, Sancisi R, Baldwin JE. Astron. Astrophys. 62:397 (1978)
+180. Heald GH, Rand RJ, Benjamin RA, Bershady MA. Astrophys. J. 647:1018
+(2006)
+181. Dumke M, Krause M. in LNP Vol. 506: Proc. IAU Colloq. 166, The Local
+Bubble and Beyond, eds. D Breitschwerdt et al., p.555. Berlin: Springer
+(1998)
+182. Heesen V, Krause M, Beck R, Dettmar RJ. in The Magnetized Plasma in
+Galaxy Evolution, eds. KT Chyzy et al., p.156. Krak´ow: Jagiellonian Uni-
+versity (2005)
+183. Beck R, Krause M. Astronomische Nachrichten 326:414 (2005)
+184. Niklas S, Beck R. Astron. Astrophys. 320:54 (1997)
+185. Murgia M, et al. Astron. Astrophys. 437:389 (2005)
+186. Paladino R, et al. Astron. Astrophys. 456:847 (2006)
+187. V¨olk HJ. Astron. Astrophys. 218:67 (1989)
+188. Strong AW, Moskalenko IV. Proc. 27th Int. Cosmic Ray Conf. (Hamburg)
+5:1964 (2001)
+189. Erlykin AD, Wolfendale AW. J. Phys. G: Nucl. Part. Phys. 28:359 (2002)
+
+
+=== PAGE 31 ===
+Strong, Moskalenko, and Ptuskin
+31
+10 2
+10 3
+10 4
+Flux dΦ/dE0 ⋅ E0 2.5 [m-2 sr-1 s-1 GeV1.5]
+N N
+N N N N N N N N N
+!
+!
+!
+!
+!
+!
+!
+  
+ 
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Proton
+KASCADE QGSJET
+KASCADE SIBYLL
+   GRAPES-3 QGS
+   GRAPES-3 SIB
+Tibet-BD (HD)
+KASCADE SH
+!   Tibet-ASγ (HD)
+EAS-TOP SH
+    Mt. Chacaltaya
+N   HEGRA
+Mt. Fuji
+EAS-TOP
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+⊕⊕⊕⊕
+⊕
+⊕
+⊗⊗⊗⊗⊗⊗⊗⊗⊗⊗⊗
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+∅
+∅∅
+∅
+∅
+∅
+∅
+∅
+∇∇∇∇∇∇∇∇∇∇∇∇
+" " " " " " " " "
+" " " "
+  
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+⊗
+AMS
+/
+ATIC
+
+BESS
+"
+CAPRICE 98
+¤
+HEAT
+Ichimura
+∇
+IMAX
+JACEE
+
+MASS
+Papini
+RUNJOB
+⊕
+RICH-II
+Ryan
+Smith
+SOKOL
+∅
+Zatsepin
+10 2
+10 3
+10 4
+Flux dΦ/dE0 ⋅ E0 2.5 [m-2 sr-1 s-1 GeV1.5]
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+Helium
+KASCADE QGSJET
+KASCADE SIBYLL
+   GRAPES-3 QGS
+   GRAPES-3 SIB
+Tibet-BD (HD)
+Mt. Fuji
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+⊕
+⊕⊕⊕⊕
+⊕
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+∇∇∇∇∇∇∇
+∇∇∇
+∇∇∇
+∇
+∇
+"""""""
+"
+"
+"
+"
+"
+"
+"
+"
+????? ? ?? ??
+?
+?
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+ATIC
+
+BESS
+"
+CAPRICE 98
+¤
+HEAT
+Ichimura
+∇
+IMAX
+JACEE
+
+MASS
+Papini
+⊕
+RICH-II
+RUNJOB
+Smith
+SOKOL
+?
+Webber
+10 2
+10 3
+10 4
+10
+2
+10
+3
+10
+4
+10
+5
+10
+6
+10
+7
+10
+8
+Energy E0 [GeV]
+Flux dΦ/dE0 ⋅ E0 2.5 [m-2 sr-1 s-1 GeV1.5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+ 
+Iron
+KASCADE QGSJET
+KASCADE SIBYLL
+   GRAPES-3 QGS
+   GRAPES-3 SIB
+EAS-TOP
+
+ 
+
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+∇
+∇
+∇
+∇
+∇
+∇
+???
+? ? ? ?
+?
+""""
+" "
+"
+"
+""
+"
+/ / // //
+/ / / /
+/ //
+/ /
+/
+/
+/
+/
+ATIC
+CRN
+HEAO-3
+
+Hareyama
+Ichimura
+JACEE
+∇
+Juliusson
+?
+Minagawa
+RUNJOB
+SOKOL
+"
+TRACER
+Figure 1: Compilation of spectral data 1010 −1017 eV for p, He, Fe, combining
+balloon, satellite and ground-based measurements. From (18) and G. H¨orandel,
+private communication.
+Energy per particle, GeV
+10
+2
+10
+3
+10
+4
+10
+5
+10
+Energy per particle, GeV
+10
+2
+10
+3
+10
+4
+10
+5
+10
+1.75
+(GeV)
+-1
+ster
+-1
+s
+-2
+, m
+2.75
+ E
+×
+Flux 
+4
+10
+5
+10
+ATIC, p
+AMS, p
+CAPRICE98, p
+BESS-TeV, p
+ATIC, He
+AMS, He
+CAPRICE98, He
+BESS-TeV, He
+Figure 2: Preliminary spectra of p, He from ATIC-2, compared with AMS01,
+BESS-TeV and CAPRICE98. Plot from ATIC collaboration (35). The ATIC-2
+data indicate a slighly harder spectrum for He above 1 TeV.
+
+
+=== PAGE 32 ===
+32
+Cosmic-ray propagation
+Energy per particle, GeV
+1
+10
+2
+10
+3
+10
+4
+10
+5
+10
+6
+10
+Energy per particle, GeV
+1
+10
+2
+10
+3
+10
+4
+10
+5
+10
+6
+10
+1.75
+(GeV)
+-1
+ster
+-1
+s
+-2
+, m
+2.75
+ E
+×
+Flux 
+-3
+10
+-2
+10
+-1
+10
+1
+10
+2
+10
+3
+10
+4
+10
+C
+ 0.01
+×
+O 
+ATIC
+HEAO-3-C2
+CRN
+TRACER
+ 0.0001
+×
+Ne 
+Energy per particle, GeV
+1
+10
+2
+10
+3
+10
+4
+10
+5
+10
+6
+10
+Energy per particle, GeV
+1
+10
+2
+10
+3
+10
+4
+10
+5
+10
+6
+10
+-3
+10
+-2
+10
+-1
+10
+1
+10
+2
+10
+3
+10
+4
+10
+Mg
+ 0.01
+×
+Si 
+ATIC
+HEAO-3-C2
+CRN
+TRACER
+ 0.0001
+×
+Fe 
+Figure 3: Compilation of spectral data for element groups CNO, NeMgSi, Fe
+(36) from HEAO-3, SANRIKU, CRN, SOKOL, JACEE and RUNJOB (upper)
+and of separate even-Z elements from preliminary ATIC-2, HEAO-3, CRN and
+TRACER (lower). Plot from ATIC collaboration (35). The ATIC-2 data suggest
+a hardening above 10 TeV.
+
+
+=== PAGE 33 ===
+Strong, Moskalenko, and Ptuskin
+33
+Figure
+4:
+Measurements
+of
+the
+electron
+spectrum,
+including
+AMS01,
+CAPRICE94, HEAT and SANRIKU, compared with possible contributions of
+distant sources and local supernova remnants, from (37).
+Figure 5: Measurements of the positron spectrum, including data from MASS91,
+AMS01, CAPRICE94 and HEAT, from (38). Propagation calculations for in-
+terstellar (upper curves) and modulated (lower curves) are shown. Dotted, dot-
+dashed: GALPROP (39); dashed, solid: (40).
+
+
+=== PAGE 34 ===
+34
+Cosmic-ray propagation
+Momentum [GeV/c]
+1
+2
+3
+4 5 6 78 10
+20
+30 40
+ -1
+ sr s Gev]
+2
+Flux [m
+-5
+10
+-4
+10
+-3
+10
+-2
+10
+-1
+10
+1
+10
+2
+10
+3
+10
+4
+10
+Electrons (this analysis)
+Positrons (this analysis)
+AMS-01 electrons
+AMS-01 positrons
+ positrons
+±
+HEAT-e
+Electron and positron fluxes
+Electrons (this analysis)
+Positrons (this analysis)
+AMS-01 electrons
+AMS-01 positrons
+ positrons
+±
+HEAT-e
+Figure 6: Left: Measurements of the electron and positron spectrum by AMS01
+and HEAT, from (41). Right: e+/(e+ + e−) ratio including HEAT and AMS01
+(42).
+For the ratio a propagation calculation (39) is shown by the solid line,
+and possible contributions from pulsars (dashed) and dark matter annihiliations
+(dash-dot).
+0.001
+0.01
+0.1
+1
+10
+100
+Flux, m-2 s-1 sr-1 GeV-1
+Kinetic energy, GeV
+Antiprotons
+Φ = 550 MV
+G BESS 95-97
+K BESS 98
+I MASS91
+∆ CAPRICE98
+Tertiary
+42.2–111347
+42.2–111343
+42.2–111344
+LIS
+Figure 7: Measurements of the antiproton spectrum from MASS91, CAPRICE98
+and BESS, compared to a propagation calculation, from (43). The dashed and
+dotted lines illustrate the sensitivity of the calculated (modulated) antiproton ﬂux
+to the normalization of the diﬀusion coeﬃcient. LIS marks the local interstellar
+spectrum.
+
+
+=== PAGE 35 ===
+Strong, Moskalenko, and Ptuskin
+35
+Figure 8: B/C and sub-Fe/Fe data compilation compared to four models treated
+by the modiﬁed weighted-slab technique, from (69).
+Figure 9: Data compilation for spectra of C and Fe compared to four models
+treated by the modiﬁed weighted-slab technique, from (69).
+
+
+=== PAGE 36 ===
+36
+Cosmic-ray propagation
+1027
+1028
+1029
+1030
+1031
+10-1
+100
+101
+102
+103
+104
+Dxx, cm2 s-1
+Rigidity, GV
+ 0
+ 0.05
+ 0.1
+ 0.15
+ 0.2
+ 0.25
+ 0.3
+ 0.35
+10-2
+10-1
+100
+101
+102
+103
+Kinetic energy, GeV/nucleon
+B/C ratio
+DRD model
+Φ = 450 MV
+M Voyager
+G Ulysses
+H ACE
+L HEAO-3
+K Chapell,Webber 1981
+I Dwyer 1978
+∇ Maehl et al. 1977
+LIS
+44–999714kr
+101
+102
+103
+10-1
+100
+101
+102
+103
+104
+E2 Flux, GeV m-2 s-1 sr-1
+Kinetic energy, GeV
+PROTONS
+H AMS I
+∇ BESS 98
+G CAPRICE 94
+K IMAX 92
+L LEAP 87
+ Sokol, JACEE
+DRD model
+Φ = 550 MV
+44–999714kr
+10-4
+10-3
+10-2
+10-2
+10-1
+100
+101
+102
+Flux, m-2 s-1 sr-1 GeV-1
+Kinetic energy, GeV
+ANTIPROTONS
+DRD model
+Φ = 550 MV
+G BESS 95-97
+K BESS 98
+I MASS 91
+∆ CAPRICE 98
+Tertiary
+LIS
+44–999714kr
+Figure 10:
+Upper left: diﬀusion coeﬃcient in diﬀerent models (75): plain diﬀu-
+sion (dots), Kolmogorov reacceleration (dashes), and Kraichnan-type reacceler-
+ation with wave-damping (solid). Upper right: B/C, lower left: protons, lower
+right: antiprotons, in the wave-damping model (75). LIS marks the local inter-
+stellar spectrum.
+Figure 11:
+Data on energy-dependence of 10Be/9Be including ACE, Ulysses,
+Voyager, IMP, ISEE-3 and ISOMAX data, from (129). The solid line is a diﬀusive
+halo model with 4 kpc scale height using GALPROP (98) the other lines are
+leaky-box models (130).
+
+
+=== PAGE 37 ===
+Strong, Moskalenko, and Ptuskin
+37
+Figure 12: The anisotropy of cosmic rays in the reacceleration (red curves) and
+the plain diﬀusion (blue curves) models. Separately shown are the eﬀects of the
+global leakage from the Galaxy (thick lines), and the contribution from local SNR
+(thin lines). The collection of data on cosmic ray anisotropy (yellow squares) are
+taken from (142) where the references to individual experiments can be found.
+100
+1000
+0.1
+1
+10
+100
+1000
+E2 Flux, GeV m-2 s-1 sr-1
+Kinetic energy, GeV
+PROTONS
+H AMS I
+∇ BESS 98
+G CAPRICE 94
+K IMAX 92
+L LEAP 87
+Φ = 650 MV
+44–500080
+44–500090
+ 0.01
+ 0.1
+ 1
+ 10
+ 100
+ 0.1
+ 1
+ 10
+ 100
+ 1000
+E2 Flux, GeV m-2 s-1 sr-1
+Kinetic energy, GeV
+ELECTRONS
+44–500180
+44–500181
+44–500190
+H AMS I
+G CAPRICE 94
+K HEAT 94-95
+L MASS 91
+∇ Sanriku
+LIS
+Φ = 600 MV
+Figure 13:
+Directly-observed (solid), and modiﬁed (dots) proton and electron
+spectra. The modiﬁed spectra are deduced from ﬁts to antiproton and γ-ray data
+(113). LIS marks local interstellar spectra. Data shown are from AMS01, BESS,
+CAPRICE94, IMAX, LEAP, HEAT, MASS91, SANRIKU.
+
+
+=== PAGE 38 ===
+38
+Cosmic-ray propagation
+energy, MeV                 
+1
+10
+2
+10
+3
+10
+4
+10
+5
+10
+6
+10
+ MeV   
+-1
+ s
+-1
+ sr
+-2
+. intensity, cm
+2
+E
+-4
+10
+-3
+10
+-2
+10
+energy, MeV                 
+1
+10
+2
+10
+3
+10
+4
+10
+5
+10
+6
+10
+ MeV   
+-1
+ s
+-1
+ sr
+-2
+. intensity, cm
+2
+E
+-4
+10
+-3
+10
+-2
+10
+Figure 14: γ-ray spectrum of inner Galaxy (330◦< l < 30◦, |b| < 5◦) for model
+based on the directly-observed CR spectra and modiﬁed spectra shown in Fig. 13.
+Red bars: EGRET data, including points above 10 GeV, see (151). Green bars:
+COMPTEL. Light blue line: bremsstrahlung, green line: inverse Compton scat-
+tering, red line: π0-decay, black line: extragalactic background, dark blue line:
+total. This is an update of the spectra shown in (113).
+Figure 15: Possible CR source distributions as function of Galactocentric radius
+R: pulsars (solid line), SNR (vertical bars), from γ-rays assuming constant H2-
+to-CO relation (dotted line) (144).
+
+
+=== PAGE 39 ===
+Strong, Moskalenko, and Ptuskin
+39
+  
+-1
+ s
+-1
+ sr
+-2
+intensity, cm
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+-4
+10
+×
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+Galactic longitude
+180
+200
+220
+240
+260
+280
+300
+320
+340
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+Galactic longitude
+180
+200
+220
+240
+260
+280
+300
+320
+340
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+Galactic longitude
+180
+200
+220
+240
+260
+280
+300
+320
+340
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+Galactic longitude
+180
+200
+220
+240
+260
+280
+300
+320
+340
+  -5.50<b<-0.50 ,  0.50<b< 5.50
+  1000 -  2000 MeV
+ galdef ID 45_600202
+Galactic latitude
+-80
+-60
+-40
+-20
+0
+20
+40
+60
+80
+   
+-1
+ s
+-1
+ sr
+-2
+intensity, cm
+-7
+10
+-6
+10
+-5
+10
+-4
+10
+   0.50<l<30.50 , 330.50<l<359.50
+  1000 -  2000 MeV
+ galdef ID 45_600202
+Figure 16: γ-ray longitude and latitude proﬁles, for model with pulsar source
+distribution and Xco varying with radius (144). Light blue line: bremsstrahlung,
+green line: inverse Compton scattering, red line: π0-decay, black line: extragalac-
+tic background, dark blue line: total.
