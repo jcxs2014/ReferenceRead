@@ -347,3 +347,79 @@ literature_analysis/
 ```
 
 最终目标是生成**可以作为科研笔记长期保存的完整文献阅读档案**。
+
+---
+
+## 28. 词汇表文件（98_vocabulary.md）
+
+**每篇文献必须生成 `98_vocabulary.md`**，放在 `99_final_summary.md` 之前。目的：辅助中文母语读者攻克英语词汇关，降低原文阅读障碍。
+
+文件编号固定为 `98`，位于正文章节与最终总结之间。
+
+### 28.1 结构（三部分）
+
+```markdown
+# 98. Vocabulary — 学术词汇与术语
+
+## A. 学术逻辑词（跨篇高频，标注逻辑功能）
+
+> 这些词决定句子之间的逻辑关系，比专业术语更重要。
+
+| 单词 | 词性 | 逻辑功能 | 中文 | 原文例句 | 逻辑说明 |
+|------|------|----------|------|----------|----------|
+| however | adv. | 转折 | 然而 | "..., however, ..." | 作者先承认A，再否定A、引出B |
+| thereby | adv. | 因果(由此) | 从而 | "..., thereby allowing ..." | X导致Y，Y是X的直接结果 |
+| whereas | conj. | 对比 | 而 | "A ..., whereas B ..." | 并列对比A与B的差异 |
+| notwithstanding | prep. | 让步 | 尽管 | "..., notwithstanding the ..." | 承认障碍，但结论不受影响 |
+| consequently | adv. | 因果(结果) | 因此 | "..., consequently, ..." | 前句是原因，本句是必然结果 |
+| albeit | conj. | 让步 | 虽然 | "..., albeit with ..." | 保留意见的让步，弱化限制 |
+```
+
+**逻辑功能分类**（每词标注其一）：
+- 转折（contrast）：however, nevertheless, yet, whereas, in contrast
+- 因果（cause-effect）：therefore, consequently, thereby, hence, thus, owing to
+- 递进（addition）：furthermore, moreover, in addition, likewise
+- 让步（concession）：although, albeit, notwithstanding, despite
+- 限定（qualification）：however（弱化时）, while, insofar as, to some extent
+- 举例（exemplification）：for instance, e.g., namely, such as
+- 结论（conclusion）：in summary, overall, taken together, in short
+- 时间/顺序（sequence）：subsequently, previously, meanwhile, initially
+
+**数量**：每篇 15–25 个逻辑词，必须是**本篇原文实际出现**的，例句从原文摘录（可截断）。同一词多次出现时选最能体现逻辑功能的例句。
+
+### 28.2 B. 领域术语（本篇特有）
+
+```markdown
+## B. 领域术语（本篇特有）
+
+| 术语 | 中文 | 释义 | 首次出现章节 |
+|------|------|------|-------------|
+| diffusion coefficient | 扩散系数 | 描述粒子在介质中扩散快慢的量，单位 cm²/s；在宇宙线传播中决定逃逸时间 | §2.3 |
+```
+
+**要求**：
+- 覆盖本篇所有专业术语（含缩写，如 UHECR, SNR, ISM, MFA）
+- 释义要结合**本篇上下文**，不是生硬词典翻译
+- 首次出现章节：指向该篇的章节号
+- 术语数量不限，宁多勿少
+
+### 28.3 C. 长难句摘录（可选但推荐）
+
+```markdown
+## C. 长难句摘录（3–5 句）
+
+### C1. [所在章节]
+> 原文句子...
+
+**主干**：主语 + 谓语 + 宾语（拆解）
+**修饰**：从句/分词/介词短语的作用
+**翻译**：自然的全句中文翻译
+```
+
+**选择标准**：含从句嵌套、插入语、倒装、长修饰链的句子；优先选承载核心论点的句子。
+
+### 28.4 生成时机
+
+- 精读正文时顺手记录，最后统一整理为 `98_vocabulary.md`
+- 词汇表必须**基于本文实际内容**，不得凭记忆编造例句
+- 已有文献补生成时：可只读 `literature_analysis/` 现有文件提取，不必重读 PDF
