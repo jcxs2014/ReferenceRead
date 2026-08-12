@@ -79,7 +79,7 @@ $$^{20}\text{Ne}(p,\gamma)^{21}\text{Na}(p,\gamma)^{22}\text{Mg}(\beta^+\nu)^{22
 
 **[FACT]** 连续反应序列通向 Si,P,S 区：
 
-$$^{24}\text{Al}(p,\gamma)^{25}\text{Si}(\beta^+\nu)^{25}\text{Al}(p,\gamma)^{26}\text{Si}(\beta^+\nu)^{26}\text{Al}(p,\gamma)^{27}\text{Si}(p,\gamma)^{28}\text{P}(\beta^+\nu)^{28}\text{Si} \tag{11 (续)}$$
+$$^{24}\text{Al}(p,\gamma)^{25}\text{Si}(\beta^+\nu)^{25}\text{Al}(p,\gamma)^{26}\text{Si}(\beta^+\nu)^{26}\text{Al}(p,\gamma)^{27}\text{Si}(p,\gamma)^{28}\text{P}(\beta^+\nu)^{28}\text{Si} \tag{\text{11 (续)}}$$
 
 **[FACT]** 热 SiP 循环：
 

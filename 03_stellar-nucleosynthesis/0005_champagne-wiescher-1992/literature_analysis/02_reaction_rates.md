@@ -100,7 +100,7 @@ $$\langle\sigma v\rangle = \left(\frac{8}{\pi\mu}\right)^{1/2} (kT)^{-3/2} \int_
 
 **[FACT]** 非共振截面在低能下由库仑 + 离心势穿透因子主导：
 
-$$\sigma_{\text{nonres}}(E) \propto \exp\left[-\left(\frac{E_G}{E}\right)^{1/2}\right] \tag{3 中的因子}$$
+$$\sigma_{\text{nonres}}(E) \propto \exp\left[-\left(\frac{E_G}{E}\right)^{1/2}\right] \tag{\text{3 中的因子}}$$
 
 其中 **Gamow 能量**：
 
