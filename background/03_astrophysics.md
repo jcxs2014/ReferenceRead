@@ -3,17 +3,18 @@
 > **范围**：本文件综合 `03_stellar-nucleosynthesis/` 下 7 篇精读论文的知识要点，
 > 面向"太阳丰度作为核合成/化学演化基准"的研究主题，抽取**跨论文的共享概念、
 > 关键数值、核心公式与方法论**，并按主题域重组为可复用的背景知识体系。
->
-> **论文清单**：
-> | 编号 | 论文 | 主题域 |
-> |------|------|--------|
-> | 0007 | Grevesse & Sauval 1998 (GS98), SSR 85, 161 | 标准太阳组成 |
-> | 0008 | Lodders 2003, ApJ 591, 1220 | 太阳系丰度 + 冷凝温度 |
-> | 0009 | Asplund et al. 2009 (AGSS09), ApJ 702, L1 | 3D non-LTE 太阳光球丰度 |
-> | 0010 | Gies & Lambert 1992, ApJ 387, 673 | 早 B 型星 CNO 丰度 |
-> | 0011 | Kewley et al. 2001, ApJS 132, 37 | 星暴星系诊断图与 W-R 物理 |
-> | 0012 | Dieterich et al. 2014, AJ 147, 94 | 氢燃烧极限（恒星/褐矮星边界） |
-> | 0013 | Bertone & Hooper 2018, RMP 90, 045002 | 暗物质历史综述 |
+
+**论文清单**：
+
+| 编号 | 论文 | 主题域 |
+|------|------|--------|
+| 0007 | Grevesse & Sauval 1998 (GS98), SSR 85, 161 | 标准太阳组成 |
+| 0008 | Lodders 2003, ApJ 591, 1220 | 太阳系丰度 + 冷凝温度 |
+| 0009 | Asplund et al. 2009 (AGSS09), ApJ 702, L1 | 3D non-LTE 太阳光球丰度 |
+| 0010 | Gies & Lambert 1992, ApJ 387, 673 | 早 B 型星 CNO 丰度 |
+| 0011 | Kewley et al. 2001, ApJS 132, 37 | 星暴星系诊断图与 W-R 物理 |
+| 0012 | Dieterich et al. 2014, AJ 147, 94 | 氢燃烧极限（恒星/褐矮星边界） |
+| 0013 | Bertone & Hooper 2018, RMP 90, 045002 | 暗物质历史综述 |
 
 ---
 
@@ -103,16 +104,16 @@ A&G 1989        Z/X = 0.0267,  O = 8.86, C = 8.52, Fe = 7.50       [旧基准]
 
 ### 1.6 丰度标度公式
 
-$$A(\\mathrm{El}) = \\log(N_{\\mathrm{El}} / N_{\\mathrm{H}}) + 12.0 \\quad \\text{[天文对数标度]}$$
+$$A(\mathrm{El}) = \log(N_{\mathrm{El}} / N_{\mathrm{H}}) + 12.0 \quad \text{[天文对数标度]}$$
 
-$$\\log\\varepsilon_X = \\log\\varepsilon_{\\mathrm{H}} + \\log(N_X / N_{\\mathrm{H}})$$
+$$\log\varepsilon_X = \log\varepsilon_{\mathrm{H}} + \log(N_X / N_{\mathrm{H}})$$
 
 **陨石换算（以 Si 归一）**：
-$$\\log\\varepsilon_X = 1.51 + \\log N_X \\quad [N_X \\text{为陨石质量分数}]$$
+$$\log\varepsilon_X = 1.51 + \log N_X \quad [N_X \text{为陨石质量分数}]$$
 
 **He 与 Z/X 关系**：
-$$Y = \\frac{4 N_{\\mathrm{He}}}{N_{\\mathrm{H}} + 4 N_{\\mathrm{He}}}$$
-例：$N_{\\mathrm{He}}/N_{\\mathrm{H}} = 0.085 \\rightarrow Y \\approx 0.254$
+$$Y = \frac{4 N_{\mathrm{He}}}{N_{\mathrm{H}} + 4 N_{\mathrm{He}}}$$
+例：$N_{\mathrm{He}}/N_{\mathrm{H}} = 0.085 \rightarrow Y \approx 0.254$
 
 ---
 
@@ -251,7 +252,7 @@ He 不出现在光球光谱（He I 5876/6678/7065 在光球不显著），且在
 
 ### 5.4 关键物理
 
-**CN-cycle 平衡**：$\\mathrm{C/N} = (^{12}\\mathrm{C}/^{14}\\mathrm{N})_{\\mathrm{eq}} \\approx$ 很小
+**CN-cycle 平衡**：$\mathrm{C/N} = (^{12}\mathrm{C}/^{14}\mathrm{N})_{\mathrm{eq}} \approx$ 很小
 **部分混合**：C/N 介于初始与平衡之间
 **检验方法**：同时测量 He、C、N、O，与 Maeder-Meynet 演化轨对比
 
@@ -292,23 +293,23 @@ He 不出现在光球光谱（He I 5876/6678/7065 在光球不显著），且在
 
 **Kewley 理论分类线**（矩形双曲线，PEGASE 最硬 EUV 网格的折回边）：
 
-$$\\log([\\mathrm{O\\ III}]/\\mathrm{H}\\beta) \\leq \\frac{0.61}{\\log([\\mathrm{N\\ II}]/\\mathrm{H}\\alpha) - 0.47} + 1.19 \\quad [\\mathrm{N\\ II}\\ \\text{线}]$$
+$$\log([\mathrm{O\ III}]/\mathrm{H}\beta) \leq \frac{0.61}{\log([\mathrm{N\ II}]/\mathrm{H}\alpha) - 0.47} + 1.19 \quad [\mathrm{N\ II}\ \text{线}]$$
 
-$$\\log([\\mathrm{O\\ III}]/\\mathrm{H}\\beta) \\leq \\frac{0.72}{\\log([\\mathrm{S\\ II}]/\\mathrm{H}\\alpha) - 0.32} + 1.30 \\quad [\\mathrm{S\\ II}\\ \\text{线}]$$
+$$\log([\mathrm{O\ III}]/\mathrm{H}\beta) \leq \frac{0.72}{\log([\mathrm{S\ II}]/\mathrm{H}\alpha) - 0.32} + 1.30 \quad [\mathrm{S\ II}\ \text{线}]$$
 
-$$\\log([\\mathrm{O\\ III}]/\\mathrm{H}\\beta) \\leq \\frac{0.73}{\\log([\\mathrm{O\\ I}]/\\mathrm{H}\\alpha) + 0.59} + 1.33 \\quad [\\mathrm{O\\ I}\\ \\text{线}]$$
+$$\log([\mathrm{O\ III}]/\mathrm{H}\beta) \leq \frac{0.73}{\log([\mathrm{O\ I}]/\mathrm{H}\alpha) + 0.59} + 1.33 \quad [\mathrm{O\ I}\ \text{线}]$$
 - 分类模糊率：理论 6% vs Veilleux-Osterbrock 1987 半经验 16%
 - **已被 SDSS、zCOSMOS、MANGA 等大型巡天广泛采用**
 
 ### 6.5 化学演化相关经验关系
 
 **He/H 与金属丰度**：
-$$\\mathrm{He/H} = 0.081 + 0.026 \\cdot (Z/Z_\\odot)$$
+$$\mathrm{He/H} = 0.081 + 0.026 \cdot (Z/Z_\odot)$$
 
 **N/H 经验关系**：
-$$\\log(\\mathrm{N/H}) = -4.57 + \\log(Z/Z_\\odot) \\quad \\text{for } Z/Z_\\odot \\geq 0.23$$
-$$\\log(\\mathrm{N/H}) = -3.94 + 2\\log(Z/Z_\\odot) \\quad \\text{for } Z/Z_\\odot < 0.23$$
-N 从初级 $\\rightarrow$ 次级 的转折点 = $0.23\\ Z_\\odot$
+$$\log(\mathrm{N/H}) = -4.57 + \log(Z/Z_\odot) \quad \text{for } Z/Z_\odot \geq 0.23$$
+$$\log(\mathrm{N/H}) = -3.94 + 2\log(Z/Z_\odot) \quad \text{for } Z/Z_\odot < 0.23$$
+N 从初级 $\rightarrow$ 次级 的转折点 = $0.23\ Z_\odot$
 
 ### 6.6 SNR 对诊断图的贡献
 
@@ -373,29 +374,29 @@ N 从初级 $\\rightarrow$ 次级 的转折点 = $0.23\\ Z_\\odot$
 ### 8.2 关键公式
 
 **维里定理（Zwicky 1933）**：
-$$\sigma_v^2 = \\frac{GM}{2R} \\quad \\Rightarrow \\quad M = \\frac{2R\\sigma_v^2}{G}$$
+$$\sigma_v^2 = \frac{GM}{2R} \quad \Rightarrow \quad M = \frac{2R\sigma_v^2}{G}$$
 
 **自转曲线**：
-$$v_{\\mathrm{circ}}^2(r) = \\frac{GM(<r)}{r}$$
-平坦旋转曲线 $\Rightarrow M(<r) \\propto r$ — 暗晕存在的直接证据
+$$v_{\mathrm{circ}}^2(r) = \frac{GM(<r)}{r}$$
+平坦旋转曲线 $\Rightarrow M(<r) \propto r$ — 暗晕存在的直接证据
 
 **MOND 加速度标度**：
-$$a_0 \\approx 1.2 \\times 10^{-10}\\ \\mathrm{m/s^2}$$
+$$a_0 \approx 1.2 \times 10^{-10}\ \mathrm{m/s^2}$$
 精确预测 Tully-Fisher 关系 $\alpha = 4$
 
 **微透镜时标**：
-$$t \\approx 130\\ \\mathrm{d} \\times (M/M_\\odot)^{0.5}$$
+$$t \approx 130\ \mathrm{d} \times (M/M_\odot)^{0.5}$$
 
 **R 宇称（SUSY）**：
 $$P_R = (-1)^{2s + 3B + L}$$
 标准模型粒子 $P_R = +1$；超伴 $P_R = -1$ $\rightarrow$ LSP 稳定 $\rightarrow$ 暗物质候选
 
 **Peccei-Quinn 轴子质量**：
-$$m_a \\sim \\frac{\\lambda_{\\mathrm{QCD}}^2}{f_{\\mathrm{PQ}}}, \\quad \\lambda_{\\mathrm{QCD}} \\sim 200\\ \\mathrm{MeV}$$
+$$m_a \sim \frac{\lambda_{\mathrm{QCD}}^2}{f_{\mathrm{PQ}}}, \quad \lambda_{\mathrm{QCD}} \sim 200\ \mathrm{MeV}$$
 
 **WIMP 热遗迹丰度**：
-$$\\Omega h^2 \\approx \\frac{0.1}{\\langle\\sigma v\\rangle}$$
-$$\\langle\\sigma v\\rangle \\sim 10^{-26}\\ \\mathrm{cm^3/s} \\quad \\text{[WIMP 奇迹]}$$
+$$\Omega h^2 \approx \frac{0.1}{\langle\sigma v\rangle}$$
+$$\langle\sigma v\rangle \sim 10^{-26}\ \mathrm{cm^3/s} \quad \text{[WIMP 奇迹]}$$
 
 ### 8.3 候选体谱系
 
