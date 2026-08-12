@@ -155,7 +155,7 @@ $${}^{8}{\rm Be} + {}^{4}{\rm He} \rightarrow {}^{12}{\rm C}^*({\rm Hoyle\ state
 **物理意义**：若此态不存在，3α 反应速率将比实际低数个数量级，宇宙中将没有碳——经典的"精细调节"例证。Fowler (1984) 强调 "Mass gaps 5 and 8" 是 3α 反应的根本动机。
 
 3α 反应速率：
-$$r_{3\alpha} \propto \rho^{3} T_{8}^{-3}\ \exp\left(-4.4027\ T_{8}^{-1}\right)\quad {\rm (Barnes\ 1982\ 推荐)}$$
+$$r_{3\alpha} \propto \rho^{3} T_{8}^{-3}\ \exp\left(-4.4027\ T_{8}^{-1}\right)\quad \text{(Barnes 1982 推荐)}$$
 
 ### 2.3.2 ¹²C(α,γ)¹⁶O 反应
 
