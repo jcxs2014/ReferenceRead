@@ -166,3 +166,27 @@
 | `14_conclusion_and_references.md` | §8 + Refs | ~6000 字 |
 | `99_final_summary.md` | **本文件** | ~4000 字 |
 | **总计** | | **~68,000 字** |
+
+---
+
+## 25. Completeness Check
+
+- [x] Abstract
+- [x] Introduction (§1)
+- [x] All main sections (§2–§8)
+- [x] Methods（DSAM 加速理论、GZK 传播方程、拓扑缺陷计算）
+- [x] Data（§2 观测谱：AGASA/HiRes/Fly's Eye 等全程外实验数据）
+- [x] Background（CMB 光子场、EGMF、弥散伽马射线背景）
+- [x] Signal（UHECR 事件聚类、GZK 截断、top-down 模型信号）
+- [x] Statistics（小尺度聚类显著性、AGASA vs HiRes 差异）
+- [x] Systematics（能量标度不确定度、B 场模型依赖性）
+- [x] Results
+- [x] Discussion（bottom-up vs top-down 全面对比）
+- [x] Conclusion（§8 总结与展望）
+- [x] Appendix（参考文献 ~512 篇）
+- [x] Figures（Fig. 1–32 在主体文件中引用分析）
+- [x] Important equations（Eq. 1–100+, 含 GZK 阈值、DSAM 最大能量、TD 能量注入率）
+- [x] Important numerical values（核心数值已保留）
+- [x] Important references（00_overview.md 已标注核心文献）
+
+> 结束：本文共生成 16 个分析文件，覆盖文献全部 150 页（arXiv 版本）的正文与参考文献。

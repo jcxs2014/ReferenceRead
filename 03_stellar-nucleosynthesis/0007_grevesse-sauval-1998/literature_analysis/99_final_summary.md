@@ -82,3 +82,23 @@ Grevesse & Sauval (1998) 综述了太阳化学组成的全部测量来源，给�
 - **16.2 可直接使用**：Table I 全表数值、X/Y/Z 经典值、A_el 标度
 - **16.3 值得深读**：Anders & Grevesse 1989、B²FH 1957、Asplund et al. 2009
 - **16.4 系统误差思路**：把原子数据不确定度作为丰度不确定度的主要来源而非光谱本身
+
+---
+
+## 25. Completeness Check
+
+- [x] Abstract
+- [x] Introduction
+- [x] All main sections（§1–§6 全部覆盖）
+- [x] Methods（光球光谱分析、陨石分析、Fe 激发势依赖诊断法）
+- [x] Data（Table I 全表 83 元素 + Th/U 转录）
+- [x] Background（Holweger-Müller 光球模型、H-atom 碰撞展宽）
+- [x] Results（X=0.735, Y=0.248, Z=0.017, Fe=7.50）
+- [x] Discussion（太阳-陨石一致性、Fe 争议解决、Li 悖论）
+- [x] Figures（3 图逐一分析）
+- [x] Tables（Table I 全元素丰度表完整转录）
+- [x] Important equations（A_el 定义、质量丰度累计公式）
+- [x] Important numerical values（已列出关键数值）
+- [x] Important references（00_overview.md 已标注核心文献）
+
+> 结束：本文共生成 2 个分析文件，覆盖文献全部 14 页扫描 PDF（pdftoppm + vision_analyze 转录）。

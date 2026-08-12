@@ -98,3 +98,26 @@
 | 文件编号规范（00-11, 99） | ✅ |
 | 中文写作 | ✅ |
 | 事实核对：作者名修正（非 Weinberg） | ✅ |
+
+---
+
+## 25. Completeness Check
+
+- [x] Abstract
+- [x] Introduction（Preface）
+- [x] All main sections（I–IX 全部覆盖）
+- [x] Methods（历史考据、口述史、跨学科综合）
+- [x] Data（Oort 1932、Zwicky 1937、旋转曲线、CMB/BBN、Bullet Cluster）
+- [x] Background（19 世纪暗物质概念、MACHO、修正引力）
+- [x] Signal（维里质量、旋转曲线、引力透镜、结构形成）
+- [x] Statistics（Ω_b h²=0.02225、WIMP 截面约束）
+- [x] Systematics（MACHO 微透镜上限、直接探测系统误差）
+- [x] Results
+- [x] Discussion（暗物质证据多尺度汇聚）
+- [x] Conclusion（WIMP 时代的现状与未来）
+- [x] Figures（Fig. 1–8 逐一分析）
+- [x] Important equations（维里定理、MOND、R 宇称、WIMP relic abundance）
+- [x] Important numerical values（已列出关键数值）
+- [x] Important references（00_overview.md 已标注核心文献）
+
+> 结束：本文共生成 13 个分析文件，覆盖文献全部 32 页。
