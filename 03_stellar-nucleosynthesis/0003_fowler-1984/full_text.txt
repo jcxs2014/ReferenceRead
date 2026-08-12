@@ -1,0 +1,10924 @@
+Experimental
+and theoretical
+nuclear astrophysics:
+the quest for the origin of the elements'
+William
+A. Fowler
+8'. K. Kellogg RadiatE'on Laboratory,
+California
+Institute of Technology,
+Pasadena,
+Cahfornia
+91225
+Ad astra per aspera et per ludum
+I. INTRODUCTION
+We live on planet Earth warmed
+by the rays of a near-
+by star we call the sun.
+The energy
+in those rays of sun-
+light comes initially
+from the nuclear
+fusion of hydrogen
+into helium
+deep in the solar interior.
+Eddington
+told us
+this in 1920, and Hans Bethe developed
+the detailed
+nu-
+clear processes involved
+in the fusion in 1939. For this he
+was awarded
+the Nobel Prize in Physics in 1967.
+All life on Earth, including
+our own, depends
+on sun-
+light
+and thus
+on nuclear
+processes
+in the solar interior.
+But the sun did not produce the chemical
+elements
+which
+are found
+in the Earth and in our bodies.
+The first two
+elements
+and their stable isotopes,
+hydrogen
+and helium,
+emerged
+from
+the first
+few minutes
+of the early
+high-
+temperature,
+high-density
+stage of the expanding
+universe,
+the so-called "big bang. " A small amount of lithium,
+the
+third element
+in the Periodic Table, was also produced
+in
+the big bang, but the remainder
+of the lithium
+and all of
+beryllium,
+element
+four,
+and
+boron,
+element
+five,
+are
+thought
+to have been produced
+by the spallation
+of still
+heavier
+elements
+by the cosmic radiation
+in the interstel-
+lar medium
+between
+stars.
+These elements
+are in general
+very rare, in keeping
+with this explanation
+of their origin,
+as reviewed in detail by Audouze
+and Reeves (1982).
+Where did the heavier elements
+originate?
+The general-
+ly accepted answer is that all of the heavier elements
+from
+carbon, element
+six, up to long-lived
+radioactive
+uranium,
+element
+ninety-two,
+were produced
+by nuclear
+processes
+in the interior of stars in our own Galaxy.
+The stars we
+see at the present time in what we call the Milky 8'ay are
+located in a spiral arm of our Galaxy.
+In Sweden you call
+it Vinter Gatan,
+the Winter Street.
+We see with our eyes
+only a small fraction of the one hundred
+billion stars in
+the Galaxy.
+Astronomers
+cover almost
+the full range of
+the electromagnetic
+spectrum
+and thus can observe many
+more
+Galactic
+stars
+and
+even
+individual
+stars
+in other
+galaxies.
+The stars which
+synthesized
+the heavy
+elements
+in the
+solar system
+were formed
+or born,
+evolved
+or aged, and
+eventually
+ejected the ashes of their nuclear
+fires into the
+interstellar
+medium
+over the lifetime of the Galaxy before
+the solar
+system
+itself formed
+four and one-half
+billion
+years ago.
+The lifetime of the Galaxy is thought
+to be more than
+ten billion years but less than twenty
+billion years.
+In any
+case the Galaxy is much older than the solar system.
+The
+ejection of the nuclear
+ashes or newly
+formed
+elements
+took place by slow mass
+loss during
+the old age of the
+star, called the giant stage of stellar evolution,
+or during
+the relatively
+frequent
+outbursts
+which
+astronomers
+call
+novae,
+or during
+the final
+spectacular
+stellar
+explosions
+called supernouae.
+Supernovae
+can be considered to be the
+death of stars, but the white
+dwarfs
+or neutron
+stars or
+black holes that they leave behind
+may represent
+a form
+of stellar purgatory.
+In any case the sun
+and the Earth
+and
+all the other
+planets
+in the solar system
+condensed
+under
+gravitational
+and rotational
+forces from a gaseous
+solar nebula
+in the
+interstellar
+medium
+consisting
+of "big bang"
+hydrogen
+and helium
+mixed
+with the heavier
+elements
+synthesized
+in earlier generations
+of Galactic stars.
+All of this is illus-
+trated in Fig. 1.
+This idea can be generalized
+to successive
+generations
+of stars
+in the Galaxy
+with
+the result
+that
+the heavy-
+element
+content of the interstellar
+medium
+and the stars
+which form it increases
+with time.
+The oldest stars in the
+Galactic halo, that is, those
+we believe to have formed
+first,
+are found
+to have
+heavy-element
+abundances
+less
+than
+one percent of the heavy-element
+abundance
+of the
+solar system.
+The oldest stars in the Galactic disk have
+approximately
+ten percent.
+Only
+the less massive
+stars
+As Siars Age Their CoepositIoe
+CAylges
+MaterIBI
+is inter@hanged
+bebwee11
+the s4rS Wd @terstel@r SPgcq
+This lecture was delivered
+December 8, 1983, on the occasion
+of the presentation
+of the 1983 Nobel Prize in Physics.
+FIG. 1. Synthesis of the elements
+in stars.
+Reviews of Modern Physics, Vol. 56, No. 2, Part I, April 1984
+COPYRIGHT
+THE NOBEL FOUNDATION
+1984
+
+
+=== PAGE BREAK ===
+
+150
+William
+A. Fowler:
+Nuclear astrophysics
+among those first formed can have survived
+to the present
+as so-called
+Population
+II stars.
+Their small
+concentra-
+tion of heavy
+elements
+may have been produced
+in a still
+earlier
+but more massive
+generation
+of stars, Population
+III, which
+rapidly
+exhausted
+their nuclear
+fuels and sur-
+vived for only a very short lifetime.
+Stars formed
+in the
+disk of the Galaxy over its lifetime are referred to as Pop-
+ulation I stars.
+We speak of this element
+building
+as nucleosynthesis
+in
+stars.
+It can be generalized
+to other galaxies such as our
+twin, the Andromeda
+Nebula,
+and so this mechanism
+can
+be said to be a universal
+one.
+Astronomical
+observations
+of other
+galaxies
+have
+contributed
+much
+to our under-
+standing of nucleosynthesis
+in stars.
+We refer to the basic physics of energy
+generation
+and
+element
+synthesis
+in stars as Nuclear Astrophysics.
+It is a
+benign
+application
+of nuclear physics,
+in contrast to reac-
+tors and bombs.
+For the nuclear physicist
+this contrast is
+a personal
+and professional
+paradox.
+However,
+there is
+one thing of which I am certain.
+The science which
+ex-
+plains
+the origin of sunlight
+must not be used to raise a
+dust
+cloud which
+will black out that
+sunlight
+from our
+planet.
+As for all physics, the field of Nuclear Astrophysics
+in-
+volves experimental
+and theoretical
+activities
+on the part
+of its practitioners,
+and hence the first part of the title of
+this lecture.
+This lecture
+will emphasize
+nuclear
+experi-
+mental
+results and the theoretical
+analysis of those results
+almost, but not entirely, to the exclusion of other theoreti-
+cal aspects.
+It will not in any way do justice to the obser-
+vational
+activities
+of astronomers
+and
+cosmochemists,
+which
+are necessary
+to complete
+the cycle:
+experiment,
+theory,
+observation.
+Nor will it do justice to the calcula-
+tions by many theoretical
+astrophysicists
+of the results of
+nucleosynthesis
+of the elements
+and their isotopes
+under
+astrophysical
+conditions
+during
+the many
+stages of stellar
+evolution.
+My deepest personal
+interest
+is in experimental
+data, in
+the analysis of the data, and in the proper use of the data
+in theoretical
+stellar models.
+I continue to be encouraged
+in this regard
+by this one-hundred-and-ten-year-old
+quo-
+tation from Mark Twain:
+Please
+understand —
+I do not belittle
+these
+applications,
+but I am unable to overlook the fact that they are a two-
+edged sword.
+My subject matter
+resulted
+from the hard
+work of a nuclear
+astrophysicist
+which
+when
+successful
+brought
+him joy and satisfaction.
+It was hard work but it
+was
+fun.
+Thus
+I
+have
+chosen
+the
+subtitle
+for
+this
+lecture —
+"Ad astra per aspera
+et per ludum, " which
+can
+be freely translated
+"To the stars through
+hard work and
+fun." This is in keeping
+with my paraphrase
+of the bibli-
+cal quotation
+from Matthew,
+"Man shall not live by work
+alone. "
+With that
+in the record
+let us next ask what
+are the
+goals of Nuclear
+Astrophysics?
+First of all, Nuclear
+As-
+trophysics
+attempts
+to understand
+energy
+generation
+in
+the sun and other stars at all stages of stellar
+evolution.
+Energy
+generation
+by
+nuclear
+processes
+requires
+the
+transmutation
+of nuclei into new nuclei with lower mass.
+The small decrease
+in mass is multiplied
+by the velocity
+of light
+squared,
+as Einstein
+taught
+us, and a relatively
+large amount of energy is released.
+Thus the first goal is closely related to the second goal,
+that attempts
+to understand
+the nuclear
+processes
+which
+produced,
+under
+various
+astrophysical
+circumstances,
+the
+relative
+abundances
+of the elements
+and their isotopes
+in
+nature;
+whence the second part of the title of this lecture.
+Figure 2 shows a schematic
+curve of atomic
+abundances
+as a function
+of atomic weight.
+The data for this curve
+were
+first
+systematized
+from
+a plethora
+of terrestrial,
+IO
+O
+II
+(n 8
+IJJoz'
+CiZ
+CO
+There is something
+fascinating
+about science. One gets
+such
+wholesale
+returns
+of conjecture
+out of such a tri-
+fling investment
+of fact.
+Life on the Mississippi,
+1874
+UJ0
+O
+I-
+O
+e)
+For me Twain's
+remark
+is a challenge
+to the experimen-
+talist.
+The experimentalist
+must try to eliminate
+the word
+"trifling"
+through
+his endeavors
+in uncovering
+the facts
+of nature.
+Experimental
+research
+and
+theoretical
+research
+are
+often very hard work.
+Fortunately
+this is lightened
+by the
+fun of doing physics
+and in obtaining
+results
+which bring
+a personal
+feeling
+of intellectual
+satisfaction.
+To my
+mind
+the hard
+work
+and
+the
+resulting
+intellectual
+fun
+transcend
+in a way the benefits
+which
+may accrue to so-
+ciety
+through
+subsequent
+technological
+applications.
+DECAY
+YCLE
+Iso
+I
+I
+IOO
+I50
+ATOM
+I C
+WEIGHT
+I
+2OO
+FICx. 2.
+Schematic
+curve
+of atomic
+abundances
+relative
+to
+Si= 10 vs atomic weight for the sun and similar main sequence
+stars.
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+151
+meteoritic,
+solar,
+and
+stellar
+data
+by
+Hans
+Suess
+and
+Harold
+Urey
+(1959), and
+the
+available
+data
+have
+been
+periodically
+updated
+by A. G. W. Cameron (1982). Major
+contributions
+to the experimental
+measurement
+of atomic
+transition
+rates
+needed
+to
+determine
+solar
+and
+stellar
+abundances
+have
+been
+made
+by
+my
+colleague,
+Ward
+Whaling
+(1982). The articles
+by
+Cameron
+(1982) and
+Whaling
+(1982) occur in a book, Essays in Nuclear Astro-
+physics,
+which reviews
+the field up to 1982. In the words
+of one of America's
+baseball
+immortals,
+Casey Stengel,
+"You can always look it up."
+The curve in Fig. 2 is frequently
+referred to as "univer-
+sal" or "cosmic,"but in reality it primarily
+represents
+rel-
+ative atomic abundances
+in the solar system
+and in main
+sequence
+stars
+similar
+in mass
+and
+age to the sun.
+In
+current
+usage the curve is described
+succinctly
+as "solar."
+It is beyond
+the scope of this lecture to elaborate
+on the
+difficult,
+beautiful
+research
+in
+astronomy
+and
+cosmo-
+chemistry
+which
+determined
+this curve.
+How this curve
+serves as a goal can be simply put.
+In the sequel it will be
+noticed that calculations
+of atomic abundances
+produced
+under
+astronomical
+circumstances
+at various
+postulated
+stellar sites are almost invariably
+reduced to ratios relative
+to "solar" abundances.
+II. EARLY RESEARCH ON ELEMENT SYNTHESIS
+George
+Gamow
+and
+his collaborators,
+R. A. Alpher
+and R. C. Herman
+(1950), attempted
+to synthesize
+all of
+the elements
+during
+the big bang using a nonequilibrium
+theory involving
+neutron
+( n) capture with gamma-ray
+(y)
+emission
+and
+electron
+(e) beta
+decay
+by
+successively
+heavier
+nuclei.
+The synthesis
+proceeded
+in steps of one
+mass unit at a time, since the neutron
+has approximately
+unit mass on the mass scale used in all the physical
+sci-
+ences.
+As they emphasized,
+this theory
+meets grave diffi-
+culties beyond
+mass 4 ( He) because no stable nuclei exist
+at atomic
+mass
+5 and
+8.
+Enrico
+Fermi
+and
+Anthony
+Turkevich
+attempted
+valiantly
+to
+bridge
+these
+"mass
+gaps" without
+success and permitted
+Alpher
+and Herman
+to publish
+the results of their attempts.
+Seventeen
+years
+later Wagoner,
+Fowler, and Hoyle (1967), armed with nu-
+clear
+reaction
+data
+accumulated
+over
+the
+intervening
+years, succeeded
+only in producing
+Li at a mass fraction
+of at most
+10
+compared
+to hydrogen
+plus helium
+for
+acceptable
+model
+universes.
+All heavier
+elements
+totaled
+less than
+10 " by mass.
+Wagoner,
+Fowler,
+and Hoyle
+(1967) did succeed in producing
+D, He,
+He, and
+Li in
+amounts
+in reasonable
+agreement
+with observations
+at the
+time.
+More recent observations
+and calculations
+are fre-
+quently
+used to place constraints
+on models
+of the ex-
+panding
+universe
+and
+in general
+favor
+open
+models
+in
+which the expansion
+continues
+indefinitely.
+It was in connection
+with the "mass gaps" that the W.
+K. Kellogg Radiation
+Laboratory
+first became involved,
+albeit unwittingly,
+in astrophysical
+and cosmological
+phe-
+nomena.
+Before proceeding,
+it is appropriate
+at this point
+to discuss
+briefly
+the origins
+of the Kellogg
+Radiation
+Laboratory,
+where I have worked for 50 years.
+The labo-
+ratory
+was designed
+and the construction
+supervised
+by
+Charles
+Christian
+Lauritsen
+in
+1930 through
+1931.
+Robert Andrews
+Millikan,
+the head of Caltech, acquired
+the necessary
+funds from Will Keith Kellogg, the Ameri-
+can "corn flakes
+king. " The Laboratory
+was
+built
+to
+study the physics of 1-MeV x rays and the application
+of
+those x rays in the treatment
+of cancer.
+In 1932 Cock-
+croft and Walton
+discovered
+that
+nuclei
+could be disin-
+tegrated
+by protons
+(p), the nuclei of the light hydrogen
+atom 'H, accelerated to energies
+well under
+1 MeV. Lau-
+ritsen immediately
+converted
+one of his x-ray tubes into a
+positive ion accelerator
+(they were powered
+by alternating
+current transformers!)
+and began research in nuclear phys-
+ics. Robert
+Oppenheimer
+and Richard
+Tolman
+were in-
+strumental
+in convincing
+Millikan
+that Lauritsen
+was do-
+ing the right thing.
+Oppenheimer
+played an active role in
+the theoretical
+interpretation
+of the experimental
+results
+obtained
+in the Kellogg
+Laboratory
+in the early crucial
+years.
+Lauritsen
+supervised
+my
+doctoral
+research
+from
+1933—1936, and I worked
+closely
+with
+him
+until
+his
+death.
+It was he who taught
+me that physics
+was both
+hard work and fun.
+He was a native of Denmark
+and was
+an accomplished
+violinist
+as well as physicist,
+architect,
+and engineer.
+He loved the works of Carl Michael Bell-
+man, the famous
+Swedish
+poet-musician
+of the 18th cen-
+tury, and played
+and sang Bellman for his students.
+It is
+well known
+that many of Bellman's
+works were drinking
+songs.
+That made it all the better.
+We must
+now
+return
+to the first
+involvement
+of the
+Kellogg Radiation
+Laboratory
+in the mass gap at mass 5.
+In 1939, in Kellogg,
+Hans
+Staub and William
+Stephens
+(1939) detected
+resonance
+scattering
+by
+He of neutrons
+with orbital angular
+momentum
+equal to one in units of A'
+(p-wave) and energy somewhat
+less than
+1 MeV, as shown
+in Fig. 3. This confirmed
+previous
+reaction
+studies
+by
+Williams,
+Shepherd,
+and Haxby
+(1937) and showed
+that
+O
+0 8
+V)
+CA
+o 6
+O
+0
+C3 2
+0
+~X
+y I-L
+l
+l
+I
+I
+2
+5
+4
+5
+Lob Energy
+of Neutron
+in
+MeV
+FICx. 3. The ratio of the backward
+scattering
+cross section of
+helium
+to hydrogen
+as a function
+of the laboratory
+energy
+in
+MeV of the incident neutron.
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Foozler:
+Nuclear astrophysics
+the ground
+state of
+He is unstable.
+As fast as
+He is
+made
+it disintegrates!
+The same
+was later
+shown
+to be
+true for
+Li, the other candidate
+nucleus
+at mass 5. The
+Pauli
+exclusion
+principle
+dictates
+for fermions
+that
+the
+third
+neutron
+in
+He must
+have
+at least
+unit
+angular
+momentum
+and not zero, as permitted
+for the first two
+neutrons
+with
+antiparallel
+spins.
+The attractive
+nuclear
+force cannot match the outward
+centrifugal
+force in clas-
+sical terminology.
+Still later,
+in the Kellogg
+Radiation
+Laboratory,
+Tollestrup,
+Fowler, and Lauritsen
+(1949) con-
+firmed,
+with
+improved
+precision,
+the discovery
+of Hem-
+mendinger
+(1948,1949) that the ground
+state of Be is un-
+stable.
+They found
+the energy of the
+Be breakup
+to be
+89+5 keV, compared
+to the currently
+accepted
+value of
+91.89+0.05 keV. The Pauli exclusion principle
+is again at
+work in the instability
+of Be. As fast as Be is made it
+disintegrates
+into two
+He nuclei.
+The latter may be bo-
+sons, but they consist of fermions.
+The mass gaps at 5
+and 8 spelled the doom of Gamow's
+hopes that all nuclear
+species
+could be produced
+in the big bang,
+one unit of
+mass at a time.
+The
+eventual
+commitment
+of the
+Kellogg
+Radiation
+Laboratory
+to Nuclear
+Astrophysics
+came about in 1939,
+when Bethe (1939; see also Bethe, 1967) brought
+forward
+the operation
+of the CN cycle as one mode of the fusion
+of hydrogen
+into helium
+in stars (since oxygen
+has been
+found to be involved,
+the cycle is now known
+as the CNO
+cycle). Charles
+Lauritsen,
+his son Thomas Lauritsen,
+and
+I were measuring
+the cross sections of the proton
+bom-
+bardment
+of the isotopes of carbon
+and nitrogen
+which
+constitute
+the CN cycle. Bethe's paper (1939) told us that
+we were studying
+in the laboratory
+processes
+which
+are
+occurring
+in the sun and other stars.
+It made a lasting
+impression
+on us.
+World War II intervened,
+but in 1946
+on
+returning
+the
+laboratory
+to
+nuclear
+experimental
+research,
+Lauritsen
+decided
+to continue
+in
+low-energy,
+classical
+nuclear
+physics,
+with
+emphasis
+in the study of
+nuclear reactions thought
+to take place in stars.
+In this he
+was strongly
+supported
+by Ira Bowen, a Caltech Professor
+of Physics
+who had just been appointed
+Director of the
+Mt.
+Wilson
+Observatory,
+by
+Lee DuBridge,
+the
+new
+President
+of Caltech,
+by
+Carl
+Anderson,
+Nobel
+Prize
+winner
+1936, and by Jesse Greenstein,
+newly appointed
+to
+establish
+research
+in astronomy
+at Caltech.
+In Kellogg,
+Lauritsen
+did not follow the fashionable
+trend to higher
+and higher
+energies
+which
+has continued
+to this day.
+He
+did
+support
+Robert
+Bacher
+and
+others
+in
+establishing
+high-energy
+physics at Caltech.
+Although
+Bethe in 1939 and others still earlier had pre-
+viously
+discussed
+energy
+generation
+by nuclear
+processes
+in stars, the grand concept of nucleosynthesis
+in stars was
+first definitely
+established
+by Fred Hoyle (1946,1954).' In
+two classic papers
+the basic ideas of the concept
+were
+presented
+within
+the framework
+of stellar
+structure
+and
+evolution,
+with the use of the then known nuclear data.
+~For a discussion of earlier ideas, including
+suggestions
+and re-
+tractions,
+see Chap. XII of Chandrasekhar
+(1939).
+Again the Kellogg Laboratory
+played a role. Before his
+second paper
+Hoyle
+was puzzled
+by the slow rate of the
+formation
+of ' C nuclei
+from
+the
+fusion (3a~' C) of
+three alpha particles (a) or
+He nuclei
+in red giant stars.
+Hoyle
+was
+puzzled
+because
+his
+own
+work
+with
+Schwarzschild
+(Hoyle and Schwarzschild,
+1955) and pre-
+vious work of Sandage
+and Schwarzschild
+(1952; in par-
+ticular,
+see last paragraph
+on p. 475) had convinced
+him
+that helium
+burning
+through
+3m~' C should
+commence
+in red giants just above 10 K rather than at 2& 10 K as
+required
+by
+the
+reaction
+rate
+calculation
+of Salpeter
+(1952a). Salpeter
+made
+his calculation
+while a visitor at
+the Kellogg
+Laboratory
+during
+the summer
+of 1951 and
+used
+the Kellogg
+value
+(Tollestrup
+et al. , 1949) for the
+energy
+of
+Be in excess of two
+He to determine
+the
+resonant
+rate for the process (2a~ Be), which takes into
+account both the formation
+and decay of the
+Be. How-
+ever, in calculating
+the next step, Be+a—+' Ca+y, Sal-
+peter had treated the radiative
+fusion as nonresonant.
+Hoyle
+realized
+that this step would
+be speeded
+up by
+many
+orders of magnitude,
+thus
+reducing
+the tempera-
+tures for its onset, if there existed an excited state of ' C
+with energy 0.3 MeV in excess of Be +a at rest and with
+the
+angular
+momentum
+and
+parity
+(0+,1,2+,3, . . . )
+dictated
+by the selection
+rules for these quantities.
+Hoyle
+came to the Kellogg Laboratory
+early in 1953 and ques-
+tioned
+the staff about
+the possible
+existence of his pro-
+posed excited state.
+To make a long story short,
+Ward
+Whaling
+and his visiting
+associates and graduate
+students
+(Dunbar
+et al. , 1953) decided
+to go into the laboratory
+and search for the state using
+the ' N(d, a) ' C reaction.
+They found it to be located almost
+exactly
+where
+Hoyle
+had predicted.
+It is now known to be at 7.654-MeV exci-
+tation
+in ' C or 0.2875 MeV above Be+ o. and 0.3794
+MeV above 3a. Cook, Fowler, Lauritsen,
+and Lauritsen
+(1957) then produced
+the state in the decay of radioactive
+' B and
+showed
+it could break
+up into 3a and thus
+by
+reciprocity
+could be formed
+from 3n. They argued
+that
+the spin
+and parity
+of the state must
+be 0+, as is now
+known to be the case.
+The 3o.—
++ C fusion in red giants jumps
+the mass gaps
+at 5 and 8. This process could never occur under big bang
+conditions.
+By the time the
+He was produced
+in the ear-
+ly expanding
+universe
+the subsequent
+density
+and
+tem-
+perature
+were too low for the helium
+fusion to carbon to
+occur.
+In contrast,
+in red giants, after hydrogen
+conver-
+sion to helium
+during
+the main
+sequence
+stage, gravita-
+tional
+contraction
+of the helium
+core raises the density
+and temperature
+to values
+where helium
+fusion is ignited.
+Hoyle
+and Whaling
+showed
+that conditions
+in red giant
+stars are just right.
+Fusion processes can be referred
+to as nuclear
+burning
+in the same way we speak of chemical
+burning.
+Helium
+burning
+in red giants succeeds hydrogen
+burning
+in main
+sequence
+stars and is in turn
+succeeded
+by carbon, neon,
+oxygen,
+and silicon burning
+to reach to the elements
+near
+iron and somewhat
+beyond
+in the Periodic Table.
+With
+these
+nuclei
+of intermediate
+mass
+as seeds,
+subsequent
+processes
+similar
+to Gamow's
+involving
+neutron
+capture
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+at a slow rate (s process) or at a rapid
+rate (r process),
+continued
+the synthesis
+beyond
+Bi, the last stable nu-
+cleus, up through
+short-lived
+radioactive
+nuclei to long-
+lived
+Th,
+U, and
+U, the parents of the natural
+ra-
+dioactive
+series.
+This last requires
+the r process,
+which
+actually
+builds
+beyond
+mass
+238 to radioactive
+nuclei
+which
+decay back to
+Th,
+U, and
+U rapidly
+at the
+cessation of the process.
+The need for two neutron
+capture processes was provid-
+ed by Suess and Urey (1956). With the adroit use of rela-
+tive isotopic
+abundances
+for elements
+with
+several
+iso-
+topes, they demonstrated
+the existence of the double peaks
+(r and s) in Fig. 2. It was immediately
+clear that these
+peaks
+were
+associated
+with
+neutron
+shell
+filling
+at the
+magic neutron
+numbers %=50, 82, and 126 in the nuclear
+shell model of Hans Jensen
+and Maria Goeppert-Mayer,
+who
+won
+the Nobel
+Prize in Physics just twenty
+years
+ago.
+In the s process the nuclei
+involved
+have low capture
+cross sections at shell closure and thus large abundances
+to maintain
+the s-process flow.
+In the r process it is the
+proton-deficient
+radioactive
+progenitors
+of the stable
+nu-
+clei which
+are involved.
+Low capture
+cross sections
+and
+small beta-decay
+rates at shell closure 1ead to large abun-
+dances, but after subsequent
+radioactive
+decay these large
+abundances
+appear at lower
+A values than for the s pro-
+cess since Z is less and thus
+A =N+Z is less. In Hoyle's
+classic papers (1946,1954) stellar nucleosynthesis
+up to the
+iron-group
+elements
+was attained
+by charged-particle
+re-
+actions.
+Rapidly
+rising
+Coulomb
+barriers
+for charged
+particles
+curtailed
+further
+synthesis.
+Suess
+and
+Urey
+(1956) made the breakthrough
+which
+led to the extension
+of nucleosynthesis
+in stars
+by neutrons
+unhindered
+by
+Coulomb barriers
+all the way to
+U.
+The complete
+run of the synthesis
+of the elements
+in
+stars
+was
+incorporated
+into a paper
+by Burbidge,
+Bur-
+bidge, Fowler, and Hoyle (1957), commonly
+referred to as
+B FH (see also Hoyle,
+Fowler,
+Burbidge,
+and Burbidge,
+1956), and
+was
+independently
+developed
+by
+Cameron
+(1957). Notable
+contributions
+to the astronomical
+aspects
+of the problem
+were made by Jesse Greenstein
+(1954,1982)
+and
+by
+many
+other
+observational
+astronomers.
+The
+discovery of technicium
+lines in S-stars by Merrill
+(1952)
+was of key importance.
+Since that time Nuclear
+Astro-
+physics has developed
+into a full-fledged
+scientific activi-
+ty, including
+the exciting discoveries of isotopic anomalies
+in meteorites
+by my colleagues
+Gerald Wasserburg,
+Dimi-
+tri Papanastassiou,
+and Samuel
+Epstein
+and many
+other
+cosmochemists.
+What follows
+will highlight
+a few of the
+many experiments
+and theoretical
+researches
+under way at
+the present time or carried out in the past few years.
+This
+account
+will emphasize
+research
+activities
+in the Kellogg
+Laboratory
+because
+they
+are closest to my interest
+and
+knowledge.
+However,
+copious
+references
+to the work of
+other laboratories
+and institutions
+are cited in the hope
+that the reader will obtain a broad view of current
+experi-
+mental and theoretical
+studies in Nuclear Astrophysics.
+This
+account
+cannot
+discuss
+the
+details
+of the
+nu-
+cleosynthesis
+of all the elements
+and their isotopes, which
+would, for a given nuclear
+species, involve
+discussing
+all
+the reactions
+producing
+that nucleus
+and all those which
+destroy it. The reader
+will find some of these details for
+"C, "O, and "Mn.
+It will be noted that the measured
+cross sections for the
+reactions are customarily
+very small at the lowest energies
+of measurement,
+for ' C(a,y)' 0 even
+less
+than
+one
+nanobarn
+(10
+3 cm~) near 1.4 MeV. This means that ex-
+perimental
+Nuclear
+Astrophysics
+requires
+accelerators
+with
+large
+currents
+of well
+focused,
+monoenergetic
+ion
+beams,
+thin targets of high purity
+and stability,
+detectors
+of high sensitivity
+and energy
+resolution,
+and experimen-
+talists with great tolerance for the long running
+times re-
+quired
+and with patience in accumulating
+data of statisti-
+cal significance.
+Classical
+Rutherfordian
+measurements
+of nuclear cross sections are required
+in experimental
+Nu-
+clear Astrophysics,
+and the results are in turn essential to
+our understanding
+of the physics of nuclei.
+A comment
+on nuclear reaction notation is necessary at
+this point.
+In the reaction ' C(a,y) ' 0 discussed
+in the
+previous
+paragraph
+' C is the laboratory
+target nucleus, a
+is the incident
+nucleus
+( He) accelerated in the laboratory,
+y is the photon
+produced
+and detected
+in the laboratory,
+and ' 0 is the residual
+nucleus
+which can also be detected
+if it is desirable
+to do so. If ' C is accelerated
+against
+a
+gas target of
+He and the 0 products
+are detected
+but
+not
+the
+gamma
+rays,
+then
+the
+laboratory
+notation
+is
+He(' 0,' 0)y. The stars could not care less. In stars all
+the
+particles
+are
+moving,
+and
+only
+the
+center-of-
+momentum
+system
+is important
+for the determination
+of
+stellar reaction
+rates.
+In ' C(a, n) ' 0(e+v) ' N, n is the
+neutron
+promptly
+produced
+and detected
+and e+ is the
+positron
+which can also be detected
+in the beta decay of
+' O. The neutrino
+emitted
+with the positron is designated
+by v.
+As an aside at this point I am proud to recall that I
+first spoke to the Royal Swedish Academy of Sciences on
+"Nuclear
+Reactions
+in Stars" on January
+26, 1955. It
+does not seem so long ago, and some of you in the audi-
+ence heard that talk!
+III. STELLAR REACTION RATES FROM LABORATORY
+CROSS SECTIONS
+Thermonuclear
+reaction
+rates in stars are customarily
+expressed
+as Nz(cru)
+reactions
+per sec per (molcm
+),
+where
+Nq —
+—6.022)& 10
+mol
+' is Avogadro's
+number
+and
+(cru ) is the Maxwell-Boltzmann
+average
+as a func-
+tion of temperature
+for the product of the reaction cross
+section,
+cr, in cm, and the relative
+velocity of the reac-
+tants,
+u in cmsec '. Multiplication
+of (cru) by the prod-
+uct of the number
+densities
+per cm of the two reactants
+is necessary
+to obtain rates in reactions
+per sec per cm .
+Xq is incorporated
+so that mass fractions can be used, as
+described
+in detail in Fowler, Caughlan,
+and Zimmerman
+(1967,1975; see also Harris
+et al. , 1983 and
+Caughlan,
+1984). These authors
+also describe
+procedures
+for reac-
+tions involving
+more than two reactants
+and give analyti-
+Rev. Mod. Phys. , Vol. 56, No. 2, Part l, April 1984
+
+
+=== PAGE BREAK ===
+
+t54
+William
+A. Fowler:
+Nuclear astrophysics
+cal expressions
+for reactions
+mainly
+involving
+y, e, n, p,
+and
+cx with
+nuclei
+having
+atomic
+mass
+number
+A &30.
+Bose-Einstein
+statistics for y have been necessarily
+incor-
+porated,
+but the extension
+to Fermi-Dirac
+statistics
+for
+degenerate
+e, n, and p and the extension
+to Bose-Einstein
+statistics
+for a are not included.
+Factors for calculating
+reverse reaction rates are given.
+Early work on the evaluation
+of stellar rates from ex-
+perimental
+laboratory
+cross
+sections
+was
+reviewed
+in
+Bethe's
+Nobel
+Lecture
+(1967). Fowler,
+Caughlan,
+and
+Zimmerman
+(1967) have provided
+detailed
+numerical
+and
+analytical
+procedures
+for converting
+laboratory
+cross sec-
+tions into stellar reaction rates. It is first of all necessary
+to accommodate
+the rapid
+variation
+of the nuclear
+cross
+sections at low energies
+which
+are relevant
+in astrophysi-
+cal circumstances.
+For neutron-induced
+reactions
+this is
+accomplished
+by defining
+a cross-section S factor equal to
+the cross section (cr) multiplied
+by the interaction
+velocity
+(U) in order to eliminate
+the usual
+U
+' singularity
+in the
+cross section at low velocities and low energies.
+For reactions
+induced
+by charged particles
+such as pro-
+tons, alpha particles, or the heavier ' C,' 0, . . . , nuclei it
+is necessary to accommodate
+the decrease by many orders
+of magnitude
+from the lowest laboratory
+measurements
+to
+the energies
+of astrophysical
+relevance.
+This is done in
+the way first suggested
+by E. E. Salpeter (1952b,1955) and
+emphasized
+by Bethe (1967). Table I shows
+how a rela-
+tively slowly varying S factor can be defined by eliminat-
+ing the rapidly
+varying
+term
+in the Gamow
+penetration
+factor governing
+transmission
+through
+the Coulomb
+bar-
+rier.
+The
+cross
+section
+is
+usually
+expressed
+in
+barns
+(10
+cm ) and the energy
+in MeV (1.602X10
+erg), so
+the S factor
+is expressed
+in MeVb,
+although
+keVb
+is
+sometimes
+used.
+In Table I, the two charge numbers
+and
+the reduced
+mass in atomic mass units of the interacting
+nuclei
+are designated
+by Zo, Z~, and
+A.
+Table II then
+shows
+how stellar reaction
+rates can be calculated
+as an
+average
+over
+the
+Maxwell-Boltzmann
+distribution
+for
+both nonresonant
+and resonant
+cross sections.
+In Table II
+the effective
+stellar
+reaction
+energy
+is given
+numerically
+by Eo —
+—0.122(ZOZ~A)'
+T9
+MeV, where
+T9 is the tem-
+perature
+in units of 10 K. Expressions
+for reaction rates
+derived
+from theoretical
+statistical
+model calculations
+are
+given
+by
+Woosley,
+Fowler,
+Holmes,
+and
+Zimmerman
+(1978).
+It is true that the extrapolation
+from the cross sections
+measured
+at the lowest
+laboratory
+energies
+to the cross
+sections at the effective stellar energy can often involve
+a
+decrease
+by
+many
+orders
+of magnitude.
+However,
+the
+elimination
+of the
+Gamow
+penetration
+factor,
+which
+causes
+this
+decrease,
+is based
+on
+the
+solution
+of the
+Schrodinger
+equation
+for the Coulomb
+wave functions,
+in
+which
+one can have considerable
+confidence.
+The main
+uncertainty
+lies in the variation of the S factor with ener-
+gy, which
+depends
+primarily
+on the value chosen for the
+radius
+at which
+formation
+of a compound
+nucleus
+be-
+tween
+two interacting
+nuclei or nucleons
+occurs, as dis-
+cussed
+long ago in B FH (1957). The radii
+used by my
+colleagues
+and me in recent work are given
+in Woosley,
+Fowler, Holmes,
+and Zimmerman
+(1978). There is, in ad-
+TABLE I.
+DEFINITION
+OF
+THE
+S FACTOR
+(BETHE, 1967)
+AS
+A FUNCTION
+OF REACTION
+ENERGY(E)
+cr(E) =
+7rg
+x P
+x INTRINSIC
+NUCLEAR
+FACTOR
+DE BROGLIE
+WAVELENGTH/2m
+P(E) =
+GAMOW
+PENETRATION
+FACTOR
+E
+=
+Z
+Z
+A
+S(E)
+= Eo(E) e~p(+E, /E ')
+'PERMITS
+MORE PRECISE
+EXTRAPOLATION
+FROM
+S(E)
+& LOWEST
+ENERGY
+MEASUREMENTS
+IN
+LABORATORY
+, TO VERY
+LOW EFFECTIVE STELLAR ENERGIES
+Rev. Mod. Phys. , Vol. 56, No. 2, Part
+I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+155
+TABLE II.
+STELLAR REACTION
+FUNCTIONS
+OF TEMPERATURE(T)
+( (Tv)
+G
+I(I)
+I
+fS (E)exp (-E /E
+— E/kT) dE
+AEERAOE
+OVER
+MAXNELL-BOLTZMANN
+DISTRIBUTION
+MAXIMUM
+IN
+INTEGRAND
+OCCURS
+AT E
+AND
+AT
+E
+= EFFECTIVE STELLAR REACTION
+ENERGY
+~ E
+T
+I
+3
+2
+3
+0
+NONRESONANT
+RATE
+—2/3
+QV
+~
+ex
+nr
+0
+0
+E /kT
+~ T
+0
+RESONANT
+RATE
+-3/2
+OV
+~
+ex
+E
+= ENERGY
+AT
+RESONANCE
+dition,
+the uncertainty
+in the intrinsic
+nuclear factor of
+Table I, which can only be eliminated
+by recourse to labo-
+ratory experiments.
+The effect of a resonance
+in the com-
+pound
+nucleus just below or just above the threshold
+for a
+given reaction
+can often be ascertained
+by determination
+of the properties
+of the resonance
+in other reactions
+in
+which it is involved
+and which are easier to study.
+IV. HYDROGEN
+BURNING
+IN MAIN SEQUENCE STARS
+AND THE SOLAR NEUTRINO
+PROBLEM
+Hydrogen
+burning
+in
+main
+sequence
+stars
+has
+con-
+tributed
+at the present time only about 20% more'helium
+than
+that
+which
+resulted
+from
+the big bang.
+However,
+hydrogen
+burning
+in the
+sun
+has
+posed
+a problem
+for
+many
+years.
+In 1938 Bethe and Critchfield
+(1938) pro-
+posed the proton-proton
+or pp chain
+as one mechanism
+for hydrogen
+burning
+in stars.
+From many
+cross-section
+measurements
+in Kellogg and elsewhere,
+it is now known
+to be the mechanism
+which
+operates
+in the sun rather
+than the CNO cycle.
+Our
+knowledge
+of the weak
+nuclear
+interaction
+(beta
+decay, neutrino
+emission
+and absorption,
+etc.) tells us that
+two neutrinos
+are emitted
+when four hydrogen
+nuclei are
+converted
+into helium
+nuclei.
+Detailed elaboration
+of the
+pp chain
+by Fowler (1958) and Cameron
+(1958) showed
+that a small
+fraction of these neutrinos,
+those from the
+decay of Be and
+B, should
+be energetic
+enough
+to be
+detectable
+through
+interaction
+with
+the nucleus
+Cl to
+form
+radioactive
+Ar, a method
+of neutrino
+detection
+suggested
+by Pontecorvo
+(1946) and Alvarez (1948). Ray-
+mond
+Davis (1983) and his collaborators
+have attempted
+for more than 25 years to detect these energetic neutrinos,
+employing
+a
+380000-liter
+tank
+of
+perchloroethylene
+(C2
+C13
+Cl() located
+one mile
+deep
+in the Homestake
+Gold Mine in Lead, South Dakota.
+They find only about
+one-quarter
+of the number
+expected
+on the basis of the
+model-dependent
+calculations of Bahcall et al. (1982)
+Something
+is wrong
+=ither the standard
+solar models
+are incorrect, the relevant
+nuclear cross sections are in er-
+ror, or the electron-type
+neutrinos
+produced
+in the sun are
+converted
+in part
+into
+undetectable
+muon
+neutrinos
+or
+taon
+neutrinos
+on the
+way
+from
+the sun to the Earth.
+There
+indeed
+have
+been controversies
+about
+the nuclear
+cross
+sections,
+which
+have
+been
+for
+the
+most
+part
+resolved,
+as reviewed
+in Robertson
+et al. (1983) and Os-
+borne et al. (1982) and Skelton and Kavanagh
+(1984).
+It is generally
+agreed
+that
+the next step is to build a
+detector
+which
+will detect the much
+larger
+flux of low-
+energy
+neutrinos
+from the sun through
+neutrino
+absorp-
+tion by the nucleus
+'Ga to form radioactive
+'Ge. This
+will require 30—50 tons of gallium,
+at a cost (for 50 tons)
+of approximately
+25 million
+dollars or 200 million
+krona.
+An international
+effort is being made to obtain the neces-
+sary amount
+of gallium.
+We are back at square
+one in
+Nuclear
+Astrophysics.
+Until
+the solar neutrino
+problem
+is resolved,
+the basic principles
+underlying
+the operation
+of nuclear
+processes
+in stars are in question.
+A gallium
+detector should
+go a long way toward
+resolving
+the prob-
+lem.
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+The chlorine
+detector
+must be maintained
+in low-level
+operation
+until
+the chlorine
+and gallium
+detectors
+can be
+operated
+at full level simultaneously.
+Otherwise
+endless
+conjecture
+concerning
+time variations
+in the solar neutri-
+no flux will ensue.
+Moreover,
+the results of the gallium
+observations
+may uncover information
+that has been over-
+looked in the past chlorine observations.
+The CNO
+cycle operates
+at the higher
+temperatures
+which
+occur during
+hydrogen
+burning
+in main
+sequence
+stars somewhat
+more massive
+than
+the sun.
+This is the
+case because the CNO cycle reaction rates rise more rap-
+idly with temperature
+than do those of the pp chain.
+The
+cycle is important
+because ' C, ' N, ' N, ' 0, and ' 0 are
+produced
+from
+' C and
+' 0 as seeds.
+The role of these
+nuclei
+as sources of neutrons
+during
+helium
+burning
+is
+discussed
+in Sec. V.
+V. THE SYNTHESIS OF ' C AND ' 0 AND NEUTRON
+PRODUCTION
+IN HELIUM BURNING
+The human
+body is 65%%uo oxygen by mass and 18% car-
+bon,
+with
+the
+remainder
+mostly
+hydrogen.
+Oxygen
+(0.85%) and carbon (0.39%) are the most abundant
+ele-
+ments heavier than helium
+in the sun and similar main se-
+quence stars. It is little wonder
+that the determination
+of
+the ratio ' C/' 0 produced
+in helium
+burning
+is a prob-
+lem of paramount
+importance
+in Nuclear
+Astrophysics.
+This ratio depends
+in a fairly complicated
+manner
+on the
+density,
+temperature,
+and duration
+of helium
+burning,
+but
+it depends
+directly
+on the relative
+rates of the 3a~' C
+process
+and
+the
+' C(a,y) ' 0 process.
+If 3a~' C is
+much faster than ' C(a,y) ' 0, then no ' 0 is produced
+in
+helium
+burning.
+If the reverse is true, then no ' C is pro-
+duced.
+For
+the
+most
+part
+the
+subsequent
+reaction
+' 0(a,y)
+Ne is slow enough to be neglected.
+There
+is
+general
+agreement
+about
+the
+rate
+of the
+3a~' C process, as reviewed
+by Barnes (1982). However
+there is a lively controversy
+at the present
+time about the
+laboratory
+cross section
+for ' C(a, y) ' 0 and
+about
+its
+theoretical
+extrapolation
+to the low energies
+at which the
+reaction
+effectively
+operates.
+The situation
+is depicted
+in
+Figs. 4, 5, and 6, taken with some modification
+from Lan-
+ganke
+and Koonin
+(1983), Dyer and Barnes (1974), and
+Kettner
+et al. (1982). The Caltech
+data obtained
+in the
+Kellogg
+Laboratory
+is shown
+as the experimental
+points
+in Fig. 4, taken from Dyer and Barnes (1974), who com-
+pared
+their
+results
+with
+theoretical
+calculations
+by Koo-
+nin, Tombrello,
+and Fox (1974). The Munster
+data are
+shown
+as the experimental
+points
+in Fig. 5, taken
+from
+IOO
+I O-3I
+IO—
+lac (
+) 16O
+~I
+DYER 8 BARNES (!974)
+CALTECH
+'
+KOONIN, TOMBRELLO, 8
+FOX (!974)
+WIT H
+BOUND-STATE
+CON T RIBUT ION
+O. I
+I
+W
+IT HOUT
+BOUND-S TAT E
+CONTRIBUT ION
+l
+!
+2
+E
+(M v)
+IO
+FIG. 4. The cross section in nanobarns
+(nb) vs center-of-momentum
+energy
+in MeV for i2C(u, y) i6O measured
+by Dyer and garnes
+(1974) and compared
+with theoretical
+calculations
+by Koonin, Tombrello,
+and Fox (1974).
+Rev. Mod. Phys. , Vol. 56, No. 2, Part l, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+157
+Q2
+IO
+I
+SOLID LIN
+HYBRID
+MICROSC
+MO
+LANGAN
+CA
+~ IO
+c
+0
+b
+MUNSTE
+DATA {l9
+IO
+IO
+2
+E
+(MeV)
+FIG. 5.
+The
+cross
+section
+in
+nanobarns
+(nb)
+vs center-of-
+momentum
+energy
+in MeV for ' C(a,y) ' O. The Miinster
+data
+were obtained
+by Kettner
+et al. (1982), and the Kellogg Caltech
+data were obtained
+by Dyer and Barnes (1974). The solid lines
+are theoretical
+calculations
+made
+by
+Langanke
+and
+Koonin
+(1983).
+Kettner
+et al. (1982) in comparison
+with the data of Dyer
+and Barnes (1974). The theoretical
+curves which yield the
+best fit to the two sets of data are from
+Langanke
+and
+Koonin (1983,and private communication).
+I
+l
+I
+I
+I OQ
+----- IVlunster
+data ~
+Ipc(
+) I60
+Caltech data
+&
+Munster
+extrapolation
+(l982)
+O
+C)
+O
+IO
+CA
+Kellogg
+lation
+75
+Effective Energ
+in Red Giant Sta
+10 0
+Extrapolation
+IO
+in ~
+)
+I
+Ec ~(MeV)
+FIG. 6. The cross-section
+factor S in MeVb,
+vs center-of-
+momentum
+energy
+in MeV for ' C(a,y) ' O. The dashed
+and
+solid curves
+are the theoretical
+extrapolations
+of the Miinster
+and Kellogg Caltech data, respectively,
+by Langanke
+and Koo-
+nin (1983).
+The crux of the situation
+is made
+evident
+in Fig. 6,
+which
+shows
+the
+extrapolations
+of the
+Caltech
+and
+Munster
+cross-section
+factors from the lowest
+measured
+laboratory
+energies
+(—1.4 MeV) to the effective
+energy
+-0.3 MeV, at T=1.8&10 K, a representative
+tempera-
+ture for helium
+burning
+in red giant stars.
+The extrapola-
+tion in cross sections covers a range of 10
+! The rise in
+the cross-section
+factor is due to the contributions
+of two
+bound
+states
+in
+the
+' 0
+nucleus
+just
+below
+the
+' C(a, y) ' O threshold,
+as clearly indicated
+in Fig. 4. It is
+these contributions
+plus differences
+in the laboratory
+data
+which produce the current
+uncertainty
+in the extrapolated
+S factor.
+Note that Langanke
+and Koonin (1983) increase
+the
+1975 extrapolation
+of the Caltech
+data
+by Fowler,
+Caughlan,
+and Zimmerman
+(1975) by a factor of 2.7 and
+lower the 1982 extrapolation
+of the Munster
+data by 23%.
+There remains
+a factor of 1.6 between
+their extrapolation
+of the Miinster
+data and of the Caltech data.
+There is a
+lesson in all of this.
+The semiempirical
+extrapolation
+of
+their
+data
+by
+the
+experimentalists,
+Dyer
+and
+Barnes
+(1974), was only 30% lower than that of Langanke
+and
+Koonin (1983) and their quoted
+uncertainty
+extended
+to
+the
+value
+of Langanke
+and
+Koonin
+(1983). Caughlan
+et al. (1984) will tabulate
+the analysis of the Caltech data
+by Langanke
+and Koonin (1983).
+With so much riding on the outcome, it will come as no
+surprise
+that both laboratories
+are engaged
+in extending
+their
+measurements
+to lower
+energies
+with
+higher
+pre-
+cision.
+In the discussion
+of quasistatic
+silicon burning
+in
+what
+follows,
+it will be found
+that the abundances
+pro-
+duced in that stage of nucleosynthesis
+depend
+in part on
+the ratio of ' C to ' 0 produced
+in helium
+burning,
+and
+that the different
+extrapolations
+shown
+in Fig. 6 are in the
+range crucial to the ultimate
+outcome of silicon burning.
+These remarks
+do not apply to explosive nucleosynthesis.
+Recently
+the ratio of ' C to ' 0 produced
+under
+the
+special conditions of helium
+flashes during
+the asymptotic
+giant
+phase of stellar
+evolution
+has become of great
+in-
+terest.
+The hot blue star PG 1159-035 has been found to
+undergo
+nonradial
+pulsations
+with periods of 460 and 540
+sec and others not yet accurately
+determined.
+The star is
+obviously
+highly
+evolved,
+having
+lost its hydrogen
+atmo-
+sphere, leaving
+only a hot dwarf of about 0.6 solar masses
+behind.
+Theoretical
+analysis
+of the pulsations
+by Starr-
+field et al. (1983) and Becker (1983, private
+communica-
+tion)
+requires
+substantial
+amounts
+of oxygen
+in
+the
+pulsation-driving
+regions,
+where the oxygen is alternately
+ionized
+and deionized.
+Carbon
+is completely
+ionized
+in
+these
+regions
+and
+only
+diminishes
+the pulsation
+ampli-
+tude. It is not yet clear that sufficient
+oxygen is produced
+in helium
+flashes,
+which
+certainly
+involve
+3a—+' C but
+may not last long enough for ' C(a, y) ' O to be involved.
+The problem
+may not lie in the nuclear reaction rates, ac-
+cording to Starrfield
+et al. (1983) and Becker (1983). We
+shall see!
+In what follows in this paper P+ decay is designated
+by
+( e+v), since both a positron
+( e+ ) and a neutrino
+(v) are
+emitted.
+Similarly P
+decay will be designated
+by (e
+v),
+since both an electron (e
+) and antineutrino
+(v) are emit-
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+158
+William
+A. Fowler:
+Nuclear astrophysics
+ted.
+Electron capture
+(often indicated
+by E) will be desig-
+nated by (e,v), the comma indicating
+that an electron is
+captured
+and a neutrino
+emitted.
+The notations
+(e+,v),
+(v, e
+), and (v,e+) should now be obvious.
+Neutrons
+are produced
+when
+helium
+burning
+occurs
+under
+circumstances
+in which
+the CNO cycle has been
+operative
+in the previous
+hydrogen
+burning.
+When
+the
+cycle does not go to completion,
+copious quantities
+of ' C
+are
+produced
+in
+the
+sequence
+of
+reactions
+C(p, y)
+Ne(e+v)
+C.
+In subsequent
+helium
+burning,
+neutrons
+are produced
+by
+' C(a, n) ' O. When
+the cycle
+goes to completion
+the main product
+(& 95%) is ' N. In
+subsequent
+helium
+burning,
+' 0 and
+Ne are produced
+in
+the
+sequence
+of
+reactions
+' N(a, y) ' F(e+v) ' O(a,
+y)
+Ne,
+and
+these
+nuclei
+in
+turn
+produce
+neutrons
+through
+' O(a, n) 'Ne(u, n)
+Mg
+and
+Ne(a,
+n)
+Mg.
+However,
+the astrophysical
+circumstances
+and sites under
+which the neutrons
+produce
+heavy elements
+through
+the s
+process and the r process are, even today, matters of some
+controversy
+and much study (see Sec. XI).
+VI. CARBON, NEON, OXYGEN, AND SILICON BURNING
+The advanced
+burning
+processes
+discussed
+in this sec-
+tion involve the network of reactions shown in Fig. 7. Be-
+cause of the high temperature
+at which
+this network
+can
+operate,
+radioactive
+nuclei
+can live long enough
+to serve
+as live reaction targets.
+In addition,
+excited states of even
+the stable nuclei
+are populated
+and also serve as targets.
+The determination
+of the nuclear cross sections and stellar
+rates of the approximately
+1000 reactions
+in the network
+I.O
+0
+Ne
+I
+I
+H
+He
+has involved
+and will continue to involve extensive experi-
+mental
+and theoretical
+effort.
+The
+following
+discussion
+applies
+to massive
+enough
+stars such that electron
+degeneracy
+does not set in as nu-
+clear
+evolution
+proceeds
+through
+the
+various
+burning
+stages discussed
+in this section.
+In less massive stars elec-
+tron
+degeneracy
+can terminate
+further
+nuclear
+evolution
+at certain
+stages, with catastrophic
+results
+leading
+to the
+disruption
+of the stellar system.
+The reader will find Fig.
+8, especially
+8(a), instructive
+in following
+the discussion
+in
+this section.
+Figure 8 is taken from Woosley and Weaver
+(1982); a much
+more detailed
+recent version
+is shown
+in
+Fig. 9 from Weaver,
+Woosley,
+and Fuller (1983). Figure
+8(a) applies to the preexplosive
+stage of a young
+(Popula-
+tion I) star of 25 solar
+masses
+and
+shows
+the result of
+various
+nuclear
+burnings
+in the following
+mass zones:
+(1)
+&10MO, convective
+envelope
+with
+the results
+of some
+CNO burning;
+(2) 7—10MO, products
+mainly of H burn-
+ing;
+(3)
+6.5—7MO,
+products
+of
+He
+burning;
+(4)
+1.9—6.5M~,
+products
+of C burning;
+(5) 1.8—1.9MO,
+products
+of Ne burning;
+(6) 1.5—1.8MO, products
+of 0
+burning;
+(7) & 1.5MO, the products of Si burning
+in the
+partially
+neutronized
+core are not
+shown
+in detail,
+but
+consist
+mainly
+of
+Fe as well as substantial
+amounts
+of
+other
+neutron-rich
+nuclei
+such
+as
+Ca,
+Ti,
+Cr, and
+Fe.
+"Fe,
+Ca, and
+Ti have %=28, for which a neu-
+tron subshell
+is closed.
+Both Figs. 8(a) and 8(b) have been
+Reaction
+Network
+I
+I
+t
+I
+t
+I
+&
+I
+'
+I
+I
+I
+I
+I
+I
+I
+O.
+I
+C
+Mg
+Ne
+0
+(a)
+25 Mo
+Population
+I
+Pre —Supernova
+34-
+32-
+30-
+28-
+26-
+24-
+22—
+~ 20-
+E
+~ I8-
+I6-
+O I4
+0~ i2—
+IO—
+a,n
+Ba ~ C (, y)
+pay
+I2
+tR
+p,n
+yh
+n y
+t2
+IS
+Poo
+n, p
+yap
+eo+ l60
+0
+BASIC NUCLEAR
+REACTION
+LINKS
+a,y
+ep
+~I
+n
+~ ++
+~ 0 Sl
+0AI
+OO
+Mg
+Na
+o
+Q
+QQQ
+~ SO
+0 ~ Ar
+Qe ei
+0 S
+P
+oa QQ
+aa Qe
+Qo QQQzn
+OQ Qeu
+o 0 QQQNI
+QOOQCo
+ooaaeaa~e
+QQQQ
+Mn
+00 0 aller
+QQQQ
+V
+OSLO Ti
+Qsosc
+QQCO
+K
+NUCLEAR
+REACTION
+NETWORK-
+S —STABLE isOTOPES
+WOOSLEY, ARNETT, 8 CLAYTON
+( l974)
+O.OI
+O. OO I
+1.2
+1.0
+O. O I
+i.6
+Ne
+H
+He
+Mg
+(b)
+25 Mo
+Population
+1I
+Pre —Supernova
+Ne, o
+0
+C 0
+C
+He
+C
+I
+2
+'io
+IS
+20
+Interior
+Moss (Mo)
+t
+I
+I
+I
+1
+I
+I
+t
+I
+I
+j
+1
+I
+I
+I
+l
+I
+2
+4
+6
+8
+IO
+I2
+I4
+I6
+I8
+20 22 24 26 28 30 32
+34
+Neu tron
+Number
+O. OO
+I
+l.2
+l.6
+Interior
+Moss (Mo)
+I
+20
+FIG. 7. The reaction network for nucleosynthesis
+involving
+the
+most
+important
+stable
+and
+radioactive
+nuclei
+with %=2—34
+and Z=2—32.
+Stable
+nuclei
+are indicated
+by solid
+squares.
+Radioactive
+nuclei are indicated
+by open squares.
+FICz. 8. Presupernova
+abundances
+by mass fraction
+vs increas-
+ing interior
+mass in solar masses M~, measured
+from zero at
+the stellar center to 25MO, the total stellar mass, from Woosley
+and Weaver {1982): (a) Population I star; (b) Population II star.
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+159
+0/EAVER,
+0/OOSLEY,
+AND
+FULL. ER (l983)
+1.0
+I
+20 Ne
+16p
+Ne
+4He
+4HC
+"c
+10
+E
+IUC
+10
+6p
+36Ar
+4'Ca
+Mg
+Mq
+12C
+E.
+20 Ne
+16p
+E
+25 Mo
+Pre-supernova
+abundances
+16p
+14N
+28S,
+12C
+Ne
+10
+0.5
+1.0
+1.5
+56Fe
+I
+15
+I
+20
+M (solar masses)
+FICx. 9. Presupernova
+abundances
+by mass fraction
+vs increasing
+interior
+mass for a Population
+I star with total mass
+equal to
+25Mo, from Weaver, Woosley, and Fuller {1983).
+evaluated
+shortly
+after
+photodisintegration
+has initiated
+core collapse,
+which
+will then be subsequently
+sustained
+by the reduction of the outward
+pressure
+through
+electron
+capture
+and the resulting
+almost complete
+neutronization
+of the core.
+It must be realized that the various
+burning
+stages took
+place originally
+over the central regions of the star and fi-
+nally
+in
+a shell
+surrounding
+that
+region.
+Subsequent
+stages
+modify
+the
+inner
+part
+of the
+previous
+burning
+stage. For example,
+in the 25 solar mass Population I star
+of Fig. 8(a), C burning
+took place in the central 6.5 solar
+masses of the star, but the inner
+1.9 solar masses
+were
+modified
+by subsequent
+Ne, 0, and Si burning.
+Helium
+burning
+produces
+a
+stellar
+core
+consisting
+mainly
+of ' C and
+' O. After core contraction
+the tem-
+perature
+and
+density
+rise until
+carbon
+burning
+through
+' C+' C fusion is ignited.
+The S factor for the total re-
+action rate shown
+in Fig. 10 has been taken from p. 213
+of Barnes (1982) and is based on measurements
+in a num-
+ber of laboratories.
+The extrapolation
+to the low energies
+of astrophysical
+relevance
+is uncertain,
+as Fig. 10 makes
+clear, and more experimental
+and theoretical
+studies
+are
+urgently
+needed.
+At the lowest
+bombarding
+energy,
+2.4
+MeV, the cross section is —10
+b. For a representative
+burning
+temperature
+of 6&&10 K the effective
+energy
+is
+Eo—
+—1.7
+MeV
+and
+the
+extrapolated
+cross
+section
+is
+—10 '
+b.
+The
+main
+product
+of carbon
+burning
+is
+Ne,
+produced
+primarily
+in
+the
+' C(' C,a)
+Ne
+reaction.
+The
+reactions
+' C( ' C,p)
+Na
+and
+' C(' C,n)
+Mg(e+u)
+Na also occur, as well
+as many
+secondary
+reactions
+such
+as
+Na(p, a)
+Ne.
+When
+the
+' C is exhausted,
+zoNe and ' O are the major remaining
+constituents.
+As the temperature
+rises, from further
+grav-
+itational
+contraction,
+the
+Ne is destroyed
+by photodisin-
+tegration,
+Ne(y, a) ' O. This occurs because
+the alpha
+particle
+in
+Ne is bound
+to its closed-shell
+partner,
+' 0,
+by only 4.731 MeV.
+In ' O, for example,
+the binding
+of
+an alpha particle is 7.162 MeV.
+The next
+stage
+is oxygen
+burning
+through
+' O+' O
+fusion.
+The S factor for the total reaction rate is shown
+in Fig. 11 and is based entirely
+on data obtained
+in the
+Kellogg
+Laboratory
+at Caltech.
+The
+work
+of Hulke,
+Rolfs, and Trautvetter
+(1980) using gamma-ray
+detection
+is in fair agreement
+with the gamma-ray
+measurements
+at
+Caltech.
+As in the case of ' C+' C, the extrapolation
+to
+the low energies
+of astrophysical
+relevance
+is uncertain,
+although
+only
+one of many
+possible
+extrapolations
+is
+shown in Fig. 11. The main product of oxygen burning
+is
+Si, through
+the primary
+reaction
+' 0(' O,a)
+Si and a
+number
+of secondary
+reactions.
+Under
+some conditions
+neutron-induced
+reactions
+lead to the synthesis
+of signifi-
+cant quantities
+of
+Si. Oxygen burning
+can result in nu-
+clei with a small
+but important
+excess of neutrons
+over
+protons.
+The onset of Si burning
+signals a marked
+change in the
+nature
+of the fusion
+process.
+The Coulomb
+barrier
+be-
+tween
+two
+Si nuclei
+is too great for fusion to produce
+the compound
+nucleus
+Ni directly
+at the ambient
+tem-
+peratures
+( T& —
+—3—5) and densities
+(p= 10 —10 g cm
+).
+However,
+the
+Si and subsequent
+products
+are easily pho-
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+160
+William
+A. Fowler:
+Nuclear astrophysics
+l0.5
+l
+l
+l
+l
+I
+2
+5
+EFFECTIVE TEMPERATURE
+( IO K)
+l
+lO
+,—lo l6
+lOl5
+D
+C3
+C)
+lPI4 LU
+CO
+C/)
+CQ
+C)
+lE
+C3
+FIG. 10. The total cross-section factor in MeVb vs center-of-momentum
+energy
+in MeV for the fusion of ' C and ' C. The experi-
+gnental
+data from several
+laboratories
+are shown,
+along
+with schematic
+intermediate
+structure
+in the dotted curve.
+Two parame-
+trized adjustments
+to the data, ignoring
+intermediate
+structure,
+are shown in the dashed and solid curves.
+todisintegrated
+by (y,a), (y, n), and (y,p) reactions.
+As Si
+burning
+proceeds,
+more and more
+Si is reduced
+to nu-
+cleons and alpha
+particles
+which
+can be captured
+by the
+remaining
+Si nuclei to build through
+the network
+in Fig.
+7 up to the iron-group
+nuclei.
+The main product in explo-
+sive
+Si burning
+is
+Ni,
+which
+transforms
+eventually
+through
+two beta decays to
+Fe.
+In quasistatic
+Si burning
+the weak interactions
+are fast
+enough that
+Fe, with two more neutrons
+than protons, is
+the main product.
+Because of the important
+role played
+by alpha particles (a) and because of the inexorable
+trend
+to equilibrium
+(e) involving
+nuclei
+near mass 56, which
+have the largest
+binding
+energies
+per nucleon
+of all nu-
+clear species, B FH (1957) broke down what is now called
+Si
+burning,
+into
+their
+o.
+process
+and
+e
+process.
+Quasiequilibrium
+calculations
+for Si burning
+were made
+by Bodansky,
+Clayton,
+and
+Fowler
+(1968) who cite the
+original
+papers
+in which
+the basic ideas of Si burning
+were developed.
+Modern
+computers
+permit
+detailed
+net-
+work flow calculations
+to be made, as discussed
+in %'oos-
+ley and Weaver (1982) and Weaver et al. (1983).
+The extensive laboratory
+studies of Si-burning
+reactions
+are reviewed
+in Barnes (1982). Figures 12 and 13, adapted
+from
+Zyskind
+et al. (1978), show
+the laboratory
+excita-
+tion curves for
+Cr(p, n)
+Mn and
+Cr(p, y)
+Mn as ex-
+amples.
+The neutrons
+produced
+in the first of these reac-
+tions will increase the number
+of neutrons
+available
+in Si
+burning
+but will not contribute
+directly to the synthesis of
+Mn
+as does
+the
+second
+reaction.
+In fact,
+above
+its
+threshold
+at 2.158 MeV
+the
+(p, n)
+reaction
+competes
+strongly
+with the (p, y) reaction,
+which
+is of primary
+in-
+terest,
+and produces
+the pronounced
+competition
+cusp in
+the excitation
+curve in Fig. 13. Competition
+in the disin-
+tegration
+of the compound
+nucleus
+produced
+in nuclear
+reactions
+was
+stressed
+very
+early
+by
+Niels
+Bohr,
+so
+perhaps
+the cusps should be called Bob» cusps.
+They arise
+from
+the same basic cause but are not the long known
+8'igne» cusps.
+It will be clear from Fig. 13 that the rate
+of the
+Cr(p, y)
+Mn reaction
+at very high temperatures
+will be an order of magnitude
+lower because of the cusp
+than would otherwise
+be the case.
+The element
+manganese
+has
+only
+one isotope,
+Mn.
+Rev. Mod. Phys. , Vol. 56, No. 2, Part l, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+102?
+)026
+I
+2
+3
+5
+EFFECTIVE
+TEMPERATuRE
+(IO K)
+TOTAL REACTION
+CROSS SECTION 0
++ 0'
++ GAMMA- RAY
+YIELD, CALTECH
+(Aug I978)
+~
+PARTICLE
+YIELD,
+CALTECK
+(SPINKA 8,
+GAMMA-RAY
+YIELD,
+CALTECH
+WINKLER, I972)
+—PARAMET RIZED STATISTICAL THEORY
+8 ANALYTICAL
+EXPRESSION
+R =7.96 F
+v) =-7.5 MeV
+W( = 0.50 MeV
+GLOBAL
+HAUSER-FESHBACH
+RESULTS
+W ITH WFC
+USING
+EMP IR ICAL
+NEUTRON
+STRENGTH
+FUNCTIONS
+JD)
+—
+IO
+ct.
+25
+D
+C3
+O
+C3
+W
+CA
+I
+—(02&
+CAD
+C3
+X + +
+ION
+C.rn. ENERG
+5
+6
+7
+8
+9
+IO
+II
+I
+I
+I
+I
+FIG. 11. The total cross-section
+factor in MeVb vs center-of-
+momentum
+energy in MeV for the fusion of ' 0+ ' O. The ex-
+perimental
+data
+from
+several
+measurements
+at Caltech
+are
+shown
+and
+compared
+with
+a parametrized
+theoretical
+adjust-
+ment in the solid curve.
+The manganese
+in nature
+is produced
+in quasistatic
+Si
+burning,
+most probably
+through
+the
+Cr(p, y)
+5 Mn reac-
+tion just discussed
+in the previous
+paragraph.
+The reac-
+tion network
+extends to
+Cr and then on through
+Mn.
+55
+'V(a, y)
+Mn
+and
+V(a, n)
+Mn
+may
+also contribute,
+especially
+in explosive
+Si burning.
+The overall
+synthesis
+of
+Mn involves
+a balance in its production
+and destruc-
+tion.
+In quasistatic
+Si burning
+the reactions
+which
+de-
+stroy
+Mn
+are
+most
+probably
+Mn(p, y)
+Fe
+and
+Mn(p, n)
+Fe, which
+are
+discussed
+and
+illustrated
+in
+Mitchell
+and
+Sargood
+(1983).
+Mn(a, y)
+Co,
+Mn(a, p)
+Fe,
+and
+~ Mn(a, n)
+Co
+may
+also
+destroy
+some
+Mn in explosive
+Si burning.
+In the figures
+dis-
+cussed in Sec. VIII it will be noted that calculations
+of the
+overall synthesis of
+Mn yield values in fairly close agree-
+ment with the abundance
+of this nucleus
+in the solar sys-
+tem.
+Unfortunately,
+the same cannot be said about many
+other nuclei.
+The laboratory
+measurements
+on Si-burning
+reactions
+have covered only about 20% of the reactions
+in the net-
+work of Fig. 7 involving
+stable nuclei
+as targets.
+Direct
+measurements
+on short-lived
+radioactive
+nuclei
+and the
+excited states of all nuclei
+are impossible
+at the present
+time.
+In this connection
+the production
+of radioactive
+ion
+beams holds great promise for the future.
+Richard Boyd
+(1981) and
+Haight
+et al. (1983) have
+pioneered
+in the
+development
+of this technique.
+Figures
+14 and
+15 show
+the beam
+transport
+system
+developed
+by Haight
+et aI.
+I
+I
+I
+5.0
+Ep(LAB)
+IN
+MeV
+FIG. 12. The total cross section in b integrated
+over all outgo-
+ing angles
+vs laboratory
+proton
+energy
+in MeV for the reaction
+Cr(p, n) ' Mn. The data of Zyskind
+et al. (1978) are compared
+with
+unnormalized
+global
+Hauser-Feshbach
+calculations
+made
+by %'oosley et al. (1978).
+I
+40
+2.0
+(1983), which
+has produced
+accelerated
+beams of Be and
+' N and successfully
+determined
+the cross section of the
+reaction
+H( Be, B)n to be 59+11 mb for 16.9-MeV
+Be
+ions.
+The equivalent
+center-of-momentum
+energy for the
+Be(d, n) B reaction
+is 3.8 MeV. It is my view that con-
+tinued
+development
+and
+application
+of radioactive
+ion-
+beam techniques
+could bring
+the most exciting results
+in
+laboratory
+Nuclear
+Astrophysics
+in the next decade.
+For
+example, the rate of the ' N(p, y) ' 0 reaction, which
+will
+be studied
+as 'H(' N,y) ' 0, is crucial to the operation
+of
+the so-called fast CN cycle.
+In any case it has been clear for some time that experi-
+mental
+results
+on Si-burning
+reactions
+must
+be systema-
+tized
+and
+supplemented
+by comprehensive
+theory.
+For-
+tunately
+theoretical
+average
+cross sections
+will suffice in
+many
+cases.
+This is because the stellar reaction
+rates in-
+tegrate
+the cross sections
+over the Maxwell-Boltzmann
+distribution.
+For most Si-burning
+reactions
+resonances
+in
+the cross section are closely spaced and even overlapping,
+and the integration
+covers a wide enough
+range of ener-
+gies that the detailed
+structure
+in the cross sections is au-
+tomatically
+averaged
+out. The statistical
+model of nuclear
+reactions
+developed
+by
+Hauser
+and
+Feshbach
+(1952),
+which
+yields
+average
+cross sections,
+is ideal for the pur-
+pose.
+Accordingly
+Holmes,
+Woosley,
+Fowler,
+and Zim-
+Rev. Mod. Phys. , Yol. 56, No. 2, Part
+I, April 1984
+
+
+=== PAGE BREAK ===
+
+162
+William
+A. Fowler:
+Nuclear astrophysics
+ANALOG
+RESONA
+GLO8AL
+HAUSER —FESHBACH
+RESULTS (UNNORMAL
+IZ ED)
+COMI LETE ISOSPIN MIXING
+7ee4'
+Collimator
+CD2
+target
+~ ~8
+( A.t-
+volume
+Housing
+hE detect
+Collimator
+Active
+volume
+Housing
+E detector
+FIG. 15. Detail of the target
+and detector
+in the radioactive
+beam transport
+system developed
+by Haight
+et al. (1983).
+Cr{p,Y)
+Mn
+TOTAL CROSS
+SECTION
+Q= 8.067 MeV
+THRESKOLDS
+p, n (~+)
+p, n7{I+)
+2.0
+5.0
+4.0
+Ep(LAB)
+lN
+MeV
+FIG. 13. The total cross section in b integrated
+over all outgo-
+ing angles
+vs laboratory
+proton
+energy
+in MeV for the reaction
+Cr(p, y) 'Mn.
+The data of Zyskind
+et al. (1978) are com-
+pared
+with
+unnormalized
+global
+Hauser-Feshbach
+calculations
+made by Woosley et al. (1978).
+1
+I.Q
+Target
+ladder~
+Primary
+target: CH2
+F//'
+P P
+g
+~Shadow
+bar
+18e beam envelope
+Target
+ladder
++///~
+I
+secondary
+I
+r~//g~
+&D.r r-
+10 cm
+C
+D
+Quadrupoles
+FIG. 14.
+Radioactive
+beam
+transport
+system
+developed
+by
+Haight
+et al. (1983).
+merman
+(1976) undertook
+the task of developing
+a global,
+parametrized
+Hauser-Feshbach
+theory
+and computer
+pro-
+gram for use in Nuclear
+Astrophysics.
+The contribution
+of this group to the Nuclear Data Tables (Woosley et al. ,
+1978) is an extension
+of this work.
+The free parameters
+are the radius,
+depth,
+and compensating
+reflection
+factor
+of the blackbody,
+square-well
+equivalent
+of the Woods-
+Saxon potential
+characteristic
+of the interaction
+between
+n, p, and a with nuclei having Z & 8. Two free parame-
+ters must
+also be incorporated
+to adjust
+the intensity
+of
+electric and magnetic
+dipole transitions
+for gamma
+radia-
+tion.
+Weak interaction
+rates must
+also be specified,
+and
+ways and means for doing this will be discussed
+later in
+Sec. VII.
+The parameters
+originally
+chosen for n, p, and a reac-
+tions
+were
+taken
+from
+earlier
+work
+of Michaud
+and
+Fowler (1970) who depended
+heavily
+on studies
+by Vogt
+(1969). These
+parameters
+and
+those
+chosen
+for
+elec-
+tromagnetic
+and weak interactions
+have survived
+compar-
+ison of the theory
+with a plethora of laboratory
+measure-
+ments.
+More sophisticated
+programs
+have been developed
+which
+use
+experimental
+neutron
+strength
+functions
+in-
+stead of that from the equivalent
+square well or which use
+realistic
+Woods-Saxon
+potentials
+for all interactions,
+as
+done by Mann
+(1976). In addition
+marked
+improvement
+in the correspondence
+between
+theory
+and experiment
+is
+found
+when
+width-fluctuation
+corrections
+are made
+as
+described in Zyskind
+et al. (1980).
+It is well known that the free parameters
+can always be
+adjusted
+to fit the cross sections and reaction rates of any
+one particular
+nuclear reaction.
+This is not done in a glo-
+bal program.
+The parameters
+are in principle
+determined
+by the best least-squares
+fit to all reactions for which ex-
+perimental
+results are available.
+For example,
+see the fig-
+ure, p. 307, in Holmes
+et al. (1976). It is on this basis
+that
+some confidence
+can be had in predictions
+in those
+cases ~here experimental
+results are unavailable.
+The original
+program
+(Holmes
+et al. , 1976; Woosley
+et al. , 1978) has produced
+reaction rates either in numeri-
+cal
+or
+analytical
+form
+as a function
+of temperature.
+Ready
+comparison
+with
+integrations
+of laboratory
+cross
+sections for target
+ground
+states are possible.
+Using
+the
+same global parameters
+which
+apply to reactions
+involv-
+ing the ground
+states of stable nuclei, the theoretical
+pro-
+gram calculates
+rates for the ground
+states of radioactive
+nuclei
+and for the excited
+states of both stable
+and ra-
+dioactive nuclei.
+Summing
+over the statistically
+weighted
+contributions
+of the ground
+and known
+excited states or
+theoretical
+level density
+functions
+yields
+the stellar reac-
+tion rate for the equilibrated
+statistical
+population
+of the
+nuclear
+states.
+After summing,
+division
+by the partition
+function
+of the target
+nucleus
+is necessary.
+Analytical
+parametrized
+expressions
+for the partition
+functions
+of
+nuclei with
+8(Z (36 are given in Table IIA of Woosley
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+163
+TABLE III. Statistical model calculations
+vs measurements
+(I). Ratio of reaction rate (ground state of
+target)
+from
+Woosley,
+Fowler,
+Holmes,
+and Zimmerman
+(1978) to reaction
+rates from
+experimental
+yield measurements
+(1970—1982) at Bombay, Caltech, Colorado, Kentucky,
+Melbourne,
+and Toronto.
+Reaction
+Na(p, n )
+Mg
+"Mg(p', y) "Al
+Mg(p, n )
+Al
+7Al(p, y)
+Si
+Al(p, n )
+Si
+28Si(p y ) 29p
+29S (
+) 30p
+K(p, y)
+Ca
+41K(p y) 42Ca
+4'K(p, n ) 4'Ca
+Ca(p, y) 'Sc
+42C (
+y) 43S
+1.4
+1.2
+1.1
+3.7
+1.8
+0.9
+15
+0.5
+0.8
+1.3
+0.8
+1.2
+1.1
+1.0
+2.1
+1.4
+0.9
+1.2
+1.0
+4.5
+0.5
+1.0
+1.4
+1.1
+T9—T/10
+K
+3
+1.1
+1.0
+0.9
+1.5
+1.3
+0.9
+1.3
+1.6
+3.0
+0.5
+1.1
+1.4
+1.3
+1.1
+0.9
+0.8
+1.3
+1.3
+1.0
+1.2
+1.6
+2.6
+0.4
+1.2
+0.1
+1.4
+1.4
+1.0
+0.8
+0.8
+1.1
+1.2
+1.0
+0.9
+1.5
+2.5
+0.4
+1.3
+0.2
+1.3
+1.4
+et al. (1978) as a function of temperature
+over the range
+0&T(10' K.
+Sargood (1982,1983) has compared
+experimental
+results
+from a number of laboratories
+for protons
+and alpha par-
+ticles reacting
+with 80 target nuclei, which are, of course,
+in their ground
+states, with the theoretical
+predictions
+of
+Woosley et al. (1978). Ratios of statistical
+model calcula-
+tions to laboratory
+measurements
+for 12 cases are shown
+in Table III for temperatures
+in the
+range
+from
+1 to
+5&&10 K. The double
+entry
+for
+Al(p, n)
+Si signifies
+ratios of theory
+to measurements
+made
+in two different
+laboratories.
+It is fair to note that the theoretical
+calcula-
+tions match
+the experimental
+results
+within
+50% with
+a
+few marked
+exceptions.
+In American
+vernacular
+"You
+win some and you lose some." For the rather light targets
+in Table III, espcially at low temperature,
+the global mean
+rates can be in error whenever
+more
+and stronger
+reso-
+nances or fewer and weaker
+resonances
+than expected on
+average
+occur in the excitation
+curve of the reaction
+at
+low energies.
+Sargood (1982,1983) has also compared
+the ratio of the
+stellar
+rate of a reaction
+with target
+nuclei
+in a thermal
+distribution
+of ground
+and excited states with the rate for
+all target
+nuclei
+in their
+ground
+state.
+The latter
+is of
+course
+determined
+from
+laboratory
+measurements.
+A
+number
+of cases are tabulated
+for T=5&10 K in Table
+IV. In many cases, notably for reactions producing
+gam-
+ma rays, the ratio of stellar to laboratory
+rates is close to
+TABLE IV. Stellar/laboratory
+reaction rates.
+(uv)*/(crv)o.
+Temperature
+=5&&109 K. Data from Sargood (1983) and Woosley,
+Fowler, Holmes, and Zimmerman
+(1978).
+Target
+nucleus
+Ne
+'Ne
+2Ne
+Na
+24Mg
+5Mg
+Mg
+Al
+8St
+29S1
+30Si
+31p
+32S
+33S
+34S
+36S
+35C1
+37Cl
+(n, y)
+0.959
+0.808
+0.917
+0.897
+0.939
+0.905
+0.968
+0.934
+0.976
+0.943
+0.989
+0.972
+0.988
+0.943
+1.00
+0.998
+0.972
+0.994
+(n,p)
+12.2
+6.15
+159
+4.95
+20.4
+5.05
+71.4
+4.12
+6.51
+8.67
+89.4
+2.63
+2.33
+1.46
+25.8
+428
+1.19
+26.0
+(n, a)
+4.98
+1.13
+22.1
+9.70
+7.30
+3.18
+53.8
+10.9
+7.26
+3.34
+28.6
+18.4
+1.57
+1.06
+13.1
+95.9
+3.06
+13.7
+(p, y)
+0.954
+0.818
+0.895
+0.890
+0.924
+0.862
+0.958
+0.913
+0.950
+0.907
+0.982
+0.901
+0.980
+0.920
+0.979
+1.00
+0.948
+0.987
+Reaction
+(p, n)
+34.1
+1.78
+5.11
+2.27
+120
+3.48
+8.05
+3.22
+140
+3.18
+2.99
+3.77
+90.1
+4.73
+8.02
+1.00
+4.48
+1.00
+(p,a)
+6.86
+1.95
+2.72
+0.944
+15.0
+5.02
+4.92
+1.14
+23.5
+50.1
+6.63
+1.11
+7.35
+3.24
+2.02
+1.02
+1.05
+1.00
+(a,y)
+0.907
+0.943
+0.968
+0.826
+0.835
+0.958
+0.974
+0.905
+0.933
+0.927
+0.973
+0.969
+0.975
+0.916
+0.964
+0.995
+0.945
+0.985
+(a,n)
+4.90
+0,985
+0.996
+1.30
+4.70
+0.973
+1.00
+1.13
+3.55
+0.964
+1.01
+1.70
+3.79
+0.995
+1.05
+1.00
+1.23
+1.00
+(a,p)
+1.29
+1.37
+2.46
+0.918
+1.04
+1.10
+1.41
+0.972
+1.02
+1.18
+1.09
+0.978
+1.00
+1.01
+1.02
+1.68
+0.992
+0.995
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+164
+William
+A. Fooler:
+Nuclear astrophysics
+unity.
+In other cases the ratios can be high by several or-
+ders
+of magnitude.
+This
+can
+occur for a number
+of
+reasons.
+It frequently
+occurs when
+the ground
+state can
+interact
+only
+through
+partial
+waves
+of high
+angular
+momentum,
+resulting
+in
+small
+penetration
+factors
+and
+thus
+small
+cross sections
+and rates.
+This makes
+clear a
+basic assumption
+in the prediction
+of stellar rates:
+a sta-
+tistical theory which does well predicting
+ground-state
+re-
+sults is assumed
+to do equally
+we11 in predicting
+excited-
+state
+results.
+This
+assumption
+is frequently
+not
+valid.
+Bahcall and Fowler (1969) have shown that in a few cases
+laboratory
+measurements
+on inelastic
+scattering
+involving
+excited states can be used indirectly
+to determine
+reaction
+cross sections for those states.
+Ward and Fowler (1980) have investigated
+in detail the
+circumstances
+under
+which
+long-lived
+isomeric
+states do
+not come into equilibrium
+with ground
+states.
+When this
+occurs it is necessary to incorporate
+into network
+calcula-
+tions the stellar
+rates for both
+the isomeric
+and ground
+state.
+An example
+of great
+interest
+is the nucleus
+Al.
+The ground
+state has spin and parity J =5+ and isospin
+T=O, and has a mean
+lifetime
+for positron
+emission
+to
+Mg of 10 years.
+The isomeric
+state at 0.228 MeV has
+J =0+,T= 1, and
+mean
+lifetime
+9.2 sec.
+Ward
+and
+Fowler
+(1980) show
+that
+the
+isomeric
+state
+effectively
+does not come into equilibrium
+with the ground
+state for
+T ~ 4 &( 10
+K.
+At
+these
+low
+temperatures
+both
+the
+isomeric
+state and the ground
+state of
+Al must
+be in-
+cluded in the network of Fig. 7.
+VII. ASTROPHYSICAL
+WEAK-INTERACTION
+RATES
+Weak nuclear interactions
+play an important
+role in as-
+trophysical
+processes
+in conjunction
+with
+the strong
+nu-
+clear interactions,
+as indicated
+in Fig. 7. Only
+through
+the weak interaction
+can the overall
+proton
+number
+and
+neutron
+number
+of nuclear
+matter
+change
+during
+stellar
+evolution,
+collapse,
+and
+explosion.
+The formation
+of a
+neutron
+star
+requires
+that
+protons
+in
+ordinary
+stellar
+rnatter
+capture
+electrons.
+Gravitational
+collapse
+of a
+Type-II
+supernova
+core is retarded
+as long
+as electrons
+remain to exert outward
+pressure.
+Many
+years of theoretical
+and
+experimental
+work
+on
+weak-interaction
+rates in the Kellogg Laboratory
+and else-
+where
+have culminated
+in the calculation
+and tabulation
+by Fuller,
+Fowler,
+and
+Newman
+(1980,1982a,1982b) of
+electron
+and positron
+emission
+rates and continuum
+elec-
+tron and positron
+capture
+rates, as well as the associated
+neutrino
+energy-loss
+rates for free nucleons
+and 226 nuclei
+with mass numbers
+between 3=21 and 60. Extension to
+higher and lower values for 2 is now underway.
+For recent
+experimental
+data
+on
+the
+production
+of
+Al,
+through
+5Mg(p, y)
+Al, see Champagne
+et al. (1983). For re-
+cent
+experimental
+data
+on the
+destruction
+of
+Al,
+through
+2 Al(p, y)
+Si, see Buchmann
+et al. (1984).
+These
+calculations
+depended
+heavily
+on experimental
+determinations
+in
+Kellogg
+by
+Wilson,
+Kavanagh,
+and
+Mann
+(1980) of Gamow-Teller
+elements
+for 87 discrete
+transitions
+in intermediate-mass
+nuclei.
+The majority
+of
+the
+experimental
+matrix
+elements
+for both
+Fermi
+and
+Gamow-Teller
+discrete transitions
+as well as nuclear
+level
+data were taken from the exhaustive
+tabulation
+of Lederer
+and Shirley (1978). Unmeasured
+matrix
+elements
+for al-
+lowed
+transitions
+were
+assigned
+a
+mean
+value,
+as
+described
+in Fuller, Fowler, and Newman
+(1982a). These
+mean
+values
+were
+~ Mp
+~ =0.062 and
+~ MoT
+~ =0.039,
+corresponding
+to logft=5, where f is the phase-space
+fac-
+tor and t is the half-life for the transition.
+Nuclear physi-
+cists traditionally
+think
+in terms of logft values
+in con-
+nection with weak-interaction
+rates.
+Simple
+shell
+model
+arguments
+were employed
+to esti-
+mate
+Gamow-Teller
+sum
+rules
+and collective-state
+reso-
+nance
+excitation
+energies.
+These
+estimates
+have
+been
+shown
+to be fair approximations
+for T~ nuclei
+and T~
+nuclei by recent high-resolution
+measurements
+on p, n re-
+actions
+and
+T, He reactions
+by Goodman
+et al. (1980)
+and
+Ajzenberg-Selove
+et al. (1984), respectively.
+Here
+T, with
+T=
+~ N —Z ~, represents,
+for example,
+Fe
+with T= 2 in
+Fe(e,v)
+Mn or
+Fe( n,p)
+Mn.
+Simi-
+larly
+T
+designates
+Mn
+with
+T=3.
+The
+work
+described
+by
+Fuller,
+Fowler,
+and
+Newman
+(1980,1982a,1982b) emphasizes
+the great
+need for addi-
+tion results
+for T~ nuclei
+using
+the n,p reaction
+as well
+as the
+T, He reaction
+from
+which
+matrix
+elements
+for
+electron capture can be obtained.
+Moment
+method
+shell
+model
+calculations
+of Gamow-
+Teller strength
+functions
+have
+been performed
+by S. D.
+Bloom and G. M. Fuller (1984) with the Lawrence Liver-
+more National
+Laboratory's
+vector shell
+model
+code for
+the ground
+states and first excited states of
+Fe,
+Fe, and
+Fe.
+These
+detailed
+calculations
+confirm
+the
+general
+trends
+in Garnow-Teller
+strength
+distributions
+used in the
+approximations
+of Fuller, Fowler, and Newman.
+The discrete-state
+contribution
+to the rates, dominated
+by
+experimental
+information
+on the
+Fermi
+transitions,
+determines
+the weak nuclear
+rates in the regime of tem-
+perature
+and
+densities
+characteristic
+of the
+quasistatic
+phases of presupernova
+stellar
+evolution.
+At the higher
+temperatures
+and densities
+characteristic
+of the supernova
+collapse phase, which
+is of such great current
+interest,
+as
+discussed
+in detail in Brown, Bethe, and Baym (1982), the
+electron-capture
+rates
+are
+dominated
+by
+the
+Gamow-
+Teller collective resonance contribution.
+The detailed
+nature and the difficulty of the theoretical
+aspects of the combined
+atomic, nuclear,
+plasma,
+and hy-
+drodynarnic
+physics
+problems
+in Type-II
+supernova
+im-
+plosion
+and explosion
+were brought
+home to us by Hans
+Bethe during
+his stay in our laboratory
+as a Caltech Fair-
+child Scholar early in 1982. His visit plus long-distance
+interaction
+with his collaborators
+resulted
+in the prepara-
+tion of two
+seminal
+papers,
+Bethe, Yahil,
+and
+Brown
+(1982) and Bethe, Brown, Cooperstein,
+and Wilson (1983).
+Current
+ideas on the nuclear
+equation
+of state predict
+that early in the collapse of the iron core of a massive star
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+the nuclei
+present
+will become
+so neutron
+rich that
+al-
+lowed electron capture on protons
+in the nuclei is blocked.
+Allowed
+electron capture, for which 51=0, is not permit-
+ted when neutrons
+have filled the subshells
+having
+orbital
+angular
+momentum
+i equal to that of the subshells
+occu-
+pied by the protons.
+This
+neutron
+shell
+blocking
+phenomenon
+and
+several
+unblocking
+mechanisms
+operative
+at high
+temperature
+and
+density,
+including
+forbidden
+electron
+capture,
+have
+been studied
+in terms of the simple
+shell model by Fuller
+(1982). Though
+the unblocking
+mechanisms
+are sensitive
+to details of the equation of state, typical conditions
+result
+in a considerable
+reduction
+of the electron-capture
+rates
+on heavy nuclei, leading to significant
+dependence
+on elec-
+tron capture
+by the small
+number
+of free protons
+and a
+decrease in the overall neutronization
+rate.
+The
+results
+of one-zone
+collapse
+calculations
+which
+have been made by Fuller (1982) suggest that the effect of
+neutron
+shell blocking
+is to produce
+a larger core lepton
+fraction
+(leptons
+per
+baryon)
+at neutrino
+trapping.
+In
+keeping with the Chandrasekhar
+relation that core mass is
+proportional
+to the square
+of the
+lepton
+fraction,
+this
+leads to a larger final
+core mass
+and
+hence
+a stronger
+post-bounce
+shock.
+On the other hand, the incorporation
+of the
+new
+electron-capture
+rates
+during
+precollapse
+Si
+burning
+reduces the lepton fraction and leads to a smaller
+initial core mass and thus to a smaller
+amount of material
+(initial
+core mass
+minus final
+core mass)
+in which
+the
+post-bounce
+shock can be dissipated.
+The dissipation
+of
+the shock is thus reduced.
+This is discussed
+in detail in
+Weaver, Woosley, and Fuller (1983).
+Recent work on the weak interaction
+has concentrated
+on making
+the previously
+calculated
+reaction rates as effi-
+cient as possible for users of the published
+tables and the
+computer
+tapes,
+which
+are made
+available
+on request.
+The stellar weak-interaction
+rates of nuclei are in general
+very
+sensitive
+functions
+of
+temperature
+and
+density.
+Their temperature
+dependence
+arises from thermal
+excita-
+tion of parent excited states and from the lepton distribu-
+tion functions
+in the integrands
+of the decay and continu-
+um capture phase-space factors.
+For electron
+and positron
+emission,
+most of the tem-
+perature
+dependence
+is
+due
+to thermal
+population
+of
+parent
+excited
+states
+at all but the lowest
+temperatures
+and highest
+densities.
+In general,
+only a few transitions
+will contribute
+to these decay rates, and hence the varia-
+tion of the rates with temperature
+is usually
+not so large
+that rates cannot
+be accurately
+interpolated
+in tempera-
+ture and density
+with the standard
+grids provided
+in Full-
+er, Fowler, and Newman
+(1980,1982a,1982b). The density
+dependence
+of these decay rates is minimal.
+In the case of
+electron
+emission,
+however,
+there
+may
+be considerable
+density
+dependence
+due to Pauli
+blocking
+for electrons
+where
+the
+density
+is high
+and
+the temperature
+is low.
+This does not present
+much of a problem
+for practical
+in-
+terpolation,
+since
+the
+electron-emission
+rate
+is usually
+very small under these conditions.
+The temperature
+and density
+dependence
+of continuum
+electron
+and
+positron
+capture
+is a much
+more
+serious
+problem.
+In addition
+to temperature
+sensitivity
+intro-
+duced
+through
+thermal
+population
+of parent
+excited
+states, there are considerable
+effects from the lepton
+dis-
+tribution
+functions
+in the integrands
+of the continuum-
+capture
+phase-space
+factors.
+This sensitivity
+of the cap-
+ture
+rates
+means
+that
+interpolation
+in temperature
+and
+density
+on the standard
+grid to obtain a rate can be diffi-
+cult,
+requiring
+a high-order
+interpolation
+routine
+and a
+relatively
+large amount
+of computer
+time for an accurate
+value.
+This is especially
+true for electron-capture
+process-
+es with threshold
+above zero energy.
+We have found
+that the interpolation
+problem
+can be
+greatly
+eased
+by
+defining
+a simple
+continuum-capture
+phase-space
+integral,
+based on the parent-ground-state
+to
+daughter-ground-state
+transition
+Q value, and then divid
+ing this by the tabulated
+rates (Fuller, Fowler, and New-
+man,
+1980,1982a,1982b) at each temperature
+and density
+grid point
+to obtain a table of effective ft values;
+these
+turn
+out to be much
+less dependent
+on temperature
+and
+density.
+This
+procedure
+requires
+a formulation
+of the
+capture phase-space
+factors which is simple enough to use
+many
+times
+in the
+inner
+loop of stellar
+evolution
+nu-
+cleosynthesis
+computer
+programs.
+Such a formulation
+in
+terms of standard
+Fermi integrals
+has been found,
+along
+with
+approximations
+for the
+requisite
+Fermi
+integrals.
+When
+the chemical
+potential
+(Fermi
+energy)
+which
+ap-
+pears in the Fermi integrals
+goes through
+zero, these ap-
+proximations
+have
+continuous
+values
+and
+continuous
+derivatives.
+%'e have recently
+found
+expressions
+for the reverse re-
+actions
+to e,e
+capture
+(i.e., v, V capture)
+and for v, v
+blocking
+of the direct reactions
+when
+v, V states are par-
+tially or completely
+filled.
+These reverse reactions and the
+blocking
+are important
+during
+supernova
+core collapse
+when
+neutrinos
+and
+antineutrinos
+eventually
+become
+trapped,
+leading to equilibrium
+between the two directions
+of capture.
+General
+analytic
+expressions
+have
+been
+de-
+rived
+and approximated
+with computer-usable
+equations.
+All of these
+new results
+described
+in the previous
+para-
+graphs
+will be published
+in Fuller, Fowler, and Newman
+(1984), and new tapes including
+v, v capture
+will be made
+available to users on request.
+VIII. CALCULATED ABUNDANCES
+FOR A (60
+WITH BRIEF COMMENTS
+ON EXPLOSIVE
+NUCLEOSYNTHESIS
+Armed
+with the available
+strong
+and weak nuclear
+re-
+action rates which
+apply to the advanced
+stages of stellar
+evolution,
+theoretical
+astrophysicists
+have
+attempted
+to
+derive the elemental
+and isotopic abundances
+produced
+in
+quasistatic
+presupernova
+nucleosynthesis
+and in explosive
+nucleosynthesis
+occurring
+during
+supernova
+outbursts.
+The various
+stages of preexplosive
+nucleosynthesis
+have
+been discussed
+in Secs. IV, V, and VI, and it is fair to say
+that there is reasonably
+general
+agreement
+on nucleosyn-
+thesis
+during
+these stages.
+Qn the other hand,
+explosive
+nucleosynthesis
+is still an unsettled
+matter,
+subject to in-
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+166
+William
+A. Fowler:
+Nuclear astrophysics
+tensive
+study at the present
+time, as reviewed,
+for exam-
+ple, in Woosley, Axelrod, and Weaver (1984).
+The abundances
+produced
+in explosive
+nucleosynthesis
+must of necessity
+depend
+on the detailed
+nature of super-
+nova explosions.
+Ideas concerning
+the nature
+of Type-I
+and Type-II
+supernova
+explosions
+were published
+many
+years
+ago by Hoyle
+and Fowler
+(1960) and Fowler
+and
+Hoyle (1964). It was suggested
+that Type-I supernovae
+of
+small
+mass
+were
+precipitated
+by the onset of explosive
+carbon
+burning
+under
+conditions
+of electron
+degeneracy
+where pressure
+is approximately
+independent
+of tempera-
+ture.
+Carbon
+burning
+raises the temperature
+to the point
+where
+the electrons
+are no longer
+degenerate,
+and explo-
+sive disruption
+of the star results.
+For Type-II superno-
+vae of larger mass it was suggested
+that Si burning
+pro-
+duced iron-group
+nuclei, which
+have the maximum
+bind-
+ing
+energies
+of all nuclei,
+so that
+nuclear
+energy
+is no
+longer
+available.
+Subsequent
+photodisintegration
+and
+electron capture in the stellar core leads to core implosion
+and ignition
+of explosive
+nucleosynthesis
+in the infalling
+inner
+mantle,
+which
+still
+contains
+nuclear
+fuel.
+These
+ideas have "survived" but, to say the least, with consider-
+able modification
+over the years, as indicated
+in the excel-
+lent review
+by Wheeler (1981). Modern
+views on Type-II
+supernovae
+are
+given
+in
+Weaver
+et al.
+(1983), Brown
+et al. (1982), Bethe et al. (1982), and Bethe et al. (1983);
+modern
+views on Type-I supernovae
+are given in Nomoto
+(1982a,1982b,1984).
+%'e can return
+to the nuclear
+abundance
+problem
+by
+reference
+to Fig. 16, taken
+from
+Woosley
+and
+Weaver
+0.1
+Mg
+0.01
+0.001
+1.2
+Interior mass (IVI')
+2.0
+I
+2.4
+(1982), which
+shows
+the distribution
+of the final
+abun-
+dances
+by mass
+fraction
+in the supernovae
+ejecta of a
+25MO Population
+I star.
+The presupernova
+distribution
+is that shown
+in Fig. 8(a). The modification
+in the abun-
+dances for the mass zones interior
+to 2.2MO is very ap-
+parent.
+The mass exterior to 2.2MO is ejected with little
+or no modification
+in nuclear
+abundances.
+The superno-
+vae explosion
+was simulated
+by arbitrarily
+assuming
+that
+on the order of 10 ' ergs was delivered
+to the ejected ma-
+terial by the shock generated
+in the bounce or rebound of
+FIG. 16. Final abundances
+by mass fraction
+vs increasing
+inte-
+rior mass in solar masses Mo, in Type-II supernova
+ejecta from
+a Population
+I star with total mass equal to 25MO, from Woos-
+ley and Weaver (1982).
+os
+I
+I
+I
+I
+I
+I
+I
+I
+I
+1
+I
+90
+0.6—
+0.4
+-0.2—
+CD
+Q -0.4—
+0
+Al
+36S
+E = 105~ ergs
+25
+IVI
+Pop I
+—30
+0
+20
+C
+15
+U
+10
+L
+O
+II
+-0.6
+N
+-0.8
+-1.0
+Off scale:
+C,
+F,
+Ca,
+7i
+I
+I
+I
+I
+16
+20
+24
+28
+32
+40
+44
+48
+52
+56
+A to m ic ma ss number
+FIQ. 17. Qverabundance
+(8) relative
+to 14 times
+solar abundances
+vs atomic mass number
+for nucleosynthesis
+resu
+'
+g
+nthesis
+resultin
+from a
+Type-II, Population I supernova
+with total mass equal to 25MO, from Woosley and Weave
+(
+).
+aver (1982).
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+167
+O
+a
+)
+aZ
+W
+I—
+CA
+II
+LLI 0
+&t
+u)
+a
+CQ
+I.O—
+0.8—
+0.6—
+0.4—
+0.2
+—0.2
+—0,4—
+—0.6
+—0.8
+—l.2
+Na
+~Mg
+ABUNDANCES
+RESULTING
+FROM
+EQUAL CONTRIBUTIONS
+OF SNI AND SNII
+NOMOTO (1983)
+Mn
+Ni
+Co
+~ ——-
+the collapsing
+and hardening
+core.
+Integration
+over
+the
+mass
+zones
+of Fig.
+16 for
+1.5Mo &M &2.2Mo
+and
+over
+those
+of Fig.
+8(a) for
+M & 2.2MO enabled
+Woosley and Weaver (1982) to calcu-
+late the isotopic
+abundances
+ejected into the interstellar
+medium
+by their 25Mo Population
+I simulated
+superno-
+va.
+The results
+relative
+to solar abundances
+(the reader
+should
+refer to the last paragraph
+of Sec. I) are shown
+in
+Fig. 17, taken from Woosley and Weaver (1982). The rel-
+ative ratios are normalized
+to unity for ' 0, for which the
+overproduction
+ratio was 14, that is, for each gram of ' 0
+originally
+in the star, 14 grams
+were ejected.
+This over-
+production
+in a single supernova
+can be expected to have
+produced
+the heavy-element
+abundances
+in the interstellar
+medium just prior to formation of the solar system,
+given
+the fact that
+supernovae
+occur approximately
+every
+one
+hundred
+years
+in the Galaxy.
+The ultimate
+theoretical
+calculations
+will yield a constant
+overproduction
+factor of
+the order of 10.
+The results
+shown
+in Fig. 17 are disappointing
+if one
+expects the ejecta of 25MO Population
+I supernovae
+to
+match solar system
+abundances
+with a relatively
+constant
+overproduction
+factor.
+The
+dip
+in
+abundances
+from
+sulfur
+to chromium
+is readily
+apparent.
+Woosley
+and
+Weaver
+(1982) point out that calculations
+must
+be made
+for other stellar
+masses
+and properly
+integrated
+over the
+mass
+distribution
+for
+stellar
+formation,
+which
+varies
+roughly
+inversely
+proportional
+to mass.
+Woosley,
+Axel-
+rod, and Weaver
+(1984) discuss
+their expectations
+of the
+abundances
+produced
+in stellar explosions for stars in the
+mass range
+10MO to 10 Mo. They show that a 200Mo
+Population
+III
+star
+produces
+abundant
+quantities
+of
+sulfur, argon, and calcium, which possibly compensate
+for
+the dip in Fig. 17. Population
+III stars are massive stars
+in the range 100Mo &M & 300Mo, which are thought
+to
+have formed
+from hydrogen
+and helium
+early in the his-
+tory of the Cialaxy and evolved
+very rapidly.
+Since their
+heavy-element
+abundance
+was zero, they have no counter-
+parts
+in presently
+forming
+Population
+I stars, as well as
+no counterparts
+among old, low-mass
+Population II stars.
+IO
+CL
+102
+C)
+(A
+~~ 10'—
+C3
+0
+W 10
+cn
+He
+0
+s
+I
+s
+USiNG 1975 FCZ II
+VALlJE x 3
+FoR
+c (Q, y)
+0
+No
+Ne
+I
+CU
+I"N~*'" v't(M
+& c1 K+c Il„.z
+Ti
+Fe
+F
+I
+I
+I
+I
+a
+I
+IO
+15
+20
+25
+30
+z
+FIG. 19. Overabundance
+yields relative to solar vs atomic num-
+ber Z, resulting
+from the explosion of a Type-II supernova
+with
+mass
+approximately
+equal
+to
+20Mo,
+from
+Arnett
+and
+Thielemann
+(1984). The horizontal
+lines are a factor of 2 higher
+and lower than the average
+overabundances,
+equal to 14. It is
+assumed
+that the presupernova
+abundances
+were not modified
+during
+the
+supernova
+explosion.
+The
+reaction
+rate
+for
+' C(u, y) ' 0 of Fowler, Caughlan,
+and Zimmerman
+(1967,1975)
+was multiplied
+by a factor of 3 in accordance
+with the theoreti-
+cal analysis by Langanke
+and Koonin (1983).
+Other authors
+have suggested
+a number of solutions
+to
+the problem
+depicted
+in Fig. 17. Nomoto,
+Thielemann,
+and Wheeler
+(1984) have calculated
+the abundances
+pro-
+duced
+in carbon
+deflagration
+models of Type-I superno-
+vae.
+By adding
+equal
+contributions
+from
+Type-I
+and
+Type-II
+supernovae
+they
+obtain
+Fig. 18, which
+can be
+considered
+somewhat
+more satisfactory
+than Fig. 17. On
+the other hand, Arnett
+and Thielemann
+(1984) have recal-
+culated
+quasistatic
+pres upernova
+nucleosynthesis
+for
+M =20Mo using
+a value for the ' C(a,y) ' 0 rate equal
+to three times that given in Fowler, Caughlan,
+and Zim-
+merman
+(1967,1975), Harris
+et al. (1983), and Caughlan
+(1984). This
+would
+seem
+to be justified
+by the recent
+analysis
+of ' C(a,y) ' 0 data
+by I.anganke
+and Koonin
+(1983), as discussed
+in Sec. V. They then assume that ex-
+plosive nucleosynthesis
+will not substantially
+modify their
+quasistatic
+abundances
+and
+obtain
+the results
+shown
+in
+Fig. 19. The average
+overproduction
+ratio is roughly
+14,
+and deviations
+are in general
+within
+a factor of 2 of this
+value.
+However,
+their assumption
+of minor modification
+during
+explosion and ejection is questionable.
+I feel that the results discussed
+in this section and those
+obtained
+by numerous
+other authors
+show promise of an
+eventual
+satisfactory
+answer
+to the question
+where
+and
+how did the elements
+from carbon to nickel originate.
+We
+shall see!
+I2
+I6
+20
+24
+28
+32
+36
+40
+44
+48
+52
+56
+60
+MASS NUMBER
+(A )
+FIG. 18. Abundances
+relative
+to solar, with the abundance
+of
+' O taken
+as standard,
+produced
+by equal
+contributions
+from
+typical
+Type-I
+and
+Type-II
+supernovae,
+from
+Nomoto,
+Thielemann,
+and Wheeler (1984).
+IX. ISOTOPIC ANOMALIES
+IN METEORITES
+AND OBSERVATIONAL
+EVIDENCE
+FOR ONGOING
+NUCLEOSYNTHESIS
+Almost
+a decade
+ago it became
+clear that
+nucleosyn-
+thesis occurred in the Cxalaxy up to the time of formation
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+168
+William
+A. Fowler:
+Nuclear astrophysics
+of the solar system,
+or at least up until
+several
+million
+years before the formation.
+For slightly
+over one year it
+has been clear that
+nucleosynthesis
+continues
+up to the
+present time, or at least within
+several million years of the
+present.
+The
+decay
+of radioactive
+Al (r=1.04X10
+years)
+is the key to these statements,
+which
+bring
+great
+satisfaction
+to most
+experimentalists,
+theorists,
+and
+ob-
+servers
+in Nuclear
+Astrophysics.
+For the record it must
+be admitted
+that
+the word "clear" is subject
+to certain
+reservations
+in the minds of some investigators,
+but as a
+believer, "clear" is clear to me.
+Isotopic anomalies
+in meteorites
+produced
+by the decay
+of short-lived
+radioactive
+nuclei
+were first demonstrated
+in 1960 by Reynolds
+(1960), who found large enrichments
+of ' Xe in the Richardson
+meteorite.
+Jeffery and Rey-
+nolds (1961) demonstrated
+in 1961 that the excess ' Xe
+correlated
+with ' I in the meteorite,
+and thus showed that
+the
+' Xe
+resulted
+from
+the
+decay
+in situ
+of
+' I
+(7=23X10
+years).
+Quantitative
+results
+indicated
+that
+I/' I=10
+at the time of meteorite
+formation.
+On
+the assumption
+that ' I and ' I are produced
+in roughly
+equal abundances
+in nucleosynthesis
+(most probably
+in the
+r process) over a period of —10'
+years in the Galaxy pri-
+or to formation
+of the solar system,
+and taking
+into ac-
+count that only the ' I produced
+over a period of the or-
+der of its
+lifetime
+survives,
+Wasserburg,
+Fowler,
+and
+Hoyle (1960) suggested
+that a period of free decay of the
+order of 10 years or more occurred
+between
+the last nu-
+cleosynthetic
+event which produced
+' I and its incorpora-
+tion in meteorites
+in the solar system.
+There remains
+evi-
+dence for such a period in some cases, notably
+Pu, but
+probably
+not in the history of the nucleosynthetic
+events
+which
+produced
+' I and other "short"-lived
+radioactive
+nuclei such as
+Al and '
+Pd (r=9.4X10 years).
+The substantiated
+meteoritic
+anomalies
+in
+Mg from
+Al, in '
+Ag from '
+Pd, in ' Xe from ' I, and in the
+heavy
+isotopes
+of
+Xe
+from
+the
+fission
+of
+Pu
+(7= 177X 10 years; fission tracks also observed),
+as well
+as searches
+in the future for anomalies
+in
+'K from
+'Ca
+(r=0.14X10
+years),
+in
+Ni
+from
+Fe p=0.43X10
+years),
+in
+Cr from
+Mn (~=5.3X10
+years),
+and
+in
+Nd from
+'
+Sm (r= 149X 10
+years; a decay) are dis-
+cussed
+exhaustively
+by
+my
+colleagues
+Wasserburg
+and
+Papanastassiou
+(1982). They espouse in situ decay for the
+observations
+to date, but my former
+student
+D. D. Clay-
+ton (1975,1979,1983,1984; see also
+Clayton
+and
+Hoyle,
+1974,1976) argues that the anomalies
+occur in interstellar
+grains preserved
+in the meteorites
+and originally
+produced
+by condensation
+in the expanding
+and cooling
+envelopes
+of supernovae
+and novae.
+Wasserburg
+and
+Papanastas-
+siou (1982) write on p. 90, "There is, as yet, no compelling
+evidence for the presence of preserved
+presolar
+grains
+in
+the solar system.
+All of the samples
+so far investigated
+appear
+to have melted
+or condensed
+from a gas, and to
+have
+chemically
+reacted
+to form
+new
+phases. "
+With
+mixed emotions I accept this.
+Before turning
+to some elaboration
+of the
+Al/
+Mg
+case it is appropriate
+to return to a discussion of the free
+decay interval
+mentioned
+above.
+It is the lack of detect-
+ALLENDE
+100
+0.150
+NORTHlTE-G
+0.145
+CU
+60 ~
+CL
+LLJ
+CL
+40
+OO
+0,140
+1
+100
+I
+200
+300
+0
+Al/
+Mg
+FIG. 20.
+Evidence
+for the
+in situ
+decay of
+Al in various
+minerals
+in inclusion
+WA of the Allende
+meteorite,
+from I.ee,
+Papanastassiou,
+and Wasserburg
+(1977). The linear relation
+be-
+Mg/
+Mg
+and
+27A1/24Mg
+implies
+that
+~6A1/27A1
+=(5.1+0.6)&10
+at the time of formation
+of the inclusion,
+with
+Al considered
+to react chemically
+in the same manner
+as
+Al.
+'I
+able
+anomalies
+in
+U
+from
+the
+decay
+of
+Cm
+(r=23X10
+years) in meteorites,
+as shown
+by Chen and
+Wasserburg
+(1981), coupled
+with
+the demonstrated
+oc-
+currence of heavy Xe anomalies
+from the fission of
+Pu
+(~= 117X10 years), as discussed for example
+by Burnett,
+Stapanian,
+and Jones (1982), which
+demands
+a free decay
+interval
+of the order of several
+times 10 years.
+This in-
+terval
+is measured
+from
+the "last" r-process
+nucleosyn-
+thesis
+event
+(supernova'?)
+which
+produced
+the actinides,
+Th, U, Pu, Cm, and beyond,
+up to the "last" nucleosyn-
+thesis events
+(novae'? supernovae
+with short-run
+r process-
+es?) which produced
+the short-lived
+nuclei
+Al, '
+Pd, and
+I before the formation
+of the solar system.
+The fact
+that the anomalies
+produced
+by these short-lived
+nuclei
+relative to normal
+abundances
+all are of the order of 10
+despite
+a wide
+range
+in their
+mean
+lifetimes
+(1.04 to
+23 X 10 years), indicates
+that this anomaly
+range must be
+the result of inhomogeneous
+mixing
+of exotic materials
+with much
+larger
+quantities
+of normal
+solar system
+ma-
+terials over a short time, rather than the result of free de-
+cay.
+The
+challenges
+presented
+by
+this
+conclusion
+are
+manifold.
+Figure
+14 of Wasserburg
+and Papanastassiou
+shows the time scale for the formation
+of dust, rain, and
+hailstones
+in the early solar system
+and for the aggrega-
+tion
+into
+chunks
+and
+eventually
+the terrestrial
+planets.
+The solar nebula
+was almost
+but not completely
+mixed
+when it collapsed to form the solar system.
+From
+Al it
+becomes clear that the mixing
+time down to an inhomo-
+geneity of only one part in 10 (see what follows) was on
+the order of 10 years.
+Evidence that
+Al was alive in interstellar
+material
+in
+the solar nebula
+which condensed
+and aggregated
+to form
+the parent
+body
+(planet
+in the asteroid
+belt?) of the Al-
+lende
+meteorite
+is shown
+in Fig. 20, taken
+with
+some
+modification
+from Lee, Papanastassiou,
+and Wasserburg
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+169
+(1977). The Allende
+meteorite
+fell near Pueblito
+de Al-
+lende
+in Mexico on February
+8, 1969 and is a carbona-
+ceous chondrite,
+a type of meteorite
+thought
+to contain
+the most primitive
+material
+in the solar system,
+unaltered
+since its original solidification.
+Figure
+20
+depicts
+the
+results
+for
+Mg/ "Mg
+vs
+Al/
+Mg in different
+mineral
+phases
+(spinel, etc.) from a
+Ca-Al-rich
+inclusion
+called
+WA obtained
+from a chon-
+drule found in Allende.
+It will be clear that excess
+Mg
+correlates
+linearly
+with the amount of
+Al in the mineral
+phases.
+Since
+Al is chemically
+identical
+with
+Al, it
+can be inferred
+that phases rich in
+Al were initially
+rich
+in
+Al, which
+subsequently
+decayed
+in situ to produce
+excess
+Mg.
+Al was alive with abundance
+5 &(10
+that
+of
+Al in one part of the solar nebula
+when the WA in-
+clusion aggregated
+during
+the earliest stages of the forma-
+tion of the solar system.
+The unaltered
+inclusion
+survived
+for 4.5 billion
+years to tell its story.
+Other inclusions
+in
+Allende
+and other meteorites
+yield
+Al/
+Al from
+zero
+up
+to —10, with
+10
+a representative
+value.
+The
+reader
+is
+referred
+to
+the
+paper
+of Was serburg
+and
+Papanastassiou
+(1982) for the rich details of the story and
+the importance
+and significance
+of non-accelerator-based
+contributions
+to Nuclear Astrophysics.
+Evidence
+that
+Al is alive in the interstellar
+medium
+today is shown in Fig. 21, from Mahoney,
+Ling, Wheaton,
+and Jacobson (1984), my colleagues
+at Caltech's Jet Pro-
+pulsion
+Laboratory
+(JPL). Figure 21 shows
+the gamma-
+ray spectrum
+observed in the range 1760—1824 keV by in-
+struments
+aboard
+the High-Energy
+Astronomical
+Obser-
+vatory, HEAO 3, which
+searched for diffuse
+gamma-ray
+emission from the Galactic equatorial
+plane.
+The discrete
+line at 1809 keV, detected
+with a signifi-
+cance of nearly five standard
+deviations,
+is without
+doubt
+due to the transition
+from the first excited state at 1809
+keV in
+Mg to its ground
+state.
+Radioactive
+Al decays
+CVE
+L9
+C)
+CL.
+LABORATORY
+PROTON
+ENERGY
+5.O MeV
+I
+5.I MeV
+I
+5.2 MeV
+I
+E
+C3 60—
+AJl~
+M
+CL
+CD
+4O—
+Mg (p, n)
+Al
+GROUND
+STATE TO
+GROUND
+STATE
+SKELTON, KAVANAGH,
+AND SARGOOD
+KELLOGG l983
+REVERSE REACTION
+RELEVANT
+TO DESTRUCTION
+OF
+SAI
+by
+Al(e+U)
+Mg*(y)
+Mg to this state and thence to the
+ground
+state of
+Mg.
+This gamma-ray
+transition
+shows
+clearly that
+Al is alive in the interstellar
+medium
+in the
+Galactic equatorial
+plane today.
+Given the mean lifetime
+(1.04X10
+years) of
+Al, this shows
+that
+Al has been
+produced
+no longer than
+several
+million
+years ago and is
+probably
+being produced
+continuously.
+It is no great ex-
+trapolation
+to argue that nucleosynthesis
+in general
+con-
+tinues
+in the Cralaxy
+at the present
+time.
+Quantitatively
+the observations
+indicate
+that
+Al/ Al-10
+s in the in-
+terstellar
+medium.
+This value averages
+over the Galactic
+plane interior to the sun at the present time.
+This average
+value was probably
+much the same when the solar system
+formed,
+but
+the
+variations
+in
+Al/
+Al
+for
+various
+meteoritic
+inclusions
+show that there were wide variations
+in the solar nebula
+about this value ranging
+from zero to
+10
+The question
+immediately
+arises, what is the site of the
+synthesis
+of the
+Al?
+Since the preparation
+of the paper
+by Ward
+and Fowler (1980) I have been convinced
+that
+Al could not be by synthesized
+in supernovae
+at high
+temperatures
+where
+neutrons
+are copiously
+produced
+be-
+cause of the
+expectation
+of a large
+cross
+section
+for
+Al(n, p)
+Mg.
+This expectation
+has been borne out by
+the measurements
+on the reverse reaction
+Mg(p, n)
+Al
+in the
+Kellogg
+Laboratory
+by Skelton,
+Kavanagh,
+and
+Sargood (1983). Figure 22 is taken from Fig. 1(a) of these
+authors
+and
+shows
+the great
+beauty
+of high-resolution
+measurements
+in
+experimental
+Nuclear
+Astrophysics.
+Until the
+Al targets just recently
+available
+can be bom-
+1760
+I
+1776
+l
+1792
+ENERGY (keV)
+1824
+D
+I—
+QJ
+20—
+M
+COO
+Q
+FIG. 21. The High-Energy
+Astrophysical
+Observatory
+(HEAO
+3) data
+on gamma
+rays
+in the energy
+range
+1760—1824 keV
+emitted
+from
+the
+Galactic
+equatorial
+plane,
+from
+Mahoney
+et al. (1984). The line at 1809 keV is attributed
+to the decay of
+radioactive
+Al (7=1.04X10
+years)
+to the
+excited
+state of
+Mg at this energy.
+5.O MeV
+I
+5. l MeV
+I
+5.2 MeV
+FIG. 22. The cross section in mb vs laboratory
+proton
+energy
+for the ground-state —to—ground-state
+reaction
+Mg(p, n )
+Al,
+from Skelton, Kavanagh,
+and Sargood (1983).
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+170
+William
+A. Fowler:
+Nuclear astrophysics
+barded
+with
+neutrons
+it is necessary
+to supplement
+the
+laboratory
+measurements
+on
+Mg(p, n)
+Al, perforce
+in-
+volving
+the ground
+state of
+Mg, with theoretical
+calcula-
+tions involving
+excited states (Woosley et al., 1978), in or-
+der to calculate the stellar rate for
+Al(n, p)
+Mg. There
+is little doubt that this rate is very large indeed.
+Some writers
+(Clayton,
+1975,1979,1983,1984; Clayton
+and
+Hoyle,
+1974,1976; Mahoney
+et al., 1982,1984; Ar-
+nould
+et al. , 1980) have suggested
+that
+Al is produced
+in novae.
+This is quite
+reasonable
+on the basis of nu-
+cleosynthesis
+in novae
+as discussed
+in Truran
+(1982). In
+current
+models for novae,
+hydrogen
+from a binary
+com-
+panion
+is accreted by a white dwarf until a thermal
+runa-
+way involving
+the fast CN cycle occurs.
+Similarly
+a fast
+MgAl cycle may occur with production
+of
+Al/ Al) 1,
+as shown
+in Fig. 9 of Ward and Fowler (1980). The re-
+cent
+experimental
+measurements
+cited
+in
+Ward
+and
+Fowler
+(1980)
+substantiate
+this
+conclusion.
+Clayton
+(1975,1979,1983,1984) argues that the estimated
+40 novae
+occurring
+annually
+in the Galactic disk can produce
+the
+observed
+A1/
+Al ratio of the order of 10
+on average.
+He assumes
+that
+each nova
+ejects 10
+Mo of material
+containing
+a mass fraction of
+Al equal to 3 & 10
+Another
+possible source of
+Al is spallation
+induced by
+irradiation
+of protoplanetary
+material
+by high-energy
+pro-
+tons
+from
+the young
+sun
+as it settled
+on the main
+se-
+quence.
+This
+possibility
+was
+discussed
+very
+early
+by
+Fowler, Greenstein,
+and Hoyle (1962), who also attempted
+to produce 0, Li, Be, and B in this way, requiring
+such
+large primary
+proton
+and secondary
+neutron
+fluxes that
+many
+features of the abundance
+curve in the solar system
+would
+have been changed
+substantially.
+A more reason-
+able version of the scenario
+was presented
+by Lee (1978)
+but without
+notable
+success. I find it difficult
+to believe
+that
+an
+early
+irradiation
+produced
+the
+anomalies
+in
+meteorites.
+The
+Al in the interstellar
+medium
+today cer-
+tainly cannot have been produced
+in this way.
+Anomalies
+have been found
+in meteorites
+in the abun-
+dances
+compared
+with
+normal
+solar
+system
+material
+of
+the stable isotopes of many
+elements: 0, Ne, Mg, Ca, Ti,
+Kr, Sr, Xe, Ba, Nd, and Sm. The possibility
+that the oxy-
+gen anomalies
+are non-nuclear
+in origin has been raised by
+Thiemens
+and Heidenreich
+(1983), but the anomalies
+in
+the remaining
+elements
+are generally
+attributed
+to nuclear
+processes.
+One example
+is a neutron-capture/beta-decay
+(n13) pro-
+cess studied
+by Sandier, Koonin, and Fowler (1982). The
+seed nuclei consisted of all of the elements
+from Si to Cr
+with normal
+solar system
+abundances.
+When this process
+operates
+at neutron
+densities = 10
+mol cm
+and expo-
+sure times of =10 sec, small admixtures ((10
+) of the
+exotic material
+produced
+are sufficient
+to account
+for
+most of the Ca and Ti isotopic anomalies
+found in the Al-
+lende meteorite
+inclusion EK-1-4-1 by Niederer,
+Papanas-
+tassiou,
+and Wasserburg
+(1979). The anomalies
+in stable
+isotope
+abundances
+are of the same
+order
+as those for
+short-lived
+radioactive
+nuclei
+and
+strongly
+support
+the
+view that
+the solar nebula
+was
+inhornogeneous
+and not
+completely
+mixed,
+with regions
+containing
+exotic rnateri-
+a]s up to 10
+or more of normal material.
+Agreement
+for the
+Ca and
+Ti anomalies
+in EK-1-4-1
+was obtained
+only by increasing
+the theoretical
+Hauser-
+Feshbach cross sections for
+K(n, y) and" Ca(n, y) by a
+factor of 10 on the basis of probable
+thermal
+resonances
+just
+above
+threshold
+in the
+compound
+nuclei
+K and
+Ca, respectively.
+In a CERN report which subsequently
+became
+available
+Huck
+et al. (1981) reported
+an excited
+state in
+Ca just 0.16 MeV above the
+Ca(n, y) thresh-
+old, which can be produced
+by s-wave capture and fulfills
+the requirements
+of Sandier, Koonin, and Fowler (1982).
+Sandier
+et al. (1982) suggest
+that the =10 sec expo-
+sure time scale is determined
+by the mean lifetime of ' N
+(~=862 sec), produced
+through
+' C(p, y) "N by a jet of
+hydrogen
+suddenly
+introduced
+into
+the
+helium-burning
+shell of a red giant
+star, where
+a substantial
+amount
+of
+' C has been produced
+by the 3a—+' C process.
+The beta
+decay
+' N(e+u) ' C is followed
+by ' C(a, n) ' 0 as the
+source of the neutrons.
+All of this is very interesting,
+if
+true.
+More to the point, Sandier
+et aI. (1982) predict the
+anomalies
+to be expected
+in the isotopes of chromium.
+Attempts
+to measure
+these anomalies
+are underway
+now
+by Wasserburg
+and his colleagues.
+Again, we shall see!
+OBSERVATIONAL
+EVIDENCE
+FOR NUCLEOSYNTHESIS
+IN SUPERNOYAE
+Over the years there has been considerable
+controversy
+concerning
+elemental
+abundance
+observations
+in the opti-
+cal wavelength
+range
+on Galactic
+supernovae
+remnants.
+To my mind the most convincing
+evidence for nucleosyn-
+thesis
+in supernovae
+has been provided
+by Chevalier
+and
+Kirshner
+(1979), who obtained
+quantitative
+spectral infor-
+mation for several of the fast-moving
+knots in the super-
+nova
+remnant
+Cassiopeia
+A (approximately
+dated
+1659,
+but
+a supernova
+event
+was
+not observed
+at that
+time).
+The knots are considered
+to be material
+ejected from vari-
+ous
+layers
+of the original
+star in a highly
+asymmetric,
+nonspherical
+explosion.
+In one knot,
+labeled KB33, the
+following
+ratios
+relative
+to solar,
+designated
+by brackets,
+were observed:
+[S/0] =61, [Ar/0] =55, [Ca/0] =59. It
+is abundantly
+clear that
+oxygen
+burning
+to the silicon-
+group elements
+in the layer in which KB33 originated
+has
+depleted
+oxygen and enhanced
+the silicon-group
+elements.
+Other
+knots
+and
+other
+features
+designated
+as filaments
+show different
+abundance
+patterns,
+albeit, not so easily in-
+terpreted.
+The
+moral
+for
+supernova
+modelers
+is that
+spherically
+symmetric
+supernova
+explosions
+may
+be the
+easiest to calculate,
+but are not to be taken
+as realistic.
+Admittedly
+they
+have
+a good
+answer:
+it is expensive
+enough
+to compute
+spherically
+symmetric
+models.
+OK,
+QK!
+Most
+striking
+of all
+has
+been
+the
+payoff
+from
+the
+NASA investment
+in the High-Energy
+Astronomy
+Obser-
+vatory
+(HEAO 2), now called the Einstein
+Observatory.
+Canizares
+and
+Winkler
+(1981) have
+analyzed
+the x-ray
+spectrum
+from 0.5 to 1.1 keV observed from Puppis A us-
+ing the focal plane crystal
+spectrometer
+aboard
+the Ein-
+Rev. Mod. Phys. , Vol. 56, No. 2, Part
+I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+IO
+0.8-1.2
+1.35
+161
+1.86
+2.96
+3, 1
+3.9
+I
+I
+I
+I
+I
+I
+I
+I
+IQ
+stein
+Observatory.
+Their
+abundance
+determinations
+are
+consistent
+with the ejection of 3Mo of oxygen
+and 1M~
+of neon by a Type-II supernova
+of M)25MO with subse-
+quent mixing into 150Mo of interstellar
+material.
+In addition
+Becker
+et al. (1979) observed
+the
+x-ray
+spectrum
+in the range
+1—4 keV of Tycho Brahe's super-
+nova remnant
+(1572) shown
+in Fig. 23. An x-ray spec-
+trum
+is much simpler
+than an optical spectrum.
+For me
+it is wonderful
+that satellite observations
+show the K-level
+x rays expected
+from Si, S, Ar, and Ca just where
+the
+Handbook
+of Chemistry
+and Physics
+says they ought
+to
+bet
+Such observations
+are not all that easy in a terrestrial
+laboratory.
+Shull
+(1982,1983) has used a single-velocity,
+non-ionization-equilibrium
+model
+of a supernova
+blast
+wave to calculate
+abundances
+in Tycho's remnant
+relatiue
+to solar,
+designated
+by
+brackets,
+and
+finds:
+[Si]=7.6,
+[S]=6.5, [Ar] =3.2, and
+[Ca]=2.6.
+With
+considerably
+greater uncertainty
+he gives [Mg] =2.0 and [Fe]=2.1. He
+finds different
+enhancements
+in Kepler's
+remnant
+(1604)
+and in Cassiopeia A. One more lesson for the modelers:
+no two supernovae
+are alike.
+Nucleosynthesis
+in superno-
+vae depends
+on their initial mass, rotation,
+mass loss dur-
+ing the red giant stage, the degree of symmetry
+during
+ex-
+plosion, initial heavy-element
+content,
+and probably
+other
+factors.
+These details aside it seems clear that supernovae
+produce enhancements
+in elemental
+abundances
+up to iron
+and probably
+beyond.
+Detection of the much
+rarer
+ele-
+ments beyond iron will require more sensitive
+x-ray detec-
+tors operating
+at higher
+energies.
+The nuclear
+debris of
+supernovae
+eventually
+enriches
+the
+interstellar
+medium
+from
+which
+succeeding
+generations
+of stars
+are formed.
+It becomes
+increasingly
+clear that
+novae
+also enrich
+the
+interstellar
+medium.
+Sorting
+out these two contributions
+poses interesting
+problems
+in ongoing
+research
+in all as-
+pects of Nuclear Astrophysics.
+Explosive sihcon burning
+in the shell just outside a col-
+lapsing
+supernova
+core primarily
+produces
+Ni, as shown
+10-24
+1 0-25
+8/aveIength
+(P)
+6000
+9000
+)
+I
+I
+I
+3000
+1653
+1 Q-26
+1 0-27
+I
+I
+I
+I
+I
+I
+I
+I
+i
+I
+1 0-24
+IU
+rv
+1 0-25
+CV
+E
+) p-26 —I
+— 10-»
+LL
+1 0-25
+I
+I
+I
+41796—
+in Fig. 16. It is generally
+believed that the initial
+energy
+source for the light
+curves of Type-I supernovae
+is elec-
+tron capture by
+Ni (r= 8.80 days) to the excited state of
+Co at 1.720 MeV, with subsequent
+gamma-ray
+cascades
+to the ground
+state.
+These gamma
+rays are absorbed
+and
+provide
+energy
+to the ejected envelope.
+The subsequent
+source of energy is the electron capture and positron
+emis-
+sion by
+Co (r=114 days) to a number
+of excited states
+of
+Fe, with
+gamma-ray
+cascades to the stable
+ground
+state of
+Fe. Both the positrons
+and the gamma
+rays
+heat
+the ejected material.
+If
+Co is an energy
+source,
+there
+should
+be spectral
+evidence
+for cobalt
+in
+newly
+discovered
+Type-I
+supernovae,
+since its lifetime
+is long
+enough
+for detailed
+observations
+to be possible after the
+initial discovery.
+The cobalt has been observed!
+Axelrod
+(1980) studied
+the optical spectra of SN1972e obtained
+by Kirshner
+and
+Oke (1975). The spectra
+obtained
+at 233, 264, and 376
+days after Julian
+day 2441420, assigned
+as the initial
+day
+of the explosive
+event, are shown
+in Fig. 24. Axelrod as-
+-I
+IO
+Fe
+/
+CONTINUUM
+Ca
+10-'6 =
+I02
+EINSTEIN
+OBSERVATORY
+(HEAO 2)
+BECKER et al. , AP. J. 235, Ls(l980)
+GODDARD
+SPACE
+FL I6HT
+CENT ER
+IO
+I
+I
+I
+I
+I
+I
+Q4
+0.6
+I.Q
+ENERGY
+(keV)
+2.0
+4 Q
+FIT+. 23. The Einstein Observatory
+(HEAO 2) data on the x-ray
+spectrum
+of Tycho Brahe's
+supernova
+remnant,
+from
+Becker
+et aI. (1979).
+~p-27 =I:I
+il
+102'
+&
+l
+I
+l
+I
+I
+I
+I
+I
+1
+I
+14.4Q
+14.50
+14.6Q
+14.70
+14.80
+14.90
+Log frequency
+(Hz)
+FICx. 24. Analysis
+by Axelrod (1980) yielding
+two emission
+lines
+from
+Co III in
+the
+observations
+on SN1972e
+obtained
+by
+Kirshner
+and
+Oke (1975). The observations
+were
+made
+233,
+264, and 376 days after (Julian day) JD2441420, assigned
+as the
+initial
+day of the supernova
+explosion.
+The mean
+lifetime of
+Co is 114 days; the Co III lines appear
+to decay in keeping
+with their emission from radioactive ' Co.
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+I
+I
+I
+I
+I
+I
+I
+I
+I
+Co Il
+I
+8000
+0
+signed the two emission
+lines near 6000 A (log 0= 14.7) to
+Co III. They are clearly evident at 233 and 264 days, but
+are only marginally
+evident
+at 376 days (-7 later).
+The
+lines
+decay in reasonable
+agreement
+with
+the mean
+life-
+time of
+Co.
+Branch
+et al. (1983) have
+studied
+absorption
+spectra
+during
+the first hundred
+days of SN1981b. Their results
+at maximum
+light are shown
+in the top curve of Fig. 25.
+Using the carbon deflagration
+model for Type-I superno-
+vae of Nomoto
+(1982a,1982b,1984), Branch
+(1984) has
+calculated
+the spectrum
+shown
+in the lower curve of Fig.
+25.
+Deep absorption
+lines of Co I1 are clearly
+evident
+near 3300 A and 4000 A.
+It is my conclusion
+that there is substantial
+evidence for
+nucleosynthesis
+in supernovae
+of elements
+produced
+in ox-
+ygen
+and
+silicon
+burning.
+The role of neutron
+capture
+processes in supernovae
+will be discussed
+in the next sec-
+tion.
+COBALT ABSORPTION
+L INES
+I
+I
+I
+I
+I
+I
+I
+4000
+5000
+6000
+7000
+NRYELENGTH
+(A)
+FICx. 25. Top:
+Analysis
+by Branch
+et al. (1983) of their ab-
+sorption
+spectrum
+of SN1981b at maximum
+light, showing
+evi-
+dence for Co II absorption
+features.
+Bottom:
+Comparison
+with
+the calculated
+spectrum
+expected from the carbon deflagration
+model for Type-I supernovae,
+according
+to the calculations
+of
+Nomoto (1982a,1982b,1984).
+the r process and are produced
+only in the s process; thus
+the designation
+s only.
+The lightest isotopes are frequent-
+ly very rare because they are not produced
+in either the s
+process or the r process and are thought
+to be produced
+in
+what is called the p process.
+The p process involves
+posi-
+tron
+production
+and
+capture,
+proton
+capture,
+neutron
+photoproduction,
+and/or
+(p, n) reactions
+and will not be
+discussed
+further.
+The reader is referred to Audouze
+and
+Vauclair
+(1980). The results of the s process, the r pro-
+cess, and the p process are frequently
+illustrated
+by refer-
+ence to the ten stable isotopes of tin.
+The reader
+is re-
+ferred to Figs. 10 and 11 of Fowler (1964).
+It is fair to say that
+the s process
+has
+the clearest
+phenomenological
+basis
+of all
+processes
+of nucleosyn-
+thesis.
+This is primarily
+the result of the correlation
+of
+s-process
+abundances
+first delineated
+by Seeger, Fowler,
+and Clayton
+(1965) with the beautiful
+series of measure-
+ments on neutron
+capture cross sections in the
+1—100 keV
+range by the Oak Ridge National
+Laboratory
+group under
+Macldin and Csibbons (1965; also see Allen et al., 1971).
+This correlation
+is illustrated
+in Fig. 26, which
+shows
+the product
+of neutron
+capture
+cross sections
+(o) at 30
+keV multiplied
+by s-process abundances
+(N) as a function
+of atomic
+mass
+for
+s-only
+nuclei
+and
+those
+produced
+predominately
+by the
+s process.
+It is not
+difficult
+to
+understand
+in first-order
+approximation
+that the product
+o.S should
+be constant
+in the s-process synthesis.
+A nu-
+cleus with
+a small
+(large)
+neutron
+capture
+cross section
+must have a large (small) abundance
+to maintain
+continui-
+ty in the s-capture
+path.
+Figure 26 demonstrates
+this in
+the
+p/ateaus
+shown
+from
+3 =90—140
+and
+from
+A = 140—206. The anomalous
+behavior
+below
+A =80 is
+discussed
+in Almeida
+and Kappeler
+(1983), from
+which
+Fig. 26 is taken.
+Nuclear
+shell structure
+introduces
+the precipices
+shown
+in Fig. 26 at A -84, A —138, and
+A -208, which corre-
+spond
+to the s-process
+abundance
+peaks
+in Fig. 2. At
+these
+values
+for
+A the
+neutron
+numbers
+are "magic,"
+%=50, 82, and 126. The cross sections for neutron
+cap-
+XI. NEUTRON
+CAPTURE PROCESSES
+IN NUCLEOSYNTHESIS
+In Sec. I the need for two neutron
+capture processes for
+nucleosynthesis
+beyond
+A )60 was discussed
+in terms of
+early
+historical
+developments
+in Nuclear
+Astrophysics.
+These two processes
+were
+designated
+the s process, for
+neutron
+capture
+slow (s) compared
+to electron beta decay,
+and the r process, for neutron
+capture rapid (r) compared
+to electron beta decay in the process networks.
+For a given element
+the heavier isotopes are frequently
+bypassed
+in the s process and are produced
+only in the r
+process; thus the designation
+r only.
+Lighter isotopes are
+frequently
+shielded
+by more neutron-rich
+stable isobars in
+4
+E
+DD
+60
+I
+80
+I
+100
+120
+140
+ATOMIC
+MASS
+I
+160
+I
+180
+200
+FKx. 26. Neutron
+capture cross section at 30 keV in mb multi-
+plied by solar system
+abundances
+relative to Si=10 vs atomic
+mass for nuclei
+produced
+in the s process, from Almeida
+and
+Kappeler (1983). Theoretical
+calculations
+are shown for a single
+exponential
+distribution,
+in neutron
+exposure,
+v., p2(~), and for
+two such distributions,
+p~(~)+p2(~).
+Rev. Mod. Phys. , Vol. 56, No. 2, Part
+I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowier:
+Nuclear astrophysics
+ture into new neutron
+shells are very small at these magic
+numbers.
+With a finite supply of neutrons
+it follows that
+the o.X product
+must
+drop to a new plateau just as ob-
+served.
+Quantitative
+explanations
+of this effect have been
+given by Ulrich (1973) and by Clayton and Ward (1974).
+What is the site of the s process and what is the source
+of the
+neutrons'?
+A very
+convincing
+answer
+has
+been
+given by Iben (1975), that the site is the He-burning
+shell
+of a pulsating
+red giant, with the
+Ne(u, n )
+Mg reaction
+as the
+neutron
+source.
+Critical
+discussions
+have
+been
+given
+by Almeida
+and
+Kappeler
+(1983) and
+by Truran
+(1983). The latter
+reference
+reserves
+the possibility
+that
+the ' C(a, n ) ' O reaction is the neutron
+source.
+We turn
+now to the r process.
+This process has been
+customarily
+treated by the waiting point method of B FH
+(1957). Under
+explosive
+conditions
+a large flux of neu-
+trons
+drives
+nuclear
+seeds to the neutron-rich
+side of the
+valley of stability
+where,
+depending
+on the temperature,
+the (n, y) reaction
+and the (y, n) reaction
+reach equality.
+The nuclei
+wait at this
+point
+until
+electron
+beta decay
+transforms
+neutrons
+in the nuclei
+into protons,
+whence
+further
+neutron
+capture
+can occur.
+At the cessation of
+the r process the neutron-rich
+nuclei decay to their stable
+isobars.
+In first order this means
+that the abundance
+of
+an r-process nucleus
+multiplied
+by the electron beta-decay
+rate of its neutron-rich
+r-process isobar progenitor
+will be
+roughly
+constant.
+At
+magic
+neutron
+numbers
+in
+the
+neutron-rich
+progenitors,
+beta decay must
+perforce
+open
+the closed neutron
+shell in transforming
+a neutron
+into a
+proton,
+and there
+the rate will be relatively
+small.
+Ac-
+cordingly
+the abundance
+of progenitors
+with N =50, 82,
+and 126 will be large.
+The associated
+number
+of protons
+will
+be less than
+in the corresponding
+s-process
+nuclei
+with
+a magic
+number
+of neutrons.
+It follows
+then
+that
+the stable daughter
+isobars
+will have smaller
+mass num-
+bers, and this is indeed the case, the r-process
+abundance
+peaks
+occurring
+at A-80,
+A —130, and
+A —195, all
+below the corresponding
+s-process peaks, as illustrated
+in
+Fig. 2.
+A
+phenom enological
+correlation
+of
+r-process
+abun-
+dances with beta-decay
+rates made by Becker and Fowler
+(1959) and a detailed
+illustration
+of this correlation
+be-
+tween
+solar
+system
+r-process
+abundances
+and
+theory
+is
+given in Fig. 13 of Fowler (1964). It is too phenomeno-
+logical
+to satisfy
+critical
+nuclear
+astrophysicists.
+They
+wish to know the site of the high neutron
+fluxes demand-
+ed for r-process
+nucleosynthesis
+and the details of the r-
+process path through
+nuclei far from the line of beta sta-
+bility.
+There is also general belief at the present
+time that the
+waiting
+point approximation
+is a poor one and must be re-
+placed
+by dynamical
+r-process
+flow
+calculations
+taking
+into account
+explicit
+(n, y), (y, n), and beta-decay
+rates
+with
+time-varying
+temperature
+and
+neutron
+flux.
+Schramm
+(1982) has discussed
+such calculations
+in some
+detail and has emphasized
+that nonequilibrium
+effects are
+particularly
+important
+during
+the freezeout
+at the end of
+the r process,
+when
+the temperature
+drops
+and the neu-
+tron
+flux
+falls to zero.
+Simple
+dynamical
+calculations
+~
+—5
+z
+Q
+7
+z
+U
+C)
+-13
+I
+L
+I
+I
+20
+60
+I
+I
+I
+I
+I
+I
+I
+l
+I
+I
+I
+I
+100
+140
+180
+220
+260
+300
+3t10
+MASS NUMBER
+FIG. 27. Abundances
+produced
+in the r process vs atomic mass
+number
+in the thermal
+runaway
+model
+(lower curve) of Came-
+ron, Cowan, and Truran (1984}compared
+with the solar system
+r-process abundances
+(upper curve} of Cameron (1982}.
+have been made by Blake and Schramm
+(1976) for a pro-
+cess they designated
+as the
+n process and Sandier, Koo-
+nin, and Fowler (1982) for their
+nf3 process discussed
+in
+Sec. IX. The most ambitious
+calculations
+have been made
+by Cameron,
+Cowan, and Truran (1984). This paper gives
+references to their previous
+herculean
+efforts in dynamical
+r-process
+calculations.
+An
+example
+of their
+results
+is
+shown
+in Fig. 27. They
+emphasize
+that
+they
+have not
+been able to find a plausible
+astrophysical
+scenario for the
+initial ambient
+conditions
+required
+for Fig. 27. In spite of
+this I am convinced
+that they are on the right track to an
+eventual
+understanding
+of the dynamics
+and site of the r
+process.
+Many
+suggestions
+have been made for possible sites of
+the r process,
+almost
+all in supernova
+explosions
+where
+the basic
+requirement
+of a large
+neutron
+flux of short
+duration
+is
+met.
+These
+suggestions
+are
+reviewed
+in
+Schramm
+(1982) and
+Truran
+(1983). To my
+mind
+the
+helium
+core
+thermal
+runaway
+r process
+of Cameron,
+Cowan,
+and Truran
+(1984) is the most promising.
+These
+authors
+do not rule out the
+Ne(a, n)
+Mg reactions
+as
+the
+source
+of the
+neutrons,
+but
+their
+detailed
+results
+shown
+in Fig. 27 are based on the ' C(a, n ) ' O reaction as
+the source.
+They start with a star formed from material
+with the same heavy-element
+abundance
+distribution
+as in
+the solar system, but with smaller total amount.
+They as-
+sume a significant
+amount
+of ' C in the helium
+core of
+the star after hydrogen
+burning.
+This ' C was produced
+previously
+by the introduction
+of hydrogen
+into the core,
+which had already
+burned half of its helium
+into ' C. For
+Fig. 27 they assume
+a ' C abundance
+of 14.3% by mass,
+density
+equal to 10 gcm, and an initial temperature
+of
+1.6&10 K, which
+is raised by the initial
+slow ' C burn-
+ing to an eventual
+maximum
+of 3.6&&10 K. The elec-
+trons
+in the core are initially
+degenerate,
+but the rise in
+temperature
+lifts
+the
+degeneracy,
+producing
+a thermal
+runaway
+with
+expansion
+and
+subsequent
+cooling of the
+core. This event is the second helium-flash
+episode in the
+history of the core and, if it occurs, only a small amount
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fooler:
+Nuclear astrophysics
+of the r-process
+material
+produced
+need escape into the
+interstellar
+medium
+to contribute
+the r-process abundance
+in solar system material.
+It is my belief that a realistic as-
+trophysical
+site for the thermal
+runaway,
+perhaps
+with
+different
+initial conditions
+will be found.
+I rest the case.
+XII. NUCLEOCOSMOCHRONOLOGY
+Armed
+with
+their
+r-process
+calculations
+of the abun-
+dances of the long-lived
+parent of the natural
+radioactive
+series
+Th,
+U, and
+U and with the then current
+so-
+lar system
+abundances
+of these nuclei, B FH (1957) were
+able to determine
+the duration
+of r-process
+nucleosyn-
+thesis from its beginning
+in the first stars in the Galaxy
+up to the last events before the formation of the solar sys-
+tem.
+The general
+idea was originally
+suggested
+by Ruth-
+erford (1929). B FH (1957) made a major advance in tak-
+ing into account the contributions
+to the abundance
+of the
+long-lived
+eon glasses from the decay of their short-lived
+progenitors
+also produced
+in the r process.
+The parents
+of the natural
+radioactive
+series are indeed
+excellent
+eon
+glasses with their mean lifetimes:
+Th, 20.0&10 years;
+U, 6.51~10 years;
+U, 1.03)&10 years.
+The analogy
+with hour glasses is fairly good; the sand in the top of the
+hour glass is the radioactive
+parent,
+that in the bottom
+is
+the daughter.
+The analogy
+fails in that in the eon glasses
+"sand" (Th,U) is being added or removed,
+top and bottom
+by
+nucleosynthesis
+(production
+in
+stars)
+and
+astration
+(destruction
+in
+stars).
+Properly
+expressed
+differential
+equations
+can compensate
+for this failure.
+The abundances
+used were those observed
+in meteorites
+assumed
+to be closed systems
+since their formation,
+taken
+to have occurred 4.55 billion
+years ago. It was necessary
+to correct for free decay during
+this period in order to ob-
+tain
+abundances
+for comparison
+with
+calculations
+based
+on r-process
+production
+plus decay over the duration
+of
+Galactic
+nucleosynthesis
+before
+the
+meteorites
+became
+closed
+systems.
+Fortunately
+ratios
+of
+abundances,
+Th/
+U and
+U/
+U, sufficed
+since absolute
+abun-
+dances could not, and still cannot,
+be calculated
+with the
+necessary
+precision.
+The calculations
+required
+only
+the
+elemental
+ratio Th/U
+in meteorites,
+since the isotopic ra-
+tio
+U/
+U was assumed
+to be the same for meteoritic
+and terrestrial
+samples.
+The Apollo
+Program
+has added
+lunar data to the meteoritic
+and terrestrial
+in recent years.
+B FH (1957) considered
+a number
+of possible
+models,
+one of which
+assumed
+r-process
+nucleosynthesis
+uniform
+in time and an arbitrary
+time interval
+between
+the last r-
+process
+contribution
+to the material
+of the solar nebula
+and the closure of the meteorite
+systems.
+A zero value for
+this time interval
+indicated
+that the production
+of urani-
+um started
+18 billion
+years ago.
+When this time interval
+was taken to be 0.5 billion
+years, the production
+started
+11.5 billion years ago. These values are in remarkable,
+if
+coincidental,
+concordance
+with current
+values.
+It is appropriate
+to point out at this point that nucleo-
+cosmochronology
+yields,
+with additional
+assumptions,
+an
+estimate for the age of the expanding
+universe
+completely
+independent
+of redshift-distance
+observations
+in astrono-
+my on distant
+galaxies.
+The assumptions
+referred
+to in
+the previous
+sentence
+are that the r process started
+soon,
+less than a billion years, after the formation of the Galaxy
+and that the Galaxy formed soon, less than a billion years,
+after the "big bang" origin of the universe.
+Adding
+a bil-
+lion years or so to the start of r-process
+nucleosynthesis
+yields
+an independent
+value,
+based
+on radioactivity,
+for
+the
+age or time
+back to the
+origin
+of the
+expanding
+universe.
+Much has transpired
+over the recent years in the field
+of nucleocosmochronology.
+I have kept my hand in most
+recently
+in Fowler
+(1977; also see Fowler,
+1972b). Ex-
+ponentia11y
+decreasing
+nuc1eosynthesis,
+with the time con-
+stant
+in the
+negative
+exponent
+a free parameter
+to be
+determined
+by the observed
+abundance
+ratios along with
+the duration of nucleosynthesis,
+was introduced
+by Fowler
+and Hoyle (1960). For the time constant
+in the denomina-
+tor of the exponent
+set equal to infinity,
+uniform
+synthesis
+results.
+When it is set equal to zero, a single spike of syn-
+thesis results.
+With two observed ratios, two free parame-
+ters in a model can be determined.
+As time went on the
+ratios
+' I/'
+I and
+Pu/
+U, with 7(' I)=0.023)&10
+years and 7(
+Pu)=0. 117)&10 years, were added to nu-
+cleocosmochronology
+to permit
+the determination
+of two
+additional
+free parameters,
+the arbitrary
+time interval
+of
+B FH (1957) previously
+discussed
+and the fraction of r
+process nucleosynthesis
+produced
+in a last gasp "spike" at
+the end of the exponential
+time dependence.
+Sophisticated
+models of Galactic evolution
+were intro-
+duced
+by
+Tinsley
+(1975).
+A
+method
+for
+model-
+independent
+determinations
+of the mean
+age of nuclear
+chronometers
+at the time of solar system
+formation
+was
+developed
+by Schramm
+and Wasserburg
+(1970). In this
+method
+the mean age is one-half the duration
+for uniform
+synthesis
+and is equal to the actual time of single-spike
+nucleosynthesis.
+This indicates
+that
+one can expect no
+more than a range of a factor of 2 in the time back to the
+beginning
+of nucleosynthesis
+in widely
+different
+models
+for its time variation.
+These developments
+are reviewed
+in Schramm
+(1982).
+The most recent calculations
+are those of Thielemann,
+Metzinger,
+and Klapdor (1983). Their results,
+revised by
+his
+own
+recent
+calculations,
+are
+shown
+in
+Fig.
+28,
+prepared
+by F.-K. Thielemann.
+The presolar spike and its
+time of occurrence
+before the meteorites
+became
+closed
+systems
+depend
+primarily
+on the minute
+glasses,
+' I and
+Pu.
+The eon glasses,
+Th/
+U and
+U/
+U, indi-
+cate that
+r-process
+nucleosynthesis
+in the Galaxy started
+17.9 billion
+years
+ago with
+uncertainties
+of + 2 billion
+years
+and —4 billion
+years
+according
+to Thielemann
+et al. (1983). This value is to be compared
+with my value
+of 10.5+2.3 billion
+years ago given in Fowler (1977). In-
+puts
+of production
+and
+final
+abundance
+ratios
+have
+changed
+(Thielemann
+et al. , 1983)! Thielemann
+and I are
+now recomputing
+the new value for the duration
+using an
+initial
+spike in Galactic synthesis
+plus uniform
+synthesis
+thereafter.
+Thielemann
+et al. indicate
+that the age of the expand-
+ing universe
+is 19 billion years, give or take several billion
+Rev. Mod. Phys. , Vol. 56, No. 2, Part
+I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+I.Q
+2M,Th
+1.59
+R38U~
+I.24+
+0.0
+I
+PRE- SOLAR SPIKE
+5.75
+LLI
+—I.O
+C)
+CQ
+-2.0
+D
+2380
+THIELEMANN
+I985
+5 7.26
+x IQ-&
+TIME (IO' YEARS)
+l5
+lo
+NUCLEOSYNTHESIS
+IN
+GALAXY
+-3.020
+I7.9
+5
+0
+=,= FREE
+DECAY
+GALAXY
+SOLAR
+PRESENT
+SYSTEM
+FIG.
+28.
+The
+abundance
+ratios
+for
+32Th/
+U
+and
+for
+U/
+U
+produced
+by
+theoretical
+r-process
+nucleosynthesis
+over the lifetime of the Csalaxy prior to the formation
+of the so-
+lar system,
+from Thielemann,
+Metzinger,
+and Klapdor
+(1983).
+The free decays over the lifetime of the solar system
+to reach
+the
+present
+values
+for
+these
+ratios,
+( ' Th/
+U)0—
+—3.75 and
+(
+U/
+U)0—
+—7.26&10, are also shown.
+The production
+ra-
+tios in each
+r-process
+event
+was theoretically
+calculated
+to be
+1.39 for
+Th/
+U and 1.24 for
+U/
+U. Compare
+with Fig.
+10 in Fowler (1977).
+years.
+This to be compared to the Hubble time or recipro-
+cal of Hubble's
+constant
+given by Sandage and Tammann
+(1982) as 19.5+3 billion years.
+However,
+the Hubble time
+is equal to the age of the expanding
+universe
+only for a
+completely
+open universe
+with mean matter
+density
+much
+less than the critical density for closure, which can be cal-
+culated
+from the value for the Hubble
+time just given to
+be 5&10
+gcm
+.
+The
+observed
+visible
+matter
+in
+galaxies
+is estimated
+to be ten
+percent
+of this,
+which
+reduces
+the age of the universe
+to 16.5 billion
+years.
+In-
+visible matter, neutrinos,
+black holes, etc., may add to the
+gravitational
+forces which decrease the velocity of expan-
+sion and may thus decrease the age to that corresponding
+to critical density,
+which
+is 13.0 billion years. If the ex-
+pansion
+velocity
+was greater
+in the past, the time to the
+present
+radius
+of the
+universe
+is correspondingly
+less.
+Moreover, there are those who obtain results for the Hub-
+ble time
+equal
+to about
+one-half
+that of Sandage
+and
+Tarnmann
+(1982), as reviewed
+in van
+den Bergh (1982).
+There is much to be done on all fronts!
+A completely
+independent
+nuclear
+chronology
+involv-
+ing the radiogenic
+Os produced
+during
+Galactic
+nu-
+cleosynthesis
+by the decay of '
+Re (r=65&(10
+years)
+was
+suggested
+by
+Clayton
+(1964).
+Schramm
+(1982)
+discusses still other chronometric
+pairs.
+Clayton's
+sugges-
+tion involves
+the s process, even though
+the ' Re is pro-
+duced in the r process.
+It requires
+that the abundance
+of
+Re, the parent,
+be compared
+to that of its daughter,
+Os, when
+the s-only
+production
+of this daughter
+nu-
+cleus is subtracted
+from its total solar system
+abundance.
+This was to be done by comparing
+the neutron
+capture
+cross section of '
+Os with that of its neighboring
+s-only
+isotope '
+Os, which
+does not have a long-lived
+radioac-
+tive parent,
+and using
+the Xo =const rule for the s pro-
+cess.
+Fowler (1972a) threw a monkey
+wrench
+into the works
+by pointing
+out that '
+Os has a low-lying
+excited state at
+9.75 keV which
+is practically
+fully
+populated
+at kt=30
+keV, corresponding
+to the temperature
+T=3.5&10 K,
+at which
+the s process is customarily
+assumed
+to occur.
+Moreover,
+with spin J= —, this state has twice the statisti-
+cal weight (2J+1) of the ground
+state with
+spin J= —,'.
+Measurements
+of the ground-state
+neutron
+capture
+cross
+section yield only one-third of what one needs to know.
+All of this has led to a series of beautiful
+and difficult
+measurements
+for neutron-induced
+reactions
+on the iso-
+topes of osmium.
+Winters
+and Macklin
+(1982) found the
+Maxwell-Boltzmann
+average
+ground-state
+(laboratory)
+cross-section
+ratio
+for
+'
+Os(n, y)
+relative
+to
+that
+for
+Os(n, y) to be 0.478+0.022 at kT= 30 keV, with a slow
+dependence
+on temperature.
+This ratio must
+be multi-
+plied by a theoretical
+factor to correct the '
+Os cross sec-
+tion in the denominator
+of the cross-section
+ratio for that
+of its
+excited
+state.
+The
+larger
+the
+theoretical
+'
+Os
+excited-state
+capture,
+the
+smaller
+this factor.
+%'oosley
+and Fowler (1979) used Hauser-Feshbach
+theory to give
+an estimate for this factor in the range 0.8—1.10, which is
+little comfort
+in view of the fact that it multiplies
+one
+number
+comparable
+to the number
+from which it must be
+subtracted.
+These factors translated
+into a time for the
+beginning
+of the r process
+in the Galaxy
+in the range
+14—19 billion years.
+In desperation
+I suggested
+privately
+that
+inelastic
+neutron
+scattering
+off the ground
+state of
+Qs to its excited state at 9.75 keV might
+yield informa-
+tion on the properties
+of the excited state.
+Measurements
+by Macklin
+et al. (1983) and
+Hershberger
+et al. (1983)
+determined
+these
+inelastic
+neutron
+scattering
+cross sec-
+tions, which
+yielded
+inherent
+support
+of the lower value
+of the
+Woosley
+and
+Fowler
+(1979) factor
+and
+thus
+a
+greater
+value
+for the time back to the beginning
+of r-
+process nucleosynthesis
+on the 18-to-20 billion-year
+range.
+It has to be admitted
+that
+this is concordant
+with
+the
+latest value from the Th/U nucleocosmochronology.
+Once again
+in desperation
+I privately
+suggested
+that
+measurement
+of the neutron
+capture
+cross section on the
+ground
+state of '
+Os might
+be helpful.
+In '
+Os the
+ground
+state has the same spin and Nilsson
+numbers
+as
+the excited state of '
+Os and an excited state correspond-
+ing
+to the
+ground
+state
+of
+187os.
+Measurements
+by
+Browne and Berman (1981) are available
+but are now be-
+ing checked by an Oak Ridge National
+Laboratory,
+Den-
+ison University,
+and University
+of Kentucky
+consortium.
+It will be clear that the lifetime of ' Re comes directly
+into
+the calculations
+under
+discussion.
+There has been
+some discrepancy
+in the past between
+lifetimes
+measured
+geochemically
+and
+those
+measured
+directly
+by counting
+the
+electrons
+emitted
+in
+the
+2.6-keV
+decay
+Re(e
+U) '
+Os.
+Direct
+measurement
+yields
+only
+the
+lifetime
+for electron
+emission
+to the continuum,
+while
+geochemistry
+yields
+the
+lifetime
+for
+electron
+emission
+both to the continuum
+and to bound states in '
+Os. The
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+entire matter
+is treated
+in considerable
+theoretical
+detail
+by Williams,
+Fowler, and Koonin (1984), who found that
+the bound-state
+decay
+is negligible
+and that
+the direct
+measurements
+by Payne (1965) and Drever (1983), which
+agree with
+the geochemical
+measurements
+of Hirt et al.
+(1963),are correct.
+There
+is also the vexing
+problem
+of the possible
+de-
+crease in the effective lifetime of '
+Re in the Galactic en-
+vironment.
+The '
+Re included
+in the material of the in-
+terstellar
+medium
+which forms new stars is subject to de-
+struction
+by the s process (astration)
+as well as being pro-
+duced by the r process.
+This decreases the effective life-
+time of the '
+Re and all chronometric
+time based on the
+Re/Os
+chronology.
+This
+problem
+is discussed
+in
+ela-
+borate
+detail
+by Yokoi, Takahashi,
+and Arnould
+(1983).
+The time back to the beginning
+of r-process
+nucleosyn-
+thesis could be as low as 12 billion years. It is appropriate
+to end this last section before the concluding
+section with
+considerable
+uncertainty
+in nucleocosniochronology,
+indi-
+cating that, as in all Nuclear
+Astrophysics,
+there is much
+exciting experimental
+and theoretical
+work to be done for
+many years to come. Amen!
+XIII. CONCLUSION
+In spite of the past and current
+researches
+in experi-
+mental
+and theoretical
+Nuclear
+Astrophysics,
+illustrated
+in what I have just shown
+you, the ultiinate
+goal of the
+field has not been attained.
+Hoyle's
+grand concept of ele-
+rnent
+synthesis
+in the stars
+will not be truly
+established
+until
+we attain a deeper and more precise understanding
+of many nuclear processes operating
+in astrophysical
+envi-
+ronments.
+Hard work must continue
+on all aspects of the
+cycle:
+experiment,
+theory,
+observation.
+It is not just a
+matter
+of filling
+in the details.
+There
+are puzzles
+and
+problems
+in each part of the cycle which
+challenge
+the
+basic ideas
+underlying
+nucleosynthesis
+in stars.
+Not to
+worry —
+that is what inakes the field active, exciting, and
+fun!
+It is a great source of satisfaction
+to me that
+the
+Kellogg Laboratory
+continues to play a leading role in ex-
+perimental
+and theoretical
+Nuclear Astrophysics.
+And now permit
+me to pass along one final thought
+in
+concluding
+my lecture.
+My major theme has been that all
+of the heavy elements,
+from carbon to uranium
+have been
+synthesized
+in stars.
+Let me remind
+you that your bodies
+consist for the most part of these heavy
+elements.
+Apart
+from
+hydrogen
+you are 65% oxygen
+and 18% carbon,
+with smaller percentages
+of nitrogen,
+sodium,
+magnesium,
+phosphorus,
+sulfur, chlorine, potassium,
+and traces of still
+heavier
+elements.
+Thus it is possible to say that you and
+your neighbor
+and I, each one of us and all of us, are truly
+and literally a little bit of stardust.
+Charles Christian
+Lauritsen
+taught
+me a Swedish toast.
+I conclude
+with
+this toast to my Swedish
+friends:
+"Din
+skal, min skal, alla uackra flickor skal. Skal. "
+ACKNOWLEDGMENTS
+My work
+in Nuclear
+Astrophysics
+has
+involved
+col-
+laborative
+teamwork
+with
+many
+people,
+and I am espe-
+cially grateful to Fay Ajzenberg-Selove,
+Jean Audouze, C.
+A. Barnes,
+E. M. Burbidge,
+G. R. Burbidge,
+G. R.
+Caughlan,
+R. F. Christy, D. D. Clayton, G. M. Fuller, J.
+L. Greenstein,
+Fred
+Hoyle,
+Jean
+Humblet,
+R. W. Ka-
+vanagh, S. E. Koonin, C. C. Lauritsen,
+Thomas Lauritsen,
+D. N. Schramm, T. A. Tombrello, R. V. Wagoner, G. J.
+Wasserburg,
+Ward
+Whaling,
+S. E. Woosley,
+and B. A.
+Zimmerman.
+For aid and
+helpful
+cooperation
+in all aspects of my
+scientific
+work,
+especially
+in the preparation
+of publica-
+tions, I am
+grateful
+to Evaline
+Gibbs, Jan Rasmussen,
+Kim Stapp, Marty
+Watson,
+and Elizabeth
+Wood. I ac-
+knowledge
+support
+for my research
+over the years by the
+Office of Naval
+Research (1946 to 1970) and by the¹
+tional Science Foundation
+(1968 to present).
+REFERENCES
+Ajzenberg-Selove,
+F., R. E. Brown, E. R. Flynn,
+and J. W.
+Sunier, 1984, Phys. Rev. Lett. (in press).
+Allen, B. J., R. L. Macklin,
+and J. H. Gibbons,
+1971, Adv.
+Nucl. Phys. 4, 205.
+Almeida, J., and F. Kappeler,
+1983, Astrophys. J. 265, 417.
+Alpher, R. A., and R. C. Herman,
+1950, Rev. Mod. Phys.
+22,
+153.
+Alvarez, L. W., 1949, University
+of California
+Radiation
+Labo-
+ratory Report UCRL-328.
+Arnett,
+W. D., and F.-K. Thielemann,
+1984, in Stellar¹
+cleosynthesis,
+edited by C. Chiosi and A. Renzini (Reidel, Dor-
+drecht).
+Arnould,
+M., H. Ngrgaard,
+F.-K. Thielemann,
+and W. Hille-
+brandt,
+1980, Astrophys. J. 237, 931.
+Audouze, J., and H. Reeves, 1982, in Essays in Nuclear
+Astro-
+physics,
+edited
+by C. A. Barnes, D. D. Clayton,
+and D. N.
+Schramm
+(Cambridge
+University,
+Cambridge),
+p. 355.
+Audouze, J., and S. Vauclair,
+1980, An Introduction
+to Nuclear
+Astrophysics
+(Reidel, Dordrecht), p. 92.
+Axelrod, T. S., 1980, "Late Time Optical Spectra from the ' Ni
+Model for Type I Supernovae, " Ph.D. thesis
+{University
+of
+California,
+Berkeley), UCRL-52994.
+Bahcall, J. N., W. F. Huebner,
+S. H. Lubow, P. D. Parker, and
+R. K. Ulrich, 1982, Rev. Mod. Phys.
+54, 767.
+Bahcall, N. A., and W. A. Fowler,
+1969, Astrophys. J. 157,
+645.
+Barnes, C. A., 1982, in Essays in Nuclear Astrophysics,
+edited by
+C. A. Barnes, D. D. Clayton,
+and D. N. Schramm
+(Cambridge
+University,
+Cambridge),
+p. 193.
+Becker, R. A., and W. A. Fowler, 1959, Phys. Rev. 115, 1410.
+Becker, R. H., S. S. Holt, B. W. Smith, N. E. White, E. A.
+Boldt, R. F. Mushotsky,
+and P. J. Serlemitsos,
+1979, Astro-
+phys. J. Lett. 234, L73.
+Seeker, S. A., 1983, private communication.
+Bethe, H. A., 1939, Phys. Rev. 55, 434.
+Bethe, H. A., 1967, in I.es Prix Nobel 1967 (Almqvist
+and Wik-
+sells, Stockholm).
+Bethe, H. A., G. E. Brown, J. Cooperstein,
+and J. R. Wilson,
+1983, Nucl. Phys. A 403, 625.
+Bethe, H. A., and C. L. Critchfield,
+1938, Phys. Rev-. 54, 248.
+Bethe, H. A., A. Yahil, and G. E. Brown, 1982, Astrophys. J.
+Lett. 262, L7.
+Blake, J. B., and D. N. Schramm,
+1976, Astrophys. J. 209, 846.
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+NucIear astrophysics
+Bloom, S. D., and G. M. Fuller, 1984, Lawrence Livermore
+Na-
+tional Laboratory,
+in preparation.
+Bodansky, D., D. D. Clayton,
+and W. A. Fowler, 1968, Astro-
+phys. J. Suppl. 16, 299.
+Boyd, R. N. , 1981, in Proceedings of the Workshop
+on Radioac
+tiue Ion Beams and Small Cross Section Measurements
+(Ohio
+State University,
+Columbus).
+Branch,
+D.,
+1984,
+in
+Proceedings
+of Yerkes
+Observatory
+Conference
+on "Challenges
+and
+New
+Developments
+in Nu-
+cleosynthesis, " edited by W. D. Arnett
+(University
+of Chicago,
+Chicago).
+Branch, D., C. H. Lacy, M. L. McCall, P. G. Sutherland,
+A.
+Uomoto, J. C. Wheeler,
+and B. J. Wills, 1983, Astrophys. J.
+270, 123.
+Brown, G. E., H. A. Bethe, and G. Baym, 1982, Nucl. Phys. A
+375, 481.
+Browne, J. C., and B.L. Herman,
+1981,Phys. Rev. C 23, 1434.
+Buchmann,
+L., M. Hilgemaier,
+A. Krauss, A. Redder, C. Rolfs,
+and H. P. Trautvetter,
+1984, Z. Phys. (in press).
+Burbidge, E. M., G. R. Burbidge, W. A. Fowler, and F. Hoyle,
+1957, Rev. Mod. Phys.
+29, 547.
+Burnett, D. S., M. I. Stapanian,
+and J. H. Jones, 1982, in Essays
+in Nuclear
+Astrophysics,
+edited
+by C. A. Barnes, D. D. Clay-
+ton, and D. N. Schramm
+(Cambridge
+University,
+Cambridge),
+p. 144.
+Cameron, A. G. W., 1957, Publ. Astron. Soc. Pac. 69, 201.
+Cameron, A. G. W., 1958, Annu. Rev. Nucl. Sci. 8, 249.
+Cameron,
+A. G. W., 1982, in Essays in Nuclear
+Astrophysics,
+edited
+by C. A. Barnes, D. D. Clayton,
+and D. N. Schramm
+(Cambridge
+University,
+Cambridge),
+p. 23.
+Cameron,
+A. G. W., J. J. Cowen,
+and J. W. Truran,
+1984, in
+Proceedings
+of Yerkes Observatory
+Conference
+on "Challenges
+and New Developments
+in Nucleosynthesis, " edited by W. D.
+Arnett (University
+of Chicago, Chicago).
+Canizares,
+C. R., and P. F. Winkler,
+1981, Astrophys. J. 2W,
+L33.
+Caughlan,
+G. R., W. A. Fowler, M. J. Harris,
+and B. A. Zim-
+merman,
+1984, At. Data Nucl. Data Tables (in press).
+Champagne,
+A. E., A. J. Howard,
+and P. D. Parker,
+1983, As-
+trophys. J. 269, 686.
+Chandrasekhar,
+S., 1939, Stellar Structure
+(University
+of Chi-
+cago, Chicago).
+Chen, J. H., and G. J. Wasserburg,
+1981, Earth
+Planet. Sci.
+Lett. 52, 1.
+Chevalier, R. A., and R. P. Kirshner,
+1979, Astrophys. J. 233,
+154.
+Chevalier, D. D., 1964, Astrophys. J. 139, 637.
+Clayton, D. D., 1975, Astrophys. J. 199, 765.
+Clayton, D. D., 1979, Space Sci. Rev. 24, 147.
+Clayton, D. D., 1983, Astrophys. J. 268, 381.
+Clayton, D. D., 1984, Astrophys. J. (in press).
+Clayton,
+D. D., and F. Hoyle,
+1974, Astrophys.
+J. Lett. 1&7,
+L101.
+Clayton, D. D., and F. Hoyle, 1976, Astrophys. J. 203, 490.
+Clayton, D. D., and R. A. Ward, 1974, Astrophys. J. 193, 397.
+Cook, C. W., W. A. Fowler, C. C. Lauritsen,
+and T. Lauritsen,
+1957, Phys. Rev. 107, 508.
+Davis, R., Jr., B. T. Cleveland,
+and J. K. Rowley,
+in Science
+Underground,
+AIP Conference
+Proceedings
+No. 96, edited
+by
+M. M. Nieto, W. C. Haxton, C. M. Hoffman, E. W. Kolb, V.
+D. Sandberg,
+and J. W. Toevs (American
+Institute of Physics,
+New York), p. 2.
+Drever, R. W. P., 1983, private communication.
+Dunbar, D. N. F., R. E. Pixley, W. A. Wenzel,
+and %. Whal-
+ing, 1953, Phys. Rev. 92, 64.
+Dyer, P., and C. A. Barnes, 1974, Nucl. Phys. A 233, 495.
+Fowler, W. A., 1958, Astrophys. J. 127, 551.
+Fowler, W. A., 1964, Proc. Natl. Acad. Sci. USA 52, 524.
+Fowler,
+W. A., 1967, nuclear
+Astrophysics
+(American
+Philo-
+sophical Society, Philadelphia).
+Fowler, W. A., 1972a, Bull. Am. Astron. Soc. 4, 412.
+Fowler, W. A., 1972b, in Cosmology, Iusion and Other Matters,
+edited
+by F. Reines
+(Colorado
+Associated
+University
+Press,
+Boulder), p. 67.
+Fowler, W. A., 1977, in Proceedings
+of the
+Welch Foundation
+Conferences
+on
+Chemica/
+Research,
+XXI,
+Cosmochemistry,
+edited by W. D. Milligan
+(Robert A. Welch Foundation,
+Hous-
+ton), p. 61.
+Fowler, W. A., G. R. Caughlan,
+and B. A. Zimmerman,
+1967,
+Annu. Rev. Astron. Astrophys.
+5, 525.
+Fowler, W'. A., G. R. Caughlan,
+and B. A. Zimmerman,
+1975,
+Annu. Rev. Astron. Astrophys.
+13, 69.
+Fowler, W. A., J. L. Greenstein,
+and F. Hoyle, 1962, Geophys.
+J. 6, 148.
+Fowler, W. A., and F. Hoyle, 1960, Ann. Phys. 10, 280.
+Fowler, W. A., and F. Hoyle, 1964, Astrophys. J. Suppl. 9, 201.
+Fuller, G. M., 1982, Astrophys. J. 252, 741.
+Fuller, G. M., W. A. Fowler, and M. J. Newman,
+1980, Astro-
+phys. J. Suppl. 42, 447.
+Fuller, G. M., W. A. Fowler, and M. J. Newman,
+1982a, Astro-
+phys. J. 252, 715.
+Fuller, G. M., W. A. Fowler, and M. J. Newman,
+1982b, Astro-
+phys. J. Suppl. 48, 279.
+Fuller, G. M., 'W. A. Fowler, and M. J. Newman,
+1984, Califor-
+nia Institute of Technology,
+in preparation.
+Goodman,
+C. D., C. A. Goulding,
+M. B. Greenfield, J. Rapa-
+port, D. E. Bainum, C. C. Foster, W. G. Love, and F. Petro-
+vich, 1980, Phys. Rev. Lett. 44, 1755.
+Greenstein,
+J. L., 1954, in Modern
+Physics for the Engineer,
+edited
+by L. N. Ridenour
+(McGraw-Hill,
+New York), Chap.
+10.
+Greenstein, J. L., 1982, in Essays in nuclear Astrophysics,
+edited
+by C. A. Barnes, D. D. Clayton,
+and D. N. Schramm
+(Cam-
+bridge University,
+Cambridge),
+p. 45.
+Haight, R. C., G. J. Mathews, R. M. White, L. A. Aviles, and
+S. E. Woodward,
+1983, Nucl. Instrum.
+Methods 212, 245.
+Harris, M. J., W. A. Fowler, G. R. Caughlan,
+and B. A. Zim-
+merman,
+1983, Annu. Rev. Astron. Astrophys. 21, 165.
+Hauser, W., and H. Feshbach,
+1952, Phys. Rev. 78, 366.
+Hemmindinger,
+A., 1948, Phys. Rev. 73, 806.
+Hemmindinger,
+A., 1949, Phys. Rev. 74, 1267.
+Hershberger,
+R. L., R. L. Macklin,
+M. Balakrishnan,
+N. W.
+Hill, and M. T. McEllistrem,
+1983, Phys. Rev. C 28, 2249.
+Hirt, B., G. R. Tilton, W. Herr, and W. Hoffmeister,
+1963, in
+Earth
+Sciences and Meteorites,
+edited
+by J. Geiss and E. D.
+Goldberg
+(North-Holland,
+Amsterdam).
+Holmes, J. A., S.E. Woosley, W. A. Fowler, and B.A. Zimmer-
+man, 1976, At. Data Nucl. Data Tables 1&, 305.
+Hoyle, F., 1946, Mon. Not. R. Astron. Soc. 106, 343.
+Hoyle, F., 1954, Astrophys.
+J. Suppl.
+1, 121. See also Chan-
+drasekhar,
+1939,for a discussion of earlier ideas.
+Hoyle, F., and W. A. Fowler, 1960, Astrophys. J. 132, 565.
+Hoyle, F., W. A. Fowler, E. M. Burbidge,
+and G. R. Burbidge,
+1956, Science 124, 611.
+Hoyle, F., and M. Schwarzschild,
+1955, Astrophys. J. Suppl. 2,
+1.
+Huck, A., G. Klotz, A. Knipper,
+C. Miehe, C. Richard-Serre,
+and G. Walter, 1981,CERN 81-09, 378.
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+Hulke, G., C. Rolfs, and H. P. Trautvetter,
+1980, Z. Phys. A
+297, 161.
+Iben, I., 1975, Astrophys. J. 196, 525.
+Jeffery, P. M., and J. H. Reynolds,
+1961, J. Geophys. Res. 66,
+3582.
+Kettner, K. U., H. W. Becker, L. Buchmann,
+J. Gorres, H.
+Krawinkel,
+C. Rolfs, P. Schmalbrock,
+H. P. Trautvetter,
+and
+A. Vlieks, 1982, Z. Phys. A 308, 73.
+Kirshner, R. P., and J. B.Oke, 1975, Astrophys. J. 200, 574.
+Koonin, S. E., T. A. Tombrello,
+and G. Fox, 1974, Nucl. Phys.
+A 220, 221.
+Langanke, K., and S. E. Koonin, 1983, Nucl. Phys. A 410, 334,
+and private communication.
+Lederer, C. M., and V. S. Shirley,
+1978, Eds. , Table ofIsotopes:
+Seuenth Edition (Wiley, New York).
+Lee, Typhoon,
+1978, Astrophys. J. 224, 217.
+Lee, Typhoon,
+D. A. Papanastassiou,
+and G. J. Wasserburg,
+1977, Astrophys. J. Lett. 211, L107.
+Macklin, R. L., and J. H. Gibbons,
+1965, Rev. Mod. Phys. 37,
+166.
+Macklin, R. L., R. R. Winters,
+N. W. Hill, and J. A. Harvey,
+1983, Astrophys. J. 274, 408.
+Mahoney,
+W. A., J. C. Ling,
+A. S. Jacobson,
+and R. E.
+Lingenfelter,
+1982, Astrophys. J. 262, 742.
+Mahoney,
+W. A., J. C. Ling, W. A. Wheaton,
+and A. S. Jacob-
+son, 1984, Astrophys. J. (in press).
+Mann, F. M., 1976, Hanford
+Engineering
+and
+Development
+Laboratory
+internal
+report HEDL- TME-7680.
+Merrill, P. W., 1952, Science 115,484.
+Michaud, G., and W. A. Fowler, 1970, Phys. Rev. C 2, 2041.
+Mitchell, L. W., and D. G. Sargood, 1983, Aust. J. Phys. 36, 1.
+Niederer, F. R., D. A. Papanastassiou,
+and G. J. Wasserburg,
+1979, Astrophys. J. Lett. 228, L93.
+Nomoto, K., 1982a, Astrophys. J. 253, 798.
+Nomoto, K., 1982b, Astrophys. J. 257, 780.
+Nomoto,
+K., 1984, in Stellar
+Nucleosynthesis,
+edited
+by C.
+Chiosi and A. Renzini (Reidel, Dordrecht).
+Nomoto, K., F.-K. Thielemann,
+and J. C. Wheeler,
+1984, Astro-
+phys. J. {in press).
+Osborne, J. L., C. A. Barnes, R. W. Kavanagh,
+R. M. Kremer,
+G. J. Mathews,
+and J. L. Zyskind,
+1982, Phys. Rev. Lett. 48,
+1664.
+Payne, J. A., 1965, "An Investigation
+of the Beta Decay of
+Rhenium
+to Osmium
+Using
+High
+Temperature
+Proportional
+Counters, "Ph.D. thesis (University
+of Glasgow).
+Pontecorvo, B., 1946, Chalk River Laboratory
+Report PD-20S.
+Reynolds, J. H., 1960, Phys. Rev. Lett. 4, 8.
+Robertson, R. G. H., P. Dyer, T. J. Bowles, Ronald E. Brown,
+Nelson Jarmie, C. J. Maggiore,
+and S. M. Austin,
+1983, Phys.
+Rev. C 27, 11.
+Rutherford,
+E., 1929, Nature
+123, 313.
+Salpeter, E. E., 1952a, Astrophys. J. 115, 326.
+Salpeter, E. E., 1952b, Phys. Rev. 88, 547.
+Salpeter, E. E., 1955, Phys. Rev. 97, 1237.
+Sandage, A. R., and M. Schwarzschild,
+19S2, Astrophys. J. 116,
+463.
+Sandage,
+A., and G. A. Tammann,
+1982, Astrophys.
+'J. 256,
+339.
+Sandier, D G., S. E. Koonin,
+and W. A. Fowler,
+1982, Astro-
+phys. J. 259, 908.
+Sargood, D. G., 1982, Phys. Rep. 93, 61.
+Sargood, D. G., 1983, Aust. J. Phys. 36, 583.
+Schramm, D. N., 1982, in Essays in Nuclear Astrophysics,
+edited
+by C. A. Barnes, D. D. Clayton,
+and D. N. Schramm
+(Cam-
+bridge University,
+Cambridge),
+p. 325.
+Schramm,
+D. N., and G. J. Wasserburg,
+1970, Astrophys. J.
+163, 75.
+Seeger, P. A., W. A. Fowler, and D. D. Clayton,
+1965, Astro-
+phys. J. Suppl. 11, 121.
+Shull, J. M., 1982, Astrophys. J. 262, 308.
+Shull, J. M., 1983, private communication.
+Skelton, R. T., and R. W. Kavanagh,
+1984, Nucl. Phys. A (in
+press).
+Skelton, R. T., R. W. Kavanagh,
+and D. G. Sargood, 1983, As-
+trophys. J. 271, 404.
+Spinka, H., and H. Winkler,
+1972, Astrophys. J. 174, 455.
+Starrfield, S. G., A. N, Cox, S. W. Hodson,
+and W. D. Pesnell,
+1983, Astrophys. J. 268, L27.
+Staub, H., and W. E. Stephens,
+1939, Phys. Rev. 55, 131.
+Suess, H. E., and H. C. Urey, 1956, Rev. Mod. Phys. 28, 53.
+Thielemann,
+F.-K., J. Metzinger,
+and H. V. Klapdor,
+1983, Z.
+Phys. A 309, 301, and private communication.
+Thiemens,
+M. H., and J. E. Heidenreich,
+1983, Science 219,
+1073.
+Tinsely, B.M., 1975, Astrophys. J. 198, 145.
+Tollestrup,
+A. V., W. A. Fowler,
+and C. C. Lauritsen,
+1949,
+Phys. Rev. 76, 428.
+Truran, J. W., 1982, in Essays in Nuclear Astrophysics,
+edited by
+C. A. Barnes, D. D. Clayton,
+and D. N. Schramm
+(Cambridge
+University,
+Cambridge),
+p. 467.
+Truran, J. W., 1983, in The Neutron
+and its Applications,
+1982,
+Institute
+of Physics
+Conference
+Series No. 64, edited
+by P.
+Schofield (Institute of Physics, Bristol/London),
+p. 95.
+Ulrich, R. K. 1973, in Explosiue
+Nucleosynthesis,
+edited by D.
+N. Schramm
+and W. D. Arnett
+(University
+of Texas, Austin),
+p. 139.
+van den Bergh, S., 1982, Nature 229, 297.
+Vogt, E. W., 1969, Adv. Nucl. Phys. 1, 261.
+W'agoner, R. V., W. A. Fowler, and F. Hoyle; 1967, Astrophys.
+J. 148, 3.
+W'ard, R. A., and W. A. Fowler, 1980, Astrophys. J. 238, 266.
+Wasserburg,
+G. J., W. A. Fowler,
+and F. Hoyle,
+1960, Phys.
+Rev. Lett. 4, 112.
+Wasserburg,
+G. J., and D. A. Papanastassiou,
+1982, in Essays in
+Nuclear
+Astrophysics,
+edited by C. A. Barnes, D. D. Clayton,
+and D. N. Schramm
+{Cambridge
+University,
+Cambridge),
+p.
+77.
+Weaver,
+T. A., S. E. Woosley,
+and G. M. Fuller,
+1983, in
+Proceedings of the Conference
+on Numerical
+Astrophysics,
+edit-
+ed by R. Bowers, J. Centrella, J. LeBlanc, and M. LeBlanc
+(Science Books International,
+Boston).
+Whaling,
+W., 1982, in Essays in Nuclear Astrophysics,
+edited by
+C. A, Barnes, D. D. Clayton,
+and D. N. Schramm
+(Cambridge
+University,
+Cambridge),
+p. 65.
+Wheeler, J. C., 1981,Rep. Prog. Phys. 44, 85.
+Williams, J. H., W. G. Shepherd,
+and R. O. Haxby, 1937, Phys.
+Rev. 52, 390.
+Williams, R. D., W. A. Fowler, and S. E. Koonin, 1984, Astro-
+phys. J. (in press).
+Wilson, H. S., R. W. Kavanagh,
+and F. M. Mann,
+1980, Phys.
+Rev. C 22, 1696.
+Winters, R. R., and R. L. Macklin, 1982, Phys. Rev. C 25, 208.
+Woosley, S. E., T. S. Axelrod,
+and T. A. Weaver, 1984, in Stel-
+lar
+Nucleosynthesis,
+edited
+by
+C. Chiosi
+and
+A. Renzini
+(Reidel, Dordrecht).
+Woosley, S. E., and W. A. Fowler, 1979, Astrophys. J. 233, 411.
+Woosley, S. E., W. A. Fowler, J. A. Holmes, and B.A. Zimmer-
+man, 1978, At. Data Nucl. Data Tables 22, 371.
+Rev. Mod. Phys. , Vol. 56, No. 2, Part I, April 1984
+
+
+=== PAGE BREAK ===
+
+William
+A. Fowler:
+Nuclear astrophysics
+Woosley, S. E., and T. A. Weaver,
+1982, in Essays in 2Vuckar
+Astrophysics,
+edited by C. A. Barnes, D. D. Clayton, and D. N.
+Schramm
+(Cambridge
+University,
+Cambridge),
+p. 381.
+Wu, S.-C., 1978, "Fusion Cross Section Measurements
+for the
+Reactions
+' N+ ' B and ' 0+ ' 0," Ph.D. thesis
+(California
+Institute of Technology).
+Yokoi, K., K. Takahashi,
+and M. Arnould,
+1983, Astron.
+As-
+trophys.
+117, 65.
+Zyskind, J. L., C. A. Barnes, J. M. Davidson,
+%'. A. Foozler, R.
+E. Marrs, and M. H. Shapiro,
+1980, Nucl. Phys. A 343, 295.
+Zyskind, J. L., J. M. Davidson,
+M. T. Esat, M. H. Shapiro, and
+R. H. Spear, 1978, Nuc). Phys. A 301, 179.
+Rev. Mod. Phjs., Vol. 56, No. 2, Part l, Aprif 1984
+
+
+=== PAGE BREAK ===
+
