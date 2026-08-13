@@ -220,9 +220,8 @@ def build(include_papers=False, out=None):
         html   = convert_doc(path, doc_id)
         # Dedup headings within this single file
         html, tocs = _deduplicate_headings(html, doc_id)
-        b64    = base64.b64encode(html.encode("utf-8")).decode("ascii")
         docs.append({"id": doc_id, "slug": doc_id, "title": title,
-                     "category": "背景知识", "b64": b64})
+                     "category": "背景知识", "html": html})
         for t in tocs:
             t["parent_id"] = doc_id
             all_toc.append(t)
@@ -259,10 +258,9 @@ def build(include_papers=False, out=None):
                 # Dedup headings across all combined fragments (H1 fix)
                 paper_html, tocs = _deduplicate_headings(paper_html, paper_slug)
 
-                b64 = base64.b64encode(paper_html.encode("utf-8")).decode("ascii")
                 docs.append({"id": paper_slug, "slug": paper_slug,
                              "title": f"论文 · {title}",
-                             "category": cat_label, "b64": b64})
+                             "category": cat_label, "html": paper_html})
 
                 for t in tocs:
                     t["parent_id"]   = paper_slug

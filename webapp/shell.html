@@ -317,13 +317,27 @@ function renderTabGroups() {
   });
 }
 
-// ── Build all doc sections ──────────────────────────────────────────────────
+// ── Build / lazy-load doc sections (E2: only current doc in DOM) ───────────
+const docCache = {};   // slug -> HTML string
+
 function buildDocs() {
+  const active = DOCS.find(d => d.slug === activeSlug) || DOCS[0];
   const container = document.getElementById("doc-container");
-  container.innerHTML = DOCS.map(d => {
-    const html = decodeBase64(d.b64 || d.body_b64);
-    return `<section class="doc-section" data-slug="${d.slug}">${html}</section>`;
-  }).join("");
+  container.innerHTML = `<section class="doc-section" data-slug="${active.slug}">${active.html}</section>`;
+  // Pre-cache all other docs in memory (E2: fast subsequent switches)
+  DOCS.forEach(d => { if (d.slug !== active.slug && !(d.slug in docCache)) docCache[d.slug] = d.html; });
+}
+
+function ensureDoc(slug) {
+  // Ensure slug's section exists in DOM; load from cache or DOCS
+  if (document.querySelector(`section[data-slug="${slug}"]`)) return;
+  const html = docCache[slug] || (() => {
+    const d = DOCS.find(x => x.slug === slug);
+    return d ? d.html : "";
+  })();
+  const container = document.getElementById("doc-container");
+  container.insertAdjacentHTML("beforeend", `<section class="doc-section" data-slug="${slug}">${html}</section>`);
+  docCache[slug] = html;  // already in mem from buildDocs pre-cache
 }
 
 // ── TOC render ──────────────────────────────────────────────────────────────
@@ -392,6 +406,9 @@ function switchDoc(slug) {
   activeSlug = slug;
   safeLsSet(LS+"active", slug);
 
+  // E2: lazy-load this doc's section if not in DOM
+  ensureDoc(slug);
+
   // Update tab group buttons: show current doc title
   document.querySelectorAll(".tab-group-btn").forEach(b => {
     const isActive = b.dataset.grp === getDoc(slug).category;
@@ -403,7 +420,7 @@ function switchDoc(slug) {
     a.classList.toggle("active", a.dataset.slug === slug);
   });
 
-  // Show correct section
+  // Show correct section (all sections always in DOM via ensureDoc)
   document.querySelectorAll(".doc-section").forEach(s => {
     s.classList.toggle("active", s.dataset.slug === slug);
   });
@@ -422,12 +439,7 @@ function getDoc(slug) {
   return DOCS.find(d => d.slug === slug) || DOCS[0];
 }
 
-// ── Base64 decode ─────────────────────────────────────────────────────────
-function decodeBase64(s) {
-  return decodeURIComponent(
-    atob(s).split("").map(c => "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2)).join("")
-  );
-}
+// ── Escape HTML ────────────────────────────────────────────────────────────
 function escapeHtml(s) {
   return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
 }
