@@ -24,9 +24,22 @@ PAPER_INFO = {
 }
 
 
+def _clean_author(raw: str) -> str:
+    """Strip markdown bold, parenthetical notes, institution info, and all asterisks."""
+    s = raw.strip()
+    # Remove ALL asterisk runs (markdown bold remaining on individual names)
+    s = re.sub(r'\*+', '', s).strip()
+    # Remove (corresponding author) and similar notes
+    s = re.sub(r'\s*\(corresponding author\)', '', s, flags=re.IGNORECASE).strip()
+    # Remove trailing institution notes in Chinese or English parentheses
+    s = re.sub(r'\s*[\uff08(][^)\uff09]*[\uff09)]\s*$', '', s).strip()
+    return s
+
 def _fmt_authors(raw: str) -> str:
-    """Compact author list: keep full names, join last-two with ' &'."""
-    parts = [p.strip() for p in re.split(r",\s*", raw) if p.strip()]
+    """Compact author list: handle both comma and semicolon separators."""
+    s = _clean_author(raw)
+    # Split on comma OR semicolon (INDEX.md uses both)
+    parts = [p.strip() for p in re.split(r"[;,]\s*", s) if p.strip()]
     if not parts:
         return raw
     if len(parts) == 1:
@@ -115,13 +128,17 @@ def convert_doc(path: Path, doc_id: str = ""):
 def _deduplicate_headings(html_body: str, parent_id: str) -> tuple:
     """Ensure all heading ids in html_body are globally unique within this doc.
     Returns (deduped_html, list_of_toc_entries)."""
-    # Find all heading ids and their info
     heading_pattern = re.compile(r"<h([2-6])([^>]*)id=\"([^\"]+)\"([^>]*)>(.*?)</h", re.DOTALL)
     seen = {}   # id -> count for suffix
-    new_html = html_body
     toc_entries = []
 
-    for m in heading_pattern.finditer(html_body):
+    # Work on a list of (start, end, level, hid, raw_tag) to allow positional replace
+    matches = list(heading_pattern.finditer(html_body))
+    # Build deduped HTML via slices (avoids str.replace positional drift)
+    result = []
+    last_end = 0
+
+    for m in matches:
         level = int(m.group(1))
         hid   = m.group(3)
         raw   = re.sub(r"<[^>]+>", "", m.group(5)).strip()
@@ -130,19 +147,24 @@ def _deduplicate_headings(html_body: str, parent_id: str) -> tuple:
         # Deduplicate: append -1, -2, ... for repeats
         if hid in seen:
             seen[hid] += 1
-            new_hid = f"{hid}-{seen[hid]}"
-            # Patch the id attribute in the HTML
-            old_tag = m.group(0)
-            new_tag = old_tag.replace(f'id="{hid}"', f'id="{new_hid}"')
-            new_html = new_html.replace(old_tag, new_tag, 1)
-            hid = new_hid
+            hid = f"{hid}-{seen[hid]}"
         else:
             seen[hid] = 0
 
         toc_entries.append({"level": level, "id": hid, "title": title,
                            "parent_id": parent_id, "parent_label": ""})
 
-    return new_html, toc_entries
+        # Slice-based replacement at exact position (no str.replace drift)
+        tag_start = m.start()
+        tag_end   = m.end()
+        old_tag   = m.group(0)
+        new_tag = old_tag.replace(f'id="{m.group(3)}"', f'id="{hid}"')
+        result.append(html_body[last_end:tag_start])
+        result.append(new_tag)
+        last_end = tag_end
+
+    result.append(html_body[last_end:])
+    return "".join(result), toc_entries
 
 
 def build(include_papers=False, out=None):
