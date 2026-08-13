@@ -185,6 +185,25 @@ def main() -> int:
         check("附: registry ↔ PAPERS stem 一致", reg_stems == papers_stems,
               f"registry-only={reg_stems - papers_stems} papers-only={papers_stems - reg_stems}")
 
+    # ── P0-6 回归防护：citations 非空 + 图谱有效边 ─────────────────────
+    if papers is not None:
+        cit_empty = [p["stem"] for p in papers if not p.get("citations")]
+        check("附: citations 非空 21/21", not cit_empty,
+              f"缺 {len(cit_empty)}" + (f": {cit_empty[:5]}" if cit_empty else ""))
+        # citations 全部指向库内 stem（无库外 [[...]] 悬空）
+        papers_stems_all = {p["stem"] for p in papers}
+        dangling = sorted({c for p in papers for c in p.get("citations", [])
+                           if c not in papers_stems_all})
+        check("附: citations 无悬空(全库内指向)", not dangling,
+              f"悬空 {len(dangling)}" + (f": {dangling[:5]}" if dangling else ""))
+
+    # 图谱数据侧静态断言（渲染本身是运行时行为，由 headless 验证）：
+    # 数据满足"21 篇 × 平均 ≥1.43 条引用 = ≥30 边"即可支撑图谱
+    if papers is not None:
+        total_cits = sum(len(p.get("citations", [])) for p in papers)
+        check("附: 图谱数据 ≥30 条引用", total_cits >= 30,
+              f"citations 总 {total_cits} 条（渲染由 headless 运行验证）")
+
     print()
     if FAILED:
         print(f"审计结果: {len(FAILED)} 项失败 — {', '.join(FAILED)}")

@@ -14,7 +14,9 @@ tags:
 - nucleosynthesis
 - hot CNO cycles
 - rp-process
-citations: []
+citations:
+- 0010_gies-lambert-1992
+- 0003_fowler-1984
 path: 03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview.md
 ---
 # 00. 文献概览 (Overview)
@@ -171,4 +173,3 @@ LITERATURE CITED (p.74-76, 123 references)
 
 - [`0010_gies-lambert-1992`](../../0010_gies-lambert-1992/literature_analysis/00_overview.md) — Gies-Lambert 1992 提供 B 型星 CNO 观测，约束爆炸性 H 燃烧
 - [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 §4 是 Champagne-Wiescher 1992 的前身
-

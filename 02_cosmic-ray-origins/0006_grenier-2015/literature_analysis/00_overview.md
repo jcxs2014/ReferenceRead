@@ -21,7 +21,11 @@ tags:
 - interstellar chemistry
 - dust
 - superbubbles
-citations: []
+citations:
+- 0005_amato-2014
+- 0004_blasi-2013
+- 0009_asplund-2009-solar-composition
+- 0011_kewley-2001-starburst
 path: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md
 ---
 > 本章属于：The Nine Lives of Cosmic Rays in Galaxies（Grenier, Black & Strong 2015）
@@ -149,4 +153,3 @@ Introduction / Scope of the Review
 - [`0004_blasi-2013`](../../0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 与 Grenier 2015 在 PeVatron 论证上互补
 - [`0009_asplund-2009-solar-composition`](../../../03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — CR 元素丰度比较依赖太阳丰度标准
 - [`0011_kewley-2001-starburst`](../../../03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview.md) — Grenier 2015 §8 综述星暴星系中 CR 角色
-

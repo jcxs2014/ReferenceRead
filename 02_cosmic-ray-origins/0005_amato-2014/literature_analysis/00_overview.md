@@ -15,7 +15,7 @@ tags:
 - MHD
 - acceleration of particles
 citations:
-- '[[the-origin-of-galactic-cosmic-rays-(amat]]'
+- 0004_blasi-2013
 path: 02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md
 ---
 # 0. 文献概览（Overview）
@@ -164,4 +164,3 @@ References
 ### 关联论文
 
 - [`0004_blasi-2013`](../../0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 + Amato 2014 是同一时期双论文
-

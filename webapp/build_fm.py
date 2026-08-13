@@ -302,6 +302,49 @@ def _split_tags(kw: str) -> list[str]:
     return tags
 
 
+def _read_existing_citations(overview_path: Path) -> list[str]:
+    """读取文件已有 frontmatter 的 citations 列表（无则空）。
+
+    支持两种 YAML 形态：
+        citations: ["0004_blasi-2013"]
+        citations:
+        - '0004_blasi-2013'
+    """
+    try:
+        text = overview_path.read_text(encoding="utf-8")
+    except Exception:
+        return []
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return []
+    out: list[str] = []
+    for i, ln in enumerate(lines[1:], start=1):
+        line = ln.strip()
+        if line == "---":
+            break
+        if line.startswith("citations:"):
+            rest = line.split(":", 1)[1].strip()
+            if rest.startswith("["):
+                # inline JSON 风格
+                try:
+                    import json
+                    val = json.loads(rest)
+                    if isinstance(val, list):
+                        return [str(x) for x in val]
+                except Exception:
+                    pass
+                return out
+            # block 风格：后续缩进行是 - item
+            for j in range(i + 1, len(lines)):
+                blk = lines[j].strip()
+                if blk.startswith("- "):
+                    out.append(blk[2:].strip().strip("'\" "))
+                elif blk == "" or blk.startswith("---") or ":" in blk:
+                    break
+            return out
+    return out
+
+
 def build_citations(overview_path: Path) -> list[str]:
     """在 literature_analysis/ 目录中寻找 *references*.md，把每个 ref 编号/作者名作为 [[stem]] 链接。"""
     la_dir = overview_path.parent
@@ -379,7 +422,10 @@ def build_fm(overview_path: Path) -> dict | None:
         rd = dt.datetime.fromtimestamp(mtime).strftime("%Y-%m-%d")
 
     tags = _split_tags(fields.get("keywords", ""))
-    citations = build_citations(overview_path)
+    # citations 不由本脚本生成（P0-6 根因：build_fm 从 references 提取的
+    # [[库外作者]] 格式会覆盖 build_citations.py 从篇间导航提取的库内 stem）。
+    # 唯一生成器 = build_citations.py；此处保留已有 frontmatter 值，缺失则留空。
+    existing_citations = _read_existing_citations(overview_path)
 
     fm = {
         "title": fields.get("title", ""),
@@ -397,7 +443,7 @@ def build_fm(overview_path: Path) -> dict | None:
         "read_date": rd,
         "lastread": rd,
         "tags": tags,
-        "citations": citations,
+        "citations": existing_citations,
         "path": str(rel),
     }
     # 移除空字符串，保留空列表
