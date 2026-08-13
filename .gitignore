@@ -1,11 +1,13 @@
 .DS_Store
 .sync.ffs_db
 *~
+*.fragment.html
 extracted*.txt
 full_text.txt
 extract.py
 extracted/
 pages/
+.obsidian/
 01_cosmic-ray-propagation/
 02_cosmic-ray-origins/
 03_stellar-nucleosynthesis/
