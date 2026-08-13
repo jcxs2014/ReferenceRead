@@ -29,19 +29,30 @@ def _clean_author(raw: str) -> str:
     s = raw.strip()
     # Remove ALL asterisk runs (markdown bold remaining on individual names)
     s = re.sub(r'\*+', '', s).strip()
+    # Remove superscript ordinals (¹²³ etc.) that INDEX.md uses as author footnotes
+    s = re.sub(r'[\u00b0\u00b2\u00b3\u00b9\u00ba\u2070-\u2079]', '', s).strip()
     # Remove (corresponding author) and similar notes
     s = re.sub(r'\s*\(corresponding author\)', '', s, flags=re.IGNORECASE).strip()
-    # Remove trailing institution notes in Chinese or English parentheses
+    # Remove institution notes in parentheses: English or Chinese (any position)
+    s = re.sub(r'\s*[\uff08(][^)\uff09]*(?:University|Institute|Observatory|Laboratory|Laboratoire|College|University of|GRAPPA|蒙纳士|大学|学院|天文台)[^)\uff09]*[\uff09)]', '', s, flags=re.IGNORECASE).strip()
+    # Remove any remaining trailing parenthetical notes
     s = re.sub(r'\s*[\uff08(][^)\uff09]*[\uff09)]\s*$', '', s).strip()
     return s
 
+def _title_case(s: str) -> str:
+    """Title-case a space-separated name, preserving lowercase after first letter."""
+    return " ".join(w[0].upper() + w[1:].lower() if len(w) > 1 else w.upper()
+                    for w in s.split())
+
 def _fmt_authors(raw: str) -> str:
-    """Compact author list: handle both comma and semicolon separators."""
+    """Compact author list: handle comma, semicolon, and Chinese separators."""
     s = _clean_author(raw)
-    # Split on comma OR semicolon (INDEX.md uses both)
-    parts = [p.strip() for p in re.split(r"[;,]\s*", s) if p.strip()]
+    # Split on comma, semicolon, Chinese semicolon, or Chinese comma
+    parts = [p.strip() for p in re.split(r"[;,；、]\s*", s) if p.strip()]
     if not parts:
         return raw
+    # Normalize ALL-CAPS names (journal convention) to Title Case
+    parts = [_title_case(p) for p in parts]
     if len(parts) == 1:
         return parts[0]
     if len(parts) == 2:
@@ -55,9 +66,7 @@ def _build_citation_map() -> dict:
     if not INDEX.exists():
         return {}
     text = INDEX.read_text(encoding="utf-8")
-    # Entry block: ### `stem` ... | **Authors** | ... | **Title** | ...
     entries = {}
-    # Split on ### `stem` boundaries
     for block in re.split(r"(?=\n### `[^`]+`\n)", text):
         stem_m = re.search(r"`([^`]+)`", block)
         if not stem_m:
@@ -65,16 +74,18 @@ def _build_citation_map() -> dict:
         stem = stem_m.group(1).strip()
 
         auth_m = re.search(r"作者\s*[|]\s*([^|\n]+)", block)
-        yr_m   = re.search(r"\b(\d{4})\b", stem)
+        yr_m = re.search(r"\b(19\d{2}|20\d{2})\b", block)
+        yr_in_stem_m = re.search(r"(?<=[-_])(\d{4})(?=[-_]|$)", stem)
 
         authors = auth_m.group(1).strip() if auth_m else ""
-        year    = yr_m.group(1) if yr_m else "?"
-        label   = f"{_fmt_authors(authors)} ({year})" if authors else stem
+        year = (yr_m.group(1) if yr_m else
+                yr_in_stem_m.group(1) if yr_in_stem_m else "?")
+        label = f"{_fmt_authors(authors)} ({year})" if authors else stem
         entries[stem] = label
+
     return entries
 
 
-CITATION = _build_citation_map()
 # Fallback for any stems not in INDEX (should be few/none)
 _FALLBACK = {
     "0001_strong-moskalenko-ptuskin-2007": "Strong, Moskalenko & Ptuskin (2007)",
@@ -99,8 +110,12 @@ _FALLBACK = {
     "0012_dieterich-2014-h-burning-limit":   "Dieterich, Henry, Jao, Winters, Hosey, Riedel & Subasavage (2014)",
     "0013_bertone-hooper-2018":              "Bertone & Hooper (2018)",
 }
+
+CITATION = _build_citation_map()
+# Merge FALLBACK entries — fills in years and author corrections for stems where
+# INDEX.md lacks a year or the author field has parsing issues (Anders/Grevesse, etc.)
 for k, v in _FALLBACK.items():
-    if k not in CITATION:
+    if k not in CITATION or "?" in CITATION[k]:
         CITATION[k] = v
 
 

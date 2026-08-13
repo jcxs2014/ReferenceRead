@@ -50,7 +50,7 @@ body {
 .tab-group-btn:hover { border-color:var(--accent); color:var(--accent); }
 .tab-group-btn.active { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); font-weight:600; }
 .tab-group-btn::after { content:"▾"; font-size:10px; margin-left:2px; }
-.tab-group-btn.active::after { content:"▴"; }
+.tab-group-btn.active::after { content:"▾ ▴"; }
 .tab-dropdown {
   display:none; position:absolute; top:calc(100% + 4px); left:0;
   background:var(--card); border:1px solid var(--border); border-radius:8px;
@@ -65,6 +65,16 @@ body {
 }
 .tab-dropdown-item:hover { background:var(--bg-2); }
 .tab-dropdown-item.active { background:var(--accent); color:var(--accent-fg); font-weight:600; }
+
+/* Back-to-top — stronger dark-mode shadow */
+[data-theme="dark"] #btn-top { box-shadow:0 4px 16px rgba(0,0,0,.5); }
+
+/* Dark-mode dropdown — visible border + strong shadow + hover feedback */
+[data-theme="dark"] .tab-dropdown {
+  border-color:var(--fg-2);
+  box-shadow:0 8px 32px rgba(0,0,0,.65), 0 0 0 1px rgba(255,255,255,.04);
+}
+[data-theme="dark"] .tab-dropdown-item:hover { background:#21262d; }
 
 /* Search */
 .search-box {
@@ -104,7 +114,8 @@ body {
 .toc-item:hover { background:var(--border); }
 .toc-item.active { background:rgba(9,105,218,.1); border-left-color:var(--accent); color:var(--accent); font-weight:600; }
 .toc-h3 { padding-left:20px; font-size:12px; color:var(--fg-2); }
-.toc-h4 { padding-left:32px; font-size:12px; color:var(--fg-2); }
+.toc-h4 { padding-left:32px; font-size:12px; color:var(--fg-2); display:block; }
+.toc-h4.toc-h4-collapsed { display:none; }
 
 /* Main */
 .main { flex:1; overflow-y:auto; padding:28px 36px; }
@@ -319,20 +330,54 @@ function buildDocs() {
 function renderTOC(slug) {
   const tocDiv = document.getElementById("toc-container");
   if (!tocDiv) return;
-  const items = TOCS.filter(t => t.parent_id === slug);
+  const items = TOCS.filter(t => t.parent_id === slug && t.level <= 4);
   if (!items.length) {
     tocDiv.innerHTML = '<h3>目录</h3><p style="color:var(--fg-2);font-size:13px;padding:0 4px">无目录</p>';
     return;
   }
-  tocDiv.innerHTML = '<h3>目录</h3>' +
-    items.map(it => {
-      const cls = it.level===2 ? "toc-item" : it.level===3 ? "toc-item toc-h3" : "toc-item toc-h4";
-      return `<div class="${cls}" data-id="${it.id}">${escapeHtml(it.title)}</div>`;
-    }).join("");
+
+  // Assign each h4 its nearest preceding h2/h3 as parent
+  const parentMap = {};   // h4_id -> parent h2/h3 id
+  let lastH23Id = null;
+  for (const it of items) {
+    if (it.level <= 3) lastH23Id = it.id;
+    else parentMap[it.id] = lastH23Id;
+  }
+
+  const htmlParts = ['<h3>目录</h3>'];
+  let h4Buffer = [];
+
+  for (const it of items) {
+    if (it.level <= 3) {
+      if (h4Buffer.length) {
+        htmlParts.push(`<div class="toc-h4-group">${h4Buffer.join("")}</div>`);
+        h4Buffer = [];
+      }
+      const cls = it.level === 2 ? "toc-item" : "toc-item toc-h3";
+      htmlParts.push(`<div class="${cls}" data-id="${it.id}">${escapeHtml(it.title)}</div>`);
+    } else {
+      h4Buffer.push(`<div class="toc-item toc-h4" data-id="${it.id}" data-parent-id="${parentMap[it.id]}">${escapeHtml(it.title)}</div>`);
+    }
+  }
+  if (h4Buffer.length) {
+    htmlParts.push(`<div class="toc-h4-group">${h4Buffer.join("")}</div>`);
+  }
+
+  tocDiv.innerHTML = htmlParts.join("");
+
+  // Click h2/h3 → toggle its h4 children; click h4 → scroll to heading
   tocDiv.querySelectorAll(".toc-item").forEach(el => {
-    el.addEventListener("click", () => {
-      const target = document.getElementById(el.dataset.id);
-      if (target) target.scrollIntoView({behavior:"smooth", block:"start"});
+    el.addEventListener("click", (e) => {
+      e.stopPropagation();
+      if (el.dataset.parentId) {
+        // h4: scroll to heading
+        const target = document.getElementById(el.dataset.id);
+        if (target) target.scrollIntoView({behavior:"smooth", block:"start"});
+      } else {
+        // h2/h3: toggle h4 group
+        const h4s = tocDiv.querySelectorAll(`.toc-h4[data-parent-id="${el.dataset.id}"]`);
+        h4s.forEach(h4 => h4.classList.toggle("toc-h4-collapsed"));
+      }
     });
   });
 }
