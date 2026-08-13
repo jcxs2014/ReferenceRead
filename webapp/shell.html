@@ -43,9 +43,10 @@ body {
 .tab-group { position:relative; z-index:300; }
 .tab-group-btn {
   display:flex; align-items:center; gap:4px;
-  padding:5px 12px; border:1px solid var(--border); border-radius:6px;
+  padding:5px 12px 5px 12px; border:1px solid var(--border); border-radius:6px;
   background:var(--card); color:var(--fg); font-size:12px; cursor:pointer;
-  max-width:160px; flex-shrink:0; overflow:hidden;
+  max-width:200px; flex-shrink:0;
+  white-space:nowrap; overflow-x:hidden; text-overflow:ellipsis;
 }
 .tab-group-btn:hover { border-color:var(--accent); color:var(--accent); }
 .tab-group-btn.active { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); font-weight:600; }
