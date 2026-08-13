@@ -24,7 +24,7 @@ tags:
 - 恒星演化
 - 技术锝（Tc⁹⁹）
 - 超重元素
-citations: []
+citations: ["0002_trimble-1975", "0003_fowler-1984", "0004_wallerstein-1997"]
 path: 03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md
 ---
 > 本章属于：Burbidge, Burbidge, Fowler, Hoyle (1957) — *Synthesis of the Elements in Stars* (B²FH)
@@ -205,5 +205,4 @@ XIII. Conclusion (P95)
 ### 后续阅读
 
 - [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — B²FH 40 年进展综述
-
 

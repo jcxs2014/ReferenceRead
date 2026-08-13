@@ -15,7 +15,7 @@ tags:
 - JACEE
 - antiproton
 - leaky box
-citations: []
+citations: ["0001_bhattacharjee-sigl-2000", "0004_blasi-2013"]
 path: 02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview.md
 ---
 # 00. Overview — 文献基本信息
@@ -71,5 +71,4 @@ path: 02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview.md
 
 - [`0001_bhattacharjee-sigl-2000`](../../0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md) — 1990 → 1999/2000 综述升级
 - [`0004_blasi-2013`](../../0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 用现代 DSA 重新审视 Gaisser 1990 的膝部问题
-
 

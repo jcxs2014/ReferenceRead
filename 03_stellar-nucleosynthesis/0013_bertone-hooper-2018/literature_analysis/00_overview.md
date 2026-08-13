@@ -22,7 +22,7 @@ tags:
 - direct detection
 - indirect detection
 - structure formation
-citations: []
+citations: ["0001_strong-moskalenko-ptuskin-2007"]
 path: 03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview.md
 ---
 # 0. 文献基本信息与总览
@@ -177,5 +177,4 @@ References
 ### 关联论文
 
 - [`0001_strong-moskalenko-ptuskin-2007`](../../../01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) — Strong 2007 §3.7 正电子/反质子背景估计与暗物质
-
 

@@ -14,7 +14,7 @@ tags:
 - abundance diagnostics
 - Wolf-Rayet stars
 - stellar population synthesis
-citations: []
+citations: ["0009_asplund-2009-solar-composition", "0006_grenier-2015"]
 path: 03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview.md
 ---
 # 00. Overview — 文献基本信息
@@ -73,5 +73,4 @@ path: 03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/
 
 - [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 太阳丰度作金属丰度零点
 - [`0006_grenier-2015`](../../../02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md) — Grenier 2015 §8 综述星暴星系 CR 角色
-
 

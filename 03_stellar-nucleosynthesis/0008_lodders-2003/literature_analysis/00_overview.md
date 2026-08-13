@@ -24,8 +24,7 @@ tags:
 - Z
 - Z/X ratio
 - settling/diffusion
-citations:
-- '[[solar-system-abundances-and-condensation]]'
+citations: ["0009_asplund-2009-solar-composition"]
 path: 03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overview.md
 ---
 > 本章属于：Solar System Abundances and Condensation Temperatures of the Elements (Lodders 2003, ApJ 591:1220)
@@ -159,5 +158,4 @@ path: 03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overvi
 ### 后续阅读
 
 - [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 6 年后 AGSS09
-
 

@@ -24,7 +24,7 @@ tags:
 - 超新星核合成
 - 同位素异常
 - 核宇宙化学计时
-citations: []
+citations: ["0005_champagne-wiescher-1992", "0001_b2fh-1957"]
 path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview.md
 ---
 # 0. 文献基本信息 (Overview & Metadata)
@@ -140,5 +140,4 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overvie
 
 - [`0005_champagne-wiescher-1992`](../../0005_champagne-wiescher-1992/literature_analysis/00_overview.md) — Champagne & Wiescher 1992 是 Fowler 1984 后的反应率更新
 - [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B²FH 的 s 过程在 Fowler 1984 重新评估
-
 

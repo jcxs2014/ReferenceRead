@@ -25,8 +25,7 @@ tags:
 - photo-pion production
 - CMB
 - neutrino astrophysics
-citations:
-- '[[bhattacharjee-&-sigl-(1999)]]'
+citations: ["0002_al-dargazelli-1996", "0003_gaisser-1990", "0001_strong-moskalenko-ptuskin-2007"]
 path: 02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md
 ---
 > 本章属于：[Bhattacharjee & Sigl (1999) "Origin and Propagation of Extremely High Energy Cosmic Rays", Phys. Rep. 320 (1999) 1–150]
@@ -206,5 +205,4 @@ literature_analysis/
 ### 后续阅读
 
 - [`0002_al-dargazelli-1996`](../../0002_al-dargazelli-1996/literature_analysis/00_overview.md) — 1996 年同主题论文，作为对比
-
 

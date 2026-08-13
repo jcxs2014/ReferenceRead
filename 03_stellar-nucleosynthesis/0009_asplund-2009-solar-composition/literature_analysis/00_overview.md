@@ -16,8 +16,7 @@ tags:
 - solar atmosphere
 - spectral line formation
 - convection
-citations:
-- '[[asplund-et-al]]'
+citations: ["0006_grenier-2015", "0007_biermann-1996", "0010_gies-lambert-1992", "0011_kewley-2001-starburst"]
 path: 03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview.md
 ---
 > 本章属于：Asplund, Grevesse, Sauval & Scott (2009) The chemical composition of the Sun (arXiv:0909.0948 / Ann. Rev. A&A 47, 481)
@@ -191,5 +190,4 @@ References: (p.33–41, 约 150 条)
 - [`0007_biermann-1996`](../../../02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md) — Biermann 1996 旧版用 Anders-Grevesse 丰度
 - [`0010_gies-lambert-1992`](../../0010_gies-lambert-1992/literature_analysis/00_overview.md) — Gies-Lambert 1992 用 1989 太阳丰度作为 B 型星基线
 - [`0011_kewley-2001-starburst`](../../0011_kewley-2001-starburst/literature_analysis/00_overview.md) — Kewley 2001 太阳丰度假设
-
 

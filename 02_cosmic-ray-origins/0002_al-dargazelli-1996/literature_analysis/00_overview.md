@@ -14,7 +14,7 @@ tags:
 - colliding galaxies
 - VIRGO cluster
 - GZK cutoff
-citations: []
+citations: ["0001_bhattacharjee-sigl-2000"]
 path: 02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overview.md
 ---
 # 00. Overview — 文献基本信息
@@ -83,5 +83,4 @@ path: 02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overv
 ### 关联论文
 
 - [`0001_bhattacharjee-sigl-2000`](../../0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md) — 同主题 BH/GS 2000 提供更完备综述
-
 

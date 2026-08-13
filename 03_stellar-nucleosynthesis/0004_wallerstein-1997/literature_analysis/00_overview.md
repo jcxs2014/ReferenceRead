@@ -31,7 +31,7 @@ tags:
 - 立场
 - 数据源都不同
 - 不能一概而论
-citations: []
+citations: ["0005_champagne-wiescher-1992", "0009_asplund-2009-solar-composition"]
 path: 03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md
 ---
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
@@ -187,5 +187,4 @@ B2FH 1957 原始框架（8 过程）
 ### 后续阅读
 
 - [`0005_champagne-wiescher-1992`](../../0005_champagne-wiescher-1992/literature_analysis/00_overview.md) — 爆炸性氢燃烧的更细致处理
-
 

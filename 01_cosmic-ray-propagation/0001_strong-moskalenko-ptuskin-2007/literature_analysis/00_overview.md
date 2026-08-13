@@ -52,27 +52,7 @@ tags:
 - interstellar medium
 - magnetic fields
 - plasmas
-citations:
-- '[[cesarsky]]'
-- '[[berezinskii-et-al.]]'
-- '[[ginzburg-&-syrovatskii]]'
-- '[[ginzburg-&-ptuskin]]'
-- '[[schlickeiser]]'
-- '[[diehl-et-al.]]'
-- '[[kennel-&-engelmann]]'
-- '[[seo-&-ptuskin]]'
-- '[[simon]]'
-- '[[ptuskin-et-al.]]'
-- '[[goldreich-&-sridhar]]'
-- '[[yan-&-lazarian]]'
-- '[[strong-&-moskalenko]]'
-- '[[jones-et-al.]]'
-- '[[ptuskin]]'
-- '[[moskalenko-&-strong]]'
-- '[[strong]]'
-- '[[strong-et-al.]]'
-- '[[aharonian-et-al.]]'
-- '[[mashnik-et-al.]]'
+citations: ["0004_blasi-2013", "0005_amato-2014", "0006_grenier-2015", "0007_biermann-1996", "0013_bertone-hooper-2018"]
 path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md
 ---
 
@@ -200,17 +180,17 @@ path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_a
 | HePL | Hansen Experimental Physics Laboratory |
 | KIPAC | Kavli Institute for Particle Astrophysics and Cosmology |
 
-| 关键物理量 | 含义 |
-|---|---|
-| Dxx | 空间扩散系数 |
-| V | 对流速度 |
-| Dpp | 动量空间扩散系数（再加速） |
-| ψ(r⃗, p, t) | 单位动量的宇宙线密度 |
+| 关键物理量       | 含义            |
+| ----------- | ------------- |
+| Dxx         | 空间扩散系数        |
+| V           | 对流速度          |
+| Dpp         | 动量空间扩散系数（再加速） |
+| ψ(r⃗, p, t) | 单位动量的宇宙线密度    |
 | q(r⃗, p, t) | 源项（含初级、碎裂、衰变） |
-| τf | 碎裂时间尺度 |
-| τr | 放射性衰变时间尺度 |
-| R | 粒子磁刚度 = pc/Ze |
-| zh | 宇宙线晕（halo）高度 |
+| τf          | 碎裂时间尺度        |
+| τr          | 放射性衰变时间尺度     |
+| R           | 粒子磁刚度 = pc/Ze |
+| zh          | 宇宙线晕（halo）高度  |
 
 ---
 
@@ -255,5 +235,4 @@ path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_a
 ### 后续阅读
 
 - [`0004_blasi-2013`](../../../02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 综述 SNR 作为银河宇宙线起源
-
 
