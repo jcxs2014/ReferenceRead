@@ -21,7 +21,7 @@
   --code-bg: #f6f8fa;
   --quote-bg: #f6f8fa;
   --quote-border: #d0d7de;
-  --math: #c02322;
+  --math: #24292f;
   --search-hl: #fff3b0;
   --scroll: rgba(9,105,218,0.4);
 }
@@ -37,7 +37,7 @@
   --code-bg: #1c2128;
   --quote-bg: #1c2128;
   --quote-border: #30363d;
-  --math: #ff7b72;
+  --math: #c9d1d9;
   --search-hl: #b88300;
   --scroll: rgba(88,166,255,0.4);
 }
@@ -119,8 +119,9 @@ body {
 
 /* Math */
 .math { color: var(--math); }
-.math.block { display: block; margin: 10px 0; padding: 8px 0; font-size: 15px; text-align: center; }
-.math .katex { font-size: inherit; }
+.math.block { display: block; margin: 10px 0; padding: 8px 12px; font-size: 15px; text-align: center; overflow-x: auto; max-width: 100%; }
+.math.block .katex { font-size: inherit; white-space: nowrap; }
+.math.inline .katex { white-space: normal; }
 
 /* Paper cross-ref */
 .paper-ref { margin: 20px 0; padding: 12px 16px; background: var(--quote-bg); border-left: 4px solid var(--accent); border-radius: 4px; }
