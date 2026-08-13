@@ -51,11 +51,11 @@ def _build_citation_map() -> dict:
             continue
         stem = stem_m.group(1).strip()
 
-        auth_m = re.search(r"\*\*Authors?\*\*\s*[|]\s*(.+?)\s*(?:\n|$)", block, re.IGNORECASE)
-        yr_m   = re.search(r"(\d{4})[_-]?\w*-(\d{4})\b", stem)
+        auth_m = re.search(r"作者\s*[|]\s*([^|\n]+)", block)
+        yr_m   = re.search(r"\b(\d{4})\b", stem)
 
         authors = auth_m.group(1).strip() if auth_m else ""
-        year    = yr_m.group(2) if yr_m else "?"
+        year    = yr_m.group(1) if yr_m else "?"
         label   = f"{_fmt_authors(authors)} ({year})" if authors else stem
         entries[stem] = label
     return entries
