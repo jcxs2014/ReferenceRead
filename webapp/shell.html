@@ -556,9 +556,11 @@ document.getElementById("btn-print").addEventListener("click", () => window.prin
 
 // ── Start ───────────────────────────────────────────────────────────────────
 init();
-// Re-apply math when KaTeX deferred script finally loads (may be after user already switched docs)
-window.addEventListener("load", () => {
-  requestAnimationFrame(() => { if (window.katex) applyMath(); });
+// KaTeX is deferred — it may load before or after DOMContentLoaded fires.
+// Check immediately (if DOM already ready) and again when DOMContentLoaded fires.
+if (document.readyState !== "loading" && window.katex) applyMath();
+document.addEventListener("DOMContentLoaded", () => {
+  if (window.katex) applyMath();
 });
 </script>
 </body>
