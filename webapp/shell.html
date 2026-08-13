@@ -188,11 +188,11 @@ mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px
 /* Print */
 @media print {
   .toolbar, .sidebar, .footer, .controls, #overlay, #btn-top { display:none !important; }
-  .app { display:block; }
-  .app-body { display:block; }
-  .main { overflow:visible; height:auto; padding:0; }
+  .app { display:block !important; height:auto !important; overflow:visible !important; }
+  .app-body { display:block !important; height:auto !important; overflow:visible !important; }
+  .main { overflow:visible !important; height:auto !important; padding:0 !important; max-height:none !important; }
   .doc-section { display:none !important; }
-  .doc-section.active { display:block !important; page-break-after:avoid; }
+  .doc-section.active { display:block !important; height:auto !important; overflow:visible !important; page-break-after:avoid; }
 }
 
 /* Mobile */
