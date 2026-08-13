@@ -312,6 +312,14 @@ def build(include_papers=False, out=None):
     shell = shell.replace("__DOCS_JSON__",   json.dumps(docs,        ensure_ascii=False, indent=2))
     shell = shell.replace("__TOC_JSON__",     json.dumps(all_toc,     ensure_ascii=False, indent=2))
     shell = shell.replace("__PAPERS_JSON__",  json.dumps(papers_json, ensure_ascii=False, indent=2))
+    # 术语表（05_glossary.md → glossary.json，运行时 hover 用）
+    gloss_path = HERE / "glossary.json"
+    if gloss_path.exists():
+        gloss = json.loads(gloss_path.read_text(encoding="utf-8"))
+    else:
+        gloss = []
+        print("[WARN] glossary.json 不存在 — 先跑 build_glossary.py", file=sys.stderr)
+    shell = shell.replace("__GLOSS_JSON__", json.dumps(gloss, ensure_ascii=False, indent=2))
 
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(shell, encoding="utf-8")

@@ -205,6 +205,17 @@ mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px
   .main { padding:20px 16px; }
   .search-box { width:140px; }
 }
+
+/* ── 术语 hover（GLOSS） ─────────────────────────────────────────── */
+.gloss {
+  border-bottom: 1px dashed var(--accent, #4a6cf7);
+  cursor: help;
+  text-decoration: none;
+}
+.gloss:hover {
+  background: rgba(74, 108, 247, 0.12);
+  border-radius: 2px;
+}
 </style>
 </head>
 <body>
@@ -247,6 +258,7 @@ mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px
 const DOCS   = __DOCS_JSON__;
 const TOCS   = __TOC_JSON__;
 const PAPERS = __PAPERS_JSON__;
+const GLOSS  = __GLOSS_JSON__;
 
 const LS = "kb_";
 
@@ -407,10 +419,79 @@ function renderTabGroups() {
 // ── Build / lazy-load doc sections (E2: only current doc in DOM) ───────────
 const docCache = {};   // slug -> HTML string
 
+// 术语 hover：把正文中命中 GLOSS 的术语包成 .gloss span（跳过 math/code/pre）
+const GLOSS_INDEX = (() => {
+  const idx = {};
+  (GLOSS || []).forEach(g => {
+    const key = g.term.replace(/\s+/g, " ").trim();
+    if (key && key.length >= 2 && !idx[key]) idx[key] = g;
+  });
+  return idx;
+})();
+
+function glossForStem(stem) {
+  // 该篇术语表：跨篇术语 + papers 含本 stem 的单篇术语
+  // stem 形如 paper-0001-strong-...（连字符），glossary.papers 为 0001_strong-...（下划线）
+  // 仅把序号后的第一个分隔符换成下划线：0001-strong-... → 0001_strong-...
+  const stemNorm = String(stem || "").replace(/^paper-/, "").replace(/^(\d{4})-/, "$1_");
+  const list = (GLOSS || []).filter(g =>
+    !g.papers.length || g.cross_paper || g.papers.includes(stemNorm));
+  return list.sort((a, b) => b.term.length - a.term.length); // 长词优先
+}
+
+function injectGloss(root, stem) {
+  const items = glossForStem(stem);
+  if (!items.length || !root.querySelector) return;
+  const SKIP = new Set(["SCRIPT", "STYLE", "CODE", "PRE", "MATH",
+                        "SPAN", "A", "BUTTON", "H1", "H2", "H3", "H4"]); // SPAN 防嵌套
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode(n) {
+      let el = n.parentElement;
+      while (el && el !== root) {
+        if (SKIP.has(el.tagName) || el.classList.contains("math")) return NodeFilter.FILTER_REJECT;
+        el = el.parentElement;
+      }
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  const targets = [];
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+    const text = node.nodeValue || "";
+    if (!text.trim()) continue;
+    for (const g of items) {
+      const term = g.term;
+      const i = text.indexOf(term);
+      if (i < 0) continue;
+      targets.push({ node, term: g.term, def: g.def, papers: g.papers || [] });
+      break; // 每文本节点最多包一个术语，防过度嵌套
+    }
+  }
+  // 拆节点包裹（后处理，避免遍历期间改动树）
+  targets.forEach(t => {
+    const text = t.node.nodeValue || "";
+    const i = text.indexOf(t.term);
+    if (i < 0) return;
+    const span = document.createElement("span");
+    span.className = "gloss";
+    span.textContent = t.term;
+    const tip = `术语：${t.term}` +
+      (t.def && t.def !== t.term ? `\n${t.def}` : "") +
+      (t.papers.length ? `\n出处：${t.papers.length} 篇论文` : "");
+    span.title = tip;
+    const frag = document.createDocumentFragment();
+    if (i > 0) frag.appendChild(document.createTextNode(text.slice(0, i)));
+    frag.appendChild(span);
+    frag.appendChild(document.createTextNode(text.slice(i + t.term.length)));
+    t.node.parentNode.replaceChild(frag, t.node);
+  });
+}
+
 function buildDocs() {
   const active = DOCS.find(d => d.slug === activeSlug) || DOCS[0];
   const container = document.getElementById("doc-container");
   container.innerHTML = `<section class="doc-section" data-slug="${active.slug}">${active.html}</section>`;
+  injectGloss(container.querySelector("section[data-slug]"), active.slug);
   // Pre-cache all other docs in memory (E2: fast subsequent switches)
   DOCS.forEach(d => { if (d.slug !== active.slug && !(d.slug in docCache)) docCache[d.slug] = d.html; });
 }
@@ -424,6 +505,7 @@ function ensureDoc(slug) {
   })();
   const container = document.getElementById("doc-container");
   container.insertAdjacentHTML("beforeend", `<section class="doc-section" data-slug="${slug}">${html}</section>`);
+  injectGloss(container.querySelector(`section[data-slug="${slug}"]`), slug);
   docCache[slug] = html;  // already in mem from buildDocs pre-cache
 }
 
