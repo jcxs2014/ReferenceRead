@@ -73,15 +73,13 @@ ObsFile/ReferenceRead(统一 vault 查看/图谱)                    registry.js
 ## 3. 阶段二（P0）：阅读追踪 + 复习提醒
 
 - **写入**（唯一入口=Obsidian papers vault）：
-  - 篇级：frontmatter `status`（planned/reading/completed）+ `lastread`（YYYY-MM-DD）——属性面板维护
-  - 章级：各分章正文 `- [x]` task list——Obsidian 勾选
-- **webapp 显示**：
-  - **形态 B（主路径，批 2 实施）**：薄服务层 `python3 server.py`（Python stdlib）——`/api/progress?slug=` 运行时读源 md 的 checkbox/lastread，勾完刷新即见（免 rebuild）；`/api/rebuild` 一键重建；`/` 静态服务 webapp
+  - **篇级**：frontmatter `status`（planned/reading/completed）+ `lastread`（YYYY-MM-DD）+ `read_date`（首次阅读日期）——属性面板维护
+  - **章级**：~~各分章正文 `- [x]` task list~~ → **取消**（摸底发现 21 篇 md 源几乎无 task list 数据基础，强行章级会造数据）
+- **webapp 显示**（**论文级 completed/reading**，dropdown checkbox + localStorage 持久化）：
+  - **形态 B（主路径，批 2 实施）**：薄服务层 `python3 server.py`（Python stdlib）——`/api/progress?slug=` 运行时读源 md 的 `status/lastread`（免 rebuild）；`/api/rebuild` 一键重建；`/` 静态服务 webapp
   - 形态 A（过渡）：构建时读 md 写入产物快照，勾完需 rebuild
-  - 复习提醒：`completed` 且 `now - lastread > 30 天` → 首页「建议复习：B²FH 1957（45 天未读）」
-- **localStorage**：webapp 内"快速标记"补充，不作事实源
-- **验收**：Obsidian 勾选 →（B）刷新即更新 /（A）rebuild 后更新；复习提醒按阈值触发
-- **工作量**：0.5–1（形态 A 部分）+ 1+（形态 B 服务层）
+  - 复习提醒：`status=completed` 且 `now - lastread > 30 天` → 首页「建议复习：B²FH 1957（45 天未读）」
+- **进度粒度变更**（附 13）：从"章级 task list"降为"论文级 completed/reading"——md 源无 task list 数据基础，论文级粒度已能覆盖"读完未读完"语义，复习提醒仍按阈值触发
 
 ## 4. 阶段三（P0）：构建期知识审计断言
 
