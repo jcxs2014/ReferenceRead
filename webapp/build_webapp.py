@@ -13,7 +13,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent  # papers/
 TOOLS = HERE       # webapp/
 DOCROOT = ROOT / "background"
-OUT = DOCROOT / "background-interactive.html"
+OUT = HERE / "interactive.html"   # built artifact lives in webapp/ alongside shell + scripts
 SHELL = HERE / "shell.html"
 
 PAPER_INFO = {
@@ -100,7 +100,10 @@ def get_years():
             years[p["stem"]] = p["year"]
     return years
 
-def build(include_papers=False):
+def build(include_papers=False, out=None):
+    """Build the interactive HTML. `out` defaults to webapp/interactive.html."""
+    if out is None:
+        out = OUT
     docs = []
     all_toc = []
     papers_json = []
@@ -195,5 +198,6 @@ if __name__ == "__main__":
     import sys
     ap = argparse.ArgumentParser()
     ap.add_argument("--include-papers", action="store_true", help="include all 21 papers' literature_analysis")
+    ap.add_argument("--out", type=Path, default=OUT, help="output HTML path (default: webapp/interactive.html)")
     args = ap.parse_args()
-    build(args.include_papers)
+    build(args.include_papers, out=args.out)
