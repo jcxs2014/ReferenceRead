@@ -266,6 +266,30 @@ function init() {
   updateStats();
 }
 
+// ── Reading progress tracking (localStorage) ────────────────────────────────
+const PROGRESS_KEY = "wb_progress_v1"; // v1 = schema version
+
+function getProgress() {
+  try { return JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}"); }
+  catch { return {}; }
+}
+
+function saveProgress(progress) {
+  localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+}
+
+function togglePaperStatus(slug) {
+  const progress = getProgress();
+  progress[slug] = progress[slug] === "completed" ? "reading" : "completed";
+  saveProgress(progress);
+  renderTabGroups();   // re-render to update checkboxes + stats
+  updateStats();
+}
+
+function paperStatus(slug) {
+  return getProgress()[slug] || "completed";
+}
+
 // ── Tab groups (H6 fix: dropdown groups instead of 27 flat tabs) ────────────
 function renderTabGroups() {
   const groups = {};
@@ -295,18 +319,53 @@ function renderTabGroups() {
     dropdown.setAttribute("role", "menu");
 
     items.forEach(d => {
+      const isPaper = d.slug.startsWith("paper-");
+      const status  = isPaper ? paperStatus(d.slug) : "completed";
+      const checked = status === "completed";
+
       const a = document.createElement("button");
       a.className = "tab-dropdown-item" + (d.slug === activeSlug ? " active" : "");
-      a.textContent = d.title;
+      // Checkbox + title
+      a.style.display = "flex";
+      a.style.alignItems = "center";
+      a.style.gap = "6px";
+      a.style.justifyContent = "flex-start";
+
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.checked = checked;
+      cb.style.margin = "0";
+      cb.style.pointerEvents = "none"; // label handles click
+      cb.style.flexShrink = "0";
+
+      const lbl = document.createElement("span");
+      lbl.style.flex = "1";
+      lbl.style.overflow = "hidden";
+      lbl.style.textOverflow = "ellipsis";
+      lbl.style.whiteSpace = "nowrap";
+      lbl.textContent = d.title;
+
+      a.appendChild(cb);
+      a.appendChild(lbl);
+
       a.dataset.slug = d.slug;
+      a.dataset.status = status;
       a.setAttribute("role", "menuitem");
       a.setAttribute("tabindex", "0");
       if (d.slug === activeSlug) a.setAttribute("aria-current", "true");
-      a.addEventListener("click", () => {
+
+      a.addEventListener("click", (e) => {
+        // Don't navigate if clicking checkbox — handle separately
+        if (e.target.tagName === "INPUT") {
+          e.stopPropagation();
+          togglePaperStatus(d.slug);
+          return;
+        }
         groupDiv.classList.remove("open");
         btn.setAttribute("aria-expanded", "false");
         switchDoc(d.slug);
       });
+
       dropdown.appendChild(a);
     });
 
@@ -603,11 +662,16 @@ function applyMath() {
 
 // ── Stats (M7 fix: dynamic from DOCS/PAPERS/TOCS) ─────────────────────────
 function updateStats() {
-  const bgDocs  = DOCS.filter(d => d.category === "背景知识").length;
-  const papers  = PAPERS.length;
+  const bgDocs   = DOCS.filter(d => d.category === "背景知识").length;
+  const papers   = PAPERS.length;
   const tocTerms = new Set(TOCS.map(t => t.title)).size;
+  const progress = getProgress();
+  const completed = PAPERS.filter(p => progress[p.slug] === "completed").length;
+  const reading  = PAPERS.length - completed;
   document.getElementById("stats").textContent =
-    `${bgDocs} 篇知识库 · ${papers} 篇论文 · ${tocTerms} 目录项`;
+    reading > 0
+      ? `${bgDocs} 篇知识库 · 已读 ${completed}/${papers} 篇 · ${tocTerms} 目录项`
+      : `${bgDocs} 篇知识库 · ${papers} 篇论文 · ${tocTerms} 目录项`;
 }
 
 // ── Keyboard shortcuts ──────────────────────────────────────────────────────

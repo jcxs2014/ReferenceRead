@@ -90,16 +90,24 @@ def _extract_year(text: str) -> str | None:
 
 
 def _most_likely_year(text: str) -> str | None:
-    """从全文中统计最常见的合理论文年份（排除 2026 当前年）。"""
-    from collections import Counter
-    candidates = re.findall(r"\b(19[5-9]\d|20[0-2]\d)\b", text)
-    # 排除 2026（当前系统年，不代表论文年份）
-    filtered = [y for y in candidates if y != "2026"]
-    if not filtered:
-        return None
-    # 取最常见的
-    year, _ = Counter(filtered).most_common(1)[0]
-    return year
+    """从全文中提取最合理的论文年份（排除 2026）。
+
+    优先策略：
+    1. 匹配 "Author & Author (YYYY)" 格式（第一行摘要附近）——代表本文年份
+    2. 否则取最早出现的有意义年份
+    """
+    import re as _re
+    # 策略1：找 "Name & Name (YYYY)" 或 "Name (YYYY)" 出现在摘要/导言区域的年份
+    # 截取前 2000 字符（通常是摘要区）
+    search_area = text[:2000]
+    # 匹配 "Anders & Grevesse (1989)", "Burbidge; Burbidge; Fowler; Hoyle (1957)" 等
+    m = _re.search(r"\([(\s]*(19[5-9]\d|20[0-2]\d)[)\s]*[,\]]", search_area)
+    if m:
+        return m.group(1)
+    # 策略2：取最早出现的有意义年份
+    matches = _re.findall(r"\b(19[5-9]\d|20[0-2]\d)\b", text)
+    filtered = [y for y in matches if y != "2026"]
+    return filtered[0] if filtered else None
 
 
 def _extract_abstract(text: str) -> str:
@@ -337,6 +345,9 @@ def build_fm(overview_path: Path) -> dict | None:
         return None
 
     fields = extract_fields(text)
+    # 正文（不含 frontmatter）用于 _most_likely_year
+    parts = text.split("---", 2)
+    body  = parts[2].lstrip("\n") if len(parts) >= 3 else text
     if not fields.get("title") and not fields.get("authors"):
         print(f"[WARN] {overview_path} — 未能提取元信息字段", file=sys.stderr)
         return None
@@ -361,8 +372,9 @@ def build_fm(overview_path: Path) -> dict | None:
     fm = {
         "title": fields.get("title", ""),
         "authors": fields.get("authors", ""),
-        # 最终 year 兜底：从目录 stem → 文件名 stem → 全文最常见合理年份
-        "year": fields.get("year", "") or _extract_year(overview_path.parent.parent.stem) or _extract_year(overview_path.stem) or _most_likely_year(text),
+        # 最终 year 兜底：正文优先（正文是最终事实源）
+        # frontmatter → parent.parent.stem → 文件名 → 正文
+        "year": fields.get("year", "") or _extract_year(overview_path.parent.parent.stem) or _extract_year(overview_path.stem) or _most_likely_year(body) or "",
         "journal": fields.get("journal", ""),
         "doi": fields.get("doi", ""),
         "arxiv": fields.get("arxiv", ""),

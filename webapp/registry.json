@@ -1,108 +1,5 @@
 [
   {
-    "title": "Cosmic-ray propagation and interactions in the Galaxy",
-    "authors": "Andrew W. Strong¹, Igor V. Moskalenko², Vladimir S. Ptuskin³",
-    "year": "2007",
-    "journal": "Reviews of Modern Physics（根据格式推断，arXiv 上标注为 RMP 投稿，2008 年 2 月为草稿日期）",
-    "doi": "10.1103/RevModPhys.79.2451",
-    "arxiv": "arXiv:astro-ph/0701517v1",
-    "keywords": "energetic particles, gamma rays, interstellar medium, magnetic fields, plasmas",
-    "abstract": "## 0.2 Abstract（中文精读）\\\\n\\\\n\\\\n  ### 原文\\\\n\\\\n\\\\n  > We survey the theory and experimental tests for the propagation\\\n  \\ of\\\\\\n  \\\\ cosmic rays in the Galaxy up to energies of 10¹⁵ eV.\\\\n  A guide to the previous reviews and essential literature\\\n  \\ is given,\\\\\\n  \\\\ followed by an exposition of basic principles. The basic\\\\n  ideas of cosmic-ray propagation are described,\\\n  \\ and the physical\\\\\\n  \\\\ origin of its processes are explained. The various techniques\\\\n  for computing the observational\\\n  \\ consequences of the theory\\\\\\n  \\\\ are described and contrasted. These include analytical and numerical\\\\n  techniques.\\\n  \\ We present the comparison of models\\\\\\n  \\\\ with data including direct and indirect – especially gamma-ray – observations,\\\\\\\n  n  and indicate what we can learn about\\\\\\n  \\\\ cosmic-ray propagation. Some particular important topics including electrons\\\n  \\ and antiparticles\\\\n  are chosen for discussion.\\\\n\\\\\\n  \\\\n\\\\n  ### 自然中文\\\\n\\\\n\\\\n  本文综述了银河系中宇宙线传播至 10¹⁵ eV 能量的理论与实验检验。首先给出了以往综述和重要文献的导览，随后阐述基本原理。介绍了宇宙线传播的基本思想及其物理起源，描述并比较了计算理论观测后果的各种方法——包括解析法和数值法。呈现了模型与数据的比较，涵盖直接观测和间接观测（尤其是伽马射线），并指出我们能从中学到关于宇宙线传播的什么知识。选取电子和反物质等若干重要专题进行讨论。\\\\\\\n  n\\\\\\n  \\\\n\\\\n  ### 关键词与要点\\\\n\\\\n\\\\n  - **能量上限**：10¹⁵ eV（\\\\\\\"膝\\\\\\\"区，作者明确排除高于此能量的宇宙线）\\\\n\\\\n  - **直接观测**：气球/卫星直接探测到的粒子\\\\n\\\\\\\n  n  - **间接观测**：通过伽马射线和同步辐射\\\\n\\\\\\n  \\\\n  - **核心方法对比**：解析法 vs. 数值法（作者倾向数值法）\\\\n\\\\n  - **专题**：电子、正电子、反质子、同步辐射\\\\n\\\\n\\\\n  ### [FACT]\\\\\\\n  n\\\\n\\\\n  作者声明：\\\\\\\"concerning the origin\\\\\\n  \\\\ of CR, we will, for the most part, sidestep this problem\\\\\\\"——即本篇**不讨论宇宙线起源问题**。也明确排除了太阳调制、星系团和外银河宇宙线。'\\\\\\\n  ncategory: 宇宙线传播\\\\n\\\\\\n  status: completed\\\\nread_date: '2026-08-12'\\\\nlastread: '2026-08-12'\\\\ntags:\\\\n- energetic particles\\\\\\\n  n- gamma rays\\\\n- interstellar\\\\\\n  \\\\ medium\\\\n- magnetic fields\\\\n- plasmas\\\\ncitations:\\\\n- '[[cesarsky]]'\\\\n- '[[berezinskii-et-al.]]'\\\\\\\n  n- '[[ginzburg-&-syrovatskii]]'\\\\n\\\\\\n  - '[[ginzburg-&-ptuskin]]'\\\\n- '[[schlickeiser]]'\\\\n- '[[diehl-et-al.]]'\\\\n- '[[kennel-&-engelmann]]'\\\\\\\n  n- '[[seo-&-ptuskin]]'\\\\n\\\\\\n  - '[[simon]]'\\\\n- '[[ptuskin-et-al.]]'\\\\n- '[[goldreich-&-sridhar]]'\\\\n- '[[yan-&-lazarian]]'\\\\\\\n  n- '[[strong-&-moskalenko]]'\\\\n\\\\\\n  - '[[jones-et-al.]]'\\\\n- '[[ptuskin]]'\\\\n- '[[moskalenko-&-strong]]'\\\\n- '[[strong]]'\\\\\\\n  n- '[[strong-et-al.]]'\\\\n- '[[aharonian-et-al.]]'\\\\n\\\\\\n  - '[[mashnik-et-al.]]'\\\\npath: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md\\\"\\\n  \\ncategory: 宇宙线传播\\nstatus: completed\\nread_date: '2026-08-12'\\nlastread: '2026-08-12'\\ntags:\\n- energetic particles\\n- gamma\\\n  \\ rays\\n- interstellar medium\\n- magnetic fields\\n- plasmas\\ncitations:\\n- '[[cesarsky]]'\\n- '[[berezinskii-et-al.]]'\\n\\\n  - '[[ginzburg-&-syrovatskii]]'\\n- '[[ginzburg-&-ptuskin]]'\\n- '[[schlickeiser]]'\\n- '[[diehl-et-al.]]'\\n- '[[kennel-&-engelmann]]'\\n\\\n  - '[[seo-&-ptuskin]]'\\n- '[[simon]]'\\n- '[[ptuskin-et-al.]]'\\n- '[[goldreich-&-sridhar]]'\\n- '[[yan-&-lazarian]]'\\n- '[[strong-&-moskalenko]]'\\n\\\n  - '[[jones-et-al.]]'\\n- '[[ptuskin]]'\\n- '[[moskalenko-&-strong]]'\\n- '[[strong]]'\\n- '[[strong-et-al.]]'\\n- '[[aharonian-et-al.]]'\\n\\\n  - '[[mashnik-et-al.]]'\\npath: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md\"\ncategory: 宇宙线传播\nstatus: completed\nread_date: '2026-08-12'\nlastread: '2026-08-12'\ntags:\n- energetic particles\n- gamma rays\n- interstellar medium\n- magnetic fields\n- plasmas\ncitations:\n- '[[cesarsky]]'\n- '[[berezinskii-et-al.]]'\n- '[[ginzburg-&-syrovatskii]]'\n- '[[ginzburg-&-ptuskin]]'\n- '[[schlickeiser]]'\n- '[[diehl-et-al.]]'\n- '[[kennel-&-engelmann]]'\n- '[[seo-&-ptuskin]]'\n- '[[simon]]'\n- '[[ptuskin-et-al.]]'\n- '[[goldreich-&-sridhar]]'\n- '[[yan-&-lazarian]]'\n- '[[strong-&-moskalenko]]'\n- '[[jones-et-al.]]'\n- '[[ptuskin]]'\n- '[[moskalenko-&-strong]]'\n- '[[strong]]'\n- '[[strong-et-al.]]'\n- '[[aharonian-et-al.]]'\n- '[[mashnik-et-al.]]'\npath: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md",
-    "category": "宇宙线传播",
-    "status": "completed",
-    "read_date": "2026-08-12",
-    "lastread": "2026-08-12",
-    "tags": [
-      "energetic particles",
-      "gamma rays",
-      "interstellar medium",
-      "magnetic fields",
-      "plasmas"
-    ],
-    "citations": [
-      "[[cesarsky]]",
-      "[[berezinskii-et-al.]]",
-      "[[ginzburg-&-syrovatskii]]",
-      "[[ginzburg-&-ptuskin]]",
-      "[[schlickeiser]]",
-      "[[diehl-et-al.]]",
-      "[[kennel-&-engelmann]]",
-      "[[seo-&-ptuskin]]",
-      "[[simon]]",
-      "[[ptuskin-et-al.]]",
-      "[[goldreich-&-sridhar]]",
-      "[[yan-&-lazarian]]",
-      "[[strong-&-moskalenko]]",
-      "[[jones-et-al.]]",
-      "[[ptuskin]]",
-      "[[moskalenko-&-strong]]",
-      "[[strong]]",
-      "[[strong-et-al.]]",
-      "[[aharonian-et-al.]]",
-      "[[mashnik-et-al.]]"
-    ],
-    "path": "01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md",
-    "quality": 5,
-    "key_values": [
-      {
-        "quantity": "物理量",
-        "value": "数值",
-        "uncertainty": "不确定度",
-        "source": "论文来源",
-        "section": "章节"
-      },
-      {
-        "quantity": "$D_{xx}$（3 GV 处，B/C 拟合）",
-        "value": "$(3\\text{–}5)\\times10^{28}$ cm²/s",
-        "uncertainty": "因子 ~2",
-        "source": "Strong et al. 2007",
-        "section": "§3.2, §2.3"
-      },
-      {
-        "quantity": "$D_{xx}$ 刚度依赖（含再加速）",
-        "value": "$\\sim R^{0.3}$（Kolmogorov）",
-        "uncertainty": "—",
-        "source": "Strong et al. 2007",
-        "section": "§2.5"
-      },
-      {
-        "quantity": "$D_{xx}$ 刚度依赖（纯扩散）",
-        "value": "$\\sim R^{0.54}$",
-        "uncertainty": "—",
-        "source": "Strong et al. 2007",
-        "section": "§3.1"
-      },
-      {
-        "quantity": "$D_{xx}$ 刚度依赖区间",
-        "value": "$D_{xx}(p)\\propto p^{\\delta}$，$\\delta\\in[0.3,0.8]$",
-        "uncertainty": "—",
-        "source": "Strong et al. 2007",
-        "section": "§99.10"
-      },
-      {
-        "quantity": "$D_{xx}$（Kraichnan，$R<10^8$ GV）",
-        "value": "$\\approx 2\\times10^{27}\\,\\beta\\,R^{1/3}_{\\text{GV}}$ cm²/s",
-        "uncertainty": "—",
-        "source": "Strong et al. 2007",
-        "section": "§2.3"
-      },
-      {
-        "quantity": "晕高度 $z_h$",
-        "value": "4–6 kpc（¹⁰Be 约束）",
-        "uncertainty": "—",
-        "source": "Strong et al. 2007",
-        "section": "§3.2"
-      },
-      {
-        "quantity": "晕高度 $z_h$（Grenier 2015 综述）",
-        "value": "4–10 kpc",
-        "uncertainty": "—",
-        "source": "Grenier, Black & Strong 2015",
-        "section": "§99.7"
-      }
-    ]
-  },
-  {
     "title": "Origin and Propagation of Extremely High Energy Cosmic Rays",
     "authors": "Pijushpani Bhattacharjee, Günter Sigl",
     "year": "1999",
@@ -516,7 +413,7 @@
     "doi": "10.1146/annurev-astro-082214-122457",
     "arxiv": "未提供",
     "keywords": "γ rays, interstellar medium, interstellar chemistry, dust, superbubbles",
-    "abstract": "## Abstract（中文精读）\n\n\n  **[FACT]** 近年来宇宙线天体物理进展迅速，对其它天文分支的影响不断扩大。众多新实验通过大气中/太空中的直接测量以及 γ 射线、同步辐射的间接测量，拓宽了对宇宙线起源、传播和相互作用信息的获取范围。低能宇宙线对星际化学的影响是一个快速发展的方向，包括这些粒子如何在发生化学反应的云中传播。宇宙线通过其\n  γ 射线产生，也成为探测星际气体含量的强力方式。宇宙线与星际介质相互作用的观测和建模取得了重大进展。\n\n\n  **[FACT]** 综述聚焦于能量 ≤1 TeV 的宇宙线，因为它们与星际作用主要相关；讨论\"九种角色\"以展现宇宙线与其星际栖息地之间多种多样的相互作用。'\ncategory: 宇宙线起源\nstatus: completed\nread_date: '2026-08-12'\nlastread: '2026-08-12'\ntags:\n- γ rays\n- interstellar medium\n- interstellar chemistry\n- dust\n- superbubbles\ncitations: []\npath: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md",
+    "abstract": "## Abstract（中文精读）\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  **[FACT]** 近年来宇宙线天体物理进展迅速，对其它天文分支的影响不断扩大。众多新实验通过大气中/太空中的直接测量以及\\\n  \\ γ\\\\\\n  \\\\ 射线、同步辐射的间接测量，拓宽了对宇宙线起源、传播和相互作用信息的获取范围。低能宇宙线对星际化学的影响是一个快速发展的方向，包括这些粒子如何在发生化学反应的云中传播。宇宙线通过其\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\n  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  γ 射线产生，也成为探测星际气体含量的强力方式。宇宙线与星际介质相互作用的观测和建模取得了重大进展。\\\\\\\n  \\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  **[FACT]** 综述聚焦于能量 ≤1\\\\\\n  \\\\ TeV 的宇宙线，因为它们与星际作用主要相关；讨论\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  n  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"九种角色\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"以展现宇宙线与其星际栖息地之间多种多样的相互作用。'\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\n  category: 宇宙线起源\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\nstatus: completed\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\nread_date: '2026-08-12'\\\\\\\n  \\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\nlastread: '2026-08-12'\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  ntags:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n- γ rays\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\\\\\n- interstellar medium\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  - interstellar chemistry\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\n  n  \\\\\\\\\\\\\\\\n- dust\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n- superbubbles\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ncitations: []\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\npath:\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\n  \\\\\\\\ 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\ncategory:\\\n  \\ 宇宙线起源\\\\\\\\\\\\\\\\nstatus: completed\\\\\\\\\\\\\\\\nread_date:\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\ '2026-08-12'\\\\\\\\\\\\\\\\nlastread: '2026-08-12'\\\\\\\n  \\\\\\\\\\n  \\\\\\\\ntags:\\\\\\\\\\\\\\\\n- γ rays\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  n- interstellar medium\\\\\\\\\\\\\\\\n- interstellar chemistry\\\\\\\\\\\\\\\\n- dust\\\\\\\n  \\\\\\\\\\\\n- superbubbles\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\n  citations: []\\\\\\\\\\\\\\\\npath: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md\\\\\\\n  \\\\\\\\\\\"\\\\\\\\\\\\n  \\\\\\\\ncategory:\\\\\\n  \\\\ 宇宙线起源\\\\\\\\nstatus: completed\\\\\\\\nread_date: '2026-08-12'\\\\\\\\nlastread: '2026-08-12'\\\\\\\n  \\\\ntags:\\\\\\\\n- γ rays\\\\\\\\n- interstellar medium\\\\\\\\\\\\\\n  n\\\\\\\\\\\\n  - interstellar chemistry\\\\\\\\n- dust\\\\\\\\n- superbubbles\\\\\\\n  \\\\ncitations: []\\\\\\\\npath: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md\\\\\\\"\\\\\\n  \\\\ncategory:\\\n  \\ 宇宙线起源\\\\nstatus: completed\\\\nread_date: '2026-08-12'\\\\nlastread: '2026-08-12'\\\\ntags:\\\\n- γ rays\\\\n- interstellar medium\\\\\\\n  n\\\\\\n  - interstellar chemistry\\\\n- dust\\\\n- superbubbles\\\\ncitations: []\\\\npath: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md\\\"\\\n  \\ncategory: 宇宙线起源\\nstatus: completed\\nread_date: '2026-08-12'\\nlastread: '2026-08-12'\\ntags:\\n- γ rays\\n- interstellar medium\\n\\\n  - interstellar chemistry\\n- dust\\n- superbubbles\\ncitations: []\\npath: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md\"\ncategory: 宇宙线起源\nstatus: completed\nread_date: '2026-08-12'\nlastread: '2026-08-12'\ntags:\n- γ rays\n- interstellar medium\n- interstellar chemistry\n- dust\n- superbubbles\ncitations: []\npath: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md",
     "category": "宇宙线起源",
     "status": "completed",
     "read_date": "2026-08-12",
@@ -1114,7 +1011,7 @@
   {
     "title": "Abundances of the elements: Meteoritic and solar",
     "authors": "Edward Anders, Nicolas Grevesse",
-    "year": "1998",
+    "year": "1989",
     "journal": "Geochimica et Cosmochimica Acta",
     "keywords": "solar abundances, CI chondrites, FIP fractionation, s-process, cosmic abundance",
     "category": "恒星核合成",

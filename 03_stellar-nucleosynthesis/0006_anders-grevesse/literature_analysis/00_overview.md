@@ -1,7 +1,7 @@
 ---
 title: 'Abundances of the elements: Meteoritic and solar'
 authors: Edward Anders, Nicolas Grevesse
-year: '1998'
+year: '1989'
 journal: Geochimica et Cosmochimica Acta
 keywords: solar abundances, CI chondrites, FIP fractionation, s-process, cosmic abundance
 category: 恒星核合成

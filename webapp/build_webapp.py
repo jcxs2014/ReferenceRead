@@ -23,6 +23,24 @@ PAPER_INFO = {
     "03_stellar-nucleosynthesis":{"label": "恒星核合成与丰度"},
 }
 
+# Load registry for enriched paper metadata (status, read_date, tags, citations)
+REGISTRY_FILE = HERE / "registry.json"
+_registry: dict = {}
+if REGISTRY_FILE.exists():
+    for e in json.loads(REGISTRY_FILE.read_text(encoding="utf-8")):
+        if e.get("category") == "背景知识":
+            continue
+        # stem is the directory name, e.g. "0001_strong-moskalenko-ptuskin-2007"
+        # path like: 01_cosmic-ray-propagation/0001_.../literature_analysis/00_overview.md
+        parts = e["path"].replace("/00_overview.md", "").split("/")
+        stem = parts[-2] if len(parts) >= 2 else parts[-1]
+        _registry[stem] = e
+
+
+def _paper_reg(stem: str) -> dict:
+    """Return registry entry for a paper stem, or empty dict."""
+    return _registry.get(stem, {})
+
 
 def _clean_author(raw: str) -> str:
     """Strip markdown bold, parenthetical notes, institution info, and all asterisks."""
@@ -240,7 +258,10 @@ def build(include_papers=False, out=None):
                 if not lit.is_dir():
                     continue
                 stem       = paper_dir.name
-                title      = CITATION.get(stem, stem.replace("_", " "))
+                reg        = _paper_reg(stem)
+                raw_title  = reg.get("title", "") or CITATION.get(stem, "")
+                # Strip markdown emphasis from title
+                title      = re.sub(r'\*+([^*])\*+', r'\1', raw_title).strip()
                 paper_slug = f"paper-{slug(stem)}"
 
                 # Collect raw HTML parts
@@ -270,12 +291,17 @@ def build(include_papers=False, out=None):
 
                 stem_yr = re.match(r"\d{4}_.+?-(\d{4})", stem)
                 year    = int(stem_yr.group(1)) if stem_yr else 0
+                reg     = _paper_reg(stem)
                 papers_json.append({
                     "slug":     paper_slug,
                     "label":    title,
                     "year":     year,
                     "stem":     stem,
                     "category": cat_label,
+                    "status":   reg.get("status", "completed"),
+                    "read_date": reg.get("read_date", ""),
+                    "tags":     reg.get("tags", []),
+                    "citations": reg.get("citations", []),
                 })
 
     # ── Inject & write ───────────────────────────────────────────
