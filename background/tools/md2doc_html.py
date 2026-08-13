@@ -18,8 +18,14 @@ def inline_markdown(t_raw):
             # Math segment
             kind = "block" if part.startswith("$$") and part.endswith("$$") else "inline"
             inner = part[2:-2] if kind == "block" else part[1:-1]
-            cls = f'math {"block" if kind=="block" else "inline"}'
-            result.append(f'<span class="{cls}">{inner}</span>')
+            if kind == "block":
+                result.append(
+                    '<span class="math block-wrap">'
+                    '<button class="copy-btn" title="复制 LaTeX 源码">📋 LaTeX</button>'
+                    '<span class="math-inner">' + inner + '</span></span>'
+                )
+            else:
+                result.append(f'<span class="math inline">{inner}</span>')
         else:
             s = html.escape(part, quote=False)
             # bold

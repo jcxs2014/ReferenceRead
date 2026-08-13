@@ -118,9 +118,14 @@ body {
 .doc-section input[type="checkbox"] { margin-right: 4px; }
 
 /* Math */
-.math { color: var(--math); }
-.math.block { display: block; margin: 10px 0; padding: 8px 12px; font-size: 15px; text-align: center; overflow-x: auto; max-width: 100%; }
-.math.block .katex { font-size: inherit; white-space: nowrap; }
+.math { color: var(--math); position: relative; }
+.math.block-wrap { display: block; margin: 10px 0; padding: 8px 12px; font-size: 15px; text-align: center; overflow-x: auto; max-width: 100%; border: 1px solid var(--border); border-radius: 6px; background: var(--code-bg); }
+.math.block-wrap .math-inner { white-space: nowrap; }
+.math.block-wrap .math-inner .katex { font-size: inherit; }
+.copy-btn { display: inline-block; position: absolute; top: 4px; right: 6px; padding: 2px 6px; font-size: 11px; cursor: pointer; border: 1px solid var(--border); border-radius: 4px; background: var(--card); color: var(--fg-2); opacity: 0.4; transition: opacity .2s; user-select: none; }
+.math.block-wrap:hover .copy-btn { opacity: 1; }
+.copy-btn:hover { border-color: var(--accent); color: var(--accent); }
+.copy-btn.copied { color: #2da44e; border-color: #2da44e; }
 .math.inline .katex { white-space: normal; }
 
 /* Paper cross-ref */
@@ -398,9 +403,40 @@ function applyMath() {
     try { katex.render(el.textContent, el, { throwOnError: false, displayMode: false }); }
     catch(e) { el.style.fontFamily = "monospace"; }
   });
-  activeSection.querySelectorAll(".math.block").forEach(el => {
-    try { katex.render(el.textContent, el, { throwOnError: false, displayMode: true }); }
-    catch(e) { el.style.fontFamily = "monospace"; el.style.fontStyle = "italic"; }
+  // Block formulas: wrap with copy button
+  activeSection.querySelectorAll(".math.block-wrap").forEach(wrap => {
+    // Skip if already processed
+    if (wrap.dataset.processed) return;
+    wrap.dataset.processed = "1";
+
+    const inner = wrap.querySelector(".math-inner");
+    const formulaSrc = inner.textContent;
+
+    // Create copy button
+    const btn = document.createElement("button");
+    btn.className = "copy-btn";
+    btn.textContent = "📋 LaTeX";
+    btn.title = "复制 LaTeX 源码";
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      navigator.clipboard.writeText(formulaSrc).then(() => {
+        btn.textContent = "✓ Copied";
+        btn.classList.add("copied");
+        setTimeout(() => { btn.textContent = "📋 LaTeX"; btn.classList.remove("copied"); }, 1500);
+      }).catch(() => {
+        // Fallback
+        const ta = document.createElement("textarea");
+        ta.value = formulaSrc; document.body.appendChild(ta); ta.select();
+        document.execCommand("copy"); document.body.removeChild(ta);
+        btn.textContent = "✓ Copied";
+        setTimeout(() => btn.textContent = "📋 LaTeX", 1500);
+      });
+    });
+    wrap.appendChild(btn);
+
+    // Render KaTeX
+    try { katex.render(formulaSrc, inner, { throwOnError: false, displayMode: true }); }
+    catch(e) { inner.style.fontFamily = "monospace"; inner.style.fontStyle = "italic"; }
   });
 }
 
