@@ -8,6 +8,8 @@ from pathlib import Path
 
 SRC = sys.argv[1] if len(sys.argv) > 1 else ""
 OUT = sys.argv[2] if len(sys.argv) > 2 else "/tmp/fragment.html"
+# Optional doc-id prefix for heading anchors (avoids global id collision across docs)
+DOC_ID = sys.argv[3] if len(sys.argv) > 3 else ""
 
 def inline_markdown(t_raw):
     """Markdown inline formatting, splitting on $...$ to preserve math unescaped."""
@@ -33,9 +35,9 @@ def inline_markdown(t_raw):
             s = re.sub(r"(?<!\*)\*([^*]+?)\*(?!\*)", r"<i>\1</i>", s)
             # code
             s = re.sub(r"`([^`]+?)`", r"<code>\1</code>", s)
-            # link
+            # link: \1 = link text, \2 = URL
             s = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
-                       r'<a href="\1" target="_blank" rel="noopener">\1</a>', s)
+                       r'<a href="\2" target="_blank" rel="noopener">\1</a>', s)
             result.append(s)
     return "".join(result)
 
@@ -96,6 +98,7 @@ def convert(md_text):
     in_code = False
     code_buf = []
     code_lang = ""
+    _seen_anchors = {}
 
     while i < n:
         line = lines[i]
@@ -140,9 +143,21 @@ def convert(md_text):
             flush_table(table_buf); table_buf = []
             flush_quote(quote_buf); quote_buf = []
             txt = m_h.group(2).strip()
-            # Remove trailing link target for anchor id
-            anchor = re.sub(r"[^\w\u4e00-\u9fff0-9-]+", "-", txt).strip("-").lower()
-            out.append(f'<{tag} id="doc-{anchor}">{inline_markdown(txt)}</{tag}>')
+            # Build anchor: keep alnum/CJK/digits, collapse others to dash
+            raw_anchor = re.sub(r"[^\w\u4e00-\u9fff0-9-]+", "-", txt).strip("-").lower()
+            if not raw_anchor:
+                # All-punctuation title → use level; still empty after fallback → add line number
+                bare = re.sub(r"[^\w\u4e00-\u9fff0-9]+", "-", txt).strip("-")
+                raw_anchor = f"h{level}-{bare.lower()}" if bare else f"h{level}-{i}"
+            # Make heading-id unique within this fragment if the same anchor repeats
+            if raw_anchor in _seen_anchors:
+                raw_anchor = f"{raw_anchor}-{_seen_anchors[raw_anchor]}"
+                _seen_anchors[original_anchor] += 1
+            else:
+                original_anchor = raw_anchor
+                _seen_anchors[raw_anchor] = 1
+            prefixed = (DOC_ID + "-" if DOC_ID else "") + "doc-" + raw_anchor
+            out.append(f'<{tag} id="{prefixed}">{inline_markdown(txt)}</{tag}>')
             i += 1
             continue
 

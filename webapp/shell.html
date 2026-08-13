@@ -11,13 +11,13 @@
   --bg:#fff; --bg-2:#f6f8fa; --fg:#24292f; --fg-2:#57606a;
   --border:#d0d7de; --accent:#0969da; --accent-fg:#fff;
   --card:#fff; --code-bg:#f6f8fa; --quote-bg:#f6f8fa; --quote-border:#d0d7de;
-  --math:#24292f; --search-hl:#fff3b0;
+  --math:#24292f; --search-hl:#fff3b0; --kbd-bg:#e8e8e8;
 }
 [data-theme="dark"] {
   --bg:#0d1117; --bg-2:#161b22; --fg:#c9d1d9; --fg-2:#8b949e;
   --border:#30363d; --accent:#58a6ff; --accent-fg:#0d1117;
   --card:#161b22; --code-bg:#1c2128; --quote-bg:#1c2128; --quote-border:#30363d;
-  --math:#c9d1d9; --search-hl:#b88300;
+  --math:#c9d1d9; --search-hl:#9e6a03; --kbd-bg:#21262d;
 }
 * { box-sizing:border-box; margin:0; padding:0; }
 html { scroll-behavior:smooth; }
@@ -29,122 +29,184 @@ body {
 
 /* ─── Layout ─── */
 .app { display:flex; flex-direction:column; height:100vh; overflow:hidden; }
+
 .toolbar {
-  flex-shrink:0; display:flex; align-items:center; gap:12px;
-  padding:10px 18px; background:var(--bg-2); border-bottom:1px solid var(--border);
-  position:sticky; top:0; z-index:100; flex-wrap:wrap;
+  flex-shrink:0; display:flex; align-items:center; gap:8px;
+  padding:8px 16px; background:var(--bg-2); border-bottom:1px solid var(--border);
+  position:sticky; top:0; z-index:100; flex-wrap:nowrap; overflow-x:auto;
 }
-.brand { font-weight:700; font-size:16px; color:var(--accent); white-space:nowrap; }
-.brand small { font-weight:400; color:var(--fg-2); margin-left:4px; }
-.tabs { display:flex; gap:4px; flex-wrap:wrap; }
-.tab-btn {
-  padding:6px 14px; border:1px solid var(--border); border-radius:6px;
-  background:var(--card); color:var(--fg); font-size:13px; cursor:pointer;
-  transition:all .15s; white-space:nowrap;
+.brand { font-weight:700; font-size:15px; color:var(--accent); white-space:nowrap; flex-shrink:0; }
+.brand small { font-weight:400; color:var(--fg-2); margin-left:3px; }
+
+/* Grouped tabs */
+.tab-groups { display:flex; gap:6px; align-items:center; flex:1; overflow-x:auto; flex-shrink:1; }
+.tab-group { position:relative; }
+.tab-group-btn {
+  display:flex; align-items:center; gap:4px;
+  padding:5px 12px; border:1px solid var(--border); border-radius:6px;
+  background:var(--card); color:var(--fg); font-size:12px; cursor:pointer; white-space:nowrap;
+  max-width:180px; overflow:hidden; text-overflow:ellipsis;
 }
-.tab-btn:hover { border-color:var(--accent); }
-.tab-btn.active { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); font-weight:600; }
+.tab-group-btn:hover { border-color:var(--accent); color:var(--accent); }
+.tab-group-btn.active { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); font-weight:600; }
+.tab-group-btn::after { content:"▾"; font-size:10px; margin-left:2px; }
+.tab-group-btn.active::after { content:"▴"; }
+.tab-dropdown {
+  display:none; position:absolute; top:calc(100% + 4px); left:0;
+  background:var(--card); border:1px solid var(--border); border-radius:8px;
+  box-shadow:0 8px 24px rgba(0,0,0,.15); min-width:200px; max-width:320px;
+  z-index:200; max-height:60vh; overflow-y:auto; padding:6px;
+}
+.tab-group.open .tab-dropdown { display:block; }
+.tab-dropdown-item {
+  display:block; padding:7px 12px; border-radius:5px;
+  color:var(--fg); font-size:13px; cursor:pointer; text-decoration:none;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.tab-dropdown-item:hover { background:var(--bg-2); }
+.tab-dropdown-item.active { background:var(--accent); color:var(--accent-fg); font-weight:600; }
+
+/* Search */
 .search-box {
   display:flex; align-items:center; gap:4px;
   padding:5px 10px; border:1px solid var(--border); border-radius:6px;
-  background:var(--card); flex:1; min-width:180px; max-width:360px;
+  background:var(--card); flex-shrink:0; width:200px;
 }
 .search-box input { border:none; outline:none; background:transparent; color:var(--fg); flex:1; font-size:13px; }
-.search-box .count { color:var(--fg-2); font-size:12px; min-width:40px; text-align:right; }
-.controls { display:flex; gap:6px; align-items:center; margin-left:auto; }
+.search-box .count { color:var(--fg-2); font-size:12px; min-width:36px; text-align:right; }
+
+/* Controls */
+.controls { display:flex; gap:4px; align-items:center; flex-shrink:0; }
 .ctrl-btn {
-  padding:5px 10px; border:1px solid var(--border); border-radius:6px;
-  background:var(--card); color:var(--fg-2); font-size:13px; cursor:pointer;
+  padding:5px 9px; border:1px solid var(--border); border-radius:6px;
+  background:var(--card); color:var(--fg-2); font-size:12px; cursor:pointer; white-space:nowrap;
 }
 .ctrl-btn:hover { border-color:var(--accent); color:var(--accent); }
 .ctrl-btn.active { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); }
 
+/* Overlay for mobile */
+#overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.4); z-index:98; }
+.app.sidebar-open #overlay { display:block; }
+
+/* App body */
 .app-body { display:flex; flex:1; overflow:hidden; }
 
 /* Sidebar */
 .sidebar {
-  width:0; flex-shrink:0; overflow-y:auto; overflow-x:hidden;
+  width:0; flex-shrink:0; overflow:hidden;
   border-right:1px solid var(--border); background:var(--bg-2);
-  transition:width .25s; padding:16px 12px;
+  transition:width .25s; padding:0;
+  display:flex; flex-direction:column;
 }
-.app.sidebar-open .sidebar { width:320px; }
-.sidebar h3 { font-size:12px; font-weight:700; color:var(--fg-2); text-transform:uppercase; letter-spacing:.05em; margin-bottom:8px; }
-.toc-item { display:block; padding:4px 8px; font-size:13px; color:var(--fg); text-decoration:none; border-radius:4px; cursor:pointer; }
+.app.sidebar-open .sidebar { width:320px; overflow-y:auto; padding:16px 12px; }
+.sidebar h3 { font-size:11px; font-weight:700; color:var(--fg-2); letter-spacing:.04em; margin-bottom:8px; padding:0 4px; }
+.toc-item { display:block; padding:5px 8px; font-size:13px; color:var(--fg); text-decoration:none; border-radius:4px; cursor:pointer; border-left:3px solid transparent; }
 .toc-item:hover { background:var(--border); }
-.toc-item.active { background:var(--accent); color:var(--accent-fg); font-weight:600; }
+.toc-item.active { background:rgba(9,105,218,.1); border-left-color:var(--accent); color:var(--accent); font-weight:600; }
 .toc-h3 { padding-left:20px; font-size:12px; color:var(--fg-2); }
 .toc-h4 { padding-left:32px; font-size:12px; color:var(--fg-2); }
 
-.main { flex:1; overflow-y:auto; padding:24px 32px; }
+/* Main */
+.main { flex:1; overflow-y:auto; padding:28px 36px; }
 .doc-section { display:none; max-width:900px; margin:0 auto; }
 .doc-section.active { display:block; }
-.doc-section h2 { font-size:22px; border-bottom:1px solid var(--border); padding-bottom:8px; margin:24px 0 16px; color:var(--fg); }
+
+/* Typography */
+.doc-section h2 { font-size:24px; border-bottom:1px solid var(--border); padding-bottom:8px; margin:28px 0 16px; }
 .doc-section h2:first-child { margin-top:0; }
-.doc-section h3 { font-size:18px; margin:20px 0 12px; color:var(--fg); }
-.doc-section h4 { font-size:15px; margin:16px 0 10px; color:var(--fg-2); }
+.doc-section h3 { font-size:19px; margin:22px 0 12px; }
+.doc-section h4 { font-size:16px; font-weight:600; margin:16px 0 10px; }
 .doc-section p { margin:8px 0; }
 .doc-section ul, .doc-section ol { margin:8px 0 8px 20px; }
 .doc-section li { margin:2px 0; }
-.doc-section blockquote { margin:12px 0; padding:8px 14px; background:var(--quote-bg); border-left:4px solid var(--accent); border-radius:4px; color:var(--fg-2); font-size:14px; }
+.doc-section blockquote { margin:12px 0; padding:8px 14px; background:var(--quote-bg); border-left:4px solid var(--quote-border); border-radius:4px; color:var(--fg-2); font-size:14px; }
 .doc-section hr { margin:20px 0; border:none; border-top:1px solid var(--border); }
 .doc-section code { background:var(--code-bg); padding:1px 6px; border-radius:3px; font-size:13px; font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace; }
 .doc-section pre { background:var(--code-bg); padding:12px; border-radius:6px; overflow-x:auto; margin:12px 0; }
 .doc-section pre code { padding:0; font-size:13px; line-height:1.5; }
-.doc-section img { max-width:100%; }
-.doc-section table { width:100%; border-collapse:collapse; margin:12px 0; font-size:13px; }
-.doc-section th, .doc-section td { border:1px solid var(--border); padding:6px 10px; text-align:left; vertical-align:top; }
+.doc-section img { max-width:100%; display:block; margin:12px auto; border-radius:8px; }
+.doc-section table { width:100%; border-collapse:collapse; margin:12px 0; font-size:13.5px; }
+.doc-section th, .doc-section td { border:1px solid var(--border); padding:7px 12px; text-align:left; vertical-align:top; }
 .doc-section th { background:var(--bg-2); font-weight:600; }
+.doc-section tbody tr:nth-child(odd) td { background:var(--bg-2); }
 .doc-section .doc-table { overflow-x:auto; }
 .doc-section input[type="checkbox"] { margin-right:4px; }
 
+/* Math */
 .math { color:var(--math); position:relative; }
-.math.block-wrap { display:block; margin:10px 0; padding:8px 12px; font-size:15px; text-align:center; overflow-x:auto; max-width:100%; border:1px solid var(--border); border-radius:6px; background:var(--code-bg); }
+.math.block-wrap { display:block; margin:10px 0; padding:10px 14px; font-size:15px; text-align:center; overflow-x:auto; max-width:100%; border:1px solid var(--border); border-radius:6px; }
 .math.block-wrap .math-inner { white-space:nowrap; }
 .math.block-wrap .math-inner .katex { font-size:inherit; }
-.copy-btn { display:inline-block; position:absolute; top:4px; right:6px; padding:2px 6px; font-size:11px; cursor:pointer; border:1px solid var(--border); border-radius:4px; background:var(--card); color:var(--fg-2); opacity:.4; transition:opacity .2s; user-select:none; }
+.copy-btn { display:inline-block; position:absolute; top:5px; right:6px; padding:2px 7px; font-size:11px; cursor:pointer; border:1px solid var(--border); border-radius:4px; background:var(--card); color:var(--fg-2); opacity:.7; transition:opacity .2s; user-select:none; }
 .math.block-wrap:hover .copy-btn { opacity:1; }
 .copy-btn:hover { border-color:var(--accent); color:var(--accent); }
 .copy-btn.copied { color:#2da44e; border-color:#2da44e; }
 .math.inline .katex { white-space:normal; }
 
-.paper-preface { margin:28px 0 16px; padding:12px 18px; background:var(--quote-bg); border-left:4px solid var(--accent); border-radius:4px; }
+/* Cards */
+.paper-preface { margin:24px 0 16px; padding:12px 18px; background:var(--quote-bg); border-left:4px solid var(--accent); border-radius:4px; }
 .paper-preface h3 { margin:0; font-size:18px; color:var(--accent); }
-.paper-preface h3::before { content:"📄 "; }
-.paper-ref { margin:20px 0; padding:12px 16px; background:var(--quote-bg); border-left:4px solid var(--accent); border-radius:4px; }
-.paper-ref h4 { margin-top:0; color:var(--accent); }
-.paper-ref a { color:var(--accent); text-decoration:none; }
+.paper-ref { margin:20px 0; padding:12px 16px; background:var(--card); border:1px solid var(--border); border-left:4px solid var(--accent); border-radius:4px; }
+.paper-ref h4 { margin-top:0; color:var(--accent); font-size:14px; }
+.paper-ref a { color:var(--accent); text-decoration:none; margin-right:12px; }
 .paper-ref a:hover { text-decoration:underline; }
 
-.footer { flex-shrink:0; padding:8px 20px; border-top:1px solid var(--border); background:var(--bg-2); font-size:12px; color:var(--fg-2); display:flex; justify-content:space-between; }
+/* Footer */
+.footer { flex-shrink:0; padding:7px 18px; border-top:1px solid var(--border); background:var(--bg-2); font-size:12px; color:var(--fg-2); display:flex; justify-content:space-between; }
+mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px; color:var(--fg); }
 
-mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px; }
+/* Scrollbar */
+::-webkit-scrollbar { width:8px; height:8px; }
+::-webkit-scrollbar-track { background:transparent; }
+::-webkit-scrollbar-thumb { background:var(--border); border-radius:4px; }
+::-webkit-scrollbar-thumb:hover { background:var(--fg-2); }
 
+/* Back to top */
+#btn-top {
+  display:none; position:fixed; bottom:24px; right:24px;
+  width:38px; height:38px; border-radius:50%;
+  background:var(--accent); color:var(--accent-fg); border:none;
+  font-size:18px; cursor:pointer; box-shadow:0 2px 10px rgba(0,0,0,.2);
+  z-index:50; line-height:1; padding-bottom:2px;
+}
+#btn-top.visible { display:flex; align-items:center; justify-content:center; }
+
+/* Print */
 @media print {
-  .toolbar, .sidebar, .footer, .controls { display:none !important; }
+  .toolbar, .sidebar, .footer, .controls, #overlay, #btn-top { display:none !important; }
   .app { display:block; }
   .app-body { display:block; }
-  .main { overflow:visible; height:auto; }
-  .doc-section { display:block !important; page-break-before:always; }
-  .doc-section:first-of-type { page-break-before:avoid; }
+  .main { overflow:visible; height:auto; padding:0; }
+  .doc-section { display:none !important; }
+  .doc-section.active { display:block !important; page-break-after:avoid; }
 }
+
+/* Mobile */
 @media (max-width:900px) {
-  .sidebar { position:fixed; top:50px; left:0; bottom:36px; z-index:99; }
+  .sidebar {
+    position:fixed; top:0; left:0; bottom:0; z-index:99;
+    padding-top:50px;
+  }
   .app.sidebar-open .sidebar { width:300px; }
+  .main { padding:20px 16px; }
+  .search-box { width:140px; }
 }
 </style>
 </head>
 <body>
-<div class="app">
+<div class="app" id="app">
+  <div id="overlay"></div>
+
   <div class="toolbar">
     <div class="brand">papers <small>知识库</small></div>
-    <div class="tabs" id="tabs"></div>
+    <div class="tab-groups" id="tabs"></div>
     <div class="search-box">
       <span>🔍</span>
-      <input id="search-input" type="text" placeholder="全文搜索…" spellcheck="false">
+      <input id="search-input" type="text" placeholder="全文搜索…" spellcheck="false" autocomplete="off">
       <span class="count" id="search-count"></span>
     </div>
     <div class="controls">
-      <button class="ctrl-btn" id="btn-toc" title="目录">☰ 目录</button>
+      <button class="ctrl-btn" id="btn-toc" title="目录">☰</button>
       <button class="ctrl-btn" id="btn-theme" title="主题">🌙</button>
       <button class="ctrl-btn" id="btn-print" title="打印">🖨</button>
     </div>
@@ -159,6 +221,8 @@ mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px
     </main>
   </div>
 
+  <button id="btn-top" title="返回顶部">↑</button>
+
   <div class="footer">
     <span>单文件 · 离线可用 · 断网时公式降级为源码</span>
     <span id="stats"></span>
@@ -166,34 +230,82 @@ mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px
 </div>
 
 <script>
-const DOCS = __DOCS_JSON__;
-const TOCS = __TOC_JSON__;
+const DOCS   = __DOCS_JSON__;
+const TOCS   = __TOC_JSON__;
 const PAPERS = __PAPERS_JSON__;
 
 const LS = "kb_";
-let activeSlug = localStorage.getItem(LS+"active") || DOCS[0].slug;
+
+function safeLsGet(k)  { try { return localStorage.getItem(k); } catch { return null; } }
+function safeLsSet(k,v){ try { localStorage.setItem(k,v); } catch {} }
+function safeLsDel(k)  { try { localStorage.removeItem(k); } catch {} }
+
+let activeSlug   = safeLsGet(LS+"active") || DOCS[0].slug;
 const scrollPos = {};
 
+// ── Init ──────────────────────────────────────────────────────────────────
 function init() {
-  renderTabs();
+  renderTabGroups();
   buildDocs();
   switchDoc(activeSlug);
   applyTheme();
-  renderPaperRef();
-  applyMath();
   updateStats();
 }
 
-function renderTabs() {
-  const tabs = document.getElementById("tabs");
-  tabs.innerHTML = DOCS.map(d =>
-    `<button class="tab-btn${d.slug===activeSlug?' active':''}" data-slug="${d.slug}">${d.title}</button>`
-  ).join("");
-  tabs.querySelectorAll(".tab-btn").forEach(btn => {
-    btn.addEventListener("click", () => switchDoc(btn.dataset.slug));
+// ── Tab groups (H6 fix: dropdown groups instead of 27 flat tabs) ────────────
+function renderTabGroups() {
+  const groups = {};
+  DOCS.forEach(d => {
+    const grp = d.category || "其他";
+    if (!groups[grp]) groups[grp] = [];
+    groups[grp].push(d);
+  });
+
+  const container = document.getElementById("tabs");
+  container.innerHTML = "";
+
+  Object.keys(groups).forEach(grpName => {
+    const items = groups[grpName];
+    const groupDiv = document.createElement("div");
+    groupDiv.className = "tab-group";
+
+    const btn = document.createElement("button");
+    btn.className = "tab-group-btn";
+    btn.textContent = grpName;
+
+    const dropdown = document.createElement("div");
+    dropdown.className = "tab-dropdown";
+
+    items.forEach(d => {
+      const a = document.createElement("div");
+      a.className = "tab-dropdown-item" + (d.slug === activeSlug ? " active" : "");
+      a.textContent = d.title;
+      a.dataset.slug = d.slug;
+      a.addEventListener("click", () => {
+        groupDiv.classList.remove("open");
+        switchDoc(d.slug);
+      });
+      dropdown.appendChild(a);
+    });
+
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      document.querySelectorAll(".tab-group.open").forEach(g => { if (g !== groupDiv) g.classList.remove("open"); });
+      groupDiv.classList.toggle("open");
+    });
+
+    groupDiv.appendChild(btn);
+    groupDiv.appendChild(dropdown);
+    container.appendChild(groupDiv);
+  });
+
+  // Close on outside click
+  document.addEventListener("click", () => {
+    document.querySelectorAll(".tab-group.open").forEach(g => g.classList.remove("open"));
   });
 }
 
+// ── Build all doc sections ──────────────────────────────────────────────────
 function buildDocs() {
   const container = document.getElementById("doc-container");
   container.innerHTML = DOCS.map(d => {
@@ -202,173 +314,245 @@ function buildDocs() {
   }).join("");
 }
 
+// ── TOC render ──────────────────────────────────────────────────────────────
 function renderTOC(slug) {
   const tocDiv = document.getElementById("toc-container");
   if (!tocDiv) return;
-  // TOCS is a flat array; each item has parent_id (the doc slug). Group on the fly.
   const items = TOCS.filter(t => t.parent_id === slug);
-  if (!items.length) { tocDiv.innerHTML = '<h3>目录</h3><p style="color:var(--fg-2);font-size:13px;">无目录</p>'; return; }
+  if (!items.length) {
+    tocDiv.innerHTML = '<h3>目录</h3><p style="color:var(--fg-2);font-size:13px;padding:0 4px">无目录</p>';
+    return;
+  }
   tocDiv.innerHTML = '<h3>目录</h3>' +
     items.map(it => {
       const cls = it.level===2 ? "toc-item" : it.level===3 ? "toc-item toc-h3" : "toc-item toc-h4";
-      return `<a class="${cls}" data-id="${it.id}">${escapeHtml(it.title)}</a>`;
+      return `<div class="${cls}" data-id="${it.id}">${escapeHtml(it.title)}</div>`;
     }).join("");
-  tocDiv.querySelectorAll(".toc-item").forEach(a => {
-    a.addEventListener("click", () => {
-      const sec = document.getElementById(a.dataset.id);
-      if (sec) sec.scrollIntoView({behavior:"smooth",block:"start"});
+  tocDiv.querySelectorAll(".toc-item").forEach(el => {
+    el.addEventListener("click", () => {
+      const target = document.getElementById(el.dataset.id);
+      if (target) {
+        target.scrollIntoView({behavior:"smooth", block:"start"});
+        closeSidebar();
+      }
     });
   });
 }
 
+function closeSidebar() {
+  document.getElementById("app").classList.remove("sidebar-open");
+  document.getElementById("btn-toc").classList.remove("active");
+}
+
+// ── Switch doc ─────────────────────────────────────────────────────────────
 function switchDoc(slug) {
   activeSlug = slug;
-  localStorage.setItem(LS+"active", slug);
-  document.querySelectorAll(".tab-btn").forEach(b => b.classList.toggle("active", b.dataset.slug===slug));
-  document.querySelectorAll(".doc-section").forEach(s => s.classList.toggle("active", s.dataset.slug===slug));
+  safeLsSet(LS+"active", slug);
+
+  // Update tab group buttons
+  document.querySelectorAll(".tab-group-btn").forEach(b => {
+    b.classList.toggle("active", b.textContent === getDoc(slug).category);
+  });
+  document.querySelectorAll(".tab-dropdown-item").forEach(a => {
+    a.classList.toggle("active", a.dataset.slug === slug);
+  });
+
+  // Show correct section
+  document.querySelectorAll(".doc-section").forEach(s => {
+    s.classList.toggle("active", s.dataset.slug === slug);
+  });
+
   renderTOC(slug);
   const main = document.getElementById("main");
   if (scrollPos[slug] !== undefined) main.scrollTop = scrollPos[slug];
   else main.scrollTop = 0;
+
   applyMath();
+  // Close sidebar on mobile after switching
+  if (window.innerWidth <= 900) closeSidebar();
 }
 
+function getDoc(slug) {
+  return DOCS.find(d => d.slug === slug) || DOCS[0];
+}
+
+// ── Base64 decode ─────────────────────────────────────────────────────────
 function decodeBase64(s) {
-  return decodeURIComponent(atob(s).split("").map(c => "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2)).join(""));
+  return decodeURIComponent(
+    atob(s).split("").map(c => "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2)).join("")
+  );
 }
-function escapeHtml(s) { return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function escapeHtml(s) {
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
 
+// ── Search ─────────────────────────────────────────────────────────────────
 function doSearch(query) {
   const count = document.getElementById("search-count");
+  // Remove old highlights
   document.querySelectorAll("mark.search-hl").forEach(m => m.replaceWith(m.textContent));
-  if (!query || query.trim().length<1) { count.textContent=""; return; }
-  const re = new RegExp(escapeRegex(query.trim()), "gi");
-  const sec = document.querySelector(`section[data-slug="${activeSlug}"]`);
-  if (!sec) return;
+  if (!query || query.trim().length < 1) { count.textContent = ""; return; }
+
+  const q = query.trim();
+  // Build fresh regex each time (no global state pollution)
+  const re = new RegExp(escapeRegex(q), "gi");
   let total = 0;
-  const walk = (node) => {
-    Array.from(node.childNodes).forEach(child => {
-      if (child.nodeType===3 && re.test(child.textContent)) {
+
+  // Walk all sections for cross-doc search
+  document.querySelectorAll(".doc-section").forEach(sec => {
+    const nodes = [];
+    const walker = document.createTreeWalker(sec, NodeFilter.SHOW_TEXT, null, false);
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(textNode => {
+      // Skip KaTeX rendered elements
+      const parent = textNode.parentElement;
+      if (parent && (parent.closest(".katex") || parent.closest(".math"))) return;
+
+      if (re.test(textNode.textContent)) {
+        re.lastIndex = 0; // reset for next use
         const frag = document.createDocumentFragment();
-        const parts = child.textContent.split(re);
-        for (let i=0;i<parts.length;i++) {
+        const parts = textNode.textContent.split(re);
+        re.lastIndex = 0;
+        for (let i = 0; i < parts.length; i++) {
           if (parts[i]) frag.appendChild(document.createTextNode(parts[i]));
-          if (i<parts.length-1) { total++; const m=document.createElement("mark"); m.className="search-hl"; m.textContent=query.trim(); frag.appendChild(m); }
+          if (i < parts.length - 1) {
+            total++;
+            const m = document.createElement("mark");
+            m.className = "search-hl";
+            m.textContent = q;
+            frag.appendChild(m);
+          }
         }
-        node.replaceChild(frag, child);
-      } else if (child.nodeType===1 && child.tagName!=="SCRIPT" && child.tagName!=="STYLE") {
-        walk(child);
+        textNode.parentNode.replaceChild(frag, textNode);
       }
     });
-  };
-  walk(sec);
-  count.textContent = total ? `${total} 命中` : "无";
-  if (total>0) { const f=sec.querySelector("mark.search-hl"); if(f) f.scrollIntoView({behavior:"smooth",block:"center"}); }
-}
-function escapeRegex(s) { return s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"); }
+  });
 
+  count.textContent = total ? `${total} 命中` : "无";
+  if (total > 0) {
+    const first = document.querySelector("mark.search-hl");
+    if (first) first.scrollIntoView({behavior:"smooth", block:"center"});
+  }
+}
+function escapeRegex(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+
+// ── Theme ──────────────────────────────────────────────────────────────────
 function applyTheme() {
-  const t = localStorage.getItem(LS+"theme") || "light";
+  const t = safeLsGet(LS+"theme") || "light";
   document.documentElement.setAttribute("data-theme", t);
-  document.getElementById("btn-theme").textContent = t==="dark" ? "☀️" : "🌙";
+  document.getElementById("btn-theme").textContent = t === "dark" ? "☀️" : "🌙";
 }
 document.getElementById("btn-theme").addEventListener("click", () => {
-  const cur = document.documentElement.getAttribute("data-theme") || "light";
-  const next = cur==="dark" ? "light" : "dark";
+  const cur  = document.documentElement.getAttribute("data-theme") || "light";
+  const next = cur === "dark" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", next);
-  localStorage.setItem(LS+"theme", next);
-  document.getElementById("btn-theme").textContent = next==="dark" ? "☀️" : "🌙";
+  safeLsSet(LS+"theme", next);
+  document.getElementById("btn-theme").textContent = next === "dark" ? "☀️" : "🌙";
 });
 
+// ── Scroll tracking + active TOC item ─────────────────────────────────────
 document.getElementById("main").addEventListener("scroll", () => {
-  scrollPos[activeSlug] = document.getElementById("main").scrollTop;
-  const sec = document.querySelector(`section[data-slug="${activeSlug}"]`);
+  const main  = document.getElementById("main");
+  const slug  = activeSlug;
+  scrollPos[slug] = main.scrollTop;
+
+  const sec = document.querySelector(`section[data-slug="${slug}"]`);
   if (!sec) return;
   let cur = null;
   sec.querySelectorAll("h2,h3,h4").forEach(h => {
-    if (h.getBoundingClientRect().top - document.getElementById("main").getBoundingClientRect().top < 120) cur = h;
+    if (h.getBoundingClientRect().top - main.getBoundingClientRect().top < 120) cur = h;
   });
   document.querySelectorAll(".toc-item").forEach(a => a.classList.remove("active"));
-  if (cur) { const a = document.querySelector(`.toc-item[data-id="${cur.id}"]`); if(a) a.classList.add("active"); }
+  if (cur) {
+    const a = document.querySelector(`.toc-item[data-id="${cur.id}"]`);
+    if (a) a.classList.add("active");
+  }
+
+  // Back-to-top button visibility
+  document.getElementById("btn-top").classList.toggle("visible", main.scrollTop > 600);
+});
+document.getElementById("btn-top").addEventListener("click", () => {
+  document.getElementById("main").scrollTo({top:0, behavior:"smooth"});
 });
 
+// ── Math rendering (H2 fix: data-processed guard for inline) ───────────────
 function applyMath() {
   if (!window.katex) return;
   const sec = document.querySelector(`section[data-slug="${activeSlug}"]`);
   if (!sec) return;
+
+  // Inline: guard with data-processed
   sec.querySelectorAll(".math.inline").forEach(el => {
+    if (el.dataset.processed) return;
+    el.dataset.processed = "1";
     try { katex.render(el.textContent, el, {throwOnError:false, displayMode:false}); }
-    catch(e) { el.style.fontFamily="monospace"; }
+    catch(e) { el.style.fontFamily = "monospace"; }
   });
+
+  // Block: already has guard (wrap.dataset.processed)
   sec.querySelectorAll(".math.block-wrap").forEach(wrap => {
     if (wrap.dataset.processed) return;
     wrap.dataset.processed = "1";
     const inner = wrap.querySelector(".math-inner");
-    const src = inner.textContent;
-    const btn = document.createElement("button");
+    const src   = inner.textContent;
+    const btn   = document.createElement("button");
     btn.className = "copy-btn";
     btn.textContent = "📋 LaTeX";
     btn.title = "复制 LaTeX 源码";
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
-      navigator.clipboard.writeText(src).then(() => {
-        btn.textContent="✓ Copied"; btn.classList.add("copied");
-        setTimeout(() => { btn.textContent="📋 LaTeX"; btn.classList.remove("copied"); }, 1500);
-      }).catch(() => {
-        const ta=document.createElement("textarea"); ta.value=src; document.body.appendChild(ta); ta.select();
-        document.execCommand("copy"); document.body.removeChild(ta);
-        btn.textContent="✓ Copied"; setTimeout(() => btn.textContent="📋 LaTeX", 1500);
-      });
+      navigator.clipboard.writeText(src).then(
+        () => { btn.textContent="✓"; btn.classList.add("copied"); setTimeout(()=>{btn.textContent="📋 LaTeX";btn.classList.remove("copied");},1500); },
+        () => { const t=document.createElement("textarea"); t.value=src; document.body.appendChild(t); t.select(); document.execCommand("copy"); document.body.removeChild(t); btn.textContent="✓"; setTimeout(()=>btn.textContent="📋 LaTeX",1500); }
+      );
     });
     wrap.appendChild(btn);
     try { katex.render(src, inner, {throwOnError:false, displayMode:true}); }
-    catch(e) { inner.style.fontFamily="monospace"; }
+    catch(e) { inner.style.fontFamily = "monospace"; }
   });
 }
 
+// ── Stats (M7 fix: dynamic from DOCS/PAPERS/TOCS) ─────────────────────────
 function updateStats() {
-  const totalChars = DOCS.reduce((s,d) => s + (d.size||0), 0);
+  const bgDocs  = DOCS.filter(d => d.category === "背景知识").length;
+  const papers  = PAPERS.length;
+  const tocTerms = new Set(TOCS.map(t => t.title)).size;
   document.getElementById("stats").textContent =
-    `3 篇知识库 · 21 篇论文 · 664 术语 · HTML ${Math.round(totalChars/1024)} KB`;
+    `${bgDocs} 篇知识库 · ${papers} 篇论文 · ${tocTerms} 目录项`;
 }
 
+// ── Keyboard shortcuts ──────────────────────────────────────────────────────
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT") return;
+  if (e.key === "/") {
+    e.preventDefault();
+    document.getElementById("search-input").focus();
+  }
+  if (e.key === "Escape") {
+    document.getElementById("search-input").value = "";
+    doSearch("");
+    e.target.blur();
+  }
+  if (e.key === "t" || e.key === "T") {
+    document.getElementById("btn-theme").click();
+  }
+});
+
+// ── Event listeners ────────────────────────────────────────────────────────
 document.getElementById("search-input").addEventListener("input", e => doSearch(e.target.value));
 document.getElementById("search-input").addEventListener("keydown", e => {
-  if (e.key==="Escape") { e.target.value=""; doSearch(""); e.target.blur(); }
+  if (e.key === "Escape") { e.target.value = ""; doSearch(""); e.target.blur(); }
 });
+
 document.getElementById("btn-toc").addEventListener("click", () => {
-  const app = document.querySelector(".app");
-  app.classList.toggle("sidebar-open");
-  document.getElementById("btn-toc").classList.toggle("active");
+  const app = document.getElementById("app");
+  const open = app.classList.toggle("sidebar-open");
+  document.getElementById("btn-toc").classList.toggle("active", open);
 });
+document.getElementById("overlay").addEventListener("click", closeSidebar);
 document.getElementById("btn-print").addEventListener("click", () => window.print());
 
-// Paper cross-references: link paper mentions in rendered content
-function renderPaperRef() {
-  DOCS.forEach(d => {
-    const sec = document.querySelector(`section[data-slug="${d.slug}"]`);
-    if (!sec || !sec.textContent) return;
-    const text = sec.textContent;
-    const mentioned = PAPERS.filter(p => {
-      const m = p.label.match(/\((\d{4})\)/);
-      if (!m) return false;
-      return text.includes(m[1]);
-    });
-    if (mentioned.length===0) return;
-    const seen=new Set(), unique=[];
-    for (const p of mentioned) { if(seen.has(p.dir)) continue; seen.add(p.dir); unique.push(p); }
-    if (unique.length===0) return;
-    const div = document.createElement("div");
-    div.className = "paper-ref";
-    div.innerHTML = `<h4>📄 本章涉及论文（${unique.length} 篇）</h4>` +
-      unique.map(p => `<a href="#" data-pref-slug="${p.slug}">${p.label}</a>`).join(" · ");
-    sec.appendChild(div);
-    div.querySelectorAll("a").forEach(a => {
-      a.addEventListener("click", (e) => { e.preventDefault(); switchDoc(a.dataset.prefSlug); });
-    });
-  });
-}
-
+// ── Start ───────────────────────────────────────────────────────────────────
 init();
 </script>
 </body>
