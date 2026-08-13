@@ -1,3 +1,33 @@
+---
+title: Solar System Abundances and Condensation Temperatures of the Elements
+authors: Katharina Lodders
+year: '2003'
+journal: The Astrophysical Journal (ApJ)
+doi: 未提供
+arxiv: 未提供
+keywords: Solar system abundances; condensation temperatures; photospheric abundances; meteoritic (CI chondrite) abundances;
+  elemental abundances; solar composition; nebular condensation; mass fractions X, Y, Z; Z/X ratio; settling/diffusion
+category: 恒星核合成
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- Solar system abundances
+- condensation temperatures
+- photospheric abundances
+- meteoritic (CI chondrite) abundances
+- elemental abundances
+- solar composition
+- nebular condensation
+- mass fractions X
+- Y
+- Z
+- Z/X ratio
+- settling/diffusion
+citations:
+- '[[solar-system-abundances-and-condensation]]'
+path: 03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overview.md
+---
 > 本章属于：Solar System Abundances and Condensation Temperatures of the Elements (Lodders 2003, ApJ 591:1220)
 >
 > 下一章：`01_introduction.md`
@@ -129,4 +159,5 @@
 ### 后续阅读
 
 - [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 6 年后 AGSS09
+
 

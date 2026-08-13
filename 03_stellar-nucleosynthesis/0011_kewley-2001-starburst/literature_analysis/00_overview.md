@@ -1,3 +1,22 @@
+---
+title: Theoretical Modeling of Starburst Galaxies
+authors: L. J. Kewley, M. A. Dopita, R. S. Sutherland, C. A. Heisler, J. Trevena
+year: '2001'
+journal: The Astrophysical Journal, 556:121–140 (2001)
+keywords: starburst, H II regions, abundance diagnostics, Wolf-Rayet stars, stellar population synthesis
+category: 恒星核合成
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- starburst
+- H II regions
+- abundance diagnostics
+- Wolf-Rayet stars
+- stellar population synthesis
+citations: []
+path: 03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview.md
+---
 # 00. Overview — 文献基本信息
 
 > 本章属于：Kewley et al. (2001) — Theoretical Modeling of Starburst Galaxies, ApJ 556:121
@@ -54,4 +73,5 @@
 
 - [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 太阳丰度作金属丰度零点
 - [`0006_grenier-2015`](../../../02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md) — Grenier 2015 §8 综述星暴星系 CR 角色
+
 

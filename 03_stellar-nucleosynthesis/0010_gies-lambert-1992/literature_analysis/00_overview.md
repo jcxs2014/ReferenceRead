@@ -1,3 +1,19 @@
+---
+title: Carbon, nitrogen, and oxygen abundances in early B-type stars
+authors: Douglas R. Gies（Georgia State University）; David L. Lambert（University of Texas, Austin）
+year: '1992'
+journal: The Astrophysical Journal, **Vol. 387, pp. 673–700**
+doi: 未提供
+arxiv: 未提供
+category: 恒星核合成
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags: []
+citations:
+- '[[gies-&-lambert-(1992)-—-apj-387:673]]'
+path: 03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview.md
+---
 # 0. 文献基本信息
 
 > 本精读档案属于：Gómez & Lambert (1992) — "Carbon, nitrogen, and oxygen abundances in early B-type stars", ApJ 387:673
@@ -134,4 +150,5 @@ REFERENCES
 - [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 太阳丰度基线（AGSS09 是更新版本）
 - [`0005_champagne-wiescher-1992`](../../0005_champagne-wiescher-1992/literature_analysis/00_overview.md) — CNO 循环与爆炸性 CNO 循环的观测约束
 - [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 §4 太阳中微子问题与 CNO 循环
+
 

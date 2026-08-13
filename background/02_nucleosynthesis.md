@@ -1,3 +1,15 @@
+---
+title: 02_nucleosynthesis
+category: 背景知识
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- '02'
+- nucleosynthesis
+citations: []
+path: background/02_nucleosynthesis.md
+---
 # 2. 恒星核合成（背景知识体系）
 
 > 本文件基于以下 6 篇文献的 `literature_analysis/` 精读结果整理：
@@ -908,3 +920,4 @@ $$\xi(M) \propto M^{-\alpha},\quad \alpha = 2.35$$
 ---
 
 *本文件基于 6 篇恒星核合成核心文献的 `literature_analysis/` 精读分析编写，给出概念框架、关键公式与数值。如需更详细的某过程推导或实验进展，请参考对应论文的全文分析。*
+

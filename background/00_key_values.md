@@ -1,3 +1,16 @@
+---
+title: 00_key_values
+category: 背景知识
+status: completed
+read_date: '2026-08-13'
+lastread: '2026-08-13'
+tags:
+- '00'
+- key
+- values
+citations: []
+path: background/00_key_values.md
+---
 # 全库关键数值速查表
 
 > 自动生成：从 21 篇 99_final_summary.md 中提取 §15.4（或对应最终总结）中最重要数值，按主题分类整理。所有数值均保留原文不确定度与量纲；公式以 LaTeX $...$ 呈现。
@@ -392,3 +405,4 @@
 ---
 
 *来源文件（21 篇 99_final_summary.md）：Strong-Moskalenko-Ptuskin 2007（§1.1）；Bhattacharjee & Sigl 1999（§1.3）；Al-Dargazelli 1996（§1.3）；Gaisser 1990（§1.2）；Blasi 2013（§1.4）；Amato 2014（§1.4）；Grenier-Black-Strong 2015（§1.4）；Biermann 1996（§1.4）；B²FH 1957（§2.1）；Trimble 1975（§2.1）；Fowler 1984（§2.1）；Wallerstein 1997（§2.1）；Champagne & Wiescher 1992（§2.2）；Kewley 2001（§2.3）；Dieterich 2014（§2.4）；Anders & Grevesse 1989（§3）；Grevesse & Sauval 1998（§3）；Lodders 2003（§3）；AGSS09（§3）；Gies & Lambert 1992（§3.4）；Bertone & Hooper 2018（§4）。*
+

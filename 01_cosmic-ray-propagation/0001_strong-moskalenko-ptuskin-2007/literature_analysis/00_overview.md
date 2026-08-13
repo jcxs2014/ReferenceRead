@@ -1,3 +1,78 @@
+---
+title: Cosmic-ray propagation and interactions in the Galaxy
+authors: Andrew W. Strong¹, Igor V. Moskalenko², Vladimir S. Ptuskin³
+year: '2007'
+journal: Reviews of Modern Physics（根据格式推断，arXiv 上标注为 RMP 投稿，2008 年 2 月为草稿日期）
+doi: 10.1103/RevModPhys.79.2451
+arxiv: arXiv:astro-ph/0701517v1
+keywords: energetic particles, gamma rays, interstellar medium, magnetic fields, plasmas
+abstract: "## 0.2 Abstract（中文精读）\\\\n\\\\n\\\\n  ### 原文\\\\n\\\\n\\\\n  > We survey the theory and experimental tests for\
+  \ the propagation\\\n  \\ of\\\\\\n  \\\\ cosmic rays in the Galaxy up to energies of 10¹⁵ eV.\\\\n  A guide to the previous\
+  \ reviews and essential literature\\\n  \\ is given,\\\\\\n  \\\\ followed by an exposition of basic principles. The basic\\\
+  \\n  ideas of cosmic-ray propagation are described,\\\n  \\ and the physical\\\\\\n  \\\\ origin of its processes are explained.\
+  \ The various techniques\\\\n  for computing the observational\\\n  \\ consequences of the theory\\\\\\n  \\\\ are described\
+  \ and contrasted. These include analytical and numerical\\\\n  techniques.\\\n  \\ We present the comparison of models\\\
+  \\\\n  \\\\ with data including direct and indirect – especially gamma-ray – observations,\\\\\\\n  n  and indicate what\
+  \ we can learn about\\\\\\n  \\\\ cosmic-ray propagation. Some particular important topics including electrons\\\n  \\ and\
+  \ antiparticles\\\\n  are chosen for discussion.\\\\n\\\\\\n  \\\\n\\\\n  ### 自然中文\\\\n\\\\n\\\\n  本文综述了银河系中宇宙线传播至 10¹⁵\
+  \ eV 能量的理论与实验检验。首先给出了以往综述和重要文献的导览，随后阐述基本原理。介绍了宇宙线传播的基本思想及其物理起源，描述并比较了计算理论观测后果的各种方法——包括解析法和数值法。呈现了模型与数据的比较，涵盖直接观测和间接观测（尤其是伽马射线），并指出我们能从中学到关于宇宙线传播的什么知识。选取电子和反物质等若干重要专题进行讨论。\\\
+  \\\\\n  n\\\\\\n  \\\\n\\\\n  ### 关键词与要点\\\\n\\\\n\\\\n  - **能量上限**：10¹⁵ eV（\\\\\\\"膝\\\\\\\"区，作者明确排除高于此能量的宇宙线）\\\\n\\\\\
+  n  - **直接观测**：气球/卫星直接探测到的粒子\\\\n\\\\\\\n  n  - **间接观测**：通过伽马射线和同步辐射\\\\n\\\\\\n  \\\\n  - **核心方法对比**：解析法 vs. 数值法（作者倾向数值法）\\\
+  \\n\\\\n  - **专题**：电子、正电子、反质子、同步辐射\\\\n\\\\n\\\\n  ### [FACT]\\\\\\\n  n\\\\n\\\\n  作者声明：\\\\\\\"concerning the origin\\\
+  \\\\n  \\\\ of CR, we will, for the most part, sidestep this problem\\\\\\\"——即本篇**不讨论宇宙线起源问题**。也明确排除了太阳调制、星系团和外银河宇宙线。'\\\
+  \\\\\n  ncategory: 宇宙线传播\\\\n\\\\\\n  status: completed\\\\nread_date: '2026-08-12'\\\\nlastread: '2026-08-12'\\\\ntags:\\\
+  \\n- energetic particles\\\\\\\n  n- gamma rays\\\\n- interstellar\\\\\\n  \\\\ medium\\\\n- magnetic fields\\\\n- plasmas\\\
+  \\ncitations:\\\\n- '[[cesarsky]]'\\\\n- '[[berezinskii-et-al.]]'\\\\\\\n  n- '[[ginzburg-&-syrovatskii]]'\\\\n\\\\\\n \
+  \ - '[[ginzburg-&-ptuskin]]'\\\\n- '[[schlickeiser]]'\\\\n- '[[diehl-et-al.]]'\\\\n- '[[kennel-&-engelmann]]'\\\\\\\n  n-\
+  \ '[[seo-&-ptuskin]]'\\\\n\\\\\\n  - '[[simon]]'\\\\n- '[[ptuskin-et-al.]]'\\\\n- '[[goldreich-&-sridhar]]'\\\\n- '[[yan-&-lazarian]]'\\\
+  \\\\\n  n- '[[strong-&-moskalenko]]'\\\\n\\\\\\n  - '[[jones-et-al.]]'\\\\n- '[[ptuskin]]'\\\\n- '[[moskalenko-&-strong]]'\\\
+  \\n- '[[strong]]'\\\\\\\n  n- '[[strong-et-al.]]'\\\\n- '[[aharonian-et-al.]]'\\\\n\\\\\\n  - '[[mashnik-et-al.]]'\\\\npath:\
+  \ 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md\\\"\\\n  \\ncategory:\
+  \ 宇宙线传播\\nstatus: completed\\nread_date: '2026-08-12'\\nlastread: '2026-08-12'\\ntags:\\n- energetic particles\\n- gamma\\\
+  \n  \\ rays\\n- interstellar medium\\n- magnetic fields\\n- plasmas\\ncitations:\\n- '[[cesarsky]]'\\n- '[[berezinskii-et-al.]]'\\\
+  n\\\n  - '[[ginzburg-&-syrovatskii]]'\\n- '[[ginzburg-&-ptuskin]]'\\n- '[[schlickeiser]]'\\n- '[[diehl-et-al.]]'\\n- '[[kennel-&-engelmann]]'\\\
+  n\\\n  - '[[seo-&-ptuskin]]'\\n- '[[simon]]'\\n- '[[ptuskin-et-al.]]'\\n- '[[goldreich-&-sridhar]]'\\n- '[[yan-&-lazarian]]'\\\
+  n- '[[strong-&-moskalenko]]'\\n\\\n  - '[[jones-et-al.]]'\\n- '[[ptuskin]]'\\n- '[[moskalenko-&-strong]]'\\n- '[[strong]]'\\\
+  n- '[[strong-et-al.]]'\\n- '[[aharonian-et-al.]]'\\n\\\n  - '[[mashnik-et-al.]]'\\npath: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md\"\
+  \ncategory: 宇宙线传播\nstatus: completed\nread_date: '2026-08-12'\nlastread: '2026-08-12'\ntags:\n- energetic particles\n- gamma\
+  \ rays\n- interstellar medium\n- magnetic fields\n- plasmas\ncitations:\n- '[[cesarsky]]'\n- '[[berezinskii-et-al.]]'\n\
+  - '[[ginzburg-&-syrovatskii]]'\n- '[[ginzburg-&-ptuskin]]'\n- '[[schlickeiser]]'\n- '[[diehl-et-al.]]'\n- '[[kennel-&-engelmann]]'\n\
+  - '[[seo-&-ptuskin]]'\n- '[[simon]]'\n- '[[ptuskin-et-al.]]'\n- '[[goldreich-&-sridhar]]'\n- '[[yan-&-lazarian]]'\n- '[[strong-&-moskalenko]]'\n\
+  - '[[jones-et-al.]]'\n- '[[ptuskin]]'\n- '[[moskalenko-&-strong]]'\n- '[[strong]]'\n- '[[strong-et-al.]]'\n- '[[aharonian-et-al.]]'\n\
+  - '[[mashnik-et-al.]]'\npath: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md"
+category: 宇宙线传播
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- energetic particles
+- gamma rays
+- interstellar medium
+- magnetic fields
+- plasmas
+citations:
+- '[[cesarsky]]'
+- '[[berezinskii-et-al.]]'
+- '[[ginzburg-&-syrovatskii]]'
+- '[[ginzburg-&-ptuskin]]'
+- '[[schlickeiser]]'
+- '[[diehl-et-al.]]'
+- '[[kennel-&-engelmann]]'
+- '[[seo-&-ptuskin]]'
+- '[[simon]]'
+- '[[ptuskin-et-al.]]'
+- '[[goldreich-&-sridhar]]'
+- '[[yan-&-lazarian]]'
+- '[[strong-&-moskalenko]]'
+- '[[jones-et-al.]]'
+- '[[ptuskin]]'
+- '[[moskalenko-&-strong]]'
+- '[[strong]]'
+- '[[strong-et-al.]]'
+- '[[aharonian-et-al.]]'
+- '[[mashnik-et-al.]]'
+path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md
+---
 # 00. Overview — 文献基本信息与结构
 
 > 本章属于：Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)
@@ -177,4 +252,5 @@
 ### 后续阅读
 
 - [`0004_blasi-2013`](../../../02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 综述 SNR 作为银河宇宙线起源
+
 

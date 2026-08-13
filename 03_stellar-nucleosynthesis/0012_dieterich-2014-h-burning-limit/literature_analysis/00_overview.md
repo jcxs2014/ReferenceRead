@@ -1,3 +1,21 @@
+---
+title: The Solar Neighborhood. XXXII. The Hydrogen Burning Limit
+authors: S. B. Dieterich, T. J. Henry, W.-C. Jao, J. G. Winters, A. J. Hosey, C. T. Riedel, J. P. Subasavage
+year: '2014'
+journal: The Astronomical Journal, 147:94 (2014)
+keywords: M dwarfs, brown dwarfs, hydrogen burning limit, trigonometric parallax
+category: 恒星核合成
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- M dwarfs
+- brown dwarfs
+- hydrogen burning limit
+- trigonometric parallax
+citations: []
+path: 03_stellar-nucleosynthesis/0012_dieterich-2014-h-burning-limit/literature_analysis/00_overview.md
+---
 # 00. Overview — 文献基本信息
 
 > 本章属于：Dieterich et al. (2014) — The Solar Neighborhood XXXII. The Hydrogen Burning Limit, AJ 147:94
@@ -54,4 +72,5 @@
 
 - [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 §4 氢燃烧的演化理论
 - [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — Wallerstein 1997 §3 pp 链与 CNO 循环
+
 

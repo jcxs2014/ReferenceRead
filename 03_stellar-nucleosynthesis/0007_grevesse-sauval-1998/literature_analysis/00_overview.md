@@ -1,3 +1,22 @@
+---
+title: Standard Solar Composition
+authors: N. Grevesse, A. J. Sauval
+year: '1998'
+journal: Space Science Reviews
+keywords: solar abundances, photosphere, CI chondrites, Fe abundance, X/Y/Z
+category: 恒星核合成
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- solar abundances
+- photosphere
+- CI chondrites
+- Fe abundance
+- X/Y/Z
+citations: []
+path: 03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/00_overview.md
+---
 # 00. Overview — 文献基本信息
 
 > 本章属于：Grevesse & Sauval (1998) — Standard Solar Composition, Space Sci. Rev. 85:161–174
@@ -62,4 +81,5 @@
 ### 后续阅读
 
 - [`0008_lodders-2003`](../../0008_lodders-2003/literature_analysis/00_overview.md) — 5 年后更新版本
+
 

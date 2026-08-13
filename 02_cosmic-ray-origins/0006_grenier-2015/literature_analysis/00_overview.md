@@ -1,3 +1,28 @@
+---
+title: The Nine Lives of Cosmic Rays in Galaxies
+authors: Isabelle A. Grenier, John H. Black, Andrew W. Strong
+year: '2015'
+journal: Annual Review of Astronomy and Astrophysics, Volume 53, pp. 199–246
+doi: 10.1146/annurev-astro-082214-122457
+arxiv: 未提供
+keywords: γ rays, interstellar medium, interstellar chemistry, dust, superbubbles
+abstract: "## Abstract（中文精读）\n\n\n  **[FACT]** 近年来宇宙线天体物理进展迅速，对其它天文分支的影响不断扩大。众多新实验通过大气中/太空中的直接测量以及 γ 射线、同步辐射的间接测量，拓宽了对宇宙线起源、传播和相互作用信息的获取范围。低能宇宙线对星际化学的影响是一个快速发展的方向，包括这些粒子如何在发生化学反应的云中传播。宇宙线通过其\n\
+  \  γ 射线产生，也成为探测星际气体含量的强力方式。宇宙线与星际介质相互作用的观测和建模取得了重大进展。\n\n\n  **[FACT]** 综述聚焦于能量 ≤1 TeV 的宇宙线，因为它们与星际作用主要相关；讨论\"九种角色\"以展现宇宙线与其星际栖息地之间多种多样的相互作用。'\n\
+  category: 宇宙线起源\nstatus: completed\nread_date: '2026-08-12'\nlastread: '2026-08-12'\ntags:\n- γ rays\n- interstellar medium\n\
+  - interstellar chemistry\n- dust\n- superbubbles\ncitations: []\npath: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md"
+category: 宇宙线起源
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- γ rays
+- interstellar medium
+- interstellar chemistry
+- dust
+- superbubbles
+citations: []
+path: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md
+---
 > 本章属于：The Nine Lives of Cosmic Rays in Galaxies（Grenier, Black & Strong 2015）
 >
 > 下一章：`01_scope_and_nine_lives.md`
@@ -123,4 +148,5 @@ Introduction / Scope of the Review
 - [`0004_blasi-2013`](../../0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 与 Grenier 2015 在 PeVatron 论证上互补
 - [`0009_asplund-2009-solar-composition`](../../../03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — CR 元素丰度比较依赖太阳丰度标准
 - [`0011_kewley-2001-starburst`](../../../03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview.md) — Grenier 2015 §8 综述星暴星系中 CR 角色
+
 

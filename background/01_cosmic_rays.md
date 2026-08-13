@@ -1,3 +1,16 @@
+---
+title: 01_cosmic_rays
+category: 背景知识
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- '01'
+- cosmic
+- rays
+citations: []
+path: background/01_cosmic_rays.md
+---
 # 1. 宇宙线物理（背景知识体系）
 
 > 本综述整合 8 篇核心文献的精确精读分析，覆盖银河系宇宙线（GCR）传播、加速、观测约束、超高能宇宙线（UHECR）起源、以及宇宙线与星系的相互作用。主要参考文献包括 Strong, Moskalenko & Ptuskin (2007, RMP 79:2451)、Bhattacharjee & Sigl (1999, Phys. Rep. 320:1)、Al-Dargazelli et al. (1996)、Gaisser (1990)、Blasi (2013, A&AR 21:70)、Amato (2014, arXiv:1406.7714)、Grenier, Black & Strong (2015, ARA&A 53:199)、Biermann (1996, astro-ph/9609110)。
@@ -671,3 +684,4 @@ O 离子序列效率由 $f(\text{H}_2)$ 限制。H₂O⁺/OH⁺ 比对 $f(\text{
 | Biermann 三源 射电星系热点谱（注入） | $E^{-2.0}$ | Biermann 1996 |
 | 分子云壳层 grammage | $\sim 1$ g/cm² | Biermann 1996 |
 | Biermann 三种 regime 切换（1→2） | $\sim 20$ GeV/n | Biermann 1996 |
+

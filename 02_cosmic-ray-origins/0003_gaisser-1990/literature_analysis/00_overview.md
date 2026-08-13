@@ -1,3 +1,23 @@
+---
+title: Origin of high energy galactic cosmic rays
+authors: T. K. Gaisser
+year: '1990'
+journal: AIP Conference Proceedings 203, 168 (1990)
+doi: 10.1063/1.39149
+keywords: cosmic ray knee, supernova remnants, JACEE, antiproton, leaky box
+category: 宇宙线起源
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- cosmic ray knee
+- supernova remnants
+- JACEE
+- antiproton
+- leaky box
+citations: []
+path: 02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview.md
+---
 # 00. Overview — 文献基本信息
 
 > 本章属于：T. K. Gaisser (1990) "Origin of high energy galactic cosmic rays", AIP Conf. Proc. 203, 168
@@ -51,4 +71,5 @@
 
 - [`0001_bhattacharjee-sigl-2000`](../../0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md) — 1990 → 1999/2000 综述升级
 - [`0004_blasi-2013`](../../0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 用现代 DSA 重新审视 Gaisser 1990 的膝部问题
+
 

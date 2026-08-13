@@ -1,3 +1,39 @@
+---
+title: 'Synthesis of the elements in stars: forty years of progress'
+authors: George Wallerstein, Icko Iben, Jr., Peter Parker, Ann Merchant Boesgaard, Gerald M. Hale, Arthur E. Champagne, Charles
+  A. Barnes, Franz Käppeler, Verne V. Smith, Robert D. Hoffman, Frank X. Timmes, Chris Sneden, Richard N. Boyd, Bradley S.
+  Meyer, David L. Lambert
+year: '1997'
+journal: Reviews of Modern Physics, Vol. 69, No. 4, October 1997, pp. 995–1084 (共 90 页)
+doi: S0034-6861(97)00204-3
+arxiv: 未提供
+keywords: stellar nucleosynthesis, B2FH, AGB 星，s 过程，r 过程，超新星核合成，元素起源，恒星演化，pp 链，CNO 循环，AGB nucleosynthesis, r-process site
+  **说明**：本文不是单一"研究论文"，而是 15 位作者在 B2FH 1957 年经典综述发表 40 周年之际撰写的**大跨学科综合综述**。每一章节由该子领域权威撰写。因此阅读时必须按"多作者合著综述"的规范处理：每个 section
+  的作者、立场、数据源都不同，不能一概而论
+category: 恒星核合成
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- stellar nucleosynthesis
+- B2FH
+- AGB 星
+- s 过程
+- r 过程
+- 超新星核合成
+- 元素起源
+- 恒星演化
+- pp 链
+- CNO 循环
+- AGB nucleosynthesis
+- r-process site **说明**：本文不是单一"研究论文"
+- 而是 15 位作者在 B2FH 1957 年经典综述发表 40 周年之际撰写的**大跨学科综合综述**。每一章节由该子领域权威撰写。因此阅读时必须按"多作者合著综述"的规范处理：每个 section 的作者
+- 立场
+- 数据源都不同
+- 不能一概而论
+citations: []
+path: 03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md
+---
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
 > 下一章：`01_preface_introduction.md`
@@ -151,4 +187,5 @@ B2FH 1957 原始框架（8 过程）
 ### 后续阅读
 
 - [`0005_champagne-wiescher-1992`](../../0005_champagne-wiescher-1992/literature_analysis/00_overview.md) — 爆炸性氢燃烧的更细致处理
+
 

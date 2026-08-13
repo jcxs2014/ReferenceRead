@@ -1,3 +1,32 @@
+---
+title: '*Synthesis of the Elements in Stars*'
+authors: K. MARGARET BURBIDGE; G. R. BURBIDGE; WILLIAM A. FOWLER; F. HOYLE
+year: '1957'
+journal: '*Reviews of Modern Physics*, Vol. 29, No. 4'
+doi: 10.1103/RevModPhys.29.547（本 PDF 未直接给出 DOI，由引文推断）
+arxiv: 未提供（1957 年出版，早于 arXiv）
+keywords: 核合成、r 过程、s 过程、p 过程、α 过程、ε 过程、Big Bang 核合成、超新星、中子俘获、元素丰度、恒星演化、技术锝（Tc⁹⁹）、超重元素
+category: 恒星核合成
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- 核合成
+- r 过程
+- s 过程
+- p 过程
+- α 过程
+- ε 过程
+- Big Bang 核合成
+- 超新星
+- 中子俘获
+- 元素丰度
+- 恒星演化
+- 技术锝（Tc⁹⁹）
+- 超重元素
+citations: []
+path: 03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md
+---
 > 本章属于：Burbidge, Burbidge, Fowler, Hoyle (1957) — *Synthesis of the Elements in Stars* (B²FH)
 >
 > 下一章：`01_introduction.md`
@@ -176,4 +205,5 @@ XIII. Conclusion (P95)
 ### 后续阅读
 
 - [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — B²FH 40 年进展综述
+
 

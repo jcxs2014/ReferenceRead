@@ -1,3 +1,14 @@
+---
+title: README
+category: 背景知识
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- README
+citations: []
+path: background/README.md
+---
 # Background — 背景知识体系
 
 基于 21 篇文献精读的系统整理，按主题组织为三份背景知识文档。

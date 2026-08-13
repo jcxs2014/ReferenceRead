@@ -1,3 +1,15 @@
+---
+title: 03_astrophysics
+category: 背景知识
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- '03'
+- astrophysics
+citations: []
+path: background/03_astrophysics.md
+---
 # 03. 天体物理背景知识体系 — 太阳丰度、恒星核合成与暗物质
 
 > **范围**：本文件综合 `03_stellar-nucleosynthesis/` 下 7 篇精读论文的知识要点，
@@ -641,3 +653,4 @@ GS98 Y=0.248
   Dieterich 2014, Bertone & Hooper 2018
 - **面向主题**：太阳丰度作为核合成/化学演化基准
 - **最后更新**：2026-08-12
+

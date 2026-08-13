@@ -1,3 +1,22 @@
+---
+title: Explosive Hydrogen Burning
+authors: A. E. Champagne；M. Wiescher
+year: '1992'
+journal: Annual Review of Nuclear and Particle Science
+doi: 未提供
+arxiv: 无
+keywords: nucleosynthesis, hot CNO cycles, rp-process
+category: 恒星核合成
+status: completed
+read_date: '2026-08-12'
+lastread: '2026-08-12'
+tags:
+- nucleosynthesis
+- hot CNO cycles
+- rp-process
+citations: []
+path: 03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview.md
+---
 # 00. 文献概览 (Overview)
 
 > 本章属于：**Explosive Hydrogen Burning** (Champagne & Wiescher, 1992)
@@ -152,4 +171,5 @@ LITERATURE CITED (p.74-76, 123 references)
 
 - [`0010_gies-lambert-1992`](../../0010_gies-lambert-1992/literature_analysis/00_overview.md) — Gies-Lambert 1992 提供 B 型星 CNO 观测，约束爆炸性 H 燃烧
 - [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 §4 是 Champagne-Wiescher 1992 的前身
+
 

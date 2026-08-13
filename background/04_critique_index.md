@@ -1,3 +1,16 @@
+---
+title: 04_critique_index
+category: 背景知识
+status: completed
+read_date: '2026-08-13'
+lastread: '2026-08-13'
+tags:
+- '04'
+- critique
+- index
+citations: []
+path: background/04_critique_index.md
+---
 # 全库 CRITIQUE 观点汇总
 
 > 自动从 21 篇 `literature_analysis/*.md` 提取的 [CRITIQUE] 标签内容汇总，聚焦批判性观点与领域争议点。共覆盖宇宙线传播（1 篇）、宇宙线起源（7 篇）、恒星核合成（13 篇）三大子库，约 **300 条** [CRITIQUE] 标注。
@@ -304,3 +317,4 @@
 ---
 
 *本文件由系统自动从 21 篇 `literature_analysis/*.md` 的 [CRITIQUE] 标注汇总生成，覆盖 ~300 条批判性观点。*
+
