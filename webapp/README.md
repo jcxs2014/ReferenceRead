@@ -49,7 +49,16 @@ webapp/
 - 块公式自动添加「📋 LaTeX」复制按钮
 - 不输出 `<html>/<body>` 标签——只输出文档正文片段
 
-## 使用方式
+## 构建流程
+
+```
+背景 Markdown ─┐                            ┌─→ shell.html (骨架)
+               ├─→ md2doc_html.py ─→ HTML   ├─→ base64 编码 ─→ 注入 DOCS 占位符
+论文 Markdown ─┘      fragment    │         ├─→ 提取 TOC   ─→ 注入 TOC 占位符
+                                  │         └─→ 论文元数据  ─→ 注入 PAPERS 占位符
+                                  │
+                    webapp/interactive.html (4.4 MB 单文件)
+```
 
 ```bash
 cd papers
