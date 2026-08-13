@@ -203,6 +203,7 @@ def build(include_papers=False, out=None):
     papers_json = []
 
     bg_files = [
+        ("00_home.md",             "知识库首页"),
         ("00_key_values.md",      "全库关键数值速查表"),
         ("01_cosmic_rays.md",     "宇宙线（传播与起源）"),
         ("02_nucleosynthesis.md", "恒星核合成"),

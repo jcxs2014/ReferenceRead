@@ -197,3 +197,87 @@ papers/background/
 - [ ] 21 篇论文交叉跳转链接指向正确路径
 - [ ] 主题切换、进度记忆刷新后保持
 - [ ] 打印样式导出干净（M4 后）
+
+---
+
+# V2 增强方案（2026-08-13 用户询问后立项，审查报告附 10 后）
+
+> 背景：webapp 已稳定可用（27 文档 / 5MB 单文件 / 全部修复收敛）。以下为三项增强的方向与具体改法，按性价比排序。执行侧确认后实施。
+
+## E2（首推）懒解码 —— 首屏 DOM 构建 27→1 个文档
+
+- **问题**：`buildDocs()` 一次性 decode 全部 27 个 b64 并注入 27 个 `<section>`（约 5MB 字符串），首屏卡顿（M9）。
+- **改法**（shell.html）：
+  ```js
+  const docCache = {};   // slug -> decoded HTML
+  function getDocHTML(slug) {
+    if (!(slug in docCache)) {
+      const d = DOCS.find(x => x.slug === slug);
+      docCache[slug] = decodeBase64(d.b64 || d.body_b64);
+    }
+    return docCache[slug];
+  }
+  // buildDocs(): 只渲染当前文档 section
+  // switchDoc(slug): 先确保该 section 存在（没有则 append），再切换 active
+  ```
+  要点：初始只构建 `activeSlug` 的 section；切换时按需 append + 缓存；TOC/搜索遍历全部 section 的逻辑需适配（搜索可改为"对已加载 section 搜索 + 未加载文档只查标题/摘要"或保持全量构建 TOC 但正文懒加载）。
+- **收益**：首屏 DOM 构建从 ~5MB 降到 ~200KB（约 10–25 倍）；本地文件下载体积不变。
+- **工作量**：约 0.5–1 单元。
+
+## E3（顺手）b64 → UTF-8 直存 —— 文件 5.0MB → ~3.7MB
+
+- **问题**：base64 编码有 33% 体积膨胀。
+- **改法**（build_webapp.py）：`json.dumps` 直接放 HTML 字符串（`ensure_ascii=False` 已处理中文/引号），删掉 `decodeBase64()`，shell 中 `DOCS[i].html` 直接用。注意 JSON 字符串内不能有裸 `</script>`（HTML 内容含 `</script>` 会截断——b64 正是为此引入；改用 `</scr` + `ipt` 转义或确保 md 转换器不输出裸 script 标签，转换器不输出 script 所以安全）。
+- **收益**：体积 -26%；解析少一层解码。
+- **工作量**：约 0.3 单元。建议与 E2 一起做。
+
+## E1 轻量首页 —— 默认文档（成本最低）
+
+- **做法**：新增 `background/00_home.md`，`build_webapp.py` 的 `bg_files` 数组首位加入 `("00_home.md", "首页")`，使其成为 `DOCS[0]`（默认打开）。
+- **内容建议**：库定位一句话；三个主题组（传播 1 / 起源 7 / 核合成 13）各一段介绍 + 入口；推荐阅读路径（背景 README 已有：入门 → 核合成 → 宇宙线）；速查表 / 术语表 / CRITIQUE 三个工具入口。
+- **收益**：新用户进来有上下文、有路径；几乎零成本（1 个 md + 重建）。
+- **工作量**：0.2 单元（写 md）。
+
+## E4（远期）真分模块 —— 仅当"部署到服务器"时
+
+- **约束**：`file://` 协议下 `fetch` 本地文件被 CORS 拦截，多文件按需加载会破坏"双击打开离线"卖点。
+- **触发条件**：库持续增长至 >10MB，且接受部署静态服务器（或本地起 http server）。
+- **做法**：`index.html`（壳）+ 每文档一个 `.json`（或 `docs/01.json`…），`fetch` 按需加载；服务端 gzip（HTML 文本可再压 5–6 倍）。
+- **不触发时**：永远走 E2+E3（单文件 + 懒解码 + 紧凑编码）。
+
+## 执行顺序建议
+
+1. **E2 + E3**（首屏性能 + 体积，一起改，一次构建）
+2. **E1**（首页，0.2 单元）
+3. **N3 已关闭 / B2 TOC 限级 + M6 无障碍**（低优先，可与 E1 同批）
+4. **E4**（远期，触发条件满足再做）
+
+> 与本方案配套的验证：构建后跑附 4 断言（id 唯一双向 / label 合法 / stats 一致），UI 改动附双端截图。
+
+---
+
+## V2 补充（2026-08-13 用户反馈后追加）
+
+### E1 增补：当前文档面包屑（方案 B，与首页同批）
+
+- **问题**：组按钮显示文档标题（H6D2）破坏导航语义（用户确认"不太好"）；方案 A（组按钮恒显组名）为最小修正，面包屑为可选增强。
+- **做法**：组按钮永远显示组名（删掉 switchDoc 中 `b.textContent = getDoc(slug).title`）；在主区顶部加静态面包屑 `组名 / 当前文档标题`（如 `背景知识 / 宇宙线（传播与起源）`），switchDoc 时更新。
+- **归属**：与 E1 首页同批实施。
+
+### E5 下拉菜单现代化（用户评价"上个世纪的作品"，独立视觉打磨）
+
+- **问题**：无动画硬切、active 整块 accent 填充（按钮样式）、单层浅阴影无层次、13px 小字无分组分区。
+- **改造**（CSS 级，不动 JS 逻辑）：
+  ```css
+  .tab-dropdown { border-radius:12px; padding:8px;
+    box-shadow:0 4px 16px rgba(0,0,0,.12), 0 16px 48px rgba(0,0,0,.18); }
+  .tab-group.open .tab-dropdown { animation:menuIn .12s ease-out; }
+  @keyframes menuIn { from{opacity:0; transform:translateY(-4px)} to{opacity:1; transform:none} }
+  .tab-dropdown-item { padding:8px 14px; border-radius:6px; border-left:3px solid transparent; }
+  .tab-dropdown-item:hover { background:rgba(var(--accent-rgb),.08); }
+  .tab-dropdown-item.active { background:rgba(var(--accent-rgb),.10); color:var(--accent);
+    border-left-color:var(--accent); font-weight:600; }
+  .tab-dropdown hr { margin:6px 8px; border-top:1px solid var(--border); }
+  ```
+  建议在 `:root`/dark 分别定义 `--accent-rgb`（light: 9,105,218 / dark: 88,166,255）；分组分隔线按需加。
+- **优先级**：低-中（纯视觉），建议与 E1 批一起做。

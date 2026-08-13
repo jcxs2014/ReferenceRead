@@ -210,21 +210,21 @@ mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px
 
   <div class="toolbar">
     <div class="brand">papers <small>知识库</small></div>
-    <div class="tab-groups" id="tabs"></div>
+    <div class="tab-groups" id="tabs" role="tablist" aria-label="文档分类"></div>
     <div class="search-box">
       <span>🔍</span>
-      <input id="search-input" type="text" placeholder="全文搜索…" spellcheck="false" autocomplete="off">
-      <span class="count" id="search-count"></span>
+      <input id="search-input" type="text" placeholder="全文搜索…" spellcheck="false" autocomplete="off" aria-label="搜索文档">
+      <span class="count" id="search-count" aria-live="polite" aria-atomic="true"></span>
     </div>
     <div class="controls">
-      <button class="ctrl-btn" id="btn-toc" title="目录">☰</button>
-      <button class="ctrl-btn" id="btn-theme" title="主题">🌙</button>
-      <button class="ctrl-btn" id="btn-print" title="打印">🖨</button>
+      <button class="ctrl-btn" id="btn-toc" title="目录" aria-expanded="false" aria-controls="sidebar" aria-label="打开目录">☰</button>
+      <button class="ctrl-btn" id="btn-theme" title="主题" aria-label="切换明暗主题">🌙</button>
+      <button class="ctrl-btn" id="btn-print" title="打印" aria-label="打印当前文档">🖨</button>
     </div>
   </div>
 
   <div class="app-body">
-    <aside class="sidebar" id="sidebar">
+    <aside class="sidebar" id="sidebar" aria-label="目录">
       <div id="toc-container"></div>
     </aside>
     <main class="main" id="main">
@@ -284,17 +284,24 @@ function renderTabGroups() {
     btn.className = "tab-group-btn";
     btn.dataset.grp = grpName;
     btn.textContent = grpName;
+    btn.setAttribute("aria-haspopup", "true");
+    btn.setAttribute("aria-expanded", "false");
 
     const dropdown = document.createElement("div");
     dropdown.className = "tab-dropdown";
+    dropdown.setAttribute("role", "menu");
 
     items.forEach(d => {
       const a = document.createElement("button");
       a.className = "tab-dropdown-item" + (d.slug === activeSlug ? " active" : "");
       a.textContent = d.title;
       a.dataset.slug = d.slug;
+      a.setAttribute("role", "menuitem");
+      a.setAttribute("tabindex", "0");
+      if (d.slug === activeSlug) a.setAttribute("aria-current", "true");
       a.addEventListener("click", () => {
         groupDiv.classList.remove("open");
+        btn.setAttribute("aria-expanded", "false");
         switchDoc(d.slug);
       });
       dropdown.appendChild(a);
@@ -302,8 +309,26 @@ function renderTabGroups() {
 
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
-      document.querySelectorAll(".tab-group.open").forEach(g => { if (g !== groupDiv) g.classList.remove("open"); });
-      groupDiv.classList.toggle("open");
+      document.querySelectorAll(".tab-group.open").forEach(g => {
+        if (g !== groupDiv) {
+          g.classList.remove("open");
+          g.querySelector(".tab-group-btn").setAttribute("aria-expanded", "false");
+        }
+      });
+      const isOpen = groupDiv.classList.toggle("open");
+      btn.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    // Keyboard nav: Arrow keys cycle dropdown items, Esc closes
+    btn.addEventListener("keydown", (e) => {
+      const items = [...dropdown.querySelectorAll(".tab-dropdown-item")];
+      if (!items.length) return;
+      const open = groupDiv.classList.contains("open");
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        if (!open) { groupDiv.classList.add("open"); btn.setAttribute("aria-expanded", "true"); }
+        else { items[0].focus(); }
+      }
     });
 
     groupDiv.appendChild(btn);
@@ -399,6 +424,7 @@ function renderTOC(slug) {
 function closeSidebar() {
   document.getElementById("app").classList.remove("sidebar-open");
   document.getElementById("btn-toc").classList.remove("active");
+  document.getElementById("btn-toc").setAttribute("aria-expanded", "false");
 }
 
 // ── Switch doc ─────────────────────────────────────────────────────────────
@@ -610,6 +636,7 @@ document.getElementById("btn-toc").addEventListener("click", () => {
   const app = document.getElementById("app");
   const open = app.classList.toggle("sidebar-open");
   document.getElementById("btn-toc").classList.toggle("active", open);
+  document.getElementById("btn-toc").setAttribute("aria-expanded", String(open));
 });
 document.getElementById("overlay").addEventListener("click", closeSidebar);
 document.getElementById("btn-print").addEventListener("click", () => window.print());
