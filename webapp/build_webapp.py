@@ -33,7 +33,7 @@ if REGISTRY_FILE.exists():
         # stem is the directory name, e.g. "0001_strong-moskalenko-ptuskin-2007"
         # path like: 01_cosmic-ray-propagation/0001_.../literature_analysis/00_overview.md
         parts = e["path"].replace("/00_overview.md", "").split("/")
-        stem = parts[-2] if len(parts) >= 2 else parts[-1]
+        stem = parts[-3] if len(parts) >= 3 else parts[-1]
         _registry[stem] = e
 
 
@@ -294,7 +294,7 @@ def build(include_papers=False, out=None):
                 reg     = _paper_reg(stem)
                 papers_json.append({
                     "slug":     paper_slug,
-                    "label":    title,
+                    "label":    _fmt_authors(reg.get("authors", "")) + f" ({year})" if reg.get("authors") else title,
                     "year":     year,
                     "stem":     stem,
                     "category": cat_label,

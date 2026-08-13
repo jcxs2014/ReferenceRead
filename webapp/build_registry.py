@@ -58,7 +58,7 @@ def parse_frontmatter(path: Path):
     if not lines or lines[0].strip() != "---":
         return None, None
     end = None
-    for i in range(1, min(len(lines), 80)):
+    for i in range(1, min(len(lines), 1000)):
         if lines[i].strip() == "---":
             end = i
             break
