@@ -11,6 +11,15 @@
     /api/progress          → GET 全部 21 篇进度（JSON）
     /api/rebuild           → POST/SET 跑 build_registry.py + build_webapp.py（一键重建）
 
+slug 契约:
+    API 的 slug = 论文**目录名**，下划线分隔：`0003_fowler-1984`（stem 格式）。
+    注意与 webapp 产物内 id 不同（`paper-0003-fowler-1984`，连字符）——
+    前端集成时需转换：`slug.replace("_", "-")` → `paper-${that}`。
+
+rebuild 顺序依赖:
+    registry (build_registry.py) 失败 → 跳过 webapp 构建，返回 500 + registry_failed:true，
+    杜绝"webapp 用旧 registry 重建成功"的静默半成功。
+
 进度数据在**源 md frontmatter**（唯一事实源），registry 是派生物、不参与进度读取。
 """
 import json
@@ -124,16 +133,29 @@ class Handler(BaseHTTPRequestHandler):
                 r1 = subprocess.run(
                     [sys.executable, str(WEBAPP / "build_registry.py")],
                     cwd=ROOT, capture_output=True, text=True, timeout=120)
+                # 顺序依赖：registry 失败 → 跳过 webapp 构建（防静默半成功）
+                if r1.returncode != 0:
+                    self._json({
+                        "ok": False,
+                        "registry_failed": True,
+                        "webapp_skipped": True,
+                        "registry_rc": r1.returncode,
+                        "registry_tail": (r1.stderr or r1.stdout).strip()[-500:],
+                        "hint": "build_registry 失败（常见：当前 Python 无 PyYAML）。"
+                                "修复环境后重试：python3 -m pip install pyyaml 或改用含 yaml 的解释器",
+                    }, 500)
+                    return
                 r2 = subprocess.run(
                     [sys.executable, str(WEBAPP / "build_webapp.py"), "--include-papers"],
                     cwd=ROOT, capture_output=True, text=True, timeout=300)
-                ok = r1.returncode == 0 and r2.returncode == 0
+                ok = r2.returncode == 0
                 self._json({
                     "ok": ok,
+                    "registry_failed": False,
                     "registry_rc": r1.returncode,
                     "webapp_rc": r2.returncode,
-                    "registry_tail": r1.stderr.strip()[-300:] or r1.stdout.strip()[-300:],
-                    "webapp_tail": r2.stderr.strip()[-300:] or r2.stdout.strip()[-300:],
+                    "registry_tail": (r1.stderr or r1.stdout).strip()[-300:],
+                    "webapp_tail": (r2.stderr or r2.stdout).strip()[-300:],
                 }, 200 if ok else 500)
             except subprocess.TimeoutExpired:
                 self._json({"ok": False, "error": "timeout"}, 500)
