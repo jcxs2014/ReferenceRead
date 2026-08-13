@@ -51,8 +51,12 @@ body {
   background: var(--bg);
 }
 
-/* ───── Layout ───── */
-.app { display: grid; grid-template-columns: 280px 1fr; grid-template-rows: auto 1fr auto; min-height: 100vh; }
+// ───── Layout ─────
+.app { display: grid; grid-template-columns: 0 1fr; grid-template-rows: auto 1fr auto; min-height: 100vh; transition: grid-template-columns .2s; }
+.app.sidebar-open { grid-template-columns: 320px 1fr; }
+/* Sidebar */
+.sidebar { display: none; border-right: 1px solid var(--border); background: var(--bg-2); overflow-y: auto; height: calc(100vh - 56px - 36px); padding: 16px 12px; }
+.app.sidebar-open .sidebar { display: block; }
 .toolbar { grid-column: 1 / -1; display: flex; align-items: center; gap: 12px; padding: 12px 20px; background: var(--bg-2); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; flex-wrap: wrap; }
 .brand { font-weight: 700; font-size: 16px; color: var(--accent); white-space: nowrap; }
 .brand small { font-weight: 400; color: var(--fg-2); margin-left: 4px; }
@@ -84,8 +88,6 @@ body {
 }
 .ctrl-btn:hover { border-color: var(--accent); color: var(--accent); }
 
-/* Side panels */
-.sidebar { border-right: 1px solid var(--border); background: var(--bg-2); overflow-y: auto; height: calc(100vh - 56px); padding: 16px 12px; }
 .sidebar h3 { font-size: 12px; font-weight: 700; color: var(--fg-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; }
 .toc-item { display: block; padding: 4px 8px; font-size: 13px; color: var(--fg); text-decoration: none; border-radius: 4px; cursor: pointer; }
 .toc-item:hover { background: var(--border); }
@@ -156,7 +158,7 @@ mark.search-hl { background: var(--search-hl); padding: 1px 2px; border-radius: 
 @media (max-width: 900px) {
   .app { grid-template-columns: 1fr; grid-template-rows: auto auto 1fr auto; }
   .sidebar { height: 200px; border-right: none; border-bottom: 1px solid var(--border); display: none; }
-  .sidebar.open { display: block; }
+  .app.sidebar-open .sidebar { display: block; }
   .main { height: auto; }
   .search-box { max-width: 100%; }
 }
@@ -220,7 +222,7 @@ function init() {
 function renderTabs() {
   const tabs = document.getElementById("tabs");
   tabs.innerHTML = DOCS.map(d =>
-    `<button class="tab-btn${d.slug===activeSlug?' active':''}" data-slug="${d.slug}">${d.label}</button>`
+    `<button class="tab-btn${d.slug===activeSlug?' active':''}" data-slug="${d.slug}">${d.title}</button>`
   ).join("");
   tabs.querySelectorAll(".tab-btn").forEach(btn => {
     btn.addEventListener("click", () => switchDoc(btn.dataset.slug));
@@ -456,9 +458,7 @@ document.getElementById("search-input").addEventListener("keydown", e => {
   if (e.key === "Escape") { e.target.value = ""; doSearch(""); e.target.blur(); }
 });
 document.getElementById("btn-toc").addEventListener("click", () => {
-  const sb = document.getElementById("sidebar");
-  if (window.getComputedStyle(sb).display === "none") sb.style.display = "block";
-  else sb.classList.toggle("open");
+  document.documentElement.querySelector(".app")?.classList.toggle("sidebar-open");
 });
 document.getElementById("btn-print").addEventListener("click", () => window.print());
 
