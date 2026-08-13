@@ -14,7 +14,7 @@ tags:
 - abundance diagnostics
 - Wolf-Rayet stars
 - stellar population synthesis
-citations: ["0009_asplund-2009-solar-composition", "0006_grenier-2015"]
+citations: []
 path: 03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview.md
 ---
 # 00. Overview — 文献基本信息

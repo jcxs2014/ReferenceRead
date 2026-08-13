@@ -16,7 +16,8 @@ tags:
 - solar atmosphere
 - spectral line formation
 - convection
-citations: ["0006_grenier-2015", "0007_biermann-1996", "0010_gies-lambert-1992", "0011_kewley-2001-starburst"]
+citations:
+- '[[asplund-et-al]]'
 path: 03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview.md
 ---
 > 本章属于：Asplund, Grevesse, Sauval & Scott (2009) The chemical composition of the Sun (arXiv:0909.0948 / Ann. Rev. A&A 47, 481)

@@ -31,7 +31,7 @@ tags:
 - 立场
 - 数据源都不同
 - 不能一概而论
-citations: ["0005_champagne-wiescher-1992", "0009_asplund-2009-solar-composition"]
+citations: []
 path: 03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md
 ---
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)

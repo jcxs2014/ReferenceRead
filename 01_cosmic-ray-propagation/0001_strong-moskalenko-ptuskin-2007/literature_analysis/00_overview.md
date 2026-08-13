@@ -52,10 +52,29 @@ tags:
 - interstellar medium
 - magnetic fields
 - plasmas
-citations: ["0004_blasi-2013", "0005_amato-2014", "0006_grenier-2015", "0007_biermann-1996", "0013_bertone-hooper-2018"]
+citations:
+- '[[cesarsky]]'
+- '[[berezinskii-et-al.]]'
+- '[[ginzburg-&-syrovatskii]]'
+- '[[ginzburg-&-ptuskin]]'
+- '[[schlickeiser]]'
+- '[[diehl-et-al.]]'
+- '[[kennel-&-engelmann]]'
+- '[[seo-&-ptuskin]]'
+- '[[simon]]'
+- '[[ptuskin-et-al.]]'
+- '[[goldreich-&-sridhar]]'
+- '[[yan-&-lazarian]]'
+- '[[strong-&-moskalenko]]'
+- '[[jones-et-al.]]'
+- '[[ptuskin]]'
+- '[[moskalenko-&-strong]]'
+- '[[strong]]'
+- '[[strong-et-al.]]'
+- '[[aharonian-et-al.]]'
+- '[[mashnik-et-al.]]'
 path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md
 ---
-
 # 00. Overview — 文献基本信息与结构
 
 > 本章属于：Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)

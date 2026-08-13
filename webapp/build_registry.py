@@ -40,6 +40,7 @@ BACKGROUND_FILES = {
     "03_astrophysics.md",
     "04_critique_index.md",
     "05_glossary.md",
+    "06_controversy_evolution.md",
 }
 
 

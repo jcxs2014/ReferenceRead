@@ -10,7 +10,8 @@ status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'
 tags: []
-citations: ["0005_amato-2014", "0006_grenier-2015"]
+citations:
+- '[[the-origin-of-galactic-cosmic-rays（blasi]]'
 path: 02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md
 ---
 # 0. 文献基本信息

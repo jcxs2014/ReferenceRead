@@ -14,7 +14,8 @@ tags:
 - 'ISM: supernova remnants'
 - MHD
 - acceleration of particles
-citations: ["0004_blasi-2013"]
+citations:
+- '[[the-origin-of-galactic-cosmic-rays-(amat]]'
 path: 02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md
 ---
 # 0. 文献概览（Overview）

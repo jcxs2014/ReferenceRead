@@ -15,7 +15,7 @@ tags:
 - JACEE
 - antiproton
 - leaky box
-citations: ["0001_bhattacharjee-sigl-2000", "0004_blasi-2013"]
+citations: []
 path: 02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview.md
 ---
 # 00. Overview — 文献基本信息

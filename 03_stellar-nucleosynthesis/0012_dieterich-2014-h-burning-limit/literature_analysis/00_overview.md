@@ -13,7 +13,7 @@ tags:
 - brown dwarfs
 - hydrogen burning limit
 - trigonometric parallax
-citations: ["0003_fowler-1984", "0004_wallerstein-1997"]
+citations: []
 path: 03_stellar-nucleosynthesis/0012_dieterich-2014-h-burning-limit/literature_analysis/00_overview.md
 ---
 # 00. Overview — 文献基本信息

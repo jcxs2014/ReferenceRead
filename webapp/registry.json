@@ -20,11 +20,26 @@
       "plasmas"
     ],
     "citations": [
-      "0004_blasi-2013",
-      "0005_amato-2014",
-      "0006_grenier-2015",
-      "0007_biermann-1996",
-      "0013_bertone-hooper-2018"
+      "[[cesarsky]]",
+      "[[berezinskii-et-al.]]",
+      "[[ginzburg-&-syrovatskii]]",
+      "[[ginzburg-&-ptuskin]]",
+      "[[schlickeiser]]",
+      "[[diehl-et-al.]]",
+      "[[kennel-&-engelmann]]",
+      "[[seo-&-ptuskin]]",
+      "[[simon]]",
+      "[[ptuskin-et-al.]]",
+      "[[goldreich-&-sridhar]]",
+      "[[yan-&-lazarian]]",
+      "[[strong-&-moskalenko]]",
+      "[[jones-et-al.]]",
+      "[[ptuskin]]",
+      "[[moskalenko-&-strong]]",
+      "[[strong]]",
+      "[[strong-et-al.]]",
+      "[[aharonian-et-al.]]",
+      "[[mashnik-et-al.]]"
     ],
     "path": "01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md",
     "quality": 5,
@@ -114,9 +129,7 @@
       "neutrino astrophysics"
     ],
     "citations": [
-      "0002_al-dargazelli-1996",
-      "0003_gaisser-1990",
-      "0001_strong-moskalenko-ptuskin-2007"
+      "[[bhattacharjee-&-sigl-(1999)]]"
     ],
     "path": "02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md",
     "quality": 16,
@@ -196,9 +209,7 @@
       "VIRGO cluster",
       "GZK cutoff"
     ],
-    "citations": [
-      "0001_bhattacharjee-sigl-2000"
-    ],
+    "citations": [],
     "path": "02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overview.md",
     "quality": 2,
     "key_values": [
@@ -278,10 +289,7 @@
       "antiproton",
       "leaky box"
     ],
-    "citations": [
-      "0001_bhattacharjee-sigl-2000",
-      "0004_blasi-2013"
-    ],
+    "citations": [],
     "path": "02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview.md",
     "quality": 2,
     "key_values": [
@@ -356,8 +364,7 @@
     "lastread": "2026-08-12",
     "tags": [],
     "citations": [
-      "0005_amato-2014",
-      "0006_grenier-2015"
+      "[[the-origin-of-galactic-cosmic-rays（blasi]]"
     ],
     "path": "02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md",
     "quality": 11,
@@ -438,7 +445,7 @@
       "acceleration of particles"
     ],
     "citations": [
-      "0004_blasi-2013"
+      "[[the-origin-of-galactic-cosmic-rays-(amat]]"
     ],
     "path": "02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md",
     "quality": 11,
@@ -521,12 +528,7 @@
       "dust",
       "superbubbles"
     ],
-    "citations": [
-      "0005_amato-2014",
-      "0004_blasi-2013",
-      "0009_asplund-2009-solar-composition",
-      "0011_kewley-2001-starburst"
-    ],
+    "citations": [],
     "path": "02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md",
     "quality": 10,
     "key_values": [
@@ -612,10 +614,7 @@
       "arXiv:astro-ph/9609110\" 与 PDF 实际不符。**本 PDF 实际作者为 Peter L. Biermann",
       "arXiv 编号 astro-ph/9609110**（Moskalenko & Strong 的经典核碎裂截面表是另一篇工作）。下文严格以 PDF 为准。 ---"
     ],
-    "citations": [
-      "0001_strong-moskalenko-ptuskin-2007",
-      "0004_blasi-2013"
-    ],
+    "citations": [],
     "path": "02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md",
     "quality": 2,
     "key_values": [
@@ -704,11 +703,7 @@
       "技术锝（Tc⁹⁹）",
       "超重元素"
     ],
-    "citations": [
-      "0002_trimble-1975",
-      "0003_fowler-1984",
-      "0004_wallerstein-1997"
-    ],
+    "citations": [],
     "path": "03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md",
     "quality": 11,
     "key_values": [
@@ -793,8 +788,7 @@
       "超新星"
     ],
     "citations": [
-      "0004_wallerstein-1997",
-      "0001_b2fh-1957"
+      "[[virginia-trimble]]"
     ],
     "path": "03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview.md",
     "quality": 11,
@@ -884,10 +878,7 @@
       "同位素异常",
       "核宇宙化学计时"
     ],
-    "citations": [
-      "0005_champagne-wiescher-1992",
-      "0001_b2fh-1957"
-    ],
+    "citations": [],
     "path": "03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview.md",
     "quality": 11,
     "key_values": [
@@ -979,10 +970,7 @@
       "数据源都不同",
       "不能一概而论"
     ],
-    "citations": [
-      "0005_champagne-wiescher-1992",
-      "0009_asplund-2009-solar-composition"
-    ],
+    "citations": [],
     "path": "03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md",
     "quality": 11,
     "key_values": [
@@ -1061,10 +1049,7 @@
       "hot CNO cycles",
       "rp-process"
     ],
-    "citations": [
-      "0010_gies-lambert-1992",
-      "0003_fowler-1984"
-    ],
+    "citations": [],
     "path": "03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview.md",
     "quality": 11,
     "key_values": [
@@ -1143,12 +1128,7 @@
       "s-process",
       "cosmic abundance"
     ],
-    "citations": [
-      "0007_grevesse-sauval-1998",
-      "0008_lodders-2003",
-      "0009_asplund-2009-solar-composition",
-      "0004_wallerstein-1997"
-    ],
+    "citations": [],
     "path": "03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/00_overview.md",
     "quality": 2,
     "key_values": []
@@ -1170,10 +1150,7 @@
       "Fe abundance",
       "X/Y/Z"
     ],
-    "citations": [
-      "0008_lodders-2003",
-      "0009_asplund-2009-solar-composition"
-    ],
+    "citations": [],
     "path": "03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/00_overview.md",
     "quality": 2,
     "key_values": []
@@ -1205,7 +1182,7 @@
       "settling/diffusion"
     ],
     "citations": [
-      "0009_asplund-2009-solar-composition"
+      "[[solar-system-abundances-and-condensation]]"
     ],
     "path": "03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overview.md",
     "quality": 9,
@@ -1231,10 +1208,7 @@
       "convection"
     ],
     "citations": [
-      "0006_grenier-2015",
-      "0007_biermann-1996",
-      "0010_gies-lambert-1992",
-      "0011_kewley-2001-starburst"
+      "[[asplund-et-al]]"
     ],
     "path": "03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview.md",
     "quality": 10,
@@ -1253,9 +1227,7 @@
     "lastread": "2026-08-12",
     "tags": [],
     "citations": [
-      "0009_asplund-2009-solar-composition",
-      "0005_champagne-wiescher-1992",
-      "0003_fowler-1984"
+      "[[gies-&-lambert-(1992)-—-apj-387:673]]"
     ],
     "path": "03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview.md",
     "quality": 10,
@@ -1335,10 +1307,7 @@
       "Wolf-Rayet stars",
       "stellar population synthesis"
     ],
-    "citations": [
-      "0009_asplund-2009-solar-composition",
-      "0006_grenier-2015"
-    ],
+    "citations": [],
     "path": "03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview.md",
     "quality": 2,
     "key_values": [
@@ -1416,10 +1385,7 @@
       "hydrogen burning limit",
       "trigonometric parallax"
     ],
-    "citations": [
-      "0003_fowler-1984",
-      "0004_wallerstein-1997"
-    ],
+    "citations": [],
     "path": "03_stellar-nucleosynthesis/0012_dieterich-2014-h-burning-limit/literature_analysis/00_overview.md",
     "quality": 2,
     "key_values": [
@@ -1505,9 +1471,7 @@
       "indirect detection",
       "structure formation"
     ],
-    "citations": [
-      "0001_strong-moskalenko-ptuskin-2007"
-    ],
+    "citations": [],
     "path": "03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview.md",
     "quality": 12,
     "key_values": []
@@ -1750,6 +1714,22 @@
     ],
     "citations": [],
     "path": "background/05_glossary.md",
+    "quality": null,
+    "key_values": []
+  },
+  {
+    "title": "06_controversy_evolution",
+    "category": "背景知识",
+    "status": "completed",
+    "read_date": "2026-08-14",
+    "lastread": "2026-08-14",
+    "tags": [
+      "06",
+      "controversy",
+      "evolution"
+    ],
+    "citations": [],
+    "path": "background/06_controversy_evolution.md",
     "quality": null,
     "key_values": []
   }

@@ -228,6 +228,7 @@ def build(include_papers=False, out=None):
         ("03_astrophysics.md",    "太阳丰度与天体物理"),
         ("04_critique_index.md",  "CRITIQUE 观点汇总"),
         ("05_glossary.md",        "全库术语表"),
+        ("06_controversy_evolution.md", "争议演化时间线"),
     ]
 
     # ── Background docs ──────────────────────────────────────────

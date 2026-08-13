@@ -14,7 +14,7 @@ tags:
 - FIP fractionation
 - s-process
 - cosmic abundance
-citations: ["0007_grevesse-sauval-1998", "0008_lodders-2003", "0009_asplund-2009-solar-composition", "0004_wallerstein-1997"]
+citations: []
 path: 03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/00_overview.md
 ---
 # 00. Overview — 文献基本信息
