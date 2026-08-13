@@ -435,12 +435,11 @@ function switchDoc(slug) {
   // E2: lazy-load this doc's section if not in DOM
   ensureDoc(slug);
 
-  // Update tab group buttons: show current doc title
+  // Update tab group buttons: show group name (never doc title)
   document.querySelectorAll(".tab-group-btn").forEach(b => {
     const isActive = b.dataset.grp === getDoc(slug).category;
     b.classList.toggle("active", isActive);
-    if (isActive) b.textContent = getDoc(slug).title;
-    else b.textContent = b.dataset.grp;
+    b.textContent = b.dataset.grp;
   });
   document.querySelectorAll(".tab-dropdown-item").forEach(a => {
     a.classList.toggle("active", a.dataset.slug === slug);
