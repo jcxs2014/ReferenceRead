@@ -128,7 +128,9 @@ body {
 .copy-btn.copied { color: #2da44e; border-color: #2da44e; }
 .math.inline .katex { white-space: normal; }
 
-/* Paper cross-ref */
+.paper-preface { margin: 28px 0 16px; padding: 12px 18px; background: var(--quote-bg); border-left: 4px solid var(--accent); border-radius: 4px; }
+.paper-preface h3 { margin: 0; font-size: 18px; color: var(--accent); }
+.paper-preface h3::before { content: "📄 "; }
 .paper-ref { margin: 20px 0; padding: 12px 16px; background: var(--quote-bg); border-left: 4px solid var(--accent); border-radius: 4px; }
 .paper-ref h4 { margin-top: 0; color: var(--accent); }
 .paper-ref a { color: var(--accent); text-decoration: none; }
@@ -228,7 +230,7 @@ function renderTabs() {
 function buildDocs() {
   const container = document.getElementById("doc-container");
   container.innerHTML = DOCS.map(d => {
-    const html = decodeBase64(d.body_b64);
+    const html = decodeBase64(d.body_b64 || d.b64);
     return `<section class="doc-section" data-slug="${d.slug}">${html}</section>`;
   }).join("");
 }
