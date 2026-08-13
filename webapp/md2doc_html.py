@@ -6,6 +6,8 @@ Preserves $...$ inline math and $$...$$ block math as raw LaTeX for KaTeX runtim
 import re, html, sys
 from pathlib import Path
 
+_seen_anchors = {}  # must be defined before --reset-anchors check below
+
 SRC = sys.argv[1] if len(sys.argv) > 1 else ""
 OUT = sys.argv[2] if len(sys.argv) > 2 else "/tmp/fragment.html"
 # Optional doc-id prefix for heading anchors; --reset-anchors clears module-level state
