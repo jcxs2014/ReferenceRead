@@ -158,10 +158,9 @@ def convert(md_text):
                 raw_anchor = f"h{level}-{bare.lower()}" if bare else f"h{level}-{i}"
             # Make heading-id unique within this fragment if the same anchor repeats
             if raw_anchor in _seen_anchors:
+                _seen_anchors[raw_anchor] += 1
                 raw_anchor = f"{raw_anchor}-{_seen_anchors[raw_anchor]}"
-                _seen_anchors[original_anchor] += 1
             else:
-                original_anchor = raw_anchor
                 _seen_anchors[raw_anchor] = 1
             prefixed = (DOC_ID + "-" if DOC_ID else "") + "doc-" + raw_anchor
             out.append(f'<{tag} id="{prefixed}">{inline_markdown(txt)}</{tag}>')
