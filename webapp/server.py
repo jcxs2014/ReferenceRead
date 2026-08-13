@@ -168,6 +168,15 @@ class Handler(BaseHTTPRequestHandler):
 
 def main():
     global _PORT, _HOST
+    # 启动自检：rebuild 依赖的 yaml 若缺失，立即暴露（而非 rebuild 时才炸）
+    try:
+        import yaml  # noqa: F401
+    except ImportError:
+        print("[FATAL] 当前解释器缺少 PyYAML，/api/rebuild 将无法工作。", file=sys.stderr)
+        print("        请用含 yaml 的 Python 启动，例如：", file=sys.stderr)
+        print("          python3 -m pip install pyyaml    # 或", file=sys.stderr)
+        print("          ~/.hermes/hermes-agent/venv/bin/python3 webapp/server.py", file=sys.stderr)
+        sys.exit(2)
     args = sys.argv[1:]
     for i, a in enumerate(args):
         if a == "--port" and i + 1 < len(args):
