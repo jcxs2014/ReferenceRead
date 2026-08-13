@@ -556,6 +556,10 @@ document.getElementById("btn-print").addEventListener("click", () => window.prin
 
 // ── Start ───────────────────────────────────────────────────────────────────
 init();
+// Re-apply math when KaTeX deferred script finally loads (may be after user already switched docs)
+window.addEventListener("load", () => {
+  requestAnimationFrame(() => { if (window.katex) applyMath(); });
+});
 </script>
 </body>
 </html>
