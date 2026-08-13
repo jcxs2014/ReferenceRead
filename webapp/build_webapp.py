@@ -65,7 +65,11 @@ def convert_doc(path: Path):
     )
     if r.returncode != 0:
         raise RuntimeError(f"md2doc_html failed on {path}:\n{r.stderr}")
-    return tmp.read_text(encoding="utf-8")
+    try:
+        content = tmp.read_text(encoding="utf-8")
+    finally:
+        tmp.unlink(missing_ok=True)
+    return content
 
 def extract_toc(html_body):
     toc = []
