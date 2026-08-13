@@ -93,7 +93,7 @@
 
 ## P2 — 工具与体验层
 
-### 7. ⬜ background 知识库交互式网页
+### 7. ✅ background 知识库交互式网页
 - **做法**：把 `background/` 三篇文档做成单文件交互网页（全文搜索、公式渲染、主题切换、术语表查询、21 篇论文交叉跳转），复用 `agent-harness` 已验证的单文件架构（i18n + 浅/深主题 + 全文搜索）。
 - **详细方案**：见 [`WEBAPP_DESIGN.md`](WEBAPP_DESIGN.md)（含实测数据规模、P0/P1 功能清单、公式渲染三方案对比与推荐、数据管线、里程碑、验收标准）。
 - **涉及文件**：新建（如 `background/background-interactive.html`）+ `background/tools/`
