@@ -6,35 +6,11 @@ journal: Annual Review of Astronomy and Astrophysics, Volume 53, pp. 199–246
 doi: 10.1146/annurev-astro-082214-122457
 arxiv: 未提供
 keywords: γ rays, interstellar medium, interstellar chemistry, dust, superbubbles
-abstract: "## Abstract（中文精读）\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-  \\\\n  **[FACT]** 近年来宇宙线天体物理进展迅速，对其它天文分支的影响不断扩大。众多新实验通过大气中/太空中的直接测量以及\\\n  \\ γ\\\\\\n  \\\\ 射线、同步辐射的间接测量，拓宽了对宇宙线起源、传播和相互作用信息的获取范围。低能宇宙线对星际化学的影响是一个快速发展的方向，包括这些粒子如何在发生化学反应的云中传播。宇宙线通过其\\\
-  \\\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\n  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\
-  \\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  γ 射线产生，也成为探测星际气体含量的强力方式。宇宙线与星际介质相互作用的观测和建模取得了重大进展。\\\\\\\n  \\\\\\\\\
-  \\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  **[FACT]** 综述聚焦于能量 ≤1\\\\\\n  \\\
-  \\ TeV 的宇宙线，因为它们与星际作用主要相关；讨论\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  n  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\
-  \\\\\\\\\\\\\\\\\\\"九种角色\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"以展现宇宙线与其星际栖息地之间多种多样的相互作用。'\\\\\\\
-  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\n  category: 宇宙线起源\\\\\\\\\\\\\
-  \\\\\\\\\\\\\\\\\\\\nstatus: completed\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\nread_date: '2026-08-12'\\\\\\\n  \\\\\\\\\\\\\\\\\
-  \\\\\\\\n  \\\\\\\\\\\\\\\\nlastread: '2026-08-12'\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  ntags:\\\
-  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n- γ rays\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\\\\\n- interstellar medium\\\\\\\\\\\\\\\\\\\\\\\
-  \\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  - interstellar chemistry\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  \\\
-  \\\\\n  n  \\\\\\\\\\\\\\\\n- dust\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n- superbubbles\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ncitations:\
-  \ []\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\npath:\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\n  \\\\\\\\ 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md\\\
-  \\\\\\\\\\\\n  \\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\ncategory:\\\n  \\ 宇宙线起源\\\\\\\\\\\\\\\\nstatus: completed\\\
-  \\\\\\\\\\\\\\nread_date:\\\\\\\\\\\\\\\\\\\\\\\\n  \\\\\\\\\\\\\\\\ '2026-08-12'\\\\\\\\\\\\\\\\nlastread: '2026-08-12'\\\
-  \\\\\n  \\\\\\\\\\n  \\\\\\\\ntags:\\\\\\\\\\\\\\\\n- γ rays\\\\\\\\\\\\\\\\\\\\\\\\\\\\n  n- interstellar medium\\\\\\\\\
-  \\\\\\\\n- interstellar chemistry\\\\\\\\\\\\\\\\n- dust\\\\\\\n  \\\\\\\\\\\\n- superbubbles\\\\\\\\\\\\\\\\n\\\\\\\\\\\
-  \\\\\\\\\\\\n  \\\\\\\\n  citations: []\\\\\\\\\\\\\\\\npath: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md\\\
-  \\\\\n  \\\\\\\\\\\"\\\\\\\\\\\\n  \\\\\\\\ncategory:\\\\\\n  \\\\ 宇宙线起源\\\\\\\\nstatus: completed\\\\\\\\nread_date: '2026-08-12'\\\
-  \\\\\\nlastread: '2026-08-12'\\\\\\\n  \\\\ntags:\\\\\\\\n- γ rays\\\\\\\\n- interstellar medium\\\\\\\\\\\\\\n  n\\\\\\\
-  \\\\\\n  - interstellar chemistry\\\\\\\\n- dust\\\\\\\\n- superbubbles\\\\\\\n  \\\\ncitations: []\\\\\\\\npath: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md\\\
-  \\\\\"\\\\\\n  \\\\ncategory:\\\n  \\ 宇宙线起源\\\\nstatus: completed\\\\nread_date: '2026-08-12'\\\\nlastread: '2026-08-12'\\\
-  \\ntags:\\\\n- γ rays\\\\n- interstellar medium\\\\\\\n  n\\\\\\n  - interstellar chemistry\\\\n- dust\\\\n- superbubbles\\\
-  \\ncitations: []\\\\npath: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md\\\"\\\n  \\ncategory:\
-  \ 宇宙线起源\\nstatus: completed\\nread_date: '2026-08-12'\\nlastread: '2026-08-12'\\ntags:\\n- γ rays\\n- interstellar medium\\\
-  n\\\n  - interstellar chemistry\\n- dust\\n- superbubbles\\ncitations: []\\npath: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md\"\
-  \ncategory: 宇宙线起源\nstatus: completed\nread_date: '2026-08-12'\nlastread: '2026-08-12'\ntags:\n- γ rays\n- interstellar medium\n\
-  - interstellar chemistry\n- dust\n- superbubbles\ncitations: []\npath: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md"
+abstract: '**[FACT]** 近年来宇宙线天体物理进展迅速，对其它天文分支的影响不断扩大。众多新实验通过大气中/太空中的直接测量以及 γ 射线、同步辐射的间接测量，拓宽了对宇宙线起源、传播和相互作用信息的获取范围。低能宇宙线对星际化学的影响是一个快速发展的方向，包括这些粒子如何在发生化学反应的云中传播。宇宙线通过其
+  γ 射线产生，也成为探测星际气体含量的强力方式。宇宙线与星际介质相互作用的观测和建模取得了重大进展。
+
+
+  **[FACT]** 综述聚焦于能量 ≤1 TeV 的宇宙线，因为它们与星际作用主要相关；讨论"九种角色"以展现宇宙线与其星际栖息地之间多种多样的相互作用。'
 category: 宇宙线起源
 status: completed
 read_date: '2026-08-12'
@@ -48,6 +24,7 @@ tags:
 citations: []
 path: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md
 ---
+
 > 本章属于：The Nine Lives of Cosmic Rays in Galaxies（Grenier, Black & Strong 2015）
 >
 > 下一章：`01_scope_and_nine_lives.md`

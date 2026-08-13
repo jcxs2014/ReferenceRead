@@ -111,18 +111,30 @@ def _most_likely_year(text: str) -> str | None:
 
 
 def _extract_abstract(text: str) -> str:
-    """从 overview 全文中提取 ## 0.x Abstract / 摘要 段落。"""
-    # 常见小节标题
+    """从 overview **正文**（不含 frontmatter）提取 ## 0.x Abstract / 摘要 段落。
+
+    边界：在 `###` 三级标题、下一个 `##` 标题或 `---` 前截断，并限制长度，
+    防止正则贪婪吞掉整章正文（曾导致 abstract 写入 10KB 乱码）。
+    """
+    # 剥离已有 frontmatter（防止重跑时从转义值里再次提取，造成反斜杠雪球）
+    body = text
+    if text.startswith("---"):
+        parts = text.split("---", 2)
+        if len(parts) >= 3:
+            body = parts[2]
+    # 常见小节标题；结束边界 = 下一个 ## 二级标题 或 ---（### 是 Abstract 内容的一部分）
     m = re.search(
-        r"##\s+0\.\d+\s*[Aa]bstract.*?(?=\n##\s+0\.\d+\s|\n##\s+\d|---\n)",
-        text,
-        re.DOTALL | re.IGNORECASE,
+        r"^##\s+0?\.?\d*\s*[Aa]bstract[^\n]*\n(.*?)(?=^##\s|^---\n)",
+        body,
+        re.MULTILINE | re.DOTALL,
     )
     if m:
-        return m.group(0).strip()
-    m = re.search(r"##\s*[Aa]bstract.*?(?=\n##\s+|\n---\n)", text, re.DOTALL | re.IGNORECASE)
+        out = m.group(1).strip()
+        # 长度上限 2000：超出即截断（Abstract 合理长度远小于此）
+        return out[:2000]
+    m = re.search(r"^##\s*[Aa]bstract[^\n]*\n(.*?)(?=^##\s|^---\n)", body, re.MULTILINE | re.DOTALL)
     if m:
-        return m.group(0).strip()
+        return m.group(1).strip()[:2000]
     return ""
 
 
