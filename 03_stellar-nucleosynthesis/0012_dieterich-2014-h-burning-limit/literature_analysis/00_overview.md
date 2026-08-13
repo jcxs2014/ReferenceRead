@@ -45,3 +45,13 @@
 - 氢燃烧极限位于 2MASS J0523−1403 (L2.5): Teff = 2074±27 K, R = 0.086±0.003 R⊙
 - 比 6 个主流演化模型预言高 ~400 K
 - I 波段变率 36% 阈值，Teff≈2100 K 附近变率尖峰
+
+---
+
+## 篇间导航
+
+### 关联论文
+
+- [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 §4 氢燃烧的演化理论
+- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — Wallerstein 1997 §3 pp 链与 CNO 循环
+

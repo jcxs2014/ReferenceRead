@@ -97,3 +97,18 @@
 ## 0.5 关于 Caughlan-Fowler 目录命名
 
 [CRITIQUE] 该目录的命名 "0003_caughlan-fowler-1988" 可能源于对 Fowler, Caughlan, Zimmerman 1967/1975（Annu. Rev. Astron. Astrophys. 5, 525; 13, 69）那两篇**综述性反应速率评估论文**的误记。这两篇确实常被称为 "FCZ 速率表"，是恒星光核合成计算的标准参考。但本文是 **Fowler 单人**的 Nobel Lecture，与 Caughlan 无关。**后续引用请以此为准确认。**
+
+---
+
+## 篇间导航
+
+### 前序阅读
+
+- **B²FH (1957)** — 奠基论文（Rev. Mod. Phys. 29, 547）
+- **Caughlan & Fowler (1967) 反应率表** — Fowler Nobel Lecture 提及的反应率汇编基础（ApJ）
+
+### 关联论文
+
+- [`0005_champagne-wiescher-1992`](../../0005_champagne-wiescher-1992/literature_analysis/00_overview.md) — Champagne & Wiescher 1992 是 Fowler 1984 后的反应率更新
+- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B²FH 的 s 过程在 Fowler 1984 重新评估
+

@@ -112,3 +112,21 @@
   - Lodders & Fegley (2022) 《Astronomical Chemistry: A Solar System Primer》为本文的教科书化版本。
 
 [INTERPRETATION] 本文在太阳系化学基准史上的地位是"承前启后"——它是把 Allende Prieto 的 C、O 向下修订正式引入行星科学冷凝计算的首次系统尝试，为后续外太阳系化学、巨行星与卫星形成、彗星化学奠定了新的成分基准。
+
+---
+
+## 篇间导航
+
+### 前序阅读
+
+- **Anders & Grevesse (1989)** — 14 年前版本（GCA 53, 197）
+- **Grevesse & Sauval (1998)** — 5 年前版本（Space Sci. Rev. 85, 161）
+
+### 关联论文
+
+- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 6 年后 AGSS09 修订
+
+### 后续阅读
+
+- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 6 年后 AGSS09
+

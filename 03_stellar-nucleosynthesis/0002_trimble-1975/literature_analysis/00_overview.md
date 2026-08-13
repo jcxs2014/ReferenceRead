@@ -94,3 +94,17 @@ REFERENCES                                               pp. 966–969
 - 提供了从 B²FH 到 1975 全部进展的精确时间线；
 - 汇总了当时所有观测数据的定量细节；
 - 清晰区分了 "已解决" 与 "未解决" 的问题，并诚实指出理论结构与观测基础的严重不对称。
+
+---
+
+## 篇间导航
+
+### 前序阅读
+
+- **B²FH (1957)** — 本领域奠基论文（Rev. Mod. Phys. 29, 547）
+
+### 关联论文
+
+- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — Trimble 1975 → Wallerstein 1997 又是 22 年更新
+- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — Trimble 1975 是 B²FH 的 18 年后版本
+

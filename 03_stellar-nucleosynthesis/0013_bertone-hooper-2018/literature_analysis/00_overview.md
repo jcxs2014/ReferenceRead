@@ -142,3 +142,12 @@ References
 | Homestake 直接探测 | 33 kg·day 暴露量 | Ahlen et al. 1987 |
 | Fermi dwarf galaxies 约束 | 排除了 <~100 GeV 多数 WIMP | Ackermann et al. 2015b |
 | 银心 GeV γ 超量 | 与 ~50 GeV DM 湮灭一致 | Goodenough-Hooper 2009；Daylan et al. 2014 |
+
+---
+
+## 篇间导航
+
+### 关联论文
+
+- [`0001_strong-moskalenko-ptuskin-2007`](../../../01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) — Strong 2007 §3.7 正电子/反质子背景估计与暗物质
+

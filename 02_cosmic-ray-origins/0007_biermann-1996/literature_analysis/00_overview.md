@@ -81,3 +81,13 @@ Table 1:  H/He/核的谱指数预测 vs 实验
 ## 待精读章节
 - `01_main_text.md` — 第 1–5 章正文、公式、图、表、参考文献；
 - `99_final_summary.md` — Final Summary 与 Further Analysis。
+
+---
+
+## 篇间导航
+
+### 关联论文
+
+- [`0001_strong-moskalenko-ptuskin-2007`](../../../01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) — Strong 2007 §3.1 同综述 B/C 比与核碎裂
+- [`0004_blasi-2013`](../../0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 继承 Biermann 1996 的次级/初级比方法
+

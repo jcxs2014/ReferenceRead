@@ -44,3 +44,19 @@
 - R = 1.554 ± 0.020（陨石→太阳换算尺度）
 - X = 70.68%, Y = 27.43%, Z = 1.886%
 - 29 元素 Sun/Met 一致到 ±9%
+
+---
+
+## 篇间导航
+
+### 关联论文
+
+- [`0007_grevesse-sauval-1998`](../../0007_grevesse-sauval-1998/literature_analysis/00_overview.md) — 9 年后更新版本
+- [`0008_lodders-2003`](../../0008_lodders-2003/literature_analysis/00_overview.md) — 14 年后更新版本
+- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 20 年后 AGSS09 修订
+- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — Wallerstein 1997 §1 引用本表
+
+### 后续阅读
+
+- [`0007_grevesse-sauval-1998`](../../0007_grevesse-sauval-1998/literature_analysis/00_overview.md) — 9 年后更新版本
+

@@ -152,3 +152,21 @@ References: (p.33–41, 约 150 条)
   - 提高 Ne 丰度 3×（Antia & Basu 2005）
   - 内部重力波能量沉积（Arnett, Meakin & Young 2005）
 - [CRITIQUE] 作者最后指出：如果以上都无法解决，说明光球丰度测量本身可能存在问题，但目前找不到明显错误来源。这是天体物理学界至今的**开放难题**。
+
+---
+
+## 篇间导航
+
+### 前序阅读
+
+- **Anders & Grevesse (1989)** — 20 年前版本（GCA 53, 197）
+- **Grevesse & Sauval (1998)** — 11 年前版本（Space Sci. Rev. 85, 161）
+- **Lodders (2003)** — 6 年前版本（ApJ 591, 1220）
+
+### 关联论文
+
+- [`0006_grenier-2015`](../../../02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md) — Grenier 2015 用 AGSS09 丰度作为 CR 比较基准
+- [`0007_biermann-1996`](../../../02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md) — Biermann 1996 旧版用 Anders-Grevesse 丰度
+- [`0010_gies-lambert-1992`](../../0010_gies-lambert-1992/literature_analysis/00_overview.md) — Gies-Lambert 1992 用 1989 太阳丰度作为 B 型星基线
+- [`0011_kewley-2001-starburst`](../../0011_kewley-2001-starburst/literature_analysis/00_overview.md) — Kewley 2001 太阳丰度假设
+

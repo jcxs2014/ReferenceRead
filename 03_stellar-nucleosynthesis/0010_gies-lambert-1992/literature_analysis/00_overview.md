@@ -124,3 +124,14 @@ REFERENCES
 4. **与 H II 区对比**：以 Orion 关联星（8 颗）直接比对年轻恒星与电离气体的化学组成，给出早期 B 星丰度 ≈ 星云丰度的经验性基线。
 
 [CRITIQUE] 局限：数据基于 1985–1987 年老 Reticon 光谱，S/N=300/pixel 且分辨率 0.21–0.43 Å；He I 丰度依赖 Auer & Mihalas (1973a) 简化幂律，超巨星 He 值不确定度很大；V sin i > 100 km s⁻¹ 的恒星被排除（即快速自转者，而旋转恰是 Maeder 混合的关键驱动者），因此本样本**天然偏慢转**，可能低估旋转混合的整体效应。
+
+---
+
+## 篇间导航
+
+### 关联论文
+
+- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 太阳丰度基线（AGSS09 是更新版本）
+- [`0005_champagne-wiescher-1992`](../../0005_champagne-wiescher-1992/literature_analysis/00_overview.md) — CNO 循环与爆炸性 CNO 循环的观测约束
+- [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 §4 太阳中微子问题与 CNO 循环
+

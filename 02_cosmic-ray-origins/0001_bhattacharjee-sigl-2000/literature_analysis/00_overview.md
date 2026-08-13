@@ -156,3 +156,23 @@ literature_analysis/
 ## 0.8 与目录命名的说明
 
 [FACT] 该目录命名 `0001_longair-ptuskin-1999` **与实际论文作者不符**：本目录中的两份 PDF 实际上是 **Bhattacharjee & Sigl (1999)** 的经典综述，**并非** Longair & Ptuskin 1999。Longair & Ptuskin 是另一篇相关论文（Phys. Rep. 1999 年，主题类似）。此点在归档时应更正。
+
+---
+
+## 篇间导航
+
+### 前序阅读
+
+- **Gaisser (1990)** — 膝部 (10¹⁵ eV) 以下宇宙线组分（AIP Conf. Proc. 203, 168）
+- **Hillas (1984) 准则** — UHECR 源的 Larmor 半径筛选（ARA&A 22, 425）
+
+### 关联论文
+
+- [`0002_al-dargazelli-1996`](../../0002_al-dargazelli-1996/literature_analysis/00_overview.md) — 同一时期碰撞星系作为 UHECR 源的另一论据
+- [`0003_gaisser-1990`](../../0003_gaisser-1990/literature_analysis/00_overview.md) — Gaisser 1990 是 BH/GS 2000 之前的标准综述
+- [`0001_strong-moskalenko-ptuskin-2007`](../../../01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) — Strong 2007 §4 同样涉及 GZK 传播
+
+### 后续阅读
+
+- [`0002_al-dargazelli-1996`](../../0002_al-dargazelli-1996/literature_analysis/00_overview.md) — 1996 年同主题论文，作为对比
+

@@ -56,3 +56,12 @@
 - Tully (1988) — Nearby Galaxies Catalog
 - Giler et al. (1980) — 对 UHECR 各向异性的早期分析
 - Chi et al. (1992) — 碰撞星系作为 UHECR 源
+
+---
+
+## 篇间导航
+
+### 关联论文
+
+- [`0001_bhattacharjee-sigl-2000`](../../0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md) — 同主题 BH/GS 2000 提供更完备综述
+

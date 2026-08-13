@@ -162,3 +162,18 @@ XIII. Conclusion (P95)
 - **[CRITIQUE]** — 对论文方法、假设、数值的分析与评价
 
 论文出版于 1957 年，距今近 70 年；很多具体数值/截面估计已被后来工作修正，读者应将本文视为**奠基性综述**而非最新的精确数值来源。
+
+---
+
+## 篇间导航
+
+### 关联论文
+
+- [`0002_trimble-1975`](../../0002_trimble-1975/literature_analysis/00_overview.md) — Trimble 1975 是 B²FH 18 年后的权威更新综述
+- [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 Nobel Lecture 部分作者来自 B²FH 团队
+- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — Wallerstein 1997 是 B²FH 40 年回顾
+
+### 后续阅读
+
+- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — B²FH 40 年进展综述
+

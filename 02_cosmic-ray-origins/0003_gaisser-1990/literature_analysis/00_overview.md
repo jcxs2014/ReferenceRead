@@ -42,3 +42,13 @@
 - JACEE 合作组 (1989) — 膝部组分
 - Webber & Potgieter (1989) — 反质子模型
 - Ginzburg & Ptuskin (1976) — 超新星能量学
+
+---
+
+## 篇间导航
+
+### 关联论文
+
+- [`0001_bhattacharjee-sigl-2000`](../../0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md) — 1990 → 1999/2000 综述升级
+- [`0004_blasi-2013`](../../0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 用现代 DSA 重新审视 Gaisser 1990 的膝部问题
+

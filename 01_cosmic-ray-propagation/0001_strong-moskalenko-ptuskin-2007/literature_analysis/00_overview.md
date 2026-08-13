@@ -156,3 +156,25 @@
 ---
 
 > 下一章：`01_theoretical_background.md`
+
+---
+
+## 篇间导航
+
+### 前序阅读
+
+- **Cesarsky (1980) 综述** — CR 传播的概念框架（https://www.annualreviews.org/doi/10.1146/annurev.aa.18.090180.001445）
+- **Berezinskii et al. (1990) 教科书** — 传播方程 (1) 的理论基础（ASTROPHYSICS-OF-COSMIC-RAYS）
+
+### 关联论文
+
+- [`0004_blasi-2013`](../../../02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md) — 本论文是 Blasi 2013 综述 §1 节的理论前提
+- [`0005_amato-2014`](../../../02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md) — Biermann 2007 之后的非 DSA 修正与 Amato 2014 的非线性扩展
+- [`0006_grenier-2015`](../../../02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md) — Grenier 2015 §3 同样综述 CR 传播物理，与本论文互补
+- [`0007_biermann-1996`](../../../02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md) — Biermann 1996 §1 提出云捕获次级核，是次级/初级比 B/C 的另一解释
+- [`0013_bertone-hooper-2018`](../../../03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview.md) — 暗物质身份涉及 CR 反质子/正电子的背景估计
+
+### 后续阅读
+
+- [`0004_blasi-2013`](../../../02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 综述 SNR 作为银河宇宙线起源
+

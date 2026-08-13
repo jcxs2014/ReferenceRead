@@ -132,3 +132,23 @@ B2FH 1957 原始框架（8 过程）
 ---
 
 *本文件结束。下文分章节精读。*
+
+---
+
+## 篇间导航
+
+### 前序阅读
+
+- **B²FH (1957)** — 奠基论文（Rev. Mod. Phys. 29, 547）
+- **Trimble (1975)** — B²FH 18 年后综述（Rev. Mod. Phys. 47, 877）
+- **Fowler (1984) Nobel Lecture** — 实验与理论核天体物理综述（Rev. Mod. Phys. 56, 149）
+
+### 关联论文
+
+- [`0005_champagne-wiescher-1992`](../../0005_champagne-wiescher-1992/literature_analysis/00_overview.md) — 爆炸性氢燃烧是 Wallerstein 1997 §5 的延伸
+- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — Wallerstein 1997 §1 引用 Anders-Grevesse 1989 太阳丰度
+
+### 后续阅读
+
+- [`0005_champagne-wiescher-1992`](../../0005_champagne-wiescher-1992/literature_analysis/00_overview.md) — 爆炸性氢燃烧的更细致处理
+

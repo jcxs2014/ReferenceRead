@@ -45,3 +45,21 @@
 - X = 0.735, Y = 0.248, Z = 0.017, Z/X = 0.023
 - Fe: A_Fe = 7.50 ± 0.05
 - CNO: A_C = 8.52, A_N = 7.92, A_O = 8.83
+
+---
+
+## 篇间导航
+
+### 前序阅读
+
+- **Anders & Grevesse (1989)** — 9 年前版本（GCA 53, 197）
+
+### 关联论文
+
+- [`0008_lodders-2003`](../../0008_lodders-2003/literature_analysis/00_overview.md) — 5 年后更新版本
+- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 11 年后 AGSS09 修订
+
+### 后续阅读
+
+- [`0008_lodders-2003`](../../0008_lodders-2003/literature_analysis/00_overview.md) — 5 年后更新版本
+

@@ -45,3 +45,13 @@
 - 理论星暴分类线（BPT 图）：区分星暴、AGN、复合区域
 - W-R 星物理：发射测度 ∝ (Ṁ/v∞)²R*⁻³
 - 提出 continuum metal blanketing 解决 EUV 硬度问题
+
+---
+
+## 篇间导航
+
+### 关联论文
+
+- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 太阳丰度作金属丰度零点
+- [`0006_grenier-2015`](../../../02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md) — Grenier 2015 §8 综述星暴星系 CR 角色
+

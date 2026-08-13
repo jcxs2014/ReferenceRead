@@ -113,3 +113,19 @@ Blasi (2013), arXiv:1311.7346, 88 页
 ├── 8. Conclusions (pp. 65–67)
 └── References (pp. 68–88)
 ```
+
+---
+
+## 篇间导航
+
+### 前序阅读
+
+- **B²FH (1957)** — 宇宙线起源的早期框架（Rev. Mod. Phys. 29, 547）
+- **Strong, Moskalenko & Ptuskin (2007)** — 传播理论的标准参考（§1 引言提及）（Rev. Mod. Phys.）
+- **Gaisser (1990)** — 膝部以下宇宙线组分（AIP Conf. Proc. 203, 168）
+
+### 关联论文
+
+- [`0005_amato-2014`](../../0005_amato-2014/literature_analysis/00_overview.md) — Blasi 2013 + Amato 2014 是同一时期双论文，独立但互补
+- [`0006_grenier-2015`](../../0006_grenier-2015/literature_analysis/00_overview.md) — Grenier 2015 §4 综述 PeVatron 候选，与本论文 §5 Superbubble 论点相关
+

@@ -131,3 +131,17 @@ References
 | B/C ratio | Boron/Carbon 比（传播示踪） |
 | Hα | Balmer-α 谱线 |
 | π⁰ | neutral pion（强子 γ 射线示踪） |
+
+---
+
+## 篇间导航
+
+### 前序阅读
+
+- **Strong, Moskalenko & Ptuskin (2007)** — 传播理论标准参考（Rev. Mod. Phys.）
+- **Blasi (2013)** — 同主题双论文第一篇（arXiv:1311.7346）
+
+### 关联论文
+
+- [`0004_blasi-2013`](../../0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 + Amato 2014 是同一时期双论文
+

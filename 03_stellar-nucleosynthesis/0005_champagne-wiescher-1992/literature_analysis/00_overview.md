@@ -138,3 +138,18 @@ LITERATURE CITED (p.74-76, 123 references)
 | `06_conclusions.md` | §6 Concluding Remarks + References |
 | `07_figures.md` | Figures 1–9 逐一分析 |
 | `99_final_summary.md` | 最终总结 |
+
+---
+
+## 篇间导航
+
+### 前序阅读
+
+- **Fowler (1984) Nobel Lecture** — 反应率评估基础（Rev. Mod. Phys. 56, 149）
+- **Wallerstein et al. (1997)** — 40 年综述（Rev. Mod. Phys. 69, 995）
+
+### 关联论文
+
+- [`0010_gies-lambert-1992`](../../0010_gies-lambert-1992/literature_analysis/00_overview.md) — Gies-Lambert 1992 提供 B 型星 CNO 观测，约束爆炸性 H 燃烧
+- [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 §4 是 Champagne-Wiescher 1992 的前身
+
