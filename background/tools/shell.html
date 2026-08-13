@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>papers 知识库 · Interactive</title>
+<!-- KaTeX from CDN (with offline fallback: if unavailable, math renders as monospace) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<style>
+/* ───── Theme variables ───── */
+:root, [data-theme="light"] {
+  --bg: #ffffff;
+  --bg-2: #f6f8fa;
+  --fg: #24292f;
+  --fg-2: #57606a;
+  --border: #d0d7de;
+  --accent: #0969da;
+  --accent-fg: #ffffff;
+  --card: #ffffff;
+  --code-bg: #f6f8fa;
+  --quote-bg: #f6f8fa;
+  --quote-border: #d0d7de;
+  --math: #c02322;
+  --search-hl: #fff3b0;
+  --scroll: rgba(9,105,218,0.4);
+}
+[data-theme="dark"] {
+  --bg: #0d1117;
+  --bg-2: #161b22;
+  --fg: #c9d1d9;
+  --fg-2: #8b949e;
+  --border: #30363d;
+  --accent: #58a6ff;
+  --accent-fg: #0d1117;
+  --card: #161b22;
+  --code-bg: #1c2128;
+  --quote-bg: #1c2128;
+  --quote-border: #30363d;
+  --math: #ff7b72;
+  --search-hl: #b88300;
+  --scroll: rgba(88,166,255,0.4);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, "PingFang SC", "Noto Sans SC", "Source Han Sans SC", system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+/* ───── Layout ───── */
+.app { display: grid; grid-template-columns: 280px 1fr; grid-template-rows: auto 1fr auto; min-height: 100vh; }
+.toolbar { grid-column: 1 / -1; display: flex; align-items: center; gap: 12px; padding: 12px 20px; background: var(--bg-2); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; flex-wrap: wrap; }
+.brand { font-weight: 700; font-size: 16px; color: var(--accent); white-space: nowrap; }
+.brand small { font-weight: 400; color: var(--fg-2); margin-left: 4px; }
+
+/* Doc tabs */
+.tabs { display: flex; gap: 4px; flex-wrap: wrap; }
+.tab-btn {
+  padding: 6px 14px; border: 1px solid var(--border); border-radius: 6px;
+  background: var(--card); color: var(--fg); font-size: 13px; cursor: pointer;
+  transition: all .15s;
+}
+.tab-btn:hover { border-color: var(--accent); }
+.tab-btn.active { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); font-weight: 600; }
+
+/* Search */
+.search-box {
+  display: flex; align-items: center; gap: 4px;
+  padding: 5px 10px; border: 1px solid var(--border); border-radius: 6px;
+  background: var(--card); flex: 1; min-width: 180px; max-width: 360px;
+}
+.search-box input { border: none; outline: none; background: transparent; color: var(--fg); flex: 1; font-size: 13px; }
+.search-box .count { color: var(--fg-2); font-size: 12px; min-width: 40px; text-align: right; }
+
+/* Right controls */
+.controls { display: flex; gap: 6px; align-items: center; margin-left: auto; }
+.ctrl-btn {
+  padding: 5px 10px; border: 1px solid var(--border); border-radius: 6px;
+  background: var(--card); color: var(--fg-2); font-size: 13px; cursor: pointer;
+}
+.ctrl-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+/* Side panels */
+.sidebar { border-right: 1px solid var(--border); background: var(--bg-2); overflow-y: auto; height: calc(100vh - 56px); padding: 16px 12px; }
+.sidebar h3 { font-size: 12px; font-weight: 700; color: var(--fg-2); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; }
+.toc-item { display: block; padding: 4px 8px; font-size: 13px; color: var(--fg); text-decoration: none; border-radius: 4px; cursor: pointer; }
+.toc-item:hover { background: var(--border); }
+.toc-item.active { background: var(--accent); color: var(--accent-fg); font-weight: 600; }
+.toc-h3 { padding-left: 20px; font-size: 12px; color: var(--fg-2); }
+.toc-h4 { padding-left: 32px; font-size: 12px; color: var(--fg-2); }
+
+/* Main content */
+.main { overflow-y: auto; height: calc(100vh - 56px - 36px); padding: 24px 32px; }
+.doc-section { display: none; max-width: 900px; margin: 0 auto; }
+.doc-section.active { display: block; }
+.doc-section h2 { font-size: 24px; border-bottom: 1px solid var(--border); padding-bottom: 8px; margin: 24px 0 16px; color: var(--fg); }
+.doc-section h2:first-child { margin-top: 0; }
+.doc-section h3 { font-size: 19px; margin: 20px 0 12px; color: var(--fg); }
+.doc-section h4 { font-size: 16px; margin: 16px 0 10px; color: var(--fg-2); }
+.doc-section p { margin: 8px 0; }
+.doc-section p + p { margin-top: 4px; }
+.doc-section ul, .doc-section ol { margin: 8px 0 8px 20px; }
+.doc-section li { margin: 2px 0; }
+.doc-section blockquote { margin: 12px 0; padding: 8px 14px; background: var(--quote-bg); border-left: 4px solid var(--accent); border-radius: 4px; color: var(--fg-2); font-size: 14px; }
+.doc-section hr { margin: 20px 0; border: none; border-top: 1px solid var(--border); }
+.doc-section code { background: var(--code-bg); padding: 1px 6px; border-radius: 3px; font-size: 13px; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+.doc-section pre { background: var(--code-bg); padding: 12px; border-radius: 6px; overflow-x: auto; margin: 12px 0; }
+.doc-section pre code { padding: 0; font-size: 13px; line-height: 1.5; }
+.doc-section img { max-width: 100%; }
+.doc-section table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+.doc-section th, .doc-section td { border: 1px solid var(--border); padding: 6px 10px; text-align: left; vertical-align: top; }
+.doc-section th { background: var(--bg-2); font-weight: 600; }
+.doc-section .doc-table { overflow-x: auto; }
+.doc-section input[type="checkbox"] { margin-right: 4px; }
+
+/* Math */
+.math { color: var(--math); }
+.math.block { display: block; margin: 10px 0; padding: 8px 0; font-size: 15px; text-align: center; }
+.math .katex { font-size: inherit; }
+
+/* Paper cross-ref */
+.paper-ref { margin: 20px 0; padding: 12px 16px; background: var(--quote-bg); border-left: 4px solid var(--accent); border-radius: 4px; }
+.paper-ref h4 { margin-top: 0; color: var(--accent); }
+.paper-ref a { color: var(--accent); text-decoration: none; }
+.paper-ref a:hover { text-decoration: underline; }
+.paper-ref .ref-count { font-size: 12px; color: var(--fg-2); margin-bottom: 6px; }
+
+/* Footer */
+.footer { grid-column: 1 / -1; padding: 10px 20px; border-top: 1px solid var(--border); background: var(--bg-2); font-size: 12px; color: var(--fg-2); display: flex; justify-content: space-between; }
+
+/* Search highlights */
+mark.search-hl { background: var(--search-hl); padding: 1px 2px; border-radius: 2px; }
+
+/* Print */
+@media print {
+  .toolbar, .sidebar, .footer, .controls { display: none !important; }
+  .app { grid-template-columns: 1fr; grid-template-rows: auto; }
+  .main { overflow: visible; height: auto; }
+  .doc-section { display: block !important; page-break-before: always; }
+  .doc-section:first-of-type { page-break-before: avoid; }
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .app { grid-template-columns: 1fr; grid-template-rows: auto auto 1fr auto; }
+  .sidebar { height: 200px; border-right: none; border-bottom: 1px solid var(--border); display: none; }
+  .sidebar.open { display: block; }
+  .main { height: auto; }
+  .search-box { max-width: 100%; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="toolbar">
+    <div class="brand">papers <small>知识库</small></div>
+    <div class="tabs" id="tabs"></div>
+    <div class="search-box">
+      <span>🔍</span>
+      <input id="search-input" type="text" placeholder="全文搜索…" spellcheck="false">
+      <span class="count" id="search-count"></span>
+    </div>
+    <div class="controls">
+      <button class="ctrl-btn" id="btn-toc" title="目录">☰ 目录</button>
+      <button class="ctrl-btn" id="btn-theme" title="主题">🌙</button>
+      <button class="ctrl-btn" id="btn-print" title="打印">🖨</button>
+    </div>
+  </div>
+
+  <aside class="sidebar" id="sidebar">
+    <div id="toc-container"></div>
+  </aside>
+
+  <main class="main" id="main">
+    <div id="doc-container"></div>
+  </main>
+
+  <div class="footer">
+    <span>单文件 · 离线可用 · 断网时公式降级为源码</span>
+    <span id="stats"></span>
+  </div>
+</div>
+
+<script>
+// ───── Data (injected at build time) ─────
+const DOCS = __DOCS_JSON__;
+const TOCS = __TOC_JSON__;
+const PAPERS = __PAPERS_JSON__;
+
+// ───── State ─────
+const LS_PREFIX = "kb_";
+let activeSlug = localStorage.getItem(LS_PREFIX + "active") || DOCS[0].slug;
+let scrollPos = {};
+const searchHits = new Map(); // slug -> [index]
+
+// ───── Init ─────
+function init() {
+  renderTabs();
+  buildDocs();
+  renderTOC(activeSlug);
+  switchDoc(activeSlug);
+  applyTheme();
+  renderPaperRef();
+  applyMath();
+  updateStats();
+}
+
+function renderTabs() {
+  const tabs = document.getElementById("tabs");
+  tabs.innerHTML = DOCS.map(d =>
+    `<button class="tab-btn${d.slug===activeSlug?' active':''}" data-slug="${d.slug}">${d.label}</button>`
+  ).join("");
+  tabs.querySelectorAll(".tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => switchDoc(btn.dataset.slug));
+  });
+}
+
+function buildDocs() {
+  const container = document.getElementById("doc-container");
+  container.innerHTML = DOCS.map(d => {
+    const html = decodeBase64(d.body_b64);
+    return `<section class="doc-section" data-slug="${d.slug}">${html}</section>`;
+  }).join("");
+}
+
+function renderPaperRef() {
+  // Build paper cross-ref links per doc by content scan
+  DOCS.forEach(d => {
+    const section = document.querySelector(`section[data-slug="${d.slug}"]`);
+    if (!section) return;
+    // Extract paper mentions from text (look for "2007", "B2FH", etc. in the rendered HTML)
+    const text = section.textContent;
+    const mentioned = PAPERS.filter(p => {
+      // Year extraction from label e.g. "Strong, Moskalenko & Ptuskin (2007)"
+      const m = p.label.match(/\((\d{4})\)/);
+      if (!m) return false;
+      return text.includes(m[1]);
+    });
+    if (mentioned.length === 0) return;
+    // Deduplicate by dir
+    const seen = new Set();
+    const unique = [];
+    for (const p of mentioned) {
+      if (seen.has(p.dir)) continue;
+      seen.add(p.dir);
+      unique.push(p);
+    }
+    if (unique.length === 0) return;
+    const refDiv = document.createElement("div");
+    refDiv.className = "paper-ref";
+    refDiv.innerHTML = `<h4>📄 本章涉及论文（${unique.length} 篇）</h4>` +
+      unique.map(p => {
+        const linkPath = `../../${p.topic}/${p.dir}/literature_analysis/00_overview.md`;
+        return `<a href="${linkPath}" target="_blank" title="${p.dir}">${p.label}</a>`;
+      }).join(" · ");
+    section.appendChild(refDiv);
+  });
+}
+
+function renderTOC(slug) {
+  const toc = TOCS.find(t => t.slug === slug);
+  if (!toc) return;
+  const container = document.getElementById("toc-container");
+  container.innerHTML = '<h3>目录</h3>' +
+    toc.items.map(it => {
+      const cls = it.level === 2 ? "toc-item" : it.level === 3 ? "toc-item toc-h3" : "toc-item toc-h4";
+      return `<a class="${cls}" data-id="${it.id}">${escapeHtml(it.title)}</a>`;
+    }).join("");
+  container.querySelectorAll(".toc-item").forEach(a => {
+    a.addEventListener("click", () => {
+      const sec = document.getElementById("doc-" + a.dataset.id);
+      if (sec) sec.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+}
+
+function switchDoc(slug) {
+  activeSlug = slug;
+  localStorage.setItem(LS_PREFIX + "active", slug);
+  document.querySelectorAll(".tab-btn").forEach(b => b.classList.toggle("active", b.dataset.slug === slug));
+  document.querySelectorAll(".doc-section").forEach(s => s.classList.toggle("active", s.dataset.slug === slug));
+  renderTOC(slug);
+  const main = document.getElementById("main");
+  const savedPos = scrollPos[slug];
+  if (savedPos !== undefined) main.scrollTop = savedPos;
+  else main.scrollTop = 0;
+  applyMath();
+}
+
+function decodeBase64(s) {
+  return decodeURIComponent(atob(s).split("").map(c => "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2)).join(""));
+}
+
+function escapeHtml(s) {
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+
+function escapeRegex(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+// ───── Search ─────
+function doSearch(query) {
+  const input = document.getElementById("search-input");
+  const count = document.getElementById("search-count");
+  // Clear previous
+  document.querySelectorAll("mark.search-hl").forEach(m => m.replaceWith(m.textContent));
+  searchHits.clear();
+
+  if (!query || query.trim().length < 1) {
+    count.textContent = "";
+    return;
+  }
+
+  const re = new RegExp(escapeRegex(query.trim()), "gi");
+  const activeSection = document.querySelector(`section[data-slug="${activeSlug}"]`);
+  if (!activeSection) return;
+
+  let totalHits = 0;
+  const walk = (node) => {
+    // Only text nodes
+    const children = Array.from(node.childNodes);
+    for (const child of children) {
+      if (child.nodeType === 3) { // text
+        const text = child.textContent;
+        if (re.test(text)) {
+          const frag = document.createDocumentFragment();
+          const parts = text.split(re);
+          for (let i = 0; i < parts.length; i++) {
+            if (parts[i]) frag.appendChild(document.createTextNode(parts[i]));
+            if (i < parts.length - 1) {
+              totalHits++;
+              const m = document.createElement("mark");
+              m.className = "search-hl";
+              m.textContent = re.toString().match(/\\"?([^\\/]+)\\?/i)[1];
+              frag.appendChild(m);
+            }
+          }
+          node.replaceChild(frag, child);
+        }
+      } else if (child.nodeType === 1 && child.tagName !== "SCRIPT" && child.tagName !== "STYLE") {
+        walk(child);
+      }
+    }
+  };
+  walk(activeSection);
+  count.textContent = totalHits ? `${totalHits} 命中` : "无";
+
+  if (totalHits > 0) {
+    const first = activeSection.querySelector("mark.search-hl");
+    if (first) first.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+}
+
+// ───── Theme ─────
+function applyTheme() {
+  const theme = localStorage.getItem(LS_PREFIX + "theme") || "light";
+  document.documentElement.setAttribute("data-theme", theme);
+  document.getElementById("btn-theme").textContent = theme === "dark" ? "☀️" : "🌙";
+}
+document.getElementById("btn-theme").addEventListener("click", () => {
+  const cur = document.documentElement.getAttribute("data-theme") || "light";
+  const next = cur === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", next);
+  localStorage.setItem(LS_PREFIX + "theme", next);
+  document.getElementById("btn-theme").textContent = next === "dark" ? "☀️" : "🌙";
+});
+
+// ───── TOC scroll spy ─────
+const mainEl = document.getElementById("main");
+mainEl.addEventListener("scroll", () => {
+  scrollPos[activeSlug] = mainEl.scrollTop;
+  const activeSection = document.querySelector(`section[data-slug="${activeSlug}"]`);
+  if (!activeSection) return;
+  const heads = activeSection.querySelectorAll("h2, h3, h4");
+  let cur = null;
+  for (const h of heads) {
+    if (h.getBoundingClientRect().top - mainEl.getBoundingClientRect().top < 120) cur = h;
+  }
+  document.querySelectorAll(".toc-item").forEach(a => a.classList.remove("active"));
+  if (cur) {
+    const a = document.querySelector(`.toc-item[data-id="${cur.id}"]`);
+    if (a) a.classList.add("active");
+  }
+});
+
+// ───── KaTeX (with offline fallback) ─────
+function applyMath() {
+  if (!window.katex) return;
+  const activeSection = document.querySelector(`section[data-slug="${activeSlug}"]`);
+  if (!activeSection) return;
+  activeSection.querySelectorAll(".math.inline").forEach(el => {
+    try { katex.render(el.textContent, el, { throwOnError: false, displayMode: false }); }
+    catch(e) { el.style.fontFamily = "monospace"; }
+  });
+  activeSection.querySelectorAll(".math.block").forEach(el => {
+    try { katex.render(el.textContent, el, { throwOnError: false, displayMode: true }); }
+    catch(e) { el.style.fontFamily = "monospace"; el.style.fontStyle = "italic"; }
+  });
+}
+
+// ───── Stats ─────
+function updateStats() {
+  const totalChars = DOCS.reduce((s, d) => s + (d.size || 0), 0);
+  const totalTerms = 664; // from 05_glossary.md
+  document.getElementById("stats").textContent =
+    `3 篇知识库 · 21 篇论文 · 全库术语 ${totalTerms} 个 · HTML ${Math.round(totalChars/1024)} KB`;
+}
+
+// ───── Events ─────
+document.getElementById("search-input").addEventListener("input", e => doSearch(e.target.value));
+document.getElementById("search-input").addEventListener("keydown", e => {
+  if (e.key === "Escape") { e.target.value = ""; doSearch(""); e.target.blur(); }
+});
+document.getElementById("btn-toc").addEventListener("click", () => {
+  const sb = document.getElementById("sidebar");
+  if (window.getComputedStyle(sb).display === "none") sb.style.display = "block";
+  else sb.classList.toggle("open");
+});
+document.getElementById("btn-print").addEventListener("click", () => window.print());
+
+init();
+</script>
+</body>
+</html>
