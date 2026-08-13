@@ -215,7 +215,7 @@ function renderTOC(slug) {
     }).join("");
   tocDiv.querySelectorAll(".toc-item").forEach(a => {
     a.addEventListener("click", () => {
-      const sec = document.getElementById("doc-" + a.dataset.id);
+      const sec = document.getElementById(a.dataset.id);
       if (sec) sec.scrollIntoView({behavior:"smooth",block:"start"});
     });
   });

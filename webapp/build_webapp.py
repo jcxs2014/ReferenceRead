@@ -71,11 +71,25 @@ def convert_doc(path: Path):
         tmp.unlink(missing_ok=True)
     return content
 
-def extract_toc(html_body):
+def _heading_anchor(title: str) -> str:
+    """Same slug rule as md2doc_html.py line 144: keep alnum/CJK/dash, lowercase."""
+    return re.sub(r"[^\w\u4e00-\u9fff0-9-]+", "-", title).strip("-").lower()
+
+
+def extract_toc(html_body, parent_id=""):
+    """Parse <h2..h6 id="doc-XXX">...</hN> and emit TOC entries whose id
+    matches the fragment's heading id. Level mapping mirrors md2doc: h2→2, h3→3, …"""
     toc = []
-    for m in re.finditer(r'<h([1-4])\s+id="([^"]+)">([^<]+)</h\1>', html_body):
-        level = int(m.group(1))
-        toc.append({"level": level, "id": m.group(2), "title": html_mod.unescape(m.group(3).strip())})
+    # Use the id attribute (doc-{anchor}) directly — this is what the fragment generates.
+    for m in re.finditer(r"<h([2-6])[^>]*id=\"(doc-[^\"]+)\"[^>]*>(.*?)</h", html_body, re.DOTALL):
+        level = int(m.group(1))  # h2=2, h3=3, ...
+        hid = m.group(2)
+        # Extract plain text title from the heading
+        raw_title = re.sub(r"<[^>]+>", "", m.group(3)).strip()
+        title = html_mod.unescape(raw_title)
+        toc.append({"level": level, "id": hid, "title": title,
+                    "parent_id": parent_id,
+                    "parent_label": ""})
     return toc
 
 def get_years():
@@ -138,7 +152,7 @@ def build(include_papers=False):
                 docs.append({"id": paper_slug, "slug": paper_slug, "title": f"论文 · {title}", "category": cat_label, "b64": b64})
 
                 # TOC
-                for t in extract_toc(paper_html):
+                for t in extract_toc(paper_html, paper_slug):
                     t["parent_id"] = paper_slug
                     t["parent_label"] = title
                     all_toc.append(t)
@@ -163,7 +177,7 @@ def build(include_papers=False):
         doc_id = slug(title)
         b64 = base64.b64encode(html.encode("utf-8")).decode("ascii")
         docs.append({"id": doc_id, "slug": doc_id, "title": title, "category": "背景知识", "b64": b64})
-        for t in extract_toc(html):
+        for t in extract_toc(html, doc_id):
             t["parent_id"] = doc_id
             all_toc.append(t)
 
