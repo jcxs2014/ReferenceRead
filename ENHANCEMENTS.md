@@ -51,17 +51,17 @@
 
 ## P0 — 结构层（低成本、立即见效）
 
-### 1. ⬜ README 升级为工作区总览
+### 1. ✅ README 升级为工作区总览
 - **问题**：`README.md` 只有命名规范 + frontmatter 模板，未描述项目实际产出体系（`literature_analysis/` 分章、`background/` 知识库、`READING_INSTRUCTIONS.md` 的作用），新会话/新设备无法 30 秒看懂全貌。
 - **做法**：补充「目录结构图 + 产出流水线说明 + 各顶层文件职责 + 阅读顺序建议」。
 - **涉及文件**：`README.md`
 
-### 2. ⬜ 提交遗留 git 变更
+### 2. ✅ 提交遗留 git 变更
 - **问题**：工作区有未提交变更（8 个 `98_vocabulary.md` 从论文根目录移入 `literature_analysis/` 的删除记录 + `.sync.ffs_db` 修改）。
 - **做法**：`git add -A && git commit`（建议 `.sync.ffs_db` 仍保持 ignore，仅提交词汇表移动）。
 - **涉及文件**：仓库根 git 状态
 
-### 3. ⬜ 篇间阅读导航
+### 3. ✅ 篇间阅读导航
 - **问题**：`00_overview.md` 只有文件内导航（上一章/下一章），无篇间导航；21 篇之间存在明确的传承/对照关系。
 - **做法**：每篇 overview 增加「前序阅读 / 关联论文」字段。已知关系：
   - Blasi (2013) ↔ Amato (2014)：同主题双综述
@@ -97,7 +97,7 @@
 - **做法**：把 `background/` 三篇文档做成单文件交互网页（全文搜索、公式渲染、主题切换、术语表查询、21 篇论文交叉跳转），复用 `agent-harness` 已验证的单文件架构（i18n + 浅/深主题 + 全文搜索）。
 - **涉及文件**：新建（如 `background/background-interactive.html`）
 
-### 8. ⬜ 脚本自动生成 INDEX.md
+### 8. ✅ 脚本自动生成 INDEX.md
 - **做法**：写脚本从目录结构 + frontmatter 自动生成 `INDEX.md`（含篇数、分析文件数、链接、统计），新增论文时零手工维护。
 - **涉及文件**：新建脚本 + `INDEX.md`
 
