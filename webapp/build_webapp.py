@@ -126,78 +126,57 @@ def convert_doc(path: Path, doc_id: str = ""):
 
 
 def _deduplicate_headings(html_body: str, parent_id: str) -> tuple:
-    """Ensure all heading ids in html_body are globally unique within this doc.
-    Returns (deduped_html, list_of_toc_entries)."""
+    """Ensure all heading ids are unique within a doc; extract TOC entries.
+    md2doc resets its counter per fragment, so cross-fragment collisions (same
+    bare anchor appearing in multiple fragments) are resolved here.
+    Strategy: strip any existing -N suffix, re-suffix all bare anchors 1..N.
+    This avoids collisions between bare anchors and md2doc's own -N suffixes."""
     heading_pattern = re.compile(r"<h([2-6])([^>]*)id=\"([^\"]+)\"([^>]*)>(.*?)</h", re.DOTALL)
-    seen = {}   # id -> count for suffix
     toc_entries = []
 
-    # Work on a list of (start, end, level, hid, raw_tag) to allow positional replace
+    # Pass 1: collect (bare, full_id, level, title, old_tag, tag_start, tag_end)
     matches = list(heading_pattern.finditer(html_body))
-    # Build deduped HTML via slices (avoids str.replace positional drift)
+    bare_counter = {}   # bare -> count across all fragments
+    items = []
+    for m in matches:
+        full_id = m.group(3)
+        bare    = re.sub(r'-\d+$', '', full_id)   # strip md2doc's -N suffix
+        level   = int(m.group(1))
+        raw     = re.sub(r"<[^>]+>", "", m.group(5)).strip()
+        title   = html_mod.unescape(raw)
+        items.append({
+            "bare": bare, "full_id": full_id, "level": level,
+            "title": title, "old_tag": m.group(0),
+            "tag_start": m.start(), "tag_end": m.end(),
+        })
+        bare_counter[bare] = bare_counter.get(bare, 0) + 1
+
+    # Pass 2: assign new suffixes only for bare anchors that appear > once
+    seen_count = {}
     result = []
     last_end = 0
-
-    for m in matches:
-        level = int(m.group(1))
-        hid   = m.group(3)
-        raw   = re.sub(r"<[^>]+>", "", m.group(5)).strip()
-        title = html_mod.unescape(raw)
-
-        # Deduplicate: append -1, -2, ... for repeats
-        if hid in seen:
-            seen[hid] += 1
-            hid = f"{hid}-{seen[hid]}"
+    for it in items:
+        if bare_counter[it["bare"]] > 1:
+            seen_count[it["bare"]] = seen_count.get(it["bare"], 0) + 1
+            new_id = f"{it['bare']}-{seen_count[it['bare']]}"
         else:
-            seen[hid] = 0
-
-        toc_entries.append({"level": level, "id": hid, "title": title,
+            new_id = it["bare"]
+        toc_entries.append({"level": it["level"], "id": new_id, "title": it["title"],
                            "parent_id": parent_id, "parent_label": ""})
-
-        # Slice-based replacement at exact position (no str.replace drift)
-        tag_start = m.start()
-        tag_end   = m.end()
-        old_tag   = m.group(0)
-        new_tag = old_tag.replace(f'id="{m.group(3)}"', f'id="{hid}"')
-        result.append(html_body[last_end:tag_start])
+        new_tag = it["old_tag"].replace(f'id="{it["full_id"]}"', f'id="{new_id}"')
+        result.append(html_body[last_end:it["tag_start"]])
         result.append(new_tag)
-        last_end = tag_end
+        last_end = it["tag_end"]
 
     result.append(html_body[last_end:])
     deduped = "".join(result)
 
-    # Second pass: catch cases where the same raw id appeared 3+ times
-    # (first pass gives -1/-2, but str.replace on raw id for 3rd+ fails because
-    # the tag now carries the already-patched id). Second pass fixes remaining dupes.
-    heading_pattern2 = re.compile(r"<h([2-6])([^>]*)id=\"([^\"]+)\"([^>]*)>", re.DOTALL)
-    ids_in_deduped = [m.group(3) for m in heading_pattern2.finditer(deduped)]
-    if len(ids_in_deduped) != len(set(ids_in_deduped)):
-        deduped = _fix_remaining_dupes(deduped)
+    # Assert final uniqueness
+    ids = [m.group(3) for m in heading_pattern.finditer(deduped)]
+    assert len(ids) == len(set(ids)), \
+        f"Duplicate heading ids in {parent_id}: {[h for h in ids if ids.count(h) > 1]}"
 
     return deduped, toc_entries
-
-
-def _fix_remaining_dupes(html: str) -> str:
-    """Fix any heading ids that still collide after the first dedup pass."""
-    pattern = re.compile(r"<h([2-6])([^>]*)id=\"([^\"]+)\"([^>]*)>(.*?)</h", re.DOTALL)
-    # Collect ids and their positions
-    seen = {}
-    result = []
-    last_end = 0
-    for m in pattern.finditer(html):
-        hid = m.group(3)
-        if hid in seen:
-            seen[hid] += 1
-            hid = f"{hid}-{seen[hid]}"
-        else:
-            seen[hid] = 0
-        old_tag = m.group(0)
-        new_tag = old_tag.replace(f'id="{m.group(3)}"', f'id="{hid}"')
-        result.append(html[last_end:m.start()])
-        result.append(new_tag)
-        last_end = m.end()
-    result.append(html[last_end:])
-    return "".join(result)
 
 
 def build(include_papers=False, out=None):
