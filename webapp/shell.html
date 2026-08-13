@@ -33,13 +33,13 @@ body {
 .toolbar {
   flex-shrink:0; display:flex; align-items:center; gap:8px;
   padding:8px 16px; background:var(--bg-2); border-bottom:1px solid var(--border);
-  position:sticky; top:0; z-index:100; flex-wrap:nowrap; overflow-x:auto;
+  position:sticky; top:0; z-index:100; flex-wrap:nowrap; overflow:visible;
 }
 .brand { font-weight:700; font-size:15px; color:var(--accent); white-space:nowrap; flex-shrink:0; }
 .brand small { font-weight:400; color:var(--fg-2); margin-left:3px; }
 
 /* Grouped tabs */
-.tab-groups { display:flex; gap:6px; align-items:center; flex:1; overflow-x:auto; flex-shrink:1; }
+.tab-groups { display:flex; gap:6px; align-items:center; flex:1; overflow:visible; flex-shrink:1; }
 .tab-group { position:relative; z-index:300; }
 .tab-group-btn {
   display:flex; align-items:center; gap:4px;
@@ -84,9 +84,11 @@ body {
 .ctrl-btn:hover { border-color:var(--accent); color:var(--accent); }
 .ctrl-btn.active { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); }
 
-/* Overlay for mobile */
+/* Overlay — hidden by default, mobile only when sidebar open */
 #overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.4); z-index:98; }
-.app.sidebar-open #overlay { display:block; }
+@media (max-width:900px) {
+  .app.sidebar-open #overlay { display:block; }
+}
 
 /* App body */
 .app-body { display:flex; flex:1; overflow:visible; }
@@ -269,13 +271,14 @@ function renderTabGroups() {
 
     const btn = document.createElement("button");
     btn.className = "tab-group-btn";
+    btn.dataset.grp = grpName;
     btn.textContent = grpName;
 
     const dropdown = document.createElement("div");
     dropdown.className = "tab-dropdown";
 
     items.forEach(d => {
-      const a = document.createElement("div");
+      const a = document.createElement("button");
       a.className = "tab-dropdown-item" + (d.slug === activeSlug ? " active" : "");
       a.textContent = d.title;
       a.dataset.slug = d.slug;
@@ -347,9 +350,12 @@ function switchDoc(slug) {
   activeSlug = slug;
   safeLsSet(LS+"active", slug);
 
-  // Update tab group buttons
+  // Update tab group buttons: show current doc title
   document.querySelectorAll(".tab-group-btn").forEach(b => {
-    b.classList.toggle("active", b.textContent === getDoc(slug).category);
+    const isActive = b.dataset.grp === getDoc(slug).category;
+    b.classList.toggle("active", isActive);
+    if (isActive) b.textContent = getDoc(slug).title;
+    else b.textContent = b.dataset.grp;
   });
   document.querySelectorAll(".tab-dropdown-item").forEach(a => {
     a.classList.toggle("active", a.dataset.slug === slug);
@@ -530,6 +536,7 @@ document.addEventListener("keydown", e => {
     document.getElementById("search-input").value = "";
     doSearch("");
     e.target.blur();
+    document.querySelectorAll(".tab-group.open").forEach(g => g.classList.remove("open"));
   }
   if (e.key === "t" || e.key === "T") {
     document.getElementById("btn-theme").click();
