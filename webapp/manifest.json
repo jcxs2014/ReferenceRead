@@ -1,0 +1,24 @@
+{
+  "name": "Papers 知识库",
+  "short_name": "Papers",
+  "description": "天体物理/核天体物理论文精读知识库（单文件离线 webapp）",
+  "start_url": "interactive.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#101418",
+  "theme_color": "#101418",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
