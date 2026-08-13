@@ -8,8 +8,13 @@ from pathlib import Path
 
 SRC = sys.argv[1] if len(sys.argv) > 1 else ""
 OUT = sys.argv[2] if len(sys.argv) > 2 else "/tmp/fragment.html"
-# Optional doc-id prefix for heading anchors (avoids global id collision across docs)
-DOC_ID = sys.argv[3] if len(sys.argv) > 3 else ""
+# Optional doc-id prefix for heading anchors; --reset-anchors clears module-level state
+_arg4 = sys.argv[3] if len(sys.argv) > 3 else ""
+if _arg4 == "--reset-anchors":
+    _seen_anchors.clear()
+    DOC_ID = sys.argv[4] if len(sys.argv) > 4 else ""
+else:
+    DOC_ID = _arg4
 
 def inline_markdown(t_raw):
     """Markdown inline formatting, splitting on $...$ to preserve math unescaped."""

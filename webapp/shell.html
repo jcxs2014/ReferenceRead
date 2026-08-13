@@ -44,8 +44,8 @@ body {
 .tab-group-btn {
   display:flex; align-items:center; gap:4px;
   padding:5px 12px; border:1px solid var(--border); border-radius:6px;
-  background:var(--card); color:var(--fg); font-size:12px; cursor:pointer; white-space:nowrap;
-  max-width:180px; overflow:hidden; text-overflow:ellipsis;
+  background:var(--card); color:var(--fg); font-size:12px; cursor:pointer;
+  max-width:160px; flex-shrink:0; overflow:hidden;
 }
 .tab-group-btn:hover { border-color:var(--accent); color:var(--accent); }
 .tab-group-btn.active { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); font-weight:600; }
@@ -90,8 +90,8 @@ body {
   .app.sidebar-open #overlay { display:block; }
 }
 
-/* App body */
-.app-body { display:flex; flex:1; overflow:visible; }
+/* App body — overflow:hidden prevents sidebar scroll capture on desktop */
+.app-body { display:flex; flex:1; overflow:hidden; }
 .sidebar {
   width:0; flex-shrink:0; overflow:hidden;
   border-right:1px solid var(--border); background:var(--bg-2);
@@ -332,10 +332,7 @@ function renderTOC(slug) {
   tocDiv.querySelectorAll(".toc-item").forEach(el => {
     el.addEventListener("click", () => {
       const target = document.getElementById(el.dataset.id);
-      if (target) {
-        target.scrollIntoView({behavior:"smooth", block:"start"});
-        closeSidebar();
-      }
+      if (target) target.scrollIntoView({behavior:"smooth", block:"start"});
     });
   });
 }

@@ -112,7 +112,7 @@ def slug(s):
 
 def convert_doc(path: Path, doc_id: str = ""):
     tmp = path.with_suffix(".fragment.html")
-    args = [sys.executable, str(TOOLS / "md2doc_html.py"), str(path), str(tmp)]
+    args = [sys.executable, str(TOOLS / "md2doc_html.py"), str(path), str(tmp), "--reset-anchors"]
     if doc_id:
         args.append(doc_id)
     r = subprocess.run(args, capture_output=True, text=True, cwd=str(TOOLS))
@@ -164,7 +164,40 @@ def _deduplicate_headings(html_body: str, parent_id: str) -> tuple:
         last_end = tag_end
 
     result.append(html_body[last_end:])
-    return "".join(result), toc_entries
+    deduped = "".join(result)
+
+    # Second pass: catch cases where the same raw id appeared 3+ times
+    # (first pass gives -1/-2, but str.replace on raw id for 3rd+ fails because
+    # the tag now carries the already-patched id). Second pass fixes remaining dupes.
+    heading_pattern2 = re.compile(r"<h([2-6])([^>]*)id=\"([^\"]+)\"([^>]*)>", re.DOTALL)
+    ids_in_deduped = [m.group(3) for m in heading_pattern2.finditer(deduped)]
+    if len(ids_in_deduped) != len(set(ids_in_deduped)):
+        deduped = _fix_remaining_dupes(deduped)
+
+    return deduped, toc_entries
+
+
+def _fix_remaining_dupes(html: str) -> str:
+    """Fix any heading ids that still collide after the first dedup pass."""
+    pattern = re.compile(r"<h([2-6])([^>]*)id=\"([^\"]+)\"([^>]*)>(.*?)</h", re.DOTALL)
+    # Collect ids and their positions
+    seen = {}
+    result = []
+    last_end = 0
+    for m in pattern.finditer(html):
+        hid = m.group(3)
+        if hid in seen:
+            seen[hid] += 1
+            hid = f"{hid}-{seen[hid]}"
+        else:
+            seen[hid] = 0
+        old_tag = m.group(0)
+        new_tag = old_tag.replace(f'id="{m.group(3)}"', f'id="{hid}"')
+        result.append(html[last_end:m.start()])
+        result.append(new_tag)
+        last_end = m.end()
+    result.append(html[last_end:])
+    return "".join(result)
 
 
 def build(include_papers=False, out=None):
