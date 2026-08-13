@@ -490,24 +490,27 @@ function applyMath() {
     catch(e) { el.style.fontFamily = "monospace"; }
   });
 
-  // Block: already has guard (wrap.dataset.processed)
+  // Block: guard with data-processed; add copy button only once
   sec.querySelectorAll(".math.block-wrap").forEach(wrap => {
     if (wrap.dataset.processed) return;
     wrap.dataset.processed = "1";
     const inner = wrap.querySelector(".math-inner");
     const src   = inner.textContent;
-    const btn   = document.createElement("button");
-    btn.className = "copy-btn";
-    btn.textContent = "📋 LaTeX";
-    btn.title = "复制 LaTeX 源码";
-    btn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      navigator.clipboard.writeText(src).then(
-        () => { btn.textContent="✓"; btn.classList.add("copied"); setTimeout(()=>{btn.textContent="📋 LaTeX";btn.classList.remove("copied");},1500); },
-        () => { const t=document.createElement("textarea"); t.value=src; document.body.appendChild(t); t.select(); document.execCommand("copy"); document.body.removeChild(t); btn.textContent="✓"; setTimeout(()=>btn.textContent="📋 LaTeX",1500); }
-      );
-    });
-    wrap.appendChild(btn);
+    // Add copy button only if not already present (avoids double-add on re-render)
+    if (!wrap.querySelector(".copy-btn")) {
+      const btn   = document.createElement("button");
+      btn.className = "copy-btn";
+      btn.textContent = "📋 LaTeX";
+      btn.title = "复制 LaTeX 源码";
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        navigator.clipboard.writeText(src).then(
+          () => { btn.textContent="✓"; btn.classList.add("copied"); setTimeout(()=>{btn.textContent="📋 LaTeX";btn.classList.remove("copied");},1500); },
+          () => { const t=document.createElement("textarea"); t.value=src; document.body.appendChild(t); t.select(); document.execCommand("copy"); document.body.removeChild(t); btn.textContent="✓"; setTimeout(()=>btn.textContent="📋 LaTeX",1500); }
+        );
+      });
+      wrap.appendChild(btn);
+    }
     try { katex.render(src, inner, {throwOnError:false, displayMode:true}); }
     catch(e) { inner.style.fontFamily = "monospace"; }
   });
