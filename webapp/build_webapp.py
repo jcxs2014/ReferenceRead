@@ -290,8 +290,11 @@ def build(include_papers=False, out=None):
                     all_toc.append(t)
 
                 stem_yr = re.match(r"\d{4}_.+?-(\d{4})", stem)
-                year    = int(stem_yr.group(1)) if stem_yr else 0
                 reg     = _paper_reg(stem)
+                reg_yr  = reg.get("year")
+                try: reg_yr_i = int(str(reg_yr).strip())
+                except (TypeError, ValueError): reg_yr_i = 0
+                year    = reg_yr_i or (int(stem_yr.group(1)) if stem_yr else 0)
                 papers_json.append({
                     "slug":     paper_slug,
                     "label":    _fmt_authors(reg.get("authors", "")) + f" ({year})" if reg.get("authors") else title,
