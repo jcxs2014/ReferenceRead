@@ -26,10 +26,8 @@ path: background/00_home.md
 | [CRITIQUE 观点汇总](04_critique_index.md) | 各篇论文批判性分析索引 |
 | [全库术语表](05_glossary.md) | 学术词汇与领域术语 |
 
-### 论文 · 宇宙线传播（1 篇）
+### 论文 · 宇宙线传播与起源（8 篇）
 - [Strong, Moskalenko & Ptuskin 2007](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) — CR 传播与星际介质
-
-### 论文 · 宇宙线起源与 UHECR（7 篇）
 - [Bhattacharjee & Sigl 2000](02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md) — UHECR 起源与传播
 - [Al-Dargazelli et al. 1996](02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overview.md) — 银河系 CR 起源
 - [Gaisser 1990](02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview.md) — CR 能谱与源
@@ -38,7 +36,7 @@ path: background/00_home.md
 - [Grenier, Black & Strong 2015](02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md) — CR 与星际介质
 - [Biermann 1996](02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md) — CR 加速机制
 
-### 论文 · 恒星核合成与丰度（13 篇）
+### 论文 · 恒星核合成与丰度（15 篇）
 - [B²FH 1957](03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md) — 恒星核合成经典论文
 - [Trimble 1975](03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview.md) — 核合成综述
 - [Fowler 1984](03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview.md) — 恒星核合成（R 过程）
