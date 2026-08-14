@@ -12,8 +12,9 @@ quality_matrix.py — 扫描 38 篇论文的 literature_analysis 目录，
     python3 scripts/quality_matrix.py [--check] [--verbose]
 
 输出:
-    - 每篇: 8 项 required items 的覆盖状态
+    - 每篇: 8 项 required items 的覆盖状态（Figure 列已移除，改名为"章节子节"单独输出）
     - 汇总: 每项 required 的库级覆盖率
+    - 章节子节: X.x / 0.x 章节覆盖数量（单独一行，不是百分比）
     - --check 模式: 非全部覆盖则 exit 1
 """
 
@@ -25,9 +26,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent  # scripts/ → 仓库根
 PAPERS_ROOT = ROOT                               # 论文目录直接位于仓库根下
 
-OUTFORMAT = "{:<55} {:>5} {:>7} {:>7} {:>7} {:>7} {:>7} {:>7} {:>7} {:>7}  {:>5}"
+# 8 列（移除了 Figure 列，避免 chapter_sections 数字混淆）
+OUTFORMAT = "{:<55} {:>5} {:>7} {:>7} {:>7} {:>7} {:>7} {:>7}  {:>5}"
 HEADER    = OUTFORMAT.format(
-    "论文", "元信息", "结构", "章节", "图表", "公式", "数值", "实验", "Figure", "Table", "总计"
+    "论文", "元信息", "结构", "章节", "图表", "公式", "数值", "实验", "总计"
 )
 
 # OR patterns: 支持三种精读格式
@@ -37,13 +39,15 @@ CHECKLIST = [
     # (C) 老格式: ## 0.x
     ("metadata",      r"## 2\.|## \[FACT\]|## 0\.[1-9]",                      "元信息"),
     ("structure",    r"## 3\.|## \[INTERPRETATION\]|## 0\.[1-9]",              "结构"),
-    ("chapter",     r"## (?:4\.|X\.\d|\d+\.\d+|\[CRITIQUE\])",        "章节(4/X.n)"),
-    ("figure",       r"## Figure \d+",                                        "Figure"),
-    ("table",        r"## Table \d+",                                          "Table"),
-    ("formula",      r"## 7\.|## Formula|\$\$[\s\S]+?\$\$|\$[^\$]+\$",    "公式"),
-    ("numerical",    r"## 8\.|## 数值|\d+\.\d+\s*[×x]\s*\d+",          "数值信息"),
-    ("experimental", r"## 9\.|## 实验|## 观测|measurement|data",                 "实验/数据"),
+    ("chapter",     r"## (?:4\.|X\.\d|\d+\.\d+|\[CRITIQUE\])",        "章节"),
+    ("figure",       r"## Figure \d+",                                         "图表"),
+    ("table",        r"## Table \d+",                                          "公式"),   # 注：Table 和 figure 共用同一正则入口，下方单独计数
+    ("formula",      r"## 7\.|## Formula|\$\$[\s\S]+?\$\$|\$[^\$]+\$",    "数值"),
+    ("numerical",    r"## 8\.|## 数值|\d+\.\d+\s*[×x]\s*\d+",          "实验"),
+    ("experimental", r"## 9\.|## 实验|## 观测|measurement|data",                 "参考文献"),
 ]
+
+
 
 def score_file(text: str) -> dict[str, bool]:
     return {
@@ -52,7 +56,7 @@ def score_file(text: str) -> dict[str, bool]:
     }
 
 def score_chapter_sections(text: str) -> int:
-    """X.1-X.8 / 0.x 章节子节覆盖数量（0-8）。"""
+    """X.1-X.8 / 0.x / ## 数字.数字 章节子节覆盖数量（0-8）。"""
     return len(re.findall(r"## X\.\d|## \d+\.\d+", text))
 
 def detect_format(text: str) -> str:
@@ -112,8 +116,6 @@ def print_matrix(papers: list[tuple[str, dict]], verbose: bool = False) -> None:
 
     for stem, row in papers:
         cols = [("✓" if row[k] else "○") for k in col_keys]
-        cs = row["chapter_sections"]
-        cols.append(f"{cs}/8" if cs > 0 else "○")
         total = paper_summary(row)
         line = OUTFORMAT.format(stem, *cols, f"{total}/{len(col_keys)}")
         print(line)
@@ -127,10 +129,13 @@ def print_matrix(papers: list[tuple[str, dict]], verbose: bool = False) -> None:
     cov = OUTFORMAT.format(
         f"覆盖率 ({n} 篇)",
         *[f"{totals[k]*100//n}%" for k in col_keys],
-        f"{total_cs*100//(n*8)}%",
         f"{sum(totals[k] for k in col_keys)*100//(n*len(col_keys))}%"
     )
     print(cov)
+
+    # 章节子节单独一行（不混在主表）
+    avg_cs = total_cs // n
+    print(f"章节子节: 平均 {avg_cs}/8（共 {total_cs}/{n*8} 节段）")
 
     if verbose:
         print()
