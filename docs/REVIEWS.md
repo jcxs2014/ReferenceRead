@@ -6,6 +6,47 @@
 
 ---
 
+## 审查 #15：批 4/4 收官核验 — 15 篇深度精读全链闭环（2026-08-15 00:53）
+
+**Hermes 交付**：`c9f215a feat(批4)` + `38f1504 fix(0004 目录名修正)`。
+
+### 核验结果：收官基本完成 ✅，2 个小尾巴 ⚠️
+
+| 核验项 | 报告 | 实测 | 判定 |
+|---|---|---|---|
+| 批 4 提交 `c9f215a` | — | ✅ 真实，独立 feat，message 如实 | ✅ |
+| `38f1504` 目录名修正 | — | ✅ 真实（rename + citations null + rebuild all） | ✅ |
+| 五篇三件套 | ✅ | ✅ 全齐（0004/0006/0012/0016/0017） | ✅ |
+| 覆盖率 | 100%/100%/100% | ✅ 实测一致（元信息/结构/章节） | ✅ |
+| 0004 目录名 | mewaldt-2001 | ✅ 已改对（registry/INDEX 干净） | ✅ |
+| 工作树 | 0 未提交 | ✅ 0 | ✅ |
+| **verify_claim** | **「全部通过」** | ⚠️ **实测 PASS=11/FAIL=1**（quality_matrix 骨架预期） | ⚠️ |
+| **00_home 残留** | — | ⚠️ `background/00_home.md:33` 链接路径仍是 `0004_weinrich-2020-clocks`（断链） | ⚠️ |
+
+### 两个遗留问题（转达 Hermes）
+
+1. **00_home.md:33 断链**：链接文字已改「Mewaldt et al. 2001」但路径未改——`0004_weinrich-2020-clocks` → `0004_mewaldt-2001-clocks`（一行，手工改）
+2. **verify_claim 表述回退**：实测仍是 PASS=11/FAIL=1（12 篇骨架缺 section 的预期行为），报告「全部通过」不准确——前几轮都如实报告 FAIL=1，本轮回退。后续请保持「PASS=11 FAIL=1（骨架预期）」口径
+
+### 表扬点
+
+- **0004 作者核实正确**：WorkBuddy 曾误推荐 `weinrich-2020`（凭印象，实为另一篇晕高文献），Hermes 按严格指令「以 PDF 首页为准」核实出 **Mewaldt 2001**（Space Science Reviews 99, 137）并写对 frontmatter——严格指令生效的正面案例
+- 教训（WorkBuddy 侧）：**推荐文献时未验证作者就写目录名**，应由 PDF 元数据确认后再定名
+
+### 里程碑：15 篇深度精读全链收官 🎉
+
+| 批 | 内容 | 覆盖 |
+|---|---|---|
+| 1/4 | DSA 奠基三件套（Bell/BO/BE） | 02 域理论链条完整 |
+| 2/4 | 传播现代锚点（Amato/Weinrich/Génolini） | 01 域 1→4 篇深度覆盖 |
+| 3/4 | UHECR 观测四篇（Hillas/Giuffrida/Alves-Batista/TA） | 观测+判据齐 |
+| 4/4 | 综述五篇（Mewaldt/Ruszkowski/Gabici/Cowan/Käppeler） | r/s 过程+范式挑战收尾 |
+
+- 全库 38 篇论文，覆盖率 100%/100%/100%（元信息/结构/章节），工作树干净
+- 一天内两个大闭环：RECOMMENDATIONS 12 项 + 目录整理 → 15 篇文献批量入库 + 深度精读
+
+---
+
 ## 审查 #14：批 2/4 深度精读核验 — CR 传播现代锚点（2026-08-15 00:12）
 
 **Hermes 交付**：`3c22a23 feat(papers)` — Amato & Blasi 2018 / Weinrich 2020 / Génolini 2021 深度精读。
