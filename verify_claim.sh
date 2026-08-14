@@ -13,6 +13,30 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 cd "$ROOT"
 
+# 固化解释器：确保有 yaml（build_registry 需要），否则门禁不可靠
+_PREFERRED_PY="$(command -v python3)"
+if "$_PREFERRED_PY" -c "import yaml" 2>/dev/null; then
+    PYTHON="$_PREFERRED_PY"
+else
+    # 尝试 venv
+    _VENV_PY="/Users/jcxs2014/.workbuddy/binaries/python/envs/default/bin/python3"
+    if [ -x "$_VENV_PY" ] && "$_VENV_PY" -c "import yaml" 2>/dev/null; then
+        PYTHON="$_VENV_PY"
+    else
+        # 找任何带 yaml 的 python3
+        for p in $(command -v python3); do
+            if "$p" -c "import yaml" 2>/dev/null; then PYTHON="$p"; break; fi
+        done
+        if [ -z "$PYTHON" ]; then
+            echo "FATAL: 需要含 PyYAML 的 $PYTHON 解释器"
+            echo "  当前: $(command -v python3) ($(command -v python3) --version 2>&1)"
+            exit 1
+        fi
+    fi
+fi
+echo ">>> Using python: $PYTHON"
+export PYTHON
+
 PASS=0
 FAIL=0
 SKIP=0
@@ -28,7 +52,7 @@ echo "======================================"
 # ── 1. Python 单元测试 ──────────────────────────────────────────
 echo ""
 echo "[1/6] 单元测试"
-if python3 -m unittest discover -s "$ROOT/webapp/tests" 2>&1 | tail -3 | grep -Fxq "OK"; then
+if $PYTHON -m unittest discover -s "$ROOT/webapp/tests" 2>&1 | tail -3 | grep -Fxq "OK"; then
     pass "26 tests pass"
 else
     fail "tests failed"
@@ -37,7 +61,7 @@ fi
 # ── 2. build_fm.py dry-run ───────────────────────────────────────
 echo ""
 echo "[2/6] build_fm.py --dry-run"
-if python3 "$ROOT/webapp/build_fm.py" --dry-run 2>&1 | grep -q "失败 0 个"; then
+if $PYTHON "$ROOT/webapp/build_fm.py" --dry-run 2>&1 | grep -q "失败 0 个"; then
     pass "build_fm dry-run: 0 failures"
 else
     fail "build_fm dry-run: non-zero failures"
@@ -46,7 +70,7 @@ fi
 # ── 3. build_registry.py dry-run ─────────────────────────────────
 echo ""
 echo "[3/6] build_registry.py dry-run"
-if python3 "$ROOT/webapp/build_registry.py" --dry-run 2>&1 | grep -q '"path":'; then
+if $PYTHON "$ROOT/webapp/build_registry.py" --dry-run 2>&1 | grep -q '"path":'; then
     pass "build_registry dry-run OK"
 else
     fail "build_registry dry-run failed"
@@ -56,7 +80,7 @@ fi
 echo ""
 echo "[4/6] registry.json 字段检查"
 export ROOT
-python3 << 'PYEOF'
+$PYTHON << 'PYEOF'
 import json, os, sys
 reg = json.load(open(os.environ["ROOT"] + "/webapp/registry.json"))
 for i, e in enumerate(reg):
@@ -103,11 +127,11 @@ done
 # ── 6. audit.py ─────────────────────────────────────────────────
 echo ""
 echo "[6/6] audit.py"
-if python3 "$ROOT/webapp/audit.py" 2>&1 | grep -q "All checks passed\|pass"; then
+if $PYTHON "$ROOT/webapp/audit.py" 2>&1 | grep -q "All checks passed\|pass"; then
     pass "audit.py passed"
 else
     echo "  [WARN] audit.py output (not necessarily failure):"
-    python3 "$ROOT/webapp/audit.py" 2>&1 | tail -10
+    $PYTHON "$ROOT/webapp/audit.py" 2>&1 | tail -10
     pass "audit.py ran (manual review recommended)"
 fi
 
@@ -115,9 +139,9 @@ fi
 if [ "${1:-}" = "--full-rebuild" ]; then
     echo ""
     echo "[full-rebuild] 重建 webapp"
-    python3 "$ROOT/webapp/build_fm.py"
-    python3 "$ROOT/webapp/build_registry.py"
-    python3 "$ROOT/webapp/build_webapp.py" --include-papers
+    $PYTHON "$ROOT/webapp/build_fm.py"
+    $PYTHON "$ROOT/webapp/build_registry.py"
+    $PYTHON "$ROOT/webapp/build_webapp.py" --include-papers
     echo "  [DONE] webapp rebuilt"
 fi
 
