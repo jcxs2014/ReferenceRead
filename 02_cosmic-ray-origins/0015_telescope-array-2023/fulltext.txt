@@ -1,0 +1,851 @@
+                        Supplementary Materials for
+
+        An extremely energetic cosmic ray observed by a surface detector array
+
+                                            Telescope Array Collaboration
+
+                                          Corresponding author: Toshihiro Fujii, toshi@omu.ac.jp
+
+                                                             Science 382, 903 (2023)
+                                                         DOI: 10.1126/science.abo5095
+
+The PDF file includes:
+
+         Telescope Array Collaboration Authors
+         Materials and Methods
+         Supplementary Text
+         Figs. S1 to S3
+         References
+Telescope Array Collaboration Authors and Affiliations
+
+R.U. Abbasi1, M.G. Allen2, R. Arimura3, J.W. Belz2, D.R. Bergman2, S.A. Blake4, B.K. Shin5,
+I.J. Buckland2, B.G. Cheon6, T. Fujii7,3,8, K. Fujisue9, K. Fujita9, M. Fukushima9, G.D. Furlich2,
+Z.R. Gerber2, N. Globus10,, K. Hibino11, R. Higuchi10, K. Honda12, D. Ikeda11, H. Ito10,
+A. Iwasaki3, S. Jeong13, H.M. Jeong13, C.H. Jui2, K. Kadota14, F. Kakimoto11, O.E. Kalashev15,
+K. Kasahara16, K. Kawata9, I. Kharuk15, E. Kido10, S.W. Kim13, H.B. Kim6, J.H. Kim2, J.H. Kim17,
+I. Komae3, Y. Kubota18, M.Yu. Kuznetsov15, K.H. Lee13, B.K. Lubsandorzhiev15, J.P. Lundquist19,
+J.N. Matthews2, S. Nagataki10, T. Nakamura18, A. Nakazawa18, T. Nonaka9, S. Ogio9, M. Ono20,10,
+H. Oshima9, I.H. Park13, M. Potts2, S. Pshirkov15, J.R. Remington21, D.C. Rodriguez22,2, C. Rott2,13,
+G.I. Rubtsov15, D. Ryu5, H. Sagawa9, N. Sakaki10, T. Sako9, N. Sakurai23, H. Shin9, J.D. Smith2,
+P. Sokolsky2, B.T. Stokes2, T.S. Stroman2, K. Takahashi9, M. Takeda9, A. Taketa24, Y. Tameda25,
+S. Thomas2, G.B. Thomson2, P.G. Tinyakov26, I. Tkachev15, T. Tomida18, S.V. Troitsky15,
+Y. Tsunesada3,8, S Udo11, F.R. Urban27, T. Wong2, K. Yamazaki28, Y. Yuma18, Y.V. Zhezher15
+and Z. Zundel2
+
+1 Physics Department, Loyola University Chicago, Chicago, IL, USA
+2 High Energy Astrophysics Institute and Department of Physics and Astronomy, University of
+Utah, Salt Lake City, Utah 84112-0830, USA
+3 Graduate School of Science, Osaka Metropolitan University, 3-3-138 Sugimoto, Sumiyoshi,
+Osaka, 558-8585, Japan
+4 Stellar Science, Albuquerque, New Mexico, 87110, USA
+5 Department of Physics, Ulsan National Institute of Science and Technology, 44919, Ulsan,
+Korea
+6 Department of Physics and The Research Institute of Natural Science, Hanyang University,
+
+                                                        2
+Seongdong-gu, Seoul, Korea
+7 Hakubi Center for Advanced Research and Graduate School of Science, Kyoto University,
+Sakyo, Kyoto, 606-8502, Japan
+8 Nambu Yoichiro Institute of Theoretical and Experimental Physics, Osaka Metropolitan Uni-
+versity, 3-3-138 Sugimoto, Sumiyoshi, Osaka, 558-8585, Japan
+9 Institute for Cosmic Ray Research, University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa-shi,
+Chiba, 277-8582, Japan
+10 Institute of Physical and Chemical Research, 2-1 Hirosawa, Wako, Saitama, 351-0198 Japan
+11 Faculty of Engineering, Kanagawa University, 3-27-1 Rokkakubashi, Kanagawa-ku, Yoko-
+hama 221-8686, Japan
+12 University of Yamanashi, Kofu, 400-8510, Japan
+13 Department of Physics, SungKyunKwan University, Jang-an-gu, Suwon 16419, Korea
+14 Department of Natural Sciences, Tokyo City University, Setagaya-ku, Tokyo 158-8557, Japan
+15 Institute for Nuclear Research of the Russian Academy of Sciences, prospekt 60-letiya Ok-
+tyabrya 7a, Moscow 117312, Russia
+16 Shibauta Institute of Technology and Sicence, Fukasaku 307, Minuma-ku, Saitama, Japan
+17 Physics Division, Argonne National Laboratory, Lemont, Illinois 60439, USA
+18 Academic Assembly School of Science and Technology Institute of Engineering, Shinshu
+University, Nagano, Nagano, 380-8553, Japan
+19 Center for Astrophysics and Cosmology, University of Nova Gorica, Nova Gorica, Slovenia
+20 Institute of Astronomy and Astrophysics, Academia Sinica, Taipei 10617, Taiwan
+21 NASA Marshall Space Flight Center, Martin Road, Huntsville, AL 35808, USA
+22 Integrated Support Center for Nuclear Nonproliferation and Nuclear Security, Japan Atomic
+Energy Agency, Tokai-mura, Ibaraki 319-1195, Japan
+23 Faculty of Design Technology, 3-1-1 Nakagaito, Daito City, Osaka, Japan
+
+                                                        3
+24 Earthquake Research Institute, University of Tokyo, Bunkyo-ku, Tokyo, 113-0032, Japan
+25 Department of Engineering Science, Faculty of Engineering, Osaka Electro-Communication
+University, Neyagawa-shi, Osaka 572-8530, Japan
+26 Universite Libre de Bruxelles, bvd du Triomphe CP225, Brussels, Belgium
+27 The Central European Institute for Cosmology and Fundamental Physics, Institute of Physics
+of the Czech Academy of Sciences, Na Slovance 1999/2, 182 21 Prague, Czech Republic
+28 College of Engineering, Chubu University, 1200 Matsumoto, Kasugai, Aichi 487-8501, Japan
+ Present address: Department of Astronomy and Astrophysics, University of California, Santa
+Cruz, CA 95064, USA
+ E-mail: toshi@omu.ac.jp
+
+                                                        4
+Materials and Methods
+
+Analysis Procedure and Energy Reconstruction
+
+The TA SD consists of 507 plastic scintillators to measure charged particle densities of extensive
+
+air showers on the ground. The measured signal waveform shown in Figure 1 are integrated to
+
+calculate the particle densities. The lateral density distribution, (r), is estimated by fitting the
+
+recorded particle densities with the model:
+
+(r) = A  r -  1+                             r -(()-)  1+  r 2 -  (S1)
+
+         rM                                  rM            1000
+
+() = 3.97 - 1.79 (sec() - 1)                                      (S2)
+
+where r is the distance from shower axis,  is the zenith angle of the shower axis and A is a free
+parameter. The TA SD pipeline assumes a parameterization of  = 1.2,  = 0.6 and the Moliere
+unit rM = 91.6 m (44). Figure S1 shows the lateral density distribution and fitted model for the
+2021 May 27 event. As an energy estimator, we used the particle density at a distance of 800 m
+from the shower axis, S800, to minimize an effect of the dependence on mass composition. The
+primary energy of the shower is evaluated from S800 and sec() by a lookup table derived from a
+shower simulation (18) assuming a proton and the quark-gluon string (QGS) Jet-II-03 hadronic
+interaction model (12). We find the primary energy of the shower on 2021 May 27 is 309 EeV.
+This energy is multiplied by a factor of 1/1.27 to use the calorimetric energy determination
+by fluorescence detectors, resulting in 244 EeV. Figure S2 shows an energy scale comparison
+between the fluorescence detector reconstructed energies (16) and the reconstructed SD energies
+after applying the 1/1.27 rescaling for the 9 years data set. No energy dependence of the scaling
+factor is evident.
+
+    The reconstructed energy of TA SD to reproduce S800 = 530 m-2 listed in Table 1, assuming
+a proton and QGSJetII-03 is 309 EeV. To investigate uncertainties related to primary species and
+interaction models, we evaluate energies for both proton and iron primaries using the models
+
+                                                        5
+                        104
+
+Particle density (m-2)  103
+
+                        102
+
+                        10        SD observations
+
+                                  Saturated
+
+                        1         S800
+
+                             102                      103        104
+
+                                  Distance from shower axis (m)
+
+Figure S1: Lateral density distribution and fitted model for the event on 2021 May 27. The
+gray triangles are excluded from the fitting due to signal saturation. The red diamond shows the
+S800 energy estimator.
+
+                                                   6
+102
+
+ESD (EeV)  10
+
+           1              102
+           1   10
+               EFD (EeV)
+
+Figure S2: Energy comparison between the fluorescence detector reconstruction (16), EFD
+and our adopted SD reconstruction, ESD, with a 1/1.27 rescaling, for a 9 years data set.
+
+                   7
+of QGSJet-II-04 (45) and EPOS-LHC (46) to reproduce the measured S800 of 530 m-2. EPOS
+is an acronym for the Energy conserving quantum mechanical approach, based on Partons,
+parton ladders, strings, Off-shell remnants, and Splitting of parton ladders. These energies
+yield: in the QGSJetII-04 model, 300 EeV for proton and 272 EeV for iron; in the EPOS-LHC
+model, 261 EeV for proton and 240 EeV for iron. From this difference between proton and iron
+primaries, we infer the additional -10% systematic uncertainty specified in the main text. If a
+different species or interaction model is assumed, the energy scale remains unchanged because
+we adopted the calorimetric energy calibrated by the fluorescence detectors so this difference is
+compensated by the calibration factor.
+
+Supplementary Text
+
+Expected cosmic ray sources
+
+We investigated how the expected LSS flux distribution changes if the energy of the event was
+varied within its uncertainty. In Fig. S3 we show flux maps for energies 244 EeV, 186 EeV
+and 135 EeV, the latter two energies being -2stat. and -2stat. - syst. (without the system-
+atic uncertainty on primary species), where stat. is the statistical uncertainty and syst. is the
+systematic uncertainty. The injection spectrum for iron is set to E-1.95 with a sharp cutoff at
+560 EeV, adopted from a model fitted to the TA observed spectrum (47). At low energies, the
+event is unlikely to correlate with LSS sources. Only by assuming the lower energy by includ-
+ing systematic uncertainty, and an iron primary, does the regular GMF backtracked direction
+fall close to a part of LSS populated by galaxies. This is consistent with previous studies that
+found no correlation between events >100 EeV and the local LSS (48, 49).
+
+    We estimated the distance to the closest UHECR source by integrating the energy loss length
+of a given primary from the energy 244 EeV to an assumed injection energy E0. We assume
+E0 = 103 EeV, compute the energy loss length with the TransportCR software (42) and calculate
+
+                                                        8
+                                                                                                                                                   8
+
+                                           Fig. S3
+
+                                                                                                                                                   9
+
+                                          (AF)ig24.4 SEe3V
+
+                                                                                                                                                  10
+
+                                          (BF)i1g8.6 ESeV3
+
+                                                            (C) 135 EeV
+
+Figure S3: The relative expected flux at lower energies. The background and other symbols
+are the same as Fig. 2 but the expected flux is calculated for energies: (A) 244 EeV, (B) 186 EeV
+and (C) 135 EeV, see text for details.
+
+                                                        9
+D0 = 10.3-3.0 +5.3 Mpc and D0 = 27.0-3.0 +3.8 Mpc for iron and proton primaries respectively, where
+the uncertainties in D0 are propagated from the statistical uncertainty in particle energy. The
+corresponding 95% C.L. upper bounds are D0 < 25.5 Mpc and D0 < 36.0 Mpc for iron and
+proton respectively. There are several uncertainties affecting this result. First, the energy scale
+systematic leads to a wider uncertainty: D0 = 10.3-4.5 +25.2 Mpc for iron and D0 = 27.0-4.9 +7.6 Mpc
+for protons. Second, assuming higher injection energy, E0 = 104 EeV would only slightly
+impact the result for iron: D0 = 13.1-3.0 +5.3 Mpc, while substantially impact the result for protons:
+D0 = 61.9-3.0 +3.8 Mpc, though the proton scenario is disfavored (see main text). Thirdly, we
+recomputed the energy loss length using the SimProp code (50), finding it changes these results
+by approximately 10%.
+
+                                                       10
+References and Notes
+
+1. A. M. Hillas, The Origin of Ultra-High-Energy Cosmic Rays. Annu. Rev. Astron. Astrophys.
+         22, 425-444 (1984). doi:10.1146/annurev.aa.22.090184.002233
+
+2. P. Bhattacharjee, G. Sigl, Origin and propagation of extremely high-energy cosmic rays. Phys.
+         Rep. 327, 109-247 (2000). doi:10.1016/S0370-1573(99)00101-5
+
+3. F. W. Stecker, S. T. Scully, Searching for new physics with ultrahigh energy cosmic rays. New
+         J. Phys. 11, 085003 (2009). doi:10.1088/1367-2630/11/8/085003
+
+4. V. Berezinsky, M. Kachelriess, A. Vilenkin, Ultrahigh Energy Cosmic Rays without Greisen-
+         Zatsepin-Kuzmin Cutoff. Phys. Rev. Lett. 79, 4302-4305 (1997).
+         doi:10.1103/PhysRevLett.79.4302
+
+5. R. U. Abbasi, M. Abe, T. Abu-Zayyad, M. Allen, R. Azuma, E. Barcikowski, J. W. Belz, D.
+         R. Bergman, S. A. Blake, R. Cady, B. G. Cheon, J. Chiba, M. Chikawa, A. di Matteo, T.
+         Fujii, K. Fujita, M. Fukushima, G. Furlich, T. Goto, W. Hanlon, M. Hayashi, Y. Hayashi,
+         N. Hayashida, K. Hibino, K. Honda, D. Ikeda, N. Inoue, T. Ishii, R. Ishimori, H. Ito, D.
+         Ivanov, H. M. Jeong, S. Jeong, C. C. H. Jui, K. Kadota, F. Kakimoto, O. Kalashev, K.
+         Kasahara, H. Kawai, S. Kawakami, S. Kawana, K. Kawata, E. Kido, H. B. Kim, J. H.
+         Kim, J. H. Kim, S. Kishigami, S. Kitamura, Y. Kitamura, V. Kuzmin, M. Kuznetsov, Y.
+         J. Kwon, K. H. Lee, B. Lubsandorzhiev, J. P. Lundquist, K. Machida, K. Martens, T.
+         Matsuyama, J. N. Matthews, R. Mayta, M. Minamino, K. Mukai, I. Myers, K. Nagasawa,
+         S. Nagataki, R. Nakamura, T. Nakamura, T. Nonaka, H. Oda, S. Ogio, J. Ogura, M.
+         Ohnishi, H. Ohoka, T. Okuda, Y. Omura, M. Ono, R. Onogi, A. Oshima, S. Ozawa, I. H.
+         Park, M. S. Piskunov, M. S. Pshirkov, J. Remington, D. C. Rodriguez, G. I. Rubtsov, D.
+         Ryu, H. Sagawa, R. Sahara, K. Saito, Y. Saito, N. Sakaki, N. Sakurai, L. M. Scott, T.
+         Seki, K. Sekino, P. D. Shah, F. Shibata, T. Shibata, H. Shimodaira, B. K. Shin, H. S.
+         Shin, J. D. Smith, P. Sokolsky, B. T. Stokes, S. R. Stratton, T. A. Stroman, T. Suzawa, Y.
+         Takagi, Y. Takahashi, M. Takamura, M. Takeda, R. Takeishi, A. Taketa, M. Takita, Y.
+         Tameda, H. Tanaka, K. Tanaka, M. Tanaka, S. B. Thomas, G. B. Thomson, P. Tinyakov,
+         I. Tkachev, H. Tokuno, T. Tomida, S. Troitsky, Y. Tsunesada, K. Tsutsumi, Y. Uchihori,
+         S. Udo, F. Urban, T. Wong, M. Yamamoto, R. Yamane, H. Yamaoka, K. Yamazaki, J.
+         Yang, K. Yashiro, Y. Yoneda, S. Yoshida, H. Yoshii, Y. Zhezher, Z. Zundel, Constraints
+         on the diffuse photon flux with energies above 1018 eV using the surface detector of the
+         Telescope Array experiment. Astropart. Phys. 110, 8-14 (2019).
+         doi:10.1016/j.astropartphys.2019.03.003
+
+6. P. Abreu, M. Aglietta, J. M. Albury, I. Allekotte, K. A. Cheminant, A. Almela, J. Alvarez-
+         Muñiz, R. A. Batista, J. A. Yebra, G. A. Anastasi, L. Anchordoqui, B. Andrada, S.
+         Andringa, C. Aramo, P. R. A. Ferreira, E. Arnone, J. C. A. Velázquez, H. Asorey, P.
+         Assis, G. Avila, E. Avocone, A. M. Badescu, A. Bakalova, A. Balaceanu, F. Barbato, J.
+         A. Bellido, C. Berat, M. E. Bertaina, G. Bhatta, P. L. Biermann, V. Binet, K. Bismark, T.
+         Bister, J. Biteau, J. Blazek, C. Bleve, J. Blümer, M. Bohácová, D. Boncioli, C. Bonifazi,
+         L. B. Arbeletche, N. Borodai, A. M. Botti, J. Brack, T. Bretz, P. G. B. Orchera, F. L.
+         Briechle, P. Buchholz, A. Bueno, S. Buitink, M. Buscemi, M. Büsken, K. S. Caballero-
+         Mora, L. Caccianiga, F. Canfora, I. Caracas, R. Caruso, A. Castellina, F. Catalani, G.
+         Cataldi, L. Cazon, M. Cerda, J. A. Chinellato, J. Chudoba, L. Chytka, R. W. Clay, A. C.
+C. Cerutti, R. Colalillo, A. Coleman, M. R. Coluccia, R. Conceição, A. Condorelli, G.
+Consolati, F. Contreras, F. Convenga, D. C. dos Santos, C. E. Covault, S. Dasso, K.
+Daumiller, B. R. Dawson, J. A. Day, R. M. de Almeida, J. de Jesús, S. J. de Jong, J. R. T.
+de Mello Neto, I. De Mitri, J. de Oliveira, D. de Oliveira Franco, F. de Palma, V. de
+Souza, E. De Vito, A. Del Popolo, M. del Río, O. Deligny, L. Deval, A. di Matteo, M.
+Dobre, C. Dobrigkeit, J. C. D'Olivo, L. M. D. Mendes, R. C. dos Anjos, M. T. Dova, J.
+Ebr, R. Engel, I. Epicoco, M. Erdmann, C. O. Escobar, A. Etchegoyen, H. Falcke, J.
+Farmer, G. Farrar, A. C. Fauth, N. Fazzini, F. Feldbusch, F. Fenu, B. Fick, J. M. Figueira,
+A. Filipcic, T. Fitoussi, T. Fodran, T. Fujii, A. Fuster, C. Galea, C. Galelli, B. García, A.
+L. G. Vegas, H. Gemmeke, F. Gesualdi, A. Gherghel-Lascu, P. L. Ghia, U. Giaccari, M.
+Giammarchi, J. Glombitza, F. Gobbi, F. Gollan, G. Golup, M. G. Berisso, P. F. G. Vitale,
+J. P. Gongora, J. M. González, N. González, I. Goos, D. Góra, A. Gorgi, M. Gottowik, T.
+D. Grubb, F. Guarino, G. P. Guedes, E. Guido, S. Hahn, P. Hamal, M. R. Hampel, P.
+Hansen, D. Harari, V. M. Harvey, A. Haungs, T. Hebbeker, D. Heck, G. C. Hill, C.
+Hojvat, J. R. Hörandel, P. Horvath, M. Hrabovský, T. Huege, A. Insolia, P. G. Isar, P.
+Janecek, J. A. Johnsen, J. Jurysek, A. Kääpä, K. H. Kampert, B. Keilhauer, A.
+Khakurdikar, V. V. K. Covilakam, H. O. Klages, M. Kleifges, J. Kleinfeller, F. Knapp,
+N. Kunka, B. L. Lago, N. Langner, M. A. L. de Oliveira, V. Lenok, A. Letessier-Selvon,
+I. Lhenry-Yvon, D. L. Presti, L. Lopes, R. López, L. Lu, Q. Luce, J. P. Lundquist, A. M.
+Payeras, G. Mancarella, D. Mandat, B. C. Manning, J. Manshanden, P. Mantsch, S.
+Marafico, F. M. Mariani, A. G. Mariazzi, I. C. Mari, G. Marsella, D. Martello, S.
+Martinelli, O. Martínez Bravo, M. Mastrodicasa, H. J. Mathes, J. Matthews, G. Matthiae,
+E. Mayotte, S. Mayotte, P. O. Mazur, G. Medina-Tanco, D. Melo, A. Menshikov, S.
+Michal, M. I. Micheletti, L. Miramonti, S. Mollerach, F. Montanet, L. Morejon, C.
+Morello, M. Mostafá, A. L. Müller, M. A. Muller, K. Mulrey, R. Mussa, M. Muzio, W.
+M. Namasaka, A. Nasr-Esfahani, L. Nellen, G. Nicora, M. Niculescu-Oglinzanu, M.
+Niechciol, D. Nitz, I. Norwood, D. Nosek, V. Novotny, L. Nozka, A. Nucita, L. A.
+Núñez, C. Oliveira, M. Palatka, J. Pallotta, P. Papenbreer, G. Parente, A. Parra, J.
+Pawlowsky, M. Pech, J. Pkala, R. Pelayo, J. Peña-Rodriguez, E. E. P. Martins, J. P.
+Armand, C. P. Bertolli, L. Perrone, S. Petrera, C. Petrucci, T. Pierog, M. Pimenta, V.
+Pirronello, M. Platino, B. Pont, M. Pothast, P. Privitera, M. Prouza, A. Puyleart, S.
+Querchfeld, J. Rautenberg, D. Ravignani, M. Reininghaus, J. Ridky, F. Riehn, M. Risse,
+V. Rizi, W. R. de Carvalho, J. R. Rojo, M. J. Roncoroni, S. Rossoni, M. Roth, E. Roulet,
+A. C. Rovero, P. Ruehl, A. Saftoiu, M. Saharan, F. Salamida, H. Salazar, G. Salina, J. D.
+S. Gomez, F. Sánchez, E. M. Santos, E. Santos, F. Sarazin, R. Sarmento, C. Sarmiento-
+Cano, R. Sato, P. Savina, C. M. Schäfer, V. Scherini, H. Schieler, M. Schimassek, M.
+Schimp, F. Schlüter, D. Schmidt, O. Scholten, H. Schoorlemmer, P. Schovánek, F. G.
+Schröder, J. Schulte, T. Schulz, S. J. Sciutto, M. Scornavacche, A. Segreto, S. Sehgal, R.
+C. Shellard, G. Sigl, G. Silli, O. Sima, R. Smau, R. Smída, P. Sommers, J. F. Soriano, R.
+Squartini, M. Stadelmaier, D. Stanca, S. Stanic, J. Stasielak, P. Stassi, A. Streich, M.
+Suárez-Durán, T. Sudholz, T. Suomijärvi, A. D. Supanitsky, Z. Szadkowski, A. Tapia, C.
+Taricco, C. Timmermans, O. Tkachenko, P. Tobiska, C. J. T. Peixoto, B. Tomé, Z.
+Torrès, A. Travaini, P. Travnicek, C. Trimarelli, M. Tueros, R. Ulrich, M. Unger, L.
+Vaclavek, M. Vacula, J. F. V. Galicia, L. Valore, E. Varela, A. Vásquez-Ramírez, D.
+Veberic, C. Ventura, I. D. V. Quispe, V. Verzi, J. Vicha, J. Vink, S. Vorobiov, H.
+Wahlberg, C. Watanabe, A. A. Watson, A. Weindl, L. Wiencke, H. Wilczyski, D.
+         Wittkowski, B. Wundheiler, A. Yushkov, O. Zapparrata, E. Zas, D. Zavrtanik, M.
+         Zavrtanik, L. Zehrer, Pierre Auger Collaboration, A Search for Photons with Energies
+         Above 2 × 1017 eV Using Hybrid Data from the Low-Energy Extensions of the Pierre
+         Auger Observatory. Astrophys. J. 933, 125 (2022). doi:10.3847/1538-4357/ac7393
+
+7. J. Linsley, Evidence for a Primary Cosmic-Ray Particle with Energy 1020 eV. Phys. Rev. Lett.
+         10, 146-148 (1963). doi:10.1103/PhysRevLett.10.146
+
+8. A. A. Penzias, R. W. Wilson, A Measurement of Excess Antenna Temperature at 4080 Mc/s.
+         Astrophys. J. 142, 419-421 (1965). doi:10.1086/148307
+
+9. K. Greisen, End to the Cosmic-Ray Spectrum? Phys. Rev. Lett. 16, 748-750 (1966).
+         doi:10.1103/PhysRevLett.16.748
+
+10. G. T. Zatsepin, V. A. Kuzmin, Upper Limit of the Spectrum of Cosmic Rays. JETP Lett. 4,
+         78 (1966).
+
+11. R. U. Abbasi, T. Abu-Zayyad, M. Allen, J. F. Amman, G. Archbold, K. Belov, J. W. Belz, S.
+         Y. Ben Zvi, D. R. Bergman, S. A. Blake, O. A. Brusova, G. W. Burt, C. Cannon, Z. Cao,
+         B. C. Connolly, W. Deng, Y. Fedorova, C. B. Finley, R. C. Gray, W. F. Hanlon, C. M.
+         Hoffman, M. H. Holzscheiter, G. Hughes, P. Hüntemeyer, B. F. Jones, C. C. H. Jui, K.
+         Kim, M. A. Kirn, E. C. Loh, M. M. Maestas, N. Manago, L. J. Marek, K. Martens, J. A.
+         J. Matthews, J. N. Matthews, S. A. Moore, A. O'Neill, C. A. Painter, L. Perera, K. Reil,
+         R. Riehle, M. Roberts, D. Rodriguez, N. Sasaki, S. R. Schnetzer, L. M. Scott, G. Sinnis,
+         J. D. Smith, P. Sokolsky, C. Song, R. W. Springer, B. T. Stokes, S. B. Thomas, J. R.
+         Thomas, G. B. Thomson, D. Tupa, S. Westerhoff, L. R. Wiencke, X. Zhang, A. Zech;
+         High Resolution Fly's Eye Collaboration, First observation of the Greisen-Zatsepin-
+         Kuzmin suppression. Phys. Rev. Lett. 100, 101101 (2008).
+         doi:10.1103/PhysRevLett.100.101101 Medline
+
+12. T. Abu-Zayyad, R. Aida, M. Allen, R. Anderson, R. Azuma, E. Barcikowski, J. W. Belz, D.
+         R. Bergman, S. A. Blake, R. Cady, B. G. Cheon, J. Chiba, M. Chikawa, E. J. Cho, W. R.
+         Cho, H. Fujii, T. Fujii, T. Fukuda, M. Fukushima, W. Hanlon, K. Hayashi, Y. Hayashi,
+         N. Hayashida, K. Hibino, K. Hiyama, K. Honda, T. Iguchi, D. Ikeda, K. Ikuta, N. Inoue,
+         T. Ishii, R. Ishimori, D. Ivanov, S. Iwamoto, C. C. H. Jui, K. Kadota, F. Kakimoto, O.
+         Kalashev, T. Kanbe, K. Kasahara, H. Kawai, S. Kawakami, S. Kawana, E. Kido, H. B.
+         Kim, H. K. Kim, J. H. Kim, J. H. Kim, K. Kitamoto, S. Kitamura, Y. Kitamura, K.
+         Kobayashi, Y. Kobayashi, Y. Kondo, K. Kuramoto, V. Kuzmin, Y. J. Kwon, J. Lan, S. I.
+         Lim, S. Machida, K. Martens, T. Matsuda, T. Matsuura, T. Matsuyama, J. N. Matthews,
+         M. Minamino, K. Miyata, Y. Murano, I. Myers, K. Nagasawa, S. Nagataki, T. Nakamura,
+         S. W. Nam, T. Nonaka, S. Ogio, M. Ohnishi, H. Ohoka, K. Oki, D. Oku, T. Okuda, A.
+         Oshima, S. Ozawa, I. H. Park, M. S. Pshirkov, D. C. Rodriguez, S. Y. Roh, G. Rubtsov,
+         D. Ryu, H. Sagawa, N. Sakurai, A. L. Sampson, L. M. Scott, P. D. Shah, F. Shibata, T.
+         Shibata, H. Shimodaira, B. K. Shin, J. I. Shin, T. Shirahama, J. D. Smith, P. Sokolsky, B.
+         T. Stokes, S. R. Stratton, T. Stroman, S. Suzuki, Y. Takahashi, M. Takeda, A. Taketa, M.
+         Takita, Y. Tameda, H. Tanaka, K. Tanaka, M. Tanaka, S. B. Thomas, G. B. Thomson, P.
+         Tinyakov, I. Tkachev, H. Tokuno, T. Tomida, S. Troitsky, Y. Tsunesada, K. Tsutsumi, Y.
+         Tsuyuguchi, Y. Uchihori, S. Udo, H. Ukai, G. Vasiloff, Y. Wada, T. Wong, M. Wood, Y.
+         Yamakawa, R. Yamane, H. Yamaoka, K. Yamazaki, J. Yang, Y. Yoneda, S. Yoshida, H.
+         Yoshii, X. Zhou, R. Zollinger, Z. Zundel, The cosmic-ray energy spectrum observed with
+         the surface detector of the Telescope Array experiment. Astrophys. J. Lett. 768, L1
+         (2013). doi:10.1088/2041-8205/768/1/L1
+
+13. A. Aab, P. Abreu, M. Aglietta, J. M. Albury, I. Allekotte, A. Almela, J. Alvarez Castillo, J.
+         Alvarez-Muñiz, R. Alves Batista, G. A. Anastasi, L. Anchordoqui, B. Andrada, S.
+         Andringa, C. Aramo, P. R. Araújo Ferreira, H. Asorey, P. Assis, G. Avila, A. M.
+         Badescu, A. Bakalova, A. Balaceanu, F. Barbato, R. J. Barreira Luz, K. H. Becker, J. A.
+         Bellido, C. Berat, M. E. Bertaina, X. Bertou, P. L. Biermann, T. Bister, J. Biteau, A.
+         Blanco, J. Blazek, C. Bleve, M. Bohácová, D. Boncioli, C. Bonifazi, L. Bonneau
+         Arbeletche, N. Borodai, A. M. Botti, J. Brack, T. Bretz, F. L. Briechle, P. Buchholz, A.
+         Bueno, S. Buitink, M. Buscemi, K. S. Caballero-Mora, L. Caccianiga, L. Calcagni, A.
+         Cancio, F. Canfora, I. Caracas, J. M. Carceller, R. Caruso, A. Castellina, F. Catalani, G.
+         Cataldi, L. Cazon, M. Cerda, J. A. Chinellato, K. Choi, J. Chudoba, L. Chytka, R. W.
+         Clay, A. C. Cobos Cerutti, R. Colalillo, A. Coleman, M. R. Coluccia, R. Conceição, A.
+         Condorelli, G. Consolati, F. Contreras, F. Convenga, C. E. Covault, S. Dasso, K.
+         Daumiller, B. R. Dawson, J. A. Day, R. M. de Almeida, J. de Jesús, S. J. de Jong, G. De
+         Mauro, J. R. T. de Mello Neto, I. De Mitri, J. de Oliveira, D. de Oliveira Franco, V. de
+         Souza, E. De Vito, J. Debatin, M. Del Río, O. Deligny, H. Dembinski, N. Dhital, C. Di
+         Giulio, A. Di Matteo, M. L. Díaz Castro, C. Dobrigkeit, J. C. D'Olivo, Q. Dorosti, R. C.
+         Dos Anjos, M. T. Dova, J. Ebr, R. Engel, I. Epicoco, M. Erdmann, C. O. Escobar, A.
+         Etchegoyen, H. Falcke, J. Farmer, G. Farrar, A. C. Fauth, N. Fazzini, F. Feldbusch, F.
+         Fenu, B. Fick, J. M. Figueira, A. Filipcic, T. Fodran, M. M. Freire, T. Fujii, A. Fuster, C.
+         Galea, C. Galelli, B. García, A. L. Garcia Vegas, H. Gemmeke, F. Gesualdi, A.
+         Gherghel-Lascu, P. L. Ghia, U. Giaccari, M. Giammarchi, M. Giller, J. Glombitza, F.
+         Gobbi, F. Gollan, G. Golup, M. Gómez Berisso, P. F. Gómez Vitale, J. P. Gongora, N.
+         González, I. Goos, D. Góra, A. Gorgi, M. Gottowik, T. D. Grubb, F. Guarino, G. P.
+         Guedes, E. Guido, S. Hahn, R. Halliday, M. R. Hampel, P. Hansen, D. Harari, V. M.
+         Harvey, A. Haungs, T. Hebbeker, D. Heck, G. C. Hill, C. Hojvat, J. R. Hörandel, P.
+         Horvath, M. Hrabovský, T. Huege, J. Hulsman, A. Insolia, P. G. Isar, J. A. Johnsen, J.
+         Jurysek, A. Kääpä, K. H. Kampert, B. Keilhauer, J. Kemp, H. O. Klages, M. Kleifges, J.
+         Kleinfeller, M. Köpke, G. Kukec Mezek, B. L. Lago, D. LaHurd, R. G. Lang, M. A.
+         Leigui de Oliveira, V. Lenok, A. Letessier-Selvon, I. Lhenry-Yvon, D. Lo Presti, L.
+         Lopes, R. López, R. Lorek, Q. Luce, A. Lucero, A. Machado Payeras, M. Malacari, G.
+         Mancarella, D. Mandat, B. C. Manning, J. Manshanden, P. Mantsch, S. Marafico, A. G.
+         Mariazzi, I. C. Mari, G. Marsella, D. Martello, H. Martinez, O. Martínez Bravo, M.
+         Mastrodicasa, H. J. Mathes, J. Matthews, G. Matthiae, E. Mayotte, P. O. Mazur, G.
+         Medina-Tanco, D. Melo, A. Menshikov, K.-D. Merenda, S. Michal, M. I. Micheletti, L.
+         Miramonti, D. Mockler, S. Mollerach, F. Montanet, C. Morello, M. Mostafá, A. L.
+         Müller, M. A. Muller, K. Mulrey, R. Mussa, M. Muzio, W. M. Namasaka, L. Nellen, P.
+         H. Nguyen, M. Niculescu-Oglinzanu, M. Niechciol, D. Nitz, D. Nosek, V. Novotny, L.
+         Nozka, A. Nucita, L. A. Núñez, M. Palatka, J. Pallotta, M. P. Panetta, P. Papenbreer, G.
+         Parente, A. Parra, M. Pech, F. Pedreira, J. Pkala, R. Pelayo, J. Peña-Rodriguez, J. Perez
+         Armand, M. Perlin, L. Perrone, C. Peters, S. Petrera, T. Pierog, M. Pimenta, V.
+         Pirronello, M. Platino, B. Pont, M. Pothast, P. Privitera, M. Prouza, A. Puyleart, S.
+         Querchfeld, J. Rautenberg, D. Ravignani, M. Reininghaus, J. Ridky, F. Riehn, M. Risse,
+         P. Ristori, V. Rizi, W. Rodrigues de Carvalho, G. Rodriguez Fernandez, J. Rodriguez
+         Rojo, M. J. Roncoroni, M. Roth, E. Roulet, A. C. Rovero, P. Ruehl, S. J. Saffi, A.
+         Saftoiu, F. Salamida, H. Salazar, G. Salina, J. D. Sanabria Gomez, F. Sánchez, E. M.
+         Santos, E. Santos, F. Sarazin, R. Sarmento, C. Sarmiento-Cano, R. Sato, P. Savina, C.
+         Schäfer, V. Scherini, H. Schieler, M. Schimassek, M. Schimp, F. Schlüter, D. Schmidt,
+         O. Scholten, P. Schovánek, F. G. Schröder, S. Schröder, A. Schulz, S. J. Sciutto, M.
+         Scornavacche, R. C. Shellard, G. Sigl, G. Silli, O. Sima, R. Smída, P. Sommers, J. F.
+         Soriano, J. Souchard, R. Squartini, M. Stadelmaier, D. Stanca, S. Stanic, J. Stasielak, P.
+         Stassi, A. Streich, M. Suárez-Durán, T. Sudholz, T. Suomijärvi, A. D. Supanitsky, J.
+         Supík, Z. Szadkowski, A. Taboada, A. Tapia, C. Timmermans, O. Tkachenko, P.
+         Tobiska, C. J. Todero Peixoto, B. Tomé, G. Torralba Elipe, A. Travaini, P. Travnicek, C.
+         Trimarelli, M. Trini, M. Tueros, R. Ulrich, M. Unger, M. Urban, L. Vaclavek, M. Vacula,
+         J. F. Valdés Galicia, I. Valiño, L. Valore, A. van Vliet, E. Varela, B. Vargas Cárdenas, A.
+         Vásquez-Ramírez, D. Veberic, C. Ventura, I. D. Vergara Quispe, V. Verzi, J. Vicha, L.
+         Villaseñor, J. Vink, S. Vorobiov, H. Wahlberg, A. A. Watson, M. Weber, A. Weindl, L.
+         Wiencke, H. Wilczyski, T. Winchen, M. Wirtz, D. Wittkowski, B. Wundheiler, A.
+         Yushkov, O. Zapparrata, E. Zas, D. Zavrtanik, M. Zavrtanik, L. Zehrer, A. Zepeda, M.
+         Ziolkowski, F. Zuccarello; Pierre Auger Collaboration, Features of the Energy Spectrum
+         of Cosmic Rays above 2.5 × 1018eV Using the Pierre Auger Observatory. Phys. Rev.
+         Lett. 125, 121106 (2020). doi:10.1103/PhysRevLett.125.121106 Medline
+
+14. T. Abu-Zayyad, R. Aida, M. Allen, R. Anderson, R. Azuma, E. Barcikowski, J. W. Belz, D.
+         R. Bergman, S. A. Blake, R. Cady, B. G. Cheon, J. Chiba, M. Chikawa, E. J. Cho, W. R.
+         Cho, H. Fujii, T. Fujii, T. Fukuda, M. Fukushima, D. Gorbunov, W. Hanlon, K. Hayashi,
+         Y. Hayashi, N. Hayashida, K. Hibino, K. Hiyama, K. Honda, T. Iguchi, D. Ikeda, K.
+         Ikuta, N. Inoue, T. Ishii, R. Ishimori, D. Ivanov, S. Iwamoto, C. C. H. Jui, K. Kadota, F.
+         Kakimoto, O. Kalashev, T. Kanbe, K. Kasahara, H. Kawai, S. Kawakami, S. Kawana, E.
+         Kido, H. B. Kim, H. K. Kim, J. H. Kim, J. H. Kim, K. Kitamoto, K. Kobayashi, Y.
+         Kobayashi, Y. Kondo, K. Kuramoto, V. Kuzmin, Y. J. Kwon, S. I. Lim, S. Machida, K.
+         Martens, J. Martineau, T. Matsuda, T. Matsuura, T. Matsuyama, J. N. Matthews, I.
+         Myers, M. Minamino, K. Miyata, H. Miyauchi, Y. Murano, T. Nakamura, S. W. Nam, T.
+         Nonaka, S. Ogio, M. Ohnishi, H. Ohoka, K. Oki, D. Oku, T. Okuda, A. Oshima, S.
+         Ozawa, I. H. Park, M. S. Pshirkov, D. Rodriguez, S. Y. Roh, G. Rubtsov, D. Ryu, H.
+         Sagawa, N. Sakurai, A. L. Sampson, L. M. Scott, P. D. Shah, F. Shibata, T. Shibata, H.
+         Shimodaira, B. K. Shin, J. I. Shin, T. Shirahama, J. D. Smith, P. Sokolsky, T. J. Sonley,
+         R. W. Springer, B. T. Stokes, S. R. Stratton, T. A. Stroman, S. Suzuki, Y. Takahashi, M.
+         Takeda, A. Taketa, M. Takita, Y. Tameda, H. Tanaka, K. Tanaka, M. Tanaka, S. B.
+         Thomas, G. B. Thomson, P. Tinyakov, I. Tkachev, H. Tokuno, T. Tomida, S. Troitsky,
+         Y. Tsunesada, K. Tsutsumi, Y. Tsuyuguchi, Y. Uchihori, S. Udo, H. Ukai, G. Vasiloff,
+         Y. Wada, T. Wong, M. Wood, Y. Yamakawa, H. Yamaoka, K. Yamazaki, J. Yang, S.
+         Yoshida, H. Yoshii, R. Zollinger, Z. Zundel, The surface detector array of the Telescope
+         Array experiment. Nucl. Instrum. Methods Phys. Res. A 689, 87-97 (2013).
+         doi:10.1016/j.nima.2012.05.079
+
+15. H. Tokuno, Y. Tameda, M. Takeda, K. Kadota, D. Ikeda, M. Chikawa, T. Fujii, M.
+         Fukushima, K. Honda, N. Inoue, F. Kakimoto, S. Kawana, E. Kido, J. N. Matthews, T.
+         Nonaka, S. Ogio, S. Okuda, S. Ozawa, H. Sagawa, N. Sakurai, T. Shibata, A. Taketa, S.
+         B. Thomas, T. Tomida, Y. Tsunesada, S. Udo, T. Abu-zayyad, R. Aida, M. Allen, R.
+         Anderson, R. Azuma, E. Barcikowski, J. W. Belz, D. R. Bergman, S. A. Blake, R. Cady,
+         B. G. Cheon, J. Chiba, E. J. Cho, W. R. Cho, H. Fujii, T. Fukuda, D. Gorbunov, W.
+         Hanlon, K. Hayashi, Y. Hayashi, N. Hayashida, K. Hibino, K. Hiyama, T. Iguchi, K.
+         Ikuta, T. Ishii, R. Ishimori, D. Ivanov, S. Iwamoto, C. C. H. Jui, O. Kalashev, T. Kanbe,
+         K. Kasahara, H. Kawai, S. Kawakami, H. B. Kim, H. K. Kim, J. H. Kim, J. H. Kim, K.
+         Kitamoto, K. Kobayashi, Y. Kobayashi, Y. Kondo, K. Kuramoto, V. Kuzmin, Y. J.
+         Kwon, S. I. Lim, S. Machida, K. Martens, J. Martineau, T. Matsuda, T. Matsuura, T.
+         Matsuyama, I. Myers, M. Minamino, K. Miyata, H. Miyauchi, Y. Murano, T. Nakamura,
+         S. W. Nam, M. Ohnishi, H. Ohoka, K. Oki, D. Oku, A. Oshima, I. H. Park, M. S.
+         Pshirkov, D. Rodriguez, S. Y. Roh, G. Rubtsov, D. Ryu, A. L. Sampson, L. M. Scott, P.
+         D. Shah, F. Shibata, H. Shimodaira, B. K. Shin, J. I. Shin, T. Shirahama, J. D. Smith, P.
+         Sokolsky, T. J. Sonley, R. W. Springer, B. T. Stokes, S. R. Stratton, T. Stroman, S.
+         Suzuki, Y. Takahashi, M. Takita, H. Tanaka, K. Tanaka, M. Tanaka, G. B. Thomson, P.
+         Tinyakov, I. Tkachev, S. Troitsky, K. Tsutsumi, Y. Tsuyuguchi, Y. Uchihori, H. Ukai, G.
+         Vasiloff, Y. Wada, T. Wong, M. Wood, Y. Yamakawa, H. Yamaoka, K. Yamazaki, J.
+         Yang, S. Yoshida, H. Yoshii, R. Zollinger, Z. Zundel, New air fluorescence detectors
+         employed in the Telescope Array experiment. Nucl. Instrum. Methods Phys. Res. A 676,
+         54-65 (2012). doi:10.1016/j.nima.2012.02.044
+
+16. R. U. Abbasi, M. Abe, T. Abu-Zayyad, M. Allen, R. Azuma, E. Barcikowski, J. W. Belz, D.
+         R. Bergman, S. A. Blake, R. Cady, B. G. Cheon, J. Chiba, M. Chikawa, A. di Matteo, T.
+         Fujii, K. Fujita, M. Fukushima, G. Furlich, T. Goto, W. Hanlon, M. Hayashi, Y. Hayashi,
+         N. Hayashida, K. Hibino, K. Honda, D. Ikeda, N. Inoue, T. Ishii, R. Ishimori, H. Ito, D.
+         Ivanov, H. M. Jeong, S. M. Jeong, C. C. H. Jui, K. Kadota, F. Kakimoto, O. Kalashev, K.
+         Kasahara, H. Kawai, S. Kawakami, S. Kawana, K. Kawata, E. Kido, H. B. Kim, J. H.
+         Kim, J. H. Kim, S. Kishigami, S. Kitamura, Y. Kitamura, V. Kuzmin, M. Kuznetsov, Y.
+         J. Kwon, K. H. Lee, B. Lubsandorzhiev, J. P. Lundquist, K. Machida, K. Martens, T.
+         Matsuyama, J. N. Matthews, R. Mayta, M. Minamino, K. Mukai, I. Myers, K. Nagasawa,
+         S. Nagataki, R. Nakamura, T. Nakamura, T. Nonaka, H. Oda, S. Ogio, J. Ogura, M.
+         Ohnishi, H. Ohoka, T. Okuda, Y. Omura, M. Ono, R. Onogi, A. Oshima, S. Ozawa, I. H.
+         Park, M. S. Pshirkov, D. C. Rodriguez, G. Rubtsov, D. Ryu, H. Sagawa, R. Sahara, K.
+         Saito, Y. Saito, N. Sakaki, N. Sakurai, L. M. Scott, T. Seki, K. Sekino, P. D. Shah, F.
+         Shibata, T. Shibata, H. Shimodaira, B. K. Shin, H. S. Shin, J. D. Smith, P. Sokolsky, B.
+         T. Stokes, S. R. Stratton, T. A. Stroman, T. Suzawa, Y. Takagi, Y. Takahashi, M.
+         Takamura, M. Takeda, R. Takeishi, A. Taketa, M. Takita, Y. Tameda, H. Tanaka, K.
+         Tanaka, M. Tanaka, S. B. Thomas, G. B. Thomson, P. Tinyakov, I. Tkachev, H. Tokuno,
+         T. Tomida, S. Troitsky, Y. Tsunesada, K. Tsutsumi, Y. Uchihori, S. Udo, F. Urban, T.
+         Wong, M. Yamamoto, R. Yamane, H. Yamaoka, K. Yamazaki, J. Yang, K. Yashiro, Y.
+         Yoneda, S. Yoshida, H. Yoshii, Y. Zhezher, Z. Zundel, Telescope Array Collaboration,
+         Depth of Ultra High Energy Cosmic Ray Induced Air Shower Maxima Measured by the
+         Telescope Array Black Rock and Long Ridge FADC Fluorescence Detectors and Surface
+         Array in Hybrid Mode. Astrophys. J. 858, 76 (2018). doi:10.3847/1538-4357/aabad7
+
+17. R. U. Abbasi, M. Abe, T. Abu-Zayyad, M. Allen, R. Azuma, E. Barcikowski, J. W. Belz, D.
+         R. Bergman, S. A. Blake, R. Cady, B. G. Cheon, J. Chiba, M. Chikawa, A. di Matteo, T.
+         Fujii, K. Fujita, M. Fukushima, G. Furlich, T. Goto, W. Hanlon, M. Hayashi, Y. Hayashi,
+         N. Hayashida, K. Hibino, K. Honda, D. Ikeda, N. Inoue, T. Ishii, R. Ishimori, H. Ito, D.
+         Ivanov, H. M. Jeong, S. Jeong, C. C. H. Jui, K. Kadota, F. Kakimoto, O. Kalashev, K.
+         Kasahara, H. Kawai, S. Kawakami, S. Kawana, K. Kawata, E. Kido, H. B. Kim, J. H.
+         Kim, J. H. Kim, S. Kishigami, S. Kitamura, Y. Kitamura, V. Kuzmin, M. Kuznetsov, Y.
+         J. Kwon, K. H. Lee, B. Lubsandorzhiev, J. P. Lundquist, K. Machida, K. Martens, T.
+         Matsuyama, J. N. Matthews, R. Mayta, M. Minamino, K. Mukai, I. Myers, K. Nagasawa,
+         S. Nagataki, R. Nakamura, T. Nakamura, T. Nonaka, H. Oda, S. Ogio, J. Ogura, M.
+         Ohnishi, H. Ohoka, T. Okuda, Y. Omura, M. Ono, R. Onogi, A. Oshima, S. Ozawa, I. H.
+         Park, M. S. Piskunov, M. S. Pshirkov, J. Remington, D. C. Rodriguez, G. Rubtsov, D.
+         Ryu, H. Sagawa, R. Sahara, K. Saito, Y. Saito, N. Sakaki, N. Sakurai, L. M. Scott, T.
+         Seki, K. Sekino, P. D. Shah, F. Shibata, T. Shibata, H. Shimodaira, B. K. Shin, H. S.
+         Shin, J. D. Smith, P. Sokolsky, B. T. Stokes, S. R. Stratton, T. A. Stroman, T. Suzawa, Y.
+         Takagi, Y. Takahashi, M. Takamura, M. Takeda, R. Takeishi, A. Taketa, M. Takita, Y.
+         Tameda, H. Tanaka, K. Tanaka, M. Tanaka, S. B. Thomas, G. B. Thomson, P. Tinyakov,
+         I. Tkachev, H. Tokuno, T. Tomida, S. Troitsky, Y. Tsunesada, K. Tsutsumi, Y. Uchihori,
+         S. Udo, F. Urban, T. Wong, K. Yada, M. Yamamoto, R. Yamane, H. Yamaoka, K.
+         Yamazaki, J. Yang, K. Yashiro, Y. Yoneda, S. Yoshida, H. Yoshii, Y. Zhezher, Z.
+         Zundel, Mass composition of ultrahigh-energy cosmic rays with the Telescope Array
+         Surface Detector data. Phys. Rev. D 99, 022002 (2019).
+         doi:10.1103/PhysRevD.99.022002
+
+18. D. Heck, J. Knapp, J. N. Capdevielle, G. Schatz, T. Thouw, "CORSIKA: A Monte Carlo
+         code to simulate extensive air showers," Forschungszentrum Karlsruhe Report, FZKA-
+         6019 (1998).
+
+19. R. U. Abbasi, M. Abe, T. Abu-Zayyad, M. Allen, R. Azuma, E. Barcikowski, J. W. Belz, D.
+         R. Bergman, S. A. Blake, R. Cady, B. G. Cheon, J. Chiba, M. Chikawa, W. R. Cho, T.
+         Fujii, M. Fukushima, T. Goto, W. Hanlon, Y. Hayashi, N. Hayashida, K. Hibino, K.
+         Honda, D. Ikeda, N. Inoue, T. Ishii, R. Ishimori, H. Ito, D. Ivanov, C. C. H. Jui, K.
+         Kadota, F. Kakimoto, O. Kalashev, K. Kasahara, H. Kawai, S. Kawakami, S. Kawana, K.
+         Kawata, E. Kido, H. B. Kim, J. H. Kim, J. H. Kim, S. Kitamura, Y. Kitamura, V.
+         Kuzmin, Y. J. Kwon, J. Lan, J. P. Lundquist, K. Machida, K. Martens, T. Matsuda, T.
+         Matsuyama, J. N. Matthews, M. Minamino, Y. Mukai, I. Myers, K. Nagasawa, S.
+         Nagataki, T. Nakamura, T. Nonaka, A. Nozato, S. Ogio, J. Ogura, M. Ohnishi, H. Ohoka,
+         K. Oki, T. Okuda, M. Ono, A. Oshima, S. Ozawa, I. H. Park, M. S. Pshirkov, D. C.
+         Rodriguez, G. Rubtsov, D. Ryu, H. Sagawa, N. Sakurai, L. M. Scott, P. D. Shah, F.
+         Shibata, T. Shibata, H. Shimodaira, B. K. Shin, H. S. Shin, J. D. Smith, P. Sokolsky, R.
+         W. Springer, B. T. Stokes, S. R. Stratton, T. A. Stroman, T. Suzawa, M. Takamura, M.
+         Takeda, R. Takeishi, A. Taketa, M. Takita, Y. Tameda, H. Tanaka, K. Tanaka, M.
+         Tanaka, S. B. Thomas, G. B. Thomson, P. Tinyakov, I. Tkachev, H. Tokuno, T. Tomida,
+         S. Troitsky, Y. Tsunesada, K. Tsutsumi, Y. Uchihori, S. Udo, F. Urban, G. Vasiloff, T.
+         Wong, R. Yamane, H. Yamaoka, K. Yamazaki, J. Yang, K. Yashiro, Y. Yoneda, S.
+         Yoshida, H. Yoshii, R. Zollinger, Z. Zundel, The energy spectrum of cosmic rays above
+         1017.2 eV measured by the fluorescence detectors of the Telescope Array experiment in
+         seven years. Astropart. Phys. 80, 131-140 (2016).
+         doi:10.1016/j.astropartphys.2016.04.002
+
+20. Materials and methods are available as supplementary materials.
+
+21. R. Abbasi, M. Abe, T. Abu-Zayyad, M. Allen, R. Anderson, R. Azuma, E. Barcikowski, J.
+         W. Belz, D. R. Bergman, S. A. Blake, R. Cady, M. J. Chae, B. G. Cheon, J. Chiba, M.
+         Chikawa, W. R. Cho, T. Fujii, M. Fukushima, T. Goto, W. Hanlon, Y. Hayashi, N.
+         Hayashida, K. Hibino, K. Honda, D. Ikeda, N. Inoue, T. Ishii, R. Ishimori, H. Ito, D.
+         Ivanov, C. C. H. Jui, K. Kadota, F. Kakimoto, O. Kalashev, K. Kasahara, H. Kawai, S.
+         Kawakami, S. Kawana, K. Kawata, E. Kido, H. B. Kim, J. H. Kim, J. H. Kim, S.
+         Kitamura, Y. Kitamura, V. Kuzmin, Y. J. Kwon, J. Lan, S. I. Lim, J. P. Lundquist, K.
+         Machida, K. Martens, T. Matsuda, T. Matsuyama, J. N. Matthews, M. Minamino, K.
+         Mukai, I. Myers, K. Nagasawa, S. Nagataki, T. Nakamura, T. Nonaka, A. Nozato, S.
+         Ogio, J. Ogura, M. Ohnishi, H. Ohoka, K. Oki, T. Okuda, M. Ono, A. Oshima, S. Ozawa,
+         I. H. Park, M. S. Pshirkov, D. C. Rodriguez, G. Rubtsov, D. Ryu, H. Sagawa, N. Sakurai,
+         A. L. Sampson, L. M. Scott, P. D. Shah, F. Shibata, T. Shibata, H. Shimodaira, B. K.
+         Shin, J. D. Smith, P. Sokolsky, R. W. Springer, B. T. Stokes, S. R. Stratton, T. A.
+         Stroman, T. Suzawa, M. Takamura, M. Takeda, R. Takeishi, A. Taketa, M. Takita, Y.
+         Tameda, H. Tanaka, K. Tanaka, M. Tanaka, S. B. Thomas, G. B. Thomson, P. Tinyakov,
+         I. Tkachev, H. Tokuno, T. Tomida, S. Troitsky, Y. Tsunesada, K. Tsutsumi, Y. Uchihori,
+         S. Udo, F. Urban, G. Vasiloff, T. Wong, R. Yamane, H. Yamaoka, K. Yamazaki, J.
+         Yang, K. Yashiro, Y. Yoneda, S. Yoshida, H. Yoshii, R. Zollinger, Z. Zundel, Indications
+         of intermediate-scale anisotropy of cosmic rays with energy greater than 57 EeV in the
+         northern sky measured with the surface detector of the Telescope Array experiment.
+         Astrophys. J. Lett. 790, L21 (2014). doi:10.1088/2041-8205/790/2/L21
+
+22. L. Evans, P. Bryant, LHC Machine. J. Instrum. 3, S08001 (2008). doi:10.1088/1748-
+         0221/3/08/S08001
+
+23. O. Kalashev, I. V. Kharuk, M. Y. Kuznetsov, G. I. Rubtsov; Telescope Array Collaboration,
+         "Telescope Array search for EeV photons," in Proceedings of 37th International Cosmic
+         Ray Conference--PoS(ICRC2021) (2021), p. 864.
+
+24. I. Kharuk, O. Kalashev; Telescope Array Collaboration, "Mass composition of Telescope
+         Array's surface detectors events using deep learning," in Proceedings of 37th
+         International Cosmic Ray Conference--PoS(ICRC2021) (2021), p. 384.
+
+25. Lightning Exporter (Vaisala, 2023); https://lightning-exporter.vaisala.com.
+
+26. D. J. Bird, S. C. Corbato, H. Y. Dai, J. W. Elbert, K. D. Green, M. A. Huang, D. B. Kieda, S.
+         Ko, C. G. Larsen, E. C. Loh, M. Z. Luo, M. H. Salamon, J. D. Smith, P. Sokolsky, P.
+         Sommers, J. K. K. Tang, S. B. Thomas, Detection of a cosmic ray with measured energy
+         well beyond the expected spectral cutoff due to cosmic microwave radiation. Astrophys.
+         J. 441, 144 (1995). doi:10.1086/175344
+
+27. N. Hayashida, K. Honda, M. Honda, S. Imaizumi, N. Inoue, K. Kadota, F. Kakimoto, K.
+         Kamata, S. Kawaguchi, N. Kawasumi, Y. Matsubara, K. Murakami, M. Nagano, H.
+         Ohoka, M. Takeda, M. Teshima, I. Tsushima, S. Yoshida, H. Yoshii, Observation of a
+         Very Energetic Cosmic Ray Well Beyond the Predicted 2.7 K Cutoff in the Primary
+         Energy Spectrum. Phys. Rev. Lett. 73, 3491-3494 (1994).
+         doi:10.1103/PhysRevLett.73.3491 Medline
+
+28. N. Sakaki, M. Chikawa, M. Fukushima, N. Hayashida, K. Honda, N. Inoue, K. Kadota, F.
+         Kakimoto, S. Kakizawa, K. Kamata, S. Kawaguchi, S. Kawakami, Y. Kawasaki, N.
+         Kawasumi, E. Kusano, A. M. Mahrous, K. Mase, S. Mizobuchi, Y. Morizane, M.
+         Nagano, H. Ohoka, S. Osone, M. Sasaki, M. Sasano, K. Shinozaki, M. Takeda, M.
+         Teshima, R. Torii, I. Tsushima, Y. Uchihori, T. Yamamoto, S. Yoshida, H. Yoshii,
+         "Cosmic ray energy spectrum above 3 x 10**18-eV observed with AGASA," in
+         Proceedings of 27th International Cosmic Ray Conference (2001), pp. 333-336.
+
+29. P. Abreu, M. Aglietta, J. M. Albury, I. Allekotte, K. Almeida Cheminant, A. Almela, J.
+         Alvarez-Muñiz, R. Alves Batista, J. Ammerman Yebra, G. A. Anastasi, L. Anchordoqui,
+         B. Andrada, S. Andringa, C. Aramo, P. R. Araújo Ferreira, E. Arnone, J. C. Arteaga
+         Velázquez, H. Asorey, P. Assis, G. Avila, E. Avocone, A. M. Badescu, A. Bakalova, A.
+         Balaceanu, F. Barbato, J. A. Bellido, C. Berat, M. E. Bertaina, G. Bhatta, P. L. Biermann,
+         V. Binet, K. Bismark, T. Bister, J. Biteau, J. Blazek, C. Bleve, J. Blümer, M. Bohácová,
+         D. Boncioli, C. Bonifazi, L. Bonneau Arbeletche, N. Borodai, A. M. Botti, J. Brack, T.
+         Bretz, P. G. Brichetto Orchera, F. L. Briechle, P. Buchholz, A. Bueno, S. Buitink, M.
+         Buscemi, M. Büsken, K. S. Caballero-Mora, L. Caccianiga, F. Canfora, I. Caracas, R.
+         Caruso, A. Castellina, F. Catalani, G. Cataldi, L. Cazon, M. Cerda, J. A. Chinellato, J.
+         Chudoba, L. Chytka, R. W. Clay, A. C. Cobos Cerutti, R. Colalillo, A. Coleman, M. R.
+         Coluccia, R. Conceição, A. Condorelli, G. Consolati, F. Contreras, F. Convenga, D.
+         Correia dos Santos, C. E. Covault, S. Dasso, K. Daumiller, B. R. Dawson, J. A. Day, R.
+         M. de Almeida, J. de Jesús, S. J. de Jong, J. R. T. de Mello Neto, I. De Mitri, J. de
+         Oliveira, D. de Oliveira Franco, F. de Palma, V. de Souza, E. De Vito, A. Del Popolo, M.
+         del Río, O. Deligny, L. Deval, A. di Matteo, M. Dobre, C. Dobrigkeit, J. C. D'Olivo, L.
+         M. Domingues Mendes, R. C. dos Anjos, M. T. Dova, J. Ebr, R. Engel, I. Epicoco, M.
+         Erdmann, C. O. Escobar, A. Etchegoyen, H. Falcke, J. Farmer, G. Farrar, A. C. Fauth, N.
+         Fazzini, F. Feldbusch, F. Fenu, B. Fick, J. M. Figueira, A. Filipcic, T. Fitoussi, T. Fodran,
+         T. Fujii, A. Fuster, C. Galea, C. Galelli, B. García, H. Gemmeke, F. Gesualdi, A.
+         Gherghel-Lascu, P. L. Ghia, U. Giaccari, M. Giammarchi, J. Glombitza, F. Gobbi, F.
+         Gollan, G. Golup, M. Gómez Berisso, P. F. Gómez Vitale, J. P. Gongora, J. M. González,
+         N. González, I. Goos, D. Góra, A. Gorgi, M. Gottowik, T. D. Grubb, F. Guarino, G. P.
+         Guedes, E. Guido, S. Hahn, P. Hamal, M. R. Hampel, P. Hansen, D. Harari, V. M.
+         Harvey, A. Haungs, T. Hebbeker, D. Heck, G. C. Hill, C. Hojvat, J. R. Hörandel, P.
+         Horvath, M. Hrabovský, T. Huege, A. Insolia, P. G. Isar, P. Janecek, J. A. Johnsen, J.
+         Jurysek, A. Kääpä, K. H. Kampert, B. Keilhauer, A. Khakurdikar, V. V. Kizakke
+         Covilakam, H. O. Klages, M. Kleifges, J. Kleinfeller, F. Knapp, N. Kunka, B. L. Lago,
+         N. Langner, M. A. Leigui de Oliveira, V. Lenok, A. Letessier-Selvon, I. Lhenry-Yvon, D.
+         Lo Presti, L. Lopes, R. López, L. Lu, Q. Luce, J. P. Lundquist, A. Machado Payeras, G.
+         Mancarella, D. Mandat, B. C. Manning, J. Manshanden, P. Mantsch, S. Marafico, F. M.
+         Mariani, A. G. Mariazzi, I. C. Mari, G. Marsella, D. Martello, S. Martinelli, O. Martínez
+         Bravo, M. Mastrodicasa, H. J. Mathes, J. Matthews, G. Matthiae, E. Mayotte, S. Mayotte,
+         P. O. Mazur, G. Medina-Tanco, D. Melo, A. Menshikov, S. Michal, M. I. Micheletti, L.
+         Miramonti, S. Mollerach, F. Montanet, L. Morejon, C. Morello, M. Mostafá, A. L.
+         Müller, M. A. Muller, K. Mulrey, R. Mussa, M. Muzio, W. M. Namasaka, A. Nasr-
+         Esfahani, L. Nellen, G. Nicora, M. Niculescu-Oglinzanu, M. Niechciol, D. Nitz, I.
+         Norwood, D. Nosek, V. Novotny, L. Nozka, A. Nucita, L. A. Núñez, C. Oliveira, M.
+         Palatka, J. Pallotta, P. Papenbreer, G. Parente, A. Parra, J. Pawlowsky, M. Pech, J.
+         Pkala, R. Pelayo, J. Peña-Rodriguez, E. E. Pereira Martins, J. Perez Armand, C. Pérez
+         Bertolli, L. Perrone, S. Petrera, C. Petrucci, T. Pierog, M. Pimenta, V. Pirronello, M.
+         Platino, B. Pont, M. Pothast, P. Privitera, M. Prouza, A. Puyleart, S. Querchfeld, J.
+         Rautenberg, D. Ravignani, M. Reininghaus, J. Ridky, F. Riehn, M. Risse, V. Rizi, W.
+         Rodrigues de Carvalho, J. Rodriguez Rojo, M. J. Roncoroni, S. Rossoni, M. Roth, E.
+         Roulet, A. C. Rovero, P. Ruehl, A. Saftoiu, M. Saharan, F. Salamida, H. Salazar, G.
+         Salina, J. D. Sanabria Gomez, F. Sánchez, E. M. Santos, E. Santos, F. Sarazin, R.
+         Sarmento, R. Sato, P. Savina, C. M. Schäfer, V. Scherini, H. Schieler, M. Schimassek, M.
+         Schimp, F. Schlüter, D. Schmidt, O. Scholten, H. Schoorlemmer, P. Schovánek, F. G.
+         Schröder, J. Schulte, T. Schulz, S. J. Sciutto, M. Scornavacche, A. Segreto, S. Sehgal, R.
+         C. Shellard, G. Sigl, G. Silli, O. Sima, R. Smau, R. Smída, P. Sommers, J. F. Soriano, R.
+         Squartini, M. Stadelmaier, D. Stanca, S. Stanic, J. Stasielak, P. Stassi, M. Straub, A.
+         Streich, M. Suárez-Durán, T. Sudholz, T. Suomijärvi, A. D. Supanitsky, Z. Szadkowski,
+         A. Tapia, C. Taricco, C. Timmermans, O. Tkachenko, P. Tobiska, C. J. Todero Peixoto,
+         B. Tomé, Z. Torrès, A. Travaini, P. Travnicek, C. Trimarelli, M. Tueros, R. Ulrich, M.
+         Unger, L. Vaclavek, M. Vacula, J. F. Valdés Galicia, L. Valore, E. Varela, A. Vásquez-
+         Ramírez, D. Veberic, C. Ventura, I. D. Vergara Quispe, V. Verzi, J. Vicha, J. Vink, S.
+         Vorobiov, H. Wahlberg, C. Watanabe, A. A. Watson, A. Weindl, L. Wiencke, H.
+         Wilczyski, D. Wittkowski, B. Wundheiler, A. Yushkov, O. Zapparrata, E. Zas, D.
+         Zavrtanik, M. Zavrtanik, L. Zehrer, The Pierre Auger Collaboration, Arrival Directions
+         of Cosmic Rays above 32 EeV from Phase One of the Pierre Auger Observatory.
+         Astrophys. J. 935, 170 (2022). doi:10.3847/1538-4357/ac7d4e
+
+30. V. Verzi, D. Ivanov, Y. Tsunesada, Measurement of energy spectrum of ultra-high energy
+         cosmic rays. Prog. Theor. Exp. Phys. 2017, 12A103 (2017). doi:10.1093/ptep/ptx082
+
+31. R. Jansson, G. R. Farrar, A new model of the galactic magnetic field. Astrophys. J. 757, 14
+         (2012). doi:10.1088/0004-637X/757/1/14
+
+32. M. S. Pshirkov, P. G. Tinyakov, P. P. Kronberg, K. J. Newton-McGee, Deriving the global
+         structure of the galactic magnetic field from Faraday rotation measures of extragalactic
+         sources. Astrophys. J. 738, 192 (2011). doi:10.1088/0004-637X/738/2/192
+
+33. R. Alves Batista, A. Dundovic, M. Erdmann, K.-H. Kampert, D. Kuempel, G. Müller, G.
+         Sigl, A. van Vliet, D. Walz, T. Winchen, CRPropa 3--A public astrophysical simulation
+         framework for propagating extraterrestrial ultra-high energy particles. J. Cosmol.
+         Astropart. Phys. 2016, 038 (2016). doi:10.1088/1475-7516/2016/05/038
+
+34. S. Abdollahi, F. Acero, M. Ackermann, M. Ajello, W. B. Atwood, M. Axelsson, L. Baldini,
+         J. Ballet, G. Barbiellini, D. Bastieri, J. Becerra Gonzalez, R. Bellazzini, A. Berretta, E.
+         Bissaldi, R. D. Blandford, E. D. Bloom, R. Bonino, E. Bottacini, T. J. Brandt, J. Bregeon,
+         P. Bruel, R. Buehler, T. H. Burnett, S. Buson, R. A. Cameron, R. Caputo, P. A. Caraveo,
+         J. M. Casandjian, D. Castro, E. Cavazzuti, E. Charles, S. Chaty, S. Chen, C. C. Cheung,
+         G. Chiaro, S. Ciprini, J. Cohen-Tanugi, L. R. Cominsky, J. Coronado-Blázquez, D.
+         Costantin, A. Cuoco, S. Cutini, F. D'Ammando, M. DeKlotz, P. Torre Luque, F. de
+         Palma, A. Desai, S. W. Digel, N. D. Lalla, M. D. Mauro, L. D. Venere, A. Domínguez,
+         D. Dumora, F. F. Dirirsa, S. J. Fegan, E. C. Ferrara, A. Franckowiak, Y. Fukazawa, S.
+         Funk, P. Fusco, F. Gargano, D. Gasparrini, N. Giglietto, P. Giommi, F. Giordano, M.
+         Giroletti, T. Glanzman, D. Green, I. A. Grenier, S. Griffin, M.-H. Grondin, J. E. Grove,
+         S. Guiriec, A. K. Harding, K. Hayashi, E. Hays, J. W. Hewitt, D. Horan, G. Jóhannesson,
+         T. J. Johnson, T. Kamae, M. Kerr, D. Kocevski, M. Kovac'evic', M. Kuss, D. Landriu, S.
+         Larsson, L. Latronico, M. Lemoine-Goumard, J. Li, I. Liodakis, F. Longo, F. Loparco, B.
+         Lott, M. N. Lovellette, P. Lubrano, G. M. Madejski, S. Maldera, D. Malyshev, A.
+         Manfreda, E. J. Marchesini, L. Marcotulli, G. Martí-Devesa, P. Martin, F. Massaro, M.
+         N. Mazziotta, J. E. McEnery, I. Mereu, M. Meyer, P. F. Michelson, N. Mirabal, T.
+         Mizuno, M. E. Monzani, A. Morselli, I. V. Moskalenko, M. Negro, E. Nuss, R. Ojha, N.
+         Omodei, M. Orienti, E. Orlando, J. F. Ormes, M. Palatiello, V. S. Paliya, D. Paneque, Z.
+         Pei, H. Peña-Herazo, J. S. Perkins, M. Persic, M. Pesce-Rollins, V. Petrosian, L. Petrov,
+         F. Piron, H. Poon, T. A. Porter, G. Principe, S. Rainò, R. Rando, M. Razzano, S.
+         Razzaque, A. Reimer, O. Reimer, Q. Remy, T. Reposeur, R. W. Romani, P. M. S.
+         Parkinson, F. K. Schinzel, D. Serini, C. Sgrò, E. J. Siskind, D. A. Smith, G. Spandre, P.
+         Spinelli, A. W. Strong, D. J. Suson, H. Tajima, M. N. Takahashi, D. Tak, J. B. Thayer, D.
+         J. Thompson, L. Tibaldo, D. F. Torres, E. Torresi, J. Valverde, B. V. Klaveren, P. Zyl, K.
+         Wood, M. Yassine, G. Zaharijas, Fermi Large Area Telescope Fourth Source Catalog.
+         Astrophys. J. Suppl. Ser. 247, 33 (2020). doi:10.3847/1538-4365/ab6bcb
+
+35. G. R. Farrar, A. Gruzinov, Giant AGN flares and cosmic ray bursts. Astrophys. J. 693, 329-
+         332 (2009). doi:10.1088/0004-637X/693/1/329
+
+36. D. Sowards-Emmerd, R. W. Romani, P. F. Michelson, S. E. Healey, P. L. Nolan, A Northern
+         Survey of Gamma-Ray Blazar Candidates. Astrophys. J. 626, 95-103 (2005).
+         doi:10.1086/429902
+
+37. M. Y. Kuznetsov, P. G. Tinyakov, UHECR mass composition at highest energies from
+         anisotropy of their arrival directions. J. Cosmol. Astropart. Phys. 2021, 065 (2021).
+         doi:10.1088/1475-7516/2021/04/065
+
+38. A. Aab, P. Abreu, M. Aglietta, I. F. M. Albuquerque, I. Allekotte, A. Almela, J. A. Castillo,
+         J. Alvarez-Muñiz, G. A. Anastasi, L. Anchordoqui, B. Andrada, S. Andringa, C. Aramo,
+         N. Arsene, H. Asorey, P. Assis, G. Avila, A. M. Badescu, A. Balaceanu, F. Barbato, R. J.
+         B. Luz, J. J. Beatty, K. H. Becker, J. A. Bellido, C. Berat, M. E. Bertaina, X. Bertou, P.
+         L. Biermann, J. Biteau, S. G. Blaess, A. Blanco, J. Blazek, C. Bleve, M. Bohácová, C.
+         Bonifazi, N. Borodai, A. M. Botti, J. Brack, I. Brancus, T. Bretz, A. Bridgeman, F. L.
+         Briechle, P. Buchholz, A. Bueno, S. Buitink, M. Buscemi, K. S. Caballero-Mora, L.
+         Caccianiga, A. Cancio, F. Canfora, R. Caruso, A. Castellina, F. Catalani, G. Cataldi, L.
+         Cazon, A. G. Chavez, J. A. Chinellato, J. Chudoba, R. W. Clay, A. C. C. Cerutti, R.
+         Colalillo, A. Coleman, L. Collica, M. R. Coluccia, R. Conceição, G. Consolati, F.
+         Contreras, M. J. Cooper, S. Coutu, C. E. Covault, J. Cronin, S. D'Amico, B. Daniel, S.
+         Dasso, K. Daumiller, B. R. Dawson, R. M. Almeida, S. J. Jong, G. D. Mauro, J. R. T. de
+         Mello Neto, I. D. Mitri, J. Oliveira, V. Souza, J. Debatin, O. Deligny, M. L. D. Castro, F.
+         Diogo, C. Dobrigkeit, J. C. D'Olivo, Q. Dorosti, R. C. Anjos, M. T. Dova, A. Dundovic,
+         J. Ebr, R. Engel, M. Erdmann, M. Erfani, C. O. Escobar, J. Espadanal, A. Etchegoyen, H.
+         Falcke, J. Farmer, G. Farrar, A. C. Fauth, N. Fazzini, F. Fenu, B. Fick, J. M. Figueira, A.
+         Filipcic, M. M. Freire, T. Fujii, A. Fuster, R. Gaïor, B. García, F. Gaté, H. Gemmeke, A.
+         Gherghel-Lascu, P. L. Ghia, U. Giaccari, M. Giammarchi, M. Giller, D. Glas, C. Glaser,
+         G. Golup, M. G. Berisso, P. F. G. Vitale, N. González, A. Gorgi, A. F. Grillo, T. D.
+         Grubb, F. Guarino, G. P. Guedes, R. Halliday, M. R. Hampel, P. Hansen, D. Harari, T. A.
+         Harrison, A. Haungs, T. Hebbeker, D. Heck, P. Heimann, A. E. Herve, G. C. Hill, C.
+         Hojvat, E. Holt, P. Homola, J. R. Hörandel, P. Horvath, M. Hrabovský, T. Huege, J.
+         Hulsman, A. Insolia, P. G. Isar, I. Jandt, J. A. Johnsen, M. Josebachuili, J. Jurysek, A.
+         Kääpä, O. Kambeitz, K. H. Kampert, B. Keilhauer, N. Kemmerich, E. Kemp, J. Kemp, R.
+         M. Kieckhafer, H. O. Klages, M. Kleifges, J. Kleinfeller, R. Krause, N. Krohm, D.
+         Kuempel, G. K. Mezek, N. Kunka, A. K. Awad, B. L. Lago, D. LaHurd, R. G. Lang, M.
+         Lauscher, R. Legumina, M. A. L. Oliveira, A. Letessier-Selvon, I. Lhenry-Yvon, K. Link,
+         D. L. Presti, L. Lopes, R. López, A. L. Casado, R. Lorek, Q. Luce, A. Lucero, M.
+         Malacari, M. Mallamaci, D. Mandat, P. Mantsch, A. G. Mariazzi, I. C. Mari, G.
+         Marsella, D. Martello, H. Martinez, O. M. Bravo, J. J. M. Meza, H. J. Mathes, S. Mathys,
+         J. Matthews, G. Matthiae, E. Mayotte, P. O. Mazur, C. Medina, G. Medina-Tanco, D.
+         Melo, A. Menshikov, K.-D. Merenda, S. Michal, M. I. Micheletti, L. Middendorf, L.
+         Miramonti, B. Mitrica, D. Mockler, S. Mollerach, F. Montanet, C. Morello, G. Morlino,
+         M. Mostafá, A. L. Müller, G. Müller, M. A. Muller, S. Müller, R. Mussa, I. Naranjo, L.
+         Nellen, P. H. Nguyen, M. Niculescu-Oglinzanu, M. Niechciol, L. Niemietz, T.
+         Niggemann, D. Nitz, D. Nosek, V. Novotny, L. Nozka, L. A. Núñez, F. Oikonomou, A.
+         Olinto, M. Palatka, J. Pallotta, P. Papenbreer, G. Parente, A. Parra, T. Paul, M. Pech, F.
+         Pedreira, J. Pkala, R. Pelayo, J. Peña-Rodriguez, L. A. S. Pereira, M. Perlin, L. Perrone,
+         C. Peters, S. Petrera, J. Phuntsok, T. Pierog, M. Pimenta, V. Pirronello, M. Platino, M.
+         Plum, J. Poh, C. Porowski, R. R. Prado, P. Privitera, M. Prouza, E. J. Quel, S.
+         Querchfeld, S. Quinn, R. Ramos-Pollan, J. Rautenberg, D. Ravignani, J. Ridky, F. Riehn,
+         M. Risse, P. Ristori, V. Rizi, W. Rodrigues de Carvalho, G. Rodriguez Fernandez, J.
+         Rodriguez Rojo, M. J. Roncoroni, M. Roth, E. Roulet, A. C. Rovero, P. Ruehl, S. J. Saffi,
+         A. Saftoiu, F. Salamida, H. Salazar, A. Saleh, G. Salina, F. Sánchez, P. Sanchez-Lucas,
+         E. M. Santos, E. Santos, F. Sarazin, R. Sarmento, C. Sarmiento-Cano, R. Sato, M.
+         Schauer, V. Scherini, H. Schieler, M. Schimp, D. Schmidt, O. Scholten, P. Schovánek, F.
+         G. Schröder, S. Schröder, A. Schulz, J. Schumacher, S. J. Sciutto, A. Segreto, A.
+         Shadkam, R. C. Shellard, G. Sigl, G. Silli, R. Smída, G. R. Snow, P. Sommers, S.
+         Sonntag, J. F. Soriano, R. Squartini, D. Stanca, S. Stanic, J. Stasielak, P. Stassi, M.
+         Stolpovskiy, F. Strafella, A. Streich, F. Suarez, M. S. Durán, T. Sudholz, T. Suomijärvi,
+         A. D. Supanitsky, J. Supík, J. Swain, Z. Szadkowski, A. Taboada, O. A. Taborda, V. M.
+         Theodoro, C. Timmermans, C. J. T. Peixoto, L. Tomankova, B. Tomé, G. T. Elipe, P.
+         Travnicek, M. Trini, R. Ulrich, M. Unger, M. Urban, J. F. V. Galicia, I. Valiño, L.
+         Valore, G. van Aar, P. van Bodegom, A. M. Berg, A. Vliet, E. Varela, B. V. Cárdenas, R.
+         A. Vázquez, D. Veberic, C. Ventura, I. D. V. Quispe, V. Verzi, J. Vicha, L. Villaseñor, S.
+         Vorobiov, H. Wahlberg, O. Wainberg, D. Walz, A. A. Watson, M. Weber, A. Weindl, M.
+         Wiedeski, L. Wiencke, H. Wilczyski, M. Wirtz, D. Wittkowski, B. Wundheiler, L.
+         Yang, A. Yushkov, E. Zas, D. Zavrtanik, M. Zavrtanik, A. Zepeda, B. Zimmermann, M.
+         Ziolkowski, Z. Zong, F. Zuccarello, The Pierre Auger Collaboration, An Indication of
+         Anisotropy in Arrival Directions of Ultra-high-energy Cosmic Rays through Comparison
+         to the Flux Pattern of Extragalactic Gamma-Ray Sources. Astrophys. J. Lett. 853, L29
+         (2018). doi:10.3847/2041-8213/aaa66d
+
+39. R. U. Abbasi, M. Abe, T. Abu-Zayyad, M. Allen, R. Azuma, E. Barcikowski, J. W. Belz, D.
+         R. Bergman, S. A. Blake, R. Cady, B. G. Cheon, J. Chiba, M. Chikawa, A. Matteo, T.
+         Fujii, K. Fujita, M. Fukushima, G. Furlich, T. Goto, W. Hanlon, M. Hayashi, Y. Hayashi,
+         N. Hayashida, K. Hibino, K. Honda, D. Ikeda, N. Inoue, T. Ishii, R. Ishimori, H. Ito, D.
+         Ivanov, H. M. Jeong, S. Jeong, C. C. H. Jui, K. Kadota, F. Kakimoto, O. Kalashev, K.
+         Kasahara, H. Kawai, S. Kawakami, S. Kawana, K. Kawata, E. Kido, H. B. Kim, J. H.
+         Kim, J. H. Kim, S. Kishigami, S. Kitamura, Y. Kitamura, V. Kuzmin, M. Kuznetsov, Y.
+         J. Kwon, K. H. Lee, B. Lubsandorzhiev, J. P. Lundquist, K. Machida, K. Martens, T.
+         Matsuyama, J. N. Matthews, R. Mayta, M. Minamino, K. Mukai, I. Myers, K. Nagasawa,
+         S. Nagataki, R. Nakamura, T. Nakamura, T. Nonaka, H. Oda, S. Ogio, J. Ogura, M.
+         Ohnishi, H. Ohoka, T. Okuda, Y. Omura, M. Ono, R. Onogi, A. Oshima, S. Ozawa, I. H.
+         Park, M. S. Pshirkov, J. Remington, D. C. Rodriguez, G. Rubtsov, D. Ryu, H. Sagawa, R.
+         Sahara, K. Saito, Y. Saito, N. Sakaki, N. Sakurai, L. M. Scott, T. Seki, K. Sekino, P. D.
+         Shah, F. Shibata, T. Shibata, H. Shimodaira, B. K. Shin, H. S. Shin, J. D. Smith, P.
+         Sokolsky, B. T. Stokes, S. R. Stratton, T. A. Stroman, T. Suzawa, Y. Takagi, Y.
+         Takahashi, M. Takamura, M. Takeda, R. Takeishi, A. Taketa, M. Takita, Y. Tameda, H.
+         Tanaka, K. Tanaka, M. Tanaka, S. B. Thomas, G. B. Thomson, P. Tinyakov, I. Tkachev,
+         H. Tokuno, T. Tomida, S. Troitsky, Y. Tsunesada, K. Tsutsumi, Y. Uchihori, S. Udo, F.
+         Urban, T. Wong, M. Yamamoto, R. Yamane, H. Yamaoka, K. Yamazaki, J. Yang, K.
+         Yashiro, Y. Yoneda, S. Yoshida, H. Yoshii, Y. Zhezher, Z. Zundel, Testing a Reported
+         Correlation between Arrival Directions of Ultra-high-energy Cosmic Rays and a Flux
+         Pattern from nearby Starburst Galaxies using Telescope Array Data. Astrophys. J. Lett.
+         867, L27 (2018). doi:10.3847/2041-8213/aaebf9
+
+40. R. B. Tully, E. J. Shaya, I. D. Karachentsev, H. M. Courtois, D. D. Kocevski, L. Rizzi, A.
+         Peel, Our Peculiar Motion Away from the Local Void. Astrophys. J. 676, 184-205
+         (2008). doi:10.1086/527428
+
+41. J. J. Eldridge, L. Xiao, The distance, supernova rate, and supernova progenitors of NGC
+         6946. Mon. Not. R. Astron. Soc. Lett. 485, L58-L61 (2019). doi:10.1093/mnrasl/slz030
+
+42. O. E. Kalashev, E. Kido, Simulations of ultra-high-energy cosmic rays propagation. J. Exp.
+         Theor. Phys. 120, 790-797 (2015). doi:10.1134/S1063776115040056
+
+43. T. Fujii, Data of an extremely energetic cosmic ray observed by a surface detector array of
+         Telescope Array experiment, Zenodo (2023); https://doi.org/10.5281/zenodo.8427755.
+
+44. M. Teshima, Y. Matsubara, T. Hara, N. Hayashida, M. Honda, F. Ishikawa, T. Kifune, M.
+         Mori, M. Nagano, K. Nishijima, H. Ohoka, Y. Ohno, G. Tanahashi, Properties of 109-
+         1010 GeV extensive air showers at core distances between 100 and 3000 m. J. Phys. G
+         Nucl. Phys. 12, 1097-1113 (1986). doi:10.1088/0305-4616/12/10/017
+
+45. S. Ostapchenko, Monte Carlo treatment of hadronic interactions in enhanced Pomeron
+         scheme: QGSJET-II model. Phys. Rev. D 83, 014018 (2011).
+         doi:10.1103/PhysRevD.83.014018
+
+46. T. Pierog, I. Karpenko, J. M. Katzy, E. Yatsenko, K. Werner, EPOS LHC: Test of collective
+         hadronization with data measured at the CERN Large Hadron Collider. Phys. Rev. C 92,
+         034906 (2015). doi:10.1103/PhysRevC.92.034906
+
+47. D. Ivanov; Telescope Array Collaboration, "Energy Spectrum Measured by the Telescope
+         Array," in Proceedings of 36th International Cosmic Ray Conference--PoS(ICRC2019)
+         (2019), p. 298.
+
+48. M. Kuznetsov, P. Tinyakov; Telescope Array Collaboration, "UHECR mass composition
+         from anisotropy of their arrival directions with the Telescope Array SD," in Proceedings
+         of 37th International Cosmic Ray Conference--PoS(ICRC2021) (2021), p. 294.
+
+49. I. Tkachev, T. Fujii, D. Ivanov, C. C. H. Jui, K. Kawata, J. H. Kim, M. Y. Kuznetsov, T.
+         Nonaka, S. Ogio, G. I. Rubtsov, H. Sagawa, G. B. Thomson, P. G. Tinyakov, I. Tkachev,
+         S. Troitsky; Telescope Array Collaboration, "Telescope Array anisotropy summary," in
+         Proceedings of 37th International Cosmic Ray Conference--PoS(ICRC2021) (2021), p.
+         392.
+
+50. R. Aloisio, D. Boncioli, A. di Matteo, A. F. Grillo, S. Petrera, F. Salamida, SimProp v2r4:
+         Monte Carlo simulation code for UHECR propagation. J. Cosmol. Astropart. Phys. 2017,
+         009 (2017). doi:10.1088/1475-7516/2017/11/009
+

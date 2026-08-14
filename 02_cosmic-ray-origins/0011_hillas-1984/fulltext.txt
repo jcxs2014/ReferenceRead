@@ -1,0 +1,1013 @@
+                                                                                     Ann. Rev. Astron. Astrophys. 1984. 22.' 425-44               REVIEWS ANNUAL Further
+                                                                                     Copyright © 1984 by Annual Reviews Inc. All rights reserved
+                                                                                                                                                  Quick links to online content
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  THE ORIGIN OF
+   by Brown University on 09/07/12. For personal use only.
+                                                                                     ULTRA-HIGH-ENERGY
+
+                                                                                     COSMIC RAYS
+
+                                                                                     A. M. Hillas
+
+                                                                                     Physics Department, University of Leeds, Leeds LS2 9JT, England
+
+                                                                                     1. WHY BOTHER WITH ULTRA-HIGH-ENERGY
+                                                                                     COSMIC RAYS?
+
+                                                                                     Protons, nuclei, and electrons in the energy range 109-1012 eV account for
+                                                                                     most of the energy of the cosmic-ray flux and have attracted most attention.
+                                                                                     Plausible models have been proposed for their acceleration (popularly in
+                                                                                     supernovae), of their entanglement by galactic magnetic fields, and of their
+                                                                                     eventual escape from the Galaxy ("leaky box" models). However, the energy
+                                                                                     spectrum of cosmic rays extends to '" 1020 eV (and smoothly to 1019 eV).
+
+                                                                                     This poses a challenge to these models, because (a) the ultra-high energies of
+
+                                                                                     these particles rule out most of the accelerating mechanisms that have been
+
+                                                                                     discussed, and (b) such particles cannot be retained in the disk of our Galaxy
+
+                                                                                     by its magnetic fields. Regrettably, the observations also cast doubt on the
+                                                                                     importance ·of the most popular shock-wave process for accelerating
+                                                                                     particles to ultrarelativistic energies.
+
+                                                                                        In most respects, a very firm body of data on these ultra-high-energy
+                                                                                     cosmic rays now exists, and so it may be hoped that more attention will be
+                                                                                     paid to its interpretation. However, there are many problems to be solved.
+
+                                                                                     SIZE OF ACCELERATING REGION The Larmor radius of a relativistic particle
+                                                                                     of charge Ze in a magnetic field BI'G (strictly the component of B normal to
+                                                                                     the particle's velocity) is rL = 1.08 E15/ZBp.G pc, where E15 is the particle's
+                                                                                     energy in units of 1015 eV, and Bp.G is in microgauss. Clearly, in gradual
+                                                                                     modes of acceleration, where the particle makes many irregular loops in the
+                                                                                     field while gaining energy, the size L of the essential part of the accelerating
+                                                                                     region containing the field must be much greater than 2rL '" 2E15/BI'G' In
+
+                                                                                                                                                                                  425
+                                                                                                                 0066-4146/84/0915-0425$02.00
+                                                                                                                                                    o
+
+                                                                                     426  HILLAS
+
+                                                                                     fact, a characteristic velocity f3c of scattering centers is of vital importance,
+                                                                                     and it turns out (Section 3) that L has to be larger than 2rJf3, so
+
+                                                                                     BI'GLpc > 2EI5/Zf3,                                               1.
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  where Lpc is in parsecs. This limitation arises also in one-shot acceleration
+   by Brown University on 09/07/12. For personal use only.                           schemes, where an emf'" LvB/c (cgs) arises from the motion of a conductor
+                                                                                     (speed v = f3c) in a magnetic field and may be partly available for particle
+                                                                                     acceleration(L may be the diameter of a rotating neutron star, for instance).
+
+                                                                                        In Figure 1 are plotted many sites where particle acceleration may occur,
+
+                                                                                     with sizes ranging from kilometers to megaparsecs. Sites lying below the
+
+                                                                                     diagonal line fail to satisfy condition (1.), even for 13 = 1, for 1020 eV protons
+
+                                                                                     (the dashed line refers to 1020 eV iron nuclei): for more reasonable plasma
+                                                                                     velocities in the range c > v > 1000 km s -1, the line will lie even higher,
+                                                                                     somewhere within the stippled band. Clearly, very few sites remain as
+                                                                                     possibilities: either one wants highly condensed objects with huge B or
+                                                                                     enormously extended objects. In either case, very high speeds are required.
+
+                                                                                     Among the excluded sites are supernova remnant envelopes.
+
+                                                                                     ARRIVAL DIRECTIONS Many particles having energy >3 x 1019 eV have
+                                                                                     been reported, and many of these arrive from directions very far from the
+                                                                                     galactic plane (30), as is shown in Figure 2, which depicts a section through
+                                                                                     the Galaxy. If these particles have been deflected from sources within the
+                                                                                     active regions of our Galaxy, we require a magnetic field of somewhat
+
+                                                                                                  1km     km lAU 1pc 1kpc 1Mpc
+
+                                                                                                          SIZE
+
+                                                                                     Figure 1 Size and magnetic field strength of possible sites of particle acceleration. Objects
+
+                                                                                     below the diagonal line cannot accelerate protons to 1020 eV.
+                                                                                     ULTRA-HIGH-ENERGY COSMIC RAYS  427
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  Figure 2 Size of the trajectories of7 x 10'9 eV cosmic-ray nuclei in relation to the Galaxy in
+   by Brown University on 09/07/12. For personal use only.                           a 2-JlG magnetic field (assumed to be almost uniform).
+
+                                                                                     implausibly constant direction over a large volume. This field could hardly
+                                                                                     be stronger than 2 JiG (rather like that in the local galactic disk); in Figure 2,
+                                                                                     the typical energy of the sample is taken to be 7 x 1019 eV, and the
+                                                                                     trajectories of protons and oxygen and iron nuclei in such a field (normal to
+                                                                                     the diagram) are shown. Protons would clearly originate outside our
+                                                                                     Galaxy, and the arrival direction points roughly from the Virgo cluster of
+                                                                                     galaxies, 15-20 Mpc away (though Southern Hemisphere observers may
+                                                                                     not be much impressed by this remark). Only if the particles were all more
+                                                                                     highly charged nuclei and if the magnetic halo of our Galaxy extended to
+                                                                                     several kiloparsec (as shown) could the particles originate in our Galaxy.
+                                                                                     The evidence suggests that at least some of the particles are protons (97), but
+                                                                                     their identification is not easy. Such an identification is of critical
+                                                                                     importance. If they were to turn out to be entirely highly charged nuclei, we
+                                                                                     might consider whether young pulsarlike objects could possibly be sources;
+                                                                                     otherwise, we have to look outside the Galaxy.
+
+                                                                                     2. OBSERVATIONAL DATA
+
+                                                                                     Particles of energy > 1015 eV are detected through the extensive cascades of
+                                                                                     secondary particles that they generate in the atmosphere ("extensive air
+                                                                                     showers"). These are observed by large arrays of particle detectors on the
+                                                                                     ground. The largest of these arrays viewing the northern sky have been at
+                                                                                     Volcano Ranch (USA), Haverah Park (England), and Yakutsk (USSR);
+                                                                                     another array, Chacaltaya (Bolivia), operates near the equator. The
+                                                                                     southern sky has as usual been somewhat neglected, but the observers at
+                                                                                     Sydney (Australia) had the largest exposure of all at the highest energies. In
+                                                                                     the effort to gather statistics on 1020 eV particles, the global exposure to
+                                                                                     date is  500 km2 yr.
+                                                                                     428  ffiLLAS
+
+                                                                                     2. 1 Energy Spectrum and Composition ofHigh-Energy
+                                                                                     Particles
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org   ENERGY SPECTRUM Figure 3 shows how the particle flux at very high
+   by Brown University on 09/07/12. For personal use only.                            energies continues the spectrum that has been well explored below 1012 eY.
+
+                                                                                      The differential flux J(E) (particles m-2 S-1 sr-1 GeV -1) is plotted as a
+                                                                                      function of energy E, with J multiplied by E2.5 (E in GeV), thus disguising a
+
+                                                                                      very steeply falling spectrum. Particle species are not distinguished, as only
+
+                                                                                      the total energy given to the shower can be estimated. A few experiments
+
+                                                                                      spanning a broad energy range have been selected, and a critical assessment
+
+                                                                                      of the data is not ,attempted. (Some other data suggest that the flux may be
+                                                                                      slightly higher than shown near 1015 eV.) The low Sydney flux does not
+                                                                                      indicate a real difference in the southern sky, but reflects instead their use of
+
+                                                                                      the number of muons (Nil) to measure shower size. Conversion from Nil to E
+
+                                                                                      is strongly sensitive to the poorly known charge-retention features of high­
+
+                                                                                      energy pion interactions; other evidence on EjN/l from Yakutsk (37) would
+
+                                                                                     . about double the Sydney energies (see the upper dotted curve in Figure 3).
+                                                                                      The derivation of E from shower size is usually not a trivial matter, but
+
+                                                                                                                     1014 1015 1016 1017 1018
+
+                                                                                                                            E; ENERGY OF NUCLEUS (eVI
+
+                                                                                     Figure 3 Energy spectrum of cosmic-ray particles from a few selected experiments (references
+                                                                                     given on diagram). A second version of the Sydney spectrum is also shown, with energies
+                                                                                     doubled. Shaded bands refer to particular nuclear species or groups. [The Akeno report (52)
+                                                                                     used two alternative energy conversion factors: the data plotted here are interpolated between
+                                                                                     these, guided by a shower modeL]
+                                                                                     ULTRA-HIGH-ENERGY COSMIC RAYS  429
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  three different methods-used at Volcano Ranch, Haverah Park, and
+   by Brown University on 09/07/12. For personal use only.
+                                                                                     Yakutsk-have been shown (17) to agree to within  20% when applied to
+                                                                                     individual showers. (The error may nevertheless turn out to be somewhat
+                                                                                     larger than this.)
+
+                                                                                       The energy spectrum presents the following main features. After J has
+                                                                                     varied as E-Y for many decades, it falls somewhat more steeply above
+
+                                                                                     5 x 1015 eV-the well-known"knee" of the spectrum-and then continues
+                                                                                     smoothly to 1019 eV, beyond which Volcano Ranch, Haverah Park, and
+                                                                                     Sydney (to a lesser extent) find that it falls less rapidly. A hypothesis blessed
+                                                                                     by long tradition is that the more-energetic particles above the knee are
+                                                                                     able to leak out of the Galaxy more rapidly (assuming their sources to be
+                                                                                     within it). Probably, particles with a galactic origin end near 1019 eV (as
+                                                                                     Figure 2 might suggest), and above that a different source is active (most
+                                                                                     plausibly in the nearby supercluster of galaxies). However, the maximum
+                                                                                     energy of cosmic rays is disputed, as a reanalysis of the Yakutsk showers
+                                                                                     [internal report (36) and informal discussions] indicates an end to the
+                                                                                     spectrum near 5 x 1019 eV, beyond which they have no data points in
+                                                                                     Figure 3. The reason for this disagreement with the other three experiments
+                                                                                     is not at present understood. If the Yakutsk results are vindicated, they
+                                                                                     could alter considerably our view of cosmic rays, as they might demonstrate
+                                                                                     the predicted effect of long exposure to interactions with the primeval 2.7 K
+                                                                                     radiation (48,100), expected if particles have traveled> 50 Mpc.
+
+                                                                                     NATURE OF THE PRIMARY PARTICLES The fine detail of nuclear composition
+                                                                                     obtained below 1011 eV is not available at much higher energies. According
+                                                                                     to the "leakage" interpretation of the knee in the spectrum, the spectrum of
+
+                                                                                     each nucleus should exhibit a "knee" at the same magnetic rigidity (i.e. at
+
+                                                                                     Eknee ex; Z). Protons would fall away first, iron nuclei last. Some factor
+
+                                                                                     appears to complicate this picture, however, as only a single step is apparent
+
+                                                                                     in the spectrum; and although many authors claim indirect evidence exists
+                                                                                     that very heavy nuclei predominate in the flux just above 1015 eV, the
+                                                                                     evidence is far from convincing, and such a dominance is not yet evident in
+
+                                                                                     the few top-of-atmosphere observations (21, 88). At 1017_1019 eV, the
+                                                                                     fluctuations in the depth of maximum development of showers indicate that
+                                                                                     there must be an appreciable proportion of protons among the incoming
+                                                                                     particles (24, 97); and the few showers of energies> 1019 eV measured in
+                                                                                     detail look no different from 1018 eV showers. This has an important
+                                                                                     bearing on trajectories (Figure 2) ; and the presence of protons raises severe
+                                                                                     difficulties in acceleration models (Section 3). Charged dust particles have
+                                                                                     been dismissed as possible primaries in this energy range (69), as the depth
+                                                                                     of shower development clearly puts the particle mass «104 amu.
+                                                                                     430  HILLAS
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  2. Observed Anisotropy of High-Energy Cosmic Rays
+   by Brown University on 09/07/12. For personal use only.
+                                                                                     IS THERE REALLY A SIGNIFICANT ANISOTROPY AT HIGH ENERGIES? This
+                                                                                     question is persistently raised by critics. Around 1013 eV, there is a clear but
+                                                                                     very small (0.06%) pattern of intensit variation (see, for example, I)-but is
+                                                                                     this all? Until recently, the statistics at high energies have onlyjustified the
+                                                                                     simplest measure of anisotropy [the first Fourier component (24-hr sidereal
+                                                                                     period) of the intensity variation as the sky passes overhead], and the
+                                                                                     reported amplitude A in many energy ranges has never been far above
+                                                                                     noise. The best test of whether these amplitudes are random noise is to
+                                                                                     compare the phases (time of maximum) reported in various energy ranges
+                                                                                     by Haverah Park (30, 41, 72, 73) and Yakutsk (42), which have both viewed
+                                                                                     the northern sky with good statistics. These are plotted in Figure 4, together
+                                                                                     with data from Chacaltaya (3)-althollgh these have only - 60% overlap in
+                                                                                     the declination range-and from two less recent experiments near 1016 eV
+                                                                                     (29, 34). Apart from a region near 1019 eV where the direction is unclear,
+                                                                                     they do agree: the phases are not random, and there is a real anisotropy.
+
+                                                                                     For E < 1014 eV the phase is '" 1 h; this phase is altered above the knee and
+                                                                                     shows a new pattern above 5 x 1017 eV. Finally, above 1019 eV, there is a
+
+                                                                                     rapid change.
+                                                                                        The magnitude A of the anisotropy provides a crude test of the "leakage"
+
+                                                                                     interpretation of the knee in the spectrum. If sources in the Galaxy produce
+
+                                                                                     Q(E) (oc E - Y, say) cosmic rays of energy E per unit time, and if these move
+                                                                                     around for an average time T(E) before escaping, then the number of
+
+                                                                                                       · HAV. PK. OYAKUTSK ACHAL cHULHAM "CORNELL
+
+                                                                                          6h
+
+                                                                                                  r Nt
+
+                                                                                          => Oh
+
+                                                                                          t 
+
+                                                                                          X
+
+                                                                                          «
+                                                                                          
+
+                                                                                          t LL 18h
+
+                                                                                          0
+
+                                                                                          ttH t UJ
+
+                                                                                          
+
+                                                                                          (I i= 12 h
+
+                                                                                             6h 1017
+                                                                                                  t t I 10181019                                   T
+
+                                                                                                                                                     1020
+
+                                                                                                        ENERGY leV)
+
+                                                                                     Figure 4 Comparison of phases (right ascension of maximum) of first harmonic anisotropy
+                                                                                     reported by different experiments.
+                                                                                     ULTRA-HIGH-ENERGY COSMIC RAYS      431
+
+                                                                                     particles in the Galactic box will be N(E) = Q(E)T(E), and the spectrum
+                                                                                     falls off more if leakage becomes more rapid. If t is the average escape time
+                                                                                     under rectilinear propagation, an observer at a typical position in the box
+                                                                                     would see an anisotropy A = ktlT very roughly: thus A oc liT, and
+
+                                                                                     T(E) = N(E)/Q(E) = EYN(E) oc liA.  2.
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  In Figure 5, the observed values of A (1, 31, 41, 42, 70, 72, 73; with noise
+   by Brown University on 09/07/12. For personal use only.                           subtracted in quadrature, and values corrected for solar motion below
+                                                                                     1015 eV) are plotted inversely and compared with the curve E2.47J(E) (i.e.
+                                                                                     we postulate a production spectrum E-2.47 arbitrarily). Of course, there
+
+                                                                                     may be local eddies in the flow of cosmic rays, and we have plotted only one
+                                                                                     component A of a vector flow, but the observations are at least consistent
+                                                                                     with the model. Even the low-A point at 3 x 1014 eV may be associated
+                                                                                     with a proton "knee" (56). Most remarkably, the model suggests a power­
+                                                                                     law spectrum extending to  1019 eV (if the final decade were considered to
+                                                                                     be extragalactic). For comparison, the source spectrum deduced below
+                                                                                     1011 eV from other data is  E-2.4· If, instead, the knee is due to features
+                                                                                     of the accelerating region, the anisotropy would have to reflect very local,
+                                                                                     rather than glo]:>al, flow patterns.
+
+                                                                                     ARRIVAL DIRECTIONS IN RELATION TO GALACTIC COORDINATES The
+                                                                                     Haverah Park group have found that in the energy range 2 x 1017_1019 eV
+                                                                                     there is an intensity gradient in galactic latitude (5), with a deficit of flux
+                                                                                     from the north; this result has now been fully confirmed at Yakutsk (42). At
+                                                                                     4 x 1018 eV, for example, the gradient is 0.2% per degree of latitude. .
+
+                                                                                              
+                                                                                              :; 0'1
+
+                                                                                                         o
+                                                                                                         ::;)
+                                                                                                         I­
+
+                                                                                                   :::i
+                                                                                                   a..
+                                                                                                   
+                                                                                                   <
+
+                                                                                              £
+                                                                                               10
+
+                                                                                                         I-
+
+                                                                                            
+
+                                                                                                         z
+
+                                                                                                <100
+
+                                                                                     Figure 5 Amplitude of first harmonic as a measure of residence time: variation in A
+                                                                                     compared with variation in flux (cf. Equation 2).
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  432 HILLAS
+   by Brown University on 09/07/12. For personal use only.
+                                                                                        Above 1019 eV, the pattern of arrival directions changes rapidly with
+                                                                                     energy. Haverah Park finds that above  3 x 1019 eV there is a large excess
+                                                                                     of particles from high northern galactic latitudes, and Watson (98)
+                                                                                     considers the most likely explanation for this to be a large contribution
+                                                                                     from the Virgo supercluster. The Sydney group, though, find no
+                                                                                     north/south (N/S) anisotropy above 2 x 1019 eV in the part of the sky they
+                                                                                     see (58), and 8 out of 10 particles above 8 x 1019 eV (doubling their
+                                                                                     quoted energies again) are within 30° of the galactic plane. Krasilnikov et al.
+                                                                                     (63) believe, in fact, that the strong northern excess occurs in a limited
+                                                                                     energy region, and that taken as a whole, the pattern bears a strong
+                                                                                     relationship to galactic features; thus, we must be seeing trajectories in a
+                                                                                     large-scale galactic field. A global view of the sky is needed to decide
+                                                                                     between these viewpoints.
+
+                                                                                     2.3 Specific Identified Sources of Cosmic Rays
+
+                                                                                     A new field is opening up here, with the direct identification of one or two
+                                                                                     specific sources of very energetic particles. Dzikowski et al. at Lodz (39, 40)
+                                                                                     reported an excess of air showers detected from the general direction of the
+                                                                                     Crab Nebula at > 1015 eV (about 103 times the energy ofpreviously known
+                                                                                     gamma-ray sources); however, the Akeno and Haverah Park experiments
+                                                                                     have failed to see such an excess [Hayashida et al. (53) and Lambert et al.
+                                                                                     (68) appear to set a limit a factor of '" 50 lower], although the Fly's Eye
+                                                                                     optical detector may have seen it (15). Thus the present position is unclear.
+                                                                                     However, Samorski & Stamm at Kiel (84) discovered that the X-ray binary
+                                                                                     Cygnus X-3 emits 1016 eV particles, presumably gamma-rays, which are
+                                                                                     detected at one point of the 4.8-hr binary period. This has since been
+                                                                                     confirmed (74): the "pulse" is narrow (duty cycle 2%) and occurs at a phase
+                                                                                     0.25 after the X-ray minimum. Near 1012 eV, pulses have been reported at a
+                                                                                     similar phase (90), and also about 0.4 later. The differential spectrum seems
+                                                                                     to extend as'" E-2 from lower energies but falls off sharply above 1016 eV.
+                                                                                     Presumably a compact object (neutron star? black hole?) accelerates
+                                                                                     electrons or protons to energies above 1016 eV, and the 4.8-hr period is
+                                                                                     attributed either to interactions with the surroundings of a companion (89,
+                                                                                     96) or to precession of a relativistic jet (50). This identified source is of the
+                                                                                     greatest importance and is a challenge to theorists, as it is hard enough to
+                                                                                     see how 1012 eV electrons or photons get out of a pulsar magnetosphere
+                                                                                     (see, for example, 4).
+
+                                                                                     3. ACCELERATION MECHANISMS
+
+                                                                                     Attention focuses here on mechanisms for achieving energies of 1020 eV
+                                                                                     (since this is seen by several observers) or 1019 eV (approximately the end of
+                                                                                     ULTRA-HIGH-ENERGY COSMIC RAYS  433
+
+                                                                                     that part of the spectrum that extends back smoothly to 1015 eV). All the
+                                                                                     proposed acceleration processes are problematical, however, and new ideas
+                                                                                     are needed.
+
+                                                                                     STATISTICAL OR DIRECT ACCELERATION? Figure 1 focused attention on a
+                                                                                     few plausible acceleration sites, but the question remains as to what
+                                                                                     mechanism is at work.
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  1. Particles may gain energy gradually by numerous encounters with
+   by Brown University on 09/07/12. For personal use only.                              regions of changing (moving) magnetic field; such processes are variants
+                                                                                        of Fermi's mechanism (43). Their advantage is that the energy is spread
+                                                                                        over many decades, and in the shock-wave variant (7, 8, 12, 64) the
+                                                                                        spectrum very convincingly emerges as '"E-2· Their disadvantages are
+                                                                                        that they are slow, and that it is hard to keep up with energy losses at the
+                                                                                        highest energies.
+
+                                                                                     2. Particles may be accelerated directly to high energy by an extended
+                                                                                        electric field (e.g. emf arising in rapidly rotating magnetized conductors,
+                                                                                        such as neutron stars or supermassive objects). Such a mechanism has
+                                                                                         the advantage of being fast, but it suffers from the circumstance that the
+                                                                                         acceleration occurs in an environment of very high energy density, where
+                                                                                        new opportunities for energy loss exist. In addition, the complexity of
+                                                                                         such an analysis is daunting: and it is usually not obvious how to get a
+                                                                                        power-law spectrum to emerge.
+
+                                                                                     3.1 Problems Associated with Statistical Acceleration
+
+                                                                                     FERMI ACCELERATION Cavallo (22) has summarized many of these prob­
+                                                                                     lems [though Greisen (47) had raised the basic issues before]. Following the
+                                                                                     same path, we find that the acceptable sites for acceleration are very few
+                                                                                     indeed. The results here largely carry over to the shock acceleration models.
+
+                                                                                        Statistical acceleration is characterized by an effectively continuous gain
+                                                                                     of energy with an acceleration time tA (i.e. dEfdt = EftA) competing with a
+                                                                                     possibility that the particle escapes from the system, with mean escape time
+                                                                                     tEo Particles emerge with an energy spectrum J oc E-Y, where y = 1 +tAitE'
+                                                                                     so we need tA '" tEo Apart from the problem that tA probably rises and tE
+                                                                                     falls with increasing E, energy gain will stop if any steady energy loss sets in
+                                                                                     that cancels the gain. The energy gain may occur by reflection of charged
+                                                                                     particles from distinct magnetized "clouds" moving randomly with velocity
+                                                                                     pc in a very inhomogeneous medium, as in the models of supernova
+                                                                                     remnants proposed by Scott & Chevalier (85) and others; in such a case
+                                                                                     (43), we have tAl = 2C{J2jJ.., where J.. is the particle's mean free path for
+                                                                                     scattering from clouds (assuming the motion approximates to a random
+                                                                                     walk). In a less inhomogeneous medium, particles can be scattered by
+                                                                                     Alfven and similar waves moving with speed "'VA in the plasma, and the
+                                                                                     434  HILLAS
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  acceleration rate (based on 66) is tA1  3e{J2/2A, where {J = vAle. Scattering
+   by Brown University on 09/07/12. For personal use only.                           is now effected by field perturbations of wavelength  2nrL, where rL is the
+                                                                                     Larmor radius of the particle in the overall field B . In somewhat turbulent
+                                                                                     conditions, we may assume .Ie  4-25 rL; i.e. .Ie = 11rL> where (say) 11  10.
+                                                                                     (The rough lower limit to .Ie arises because much of the field energy will lie in
+
+                                                                                     nonresonant long wavelengths.)
+
+                                                                                        In a strong magnetic field of B gauss, synchrotron radiation causes an
+                                                                                     energy loss with a time scale ts = 1.4/E20B2 yr for protons, where E20 is the
+                                                                                     particle energy in 1020 eV units. [The value of ts is increased by a factor of
+                                                                                     (A/Z)4 for a heavy nucleus.] In a weak field, interactions with low-energy
+                                                                                     photons provide a more serious energy loss. As a minimum, there are
+
+                                                                                     always the primeval 2.7 K photons, and for protons the energy loss time
+
+                                                                                     scale tp is ",7 X 108 yr at 1020 eV (with tp falling rapidly as E rises) and
+                                                                                      5 x 109 yr at 1019 eV, although tp will be much reduced near a luminous
+
+                                                                                     source. Figure 6 shows the range of Alfven speeds {Je that are required to
+                                                                                                                                          0
+
+                                                                                     make tA < t,oss so that an energy of 102 or 1019 eV can be reached: the
+                                                                                     shaded regions are excluded by one or the other of the two losses. If the ratio
+
+                                                                                     '1 = .Ie/rL is reduced from 10 to 4, the effect on the boundary of the allowed
+
+                                                                                          103 ""-'-" '1""'---'--02 "
+                                                                                                     AGN? 10
+
+                                                                                                      proton
+
+                                                                                     Figure 6 Combinations of magnetic field strength and velocity of scattering centers that
+                                                                                     allow Fermi acceleration to reach 1020 or 10'9 eV for protons or for iron nuclei. Only the
+                                                                                     unshaded triangular region at the left in each diagram beats synchrotron losses (above the
+                                                                                     upper leg of the triangle) and photoreactions (below the lower leg). Any candidates must also
+                                                                                     lie above the diagonal line appropriate to their radius or diffusive escape will be too rapid.
+
+                                                                                     Positions of galactic clusters (GC), radio galaxy lobes (RGL), radio galaxy hotspots (RGH),
+                                                                                     and the intergalactic medium (IGM) are indicated.
+                                                                                     ULTRA-HIGH-ENERGY COSMIC RAYS  435
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  area is shown by the dashed line in the first diagram. Also, the accelerating
+   by Brown University on 09/07/12. For personal use only.                           region must be large enough to ensure that the escape time tE is not much
+                                                                                     less than tAo The diffusive escape time from a sphere of radius R is
+
+                                                                                              2
+                                                                                     '" 1.5R /eA: this limit is also indicated on Figure 6, although a highly
+                                                                                     organized field could alter tEo Among the candidate sources from Figure 1,
+                                                                                     clusters of galaxies, such as the Virgo or Coma clusters, may have B '" 2
+                                                                                      x 10-6 G (35, 82), vA '" 1000 km s-1 ( "" random motion of the galaxies),
+                                                                                     and R '" 0.5 Mpc. The lobes of very large radio galaxies (and also the local
+                                                                                     radio galaxies, Virgo A and Cen A) are probably little different. Hotspots in
+                                                                                     the very active lobes (such as Cyg A), where B '" 10-4 G, might be the only
+                                                                                     locations that approach our requirements. In the general intergalactic
+                                                                                     medium, one can only guess at conditions, but if VA is a few hundred
+                                                                                     kilometers per second, as in galactic motions, and B '" 3 x 10-8 G (or less),
+                                                                                     then tA » tHubble' For iron nuclei, the losses are smaller, and some of the
+                                                                                     illustrated sources may be large enough to attain energies > 1019 eV.
+                                                                                     Turning to the more compact (high-B) sources of Figure 1, we can see from
+                                                                                     Figure 6 that for any speed of scatterers ( < c), the magnetic field B is < 1 G for
+
+                                                                                        2
+                                                                                     10 0 eV protons (50 G at 1019 eV); thus, this defeats Fermi acceleration at
+                                                                                     accretion disks around active galactic nuclei (proposed in 59), with the
+                                                                                     possible exception of acceleration of iron nuclei (but there are other
+                                                                                     photons around!). Furthermore, if the diffusive escape time tE > itA, then
+                                                                                     this requires that RpcB > 0.5E20/P (times 1]/10), and thus the total magnetic
+                                                                                     energy over a spherical volume is > 3.1054mop-5A-4 (1]/10)4 erg (where A
+                                                                                     refers to heavy nuclei); this is more than 100/P5 times the energy available
+                                                                                     from collapse to a neutron star if E20 = 1.5.
+
+                                                                                     ACCELERATION BY SHOCK WAVES Many readers will be familiar with this
+                                                                                     process, so only a brief introduction is given here. A collisionless shock
+                                                                                     front, propagating at a speed Vs = pc through a plasma carrying a magnetic
+                                                                                     field, can reflect particles with a large gain in energy if the orientation of the
+                                                                                     field is just right; but practically all investigators have concentrated on
+                                                                                     "parallel shocks" (magnetic field parallel to gas flow), in which case the most
+                                                                                     important process for very-high-energy particles is closely related to Fermi
+
+                                                                                     acceleration. Behind the shock, the gas advances with speed V2 = P2C ( = lVs
+
+                                                                                     for a strong shock-very high Vs-if gas pressure dominates), carrying with
+                                                                                     it magnetic irregularities that again act as scattering centers. These
+                                                                                     scatterers advance upon the motionless scattering centers in the unshocked
+                                                                                     gas (this time we neglect their individual motions), and particles crossing
+                                                                                     the shock front encounter oncoming scatterers, on average gaining energy
+                                                                                     4EP2/3 per back-and-forth crossing. As it diffuses around, a particle makes
+                                                                                     on average 1/4(P - P2) cycles of crossing before eventually being left behind
+
+                                                                                                                                                                                     2
+
+                                                                                     by the front (8), and the statistics of crossings yield an energy spectrum E -
+                                                                                     436  HlLLAS
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  for strong shocks (y > 2 as the shock weakens). (For an enthusiastic review,
+   by Brown University on 09/07/12. For personal use only.                           see 6; see also 38,95.) The initial applications of shock-wave theories were
+                                                                                     greeted with enthusiasm, since supernovae certainly produce strong shocks
+                                                                                     that seemed almost inevitably to lead to about the right intensity and
+                                                                                     spectrum of cosmic rays generated in the Galaxy [Krymsky & Petukhov
+                                                                                     (65), Blandford & Ostriker (13)].
+
+                                                                                        There have been doubts, however, about the spectrum generated (e.g.
+                                                                                     46): most seriously, the spectrum generated in this way by supernova
+                                                                                     shocks would terminate much too soon. Lagage & Cesarsky (67) have made
+                                                                                     a detailed study of the limitations imposed by the size and duration of the
+                                                                                     shock and find that the known scattering mechanisms would yield Emax a
+                                                                                     few times 1013 eV for protons, above which the spectrum would fall very
+                                                                                     steeply. They find, too, that an ensemble of shocks does not extend this limit
+                                                                                     much. How do shocks improve on normal Fermi acceleration in other
+                                                                                     sites? Clearly f3 is greater (vs> VA), and for various reasons (8, 38)
+                                                                                     turbulence should ensure a short 2, but that is all. [Axford (6) suggested that
+                                                                                     shocks might speed up on entering the galactic halo, but this is unlikely to
+                                                                                     be so (67).] Lagage & Cesarsky find an effective acceleration rate of
+                                                                                     tAl = cfJ2/()'1 +422)  cfJ2/221' where A.1, A.2 refer to upstream and down­
+                                                                                     stream scattering mean free paths-this is very similar in form to Fermi
+
+                                                                                     acceleration, except that fJ has to be fi times as large for the same effect, so
+
+                                                                                     virtually the same diagram as Figure 6 applies in this case too. Shock waves
+                                                                                     do not rescue the galactic cluster site from the effect of energy losses, since Vs
+                                                                                     < 3000 km s - 1 for bow shocks of galaxies; nor, by a larger margin, does the
+                                                                                     intergalactic medium in general appear to be a possible location for the origin
+                                                                                     of these high-energy particles. The diffusive motion needs a very large space L
+                                                                                     on either side of the shock: L  AIfJ, a value of, say, 300 mean free paths or
+                                                                                     »300rL. (If Vs = 1000 km s -1, a particle makes 4 x 105 scatterings in gaining
+                                                                                     one decade of energy: is this really the most efficient process?)
+
+                                                                                        From Figure 6, it appears that acceleration should be far easier if Vs  c,
+                                                                                     and although this would give a notably flatter spectrum (77), the effect has not
+                                                                                     been fully explored. The fast-moving "knots" in radio galaxies may be
+                                                                                     unusually effective shock waves (87) if they are large enough. But the radio
+                                                                                     galaxies in our vicinity are not so active. So, iron nuclei might possibly be
+                                                                                     accelerated to 1019 eV, but not protons.
+
+                                                                                     3.2 Direct Acceleration
+
+                                                                                     ELECTRICAL GENERATORS We now consider the high-B candidate sources of
+                                                                                     Figure 1. If a rotating neutron star has a surface field  1012 G, a radius
+                                                                                     r  10 km, and a rotational frequency w/2n  30 s-1 (like the Crab pulsar),
+                                                                                     a circuit connected between pole and equator would see an emf'" wBr2/c
+                                                                                     (cgs units)  10 18 V for an aligned or oblique dipole. If we assume, as is
+                                                                                     ULTRA-HIGH-ENERGY COSMIC RAYS  437
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  customary, that the part of the magnetosphere corotating within the light
+   by Brown University on 09/07/12. For personal use only.                           cylinder will fill with conducting plasma maintaining E· B = 0 [although this
+                                                                                     has been questioned(2, 76)], the emf measured now from pole to the last open
+                                                                                     field line is reduced by the factor rw/c. (Note that E refers to electric field, E to
+                                                                                     particle energy.) Just where the main potential drop occurs in the external
+
+                                                                                     space, which contains current sources (pair production), is still unclear
+                                                                                     (4). This position affects acceleration of whatever nuclei are around, since
+
+                                                                                     the radiative energy loss -dE/dx = 2y4Z2e2/3Rl; (cgs) has to be over­
+
+                                                                                     come, where the particle of charge Ze and Lorentz factor y follows a path
+                                                                                     of radius Re. Berezinsky (10) suggests that the electrical potential
+                                                                                     V = BW2r3/4c2 becomes available for acceleration at a distance R very far
+                                                                                     from the pulsar, perhaps near the light cylinder, so that Re may be large
+                                                                                     ( '"R); the Crab pulsar could then accelerate iron nuclei to 1018 eV (protons
+                                                                                     to 5 x 1016 eV). His expression varies weakly with w. This model for a
+                                                                                     cosmic-ray source would imply that the most energetic nuclei were highly
+                                                                                     charged, unless there is a mechanism by which the paths could be even less
+                                                                                     curved by the field. Ferrari & Trussoni (43a) found that even the unrealistic
+                                                                                     vacuum fields around an oblique rotating dipole (emf'" 1020 V) resulted in
+                                                                                     virtually the same maximum energies as quoted above. Although it is not
+                                                                                     obvious that a power-law spectrum is likely, it may just possibly result from
+
+                                                                                     pulsar evolution. (According to observation, pulsars do generate electrons
+
+                                                                                     with power-law spectra.).It is very challenging to see that Cygnus X-3
+                                                                                     accelerates particles to at least 1016 eV: if these are electrons, protons might
+                                                                                     reach a higher energy.
+
+                                                                                        Lovelace (75) offered as another unipolar inductor the rotating accretion
+                                                                                     disk around a 108 M0 black hole in the center of a radio galaxy; such a disk
+                                                                                     could draw in magnetic flux with the gas to give a magnetic field B '" 104 G
+                                                                                     parallel to the rotation axis, generate 1019 V, and might fire out a beam of
+                                                                                     protons axially (if B . (J) < 0). More recently, Rees et al. (81) have proposed
+                                                                                     that in a galactic nucleus, a 108 M0 black hole may be spun up to near­
+                                                                                     maximum permissible angular momentum by accretion, after which
+                                                                                     rotational energy up to 0.29Mc2 may in principle be extracted by
+                                                                                     electrodynamic torques [Blandford & Znajek (14); see also 79]. They
+                                                                                     consider a magnetic field B", 104 G entering the hole's horizon: an emf
+                                                                                     V= 1019(B/104G)(MH,1l08M0)2 volt is then available at maximum angular
+                                                                                     momentum (79). These later papers, however, do not suggest that 1019 eV
+                                                                                     protons will automatically be produced, for although efficient power
+                                                                                     extraction may be possible (79), there will be a dense positron-electron
+                                                                                     plasma generated by thermal gamma rays that will modify the electric field
+
+                                                                                     and also interact with very energetic protons. An important question again
+                                                                                     is, How far away does the main potential drop occur? Colgate(26) made a
+                                                                                     crude estimate of energy losses due to known photon fluxes from active
+                                                                                     438  HILLAS
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  galactic nuclear regions, and even in Cen A (luminosity 10-3 of Colgate's
+   by Brown University on 09/07/12. For personal use only.
+                                                                                     example), after correcting for a numerical error, the energy loss time scale is
+                                                                                     «1 yr over a wide energy range; thus the electric fields would have to occur
+
+                                                                                     well away from the nucleus, where there were fewer photons. Otherwise,
+
+                                                                                     acceleration would be defeated above  1016 eV. But the environment of a
+
+                                                                                     galactic nucleus is likely to be more complex than imagined, and G. Lake &
+                                                                                     R. E. PUdritz (preprint) argue that its huge inductance makes the electric
+
+                                                                                     circuit outside the spinning nucleus unstable, with disruption of currents
+                                                                                     inducing large transient fields. They suggest that this should show up in
+                                                                                     unsteady production of high-energy gamma rays (and neutrinos?).
+
+                                                                                       Potentials of 1021 V appear also in Fischhoff's electrostatic cosmology
+
+                                                                                     (44); but interactions with photons over 109 yr remain a problem.
+
+                                                                                     MORE ABOUT PULSARS Gunn & Ostriker's proposal (51) that protons and
+                                                                                     nuclei could reach 1021 eV by riding in the outgoing strong wave field
+
+                                                                                     beyond the light cylinder of a pulsar has not been seriously considered since
+                                                                                     it was noted (61) that even a small contamination of plasma in the waves
+
+                                                                                     would destroy the necessary phase locking. However, few other schemes
+
+                                                                                     could produce the whole range of cosmic-ray energies in the same source,
+                                                                                     and any modification that made this process available again would have
+                                                                                     great attractions. Pulsar remnant disks might offer another way to subvert
+                                                                                     unproductive magnetospheres and regain very high voltages (76).
+
+                                                                                     HYDRODYNAMIC SHOCKS The value of Emax seems much too small in
+                                                                                     Colgate & Johnson's scheme (27), where a shock wave emanating from the
+                                                                                     core of a collapsing supernova eventually attains ultrarelativistic speed in
+                                                                                     the steep density gradient of the stellar atmosphere, accelerating a small
+                                                                                     fraction of the local matter to cosmic-ray energies directly in the radiation­
+                                                                                     dominated shock. Colgate (25) has defended this scheme against arguments
+
+                                                                                                                                                          '
+                                                                                     questioning whether the shock can form (see 86), but he still needs to find a
+
+                                                                                     way to propagate the shock beyond the point where E '" 3 X 1014 eV per
+
+                                                                                     nucleon. In addition, evidence indicates that the relativistic particles in
+                                                                                     supernovae largely gain their energy after the initial outburst (e.g. 23,
+                                                                                     85).
+
+                                                                                     3.3 Final Comments
+
+                                                                                     None of the schemes discussed above has really exploited first-order Fermi
+                                                                                     acceleration, which might be much faster than the other statistical
+                                                                                     processes. In a sense, shock waves involve first-order acceleration at the
+                                                                                     front itself, but almost all the scattering merely produces diffusion within
+                                                                                     the gas: one would like to find approaching mirrors with a higher reflection
+                                                                                     coefficient! M. E. Pesses (private communication) suggests that oblique
+                                                                                     shocks may play an important role.
+                                                                                     ULTRA-HIGH-ENERGY COSMIC RAYS  439
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  4. PROPAGATION OF COSMIC RAYS
+   by Brown University on 09/07/12. For personal use only.
+                                                                                     Great uncertainties about the configuration of the magnetic field both in
+                                                                                     the outer regions of our Galaxy and in metagalactic space have discouraged
+                                                                                     attempts to interpret the arrival directions in detail. The improved body of
+                                                                                     cosmic-ray data may now encourage further analysis. Since the present
+                                                                                     situation cannot be described profitably in the short space available, only
+                                                                                     the barest indication of some recent work is given here.
+
+                                                                                     4.1 Propagation from Extragalactic Sources
+
+                                                                                     LOSSES DUE TO PHOTOREACTIONS Soon after Greisen (48) and Zatsepin &
+                                                                                     Kuzmin (100) poirited out the serious energy losses that protons must suffer
+                                                                                     as a result of interactions with the 2.7 K primeval radiation, and the
+                                                                                     consequent depletion of the flux expected above 4 x 1019 eV, it was
+                                                                                     generally accepted that 1020 eV particles cannot collie from sources
+                                                                                     distributed uniformly throughout the Universe. Instead, the Local super­
+                                                                                     cluster (at 15-20 Mpc) must make a disproportionately strong contribution
+                                                                                     to any extragalactic component (99), regardless of whether protons or
+                                                                                     mixed nuclei made up the flux (55, 80, 91, 94). Even tlien, the flux would have
+                                                                                     to drop off a little above 1020 eV. We may indeed live near a local density
+                                                                                     node in a cellular pattern of voids in the Universe (101). If photon
+                                                                                     interactions have not resulted in flux losses, neither should they have
+                                                                                     removed very heavy nuclei from the flux; and since most potential sources
+                                                                                     are likely to contain synthesized elements, we do not expect just a proton
+                                                                                     flux. However, if the revised Yakutsk spectrum eventually prevails, the
+                                                                                     whole question may be reopened.
+
+                                                                                     MOTION OF THE PARTICLES As mentioned above, the (by no means
+                                                                                     exclusive) tendency of particles above 3 x 1019 eV to arrive from high
+                                                                                     northern galactic latitudes also drew attention to the Virgo supercluster
+                                                                                     region. Giler et al. (45) have proposed modeling the motion through
+                                                                                     intergalactic space with a diffusion, the coefficient D rising with E. Then a
+                                                                                     rising anisotropy above 1019 eV could be expected, while D might be too
+                                                                                     small to allow space to fill with old particles from farther off. At a distance r
+                                                                                     from a source, the anisotropy amplitude is A  Air, so if A '" 0.6 at
+                                                                                      6 x 1019 eV, the mean free path is A  10 Mpc if Virgo dominates the
+                                                                                     flux. The spectrum can flatten somewhat in the 1019 eV region in such
+                                                                                     models, but this depends on an interplay of several factors.
+
+                                                                                     4.2 Propagation from Galactic Sources
+
+                                                                                     What if the sources lie within the Galaxy? Are the observed cosmic rays too
+                                                                                     isotropic for this? Kiraly et al. (62) found that for energies up to 1017 eV, the
+                                                                                     440  HILLAS
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  anisotropy was consistent with galactic sources; and a measurement at
+   by Brown University on 09/07/12. For personal use only.                           1017 eV that worried them has since been retracted (28). Figure 5 is certainly
+                                                                                     favorable. Such an origin for the cosmic rays requires a galactic halo
+                                                                                     extending many kiloparsecs (Figure 2), but an ordered field of '" 2 /lG
+                                                                                     extending beyond 10 kpc is quite compatible with radio observations (33,
+                                                                                     78), as B2 must fall off more slowly than synchrotron emission. An ordered
+                                                                                     field confined to the disk, however, would guide a large concentration of
+                                                                                     cosmic rays above 1017 eV into directions along the galactic magnetic field
+                                                                                     lines (60, 92), contrary to observation; but Berezinsky & Mikhailov (11)
+                                                                                     find that a small B component normal to the disk destroys this pattern.
+                                                                                     They also find that the observed magnitude of the anisotropy is very
+                                                                                     reasonable for particles originating in the Galaxy (up to 1019 eV), even
+                                                                                     without the requirement of a very extensive halo. The striking tendency
+                                                                                     toward a southern excess below 1019 eV has been interpreted (56) as
+                                                                                     indicating a local density gradient of cosmic rays in this energy range
+                                                                                     ( '" 15% kpc-1) increasing toward the Orion region. (Alternatively, we may
+                                                                                     live in a hole in the magnetic field, asymmetrically situated north of the
+                                                                                     central plane of the Galaxy.) Indeed, these energy-dependent anisotropies
+                                                                                     indicative of density variations on a kiloparsec scale are much more
+                                                                                     favorable to a galactic origin.
+
+                                                                                     5. CONCLUSIONS
+
+                                                                                     Where do cosmic rays originate?
+                                                                                        Are they all extragalactic? Burbidge (18, 19) has pointed out the
+
+                                                                                     possibilities of such schemes. At low energies we really only have weak
+                                                                                     gamma-ray eviqence against an extragalactic origin (83), and an earlier
+                                                                                     conclusion that cosmic-ray protons were less numerous in the outer parts of
+                                                                                     the Galaxy has now been overturned by observations from COS-B (54).
+                                                                                     There is, however, a consistent galactic picture, and near 1018 eV the 10-
+                                                                                     20% NjS asymmetries just alluded to speak against a very distant origin.
+
+                                                                                       Are they all Galactie? This would seem possible only if (a) further
+
+                                                                                     evidence at 1019 eV and above becomes consistent with a composition that
+
+                                                                                     is principally carbon and heavier, and (b) there is the necessary very large
+
+                                                                                     halo with ordered fields> l/lG. (One might use the COS-B result to argue
+                                                                                     for the existence of a very large halo.) The irregular shape of the spectrum
+                                                                                     near 1019 eV-which is not really just a different slope-would probably
+                                                                                     then relate to large-scale looping of trajectories. The directions of the most
+                                                                                     energetic Sydney showers favor such an interpretation. A direct mode of
+                                                                                     acceleration by pulsars would probably be called for.
+
+                                                                                        Do extragalactic particles take over for energies larger than 1019 eV?
+                                                                                     This is at present the most likely hypothesis [supported also in an earlier
+                                                                                     ULTRA-HIGH-ENERGY COSMIC RAYS                     441
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  review by Berezinsky (9)], being more probable than the previous one
+   by Brown University on 09/07/12. For personal use only.                           because of Haverah Park's directions and the fluctuation measurements
+                                                                                     (though at somewhat lower energy) that favor protons as a large
+                                                                                     component. However, Virgo is not a particularly impressive source region.
+
+                                                                                        Present Galactic acceleration models have difficulty in getting particles
+                                                                                     beyond 1015 eV, but Cygnus X-3 illustrates the shortcomings of such
+                                                                                     models (and this source points to the importance of direct rather than
+                                                                                     statistical acceleration). Do the principal (supernova?) accelerators really
+
+                                                                                     give out immediately above the knee of the spectrum, beyond which (  3
+                                                                                      X 1016 eV) a new proton-rich flux takes over, as is strongly advocated by
+                                                                                     some workers (e.g. 71, 93)? Most remarkably, experiments do not show a
+                                                                                     departure from a smooth spectrum here (there must be a very neat join !),
+
+                                                                                     and the smoothness of the spectrum from 1016 eV to near 1019 eV presents a
+                                                                                     great challenge to those who build accelerators in the sky. At any rate, this
+
+                                                                                     part of the spectrum cannot be a "universal" flux: this would be highly
+                                                                                     isotropic. The smooth one-bend spectrum and the clear anisotropies below
+                                                                                     1019 eV are particularly interesting aspects of the present data.
+
+                                                                                        When the methods of deducing composition near 1015 eV have been
+                                                                                     made consistent, we may be able to reduce the number of possibilities
+                                                                                     considerably. Meanwhile, it is very tantalizing that although progress in
+
+                                                                                     extending the upper limit of the spectrum has been very slow, it has shown
+                                                                                     that a global mapping of the sky just beyond the energy range now studied
+                                                                                     could make the Galactic versus Virgo choice clear.
+
+                                                                                     ACKNOWLEDGEMENTS
+
+                                                                                     While preparing this review, I have particularly benefited from discussions
+                                                                                     with F. D. Kahn, 1. Linsley, and especially A. A. Watson.
+
+                                                                                     Literature Cited                                        1981. Proc. Int. Con! Cosmic Rays,
+                                                                                                                                            17th, Paris 2: 156-59
+                                                                                        1. Alexeenko, V. V., Chudakov, A. E.,           6. Axford, W. I. 1981. Proc. Int. Con!
+                                                                                                                                             Cosmic Rays, 17th, Paris 12:155-203
+                                                                                           Gulieva, E. N., Sborshikov, V. G. 1981.
+                                                                                                                                        7. Axford, W. I., Leer, E., Skadron, G.
+                                                                                              Proc. Int. Corif'. Cosmic Rays, 1 7th.
+                                                                                             Paris 2: 146-49                                 1977. Proc. Int. Con! Cosmic Rays,
+                                                                                        2. Alfven, H. 1978. Astrophys. Space Sci.            1 5th, Plovdiv 11: 132-37
+                                                                                              54: 279-92                                8. Bell, A. R. 1978. MNRAS 182: 147-56
+                                                                                        3. Anda, R., Aguirre, c., Tachi, K., Kaki­      9. Berezinsky, V. S. 1977. Proc. Int. Con!
+                                                                                            moto, F., Inoue, N., et a\. 1981. Proc.          Cosmic Rays, 15th, Plovdiv 10: 84-107
+                                                                                              Int. Corif'. Cosmic Rays, 1 7 th, Paris  10. Berezinsky, V. S. 1983. Proc. Int. Con!
+                                                                                              2: 164-67                                      Cosmic Rays, 18th, Bangalore 2:275-
+                                                                                        4. Arons, J. 1981. In Origin of Cosmic               78
+                                                                                                                                       11. Berezinsky, V. S., Mikhailov, A. A.
+                                                                                           Rays, ed. G. Setti, G. Spada, A. W.               1983. Proc. Int. Con! Cosmic Rays,
+                                                                                                                                             18th, Bangalore 2: 174-77
+                                                                                             Wolfendale, pp. 175-204. Dordrecht:
+                                                                                             Reidel
+
+                                                                                       5. Astley, S. M., Cunningham, G., Lloyd­
+
+                                                                                             Evans, J., Reid, R. J. 0., Watson, A. A.
+                                                                                     442  HILLAS
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  12. Blandford, R. D., Ostriker, J. P. 1978.             Nikolsky, S. I., et al. 1977. Proc. Int.
+   by Brown University on 09/07/12. For personal use only.                                  Ap.J. Lett. 221:L29-32                            Conf Cosmic Rays, 1 5th, Plovdiv 8:
+
+                                                                                     13. Blandford, R. D., Ostriker, J. P. 198.0.            129-32
+                                                                                            Ap.J. 237:793-808
+                                                                                                                                       33. de Bruyn, A. G., Hummel, E. 1979.
+                                                                                     14. Blandford, R. D., Znajek, R. L. 1977.               Astron. Astrophys. 73:196-201
+
+                                                                                            MNRAS 179:433-56                           34. Delvaille, J. 1962. PhD thesis. Cornell
+                                                                                     IS. Boone, 1., Cady, R., Cassiday, G. L.,                Univ., Ithaca, N.V.
+
+                                                                                           Elbert, J. W., Loh, E. c., et al. 1983.     35. Dennison, B. 1980. Ap. J. Lett. 239:
+                                                                                            Proc. Cosmic Ray Workshop, Univ.
+                                                                                            Utah, ed. T. K. Gaisser, pp. 268-88.              L93-96
+                                                                                            Newark, Del: Bartol Res. Found.            36. Diminstein, O. S., Efimov, N. N.,
+                                                                                     16. Bower, A. J., Cunningham, G., England,
+                                                                                           C. D., Lloyd-Evans, J., Reid, R. J. 0., et         Pravdin, M. I. 1982. Bull. Naushno­
+                                                                                            al. 1981. Proc. Int. Conf Cosmic Rays,            Tech.lnf Yakutsk 9:537-91
+                                                                                            1 7th, Paris 9:166-69
+                                                                                                                                       37. Diminstein, O. S., Efimov, N. N.,
+                                                                                     17. Bower, A. J., Cunningham, G., Linsley,               Efremov, N. N., Glushkov, A. V.,
+                                                                                           J., Reid, R. J. 0., Watson, A. A. 1983.J.         Kaganov, L. I., et al. 1983. Proc. Int.
+                                                                                            Phys. G 9:L53-58                                  Conf Cosmic Rays, 1 8th, Bangalore
+                                                                                                                                              6: 118-21
+                                                                                     18. Brecher, K., Burbidge, G. R. 1972. Ap.J.
+                                                                                            174:253-91                                 38. Drury, L. O'c. 1983. Rep. Prog. Phys.
+                                                                                                                                              46: 973-1027
+                                                                                     19. Burbidge, G. R. 1975. In Origin of
+                                                                                            Cosmic Rays, ed. J. W. Osborne, A. W.      39. Dzikowski, T., Gawin, J., Grochalska,
+                                                                                            Wolfendale, pp. 25-36. Dordrecht:                 B., Wdowczyk, J. 1981. Philos. Trans. R .
+
+                                                                                            Reidel                                            Soc. London Ser. A 301: 641-43
+                                                                                     20. Burnett, T. H., et al. (the JACEE col­        40. Dzikowski, T., Gawin, J., Grochalska,
+
+                                                                                            laboration). 1982. Workshop Very High             B., Korejwo, J., Wdowczyk, J. 1983.
+                                                                                                                                              Proc. Int. Con! Cosmic Rays, 18th,
+                                                                                            Energy Cosmic Ray Interact., Univ. Pa.,           Bangalore 2: 132-35
+                                                                                           Philadelphia, ed. M. L. Cherry, K.          41. Edge, D. M., Pollock, A. M. T., Reid, R.
+                                                                                           Lande, R. I. Steinberg, pp. 221-38                J. 0., Watson, A. A., Wilson, J. G. 1978.
+                                                                                     21. Burnett, T. H., et al. (the JACEE col­              J. Phys. G 4: 133-57
+                                                                                            laboration). 1983. Proc. Int. Conf         42. Efimov, N. N., Mikhailov, A. A.,
+                                                                                            Cosmic Rays, 1 8th, Bangalore 2: 105              Pravdin, M. I. 1983. Proc. Int. Conf
+                                                                                     22. Cavallo, G. 1978. Astron. Astrophys.                 Cosmic Rays, 1 8th, Bangalore 2: 149-52
+                                                                                            65:415-19                                  43. Fermi, E. 1949. Phys. Rev. 75: 1169-74
+                                                                                     23. Cavallo, G. 1982. Astron. Astrophys.          43a. Ferrari, A., Trussoni, E. 1974. Astron.
+                                                                                            111 :368-70                                      Astrophys. 36: 267-72
+                                                                                     24. Chantler, M. P., Craig, M. A. B.,             44. FischholT, E. 1981. Proc. Int. Con!
+                                                                                           McComb, T. J. L., Orford, K. J., Turver,           Cosmic Rays, 1 7th, Paris 9: 254-57
+                                                                                           K. E. 1983. J. Phys. G 9: L27-31            45. Giler, M., Wdowczyk, J., Wolfendale,
+                                                                                     25. Colgate, S. A. 1975. In Origin ofCosmic              A. W. 1980.J. Phys. G 6: 1561-73
+                                                                                            Rays, ed. J. W. Osborne, A. W.             46. Ginzburg, V. L., Ptuskin, V. S. 1981.
+
+                                                                                            Wolfendale, pp. 425-66. Dordrecht:                Proc. Int. Conf Cosmic Rays, 1 7th,
+                                                                                                                                             Paris 2: 336-39
+                                                                                            Reidel                                     47. Greisen, K. 1966. Proc. Int. Conf
+                                                                                     26. Colgate, S. A. 1983. Proc. Int. Conf                 Cosmic Rays, 9th, London 2:609-15
+                                                                                                                                       48. Greisen, K. 1966. Phys. Rev. Lett.
+                                                                                            Cosmic Rays, 1 8th, Bangalore 2: 230--33          16:748-50
+                                                                                     27. Colgate, S. A., Johnson, M. H. 1960.          49. Grigorov, N. L., Gubin, Yu. V., Rapo­
+                                                                                                                                              port, I. D., Savenko, I. A., Yakovlev,
+                                                                                           Phys. Rev. Lett. 5: 235-38                         B. N., et al. 1971. Proc. Int. Coni
+                                                                                     28. Coy, R. N., Lloyd-Evans, J., Patel, M.,              Cosmic Rays, 1 2th, Hobart 5: 1746-
+                                                                                                                                              59
+                                                                                           Reid, R. J. 0., Watson, A. A. 1981. Proc.   50. Grindlay, J. E. 1982. Proc. Int. Work­
+                                                                                            Int. Conf Cosmic Rays, 1 7th, Paris               shop Very High Energy Gamma Ray
+                                                                                            9: 183-86                                        Astron., Ootacamund, ed. G. T. Ramana
+                                                                                     29. Cranshaw, T. E., Galbraith, W. 1957.                 Murthy, T. C. Weekes, p. 178. Bombay:
+                                                                                            Philos. Mag. 2:804--10                            Tata Inst.
+                                                                                     30. Cunningham, G., L1oyd-Evans, J., Reid,        51. Gunn, J. E., Ostrikcr, J. P. 1969. Phys.
+                                                                                           R. J. 0., Watson, A. A. 1983. Proc. Int.           Rev. Lett. 22: 728-31
+                                                                                            Conf Cosmic Rays, 1 8th, Bangalore         52. Hara, T., Hayashida, N., Honda, M.,
+                                                                                                                                              Ishikawa, F., Kamata, K., et al. 1984.
+                                                                                            2: 157-60                                         Proc. Int. Conf Cosmic Rays, 1 8th,
+                                                                                     31. Cutler, D. J., Bergeson, H. E., Davis, J.            Bangalore, 1983, Pap. OG4-16. In press
+
+                                                                                            F., Groom, D. E. 1981. Ap. J. 248:
+                                                                                            1166-78
+
+                                                                                     32. Danilova, T. V., Kabanova, N. V.,
+                                                                                            Nesterova, N. M., Nikolskaya, N. M.,
+                                                                                     ULTRA-HIGH-ENERGY COSMIC RAYS                        443
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org  , 53. Hayashida, N., Ishikawa, F., Kamata,                 Watson, A. A. 1979. Proc. Int. Corif.
+   by Brown University on 09/07/12. For personal use only.                                    K., Kifune, T., Nagano, M ., Tan, Y. H .
+                                                                                              1981. Proc. into Con! Cosmic Rays,                Cosmic Rays, 1 6th, Kyoto 1 3 : 1 30-33
+                                                                                              1 7th, Paris 9 : 9-12                       74. Lloyd-Evans, J., Coy, R. N., Lambert,
+
+                                                                                       54. Hermsen, W. 1984. COSPAR/IAU                         A., Lapikens, 1., Patel, M., et al. 1983.
+                                                                                              Symp. High Energy Astrophys. Cosmol.,              Nature 305 : 784-87
+                                                                                             Pamporovo, ROjen, 1 983, ed. G. F.
+                                                                                              Bignami. Dordrecht : Reidel. In press       75. Lovelace, R. V. E. 1976. Nature 262 :
+                                                                                                                                                 649-52
+                                                                                       55. Hillas, A. M. 1975. Proc. Int. Con!
+                                                                                              Cosmic Rays, 14th, Munich 2 : 7 1 7-22      76. Michel, F. C., Dessler, A. J. 198 1 . Proc.
+
+                                                                                       56. Hillas, A. M. 1983. In Composition and                Int. Con! Cosmic Rays, 1 7th, Paris
+                                                                                                                                                 2 : 340-43
+                                                                                              Origin of Cosmic Rays, ed. M. M .           77. Peacock, J. A. 1 98 1 . MNRAS 196 : 135-
+                                                                                              Shapiro, pp. 125-48. Dordrecht : Reidel
+                                                                                                                                                 52
+                                                                                       57. Horton, L., McCusker, C. B. A., Peak,          78. Phillipps, S., Kearsey, S., Osborne, J. L.,
+                                                                                             L. S., Ulrichs, 1., Winn, M. M. 1983.
+                                                                                              Proc. Int. Con! Cosmic Rays, 18th,                Haslam, C. G. T., Stoffel, H . 1 98 1 .
+                                                                                              Bangalore 2: 128-30                                Astron. Astrophys. 103 : 405-1 4
+
+                                                                                      58. Horton, L., McCusker, C. B. A., Peak,           79. Phinney, E. S. 1984. Proc. Torino Work­
+                                                                                                                                                 shop Astrophys. Jets, 1 982. Dordrecht :
+                                                                                             L. S., Ulrichs, 1., Winn, M. M. 1983.
+                                                                                               Proc. Int. Con! Cosmic Rays, 18th,                Reidel. In press
+                                                                                               Bangalore 2: 1 53-56                       80. Puget, 1. L., Stecker, F. W., Bredekamp,
+                                                                                        59. Kafatos, M., Shapiro, M. M., Silber­
+                                                                                               berg, R. 1981. Comments Astrophys.                J. H. 1976. Ap. J. 205 : 638-54
+                                                                                               9: 179-98                                  81. Rees, M. J., Begelman, M. C.,
+                                                                                        60. Karakula, S., Osborne, J. L., Roberts,
+                                                                                              E., Tkaczyk, W. 1972. J. Phys. A 5 : 904-          Blandford, R. D., Phinney, E. S. 1982.
+                                                                                               15                                                Nature 295 : 17-21
+                                                                                        6 1 . Kegel, W . H. 1 9 7 1 . Astron. Astrophys.  82. Roland, J. 1 9 8 1 . Astron. Astrophys. 93 :
+                                                                                               1 2 : 452-55                                      407-10
+                                                                                        62. Kiraly, P., Kota, J., Osborne, J. L.,         83. Said, S. S., Wolfendale, A. W., Giler, M.,
+                                                                                              Stapley, N. R., Wolfendale, A. W. 1979.            Wdowczyk, J. 1982. J. Phys. G 8 : 383-
+                                                                                               Riv. Nuovo Cimento (Ser. 3) 2(7): 1-46            91
+                                                                                        63. Krasilnikov, D. D., Ivanov, A. A.,            84. Samorski, M., Stamm, W. 1983. Ap. J.
+                                                                                               Kolosov, V. A., Krasilnikov, A. D.,               Lett. 268: L 1 7-21
+                                                                                               Makarov, K. N., et al. 1983. Proc. Int.    85. Scott, 1. S., Chevalier, R. A. 1975. Ap. J.
+                                                                                                                                                 Lett. 197 : L5-8
+                                                                                               Con! Cosmic Rays, 18th, Bangalore          86. Shapiro, P. R. 1979. In Particle
+                                                                                               2 : 145-48                                        Acceleration Mechanisms in Astrophys,
+                                                                                       64. Krymsky, G. F. 1977. Dokl. Akad.
+                                                                                               Nauk. SSSR 234: 1 306-8                           ed. J. Arons, C. McKee, C. Max, pp.
+                                                                                        65. Krymsky, G. F., Petukhov, S. I. 1979.               295-3 18. New York : Am. Inst. Phys.
+                                                                                               Bull. Acad. Sci. USSR, Phys. Ser. (Engl.   87. Smith, M. D., Norman, C. A. 1 980.
+                                                                                               Transl.) 43 : 14--16                              Astron. Astrophys. 8 1 : 282-87
+                                                                                       6 6 . Kulsrud, R . M . 1979. In Particle Ac­
+                                                                                               celeration Mechanisms in Astrophysics,     88. Sood, R. K. 1983. Nature 301 : 44-46
+                                                                                                                                          89. Stepanian, A. A. 1981. Proc. Int. Con!
+                                                                                           ed. J. Arons, C. McKee, C. Max, pp.
+                                                                                                                                                 Cosmic Rays, 1 7th, Paris 1 : 50-53
+                                                                                               1 3-25. New York : Am. Inst. Phys.         90. Stepanian, A. A. 1982. Proc. Int.
+                                                                                       67. Lagage, P. O., Cesarsky, c. 1. 1983.
+                                                                                                                                                 Workshop Very High Energy Gamma
+                                                                                               Astron. Astrophys. 125 : 249-57                  Ray Astron., Ootacamund, ed. G. T.
+                                                                                       68. Lambert, A., Lloyd-Evans, J., Watson,                Ramana Murthy, T. C. Weekes, pp. 43-
+                                                                                                                                                 63. Bombay : Tata Inst.
+                                                                                               A. A. 1984. Proc. Int. Con! Cosmic Rays,   9 1 . Strong, A. W., Wdowczyk, 1., Wolfen­
+                                                                                               18th, Bangalore, 1 983, Pap. OG4--28. In         dale, A. W. 1974. J. Phys. A 7 : 1 489-
+                                                                                               press                                             96
+                                                                                        69. Linsley, J. 1 9 8 1 . Proc. Int. Con! Cosmic  92. Thielheim, K. 0., Langhoff, W. 1968. J.
+                                                                                               Rays, 1 7th, Paris 2 : 141-44                     Phys. A I : 694-7- 03
+                                                                                        70. Linsley, J., Watson, A. A. 1977. Proc.        93. Thornton, G., Clay, R. W. 1979. Phys.
+                                                                                               Int. Con! Cosmic Rays, 15th, Plovdiv              Rev. Lett. 43: 1 622-25
+                                                                                               1 2 : 203-8                                94. Tkaczyk, W., Wdowczyk, J., Wolfen­
+                                                                                       7 1 . Linsley, 1., Watson, A. A. 1981. Phys.              dale, A. W. 1975. J. Phys. A 8 : 1 5 1 8-
+                                                                                               Rev. Lett. 46: 459-63                             29
+                                                                                       72. Lloyd-Evans, J. 1982. PhD thesis. Univ.        95. Toptyghin, I. N. 1980. Space Sci. Rev.
+                                                                                               Leeds, Engl.                                      26: 1 57-2 1 3
+                                                                                                                                          96. Vestrand, W. T., Eichler, D. 1 982. A p . J.
+                                                                                        73. Lloyd-Evans, J., Pollock, A. M. T.,                  261 : 251-58
+
+                                                                                                                                          97. Walker, R., Watson, A. A. 1982. J. Phys.
+                                                                                                                                                 G 8: 1 1 3 1-40
+                                                                                     444  HILLAS
+
+                                                                                     98. Watson, A. A. 1 9 8 1 . Cosmology and       100.  Zatsepin, G. T., Kuzmin, V. A. 1 966.
+                                                                                           Particles: 16th Rencontre de Moriond,     101.  Sov. Phys. JETP Lett. (Engl. Transl.)
+                                                                                           ed. J. Audouze et aI., pp. 49-67. Dreux,
+                                                                                                                                           4 : 78-80
+                                                                                            Fr : Ed. Front.
+                                                                                                                                           Zeldovich, Ya. B., Einasto, J., Shan­
+                                                                                     99. Wolfendale, A. W. 1 974. Phi/os. Trans.           darin, S. F. 1982. Nature 300 : 407- 1 3
+                                                                                           R. Soc. London Ser. A 277 : 429-42
+
+Annu. Rev. Astro. Astrophys. 1984.22:425-444. Downloaded from www.annualreviews.org
+   by Brown University on 09/07/12. For personal use only.
+

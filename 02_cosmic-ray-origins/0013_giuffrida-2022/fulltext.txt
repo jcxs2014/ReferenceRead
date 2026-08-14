@@ -1,0 +1,725 @@
+                       nature communications
+
+                       Article                                                                   https://doi.org/10.1038/s41467-022-32781-4
+
+                       The supernova remnant SN 1006 as a Galac-
+                       tic particle accelerator
+
+                       Received: 29 April 2021                Roberta Giuffrida1,2, Marco Miceli 1,2 , Damiano Caprioli3,
+                       Accepted: 15 August 2022               Anne Decourchelle 4, Jacco Vink 5, Salvatore Orlando 2, Fabrizio Bocchino2,
+                                                              Emanuele Greco2,5,6 & Giovanni Peres 1,2
+
+                       Check for updates                      The origin of cosmic rays is a pivotal open issue of high-energy astrophysics.
+                                                              Supernova remnants are strong candidates to be the Galactic factory of cosmic
+1234567890():,;                                               rays, their blast waves being powerful particle accelerators. However, super-
+      1234567890():,;                                         nova remnants can power the observed flux of cosmic rays only if they transfer
+                                                              a significant fraction of their kinetic energy to the accelerated particles, but
+                                                              conclusive evidence for such efficient acceleration is still lacking. In this sce-
+                                                              nario, the shock energy channeled to cosmic rays should induce a higher post-
+                                                              shock density than that predicted by standard shock conditions. Here we show
+                                                              this effect, and probe its dependence on the orientation of the ambient
+                                                              magnetic field, by analyzing deep X-ray observations of the Galactic remnant
+                                                              of SN 1006. By comparing our results with state-of-the-art models, we con-
+                                                              clude that SN 1006 is an efficient source of cosmic rays and obtain an obser-
+                                                              vational support for the quasi-parallel acceleration mechanism.
+
+                       Cosmic rays (CRs) are extremely energetic particles, mainly composed      TeV and GeV bands, with the HESS observatory8 and Fermi telescope9,
+                                                                                                 respectively, but its nature is uncertain, since  - ray emission can also
+                       by protons. It is widely accepted that the bulk of cosmic rays (below     be produced by inverse Compton from ultrarelativistic electrons
+                       the knee at approximately 3 × 1015 eV) stems within our Galaxy, playing   (leptonic scenario). Indications for a hadronic origin of the  - rays
+                       a significant role in its energy budget1. Several convincing indications  have been obtained in a few cases10-13, confirming that SNR shocks can
+                       point towards supernova remnants (SNRs) as their most likely source2.
+                                                                                                 indeed accelerate hadrons.
+                             Shock waves in SNRs can accelerate particles through the first-           The identification of SNRs as the main Galactic factory of CRs is
+
+                       order Fermi mechanism (or diffusive shock acceleration, DSA). The         still based on plausibility arguments and many important open issues
+                       capability of SNRs of accelerating electrons is testified by the ubiqui-  need to be addressed14. To prove that SNRs are CR factories, it is
+                       tous synchrotron radio emission detected at their shock fronts3,
+                       associated with approximately 1-10 GeV electrons. X-ray synchrotron       necessary to show that they indeed supply the power needed to sus-
+                       emission from ultrarelativistic (about 10 TeV) electrons has been first   tain the Galactic CRs (of the order of 1041 erg s-1). Considering the rate
+                       detected in the remnant of the supernova observed in 1006 AD4
+                       (hereafter SN 1006) and, afterward, in other young SNRs5. Accelerated     of supernovae in our Galaxy (about 2 per century), SNRs should
+                       protons in SNRs might provide  - ray emission through interaction         transfer about 10-20% of their characteristic kinetic energy (approxi-
+                       with protons in their environment leading to 0 production and sub-        mately 1051 erg) into CRs15. The loss of such a large fraction of the ram
+                       sequent decay. TeV  - ray emission from a handful of shell-like SNRs
+                       has been observed6, while GeV emission has been detected in about 30      energy is expected to alter the shock dynamics with respect to the
+                       remnants7. In SN 1006,  - ray emission has been detected in both the
+                                                                                                 adiabatic case. Nonlinear DSA predicts the formation of a shock pre-
+                                                                                                 cursor (travelling "ahead" of the main shock) that modifies the shock
+                                                                                                 structure. This shock modification should result in an increase of the
+
+                       1Università degli Studi di Palermo, Dipartimento di Fisica e Chimica E. Segrè, Piazza del Parlamento 1, 90134 Palermo, Italy. 2INAF-Osservatorio Astronomico di
+                       Palermo, Piazza del Parlamento 1, 90134 Palermo, Italy. 3Department of Astronomy and Astrophysics & Enrico Fermi Institute, The University of Chicago, 5640
+                       S Ellis Ave, Chicago, IL 60637, USA. 4Université Paris-Saclay, Université Paris Cité, CEA, CNRS, AIM, 91191 Gif-sur-Yvette, France. 5Anton Pannekoek Institute,
+                       GRAPPA, University of Amsterdam, PO Box 94249, 1090 GE Amsterdam, The Netherlands. 6GRAPPA, University of Amsterdam, Science Park 904, 1098 XH
+
+                       Amsterdam, The Netherlands. e-mail: marco.miceli@unipa.it
+
+                       Nature Communications | (2022)13:5098                                     1
+Article                                                                                 https://doi.org/10.1038/s41467-022-32781-4
+
+total shock compression ratio, rt, and a decrease of the post-shock                     energies, whereas the lack of nonthermal emission in the southeastern
+temperature with respect to the Rankine-Hugoniot (adiabatic)                            and northwestern limbs marks regions without considerable particle
+values16-19. Recent self-consistent hybrid (kinetic ions and fluid elec-                acceleration, where the X-ray emission is mainly thermal (see Fig. 1a). It
+trons) simulations show that efficient acceleration of CRs leads also to                has been shown that the efficiency of diffusive shock acceleration
+the formation of a shock postcursor where non-linear magnetic fluc-                     increases by decreasing the angle  between the ambient magnetic
+tuations and CRs drift away from the shock front, moving                                field and the shock velocity22. There is strong evidence that the bilat-
+downstream20,21. This postcursor is quantitatively more important for                   eral morphology of SN 1006 can be explained in the framework of this
+shock modification than the precursor; it acts as an additional energy                  quasi-parallel scenario, with the ambient magnetic field, B0, oriented
+sink, providing an increase of rt, even with a moderate acceleration                    approximately in the southwest-northeast direction23-25. If these non-
+efficiency: when the CR pressure is about 5-10% of the bulk ram                         thermal limbs are also sites of efficient hadron acceleration, the sig-
+pressure, the total compression ratio ranges approximately                              nature of shock modification is expected to be stored in the X-ray
+between rt = 5-7.                                                                       emission of the shocked interstellar medium17 (ISM). The amount of
+                                                                                        shock modification, namely an increase in the post-shock density,
+      SN 1006 is an ideal target to reveal shock modification. Thanks to                should raise near the nonthermal limbs (i.e., in quasi-parallel condi-
+its height above the Galactic plane (approximately 600 pc), the rem-                    tions), being smaller in thermal regions, where the shock velocity and
+nant evolves in a fairly uniform environment (in terms of density and                   B0 are almost perpendicular. Shock modification is expected to
+magnetic field). Moreover, SN 1006 shows regions with prominent                         reshape the remnant structure, by reducing the distance between the
+particle acceleration, where shock modification might be present,                       forward shock and the outer border of the expanding ejecta (i. e., the
+together with regions where there are no indications of particle                        "contact discontinuity"). However, this effect (observed in SN 100626,27)
+acceleration and where we do not expect shock modification. In par-                     can also be explained as a natural result of ejecta clumpiness28, without
+ticular, the bilateral radio, X-ray and  - ray morphology of SN 1006                    the need of invoking shock modification.
+clearly reveals nonthermal emission in the northeastern and south-
+western limbs. X-ray synchrotron emission in nonthermal limbs, seen                           A first attempt to observe azimuthal variations in shock com-
+notably above 2.5 keV, identifies sites of electron acceleration to TeV                 pressibility was performed by analyzing the XMM-Newton X-ray
+
+Fig. 1 | SN 1006 in different energy bands. a Chandra flux images (photons cm-2 s-1)    erg s-1 cm-2, in light blue). c, d 0.5-1 keV and 2.5-7 keV maps, respectively, with the 9
+in the 0.5-1 keV (green) and 2.5-7 keV (blue) bands, and column density (in 1020 cm-2)  regions selected for spectral analysis superposed in blue. e close-up view of the H
+of HI in the [+5.8, +10.7] km s-1 range30 (red). Lines mark angles () relative to the   map. The dashed circle marks the position of the forward shock. Minimum and
+                                                                                        maximum values for each panel are indicated in the corresponding color bar. All
+ambient magnetic field, B. The white segment indicates an angular distance of 50.       scales are linear, except for the light blue in b, which is in square root scale.
+b radio continuum map62 (Jy beam-1) at 1.4 GHz (red), with Balmer H emission31 (10-17
+
+Nature Communications | (2022)13:5098                                                   2
+Article                                                                     https://doi.org/10.1038/s41467-022-32781-4
+
+observations of the southeastern limb of SN 100629. In this region, the     regions in the southeastern limb (i.e., regions -3, -2,-1, 0, +1) is only
+X-ray emission is mainly thermal but contaminated by the contribution       2 - 5 × Sout. The inner border of these regions corresponds to a surface
+of shocked ejecta. Nevertheless, a spatially resolved spectral analysis     brightness contour level at 6 × Sout, thus marking the sharp separation
+showed a faint X-ray emitting component associated with the shocked         between ejecta and ISM emission. In regions 2, 3, 4, 5, the contribution
+ISM. The density of this component can be inferred from its emission        of synchrotron emission to the X-ray surface brightness dominates.
+measure (EM, defined as the integral of the square of the thermal           Therefore, in this part of the remnant we selected very narrow regions,
+particle density over the volume of the X-ray emitting plasma). The         immediately behind the shock front, by carefully excluding visible
+post-shock density shows hints of azimuthal modulation, with a              ejecta clumps. We investigate a large portion of the shell ( = 0-122),
+minimum around  = 90 (i.e., quasi-perpendicular conditions) and a           including regions with quasi-parallel conditions where shock mod-
+rapid increase toward the nonthermal limbs, suggestive of a higher          ification is expected to be at its maximum.
+shock compressibility. This analysis was restricted to a small portion of
+the shell (approximately  = 90 ± 35), without including regions with              Figure 2a shows the X-ray spectrum extracted from region 0,
+quasi-parallel conditions, and limited by the spatial resolution of the     revealing the shocked ambient medium at approximately  = 90,
+XMM-Newton telescope (comparable to the distance between the                where we do not observe prominent particle acceleration and the
+shock and ejecta). It was thus not possible to isolate regions with ISM     shock is adiabatic (rt = 4). The spectrum can be modelled by an iso-
+emission only, and all the spectra were contaminated by the ejecta          thermal optically thin plasma in non-equilibrium of ionization (para-
+contribution, requiring additional assumptions (namely, pressure            metrized by the ionization parameter , defined as the time integral of
+equilibrium between ejecta and ISM) to estimate the volume occupied         the density reckoned from the impact with the shock). The post-shock
+by the ISM and then its density.                                            density of the plasma is n = 0:164À0:016 + 0:014 cm-3, in good agreement with
+                                                                            previous estimates in this part of the shell29, (as well as the electron
+      Here, we identify shock modification in SN 1006 by studying the       temperature, approximately kT = 1.35 keV, and  = 4:8À4:7 + 0:9 × 108 s cm-3),
+azimuthal profile of the post-shock density, and overcome the afore-        but our values are obtained without any ad-hoc assumptions. The
+mentioned limitations by combining deep X-ray observations per-             interstellar absorption is expected to be uniform in the portion of the
+formed with XMM-Newton (https://www.cosmos.esa.int/web/xmm-                 shell analyzed, and we fix the absorbing column density to NH = 7 ×
+newton) and Chandra telescopes (https://chandra.harvard.edu/), to           1020 cm-2, in agreement with radio observations32. We detect the
+benefit from spectroscopy sensitivity and high-spatial resolution of the    shocked ISM emission in all regions, with a statistical significance
+post-shock region.                                                          >99%. Figure 2b shows that the ISM contribution is clearly visible at low
+                                                                            energies even in the spectrum of region 5 (at approximately  = 0)
+Results                                                                     where the X-ray emission is dominated by synchrotron radiation. We
+                                                                            found that the electron temperature in the shocked ISM is consistent
+Spatially resolved spectral analysis                                        with being constant over all the explored regions (though with large
+Figure 1a shows the soft (0.5-1 keV, mainly thermal emission) and hard      uncertainties), and letting it free to vary does not improve the quality
+(2.5-7 keV, nonthermal emission) X-ray maps of SN 1006, together            of the fits. So we fixed it to the best-fit value obtained in region 0
+with HI distribution in the ambient medium30. Panel b shows the Bal-        (kT = 1.35 keV), where we obtain the most precise estimate (see,
+mer H image31 and the radio continuum map. The ambient magnetic-            methods subsection X-ray data analysis). In case of shock modification,
+field orientation is superimposed on the maps, with angle  = 0              we expect the ion temperature to be lower in regions with efficient
+assumed at the center of the northeastern limb. The position of the         hadron acceleration. This should also reduce the electron tempera-
+forward shock is indicated by its Balmer optical emission (Fig. 1b, e) in   ture, but this effect is predicted to be quite small33. Moreover, this
+thermal limbs, and by the hard X-ray synchrotron filaments in non-          reduction may be compensated by the fact that strong magnetic tur-
+thermal limbs (Fig. 1a).                                                    bulence in quasi-parallel regions should favor electron heating (by heat
+                                                                            exchange with ions). We expect much larger variations of the shock
+      The spatial distribution of the ambient atomic hydrogen around SN     compression ratio, so we trace the shock modification by focusing on
+1006 is quite homogeneous30,32 and the only structures detected are         the post-shock density. We estimate the density from the best fit value
+localized in the western and northwestern rims (Fig. 1a). None are          of the EM in each spectral region (by numerically computing the
+observed in the regions considered for our analysis, where the ambient      volume of the emitting plasma, see, methods subsection X-ray data
+medium appears uniform. While we cannot exclude small fluctuations          analysis).
+in the ambient density, they are undetected with current radio data. We
+consider two additional pieces of evidence supporting a uniform             Azimuthal profile of the post-shock density
+upstream medium in this sector of the remnant. The first one is the fairly  Figure 3a shows the azimuthal modulation of the post-shock density
+circular shape of the shock front from the southern to northeastern rim:    of the ISM. We verified that the estimates of the density are not
+the shock velocity (and then its radius) depends on the ambient density,    affected by contamination from the ejecta. Ejecta can be easily
+and the almost constant shock radius shown in Fig. 1 indicates a uniform    identified because of their higher surface brightness with respect to
+environment. The second piece of evidence is the faint and fairly uni-      the ISM. If we extract the spectra by slightly changing the shape of the
+form surface brightness of the H emission (whose intensity depends on       extraction regions, so as that their inner boundaries include ejecta
+the local density) in this sector of the shell (Fig. 1e). These two condi-  knots, the plasma density increases artificially (and the quality of the
+tions support the scenario of a tenuous and homogeneous ambient             fit decreases). For example, by moving inwards the inner boundary of
+medium. Therefore, we interpret azimuthal modulations in the post-          region 0 (region 3), and enhancing its projected area by less than 10%
+shock density as ascribed only to variations in rt.                         (<40% for region 3), we find that the plasma density changes from
+                                                                            n = 0:164À0:016 + 0:014 cm-3 up to n = 0.189 ± 0.011 cm-3 in region 0 (and from
+      We define nine narrow spatial regions immediately behind the          n = 0:21À0:04 + 0:05 cm-3 to n = 0.25 ± 0.03 cm-3 in region 3). Conversely, by
+forward shock for X-ray spectral studies, excluding the regions con-        reducing the size of the extraction regions, the plasma density stays
+taminated by the ejecta (see lower panels of Fig. 1). The superior spatial  constant, thus indicating that the medium within each region is fairly
+resolution of Chandra allows us to identify the outermost ejecta,           uniform (e.g., by reducing the projected area of region 0 and region 3
+whose projected position in the plane of the sky is marked by ripples of    by about 25%, we find n = 0:158À0:021 + 0:015 cm-3, in region 0, and
+thermal emission. Abrupt variations in the X-ray surface brightness of      n = 0:22À0:05 + 0:06 cm-3 in region 3). We conclude that Fig. 3 traces the
+thermal emission show the position of the contact discontinuity. In         azimuthal density modulation of the shocked ISM.
+particular, the X-ray surface brightness of the outermost ejecta is more
+than 10 times larger than that of the background (Sout, i.e., the surface
+brightness outside the shell), while the X-ray surface brightness within
+
+Nature Communications | (2022)13:5098                                       3
+Article                                                                               https://doi.org/10.1038/s41467-022-32781-4
+
+Fig. 2 | Spatially resolved spectral analysis. Chandra X-ray spectra (black crosses)  confidence level. Data and models are folded through the instrumental response
+of regions 0 (a) and 5 (b) of Fig. 1, with the corresponding best fit models (solid   (ACIS-I and ACIS-S in region 0 and region 5, respectively). Thermal (ISM) and
+lines) and residuals (lower insets in each panel). Error bars are at the 68%          nonthermal (synchrotron) contributions are highlighted with dotted lines.
+
+      As explained above, it is thus hard to explain this density mod-                where the acceleration is inefficient), Fig. 3b shows a higher com-
+                                                                                      pressibility in quasi-parallel conditions, where the shock compres-
+ulation as a result of inhomogeneities in the upstream medium.                        sion ratio raises up to approximately rt = 7.
+
+These inhomogeneities, if present, would affect the shock velocity                          To further constrain the observed increase of the post-shock den-
+                                                                                      sity towards quasi-parallel conditions, we added the data from the XMM-
+(vs, which is proportional to the inverse of the square root of the                   Newton Large Program of observations of SN 1006 (approximately
+ambient density), inducing a vs of approximately 1200 km s-1                          texp = 750 ks). We updated the previous results obtained for 8 regions in
+between region 0 and region 5 (for a shock velocity in region 5 of31                  the southeastern limb29 (from around  = 55 to approximately  = 120)
+5000 km s-1). This would produce a difference in the shock radius of                  to correct for the effects of the telescope point spread function (see,
+about 1018 cm (corresponding to 0:50 at 2.2 kpc34) between region 0                   methods subsection X-ray data analysis). In addition, we extended the
+                                                                                      study to quasi-parallel regions by analyzing the XMM-Newton spectra
+and region 5 in only 250 yr. This is at odds with observations, which                 including region 3 and region 4-5 (together). We adopted the same
+                                                                                      model as that adopted for Chandra data. The agreement between
+show a very circular shape of the shock front (see Fig. 1e), whose                    results obtained with the two telescopes is remarkable (see Fig. 3) and
+radius vary less than 0:150 between region 0 and region 5 (see,
+
+methods subsection X-ray data analysis for details). We then consider
+
+the density modulation as a tracer of azimuthal variations in the
+shock compression ratio. Assuming rt = 4 in region 0 (i. e., at  = 90,
+
+Nature Communications | (2022)13:5098                                                 4
+Article                                                                              https://doi.org/10.1038/s41467-022-32781-4
+
+Fig. 3 | Modulation of the shock compressibility. Azimuthal profile of post-shock          From theory, self-consistent kinetic simulations22 unveiled that
+density (a) and compression ratio (b) derived from Chandra (blue crosses) and
+XMM-Newton (grey boxes) spectra. Errors are at the 68% confidence level. Angles      the injection of thermal protons into DSA is maximum at quasi-parallel
+are measured counterclockwise from the direction of ambient magnetic field.          regions, where efficiency can reach 10-15%, and suppressed at quasi-
+Compression ratios were obtained by assuming a compression ratio of 4 in Chan-       perpendicular shocks. Prominent shock modification (rt  7) is there-
+dra region 0 and in XMM-Newton region e (see Table 1, respectively. The solid curve  fore expected only in quasi-parallel regions20,21, while quasi-
+marks the profile expected for parallel efficiency p = 12%, normalized magnetic
+pressure B = 5%, and efficiency of CR re-acceleration s = 6%, dashed curve is for    perpendicular shocks should show approximately rt = 4. While injec-
+p = 18% and s = 0%, dotted curve is for p = 12%, s = 6% and B = 0% (i. e., without   tion of thermal ions is typically suppressed for22  45, re-acceleration
+including the effects of the postcursor). Source data are provided as a Source
+Data file.                                                                           of pre-existing Galactic CRs (seeds) can provide a modest acceleration
+                                                                                     efficiency (approximately 2-6%), thus playing a role in shock mod-
+the combination of the reliability provided by the high Chandra spatial              ification up to35   60, in agreement with the observed trend in Fig. 3.
+resolution (which excludes contamination from ejecta) and the sensi-                 CR acceleration also leads to the amplification of the pre-shock mag-
+tivity of XMM-Newton (which provides more precise estimates) confirms                netic field in the quasi-parallel regions, where synchrotron emission is
+the azimuthal modulation of the post-shock density.                                  more prominent and magnetic fields are more turbulent, as attested by
+                                                                                     radio polarization maps25. Also, quasi-perpendicular regions exhibit
+      In the XMM-Newton spectra, the higher post-shock density in
+region 4-5 with respect to region 0 is confirmed even by letting the                 synchrotron emission in the radio but not in the X-rays, which points to
+electron temperature and interstellar absorption free to vary in the
+fitting process. In particular, we found that the quality of the fit of the          the presence of GeV but not TeV electrons, again consistent with
+spectrum of region 4-5 worsens significantly by imposing the plasma                  acceleration in the unperturbed Galactic magnetic field2.
+density to be the same as that observed in region 0, even by letting
+both NH and kT free to vary (2 = 182.3 with 181 d.o.f., with kT = 1:0À0:3 + 0:5            The solid curve in Fig. 3b shows the expected trend of rt vs. ,
+keV and NH = 6.3 ± 0.6 × 1020 cm-2, to be compared with 2 = 179.6 with               obtained by assuming a quasi-parallel acceleration efficiency p = 12%,
+182 d.o.f., see Table 1). Moreover, we notice that by imposing a low                 with a cut-off at approximately 45. Such values are chosen based on
+post-shock density in region 4-5, the best-fit value of the ionization               self-consistent hybrid simulations36, which attest to thermal ions being
+parameter ( = 1.3 ± 0.2 × 109 s cm-3) increases by a factor of about 2               spontaneously injected into DSA for quasi-parallel shocks37. Always
+with respect to that reported in Table 1, thus still indicating the need
+for a higher post-shock density in quasi-parallel regions.                           guided by simulations, which show that more oblique shocks are able
+                                                                                     to efficiently accelerate pre-existing CR seeds38, we have also a com-
+Discussions                                                                          ponent of reaccelerated CRs with efficiency s = 6% and cutoff at 70.
+                                                                                     Since both accelerated and re-accelerated particles can effectively
+From observations, the azimuthal profile of the post-shock density                   amplify the initial magnetic field, we pose the normalized magnetic
+shown in Fig. 3 can be explained by a higher shock compression ratio in              pressure B = 5%. We also note that magnetic-field amplification and
+quasi-parallel regions than in quasi-perpendicular regions.                          high rt are consistent with the non-detection of X-ray emission from
+                                                                                     the precursor of SN 100639.
+
+                                                                                           The profile shown by the solid curve in Fig. 3b is in line with the
+
+                                                                                     observed data-points. As a comparison, we also include the expected
+                                                                                     profiles obtained without CR re-acceleration (with p = 18%, dashed
+                                                                                     curve), and without postcursor effects20 (p = 12%, s = 6%, B = 0, dot-
+                                                                                     ted curve).
+
+                                                                                           The theoretical curves in Fig. 3, while capturing the zero-th order
+                                                                                     azimuthal dependence of rt on , do not account for the possible
+                                                                                     refined geometry of the magnetic field in the SN 1006 field. A com-
+
+                                                                                     parison between radio maps and MHD simulations (not including
+                                                                                     shock modification)24 suggests that the local magnetic field may be
+                                                                                     tilted by B  38 ± 4 with respect to the line of sight, with a gradient of
+                                                                                     the field strength of the order of  B = 1.5B over 10 pc, roughly laying
+                                                                                     in the plane of the sky (parallel to the limbs) and pointing toward the
+                                                                                     Galactic plane. In general, a finite tilt B would stack regions with
+                                                                                     different shock inclinations along each line of sight, thereby reducing
+
+                                                                                     the contrast between the regions with maximum and minimum rt;
+                                                                                     nevertheless, since the expected rt is maximum for   40 (see Fig. 3),
+                                                                                     any tilt B  40 would not induce any major modification to the curves
+                                                                                     in Fig. 3. The presence of a gradient, instead, has been shown24 to
+
+                                                                                     reduce the angular distance between the two polar caps, producing a
+                                                                                     narrow minimum in the rt versus  profile, remarkably similar to that
+                                                                                     observed (see, methods subsection Modeling the shock modification).
+
+                                                                                     Since the simple geometry assumed in this paper captures well the
+
+                                                                                     bilateral morphology of SN 1006 and its azimuthal variations, we defer
+                                                                                     the study of the corrections induced by more elaborate field geome-
+
+                                                                                     tries to a forthcoming publication.
+                                                                                           Finally, we consider the effects that the shock modification should
+
+                                                                                     induce on the spectrum of the accelerated particles. In the context of
+                                                                                     the classical theory of non-linear DSA40,41, a shock compression ratio
+                                                                                     larger than 4 leads to CR spectra harder than E-2, while radio obser-
+                                                                                     vations suggest for SN 1006 a radio spectral index of 0.642, corre-
+                                                                                     sponding to a CR spectrum  E-2.2. Nevertheless, when the postcursor
+
+                                                                                     physics is taken into account in the calculation of the CR spectral
+                                                                                     index21, for the parameters chosen in the paper for the q-parallel
+                                                                                     regions (tot = p + s = 18%, B = 5%), one obtains rt = 6.34 and a CR
+
+Nature Communications | (2022)13:5098                                                5
+Article                                                                                                https://doi.org/10.1038/s41467-022-32781-4
+
+Table 1 | Best fit values of emission measure (EM), ionization parameter (), cutoff energy of the synchrotron emission (Ecut) and
+post-shock density (nISM) derived from Chandra and XMM-Newton spectra extracted from the regions shown in Fig. 1, with the
+corresponding values of 2 and degrees of freedom (d.o.f.)
+
+Chandra
+
+Region      Volume (1055 cm3)                    EM (1054 cm-3)     (108 s cm-3)  Ecut (103 eV)        nISM (cm-3)          2/d.o.f.
+0           4.76                                 1:3À0:2 + 0:2     4:8À0:7 + 0:9                       0:164À0:016 + 0:014  56.47/42
++1          4.26                                 1:9À0:2 + 0:2     6:2À0:5 + 0:6  0:076À0:007 + 0:008  0:209À0:012 + 0:011  122.38/77
++2          1.84                                 0:8À0:3 + 0:5     7:9À1:9 + 4    0:170À0:006 + 0:007  0:20À0:05 + 0:06     207.42/130
++3          3.49                                 1:6À0:5 + 0:9     7À2 + 3        0:309À0:017 + 0:019  0:21À0:04 + 0:05     178.73/162
++4          1.37                                 1:61À1:0 + 1:9    5:4À2:0 + 6    0:27À0:02 + 0:02     0:34À0:13 + 0:17     107.8/91
++5          1.37                                 0:8À0:4 + 0:7     7À2 + 5                             0:29À0:07 + 0:10     124.22/92
+-1          9.52                                 3:3À0:2 + 0:2     4:9À0:3 + 0:4                       0:188À0:007 + 0:007  137.83/94
+-2          11.3                                 5:6À0:4 + 0:4     4:7À0:3 + 0:4                       0:222À0:009 + 0:009  71.75/41
+-3          6.09                                 2:7À0:4 + 0:4     5:7À0:6 + 0:8                       0:212À0:016 + 0:015  47.42/40
+XMM-Newton
+
+Region      Volume (1055 cm3)                    EM (1054 cm-3)     (108 s cm-3)  Ecut (103 eV)        nISM (cm-3)          2/d.o.f.
++3          3.43                                 1:26À0:15 + 0:26  11.5 ± 2.0     0:138À0:005 + 0:004  0:206À0:011 + 0:020  168.0/176
++4 - 5      2.65                                 1:5À0:6 + 0:9     6:7À1:9 + 3                         0:26À0:06 + 0:07     179.6/182
+                                                                                  0.272 ± 0.007
+
+Errors are at the 68% confidence level (the values of temperature and absorbing column density are fixed to kT = 1.35 keV, and NH = 7 × 1020 cm-2, respectively). Source data are provided as a Source
+Data file.
+
+Table 2 | List of observations analyzed in this work
+
+Chandra
+
+Obs ID      Instrument                           Exp (ks)              PI name                          link
+13737       ACIS - S                             87.89                 Winkler                          https://cxc.cfa.harvard.edu/cdaftp/byobsid/7/13737/
+13738       ACIS - I                             73.47                 Winkler                          https://cxc.cfa.harvard.edu/cdaftp/byobsid/8/13738/
+13739       ACIS - I                             100.07                Winkler                          https://cxc.cfa.harvard.edu/cdaftp/byobsid/9/13739/
+13740       ACIS - I                             50.41                 Winkler                          https://cxc.cfa.harvard.edu/cdaftp/byobsid/0/13740/
+13741       ACIS - I                             98.48                 Winkler                          https://cxc.cfa.harvard.edu/cdaftp/byobsid/1/13741/
+13742       ACIS - I                             79.04                 Winkler                          https://cxc.cfa.harvard.edu/cdaftp/byobsid/2/13742/
+13743       ACIS - I                             92.56                 Winkler                          https://cxc.cfa.harvard.edu/cdaftp/byobsid/3/13743/
+14423       ACIS - I                             25.02                 Winkler                          https://cxc.cfa.harvard.edu/cdaftp/byobsid/3/14423/
+14424       ACIS - I                             25.39                 Winkler                          https://cxc.cfa.harvard.edu/cdaftp/byobsid/4/14424/
+14435       ACIS - I                             38.32                 Winkler                          https://cxc.cfa.harvard.edu/cdaftp/byobsid/5/14435/
+9107        ACIS - S                             68.87                 Petre                            https://cxc.cfa.harvard.edu/cdaftp/byobsid/7/9107/
+XMM-Newton
+                                                 Exp (ks)          PI name                             link
+Obs ID      Instrument                           109.719           Decourchelle                        http://nxsa.esac.esa.int/nxsa-web/#obsid=0555630201
+0555630201  EPIC
+
+Source data are provided as a Source Data file.
+
+spectrum  E-2.19, in remarkable agreement with the observed radio                 April and June 2012, with a total exposure time of 669.85 ks, and
+index. In conclusion, our findings show an azimuthal modulation of the            observation 9107 (PI R. Petre) performed on June 2008 for a total
+post-shock density in SN 1006, which is consistent with a substantial             exposure time of 68.87 ks (see Table 2). All observations were repro-
+deviation of the shock compression ratio from the value of rt = 4                 cessed with CIAO 4.1243 and CALDB 4.9.0 (https://heasarc.gsfc.nasa.
+(expected for strong shocks) in regions of prominent particle accel-              gov/docs/heasarc/caldb/caldb_intro.html).
+eration, where electrons are accelerated to TeV energies. The inferred
+values of compression ratios and CR slopes are compatible with those                    Mosaic images of SN 1006 were obtained by combining the dif-
+expected in CR-modified shocks when the effects of the postcursor are             ferent pointings with the CIAO task merge_obs (https://cxc.cfa.
+also accounted for20,21. Moreover, the azimuthal variation of rt (Fig. 3)         harvard.edu/ciao/ahelp/merge_obs.html). In particular, we produced
+attests to the prominence of parallel acceleration and to the important           vignetting-corrected mosaic images of the flux (in counts s-1 cm-2) in
+role played by the re-acceleration of pre-existing Galactic CRs for               the 0.5 - 1 keV band (shown in green in Fig. 1) and in the 2.5-7 keV band
+oblique shocks.                                                                   (light blue in Fig. 1).
+
+Methods                                                                                 The contact discontinuity in SN 1006 is very close to the forward
+                                                                                  shock26,27. To measure the ISM post-shock density, we then extract
+X-ray data analysis                                                               X-ray spectra by selecting narrow regions between the contact dis-
+We analyzed Chandra observations 13737, 13738, 13739, 13740, 13741,               continuity and the shock front. Regions selected for spatially resolved
+13742, 13743, 14423, 14424, 14435 (PI F. Winkler) performed between               spectral analysis are shown in Fig. 1. By assuming  = 0 at the center of
+                                                                                  the northeastern radio limb, the azimuthal range explored is
+
+Nature Communications | (2022)13:5098                                                                                                   6
+Article                                                                     https://doi.org/10.1038/s41467-022-32781-4
+
+ = 0 - 122. In this azimuthal range, the spherical shape of the shock       emission by considering the electron spectrum in the loss-dominated
+front, combined with the extremely faint and uniform HI emission,           case47, since this model is particularly well suited for SN 100648 (our
+clearly point toward a uniform ambient environment. We do not
+consider regions with negative values of  because of the lack of            results and conclusions do not change by adopting an exponentially
+spherical shape in the remnant therein, combined with the super-
+position of several shock fronts (which make it difficult to correctly      cut-off power-law distribution of electrons (XSPEC/SRCUT model,
+estimate the volume of the X-ray emitting plasma). We do not consider
+regions with  > 122 because it is not possible to select regions not        https://heasarc.gsfc.nasa.gov/xanadu/xspec/manual/node228.html)
+contaminated by the ejecta emission, given that several ejecta knots        to describe synchrotron emission, as done in previous works27,29).
+reaching the shock front (and even protruding beyond it) can be
+observed in the soft X-ray image (Fig. 1c) for approximately                Normalization and break energy of the synchrotron emission were left
+ = 122-150. Beyond approximately  = 150 the shell loses its spherical       free to vary in the fittings. The normalization of the thermal compo-
+shape and interacts with an atomic cloud30,44 (Fig. 1a).                    nent is significantly larger than 0 at the 99% confidence level in all
+
+      Spectra, together with the corresponding Auxiliary Response           regions.
+File, ARF, and Redistribution Matrix File, RMF, were extracted via the            Table 1 shows the best fit results for all the regions, with errors at
+CIAO tool specextract (https://cxc.cfa.harvard.edu/ciao/ahelp/
+specextract.html). Background spectra were extracted from                   the 68% confidence level. We derive the average plasma density, n, in
+regions selected out of the remnant, without point-like sources and,        each spectral region from the correspRonding best-fit value of the
+when possible, in the same chip as the source regions. We verified          emission measure of the plasma (EM = n2dV = n2V , where n is the
+that the results of our spectral analysis are unaffected by the selec-
+tion of other background regions. Spectra were rebinned by adopt-           plasma density and V is its volume). The volume is calculated with the
+ing the "optimal binning" procedure45. As a cross-check, we also
+rebinned the spectra so as to get at least 25 counts per spectral bin,      following method (see Supplementary Software 1 for further details).
+obtaining the same results, though with slightly larger error bars.
+Spectral analysis was performed with XSPEC version12.10.1f46 in the         We project the regions shown in Fig. 1 on a uniform grid with pixel size
+0.5-5 keV band, by adopting 2 statistics. Spectra extracted from the        0.2 × 0.2 (0.2 correspond to about 6.3 × 1015 cm at a distance of 2.2
+same region of the sky in different observations were fitted simul-         kpc34). For each pixel, we calculate the corresponding depth as the
+taneously. We found out that all our results do not change sig-
+nificantly by modeling the spectrum of the background, instead of           length of the chord along the line of sight intercepted by the sphere
+subtracting it, and by using Cash statistics instead of 2-minimization
+in the fitting process.                                                     that maps the shock front, and compute the volume accordingly, We
+
+      Thermal emission from the shocked ISM was described by an             then sum over all the pixels within a given region. The radius of the
+isothermal plasma in non equilibrium of ionization with a single ioni-
+zation parameter,  (model NEI in XSPEC, https://heasarc.gsfc.nasa.          sphere marking the shock front slightly depends on the region con-
+gov/xanadu/xspec/manual/node195.html, based on the database                 sidered, ranging from Rmin = 14:40 in region +5 to Rmax = 14:550 in region
+AtomDB version 3.09, see http://www.atomdb.org/Webguide/                    0, but we use the same center for all the regions (namely,
+webguide.php). Though we adopt a state-of-the-art spectral model,            = 15h: 02m: 55.74s,  = À 41 : 560 : 56:60300). We verified the precision
+we acknowledge that there may be limitations in the description of the      and reliability of our method by considering more regular regions, like
+emission stemming from an under-ionized plasma with a very low              those adopted in previous works29, where the volume can be calcu-
+ionization parameter, such as the one studied here. However, we
+expect this effect to introduce almost the same biases (if any) in all      lated analytically. We found differences < 0.4% between the numerical
+regions, and not be responsible for the density profile shown in Fig. 3.
+We found that the electron temperature in the shocked ISM is con-           and analytical values. The volumes of the emitting plasma in the
+sistent with being constant over all the explored regions and fixed it to
+the best-fit value obtained in region 0 (kT = 1.35 keV), where we get the   regions adopted for spectral analysis are listed in Table 1 and were used
+most precise estimate (error bars approximately 0.4 keV at the 68%          to derive n from EM. We verified that our results and conclusions do
+confidence level). This value is in remarkable agreement with that
+measured in a similar region with XMM-Newton29. We included the             not change by adopting the PSHOCK model within XSPEC to model the
+effects of interstellar absorption by adopting the model TBABS
+(https://heasarc.gsfc.nasa.gov/xanadu/xspec/manual/node268.html)            thermal emission. The PSHOCK model assumes a linear distribution of
+within XSPEC. The interstellar absorption is expected to be uniform in      the ionization parameter versus emission measure49, ranging from
+the portion of the shell analyzed and we fixed the absorbing column         zero (at the shock front) up to a maximum value (max which is a free
+density to NH = 7 × 1020 cm-2, in agreement with radio observations32.      parameter in the fit), instead of a single, "mean", ionization parameter
+We performed the F-test in all regions, finding that the quality of the     as the NEI model. The best-fit ISM density obtained in region 0 and
+spectral fittings does not improve significantly by letting kT, or NH free  region 5 with the PSHOCK model is n0P = 0:163À0:017 + 0:014 cm-3 and
+to vary. The ISM emission measure and ionization parameter, , were          nP5 = 0:32À0:08 + 0:11 cm-3, respectively (to be compared with n0 = 0:164À0:016 + 0:014
+left free to vary in the fitting procedure.                                 cm-3 and n5 = 0:29À0:07 + 0:10 cm-3 obtained with the NEI model). As expec-
+                                                                            ted, the maximum ionization parameter is approximately a factor of 2
+      We verified that this model provides an accurate description of       higher than the mean  obtained with the NEI model
+spectra extracted from regions in the thermal southeastern limb             (max 0 = 8:9 + 2:1 À1:5 × 108 s cm-3 and max 5 = 1:2 + 1:1 À0:4 × 109 s cm-3, to be com-
+(namely regions 0, -1, -2, -3, +1) and an additional nonthermal com-        pared with 0 = 4:8À0:7 + 0:9 × 108 s cm-3 and 5 = 7À2 + 5 × 108 s cm-3).
+ponent does not improve significantly the quality of the fits, its nor-
+malization being consistent with 0 at less than the 99% confidence                Table 1 shows the best-fit values of the ionization parameter
+level. However, in regions +2, +3, +4, +5 there is a significant syn-           R tf
+chrotron emission. We then added a synchrotron component when                = ts ndt = nt (where n is the time-averaged plasma density, and t
+fitting the spectra from these regions and modeled the synchrotron          is the mean time elapsed since the shock impact within the region) in
+                                                                            all regions. Figure 4 shows the confidence contours of the ISM density
+                                                                            (as derived from the EM) and , in region 0 and region 5. Since both EM
+                                                                            and  depend on the plasma density, it is possible to estimate t. The
+                                                                            figure includes isochrones in the (n, ) space, showing that we obtain
+
+                                                                            very reasonable estimates of the mean time elapsed after the shock
+                                                                            impact (t = 1 À 2 × 102 yr).
+
+                                                                                  The radial size of the extraction regions changes from case to
+
+                                                                            case, and so does their inner boundary, which is closer to the shock
+                                                                            front in some regions (e.g., region 3, 4, 5) than in others (e.g., region -1
+                                                                            and region -2). Therefore, t is not strictly the same for all regions, and
+                                                                            the ionization parameter does not depend only on the plasma density
+                                                                            (we expect lower t in the narrow regions around the northeastern
+                                                                            polar cap). However, we find that, especially for regions with similar
+
+                                                                            radial size, higher values of the post-shock density are associated with
+                                                                            higher values of , as shown in Table 1 and Fig. 5. The azimuthal profile
+
+                                                                            of the ionization parameter shown in Fig. 5 is then consistent with the
+                                                                            density profile shown in Fig. 3.
+
+Nature Communications | (2022)13:5098                                       7
+Article                                                                                https://doi.org/10.1038/s41467-022-32781-4
+
+                                                                                 Fig. 5 | Modulation of the ionization parameter. Azimuthal profile of the ISM
+                                                                                 ionization parameter derived from Chandra spectra (blue crosses) (see Table 1).
+                                                                                 Errors are at the 68% confidence level. Angles are measured counterclockwise from
+                                                                                 the direction of ambient magnetic field. The red curve marks the profile expected
+                                                                                 for parallel efficiency (p = 12%, with B = 5% and s = 6%), assuming the same T for
+                                                                                 all regions. Source data are provided as a Source Data file.
+
+                                                                                 estimate, considering that the density is proportional to the square
+                                                                                 root of the emission measure. However, we applied this correction to
+                                                                                 derive the density estimates shown in Table 1 and in Fig. 3 as well as to
+                                                                                 revise the previous values obtained in the southeastern limb29 and also
+                                                                                 shown in Table 3 and Fig. 3.
+
+Fig. 4 | Ionization parameter and post-shock density. 68%, 90%, and 99% con-     Modeling the shock modification
+fidence contour levels of the ISM density and ionization parameter derived from  Efficient acceleration of CRs has always been associated with an increase
+the Chandra spectra of region 0 (a) and region 5 (b). Red and blue lines mark    in the shock compressibility16,41,52 as due to the softer equation of state
+isochrones after the interaction with the shock front.
+                                                                                 of relativistic CRs, whose adiabatic index is 4/3 (rather than 5/3) and the
+      In the framework of the XMM-Newton Large Program of obser-
+vations of SN 1006 (PI A. Decourchelle), we analyze the EPIC obser-              escape of particles from upstream, which effectively makes the shock
+vation 0555630201 (see Table 2). XMM-Newton EPIC data were                       behave as partially radiative53,54. In this case, though, CR spectra would
+processed with the Science Analysis System software, V18.0.0 (see                become significantly harder than E-2 above a few GeV, at odds with
+the Users Guide to the XMM-Newton Science Analysis System", Issue                 - ray observations of individual SNRs55,56.
+17.0, 2022 https://xmm-tools.cosmos.esa.int/external/xmm_user_
+support/documentation/sas_usg/USG/). Event files were filtered for                     Unprecedentedly-long hybrid simulations of non-relativistic
+soft protons contamination by adopting the ESPFILT task (https://
+xmm-tools.cosmos.esa.int/external/sas/current/doc/espfilt/espfilt.               shocks have recently revealed an effect that was not accounted for
+html), thus obtaining a screened exposure time of 89 ks, 94 ks and 51            in the classical DSA theory, namely that the CR-amplified magnetic
+ks for MOS1, MOS250 and pn51 data, respectively. We selected events
+with PATTERN12 for the MOS cameras, PATTERN4 for the pn                          turbulence may have a sizable speed with respect to the shocked
+camera, and FLAG = 0 for both.
+                                                                                 plasma, resulting in a postcursor, i.e., a region behind the shock where
+      We extracted EPIC spectra from region 3 and the union of region 4          both CRs and magnetic fields drift away from the shock faster than the
+and region 5 (hereafter region 4-5, extraction regions are shown in              fluid itself20,21. The postcursor-induced shock modification has two
+Fig. 1). Spectra were rebinned by adopting the optimal binning pre-
+cedure and spectral analysis was performed with XSPEC in the                     main implications: on one hand, it acts as a sink of energy, which leads
+0.5-5 keV band by adopting the model described above for the ana-
+lysis of Chandra spectra. MOS and pn spectra were fitted simulta-                to an enhanced compression, and on the other hand it advects CRs
+neously. We point out that Chandra and XMM-Newton spectra were                   away from the shock at a faster rate, which leads to steeper spectra57.
+fitted independently.
+                                                                                 The relevance of the postcursor is controlled by the post-shock Alfvén
+      Best fit values are shown in Table 1, with errors at the 68% con-          velocity20 relative to the downstream fluid velocity, and can therefore
+fidence level. Regions selected for spectral analysis are located at the
+rim of the shell and part of the ISM X-ray emission is spread outside the        be inferred from observations in which shock velocity and down-
+outer border of the regions, because of the relatively large point               stream density and magnetic field are constrained; simple estimates
+spread function of the telescope mirrors (corresponding to about 6
+full width half maximum). We quantified this effect by assuming that             for both radio SNe and historical SNRs return a remarkable agreement
+the ISM emission is uniformly distributed in each spectral region and            between observations and theory21,58.
+found that approximately 7% of the ISM X-ray emission leaks out of
+each region. We address this issue by correcting the measured plasma                   It has been shown20 that it is possible to calculate the shock
+emission measure accordingly. This has a small effect on the density
+                                                                                 compression ratio given the post-shock pressures in CRs and magnetic
+                                                                                 fields (c and B), normalized to the upstream bulk pressure. We then
+                                                                                 consider the contribution of CRs injected from the thermal pool20,22,59
+                                                                                 and re-accelerated seeds35, which both are expected to produce
+                                                                                 magnetic turbulence via the Bell instability for strong shocks35,60. The
+                                                                                 dependence on the shock obliquity  is modelled after hybrid simu-
+                                                                                 lations and modulated with
+
+                                                                                 i  "  i À !   À i À !#
+
+                                                                                 ðÞ  2 2 + tanh  À tanh  : ð1Þ
+
+Nature Communications | (2022)13:5098                                                                    8
+Article                                                                                         https://doi.org/10.1038/s41467-022-32781-4
+
+Table 3 | Updated values of density of the shocked interstellar                                 Code availability
+medium from previous XMM-Newton data analysis29
+                                                                                                Chandra data were processed by adopting the CIAO software package,
+Azimuthal opening angle ()  Region name29  Density (cm-3)                                       available at https://cxc.cfa.harvard.edu/ciao/. XMM-Newton data were
+53-63                       a                                                                   analyzed by using the SAS package, available at https://www.cosmos.
+58-73                       b              0:206À0:13 + 0:2                                     esa.int/web/xmm-newton/download-and-install-sas. XSPEC, the soft-
+65-80                       c              0:197À0:08 + 0:05                                    ware adopted for X-ray spectral analysis, is available at https://heasarc.
+73-88                       d              0:189À0:07 + 0:05                                    gsfc.nasa.gov/xanadu/xspec/. The Python code that we developed to
+80-96                       e              0:169À0:08 + 0:03                                    calculate the volumes is provided as Supplementary Software.
+88-103                      f              0:150À0:06 + 0:05
+96-112                      g              0:152À0:08 + 0:07                                    References
+104-120                     h              0:199À0:11 + 0:09
+                                           0:201À0:11 + 0:09                                    1. Sreekumar, P. et al. Constraints on the cosmic rays in the Small
+                                                                                                      Magellanic Cloud. Phys. Rev. Lett. 70, 127-129 (1993).
+Errors are at 68% confidence level. Angles are measured counterclockwise from the direction of
+ambient magnetic field. Source data are provided as a Source Data file.                         2. Blasi, P. The origin of galactic cosmic rays. Astron. Astrophys. Rev.
+                                                                                                      21, 70 (2013).
+Fig. 6 | Modulation of the shock compressibility in a non-uniform magnetic
+field. Same as Fig. 3, with the solid curve marking the profile expected for p = 12%,           3. Green, D. A. A revised catalogue of 294 Galactic supernova rem-
+B = 5% and s = 6%, but including a gradient of the magnetic field strength, lying in                  nants. J. Astrophys. Astron. 40, 36 (2019).
+the plane of the sky at  = 90. Source data are provided as a Source Data file.
+                                                                                                4. Koyama, K. et al. Evidence for shock acceleration of high-energy
+We consider i = [p, s, B], corresponding to the pressure in CR protons                                electrons in the supernova remnant sn:1006. Nature 378,
+injected from the thermal pool, reaccelerated seeds, and B fields,                                    255 (1995).
+respectively; with such a prescription, each pressure is maximum at
+(0) = () and drops over an interval  = 20 centered at                                           5. Vink, J. Supernova remnants: the X-ray perspective. Astron. Astro-
+i = ½45,70,70, respectively. The solid line in Fig. 3 shows the pre-                                  phys. Rev. 20, 49 (2012).
+diction for efficiencies p = 12%, s = 6%, and B = 5%; all these values are
+not the result of a best fitting, but rather motivated by                                       6. Collaboration, H. E. S. S. et al. Population study of Galactic super-
+simulations22,35,60 and successfully applied to the study of individual                               nova remnants at very high -ray energies with H.E.S.S. Astron.
+SNRs11,58.                                                                                            Astrophys. 612, A3 (2018).
+
+      Note that, with the current parametrization, the total efficiency at                      7. Acero, F. et al. The First Fermi LAT Supernova Remnant Catalog.
+parallel regions is p + s  18%, which is reasonable when acceleration                                 Astrophys. J. Suppl. Ser. 224, 8 (2016).
+of He nuclei is added on top of protons61.
+                                                                                                8. Acero, F. et al. First detection of VHE -rays from SN 1006 by HESS.
+      We also explored a different configuration of the ambient mag-                                  Astron. Astrophys. 516, A62 (2010).
+netic field, by including the effects of a gradient of the field strength (as
+suggested by the slantness of the radio limbs24) on the shock obliquity.                        9. Condon, B., Lemoine-Goumard, M., Acero, F. & Katagiri, H. Detec-
+By adopting the formalism described above, with p = 12%, s = 6%, and                                  tion of Two TeV Shell-type Remnants at GeV Energies with FERMI
+B = 5%, we obtain the profile shown in Fig. 6.                                                        LAT: HESS J1731-347 and SN 1006. Astrophys. J. 851, 100 (2017).
+
+Data availability                                                                               10. Tavani, M. et al. Direct Evidence for Hadronic Cosmic-Ray Accel-
+                                                                                                      eration in the Supernova Remnant IC 443. Astrophys. J. Lett. 710,
+The Chandra and XMM-Newton data analyzed in this paper are publicly                                   L151-L155 (2010).
+available in the Chandra Data Archive and XMM-Newton Science
+Archive, respectively. Table 2 provides the direct link to each obser-                          11. Morlino, G. & Caprioli, D. Strong evidence for hadron acceleration in
+vation. Datasets generated during the current study are available from                                Tycho's supernova remnant. Astron. Astrophys. 538, A81 (2012).
+the corresponding author on reasonable request. Source data are
+provided with this paper.                                                                       12. Ackermann, M. et al. Detection of the Characteristic Pion-Decay
+                                                                                                      Signature in Supernova Remnants. Science 339, 807-811 (2013).
+
+                                                                                                13. Slane, P. et al. A CR-hydro-NEI Model of the Structure and Broad-
+                                                                                                      band Emission from Tycho's Supernova Remnant. Astrophys. J. 783,
+                                                                                                      33 (2014).
+
+                                                                                                14. Gabici, S. et al. The origin of Galactic cosmic rays: Challenges to the
+                                                                                                      standard paradigm. Int. J. Mod. Phys. D. 28, 1930022-339 (2019).
+
+                                                                                                15. Hillas, A. M. TOPICAL REVIEW: Can diffusive shock acceleration in
+                                                                                                      supernova remnants account for high-energy galactic cosmic rays?
+                                                                                                      J. Phys. G Nucl. Phys. 31, R95-R131 (2005).
+
+                                                                                                16. Drury, L. O. An introduction to the theory of diffusive shock accel-
+                                                                                                      eration of energetic particles in tenuous plasmas. Rep. Prog. Phys.
+                                                                                                      46, 973-1027 (1983).
+
+                                                                                                17. Decourchelle, A., Ellison, D. C. & Ballet, J. Thermal X-Ray Emission
+                                                                                                      and Cosmic-Ray Production in Young Supernova Remnants.
+                                                                                                      Astrophys. J. Lett. 543, L57-L60 (2000).
+
+                                                                                                18. Blasi, P. A semi-analytical approach to non-linear shock accelera-
+                                                                                                      tion. Astropart. Phys. 16, 429-439 (2002).
+
+                                                                                                19. Vink, J., Yamazaki, R., Helder, E. A. & Schure, K. M. The Relation
+                                                                                                      Between Post-shock Temperature, Cosmic-ray Pressure, and
+                                                                                                      Cosmic-ray Escape for Non-relativistic Shocks. Astrophys. J. 722,
+                                                                                                      1727-1734 (2010).
+
+                                                                                                20. Haggerty, C. C. & Caprioli, D. Kinetic Simulations of Cosmic-Ray-
+                                                                                                      modified Shocks. I. Hydrodynamics. Astrophys. J. 905, 1 (2020).
+
+                                                                                                21. Caprioli, D., Haggerty, C. C. & Blasi, P. Kinetic Simulations of
+                                                                                                      Cosmic-Ray-modified Shocks. II. Particle Spectra. Astrophys. J.
+                                                                                                      905, 2 (2020).
+
+Nature Communications | (2022)13:5098                                                           9
+Article                                                                        https://doi.org/10.1038/s41467-022-32781-4
+
+22. Caprioli, D. & Spitkovsky, A. Simulations of Ion Acceleration at Non-            Optical Instrumentation Engineers (SPIE) Conference Series,
+      relativistic Shocks. I. Acceleration Efficiency. Astrophys. J. 783,            62701V (2006).
+      91 (2014).                                                               44. Miceli, M. et al. Modeling the shock-cloud interaction in SN 1006:
+                                                                                     Unveiling the origin of nonthermal X-ray and -ray emission. Astron.
+23. Rothenflug, R. et al. Geometry of the non-thermal emission in SN                 Astrophys. 593, A26 (2016).
+      1006. Azimuthal variations of cosmic-ray acceleration. Astron.           45. Kaastra, J. S. & Bleeker, J. A. M. Optimal binning of X-ray spectra and
+      Astrophys. 425, 121-131 (2004).                                                response matrix design. Astron. Astrophys. 587, A151 (2016).
+                                                                               46. Arnaud, K. A. XSPEC: The First Ten Years. In ASP Conf. Ser. 101:
+24. Bocchino, F., Orlando, S., Miceli, M. & Petruk, O. Constraints on the            Astronomical Data Analysis Software and Systems V, 17 (1996).
+      local interstellar magnetic field from non-thermal emission of           47. Zirakashvili, V. N. & Aharonian, F. A. Nonthermal Radiation of Young
+      SN1006. Astron. Astrophys. 531, A129 (2011).                                   Supernova Remnants: The Case of RX J1713.7-3946. Astrophys. J.
+                                                                                     708, 965-980 (2010).
+25. Reynoso, E. M., Hughes, J. P. & Moffett, D. A. On the Radio Polar-         48. Miceli, M. et al. The shape of the cutoff in the synchrotron emission
+      ization Signature of Efficient and Inefficient Particle Acceleration in        of SN 1006 observed with XMM-Newton. Astron. Astrophys. 556,
+      Supernova Remnant SN 1006. Astron. J. 145, 104 (2013).                         A80 (2013).
+                                                                               49. Borkowski, K. J., Lyerly, W. J. & Reynolds, S. P. Supernova Remnants
+26. Cassam-Chenaï, G., Hughes, J. P., Reynoso, E. M., Badenes, C. &                  in the Sedov Expansion Phase: Thermal X-Ray Emission. Astrophys.
+      Moffett, D. Morphological Evidence for Azimuthal Variations of the             J. 548, 820-835 (2001).
+      Cosmic-Ray Ion Acceleration at the Blast Wave of SN 1006. Astro-         50. Turner, M. J. L. et al. The European Photon Imaging Camera on
+      phys. J. 680, 1180-1197 (2008).                                                XMM-Newton: The MOS cameras : The MOS cameras. Astron.
+                                                                                     Astrophys. 365, L27-L35 (2001).
+27. Miceli, M. et al. Thermal emission, shock modification, and X-ray          51. Strüder, L. et al. The European Photon Imaging Camera on XMM-
+      emitting ejecta in SN 1006. Astron. Astrophys. 501, 239-249 (2009).            Newton: The pn-CCD camera. Astron. Astrophys. 365,
+                                                                                     L18-L26 (2001).
+28. Orlando, S., Bocchino, F., Miceli, M., Petruk, O. & Pumo, M. L. Role of    52. Jones, F. C. & Ellison, D. C. The plasma physics of shock accelera-
+      Ejecta Clumping and Back-reaction of Accelerated Cosmic Rays in                tion. Space Sci. Rev. 58, 259-346 (1991).
+      the Evolution of Type Ia Supernova Remnants. Astrophys. J. 749,          53. Drury, L. O. & Voelk, J. H. Hydromagnetic shock structure in the
+      156 (2012).                                                                    presence of cosmic rays. Astrophys. J. 248, 344-351 (1981).
+                                                                               54. Caprioli, D., Blasi, P. & Amato, E. On the escape of particles from
+29. Miceli, M. et al. XMM-Newton evidence of shocked ISM in SN 1006:                 cosmic ray modified shocks. Mon. Not. R. Astron. Soc. 396,
+      indications of hadronic acceleration. Astron. Astrophys. 546,                  2065-2073 (2009).
+      A66 (2012).                                                              55. Caprioli, D. Understanding hadronic gamma-ray emission from
+                                                                                     supernova remnants. J. Cosmol. Astropart. Phys. 2011, 026 (2011).
+30. Miceli, M. et al. Shock-Cloud Interaction and Particle Acceleration in     56. Caprioli, D. Cosmic-ray acceleration in supernova remnants: non-
+      the Southwestern Limb of SN 1006. Astrophys. J. Lett. 782,                     linear theory revised. J. Cosmol. Astropart. Phys. 7, 38 (2012).
+      L33 (2014).                                                              57. Bell, A. R. The acceleration of cosmic rays in shock fronts. I. Mon.
+                                                                                     Not. R. Astron. Soc. 182, 147-156 (1978).
+31. Winkler, P. F. et al. A High-resolution X-Ray and Optical Study of SN      58. Diesing, R. & Caprioli, D. Steep Cosmic-Ray Spectra with Revised
+      1006: Asymmetric Expansion and Small-scale Structure in a Type Ia              Diffusive Shock Acceleration. Astrophys. J. 922, 1 (2021).
+      Supernova Remnant. Astrophys. J. 781, 65 (2014).                         59. Caprioli, D., Pop, A.-R. & Spitkovsky, A. Simulations and Theory of
+                                                                                     Ion Injection at Non-relativistic Collisionless Shocks. Astrophys. J.
+32. Dubner, G. M., Giacani, E. B., Goss, W. M., Green, A. J. & Nyman, L.-            Lett. 798, L28 (2015).
+      The neutral gas environment of the young supernova remnant SN            60. Caprioli, D. & Spitkovsky, A. Simulations of Ion Acceleration at Non-
+      1006 (G327.6+14.6). Astron. Astrophys. 387, 1047-1056 (2002).                  relativistic Shocks: II. Magnetic Field Amplification. Astrophys. J.
+                                                                                     794, 46 (2014).
+33. Patnaude, D. J., Ellison, D. C. & Slane, P. The Role of Diffusive Shock    61. Caprioli, D., Yi, D. T. & Spitkovsky, A. Chemical Enhancements in
+      Acceleration on Nonequilibrium Ionization in Supernova Remnants.               Shock-Accelerated Particles: Ab initio Simulations. Phys. Rev. Lett.
+      Astrophys. J. 696, 1956-1963 (2009).                                           119, 171101 (2017).
+                                                                               62. Petruk, O. et al. Aspect angle for interstellar magnetic field in SN
+34. Winkler, P. F., Gupta, G. & Long, K. S. The SN 1006 Remnant: Optical             1006. Mon. Not. R. Astron. Soc. 393, 1034-1040 (2009).
+      Proper Motions, Deep Imaging, Distance, and Brightness at Max-
+      imum. Astrophys. J. 585, 324-335 (2003).                                 Acknowledgements
+
+35. Caprioli, D., Zhang, H. & Spitkovsky, A. Diffusive shock re-               We thank F. Winkler for kindly providing us with the H map of SN 1006.
+      acceleration. J. Plasma Phys. 84, 715840301 (2018).                      We thank P. Plucinsky for helpful suggestions on the Chandra data
+                                                                               analysis. M.M., S.O., F.B., E.G., and G.P. acknowledge financial con-
+36. Caprioli, D. & Spitkovsky, A. Simulations of Ion Acceleration at Non-      tribution by the PRIN INAF 2019 grant and the INAF mainstream program.
+      relativistic Shocks: I. Acceleration Efficiency. Astrophys. J. 783,      D.C. is supported by NASA grant 80NSSC20K1273 and NSF grants AST-
+      91 (2014).                                                               1909778, AST-2009326 and PHY-2010240. J.V.'s and E.G.'s work on this
+                                                                               paper has received funding from the European Union's Horizon 2020
+37. Caprioli, D., Pop, A. & Spitkovsky, A. Simulations and Theory of Ion       research and innovation programme under grant agreement No
+      Injection at Non-relativistic Collisionless Shocks. ApJ Lett. 798,       101004131 (SHARP). A.D. acknowledges support by the Centre National
+      28 (2015).                                                               d'Etudes Spatiales (CNES). M.M. and R.G. acknowledge support by the
+                                                                               INAF Mini-Grant "X-raying shock modification in supernova remnants".
+38. Caprioli, D., Zhang, H. & Spitkovsky, A. Diffusive shock re-               The scientific results reported in this article are based in part on data
+      acceleration. JPP. http://adsabs.harvard.edu/abs/                        obtained from the Chandra Data Archive. This research has made use of
+      2018arXiv180101510C (2018).
+
+39. Morlino, G., Amato, E., Blasi, P. & Caprioli, D. Spatial structure of
+      X-ray filaments in SN 1006. Mon. Not. R. Astron. Soc. 405,
+      L21-L25 (2010).
+
+40. O'C. Drury, L. An introduction to the theory of diffusive shock
+      acceleration of energetic particles in tenuous plasmas. Rep. Prog.
+      Phys. 46, 973-1027 (1983).
+
+41. Malkov, M. A. & O'C. Drury, L. Nonlinear theory of diffusive accel-
+      eration of particles by shock waves. Rep. Prog. Phys. 64,
+      429-481 (2001).
+
+42. Green, D. A. A revised catalogue of 294 Galactic supernova rem-
+      nants. J. Astrophys. Astron. 40, 36 (2019).
+
+43. Fruscione, A. et al. CIAO: Chandra's data analysis system. In (eds
+      Silva, D. R. & Doxsey, R. E. Society of Photo-Optical Instrumentation
+      Engineers (SPIE) Conference Series, vol. 6270 of Society of Photo-
+
+Nature Communications | (2022)13:5098                                          10
+Article                                                                      https://doi.org/10.1038/s41467-022-32781-4
+
+software provided by the Chandra X-ray Center (CXC) in the application       Peer review information Nature Communications thanks the anon-
+package CIAO. Results are based in part on observations obtained with        ymous reviewers for their contribution to the peer review of this
+XMM-Newton, an ESA science mission with instruments and contribu-            work. Peer reviewer reports are available.
+tions directly funded by ESA Member States and NASA.
+                                                                             Reprints and permission information is available at
+Author contributions                                                         http://www.nature.com/reprints
+
+M.M. conceived and coordinated the project, led the XMM-Newton data          Publisher's note Springer Nature remains neutral with regard to jur-
+analysis and wrote the manuscript. R.G. led the analysis of the Chandra      isdictional claims in published maps and institutional affiliations.
+observations. D.C. devised the theoretical modeling of shock mod-
+ification. A.D., J.V., S.O. and G.P., provided insights on the analysis and  Open Access This article is licensed under a Creative Commons
+on the interpretation of the results. E.G. and F.B. collaborated to the      Attribution 4.0 International License, which permits use, sharing,
+X-ray data analysis. All authors discussed the results and implications      adaptation, distribution and reproduction in any medium or format, as
+and commented on the manuscript at all stages.                               long as you give appropriate credit to the original author(s) and the
+                                                                             source, provide a link to the Creative Commons license, and indicate if
+Competing interests                                                          changes were made. The images or other third party material in this
+                                                                             article are included in the article's Creative Commons license, unless
+The authors declare no competing interests.                                  indicated otherwise in a credit line to the material. If material is not
+                                                                             included in the article's Creative Commons license and your intended
+Additional information                                                       use is not permitted by statutory regulation or exceeds the permitted
+                                                                             use, you will need to obtain permission directly from the copyright
+Supplementary information The online version contains                        holder. To view a copy of this license, visit http://creativecommons.org/
+supplementary material available at                                          licenses/by/4.0/.
+https://doi.org/10.1038/s41467-022-32781-4.
+                                                                             © The Author(s) 2022
+Correspondence and requests for materials should be addressed to
+Marco Miceli.
+
+Nature Communications | (2022)13:5098                                        11
+
