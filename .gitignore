@@ -16,3 +16,4 @@ pages/
 02_cosmic-ray-origins/
 03_stellar-nucleosynthesis/
 *.pdf
+__pycache__/
