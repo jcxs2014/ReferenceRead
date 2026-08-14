@@ -39,7 +39,7 @@ CHECKLIST = [
     ("structure",    r"## 3\.|## \[INTERPRETATION\]|## 0\.[1-9]",              "结构"),
     ("chapter",     r"## (?:4\.|X\.\d|\d+\.\d+|\[CRITIQUE\])",        "章节(4/X.n)"),
     ("figure",       r"## Figure \d+|!\[.*?\]\(.*?\)",                       "Figure"),
-    ("table",        r"## Table \d+|\|.+\|.*\|",                             "Table"),
+    ("table",        r"## Table \d+",                                          "Table"),
     ("formula",      r"## 7\.|## Formula|\$\$[\s\S]+?\$\$|\$[^\$]+\$",    "公式"),
     ("numerical",    r"## 8\.|## 数值|\d+\.\d+\s*[×x]\s*\d+",          "数值信息"),
     ("experimental", r"## 9\.|## 实验|## 观测|measurement|data",                 "实验/数据"),
