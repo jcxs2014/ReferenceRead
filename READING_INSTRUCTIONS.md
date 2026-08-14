@@ -482,3 +482,30 @@ background/ 综述 / 争议索引 / 术语表   ← 库级派生，标注来源
 
 修订任何一处，只改箭头起点；下游内容一律重新提取，不手工改。
 ```
+
+### 30. Frontmatter Writing Hygiene（元数据字段值卫生规约）
+
+**背景**：三轮反复出现同源 bug — 精读流水线把信息分级标记（`[FACT]`/`[INTERPRETATION]`/`[CRITIQUE]`）和 markdown 强调格式混入元数据字段，污染图谱节点（如 `A. Cameron [fact] (1968)`）。`build_fm.py` 下游有 `_strip_fact_tag` 兜底，但源头规约比下游清洗更有价值。
+
+**硬性禁止清单** — frontmatter 任何字段值**不得**包含：
+
+| 禁用内容 | 示例 | 违规时处理 |
+|---|---|---|
+| `[FACT]` / `[INTERPRETATION]` / `[CRITIQUE]` | `The origin [FACT] of rays` | 拒绝写入，人工修正 |
+| `**` / `*` 包裹的加粗/斜体（除 title 可例外） | `**GALACTIC COSMIC RAYS**` | 自动剥除，标记警告 |
+| `[[wikilink]]` 包裹 | `[[0001_blasi-2013]]`（除 citations 字段外） | 自动剥除 |
+| 整段说明引号 | `'see footnote for details'` | 拒绝写入，移至正文 |
+| HTML 标签 | `<br/>` / `<sup>` | 自动剥除 |
+
+**双保险防御**：
+1. **源头约束**（本节）：写 frontmatter 时遵守上表
+2. **下游兜底**：`build_fm.py._clean_field()` 已内置 `_strip_fact_tag()` + `_strip_html()`，全字段自动清洗
+
+**校验方式**：
+```bash
+# 快速扫描 frontmatter 中残留的标记
+grep -r '\[FACT\]\|\[INTERPRETATION\]\|\[CRITIQUE\]' */*/literature_analysis/00_overview.md
+# 应输出空（零匹配）
+```
+
+**build_registry.py 的 registry 校验**已包含「registry tags/authors/title 无污染标记」断言（`audit.py` 自动检查）。

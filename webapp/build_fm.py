@@ -145,9 +145,14 @@ def _strip_html(s: str) -> str:
 
 
 def _clean_field(s: str) -> str:
+    """清洗单个元数据字段：HTML tag / fact 标记 / 多余空白。
+
+    全字段兜底 — 不再依赖 build_fm 显式调用 _strip_fact_tag。
+    """
     s = _strip_html(s)
+    s = _strip_fact_tag(s)
     s = re.sub(r"\s+", " ", s).strip()
-    # 去掉末尾多余标点空格
+    # 去掉首尾多余标点空格
     return s.rstrip("。.;，, ")
 
 
@@ -321,7 +326,7 @@ def _strip_fact_tag(val: str) -> str:
     """
     if not val:
         return val
-    return re.sub(r"\s*\[(FACT|INTERPRETATION|CRITIQUE)\]\s*", "", val).strip()
+    return re.sub(r"\[(FACT|INTERPRETATION|CRITIQUE)\]\s*", "", val).strip()
 
 
 def _strip_wikilink(val: str) -> str:
@@ -471,7 +476,7 @@ def build_fm(overview_path: Path) -> dict | None:
         "year": fields.get("year", "") or _extract_year(overview_path.parent.parent.stem) or _extract_year(overview_path.stem) or _most_likely_year(body) or "",
         "journal": _strip_fact_tag(fields.get("journal", "")),
         "doi": _strip_fact_tag(fields.get("doi", "")),
-        "arxiv": fields.get("arxiv", ""),
+        "arxiv": _strip_fact_tag(fields.get("arxiv", "")),
         "keywords": _strip_fact_tag(fields.get("keywords", "")),
         "abstract": _strip_fact_tag(fields.get("abstract", "")),
         "category": category,
