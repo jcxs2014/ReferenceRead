@@ -265,6 +265,126 @@
 
 build_fm 防护 + audit 断言
 
+### B15. 移动端 overlay 遮罩作用域泄漏到桌面端（M11）
+
+**发生时间**：2026-08（早期 webapp 迭代）  
+**Commit**：`8a7004d fix: webapp — M11 overlay mobile-only + H6D1-D4 dropdown fixes`
+
+**症状**：桌面端（>900px）点击 ☰ 侧边栏按钮后，整个内容区变暗，鼠标滚轮失效——`.main` 区域被遮罩拦截无法滚动。
+
+**根因**：
+- 修移动端遮罩时，`.app.sidebar-open #overlay { display:block }` **没放进 `@media (max-width:900px)`** 媒体查询内
+- 注释写的是 "Overlay for mobile" 但**注释不等于规则作用域**——CSS 规则对所有视口生效
+- 桌面端侧边栏打开时，`#overlay` 变 `display:block`，配合 `position:fixed; inset:0; z-index:98` 整页覆盖
+- 覆盖在 `.main` 上方 + 拦截滚轮事件 → 滚动失效
+
+**修复**：
+```css
+@media (max-width:900px) {
+  .app.sidebar-open #overlay { display:block; }
+}
+```
+
+**复盘教训**（"规则作用域"原则）：
+- 新增 UI 功能必须**显式限定作用域**（媒体查询 / 选择器前缀 / `:where()`）
+- 注释说"for mobile"不等于规则只在 mobile 生效——CSS 没有隐式作用域
+- 测试覆盖：必须测**未被设计目标包含的视口**（桌面验证移动端修复时尤其容易漏）
+
+**参考**：附 27 / H5 (sidebar + TOC) 同类修复历史
+
+---
+
+### B16. `overflow-x:auto` 强制裁剪绝对定位下拉（H6D1）
+
+**发生时间**：2026-08（早期 webapp 迭代）  
+**Commit**：`8a7004d fix: webapp — M11 overlay mobile-only + H6D1-D4 dropdown fixes`
+
+**症状**：toolbar 分组下拉菜单（`.tab-dropdown`）被 toolbar 容器裁剪，只能看到一小片；容器内出现异常滚动条；某些点击路径下拉完全不可见。
+
+**根因**：
+- CSS Overflow 规范细节：`overflow-x` 非 `visible` 时，浏览器**强制把 `overflow-y` 设为 `auto`**（即使你只写了 `overflow-x:auto`）
+- `.tab-groups { overflow-x:auto }`（原本为响应式换行）→ 垂直方向被强制 `auto` 裁剪
+- `.tab-dropdown { position:absolute; top:calc(100%+4px) }` 的下拉定位在容器高度**之外** → 被父级 clip 掉
+- `position:sticky` 不保护（sticky 只管 sticky 行为，不改变 overflow clip）
+
+**修复**：
+```css
+.tab-groups { display:flex; gap:6px; align-items:center; flex:1; overflow:visible; flex-shrink:1; }
+.toolbar   { ...; overflow:visible; }  /* 删 overflow-x:auto */
+```
+绝对定位弹层改 `position:fixed` + `getBoundingClientRect()` 定位（更彻底，但本仓库选择移除祖先 overflow）。
+
+**复盘教训**（"绝对定位祖先链"原则）：
+- 任何 `position:absolute` 子元素所在祖先链上**不能有 `overflow` 非 visible**
+- 排查"元素在 DOM 存在但视觉上被裁剪"时，**先 trace 每一级祖先的 overflow**，再追 z-index/stacking context
+- CSS overflow clip 是 painting-stage 约束，z-index 救不了
+- 需要滚动条时，**让弹层用 fixed**而不是依赖父级 overflow
+
+**参考**：附 27 / P10 H6D1 案例完整分析
+
+---
+
+### B17. KaTeX 延迟加载 + DOM 状态时序错位
+
+**发生时间**：2026-08（早期 webapp 迭代）  
+**Commit**：`15ec455 fix(shell): guard KaTeX applyMath — check readyState immediately + DOMContentLoaded`
+
+**症状**：部分页面刷新后数学公式不被渲染（保留为 `$...$` 源码），但刷新一次后又能渲染——典型的时序竞态。
+
+**根因**：
+- shell.html 用 `<script defer src="katex.min.js">` 加载 KaTeX（defer = DOM 解析完成后才执行）
+- 但 shell 主体 `<script>`（含 `applyMath()`）同步执行，可能在 KaTeX 之前完成
+- `if (window.katex) applyMath()` 一次检查 → KaTeX 还没加载就跳过
+- `DOMContentLoaded` 监听也可能错过（如果 `document.readyState === "loading"` 才触发，否则已 fire）
+
+**修复**：
+```js
+// 关键：双触发点 + 立即检查 readyState
+function tryApplyMath() {
+  if (window.katex) { applyMath(); return true; }
+  return false;
+}
+// 1) 立即检查（DOM 已 ready 且 KaTeX 已就绪的场景）
+if (document.readyState !== "loading" && tryApplyMath()) { /* done */ }
+// 2) DOMContentLoaded 兜底（DOM 还在 loading 时）
+document.addEventListener("DOMContentLoaded", () => { tryApplyMath(); });
+// 3) 一些版本的 KaTeX 还有内部 ready，可考虑 window.load
+```
+
+**复盘教训**（"延迟依赖时序"原则）：
+- 任何依赖外部脚本（A/B/C 异步或 defer）的初始化函数，**至少有 2 个触发点**（立即检查 + 事件兜底）
+- 单点检查（`if (X) init()`）在快网络/慢网络/缓存命中/重新加载等不同路径下表现不一致
+- `document.readyState` 是同步属性，**比 DOMContentLoaded 事件早可用**——优先用
+
+---
+
+### B18. 搜索高亮 lastIndex 状态残留（H5）
+
+**发生时间**：2026-08（早期 webapp 迭代）  
+**Commit**：`f7d0648 fix: webapp — P0 audit fixes (H1/H2/H3/H4/H5/M1-M5/M7/M10 + H6 tab groups)`
+
+**症状**：全文搜索后第二次搜索**第一次匹配位置不对**——例如输入"宇宙"第二次高亮位置比预期偏前一位。
+
+**根因**：
+- RegExp 的 `.exec()` 和 `String.match()`（带 `/g` flag）共用全局 `lastIndex` 状态
+- 上一次搜索未重置 `lastIndex` 到 0，下一次调用从上次停止的位置开始
+- 典型 hack：每次 `re.lastIndex = 0` 在循环前
+
+**修复**（在搜索高亮函数顶部重置）：
+```js
+function highlightMatches(text, pattern) {
+  pattern = new RegExp(escapeRegex(pattern), "gi");
+  pattern.lastIndex = 0;  // 关键：显式重置
+  // ...或直接用 .replaceAll(text, ...) 避开 lastIndex
+  return text.replace(pattern, m => `<mark>${m}</mark>`);
+}
+```
+
+**复盘教训**（"全局可变状态"原则）：
+- 任何带 `g` 或 `y` flag 的 RegExp，跨调用共用 `lastIndex`
+- 防御性做法：用 `.replace()` + global flag（每次返回新字符串，不依赖 lastIndex）
+- 或在函数入口显式 `re.lastIndex = 0`
+
 ---
 
 ## C. 跨流程数据一致性故障
