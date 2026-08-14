@@ -30,7 +30,7 @@ path: background/00_home.md
 - [Strong, Moskalenko & Ptuskin 2007](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) — CR 传播与星际介质
 - [Amato & Blasi 2018](01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_overview.md) — CR 输运综述（AMS-02 后）
 - [Weinrich et al. 2020](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md) — 银河晕大小（贝叶斯约束）
-- [Mewaldt et al. 2001](01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/00_overview.md) — 放射性时钟（¹⁰Be/²⁶Al）
+- [Mewaldt et al. 2001](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md) — 放射性时钟（¹⁰Be/²⁶Al）
 - [Génolini et al. 2021](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/00_overview.md) — min/med/max 传播模型
 - [Ruszkowski & Pfrommer 2023](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md) — CR 反馈（星系+星系团）
 - [Bhattacharjee & Sigl 2000](02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md) — UHECR 起源与传播
