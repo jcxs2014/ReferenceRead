@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**265 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**271 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -29,9 +29,10 @@
 |---|---|
 | 作者 | Elena Amato (INAF Arcetri), Pasquale Blasi (GSSI) |
 | 期刊 | Advances in Space Research 62, 2731 (2018) |
-| 分析文件 | 1 个（00_overview.md） |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/`](01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/99_final_summary.md) |
 
 ### `0003_weinrich-2020`
 
@@ -39,11 +40,12 @@
 
 |  |  |
 |---|---|
-| 作者 | N. Weinrich et al. |
-| 期刊 | Astronomy & Astrophysics 639, A74 (2020) |
-| 分析文件 | 1 个（00_overview.md） |
+| 作者 | N. Weinrich et al.（9 人） |
+| 期刊 | A&A 639, A74 (2020) |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/`](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/99_final_summary.md) |
 
 ### `0004_weinrich-2020-clocks`
 
@@ -63,11 +65,12 @@
 
 |  |  |
 |---|---|
-| 作者 | Y. Génolini et al. |
+| 作者 | Y. Génolini et al.（8 人） |
 | 期刊 | Physical Review D 104, 083005 (2021) |
-| 分析文件 | 1 个（00_overview.md） |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/`](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/99_final_summary.md) |
 
 ### `0006_ruszkowski-pfrommer-2023`
 
@@ -504,9 +507,9 @@
 
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
-| 01. 宇宙线传播 | 6 | 13 |
+| 01. 宇宙线传播 | 6 | 19 |
 | 02. 宇宙线起源 | 15 | 89 |
 | 03. 恒星核合成与元素丰度 | 17 | 163 |
-| **合计** | **38** | **265** |
+| **合计** | **38** | **271** |
 
-> 最后更新: 2026-08-14（自动生成）
+> 最后更新: 2026-08-15（自动生成）

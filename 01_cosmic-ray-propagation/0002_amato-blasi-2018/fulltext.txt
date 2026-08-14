@@ -1,0 +1,1434 @@
+Available online at www.sciencedirect.com
+
+      ScienceDirect
+
+Advances in Space Research xxx (2017) xxx-xxx  www.elsevier.com/locate/asr
+
+                    Review
+
+Cosmic ray transport in the Galaxy: A review
+
+                        Elena Amato a,b,, Pasquale Blasi a,c,*
+
+                        a INAF - Osservatorio Astrofisico di Arcetri, Largo E. Fermi, 5, 50125 Firenze, Italy
+b Dipartimento di Fisica e Astronomia, Universita` degli Studi di Firenze, Via Sansone, 1, 50019 Sesto Fiorentino (FI), Italy
+
+                                 c Gran Sasso Science Institute, Viale F. Crispi, 7, 67100 L'Aquila, Italy
+
+                   Received 27 February 2017; received in revised form 19 April 2017; accepted 22 April 2017
+
+Abstract
+
+   The physics of energetic particle propagation in magnetized environments plays a crucial role in both the processes of acceleration and
+transport of cosmic rays. Recent theoretical developments in the field of cosmic ray research have been mainly in the direction of explor-
+ing non-linear aspects of the processes in which these particles are involved, namely the action of cosmic rays on the environment in
+which the transport and/or acceleration take place. When cosmic rays propagate outside of the acceleration region, such action is mainly
+in two forms: (1) they generate hydromagnetic waves, through streaming instabilities, leading to a dependence of the scattering properties
+of the medium on the spectrum and spatial distribution of the energetic particles, and (2) they exert a dynamical action on the plasma,
+which may cause the launching of cosmic ray driven Galactic winds. In this article we discuss these and other recent developments and
+how they compare with the bulk of new observations on the spectra of primary nuclei (mainly H and He) and secondary to primary
+ratios, such as the B/C ratio and the p=p ratio, and the positrons ratio eþ=ðeÀ þ eþÞ. We also comment on some radically new models
+of the origin of CRs, in which the physical meaning of the secondary to primary ratios is not the same as in the standard model.
+Ó 2017 COSPAR. Published by Elsevier Ltd. All rights reserved.
+
+Keywords: Cosmic rays; ISM; Diffusion; MHD
+
+Contents
+
+  1. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+  2. A summary of standard predictions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+  3. Self-excited Alfve´n waves and their damping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+  4. Galactic CR transport in self-generated waves . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+  5. Propagation in the vicinity of sources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+  6. CR induced Galactic winds. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+  7. Secondary particles and antiparticles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+
+        7.1. Non-standard propagation models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+        7.2. Additional astrophysical sources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+  8. Summary and conclusions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+
+          References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 00
+
+   Corresponding authors at: INAF - Osservatorio Astrofisico di Arcetri, Largo E. Fermi, 5, 50125 Firenze, Italy.
+    E-mail addresses: amato@arcetri.astro.it (E. Amato), blasi@arcetri.astro.it (P. Blasi).
+
+http://dx.doi.org/10.1016/j.asr.2017.04.019
+0273-1177/Ó 2017 COSPAR. Published by Elsevier Ltd. All rights reserved.
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+2  E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx
+
+1. Introduction                                                 joined by DRAGON (Evoli et al., 2008), PICARD
+                                                                (Kissmann, 2014) and Usine (Maurin et al., 2001) and
+   Building a satisfactory theory for the origin of cosmic      the description of both CR transport and of its observable
+rays (CRs hereafter) is a task that consists of two funda-      consequences in terms of secondary particles and radiation
+mental parts that combined together may provide a consis-       has become increasingly more sophisticated. However all
+tent picture of what we observe: a model of particle            these numerical approaches adopt some prescriptions that
+acceleration in a class (or more than one class) of sources     have as a main motivation that of making predictions that
+and a model for transport of these particles from their         agree with all available data (including particle spectra at
+sources to Earth. The latter part is probably the one that      the Earth, secondary-to-primary ratios and diffuse Galactic
+is attracting most attention at present, and this is mostly     gamma-ray emission). For instance, all numerical
+due to some recent observations that might be challenging       approaches to CR propagation require breaks in the rigid-
+to explain in the context of the standard paradigm of cos-      ity dependence of the particle diffusion coefficient or injec-
+mic ray transport through the Galaxy.                           tion spectrum or both. The question that we are interested
+                                                                to address here concerns the existence of physical processes
+   The recent measurements of experiments such as               possibly associated with CR transport that may cause such
+PAMELA, CREAM and AMS-02, have shown that what                  breaks or any other feature in otherwise power law trends.
+appeared to be a rather featureless, proton dominated,
+power-law spectrum from about 10 GeV to the knee energy            The non-linear action of CRs on the environment man-
+of about few Â1015 eV is actually rich in structure both in     ifests itself in mainly two ways: (1) through excitation of
+terms of spectral properties and composition. First, the        streaming instability which generates waves that in turn
+spectrum of protons and helium nuclei (and possibly also        are able to scatter CRs, and (2) by exerting a dynamical
+of all nuclear species) seems to flatten in the energy range    action on the plasma, which may cause plasma motions,
+200-300 GeV/n (Adriani et al., 2011b; Ahn et al., 2010;         such as cosmic ray driven Galactic winds.
+Aguilar et al., 2015a). Second, the slopes of these species
+are slightly different from each other. This latter effect         Aside from the obvious need to connect theory and
+leads, among other things, to the dominance of the He flux      observation, there is another, maybe more subtle need to
+over that of H nuclei above 100 TeV. The appearance of          look for a more solid foundation of the theory of CR trans-
+breaks in otherwise power-law trends typically points to        port, namely find a physical motivation for aspects that we
+the existence of some energy scale that may suggest the         usually embed in the boundary conditions of our mathe-
+action of a new physical phenomenon worth being                 matical formulation of the problem. For instance, the dif-
+investigated.                                                   fusive treatment of CR transport leads to the well known
+                                                                and widely used relations that connect injection and spec-
+   Even more surprising are the recent findings concerning      tra at the Earth, only if one assumes the existence of a
+the anti-matter component of CRs: an unexpected rise with       so-called free escape boundary at some height from the
+energy in the positron to electron ratio has been detected by   disc. Such a boundary condition might be reflecting the
+both the PAMELA (Adriani et al., 2009) and AMS-02               existence of a scale height in the level of turbulence or
+experiment (Aguilar et al., 2013). In the standard scenario     background magnetic field, so that the diffusion coefficient
+of CR transport, positrons are only secondary products of       grows quickly for jzj > H . In this case one finds the stan-
+inelastic pp collisions, which implies that the positron ratio  dard relations mentioned above. However, the halo size
+should decrease with energy, hence the discovery of a rise in   could, just as well, naturally emerge from a theory of CR
+this quantity led to many speculations, ranging from            induced Galactic winds: in this case there is an energy
+anomalous transport to new sources of positrons, either         dependent transition from diffusion dominated to advec-
+due to annihilation/decay of dark matter particles or astro-    tion dominated transport which plays the role of a halo
+physical phenomena (see Serpico, 2012 for a comprehensive       boundary surface. No explicit boundary condition is
+review). The recent measurements of the ratio of the anti-      required at any finite distance, and the connection between
+proton to proton fluxes (Aguilar et al., 2016a) added to        injection and equilibrium spectrum is non-standard.
+the puzzle: this measurement suggests that this ratio does      Distinguishing between two such possibilities may make
+not drop with energy as fast as naively expected based on       the difference between fitting data and modelling the phy-
+the standard model, although this conclusion is not univer-     sics of transport.
+sally accepted, given the uncertainties in both the cross sec-
+tion of p production and in CR transport. These findings           The main aim of the paper is that of discussing some
+have stimulated a blossoming of possible scenarios that         physical aspects of non-linear CR transport and illustrating
+may explain observations, even questioning the very bases       some phenomenological implications, such as features in
+of the standard model of CR transport in our Galaxy.            the spectrum of nuclei. Moreover, some non-linear effects
+                                                                might provide the basis for a better physical understanding
+   In the last decade or so the research on CR propagation      of commonly adopted boundary conditions on the differen-
+has benefited of a considerable increase and improvement        tial equations that describe CR transport. In fact we will
+in the resources available to treat the problem numerically:    also discuss the role that these non-linear effects might play
+GALPROP (Strong and Moskalenko, 1998) has been                  in radically new scenarios of CR propagation.
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx                                        3
+
+   The article is organized as follows: in Section 2 we         @       @f a       @f a p @w @f a
+review the standard paradigm of CR propagation and its
+predictions in terms of secondary to primary ratios; in Sec-    À @z DaðpÞ @z þ w @z À 3 @z @p
+tion 3 we summarize the main processes involved in the                                    "  #
+growth of cosmic ray induced turbulence; in Section 4 we        þ lvðpÞra dðzÞf a þ 21 @ p2 dp f a
+discuss the role of CR self-generated waves in the transport         m             p @p      dt a;ion
+of these particles throughout the Galaxy, how they are
+expected to affect the diffusion coefficient and induce         ¼ 2hd q0;aðpÞdðzÞ þ X l vðpÞra0!a dðzÞf a0 ; ð1Þ
+breaks in the spectra measured at Earth; in Section 5 we                                  m
+discuss how wave self-generation may influence the con-                            a0 >a
+finement of CRs in the vicinity of their sources and affect
+the grammage; in Section 6 a scenario in which CRs are          where we defined:
+responsible for the launching of a Galactic wind is consid-
+ered and its consequences on the particle spectrum dis-         wðzÞ ¼ ðu þ vAÞHðzÞ À ðu þ vAÞ½1 À HðzÞ;  ð2Þ
+cussed; finally, in Section 7 the ``anomalies" in the
+secondary to primary ratios recently highlighted by direct      with HðzÞ the Heaviside function. Here u is the velocity of a
+detection experiments are discussed; solutions that invoke      possible Galactic outflow (if none is present u ¼ 0). The
+non-standard propagation scenarios are reviewed in Sec-         mean Alfve´n speed vA is the effective Alfve´n speed averaged
+tion 7.1, while Section 7.2 is devoted to assessing the role    upon the direction of motion of the waves: if there is an
+of pulsars as contributors to the positron excess; we pro-      equal number of waves moving in both directions then
+vide a summary and conclusions in Section 8.                    vA ¼ 0. This is the situation in which one should expect
+                                                                the highest degree of second order Fermi acceleration.
+2. A summary of standard predictions                            On the other hand, if waves only move away from the disc,
+                                                                as it is expected to be the case if they are self-generated,
+   In the standard model for the origin and propagation of
+Galactic CRs, these are accelerated in the blast waves of                                 pffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+Supernova Explosions and propagate diffusively through-         then vA ¼ vA ¼ B0= 4pmpni % 15 km/s (B0 ¼ 1lG and
+out the Galaxy interacting with the interstellar gas. The       ni ¼ 0:02 cmÀ3 are estimates of the magnetic field strength
+SN blast wave picks up the particles to be accelerated from     and gas density in the halo). In this case there is no second
+the Interstellar Medium (ISM), and hence the mass compo-        order Fermi acceleration.
+sition is expected to reflect that of the ISM, although injec-
+tion at the shock is also known to work preferentially for         In Eq. (1), ra is the spallation cross section of a nucleus
+high A=Z nuclei (Ellison et al., 1981). Electrons are also      of type a; l is a grammage parameter of the disc fixed to
+accelerated together with protons and heavier nuclei, while     2.4 mg/cm2 (l ¼ meff nH 2hdisk, with meff % 1:4mp; nH the gas
+positrons (and antiprotons) present in CRs have long been       density in the disk and hd the disk height), and q0;aðpÞ is
+considered to be of purely secondary origin, namely deriv-      the rate of injection per unit volume in the disk of the
+ing from the nuclear collisions of CR hadrons with the ISM      Galaxy. The total cross section for spallation and the cross
+they encounter during their journey from the sources to         sections for the individual channels of spallation of a heav-
+Earth.                                                          ier element to a lighter element (ra0!a) are provided by
+                                                                Webber et al. (1990, 2003).
+   Many subtle aspects of CR transport have been dis-
+cussed for many years and have led the community to                At high enough energies that ionization losses (fifth term
+the adoption of propagation codes such as GALPROP               in Eq. (1)) are not important and advection terms, even
+(Strong and Moskalenko, 1998), DRAGON (Evoli et al.,            when present, are subdominant, considering protons as pri-
+2008), PICARD (Kissmann, 2014) and Usine (Maurin                mary nuclei, the equation above reduced to the well known
+et al., 2001). This section is not aimed at summarizing all     equation:
+the details of propagation that such codes can describe,
+mainly thanks to a detailed description of the gas distribu-       @  @f p
+tion in the Galaxy and the collection of accurate data on       À @z DpðpÞ @z ¼ 2hdq0;pðpÞdðzÞ ð3Þ
+the relevant cross sections. Instead we aim at providing a
+description of the main physical results that can be derived    where the injection term is 2hd q0;pðpÞ ¼ pR2 NðpÞR ; N ðpÞ is the
+from simpler descriptions of CR transport.
+                                                                                                                                                                                  d
+   The simplest implementation of CR transport that still
+retains the main physical aspects is one in which the effec-    spectrum produced by each source (for instance a SNR),
+tive transport only takes place in the z direction perpendic-   R is the rate per unit time of occurrence of such sources
+ular to the Galactic disc. The formalism can be easily          in the Galaxy and Rd is the radius of the Galactic disc.
+generalized to 3D. The transport equation for CR nuclei         Notice that while Eq. (3) is specialized to the simplest case
+(both primaries and secondaries) can be written as:
+                                                                of a uniform injection throughout the disc, the same equa-
+
+                                                                tion can be easily generalized to include a dependence of
+                                                                the injection rate on the galactocentric radius.
+
+                                                                   Eq. (3) is usually solved by imposing a free escape
+                                                                boundary condition, f pðjzj ¼ H ; pÞ ¼ 0 and using the sym-
+                                                                metry of the problem, @z @f p jz¼0À ¼ À @z @f p jz¼0þ . These assump-
+                                                                tions lead to the well known solution:
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+4                                 E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx
+
+f 0;p ¼  N ðpÞR H 2   :                            ð4Þ            that a secondary nucleus is both produced by the parent
+                                                                  nucleus and destroyed by spallation, one has:
+         22pRd H DðpÞ
+                                                                                                         X ðRÞ
+   This latter expression has a simple physical interpreta-
+                                                                  I aðEk Þ ¼ I a0>aðEk Þ X ðRÞ X cr;a0!a ; ð7Þ
+tion: the density of protons of any given momentum as                                    1 þ X cr;a
+
+observed at the Earth is the product of the rate of injection     where X cr;a0!a ¼ mp=ra0!a and X cr;alpha ¼ mp=ra. Eq. (7)
+                                                                  shows the load of physical information embedded in the
+per unit volume on the entire volume of the Galaxy and the        so called secondary to primary ratios, IaðEkÞ=Ia0>aðEkÞ,
+confinement time H 2=DðpÞ. For an injection N ðpÞ / pÀc           such as the B/C ratio: for sufficiently high rigidities, where
+and a diffusion coefficient DðpÞ / pd, the CR spectrum            Xcr;a XðRÞ ( 1, the ratio has the scaling / X ðRÞ, hence the mea-
+inside the disc is f 0;p / pÀcÀd.                                 surement of such ratios provides information on the gram-
+                                                                  mage X ðRÞ traversed by CRs, and indirectly on the
+   For primary nuclei the situation is similar but energy         diffusion coefficient, which represents the connection
+                                                                  between the micro-physics of particle scattering and the
+losses due to spallation may become important (see for            macro-physics of CR transport. It is worth stressing that
+                                                                  this scaling is based on the assumption that the spallation
+instance Blasi and Amato, 2012), especially for heavier           cross sections remain energy independent even at high
+                                                                  energies. Moreover, the assumption that the flux of a given
+species. In the simplest case in which there is no advection      secondary nucleus is dominated by one primary is usually
+                                                                  bad: taking into account the contribution of all nuclei with
+and spallation occurs mainly in an infinitely thin disc, one      a0 > a leads to decrease the estimate of the X ðRÞ necessary
+                                                                  to reproduce the flux of a given secondary nucleus and
+can write a simpler version of Eq. (1) as:                        therefore leads the approximate proportionality of the
+   @  @IaðEkÞ N aðEkÞR                                            ratio to X ðRÞ verified at lower rigidity. Despite this, the sec-
+                                                                  ondary to primary ratios can be considered as a good
+À @z Da @z ¼ pRd2 dðzÞ                                            approximation to X ðRÞ only for R J 100 GV.
+
+                         À IaðEkÞnd vðpÞra2hdðzÞ;  ð5Þ               The considerations above remain qualitatively valid for
+                                                                  other secondaries such as positrons (eþ) and antiprotons
+where we assumed that the contribution of spallation of           (p), with some noteworthy differences: (1) the transport
+                                                                  of positrons and electrons may be dominated by radiative
+heavier primaries to the flux of a given primary nucleus is       energy losses; (2) the cross section for production of
+                                                                  antiprotons depends on energy and is known rather poorly
+negligible. Here we also introduced the flux of nuclei of         at energies above $ 100 GeV (see di Mauro et al., 2014 for
+type a, as IaðEkÞdEk ¼ p2vðpÞf aðpÞdp, so that                    a recent calculation).
+IaðEkÞ ¼ Ap2f aðpÞ (Jones et al., 2001), with Ek the kinetic
+energy per nucleon for a nucleus of mass number A. The               Recently, violations of the general trend that the sec-
+                                                                  ondary to primary ratios decrease as X ðRÞ have been mea-
+solution of this equation is easily found following the same      sured in the case of the positron ratio (eþ=ðeÀ þ eþÞ) and
+                                                                  the p=p ratio have been interpreted as problematic and
+steps as above:                                                   potentially leading to radical changes in the standard pic-
+                                                                  ture illustrated above. We will discuss these implications
+         NaR H2 1                                                 and their limitations later in this paper.
+IaðEkÞ ¼ 2               X ðRÞ :                   ð6Þ
+         2pRd H D 1 þ X cr;a                                         While the recent anomalies concern relatively high
+                                                                  energy measurements, it has long been known that the
+   Here     we           introduced  the           grammage       observed low energy behaviour of these ratios typically
+                                                                  requires that either the diffusion coefficient has a plateau
+X ðRÞ ¼ nd ðh=H Þv DðRÞ H2 , as a function of the rigidity R and  at rigidity K 3 GV, or the injection spectrum flattens at
+                                                                  low energies and substantial re-acceleration occurs, or,
+the critical grammage X cr;a ¼ mp=ra for a nucleus of type        finally, advection plays a prominent role (see for instance
+                                                                  Jones et al., 2001). In standard approaches to CR trans-
+a. Since the grammage is a decreasing function of rigidity,       port, these instances are accommodated by imposing
+                                                                  breaks in either the diffusion coefficient or the injection
+one can expect that at high rigidities the grammage tra-          spectrum. However it is worth keeping in mind that breaks
+                                                                  in power laws are usually a signature of some relevant
+versed by particles is small (X ðRÞ ( X cr;a) so that the stan-   physical scale that enters the problem. A couple of very dif-
+                                                                  ferent scenarios that would both manifest themselves with
+dard scaling, also found above for protons, is recovered.
+
+On the other hand, in the opposite limit X ðRÞ K X cr;a, the
+
+observed spectrum gets harder, namely closer to the injec-
+
+tion spectrum.
+
+   For all nuclei, including protons, ionization losses
+
+become important at low energies. What happens to the
+
+spectrum then depends on a rather complex interplay
+
+between advection (when present), diffusion (in this energy
+
+region the diffusion coefficient is usually, but not always,
+
+assumed to be constant) and losses.
+
+   For secondary nuclei, the situation is more complex
+
+because the whole chain of spallation reactions of heavier
+
+nuclei should be followed. However a physical understand-
+
+ing of what happens can be achieved by assuming that the
+
+main contribution to the flux of a given secondary product
+
+is provided by one dominant primary. The process of spal-
+
+lation conserves the kinetic energy per nucleon Ek, hence,
+
+repeating the calculations above but taking into account
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx                                     5
+
+the appearance of breaks similar to those necessary to fit         Attention towards this instability in both contexts has
+the data will be discussed in Section 6.                        been revived in recent years due to different reasons. As
+                                                                far as particles' confinement in the accelerators is con-
+   Before concluding this section, let us recall that a resid-  cerned, it was realised by Bell (2004) that a branch of this
+ual grammage is also often introduced as a free parameter,      instability, that had not previously been considered, has an
+to be added to X ðEÞ. The residual grammage is usually          especially fast growth in the vicinity of a SNR shock and
+assumed to be rigidity independent and to represent the         can in principle explain the large magnetic fields implied
+potential contribution to secondary production inside the       by X-ray observations (Vink, 2012) and possibly justify
+sources of CRs, although in some alternative scenarios of       CR acceleration up to the knee. Bell's initial suggestion
+CR transport (Cowsik and Burch, 2010; Cowsik et al.,            gave rise to a wealth of studies (e.g. Zirakashvili and
+2014; Cowsik and Madziwa-Nussinov, 2016) most gram-             Ptuskin, 2008; Reville et al., 2008; Amato and Blasi,
+mage is assumed to be accumulated near the source rather        2009; Zweibel and Everett, 2010; Riquelme and
+than during propagation through the Galaxy, and an              Spitkovsky, 2009) on this branch of the instability (Bell's
+energy independent grammage at high energy is instead           instability or non-resonant streaming instability, hereafter),
+assumed to be the contribution of the Galaxy. Physically,       aimed at further exploring its consequences in different
+the introduction of a residual grammage implies that the        contexts.
+secondary-to-primary ratios should become roughly con-
+stant at sufficiently high rigidity.                               At the same time the classical version of the streaming
+                                                                instability has also gained renewed attention in light of
+   The simple model of CR transport illustrated above may       the breaks in CR spectra highlighted by PAMELA,
+be easily generalized to mildly more complex situations,        AMS-02 and CREAM. The growth of this subset of unsta-
+such as a z-dependent non-separable diffusion coefficient       ble modes is induced by fast streaming particles at wave-
+(see for instance Dogiel et al., 2002; Tomassetti, 2012).       lengths that are resonant with their Larmor radius rL,
+                                                                namely k ¼ 1=rLðpÞ, where k is the wavenumber of the per-
+3. Self-excited Alfve´n waves and their damping                 turbation. Resonant modes are always unstable to growth
+                                                                as long as the particles are super-Alfve´nic with respect to a
+   An aspect of CR research that has received increasingly      pre-existing magnetic field B0. When this condition is satis-
+more attention in recent years is the exploration of the non-   fied, the resonant mode grows with a rate:
+linearities entailed by CR acceleration and propagation.
+The emerging picture is one in which CRs are far from pas-      RES p2 vA RES
+sive spectators of their acceleration and transport through     CCR ðkÞ ¼        J CR ðkÞ;             ð8Þ
+the Galaxy. They rather affect the environment that hosts                  c B0
+them in two main ways: through an actual dynamical
+action where their energy density is large enough to com-       where J CR RES is the current carried by particles (for ease of
+pete with that of the background gas (as e.g. close to a blast
+wave that is providing efficient acceleration), and through     notation we here consider protons and only in the end gen-
+their ability at generating hydromagnetic waves every time
+their number density is large enough (a condition that is       eralise the result to include different nuclear species) with
+easily realised even in the general galactic environment,
+far from the sources, at low enough energies). Indeed the       momenta p P presðkÞ ¼ eB0=ck, along the direction of the
+proposal that self-generation of waves could play a funda-                                  !
+mental role for the isotropization and confinement of CRs                                      !
+in the Galaxy goes back to the '70s (Skilling, 1971; Holmes,    background magnetic field B0 ¼ B0 z .
+1975), when it was first realised that super-alfe´nic stream-
+ing of CRs induces the growth of magnetic waves (Alfve´n        The non-resonant mode has more stringent require-
+waves) through streaming instability. The general idea is
+as follows: as soon as there are energetic particles stream-    ments for its growth, in particular the particle drift must
+ing at a speed that is larger than the local Alfve´n speed
+(the characteristic speed of magnetic disturbances parallel     occur at a speed
+to the pre-existing magnetic field in a medium), Alfve´n
+waves of appropriate wavelength become unstable and             vd > cU B=U CR;                        ð9Þ
+grow in amplitude. This phenomenon is what is referred
+to as streaming instability and has long been suspected to      where U B and U CR are the energy density in magnetic field
+play a major role both in CR transport across the Galaxy        and accelerated particles respectively.
+(see Cesarsky, 1980; Wentzel, 1974 for reviews) and in pro-
+viding the efficient confinement that is needed in CR accel-       In this case the instability has its maximum growth rate
+erating sources in order to reach the highest observed          at wavenumber kc ¼ 4pJ CR=ðcB0Þ, at which it grows with a
+energies (see Blasi, 2013; Amato, 2014a for recent reviews).    rate:
+
+                                                                CCR NRðkcÞ ¼ 4p vA J CR:               ð10Þ
+                                                                               c B0
+
+                                                                where J CR is the total electric current carried by CRs of all
+                                                                momenta.
+
+                                                                   The expressions above make immediately clear that the
+                                                                non-resonant instability should be important where the CR
+                                                                density and/or velocity are especially high, and hence
+                                                                within CR sources or in their vicinity, whereas for particle
+                                                                transport in the Galaxy, far from the sources, the resonant
+                                                                branch is bound to be the relevant one.
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+6                                    E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx
+
+   For the purpose of the present discussion, a more useful
+
+way of writing Eq. (8) is by expressing the resonant CR
+
+current in terms of particles' density gradient:
+
+            @f 
+J CR RES ¼ 4pe DðpÞp3             ;               ð11Þ
+                       @z p¼pres
+
+where f is the particle density in phase space and DðpÞ is the
+diffusion coefficient. The latter can be expressed through
+quasi-linear theory as:
+
+DðpÞ ¼ 4 rLðpÞvðpÞ ð12Þ
+          3p kW ðkÞ
+
+where kW ðkÞ is the energy density of the perturbations of
+
+wavelength k relative to the background magnetic field,          Fig. 1. The non-linear damping rate (CNLD, red curves), the ion-neutral
+                                                                 damping rate (CIND, blue curves) and the growth rate of CR induced
+namely, W ðkÞ is such that:                                      resonant streaming instability (CR, black curves) are plotted (in units of
+                                                                 yrÀ1) as a function of particle energy (in GeV). The two sets of curves
+Z1                                                               correspond to different choices of the parameters values: the solid curves
+                                                                 are for waves in the warm, partially ionised medium
+       W ðk0Þdk0 ¼ dB2=B20;                       ð13Þ           (T 4 ¼ 0:8; B0 ¼ 3lG; nH ¼ 0:05 cmÀ3; ni ¼ 0:5 cmÀ3). CCR has been com-
+                                                                 puted through Eq. (14) with DðpÞ ¼ 1:33 Â 1028ðH =kpcÞðpc=3GeV Þ1=3 and
+   1=L                                                           nCR is the proton spectrum provided by AMS02 (Aguilar et al., 2015a).
+                                                                 The dashed blue curve representing the IND rate corresponding to a
+where L is the largest scale in the spectrum.                    density of neutral gas as low as nH ¼ 10À5 cmÀ3. (For interpretation of the
+                                                                 references to color in this figure legend, the reader is referred to the web
+   Using Eq. (12) into Eq. (11), we can finally write the        version of this article.)
+
+growth rate of the instability in a form that is useful for      nance condition to a particle rigidity Rc % 200 GV. At
+                                                                 rigidities much lower than Rc (wavenumbers k ) kc) wave
+the back of the envelope estimates to follow:                    damping occurs at a rate mIN, while becomes progressively
+                                                                 less important at higher energies (smaller wavenumbers)
+   RES p2e vA DðpÞ 3                                             scaling as mINðk=kcÞ2. Physically, this is due to the fact that
+CCR ðkÞ ¼                    4pp f ðpÞ ;          ð14Þ           in the presence of high frequency disturbances, ions and
+           B0 c H                                                neutrals do not have time to become effectively coupled,
+                                     p¼pres                      so that only the ions are involved in the wave motion
+                                                                 and in every charge-exchange event energy must be drained
+where we have approximated the gradient of the distribu-         from the wave by the new charged particles that needs to
+tion function as @f =@z % f =H , with H the size of the halo.    settle down. The relative importance of IND and NLD
+                                                                 depends on the local abundance of neutral atoms. For typ-
+   The magnetic perturbations will effectively grow only if      ical values of the parameters, as reported above, the neutral
+the rate in Eq. (14) is faster than the damping processes at     friction easily suppresses the growth of waves, as is clearly
+work. The main damping mechanisms traditionally consid-          seen from the plot in Fig. 1, where the rates of ion-neutral
+ered for these waves are non-linear damping (NLD here-           damping (Eq. (16)), non-linear damping (Eq. (15)) and CR
+after) and ion-neutral damping (IND hereafter). The              induced wave growth (Eq. (14)) are compared. The curves
+effectiveness of the two depends on the local ISM proper-        in the figure refer to different conditions in the ISM (as
+ties. NLD consists in wave-wave interactions that lead           described in the caption) and clearly show how severe a
+the development of a turbulent cascade. A widely used pre-       limit for wave-growth ion-neutral damping provides.
+scription for the rate at which it occurs is (Ptuskin and
+Zirakashvili, 2003):                                                The issue of the role of IND for CR propagation in the
+                                                                 Galaxy is an old one, dating back to the work of Skilling
+CNLDðkÞ ¼ ð2cK ÞÀ3=2kvAðkW ðkÞÞ1=2; cK % 3:6: ð15Þ               (1971) and Holmes (1975), who pointed out that IND
+                                                                 would induce a wave free zone above and below the Galac-
+   The above expression is equivalent to assuming a Kol-         tic disc (where the density of neutrals is the highest) where
+mogorov description of the turbulent cascade.                    CRs would move ballistically. Particle isotropization
+                                                                 would then rely on the existence of a high altitude, fully
+   As far as IND is concerned, the damping rate is given by      ionised region, where wave growth would be faster than
+(e.g. Drury et al., 1996):                                       IND, thereby allowing CR diffusion. As we discuss in the
+                                                                 following section, this idea of particle self-confinement
+               k2                                 ð16Þ
+CINðkÞ ¼ 2 2 mIN
+
+            k þ kc
+
+where mIN ¼ 8:4 Â 10À9 sÀ1T 40:4nH is the ion-neutral collision
+frequency, with T 4 the temperature of the ambient medium
+in units of 104K and nH the density of neutrals in units of
+cmÀ3. The critical wavenumber separating the two regimes
+is kc ¼ ðmIN=vAÞðni=nH Þ, where ni is the density of
+ionised material. For typical ISM conditions
+(T 4 ¼ 1; B0 ¼ 3lG; ni ¼ 0:45 cmÀ3 and nH ¼ 0:05 cmÀ3
+(Ferrie`re, 2001)) the critical wavenumber turns out to be
+kc ¼ 4:5 Â 10À15 cmÀ1, corresponding, through the reso-
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+                        E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx                                             7
+
+provides a very natural way of explaining the breaks             be noticed however that, while anisotropic cascading
+detected in the spectra of nuclei in the few hundred GeV         appears to be a problem when power is mainly injected
+energy range.                                                    at one (typically large) scale (energy containing scale), it
+                                                                 is expected that it is less of a problem for self-generated tur-
+   Another obvious place where the ion-neutral friction          bulence, which is injected continuously at all relevant
+can be overcome is in the vicinity of the sources where          scales.
+CCR is larger thanks to a larger gradient in the CR density
+than adopted for the plot in Fig. 1. We will also shortly           A back of the envelope estimate (Blasi et al., 2012) of the
+mention this process and its consequences in Section 5.          transition scale between the dominance of CR induced tur-
+                                                                 bulence and general MHD turbulence in the Galaxy can be
+4. Galactic CR transport in self-generated waves                 obtained as follows. One can solve Eq. (18) separately for
+                                                                 the CR induced turbulence W CR and for the externally
+   The problem of explaining what kind of turbulence             injected turbulence W ext. The second simply evolves in a
+would ensure effective CR scattering dates back to the very      Kolmogorov's spectrum with normalisation gB, while the
+early days of CR research. On one hand, one could assume         first is found as the solution of CCR ¼ CNLD computed for
+that turbulence is injected, for instance by supernova           the high energy proton spectrum measured by PAMELA
+explosions and eventually cascades towards the small scales      and AMS-02. The spatial scale ktr at which
+relevant for particle scattering. On the other hand, it is dif-  W extðktrÞ ¼ W CRðktrÞ, corresponds to a change in the wave
+ficult to imagine that such turbulence would exist at high       spectrum that reflects into a change of the equilibrium par-
+altitude above the Galactic disc. Let us consider the sim-       ticle spectrum at the resonant energy
+plest possible approach to the problem, namely a one-
+zone model in which the turbulence is injected in the whole      Etr % 230 GeV             À1 !2ðcp À4Þ 3     ð2cp À5Þ                 ð19Þ
+Galaxy at a rate:
+                                                                                                       3   B0;l 2ðcp À4Þ;
+
+                                                                                   Rd;10H 3
+                                                                                  n0:1E51R30
+
+qW ðkÞ ¼ gBdðk À 1=lcÞ                            ð17Þ           where Rd;10 and H 3 are the radius of the Galactic disk and
+
+with lc $ 50 À 100 pc and gB defined such that                   halo in units of 10 and 3 kpc respectively, n0:1 is the CR
+                   R
+                                                                 acceleration efficiency per SNR in tens of percent, E51 is
+gB ¼ dB2=B20 ¼ dkW ðkÞ (see Eq. (13)). This turbulence is
+then believed to cascade to smaller scales and a commonly        the SN explosion energy in units of 1051 erg and R30 is
+
+(though not universally) accepted description of the cas-        the SN rate in units of 1/(30 yr); B0;l is the average strength
+
+cading process is that leading to a Kolmogorov's spectrum        of the Galactic magnetic field in l G and finally cp is the
+W ðkÞ / kÀ5=3. In the absence of neutrals providing addi-
+tional friction, the evolution of the wave spectrum under        observed proton spectral index (in momentum) at energies
+the action of cascading in k-space and wave excitation by
+                                                                 above 300 GeV (from AMS-02 data cp ¼ 4:72). The turbu-
+the streaming CRs can be described as:
+@  @W                                                            lence spectrum will be dominated by CR induced turbu-
+@k Dkk @k þ CCRW ¼ qW ðkÞ; ð18Þ
+                                                                 lence at scales smaller than k % rLðEtrÞ ¼ 1015 cm and by
+
+                                                                 external turbulence at larger scales. As a result, the diffu-
+
+                                                                 sion coefficient will change its energy dependence around
+
+                                                                 that energy. At higher energies, particle transport is sensi-
+
+where Dkk ¼ k2CNLDðkÞ is the diffusion coefficient of waves      tive to the Kolmogorov-like part of the turbulent spectrum,
+in k-space for a Kolmogorov phenomenology, with CNLD
+given by Eq. (15). The description of wave cascading as a        W ðkÞ  /  kÀ53,  and  hence  DðpÞ  /     1  (see  Eq.     (12)).  At  lower
+process of diffusion in k-space was first put forward by
+Zhou and Matthaeus (1990) and later applied by Miller                                                  E3
+and Roberts (1995) to the description of solar flares as a
+second order acceleration process. Such a formalism              energies the growth of waves induced by CR streaming is
+should be considered as a mathematically convenient way
+to treat this process though certainly not retaining all the     the dominant effect: the spectrum of turbulence acquires
+complexity of the phenomenon. For instance it does not
+include (and we do not consider here) the fact that cascad-      a stronger dependence on the wavenumber and the spec-
+ing of Alfve´nic modes proceeds in an anisotropic manner,
+moving power from the parallel to the perpendicular              trum of particles resulting from transport becomes corre-
+wavenumbers (Shebalin et al., 1983; Sridhar and
+Goldreich, 1994). In fact this represents one of the most        spondingly steeper. The transition from a steeper
+problematic aspects of scattering theory nowadays, since
+modes with wavenumbers perpendicular to the regular              spectrum at lower energies to a harder spectrum at higher
+magnetic field are in general inefficient at scattering parti-
+cles. Hence, although it is a fact that scattering takes place   energies compares extremely well with the spectral breaks
+in the Galaxy, its origin is not completely clear. It should
+                                                                 measured by PAMELA and AMS-02, such transition
+
+                                                                 taking place at energy $ Etr.
+
+                                                                 A more thorough investigation of the non-linearities
+
+                                                                 involved in the physics of propagation was carried out by
+
+                                                                 Aloisio and Blasi (2013) who included in the study not only
+
+                                                                 protons, but also all other nuclear species that are relevant
+
+                                                                 for wave growth and, even more important, allow one to
+
+                                                                 compare the theoretical predictions of the model with other
+
+                                                                 observables, such as the B/C ratio. Again the waves and
+
+                                                                 particles' spectra were computed self-consistently through
+
+                                                                 a generalization of the same set of equations. The
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+8                           E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx
+
+Fig. 2. Spectrum of protons (left) and He nuclei (right) measured by Voyager (blue empty circles), AMS-02 (black filled circles), PAMELA (green empty
+squares) and CREAM (blue filled squares), compared with the prediction of the calculations (lines) by Aloisio et al. (2015). The solid line is the flux at the
+Earth after the correction due to solar modulation, while the dashed line is the spectrum in the ISM. (For interpretation of the references to color in this
+figure legend, the reader is referred to the web version of this article.)
+
+expressions for the wave growth and for the diffusion coef-
+
+ficient are generalized as follows:
+
+CcrðkÞ ¼  16p2     vA X 4                
+                     2 p vðpÞ        @f a           ;  ð20Þ
+
+          3 k W ðkÞB0 a              @z p¼ZaeB0=kc
+
+and
+
+                         
+DaðpÞ ¼ 1 p c vðpÞ 1 ; ð21Þ
+          3 ZaeB0    k W ðkÞ k¼ZaeB0=pc
+
+with Za being the electric charge of nuclei of species a and   Fig. 3. B/C ratio as measured by CREAM (blue squares), PAMELA
+k ¼ ZaeB0=p c the resonant wave number. The nonlinearity       (green empty squares), and according to preliminary measurements of
+of the problem is evident here. The diffusion coefficient for  AMS-02 (black circles). The black/bottom solid line is the prediction of
+each nuclear species depends on all other nuclei through       the model by Aloisio et al. (2015), while the red/top line has been obtained
+the wave power W ðkÞ, but the spectra are in turn deter-       by adding a source grammage of 0.15 g cmÀ2, close to that given by Eq.
+mined by the relevant diffusion coefficient. In Aloisio and    (22). (For interpretation of the references to color in this figure legend, the
+Blasi (2013), the spectra of several nuclei and the ratio      reader is referred to the web version of this article.)
+B=C were computed self-consistently and showed to well
+reproduce the existing data, including the presence of         lent agreement with the Voyager data (see dashed lines).
+breaks in the spectra of all nuclei at rigidity $ 100 À 1000   This is a non-trivial conclusion, given that in this model,
+GV. The same calculations were later applied to the            at sufficiently low energies (below $ 10 GeV/n), particle
+AMS-02 data (Aguilar et al., 2015b) and Voyager                transport is dominated by advection with self-generated
+(Stone et al., 2013) by Aloisio et al. (2015), where the       waves (at the Alfe`n speed), rather than by diffusion. This
+resulting B/C ratio was also compared with the preliminary     fact reflects into a weaker energy dependence of the prop-
+AMS-02 data available at the time.                             agated spectra, which is exactly what Voyager measured
+                                                               (see also Potgieter, 2014). It should be noticed that in order
+   The spectra of protons and helium nuclei as calculated      to reflect the slightly harder observed spectrum of helium
+by Aloisio et al. (2015) are shown in Fig. 2. The solid lines  nuclei at all energies, the injection spectra of hydrogen
+indicate the spectra at the Earth, namely after solar modu-    and helium used to obtain the curves in Fig. 2 were chosen
+lation modelled using the force-free approximation             to be / EÀ2:2 and / EÀ2:15 respectively. While a few models
+(Gleeson and Axford, 1968), while the dashed lines are         have been put forward (Malkov et al., 2012; Ptuskin et al.,
+the spectra in the ISM. The data points are the measure-       2013; Tomassetti, 2015), a widely accepted explanation for
+ments by Voyager (empty circles, Stone et al. (2013)),         the remarkable difference in the spectra of H and He is still
+AMS-02 (filled circles, Aguilar et al. (2015b)), PAMELA        missing.
+(empty squares, Adriani et al. (2011b)), and CREAM
+(filled squares, Yoon et al. (2011)). Fig. 2 shows several        In Fig. 3 we show the B/C ratio (solid black line) calcu-
+interesting aspects: (1) the spectra of protons and He nuclei  lated by Aloisio et al. (2015) as compared with data from
+show a pronounced change of slope at few hundred GeV/n,        CREAM (blue squares), PAMELA (green squares), and
+where self-generation of waves becomes less important
+than pre-existing turbulence (in fact, the change of slope
+takes place in rigidity). (2) The spectra calculated to opti-
+mize the fit to the AMS-02 and PAMELA data are in excel-
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx  9
+
+the preliminary data from AMS-02 (black circles). The           linear effect. Even numerically, taking vA $ 10 km/s and
+conclusions reached by Aloisio et al. (2015) retain their       H $ 3 kpc, one would get D $ 2 Â 1028 cm2 sÀ1, close to
+validity even in the aftermath of the newly released official   the value that is typically assumed in the literature to fit
+AMS-02 data on the B/C ratio (Aguilar et al., 2016b): the       data.
+model predictions fit the AMS-02 data up to $ 100 GeV/n.
+At higher energy, the AMS-02 analysis seems to suggest a        5. Propagation in the vicinity of sources
+B/C ratio somewhat higher than our prediction, which
+might suggest the presence of an additional contribution           Near their sources, the density of CRs remains larger
+to the grammage traversed by CRs. The most straightfor-         than the Galactic average density for quite some time,
+ward possibility to account for such a grammage is that         hence both the CR density and gradient are large enough
+it may be due to the matter traversed by CRs while escap-       that one can expect non-linear effects to dominate trans-
+ing the source, for instance, a SNR. The grammage due to        port. In turn, such non-linearities act in the direction of
+confinement inside a SNR can be easily estimated as             enhancing the confinement of CRs near the sources. The
+                                                                picture that arises from these considerations is one in which
+X SNR % 1:4rsmpnISMcT SNR                           ð22Þ        the first stages of release of CRs into the ISM are all but
+       % 0:17 g cm cmÀ3 2 Â 104 À2 nISM T SNR yr ;              trivial.
+
+where nISM is the density of the interstellar gas upstream of      This phenomenon has been recently investigated by
+a SNR shock, rs ¼ 4 is the compression factor at the shock,     Ptuskin et al. (2008), Malkov et al. (2013), D'Angelo
+and T SNR is the duration of the SNR event (or better, the      et al. (2016), Nava et al. (2016) though under somewhat
+lifetime useful to confine particles up to E $ TeV/n),          different assumptions. The conclusion that is reached is
+assumed here to be of order $ 2 Â 104 years. The factor         however very similar: accelerated particles constitute a pri-
+1.4 in Eq. (22) has been introduced to account for the pres-    mary source of turbulence in the vicinity of their accelera-
+ence of elements heavier than hydrogen in the target.           tors. The amount of turbulence that they can generate and,
+Eq. (22) is clearly only a rough estimate of the grammage       as a consequence, the time for which they are confined
+at the source: first, several (in general energy dependent)     close to the sources strongly depend on the near source
+factors may affect the estimate; second, it does not take into  environment. Ptuskin et al. (2008) found a semi-
+account the fact that the gas density experienced by parti-     analytical self-similar solution of the transport equation
+cles changes in time during the expansion of the shell.         in the assumption that NLD was the only damping process
+Despite these caveats, Eq. (22) at least provides us with a     to limit the growth of the waves. A self-similar solution was
+reasonable benchmark value. The solid red curve in              also found by Malkov et al. (2013) in the assumption that
+Fig. 3 shows the result of adding the grammage accumu-          ion-neutral damping (IND) limits the growth of self-
+lated by CRs inside the source to that due to propagation       generated waves. On the other hand D'Angelo et al.
+in the Galaxy. It is apparent that the curve accounting for     (2016) and Nava et al. (2016) proposed a numerical solu-
+production at source fits better the AMS-02 data at high        tion of the transport equation close to a CR source in
+rigidity, while it is also compatible with the older CREAM
+data.                                                           Fig. 4. Escape time of CRs from the near-source region. A coherence
+                                                                length of the background magnetic field Lc ¼ 100 pc is assumed. Three
+   As discussed in this section, the possibility that CRs may   cases are considered with varying densities of neutrals and ions:
+appreciably contribute to generating the waves responsible      (1) nn ¼ 0; ni ¼ 0:45 cmÀ3; (2) ni ¼ 0:45 cmÀ3 and nn ¼ 0:05 cmÀ3; (3)
+for their own scattering is very fascinating and pregnant       nn ¼ 0; ni ¼ 0:01 cmÀ3. The dotted line refers to the escape time calculated
+with implications. Aside from the ones discussed above,         assuming the Galactic diffusion coefficient rather than the self-generated
+one should recall a few other considerations that may be        one. The figure is from the work by D'Angelo et al. (2016).
+easily understood physically: first, wherever there are more
+sources of CRs, one should expect a higher gradient, hence
+more waves, which in turn result in a higher CR density.
+The connection between this simple line of thought and
+the problem of the CR gradient is intuitively clear and
+has been discussed recently by Recchia et al. (2016). Sec-
+ond, it can be shown in a rather general way, that self-
+generation of waves automatically leads to a diffusion coef-
+ficient that at rigidities below $ 10 GV becomes roughly
+energy independent to a value D $ 2vAH , where vA is the
+Alfve´n speed and H the size of the halo. The assumption
+that is usually made in transport calculations that the dif-
+fusion coefficient is constant in rigidity at low rigidity
+might in fact have a physical explanation in this non-
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+10  E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx
+
+the presence of both NLD and IND. The paper of Nava                             cient that even CRs in the TeV energy range can be con-
+et al. (2016) focuses on the implications of the self-                          fined within $ 100 pc from their sources for several tens
+generation in terms of enhanced gamma ray emission from                         of thousands of years, while in the absence of self-
+dense clouds in the near source region.                                         generation they would leave the same region in less than
+                                                                                104 years (curve labelled as tdif in the plot). Conversely
+   The paper by D'Angelo et al. (2016) emphasizes another                       the residence time close to the source becomes much
+aspect of the problem, with potentially crucial implications                    shorter, and eventually comparable to that expected in
+for the way we derive information about particle transport                      the absence of self-generation, as the fraction of neutral
+from the measurement of secondary to primary ratios.                            hydrogen increases.
+Most CR sources are located in the disc of the Galaxy,
+where the typical density is $ 1 cmÀ3 and the magnetic field                       In all cases considered by D'Angelo et al. (2016) the res-
+is thought to be mostly ordered on scales Lc $ 100 pc, pos-                     idence time in the near source region remains shorter than
+sibly larger if dB=B < 1 on that scale. As we already dis-                      the residence time in the Galaxy at all energies, while the
+cussed in Section 3, the ionisation of the ambient                              grammage accumulated during this time can be non-
+medium is of crucial importance.                                                negligible with respect to the overall grammage, as inferred,
+                                                                                for example, from B/C measurements. This is due to the
+   In order to account, to some extent, for the uncertainty                     fact that while CRs spend most of the time propagating
+in the role of IND around sources of CRs, D'Angelo et al.                       through the tenuous gas in the galactic halo, they mostly
+(2016) considered the following cases: (1) No neutrals and                      accumulate grammage when crossing the galactic disk. If
+gas density 0:45 cmÀ3 (this is the best case scenario in terms                  ss ' Lc2=Dsg is the time spent within Lc of the source under
+of importance of the near source grammage); (2) Neutral                         the action of the self-generated diffusion coefficient Dsg,
+density nn ¼ 0:05 cmÀ3 and ion density ni ¼ 0:45 cmÀ3; (3)                      then the accumulated grammage becomes comparable with
+Neutral density nn ¼ 0:03 cmÀ3 and ion density                                  the Galactic grammage as soon as ss $ sH hd =H % 10À2,
+ni ¼ 0:45 cmÀ3; (4) rarefied totally ionized medium with                        with hd the height of the disk. The work by D'Angelo
+density ni ¼ 0:01 cmÀ3. The reasons why these particular                        et al. (2016) shows that in the absence of neutral hydrogen,
+values were chosen will become clear in the following.                          responsible for IND, the self-generation of waves may be
+The calculation also assumes a SN explosion energy of                           sufficient to warrant these conditions. On the other hand,
+1051 erg, a coherence length of the background magnetic                         the fraction of neutral hydrogen in the ISM depends on
+field Lc ¼ 100 pc and CR acceleration efficiency of 20%.                        the phase of the gas: the densest gas (the one that would
+                                                                                provide more grammage) is also the coldest and thereby
+   As the plot in Fig. 4 (from D'Angelo et al. (2016))                          the least ionised.
+shows, in the absence of neutrals, wave generation is so effi-
+                                                                                   The grammage in the near source region as calculated by
+Fig. 5. Grammage accumulated by CRs in the near-source region for               D'Angelo et al. (2016) is shown in Fig. 5: in the absence of
+Lc ¼ 100 pc in the 3 cases: (1) nn ¼ 0; ni ¼ 0:45 cmÀ3; (2) ni ¼ 0:45 cmÀ3      neutral hydrogen and with a gas density nWIM % 0:45 cmÀ3
+and nn ¼ 0:05 cmÀ3; (3) nn ¼ 0; ni ¼ 0:01 cmÀ3 as labelled. The thin dotted     (typical of the Warm Ionised Medium or WIM) the gram-
+(red) line corresponds to case (2) but with slope of the injection spectrum     mage accumulated by particles in the near source region is
+4.2. The thick dashed line (labelled as XPSS09) shows the grammage              comparable with the overall value inferred from B/C mea-
+inferred from the measured B/C ratio (Ptuskin et al., 2009), while the thick    surements. However, an ionisation fraction of 100% typi-
+solid line (labelled as XAB13) shows the results of the non-linear              cally requires a much higher temperature (T % 106 K as
+propagation of Aloisio and Blasi (2013). The horizontal (thick dotted)          compared to T % 104 K) and a much lower density
+line (labelled as XABS15) is the source grammage, as estimated by Aloisio       (n % 0:01 cmÀ3) than those of the WIM. In this hot tenuous
+et al. (2015). The Figure is from the work by D'Angelo et al. (2016). (For      phase of the ISM, as Figs. 4 and 5 show, the CR confine-
+interpretation of the references to color in this figure legend, the reader is  ment time close to the source is large but the accumulated
+referred to the web version of this article.)                                   grammage is negligible. When considering, instead, a
+                                                                                source immersed in the WIM with a more realistic value
+                                                                                of the ionisation fraction (90% rather than 100%), one finds
+                                                                                that IND is important but does not completely eliminate
+                                                                                the effect of self-confinement. The wave growth is dimin-
+                                                                                ished, but not entirely quenched as would be the case for
+                                                                                propagation in the Galaxy. The accumulated grammage
+                                                                                remains non-negligible.
+
+                                                                                   Moreover, as argued by Ferrie`re (1998), the WIM, hav-
+                                                                                ing temperature $ 8000 K, is expected to be made of fully
+                                                                                ionized hydrogen, while helium would be partially ionized.
+                                                                                This latter picture would have prominent consequences in
+                                                                                terms of IND, in that this process is due to charge exchange
+                                                                                between ions and the partially ionized (or neutral)
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx  11
+
+component, but the cross section for charge exchange            6. CR induced Galactic winds
+between H and He is about three orders of magnitude smal-
+ler (Aladdin, 2017) than for neutral and ionized H, so that        Galactic winds may affect star formation, through the
+the corresponding damping rate would be greatly dimin-          regulation of the amount of gas available (Crain et al.,
+ished. Unfortunately, at present, there is no quantitative      2007; Stinson et al., 2013) and inject hot gas in the galactic
+assessment of this phenomenon and we can only rely on           halo. In our Galaxy there are indications of the existence of
+a comparison between cross sections of charge exchange.         such hot gas from X-ray observations (Breitschwerdt and
+On the other hand, it is also possible that a small fraction    Schmutzler, 1994; Breitschwerdt and Schmutzler, 1999).
+of neutral hydrogen is still present, in addition to neutral    Most important, a Galactic wind may affect the propaga-
+helium: following Ferrie`re (1998), the density of neutral      tion of CRs Ptuskin et al. (1997), Recchia et al. (2016),
+H is K 6 Â 10À2ni, and for ni ¼ 0:45 cmÀ3 this implies an       and in turn CRs may contribute to launching such winds
+upper limit to the neutral H density of $ 0:03 cmÀ3 (justi-     (Ipavich, 1975; Breitschwerdt et al., 1991; Everett et al.,
+fying the choice of parameters in case (3) of Figs. 4 and 5).   2008). The very fact that CRs have to leave the Galaxy
+                                                                in order to reach some stationary condition implies that a
+   Fig. 5 illustrates in a clear way how the phenomenon of      gradient in CR density (and pressure) must exist between
+self-confinement of CRs close to their sources can have         the disc and the escape surface. The ÀrP CR force acts in
+potentially important implications on the interpretation        the direction pointing away from the Galactic disc, while
+of secondary-to-primary ratios in terms of grammage tra-        the gravitational force exerted by dark matter, baryons
+versed in the Galaxy. The importance of these considera-        and stars in the Galaxy, pulls material downward. If the
+tions depend in a critical way on the density of gas and        CR induced force prevails on the gravitational pull close
+the density of neutral hydrogen in the regions around           to the disc, then a Galactic wind may be launched. This
+sources, and on the size of the regions where the Galactic      is however only a necessary (but not sufficient) condition
+magnetic field can be considered as roughly ordered.            for launching a wind, in that material can be lifted up
+                                                                and fall down in what is known as Galactic fountains. A
+   Given the uncertainties discussed above, it is clear that    wind is launched only if the gas can be accelerated to super-
+further investigation of alternative signatures of the con-     sonic speeds and its properties connected smoothly with
+finement of CRs in the near source region has to be carried     the boundary conditions at infinity.
+out, for instance aimed at determining the level of diffuse
+gamma ray emission from such regions. The confinement              The dynamics of CR induced winds, where CR propaga-
+of CRs near their sources might also be of the highest          tion occurs because of their interaction with self-generated
+importance to establish the feasibility of alternative scenar-  waves, is extremely complex and in the past some useful
+ios of CR propagation, such as those discussed by Cowsik        assumptions were made to simplify the problem. For
+and Burch (2010), Cowsik et al. (2014), Cowsik and              instance, in the pioneering work of Breitschwerdt et al.
+Madziwa-Nussinov (2016).                                        (1991), the authors assumed that the diffusivity of CRs is
+                                                                vanishingly small, so as to transform the transport equa-
+   Before concluding this section, however, we would like       tion of CRs in a fluid equation. Within this assumption,
+to mention another instance in which it seems unavoid-          the so-called wind solutions were found but no information
+able that CR self-induced turbulence plays a role, namely       on the spectrum of CRs was retained. Later, Ptuskin et al.
+the case of UHECR propagation far from the sources              (1997) proposed a simplified way to keep information on
+that have accelerated them. In that case the conditions         the CR spectrum and CR spatial distribution, and included
+are likely such that the non-resonant, current driven mode      Galactic rotation. Recently, Recchia et al. (2016) proposed
+(Eq. (10)) of the streaming instability can grow. CRs leav-     an iterative semi-analytical method to determine the wind
+ing their sources find themselves in the extremely low          structure, the CR spectrum and spatial distribution and
+IGM magnetic field, so that given the values of luminosity      to determine whether a CR induced wind may be launched
+that are usually quoted for the sources of UHCRs                in the first place, depending on the conditions at the base of
+(LCR % 1044 erg/s), the CR energy density easily exceeds        the wind (Galactic rotation was not included in such
+the magnetic energy density according to the criterion in       calculation).
+Eq. (9). As a consequence, the non-resonant streaming
+instability can grow and give rise to a turbulent magnetic         A physical understanding of the way CR induced winds
+field that, depending on what sets the saturation, can          work was proposed by Ptuskin et al. (1997), and although
+easily by in the nG range. For typical parameters the           their conclusions are usually not confirmed quantitatively
+effect is sufficient to ensure confinement of low enough        in a generic situation (see Recchia et al., 2016 for a discus-
+energy particles for times longer than the age of the Uni-      sion), the physical intuition turns out to be correct and very
+verse (Blasi et al., 2015). An interesting aspect of this       useful.
+model is that it naturally predicts a low energy cut-off
+in the UHECR spectrum at an energy of about                        The basic assumption of Ptuskin et al. (1997) is that near
+107 À 108 GeV. Such a low energy cut-off is exactly what        the disc the advection velocity (dominated by the Alfve´n
+some phenomenological models of UHECR origin and                speed) scales approximately linearly with z; vA $ gz. Now,
+propagation require.                                            it is easy to imagine that while the advection velocity
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+12                                    E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx
+
+increases with z, it reaches a critical distance, sÃ, for which
+advection dominates upon diffusion. This happens when
+
+ s2Ã % sÃ ) s 1 ÃðpÞ / DðpÞ =2; ð23Þ
+DðpÞ vAðsÃÞ
+
+where we used the assumption of linear relation vA $ gz
+
+and that the diffusion coefficient has small spatial variation,
+
+which turns out to be true in self-generated scenarios. Now,
+
+when diffusion dominates, namely when z K sÃðpÞ, one can
+
+neglect the advection terms and make the approximate
+
+statement (as in the standard diffusion model), that
+
+DðpÞ  @f  jz¼0  %  ÀQ0ðpÞ=2  /  pÀc.  The   quantity  sÃðpÞ,  that
+      @z
+
+depends naturally on particle momentum, plays the role
+
+of the size of the diffusion volume and one can show that,
+
+similar to a leaky box-like model, the equilibrium spectrum                      Fig. 7. Slope of the CR spectrum in the disc of the Galaxy at the position
+                                                                                 of the Sun for the same case as in Fig. 6 (red solid line) and for the case in
+in the disc is                                                                   which the wind is launched at z0 ¼ 1 kpc from the disc and there is a near-
+                                                                                 disc region where the diffusion coefficient is assigned and advection is
+f ðpÞ $   Q0ðpÞ s2Ã                   À1=2                                       absent (green dashed line). (For interpretation of the references to color in
+                      $ Q0ðpÞ DðpÞ :                          ð24Þ               this figure legend, the reader is referred to the web version of this article.)
+          sÃðpÞ DðpÞ
+                                                                                 of the so-called standard model of CR transport may be.
+   In other words, sÃðpÞ plays the role of H in the standard                     The role of H is played by the physical quantity sÃðpÞ which
+model of CR transport. There are a few very important                            however is an output of the problem (not imposed by
+implications of this line of thought: (1) the energy depen-                      hand) and depends on the particles' momentum.
+dence of the spectrum of CRs in the Galactic disc is not
+simply proportional to Q0ðpÞ=DðpÞ, as is usually assumed,                           As pointed out above, the simple recipe proposed by
+but rather to Q0ðpÞ DðpÞÀ1=2, where however DðpÞ is in turn                      Ptuskin et al. (1997) does not apply to realistic situations
+a function of the CR spectrum. Using the expressions for                         because it is based on the assumption that at the base of
+the growth of Alfve´n waves, Eq. (8), and their rate of                          the wind the advection velocity vanishes. In fact, the Alfve´n
+damping, one can demonstrate that for                                            speed and the wind velocity have a finite value at the base
+QðpÞ / pÀc; DðpÞ / p2cÀ7, so that injection spectrum and                         of the wind, which implies that at low energies the trans-
+observed spectrum are directly connected, at least for the                       port of CRs is dominated by advection. This can be seen
+energies where diffusion dominates. These expressions hold                       in Fig. 6, where we show the wind velocity (red solid line),
+as long as NLD is the main channel of wave damping. (2)                          Alfve´n velocity (green dashed line) and sound speed (blue
+The size H of the halo, where free escape should occur,                          dotted line) as a function of the height z above the disc
+loses its meaning: this is a positive outcome of these models                    for a typical wind case.
+since the boundary condition typically imposed at jzj ¼ H
+is somewhat artificial, and shows how weak the predictions                          This has important implications for the spectrum of
+                                                                                 CRs as observed at a location compatible with that of
+Fig. 6. Wind velocity (red solid line), Alfve´n velocity (green dashed line)     the Sun: as shown by Recchia et al. (2016), most wind solu-
+and sound speed (blue dotted line) as a function of the height z above the       tions that may be found do not lead to CR spectra that are
+disc, for a reference case. (For interpretation of the references to color in    similar to the observed one, although they do correspond
+this figure legend, the reader is referred to the web version of this article.)  to dynamically feasible solutions with a substantial mass
+                                                                                 loss (of order $ 0:5 À 1 M yrÀ1 integrated on the Galactic
+                                                                                 disc). For instance the slope of the spectrum of CRs at the
+                                                                                 Sun as calculated for the same wind model corresponding
+                                                                                 to Fig. 6 is shown as a (red) solid line in Fig. 7, clearly at
+                                                                                 odds with observations (even qualitatively).
+
+                                                                                    A rather generic problem of all transport models
+                                                                                 (including wind models) is that they are mostly based upon
+                                                                                 resonant interactions of charged particles with Alfve´n
+                                                                                 waves. However, Alfve´n waves are expected to be severely
+                                                                                 damped due to ion-neutral damping. This damping is so
+                                                                                 severe that within $ 1 kpc from the Galactic disc, where
+                                                                                 most neutral hydrogen is located, there can hardly be any
+                                                                                 Alfve´n waves. For this reason, in original approaches to
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx  13
+
+the wind problem (e.g. Breitschwerdt et al., 1991) the effec-  (Adriani et al., 2011a) and AMS-02 (Aguilar et al.,
+tive CR plasma coupling was guaranteed by assuming that        2014) also showed that the increasing fraction is due
+the wind be launched at z0 ' 1 kpc. This near-disc region is   to a flattening in the positron spectrum rather than a
+also the one that is most perturbed by the direct action of    steepening of the electron distribution.
+repeated supernova explosions: for this reason, one could
+speculate that this region may host a local, non self-            More recently, AMS-02 has also published the results of
+generated, turbulence directly associated to hydrodynami-      their measurement of the flux of antiprotons and of the p=p
+cal turbulence. Recchia et al. (2016) investigated the impli-  ratio (Aguilar et al., 2016a): at energies above $ 60 GeV or
+cations of this assumption in the case that the near-disc      so, the spectrum of antiprotons appears to be rather hard,
+region is characterized by a Kolmogorov-like diffusion         and in fact it has been pointed out (Aguilar et al., 2016a;
+coefficient. In this scenario the base of the wind was         Lipari, 2017) that it has about the same slope as the spec-
+assumed to be at z0 ¼ 1 kpc. In passing, we notice that        trum of positrons and protons. Both the rising positron
+the importance of this near-disc region was already recog-     fraction and the hard spectrum of p's appear to be in con-
+nized by Breitschwerdt et al. (1993).                          flict with the standard picture of CR transport in the
+                                                               Galaxy, hence their discovery has stimulated enormous
+   The assumption of pre-existing (namely not self-            debate in the community. Below we briefly discuss these
+generated) turbulence in the near disc region allows one       anomalies and the ideas put forward to explain them.
+to have spectra that qualitatively resemble the spectrum
+of CRs observed at the Earth, as shown by Recchia et al.          In the standard picture of CR transport in the Galaxy,
+(2016). This means that the low energy spectrum (below         both positrons and antiprotons are secondary products of
+$ 10 GeV) is dominated by advection with waves and is          inelastic hadronic collisions. Both the ratios p=p and
+close to the injection spectrum; at energies above 10 GeV      eþ=ðeÀ þ eþÞ are then expected to decrease with energy
+the spectrum is fully determined by self-generated waves       as a result of the fact that the grammage traversed by
+and has a slope close to the observed one; at energies above   CRs is decreasing with energy. For antiprotons, the effects
+$ TeV, the spectrum hardens because this part of the spec-     of propagation are easier to describe than for leptons, in
+trum is dominated by diffusion in the near disc region. This   that they are not expected to suffer significant energy
+spectral shape, shown as a (green) dashed line in Fig. 7, is   losses during this process. To first approximation, the
+qualitatively similar to the one recently measured for pro-    ratio p=p should therefore decrease in the same way that
+tons and helium nuclei by PAMELA and AMS-02.                   the B/C ratio does, provided that the production cross
+                                                               section be energy-independent and that both the spectrum
+   It is important to keep in mind that the launching of a     of the parent protons and the diffusion coefficient be pure
+CR induced wind actually results from the interplay            power-laws over the entire range covering both the ener-
+between CRs and gravity, so that the characteristics of        gies of secondaries and those (a factor of ten higher) of
+the wind and even the possibility to launch a wind (rather     primaries. All these conditions are potentially violated:
+than a time dependent outflow that may fall back onto the      (1) the cross section for antiproton production does
+Galactic disc) depend on the gravitational potential, espe-    depend on energy, as recently discussed by di Mauro
+cially the one contributed by dark matter. A careful study     et al. (2014); (2) the spectrum of both protons and He
+of the dependence of the wind characteristics on the grav-     nuclei is characterized by spectral breaks, as discussed in
+itational potential and the implications of CR induced         Section 4, with harder spectra at higher energies - more-
+winds in terms on mass loss from the Galaxy is required        over we stress that some contribution to p production is
+in order to have a complete picture of the applicability of    associated to interactions of He nuclei, whose spectrum
+wind models to the Galactic CR phenomenology.                  is harder than that of protons; (3) as discussed by Blasi
+                                                               et al. (2012), Aloisio and Blasi (2013), Aloisio et al.
+7. Secondary particles and antiparticles                       (2015), Tomassetti (2012), the reason for harder nuclear
+                                                               spectra may reside in a change of slope of the diffusion
+   In recent years the PAMELA and AMS-02 experi-               coefficient experienced by particles, hence also the last
+ments have provided us with plenty of new results con-         of the above mentioned conditions might be violated.
+cerning the flux of secondary CR particles and
+antiparticles, and some of these findings are rather sur-         In addition, the recently published AMS-02 results con-
+prising and intriguing. The first surprising finding was       cerning the B/C ratio (Aguilar et al., 2016b) suggest that
+the unequivocal detection by PAMELA (Adriani et al.,           the dependence on energy of the grammage is relatively
+2009) of a growing positron fraction (eþ=ðeÀ þ eþÞ), fol-      mild, X escðEÞ / EÀ1=3, in agreement with a Kolmogorov's
+lowing earlier, but statistically less significant claims by   description of turbulence in the Galaxy (although see dis-
+CAPRICE (Boezio et al., 2001), HEAT (Beatty et al.,            cussion in Section 4). The combination of all these effects
+2004) and AMS-01 (Aguilar et al., 2007). This discovery        leads us to expect that perhaps the anomaly on the p=p
+was then confirmed with even higher statistical signifi-       ratio might in fact be less severe than initially thought. In
+cance by AMS-02 (Aguilar et al., 2013). Both PAMELA            fact, even some current studies (Evoli et al., 2015; Giesen
+                                                               et al., 2015) reached the same conclusion by just taking into
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+14                            E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx
+
+account the uncertainties in the cross section for p produc-     ing that the observed positron excess is in fact the result of
+tion and those associated to CR transport.                       the failure of one or more of the assumptions that are usu-
+                                                                 ally made in treating the transport of CRs throughout the
+   As far as leptons are concerned, the equilibrium spec-        Galaxy. Two such attempts were published in the last few
+                                                                 years by Katz et al. (2010), Blum et al. (2013) and Lipari
+trum is made slightly more complicated by the (presum-           (2017). The former work, that preceded the measurement
+                                                                 of the B/C ratio by AMS-02, started from considering
+ably) non-negligible losses. If we take the standard value       the B/C ratio as a good indicator of the grammage,
+                                                                 X esc / EÀ1=2, and illustrates the calculations of the positron
+of magnetic and radiation energy density in the Galaxy,          (and antiproton) flux as due to inelastic pp collisions, cor-
+U B % U rad % 1 eV cmÀ3, the radiative loss time,                responding to such grammage. The authors find that the
+slossðEÞ % 2:5 Â 108 yr ðE=GeVÞÀ1, is shorter than the           flux of the observed high energy positrons is saturated by
+propagation time sescðEÞ % 2 Â 108 yr ðE=GeVÞd already           their predicted flux, hence they conclude that the hard spec-
+at E > few GeV, for 0:2 < d < 0:8 as inferred from recent        tral shape of positrons is to be attributed to energy losses,
+studies of CR propagation (e.g. Trotta et al., 2011). In this    more important at low energies than at the highest in their
+                                                                 approach. This rather unusual finding is justified by the
+case, in the energy range of our interest, the equilibrium       authors by assuming that synchrotron losses are rather
+                                                                 low (interstellar magnetic field around 1 lG) and the radi-
+spectrum of electrons, which we approximate as all pri-          ation field, with energy density around 1 eV/cm3, contains
+                                                                 a dominant UV component, so that losses are reduced for
+maries, is described by:                                         high energy particles due to Klein-Nishina effects. In this
+                                                                 approach it is therefore suggested that the whole flux of
+N eÀ ðEÞ / EÀcinj;el EÀb;               ð25Þ                     positrons is due to standard CR interactions and that the
+                                                                 alleged excess is actually due to a poor understanding of
+where the first term on the rhs comes from injection and the     CR transport. In order to reproduce the data the authors
+second from propagation. The form of the latter is deter-        also suggest that one should consider an energy dependent
+mined by the combination of diffusive propagation and            halo size.
+energy losses that limit the number of contributing sources
+with respect to the case of nuclei, thereby imposing con-           On the other hand, the work of Lipari (2017) adopts
+straints in terms of distance in space and time: in the case     antiprotons and positrons as the starting point. The author
+of a spatially independent diffusion coefficient that scales     notices that the eþ and p production rates are in perfect
+as Ed and radiative (synchrotron and Inverse Compton)            accord with those calculated from standard CR interac-
+losses with rates that scale as E2, one finds b ¼ ð1 þ dÞ=2.     tions in the ISM and that their spectral shape is consistent
+                                                                 with being the same as that of protons at energies above
+   Analogously, for positrons, if they are all secondaries,      $ 300 GeV, thereby strengthening the conclusion that the
+we find:                                                         observed flux of antiprotons and positrons is completely
+                                                                 explained in terms of CR interactions.
+N eþ ðEÞ / EÀðcinj;pþdÞ EÀb;            ð26Þ
+                                                                    In the standard model of CR transport, where the gram-
+where what appears in the first term of the rhs is the equi-     mage is inferred from the B/C ratio, the propagation of lep-
+librium proton spectrum (/ EÀcp ). The result for the posi-      tons (electrons and positrons) is dominated by radiative
+                                                                 losses for energies above $ 10 GeV. The effect of losses is
+tron fraction is then:                                           such as to steepen the spectrum of leptons and lead to a
+                                                                 spectral difference with antiprotons. It follows that the con-
+v¼  Ueþ  % Ueþ / EÀðcinj;pÀcinj;elþdÞ;  ð27Þ                     clusion of Lipari (2017) can only be considered as poten-
+                                                                 tially viable if energy losses are negligible, which requires
+    Ueþ þ UeÀ UeÀ                                                a residence time in the Galaxy much smaller than usually
+                                                                 assumed. This also implies that the typical grammage tra-
+and in the standard scenario, with cinj;p ¼ cinj;el; v / EÀd is  versed by the CRs responsible for production of eþ and p
+expected to monotonically decrease with energy. One can          must be smaller than that inferred from measurements of
+easily check that the decreasing trend is confirmed even         the B/C ratio: in other words, in this scenario the boron
+in situations in which the diffusion coefficient does not have   production must be decoupled from the production of
+a perfect power law dependence on energy. The generality         other secondaries.
+of the result explains why the observed increase was found
+to be puzzling and stimulated a plethora of attempts at             One scenario that would fit these requirements is the so
+explaining it. These attempts proceeded in three different       called ``nested leaky box" (NLB) scenario suggested by
+directions: (1) dark matter inspired models; (2) modifica-       Cowsik and Burch (2010), Cowsik et al. (2014), Cowsik
+tions of the standard model to accommodate the observed          and Madziwa-Nussinov (2016). The basic assumption of
+anomalies; (3) astrophysical sources of the excess positrons.    the NLB model is that CRs accumulate most grammage
+A comprehensive review of these models was presented by
+Serpico (2012).
+
+   In the following we will summarize the models that
+invoke modifications of CR transport and those based on
+astrophysical sources of the positron excess.
+
+7.1. Non-standard propagation models
+
+   A few models were recently introduced that questioned
+the pillars of the standard model of CR transport, suggest-
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx  15
+
+in cocoons around the sources, while lesser grammage is       B/C ratio has been observed by AMS-02, which should be
+accumulated during propagation throughout the Galaxy.         considered as a strong argument against such model.
+The former grammage is assumed to be energy dependent
+while the latter is assumed to be energy independent. The        As for pulsars, in the vicinity of such an object the elec-
+two values of the grammage become comparable around           tromagnetic fields are so intense that pair cascades develop
+few hundred GeV/n. Since secondary Boron nuclei are pro-      with very high multiplicity: each electron extracted from
+duced by primary CRs (mainly Carbon and Oxygen) at the        the star surface typically produces $ 104 À 106 eþ-eÀ pairs.
+same energy per nucleon, the B/C ratio reflects the energy    Aside from being theoretically predicted, direct evidence of
+dependence of the grammage at the same energy, hence one      this phenomenon is provided by multi-wavelength observa-
+should expect that the B/C should be decreasing with          tions of Pulsar Wind Nebulae, bright synchrotron and IC
+energy (reflecting the near source grammage) at K 100         nebulae surrounding many young pulsars (see
+GeV/n and become energy independent at higher energies.       e.g. Amato, 2014b for a review). Since these particles will
+Since the eþ and p production is characterized by a large     have to be released in the ISM at some point, their contri-
+inelasticity (Eeþ;p $ 0:1Ep with Ep the proton energy), the   bution to CR leptons is unavoidable and must be taken
+production of eþ and p at energy $ 10 À 100 GeV reflects      into account in any model aimed at explaining the positron
+the grammage traversed by CR at 0:1 À 1 TeV, where the        excess. In the following we try to provide a realistic esti-
+grammage is assumed to be flat in the context of the          mate of its importance.
+NLB model. One should keep in mind that the recent paper
+by AMS-02 on the measurement of the B/C ratio up to $ 1          The eþ-eÀ pairs created in the pulsar magnetosphere
+TeV/n did not find evidence for a flattening of the ratio at  become part of the relativistic wind into which pulsars con-
+the highest energies. The idea of cocoons around sources,     vert most of their rotational energy. The interaction
+presented by Cowsik and Burch (2010) as a speculative         between the wind and the surrounding medium, the SNR
+possibility, might be realized in Nature due to the mecha-    during early stages and the ISM later on, is what makes
+nism of CR self-confinement discussed in Section 5 (see       the PWN shine: a shock develops from this interaction
+work of D'Angelo et al. (2016)), although, as discussed       and propagates towards the pulsar down to a distance that
+above, this scenario also encounters several difficulties.    guarantees pressure equilibrium between the unshocked
+                                                              wind and the downstream nebula. Extremely efficient par-
+7.2. Additional astrophysical sources                         ticle acceleration occurs at this shock: long power-law spec-
+                                                              tra extending from about 1 GeV to even 1 PeV are formed
+   Here we assume that CR propagation through the             and the radiation of these particles in the ambient magnetic
+Galaxy occurs in the most standard and simplest way,          field directly reveals the accelerated particle spectrum. The
+namely with leptons loosing energy radiatively and all par-   eþ-eÀ pairs are seen to be described by a flat spectrum
+ticles propagating with an energy dependent diffusion coef-   (N ðEÞ / EÀc with 1 < c < 2), at low energies, which then
+ficient, approximately uniform in space. In this scenario     steepens to c > 2 beyond a few hundred GeV. The hard
+there is no doubt that the positron excess requires addi-     lepton spectrum at low energies is extremely appealing in
+tional sources. A number of sources of positrons or physi-    terms of explaining the CR positron spectrum if, as
+cal processes that lead to excess production of positrons     expected, at some point in the history of the PWN these
+have been put forward. Among these, two have attracted        particles are released into the ISM. What needs to be
+much attention: (1) the model of Blasi (2009) that sug-       assessed is the effective rate of release of the pairs and their
+gested that positrons (and electrons) produced as secon-      potential contribution to the CR spectrum.
+daries inside the acceleration region of primary CRs also
+participate in the acceleration process and acquire a hard       At the energies that are relevant to explain the excess,
+spectrum. (2) Pulsars, which are ``natural" sources of posi-  the majority of the pairs cannot leave the PWN for as long
+trons and can explain the observed excess (Hooper et al.,     as the pulsar is embedded in the parent SNR. However,
+2009; Profumo, 2012): we used the wording``natural"           pulsars are typically characterized by high proper motion
+because the nature of pulsars as positron factories has been  (with an average speed of 500 km/s) and they are expected
+well established for a very long time, soon after their dis-  to break out of the remnant in a few Â105 yr for typical
+covery and since the first attempts at describing their mag-  parameters. At this point, their supersonic motion through
+netospheres. In fact even their contribution to the CR        the ISM transforms them in Bow Shock PWNe. The
+positron flux had been previously studied by Aharonian        plasma in front of the pulsar is now confined by the bow
+et al. (1995).                                                shock, but particles flowing through the tail are free to
+                                                              leave the system and become part of the CR pool.
+   The model of Blasi (2009) also implies that an excess of
+antiprotons (Blasi and Serpico, 2009) and boron (Mertsch         From observations of Bow Shock PWNe we know that
+and Sarkar, 2009) should appear at energies J 100 GeV/n.      also at this stage of the evolution, the particle spectrum is
+Although the situation of antiprotons, as discussed above,    very similar to what described above for their younger
+is not clear, we can say with confidence that no rise in the  counterparts (Kaspi et al., 2001; Bocchino and Bykov,
+                                                              2003; Gaensler et al., 2004) (see also Kargaltsev et al.,
+                                                              2015 for a recent review). In particular, radio emission
+                                                              again shows a flat particle spectrum up to hundreds of
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+16                                  E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx
+
+GeV. In addition, numerical simulations support the idea
+
+that these low energy particles can easily escape from the
+
+system along the tail with negligible energy losses
+
+(Bucciantini et al., 2005). A conservative estimate of the
+
+number of pairs a pulsar releases in the ISM is then
+
+obtained by normalising the energy contained in the
+
+released pairs, described as a double power-law, to the
+
+amount of rotational energy the pulsar is left with at the
+
+time of its escape from the remnants. For typical values
+
+of the parameters this turns out to be Eres % 1047 erg. The
+
+number of leptons injected by PWNe per unit time and unit
+
+energy interval can then be estimated as:
+
+                             gEres  E Àcpos     ð28Þ           Fig. 8. The spectrum of electrons and positrons resulting from SNe, CR
+Qeþ ðEÞ % ð2 À cposÞR2 Ecr2 Ecr ;                              interactions in the Galaxy and release of pairs by Bow Shock PWNe is
+                                                               compared with the AMS-02 data. Red curves are for electrons and blue
+where R2 is the rate of type II SN events in the Galaxy, and   curves are for positrons. The different linetypes correspond to different
+                                                               realisations of the distribution of sources in the Galaxy. The thick solid
+cpos % 1:5 and Ecr % 500 GeV describe the low-energy spec-     red (blue) line is the spectrum of electrons (positrons) resulting from
+                                                               averaging over 30 different realisations. The black dashed curves represent
+trum of pulsar produced pairs. This has to be compared         the spectra of electrons and positrons in a particular realisation that seems
+                                                               to fit the data particularly well. The purple solid curve represents primary
+with the injection of primary electrons, assumed to be         electrons only. The orange curve represents secondary electrons and
+                                                               positrons from CR interactions. The cyan curve represents electrons and
+accelerated by SNRs with the same spectrum as protons          positrons from PWNe, for an average efficiency of particle acceleration
+                                                               around 25%. See text for details. (For interpretation of the references to
+and in a ratio f ep to the latter:                             color in this figure legend, the reader is referred to the web version of this
+                                                               article.)
+                           nCRf e;pESN  E Àcel  ð29Þ
+QeÀ ðEÞ % ðcel À 2ÞR ðmpc2Þ2 mpc2 ;                            Fig. 9. The solid curve represents the positron fraction corresponding to
+                                                               the electrons and positrons spectra shown as solid red and blue curves in
+with cel % 2:4; R the total rate of SNe in the Galaxy and      Fig. 8. This curve results from an average over 30 different realisations of
+nCR the average CR acceleration efficiency of a SNR.           the distribution of sources in our Galaxy. The dashed line corresponds to a
+                                                               particular realisation that seems to go especially well through the AMS-02
+    Since propagation affects electrons and positrons in the   data points (black circles). Also shown are PAMELA data, as blue
+                                                               squares. (For interpretation of the references to color in this figure legend,
+same way, the ratio v will simply scale as the injection, and  the reader is referred to the web version of this article.)
+
+for energies large enough that the secondary positrons can     One can also assume that electrons and positrons are
+                                                               injected by Bow Shock PWNe, formed in 80% of the total
+be neglected, will read                                        SN explosions, after a time corresponding to the escape of
+                                                               the pulsar from the parent SNR, as determined by the pul-
+v % Qeþ  % 0:035 E 1=2 ð30Þ                                    sar proper velocity; the pulsar parameters that enter the
+    QeÀ  30 GeV                                                normalisation of the pair spectrum (including the pulsar
+                                                               velocity, which determines the escape time) correspond to
+where the last approximate equality holds for the typical
+values of the parameters: nCR ¼ 0:1; f e;p ¼ 0:01 and
+R2 ¼ 0:8R. At 30 GeV this value of v is within a factor
+of 2 of the AMS-02 measurement (Fig. 9), and increases
+with energy, which strongly suggests that the contribution
+of PWNe must definitely be taken into account when won-
+dering about the positron excess.
+
+   A more quantitative comparison with experimental data
+requires taking into account the spatial distribution of
+PWNe and propagating the pairs using the Green function
+formalism (Syrovatskii, 1959), as explained by Blasi and
+Amato (2011). Moreover, in order to calculate the positron
+ratio one needs to describe the injection and propagation of
+both secondary (produced by CR interactions in the ISM)
+and primary electrons (presumably accelerated at the same
+SNR shocks responsible for CR acceleration).
+
+   The rate of SN explosions is provided by Faucher-
+Gigue`re and Kaspi (2006) (% 2.8/century) and the spatial
+distribution of SNRs has been assumed to follow the one
+provided by (Green, 2005); the CR acceleration efficiency
+and the e/p ratio have been assumed as nCR ¼ 0:15 and
+f e;p ¼ 0:01, together with an injection spectrum / EÀ2:4.
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx  17
+
+the best fit distributions found by Faucher-Gigue`re and           micro-physics of particle scattering and the macro-physics
+Kaspi (2006); the injection spectrum can be simplistically         of CR transport, whose signatures we measure at Earth.
+assumed to have a slope cpos ¼ 1:2 up to an energy of
+500 GeV and steepen at higher energies to cpos ¼ 2:3.                 The production of waves by CR streaming is most effec-
+Secondary electrons and positrons can be computed from             tive wherever the CR density and density gradient are the
+modelling of the interaction with the ISM of a flux of pro-        largest. It is expected to be at work in the acceleration
+tons as measured by AMS-02; the ISM is assumed to fill a           region, during transport in the Galaxy and close to CR
+150 pc thick disk with a density of 1 particle cmÀ3. For all       sources. In this paper we discussed separately the case of
+leptons the losses are computed assuming a magnetic field          transport in the Galaxy and close to sources, while other
+strength of 3 lG and an energy density of IR radiation cor-        review papers considered more in depth the case of acceler-
+responding to 1 eV/cm3.                                            ation (Blasi, 2013; Amato, 2014a).
+
+   The spectra of electrons and positrons resulting from              The spectral features observed in the H and He spectra
+SNe, CR interactions in the Galaxy and pairs released by           are most likely due to transport, namely the effective diffu-
+Bow Shock PWNe are shown in Fig. 8 compared with                   sion coefficient felt by CRs has a different functional form
+the AMS-02 data (see caption). The positron fraction cal-          at different energies. This may be due to a spatial depen-
+culated in this same model is plotted and compared with            dence of the diffusion coefficient, as discussed by
+AMS-02 and PAMELA data in Fig. 9. It is apparent that              Tomassetti (2012), or to the existence of both self-
+this simple model, including the contribution of electron-         generated waves and pre-existing waves, as discussed by
+positron pairs coming from pulsars in addition to standard         Blasi et al. (2012), Aloisio and Blasi (2013), Aloisio et al.
+primary and secondary electrons, can provide an excellent          (2015). Signatures of these processes might appear in the
+fit to the data. The adopted pulsar parameters are very            secondary to primary ratios, such as B/C and p=p.
+standard and the assumed pair acceleration efficiency of
+PWNe (required to be of order 20-25%) is in line with                 The rise of the positron fraction and the hardness of the
+the values derived from observations.                              p=p ratio are the two most unexpected features revealed by
+                                                                   recent data. Some attempts at interpreting these findings as
+   The simple calculation illustrated above shows in a             the direct signature of some peculiarity in the particle
+rather straightforward manner that the contribution of pul-        transport led to the proposal of radically new scenarios
+sars to the flux of CR positrons should always be consid-          of CR propagation (Katz et al., 2010; Blum et al., 2013;
+ered and addressed carefully, even while trying to assess          Lipari, 2017; Cowsik and Burch, 2010; Cowsik et al.,
+the role of other mechanisms for the positron excess.              2014; Cowsik and Madziwa-Nussinov, 2016). Here we dis-
+                                                                   cussed these proposals and the role that non-linear effects
+8. Summary and conclusions                                         might play in providing a physical motivation for some
+                                                                   of the assumptions that they are based on. None of these
+   The observational panorama in the field of CR research          scenarios is problem free but we believe that these are
+has never be so rich and exciting: unexpected features have        important attempts at keeping an open mind on parts of
+been found in the spectrum of protons and helium nuclei            the puzzle of the CR origin that are some times taken for
+(Adriani et al., 2011b; Ahn et al., 2010; Aguilar et al.,          granted and fully understood, while there are no observa-
+2015a); the spectrum of He appears to be systematically            tions available to constrain them directly.
+harder than of protons; the positron fraction, contrary to
+common wisdom, increases with energy instead of decreas-              On the other hand, one should keep in mind that the
+ing (Adriani et al., 2009; Aguilar et al., 2013); the p=p ratio    main objections to the standard model of CR origin are
+is harder than expected (Aguilar et al., 2016a). On the other      based on observations that contrast with the model predic-
+hand, the B/C ratio measured by AMS-02 (Aguilar et al.,            tions only in its most naive version. The positron excess is
+2016b) does not show any unexpected behaviour.                     easily accounted for in terms of positrons (and electrons)
+                                                                   liberated in the ISM by pulsars that abandoned their par-
+   Here we tried to look at these findings in the context of non-  ent supernova remnant. Not only this contribution can
+linear theories of CR transport. As discussed several times        explain the rise in the positron fraction with energy, but
+above, this non-linearity manifests itself in two ways: first, by  it is unavoidable at some level. At the same time, the hard-
+wave production that affects the scattering properties of the      ness of the flux of antiprotons has not been shown to be
+medium; and second, by dynamical action leading to motion          problematic in a conclusive way. In fact Evoli et al.
+of the ambient plasma induced by CR pressure gradients.            (2015), Giesen et al. (2015) find that present data are still
+                                                                   marginally compatible with the standard model once the
+   The self-generation of waves is a process that is entan-        uncertainties in the cross section for p production and in
+gled in the very foundations of the theory of CR transport:        CR transport are taken into account. In the context of
+particles that drift at super-Alfve´nic speed lose some            non- linear theories of CR transport the problem becomes
+momentum to the production of waves that in turn scatter           even less severe because of the fact that diffusion is
+them and slow down their current. The theory describing            expected to acquire a weaker energy dependence at energies
+this phenomenon allows direct connection between the               above $ 300 GeV (relevant for the production of p with
+                                                                   energy J 30 GeV). These models also provide a reasonable
+                                                                   fit to the recent data on the B/C ratio, which does not seem
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+18  E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx
+
+to be the case for most of the alternative scenarios pro-                       Aharonian, F.A., Atoyan, A.M., Voelk, H.J., 1995. High energy electrons
+posed in the literature.                                                            and positrons in cosmic rays as an indicator of the existence of a
+                                                                                    nearby cosmic tevatron. A&A 294, L41-L44.
+   In conclusion, at the time being, the latest observations
+seem to suggest that the standard scenario of cosmic ray                        Ahn, H.S., Allison, P., Bagliesi, M.G., et al., 2010. Discrepant hardening
+propagation throughout the Galaxy should be enriched                                observed in cosmic-ray elemental spectra. ApJL 714, L89-L93.
+in terms of new pieces of physics, rather than being aban-
+doned in favour of radically different alternatives. Observa-                   Aladdin, Numerical database of atomic and molecular data. <https://
+tions to be carried out in the next few years should clarify                        www-amdis.iaea.org/ALADDIN/>.
+whether this is the case.
+                                                                                Aloisio, R., Blasi, P., 2013. Propagation of galactic cosmic rays in the
+Acknowledgements                                                                    presence of self-generated turbulence. J. Cosmol. Astropart. Phys. 7,
+                                                                                    001.
+   The authors are grateful to P. Lipari for an in-depth dis-
+cussion of alternative models of CR transport and relevant                      Aloisio, R., Blasi, P., Serpico, P.D., 2015. Nonlinear cosmic ray Galactic
+cross sections for processes of relevance for CR propaga-                           transport in the light of AMS-02 and Voyager data. A&A 583, A95.
+tion in the Galaxy. The authors are also grateful to R.
+Aloisio, C. Evoli, G. Morlino, S. Recchia and P. Serpico                        Amato, E., Blasi, P., 2009. A kinetic approach to cosmic-ray-induced
+for useful discussions and continuous collaboration on                              streaming instability at supernova shocks. MNRAS 392, 1591-1600.
+these and related research topics. E.A. also acknowledges
+the hospitality of ISSI (Bern), by which she had the oppor-                     Amato, E., 2014a. The origin of galactic cosmic rays. Int. J. Mod. Phys. D
+tunity of digging into these and related subjects within                            23, 1430013.
+teams of international experts.
+                                                                                Amato, E., 2014b. The theory of pulsar wind nebulae. Int. J. Mod. Phys.:
+References                                                                          Conf. Ser. 28, 1460160.
+
+Adriani, O., Barbarino, G.C., Bazilevskaya, G.A., et al., 2009. An              Beatty, J.J., Bhattacharyya, A., Bower, C., et al., 2004. New measurement
+    anomalous positron abundance in cosmic rays with energies 1.5-                  of the cosmic-ray positron fraction from 5 to 15 GeV. Phys. Rev. Lett.
+    100 GeV. Nature 458, 607-609.                                                   93, 241102.
+
+Adriani, O., Barbarino, G.C., Bazilevskaya, G.A., et al., 2011a. Cosmic-        Bell, A.R., 2004. Turbulent amplification of magnetic field and diffusive
+    ray electron flux measured by the PAMELA experiment between 1 and               shock acceleration of cosmic rays. MNRAS 353, 550-558.
+    625 GeV. Phys. Rev. Lett. 106, 201101.
+                                                                                Blasi, P., 2009. Origin of the positron excess in cosmic rays. Phys. Rev.
+Adriani, O., Barbarino, G.C., Bazilevskaya, G.A., et al., 2011b. PAMELA             Lett. 103, 051104.
+    measurements of cosmic-ray proton and helium spectra. Science 332,
+    69.                                                                         Blasi, P., Serpico, P.D., 2009. High-energy antiprotons from old super-
+                                                                                    nova remnants. Phys. Rev. Lett. 103, 081103.
+Aguilar, M., Alcaraz, J., Allaby, J., et al., 2007. Cosmic-ray positron
+    fraction measurement from 1 to 30 GeV with AMS-01. Phys. Lett. B            Blasi, P., Amato, E., 2011. Positrons from pulsar winds. Astrophys. Space
+    646, 145-154.                                                                   Sci. Proc. 21, 624.
+
+Aguilar, M., Alberti, G., Alpat, B., et al., 2013. First result from the alpha  Blasi, P., Amato, E., 2012. Diffusive propagation of cosmic rays from
+    magnetic spectrometer on the international space station: precision             supernova remnants in the Galaxy. I: spectrum and chemical compo-
+    measurement of the positron fraction in primary cosmic rays of 0.5-             sition. J. Cosmol. Astropart. Phys. 1, 010.
+    350 GeV. Phys. Rev. Lett. 110, 141102.
+                                                                                Blasi, P., Amato, E., Serpico, P.D., 2012. Spectral breaks as a signature of
+Aguilar, M., Alberti, G., Alpat, B., et al., 2014. Precision measurement of         cosmic ray induced turbulence in the Galaxy. Phys. Rev. Lett. 109,
+    the (eþ À eÀ) flux in primary cosmic rays from 0.5 GeV to 1 TeV with            061101.
+    the alpha magnetic spectrometer on the international space station.
+    Phys. Rev. Lett. 113, 121102.                                               Blasi, P., 2013. The origin of galactic cosmic rays. A&A Rev. 21, 70.
+                                                                                Blasi, P., Amato, E., D'Angelo, M., 2015. High-energy cosmic ray self-
+Aguilar, M., Aisa, D., Alpat, B., et al., 2015a. Precision measurement of
+    the proton flux in primary cosmic rays from rigidity 1 GV to 1.8 TV             confinement close to extra-galactic sources. Phys. Rev. Lett. 115,
+    with the alpha magnetic spectrometer on the international space                 121101.
+    station. Phys. Rev. Lett. 114, 171103.                                      Blum, K., Katz, B., Waxman, E., 2013. AMS-02 results support the
+                                                                                    secondary origin of cosmic ray positrons. Phys. Rev. Lett. 111, 211101.
+Aguilar, M., Aisa, D., Alpat, B., et al., 2015b. Precision measurement of       Bocchino, F., Bykov, A.M., 2003. XMM-Newton study of hard X-ray
+    the helium flux in primary cosmic rays of rigidities 1.9 GV to 3 TV with        sources in IC 443. A&A 400, 203-211.
+    the alpha magnetic spectrometer on the international space station.         Boezio, M., Barbiellini, G., Bonvicini, V., et al., 2001. Measurements of
+    Phys. Rev. Lett. 115, 211101.                                                   cosmic-ray electrons and positrons by the Wizard/CAPRICE collab-
+                                                                                    oration. Adv. Space Res. 27, 669-674.
+Aguilar, M., Ali Cavasonza, L., Alpa, B., et al., 2016a. Antiproton flux,       Breitschwerdt, D., McKenzie, J.F., Voelk, H.J., 1991. Galactic winds. I -
+    antiproton-to-proton flux ratio, and properties of elementary particle          cosmic ray and wave-driven winds from the Galaxy. A&A 245, 79-98.
+    fluxes in primary cosmic rays measured with the alpha magnetic              Breitschwerdt, D., McKenzie, J.F., Voelk, H.J., 1993. Galactic winds. II -
+    spectrometer on the international space station. Phys. Rev. Lett. 117,          role of the disk-halo interface in cosmic ray driven galactic winds.
+    091103.                                                                         A&A 269, 54-66.
+                                                                                Breitschwerdt, D., Schmutzler, T., 1994. Delayed recombination as a
+Aguilar, M., Ali Cavasoza, L., Ambrosi, G., et al., 2016b. Precision                major source of the soft X-ray background. Nature 371, 774-777.
+    measurement of the boron to carbon flux ratio in cosmic rays from           Breitschwerdt, D., Schmutzler, T., 1999. The dynamical signature of the
+    1.9 GV to 2.6 TV with the alpha magnetic spectrometer on the                    ISM in soft X-rays. I. Diffuse soft X-rays from galaxies. A&A 347,
+    international space station. Phys. Rev. Lett. 117, 231102.                      650-668.
+                                                                                Bucciantini, N., Amato, E., Del Zanna, L., 2005. Relativistic MHD
+                                                                                    simulations of pulsar bow-shock nebulae. A&A 434, 189-199.
+                                                                                Cesarsky, C.J., 1980. Cosmic-ray confinement in the Galaxy. Ann. Rev.
+                                                                                    A&A 18, 289-319.
+                                                                                Cowsik, R., Burch, B., 2010. Positron fraction in cosmic rays and models
+                                                                                    of cosmic-ray propagation. Phys. Rev. D 82, 023009.
+                                                                                Cowsik, R., Burch, B., Madziwa-Nussinov, T., 2014. The origin of the
+                                                                                    spectral intensities of cosmic-ray positrons. ApJ 786, 124.
+                                                                                Cowsik, R., Madziwa-Nussinov, T., 2016. Spectral intensities of antipro-
+                                                                                    tons and the nested leaky-box model for cosmic rays in the Galaxy.
+                                                                                    ApJ 827, 119.
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx            19
+
+Crain, R.A., Eke, V.R., Frenk, C.S., et al., 2007. The baryon fraction of     Mertsch, P., Sarkar, S., 2009. Testing astrophysical models for the
+    KCDM haloes. MNRAS 377, 41-49.                                                PAMELA positron excess with cosmic ray nuclei. Phys. Rev. Lett. 103,
+                                                                                  081104.
+D'Angelo, M., Blasi, P., Amato, E., 2016. Grammage of cosmic rays
+    around Galactic supernova remnants. Phys. Rev. D 94, 083003.              Miller, J.A., Roberts, D.A., 1995. Stochastic proton acceleration by
+                                                                                  cascading Alfve´n waves in impulsive solar flares. ApJ 452, 912-932.
+di Mauro, M., Donato, F., Goudelis, A., Serpico, P.D., 2014. New
+    evaluation of the antiproton production cross section for cosmic ray      Nava, L., Gabici, S., Marcowith, A., Morlino, G., Ptuskin, V.S., 2016.
+    studies. Phys. Rev. D 90, 085017.                                             Non-linear diffusion of cosmic rays escaping from supernova remnants
+                                                                                  - I. The effect of neutrals. MNRAS 461, 3552-3562.
+Dogiel, V.A., Scho¨ nfelder, V., Strong, A.W., 2002. The cosmic-ray
+    luminosity of the Galaxy. ApJ Lett. 572, L157-L159.                       Potgieter, M., 2014. Very local interstellar spectra for galactic electrons,
+                                                                                  protons and helium. Braz. J. Phys. 44, 581-588.
+Drury, L., Drury, P.O'C., Kirk, J.G., 1996. Limits on diffusive shock
+    acceleration in dense and incompletely ionised media. A&A 309, 1002-      Profumo, S., 2012. Dissecting cosmic-ray electron-positron data with
+    1010.                                                                         Occam's razor: the role of known pulsars. Cent. Eur. J. Phys. 10, 1-31.
+
+Ellison, D.C., Jones, F.C., Eichler, D., 1981. Monte Carlo simulation of      Ptuskin, V.S., Voelk, H.J., Zirakashvili, V.N., Breitschwerdt, D., 1997.
+    collisionless shocks showing preferential acceleration of high A/Z            Transport of relativistic nucleons in a galactic wind driven by cosmic
+    particles. J. Geophys. Zeitschrift Geophysik 50, 110-113.                     rays. A&A 321, 434-443.
+
+Everett, J.E., Zweibel, E.G., Benjamin, R.A., et al., 2008. The Milky         Ptuskin, V.S., Zirakashvili, V.N., 2003. Limits on diffusive shock
+    Way's kiloparsec-scale wind: a hybrid cosmic-ray and thermally driven         acceleration in supernova remnants in the presence of cosmic-ray
+    outflow. ApJ 674, 258-270.                                                    streaming instability and wave dissipation. A&A 403, 1-10.
+
+Evoli, C., Gaggero, D., Grasso, D., Maccione, L., 2008. Cosmic ray            Ptuskin, V.S., Zirakashvili, V.N., Plesser, A.A., 2008. Non-linear diffusion
+    nuclei, antiprotons and gamma rays in the Galaxy: a new diffusion             of cosmic rays. Adv. Space Res. 42, 486-490.
+    model. J. Cosmol. Astropart. Phys. 10, 018.
+                                                                              Ptuskin, V.S., Strelnikova, O.N., Sveshnikova, L.G., 2009. On leaky-box
+Evoli, C., Gaggero, D., Grasso, D., 2015. Secondary antiprotons as a              approximation to GALPROP. Astropart. Phys. 31, 284-289.
+    Galactic Dark Matter probe. J. Cosmol. Astropart. Phys. 12, 039.
+                                                                              Ptuskin, V., Zirakashvili, V., Seo, E.-S., 2013. Spectra of cosmic-ray
+Faucher-Gigue`re, C.A., Kaspi, V.M., 2006. Birth and evolution of isolated        protons and helium produced in supernova remnants. ApJ 763, 47.
+    radio pulsars. ApJ 643, 332-355.
+                                                                              Recchia, S., Blasi, P., Morlino, G., 2016. On the radial distribution of
+Ferrie`re, K.M., 1998. Global model of the interstellar medium in our Galaxy      Galactic cosmic rays. MNRAS 462, L88-L92.
+    with new constraints on the hot gas component. ApJ 497, 759-776.
+                                                                              Recchia, S., Blasi, P., Morlino, G., 2016. Cosmic ray driven Galactic
+Ferrie`re, K.M., 2001. The interstellar environment of our Galaxy. Rev.           winds. MNRAS 462, 4227-4239.
+    Modern Phys. 73, 1031-1066.
+                                                                              Reville, B., OSullivan, S., Duffy, P., Kirk, J.G., 2008. The transport of
+Gaensler, B.M., van der Swaluw, E., Camilo, F., Kaspi, V.M., et al., 2004.        cosmic rays in self-excited magnetic turbulence. MNRAS 386, 509-
+    The mouse that soared: high-resolution X-Ray imaging of the pulsar-           515.
+    powered Bow Shock G359.23-0.82. ApJ 616, 383-402.
+                                                                              Riquelme, M.A., Spitkovsky, A., 2009. Nonlinear study of Bell's cosmic
+Giesen, G., Boudaud, M., Ge´nolini, Y., et al., 2015. AMS-02 antiprotons,         ray current-driven instability. ApJ 694, 626-642.
+    at last! Secondary astrophysical component and immediate implica-
+    tions for Dark Matter. J. Cosmol. Astropart. Phys. 9, 023.                Serpico, P.D., 2012. Astrophysical models for the origin of the positron
+                                                                                  ``excess". Astropart. Phys. 39, 2-11.
+Gleeson, L.J., Axford, W.I., 1968. Solar modulation of galactic cosmic
+    rays. ApJ 154, 1011-1026.                                                 Shebalin, J.V., Matthaeus, W.H., Montgomery, D., 1983. Anisotropy in
+                                                                                  MHD turbulence due to a mean magnetic field. J. Plasma Phys. 29,
+Green, D.A., 2005. Constraints on the distribution of supernova remnants          525-547.
+    with Galactocentric radius. MNRAS 454, 1517-1524.
+                                                                              Skilling, J., 1971. Cosmic rays in the Galaxy: convection or diffusion? ApJ
+Holmes, J.A., 1975. The confinement of galactic cosmic rays by Alfve´n            170, 265-273.
+    waves. MNRAS 170, 251-260.
+                                                                              Sridhar, S., Goldreich, P., 1994. Toward a theory of interstellar turbu-
+Hooper, D., Blasi, P., Serpico, P.D., 2009. Pulsars as the sources of high        lence. 1: weak Alfvenic turbulence. ApJ 432, 612-621.
+    energy cosmic ray positrons. J. Cosmol. Astropart. Phys. 1, 025.
+                                                                              Stinson, G.S., Brook, C., Maccio` , A.V., et al., 2013. Making galaxies in a
+Ipavich, F.M., 1975. Galactic winds driven by cosmic rays. ApJ 196, 107-          cosmological context: the need for early stellar feedback. MNRAS 428,
+    120.                                                                          129-140.
+
+Jones, F.C., Lukasiak, A., Ptuskin, V., Webber, W., 2001. The modified        Stone, E.C., Cummings, A.C., McDonald, F.B., Heikkila, B.C., Lal, N.,
+    weighted slab technique: models and results. ApJ 547, 264-271.                Webber, W.R., 2013. Voyager 1 observes low-energy galactic cosmic
+                                                                                  rays in a region depleted of heliospheric ions. Science 341, 150-153.
+Kargaltsev, O., Cerutti, B., Lyubarsky, Y., Striani, E., 2015. Pulsar-wind
+    nebulae. Recent progress in observations and theory. Space Sci. Rev.      Strong, A.W., Moskalenko, I.V., 1998. Propagation of cosmic-ray
+    191, 391-439.                                                                 nucleons in the Galaxy. ApJ 509, 212-228.
+
+Kaspi, V.M., Gotthelf, E.V., Gaensler, B.M., Lyutikov, M., 2001. X-Ray        Syrovatskii, S.I., 1959. The distribution of relativistic electrons in the
+    detection of pulsar PSR B1757-24 and its nebular tail. ApJL 562,              Galaxy and the spectrum of synchrotron radio emission. Sov. Astron.
+    L163-L166.                                                                    3, 22-38.
+
+Katz, B., Blum, K., Morag, J., Waxman, E., 2010. What can we really           Tomassetti, N., 2012. Origin of the cosmic-ray spectral hardening. ApJ.
+    learn from positron flux ``anomalies"? MNRAS 405, 1458-1472.                  Lett. 752, L13.
+
+Kissmann, R., 2014. PICARD: a novel code for the galactic cosmic ray          Tomassetti, N., 2015. Origin of the proton-to-helium ratio anomaly in
+    propagation problem. Astropart. Phys. 55, 37-50.                              cosmic rays. ApJ. Lett. 815, L1.
+
+Lipari, P., 2017. Interpretation of the cosmic ray positron and antiproton    Trotta, R., Jo´ hannesson, G., Moskalenko, I.V., Porter, T.A., et al., 2011.
+    fluxes. Phys. Rev. D 95, 063009.                                              Constraints on cosmic-ray propagation models from a global Bayesian
+                                                                                  analysis. ApJ 729, 106.
+Malkov, M.A., Diamond, P.H., Sagdeev, R.Z., Aharonian, F.A.,
+    Moskalenko, I.V., 2013. Analytic solution for self-regulated collective   Vink, J., 2012. Supernova remnants: the X-ray perspective. A&A Rev. 20,
+    escape of cosmic rays from their acceleration sites. ApJ 768, 73.             49.
+
+Malkov, M.A., Diamond, P.H., Sagdeev, R.Z., 2012. Proton-helium               Webber, W.R., Kish, J.C., Schrier, D.A., 1990. Formula for calculating
+    spectral anomaly as a signature of cosmic ray accelerator. Phys. Rev.         partial cross sections for nuclear reactions of nuclei with
+    Lett. 108, 081104.                                                            E J 200 MeV/nucleon in hydrogen targets. Phys. Rev. C 41, 566-571.
+
+Maurin, D., Donato, F., Taillet, R., Salati, P., 2001. Cosmic rays below      Webber, W.R., Soutoul, A., Kish, J.C., Rockstroh, J.M., 2003. Updated
+    Z=30 in a diffusion model: new constraints on propagation param-              formula for calculating partial cross sections for nuclear reactions of
+    eters. ApJ 555, 585-596.
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+20  E. Amato, P. Blasi / Advances in Space Research xxx (2017) xxx-xxx
+
+    nuclei with Z 6 28 and E > 150 MeV Nucleon-1 in hydrogen targets.      Zirakashvili, V.N., Ptuskin, V.S., 2008. Diffusive shock acceleration with
+    ApJ Suppl. 144, 153-167.                                                   magnetic amplification by nonresonant streaming instability in super-
+Wentzel, D.J., 1974. Cosmic-ray propagation in the Galaxy - collective         nova remnants. ApJ 678, 939-949.
+    effects. Ann. Rev. A&A 12, 71-96.
+Yoon, Y.S., Ahn, H.S., Allison, P.S., et al., 2011. Cosmic-ray proton and  Zweibel, E.G., Everett, J.E., 2010. Environments for magnetic field
+    helium spectra from the first CREAM flight. ApJ 728, 122.                  amplification by cosmic rays. ApJ 709, 1412-1419.
+Zhou, Y., Matthaeus, W.H., 1990. Models of inertial range spectra of
+    interplanetary magnetohydrodynamic turbulence. J. Geophys. Res. 95,
+    14881-14892.
+
+Please cite this article in press as: Amato, E., Blasi, P. Cosmic ray transport in the Galaxy: A review. Adv. Space Res. (2017), http://dx.doi.org/
+10.1016/j.asr.2017.04.019
+

@@ -1,0 +1,1326 @@
+arXiv:2103.04108v1 [astro-ph.HE] 6 Mar 2021                                                                                                                         LAPTH-011/21, LUPM:21-002
+
+                                                           New minimal, median, and maximal propagation models
+                                                               for dark matter searches with Galactic cosmic rays
+
+                                                           Yoann G´enolini,1,  Mathieu Boudaud,2,  Marco Cirelli,3,  Laurent Derome,4, §
+                                                           Julien Lavalle,5, ¶ David Maurin,4,  Pierre Salati,6,  and Nathanael Weinrich4
+
+                                                                  1Niels Bohr International Academy & Discovery Center, Niels Bohr Institute,
+                                                                 University of Copenhagen, Blegdamsvej 17, DK-2100 Copenhagen -- Denmark
+                                             2Instituto de F´isica Teo´rica UAM/CSIC, Calle Nicola´s Cabrera 13-15, Cantoblanco E-28049 Madrid -- Spain
+                                                        3LPTHE, CNRS & Sorbonne University, 4 place Jussieu 75252 Paris CEDEX 05 -- France
+
+                                                                                     4LPSC, Universit´e Grenoble Alpes, CNRS/IN2P3,
+                                                                                    53 avenue des Martyrs, 38026 Grenoble -- France
+                                                                               5Laboratoire Univers & Particules de Montpellier (LUPM),
+                                                                                     CNRS & Universit´e de Montpellier (UMR-5299),
+                                                                          Place Eug`ene Bataillon, F-34095 Montpellier Cedex 05 -- France
+                                                                                    6LAPTh, Universit´e Savoie Mont Blanc & CNRS,
+                                                                                   Chemin de Bellevue, 74941 Annecy Cedex -- France
+
+                                                        Galactic charged cosmic rays (notably electrons, positrons, antiprotons and light antinuclei) are
+                                                     powerful probes of dark matter annihilation or decay, in particular for candidates heavier than
+                                                     a few MeV or tiny evaporating primordial black holes. Recent measurements by Pamela, Ams-
+                                                     02, or Voyager on positrons and antiprotons already translate into constraints on several models
+                                                     over a large mass range. However, these constraints depend on Galactic transport models, in
+                                                     particular the diffusive halo size, subject to theoretical and statistical uncertainties. We update the
+                                                     so-called MIN-MED-MAX benchmark transport parameters that yield generic minimal, median and
+                                                     maximal dark-matter induced fluxes; this reduces the uncertainties on fluxes by a factor of about
+                                                     2 for positrons and 6 for antiprotons, with respect to their former version. We also provide handy
+                                                     fitting formulae for the associated predicted secondary antiproton and positron background fluxes.
+                                                     Finally, for more refined analyses, we provide the full details of the model parameters and covariance
+                                                     matrices of uncertainties.
+
+                                                      PACS numbers: 12.60.-i,95.35.+d,96.50.S-,98.35.Gi,98.70.Sa
+
+                                                                    I. INTRODUCTION                        ter being barely produced in conventional astrophysical
+                                                                                                           processes. Prototypical DM candidates leading to this
+                                                The nature of the dark matter (DM) that dominates          kind of signals are weakly-interacting massive particles
+                                             the matter content of the Universe is still mysterious.       (WIMPs), which are currently under close experimental
+                                             DM is at the basis of our current understanding of struc-     scrutiny [16, 17]. WIMPs are an example of thermally-
+                                             ture formation, and it is one of the pillars of the standard  produced particle DM in the early Universe, a viable and
+                                             -cold DM (CDM) cosmological scenario [1-3], despite           rather minimal scenario [18-24], in which effective inter-
+                                             potential issues on sub-galactic scales (e.g. [4]).           actions with visible matter may be similar in strength
+                                                                                                           to the standard weak one (see e.g. [25]). In this paper,
+                                                The recent decades have seen a number of different         for illustrative purpose, we restrict ourselves to the con-
+                                             strategies put in place in order to find explicit manifesta-  ventional case, i.e. annihilations that produce as much
+                                             tions of DM, which to date has been detected only grav-       matter as antimatter with speed-independent cross sec-
+                                             itationally. For instance, indirect searches (see e.g. [5-    tions (s-wave). However, we stress that the benchmark
+                                             7]) aim at discovering potential signals of annihilations     propagation models we derive below are relevant for a
+                                             (or decays) of DM particles from galactic to cosmological     variety of other exotic processes or candidates, for which
+                                             scales, in excess to those produced by conventional astro-    antimatter is also a powerful probe (e.g. decaying DM,
+                                             physical processes. In this paper, we focus on searches for   p-wave processes [26], complex exotic dark sectors [27],
+                                             traces of DM annihilation or decay in the form of high-       or evaporation [28] of very light primordial black holes
+                                             energy antimatter cosmic rays (CRs) [5, 6, 8-15], the lat-    [29-32]).
+
+                                             Electronic address: Yoann.Genolini@nbi.ku.dk                     The source term composition, spectrum, and spatial
+                                             Electronic address: Deceased                                  distribution (for DM-produced CRs) are dictated by both
+                                             Electronic address: marco.cirelli@gmail.com                   the fundamental properties of particle DM (mass, anni-
+                                             §Electronic address: laurent.derome@lpsc.in2p3.fr             hilation channels, annihilation rates), and its distribu-
+                                             ¶Electronic address: lavalle@in2p3.fr                         tion properties on macroscopic scales. Once injected, the
+                                             Electronic address: david.maurin@lpsc.in2p3.fr                produced CRs propagate in the turbulent magnetized
+                                             Electronic address: pierre.salati@lapth.cnrs.fr               Galactic environment where they experience diffusion-
+                                                                                                           loss processes, which modify their initial features. Those
+                                                                                                           reaching Earth constitute the potential DM signal in
+                                                                         2
+
+positrons and antiprotons (e.g. [33]), for many space-                   that our new MIN-MED-MAX sets are now valid for both
+borne experiments; notably Pamela [34, 35], Fermi [36],                  antiprotons (and more generally, for light antinuclei) and
+Ams-02 [37-39], Calet [40], Dampe [41], and Voy-                         positrons.
+ager [42, 43]1.
+                                                                            Computing the minimal, median, and maximal exotic
+   A key aspect in making predictions is therefore to as-                fluxes with our new benchmarks allows to easily go from
+sess, as realistically as possible, the systematic or the-               conservative to aggressive new physics predictions, i.e. to
+oretical uncertainties affecting Galactic CR transport                   bracket the uncertainty on the detectability of DM can-
+(e.g. [46-52]). An effective way of providing the sig-                   didates. However, in principle, the MIN-MED-MAX sets
+nal theoretical uncertainties was proposed in [53]. In                   are more suited to derive constraints than to seek ex-
+this reference, these authors introduced three benchmark                 cesses in antimatter CR data. Indeed, the latter should
+sets of Galactic propagation parameters (known as MIN,                   rely on full statistical analyses including correlations of
+MED, and MAX), picked among those best-fitting B/C                       errors (e.g. [33, 81, 85, 86]). For more elaborate com-
+data at that time [54]. Of these, MED was actually                       parisons with existing data, one can still perform the full
+the best-fit model, while MIN and MAX were respec-                       CR analysis with usine [52, 62]4, or with other comple-
+tively minimizing and maximizing the antiproton signal                   mentary codes like Galprop [87]5, Dragon [88, 89]6, or
+predictions in some specific supersymmetric DM scenar-                   Picard [90, 91]7.
+ios. These models were also later used for predictions
+of the positron signal, together with some dedicated ana-                   The paper develops as follows. In Sect. II, we quickly
+logues [55]. They have been exploited by a broad commu-                  review the formalism of Galactic CR transport and the
+nity for mainly two reasons: first, the overall propagation              basic ingredients entering the DM source term. In
+framework was minimal enough to allow for simple ana-                    Sect. III, we pedagogically derive parameter combina-
+lytic or semi-analytic solutions to the CR transport equa-               tions that drive the DM-produced antimatter signals, for
+tion [12, 54, 56-62]; second, the associated astrophysical               antiprotons and positrons in turn. In Sect. IV, we intro-
+backgrounds were generally provided in dedicated stud-                   duce the statistical method with which we define the sets
+ies, so that setting constraints on DM candidates only                   of CR transport parameters that maximize and minimize
+required calculations of the exotic signal. These models                 the exotic CR fluxes. We present our results in Sect. V,
+were eventually included in public tools for DM searches,                where we also show comparisons between fluxes calcu-
+such as Micromegas [63] or PPPC4DMID [14]. How-                          lated from the old and new benchmarks. We conclude in
+ever, as a consequence of the plethora of increasingly pre-              Sect. VI.
+cise CR data, they are now outdated (see e.g. [64-67]).
+                                                                            We postpone to appendices some practical pieces of
+   In this paper, we propose new benchmark MIN-MED-                      information and more detailed considerations. In par-
+MAX parameters for the three transport schemes intro-                    ticular, App. A may prove useful for many readers, as it
+duced in [66]2. These parameters are based on the anal-                  gathers transport parameters best-fit values and their co-
+ysis of the latest Ams-02 [68-72] secondary-to-primary                   variance matrices of uncertainties; the latter can be used
+ratios3 [67], and fully account for the breaks observed in               for a more evolved DM analysis, going beyond the sim-
+the diffusion coefficient at high [66, 73-79] and low rigid-             ple use of MIN-MED-MAX. We also provide parametric
+ity [66, 80]; these parameters also provide secondary an-                formulae (and ancillary files) for the astrophysical back-
+tiprotons fluxes consistent [81] with Ams-02 data [82]. In               ground prediction (both antiprotons and positrons). In
+contrast to the previous MIN-MED-MAX benchmarks,                         App. B, we perform a cross-validation of the uncertainties
+we now account for the constraints on the diffusive halo                 and correlations on the transport parameter. Whereas
+size L derived in [83]; these constraints are set by ra-                 the main text focuses on the SLIM propagation scheme,
+dioactive CR species [84] and to a lesser extent by the                  App. C extends the discussion to the BIG and QUAINT
+no-overshoot condition on secondary positrons [64]. A                    schemes.
+further improvement is that we devise a sound statistical
+method to pick (in the hyper-volume of allowed propa-                                            II. GENERALITIES
+gation parameters) more representative benchmarks, so
+                                                                                       A. Galactic cosmic-ray transport
+
+1Although launched more than 40 years ago, the latter missions are           In this section, we shortly recall the formalism and the
+ now playing a decisive role in the understanding of CR propagation       main ingredients of Galactic CR transport and of the
+ [44] as well as in constraining DM [32, 45].                             DM source term. These will be instrumental to discuss,
+
+2These schemes (denoted BIG, SLIM, and QUAINT) have slightly             4https://dmaurin.gitlab.io/USINE
+ different parametrizations of the diffusion coefficient and include     5https://galprop.stanford.edu/
+ or not reacceleration. See [66] or App. A (in this paper) for details.  6https://github.com/cosmicrays/
+                                                                         7https://astro-staff.uibk.ac.at/ kissmrbu/Picard.html
+3Secondary CRs are species absent from sources and only cre-
+ ated by nuclear fragmentation of heavier species during their
+ transport, while primary species are CRs present in sources and
+ sub-dominantly created during transport. Typical secondary-to-
+ primary ratios are 3He/4He, Li/C, Be/C, and B/C.
+                                                                                                   3
+
+in the following section, the scaling of the DM-produced          All transport processes introduced above are charac-
+antimatter fluxes with the main propagation parameters,        terized by free parameters of a priori unknown magni-
+in order to motivate the way we will define our MIN-           tude, except for energy loss, inelastic scattering, or de-
+MED-MAX configurations.                                        cay which depend on constrained ingredients. These free
+                                                               parameters are usually fitted to CR data, in particular
+   The generic steady-state diffusion-loss equation for a      to the secondary-to-primary CR ratios (the most conven-
+CR species a in energy (E) space (differential density         tionally used being the boron-to-carbon (B/C) ratio), in
+per unit energy a  dna/dE) is [56]                             which the source term almost cancels out. Using AMS-
+                                                               02 B/C data, three different propagation schemes, moti-
+- x Kxa - Vca -                        blossa + 2Kpp a         vated by microphysical considerations, were introduced
+                                    E                       E  in [66]; these schemes are detailed in App. A. For each of
+                                                               them, we use the associated propagation parameters con-
+= Qasrc prim + ba src sec b - asink a . (1)                    strained by the recent analysis of AMS-02 Li/C, Be/C,
+                                                               B/C, and positrons data [67, 83].
+                            b
+                                                                  For DM searches in the GeV-TeV energy range, the
+The first line describes the spatial diffusion K(E) and        halo size boundary L and spatial diffusion play the
+convection Vc, and the energy transport with energy            main role for light antinuclei [61], supplemented by
+losses bloss(E)  -dE/dt and momentum diffusion Kpp.            bremsstrahlung [102], synchrotron or inverse Compton
+More details are given in App. A. In particular, the com-      energy losses for positrons. The role of these parame-
+plete forms of the diffusion coefficients used in this work    ters is highlighted in the next Sect. III where we ped-
+are given in Eq. (A1) (diffusion in real space) and in         agogically derive approximate analytical expressions for
+Eq. (A2) (diffusion in momentum space). The second             the primary fluxes. Complicated aspects regarding CR
+line corresponds to the source and sink terms that are         propagation at low rigidity (combination of convection,
+listed below.                                                  reacceleration, low-rigidity break in the diffusion coeffi-
+                                                               cient, solar modulation, etc.) remain important though,
+· The source terms include a primary contribution              as shown in Sect. IV.
+   Qsrc prim,                                 src sec ba
+               and  secondary  contributions              
+      a
+   ba vb nism + BRba/(bb). The latter arises from
+
+   the sum over (i) inelastic processes converting heav-
+
+   ier species of index b into a species (production
+
+   cross section ba from impinging CR at velocity vb           B. Dark matter source distribution
+
+   on the InterStellar Medium density nism at rest),
+
+   and (ii) decay of unstable species with a decay rate           For annihilating DM, the appropriate source term Q
+                                                               featuring in Eq. (1) is given (at some position xs) by
+   b and branching ratio BRba (b is the Lorentz
+
+   factor of species b). Note that for DM products,
+
+   these secondary contributions are part of the con-                          dNa(E) (xs) 2
+
+   ventional astrophysical background (there are very          Q,a(E, xs) = S  dE             , (2)
+
+   likely also conventional astrophysical sources of pri-
+
+   mary positrons [92-94] and antiprotons [95], which          where dNa/dE is the spectrum of CRs of species a in-
+                                                               jected by self-annihilation process, (xs) is the mass den-
+   should add up to the background).                           sity profile,  is the DM density at the position of the
+                                                               solar system, and
+·  The  sink   terms,  sink    a va nism  +  1/(aa),      in-
+
+                         a
+
+   clude inelastic interactions on the ISM (destruc-
+
+   tion of a) and decay--these terms are irrelevant for                   v  2
+                                                               S   2 m . (3)
+   positrons.
+
+   In this study, the transport equation is solved semi-       Above, m is the DM particle mass, v the thermally
+analytically in a magnetic slab of half-height L (and ra-      averaged annihilation cross section (times speed),  = 1
+dial extent R) that encompasses the disk of the Galaxy,        (or 1/2) if DM particles are (not) self-conjugate, (xs) is
+and inside which, the spatial diffusion coefficient is as-     the mass density profile of the dark halo.
+sumed to be homogeneous. The derived interstellar (IS)
+flux predictions are then compared to top-of-atmosphere           Such profile is expected to behave approximately like
+(TOA) data by means of the force-field approximation           r- in the inner parts of the Milky Way within the solar
+[96, 97], which allows to account for solar modulation         circle, where r is the Galactocentric distance and  
+effects [98]. The modulation level appropriate to any          [0, 1] (i.e. between a core and a cusp) [103-105]--this is
+dataset can be inferred from neutron monitor data [99],        consistent with current kinematic data [106, 107]. There-
+and be retrieved online from the CR database (CRDB)8           fore the source may strongly intensify toward the Galac-
+[100, 101].                                                    tic center, which is located at a distance of R  8.2 kpc
+                                                               from the solar system [108], and where a very hot spot of
+8https://lpsc.in2p3.fr/crdb, see `Solar modulation' tab.       DM annihilation lies in the case of a cuspy halo (see next
+                                                               section). For definiteness, our illustrations of the MIN-
+                                                               MED-MAX fluxes are based on an NFW profile [104],
+                                                                                                                 4
+
+(r) = s(r/rs)-1(1 + r/rs)2, where s is the scale DM          tion is simply given by
+density, but our benchmark transport parameters apply
+to any profile.                                                  Gp¯(E, x  xs) = 1 , (5)
+                                                                                          4  K(E)|x - xs|
+      III. DEPENDENCE OF DM-PRODUCED
+          PRIMARY CRS ON PROPAGATION                         where K(E) is the scalar, rigidity-dependent (equiva-
+                            PARAMETERS                       lently energy-dependent) diffusion coefficient. The Green
+                                                             function is related to the probability for an antiproton in-
+   Diffusion occurs in a magnetic slab of half-height L,     jected at point xs to reach a detector located at Earth at
+beyond which magnetic turbulences decay away, leading        point x . For relativistic antiprotons (with speed v  c),
+to CR leakage (free streaming). Therefore, L character-      the flux at the detector position derives from the Green
+izes a specific spatial scale beyond which CRs can escape    function through
+from the Milky Way. One can easily deduce that an
+important consequence for the DM-produced CR flux is         dp¯(E, x ) = v      d3xs Gp¯(E, x   xs) Q,p¯(E, xs) .
+related to L itself [109, 110], and to the possible hierar-  dE  4                                                      (6)
+chy between L and R . In particular, L R leads to                            slab
+a flux approximately set by the local DM density, and
+L R leads to an additional important contribution            Here Q,p¯(E, xs) is the source term for DM-induced an-
+from the Galactic center. From this very simple argu-        tiproton CRs, which has been introduced in Eq. (2).
+ment, it is already clear that L will play an important
+role in defining parameter sets that maximize or mini-          Now, let us try to artificially introduce the vertical
+mize the DM-produced CR flux, as we will see below.          boundary condition, i.e. the most stringent one, in the
+                                                             form of an absolute horizon of size  L, where  is a
+   Note that since L is usually found to be much smaller     number of order O(1). Crudely assuming that the DM
+than the typical scale radius rs  20 kpc of the DM halo      density is quasi-constant within the magnetic slab, one
+[106, 107], we approximate (for this section only) the DM    can readily integrate Eq. (6) to get
+density profile by
+                                                                 dp¯(E, x )           v 2L2    Q,p¯(E, xs) V
+                                      r -
+                     (r)  R . (4)                                dE                   4  K(E)               L
+
+   We derive below, under simplifying assumptions, the        dp¯(E, x )  L2 . (7)
+dependence of antiprotons and positrons exotic signals           dE                   K (E )
+on the halo size L and the diffusion coefficient K(R).
+We highlight in particular the specific dependence of the    Above, . . . V represents an average over a volume
+Galactic center hotspot source term. Note that the fol-
+lowing approximate analytical results are not meant to be                                         L
+compared with accurate predictions, but rather to high-
+light the decisive role of some of the propagation param-    VL  (L)3 centered at Earth and delineated by an
+eters from concrete physical arguments.                      horizon of size  L. Equation (7) displays the main de-
+                                                             pendence of the light nuclei fluxes in terms of the main
+                         A. Light antinuclei                 propagation parameters,  L2/K. It can also be easily
+                                                             shown that this same ratio, which has the dimensions of
+   We start with the case of light antinuclei in general,    a time, corresponds to the typical residence time of CRs
+but stick to antiprotons without loss of generality--        inside the magnetic halo, res. The physical interpreta-
+arguments similar to those presented below can be found      tion is therefore simple: the flux scales linearly with the
+in several past studies, e.g. [12, 53, 61, 111].             time that CRs spend diffusing before escaping.
+
+   Since we are interested in the flux prediction above         An even simpler scaling relation emerges if one adds
+a few GeV, we can approximately describe the antipro-        the information that K/L is strongly constrained by mea-
+ton propagation as being entirely of diffusive nature (nei-  surements of secondary-to-primary ratios (e.g. [54]). In
+ther energy loss nor gain). Forgetting for the moment        particular, if the DM density were to be constant, the flux
+the spatial boundary conditions associated with our slab     of primary antinuclei would merely scale linearly with L
+model, we can start the discussion in terms of the three-    [61]. In reality, except for the case of an extended-core
+dimensional (3D) Green function, derived with spatial        DM halo, the source term is not constant: it can be as-
+boundaries sent to infinity. In that case, the Green func-   sumed to scale like 1/r2 for DM self-annihilation and in
+tion associated with the steady-state propagation equa-      a cuspy NFW halo. Placing oneself in the observer frame
+                                                             (xs/ = xs - x ), and taking Q,p¯(E) = S dNp¯(E)/dE,
+                                                             one can get
+
+                                                             dp¯(E, x )  v Q,p¯(E)
+                                                             dE              4
+
+                                                                                                R2
+
+                                                                     × d3xs/ |xs/ +x |
+                                                                                         4  K(E)|xs/ |
+
+                                                                             VL
+
+                                                                             v R2     Q,p¯(E)    ( L/R )2l       .(8)
+
+                                                                             4  K(E)            l=1  2l(2l - 1)
+                                                                                                                5
+
+This generalizes Eq. (7), and indeed the l = 1 term gives    exact solution to the transport equation [65, 113-115],
+back the scaling relation previously derived. This series    but, like for antinuclei, we can roughly account for the
+approximation is valid for  L R , but it is enough           vertical boundary by limiting the spatial integration to
+to grasp the growing impact of L when it increases up        the local volume within L, VL . The positron flux is
+to the Galactic center distance R . We emphasize that        then given by
+this very simple calculation does qualitatively capture
+the exact DM phenomenology very well (see Sect. V).             de+ (E, x ) = v
+                                                                    dE   4
+   Below a few GeV, this simple picture might be al-
+tered as other processes become more efficient than spa-     
+tial diffusion. This can typically occur in the QUAINT
+propagation scheme [66], in which diffusive reaccelera-      × dEs d3xs Ge+ (E, x   Es, xs) Q,e(Es, xs), (11)
+tion could be strong without spoiling energetics consid-
+erations [112]. Diffusive reacceleration redistributes low-  E      VL
+energy particles toward slightly higher energy, and can af-
+fect the GeV and sub-GeV predictions significantly [53].     where an integral over energy has appeared, making the
+This occurs when the typical timescale for reaccelera-       phenomenological discussion slightly more tricky than for
+tion  K(E)/Va2 becomes smaller than other timescales,        antinuclei.
+like the disk-crossing diffusion ( hL/K(E), where h
+is the typical ISM disk half-height), or the convective         Note that if the dimensionless source energy s ,
+wind ( h/Vc) timescales. Therefore, reacceleration may       then it no longer affects the propagation scale , whose
+play a role at low energy when the Alfv´en speed Va be-      order-of-magnitude estimate, taking E = 1 GeV, reads
+comes large, which can further be used to maximize the
+flux of DM-produced antinuclei in this energy range (see     2  (4.5 kpc) 0.05 kpc2/Myr 1016 2 K l s     E -1/2
+Sect. IV).                                                                                            10 GeV . (12)
+
+B. Positrons                                                 CR propagation becomes quickly short-range for positron
+                                                             energies above  10 GeV, which can be used to simplify
+   We now turn to the case of positrons (identical con-      the discussion.
+siderations apply to electrons). We can basically use the
+same reasoning as for antiprotons/antinuclei, except that       Thus, let us consider two different regimes for the prop-
+at energies above a few GeV, both spatial diffusion and      agation scale . When the positron energy  is large, or
+energy losses are important in characterizing their prop-    when   s, we are in the regime of vanishing propa-
+agation in the magnetic halo. We can again start from        gation scale,   0. In that case, the Green function
+the infinite 3D Green function:                              simplifies to
+
+                                                                         0 3(x - xs)                  (Es - E) , (13)
+                                                             Ge+ (E, x  Es, xs) -
+                                                                                           b(E)
+
+                                                             such that the DM-produced positron flux is readily given
+                                                             by
+
+                                                             de+ (E, x ) 0 v S              dNe+ (Es)           . (14)
+                                                                              -            dEs
+                      |x -xs |2                                 dE       4  b(E) E                    dEs
+                      1 e- 2 2
+Ge+ (E, x  Es, xs) =    2 3/2 ,    (9)
+                      b(E) (2   )                            This result is important, because it implies that at suffi-
+                                                             ciently high energy, the positron flux no longer depends
+where we define the energy-dependent positron propaga-       on propagation parameters related to spatial diffusion,
+tion scale  as                                               and is not sensitive to spatial boundary effects either. It
+                                                             only depends on the local energy loss rate, such that the
+2 = 2 Es (E, E K(E ) s) = 2 dE                               prediction uncertainties are essentially set by those in the
+                      b(E )                                  Galactic magnetic field and in the interstellar radiation
+           E                                                 field (ISRF)--for details, see e.g. [94, 116].
+
+ 2 = 2 K l -++1 1 - s -++1         .(10)                        In the opposite regime (small positron energy ), we
+( -  - 1)                                                    can proceed as we did for antinuclei, and if  L, we
+                                                             can neglect the Gaussian suppression in Eq. (9) such that
+In the latter step, we have assumed that the diffusion       the DM-annihilation-induced positron flux scales roughly
+coefficient and the energy loss rate obey single power laws  as
+in energy, with K() = K , and b() = (E /l),
+defining the dimensionless energy   E/E , where E            de+ (E, x )  de+ (E, x )
+is a reference energy (or the energy of interest). Above        dE       dE                0
+a few GeV, energy losses are mostly due to synchrotron
+and inverse Compton losses, with  = 2 and l  1016 s          + v S R3  (L/R )2l+1             dEs          dNe+ (Es)
+(for E = 1 GeV) [94]. In the inertial regime of spatial      b(E)        (2l + 1)(2l - 1)  E> (2  2)3/2       dEs
+diffusion, typical values for  are currently found around           l=1
+0.5 [66, 67, 83]. Correctly including the spatial boundary
+conditions would significantly affect the legibility of the  l=1 (L)3          L2 3/2                 L2 3/2    (15)
+                                                              3          K(>)l/>                             .
+
+                                                                                                      K
+                                                                                     6
+
+The first term on the right-hand side is the   0 limit       interstellar radiation field that enter the energy-loss rate
+derived in Eq. (14) above, corresponding to the subdom-      (the larger the loss rate, the smaller the flux). For more
+inant local yield when E  Es in the energy integral,         details on these uncertainties, see e.g. [94, 116].
+and the second term adds up farther contributions from
+source energies beyond a critical value of E> E, for            Since L/K is strongly constrained (L/K0  constant),
+which  is assumed to be of order L (corresponding to         the main hierarchy in the exotic flux calculation is there-
+the GeV energy range, see Eq. (12)). The series ex-          fore set by a selection over L. It is necessary to further
+pansion is performed supposing a source term scaling         select on the remaining transport parameters to ensure
+like the (squared) density profile given in Eq. (4) with     the consistency of the hierarchy down to the lowest en-
+ = 1 (i.e. an NFW halo profile), and is formally valid       ergies. For instance, the SLIM and BIG schemes, close to
+in the regime L R . As for the case of antinuclei            pure diffusion models, have a low-rigidity break index l.
+(see Eq. (7)) this helps understand the growing impact       This parameter is correlated to other transport param-
+of L as it increases (terms l > 1 needed), which im-         eters, and it strongly impacts on the residence time of
+plies collecting annihilation products closer and closer to  CRs in the halo, and thereby affects the hierarchy in the
+the Galactic center. The leading l = 1 term exhibits         flux predictions. Besides, the QUAINT scheme can allow
+a dependence in the same combination of transport pa-        for a significant amount of reacceleration, which also im-
+rameters, L2/K , as for antinuclei (though to a different    pacts on the primary fluxes (by pushing upward the low-
+power). Recall that K , the normalization of the simple      energy yield and padding the flux at some critical energy
+power-law approximation of the diffusion coefficient, can    that minimizes the relative reacceleration timescale). For
+be traded for the standard K0 normalization of the com-      these reasons, the dependence of both L and l for SLIM
+plete expression given in App. A; mind also the specific     and BIG and L and Va for QUAINT are also used in the
+energy dependence.                                           following to define our reference models MIN, MED, and
+                                                             MAX.
+   Finally, we stress that positrons are much more sen-
+sitive to low-energy processes than light antinuclei, sim-   IV. STATISTICAL METHOD
+ply due to their comparatively smaller inertia. They are
+particularly responsive to diffusive reacceleration, which      In this section, we describe the statistical method
+may strongly affect their low-energy spectra up to  5-       used to derive the parameters corresponding to the MIN,
+10 GeV when efficient enough [65, 117]. As already men-      MED, and MAX benchmarks. For simplicity, we focus on
+tioned above, some of the propagation configurations we      the SLIM scheme, which has 5 free parameters, namely
+consider, the QUAINT model for instance, feature a po-       L, , K0, Rl, and l (see details in App. A 1). The same
+tentially high level of reacceleration, which could imply    approach can also be applied to the BIG and QUAINT
+a transition from energy-loss dominated (at high energy)     schemes (see App. C).
+to reacceleration dominated transport (at low energy)
+for positrons. In that case, low-energy yields which may        Our starting point is the transport parameters derived
+originate from the Galactic center are pushed to slightly    in [83], from the combined analysis of Ams-02 Li/C,
+higher energies, which leads to a significant "bumpy" in-    B/C, and Be/B data, and existing 10Be/Be+10Be/9Be
+crease of the DM-induced flux. Like for antinuclei, this     data (see Table 2 of [83]). More specifically, we use the
+occurs whenever the typical timescale for reacceleration     best-fit values and covariance matrix of uncertainties9 to
+ K(E)/Va2 becomes smaller than the other relevant            draw a collection of 105 SLIM (correlated) propagation
+timescales, naturally selecting large values of the Alfv´en  parameters. This sample is displayed in the (L, l) plot
+speed Va.                                                    of Fig. 1. Each blue point stands for a particular model
+                                                             within the SLIM propagation scheme. The constellation
+           C. Hierarchy of relevant parameters               of dots is nearly circular, indicating that the CR param-
+                                                             eters log10 L and l are not correlated with each other.
+   We have just shown that DM-produced primary fluxes
+of antimatter CRs scale like powers of L2/K, i.e. pow-          To define the MAX (resp. MIN) configuration, we start
+ers of the diffusion time across the magnetic halo; see      selecting a sub-sample of SLIM models whose quantiles
+Eqs. (7), (8), and (15). The parameter L itself plays        relative to log10 L and to l are both larger (resp. smaller)
+a special role by enlarging the CR horizon toward the        than a critical value of
+Galactic center hot spot. An exception arises for high-
+energy positrons (typically E 10 GeV), for which only             1  n
+inverse Compton and synchrotron energy losses matter,        qMAX = 1 ± erf      ;   (16)
+so that the resulting flux becomes independent of the        MIN  2           2
+propagation parameters; see Eq. (14). More subtle effects
+may add up at GeV energies, like diffusive reacceleration.   9The best-fit values and the covariance matrix are given explicitly
+In that case, propagation uncertainties are set by uncer-     in App. A 3. Subtleties and further checks regarding the derivation
+tainties in the modeling of the magnetic field and of the     of these quantities are given in App. A and B; the latter shows that
+                                                              the parameters follows at first order a multidimensional Gaussian.
+                                                               SLIM                                                            7
+
+                                                                                                            All
+                                                                                                            MAX
+                                                                                                            MED
+                                                                                                            MIN
+
+                                                               0.25 0.50 0.75 1.00
+
+                                                                            log10    L     [-]
+                                                                                   1kpc
+
+FIG. 1: The constellation of blue dots features a sample of           -1.5              -1.0                -0.5
+105 randomly drawn SLIM models. Along each of the direc-                           l [-]
+tions log10 L and l, the red and green models are located
+at more than 2 standard deviations from the mean. The          -1.75 -1.50 -1.25                     -1.00
+barycenters of these populations, defined with respect to all
+CR parameters, respectively yield the MAX and MIN config-                  log10       K0       [-]
+urations, depicted by the upward and downward black trian-                        1kpc2Myr-1
+gles. The MED model corresponds to the barycenter of the
+orange sub-sample. The latter is defined by requiring that     0.450       0.475 0.500               0.525
+the quantiles with respect to log10 L and l are equal to the                          [-]
+average value qMED = 0.5 up to a width p.
+                                                                      4.0          4.5               5.0
+where erf(x) = 2/ 0x e-t2 dt is the error function.
+Along each of the directions log10 L and l, these models                          Rl [GV]
+are located at more than n standard deviations from the
+average configuration. We show in the next section that a      FIG. 2: Probability distribution functions for the SLIM
+value of n = 2 efficiently brackets the DM-produced pri-       propagation parameters. The blue curves correspond to the
+mary fluxes, whatever the annihilation channel. In Fig. 1,     full collection (All) of 105 randomly drawn SLIM models.
+this sub-sample corresponds to the red dots lying in the       The green-dotted, orange-dashed, and red-solid distributions
+upper-right corner (resp. green points in the lower-left       stand respectively for the MIN, MED, and MAX sub-samples,
+corner) of the blue constellation. Once this population        and the symbols correspond to the determined benchmark
+has been drawn, the MAX (resp. MIN) model is defined           values (see text).
+as its barycenter inside the multi-dimensional space of
+all CR parameters. It is identified by the upward (resp.       are represented in Fig. 2 by the blue curves labeled All.
+downward) black triangle.
+
+   For the MED model, we proceed slightly differently.
+The orange square in Fig. 1 corresponds to a sub-sample
+of models whose quantiles relative to log10 L and to l are
+both in the range extending from qMED - p/2 to qMED +
+p/2, with qMED = 0.5 and p a `width parameter' specified
+below. Once that population is selected, the MED model
+corresponds once again to its barycenter configuration in
+the multi-dimensional space of all CR parameters. It is
+shown as a black square lying at the center of the orange
+square. The parameters of the MED model have been
+derived with p = 0.03. However, Fig. 1 has been made
+using p = 0.1 for legibility, as a smaller value would have
+shrinked the orange zone underneath the triangle.
+
+   The probability distribution functions (PDFs) of the
+SLIM propagation parameters have been extracted for the
+entire population of 105 randomly drawn models. They
+TABLE I: Propagation parameters for the MIN, MED, and        E2 e+[s-1 m-2 sr-1 GeV]  101                      m = 100 GeV                      8
+MAX benchmarks for SLIM.                                                                                     v b¯b = 50 v th
+                                                                                               F = 700 MV  v e+e- = 10 v th          b¯b
+SLIM  L             log10 K0      Rl    l                                                                                            e+e-
+      [kpc]         [kpc2 Myr-1]  [GV]                                                100                          NFW profile       MAX
+MAX   8.40   0.490  -1.18         4.74  -0.776                                                                                       MED
+MED   4.67   0.499  -1.44         4.48  -1.11                                                                                        MIN
+MIN   2.56   0.509  -1.71         4.21  -1.45                                                                                        AMS02
+
+                                                                                      10-1
+
+Similar PDFs have also been derived for the MIN, MED                                            100        101  102                  103
+and MAX sub-samples. They respectively correspond to
+the green-dotted, orange-dashed, and red-solid lines. As                                             Positron Energy E [GeV]
+in Fig. 1, we have used a width of p = 0.1 to show the
+PDFs for the MED population. We first notice that the                                 100                                       m = 100 GeV
+blue PDFs (All) extend broadly over the entire accessi-                                                                          v b¯b = v th
+ble range of propagation parameters. They correspond                                           F = 700 MV
+to the global sample. This is not quite the case for the
+PDFs relative to the MIN, MED, and MAX sub-samples.          R2 ¯p[s-1 m-2 sr-1 GV]                                             NFW profile
+These populations have been extracted by selecting par-
+ticular values of log10 L and l. It is therefore no sur-                              10-1
+prise if the corresponding PDFs are quite narrow and
+well separated from each other in the two upper pan-                                  10-2                                           b¯b
+els of Fig. 2. The PDFs relative to the normalization                                 10-3 100                                       MAX
+K0 of the diffusion coefficient are shown in the middle                                                                              MED
+panel. As said previously, a correlation between log10 K0                                                                            MIN
+and log10 L directly arises from calibrating propagation                                                                             AMS02
+on secondary-to-primary ratios -- this appears explicitly
+in Fig. 7 in App. B. This translates into fairly peaked                                                    101                  102
+PDFs for K0. The MIN and MAX models are thus re-
+spectively characterized by lower and larger values for L,                                           Antiproton rigidity R [GV]
+l and K0. The separation induced by a selection of MIN-
+MED-MAX models from L and l is less striking in the          FIG. 3: In the upper panel, the primary positron fluxes
+PDFs of the inertial diffusion index  and of the position
+of the low-rigidity break Rl, but is still observed (they    are plotted as a function of positron energy for two differ-
+actually slightly correlate with K0, and more strongly       ent annihilation channels, i.e. b¯b in pink and e+e- in blue.
+with l). Our selection procedure allows us to fully ac-
+count for these slighter correlations, even if these latter  The annihilation cross section has been respectively set to
+parameters have much less impact on the primary fluxes.      1.5 × 10-24 and 3 × 10-25 cm3 s-1, to obtain primary fluxes
+In each panel, we finally notice that the blue and orange
+PDFs have the same mean. The MED configuration is            roughly at the same level as the Ams-02 data [118], just for
+actually defined as the barycenter of a sub-population of    illustration purposes. The lower panel features the antipro-
+models selected for their average values of log10 L and l.   ton yield for the same DM species and b¯b channel as above,
+This sub-sample sits in the middle of the entire popula-
+tion.                                                        with thermal annihilation cross section. For each channel, 50
+
+   The sets of values of the propagation parameters for      CR models have been randomly selected and drawn in color.
+the MIN, MED and MAX benchmarks are listed in Ta-
+ble I. Similar tables for the BIG and QUAINT cases are       The MIN, MED, and MAX configurations respectively corre-
+shown in App. C.
+                                                             spond to the dashed, solid and dotted black curves. All fluxes
+
+                                                             are modulated, with a Fisk potential of F = 700 MV.
+
+        V. NEW MIN-MED-MAX FLUXES ON                         do so, we use the so-called pinching method in a 2D
+                     SELECTED EXAMPLES                       setup [65], which is the most up-to-date semi-analytical
+                                                             procedure to incorporate all CR transport processes. The
+   Equipped with the samples derived in Sec. IV, we com-     DM halo profile is borrowed from [106] with a galacto-
+pute numerically some primary fluxes to check if the half-   centric distance R of 8.21 kpc, a local DM density 
+height L of the magnetic halo efficiently gauges them,       of 0.383 GeV cm-3 and a scale radius rs set to 18.6 kpc.
+as proposed in Sec. III. We first derive the positron        To ensure a fast convergence of the Bessel series expan-
+flux for some representative annihilation channels. To       sion, the central divergence is smoothed according to the
+                                                             method detailed in Sec. II.D of [55] with a renormaliza-
+                                                             tion radius of 0.1 kpc. For definiteness, we use the ther-
+                                                             mal cross-section v th = 3 × 10-26 cm3 s-1, but this
+                                                             parameter can be factored out and is not relevant to our
+                                                             analysis.
+                                                                        9
+
+FIG. 4: The relative spread of primary fluxes is plotted as a function of the half-height L of the magnetic halo, at three
+different rigidities. Here we considered a DM particle of mass 100 GeV that annihilates through the b¯b channel. Positrons
+
+and antiprotons respectively correspond to the upper and lower panels. Solar modulation is included with a Fisk potential of
+
+F = 700 MV. In each panel, the green, orange and red points respectively correspond to the MIN, MED, and MAX samples
+selected, as explained in section IV. For illustrative purpose, in this figure, 104 SLIM models are randomly drawn (as opposed to
+
+the larger ensembles we use in the main analysis), so each colored sample contains around a dozen models. The black squares
+
+and triangles indicate the actual loci of the MED, MIN and MAX configurations.
+
+                                   A. Fluxes                            Eq. (14) and is not impacted by diffusion or the magnetic
+                                                                        halo boundaries. Moving toward smaller positron ener-
+     In the upper panel of Fig. 3, we present a first example           gies, the various curves separate from each other while
+  of such calculations. The primary positron flux is calcu-             keeping their respective positions down to approximately
+  lated for a subset of the SLIM models derived in Sect. IV             1 GeV. At even lower energies, they are intertwined with
+  and a DM mass of 100 GeV. The pink and blue curves                    one another and the high-energy ordering of the primary
+  respectively correspond to b¯b and e+e- channels. The                 fluxes is lost. In the case of the SLIM parametrization, the
+  injection spectra dNe+ /dEs are taken from an improved                low-energy index l of the diffusion coefficient comes into
+  version of PPPC4DMID [119].10                                         play and redistributes the fluxes in the sub-GeV range.
+                                                                        However, because the MIN, MED, and MAX models
+     For positrons, we first notice that whatever the CR                (represented by the black lines) have actually been se-
+  model, the predictions for a given annihilation channel               lected from both L and l, they do not exhibit that trend
+  converge to the same value at high energy. When the                   and the corresponding fluxes follow the expected hierar-
+  positron energy E is close to the DM mass, the propa-                 chy. In particular, the extreme MIN (dashed) and MAX
+  gation scale  is much smaller than both L and R . As                  (dotted) curves nicely encapsulate the bulk of flux predic-
+  predicted in Sect. III, the positron flux is then given by            tions down to the lowest energies. Although they have
+                                                                        been derived from CR parameters alone, the MIN and
+10With respect to the original 2010 one [14], this version is based on  MAX configurations can thus be used to determine the
+  an updated release of the collider Monte Carlo code Pythia [120],     range over which primary positron fluxes are expected to
+  which includes in particular up-to-date information from the LHC      lie. This was actually expected from the discussion of
+  runs and an almost complete treatment of electroweak radiations.      Sect. III.
+  For all the practical purposes of the examples presented in the
+  section, however, the differences are negligible.                        In the lower panel of Fig. 3, the antiproton flux (cal-
+                                                                        culated with the usine code) is derived for the same b¯b
+                                                                                                                                                       10
+
+channel as for the positrons, but here with a thermal an-
+nihilation cross section. This time, diffusion alone dom-
+inates over the other CR transport processes. Conse-
+quently, whatever the energy, the antiproton flux scales
+like L2/K, which boils down to L insofar as the ratio L/K
+is fixed by B/C data. We notice that the pink curves,
+which can be considered as a representative sample of all
+possible antiproton flux predictions, are once again con-
+tained within the band delineated by the MIN (dashed)
+and MAX (dotted) lines. The width of this band is fur-
+thermore independent of energy and corresponds to a
+factor of  3.
+
+         B. Relative variations and correlations                FIG. 5: We observe the same trend as in the previous figure
+                                                                for positrons produced from a DM species annihilating into
+   In the upper panels of Fig. 4, the relative variations       e+e- (left) and  + - (right) pairs. The positron fluxes are
+of the positron flux {e+ - e+ }/ e+ are plotted as              taken at 1 GV.
+a function of the half-height L for a population of 104
+SLIM configurations drawn as in Sec. IV. Each panel cor-        with its dense DM distribution becomes visible. Diffusion
+responds to a different positron rigidity. The flux e+          starts to compete with energy losses. The flux increases
+is the population average at that rigidity. Each blue dot       like L2/K , where K is dominated by the low energy
+represents a different CR model. Fluxes are derived for         parameter l. Like for positrons, the variance of the an-
+the b¯b channel. We first notice a clear correlation between    tiproton flux predictions increases, hence the observed
+the positron flux and the half-height L at 1 and 10 GV.         broadening of the blue population when L is large.
+The points are aligned along a thin line and feature the
+expected increase of e+ with L. In the upper-left panel,           In each panel of Fig. 4, the green, orange and red dots
+the same trend is visible but the distribution of blue dots     respectively correspond to the MIN, MED, and MAX
+significantly broadens for large values of L. This can          sub-samples selected as explained in section IV, i.e. tak-
+be understood as follows. At low rigidity, positrons lose       ing n = 2 and p = 0.03 for both parameters L and l.
+energy mostly in the Galactic disk and propagate like           The green and red populations lie at the lower-left and
+nuclei, albeit with a much larger energy loss rate. If the      upper-right boundaries of the constellation of blue dots,
+magnetic halo is thin, the CR horizon shrinks with L            while the orange subset sits in the middle. In Fig. 5,
+and the positron flux at Earth has a local origin. At           the same behavior is observed for positrons produced by
+0.1 GV for instance, energy losses dominate over other          a DM species annihilating through the e+e- (left) and
+CR processes and e+ is well approximated by Eq. (14);            + - (right) channels.
+its variance is small. Conversely, if L is large, the positron
+horizon reaches the Galactic center which substantially           C. Comparison with previous MIN-MED-MAX
+contributes now to the flux. This non-local contribution
+sensitively depends on the ratio L2/K , where K stands             The MIN, MED, and MAX models allow to gauge the
+for the diffusion coefficient at the energy at which e+ is      uncertainty arising from CR propagation. As the preci-
+calculated. Here, K is taken at 0.1 GV and strongly             sion of CR measurements has been considerably improv-
+depends on the low-energy parameter l. At sub-GeV               ing in the past decade, so has the accuracy of the theoret-
+energies, the ratio L/K is less constrained by the B/C
+ratio than in the GeV range, hence a large variance which
+translates into the observed broadening of the flux pre-
+dictions.
+
+   The same behavior is observed in the lower panels of
+Fig. 4 devoted to antiprotons. At moderate and high
+rigidities, the relative variations of the antiproton flux
+{p¯ - p¯ }/ p¯ are nicely correlated with the half-
+height L as expected from the discussion of Sec. III. At
+low rigidity, the same reasoning as for positrons can be
+applied to antiprotons. In the sub-GeV region, energy
+losses mildly dominate over diffusion. Antiprotons are
+mostly produced locally and their flux at Earth depends
+on their energy loss rate, especially if the magnetic halo is
+thin. However, for large values of L, the Galactic center
+                This work                                     This work                                                                                                                               11
+                PPPC4DMID                                     PPPC4DMID
+                Donato et al. 2004                            Donato et al. 2004                                                                                                          This work
+E2 e+[s-1 cm-2 sr-1 GeV]10-4                                                                                                                                                              PPPC4DMID
+                                                                                                                                                   R2 ¯p[s-1 m-2 sr-1 GV]                 Donato et al. 2004
+
+                                                                                                                                                                           10-1
+
+10-5                             b¯b                                 e+e-                                                                                                  10-2             b¯b
+                                                                                                                                                                                100
+      100  101                 102    100  101                102   103                                                                                                              101  102
+
+      Positron Energy E [GeV]              Positron Energy E [GeV]                                                                                                                   Antiproton Rigidity R [GV]
+
+FIG. 6: The theoretical uncertainty on primary fluxes owing to CR propagation has been shrinking as a result of more accurate
+measurements. The light-gray bands correspond to the original determination of the MIN, MED, and MAX models by [53]
+for antiprotons and by [55] for positrons. The hatched-Gray regions feature the slightly improved predictions proposed in the
+framework of PPPC4DMID by [121] for antiprotons and [122] for positrons. The results of this work are illustrated in the SLIM
+case by the pink (b¯b channel) and blue (e+e-) strips, for positrons (left and middle panel) and for antiprotons (right panel).
+They point toward a dramatic improvement of how DM induced fluxes are now calculated.
+
+ical predictions. This trend is clear in Fig. 6 where sev-    DM-produced CRs in the Milky Way (as allowed by con-
+eral uncertainty bands are featured for the b¯b and e+e-      straints set by standard CRs). They replace their former
+channels. The light-gray bands correspond to the original     version, previously used in the literature for antiprotons
+analysis by [53] for antiprotons and by [55] for positrons.   and positrons. The new derived parameters are actu-
+As mentioned in Sec. I, the corresponding configurations      ally valid for both species, and for light anti-nuclei more
+were derived by inspecting the behavior of primary an-        generally, scaling down the uncertainty by a factor of
+tiprotons. A slightly more refined version of the MIN-         2. We have worked in the framework of the state-
+to-MAX uncertainties was proposed in the framework            of-the-art Galactic propagation schemes SLIM, BIG, and
+of PPPC4DMID by [121] for antiprotons and by [122]            QUAINT. The MIN-MED-MAX parameters for SLIM are
+for positrons. They are represented as hatched-gray re-       given in Tab. I and represent the main output of our
+gions. The latest determinations, derived in the present      work. For convenience we also provide parametric fits
+work, lie within the pink (b¯b) and blue (e+e-) strips,       for the associated secondary astrophysical predictions in
+for positrons (left and middle panel) and for antiprotons     App. A 5. The corresponding sets for BIG and QUAINT
+(right panel). These are significantly less extended than     (see App. C) are given in the form of ancillary files. In
+in the past, hence a dramatic improvement of how DM           practice, the DM practitioner interested in estimating,
+induced fluxes are currently determined. Note that an         in an economical and effective way, the variability of DM
+additional difference for positrons comes from the fact       CR fluxes induced by Galactic propagation can use the
+that different prescriptions for energy losses were used in   SLIM MIN-MED-MAX sets. For a more complete analy-
+these works. This is seen at high energy where all curves     sis, the user can also use the BIG version (the BIG scheme
+would converge, should energy losses be the same.             retains the full complexity of the transport process, with
+                                                              little approximations) and the QUAINT one (the QUAINT
+         VI. SUMMARY AND CONCLUSION                           scheme puts the accent on reacceleration and convec-
+                                                              tion). Going beyond the MIN-MED-MAX references can
+   The propagation in the Galactic environment of the         also be achieve in more involved analyses using the covari-
+CRs produced by DM annihilations or decays in the dif-        ance matrices of the propagation parameters provided in
+fusion halo is a source of significant uncertainty. Reliably  App. A 3.
+and consistently estimating this uncertainty represents a
+crucial step toward a better understanding of the poten-         The computation of CR propagation itself can be per-
+tial of indirect detection to constrain the DM properties,    formed with semi-analytic codes such as usine, or, of
+and ultimately to the possible discovery of a DM signa-       course, via a dedicated numerical or semi-analytical CR
+ture in CRs. This is particularly important in light of the   propagation work. In the future, these new benchmarks
+recent harvest of accurate CR data, which are opening         configurations will also be implemented in ready-to-use,
+the way to precision DM searches. These same data allow       DM-oriented numerical tools such as the PPPC4DMID.
+to pin down, with unprecedented accuracy, the different
+aspects of CR propagation.                                       Our revised MIN-MED-MAX parameter sets lead to
+                                                              significant changes. As illustrated in the several exam-
+   In this spirit, in this paper we have derived new MIN,     ples above, they reduce by a factor O(10) the width of
+MED, and MAX benchmark parameter sets that corre-             the uncertainty band. Hence any new DM ID analysis
+spond to the minimal, median, and maximal fluxes of           employing these new sets can be expected to reduce the
+                                                              uncertainty of the DM properties (most notably the con-
+                                                              straints on the annihilation cross section or the decay
+                                                                                                                 12
+
+rate) by the same factor.                                  TABLE II: Fixed (numbers) and free ( ) parameters in
+                                                           Eq. (A1) for the transport configurations BIG, SLIM, and
+                           Acknowledgments                 QUAINT [66]. See Sect. A 3 for the best-fit values of the free
+                                                           parameters.
+   This work has been supported by Universit´e de Savoie,
+appel `a projets: Diffusion from Galactic High-Energy      Parameters  Units        BIG   SLIM  QUAINT
+Sources to the Earth (DIGHESE), by the national                                      1      1
+CNRS/INSU PNHE and PNCG programs, co-funded by                         [GV]                        n/a
+INP, IN2P3, CEA and CNES, and by Villum Fonden                   l     [km/s]       0.05  0.05     n/a
+under project no. 18994. We also acknowledge finan-              sl    [km/s]                     n/aa
+cial support from the ANR project ANR-18-CE31-0006,              Rl    [kpc2 /Myr]         n/a
+the OCEVU Labex (ANR-11-LABX-0060), from the Eu-                 Va                        n/a
+ropean Union's Horizon 2020 research and innovation              Vc
+program under the Marie Sklodowska-Curie grant agree-           K0                  0.18 0.19 0.17
+ments N 690575 and N 674896 and from the Cnrs                    
+80|Prime grant scheme (`DaMeFer' project). M.C. ac-             h      [GV]         247 237 270
+knowledge the hospitality of the Institut d'Astrophysique       Rh
+de Paris (Iap), where part of this work was done.                sh                 0.04 0.04 0.04
+                                                                 L
+                                                                       [kpc]
+
+                                                           aIn practice for QUAINT the rigidity Rl is set to 0 in Eq. (A1).
+
+ Appendix A: Propagation model, parameters, and               For transport, the model assumes (i) a constant con-
+                               ancillary files             vection term Vc perpendicular to the disk (positive above
+                                                           and negative below), (ii) an isotropic and homogeneous
+   This Appendix is devoted to a more thorough descrip-    diffusion coefficient with a broken power-low at low (in-
+tion of the propagation formalism used in the main text,   dex l) and high (index h) rigidity,
+and its individual elements.
+                                                                              - + sll                       -sh
+   The ingredients of the 2D propagation model are re-                                                     h
+called in Sect. A 1. The propagation parameter values      K(R) = K01+ Rl sl  R 1+ R sh,(A1)
+are taken from the 1D model analysis of [67, 83], and                  R              1 GV      Rh
+we show in Sect. A 2 why we can adopt them for our
+2D model too. For readers who wish to go beyond the        and (iii) a diffusion in momentum space [124],
+MIN-MED-MAX parameter sets for their analyses, we
+provide in Sect. A 3 the best-fit and covariance matrix    Kpp(R, x) = 2 4 1                V 2p2             (A2)
+of uncertainties on the parameters for various configura-
+tions, and specify how to draw from them in Sec. A 4. We                                      a
+also provide in Sect. A 5 a parameterized formula for the
+secondary p¯ and e+ fluxes, that should prove useful for                                           ,
+readers who wish to study the DM contribution together                 3 (4 -  )(4 - ) K(R)
+with a reference background calculation.
+                                                           whose strength is mediated by the speed of plasma waves
+      1. 2D thin disk/thick halo model, diffusion          Va (the Alfv´enic speed)11.
+                  coefficient, and configurations
+                                                              Based on the analysis of Ams-02 B/C data [66] (in
+                                                           a 1D model), three different transport schemes were in-
+                                                           troduced (BIG, SLIM, and QUAINT), with the presence
+                                                           or absence of a low-energy break or reacceleration. The
+                                                           fixed and free parameters of these configurations are re-
+                                                           ported in Table II, and they are also used for the 2D
+                                                           model here (see next section).
+
+   The general steady-state transport equation has been        2. Best-fit parameters from AMS-02 LiBeB data
+introduced above in Eq. (1). Following [53, 54], CRs
+propagate and are confined in a cylindrical geometry of         A state-of-the-art methodology to analyze Ams-02
+half-thickness L (diffusive halo) and radius R. Standard     data and constrain propagation parameters--accounting
+CR sources and the gas are pinched in an infinitely thin     for uncertainties in production cross sections and covari-
+disk of half-thickness h = 100 pc L), whereas exotic         ance matrix of CR data uncertainties--was proposed in
+sources are distributed following, for instance, the DM
+distribution. Only sources inside the diffusive halo are   11The reacceleration is pinched in the Galactic plane, and therefore
+considered here, since it was shown (see App. B of [31])     Va values in this model should be scaled by a factor h/L be-
+that sources outside have a negligible contribution--see     fore any comparison against theoretical or observational constraints
+however [123] for calculations with a position-dependent     [112, 125].
+diffusion coefficient leading to estimates of  25% of the
+total.
+                                                                                                                       13
+
+[52]. This methodology was used in [67, 83] for the com-      3. Best-fit values and covariance matrix of
+bined analysis of Ams-02 Li/C, Be/B, and B/C data,                  uncertainties for SLIM/BIG/QUAINT
+to obtain the transport parameters in several configura-
+tions (recalled in Table II). However, this analysis was         We provide below the best-fit parameter values of the
+performed in a 1D model, whereas for dark matter stud-        model and their correlation matrix of uncertainties. Both
+ies, a 2D version of the model is mandatory. Indeed, in       come from the analyses discussed in [67, 83]. We stress
+the 1D model the galactic diffusive halo is considered as     that all the values below correspond to the combined
+an infinite slab in the radial direction, and the vertical    analysis using Li/B, Be/B, B/C Ams-02 data, and low-
+direction z is the only variable. As the DM distribution      energy 10Be/Be and 10Be/9Be data (Ace-Cris, Ace-
+has a non-trivial radial profile, an appropriate modeling     Sis, Imp7&8, Isee3-Hkh, Ulysses-Het, Isomax, and
+in the r direction becomes necessary.                         Voyager 1&2, see details and references in [83]), in or-
+                                                              der to obtain the most stringent constraints on the halo
+   Compared to the 1D model, the 2D model requires            size L.
+two extra parameters: a radial boundary (taken at R =
+20 kpc) and a radial distribution of CR sources. The lat-        Actually, in [67], only the best-fit transport parameters
+ter, for the case of astrophysical sources, can be estimated  and uncertainties were given, whereas only the best-fit
+from the distribution of supernova remnants [126, 127] or     halo size constraint and its uncertainty were given in [83],
+pulsars [128, 129]. In order to decide which transport pa-    and for the analysis of different datasets. To ensure that
+rameters to use for this analysis, we performed a compar-     the correct parameters are used, we gather them all in one
+ison (with the usine package [62]) of the B/C predictions     place here. We provide in addition the full correlations
+obtained in the 1D model and in the 2D model for various      matrix of uncertainties, to go beyond the MIN-MED-
+assumptions:                                                  MAX benchmark models (see next section). How this
+                                                              matrix was obtained in the original analysis, and further
+    · Using a constant CR source distribution in the 2D       checks on its validity are presented in Sect. B.
+       model gives similar results as in the 1D model as
+       long as L LR (where LR = R - R ), i.e. if                 In the matrices shown below, the rows and
+       the distance between the observer and the radial       columns correspond to the ordering of the best-
+       boundary is much smaller than the halo size. In-       fit parameters. We stress that parameters with a
+       deed, contributions from sources farther away than     nearly Gaussian probability distribution function (see
+       a boundary are exponentially suppressed in diffu-      Sect. B) in the covariance matrices are log10[L/(1 kpc)]
+       sion processes [109]. If LR  L, the radial bound-      and log10[K0/(1 kpc2 Myr-1)]--log10 L and log10 K0 for
+       ary becomes a new suppression scale, which breaks      short--, not L and K0.
+       down the equivalence with the 1D model. We ob-
+       serve a few percent (energy dependent) impact on       Parameter values and covariance matrix for SLIM
+       the B/C calculation for L = 5 kpc. This amplitude
+       of the effect is correlated with the value of L.               log10 L        log10 K0  Rl            l
+                                                                       0.668 0.499   -1.444
+    · Using a more realistic spatial distribution of                                           4.482 -1.110
+       sources, the above radial boundary effect is mit-         +1.13e-2 -2.05e-4   +1.10e-2                       
+       igated (using [127]) or slightly amplified (using                             -3.91e-4
+       [128, 129]). This is understood as the sharply de-     -2.05e-4 +1.06e-4      +1.12e-2  +1.96e-3 +2.41e-3
+       creasing source distribution with the modeling ra-     +1.10e-2 -3.91e-4      +1.79e-3
+       dius implies that fewer sources are suppressed by                             +3.28e-3  +1.03e-6 -3.38e-4
+       the radial boundary. A detailed analysis of these                                       +1.79e-3 +3.28e-3
+       subtle effects goes beyond the scope of this paper        +1.96e-3 +1.03e-6
+       and will be discussed elsewhere.                                                                             
+                                                                 +2.41e-3 -3.38e-4
+   To summarize, the 1D model or the 2D version with a                                         +2.80e-2 +1.42e-2
+realistic source distribution are expected to provide simi-
+lar results (at a few percent level), and thus similar best-                                   +1.42e-2 +1.88e-2
+fit transport parameters and uncertainties; we explicitly
+checked it for the SLIM model using the radial distribu-      Parameter values and covariance matrix for BIG
+tion from [127] with R = 20 kpc. For these reasons, we
+conclude that the 1D model parameters found in [67, 83]       log10 L  log10 K0 VA Rl                        l     Vc
+can be used `as is' in the context of 2D models.
+                                                              0.667 0.498 -1.446 5.000 4.493 -1.102 0.140
+
+                                                              +4.20e-3 +3.53e-4 +3.94e-3 +1.49e-2 +2.57e-3 -1.48e-3 +4.56e-2 
+
+                                                                 +3.53e-4 +4.19e-4 +7.06e-4 +3.96e-3 +2.89e-3 -1.41e-3 +3.24e-3
+
+                                                              +3.94e-3 +7.06e-4 +5.48e-3 +1.86e-2 +4.67e-3 -2.18e-3 +4.57e-2  +1.49e-2 +3.96e-3 +1.86e-2 +2.02e+1 +6.00e-2 -4.52e-2 +1.96e-1 
+                                                              +2.57e-3 +2.89e-3 +4.67e-3 +6.00e-2 +2.92e-2 -1.30e-2 +2.15e-2 
+
+                                                                 -1.48e-3 -1.41e-3 -2.18e-3 -4.52e-2 -1.30e-2 +2.11e-2 -1.28e-2
+                                                                 +4.56e-2 +3.24e-3 +4.57e-2 +1.96e-1 +2.15e-2 -1.28e-2 +1.86e+0
+
+                                                              Parameter values and covariance matrix for QUAINT
+
+                                                              log10 L  log10 K0 VA                       Vc     t
+
+                                                              0.611 0.458 -1.405 52.208 0.000 -1.945
+
+                                                              +6.12e-3 +7.07e-4 +4.75e-3 +3.12e-1 +2.60e-3 +1.82e-2 
+
+                                                              +7.07e-4     +6.43e-4  +1.26e-3  +2.87e-1  +8.72e-4  +1.45e-2 
+                                                              +4.75e-3     +1.26e-3  +7.58e-3  +9.22e-1  +1.76e-3  +3.06e-2 
+                                                              +3.12e-1     +2.87e-1  +9.22e-1  +1.95e+2  +7.14e-1  +7.47e+0
+                                                                           +8.72e-4  +1.76e-3  +7.14e-1  +3.31e-1
+                                                                 +2.60e-3                                          +3.01e-2
+
+                                                              +1.82e-2 +1.45e-2 +3.06e-2 +7.47e+0 +3.01e-2 +5.02e-1
+                                                                                                                 14
+
+4. Drawing from the covariance matrix in practice             TABLE III: Coefficients for the reference secondary p¯ IS fluxes
+                                                              of [81] in (GV m2 s sr)-1. This parametrisation, see Eq. (A3),
+   For a DM analysis using the full statistical information
+on the transport parameters, one needs to draw from           is valid for rigidities from 0.9 GV to 10 TV. These coefficients
+best-fit values and the associated covariance matrix of
+uncertainties presented in App. A 3. The following numpy      hold for MIN, MED, and MAX since the differences are small.
+[130] command can be used for instance:
+                                                                         (< 8 GV)  SLIM           ( 8 GV)
+  random.multivariate normal(pars, cov, size = N),                                        c0
+                                                              c0 -2.059841                c1   -2.041091
+where pars is an array of the best-fit parameters, cov is     c1 -3.742100                c2   -2.125402
+the associated covariance matrix, and N is the number of      c2 -3.853337 × 101          c3   -1.754931
+samples to draw.                                              c3 -3.921245 × 102          c4   +2.370157
+                                                              c4 -2.139289 × 103          c5   -2.168217
+   By construction, the parameter distributions are sym-      c5 -6.615346 × 103          c6   +1.164920
+metric, so that non-physical negative values can be ob-       c6 -1.245434 × 104          c7   -2.432764 × 10-1
+tained for Va and Vc: the sample behaving so should be        c7 -1.457810 × 104          c8   -6.773555 × 10-2
+discarded (or alternatively used with Va and Vc set to        c8 -1.037382 × 104          c9   +5.097495 × 10-2
+zero). There are also a few other important points to be      c9 -4.114799 × 103          c10  -1.102931 × 10-2
+kept in mind:                                                 c10 -6.986690 × 102              +8.537912 × 10-4
+
+    · Full list of parameters: for a full description of the     In principle, for an exotic flux calculation from a
+       model, and in particular of the diffusion coefficient  given set of transport parameters (drawn from the co-
+       Eq. (A1), the parameters drawn must be comple-         variance matrix above), the secondary flux should be re-
+       mented by the `fixed' parameter values given in Ta-    calculated. However, the secondary flux calculation re-
+       ble II (no associated covariance matrix of uncer-      quires the full propagation of all nuclear species and the
+       tainties);                                             inclusion of many extra ingredients. Because this compli-
+                                                              cates and greatly slows down the calculation (compared
+    · Meaning of Va < 5 km s-1: as discussed in [52], we      to the exotic-flux-only calculation), and because the sec-
+       enforce (obviously positive but also) non-null values  ondary flux `only' varies within 10 - 20% over the trans-
+       of Va for numerical issues. As a result, any value of  port parameter space [81], the use of the reference sec-
+       Va smaller than 5 km s-1 should be understood as       ondary flux formula remains useful and a very good first
+       Va = 0.                                                approximation to quickly explore the parameters space
+                                                              of new physics models.
+    · Specific form of K(R) for QUAINT: this model does
+       not enable a low energy break, and one needs to re-       b. Coefficients for e+ The fit is based on the cal-
+       move in Eq. (A1) the associated terms (first square    culation we presented in [83]. The coefficients to apply
+       bracket), or alternatively, to set Rl to zero.         below and above xth = 1 GeV, are presented in Table IV:
+                                                              we also took eleven coefficients to reproduce the fluxes at
+5. Parametrisation for reference secondary p¯ and e+          the percent level precision, and the formula applies to IS
+                                                              kinetic energies from 2 MeV to 1 TeV.
+   In order to set constraints on DM candidates, it is
+mandatory to know the astrophysical secondary fluxes             We stress that this positron flux only accounts for the
+of CR on top of which the DM signal is searched for. To       astrophysical secondary flux, but does not account for
+enable this kind of searches, we provide here a parametric    astrophysical primary contributions [83].
+formula for such secondary backgrounds:
+                                                                 Note that these parametrisations concern only the sec-
+               IS 10 x                       i                ondary predictions for the SLIM model. For complete-
+log10 1/(Ux m2s sr) i=1 = c0 + ci log10 xth                   ness we also provide on reasonable request, the secondary
+                                              , (A3)          TOA fluxes for e+ and p¯ for the two other models (BIG,
+                                                              QUAINT) in the form of ancillary files.
+where x (and the corresponding unit Ux) is the rigidity
+R (Ux = GV) when considering p¯, or the kinetic energy                Appendix B: MCMC versus Minos results
+Ek (Ux = GeV) when considering positrons.
+                                                                 In this appendix, we show that the covariance matrix of
+   a. Coefficients for p¯. The fit is based on the calcu-     uncertainties reconstructed with the help of minuit [131]
+lation presented in [81]. The coefficients to apply below     provides a sufficient description of the behavior of the
+and above xth = 8 GV are given in Table III: eleven           transport parameter uncertainties.
+coefficients were needed to reproduce the fluxes with a
+precision better than 1%, and the formula applies to IS          To do so, we perform a Markov Chain Monte Carlo
+rigidities from 0.9 GV to 10 TV.                              (mcmc) analysis of the transport parameters and com-
+                                                                                                                                     15
+
+                                            1.0                                            MCMC: PDF (1D) or points (2D)
+                                                                                           MCMC: 68% CL
+                                                                                           Minos: 68% CL
+                                            0.5                                            Minos: 68% CL (fit w/ nuis. pars)
+
+                                            0.0
+
+                                          0.54
+
+0.52
+
+l [-] Rl [GV] log10(1kpc2K0Myr 1 ) [-] [-]0.50
+
+                                          0.48
+
+                                          0.46
+                                           1.3
+
+                                            1.4
+
+                                            1.5
+
+                                            1.6
+                                            5.0
+                                            4.8
+                                            4.6
+                                            4.4
+                                            4.2
+
+                                            1.4
+
+                                            1.2
+
+                                            1.0
+
+                                                 0.6              0.8 0.475 0.500 0.525 1.6 1.4                 4.5 5.0 1.0 1.2 1.4
+                                                 log10(1  L       [-]  [-]  log                 K0         [-]  Rl [GV]       l [-]
+                                                          kpc  )                 1  0  (1  k  pc2 Myr  1)
+
+FIG. 7: Comparison of constraints on transport parameters obtained from an mcmc engine or via the hesse-minos algorithms.
+In off-diagonal plots, the black squares and red crosses show the best-fit values from the former and latter results respectively,
+mcmc points are shown in blue (from which 68% confidence level contours are extracted in black), and red ellipses are based
+on symmetrized minos errors (dash-dotted or dotted lines for the fit accounting for nuisance parameters). In diagonal plots,
+the blue histograms corresponds to the 1D probability distribution function (mcmc), and the 68% CL contours are shown as
+vertical blue lines (mcmc) and red vertical lines (hesse-minos). We recall that the 1D 68% CL on any given parameter is not
+expected to match the projected value obtained from the 2D 68% CL. See text for discussion.
+
+pare the results with those obtained from the hesse and                                  from both approaches.
+minos algorithms in minuit. In the latter approach,                                         This analysis follows closely that of [83] and we only
+hesse provides a covariance (symmetric) matrix of un-
+certainties on the model parameters, but whose uncer-                                    briefly highlight the most important elements or differ-
+tainties (from migrad) are not very robust. In order                                     ences. The determination of the transport parameters
+to obtain a more reliable covariance matrix, we rescale                                  and halo size of the Galaxy (L) are based on Ams-02
+the hesse covariance matrix by the symmetrized minos                                     Li/B, Be/B, and B/C data [70], and the analysis with
+errors; doing so ensures that we keep the `correct' cor-                                 minuit matches exactly that described in [83]. For the
+relations, but now with our best knowledge on the error                                  mcmc analysis, we relied on the PyMC3 package12 and its
+size. The mcmc engine provides the full PDF on the pa-
+rameters. If the PDFs are Gaussian, we should obtain                                   12https://docs.pymc.io/
+similar confidence levels and contours on the parameters
+TABLE IV: Coefficients for the reference secondary e+ IS                                                                                   16
+fluxes of [83] in (GeV m2 s sr)-1. This parametrisation, see
+                                                                    slope of the diffusion coefficient at intermediate rigidities
+Eq. (A3), is valid for kinetic energies from 0.002 GeV to 1 TeV.    (K0 and ), the position and strength of a possible low
+                                                                    energy break (Rl and l), and the halo size of the Galaxy
+(< 1 GeV)                 ( 1 GeV)                                  (L). First, as a sanity check, the red crosses and black
+                                                                    squares in 2D plots of the parameters (off-diagonal) show
+              SLIM (MIN)                                            that both approaches provide the same best-fit values; we
+                                                                    also recognize the tight correlation between K0 and L pa-
+c0 +4.996550 × 10-1   c0 +5.075677 × 10-1                           rameters. On the same off-diagonal plots, the black solid
+                                                                    lines correspond to 68% confidence level (CL) contours
+c1 -1.128052          c1 -1.443865                                  of the mcmc analysis, while the red dash-dotted lines
+c2 +8.821920 × 10-1                                                 correspond to 68% CL ellipses from the migrad-minos
+c3 +1.157137 × 101    c2 +1.877049                                  approach, and both match very well. A similar infor-
+c4 +3.806619 × 101    c3 -1.066219 × 101                            mation is shown in the 1D plots (diagonal), where the
+c5 +6.252870 × 101    c4 +1.319804 × 101                            red dash-dotted (from migrad-minos) is superimposed
+c6 +5.736342 × 101                                                  on the black solid lines (mcmc). The full information
+c7 +3.097409 × 101    c5 -6.512217                                  on the PDF is provided by the blue histograms. As al-
+                      c6 -8.868464 × 10-3                           ready observed in [133] (see their App. C) and also seen
+c8 +9.799701                                                        here, the transport parameters are Gaussian at first or-
+                      c7 +1.500031                                  der. Hence, using the covariance matrix of uncertainties
+c9 +1.682151          c8 -7.040355 × 10-1                           (as built above) is a very good approximation to using
+c10 +1.210159 × 10-1  c9 +1.401731 × 10-1                           the full PDF information, and it will eventually depart
+                      c10 -1.074125 × 10-2                          from the latter only if too large confidence levels are con-
+                                                                    sidered.
+              SLIM (MED)
+                                                                       There are possibly a few caveats to these conclusions.
+c0 +6.525177 × 10-1   c0 +6.461406 × 10-1                           Firstly, due to fact that mcmc analyses are computation-
+                                                                    ally demanding, we only performed the comparison for
+c1 -1.588678          c1 -1.384556                                  the SLIM model. However, we do not expect different be-
+                                                                    haviors for the other configurations (BIG and QUAINT),
+c2 +4.078335 × 10-1   c2 -4.774200                                  especially for the most relevant parameters in a dark mat-
+                                                                    ter context (K0, , and L), as these parameters behave
+c3 +1.069849 × 101    c3 +1.366313 × 101                            similarly in terms of their minos uncertainties [83]. Sec-
+                                                                    ondly, the above comparisons were made without nui-
+c4 +3.723089 × 101    c4 -2.902370 × 101                            sance parameters (nuclear cross sections and Solar mod-
+                                                                    ulation parameters), despite their importance for the de-
+c5 +6.209276 × 101    c5 +3.638689 × 101                            termination of the transport parameters [52, 66, 67]. This
+                                                                    is illustrated comparing the red dash-dotted and dotted
+c6 +5.723649 × 101    c6 -2.734189 × 101                            lines in Fig. 7: accounting for nuisance parameters en-
+                                                                    larges the contours (larger uncertainties) for almost all
+c7 +3.094710 × 101    c7 +1.258343 × 101                            parameters. We tried to run mcmc chains with nuisance
+                                                                    parameters, but the latter strongly increase the correla-
+c8 +9.790895          c8 -3.485906                                  tions length of the chains (they are correlated with other
+                                                                    parameters and partly degenerate). So far, we did not
+c9 +1.679555          c9 +5.346104 × 10-1                           succeed in obtaining reliable results for an mcmc anal-
+                                                                    ysis. Lastly, the comparisons were made in the context
+c10 +1.207142 × 10-1  c10 -3.491387 × 10-2                          of the 1D diffusion model, and not in the 2D one that is
+                                                                    used in the main text. However, as shown in [133] (with
+              SLIM (MAX)                                            an mcmc analysis), the propagation parameters are very
+                                                                    similar whether determined in a 1D or 2D model, as long
+c0 +7.593070 × 10-1   c0 +7.480398 × 10-1                           as L 10 kpc, which is the case here (see also the previ-
+                                                                    ous section).
+c1 -2.339091          c1 -1.915233
+                                                                             Appendix C: The MIN, MED, and MAX
+c2 +9.758912 × 10-6   c2 -6.642892                                      configurations for the QUAINT and BIG models
+
+c3 +1.276888 × 101    c3 +2.428124 × 101                               The SLIM and BIG benchmarks are fairly similar. In
+                                                                    the latter case, two additional parameters are introduced,
+c4 +4.395641 × 101    c4 -5.077192 × 101                            i.e. the Alfv´enic speed Va and the convective wind ve-
+
+c5 +7.102167 × 101    c5 +6.136908 × 101
+
+c6 +6.382395 × 101    c6 -4.511720 × 101
+
+c7 +3.384382 × 101    c7 +2.058580 × 101
+
+c8 +1.054571 × 101    c8 -5.705532
+
+c9 +1.787170          c9 +8.807590 × 10-1
+
+c10 +1.271850 × 10-1  c10 -5.812954 × 10-2
+
+Metropolis-Hastings sampler13. More details and refer-
+ences on this algorithm and the various steps associated
+with the post-processing of the chain (burn-in length,
+trimming, etc.) can be found for instance in [132], where
+a similar algorithm and approach was first considered (in
+a cosmic-ray propagation context).
+
+   We show in Fig. 7 the result of the comparison on
+the propagation configuration SLIM only. In the latter,
+the free transport parameters are the normalization and
+
+13Technically, we took advantage of PyBind11, https://pybind11.
+  readthedocs.io, to enable the interface with python libraries of
+  the C++ propagation code usine [62].
+                                                                                                                                  17
+
+                                                                 TABLE V: Propagation parameters for the MIN, MED, and
+                                                                 MAX configurations of the BIG models.
+
+                                                                 BIG L                    log10 K0 Va        Rl     l       Vc
+
+                                                                            [kpc]  0.529  [kpc2/Myr] [km/s]  [GV]   -1.455  [km/s]
+                                                                                   0.498                            -1.102
+                                                                 MAX 6.637         0.465  -1.286 6.002       4.755  -0.742  1.819
+                                                                 MED 4.645                -1.446 4.741       4.490          0.459
+                                                                 MIN 3.206                -1.616 4.277       4.208          0.066
+
+                                                                 TABLE VI: Propagation parameters for the MIN, MED, and
+                                                                 MAX configurations of the QUAINT models.
+
+                                                                 QUAINT L                      log10 K0 Va        Vc      
+
+                                                                                 [kpc]  0.504  [kpc2/Myr] [km/s]  [km/s]  -1.001
+                                                                                        0.451                             -2.156
+                                                                 MAX 6.840              0.403  -1.092 83.929      0.469   -3.412
+                                                                 MED 4.080                     -1.367 52.066      0.239
+                                                                 MIN 2.630                     -1.643 18.389      0.151
+
+FIG. 8: Same as in Fig. 1 for the BIG (up) and QUAINT            of the Alfv´enic speed Va as can be appreciated from Ta-
+(down) declensions of CR propagation models. The constel-        ble VI. This parameter controls diffusive reacceleration
+lations of blue dots contain each 105 randomly drawn models.     which pushes sub-GeV CR species upward in the GeV
+The MIN, MED, and MAX sub-samples together with their            energy region. We have used it together with log10 L to
+barycentric configurations are defined as explained in Sec IV.   define the MIN, MED, and MAX sub-samples extracted
+For BIG, the selection is still built on the parameters log10 L  from a population of 105 randomly drawn QUAINT mod-
+and l whereas for QUAINT, it is based on the couple log10 L      els. The procedure is the same as before except that l
+and Va. In the latter case, an additional skimming of the MED    has been replaced by Va as showed in the bottom panel
+and MAX populations is performed, requiring that the sec-        of Fig. 8.
+ondary positron flux does not exceed the observations [118].
+The configurations which actually pass this test are shown in       There is however a slight complication that arises be-
+dark-green.                                                      cause the Alfv´enic speed is high. For large values of Va,
+                                                                 the secondary positron flux exhibits, like the B/C ratio,
+locity Vc to recover more easily the behavior of the B/C         a bump at a few GeV. In some cases, it even exceeds
+ratio in the GeV range. Actually, the low-energy parame-         the observations. To remove these pathological models
+ters l and Rl are enough to reach a good agreement with          from the MAX and MED sub-samples, where they tend
+data. That is why the values of Va and Vc provided by            to appear, we have required the secondary positron flux
+the fits to CR nuclei are small, as showed in Table V. In        not to overshoot by more than 3 standard deviations the
+order to define the MIN, MED, and MAX models for the             lowest Ams-02 data point [118]. To be conservative, we
+BIG benchmark, we have proceeded as in the SLIM case,            have used a Fisk potential F of 750 MV. The red and
+using the parameters log10 L and l. The result is showed         orange populations in the right panel of Fig. 8 are the
+in the top panel of Fig. 8. The values of the quantiles          result of this skimming.
+qMIN, qMED and qMAX and of the width parameter p are
+the same as those of Sec. IV.                                       Finally, the theoretical uncertainties arising from CR
+                                                                 propagation are summarized in Fig. 9 for the three bench-
+   The QUAINT benchmark makes use of the low-energy              marks SLIM, BIG, and QUAINT. The pink and blue strips
+parameters Va, Vc and  and disregards Rl and l. Re-              respectively stand for b¯b and e+e- channels. Antiproton
+producing the B/C GeV bump requires fairly large values          primary fluxes are presented in the right panel while the
+                                                                 left and middle ones are devoted to positrons. This plot
+                                                                 summarizes our entire analysis. The various bands over-
+                                                                 lap each other, indicating that in spite of their differences,
+                                                                 the three benchmarks supply similar predictions for pri-
+                                                                 mary fluxes.
+                               SLIM                                  SLIM                                                                                                                                              18
+                               BIG                                   BIG
+                               QUAINT                                QUAINT                                                                                                                                       SLIM
+10-4E2 e+[s-1 cm-2 sr-1 GeV]                                                                                                                                                                                      BIG
+                                                                                                                                                   R2 ¯p[s-1 cm-2 sr-1 GV]                                        QUAINT
+
+                                                                                                                                                                            10-1
+
+10-5                             b¯b                                  e+e-                                                                                                  10-2             b¯b
+                                                                                                                                                                                 100
+      100  101                 102     100  101                102   103                                                                                                              101  102
+
+      Positron Energy E [GeV]               Positron Energy E [GeV]                                                                                                                   Antiproton Rigidity R [GV]
+
+FIG. 9: The theoretical uncertainty on primary fluxes owing to CR propagation for the three benchmarks SLIM, BIG, and
+QUAINT. The panels are similar to those in Fig. 6. The pink and blue strips respectively correspond to b¯b and e+e- channels.
+
+The right panel is devoted to antiprotons while the others feature results for positrons. The bands nicely overlap each other.
+
+Although different in spirit, the three benchmarks yield similar predictions.
+
+ [1] P. J. E. Peebles, ApJ 263, L1 (1982).                           ph] .
+ [2] G. R. Blumenthal, S. M. Faber, J. R. Primack, and         [17] R. K. Leane, T. R. Slatyer, J. F. Beacom, and K. C. Y.
+
+      M. J. Rees, Nature 311, 517 (1984).                            Ng, Phys. Rev. D 98, 023016 (2018), arXiv:1805.10305
+ [3] G. Bertone and D. Hooper, Reviews of Modern Physics             [hep-ph] .
+                                                               [18] I. B. Zeldovich and I. D. Novikov, Structure and evo-
+      90, 045002 (2018), arXiv:1605.04909 .                          lution of the universe. (Moscow, Izdatel'stvo Nauka,
+ [4] J. S. Bullock and M. Boylan-Kolchin, ARA&A                      1975).
+                                                               [19] B. W. Lee and S. Weinberg, Phys. Rev. Lett. 39, 165
+      55 (2017), 10.1146/annurev-astro-091916-055313,                (1977).
+      arXiv:1707.04256 .                                       [20] J. E. Gunn, B. W. Lee, I. Lerche, D. N. Schramm, and
+ [5] L. Bergstro¨m, Reports on Progress in Physics 63, 793           G. Steigman, ApJ 223, 1015 (1978).
+      (2000), hep-ph/0002126 .                                 [21] A. D. Dolgov and Y. B. Zeldovich, Reviews of Modern
+ [6] J. Lavalle and P. Salati, Comptes Rendus Physique 13,           Physics 53, 1 (1981).
+      740 (2012), arXiv:1205.1004 [astro-ph.HE] .              [22] P. Bin´etruy, G. Girardi, and P. Salati, Nuclear Physics
+ [7] J. M. Gaskins, Contemporary Physics 57, 496 (2016),             B 237, 285 (1984).
+      arXiv:1604.00014 [astro-ph.HE] .                         [23] M. Srednicki, R. Watkins, and K. A. Olive, Nuclear
+ [8] J. Silk and M. Srednicki, Phys. Rev. Lett. 53, 624              Physics B 310, 693 (1988).
+      (1984).                                                  [24] G. Steigman, B. Dasgupta, and J. F. Beacom,
+ [9] S. Rudaz and F. Stecker, ApJ 325, 16 (1988).                    Phys. Rev. D 86, 023506 (2012), arXiv:1204.3622 [hep-
+[10] G. Jungman, M. Kamionkowski, and K. Griest,                     ph] .
+      Phys. Rep. 267, 195 (1996), hep-ph/9506380 .             [25] J. L. Feng, ARA&A 48, 495 (2010), arXiv:1003.0904
+[11] F. Donato, N. Fornengo, and P. Salati, Phys. Rev. D             [astro-ph.CO] .
+      62, 043003 (2000), hep-ph/9904481 .                      [26] M. Boudaud, T. Lacroix, M. Stref, and J. Lavalle,
+[12] D. Maurin, R. Taillet, F. Donato, P. Salati, A. Barrau,         Phys. Rev. D 99, 061302 (2019), arXiv:1810.01680
+      and G. Boudoul, ArXiv Astrophysics e-prints (2002),            [astro-ph.HE] .
+      astro-ph/0212111 .                                       [27] J. Alexander et al., ArXiv e-prints (2016),
+[13] T. A. Porter, R. P. Johnson, and P. W. Graham,                  arXiv:1608.08632 [hep-ph] .
+      ARA&A 49, 155 (2011), arXiv:1104.2836 [astro-ph.HE]      [28] S. W. Hawking, Nature 248, 30 (1974).
+      .                                                        [29] M. S. Turner, Nature 297, 379 (1982).
+[14] M. Cirelli, G. Corcella, A. Hektor, G. Hu¨tsi,            [30] J. H. MacGibbon and B. J. Carr, ApJ 371, 447 (1991).
+      M. Kadastik, P. Panci, M. Raidal, F. Sala, and A. Stru-  [31] A. Barrau, G. Boudoul, F. Donato, D. Maurin, P. Salati,
+      mia, J. Cosmology Astropart. Phys. 3, 051 (2011), [Er-         and R. Taillet, A&A 388, 676 (2002), astro-ph/0112486
+      ratum: JCAP 10, E01 (2012)], arXiv:1012.4515 [hep-ph]          .
+      .                                                        [32] M. Boudaud and M. Cirelli, Phys. Rev. Lett. 122,
+[15] T. Aramaki, S. Boggs, S. Bufalino, L. Dal, P. von Doet-         041104 (2019), arXiv:1807.03075 [astro-ph.HE] .
+      inchem, F. Donato, N. Fornengo, H. Fuke, M. Grefe,       [33] A. Reinert and M. W. Winkler, J. Cosmology Astropart.
+      C. Hailey, B. Hamilton, A. Ibarra, J. Mitchell,                Phys. 1, 055 (2018), arXiv:1712.00002 [astro-ph.HE] .
+      I. Mognet, R. A. Ong, R. Pereira, K. Perez, A. Putze,    [34] PAMELA Collaboration et al., Astropart. Phys. 27, 296
+      A. Raklev, P. Salati, M. Sasaki, G. Tarle, A. Urbano,          (2007), astro-ph/0608697 .
+      A. Vittino, S. Wild, W. Xue, and K. Yoshimura,           [35] PAMELA Collaboration et al., Phys. Rep. 544, 323
+      Phys. Rep. 618, 1 (2016), arXiv:1505.07785 [hep-ph] .          (2014).
+[16] G. Arcadi, M. Dutra, P. Ghosh, M. Lindner, Y. Mam-        [36] W. B. Atwood et al. (Fermi-LAT), Astrophys. J. 697,
+      brini, M. Pierre, S. Profumo, and F. S. Queiroz, Eu-
+      rop. Phys. J. C 78, 203 (2018), arXiv:1703.07364 [hep-
+      1071 (2009), arXiv:0902.1089 [astro-ph.IM] .                                                                                   19
+[37] R. Battiston (AMS 02), Nucl. Instrum. Meth. A 588,
+                                                                     S. Rosier-Lees, P. Salati, and A. Semenov, Com-
+      227 (2008).                                                    puter Physics Communications 182, 842 (2011),
+[38] A. Kounine, International Journal of Modern Physics E           arXiv:1004.1092 [hep-ph] .
+                                                               [64] J. Lavalle, D. Maurin, and A. Putze, Phys. Rev. D 90,
+      21, 1230005 (2012).                                            081301 (2014), arXiv:1407.2540 [astro-ph.HE] .
+[39] AMS Collaboration et al., Phys. Rev. Lett. 110, 141102    [65] M. Boudaud, E. F. Bueno, S. Caroff, Y. Genolini,
+                                                                     V. Poulin, V. Poireau, A. Putze, S. Rosier, P. Salati,
+      (2013).                                                        and M. Vecchi, A&A 605, A17 (2017), arXiv:1612.03924
+[40] CALET Collaboration et al., Phys. Scr 95, 074012                [astro-ph.HE] .
+                                                               [66] Y. G´enolini, M. Boudaud, P. Ivo Batista, S. Caroff,
+      (2020).                                                        L. Derome, J. Lavalle, A. Marcowith, D. Maurin,
+[41] DAMPE Collaboration et al., Astroparticle Physics 95,           V. Poireau, V. Poulin, S. Rosier, P. Salati, P. D. Ser-
+                                                                     pico, and M. Vecchi, Phys. Rev. D 99, 123028 (2019),
+      6 (2017), arXiv:1706.08453 [astro-ph.IM] .                     arXiv:1904.08917 [astro-ph.HE] .
+[42] E. C. Stone, R. E. Vogt, F. B. McDonald, B. J. Teegar-    [67] N. Weinrich, Y. G´enolini, M. Boudaud, L. Derome, and
+                                                                     D. Maurin, A&A 639, A131 (2020), arXiv:2002.11406
+      den, J. H. Trainor, J. R. Jokipii, and W. R. Webber,           [astro-ph.HE] .
+      Space Sci. Rev. 21, 355 (1977).                          [68] AMS Collaboration et al. (AMS-02 Collaboration),
+[43] E. C. Stone, A. C. Cummings, F. B. McDonald, B. C.              Phys. Rev. Lett. 117, 231102 (2016).
+      Heikkila, N. Lal, and W. R. Webber, Science 341, 150     [69] AMS Collaboration et al. (AMS Collaboration),
+      (2013).                                                        Phys. Rev. Lett. 119, 251101 (2017).
+[44] A. C. Cummings, E. C. Stone, B. C. Heikkila, N. Lal,      [70] AMS Collaboration et al., Phys. Rev. Lett. 120, 021101
+      W. R. Webber, G. Jo´hannesson, I. V. Moskalenko,               (2018).
+      E. Orlando, and T. A. Porter, ApJ 831, 18 (2016).        [71] M. Aguilar, L. Ali Cavasonza, B. Alpat, G. Ambrosi,
+[45] M. Boudaud, J. Lavalle, and P. Salati, Phys. Rev. Lett.         L. Arruda, N. Attig, S. Aupetit, P. Azzarello, A. Bach-
+      119, 021103 (2017), arXiv:1612.07698 [astro-ph.HE] .           lechner, F. Barao, and et al., Phys. Rev. Lett. 121,
+[46] A. W. Strong, I. V. Moskalenko, and V. S. Ptuskin,              051103 (2018b).
+      Annual Review of Nuclear and Particle Science 57, 285    [72] M. Aguilar, L. Ali Cavasonza, G. Ambrosi, L. Arruda,
+      (2007), astro-ph/0701517 .                                     N. Attig, A. Bachlechner, F. Barao, A. Barrau, L. Bar-
+[47] I. A. Grenier, J. H. Black, and A. W. Strong, ARA&A             rin, A. Bartoloni, and et al., Phys. Rev. Lett. 123,
+      53, 199 (2015).                                                181102 (2019).
+[48] E. Amato and P. Blasi, Advances in Space Research 62,     [73] CREAM Collaboration et al., ApJ 707, 593 (2009),
+      2731 (2018), arXiv:1704.05696 [astro-ph.HE] .                  arXiv:0911.1889 [astro-ph.HE] .
+[49] P. D. Serpico, Journal of Astrophysics and Astronomy      [74] CREAM Collaboration et al., ApJ 714, L89 (2010),
+      39, 41 (2018).                                                 arXiv:1004.1123 [astro-ph.HE] .
+[50] S. Gabici, C. Evoli, D. Gaggero, P. Lipari, P. Mertsch,   [75] N. Tomassetti, ApJ 752, L13 (2012), arXiv:1204.4492
+      E. Orlando, A. Strong, and A. Vittino, International           [astro-ph.HE] .
+      Journal of Modern Physics D 28, 1930022-339 (2019),      [76] P. Blasi, E. Amato, and P. D. Serpico, Phys. Rev. Lett.
+      arXiv:1903.11584 [astro-ph.HE] .                               109, 061101 (2012), arXiv:1207.3706 [astro-ph.HE] .
+[51] C. Evoli, R. Aloisio, and P. Blasi, Phys. Rev. D 99,      [77] AMS Collaboration et al., Phys. Rev. Lett. 114, 171103
+      103023 (2019), arXiv:1904.10220 [astro-ph.HE] .                (2015).
+[52] L. Derome, D. Maurin, P. Salati, M. Boudaud,              [78] Y. G´enolini, P. D. Serpico, M. Boudaud, S. Caroff,
+      Y. G´enolini, and P. Kunz´e, A&A 627, A158 (2019),             V. Poulin, L. Derome, J. Lavalle, D. Maurin, V. Poireau,
+      arXiv:1904.08210 [astro-ph.HE] .                               S. Rosier, P. Salati, and M. Vecchi, Phys. Rev. Lett.
+[53] F. Donato, N. Fornengo, D. Maurin, P. Salati, and               119, 241101 (2017), arXiv:1706.09812 [astro-ph.HE] .
+      R. Taillet, Phys. Rev. D 69, 063501 (2004), astro-       [79] P. Blasi, MNRAS 471, 1662 (2017), arXiv:1707.00525
+      ph/0306207 .                                                   [astro-ph.HE] .
+[54] D. Maurin, F. Donato, R. Taillet, and P. Salati, ApJ      [80] A. Vittino, P. Mertsch, H. Gast, and S. Schael, arXiv
+      555, 585 (2001), astro-ph/0101231 .                            e-prints (2019), arXiv:1904.05899 [astro-ph.HE] .
+[55] T. Delahaye, R. Lineros, F. Donato, N. Fornengo,          [81] M. Boudaud, Y. G´enolini, L. Derome, J. Lavalle,
+      and P. Salati, Phys. Rev. D 77, 063527 (2008),                 D. Maurin, P. Salati, and P. D. Serpico, Physical
+      arXiv:0712.2312 .                                              Review Research 2, 023022 (2020), arXiv:1906.07119
+[56] V. L. Ginzburg and S. I. Syrovatskii, The Origin of Cos-        [astro-ph.HE] .
+      mic Rays (New York: Macmillan, 1964).                    [82] M. Aguilar, L. Ali Cavasonza, B. Alpat, G. Ambrosi,
+[57] V. S. Berezinsky, S. V. Bulanov, V. A. Dogiel, and              L. Arruda, N. Attig, S. Aupetit, P. Azzarello, A. Bach-
+      V. S. Ptuskin, Astrophysics of cosmic rays (Amsterdam,         lechner, F. Barao, and et al., Physical Review Letters
+      Netherlands: North Holland, 1990).                             117, 091103 (2016).
+[58] V. S. Ptuskin, F. C. Jones, and J. F. Ormes, ApJ 465,     [83] N. Weinrich, M. Boudaud, L. Derome, Y. G´enolini,
+      972 (1996).                                                    J. Lavalle, D. Maurin, P. Salati, P. Serpico,
+[59] F. C. Jones, A. Lukasiak, V. Ptuskin, and W. Webber,            and G. Weymann-Despres, A&A 639, A74 (2020),
+      ApJ 547, 264 (2001), astro-ph/0007293 .                        arXiv:2004.00441 [astro-ph.HE] .
+[60] R. Taillet, P. Salati, D. Maurin, and E. Pilon, ArXiv     [84] F. Donato, D. Maurin, and R. Taillet, A&A 381, 539
+      Physics e-prints (2004), physics/0401099 .                     (2002).
+[61] D. Maurin, R. Taillet, and C. Combet, ArXiv Astro-        [85] M. W. Winkler, J. Cosmology Astropart. Phys. 2, 048
+      physics e-prints (2006), astro-ph/0609522 .
+[62] D. Maurin, Computer Physics Communications 247,
+      106942 (2020), arXiv:1807.02968 [astro-ph.IM] .
+[63] G. B´elanger, F. Boudjema, P. Brun, A. Pukhov,
+                                                                        20
+
+ [86]  (2017), arXiv:1701.04866 [hep-ph] .                       [111]  arXiv:astro-ph/0212113 [astro-ph] .
+       J. Heisig, M. Korsmeier, and M. W. Winkler, arXiv         [112]  T. Bringmann and P. Salati, Phys. Rev. D 75, 083006
+ [87]  e-prints , arXiv:2005.04237 (2020), arXiv:2005.04237      [113]  (2007), astro-ph/0612514 .
+ [88]  [astro-ph.HE] .                                           [114]  L. O. C. Drury and A. W. Strong, A&A 597, A117
+       A. W. Strong and I. V. Moskalenko, ApJ 509, 212           [115]  (2017), arXiv:1608.04227 [astro-ph.HE] .
+ [89]  (1998), astro-ph/9807150 .                                [116]  S. V. Bulanov and V. A. Dogel, Ap&SS 29, 305 (1974).
+       C. Evoli, D. Gaggero, D. Grasso, and L. Mac-              [117]  E. A. Baltz and J. Edsjo¨, Phys. Rev. D 59, 023511
+ [90]  cione, J. Cosmology Astropart. Phys. 10, 018 (2008),             (1998), astro-ph/9808243 .
+ [91]  arXiv:0807.4730 .                                         [118]  J. Lavalle, J. Pochon, P. Salati, and R. Taillet, A&A
+       C. Evoli, D. Gaggero, A. Vittino, G. Di Bernardo, M. Di   [119]  462, 827 (2007), arXiv:astro-ph/0603796 .
+ [92]  Mauro, A. Ligorini, P. Ullio, and D. Grasso, J. Cosmol-   [120]  T. A. Porter, G. Jo´hannesson, and I. V. Moskalenko,
+ [93]  ogy Astropart. Phys. 2, 015 (2017), arXiv:1607.07886             ApJ 846, 67 (2017), arXiv:1708.00816 [astro-ph.HE] .
+       [astro-ph.HE] .                                           [121]  T. Delahaye, R. Lineros, F. Donato, N. Fornengo,
+ [94]  R. Kissmann, Astroparticle Physics 55, 37 (2014),         [122]  J. Lavalle, P. Salati, and R. Taillet, A&A 501, 821
+       arXiv:1401.4035 [astro-ph.HE] .                           [123]  (2009), arXiv:0809.5268 .
+ [95]  R. Kissmann, M. Werner, O. Reimer, and A. W. Strong,      [124]  AMS Collaboration et al., Phys. Rev. Lett. 122, 041102
+ [96]  Astroparticle Physics 70, 39 (2015), arXiv:1504.08249     [125]  (2019).
+ [97]  [astro-ph.HE] .                                           [126]  M. Cirelli et al., In preparation.
+ [98]  F. A. Aharonian, A. M. Atoyan, and H. J. Voelk, A&A       [127]  T. Sjo¨strand and P. Skands, Journal of High Energy
+ [99]  294, L41 (1995).                                          [128]  Physics 2004, 053 (2004), arXiv:hep-ph/0402078 [hep-
+       D. Hooper, P. Blasi, and P. D. Serpico, J. Cosmol-        [129]  ph] .
+[100]  ogy Astropart. Phys. 2009, 025 (2009), arXiv:0810.1527           M. Boudaud, M. Cirelli, G. Giesen, and P. Salati, JCAP
+[101]  [astro-ph] .                                              [130]  05, 013 (2015), arXiv:1412.5696 [astro-ph.HE] .
+       T. Delahaye, J. Lavalle, R. Lineros, F. Donato, and              J. Buch, M. Cirelli, G. Giesen, and M. Taoso, JCAP
+[102]  N. Fornengo, A&A 524, A51 (2010), arXiv:1002.1910         [131]  09, 037 (2015), arXiv:1505.01049 [hep-ph] .
+[103]  [astro-ph.HE] .                                           [132]  M. Perelstein and B. Shakya, Phys. Rev. D 83, 123508
+[104]  P. Blasi and P. D. Serpico, Phys. Rev. Lett. 103, 081103         (2011), arXiv:1012.3772 [astro-ph.HE] .
+[105]  (2009), arXiv:0904.0871 [astro-ph.HE] .                   [133]  E. S. Seo and V. S. Ptuskin, ApJ 431, 705 (1994).
+[106]  L. J. Gleeson and W. I. Axford, ApJ 154, 1011 (1968).            A. Thornbury and L. O. Drury, MNRAS 442, 3010
+[107]  L. A. Fisk, J. Geophys. Res. 76, 221 (1971).                     (2014), arXiv:1404.2104 [astro-ph.HE] .
+       M. Potgieter, Living Reviews in Solar Physics 10, 3              G. L. Case and D. Bhattacharya, ApJ 504, 761 (1998),
+[108]  (2013), arXiv:1306.4421 [physics.space-ph] .                     arXiv:astro-ph/9807162 [astro-ph] .
+[109]  A. Ghelfi, D. Maurin, A. Cheminet, L. Derome, G. Hu-             D. A. Green, MNRAS 454, 1517 (2015),
+[110]  bert, and F. Melot, Advances in Space Research 60,               arXiv:1508.02931 [astro-ph.HE] .
+       833 (2017), arXiv:1607.01976 [astro-ph.HE] .                     I. Yusifov and I. Ku¨c¸u¨k, A&A 422, 545 (2004),
+       D. Maurin, F. Melot, and R. Taillet, A&A 569, A32                arXiv:astro-ph/0405559 [astro-ph] .
+       (2014), arXiv:1302.5525 [astro-ph.HE] .                          D. R. Lorimer, A. J. Faulkner, A. G. Lyne, R. N. Manch-
+       D. Maurin, H. P. Dembinski, J. Gonzalez, I. C. Maris,,           ester, M. Kramer, M. A. McLaughlin, G. Hobbs, A. Pos-
+       and F. Melot, Universe 6, 102 (2020), arXiv:2005.14663           senti, I. H. Stairs, F. Camilo, M. Burgay, N. D'Amico,
+       [astro-ph.HE] .                                                  A. Corongiu, and F. Crawford, MNRAS 372, 777
+       M. Cirelli, P. D. Serpico, and G. Zaharijas, JCAP 11,            (2006), arXiv:astro-ph/0607640 [astro-ph] .
+       035 (2013), arXiv:1307.7152 [astro-ph.HE] .                      C. R. Harris, K. J. Millman, S. J. van der Walt, R. Gom-
+       H. Zhao, MNRAS 278, 488 (1996), astro-ph/9509122 .               mers, P. Virtanen, D. Cournapeau, E. Wieser, J. Taylor,
+       J. F. Navarro, C. S. Frenk, and S. D. M. White, ApJ              S. Berg, N. J. Smith, R. Kern, M. Picus, S. Hoyer, M. H.
+       462, 563 (1996), astro-ph/9508025 .                              van Kerkwijk, M. Brett, A. Haldane, J. F. del R'io,
+       D. Merritt, J. F. Navarro, A. Ludlow, and A. Jenkins,            M. Wiebe, P. Peterson, P. G'erard-Marchant, K. Shep-
+       ApJ 624, L85 (2005), astro-ph/0502515 .                          pard, T. Reddy, W. Weckesser, H. Abbasi, C. Gohlke,
+       P. J. McMillan, MNRAS 465, 76 (2017),                            and T. E. Oliphant, Nature 585, 357 (2020).
+       arXiv:1608.00971 .                                               F. James and M. Roos, Computer Physics Communica-
+       M. Cautun, A. Ben´itez-Llambay, A. J. Deason, C. S.              tions 10, 343 (1975).
+       Frenk, A. Fattahi, F. A. Go´mez, R. J. J. Grand, K. A.           A. Putze, L. Derome, D. Maurin, L. Perotto, and
+       Oman, J. F. Navarro, and C. M. Simpson, MNRAS                    R. Taillet, A&A 497, 991 (2009), arXiv:0808.2437
+       494, 4291 (2020), arXiv:1911.04557 [astro-ph.GA] .               [astro-ph] .
+       Gravity Collaboration et al., A&A 625, L10 (2019).               A. Putze, L. Derome, and D. Maurin, A&A 516, A66
+       R. Taillet and D. Maurin, A&A 402, 971 (2003),                   (2010), arXiv:1001.0551 [astro-ph.HE] .
+       arXiv:astro-ph/0212112 [astro-ph] .
+       D. Maurin and R. Taillet, A&A 404, 949 (2003),
+

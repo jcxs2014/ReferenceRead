@@ -1,0 +1,1163 @@
+A&A 639, A74 (2020)                                                  Astronomy
+https://doi.org/10.1051/0004-6361/202038064
+c N. Weinrich et al. 2020                                             &
+
+                                                                     Astrophysics
+
+      Galactic halo size in the light of recent AMS-02 data
+
+        N. Weinrich1, M. Boudaud2, , L. Derome1, Y. Génolini3, J. Lavalle4, D. Maurin1, P. Salati5,
+                                         P. Serpico5, and G. Weymann-Despres1
+
+1 LPSC, Université Grenoble Alpes, CNRS/IN2P3, 53 avenue des Martyrs, 38026 Grenoble, France
+   e-mail: david.maurin@lpsc.in2p3.fr
+
+2 Instituto de Física Teórica UAM/CSIC, Calle Nicolás Cabrera 13-15, Cantoblanco 28049 Madrid, Spain
+3 Niels Bohr International Academy & Discovery Center, Niels Bohr Institute, University of Copenhagen, Blegdamsvej 17,
+
+   2100 Copenhagen, Denmark
+4 LUPM, CNRS & Université de Montpellier (UMR-5299), Place Eugène Bataillon, 34095 Montpellier Cedex 05, France
+
+   e-mail: julien.lavalle@umontpellier.fr
+5 LAPTh, Université Savoie Mont Blanc & CNRS, 74941 Annecy Cedex, France
+
+   e-mail: pierre.salati@lapth.cnrs.fr
+
+Received 1 April 2020 / Accepted 14 May 2020
+
+                                                                            ABSTRACT
+
+Context. The vertical diffusive halo size of the Galaxy, L, is a key parameter for dark matter indirect searches. It can be better deter-
+mined thanks to recent AMS-02 data.
+Aims. We set constraints on L from Be/B and 10Be/Be data, and we performed a consistency check with positron data. We detail the
+dependence of Be/B and 10Be/Be on L and forecast on which energy range better data would be helpful for future L improvements.
+
+Methods. We used usine v3.5 for the propagation of nuclei, and e+ were calculated with the pinching method.
+
+Results. The current AMS-02 Be/B (3% precision) and ACE-CRIS 10Be/Be (10% precision) data bring similar and consistent
+constraints on L. The AMS-02 Be/B data alone constrain L = 5+3 -2 kpc at a 68% confidence level (spanning different benchmark trans-
+port configurations), a range for which most models do not overproduce positrons. Future experiments need to deliver percent-level
+accuracy on 10Be/9Be anywhere below 10 GV to further constrain L.
+Conclusions. Forthcoming AMS-02, HELIX, and PAMELA 10Be/9Be results will further test and possibly tighten the limits de-
+rived here. Elemental ratios involving radioactive species with different lifetimes (e.g. Al/Mg and Cl/Ar) are also awaited to provide
+complementary and robuster constraints.
+
+Key words. astroparticle physics - cosmic rays - Galaxy: halo
+
+1. Introduction                                                      (i.e. produced at the propagation stage only) unstable species to
+                                                                     their stable counterpart, for instance 10Be/9Be, allow one to break
+Finding the Galactic cosmic-ray (CR) sources, solving the            the degeneracy between the diffusion coefficient normalisation
+details of CR transport in the Galaxy, and using the CR as a         and the halo size of the Galaxy (e.g. Donato et al. 2002). How-
+channel to identify the nature of dark matter (DM) are among         ever, CR isotopic separation in experiments is challenging. The
+the main challenges in CR physics. In the last decade, anti-         first measurements were carried out more than forty years ago
+matter data received a lot of scrutiny, owing to the interpreta-     for 10Be (Webber et al. 1973), 36Cl (Young et al. 1981), 26Al
+tion of the positron fraction rise as a DM signal (Adriani et al.    (Webber 1982), and 54Mn (Webber et al. 1979); however, even
+2009; Bergström et al. 2008; Feng & Zhang 2018), although            recent measures (Connell 1998; Yanasak et al. 2001; Hams et al.
+standard astrophysics explanations are more likely (e.g. Hooper      2004) are restricted to low energy mostly, that is, below a few hun-
+et al. 2009; Delahaye et al. 2010; Serpico 2012; Manconi et al.      dreds of MeV/n. As an alternative and complementary approach,
+2019). Similarly, the presence of a DM contribution in the p data    Webber & Soutoul (1998) proposed to use elemental ratios (e.g.
+is debated in the literature (Reinert & Winkler 2018; Cholis et al.  Be/B, Al/Mg) in which the CR clock appears both in the numer-
+2019; Cuoco et al. 2019; Boudaud et al. 2020). The latter chan-      ator (decayed fraction) and denominator (daughter fed by decay-
+nel is actually one of the best at constraining weakly interacting   ing CR). Elemental ratios have been measured up to hundreds
+massive particles DM candidates in the GeV-TeV mass range            of GeV/n, hence covering an energy range in which 10Be goes
+(e.g. Conrad & Reimer 2017).                                         from mostly decayed to meta-stable, with respect to the propaga-
+                                                                     tion time, at high energy. While waiting for the AMS-02 future
+    DM interpretations for antimatter CRs depend on both the         release of Be isotope data, the high-precision Be/B ratio already
+transport and geometry parameters (Donato et al. 2004; Delahaye      gives useful constraints (Evoli et al. 2020). However, the isotopic
+et al. 2008; Aramaki et al. 2016); the latter is mostly determined   fraction of 10Be in B is a few percent only, and the sensitivity of
+via CR radioactive clocks. These clocks have a lifetime of approx-   Be/B to L is partly drowned by the dominant presence of the stable
+imately a million years, one order of magnitude shorter than the     nucleus 7Be (Tomassetti 2015a).
+typical CR propagation time in the Galaxy. Ratios of a secondary
+                                                                         The positron data have also been recently shown to provide
+     Deceased.                                                       interesting constraints on L (Lavalle et al. 2014). In particular,
+
+                                                                                                                                                            A74, page 1 of 14
+
+Open Access article, published by EDP Sciences, under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0),
+                      which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+A&A 639, A74 (2020)
+
+for small L, the unavoidable secondary production, mostly from        Table 1. Free ( ) and fixed parameters for the benchmark configura-
+H and He CRs on the interstellar medium (ISM), may overshoot          tions analysed in this study, see Eq. (1).
+low-energy data points. Therefore they can be used as a comple-
+mentary probe to set a lower limit on L.                              Parameters BIG SLIM QUAINT
+
+    This study follows up on our previous effort to determine                        Low-rigidity parameters
+CR transport parameters (Génolini et al. 2019; Weinrich et al.
+2020). We performed a joint analysis of Li/C, B/C, and various                         1    1
+combinations of 10Be data to determine L. We then drew mod-
+els from the allowed regions of their parameter space and fur-          l                                      n/a
+ther checked their consistency with the positron constraint. We
+stress that in this analysis, as is the case in almost all similar      sl           0.05 0.05                 n/a
+studies, the halo size of the Galaxy is set to be a hard boundary
+where the CR density goes to zero. This is an effective mod-            Rl                                     n/a
+elling of a more realistic picture that would probably involve a
+rapidly growing diffusion coefficient in the halo (Di Bernardo          VA                  n/a
+et al. 2013; Tomassetti 2015b). In fact, a modelling of CR, gas,
+and wave interactions from first principles leads to the picture        Intermediate-rigidity parameters
+of a dynamic halo (Breitschwerdt et al. 1991; Zirakashvili et al.
+1996). Recent results from Evoli et al. (2018) show, in partic-         Vc                  n/a
+ular, that the turbulent cascade from CR sources and the self-
+generation of waves by CRs can introduce an effective halo size.        K0
+Full numerical simulations aimed at accurately computing CRs            
+in a magneto-hydrodynamic framework will probably give more
+insight into this problem, as envisaged in Girichidis et al. (2020).                 High-rigidity parameters
+In the meantime, the concept of hard boundary remains a useful
+benchmark for many CR-related studies.                                  h            0.18 0.19 0.17
+
+    The paper is organised as follows: in Sect. 2, we recall the      Rh [GV] 247 237                          270
+propagation model and configurations used for the analysis. In
+Sect. 3, we assess the capability of 10Be/9Be, Be/B, or B/C             sh           0.04 0.04 0.04
+current data to determine L, accounting for various modelling
+uncertainties; we then provide the resulting constraints on L.                       Geometry parameter
+In Sect. 4, we discuss other possible observables to determine
+L, and we look at the flux of secondary positrons, given the            L
+Be/B constraint on L. In Sect. 5, we summarise and conclude.
+Further details of the analysis and additional cross-checks are       Notes. We schematically separate the parameters in several rigid-
+reported to the appendices: Appendix A provides scaling rela-         ity domains, but VA and Vc impact fluxes across both the low- and
+tions of the transport parameters with L for stable secondary         intermediate-rigidity domain.
+species - they extend, for all transport parameters, those that
+were given in Appendix C of Génolini et al. (2019); Appendix B        tions allow one to derive solutions semi-analytically (Jones et al.
+highlights the constraints on L set by various 10Be/9Be datasets      2001; Maurin et al. 2001). Our calculations are performed with
+(low-energy experiments, ISOMAX, and preliminary PAMELA
+analysis); Appendix C outlines why 7Be/(9Be +10 Be), the most         the code usine v3.5 (Maurin 2020)1. For more details, we refer
+favourable isotopic ratio to extract experimentally, is of no prac-
+tical use to constrain L.                                             the reader to Génolini et al. (2019) and Weinrich et al. (2020).
+                                                                          Several theoretical studies have hinted at the possible pres-
+
+                                                                      ence of breaks at low- (Ptuskin et al. 2006) or high-rigidity
+                                                                      (Blasi et al. 2012; Evoli et al. 2018). Actually, spectral breaks
+                                                                      are seen in CR data at low- (Stone et al. 2013) and high-rigidity
+                                                                      (Aguilar et al. 2018), and they can be connected to the presence
+                                                                      of breaks in the diffusion coefficient at rigidities Rl  4-5 GV
+                                                                      (Génolini et al. 2019; Vittino et al. 2019; Weinrich et al. 2020)
+                                                                      and Rh  250 GV (Génolini et al. 2017, 2019; Reinert & Winkler
+                                                                      2018; Evoli et al. 2019). For these reasons we take
+
+                                                                                     l- sl                          -h -sh
+                                                                        R sl  R   R sh 
+                                                                      K(R) =  K0 1+              1+                  .      (1)
+                                                                       Rl  1 GV  Rh 
+
+2. Model and configurations (BIG, SLIM, QUAINT)                       In this study, we fix several parameters whose impact on the
+                                                                      results is negligible: the three high-rigidity break parameters
+The details of the transport equation and approach we follow are      (Rh, h, sh) are set to the values reported in Génolini et al. (2019);
+detailed in Génolini et al. (2019) and in the companion paper         the smoothness of the low-rigidity break parameter is fixed at
+(Weinrich et al. 2020). Here, we only recall the most important       sl = 0.04 (fast transition).
+features of the model.
+                                                                          We use three benchmark configurations BIG, SLIM, and
+    We assume the CR density to obey a steady-state diffusion-        QUAINT defined in Génolini et al. (2019), whose relevant
+advection equation. The geometry of the diffusion halo defines        parameters are collected in Table 1. In this analysis, BIG has
+the region in which CRs propagate and are confined, here con-         7 free parameters (K0, , Rl, l, Vc, VA, L). The configuration
+sidered an infinite slab of half-thickness L, the parameter we        SLIM is a special case of BIG, with VA = Vc = 0 and  =
+aim at determining in this analysis. In this geometry, CR sources     1, and it has 5 free parameters (K0, , Rl, l, L). The config-
+and the gas are pinched in an infinitely thin plan (half-thickness    uration QUAINT is also a special case of BIG with no low-
+h = 100 pc L), where interactions with the gas (spallation,           rigidity break, and it has 6 free parameters (K0, , , Vc, VA, L).
+energy gains and losses) are restricted to. A convection term         QUAINT is also an extension (because of the high-rigidity break)
+Vc is taken to be constant and perpendicular to the disc. We          of older benchmark convection and reacceleration models used
+assume isotropic and homogeneous diffusion, and account for           for instance in Maurin et al. (2010) and Di Bernardo et al. (2010).
+diffusion in momentum space: we follow the treatment of Seo
+et al. (1994), that is Kpp(R, x)  2 h (z) (VA p)2/K(R) where          1 https://lpsc.in2p3.fr/usine
+VA is the Alfvénic speed of the plasma wave. These assump-
+
+A74, page 2 of 14
+                       N. Weinrich et al.: Galactic halo size in the light of recent AMS-02 data
+
+   We fitted the model to the data via a 2 minimisation,             Table 2. Experiments with their data-taking periods and associated
+                                                                     expected Solar modulation level.
+                     
+                     
+2        t,qt  t,qt       r
+ =  Dcov + NSol.Mod.  + NXS,                              (2)
+                                                                     Experiment (period)      prior          Reference
+   t qt                r                                                                      [MV]
+
+where t and qt run over the several flux ratios (e.g. Li/C, Be/C,                          Li/C and B/C ("Base")
+B/C) measured at different periods, whereas r runs over cross-
+section reactions. The non-diagonal Dcov t,qt term allows for i j    AMS-02 ('11/05-'16/05)   676 Aguilar et al. (2018)
+energy bins correlations in the data (covariance matrix). The
+NSol.Mod. t,q and NXS terms account for Solar modulation and cross-  ACE-CRIS ('97/08-'98/04) 528 Lave et al. (2013)
+section nuisance parameters, respectively. More details on this
+                                                                     ACE-CRIS ('98/01-'99/01) 582 de Nolfo et al. (2006)
+procedure are given in Appendix B of Derome et al. (2019).
+                                                                     ACE-CRIS ('01/05-'03/09) 872 Lave et al. (2013)
+For further details related to the Li/C, Be/C, and B/C data
+                                                                     ACE-CRIS ('09/03-'10/01) 445 Lave et al. (2013)
+uncertainties (correlation matrix of systematics), and also solar
+                                                                     IMP8 ('74/01-'78/10)     540 Garcia-Munoz et al. (1987)
+modulation and cross-section priors, we refer the reader to our
+                                                                     ISEE3-HKH ('78/08-'81/04) 742 Krombel & Wiedenbeck (1988)
+companion paper (Weinrich et al. 2020).
+                                                                     Ulysses-HET ('90/10-'95/07) 732 Duvernois et al. (1996)
+   The minimisation is performed with the minuit package
+(James & Roos 1975), its minos algorithm also providing accu-        Voyager1&2 ('77/01-'98/12) 450 Lukasiak (1999)
+
+rate (asymmetric) error bars even if the problem is very non-        AMS-02 ('11/05-'16/05)   Be/B data
+                                                                                                 676 Aguilar et al. (2018)
+linear. In practice, the minuit routines are directly called from
+usine (Maurin 2020). We also carry out O(100) minimisations                                   10Be/Be data
+
+from different starting points to ensure the true minimum is         IMP7&8 ('72/09-'75/09)   543 Garcia-Munoz et al. (1977)
+
+found (Weinrich et al. 2020). All uncertainties reported on the      IMP7&8 ('74/01-'80/05)   580 Garcia-Munoz et al. (1981)
+
+halo size in this study are derived from the profile likelihood      ISEE3-HKH ('78/08-'79/08) 653 Wiedenbeck & Greiner (1980)
+
+method (with minos) at the 68% confidence level. As the 2 def-       Ulysses-HET ('90/10-'97/12) 661 Connell (1998)
+
+inition accounts for energy correlations in the data uncertainties   Voyager1&2 ('77/01-'98/12) 450 Lukasiak (1999)
+
+and nuisance parameters, the halo size uncertainties also account                             10Be/9Be data
+
+for them. We stress that uncertainties were derived on log(L)        Most precise low-energy data ("ACE")
+
+and are mostly symmetric on this parameter. For this reason, we      ACE-CRIS ('97/08-'99/07) 581 Yanasak et al. (2001)
+loosely use the notation 1 in the following, and for instance,
+2 limits can be estimated assuming a log-normal distribution         ACE-SIS ('97/08-'99/07)  581 Yanasak et al. (2001)
+
+for L.                                                               Remaining low-energy data ("LE w/o ACE")
+
+                                                                     IMP7&8 ('74/01-'80/05)   580 Garcia-Munoz et al. (1981)
+
+                                                                     ISEE3-HKH ('78/08-'79/08) 653 Wiedenbeck & Greiner (1980)
+
+                                                                     Ulysses-HET ('90/10-'97/12) 661 Connell (1998)
+
+                                                                     Voyager1&2 ('77/01-'98/12) 450 Lukasiak (1999)
+
+                                                                                              Intermediate energy
+
+                                                                     ISOMAX ('98/08)          618 Hams et al. (2004)
+
+                                                                     Preliminary data (Appendix B only)
+
+                                                                     PAMELA ('06/07-'14/09)   500 Bogomolov & Vasilyev (2019)
+
+3. Halo size L from CR clocks                                        Notes. In the list below, datasets from the same experiment and data
+                                                                     taking periods share a common Solar modulation level in the analyses.
+Radioactive secondary species whose lifetime is shorter than         PAMELA data are from a preliminary analysis. For this reason, they are
+escape time decay before experiencing the boundary of the            never considered in our main results, and are only used for illustration
+Galaxy. These species are only sensitive to the diffusion coef-      in Appendix B.
+ficient K, whereas stable secondary species can escape and are
+sensitive to K/L. Any fit combining the information of a stable      different datasets. The largest dataset is that of AMS-02 Be/B,
+and radioactive secondary species breaks the K/L degeneracy,         covering 3 GV to 2 TV. We also have several low-energy
+allowing for the determination of L (Donato et al. 2002).            10Be/9Be or 10Be/Be datasets available, retrieved from CRDB2
+                                                                     (Maurin et al. 2014). Except for the ISOMAX data reaching
+    Below, we focus on 10Be (t1/2 = 1.387 Myr) and related           2 GeV/n, most of them (ACE, IMP7&8, ISEE3, Ulysses, and
+ratios (10Be/9Be, 10Be/Be, and Be/B). To date, 10Be is the only      Voyager1&2) are at a few hundreds of MeV/n.
+available CR chronometer for which high-precision data exist
+for the associated elemental flux, Be. The Al, Cl, and Mn fluxes         The various datasets of interest are listed in Table 2, along
+have not been released by the AMS-02 collaboration, yet.             with their estimated Solar modulation level and bibliographic
+                                                                     reference. Several ratio and dataset combinations are consid-
+3.1. CR datasets and modulation levels                               ered, in order to assess and compare their respective impact on
+                                                                     L. Combined to "base" (i.e. Li/C and B/C data only), which
+This analysis is based on several datasets. Each dataset is asso-    enables the determination of the transport parameters, at least
+ciated to a solar modulation level depending on its data tak-        one 10Be-related dataset is necessary to determine L. In partic-
+ing period. We use here the simple force-field approximation         ular, for fits involving 10Be/9Be, we differentiate three groups
+(Gleeson & Axford 1967, 1968; Caballero-Lopez & Moraal               (see Table 2): the most precise low-energy data only ("ACE"),
+2004), whose single parameter, FF, is taken as a nuisance            low-energy data without ACE ("LE w/o ACE"), or intermedi-
+parameter in the analyses. As detailed in Weinrich et al. (2020),    ate energy data only ("ISOMAX"). For consistency for the Solar
+the solar modulation level (prior) for each dataset is based on      modulation nuisance parameters, in all fits involving low-energy
+the analysis of neutron monitor data (Maurin et al. 2015; Ghelfi     isotopic ratios, we consider, if available, the associated similarly
+et al. 2016, 2017a,b).                                               modulated Li/C and B/C low-energy data (in addition to AMS-
+                                                                     02 data).
+    As in Weinrich et al. (2020), the baseline data used to fix the
+transport parameters are AMS-02 Li/C and B/C data (Aguilar           2 https://lpsc.in2p3.fr/crdb
+et al. 2018) - denoted "base" in the following. The halo size L is
+then constrained by combining the base with several ratios from
+
+                                                                                                                        A74, page 3 of 14
+                   A&A 639, A74 (2020)
+
+3.2. Expected constraints from B/C, Be/B, and 10Be/Be                                               10 B/C                            Model unc.            Data unc.
+                                                                                                       SLIM
+Before moving to the fits and results, we wish to understand how            Rel. var. B/C [%]                                                     1L [kpc]  15
+strongly L can be constrained by different data combinations                                         5
+of 10Be. Ratios directly involving 10Be should be optimal, but                                       0                                            2         100
+owing to the experimental difficulty of achieving isotopic sep-                                      5                                            5
+aration, high-precision elemental ratios like Be/B can be com-                                      10
+petitive (Webber & Soutoul 1998). In principle, B/C might also                                                          R [GV]        Transport             Sol.Mod.
+lead to some constraint, via the fraction of 10B generated by                                       10 Be/B                           XS                    Data unc.
+10Be decay. The most favourable option would include some                                              SLIM
+information on the 10Be content, high-precision data, and sig-              Rel. var. Be/B [%]                                                    L [kpc]   8
+nificant dynamic range. For instance, at 1 GeV/n, the B/C and                                        5                                     2.5
+Be/C fraction from unstable isotopes are respectively 5% and                                         0                                     3.5              12
+5-10%, with data available from GV to TV at 3-5% precision                                           5                                     5
+(Aguilar et al. 2018); for 10Be, the fraction is 100% with data                                     10
+in the 50-200 MeV/n range at 10-15% precision (Yanasak                                                                  101 R [GV]    102                   103
+et al. 2001).                                                                                                100
+                                                                                                                                      Transport             XS
+    We first pick a reference configuration and L to which other                                    40 10Be/Be                        Sol.Mod.              Data unc.
+calculations are compared. This configuration is taken from our                                        SLIM
+companion paper, Weinrich et al. (2020), and is based on the                Rel. var. 10Be/Be [%]
+simultaneous analysis of AMS-02 Li/C, Be/C and B/C data at                                          20
+fixed L = 5 kpc. To see how sensitive to L calculated ratios
+are, we vary L ensuring that the level of production remains                                         0                                            L [kpc]   8
+unchanged for secondary stable species-this constraint is sat-                                      20                                     2.5
+isfied with an appropriate rescaling of the transport parameters                                    40                                     3.5              12
+(see Appendix A)3. From this set-up, we calculate the relative                                                                             5
+variation of B/C, Be/B, 10Be/Be, and 10Be/9Be with respect to                                       40 10Be/9Be
+the reference values at L = 5 pc.                                           Rel. var. 10Be/9Be [%]     SLIM             Ek/n [GeV/n] Transport              XS
+                                                                                                                                                            Data unc.
+    The results are shown in Fig. 1, with the dependence upon                                       20                                Sol.Mod.
+growing L illustrated via the growing thickness of dotted lines,
+while different uniformly coloured bands represent different the-                                   0
+oretical uncertainties (described and discussed in Sect. 3.3). For
+B/C (top panel), even for unrealistic variations of L, the maxi-                                    20                                            L [kpc]
+mal impact is a few percent only. On the other hand, varying L                                                                             2.5              8
+from 2.5 to 12 kpc leads to variations of up to 5% for Be/B (sec-                                                                          3.5              12
+ond panel) and up to 35% for 10Be/9Be and 10Be/Be (two bot-                                         40                                     5
+tom panels). Secondly, whereas these variations peak strongly
+around 30 GV for Be/B, they are constant for all energy below                                       10 2          10 1  100           101            102
+a few GeV/n for 10Be/9Be and 10Be/Be. We overlay on the                                                                 Ek/n [GeV/n]
+plots (hatched regions) the existing data coverage in terms of
+energy range and total uncertainties. From the comparison with              Fig. 1. Relative variation of B/C, Be/B, 10Be/Be, and 10Be/9Be ratios
+the L-dependent curves (thin- to thick-dotted lines), we con-               (from top to bottom) as a function of rigidity (upper panels) or kinetic
+clude that B/C data alone can only provide very loose upper                 energy per nucleon (lower panels). All the panels compare three dif-
+limits ( 20-30 kpc), while Be/B, 10Be/9Be, and 10Be/Be are all              ferent effects: (i) the thin- to thick-dashed lines correspond, at constant
+expected to constrain L to better than a factor 2.                          grammage, to the impact of L on the calculated ratios (the reference is
+                                                                            L = 5 kpc); (ii) hatched boxes show the data relative uncertainties over
+3.3. Directions for future experimental efforts                             the data energy coverage (AMS-02 data in the two top panels) or for
+                                                                            central energy points only (ACE, IMP7&8, ISEE3, ISOMAX, Ulysses,
+By pursuing further the reasoning, we can also forecast where               and Voyager1&2 data in the two bottom panels) - see Sect. 3.1 and
+future measurements could improve the constraint on L. From                 Table 2 for data references; (iii) the remaining envelopes show 68% CLs
+Fig. 1, energy ranges where L is the most impacting are between             on model calculations, including transport, cross sections, and modula-
+10 and 100 GV for Be/B data, and below a few GeV/n for                      tion uncertainties separately or combined ("total").
+10Be/9Be. However, to fairly assess the sensitivity of each ratio,
+model uncertainties should be taken into account-broadly speak-
+ing, model uncertainties originate from transport, cross-section,
+and solar modulation.
+
+    Technically we proceed as follows: starting from the best fit
+and covariance matrix of the relevant parameters (standard out-
+
+puts of fits with usine v3.5), we draw realisations of the param-
+
+3 There is a subtlety for B/C, as it contains 10B having decayed from       eters of interest, from which new values for the ratios are calcu-
+10Be. Depending how scaling relations are derived, they absorb or not       lated; we then extract contours and confidence levels on these
+the L dependence of this decayed fraction. We use the theory-based          ratios. Repeating the drawing procedure considering the full
+scaling relations to study the sensitivity of B/C to L, but the fit-driven  covariance matrix of parameters or only block elements of this
+ones for the remaining ratios (see Appendix A).
+
+A74, page 4 of 14
+N. Weinrich et al.: Galactic halo size in the light of recent AMS-02 data
+
+matrix, we can propagate the model uncertainties all together                                                   BIG         SLIM        QUAINT
+(e.g. B/C in the top panel of Fig. 1) or separately (all remaining
+panels). This naturally accounts for the full or partial correlations               15
+between the parameters.
+                                                                           L [kpc]  10
+    We show in the panels of Fig. 1 various model uncertainties
+(1 contours) obtained from sampling 104 realisations of the                         5
+model parameters for SLIM4. Overall, solar modulation uncer-
+tainties ( 5%, purple contours) are sub-dominant in the model                       1.2
+error budget; they are also sub-dominant with respect to data
+uncertainties (hatched boxes). For isotopic ratios, cross-section          2/ndof   1.0
+uncertainties dominate (10-20%, green contours), followed by
+transport uncertainties ( 10%, orange contours). Let us detail                      0.8 Base           Base       Base        Base        Base
+separately the conclusions that can be drawn for B/C, Be/B,                             = Li/C & B/C   & Be/B   & 10Be/Be   & 10Be/9Be   & Be/B
+10Be/Be, and 10Be/9Be - for completeness, we also show in                                (all data)   (AMS-02)  (all data)  (all data)  & 10Be/Be
+Appendix C the 7Be/(9Be +10 Be) ratio, more easily measured                                                                             & 10Be/9Be
+but unfortunately not constraining for L.
+                                                                           Fig. 2. Best-fit halo size and asymmetric uncertainties (from minos)
+    Firstly, the status of the B/C ratio (top panel) is different from
+the other ones, because transport is calibrated on it. For this rea-       for the configurations BIG, SLIM, and QUAINT. From left to right, sev-
+son, the associated uncertainties are typically at the level of the        eral data combinations are used. The first column ("Base") involves
+data uncertainties. Given the poor sensitivity of B/C to L, at least       AMS-02 and low-energy B/C and Li/C data. The second column is the
+a factor of ten improvement on data errors would be necessary              constraint set from AMS-02 data only (Li/C, Be/B, and B/C). The
+to bring any improvement on L.                                             remaining columns combine "Base" data (from first column) to 10Be/Be
+                                                                           low-energy data (third column), to 10Be/9Be low- and intermediate-
+    Secondly, for the Be/B ratio (second panel), the optimal               energy (next-to-last column), or combine all the previous cases (last
+region to constrain L is from a few GV to a few tens of GV,                column).
+exactly in the region where AMS-02 data have the smallest errors
+(3%). In this region, cross-section uncertainties (green con-              CR projects like HERD (Cattaneo & HERD Collaboration 2019),
+tours) are at the 5% level, meaning that better nuclear cross-             ALADInO (Adriani et al. 2019), or AMS-100 (Schael et al.
+section data could already slightly shrink the allowed L values            2019). In any case, be it for Be/B or isotopic ratios, the
+by 30%. Better Be/B data could strengthen the L constraint,                common limiting factor to all improvements are cross-section
+but only with cross-sections uncertainties brought to par. How-            uncertainties.
+ever, improving CR data systematics below the percent level is
+very challenging.                                                          3.4. Actual constraints on L
+
+    Thirdly, for the isotopic 10Be/Be and 10Be/9Be ratios (bottom          In this section, we present the constraints on L from various
+two panels), we have to slightly change our estimation of cross-           data combinations. The fitting procedure and free (and nuisance)
+section uncertainties. Contrarily to elemental ratios, in which            parameters are as discussed in Sect. 2 - see also our companion
+only the overall element production matters (sum of 7Be, 9Be,              paper for more details (Weinrich et al. 2020).
+and 10Be), isotopic ratios directly depend on the associated iso-
+topic production cross sections. To be conservative - though               3.4.1. Results
+probably too pessimistic -, we draw each isotopic production
+cross sections (independently) within their expected uncertainty           Figure 2 shows the constraints (at 1) brought by the ratios
+range5. As for Be/B, the cross-section uncertainties are the dom-          discussed in the previous section (B/C, Be/B, 10Be/Be, and
+inant modelling uncertainties. At variance with Be/B, any region           10Be/9Be) for the three configurations BIG (blue circle), SLIM
+below 10 GeV/n is equally suited to constrain L. In the high-              (orange crosses), or QUAINT (green triangles). We first stress
+energy end of this interval, current data uncertainties are larger         that the various transport configurations all give similar con-
+than the model uncertainties, so that there is a small window for          straints on L - we do not show results for the transport param-
+improvements on data to improve the constraints on L. Also, CR             eters as they are available and were abundantly discussed in
+data on a large energy range should provide a better lever arm to          Weinrich et al. (2020). The behaviour for the different ratios
+handle cross-section uncertainties.                                        (columns) is in qualitative agreement with the expectations dis-
+                                                                           cussed in Sect. 3.2. In the first column, the B/C ratio mostly
+    We can now conclude on the best way to improve the con-                gives an upper limit L 15 kpc, whereas in the second and third
+straints on L in the future. On the short term, forthcoming                columns, Be/B AMS-02 and 10Be/Be low-energy data give sim-
+10Be/9Be AMS-02 and PAMELA data up to 10 GeV/n are the                     ilar constraints L  5 ± 3 kpc. The fourth column is based on
+best candidates to improve the constraints on L. On a longer term,         the results from the same experiments as in the third column, but
+the easiest way to improving isotopic CR data would be to focus            fitting 10Be/Be instead of 10Be/9Be data, and with the additional
+on GeV/n energies for this same ratio. Improving the precision             use of intermediate-energy ISOMAX data (see Table 2). This
+of Be/B data would be only significant at the sub-percent level,           gives a slightly lower best-fit value and uncertainties compared
+but this is likely to remain difficult to achieve, even for future
+
+4 Configurations having more free parameters (QUAINT and BIG)
+would provide larger uncertainties; see Fig. 4 in Weinrich et al. (2020).
+5 We follow the NSS prescription (Derome et al. 2019; Weinrich et al.
+2020), where we vary the cross-section normalisation and low-energy
+behaviour (power-law slope) of the dominant production channel for
+each Be isotope. We use a dispersion Slope = 0.15 for these reactions,
+and Norm = 0.25, 0.20, and 0.15 for 12C+H10Be, 12C+H9Be, and
+16O+H 7Be respectively.
+
+                                                                                                                                  A74, page 5 of 14
+                                                          A&A 639, A74 (2020)
+
+Table 3. Halo size fit results for the combined analysis of Li/C and B/C                         0.45
+(denoted "Base", see also Fig. 2) with an "unstable-to-stable" secondary
+ratio r.                                                                                         0.40 Be/B (AMS-02)
+
+                      BIG               SLIM              QUAINT                 Flux ratio [-]  0.35
+                                                                                                 0.30
+                      Base & Be/B                                                                0.25
+                                                                                                 0.20 BIG
+                           (AMS-02)                                                              0.15 SLIM ( ±1 )
+
+   L [kpc]             4.96+2.97 -1.76   5.04+3.07 -1.79   4.79+3.19 -1.77                                   QUAINT
+                      233.7/193         233.1/195         235.3/194
+   2/nd.o.f.                                                                                     0.10
+   2nui/nnui          17.4/20 17.4/20                      15.8/20                                30
+                                                                                                  15
+     Base & Be/B & 10Be/Be & 10Be/9Be                                                              0
+                                                                                                  15
+                           (all data)                                            Residual [%]
+                                                                                                  30 SLIM
+   L [kpc]             4.64+1.35 -0.94   4.66+1.35 -0.97   4.08+1.33 -0.78
+                      266.3/251         265.6/253         269.0/252
+   2/nd.o.f.
+   2nui / nnui        25.6/35 25.4/35                      25.6/35
+
+Notes. The top rows show the constraint from AMS-02 data (r = Be/B),             z-score [ tot]  2
+                                                                                                 1
+while the bottom rows show the combined constraint from all available                            0
+datasets (r = Be/B +10Be/Be +10Be/9Be).                                                          1
+
+to 10Be/Be data, but this apparent improvement is related to a                                   2 SLIM
+
+tension between ISOMAX data and all the others. The reduced                                                   101
+
+uncertainties result from an attempt to accommodate all the data                                                     102     103
+
+at once - Appendix B details results on the broken-down con-                                                         R [GV]
+
+straints from various low-energy datasets. The tension with ISO-
+
+MAX data also reflects in the global fit (last column), which is                 Fig. 3. Model prediction (top), residuals (centre), and z~-score (bot-
+                                                                                 tom) for Be/B based on the best-fit parameters to B/C, Li/C, 10Be/9Be,
+pushed towards slightly larger L values, also preferred by AMS-                  10Be/Be and Be/B data. In the top panel, the contours show the 1 total
+
+02 Be/B data (second column).                                                    model uncertainties for BIG. In the bottom panel, the right-hand side
+
+   We gather in Table 3 the best-fit values and 1 uncertain-                     shows the distribution of z~ values against a Gaussian with unit width
+
+ties on L for the AMS-only analysis (with Be/B, top) and the                     (solid lines).
+
+combined analysis (with Be/B and all isotopic ratios, bottom). In
+
+terms of the 2min/d.o.f. values, a fair but not perfect agreement                et al. (2020) or Weinrich et al. (2020): It suffices to say that this
+is obtained when using AMS-02 only data (2min/d.o.f.  1.2).                      score represents an unbiased visual representation of the distance
+An excellent fit is obtained for the isotopic data with 2min/dof                 between the model and the data, accounting for existing rigidity
+1.0, and also when combining elemental and isotopic data with                    correlations in the systematics of AMS-02 data; also, the chi-
+                                                                                 square is the sum of the squares of these rotated residuals, that is,
+2min/d.o.f.  1.06 (last column in Fig. 2 or bottom of Table 2);                  2Be/B = i z~2i . The right-hand side of the bottom panel is another
+for the latter, low-energy Li/C, B/C, and also 10Be-related ratios               illustration of the goodness of fit of the model, for the distribu-
+                                                                                 tion of z~-values is expected to follow a Gaussian distribution of
+are in good agreement with the constraints set by AMS-02 data                    width one.
+
+only and thus merely increases ndata without increasing 2min. The
+last row in Table 3 shows the value of
+
+    ns                     nx           x 
+
+nui/nnui   NSol.Mod. + NXS /(ns + nx),2s                                    (3)
+
+     s=0                   x=0                                                   3.4.2. Discussion
+
+with N sSol.Mod. and N xXS the ns and nx nuisance parameters for                 It is interesting to compare our results to those of previous anal-
+solar modulation and cross sections respectively (nnui = ns + nx).               yses that considered either ACE-CRIS 10Be/9Be ratio or Be/B
+                                                                                 data. Based on the analysis of 10Be/9Be and other radioactive iso-
+As discussed in Weinrich et al. (2020), this quantity gives a direct             topes, and using a diffusion model with   0.3, the GALPROP
+                                                                                 team found L  [1.5-6] kpc (Moskalenko et al. 2001), and later
+check that nuisance parameters behave properly. On average,                      on, using an evolved Bayesian analysis, found L = 5.4 ± 1.4 kpc
+                                                                                 (Trotta et al. 2011). Actually, the halo size strongly correlates
+nuisance parameters post-fit values should never be more than                    with the diffusion slope  (Donato et al. 2002; Putze et al.
+                                                                                 2010). Using 1D or 2D semi-analytical models, our team found
+1 away from their prior, that is, 2nui/nnui               1, and this is veri-   L  5 kpc (Donato et al. 2002) for   0.5, and later on, also in
+fied for all our fits.                                                           an evolved Bayesian context, found L  4 ± 1 kpc in a pure dif-
+                                                                                 fusion/reacceleration model (Putze et al. 2010). All these values
+   For illustration purposes, we finally show in Figs. 3 and 4                   are consistent with the constraints derived here using ACE-CRIS
+                                                                                 10Be/9Be data only (see Fig. 2), that is L  [3-8] kpc. Our uncer-
+the model calculation and the data for Be/B and isotopic ratios.                 tainties are larger than in previous studies, because we include
+                                                                                 here production cross-section uncertainties.
+The parameters are taken from the best-fit to all combined Be/B,
+                                                                                     Comparatively, less studies focused on elemental ratios.
+10Be/Be, and 10Be/9Be data (last column in Fig. 2). In both plots,               Using HEAO-3 Be/B data (and other ratios) in a semi-analytical
+
+the top panels show the model calculations for the three transport
+
+configurations (BIG, SLIM, and QUAINT) along with the data.
+
+For SLIM, we also superimpose the 1 model total uncertainties
+
+(contours) as calculated in Sect. 3.3. The second panels illustrate
+
+the goodness-of-fit to the data via the residuals between the data
+
+and the model. For the Be/B case with AMS-02 data (Fig. 3), a
+
+third panel shows the "rotated" score z~, as defined in Boudaud
+
+A74, page 6 of 14
+                               N. Weinrich et al.: Galactic halo size in the light of recent AMS-02 data
+
+Flux ratio [-]  0.45 ACE-CRIS ('97/08-'99/07)                             estimated 1 uncertainty of about 50%. Several analyses have
+                0.40 ACE-SIS ('97/08-'99/07)                              combined or compared these results to the constraints brought by
+                                                                          other ratios of radioactive secondary species (Webber & Soutoul
+                            IMP7&8 ('74/01-'80/05)                        1998; Moskalenko et al. 2001; Donato et al. 2002; Putze et al.
+                                                                          2010): similar halo sizes were observed, though with a large
+                0.35 ISEE3-HKH ('78/08-'79/08)                            scatter. Forthcoming AMS-02 data on other elemental ratios
+                                                                          (e.g. Al/Mg, Cl/Ar. . . ) will allow one to repeat these analy-
+                            Ulysses-HET ('90/10-'97/12)                   ses. Another effect could impact these conclusions. In Donato
+                                                                          et al. (2002) and Putze et al. (2010), the impact of a local sub-
+                0.30 Voyager1&2 ('77/01-'98/12)                           density, exponentially attenuating the flux of radioactive species,
+                                                                          was inspected: slightly larger or much larger uncertainties were
+                            ISOMAX ('98/08)                               observed depending on the transport configuration used (Putze
+                                                                          et al. 2010). However, this was calculated assuming a similar
+                0.25 IMP7&8 ('72/09-'75/09)                               diffusion in the local bubble and in the rest of the disc and
+                                                                          halo, which may be questionable. Recent -ray observations
+                0.20           10Be/9Be                                   (Abeysekara et al. 2017; Di Mauro et al. 2019) - interpreted
+                                                                          as pockets of slow diffusion around pulsars (e.g. Profumo et al.
+                0.15                                                      2018) -, and the indication that the local ISM properties are
+                                                                          affected by several SN explosions a few Myr ago (Fields et al.
+                0.10           10Be/Be                                    2019) provide enough motivation to revisit this issue in a future
+                                                                          study.
+                0.05 BIG SLIM ( ±1 )                     QUAINT
+                0.00                                                      4. Constraints on L from other probes
+                100
+                                                                          In this section, we discuss several independent constraints on
+Residual [%]    50                                                        L. We first review a series of constraints derived from multi-
+                                                                          wavelength observations of the Milky Way and other spiral
+                0                                                         galaxies, and then determine explicitly direct constraints induced
+                                                                          by low-energy secondary CR positrons.
+                 50            Ek/n [GeV/n] 100
+                                                                          4.1. Direct and indirect constraints from radio and gamma's
+                100 SLIM 10 1
+                                                                          Radio emission in the MHz to GHz band from our Galaxy
+Fig. 4. Model prediction (top) and residuals (bottom) for 10Be/9Be (blue  has been used to constrain the magnetised halo thickness
+curves and symbols) and 10Be/Be (orange curves and symbols). In the       L (Bringmann et al. 2012; Orlando & Strong 2013; Di Bernardo
+top panel, the 1 contour corresponds to the total model uncertain-        et al. 2013, and Biswas & Gupta 2018). This band is domi-
+                                                                          nated by the synchroton emission of the leptonic component
+ties for SLIM (as calculated in Sect. 3.3). The model calculations are    of CR in the Galactic magnetic field. The Galactic latitude
+                                                                          profile of the radio maps are sensitive to the vertical gradient
+based on the parameters from the combined fit of all Li/C, Be/C, Be/B,    of CR sourcing the emission,  1/L. Although relying on some
+10Be/9Be, and 10Be/Be data presented in Table 2 (PAMELA preliminary       assumptions (mostly on the magnetic field) these arguments
+                                                                          tend to agree in excluding low values of L, typically obtaining
+data excepted).                                                           L 2 kpc, with variations within a factor 2 depending on the
+                                                                          analysis. They are somewhat less sensitive to large values of L,
+diffusion model with  = 0.6, a rough range of L  [2-4] kpc                although upper limits in the range L 10-15 kpc have been
+was found in Webber & Soutoul (1998). A much larger range                 derived. Further arguments based on radio observations such as
+was found in Putze et al. (2010), with L a few kpc only allowed           rotation measurements of pulsars also yield results broadly con-
+for  0.3, growing to larger than 10 kpc for   0.5. This ten-              sistent with these constraints (Di Bernardo et al. 2013).
+sion with 10Be/9Be data was attributed to cross-section uncer-
+tainties - their importance in limiting the prediction power of               A complementary indirect indication can be derived by look-
+Be/B is detailed in Tomassetti (2015a). Using updated cross               ing at the radio emissions of other spiral galaxies seen almost
+sections and propagating their uncertainties, we find here L =            edge-on, which present an average scale-height of their syn-
+5+3 -2 kpc based on AMS-02 Be/B data, which is now compatible             chrotron emission of about 1.8 ± 0.2 kpc (Krause 2014). This
+with values derived from ACE-CRIS 10Be/9Be data. Similar val-             translates, under the hypothesis of energy equipartition between
+ues were found by the GALPROP team, using both ACE-CRIS                   magnetic field and cosmic ray energy density, in the typical con-
+and AMS-02 Be fluxes (without 10Be/9Be), with L = 4 ± 0.6 kpc             straint on the magnetised halo size L 6.2-7.8 kpc (Beck 2015).
+(Boschini et al. 2020). This stronger constraint is somehow in            A recent analysis of an in-depth view of a spiral galaxy very sim-
+line with the fact that combining ACE-CRIS and AMS-02 data                ilar to the Milky Way, NGC 891, reaches similar conclusions as
+lead to tighter constraints (see Table 3), but as these authors do        for the vertical extension of the magnetic halo (Schmidt et al.
+not use 10Be/9Be, it is most probably attributed to a larger extent       2019).
+to the fact that they do not propagate cross-section uncertain-
+ties. In any case, the value of L with a small error inferred in              In principle, independent constraints can be derived from dif-
+Boschini et al. (2020) is also in mild tension with the recent anal-      fuse Galactic -ray data (Stecker & Jones 1977). The advan-
+ysis of AMS-02 Be data in Evoli et al. (2020), where a best-fit           tage is that the bulk of the data in the Fermi-LAT energy range
+value of L = 7 kpc but a lower limit L 5 kpc is found in a                (GeV) comes from 0 decays of hadronic origin. Hence, the
+semi-analytical model similar to the one used here. Their cen-            -ray flux mostly probes the convolution of the hadronic CR
+tral value, using total or statistical uncertainties only, is always
+enclosed within our 1 confidence interval: firstly, the differ-
+ence with our best-fit value is possibly due to their cross-section
+parametrisation (Evoli et al. 2019), as illustrated in Fig. 2 of
+Evoli et al. (2020); secondly, our broader confidence interval
+is certainly related to our treatment (full propagation) of cross-
+section uncertainties.
+
+    In conclusion, most past and present analyses of 10Be/9Be
+and Be/B show a preference for L  4-5 kpc, with a currently
+
+                                                                                                          A74, page 7 of 14
+                              A&A 639, A74 (2020)
+
+flux with the gas density. For instance, let us consider a sim-          The interesting regime to constrain L is, similarly to radioac-
+ple model where CR transport is purely diffusive within a slab       tive species, when h <  < L, that is, when the vertical boundary
+                                                                     does not affect the positron density and ~ does not depend appre-
+(1D-model). Assuming the gas is exponentially distributed with       ciably on K0. This typically happens at energies 10 GeV, for
+                                                                     which   K0, and the e+ flux then scales as 1/ K0. There-
+typical thickness h, the photon flux originating from the Galactic   fore, since energy loss parameters are fixed independently from
+zenith scales as:                                                    the propagation model, the positron flux is a direct probe of
+                                                                     the diffusion coefficient normalisation K0. Since the B/C ratio
+                                                                     provides constraints on the ratio K0/L, positron measurements
+                                                                     enable an indirect probe of L: The lower L in a B/C-compatible
+  dz p(z) ngas(z)                                                    model, the larger the secondary positron flux.
+
+        0                                                                In practice, we calculate the positron flux according to the
+                                                                     pinching method introduced in Boudaud et al. (2017) - see also
+                   L   z  z                                          Delahaye et al. (2009) for earlier attempts. For production, we
+                                                                     consider incident and target species up to He only, and we take
+0  p(z = 0) dz 1 - L exp - h                                         the cross-section parametrisation of Kamae et al. (2006), which
+                                                                     accounts for the low-energy hadronic resonances. Positron fluxes
+           h       h2                                                are then compared to AMS-02 data (Aguilar et al. 2019a)
+ 1 - L + O L2 · (4)                                                  assuming FF = 650 MV, as estimated for the corresponding
+                                                                     data-taking period May 2011-November 2017 (see below for a
+Since we expect h/L  1%-10%, the factors entering the actual         discussion on Solar modulation level and its uncertainties).
+-ray flux normalisation should be known to an unrealistically        There are various sources of uncertainties in the calculation, and
+high precision for this method to provide meaningful constraints     we try to list and quantify them below.
+
+on L. However, additional inverse Compton contributions from         4.2.2. Error budget
+leptonic CR component are also sensitive to L, and cannot be
+neglected. A global analysis of the diffuse -ray emission mea-       We consider the uncertainties on the interstellar (IS) flux, and
+sured by the Fermi-LAT satellite actually shows a systematic         then comment on how the conclusions change for Top-of-
+                                                                     Atmosphere (TOA) fluxes. We mostly focus on results at 1 GeV,
+improvement of the statistical likelihood as L increases up to       because this is the typical energy where our analysis can draw
+10 kpc (Ackermann et al. 2012), an effect particularly impor-        constraints (see next subsection).
+
+tant when fitting the emission at large longitudes. Conversely,          Firstly, we consider model uncertainties. Indeed, the method
+the study of high- and intermediate-velocity clouds at few kpcs      of calculation itself has some limitations. In the low- and high-
+away from the Galactic plane leads to the constraint L < 6 kpc       energy regimes, propagation is dominated by energy losses in the
+(Tibaldo et al. 2015). Although this bound can be subject to         disc and in the halo respectively. The pinching method allows to
+                                                                     calculate intermediate energies by pinching the halo losses in the
+variations (e.g. from the presence of unaccounted ionised gas in     disc (Boudaud et al. 2017), ensuring that both the limiting cases
+these clouds), the different trends between this constraint and the  are recovered. Further comparisons against full numerical solu-
+                                                                     tions should be carried out to definitively assess the accuracy of
+one obtained from radio observations of distant galaxies might       the method in the transition zone. Nevertheless, we have checked
+be explained by the radio emission of leptons leaking out beyond     that the method is robust in the energy range used to define our
+the confinement volume. Also, the too shallow -ray gradient          limits below.
+suggested by Fermi-LAT data admits alternative explanations,
+                                                                         In a broader context, one could question the reliability of
+for instance in terms of a physically motivated correlation of       1D models for consistency checks between nuclei and leptons,
+the diffusion properties with galactocentric distance (Evoli et al.  in the context of spatially-dependent distributions of sources
+                                                                     and gas. Given the timescales of various transport parameters
+2012).                                                               and energy losses, both these species originate from a few
+                                                                     kpc away at GeV energies (Taillet & Maurin 2003; Maurin
+4.2. Constraints from e+                                             & Taillet 2003; Jóhannesson et al. 2016). It means that their
+                                                                     production and losses are sensitive to kpc-averages over the
+Secondary positrons, usually believed to dominate the local CR       gas density properties - of course, this is no longer the case
+positron flux at low energy, can also be used to derive lower lim-   for very high energy leptons. So as long as we focus on the
+its on the halo size (Lavalle et al. 2014; Boudaud et al. 2017;      multi-GeV energy range, we do not expect strong differences
+Reinert & Winkler 2018). Their predicted abundance depends           due to gas inhomogeneities between nuclei and positrons, but
+much less on the configuration of the Galactic magnetic field        as would be expected from more refined models, 1D model
+than the radio limits, and their theoretical uncertainties are bet-  calculations are sensitive to the absolute value of the averaged
+ter under control (see below). Secondary positrons may there-        gas density. This is at variance with the case of secondary
+fore significantly constrain propagation models, while still on      radioactive species, discussed in Sect. 3.4, which could be very
+the conservative side since their local flux is known to be domi-    sensitive to the local ISM. However, similarly to radioac-
+nated by primaries above a few GeV (e.g. Aharonian et al. 1995;      tive nuclei, inhomogeneous spatial diffusion zones around CR
+Adriani et al. 2009; Hooper et al. 2009; Delahaye et al. 2010).      sources (Abeysekara et al. 2017; Di Mauro et al. 2019), could
+                                                                     also affect primary and secondary lepton spectra in different and
+4.2.1. Positron flux scaling with K 0 and L and calculation          very non trivial ways. These complications go beyond the scope
+                                                                     of this analysis.
+The steady-state local positron density is expected to scale like
+
+the production rate times the minimal propagation timescale
+involved. An additional dilution factor comes from the fact
+that the production volume Vp is, in most cases, smaller than
+the diffusion volume V (Bulanov et al. 1976). Sticking to a
+one-dimensional picture, we have Vp/V  h/(E). In the lat-
+ter expression, h is the half-height of the thin disc (where the
+ISM gas is confined), and (E) = 2 K0 ~(E) is the positron
+propagation length scale, featuring the pseudo-energy loss
+timescale ~.
+
+A74, page 8 of 14
+N. Weinrich et al.: Galactic halo size in the light of recent AMS-02 data
+
+    Secondly, we consider uncertainties from the choice of            production and Bremsstrahlung, there should be no net effect in
+CR projectiles, targets, and cross sections. Any uncertainty on       the regime where Bremsstrahlung losses dominate: The gas den-
+the CR fluxes and production cross sections directly impact
+the number of secondary positrons. For CR fluxes, we take             sity cancels out from the integral calculation, as it appears both
+demodulated proton and helium CR fluxes measured by AMS-              in the numerator (production) and in the denominator (propaga-
+02 (Aguilar et al. 2015, 2017), and these data typically have
+uncertainties in the 3-10% range. Also, not accounting for the        tion) - we stress however, that if primary electrons or positrons
+production from heavier CRs and species heavier than He in            are considered (no production), their flux now scales with the
+the ISM underestimates the secondary positron flux. Following
+the detailed analysis of Boudaud et al. (2020) carried out for        inverse of the gas density, as found in Cirelli et al. (2013). We
+antiprotons, we can estimate these effects to be 10% and 3%           checked indeed that there is no impact of the gas density for
+respectively.
+                                                                      secondary positrons at 1 GeV. However, at higher energies, in
+    Concerning production cross-section uncertainties, we recall      a regime where other energy losses dominate, we also find, as
+that we use Kamae et al. (2006) parametrisation. More recent
+values exist (Kachelrieß et al. 2019) - they are calibrated on more   expected, a direct scaling with the gas density.
+recent collider data and include incident and target species up to        Fourthly, we consider uncertainties from transport coefficient
+Fe -, but they are only valid for incident nucleus energy greater
+than 4 GeV. Our analysis is mostly sensitive to the low-energy        calibration. The positron flux depends on the transport param-
+part, so the latter model is only used to get a rough estimate of     eters, calibrated on secondary-to-primary ratios. For instance,
+the theoretical uncertainties in the production cross sections. The   assuming a know ISM, the parameter K0 is determined with a
+secondary positron flux is 10-20% larger with Kachelrieß et al.       ±12% uncertainty (Weinrich et al. 2020). This leads to a halved
+(2019) than with Kamae et al. (2006) values.                          uncertainty on the positron flux at very low energy (1/ K0),
+                                                                      but it fully propagates at 1 GeV. However, as discussed in Maurin
+    Thirdly, we consider uncertainties from energy loss mod-
+elling. Positrons suffer different energy losses at high-,            et al. (2010), any uncertainty on ISM directly translates on the
+intermediate- and low-energies. Above a few tens of GeV,              transport parameters K0, Vc, and VA, a behaviour also observed
+inverse Compton and synchrotron radiation losses have the             in Jóhannesson et al. (2018). A ±50% change on ISM would
+shortest timescales. Below a few MeV, ionisation and Coulomb          thus change K0 (and VA) accordingly, which, combined with the
+losses dominate, and in-between, Bremsstrahlung losses domi-          impact on the positron production and Bremsstrahlung, leads to
+nate. However, some of the positrons measured below 10 GeV            an overall ±26% uncertainty on secondary positrons at 1 GeV,
+have been produced at higher energy and at a more distant place.      this number varying with the energy (see above).
+Hence, there is no one-to-one correspondence between the hier-
+archy in energy-loss timescales and impact on the positron flux.          Fifthly, we consider uncertainties from Solar modulation.
+This motivates the detailed study of the impact of the various        Solar modulating the calculated positron flux also brings
+ingredient entering these losses.                                     uncertainties. Above 100 GeV, CR fluxes are mostly unmodified,
+                                                                      and TOA CRs below 1 GeV mostly come from CRs at GeV. As
+    Changing the interstellar radiation field (inverse Compton        a result, the error budget at 1 GeV applies to lower energies as
+losses) and the magnetic fields (synchrotron losses) according        well for TOA positrons.
+to the values bracketed in Delahaye et al. (2010) have a 10%
+impact at 1 GeV. Coulomb losses on free electrons only domi-              Modulation levels for most data in this analysis were taken
+nate at very low energy, and we checked that the uncertainty on       from Ghelfi et al. (2017b), that is, from averages - over the
+ne = 0.033 ± 0.002 cm-3 (Nordgren et al. 1992) - see Yao et al.       appropriate CR data taking periods - of time series based on
+(2017) for an updated model - has a negligible impact on the          the analysis of neutron monitor data. The fact that post-fit val-
+positron flux (sub-percent level) at 1 GeV.                           ues in the LiBeB analyses (see the companion paper, Weinrich
+                                                                      et al. 2020) were found to be consistent with the above assumed
+    Intermediate energies are dominated by Bremsstrahlung             values further support this choice. In practice, however, Ghelfi
+losses on the ISM gas. The same gas density is responsible for        et al. (2017b) time series do not extend after 2017. To derive
+the production of secondary positrons. There is a further com-        the positron modulation level FF = 650 MV, we relied on Oulu
+plication as this very gas density also directly impacts the deter-   times series6, derived from Usoskin et al. (2005), and rescaled
+mination of the transport coefficients, and this is discussed in the  according to Ghelfi17(t)  Usoskin05(t) + 100 MV, as found in
+next paragraph. The gas density uncertainty is difficult to assess,   Ghelfi et al. (2017b). The overall uncertainties on reconstructed
+and it can be probed for instance via the -ray emissivity (e.g.       modulation levels from neutron monitors are ±100 MV (Ghelfi
+Delahaye et al. 2011), especially in the light of Fermi-LAT data      et al. 2017b). Those obtained from directly fitting TOA (pre-
+(Ackermann et al. 2012; Casandjian 2015; Acero et al. 2016).          AMS) H and He data are in the ±30 MV range (Ghelfi et al.
+The impact of the choice of different density maps was recently       2016). We choose a very conservative approach below, and for
+investigated in Jóhannesson et al. (2018): between 2D and 3D          1 GeV secondary positrons, the ±100 MV (±15%) uncertainty
+gas models, variations by a factor two on column density were         translates into a 50% uncertainty. This makes modulation the
+found - this factor mostly comes from using an outdated value         dominant source of uncertainty for the positron flux calculation.
+of the Sun's position in one gas component of the 2D model,
+and it certainly overestimates the uncertainty on the surface             To conclude this section, we summarise our results on the
+gas density (ISM). More realistically, the HI spin temperature        uncertainties. Although the above analysis does not reach the
+is already responsible for a 10% uncertainty in the gas den-          level of refinement developed for CR nuclei analyses (Derome
+sity (Jóhannesson et al. 2018), and other sources of uncertain-       et al. 2019), we now have a quantitative grasp on the uncertain-
+ties come from the still debated XCO conversion value (Remy           ties on the secondary positron calculations. They are gathered in
+et al. 2017) and the dark gas distribution (Grenier et al. 2005).     Table 4, where we also provide a finer view of these uncertain-
+For definiteness, we take a benchmark uncertainty of 50% on           ties at three energies (10 MeV, 1 GeV, and 100 GeV). At 1 GeV,
+ISM in the following. If we consider together the impact on the       which is the energy that is relevant for the analysis below, uncer-
+                                                                      tainties from Solar modulation are the dominant effect, followed
+                                                                      by those on production and ISM. Regarding production, we nev-
+                                                                      ertheless stress that the assumptions we make are conservative
+
+                                                                      6 http://cosmicrays.oulu.fi/phi
+
+                                                                                                       A74, page 9 of 14
+                                                     A&A 639, A74 (2020)
+
+Table 4. Error budget on the calculation of secondary positrons.            the best-fit value for L, bracketed by its 1 statistical uncertainty
+                                                                            (dashed curve for the lower deviation, and dot-dashed curve for
+Ingredient                 Error on          ISe+ /ISe+ [%]                 the upper deviation).
+                        ingredient [%]  at (10-2, 1, 102) GeV( )
+                                                                                From Fig. 5, we see that the positron constraint on L is only
+CR and gas composition                                                      relevant for the QUAINT propagation model. The latter has an
+                                                                            effective Alfvèn speed VA  40 km s-1 (see Table A.1) which
+CR H and He             ±10%                   ±10%                         sets the amplitude of reacceleration7. For the BIG and SLIM
+                                                                            models (left and middle panels), both devoid of reacceleration,
++ CRs (Z > 2)           -                      +10%                         the nominal predictions undershoot the data. The low-energy
+                                                                            behaviour in these models is furthermore exacerbated by the
++ ISM (Z > 2)           -                      ±3%                          low-rigidity break in the diffusion coefficient around 3-4 GV
+                                                                            (Weinrich et al. 2020): it leads to a lower secondary positron
+Energy losses                                                               flux at low rigidities and hence a decreased constraining power
+                                                                            on L. Given the uncertainties on the calculation, only QUAINT
+ISRF                    #1  #2() (+0.2%, -2.7%, -4.1%)                      can overshoot the data, whereas BIG and SLIM cannot for L val-
+                                                                            ues constrained by Be/B.
+B                       ±1 µG           (±0.7%, 9.5%, 12%)
+                                                                                In a second step, we derive the upper-limit on L in the model
+ne                      ±10%            (0.2%, 0.7%, < 0.1%)                QUAINT. Our nominal 3 constraint for QUAINT is L  5.54 kpc.
+                                                                            However, this number is very sensitive to the model uncertain-
+Transport calibration and positron production                               ties. For illustration, we show in Fig. 6 the impact of Solar mod-
+                                                                            ulation uncertainties, varying the Fisk potential by a generous
+K0 & VA                 ±12%            (7%, ±12%, 5%)                      ±100 MV (Ghelfi et al. 2017b). The upper value of the modu-
+(d/dE)prod              +20%                      +20%                      lation, which minimises the modulated positron flux, should be
+                                                                            viewed as conservative, weakening the limit to L  2.9 kpc. The
+Surface density (ISM)                                                       lower value corresponds to a more aggressive constraint (for a
+                                                                            lower solar activity) L  11.3 kpc. These limits do not account for
+ISM PB  Prod. & Brem.   ±50%            (±13%, ±0.7%, ±49%)                 sub-leading uncertainties discussed above. Without a better han-
+ISM All (PB & K0 & VA)  ±50%            (0.7%, ±26%, ±21%)                  dle on the uncertainties, it is difficult to firmly conclude. Overall,
+                                                                            we note that the positron constraint on L for the QUAINT model
+Solar modulation (TOA fluxes)               Te+OA/Te+OA [%]                 is in agreement with those derived from the Be/B and 10Be/9Be
+                                        (n/a(), 50%, <1%)                   analysis, while being independent from the latter.
+                        ±15%
+                                                                                We have only discussed the case of overshooting, which pro-
+Notes. The first column list the quantities varied in the calculation, the  vides a clear situation for excluding part of the parameter space.
+second column provide the typical uncertainties on this ingredient, and     Given that in the BIG and SLIM models the nominal predic-
+the last three columns show the corresponding uncertainty on the cal-       tions undershoot the data, one may wonder if their viability is
+culated IS secondary flux of positrons-the gas surface density impacts      questioned by the positron data. We remark that the various
+the calculation in different places, and its impact is broken down below    sources of uncertainties (modulation, production, surface gas
+(see text for details). A "+" sign below (instead of "±") means that our    density), estimated at the 50% level at most, seem unable to
+calculation is conservative, that is, the secondary flux would be larger    fully account for the factor of 2 mismatch. However, primary
+if we were to account for these specific ingredients. The exact numbers     positrons, already necessary to explain the high-energy positron
+slightly depend on the configuration used (BIG, SLIM, or QUAINT) and        fraction in pre-AMS-02 studies, might make up a significant
+we report below values from QUAINT. ( )For energy-dependent effects,        fraction of the positron budget also at low energy - for example,
+we report 3 values in the table, otherwise a single value is provided.      the absence of primary positrons at low energy was raised as an
+()Two parametrisations taken from Delahaye et al. (2010). ()At very         important issue for astrophysical sources like pulsar wind nebu-
+low energy, the TOA flux is strongly suppressed and its variation is not    lae in Blasi & Amato (2011). Therefore, discussing further the
+very meaningful to report.                                                  consistency of any propagation model (not only BIG and SLIM)
+                                                                            with the positron data should rely on analyses also including pri-
+to derive lower limits on L; they underestimate the positron flux           mary positrons. This goes beyond the scope of this paper.
+by 20-30% (10-20% from cross sections and 10% from unac-
+counted for heavy CR projectiles).                                          5. Conclusions
+
+4.2.3. Constraints on L                                                     In the context of recent high-precision AMS-02 data, we have
+                                                                            revisited the constraints set on the halo size of the Galaxy from
+To check the compatibility with the limits set by AMS-02 Be/B               radioactive species and positron fluxes.
+data, we carried out calculations for several L values. The lat-
+ter are taken inside their allowed range (upper-half of Table 3).               Using AMS-02 Be/B data we find L = 5+3 -2 kpc at 1, in
+To ensure a consistent calculation, the transport parameters are            agreement with Boschini et al. (2020) (but with a larger error)
+rescaled with L according to Eq. (A.1) and values in Table A.1
+(see Appendix A).                                                           7 We stress that pre-AMS-02 fit to B/C data (e.g. Maurin et al. 2001)
+                                                                            had larger VA. It was found that strong reacceleration gave rise to a
+    We set conservative limits on L by excluding propagation                prominent bump around 1 GeV in the predicted positron flux, which
+setups for which the prediction of the secondary positron flux              then easily overshoots the data, especially below a few GeV (Delahaye
+exceeds the AMS-02 measurements (Aguilar et al. 2019a) by                   et al. 2009; Lavalle et al. 2014; Boudaud et al. 2017). However, with
+more than 3 in a single bin. In practice, for all our configu-              milder reacceleration here, we see in the right panel that the flux predic-
+rations, the lowest-energy AMS-02 data point is the one setting             tions associated with QUAINT are not in that strong excess with respect
+constraints.                                                                to the data, and do not feature any significant bump.
+
+    In a first step, we check the consistency of the positron flux
+with the Be/B constraint. In Fig. 5, we report our predictions
+for the secondary positron fluxes (rescaled by E3) for the BIG,
+SLIM, and QUAINT propagation models (left, middle, and right
+panel, respectively) along with the AMS-02 data (Aguilar et al.
+2019a). These predictions are derived using the best-fit param-
+eters inferred from the combined Li/C, Be/C, and B/C anal-
+ysis performed in Weinrich et al. (2020), already extensively
+discussed throughout the paper. For illustration, we have taken
+the best-fit values obtained for L from the AMS-02 Be/B data
+only (see Table 3). In each panel, the solid curve corresponds to
+
+A74, page 10 of 14
+N. Weinrich et al.: Galactic halo size in the light of recent AMS-02 data
+
+Fig. 5. Secondary positron flux predictions using the best-fit transport parameters of the BIG (left panel), SLIM (middle panel), and QUAINT (right
+panel) propagation models, as inferred from the AMS-02 combined Li/C, Be/B, and B/C analysis. The three lines correspond to TOA fluxes,
+modulated at 650 MV, for the best-fit (solid line) and 1 upper (dash-dotted) and lower (dashed) limits on L (see Table 3) - AMS-02 data are from
+Aguilar et al. (2019a).
+
+Fig. 6. Secondary positron flux predictions using the best-fit transport  ment is scheduled for a long-duration balloon flight in 2020/21,
+parameters of the QUAINT propagation model (also inferred from the        and is expected to achieve a 10% statistical error on 10Be/9Be in
+AMS-02 combined Li/C, Be/B, and B/C analysis). We show the predic-        the 0.1-10 GeV/n range (Park et al. 2019).
+tions associated with the 3 limits on L assuming different solar modu-
+lation strengths.                                                             We have also performed a detailed analysis of the mod-
+                                                                          elling uncertainties for both the Be/B and 10Be/9Be ratios to
+and less than one sigma away from the results of Evoli et al.             understand whether better data could help improving the esti-
+(2020). Our result holds for several transport configurations             mation on L in the future. Whereas Be/B is maximally sensi-
+(Derome et al. 2019; Weinrich et al. 2020), namely BIG (reac-             tive to L at a few tens of GV, 10Be/9Be is sensitive to L over
+celeration and low-rigidity break), SLIM (pure diffusion with             a much larger range (from 100 MeV/n to tens of GeV/n). In
+low-rigidity break), and QUAINT (reacceleration and diffusion             terms of possible improvements, Be/B data are already limited
+upturn in the non-relativistic regime). The constraints are tighter       by systematics, whereas this is not yet the case for 10Be/9Be.
+(factor 2 reduction in errors) and move to a lower value of L             For these reasons, 10Be/9Be seems to be the best target for
+(by 0.3-0.7 kpc) when low-energy 10Be/9Be data are considered,            future experiments. However, in both cases, production cross-
+but this tightening may be related to the fact that ISOMAX data           sections uncertainties dominate the modelling error budget and
+(Hams et al. 2004) prefer a smaller halo size L  3 kpc and might          are already at the level of data uncertainties. Future improve-
+be indicative of a tension in the data. With the recent release           ments on L will thus not be possible without improving nuclear
+of 3He and 4He data (Aguilar et al. 2019b), AMS-02 demon-                 data. An alternative strategy to mitigate these uncertainties
+strated its capabilities for measuring isotopic fluxes. Separating        would be to combine data from different CR clocks (e.g. Al/Mg
+Be isotopes will certainly be even more challenging, but AMS-             and Cl/Ar).
+02 will provide a unique picture in the few GeV/n regime, where
+only ISOMAX and preliminary PAMELA data (Bogomolov                            In a broader context of multi-wavelength and multi-
+& Vasilyev 2019) are available for now, and shed some light               messenger observations, we also discussed the constraints set
+on the mutual consistency of these datasets. The balloon-borne            by synchrotron radio (e.g. Di Bernardo et al. 2013) and diffuse
+HELIX, should also provide a complementary view. The instru-              -ray emissions (e.g. Tibaldo et al. 2015) in the Milky-way (and
+                                                                          in some cases in other galaxies). The various observations lead
+                                                                          to lower or upper limits, defining a broad range L  [2, 10] kpc
+                                                                          compatible with results from radioactive CR nuclei. We also
+                                                                          updated the constraints set by positrons (Lavalle et al. 2014).
+                                                                          Since BIG and SLIM configurations undershoot the data, the con-
+                                                                          straints are only significant for the QUAINT model, leading to
+                                                                          L  2.9-11.3 kpc depending on the solar modulation, with a
+                                                                          nominal central value L  5.5 kpc; these numbers could shift
+                                                                          upwards or downwards depending on uncertainties on the pro-
+
+                                                                          duction cross section and the gas surface density. Within the
+                                                                          errors, these constraints are also consistent with the ones derived
+
+                                                                          in the main analysis.
+                                                                              While our conclusions appear rather robust within the frame-
+
+                                                                          work of this analysis, one should keep in mind that these bounds
+
+                                                                          might be altered in presence of inhomogeneities in the local gas
+                                                                          density (for radioactive species) and on the diffusion coefficient
+
+                                                                          (for both radioactive species and positrons). These extensions
+                                                                          represent interesting and motivated subjects for future studies.
+
+                                                                          Acknowledgements. We thank A. Marcowith for discussions. This work has
+                                                                          been supported by Univ. de Savoie, appel à projets: Diffusion from Galactic
+                                                                          High-Energy Sources to the Earth (DIGHESE), by the Programme National
+
+                                                                           A74, page 11 of 14
+                    A&A 639, A74 (2020)
+
+des Hautes Energies of CNRS/INSU with INP and IN2P3, co-funded by CEA                Garcia-Munoz, M., Simpson, J. A., Guzik, T. G., Wefel, J. P., & Margolis, S. H.
+and CNES, and by Villum Fonden under project no. 18994. This work is partly             1987, ApJS, 64, 269
+supported by the ANR project ANR-18-CE31-0006, the national CNRS-INSU
+programmes PNHE and PNCG, and European Union's Horizon 2020 research                 Génolini, Y., Serpico, P. D., Boudaud, M., et al. 2017, Phys. Rev. Lett., 119,
+and innovation programme under the Marie Sklodowska-Curie grant agreements              241101
+N 690575 and N 674896.
+                                                                                     Génolini, Y., Boudaud, M., Batista, P. I., et al. 2019, Phys. Rev. D, 99, 123028
+References                                                                           Ghelfi, A., Barao, F., Derome, L., & Maurin, D. 2016, A&A, 591, A94
+                                                                                     Ghelfi, A., Barao, F., Derome, L., & Maurin, D. 2017a, A&A, 605, C2
+Abeysekara, A. U., Albert, A., Alfaro, R., et al. 2017, Science, 358, 911            Ghelfi, A., Maurin, D., Cheminet, A., et al. 2017b, AdSR, 60, 833
+Acero, F., Ackermann, M., Ajello, M., et al. 2016, ApJS, 223, 26                     Girichidis, P., Pfrommer, C., Hanasz, M., & Naab, T. 2020, MNRAS, 491, 993
+Ackermann, M., Ajello, M., Atwood, W. B., et al. 2012, ApJ, 750, 3                   Gleeson, L. J., & Axford, W. I. 1967, ApJS, 149, L115
+Adriani, O., Ambrosi, G., Baoudoy, B., et al. 2019, White Paper submitted in         Gleeson, L. J., & Axford, W. I. 1968, ApJ, 154, 1011
+                                                                                     Grenier, I. A., Casandjian, J.-M., & Terrier, R. 2005, Science, 307, 1292
+   response to ESA's Call for the VOYAGE 2050 long-term plan                         Hams, T., Barbier, L. M., Bremerich, M., et al. 2004, ApJ, 611, 892
+Adriani, O., Barbarino, G. C., Bazilevskaya, G. A., et al. 2009, Nature, 458, 607    Hooper, D., Blasi, P., & Dario Serpico, P. 2009, J. Cosmol. Astropart. Phys., 1,
+Aguilar, M., Alcaraz, J., Allaby, J., et al. 2011, ApJ, 736, 105
+Aguilar, M., Aisa, D., Alpat, B., et al. 2015, Phys. Rev. Lett., 114, 171103            25
+Aguilar, M., Ali Cavasonza, L., Alpat, B., et al. 2017, Phys. Rev. Lett., 119,       James, F., & Roos, M. 1975, Comput. Phys. Comm., 10, 343
+                                                                                     Jóhannesson, G., Ruiz de Austri, R., Vincent, A. C., et al. 2016, ApJ, 824, 16
+   251101                                                                            Jóhannesson, G., Porter, T. A., & Moskalenko, I. V. 2018, ApJ, 856, 45
+Aguilar, M., Ali Cavasonza, L., Ambrosi, G., et al. 2018, Phys. Rev. Lett., 120,     Jones, F. C., Lukasiak, A., Ptuskin, V., & Webber, W. 2001, ApJ, 547, 264
+                                                                                     Kachelrieß, M., Moskalenko, I. V., & Ostapchenko, S. 2019, Comput. Phys.
+   021101
+Aguilar, M., Ali Cavasonza, L., Ambrosi, G., et al. 2019a, Phys. Rev. Lett., 122,       Commun., 245, 106846
+                                                                                     Kamae, T., Karlsson, N., Mizuno, T., Abe, T., & Koi, T. 2006, ApJ, 647, 692
+   041102                                                                            Krause, M. 2014, ArXiv e-prints [arXiv:1401.1317]
+Aguilar, M., Ali Cavasonza, L., Ambrosi, G., et al. 2019b, Phys. Rev. Lett., 123,    Krombel, K. E., & Wiedenbeck, M. E. 1988, ApJ, 328, 940
+                                                                                     Lavalle, J., Maurin, D., & Putze, A. 2014, Phys. Rev. D, 90, 081301
+   181102                                                                            Lave, K. A., Wiedenbeck, M. E., Binns, W. R., et al. 2013, ApJ, 770, 117
+Aharonian, F. A., Atoyan, A. M., & Voelk, H. J. 1995, A&A, 294, L41                  Lukasiak, A. 1999, Int. Cosmic Ray Conf., 3, 41
+Aramaki, T., Boggs, S., Bufalino, S., et al. 2016, Phys. Rep., 618, 1                Manconi, S., Di Mauro, M., & Donato, F. 2019, J. Cosmol. Astropart. Phys.,
+Beck, R. 2015, A&ARv, 24, 4
+Bergström, L., Bringmann, T., & Edsjö, J. 2008, Phys. Rev. D, 78, 103520                2019, 024
+Biswas, S., & Gupta, N. 2018, J. Cosmol. Astropart. Phys., 2018, 063                 Maurin, D. 2020, Comput. Phys. Commun., 247, 106942
+Blasi, P., & Amato, E. 2011, Astrophys. Space Sci. Proc., 21, 624                    Maurin, D., & Taillet, R. 2003, A&A, 404, 949
+Blasi, P., Amato, E., & Serpico, P. D. 2012, Phys. Rev. Lett., 109, 061101           Maurin, D., Donato, F., Taillet, R., & Salati, P. 2001, ApJ, 555, 585
+Bogomolov, E. A., & Vasilyev, G. I. 2019, Bull. Russ. Acad. Sci. Phys., 83, 967      Maurin, D., Putze, A., & Derome, L. 2010, A&A, 516, A67
+Boschini, M. J., Torre, S. D., Gervasi, M., et al. 2020, ApJ, 889, 167               Maurin, D., Melot, F., & Taillet, R. 2014, A&A, 569, A32
+Boudaud, M., Bueno, E. F., Caroff, S., et al. 2017, A&A, 605, A17                    Maurin, D., Cheminet, A., Derome, L., Ghelfi, A., & Hubert, G. 2015, AdSR,
+Boudaud, M., Génolini, Y., Derome, L., et al. 2020, Phys. Rev. Res., 2, 023022
+Breitschwerdt, D., McKenzie, J. F., & Voelk, H. J. 1991, A&A, 245, 79                   55, 363
+Bringmann, T., Donato, F., & Lineros, R. A. 2012, J. Cosmol. Astropart. Phys.,       Menn, W., Bogomolov, E. A., Simon, M., et al. 2018, ApJ, 862, 141
+                                                                                     Moskalenko, I. V., Mashnik, S. G., & Strong, A. W. 2001, ICRC, 5, 1836
+   2012, 049                                                                         Nordgren, T. E., Cordes, J. M., & Terzian, Y. 1992, AJ, 104, 1465
+Bulanov, S. V., Syrovatskii, C. I., & Dogel, V. A. 1976, Ap&SS, 44, 255              Orlando, E., & Strong, A. 2013, MNRAS, 436, 2127
+Caballero-Lopez, R. A., & Moraal, H. 2004, JGR, 109, 1101                            Park, N., Beaufore, L., Mbarek, R., et al. 2019, Int. Cosmic Ray Conf., 36, 121
+Casandjian, J.-M. 2015, ApJ, 806, 240                                                Profumo, S., Reynoso-Cordova, J., Kaaz, N., & Silverman, M. 2018, Phys.
+Cattaneo, P. W., & HERD Collaboration 2019, Nucl. Part. Phys. Proc., 306, 85
+Cholis, I., Linden, T., & Hooper, D. 2019, Phys. Rev. D, 99, 103026                     Rev. D, 97, 123008
+Cirelli, M., Serpico, P. D., & Zaharijas, G. 2013, JCAP, 1311, 035                   Ptuskin, V. S., Moskalenko, I. V., Jones, F. C., Strong, A. W., & Zirakashvili,
+Connell, J. J. 1998, ApJ, 501, L59
+Conrad, J., & Reimer, O. 2017, Nat. Phys., 13, 224                                      V. N. 2006, ApJ, 642, 902
+Cuoco, A., Heisig, J., Klamt, L., Korsmeier, M., & Krämer, M. 2019, Phys.            Putze, A., Derome, L., & Maurin, D. 2010, A&A, 516, A66
+                                                                                     Reinert, A., & Winkler, M. W. 2018, J. Cosmology Astropart. Phys., 2018,
+   Rev. D, 99, 103014
+de Nolfo, G. A., Moskalenko, I. V., Binns, W. R., et al. 2006, AdSR, 38, 1558           055
+Delahaye, T., Fiasson, A., Pohl, M., & Salati, P. 2011, A&A, 531, A37                Remy, Q., Grenier, I. A., Marshall, D. J., & Casand jian, J. M. 2017, A&A, 601,
+Delahaye, T., Lineros, R., Donato, F., Fornengo, N., & Salati, P. 2008, Phys.
+                                                                                        A78
+   Rev. D, 77, 063527                                                                Schael, S., Atanasyan, A., Berdugo, J., et al. 2019, Nucl. Inst. Methods Phys.
+Delahaye, T., Lineros, R., Donato, F., et al. 2009, A&A, 501, 821
+Delahaye, T., Lavalle, J., Lineros, R., Donato, F., & Fornengo, N. 2010, A&A,           Res. A, 944, 162561
+                                                                                     Schmidt, P., Krause, M., Heesen, V., et al. 2019, A&A, 632, A12
+   524, A51                                                                          Seo, E. S., McDonald, F. B., Lal, N., & Webber, W. R. 1994, ApJ, 432, 656
+Derome, L., Maurin, D., Salati, P., et al. 2019, A&A, 627, A158                      Serpico, P. D. 2012, Astropart. Phys., 39, 2
+Di Bernardo, G., Evoli, C., Gaggero, D., Grasso, D., & Maccione, L. 2010,            Stecker, F. W., & Jones, F. C. 1977, ApJ, 217, 843
+                                                                                     Stone, E. C., Cummings, A. C., McDonald, F. B., et al. 2013, Science, 341, 150
+   Astropart. Phys., 34, 274                                                         Taillet, R., & Maurin, D. 2003, A&A, 402, 971
+Di Bernardo, G., Evoli, C., Gaggero, D., Grasso, D., & Maccione, L. 2013, J.         Tibaldo, L., Digel, S. W., Casandjian, J. M., et al. 2015, ApJ, 807, 161
+                                                                                     Tomassetti, N. 2015a, Phys. Rev. C, 92, 045808
+   Cosmol. Astropart. Phys., 2013, 036                                               Tomassetti, N. 2015b, Phys. Rev. D, 92, 081301
+Di Mauro, M., Manconi, S., & Donato, F. 2019, Phys. Rev. D, 100, 123015              Trotta, R., Jóhannesson, G., Moskalenko, I. V., et al. 2011, ApJ, 729, 106
+Donato, F., Fornengo, N., Maurin, D., Salati, P., & Taillet, R. 2004, Phys. Rev. D,  Usoskin, I. G., Alanko-Huotari, K., Kovaltsov, G. A., & Mursula, K. 2005, JGR,
+
+   69, 063501                                                                           110, 12108
+Donato, F., Maurin, D., & Taillet, R. 2002, A&A, 381, 539                            Vittino, A., Mertsch, P., Gast, H., & Schael, S. 2019, Phys. Rev. D, 100, 043007
+Duvernois, M. A., Simpson, J. A., & Thayer, M. R. 1996, A&A, 316, 555                Webber, W. R. 1982, ApJ, 252, 386
+Evoli, C., Gaggero, D., Grasso, D., & Maccione, L. 2012, Phys. Rev. Lett., 108,      Webber, W. R., Lezniak, J. A., Kish, J., & Damle, S. V. 1973, Ap&SS, 24, 17
+                                                                                     Webber, W. R., Kish, J., & Simpson, G. 1979, ICRC, 1, 430
+   211102                                                                            Webber, W. R., & Soutoul, A. 1998, ApJ, 506, 335
+Evoli, C., Blasi, P., Morlino, G., & Aloisio, R. 2018, Phys. Rev. Lett., 121,        Weinrich, N., Génolini, Y., Boudaud, M., Derome, L., & Maurin, D. 2020, A&A,
+
+   021102                                                                               in press, https://doi.org/10.1051/0004-6361/202037875
+Evoli, C., Aloisio, R., & Blasi, P. 2019, Phys. Rev. D, 99, 103023                   Wiedenbeck, M. E., & Greiner, D. E. 1980, ApJ, 239, L139
+Evoli, C., Morlino, G., Blasi, P., & Aloisio, R. 2020, Phys. Rev. D, 101, 023013     Yanasak, N. E., Wiedenbeck, M. E., Mewaldt, R. A., et al. 2001, ApJ, 563, 768
+Feng, J., & Zhang, H.-H. 2018, ApJ, 858, 116                                         Yao, J. M., Manchester, R. N., & Wang, N. 2017, ApJ, 835, 29
+Fields, B., Ellis, J. R., Binns, W. R., et al. 2019, BAAS, 51, 410
+Garcia-Munoz, M., Mason, G. M., & Simpson, J. A. 1977, ApJ, 217, 859                 Young, J. S., Freier, P. S., Waddington, C. J., Brewster, N. R., & Fickle, R. K.
+Garcia-Munoz, M., Simpson, J. A., & Wefel, J. P. 1981, Int. Cosmic Ray Conf.,           1981, ApJ, 246, 1014
+
+   2, 72                                                                             Zirakashvili, V. N., Breitschwerdt, D., Ptuskin, V. S., & Voelk, H. J. 1996, A&A,
+                                                                                        311, 113
+
+A74, page 12 of 14
+                                                         N. Weinrich et al.: Galactic halo size in the light of recent AMS-02 data
+
+                        Appendix A: Scaling relations with L                 Rel. var. B/C [%]  4 B/C
+                                                                                                  SLIM
+                               0.54
+                               0.52                                                             2
+                               0.50
+V Va 1 [kpc2K0Myr 1] [-]       0.48                                                             0
+                               0.46
+                              10 1 BIG SLIM QUAINT                                              2 L [kpc], theo. rescaling1         L [kpc], fit rescaling
+                                                                                                                  15                     1  15
+                              10 2                                                                      2         100                    2  100
+                               102                                                              4       5                                5
+
+                                                                                                        100 101 R [GV]              102     103
+
+                        c 1 [km s ]       101                                Fig. A.2. Relative variation of B/C ratio (with respect to a reference
+                                                                             taken at L = 5 kpc), as a function of rigidity. Thin- to thick-dashed lines
+                                            4                                correspond to calculations for various L using either (i) the "theoret-
+                                            3                                ical" rescaling which enforce the same level of production for stable
+                                            2                                secondary species (grey lines), or (ii) the rescaling based on a refit of
+                                            1                                B/C data for each L as described in the text (red lines).
+                                            0
+                                          5.0                                enough to capture the dependence with L (lines in Fig. A.1),
+
+                                   [km s ]4.8                                Param(L) = A ·                LB     ,                         (A.1)
+
+                                          4.6                                                              5 kpc
+
+                                          4.4                                and we report the best-fit A and B values found for each transport
+                                          0.6                                parameter (, K0, etc.) in Table A.1 for the two different cases.
+                                          0.7
+                        Rl [GV]           0.8                                A.1. Power-law behaviour of the rescaling
+                                          0.9
+                        l [-]             1.0                                A few comments are in order: the power-law indices, B, for the
+                                          1.0                                B/C analysis are very similar to the ones found in Fig. 5 of
+                        [-]                                                  Putze et al. (2010), that is 1.06 for K0 and 0.53 for VA (from
+                                          1.5                                the analysis of older B/C data). As argued in Putze et al. (2010),
+                                                  1.5 2  3 4 5 6 8 10 14 20  a secondary-to-primary ratio provides constraints degenerated
+                                          2.0                 L [kpc]        with K0/L and VA2 /L ratios. These small differences (1.06 vs.
+                                                                             1 and 0.53 vs. 0.5) originate in the small fraction of 10B ( 10%)
+                                          2.5                                coming from decayed 10Be, which is sensitive to L. Figure A.2
+                                               1                             illustrates this sensitivity on the B/C ratio. If the theoretical
+                                                                             rescaling is applied (grey lines), the curves with varying L are
+Fig. A.1. Transport parameters dependence on the halo size L. Colour-        either above or below the reference, converging to the reference
+coded symbols correspond to the best-fit values on the combined analy-       at high rigidity as 10Be half-life grows and 10Be behaves as a sta-
+sis of Li/C, Be/B, and B/C data for different models (BIG, SLIM, and         ble secondary species. At variance, when the above rescaling is
+QUAINT). The lines show, for each model and transport parameter,             applied, the variation with L is absorbed in the fit, and the high-
+power-law fits to these data whose values are reported in the right-hand     rigidity limit no longer goes to zero. The overall difference is at
+side of Table A.1.                                                           the few percent level.
+
+    In Sect. 3.2, we study the sensitivity to L of CR data com-              A.2. Difference between B/C and combined analysis results
+binations involving a radioactive species. To do so, the transport
+parameters obtained from the study of B/C must be known for                  A similar scaling remains for the combined analysis (Li/C, Be/B,
+any L. In Sect. 4.2, we test whether secondary positrons over-               B/C), but with some differences, that were all highlighted in
+shoot the data given for various L, given the constraints set from           Weinrich et al. (2020). First, the diffusion coefficient normali-
+secondary-to-primary ratios and radioactive species. This is a               sation K0 is smaller than in the B/C only case, and the difference
+similar but slightly different question than the previous one.               is related to partial degeneracies with production cross sections,
+                                                                             that are lifted in the combined analysis of elements. The best-
+    For each model (BIG, SLIM, and QUAINT), we repeat the                    fit values are consistent, though slightly different, from those in
+transport parameter fitting procedure described in Weinrich et al.           Weinrich et al. (2020), and this is mostly attributed to the fact
+(2020) at fixed L for several values of L, for either the AMS-02             that we fit here the combination Be/B instead of Be/C. Second,
+B/C ratio only, or the combined AMS-02 Li/C, Be/B, and B/C                   whereas for the B/C case BIG parameters are very similar to
+data. We show for the latter the resulting best-fit transport param-         QUAINT ones, for the combined analysis the BIG parameters
+eters (symbols) in Fig. A.1. We find that a simple power law is              are closer to SLIM ones. Last, the low-energy parameters l and
+                                                                              are also different from the B/C analysis only, and correspond to
+                                                                             more marked low-rigidity break of the diffusion coefficient; we
+                                                                             find here that the latter parameters have almost no dependence
+                                                                             on L.
+
+                                                                                                                                         A74, page 13 of 14
+                                                                          A&A 639, A74 (2020)
+
+Table A.1. Scaling coefficients for the transport parameters, see Eq. (A.1), with B the power-law slope and A the transport parameter value for
+L = 5 kpc.
+
+        Parameter                        Coef.                   Fit B/C                                                   Fit Li/C, Be/B, and B/C
+
+         [-]                               A          BIG          SLIM            QUAINT                                  BIG    SLIM QUAINT
+        K0 [kpc2 Myr-1]                    B
+        VA [km s-1]                        A        0.488         0.511               0.458                           0.515        0.507         0.474
+        Vc [km s-1]                        B       -0.013        -0.011             -0.013                            0.020        0.009         0.015
+        Rl [GV]                            A                                                                          0.037
+        l [-]                              B        0.048         0.043               0.056                           0.907        0.038         0.045
+         [-]                               A        1.043         1.034               1.040                           5.001        0.957         0.952
+                                           B        42.94                             67.24                           0.000
+                                           A        0.536             n/a             0.520                           0.851            n/a       50.19
+                                           B        0.010             n/a             0.100                           0.600            n/a       0.445
+                                           A       -0.008             n/a             0.000                           4.651            n/a
+                                           B        3.605             n/a                                             0.015            n/a       0.000
+                                           A       -0.000         4.393                   n/a                        -0.803        4.603         0.000
+                                           B       -0.525         0.008                   n/a                         0.025        0.010
+                                                   -0.024        -0.696                   n/a                                     -0.784             n/a
+                                                                 -0.016                   n/a                             n/a      0.007             n/a
+                                                        n/a           n/a           -0.140                                n/a          n/a           n/a
+                                                        n/a           n/a           -0.208                                             n/a           n/a
+                                                                                                                                                -1.713
+                                                                                                                                                 0.116
+
+Notes. Two analyses are reported, based on the fit of AMS-02 B/C data only (left-hand side), or for the combined fit of AMS-02 Li/C, Be/B, and
+B/C data (right-hand side).
+
+Appendix B: L from several 10Be/9Be datasets                                           AMS-02 data will cover a similar range as PAMELA pre-
+                                                                                   liminary data. With probably slightly smaller uncertainties, they
+                                                                    SLIM 10Be/9Be  are expected to provide similar or slightly better precision on
+         6                                                                         L. Because of the tension between PAMELA and lower-energy
+                                                                                   data, the results from both experiments are crucial to be able to
+                                                                                   obtain robust results on the central value of the halo size.
+L [kpc]
+                                                                                 Rel. var. 7Be/(9Be+10Be) [%]4Appendix C: Constraints from 7Be/(9Be+10Be)
+
+2                                                                                                              20 7Be/(9Be+10Be)                Transport            XS
+                                                                                                                  SLIM                          Sol.Mod.             Data unc.
+
+   ACE              LE           ISOMAX  LE        PAMELA    LE                                                10
+                    (incl. ACE)          + ISOMAX          + ISOMAX
+                                                           + PAMELA
+                                                                                                               0
+
+Fig. B.1. Constraints on L (top panel) for combined fit of AMS-02 Li/C                                         10                                           L [kpc]
+and B/C data, and various datasets for 10Be/9Be. From left to right:
+low-energy ACE data, all low-energy data combined (ACE, IMP7&8,                                                20                                          1         15
+ISEE3, Ulysses-HET, and Voyager), higher-energy GeV/n ISOMAX                                                                                               2         100
+(Hams et al. 2004), LE and ISOMAX combined (fourth column), pre-                                                                                           5
+liminary PAMELA data (Bogomolov & Vasilyev 2019), and all com-
+bined (last column).                                                                                           10 2  10 1         100           101           102
+                                                                                                                                  Ek/n [GeV/n]
+
+    The 10Be/9Be ratio has been measured by different experi-                      Fig. C.1. Same as Fig. 1, but for the variation of 7Be/(9Be+10Be) with
+ments in different energy ranges. To better grasp the respective                   L (pinkish dashed lines), compared to various model uncertainties (con-
+weight of the data in the final constraint (see Sect. 4), we show                  tours) and current data uncertainties (hatched boxes); data from AMS-
+the different contributions to the fit. We focus on SLIM, but sim-                 01 (Aguilar et al. 2011) and PAMELA preliminary analysis (Menn et al.
+ilar results are observed for BIG and QUAINT.                                      2018).
+
+    In Fig. B.1, we show the combined analysis of Li/C, B/C,                           Owing to the difficulty to achieve isotopic separation in CR
+and different datasets for 10Be/9Be. Fits on low-energy data only                  experiments, data analyses often start with the most favourable
+are completely driven by ACE data (compare first and second                        configuration. The Be element is made of 7Be, 9Be, and 10Be.
+column). They lead to larger L values than the higher-energy                       Taking advantage of the A = 2 mass separation between A = 7
+ISOMAX data (third column). The latter have larger uncertain-                      and A = 9, 10 isotopes, the 7Be/(9Be +10 Be) ratio is experimen-
+ties than low-energy data (see Fig. 3), so that low-energy data                    tally a favourable configuration to analyse.
+drive the combined constraint (fourth column).
+                                                                                       This ratio has been published by AMS-01 (Aguilar et al. 2011)
+    For completeness, we also show the constraints from the pre-                   and also by PAMELA (Menn et al. 2018). Following similar steps
+liminary PAMELA data (Bogomolov & Vasilyev 2019). They
+cover a energy range of 0.1 to 2 GeV/n, combining two indepen-                     as the analysis presented in Sect. 3.2, we show in Fig. C.1
+dent analyses with the TOF and calorimeter, with a 20% uncer-                      prospective limits on L that can be set from using the
+tainty. They give the best constraints on L (next-to-last column)                  7Be/(9Be +10 Be) ratio. Because of the sub-dominant abun-
+with smaller error bars, in line with the expectations discussed                   dance of 10Be in the denominator, this ratio is as sensitive to L as
+of Sect. 3.2. Most importantly, they point towards smaller values
+of the halo size than the other datasets, with L  2-3 pc. If all                   the Be/B ratio. But whereas AMS-02 achieves a few percent pre-
+10Be/9Be data are combined, the PAMELA data drive the fit (last                    cision on Be/B, current experiment are at 15-20% precision for
+column).                                                                           isotopic ratios. For this reason, we conclude that 7Be/(9Be +10Be)
+                                                                                   is not a competitive target to fix L with current data or with future
+
+                                                                                   experiments.
+
+A74, page 14 of 14
+
