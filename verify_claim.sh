@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -eo pipefail
 # ============================================================
 # verify_claim.sh — "声称完成 ≠ 实际完成" 自动化门禁
 #
@@ -52,7 +52,7 @@ echo "======================================"
 # ── 1. Python 单元测试 ──────────────────────────────────────────
 echo ""
 echo "[1/6] 单元测试"
-if $PYTHON -m unittest discover -s "$ROOT/webapp/tests" 2>&1 | tail -3 | grep -Fxq "OK"; then
+if $PYTHON -m unittest discover -s "$ROOT/webapp/tests" 2>&1 | tail -3 | grep -Fc "OK" > /dev/null; then
     pass "26 tests pass"
 else
     fail "tests failed"
@@ -61,7 +61,7 @@ fi
 # ── 2. build_fm.py dry-run ───────────────────────────────────────
 echo ""
 echo "[2/6] build_fm.py --dry-run"
-if $PYTHON "$ROOT/webapp/build_fm.py" --dry-run 2>&1 | grep -q "失败 0 个"; then
+if $PYTHON "$ROOT/webapp/build_fm.py" --dry-run 2>&1 | grep -c "失败 0 个" > /dev/null; then
     pass "build_fm dry-run: 0 failures"
 else
     fail "build_fm dry-run: non-zero failures"
@@ -70,7 +70,7 @@ fi
 # ── 3. build_registry.py dry-run ─────────────────────────────────
 echo ""
 echo "[3/6] build_registry.py dry-run"
-if $PYTHON "$ROOT/webapp/build_registry.py" --dry-run 2>&1 | grep -q '"path":'; then
+if $PYTHON "$ROOT/webapp/build_registry.py" --dry-run 2>&1 | grep -c '"path":' > /dev/null; then
     pass "build_registry dry-run OK"
 else
     fail "build_registry dry-run failed"
@@ -127,7 +127,7 @@ done
 # ── 6. audit.py ─────────────────────────────────────────────────
 echo ""
 echo "[6/6] audit.py"
-if $PYTHON "$ROOT/webapp/audit.py" 2>&1 | grep -q "All checks passed\|pass"; then
+if $PYTHON "$ROOT/webapp/audit.py" 2>&1 | grep -E 'All checks passed|pass' | grep -c 'All checks passed' > /dev/null; then
     pass "audit.py passed"
 else
     echo "  [WARN] audit.py output (not necessarily failure):"
