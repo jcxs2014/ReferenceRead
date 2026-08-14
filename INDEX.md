@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**289 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**411 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -16,7 +16,7 @@
 |---|---|
 | 作者 | Andrew W. Strong¹, Igor V. Moskalenko², Vladimir S. Ptuskin³ |
 | 期刊 |  |
-| 分析文件 | 8 个（00_overview.md、01_theoretical_background.md、02_confrontation_with_data.md、03_figures.md、04_references.md、…等 8 个） |
+| 分析文件 | 12 个（00_overview.md、01_introduction.md、01_theoretical_background.md、02_confrontation_with_data.md、02_paper_structure.md、…等 12 个） |
 | 目录 | [`01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/99_final_summary.md) |
@@ -29,7 +29,7 @@
 |---|---|
 | 作者 | Elena Amato (INAF Arcetri), Pasquale Blasi (GSSI) |
 | 期刊 | Advances in Space Research 62, 2731 (2018) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_关键内容分区.md、03_interpretation.md、04_critique.md、…等 9 个） |
 | 目录 | [`01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/`](01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/99_final_summary.md) |
@@ -42,7 +42,7 @@
 |---|---|
 | 作者 | N. Weinrich et al.（9 人） |
 | 期刊 | A&A 639, A74 (2020) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 10 个（00_overview.md、01_introduction.md、02_方法.md、03_主要结论.md、04_interpretation.md、…等 10 个） |
 | 目录 | [`01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/`](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/99_final_summary.md) |
@@ -55,7 +55,7 @@
 |---|---|
 | 作者 | R. A. Mewaldt, N. E. Yanasak, M. E. Wiedenbeck et al.（Caltech/JPL/Washington U/NASA Goddard） |
 | 期刊 | Space Science Reviews 99, 137 (2001) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 11 个（00_overview.md、01_introduction.md、02_三种放射性时钟.md、03_ace-观测结果.md、04_传播时间约束.md、…等 11 个） |
 | 目录 | [`01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/`](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/99_final_summary.md) |
@@ -68,7 +68,7 @@
 |---|---|
 | 作者 | Y. Génolini et al.（8 人） |
 | 期刊 | Physical Review D 104, 083005 (2021) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 10 个（00_overview.md、01_introduction.md、02_三模型定义.md、03_主要结论.md、04_interpretation.md、…等 10 个） |
 | 目录 | [`01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/`](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/99_final_summary.md) |
@@ -81,7 +81,7 @@
 |---|---|
 | 作者 | Mateusz Ruszkowski（U. Michigan）, Christoph Pfrommer（AIP） |
 | 期刊 | A&A Review 31:4 (2023) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 12 个（00_overview.md、01_introduction.md、02_cr-的基本性质.md、03_星系中的-cr-反馈.md、04_星系团中的-cr-反馈.md、…等 12 个） |
 | 目录 | [`01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/99_final_summary.md) |
@@ -189,7 +189,7 @@
 |---|---|
 | 作者 | A. R. Bell（之后系列 Bell 1978a/b/c） |
 | 期刊 | MNRAS 182, 147 (1978) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 11 个（00_overview.md、01_introduction.md、02_section-2--particle-acceleration-at-a-sh.md、03_section-3--上游-alfvén-波-pp-152-156-.md、04_section-4-应用与结论.md、…等 11 个） |
 | 目录 | [`02_cosmic-ray-origins/0008_bell-1978/literature_analysis/`](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/99_final_summary.md) |
@@ -202,7 +202,7 @@
 |---|---|
 | 作者 | R. D. Blandford (Caltech), J. P. Ostriker (Princeton) |
 | 期刊 | The Astrophysical Journal 221, L29-L32 (1978) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_section-iii--acceleration-of-cosmic-rays.md、03_interpretation.md、04_critique.md、…等 9 个） |
 | 目录 | [`02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/`](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/99_final_summary.md) |
@@ -215,7 +215,7 @@
 |---|---|
 | 作者 | Roger Blandford (Caltech), David Eichler (U. Maryland / Ben Gurion) |
 | 期刊 | Physics Reports 154, 1 (1987) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 14 个（00_overview.md、01_introduction.md、02_2--observational-background-pp-4-16-.md、03_3--the-diffusion-approximation-pp-16-26-.md、04_4--test-particle-approximation-pp-26-68-.md、…等 14 个） |
 | 目录 | [`02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/`](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/99_final_summary.md) |
@@ -228,7 +228,7 @@
 |---|---|
 | 作者 | A. M. Hillas (University of Durham) |
 | 期刊 | Ann. Rev. Astron. Astrophys. 22, 425 (1984) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 11 个（00_overview.md、01_introduction.md、02_hillas-判据推导.md、03_已知加速源评估.md、04_关键洞察.md、…等 11 个） |
 | 目录 | [`02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/`](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/99_final_summary.md) |
@@ -241,7 +241,7 @@
 |---|---|
 | 作者 | S. Gabici, C. Evoli, D. Gaggero, P. Lipari, D. Supanitsky |
 | 期刊 | Int. J. Mod. Phys. D 28, 1930022 (2019) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 12 个（00_overview.md、01_introduction.md、02_能量分层图景.md、03_dsa-与-snr.md、04_uhecr-候选源.md、…等 12 个） |
 | 目录 | [`02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/`](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/99_final_summary.md) |
@@ -254,7 +254,7 @@
 |---|---|
 | 作者 | R. Giuffrida et al.（XMM-Newton + Fermi + HESS 合作） |
 | 期刊 | Nature Communications 13, 4878 (2022) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 10 个（00_overview.md、01_introduction.md、02_关键观测.md、03_物理含义.md、04_interpretation.md、…等 10 个） |
 | 目录 | [`02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/`](02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/99_final_summary.md) |
@@ -267,7 +267,7 @@
 |---|---|
 | 作者 | M. A. O. Alves Batista et al.（20+ 人，Pierre Auger + TA 合作） |
 | 期刊 | Frontiers in Astronomy and Space Sciences 6, 44 (2019) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_关键数据对比.md、03_interpretation.md、04_critique.md、…等 9 个） |
 | 目录 | [`02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/`](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/99_final_summary.md) |
@@ -280,7 +280,7 @@
 |---|---|
 | 作者 | Telescope Array Collaboration |
 | 期刊 | Science 380, 6629, 903-907 (2023) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 11 个（00_overview.md、01_introduction.md、02_观测特征.md、03_关键矛盾.md、04_解释尝试.md、…等 11 个） |
 | 目录 | [`02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/99_final_summary.md) |
@@ -492,7 +492,7 @@
 |---|---|
 | 作者 | J. J. Cowan, C. Sneden, J. E. Lawler et al.（U. Oklahoma + 更多） |
 | 期刊 | Rev. Mod. Phys. 93, 015002 (2021) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 12 个（00_overview.md、01_introduction.md、02_s-过程-慢中子俘获-.md、03_r-过程-快中子俘获-.md、04_b²fh-的当代更新.md、…等 12 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/`](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/) |
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/99_final_summary.md) |
@@ -505,7 +505,7 @@
 |---|---|
 | 作者 | F. Kappeler, A. Mengoni, A. O. 等 |
 | 期刊 | Rev. Mod. Phys. 83, 157 (2011) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 12 个（00_overview.md、01_introduction.md、02_s-过程的两类来源.md、03_核物理基础.md、04_s-过程与-b²fh.md、…等 12 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/) |
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/99_final_summary.md) |
@@ -516,9 +516,9 @@
 
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
-| 01. 宇宙线传播 | 6 | 23 |
-| 02. 宇宙线起源 | 15 | 99 |
-| 03. 恒星核合成与元素丰度 | 17 | 167 |
-| **合计** | **38** | **289** |
+| 01. 宇宙线传播 | 6 | 64 |
+| 02. 宇宙线起源 | 15 | 162 |
+| 03. 恒星核合成与元素丰度 | 17 | 185 |
+| **合计** | **38** | **411** |
 
 > 最后更新: 2026-08-15（自动生成）
