@@ -144,12 +144,23 @@ def _strip_html(s: str) -> str:
     return s.strip()
 
 
+def _strip_markdown_bold(s: str) -> str:
+    """剥掉 markdown 加粗/斜体标记（**bold** / *italic* / _italic_ / 残留 *）。"""
+    s = re.sub(r"\*{2}([^*]+)\*{2}", r"\1", s)
+    s = re.sub(r"\*([^*]+)\*", r"\1", s)
+    s = re.sub(r"_[^_]+_", "", s)
+    # 单侧孤立的 *（如 "Physics*"）—— 只吃尾部
+    s = re.sub(r"\s*\*\s*", " ", s).strip()
+    return s
+
+
 def _clean_field(s: str) -> str:
-    """清洗单个元数据字段：HTML tag / fact 标记 / 多余空白。
+    """清洗单个元数据字段：HTML tag / markdown 标记 / fact 标记 / 多余空白。
 
     全字段兜底 — 不再依赖 build_fm 显式调用 _strip_fact_tag。
     """
     s = _strip_html(s)
+    s = _strip_markdown_bold(s)
     s = _strip_fact_tag(s)
     s = re.sub(r"\s+", " ", s).strip()
     # 去掉首尾多余标点空格
@@ -469,16 +480,16 @@ def build_fm(overview_path: Path) -> dict | None:
     existing_citations = _read_existing_citations(overview_path)
 
     fm = {
-        "title": _strip_fact_tag(fields.get("title", "")),
-        "authors": _strip_fact_tag(fields.get("authors", "")),
+        "title": _clean_field(_strip_fact_tag(fields.get("title", ""))),
+        "authors": _clean_field(_strip_fact_tag(fields.get("authors", ""))),
         # 最终 year 兜底：正文优先（正文是最终事实源）
         # frontmatter → parent.parent.stem → 文件名 → 正文
         "year": fields.get("year", "") or _extract_year(overview_path.parent.parent.stem) or _extract_year(overview_path.stem) or _most_likely_year(body) or "",
-        "journal": _strip_fact_tag(fields.get("journal", "")),
-        "doi": _strip_fact_tag(fields.get("doi", "")),
-        "arxiv": _strip_fact_tag(fields.get("arxiv", "")),
-        "keywords": _strip_fact_tag(fields.get("keywords", "")),
-        "abstract": _strip_fact_tag(fields.get("abstract", "")),
+        "journal": _clean_field(_strip_fact_tag(fields.get("journal", ""))),
+        "doi": _clean_field(_strip_fact_tag(fields.get("doi", ""))),
+        "arxiv": _clean_field(_strip_fact_tag(fields.get("arxiv", ""))),
+        "keywords": _clean_field(_strip_fact_tag(fields.get("keywords", ""))),
+        "abstract": _clean_field(_strip_fact_tag(fields.get("abstract", ""))),
         "category": category,
         "status": "completed",
         "read_date": rd,

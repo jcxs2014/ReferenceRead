@@ -229,7 +229,32 @@ def main() -> int:
         check("附: registry tags/authors/title 无污染标记", not bad_tags,
               f"污染 {len(bad_tags)}" + (f": {bad_tags[:3]}" if bad_tags else ""))
 
-    # INDEX.md 内容断言：title 不含
+    # ── 附 #8: title/authors markdown bold 检查（PAPERS + registry 全字段） ──
+    if papers is not None:
+        bad_bold = 0
+        for p in papers:
+            for field in ("title", "authors"):
+                val = p.get(field, "")
+                if val and bool(re.search(r"\*{1,2}", val)):
+                    bad_bold += 1
+                    print(f"[DETAIL]  {p.get('slug','?')} 的 {field} 含 markdown 标记: {val[:60]}")
+        check("附: PAPERS title/authors 无 markdown 加粗 — 污染 0", bad_bold == 0,
+              f"污染 {bad_bold}")
+
+    # registry 全字段检查（需加载 registry.json）
+    from pathlib import Path as _Path
+    reg_json_path = _Path(__file__).parent / "registry.json"
+    if reg_json_path.exists():
+        _reg = json.loads(reg_json_path.read_text(encoding="utf-8"))
+        reg_bold = 0
+        for e in _reg:
+            for field in ("title", "authors", "journal"):
+                val = e.get(field, "")
+                if val and bool(re.search(r"\*{1,2}", val)):
+                    reg_bold += 1
+                    print(f"[DETAIL]  registry {e.get('stem','?')} 的 {field} 含标记: {val[:60]}")
+        check("附: registry title/authors/journal 无 markdown 加粗 — 污染 0", reg_bold == 0,
+              f"污染 {reg_bold}")
     # - **** 多星（gen_index 回退正则吞 ** 的旧问题）
     # - [FACT] 残留
     # - 单引号/双引号包裹（YAML 引号泄漏）

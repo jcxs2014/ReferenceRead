@@ -2,7 +2,7 @@
 title: 'Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements'
 authors: William A. Fowler
 year: '1984'
-journal: Reviews of Modern Physics*, Vol. 56, No. 2, Part I, April 1984, pp. 149–172
+journal: Reviews of Modern Physics , Vol. 56, No. 2, Part I, April 1984, pp. 149–172
 doi: 未提供（该期为 Nobel Lecture 特刊，版权属 THE NOBEL FOUNDATION 1984）
 arxiv: 无
 keywords: 核天体物理、恒星核合成、元素起源、pp 链、CNO 循环、三 α 过程、Hoyle 共振态、He/C/O/Si 燃烧、弱相互作用、s/r 过程、超新星核合成、同位素异常、核宇宙化学计时

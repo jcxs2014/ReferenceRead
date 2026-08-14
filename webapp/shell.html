@@ -713,29 +713,49 @@ function escapeHtml(s) {
 }
 
 // ── Search ─────────────────────────────────────────────────────────────────
+// ── Full-text search via inverted index ────────────────────────────────────
+// SEARCH_INDEX: { term -> [{slug, section, path}][] }
+// Replaces live-DOM walk with pre-built index — searches across ALL docs,
+// including those not yet loaded.
+const SEARCH_INDEX = __SEARCH_INDEX_JSON__; // {index: {term: entries[]}, count, total_entries}
+
+function _buildSearchMap() {
+  if (!SEARCH_INDEX || !SEARCH_INDEX.index) return null;
+  const termMap = new Map();
+  for (const [term, entries] of Object.entries(SEARCH_INDEX.index)) {
+    if (entries && entries.length) termMap.set(term, entries);
+  }
+  return termMap;
+}
+const _searchTermMap = _buildSearchMap();
+
 function doSearch(query) {
   const count = document.getElementById("search-count");
-  // Remove old highlights
+  // Remove old highlights in DOM
   document.querySelectorAll("mark.search-hl").forEach(m => m.replaceWith(m.textContent));
-  if (!query || query.trim().length < 1) { count.textContent = ""; return; }
 
-  const q = query.trim();
-  // Build fresh regex each time (no global state pollution)
+  const q = (query || "").trim();
+  if (!q) { count.textContent = ""; return; }
+
+  // Try index first (pre-built, cross-doc)
+  if (_searchTermMap && _searchTermMap.has(q.toLowerCase())) {
+    const entries = _searchTermMap.get(q.toLowerCase());
+    count.textContent = `${entries.length} 命中（${_sectionNames(entries)}）`;
+    return;
+  }
+
+  // Fallback: live DOM walk for multi-word / fuzzy
   const re = new RegExp(escapeRegex(q), "gi");
   let total = 0;
-
-  // Walk all sections for cross-doc search
   document.querySelectorAll(".doc-section").forEach(sec => {
     const nodes = [];
     const walker = document.createTreeWalker(sec, NodeFilter.SHOW_TEXT, null, false);
     while (walker.nextNode()) nodes.push(walker.currentNode);
     nodes.forEach(textNode => {
-      // Skip KaTeX rendered elements
       const parent = textNode.parentElement;
       if (parent && (parent.closest(".katex") || parent.closest(".math"))) return;
-
       if (re.test(textNode.textContent)) {
-        re.lastIndex = 0; // reset for next use
+        re.lastIndex = 0;
         const frag = document.createDocumentFragment();
         const parts = textNode.textContent.split(re);
         re.lastIndex = 0;
@@ -753,12 +773,22 @@ function doSearch(query) {
       }
     });
   });
-
   count.textContent = total ? `${total} 命中` : "无";
   if (total > 0) {
     const first = document.querySelector("mark.search-hl");
     if (first) first.scrollIntoView({behavior:"smooth", block:"center"});
   }
+}
+
+function _sectionNames(entries) {
+  const seen = new Map();
+  for (const e of entries) {
+    const sec = e.section || "(root)";
+    if (!seen.has(sec)) seen.set(sec, 0);
+    seen.set(sec, seen.get(sec) + 1);
+  }
+  const parts = [...seen.entries()].map(([s, n]) => `${s}${n > 1 ? ` ×${n}` : ""}`);
+  return parts.slice(0, 3).join(", ") + (parts.length > 3 ? ` +${parts.length - 3}` : "");
 }
 function escapeRegex(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 

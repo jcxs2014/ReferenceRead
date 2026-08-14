@@ -2,8 +2,7 @@
 title: Origin and Propagation of Extremely High Energy Cosmic Rays
 authors: Pijushpani Bhattacharjee, Günter Sigl
 year: '1999'
-journal: 'Physics Reports **320** (1999) 1–150. DOI: 10.1016/S0370-1573(99)00101-5 (由文件名 `1-s2.0-S0370157399001015-main.pdf`
-  推得)'
+journal: 'Physics Reports 320 (1999) 1–150. DOI: 10.1016/S0370-1573(99)00101-5 (由文件名 `1-s2.0-S0370157399001015-main.pdf` 推得)'
 arxiv: astro-ph/9811011v2 (23 Aug 1999)
 keywords: EHECR, UHECR, GZK cutoff, topological defects, cosmic strings, monopoles, X particles, top-down scenario, bottom-up
   acceleration, AGN, photo-pion production, CMB, neutrino astrophysics

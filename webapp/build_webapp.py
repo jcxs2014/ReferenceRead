@@ -313,6 +313,17 @@ def build(include_papers=False, out=None):
     shell = shell.replace("__DOCS_JSON__",   json.dumps(docs,        ensure_ascii=False, indent=2))
     shell = shell.replace("__TOC_JSON__",     json.dumps(all_toc,     ensure_ascii=False, indent=2))
     shell = shell.replace("__PAPERS_JSON__",  json.dumps(papers_json, ensure_ascii=False, indent=2))
+    # 倒排索引（build_search_index.py → search_index.json）
+    search_idx_path = HERE / "search_index.json"
+    if search_idx_path.exists():
+        search_idx = json.loads(search_idx_path.read_text(encoding="utf-8"))
+        # 只注入 index 字段（含 count/total_entries 冗余）
+        shell = shell.replace(
+            "__SEARCH_INDEX_JSON__",
+            json.dumps(search_idx.get("index", {}), ensure_ascii=False, indent=2),
+        )
+    else:
+        shell = shell.replace("__SEARCH_INDEX_JSON__", "{}")
     # 术语表（05_glossary.md → glossary.json，运行时 hover 用）
     gloss_path = HERE / "glossary.json"
     if gloss_path.exists():

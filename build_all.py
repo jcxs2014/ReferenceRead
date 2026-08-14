@@ -59,6 +59,8 @@ STEPS: list[dict] = [
      "label": "glossary"},
     {"id": "index", "cmd": [PY, str(ROOT / "scripts" / "gen_index.py"), "--check"],
      "label": "INDEX.md"},
+    {"id": "search_index", "cmd": [PY, str(WEBAPP / "build_search_index.py")],
+     "label": "search_index"},
     {"id": "webapp", "cmd": [PY, str(WEBAPP / "build_webapp.py"), "--include-papers"],
      "label": "webapp"},
     {"id": "pwa", "cmd": [PY, str(WEBAPP / "build_pwa.py")],
@@ -95,6 +97,8 @@ def main() -> None:
             cmd = [PY, str(WEBAPP / "build_glossary.py")] + ([dry_flag] if dry_flag else [])
         elif step["id"] == "index":
             cmd = [PY, str(ROOT / "scripts" / "gen_index.py"), "--check"]
+        elif step["id"] == "search_index":
+            cmd = [PY, str(WEBAPP / "build_search_index.py")]
         elif step["id"] == "webapp":
             cmd = [PY, str(WEBAPP / "build_webapp.py"), "--include-papers"]
         elif step["id"] == "pwa":
