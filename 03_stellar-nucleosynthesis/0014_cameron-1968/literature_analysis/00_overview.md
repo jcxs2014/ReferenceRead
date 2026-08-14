@@ -20,7 +20,7 @@ tags:
 - nucleosynthesis
 - r-process
 - s-process
-- p-process [FACT]
+- p-process
 citations:
 - '[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]]'
 - '[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview|0002_trimble-1975]]'
@@ -54,7 +54,7 @@ path: 03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overvi
 - **DOI**: 未提供 [FACT] (由 Elsevier 出版,ISBN 前缀在 PDF 文件名中可见 `3-s2.0-B9780080128351500155`)
 - **arXiv**: 未提供
 - **Research Field**: Stellar Nucleosynthesis / Solar System Elemental Abundances / Meteoritics
-- **Keywords**: elemental abundances, solar system, carbonaceous chondrites, Type I meteorites, Suess-Urey table, nucleosynthesis, r-process, s-process, p-process [FACT]
+- **Keywords**: elemental abundances, solar system, carbonaceous chondrites, Type I meteorites, Suess-Urey table, nucleosynthesis, r-process, s-process, p-process
 - **Pages**: 126–143 (共 18 页) [FACT]
 - **Funding**: U.S. Atomic Energy Commission and NASA [FACT]
 

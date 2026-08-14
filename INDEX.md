@@ -79,11 +79,11 @@
 
 ### `0005_amato-2014`
 
-**** The origin of galactic cosmic rays**
+**The Origin Of Galactic Cosmic Rays**
 
 |  |  |
 |---|---|
-| 作者 | ** Pasquale Blasi (corresponding author) |
+| 作者 | Elena Amato |
 | 期刊 |  |
 | 分析文件 | 14 个（00_overview.md、01_introduction.md、02_snr_paradigm.md、03_test_particle_dsa.md、04_nl_dsa.md、…等 14 个） |
 | 目录 | [`02_cosmic-ray-origins/0005_amato-2014/literature_analysis/`](02_cosmic-ray-origins/0005_amato-2014/literature_analysis/) |
@@ -92,11 +92,11 @@
 
 ### `0006_grenier-2015`
 
-**** The Nine Lives of Cosmic Rays in Galaxies**
+**The Nine Lives of Cosmic Rays in Galaxies**
 
 |  |  |
 |---|---|
-| 作者 | ** Isabelle A. Grenier, John H. Black, Andrew W. Strong |
+| 作者 | Isabelle A. Grenier, John H. Black, Andrew W. Strong |
 | 期刊 |  |
 | 分析文件 | 13 个（00_overview.md、01_scope_and_nine_lives.md、02_direct_measurements.md、03_propagation_physics.md、04_crwanderers.md、…等 13 个） |
 | 目录 | [`02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/`](02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/) |
@@ -105,11 +105,11 @@
 
 ### `0007_biermann-1996`
 
-**** Cosmic Ray Interactions and the Abundances of the Chemical Elements**
+**Cosmic Ray Interactions and the Abundances of the Chemical Elements**
 
 |  |  |
 |---|---|
-| 作者 | ** Peter L. Biermann |
+| 作者 | Peter L. Biermann |
 | 期刊 |  |
 | 分析文件 | 5 个（00_overview.md、01_main_text.md、97_quality_check.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/`](02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/) |
@@ -135,11 +135,11 @@
 
 ### `0002_trimble-1975`
 
-**** The origin and abundances of the chemical elements**
+**The origin and abundances of the chemical elements**
 
 |  |  |
 |---|---|
-| 作者 | ** Virginia Trimble |
+| 作者 | Virginia Trimble |
 | 期刊 |  |
 | 分析文件 | 14 个（00_overview.md、01_introduction_and_history.md、02_observed_abundances_I.md、03_observed_abundances_II.md、04_cosmological_nucleosynthesis.md、…等 14 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/`](03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/) |
@@ -148,11 +148,11 @@
 
 ### `0003_fowler-1984`
 
-**Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements**
+**'Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements'**
 
 |  |  |
 |---|---|
-| 作者 | **William A. Fowler**（加州理工 R. K. Kellogg Radiation Laboratory，Pasadena, CA 91225） |
+| 作者 | William A. Fowler**（加州理工 R. K. Kellogg Radiation Laboratory，Pasadena, CA 91225） |
 | 期刊 |  |
 | 分析文件 | 14 个（00_overview.md、01_introduction.md、02_early_research.md、03_reaction_rates.md、04_hydrogen_burning.md、…等 14 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/`](03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/) |
@@ -161,11 +161,11 @@
 
 ### `0004_wallerstein-1997`
 
-**Synthesis of the elements in stars: forty years of progress**
+**'Synthesis of the elements in stars: forty years of progress'**
 
 |  |  |
 |---|---|
-| 作者 | George Wallerstein, Icko Iben, Jr., Peter Parker, Ann Merchant Boesgaard, Gerald M. Hale, Arthur E. Champagne, Charles A. Barnes, Franz Käppeler, Verne V. Smith, Robert D. Hoffman, Frank X. Timmes, Chris Sneden, Richard N. Boyd, Bradley S. Meyer, David L. Lambert |
+| 作者 | George Wallerstein, Icko Iben, Jr., Peter Parker, Ann Merchant Boesgaard, Gerald M. Hale, Arthur E. Champagne, Charles |
 | 期刊 |  |
 | 分析文件 | 14 个（00_overview.md、01_preface_introduction.md、02_stellar_evolution.md、03_hydrogen_burning.md、04_x_process_light_elements.md、…等 14 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/`](03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/) |
@@ -213,11 +213,11 @@
 
 ### `0008_lodders-2003`
 
-**** Solar System Abundances and Condensation Temperatures of the Elements**
+**Solar System Abundances and Condensation Temperatures of the Elements**
 
 |  |  |
 |---|---|
-| 作者 | ** Katharina Lodders |
+| 作者 | Katharina Lodders |
 | 期刊 |  |
 | 分析文件 | 12 个（00_overview.md、01_introduction.md、02_abundance_selection.md、03_condensation_methods.md、04_major_trace_condensation.md、…等 12 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/`](03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/) |
@@ -291,11 +291,11 @@
 
 ### `0014_cameron-1968`
 
-**A New Table of Abundances of the Elements in the Solar System [FACT]**
+**A New Table of Abundances of the Elements in the Solar System**
 
 |  |  |
 |---|---|
-| 作者 | A. G. W. Cameron [FACT] |
+| 作者 | A. G. W. Cameron |
 | 期刊 |  |
 | 分析文件 | 7 个（00_overview.md、01_abundance_table.md、02_suess_urey_legacy.md、03_nucleosynthesis_implications.md、97_quality_check.md、…等 7 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/`](03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/) |
@@ -308,7 +308,7 @@
 
 |  |  |
 |---|---|
-| 作者 |  |
+| 作者 | Robert P. Kraft |
 | 期刊 | *Publications of the Astronomical Society of the Pacific* (PASP) |
 | 分析文件 | 11 个（00_overview.md、01_introduction.md、02_abundance_differences.md、03_standard_predictions.md、04_observed_vs_predicted.md、…等 11 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/`](03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/) |
