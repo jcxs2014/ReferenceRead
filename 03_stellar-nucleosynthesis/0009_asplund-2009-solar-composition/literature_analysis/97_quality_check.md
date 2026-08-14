@@ -2,8 +2,6 @@
 
 > 文献：`0009_asplund-2009-solar-composition`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
-> 上一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/09_conclusion_and_references.md|09_conclusion_and_references.md]]
-> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 
@@ -13,21 +11,21 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 10 个（✅） |
-| **合计** | **12 个分析文件，1571 行** |
+| **合计** | **13 个分析文件，1646 行** |
 
 ## 覆盖统计
 
 | 项目 | 数量 | 说明 |
 |---|---|---|
-| §1 标题数 | 12 | 主章节数 |
-| §2 标题数 | 80 | 分节数 |
+| §1 标题数 | 13 | 主章节数 |
+| §2 标题数 | 84 | 分节数 |
 | §3 标题数 | 86 | 子分节数 |
-| 图 (Figure) | 8 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
-| 表 (Table) | 18 | 同上 |
+| 图 (Figure) | 9 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 19 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 327 | 事实陈述 |
-| [INTERPRETATION] | 19 | 解读 |
-| [CRITIQUE] | 31 | 批判 |
+| [FACT] | 329 | 事实陈述 |
+| [INTERPRETATION] | 21 | 解读 |
+| [CRITIQUE] | 33 | 批判 |
 
 ## 完成度评分
 

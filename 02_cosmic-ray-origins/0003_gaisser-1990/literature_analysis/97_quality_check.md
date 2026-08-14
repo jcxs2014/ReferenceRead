@@ -2,8 +2,6 @@
 
 > 文献：`0003_gaisser-1990`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
-> 上一章：[[02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/01_analysis.md|01_analysis.md]]
-> 下一章：[[02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 
@@ -13,21 +11,21 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 2 个（✅） |
-| **合计** | **4 个分析文件，894 行** |
+| **合计** | **5 个分析文件，965 行** |
 
 ## 覆盖统计
 
 | 项目 | 数量 | 说明 |
 |---|---|---|
-| §1 标题数 | 13 | 主章节数 |
-| §2 标题数 | 29 | 分节数 |
+| §1 标题数 | 14 | 主章节数 |
+| §2 标题数 | 33 | 分节数 |
 | §3 标题数 | 30 | 子分节数 |
-| 图 (Figure) | 5 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
-| 表 (Table) | 7 | 同上 |
+| 图 (Figure) | 6 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 8 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 77 | 事实陈述 |
-| [INTERPRETATION] | 5 | 解读 |
-| [CRITIQUE] | 21 | 批判 |
+| [FACT] | 79 | 事实陈述 |
+| [INTERPRETATION] | 7 | 解读 |
+| [CRITIQUE] | 23 | 批判 |
 
 ## 完成度评分
 

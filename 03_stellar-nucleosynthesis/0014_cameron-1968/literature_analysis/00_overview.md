@@ -1,3 +1,34 @@
+---
+title: A New Table of Abundances of the Elements in the Solar System [FACT]
+authors: A. G. W. Cameron [FACT]
+year: '1968'
+journal: 《Origin and Distribution of the Elements》会议文集 (Ahrens, L. H., ed., 1968) [FACT]
+doi: 未提供 [FACT] (由 Elsevier 出版,ISBN 前缀在 PDF 文件名中可见 `3-s2.0-B9780080128351500155`)
+arxiv: 未提供
+keywords: elemental abundances, solar system, carbonaceous chondrites, Type I meteorites, Suess-Urey table, nucleosynthesis,
+  r-process, s-process, p-process [FACT]
+category: 恒星核合成
+status: completed
+read_date: '2026-08-14'
+lastread: '2026-08-14'
+tags:
+- elemental abundances
+- solar system
+- carbonaceous chondrites
+- Type I meteorites
+- Suess-Urey table
+- nucleosynthesis
+- r-process
+- s-process
+- p-process [FACT]
+citations:
+- '[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]]'
+- '[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview|0002_trimble-1975]]'
+- '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
+- '[[03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/00_overview|0006_anders-grevesse]]'
+- '[[03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/00_overview|0007_grevesse-sauval-1998]]'
+path: 03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overview.md
+---
 > 本章属于: A New Table of Abundances of the Elements in the Solar System (Cameron, 1968)
 >
 > 本文件为文献精读档案的 00_overview.md(总览)
@@ -151,36 +182,16 @@ A New Table of Abundances of the Elements in the Solar System
 
 ---
 
-# 4. 篇间导航块 (同一分类 stellar-nucleosynthesis)
+## 篇间导航
 
-| 序号 | 文献 | 与本文关系 |
-|------|------|-----------|
-| 0001 | **B²FH 1957** (Burbidge et al. Rev. Mod. Phys. 29, 547) | 本文核合成理论骨架;Table 2 的 F/S/B 分类直接引用 [FACT] |
-| 0002 | Trimble 1975 | 恒星核合成的综合评述 [FACT] |
-| 0003 | **Fowler 1984** | r/s/p 三分法的后续系统化 [FACT] |
-| 0006 | **Anders & Grevesse 1989** | 本文丰度表的直接继承者与修订者 [FACT] |
-| 0007 | Grevesse & Sauval 1998 | 现代太阳丰度迭代 |
-| 0008 | Lodders 2003 | 现代太阳丰度迭代 |
-| 0009 | Asplund 2009 | 现代太阳丰度迭代 |
-| 0013 | Bertone & Hooper 2018 | 本分类下前一篇(暗物质相关) |
-| 0014 | **Cameron 1968 (本文)** | ← 当前位置 |
-| 0015 | Kraft 1994 | 本分类下后一篇 |
+### 关联论文
 
----
+- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B²FH 1957 核合成框架，本文丰度表的理论骨架
+- [`0002_trimble-1975`](../../0002_trimble-1975/literature_analysis/00_overview.md) — 恒星核合成综合评述
+- [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — r/s/p 过程系统化的后续发展
+- [`0006_anders-grevesse`](../../0006_anders-grevesse/literature_analysis/00_overview.md) — 本文丰度表的直接继承者与修订者
+- [`0007_grevesse-sauval-1998`](../../0007_grevesse-sauval-1998/literature_analysis/00_overview.md) — 现代太阳丰度迭代
 
-# 5. 术语与记号约定 (全文)
+### 后续阅读
 
-- 元素丰度 A(X): 以 Si = 10⁶ 归一化的元素数密度 [FACT]
-- 核素丰度 N(A): 同一归一化下的单一核素数密度 [FACT]
-- F isobar: fast time scale,即 r-process 主产物 [FACT]
-- S isobar: slow time scale,即 s-process 主产物 [FACT]
-- B isobar: bypassed nuclei,即 p-process 主产物 [FACT]
-- σ_N: 平均中子俘获截面 × 丰度,是 A 的光滑单调递减函数 [FACT]
-
----
-
-# 6. 我的总体评价
-
-[CRITIQUE] 本文的价值不在"给出一个表",而在于**把核合成理论的要求反输回到观测数据汇编中**——即 8 元素内插(§4 注释 6/8/10/15/18/19 及 §3 文本)是"以理论导数据"的关键创新。这既是 Cameron 表的优点(在数据稀少时代提供了可核合成的丰度分布),也是它的软肋(现代 CI 陨石质谱技术已能覆盖这些元素,内插已不必要)。
-
-[CRITIQUE] 表 1 的 Fe 丰度争议至今仍在:Aller (1961) 太阳铁线给出的丰度比陨石值低约 0.5 dex,Cameron 选择陨石值并在 §3 末尾明确承认"it is important that additional work be done"。
+- [`0006_anders-grevesse`](../../0006_anders-grevesse/literature_analysis/00_overview.md) — Anders & Grevesse 1989 取代本文成为标准丰度表

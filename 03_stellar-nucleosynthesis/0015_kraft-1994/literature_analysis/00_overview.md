@@ -1,3 +1,32 @@
+---
+title: 'Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios'
+authors: Robert P. Kraft
+year: '1994'
+journal: '*Publications of the Astronomical Society of the Pacific* (PASP)'
+doi: 未提供（原文未列出 DOI；arXiv 编号未提供）
+keywords: 球状星团巨星、丰度差异、CNO 循环、Sweigart-Mengel 混合机制、深混合、原始丰度变异、Na-O 反相关、C/N 反相关、次参数效应、星族 II
+category: 恒星核合成
+status: completed
+read_date: '2026-08-14'
+lastread: '2026-08-14'
+tags:
+- 球状星团巨星
+- 丰度差异
+- CNO 循环
+- Sweigart-Mengel 混合机制
+- 深混合
+- 原始丰度变异
+- Na-O 反相关
+- C/N 反相关
+- 次参数效应
+- 星族 II
+citations:
+- '[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]]'
+- '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'
+- '[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview|0010_gies-lambert-1992]]'
+- '[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overview|0014_cameron-1968]]'
+path: 03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md
+---
 # 0. Overview — 文献基本信息、结构树与篇间导航
 
 > 本文属于：*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)，分类「03_stellar-nucleosynthesis」文献 0015。
@@ -106,3 +135,19 @@ Kraft 1994, PASP 106:553
 | `07_conclusions.md` | §7 重评（Na-Al 差异的演化解释）+ §8 结论 |
 | `98_vocabulary.md` | 逻辑词 15–25 条 + 领域术语表 |
 | `99_final_summary.md` | 完整性检查 + 核心要点 |
+
+
+---
+
+## 篇间导航
+
+### 关联论文
+
+- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B²FH 核合成框架，本文 CNO 丰度讨论的理论背景
+- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 现代太阳丰度，星族 II 丰度的对照基准
+- [`0010_gies-lambert-1992`](../../0010_gies-lambert-1992/literature_analysis/00_overview.md) — 早 B 型星 CNO 丰度，同族 CNO 循环研究
+- [`0014_cameron-1968`](../../0014_cameron-1968/literature_analysis/00_overview.md) — 元素丰度表经典，本文丰度讨论的数值基准
+
+### 后续阅读
+
+- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 现代三维太阳大气丰度分析

@@ -2,8 +2,6 @@
 
 > 文献：`0005_amato-2014`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
-> 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/10_references_conclusions.md|10_references_conclusions.md]]
-> 下一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 
@@ -13,21 +11,21 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 11 个（✅） |
-| **合计** | **13 个分析文件，1524 行** |
+| **合计** | **14 个分析文件，1593 行** |
 
 ## 覆盖统计
 
 | 项目 | 数量 | 说明 |
 |---|---|---|
-| §1 标题数 | 13 | 主章节数 |
-| §2 标题数 | 72 | 分节数 |
+| §1 标题数 | 14 | 主章节数 |
+| §2 标题数 | 76 | 分节数 |
 | §3 标题数 | 62 | 子分节数 |
-| 图 (Figure) | 15 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
-| 表 (Table) | 0 | 同上 |
+| 图 (Figure) | 16 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 1 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 154 | 事实陈述 |
-| [INTERPRETATION] | 11 | 解读 |
-| [CRITIQUE] | 12 | 批判 |
+| [FACT] | 156 | 事实陈述 |
+| [INTERPRETATION] | 13 | 解读 |
+| [CRITIQUE] | 14 | 批判 |
 
 ## 完成度评分
 

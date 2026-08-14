@@ -173,10 +173,10 @@ def main() -> int:
     if papers is not None and REGISTRY.exists():
         reg = json.loads(REGISTRY.read_text(encoding="utf-8"))
         reg_papers = [e for e in reg if "literature_analysis" in e["path"]]
-        check("附: PAPERS 21 篇", len(papers) == 21, f"{len(papers)} 篇")
+        check("附: PAPERS 与目录数一致", len(papers) == _fs_paper_count(), f"{len(papers)} 篇 (fs={_fs_paper_count()})")
         rd_empty = [p["stem"] for p in papers if not p.get("read_date")]
-        check("附: read_date 非空 21/21", not rd_empty, f"缺 {len(rd_empty)}")
-        check("附: registry 21 篇", len(reg_papers) == 21, f"{len(reg_papers)} 篇")
+        check("附: read_date 非空", not rd_empty, f"{len(papers)-len(rd_empty)}/{len(papers)} 缺 {len(rd_empty)}")
+        check("附: registry 与目录数一致", len(reg_papers) == _fs_paper_count(), f"{len(reg_papers)} 篇 (fs={_fs_paper_count()})")
         reg_stems = set()
         for e in reg_papers:
             parts = e["path"].replace("/literature_analysis/00_overview.md", "").split("/")
@@ -210,6 +210,17 @@ def main() -> int:
         return 1
     print("审计结果: 全部通过 ✅")
     return 0
+
+
+def _fs_paper_count() -> int:
+    """文件系统中论文目录数（动态，不再硬编码 21）。"""
+    n = 0
+    for cat in CAT_DIRS:
+        cp = ROOT / cat
+        if cp.exists():
+            n += sum(1 for d in cp.iterdir()
+                     if d.is_dir() and (d / "literature_analysis" / "00_overview.md").exists())
+    return n
 
 
 def _norm(s: str) -> str:

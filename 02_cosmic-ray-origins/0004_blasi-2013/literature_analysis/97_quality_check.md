@@ -2,8 +2,6 @@
 
 > 文献：`0004_blasi-2013`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
-> 上一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/10_references.md|10_references.md]]
-> 下一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 
@@ -13,21 +11,21 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 11 个（✅） |
-| **合计** | **13 个分析文件，1956 行** |
+| **合计** | **14 个分析文件，2022 行** |
 
 ## 覆盖统计
 
 | 项目 | 数量 | 说明 |
 |---|---|---|
-| §1 标题数 | 13 | 主章节数 |
-| §2 标题数 | 119 | 分节数 |
+| §1 标题数 | 14 | 主章节数 |
+| §2 标题数 | 123 | 分节数 |
 | §3 标题数 | 146 | 子分节数 |
-| 图 (Figure) | 34 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
-| 表 (Table) | 5 | 同上 |
+| 图 (Figure) | 35 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 6 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 254 | 事实陈述 |
-| [INTERPRETATION] | 23 | 解读 |
-| [CRITIQUE] | 34 | 批判 |
+| [FACT] | 256 | 事实陈述 |
+| [INTERPRETATION] | 25 | 解读 |
+| [CRITIQUE] | 36 | 批判 |
 
 ## 完成度评分
 

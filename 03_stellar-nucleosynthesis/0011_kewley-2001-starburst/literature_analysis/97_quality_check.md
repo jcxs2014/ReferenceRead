@@ -2,8 +2,6 @@
 
 > 文献：`0011_kewley-2001-starburst`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
-> 上一章：[[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/01_analysis.md|01_analysis.md]]
-> 下一章：[[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 
@@ -13,21 +11,21 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 2 个（✅） |
-| **合计** | **4 个分析文件，1020 行** |
+| **合计** | **5 个分析文件，1091 行** |
 
 ## 覆盖统计
 
 | 项目 | 数量 | 说明 |
 |---|---|---|
-| §1 标题数 | 20 | 主章节数 |
-| §2 标题数 | 68 | 分节数 |
+| §1 标题数 | 21 | 主章节数 |
+| §2 标题数 | 72 | 分节数 |
 | §3 标题数 | 6 | 子分节数 |
-| 图 (Figure) | 8 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
-| 表 (Table) | 2 | 同上 |
+| 图 (Figure) | 9 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 3 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 102 | 事实陈述 |
-| [INTERPRETATION] | 6 | 解读 |
-| [CRITIQUE] | 6 | 批判 |
+| [FACT] | 104 | 事实陈述 |
+| [INTERPRETATION] | 8 | 解读 |
+| [CRITIQUE] | 8 | 批判 |
 
 ## 完成度评分
 

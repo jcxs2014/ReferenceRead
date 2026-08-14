@@ -2,8 +2,6 @@
 
 > 文献：`0012_dieterich-2014-h-burning-limit`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
-> 上一章：[[03_stellar-nucleosynthesis/0012_dieterich-2014-h-burning-limit/literature_analysis/01_analysis.md|01_analysis.md]]
-> 下一章：[[03_stellar-nucleosynthesis/0012_dieterich-2014-h-burning-limit/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 
@@ -13,21 +11,21 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 2 个（✅） |
-| **合计** | **4 个分析文件，1011 行** |
+| **合计** | **5 个分析文件，1081 行** |
 
 ## 覆盖统计
 
 | 项目 | 数量 | 说明 |
 |---|---|---|
-| §1 标题数 | 21 | 主章节数 |
-| §2 标题数 | 45 | 分节数 |
+| §1 标题数 | 22 | 主章节数 |
+| §2 标题数 | 49 | 分节数 |
 | §3 标题数 | 13 | 子分节数 |
-| 图 (Figure) | 17 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
-| 表 (Table) | 25 | 同上 |
+| 图 (Figure) | 18 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 26 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 80 | 事实陈述 |
-| [INTERPRETATION] | 5 | 解读 |
-| [CRITIQUE] | 2 | 批判 |
+| [FACT] | 82 | 事实陈述 |
+| [INTERPRETATION] | 7 | 解读 |
+| [CRITIQUE] | 4 | 批判 |
 
 ## 完成度评分
 
@@ -38,12 +36,12 @@
 | 词汇表 (98_vocabulary) | 1 | 1 |
 | 正文覆盖 | 2 | 2 |
 | 图表完整性 | 2 | 2 |
-| 批判性分析 | 1 | 2 |
+| 批判性分析 | 2 | 2 |
 | 公式完整性 | 0 | 1 |
-| **总分** | **6 / 10** | |
+| **总分** | **8 / 10** | |
 
 ## 建议
 
-- 该论文精读**部分覆盖**（6/10）。可考虑补充正文分章、批判观点或公式整理。
+- 该论文精读**基本完整**（8/10）。
 
 *（本页由 `scripts/gen_quality_check.py` 自动生成）*

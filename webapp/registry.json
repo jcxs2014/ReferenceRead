@@ -1513,6 +1513,73 @@
     "key_values": []
   },
   {
+    "title": "A New Table of Abundances of the Elements in the Solar System [FACT]",
+    "authors": "A. G. W. Cameron [FACT]",
+    "year": "1968",
+    "journal": "《Origin and Distribution of the Elements》会议文集 (Ahrens, L. H., ed., 1968) [FACT]",
+    "doi": "未提供 [FACT] (由 Elsevier 出版,ISBN 前缀在 PDF 文件名中可见 `3-s2.0-B9780080128351500155`)",
+    "arxiv": "未提供",
+    "keywords": "elemental abundances, solar system, carbonaceous chondrites, Type I meteorites, Suess-Urey table, nucleosynthesis, r-process, s-process, p-process [FACT]",
+    "category": "恒星核合成",
+    "status": "completed",
+    "read_date": "2026-08-14",
+    "lastread": "2026-08-14",
+    "tags": [
+      "elemental abundances",
+      "solar system",
+      "carbonaceous chondrites",
+      "Type I meteorites",
+      "Suess-Urey table",
+      "nucleosynthesis",
+      "r-process",
+      "s-process",
+      "p-process [FACT]"
+    ],
+    "citations": [
+      "0001_b2fh-1957",
+      "0002_trimble-1975",
+      "0003_fowler-1984",
+      "0006_anders-grevesse",
+      "0007_grevesse-sauval-1998"
+    ],
+    "path": "03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overview.md",
+    "quality": 4,
+    "key_values": []
+  },
+  {
+    "title": "Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios",
+    "authors": "Robert P. Kraft",
+    "year": "1994",
+    "journal": "*Publications of the Astronomical Society of the Pacific* (PASP)",
+    "doi": "未提供（原文未列出 DOI；arXiv 编号未提供）",
+    "keywords": "球状星团巨星、丰度差异、CNO 循环、Sweigart-Mengel 混合机制、深混合、原始丰度变异、Na-O 反相关、C/N 反相关、次参数效应、星族 II",
+    "category": "恒星核合成",
+    "status": "completed",
+    "read_date": "2026-08-14",
+    "lastread": "2026-08-14",
+    "tags": [
+      "球状星团巨星",
+      "丰度差异",
+      "CNO 循环",
+      "Sweigart-Mengel 混合机制",
+      "深混合",
+      "原始丰度变异",
+      "Na-O 反相关",
+      "C/N 反相关",
+      "次参数效应",
+      "星族 II"
+    ],
+    "citations": [
+      "0001_b2fh-1957",
+      "0009_asplund-2009-solar-composition",
+      "0010_gies-lambert-1992",
+      "0014_cameron-1968"
+    ],
+    "path": "03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md",
+    "quality": 8,
+    "key_values": []
+  },
+  {
     "title": "00_key_values",
     "category": "背景知识",
     "status": "completed",
