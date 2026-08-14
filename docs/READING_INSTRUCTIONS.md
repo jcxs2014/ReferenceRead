@@ -510,6 +510,8 @@ grep -r '\[FACT\]\|\[INTERPRETATION\]\|\[CRITIQUE\]' */*/literature_analysis/00_
 
 **build_registry.py 的 registry 校验**已包含「registry tags/authors/title 无污染标记」断言（`audit.py` 自动检查）。
 
+**页数字段（pages）**：新建论文时**必填**。格式：`pages: '79-126'`（起止页码，用短横连接）或 `pages: '126'`（单页/预印本）。arXiv 预印本无页码时用页码占位 `'1-1'`。该字段用于后续章节粒度校验（章节数 ≥ ⌊pages/10⌋ 软断言）。
+
 ### 31. 高频陷阱沉淀（本轮工程化改进中的 4 个真实教训）
 
 本节记录前三轮工程化改进（#14→#21→#7→#1）中反复出现的真实 bug 及修复方式，供后续维护者参考。所有教训均从实际事故中总结，非理论推演。

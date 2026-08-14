@@ -309,6 +309,45 @@ def main() -> int:
               not idx_bad,
               f"坏标题 {len(idx_bad)}" + (f": {idx_bad[:3]}" if idx_bad else ""))
 
+    # ── 附 #12: WCAG 基础无障碍审计 ──
+    if INTERACTIVE.exists():
+        html = INTERACTIVE.read_text(encoding="utf-8")
+        # <img> 必须有 alt
+        imgs = re.findall(r"<img[^>]*>", html, re.I)
+        img_no_alt = [m for m in imgs if "alt=" not in m]
+        check("附: <img> 必须有 alt", len(imgs) == 0 or len(img_no_alt) == 0,
+              f"无 alt {len(img_no_alt)}/{len(imgs)}")
+        # <input> 必须有 aria-label / label[id==input.id]
+        inputs = re.findall(r"<input[^>]*>", html, re.I)
+        bad_inputs = 0
+        for inp in inputs:
+            has_aria = "aria-label" in inp
+            inp_id = re.search(r'\bid="([^"]+)"', inp)
+            has_label = bool(inp_id and (f'for="{inp_id.group(1)}"' in html))
+            if not has_aria and not has_label:
+                bad_inputs += 1
+        check("附: <input> 必须有 aria-label 或关联 label", bad_inputs == 0,
+              f"无 label {bad_inputs}/{len(inputs)}")
+        # <button> 必须有 aria-label / title / 非空文本
+        buttons = re.findall(r"<button[^>]*>", html, re.I)
+        bad_btns = 0
+        for btn in buttons:
+            if "aria-label" in btn or "title=" in btn or "aria-label" in btn:
+                continue
+            # 简单检查: 若 button 内有 <span>/<i> 等 icon-only 则必须有 aria
+            if any(icon_tag in btn.lower() for icon_tag in ["<i ", "<svg", "class="]):
+                bad_btns += 1
+        check("附: <button> 图标按钮必须有 aria-label 或 title", bad_btns == 0,
+              f"图标按钮无 label {bad_btns}/{len(buttons)}")
+        # <svg> 必须有 role="img" 或 title
+        svgs = re.findall(r"<svg[^>]*>", html, re.I)
+        svg_no_role = [s for s in svgs if "role=" not in s and "title" not in s.lower()]
+        check("附: <svg> 必须有 role=\"img\" 或内嵌 <title>", len(svg_no_role) == 0,
+              f"无 role/title {len(svg_no_role)}/{len(svgs)}")
+        # <html> 必须有 lang
+        html_has_lang = bool(re.search(r'<html[^>]*\blang\s*=', html, re.I))
+        check("附: <html> 必须有 lang 属性", html_has_lang)
+
     print()
     if FAILED:
         print(f"审计结果: {len(FAILED)} 项失败 — {', '.join(FAILED)}")
