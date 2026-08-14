@@ -90,7 +90,10 @@ def update_citations_in_frontmatter(overview_path: Path, new_citations: list[str
             if (ROOT / cat / stem).is_dir():
                 return f"{cat}/{stem}/literature_analysis/00_overview"
         return f"{stem}/literature_analysis/00_overview"
-    new_block = "citations:\n" + "\n".join(f"- '[[{target_for(c)}|{c}]]'" for c in new_citations)
+    if new_citations:
+        new_block = "citations:\n" + "\n".join(f"- '[[{target_for(c)}|{c}]]'" for c in new_citations)
+    else:
+        new_block = "citations: []"
     # 找到旧 citations 行区间（支持 inline 或多行 block）
     cit_start = cit_end = None
     for i in range(1, end):

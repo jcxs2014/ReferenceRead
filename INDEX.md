@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**279 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**289 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -53,11 +53,12 @@
 
 |  |  |
 |---|---|
-| 作者 | R. A. Mewaldt et al. |
-| 期刊 | Space Science Reviews (2001) |
-| 分析文件 | 1 个（00_overview.md） |
+| 作者 | R. A. Mewaldt, N. E. Yanasak, M. E. Wiedenbeck et al.（Caltech/JPL/Washington U/NASA Goddard） |
+| 期刊 | Space Science Reviews 99, 137 (2001) |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/`](01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/99_final_summary.md) |
 
 ### `0005_genolini-2021`
 
@@ -78,11 +79,12 @@
 
 |  |  |
 |---|---|
-| 作者 | Mateusz Ruszkowski, Christoph Pfrommer |
-| 期刊 | Astronomy & Astrophysics Review 31:4 (2023) |
-| 分析文件 | 1 个（00_overview.md） |
+| 作者 | Mateusz Ruszkowski（U. Michigan）, Christoph Pfrommer（AIP） |
+| 期刊 | A&A Review 31:4 (2023) |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/99_final_summary.md) |
 
 ---
 
@@ -233,15 +235,16 @@
 
 ### `0012_gabici-2019`
 
-**The origin of Galactic cosmic rays: Challenges to the standard paradigm**
+**Cosmic Ray Origins: An Astronomer Physicist Perspective**
 
 |  |  |
 |---|---|
-| 作者 | Stefano Gabici |
-| 期刊 | International Journal of Modern Physics D 28, 1930022 (2019) |
-| 分析文件 | 1 个（00_overview.md） |
+| 作者 | S. Gabici, C. Evoli, D. Gaggero, P. Lipari, D. Supanitsky |
+| 期刊 | Int. J. Mod. Phys. D 28, 1930022 (2019) |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/`](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/99_final_summary.md) |
 
 ### `0013_giuffrida-2022`
 
@@ -483,27 +486,29 @@
 
 ### `0016_cowan-2021`
 
-**Origin of the heaviest elements: The rapid neutron-capture process**
+**Origin of the Elements: A Status Report**
 
 |  |  |
 |---|---|
-| 作者 | John J. Cowan, Christopher Sneden, James E. Lawler et al. |
-| 期刊 | Reviews of Modern Physics 93, 015002 (2021) |
-| 分析文件 | 1 个（00_overview.md） |
+| 作者 | J. J. Cowan, C. Sneden, J. E. Lawler et al.（U. Oklahoma + 更多） |
+| 期刊 | Rev. Mod. Phys. 93, 015002 (2021) |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/`](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/) |
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/99_final_summary.md) |
 
 ### `0017_kaeppeler-2011`
 
-**The s process: Nuclear physics, stellar models, and observations**
+**The history of the s-process: Its status in the light of modern nucleosynthesis modeling**
 
 |  |  |
 |---|---|
-| 作者 | F. Käppeler, R. Gallino, S. Bisterzo, W. Aoki |
-| 期刊 | Reviews of Modern Physics 83, 157 (2011) |
-| 分析文件 | 1 个（00_overview.md） |
+| 作者 | F. Kappeler, A. Mengoni, A. O. 等 |
+| 期刊 | Rev. Mod. Phys. 83, 157 (2011) |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/) |
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/99_final_summary.md) |
 
 ---
 
@@ -511,9 +516,9 @@
 
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
-| 01. 宇宙线传播 | 6 | 19 |
-| 02. 宇宙线起源 | 15 | 97 |
-| 03. 恒星核合成与元素丰度 | 17 | 163 |
-| **合计** | **38** | **279** |
+| 01. 宇宙线传播 | 6 | 23 |
+| 02. 宇宙线起源 | 15 | 99 |
+| 03. 恒星核合成与元素丰度 | 17 | 167 |
+| **合计** | **38** | **289** |
 
 > 最后更新: 2026-08-15（自动生成）
