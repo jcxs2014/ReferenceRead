@@ -1,40 +1,66 @@
 # papers — 文献阅读与分析工作区
 
-> 21 篇文献（23 篇分析目录，含两篇双论文并列）、205 个分析文件、3 篇主题背景知识库。
+> **23 篇文献**（共 23 篇精读，含 0 篇双论文并列）、31 篇分析目录、7 篇跨篇主题背景知识库。
 >
-> 按主题域 → 单篇论文 → `literature_analysis/` 三层结构组织。每篇文献按 `READING_INSTRUCTIONS.md` 的 28 节规范精读。
-- `TROUBLESHOOTING.md` — 故障排除与修复记录（按工作流分类：精读/构建/数据一致性/工具）
+> 按主题域 → 单篇论文 → `literature_analysis/` 三层结构组织。每篇文献按 `READING_INSTRUCTIONS.md` 的 29 节规范精读。
 
 ## 目录结构
 
 ```
 papers/
 ├── README.md                       ← 本文档：工作区总览与接入 SOP
-├── READING_INSTRUCTIONS.md         ← 精读操作手册（28 节规范）
-├── INDEX.md                        ← 21 篇论文分析入口（含目录、概览、总结）
-├── ENHANCEMENTS.md                 ← 改进建议清单（P0/P1/P2）
-├── GIT_CONVENTION.md               ← Git 提交规范（来自 HermesLocal 根）
+├── READING_INSTRUCTIONS.md         ← 精读操作手册（29 节规范 + 数据一致性经验）
+├── INDEX.md                        ← 23 篇论文分析入口（gen_index.py 自动生成）
+├── ADVANCEMENT.md                  ← 进阶方案（v2.1 + V2.2 补丁，已全部落地）
+├── WEBAPP_DESIGN.md                ← Webapp 架构与实现
+├── ENHANCEMENTS.md                 ← 改进建议清单（9 条全部完成，归档参考）
+├── TROUBLESHOOTING.md              ← 故障排除与修复记录（A/B/C/D/E/F 六类 + 排障 SOP）
+├── backup/                         ← 历史快照
 │
 ├── 01_cosmic-ray-propagation/      ← 宇宙线传播主题
 │   └── NNNN_作者-年份/
-│       ├── *.pdf                   ← 原文（被 .gitignore 忽略）
+│       ├── *.pdf                   ← 原文（被 .gitignore 忽略，库内单独 git add -f）
 │       └── literature_analysis/    ← 精读产出
-│           ├── 00_overview.md
-│           ├── 01_…NN_*.md          ← 正文分章
-│           ├── 98_vocabulary.md    ← 词汇表（A 逻辑词 + B 术语 + C 长难句）
+│           ├── 00_overview.md            ← 文献元数据 + 结构树 + 篇间导航
+│           ├── 01_…NN_*.md              ← 正文分章
+│           ├── 97_quality_check.md      ← 完成度自查（gen_quality_check.py 自动生成）
+│           ├── 98_vocabulary.md          ← 词汇表（A 逻辑词 + B 术语 + C 长难句）
 │           └── 99_final_summary.md
 │
-├── 02_cosmic-ray-origins/          ← 宇宙线起源主题
+├── 02_cosmic-ray-origins/          ← 宇宙线起源与 UHECR 主题
 ├── 03_stellar-nucleosynthesis/     ← 恒星核合成与元素丰度主题
 │
 ├── background/                     ← 跨篇主题知识体系（库级）
-│   ├── README.md
+│   ├── 00_key_values.md             ← 跨篇关键数值速查表
 │   ├── 01_cosmic_rays.md           ← 宇宙线物理（传播、加速、UHECR、CR-ISM）
 │   ├── 02_nucleosynthesis.md       ← 恒星核合成（八大过程、BBN、爆炸性燃烧）
-│   └── 03_astrophysics.md          ← 太阳丰度与天体物理（太阳组成、恒星、暗物质）
+│   ├── 03_astrophysics.md          ← 太阳丰度与天体物理（太阳组成、恒星、暗物质）
+│   ├── 04_critique_index.md        ← 跨篇 CRITIQUE 观点索引
+│   ├── 05_glossary.md              ← 全库术语表（gen_glossary.py 自动生成，769 术语）
+│   └── 06_controversy_evolution.md ← 争议演化时间线
 │
-└── scripts/                        ← 自动化脚本（详见 P2-8）
-    └── gen_index.py                ← 从目录结构自动生成 INDEX.md
+├── webapp/                         ← 单文件 HTML 知识库（详见 webapp/ 工具链）
+│   ├── shell.html                  ← HTML 模板（CSS + JS + KaTeX 集成）
+│   ├── interactive.html            ← 构建产物（~4 MB，被 .gitignore 忽略）
+│   ├── build_webapp.py             ← 主构建（背景必跑，加 --include-papers 收论文）
+│   ├── build_fm.py                 ← 写 frontmatter（剥离 _strip_fact_tag 等防护）
+│   ├── build_citations.py          ← citations 唯一生成器（篇间导航 → 库内引用）
+│   ├── build_registry.py           ← 读 27 frontmatter → webapp/registry.json
+│   ├── build_glossary.py            ← 从 23 篇 98_vocabulary.md 抽 → 05_glossary.md
+│   ├── build_pwa.py                ← PWA 资源（manifest + 图标 + apple-touch-icon）
+│   ├── apply_wikilinks.py          ← V2.2: 导航/citations → Obsidian wikilink
+│   ├── patch_appendix_nav.py       ← V2.2: 给 97/98 附录补链（防孤立）
+│   ├── audit.py                    ← 构建后审计（18 条断言，失败非零退出）
+│   ├── server.py                   ← 形态 B 服务层（/api/progress?slug=, /api/rebuild）
+│   ├── md2doc_html.py              ← md → HTML 片段
+│   ├── registry.json               ← 派生产物（30 条：23 论文 + 7 背景）
+│   └── glossary.json               ← 派生产物（661 术语）
+│
+├── scripts/                        ← 库级生成脚本
+│   ├── gen_index.py                ← 扫描 → INDEX.md
+│   ├── gen_quality_check.py        ← 扫描 → 97_quality_check.md
+│   └── gen_glossary.py             ← 扫描 → 05_glossary.md（已被 webapp/build_glossary.py 替代）
+└── setup_obsidian.sh               ← Obsidian 仓库初始化
 ```
 
 ## 主题域
@@ -42,9 +68,9 @@ papers/
 | 编号 | 主题 | 论文数 |
 |---|---|---|
 | 01 | 宇宙线传播 | 1 |
-| 02 | 宇宙线起源 | 7 |
-| 03 | 恒星核合成与元素丰度 | 13 |
-| **合计** | | **21** |
+| 02 | 宇宙线起源与 UHECR | 7 |
+| 03 | 恒星核合成与元素丰度 | 15 |
+| **合计** | | **23** |
 
 新增主题域直接开 `NN_主题名/`（编号顺延），同时更新 `INDEX.md` 和本文档。
 
@@ -58,30 +84,47 @@ PDF 原文
   ├──→ fulltext.txt / extracted.json（fitz 提取；.gitignore 忽略；跨设备靠 FreeFileSync 同步）
   │
   └──→ literature_analysis/
-       00_overview.md            ← 文献元数据 + 结构树 + 关键术语
+       00_overview.md            ← 文献元数据 + 结构树 + 篇间导航
        01_…NN_*.md                ← 分章精读（[FACT]/[INTERPRETATION]/[CRITIQUE] 三标签）
+       97_quality_check.md      ← 完成度自查（gen_quality_check.py）
        98_vocabulary.md          ← A 学术逻辑词 + B 领域术语 + C 长难句
        99_final_summary.md       ← 一句话总结 + 核心结果 + 创新 + 局限 + 15 条记忆点
 ```
 
 精读操作手册见 [`READING_INSTRUCTIONS.md`](READING_INSTRUCTIONS.md)。
 
-## 新增文献接入 SOP
+## 新增文献接入 SOP（验证版）
 
-按下面 7 步执行；新增主题域需同步更新本文档与 `INDEX.md`。
+按下面 9 步执行（Cameron 1968 / Kraft 1994 批次已走通完整流程）：
 
-```
+```bash
 ① 建目录   在合适主题域下新建 NNNN_作者-年份/（编号为主题域内下一个序号）
-② 放原文   论文 PDF 放入目录；命名沿用现有风格（作者-简短标题+编号.pdf）
-③ 提取文本 用 fitz 脚本提取 → fulltext.txt / extracted/*.json（.gitignore 忽略，
-            依赖 FreeFileSync 跨设备同步；扫描版 PDF 用 pdftoppm 转 PNG → vision_analyze）
-④ 精读     按 READING_INSTRUCTIONS.md 28 节执行
+② 归档原文  PDF 放入目录；仓库内 PDF 用 `git add -f`（根目录 PDF 默认 .gitignore）
+③ 提取文本  env -u PYTHONPATH python3 -c "import fitz; ..." → fulltext.txt
+            扫描版 PDF 用 pdftoppm 转 PNG → vision_analyze
+④ 精读     按 READING_INSTRUCTIONS.md 29 节执行
             → literature_analysis/：00_overview → 分章 → 98_vocabulary → 99_final_summary
-⑤ 挂接     在 00_overview.md 标注「前序阅读/关联论文」（见 P0-3 篇间导航）
-            判断是否汇入 background/ 对应主题文档
-⑥ 更新索引 跑 scripts/gen_index.py 自动生成 INDEX.md（或手动更新）
-            若开新主题域，同步更新本文档与 INDEX.md
-⑦ 提交同步 git commit + FreeFileSync 双向同步
+            → 篇间导航小节用 [``stem``](../../NN_作者-年份/literature_analysis/00_overview.md) 标准格式
+⑤ 走 build 链（顺序关键，P0-6 防护）：
+            python3 webapp/build_citations.py    # 篇间导航 → frontmatter citations
+            python3 webapp/build_fm.py           # 写 frontmatter（自动清洗 [FACT] 等）
+            python3 webapp/build_registry.py     # 生成 webapp/registry.json
+⑥ 自动维护：
+            python3 scripts/gen_index.py        # 23 篇 → INDEX.md
+            python3 scripts/gen_quality_check.py # → 97_quality_check.md
+            python3 scripts/gen_glossary.py      # → background/05_glossary.md
+            （gen_glossary.py 已被 webapp/build_glossary.py 部分替代，后者直接生成 webapp/glossary.json）
+⑦ webapp 重建：
+            python3 webapp/build_webapp.py --include-papers    # docs 31 / TOC 4333 / papers 23
+⑧ 审计：   python3 webapp/audit.py              # 18 条断言，失败非零退出
+            headless 验证：/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --headless --dump-dom ...
+⑨ 提交     git add -f <新篇目录> + git commit
+```
+
+**V2.2 wikilink 化**（可选，让 Obsidian Graph 显示论文间连线）：
+```bash
+python3 webapp/patch_appendix_nav.py     # 97/98 补链（孤立节点）
+python3 webapp/apply_wikilinks.py        # 导航头 + citations → [[wikilink]]（含编号对齐修复）
 ```
 
 ## 常用命令
@@ -93,20 +136,47 @@ cd /Users/jcxs2014/Sites/HermesLocal/papers
 # 列出所有论文目录
 ls 0?-*/  | grep "000[0-9]"
 
-# 生成 INDEX.md
-python3 scripts/gen_index.py
+# 完整 build 链
+python3 webapp/build_citations.py && \
+python3 webapp/build_fm.py && \
+python3 webapp/build_registry.py && \
+python3 scripts/gen_index.py && \
+python3 scripts/gen_quality_check.py && \
+python3 webapp/build_webapp.py --include-papers && \
+python3 webapp/audit.py
 
-# 查看主题背景知识
-ls background/
+# 启动形态 B 服务层（端口 8747）
+python3 webapp/server.py
 
 # 检查 git 状态
 git status
 git log --oneline -10
+
+# 提取 PDF 全文（fitz）
+env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0].get_text())"
 ```
+
+## webapp 工具链（11 脚本）
+
+| 脚本 | 职责 | 调用顺序 |
+|---|---|---|
+| `build_citations.py` | **citations 唯一生成器**（篇间导航 → 库内引用） | 1 |
+| `build_fm.py` | 写 frontmatter（剥 `[FACT]`/wikilink 透传/P0-6 防护） | 2 |
+| `build_registry.py` | 读 27 frontmatter → `registry.json` | 3 |
+| `build_glossary.py` | 661 术语解析 → `glossary.json` | 4 |
+| `build_webapp.py` | 主构建（`--include-papers` 收论文） | 5 |
+| `audit.py` | 18 条断言（label/年份/TOC/citations/图谱） | 6 |
+| `build_pwa.py` | PWA 资源（manifest + 图标） | 7 |
+| `apply_wikilinks.py` | V2.2 导航/citations → wikilink | 8 |
+| `patch_appendix_nav.py` | V2.2 97/98 补链 | 8 前置 |
+| `server.py` | 形态 B 进度 API | 独立 |
+| `md2doc_html.py` | md → HTML 片段 | build_webapp 内部 |
+
+**最小可重跑链**：`build_citations → build_fm → build_registry → build_webapp → audit`
 
 ## 元数据勘误记录（13 处）
 
-原始 PDF 文件名含误导性作者名；以下论文目录名已修正为**实际第一作者-年份**，详见 `ENHANCEMENTS.md` §A 与各篇 `00_overview.md` 元数据：
+原始 PDF 文件名含误导性作者名；以下论文目录名已修正为**实际第一作者-年份**（详见 `ENHANCEMENTS.md` §A）：
 
 | 原目录名 | 实际作者 | 年份 |
 |---|---|---|
@@ -126,11 +196,27 @@ git log --oneline -10
 
 ## 关键文档索引
 
-- **精读操作手册**：[`READING_INSTRUCTIONS.md`](READING_INSTRUCTIONS.md)（28 节规范）
-- **论文分析入口**：[`INDEX.md`](INDEX.md)（21 篇概览 + 总结）
-- **改进建议清单**：[`ENHANCEMENTS.md`](ENHANCEMENTS.md)（P0/P1/P2 待办）
-- **主题知识体系**：[`background/`](background/)（3 篇跨篇综述）
+| 文档 | 用途 |
+|---|---|
+| [`READING_INSTRUCTIONS.md`](READING_INSTRUCTIONS.md) | 精读操作手册（29 节规范 + 数据一致性经验） |
+| [`INDEX.md`](INDEX.md) | 23 篇论文分析入口（自动生成） |
+| [`ADVANCEMENT.md`](ADVANCEMENT.md) | 进阶方案 v2.1 + V2.2 补丁（已全部落地） |
+| [`WEBAPP_DESIGN.md`](WEBAPP_DESIGN.md) | Webapp 架构与实现细节 |
+| [`ENHANCEMENTS.md`](ENHANCEMENTS.md) | 改进建议清单（9 条全部 ✅ 完成） |
+| [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md) | 故障排除与修复记录（18 条 + SOP） |
+| [`background/`](background/) | 7 篇跨篇主题知识库 |
+
+## 已完成 / 进行中
+
+- ✅ 批 1（frontmatter + registry）
+- ✅ 批 2（audit + 形态 B 服务层）
+- ✅ 批 3（术语 hover + O2 图谱，61 边）
+- ✅ 批 4（PWA + 阶段六争议演化）
+- ✅ V2.2 补丁（Obsidian 图谱链接化）
+- ✅ 库扩 23 篇（+2 新文献：Cameron 1968 / Kraft 1994）
+
+后续路线见 [`ADVANCEMENT.md`](ADVANCEMENT.md)。
 
 ---
 
-> 最后更新: 2026-08-13
+> 最后更新: 2026-08-14

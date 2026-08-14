@@ -1,7 +1,8 @@
 # background 知识库交互式网页 — 详细实施方案
 
 > 关联条目：`ENHANCEMENTS.md` #7（P2 工具与体验层）
-> 版本：v1（2026-08-13，由 WorkBuddy 审查时起草，供执行侧 Hermes agent 参考/确认后实施）
+> 版本：v1（2026-08-13，由 WorkBuddy 审查时起草，供执行侧 Hermes agent 参考/确认后实施）—— 已于 2026-08-14 全部实施
+> **V2.2 后续**（Obsidian 图谱链接化，2026-08-14）见 [`ADVANCEMENT.md`](ADVANCEMENT.md) V2.2 补丁章节
 > 可复用资产：`/Users/jcxs2014/Sites/Workbuddy-Local/agent-harness/agent-harness-interactive.html`（220KB 单文件）与 `tools/md2doc_html.py`（无依赖 md→HTML 转换器）
 
 ---

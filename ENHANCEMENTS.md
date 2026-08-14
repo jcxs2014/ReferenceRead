@@ -117,3 +117,21 @@
 5. P1-4/5/6（内容档案增强，可随新论文精读逐步补）
 6. P2-7（交互网页，工作量最大，单独排期）
 7. P2-9（术语查重，建议在新论文接入时同步维护）
+
+
+---
+
+## 状态：全部完成（2026-08-14）
+
+本文档列出的 9 条改进建议（**P0-1, P0-2, P0-3, P1-4, P1-5, P1-6, P2-7, P2-8, P2-9**）**全部 ✅ 完成**：
+
+- P0-1 README 总览 → 大修完成（见 [README.md](README.md)）
+- P0-2 提交遗留变更 → 已清理
+- P0-3 篇间导航 → V2.2 已升级为 Obsidian wikilink（见 [ADVANCEMENT.md](ADVANCEMENT.md) V2.2 补丁）
+- P1-4/5/6 内容档案增强 → background/ 6 篇综述已建（含 06_controversy_evolution）
+- P2-7 交互网页 → 已实现（[WEBAPP_DESIGN.md](WEBAPP_DESIGN.md)）
+- P2-8 scripts/gen_index.py → 已实现
+- P2-9 术语查重 → 05_glossary.md 769 术语已建
+
+**后续建议路线**见 [ADVANCEMENT.md](ADVANCEMENT.md)（v2.1 六阶段 + V2.2 补丁均已落地）。
+本文件保留作为**历史提案快照**，不删除以备审计。
