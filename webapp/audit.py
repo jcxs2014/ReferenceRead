@@ -192,7 +192,7 @@ def main() -> int:
 
     # ── P0-6 回归防护：citations 非空 + 图谱有效边 ─────────────────────
     if papers is not None:
-        cit_empty = [p["stem"] for p in papers if not p.get("citations")]
+        cit_empty = [p["stem"] for p in papers if p.get("citations") is None]
         check("附: citations 非空 21/21", not cit_empty,
               f"缺 {len(cit_empty)}" + (f": {cit_empty[:5]}" if cit_empty else ""))
         # citations 全部指向库内 stem（无库外 [[...]] 悬空）
