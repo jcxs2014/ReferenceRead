@@ -509,3 +509,37 @@ grep -r '\[FACT\]\|\[INTERPRETATION\]\|\[CRITIQUE\]' */*/literature_analysis/00_
 ```
 
 **build_registry.py 的 registry 校验**已包含「registry tags/authors/title 无污染标记」断言（`audit.py` 自动检查）。
+
+### 31. 高频陷阱沉淀（本轮工程化改进中的 4 个真实教训）
+
+本节记录前三轮工程化改进（#14→#21→#7→#1）中反复出现的真实 bug 及修复方式，供后续维护者参考。所有教训均从实际事故中总结，非理论推演。
+
+#### 陷阱 1：year 提取必须走"frontmatter → parent.parent.stem → 正文"兜底链
+
+**事故**：Anders 1989 论文 year 反复错误——`build_fm.py` 用 `parent.stem`（取到 `literature_analysis`），再 fallback 到正文 `_most_likely_year()`，正文中 `...from the 1970s...` 先出现，被优先匹配为 `1970`。
+
+**正确链**：
+```
+fields.year → parent.parent.stem → overview_path.stem → _most_likely_year(body)
+```
+（`parent.parent.stem` = `0010_anders-1989-facility...` → 正则 `1989`）
+
+#### 陷阱 2：registry key 映射必须用 `parts[-2]`
+
+**事故**：`path = "03_stellar.../literature_analysis/00_overview.md"`，用 `parts[-1]` 取到 `literature_analysis`，导致 registry 查不到对应 overview。
+
+**正确**：`parts[-2]` 取到 `00_overview`，再向上拼 stem。
+
+#### 陷阱 3：build_webapp 生成 label 必须复用 `_fmt_authors()`
+
+**事故**：H4 作者标签回归——`build_webapp.py` 自己拼 label，绕过了 `_clean_author()`，导致 `**bold**` 污染进入 label 字段。
+
+**正确**：所有字段清洗统一走 `_clean_field()` + `_fmt_authors()`，不允许任何脚本私下拼字段。
+
+#### 陷阱 4：构建链必须固化解释器（P0-4 模式）
+
+**事故**（第 3 次复发）：`build_registry.py` 依赖 `import yaml`，`verify_claim.sh` 用裸 `python3`。换 shell 后 PATH 解析到无 yaml 的 managed 3.13.12 → **FAIL=3**。此前 2 次：#1 frontmatter 写入时 `build_registry` 同样崩、rebuild 500。
+
+**正确**：任何依赖第三方库的脚本，在 shell 中必须显式指定含对应库的解释器，或脚本顶部自检测（`python3 -c "import yaml" || ...`）。
+
+**通用原则**：「声称完成 ≠ 实际完成」= #21 门禁存在的根本原因。任何交付前必须实测（`bash verify_claim.sh` / `python3 audit.py`），而非只看 commit message。
