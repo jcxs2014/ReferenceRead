@@ -10,8 +10,7 @@ status: completed
 read_date: '2026-08-14'
 lastread: '2026-08-14'
 tags: []
-citations:
-
+citations: []
 path: 02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/00_overview.md
 ---
 > 状态：**精读完成**（2026-08-15）
