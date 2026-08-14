@@ -404,5 +404,5 @@ path: background/00_key_values.md
 
 ---
 
-*来源文件（21 篇 99_final_summary.md）：Strong-Moskalenko-Ptuskin 2007（§1.1）；Bhattacharjee & Sigl 1999（§1.3）；Al-Dargazelli 1996（§1.3）；Gaisser 1990（§1.2）；Blasi 2013（§1.4）；Amato 2014（§1.4）；Grenier-Black-Strong 2015（§1.4）；Biermann 1996（§1.4）；B²FH 1957（§2.1）；Trimble 1975（§2.1）；Fowler 1984（§2.1）；Wallerstein 1997（§2.1）；Champagne & Wiescher 1992（§2.2）；Kewley 2001（§2.3）；Dieterich 2014（§2.4）；Anders & Grevesse 1989（§3）；Grevesse & Sauval 1998（§3）；Lodders 2003（§3）；AGSS09（§3）；Gies & Lambert 1992（§3.4）；Bertone & Hooper 2018（§4）。*
+*来源文件（23 篇 99_final_summary.md）：Strong-Moskalenko-Ptuskin 2007（§1.1）；Bhattacharjee & Sigl 1999（§1.3）；Al-Dargazelli 1996（§1.3）；Gaisser 1990（§1.2）；Blasi 2013（§1.4）；Amato 2014（§1.4）；Grenier-Black-Strong 2015（§1.4）；Biermann 1996（§1.4）；B²FH 1957（§2.1）；Trimble 1975（§2.1）；Fowler 1984（§2.1）；Wallerstein 1997（§2.1）；Cameron 1968（§2.1）；Champagne & Wiescher 1992（§2.2）；Kewley 2001（§2.3）；Dieterich 2014（§2.4）；Anders & Grevesse 1989（§3）；Grevesse & Sauval 1998（§3）；Lodders 2003（§3）；AGSS09（§3）；Gies & Lambert 1992（§3.4）；Kraft 1994（§3.5）；Bertone & Hooper 2018（§4）。*
 
