@@ -9,6 +9,7 @@ import os
 import re
 import sys
 import argparse
+from datetime import datetime
 from pathlib import Path
 from collections import OrderedDict
 
@@ -24,6 +25,16 @@ TOPICS = [
 # Author / journal / etc. extracted from each paper's 00_overview.md
 # Falls back to directory name + file count if overview is missing fields.
 
+def _fmt_title(t: str) -> str:
+    """Title Case 清洗：全大写或全小写标题转为标题大小写。"""
+    t = t.strip()
+    if not t or t != t.upper() and t != t.lower():
+        return t  # 混合大小写不处理
+    # 全大写/全小写时做 Title Case（保留罗马数字等大写）
+    import re as _re
+    return _re.sub(r"\b([a-z])([a-z]*)\b", lambda m: m.group(1).upper() + m.group(2), t.lower())
+
+
 def extract_meta(overview: Path):
     """Parse a few standard fields from 00_overview.md front-matter table."""
     meta = {"authors": "", "journal": "", "title": ""}
@@ -36,11 +47,18 @@ def extract_meta(overview: Path):
                       text, re.IGNORECASE)
         if m:
             meta[key] = m.group(1).strip().rstrip("|").strip()
-    # Also pick up "- **Authors**: ..." bullet format
+    # bullet format fallback: "- **Key**: value"
     if not meta["authors"]:
         m = re.search(r"\*?\*?Authors?\*?\*?\s*[:：]\s*([^\n]+)", text)
         if m:
             meta["authors"] = m.group(1).strip()
+    if not meta["title"]:  # title 同样有 bullet fallback（之前缺）
+        m = re.search(r"\*?\*?Title?\*?\*?\s*[:：]\s*([^\n]+)", text)
+        if m:
+            meta["title"] = m.group(1).strip()
+    # title 全大写/全小写时做 Title Case
+    if meta["title"]:
+        meta["title"] = _fmt_title(meta["title"])
     return meta
 
 
@@ -140,7 +158,7 @@ def render(papers):
         out.append(f"| {label} | {n_papers} | {n_files} |")
     out.append(f"| **合计** | **{total_papers}** | **{total_files}** |")
     out.append("")
-    out.append("> 最后更新: 2026-08-13（自动生成）")
+    out.append(f"> 最后更新: {datetime.now().strftime('%Y-%m-%d')}（自动生成）")
     return "\n".join(out)
 
 

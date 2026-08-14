@@ -21,8 +21,8 @@ tags:
 - 元素丰度
 - 云捕获
 - 能量谱指数 > ⚠️ **重要更正**：任务上下文中标记的作者 "Moskalenko & Strong 1996
-- arXiv:astro-ph/9609110" 与 PDF 实际不符。**本 PDF 实际作者为 Peter L. Biermann
-- arXiv 编号 astro-ph/9609110**（Moskalenko & Strong 的经典核碎裂截面表是另一篇工作）。下文严格以 PDF 为准。 ---
+- arXiv:astro-ph/9609110" 与 PDF 实际不符。**本 PDF 实际作者为 Peter L. Biermann**
+- arXiv 编号 astro-ph/9609110**（Moskalenko & Strong 的经典核碎裂截面表是另一篇工作）。下文严格以 PDF 为准。 ---**
 citations:
 - '[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview|0001_strong-moskalenko-ptuskin-2007]]'
 - '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|0004_blasi-2013]]'

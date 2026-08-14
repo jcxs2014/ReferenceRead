@@ -1,6 +1,6 @@
 ---
 title: 'Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements'
-authors: William A. Fowler**（加州理工 R. K. Kellogg Radiation Laboratory，Pasadena, CA 91225）
+authors: **William A. Fowler**（加州理工 R. K. Kellogg Radiation Laboratory，Pasadena, CA 91225）
 year: '1984'
 journal: Reviews of Modern Physics*, Vol. 56, No. 2, Part I, April 1984, pp. 149–172
 doi: 未提供（该期为 Nobel Lecture 特刊，版权属 THE NOBEL FOUNDATION 1984）

@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **23 篇文献**、**242 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **23 篇文献**、**244 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -66,7 +66,7 @@
 
 ### `0004_blasi-2013`
 
-****
+**The Origin of Galactic Cosmic Rays**
 
 |  |  |
 |---|---|
@@ -79,7 +79,7 @@
 
 ### `0005_amato-2014`
 
-****
+**** The origin of galactic cosmic rays**
 
 |  |  |
 |---|---|
@@ -92,7 +92,7 @@
 
 ### `0006_grenier-2015`
 
-****
+**** The Nine Lives of Cosmic Rays in Galaxies**
 
 |  |  |
 |---|---|
@@ -105,7 +105,7 @@
 
 ### `0007_biermann-1996`
 
-****
+**** Cosmic Ray Interactions and the Abundances of the Chemical Elements**
 
 |  |  |
 |---|---|
@@ -135,7 +135,7 @@
 
 ### `0002_trimble-1975`
 
-****
+**** The origin and abundances of the chemical elements**
 
 |  |  |
 |---|---|
@@ -148,7 +148,7 @@
 
 ### `0003_fowler-1984`
 
-****
+**Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements**
 
 |  |  |
 |---|---|
@@ -161,7 +161,7 @@
 
 ### `0004_wallerstein-1997`
 
-****
+**Synthesis of the elements in stars: forty years of progress**
 
 |  |  |
 |---|---|
@@ -213,7 +213,7 @@
 
 ### `0008_lodders-2003`
 
-****
+**** Solar System Abundances and Condensation Temperatures of the Elements**
 
 |  |  |
 |---|---|
@@ -226,7 +226,7 @@
 
 ### `0009_asplund-2009-solar-composition`
 
-****
+**The chemical composition of the Sun**
 
 |  |  |
 |---|---|
@@ -239,7 +239,7 @@
 
 ### `0010_gies-lambert-1992`
 
-****
+**Carbon, nitrogen, and oxygen abundances in early B-type stars**
 
 |  |  |
 |---|---|
@@ -291,13 +291,13 @@
 
 ### `0014_cameron-1968`
 
-****
+**A New Table of Abundances of the Elements in the Solar System [FACT]**
 
 |  |  |
 |---|---|
 | 作者 | A. G. W. Cameron [FACT] |
 | 期刊 |  |
-| 分析文件 | 6 个（00_overview.md、01_abundance_table.md、02_suess_urey_legacy.md、03_nucleosynthesis_implications.md、98_vocabulary.md、…等 6 个） |
+| 分析文件 | 7 个（00_overview.md、01_abundance_table.md、02_suess_urey_legacy.md、03_nucleosynthesis_implications.md、97_quality_check.md、…等 7 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/`](03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/) |
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/99_final_summary.md) |
@@ -310,7 +310,7 @@
 |---|---|
 | 作者 |  |
 | 期刊 | *Publications of the Astronomical Society of the Pacific* (PASP) |
-| 分析文件 | 10 个（00_overview.md、01_introduction.md、02_abundance_differences.md、03_standard_predictions.md、04_observed_vs_predicted.md、…等 10 个） |
+| 分析文件 | 11 个（00_overview.md、01_introduction.md、02_abundance_differences.md、03_standard_predictions.md、04_observed_vs_predicted.md、…等 11 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/`](03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/) |
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/99_final_summary.md) |
@@ -323,7 +323,7 @@
 |---|---|---|
 | 01. 宇宙线传播 | 1 | 8 |
 | 02. 宇宙线起源 | 7 | 75 |
-| 03. 恒星核合成与元素丰度 | 15 | 159 |
-| **合计** | **23** | **242** |
+| 03. 恒星核合成与元素丰度 | 15 | 161 |
+| **合计** | **23** | **244** |
 
-> 最后更新: 2026-08-13（自动生成）
+> 最后更新: 2026-08-14（自动生成）
