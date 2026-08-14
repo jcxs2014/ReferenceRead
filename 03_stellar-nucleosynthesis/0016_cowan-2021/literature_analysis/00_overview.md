@@ -1,20 +1,18 @@
 ---
 title: 'Origin of the Elements: A Status Report'
-authors: 'J. J. Cowan, C. Sneden, J. E. Lawler, J. R. Sheff, K. L. Den Hartog, R. L. R. Anderson'
+authors: J. J. Cowan, C. Sneden, J. E. Lawler et al.（U. Oklahoma + 更多）
 year: '2021'
-journal: 'Reviews of Modern Physics 93, 015002 (2021)'
+journal: Rev. Mod. Phys. 93, 015002 (2021)
 doi: 10.1103/RevModPhys.93.015002
 arxiv: arXiv:2101.10655
 category: 恒星核合成
 status: completed
 read_date: '2026-08-15'
 lastread: '2026-08-15'
-pages: '015002'
-tags: [r-process, s-process, nucleosynthesis, heavy-elements, neutron-stars, kilonova, B2FH,元素起源]
+tags: []
 citations: []
-
+path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md
 ---
-
 > 状态：**精读完成**（2026-08-15）
 > ★ **元素起源权威综述**——RMP 2021；r 过程（千新星）+ s 过程（AGB/AGB）的最新进展；引力波时代的新纪元
 

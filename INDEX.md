@@ -47,7 +47,7 @@
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/99_final_summary.md) |
 
-### `0004_weinrich-2020-clocks`
+### `0004_mewaldt-2001-clocks`
 
 **Radioactive Clocks and Cosmic-ray Transport in the Galaxy**
 
@@ -56,9 +56,9 @@
 | 作者 | R. A. Mewaldt, N. E. Yanasak, M. E. Wiedenbeck et al.（Caltech/JPL/Washington U/NASA Goddard） |
 | 期刊 | Space Science Reviews 99, 137 (2001) |
 | 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
-| 目录 | [`01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/`](01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/) |
-| 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/00_overview.md) |
-| 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/99_final_summary.md) |
+| 目录 | [`01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/`](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/) |
+| 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/99_final_summary.md) |
 
 ### `0005_genolini-2021`
 

@@ -1,0 +1,503 @@
+                                RADIOACTIVE CLOCKS
+              AND COSMIC-RAY TRANSPORT IN THE GALAXY
+
+      R. A. MEWALDT1, N. E. YANASAK2, M. E. WIEDENBECK2, A. J. DAVIS1,
+W. R. BINNS3, E. R. CHRISTIAN4, A. C. CUMMINGS1, P. L. HINK3, R. A. LESKE1,
+
+              S. M. NIEBUR3, E. C. STONE1 and T. T. VON ROSENVINGE4
+                     1California Institute of Technology, Pasadena CA, 91125, U.S.A.
+                         2Jet Propulsion Laboratory, Pasadena, CA 91009, U.S.A.
+                            3Washington University, St. Louis, MO 68105, U.S.A.
+                       4Goddard Space Flight Center, Greenbelt, MD 20771, U.S.A.
+
+                 (Received 14 September 2000; Accepted in final form: 15 March 2001)
+
+Abstract. There are a number of radioactive `clocks' in the cosmic radiation that can be used
+to measure the time scales for cosmic ray processes in the Galaxy. With high-resolution isotope
+measurements available from ACE it is now possible to read these clocks with greatly improved
+accuracy and address key questions about the origin and lifetime of cosmic rays. This paper discusses
+the status of three such investigations.
+
+                                       1. Introduction
+
+It is now generally agreed that the only sources capable of providing the 3 ×
+1040 ergs per second necessary to sustain cosmic rays in the Galaxy are supernova
+(SN) explosions. It is also generally accepted that the mechanism by which the bulk
+of cosmic rays are energized is shock acceleration - the same mechanism that ap-
+parently accelerates most of the energetic particles that originate in the heliosphere.
+Beyond this, there remain several outstanding questions as to the origin of cosmic
+rays. They include: What is the origin of the material that gets accelerated? Do
+cosmic rays originate from fresh supernova ejecta, `old' interstellar material, or
+a combination of these? Are cosmic rays accelerated by a `one-shot' mechanism
+(i.e., by a single SN shock), or by distributed acceleration continuing over their
+lifetime (i.e., a series of SN shocks)? What volume of the Galaxy do cosmic rays
+fill? Does it include a galactic halo as well as the disk?
+
+   These questions are all related to the time scales of cosmic-ray processes in the
+Galaxy, including the elapsed time between the nucleosynthesis of cosmic-ray ma-
+terial and cosmic-ray acceleration, the time scale for the acceleration process(es),
+and the time scale over which cosmic rays are stored in the Galaxy. Radioactive
+isotopes in cosmic rays provide a means of measuring these time scales.
+
+   Cosmic rays can be divided into two general classes. Primary cosmic rays are
+those that survive after being accelerated from the original pool of source material.
+Secondary cosmic rays are produced by nuclear interactions of (mostly) primary
+
+        Space Science Reviews 99: 27-39, 2001.
+        © 2001 Kluwer Academic Publishers. Printed in the Netherlands.
+28  R. A. MEWALDT ET AL.
+
+Figure 1. Mass histograms of Co and Ni with  100 to 500 MeV amu-1 measured by the CRIS
+experiment on ACE (Wiedenbeck et al., 1999). Note the relative absence of 59Ni and the presence of
+59Co.
+
+cosmic rays with the interstellar medium (ISM). Secondary-to-primary ratios such
+as 3He/4He. B/C and (21  Z  23)/Fe are used to measure the amount of material
+traversed by cosmic rays in the Galaxy (commonly called the pathlength). Most
+primaries are stable; among the few radioactive species that may survive are the
+actinides Th, U, and possibly Np and Cm. Three primary isotopes in the Fe region
+that decay mainly by electron capture may also survive, depending on the time-
+delay between nucleosynthesis and cosmic ray acceleration. In addition, there are
+radioactive secondaries that can be used to measure the cosmic-ray lifetime (10Be,
+26Al, 36Cl, and 54Mn), and electron-capture nuclei that can be used as densitome-
+ters, and/or as tests of whether cosmic rays are continuously reaccelerated during
+their lifetime.
+
+   In 1997 the Advanced Composition Explorer (ACE) was launched carrying a
+suite of instruments designed to measure the composition of energetic particles
+with much greater precision than was possible previously (Stone et al., 1998a).
+Included was a Cosmic Ray Isotope Spectrometer (CRIS) that has achieved excel-
+lent mass resolution (m = 0.1 to 0.25 amu for 2  Z  30) with the collecting
+power ( 250 cm2sr) needed to resolve even rare species (Stone et al., 1998b). In
+this paper we discuss three examples of cosmic rays clocks for which considerable
+progress has been achieved with ACE data, and consider the implications of these
+new measurements for our understanding of cosmic ray acceleration and transport
+in the Galaxy.
+RADIOACTIVE CLOCKS AND COSMIC-RAY TRANSPORT IN THE GALAXY  29
+
+Figure 2. Allowed combinations of acceleration delay times and fractions of mass-59 material synthe-
+sized as 59Ni, as derived from 59Ni and 59Co measurements on ACE (Wiedenbeck et al., 2000). The
+cross-hatched region shows 98% confidence limits based on ACE data alone; the diagonally-hatched
+region also takes into account cross section uncertainties.
+
+                          2. Acceleration-Time Delay Clocks
+
+Some time ago, Soutoul al. (1978) identified three electron-capture nuclei in the
+Fe-group (59Ni, 57Co, and 56Ni), all products of explosive nucleosynthesis, that
+essentially decay only by electron-capture (EC). Since cosmic rays with >500
+MeV/nucleon spend most of their time as fully-stripped nuclei, a significant frac-
+tion of these nuclei would be expected to survive if cosmic rays are accelerated
+to high energies soon after nucleosynthesis. Soutoul et al. (1978) suggested that
+the abundances of 56Ni, 57Co, and 59Ni, with electron capture half-lives ranging
+from  6 days to  105 yr., could provide a measure of the time delay between
+nucleosynthesis and cosmic-ray acceleration. It is evident that 56Ni has decayed in
+cosmic rays because the dominant Fe-peak isotope is 56Fe, as in the solar system.
+The more interesting cases are 57Co (T1/2 = 0.74 y) and 59Ni (T1/2 = 7.6 × 104 y).
+The Ni and Co isotope measurements in Figure 1 (Wiedenbeck et al., 1999) show
+that there is very little 59Co in cosmic rays, suggesting that a reasonably long time
+delay has occurred.
+
+   However, we must also consider the possibility that a significant fraction of the
+mass 59 nuclei were synthesized as 59Co instead of 59Ni. Figure 2, from Wieden-
+beck et al. (2000) indicates that the time delay must have been  3 × 104 years as
+long as at least 20% of the mass 59 material originated as 59Ni, and 105 years
+if at least 40% of the mass-59 nuclei originated as 59Ni. Woosley and Weaver
+(1995) have calculated the yields of Fe-group isotopes from Type II supernova. For
+30  R. A. MEWALDT ET AL.
+
+stellar masses ranging from 11 to 25 solar masses, the fraction of mass 59 nuclei
+originating as 59Ni ranges from 27% to 87%. For a Salpeter initial mass function
+it is found that  68% of the mass 59 material originates as 59Ni (Wiedenbeck
+et al., 1999). It therefore appears that only time delays >105 years are allowed
+
+unless cosmic rays come from a very narrow range of stellar masses (in which case
+
+isotope anomalies would be expected in other Fe-group elements).
+   A time delay of 105 years between nucleosynthesis and acceleration is incon-
+
+sistent with models in which supernovae accelerate their own ejecta. It is con-
+
+sistent with models in which cosmic rays are accelerated from the interstellar
+
+medium (e.g., Olive and Schramm, 1982), or from a low-energy seed population
+
+pre-accelerated by stellar flares (Meyer, 1985). One would also expect a long time
+
+delay in models in which the refractory elements in cosmic rays originate from
+
+interstellar dust grains (Meyer et al., 1997). Higdon et al. (1998) have suggested
+
+that most cosmic rays originate in super-bubbles in which a series of SN explosions
+extend over periods of  105 years or more. In this case, for 59Ni to decay before
+acceleration, it is necessary that the ejecta from SN early in the life of the super-
+bubble remains relatively un-mixed with the surrounding ISM for at least  105
+years before being accelerated to high energies by shock waves from subsequent
+
+SN.
+   It is also possible that cosmic ray 59Ni nuclei could pick up electrons and decay
+
+in-flight if they manage to retain these electrons for a time comparable to the
+EC-decay lifetime of 105 years. The average energy of the CRIS measurements
+is  300 MeV nucl-1, corresponding to an average of  400 to 500 MeV nucl-1
+outside the heliosphere. Wiedenbeck et al. (2000) show that at energies of
+450 MeV nucl-1 or more the electron attachment mean free path (mfp) is several
+g/cm2, while the electron stripping mfp is < 10-2 g cm-2. At these energies one
+does not expect appreciable 59Ni decay for the mean density  0.3 to 0.4 cm-3 indi-
+cated by the 10Be and other beta-decay clock measurements (see below). However,
+
+if the observed cosmic rays have spent an appreciable time at lower energies (i.e.,
+<200 MeV nucl-1, where the electron-capture mfp is <1 g cm-2) before getting
+accelerated to higher energies, it is possible that a significant fraction of the 59Ni
+
+could have decayed in-flight. The question of whether cosmic rays are accelerated
+
+in a step-wise fashion (also called re-acceleration) is discussed below.
+
+ 3. Electron-Capture Nuclei as Probes of Cosmic Ray Transport Processes
+
+Over the  104 year lifetime of a single SN blast wave it is theoretically possible
+to accelerate cosmic ray nuclei to  1014Z MeV, where Z is the atomic number
+(see, e.g., Gaisser, 1990). However, it is also possible that most cosmic rays gain
+their energy from a series of SN shock waves. One possible way to address this
+question is with measurements of electron-capture nuclei that would be expected
+to decay if the observed cosmic rays have spent an appreciable fraction of their
+RADIOACTIVE CLOCKS AND COSMIC-RAY TRANSPORT IN THE GALAXY  31
+
+Figure 3. Energy dependence of two isotope ratios that demonstrate energy-dependent elec-
+tron-capture decay of 51Cr to 51V (Niebur et al., 2000). The curves show the expected ratios with
+(solid) and without decay (dashed). The sum of (51Cr+51V)/52Cr is found to be energy independent.
+
+lifetime at lower energies where electron attachment is much more likely. Nuclides
+that can probe these processes include 7Be, 37Ar, 44Ti, 49V, 51Cr, 55Fe, and 57Co,
+with laboratory lifetimes ranging from 28 days to 67 years.
+
+   Connell and Simpson (1999), Connell (2001) and Soutoul et al. (1998) have
+concluded that a significant fraction of 49V and 51Cr have decayed, based on com-
+parisons of Ulysses and Voyager measurements of the 49V/51V ratio with a leaky-
+box model (LBM) of cosmic-ray propagation in the Galaxy. They conclude that
+some re-acceleration has occurred.
+
+   With the large collecting power of CRIS it is possible to examine the abun-
+dances of EC-nuclei in several energy intervals. In the results of Niebur et al.
+(2000), shown in Figure 3, there appears to be a clear deficit of the EC-nuclide
+51Cr at lower energies, and a corresponding overabundance of the daughter 51V.
+When the sum of 51Cr and 51V are compared with stable secondary species there is
+no observed energy dependence. Similar results are found for the parent-daughter
+combination 49V and 49Ti (Niebur et al., 2000). These results support the conclu-
+sion that the observed variation of these ratios with energy is due to the energy-
+dependence of electron-capture and loss processes rather than some unexpected
+energy dependence of Fe-fragmentation cross sections.
+
+   In contrast to the findings of Connell and Simpson (1999) and Soutoul et al.
+(1998), the energy dependence of the 51Cr and 51V abundances in Figure 3 (and
+also those of 49V and 49Ti; see Niebur et al. (2000), appear to be reasonably well
+accounted for without invoking reacceleration. In addition, Webber (2000a) con-
+cludes that the 51V/49V ratio measured by ACE is consistent with a LBM without
+reacceleration. Webber (2000b) has also compared ACE and Ulysses data with a
+Monte Carlo diffusion model and finds that the 51V/51Cr data favor reacceleration,
+while the 49Ti/49V data do not.
+32  R. A. MEWALDT ET AL.
+
+Figure 4. Mass histograms of Be, Al, Cl, and Mn isotopes measured by the CRIS experiment on ACE
+(see Yanasak et al., 2001).
+
+   Observations of EC isotopes in cosmic rays are still in their infancy, as are
+models that interpret them. Their abundances depend on the energy dependence of
+the electron-capture and loss cross sections and the fragmentation cross sections,
+on the history of cosmic ray acceleration and possible re-acceleration, on inho-
+mogeneities in the interstellar matter traversed by cosmic rays (Raisbeck et al.,
+1975; Letaw et al., 1984), and on energy changes that occur as cosmic rays enter
+the heliosphere. It is therefore premature to draw firm conclusions from these new
+observations without examining thoroughly the effects of uncertainties in modeling
+these processes. However, it is already clear that these data will be the subject of
+lively debate over the next few years.
+
+        4. Beta-Decay Clocks and Cosmic-Ray Transport in the Galaxy
+
+The lifetime of cosmic rays in the Galaxy is important because it determines the
+power required to sustain the energy density of cosmic rays in the Galaxy (e.g.,
+Gaisser, 1990). This lifetime can be derived from the measurements of radioactive
+isotopes such as 10Be (half-life of 1.5 My). The first reliable observations of 10Be
+in cosmic rays occurred during the 1970s, when it was discovered that most 10Be
+produced in cosmic-ray interactions has decayed, leading to an estimated confine-
+ment time of esc  10 to 30 My for cosmic-ray storage in the Galaxy (see review
+in Simpson and Garcia-Munoz, 1988). Taking into account that cosmic rays with
+several hundred MeV amu1 have traversed  5 g cm-2 of interstellar material, this
+lifetime suggests that the mean density of the medium that cosmic rays inhabit is
+ 0.2 to  0.4 H atoms cm-3, substantially less than the mean density commonly
+ascribed to the galactic disk ( 1 H atom cm-3). This has led to suggestions that
+cosmic rays must spend appreciable time in low-density regions such as the galactic
+halo.
+
+   With the advent of the Ulysses and ACE missions it has become possible to
+accurately measure and compare abundances of four separate beta-decay clocks
+         RADIOACTIVE CLOCKS AND COSMIC-RAY TRANSPORT IN THE GALAXY   33
+
+Figure 5. Isotope ratios involving four cosmic-ray clocks are compared to predictions of the leaky
+box model, parameterized by the density of the confinement region in H atoms per cm3 (Yanasak
+
+et al., 2001). Measurements are from ACE (Yanasaket al., 2001); Ulysses (Connell, 1998; Connell
+et al., 1998; Simpson and Connell, 1998; Du Vernois, 1997); Voyager (Lukasiak et al., 1994, 1997a,
+
+and 197b), and ISEE-3 (Wiedenbeck and Greiner, 1980).
+
+                                 TABLE I
+                     Radioactive clock parametersa
+
+Isotope  Halflife    Density                    Surviving            Confinement time
+         (My)        (H atoms per cubic cm)     fraction             (My)
+
+10Be     1.51        0.358 ± .032 ± .058        0.252 ± .018 ± .039  14.5 ± 1.3 ± 2.2
+26Al     0.873       0.276 ± .018 ± .084        0.248 ± .012 ± .056  20.4 ± 1.3 ± 5.7
+36Cl     0.307       0.425 ± .067 ± .077        0.155 ± .021 ± .024  13.8 ± 2.2 ± 2.6
+54Mn     0.63 ± .17  0.267 ± .027 ± .084,-.060  0.284 ± .019 ± .022  22.4 ± 2.3 ± 6.1
+
+aUncertainties are shown as (a) statistical only; and (b) systematic uncertainties added in quadrature.
+These results are from Yanasak et al. (2001).
+
+(10Be, 26Al, 36Cl, and 54Mn) with substantially different half-lives. Measurements
+of these clock isotopes from ACE are shown in Figure 4. A summary of ACE,
+Ulysses, Voyager, and ISEE-3 measurements is shown in Figure 5. Also shown are
+calculations for a steady state LBM parameterized by the mean density of matter
+in the cosmic ray storage region (Yanasak et al., 2000). Note that there is generally
+good agreement, and that the ACE results for all four clocks are consistent with
+an average density of 0.36 H atoms cm-3. These calculations employ an energy-
+dependent mean pathlength of a form suggested by Soutoul and Ptuskin (1999),
+34  R. A. MEWALDT ET AL.
+
+Figure 6. Cosmic ray escape lifetimes measured by ACE, Ulysses, Voyager, and ISEE-3. For
+references see the caption to Figure 5.
+
+    esc(g cm-2) = 26.7/[(R/1.0 GV)0.6 + (R/1.4 GV)-1.4],  (1)
+
+that provides a good fit to the B/C and (Sc + Ti + V)/Fe ratios (Davis et al., 2000;
+Yanasak et al., 2001) using cross-sections of Silberberg et al. (1998), an interstellar
+
+He/H ratio of 0.1, and an ionized hydrogen fraction of 10.5%. In the LBM the
+mean lifetime against escape from the Galaxy is esc = esc/(c), where  is the
+interstellar density in g cm-3 and the velocity, , in units of the speed of light (c)
+
+is evaluated at an energy that accounts for energy loss during solar modulation. Ta-
+ble I summarizes these and other derived quantities. For a discussion of systematic
+
+uncertainties, see Yanasak et al. (2001).
+
+   Figure 6 compares esc values from ACE, Ulysses, Voyager, and ISEE-3; all
+based on models with somewhat different cross sections and parameters. Although
+there is general agreement, the 10Be results differ considerably, and the mean value
+of esc = 14.5 ± 1.5 My from ACE data is somewhat less than that derived from
+Ulysses data (Connell, 2001). The difference between the ACE and Ulysses results
+for 54 Mn is result of the lower abundance of Fe secondaries relative to Fe reported
+
+by Ulysses (see Lijowski et al., 1999). This ratio affects the derived value of esc,
+and therefore also of esc. Note that the ACE points show separately statistical
+uncertainties and also uncertainties due to cross sections, solar modulation, and the
+
+ionized fraction of the ISM (Yanasak et al., 2001). Other studies have not usually
+
+included these systematic uncertainties.
+RADIOACTIVE CLOCKS AND COSMIC-RAY TRANSPORT IN THE GALAXY  35
+
+Figure 7. Schematic illustration of the size of the region sampled by several radioactive clocks,
+compared to the scale height of the interstellar gas assumed by Ptuskin and Soutoul (1998). The first
+five circles are representative of the typical energies measured by ACE, and assume that the mean
+distance a radioactive isotope can arrive from is given by R = ( DTd )1/2, where D is the diffusion
+coefficient (assumed to be 2 × x1028 cm2 s-1) and Td is the mean life for decay. The sixth circle is
+for 1 GeV amu-1 10Be.
+
+   One goal of this study is to determine the characteristics of regions where cos-
+mic rays reside. In the LBM he cosmic-ray intensity and ISM density are uniform
+in space and time, and the surviving fractions of various species are sensitive only
+to the mean density of the storage region. There are now more realistic models,
+including diffusion models in which cosmic rays also have access to a galactic halo
+or other low-density regions (e.g., Webber et al., 1992; Strong and Moskalenko,
+1998; Ptuskin and Soutoul, 1998; Streitmatter and Stephens, 2000). In such models
+the distance (R) from which radioactive species can arrive is limited by its half-life,
+such that R  ( DTd)1/2, where D is the diffusion coefficient, Td is the mean life
+for radioactive decay at rest, and  = 1/(1 - 2)1/2. In this picture the abundance
+of a given radioactive clock is sensitive mainly to conditions within a sphere around
+the Sun whose radius scales as R.
+
+   Figure 7 illustrates schematically the size of the sphere sampled by five radioac-
+tive superimposed on a representation of the density profile of the galactic disk.
+Note that the 10Be measurements shown here reflect conditions out to  400 pc,
+well beyond the disk, while the shorter-lived species probe shorter distances. Al-
+though there are as yet no reliable measurements of 14C in cosmic rays, any ob-
+served 14C can originate only in very nearby regions. The only approach currently
+available to extend this study to greater distances is to extend 10Be measurements
+to energies above  1 GeV amu-1 where relativistic time-dilation effects become
+important.
+
+   If cosmic-ray clocks are indeed sampling a density distribution such as that
+in Figure 7 we can expect the average density determined from measurements of
+longer-lived species such as 10Be to be less than that for shorter-lived species such
+as 36Cl, and the value of esc to increase with increasing half-life. From the data
+in Figure 8 it appears that 36Cl fits this picture relative to the other clocks, but
+36  R. A. MEWALDT ET AL.
+
+Figure 8. (a) Plot of interstellar densities (in H atoms cm-3) derived from four clocks vs
+R = ( DTd )1/2 (see text); (b) Confinement time vs. R. The smaller uncertainties are statistical
+only; the larger uncertainties include systematic uncertainties (see Table I).
+
+the uncertainties in these derived quantities are currently too large to draw firm
+conclusions. Yanasak et al. (2001) has shown that uncertainties in the density and
+esc are dominated by cross section uncertainties rather than by uncertainties in
+the cosmic-ray isotope ratios. For 54Mn the uncertainty in its -minus half-life
+dominates. As a result, it may be possible to learn more from these measurements
+if cross section uncertainties can be reduced and the 54Mn -minus half-life better
+determined. However, it should also be remembered that cosmic rays need not
+venture into the halo to find low-density regions (see, e.g., Diplas and Savage,
+1993). It is possible that the low-density region apparently sampled by the cosmic
+rays we observe is not our glactic halo, but corresponds instead to the local bubble
+(see, e.g., Streitmatter and Stephens, 2001).
+
+   Ptuskin and Soutoul (1998) have calculated the expected surviving fraction of
+10Be, 26Al, and 36Cl for four diffusion models that attempt to provide a more real-
+istic picture of cosmic-ray transport than the LBM. The predictions are shown in
+Figure 9. The first model (a) has an infinitely thin disk. The second (b) includes
+diffusion in a disk with an exponential density distribution with scale height of
+100 pc. In the third (c), the ISM is composed of three components with exponential
+scale heights of 130, 200, and 1000 pc (see Figure 6). The fourth (d) assumes the
+same gas distribution, but also places the solar system on the edge of a cavity of
+several hundred pc radius. Figure 9 also indicates the range of diffusion coefficients
+consistent with ACE measurements of these clocks. Note that in the more sophis-
+ticated of these models (c, d) all three clocks are consistent with D  2 × 1028
+cm2 s-1.
+
+   Several authors have shown that discrimination between cosmic ray transport
+models is possible by extending measurements of 10Be to higher energies, where
+relativistic time dilation effects allow 10Be to arrive from greater and greater dis-
+tances. Ptuskin (2000) has compared the surviving fraction of 10Be in the LBM,
+a static diffusion model, a `diffusive halo' model with a galactic wind, and a
+RADIOACTIVE CLOCKS AND COSMIC-RAY TRANSPORT IN THE GALAXY  37
+
+Figure 9. Expected surviving fractions of 10Be, 26Al, and 36Cl at 400 MeV nucl-1 for four diffu-
+sion models (Ptuskin and Soutoul, 1998), plotted versus the assumed diffusion coefficient. Values
+consistent with the ACE measurements are indicated.
+
+model that includes diffusion and reacceleration. These diffusion models all predict
+that relatively less 10Be will survive at higher energies than in the LBM. Webber
+(2000b) and Simon and Molnar (1999) find similar results. Available 10Be measure-
+ments above  300 MeV amu-1 do suggest a greater 10Be/9Be ratio than expected
+from the LBM (see Ahlen et al., 2000; Buffington et al., 1978, and references
+therein), although these studies suffer from limited statistical accuracy and/or mass
+resolution. Preliminary data from the ISOMAX magnetic spectrometer indicate
+that 10Be has been resolved to >1 GeV amu-1, but final results are not yet available.
+
+   Webber and Soutoul (1998) have attempted to estimate the surviving fraction of
+several radioactive clocks in the 1 to 20 GeV amu-1 region using abundance ratios
+such as Be/B, Al/Si, and Cl/S measured by HEAO-3 (Engelmann et al., 1990).
+Taken at face value, their results suggest that the surviving fraction of 10Be and
+other clock nuclei beyond 2 GeV amu-1 is less than expected in the LBM. However
+this approach is very sensitive to uncertainties in the fragmentation cross sections
+in an energy range where there are few measurements, and cross section differ-
+ences of  20% (as seen, e.g., in Yanasak et al., 2001) would lead to significantly
+different conclusions. With direct measurements of relevant cross sections at 1 to
+10 GeV amu-1, this approach might prove fruitful.
+
+                                         5. Summary
+
+This paper has summarized the first measurements of cosmic ray clocks from the
+CRIS instrument on ACE and discussed the implications for some key questions
+38  R. A. MEWALDT ET AL.
+
+in cosmic ray astrophysics. The decay of 59Ni in cosmic rays implies that super-
+novae do not accelerate their own ejecta; rather, there must be a time delay 105
+years between the time of nucleosynthesis and acceleration. New measurements of
+49V and 51Cr provide evidence for energy-dependent electron-capture decay, which
+
+may provide a new tool for studying energy-changing processes in the Galaxy and
+
+the heliosphere. Finally, ACE has now provided well-resolved measurements of
+four radioactive clocks (10Be, 26Al, 36Cl, and 54Mn) with greatly improved statis-
+
+tical accuracy. The observed abundances can be fit with a steady state leaky-box
+model characterized by an escape lifetime of 14.5 ± 1.5 My and a mean density of
+0.36 H atoms cm-3. However, these results are also consistent with a diffusive halo
+model characterized by a diffusion coefficient of  2 × 1028 cm2 s-1. Although
+it is perhaps still too early to conclude that the clock has run out on the leaky box
+
+model, the focus of most theoretical efforts seeking to interpret the new, high pre-
+
+cision observations is now directed towards more sophisticated models of cosmic
+
+ray transport.
+
+                                     Acknowledgements
+
+This work was supported by NASA (under NAG5-6912) at the California Institute
+of Technology, the Jet Propulsion Laboratory, Washington University, and God-
+dard Space Flight Center. We appreciate the hospitality of the International Space
+Science Institute in hosting this workshop.
+
+                                          References
+
+Ahlen, S. P. et al.: 2000, Astrophys. J. 534, 757.
+Buffington, A., Orth, D., and Mast, T.: 1978, Astrophys. J. 226, 335.
+Connell, J. J.: 1998, Astrophys. J. 501, L59.
+Connell, J. J.: 2001, Space Sci. Rev., this volume.
+Connell, J. J. and Simpson, J. A.: 1999, Proc. 26th Int. Cosmic Ray Conf., Salt Lake City 3, 33.
+Connell, J. J., Du Vernois, M. A., and Simpson, J. A.: 1998, Astrophy. J. 509, L97.
+Davis, A. J. et al.: 2000, in R. A. Mewaldt et al. (eds.), Acceleration and Transport of Energetic
+
+    Particles Observed in the Heliosphere, AIP Conference Proceedings 528, 422.
+Diplas, A. and Savage, B. D.: 1993, Astrophys. J. 427, 274.
+Du Vernois, M.: 1997, Astrophys. J. 481, 241.
+Engelmann, J. J., Ferrando, P., Soutoul, A., Goret, P., Juliusson, E., Koch-Miramond, L., Lund, N.,
+
+    Masse, P., Peters, B., Petrou, N., and Rasmussen, I. L.: 1990, Astron. Astrophys. 233, 96.
+Gaisser, T.: 1990, Cosmic Rays and Particle Physics, Cambridge University Press, Cambridge.
+Higdon, J. E., Lingenfelter, R. E., and Ramaty, R.: 1998, Astrophys. J. 509, L33.
+Letaw, J. R., Silberberg, R., and Tsao, C. H.: 1984, Astrophys. J. Suppl. 56, 369.
+Lijowski et al.: 1999, Proc. 26th Int. Cosmic Ray Conf., Salt Lake City 3, 5.
+Lukasiak, A., McDonald, F. B., and Webber, W. R.: 1994, Astrophys. J. 430, L69.
+Lukasiak, A., McDonald, F. B., and Webber, W. R.: 1997a, Astrophys. J. 448, 454.
+Lukasiak, A., McDonald, F. B., and Webber, W. R.: 1997b, Proc. 25th Int. Cosmic Ray Conf., Durbin
+
+    3, 389.
+RADIOACTIVE CLOCKS AND COSMIC-RAY TRANSPORT IN THE GALAXY  39
+
+Meyer, J. P.: 1985, Astrophys. J. 57, 173.
+Meyer, J. P., Drury, L. O'C., and Ellison, D. C.: 1997, Astrophys. J. 487, 182.
+Niebur, S. M. et al.: 2000, in R. A. Mewaldt et al. (eds.), Acceleration and Transport of Energetic
+
+    Particles Observed in the Heliosphere, AIP Conference Proceedings 528, 407.
+Olive, K. A. and Schramm, D. N.: 1982, Astrophys. J. 257, 276.
+Ptuskin, V. S.: 2000, in R. A. Mewaldt et al. (eds.), Acceleration and Transport of Energetic Particles
+
+    Observed in the Heliosphere, AIP Conference Proceedings 528, 391.
+Ptuskin, V. S. and Soutoul, A.: 1998, Astron. Astrophys. 337, 859.
+Raisbeck, G. M. et al.: 1975, Proc. 14th Int. Cosmic Ray Conf., Munich 2, 560.
+Silberberg, R., Tsao, C. H., and Barghouty, A. F.: 1998, Astrophys. J. 501, 911.
+Simon, M. and Molnar, A.: 1999, Proc. 26th Int. Cosmic Ray Conf., Salt Lake City 4, 211.
+Simpson, J. A. and Connell, J. J.: 1998, Astrophys. J. 497, L85.
+Simpson, J. A. and Garcia-Munoz, M.: 1988, Space Sci. Rev. 46, 205.
+Soutoul, A. and Ptuskin, V. S.: 1999, Proc. 26th Int. Cosmic Ray Conf. Salt Lake City 4, 184.
+Soutoul, A., Cassé, M., and Juliusson, E.: 1978, Astrophys. J. 219, 753.
+Soutoul, A. et al.: 1998, Astron. Astrophys. 336, L61.
+Streitmatter, R. E. and Stephens, S. A.: 2001, Adv. Space Res. 27, 743.
+Stone, E. C. et al.: 1998a, Space Sci. Rev. 86, 1.
+Stone, E. C. et al.: 1998b, Space Sci. Rev. 86, 285.
+Strong, A. W. and Moskalenko, I. V.: 1998, Astrophys. J. 509, 212.
+Webber, W. R.: 2000a, in R. A. Mewaldt et al. (eds.), Acceleration and Transport of Energetic
+
+    Particles Observed in the Heliosphere, AIP Conference Proceedings 528, 411.
+Webber, W. R.: 2000b, in R. A. Mewaldt et al. (eds.), Acceleration and Transport of Energetic
+
+    Particles Observed in the Heliosphere, AIP Conference Proceedings 528, 397.
+Webber, W. R. and Soutoul, A.: 1998, Astrophys. J. 506, 335.
+Webber, W. R., Lee, M. A., and Gupta, M.: 1992, Astrophys. J. 390, 96.
+Wiedenbeck, M. E. and Greiner, D.: 1980, Astrophys. J. 239, L139.
+Wiedenbeck, M. E. et al.: 1999, Astrophys. J. 523, L61.
+Wiedenbeck, M. E. et al.: 2000, in R. A. Mewaldt et al. (eds.), Acceleration and Transport of
+
+    Energetic Particles Observed in the Heliosphere, AIP Conference Proceedings 528, 363.
+Woosley, S. E. and Weaver, T. A.: 1995, Astrophys. J. Suppl. 101, 181.
+Yanasak, N. E. et al.: 2000, in R. A. Mewaldt et al. (eds.), Acceleration and Transport of Energetic
+
+    Particles Observed in the Heliosphere, AIP Conference Proceedings 528, 403.
+Yanasak, N. E., Wiedenbeck, M. E., Mewaldt, R. A., Davis, A. J., Cummings, A. C., George, J. S.,
+
+    Leske, R. A., Stone, E. C., Christian, E. R. von Rosenvinge, T. T., Binns, W. R., Hink, P. L., and
+    Israel, M. H.: 2001, Astrophys. J., to be published.
+

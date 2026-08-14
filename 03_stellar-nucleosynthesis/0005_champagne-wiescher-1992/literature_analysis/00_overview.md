@@ -14,7 +14,7 @@ tags:
 - nucleosynthesis
 - hot CNO cycles
 - rp-process
-citations:
+citations: []
 - '[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview|0010_gies-lambert-1992]]'
 - '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
 path: 03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview.md

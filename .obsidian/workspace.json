@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "53e8e21126a8920a",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a3aeab76c30bac9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8aea0cce5cdbb23",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "07ba32047176bc57",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d022a4b59f057ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4250e32b5887a43e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "49480a0c1f71f880",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4125f4ff3d0abaa8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "28807f02a4dd92ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a89da5d736089c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ed592419927eb7f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "fb003c75d159c452",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "background/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "77a572fb44861c48",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "66ceea3b55c255b8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "8868b68cde3eb8d6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "background/README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-weread-plugin:打开微信读书书架": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "4250e32b5887a43e",
+  "lastOpenFiles": [
+    "01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/99_final_summary.md",
+    "01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/98_vocabulary.md",
+    "01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md",
+    "01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis",
+    "01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/fulltext.txt",
+    "01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/Radioactive Clocks and Cosmic-ray Transport in the Galaxy.pdf",
+    "01_cosmic-ray-propagation/0004_mewaldt-2001-clocks",
+    "03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/99_final_summary.md",
+    "03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/98_vocabulary.md",
+    "03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/99_final_summary.md",
+    "03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/98_vocabulary.md",
+    "02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/99_final_summary.md",
+    "02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/98_vocabulary.md",
+    "01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/99_final_summary.md",
+    "01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/98_vocabulary.md",
+    "01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/99_final_summary.md",
+    "01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/98_vocabulary.md",
+    "01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/99_final_summary.fragment.html",
+    "02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/99_final_summary.md",
+    "02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/98_vocabulary.md",
+    "02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/99_final_summary.md",
+    "02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/98_vocabulary.md",
+    "02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/99_final_summary.md",
+    "02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/98_vocabulary.md",
+    "02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/99_final_summary.md",
+    "02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/98_vocabulary.md",
+    "01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/99_final_summary.md",
+    "01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/98_vocabulary.md",
+    "01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/99_final_summary.md",
+    "01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/98_vocabulary.md",
+    "01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/99_final_summary.md",
+    "03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.fragment.html",
+    "03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis",
+    "03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis",
+    "02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis",
+    "02_cosmic-ray-origins/0011_hillas-1984/literature_analysis",
+    "webapp/icon-512.png",
+    "webapp/icon-192.png",
+    "webapp/apple-touch-icon.png"
+  ]
+}

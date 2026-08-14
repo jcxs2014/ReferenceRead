@@ -1,20 +1,18 @@
 ---
-title: 'Cosmic ray feedback in galaxies and galaxy clusters'
-authors: 'Mateusz Ruszkowski, Christoph Pfrommer'
+title: Cosmic ray feedback in galaxies and galaxy clusters
+authors: Mateusz Ruszkowski（U. Michigan）, Christoph Pfrommer（AIP）
 year: '2023'
-journal: Astronomy & Astrophysics Review 31:4 (2023)
+journal: A&A Review 31:4 (2023)
 doi: 10.1007/s00159-023-00149-2
 arxiv: arXiv:2306.12341
 category: 宇宙线传播
 status: completed
 read_date: '2026-08-15'
 lastread: '2026-08-15'
-pages: '4'
-tags: [cosmic-ray, feedback, galaxy-formation, galaxy-clusters, cooling-flow, galactic-winds, CR-transport, wave-particle]
+tags: []
 citations: []
-
+path: 01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md
 ---
-
 > 状态：**精读完成**（2026-08-15）
 > ★ **CR 反馈机制**——主题 1（传播）+ 主题 5（星系团）的交叉前沿；系统梳理 CR 在星系/星系团尺度上的动力学反馈
 
