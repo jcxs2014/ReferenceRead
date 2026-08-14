@@ -332,6 +332,8 @@ def build(include_papers=False, out=None):
         gloss = []
         print("[WARN] glossary.json 不存在 — 先跑 build_glossary.py", file=sys.stderr)
     shell = shell.replace("__GLOSS_JSON__", json.dumps(gloss, ensure_ascii=False, indent=2))
+    # KaTeX 离线：替换 CDN 为本地 third-party/katex（interactive.html 在 webapp/ 根，third-party 用相对路径即可）
+    shell = shell.replace("__WEBAPP_ROOT__", "")
 
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(shell, encoding="utf-8")
