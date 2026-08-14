@@ -10,7 +10,8 @@ status: completed
 read_date: '2026-08-15'
 lastread: '2026-08-15'
 tags: []
-citations: []
+citations:
+
 path: 01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_overview.md
 ---
 > 状态：**精读完成**（2026-08-15）

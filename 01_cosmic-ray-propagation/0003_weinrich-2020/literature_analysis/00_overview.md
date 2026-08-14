@@ -10,7 +10,8 @@ status: completed
 read_date: '2026-08-15'
 lastread: '2026-08-15'
 tags: []
-citations: []
+citations:
+
 path: 01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md
 ---
 > 状态：**精读完成**（2026-08-15）

@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**271 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**279 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -224,11 +224,12 @@
 
 |  |  |
 |---|---|
-| 作者 | A. M. Hillas |
-| 期刊 | Annual Review of Astronomy and Astrophysics 22, 425 (1984) |
-| 分析文件 | 1 个（00_overview.md） |
+| 作者 | A. M. Hillas (University of Durham) |
+| 期刊 | Ann. Rev. Astron. Astrophys. 22, 425 (1984) |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/`](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/99_final_summary.md) |
 
 ### `0012_gabici-2019`
 
@@ -248,11 +249,12 @@
 
 |  |  |
 |---|---|
-| 作者 | R. Giuffrida et al. |
-| 期刊 | Nature Communications 13, 5098 (2022) |
-| 分析文件 | 1 个（00_overview.md） |
+| 作者 | R. Giuffrida et al.（XMM-Newton + Fermi + HESS 合作） |
+| 期刊 | Nature Communications 13, 4878 (2022) |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/`](02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/99_final_summary.md) |
 
 ### `0014_alvesbatista-2019`
 
@@ -260,11 +262,12 @@
 
 |  |  |
 |---|---|
-| 作者 | R. Alves Batista et al. |
-| 期刊 | Frontiers in Astronomy and Space Sciences 6, 23 (2019) |
-| 分析文件 | 1 个（00_overview.md） |
+| 作者 | M. A. O. Alves Batista et al.（20+ 人，Pierre Auger + TA 合作） |
+| 期刊 | Frontiers in Astronomy and Space Sciences 6, 44 (2019) |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/`](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/99_final_summary.md) |
 
 ### `0015_telescope-array-2023`
 
@@ -273,10 +276,11 @@
 |  |  |
 |---|---|
 | 作者 | Telescope Array Collaboration |
-| 期刊 | Science 382, 903 (2023) |
-| 分析文件 | 1 个（00_overview.md） |
+| 期刊 | Science 380, 6629, 903-907 (2023) |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/99_final_summary.md) |
 
 ---
 
@@ -508,8 +512,8 @@
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
 | 01. 宇宙线传播 | 6 | 19 |
-| 02. 宇宙线起源 | 15 | 89 |
+| 02. 宇宙线起源 | 15 | 97 |
 | 03. 恒星核合成与元素丰度 | 17 | 163 |
-| **合计** | **38** | **271** |
+| **合计** | **38** | **279** |
 
 > 最后更新: 2026-08-15（自动生成）
