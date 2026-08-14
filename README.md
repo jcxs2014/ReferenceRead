@@ -2,19 +2,19 @@
 
 > **23 篇文献**（共 23 篇精读，含 0 篇双论文并列）、31 篇分析目录、7 篇跨篇主题背景知识库。
 >
-> 按主题域 → 单篇论文 → `literature_analysis/` 三层结构组织。每篇文献按 `READING_INSTRUCTIONS.md` 的 29 节规范精读。
+> 按主题域 → 单篇论文 → `literature_analysis/` 三层结构组织。每篇文献按 `docs/READING_INSTRUCTIONS.md` 的 29 节规范精读。
 
 ## 目录结构
 
 ```
 papers/
 ├── README.md                       ← 本文档：工作区总览与接入 SOP
-├── READING_INSTRUCTIONS.md         ← 精读操作手册（29 节规范 + 数据一致性经验）
+├── docs/READING_INSTRUCTIONS.md         ← 精读操作手册（29 节规范 + 数据一致性经验）
 ├── INDEX.md                        ← 23 篇论文分析入口（gen_index.py 自动生成）
-├── ADVANCEMENT.md                  ← 进阶方案（v2.1 + V2.2 补丁，已全部落地）
-├── WEBAPP_DESIGN.md                ← Webapp 架构与实现
-├── ENHANCEMENTS.md                 ← 改进建议清单（9 条全部完成，归档参考）
-├── TROUBLESHOOTING.md              ← 故障排除与修复记录（A/B/C/D/E/F 六类 + 排障 SOP）
+├── docs/ADVANCEMENT.md                  ← 进阶方案（v2.1 + V2.2 补丁，已全部落地）
+├── docs/WEBAPP_DESIGN.md                ← Webapp 架构与实现
+├── docs/ENHANCEMENTS.md                 ← 改进建议清单（9 条全部完成，归档参考）
+├── docs/TROUBLESHOOTING.md              ← 故障排除与修复记录（A/B/C/D/E/F 六类 + 排障 SOP）
 ├── backup/                         ← 历史快照
 │
 ├── 01_cosmic-ray-propagation/      ← 宇宙线传播主题
@@ -91,7 +91,7 @@ PDF 原文
        99_final_summary.md       ← 一句话总结 + 核心结果 + 创新 + 局限 + 15 条记忆点
 ```
 
-精读操作手册见 [`READING_INSTRUCTIONS.md`](READING_INSTRUCTIONS.md)。
+精读操作手册见 [`docs/READING_INSTRUCTIONS.md`](docs/READING_INSTRUCTIONS.md)。
 
 ## 新增文献接入 SOP（验证版）
 
@@ -176,7 +176,7 @@ env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0]
 
 ## 元数据勘误记录（13 处）
 
-原始 PDF 文件名含误导性作者名；以下论文目录名已修正为**实际第一作者-年份**（详见 `ENHANCEMENTS.md` §A）：
+原始 PDF 文件名含误导性作者名；以下论文目录名已修正为**实际第一作者-年份**（详见 `docs/ENHANCEMENTS.md` §A）：
 
 | 原目录名 | 实际作者 | 年份 |
 |---|---|---|
@@ -198,12 +198,12 @@ env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0]
 
 | 文档 | 用途 |
 |---|---|
-| [`READING_INSTRUCTIONS.md`](READING_INSTRUCTIONS.md) | 精读操作手册（29 节规范 + 数据一致性经验） |
+| [`docs/READING_INSTRUCTIONS.md`](docs/READING_INSTRUCTIONS.md) | 精读操作手册（29 节规范 + 数据一致性经验） |
 | [`INDEX.md`](INDEX.md) | 23 篇论文分析入口（自动生成） |
-| [`ADVANCEMENT.md`](ADVANCEMENT.md) | 进阶方案 v2.1 + V2.2 补丁（已全部落地） |
-| [`WEBAPP_DESIGN.md`](WEBAPP_DESIGN.md) | Webapp 架构与实现细节 |
-| [`ENHANCEMENTS.md`](ENHANCEMENTS.md) | 改进建议清单（9 条全部 ✅ 完成） |
-| [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md) | 故障排除与修复记录（18 条 + SOP） |
+| [`docs/ADVANCEMENT.md`](docs/ADVANCEMENT.md) | 进阶方案 v2.1 + V2.2 补丁（已全部落地） |
+| [`docs/WEBAPP_DESIGN.md`](docs/WEBAPP_DESIGN.md) | Webapp 架构与实现细节 |
+| [`docs/ENHANCEMENTS.md`](docs/ENHANCEMENTS.md) | 改进建议清单（9 条全部 ✅ 完成） |
+| [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md) | 故障排除与修复记录（18 条 + SOP） |
 | [`background/`](background/) | 7 篇跨篇主题知识库 |
 
 ## 已完成 / 进行中
@@ -215,7 +215,7 @@ env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0]
 - ✅ V2.2 补丁（Obsidian 图谱链接化）
 - ✅ 库扩 23 篇（+2 新文献：Cameron 1968 / Kraft 1994）
 
-后续路线见 [`ADVANCEMENT.md`](ADVANCEMENT.md)。
+后续路线见 [`docs/ADVANCEMENT.md`](docs/ADVANCEMENT.md)。
 
 ---
 

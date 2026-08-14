@@ -10,7 +10,7 @@ set -eo pipefail
 # --full-rebuild: 真正重建 fm + registry + webapp
 # ============================================================
 
-ROOT="$(cd "$(dirname "$0")" && pwd)"
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"  # scripts/ 内，向上到仓库根
 cd "$ROOT"
 
 # 固化解释器：确保有 yaml（build_registry 需要），否则门禁不可靠
