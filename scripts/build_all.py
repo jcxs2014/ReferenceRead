@@ -67,6 +67,8 @@ STEPS: list[dict] = [
      "label": "PWA"},
     {"id": "audit", "cmd": [PY, str(WEBAPP / "audit.py")],
      "label": "audit"},
+    {"id": "quality", "cmd": [PY, str(ROOT / "scripts" / "quality_matrix.py"), "--check"],
+     "label": "quality_matrix"},
 ]
 
 

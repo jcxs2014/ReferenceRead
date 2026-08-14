@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eo pipefail
 # ============================================================
-# verify_claim.sh — "声称完成 ≠ 实际完成" 自动化门禁
+# verify_claim.sh — "声称完成 ≠ 实际完成" 自动化门禁（7 步）
 #
 # 跑完所有构建步骤 + 断言，输出 pass/fail 报告。
 # 用法:  bash verify_claim.sh [--full-rebuild]
@@ -133,6 +133,17 @@ else
     echo "  [WARN] audit.py output (not necessarily failure):"
     $PYTHON "$ROOT/webapp/audit.py" 2>&1 | tail -10
     pass "audit.py ran (manual review recommended)"
+fi
+
+# ── 7. quality_matrix.py --check ─────────────────────────────────
+echo ""
+echo "[7/7] quality_matrix.py --check"
+if $PYTHON "$ROOT/scripts/quality_matrix.py" --check > /dev/null 2>&1; then
+    pass "quality matrix 100% coverage"
+else
+    # 输出覆盖率摘要供诊断
+    $PYTHON "$ROOT/scripts/quality_matrix.py" 2>&1 | tail -2
+    fail "quality matrix: 部分论文缺少必需 section"
 fi
 
 # ── Full rebuild (optional) ──────────────────────────────────────
