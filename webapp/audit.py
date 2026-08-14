@@ -82,6 +82,11 @@ def main() -> int:
         check("附4: PAPERS id 唯一", len(ids) == len(set(ids)), f"{len(ids)} 条")
         bad_labels = [p["label"] for p in papers if re.search(r"\(\s*0*\s*\)|\(\s*\)", p["label"])]
         check("附4: label 不含 (0) 或 () ", not bad_labels, str(bad_labels) if bad_labels else "21/21 合理")
+        # P1-22 防护：label 残留 [FACT]/[INTERPRETATION]/[CRITIQUE] 标签
+        tag_re = re.compile(r"\[(FACT|INTERPRETATION|CRITIQUE)\]", re.IGNORECASE)
+        tag_polluted = [p["label"] for p in papers if tag_re.search(p["label"])]
+        check("附4: label 不含 [FACT/INTERPRETATION/CRITIQUE] 残留", not tag_polluted,
+              str(tag_polluted) if tag_polluted else f"{len(papers)}/{len(papers)} 干净")
         yrs = [p["year"] for p in papers]
         check("附4: year 全部 > 1900", all(isinstance(y, int) and y > 1900 for y in yrs), f"min={min(yrs) if yrs else 'n/a'}")
 

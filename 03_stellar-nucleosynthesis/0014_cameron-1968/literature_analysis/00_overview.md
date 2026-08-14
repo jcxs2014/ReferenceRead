@@ -1,12 +1,12 @@
 ---
-title: A New Table of Abundances of the Elements in the Solar System [FACT]
-authors: A. G. W. Cameron [FACT]
+title: A New Table of Abundances of the Elements in the Solar System
+authors: A. G. W. Cameron
 year: '1968'
-journal: 《Origin and Distribution of the Elements》会议文集 (Ahrens, L. H., ed., 1968) [FACT]
-doi: 未提供 [FACT] (由 Elsevier 出版,ISBN 前缀在 PDF 文件名中可见 `3-s2.0-B9780080128351500155`)
+journal: 《Origin and Distribution of the Elements》会议文集 (Ahrens, L. H., ed., 1968)
+doi: 未提供(由 Elsevier 出版,ISBN 前缀在 PDF 文件名中可见 `3-s2.0-B9780080128351500155`)
 arxiv: 未提供
 keywords: elemental abundances, solar system, carbonaceous chondrites, Type I meteorites, Suess-Urey table, nucleosynthesis,
-  r-process, s-process, p-process [FACT]
+  r-process, s-process, p-process
 category: 恒星核合成
 status: completed
 read_date: '2026-08-14'

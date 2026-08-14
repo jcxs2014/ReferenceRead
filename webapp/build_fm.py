@@ -302,6 +302,18 @@ def _split_tags(kw: str) -> list[str]:
     return tags
 
 
+def _strip_fact_tag(val: str) -> str:
+    """剥字段值中残留的 [FACT]/[INTERPRETATION]/[CRITIQUE] 标签。
+
+    精读流水线可能把信息分级标记误写进 frontmatter 元数据值（标题/作者/期刊），
+    这会污染 webapp label（图谱节点显示 `A. Cameron [fact] (1968)`）。
+    防御性清洗：行内 + 行尾。
+    """
+    if not val:
+        return val
+    return re.sub(r"\s*\[(FACT|INTERPRETATION|CRITIQUE)\]\s*", "", val).strip()
+
+
 def _strip_wikilink(val: str) -> str:
     """剥掉 Obsidian wikilink 的 [[ ]]（V2.2：源文件 citations 为 [[stem]] 格式）。"""
     s = val.strip().strip("'\" ")
@@ -442,16 +454,16 @@ def build_fm(overview_path: Path) -> dict | None:
     existing_citations = _read_existing_citations(overview_path)
 
     fm = {
-        "title": fields.get("title", ""),
-        "authors": fields.get("authors", ""),
+        "title": _strip_fact_tag(fields.get("title", "")),
+        "authors": _strip_fact_tag(fields.get("authors", "")),
         # 最终 year 兜底：正文优先（正文是最终事实源）
         # frontmatter → parent.parent.stem → 文件名 → 正文
         "year": fields.get("year", "") or _extract_year(overview_path.parent.parent.stem) or _extract_year(overview_path.stem) or _most_likely_year(body) or "",
-        "journal": fields.get("journal", ""),
-        "doi": fields.get("doi", ""),
+        "journal": _strip_fact_tag(fields.get("journal", "")),
+        "doi": _strip_fact_tag(fields.get("doi", "")),
         "arxiv": fields.get("arxiv", ""),
-        "keywords": fields.get("keywords", ""),
-        "abstract": fields.get("abstract", ""),
+        "keywords": _strip_fact_tag(fields.get("keywords", "")),
+        "abstract": _strip_fact_tag(fields.get("abstract", "")),
         "category": category,
         "status": "completed",
         "read_date": rd,

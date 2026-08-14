@@ -38,10 +38,7 @@ abstract: '### 原文
   - **专题**：电子、正电子、反质子、同步辐射
 
 
-  ### [FACT]
-
-
-  作者声明："concerning the origin of CR, we will, for the most part, sidestep this problem"——即本篇**不讨论宇宙线起源问题**。也明确排除了太阳调制、星系团和外银河宇宙线。'
+  ###作者声明："concerning the origin of CR, we will, for the most part, sidestep this problem"——即本篇**不讨论宇宙线起源问题**。也明确排除了太阳调制、星系团和外银河宇宙线。'
 category: 宇宙线传播
 status: completed
 read_date: '2026-08-12'
