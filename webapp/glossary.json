@@ -16,6 +16,14 @@
     "cross_paper": false
   },
   {
+    "term": "(α,n) reaction",
+    "def": "(α,n) 反应",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "1-zone / 2-zone model",
     "def": "一区 / 二区模型",
     "papers": [
@@ -133,6 +141,14 @@
     "def": "50% 冷凝温度",
     "papers": [
       "0008_lodders-2003"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "60,000 yr time scale",
+    "def": "60,000 年时标",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -371,6 +387,14 @@
     "cross_paper": false
   },
   {
+    "term": "B²FH (Burbidge-Burbidge-Fowler-Hoyle 1957)",
+    "def": "B²FH 论文",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "C + N = const",
     "def": "C+N 守恒（CN-cycle 签名）",
     "papers": [
@@ -427,6 +451,14 @@
     "cross_paper": false
   },
   {
+    "term": "CH, CN, NH bands",
+    "def": "分子带",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "CHARA Array",
     "def": "Georgia State 长基线光学干涉阵列",
     "papers": [
@@ -479,6 +511,14 @@
     "cross_paper": false
   },
   {
+    "term": "CN anomaly",
+    "def": "CN 反常",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "CN-cycle",
     "def": "CNO 循环中的碳氮循环",
     "papers": [
@@ -491,6 +531,22 @@
     "def": "CN-cycle 产物（N↑、C↓、He↑）",
     "papers": [
       "0010_gies-lambert-1992"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "CNO cycle",
+    "def": "CNO 循环",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "CNO hydrogen-burning shell",
+    "def": "CNO 氢燃烧壳层",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -612,6 +668,22 @@
     "def": "康普顿-吉廷各向异性",
     "papers": [
       "0001_strong-moskalenko-ptuskin-2007"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "Cottrell & Da Costa scenario",
+    "def": "Cottrell-Da Costa 场景",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "Coulomb barrier",
+    "def": "库仑位垒",
+    "papers": [
+      "0014_cameron-1968"
     ],
     "cross_paper": false
   },
@@ -997,6 +1069,14 @@
     "cross_paper": false
   },
   {
+    "term": "He core flash",
+    "def": "氦核闪",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "He/H–Z relation",
     "def": "氦-金属丰度关系",
     "papers": [
@@ -1124,6 +1204,14 @@
     "cross_paper": false
   },
   {
+    "term": "Ivuna",
+    "def": "伊武纳陨石",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "K-capture (K-capture decay)",
     "def": "K-电子俘获",
     "papers": [
@@ -1246,6 +1334,14 @@
     "cross_paper": false
   },
   {
+    "term": "M22",
+    "def": "梅西耶 22",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "MACHO (Massive Astrophysical Compact Halo Object)",
     "def": "大质量致密天体（重子暗物质候选）",
     "papers": [
@@ -1345,6 +1441,14 @@
     "cross_paper": true
   },
   {
+    "term": "Murray",
+    "def": "默里陨石",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "N/O–Z☉ 0.23 transition",
     "def": "氮 0.23 Z☉ 转折点",
     "papers": [
@@ -1414,6 +1518,14 @@
     "def": "不透明度研究计划",
     "papers": [
       "0009_asplund-2009-solar-composition"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "Orgueil",
+    "def": "奥尔盖陨石",
+    "papers": [
+      "0014_cameron-1968"
     ],
     "cross_paper": false
   },
@@ -1531,6 +1643,14 @@
     "cross_paper": false
   },
   {
+    "term": "RR Lyrae",
+    "def": "天琴 RR 变星",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "R_BCZ",
     "def": "对流区底部半径",
     "papers": [
@@ -1576,6 +1696,14 @@
     "def": "大气中 ZrO 分子带强的 s 过程超丰恒星光谱亚型",
     "papers": [
       "0001_b2fh-1957"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "S/N (signal-to-noise)",
+    "def": "信噪比",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -1714,6 +1842,14 @@
     "cross_paper": false
   },
   {
+    "term": "Si = 10⁶",
+    "def": "硅归一化基准",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "Si III, Si IV, Si II",
     "def": "硅电离态丰度",
     "papers": [
@@ -1778,6 +1914,22 @@
     "cross_paper": false
   },
   {
+    "term": "Suess-Urey table",
+    "def": "Suess-Urey 表",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "Sweigart-Mengel mechanism",
+    "def": "Sweigart-Mengel 机制",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "TOF 与活化法",
     "def": "时间飞行法 (Time-of-Flight) 与活化法 (activation)——核反应截面两种主要测量技术",
     "papers": [
@@ -1830,6 +1982,22 @@
     "def": "Tully-Fisher 关系（L ∝ V⁴）",
     "papers": [
       "0013_bertone-hooper-2018"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "Type I carbonaceous chondrite (CI)",
+    "def": "类型 I 碳质球粒陨石",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "Type I meteorite class",
+    "def": "类型 I 陨石类",
+    "papers": [
+      "0014_cameron-1968"
     ],
     "cross_paper": false
   },
@@ -2032,6 +2200,14 @@
     "cross_paper": false
   },
   {
+    "term": "[Fe/H] spread",
+    "def": "[Fe/H] 展宽",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "[Fe/H], metal-poor",
     "def": "铁丰度/贫金属",
     "papers": [
@@ -2052,6 +2228,30 @@
     "def": "诊断图纵轴（强激发比）",
     "papers": [
       "0011_kewley-2001-starburst"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "[el/Fe] ratio",
+    "def": "元素/铁丰度比",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "[α/Fe] substructure",
+    "def": "α/Fe 丰度亚结构",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "ab initio",
+    "def": "原始的/初值的",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -2084,6 +2284,14 @@
     "def": "角直径",
     "papers": [
       "0012_dieterich-2014-h-burning-limit"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "angular velocity ω ~ 6×10⁻⁵ s⁻¹",
+    "def": "所需角速度",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -2130,6 +2338,14 @@
     "cross_paper": false
   },
   {
+    "term": "arclike distribution",
+    "def": "弧形分布",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "astrometric binary",
     "def": "天体测量双星",
     "papers": [
@@ -2154,6 +2370,14 @@
     "cross_paper": false
   },
   {
+    "term": "asymptotic giant branch (AGB)",
+    "def": "渐近巨星支",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "axion",
     "def": "轴子",
     "papers": [
@@ -2174,6 +2398,14 @@
     "def": "重子物质",
     "papers": [
       "0013_bertone-hooper-2018"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "bimodal distribution",
+    "def": "双峰分布",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -2283,6 +2515,30 @@
     "cross_paper": false
   },
   {
+    "term": "characteristic velocity ~10⁻³ cm s⁻¹",
+    "def": "环流特征速度",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "chemical enrichment",
+    "def": "化学增丰",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "chemical fractionation",
+    "def": "化学分馏",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "chemically homogeneous",
     "def": "化学均质",
     "papers": [
@@ -2315,10 +2571,26 @@
     "cross_paper": false
   },
   {
+    "term": "closed neutron shell (N=50, 82, 126)",
+    "def": "中子闭壳(幻数)",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "cloud chemistry (dust settling)",
     "def": "云化学（尘埃重力沉降）",
     "papers": [
       "0012_dieterich-2014-h-burning-limit"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "coeval",
+    "def": "同年龄的",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -2359,6 +2631,14 @@
     "def": "约束/束缚",
     "papers": [
       "0004_blasi-2013"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "conservation of angular momentum",
+    "def": "角动量守恒",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -2537,6 +2817,30 @@
     "cross_paper": false
   },
   {
+    "term": "decay interval of 4.5 × 10⁹ years",
+    "def": "45 亿年衰变区间",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "deepest penetration radius",
+    "def": "最深穿透半径",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "degenerate He core",
+    "def": "简并氦核",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "density parameter",
     "def": "W-R 密度参数",
     "papers": [
@@ -2549,6 +2853,14 @@
     "def": "尘埃耗尽因子",
     "papers": [
       "0011_kewley-2001-starburst"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "differential reddening",
+    "def": "差向红化",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -2617,6 +2929,14 @@
     "cross_paper": false
   },
   {
+    "term": "double-metal molecule",
+    "def": "双金属分子",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "dredge-up",
     "def": "上翻",
     "papers": [
@@ -2625,10 +2945,26 @@
     "cross_paper": false
   },
   {
+    "term": "dredge-up / dredge up",
+    "def": "挖升",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "dust depletion",
     "def": "尘埃耗尽",
     "papers": [
       "0010_gies-lambert-1992"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "dwarf spheroidal",
+    "def": "矮椭伴星系",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -2673,6 +3009,14 @@
     "cross_paper": false
   },
   {
+    "term": "element depletion factor",
+    "def": "元素亏损因子",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "element migration / settling",
     "def": "元素迁移 / 沉降",
     "papers": [
@@ -2709,6 +3053,14 @@
     "def": "镁灰石",
     "papers": [
       "0008_lodders-2003"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "environmental pollution",
+    "def": "环境污染",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -2796,10 +3148,26 @@
     "cross_paper": false
   },
   {
+    "term": "external convection zone",
+    "def": "外部对流区",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "extreme starburst classification line",
     "def": "极端星暴分类线（Kewley 2001）",
     "papers": [
       "0011_kewley-2001-starburst"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "first parameter",
+    "def": "第一参数",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -2819,6 +3187,14 @@
       "0005_amato-2014"
     ],
     "cross_paper": true
+  },
+  {
+    "term": "flux limitation",
+    "def": "流量限制",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
   },
   {
     "term": "fold (grid topology)",
@@ -2885,6 +3261,14 @@
     "cross_paper": false
   },
   {
+    "term": "galactic nuclear bulge",
+    "def": "银核核球",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "gamma ray",
     "def": "γ 射线",
     "papers": [
@@ -2906,6 +3290,22 @@
     "def": "振子强度",
     "papers": [
       "0006_anders-grevesse"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "global anticorrelation",
+    "def": "全局反相关",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "globular cluster",
+    "def": "球状星团",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -2946,6 +3346,14 @@
     "def": "强子",
     "papers": [
       "0001_bhattacharjee-sigl-2000"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "halo field subdwarf",
+    "def": "晕场次矮星",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -3065,6 +3473,14 @@
     "cross_paper": false
   },
   {
+    "term": "initial solar system",
+    "def": "初始太阳系",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "injection spectrum",
     "def": "注入谱",
     "papers": [
@@ -3077,6 +3493,14 @@
     "def": "瞬时星暴",
     "papers": [
       "0011_kewley-2001-starburst"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "integrated spectrum",
+    "def": "集成光谱",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -3125,6 +3549,14 @@
     "def": "电离参数",
     "papers": [
       "0011_kewley-2001-starburst"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "isobar",
+    "def": "同量异位素",
+    "papers": [
+      "0014_cameron-1968"
     ],
     "cross_paper": false
   },
@@ -3233,6 +3665,22 @@
     "cross_paper": false
   },
   {
+    "term": "logarithmic average",
+    "def": "对数平均",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "low-mass star",
+    "def": "低质量星",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "macroturbulence",
     "def": "宏湍流",
     "papers": [
@@ -3276,10 +3724,26 @@
     "cross_paper": false
   },
   {
+    "term": "main-sequence turnoff",
+    "def": "主序拐点",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "meridional circulation",
     "def": "经圈环流",
     "papers": [
       "0010_gies-lambert-1992"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "meridional circulation / current",
+    "def": "子午环流",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -3365,6 +3829,14 @@
     "cross_paper": false
   },
   {
+    "term": "monometallic",
+    "def": "单一金属丰度的",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "muon",
     "def": "μ 子",
     "papers": [
@@ -3385,6 +3857,14 @@
     "def": "中微子",
     "papers": [
       "0001_bhattacharjee-sigl-2000"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "neutron capture cross-section",
+    "def": "中子俘获截面",
+    "papers": [
+      "0014_cameron-1968"
     ],
     "cross_paper": false
   },
@@ -3421,6 +3901,22 @@
     "cross_paper": false
   },
   {
+    "term": "nonvolatile element",
+    "def": "非挥发性元素",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "normalization",
+    "def": "归一化",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "nova",
     "def": "新星",
     "papers": [
@@ -3433,6 +3929,22 @@
     "def": "快速中子-质子过程",
     "papers": [
       "0005_champagne-wiescher-1992"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "nuclear clock",
+    "def": "核钟",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "nuclear reaction network",
+    "def": "核反应网络",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -3456,10 +3968,50 @@
     "cross_paper": true
   },
   {
+    "term": "nucleosynthesis",
+    "def": "核合成",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "odd-even ratio",
+    "def": "奇偶比",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "omega Centauri (ω Cen)",
+    "def": "半人马座 ω",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "opacity",
     "def": "不透明度",
     "papers": [
       "0009_asplund-2009-solar-composition"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "ordinary chondrite",
+    "def": "普通球粒陨石",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "oscillator strength",
+    "def": "振子强度",
+    "papers": [
+      "0014_cameron-1968"
     ],
     "cross_paper": false
   },
@@ -3484,6 +4036,14 @@
     "def": "通过 (γ,n) 或 (p,γ) 产生质子富集核的过程",
     "papers": [
       "0002_trimble-1975"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "p-process (bypassed nuclei)",
+    "def": "质子俘获/光致蜕变过程",
+    "papers": [
+      "0014_cameron-1968"
     ],
     "cross_paper": false
   },
@@ -3532,6 +4092,14 @@
     "def": "光微子（光子超伴子）",
     "papers": [
       "0013_bertone-hooper-2018"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "photo-disintegration",
+    "def": "光致蜕变",
+    "papers": [
+      "0014_cameron-1968"
     ],
     "cross_paper": false
   },
@@ -3604,6 +4172,14 @@
     "cross_paper": false
   },
   {
+    "term": "population signature",
+    "def": "群体签名",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "positron",
     "def": "正电子",
     "papers": [
@@ -3613,6 +4189,14 @@
       "0006_grenier-2015"
     ],
     "cross_paper": true
+  },
+  {
+    "term": "post big-bang",
+    "def": "大爆炸后",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
   },
   {
     "term": "power law",
@@ -3628,6 +4212,14 @@
     "def": "氦 I 幂律丰度",
     "papers": [
       "0010_gies-lambert-1992"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "presupernova structure",
+    "def": "前超新星结构",
+    "papers": [
+      "0014_cameron-1968"
     ],
     "cross_paper": false
   },
@@ -3664,6 +4256,14 @@
     "cross_paper": false
   },
   {
+    "term": "primordial chemical inhomogeneity",
+    "def": "原始化学不均匀性",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "propagation",
     "def": "传播",
     "papers": [
@@ -3691,6 +4291,14 @@
       "0006_grenier-2015"
     ],
     "cross_paper": true
+  },
+  {
+    "term": "proton capture on ²²Ne",
+    "def": "²²Ne 质子俘获",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
   },
   {
     "term": "proton drip line",
@@ -3757,6 +4365,14 @@
     "cross_paper": false
   },
   {
+    "term": "r-process (fast time scale)",
+    "def": "快中子俘获过程",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "radiative shock",
     "def": "辐射激波",
     "papers": [
@@ -3777,6 +4393,14 @@
     "def": "半径极小值（氢燃烧极限标志）",
     "papers": [
       "0012_dieterich-2014-h-burning-limit"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "rare earth elements (REE)",
+    "def": "稀土元素",
+    "papers": [
+      "0014_cameron-1968"
     ],
     "cross_paper": false
   },
@@ -3833,6 +4457,14 @@
     "def": "相对论性气体",
     "papers": [
       "0001_strong-moskalenko-ptuskin-2007"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "rigid-body rotator",
+    "def": "刚体自转",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -3902,6 +4534,22 @@
     "cross_paper": false
   },
   {
+    "term": "s-process",
+    "def": "慢中子俘获过程",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "s-process (slow time scale)",
+    "def": "慢中子俘获过程",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "s-process / r-process",
     "def": "s 过程 / r 过程",
     "papers": [
@@ -3926,10 +4574,26 @@
     "cross_paper": false
   },
   {
+    "term": "second parameter effect",
+    "def": "第二参数效应",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "secondary nuclei",
     "def": "次级核",
     "papers": [
       "0001_strong-moskalenko-ptuskin-2007"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "secular mass loss",
+    "def": "长期质量损失",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -3946,6 +4610,14 @@
     "def": "自洽模型",
     "papers": [
       "0001_strong-moskalenko-ptuskin-2007"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "shell flash",
+    "def": "壳层闪",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -3995,6 +4667,22 @@
     "cross_paper": true
   },
   {
+    "term": "solar corona",
+    "def": "日冕",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "solar cosmic ray abundance",
+    "def": "太阳宇宙线丰度",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "solar energetic particles (SEP)",
     "def": "太阳高能粒子",
     "papers": [
@@ -4017,6 +4705,14 @@
     "def": "太阳邻域",
     "papers": [
       "0009_asplund-2009-solar-composition"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "solar photospheric abundance",
+    "def": "太阳大气(光球层)丰度",
+    "papers": [
+      "0014_cameron-1968"
     ],
     "cross_paper": false
   },
@@ -4074,6 +4770,14 @@
     "def": "本文样本光谱型范围",
     "papers": [
       "0012_dieterich-2014-h-burning-limit"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "spin down",
+    "def": "自转减速",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -4167,6 +4871,14 @@
     "cross_paper": false
   },
   {
+    "term": "stochastic process",
+    "def": "随机过程",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "structure formation",
     "def": "结构形成",
     "papers": [
@@ -4229,6 +4941,30 @@
     "def": "超新星遗迹",
     "papers": [
       "0001_strong-moskalenko-ptuskin-2007"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "supernova shock wave",
+    "def": "超新星激波",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "superoxygen-poor",
+    "def": "超贫氧",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "supertelescope era",
+    "def": "巨型望远镜时代",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -4307,6 +5043,14 @@
     "cross_paper": false
   },
   {
+    "term": "thick disk globular cluster",
+    "def": "厚盘球状星团",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "tidal mixing (binary)",
     "def": "双星潮汐混合",
     "papers": [
@@ -4347,6 +5091,14 @@
     "cross_paper": false
   },
   {
+    "term": "triple alpha process",
+    "def": "³α 过程",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "troilite FeS",
     "def": "陨硫石",
     "papers": [
@@ -4363,6 +5115,14 @@
       "0007_biermann-1996"
     ],
     "cross_paper": true
+  },
+  {
+    "term": "uniform enrichment",
+    "def": "均匀富集",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
   },
   {
     "term": "very low mass (VLM) star",
@@ -4389,6 +5149,14 @@
     "cross_paper": false
   },
   {
+    "term": "volatile element",
+    "def": "挥发性元素",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "vorton",
     "def": "涡旋子",
     "papers": [
@@ -4400,9 +5168,10 @@
     "term": "waiting point",
     "def": "等待点",
     "papers": [
-      "0005_champagne-wiescher-1992"
+      "0005_champagne-wiescher-1992",
+      "0014_cameron-1968"
     ],
-    "cross_paper": false
+    "cross_paper": true
   },
   {
     "term": "wave damping",
@@ -4429,10 +5198,42 @@
     "cross_paper": false
   },
   {
+    "term": "zero-age horizontal branch (ZAHB)",
+    "def": "零龄水平支",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "²²Ne(α,n)²⁵Mg",
+    "def": "中子源反应",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "²³Na, ²⁷Al production",
+    "def": "Na、Al 合成",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "²⁰Ne(α,n)²⁴Mg 中子源",
     "def": "高温中子源",
     "papers": [
       "0001_b2fh-1957"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "²⁰Ne–²³Na chain",
+    "def": "20Ne–23Na 反应链",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -4469,6 +5270,14 @@
     "cross_paper": false
   },
   {
+    "term": "¹²C/¹³C ratio",
+    "def": "碳同位素比",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "Γ_γ (radiative width)",
     "def": "辐射宽度",
     "papers": [
@@ -4481,6 +5290,14 @@
     "def": "绝热指数",
     "papers": [
       "0009_asplund-2009-solar-composition"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "Δt/Δ[O/Fe] ≈ 4 Gyr/dex",
+    "def": "O 丰度对年龄敏感度",
+    "papers": [
+      "0015_kraft-1994"
     ],
     "cross_paper": false
   },
@@ -4517,6 +5334,14 @@
     "cross_paper": false
   },
   {
+    "term": "β-delayed neutron emission",
+    "def": "β 延迟中子发射",
+    "papers": [
+      "0014_cameron-1968"
+    ],
+    "cross_paper": false
+  },
+  {
     "term": "γ 射线",
     "def": "γ 射线",
     "papers": [
@@ -4527,6 +5352,14 @@
       "0007_biermann-1996"
     ],
     "cross_paper": true
+  },
+  {
+    "term": "μ gradient",
+    "def": "质量分数梯度",
+    "papers": [
+      "0015_kraft-1994"
+    ],
+    "cross_paper": false
   },
   {
     "term": "ν 过程 (neutrino-process)",
@@ -4549,6 +5382,14 @@
     "def": "σN_s 图",
     "papers": [
       "0006_anders-grevesse"
+    ],
+    "cross_paper": false
+  },
+  {
+    "term": "σ_N",
+    "def": "截面-丰度乘积",
+    "papers": [
+      "0014_cameron-1968"
     ],
     "cross_paper": false
   },
