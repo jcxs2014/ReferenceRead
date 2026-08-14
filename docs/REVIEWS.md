@@ -6,6 +6,44 @@
 
 ---
 
+## 审查 #12：15 篇文献批量入库核验（2026-08-14 23:41）
+
+**背景**：用户补充 15 篇文献 PDF（DSA 奠基三件套 + Hillas + 现代传播 + r/s 过程综述），按 E 方案（骨架入库 + 经典详细档 + 后续按需精读）执行。
+
+### 核验结果：全部通过 ✅
+
+| 核验项 | 实测 | 判定 |
+|---|---|---|
+| 提交 `10be951` | ✅ 真实，10 files / +1195 | ✅ |
+| 目录编号 | ✅ 01域 0002-0006 / 02域 0008-0015 / 03域 0016-0017 全部符合规划 | ✅ |
+| 论文分布 | ✅ 01域 6 / 02域 15 / 03域 17 = 38 篇 | ✅ |
+| Morlino 移除 | ✅ 博士论文已从根目录删除（用户决定） | ✅ |
+| pages 字段 | ✅ 15/15 已补（§30 规约）：Bell 147-156 / BO L29-L32 / BE 1-75 / Hillas 425-444 / TA 903-907 / 预印本 '1-N' | ✅ |
+| frontmatter 质量 | ✅ 抽查 3 篇 title/authors/year/doi/arxiv 与已验证 arXiv 号一致 | ✅ |
+| interactive.html PAPERS | ✅ 38 篇（产物已重建） | ✅ |
+| verify_claim | ✅ FAIL 3→2；剩余 2 为骨架预期（三件套 + citations 拓扑属性） | ✅ |
+| §31 陷阱 5 | ✅ 已追加「审计失败先重建产物，再怀疑代码」 | ✅ |
+| 工作树 | ✅ 干净 | ✅ |
+
+### 两个审查发现（重要）
+
+**1. pages 未进 registry 是设计现状，非缺陷**
+- `build_registry.py` 不处理 pages（grep 零命中），registry 字段集不含 pages
+- pages 只存于源 frontmatter，为将来 #3 页数字段软断言准备（源头数据策略，§30）
+- WorkBuddy 曾误判「registry 需先重建补 pages」——实际 build_registry 根本不写 pages，直接重建 webapp 即正确（已在 §31 修正认知）
+
+**2. audit「PAPERS 23」误诊案例（Hermes 已记录 §31 陷阱 5）**
+- Hermes 曾建议改 audit.py 使 PAPERS 动态化 → 实测为 interactive.html 产物过期（23 vs 目录 38）
+- audit.py 设计正确（从产物提取保证 webapp/源一致），正解是重建 webapp
+- 教训：「审计失败先重建产物，再怀疑代码」
+
+### 里程碑
+
+- 全库 38 篇论文（原 23 + 新 15），工作树干净，质量门禁剩余 FAIL 均为骨架预期
+- 今天第二个大闭环：RECOMMENDATIONS 12 项 + 目录整理（第一闭环）→ 15 篇文献批量入库（第二闭环）
+
+---
+
 ## 审查 #11：#2 quality_matrix 覆盖率矩阵核验（2026-08-14 22:10）
 
 **Hermes 交付**：`4777c0b feat(#2)` — `scripts/quality_matrix.py` READING_INSTRUCTIONS 覆盖率矩阵。

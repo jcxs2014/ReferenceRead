@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**259 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**265 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -182,11 +182,12 @@
 
 |  |  |
 |---|---|
-| 作者 | A. R. Bell |
-| 期刊 | Monthly Notices of the Royal Astronomical Society 182, 147 (1978) |
-| 分析文件 | 1 个（00_overview.md） |
+| 作者 | A. R. Bell（之后系列 Bell 1978a/b/c） |
+| 期刊 | MNRAS 182, 147 (1978) |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`02_cosmic-ray-origins/0008_bell-1978/literature_analysis/`](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/99_final_summary.md) |
 
 ### `0009_blandford-ostriker-1978`
 
@@ -194,11 +195,12 @@
 
 |  |  |
 |---|---|
-| 作者 | R. D. Blandford, J. P. Ostriker |
+| 作者 | R. D. Blandford (Caltech), J. P. Ostriker (Princeton) |
 | 期刊 | The Astrophysical Journal 221, L29-L32 (1978) |
-| 分析文件 | 1 个（00_overview.md） |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/`](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/99_final_summary.md) |
 
 ### `0010_blandford-eichler-1987`
 
@@ -206,11 +208,12 @@
 
 |  |  |
 |---|---|
-| 作者 | Roger Blandford, David Eichler |
+| 作者 | Roger Blandford (Caltech), David Eichler (U. Maryland / Ben Gurion) |
 | 期刊 | Physics Reports 154, 1 (1987) |
-| 分析文件 | 1 个（00_overview.md） |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/`](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/99_final_summary.md) |
 
 ### `0011_hillas-1984`
 
@@ -502,8 +505,8 @@
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
 | 01. 宇宙线传播 | 6 | 13 |
-| 02. 宇宙线起源 | 15 | 83 |
+| 02. 宇宙线起源 | 15 | 89 |
 | 03. 恒星核合成与元素丰度 | 17 | 163 |
-| **合计** | **38** | **259** |
+| **合计** | **38** | **265** |
 
 > 最后更新: 2026-08-14（自动生成）

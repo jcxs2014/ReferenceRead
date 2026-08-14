@@ -1,0 +1,296 @@
+197 8ApJ. . .22IL. .29B  The Astrophysical Journal, 221:L29-L32, 1978 April 1
+                         © 1978. The American Astronomical Society. All rights reserved. Printed in U.S.A.
+
+                         PARTICLE ACCELERATION BY ASTROPHYSICAL SHOCKS
+
+                                                                           R. D. B LANDFORD
+                                                                    California Institute of Technology
+
+                                                                                    AND
+
+                                                                             J. P. OSTRIKER
+                                                                     Princeton University Observatory
+                                                           Received 1977 December 12; accepted 1978 January 6
+
+                                                                               ABSTRACT
+
+                            A new mechanism is proposed for acceleration of a power-law distribution of cosmic rays with
+                         approximately the observed slope. High-energy particles in the vicinity of a shock are scattered by
+                         Alfvén waves carried by the converging fluid flow leading to a first-order acceleration process in
+                         which the escape time is automatically comparable to the acceleration time. Shocks from supernova
+                         explosions propagating through the interstellar medium can account for the acceleration of galactic
+                         cosmic rays. Similar processes occurring in extragalactic radio sources can lead to efficient in situ
+                         acceleration of relativistic electrons.
+                         Subject headings: cosmic rays: general -- shock waves
+
+                                                 I. INTRODUCTION                            can be accelerated in the vicinity of a strong shock
+                                                                                            propagating through a nonrelativistic plasma, and
+                            Supernovae in our Galaxy produce shocks propa-                  several detailed mechanisms have been studied (e.g.,
+                         gating away from the central explosions which can                  Wentzel 1964; Hudson 1965; Jokipii 1966; Fisk 1971;
+                         encompass large volumes before radiative losses begin              Burn 1976). A new examination of the possibilities is
+                         to drain their energy, Ehi = E/1051 ergs. If the ambient           prompted by the realization that the volume shocked
+                         interstellar hydrogen density is ;70(cm-3), then the               by supernovae is so large. In the acceleration scheme
+                         volume, shock velocity, and remnant age at cooling are             discussed here, particles are scattered in pitch angle
+                         Fcool = 1059-17 no-1-23 £5r0-87 =1 1063-4 cm43,46 i-c00l0=52       by wave turbulence on either side of a strong shock so
+                         102.42 Wo0.12 £^0.06 = 120 km S" , ¿Cool = 10 ' TZo" -             that they can be accelerated by the Fermi (1949)
+                         Esi0-22 = 105-9 yr for the standard Sedov solution and             method. We show how this process, which has been
+                         similar numerically for the case when evaporation from             independently discovered by Axford, Lear, and Skadron
+                         interstellar clouds embedded in the hot gas determine              (1977) and Bell (1977), leads naturally to a power-law
+                         the SNR dynamics (Cox and Smith 1974; McKee and                    distribution in momentum with the observed slope.
+                         Ostriker 1977; Spitzer 1978). The numerical values                 This is especially important because power-law dis-
+                         used are those appropriate for a model of the interstellar         tribution functions of cosmic-ray particles are observed
+                         medium (ISM) where much of space is filled with hot,               directly at Earth (e.g., Wentzel 1974) or inferred from
+                         very low-density (w0 = 10-2-8) coronal gas. The ambient            radio observations in the Galaxy (e.g., Webster 1974),
+                         interstellar cosmic rays can move only with respect to             supernova remnants (e.g., Woltjer 1972), and extra-
+                         the background gas at velocities less than the Alfvén              galactic radio sources (e.g., De Young 1976). If we
+                         velocity (Kulsrud and Pearce 1969), da[= L3(B/10_6)                define j(p, x)dzpd*x to be the number of particles in
+                         gauss 770--1/2 km s_1 = 50 km s_1] < 7>Cooi* Thus they are         volume d*p of momentum space and then it has been found that / p~sd*x of real space, with 4 < s < 5
+                         effectively frozen into the ISM for t < tcoo\ and will             over many decades of relativistic energy and in quite
+                         pass with the gas through the expanding shocks. Since              different physical environments. This suggests that a
+                         the energy density in cosmic rays, £/cr, is ^10-12 ergs            general mechanism is at work, and acceleration in
+                         cm-3, the energy in shocked cosmic rays is FCooiCcr =              strong shocks is an attractive possibility in each case.
+                         1051 ergs per supernova. Thus if, on average, the
+                         fractional energy increase of a cosmic ray on passing                        II. ACCELERATION BY A STRONG SHOCK
+                         through the strong shock were e ^ 10_1, the total
+                         energy input in this form would be e FCooiGcr ~ 1050                  Consider a strong shock across which the density
+                         ergs SN_1, which is more than sufficient to account for            increases by a compression ratio r. The angle between
+                         the known energy input requirements. Finding such a                the magnetic field and the shock normal ahead of, i.e.,
+                         mechanism would immediately bypass the several well-               x < 0 (behind, æ > 0) the shock is 0-(0+), and the fluid
+                         known problems associated with point sources like                  velocity in the shock frame is w_(w+), so that r = w_/
+                                                                                            u+ = tan 0+/tan 0_. We note that, if we can transform
+                         supernovae (which, of course, may still be needed to               to a frame moving with velocity -- tan 6- parallel to
+                         provide the injection and initial acceleration of cosmic           the shock front, then on both sides £ -- 0 and u \\ B.
+                         rays).
+
+                           It has long been recognized that relativistic particles
+
+                                                                                       L29
+
+                         © American Astronomical Society · Provided by the NASA Astrophysics Data System
+197 8ApJ. . .22IL. .29B  L30                                 BLANDFORD AND OSTRIKER                                                  Vol. 221
+
+                         Thus, particle acceleration by electric fields will not                     = K«+ - w-)á(x) [3-^]           (lb)
+
+                         occur except for the case of shocks nearly perpendicular
+
+                         to the field (w_ tan 0_ > c) where the field cannot be       (e.g., Hasselman and Wibberenz 1968; Skilling 1975)
+                                                                                      for the assumed geometrical conditions. In equation
+                         transformed away. In this special case, the adiabatic        (la) n is a unit vector in the field direction and Z)||, the
+                         invariant px2/B will be approximately conserved              diffusion coefficient parallel to the field, is given by
+
+                         (Schatzman 1963; Chandrasekhar 1965; see also                                D\\ = (fl2/4) v~l sin3 <t)d(t) .
+                         Chevalier 1977), and there is a net increase A(^2) in
+                         the average squared momentum p2 even after the
+
+                         density and field return to their preshock values;
+                         {k(p2)/p2) = (1/3) (1 + 2r)r"2/3 -- 1. Returning to the
+
+                         general case, we hypothesize that there exists a source      This equation must be solved on either side of the
+                                                                                      shock and the solutions joined by imposing continuity
+                         of wave turbulence with wave velocity w<Ku in the            [by <5(:r)] of the distribution function / and the particle
+                                                                                      energy flux, at a given energy, normal to the shock,
+                         vicinity of the shock capable of scattering high-energy      -- udf/d In p* -- KVf [to 0 (w_/z))], where k = D\\ cos2 6.
+                         particles in pitch angle </> at a rate <(A<£)2/A¿> = v, and
+                                                                                        In a stationary solution, the flux uf -- KVf must be
+                         tending to make the distribution function isotropic in       constant on either side of the shock; / will approach
+                                                                                      asymptotic values /-(/+) as the distance from the
+                         the frame of the background medium. The acceleration         shock x--o°(x-->-|-oo). As /c>0, the solution
+                                                                                      behind the shock must be / = /+, x > 0, whereas
+                         discussed here derives from the entropy generated            ahead of the shock
+
+                         within the shock front by this diffusive process. The             /=/- + (/+- /-) exp [«_ dx'/Kjx')^ ,
+
+                         increase in density across the shock requires a con-
+
+                         vergence in the velocity field and of any hydromagnetic
+
+                         waves being convected with the gas flow. Cosmic rays
+
+                         in the vicinity of the shock will be scattered repeatedly
+
+                         from these converging streams of waves and thereby
+
+                         accelerated by the first-order Fermi process, increasing
+
+                         their kinetic energy T at a rate dT/dt ~ vT(u/v), where      x < 0. However, independent of the variation of /c_,
+
+                         v is the particle speed. Pitch angle scattering is respon-   we can relate /+, /_, using the junction conditions to
+                                                                                      obtain df+/d In p* = (/+ -- f-)u-/(u+ -- uJ)y of which
+                         sible for diffusion in real space as well as momentum        the solution is
+                         space, and the corresponding coefficient is J9 ^ v2/v ;
+
+                         balancing diffusion with convection ahead of the shock
+
+                         establishes a concentration scale length L~D/u_\             f+iP) =                                     »  (2)
+
+                         but the thickness within which the first-order process
+
+                         occurs is ~(v/v) and so the net rate at which the shock      with q = 3r/(r -- 1). That is to say, incident cosmic
+
+                         does work on the high-energy particles of density n is       rays of space density and momentum p0 are Fermi
+
+                         n(y/v){dT/dt) ~ nTu per unit area, independent of v          accelerated by the shock to give a power-law distribu-
+                                                                                      tion f+(p) = n-po^-^Qip -- p0)/4t7r(q -- 3)p~q. If /_ °c
+                         and w. That is, when a strong shock wave propagates          p~s with s < q, then /+ = q/(q -- i)/_ p~s. How-
+
+                         through a medium containing cosmic rays, their energy
+
+                         is roughly doubled, a result implicit in the earlier         ever, if 5 < <7, lower-energy particles will be accelerated
+
+                         treatments referred to above.                                to give /+ oe       where the coefficient is determined
+
+                         Before we proceed with the calculation, a word on            by the number of particles for which Fermi acceleration
+
+                         the four relevant length scales is necessary. We will        is more important than thermalization by collisionless
+
+                         assume that the shock thickness, ô, the cosmic-ray           processes behind the shock and ionization losses. For
+
+                         Larmor radius, rL, the diffusion length, L, and the          particles accelerated in this way, the mean energy
+
+                         postshock fluid scale length, H (e.g., the radius of the     gain is 3/(5 -- 2r), r < 2.5 for nonrelativistic particles,
+
+                         SNR), are ordered as follows: <5 «  L <<C #. The             and 3/(4 --r), r<4 for ultrarelativistic particles.
+
+                         first inequality is probably well satisfied because <5 ^     (For shocks that are more compressive than this, the
+
+                         the ion Larmor radius of the thermal medium ; violation      mean energy gain is determined by the maximum
+
+                         of the second cannot occur for weak turbulence; and          momentum for which the isotropization is sufficiently
+
+                         violation of the third, because v is relatively small for    effective.) Examination of time-dependent solutions to
+
+                         high-energy cosmic rays, can significantly reduce the        equations (1) show that this stationary state will be
+                                                                                      attained in a characteristic time ^/c_/w_2, determined
+                         efficiency of the process.
+
+                         The equation describing the isotropic part / of a            by the scattering rate ahead of the shock.
+
+                         distribution function of cosmic rays coupled by pitch          If the shocked medium eventually expands to the
+                                                                                      density of the unshocked medium in a time r + H2/K+y
+                         angle scattering to a background medium is
+
+                              K+ (u · V)/ - V · (D\\nn · V/)                          then the particles will cool adiabatically so that f+{p)
+                                                                                      will be reduced by a factor r-s/3, leaving the spectrum
+
+                                                                                      unaffected. However, the shock heating will always
+
+                                                                                      exceed the adiabatic cooling corresponding to a net
+
+                                                                                      gain in entropy of the cosmic rays on crossing the
+                                                                                      shock. If r ^>> tf2A+, the situation is more complicated,
+
+                                                                                      but there is still a net gain in energy for particles
+
+                                                                                      passed by a shock.
+
+                         © American Astronomical Society · Provided by the NASA Astrophysics Data System
+197 8ApJ. . .22IL. .29B  No. 1, 1978  PARTICLE ACCELERATION BY SHOCKS                                     L31
+
+                                     III. ACCELERATION OF COSMIC RAYS                increases this by a factor of ^2 (draining 0.1 of the
+                                                                                     energy of a typical supernova having E = 1051 ergs);
+                           This mechanism may be responsible for the con-            for a supernova rate of 10-68 cm-3 yr-1 (one per 60
+                         tinuous acceleration of interstellar cosmic rays by         years in the Galaxy), the energy input rate is 10-18
+                         supernova remnants in a way that avoids the cata-           ergs cm-3 yr-1, which, for a cosmic-ray density of 10-12
+                         strophic adiabatic decompression associated with pro-       ergs cm-3, gives an acceleration time of 106 years,
+                         cesses directly related to supernovae (Kulsrud and          comparable with the known residence time in the
+                         Zweibel 1975). Cosmic rays streaming with a speed           Galaxy. As a steep cosmic-ray spectrum can be flattened
+                         in excess of the Alfvén speed with respect to the back-     to nearly the limiting slope in a single passage of a
+                         ground medium will excite Alfvén waves which will           shock, cosmic-ray ages need not be strongly correlated
+                         scatter them in pitch angle (Kulsrud and Pearce 1969).      with their energies. It is interesting that the observed
+                         In this way, the wave turbulence that we have invoked       electron-proton ratio (^0.03 at 3 GeV) can be ex-
+                         above may be generated self-consistently by the cosmic      plained if we assume that the momentum distribution
+                         rays. The condition that the amplitude of the turbulence    function slope,/ <x /_4-5 for both electrons and protons,
+                         be adequate to keep the scale length L less than the        extends down to subrelativistic energies within the
+                         remnant radius R is simply that the growth time of the      supernova remnant, and if both particle species build
+                         waves be small compared with the age of the supernova       up their total energy densities (dominated by mildly
+                         remnant, R/u~. Taking the standard expression for the       relativistic particles) to approximate equipartition.
+                         growth rate, this condition becomes nv > cp1/2£-1R-1
+                                                                                           IV. RELATIVISTIC ELECTRON ACCELERATION IN
+                         (Kulsrud and Pearce 1969; Wentzel 1974) where np                           EXTRAGALACTIC RADIO SOURCES
+                         is the number density of cosmic rays of momentum
+                         greater than p, e is the electron charge, and p is the         Fairly strong arguments (e.g., De Young 1976) can
+                         density of the background medium. In a low-density          be given for the view that relativistic electrons are
+                         interstellar medium, where supernova remnants can           being continuously accelerated within the hot spots
+                         expand to R > 100 pc before becoming both sonic and         of strong double radio sources like Cygnus A (Hargrave
+                                                                                     and Ryle 1974, 1976). In beam models, the necessary
+                         Alfvénic, self-excited Alfvén waves are adequate to         power is supplied in the form of a collimated supersonic
+                         scatter particles of energy of at most 300 GeV. For         beam which terminates in a strong shock at the head of
+                         particles more energetic than this, the turbulence          the source. Low-energy electrons injected by the beam
+                         must either exist in the ambient interstellar medium        can be accelerated efficiently by the shock mechanism
+                         (Lee and Jokipii 1976) or possibly be excited by phase      described above (see Blandford and Rees 1976; Burn
+                         angle anisotropy in the manner suggested by Wentzel         1976) up to an energy fixed by equating the synchrotron
+                         (1977). This process certainly fails when the particle      cooling time to /c_/^-2* If Ike scattering ahead of the
+                         Larmor radius exceeds the SNR radius at energies of         shock is due to self-excited Alfvén waves, then sub-
+                         at least ^1018 eV and so cannot account for the             stituting source values appropriate to Cygnus A
+                         acceleration of the highest-energy cosmic rays.             (B_ ~ 10-4 gauss, U- ^ 30,000 km s_1, and p ^ 10-28
+                                                                                     g cm-3) we find that this maximum energy is approxi-
+                            For a strong adiabatic shock in an ionized medium,       mately 10 GeV. These electrons will radiate at a
+                         r = 4, and so the predicted limiting slope is s = 4,        frequency of at most ^100 GHz behind the shock
+                         about 0.5 less than observed. However, most particles       with a spectral index of order unity, roughly what is
+                         will be accelerated when the shock starts to become         observed.
+                         Alfvénic. At this stage the efficiency of the process
+                         is reduced, as a fraction ~w/u- of the energy heating          In some low-surface-brightness sources (e.g., Coma
+                         the cosmic rays is lost to the waves. The compression       C, Jaffe 1977; DA 240, Willis, Strom, and Wilson 1974),
+                         will also be reduced, and both effects will tend to         the inferred relativistic electron transport times across
+                         steepen the spectrum. Setting 5 = 4.5, corresponding        the source are much longer than the estimated syn-
+                         to r = -3, we find that the relativistic cosmic-ray         chrotron cooling times, suggesting that these particles
+                         energy density is increased by a factor ^2 allowing         are reaccelerated. If a power-law distribution of rela-
+                         for the adiabatic decompression. At mildly relativistic     tivistic electrons is injected by active radio sources
+                         energies, we see that the spectrum produced at the          into these diffuse sources, then it can be reheated by
+                         source should be a simple power law in rigidity (mo-        weak shocks propagating through the source. These
+                         mentum). We do not observe this part of the spectrum        shocks, which can form from large-amplitude sound
+                         directly because of solar modulation, and in any case       waves, can dissipate a substantial fraction of their
+                         it will be modified by propagation effects. It is apparent  energy in this manner. Plausible sources for the shocks
+                         that a more precise predicted spectrum can emerge           are the bow waves associated with the motion of the
+                         only from a detailed calculation including these effects.   galaxies in the case of a cluster radio source and the
+                         This will be described elsewhere (Blandford, Cassé,         noise emanating from the supersonic beam in the case
+                         and Ostriker, in preparation).                              of a diffuse double source.
+
+                            However, we can demonstrate that SNRs are                   Finally, in many compact nonthermal sources asso-
+                         energetically capable of accelerating cosmic rays. If       ciated with quasars and active galactic nuclei, it
+                         each remnant expands to ^100 pc before becoming             appears that relativistic electrons must be accelerated
+                         Alfvénic (or radiative), the energy of the interstellar     in situ, at large distances from the source of the energy.
+                         cosmic rays engulfed by the blast wave is 1062 cm3 X
+                         10-12 ergs cm-3 = 1050 ergs SN_1. The shock pumping
+
+                         © American Astronomical Society · Provided by the NASA Astrophysics Data System
+197 8ApJ. . .22IL. .29B  L32  BLANDFORD AND OSTRIKER
+
+                         One method of achieving this, one that has been                      We thank many colleagues, in particular J. R.
+                         advocated on other grounds (e.g., Blandford and                    Jokipii, R. M. Kulsrud, C. F. McKee, and M. J. Rees,
+                         McKee 1977), involves strong shocks moving at mildly               for valuable discussions. R.D.B. gratefully acknowl-
+                         relativistic speeds. Fermi acceleration can also work              edges support at the Aspen Center for Physics and the
+                         efficiently in this context.                                       Institute of Astronomy, Cambridge. This work was
+                                                                                            supported in part by National Science Foundation
+                            More detailed application to these three types of               grants AST76-20255, AST76-20375, and AST76-80801.
+                         source will be described in Blandford (in preparation).
+
+                              REFERENCES
+
+                         Axford, W. I., Leer, E., and Skadron, G. 1977, paper presented at  Jokipii, J. R. 1966, Ap. J., 143, 961.
+                           15th Internat. Cosmic-Ray Conf. (Plovdiv, Bulgaria).             Kulsrud, R. M., and Pearce, W. P. 1969, Ap. J., 156, 445.
+                                                                                            Kulsrud, R. M., and Zweibel, E. G. 1975, 14th Internat. Cosmic
+                         Bell, A. R. 1977, M.N.R.A.S., 179, 573.
+                         Blandford, R. D., and McKee, C. F. 1977, M.N.R.A.S., 180, 343.       Ray Conf. (Munich: Max-Planck-Institut für extraterrestrische
+                         Blandford, R. D., and Rees, M. J. 1976, M.N.R.A.S., 169, 395.        Physik), 2, 465.
+                         Burn, B. J. 1976, Astr. Ap., 45, 435.                              Lee, L. D., and Jokipii, J. R. 1976, Ap. J., 206, 735.
+                         Chandrasekhar, S. 1965, Plasma Physics (Chicago: University of     McKee, C. F., and Ostriker, J. P. 1977, Ap. J., 218, 148.
+                                                                                            Schatzman, E. 1963, Ann. d'Ap., 137, 135.
+                           Chicago Press).                                                  Skilling, J. 1975, M.N.R.A.S., 172, 557.
+                         Chevalier, R. A. 1977, Ap. /., 213, 52.                            Spitzer, L. 1978, Physical Processes in the Interstellar Medium
+                         Cox, D. P., and Smith, B. W. 1974, Ap. J. (Letters), 189, L105.      (New York: Wiley), in press.
+                         DeYoung, D. S. 1976, Ann. Rev. Astr. Ap., 14, 447.                 Webster, A. S. 1974, M.N.R.A.S., 166, 355.
+                         Fermi, E. 1949, Phys. Rev., 75, 1169.                              Wentzel, D. G. 1964, Ap. J., 140, 1013.
+                         Fisk, L. R. 1971,/. Geophys. Res., 76, 1662.
+                         Hargrave, P. J., and Ryle, M. 1974, M.N.R.A.S., 166, 305.                 . 1974, Ann. Rev. Astr. Ap., 12, 71.
+                                                                                                   . 1977, Ap. J. (Letters), 216, L59.
+                                . 1976, M.N.R.A.S., 175, 481.                               Willis, A. G., Strom, R. G., and Wilson, A. S. 1974, Nature, 250,
+                         Hasselman, K., and Wibberenz, G. 1968, Zs.f. Geophys., 34, 353.      625.
+                         Hudson, P. D. 1965, M.N.R.A.S., 131, 23.                           Woltjer, L. 1972, Ann. Rev. Astr. Ap., 10, 129.
+                         Jaffe, W. J. 1977, Ap. J., 212, 1.
+
+                         R. D. Blandford: California Institute of Technology, Pasadena, CA 91125
+                         J. P. Ostriker: Princeton University Observatory, Princeton, NJ 08540
+
+                              © American Astronomical Society · Provided by the NASA Astrophysics Data System
+
