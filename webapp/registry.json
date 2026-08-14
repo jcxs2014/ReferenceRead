@@ -595,7 +595,7 @@
     "journal": "1996 年 Kraków 召开的国际会议 MESON96 报告（讲座稿）",
     "doi": "未提供",
     "arxiv": "astro-ph/9609110v1",
-    "keywords": "宇宙线起源、核碎裂 (spallation)、银河系加速、超新星激波、次级核 (Li/Be/B)、元素丰度、云捕获、能量谱指数 > ⚠️ **重要更正**：任务上下文中标记的作者 \"Moskalenko & Strong 1996, arXiv:astro-ph/9609110\" 与 PDF 实际不符。**本 PDF 实际作者为 Peter L. Biermann，arXiv 编号 astro-ph/9609110**（Moskalenko & Strong 的经典核碎裂截面表是另一篇工作）。下文严格以 PDF 为准。 ---",
+    "keywords": "宇宙线起源、核碎裂 (spallation)、银河系加速、超新星激波、次级核 (Li/Be/B)、元素丰度、云捕获、能量谱指数",
     "category": "宇宙线起源",
     "status": "completed",
     "read_date": "2026-08-12",
@@ -608,9 +608,7 @@
       "次级核 (Li/Be/B)",
       "元素丰度",
       "云捕获",
-      "能量谱指数 > ⚠️ **重要更正**：任务上下文中标记的作者 \"Moskalenko & Strong 1996",
-      "arXiv:astro-ph/9609110\" 与 PDF 实际不符。**本 PDF 实际作者为 Peter L. Biermann",
-      "arXiv 编号 astro-ph/9609110**（Moskalenko & Strong 的经典核碎裂截面表是另一篇工作）。下文严格以 PDF 为准。 ---"
+      "能量谱指数"
     ],
     "citations": [
       "0001_strong-moskalenko-ptuskin-2007",
@@ -859,7 +857,7 @@
   },
   {
     "title": "Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements",
-    "authors": "William A. Fowler**（加州理工 R. K. Kellogg Radiation Laboratory，Pasadena, CA 91225）",
+    "authors": "William A. Fowler",
     "year": "1984",
     "journal": "Reviews of Modern Physics*, Vol. 56, No. 2, Part I, April 1984, pp. 149–172",
     "doi": "未提供（该期为 Nobel Lecture 特刊，版权属 THE NOBEL FOUNDATION 1984）",
@@ -956,7 +954,7 @@
     "journal": "Reviews of Modern Physics, Vol. 69, No. 4, October 1997, pp. 995–1084 (共 90 页)",
     "doi": "S0034-6861(97)00204-3",
     "arxiv": "未提供",
-    "keywords": "stellar nucleosynthesis, B2FH, AGB 星，s 过程，r 过程，超新星核合成，元素起源，恒星演化，pp 链，CNO 循环，AGB nucleosynthesis, r-process site **说明**：本文不是单一\"研究论文\"，而是 15 位作者在 B2FH 1957 年经典综述发表 40 周年之际撰写的**大跨学科综合综述**。每一章节由该子领域权威撰写。因此阅读时必须按\"多作者合著综述\"的规范处理：每个 section 的作者、立场、数据源都不同，不能一概而论",
+    "keywords": "stellar nucleosynthesis, B2FH, AGB 星，s 过程，r 过程，超新星核合成，元素起源，恒星演化，pp 链，CNO 循环，AGB nucleosynthesis, r-process site",
     "category": "恒星核合成",
     "status": "completed",
     "read_date": "2026-08-12",
@@ -973,11 +971,7 @@
       "pp 链",
       "CNO 循环",
       "AGB nucleosynthesis",
-      "r-process site **说明**：本文不是单一\"研究论文\"",
-      "而是 15 位作者在 B2FH 1957 年经典综述发表 40 周年之际撰写的**大跨学科综合综述**。每一章节由该子领域权威撰写。因此阅读时必须按\"多作者合著综述\"的规范处理：每个 section 的作者",
-      "立场",
-      "数据源都不同",
-      "不能一概而论"
+      "r-process site"
     ],
     "citations": [
       "0005_champagne-wiescher-1992",

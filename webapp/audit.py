@@ -208,34 +208,56 @@ def main() -> int:
         total_cits = sum(len(p.get("citations", [])) for p in papers)
         check("附: 图谱数据 ≥30 条引用", total_cits >= 30,
               f"citations 总 {total_cits} 条（渲染由 headless 运行验证）")
-        # P0-6 + P1-22 + 附24 防护：tags/authors 不含 [FACT]/[INTERPRETATION]/[CRITIQUE] 残留
-        # （之前只断言 label 与 read_date，frontmatter tags 盲区漏过 Biermann keywords 污染）
-        _tag_re = re.compile(r"\[(FACT|INTERPRETATION|CRITIQUE)\]", re.IGNORECASE)
-        bad_tags = [(p["stem"], k, v[:40]) for p in papers
-                    for k in ("tags", "authors", "title")
-                    for v in (p.get(k) or []) if isinstance(p.get(k), list) for _ in [0]
-                    if _tag_re.search(str(v))]
-        bad_tags += [(p["stem"], "tags", str(p.get("tags", ""))[:40]) for p in papers
-                     if isinstance(p.get("tags"), str) and _tag_re.search(p.get("tags", ""))]
-        if not bad_tags:
-            bad_tags = [(p["stem"], "authors", (p.get("authors") or "")[:40]) for p in papers
-                        if isinstance(p.get("authors"), str) and _tag_re.search(p.get("authors", ""))]
-        check("附: registry tags/authors/title 无 [FACT] 残留", not bad_tags,
-              f"残留 {len(bad_tags)}" + (f": {bad_tags[:3]}" if bad_tags else ""))
+        # P0-6 + P1-22 + 附24 防护：tags/authors/title 不含
+        # - [FACT]/[INTERPRETATION]/[CRITIQUE] 残留
+        # - ** 标记残留（如 "Fowler**（..."）
+        # - YAML 单引号/双引号泄漏（如 `'...'`）
+        # - "重要更正" 等勘误文本残留
+        _tag_re   = re.compile(r"\[(FACT|INTERPRETATION|CRITIQUE)\]", re.IGNORECASE)
+        _marker_re = re.compile(r"\*\*|\b[\u4e00-\u9fff]重要更正\b|⚠️")
+        _qre      = re.compile(r"^[\x27\"]+|[\x27\"]+$")
+        bad_tags = []
+        for p in papers:
+            stem = p["stem"]
+            for k in ("tags", "authors", "title"):
+                val = p.get(k)
+                vals = val if isinstance(val, list) else ([val] if val else [])
+                for v in vals:
+                    sv = str(v)
+                    if _tag_re.search(sv) or _marker_re.search(sv) or _qre.search(sv):
+                        bad_tags.append((stem, k, sv[:40]))
+        check("附: registry tags/authors/title 无污染标记", not bad_tags,
+              f"污染 {len(bad_tags)}" + (f": {bad_tags[:3]}" if bad_tags else ""))
 
-    # INDEX.md 内容断言：title 不含 **** 或 [FACT] 残留（防 gen_index 回退正则吞 **）
+    # INDEX.md 内容断言：title 不含
+    # - **** 多星（gen_index 回退正则吞 ** 的旧问题）
+    # - [FACT] 残留
+    # - 单引号/双引号包裹（YAML 引号泄漏）
+    # - ** 中缀残留
     index_path = ROOT / "INDEX.md"
     if index_path.exists():
         idx_text = index_path.read_text(encoding="utf-8")
-        # 论文行以 '| **title** |' 形式，找 '****' 多星或含 [FACT] 的 title
-        bad_idx_titles = re.findall(r"\|\s*\*{3,}\s+([^|]*?)\s*\|\s*$", idx_text, re.M)
-        bad_idx_titles = [t for t in bad_idx_titles if t.startswith("*") or "****" in t]
-        idx_tag_re = re.compile(r"\[(FACT|INTERPRETATION|CRITIQUE)\]")
-        idx_fact_lines = [l.strip()[:60] for l in idx_text.splitlines() if idx_tag_re.search(l)]
-        check("附: INDEX 无 **** 标题或 [FACT] 残留",
-              not bad_idx_titles and not idx_fact_lines,
-              f"坏标题 {len(bad_idx_titles)}, [FACT] 行 {len(idx_fact_lines)}" +
-              (f": {idx_fact_lines[:3]}" if idx_fact_lines else ""))
+        idx_bad = []
+        for i, line in enumerate(idx_text.splitlines()):
+            if "|" not in line:
+                continue
+            # 剥引号包裹 + 星号后检查残留
+            clean = line.strip().strip("'").strip('"')
+            # 标题列（第三列：`| authors | journal | **title** | year`）
+            cols = [c.strip() for c in clean.split("|")]
+            title = ""
+            for c in cols:
+                if c.startswith("**") and c.endswith("**"):
+                    inner = c[2:-2].strip()
+                    if re.search(r"\[(FACT|INTERPRETATION|CRITIQUE)\]", inner, re.I):
+                        idx_bad.append((i+1, "fact", inner[:40]))
+                    if re.search(r"\*\*|⚠️|重要更正", inner):
+                        idx_bad.append((i+1, "marker", inner[:40]))
+                    if re.match(r"^[\x27\"]+", inner):
+                        idx_bad.append((i+1, "quote", inner[:40]))
+        check("附: INDEX 无污染标题",
+              not idx_bad,
+              f"坏标题 {len(idx_bad)}" + (f": {idx_bad[:3]}" if idx_bad else ""))
 
     print()
     if FAILED:

@@ -122,12 +122,12 @@
 
 ### `0001_b2fh-1957`
 
-***Synthesis of the Elements in Stars***
+**Synthesis of the Elements in Stars**
 
 |  |  |
 |---|---|
 | 作者 | K. MARGARET BURBIDGE; G. R. BURBIDGE; WILLIAM A. FOWLER; F. HOYLE |
-| 期刊 | *Reviews of Modern Physics*, Vol. 29, No. 4 |
+| 期刊 | Reviews of Modern Physics*, Vol. 29, No. 4 |
 | 分析文件 | 14 个（00_overview.md、01_introduction.md、02_physical_processes.md、03_figures.md、03_hydrogen_helium_alpha_burning.md、…等 14 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/`](03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/) |
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md) |
@@ -148,11 +148,11 @@
 
 ### `0003_fowler-1984`
 
-**'Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements'**
+**Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements**
 
 |  |  |
 |---|---|
-| 作者 | William A. Fowler**（加州理工 R. K. Kellogg Radiation Laboratory，Pasadena, CA 91225） |
+| 作者 | William A. Fowler |
 | 期刊 |  |
 | 分析文件 | 14 个（00_overview.md、01_introduction.md、02_early_research.md、03_reaction_rates.md、04_hydrogen_burning.md、…等 14 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/`](03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/) |
@@ -161,7 +161,7 @@
 
 ### `0004_wallerstein-1997`
 
-**'Synthesis of the elements in stars: forty years of progress'**
+**Synthesis of the elements in stars: forty years of progress**
 
 |  |  |
 |---|---|
@@ -309,7 +309,7 @@
 |  |  |
 |---|---|
 | 作者 | Robert P. Kraft |
-| 期刊 | *Publications of the Astronomical Society of the Pacific* (PASP) |
+| 期刊 | Publications of the Astronomical Society of the Pacific* (PASP) |
 | 分析文件 | 11 个（00_overview.md、01_introduction.md、02_abundance_differences.md、03_standard_predictions.md、04_observed_vs_predicted.md、…等 11 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/`](03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/) |
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md) |

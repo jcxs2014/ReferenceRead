@@ -219,8 +219,18 @@ def _extract_from_bullets(text: str) -> dict[str, str]:
         # 若值很短且下一行也是连续内容，多行拼接
         if val and not val.endswith("。") and not val.endswith("."):
             j = i + 1
-            while j < len(lines) and not lines[j].lstrip().startswith("- **") and not re.match(r"^#{1,3}\s", lines[j]):
-                val += " " + lines[j].strip()
+            while j < len(lines):
+                nl = lines[j].strip()
+                # 遇含 `**` 的强调行即停（防吞 **说明** 等注释）
+                if "**" in nl:
+                    break
+                # 遇 `- **` 或章节标题即停
+                if nl.startswith("- **") or re.match(r"^#{1,3}\s", nl):
+                    break
+                # 空行即停
+                if not nl:
+                    break
+                val += " " + nl
                 j += 1
         val = _clean_field(val)
         if fm_key == "year":

@@ -8,8 +8,6 @@ journal: Reviews of Modern Physics, Vol. 69, No. 4, October 1997, pp. 995–1084
 doi: S0034-6861(97)00204-3
 arxiv: 未提供
 keywords: stellar nucleosynthesis, B2FH, AGB 星，s 过程，r 过程，超新星核合成，元素起源，恒星演化，pp 链，CNO 循环，AGB nucleosynthesis, r-process site
-  **说明**：本文不是单一"研究论文"，而是 15 位作者在 B2FH 1957 年经典综述发表 40 周年之际撰写的**大跨学科综合综述**。每一章节由该子领域权威撰写。因此阅读时必须按"多作者合著综述"的规范处理：每个 section
-  的作者、立场、数据源都不同，不能一概而论
 category: 恒星核合成
 status: completed
 read_date: '2026-08-12'
@@ -26,11 +24,7 @@ tags:
 - pp 链
 - CNO 循环
 - AGB nucleosynthesis
-- r-process site **说明**：本文不是单一"研究论文"
-- 而是 15 位作者在 B2FH 1957 年经典综述发表 40 周年之际撰写的**大跨学科综合综述**。每一章节由该子领域权威撰写。因此阅读时必须按"多作者合著综述"的规范处理：每个 section 的作者
-- 立场
-- 数据源都不同
-- 不能一概而论
+- r-process site
 citations:
 - '[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]]'
 - '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'

@@ -46,18 +46,18 @@ def extract_meta(overview: Path):
         m = re.search(rf"\|\s*\**\s*{re.escape(key)}\s*\**\s*\|\s*([^|]+?)\s*\|",
                       text, re.IGNORECASE)
         if m:
-            meta[key] = m.group(1).strip().rstrip("|").strip()
+            meta[key] = m.group(1).strip().rstrip("|").strip().strip("*").strip("'").strip('"').strip()
     # bullet format fallback: "- **Key**: value"
     # 必须 IGNORECASE: frontmatter 的 "title:" 小写也命中（覆盖"Title:" 等变体）
     if not meta["authors"]:
         m = re.search(r"\*?\*?Authors?\*?\*?\s*[:：]\s*([^\n]+)", text, re.IGNORECASE)
         if m:
-            # 捕获值剥首尾 **（防"**Title:** value"格式把闭合 ** 一起吞进值）
-            meta["authors"] = m.group(1).strip().strip("*").strip()
+            # 捕获值剥首尾 ** 和 YAML 引号（防"**Title:** value"或 `title: '...: ...'`）
+            meta["authors"] = m.group(1).strip().strip("*").strip("'").strip('"').strip()
     if not meta["title"]:  # title 同样有 bullet fallback（之前缺）
         m = re.search(r"\*?\*?Title?\*?\*?\s*[:：]\s*([^\n]+)", text, re.IGNORECASE)
         if m:
-            meta["title"] = m.group(1).strip().strip("*").strip()
+            meta["title"] = m.group(1).strip().strip("*").strip("'").strip('"').strip()
     # title 全大写/全小写时做 Title Case
     if meta["title"]:
         meta["title"] = _fmt_title(meta["title"])

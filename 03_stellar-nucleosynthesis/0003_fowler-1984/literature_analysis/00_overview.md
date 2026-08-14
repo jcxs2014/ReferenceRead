@@ -1,6 +1,6 @@
 ---
 title: 'Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements'
-authors: William A. Fowler**（加州理工 R. K. Kellogg Radiation Laboratory，Pasadena, CA 91225）
+authors: William A. Fowler
 year: '1984'
 journal: Reviews of Modern Physics*, Vol. 56, No. 2, Part I, April 1984, pp. 149–172
 doi: 未提供（该期为 Nobel Lecture 特刊，版权属 THE NOBEL FOUNDATION 1984）
@@ -34,7 +34,7 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overvie
 > **⚠️ 重要勘误**：本目录命名为 "0003_caughlan-fowler-1988"，但**实际作者为 William A. Fowler 单人**，年份为 **1984**（非 1988）。该文是 Fowler 于 1983 年 12 月 8 日在瑞典皇家科学院接受诺贝尔物理学奖时的授奖演讲（Nobel Lecture），后由诺贝尔基金会授权刊载于 *Reviews of Modern Physics*。**并非 Caughlan & Fowler (1988)**。Caughlan 只是 Fowler 长期合作者之一（出现于 Fowler, Caughlan, Zimmerman 1967/1975 系列反应速率表中）。
 
 - **Title**: Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements
-- **Authors**: **William A. Fowler**（加州理工 R. K. Kellogg Radiation Laboratory，Pasadena, CA 91225）
+- **Authors**: William A. Fowler
 - **Collaboration**: 单人；文中大量引用 Kellogg Lab 同事（Ward Whaling、Caughlan、Zimmerman、Koonin、Tombrello、Barnes、Wasserburg、Papanastassiou、Epstein、Woosley、Weaver、Fuller 等）工作
 - **Journal / Conference**: *Reviews of Modern Physics*, Vol. 56, No. 2, Part I, April 1984, pp. 149–172
 - **Publication Date**: 1984-04
