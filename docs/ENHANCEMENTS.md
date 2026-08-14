@@ -125,7 +125,7 @@
 
 本文档列出的 9 条改进建议（**P0-1, P0-2, P0-3, P1-4, P1-5, P1-6, P2-7, P2-8, P2-9**）**全部 ✅ 完成**：
 
-- P0-1 README 总览 → 大修完成（见 [README.md](README.md)）
+- P0-1 README 总览 → 大修完成（见 [README.md](../README.md)）
 - P0-2 提交遗留变更 → 已清理
 - P0-3 篇间导航 → V2.2 已升级为 Obsidian wikilink（见 [ADVANCEMENT.md](ADVANCEMENT.md) V2.2 补丁）
 - P1-4/5/6 内容档案增强 → background/ 6 篇综述已建（含 06_controversy_evolution）

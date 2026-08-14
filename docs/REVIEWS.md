@@ -8,7 +8,7 @@
 
 ## 审查 #3：全量重建验证 + 编号修正（2026-08-14 19:59）
 
-**Hermes 交付**：`build_all.py --dry` 全量 8/8 步骤通过；承认此前编号引用错误并修正。
+**Hermes 交付**：`build_all.py --dry`（现 `scripts/build_all.py`）全量 8/8 步骤通过；承认此前编号引用错误并修正。
 
 ### 核验结果：报告基本属实 ✅
 
@@ -23,7 +23,7 @@
 ### ⚠️ 遗留疑点（转达 Hermes）
 
 - `interactive.html` 报告值 3.6MB 与实测 4.6MB 不符。dry-run 模式下 webapp 步骤本就真实构建，若本轮确已全量执行，产物应是最新值。
-- **建议**：跑 `python3 build_all.py --step webapp` 确认产物刷新，并在报告中记录精确字节数。
+- **建议**：跑 `python3 scripts/build_all.py --step webapp` 确认产物刷新，并在报告中记录精确字节数。
 
 ### 编号对齐确认
 
@@ -96,4 +96,15 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 - **只信实测**：每项交付均重新执行命令核验（git log / git status / 运行 audit / 解析产物 JSON），不采信转述
 - **数字要精确**：报告中的数量/大小均与实测对比，发现差异（如 webapp 3.6 vs 4.6MB）即标记 ⚠️ 并转达
 - **编号即契约**：交付中引用 RECOMMENDATIONS/ENHANCEMENTS/ADVANCEMENT 编号必须与文档一致，防止「声称完成找不到定义」
+- **保留记录**：每轮结论存档于此，供后续复审对照（呼应 #21 门禁与 #17 根因索引精神）
+
+---
+
+## 附：2026-08-14 目录整理记录
+
+- 7 篇过程/规范文档（ADVANCEMENT / ENHANCEMENTS / RECOMMENDATIONS / REVIEWS / TROUBLESHOOTING / READING_INSTRUCTIONS / WEBAPP_DESIGN）→ `docs/`
+- `build_all.py` + `verify_claim.sh` → `scripts/`（ROOT 同步修正 `parent.parent`）
+- `README.md` 6 个内部链接 → `docs/` 前缀
+- `webapp/审查报告.md`（85KB，含历史审查记录）暂缓合并，仍保留在 `webapp/`
+- Commit: `a086c0b docs: 目录整理（docs/ 文档归位 + scripts/ 脚本归位）— #22`
 - **保留记录**：每轮结论存档于此，供后续复审对照（呼应 #21 门禁与 #17 根因索引精神）

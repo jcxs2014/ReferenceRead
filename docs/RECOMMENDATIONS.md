@@ -110,7 +110,7 @@
 **现状**：README 列了 7+ 脚本链式调用，人工 bash 拼接；本会话附 25 / 26 根因之一即"build_webapp 用了过期 interactive.html"——执行侧跳过了其中一步。
 
 **建议**：
-- 写 `webapp/build_all.py`——按依赖顺序调用：`build_citations → build_fm → build_registry → build_glossary → build_webapp → audit`
+- 写 `scripts/build_all.py`——按依赖顺序调用：`build_citations → build_fm → build_registry → build_glossary → build_webapp → audit`
 - 每步失败立即终止并打印"哪一步 / 哪行错"
 - 一次调用、失败可定位——杜绝"跳步导致过期产物"
 
