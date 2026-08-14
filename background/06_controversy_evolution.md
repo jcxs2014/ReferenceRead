@@ -14,7 +14,7 @@ path: background/06_controversy_evolution.md
 # 06. 争议点演化时间线（Controversy Evolution）
 
 > 从 `04_critique_index.md` 的 26 个争议点提炼，按主题追踪「提出 → 立场分化 → 实验裁决」的演化路径。标注解决时间点与当前状态。
-> 时间线覆盖 1957–2018（本库 23 篇文献发表区间）及后续关键实验裁决。
+> 时间线覆盖 1957–2023（本库 38 篇文献发表区间）及后续关键实验裁决。
 
 ---
 
@@ -62,6 +62,8 @@ path: background/06_controversy_evolution.md
 | 2014 | Amato | 非线性 DSA 与传播谱指数耦合分析 |
 | 2015 | Grenier | 九命综述：放射性时钟（¹⁰Be/²⁶Al）限 z_h≈4 kpc |
 | 2016+ | AMS-02 | 高精度 B/C → δ 上限收紧；z_h 被压低 |
+| 2020 | Weinrich et al. | A&A 639, A74：贝叶斯分析 → 晕大小 L ≥ 8 kpc 显著优于传统 4 kpc |
+| 2021 | Génolini et al. | PRD 104, 083005：min/med/max 传播模型作为暗物质搜寻反卷积标准 |
 
 **演化形态**：**参数空间收缩**（AMS-02 后 $\\sim2\\times$ 不确定 → 持续收窄），未决但收敛中。
 
@@ -72,6 +74,8 @@ path: background/06_controversy_evolution.md
 | 时间 | 文献/事件 | 立场 |
 |---|---|---|
 | ~1978–2000s | SNR 扩散激波加速（DSA）范式 | "三支柱"论证（谱指数/能量学/γ 射线）确立为默认范式 |
+| 1978 | Bell / Blandford-Ostriker | **DSA 奠基**（同期独立）：first-order Fermi 加速数学形式化 |
+| 1987 | Blandford-Eichler | Phys. Rep. 154, 1：经典综述，命名"diffusive shock acceleration" |
 | 2013 | Blasi | 系统审视：三支柱均**间接证据**，不足以证明范式正确 |
 | 2014 | Amato | 关键批判：**Bell 模式波放大被系统性高估**（F₀≲1）；NLDSA 谱比观测硬 |
 | 2021 | LHAASO | 发现银河系 **PeVatron**（超高能 γ 源）——超泡作为膝点 CR 位点被支持 |
@@ -90,6 +94,7 @@ path: background/06_controversy_evolution.md
 | 1997 | Wallerstein | 综述：r 过程位点仍未定（超新星 vs 合并）；s 过程 ¹³C 形成机制（Ne 富集 vs 混合）未决 |
 | 2017 | **GW170817** | NS-NS 合并引力波+千新星 → **r 过程首要位点实锤**（第一峰）；中微子风可能仍贡献 |
 | 2019+ | kilonova 光谱观测 | 证实 r 过程重元素（Ba、Te 等）产物 |
+| 2021 | Cowan, Sneden, Lawler (RMP) | RMP 93, 015002：r 过程现代综述，把 r 位点争论尘埃落定 |
 
 **演化形态**：**从"多候选悬置"到「GW170817 一锤定音」**——本库争议中最干净的一次实证裁决。
 

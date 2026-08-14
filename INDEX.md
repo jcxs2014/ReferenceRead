@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **23 篇文献**、**244 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**259 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -20,6 +20,66 @@
 | 目录 | [`01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/99_final_summary.md) |
+
+### `0002_amato-blasi-2018`
+
+**Cosmic ray transport in the Galaxy: A review**
+
+|  |  |
+|---|---|
+| 作者 | Elena Amato (INAF Arcetri), Pasquale Blasi (GSSI) |
+| 期刊 | Advances in Space Research 62, 2731 (2018) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/`](01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/) |
+| 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_overview.md) |
+
+### `0003_weinrich-2020`
+
+**Galactic halo size in the light of recent AMS-02 data**
+
+|  |  |
+|---|---|
+| 作者 | N. Weinrich et al. |
+| 期刊 | Astronomy & Astrophysics 639, A74 (2020) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/`](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/) |
+| 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md) |
+
+### `0004_weinrich-2020-clocks`
+
+**Radioactive Clocks and Cosmic-ray Transport in the Galaxy**
+
+|  |  |
+|---|---|
+| 作者 | R. A. Mewaldt et al. |
+| 期刊 | Space Science Reviews (2001) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/`](01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/) |
+| 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/00_overview.md) |
+
+### `0005_genolini-2021`
+
+**New minimal, median, and maximal propagation models for dark matter searches with Galactic cosmic rays**
+
+|  |  |
+|---|---|
+| 作者 | Y. Génolini et al. |
+| 期刊 | Physical Review D 104, 083005 (2021) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/`](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/) |
+| 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/00_overview.md) |
+
+### `0006_ruszkowski-pfrommer-2023`
+
+**Cosmic ray feedback in galaxies and galaxy clusters**
+
+|  |  |
+|---|---|
+| 作者 | Mateusz Ruszkowski, Christoph Pfrommer |
+| 期刊 | Astronomy & Astrophysics Review 31:4 (2023) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/) |
+| 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md) |
 
 ---
 
@@ -115,6 +175,102 @@
 | 目录 | [`02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/`](02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/99_final_summary.md) |
+
+### `0008_bell-1978`
+
+**The acceleration of cosmic rays in shock fronts — I**
+
+|  |  |
+|---|---|
+| 作者 | A. R. Bell |
+| 期刊 | Monthly Notices of the Royal Astronomical Society 182, 147 (1978) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`02_cosmic-ray-origins/0008_bell-1978/literature_analysis/`](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md) |
+
+### `0009_blandford-ostriker-1978`
+
+**Particle acceleration by astrophysical shocks**
+
+|  |  |
+|---|---|
+| 作者 | R. D. Blandford, J. P. Ostriker |
+| 期刊 | The Astrophysical Journal 221, L29-L32 (1978) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/`](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_overview.md) |
+
+### `0010_blandford-eichler-1987`
+
+**Particle acceleration at astrophysical shocks: A theory of cosmic ray origin**
+
+|  |  |
+|---|---|
+| 作者 | Roger Blandford, David Eichler |
+| 期刊 | Physics Reports 154, 1 (1987) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/`](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/00_overview.md) |
+
+### `0011_hillas-1984`
+
+**The Origin of Ultra-High-Energy Cosmic Rays**
+
+|  |  |
+|---|---|
+| 作者 | A. M. Hillas |
+| 期刊 | Annual Review of Astronomy and Astrophysics 22, 425 (1984) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/`](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/00_overview.md) |
+
+### `0012_gabici-2019`
+
+**The origin of Galactic cosmic rays: Challenges to the standard paradigm**
+
+|  |  |
+|---|---|
+| 作者 | Stefano Gabici |
+| 期刊 | International Journal of Modern Physics D 28, 1930022 (2019) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/`](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/00_overview.md) |
+
+### `0013_giuffrida-2022`
+
+**The supernova remnant SN 1006 as a Galactic particle accelerator**
+
+|  |  |
+|---|---|
+| 作者 | R. Giuffrida et al. |
+| 期刊 | Nature Communications 13, 5098 (2022) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/`](02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/00_overview.md) |
+
+### `0014_alvesbatista-2019`
+
+**Open Questions in Cosmic-Ray Research at Ultrahigh Energies**
+
+|  |  |
+|---|---|
+| 作者 | R. Alves Batista et al. |
+| 期刊 | Frontiers in Astronomy and Space Sciences 6, 23 (2019) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/`](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md) |
+
+### `0015_telescope-array-2023`
+
+**An extremely energetic cosmic ray observed by a surface detector array**
+
+|  |  |
+|---|---|
+| 作者 | Telescope Array Collaboration |
+| 期刊 | Science 382, 903 (2023) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/00_overview.md) |
 
 ---
 
@@ -315,15 +471,39 @@
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/99_final_summary.md) |
 
+### `0016_cowan-2021`
+
+**Origin of the heaviest elements: The rapid neutron-capture process**
+
+|  |  |
+|---|---|
+| 作者 | John J. Cowan, Christopher Sneden, James E. Lawler et al. |
+| 期刊 | Reviews of Modern Physics 93, 015002 (2021) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/`](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/) |
+| 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md) |
+
+### `0017_kaeppeler-2011`
+
+**The s process: Nuclear physics, stellar models, and observations**
+
+|  |  |
+|---|---|
+| 作者 | F. Käppeler, R. Gallino, S. Bisterzo, W. Aoki |
+| 期刊 | Reviews of Modern Physics 83, 157 (2011) |
+| 分析文件 | 1 个（00_overview.md） |
+| 目录 | [`03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/) |
+| 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md) |
+
 ---
 
 ## 统计
 
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
-| 01. 宇宙线传播 | 1 | 8 |
-| 02. 宇宙线起源 | 7 | 75 |
-| 03. 恒星核合成与元素丰度 | 15 | 161 |
-| **合计** | **23** | **244** |
+| 01. 宇宙线传播 | 6 | 13 |
+| 02. 宇宙线起源 | 15 | 83 |
+| 03. 恒星核合成与元素丰度 | 17 | 163 |
+| **合计** | **38** | **259** |
 
 > 最后更新: 2026-08-14（自动生成）

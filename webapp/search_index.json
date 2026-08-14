@@ -1,5 +1,5 @@
 {
-  "count": 5358,
+  "count": 5404,
   "index": {
     "0001_b2fh": [
       {
@@ -2636,6 +2636,13 @@
         "slug": "01_cosmic_rays.md"
       }
     ],
+    "a74": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "3. 银河系 CR 传播参数：扩散谱指数 δ 与晕高 z_h",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
     "a_": [
       {
         "path": "background/02_nucleosynthesis.md",
@@ -2751,6 +2758,11 @@
         "path": "background/01_cosmic_rays.md",
         "section": "1.2.4 PeVatron 条件",
         "slug": "01_cosmic_rays.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "ace": [
@@ -3163,12 +3175,12 @@
     "al": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -3589,6 +3601,13 @@
         "slug": "02_nucleosynthesis.md"
       }
     ],
+    "alves": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "al²⁷": [
       {
         "path": "background/02_nucleosynthesis.md",
@@ -3615,10 +3634,17 @@
         "slug": "03_astrophysics.md"
       }
     ],
+    "amaterasu": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "amato": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -3674,6 +3700,11 @@
     ],
     "ams": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/01_cosmic_rays.md",
         "section": "1.3.5 反质子与正电子",
         "slug": "01_cosmic_rays.md"
@@ -3726,7 +3757,7 @@
     "anders": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -4042,6 +4073,13 @@
         "slug": "01_cosmic_rays.md"
       }
     ],
+    "array": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "ar³⁶": [
       {
         "path": "background/02_nucleosynthesis.md",
@@ -4069,7 +4107,7 @@
     "asplund": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -4443,6 +4481,13 @@
         "slug": "02_nucleosynthesis.md"
       }
     ],
+    "batista": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "ba¹³⁸": [
       {
         "path": "background/02_nucleosynthesis.md",
@@ -4652,6 +4697,11 @@
     ],
     "bell": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/01_cosmic_rays.md",
         "section": "1.2.3 磁场放大（MFA）",
         "slug": "01_cosmic_rays.md"
@@ -4718,7 +4768,7 @@
     "bertone": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -4940,7 +4990,7 @@
     "bhattacharjee": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -4994,7 +5044,7 @@
     "biermann": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -5053,7 +5103,7 @@
     "black": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -5069,6 +5119,18 @@
         "slug": "03_astrophysics.md"
       }
     ],
+    "blandford": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
     "blanketing": [
       {
         "path": "background/04_critique_index.md",
@@ -5079,7 +5141,7 @@
     "blasi": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -5544,7 +5606,7 @@
     "b²fh": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -5701,11 +5763,6 @@
         "path": "background/06_controversy_evolution.md",
         "section": "9. 时间线总结（本库视角）",
         "slug": "06_controversy_evolution.md"
-      },
-      {
-        "path": "background/README.md",
-        "section": "文档索引",
-        "slug": "README.md"
       }
     ],
     "c1": [
@@ -5803,8 +5860,18 @@
     ],
     "cameron": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/00_key_values.md",
         "section": "2.1 B²FH 与核过程框架（B²FH 1957; Trimble 1975; Fowler 1984; Wallerstein 1997）",
+        "slug": "00_key_values.md"
+      },
+      {
+        "path": "background/00_key_values.md",
+        "section": "5. 附录：跨论文关键公式速查",
         "slug": "00_key_values.md"
       },
       {
@@ -6129,7 +6196,7 @@
     "champagne": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -6166,11 +6233,6 @@
         "path": "background/02_nucleosynthesis.md",
         "section": "参考文献索引",
         "slug": "02_nucleosynthesis.md"
-      },
-      {
-        "path": "background/README.md",
-        "section": "文档索引",
-        "slug": "README.md"
       }
     ],
     "chara": [
@@ -7145,9 +7207,19 @@
     ],
     "cowan": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/00_key_values.md",
         "section": "2.1 B²FH 与核过程框架（B²FH 1957; Trimble 1975; Fowler 1984; Wallerstein 1997）",
         "slug": "00_key_values.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "5. 核合成位点：r 过程与 s 过程",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "co₂": [
@@ -7172,12 +7244,7 @@
       },
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线传播（1 篇）",
-        "slug": "00_home.md"
-      },
-      {
-        "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -7649,7 +7716,7 @@
     "dargazelli": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -7990,7 +8057,7 @@
     "dieterich": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -8056,6 +8123,13 @@
         "path": "background/01_cosmic_rays.md",
         "section": "1.1.2 扩散系数 $D_{xx}$",
         "slug": "01_cosmic_rays.md"
+      }
+    ],
+    "diffusive": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "dilution": [
@@ -8275,6 +8349,11 @@
       }
     ],
     "dsa": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
       {
         "path": "background/00_key_values.md",
         "section": "1.4 SNR 加速与传播模型（Blasi 2013; Amato 2014; Biermann 1996; Grenier 2015）",
@@ -8497,6 +8576,13 @@
         "slug": "00_key_values.md"
       }
     ],
+    "eev": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "eff": [
       {
         "path": "background/00_key_values.md",
@@ -8568,9 +8654,19 @@
     ],
     "eichler": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/01_cosmic_rays.md",
         "section": "1.2.2 非线性 DSA（NLDSA）",
         "slug": "01_cosmic_rays.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "el": [
@@ -8772,12 +8868,12 @@
     "et": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -9643,6 +9739,11 @@
         "path": "background/04_critique_index.md",
         "section": "1.11 Fowler (1984) — 诺贝尔演讲：核天体物理",
         "slug": "04_critique_index.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "fes": [
@@ -9835,6 +9936,13 @@
         "slug": "01_cosmic_rays.md"
       }
     ],
+    "first": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
     "fisher": [
       {
         "path": "background/00_key_values.md",
@@ -9915,7 +10023,7 @@
     "fowler": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -10293,6 +10401,13 @@
         "slug": "02_nucleosynthesis.md"
       }
     ],
+    "gabici": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "gabriel": [
       {
         "path": "background/03_astrophysics.md",
@@ -10303,7 +10418,7 @@
     "gaisser": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -11045,6 +11160,13 @@
         "slug": "04_critique_index.md"
       }
     ],
+    "giuffrida": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "glast": [
       {
         "path": "background/01_cosmic_rays.md",
@@ -11153,7 +11275,7 @@
     "grenier": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -11230,7 +11352,7 @@
     "grevesse": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -11673,6 +11795,18 @@
         "slug": "05_glossary.md"
       }
     ],
+    "génolini": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "3. 银河系 CR 传播参数：扩散谱指数 δ 与晕高 z_h",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
     "h_0": [
       {
         "path": "background/00_key_values.md",
@@ -12026,6 +12160,13 @@
         "slug": "02_nucleosynthesis.md"
       }
     ],
+    "he燃烧": [
+      {
+        "path": "background/README.md",
+        "section": "文档索引",
+        "slug": "README.md"
+      }
+    ],
     "hg": [
       {
         "path": "background/03_astrophysics.md",
@@ -12084,6 +12225,11 @@
       }
     ],
     "hillas": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
       {
         "path": "background/01_cosmic_rays.md",
         "section": "1.2.1 扩散激波加速（DSA）",
@@ -12166,7 +12312,7 @@
     "hooper": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -13372,7 +13518,7 @@
     "kewley": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -13717,6 +13863,18 @@
         "slug": "03_astrophysics.md"
       }
     ],
+    "kraft": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
+        "slug": "00_home.md"
+      },
+      {
+        "path": "background/00_key_values.md",
+        "section": "5. 附录：跨论文关键公式速查",
+        "slug": "00_key_values.md"
+      }
+    ],
     "kraichnan": [
       {
         "path": "background/00_key_values.md",
@@ -13820,6 +13978,11 @@
       }
     ],
     "käppeler": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
+        "slug": "00_home.md"
+      },
       {
         "path": "background/02_nucleosynthesis.md",
         "section": "2.5.2 稳态流近似 σN = const",
@@ -14238,6 +14401,18 @@
         "path": "background/04_critique_index.md",
         "section": "1.2 Bhattacharjee & Sigl (2000) — UHECR 起源（Bottom-up vs Top-down）",
         "slug": "04_critique_index.md"
+      }
+    ],
+    "lawler": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
+        "slug": "00_home.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "5. 核合成位点：r 过程与 s 过程",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "le": [
@@ -14877,7 +15052,7 @@
     "lodders": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -15629,6 +15804,11 @@
     ],
     "max": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/00_key_values.md",
         "section": "1.4 SNR 加速与传播模型（Blasi 2013; Amato 2014; Biermann 1996; Grenier 2015）",
         "slug": "00_key_values.md"
@@ -15667,6 +15847,11 @@
         "path": "background/01_cosmic_rays.md",
         "section": "关键数值汇总表",
         "slug": "01_cosmic_rays.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "3. 银河系 CR 传播参数：扩散谱指数 δ 与晕高 z_h",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "maximize": [
@@ -15760,6 +15945,18 @@
         "path": "background/03_astrophysics.md",
         "section": "1.5 AGSS09 vs 日震的张力（AGSS09 的\"遗产\"）",
         "slug": "03_astrophysics.md"
+      }
+    ],
+    "med": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "3. 银河系 CR 传播参数：扩散谱指数 δ 与晕高 z_h",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "mengel": [
@@ -15932,6 +16129,13 @@
         "slug": "05_glossary.md"
       }
     ],
+    "mewaldt": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "meyer": [
       {
         "path": "background/02_nucleosynthesis.md",
@@ -16098,6 +16302,11 @@
     ],
     "min": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/00_key_values.md",
         "section": "2.2 Champagne & Wiescher (1992)：爆炸性 H 燃烧 & rp-process",
         "slug": "00_key_values.md"
@@ -16126,6 +16335,11 @@
         "path": "background/05_glossary.md",
         "section": "大",
         "slug": "05_glossary.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "3. 银河系 CR 传播参数：扩散谱指数 δ 与晕高 z_h",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "missing": [
@@ -16314,7 +16528,7 @@
     "moskalenko": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线传播（1 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -17812,6 +18026,11 @@
         "path": "background/01_cosmic_rays.md",
         "section": "1.2.3 磁场放大（MFA）",
         "slug": "01_cosmic_rays.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "orion": [
@@ -17843,6 +18062,18 @@
         "path": "background/03_astrophysics.md",
         "section": "6.4 Kewley 极端星暴分类线（公式 5–7）",
         "slug": "03_astrophysics.md"
+      }
+    ],
+    "ostriker": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "os¹⁹⁴": [
@@ -18352,6 +18583,13 @@
         "slug": "06_controversy_evolution.md"
       }
     ],
+    "pfrommer": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "ph": [
       {
         "path": "background/00_key_values.md",
@@ -18412,6 +18650,11 @@
         "path": "background/02_nucleosynthesis.md",
         "section": "参考文献索引",
         "slug": "02_nucleosynthesis.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "pi": [
@@ -18838,6 +19081,13 @@
         "slug": "05_glossary.md"
       }
     ],
+    "prd": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "3. 银河系 CR 传播参数：扩散谱指数 δ 与晕高 z_h",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
     "pre": [
       {
         "path": "background/01_cosmic_rays.md",
@@ -19097,7 +19347,7 @@
     "ptuskin": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线传播（1 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -19265,6 +19515,13 @@
         "path": "background/03_astrophysics.md",
         "section": "5.2 方法",
         "slug": "03_astrophysics.md"
+      }
+    ],
+    "p过程": [
+      {
+        "path": "background/README.md",
+        "section": "文档索引",
+        "slug": "README.md"
       }
     ],
     "q_": [
@@ -19777,6 +20034,13 @@
         "slug": "04_critique_index.md"
       }
     ],
+    "rep": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
     "res": [
       {
         "path": "background/01_cosmic_rays.md",
@@ -20233,6 +20497,13 @@
         "slug": "02_nucleosynthesis.md"
       }
     ],
+    "rmp": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "5. 核合成位点：r 过程与 s 过程",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
     "roberts": [
       {
         "path": "background/04_critique_index.md",
@@ -20332,6 +20603,13 @@
         "path": "background/05_glossary.md",
         "section": "M",
         "slug": "05_glossary.md"
+      }
+    ],
+    "ruszkowski": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
       }
     ],
     "ry": [
@@ -20509,7 +20787,7 @@
     "sauval": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -20866,6 +21144,11 @@
         "path": "background/01_cosmic_rays.md",
         "section": "1.2.1 扩散激波加速（DSA）",
         "slug": "01_cosmic_rays.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "si": [
@@ -20938,7 +21221,7 @@
     "sigl": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -21545,6 +21828,11 @@
     ],
     "sn": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/00_key_values.md",
         "section": "1.4 SNR 加速与传播模型（Blasi 2013; Amato 2014; Biermann 1996; Grenier 2015）",
         "slug": "00_key_values.md"
@@ -21669,9 +21957,19 @@
     ],
     "sneden": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/02_nucleosynthesis.md",
         "section": "丰度数据",
         "slug": "02_nucleosynthesis.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "5. 核合成位点：r 过程与 s 过程",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "sno": [
@@ -21717,6 +22015,11 @@
       }
     ],
     "snr": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
       {
         "path": "background/00_key_values.md",
         "section": "1.3 银河系与 UHECR 起源（Bhattacharjee & Sigl 1999; Al-Dargazelli 1996）",
@@ -22347,12 +22650,7 @@
     "strong": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线传播（1 篇）",
-        "slug": "00_home.md"
-      },
-      {
-        "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -23018,6 +23316,13 @@
         "path": "background/05_glossary.md",
         "section": "T",
         "slug": "05_glossary.md"
+      }
+    ],
+    "telescope": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
       }
     ],
     "teller": [
@@ -23761,7 +24066,7 @@
     "trimble": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -24084,7 +24389,7 @@
     "uhecr": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -24797,7 +25102,7 @@
     "wallerstein": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -24884,11 +25189,6 @@
         "path": "background/06_controversy_evolution.md",
         "section": "9. 时间线总结（本库视角）",
         "slug": "06_controversy_evolution.md"
-      },
-      {
-        "path": "background/README.md",
-        "section": "文档索引",
-        "slug": "README.md"
       }
     ],
     "wander": [
@@ -24964,6 +25264,18 @@
         "slug": "05_glossary.md"
       }
     ],
+    "weinrich": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "3. 银河系 CR 传播参数：扩散谱指数 δ 与晕高 z_h",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
     "white": [
       {
         "path": "background/03_astrophysics.md",
@@ -25000,7 +25312,7 @@
     "wiescher": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -26346,6 +26658,11 @@
     ],
     "²⁶al": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/00_key_values.md",
         "section": "2.1 B²FH 与核过程框架（B²FH 1957; Trimble 1975; Fowler 1984; Wallerstein 1997）",
         "slug": "00_key_values.md"
@@ -26832,6 +27149,11 @@
       }
     ],
     "¹⁰be": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
       {
         "path": "background/01_cosmic_rays.md",
         "section": "1.1.7 数值模型（GALPROP 等）",
@@ -29135,7 +29457,7 @@
     "与星际介质": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       }
     ],
@@ -30789,6 +31111,11 @@
     ],
     "事件": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/00_key_values.md",
         "section": "1.4 SNR 加速与传播模型（Blasi 2013; Amato 2014; Biermann 1996; Grenier 2015）",
         "slug": "00_key_values.md"
@@ -31485,7 +31812,7 @@
     "传播与星际介质": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线传播（1 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       }
     ],
@@ -31535,8 +31862,22 @@
     "传播最新进展": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
+      }
+    ],
+    "传播模型": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
+    "传播模型作为暗物质搜寻反卷积标准": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "3. 银河系 CR 传播参数：扩散谱指数 δ 与晕高 z_h",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "传播的响应与次级核显著不同": [
@@ -31822,6 +32163,13 @@
         "path": "background/02_nucleosynthesis.md",
         "section": "2.6.6 场所",
         "slug": "02_nucleosynthesis.md"
+      }
+    ],
+    "位点争论尘埃落定": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "5. 核合成位点：r 过程与 s 过程",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "位点更可能是新星而非超新星高温区": [
@@ -34131,6 +34479,11 @@
     ],
     "几何约束": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/01_cosmic_rays.md",
         "section": "1.2.1 扩散激波加速（DSA）",
         "slug": "01_cosmic_rays.md"
@@ -34694,6 +35047,11 @@
     ],
     "判据": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/01_cosmic_rays.md",
         "section": "1.2.1 扩散激波加速（DSA）",
         "slug": "01_cosmic_rays.md"
@@ -34905,7 +35263,7 @@
     "加速": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -34997,6 +35355,11 @@
     ],
     "加速效率": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/00_key_values.md",
         "section": "1.4 SNR 加速与传播模型（Blasi 2013; Amato 2014; Biermann 1996; Grenier 2015）",
         "slug": "00_key_values.md"
@@ -35005,6 +35368,13 @@
         "path": "background/01_cosmic_rays.md",
         "section": "关键数值汇总表",
         "slug": "01_cosmic_rays.md"
+      }
+    ],
+    "加速数学形式化": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "加速时间": [
@@ -35034,7 +35404,7 @@
     "加速机制": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       }
     ],
@@ -36369,6 +36739,13 @@
         "slug": "01_cosmic_rays.md"
       }
     ],
+    "反馈": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "发射测度": [
       {
         "path": "background/05_glossary.md",
@@ -36958,6 +37335,13 @@
         "slug": "03_astrophysics.md"
       }
     ],
+    "同期独立": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
     "同样可解释": [
       {
         "path": "background/04_critique_index.md",
@@ -37195,6 +37579,13 @@
         "path": "background/05_glossary.md",
         "section": "L",
         "slug": "05_glossary.md"
+      }
+    ],
+    "命名": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "和热气体驱动的银河风": [
@@ -38870,7 +39261,7 @@
     "太阳丰度": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -38979,7 +39370,7 @@
     "太阳光球层丰度": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       }
     ],
@@ -39196,6 +39587,13 @@
         "path": "background/01_cosmic_rays.md",
         "section": "1.1.6 核碎裂与次级核产生",
         "slug": "01_cosmic_rays.md"
+      }
+    ],
+    "太阳系元素丰度新表": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
+        "slug": "00_home.md"
       }
     ],
     "太阳系其他天体": [
@@ -39436,6 +39834,20 @@
         "slug": "04_critique_index.md"
       }
     ],
+    "奠基": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
+    "奠基之一": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "奥坎多": [
       {
         "path": "background/05_glossary.md",
@@ -39598,7 +40010,7 @@
     "宇宙丰度": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       }
     ],
@@ -41962,6 +42374,13 @@
         "slug": "01_cosmic_rays.md"
       }
     ],
+    "开放问题": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "引力伴": [
       {
         "path": "background/03_astrophysics.md",
@@ -43141,16 +43560,14 @@
       },
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
         "path": "background/05_glossary.md",
         "section": "S",
         "slug": "05_glossary.md"
-      }
-    ],
-    "恒星核合成全体系": [
+      },
       {
         "path": "background/README.md",
         "section": "文档索引",
@@ -43160,7 +43577,7 @@
     "恒星核合成经典论文": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       }
     ],
@@ -44440,6 +44857,11 @@
       }
     ],
     "放射性时钟": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
       {
         "path": "background/04_critique_index.md",
         "section": "2. 领域争议点索引",
@@ -45862,7 +46284,7 @@
     "星暴星系核合成": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       }
     ],
@@ -45948,6 +46370,11 @@
     ],
     "星系": [
       {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
         "path": "background/05_glossary.md",
         "section": "B",
         "slug": "05_glossary.md"
@@ -45997,6 +46424,11 @@
       }
     ],
     "星系团": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
       {
         "path": "background/03_astrophysics.md",
         "section": "8.1 暗物质证据的多尺度汇聚",
@@ -46277,6 +46709,13 @@
         "slug": "04_critique_index.md"
       }
     ],
+    "显著优于传统": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "3. 银河系 CR 传播参数：扩散谱指数 δ 与晕高 z_h",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
     "显著影响大质量恒星演化模型与": [
       {
         "path": "background/04_critique_index.md",
@@ -46303,6 +46742,11 @@
         "path": "background/01_cosmic_rays.md",
         "section": "1.3.2 放射性时钟",
         "slug": "01_cosmic_rays.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "3. 银河系 CR 传播参数：扩散谱指数 δ 与晕高 z_h",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "晕实际平均密度": [
@@ -46472,7 +46916,7 @@
     "暗物质历史": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       }
     ],
@@ -48059,7 +48503,7 @@
     "核合成综述": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -48327,6 +48771,13 @@
         "path": "background/05_glossary.md",
         "section": "2",
         "slug": "05_glossary.md"
+      }
+    ],
+    "核过程框架": [
+      {
+        "path": "background/README.md",
+        "section": "文档索引",
+        "slug": "README.md"
       }
     ],
     "核通过弱相互作用改变": [
@@ -49175,7 +49626,7 @@
     "氢燃烧极限": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -50810,6 +51261,13 @@
         "path": "background/05_glossary.md",
         "section": "G",
         "slug": "05_glossary.md"
+      }
+    ],
+    "球状星团巨星元素丰度差异": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
+        "slug": "00_home.md"
       }
     ],
     "球粒陨石形成时蒸发流失": [
@@ -54262,6 +54720,18 @@
         "slug": "02_nucleosynthesis.md"
       }
     ],
+    "经典综述": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "4. SNR 与银河宇宙线起源范式（2010s 关键演变）",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
     "经典自转曲线": [
       {
         "path": "background/05_glossary.md",
@@ -54983,7 +55453,7 @@
     "能谱与源": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       }
     ],
@@ -55664,6 +56134,13 @@
         "path": "background/04_critique_index.md",
         "section": "1.5 Blasi (2013) — SNR 与宇宙线起源",
         "slug": "04_critique_index.md"
+      }
+    ],
+    "范式现代挑战": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
       }
     ],
     "范式确立": [
@@ -57157,6 +57634,20 @@
         "slug": "05_glossary.md"
       }
     ],
+    "贝叶斯分析": [
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "3. 银河系 CR 传播参数：扩散谱指数 δ 与晕高 z_h",
+        "slug": "06_controversy_evolution.md"
+      }
+    ],
+    "贝叶斯约束": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "贡献": [
       {
         "path": "background/00_key_values.md",
@@ -57558,7 +58049,7 @@
     "起源": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -57575,7 +58066,7 @@
     "起源与传播": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       }
     ],
@@ -58152,7 +58643,7 @@
     "轻元素核合成": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       }
     ],
@@ -58285,6 +58776,13 @@
         "slug": "01_cosmic_rays.md"
       }
     ],
+    "输运综述": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "边缘变化自然出现": [
       {
         "path": "background/03_astrophysics.md",
@@ -58337,7 +58835,7 @@
     "过程": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 恒星核合成与丰度（13 篇）",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
         "slug": "00_home.md"
       },
       {
@@ -58976,6 +59474,18 @@
         "path": "background/02_nucleosynthesis.md",
         "section": "恒星形成与超新星率",
         "slug": "02_nucleosynthesis.md"
+      }
+    ],
+    "过程现代综述": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 恒星核合成与丰度（16 篇）",
+        "slug": "00_home.md"
+      },
+      {
+        "path": "background/06_controversy_evolution.md",
+        "section": "5. 核合成位点：r 过程与 s 过程",
+        "slug": "06_controversy_evolution.md"
       }
     ],
     "过程的": [
@@ -60288,6 +60798,13 @@
         "slug": "01_cosmic_rays.md"
       }
     ],
+    "银河晕大小": [
+      {
+        "path": "background/00_home.md",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
+        "slug": "00_home.md"
+      }
+    ],
     "银河晕磁场": [
       {
         "path": "background/01_cosmic_rays.md",
@@ -60317,7 +60834,7 @@
     "银河系": [
       {
         "path": "background/00_home.md",
-        "section": "论文 · 宇宙线起源与 UHECR（7 篇）",
+        "section": "论文 · 宇宙线传播与起源（22 篇）",
         "slug": "00_home.md"
       },
       {
@@ -62018,5 +62535,5 @@
       }
     ]
   },
-  "total_entries": 10260
+  "total_entries": 10345
 }

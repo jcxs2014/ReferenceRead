@@ -12,7 +12,7 @@ path: background/00_home.md
 ---
 # 知识库首页
 
-本知识库涵盖 **宇宙线传播与起源**（8 篇）、**恒星核合成与丰度**（15 篇）共 23 篇学术论文的深度精读笔记，配有术语表与数值速查表。
+本知识库涵盖 **宇宙线传播与起源**（22 篇）、**恒星核合成与丰度**（16 篇）共 38 篇学术论文的深度精读笔记，配有术语表与数值速查表。
 
 ## 论文导航
 
@@ -26,8 +26,13 @@ path: background/00_home.md
 | [CRITIQUE 观点汇总](04_critique_index.md) | 各篇论文批判性分析索引 |
 | [全库术语表](05_glossary.md) | 学术词汇与领域术语 |
 
-### 论文 · 宇宙线传播与起源（8 篇）
+### 论文 · 宇宙线传播与起源（22 篇）
 - [Strong, Moskalenko & Ptuskin 2007](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) — CR 传播与星际介质
+- [Amato & Blasi 2018](01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_overview.md) — CR 输运综述（AMS-02 后）
+- [Weinrich et al. 2020](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md) — 银河晕大小（贝叶斯约束）
+- [Mewaldt et al. 2001](01_cosmic-ray-propagation/0004_weinrich-2020-clocks/literature_analysis/00_overview.md) — 放射性时钟（¹⁰Be/²⁶Al）
+- [Génolini et al. 2021](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/00_overview.md) — min/med/max 传播模型
+- [Ruszkowski & Pfrommer 2023](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md) — CR 反馈（星系+星系团）
 - [Bhattacharjee & Sigl 2000](02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md) — UHECR 起源与传播
 - [Al-Dargazelli et al. 1996](02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overview.md) — 银河系 CR 起源
 - [Gaisser 1990](02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview.md) — CR 能谱与源
@@ -35,8 +40,16 @@ path: background/00_home.md
 - [Amato 2014](02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md) — 银河系 CR 加速
 - [Grenier, Black & Strong 2015](02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md) — CR 与星际介质
 - [Biermann 1996](02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md) — CR 加速机制
+- [Bell 1978](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md) — ★ DSA 奠基之一
+- [Blandford & Ostriker 1978](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_overview.md) — ★ DSA 奠基之一
+- [Blandford & Eichler 1987](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/00_overview.md) — ★ DSA 经典综述
+- [Hillas 1984](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/00_overview.md) — Hillas 判据（UHECR 几何约束）
+- [Gabici 2019](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/00_overview.md) — SNR 范式现代挑战
+- [Giuffrida et al. 2022](02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/00_overview.md) — SN 1006 加速效率
+- [Alves Batista et al. 2019](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md) — UHECR 开放问题
+- [Telescope Array 2023](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/00_overview.md) — Amaterasu 244 EeV 事件
 
-### 论文 · 恒星核合成与丰度（15 篇）
+### 论文 · 恒星核合成与丰度（16 篇）
 - [B²FH 1957](03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md) — 恒星核合成经典论文
 - [Trimble 1975](03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview.md) — 核合成综述
 - [Fowler 1984](03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview.md) — 恒星核合成（R 过程）
@@ -51,6 +64,8 @@ path: background/00_home.md
 - [Bertone & Hooper 2018](03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview.md) — 暗物质历史
 - [Cameron 1968](03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overview.md) — 太阳系元素丰度新表
 - [Kraft 1994](03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md) — 球状星团巨星元素丰度差异
+- [Cowan, Sneden, Lawler et al. 2021](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md) — ★ r 过程现代综述
+- [Käppeler et al. 2011](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md) — ★ s 过程现代综述
 
 ## 推荐阅读路径
 

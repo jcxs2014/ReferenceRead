@@ -545,3 +545,16 @@ fields.year → parent.parent.stem → overview_path.stem → _most_likely_year(
 **正确**：任何依赖第三方库的脚本，在 shell 中必须显式指定含对应库的解释器，或脚本顶部自检测（`python3 -c "import yaml" || ...`）。
 
 **通用原则**：「声称完成 ≠ 实际完成」= #21 门禁存在的根本原因。任何交付前必须实测（`bash verify_claim.sh` / `python3 audit.py`），而非只看 commit message。
+
+#### 陷阱 5：审计失败先重建产物，再怀疑代码
+
+**事故**（2026-08-14，15 篇文献入库后）：audit.py 报告 `PAPERS 23 篇 vs 目录 38 篇`——Hermes 第一反应是"audit.py 的 PAPERS 计数写死了 23，需改为动态"。用户核验后发现：audit.py 的 PAPERS 是从 `interactive.html` 产物的 `const PAPERS = [...]` 提取（设计正确——保证 webapp 与源一致），而 `build_webapp.py --include-papers` 未跑导致产物过期为 23 篇。**正解**：`python3 scripts/build_all.py --step webapp` 重建即可，**不应改 audit.py**。
+
+**正确诊断顺序**：
+```
+1. 看 audit.py 怎么读数据（产物？源文件？硬编码？）
+2. 如果是从产物读 → 先 rebuild，再 grep 产物
+3. 如果产物仍不对 → 才考虑改 audit.py / 源数据
+```
+
+**教训**：「改脚本」和「重建产物」都能让症状消失，但只有后者保持审计链的可信度。改审计脚本本身会**掩盖未来的产物过期**——下次跑构建链时产物和审计对不上的问题就被永久藏起来了。**通用原则**：「**先重建，再怀疑代码**」是审计类工具的使用纪律。
