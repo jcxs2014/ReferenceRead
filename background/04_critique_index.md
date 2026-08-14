@@ -13,7 +13,7 @@ path: background/04_critique_index.md
 ---
 # 全库 CRITIQUE 观点汇总
 
-> 自动从 21 篇 `literature_analysis/*.md` 提取的 [CRITIQUE] 标签内容汇总，聚焦批判性观点与领域争议点。共覆盖宇宙线传播（1 篇）、宇宙线起源（7 篇）、恒星核合成（13 篇）三大子库，约 **300 条** [CRITIQUE] 标注。
+> 自动从 23 篇 `literature_analysis/*.md` 提取的 [CRITIQUE] 标签内容汇总，聚焦批判性观点与领域争议点。共覆盖宇宙线传播（1 篇）、宇宙线起源（7 篇）、恒星核合成（15 篇）三大子库，约 **300 条** [CRITIQUE] 标注。
 
 ---
 
@@ -306,7 +306,7 @@ path: background/04_critique_index.md
 
 ## 3. 方法论层面的共性批判
 
-跨 21 篇论文，可以归纳出以下**反复出现的批评模式**：
+跨 23 篇论文，可以归纳出以下**反复出现的批评模式**：
 
 1. **反应率与截面数据瓶颈**：核天体物理中，几乎所有定量预测的不确定度都追溯到关键反应的截面（¹²C($\alpha,\gamma$)¹⁶O、¹⁹Ne(p,$\gamma$)²⁰Na、spallation 截面）。1990 年代前，许多速率靠 S 因子外推；2000 年代后 LUNA、FRIB、FAIR 等深地/放射性束设施才开始直接测量。
 2. **模型依赖与参数空间**：GALPROP 的均匀源丰度、泄漏盒的物理含义、CONDOR 的平衡冷凝假设、AGSS09 的 1D non-LTE 修正——所有主要模型都存在"已知但被忽略"的系统假设。
@@ -316,5 +316,5 @@ path: background/04_critique_index.md
 
 ---
 
-*本文件由系统自动从 21 篇 `literature_analysis/*.md` 的 [CRITIQUE] 标注汇总生成，覆盖 ~300 条批判性观点。*
+*本文件由系统自动从 23 篇 `literature_analysis/*.md` 的 [CRITIQUE] 标注汇总生成，覆盖 ~300 条批判性观点。*
 

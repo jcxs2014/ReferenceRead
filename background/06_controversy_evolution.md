@@ -14,7 +14,7 @@ path: background/06_controversy_evolution.md
 # 06. 争议点演化时间线（Controversy Evolution）
 
 > 从 `04_critique_index.md` 的 26 个争议点提炼，按主题追踪「提出 → 立场分化 → 实验裁决」的演化路径。标注解决时间点与当前状态。
-> 时间线覆盖 1957–2018（本库 21 篇文献发表区间）及后续关键实验裁决。
+> 时间线覆盖 1957–2018（本库 23 篇文献发表区间）及后续关键实验裁决。
 
 ---
 
@@ -157,4 +157,4 @@ path: background/06_controversy_evolution.md
 
 ---
 
-*本文件由 04_critique_index.md 争议索引 + 21 篇文献年份结构化生成，内容可在文献侧更新后重跑。*
+*本文件由 04_critique_index.md 争议索引 + 23 篇文献年份结构化生成，内容可在文献侧更新后重跑。*

@@ -12,7 +12,7 @@ path: background/00_home.md
 ---
 # 知识库首页
 
-本知识库涵盖 **宇宙线传播与起源**（1 篇）、**恒星核合成与丰度**（13 篇）、**背景知识**（3 篇）共 21 篇学术论文的深度精读笔记，配有术语表与数值速查表。
+本知识库涵盖 **宇宙线传播与起源**（8 篇）、**恒星核合成与丰度**（15 篇）共 23 篇学术论文的深度精读笔记，配有术语表与数值速查表。
 
 ## 论文导航
 
@@ -51,6 +51,8 @@ path: background/00_home.md
 - [Kewley et al. 2001](03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview.md) — 星暴星系核合成
 - [Dieterich et al. 2014](03_stellar-nucleosynthesis/0012_dieterich-2014-h-burning-limit/literature_analysis/00_overview.md) — 氢燃烧极限
 - [Bertone & Hooper 2018](03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview.md) — 暗物质历史
+- [Cameron 1968](03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overview.md) — 太阳系元素丰度新表
+- [Kraft 1994](03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md) — 球状星团巨星元素丰度差异
 
 ## 推荐阅读路径
 

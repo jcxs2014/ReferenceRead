@@ -11,14 +11,14 @@ path: background/README.md
 ---
 # Background — 背景知识体系
 
-基于 21 篇文献精读的系统整理，按主题组织为三份背景知识文档。
+基于 23 篇文献精读的系统整理，按主题组织为三份背景知识文档。
 
 ## 文档索引
 
 | 文档 | 内容 | 对应论文 | 页数 |
 |---|---|---|---|
 | [`01_cosmic_rays.md`](01_cosmic_rays.md) | 宇宙线传播、加速、观测约束、UHECR、星系 CR | 8 篇（01×1 + 02×7） | 673 行 |
-| [`02_nucleosynthesis.md`](02_nucleosynthesis.md) | 恒星核合成全体系（B²FH→Wallerstein→Champagne） | 6 篇（03×6） | 910 行 |
+| [`02_nucleosynthesis.md`](02_nucleosynthesis.md) | 恒星核合成：核过程框架（H/He燃烧→s/r/p过程） | 6 篇（03×6） | 910 行 |
 | [`03_astrophysics.md`](03_astrophysics.md) | 太阳丰度、恒星丰度观测、星暴星系、暗物质 | 7 篇（03×7） | 649 行 |
 
 ## 主题交叉关系
