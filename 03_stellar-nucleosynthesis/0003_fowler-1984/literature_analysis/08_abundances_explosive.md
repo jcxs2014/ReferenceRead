@@ -2,9 +2,9 @@
 
 > 本章属于：**William A. Fowler (1984), *Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements*, Rev. Mod. Phys. 56, 149–172**
 >
-> 上一章：`07_weak_rates.md`
+> 上一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/07_weak_rates.md|07_weak_rates.md]]
 >
-> 下一章：`09_anomalies_neutron.md`
+> 下一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/09_anomalies_neutron.md|09_anomalies_neutron.md]]
 
 ## 8.1 本节核心内容
 

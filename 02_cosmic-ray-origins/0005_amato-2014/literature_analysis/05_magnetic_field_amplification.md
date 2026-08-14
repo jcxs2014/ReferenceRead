@@ -2,9 +2,9 @@
 
 > 本章属于：The origin of galactic cosmic rays (Blasi 2013 §4.2-4.4 & Amato 2014 §3.1, §7)
 >
-> 上一章：`04_nl_dsa.md`
+> 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/04_nl_dsa.md|04_nl_dsa.md]]
 >
-> 下一章：`06_escape_spectra.md`
+> 下一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/06_escape_spectra.md|06_escape_spectra.md]]
 
 ## 5.1 观测证据
 

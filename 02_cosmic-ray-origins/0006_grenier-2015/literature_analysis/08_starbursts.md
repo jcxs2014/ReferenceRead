@@ -1,8 +1,8 @@
 > 本章属于：The Nine Lives of Cosmic Rays in Galaxies（Grenier, Black & Strong 2015）
 >
-> 上一章：`07_tracers.md`
+> 上一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/07_tracers.md|07_tracers.md]]
 >
-> 下一章：`09_conclusion.md`
+> 下一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/09_conclusion.md|09_conclusion.md]]
 
 # 8. Cosmic Rays in Starburst Environments
 

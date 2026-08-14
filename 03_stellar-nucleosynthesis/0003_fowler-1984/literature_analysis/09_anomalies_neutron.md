@@ -2,9 +2,9 @@
 
 > 本章属于：**William A. Fowler (1984), *Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements*, Rev. Mod. Phys. 56, 149–172**
 >
-> 上一章：`08_abundances_explosive.md`
+> 上一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/08_abundances_explosive.md|08_abundances_explosive.md]]
 >
-> 下一章：`10_cosmochronology.md`
+> 下一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/10_cosmochronology.md|10_cosmochronology.md]]
 
 ## 9.1 本节核心内容
 

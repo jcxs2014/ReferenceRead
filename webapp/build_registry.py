@@ -157,6 +157,24 @@ def match_kv_for_paper(kv_index: dict[str, list[dict]], path: Path) -> list[dict
 # 主流程
 # ---------------------------------------------------------------------------
 
+def _strip_citation(v):
+    """从 Obsidian wikilink 提取论文 stem。
+
+    V2.2 目标形态二种：
+        [[0004_blasi-2013]]                                          （短格式）
+        [[02_cosmic-ray-origins/0004_.../literature_analysis/00_overview|0004_blasi-2013]]
+    后者路径倒数第 3 段（论文目录名）即 stem。
+    """
+    s = str(v).strip()
+    if s.startswith("[[") and s.endswith("]]"):
+        s = s[2:-2]
+    target = s.split("|")[0].strip()
+    parts = target.split("/")
+    if len(parts) >= 3 and "literature_analysis" in parts:
+        return parts[-3]
+    return target
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Build registry.json from frontmatter.")
     ap.add_argument("--dry-run", action="store_true", help="只打印，不写入")
@@ -191,6 +209,8 @@ def main() -> None:
         fm["path"] = str(p.relative_to(ROOT))
         fm["quality"] = count_quality(p)
         fm["key_values"] = match_kv_for_paper(kv_index, p)
+        if isinstance(fm.get("citations"), list):  # V2.2: strip wikilink
+            fm["citations"] = [_strip_citation(c) for c in fm["citations"]]
         entries.append(fm)
 
     # 2) background 文件

@@ -2,9 +2,9 @@
 
 > 本章属于：The Origin of Galactic Cosmic Rays（Blasi, 2013, arXiv:1311.7346）
 >
-> 上一章：`05_superbubble.md`
+> 上一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/05_superbubble.md|05_superbubble.md]]
 >
-> 下一章：`07_h_alpha.md`
+> 下一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/07_h_alpha.md|07_h_alpha.md]]
 
 ## 6.1 本节核心内容
 

@@ -1,8 +1,8 @@
 > 本章属于：[Champagne & Wiescher 1992, *Explosive Hydrogen Burning*]
 >
-> 上一章：`03_hot_cno_cycles_part1.md`
+> 上一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/03_hot_cno_cycles.md|03_hot_cno_cycles.md]]
 >
-> 下一章：`05_hot_cno_cycles_part3_lab_vs_stellar.md`
+> 下一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/05_lab_vs_stellar_rates.md|05_lab_vs_stellar_rates.md]]
 
 ---
 

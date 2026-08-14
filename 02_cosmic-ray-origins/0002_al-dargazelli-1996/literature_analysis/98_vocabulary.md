@@ -1,6 +1,8 @@
 # 98. Vocabulary — 学术词汇与术语
 
 > 文献：0002_al-dargazelli-1996。本词汇表基于 `literature_analysis/` 中各分析文件提取，供中文母语读者辅助精读原文。
+> 上一章：[[02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/97_quality_check.md|97_quality_check.md]]
+> 下一章：[[02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ## A. 学术逻辑词（跨篇高频，标注逻辑功能）
 
@@ -143,4 +145,3 @@
 - **DOI:*…
 
 **结构复杂度**：约 145 词（中文 63 字 + 英文 82 词）；2 处停顿（逗号/分号/冒号）；多分句嵌套。
-

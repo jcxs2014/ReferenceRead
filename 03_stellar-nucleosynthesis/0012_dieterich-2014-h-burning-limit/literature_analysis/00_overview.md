@@ -14,15 +14,15 @@ tags:
 - hydrogen burning limit
 - trigonometric parallax
 citations:
-- 0003_fowler-1984
-- 0004_wallerstein-1997
+- '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
+- '[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]]'
 path: 03_stellar-nucleosynthesis/0012_dieterich-2014-h-burning-limit/literature_analysis/00_overview.md
 ---
 # 00. Overview — 文献基本信息
 
 > 本章属于：Dieterich et al. (2014) — The Solar Neighborhood XXXII. The Hydrogen Burning Limit, AJ 147:94
 >
-> 下一章：`01_analysis.md`
+> 下一章：[[03_stellar-nucleosynthesis/0012_dieterich-2014-h-burning-limit/literature_analysis/01_analysis.md|01_analysis.md]]
 
 ---
 

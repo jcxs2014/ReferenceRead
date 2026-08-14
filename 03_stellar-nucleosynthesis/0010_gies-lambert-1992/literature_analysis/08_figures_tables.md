@@ -2,9 +2,9 @@
 
 > 本章属于：Gies & Lambert (1992) — ApJ 387:673
 >
-> 上一章：`07_results_and_discussion.md`
+> 上一章：[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/07_results_and_discussion.md|07_results_and_discussion.md]]
 >
-> 下一章：`09_references.md`
+> 下一章：[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/09_references.md|09_references.md]]
 
 ---
 

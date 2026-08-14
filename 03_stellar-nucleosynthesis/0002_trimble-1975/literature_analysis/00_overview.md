@@ -20,13 +20,13 @@ tags:
 - 初始质量函数
 - 超新星
 citations:
-- 0004_wallerstein-1997
-- 0001_b2fh-1957
+- '[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]]'
+- '[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]]'
 path: 03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview.md
 ---
 > 本章属于：Virginia Trimble, "The origin and abundances of the chemical elements," Rev. Mod. Phys. 47 (1975) 877.
 >
-> 下一章：`01_introduction_and_history.md`
+> 下一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/01_introduction_and_history.md|01_introduction_and_history.md]]
 
 # 0. 文献基本信息与结构总览 (Overview)
 

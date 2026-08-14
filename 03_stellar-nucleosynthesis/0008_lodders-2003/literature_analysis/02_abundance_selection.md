@@ -1,8 +1,8 @@
 > 本章属于：Solar System Abundances and Condensation Temperatures of the Elements (Lodders 2003)
 >
-> 上一章：`01_introduction.md`
+> 上一章：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/01_introduction.md|01_introduction.md]]
 >
-> 下一章：`03_condensation_methods.md`
+> 下一章：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/03_condensation_methods.md|03_condensation_methods.md]]
 
 # 2. Elemental Abundances（§ 2 分章精读）
 

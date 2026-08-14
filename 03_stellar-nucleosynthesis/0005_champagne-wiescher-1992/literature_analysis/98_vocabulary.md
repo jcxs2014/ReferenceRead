@@ -2,6 +2,8 @@
 
 > 本文：Champagne & Wiescher (1992), *Explosive Hydrogen Burning*, Annu. Rev. Nucl. Part. Sci. 42:39–76
 > 例句全部摘自 `literature_analysis/` 中的精读文件。
+> 上一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/97_quality_check.md|97_quality_check.md]]
+> 下一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ## A. 学术逻辑词（15–25 个）
 

@@ -22,15 +22,15 @@ tags:
 - dust
 - superbubbles
 citations:
-- 0005_amato-2014
-- 0004_blasi-2013
-- 0009_asplund-2009-solar-composition
-- 0011_kewley-2001-starburst
+- '[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview|0005_amato-2014]]'
+- '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|0004_blasi-2013]]'
+- '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'
+- '[[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview|0011_kewley-2001-starburst]]'
 path: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md
 ---
 > 本章属于：The Nine Lives of Cosmic Rays in Galaxies（Grenier, Black & Strong 2015）
 >
-> 下一章：`01_scope_and_nine_lives.md`
+> 下一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/01_scope_and_nine_lives.md|01_scope_and_nine_lives.md]]
 
 # 0. 文献基本信息
 

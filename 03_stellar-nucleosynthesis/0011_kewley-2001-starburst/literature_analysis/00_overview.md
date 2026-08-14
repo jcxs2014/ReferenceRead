@@ -15,15 +15,15 @@ tags:
 - Wolf-Rayet stars
 - stellar population synthesis
 citations:
-- 0009_asplund-2009-solar-composition
-- 0006_grenier-2015
+- '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'
+- '[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview|0006_grenier-2015]]'
 path: 03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview.md
 ---
 # 00. Overview — 文献基本信息
 
 > 本章属于：Kewley et al. (2001) — Theoretical Modeling of Starburst Galaxies, ApJ 556:121
 >
-> 下一章：`01_analysis.md`
+> 下一章：[[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/01_analysis.md|01_analysis.md]]
 
 ---
 

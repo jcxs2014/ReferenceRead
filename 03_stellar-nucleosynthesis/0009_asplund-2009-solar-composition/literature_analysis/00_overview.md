@@ -17,15 +17,15 @@ tags:
 - spectral line formation
 - convection
 citations:
-- 0006_grenier-2015
-- 0007_biermann-1996
-- 0010_gies-lambert-1992
-- 0011_kewley-2001-starburst
+- '[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview|0006_grenier-2015]]'
+- '[[02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview|0007_biermann-1996]]'
+- '[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview|0010_gies-lambert-1992]]'
+- '[[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview|0011_kewley-2001-starburst]]'
 path: 03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview.md
 ---
 > 本章属于：Asplund, Grevesse, Sauval & Scott (2009) The chemical composition of the Sun (arXiv:0909.0948 / Ann. Rev. A&A 47, 481)
 >
-> 下一章：`01_introduction.md`
+> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/01_introduction.md|01_introduction.md]]
 
 # 0. 文献基本信息与全文结构
 

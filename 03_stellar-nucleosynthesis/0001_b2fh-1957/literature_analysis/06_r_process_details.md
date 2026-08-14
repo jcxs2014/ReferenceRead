@@ -1,8 +1,8 @@
 > 本章属于：B²FH (1957) — *Synthesis of the Elements in Stars*
 >
-> 上一章：`05_s_r_general.md`
+> 上一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/05_s_r_general.md|05_s_r_general.md]]
 >
-> 下一章：`07_r_process_termination.md`
+> 下一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/07_r_process_termination.md|07_r_process_termination.md]]
 
 # 6. Details of the r Process（第 VII 章，P48–P59）
 

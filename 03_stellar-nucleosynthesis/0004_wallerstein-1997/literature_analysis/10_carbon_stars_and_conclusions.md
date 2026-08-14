@@ -1,8 +1,8 @@
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
-> 上一章：`09_p_and_e_process.md`
+> 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/09_p_and_e_process.md|09_p_and_e_process.md]]
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 # 10. 碳星与最终结论
 

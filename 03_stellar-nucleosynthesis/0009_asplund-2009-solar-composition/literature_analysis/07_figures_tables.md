@@ -1,8 +1,8 @@
 > 本章属于：Asplund et al. (2009) AGSS09
 >
-> 上一章：`06_cross_checks.md`
+> 上一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/06_cross_checks.md|06_cross_checks.md]]
 >
-> 下一章：`08_systematics_and_uncertainties.md`
+> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/08_systematics_and_uncertainties.md|08_systematics_and_uncertainties.md]]
 
 # 7. Figures & Tables 逐一精读
 

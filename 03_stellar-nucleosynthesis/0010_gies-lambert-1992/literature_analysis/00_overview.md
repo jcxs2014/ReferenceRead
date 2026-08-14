@@ -11,9 +11,9 @@ read_date: '2026-08-12'
 lastread: '2026-08-12'
 tags: []
 citations:
-- 0009_asplund-2009-solar-composition
-- 0005_champagne-wiescher-1992
-- 0003_fowler-1984
+- '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'
+- '[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]]'
+- '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
 path: 03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview.md
 ---
 # 0. 文献基本信息

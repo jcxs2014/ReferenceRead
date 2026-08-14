@@ -2,9 +2,9 @@
 
 > 本章属于：Gies & Lambert (1992) — ApJ 387:673
 >
-> 上一章：`08_figures_tables.md`
+> 上一章：[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/08_figures_tables.md|08_figures_tables.md]]
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ---
 

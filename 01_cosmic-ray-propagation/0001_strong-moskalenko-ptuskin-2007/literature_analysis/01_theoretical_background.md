@@ -2,9 +2,9 @@
 
 > 本章属于：Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)
 >
-> 上一章：`00_overview.md`
+> 上一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md|00_overview.md]]
 >
-> 下一章：`02_confrontation_with_data.md`
+> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/02_confrontation_with_data.md|02_confrontation_with_data.md]]
 
 ---
 
@@ -525,4 +525,4 @@ GALPROP (67) 的创建目标：
 
 ---
 
-> 下一章：`02_confrontation_with_data.md`
+> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/02_confrontation_with_data.md|02_confrontation_with_data.md]]

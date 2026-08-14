@@ -2,9 +2,9 @@
 
 > 本章属于：**William A. Fowler (1984), *Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements*, Rev. Mod. Phys. 56, 149–172**
 >
-> 上一章：`01_introduction.md`
+> 上一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/01_introduction.md|01_introduction.md]]
 >
-> 下一章：`03_reaction_rates.md`
+> 下一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/03_reaction_rates.md|03_reaction_rates.md]]
 
 ## 2.1 本节核心内容
 

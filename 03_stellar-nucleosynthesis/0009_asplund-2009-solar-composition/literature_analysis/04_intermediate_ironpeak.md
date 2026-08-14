@@ -1,8 +1,8 @@
 > 本章属于：Asplund et al. (2009) AGSS09
 >
-> 上一章：`03_light_elements.md`
+> 上一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/03_light_elements.md|03_light_elements.md]]
 >
-> 下一章：`05_heavy_and_indirect.md`
+> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/05_heavy_and_indirect.md|05_heavy_and_indirect.md]]
 
 # 4. Intermediate Mass + Iron-Peak Elements（§3.5–3.6）
 

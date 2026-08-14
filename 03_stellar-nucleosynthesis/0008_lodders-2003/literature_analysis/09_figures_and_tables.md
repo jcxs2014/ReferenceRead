@@ -1,8 +1,8 @@
 > 本章属于：Solar System Abundances and Condensation Temperatures of the Elements (Lodders 2003)
 >
-> 上一章：`06_condensate_mass.md`
+> 上一章：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/06_condensate_mass.md|06_condensate_mass.md]]
 >
-> 下一章：`07_references.md`
+> 下一章：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/07_references.md|07_references.md]]
 
 # 7. Figures and Tables（图与表精读）
 

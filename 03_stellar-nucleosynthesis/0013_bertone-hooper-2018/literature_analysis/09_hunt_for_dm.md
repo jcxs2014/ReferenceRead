@@ -2,9 +2,9 @@
 
 > 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
 >
-> 上一章：`08_piecing_the_puzzle.md`
+> 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/08_piecing_the_puzzle.md|08_piecing_the_puzzle.md]]
 >
-> 下一章：`10_figures_tables.md`
+> 下一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/10_figures_tables.md|10_figures_tables.md]]
 
 ---
 

@@ -32,13 +32,13 @@ tags:
 - 数据源都不同
 - 不能一概而论
 citations:
-- 0005_champagne-wiescher-1992
-- 0009_asplund-2009-solar-composition
+- '[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]]'
+- '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'
 path: 03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md
 ---
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
-> 下一章：`01_preface_introduction.md`
+> 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/01_preface_introduction.md|01_preface_introduction.md]]
 
 # 0. 文献基本信息
 
@@ -84,7 +84,7 @@ path: 03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_ov
 **Figures (30 张)**：Fig. 1（H-R 图）, Fig. 2（12C 能级图）, Fig. 3（16O 能级图）, Fig. 4–26。
 **Tables (≥8 张)**：Table I（3He+4He 反应实验数据）, Table II（SE1(E0=0.3 MeV) 直接测量外推值）, Table III, Table IV 等（s 过程、r 过程核数据）。
 
-[FACT] 本文包含 30 张 Figure、8 张以上 Table，均按 B2FH 传统保留在综述中。具体 Figure 分析见 `09_figures_tables_and_formulas.md`。
+[FACT] 本文包含 30 张 Figure、8 张以上 Table，均按 B2FH 传统保留在综述中。具体 Figure 分析见 `09_p_and_e_process.md`。
 
 ## 1.2 论文的历史背景（为何是"四十周年"）
 

@@ -1,6 +1,6 @@
 > 本章属于：[The Solar Neighborhood XXXII. The Hydrogen Burning Limit — Dieterich et al. 2014, AJ 147:94]
 >
-> 上一章：`01_analysis.md`
+> 上一章：[[03_stellar-nucleosynthesis/0012_dieterich-2014-h-burning-limit/literature_analysis/01_analysis.md|01_analysis.md]]
 
 ---
 

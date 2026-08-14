@@ -1,8 +1,8 @@
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
-> 上一章：`05_helium_burning.md`
+> 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/05_helium_burning.md|05_helium_burning.md]]
 >
-> 下一章：`07_s_process.md`
+> 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/07_s_process.md|07_s_process.md]]
 
 # 6. 高级燃烧（C/Ne/O/Si）与 H 燃烧观测证据
 

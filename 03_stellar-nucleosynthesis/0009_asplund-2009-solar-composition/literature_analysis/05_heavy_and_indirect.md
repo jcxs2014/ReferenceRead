@@ -1,8 +1,8 @@
 > 本章属于：Asplund et al. (2009) AGSS09
 >
-> 上一章：`04_intermediate_ironpeak.md`
+> 上一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/04_intermediate_ironpeak.md|04_intermediate_ironpeak.md]]
 >
-> 下一章：`06_cross_checks.md`
+> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/06_cross_checks.md|06_cross_checks.md]]
 
 # 5. Heavy, Indirect, Isotopic, Diffusion, Metallicity（§3.7–3.12）
 

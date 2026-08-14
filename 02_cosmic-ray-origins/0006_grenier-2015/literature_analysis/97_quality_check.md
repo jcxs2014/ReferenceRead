@@ -2,6 +2,8 @@
 
 > 文献：`0006_grenier-2015`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
+> 上一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/09_conclusion.md|09_conclusion.md]]
+> 下一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 

@@ -1,8 +1,8 @@
 > 本章属于：Bhattacharjee & Sigl (1999), Phys. Rep. 320, 1–150
 >
-> 上一章：`10_cosmic_strings.md`
+> 上一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/10_cosmic_strings.md|10_cosmic_strings.md]]
 >
-> 下一章：`12_xparticles_special_models.md`
+> 下一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/12_xparticles_special_models.md|12_xparticles_special_models.md]]
 
 ---
 

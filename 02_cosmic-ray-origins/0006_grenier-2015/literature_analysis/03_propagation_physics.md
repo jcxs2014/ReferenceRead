@@ -1,8 +1,8 @@
 > 本章属于：The Nine Lives of Cosmic Rays in Galaxies（Grenier, Black & Strong 2015）
 >
-> 上一章：`02_direct_measurements.md`
+> 上一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/02_direct_measurements.md|02_direct_measurements.md]]
 >
-> 下一章：`04_crwanderers.md`
+> 下一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/04_crwanderers.md|04_crwanderers.md]]
 
 # 3. Advances in Cosmic-Ray Propagation
 

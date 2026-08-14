@@ -1,6 +1,6 @@
 > 本章属于：Anders & Grevesse (1989) — Abundances of the elements: Meteoritic and solar
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ---
 

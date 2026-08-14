@@ -25,8 +25,8 @@ tags:
 - 同位素异常
 - 核宇宙化学计时
 citations:
-- 0005_champagne-wiescher-1992
-- 0001_b2fh-1957
+- '[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]]'
+- '[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]]'
 path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview.md
 ---
 # 0. 文献基本信息 (Overview & Metadata)

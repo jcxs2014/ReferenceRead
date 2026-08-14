@@ -1,6 +1,8 @@
 # 98. Vocabulary — 学术词汇与术语
 
 > 文献：0006_grenier-2015。本词汇表基于 `literature_analysis/` 中各分析文件提取，供中文母语读者辅助精读原文。
+> 上一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/97_quality_check.md|97_quality_check.md]]
+> 下一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ## A. 学术逻辑词（跨篇高频，标注逻辑功能）
 
@@ -164,4 +166,3 @@ Introduction / Scope of the Review
 - **MHD 粒子轨迹模拟**（Giacalone & Jokipii 传统）超越准线性理论。
 
 **结构复杂度**：约 140 词（中文 118 字 + 英文 22 词）；3 处停顿（逗号/分号/冒号）；多分句嵌套。
-

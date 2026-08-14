@@ -2,9 +2,9 @@
 
 > 本章属于：The origin of galactic cosmic rays (Blasi 2013 §4 & Amato 2014 §3)
 >
-> 上一章：`03_test_particle_dsa.md`
+> 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/03_test_particle_dsa.md|03_test_particle_dsa.md]]
 >
-> 下一章：`05_magnetic_field_amplification.md`
+> 下一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/05_magnetic_field_amplification.md|05_magnetic_field_amplification.md]]
 
 ## 4.1 需要 NLDSA 的三个物理原因（Blasi §4 首）
 

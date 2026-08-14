@@ -2,9 +2,9 @@
 
 > 本章属于：The origin of galactic cosmic rays (Amato 2014 & Blasi 2013)
 >
-> 上一章：`09_figures_tables.md`
+> 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/09_figures_tables.md|09_figures_tables.md]]
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ## 10.1 关键参考文献（对两篇论证起支柱作用）
 

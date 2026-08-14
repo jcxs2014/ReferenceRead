@@ -1,8 +1,8 @@
 > 本章属于：Virginia Trimble, "The origin and abundances of the chemical elements," Rev. Mod. Phys. 47 (1975) 877.
 >
-> 上一章：`08_conclusions.md`
+> 上一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/08_conclusions.md|08_conclusions.md]]
 >
-> 下一章：`10_references.md`
+> 下一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/10_references.md|10_references.md]]
 
 # 9. Figures and Tables (跨章节图表梳理)
 

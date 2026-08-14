@@ -1,6 +1,8 @@
 # 98. Vocabulary — 学术词汇与术语
 
 > 文献：0013_bertone-hooper-2018（Bertone & Hooper 2018, "A History of Dark Matter", Rev. Mod. Phys. 90, 045002）。本词汇表基于 `literature_analysis/` 中各分析文件提取。
+> 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/97_quality_check.md|97_quality_check.md]]
+> 下一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ## A. 学术逻辑词（跨篇高频，标注逻辑功能）
 

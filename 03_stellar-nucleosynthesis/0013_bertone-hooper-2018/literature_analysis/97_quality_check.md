@@ -2,6 +2,8 @@
 
 > 文献：`0013_bertone-hooper-2018`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
+> 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/11_references.md|11_references.md]]
+> 下一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 

@@ -1,8 +1,8 @@
 > 本章属于：B²FH (1957) — *Synthesis of the Elements in Stars*
 >
-> 上一章：`06_r_process_details.md`
+> 上一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/06_r_process_details.md|06_r_process_details.md]]
 >
-> 下一章：`08_p_process.md`
+> 下一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/08_p_process.md|08_p_process.md]]
 
 # 7. Termination of r & s Processes; Radioactive Elements; U/Th (第 VIII 章，P59–P65)
 

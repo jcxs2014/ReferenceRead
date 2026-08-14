@@ -2,7 +2,7 @@
 
 > 本章属于：B²FH (1957) — *Synthesis of the Elements in Stars*
 >
-> 上一章：`09_x_variations_general_astrophysics_conclusion.md`
+> 上一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/09_x_variations_general_astrophysics_conclusion.md|09_x_variations_general_astrophysics_conclusion.md]]
 
 ---
 

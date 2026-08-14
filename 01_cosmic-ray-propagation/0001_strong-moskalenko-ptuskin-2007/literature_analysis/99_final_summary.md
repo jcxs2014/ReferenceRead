@@ -2,7 +2,7 @@
 
 > 本章属于：Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)
 >
-> 上一章：`04_references.md`
+> 上一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/04_references.md|04_references.md]]
 
 ---
 

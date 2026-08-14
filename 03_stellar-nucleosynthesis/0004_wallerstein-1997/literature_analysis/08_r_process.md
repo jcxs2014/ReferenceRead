@@ -1,8 +1,8 @@
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
-> 上一章：`07_s_process.md`
+> 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/07_s_process.md|07_s_process.md]]
 >
-> 下一章：`09_p_and_e_process.md`
+> 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/09_p_and_e_process.md|09_p_and_e_process.md]]
 
 # 8. r 过程：理论与观测
 

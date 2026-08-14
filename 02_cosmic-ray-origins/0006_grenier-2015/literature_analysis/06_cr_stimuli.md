@@ -1,8 +1,8 @@
 > 本章属于：The Nine Lives of Cosmic Rays in Galaxies（Grenier, Black & Strong 2015）
 >
-> 上一章：`05_crism_interactions.md`
+> 上一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/05_crism_interactions.md|05_crism_interactions.md]]
 >
-> 下一章：`07_tracers.md`
+> 下一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/07_tracers.md|07_tracers.md]]
 
 # 6. Cosmic-Ray Stimuli on the Interstellar Medium
 

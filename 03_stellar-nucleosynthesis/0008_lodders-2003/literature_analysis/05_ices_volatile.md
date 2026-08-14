@@ -1,8 +1,8 @@
 > 本章属于：Solar System Abundances and Condensation Temperatures of the Elements (Lodders 2003)
 >
-> 上一章：`04_major_trace_condensation.md`
+> 上一章：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/04_major_trace_condensation.md|04_major_trace_condensation.md]]
 >
-> 下一章：`06_condensate_mass.md`
+> 下一章：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/06_condensate_mass.md|06_condensate_mass.md]]
 
 # 5. Highly Volatile Element Condensation: C, N, O, Noble Gases（§ 3.4）
 

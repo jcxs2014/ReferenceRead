@@ -2,9 +2,9 @@
 
 > 本章属于：The origin of galactic cosmic rays (Blasi 2013 §2)
 >
-> 上一章：`01_introduction.md`
+> 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/01_introduction.md|01_introduction.md]]
 >
-> 下一章：`03_test_particle_dsa.md`
+> 下一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/03_test_particle_dsa.md|03_test_particle_dsa.md]]
 
 ## 2.1 核心逻辑
 

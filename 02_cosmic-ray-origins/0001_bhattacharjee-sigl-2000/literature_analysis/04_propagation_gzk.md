@@ -1,8 +1,8 @@
 > 本章属于：Bhattacharjee & Sigl (1999), Phys. Rep. 320, 1–150
 >
-> 上一章：`03_bulk_origin_general.md`
+> 上一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/03_figures.md|03_figures.md]]
 >
-> 下一章：`05_neutrinos_exotic_particles.md`
+> 下一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/05_neutrinos_exotic_particles.md|05_neutrinos_exotic_particles.md]]
 
 ---
 

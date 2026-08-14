@@ -1,8 +1,8 @@
 > 本章属于：Asplund et al. (2009) AGSS09
 >
-> 上一章：`00_overview.md`
+> 上一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview.md|00_overview.md]]
 >
-> 下一章：`02_ingredients.md`
+> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/02_ingredients.md|02_ingredients.md]]
 
 # 1. Introduction（§1 引言）
 

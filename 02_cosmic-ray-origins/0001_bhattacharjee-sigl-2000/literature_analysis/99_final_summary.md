@@ -3,6 +3,7 @@
 > **原文**：P. Bhattacharjee & G. Sigl, "Origin and Propagation of Extremely High Energy Cosmic Rays", *Phys. Rep.* 320 (1999) 1–150, [arXiv:astro-ph/9811011](https://arxiv.org/abs/astro-ph/9811011).
 >
 > **注意**：本目录名为 `0001_longair-ptuskin-1999`，但实际论文是 **Bhattacharjee & Sigl (1999)**（非 Longair-Ptuskin）。本分析基于 PDF 真实内容。
+> 上一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ---
 
@@ -16,7 +17,7 @@
 |---|---|---|
 | §1 | Introduction & Scope | `01_introduction.md` |
 | §2 | Observed Cosmic Rays | `02_observed_cosmic_rays.md` |
-| §3 | Bulk Origin: General Considerations | `03_bulk_origin_general.md` |
+| §3 | Bulk Origin: General Considerations | `03_figures.md` |
 | §4.1–4.2 | Propagation & GZK Cutoff | `04_propagation_gzk.md` |
 | §4.3 | UHE Neutrinos & Exotic Particles | `05_neutrinos_exotic_particles.md` |
 | §4.4 | Galactic & Extragalactic Magnetic Fields | `06_magnetic_fields_constraints.md` |
@@ -152,7 +153,7 @@
 | `00_overview.md` | 文献元信息、目录结构 | ~1500 字 |
 | `01_introduction.md` | §1 | ~1800 字 |
 | `02_observed_cosmic_rays.md` | §2 | ~4000 字 |
-| `03_bulk_origin_general.md` | §3 | ~3000 字 |
+| `03_figures.md` | §3 | ~3000 字 |
 | `04_propagation_gzk.md` | §4.1–4.2 | ~5000 字 |
 | `05_neutrinos_exotic_particles.md` | §4.3 | ~4500 字 |
 | `06_magnetic_fields_constraints.md` | §4.4 | ~4000 字 |

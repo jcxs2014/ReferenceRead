@@ -1,8 +1,8 @@
 > 本章属于：B²FH (1957) — *Synthesis of the Elements in Stars*
 >
-> 上一章：`00_overview.md`
+> 上一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md|00_overview.md]]
 >
-> 下一章：`02_physical_processes.md`
+> 下一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/02_physical_processes.md|02_physical_processes.md]]
 
 # 1. Introduction（第 I 章，P1–P5）
 
@@ -197,7 +197,7 @@
 ## 1.13 后续章节导航
 
 - 第 II 章（八大过程、时间标度） → `02_physical_processes.md`
-- 第 III 章（H/He 燃烧与 α 过程） → `03_hydrogen_helium_alpha_burning.md`
+- 第 III 章（H/He 燃烧与 α 过程） → `03_figures.md`
 - 第 IV 章（ε 过程） → `04_epsilon_process.md`
 - 第 V–VI 章（s/r 过程一般原理与 s 过程细节） → `05_s_r_general.md`
 - 第 VII 章（r 过程细节） → `06_r_process_details.md`

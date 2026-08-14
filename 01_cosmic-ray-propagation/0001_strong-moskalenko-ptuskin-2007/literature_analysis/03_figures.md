@@ -2,9 +2,9 @@
 
 > 本章属于：Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)
 >
-> 上一章：`02_confrontation_with_data.md`
+> 上一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/02_confrontation_with_data.md|02_confrontation_with_data.md]]
 >
-> 下一章：`04_references.md`
+> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/04_references.md|04_references.md]]
 
 ---
 
@@ -362,4 +362,4 @@ $330° < l < 30°$, $|b| < 5°$（银河系内部）
 
 ---
 
-> 下一章：`04_references.md`
+> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/04_references.md|04_references.md]]

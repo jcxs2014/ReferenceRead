@@ -2,7 +2,7 @@
 >
 > 上一章：无
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 # 1. 文献基本信息
 

@@ -302,13 +302,27 @@ def _split_tags(kw: str) -> list[str]:
     return tags
 
 
-def _read_existing_citations(overview_path: Path) -> list[str]:
-    """读取文件已有 frontmatter 的 citations 列表（无则空）。
+def _strip_wikilink(val: str) -> str:
+    """剥掉 Obsidian wikilink 的 [[ ]]（V2.2：源文件 citations 为 [[stem]] 格式）。"""
+    s = val.strip().strip("'\" ")
+    if s.startswith("[[") and s.endswith("]]"):
+        s = s[2:-2]
+    # 带别名 [[stem|别名]] 时取路径部分
+    return s.split("|")[0].strip()
 
-    支持两种 YAML 形态：
+
+def _read_existing_citations(overview_path: Path) -> list[str]:
+    """读取文件已有 frontmatter 的 citations 列表（无则空），**保留原始格式**。
+
+    V2.2 后源文件为 wikilink（`- '[[0004_blasi-2013]]'`）——build_fm 只是
+    透传，不剥不转（剥 [[ ]] 是 build_registry 的职责，registry 保持纯 stem）。
+
+    支持三种 YAML 形态：
         citations: ["0004_blasi-2013"]
         citations:
         - '0004_blasi-2013'
+        citations:
+        - '[[0004_blasi-2013]]'
     """
     try:
         text = overview_path.read_text(encoding="utf-8")

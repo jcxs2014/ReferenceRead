@@ -1,6 +1,6 @@
 > 本章属于：Solar System Abundances and Condensation Temperatures of the Elements (Lodders 2003)
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 # 8. References Analysis（参考文献分析）
 

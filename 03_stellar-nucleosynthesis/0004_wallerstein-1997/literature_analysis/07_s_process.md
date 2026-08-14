@@ -1,8 +1,8 @@
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
-> 上一章：`06_advanced_burning.md`
+> 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/06_advanced_burning.md|06_advanced_burning.md]]
 >
-> 下一章：`08_r_process.md`
+> 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/08_r_process.md|08_r_process.md]]
 
 # 7. s 过程：实验室研究与恒星模型
 

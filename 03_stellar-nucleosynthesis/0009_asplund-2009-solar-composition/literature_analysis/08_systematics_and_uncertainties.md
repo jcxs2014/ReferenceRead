@@ -1,6 +1,6 @@
 > 本章属于：Asplund et al. (2009) AGSS09
 >
-> 下一章：`09_conclusion_and_references.md`
+> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/09_conclusion_and_references.md|09_conclusion_and_references.md]]
 
 # 8. 系统误差、争议与交叉评估
 

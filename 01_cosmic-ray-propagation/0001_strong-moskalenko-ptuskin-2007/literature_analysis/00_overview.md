@@ -53,18 +53,18 @@ tags:
 - magnetic fields
 - plasmas
 citations:
-- 0004_blasi-2013
-- 0005_amato-2014
-- 0006_grenier-2015
-- 0007_biermann-1996
-- 0013_bertone-hooper-2018
+- '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|0004_blasi-2013]]'
+- '[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview|0005_amato-2014]]'
+- '[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview|0006_grenier-2015]]'
+- '[[02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview|0007_biermann-1996]]'
+- '[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview|0013_bertone-hooper-2018]]'
 path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md
 ---
 # 00. Overview — 文献基本信息与结构
 
 > 本章属于：Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)
 >
-> 下一章：`01_theoretical_background.md`
+> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/01_theoretical_background.md|01_theoretical_background.md]]
 
 ---
 
@@ -217,7 +217,7 @@ path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_a
 
 ---
 
-> 下一章：`01_theoretical_background.md`
+> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/01_theoretical_background.md|01_theoretical_background.md]]
 
 ---
 

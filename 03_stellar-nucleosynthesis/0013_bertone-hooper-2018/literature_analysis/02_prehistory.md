@@ -2,9 +2,9 @@
 
 > 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
 >
-> 上一章：`01_preface.md`
+> 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/01_preface.md|01_preface.md]]
 >
-> 下一章：`03_galaxy_clusters.md`
+> 下一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/03_galaxy_clusters.md|03_galaxy_clusters.md]]
 
 ---
 

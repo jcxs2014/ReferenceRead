@@ -1,8 +1,8 @@
 > 本章属于：Bhattacharjee & Sigl (1999), Phys. Rep. 320, 1–150
 >
-> 上一章：`08_acceleration_sources.md`
+> 上一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/08_acceleration_sources.md|08_acceleration_sources.md]]
 >
-> 下一章：`10_cosmic_strings.md`
+> 下一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/10_cosmic_strings.md|10_cosmic_strings.md]]
 
 ---
 

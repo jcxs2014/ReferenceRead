@@ -1,8 +1,8 @@
 > 本章属于：B²FH (1957) — *Synthesis of the Elements in Stars*
 >
-> 上一章：`08_p_process.md`
+> 上一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/08_p_process.md|08_p_process.md]]
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 # 9. X Processes, Stellar Variations, General Astrophysics & Conclusion（第 X–XIII 章 + 附录，P74–P108）
 

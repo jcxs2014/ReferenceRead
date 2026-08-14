@@ -11,15 +11,15 @@ read_date: '2026-08-12'
 lastread: '2026-08-12'
 tags: []
 citations:
-- 0005_amato-2014
-- 0006_grenier-2015
+- '[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview|0005_amato-2014]]'
+- '[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview|0006_grenier-2015]]'
 path: 02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md
 ---
 # 0. 文献基本信息
 
 > 本章属于：The Origin of Galactic Cosmic Rays（Blasi, 2013, arXiv:1311.7346）
 >
-> 下一章：`01_introduction.md`
+> 下一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/01_introduction.md|01_introduction.md]]
 
 ## 0.1 论文版本说明
 

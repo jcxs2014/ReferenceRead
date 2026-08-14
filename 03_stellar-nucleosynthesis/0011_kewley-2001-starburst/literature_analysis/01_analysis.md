@@ -1,6 +1,6 @@
 > 本章属于：Theoretical Modeling of Starburst Galaxies (Kewley, Dopita, Sutherland, Heisler & Trevena 2001, ApJ 556:121)
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 # 0. 文献基本信息
 

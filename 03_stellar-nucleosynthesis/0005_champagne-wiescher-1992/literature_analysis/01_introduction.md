@@ -2,9 +2,9 @@
 
 > 本章属于：Explosive Hydrogen Burning (Champagne & Wiescher, 1992)
 >
-> 上一章：`00_overview.md`
+> 上一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview.md|00_overview.md]]
 >
-> 下一章：`02_nuclear_reactions.md`
+> 下一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/02_reaction_rates.md|02_reaction_rates.md]]
 
 ## 1.1 本节核心内容
 

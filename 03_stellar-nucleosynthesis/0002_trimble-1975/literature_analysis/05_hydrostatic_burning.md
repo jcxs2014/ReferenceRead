@@ -1,8 +1,8 @@
 > 本章属于：Virginia Trimble, "The origin and abundances of the chemical elements," Rev. Mod. Phys. 47 (1975) 877.
 >
-> 上一章：`04_cosmological_nucleosynthesis.md`
+> 上一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/04_cosmological_nucleosynthesis.md|04_cosmological_nucleosynthesis.md]]
 >
-> 下一章：`06_heavy_element_processes.md`
+> 下一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/06_heavy_element_processes.md|06_heavy_element_processes.md]]
 
 # 5. Hydrostatic & Violent Processes in Stars (H, He, C, O, Si Burning, ε Process)
 

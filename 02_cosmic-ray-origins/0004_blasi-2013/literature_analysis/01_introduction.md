@@ -2,9 +2,9 @@
 
 > 本章属于：The Origin of Galactic Cosmic Rays（Blasi, 2013, arXiv:1311.7346）
 >
-> 上一章：`00_overview.md`
+> 上一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md|00_overview.md]]
 >
-> 下一章：`02_sn_r_premises.md`
+> 下一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/02_sn_r_premises.md|02_sn_r_premises.md]]
 
 ## 1.1 本节核心内容
 

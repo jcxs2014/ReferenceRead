@@ -2,9 +2,9 @@
 
 > 本章属于：Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)
 >
-> 上一章：`03_figures.md`
+> 上一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/03_figures.md|03_figures.md]]
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ---
 
@@ -141,4 +141,4 @@
 9. **(81) Strong et al. (2000)** — 磁场建模
 10. **(33) Ptuskin et al. (1997)** — 自洽模型先驱
 
-> 下一章：`99_final_summary.md`
+> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/99_final_summary.md|99_final_summary.md]]

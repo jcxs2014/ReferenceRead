@@ -1,6 +1,6 @@
 > 本章属于：Asplund et al. (2009) AGSS09
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 # 9. Conclusion, Future Issues & Key References（§5）
 

@@ -2,9 +2,9 @@
 
 > 本章属于：The Origin of Galactic Cosmic Rays（Blasi, 2013, arXiv:1311.7346）
 >
-> 上一章：`03_test_particle_dsa.md`
+> 上一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/03_test_particle_dsa.md|03_test_particle_dsa.md]]
 >
-> 下一章：`05_superbubble.md`
+> 下一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/05_superbubble.md|05_superbubble.md]]
 
 ## 4.1 本节核心内容
 

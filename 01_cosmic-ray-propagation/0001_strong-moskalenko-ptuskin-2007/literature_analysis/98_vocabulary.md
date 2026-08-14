@@ -5,6 +5,8 @@
 > 上一文件：`04_references.md`
 >
 > 目的：辅助中文母语读者攻克英语词汇关，降低原文阅读障碍。所有例句均取自本文 `literature_analysis/` 已摘录的英文原文片段（部分截断，加粗部分为相关词）。
+> 上一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/97_quality_check.md|97_quality_check.md]]
+> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ---
 

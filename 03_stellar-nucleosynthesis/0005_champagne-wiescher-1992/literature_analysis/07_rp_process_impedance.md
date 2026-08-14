@@ -1,8 +1,8 @@
 > 本章属于：[Champagne & Wiescher 1992, *Explosive Hydrogen Burning*]
 >
-> 上一章：`06_rp_process_part1.md`
+> 上一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/06_rp_process.md|06_rp_process.md]]
 >
-> 下一章：`08_network_calculations.md`
+> 下一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/08_network_calculations.md|08_network_calculations.md]]
 
 ---
 

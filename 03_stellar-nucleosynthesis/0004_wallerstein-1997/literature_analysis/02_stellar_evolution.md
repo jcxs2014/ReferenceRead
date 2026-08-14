@@ -1,8 +1,8 @@
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
-> 上一章：`01_preface_introduction.md`
+> 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/01_preface_introduction.md|01_preface_introduction.md]]
 >
-> 下一章：`03_hydrogen_burning.md`
+> 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/03_hydrogen_burning.md|03_hydrogen_burning.md]]
 
 # 2. 恒星演化模型（Stellar Evolution, Iben, Jr.）
 

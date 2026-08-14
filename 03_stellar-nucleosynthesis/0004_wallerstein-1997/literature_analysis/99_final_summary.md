@@ -1,6 +1,6 @@
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
-> 上一章：`10_carbon_stars_and_conclusions.md`
+> 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/10_carbon_stars_and_conclusions.md|10_carbon_stars_and_conclusions.md]]
 
 # 99. 最终总结 (Final Summary)
 

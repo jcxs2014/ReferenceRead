@@ -1,8 +1,8 @@
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
-> 上一章：`00_overview.md`
+> 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md|00_overview.md]]
 >
-> 下一章：`02_stellar_evolution.md`
+> 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/02_stellar_evolution.md|02_stellar_evolution.md]]
 
 # 1. 前言与引言（Preface & Introduction）
 

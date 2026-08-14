@@ -2,6 +2,8 @@
 
 > 文献：`0003_fowler-1984`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
+> 上一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/10_cosmochronology.md|10_cosmochronology.md]]
+> 下一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 

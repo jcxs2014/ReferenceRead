@@ -1,8 +1,8 @@
 > 本章属于：Virginia Trimble, "The origin and abundances of the chemical elements," Rev. Mod. Phys. 47 (1975) 877.
 >
-> 上一章：`03_observed_abundances_II.md`
+> 上一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/03_observed_abundances_II.md|03_observed_abundances_II.md]]
 >
-> 下一章：`05_hydrostatic_burning.md`
+> 下一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/05_hydrostatic_burning.md|05_hydrostatic_burning.md]]
 
 # 4. Cosmological Nucleosynthesis & The x Process (Cosmic-Ray Spallation)
 

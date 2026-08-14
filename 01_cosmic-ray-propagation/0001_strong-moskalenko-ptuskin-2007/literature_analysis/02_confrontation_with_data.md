@@ -2,9 +2,9 @@
 
 > 本章属于：Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)
 >
-> 上一章：`01_theoretical_background.md`
+> 上一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/01_theoretical_background.md|01_theoretical_background.md]]
 >
-> 下一章：`03_figures.md`
+> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/03_figures.md|03_figures.md]]
 
 ---
 
@@ -497,4 +497,4 @@ $$\beta_\nu = (\gamma - 1)/2$$
 
 ---
 
-> 下一章：`03_figures.md`
+> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/03_figures.md|03_figures.md]]

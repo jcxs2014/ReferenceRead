@@ -15,15 +15,15 @@ tags:
 - hot CNO cycles
 - rp-process
 citations:
-- 0010_gies-lambert-1992
-- 0003_fowler-1984
+- '[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview|0010_gies-lambert-1992]]'
+- '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
 path: 03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview.md
 ---
 # 00. 文献概览 (Overview)
 
 > 本章属于：**Explosive Hydrogen Burning** (Champagne & Wiescher, 1992)
 >
-> 下一章：`01_introduction.md`
+> 下一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/01_introduction.md|01_introduction.md]]
 
 ## 1. 文献基本信息
 
@@ -152,12 +152,12 @@ LITERATURE CITED (p.74-76, 123 references)
 | --- | --- |
 | `00_overview.md` | 概览、结构树、图表清单（本文） |
 | `01_introduction.md` | §1 Introduction |
-| `02_nuclear_reactions.md` | §2 Nuclear Reactions During an Outburst |
+| `02_reaction_rates.md` | §2 Nuclear Reactions During an Outburst |
 | `03_hot_cno_cycles.md` | §3 The Hot CNO Cycles |
-| `04_rp_process.md` | §4 The rp-Process |
-| `05_network_calculations.md` | §5 Network Calculations |
-| `06_conclusions.md` | §6 Concluding Remarks + References |
-| `07_figures.md` | Figures 1–9 逐一分析 |
+| `04_hot_cno_cycles_continued.md` | §4 The rp-Process |
+| `05_lab_vs_stellar_rates.md` | §5 Network Calculations |
+| `06_rp_process.md` | §6 Concluding Remarks + References |
+| `07_rp_process_impedance.md` | Figures 1–9 逐一分析 |
 | `99_final_summary.md` | 最终总结 |
 
 ---

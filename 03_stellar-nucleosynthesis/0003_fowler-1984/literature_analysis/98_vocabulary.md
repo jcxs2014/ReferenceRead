@@ -1,6 +1,8 @@
 # 98. Vocabulary — 学术词汇与术语
 
 > 文献：0003_fowler-1984 — William A. Fowler, "Experimental and theoretical nuclear astrophysics" (Nobel Lecture), Rev. Mod. Phys. 56 (1984) 149. 本词汇表基于 `literature_analysis/` 中各分析文件提取，供中文母语读者辅助精读原文。
+> 上一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/97_quality_check.md|97_quality_check.md]]
+> 下一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ## A. 学术逻辑词（跨篇高频，标注逻辑功能）
 

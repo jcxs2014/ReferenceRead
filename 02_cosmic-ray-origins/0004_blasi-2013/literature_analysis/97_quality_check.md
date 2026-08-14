@@ -2,6 +2,8 @@
 
 > 文献：`0004_blasi-2013`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
+> 上一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/10_references.md|10_references.md]]
+> 下一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 

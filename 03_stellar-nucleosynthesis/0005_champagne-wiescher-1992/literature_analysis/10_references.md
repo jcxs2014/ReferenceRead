@@ -1,8 +1,8 @@
 > 本章属于：[Champagne & Wiescher 1992, *Explosive Hydrogen Burning*]
 >
-> 上一章：`09_figures_and_tables.md`
+> 上一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/09_figures_and_tables.md|09_figures_and_tables.md]]
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ---
 

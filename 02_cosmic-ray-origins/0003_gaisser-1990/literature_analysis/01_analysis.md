@@ -2,7 +2,7 @@
 >
 > 上一章：（无，本文件为正文分析）
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 # 1. 文献基本信息
 

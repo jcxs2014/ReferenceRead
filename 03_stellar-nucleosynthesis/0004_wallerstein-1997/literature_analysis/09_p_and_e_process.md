@@ -1,8 +1,8 @@
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
-> 上一章：`08_r_process.md`
+> 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/08_r_process.md|08_r_process.md]]
 >
-> 下一章：`10_carbon_stars_and_conclusions.md`
+> 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/10_carbon_stars_and_conclusions.md|10_carbon_stars_and_conclusions.md]]
 
 # 9. p 过程与 ε 过程
 

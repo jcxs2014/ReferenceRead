@@ -15,14 +15,14 @@ tags:
 - MHD
 - acceleration of particles
 citations:
-- 0004_blasi-2013
+- '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|0004_blasi-2013]]'
 path: 02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md
 ---
 # 0. 文献概览（Overview）
 
 > 本章属于：The origin of galactic cosmic rays (Amato 2014 & Blasi 2013)
 >
-> 下一章：`01_introduction.md`
+> 下一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/01_introduction.md|01_introduction.md]]
 
 ## 0.1 ⚠️ 重要元数据勘误
 

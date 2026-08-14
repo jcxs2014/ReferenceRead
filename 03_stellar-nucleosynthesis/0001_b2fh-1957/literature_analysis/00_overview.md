@@ -25,14 +25,14 @@ tags:
 - 技术锝（Tc⁹⁹）
 - 超重元素
 citations:
-- 0002_trimble-1975
-- 0003_fowler-1984
-- 0004_wallerstein-1997
+- '[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview|0002_trimble-1975]]'
+- '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
+- '[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]]'
 path: 03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md
 ---
 > 本章属于：Burbidge, Burbidge, Fowler, Hoyle (1957) — *Synthesis of the Elements in Stars* (B²FH)
 >
-> 下一章：`01_introduction.md`
+> 下一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/01_introduction.md|01_introduction.md]]
 
 # 0. 文献基本信息与总览
 

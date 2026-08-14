@@ -2,6 +2,8 @@
 
 > 文献：`0009_asplund-2009-solar-composition`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
+> 上一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/09_conclusion_and_references.md|09_conclusion_and_references.md]]
+> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 

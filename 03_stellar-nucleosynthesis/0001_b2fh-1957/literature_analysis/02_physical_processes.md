@@ -1,8 +1,8 @@
 > 本章属于：B²FH (1957) — *Synthesis of the Elements in Stars*
 >
-> 上一章：`01_introduction.md`
+> 上一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/01_introduction.md|01_introduction.md]]
 >
-> 下一章：`03_hydrogen_helium_alpha_burning.md`
+> 下一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/03_figures.md|03_figures.md]]
 
 # 2. Physical Processes Involved in Stellar Synthesis (第 II 章，P5–P13)
 

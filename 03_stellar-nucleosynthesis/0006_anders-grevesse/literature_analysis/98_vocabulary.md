@@ -2,6 +2,8 @@
 
 > 本文：Anders & Grevesse (1989), *Abundances of the elements: Meteoritic and solar*, Geochim. Cosmochim. Acta 53:197–214
 > 例句全部摘自 `literature_analysis/` 中的精读文件。
+> 上一章：[[03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/97_quality_check.md|97_quality_check.md]]
+> 下一章：[[03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ## A. 学术逻辑词（15–25 个）
 

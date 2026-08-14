@@ -1,8 +1,8 @@
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
-> 上一章：`03_hydrogen_burning.md`
+> 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/03_hydrogen_burning.md|03_hydrogen_burning.md]]
 >
-> 下一章：`05_helium_burning.md`
+> 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/05_helium_burning.md|05_helium_burning.md]]
 
 # 4. x 过程：轻元素（Li, Be, B）
 

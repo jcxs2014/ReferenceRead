@@ -1,8 +1,8 @@
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
-> 上一章：`02_stellar_evolution.md`
+> 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/02_stellar_evolution.md|02_stellar_evolution.md]]
 >
-> 下一章：`04_x_process_light_elements.md`
+> 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/04_x_process_light_elements.md|04_x_process_light_elements.md]]
 
 # 3. 氢燃烧：pp 链与 CNO 循环
 

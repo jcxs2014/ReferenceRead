@@ -1,6 +1,8 @@
 # 98. Vocabulary — 学术词汇与术语
 
 > 文献：0001_bhattacharjee-sigl-2000。本词汇表基于 `literature_analysis/` 中各分析文件提取，供中文母语读者辅助精读原文。
+> 上一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/97_quality_check.md|97_quality_check.md]]
+> 下一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ## A. 学术逻辑词（跨篇高频，标注逻辑功能）
 
@@ -194,4 +196,3 @@
 - [x] …
 
 **结构复杂度**：约 170 词（中文 120 字 + 英文 50 词）；1 处停顿（逗号/分号/冒号）；多分句嵌套。
-

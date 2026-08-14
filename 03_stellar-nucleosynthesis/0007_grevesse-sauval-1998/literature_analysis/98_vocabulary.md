@@ -2,6 +2,8 @@
 
 > 本文：Grevesse & Sauval (1998), *Standard Solar Composition*, Space Sci. Rev. 85:161–174
 > 例句全部摘自 `literature_analysis/` 中的精读文件。
+> 上一章：[[03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/97_quality_check.md|97_quality_check.md]]
+> 下一章：[[03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ## A. 学术逻辑词（15–25 个）
 

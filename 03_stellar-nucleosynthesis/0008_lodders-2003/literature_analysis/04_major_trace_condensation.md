@@ -1,8 +1,8 @@
 > 本章属于：Solar System Abundances and Condensation Temperatures of the Elements (Lodders 2003)
 >
-> 上一章：`03_condensation_methods.md`
+> 上一章：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/03_condensation_methods.md|03_condensation_methods.md]]
 >
-> 下一章：`05_ices_volatile.md`
+> 下一章：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/05_ices_volatile.md|05_ices_volatile.md]]
 
 # 4. Major and Trace Element Condensation（§ 3.2–3.3.8 精读）
 

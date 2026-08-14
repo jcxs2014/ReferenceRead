@@ -2,6 +2,8 @@
 
 > 文献：`0002_trimble-1975`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
+> 上一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/10_references.md|10_references.md]]
+> 下一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 

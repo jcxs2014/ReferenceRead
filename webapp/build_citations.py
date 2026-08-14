@@ -83,7 +83,14 @@ def update_citations_in_frontmatter(overview_path: Path, new_citations: list[str
         print(f"[WARN] {overview_path.name} — frontmatter 未闭合", file=sys.stderr)
         return False
 
-    new_block = "citations: " + json.dumps(new_citations, ensure_ascii=False)
+    # V2.2：citations 写 wikilink（指向目标篇 overview 文件——Obsidian 只认文件，
+    # 目录名或短名会悬空；跨分类引用需按目标 stem 查所在目录）
+    def target_for(stem: str) -> str:
+        for cat in CAT_DIRS:
+            if (ROOT / cat / stem).is_dir():
+                return f"{cat}/{stem}/literature_analysis/00_overview"
+        return f"{stem}/literature_analysis/00_overview"
+    new_block = "citations:\n" + "\n".join(f"- '[[{target_for(c)}|{c}]]'" for c in new_citations)
     # 找到旧 citations 行区间（支持 inline 或多行 block）
     cit_start = cit_end = None
     for i in range(1, end):

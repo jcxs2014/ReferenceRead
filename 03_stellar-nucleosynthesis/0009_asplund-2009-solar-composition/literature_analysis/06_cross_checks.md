@@ -1,6 +1,6 @@
 > 本章属于：Asplund et al. (2009) AGSS09
 >
-> 下一章：`07_figures_tables.md`
+> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/07_figures_tables.md|07_figures_tables.md]]
 
 # 6. Cross-Checks: Meteorites, Solar Neighborhood, Helioseismology, Neutrinos（§4）
 

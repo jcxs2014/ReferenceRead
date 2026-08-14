@@ -2,9 +2,9 @@
 
 > 本章属于：The origin of galactic cosmic rays (Blasi 2013 §3 & Amato 2014 §2)
 >
-> 上一章：`02_snr_paradigm.md`
+> 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/02_snr_paradigm.md|02_snr_paradigm.md]]
 >
-> 下一章：`04_nl_dsa.md`
+> 下一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/04_nl_dsa.md|04_nl_dsa.md]]
 
 ## 3.1 本节核心内容
 

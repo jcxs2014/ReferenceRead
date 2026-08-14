@@ -1,8 +1,8 @@
 > 本章属于：Asplund et al. (2009) AGSS09
 >
-> 上一章：`01_introduction.md`
+> 上一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/01_introduction.md|01_introduction.md]]
 >
-> 下一章：`03_light_elements.md`
+> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/03_light_elements.md|03_light_elements.md]]
 
 # 2. Ingredients for Solar Abundance Analysis（§2 分析原料）
 

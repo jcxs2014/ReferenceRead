@@ -1,8 +1,8 @@
 > 本章属于：B²FH (1957) — *Synthesis of the Elements in Stars*
 >
-> 上一章：`02_physical_processes.md`
+> 上一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/02_physical_processes.md|02_physical_processes.md]]
 >
-> 下一章：`04_epsilon_process.md`
+> 下一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/04_epsilon_process.md|04_epsilon_process.md]]
 
 # 3. Hydrogen Burning, Helium Burning, α Process & Neutron Production（第 III 章，P13–P31）
 

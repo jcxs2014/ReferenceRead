@@ -2,7 +2,7 @@
 >
 > 上一章：无（本文件为论文主体分析）
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ---
 

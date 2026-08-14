@@ -2,6 +2,8 @@
 
 > 文献：`0006_anders-grevesse`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
+> 上一章：[[03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/01_analysis.md|01_analysis.md]]
+> 下一章：[[03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 

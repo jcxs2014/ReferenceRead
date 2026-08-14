@@ -1,6 +1,6 @@
 > 本章属于：The origin of cosmic rays of the highest energies — Al-Dargazelli et al. 1996
 >
-> 上一章：`01_analysis.md`
+> 上一章：[[02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/01_analysis.md|01_analysis.md]]
 >
 > 下一章：无
 

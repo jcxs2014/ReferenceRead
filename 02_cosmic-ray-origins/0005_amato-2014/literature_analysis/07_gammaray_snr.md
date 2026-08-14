@@ -2,9 +2,9 @@
 
 > 本章属于：The origin of galactic cosmic rays (Blasi 2013 §6.3-6.4 & Amato 2014 §4.6)
 >
-> 上一章：`06_escape_spectra.md`
+> 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/06_escape_spectra.md|06_escape_spectra.md]]
 >
-> 下一章：`08_superbubble_ha.md`
+> 下一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/08_superbubble_ha.md|08_superbubble_ha.md]]
 
 ## 7.1 观测史与关键实验
 

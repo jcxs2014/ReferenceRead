@@ -144,3 +144,57 @@ ObsFile/ReferenceRead(统一 vault 查看/图谱)                    registry.js
 | 五 | 术语 hover（多对多）+ 图谱 | 1–1.5 |
 | 六 | 综述/争议演化 | 2+（按需） |
 | 生态 | PWA | 0.5 |
+
+---
+
+# V2.2 补丁：Obsidian 图谱链接化（2026-08-14，用户实测 Graph 散落后立项）
+
+> 状态：⬜ 待执行（执行侧 Hermes agent 实施）
+> 背景：批 1–4 已收官，但用户实测 Obsidian Graph view——**散落点过多、同篇文献的 md 不连线**。根因：图谱连接所依赖的两类数据（frontmatter citations、分章导航头）均为**纯文本**，Obsidian 只认 `[[wikilink]]`。
+
+## 根因（实测确认）
+
+1. **分章导航头是反引号文本**：`> 上一章：\`00_overview.md\``——21 篇 × 每篇 ~6 个分章 ≈ 150 个文件之间**零 wikilink**，同篇 9 个文件在图谱中互相不可见。
+2. **frontmatter citations 是纯文本列表**：`- 0004_blasi-2013`——50 条库内引用对 Obsidian Graph 透明，21 篇论文之间不连线。
+
+## 改动 A：分章导航头 → 完整路径 wikilink（~150 文件）
+
+- **约束**：21 篇各有同名 `00_overview.md`，**短链接 `[[00_overview]]` 会歧义**——必须用 vault 内完整相对路径：
+  ```
+  > 上一章：[[0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview|00_overview]]
+  > 下一章：[[0001_strong-moskalenko-ptuskin-2007/literature_analysis/02_confrontation_with_data|02_confrontation_with_data]]
+  ```
+- 效果：同篇 9 文件连成链（overview↔01↔02↔…↔99），Graph 呈簇；导航头顺便可点击（Obsidian 内直接跳转）。
+- 脚本：正则读导航头两行 → 取文件名 → 拼 `{同篇相对路径}/literature_analysis/{文件名}` → 替换为 wikilink（保留别名显示原名）。幂等：已含 `[[` 的行跳过。
+
+## 改动 B：frontmatter citations → wikilink（21 文件）
+
+```
+citations:
+- [[0004_blasi-2013]]
+- [[0005_amato-2014]]
+```
+- 效果：21 篇论文节点相互连线（50 条库内引用全可见）→ 与改动 A 合起来 = "21 个簇 + 簇间引用连线"。
+- 注意：`[[...]]` 短名（stem 目录名）在 vault 内唯一（`0004_blasi-2013` 是论文目录名，仅一篇），**短链接不歧义**，无需带路径。
+
+## 兼容性要求（必做，防回归）
+
+- **build 层 strip `[[ ]]`**：`build_citations.py` / `build_registry.py` / `build_fm.py`（`_read_existing_citations`）的 citations 解析须兼容 `- [[stem]]`（提取时剥掉 `[[` `]]`），否则 webapp/registry 会拿到带方括号的值、图谱边数断言（audit）失效。
+- **webapp 不受影响**：build_webapp 读 registry（已 strip 的值），产物保持纯 stem；验证 rebuild 后 audit 17 条 + headless 图谱 line ≥ 50。
+- **ObsFile 镜像**：改动同步至 `ObsFile/ReferenceRead`（单向镜像）后 Obsidian 生效。
+
+## 验证（执行侧交付物）
+
+1. 抽查 3 篇：导航头 wikilink 完整路径正确、无歧义解析（Obsidian 打开不弹"选择目标"）；
+2. `grep -c '\[\[000' webapp/registry.json` 不适用（registry 应保持纯 stem）；**audit 17 条全绿**；
+3. headless 图谱 line ≥ 50（无回归）；
+4. **Obsidian Graph 截图**：同篇成簇 + 篇间连线（终验证据）。
+
+## 工作量
+
+- 改动 A + B + build 兼容 + 验证：约 0.5 单元（脚本一次跑完）。
+- 可选（非阻塞）：Obsidian Graph Filters 排除 `scripts/`、`backup/`、`webapp/` 等技术文件（用户手动设置即可，无需代码）。
+
+## 优先级
+
+**P1（体验增强，非 P0）**——webapp 图谱（SVG 21 节点 50 边）已正常，本补丁只影响 Obsidian 侧图谱；随下一次内容更新批次执行即可。

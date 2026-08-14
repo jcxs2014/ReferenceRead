@@ -1,8 +1,8 @@
 > 本章属于：[Champagne & Wiescher 1992, *Explosive Hydrogen Burning*]
 >
-> 上一章：`07_rp_process_part2_impedance.md`
+> 上一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/07_rp_process_impedance.md|07_rp_process_impedance.md]]
 >
-> 下一章：`09_figures_and_tables.md`
+> 下一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/09_figures_and_tables.md|09_figures_and_tables.md]]
 
 ---
 

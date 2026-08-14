@@ -2,9 +2,9 @@
 
 > 本章属于：The Origin of Galactic Cosmic Rays（Blasi, 2013, arXiv:1311.7346）
 >
-> 上一章：`09_figures_tables.md`
+> 上一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/09_figures_tables.md|09_figures_tables.md]]
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 本文参考文献跨越 1934 至 2013 年，涵盖 SNR 观测、DSA 理论、磁化放大、等离子体不稳定性、CR 传播、Balmer 线观测、UHECR 等。以下按主题分类列举**在本文论证链中起关键作用**的文献，标注引用原因、作用、是否建议进一步阅读。
 

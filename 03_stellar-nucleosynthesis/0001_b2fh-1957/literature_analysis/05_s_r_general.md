@@ -1,8 +1,8 @@
 > 本章属于：B²FH (1957) — *Synthesis of the Elements in Stars*
 >
-> 上一章：`04_epsilon_process.md`
+> 上一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/04_epsilon_process.md|04_epsilon_process.md]]
 >
-> 下一章：`06_r_process_details.md`
+> 下一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/06_r_process_details.md|06_r_process_details.md]]
 
 # 5. s and r Processes: General Considerations & s-Process Details（第 V–VI 章，P36–P48）
 

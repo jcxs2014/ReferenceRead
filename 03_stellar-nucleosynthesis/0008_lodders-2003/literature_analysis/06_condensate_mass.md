@@ -1,8 +1,8 @@
 > 本章属于：Solar System Abundances and Condensation Temperatures of the Elements (Lodders 2003)
 >
-> 上一章：`05_ices_volatile.md`
+> 上一章：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/05_ices_volatile.md|05_ices_volatile.md]]
 >
-> 下一章：`09_figures_and_tables.md`
+> 下一章：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/09_figures_and_tables.md|09_figures_and_tables.md]]
 
 # 6. Condensate Mass Distribution and Conclusions（§ 4 精读）
 

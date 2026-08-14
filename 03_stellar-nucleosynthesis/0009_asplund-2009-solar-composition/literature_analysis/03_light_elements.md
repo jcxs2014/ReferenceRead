@@ -1,6 +1,6 @@
 > 本章属于：Asplund et al. (2009) AGSS09
 >
-> 下一章：`04_intermediate_ironpeak.md`
+> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/04_intermediate_ironpeak.md|04_intermediate_ironpeak.md]]
 
 # 3. Light Elements: Li, Be, B, C, N, O（§3.1–3.4）
 

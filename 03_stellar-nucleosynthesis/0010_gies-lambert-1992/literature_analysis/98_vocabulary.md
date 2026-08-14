@@ -1,6 +1,8 @@
 # 98. Vocabulary — 学术词汇与术语
 
 > 文献：0010_gies-lambert-1992（Gies & Lambert 1992, "Carbon, nitrogen, and oxygen abundances in early B-type stars", ApJ 387:673）。本词汇表基于 `literature_analysis/` 中各分析文件提取。
+> 上一章：[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/97_quality_check.md|97_quality_check.md]]
+> 下一章：[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ## A. 学术逻辑词（跨篇高频，标注逻辑功能）
 

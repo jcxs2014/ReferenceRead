@@ -15,17 +15,17 @@ tags:
 - s-process
 - cosmic abundance
 citations:
-- 0007_grevesse-sauval-1998
-- 0008_lodders-2003
-- 0009_asplund-2009-solar-composition
-- 0004_wallerstein-1997
+- '[[03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/00_overview|0007_grevesse-sauval-1998]]'
+- '[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overview|0008_lodders-2003]]'
+- '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'
+- '[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]]'
 path: 03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/00_overview.md
 ---
 # 00. Overview — 文献基本信息
 
 > 本章属于：Anders & Grevesse (1989) — Abundances of the elements: Meteoritic and solar
 >
-> 下一章：`01_analysis.md`
+> 下一章：[[03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/01_analysis.md|01_analysis.md]]
 
 ---
 

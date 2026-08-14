@@ -2,9 +2,9 @@
 
 > 本章属于：**William A. Fowler (1984), *Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements*, Rev. Mod. Phys. 56, 149–172**
 >
-> 上一章：`09_anomalies_neutron.md`
+> 上一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/09_anomalies_neutron.md|09_anomalies_neutron.md]]
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/99_final_summary.md|99_final_summary.md]]
 
 ## 10.1 Sec. XII — 核宇宙化学计时 (Nucleocosmochronology)
 

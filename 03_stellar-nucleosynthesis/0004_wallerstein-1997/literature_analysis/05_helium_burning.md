@@ -1,8 +1,8 @@
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
-> 上一章：`04_x_process_light_elements.md`
+> 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/04_x_process_light_elements.md|04_x_process_light_elements.md]]
 >
-> 下一章：`06_advanced_burning.md`
+> 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/06_advanced_burning.md|06_advanced_burning.md]]
 
 # 5. 氦燃烧
 

@@ -2,9 +2,9 @@
 
 > 本章属于：The origin of galactic cosmic rays (Blasi 2013 §5, §7 & Amato 2014 §8)
 >
-> 上一章：`07_gammaray_snr.md`
+> 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/07_gammaray_snr.md|07_gammaray_snr.md]]
 >
-> 下一章：`09_figures_tables.md`
+> 下一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/09_figures_tables.md|09_figures_tables.md]]
 
 ## 8.1 Superbubble 假说（Blasi §5）
 

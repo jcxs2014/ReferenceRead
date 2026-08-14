@@ -2,9 +2,9 @@
 
 > 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
 >
-> 上一章：`04_rotation_curves.md`
+> 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/04_rotation_curves.md|04_rotation_curves.md]]
 >
-> 下一章：`06_modified_gravity.md`
+> 下一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/06_modified_gravity.md|06_modified_gravity.md]]
 
 ---
 

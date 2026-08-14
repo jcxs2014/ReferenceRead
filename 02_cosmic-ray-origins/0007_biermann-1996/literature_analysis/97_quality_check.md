@@ -2,6 +2,8 @@
 
 > 文献：`0007_biermann-1996`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
+> 上一章：[[02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/01_main_text.md|01_main_text.md]]
+> 下一章：[[02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/98_vocabulary.md|98_vocabulary.md]]
 
 ## 文件清单
 

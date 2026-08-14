@@ -26,16 +26,16 @@ tags:
 - CMB
 - neutrino astrophysics
 citations:
-- 0002_al-dargazelli-1996
-- 0003_gaisser-1990
-- 0001_strong-moskalenko-ptuskin-2007
+- '[[02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overview|0002_al-dargazelli-1996]]'
+- '[[02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview|0003_gaisser-1990]]'
+- '[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview|0001_strong-moskalenko-ptuskin-2007]]'
 path: 02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md
 ---
 > 本章属于：[Bhattacharjee & Sigl (1999) "Origin and Propagation of Extremely High Energy Cosmic Rays", Phys. Rep. 320 (1999) 1–150]
 >
 > 上一章：（无）
 >
-> 下一章：`01_introduction.md`
+> 下一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/01_introduction.md|01_introduction.md]]
 
 ---
 
