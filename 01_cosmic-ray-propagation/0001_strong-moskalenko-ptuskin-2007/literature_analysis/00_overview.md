@@ -17,6 +17,9 @@ abstract: '### 原文 > We survey the theory and experimental tests for the prop
   ### 关键词与要点 - 能量上限：10¹⁵ eV（"膝"区，作者明确排除高于此能量的宇宙线） - 直接观测：气球/卫星直接探测到的粒子 - 间接观测：通过伽马射线和同步辐射 - 核心方法对比：解析法 vs. 数值法（作者倾向数值法） -
   专题：电子、正电子、反质子、同步辐射 ### 作者声明："concerning the origin of CR, we will, for the most part, sidestep this problem"——即本篇不讨论宇宙线起源问题。也明确排除了太阳调制、星系团和外银河宇宙线'
 category: 宇宙线传播
+sections:
+  - '§I Theoretical Background'
+  - '§II Confrontation with Data'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'
