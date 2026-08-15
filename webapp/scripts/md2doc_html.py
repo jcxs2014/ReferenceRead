@@ -45,8 +45,19 @@ def inline_markdown(t_raw):
             # link: \1 = link text, \2 = URL
             s = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
                        r'<a href="\2" target="_blank" rel="noopener">\1</a>', s)
+            # wikilink: [[target|label]] / [[target]] → 内部文档链接（shell 事件委托路由）
+            #   target 可为相对 md 路径（论文/背景文档）或页内锚点；label 缺省取文件名 stem
+            s = re.sub(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]", _wikilink_repl, s)
             result.append(s)
     return "".join(result)
+
+def _wikilink_repl(m):
+    """[[target|label]] / [[target]] → <a class="wl" href="target">label</a>
+    注意：本函数在 part 已 html.escape 之后运行，target/label 均为转义后文本，
+    直接拼接，不可再次 escape（否则 &amp; → &amp;amp; 双重转义）。"""
+    target = m.group(1)                                # 不含 |（正则排除）
+    label  = m.group(2) or target.rsplit("/", 1)[-1].replace(".md", "")
+    return f'<a href="{target}" class="wl">{label}</a>'
 
 def escape_for_code(text):
     return html.escape(text, quote=False)
@@ -179,7 +190,9 @@ def convert(md_text):
 
         # table row
         if line.strip().startswith("|") and line.strip().endswith("|"):
-            cells = [c for c in line.strip().strip("|").split("|")]
+            # 保护转义管道（\|）——表格单元格内 wikilink 的 | 分隔符需转义
+            _line = line.replace("\\|", "\x00PIPE\x00")
+            cells = [c.replace("\x00PIPE\x00", "|") for c in _line.strip().strip("|").split("|")]
             if all(re.fullmatch(r"\s*:?-{2,}:?\s*", c) for c in cells):
                 i += 1
                 continue

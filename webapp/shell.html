@@ -839,6 +839,23 @@ document.getElementById("btn-theme").addEventListener("click", () => {
   document.getElementById("btn-theme").textContent = next === "dark" ? "☀️" : "🌙";
 });
 
+// ── 文档区 wikilink 路由（[[path|label]] 内部链接 → 论文页/背景文档）────────
+document.getElementById("doc-container").addEventListener("click", (e) => {
+  const a = e.target.closest("a.wl");
+  if (!a) return;
+  const href = a.getAttribute("href") || "";
+  if (!href.includes(".md")) return;           // 仅路由 md 文档链接
+  e.preventDefault();
+  // 论文：.../0X_xxx/0001_stem-2007/literature_analysis/00_overview.md → paper-<stem>
+  const m = href.match(/\/(\d{4}_[a-z0-9-]+)\/literature_analysis\/00_overview\.md$/);
+  if (m) { switchDoc("paper-" + m[1]); return; }
+  // 背景文档：文件名 stem 匹配 DOCS[].file
+  const fname = href.split("/").pop().replace(/\.md$/, "") + ".md";
+  const doc = DOCS.find(d => d.category === "背景知识" && d.file === fname);
+  if (doc) { switchDoc(doc.slug); return; }
+  // 未知目标：不拦截（保持默认行为）
+});
+
 // ── Scroll tracking + active TOC item ─────────────────────────────────────
 document.getElementById("main").addEventListener("scroll", () => {
   const main  = document.getElementById("main");

@@ -251,7 +251,7 @@ def build(include_papers=False, out=None):
         # Dedup headings within this single file
         html, tocs = _deduplicate_headings(html, doc_id)
         docs.append({"id": doc_id, "slug": doc_id, "title": title,
-                     "category": "背景知识", "html": html})
+                     "category": "背景知识", "html": html, "file": fname})
         for t in tocs:
             t["parent_id"] = doc_id
             all_toc.append(t)
