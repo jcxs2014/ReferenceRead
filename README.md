@@ -84,6 +84,43 @@ papers/
 
 新增主题域直接开 `NN_主题名/`（编号顺延），同时更新 `INDEX.md` 和本文档。
 
+## 文献演化关系（学术谱系）
+
+> 38 篇文献的内在演化脉络（奠基 → 继承 → 综述）。标号为文献库编号，**点击跳转对应 `00_overview.md`**；缩进表示谱系继承，`→` 表示思想/方法上的直接传承，`≍` 表示同一时期的平行/互补工作。
+
+### 01 宇宙线传播（6 篇）
+
+- **[0001_strong-2007](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md)** — 银河系 CR 传播与相互作用综述（**框架基石**）
+  - 参数现代化：**[0005_genolini-2021](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/00_overview.md)**（最小/中位/最大传播模型，DM 探测口径）
+  - 放射性时钟方法线：**[0004_mewaldt-2001](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md)**（Be-10/Al-26/Cl-36 时钟）→ **[0003_weinrich-2020](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md)**（AMS-02 数据约束晕大小）
+  - 输运理论综述：**[0002_amato-blasi-2018](01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_overview.md)** → 反馈动力学：**[0006_ruszkowski-2023](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md)**（星系/星系团 CR 反馈）
+
+### 02 宇宙线起源与 UHECR（15 篇）
+
+- DSA 奠基（1978 双璧）：
+  - **[0008_bell-1978](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md)**（平行激波加速）≍ **[0009_blandford-ostriker-1978](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_overview.md)**（扩散激波加速）
+    - 理论综述：**[0010_blandford-eichler-1987](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/00_overview.md)**
+  - 现代综述与 SNR 应用：
+    - **[0004_blasi-2013](02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md)**（银河 CR 起源现代综述）→ **[0005_amato-2014](02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md)**（SNR 伽马射线）、**[0012_gabici-2019](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/00_overview.md)**（逃逸与宇宙线海）
+      - 观测验证：**[0013_giuffrida-2022](02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/00_overview.md)**（SN 1006 多波段）
+- 能量/尺度判据与全景：
+  - **[0011_hillas-1984](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/00_overview.md)**（Hillas 判据）→ 超 GZK 观测：**[0015_telescope-array-2023](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/00_overview.md)**
+  - **[0006_grenier-2015](02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md)**（银河系内 CR 九命全景综述）
+  - **[0003_gaisser-1990](02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview.md)**（高能银河 CR 起源）
+  - **[0007_biermann-1996](02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md)**（星系尺度加速与元素丰度关联）
+- UHECR 链：**[0001_bhattacharjee-sigl-2000](02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md)**（极端能量 CR 综述）→ **[0014_alvesbatista-2019](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md)**（开放问题）
+  - 并行视角：**[0002_al-dargazelli-1996](02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overview.md)**（最高能 CR 起源）
+
+### 03 恒星核合成与元素丰度（17 篇）
+
+- **奠基**：**[0001_b2fh-1957](03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md)**（元素恒星合成）→ 综述：**[0002_trimble-1975](03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview.md)** → **[0004_wallerstein-1997](03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md)**（四十年进展）
+- 太阳丰度表谱系：**[0014_cameron-1968](03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overview.md)** → **[0006_anders-grevesse](03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/00_overview.md)**（陨石+太阳）→ **[0007_grevesse-sauval-1998](03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/00_overview.md)**（标准太阳组成）→ **[0009_asplund-2009](03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview.md)**（3D 模型）
+  - 太阳系丰度与凝聚温度：**[0008_lodders-2003](03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overview.md)**
+- 核反应与核天体物理：**[0005_champagne-wiescher-1992](03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview.md)**（爆炸氢燃烧）、**[0003_fowler-1984](03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview.md)**（核天体物理）、**[0017_kaeppeler-2011](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md)**（s 过程史）
+- 恒星观测丰度：**[0010_gies-lambert-1992](03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview.md)**（B 型星 CNO）、**[0015_kraft-1994](03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md)**（球状星团）、**[0011_kewley-2001](03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview.md)**（星暴星系金属丰度）
+- 恒星演化边界与宇宙学核合成：**[0012_dieterich-2014](03_stellar-nucleosynthesis/0012_dieterich-2014-h-burning-limit/literature_analysis/00_overview.md)**（氢燃烧极限）、**[0013_bertone-hooper-2018](03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview.md)**（含 BBN 的暗物质史）
+- 重元素现状：**[0016_cowan-2021](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md)**（r 过程现状）与 **[0017_kaeppeler-2011](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md)**（s 过程）并列为重元素两条通道
+
 ## 产出流水线
 
 每篇论文严格按以下顺序产出：
