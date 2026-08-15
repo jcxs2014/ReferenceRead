@@ -6,6 +6,37 @@
 
 # 8. r 过程：理论与观测
 
+sections:
+  - XII. The r Process (Hoffman & Timmes)
+    - A. Brief history
+    - B. Observations of nucleosynthesis and mixing in CH, Ba, S, and C stars
+    - C. The s process as a function of metallicity
+    - D. Rubidium and the s-process neutron density
+    - E. Recent models: Radiative burning of 13C during the AGB interpulse phase
+  - XIII. Observations of the r Process (Sneden)
+    - A. Defining the r-process elements
+    - B. Early r-process discoveries
+    - C. Recent r-process surveys
+    - D. Thorium and the age of the halo and disk
+    - E. Filling out the picture
+
+**本章作者**：Robert Hoffman & Finian Timmes (Sec. XII) & Craig Sneden (Sec. XIII)
+
+**原文映射**：Sec. XII–XIII (p. 1044–1053)
+**原文二级子节（路径 A 镜像，逐字沿用）**：
+- XII. The r Process (Hoffman & Timmes)
+  - A. Brief history
+  - B. Observations of nucleosynthesis and mixing in CH, Ba, S, and C stars
+  - C. The s process as a function of metallicity
+  - D. Rubidium and the s-process neutron density
+  - E. Recent models: Radiative burning of 13C during the AGB interpulse phase
+- XIII. Observations of the r Process (Sneden)
+  - A. Defining the r-process elements
+  - B. Early r-process discoveries
+  - C. Recent r-process surveys
+  - D. Thorium and the age of the halo and disk
+  - E. Filling out the picture
+
 ## 8.1 Sec. XII: The r Process (Hoffman & Timmes)
 
 [FACT] B2FH 与 Cameron (1957) 提出：种子核（通常铁）在比 $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变时标快得多的时标上快速俘获大量中子。

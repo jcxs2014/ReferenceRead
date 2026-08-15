@@ -6,6 +6,25 @@
 
 # 1. 前言与引言（Preface & Introduction）
 
+sections:
+  - I. PREFACE
+  - II. INTRODUCTION
+    - A. The cosmological foundations of B2FH
+    - B. The astronomical background in 1957
+    - C. The eight processes
+    - D. Neutrino astrophysics
+    - E. Related reviews
+
+**原文映射**：Sec. I. PREFACE + Sec. II. INTRODUCTION
+**原文二级子节（路径 A 镜像，逐字沿用）**：
+- I. PREFACE
+- II. INTRODUCTION
+  - A. The cosmological foundations of B2FH
+  - B. The astronomical background in 1957
+  - C. The eight processes
+  - D. Neutrino astrophysics
+  - E. Related reviews
+
 ## 1.1 I. PREFACE（Burbidge 夫妇致词）
 
 ### 1.1.1 核心内容

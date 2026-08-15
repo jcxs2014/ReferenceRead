@@ -6,7 +6,22 @@
 
 # 5. 氦燃烧
 
+sections:
+  - VI.A. Triple-$\alpha$ capture
+  - VI.B. 12C($\alpha$,$\gamma$)16O capture
+    - 1. E1 capture
+    - 2. E2 capture
+    - 3. Recommended values
+
 **本章作者**：Gerald M. Hale（Los Alamos National Laboratory）
+
+**原文映射**：Sec. VI. Helium Burning (Hale)
+**原文二级子节（路径 A 镜像，逐字沿用）**：
+- VI.A Triple-$\alpha$ capture
+- VI.B 12C($\alpha$,$\gamma$)16O capture
+  - 1. E1 capture
+  - 2. E2 capture
+  - 3. Recommended values
 
 ## 5.1 总体框架
 

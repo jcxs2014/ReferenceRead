@@ -6,9 +6,36 @@
 
 # 4. x 过程：轻元素（Li, Be, B）
 
+sections:
+  - V.A. Introduction and retrospective
+  - V.B. Abundances
+    - 1. Lithium
+    - 2. Beryllium
+    - 3. Boron
+  - V.C. Nonlocal thermodynamic-equilibrium (NLTE) effects
+  - V.D. Production mechanisms
+    - 1. Big Bang
+    - 2. Spallation
+    - 3. Asymptotic giant branch stars
+    - 4. Supernovae
+
 **本章作者**：Ann Merchant Boesgaard（University of Hawaii）
 
-## 4.1 A. Introduction and retrospective
+**原文映射**：Sec. V. The x Process: Li, Be, and B (Boesgaard)
+**原文二级子节（路径 A 镜像，逐字沿用）**：
+- V.A Introduction and retrospective
+- V.B Abundances
+  - 1. Lithium
+  - 2. Beryllium
+  - 3. Boron
+- V.C Nonlocal thermodynamic-equilibrium (NLTE) effects
+- V.D Production mechanisms
+  - 1. Big Bang
+  - 2. Spallation
+  - 3. Asymptotic giant branch stars
+  - 4. Supernovae
+
+## 4.1 V.A. Introduction and retrospective
 
 [FACT] B2FH 1957 年的 Li 和 Be 太阳丰度与当代值非常接近：
 - **太阳 Li 仅约陨石 Li 的 1%**（1957 年已发现，40 年后仍如此）

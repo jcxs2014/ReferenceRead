@@ -6,9 +6,30 @@
 
 # 3. 氢燃烧：pp 链与 CNO 循环
 
+sections:
+  - IV.A. The p(p,e$^{+}$,$\nu_{\rm e}$)d reaction
+  - IV.B. The 3He(3He,2p)4He reaction
+  - IV.C. The 3He($\alpha$,$\gamma$)7Be reaction
+  - IV.D. The 7Be(p,$\gamma$)8B reaction
+  - IV.E. The 7Li(n,$\gamma$)8Li reaction
+  - IV.F. The 14N(p,$\gamma$)15O reaction
+  - IV.G. The 17O(p,$\alpha$)14N reaction
+  - IV.H. The Hot CNO cycle
+
 **本章作者**：Peter Parker（Yale University）
 
-## 3.1 A. The p(p,e$^{+}$,$\nu_{\rm e}$)d reaction
+**原文映射**：Sec. IV. Laboratory Rates of Hydrogen Burning
+**原文二级子节（路径 A 镜像，逐字沿用）**：
+- IV.A The p(p,e$^{+}$,$\nu_{\rm e}$)d reaction
+- IV.B The 3He(3He,2p)4He reaction
+- IV.C The 3He($\alpha$,$\gamma$)7Be reaction
+- IV.D The 7Be(p,$\gamma$)8B reaction
+- IV.E The 7Li(n,$\gamma$)8Li reaction
+- IV.F The 14N(p,$\gamma$)15O reaction
+- IV.G The 17O(p,$\alpha$)14N reaction
+- IV.H The Hot CNO cycle
+
+## 3.1 IV.A. The p(p,e$^{+}$,$\nu_{\rm e}$)d reaction
 
 [FACT] pp 链第一步的 $S_{11}$(0;$\delta$) 决定整个 pp 链速率：
 $$S_{11}(0;\delta) = S_{11}(0;0)_{BM69} \left(\frac{L}{L_{69}}\right)^2 \left(\frac{G_A/G_V}{(G_A/G_V)_{69}}\right)^2 \frac{f_{pp}^R}{(f_{pp})_{69}} \frac{[(ft)_{0^+ \to 0^+}]}{[(ft)_{0^+ \to 0^+}]_{69}} (1+\delta)^2$$

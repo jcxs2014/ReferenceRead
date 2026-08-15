@@ -6,6 +6,28 @@
 
 # 6. 高级燃烧（C/Ne/O/Si）与 H 燃烧观测证据
 
+sections:
+  - VII.A. Introduction
+  - VII.B. Experimental approaches
+  - VII.C. The neon-sodium cycle at low temperatures
+  - VII.D. The magnesium-aluminum cycle at low temperatures
+  - VII.E. High-temperature behavior
+  - VII.F. Conclusion
+  - VIII. Observational Evidence of Hydrogen Burning (Boesgaard)
+  - IX. Carbon, Neon, Oxygen, and Silicon Burning
+
+**原文映射**：Sec. VII–IX (p. 1021–1028)
+**原文二级子节（路径 A 镜像，逐字沿用）**：
+- VII.H Burning in the Ne-Si Region
+  - VII.A Introduction
+  - VII.B Experimental approaches
+  - VII.C The neon-sodium cycle at low temperatures
+  - VII.D The magnesium-aluminum cycle at low temperatures
+  - VII.E High-temperature behavior
+  - VII.F Conclusion
+- VIII. Observational Evidence of Hydrogen Burning (Boesgaard)
+- IX. Carbon, Neon, Oxygen, and Silicon Burning
+
 ## 6.1 Sec. VII: H Burning in the Ne-Si Region (Ne-Na / Mg-Al 循环)
 
 **本章作者**：Arthur E. Champagne (UNC Chapel Hill) & Charles A. Barnes (Caltech)

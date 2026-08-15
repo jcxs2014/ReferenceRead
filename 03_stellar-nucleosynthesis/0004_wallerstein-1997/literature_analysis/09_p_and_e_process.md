@@ -6,6 +6,39 @@
 
 # 9. p 过程与 $\epsilon$ 过程
 
+sections:
+  - XIV. The p Process (Boyd)
+    - A. The p process
+    - B. Early p-process models
+    - C. The $\gamma$ process
+    - D. The rp process
+    - E. The $\alpha$ process
+    - F. Recent developments
+    - G. Summary
+  - XV. The $\epsilon$ Process & Iron-Group Nuclei (Meyer)
+    - A. Energetics and equilibria
+    - B. Statistical equilibrium
+    - C. A brief history of the ideas of iron-group element synthesis
+    - D. Significance for astrophysics
+
+**本章作者**：David Boyd (Sec. XIV) & Birgit Meyer (Sec. XV)
+
+**原文映射**：Sec. XIV–XV (p. 1053–1061)
+**原文二级子节（路径 A 镜像，逐字沿用）**：
+- XIV. The p Process (Boyd)
+  - A. The p process
+  - B. Early p-process models
+  - C. The $\gamma$ process
+  - D. The rp process
+  - E. The $\alpha$ process
+  - F. Recent developments
+  - G. Summary
+- XV. The $\epsilon$ Process (Meyer)
+  - A. Energetics and equilibria
+  - B. Statistical equilibrium
+  - C. A brief history of the ideas of iron-group element synthesis
+  - D. Significance for astrophysics
+
 ## 9.1 Sec. XIV: The p Process (Boyd)
 
 [FACT] **p 过程问题**：某些质子富集（p-rich）核素无法通过纯中子俘获合成（因为中子俘获沿 $\beta$ 稳定线进行）——必须通过质子俘获或光致反应产生
