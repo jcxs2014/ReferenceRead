@@ -800,3 +800,23 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 
 - 批 2 进度手册（untracked）待归档或删除
 - 新文献精读/存量按需拓展时：路径 A + 公式 LaTeX + 97 子节块 = 固定三件套
+
+## 审查 #27：docs 目录整理与归档（2026-08-15 深夜）
+
+> 范围：docs/ 22 份文档盘点 → 13 份闭环执行指令归档 → 方法论沉淀 → 通用模板
+
+### 结论：✅ 完成（commit `421c500`）
+
+| 动作 | 结果 |
+|---|---|
+| 盘点 | 22 份文档 = 9 常驻（指南/规范/备忘/示例）+ 13 一次性执行指令（全部闭环） |
+| 归档 | 13 份执行指令（git mv 12 + untracked 手册 1）→ `docs/archive/`，100% 保留历史；附 `archive/README.md` 归档索引（清单+通用知识去向+恢复方法） |
+| 方法论沉淀（归档前防知识丢失） | TROUBLESHOOTING A 区补 **A2–A6**：frontmatter 分隔符回归链（复验判定最终版）、citations YAML 三次出现、Unicode 公式回归（双通道检测）、FACT 零丢失三坑（数字特征+关键词）、执行侧范围声明复算 + 先 ls 核实 |
+| 通用模板（重新创建） | 新增 `docs/执行指令模板.md`：铁律/步骤/验证/提交/完成报告/复验口径/归档约定 8 节，未来批量任务直接套用（历史指令结构与之一致） |
+| 引用修复 | 备忘 §5（`pages补齐执行指令` 路径）、READING_INSTRUCTIONS §7.1（`公式LaTeX化批量执行说明` 路径）→ 均指向 archive；README 已完成清单（批 1 执行中→批 1/批 2 ✅ + 议题 3 ✅） |
+| 备忘 §5 状态同步 | 存量按需拓展行（批 1 ✅ / 批 2 ✅，v5 B 案）、quality_matrix 行 ✅、97 块行 ✅ |
+
+### 现状
+
+- `docs/` 根目录仅 10 份常驻文档：READING_INSTRUCTIONS / TROUBLESHOOTING / REVIEWS / 精读深度扩充设计备忘 / 子节镜像示例-ruszkowski-02 / 执行指令模板 / ADVANCEMENT / ENHANCEMENTS / RECOMMENDATIONS / WEBAPP_DESIGN
+- 工作树干净；HEAD `421c500`
