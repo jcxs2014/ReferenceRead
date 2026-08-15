@@ -55,11 +55,11 @@ $\chi^2$ 最小化（IMinuit，James & Roos 1975），minos 算法给出非对�
 | 数据集 | 内容 | 备注 |
 |---|---|---|
 | AMS-02 Li/C, B/C, Be/B | Aguilar et al. 2018 | "Base" 数据 |
-| ACE-CRIS 1$^{0}{\rm Be}$/$^{9}{\rm Be}$ | Lave et al. 2013 | 低能 1$^{0}{\rm Be}$ 数据 |
-| ISOMAX 1$^{0}{\rm Be}$/$^{9}{\rm Be}$ | | 低能 1$^{0}{\rm Be}$ 数据 |
-| ACE-CRIS 7$^{0}{\rm Be}$/$^{9}{\rm Be}$+1$^{0}{\rm Be}$ | | Be 同位素数据 |
+| ACE-CRIS $^{10}{\rm Be}$/$^{9}{\rm Be}$ | Lave et al. 2013 | 低能 $^{10}{\rm Be}$ 数据 |
+| ISOMAX $^{10}{\rm Be}$/$^{9}{\rm Be}$ | | 低能 $^{10}{\rm Be}$ 数据 |
+| ACE-CRIS $^{7}{\rm Be}$/$^{9}{\rm Be}$+$^{10}{\rm Be}$ | | Be 同位素数据 |
 | Voyager 1&2 | | 太阳系外 CR |
-| PAMELA 1$^{0}{\rm Be}$/$^{9}{\rm Be}$ | 初步分析 | |
+| PAMELA $^{10}{\rm Be}$/$^{9}{\rm Be}$ | 初步分析 | |
 
 ## 2.6 关键参数表
 

@@ -65,7 +65,7 @@
 | interstellar medium (ISM) | 星际介质 | 银河系恒星间的稀薄物质（气体、尘埃、辐射场、磁场），是 CR 传播和相互作用的介质 | §1 |
 | interstellar radiation field (ISRF) | 星际辐射场 | 银河系内恒星辐射经尘埃吸收再发射形成的全波段辐射背景，是电子逆康普顿损失的能量源 | §2.6 |
 | propagation equation (Eq. 1) | 传播方程 | 本文核心偏微分方程，含源项、扩散、对流、再加速、能量损失、绝热项、碎裂、衰变八项 | §2.2 |
-| diffusion coefficient ($D_{xx}$) | 空间扩散系数 | CR 在磁场湍流中随机行走的快慢系数，是传播模型最关键的自由参数；经验值 $(3-5)\times10^{28}$ cm²/s at 1 GeV/n | §2.2 / §2.3 |
+| diffusion coefficient ($D_{xx}$) | 空间扩散系数 | CR 在磁场湍流中随机行走的快慢系数，是传播模型最关键的自由参数；经验值 $(3-5)\times10^{28}$ cm$^{2}$/s at 1 GeV/n | §2.2 / §2.3 |
 | momentum-space diffusion coefficient ($D_{pp}$) | 动量空间扩散系数 | 对应再加速过程的扩散，与 $D_{xx}$ 通过 $D_{pp} = p^2 V_a^2/(9D_{xx})$ 关联 | §2.5 |
 | diffusion | 扩散 | CR 在随机 MHD 波上共振散射引起的随机运动；本文主要传播机制 | §2.3 |
 | convection | 对流（银河风） | 银河系垂直方向上的整体气体外流，携带 CR 向外；本文对其存在性存疑 | §2.4 |
@@ -77,11 +77,11 @@
 | primary nuclei | 初级核 | 直接来自 CR 源的核素（如 C、N、O、Fe） | §2.1 |
 | secondary nuclei | 次级核 | 由初级核碎裂产生的较轻核素（如 B、Be、Li），作为传播探针 | §2.1 |
 | tertiary | 三次核 | 由次级核再次碎裂产生的核素；GALPROP 迭代求解到此类 | §2.10 |
-| escape length ($X$) | 逃逸长度 | 用 g cm⁻² 表示的 CR 在泄漏盒中经历的平均物质穿透厚度 | §2.8 |
+| escape length ($X$) | 逃逸长度 | 用 g cm$^{-2}$ 表示的 CR 在泄漏盒中经历的平均物质穿透厚度 | §2.8 |
 | leaky-box model | 泄漏盒模型 | 把扩散和对流简化为单一逃逸时间的零维近似模型；其参数不能直接对应物理量 | §2.8 |
 | weighted-slab method | 加权板方法 | 将核碎裂（板模型）与天体物理路径长度分布 $G(x)$ 解耦的半解析方法 | §2.8 |
 | path-length distribution (PLD, $G(x)$) | 路径长度分布 | CR 粒子穿越星际气体物质厚度的概率分布函数 | §2.8 |
-| grammage | 累积物质厚度 | 单位面积上 CR 穿越的星际物质总量（g cm⁻²） | §2.8 |
+| grammage | 累积物质厚度 | 单位面积上 CR 穿越的星际物质总量（g cm$^{-2}$） | §2.8 |
 | Galactic halo | 银河系晕 | CR 可被约束在其中扩散的银盘上方/下方立体区域，本文估计高度 $z_h \approx 4\text{–}6$ kpc | §2.6 / §3.2 |
 | halo height ($z_h$) | 晕高度 | 银河系 CR 传播区域沿银盘法向的半厚度 | §2.6 |
 | gyro-radius / Larmor radius | 回转半径 | 带电粒子在磁场中做回旋运动的半径 $r_g \propto p/Z$，决定与磁场涨落的共振条件 | §2.3 |
@@ -108,7 +108,7 @@
 | positron | 正电子 | CR 中的反电子，大部分为次级产物（来自 $\pi^+$、$K^+$ 衰变），小部分可能来自原初源 | §3.7 |
 | primary positron | 原初正电子 | 来自脉冲星风或 WIMP 湮灭等非次级过程的正电子成分 | §3.7 |
 | local bubble | 本地泡 | 太阳邻近的气体耗竭区域，可能对放射性核素和本地初级 CR 成分有影响 | §2.6 / §3.2 / §3.7 |
-| CLIC (Collection of Local Interstellar Clouds) | 本地星际云集合 | 太阳目前所在的本地星际云复合体（HI 密度 $\sim 0.2$ cm⁻³，约 35 pc 尺度） | §2.6 |
+| CLIC (Collection of Local Interstellar Clouds) | 本地星际云集合 | 太阳目前所在的本地星际云复合体（HI 密度 $\sim 0.2$ cm$^{-3}$，约 35 pc 尺度） | §2.6 |
 | solar modulation | 太阳调制 | 太阳风对低能 CR 通量的调制效应，本文范围外但影响反质子等低能观测 | §1 / §3.7 |
 | supernova remnant (SNR) | 超新星遗迹 | 传统上被认为是 CR 加速和起源的主要场所 | §1 / §3.6 |
 | shock acceleration | 激波加速 | 在 SNR 等激波处的粒子加速机制（费米加速），产生幂律能谱 | §2.5 |

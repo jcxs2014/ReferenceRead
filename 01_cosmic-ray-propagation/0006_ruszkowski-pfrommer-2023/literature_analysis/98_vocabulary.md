@@ -54,7 +54,7 @@ path: 01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysi
 | **OVI absorption** | O VI 吸收线，CGM 探针 | 6 |
 | **$\gamma$-ray emission** | γ 射线发射 | 14 |
 | **synchrotron radio** | 同步射电辐射 | 12 |
-| **$\pi^0$ decay** | π⁰ 衰变（pp 碰撞产生 γ 射线） | 5 |
+| **$\pi^0$ decay** | $\pi^{0}$ 衰变（pp 碰撞产生 γ 射线） | 5 |
 | **inverse Compton** | 逆康普顿散射 | 8 |
 
 *共 19 个领域术语。*

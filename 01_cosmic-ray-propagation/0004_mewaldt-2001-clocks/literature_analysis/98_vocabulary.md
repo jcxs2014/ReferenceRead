@@ -43,7 +43,7 @@ title: "98. Vocabulary"
 | mass histogram | 质量直方图 | 同位素质量分布的测量图 |
 | Salpeter IMF | Salpeter 初始质量函数 | 恒星初始质量分布的标准幂律 |
 | Type II SN | II 型超新星 | 大质量恒星铁核坍缩引起的超新星 |
-| geometric factor | 几何因子 | 探测器有效接受立体角与面积之积（cm² sr） |
+| geometric factor | 几何因子 | 探测器有效接受立体角与面积之积（cm$^{2}$ sr） |
 | mean free path (mfp) | 平均自由程 | 粒子两次碰撞之间的平均距离 |
 | ionized hydrogen fraction | 电离氢比例 | ISM 中氢的电离比例（10.5%） |
 | leaky-box density | LBM 密度 | 漏箱模型中假设的均匀介质密度 |

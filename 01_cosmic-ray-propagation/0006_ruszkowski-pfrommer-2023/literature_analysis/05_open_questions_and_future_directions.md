@@ -177,7 +177,7 @@ status: done
 
 [FACT] 一个尚未被充分探索的方向：**CR 对宇宙再电离的潜在影响**。
 
-[FACT] 物理图像：$z \sim 20–40$ 时的第一代（Population III）恒星形成中，引力坍缩产生 strong collisionless shocks，加速 CR，CR 电离中性气体 → 产生自由电子 → 催化分子氢（H₂）形成 → 加速冷却 → 促进下一代恒星形成（Jasche et al. 2007）。
+[FACT] 物理图像：$z \sim 20–40$ 时的第一代（Population III）恒星形成中，引力坍缩产生 strong collisionless shocks，加速 CR，CR 电离中性气体 → 产生自由电子 → 催化分子氢（H$_{2}$）形成 → 加速冷却 → 促进下一代恒星形成（Jasche et al. 2007）。
 
 [FACT] 论文指出，近期在谱分辨和空间分辨 CR 流体模拟方面的进展使**重新审视这些早期结果**成为可能。
 
@@ -305,8 +305,8 @@ $$
 [INTERPRETATION] §5.2.6 提出的 CR 在再电离中的作用，是论文中**最具前瞻性**的 open question：
 
 1. $z \sim 20–40$ 时，第一代恒星形成的激波可以加速 CR 到 GeV–TeV 能量
-2. CR 电离中性气体 → 产生自由电子 → 催化 H₂ 形成（通过 $e^- + \text{H}_2^+ \to \text{H} + \text{H}$ 和 $e^- + \text{H}_2 \to \text{H} + \text{H}^-$ 等反应）
-3. H₂ 增多 → 冷却加速 → 下一代恒星形成
+2. CR 电离中性气体 → 产生自由电子 → 催化 H$_{2}$ 形成（通过 $e^- + \text{H}_2^+ \to \text{H} + \text{H}$ 和 $e^- + \text{H}_2 \to \text{H} + \text{H}^-$ 等反应）
+3. H$_{2}$ 增多 → 冷却加速 → 下一代恒星形成
 
 [CRITIQUE] Jasche et al. (2007) 的早期结果使用简化的 CR 谱和传输模型。论文指出近期谱分辨 CR 流体模拟的进展使**重新审视**这些结果成为可能。如果 CR 确实在再电离中起重要作用，这将是 CR 反馈理论从"星系/星系团尺度"扩展到**宇宙学尺度**的重大突破。
 
@@ -345,7 +345,7 @@ $$
 [CRITIQUE] §5.2.6 提出的 CR 在再电离中的作用与 §2–§4 的 CR 反馈主线联系较弱：
 
 - §2 Physics：CR 加速和传输机制可以推广到 $z \sim 20–40$ 的激波环境
-- §3 Astrophysical systems：CR 电离低能效应（§3.1）与再电离中的 H₂ 催化直接相关
+- §3 Astrophysical systems：CR 电离低能效应（§3.1）与再电离中的 H$_{2}$ 催化直接相关
 - §4 Observational signatures：再电离 CR 的直接观测目前不可行，但 21-cm signal 和 JWST 对 Pop III 星系的观测可能间接约束
 
 [CRITIQUE] 论文在这里提出再电离方向，但没有说明"这一方向如何与 §2–§4 中已经建立的 CR 传输理论、扩散系数经验参数化、观测约束形成一致的图景"。这是 §5.2.6 的一个**论述不足**之处。

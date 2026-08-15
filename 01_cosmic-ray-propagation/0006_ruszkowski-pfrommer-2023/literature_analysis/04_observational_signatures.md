@@ -89,7 +89,7 @@ $$
 - **XMM-Newton chimneys**（Ponti et al. 2019）：亚 kpc 尺度管状结构连接盘到 Fermi Bubbles
 - **MeerKAT 双极 bubbles**（Heywood et al. 2019）：数 Myr 前能量事件形成
 
-[FACT] 这些爆发可能把银河系中心的 CR 能量密度提升至比盘平均高**三个数量级**（Oka et al. 2019，基于 H₃⁺ 吸收线），形成强的 CR 压力梯度驱动外流。
+[FACT] 这些爆发可能把银河系中心的 CR 能量密度提升至比盘平均高**三个数量级**（Oka et al. 2019，基于 H$_{3}^{+}$ 吸收线），形成强的 CR 压力梯度驱动外流。
 
 [FACT] MeerKAT 射电谱指数图（Fig. 39）显示银河系中心 $\sim 420$ pc × 260 pc 区域内多个 SNR、垂直于盘方向的窄射电线丝，以及 Sgr A 的强辐射。
 
@@ -298,7 +298,7 @@ pages: "140–187"
 subsections: ["4.1", "4.2", "4.3", "4.4", "4.5", "4.6", "4.7"]
 key_formulas:
   - "R = pc/(Ze) [Eq. 70, rigidity]"
-  - "∂f₀/∂t = ∂/∂z [D(p) ∂f₀/∂z] + Q(p)δ(z) [Eq. 74]"
+  - "∂f$_{0}$/∂t = ∂/∂z [D(p) ∂f$_{0}$/∂z] + Q(p)δ(z) [Eq. 74]"
   - "D(p) ∝ R^{1/3} (AMS B/C)"
   - "n_B/n_C ∝ R^{-0.33} (AMS)"
 keywords:

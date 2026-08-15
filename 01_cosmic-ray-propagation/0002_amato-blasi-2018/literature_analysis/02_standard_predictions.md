@@ -28,7 +28,7 @@ $$\frac{\partial}{\partial z}\left(D_a(p)\frac{\partial f_a}{\partial z}\right) 
 
 | 参数 | 值 | 物理意义 |
 |---|---|---|
-| $\Lambda = n_H h_d \approx 2.4$ mg/cm² | 盘克质量 | 源粒子在盘中经历的平均碎裂物质厚度 |
+| $\Lambda = n_H h_d \approx 2.4$ mg/cm$^{2}$ | 盘克质量 | 源粒子在盘中经历的平均碎裂物质厚度 |
 | $H$ | 晕高 | 自由逃逸边界位置 |
 | $D(p) \propto p^\delta$ | 扩散系数 | $\delta \sim 0.3-0.6$ 经验值 |
 | $v_A \sim 15$ km/s | Alfvén 速度 | 有效 Alfvén 速度（单向下行波情形）|
@@ -100,7 +100,7 @@ $$X_{\rm total} = X(R) + \Lambda_{\rm resid}$$
 |---|---|---|
 | 扩散谱指数 | $\delta \sim 0.3-0.6$ | §2（经验值）|
 | 晕高 | $H \sim 1-10$ kpc | §2（模型依赖）|
-| 盘克质量 | $\Lambda = 2.4$ mg/cm² | §2 |
+| 盘克质量 | $\Lambda = 2.4$ mg/cm$^{2}$ | §2 |
 | 残余克质量 | 刚度无关（通常）| §2 |
 | B/C 比率拐点 | $\sim 3$ GV | §2 |
 | 正电子比率异常 | $> 10$ GeV（AMS-02）| §2 |

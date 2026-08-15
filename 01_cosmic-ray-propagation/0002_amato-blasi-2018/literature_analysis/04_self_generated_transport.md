@@ -109,7 +109,7 @@ D'Angelo et al. (2016) 研究了 CR 源附近（$\sim$ pc 尺度）的自生波�
 | 场景 | 中性密度 $n_i$ | 自生波效果 |
 |---|---|---|
 | 完全电离 | $n_i = 0$ | IND 不存在，自生波完全有效 |
-| 部分电离 | $n_i = 0.45$ cm⁻³ | IND 部分抑制 |
+| 部分电离 | $n_i = 0.45$ cm$^{-3}$ | IND 部分抑制 |
 | 中性为主 | $n_i \gg$ | IND 完全抑制，自生波不生长 |
 | 稀薄电离 | $n_i \ll$ | 接近完全电离 |
 
@@ -123,7 +123,7 @@ D'Angelo et al. (2016) 研究了 CR 源附近（$\sim$ pc 尺度）的自生波�
 | 11 | $J_{\rm CR}^{\rm RES} = 4\pi e D p^3/c \cdot \partial\ln f/\partial p$ | §3 | 共振电流 |
 | 12 | $D(p) \propto 1/W(k_{\rm res}) \propto p^\alpha$ | §4 | 扩散系数刚度依赖 |
 | 18 | $\partial_t W = \gamma_{\rm CR} W - \gamma_{\rm NLD} W$ | §4 | 波谱演化方程 |
-| 22 | 源区碎裂克质量 $\Lambda_{\rm src} \sim 0.15$ g/cm² | §4 | D'Angelo et al. 2016 |
+| 22 | 源区碎裂克质量 $\Lambda_{\rm src} \sim 0.15$ g/cm$^{2}$ | §4 | D'Angelo et al. 2016 |
 | 23 | $s^*(p) \propto \sqrt{D(p)}$ | §4 | 风启动特征长度 |
 | 24 | $I_a \propto Q_a / D(p)^{1/2}$ | §4 | 风模型通量公式 |
 
@@ -136,7 +136,7 @@ D'Angelo et al. (2016) 研究了 CR 源附近（$\sim$ pc 尺度）的自生波�
 | 风启动高度 $z_0$ | $\sim 1$ kpc | §4 |
 | 风速度 | $\sim 100$ km/s | §4 |
 | 自生波饱和振幅 | $\delta B/B \sim 0.1-1$ | §4 |
-| 源区碎裂克质量 | $\sim 0.15$ g/cm² | §4（D'Angelo 2016）|
+| 源区碎裂克质量 | $\sim 0.15$ g/cm$^{2}$ | §4（D'Angelo 2016）|
 
 ## 4.9 作者的逻辑
 
@@ -144,7 +144,7 @@ D'Angelo et al. (2016) 研究了 CR 源附近（$\sim$ pc 尺度）的自生波�
 §3 建立自生波理论（共振 + 非共振不稳定性）
 → §4 应用于传播：波生长 = 阻尼 → 饱和谱
 → 饱和谱 → D(p) 的刚度依赖（$K_{1}$、$K_{2}$ 特征刚度）
-→ AMS-02 质子变平（200-300 GeV）↔ D(p) 从 p² 过渡到 const
+→ AMS-02 质子变平（200-300 GeV）↔ D(p) 从 p$^{2}$ 过渡到 const
 → 这不是唯象 break，而是阻尼机制切换的物理后果
 → 银河风模型：CR 压力驱动风 → 自然截断
 → 源附近：ISM 相决定自生波效果

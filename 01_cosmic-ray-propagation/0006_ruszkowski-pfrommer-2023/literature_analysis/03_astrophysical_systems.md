@@ -248,8 +248,8 @@ subsections: ["3.1", "3.2", "3.3", "3.4", "3.5"]
 key_formulas:
   - "Eq. 62: galactic wind momentum equation"
   - "Eq. 64: CR-driven mass loss rate"
-  - "E_ph ≈ 5 E_1² ε_1 MeV (IC)"
-  - "ν_ph ≈ 320 E_1² B_10 MHz (synchrotron, Eq. 51)"
+  - "E_ph ≈ 5 E_1$^{2}$ ε_1 MeV (IC)"
+  - "ν_ph ≈ 320 E_1$^{2}$ B_10 MHz (synchrotron, Eq. 51)"
 keywords:
   - galactic winds
   - Breitschwerdt flux tube

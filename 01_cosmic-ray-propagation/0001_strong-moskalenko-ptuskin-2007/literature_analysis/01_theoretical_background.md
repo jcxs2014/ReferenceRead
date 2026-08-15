@@ -83,7 +83,7 @@
 
 [FACT] "The simple observation that the observed composition of CR is different from that of solar, in that rare solar-system nuclei like Boron are abundant in CR, proves the importance of propagation." 硼在太阳系中稀少但在宇宙线中丰富，这直接证明了传播中碎裂的重要性。
 
-[FACT] 经典的"几 g cm⁻²"穿透物质厚度是宇宙线物理学最广为人知的事实之一。
+[FACT] 经典的"几 g cm$^{-2}$"穿透物质厚度是宇宙线物理学最广为人知的事实之一。
 
 [FACT] 作者认为："the diffusion model with possible inclusion of convection provides the most adequate description of CR transport in the Galaxy at energies below about $10^{17}$ eV."
 
@@ -224,9 +224,9 @@ $$w(k)dk \sim k^{-2+a}dk, \quad a = 1/3 \quad \text{在} \quad 1/(10^{20}\text{c
 
 [FACT] 如果扩散率在低能降低，任何对流最终会占主导，使次级/初级比在低能变平——这被观测到但对 B/C 拟合很差 (67)。
 
-[FACT] 放射性同位素约束风速度 $< 10$ km s⁻¹ kpc⁻¹（线性增加风）。
+[FACT] 放射性同位素约束风速度 $< 10$ km s$^{-1}$ kpc$^{-1}$（线性增加风）。
 
-[FACT] 拟合 B/C 需要约 $15$ km s⁻¹ 的恒定速度风（即使存在再加速 (68)），相比之下 (69) 的风模型为 $30$ km s⁻¹；后者意味着扩散系数的能量依赖可能与 CR 各向异性冲突。
+[FACT] 拟合 B/C 需要约 $15$ km s$^{-1}$ 的恒定速度风（即使存在再加速 (68)），相比之下 (69) 的风模型为 $30$ km s$^{-1}$；后者意味着扩散系数的能量依赖可能与 CR 各向异性冲突。
 
 #### 2.4.4 自洽模型
 
@@ -235,7 +235,7 @@ $$w(k)dk \sim k^{-2+a}dk, \quad a = 1/3 \quad \text{在} \quad 1/(10^{20}\text{c
 - 以外：扩散-对流
 - CR 到达对流区后不返回，因此对流区充当随能量和银心距变化的晕边界
 
-[FACT] (70) 构造了 CR 驱动的风，各向异性扩散的自洽模型，外区对流速度高达 $100$ km s⁻¹，但与放射性核素不冲突（因为该约束仅适用于内区）。
+[FACT] (70) 构造了 CR 驱动的风，各向异性扩散的自洽模型，外区对流速度高达 $100$ km s$^{-1}$，但与放射性核素不冲突（因为该约束仅适用于内区）。
 
 > **分析 / Interpretation**：作者总体上对银河风模型持保留态度——缺乏直接观测证据，且参数选择面临多种约束的竞争。2-zone 自洽模型是当前最有前景的版本。
 
@@ -263,7 +263,7 @@ $$D_{pp} = \frac{p^2 V_a^2}{9 D_{xx}}$$
 
 #### 2.5.4 与观测的比较
 
-[FACT] (71, 46) 表明：如果 $D_{xx} \sim R^a$（$a \sim 0.3$，对应 Kolmogorov 谱）且 Alfvén 速度 $V_a \sim 30$ km s⁻¹（接近 ISM 中的实际值），则可以解释次级核丰度的能量依赖。
+[FACT] (71, 46) 表明：如果 $D_{xx} \sim R^a$（$a \sim 0.3$，对应 Kolmogorov 谱）且 Alfvén 速度 $V_a \sim 30$ km s$^{-1}$（接近 ISM 中的实际值），则可以解释次级核丰度的能量依赖。
 
 #### 2.5.5 K-俘获同位素检验
 
@@ -323,7 +323,7 @@ $$D_{pp} = \frac{p^2 V_a^2}{9 D_{xx}}$$
 
 [FACT] 本地泡可能对放射性核素有影响（§3.2）。
 
-[FACT] "the Sun left the local bubble about $10^5$ years ago after spending several million years inside, and we now live in the CLIC (collection of local interstellar clouds) with HI density about $0.2$ cm⁻³ and $35$ pc extent." (86, 87, 134)
+[FACT] "the Sun left the local bubble about $10^5$ years ago after spending several million years inside, and we now live in the CLIC (collection of local interstellar clouds) with HI density about $0.2$ cm$^{-3}$ and $35$ pc extent." (86, 87, 134)
 
 [FACT] 该问题对 CR 传播的影响尚未被探讨。
 
@@ -369,7 +369,7 @@ $$D_{pp} = \frac{p^2 V_a^2}{9 D_{xx}}$$
 1. 快速 CR 扩散 + 晕边界反射（有逃逸概率）的模型 (9)
 2. 平坦晕模型（$z_h \ll R$）中薄源盘和薄气体盘（$z_{gas} \ll z_h$）的盘内 CR 密度公式 (10)，在考虑稳定核时形式上等价于泄漏盒公式
 
-[FACT] 核碎裂实际由逃逸长度（g cm⁻²）决定，而非逃逸时间：
+[FACT] 核碎裂实际由逃逸长度（g cm$^{-2}$）决定，而非逃逸时间：
 $$x = v \rho \tau_{esc}$$
 其中 $\rho$ 是包含 CR 晕体积的星际气体平均密度。
 
@@ -389,7 +389,7 @@ $$G(x) \propto \exp(-x/X)$$
 
 #### 2.8.4 截断问题
 
-[FACT] 在指数路径长度分布下，在小路径长度（$1$ GeV/n 附近低于几个 g cm⁻²）处存在截断的讨论已持续数十年 (1, 101, 105, 106)。
+[FACT] 在指数路径长度分布下，在小路径长度（$1$ GeV/n 附近低于几个 g cm$^{-2}$）处存在截断的讨论已持续数十年 (1, 101, 105, 106)。
 
 [FACT] 在云状星际介质的 CR 扩散和核碎裂一致理论中，如果部分 CR 源位于巨分子云内部，则截断自然发生 (107)。
 
@@ -462,7 +462,7 @@ GALPROP (67) 的创建目标：
 
 [FACT] 星际气体分布基于最新 HI 和 CO 巡天，ISRF 基于详细计算，截面基于广泛汇编和参数化 (92)。
 
-[FACT] 求解从最重初级核（如 $^{64}{\rm Ni}$）开始，逐步向下计算碎裂源项，直至质子、次级电子/正电子和反质子。⁽$^{10}{\rm B}$ 通过 $^{10}{\rm Be}$ 衰变通道产生，重要，需要第二次迭代⁾。
+[FACT] 求解从最重初级核（如 $^{64}{\rm Ni}$）开始，逐步向下计算碎裂源项，直至质子、次级电子/正电子和反质子。$^{(}$$^{10}{\rm B}$ 通过 $^{10}{\rm Be}$ 衰变通道产生，重要，需要第二次迭代$^{)}$。
 
 [FACT] GALPROP 包含 K-俘获和电子剥离过程：H-原子视为单独物种（因为寿命不同）。H-原子只有 1 个 K-壳电子，因此 K-俘获半衰期需乘 2。
 

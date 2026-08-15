@@ -46,9 +46,9 @@ path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_a
 | 字段 | 内容 |
 |---|---|
 | **Title** | Cosmic-ray propagation and interactions in the Galaxy |
-| **Authors** | Andrew W. Strong¹, Igor V. Moskalenko², Vladimir S. Ptuskin³ |
+| **Authors** | Andrew W. Strong$^{1}$, Igor V. Moskalenko$^{2}$, Vladimir S. Ptuskin$^{3}$ |
 | **Collaboration** | 未提供 |
-| **Institutions** | ¹ Max-Planck-Institut für extraterrestrische Physik, Garching, Germany<br>² Hansen Experimental Physics Laboratory (HEPL) and KIPAC, Stanford University, U.S.A.<br>³ Institute for Terrestrial Magnetism, Ionosphere and Radiowave Propagation (IZMIRAN), Troitsk, Moscow region, Russia |
+| **Institutions** | $^{1}$ Max-Planck-Institut für extraterrestrische Physik, Garching, Germany<br>$^{2}$ Hansen Experimental Physics Laboratory (HEPL) and KIPAC, Stanford University, U.S.A.<br>$^{3}$ Institute for Terrestrial Magnetism, Ionosphere and Radiowave Propagation (IZMIRAN), Troitsk, Moscow region, Russia |
 | **Journal / Conference** | Reviews of Modern Physics（根据格式推断，arXiv 上标注为 RMP 投稿，2008 年 2 月为草稿日期） |
 | **Publication Date** | arXiv 提交日期：2007 年 1 月 18 日；草稿日期：2008 年 2 月 5 日；正式发表：2007 年（Rev. Mod. Phys. 79:2451, 2007） |
 | **DOI** | 10.1103/RevModPhys.79.2451 |
