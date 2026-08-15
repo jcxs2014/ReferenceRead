@@ -35,7 +35,7 @@ path: 03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.
 >
 > 下一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/01_introduction.md|01_introduction.md]]
 
-# 0. 文献基本信息与总览
+# 0. 文献基本信息
 
 ## 0.1 基本信息
 

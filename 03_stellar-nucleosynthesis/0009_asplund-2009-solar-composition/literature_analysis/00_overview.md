@@ -28,7 +28,7 @@ path: 03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_
 >
 > 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/01_introduction.md|01_introduction.md]]
 
-# 0. 文献基本信息与全文结构
+# 0. 文献基本信息
 
 ## 0.1 元数据
 

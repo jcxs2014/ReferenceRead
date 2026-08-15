@@ -17,7 +17,7 @@ path: 02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/00_o
 > 状态：**精读完成**（2026-08-15）
 > ★ **DSA 经典权威综述**——Bell 1978 + BO 1978 后 9 年，系统化 DSA 理论，命名"diffusive shock acceleration"，引入非线性理论与注入问题
 
-# 00. Overview — Blandford & Eichler (1987) 精读笔记
+# 0. 文献基本信息
 
 ## 基本信息
 

@@ -17,7 +17,7 @@ path: 02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/00_overview.md
 > 状态：**精读完成**（2026-08-15）
 > ★ **范式挑战综述**——争议主题 4（SNR 范式）的核心综述；系统评估 SNR 作为 CR 来源的观测证据与理论困难
 
-# 00. Overview — Gabici et al. (2019) 精读笔记
+# 0. 文献基本信息
 
 ## 基本信息
 

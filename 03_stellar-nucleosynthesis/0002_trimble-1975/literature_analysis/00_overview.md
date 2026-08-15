@@ -29,7 +29,7 @@ path: 03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overvi
 >
 > 下一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/01_introduction_and_history.md|01_introduction_and_history.md]]
 
-# 0. 文献基本信息与结构总览 (Overview)
+# 0. 文献基本信息
 
 ## 0.1 文献元数据
 

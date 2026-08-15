@@ -21,7 +21,7 @@ citations:
 - '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'
 path: 03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/00_overview.md
 ---
-# 00. Overview — 文献基本信息
+# 0. 文献基本信息
 
 > 本章属于：Grevesse & Sauval (1998) — Standard Solar Composition, Space Sci. Rev. 85:161–174
 >

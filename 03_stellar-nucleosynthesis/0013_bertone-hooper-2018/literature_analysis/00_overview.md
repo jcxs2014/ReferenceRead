@@ -27,7 +27,7 @@ citations:
 - '[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview|0001_strong-moskalenko-ptuskin-2007]]'
 path: 03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview.md
 ---
-# 0. 文献基本信息与总览
+# 0. 文献基本信息
 
 > 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
 >

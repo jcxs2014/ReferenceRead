@@ -14,7 +14,7 @@ citations: []
 path: 02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md
 ---
 
-# 00. Overview — Bell (1978)「The acceleration of cosmic rays in shock fronts — I」
+# 0. 文献基本信息
 
 > **PDF 文本层为空白**（NASA ADS 扫描版），精读基于 PDF 视觉读取（页 147–156）+ 已知物理推导交叉验证。
 > 页码引用：MNRAS 182, 147–156（10 页）。

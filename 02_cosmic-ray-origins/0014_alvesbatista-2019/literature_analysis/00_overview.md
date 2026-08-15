@@ -17,7 +17,7 @@ path: 02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overvi
 > 状态：**精读完成**（2026-08-15）
 > ★ **UHECR 开放问题综述**——争议主题 3（传播参数）+ 主题 4（SNR 范式）的交叉地带；系统梳理 UHECR 领域 7 大未解问题
 
-# 00. Overview — Alves Batista et al. (2019) 精读笔记
+# 0. 文献基本信息
 
 ## 基本信息
 

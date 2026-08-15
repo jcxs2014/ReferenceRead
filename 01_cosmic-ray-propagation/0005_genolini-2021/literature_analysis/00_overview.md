@@ -17,7 +17,7 @@ path: 01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/00_overvi
 > 状态：**精读完成**（2026-08-15）
 > ★ **min/med/max 传播模型**——争议主题 3 的系统性理论框架；作为暗物质搜寻的反卷积标准模型
 
-# 00. Overview — Génolini et al. (2021) 精读笔记
+# 0. 文献基本信息
 
 ## 基本信息
 

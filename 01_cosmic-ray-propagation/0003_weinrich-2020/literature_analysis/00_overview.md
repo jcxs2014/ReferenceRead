@@ -17,7 +17,7 @@ path: 01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overvi
 > 状态：**精读完成**（2026-08-15）
 > ★ **晕高 z_h 直接测量**——争议主题 3（传播参数）的核心观测约束；贝叶斯方法 + AMS-02 B/C 数据联合约束
 
-# 00. Overview — Weinrich et al. (2020) 精读笔记
+# 0. 文献基本信息
 
 ## 基本信息
 

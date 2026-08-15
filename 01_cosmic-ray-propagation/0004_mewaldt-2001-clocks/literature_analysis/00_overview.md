@@ -16,7 +16,7 @@ path: 01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_
 > 状态：**精读完成**（2026-08-15）
 > ★ **放射性时钟**——主题 1（传播参数）核验方法：用放射性同位素（Be-10/Al-26/Cl-36）约束 CR 在银河系停留时间
 
-# 00. Overview — Mewaldt et al. (2001) 精读笔记
+# 0. 文献基本信息
 
 ## 基本信息
 

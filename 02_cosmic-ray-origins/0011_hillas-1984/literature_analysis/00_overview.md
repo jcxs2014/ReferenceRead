@@ -16,7 +16,7 @@ path: 02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/00_overview.md
 > 状态：**精读完成**（2026-08-15）
 > ★ **UHECR 起源判据**——Hillas 判据（Hillas 1984）是争议主题 4（SNR 范式）的核心理论判据；提出 PeVatron 概念
 
-# 00. Overview — Hillas (1984) 精读笔记
+# 0. 文献基本信息
 
 ## 基本信息
 

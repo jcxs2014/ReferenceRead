@@ -20,7 +20,7 @@ citations:
 - '[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview|0001_bhattacharjee-sigl-2000]]'
 path: 02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overview.md
 ---
-# 00. Overview — 文献基本信息
+# 0. 文献基本信息
 
 > 本章属于：The origin of cosmic rays of the highest energies — Al-Dargazelli et al. 1996
 >

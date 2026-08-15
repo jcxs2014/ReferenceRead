@@ -17,7 +17,7 @@ path: 01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_ove
 > 状态：**精读完成**（2026-08-15）
 > ★ **CR 传播现代综述**——直接支撑争议主题 3（传播参数 $\delta$ 与晕高 z_h）；是 Génolini 2021 和 Weinrich 2020 的理论基础
 
-# 00. Overview — Amato & Blasi (2018) 精读笔记
+# 0. 文献基本信息
 
 ## 基本信息
 

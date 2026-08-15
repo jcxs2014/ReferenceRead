@@ -17,7 +17,7 @@ path: 02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/00_ove
 > 状态：**精读完成**（2026-08-15）
 > ★ **Amaterasu 事件**——Science 2023 封面；争议主题 3+4 的最新观测裁决；能量超 GZK cutoff 但无对应 cosmogenic 背景
 
-# 00. Overview — Telescope Array Collaboration (2023) 精读笔记
+# 0. 文献基本信息
 
 ## 基本信息
 

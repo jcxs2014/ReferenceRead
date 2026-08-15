@@ -34,7 +34,7 @@ citations:
 - '[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview|0013_bertone-hooper-2018]]'
 path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md
 ---
-# 00. Overview — 文献基本信息与结构
+# 0. 文献基本信息
 
 > 本章属于：Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)
 >
