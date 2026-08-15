@@ -8,6 +8,15 @@ doi: 未提供
 arxiv: astro-ph/9609110v1
 keywords: 宇宙线起源、核碎裂 (spallation)、银河系加速、超新星激波、次级核 (Li/Be/B)、元素丰度、云捕获、能量谱指数
 category: 宇宙线起源
+sections:
+  - '§1 Introduction'
+  - '§2 A quantitative proposal for the origin of galactic cosmic rays'
+  - '§3 Injection of cosmic ray nuclei'
+  - '§4 Spallation of cosmic ray nuclei'
+  - '§5 Chemical abundances'
+  - '§6 Outlook'
+  - '§7 Acknowledgments'
+  - '§8 References'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'
