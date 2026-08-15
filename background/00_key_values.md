@@ -23,18 +23,18 @@ path: background/00_key_values.md
 
 | 物理量 | 数值 | 不确定度 | 论文来源 | 章节 |
 |---|---|---|---|---|
-| $D_{xx}$（3 GV 处，B/C 拟合） | $(3\text{–}5)\times10^{28}$ cm²/s | 因子 ~2 | Strong et al. 2007 | §3.2, §2.3 |
+| $D_{xx}$（3 GV 处，B/C 拟合） | $(3\text{–}5)\times10^{28}$ cm$^{2}$/s | 因子 ~2 | Strong et al. 2007 | §3.2, §2.3 |
 | $D_{xx}$ 刚度依赖（含再加速） | $\sim R^{0.3}$（Kolmogorov） | — | Strong et al. 2007 | §2.5 |
 | $D_{xx}$ 刚度依赖（纯扩散） | $\sim R^{0.54}$ | — | Strong et al. 2007 | §3.1 |
 | $D_{xx}$ 刚度依赖区间 | $D_{xx}(p)\propto p^{\delta}$，$\delta\in[0.3,0.8]$ | — | Strong et al. 2007 | §99.10 |
-| $D_{xx}$（Kraichnan，$R<10^8$ GV） | $\approx 2\times10^{27}\,\beta\,R^{1/3}_{\text{GV}}$ cm²/s | — | Strong et al. 2007 | §2.3 |
+| $D_{xx}$（Kraichnan，$R<10^8$ GV） | $\approx 2\times10^{27}\,\beta\,R^{1/3}_{\text{GV}}$ cm$^{2}$/s | — | Strong et al. 2007 | §2.3 |
 | 晕高度 $z_h$ | 4–6 kpc（$^{10}{\rm Be}$ 约束） | — | Strong et al. 2007 | §3.2 |
 | 晕高度 $z_h$（Grenier 2015 综述） | 4–10 kpc | — | Grenier, Black & Strong 2015 | §99.7 |
-| 逃逸长度 $X_0$ | 11.8 g cm⁻² | — | Strong et al. 2007 | §3.1, (69) |
+| 逃逸长度 $X_0$ | 11.8 g cm$^{-2}$ | — | Strong et al. 2007 | §3.1, (69) |
 | $^{10}{\rm Be}$ 半衰期（用于 halo 约束） | 1.6 Myr | — | Grenier, Black & Strong 2015 | §99.7 |
 | 加速延迟 | $\geq 10^5$ 年（$^{59}{\rm Ni}$） | — | Strong et al. 2007 | §3.3 |
 | 注入谱指数（C, Fe） | $2.3\text{–}2.4$ | — | Strong et al. 2007 | §3.1 |
-| 注入谱指数（e⁻） | $\approx 2.4$ | — | Strong et al. 2007 | §3.8 |
+| 注入谱指数（e$^{-}$） | $\approx 2.4$ | — | Strong et al. 2007 | §3.8 |
 | Alfvén 速度 $V_a$ | $\sim 30$ km/s | — | Strong et al. 2007 | §2.5 |
 | $\delta B$（随机场主尺度） | $\sim 5\,\mu$G | — | Strong et al. 2007 | §2.3 |
 | 各向异性 $\delta$（$10^{12}\text{–}10^{14}$ eV） | $\sim 10^{-3}$ | — | Strong et al. 2007 | §3.5 |
@@ -57,8 +57,8 @@ path: background/00_key_values.md
 | 膝上 $Z>2$ 比例（刚性陡化） | ~53% | — | Gaisser 1990 | §9.4 |
 | 膝下 $Z>2$ 比例（低能基线） | ~36% | — | Gaisser 1990 | §9.4 |
 | 超新星供给功率 | ~$3\times10^{42}$ erg/s | — | Gaisser 1990 | §9.2 |
-| LIS 能量密度 | ~1 eV/cm³（质子 0.83 + He/重核 0.27） | — | Gaisser 1990 | §9.7 |
-| >$10^{16}$ eV 通量 | ~1 m⁻² sr⁻¹ yr⁻¹ | — | Gaisser 1990 | §9.7 |
+| LIS 能量密度 | ~1 eV/cm$^{3}$（质子 0.83 + He/重核 0.27） | — | Gaisser 1990 | §9.7 |
+| >$10^{16}$ eV 通量 | ~1 m$^{-2}$ sr$^{-1}$ yr$^{-1}$ | — | Gaisser 1990 | §9.7 |
 | 99% 宇宙线能量 | $<1$ TeV/核子 | — | Gaisser 1990 | §9.7 |
 | leaky-box 传播谱指数 | $\delta\approx 0.6$ | — | Gaisser 1990 | §9.3 |
 | 观测谱 | $E^{-2.7}$ | — | Gaisser 1990 | §9.7 |
@@ -73,11 +73,11 @@ path: background/00_key_values.md
 | AGASA 约束（EGMF） | $B\lesssim 2\times10^{-11}(l_c/\text{Mpc})^{-1/2}(d/30\text{ Mpc})^{-1}$ G | — | Bhattacharjee & Sigl 1999 | §2.2 |
 | VLI 约束（若 $10^{20}$ eV 事件为质子） | $(c_p-c)<10^{-23}$ | — | Bhattacharjee & Sigl 1999 | §2.2 |
 | DSAM 加速 $E_{\max}$ | $E_c\sim 10^{17}Z(R/\text{kpc})(B/\mu\text{G})$ eV | — | Bhattacharjee & Sigl 1999 | §2.4 |
-| X 粒子衰变率基准 | $\dot{n}_X\sim 10^{35}$ Mpc⁻³ yr⁻¹（$m_X=10^{16}$ GeV） | — | Bhattacharjee & Sigl 1999 | §2.4 |
-| 能量注入率基准 | $Q_0\sim 10^{-21}$ eV cm⁻³ s⁻¹ | — | Bhattacharjee & Sigl 1999 | §2.4 |
-| 弥漫 $\gamma$-ray 上限 | $Q_0<10^{-22}$ eV cm⁻³ s⁻¹ | — | Bhattacharjee & Sigl 1999 | §2.5 |
+| X 粒子衰变率基准 | $\dot{n}_X\sim 10^{35}$ Mpc$^{-3}$ yr$^{-1}$（$m_X=10^{16}$ GeV） | — | Bhattacharjee & Sigl 1999 | §2.4 |
+| 能量注入率基准 | $Q_0\sim 10^{-21}$ eV cm$^{-3}$ s$^{-1}$ | — | Bhattacharjee & Sigl 1999 | §2.4 |
+| 弥漫 $\gamma$-ray 上限 | $Q_0<10^{-22}$ eV cm$^{-3}$ s$^{-1}$ | — | Bhattacharjee & Sigl 1999 | §2.5 |
 | BBN/$^{4}{\rm He}$ 光致分解上限 | $(\text{}^3\text{He}+\text{D})/\text{H}<5\times10^{-5}$ | — | Bhattacharjee & Sigl 1999 | §2.5 |
-| 弥漫 $\nu$ 通量上限 | SLBY98 ~0.15 yr⁻¹ (1 km³ @ $>10^{19}$ eV) | — | Bhattacharjee & Sigl 1999 | §2.5 |
+| 弥漫 $\nu$ 通量上限 | SLBY98 ~0.15 yr$^{-1}$ (1 km$^{3}$ @ $>10^{19}$ eV) | — | Bhattacharjee & Sigl 1999 | §2.5 |
 | EHECR 硬谱指数 | $\alpha\sim 1.3\text{–}1.5$ | — | Bhattacharjee & Sigl 1999 | §2.6 |
 | GHXPD 各向异性 | 10%–40%（GC vs Anticenter） | — | Bhattacharjee & Sigl 1999 | §2.6 |
 | UHECR 谱膝（knee） | ~$3\times10^{15}$ eV | — | Bhattacharjee & Sigl 1999 | §2.1 |
@@ -86,10 +86,10 @@ path: background/00_key_values.md
 | $10^{20}$ eV 质子从 VIRGO（15 Mpc）偏转 | 22° | — | Al-Dargazelli et al. 1996 | §15.4 |
 | $4\times10^{19}$ eV 偏转 | 55° | — | Al-Dargazelli et al. 1996 | §15.4 |
 | 可追溯距离（小 clusters / 扩展 regions） | ~10 Mpc / ~15 Mpc | — | Al-Dargazelli et al. 1996 | §15.4 |
-| $H_0$（本文基准） | 75 km s⁻¹ Mpc⁻¹ | — | Al-Dargazelli et al. 1996 | §15.7 |
+| $H_0$（本文基准） | 75 km s$^{-1}$ Mpc$^{-1}$ | — | Al-Dargazelli et al. 1996 | §15.7 |
 | 团激波（Kang, Jones & Ryu 1995） | $B=1\,\mu$G, $u=3000$ km/s, CMB 上限 ~$6\times10^{19}$ eV | 10% 效率 | Al-Dargazelli et al. 1996 | §15.7 |
 | $10^{20}$ eV 质子在 CMB 上的寿命 | $10^8$ 年 | — | Al-Dargazelli et al. 1996 | §15.7 |
-| UHECR 源能谱 | $E^{-2}$，总功率 ~$10^{40}$ erg s⁻¹ | — | Al-Dargazelli et al. 1996 | §15.4 |
+| UHECR 源能谱 | $E^{-2}$，总功率 ~$10^{40}$ erg s$^{-1}$ | — | Al-Dargazelli et al. 1996 | §15.4 |
 | UHECR 偏转角公式 | $\theta = 510(l\lambda)^{1/2}/(p_c B)$（$p_c$ in $10^{20}$ eV, $l,\lambda$ in Mpc, $B$ in $\mu$G） | 铁核 $\times 26$ | Al-Dargazelli et al. 1996 | §16.2 |
 | B$\lambda$ 标度律 | $B\lambda\approx 1\,\mu$G kpc | — | Al-Dargazelli et al. 1996 | §16.2 |
 | SNR 加速上限 | ~$10^{15}$ eV | — | Bhattacharjee & Sigl 1999 | §2.3 |
@@ -118,17 +118,17 @@ path: background/00_key_values.md
 | 注入谱斜率 $\gamma_{inj}$ | ~2.3–2.4（B/C + 各向异性） | 比 NLDSA 预测陡 | Amato 2014 | §11.4 |
 | X 射线窄边缘尺度 | $\sim 10^{-2}$ pc | — | Blasi 2013 | §15.7 |
 | $\gamma$ 射线能量区（SNR 范式） | 50–500 TeV | — | Blasi 2013 | §15.7 |
-| $\pi$⁰ 鼓包能量 | ~70 MeV | — | Amato 2014 | §11.7 |
+| $\pi$$^{0}$ 鼓包能量 | ~70 MeV | — | Amato 2014 | §11.7 |
 | PAMELA 质子/He 谱硬化点 | ~230 GeV | — | Amato 2014; Grenier 2015 | §11.4 / §99.4 |
 | He/p 比增加 | 2 倍（20 GeV → 50 TeV） | — | Grenier 2015 | §99.4 |
 | 银河系 CR 谱膝点能量 | ~$3\times10^{15}$ eV | — | Grenier 2015 | §99.7 |
 | CR 谱膝下指数 | $E^{-2.7}\to E^{-3.3}$（膝点处） | — | Grenier 2015 | §99.7 |
 | 银盘核能损失 | 10%（核）/ 60%（电子） | — | Grenier 2015 | §99.7 |
 | Voyager 1 穿越 Heliopause | 2012-08-25, 122 AU | — | Grenier 2015 | §99.7 |
-| $\zeta$_H^CR（本地） | ~$1.4\times10^{-17}$ s⁻¹ | — | Grenier 2015 | §99.4 |
-| CR 能量密度 | 1.9 eV cm⁻³ | — | Grenier 2015 | §99.4 |
-| $\zeta$_H^CR（CMZ） | ~$2\text{–}7\times10^{-15}$ s⁻¹ | — | Grenier 2015 | §99.7 |
-| $\zeta$_$H_{2}$^CR（Arp 220） | $>10^{-13}$ s⁻¹（比 CMZ 高 $10^2$ 倍） | — | Grenier 2015 | §99.4 |
+| $\zeta$_H^CR（本地） | ~$1.4\times10^{-17}$ s$^{-1}$ | — | Grenier 2015 | §99.4 |
+| CR 能量密度 | 1.9 eV cm$^{-3}$ | — | Grenier 2015 | §99.4 |
+| $\zeta$_H^CR（CMZ） | ~$2\text{–}7\times10^{-15}$ s$^{-1}$ | — | Grenier 2015 | §99.7 |
+| $\zeta$_$H_{2}$^CR（Arp 220） | $>10^{-13}$ s$^{-1}$（比 CMZ 高 $10^2$ 倍） | — | Grenier 2015 | §99.4 |
 | Fermi Bubbles 张角 | ~50° | — | Grenier 2015 | §99.4 |
 | Fermi Bubbles 功率 | $2\times10^{30}$ W | — | Grenier 2015 | §99.4 |
 | 巨射电瓣能量 | $10^{48}$ J | — | Grenier 2015 | §99.4 |
@@ -149,7 +149,7 @@ path: background/00_key_values.md
 | Biermann：ISM-SN 谱（膝下 H） | $E^{-2.75\pm 0.04}$ | — | Biermann 1996 | §9.4 |
 | Biermann：wind-SN 谱（膝下） | $E^{-2.67(+0.02)}$ | — | Biermann 1996 | §9.4 |
 | Biermann：wind-SN 谱（膝上） | $E^{-3.07(+0.07)}$ | — | Biermann 1996 | §9.4 |
-| Biermann：壳层 grammage | ~1 g/cm² | — | Biermann 1996 | §9.4 |
+| Biermann：壳层 grammage | ~1 g/cm$^{2}$ | — | Biermann 1996 | §9.4 |
 | Biermann：H 电离截止 | ~100 MeV | — | Biermann 1996 | §9.4 |
 | Biermann：regime 切换能 | ~20 GeV/n | — | Biermann 1996 | §9.4 |
 | Biermann：次级/主核比 regime 1（壳层） | const | — | Biermann 1996 | §9.4 |
@@ -175,7 +175,7 @@ path: background/00_key_values.md
 | r 过程丰度峰（Se/Xe/Os） | A=80, 130, 194 | — | B$^2$FH 1957 | §15.4 |
 | r 过程丰度峰（中子幻数） | N=50, 82, 126 | — | B$^2$FH 1957; Fowler 1984 | §15.7 |
 | 稳态流判据 | $\sigma(A)\cdot N(A) = \text{const}$ | — | B$^2$FH 1957 | §15.4 |
-| 银河系年龄（U²³⁵/U²³⁸ 定年） | ~$10^{10}$ yr | — | B$^2$FH 1957 | §15.4 |
+| 银河系年龄（U$^{235}$/U$^{238}$ 定年） | ~$10^{10}$ yr | — | B$^2$FH 1957 | §15.4 |
 | 中子源 | $^{12}{\rm C}$($\alpha$,n)$^{16}{\rm O}$、$^{20}{\rm Ne}$($\alpha$,n)$^{24}{\rm Mg}$ | — | B$^2$FH 1957 | §15.4 |
 | s 过程主要中子源 | $^{13}{\rm C}$($\alpha$,n)（低温，主导） | — | Trimble 1975; Wallerstein 1997 | §99.7 / §15.4 |
 | s 过程次中子源 | $^{22}{\rm Ne}$($\alpha$,n)（高温，次要） | — | Wallerstein 1997 | §15.7 |
@@ -196,7 +196,7 @@ path: background/00_key_values.md
 | 25 $M_\odot$ 过产比 | ~14 | — | Fowler 1984 | §15.4 |
 | FFN 弱相互作用核数 | 226 个核，A=21–60 | — | Fowler 1984 | §15.4 |
 | $^{26}{\rm Al}$ 1809 keV $\gamma$ 线 | 近 5$\sigma$ | — | Fowler 1984 | §15.4 |
-| Cameron-Cowan-Truran r 过程（Fowler 1984） | $^{13}{\rm C}$ 富集、14.3% 质量分数、$\rho=10^3$ g cm⁻³ | — | Fowler 1984 | §15.4 |
+| Cameron-Cowan-Truran r 过程（Fowler 1984） | $^{13}{\rm C}$ 富集、14.3% 质量分数、$\rho=10^3$ g cm$^{-3}$ | — | Fowler 1984 | §15.4 |
 | Th/U 核宇宙计时 | r 过程起始 ~$17.9^{+2}_{-4}$ Gyr ago | — | Fowler 1984 | §15.4 |
 | Re/Os 独立支持 | 18–20 Gyr | — | Fowler 1984 | §15.4 |
 | BBN Y_p（Trimble 1975 复核） | Y_p ≈ 0.24–0.25 | — | Trimble 1975 | §99.7 |
@@ -213,11 +213,11 @@ path: background/00_key_values.md
 | $^{17}{\rm F}$(p,$\gamma$)$^{18}{\rm Ne}$ 改进 | 优于早期 10× | — | Champagne & Wiescher 1992 | §99.4 |
 | $^{19}{\rm Ne}$(p,$\gamma$)$^{20}{\rm Na}$ 不确定度 | **数个量级**（J$^\pi$ 争议） | — | Champagne & Wiescher 1992 | §99.4 |
 | rp-process 端点（XRB，$T_9=1.5$） | $^{72}{\rm Kr}$（$T_{1/2}=17.2$ s） | — | Champagne & Wiescher 1992 | §99.4 / §99.7 |
-| 情形 (i) SN 激波 | $T_9=0.3, \rho=10^3$ g/cm³, t=10 (或 100) s → 端点 $^{32}{\rm S}$ (或 $^{40}{\rm Ca}$) | — | Champagne & Wiescher 1992 | §99.4 |
-| 情形 (ii) 极端 nova | $T_9=0.4, \rho=10^4$ g/cm³, t=1000 s → 端点 $^{52}{\rm Fe}$ | — | Champagne & Wiescher 1992 | §99.4 |
-| 情形 (iii) X 射线暴 | $T_9=1.5, \rho=10^6$ g/cm³, t=10 s → 端点 $^{72}{\rm Kr}$ | — | Champagne & Wiescher 1992 | §99.4 |
+| 情形 (i) SN 激波 | $T_9=0.3, \rho=10^3$ g/cm$^{3}$, t=10 (或 100) s → 端点 $^{32}{\rm S}$ (或 $^{40}{\rm Ca}$) | — | Champagne & Wiescher 1992 | §99.4 |
+| 情形 (ii) 极端 nova | $T_9=0.4, \rho=10^4$ g/cm$^{3}$, t=1000 s → 端点 $^{52}{\rm Fe}$ | — | Champagne & Wiescher 1992 | §99.4 |
+| 情形 (iii) X 射线暴 | $T_9=1.5, \rho=10^6$ g/cm$^{3}$, t=10 s → 端点 $^{72}{\rm Kr}$ | — | Champagne & Wiescher 1992 | §99.4 |
 | $^{19}{\rm Ne}$ 激发态布居 | 1–47%（$T_9=0.5\text{–}1.5$） | — | Champagne & Wiescher 1992 | §99.7 |
-| $^{18}{\rm F}$ 电子俘获分支比 | 3.1%（$\rho>10^5$ g/cm³ 时重要） | — | Champagne & Wiescher 1992 | §99.7 |
+| $^{18}{\rm F}$ 电子俘获分支比 | 3.1%（$\rho>10^5$ g/cm$^{3}$ 时重要） | — | Champagne & Wiescher 1992 | §99.7 |
 | NeNa 循环再循环率 | $T_9\gtrsim 0.2$ 大量再循环 | — | Champagne & Wiescher 1992 | §99.7 |
 | MgAl 循环再循环率 | 0.1–1% | — | Champagne & Wiescher 1992 | §99.7 |
 | 网络规模 | 216 核素 + 946 反应 | — | Champagne & Wiescher 1992 | §99.3 |
@@ -227,9 +227,9 @@ path: background/00_key_values.md
 
 | 物理量 | 数值 | 不确定度 | 论文来源 | 章节 |
 |---|---|---|---|---|
-| 电离参数 $\chi$ 扫描 | $5\times10^6$–$3\times10^8$ cm s⁻¹（log U = −3.5 至 −2.0） | — | Kewley et al. 2001 | §15.3 |
+| 电离参数 $\chi$ 扫描 | $5\times10^6$–$3\times10^8$ cm s$^{-1}$（log U = −3.5 至 −2.0） | — | Kewley et al. 2001 | §15.3 |
 | 金属丰度 Z 扫描 | $0.01$–$3\,Z_\odot$ | — | Kewley et al. 2001 | §15.3 |
-| 电子密度 $n_e$ | 350 cm⁻³ | — | Kewley et al. 2001 | §15.3 |
+| 电子密度 $n_e$ | 350 cm$^{-3}$ | — | Kewley et al. 2001 | §15.3 |
 | 模板星暴 log(He II $\lambda$4686/H$\beta$) | ~$-1.6$ | — | Kewley et al. 2001 | §15.4 |
 | Schmutz W-R 大气预测 | $-1.7$ | 与观测一致 | Kewley et al. 2001 | §15.4 |
 | PEGASE/Lejeune 预测 | $-6$ | 相差 5 个量级 | Kewley et al. 2001 | §15.4 |
@@ -343,8 +343,8 @@ path: background/00_key_values.md
 | 物理量 | 数值 | 来源 |
 |---|---|---|
 | 温度修正 | $\Delta T/T = 0.034\pm 0.015$ | Gies & Lambert 1992 |
-| 微湍流 $\xi$（LTE，非超巨星/超巨星） | 6.2 / 23 km s⁻¹ | Gies & Lambert 1992 |
-| 微湍流 $\xi$（NLTE） | 5.0 / 8.9 km s⁻¹ | Gies & Lambert 1992 |
+| 微湍流 $\xi$（LTE，非超巨星/超巨星） | 6.2 / 23 km s$^{-1}$ | Gies & Lambert 1992 |
+| 微湍流 $\xi$（NLTE） | 5.0 / 8.9 km s$^{-1}$ | Gies & Lambert 1992 |
 | 超巨星 log g 范围 | 2.1–3.7 | Gies & Lambert 1992 |
 | Lyubimkov 假象量化（log g=3.5 + $\xi$=10 组合） | 假增 0.90 dex | Gies & Lambert 1992 |
 | 用本文数据复现 Lyubimkov 斜率 | 0.035 dex per $10^{6}$ yr（伪相关） | Gies & Lambert 1992 |
@@ -363,9 +363,9 @@ path: background/00_key_values.md
 | 暗物质上限（Oort 1932 太阳邻域） | $\le 0.05\,M_\odot/\text{pc}^3$ | — | Bertone & Hooper 2018 | §99.7 |
 | Oort 1932 总质量密度 | $0.092\,M_\odot/\text{pc}^3$ | — | Bertone & Hooper 2018 | §99.7 |
 | Zwicky 1937 Coma 团 M/L | ~500（修正 $H_{0}$ 后仍高 ~60） | — | Bertone & Hooper 2018 | §99.7 |
-| MOND 加速度 $a_0$ | $\approx 1.2\times10^{-10}$ m/s² | — | Bertone & Hooper 2018 | §99.7 |
+| MOND 加速度 $a_0$ | $\approx 1.2\times10^{-10}$ m/s$^{2}$ | — | Bertone & Hooper 2018 | §99.7 |
 | MOND 预言 Tully-Fisher 指数 | $\alpha = 4$（精确） | — | Bertone & Hooper 2018 | §99.7 |
-| WIMP 湮灭截面（"奇迹"） | $\langle\sigma v\rangle \sim 10^{-26}$ cm³/s | — | Bertone & Hooper 2018 | §99.7 |
+| WIMP 湮灭截面（"奇迹"） | $\langle\sigma v\rangle \sim 10^{-26}$ cm$^{3}$/s | — | Bertone & Hooper 2018 | §99.7 |
 | WIMP 直接探测历史 | 30 年 null（2018 年时） | — | Bertone & Hooper 2018 | §99.4 |
 | EROS MACHO 上限 | $<8\%$ | — | Bertone & Hooper 2018 | §99.4 |
 | 轴子质量 | $10^{-6}$–$10^{-4}$ eV | — | Bertone & Hooper 2018 | §99.7 |
@@ -399,8 +399,8 @@ path: background/00_key_values.md
 | $\Delta T/T = 0.034$ | B 星温度修正 | Gies & Lambert 1992 |
 | $\log\varepsilon_X = 1.51 + \log N_X$ | 陨石→太阳换算（AGSS09） | AGSS09 |
 | $\log([\text{O III}]/\text{H}\beta)\le\frac{0.61}{\log([\text{N II}]/\text{H}\alpha)-0.47}+1.19$ | Kewley [N II] 线 | Kewley et al. 2001 |
-| $a_0\approx 1.2\times10^{-10}$ m/s² | MOND 加速度 | Bertone & Hooper 2018 |
-| $\langle\sigma v\rangle\sim 10^{-26}$ cm³/s | WIMP 湮灭截面 | Bertone & Hooper 2018 |
+| $a_0\approx 1.2\times10^{-10}$ m/s$^{2}$ | MOND 加速度 | Bertone & Hooper 2018 |
+| $\langle\sigma v\rangle\sim 10^{-26}$ cm$^{3}$/s | WIMP 湮灭截面 | Bertone & Hooper 2018 |
 
 ---
 

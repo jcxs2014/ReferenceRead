@@ -191,7 +191,7 @@ He 不出现在光球光谱（He I 5876/6678/7065 在光球不显著），且在
 - **金属性贡献**：O 47%, C 17%, N 5%
 - 底部对流区不透明度主要贡献者
 - C/N/O 是 **CNO 循环的平衡产物**：
-  - $C_{1}$² → $N_{1}$³（慢步骤，$^{12}{\rm C}$(p,$\gamma$)$^{13}{\rm N}$）
+  - $C_{1}$$^{2}$ → $N_{1}$$^{3}$（慢步骤，$^{12}{\rm C}$(p,$\gamma$)$^{13}{\rm N}$）
   - 循环平衡时：C↓↓, N↑↑, O 不变
 - AGSS09 直接影响恒星演化模型中的 CNO 初始丰度假设
 - **C/O 比**：AGSS09 C/O = 10^(8.43-8.69) = 0.28 < 1 → **太阳是富 O 型**
@@ -205,7 +205,7 @@ He 不出现在光球光谱（He I 5876/6678/7065 在光球不显著），且在
 
 - **大气丰度** = 太阳光球光谱现今观测值
 - **原始太阳（=太阳系）丰度** = 4.55 Gyr 前的原初值
-- **沉降修正公式**（式 5）：A(El)₀ = A(El) + 0.074
+- **沉降修正公式**（式 5）：A(El)$_{0}$ = A(El) + 0.074
   - 由 Boothroyd & Sackmann (2003) SSM 标度关系推导
   - 太阳金属度比原初**低 16%**（重元素沉降）
 
@@ -244,7 +244,7 @@ He 不出现在光球光谱（He I 5876/6678/7065 在光球不显著），且在
 | 环节 | 技术 |
 |------|------|
 | 观测 | McDonald 2.1 m + coudé；Reticon 1728 px；S/N=300 |
-| T_eff / log g | Strömgren [c1] + Balona c⁰ + H$\beta$ 轮廓迭代 |
+| T_eff / log g | Strömgren [c1] + Balona c$^{0}$ + H$\beta$ 轮廓迭代 |
 | LTE 丰度 | Kurucz 1979 大气 + WIDTH6 |
 | Non-LTE 丰度 | Becker & Butler (1988) 表 + Auer & Mihalas (1973) He 幂律 |
 | 温度修正 | $\Delta$T = f·T_eff, f = 0.034 ± 0.015 |
@@ -295,9 +295,9 @@ He 不出现在光球光谱（He I 5876/6678/7065 在光球不显著），且在
 
 | 量 | 值 |
 |----|----|
-| W-R 星发射测度 | ∫ n² dr ∝ (Ṁ/v∞)² · $R_{3}$⁻³ |
+| W-R 星发射测度 | ∫ n$^{2}$ dr ∝ (Ṁ/v∞)$^{2}$ · $R_{3}$$^{-3}$ |
 | 星暴年龄（动态平衡）| ≈ 6 Myr (PEGASE) / 8 Myr (STARBURST99) |
-| 氢燃烧寿命 | $\tau$ ≈ 4.5 (M/40 $M_\odot$)⁻⁰·⁴³ Myr |
+| 氢燃烧寿命 | $\tau$ ≈ 4.5 (M/40 $M_\odot$)$^{-0.43}$ Myr |
 | 全星系 SFR | ~3.4 $M_\odot$/yr |
 | 1 kpc 视场 SFR | ~0.07 $M_\odot$/yr (FIR) vs ~0.04 $M_\odot$/yr (H$\alpha$) |
 
@@ -327,7 +327,7 @@ N 从初级 $\rightarrow$ 次级 的转折点 = $0.23\ Z_\odot$
 
 - H$\beta$ 贡献 16–20%，但 [O III]/H$\beta$ 仅 ~2%（可忽略）
 - **不足以解释星暴-AGN 诊断图差异**
-- 冷却时标：$\tau$_cool ≈ 200 · $v_{100}$⁻⁴·⁴ · Z · n yr
+- 冷却时标：$\tau$_cool ≈ 200 · $v_{100}$$^{-4.4}$ · Z · n yr
 
 ---
 
@@ -372,7 +372,7 @@ N 从初级 $\rightarrow$ 次级 的转折点 = $0.23\ Z_\odot$
 
 | 尺度 | 关键观测 | 年代 |
 |------|---------|------|
-| 太阳邻域 | Oort 1932 总密度 0.092 $M_\odot$/pc³ | 1932 |
+| 太阳邻域 | Oort 1932 总密度 0.092 $M_\odot$/pc$^{3}$ | 1932 |
 | 星系团 | Zwicky 1933 Coma 视向速弥散 1000 km/s vs 80 km/s 预期 | 1933 |
 | 星系团 M/L | Zwicky 1937 Coma M/L ≈ 500（修正 $H_{0}$ 后仍高 ~60）| 1937 |
 | 本星系群 | Kahn-Woltjer 1959 timing argument | 1959 |
@@ -380,7 +380,7 @@ N 从初级 $\rightarrow$ 次级 的转折点 = $0.23\ Z_\odot$
 | HI 自转 | Bosma 1978 25 星系平坦到光学区外 | 1978 |
 | 星系团维里 | 大 M/L（100–800）| 1930s-1950s |
 | 微引力透镜 | EROS < 8%（排除 MACHO）| 1993+ |
-| CMB | $\Omega$_b h² = 0.02225 ± 0.00016 | Planck 2015 |
+| CMB | $\Omega$_b h$^{2}$ = 0.02225 ± 0.00016 | Planck 2015 |
 | 引力透镜 | Bullet Cluster 2006（暗物质与重子空间分离）| 2006 |
 
 ### 8.2 关键公式
@@ -425,7 +425,7 @@ $$\langle\sigma v\rangle \sim 10^{-26}\ \mathrm{cm^3/s} \quad \text{[WIMP 奇迹
 
 ### 8.4 宇宙学观测约束
 
-- **$\Omega$_b h² = 0.02225 ± 0.00016**（Planck 2015，<1% 精度）
+- **$\Omega$_b h$^{2}$ = 0.02225 ± 0.00016**（Planck 2015，<1% 精度）
 - **重子物质 < 20% 宇宙物质** → **暗物质必为非重子**
 - **MACHO 双重排除**：
   1. EROS 微透镜 < 8%（排除 0.1–10 $M_\odot$）
@@ -465,7 +465,7 @@ $$\langle\sigma v\rangle \sim 10^{-26}\ \mathrm{cm^3/s} \quad \text{[WIMP 奇迹
 - **Gies & Lambert 1992**：B 星 CNO 检验 CN-cycle 混合，用太阳丰度为参考
 - **Kewley 2001**：星暴星系诊断图与 W-R 星 C/N/O 核合成产物的释放
 - **Dieterich 2014**：太阳金属丰度直接决定演化模型的氢燃烧极限位置
-- **Bertone & Hooper 2018**：$\Omega$_b h² 约束与太阳邻域密度（Oort 1932）
+- **Bertone & Hooper 2018**：$\Omega$_b h$^{2}$ 约束与太阳邻域密度（Oort 1932）
 
 ### 9.2 关键交叉引用链
 
@@ -557,13 +557,13 @@ GS98 Y=0.248
 
 | 量 | 值 |
 |----|----|
-| $\Omega$_b h² (Planck 2015) | 0.02225 ± 0.00016 |
+| $\Omega$_b h$^{2}$ (Planck 2015) | 0.02225 ± 0.00016 |
 | 重子占宇宙物质 | < 20% |
-| MOND $a_{0}$ | 1.2 × $10^{-10}$ m/s² |
-| WIMP $\sigma$v | ~$10^{-26}$ cm³/s |
+| MOND $a_{0}$ | 1.2 × $10^{-10}$ m/s$^{2}$ |
+| WIMP $\sigma$v | ~$10^{-26}$ cm$^{3}$/s |
 | Coma M/L (Zwicky 1937) | ≈ 500 |
-| Oort 1932 太阳邻域 | 0.092 $M_\odot$/pc³ |
-| 暗物质上限 (Oort) | ≤ 0.05 $M_\odot$/pc³ |
+| Oort 1932 太阳邻域 | 0.092 $M_\odot$/pc$^{3}$ |
+| 暗物质上限 (Oort) | ≤ 0.05 $M_\odot$/pc$^{3}$ |
 | EROS MACHO | < 8% |
 
 ---
@@ -592,7 +592,7 @@ GS98 Y=0.248
 2. **非 WIMP 候选体**：fuzzy dark matter、dark photon、hidden valley、asymmetric DM
 3. **$\Lambda$CDM 小尺度危机**：missing satellites, cusp-core, too-big-to-fail
 4. **$H_{0}$ tension**：Planck 67.4 vs 局部 74 km/s/Mpc
-5. **$\sigma$₈ tension**：CMB vs 弱引力透镜
+5. **$\sigma$$_{8}$ tension**：CMB vs 弱引力透镜
 6. **DAMA 年调制信号**的争议
 
 ---
@@ -641,7 +641,7 @@ GS98 Y=0.248
 | **大质量星核合成产物释放** | W-R 星质量损失 | Kewley 2001 |
 | **星系化学演化** | C/O 比, [Fe/H] 演化 | AGSS09, Kewley 2001 |
 | **低质量恒星演化** | 太阳 Z/X = 0.018 | AGSS09 → Dieterich 2014 |
-| **暗物质与核合成** | $\Omega$_b h², 原初核合成 | Bertone-Hooper 2018 |
+| **暗物质与核合成** | $\Omega$_b h$^{2}$, 原初核合成 | Bertone-Hooper 2018 |
 
 ---
 

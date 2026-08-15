@@ -178,7 +178,7 @@ path: background/05_glossary.md
 ### A
 
 | `A(El) = 1.540 + log N(El)` | 0008_lodders-2003 | 两标尺耦合 |
-| `A(El)₀ = A(El) + 0.074 dex` | 0008_lodders-2003 | 原始-大气转换关系 |
+| `A(El)$_{0}$ = A(El) + 0.074 dex` | 0008_lodders-2003 | 原始-大气转换关系 |
 | `ACE` | 0001_strong-moskalenko-ptuskin-2007 | 高级成分探测器 |
 | `ADMX (axion)` | 0013_bertone-hooper-2018 | 轴子腔共振实验 |
 | `AGB 星 (asymptotic giant branch)` | 0004_wallerstein-1997 | 渐近巨星支恒星；低中质量星晚期的热脉冲阶段 |
@@ -193,7 +193,7 @@ path: background/05_glossary.md
 | `adiabatic energy loss` | 0001_strong-moskalenko-ptuskin-2007 | 绝热能量损失 |
 | `analysis mean` | 0006_anders-grevesse | 分析均值 |
 | `angular diameter` | 0012_dieterich-2014-h-burning-limit | 角直径 |
-| `angular velocity $\omega$ ~ 6×$10^{-5}$ s⁻¹` | 0015_kraft-1994 | 所需角速度 |
+| `angular velocity $\omega$ ~ 6×$10^{-5}$ s$^{-1}$` | 0015_kraft-1994 | 所需角速度 |
 | `annihilation ($\chi\chi \to \gamma\gamma$)` | 0013_bertone-hooper-2018 | 暗物质湮灭 |
 | `antiproton` | 0001_strong-moskalenko-ptuskin-2007 | 反质子 |
 | `aperture photometry` | 0012_dieterich-2014-h-burning-limit | 孔径测光 |
@@ -266,7 +266,7 @@ path: background/05_glossary.md
 | `Cas A (仙后座 A)` | 0003_fowler-1984 | 年轻超新星遗迹；Fowler 用其丰度检验核合成模型 |
 | `Caughlan-Fowler (1988)` | 0003_fowler-1984 | 完整实验核天体物理反应速率汇编 (ADNDDT 40, 283) |
 | `CfA redshift survey` | 0013_bertone-hooper-2018 | CfA 红移巡天 |
-| `Cf²⁵⁴ 供能` | 0001_b2fh-1957 | B$^2$FH 提出超新星光变曲线由 $^{254}{\rm Cf}$ 自发裂变供能 |
+| `Cf$^{254}$ 供能` | 0001_b2fh-1957 | B$^2$FH 提出超新星光变曲线由 $^{254}{\rm Cf}$ 自发裂变供能 |
 | `Chabrier et al. 2009` | 0012_dieterich-2014-h-burning-limit | 半径-质量关系理论 |
 | `Clegg & Middlemass PNN atmosphere` | 0011_kewley-2001-starburst | PNN 高温大气模型 |
 | `Coma cluster` | 0013_bertone-hooper-2018 | 后发座星系团 |
@@ -277,7 +277,7 @@ path: background/05_glossary.md
 | `carbon depletion` | 0010_gies-lambert-1992 | 碳贫化 |
 | `cataclysmic binary` | 0005_champagne-wiescher-1992 | 灾变双星 |
 | `center-to-limb variation` | 0009_asplund-2009-solar-composition | 中边缘变化 |
-| `characteristic velocity ~$10^{-3}$ cm s⁻¹` | 0015_kraft-1994 | 环流特征速度 |
+| `characteristic velocity ~$10^{-3}$ cm s$^{-1}$` | 0015_kraft-1994 | 环流特征速度 |
 | `chemical enrichment` | 0015_kraft-1994 | 化学增丰 |
 | `chemical fractionation` | 0014_cameron-1968 | 化学分馏 |
 | `chemically homogeneous` | 0009_asplund-2009-solar-composition | 化学均质 |
@@ -379,7 +379,7 @@ path: background/05_glossary.md
 | `Fowler, Caughlan, Zimmerman (FCZ)` | 0002_trimble-1975 | 现代核合成反应速率表 |
 | `Freeman (1970)` | 0013_bertone-hooper-2018 | 首次断言额外物质必须存在 |
 | `first parameter` | 0015_kraft-1994 | 第一参数 |
-| `fluorapatite C$a_{5}$(P$O_{4}$)₃F` | 0008_lodders-2003 | 氟磷灰石 |
+| `fluorapatite C$a_{5}$(P$O_{4}$)$_{3}$F` | 0008_lodders-2003 | 氟磷灰石 |
 | `flux limitation` | 0015_kraft-1994 | 流量限制 |
 | `fold (grid topology)` | 0011_kewley-2001-starburst | 网格折回（禁带拓扑） |
 | `forbidden line ([S II], [O III])` | 0011_kewley-2001-starburst | 禁戒线 |
@@ -513,7 +513,7 @@ path: background/05_glossary.md
 | `MOND (Modified Newtonian Dynamics)` | 0013_bertone-hooper-2018 | 修正牛顿动力学 |
 | `MRN dust size distribution` | 0011_kewley-2001-starburst | Mathis-Rumpl-Nordsieck 尘埃尺寸分布 |
 | `MSSM` | 0013_bertone-hooper-2018 | 最小超对称标准模型 |
-| `M_GT` | 0003_fowler-1984 | ²⟩ = 0.039 |
+| `M_GT` | 0003_fowler-1984 | $^{2}$⟩ = 0.039 |
 | `Maeder & Meynet (1988)` | 0010_gies-lambert-1992 | 演化轨道模型 |
 | `Maeder (1987a) turbulent diffusion` | 0010_gies-lambert-1992 | 湍流扩散混合 |
 | `McDonald 2.1 m coudé` | 0010_gies-lambert-1992 | 麦克唐纳 2.1m 折反光谱仪 |
@@ -675,7 +675,7 @@ path: background/05_glossary.md
 | `Standard Abundance Distribution (SAD)` | 0007_grevesse-sauval-1998 | 标准丰度分布 |
 | `Standard Solar Composition (SSC)` | 0007_grevesse-sauval-1998 | 标准太阳组成 |
 | `Statistical equilibrium` | 0009_asplund-2009-solar-composition | 统计平衡 |
-| `Stefan–Boltzmann law` | 0012_dieterich-2014-h-burning-limit | 斯特凡–玻尔兹曼定律 L=4$\pi$R²$\sigma$T⁴ |
+| `Stefan–Boltzmann law` | 0012_dieterich-2014-h-burning-limit | 斯特凡–玻尔兹曼定律 L=4$\pi$R$^{2}$$\sigma$T$^{4}$ |
 | `Strömgren photometry` | 0010_gies-lambert-1992 | Strömgren 测光（u,v,b,y,c1,$\beta$） |
 | `Suess smoothness` | 0006_anders-grevesse | 苏斯平滑性 |
 | `Suess-Urey table` | 0014_cameron-1968 | Suess-Urey 表 |
@@ -737,11 +737,11 @@ path: background/05_glossary.md
 
 | `TOF 与活化法` | 0004_wallerstein-1997 | 时间飞行法 (Time-of-Flight) 与活化法 (activation)——核反应截面两种主要测量技术 |
 | `T_eff` | 0010_gies-lambert-1992 | 有效温度 |
-| `Tc⁹⁹ (technetium-99)` | 0002_trimble-1975 | 半衰期 2.1×$10^{6}$ yr 的短寿命核素；s 过程直接证据 |
+| `Tc$^{99}$ (technetium-99)` | 0002_trimble-1975 | 半衰期 2.1×$10^{6}$ yr 的短寿命核素；s 过程直接证据 |
 | `Teff 20–150 K uncertainty` | 0012_dieterich-2014-h-burning-limit | Teff 不确定度范围 |
 | `Thomas-Ehrman shift` | 0005_champagne-wiescher-1992 | 托马斯-厄尔曼位移 |
 | `Trampedach et al. (2009)` | 0009_asplund-2009-solar-composition | 本文主要 3D 模型 |
-| `Tully-Fisher relation` | 0013_bertone-hooper-2018 | Tully-Fisher 关系（L ∝ V⁴） |
+| `Tully-Fisher relation` | 0013_bertone-hooper-2018 | Tully-Fisher 关系（L ∝ V$^{4}$） |
 | `Type I carbonaceous chondrite (CI)` | 0014_cameron-1968 | 类型 I 碳质球粒陨石 |
 | `Type I meteorite class` | 0014_cameron-1968 | 类型 I 陨石类 |
 | `$T_{9}$` | 0005_champagne-wiescher-1992 | 以 $10^{9}$ K 为单位的温度 |
@@ -756,13 +756,13 @@ path: background/05_glossary.md
 | `top-down structure formation` | 0013_bertone-hooper-2018 | 自上而下结构形成 |
 | `transformed radius` | 0011_kewley-2001-starburst | 变换半径 $R_t$ |
 | `trigonometric parallax` | 0012_dieterich-2014-h-burning-limit | 三角视差 |
-| `triple alpha process` | 0015_kraft-1994 | ³$\alpha$ 过程 |
+| `triple alpha process` | 0015_kraft-1994 | $^{3}$$\alpha$ 过程 |
 | `troilite FeS` | 0008_lodders-2003 | 陨硫石 |
 
 ### U
 
 | `UHE` | 0001_bhattacharjee-sigl-2000 | 超高能 |
-| `U²³⁵/U²³⁸ 双衰变定年` | 0001_b2fh-1957 | 用两种铀同位素放射性衰变反推银河系年龄 |
+| `U$^{235}$/U$^{238}$ 双衰变定年` | 0001_b2fh-1957 | 用两种铀同位素放射性衰变反推银河系年龄 |
 | `uniform enrichment` | 0014_cameron-1968 | 均匀富集 |
 
 ### V
@@ -787,7 +787,7 @@ path: background/05_glossary.md
 | `Wolf-Rayet (W-R) star` | 0011_kewley-2001-starburst | 沃尔夫-拉叶星 |
 | `wave damping` | 0001_strong-moskalenko-ptuskin-2007 | 波阻尼 |
 | `weighted-slab method` | 0001_strong-moskalenko-ptuskin-2007 | 加权板方法 |
-| `whitlockite C$a_{3}$(P$O_{4}$)₂` | 0008_lodders-2003 | 磷灰石族 |
+| `whitlockite C$a_{3}$(P$O_{4}$)$_{2}$` | 0008_lodders-2003 | 磷灰石族 |
 
 ### X
 
@@ -816,15 +816,15 @@ path: background/05_glossary.md
 | `[el/Fe] ratio` | 0015_kraft-1994 | 元素/铁丰度比 |
 | `[$\alpha$/Fe] substructure` | 0015_kraft-1994 | $\alpha$/Fe 丰度亚结构 |
 
-### ²
+### $^{2}$
 
 | `$^{22}{\rm Ne}$($\alpha$,n)$^{25}{\rm Mg}$` | 0015_kraft-1994 | 中子源反应 |
 | `$^{23}{\rm Na}$, $^{27}{\rm Al}$ production` | 0015_kraft-1994 | Na、Al 合成 |
 | `$^{20}{\rm Ne}$($\alpha$,n)$^{24}{\rm Mg}$ 中子源` | 0001_b2fh-1957 | 高温中子源 |
 | `$^{20}{\rm Ne}$–$^{23}{\rm Na}$ chain` | 0015_kraft-1994 | 20Ne–23Na 反应链 |
-| `$^{26}{\rm Al}$ 1809 keV $\gamma$ 线` | 0003_fowler-1984 | 银河系内 $^{26}{\rm Al}$ $\beta^{"+" if m.group(1)=="⁺" else "-"}$ 衰变伴随的特征 $\gamma$ 线，证明核合成"今天"仍在进行 |
+| `$^{26}{\rm Al}$ 1809 keV $\gamma$ 线` | 0003_fowler-1984 | 银河系内 $^{26}{\rm Al}$ $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变伴随的特征 $\gamma$ 线，证明核合成"今天"仍在进行 |
 
-### ¹
+### $^{1}$
 
 | `$^{12}{\rm C}$ 口袋的形成` | 0004_wallerstein-1997 | 半对流混合、超射、He 闪后 H 摄取等多机制竞争 |
 | `$^{12}{\rm C}$($\alpha$,n)$^{16}{\rm O}$ 中子源` | 0001_b2fh-1957 | AGB 星 s 过程的重要低温中子源 |
@@ -843,7 +843,7 @@ path: background/05_glossary.md
 ### $\Gamma$
 
 | `$\Gamma$_$\gamma$ (radiative width)` | 0005_champagne-wiescher-1992 | 辐射宽度 |
-| `$\Gamma$₁ (adiabatic exponent)` | 0009_asplund-2009-solar-composition | 绝热指数 |
+| `$\Gamma$$_{1}$ (adiabatic exponent)` | 0009_asplund-2009-solar-composition | 绝热指数 |
 
 ### $\Delta$
 
@@ -872,7 +872,7 @@ path: background/05_glossary.md
 
 ### $\Omega$
 
-| `$\Omega$_b h², $\Omega$_c h²` | 0013_bertone-hooper-2018 | 重子/冷暗物质密度参数 |
+| `$\Omega$_b h$^{2}$, $\Omega$_c h$^{2}$` | 0013_bertone-hooper-2018 | 重子/冷暗物质密度参数 |
 | `$\omega$$\gamma$ (omega-gamma)` | 0005_champagne-wiescher-1992 | 共振强度 |
 
 ### 中
@@ -966,11 +966,11 @@ path: background/05_glossary.md
 
 ### 截
 
-| `截面 (cross section, $\sigma$)` | 0001_b2fh-1957 | 核反应发生概率的量度 (1 barn = $10^{-24}$ cm²) |
+| `截面 (cross section, $\sigma$)` | 0001_b2fh-1957 | 核反应发生概率的量度 (1 barn = $10^{-24}$ cm$^{2}$) |
 
 ### 技
 
-| `技术锝 Tc⁹⁹` | 0001_b2fh-1957 | 短寿命核素在 S 型星中被直接观测到 |
+| `技术锝 Tc$^{99}$` | 0001_b2fh-1957 | 短寿命核素在 S 型星中被直接观测到 |
 
 ### 日
 
@@ -1014,7 +1014,7 @@ path: background/05_glossary.md
 
 ### 经
 
-| `经典 s 过程模型 (classical s-process)` | 0004_wallerstein-1997 | Käppeler et al. (1989)；两个参数 (f, $\tau$₀) 描述 A=56–209 的 s-only 核素 |
+| `经典 s 过程模型 (classical s-process)` | 0004_wallerstein-1997 | Käppeler et al. (1989)；两个参数 (f, $\tau$$_{0}$) 描述 A=56–209 的 s-only 核素 |
 
 ### 统
 

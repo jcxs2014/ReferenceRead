@@ -75,7 +75,7 @@ $$
 | Kolmogorov | $1/3$ | $D_{xx} \sim R^{1/3}$ | 低能区、经验模型（含再加速） |
 | Kraichnan | $1/2$ | $D_{xx} \sim R^{1/2}$ | 高能极限、plain diffusion 模型 |
 
-经验拟合给出 $D_{xx}$ 随磁刚度按 $R^{0.3} - R^{0.6}$ 增加。Bhattacharjee & Sigl (1999) 在准线性框架下给出 ISM 中 $D(1\,{\rm GeV}) \sim 10^{29}$ cm²/s 时共振尺度 $\delta B/B \sim 6 \times 10^{-4}$。
+经验拟合给出 $D_{xx}$ 随磁刚度按 $R^{0.3} - R^{0.6}$ 增加。Bhattacharjee & Sigl (1999) 在准线性框架下给出 ISM 中 $D(1\,{\rm GeV}) \sim 10^{29}$ cm$^{2}$/s 时共振尺度 $\delta B/B \sim 6 \times 10^{-4}$。
 
 Biermann (1996) 采用 Kolmogorov 谱，得到相对论区逃逸时标 $\tau_{L,\rm gal} \propto E^{-1/3}$；在云捕获+非定态模型下，次级/初级比可达 $E^{-2/3}$，与 B/C $\sim E^{-0.6}$ 一致。
 
@@ -84,9 +84,9 @@ Biermann (1996) 采用 Kolmogorov 谱，得到相对论区逃逸时标 $\tau_{L,
 - **1-zone 模型**：对流和扩散处处存在；
 - **2-zone 模型**：距盘面 $|z| < 1$ kpc 仅扩散，以外扩散+对流。
 
-纯对流传输对次级/初级比没有能量依赖性，与观测矛盾。放射性同位素约束风速度 $< 10$ km s⁻¹ kpc⁻¹（线性增加风）。B/C 拟合需要约 $15$ km s⁻¹ 的恒定速度风。
+纯对流传输对次级/初级比没有能量依赖性，与观测矛盾。放射性同位素约束风速度 $< 10$ km s$^{-1}$ kpc$^{-1}$（线性增加风）。B/C 拟合需要约 $15$ km s$^{-1}$ 的恒定速度风。
 
-自洽模型（Ptuskin et al.）：CR 和热气体驱动的银河风 2-zone 模型，外区对流速度高达 $100$ km s⁻¹，不与放射性核素冲突（因为约束仅适用于内区）。
+自洽模型（Ptuskin et al.）：CR 和热气体驱动的银河风 2-zone 模型，外区对流速度高达 $100$ km s$^{-1}$，不与放射性核素冲突（因为约束仅适用于内区）。
 
 Gaisser (1990) 讨论的 **Jokipii & Morrill (1987) 银河星风终止激波模型** 可加速到 $10^{19}–10^{20}$ eV。
 
@@ -126,7 +126,7 @@ $$
 
 **三种碎裂位点**（Biermann 1996）：
 
-1. **分子云壳层**：grammage $\sim 1$ g/cm²，次级/初级比 $N_s/N_p \sim$ const.（Regime 1）
+1. **分子云壳层**：grammage $\sim 1$ g/cm$^{2}$，次级/初级比 $N_s/N_p \sim$ const.（Regime 1）
 2. **星际云内（扩散主导）**：在云形成（引力坍缩快于 Alfvén 速度，CR 被捕获）的非定态框架下，$N_s/N_p \sim E^{-2/3}$（Regime 2，与观测 $\sim E^{-0.6}$ 一致）
 3. **非扩散高能区（经典解）**：$N_s/N_p \sim E^{-1/3}$（Regime 3，从未成为主导）
 
@@ -203,7 +203,7 @@ $$
 
 回旋半径参考值：$r_L(p_{\max}) = 1\ {\rm pc} \cdot (E/10^{15}\ {\rm eV}) \cdot B^{-1}_{\mu}$。
 
-**SNR 要达到 PeV 的 PeVatron 条件**：由于 $c/V_s \sim 100$ 而 $r_L/R_{\rm SNR} \sim 0.1$，必须 $\delta B/B_0 \gg 1$。即需要磁场放大（MFA）~10–100 倍。若 $D(E)$ 取 ISM 值 $3 \times 10^{28} (E/10\ {\rm GeV})^\delta$ cm²/s，则加速时标远超自由膨胀期。
+**SNR 要达到 PeV 的 PeVatron 条件**：由于 $c/V_s \sim 100$ 而 $r_L/R_{\rm SNR} \sim 0.1$，必须 $\delta B/B_0 \gg 1$。即需要磁场放大（MFA）~10–100 倍。若 $D(E)$ 取 ISM 值 $3 \times 10^{28} (E/10\ {\rm GeV})^\delta$ cm$^{2}$/s，则加速时标远超自由膨胀期。
 
 Bohm 极限下加速时标：$\tau_{\rm acc} \approx 3.3 \times 10^7 E_{\rm TeV} B^{-1}_{100} V^{-2}_{\rm sh,8}$ s。代入 $B = 100\ \mu$G，$T_s = 300$ yr：
 
@@ -303,7 +303,7 @@ Amato (2014) 特别讨论了"强流区"色散关系的完整推导——标准�
 
 Filamentation 不稳定性在 Tycho 参数下可达 ~200 TeV，距膝点差约一个量级。Blasi (2013) 指出 SNRs with even larger velocity (therefore much younger) may be responsible for acceleration of PeV CRs。
 
-银河系 SN 供给功率 $\sim 3 \times 10^{42}$ erg/s（Gaisser 1990；Grenier 2015 给出总 CR 相关光度 $\sim 10^{41}$ erg/s），与观测 CR 能量密度 $\rho_E \approx 1$ eV/cm³ 匹配。
+银河系 SN 供给功率 $\sim 3 \times 10^{42}$ erg/s（Gaisser 1990；Grenier 2015 给出总 CR 相关光度 $\sim 10^{41}$ erg/s），与观测 CR 能量密度 $\rho_E \approx 1$ eV/cm$^{3}$ 匹配。
 
 ## 1.3 观测约束
 
@@ -319,7 +319,7 @@ $$
 X(R) = \frac{\beta}{\beta_0} X_0 \left(\frac{R}{R_0}\right)^{-\alpha}
 $$
 
-典型拟合（Strong et al. 2007）：$\alpha = 0.54$，$X_0 = 11.8$ g cm⁻²，$R_0 = 4.9$ GV，源谱刚度指数 $-2.35$。
+典型拟合（Strong et al. 2007）：$\alpha = 0.54$，$X_0 = 11.8$ g cm$^{-2}$，$R_0 = 4.9$ GV，源谱刚度指数 $-2.35$。
 
 **关键困境**：B/C 和 Sub-Fe/Fe 数据本身无法区分纯扩散、对流、再加速等多种模型——所有模型都能提供 adequate fit。必须结合多种观测才能约束模型。
 
@@ -342,10 +342,10 @@ $$
 **核心约束**：基于这些同位素和更新截面，得到 **$z_h = 4-6$ kpc**。
 
 **放射性时钟逻辑链**：
-- $^{10}{\rm Be}$/$^{9}{\rm Be}$ 数据 → 局部扩散系数 $D_{xx} \approx (3-5) \times 10^{28}$ cm²/s（在 3 GV）；
+- $^{10}{\rm Be}$/$^{9}{\rm Be}$ 数据 → 局部扩散系数 $D_{xx} \approx (3-5) \times 10^{28}$ cm$^{2}$/s（在 3 GV）；
 - 结合稳定次级/初级比 → 晕大小 $z_h \approx 4$ kpc；
 - 泄漏盒"逃逸时间" $\approx 10^7$ yr（实际从源到晕边界时间约 10 倍）；
-- 泄漏盒"气体密度" $\approx 0.3$ cm⁻³（实际 4 kpc 晕的平均密度约 $0.03$ cm⁻³）。
+- 泄漏盒"气体密度" $\approx 0.3$ cm$^{-3}$（实际 4 kpc 晕的平均密度约 $0.03$ cm$^{-3}$）。
 
 泄漏盒的"逃逸时间"和"气体密度"均比实际值高一个量级，**不能直接理解为物理量**。
 
@@ -530,10 +530,10 @@ $$
 $$
 - 释放电子典型动能 **35 eV**，几乎与 CR 能量无关；电子至少再电离 1 个原子/分子；
 - 完全电离气体加热转化效率 **~100%**；中性气体 **~20%**（次级电离 + 束缚态激发）；
-- CR 加热率 $\sim 10^{-27} (\zeta_H^{\rm CR} / 10^{-16})$ erg s⁻¹ 每 H；
+- CR 加热率 $\sim 10^{-27} (\zeta_H^{\rm CR} / 10^{-16})$ erg s$^{-1}$ 每 H；
 - 暗 ISM 温度维持 $\sim 10$ K（高于 CMB 2.7 K）；电子分数 $x(e) < 10^{-7}$。
 
-**电离率**：本地 ISM $\zeta_H^{\rm CR} \approx 1.4 \times 10^{-17}$ s⁻¹（外推 Voyager 1 到 1 MeV）；CR 能量密度 $\approx 1.9$ eV cm⁻³。
+**电离率**：本地 ISM $\zeta_H^{\rm CR} \approx 1.4 \times 10^{-17}$ s$^{-1}$（外推 Voyager 1 到 1 MeV）；CR 能量密度 $\approx 1.9$ eV cm$^{-3}$。
 
 **CR 诱导 UV 辐射**：$H_{2}$ 次级电子在云深处产生内部 UV 源（星光不穿透的区域），驱动 CR 诱导 UV 光解化学；速率与 $\zeta_{H_2}^{\rm CR}$ 线性相关。
 
@@ -544,7 +544,7 @@ $$
 $$
 \text{H}^+/\text{H}_3^+ + \text{O} \to \text{O}^+ \to \text{OH}^+ \to \text{H}_2\text{O}^+ \to \text{H}_3\text{O}^+
 $$
-O 离子序列效率由 $f(\text{H}_2)$ 限制。$H_{2}$O⁺/OH⁺ 比对 $f(\text{H}_2)$ 敏感 → 可作为分子分数探针。
+O 离子序列效率由 $f(\text{H}_2)$ 限制。$H_{2}$O$^{+}$/OH$^{+}$ 比对 $f(\text{H}_2)$ 敏感 → 可作为分子分数探针。
 
 **散裂与轻元素合成**：
 - $^{6}{\rm Li}$、$^{9}{\rm Be}$、$^{10}{\rm B}$：主要由 ISM CR 散裂产生；
@@ -570,7 +570,7 @@ O 离子序列效率由 $f(\text{H}_2)$ 限制。$H_{2}$O⁺/OH⁺ 比对 $f(\te
 - 缩放律：电子量热效率大；质子量热效率 **<50%**；
 - 至 TeV 的硬/平谱支持 CR 核的能量无关损失机制优于扩散损失；
 - **CR 核主要由平流带离星暴核**（带走能量与轻子产生潜力）；
-- Arp 220 中 $\zeta_{H_2}^{\rm CR} > 10^{-13}$ s⁻¹，比 CMZ 高 ~$10^2$ 倍。
+- Arp 220 中 $\zeta_{H_2}^{\rm CR} > 10^{-13}$ s$^{-1}$，比 CMZ 高 ~$10^2$ 倍。
 
 **FIR–射电光度相关**（Helou 1985）：若星系是好电子量热器，超新星率可解释相关。类似：FIR–$\gamma$ 相关（若星系是好质子量热器）。
 
@@ -591,7 +591,7 @@ O 离子序列效率由 $f(\text{H}_2)$ 限制。$H_{2}$O⁺/OH⁺ 比对 $f(\te
 | 7 | $(B/\mu\text{G})(R/\text{kpc}) > 2(E/10^{18}\text{eV})/(Z\beta)$ | Hillas 判据 | Bhattacharjee & Sigl 1999 |
 | 8 | $E_{\rm th} = m_\pi(m_N+m_\pi/2)/\varepsilon \simeq 6.8\times 10^{16}(\varepsilon/\text{eV})^{-1}$ eV | GZK 质子阈值 | Bhattacharjee & Sigl 1999 |
 | 9 | $D_{xx} \approx (\delta B_{\rm res}/B)^{-2} v r_g / 3$ | QLT 扩散系数 | Strong 2007 |
-| 10 | $D_{xx} \sim 3\times 10^{28}$ cm²/s at 1 GeV/n | 经验扩散系数 | Strong 2007 |
+| 10 | $D_{xx} \sim 3\times 10^{28}$ cm$^{2}$/s at 1 GeV/n | 经验扩散系数 | Strong 2007 |
 | 11 | $X(R) = \frac{\beta}{\beta_0} X_0 (R/R_0)^{-\alpha}$, $\alpha=0.54$ | 逃逸长度拟合 | Strong 2007 |
 | 12 | $\lambda_{\rm esc} = \lambda_{\rm esc}(4\text{GV})(R/4\text{GV})^{0.6}$ | Rigidity-dependent 逃逸（Gupta-Webber） | Gaisser 1990 |
 | 13 | $N_s/N_p \sim E^{-2/3}$（Kolmogorov 非定态云捕获） | 次级/初级比 | Biermann 1996 |
@@ -607,9 +607,9 @@ O 离子序列效率由 $f(\text{H}_2)$ 限制。$H_{2}$O⁺/OH⁺ 比对 $f(\te
 | 23 | $\dot{p} \propto -\nabla\cdot\vec{V} \cdot E/3$ | 绝热能量损失 | Strong 2007 |
 | 24 | $\delta = -[3D\nabla f + u_p(\partial f/\partial p)]/vf$ | 各向异性（扩散近似） | Strong 2007 |
 | 25 | $\delta_{\rm CG} = (\gamma+2)u/c$ | Compton-Getting 各向异性 | Strong 2007 |
-| 26 | $\zeta_{H}^{\rm CR} \approx 1.4\times 10^{-17}$ s⁻¹ | 本地 ISM CR 电离率 | Grenier 2015 |
-| 27 | $\zeta_{H_2}^{\rm CR} > 10^{-13}$ s⁻¹（Arp 220） | 星暴电离率 | Grenier 2015 |
-| 28 | $(\dot{n}_X)_0 \simeq 10^{35}$ Mpc⁻³ yr⁻¹ | Top-down 衰变率基准 | Bhattacharjee & Sigl 1999 |
+| 26 | $\zeta_{H}^{\rm CR} \approx 1.4\times 10^{-17}$ s$^{-1}$ | 本地 ISM CR 电离率 | Grenier 2015 |
+| 27 | $\zeta_{H_2}^{\rm CR} > 10^{-13}$ s$^{-1}$（Arp 220） | 星暴电离率 | Grenier 2015 |
+| 28 | $(\dot{n}_X)_0 \simeq 10^{35}$ Mpc$^{-3}$ yr$^{-1}$ | Top-down 衰变率基准 | Bhattacharjee & Sigl 1999 |
 | 29 | $\frac{p+H}{5.63\ {\rm GeV}} \to p+p+p+\bar{p}$ | 反质子产生阈值与最小过程 | Gaisser 1990 |
 | 30 | $F_0(k) = (\pi/6)^{1/2}(\xi_{\rm CR}/\Lambda)^{1/2}(c/V_{\rm sh})^{1/2}$ | 高 $\xi_{\rm CR}$ 下的 $F_0$ 上限 | Blasi 2013 |
 
@@ -617,15 +617,15 @@ O 离子序列效率由 $f(\text{H}_2)$ 限制。$H_{2}$O⁺/OH⁺ 比对 $f(\te
 
 | 物理量 | 数值 | 备注 |
 |---|---|---|
-| 空间扩散系数 $D_{xx}$（1 GeV/n） | $(3-5)\times 10^{28}$ cm²/s | Strong 2007 |
-| 银河系 CR 能量密度 | $\rho_E \approx 1$ eV/cm³ | Gaisser 1990 |
+| 空间扩散系数 $D_{xx}$（1 GeV/n） | $(3-5)\times 10^{28}$ cm$^{2}$/s | Strong 2007 |
+| 银河系 CR 能量密度 | $\rho_E \approx 1$ eV/cm$^{3}$ | Gaisser 1990 |
 | 银河系总 CR 光度 | $\sim 10^{41}$ erg/s | Grenier 2015 |
 | 银河系 SN 供给功率 | $\sim 3\times 10^{42}$ erg/s | Gaisser 1990 |
 | CR 加速效率 $\xi_{\rm CR}$ | $\sim 10\%$（甚至至 50%） | Blasi 2013 |
 | 晕高度 $z_h$ | 4–6 kpc（$^{10}{\rm Be}$/$^{9}{\rm Be}$ 约束） | Strong 2007 |
 | 10 GeV/n CR 银河系停留时间 | $\sim 10^8$ 年 | Grenier 2015 |
-| 总遍历气体柱密度 $N_H$ | $\sim 3\times 10^{24}$ cm⁻² | Grenier 2015 |
-| 逃逸长度 $X_0$ | 11.8 g/cm²（at 4.9 GV） | Strong 2007 |
+| 总遍历气体柱密度 $N_H$ | $\sim 3\times 10^{24}$ cm$^{-2}$ | Grenier 2015 |
+| 逃逸长度 $X_0$ | 11.8 g/cm$^{2}$（at 4.9 GV） | Strong 2007 |
 | B/C 逃逸指数 $\alpha$ | 0.54 | Strong 2007 |
 | 观测微分谱指数 $\gamma$（10 GeV–TeV） | $\approx 2.7$ | Gaisser 1990 |
 | 源谱指数 | $\approx 2.1$（$\gamma - \delta$） | Gaisser 1990 |
@@ -646,18 +646,18 @@ O 离子序列效率由 $f(\text{H}_2)$ 限制。$H_{2}$O⁺/OH⁺ 比对 $f(\te
 | PPP 阈值 | $\sim 5\times 10^{17}$ eV | Bhattacharjee & Sigl 1999 |
 | 核光致分裂长度（$2\times 10^{20}$ eV） | $\sim 10$ Mpc | Bhattacharjee & Sigl 1999 |
 | FR-II hot spot $E_{\max}$ | $\sim 10^{21}$ eV | Bhattacharjee & Sigl 1999 |
-| Top-down 衰变率基准（$m_X=10^{16}$ GeV） | $\sim 10^{35}$ Mpc⁻³ yr⁻¹ | Bhattacharjee & Sigl 1999 |
+| Top-down 衰变率基准（$m_X=10^{16}$ GeV） | $\sim 10^{35}$ Mpc$^{-3}$ yr$^{-1}$ | Bhattacharjee & Sigl 1999 |
 | Hill 谱 $\alpha$（x≪1） | 1.3–1.5 | Bhattacharjee & Sigl 1999 |
 | 核子占强子数 | 3–10% | Bhattacharjee & Sigl 1999 |
 | 电子能量损失（银河系内） | 60% | Grenier 2015 |
 | 质子能量损失（强子反应） | 10% | Grenier 2015 |
 | 电子量热器效率（星暴星系） | 大（good calorimeter） | Grenier 2015 |
 | 质子量热器效率（星暴星系） | <50% | Grenier 2015 |
-| 本地 ISM CR 电离率 $\zeta_H^{\rm CR}$ | $1.4\times 10^{-17}$ s⁻¹ | Grenier 2015 |
+| 本地 ISM CR 电离率 $\zeta_H^{\rm CR}$ | $1.4\times 10^{-17}$ s$^{-1}$ | Grenier 2015 |
 | 暗云温度 | $\sim 10$ K | Grenier 2015 |
 | 暗云电子分数 $x(e)$ | $< 10^{-7}$ | Grenier 2015 |
-| CMZ $\zeta_{H_2}^{\rm CR}$ | $(2-7)\times 10^{-15}$ s⁻¹ | Grenier 2015 |
-| Arp 220 $\zeta_{H_2}^{\rm CR}$ | $> 10^{-13}$ s⁻¹ | Grenier 2015 |
+| CMZ $\zeta_{H_2}^{\rm CR}$ | $(2-7)\times 10^{-15}$ s$^{-1}$ | Grenier 2015 |
+| Arp 220 $\zeta_{H_2}^{\rm CR}$ | $> 10^{-13}$ s$^{-1}$ | Grenier 2015 |
 | Fermi Bubbles $\gamma$ 功率 | $2\times 10^{30}$ W | Grenier 2015 |
 | Fermi Bubbles 磁场 | 1.5 nT | Grenier 2015 |
 | Fermi Bubbles 双锥外流速度 | >900 km/s | Grenier 2015 |
@@ -670,18 +670,18 @@ O 离子序列效率由 $f(\text{H}_2)$ 限制。$H_{2}$O⁺/OH⁺ 比对 $f(\te
 | Alfvén 速度（ISM） | $V_a \sim 30$ km/s | Strong 2007 |
 | Kolmogorov 谱 $D_{xx}(R)$ 标度 | $R^{1/3}$ | Strong 2007 |
 | Kraichnan 谱 $D_{xx}(R)$ 标度 | $R^{1/2}$ | Strong 2007 |
-| 泄漏盒"气体密度"（非物理） | $\sim 0.3$ cm⁻³ | Strong 2007 |
-| 4 kpc 晕实际平均密度 | $\sim 0.03$ cm⁻³ | Strong 2007 |
+| 泄漏盒"气体密度"（非物理） | $\sim 0.3$ cm$^{-3}$ | Strong 2007 |
+| 4 kpc 晕实际平均密度 | $\sim 0.03$ cm$^{-3}$ | Strong 2007 |
 | AGN 核心 $E_c$ | $\sim 10^{19}$ eV（逃出 <$10^{16}$ eV） | Bhattacharjee & Sigl 1999 |
 | 银河晕磁场（Bhattacharjee 2000） | $B \sim 2\ \mu$G（盘），$\sim 0.15\ \mu$G（65 kpc） | Al-Dargazelli 1996 |
 | 反转长度 $\lambda$（银河局部） | $\sim 0.2$ kpc | Al-Dargazelli 1996 |
 | 反转长度 $\lambda$（河外） | $\sim 100$ kpc | Al-Dargazelli 1996 |
-| 银河风速度约束 | $< 10$ km s⁻¹ kpc⁻¹（线性） | Strong 2007 |
-| 银河风拟合速度（恒定） | $\sim 15$ km s⁻¹ | Strong 2007 |
+| 银河风速度约束 | $< 10$ km s$^{-1}$ kpc$^{-1}$（线性） | Strong 2007 |
+| 银河风拟合速度（恒定） | $\sim 15$ km s$^{-1}$ | Strong 2007 |
 | Biermann 三源 wind-SN 膝下谱 | $E^{-2.67}$ | Biermann 1996 |
 | Biermann 三源 wind-SN 膝上谱 | $E^{-3.07}$ | Biermann 1996 |
 | Biermann 三源 ISM-SN 谱 | $E^{-2.75}$ | Biermann 1996 |
 | Biermann 三源 射电星系热点谱（注入） | $E^{-2.0}$ | Biermann 1996 |
-| 分子云壳层 grammage | $\sim 1$ g/cm² | Biermann 1996 |
+| 分子云壳层 grammage | $\sim 1$ g/cm$^{2}$ | Biermann 1996 |
 | Biermann 三种 regime 切换（1→2） | $\sim 20$ GeV/n | Biermann 1996 |
 
