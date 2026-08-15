@@ -8,6 +8,16 @@ doi: 未提供（该期为 Nobel Lecture 特刊，版权属 THE NOBEL FOUNDATION
 arxiv: 无
 keywords: 核天体物理、恒星核合成、元素起源、pp 链、CNO 循环、三 α 过程、Hoyle 共振态、He/C/O/Si 燃烧、弱相互作用、s/r 过程、超新星核合成、同位素异常、核宇宙化学计时
 category: 恒星核合成
+sections:
+  - '§1 Introduction'
+  - '§2 Early Research'
+  - '§3 Nuclear Reaction Rates'
+  - '§4 Hydrogen Burning'
+  - '§5 Helium Burning'
+  - '§6 Advanced Burning Stages'
+  - '§7 Weak Interaction Rates'
+  - '§8 Abundances in Explosive Nucleosynthesis'
+  - '§9 Conclusions and Anomalies'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'

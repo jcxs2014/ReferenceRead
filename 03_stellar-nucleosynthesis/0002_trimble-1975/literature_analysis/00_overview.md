@@ -8,6 +8,16 @@ doi: 10.1103/RevModPhys.47.877
 arxiv: 未提供
 keywords: 化学元素丰度、核合成、r 过程、s 过程、p 过程、银河演化、初始质量函数、超新星
 category: 恒星核合成
+sections:
+  - '§I Introduction and History'
+  - '§II Observed Abundances (I)'
+  - '§II Observed Abundances (II)'
+  - '§III Cosmological Nucleosynthesis'
+  - '§IV Hydrostatic Processes in Stars'
+  - '§V Violent Processes in Stars'
+  - '§VI Processes Which Build Heavy Elements and Rare Isotopes'
+  - '§VII Galaxy Evolution Models'
+  - '§VIII Conclusions and Exhortations'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'

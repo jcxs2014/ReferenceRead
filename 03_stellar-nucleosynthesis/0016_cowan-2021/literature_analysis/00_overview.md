@@ -7,6 +7,16 @@ pages: '015002'
 doi: 10.1103/RevModPhys.93.015002
 arxiv: arXiv:2101.10655
 category: 恒星核合成
+sections:
+  - '§I Introduction and Historical Reviews'
+  - '§II Observations'
+  - '§III Basic Working of the r-Process'
+  - '§IV Experimental Developments for the r-Process'
+  - '§V Nuclear Modeling of r-Process Input'
+  - '§VI Astrophysical Sites and Their Ejecta'
+  - '§VII Electromagnetic Signatures of the r-Process'
+  - '§VIII Abundance Evolution in the Galaxy'
+  - '§IX Final Remarks and Conclusions'
 status: completed
 read_date: '2026-08-15'
 lastread: '2026-08-15'

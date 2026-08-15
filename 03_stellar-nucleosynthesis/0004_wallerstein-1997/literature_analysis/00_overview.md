@@ -10,6 +10,16 @@ doi: S0034-6861(97)00204-3
 arxiv: 未提供
 keywords: stellar nucleosynthesis, B2FH, AGB 星，s 过程，r 过程，超新星核合成，元素起源，恒星演化，pp 链，CNO 循环，AGB nucleosynthesis, r-process site
 category: 恒星核合成
+sections:
+  - '§I Preface and Introduction'
+  - '§II Stellar Evolution'
+  - '§III Hydrogen Burning'
+  - '§IV The X-Process for Light Elements'
+  - '§V Helium Burning'
+  - '§VI Advanced Burning Stages'
+  - '§VII The s-Process'
+  - '§VIII The r-Process'
+  - '§IX The p- and e-Processes'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'

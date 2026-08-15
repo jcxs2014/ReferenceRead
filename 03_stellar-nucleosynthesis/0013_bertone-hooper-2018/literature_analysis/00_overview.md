@@ -8,7 +8,17 @@ doi: 10.1103/RevModPhys.90.045002
 arxiv: 未提供（PDF 中未出现 arXiv 号）
 keywords: Dark matter；galaxy clusters；rotation curves；WIMPs；axions；supersymmetry；MOND；direct detection；indirect detection；structure
   formation
-category: 恒星核合成
+category: 暗物质综述
+sections:
+  - '§I Preface'
+  - '§II Prehistory of Dark Matter'
+  - '§III Dark Matter in Galaxy Clusters'
+  - '§IV Rotation Curves and Dark Matter'
+  - '§V Baryonic Dark Matter'
+  - '§VI Modified Gravity'
+  - '§VII Dark Matter Particles'
+  - '§VIII Piecing the Puzzle Together'
+  - '§IX The Hunt for Dark Matter'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'

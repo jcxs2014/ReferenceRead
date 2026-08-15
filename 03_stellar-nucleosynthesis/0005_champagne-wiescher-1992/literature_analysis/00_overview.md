@@ -8,6 +8,16 @@ doi: 未提供
 arxiv: 无
 keywords: nucleosynthesis, hot CNO cycles, rp-process
 category: 恒星核合成
+sections:
+  - '§1 Introduction'
+  - '§2 Nuclear Reaction Rates'
+  - '§3 The Hot CNO Cycles'
+  - '§4 The Hot CNO Cycles (Continued)'
+  - '§5 Laboratory vs. Stellar Reaction Rates'
+  - '§6 The rp-Process'
+  - '§7 The rp-Process Impedance'
+  - '§8 Network Calculations'
+  - '§9 Figures and Tables'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'

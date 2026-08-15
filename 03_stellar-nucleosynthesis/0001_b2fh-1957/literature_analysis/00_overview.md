@@ -8,6 +8,19 @@ doi: 10.1103/RevModPhys.29.547（本 PDF 未直接给出 DOI，由引文推断�
 arxiv: 未提供（1957 年出版，早于 arXiv）
 keywords: 核合成、r 过程、s 过程、p 过程、α 过程、ε 过程、Big Bang 核合成、超新星、中子俘获、元素丰度、恒星演化、技术锝（Tc⁹⁹）、超重元素
 category: 恒星核合成
+sections:
+  - '§I Introduction'
+  - '§II Physical Processes Involved'
+  - '§III Hydrogen Burning, Helium Burning, α Process & Neutron Production'
+  - '§IV Synthesis of the Light Elements'
+  - '§V Synthesis of the Elements Heavier than Iron (I)'
+  - '§VI Synthesis of the Elements Heavier than Iron (II)'
+  - '§VII The Rate of the s Process'
+  - '§VIII Extension and Termination of the s Process'
+  - '§IX The Distribution of Neutron Sources'
+  - '§X The p Process'
+  - '§XI Synthesis in Binary Systems'
+  - '§XII Conclusion'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'

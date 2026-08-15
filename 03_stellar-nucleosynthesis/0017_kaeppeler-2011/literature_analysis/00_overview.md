@@ -7,6 +7,12 @@ pages: '157-193'
 doi: 10.1103/RevModPhys.83.157
 arxiv: arXiv:1012.1223
 category: 恒星核合成
+sections:
+  - '§I Introduction'
+  - '§II Nuclear Physics'
+  - '§III Stellar Models'
+  - '§IV Observational Constraints'
+  - '§V Conclusions'
 status: completed
 read_date: '2026-08-15'
 lastread: '2026-08-15'
