@@ -7,6 +7,12 @@ pages: '083005'
 doi: 10.1103/PhysRevD.104.083005
 arxiv: arXiv:2103.04108
 category: 宇宙线传播
+sections:
+  - '§1 Introduction'
+  - '§2 Generalities on CR Propagation'
+  - '§3 Statistical Method'
+  - '§4 New Minimal, Median and Maximal Models'
+  - '§5 Summary and Conclusions'
 status: completed
 read_date: '2026-08-15'
 lastread: '2026-08-15'
