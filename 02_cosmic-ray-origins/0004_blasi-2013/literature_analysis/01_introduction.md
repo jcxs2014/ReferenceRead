@@ -10,20 +10,20 @@
 
 - 从 Hess（1912）的宇宙线发现与 Rossi（1964）书的 50 周年回顾，引出"一个世纪后仍未完全解决"的主题。
 - 给出银河系宇宙线的基本图像：质子为主（~90%）、氦核（~10%），能量密度约 1 eV/cm³。
-- **全粒子能谱**：低能端 (~30 GeV 以下) 被太阳调制；膝点 knee 在 E_K = 3 × 10¹⁵ eV 处从 γ ≈ 2.7 变到 ≈ 3.1；膝点之上成分趋向重核主导，最高至 ~10¹⁷ eV 后 Fe 谱可与轻成分相当。
+- **全粒子能谱**：低能端 (~30 GeV 以下) 被太阳调制；膝点 knee 在 E_K = 3 × $10^{15}$ eV 处从 γ ≈ 2.7 变到 ≈ 3.1；膝点之上成分趋向重核主导，最高至 ~$10^{17}$ eV 后 Fe 谱可与轻成分相当。
 - **PAMELA / CREAM / AMS-02 硬转折**：p 与 ⁴He 在 230 GV 处硬化（γ₁=2.89→γ₂=2.67）。
 - **正电子分数异常**：>10 GeV 后 Φ(e⁺)/(Φ(e⁺)+Φ(e⁻)) 上升；反质子分数正常下降。
-- **膝点物理解释**：各元素截止叠加（刚性依赖加速），若 p_max ≈ 5 × 10¹⁵ eV，则 Fe_max ≈ 26 × 5 × 10¹⁵ eV ≈ (1–2) × 10¹⁷ eV。
+- **膝点物理解释**：各元素截止叠加（刚性依赖加速），若 p_max ≈ 5 × $10^{15}$ eV，则 Fe_max ≈ 26 × 5 × $10^{15}$ eV ≈ (1–2) × $10^{17}$ eV。
 - **SNR 作为主源的间接证据**：γ 射线 π⁰ 衰变证据（MC 邻近 SNR，Tycho）、X 射线窄磁边缘、DSA 理论。
 
 ## 1.2 原文内容（要点摘录）
 
 - [FACT] "In 1962 Bruno Rossi finalized the writing of his book Cosmic Rays ... the field of CR research had become a complex combination of several fields, from Astronomy to Plasma Physics and Particle Physics."
 - [FACT] "Cosmic rays are mainly charged particles that contribute an energy density in the Galaxy of about 1 eV cm⁻³. They are mainly protons ... with about 10% fraction of helium nuclei and smaller abundances of heavier elements."
-- [FACT] The knee: "the prominent steepening of the spectrum at energy E_K = 3 × 10¹⁵ eV is named the knee: at this point the spectral slope of the differential flux changes from ~−2.7 to ~−3.1."
-- [FACT] 膝点之上化学组成："evidence that the chemical composition of CRs changes across the knee region with a trend to become increasingly more dominated by heavy nuclei at high energy, at least up to ~10¹⁷ eV."
-- [FACT] KASCADE-Grande（Apel et al, 2013）：电子富（轻）与电子贫（重）簇射分离，轻成分在 10¹⁷ eV 处出现类似 ankle 的结构；ICETOP（Aartsen et al, 2013）也得到类似结论。
-- [FACT] 与 Pierre Auger / HiRes / Telescope Array 的化学成分测量冲突：后者在 10¹⁸ eV 处见轻成分主导。
+- [FACT] The knee: "the prominent steepening of the spectrum at energy E_K = 3 × $10^{15}$ eV is named the knee: at this point the spectral slope of the differential flux changes from ~−2.7 to ~−3.1."
+- [FACT] 膝点之上化学组成："evidence that the chemical composition of CRs changes across the knee region with a trend to become increasingly more dominated by heavy nuclei at high energy, at least up to ~$10^{17}$ eV."
+- [FACT] KASCADE-Grande（Apel et al, 2013）：电子富（轻）与电子贫（重）簇射分离，轻成分在 $10^{17}$ eV 处出现类似 ankle 的结构；ICETOP（Aartsen et al, 2013）也得到类似结论。
+- [FACT] 与 Pierre Auger / HiRes / Telescope Array 的化学成分测量冲突：后者在 $10^{18}$ eV 处见轻成分主导。
 - [FACT] PAMELA："The slope of the proton spectrum below 230 GeV was measured to be γ₁ = 2.89 ± 0.015, while the slope above 230 GeV becomes γ₂ = 2.67 ± 0.03."
 - [FACT] AMS-02 初步结果："do not confirm the existence of the spectral breaks in the protons and helium spectra, as observed by PAMELA."
 - [FACT] B/C ratio："provides the best estimate so far of the amount of matter that CRs traverse during their journey through the Galaxy."
@@ -36,7 +36,7 @@
 ## 1.3 关键公式
 
 - [FACT] 膝点叠加假设（刚性依赖加速）：
-  - 若 E_p,max ≈ 5 × 10¹⁵ eV，则 Fe_max = 26 · E_p,max ≈ (1–2) × 10¹⁷ eV。
+  - 若 E_p,max ≈ 5 × $10^{15}$ eV，则 Fe_max = 26 · E_p,max ≈ (1–2) × $10^{17}$ eV。
   - 这里假设 Fe 在高能下完全电离，Z=26。
 
 ## 1.4 关键数值
@@ -45,9 +45,9 @@
 |--------|------|------|
 | 银河系 CR 能量密度 | ~1 eV/cm³ | 质子主导 |
 | 质子分数 | ~90% | He 约 10%，重核更少 |
-| 膝点能量 E_K | 3 × 10¹⁵ eV | 谱斜率从 −2.7 变到 −3.1 |
-| 膝点以上重核主导上限 | ~10¹⁷ eV | KASCADE-Grande, ICETOP |
-| 膝点叠加 Fe_max | (1–2) × 10¹⁷ eV | 若 p_max=5 × 10¹⁵ eV |
+| 膝点能量 E_K | 3 × $10^{15}$ eV | 谱斜率从 −2.7 变到 −3.1 |
+| 膝点以上重核主导上限 | ~$10^{17}$ eV | KASCADE-Grande, ICETOP |
+| 膝点叠加 Fe_max | (1–2) × $10^{17}$ eV | 若 p_max=5 × $10^{15}$ eV |
 | PAMELA 硬转折 | 230 GV | p, He 谱 |
 | γ₁（p < 230 GV） | 2.89 ± 0.015 | 低能段斜率 |
 | γ₂（p > 230 GV） | 2.67 ± 0.03 | 高能段斜率 |
@@ -71,6 +71,6 @@
 
 ## 1.8 潜在问题与值得关注的地方
 
-- **潜在不一致性**：KASCADE-Grande 与 Auger 在 10¹⁸ eV 处化学成分测量冲突（见 23 节 Potential Inconsistency）。
+- **潜在不一致性**：KASCADE-Grande 与 Auger 在 $10^{18}$ eV 处化学成分测量冲突（见 23 节 Potential Inconsistency）。
 - **信息缺失**：正电子分数上升的物理起源未确定——是暗物质？邻近脉冲星？还是尚未识别的源类？
 - [CRITIQUE] 作者对"膝点 = 银河系 CR 截止"的解读过于朴素：后续 CTA、LHAASO 将揭示 10–1000 TeV 处的详细结构，可能动摇"膝点 = 单个 Fe_max"这种解释。

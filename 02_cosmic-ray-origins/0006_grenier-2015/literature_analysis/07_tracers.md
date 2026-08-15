@@ -10,9 +10,9 @@
 
 **[FACT]** 准确示踪所有云尺度的气体质量是理解星系演化与恒星形成效率的关键。γ 射线与尘埃发射示踪**整个气体**（不论化学/热状态），但缺点是沿视线积分 N_H 全银河。
 
-**[FACT]** 与 CO 示踪的互补关系：**X_CO** = N(H₂)/W_CO (cm⁻² / (K km s⁻¹)) — Bolatto et al. (2013) 综述。跨星系随金属度与 UV 流梯度温和变化，中心数 kpc 外大体均匀。
+**[FACT]** 与 CO 示踪的互补关系：**X_CO** = N($H_{2}$)/W_CO (cm⁻² / (K km s⁻¹)) — Bolatto et al. (2013) 综述。跨星系随金属度与 UV 流梯度温和变化，中心数 kpc 外大体均匀。
 
-**[FACT]** HI-H₂ 界面富含致密不透明 HI 与 CO-faint / CO-dark H₂（van Dishoeck & Black 1988; Visser 2009; Wolfire 2010）。联合 CR 与尘埃示踪揭示**暗中性介质（DNM）**（Grenier 2005）——远超 HI 与 CO 巡天的气体质量。
+**[FACT]** HI-$H_{2}$ 界面富含致密不透明 HI 与 CO-faint / CO-dark $H_{2}$（van Dishoeck & Black 1988; Visser 2009; Wolfire 2010）。联合 CR 与尘埃示踪揭示**暗中性介质（DNM）**（Grenier 2005）——远超 HI 与 CO 巡天的气体质量。
 
 **[FACT]** γ-ray 与尘埃**空间相关性**是关键：排除 dust-to-gas 比、尘埃不透明度或 CR 流的局部变化（Planck & Fermi Collab. 2015）。
 
@@ -31,7 +31,7 @@
 
 **[FACT]** 附近云 DNM 柱密度图：DNM 占据体积与柱密度接近 CO-bright 核心周围致密 HI（Abdo 2010b; Ackermann 2012b,e）。
 
-**[FACT]** 10⁴–10⁶ M⊙ 云样品中：
+**[FACT]** $10^{4}$–$10^{6}$ M⊙ 云样品中：
 - DNM 质量与 CO-bright 可比（**40–190%**）
 - 仅 HI-bright 质量的**约 1/5**
 - DNM 占云总质量通常 <20%（因 HI 主导），但可能有极大偏差：2005 EGRET 样品两个复合体达 **35%** 与 **60%** 质量分数。
@@ -40,16 +40,16 @@
 
 **[FACT]** 注意 HI 质量分数的不确定度因云外缘 HI 观测中定义不清。
 
-**[FACT]** DNM 中尘埃 UV 屏蔽理论上解释 HI-H₂ 过渡与 CO 观测（Lee 2014；Langer 2014 图 17；Wolfire 2010）。
+**[FACT]** DNM 中尘埃 UV 屏蔽理论上解释 HI-$H_{2}$ 过渡与 CO 观测（Lee 2014；Langer 2014 图 17；Wolfire 2010）。
 
 **[FACT]** 图 9(b)：γ-ray 估算 DNM 中 A_V/N_H 与 HI 气体相当。
 
 **[FACT]** 但 DNM 分数随 A_V 演化**令人困惑**：
 - 沿 CO-bright 部分平均 A_V 上升 → 与 CO 光解层变薄的预期**相反**（Planck & Fermi Collab. 2015）。
-- 模型预测 ~30% H₂ 质量应 CO-dark（Wolfire 2010; Levrier 2012）。
-- 图 10 中 CO-dark H₂ 分数（无论半分子或全分子假设）常**超过**理论预期。
+- 模型预测 ~30% $H_{2}$ 质量应 CO-dark（Wolfire 2010; Levrier 2012）。
+- 图 10 中 CO-dark $H_{2}$ 分数（无论半分子或全分子假设）常**超过**理论预期。
 
-**[FACT]** **结论**：DNM 到底是**主要是原子还是分子**尚无法定 → "neutral DNM" 名称合理（而非仅 "CO-dark H₂"）。
+**[FACT]** **结论**：DNM 到底是**主要是原子还是分子**尚无法定 → "neutral DNM" 名称合理（而非仅 "CO-dark $H_{2}$"）。
 
 ## 7.4 §7.1.3 About X_CO
 
@@ -59,9 +59,9 @@
 
 **[FACT]** 两个剖面都可能暗示 X_CO 随银河系半径增加（比外部星系更明显，但需小心）。
 
-**[FACT]** 图 10（CO-dark H₂ 质量分数分布）：
-- γ 射线在 Gould Belt 云（pc 尺度）平均 X_CO = **0.9 × 10²⁰ cm⁻² K⁻¹ km⁻¹ s**
-- 在 Local 与 Perseus Arms（kpc 尺度）平均 X_CO = **1.9 × 10²⁰ cm⁻² K⁻¹ km⁻¹ s**
+**[FACT]** 图 10（CO-dark $H_{2}$ 质量分数分布）：
+- γ 射线在 Gould Belt 云（pc 尺度）平均 X_CO = **0.9 × $10^{20}$ cm⁻² K⁻¹ km⁻¹ s**
+- 在 Local 与 Perseus Arms（kpc 尺度）平均 X_CO = **1.9 × $10^{20}$ cm⁻² K⁻¹ km⁻¹ s**
 - 附近云低值与 CH 高分辨率或弥漫云分子化学估计一致（Liszt 2010; Cotten & Magnani 2013）。
 - Local/Perseus Arms 平均值仅比外部星系（Sandstrom 2013）均值高 30%。
 
@@ -123,9 +123,9 @@
 - DNM 中 A_V/N_H 与 HI 中尘埃估计（Bohlin 1978; Liszt 2014; Planck 2014a）+ 本地 DNM 尘埃估计（Planck 2011b）。
 - **[FACT]** DNM A_V/N_H 与 HI 中数值可比。
 
-### Figure 10 — CO-dark H₂ 质量分数
+### Figure 10 — CO-dark $H_{2}$ 质量分数
 
-- **[FACT]** 附近云的 CO-dark H₂ 质量分数（H₂ 中未被 CO 示踪的比例），按半分子（浅灰）/全分子（深灰）DNM 组成。
+- **[FACT]** 附近云的 CO-dark $H_{2}$ 质量分数（$H_{2}$ 中未被 CO 示踪的比例），按半分子（浅灰）/全分子（深灰）DNM 组成。
 - **[FACT]** 多数云 CO-dark 分数 > ~30% 理论预期 → DNM 主要原子/分子仍不清楚。
 
 ### Figure 11 — Chamaeleon 云尘埃性质
@@ -148,9 +148,9 @@
 | 后期 DNM 测量 | 118%, 164% CO-bright |
 | DNM vs HI-bright | 约 1/5 |
 | 云内 DNM 极端 | 35%, 60% |
-| 半分子 DNM 假设下 CO-dark H₂ 分数 | 常 > 30% 理论 |
-| Gould Belt X_CO (pc 尺度) | 0.9 × 10²⁰ cm⁻² K⁻¹ km⁻¹ s |
-| Local/Perseus Arms X_CO (kpc 尺度) | 1.9 × 10²⁰ cm⁻² K⁻¹ km⁻¹ s |
+| 半分子 DNM 假设下 CO-dark $H_{2}$ 分数 | 常 > 30% 理论 |
+| Gould Belt X_CO (pc 尺度) | 0.9 × $10^{20}$ cm⁻² K⁻¹ km⁻¹ s |
+| Local/Perseus Arms X_CO (kpc 尺度) | 1.9 × $10^{20}$ cm⁻² K⁻¹ km⁻¹ s |
 | 尘埃不透明度变化（Chamaeleon） | 2–4.6 倍 |
 | Chamaeleon 尘埃温度 | 14–22 K |
 | 旋转量数据 | 40,000 河外 |

@@ -42,7 +42,7 @@
 
 **[FACT]** 需**刚加速的 CR 核分布**：
 - 谱 ~E_CR^−2.4
-- 总能量 >2 GeV/n：**仅 10⁴² J**（Ackermann 2011a）
+- 总能量 >2 GeV/n：**仅 $10^{42}$ J**（Ackermann 2011a）
 
 **[FACT]** 起源未知，可能：
 1. 隐藏在区域中的 SNR
@@ -103,9 +103,9 @@
 
 **[FACT]** NGC 253 中心弱星暴 SN 率上限 <0.2 yr⁻¹（Rampadarath 2014）——可能约束那里的 γ 射线诠释。
 
-**[FACT]** CR 驱动离子化学产生的活性分子离子（OH⁺、H₂O⁺、H₃O⁺）在星暴与活动星系中观测（van der Werf 2010; Aalto 2011; Rangwala 2011; Kamenetzky 2012; Spinoglio 2012; González-Alfonso 2013; Pereira-Santaella 2013）。
+**[FACT]** CR 驱动离子化学产生的活性分子离子（OH⁺、$H_{2}$O⁺、$H_{3}$O⁺）在星暴与活动星系中观测（van der Werf 2010; Aalto 2011; Rangwala 2011; Kamenetzky 2012; Spinoglio 2012; González-Alfonso 2013; Pereira-Santaella 2013）。
 
-**[FACT]** 分子离子观测 → Arp 220 中 ζ_H₂^CR > **10⁻¹³ s⁻¹**（González-Alfonso 2013）——**比 CMZ 高 ~10² 倍**，并可示踪巨大星系风。
+**[FACT]** 分子离子观测 → Arp 220 中 ζ_$H_{2}$^CR > **$10^{-13}$ s⁻¹**（González-Alfonso 2013）——**比 CMZ 高 ~$10^{2}$ 倍**，并可示踪巨大星系风。
 
 ## 8.5 §8.5 γ Rays in Extragalactic Space
 
@@ -143,7 +143,7 @@
 | Cygnus X 星团年龄 | 3–6 Myr |
 | 超泡金属度 | 2–3 Z⊙ |
 | Cygnus X CR 谱 | E^−2.4 |
-| Cygnus X CR 能量 | 10⁴² J (>2 GeV/n) |
+| Cygnus X CR 能量 | $10^{42}$ J (>2 GeV/n) |
 | Cygnus X 磁场（压力平衡） | ~2 nT |
 | 湍动能量尺度 | ~10 pc |
 | 扩散长度抑制 | 50–100 倍 vs ISM |
@@ -153,7 +153,7 @@
 | 质子量热效率 | <50% |
 | Arp 220 SN 率 | 4 ± 2 yr⁻¹ |
 | NGC 253 中心 SN 率上限 | <0.2 yr⁻¹ |
-| Arp 220 ζ_H₂^CR | >10⁻¹³ s⁻¹ |
+| Arp 220 ζ_$H_{2}$^CR | >$10^{-13}$ s⁻¹ |
 
 ## 8.8 潜在问题
 - **[CRITIQUE]** Cygnus X "cocoon" 起源（SNR vs 风激波 vs 再加速）尚未定；需要**该复杂、致密、高压环境的详细模型**。

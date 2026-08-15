@@ -62,7 +62,7 @@ path: 02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_
 
 ## 0.3 论文性质与目标
 
-[FACT] 这是一篇**理论综述 (Theoretical Review)**，重点聚焦于 EHECR (E ≳ 10²⁰ eV) 的 **"top-down" 衰变起源模型**，同时简要回顾 "bottom-up" 加速机制。作者明确表示："this is primarily a theoretical review; we do not discuss the experimental issues (for the obvious reason of lack of expertise)"，但仍简要回顾实验现状。
+[FACT] 这是一篇**理论综述 (Theoretical Review)**，重点聚焦于 EHECR (E ≳ $10^{20}$ eV) 的 **"top-down" 衰变起源模型**，同时简要回顾 "bottom-up" 加速机制。作者明确表示："this is primarily a theoretical review; we do not discuss the experimental issues (for the obvious reason of lack of expertise)"，但仍简要回顾实验现状。
 
 ## 0.4 论文结构树（原文章节编号）
 
@@ -158,9 +158,9 @@ literature_analysis/
 ## 0.6 记号与单位约定 [FACT]
 
 - 自然单位：ℏ = c = k_B = 1。
-- 能量单位：1 EeV = 10¹⁸ eV；UHE 指 E ≳ 1 EeV；**EHE 指 E ≳ 10²⁰ eV**（作者特意区分）。
-- 主要背景光子场：CMB (ε ~ 10⁻³ eV), Extragalactic IR/Optical Background (EIB)。
-- 关键质量标度：GUT 标度 M_X ~ 10¹⁶ GeV；SUSY 标度 ~ 1 TeV。
+- 能量单位：1 EeV = $10^{18}$ eV；UHE 指 E ≳ 1 EeV；**EHE 指 E ≳ $10^{20}$ eV**（作者特意区分）。
+- 主要背景光子场：CMB (ε ~ $10^{-3}$ eV), Extragalactic IR/Optical Background (EIB)。
+- 关键质量标度：GUT 标度 M_X ~ $10^{16}$ GeV；SUSY 标度 ~ 1 TeV。
 
 ## 0.7 全文核心概念索引
 
@@ -195,7 +195,7 @@ literature_analysis/
 
 ### 前序阅读
 
-- **Gaisser (1990)** — 膝部 (10¹⁵ eV) 以下宇宙线组分（AIP Conf. Proc. 203, 168）
+- **Gaisser (1990)** — 膝部 ($10^{15}$ eV) 以下宇宙线组分（AIP Conf. Proc. 203, 168）
 - **Hillas (1984) 准则** — UHECR 源的 Larmor 半径筛选（ARA&A 22, 425）
 
 ### 关联论文

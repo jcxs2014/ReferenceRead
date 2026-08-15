@@ -19,17 +19,17 @@
 - [FACT] 射电同步辐射：ν ≃ 3.7 MHz · B_µ · E(GeV)²。
 - [FACT] 若 B 放大到 ~100 µG，GHz 射电对应 E~1–2 GeV；未放大则 ~10–20 GeV。
 - [FACT] X 射线 1 keV 同步辐射对应 E~20–30 TeV（100 µG 场下）。
-- [FACT] NLDSA 预言 K_ep ~ 10⁻³–10⁻⁴；在地球测量值 K_ep ~ 10⁻²，存在 1–2 个量级的差异。
+- [FACT] NLDSA 预言 K_ep ~ $10^{-3}$–$10^{-4}$；在地球测量值 K_ep ~ $10^{-2}$，存在 1–2 个量级的差异。
 - [FACT] "The value of K_ep as inferred from multiwavelength studies in the sources reflects the instantaneous ratio ... while the value of K_ep as measured at Earth is the result of the integration over time of the escape flux."
 
 ### §6.1 Escape
 
 - [FACT] 三种逃逸机制：(1) 激波减速使粒子不易返回；(2) 激波破裂；(3) 自散射中心随 CR 密度下降而失效。
 - [FACT] Drury (2011) 综述了该问题。
-- [FACT] 标准逃逸模型：在 z₀ 处 f(p, z₀)=0 的边界条件（Eq. 101, 102）。
+- [FACT] 标准逃逸模型：在 $z_{0}$ 处 f(p, $z_{0}$)=0 的边界条件（Eq. 101, 102）。
 - [FACT] 边界处逃逸通量（Eq. 102）：
 $$F(z_0, p) = -D(p)\frac{\partial f}{\partial z}\bigg|_{z=z_0} = -\frac{u_1 f_0(p)}{1 - \exp(u_1 z_0/D(p))}\exp\left(\frac{u_1 z_0}{D(p)}\right)$$
-- [FACT] 逃逸谱形状：在动量 p*（满足 D(p*)/u₁ ≃ z₀）处峰值 → 每个时刻的逃逸谱集中在 p* 附近。
+- [FACT] 逃逸谱形状：在动量 p*（满足 D(p*)/$u_{1}$ ≃ $z_{0}$）处峰值 → 每个时刻的逃逸谱集中在 p* 附近。
 - [FACT] Sedov 阶段时间积分（Eq. 103, 104）：**在 ξ_esc 与时间无关的假设下，逃逸谱 ∝ p⁻⁴**——与 DSA 的瞬时谱斜率无关，只依赖"逃逸发生在自相似阶段"这一前提。
 - [FACT] 若 ξ_esc 随时间下降，逃逸谱硬于 p⁻⁴。
 
@@ -70,7 +70,7 @@ $$F(z_0, p) = -D(p)\frac{\partial f}{\partial z}\bigg|_{z=z_0} = -\frac{u_1 f_0(
 
 - [FACT] AGILE（Giuliani et al. 2011, 2010）与 Fermi-LAT（Ackermann et al. 2013）**首次明确探测到 π 鼓包**（pion bump），证实 pp→π⁰→2γ。
 - [FACT] 典型对象：IC 443、W44（Fig. 12）。
-- [FACT] 分子云内密度 n=10³ cm⁻³、几何截面 σ~10⁻¹⁴ cm² → λ~10¹¹ cm —— **SNR 激波撞击分子云时可能从碰撞less 变为碰撞型**。
+- [FACT] 分子云内密度 n=$10^{3}$ cm⁻³、几何截面 σ~$10^{-14}$ cm² → λ~$10^{11}$ cm —— **SNR 激波撞击分子云时可能从碰撞less 变为碰撞型**。
 - [FACT] 分子云加热证据来自**脉泽发射**（Hewitt et al. 2009）。
 - [FACT] 逃逸 CR 到达分子云的**低能截止**条件：[D(E)·τ_SNR]^½ ≃ R_MC。
 - [FACT] π 产生截面 ~ 1/E_π → 低能 γ 谱 ~ E_γ⁻¹ 是低能截止的特征。
@@ -84,28 +84,28 @@ $$F(z_0, p) = -D(p)\frac{\partial f}{\partial z}\bigg|_{z=z_0} = -\frac{u_1 f_0(
 
 | 编号 | 公式 | 含义 |
 |------|------|------|
-| 101 | f(z,p) 边界解 | 逃逸边界条件 f(z₀,p)=0 下的分布函数 |
-| 102 | F(z₀,p) | 逃逸通量（动量依赖的峰）|
+| 101 | f(z,p) 边界解 | 逃逸边界条件 f($z_{0}$,p)=0 下的分布函数 |
+| 102 | F($z_{0}$,p) | 逃逸通量（动量依赖的峰）|
 | 103 | dε = 4πp²dp·pc·N_esc(p) = ξ_esc · ½ρV³_sh · 4πR²_sh dt | 逃逸能量守恒 |
 | 104 | N_esc(p) ∝ p⁻⁴ ξ_esc(t) | Sedov 阶段积分后逃逸谱 |
-| 105 | α = (r̃+2)/(r̃−1)，r̃ = (u₁ ± v_W,1)/(u₂ ± v_W,2) | 含移动散射中心的谱指数 |
+| 105 | α = (r̃+2)/(r̃−1)，r̃ = ($u_{1}$ ± v_W,1)/($u_{2}$ ± v_W,2) | 含移动散射中心的谱指数 |
 
 ## 6.4 关键数值
 
 | 物理量 | 数值 |
 |--------|------|
 | ν_sync (GeV e⁻) | 3.7 MHz · B_µ · E²(GeV) |
-| X 射线边缘厚度 | ~10⁻² pc |
+| X 射线边缘厚度 | ~$10^{-2}$ pc |
 | Tycho 推断 B | ~300 µG |
 | Tycho 加速 p_max | ~500 TeV |
 | RX J1713 强子模型要求 B | ~160 µG |
 | RX J1713 ICS 模型要求 B | ~10 µG |
 | RX J1713 ICS 所需 IR 密度 | 预期值 25 倍 |
-| K_ep（NLDSA 预言） | ~10⁻³–10⁻⁴ |
-| K_ep（地球观测） | ~10⁻² |
+| K_ep（NLDSA 预言） | ~$10^{-3}$–$10^{-4}$ |
+| K_ep（地球观测） | ~$10^{-2}$ |
 | 磁相干尺度 L_c | 50–100 pc |
-| 分子云密度 n | 10³ cm⁻³ |
-| 分子云碰撞长度 λ | 10¹¹ cm |
+| 分子云密度 n | $10^{3}$ cm⁻³ |
+| 分子云碰撞长度 λ | $10^{11}$ cm |
 | W28 两云相对 CR 通量差异 | 与距离成反相关 |
 
 ## 6.5 图表分析
@@ -127,6 +127,6 @@ $$F(z_0, p) = -D(p)\frac{\partial f}{\partial z}\bigg|_{z=z_0} = -\frac{u_1 f_0(
 
 ## 6.8 潜在问题与值得关注的地方
 
-- **潜在不一致性**：K_ep ~ 10⁻³–10⁻⁴（NLDSA）vs ~10⁻²（地球）——作者在 2 处强调但未给出解决路径。
+- **潜在不一致性**：K_ep ~ $10^{-3}$–$10^{-4}$（NLDSA）vs ~$10^{-2}$（地球）——作者在 2 处强调但未给出解决路径。
 - **信息缺失**：CTA 展望仅在 §8 提到；2013 年之后 CTA 数据已部分到位（如 Tycho、IC 443 的 CTA 观测），本文未涉及。
 - [CRITIQUE] §6.4 对 W28 低能截止的解释高度依赖"纯扩散 + 点源"图像；如果 CR 逃逸具有**定向性**（沿 B 场），则解释需修订。

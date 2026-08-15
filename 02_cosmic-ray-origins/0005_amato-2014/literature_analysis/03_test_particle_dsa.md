@@ -60,12 +60,12 @@ $$kT_2 = \frac{3}{16} m_p u_1^2 = 5.6\times 10^8 \left(\frac{V_{sh}}{5000\,\math
 
 **[FACT]** 强激波下游的质子/电子温度：
 
-- $kT_p \sim 15\, v_8^2$ keV（v₈ = V_sh/(10⁸ cm/s)）
+- $kT_p \sim 15\, v_8^2$ keV（$v_{8}$ = V_sh/($10^{8}$ cm/s)）
 - $T_e \sim 80\, v_8^2$ eV
 
 ## 3.4 粒子在磁场中的输运（Blasi §3.2）
 
-**[FACT]** 均匀磁场 B₀ = B₀ẑ 中的粒子轨迹（Blasi 式 (22)-(24)）：
+**[FACT]** 均匀磁场 $B_{0}$ = $B_{0}$ẑ 中的粒子轨迹（Blasi 式 (22)-(24)）：
 
 $$v_x(t) = v_\perp \cos(\Omega t + \phi)$$
 $$v_y(t) = -v_\perp \sin(\Omega t + \phi)$$
@@ -81,7 +81,7 @@ $$\left\langle \frac{\Delta\mu\,\Delta\mu}{\Delta t} \right\rangle_\phi = \pi \O
 
 $$D(p) = \frac{1}{3} v(v\tau) \simeq \frac{1}{3}\, r_L\, v\, \left(\frac{k\,P(k)}{B_0^2/8\pi}\right)^{-1} = \frac{1}{3}\, r_L\, v\, \frac{1}{F}$$
 
-**[FACT]** 量级估计：H²/D(p) ~ 10⁷ yr 对应 D ~ 10²⁹ cm²/s → δB/B ~ 6×10⁻⁴（共振波长处），即**微量的 Alfvén 波功率即可满足银河系尺度上的 CR 约束**。
+**[FACT]** 量级估计：H²/D(p) ~ $10^{7}$ yr 对应 D ~ $10^{29}$ cm²/s → δB/B ~ 6×$10^{-4}$（共振波长处），即**微量的 Alfvén 波功率即可满足银河系尺度上的 CR 约束**。
 
 ## 3.5 DSA 输运方程（Blasi §3.3 / Amato §2）
 
@@ -120,7 +120,7 @@ $$r = \frac{4 M_s^2}{M_s^2 + 3} \xrightarrow{M_s\gg 1} 4$$
 
 $$\left\langle \frac{\Delta E}{E}\right\rangle = \frac{4}{3}\beta$$
 
-其中 β = (u₁−u₂)/c → **一阶 Fermi 加速**（∝ β¹，对比二阶 Fermi 的 ∝ β²）
+其中 β = ($u_{1}$−$u_{2}$)/c → **一阶 Fermi 加速**（∝ β¹，对比二阶 Fermi 的 ∝ β²）
 
 **[FACT]** 加速时间（Blasi 式 (46)-(47)；Amato 式 (3)）：
 
@@ -140,15 +140,15 @@ $$\frac{1}{3} r_L(p_{max}) c\, F(k_{min}) \approx \tau_{SNR}$$
 
 $$r_L(p_{max}) = 1\,\mathrm{pc}\, \left(\frac{E}{10^{15}\,\mathrm{eV}}\right) B_{\mu G}^{-1}$$
 
-**[FACT]** **PeVatron 条件**（Blasi）：为使 SNR 能到 10¹⁵ eV，必须 $F(k_{min}) \gg 1$，即 δB/B₀ ≫ 1 → **必须磁场放大 ~10–100 倍**。若用 ISM 的 B/C 反推扩散系数，则 E_max 远不及 GeV。
+**[FACT]** **PeVatron 条件**（Blasi）：为使 SNR 能到 $10^{15}$ eV，必须 $F(k_{min}) \gg 1$，即 δB/$B_{0}$ ≫ 1 → **必须磁场放大 ~10–100 倍**。若用 ISM 的 B/C 反推扩散系数，则 E_max 远不及 GeV。
 
-**[FACT]** Amato 明确给出：若 ISM 湍流（Kolmogorov）不放大 → $E_{Max} \sim$ few GeV；若场放大到 δB ≈ B₀ → $E_{Max} \sim 10^4$–$10^5$ GeV，仍差 30–100 倍；因此**放大是必需的**。
+**[FACT]** Amato 明确给出：若 ISM 湍流（Kolmogorov）不放大 → $E_{Max} \sim$ few GeV；若场放大到 δB ≈ $B_{0}$ → $E_{Max} \sim 10^4$–$10^5$ GeV，仍差 30–100 倍；因此**放大是必需的**。
 
 ## 3.7 Test-Particle 理论的已知局限（Blasi §3.4 尾）
 
 **[FACT]** 三种已知偏离：
 1. 稳态假设 → 无最大能量的问题；
-2. δB/B₀ ≫ 1 时准线性理论失效；
-3. 各向异性/垂直扩散在 δB/B₀ → 1 时成为主导（NLGC 理论，Matthaeus 2003）。
+2. δB/$B_{0}$ ≫ 1 时准线性理论失效；
+3. 各向异性/垂直扩散在 δB/$B_{0}$ → 1 时成为主导（NLGC 理论，Matthaeus 2003）。
 
 **[INTERPRETATION]** 这些局限正是**过渡到 NLDSA** 的动机，见第 4 章。

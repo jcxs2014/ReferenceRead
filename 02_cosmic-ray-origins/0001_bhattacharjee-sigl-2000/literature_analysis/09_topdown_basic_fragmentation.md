@@ -11,23 +11,23 @@
 ## 9.1 本节核心内容
 
 - Top-down 场景基本思想：超重 X 粒子衰变 → 强子化 → 高能光子/中微子/核子。
-- X 粒子衰变**必须满足**三个基本条件：(a) 在近代衰变（~100 Mpc 内）；(b) m_X ≫ 10¹¹ GeV；(c) 数密度/衰变率足够大。
+- X 粒子衰变**必须满足**三个基本条件：(a) 在近代衰变（~100 Mpc 内）；(b) m_X ≫ $10^{11}$ GeV；(c) 数密度/衰变率足够大。
 - 强子化理论：三阶段 factorization（parton cascade → 非微扰 confinement → 衰变）；LPHD 假设；MLLA 极限谱。
-- X 粒子衰变率基准估算：~10³⁵ Mpc⁻³ yr⁻¹ (m_X = 10¹⁶ GeV 时)。
+- X 粒子衰变率基准估算：~$10^{35}$ Mpc⁻³ yr⁻¹ (m_X = $10^{16}$ GeV 时)。
 
 ## 9.2 §6.1 The Basic Idea
 
 ### 9.2.1 Top-down 动机 [FACT]
 
 - DSAM 加速是**自限过程**：粒子回旋半径 r_g = E/(ZeB) ≤ R (源尺寸) → E_max ~ ZeBR。
-- EHECR > 10¹¹ GeV 要求 R·B 极大；实际还须考虑传播损失与源距离问题。
-- **Top-down**：X 粒子（m_X > 10¹¹ GeV）衰变 → 无需加速。
+- EHECR > $10^{11}$ GeV 要求 R·B 极大；实际还须考虑传播损失与源距离问题。
+- **Top-down**：X 粒子（m_X > $10^{11}$ GeV）衰变 → 无需加速。
 - 历史溯源：**Lemaître "Primeval Atom"**（"the cosmic rays were glimpses of the primeval fireworks" [380]）。
 
 ### 9.2.2 Top-down 三条件 [FACT]
 
 1. **(a) 近期衰变**：X 在**近期宇宙学时代**衰变，或源距离 <~100 Mpc。例外：UHE ν + RNB → Z⁰ 共振（Z-burst，见 §5.2.4）。
-2. **(b) m_X ≫ 10¹¹ GeV**。
+2. **(b) m_X ≫ $10^{11}$ GeV**。
 3. **(c) 数密度/衰变率** 足够大。
 
 ### 9.2.3 X 衰变链 [FACT]
@@ -171,22 +171,22 @@ j_γ(E_γ) ≃ (1/(4π l(E_γ))) · ṅ_X · dN_γ/dE_γ
 ### 9.5.3 X 粒子衰变率要求 (公式 68)
 
 ```
-(ṅ_X,0)_{EHECR} ≃ 1.2×10⁻⁴⁶ · (l(E_γ)/10 Mpc)⁻¹ · (E²j(E)/1 eV cm⁻² s⁻¹ sr⁻¹) ·
-                  (2E/10¹⁶ GeV)^(α−1.5) · (m_X/10¹⁶ GeV)^(1−α) · (0.5/(2−α)) · (0.9/f_π)  cm⁻³ s⁻¹
+(ṅ_X,0)_{EHECR} ≃ 1.2×$10^{-46}$ · (l(E_γ)/10 Mpc)⁻¹ · (E²j(E)/1 eV cm⁻² s⁻¹ sr⁻¹) ·
+                  (2E/$10^{16}$ GeV)^(α−1.5) · (m_X/$10^{16}$ GeV)^(1−α) · (0.5/(2−α)) · (0.9/f_π)  cm⁻³ s⁻¹
 ```
 
 ### 9.5.4 能量注入率 (公式 69)
 
 ```
-(Q_0)_{EHECR} ≃ 1.2×10⁻²¹ · (l(E_γ)/10 Mpc)⁻¹ · (E²j(E)/1 eV cm⁻² s⁻¹ sr⁻¹) ·
-                (2E/10¹⁶ GeV)^(α−1.5) · (m_X/10¹⁶ GeV)^(2−α) · (0.5/(2−α)) · (0.9/f_π)  eV cm⁻³ s⁻¹
+(Q_0)_{EHECR} ≃ 1.2×$10^{-21}$ · (l(E_γ)/10 Mpc)⁻¹ · (E²j(E)/1 eV cm⁻² s⁻¹ sr⁻¹) ·
+                (2E/$10^{16}$ GeV)^(α−1.5) · (m_X/$10^{16}$ GeV)^(2−α) · (0.5/(2−α)) · (0.9/f_π)  eV cm⁻³ s⁻¹
 ```
 
 ### 9.5.5 数值示例 [FACT]
 
-EHECR 通量标度 E²j ~ 1 eV cm⁻² s⁻¹ sr⁻¹ at E = 10¹¹ GeV, m_X = 10¹⁶ GeV, α = 1.5, f_π = 0.9：
+EHECR 通量标度 E²j ~ 1 eV cm⁻² s⁻¹ sr⁻¹ at E = $10^{11}$ GeV, m_X = $10^{16}$ GeV, α = 1.5, f_π = 0.9：
 ```
-ṅ_X ≃ 1×10³⁵ Mpc⁻³ yr⁻¹ ≃ 13 AU⁻³ yr⁻¹
+ṅ_X ≃ 1×$10^{35}$ Mpc⁻³ yr⁻¹ ≃ 13 AU⁻³ yr⁻¹
 ```
 即 **每 10 Mpc 半径体积内，每年 ~10 个 X 粒子衰变**（每个太阳系大小）。
 
@@ -219,7 +219,7 @@ EHECR 通量标度 E²j ~ 1 eV cm⁻² s⁻¹ sr⁻¹ at E = 10¹¹ GeV, m_X = 1
 | Cosmic string 线质量 μ | ~ η² |
 | Domain wall 面密度 | ~ η³ |
 
-若 GUT 破缺：η ~ 10¹⁶ GeV → m_X ~ 10¹⁶ GeV。
+若 GUT 破缺：η ~ $10^{16}$ GeV → m_X ~ $10^{16}$ GeV。
 
 ### 9.6.4 历史时间线 [FACT]
 
@@ -237,18 +237,18 @@ EHECR 通量标度 E²j ~ 1 eV cm⁻² s⁻¹ sr⁻¹ at E = 10¹¹ GeV, m_X = 1
 
 | 量 | 值 |
 |---|---|
-| Top-down 三条件 | (a) 近期衰变/源 < 100 Mpc; (b) m_X ≫ 10¹¹ GeV; (c) 足够衰变率 |
+| Top-down 三条件 | (a) 近期衰变/源 < 100 Mpc; (b) m_X ≫ $10^{11}$ GeV; (c) 足够衰变率 |
 | 核子占强子数 | 3–10% |
 | Λ^ch_eff (LEP fit) | 250 MeV |
 | Hill 谱 α (x ≪ 1) | 1.3 (eq.61), 1.5 (eq.62) |
 | SUSY LSP 能量份额 | ~40% [399] |
-| (ṅ_X,0) EHECR 基准 | ~10³⁵ Mpc⁻³ yr⁻¹ (m_X=10¹⁶ GeV) |
-| (Q_0) EHECR 基准 | ~10⁻²¹ eV cm⁻³ s⁻¹ |
-| M_X GUT 典型 | 10¹⁶ GeV |
+| (ṅ_X,0) EHECR 基准 | ~$10^{35}$ Mpc⁻³ yr⁻¹ (m_X=$10^{16}$ GeV) |
+| (Q_0) EHECR 基准 | ~$10^{-21}$ eV cm⁻³ s⁻¹ |
+| M_X GUT 典型 | $10^{16}$ GeV |
 
 ## 9.8 [CRITIQUE]
 
-- [FACT] LPHD + MLLA 仅在 ~100 GeV 被实验验证 → 外推到 > 10¹⁴ GeV 有**巨大不确定性**。
-- [FACT] Monte Carlo (HERWIG/JETSET) 与 MLLA+LPHD 在 m_X ≫ 10³ GeV 处显著不同 [391]。
+- [FACT] LPHD + MLLA 仅在 ~100 GeV 被实验验证 → 外推到 > $10^{14}$ GeV 有**巨大不确定性**。
+- [FACT] Monte Carlo (HERWIG/JETSET) 与 MLLA+LPHD 在 m_X ≫ $10^{3}$ GeV 处显著不同 [391]。
 - [FACT] 强子产额在 x ~ 0.2–0.4 处反常高，与"介子主导"直觉矛盾（机制不明）。
 - [FACT] **Berezinsky & Kachelriess [399] 提出的 LSP 效应**（带走 40% 能量）对任何 TD 场景都是关键修正，需纳入归一化。

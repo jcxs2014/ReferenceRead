@@ -13,7 +13,7 @@
 - NLDSA 的两项核心预言：谱的凹性 + 下游温度降低。
 - 谱-各向异性-γ 射线观测的**三重矛盾**：理论谱过硬 → D(E)∝E^0.7 → 各向异性过大 + 与 SNR γ 谱不匹配。
 - CTA、Balmer 线高精度观测是突破方向。
-- 银河-河外 CR 过渡区：膝点之上的 Fe_max ~10¹⁷ eV 与 ankle 位置存在张力，KASCADE-Grande、ICETOP 提示需要**额外 CR 分量**在 10¹⁷–10¹⁹ eV 之间。
+- 银河-河外 CR 过渡区：膝点之上的 Fe_max ~$10^{17}$ eV 与 ankle 位置存在张力，KASCADE-Grande、ICETOP 提示需要**额外 CR 分量**在 $10^{17}$–$10^{19}$ eV 之间。
 
 ## 8.2 原文内容
 
@@ -33,8 +33,8 @@
 - [FACT] 软化机制（Ptuskin et al. 2010；Caprioli et al. 2010；Caprioli 2012）：快速移动的散射中心可能给出更陡谱，但依赖**尚不清楚的波动特性**。
 - [FACT] **CTA 展望**（Acharya et al. 2013）：增加灵敏度 → 发现更多正在加速的 SNR；高角分辨 → 测量同一 SNR 不同区域的 γ 谱，揭示加速对环境的依赖。
 - [FACT] Balmer 观测对部分电离介质中加速过程有"unique tool"价值。
-- [FACT] **过渡区问题**：若 Fe_max ~ 10¹⁷ eV，则银河 CR 在 ~10¹⁷ eV 截止，远低于传统 ankle 位置（~10¹⁸·⁵ eV）。
-- [FACT] KASCADE-Grande（Apel et al. 2013）和 ICETOP 提示 10¹⁷–10¹⁹ eV 需要**额外 CR 分量**；10¹⁸ eV 处轻/重核各半，与 Auger、HiRes、Telescope Array 观测的"轻成分主导"不显然一致。
+- [FACT] **过渡区问题**：若 Fe_max ~ $10^{17}$ eV，则银河 CR 在 ~$10^{17}$ eV 截止，远低于传统 ankle 位置（~$10^{18}$·⁵ eV）。
+- [FACT] KASCADE-Grande（Apel et al. 2013）和 ICETOP 提示 $10^{17}$–$10^{19}$ eV 需要**额外 CR 分量**；$10^{18}$ eV 处轻/重核各半，与 Auger、HiRes、Telescope Array 观测的"轻成分主导"不显然一致。
 - [FACT] "The understanding of the transition region through increasingly more accurate measurements of chemical composition is a crucial step towards figuring out the origin of ultra high energy cosmic rays, which still represents a big unsolved problem."
 
 ## 8.3 关键公式
@@ -46,10 +46,10 @@
 | 物理量 | 数值 |
 |--------|------|
 | γ 射线直接证明的加速上限 | 50–500 TeV |
-| 膝点能量 | ~3 × 10¹⁵ eV |
-| Fe_max（SNR 范式） | ~10¹⁷ eV |
-| ankle（传统银河-河外过渡） | ~10¹⁸·⁵ eV |
-| 需要额外分量的能段 | 10¹⁷–10¹⁹ eV |
+| 膝点能量 | ~3 × $10^{15}$ eV |
+| Fe_max（SNR 范式） | ~$10^{17}$ eV |
+| ankle（传统银河-河外过渡） | ~$10^{18}$·⁵ eV |
+| 需要额外分量的能段 | $10^{17}$–$10^{19}$ eV |
 | D(E) ∝ E^0.7 所需指数 | 0.7 |
 | 各向异性冲突阈值 | E > 10 TeV |
 | 磁化场强度 | ~几百 µG |
@@ -68,7 +68,7 @@
   - §6 γ 射线 & 逃逸 → §8 "需要 CTA + 环境依赖"
   - §7 Balmer → §8 "Balmer 观测的独特价值"
   - §5 超泡 → §8 未直接提及（说明作者视其为**次要**方案）
-- [INTERPRETATION] 作者**明确**将"过渡区（10¹⁷–10¹⁹ eV）的化学组成测量"视为**UHECR 起源问题的关键**——这一前瞻性表述在 2013 年时具有高度前瞻性，2020 年代 LHAASO、AugerPrime 已部分回答。
+- [INTERPRETATION] 作者**明确**将"过渡区（$10^{17}$–$10^{19}$ eV）的化学组成测量"视为**UHECR 起源问题的关键**——这一前瞻性表述在 2013 年时具有高度前瞻性，2020 年代 LHAASO、AugerPrime 已部分回答。
 
 ## 8.7 我的理解
 
@@ -79,6 +79,6 @@
 
 ## 8.8 潜在问题与值得关注的地方
 
-- **潜在不一致性**：KASCADE-Grande / ICETOP 在 10¹⁸ eV 的化学成分结果与 Auger、HiRes、Telescope Array 冲突——在 §1 已提到，§8 再次强调。
+- **潜在不一致性**：KASCADE-Grande / ICETOP 在 $10^{18}$ eV 的化学成分结果与 Auger、HiRes、Telescope Array 冲突——在 §1 已提到，§8 再次强调。
 - [CRITIQUE] §8 中关于 CTA 的展望过于乐观（"considerable number of other SNRs"）；到 2024 年 CTA 尚在建设中，其实际灵敏度仍待验证。
 - **信息缺失**：作者未讨论 **CR 电子谱与 Fermi-LAT / H.E.S.S. 对孤立 SNR 的 e⁺e⁻ 成分**的直接约束——这些在 2013 年后有重要进展（如 RX J1713 的 CTA 观测）。

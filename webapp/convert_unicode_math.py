@@ -50,8 +50,17 @@ NUCLIDE_RE = re.compile(r'([' + SUP_CHARS + ']+)([A-Z][a-z]?)')
 SCINOT_X10 = re.compile(r'(\d+(?:\.\d+)?)[×x]([' + SUP_CHARS + ']+)')
 # 科学记数法：纯 10ⁿ
 SCINOT_PURE = re.compile(r'(?<![A-Za-z$])(\d+(?:\.\d+)?)([' + SUP_CHARS + ']+)(?![A-Za-z])')
-# 参数下标：T₉ t₁/₂ T₈
-PARAM_SUB = re.compile(r'([A-Za-z])([' + SUB_CHARS + r']+)(?:/(\d+))?')
+# 参数下标：T₉ t₁/₂ T₈（多字母函数名如 log₁₀ 整体识别）
+PARAM_SUB = re.compile(r'([A-Za-z]+)([' + SUB_CHARS + r']+)(?:/(\d+))?')
+# 数学函数名下标特例（log₁₀ → \log_{10}）
+FUNC_MAP = {'log':'\\log','ln':'\\ln','sin':'\\sin','cos':'\\cos','tan':'\\tan',
+            'exp':'\\exp','lim':'\\lim','min':'\\min','max':'\\max','det':'\\det','dim':'\\dim'}
+def param_repl(m: re.Match) -> str:
+    base = m.group(1)
+    sub = sub_to_latex(m.group(2))
+    suffix = f'/{m.group(3)}' if m.group(3) else ''
+    tex = FUNC_MAP.get(base, base)
+    return f'${tex}_{{{sub}{suffix}}}$'
 
 def sup_to_latex(s: str) -> str:
     return ''.join(SUP_MAP.get(c, c) for c in s)
@@ -97,9 +106,7 @@ def convert_round1(text: str, audit: list[str]) -> str:
         line, ph = protect_math(line)
         line = SCINOT_X10.sub(lambda m: f'${m.group(1)}\\times10^{{{sup_to_latex(m.group(2))}}}$', line)
         line = SCINOT_PURE.sub(lambda m: f'${m.group(1)}^{{{sup_to_latex(m.group(2))}}}$', line)
-        line = PARAM_SUB.sub(
-            lambda m: f'${m.group(1)}_{{{sub_to_latex(m.group(2))}}}'
-                      + (f'/{{{m.group(3)}}}' if m.group(3) else '') + '$', line)
+        line = PARAM_SUB.sub(param_repl, line)
         line = restore_math(line, ph)
         if line != orig:
             audit.append(f"{i+1}\t{orig.strip()}\t{line.strip()}\tR1 参数下标/科学记数法")
@@ -131,9 +138,7 @@ def convert_round2(text: str, audit: list[str], aggressive: bool = False) -> str
         # 兜底：参数下标 + 科学记数法（protect 后不重复，幂等安全）
         line = SCINOT_X10.sub(lambda m: f'${m.group(1)}\\times10^{{{sup_to_latex(m.group(2))}}}$', line)
         line = SCINOT_PURE.sub(lambda m: f'${m.group(1)}^{{{sup_to_latex(m.group(2))}}}$', line)
-        line = PARAM_SUB.sub(
-            lambda m: f'${m.group(1)}_{{{sub_to_latex(m.group(2))}}}'
-                      + (f'/{{{m.group(3)}}}' if m.group(3) else '') + '$', line)
+        line = PARAM_SUB.sub(param_repl, line)
         # 希腊字母（中文邻侧保留）
         def greek_repl(m: re.Match) -> str:
             g = m.group(1)
