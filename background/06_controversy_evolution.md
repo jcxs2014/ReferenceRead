@@ -77,7 +77,7 @@ path: background/06_controversy_evolution.md
 | 1978 | Bell / Blandford-Ostriker | **DSA 奠基**（同期独立）：first-order Fermi 加速数学形式化 |
 | 1987 | Blandford-Eichler | Phys. Rep. 154, 1：经典综述，命名"diffusive shock acceleration" |
 | 2013 | Blasi | 系统审视：三支柱均**间接证据**，不足以证明范式正确 |
-| 2014 | Amato | 关键批判：**Bell 模式波放大被系统性高估**（F₀≲1）；NLDSA 谱比观测硬 |
+| 2014 | Amato | 关键批判：**Bell 模式波放大被系统性高估**（$F_{0}$≲1）；NLDSA 谱比观测硬 |
 | 2021 | LHAASO | 发现银河系 **PeVatron**（超高能 γ 源）——超泡作为膝点 CR 位点被支持 |
 | 未来 | CTA | 待运行——SNR 范式最终裁决者 |
 

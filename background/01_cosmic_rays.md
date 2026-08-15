@@ -275,7 +275,7 @@ SNR X 射线窄边缘观测（$10^{-2}$ pc 宽度）反推 B 场达 **几百 $\m
 | **Filamentation 不稳定性** | $J \times B$ 力排斥等离子体 | 大尺度磁通管 | Caprioli & Spitkovsky (2013)：可能产生自洽的 self-confinement；Bell et al. (2013)：Tycho 参数下可达 ~200 TeV |
 | **大尺度 firehose 模** | $\Gamma_{\rm FH} \approx \xi_{\rm CR}^{1/2} V_{\rm sh}^2 k / c$ | $k \ll 1/r_{L,\max}$ | $\Gamma_{\rm FH} \cdot \tau_{\rm adv}(p_{\max}) \ll 1$，时间不够 |
 
-**高 $\xi_{\rm CR}$ 极限**：$\omega_I \approx \omega_R = [(\pi/8)\Omega_p^* k V_{\rm sh} n_{\rm CR}/n_i]^{1/2}$，F₀ 上限
+**高 $\xi_{\rm CR}$ 极限**：$\omega_I \approx \omega_R = [(\pi/8)\Omega_p^* k V_{\rm sh} n_{\rm CR}/n_i]^{1/2}$，$F_{0}$ 上限
 
 $$
 F_0(k) = (\pi/6)^{1/2} (\xi_{\rm CR}/\Lambda)^{1/2} (c/V_{\rm sh})^{1/2} \le 1
@@ -535,7 +535,7 @@ $$
 
 **电离率**：本地 ISM $\zeta_H^{\rm CR} \approx 1.4 \times 10^{-17}$ s⁻¹（外推 Voyager 1 到 1 MeV）；CR 能量密度 $\approx 1.9$ eV cm⁻³。
 
-**CR 诱导 UV 辐射**：H₂ 次级电子在云深处产生内部 UV 源（星光不穿透的区域），驱动 CR 诱导 UV 光解化学；速率与 $\zeta_{H_2}^{\rm CR}$ 线性相关。
+**CR 诱导 UV 辐射**：$H_{2}$ 次级电子在云深处产生内部 UV 源（星光不穿透的区域），驱动 CR 诱导 UV 光解化学；速率与 $\zeta_{H_2}^{\rm CR}$ 线性相关。
 
 **CR-ISM 化学链**（Grenier 2015，图 8）：
 $$
@@ -544,7 +544,7 @@ $$
 $$
 \text{H}^+/\text{H}_3^+ + \text{O} \to \text{O}^+ \to \text{OH}^+ \to \text{H}_2\text{O}^+ \to \text{H}_3\text{O}^+
 $$
-O 离子序列效率由 $f(\text{H}_2)$ 限制。H₂O⁺/OH⁺ 比对 $f(\text{H}_2)$ 敏感 → 可作为分子分数探针。
+O 离子序列效率由 $f(\text{H}_2)$ 限制。$H_{2}$O⁺/OH⁺ 比对 $f(\text{H}_2)$ 敏感 → 可作为分子分数探针。
 
 **散裂与轻元素合成**：
 - ⁶Li、⁹Be、¹⁰B：主要由 ISM CR 散裂产生；

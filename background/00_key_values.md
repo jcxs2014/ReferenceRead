@@ -58,7 +58,7 @@ path: background/00_key_values.md
 | 膝下 $Z>2$ 比例（低能基线） | ~36% | — | Gaisser 1990 | §9.4 |
 | 超新星供给功率 | ~$3\times10^{42}$ erg/s | — | Gaisser 1990 | §9.2 |
 | LIS 能量密度 | ~1 eV/cm³（质子 0.83 + He/重核 0.27） | — | Gaisser 1990 | §9.7 |
-| >10¹⁶ eV 通量 | ~1 m⁻² sr⁻¹ yr⁻¹ | — | Gaisser 1990 | §9.7 |
+| >$10^{16}$ eV 通量 | ~1 m⁻² sr⁻¹ yr⁻¹ | — | Gaisser 1990 | §9.7 |
 | 99% 宇宙线能量 | $<1$ TeV/核子 | — | Gaisser 1990 | §9.7 |
 | leaky-box 传播谱指数 | $\delta\approx 0.6$ | — | Gaisser 1990 | §9.3 |
 | 观测谱 | $E^{-2.7}$ | — | Gaisser 1990 | §9.7 |
@@ -83,7 +83,7 @@ path: background/00_key_values.md
 | UHECR 谱膝（knee） | ~$3\times10^{15}$ eV | — | Bhattacharjee & Sigl 1999 | §2.1 |
 | UHECR 踝（ankle） | ~$3\times10^{18}$ eV | — | Bhattacharjee & Sigl 1999 | §2.1 |
 | GZK 截断（Auger 2007） | ~$6\times10^{19}$ eV | — | Bhattacharjee & Sigl 1999 | §3.2 |
-| 10²⁰ eV 质子从 VIRGO（15 Mpc）偏转 | 22° | — | Al-Dargazelli et al. 1996 | §15.4 |
+| $10^{20}$ eV 质子从 VIRGO（15 Mpc）偏转 | 22° | — | Al-Dargazelli et al. 1996 | §15.4 |
 | $4\times10^{19}$ eV 偏转 | 55° | — | Al-Dargazelli et al. 1996 | §15.4 |
 | 可追溯距离（小 clusters / 扩展 regions） | ~10 Mpc / ~15 Mpc | — | Al-Dargazelli et al. 1996 | §15.4 |
 | $H_0$（本文基准） | 75 km s⁻¹ Mpc⁻¹ | — | Al-Dargazelli et al. 1996 | §15.7 |
@@ -128,7 +128,7 @@ path: background/00_key_values.md
 | ζ_H^CR（本地） | ~$1.4\times10^{-17}$ s⁻¹ | — | Grenier 2015 | §99.4 |
 | CR 能量密度 | 1.9 eV cm⁻³ | — | Grenier 2015 | §99.4 |
 | ζ_H^CR（CMZ） | ~$2\text{–}7\times10^{-15}$ s⁻¹ | — | Grenier 2015 | §99.7 |
-| ζ_H₂^CR（Arp 220） | $>10^{-13}$ s⁻¹（比 CMZ 高 $10^2$ 倍） | — | Grenier 2015 | §99.4 |
+| ζ_$H_{2}$^CR（Arp 220） | $>10^{-13}$ s⁻¹（比 CMZ 高 $10^2$ 倍） | — | Grenier 2015 | §99.4 |
 | Fermi Bubbles 张角 | ~50° | — | Grenier 2015 | §99.4 |
 | Fermi Bubbles 功率 | $2\times10^{30}$ W | — | Grenier 2015 | §99.4 |
 | 巨射电瓣能量 | $10^{48}$ J | — | Grenier 2015 | §99.4 |
@@ -325,8 +325,8 @@ path: background/00_key_values.md
 | 光球不确定度 | ±0.05–0.15 dex | — | Grevesse & Sauval 1998 |
 | 对流区底部迁移效应 | 10–15%（看不到） | — | Grevesse & Sauval 1998 |
 | 陨石换算公式（AGSS09） | $\log\varepsilon_X = 1.51 + \log N_X$（以 Si=7.51 归一） | — | AGSS09 |
-| 冰的冷凝温度（Lodders 2003，10⁻⁴ bar） | H₂O 182 K（平衡）/ 121 K（抑制）；C 41 K（平衡）/ 626 K（石墨）；N 131 K / 58 K | — | Lodders 2003 |
-| 主量元素冷凝温度（Lodders 2003） | Al₂O₃ 1677 K → Fe 1357 K → Troilite 704 K → Magnetite 371 K → H₂O 182 K | — | Lodders 2003 |
+| 冰的冷凝温度（Lodders 2003，$10^{-4}$ bar） | $H_{2}$O 182 K（平衡）/ 121 K（抑制）；C 41 K（平衡）/ 626 K（石墨）；N 131 K / 58 K | — | Lodders 2003 |
+| 主量元素冷凝温度（Lodders 2003） | A$l_{2}$$O_{3}$ 1677 K → Fe 1357 K → Troilite 704 K → Magnetite 371 K → $H_{2}$O 182 K | — | Lodders 2003 |
 | 太阳系冷凝温度 | 大气 T + ~10 K | — | Lodders 2003 |
 
 ### 3.4 早 B 星 CNO 丰度（Gies & Lambert 1992）
@@ -347,10 +347,10 @@ path: background/00_key_values.md
 | 微湍流 $\xi$（NLTE） | 5.0 / 8.9 km s⁻¹ | Gies & Lambert 1992 |
 | 超巨星 log g 范围 | 2.1–3.7 | Gies & Lambert 1992 |
 | Lyubimkov 假象量化（log g=3.5 + ξ=10 组合） | 假增 0.90 dex | Gies & Lambert 1992 |
-| 用本文数据复现 Lyubimkov 斜率 | 0.035 dex per 10⁶ yr（伪相关） | Gies & Lambert 1992 |
+| 用本文数据复现 Lyubimkov 斜率 | 0.035 dex per $10^{6}$ yr（伪相关） | Gies & Lambert 1992 |
 | ρ Leo (HD 91316) N 富集 | +0.60 dex（NLTE）；+0.76（LTE） | Gies & Lambert 1992 |
 | ρ Leo 预测 ΔHe / ΔC / ΔO | +0.10 / −0.10 / −0.04 | Gies & Lambert 1992 |
-| Lyubimkov 主张（被证伪） | d log ε(N)/dt = 0.15 dex per 10⁶ yr | Gies & Lambert 1992 |
+| Lyubimkov 主张（被证伪） | d log ε(N)/dt = 0.15 dex per $10^{6}$ yr | Gies & Lambert 1992 |
 
 ---
 
@@ -362,7 +362,7 @@ path: background/00_key_values.md
 | 重子在宇宙物质占比 | <20% | — | Bertone & Hooper 2018 | §99.4 |
 | 暗物质上限（Oort 1932 太阳邻域） | $\le 0.05\,M_\odot/\text{pc}^3$ | — | Bertone & Hooper 2018 | §99.7 |
 | Oort 1932 总质量密度 | $0.092\,M_\odot/\text{pc}^3$ | — | Bertone & Hooper 2018 | §99.7 |
-| Zwicky 1937 Coma 团 M/L | ~500（修正 H₀ 后仍高 ~60） | — | Bertone & Hooper 2018 | §99.7 |
+| Zwicky 1937 Coma 团 M/L | ~500（修正 $H_{0}$ 后仍高 ~60） | — | Bertone & Hooper 2018 | §99.7 |
 | MOND 加速度 $a_0$ | $\approx 1.2\times10^{-10}$ m/s² | — | Bertone & Hooper 2018 | §99.7 |
 | MOND 预言 Tully-Fisher 指数 | $\alpha = 4$（精确） | — | Bertone & Hooper 2018 | §99.7 |
 | WIMP 湮灭截面（"奇迹"） | $\langle\sigma v\rangle \sim 10^{-26}$ cm³/s | — | Bertone & Hooper 2018 | §99.7 |

@@ -193,7 +193,7 @@ path: background/05_glossary.md
 | `adiabatic energy loss` | 0001_strong-moskalenko-ptuskin-2007 | 绝热能量损失 |
 | `analysis mean` | 0006_anders-grevesse | 分析均值 |
 | `angular diameter` | 0012_dieterich-2014-h-burning-limit | 角直径 |
-| `angular velocity ω ~ 6×10⁻⁵ s⁻¹` | 0015_kraft-1994 | 所需角速度 |
+| `angular velocity ω ~ 6×$10^{-5}$ s⁻¹` | 0015_kraft-1994 | 所需角速度 |
 | `annihilation ($\chi\chi \to \gamma\gamma$)` | 0013_bertone-hooper-2018 | 暗物质湮灭 |
 | `antiproton` | 0001_strong-moskalenko-ptuskin-2007 | 反质子 |
 | `aperture photometry` | 0012_dieterich-2014-h-burning-limit | 孔径测光 |
@@ -277,12 +277,12 @@ path: background/05_glossary.md
 | `carbon depletion` | 0010_gies-lambert-1992 | 碳贫化 |
 | `cataclysmic binary` | 0005_champagne-wiescher-1992 | 灾变双星 |
 | `center-to-limb variation` | 0009_asplund-2009-solar-composition | 中边缘变化 |
-| `characteristic velocity ~10⁻³ cm s⁻¹` | 0015_kraft-1994 | 环流特征速度 |
+| `characteristic velocity ~$10^{-3}$ cm s⁻¹` | 0015_kraft-1994 | 环流特征速度 |
 | `chemical enrichment` | 0015_kraft-1994 | 化学增丰 |
 | `chemical fractionation` | 0014_cameron-1968 | 化学分馏 |
 | `chemically homogeneous` | 0009_asplund-2009-solar-composition | 化学均质 |
 | `chemically homogeneous evolution` | 0010_gies-lambert-1992 | 化学均质演化 |
-| `chromite FeCr₂O₄` | 0008_lodders-2003 | 铬铁矿 |
+| `chromite FeC$r_{2}$$O_{4}$` | 0008_lodders-2003 | 铬铁矿 |
 | `chromosphere` | 0006_anders-grevesse | 色球层 |
 | `closed neutron shell (N=50, 82, 126)` | 0014_cameron-1968 | 中子闭壳(幻数) |
 | `cloud chemistry (dust settling)` | 0012_dieterich-2014-h-burning-limit | 云化学（尘埃重力沉降） |
@@ -301,8 +301,8 @@ path: background/05_glossary.md
 | `corona` | 0006_anders-grevesse | 日冕 |
 | `cosmic rays (CR)` | 0001_strong-moskalenko-ptuskin-2007 | 宇宙线 |
 | `cosmic-ray antiproton / positron` | 0013_bertone-hooper-2018 | 宇宙线反质子/正电子 |
-| `cosmochemical scale (N_Si = 10⁶)` | 0008_lodders-2003 | 宇宙化学标尺 |
-| `cosmochemical scale (Si = 10⁶)` | 0006_anders-grevesse | 宇宙化学标尺 |
+| `cosmochemical scale (N_Si = $10^{6}$)` | 0008_lodders-2003 | 宇宙化学标尺 |
+| `cosmochemical scale (Si = $10^{6}$)` | 0006_anders-grevesse | 宇宙化学标尺 |
 | `cross-correlation` | 0010_gies-lambert-1992 | 交叉相关函数（测 V sin i） |
 | `curve-of-growth` | 0010_gies-lambert-1992 | 曲线生长 |
 
@@ -316,7 +316,7 @@ path: background/05_glossary.md
 | `dark matter halo` | 0013_bertone-hooper-2018 | 暗物质晕 |
 | `decay` | 0001_bhattacharjee-sigl-2000 | 衰变 |
 | `decay (sterile neutrino)` | 0013_bertone-hooper-2018 | 暗物质衰变（惰性中微子） |
-| `decay interval of 4.5 × 10⁹ years` | 0014_cameron-1968 | 45 亿年衰变区间 |
+| `decay interval of 4.5 × $10^{9}$ years` | 0014_cameron-1968 | 45 亿年衰变区间 |
 | `deepest penetration radius` | 0015_kraft-1994 | 最深穿透半径 |
 | `degenerate He core` | 0015_kraft-1994 | 简并氦核 |
 | `density parameter` | 0011_kewley-2001-starburst | W-R 密度参数 |
@@ -353,7 +353,7 @@ path: background/05_glossary.md
 | `element settling / diffusion` | 0008_lodders-2003 | 元素沉降 / 扩散 |
 | `emerging flux event` | 0007_grevesse-sauval-1998 | 新兴活动区 |
 | `emission measure ($\int n^2 dr$)` | 0011_kewley-2001-starburst | 发射测度 |
-| `enstatite MgSiO₃` | 0008_lodders-2003 | 镁灰石 |
+| `enstatite MgSi$O_{3}$` | 0008_lodders-2003 | 镁灰石 |
 | `environmental pollution` | 0015_kraft-1994 | 环境污染 |
 | `equilibrium condensation` | 0008_lodders-2003 | 平衡冷凝 |
 | `escape length ($X$)` | 0001_strong-moskalenko-ptuskin-2007 | 逃逸长度 |
@@ -375,15 +375,15 @@ path: background/05_glossary.md
 | `F_ij (net reaction flow)` | 0005_champagne-wiescher-1992 | 净反应流 |
 | `Famaey-McGaugh (2012)` | 0013_bertone-hooper-2018 | MOND 现代综述 |
 | `Fermi acceleration` | 0003_gaisser-1990 | 费米加速 |
-| `Fe₃O₄ (magnetite) mechanism` | 0006_anders-grevesse | 磁铁矿机制 |
+| `F$e_{3}$$O_{4}$ (magnetite) mechanism` | 0006_anders-grevesse | 磁铁矿机制 |
 | `Fowler, Caughlan, Zimmerman (FCZ)` | 0002_trimble-1975 | 现代核合成反应速率表 |
 | `Freeman (1970)` | 0013_bertone-hooper-2018 | 首次断言额外物质必须存在 |
 | `first parameter` | 0015_kraft-1994 | 第一参数 |
-| `fluorapatite Ca₅(PO₄)₃F` | 0008_lodders-2003 | 氟磷灰石 |
+| `fluorapatite C$a_{5}$(P$O_{4}$)₃F` | 0008_lodders-2003 | 氟磷灰石 |
 | `flux limitation` | 0015_kraft-1994 | 流量限制 |
 | `fold (grid topology)` | 0011_kewley-2001-starburst | 网格折回（禁带拓扑） |
 | `forbidden line ([S II], [O III])` | 0011_kewley-2001-starburst | 禁戒线 |
-| `forsterite Mg₂SiO₄` | 0008_lodders-2003 | 镁橄榄石 |
+| `forsterite M$g_{2}$Si$O_{4}$` | 0008_lodders-2003 | 镁橄榄石 |
 | `fragmentation` | 0001_bhattacharjee-sigl-2000 | 碎裂/裂解 |
 | `fragmentation cross-section` | 0001_strong-moskalenko-ptuskin-2007 | 碎裂截面 |
 | `free-streaming length` | 0013_bertone-hooper-2018 | 自由流长度 |
@@ -441,7 +441,7 @@ path: background/05_glossary.md
 | `halo height ($z_h$)` | 0001_strong-moskalenko-ptuskin-2007 | 晕高度 |
 | `heavy neutrino (Lee-Weinberg)` | 0013_bertone-hooper-2018 | 重中微子（Lee & Weinberg 1977） |
 | `helium enrichment` | 0010_gies-lambert-1992 | 氦富集 |
-| `hibonite CaAl₁₂O₁₉` | 0008_lodders-2003 | 金红石 / Hibonite |
+| `hibonite CaA$l_{12}$$O_{19}$` | 0008_lodders-2003 | 金红石 / Hibonite |
 | `hierarchical merging` | 0013_bertone-hooper-2018 | 层级式合并（自下而上） |
 | `historical review` | 0013_bertone-hooper-2018 | 综述性质（本文方法学） |
 | `hot CNO (HCNO) cycles` | 0005_champagne-wiescher-1992 | 热 CNO 循环 |
@@ -456,7 +456,7 @@ path: background/05_glossary.md
 | `IceCube / ANTARES` | 0013_bertone-hooper-2018 | 中微子望远镜 |
 | `Iron Project` | 0009_asplund-2009-solar-composition | 铁原子数据计划 |
 | `Ivuna` | 0014_cameron-1968 | 伊武纳陨石 |
-| `ices: H₂O, CH₄·7H₂O, NH₃·H₂O, N₂·7H₂O` | 0008_lodders-2003 | 冰：水冰、甲烷水合物、氨水合物、氮水合物 |
+| `ices: $H_{2}$O, C$H_{4}$·7$H_{2}$O, N$H_{3}$·$H_{2}$O, $N_{2}$·7$H_{2}$O` | 0008_lodders-2003 | 冰：水冰、甲烷水合物、氨水合物、氮水合物 |
 | `ideal gas / JANAF` | 0008_lodders-2003 | 理想气体 / JANAF 表 |
 | `indirect detection` | 0013_bertone-hooper-2018 | 间接探测（湮灭/衰变信号） |
 | `initial solar system` | 0014_cameron-1968 | 初始太阳系 |
@@ -522,7 +522,7 @@ path: background/05_glossary.md
 | `macroturbulence` | 0009_asplund-2009-solar-composition | 宏湍流 |
 | `magnetic rigidity ($R$)` | 0001_strong-moskalenko-ptuskin-2007 | 磁刚度 |
 | `magnetic rigidity spectrum` | 0001_strong-moskalenko-ptuskin-2007 | 磁刚度谱 |
-| `magnetite Fe₃O₄` | 0008_lodders-2003 | 磁铁矿 |
+| `magnetite F$e_{3}$$O_{4}$` | 0008_lodders-2003 | 磁铁矿 |
 | `main-sequence turnoff` | 0015_kraft-1994 | 主序拐点 |
 | `meridional circulation` | 0010_gies-lambert-1992 | 经圈环流 |
 | `meridional circulation / current` | 0015_kraft-1994 | 子午环流 |
@@ -574,7 +574,7 @@ path: background/05_glossary.md
 | `ordinary chondrite` | 0014_cameron-1968 | 普通球粒陨石 |
 | `oscillator strength` | 0014_cameron-1968 | 振子强度 |
 | `overshoot / mild mixing` | 0007_grevesse-sauval-1998 | 微弱混合 |
-| `oxygen fugacity fO₂` | 0008_lodders-2003 | 氧逸度 |
+| `oxygen fugacity f$O_{2}$` | 0008_lodders-2003 | 氧逸度 |
 
 ### P
 
@@ -594,7 +594,7 @@ path: background/05_glossary.md
 | `parallax convergence criteria` | 0012_dieterich-2014-h-burning-limit | 视差收敛判据 |
 | `partition function` | 0009_asplund-2009-solar-composition | 配分函数 |
 | `path-length distribution (PLD, $G(x)$)` | 0001_strong-moskalenko-ptuskin-2007 | 路径长度分布 |
-| `perovskite CaTiO₃` | 0008_lodders-2003 | 钙钛矿 |
+| `perovskite CaTi$O_{3}$` | 0008_lodders-2003 | 钙钛矿 |
 | `photino` | 0013_bertone-hooper-2018 | 光微子（光子超伴子） |
 | `photo-disintegration` | 0014_cameron-1968 | 光致蜕变 |
 | `photo-pion` | 0001_bhattacharjee-sigl-2000 | 光致π介子产生 |
@@ -669,7 +669,7 @@ path: background/05_glossary.md
 | `Schmutz W-R atmosphere` | 0011_kewley-2001-starburst | Schmutz 扩展 W-R 大气 |
 | `Schwarzschild (1954)` | 0013_bertone-hooper-2018 | 1950s 星系/星系团质光比 |
 | `Sedov-Taylor phase` | 0011_kewley-2001-starburst | Sedov-Taylor 自由膨胀相 |
-| `Si = 10⁶` | 0014_cameron-1968 | 硅归一化基准 |
+| `Si = $10^{6}$` | 0014_cameron-1968 | 硅归一化基准 |
 | `Si III, Si IV, Si II` | 0010_gies-lambert-1992 | 硅电离态丰度 |
 | `Spite plateau` | 0004_wallerstein-1997 | log N(Li)≈2.2 的原初 7Li 丰度平台；由 Spite & Spite (1978) 首次观测 |
 | `Standard Abundance Distribution (SAD)` | 0007_grevesse-sauval-1998 | 标准丰度分布 |
@@ -697,7 +697,7 @@ path: background/05_glossary.md
 | `shell flash` | 0015_kraft-1994 | 壳层闪 |
 | `shock acceleration` | 0001_strong-moskalenko-ptuskin-2007 | 激波加速 |
 | `siderophile / lithophile / chalcophile` | 0006_anders-grevesse | 亲铁 / 亲石 / 亲硫 |
-| `sodalite Na₄[Al₃Si₃O₁₂]Cl` | 0008_lodders-2003 | 钠沸石 |
+| `sodalite N$a_{4}$[A$l_{3}$S$i_{3}$$O_{12}$]Cl` | 0008_lodders-2003 | 钠沸石 |
 | `solar corona` | 0014_cameron-1968 | 日冕 |
 | `solar cosmic ray abundance` | 0014_cameron-1968 | 太阳宇宙线丰度 |
 | `solar neighborhood` | 0009_asplund-2009-solar-composition | 太阳邻域 |
@@ -737,14 +737,14 @@ path: background/05_glossary.md
 
 | `TOF 与活化法` | 0004_wallerstein-1997 | 时间飞行法 (Time-of-Flight) 与活化法 (activation)——核反应截面两种主要测量技术 |
 | `T_eff` | 0010_gies-lambert-1992 | 有效温度 |
-| `Tc⁹⁹ (technetium-99)` | 0002_trimble-1975 | 半衰期 2.1×10⁶ yr 的短寿命核素；s 过程直接证据 |
+| `Tc⁹⁹ (technetium-99)` | 0002_trimble-1975 | 半衰期 2.1×$10^{6}$ yr 的短寿命核素；s 过程直接证据 |
 | `Teff 20–150 K uncertainty` | 0012_dieterich-2014-h-burning-limit | Teff 不确定度范围 |
 | `Thomas-Ehrman shift` | 0005_champagne-wiescher-1992 | 托马斯-厄尔曼位移 |
 | `Trampedach et al. (2009)` | 0009_asplund-2009-solar-composition | 本文主要 3D 模型 |
 | `Tully-Fisher relation` | 0013_bertone-hooper-2018 | Tully-Fisher 关系（L ∝ V⁴） |
 | `Type I carbonaceous chondrite (CI)` | 0014_cameron-1968 | 类型 I 碳质球粒陨石 |
 | `Type I meteorite class` | 0014_cameron-1968 | 类型 I 陨石类 |
-| `T₉` | 0005_champagne-wiescher-1992 | 以 10⁹ K 为单位的温度 |
+| `$T_{9}$` | 0005_champagne-wiescher-1992 | 以 $10^{9}$ K 为单位的温度 |
 | `temperature scale (f = 0.034)` | 0010_gies-lambert-1992 | 温度尺度修正分数 |
 | `tertiary` | 0001_strong-moskalenko-ptuskin-2007 | 三次核 |
 | `thermal relic abundance` | 0013_bertone-hooper-2018 | 热遗迹丰度 |
@@ -787,7 +787,7 @@ path: background/05_glossary.md
 | `Wolf-Rayet (W-R) star` | 0011_kewley-2001-starburst | 沃尔夫-拉叶星 |
 | `wave damping` | 0001_strong-moskalenko-ptuskin-2007 | 波阻尼 |
 | `weighted-slab method` | 0001_strong-moskalenko-ptuskin-2007 | 加权板方法 |
-| `whitlockite Ca₃(PO₄)₂` | 0008_lodders-2003 | 磷灰石族 |
+| `whitlockite C$a_{3}$(P$O_{4}$)₂` | 0008_lodders-2003 | 磷灰石族 |
 
 ### X
 
@@ -966,7 +966,7 @@ path: background/05_glossary.md
 
 ### 截
 
-| `截面 (cross section, σ)` | 0001_b2fh-1957 | 核反应发生概率的量度 (1 barn = 10⁻²⁴ cm²) |
+| `截面 (cross section, σ)` | 0001_b2fh-1957 | 核反应发生概率的量度 (1 barn = $10^{-24}$ cm²) |
 
 ### 技
 
@@ -984,7 +984,7 @@ path: background/05_glossary.md
 ### 有
 
 | `有效 ft 值 (effective ft)` | 0003_fowler-1984 | 弱衰变参量，log ft=5 对应 ⟨ |
-| `有效反应能量 E₀` | 0003_fowler-1984 | E₀ = 0.122 (Z₀Z₁A)^(1/3) T₉^(2/3) MeV，恒星内部实际反应发生能量 |
+| `有效反应能量 $E_{0}$` | 0003_fowler-1984 | $E_{0}$ = 0.122 ($Z_{0}$$Z_{1}$A)^(1/3) $T_{9}$^(2/3) MeV，恒星内部实际反应发生能量 |
 
 ### 核
 
@@ -1038,7 +1038,7 @@ path: background/05_glossary.md
 
 | `超射 (overshooting)` | 0004_wallerstein-1997 | 对流核边界外的非规则混合 |
 | `超新星丰度 (supernova yields)` | 0002_trimble-1975 | 单颗超新星抛射到 ISM 的元素量 |
-| `超风 (superwind)` | 0004_wallerstein-1997 | AGB 星晚期（脉动周期 >400 天）的强烈星风，质量损失率 10⁻⁵–10⁻⁴ M☉/yr |
+| `超风 (superwind)` | 0004_wallerstein-1997 | AGB 星晚期（脉动周期 >400 天）的强烈星风，质量损失率 $10^{-5}$–$10^{-4}$ M☉/yr |
 
 ### 轫
 
