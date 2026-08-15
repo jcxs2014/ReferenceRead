@@ -858,7 +858,7 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 
 | 类别 | 项 | 处理 |
 |---|---|---|
-| 文档 | `审查报告.md`（85KB，webapp 三轮审查记录） | `git mv` → `docs/webapp审查报告.md`；RECOMMENDATIONS 3 处引用同步 |
+| 文档 | `审查报告.md`（85KB，webapp 三轮审查记录） | `git mv` → 最终置于 `webapp/docs/审查报告.md`（用户决定：webapp 文档归 webapp/docs/，不混放顶层 docs/）；RECOMMENDATIONS 引用同步 |
 | 一次性审计产物 | 18 个 `.tsv`（公式 LaTeX 化两轮 audit_背景/核合成/起源/传播 × r1/r2 + gap + fix_audit + supsub_audit） | `git mv` → `docs/archive/audit/`（追溯明细，任务已闭环） |
 | 构建产物（可再生成） | registry.json / glossary.json / search_index.json / manifest.json / icon-192 / icon-512 / apple-touch-icon（7 个） | `git rm --cached`（**磁盘保留**，解除版本控制）+ webapp/.gitignore 补充 → 构建链 `build_registry → build_glossary → build_search_index → build_pwa` 再生成 |
 | 误入库缓存 | `__pycache__/` 6 个 `.pyc`（webapp×5 + tests×1） | `git rm`（gitignore 已忽略但历史 add 入库，清理） |
