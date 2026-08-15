@@ -169,7 +169,7 @@ $$\log\varepsilon(T_\text{eff}) = \langle\log\varepsilon\rangle + f\left[\frac{\
 [FACT] **用本文自身数据重演**：对 16 颗 Lyubimkov 样本星（质量范围 8.5–13.0 M☉ 匹配 Lyubimkov 中质量组）：
 - 用本文 N II λ4630 实测 EW + 本文 T_eff，**但** 假设 log g = 4、ξ = 0 推导 N 丰度；
 - 用 Maeder & Meynet (1988) 演化轨插值推每星的年龄与质量；
-- 得到 **N 丰度 vs 年龄**的斜率 = **0.035 dex per 10⁶ yr**（Figure 21，虚线）；
+- 得到 **N 丰度 vs 年龄**的斜率 = **0.035 dex per $10^{6}$ yr**（Figure 21，虚线）；
 - **这一相关性正是 Lyubimkov 找到的方向**，但纯粹是**方法学伪相关**。
 
 [FACT] 用**本文正确的非 LTE、温度修正** N 丰度（Figure 22）vs 年龄：**没有系统性相关**。
@@ -218,7 +218,7 @@ $$\log\varepsilon(T_\text{eff}) = \langle\log\varepsilon\rangle + f\left[\frac{\
 | Lyubimkov 假象：N II λ4630 Wλ | log g=4, ξ=0：57 mÅ |
 | 演化到 log g=3.5 | Wλ=75 mÅ → 假增量 0.32 dex |
 | 演化到 ξ=10 | Wλ=88 mÅ → 假增量 0.90 dex（组合） |
-| Lyubimkov 假相关斜率复现 | 0.035 dex per 10⁶ yr |
+| Lyubimkov 假相关斜率复现 | 0.035 dex per $10^{6}$ yr |
 | 与 Kilian et al. 1991a 一致性 | T_eff 修正后良好一致 |
 | Ne 均值（11 星） | log ε(Ne) = 8.41 ± 0.13 |
 | Si III 均值 | LTE 7.63 / NLTE 7.69 |

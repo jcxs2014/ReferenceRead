@@ -34,9 +34,9 @@
 - **关键固定假设**：**ξ = 0 km s⁻¹** 且 **log g = 4.0** 用于所有星。
 
 [FACT] 核心结果：
-- 13–20 M☉ 恒星：log ε(N) 从 **7.6 → 8.6** 在 **< 10⁷ yr** 内；
+- 13–20 M☉ 恒星：log ε(N) 从 **7.6 → 8.6** 在 **< $10^{7}$ yr** 内；
 - 变化率 d log ε(N)/dt：
-  - 13–20 M☉：**0.15 dex per 10⁶ yr**
+  - 13–20 M☉：**0.15 dex per $10^{6}$ yr**
   - 9.9–12.3 M☉：**0.06**
   - 5.7–8.5 M☉：**0.024**
 - 初始 log ε(N) ≈ 7.6（≈ local H II 区）；极值 log ε(N) ≈ 8.6（≈ F-K 超巨星，Luck 1978；Luck & Lambert 1981）。
@@ -113,7 +113,7 @@ Lyubimkov 四篇论文：主序 B 星普遍 CN-cycled 富集
 ## 1.7 潜在问题与值得关注的地方 [CRITIQUE]
 
 [CRITIQUE]
-1. Lyubimkov 的 d log ε(N)/dt 值（0.15 dex per 10⁶ yr 对 13–20 M☉）极大——主序列寿命 ~10⁷ yr，意味着 0.15×10 = 1.5 dex 总变化，远超 CN-cycle 平衡态的理论极限；这个数值本身就有物理上的可疑性；
+1. Lyubimkov 的 d log ε(N)/dt 值（0.15 dex per $10^{6}$ yr 对 13–20 M☉）极大——主序列寿命 ~$10^{7}$ yr，意味着 0.15×10 = 1.5 dex 总变化，远超 CN-cycle 平衡态的理论极限；这个数值本身就有物理上的可疑性；
 2. 引言没有正面提及"为什么 Lyubimkov 选 N II λλ4630 而本文选 N II λλ4987–5045 弱线群"——事实上这是后续 § 7.3 揭穿其假象的关键；
 3. 关于 Maeder (1987a) 湍流扩散，作者引用但未详细说明其物理（即旋转引起的 meridional circulation + shear-induced turbulent diffusion）；这是**隐含假设**读者知道。
 

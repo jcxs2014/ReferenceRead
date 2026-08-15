@@ -64,15 +64,15 @@
 
 [FACT] Hoyle (1946, 1954) 两篇经典论文首次在**恒星结构与演化框架**内建立核合成的基本概念，使用当时的核数据。
 
-[FACT] Hoyle 的难题：**红巨星中 3α → ¹²C 反应率太慢**——按 Salpeter (1952a) 的速率计算，He 燃烧应在 T ~ 2×10⁸ K 起，但 Hoyle 与 Schwarzschild 的演化计算要求 T ~ 10⁸ K 起。
+[FACT] Hoyle 的难题：**红巨星中 3α → ¹²C 反应率太慢**——按 Salpeter (1952a) 的速率计算，He 燃烧应在 T ~ 2×$10^{8}$ K 起，但 Hoyle 与 Schwarzschild 的演化计算要求 T ~ $10^{8}$ K 起。
 
-[FACT] **Hoyle 的预言（1953 年在 Kellogg Lab 提出）**：如果 ¹²C 存在一个 **激发态**，能量比 ⁸Be + α 高 0.3 MeV，且自旋宇称符合选择规则（0⁺, 2⁺, 3⁻, ...），则 ⁸Be(α,γ)¹²C 速率将加快若干数量级，从而降低点火温度。
+[FACT] **Hoyle 的预言（1953 年在 Kellogg Lab 提出）**：如果 ¹²C 存在一个 **激发态**，能量比 ⁸Be + α 高 0.3 MeV，且自旋宇称符合选择规则（$0^{+}$, $2^{+}$, $3^{-}$, ...），则 ⁸Be(α,γ)¹²C 速率将加快若干数量级，从而降低点火温度。
 
 [FACT] **Dunbar, Pixley, Wenzel & Whaling (1953)** 通过 ¹⁴N(d,α)¹²C 反应**找到了该态**，位置几乎精确在 Hoyle 预言处。
 
 [FACT] 该激发态现知其位于 **¹²C 的 7.654 MeV 激发能**，即比 ⁸Be + α 高 **0.2875 MeV**，比 3α 高 **0.3794 MeV**（Hoyle 预言 0.3 MeV 相对 ⁸Be+α）。
 
-[FACT] Cook, Fowler, Lauritsen, Lauritsen (1957) 通过放射性 ¹¹B 的衰变产生该态，证明其可分裂为 3α，**由互逆性 (reciprocity)** 可知可由 3α 形成。该态自旋宇称现为 **0⁺**。
+[FACT] Cook, Fowler, Lauritsen, Lauritsen (1957) 通过放射性 ¹¹B 的衰变产生该态，证明其可分裂为 3α，**由互逆性 (reciprocity)** 可知可由 3α 形成。该态自旋宇称现为 **$0^{+}$**。
 
 [FACT] **3α → ¹²C 跳跃了质量缺口 5 和 8**——此过程在 Big Bang 条件下不可能发生（密度温度太低），只能在红巨星 He 核心引力收缩后发生。
 
@@ -104,7 +104,7 @@
 
 [FACT] Hoyle 共振态：¹²C **7.654 MeV** 激发能；比 ⁸Be + α 高 **0.2875 MeV**；比 3α 高 **0.3794 MeV**
 
-[FACT] BBN 中 Li 质量分数上限：**~10⁻¹⁰**；D、³He、⁴He、⁷Li 可合理重现（Wagoner, Fowler, Hoyle 1967）
+[FACT] BBN 中 Li 质量分数上限：**~$10^{-10}$**；D、³He、⁴He、⁷Li 可合理重现（Wagoner, Fowler, Hoyle 1967）
 
 ## 2.11 潜在问题与关注点
 

@@ -92,7 +92,7 @@ $$P_R = (-1)^{2s + 3B + L}$$
 | 1983 | Weinberg | 光微子质量下界 **m > 1.8 GeV** |
 | 1983 | Goldberg | 同，独立 |
 | 1983-1984 | Ellis-Hagelin-Nanopoulos-Olive-Srednicki | 扩展到多种中性微子 |
-| 1983 | Ellis et al. (Phys. Lett. B) | 脚注：可施加更严缺失质量约束 ρ_χ ≤ 2×10⁻³⁰ (Ωh²) g/cm³ |
+| 1983 | Ellis et al. (Phys. Lett. B) | 脚注：可施加更严缺失质量约束 ρ_χ ≤ 2×$10^{-30}$ (Ωh²) g/cm³ |
 
 - [FACT] SUSY 的吸引力**不完全依赖暗物质**——还能解决**电弱等级问题**（hierarchy problem）、实现**规范耦合统一**（Dimopoulos-Raby-Wilczek 1981；Ibanez-Ross 1981；Marciano-Senjanovic 1982）。
 - [FACT] 若宇宙物质密度恰与可见重子一致，粒子物理学家仍会关注 SUSY——暗物质只是"附加奖励"。
@@ -103,8 +103,8 @@ $$P_R = (-1)^{2s + 3B + L}$$
 
 - [FACT] QCD 拉氏量包含 CP 破坏项（文中公式 (2)）：
 $$\mathcal{L}_{\rm QCD} \supset \bar{\Theta}\,\frac{g^2}{32\pi^2}\,G_{\mu\nu}^a\,\tilde{G}^{a\mu\nu}$$
-- [FACT] 若 Θ̄ ~ O(1)，中子电偶极矩应为实验上限 ~10¹⁰ 倍。
-- [FACT] 实验要求 **|Θ̄| ≲ 10⁻¹⁰** —— 极度精细调节。
+- [FACT] 若 Θ̄ ~ O(1)，中子电偶极矩应为实验上限 ~$10^{10}$ 倍。
+- [FACT] 实验要求 **|Θ̄| ≲ $10^{-10}$** —— 极度精细调节。
 
 ### 7.3.2 Peccei-Quinn 机制
 
@@ -120,13 +120,13 @@ $$m_a \sim \frac{\lambda_{\rm QCD}^2}{f_{\rm PQ}}, \quad \lambda_{\rm QCD} \sim 
 |------|--------------|------|
 | 稀有介子衰变 K⁺→π⁺a, J/ψ→γa | m_a > ~10 keV | 综述 |
 | 红巨星快速冷却 | m_a > ~1 eV | 综述 |
-| SN1987A | m_a ≳ 10⁻³ eV | 综述（引自 Kolb-Turner 1990 Ch.10） |
-| 现代主要候选质量区间 | 10⁻⁶ – 10⁻⁴ eV | 综述 |
+| SN1987A | m_a ≳ $10^{-3}$ eV | 综述（引自 Kolb-Turner 1990 Ch.10） |
+| 现代主要候选质量区间 | $10^{-6}$ – $10^{-4}$ eV | 综述 |
 
 ### 7.3.4 轴子产生机制
 
 - [FACT] **热产生**（Kephart-Weiler 1987；Turner 1987）——丰度极小，不足。
-- [FACT] **失配机制**（misalignment）：PQ 场初始值为大值，当 T ~ λ_QCD 时场滚动到极小值，能量转换为轴子（Abbott-Sikivie 1983；Dine-Fischler 1983；Preskill-Wise-Wilczek 1983）。典型初始条件给出 m_a ~ 10⁻⁵ eV 时密度约等于暗物质密度。
+- [FACT] **失配机制**（misalignment）：PQ 场初始值为大值，当 T ~ λ_QCD 时场滚动到极小值，能量转换为轴子（Abbott-Sikivie 1983；Dine-Fischler 1983；Preskill-Wise-Wilczek 1983）。典型初始条件给出 m_a ~ $10^{-5}$ eV 时密度约等于暗物质密度。
 - [FACT] **拓扑缺陷**：弦（strings）与畴壁（domain walls），衰变产生轴子 ~ 失配量（Davis 1986）。
 - [FACT] 若暴胀发生在 PQ 破缺**之后**，缺陷网络被抹除；反之保留。
 - [FACT] 若暴胀在 PQ 破缺**之后**，可能存在**人择解释**（Linde 1991；Wilczek 2004；Tegmark et al. 2006）——Θ̄ 初始值 ~ O(1) 区域轴子密度过高、空间快速收缩；稀有 Θ̄ ≪1 区域允许宇宙膨胀，生命存在于此 → 我们必然观测到"暗物质相当的轴子密度"。
@@ -156,7 +156,7 @@ $$\sigma v \sim 10^{-26}\,{\rm cm^3/s}$$
 | 公式 | 说明 |
 |------|------|
 | m_χ > ~1–100 keV | 冷暗物质下界（避免退耦为热暗物质） |
-| σv ≈ 10⁻²⁶ cm³/s | 热遗迹丰度匹配 Ω_DM h² ≈ 0.12 的截面 |
+| σv ≈ $10^{-26}$ cm³/s | 热遗迹丰度匹配 Ω_DM h² ≈ 0.12 的截面 |
 | Ωh² ≈ 0.1 / (σv) [近似] | WIMP 热遗迹丰度公式（Griest-Seckel） |
 
 ## 7.5 [CRITIQUE]

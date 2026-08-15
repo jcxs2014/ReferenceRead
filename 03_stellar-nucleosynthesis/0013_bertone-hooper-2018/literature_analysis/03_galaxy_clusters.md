@@ -15,7 +15,7 @@
 - [FACT] Zwicky 使用 Hubble & Humason 1931 发表的星系红移数据。
 - [FACT] 观察到 Coma 星系团内 **8 个星系**视向速度差 > **2000 km/s**（巨大速度弥散）。
 - [FACT] Hubble-Humason 已注意到 Coma 弥散大，但 Zwicky 更进一步**首次**将维里定理用于**星系团质量**估算。
-- [FACT] Zwicky 输入参数：800 个星系、单星系数均 10⁹ M⊙（Hubble 值）、系统尺度 ~10⁶ 光年。
+- [FACT] Zwicky 输入参数：800 个星系、单星系数均 $10^{9}$ M⊙（Hubble 值）、系统尺度 ~$10^{6}$ 光年。
 - [FACT] 由维里定理推得预期视向速度弥散应 **80 km/s**；实际观测 **~1000 km/s**。
 - [FACT] 结论性引述（常被误引为"dark matter"首用）：
   > "If this would be confirmed, we would get the surprising result that dark matter is present in much greater amount than luminous matter."
@@ -30,18 +30,18 @@
 ### 3.1.3 Zwicky 1937（英文，ApJ）
 
 - [FACT] 目标：确定星系质量，提出多种方法。
-- [FACT] 输入更新为：Coma 内 1000 个星系、半径 2×10⁶ 光年、视向速度弥散 700 km/s。
+- [FACT] 输入更新为：Coma 内 1000 个星系、半径 2×$10^{6}$ 光年、视向速度弥散 700 km/s。
 - [FACT] 为保守起见，剔除一个退行速度 5100 km/s 的星系作为离群。
 - [FACT] 结果：
-  - Coma 总质量下限：**4.5×10¹³ M⊙**
-  - 每个星系平均质量：**4.5×10¹⁰ M⊙**
-  - 假设每个星系平均绝对光度 8.5×10⁷ L⊙
+  - Coma 总质量下限：**4.5×$10^{13}$ M⊙**
+  - 每个星系平均质量：**4.5×$10^{10}$ M⊙**
+  - 假设每个星系平均绝对光度 8.5×$10^{7}$ L⊙
   - 得**质光比 M/L ≈ 500**（极高）
 
-### 3.1.4 H₀ 修正问题
+### 3.1.4 $H_{0}$ 修正问题
 
-- [FACT] Zwicky 1937 使用 Hubble-Humason 1931 的 **H₀ = 558 km/s/Mpc**（误差 10-20%）。
-- [FACT] 用 Planck 2015 的 **H₀ = 67.27 ± 0.66 km/s/Mpc** 修正，Zwicky 高估 M/L 因子约 **558/67.27 ≈ 8.3**。
+- [FACT] Zwicky 1937 使用 Hubble-Humason 1931 的 **$H_{0}$ = 558 km/s/Mpc**（误差 10-20%）。
+- [FACT] 用 Planck 2015 的 **$H_{0}$ = 67.27 ± 0.66 km/s/Mpc** 修正，Zwicky 高估 M/L 因子约 **558/67.27 ≈ 8.3**。
 - [FACT] 即使修正后，Coma 依然指向极高 M/L——**暗物质证据稳健**。
 
 ### 3.1.5 Zwicky 心中"暗物质"是什么？
@@ -53,8 +53,8 @@
 ### 3.1.6 Sinclair Smith 1936（Virgo 星系团）
 
 - [FACT] 假设外圈星系绕 Virgo 做圆周运动。
-- [FACT] 总质量 = 10¹⁴ M⊙；已知 500 个星系。
-- [FACT] 每星系数均 = **2×10¹¹ M⊙**，远高于 Hubble 的 10⁹ M⊙ 估计。
+- [FACT] 总质量 = $10^{14}$ M⊙；已知 500 个星系。
+- [FACT] 每星系数均 = **2×$10^{11}$ M⊙**，远高于 Hubble 的 $10^{9}$ M⊙ 估计。
 - [FACT] Smith 引述：
   > "the difference represents internebular material, either uniformly distributed or in the form of great clouds of low luminosity surrounding the galaxies."
 - [FACT] Hubble《The Realm of Nebulae》引用的是 Smith 而非 Zwicky，Hubble 称此质量差异为"真实且重要"（real and important），但承认"不完美"。
@@ -69,7 +69,7 @@
 ### 3.2.2 Schwarzschild 1954
 
 - [FACT] 剔除"闯入者"星系后，径向速度弥散降到 **630 km/s**（仍大）。
-- [FACT] 采用更新 H₀ 与 5×10⁸ L⊙/星系，得 M/L ≈ **800**（"令人惊愕地高"）。
+- [FACT] 采用更新 $H_{0}$ 与 5×$10^{8}$ L⊙/星系，得 M/L ≈ **800**（"令人惊愕地高"）。
 - [FACT] 见**图 1**（1950s 暗物质问题快照：星系和星系团的距离、质量、光度、质光比）。
 
 ### 3.2.3 Ambartsumian（1950s 末）
@@ -97,11 +97,11 @@
 |------|-------------|-------------|------------|-------------------|
 | 星系团 | Coma | Coma | Virgo | Coma/其他 |
 | 星系数 | 800 | 1000 | 500 | — |
-| 系统半径 | 10⁶ ly | 2×10⁶ ly | — | — |
+| 系统半径 | $10^{6}$ ly | 2×$10^{6}$ ly | — | — |
 | 视向弥散 | 观测 1000 / 预期 80 km/s | 700 km/s | 圆周运动假设 | 630 km/s |
-| 每星系数均 | 10⁹（假设） | 4.5×10¹⁰ | 2×10¹¹ | — |
+| 每星系数均 | $10^{9}$（假设） | 4.5×$10^{10}$ | 2×$10^{11}$ | — |
 | M/L | — | ≈500 | — | ≈800 |
-| 总质量 | — | >4.5×10¹³ M⊙ | 10¹⁴ M⊙ | — |
+| 总质量 | — | >4.5×$10^{13}$ M⊙ | $10^{14}$ M⊙ | — |
 
 ## 3.4 关键公式
 
@@ -124,5 +124,5 @@ $$M \sim \frac{5 \, R \, \sigma_v^2}{G}$$
 
 ## 3.6 [CRITIQUE]
 
-- [CRITIQUE] Zwicky 的数据**数量极少**（1933 年只用 8 个星系）且 H₀ 值过高，导致系统误差极大。但暗物质的**定性证据**（速度弥散远高于维里预测）稳健。
-- [CRITIQUE] 1960s 混乱局面的真正原因在于**距离阶梯（distance ladder）不精确**——H₀ 不确定性直接传导到质量。这一系统性困难直到 1990s Cepheid/TMA 时代才基本解决。
+- [CRITIQUE] Zwicky 的数据**数量极少**（1933 年只用 8 个星系）且 $H_{0}$ 值过高，导致系统误差极大。但暗物质的**定性证据**（速度弥散远高于维里预测）稳健。
+- [CRITIQUE] 1960s 混乱局面的真正原因在于**距离阶梯（distance ladder）不精确**——$H_{0}$ 不确定性直接传导到质量。这一系统性困难直到 1990s Cepheid/TMA 时代才基本解决。

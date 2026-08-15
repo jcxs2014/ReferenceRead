@@ -47,22 +47,22 @@
 
 ## 99.6 主要局限
 
-- [CRITIQUE] 综述**未讨论 ΛCDM 当前挑战**：小尺度危机（missing satellites, cusp-core, too-big-to-fail）；H₀ tension；σ₈ tension。
+- [CRITIQUE] 综述**未讨论 ΛCDM 当前挑战**：小尺度危机（missing satellites, cusp-core, too-big-to-fail）；$H_{0}$ tension；σ₈ tension。
 - [CRITIQUE] **未设 LHC 专节**——对 2018 年读者而言是不完全的"暗物质探测图景"。
-- [CRITIQUE] 未讨论**新兴候选体**：fuzzy dark matter（ultralight axion ~10⁻²² eV）、dark photons、hidden valley、asymmetric dark matter、dark matter self-interactions。
+- [CRITIQUE] 未讨论**新兴候选体**：fuzzy dark matter（ultralight axion ~$10^{-22}$ eV）、dark photons、hidden valley、asymmetric dark matter、dark matter self-interactions。
 - [CRITIQUE] 部分叙述有**回顾性目的论化**倾向——把 CDM 范式胜利写得过于顺理成章。
 
 ## 99.7 我应该记住的要点（10 条）
 
 1. "Dark matter"一词 19 世纪已用（Kelvin, Poincaré, Kapteyn, Zwicky 1933b），非 Zwicky 1933 首创。
 2. **Oort 1932 太阳邻域密度** = 0.092 M⊙/pc³；暗物质上限 0.05 M⊙/pc³——现代直接探测的关键输入。
-3. Zwicky 1937 Coma M/L ≈ 500（修正 H₀ 后仍高 ~60）——星系团证据稳健。
+3. Zwicky 1937 Coma M/L ≈ 500（修正 $H_{0}$ 后仍高 ~60）——星系团证据稳健。
 4. **Freeman 1970 首次明确断言**"必须存在未探测到的额外物质"——星系尺度范式转换节点。
 5. **1974 双胞胎论文**（Einasto et al. + Opriker-Peebles-Yahil）首次把星系团与星系缺失质量统一。
-6. MOND a₀ ≈ 1.2×10⁻¹⁰ m/s² 精确预测 Tully-Fisher α=4；**Bullet Cluster 2006** 是其最大挑战。
-7. WIMP 奇迹：σv ~ 10⁻²⁶ cm³/s 与弱力截面"巧合一致"——但 20 年 null 结果已严重压缩参数空间。
+6. MOND $a_{0}$ ≈ 1.2×$10^{-10}$ m/s² 精确预测 Tully-Fisher α=4；**Bullet Cluster 2006** 是其最大挑战。
+7. WIMP 奇迹：σv ~ $10^{-26}$ cm³/s 与弱力截面"巧合一致"——但 20 年 null 结果已严重压缩参数空间。
 8. R 宇称 (P_R = (-1)^{2s+3B+L}) 保证 SUSY LSP 稳定 → 自然暗物质候选。
-9. Axion：解决强 CP 问题；质量 10⁻⁶ – 10⁻⁴ eV；ADMX 已覆盖 1.9-3.3 μeV。
+9. Axion：解决强 CP 问题；质量 $10^{-6}$ – $10^{-4}$ eV；ADMX 已覆盖 1.9-3.3 μeV。
 10. **CMB + BBN** 双重证据给出 Ω_b h² < 1% 精度 → 暗物质**必为非重子**。
 
 ## 99.8 与相关工作的关系

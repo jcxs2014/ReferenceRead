@@ -18,11 +18,11 @@
 - **pp 链**：主导低质量恒星（M ≲ 1.3 M_☉），能量产生率对温度依赖较弱（ε ∝ T⁴）；
 - **CNO 循环**：主导大质量恒星（M ≳ 1.3 M_☉），能量产生率对温度依赖很强（ε ∝ T¹⁶ 至 T²⁰），并解释了恒星核心的温度敏感性。
 
-[FACT] "hot CNO cycle"（即 CNO bi-cycle）发生在极高温度下（T ≳ 3 × 10⁸ K），涉及 ¹⁴O、¹⁵O 等不稳定核的 β 衰变环节，是 X 射线双星、新星、Ia 型超新星前身星的重要过程。
+[FACT] "hot CNO cycle"（即 CNO bi-cycle）发生在极高温度下（T ≳ 3 × $10^{8}$ K），涉及 ¹⁴O、¹⁵O 等不稳定核的 β 衰变环节，是 X 射线双星、新星、Ia 型超新星前身星的重要过程。
 
 ### 5.2.2 Helium burning
 
-[FACT] 3α 反应在 T ≈ 10⁸ K 启动：
+[FACT] 3α 反应在 T ≈ $10^{8}$ K 启动：
 $$3 \, ^4\text{He} \to ^{12}\text{C} + \gamma \quad (\text{通过 Hoyle 共振在 } ^{12}\text{C} \text{ 的 } 7.65 \text{ MeV 激发态})$$
 随后 ¹²C(α,γ)¹⁶O 生成氧。
 
@@ -33,15 +33,15 @@ $$3 \, ^4\text{He} \to ^{12}\text{C} + \gamma \quad (\text{通过 Hoyle 共振�
 ### 5.2.3 Hydrostatic carbon, oxygen, and silicon burning
 
 [FACT] 大质量恒星（M ≳ 8 M_☉）在 He 燃烧后依次进入 C、Ne、O、Si 燃烧阶段，温度与密度逐级升高：
-- **C 燃烧**：T ~ 6–8 × 10⁸ K，主要反应 ¹²C+¹²C；
-- **Ne 燃烧**：T ~ 1.2–1.5 × 10⁹ K，通过光解 ²⁰Ne 后再生 α；
-- **O 燃烧**：T ~ 1.5–2.5 × 10⁹ K，生成 Si、S、Ar、Ca；
-- **Si 燃烧**：T ~ 3–5 × 10⁹ K，通过光解-重组准平衡（nuclear statistical equilibrium, NSE）向 Fe-peak 元素演化。
+- **C 燃烧**：T ~ 6–8 × $10^{8}$ K，主要反应 ¹²C+¹²C；
+- **Ne 燃烧**：T ~ 1.2–1.5 × $10^{9}$ K，通过光解 ²⁰Ne 后再生 α；
+- **O 燃烧**：T ~ 1.5–2.5 × $10^{9}$ K，生成 Si、S、Ar、Ca；
+- **Si 燃烧**：T ~ 3–5 × $10^{9}$ K，通过光解-重组准平衡（nuclear statistical equilibrium, NSE）向 Fe-peak 元素演化。
 
 [FACT] 每一燃烧阶段的时间尺度急剧缩短：
-- H 燃烧：~10⁷–10⁹ yr（取决于质量）；
-- He 燃烧：~10⁶ yr；
-- C 燃烧：~10³ yr；
+- H 燃烧：~$10^{7}$–$10^{9}$ yr（取决于质量）；
+- He 燃烧：~$10^{6}$ yr；
+- C 燃烧：~$10^{3}$ yr；
 - Ne 燃烧：~1 yr；
 - O 燃烧：~6 个月；
 - Si 燃烧：~1 天。
@@ -74,14 +74,14 @@ $$\frac{n_i}{n_A} = \frac{g_i}{g_A} \frac{A^{3/2} A_i^{3/2}}{A_i} \left(\frac{m_
 
 | 燃烧阶段 | 温度 (K) | 时标 | 主要产物 |
 |---------|---------|------|---------|
-| H (pp) | ~1.5 × 10⁷ | 10⁹ yr (1 M_☉) | ⁴He |
-| H (CNO) | ~2 × 10⁷ | 10⁷ yr (10 M_☉) | ⁴He + ¹⁴N |
-| He | ~10⁸ | ~10⁶ yr | ¹²C, ¹⁶O |
-| C | ~7 × 10⁸ | ~10³ yr | Ne, Na, Mg |
-| Ne | ~1.3 × 10⁹ | ~1 yr | O, Mg |
-| O | ~2 × 10⁹ | ~0.5 yr | Si, S, Ar, Ca |
-| Si | ~3–5 × 10⁹ | ~1 d | Fe-peak (⁵⁶Ni) |
-| Si (explosive) | ~5 × 10⁹ | ~10 s | Fe-peak + ε-process |
+| H (pp) | ~1.5 × $10^{7}$ | $10^{9}$ yr (1 M_☉) | ⁴He |
+| H (CNO) | ~2 × $10^{7}$ | $10^{7}$ yr (10 M_☉) | ⁴He + ¹⁴N |
+| He | ~$10^{8}$ | ~$10^{6}$ yr | ¹²C, ¹⁶O |
+| C | ~7 × $10^{8}$ | ~$10^{3}$ yr | Ne, Na, Mg |
+| Ne | ~1.3 × $10^{9}$ | ~1 yr | O, Mg |
+| O | ~2 × $10^{9}$ | ~0.5 yr | Si, S, Ar, Ca |
+| Si | ~3–5 × $10^{9}$ | ~1 d | Fe-peak (⁵⁶Ni) |
+| Si (explosive) | ~5 × $10^{9}$ | ~10 s | Fe-peak + ε-process |
 
 - Chandrasekhar 质量极限：M_Ch ≈ 1.4 M_☉
 - Hoyle 共振：¹²C 激发态在 7.65 MeV

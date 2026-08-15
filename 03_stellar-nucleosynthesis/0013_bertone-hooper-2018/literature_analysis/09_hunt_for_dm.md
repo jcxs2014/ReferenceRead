@@ -57,7 +57,7 @@
 |------|----------|------|------|
 | **CDMS** | 电离 + 热 | Ge、Si | 低温 |
 | **EDELWEISS** | 电离 + 热 | Ge | 低温 |
-| **CRESST** | 闪烁 + 热 | CaWO₄ | 低温 |
+| **CRESST** | 闪烁 + 热 | $CaWO_{4}$ | 低温 |
 | **XENON100** | 闪烁 + 电离 | 液氙 | 双相 |
 | **LUX** | 闪烁 + 电离 | 液氙 | 双相 |
 | **Zeplin-II** | 同上 | 液氙 | 双相（Alner et al. 2007） |
@@ -77,7 +77,7 @@
   - Gunn-Lee-Lerche-Schramm-Steigman 1978（Astrophys. J. 223, 1015）
   - Stecker 1978（Astrophys. J. 223, 1032）
 - [FACT] 关注对象：重稳定轻子（heavy neutrino）。
-- [FACT] 当时 γ 背景（SAS-2，Fichtel-Simpson-Thompson 1978，35-100 MeV）：~6×10⁻⁵ cm⁻² s⁻¹ sr⁻¹ —— 远高于暗物质湮灭平滑预测；但**暗物质晕内湮灭**可大幅提高预测。
+- [FACT] 当时 γ 背景（SAS-2，Fichtel-Simpson-Thompson 1978，35-100 MeV）：~6×$10^{-5}$ cm⁻² s⁻¹ sr⁻¹ —— 远高于暗物质湮灭平滑预测；但**暗物质晕内湮灭**可大幅提高预测。
 - [FACT] Gunn et al. 断言 GeV 暗物质信号"可能在未来 γ 观测中被发现"。
 
 ### 9.3.2 多种信使

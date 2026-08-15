@@ -66,7 +66,7 @@
 |------|------|------|
 | 50 | Decrock et al. PRL 67:808–11 (1991) | ¹³N(p,γ)¹⁴O 放射性束直接测量 |
 | 52 | Motobayashi et al. PLB 264:259–63 (1991) | ¹⁴O 库仑裂变 |
-| 64 | Garcia et al. PR C43:2012–19 (1991) | ¹⁸Ne 中 3⁺ 态 (Ex=4.561 MeV) |
+| 64 | Garcia et al. PR C43:2012–19 (1991) | ¹⁸Ne 中 $3^{+}$ 态 (Ex=4.561 MeV) |
 | 82 | Smith et al. NP A536:333–48 (1992) | ²⁰Na 共振 (植入靶) |
 | 96 | Seuthe et al. NP A514:471–502 (1990) | ²²Na(p,γ)²³Mg 直接测量 |
 | 98 | Buchmann et al. NP A415:93–113 (1984) | ²⁶Al(p,γ)²⁷Si 首次直接测量 |

@@ -36,7 +36,7 @@
 ### 1.2.2 B. The astronomical background in 1957
 
 [FACT] 1940s–1950s 观测发现并非所有恒星化学组成相同：
-- **碳星 (carbon stars)**：分子带显示 C₂、CN、CO 分子
+- **碳星 (carbon stars)**：分子带显示 $C_{2}$、CN、CO 分子
 - **亚矮星 (subdwarfs)**：金属丰度低 10 倍以上（Chamberlain & Aller 1951）
 - **Ba II 星与 S 星**：特定元素丰度超丰 ~10 倍
 

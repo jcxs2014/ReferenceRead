@@ -23,7 +23,7 @@
 | insofar as | conj. | 限定 | 在……的范围内 | "HCNO rates are reliable **insofar as** the 13N(p,γ)14O reaction is concerned." |
 | owing to | prep. | 因果 | 由于 | "**Owing to** the extreme energy dependence of proton widths, the width estimate was in error." |
 | hence | adv. | 因果 | 因此 | "19Ne(p,γ)20Na rate cannot be estimated ...; **hence**, the rp-process trigger is uncertain." |
-| thus | adv. | 因果 | 从而 | "the 447-keV resonance may be J^π=1⁻ or 0⁻, **thus** the rate is uncertain by several orders of magnitude." |
+| thus | adv. | 因果 | 从而 | "the 447-keV resonance may be J^π=$1^{-}$ or $0^{-}$, **thus** the rate is uncertain by several orders of magnitude." |
 | in summary | phr. | 结论 | 总之 | §6 结语用 |
 | overall | adv. | 结论 | 总体而言 | "The data and reaction rates are **overall** well understood, but a few ambiguities remain." |
 | initially | adv. | 时序 | 最初 | "The initial CNO abundance ... is converted to 34Ar within **0.5 s**." |
@@ -38,10 +38,10 @@
 | 术语 | 中文 | 释义 | 首次出现章节 |
 |------|------|------|-------------|
 | explosive hydrogen burning | 爆炸性氢燃烧 | 极端 T、ρ 下核反应时标与动力学自由落体时标（秒级）可比，从而在极短时间内点燃氢的燃烧模式 | §1 |
-| hot CNO (HCNO) cycles | 热 CNO 循环 | 当 T₉ ≳ 0.2 时 ¹³N(p,γ)¹⁴O 绕过 ¹³N β⁺ 衰变、¹⁵O(α,γ) 等 α 分支打开，CNO 循环以高温变体运作 | §2.1 |
+| hot CNO (HCNO) cycles | 热 CNO 循环 | 当 $T_{9}$ ≳ 0.2 时 ¹³N(p,γ)¹⁴O 绕过 ¹³N β⁺ 衰变、¹⁵O(α,γ) 等 α 分支打开，CNO 循环以高温变体运作 | §2.1 |
 | rp-process | 快速质子俘获过程 | 质子俘获速率远快于 β⁺ 衰变速率时，沿稳定线与质子滴线之间快速推进的重核合成过程 | §2.1 |
 | np-process | 快速中子-质子过程 | 高温下 (n,p) 反应越过等待点的复合过程，Woosley (1985) 提出 | §5.3 |
-| T₉ | 以 10⁹ K 为单位的温度 | T₉ = T / 10⁹ K；新星 T₉≈0.1–0.5，XRB T₉≈0.7–1.5 | §1.1 |
+| $T_{9}$ | 以 $10^{9}$ K 为单位的温度 | $T_{9}$ = T / $10^{9}$ K；新星 $T_{9}$≈0.1–0.5，XRB $T_{9}$≈0.7–1.5 | §1.1 |
 | reaction network | 反应网络 | 耦合微分方程组，描述多种核素之间的 β 衰变、(p,γ)、(p,α)、(α,γ) 等反应及逆反应 | §2.1 |
 | Gamow peak | 高莫峰 | Maxwell 分布 × 库仑穿透因子峰值对应的能量窗口，是 (p,γ) 关键测量能区 | §2.2 |
 | Gamow energy E_G | 高莫能量 | E_G = 2π² e⁴ Z_a² Z_b² μ / ℏ²，刻画库仑穿透对截面的指数抑制 | §2.2 |
@@ -52,7 +52,7 @@
 | proton drip line | 质子滴线 | 复合核质子分离能为零时的边界，越过此边界无法继续质子俘获 | §2.2 |
 | waiting point | 等待点 | 反应流抵达质子滴线内侧一个质子，只能等待 β⁺ 或 EC 衰变的重核 | §4.5.1 |
 | photodisintegration | 光致分解 | 高能 γ 将复合核打回质子的逆反应，抑制偶偶 T=1 核的 (p,γ) | §4.5.2 |
-| bottleneck reaction | 瓶颈反应 | 在 T₉ < 1 时通向更重元素唯一链路的奇偶 T=1/2 核 (p,γ) | §4.5.3 |
+| bottleneck reaction | 瓶颈反应 | 在 $T_{9}$ < 1 时通向更重元素唯一链路的奇偶 T=1/2 核 (p,γ) | §4.5.3 |
 | reaction cycles | 反应循环 | (p,α)/(p,γ) 竞争导致的 NeNa、MgAl、SiP 等循环，是流的阻抗 | §4.5.4 |
 | Γ_γ (radiative width) | 辐射宽度 | 共振 γ 衰变分宽度，对 ¹³N(p,γ)¹⁴O 决定反应率不确定度 | §3.2 |
 | spin-statistical factor ω | 自旋统计因子 | Breit-Wigner 中考虑自旋自由度的统计权重 | §2.2 |
@@ -63,7 +63,7 @@
 | F_ij (net reaction flow) | 净反应流 | 两核素间 (i→j 与 j→i) 反应率随时间积分后的净值，式 (8) | §5 |
 | Y_i (isotopic abundance) | 同位素丰度 | Y = X/A，质量分数除以原子数，网络计算的基本变量 | §5 |
 | cataclysmic binary | 灾变双星 | 白矮星或中子星从伴星吸积致热核爆发的密近双星系统 | §1.1 |
-| X-ray burst (XRB) | X 射线暴 | 中子星表面吸积物质简并条件下点燃的热核爆发，ρ=10⁶–10⁸ g/cm³ | §1.2 |
+| X-ray burst (XRB) | X 射线暴 | 中子星表面吸积物质简并条件下点燃的热核爆发，ρ=$10^{6}$–$10^{8}$ g/cm³ | §1.2 |
 | nova | 新星 | CO 或 O-Ne-Mg 白矮星表面热核失控，抛射大量物质 | §1.1 |
 | nuclear reaction rate ⟨σv⟩ | 核反应率 | σ(E)·v 对 Maxwell 速度分布的均值，是网络计算的基本输入 | §2.2 |
 | excited state contribution | 激发态贡献 | Boltzmann 分布下核激发态对恒星反应率的额外贡献 | §3.6.1 |
@@ -79,18 +79,18 @@
 **翻译**：在恒星环境下，经由共振进行的反应速率可能与实验室中测得的速率显著不同，原因在于激发态的玻尔兹曼布居和恒星 β 衰变率与实验室条件不同。
 
 ### C2. §4.5.1（等待点端点）
-> "If the rp-process proceeds for less than 17 s, it will terminate at **⁷²Kr (T₁/₂ = 17.2 s)**, whose half-life imposes a **time gate** on whether the process can reach the A ≈ 70 region."
+> "If the rp-process proceeds for less than 17 s, it will terminate at **⁷²Kr ($T_{1}$/₂ = 17.2 s)**, whose half-life imposes a **time gate** on whether the process can reach the A ≈ 70 region."
 
 **主干**：it will terminate at ⁷²Kr
 **修饰**：If … 条件状语从句；whose half-life imposes a time gate on whether … 非限定定语从句进一步刻画 ⁷²Kr 的物理意义
-**翻译**：若 rp-过程持续时间不足 17 s，它将终止于 ⁷²Kr（T₁/₂ = 17.2 s），该核素的半衰期构成一个"时间门"，决定了过程能否到达 A≈70 区域。
+**翻译**：若 rp-过程持续时间不足 17 s，它将终止于 ⁷²Kr（$T_{1}$/₂ = 17.2 s），该核素的半衰期构成一个"时间门"，决定了过程能否到达 A≈70 区域。
 
 ### C3. §5.3（端点）
-> "At **T₉ = 1.5**, the reaction flow proceeds continuously from **⁴He to ⁷³Kr** via a combination of **proton captures** and **beta decays** near the proton drip line, **until** the path is halted by the particle-unbound nature of **⁷³Rb**."
+> "At **$T_{9}$ = 1.5**, the reaction flow proceeds continuously from **⁴He to ⁷³Kr** via a combination of **proton captures** and **beta decays** near the proton drip line, **until** the path is halted by the particle-unbound nature of **⁷³Rb**."
 
 **主干**：reaction flow proceeds continuously from ⁴He to ⁷³Kr
-**修饰**：At T₉=1.5 条件状语；via a combination of … 方式状语；until … 时间状语从句给出终止条件
-**翻译**：在 T₉ = 1.5 下，反应流从 ⁴He 连续推进至 ⁷³Kr，途经质子滴线附近的质子俘获与 β 衰变组合，直至 ⁷³Rb 的粒子未束缚性质阻断路径。
+**修饰**：At $T_{9}$=1.5 条件状语；via a combination of … 方式状语；until … 时间状语从句给出终止条件
+**翻译**：在 $T_{9}$ = 1.5 下，反应流从 ⁴He 连续推进至 ⁷³Kr，途经质子滴线附近的质子俘获与 β 衰变组合，直至 ⁷³Rb 的粒子未束缚性质阻断路径。
 
 ### C4. §6 结语（沙上建塔）
 > "Although an impressive amount of effort has been devoted to understanding nucleosynthesis during explosive hydrogen burning, **a great deal of work remains to be done**; **based on our knowledge of reaction rates, it is fair to ask if we have not built a house of cards.**"

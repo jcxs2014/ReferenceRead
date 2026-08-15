@@ -133,14 +133,14 @@ XIII. Conclusion (P95)
 
 | 编号 | 过程 | 物理机制 | 产物范围 | 时间标度 | 关键场所 |
 |---|---|---|---|---|---|
-| (i) | Hydrogen Burning | pp 链 & CN 循环 | He⁴、C/N/O/F/Ne/Na 部分同位素 | 10⁷–10¹⁰ yr | 主序星内部 |
-| (ii) | Helium Burning | 3α 与 α 逐次俘获 | ¹²C、¹⁶O、²⁰Ne、²⁴Mg | 10⁷–10⁸ yr | 红巨星核心（T~10⁸ K，ρ~10⁵ g/cm³） |
-| (iii) | α (alpha) Process | Ne²⁰ 起逐次 α 俘获 | ²⁴Mg、²⁸Si、³²S、³⁶Ar、⁴⁰Ca、⁴⁴Ca、⁴⁸Ti | 10⁶–10⁷ yr | 演化后期收缩相 |
+| (i) | Hydrogen Burning | pp 链 & CN 循环 | He⁴、C/N/O/F/Ne/Na 部分同位素 | $10^{7}$–$10^{10}$ yr | 主序星内部 |
+| (ii) | Helium Burning | 3α 与 α 逐次俘获 | ¹²C、¹⁶O、²⁰Ne、²⁴Mg | $10^{7}$–$10^{8}$ yr | 红巨星核心（T~$10^{8}$ K，ρ~$10^{5}$ g/cm³） |
+| (iii) | α (alpha) Process | Ne²⁰ 起逐次 α 俘获 | ²⁴Mg、²⁸Si、³²S、³⁶Ar、⁴⁰Ca、⁴⁴Ca、⁴⁸Ti | $10^{6}$–$10^{7}$ yr | 演化后期收缩相 |
 | (iv) | ε (epsilon) Process | 极高 T、ρ 下的统计平衡 | 铁族（V,Cr,Mn,Fe,Co,Ni，A≈50–62） | 秒或分钟 | 超新星爆发前 |
-| (v) | s Process（slow） | (n,γ)，每步间 β 衰变慢于中子俘获 | 23≲A≲46（大部分）；63≲A≲209（相当比例） | 10³–10⁸ yr | 红巨星内部（伴随 Tc⁹⁹） |
+| (v) | s Process（slow） | (n,γ)，每步间 β 衰变慢于中子俘获 | 23≲A≲46（大部分）；63≲A≲209（相当比例） | $10^{3}$–$10^{8}$ yr | 红巨星内部（伴随 Tc⁹⁹） |
 | (vi) | r Process（rapid） | (n,γ)，中子俘获极快；β 衰变时标 0.01–1 s | 70≲A≲209（大量）；U、Th；可能含轻元素如 ⁴⁴Ca | 10–100 s | 超新星爆发 |
 | (vii) | p Process | (p,γ) 或 (γ,n) 光致蜕变 | 质子富集核（低丰度） | 分钟级 | 超新星 II 型外抛壳 |
-| (viii) | x Process | 多种可能 | D、Li、Be、B | 秒–10⁹ yr | 低 T、低密度区（恒星大气、宇宙线） |
+| (viii) | x Process | 多种可能 | D、Li、Be、B | 秒–$10^{9}$ yr | 低 T、低密度区（恒星大气、宇宙线） |
 
 **辅助过程**：自由中子源（¹²C(n,α)⁹Be 及 ²⁰Ne(α,n)²⁴Mg）——Cameron (1954/55) 与 Greenstein (1954) 首先提出，Marion & Fowler 给出速率。
 
@@ -148,7 +148,7 @@ XIII. Conclusion (P95)
 
 1. Suess & Urey (1956) 元素丰度表（论文主要数据源）。
 2. Russell (1929) 太阳丰度；Goldberg, Aller, Müller (1957) 最新太阳值。
-3. **S 型星（Merrill, 1952）中的技术锝 Tc⁹⁹**——半衰期 2×10⁶ yr 的短寿命核素在恒星大气中被观测到，直接证明恒星内部正在进行的慢中子俘获过程。
+3. **S 型星（Merrill, 1952）中的技术锝 Tc⁹⁹**——半衰期 2×$10^{6}$ yr 的短寿命核素在恒星大气中被观测到，直接证明恒星内部正在进行的慢中子俘获过程。
 4. 超新星中 ⁵⁶Ni/⁵⁶Co 衰变链——超新星爆发内快速中子俘获的证据。
 5. Population I vs II 恒星的重元素丰度差异。
 6. 蟹状星云超新星遗迹中 Cf²⁵⁴ 自发裂变的推断（Burbidge, 1956）。
@@ -165,7 +165,7 @@ XIII. Conclusion (P95)
 | Fig. II.4 | 各过程时间标度 vs 恒星内部温度示意 |
 | Fig. III.1 | 质子质子反应截面因子 S(E) |
 | Fig. III.6 | 超新星壳层中由 H/He 燃烧产生的中子源反应图 |
-| Fig. IV.1 | 铁族观测/计算平衡丰度（log₁₀ N/N(Fe⁵⁶)） |
+| Fig. IV.1 | 铁族观测/计算平衡丰度（$\log_{10}$ N/N(Fe⁵⁶)） |
 | Fig. V.1 | Neutron-capture cross section × abundance 曲线（s 过程稳态流） |
 | Fig. VII.1 | 平均过量中子结合能（幻数 50/82/126） |
 | Fig. VII.4 | 重核 r 过程丰度（超铀、裂变） |

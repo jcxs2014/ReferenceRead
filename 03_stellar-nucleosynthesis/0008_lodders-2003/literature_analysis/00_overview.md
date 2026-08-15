@@ -82,7 +82,7 @@ path: 03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overvi
     - 关键关系式（式 5）：A(El)₀ = A(El) + 0.074
   - §2.5 Abundances of the Isotopes（**表 6：Abundances of the Isotopes in the Solar System**，含 4.55 Gyr 前放射性/衰变产物丰度）
 - **§3 Condensation Temperatures of the Elements**（p. 1236–1245）
-  - §3.1 Computational Methods and Nomenclature（CONDOR 代码，式 7–15；p = 10⁻⁴ bar）
+  - §3.1 Computational Methods and Nomenclature（CONDOR 代码，式 7–15；p = $10^{-4}$ bar）
   - §3.2 Major Element Condensates（表 7）
   - §3.3 Minor and Trace Element Condensation（表 8、表 9）
     - §3.3.1 Ultrarefractory Trace Element Condensation：W, Re, Os, Ir, Mo, Pt, Rh, Ru, Zr, Hf（fremdlinge）
@@ -112,11 +112,11 @@ path: 03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overvi
 
 [FACT] 通过 Boothroyd & Sackmann (2003) 标准太阳模型（SSM）的标度关系，从观测的大气 Z/X = 0.0177 推导：
 - 当前质量分数：**X = 0.7491 ± 0.0030, Y = 0.2377 ± 0.0030, Z = 0.0133 ± 0.0014**，Z/X = 0.0177
-- 原始（protosolar）质量分数：**X₀ = 0.7110 ± 0.0040, Y₀ = 0.2741 ± 0.0120, Z₀ = 0.0149 ± 0.0015**，X₀/Z₀ = 0.0210
+- 原始（protosolar）质量分数：**$X_{0}$ = 0.7110 ± 0.0040, $Y_{0}$ = 0.2741 ± 0.0120, $Z_{0}$ = 0.0149 ± 0.0015**，$X_{0}$/$Z_{0}$ = 0.0210
 
 [FACT] 原始与大气丰度的转换关系为 A(El)₀ = A(El) + 0.074 dex（除 H、He 外），即大气金属度约为原始太阳的 **84.29%**（约 16% 重元素沉降，约 18% He 沉降）。
 
-[FACT] 使用自洽的原始太阳丰度与CONDOR代码，在总压 10⁻⁴ bar 下重算全部 83 种天然元素的**初始冷凝温度**与**50% 冷凝温度**，按挥发性分为：
+[FACT] 使用自洽的原始太阳丰度与CONDOR代码，在总压 $10^{-4}$ bar 下重算全部 83 种天然元素的**初始冷凝温度**与**50% 冷凝温度**，按挥发性分为：
 - 超难熔 >1650 K：Os, Re, W, Al, Hf, Sc, Th, Y, Zr, Gd, Tb, Dy, Ho, Er, Tm, Lu
 - 高难熔 1650–1500 K：Ir, Mo, Ru, Ca, Nb, Ta, Ti, U, La, Pr, Nd, Sm
 - 难熔 1500–1360 K：Pt, Rh, Ba, Be, Ce, Sr, V, Yb
@@ -127,7 +127,7 @@ path: 03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overvi
 
 [FACT] 新大气 C、N、O 的向下修订（Allende Prieto et al. 2001, 2002）使总冷凝质量从 Anders & Grevesse (1989) 的 ~1.9% 降至 Lodders (2003) 太阳系的 **1.5%**、大气的 **1.3%**，冰/岩石比从 ~2 降到 ~1。
 
-[FACT] 冰的冷凝温度受动力学效应强烈影响：H₂O 平衡冷凝 182 K（Model A/B）；CH₄·7H₂O 78 K → CH₄ 41 K（平衡）或石墨 626 K（动力学 Model A）；NH₃·H₂O 131 K 或 N₂·7H₂O 58 K。
+[FACT] 冰的冷凝温度受动力学效应强烈影响：$H_{2}$O 平衡冷凝 182 K（Model A/B）；$CH_{4}$·7$H_{2}$O 78 K → $CH_{4}$ 41 K（平衡）或石墨 626 K（动力学 Model A）；$NH_{3}$·$H_{2}$O 131 K 或 $N_{2}$·7$H_{2}$O 58 K。
 
 ---
 

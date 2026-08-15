@@ -7,7 +7,7 @@
 # 3. Condensation Temperatures of the Elements（§ 3.1 计算方法精读）
 
 ## 3.1 本节核心内容
-作者介绍 CONDOR 化学平衡代码的计算原理、两种冷凝温度的定义（appearance condensation temperature vs 50% condensation temperature），以及关键数学框架。所有计算都在总压 **p = 10⁻⁴ bar** 下进行——这是 1 AU 附近太阳星云的特征总压。
+作者介绍 CONDOR 化学平衡代码的计算原理、两种冷凝温度的定义（appearance condensation temperature vs 50% condensation temperature），以及关键数学框架。所有计算都在总压 **p = $10^{-4}$ bar** 下进行——这是 1 AU 附近太阳星云的特征总压。
 
 ---
 
@@ -38,7 +38,7 @@
 
 [FACT] 以 Al 为例：
 $$X_{\text{Al}} = \frac{n(\text{Al})}{n(\text{H} + \text{H}_2 + \text{He})}$$
-（实际分母还包含 CO、H₂O、N₂、Ne、离子等，但作者为清晰略去）
+（实际分母还包含 CO、$H_{2}$O、$N_{2}$、Ne、离子等，但作者为清晰略去）
 
 ### 3.4.2 元素全分压（式 8）
 
@@ -51,13 +51,13 @@ $$P_{\text{Al}} = X_{\text{Al}} P_{\text{tot}} = a_{\text{Al}} \left[ K_{\text{A
 
 其中 a_Al 是 Al 的热力学活动度，K_i 是 Al 各气体物种从参考态形成的平衡常数，f 是各元素的活动度/逸度。
 
-[FACT] **CONDOR 中 Al 的质量平衡求和实际包含 ~80 种含 Al 气体**，最重要的有 Al、AlOH，其次 Al₂O、AlH、AlF、AlCl。
+[FACT] **CONDOR 中 Al 的质量平衡求和实际包含 ~80 种含 Al 气体**，最重要的有 Al、AlOH，其次 $Al_{2}$O、AlH、AlF、AlCl。
 
 [FACT] **热力学数据源**：JANAF 表（Chase 1999）、Gurvich, Veyts & Alcock (1989)，及 Fegley & Lodders (1994)、Lodders & Fegley (1993) 列出的原始文献。
 
 ### 3.4.4 收敛准则
 
-[FACT] 迭代求解所有元素耦合非线性方程组；**收敛要求：每个元素计算丰度与输入丰度一致到 1 part in 10¹⁵**。
+[FACT] 迭代求解所有元素耦合非线性方程组；**收敛要求：每个元素计算丰度与输入丰度一致到 1 part in $10^{15}$**。
 
 ### 3.4.5 凝聚相稳定性（式 10–11）
 
@@ -77,14 +77,14 @@ $$-\log P_{\text{Fe}} = A + B/T \quad \text{（式 15）}$$
 
 [FACT] 冷凝温度 = 气体分压 Pi = 凝聚相蒸气压 Pvap 时的温度。即**饱和比 S = Pi/Pvap = 1 = 活动度 aᵢ**。
 
-### 3.4.7 氧逸度 fO₂ 的表达式（式 12）
+### 3.4.7 氧逸度 $fO_{2}$ 的表达式（式 12）
 
 [FACT]
 $$P_{\text{O}} = X_{\text{O}} P_{\text{tot}} = 2 f_{\text{O}_2} + f_{\text{O}_2}^{0.5}[K_{\text{CO}} a_{\text{C}} + K_{\text{H}_2\text{O}} a_{\text{H}_2} + K_{\text{SiO}} a_{\text{Si}} + \cdots]$$
 
-[FACT] 因太阳 O/C ≈ 2、O/Si ≈ 14，SiO 对 fO₂ 的贡献远小于 CO 和 H₂O；**H₂O/H₂ 比是 fO₂ 的便捷代理**。
+[FACT] 因太阳 O/C ≈ 2、O/Si ≈ 14，SiO 对 $fO_{2}$ 的贡献远小于 CO 和 $H_{2}$O；**$H_{2}$O/$H_{2}$ 比是 $fO_{2}$ 的便捷代理**。
 
-[FACT] 本文 H₂O/H₂ ≈ **5.0 × 10⁻⁴**，约为 Anders & Grevesse (1989) 值（9.2 × 10⁻⁴）的一半 → **新 fO₂ 更低 → 所有氧化物/硅酸盐冷凝温度降低**。
+[FACT] 本文 $H_{2}$O/$H_{2}$ ≈ **5.0 × $10^{-4}$**，约为 Anders & Grevesse (1989) 值（9.2 × $10^{-4}$）的一半 → **新 $fO_{2}$ 更低 → 所有氧化物/硅酸盐冷凝温度降低**。
 
 ---
 
@@ -124,10 +124,10 @@ $$P_{\text{O}} = X_{\text{O}} P_{\text{tot}} = 2 f_{\text{O}_2} + f_{\text{O}_2}
 
 | 参数 | 值 | 说明 |
 |------|----|------|
-| 总压 P_tot | 10⁻⁴ bar | 1 AU 附近太阳星云 |
+| 总压 P_tot | $10^{-4}$ bar | 1 AU 附近太阳星云 |
 | 气相物种数 | 2000 | CONDOR |
 | 凝聚相物种数 | 1600 | CONDOR |
-| 收敛精度 | 10⁻¹⁵ | 元素丰度 |
+| 收敛精度 | $10^{-15}$ | 元素丰度 |
 | 计算元素数 | 83 | 全部天然元素 |
 | 平衡常数据源 | JANAF / Gurvich | |
 | 热力学活动系数 | Kornacki & Fegley 1986 | 非理想固溶体 |
@@ -138,7 +138,7 @@ $$P_{\text{O}} = X_{\text{O}} P_{\text{tot}} = 2 f_{\text{O}_2} + f_{\text{O}_2}
 
 [INTERPRETATION] CONDOR 的核心是"同时求解所有元素的耦合质量守恒"，这是把微量元素的宿主相效应纳入自洽框架的关键。相比以往逐元素计算的方法，能自动处理：
 1. 主量元素冷凝 → 微量元素化学随之改变
-2. 氧逸度 fO₂ 的全局变化（因 C、N、O 下调）影响所有氧化物冷凝
+2. 氧逸度 $fO_{2}$ 的全局变化（因 C、N、O 下调）影响所有氧化物冷凝
 3. 微量元素在多个可能宿主相间的分配
 
-[CRITIQUE] CONDOR 是**热力学平衡**计算——对动力学效应的处理仅在§ 3.4（冰的冷凝）中通过"替代反应路径"粗略考虑。对于 10⁻⁴ bar 下真实星云的动力学、过饱和度、颗粒-气体耦合等，需要更专门的模型（Fegley 2000 综述）。
+[CRITIQUE] CONDOR 是**热力学平衡**计算——对动力学效应的处理仅在§ 3.4（冰的冷凝）中通过"替代反应路径"粗略考虑。对于 $10^{-4}$ bar 下真实星云的动力学、过饱和度、颗粒-气体耦合等，需要更专门的模型（Fegley 2000 综述）。

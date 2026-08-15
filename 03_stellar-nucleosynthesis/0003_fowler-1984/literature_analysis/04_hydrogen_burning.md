@@ -23,7 +23,7 @@
 ## 4.3 Homestake 实验与"三分之一缺失"
 
 [FACT] **Raymond Davis Jr.** 及其合作者**超过 25 年**一直在探测高能中微子，使用：
-- **装置**：**380,000 升** 四氯乙烯 (C₂Cl₃Cl, perchloroethylene) 储罐
+- **装置**：**380,000 升** 四氯乙烯 ($C_{2}$$Cl_{3}$Cl, perchloroethylene) 储罐
 - **位置**：南达科他州 Lead 的 Homestake Gold Mine，**地下一英里**
 
 [FACT] 测量结果：**仅发现预期值约 1/4**（预期值基于 Bahcall et al. 1982 的模型相关计算）。

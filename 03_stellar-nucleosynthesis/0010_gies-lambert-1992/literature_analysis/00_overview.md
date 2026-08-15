@@ -117,7 +117,7 @@ ABSTRACT
        - Maeder & Meynet (1988) 模型：N+0.60 → He+0.10、C−0.10、O−0.04 (non-LTE)
        - 图 16：C 与 N 的 anti-correlation
        - 图 17–20：He/C/N/O 在 HR 图中的分布
-       - 图 21–22：Lyubimkov 效应重演 — 用 log g=4、ξ=0 得到 slope=0.035 dex per 10⁶ yr，正是忽略演化后 log g 下降、ξ 增大所致
+       - 图 21–22：Lyubimkov 效应重演 — 用 log g=4、ξ=0 得到 slope=0.035 dex per $10^{6}$ yr，正是忽略演化后 log g 下降、ξ 增大所致
        - 表 13：从 Maeder & Meynet 演化轨推算质量/年龄/半径
        - 结论：主序 B 星不普遍出现 CN-cycled 表面富集；N 富集星可能是 Maeder 湍流扩散的中等混合案例；超巨星部分混合但未到红巨星阶段
 ACKNOWLEDGMENTS

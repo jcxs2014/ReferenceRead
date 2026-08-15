@@ -39,7 +39,7 @@
 |------|------|
 | Allende Prieto, Lambert & Asplund 2001, ApJ 556, L63 | 太阳 O 向下修订 |
 | Allende Prieto et al. 2002, ApJ 573, L137 | 太阳 C 向下修订 |
-| Boothroyd & Sackmann 2003, ApJ 583, 1004 | SSM 标度关系 → 本文 Y₀、Z₀ 推导 |
+| Boothroyd & Sackmann 2003, ApJ 583, 1004 | SSM 标度关系 → 本文 $Y_{0}$、$Z_{0}$ 推导 |
 | Christensen-Dalsgaard 1998, SSR 85, 19 | SSM 首次系统纳入沉降 |
 | Reifarth et al. 2002, Phys. Rev. C 66, 064603 | Xe 中子截面 → Xe 丰度更新 |
 

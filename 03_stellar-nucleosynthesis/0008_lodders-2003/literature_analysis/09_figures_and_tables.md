@@ -62,9 +62,9 @@
 ## 7.3 表 2 精读：Recommended Elemental Abundances of the Proto-Sun
 
 [FACT] 除 H、He 外，所有元素的 A(El)₀ = A(El) + 0.074（式 5），N(El)₀ 也相应变换。
-[FACT] H₀ 在 N 标尺上 = 0.84 × H_大气；He₀ = 1.02 × He_大气。
+[FACT] $H_{0}$ 在 N 标尺上 = 0.84 × H_大气；$He_{0}$ = 1.02 × He_大气。
 [FACT] 表注：带 * 号的元素给出 4.55 Gyr 前的放射性/衰变产物丰度（K*, Sm*, U*, Th*, Pb* 等）。
-[FACT] 原始太阳质量分数：X₀ = 0.7110, Y₀ = 0.2741, Z₀ = 0.0149，X₀/Z₀ = 0.0210。
+[FACT] 原始太阳质量分数：$X_{0}$ = 0.7110, $Y_{0}$ = 0.2741, $Z_{0}$ = 0.0149，$X_{0}$/$Z_{0}$ = 0.0210。
 [FACT] 两标尺耦合常数 A(El)₀ = log[N(El)] + 1.614。
 
 ---
@@ -117,7 +117,7 @@
 ### 7.5.3 本文结果（最后一行）
 
 | | **X = 0.7491 ± 0.0030** | **Y = 0.2377 ± 0.0030** | **Z = 0.0133 ± 0.0014** | **Z/X = 0.0177 ± 0.0018** | **A(He) = 10.899 ± 0.005** | Present |
-| | **X₀ = 0.7110 ± 0.0040** | **Y₀ = 0.2741 ± 0.0120** | **Z₀ = 0.0149 ± 0.0015** | **Z₀/X₀ = 0.0210 ± 0.0021** | **A(He)₀ = 10.984 ± 0.019** | Protosolar |
+| | **$X_{0}$ = 0.7110 ± 0.0040** | **$Y_{0}$ = 0.2741 ± 0.0120** | **$Z_{0}$ = 0.0149 ± 0.0015** | **$Z_{0}$/$X_{0}$ = 0.0210 ± 0.0021** | **A(He)₀ = 10.984 ± 0.019** | Protosolar |
 
 [FACT] 表注：(Z/X)₀ ≈ (Z/X)_present 表示**忽略沉降**；(Z/X)₀ > (Z/X)_present 表示**考虑沉降**。
 
@@ -131,7 +131,7 @@
 
 ## 7.7 表 6 精读：Isotopic Abundances
 
-[FACT] 三列格式：Element / A (质量数) / Atom % / Abundance。按 cosmochemical 标尺 N(Si) = 10⁶。
+[FACT] 三列格式：Element / A (质量数) / Atom % / Abundance。按 cosmochemical 标尺 N(Si) = $10^{6}$。
 
 [FACT] 覆盖所有 83 种天然元素的全部天然同位素，包含 4.55 Gyr 前的放射性/衰变产物丰度（*号标记）：
 - **放射性母体**：⁸⁷Rb*、¹⁴⁷Sm*、¹⁷⁶Lu*、¹⁸⁷Re*、²³⁵U*、²³⁸U*、²³²Th*
@@ -146,7 +146,7 @@
 [FACT] 15 行主相，太阳系与大气 T 系统性差 8–12 K。
 
 [FACT] 主量元素冷凝顺序（太阳系 K）：
-Al₂O₃ (1677) → Hibonite (1659) → Perovskite (1593) → Ca₄Ti₃O₁₀ (1578) → CaAl₄O₇ (1542) → Ca₃Ti₂O₇ (1539) → Gehlenite (1529) → Ca₄Ti₃O₁₀ 二相 (1512) → CaTiO₃ 二相 (1441) → Spinel (1397) → Anorthite (1387) → Forsterite (1354) → Fe alloy (1357) → Diopside (1347) → Enstatite (1316) → Schreibersite (1248) → Troilite (704) → Magnetite (371) → Water ice (182)
+$Al_{2}$$O_{3}$ (1677) → Hibonite (1659) → Perovskite (1593) → $Ca_{4}$$Ti_{3}$$O_{10}$ (1578) → $CaAl_{4}$$O_{7}$ (1542) → $Ca_{3}$$Ti_{2}$$O_{7}$ (1539) → Gehlenite (1529) → $Ca_{4}$$Ti_{3}$$O_{10}$ 二相 (1512) → $CaTiO_{3}$ 二相 (1441) → Spinel (1397) → Anorthite (1387) → Forsterite (1354) → Fe alloy (1357) → Diopside (1347) → Enstatite (1316) → Schreibersite (1248) → Troilite (704) → Magnetite (371) → Water ice (182)
 
 ---
 
@@ -164,7 +164,7 @@ Al₂O₃ (1677) → Hibonite (1659) → Perovskite (1593) → Ca₄Ti₃O₁₀
 
 **最高**：Re 1821 > Os 1812 > W 1789 > Zr 1741 > Hf 1684 > Al 1653 > Gd/Tb/Dy/Ho/Er/Tm/Y/Sc 1659 > Nd 1602 > Th 1659 > Mo 1590 > Sm 1590 > Ca 1517 → ...
 
-**最低**：Xe 68 < Ar 47 < Ne 9.1 < He <3 < C 40 < N 123 < Hg 252 < H₂O 182 < O 180
+**最低**：Xe 68 < Ar 47 < Ne 9.1 < He <3 < C 40 < N 123 < Hg 252 < $H_{2}$O 182 < O 180
 
 ---
 
@@ -188,16 +188,16 @@ Al₂O₃ (1677) → Hibonite (1659) → Perovskite (1593) → Ca₄Ti₃O₁₀
 [FACT] 式 4：n(He)/n(H) = Y(1+Z/X)/(4(1−Y))
 [FACT] 式 5：**A(El)₀ = A(El) + 0.074**（原始丰度转换）
 [FACT] 式 6：log N(El)₀ = A(El)₀ − 1.614
-[FACT] 式 7：X_Al = n(Al)/n(H+H₂+He)
+[FACT] 式 7：X_Al = n(Al)/n(H+$H_{2}$+He)
 [FACT] 式 8：P_Al = X_Al P_tot = Σ P_Al-gas
-[FACT] 式 9：P_Al = a_Al[K_Al + K_AlO fO₂^0.5 + ...]
-[FACT] 式 10：2Al(g) + 1.5O₂ = Al₂O₃(s)
-[FACT] 式 11：a_Al₂O₃ = a_Al² fO₂^1.5 K_Al₂O₃
-[FACT] 式 12：P_O = 2fO₂ + fO₂^0.5 [K_CO a_C + K_H₂O a_H₂ + ...]
+[FACT] 式 9：P_Al = a_Al[K_Al + K_AlO $fO_{2}$^0.5 + ...]
+[FACT] 式 10：2Al(g) + 1.5$O_{2}$ = $Al_{2}$$O_{3}$(s)
+[FACT] 式 11：a_$Al_{2}$$O_{3}$ = a_Al² $fO_{2}$^1.5 K_$Al_{2}$$O_{3}$
+[FACT] 式 12：P_O = 2$fO_{2}$ + $fO_{2}$^0.5 [K_CO a_C + K_$H_{2}$O a_$H_{2}$ + ...]
 [FACT] 式 13：Fe(g) = Fe(metal)
 [FACT] 式 14：log K_Fe = A + B/T
 [FACT] 式 15：−log P_Fe = A + B/T
-[FACT] 式 16：CO + 3H₂ = CH₄ + H₂O
-[FACT] 式 17：CO = C(graphite) + CO₂
-[FACT] 式 18：CO + H₂O = CO₂ + H₂
-[FACT] 式 19：N₂ + 3H₂ = 2NH₃
+[FACT] 式 16：CO + 3$H_{2}$ = $CH_{4}$ + $H_{2}$O
+[FACT] 式 17：CO = C(graphite) + $CO_{2}$
+[FACT] 式 18：CO + $H_{2}$O = $CO_{2}$ + $H_{2}$
+[FACT] 式 19：$N_{2}$ + 3$H_{2}$ = 2$NH_{3}$

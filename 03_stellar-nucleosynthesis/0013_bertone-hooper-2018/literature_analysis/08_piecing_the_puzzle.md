@@ -20,7 +20,7 @@
 
 ### 8.1.2 1974 两篇关键论文（回顾）
 
-- [FACT] Einasto-Kaasik-Saar 1974（4 月 10 日）："Dynamic evidence on massive coronas of galaxies" —— 用 10⁵ 星系对得出**星系总质量超恒星质量 10 倍**；并指出此可解释**星系团**质量差异。
+- [FACT] Einasto-Kaasik-Saar 1974（4 月 10 日）："Dynamic evidence on massive coronas of galaxies" —— 用 $10^{5}$ 星系对得出**星系总质量超恒星质量 10 倍**；并指出此可解释**星系团**质量差异。
 - [FACT] Ostriker-Peebles-Yahil 1974（5 月 28 日）："The size and mass of galaxies, and the mass of the universe" —— 无新观测，综合已有自转曲线、星系对、矮星系、本星系群。引言原句：
   > "There are reasons, increasing in number and quality, to believe that the masses of ordinary galaxies may have been underestimated by a factor of 10 or more... the mean density of the Universe would have been underestimated by the same factor."
 
@@ -47,7 +47,7 @@
 
 ### 8.2.3 Peebles 1982a — CMB 涨落约束
 
-- [FACT] 指出若宇宙**只有重子物质**，CMB 涨落 ~10⁻⁴ 无法形成观测结构；若**非重子弱相互作用粒子**占主导，密度涨落可在退耦前增长。
+- [FACT] 指出若宇宙**只有重子物质**，CMB 涨落 ~$10^{-4}$ 无法形成观测结构；若**非重子弱相互作用粒子**占主导，密度涨落可在退耦前增长。
 - [FACT] 此与后续数值模拟工作快速确立 **CDM 范式**。
 
 ## 8.3 C. Numerical Simulations
@@ -69,7 +69,7 @@
 
 - [FACT] 粒子初始速度分布决定结构形成序列。
 - [FACT] **热暗物质**（如标准模型中微子）：退耦温度 ≫ 质量 → 相对论 → 先形成**大尺度**结构，再碎片化（**top-down**）。
-- [FACT] **冷暗物质**（如中性微子）：退耦温度 < 质量 → 非相对论 → 自由流长度短，可形成**低质量晕**（典型中性微子 ~10⁻³ – 10⁻⁹ M⊙），**自下而上合并（hierarchical）**。
+- [FACT] **冷暗物质**（如中性微子）：退耦温度 < 质量 → 非相对论 → 自由流长度短，可形成**低质量晕**（典型中性微子 ~$10^{-3}$ – $10^{-9}$ M⊙），**自下而上合并（hierarchical）**。
 - [FACT] **白-Frenk-Davis 1983** 结合 CfA 巡天判定**标准模型中微子无法主导暗物质**。
 - [FACT] **Blumenthal-Faber-Primack-Rees 1984**：
   > "a universe with ~10 times as much cold dark matter as baryonic matter provides a remarkably good fit to the observed universe. This model predicts roughly the observed mass range of galaxies, the dissipational nature of galaxy collapse, and the observed Faber-Jackson and Tully-Fisher relations."
@@ -98,5 +98,5 @@
 | 量 | 值 | 来源 |
 |-----|-----|------|
 | CDM/baryon 质量比 | ~10 | Blumenthal et al. 1984 |
-| 中性微子小晕质量范围 | ~10⁻³ – 10⁻⁹ M⊙ | 综述 |
+| 中性微子小晕质量范围 | ~$10^{-3}$ – $10^{-9}$ M⊙ | 综述 |
 | CDM 冷暗物质密度参数 | Ω_c h² ≈ 0.12（文中未直接给，可从 Ω_b 对比得） | 综述 |

@@ -18,7 +18,7 @@
 - [FACT] "The solar chemical composition is a fundamental yardstick in astronomy, to which the elemental abundances of essentially all cosmic objects, be they planets, stars, nebulae or galaxies, are anchored."（太阳化学组成是基本量具）
 - [FACT] 历史脉络：Russell (1929) → Suess & Urey (1956) → Goldberg, Müller & Aller (1960) → AG89 → GS98 → Lodders (2003) → AGS05 → AGSS09。
 - [FACT] 两条独立互补的测定途径：
-  - **陨石质谱**：精度高（含同位素），但 H、He、C、N、O、Ne 挥发元素在陨石中缺失；因此陨石丰度以 **Si = 10⁶** 为基准，需要太阳光球 Si 丰度"搭桥"（Suess & Urey 1956）。
+  - **陨石质谱**：精度高（含同位素），但 H、He、C、N、O、Ne 挥发元素在陨石中缺失；因此陨石丰度以 **Si = $10^{6}$** 为基准，需要太阳光球 Si 丰度"搭桥"（Suess & Urey 1956）。
   - **太阳光球光谱**：能测到挥发元素，但丰度不是"直接观测"，而是通过大气模型 + 线形成 + 原子数据"反演"出来；精度远低于质谱。
 - [FACT] 当今光球丰度基本反映太阳形成时（~4.56 Gyr 前）的化学组成，仅受两点修正：
   1. 因扩散和重力沉降造成的整体 ~10%（0.04 dex）修正；
