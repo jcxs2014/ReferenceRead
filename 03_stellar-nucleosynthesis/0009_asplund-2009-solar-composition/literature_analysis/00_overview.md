@@ -7,6 +7,15 @@ doi: 10.1146/annurev.astro.46.060407.145222
 arxiv: 0909.0948v1
 keywords: Sun, solar abundances, meteoritic abundances, solar atmosphere, spectral line formation, convection
 category: 恒星核合成
+sections:
+  - '§1 Introduction'
+  - '§2 Ingredients (Solar Models)'
+  - '§3 Light Elements (Li, Be, B)'
+  - '§4 Intermediate and Iron-Peak Elements'
+  - '§5 Heavy and Indirect Methods'
+  - '§6 Cross Checks'
+  - '§7 Systematics and Uncertainties'
+  - '§8 Conclusion and References'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'
