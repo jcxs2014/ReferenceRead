@@ -16,6 +16,7 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]]'
 - '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
 path: 03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview.md
+---
 # 0. 文献基本信息
 
 > 本精读档案属于：Gómez & Lambert (1992) — "Carbon, nitrogen, and oxygen abundances in early B-type stars", ApJ 387:673

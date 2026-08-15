@@ -23,6 +23,7 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview|0010_gies-lambert-1992]]'
 - '[[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview|0011_kewley-2001-starburst]]'
 path: 03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview.md
+---
 > 本章属于：Asplund, Grevesse, Sauval & Scott (2009) The chemical composition of the Sun (arXiv:0909.0948 / Ann. Rev. A&A 47, 481)
 >
 > 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/01_introduction.md|01_introduction.md]]

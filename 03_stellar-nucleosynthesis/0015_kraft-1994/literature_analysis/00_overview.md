@@ -27,6 +27,7 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview|0010_gies-lambert-1992]]'
 - '[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overview|0014_cameron-1968]]'
 path: 03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md
+---
 # 0. Overview — 文献基本信息、结构树与篇间导航
 
 > 本文属于：*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)，分类「03_stellar-nucleosynthesis」文献 0015。

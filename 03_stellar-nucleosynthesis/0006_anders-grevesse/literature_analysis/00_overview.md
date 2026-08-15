@@ -22,6 +22,7 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'
 - '[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]]'
 path: 03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/00_overview.md
+---
 # 00. Overview — 文献基本信息
 
 > 本章属于：Anders & Grevesse (1989) — Abundances of the elements: Meteoritic and solar

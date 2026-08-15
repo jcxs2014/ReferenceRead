@@ -13,6 +13,7 @@ lastread: '2026-08-15'
 tags: []
 citations: []
 path: 01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md
+---
 > 状态：**精读完成**（2026-08-15）
 > ★ **CR 反馈机制**——主题 1（传播）+ 主题 5（星系团）的交叉前沿；系统梳理 CR 在星系/星系团尺度上的动力学反馈
 

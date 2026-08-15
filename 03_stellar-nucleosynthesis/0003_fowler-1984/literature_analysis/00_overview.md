@@ -29,6 +29,7 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]]'
 - '[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]]'
 path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview.md
+---
 # 0. 文献基本信息 (Overview & Metadata)
 
 > **⚠️ 重要勘误**：本目录命名为 "0003_caughlan-fowler-1988"，但**实际作者为 William A. Fowler 单人**，年份为 **1984**（非 1988）。该文是 Fowler 于 1983 年 12 月 8 日在瑞典皇家科学院接受诺贝尔物理学奖时的授奖演讲（Nobel Lecture），后由诺贝尔基金会授权刊载于 *Reviews of Modern Physics*。**并非 Caughlan & Fowler (1988)**。Caughlan 只是 Fowler 长期合作者之一（出现于 Fowler, Caughlan, Zimmerman 1967/1975 系列反应速率表中）。

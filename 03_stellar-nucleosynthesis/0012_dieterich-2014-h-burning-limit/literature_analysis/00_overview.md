@@ -19,6 +19,7 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
 - '[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]]'
 path: 03_stellar-nucleosynthesis/0012_dieterich-2014-h-burning-limit/literature_analysis/00_overview.md
+---
 # 00. Overview — 文献基本信息
 
 > 本章属于：Dieterich et al. (2014) — The Solar Neighborhood XXXII. The Hydrogen Burning Limit, AJ 147:94

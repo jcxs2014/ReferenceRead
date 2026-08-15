@@ -30,6 +30,7 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
 - '[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]]'
 path: 03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md
+---
 > 本章属于：Burbidge, Burbidge, Fowler, Hoyle (1957) — *Synthesis of the Elements in Stars* (B$^2$FH)
 >
 > 下一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/01_introduction.md|01_introduction.md]]

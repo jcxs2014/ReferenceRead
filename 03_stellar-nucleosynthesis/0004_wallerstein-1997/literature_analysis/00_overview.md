@@ -30,6 +30,7 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]]'
 - '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'
 path: 03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md
+---
 > 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
 >
 > 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/01_preface_introduction.md|01_preface_introduction.md]]

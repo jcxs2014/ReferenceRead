@@ -13,6 +13,7 @@ lastread: '2026-08-15'
 tags: []
 citations: []
 path: 03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md
+---
 > 状态：**精读完成**（2026-08-15）
 > ★ **s 过程权威综述**——RMP 2011；s 过程（慢中子俘获）的历史、核物理基础、当代模型；B$^{2}$FH 的核心验证对象
 

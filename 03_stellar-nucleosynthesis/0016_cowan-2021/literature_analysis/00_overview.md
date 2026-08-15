@@ -13,6 +13,7 @@ lastread: '2026-08-15'
 tags: []
 citations: []
 path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md
+---
 > 状态：**精读完成**（2026-08-15）
 > ★ **元素起源权威综述**——RMP 2021；r 过程（千新星）+ s 过程（AGB/AGB）的最新进展；引力波时代的新纪元
 

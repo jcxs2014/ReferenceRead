@@ -24,6 +24,7 @@ citations: []
 - '[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview|0001_strong-moskalenko-ptuskin-2007]]'
 - '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|0004_blasi-2013]]'
 path: 02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md
+---
 > 本章属于：Cosmic Ray Interactions and the Abundances of the Chemical Elements (arXiv:astro-ph/9609110)
 >
 > 上一章：无（首章）

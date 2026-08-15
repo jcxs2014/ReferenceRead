@@ -29,6 +29,7 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/00_overview|0006_anders-grevesse]]'
 - '[[03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/00_overview|0007_grevesse-sauval-1998]]'
 path: 03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overview.md
+---
 > 本章属于: A New Table of Abundances of the Elements in the Solar System (Cameron, 1968)
 >
 > 本文件为文献精读档案的 00_overview.md(总览)
