@@ -9,6 +9,13 @@ arxiv: 未提供
 keywords: Solar system abundances; condensation temperatures; photospheric abundances; meteoritic (CI chondrite) abundances;
   elemental abundances; solar composition; nebular condensation; mass fractions X, Y, Z; Z/X ratio; settling/diffusion
 category: 恒星核合成
+sections:
+  - '§1 Introduction'
+  - '§2 Abundance Selection'
+  - '§3 Condensation Methods'
+  - '§4 Major and Trace Condensation'
+  - '§5 Ices and Volatiles'
+  - '§6 Condensate Mass Fractions'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'
