@@ -53,17 +53,20 @@ papers/
 │   ├── audit.py                    ← 构建后审计（18 条断言，失败非零退出）
 │   ├── server.py                   ← 形态 B 服务层（/api/progress?slug=, /api/rebuild）
 │   ├── md2doc_html.py              ← md → HTML 片段
-│   ├── convert_unicode_math.py     ← 公式 Unicode → LaTeX（round1/round2）
-│   ├── convert_supsub.py           ← Unicode 上下标 → LaTeX（全库清零）
-│   ├── fix_math_fragmentation.py   ← 公式割裂修复（幂等）
 │   ├── build_search_index.py       ← 全文搜索索引
 │   ├── registry.json               ← 派生产物（45 条：38 论文 + 7 背景）
 │   └── glossary.json               ← 派生产物（769 术语）
 │
-├── scripts/                        ← 库级生成脚本
+├── scripts/                        ← 库级工具（生成 + 文献内容处理）
 │   ├── gen_index.py                ← 扫描 → INDEX.md
 │   ├── gen_quality_check.py        ← 扫描 → 97_quality_check.md
-│   └── gen_glossary.py             ← 扫描 → 05_glossary.md（已被 webapp/build_glossary.py 替代）
+│   ├── gen_glossary.py             ← 扫描 → 05_glossary.md（已被 webapp/build_glossary.py 替代）
+│   ├── build_all.py                ← 全链路编排（scripts + webapp 构建链）
+│   ├── quality_matrix.py           ← 8 列质量矩阵 + 子节镜像统计
+│   ├── verify_claim.sh             ← 声称完成门禁（PASS=11）
+│   ├── convert_unicode_math.py     ← 公式 Unicode → LaTeX（round1/round2）
+│   ├── convert_supsub.py           ← Unicode 上下标 → LaTeX（全库清零）
+│   └── fix_math_fragmentation.py   ← 公式割裂修复（幂等）
 └── setup_obsidian.sh               ← Obsidian 仓库初始化
 ```
 
@@ -159,7 +162,7 @@ git log --oneline -10
 env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0].get_text())"
 ```
 
-## webapp 工具链（15 脚本）
+## webapp 工具链（12 脚本）
 
 | 脚本 | 职责 | 调用顺序 |
 |---|---|---|
@@ -174,12 +177,11 @@ env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0]
 | `patch_appendix_nav.py` | V2.2 97/98 补链 | 8 前置 |
 | `server.py` | 形态 B 进度 API | 独立 |
 | `md2doc_html.py` | md → HTML 片段 | build_webapp 内部 |
-| `convert_unicode_math.py` | 公式 Unicode → LaTeX（round1/2） | 独立/公式维护 |
-| `convert_supsub.py` | Unicode 上下标 → LaTeX（幂等） | 独立/公式维护 |
-| `fix_math_fragmentation.py` | 公式割裂修复（幂等） | 独立/公式维护 |
 | `build_search_index.py` | 全文搜索索引 | build_webapp 内部 |
 
 **最小可重跑链**：`build_citations → build_fm → build_registry → build_webapp → audit`
+
+**scripts/ 库级工具**（9 脚本）：`gen_index.py`（INDEX 生成）、`gen_quality_check.py`（97 生成）、`gen_glossary.py`（已被 build_glossary 替代）、`build_all.py`（全链路编排）、`quality_matrix.py`（质量矩阵 + 子节镜像统计）、`verify_claim.sh`（声称完成门禁）、`convert_unicode_math.py` / `convert_supsub.py` / `fix_math_fragmentation.py`（公式 Unicode → LaTeX / 上下标 → LaTeX / 割裂修复，文献内容处理）
 
 ## 元数据勘误记录（13 处）
 
