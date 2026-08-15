@@ -7,6 +7,14 @@ pages: '673-700'
 doi: 未提供
 arxiv: 未提供
 category: 恒星核合成
+sections:
+  - '§1 Introduction'
+  - '§2 Observations'
+  - '§3 Stellar Parameters'
+  - '§4 Rotation'
+  - '§5 LTE Abundances'
+  - '§6 NLTE Abundances'
+  - '§7 Results and Discussion'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'
