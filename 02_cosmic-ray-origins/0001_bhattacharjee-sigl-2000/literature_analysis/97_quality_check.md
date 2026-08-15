@@ -64,15 +64,15 @@
 | 6.2.1 Fragmentation into baryons | ✅ | `09_topdown_basic_fragmentation` 分章 |
 | 6.2.2 Fragmentation into leptons | ✅ | `09_topdown_basic_fragmentation` 分章 |
 | 6.2.3 Fragmentation into photons | ✅ | `09_topdown_basic_fragmentation` 分章 |
-| 6.4.1 Gravitational dynamics | ❌ | `10_cosmic_strings`（改造遗漏，本任务不改分章） |
-| 6.4.2 Gravitational radiation | ❌ | `10_cosmic_strings`（改造遗漏，本任务不改分章） |
-| 6.4.3 Particle emission at kinks and cusps | ❌ | `10_cosmic_strings`（改造遗漏，本任务不改分章） |
-| 6.4.4 Widening of strings | ❌ | `10_cosmic_strings`（改造遗漏，本任务不改分章） |
-| 6.4.5 Loop distribution and cosmological evolution | ❌ | `10_cosmic_strings`（改造遗漏，本任务不改分章） |
-| 6.4.6 CMB and large-scale structure constraints | ❌ | `10_cosmic_strings`（改造遗漏，本任务不改分章） |
-| 6.12.1 X-particles in top-down cascades | ❌ | `12_xparticles_special_models`（改造遗漏，本任务不改分章） |
-| 6.12.2 Constraints from UHECR data | ❌ | `12_xparticles_special_models`（改造遗漏，本任务不改分章） |
-| 6.13.1 Phenomenology of TD models | ❌ | `13_constraints_on_td`（改造遗漏，本任务不改分章） |
-| 6.13.2 Future prospects | ❌ | `13_constraints_on_td`（改造遗漏，本任务不改分章） |
+| 6.4.1 Gravitational dynamics | ✅ | `10_cosmic_strings` 分章 |
+| 6.4.2 Gravitational radiation | ✅ | `10_cosmic_strings` 分章 |
+| 6.4.3 Particle emission at kinks and cusps | ✅ | `10_cosmic_strings` 分章 |
+| 6.4.4 Widening of strings | ✅ | `10_cosmic_strings` 分章 |
+| 6.4.5 Loop distribution and cosmological evolution | ✅ | `10_cosmic_strings` 分章 |
+| 6.4.6 CMB and large-scale structure constraints | ✅ | `10_cosmic_strings` 分章 |
+| 6.12.1 X-particles in top-down cascades | ✅ | `12_xparticles_special_models` 分章 |
+| 6.12.2 Constraints from UHECR data | ✅ | `12_xparticles_special_models` 分章 |
+| 6.13.1 Phenomenology of TD models | ✅ | `13_constraints_on_td` 分章 |
+| 6.13.2 Future prospects | ✅ | `13_constraints_on_td` 分章 |
 
-**统计**：✅ 13/23（56%），❌ 10/23。❌ 项见位置列原因；本任务不改分章，仅记录。
+**统计**：✅ 23/23（100%），❌ 0/23。已全部对齐。
