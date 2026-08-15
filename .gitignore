@@ -17,3 +17,6 @@ pages/
 03_stellar-nucleosynthesis/
 *.pdf
 __pycache__/
+
+# IDE state
+.obsidian/
