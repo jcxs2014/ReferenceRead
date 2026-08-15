@@ -547,3 +547,16 @@ function highlightMatches(text, pattern) {
 ---
 
 *本文件由 2026-08 多批次工作流的踩坑沉淀而来；维护原则 = 修复必追加 + 每年合并陈旧。*
+### A7. build_fm.py 白名单重建丢字段（38 篇 frontmatter 回归）
+
+**发生时间**：2026-08-15 深夜，并行会话跑 webapp 脚本链
+
+**症状**：38 篇 00_overview frontmatter 被重写后**字段大面积丢失**（Bell 的 title/journal/doi/arxiv/pages + 刚补的 5 个 sections 全丢），Obsidian 属性面板字段缺失；audit 报 title 空/registry 不一致；15 篇 citations 被清空。
+
+**根因**：`build_fm.py` 按**内部字段白名单**重建 frontmatter（title/authors/year/category/status/read_date/lastread/tags/citations/path），**丢弃白名单外字段**（journal/doi/arxiv/pages/sections/keywords/abstract…）。存量库已含增强字段（pages 补齐 1ad9840、sections 补齐、YAML 修复），白名单重建必然丢字段。
+
+**防护**：
+- **存量库（含增强字段）禁止裸跑 build_fm 全量写回**；必须：① 先 `--dry-run` 对比字段差异 ② 或改用增量脚本（只补 citations 等单字段）
+- **属性面板完整性检查**：frontmatter 关键字段守恒 = title/pages/sections/citations 逐项非空（脚本链复验必查）
+- 并行会话跑"全链脚本"时，**audit 失败是数据破坏预警**，不是"重跑就好"——先 diff 定位再动
+- 回滚手段：`git checkout -- 0*/`（git 是最后防线，脚本跑前确保工作树干净可回滚）
