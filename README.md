@@ -54,8 +54,8 @@ papers/
 │   ├── server.py                   ← 形态 B 服务层（/api/progress?slug=, /api/rebuild）
 │   ├── md2doc_html.py              ← md → HTML 片段
 │   ├── build_search_index.py       ← 全文搜索索引
-│   ├── registry.json               ← 派生产物（45 条：38 论文 + 7 背景）
-│   └── glossary.json               ← 派生产物（769 术语）
+│   ├── registry.json               ← 派生产物（45 条，构建生成，不入库）
+│   └── glossary.json               ← 派生产物（769 术语，构建生成，不入库）
 │
 ├── scripts/                        ← 库级工具（生成 + 文献内容处理）
 │   ├── gen_index.py                ← 扫描 → INDEX.md

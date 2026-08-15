@@ -35,3 +35,8 @@
 - 新任务需要相似步骤：参照 `docs/执行指令模板.md` 重建，不直接改归档副本
 - 存量按需拓展某篇时：参照 `子节镜像批1执行指令.md` 的提取/改造/验证命令
 - 若需回滚归档（恢复至根目录）：`git mv docs/archive/<file> docs/<file>`（需保持 git 追踪）
+
+## audit/ 子目录（2026-08-15 追加归档）
+
+- **`audit/`**（18 个 .tsv）：公式 LaTeX 化两轮（r1/r2）与割裂修复的**逐行转换审计清单**（audit_背景/核合成/起源/传播 各域 × r1/r2 + gap + fix_audit + supsub_audit）——任务已闭环（REVIEWS 有档、残留 0），tsv 仅作追溯明细，从 webapp/ 移入。
+- 构建产物（registry.json / glossary.json / search_index.json / manifest.json / icon-*.png / apple-touch-icon.png / interactive.html）**不入库**（webapp/.gitignore），由构建链 `build_registry → build_glossary → build_search_index → build_pwa → build_webapp` 再生成。
