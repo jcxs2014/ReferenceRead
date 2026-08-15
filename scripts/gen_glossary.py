@@ -45,8 +45,9 @@ def parse_98_vocabulary(md: Path):
 def main():
     glossary = OrderedDict()  # term -> [(paper, def, sect)]
     total_entries = 0
+    files = sorted(BASE.rglob("98_vocabulary.md"))
 
-    for md in sorted(BASE.rglob("98_vocabulary.md")):
+    for md in files:
         if "/.git/" in str(md):
             continue
         paper_dir = md.parent.parent.name  # e.g., "0001_b2fh-1957"
