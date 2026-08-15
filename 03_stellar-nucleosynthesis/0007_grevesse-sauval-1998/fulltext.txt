@@ -1,0 +1,741 @@
+STANDARD SOLAR COMPOSITION
+N. GREVESSE and A.J. SAUVAL
+Institut d'Astrophysique et de Géophysique, Université de Lidge, B-4000 Liége, Belgium
+(nicolas. grevesse @ ulg.ac.be)
+
+Observatoire Royal de Belgique, B-1180 Bruxelles, Belgium (Jacques. Sauval@oma.be}
+Abstract. We review the current status of our knowledge of the chemical composition of the Sun,
+essentially derived from the analysis of the solar photospheric spectrum. The comparison of solar
+and meteoritic abundances confirms that there is a very good agreement between the two sets of
+abundances. They are used to construct a Standard Abundance Distribution.
+
+Key words: Sun: abundances, Meteorites: abundances, Solar spectroscopy
+Abbreviations: CI — Carbonaceous Chondrite; SW — Solar Wind; SEP — Solar Energetic Particles;
+SAD — Standard Abundance Distribution
+
+1. Historical Introduction
+ALN. Russell, whose name is associated with a large number of pioneer researches
+in astrophysics during the first half of this century (for example the Hertzsprung-
+Russell diagram) as well as to a series of basic works in atomic spectroscopy
+(for example the LS or Russell-Saunders coupling), also made the first quantita-
+tive analysis of the chemical composition of the solar atmosphere (Russell, 1929).
+Using eye estimates of solar line intensities measured on the Revised Rowland
+Atlas of the solar spectrum together with the reversing layer hypothesis, he suc-
+ceeded to derive the abundances of 56 elements. Russell’s mixture was used by
+almost two generations of astronomers. He also showed that the solar atmosphere
+and, finally, the universe was essentially made of hydrogen, an observation which
+took some time to be accepted by the whole astronomical community. When one
+looks at his abundance distribution, many of the remarkable features correlated to
+nuclear properties, and that gives clues to the origin of the different elements, were
+already present in Russell’s results.
+
+Twenty years later, Unsdld (1948) using better observations and better tech-
+niques obtained abundance results for 25 elements and noticed that his results were
+not much different from Russell’s values. He concluded that this was not surprising
+because Russell had an “unvergleichliches spektroskopisches Fingerspitzengefiihl”
+(an incomparable spectroscopic flair).
+
+In the meantime important works of great interest for our understanding of stel-
+lar atmospheres have been published, allowing progress in the accuracy of abun-
+dance analyses. Minnaert and his collaborators (Minnaert and Slob, 1931; Minnaert
+and Mulders, 1931) developed the curve of growth technique, Wildt (1939) showed
+that the continuous opacity in the solar atmosphere was essentially due to H~ ions
+and Strémgren (1940) constructed the first photospheric model.
+
+Space Science Reviews 85: 161-174, 1998.
+© 1998 Kluwer Academic Publishers. Printed in the Netherlands.
+162 N. GREVESSE AND A.J. SAUVAL
+
+Goldberg et al. (1960; GMA) using the curve of growth technique together wit
+a photospheric model, and a careful examination of the observed equivalent width
+and, for the first time, of the oscillator strengths of the lines, succeeded in gettin,
+the abundances for 42 elements. The results of GMA have been considered as th
+standard reference work for more than LO years.
+
+In the last 25 years different groups all over the world have been very activ
+in photospheric abundance works: L.H. Aller and his co-workers, D.E. Blackwel
+and his co-workers, O. Engvold and O. Hauge, H. Holweger and his co-workers
+D.L. Lambert, B. Warner, and our Belgian group including E. Biémont and A
+Noels.
+
+2. Sources of Solar Abundances
+Because of its proximity, our Sun is unique and, by far, the best known star. Actu
+ally, solar abundances can be derived by very different techniques and for ver:
+different types of solar matter, from the interior to the outermost coronal layers.
+
+Using spectroscopy in a very large wavelength range, we can derive the chemi
+cal composition of the photosphere, chromosphere and corona and also of sunspots
+Particle collection techniques from space allow to measure the chemical composi
+tion of the solar wind (SW) and of solar energetic particles (SEP). We can eventu
+ally get informations on solar flares from gamma ray spectroscopy (Ramaty, 1996)
+Finally, calibration of solar models and inversion of helioseismic data allow us t
+derive the solar abundance of helium (see section 4.1). Note also that lunar soil:
+also record the past chemical history of the Sun (see Wieler, 1998).
+
+In addition to the expected abundance changes in the central layers of the Sun
+we now observe more subtle and unforeseen variations in the chemical composition
+which varies with time and from place to place: this is the subject of this Workshop
+
+Below the convection zone, element migration is at work (we prefer to usi
+migration instead of segregation as proposed during this Workshop). Since its birth
+the reservoir that fills the solar outer layers, could have lost about 10 % of He and al.
+the heavier elements: this has been discussed in many reviews and contributions a.
+this Workshop (see e.g. ‘lurck-Chiéze, 1998; Turcotte and Christensen-Dalsgaard
+1998; Vauclair, 1998).
+
+In the outer solar layers, all the indicators show that the observed composi
+tion is variable in different types of solar matter and that a fractionation occurs, a
+low chromospheric level, leading to the FIP or FIT effect: elements of low firs
+ionization potential show abundances larger than in the photosphere. This phe
+nomenon is also discussed at large in many reviews and contributions presentec.
+at this Workshop (see e.g. Bochsler, 1998; Feldman, 1998; Geiss, 1998; Hénoux
+1998; Peter, 1998; Raymond, 1998; Reames, 1998; Zurbuchen et al., 1998).
+
+The solar photosphere is actually the layer from which we have the largest num
+ber of data. A very large number of elements are present in the photospheric spec
+trum whereas the other sources of solar abundances only concern a limited num
+STANDARD SOLAR COMPOSITION 163
+ber of elements. Just above the convection zone, the photosphere is a well mixed
+region (see however Solanki, 1998) whereas the outer solar layers show a very het-
+erogeneous and changing structure. The structure and the physical processes of the
+photosphere are also rather well known allowing to reach good accuracies. It is also
+the layer that has been studied quite a long time before the other layers for obvious
+reasons: the solar photospheric spectrum has been recorded since quite a long time.
+For all these reasons, photospheric abundances will be adopted as a reference for
+all the other solar data (see also section 4).
+3. Interest of Solar Abundances
+The chemical composition of the Sun is a key data for modelling the Sun, the interi-
+or as well as the atmosphere. The role of the opacities and the crucial contributions
+of elements like Fe in the central layers and of O and Ne at the bottom of the
+convective zone has been stressed by Rogers (1998) and Turck-Chiaéze (1998).
+Standard chemical composition is also the basic data that has to be reproduced
+by nucleosynthesis theories (see also section 5) and it plays also a key role in the
+chemical evolution of galaxies (see e.g. Pagel, 1997).
+The Sun, being the best known star, has always been considered as the typical
+star, the reference to which the abundance analyses of other stars are compared (see
+section 5). It has been suggested that the Sun might be somewhat anomalous (see
+Grevesse et al., 1996, for the references) but Gustafsson (1998) has convinced us
+at this Workshop that the Sun is like many other stars of the same age in our galaxy
+and that the claimed slight metal richness of our Sun is well within the real cosmic
+scatter.
+When studying solar abundances we have access to important tracers of the ‘
+structure and of the physical processes in the outer solar layers.
+The Sun is also unigue because chemical composition data can be acquired for
+other types of matter in different objects of the solar system like the Earth, Moon, ;
+planets, comets, meteorites. Few data come from planets; for the terrestrial plan- :
+ets, including the Earth, elements have either evaporated or fractionated. Very few :
+reliable data are available for comets. This is one of the main goals of a future :
+comet rendez-vous mission, A very rare class of meteorites, the so-called CI car- i
+bonaceous chondrites, is of particular interest. These meteorites have preserved ,
+the bulk composition of their parent bodies (planetesimals) and have thus retained :
+most of the elements present in the primitive matter of the solar nebuta, except for :
+the few most volatile elements (see section 5). 5
+4. Solar Abundances :
+For many reasons given above, the solar chemical composition, to which the results :
+for the other layers will be compared, is the composition derived from the analysis :
+of the solar photospheric spectrum. :
+164 N. GREVESSE AND A.J, SAUVAL
+
+Much progress has been made during the last decades. Solar photospheric spec-
+tra with very high resolution and very high signal over noise ratio, obtained from
+the ground and from space, are now available for quite a large wavelength range,
+from the UV to the far IR (see Kurucz, 1995 for a recent review). Empirical mod-
+elling of the photosphere has now reached a high degree of accuracy [see also
+section 4.5 and the reviews in this volume by Solanki (1998) and Rutten (1998)].
+And, last but not least, accurate atomic and molecular data, in particular transi-
+tion probabilities, have progressively been obtained for transitions of solar interest;
+these data play a key role in solar spectroscopy.
+
+We have recently reviewed in detail this key role and, in particular, the role o/
+transition probabilities in solar spectroscopy, not only in improving the abundance
+results but also as tracers of the physical conditions and processes in the solar pho-
+tosphere (Grevesse and Noels, 1993; Grevesse et al., 1995). Most of the progress
+in our knowledge of the solar photospheric chemical composition during the last
+decades has been essentially, if not uniquely, due to the use of more accurate transi-
+tion probabilities as seen in the examples given in the hereabove mentioned papers.
+Large discrepancies previously found between the Sun and CI meteorites (see sec-
+tion 5) have progressively disappeared as the accuracy of the transition probabili-
+ties has been increased. Actually, the dispersion of solar photospheric abundance
+results reflects the internal accuracy of the transition probabilities used to derive
+the abundances. The Sun is rarely (never?) at fault but unfortunately, older sets of
+transition probabilities were too often at fault! Hopefully, the techniques now allow
+to measure transition probabilities with high accuracy, even for rather faint lines.
+It has to be mentioned that many analyses of solar abundances have resulted from
+close collaborations between atomic spectroscopists and solar spectroscopists. Too
+rare groups, however, work to fill the gaps in the many data still needed by the
+astronomers.
+
+Two recent papers on atomic transition probabilities and the solar abundance
+of Lu better illustrate the role of atomic data on solar abundances (Den Hartog
+et al., 1998; Bord et al., 1998). The solar photospheric abundance of Lu was 4
+times larger than the very accurate meteoritic value. New accurate measurements
+of atomic transition probabilities for Lu 1 lines of solar interest have allowed to
+get the photospheric result down to the meteoritic value (see Table I),
+
+In Table I, we give the best solar photospheric abundances taken from our latest
+review (Grevesse ef al., 1996). Values are given in the logarithmic scale usually
+adopted by astronomers, Age = log Ne¢/Ny + 12.0, where N-¢ is the abundance by
+number. We now comment on a few elements.
+
+4.1. HELIUM
+
+In 1868, a new element is discovered in the solar spectrum obtained during an
+eclipse. The name of the Sun was given to the new element, helium. Helium is
+only discovered on Earth in 1895, Nowadays, its primordial abundance is known
+STANDARD SOLAR COMPOSITION 165
+Table I
+Element Abundances in the Solar photosphere and in Meteorites
+
+EL Photosphere* Metcorites — Ph-Met | EL Photosphere* Meteorites Ph-Met
+OLH 12.00 oad = 42 Mo 1,92 +£0.05 1.97 £0.02 —0.05
+02He — [10,93 +0.004] - _ 44 Ru 1.84 £0.07 (83 +£0.04 +0.01
+03 Li 1.10 +0.10 3.31 +£0.04 —2.21 45 Rh 1.12 +0,12 1.10 +0.04 +0.02
+04 Be 1.40 40,09 1,42 +£0.04 0,02 46 Pd 1.69 40.04 1.70 £0.04 —0,01
+OSB (2.55 £0.30) 2.79 £0.05  (—0.24) | 47 Ag (0.94 £0.25) 1.24 40.04 (—0.30)
+06 8.52 +£0.06 - _ 48 Cd 1.77 £0.11 1.76 £0.04 +0.01
+O7N 7.92 +0.06 - - 49 In (1.66 £0.15) 0.82 40.04 (+0.84)
+080 8.83 £0.06 od - 50 Sn 2.0 +(0.3) 2.14 £0.04 —0.14
+O09 F [4.56 +0.3] 448 £0.06 +0.08 51 Sb 1.0 +(0.3) 1.03 +0.07 —0.03
+10 Ne {8.08 40.06] - _ 52 Te > 2.24 £0.04 _
+tl Na 6.33 £0.03 6.32 £0.02 +0.01 531 _ 1.51 £0.08 _
+12 Mg 7,58 +£0.05 7.58 £0.01 0.00 54 Xe ~ 2.17 £0.08 -
+13 Al 6.47 +0.07 6.49 £0.01 0.02 55 Cs _ 1.13 £0.02 -
+14 Si 7.55 £0.05 7.56 £0.01 —0.01 56 Ba 2.13 £0.05 2.22 £0.02 —0.09
+ISP 5.45 £(0.04) 5.564006 —-O11 | 57La 1.17 +£0.07 1.22 40.02 — 0.05
+168 7.33 £0.11 7.20 £0.06 +0.13 58 Ce 1.58 £0.09 1.63 +0.02 —0.05
+17Ch {5.5 40.3] 5.28 £0.06 0.22 59 Pr 0.71 £0.08 0.80 £0.02 —0.09
+18 Ar {6.40 40.06] _ ~ 60 Nd 1.50 +0.06 1,49 £0,02 +0.01
+19K 5.12 £0.13 5.13 +£0.02 —0.01 62 Sm 1.01 +0.06 0.98 £0.02 +0,03
+20 Ca 6.36 £0.02 6.35 £0.01 +0.01 63 Eu 0.51 £0.08 0.55 +0.02 —0.04
+23 Sc 3.47 £0.10 3.10 £0.01 +0.07 64 Gd 1.12 40.04 1.09 £0.02 +0,03
+22 Ti $.02 £0.06 4,94 £0.02 +0.08 65 Tb (~0.1 +0.3) 0.35 £0.02 (—0.45)
+23V 4.00 +£0.02 4,02 40.02 0.02 66 Dy 1.14 10.08 1,17 10,02 0.03
+24 Cr 5.67 £0.03 5.69 +0.01 —0.02 67Ho = (0.26 £0.16) 0.51 +0.02  (—0.25)
+25 Mn 5.39 £0.03 §.53 +0.01 —0.14 68 Er 0.93 +£0.06 0.97 +0.02 —0.04
+26 Fe 7.50 40.05 7,50 +£0.01 0.00 69Tm (0.00 40.15) 0.15 40,02 (—0,15)
+27 Co 4.92 +0.04 4.91 +0.01 +0.01 70 Yb 1,08 £(0.15) 0.96 £0.02 +0.12
+28 Ni 6.25 +0.04 6.25 £0.01 0.00 7La 0.06 40.10 0.13 £0.02 0.07
+29 Cu 4.2] +£0.04 4.29 £0.04 —0.08 72 HE 0.88 +(0.08) 0.75 £0.02 +0.13
+30 Zn 4.60 £0.08 4.67 £0.04 0.07 73 Ta ~ —0.1340.02 _
+31 Ga 2.88 £(0.10) 3.13 £0.02 —0.25 WwW (1.11 40.15) 0.69 $0.03  (+0.42)
+32 Ge 3.41 £0.14 3.63 £0.04 0.22 75 Re - 0.28 £0.03 =
+33 As - 2.37 £0.02 _ 76 Os 1.45 +0.10 1,39 £0.02 +0.06
+34 Se - 3.41 +£0.03 - 71 Ir 1.35 +(0.10) 1.37 4.0.02 —0,02
+35 Br - 2.63 £0.04 _ 78 Pt 1,840.3 1.69 £0.04 +0.1 1
+36 Kr - 3.31 +£0.08 - 79 Au (1.01 +0.15) 0.85 £0.04 — (+0.16)
+37 Rb 2.60 £(0.15) 2.41 £0.02 +0,19 80 Hg - 1,13 £0.08 _
+38 Sr 2.97 £0.07 2.92 +0.02 +0.05 81 TI (0.9 40.2) 0.83 +£0.04 — (+0.07)
+39 ¥ 2.24 £0.03 2.23 £0.02 +0.01 82 Pb (.95 +0,08 2.06 £0.04 O01
+40 Zr 2.60 £0.02 2.61 £0.02 —0,01 83 Bi _ 0.71 £0.04 _
+41 Nb 1.42 +0.06 1.40 +0.02 +0.02 90 Th _ 0.09 £0.02 _
+
+92U (< —0,47) —0,50 £0.04 _
+
+Values between square brackets are not derived from the photosphere, but from sunspots, solar corona and
+solar wind particles — Values between parentheses are Jess accurate results — For He, see section 4.1; for Th,
+see Grevesse ef al. (1996).
+166 N. GREVESSE AND A.J. SAUVAL
+
+to a high degree of accuracy (see e.g. Pagel, 1997). As many data concerning solar
+He are discussed at length in many of the review papers presented in this volume,
+we shall only give a brief summary of the present state-of-the-art.
+
+Despite its name and its very high abundance, He is not present in the photo-
+spheric spectrum and is largely lost by the meteorites. Solar wind and solar energet-
+ic particles show a very variable and rather low value (i.e. low when compared to
+values observed in hot stars and in the interstellar medium from H 1 regions around
+us). Coronal values derived from spectroscopy have large uncertainties: Nye /Nu=
+7.9 + 1.1 % (Gabriel et al., 1995) and 8.5 + 1.3 % (Feldman, 1998). Giant planets,
+as observed by the Voyager spacecraft, do not allow to settle the question: Jupiter
+and Saturn show anomalously low values whereas higher values (9.2 + 1.7 %) are
+found for Uranus and Neptune. Note that the recent Galileo spacecraft has recently
+measured an intermediate value on Jupiter, Y = 0.234, or Nue /Nu = 7.85 % (von
+Zahn and Hunten, 1996).
+
+Progress in our knowledge of the solar He content has recently come from solar
+standard models as well as non standard models and the inversion of helioseismic
+data. While the calibration of the standard models leads to an abundance of He by
+mass of Y = 0.27 + 0.01 (Nye/Ny = 9.5 %) in the protosolar cloud (Christensen-
+Dalsgaard, 1998), non standard models (i.e. taking element migration, for example,
+into account) start with an helium abundance of Y = 0.275 (Gabriel, 1997). Inver-
+sion of helioseismic data leads to a very accurate, but smaller, value, Y = 0.248
++ 0,002 (i.e. 8.5 %) as the value of the present solar abundance of He in the out-
+er convection zone (Dziembowski, 1998). The difference of 10 percent between
+these two values is now interpreted as due to element migration at the basis of
+the convection zone during the solar lifetime (see e.g. Vauclair, 1998; Turcotte and
+Christensen-Dalsgaard, 1998).
+
+In Table I, we give the present value in the outer layers, Y = 0.248 + 0.002, or
+Nue/Nuy = 8.5 %, or Aye = 10.93 + 0.004. The value at birth of the Sun is Y =
+0.275 + 0.01, or Nue/Nu = 9.8 %, or Ape = 10.99 + 0.02.
+
+4.2. LITHIUM, BERYLLIUM, BORON
+
+Since our latest review (Grevesse er al., 1996), things have changed for Be. Very
+recently, Balachandran and Bell (1998) have shown that the solar abundance of Be
+should be increased because an extra opacity source has to be introduced in the
+near UV region of the Be II lines and their result is now in perfect agreement with
+the meteoritic value (see Table I).
+
+The Li Be B problem is now reduced to explaining how the Sun can deplete Li by
+a factor 160 whereas Be and B are not destroyed. Although conventional models
+fail to do that, mixing just below the bottom of the convection zone seems to be
+successful (see Blécker et al., 1998; Vauclair, 1998; Zahn, 1998),
+STANDARD SOLAR COMPOSITION 167
+
+We also note that the solar abundances of lithium and boron have been very
+slightly decreased because of slight non-LTE effects (Carlsson et al., 1994; Kisel-
+man and Carlsson, 1996).
+
+4.3. CARBON, NITROGEN, OXYGEN
+
+These elements which have largely escaped from meteorites are key elements.
+Because of their large abundances, they are main contributors to the metallicity
+(O: 47 %, C: 17 %, N: 5 %); they are also important contributors to the opacity
+(see also Turck-Chiéze, 1995). Although coronal measurements of the CNO abun-
+dances are certainly very helpful, the solar abundances of these three elements will
+nevertheless heavily rely upon the photospheric values.
+
+The abundances of C, N and O can be derived from a large number of indica-
+tors, atoms as well as diatomic molecules made of C, N, O and H. The problems
+encountered when analyzing all these indicators have been described by Grevesse
+and Sauval (1994).
+
+We have revisited all the lines of all the CNO solar abundance indicators and
+redone some computations playing with different photospheric models (see sec-
+tion 4.5). Unfortunately, our new analysis is not yet finalized because we believe
+that there are, among other things, many uncleared problems with the atomic as
+well as molecular data. We can only suggest preliminary values for the revised
+solar C, N and O abundances: Ac = 8.52, An = 7.92 and Ao = 8.83 respective-
+ly (Sauval and Grevesse, 1998); we estimate the uncertainties to be of the order
+of 0.06 dex. These values are slightly smaller than the previously recommended
+values.
+
+4.4, NEON, ARGON
+
+These two noble gases do not appear in the solar photospheric spectrum and are
+largely lost by meteorites. Therefore we have to rely on coronal data as obtained
+from the coronal spectrum, SW, SEP and gamma ray spectroscopy.
+
+Ne is an important element because it contributes for 10 % to the metallici-
+ty. Furthermore, it is an important contributor to the opacity at the bottom of the
+convection zone (Rogers, 1998; Turck-Chiéze, 1998).
+
+For Ne, an accurate value has recently been obtained by Widing (1997) who
+measured the Ne/Mg ratio in photospheric material observed in emerging flux
+events. His value, Ane = 8.08 + 0.06, is in excellent agreement with the SEP value
+(Reames, 1998).
+
+The solar abundance of argon has recently been redetermined by Young ef al.
+(1997) from the coronal spectra (see also Young, 1998). The value proposed by
+Young, Aa; = 6.47 + 0.10, is in agreement with the accurate SEP value (Reames,
+1998). We shall adopt the SEP value, Aa, = 6.40 + 0.06, because of its smaller
+uncertainty.
+168 N. GREVESSE AND A.J. SAUVAL
+
+4.5. IRON
+
+The longstanding puzzling problem of the difference between the photospheric and
+the meteoritic abundance of iron has been the subject of numerous works by dif-
+ferent research groups during the last decade. The recent papers by Anstee et al,
+(1997), Kostik et al. (1996), Holweger (1996) and Grevesse et al. (1996) give a
+detailed account of the problem and its possible solutions as well as all the refer-"
+ences to the original recent analyses. The debate between the Oxford group (D.E.
+Blackwell and his co-workers) and the Kiel-Hannover group (H. Holweger and co-
+workers) as to whether the solar abundance of Fe derived from Fe 1 lines is high,
+Age = 7.63 (Oxford), i.e. larger than the meteoritic value, Age = 7.50, or low (Kiel-
+Hannover), i.e. in agreement with the meteorites, is well summarized in the first two
+papers cited above. Apparently, the cumulative effects on the abundance results of
+slight differences between the equivalent widths, gf-values absolute scales, micro-
+turbulent velocities and empirical enhancement factors of the damping constants,
+could partly explain the two different abundance results.
+
+We have also rediscussed the problem using most of the lines retained by the
+two different groups cited hereabove. One very important progress has however
+been made very recently: O’Mara’s Australian group has computed accurate cross-
+sections for the broadening of s-p, p-s, p-d, d-p, d-f and f-d transitions by collisions
+with neutral atomic hydrogen (Anstee and O’ Mara, 1995; Barklem and O’Mara,
+1997; Barklem e¢ al., 1998). This is an important parameter which is now known.
+Our results obtained with the Holweger and Miiller (1974) model [the temperature
+distribution of this model is the same as that of the original model of Holweger
+(1967); this model last for three decades which is a tremendously good perfor-
+mance] are plotted in Figure 1. As can be seen, low excitation lines lead to higher
+abundance values than higher excitation lines. As the low excitation lines are more
+sensitive to the temperature than the high excitation lines and as they are, on the
+whole, formed higher in the atmosphere, an easy way to solve for this dependence
+is to change very slightly the temperature of the photospheric model in the ad hoc
+layers (see Grevesse et al., 1995). The new solar model we built has a temperature
+about 200 K lower at log 7 = —3 and has the same T of the Holweger and Miiller
+model in the deeper layers (log 7 = —1). With this new model, Figure 2 shows that
+low and high excitation Fe | lines lead to the same abundance value: Ape = 7.50 +
+0.05, in pretty good agreement with the very accurate meteoritic result (7.50). This
+value also agrees with results obtained from the analyses of Fe 1 lines. A com-
+plete discussion of the problem will be given in a forthcoming paper (Grevesse and
+Sauval, 1998).
+
+5. Standard Abundance Distribution
+The first real table of abundances of the chemical elements results from the pioneer
+work of the Norvegian cosmochemist Goldschmidt (1937). Prior to Goldschmidt,
+STANDARD SOLAR COMPOSITION 169
+a
+7.70 Fe .
+‘ : ele?
+: . 4 . . 8
+7.60 * < "7. .
+> : . .
+uw . . ° . :
+~ = -.°
+< a . .
+7,50 . . . ey,
+7 AOE
+fe) 1 2 3 4 5
+Excitation potential (eV)
+Figure 1, Solar abundance of iron as a function of the line excitation potential; this result is based
+on 65 Fe J lines adopting the Holweger-Miiller (1974) model
+7.70
+7.60 .. ?
+e ‘ : t
+ea . ry vse ef . ?
+7.506 te ara °
+7.40 . ° . .
+0 1 2 3 4 5
+Excitation potential (eV)
+Figure 2. Solar abundance of iron as a function of the Jine excitation potential; this result is based
+on the same 65 Fe | lines as in Figure |, but adopting the new photospheric model (see text)
+early attempts to build such tables have not been very successful; except for the
+important solar results of Russell (1929), the data were essentially based on the
+(fractionated) Earth. Goldschmidt’s careful analysis of about 80 elements based on
+solar, stellar and meteoritic data, had a great impact on further studies of “cosmic”
+abundances (see e.g. a very interesting historical note by Suess, 1988). The word
+170 N. GREVESSE AND A.J. SAUVAL
+“cosmic” abundances has often been used for such data because it was thought that
+solar system abundances could represent most of the other objects in the universe.
+
+Goldschmidt’s data show much better than Russell’s data most of the remark-
+able features seen in the modern abundance curve. Unfortunately the knowledge in
+nuclear physics as well as in astrophysics was too fragmentary at that time to allow
+the discovery of the origin of the elements.
+
+After Goldschmidt, and inspired by his results, progress led to the abundance
+table of Suess and Urey (1956). This table was the key data for Burbidge e7 al.
+(1957) and Cameron (1957) to build the firm basis of the theory of element nucle-
+osynthesis, explaining how, where and when all the nuclides are formed.
+
+The term “standard abundance distribution” (or SAD) has been introduced by
+Pagel (1973); it is equivalent to “cosmic abundances” or “local galactic abun-
+dances” found in different papers. The SAD is essentially based (see Anders and
+Grevesse, 1989; Palme and Beer, 1993; Cowley, 1995; Grevesse et al., 1996, for
+recent reviews on the subject together with analysis of previous works; see also the
+excellent reviews by ‘lrimble, 1975, 1991, 1996) on CI carbonaceous chondrites
+data, which are now measured in our Earth laboratory with a variety of sophisti-
+cated techniques leading to very high accuracies (5 to 10 percent; see Table I). The
+data for the most volatile elements, partly lost from meteorites, are taken from the
+Sun, as shown in section 4.
+
+We know that the solar system based standard abundance distribution is not
+universal. Outside of the solar system we obviously observe quite a large number of
+peculiarities (i.e. differences from the SAD) among different stellar objects. Even
+in the solar system itself, we observe isotopic anomalies showing material of very
+different origin but these anomalies are confined in a very small mass fraction.
+These anomalies probably result from incomplete mixing in the primordial solar
+nebula. But, nevertheless, abundances are remarkably similar to some extent to the
+SAD, everywhere we look and the deviations from the SAD are to be explained by
+secondary but very important processes.
+
+Table I is an update of the standard abundance distribution: it has been build
+according to Anders and Grevesse (1989) and Grevesse et al. (1996) taking into
+account the most recent values for the 83 stable or long lived elements. Mete-
+oritic values are taken from Anders and Grevesse (1989) and Palme and Beer
+(1993). These two tables of abundances agree perfectly; slight disagreements come
+from differences in selection of literature data. We therefore took a straight mean
+between values in these two works except for S, Se, Kr and Xe where we followed
+the recommendations of Palme and Beer (1993).
+
+As can be seen from Figure 3, photospheric and meteoritic results agree per-
+fectly. The few discrepant points can be accounted for by the uncertainty of the
+photospheric results, much larger than the small uncertainties of the meteoritic
+data. Lack of space does not allow us to reproduce the same table as Table I but
+for the 264 stable nuclei. It is available from the authors. Actually, isotopic abun-
+STANDARD SOLAR COMPOSITION 171
+1.0
+
+< 05 |
+
+fo}
+
+o
+
+: | ba
+
+1 0.0 ant jew Led th } t | f
+
+&
+
+fe}
+
+aos
+
+a& —-0.5 !
+
+—-1.0
+a) 20 40 60 80
+Z (atomic number)
+Figure 3. Difference between Solar and Meteoritic abundances of elements as a function of Z. Error
+bars represent the uncertainty of the solar abundance determinations. The point representing Li falls
+largely outside of this figure (-2.21}
+dances can hardly be obtained from solar data, As meteoritic and terrestrial data
+nicely agree, isotopic ratios are adopted as measured in terrestrial materials,
+6. Conclusions
+
+The solar abundances are in excellent agreement with the meteoritic abundances
+derived from CI carbonaceous chondrites. The effects of element migration at the
+bottom of the convection zone (which predict that present day abundances, given
+by photospheric values, should be smaller by 10 to 15 percent than the values in the
+solar nebula at the time of formation of the solar system, as given by meteorites)
+are not observed. This is puzzling although not surprising. Actually, the uncertain-
+ties of the photospheric abundance results are unfortunately still much too large
+to allow such a faint effect to be detected. Furthermore, hydrogen, the reference
+element, is largely lost in meteorites.
+
+With the data presented in Table I, i.e. the solar values for He, C, N, O, Ne,
+Ar and the more accurate meteoritic data for the other elements measured in CI
+meteorites, the classical mass abundances are: K = 0.735, Y = 0.248 and Z= 0.017
+with Z/X = 0.023. The uncertainty on the metallicity might be of the order of
+10 percent. These values are slightly smaller than the ones we proposed earlier
+(Grevesse et al., 1996) because the new preliminary values of the CNO abundances
+have slightly decreased.
+172 N. GREVESSE AND A.J. SAUVAL
+Efforts should be done to reduce the uncertainties of the photospheric abun-
+
+dances because the abundance uncertainties (e.g. of C, O, Ne) now introduce uncer-
+
+tainties in the opacity that are similar in magnitude to those of the physics (Rogers,
+
+1998).
+
+Progress should come from the use of more accurate atomic and molecular data.
+
+It is also expected from a more realistic description of the heterogeneous outer solar
+
+layers through 3D modelling of these layers.
+
+Acknowledgements
+
+We thank J. Vandekerckhove for his help with the figures, Suchitra Balachandran
+
+for sending the Be paper in advance of publication, Harmut Holweger for sending
+
+a copy of the paper by H.E. Suess, Roberto Gallino for useful suggestions concern-
+
+ing Table I and Martin Asplund, the referee, for his constructive comments. This
+
+research has made use of NASA’s Astrophysics Data System Abstract Service.
+
+N. G. thanks the International Space Science Institute for hospitality and financial
+
+support.
+
+References
+
+Anders, E. and Grevesse, N.: 1989, ‘Abundances of the elements: meteoritic and solar’, Geochim.
+Cosmochim. Acta 53, 197-214.
+
+Anstee, $.D. and O’ Mara, B.J.: 1995, ‘Width cross-sections for collisional broadening of s-p and p-s
+transitions by atomic hydrogen’, Mon, Not. R. Astron. Soc. 276, 859-866.
+
+Anstee, §.D., O'Mara, B.J. and Ross, J.E.: 1997, ‘A determination of the solar abundance of iron
+from the strong lines of Fe I’, Mon. Not. R. Astron. Soc, 284, 202-212.
+
+Balachandran, S.C. and Bell, R.A.: 1998, ‘The lack of beryllium depletion in the Sun and implica-
+tions for stellar mixing’, Nature, in press.
+
+Barklem, P.S. and O’ Mara, B.J.: 1997, ‘The broadening of p-d and d-p transitions by collisions with
+neutral hydrogen atoms’, Mon. Not. R, Astron. Soc. 290, 102-106,
+
+Barklem, P.S., O’Mara, B.J, and Ross, J.E.: 1998, ‘The broadening of d-f and f-d transitions by
+collisions with neutral hydrogen atoms’, Mon, Not. R. Astron. Soc., in press.
+
+Blocker, T., Holweger, H., Freytag, B., Herwig, F., Ludwig, H.-G. and Steffen, M.: 1998, ‘Lithium
+depletion in the Sun: a study of mixing based on hydrodynamical simulations’, Space Sci. Rev.,
+this volume.
+
+Bochsler, P.: 1998, ‘Structure of the solar wind and compositional differences’, Space Sci. Rev., this
+volume.
+
+Bord, D.J., Cowley, C.R. and Mirijanian, D.: 1998, ‘A re-evaluation of the abundance of lutetium in
+the Sun’, Solar Phys. 178, 221-237.
+
+Burbidge, E.M., Burbidge, G.R., Fowler, W.A. and Hoyle, F.: 1957, ‘Synthesis of the elements in
+stars’, Rev. Mod. Phys. 29, 547-650.
+
+Cameron, A.G.W.: 1957, ‘Nuclear reactions in stars and nucleogenesis’, Pub, Astr. Soc. Pac. 69,
+201-222. (also Chalk River Report CRL-41)
+
+Carlsson, M., Rutten, R.J., Bruls, J.H. and Shchukina, N.G.: 1994, ‘The non-LTE formation of Li T
+lines in cool stars’, A&A 288, 860-883.
+
+Christensen-Dalsgaard, J.: 1998, ‘Standard model and composition’, Space Sci. Rev., this volume.
+
+Cowley, C.R.: 1995, An introduction to cosmochemistry, Cambridge University Press.
+STANDARD SOLAR COMPOSITION 173
+
+Den Hartog, E.A., Curry, J.J., Wickliffe, M.E. and Lawler, J.E.: 1998, ‘Spectroscopic Data for the
+6s6p 3P, level of Lu Il for the determination of the solar lutetium abundance’, Solar Phys. 178,
+239-244.
+
+Dziembowski, W.: 1998, ‘Shortcomings of standard solar models’, Space Sci. Rev., this volume.
+
+Feldman, U.: 1998, ‘FIP effect: optical observations’, Space Sci, Rev., this volume.
+
+Gabriel, A.H., Culhane, J.L., Patchett, B. E., Breevelt, E. R., Lang, J., Parkinson, J. H., Payne, J. and
+Norman, K.: 1995, ‘Spacelab 2 measurement of the solar coronal helium abundance’, Adv. Space
+Res, 15, 63-67,
+
+Gabricl, M.: 1997, ‘Influence of heavy element and rotationally induced diffusions on the solar mod-
+els’, A&A 327, 771-778.
+
+Geiss, J.: 1998, ‘Solar wind abundance measurements: constraints on the FIP mechanism’, Space
+Sci. Rev., this volume.
+
+Goldberg, L., Miiller, E.A. and Aller, L.H.: 1960, ‘The abundances of the elements in the solar
+atmosphere’, ApJ Suppl. Ser. 5, No 45, 1-137 (GMA).
+
+Goldschmidt, V.M.: 1937, ‘Geochemische Verteilungsgestze der Elemente, IX. Die Mengen-
+verhaltnisse der Elemente und der Atom-Arten’, Skrifter Norske Videnskaps-Akad. Oslo, Math.-
+Naturw. Ki. Nr. 4, 99-101.
+
+Grevesse, N. and Noels, A.: 1993, ‘Atomic data and the spectrum of the solar photosphere’, Physica
+Scripta T47, 133-138.
+
+Grevesse, N. and Sauval, A.J.: 1994, ‘Molecules in the Sun and Molecular data’, in Molecular Opac-
+ities in the Stellar Environment, ed U.G. Jorgensen, Lecture Notes in Physics, Springer-Verlag
+428, 196-209.
+
+Grevesse, N., Noels, A. and Sauval, A.J.: 1995, ‘Atomic and molecular data in solar photospheric
+spectroscopy’, in Laboratory and Astronomical High Resolution Spectra, eds A.J. Sauval, R.
+Blomme and N. Grevesse, ASP Conference Series 81, 74-87.
+
+Grevesse, N., Noels, A. and Sauval, A.J.: 1996, ‘Standard Abundances’, in Cosmic Abundances, eds
+8.8. Holt and G. Sonneborn, ASP Conference Series 99, 117-126.
+
+Grevesse, N. and Sauval, A.J.: 1998, ‘An improved photospheric model based on Fe I lines’, A&A,
+in preparation.
+
+Gustafsson, B.: 1998, ‘How sunlike is the Sun?’, Space Sci. Rev., this volume.
+
+Hénoux, J.C.: 1998, ‘FIP: theory’, Space Sci. Rev., this volume.
+
+Holweger, H.: 1967, ‘Ein empirisches Modell des Sonnenatmosphire mit lokalem thermodynami-
+schen Gleichgewicht’, Z. Astrophys. 65, 365-417.
+
+Holweger, H.: 1996, ‘Solar element abundance, non-LTE line formation in cool stars and atomic
+data’, Physica Scripta T65, 151-157.
+
+Holweger, H. and Miiller, E.A.: 1974, ‘The Photospheric Barium Spectrum: Solar Abundance and
+Collision Broadening of Ba 11 Lines by Hydrogen’, Solar Physics 39, 19-30.
+
+Kiselman, D. and Carlsson, M.: 1996, ‘The NLTE formation of neutral-boron lines in cool stars’,
+A&A 311, 680-689.
+
+Kostik, R.I., Shchukina, N.G. and Rutten, R.J.: 1996, ‘The solar iron abundance: not the last word’,
+A&A 305, 325-342.
+
+Kurucz, R.L.; 1995, ‘The solar spectrum: atlases and line identifications’, in Laboratory and Astro-
+nomical High Resolution Spectra, eds A.J. Sauval, R. Blomme and N. Grevesse, ASP Conference
+Series 81, 17-31.
+
+Minnaert, M. and Mulders, G.F.W.: 1931, ‘Dopplereffekt und Dampfung bei den Fraunhoferschen
+Linien’, Z. Astrophys. 2, 165-181.
+
+Minnaert, M. and Slob, C.: 1931, ‘Die Totalintensitiiten der Fraunhoferschen Linien’, Proc. Kon.
+Akad. van Wetens. Amsterdam 34, 542-549,
+
+Pagel, B.E.J.: 1973, ‘Stellar and solar abundances’, Space Science Reviews 15, |-21.
+
+Pagel, B.E.J.: 1997, Nucleosynthesis and chemical evolution of galaxies, Cambridge University
+Press.
+
+Palme, H. and Beer, H.: 1993, ‘Abundances of the elements in the solar system’, Landolt-Bérnstein,
+Group VI, Astronomy and Astrophysics, ed. H.H. Voigt, Springer-Verlag, Berlin, 3 (Extension
+and supplement to Vol. 2, Subvol. a) 196-221.
+174 N. GREVESSE AND A.J. SAUVAL
+
+Peter, H.: 1998, ‘Element fractionation in the solar chromosphere driven by ionization-diffusion pro-
+cesses’, Space Sci. Rev., this volume.
+
+Ramaty, R.: 1996, ‘Abundance determination from gamma ray spectroscopy’, in Cosmic Abun-
+dances, eds S.S. Holt and G. Sonneborn, ASP Conference Series 99, 377-380.
+
+Raymond, J.: 1998, ‘Structure of the corona and compositional differences’, Space Sci. Rev., this
+volume.
+
+Reames, D.¥.: 1998, ‘Solar energetic particles: sampling coronal abundances’, Space Sci. Rev., this
+volume.
+
+Rogers, F.: 1998, ‘Opacity of stellar matter’, Space Sci. Rev., this volume.
+
+Russell, H.N.: 1929, ‘On the composition of the Sun’s atmosphere’, ApJ 70, 11-82.
+
+Rutten, R.J.: 1998, ‘The lower atmosphere’, Space Sci. Rev,, this volume.
+
+Sauval, A.J. and Grevesse, N.: 1998, ‘Revised solar abundances of carbon, nitrogen and oxygen’,
+A&A, in preparation.
+
+Solanki, S.: 1998, ‘Structure of the photosphere’, Space Sci. Rev. this volume.
+
+Strémgren, B.: 1940, ‘On the chemical composition of the solar atmosphere’, in Festschrift fiir
+Elis Strémgren, ed K. Lundmark, Einar Munksgaard, Kopenhagen, 218-257, (Publ. Medd.
+Kgbenhavns Obs. Nr. 127, 218-257).
+
+Suess, H.E.: 1988, ‘V.M. Goldschmidt and the origin of the elements’, Applied Geochem. 3, 385-391,
+
+Suess, H.E. and Urey, H.C.: 1956, ‘Abundances of the elements ’, Rev. Mod. Phys. 28, 53-74.
+
+Trimble, V.: 1975, ‘The origin and abundances of the elements’, Rey. Mod. Phys. 47, 877-976.
+
+Trimble, V.: 1991, ‘The origin and abundances of the chemical elements revisited’, The Astron. Astro-
+phys. Rev. 3, 1-46.
+
+Trimble, V.: 1996, ‘Cosmic abundances: past, present, and future’, in Cosmic Abundances, eds §.S.
+Holt and G. Sonneborn, ASP Conference Series 99, 3~35.
+
+Turck-Chiéze, S.: 1995, ‘The role of abundances in the solar interior models’, Adv. Space Res. 15,
+85-94.
+
+Turck-Chiéze, S.: 1998, ‘Towards a detailed view of the solar nuclear core’, Space Sci. Rev., this
+volume.
+
+Turcotte, S. and Christensen-Dalsgaard, J.: 1998, ‘Solar models with consistent diffusion and
+monochromatic opacities’, Space Sci. Rev., this volume.
+
+Unsold, A.: 1948, ‘Quantitative Analyse der Sonnenatmosphiire’, Z. Astrophys. 24, 306-329.
+
+Vauclair, S.: 1998, ‘Microphysics: element segregation’, Space Sci, Rev., this volume.
+
+von Zahn, U, and Hunten, D.M.: 1996, ‘The helium mass fraction in Jupiter’s atmosphere’, Science
+272, 849-851.
+
+Widing, K.G.: 1997, ‘Emerging active regions on the Sun and the photospheric abundance of neon’,
+ApJ 480, 400-405.
+
+Wieler, R.: 1998, ‘Lunar samples and meteorites as archive for solar wind noble gases’, Space Sci.
+Rey,, this volume,
+
+Wildt, R.: 1939, ‘Electron affinity in astrophysics’, ApJ 89, 295-301, and ‘Negative ions of hydrogen
+and the opacity of stellar atmospheres’, Ap/ 90, 611-620.
+
+Young, P.R.: 1998, ‘Atomic physics for atmospheric composition measurements’, Space Sci. Rev.,
+this volume.
+
+Young, P.R., Mason, H.E., Keenan, FP. and Widing, K.G.: 1997, ‘The Ar/Ca relative abundance in
+solar coronal plasma’, ApJ 323, 243-249.
+
+Zahn, J.-P.: 1998, ‘Macrophysics: large-scale advection, turbulent diffusion, wave transport’, Space
+Sei. Rev., this volume.
+
+Zurbuchen, T.H., Fisk, L.A., Gloeckler, G. and Schwadron, N.A.: 1998, ‘Elemental enhancement as
+a coronal effect’, Space Sci. Rev., this volume.
+
+Address for correspondence: N, Grevesse, Institut d’ Astrophysique et de Géophysique. Université
+
+de Liége, 5, Avenue de Cointe, B-4000 Liége, Belgium

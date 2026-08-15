@@ -1,31 +1,517 @@
-                     Downloaded from http://mnras.oxfordjournals.org/ at Kainan University on May 15, 2015
+ta!
+3 Mon. Not. R. astr. Soc. (1978) 182, 147-156
+tl
+it
+mr
+oH
+i
+zr The acceleration of cosmic rays in shock fronts — I
+int
+A. R. Bell Mullard Radio Astronomy Observatory, Cavendish Laboratory,
+Madingley Road, Cambridge CB3 OHE*
+9
+Received 1977 June 23 3
+z
+&
+i=
+g
+i
+Summary. It is shown that charged particles can be accelerated to high 3
+energies in astrophysical shock fronts. Fast particles are prevented from =
+streaming away upstream of a shock front by scattering off Alfvén waves 3
+which they themselves generate. This scattering confines the particles to the zB
+region around the shock and results in first-order Fermi acceleration due to &
+the particles crossing the shock many times. The consequent energy spectrum Z
+is a power law with an index close to that observed for galactic cosmic rays. 4
+The discussion relates to particles which are already relativistic, and their :
+initial acceleration from thermal energies is not considered. a
+S
+5
+¢
+1 Introduction ES
+Highly relativistic particles in the Universe are detected directly as cosmic rays and indirectly <
+by such processes as synchrotron radio emission, and the energy distributions of these z
+particles, for a wide range of situations, fit power laws with differential spectral indices of 2
+: : a
+about — 2.5. Many authors have noted the implication that the acceleration of particles is 2
+due to the same mechanism in each case, but there is as yet no agreement as to what it is. a
+In this paper I discuss a mechanism which operates in the vicinity of a shock front and show
+that it leads to a power-law spectrum with a spectral index in good agreement with the
+observed values. In view of the widespread occurrence of shock fronts this mechanism may
+be important in many astrophysical objects.
 
-1978MNRAS.182..147B
-                     Downloaded from http://mnras.oxfordjournals.org/ at Kainan University on May 15, 2015
+Initially I consider a parallel shock, in which the direction of propagation is along the
+magnetic field lines, and discuss only those particles (electrons or protons) which have
+energies high enough for their gyroradii to be much larger than the thickness of the shock
+front. This thickness is usually thought to be of the order of, or less than, the gyroradius of
+a thermal proton (Boyd & Sanderson 1969), as is observed to be the case for the Earth’s
+bow shock (Formisano 1974). The energetic particles are consequently able to pass freely
+between the regions upstream and downstream of the shock. The shock front itself is the
+* Present address: GEC-Marconi Electronics Ltd, Marconi Research Laboratories, Great Baddow,
+Chelmsford, Essex CM2 8HN.
 
-1978MNRAS.182..147B
-                     Downloaded from http://mnras.oxfordjournals.org/ at Kainan University on May 15, 2015
-
-1978MNRAS.182..147B
-                     Downloaded from http://mnras.oxfordjournals.org/ at Kainan University on May 15, 2015
-
-1978MNRAS.182..147B
-                     Downloaded from http://mnras.oxfordjournals.org/ at Kainan University on May 15, 2015
-
-1978MNRAS.182..147B
-                     Downloaded from http://mnras.oxfordjournals.org/ at Kainan University on May 15, 2015
-
-1978MNRAS.182..147B
-                     Downloaded from http://mnras.oxfordjournals.org/ at Kainan University on May 15, 2015
-
-1978MNRAS.182..147B
-                     Downloaded from http://mnras.oxfordjournals.org/ at Kainan University on May 15, 2015
-
-1978MNRAS.182..147B
-                     Downloaded from http://mnras.oxfordjournals.org/ at Kainan University on May 15, 2015
-
-1978MNRAS.182..147B
-                     Downloaded from http://mnras.oxfordjournals.org/ at Kainan University on May 15, 2015
-
-1978MNRAS.182..147B
-
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+ey
+a 148 A. R. Beil
+‘1 region in which the mean plasma velocity changes. The kinetic streaming energy of the up-
+ra stream plasma is randomized into turbulent and thermal energy in the shock front, and the
+i turbulent motion is dissipated over a region downstream much larger in extent than the
+‘@, thickness of the shock itself. Such a turbulent region has been observed downstream of the
+ri _Earth’s bow shock (Formisano 1974).
+Upstream of the shock there is turbulence in the form of Alfvén waves excited by
+energetic particles which pass through the shock and attempt to escape upstream. Since the
+shock velocity is super-Alfvénic the streaming velocity of the escaping particles with respect
+to the upstream plasma must be greater than the Alfvén speed, and consequently Alfvén
+waves are excited (Wentzel 1974). Such Alfvén waves have been detected upstream of the
+Earth’s bow shock, perhaps excited by fast protons from the shock (Greenstadt 1975).
+These waves scatter the energetic particles, reduce their streaming to roughly the Alfvén
+speed and thus make it inevitable that they are overtaken by the shock. As a result, energetic
+particles can recross the shock front many times, being scattered from downstream to up-
+stream by the turbulent wake and from upstream to downstream by the Alfvén waves. Each io]
+time a particle goes through this cycle its energy increases because of the velocity difference é
+of the scattering centres upstream and downstream. e
+The mechanism is similar to those put forward by Jokipii (1966) and Fisk (1971) to >
+account for the suprathermal particles observed in association with interplanetary shocks 2
+and the Earth’s bow shock. It differs from them in that the fast particles themselves generate 2
+the waves responsible for their confinement near the shock, whereas Jokipii confines the E
+particles between magnetic mirrors which convect with the thermal plasma, while Fisk &
+confines them by scattering from magnetic irregularities of unspecified origin. The present 3
+discussion also goes beyond that of Fisk by deriving the particles energy spectrum resulting 3
+from the steady state in which mono-energetic particles are continuously injected into the 5
+region of the shock front; this derivation can then be generalized for an arbitrary energy &
+distribution of the injected particles. =
+In Section 2 of this paper the energy gained at each crossing of the shock, and the 4
+probability of a particle making a given number of crossings, are calculated and from these e
+the energy spectrum of the accelerated particles is obtained. In Section 3, the upstream e
+distribution of the Alfvén waves and fast particles is discussed, taking into account two &
+damping mechanisms which can prevent or restrict the growth of the Alfvén waves. In g
+Section 4, the analysis is extended to include oblique shocks propagating at an angle to the &
+magnetic field. a
+8
+2 The energy spectrum “
+The situation is pictured in Fig. 1 in the rest frame of the shock, which is treated as a dis-
+continuity. The mean velocities of the scattering centres upstream and downstream of the
+shock are uw, and wu, respectively which are taken to be constant throughout the respective
+regions and non-relativistic. As was discussed in Section 1, all of the particles which
+penetrate into the upstream region return across the shock, but this is not the case for those
+travelling downstream, since the motion of the downstream scattering centres away from the
+shock tends to convect the particles away, whereas diffusion gives them a certain probability,
+(1—n), of recrossing the shock into the upstream region. n can be calculated by applying
+the diffusion equation to particles in a given small energy range which enter the downstream
+region and finding the proportion of them which diffuse back across the shock:
+on on 0 on
+wu" == (00) ") a
+ot ax ax ox
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+ta!
+is Acceleration of cosmic rays in shock fronts — I 149
+ial
+St Shock front
+mr
+Ro
+ig B
+‘i _—
+2
+hae
+Upstream Downstream
+9
+xX=0 Xx é
+8
+Figure 1. A parallel shock viewed in the frame in which it is stationary. e
+Fi
+5
+where n(x, f) is the particle density. By injecting particles at the shock into the downstream z
+region at the same rate as particles are convected away at a large distance downstream, the =
+problem is made time-independent and the solution is 3
+8
+x U2 , S
+n(x, t)=A+Bexp —, dx'}. (2) &
+D(x’) 5
+The region of scattering is taken to stretch to infinity, which is effectively the case if its E
+extent is > v/u2 mean free paths, where v is the particle velocity. D(x) is thus bounded above, 2
+so n(x, t) is unbounded for positive x unless B is zero. Hence a physical solution requires 4
+that B is zero and that n(x, £) is constant. e
+The flow of particles away from the shock is u.n — D(dn/dx) which is equal to uzn(0, ¢). z
+4
+This is then the rate at which particles are escaping from the shock at a large distance down- 2
+. a
+stream. The rate at which particles are crossing and recrossing the shock is 4n(0, f) v, with g
+an error of order u2/v due to anisotropy in the velocity distribution. Of the %4n(0, A) v &
+particles which pass from the upstream to the downstream region per unit time, n(0, f) v2 a
+escape and the rest diffuse back to the shock to recross into the upstream region. The 8
+probability of escape is therefore ”
+uz
+nea? @)
+v
+For very energetic particles (v ~ c), this probability is independent of energy.
+While a particle is in the upstream or downstream regions, its energy is constant when
+viewed in the rest frame of the relevant scattering centres. When it crosses from one region
+to the other, a Lorentz transformation gives its energy in the rest frame of the scattering
+centres in the new region. A particle with energy £, which has performed k cycles, passing
+from upstream to downstream and back to upstream, performs a further cycle and has its
+energy increased to
+1+ Ug (Uy ~ ua) cos Ox 1/c?
+Exar = Ex Tonle ce)ew baa) (4)
+1 + Ug. (uy — Uz) cos Ox9/¢
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+mm 150 A. R. Bell
+is where vu, is the velocity at which the particle crosses from upstream to downstream, its
+‘3, motion making an angle 0;; with the shock normal; and uz. and 0,2 are the respective
+i quantities for the return crossing, all measured in the rest frame of the upstream scattering
+ei centres. If the particle is injected into the system with energy £o, much greater than its rest
+"mass energy, then v,1 ~ Ug2 = c and
+&,\ fat uy—u fl u,—u
+in()- y ln ! +—— cos On -Y hn +—— cos 0]: (5)
+Eo’ K=0 ¢ K=0 c
+For a significant increase in energy, / is O[c/(u; — u2)] and the distribution of In (£,/Eo) is
+strongly concentrated around the mean (central limit theorem). As a result all particles
+which go through / cycles can be treated as having their energy increased by the same
+amount, given by
+Ey u,—u u,—u
+in()=1 [in (: +" cos O41) — Cin (: rH 605 2). 6) 8
+Eo c ¢c a
+Since (u,—u2)<c the velocity distribution of the particles is nearly isotropic, so the e
+number of particles crossing unit area of the shock front at an angle in the range @ to 6 + dO P
+is proportional to (27 sin 6 dé) cos 6, and averaging over 6 gives =
+g
+E,\ 4 u;—u u,—u =
+In (4) 4" ( +0(—*)). mM  &
+Eo/ 3 c c 3
+The probability P, of a particle completing at least / cycles, and therefore of reaching an &
+energy £), is given by 5
+4u 3u u,;—u E; &
+In P= In (1-“2)-- (+0) n(2), (8)
+c Uy — U2 c Eo x
+Ss
+so the differential energy spectrum is =
+z
+u-ljey* Z
+NE) dE = —— —) dE (9) a
+Ey \Eo g
+z
+where =
+2u,+u uy—Uu 8
+y= '49(4—8 ‘), qo) &
+Uy — Uy c
+A numerical factor, close to unity, is needed in equation (9) to correct for the assumption
+that all particles have the same energy after / cycles.
+If v, is the shock velocity and x the factor by which gas is compressed at the shock then
+Us
+x
+where ua is the Alfvén speed and uy, is the mean velocity in the x direction of the scattering
+centres in the downstream region when viewed in the rest frame of the downstream gas. It is
+assumed that the upstream Alfvén waves consist entirely of waves which are moving away
+from the shock, although this may not be true if, for example, the waves are decaying via
+the sound cascade (Skilling 1975b). In such cases the effective wave velocity is less than ug,
+usually by a relatively small amount (Skilling, private communication). Substitution of
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+re Acceleration of cosmic rays in shock fronts — I 151
+‘a!’ equations (11) into equation (10) gives the spectral index of the differential energy spectrum
+i,1 of the accelerated particles
+An
+BE 2 #204 xCuy¥s~ Ma) (2)
+int (x 1) = x(¥w/dst 1/Ma) ”
+“" where M, is the Alfvén Mach number of the shock. The sound speed downstream of a strong
+shock is about half the shock velocity, so it might be thought that the terms in u,//v, are
+important, but if the turbulent waves interact with each other they will tend to isotropise
+and then vy <u,. For strong shocks, the Rankine—Hugoniot conditions give x = 4 and the
+assumption vy, < U, leads to a value u = 2, whereas the observed value for cosmic rays is close
+to 2.5, also typical of the energetic electrons in radio sources. Equation (12) gives u = 2.5 if
+x =4 and vy, =v,/12 or, alternatively, if vu, =0 and the Alfvén Mach number is close to 4.
+Satellite observations of the Earth’s bow shock have shown that shocks can be more compli-
+cated than is assumed in applying the Rankine—Hugoniot relations, e.g. the ratio of specific
+heats in the upstream and downstream regions can be different (Shen 1971). The values of 9
+x actually measured are centred on 3 rather than 4 (Formisano 1974), and xy =3 implies é
+w= 2.5 with v, =0 and M, > 1. z
+It should be noted that yu is independent of v, if vu, <c. P
+3 The upstream Alfvén waves and their damping x
+=f
+=f
+3.1 GENERATION OF ALFVEN WAVES &
+Whenever energetic particles stream faster than the Alfvén speed, they generate Alfvén waves g
+with wavelengths close to the gyroradius of the particles. These waves grow in response to E
+a concentration gradient of particles (Skilling 1975c) and scatter the particles with a ‘colli- a
+sion frequency’ proportional to the wave intensity. The equations relating the growth of
+waves to the particle distribution (equation 15) and the development of the particle distribu- z
+tion under the influence of the waves (equation 13) are derived by Skilling (1975a, b and c), E
+and the reader is referred to these papers and that by Wentzel (1974) for a full discussion S
+of the subject. The equations are: é
+af af _ 2 *) 2
+=—tu— =—(D@&)—}. 13
+a ax ax PM ay (13)
+where is
+4 pv ”
+Dx) = - ———., (14)
+3m eB¥(x, P)
+p is the particle momentum,
+I(x,p) is the energy density of Alfvén waves per unit logarithmic bandwidth (which are
+resonant with particles of momentum p) relative to the ambient magnetic energy density
+(Um),
+B is the magnetic field upstream of the shock,
+f(x, p, t) is the particle distribution in phase space and includes both electrons and protons.
+It is a function spatially of x only, and in momentum space a function of the magnitude
+of the momentum,
+and
+OF OF
+— +uy— — o F+ TF =0, (15)
+ot ox
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+ey
+ma 152 A. R. Bell
+‘st’ where
+ey 4n vy Pv af
+B g=— (16)
+‘ei! 3 Uy ox
+<2 TP is the damping rate which is assumed to be negligible, an assumption examined in Section
+3.2. These equations can be solved in the time-independent case for relativistic particles
+subject to the following boundary conditions:
+(1) %>0 as x >—~©, which results from assuming that all the Alfvén waves in the
+system are generated by backstreaming of particles from the shock and none pre-existed in
+the undisturbed medium.
+(2) The particle distribution (0, p) at the shock is given by equation (9).
+(3) As x >—© the particle distribution tends to the background distribution f(p) in
+the undisturbed medium into which the shock is propagating. The solution is then
+iS]
+a b g
+f-h=——, #=—, Ce
+Xo-Xx Xo—Xx 2
+&
+where P
+i
+1 Uy 3
+a= —™ (18) 5
+T” eBprvy E
+4 pv 3
+b=——, 19 g
+3m eBu, (19) e
+and E
+1 Uy 1 *
+X0= eee ew (20) ‘a
+7? eB, p[ FO, P) — folv)] &
+8
+Xo gives the length scale and is inversely dependent on the particle concentration at the z
+shock. Substitution of a typical distribution for the galactic cosmic ray background, namely PA
+_ _ _ . . <
+P°fga(p) = 8-5 x 10 pS m’®, in place of p®[F(0, p) — fo(p)I, gives 3
+<
+n. \"27 FB \'S aan
+xo= 5X 10(",) (—) m, 8
+em? GeV 8
+where ng is the electron density in the pre-shocked gas and the magnetic field does not
+appear. However, particles are being accelerated and so the appropriate (0, p) will in fact be
+many times its background value. 7
+An example of an object in which shock waves are important and in which cosmic rays
+are probably being accelerated is the supernova remnant Cas A, and in this instance the
+density of cosmic ray particles exceeds that typical of the Galaxy as a whole by at least 104,
+making xo correspondingly smaller by the same factor. For particles with an energy of
+1GeV, Xo is smaller than the radius of Cas A by a factor of ~ 10°. x9 nevertheless increases
+with particle energy and this places a restriction on the energies to which particles can be
+accelerated.
+If # is anywhere greater than unity, the amplitude of the variations in the magnetic field
+which constitute the Alfvén waves exceeds the mean magnetic field and the equations do
+not apply. The maximum value of ¥ for waves resonant with particles of energy E occurs
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+ey
+ma Acceleration of cosmic rays in shock fronts — I 153
+is at the shock and the condition Fmax +1 is
+3! ¥(0,p) — 100u;\/ B\/ ne \"2/ By!
+ee MOP)“ fP) 1 1, 108 (—“*)(=_)(*5) (=) . Q1)
+Roh Sea(P) c 3uG/\cm GeV
+“ The particle density fga(p) is introduced only as a quantity with which to compare
+f(,p) — fo(p). For a shock front propagating into undisturbed interstellar gas, fo(p) =
+feai(P). In some astrophysical cases such as Cas A this condition may not be met, and the
+waves grow until ¥ reaches a value at which a damping mechanism becomes important. The
+confinement of particles is not impaired though, and their acceleration is not hindered.
+3.2 DAMPING OF THE UPSTREAM WAVES
+The solution obtained above assumed that damping is unimportant and I now consider the
+effect of two damping mechanisms which are believed to be important for Alfvén waves. 9
+The first of these is damping due to collisions between charged and neutral particles, and 2
+Kulsrud & Cesarsky (1971) have computed the damping rate, I’,,, for different temperatures. 2
+They give [,,=3.29x10°(my/cm™*)s™ at a temperature of 10°K, where ny is the &
+neutral hydrogen density. The values at 10? and 10*K are about two times smaller and larger g
+respectively. These damping rates may be compared with the growth rate of the Alfvén z
+waves =
+5
+100u1) (f(x, p) — ne \1?( E \?? g
+o(Xx, p) = 6.24 x 1079 (~“) (eae!) (—) sg} (22) &
+c Sea(P) cm GeV. &
+a
+which is derived from equations (13), (14) and (16). The damping is unimportant for z
+particle densities greater than that given by equating IT, and o(x,p) but, at a sufficient oe
+distance upstream of the shock, [f(x,p) —fo(p)] and hence the growth rate of the waves x
+becomes small, and consequently the damping term dominates. Particles which reach that &
+point are allowed to escape freely upstream. The acceleration of particles hence becomes less S
+efficient when [f(x,p) —fo(p)] at that point becomes comparable with (w,/c)[f(0, p) — a
+fo(p) |, ie. u,/c times its value at the shock front. The rate of escape of particles upstream &
+is then comparable with the rate of escape downstream. The critical energy above which this 2
+effect is important is a
+E. 100u,\4/ ne \3/ ny \?3/f0, p) — 2/3 re
+Bot 9 97 (—) (<5) (4) (Ap een (23) 8
+GeV c cm? cm? Sea(P)
+The spectral index given by equation (12) can be expected to hold up to this energy, above
+which the spectrum steepens. As mentioned above, f(0, p) is in fact many times the average
+galactic value, and the region into which shocks such as those in supernova remnants
+propagate is probably almost completely ionized, i.e. mq is small. Parameters which may be
+typical of a young supernova remnant are n,=1cm™>, ny =107cm®, [f(0, p) — fo(p)] =
+10* frai(p) and u, = ¢/30, in which case Erit = 3.5 x 10’ eV.
+A second important damping mechanism is the loss of energy to sound waves (Chin &
+Wentzel 1972; Skilling 1975b). This takes place only when the sound speed is less than the
+Alfvén speed, which requires that
+B\?/ ne \
+T < 3100 (— —,] K.
+3uG/) \cm™3,
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+re
+ma «154. A. R. Bell
+‘wt An upper limit to the effective damping rate introduced by the sound cascade can be
+ra obtained by assuming that the interaction of the Alfvén waves with the sound waves makes
+i the wave intensities of the Alfvén waves equal in each direction along the magnetic field.
+©, Equation (36) of Chin & Wentzel (1972) then gives the damping rate as
+_ E\"; B\2) n. \2?/ ag
+P,=7.41x 10*(—) (=) (“5;) (» ~*) st (24)
+GeV/ \3uG/ \cm™3 op
+I’, can exceed the growth rate o and so this damping mechanism can play an important
+role. I, is proportional to d¥/dp, and o is independent of ¥ for a given particle density.
+Consequently damping is dorninant at large wave intensities and growth at small intensities.
+Hence the effect of this damping is not to make the waves disappear completely, but to limit
+their wave intensity to the value
+\- 1 -2 -1/2 _ iw]
+I= 7.67 x w(Z ~) (~"\(S) (=) (AP Ae) )= he 7] (25) Z
+F dp c /\3uG/ \Gev fea(P) 2
+below which the damping rate is less than the growth rate. In cases where this damping is
+important, it extends the length scales in front of the shock, allowing the particles to travel 2
+further away from the shock before being overtaken by it. Because this damping mechanism 2
+does not remove the waves completely, it does not impair the efficiency of particle accelera- E
+tion. In extreme cases, however, damping via the sound cascade can reduce Exit, the energy é
+at which damping by neutral particles steepens the spectrum. g
+:
+4 Generalization to oblique shocks 2
+The general description of an oblique shock, one in which the direction of propagation is z
+neither parallel nor perpendicular to the magnetic field, involves an electric as well as a E
+magnetic field to enable the plasma to drift across the magnetic field lines. Hudson (1965) ¢
+has shown that oblique shocks can be transformed into an inertial frame in which the shock é
+front is stationary and there is no electric field either upstream or downstream. In this frame <
+all bulk plasma motions are along the magnetic field lines. The acceleration of particles is z
+considered in this frame and the resulting particle energy distribution must then be Lorentz- 2
+transformed to obtain the energy distribution in the original frame. The transformation back -
+to the original frame involves only a small correction to the energy distribution unless the 5
+transformation velocity is close to the velocity of light. The transformation velocity is the
+velocity at which the point of intersection of the shock with a field line moves along the
+field line in the original frame, and this is less than the velocity of light as long as the angle a
+between the normal to the shock and the magnetic field is less than cos”1(v,/c). If a is greater
+than this, the shock cannot be transformed into a suitable frame and the discussion below
+does not apply. In such a case, the particles are convected through the shock front with the
+magnetic field but cannot return from downstream and hence cannot be accelerated to high
+energies.
+The velocities of the waves along the field lines relative to the shock are w, and w
+upstream and downstream of the shock respectively (Fig. 2). Hudson analysed the motion of
+an energetic particle with a gyroradius much greater than the shock thickness, showing that
+it can cross the discontinuity many times in progressing from one side of the shock to the
+other. A particle which has passed clear of the shock into the downstream region is con-
+strained to move along a magnetic field line, and so the probability of it not returning is
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+ey
+rs Acceleration of cosmic rays in shock fronts — I 155
+ft
+St Shock front
+mr
+oH
+ig
+2
+ha W2
+Wy; —)
+a
+Upstream Downstream
+2 Ss
+Figure 2. An oblique shock viewed in the frame in which there is no electric field and the shock is é
+stationary. The plasma flow is along the magnetic field lines in both the upstream and downstream B
+regions. &
+g
+5
+=
+3
+4w2/c, from equation (3). The energy increase due to one crossing is g
+8
+1 + Via: (wi — Wa) e
+Ext = Ex (tan we (26) &
+1 + vk2- (wy — wo) 2
+and this gives a smaller increase than the comparable equation (equation (4)) for a parallel E
+shock because’ w, and w, are not parallel. However, since the particle will be gyrating about 2
+a field line, on each occasion that it returns from downstream its complete passage across 4
+the shock may consist of many individual crossings, each of which increases the energy. These e
+effects of the reduced energy increase, and the increased number of crossings on each zg
+occasion that the particle returns cancel out, and the same energy spectrum results as for the PA
+parallel shock. s
+The energy spectrum can be derived by considering the mean probability of return for s
+: : . <
+any particle which crosses from upstream to downstream, whether or not it reaches the stage 3
+of gyrating freely in the downstream region. Once again, the time-independent diffusion S|
+equation requires that the particle density at the shock is the same as that downstream, and “
+equation (5.7) of Hudson (1965) shows that the particle distribution at the shock is
+isotropic. Hence the rate at which particles are entering the downstream region through unit
+area of the shock is “nc, and the rate at which particles are escaping downstream is nw, :s,
+where s is the unit shock normal. The probability of return is therefore
+W2'S
+nea tes (27)
+c
+This probability is the properly weighted average for all the angles at which particles cross
+the shock front. Since a particle needs to make a large number of crossings to be accelerated
+significantly, the probability P, of a particle making at least / crossings is given by
+W2°S
+In P; =11n {1 —4 ——}. (28)
+c
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+ey
+ra 156 A. R. Bell
+ft
+is A combination of this and the expression for the energy gained in / crossings (deduced from
+ti! equation (26)), leads to a power law for the differential energy spectrum with a spectral
+'! index of
+Pio ys p+ tN (29)
+W2°S
+Since |w; — w2|=w,-s — w2-s and the compression, x, is (w:-s)/(w2-s) if the upstream
+and downstream waves are stationary, this reduces to equation (12). Hence the energy spec-
+trum for an oblique shock is the same as for a parallel shock. As remarked upon above, this
+argument does not apply to shocks which intersect the upstream magnetic field at velocities
+close to or greater than the velocity of light, ie. u,~ c cos a, where a is the angle between
+the magnetic field and the shock normal. If u,<c, then the range of a over which this
+mechanism does not apply is very small.
+9
+5 Conclusions a
+8
+This paper shows that particles which are already sufficiently energetic to see the shock g
+front as a discontinuity are accelerated by bouncing back and forth across the shock. The 2
+resulting energy spectrum is a power law with an index similar to that observed for cosmic Es
+rays. The highest energy to which particles are accelerated is limited either by damping of x
+the Alfvén waves, or by the scale length x9(«£"'5) being comparable or greater than the z
+radius of curvature of the shock front. This mechanism works for all shocks except those 3
+which propagate nearly normal to the magnetic field. It does, however, assume that there is g
+another mechanism by which particles are accelerated from thermal energies to the energy =
+necessary for the mechanism described above to take over. The manner of the injection of &
+particles at suitable energies, and possible applications of the acceleration mechanism, will a
+be discussed in a further paper. z
+2
+8
+S
+Acknowledgments z
+I am indebted to Dr P. A. G. Scheuer, Dr J. Skilling and Mr S. J. Schwartz for their valuable &
+help and guidance, and to Dr J. R. Shakeshaft for help with the manuscript. I acknowledge 8
+the support of a Science Research Council studentship. E
+3
+References a
+Boyd, T. J. M. &Sanderson, J. J., 1969. Plasma dynamics, Nelson.
+Chin, Y-C. & Wentzel, D. G., 1972. Astrophys. Space Sci., 16, 465.
+Fisk, L. R., 1971. J. geophys. Res., 76, 1662.
+Formisano, V., 1974. Correlated interplanetary and magnetospheric observations, ed. Page, D. E., Reidel,
+Dordrecht, Holland.
+Greenstadt, E. W., 1975. The magnetospheres of the Earth and Jupiter, ed. Formisano, V., Reidel,
+Dordrecht, Holland.
+Hudson, P. D., 1965. Mon. Not. R. astr. Soc., 131, 23.
+Jokipii, J. R., 1966. Astrophys. J., 143, 961.
+Kulsrud, R. M. & Cesarsky, C. J., 1971. Astrophys. Lett., 8, 189.
+Shen, W-W., 1971. J. geophys. Res., 76, 8181.
+Skilling, J., 1975a. Mon. Not. R. astr. Soc., 172, 557.
+Skilling, J., 1975b. Mon. Not. R. astr. Soc., 173, 245.
+Skilling, J., 1975c. Mon. Not. R. astr. Soc., 173, 255.
+Wentzel, D. G., 1974. A. Rev. Astr. Astrophys., 12,71.
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
