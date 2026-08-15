@@ -701,15 +701,15 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 | 行数门槛 | 773 ≥ 500 ✓ |
 | 相似度 | 01_introduction 12.0%——唯一 ≥25 字符块为 DOI 表格行（`10.1142/S0218271819300221`），与 #22/#21 同源的元数据表格误报，非搬运 ✓ |
 
-### 全库完整度扫描（35 篇）
+### 全库完整度扫描（38 篇）
 
-- ✅ 34 篇完整 + ✅ gabici 本篇 = **35/35 全部闭环**
+- ✅ 37 篇完整 + ✅ gabici 本篇 = **38/38 全部闭环**（01 域 6 / 02 域 15 / 03 域 17）
 - 7 篇"1 分章"（al-dargazelli/gaisser/biermann/anders-grevesse/grevesse-sauval/kewley/dieterich）为老库单章长文结构（如 al-dargazelli 01_analysis.md 566 行 + 97/98/99），非遗漏
 - 唯一的骨架（gabici）已由本会话补精读
 
 ### 里程碑
 
-**从 2026-08-13 的 21 篇老库 → 2026-08-15 的 35 篇全精读闭环**：批 A（Bell/BO/B&E）+ 批 B（Amato/Génolini）+ 批 C（Weinrich/Mewaldt）+ Hillas + Giuffrida + TA-2023 + Gabici = 14 篇新增精读全部落地。全部通过三件套/行数门槛/97/相似度（剥 FM）门禁。
+**从 2026-08-13 的 21 篇老库 → 2026-08-15 的 38 篇全精读闭环**：批 A（Bell/BO/B&E）+ 批 B（Amato/Génolini）+ 批 C（Weinrich/Mewaldt）+ Hillas + Giuffrida + TA-2023 + Gabici = 14 篇新增精读全部落地。全部通过三件套/行数门槛/97/相似度（剥 FM）门禁。
 
 ### 方法论沉淀（#21-#23 三轮共 5 个误报案例）
 
