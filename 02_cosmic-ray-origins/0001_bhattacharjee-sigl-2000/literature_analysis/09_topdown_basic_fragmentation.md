@@ -272,9 +272,9 @@ subsections: ["6.1.1", "6.1.2", "6.1.3", "6.2.1", "6.2.2", "6.2.3", "6.3.1", "6.
 key_formulas:
   - "x dN_h/dx = K(Y) · x dN_part/dx (Eq. 58, LPHD)"
   - "dN_h/dE ∝ E^{-1.3}–E^{-1.5} (Eq. 61,62, Hill)"
-  - "Φ_N = ṅ_X (N_q f_N/Ñ) (m_X/x²) (dN_h/dx) (Eq. 63)"
-  - "ṅ_X,0 ∝ (m_X/10¹⁶ GeV)^{1-α} cm⁻³s⁻¹ (Eq. 68)"
-  - "TD mass scale: η, η², η³ (monopole, string, domain wall)"
+  - "Φ_N = ṅ_X (N_q f_N/Ñ) (m_X/x$^{2}$) (dN_h/dx) (Eq. 63)"
+  - "ṅ_X,0 ∝ (m_X/10$^{16}$ GeV)^{1-α} cm$^{-3}$s$^{-1}$ (Eq. 68)"
+  - "TD mass scale: η, $\eta^{2}$, $\eta^{3}$ (monopole, string, domain wall)"
 keywords:
   - top-down scenario
   - Local Parton-Hadron Duality

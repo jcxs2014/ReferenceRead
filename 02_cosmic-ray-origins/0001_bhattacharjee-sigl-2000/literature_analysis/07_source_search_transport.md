@@ -194,8 +194,8 @@ pages: "31–40"
 subsections: ["4.7.1", "4.7.2", "4.8.1", "4.8.2", "4.8.3"]
 key_formulas:
   - "∂_t n(r,E) = -∂_E[b(E)n] + ∇·[D ∇n] + Φ (Eq. 36)"
-  - "B ≲ 2×10⁻¹¹ (l_c/Mpc)⁻¹/² (d/30 Mpc)⁻¹ G (Eq. 38)"
-  - "c²k² ≃ E² + χ E³/E₀ (Eq. 41)"
+  - "B ≲ 2×10$^{-11}$ (l_c/Mpc)$^{-1}$/$^{2}$ (d/30 Mpc)$^{-1}$ G (Eq. 38)"
+  - "c$^{2}$k$^{2}$ ≃ E$^{2}$ + χ E$^{3}$/E$_{0}$ (Eq. 41)"
 keywords:
   - CEL approximation
   - angle-time-energy image

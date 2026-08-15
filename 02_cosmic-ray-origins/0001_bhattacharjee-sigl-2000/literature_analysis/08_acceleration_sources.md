@@ -232,10 +232,10 @@ chapter: 8
 pages: "40–48"
 subsections: ["5.1.1", "5.1.2", "5.2.1", "5.2.2", "5.2.3", "5.2.4", "5.2.5", "5.3.1", "5.3.2", "5.3.3", "5.3.4", "5.3.5"]
 key_formulas:
-  - "E_c ~ 10¹⁷ Z (R/kpc)(B/μG) eV (Eq. 49)"
-  - "E_max ~ 10¹⁸ Z u₁ (R/kpc)(B/μG) eV (Eq. 50)"
-  - "(B/μG)(R/kpc) > 2 (E/10¹⁸ eV)/(Zβ) (Eq. 51, Hillas)"
-  - "B_GRB ≳ 10⁻¹⁰ (E/10²⁰ eV)(d/30 Mpc)⁻¹(l_c/Mpc)⁻¹/² G (Eq. 52)"
+  - "E_c ~ 10$^{17}$ Z (R/kpc)(B/μG) eV (Eq. 49)"
+  - "E_max ~ 10$^{18}$ Z u$_{1}$ (R/kpc)(B/μG) eV (Eq. 50)"
+  - "(B/μG)(R/kpc) > 2 (E/10$^{18}$ eV)/(Zβ) (Eq. 51, Hillas)"
+  - "B_GRB ≳ 10$^{-10}$ (E/10$^{20}$ eV)(d/30 Mpc)$^{-1}$(l_c/Mpc)$^{-1}$/$^{2}$ G (Eq. 52)"
 keywords:
   - diffusive shock acceleration
   - Hillas criterion
