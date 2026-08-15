@@ -13,7 +13,7 @@
 - [FACT] 稀土元素（La–Lu）的实验室 gf、超精细分裂、同位素位移由 **Wisconsin group**（Lawler et al.）系统、严谨测量：
   - La (Lawler, Bonvallet & Sneden 2001), Ce (Lawler et al. 2009), Pr, Nd, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu (Sneden et al. 2009)
   - Hf (Lawler et al. 2007)
-- [FACT] Wisconsin 分析使用 1D HM + LTE，因稀土线来自一次电离态（主要）；但低激发能级（χ_exc ≤ 1.5 eV）仍对温度（即模型）敏感。
+- [FACT] Wisconsin 分析使用 1D HM + LTE，因稀土线来自一次电离态（主要）；但低激发能级（$\chi$_exc ≤ 1.5 eV）仍对温度（即模型）敏感。
 - [FACT] 推荐值 = Wisconsin 原始值 + (3D − HM) 修正，约 **−0.04 dex**（用同一谱线形成代码和输入数据）。
 - [FACT] **Eu II** 已加入 Mashonkina & Gehren (2000) 的 1D non-LTE 修正；其它稀土无 non-LTE 研究。
 
@@ -49,10 +49,10 @@ Grevesse et al. (2009) 完整 3D 重测（本文采用）：**Cu, Zn, Ga, Ge, Rb
 
 ## 5.2 §3.8 Abundances from Sunspots: F, Cl, In, Tl
 
-- [FACT] F：HF 红外黑子线（Hall & Noyes 1969）→ log ε_F = **4.56 ± 0.30**（陨石 4.42 ± 0.06）。
+- [FACT] F：HF 红外黑子线（Hall & Noyes 1969）→ log $\epsilon$_F = **4.56 ± 0.30**（陨石 4.42 ± 0.06）。
 - [FACT] Cl：HCl 红外黑子线（Hall & Noyes 1972）→ **5.50 ± 0.30**（陨石 5.23 ± 0.06）。
 - [FACT] Lambert, Mallia & Smith (1972) 给出 Tl。
-- [FACT] Vitas et al. (2008) 用黑子谱重新测 In，得 log ε_In = **0.80 ± 0.20**，与陨石 0.76 ± 0.03 一致。
+- [FACT] Vitas et al. (2008) 用黑子谱重新测 In，得 log $\epsilon$_In = **0.80 ± 0.20**，与陨石 0.76 ± 0.03 一致。
 - [CRITIQUE] 自原始研究以来分子数据、观测质量、黑子模型均大幅改进，但**本文未重做**这些分析。
 
 ## 5.3 §3.9 Indirect Determinations: Noble Gases
@@ -61,21 +61,21 @@ Grevesse et al. (2009) 完整 3D 重测（本文采用）：**Cu, Zn, Ga, Ge, Rb
 
 ### 5.3.1 Helium
 
-- [FACT] **日震学 Γ₁ 反转**（Γ₁ 在 He II 电离区 r/R⊙ ≈ 0.98 处的跳变）。
+- [FACT] **日震学 $\Gamma$₁ 反转**（$\Gamma$₁ 在 He II 电离区 r/R⊙ ≈ 0.98 处的跳变）。
 - [FACT] 结果对参考模型不敏感，但对**物态方程（EOS）**敏感。
-- [FACT] Basu & Antia (2004)：Y_s = **0.2485 ± 0.0034**（对流层 He 质量分数） → log ε_He = **10.93 ± 0.01**。
+- [FACT] Basu & Antia (2004)：Y_s = **0.2485 ± 0.0034**（对流层 He 质量分数） → log $\epsilon$_He = **10.93 ± 0.01**。
 - [FACT] 不确定度基本反映 MHD (Mihalas, Dappen & Hummer 1988) 与 OPAL (Rogers & Nayfonov 2002) EOS 差异。
 - [FACT] 用 AGS05 化学组成校准的 SSM 会给出比日震低 0.02 dex 的表面 He。
 
 ### 5.3.2 Neon
 
 - [FACT] 从日冕 / 太阳耀斑的 X/UV 光谱 + 太阳风直接测；但受**第一电离势效应 (FIP effect)** 困扰：
-  - χ_ion < 10 eV 的元素在上层大气中增强
-  - χ_ion > 10 eV 的元素不变或略变
+  - $\chi$_ion < 10 eV 的元素在上层大气中增强
+  - $\chi$_ion > 10 eV 的元素不变或略变
 - [FACT] 采用 **Ne/O 比值**（O 作参考），Young (2005b) 安静太阳 **Ne/O = 0.175 ± 0.031**；Young (2005a) 证明安静太阳**无 FIP effect** → 直接作为光球比值。
 - [FACT] 与 Schmelz et al. (2005) 活动区 0.175 ± 0.074、Bochsler (2007) 太阳风 0.14 ± 0.03 一致。
 - [FACT] 太阳高能粒子 0.152 ± 0.006（Reames 1999），但可能受 FIP 影响。
-- [FACT] 结合推荐 O → log ε_Ne = **7.93 ± 0.09**。
+- [FACT] 结合推荐 O → log $\epsilon$_Ne = **7.93 ± 0.09**。
 - [FACT] **Drake & Testa (2005)** 提出 Ne/O = 0.41（近邻恒星日冕 X 射线），若成立则 Ne 是日震问题关键解；但：
   - [CRITIQUE] 他们的样本偏向活动星，活动星有 **inverse FIP effect**（Güdel 2004）；Robrade, Schmitt & Favata (2008) 显示 Ne/O 随活动水平有系统趋势 → 高 Ne/O 是 fractionation 假象。
   - OB 星的独立检验（Przybilla, Nieva & Butler 2008）得 Ne/O = 0.20 ± 0.03 与本文 Ne 一致。
@@ -84,19 +84,19 @@ Grevesse et al. (2009) 完整 3D 重测（本文采用）：**Cu, Zn, Ga, Ge, Rb
 
 - [FACT] 综合方法：太阳风、耀斑、高能粒子、核统计平衡（S, Ca）、木星、近邻 B 星、行星状星云、H II 区。
 - [FACT] 本文采用 Lodders (2008) 的**算术平均**（因各方法误差仅含离散，低估真实不确定度）。
-- [FACT] log ε_Ar = **6.40 ± 0.13**（比 Lodders 2008 低 0.1 dex，比 AGS05 高 0.2 dex）。
+- [FACT] log $\epsilon$_Ar = **6.40 ± 0.13**（比 Lodders 2008 低 0.1 dex，比 AGS05 高 0.2 dex）。
 
 ### 5.3.4 Krypton
 
 - [FACT] 用理论 **s 过程产生率插值**（相邻纯 s 同位素截面已实验测准，Palme & Beer 1993），用新 Si 丰度作归一。
 - [FACT] 与太阳风 Kr/O + 光球 O 一致（Geiss et al. 1994；Heber et al. 2008b）。
-- [FACT] log ε_Kr = **[3.25 ± 0.06]**。
+- [FACT] log $\epsilon$_Kr = **[3.25 ± 0.06]**。
 
 ### 5.3.5 Xenon
 
 - [FACT] 方法同 Kr（Käppeler 2005）。
-- [FACT] s 过程估计值比月球土壤 + Genesis 探针测得的**太阳风 Xe 低 0.4 dex** → 可能 **Xe 也受 FIP effect 影响**（尽管 χ_ion = 12.1 eV 较高）。
-- [FACT] log ε_Xe = **[2.24 ± 0.06]**。
+- [FACT] s 过程估计值比月球土壤 + Genesis 探针测得的**太阳风 Xe 低 0.4 dex** → 可能 **Xe 也受 FIP effect 影响**（尽管 $\chi$_ion = 12.1 eV 较高）。
+- [FACT] log $\epsilon$_Xe = **[2.24 ± 0.06]**。
 
 ## 5.4 §3.10 Solar Isotopic Abundances
 
@@ -106,9 +106,9 @@ Grevesse et al. (2009) 完整 3D 重测（本文采用）：**Cu, Zn, Ga, Ge, Rb
   - Lellouch et al. (2001)：ISO 木星谱 → D/H = (2.1 ± 0.4) × $10^{-5}$
   - He³/He⁴ 富集 + Genesis 太阳风 He³/He⁴ = (4.53 ± 0.03) × $10^{-4}$ → D/H = (1.96 ± 0.3) × $10^{-5}$
   - **本文推荐：D/H = (2.0 ± 0.2) × $10^{-5}$**
-- [FACT] **¹²C/¹³C**：太阳 86.8 ± 3.8（Scott 2006）与地球 V-PDB 值 89.4 ± 0.2 一致。
-- [FACT] **¹⁴N/¹⁵N**：太阳系内变化 100–450；采用木星值 435 ± 57 代表原太阳。
-- [FACT] **¹⁶O/¹⁸O**：采用地球 VSMOW 值 498.7 ± 0.1；太阳 479 ± 29 与之一致（误差较大）。
+- [FACT] **$^{12}{\rm C}$/$^{13}{\rm C}$**：太阳 86.8 ± 3.8（Scott 2006）与地球 V-PDB 值 89.4 ± 0.2 一致。
+- [FACT] **$^{14}{\rm N}$/$^{15}{\rm N}$**：太阳系内变化 100–450；采用木星值 435 ± 57 代表原太阳。
+- [FACT] **$^{16}{\rm O}$/$^{18}{\rm O}$**：采用地球 VSMOW 值 498.7 ± 0.1；太阳 479 ± 29 与之一致（误差较大）。
 - [FACT] Ne, Ar, Kr, Xe 同位素：采用 Wieler (2002)（太阳风 + 月球样），Genesis 初步结果相似。
 - [FACT] Mo, Dy, Er, Yb, Lu 更新为 Lodders, Palme & Gail (2009)。
 

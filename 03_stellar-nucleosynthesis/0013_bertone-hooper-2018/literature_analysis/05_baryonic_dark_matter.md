@@ -67,16 +67,16 @@ $$t \sim 130\,{\rm d}\times (M/M_\odot)^{0.5}$$
 | 1920 | Eddington 提出 H→He 聚变可能是恒星能源 |
 | 1939 | Bethe 描述 pp 链与 CNO 循环 |
 | 1946, 1954 | Hoyle 计算大质量恒星合成铁与重元素 |
-| 1946, 1948 | Gamow；Alpher-Bethe-Gamow ("α-β-γ" 论文) —— 原初中子捕获 |
+| 1946, 1948 | Gamow；Alpher-Bethe-Gamow ("$\alpha$-$\beta$-$\gamma$" 论文) —— 原初中子捕获 |
 | 1953 | Alpher-Follin-Herman 正确预测 He，指出重元素无法由此生成 |
-| 1957 | Burbidge-Burbidge-Fowler-Hoyle (B²FH) 经典综述 —— 恒星核合成主导 |
+| 1957 | Burbidge-Burbidge-Fowler-Hoyle (B$^2$FH) 经典综述 —— 恒星核合成主导 |
 | 1965 | CMB 发现（Penzias-Wilson）推动 BBN 精确化 |
 | 1967 | Wagoner-Fowler-Hoyle：原初 He ~26-28% |
-| 1973 | Reeves-Audouze-Fowler-Schramm 首次用观测轻元素丰度给出 Ω_b ≲ 0.1 Ω_crit |
+| 1973 | Reeves-Audouze-Fowler-Schramm 首次用观测轻元素丰度给出 $\Omega$_b ≲ 0.1 $\Omega$_crit |
 | 1998 | Burles-Tytler 高精度原初氘丰度测量 |
-| 2001 | Burles-Nollett-Turner：Ω_b h² = **0.020 ± 0.002**（95% CL） |
-| 2013 | WMAP 9 年：Ω_b h² = **0.02264 ± 0.00050**（68% CL） |
-| 2015 | Planck：Ω_b h² = **0.02225 ± 0.00016**（<1% 精度） |
+| 2001 | Burles-Nollett-Turner：$\Omega$_b h² = **0.020 ± 0.002**（95% CL） |
+| 2013 | WMAP 9 年：$\Omega$_b h² = **0.02264 ± 0.00050**（68% CL） |
+| 2015 | Planck：$\Omega$_b h² = **0.02225 ± 0.00016**（<1% 精度） |
 
 - [FACT] 重子物质仅占宇宙物质的 **< 20%**。
 - [FACT] CMB 重子密度从**奇数 / 偶数峰高度比**得到。
@@ -87,7 +87,7 @@ $$t \sim 130\,{\rm d}\times (M/M_\odot)^{0.5}$$
 - [FACT] 特征质量：
 $$M_{\rm horizon} \sim 10^{15}\,{\rm kg}\times (10^7\,{\rm GeV}/T)^2$$
 （T 为形成时宇宙温度）
-- [FACT] 结合 Hawking 辐射 γ 射线约束 + 微透镜 null results，可接受质量范围 **$10^{14}$ – $10^{23}$ kg**。
+- [FACT] 结合 Hawking 辐射 $\gamma$ 射线约束 + 微透镜 null results，可接受质量范围 **$10^{14}$ – $10^{23}$ kg**。
 - [FACT] 主要问题：**尺度不变谱**下形成率可忽略；需要大量非高斯涨落或特殊功率谱特征。
 - [FACT] 2016 后 LIGO 双黑洞合并 + 2019-2020 Microlensing (HSC) 数据进一步约束此窗口。
 

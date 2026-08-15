@@ -62,12 +62,12 @@ $$v^4 = G\,M\,a_0$$
 - [FACT] 能解释**多数旋涡与椭球星系**运动。
 - [FACT] 预见**低面亮度星系**动力学并后续被验证（Casertano-van Gorkom 1991；McGaugh-de Blok 1998）。
 - [FACT] 今天**数百旋涡星系**自转曲线与 MOND 一致（Begeman-Broeils-Sanders 1991；Sanders 1996；Milgrom-Sanders 2005, 2007）。
-- [FACT] **Tully-Fisher 关系** L ∝ V_rot^α，α ≈ 4；MOND 若假设共同 M/L，**精确**预测 α = 4（McGaugh et al. 2000）。
+- [FACT] **Tully-Fisher 关系** L ∝ V_rot^$\alpha$，$\alpha$ ≈ 4；MOND 若假设共同 M/L，**精确**预测 $\alpha$ = 4（McGaugh et al. 2000）。
 
 ### 6.4.2 MOND 在星系团尺度失败
 
 - [FACT] 星系团处仍需大量暗物质；MOND 只**减少**但**不消除**质量缺失。
-- [FACT] Sanders 2003, 2007；Angus et al. 2007 建议若**中微子质量 ~1-2 eV**（接近 β 衰变上限），可作为星系团剩余质量。
+- [FACT] Sanders 2003, 2007；Angus et al. 2007 建议若**中微子质量 ~1-2 eV**（接近 $\beta$ 衰变上限），可作为星系团剩余质量。
 - [FACT] 大质量中微子也缓解 CMB 观测与 TeVeS 预测差异（Skordis et al. 2006）。
 
 ### 6.4.3 Bullet Cluster (1E 0657-558) — 决定性事件
@@ -90,12 +90,12 @@ $$v^4 = G\,M\,a_0$$
 | 量 | 值 | 说明 |
 |----|-----|------|
 | $a_{0}$ | 1.2 × $10^{-10}$ m/s² | MOND 临界加速度 |
-| α (Tully-Fisher) | ≈ 4（观测）；4（MOND 精确预测） | 旋涡星系关系 |
+| $\alpha$ (Tully-Fisher) | ≈ 4（观测）；4（MOND 精确预测） | 旋涡星系关系 |
 | TeVeS 自由度 | 3 参数 + 1 函数 | Bekenstein 2004 |
-| 大质量中微子 m_ν | ~1-2 eV | 缓解星系团问题 |
+| 大质量中微子 m_$\nu$ | ~1-2 eV | 缓解星系团问题 |
 | Bullet Cluster | 1E 0657-558；bar = 200 kpc；Chandra 500s | Clowe et al. 2006 |
 
 ## 6.6 [CRITIQUE]
 
-- [CRITIQUE] MOND 的一个**深度问题**是其 $a_{0}$ 在量级上近似 g ≈ $cH_{0/2}$π —— 这是与**宇宙学常数**（Λ ≈ $10^{-122}$）同量级的**巧合常数**，暗示 MOND 可能与暗能量有深层联系，但目前未建立严格理论。
+- [CRITIQUE] MOND 的一个**深度问题**是其 $a_{0}$ 在量级上近似 g ≈ $cH_{0/2}$$\pi$ —— 这是与**宇宙学常数**（$\Lambda$ ≈ $10^{-122}$）同量级的**巧合常数**，暗示 MOND 可能与暗能量有深层联系，但目前未建立严格理论。
 - [CRITIQUE] Bullet cluster 虽强有力，但 TeVeS 通过引入矢量场（其能量动量类似 CDM）仍可在**形式上**重现。因此"决定性证明"一词略显夸张——作者承认"难以调和"而非"完全排除"。

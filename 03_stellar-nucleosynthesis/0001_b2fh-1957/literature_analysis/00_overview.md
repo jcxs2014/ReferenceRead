@@ -30,7 +30,7 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]]'
 path: 03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md
 ---
-> 本章属于：Burbidge, Burbidge, Fowler, Hoyle (1957) — *Synthesis of the Elements in Stars* (B²FH)
+> 本章属于：Burbidge, Burbidge, Fowler, Hoyle (1957) — *Synthesis of the Elements in Stars* (B$^2$FH)
 >
 > 下一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/01_introduction.md|01_introduction.md]]
 
@@ -49,7 +49,7 @@ path: 03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.
 | **DOI** | 10.1103/RevModPhys.29.547（本 PDF 未直接给出 DOI，由引文推断） |
 | **arXiv** | 未提供（1957 年出版，早于 arXiv） |
 | **Research Field** | 恒星核合成 / 核天体物理 / 宇宙化学 |
-| **Keywords** | 核合成、r 过程、s 过程、p 过程、α 过程、ε 过程、Big Bang 核合成、超新星、中子俘获、元素丰度、恒星演化、技术锝（Tc⁹⁹）、超重元素 |
+| **Keywords** | 核合成、r 过程、s 过程、p 过程、$\alpha$ 过程、$\epsilon$ 过程、Big Bang 核合成、超新星、中子俘获、元素丰度、恒星演化、技术锝（Tc⁹⁹）、超重元素 |
 | **Funding** | Joint program of the Office of Naval Research and the U.S. Atomic Energy Commission（页脚注） |
 
 **题记引文（作者开篇即立基调）**：[FACT]
@@ -58,7 +58,7 @@ path: 03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.
 
 ## 0.2 一句话论文陈述
 
-[FACT] 本文提出：**宇宙中所有比氦重的元素，都是在恒星内部或恒星爆炸（特别是超新星）过程中，通过一套相互关联的核反应过程（pp 链/CN 循环、³He 燃烧、α 过程、ε 平衡过程、s 过程、r 过程、p 过程、x 过程）从原始氢逐步"合成"出来的**，并系统解释了观测到的元素/同位素丰度曲线的全部精细结构（铁峰、A=80/130/194 双峰、N=50/82/126 幻数峰、质子富集核的缺失等）。
+[FACT] 本文提出：**宇宙中所有比氦重的元素，都是在恒星内部或恒星爆炸（特别是超新星）过程中，通过一套相互关联的核反应过程（pp 链/CN 循环、$^{3}{\rm He}$ 燃烧、$\alpha$ 过程、$\epsilon$ 平衡过程、s 过程、r 过程、p 过程、x 过程）从原始氢逐步"合成"出来的**，并系统解释了观测到的元素/同位素丰度曲线的全部精细结构（铁峰、A=80/130/194 双峰、N=50/82/126 幻数峰、质子富集核的缺失等）。
 
 ## 0.3 科学问题（论文要回答的问题）
 
@@ -79,21 +79,21 @@ II.  Physical Processes Involved in Stellar Synthesis, Their Place of Occurrence
     B. Method of Assignment of Isotopes among Processes (i)–(viii)
     C. Abundances and Synthesis Assignments Given in the Appendix
     D. Time-Scales for Different Modes of Synthesis
-III. Hydrogen Burning, Helium Burning, the α Process, and Neutron Production (P13–P31)
+III. Hydrogen Burning, Helium Burning, the $\alpha$ Process, and Neutron Production (P13–P31)
     A. Cross-Section Factor and Reaction Rates
     B. Pure Hydrogen Burning (pp 链、CN 循环、CNO 循环)
-    C. Pure Helium Burning (3α→¹²C；⁴He 链至 ²⁰Ne、²⁴Mg)
-    D. The α Process (²⁰Ne 起始的 α 逐次加积至 ⁴⁰Ca/⁴⁴Ca/⁴⁸Ti)
+    C. Pure Helium Burning (3$\alpha$→$^{12}{\rm C}$；$^{4}{\rm He}$ 链至 $^{20}{\rm Ne}$、$^{24}{\rm Mg}$)
+    D. The $\alpha$ Process ($^{20}{\rm Ne}$ 起始的 $\alpha$ 逐次加积至 $^{40}{\rm Ca}$/$^{44}{\rm Ca}$/$^{48}{\rm Ti}$)
     E. Succession of Nuclear Fuels in an Evolving Star
-    F. Burning of Hydrogen and Helium with Mixtures of Other Elements; Stellar Neutron Sources (¹²C(n,α)⁹Be, ²⁰Ne(α,n)²⁴Mg)
-IV.  The ε (equilibrium) Process (P31–P36)
-    极高 T、ρ 下的铁族元素合成；N/Z 平衡与自由中子/质子费米分布；Tuttle 计算
+    F. Burning of Hydrogen and Helium with Mixtures of Other Elements; Stellar Neutron Sources ($^{12}{\rm C}$(n,$\alpha$)$^{9}{\rm Be}$, $^{20}{\rm Ne}$($\alpha$,n)$^{24}{\rm Mg}$)
+IV.  The $\epsilon$ (equilibrium) Process (P31–P36)
+    极高 T、$\rho$ 下的铁族元素合成；N/Z 平衡与自由中子/质子费米分布；Tuttle 计算
 V.   s and r Processes: General Considerations (P36–P42)
     A. "Shielded" and "Shielding" Isobars and the s, r, p Processes
     B. Neutron-Capture Cross Sections（1 barn = 24¢/mol 规则等）
     C. General Dynamics of the s and r Processes
 VI.  Details of the s Process (P42–P48)
-    Steady-flow 概念、σN 常数关系、双时间标度、幻数峰
+    Steady-flow 概念、$\sigma$N 常数关系、双时间标度、幻数峰
 VII. Details of the r Process (P48–P59)
     A. Path of the r Process
     B. Calculation of the r-Process Abundances
@@ -105,7 +105,7 @@ VIII. Extension and Termination of the r Process and s Process (P59–P65)
     C. Age of the Elements and of the Galaxy（U²³⁵/U²³⁸ 双衰变）
     D. Termination of the s Process; the Abundances of Lead, Bismuth, Thorium, Uranium
 IX.  p Process (P65–P74)
-    (p,γ) 与 (γ,n) 光致蜕变；质子富集核（p-nuclei）
+    (p,$\gamma$) 与 ($\gamma$,n) 光致蜕变；质子富集核（p-nuclei）
 X.   X Processes — Deuterium, Lithium, Beryllium, Boron (P74–P75)
     A. Observational Evidence
     B. Nuclear Reactions that Destroy D,Li,Be,B
@@ -113,9 +113,9 @@ X.   X Processes — Deuterium, Lithium, Beryllium, Boron (P74–P75)
     D. Preservation of Lithium in Stars
 XI.  Variations in Chemical Composition among Stars, and Their Bearing on the Various Synthesizing Processes (P75–P85)
     A. H Burning 和 He Burning 的星内差异
-    B. α Process
+    B. $\alpha$ Process
     C. 铁峰合成
-    D–G. s/r/p/α 过程在各型恒星中的体现（S 型星、碳星、Population II、peculiar A stars 等）
+    D–G. s/r/p/$\alpha$ 过程在各型恒星中的体现（S 型星、碳星、Population II、peculiar A stars 等）
     H. Nuclear Reactions and Element Synthesis in Surfaces of Stars
 XII. General Astrophysics (P85–P95)
     A. Ejection of Material from Stars and the Enrichment of the Galaxy in Heavy Elements
@@ -134,22 +134,22 @@ XIII. Conclusion (P95)
 | 编号 | 过程 | 物理机制 | 产物范围 | 时间标度 | 关键场所 |
 |---|---|---|---|---|---|
 | (i) | Hydrogen Burning | pp 链 & CN 循环 | He⁴、C/N/O/F/Ne/Na 部分同位素 | $10^{7}$–$10^{10}$ yr | 主序星内部 |
-| (ii) | Helium Burning | 3α 与 α 逐次俘获 | ¹²C、¹⁶O、²⁰Ne、²⁴Mg | $10^{7}$–$10^{8}$ yr | 红巨星核心（T~$10^{8}$ K，ρ~$10^{5}$ g/cm³） |
-| (iii) | α (alpha) Process | Ne²⁰ 起逐次 α 俘获 | ²⁴Mg、²⁸Si、³²S、³⁶Ar、⁴⁰Ca、⁴⁴Ca、⁴⁸Ti | $10^{6}$–$10^{7}$ yr | 演化后期收缩相 |
-| (iv) | ε (epsilon) Process | 极高 T、ρ 下的统计平衡 | 铁族（V,Cr,Mn,Fe,Co,Ni，A≈50–62） | 秒或分钟 | 超新星爆发前 |
-| (v) | s Process（slow） | (n,γ)，每步间 β 衰变慢于中子俘获 | 23≲A≲46（大部分）；63≲A≲209（相当比例） | $10^{3}$–$10^{8}$ yr | 红巨星内部（伴随 Tc⁹⁹） |
-| (vi) | r Process（rapid） | (n,γ)，中子俘获极快；β 衰变时标 0.01–1 s | 70≲A≲209（大量）；U、Th；可能含轻元素如 ⁴⁴Ca | 10–100 s | 超新星爆发 |
-| (vii) | p Process | (p,γ) 或 (γ,n) 光致蜕变 | 质子富集核（低丰度） | 分钟级 | 超新星 II 型外抛壳 |
+| (ii) | Helium Burning | 3$\alpha$ 与 $\alpha$ 逐次俘获 | $^{12}{\rm C}$、$^{16}{\rm O}$、$^{20}{\rm Ne}$、$^{24}{\rm Mg}$ | $10^{7}$–$10^{8}$ yr | 红巨星核心（T~$10^{8}$ K，$\rho$~$10^{5}$ g/cm³） |
+| (iii) | $\alpha$ (alpha) Process | Ne²⁰ 起逐次 $\alpha$ 俘获 | $^{24}{\rm Mg}$、$^{28}{\rm Si}$、$^{32}{\rm S}$、$^{36}{\rm Ar}$、$^{40}{\rm Ca}$、$^{44}{\rm Ca}$、$^{48}{\rm Ti}$ | $10^{6}$–$10^{7}$ yr | 演化后期收缩相 |
+| (iv) | $\epsilon$ (epsilon) Process | 极高 T、$\rho$ 下的统计平衡 | 铁族（V,Cr,Mn,Fe,Co,Ni，A≈50–62） | 秒或分钟 | 超新星爆发前 |
+| (v) | s Process（slow） | (n,$\gamma$)，每步间 $\beta$ 衰变慢于中子俘获 | 23≲A≲46（大部分）；63≲A≲209（相当比例） | $10^{3}$–$10^{8}$ yr | 红巨星内部（伴随 Tc⁹⁹） |
+| (vi) | r Process（rapid） | (n,$\gamma$)，中子俘获极快；$\beta$ 衰变时标 0.01–1 s | 70≲A≲209（大量）；U、Th；可能含轻元素如 $^{44}{\rm Ca}$ | 10–100 s | 超新星爆发 |
+| (vii) | p Process | (p,$\gamma$) 或 ($\gamma$,n) 光致蜕变 | 质子富集核（低丰度） | 分钟级 | 超新星 II 型外抛壳 |
 | (viii) | x Process | 多种可能 | D、Li、Be、B | 秒–$10^{9}$ yr | 低 T、低密度区（恒星大气、宇宙线） |
 
-**辅助过程**：自由中子源（¹²C(n,α)⁹Be 及 ²⁰Ne(α,n)²⁴Mg）——Cameron (1954/55) 与 Greenstein (1954) 首先提出，Marion & Fowler 给出速率。
+**辅助过程**：自由中子源（$^{12}{\rm C}$(n,$\alpha$)$^{9}{\rm Be}$ 及 $^{20}{\rm Ne}$($\alpha$,n)$^{24}{\rm Mg}$）——Cameron (1954/55) 与 Greenstein (1954) 首先提出，Marion & Fowler 给出速率。
 
 ## 0.6 关键观测约束 [FACT]
 
 1. Suess & Urey (1956) 元素丰度表（论文主要数据源）。
 2. Russell (1929) 太阳丰度；Goldberg, Aller, Müller (1957) 最新太阳值。
 3. **S 型星（Merrill, 1952）中的技术锝 Tc⁹⁹**——半衰期 2×$10^{6}$ yr 的短寿命核素在恒星大气中被观测到，直接证明恒星内部正在进行的慢中子俘获过程。
-4. 超新星中 ⁵⁶Ni/⁵⁶Co 衰变链——超新星爆发内快速中子俘获的证据。
+4. 超新星中 $^{56}{\rm Ni}$/$^{56}{\rm Co}$ 衰变链——超新星爆发内快速中子俘获的证据。
 5. Population I vs II 恒星的重元素丰度差异。
 6. 蟹状星云超新星遗迹中 Cf²⁵⁴ 自发裂变的推断（Burbidge, 1956）。
 
@@ -180,11 +180,11 @@ XIII. Conclusion (P95)
 | 附表 | 元素/同位素分组丰度表、各过程分配表（P7–P8） |
 | 附表 DI.1 | 铁峰平衡丰度对比表 |
 | 附表 III.1/III.2 | pp 链与 CN 循环能量释放/时标 |
-| 附表 III.4 | α 过程产物相对丰度 |
+| 附表 III.4 | $\alpha$ 过程产物相对丰度 |
 | 附表 VIII.1 | 放射性衰变能表 |
 | 附表 VIII.3 | 天然放射性系列母体生成 |
 | 附表 XI.3/XI.5 | s 过程恒星异常比表、peculiar A 星表 |
-| 附录 | 每个同位素的 σ(n,γ)、t_β、过程归属（P96–P102，共 1200+ 核素） |
+| 附录 | 每个同位素的 $\sigma$(n,$\gamma$)、t_$\beta$、过程归属（P96–P102，共 1200+ 核素） |
 
 ## 0.8 分析框架声明
 
@@ -201,10 +201,10 @@ XIII. Conclusion (P95)
 
 ### 关联论文
 
-- [`0002_trimble-1975`](../../0002_trimble-1975/literature_analysis/00_overview.md) — Trimble 1975 是 B²FH 18 年后的权威更新综述
-- [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 Nobel Lecture 部分作者来自 B²FH 团队
-- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — Wallerstein 1997 是 B²FH 40 年回顾
+- [`0002_trimble-1975`](../../0002_trimble-1975/literature_analysis/00_overview.md) — Trimble 1975 是 B$^2$FH 18 年后的权威更新综述
+- [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 Nobel Lecture 部分作者来自 B$^2$FH 团队
+- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — Wallerstein 1997 是 B$^2$FH 40 年回顾
 
 ### 后续阅读
 
-- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — B²FH 40 年进展综述
+- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — B$^2$FH 40 年进展综述

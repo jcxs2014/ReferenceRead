@@ -24,7 +24,7 @@
 
 - [FACT] 上述 1933 引言**并非**首次使用"dark matter"一词。
 - [FACT] Zwicky 在同年早些时候发表的关于**宇宙射线源**的论文（Zwicky 1933b）中已用过该词：
-  > "According to the present estimates the average density of dark matter in our galaxy (ρ_g) and throughout the rest of the universe (ρ_u) are in the ratio ρ_g/ρ_u > 100 000."
+  > "According to the present estimates the average density of dark matter in our galaxy ($\rho$_g) and throughout the rest of the universe ($\rho$_u) are in the ratio $\rho$_g/$\rho$_u > 100 000."
 - [FACT] 显然 Zwicky 知晓 Kapteyn/Oort/Jeans 的银河系暗物质研究——他的用法**直接延续**了这些前人的术语。
 
 ### 3.1.3 Zwicky 1937（英文，ApJ）
@@ -111,7 +111,7 @@
 $$2\langle T \rangle + \langle W \rangle = 0$$
 即平均动能 = 引力势能绝对值之半。
 $$M \sim \frac{5 \, R \, \sigma_v^2}{G}$$
-其中 R 为系统半径、σ_v 为速度弥散、G 为引力常数。
+其中 R 为系统半径、$\sigma$_v 为速度弥散、G 为引力常数。
 
 - [INTERPRETATION] 该式是所有**动力学暗物质测量**的基石——从星系团维里质量，到星系自转曲线 M(<r) = v²r/G，到太阳邻域 Oort 质量。
 

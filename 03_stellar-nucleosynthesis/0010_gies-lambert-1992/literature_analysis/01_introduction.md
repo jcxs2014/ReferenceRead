@@ -28,18 +28,18 @@
 ### 1.2.2 Lyubimkov (1984) — N 丰度随演化年龄增大
 
 [FACT] 方法：
-- 对 36 颗 B 星基于 Kane, McKeith & Dufton (1980) 和 Dufton, Kane & McKeith (1981a) 测量的 N II λλ3995, 4630 等值宽度；
+- 对 36 颗 B 星基于 Kane, McKeith & Dufton (1980) 和 Dufton, Kane & McKeith (1981a) 测量的 N II $\lambda$$\lambda$3995, 4630 等值宽度；
 - 与 Dufton & Hibbert (1981) non-LTE 预测表比较；
-- 通过 [c1]、β 指数校准选定 (T_eff, log g)；
-- **关键固定假设**：**ξ = 0 km s⁻¹** 且 **log g = 4.0** 用于所有星。
+- 通过 [c1]、$\beta$ 指数校准选定 (T_eff, log g)；
+- **关键固定假设**：**$\xi$ = 0 km s⁻¹** 且 **log g = 4.0** 用于所有星。
 
 [FACT] 核心结果：
-- 13–20 M☉ 恒星：log ε(N) 从 **7.6 → 8.6** 在 **< $10^{7}$ yr** 内；
-- 变化率 d log ε(N)/dt：
-  - 13–20 M☉：**0.15 dex per $10^{6}$ yr**
-  - 9.9–12.3 M☉：**0.06**
-  - 5.7–8.5 M☉：**0.024**
-- 初始 log ε(N) ≈ 7.6（≈ local H II 区）；极值 log ε(N) ≈ 8.6（≈ F-K 超巨星，Luck 1978；Luck & Lambert 1981）。
+- 13–20 $M_\odot$ 恒星：log $\epsilon$(N) 从 **7.6 → 8.6** 在 **< $10^{7}$ yr** 内；
+- 变化率 d log $\epsilon$(N)/dt：
+  - 13–20 $M_\odot$：**0.15 dex per $10^{6}$ yr**
+  - 9.9–12.3 $M_\odot$：**0.06**
+  - 5.7–8.5 $M_\odot$：**0.024**
+- 初始 log $\epsilon$(N) ≈ 7.6（≈ local H II 区）；极值 log $\epsilon$(N) ≈ 8.6（≈ F-K 超巨星，Luck 1978；Luck & Lambert 1981）。
 
 [FACT] Lyubimkov 主张的物理含义：如果主序 B 星表面 N 丰度已经达到 F-K 超巨星水平（后者经历过红巨星的第一次 dredge-up），意味着 B 星在红巨星阶段之前的外层已被**几乎完全混合**，红巨星 convective envelope 不再改变表面 N。
 
@@ -48,12 +48,12 @@
 ### 1.2.3 Lyubimkov (1988) — He 富集
 
 [FACT] He 表面丰度随演化年龄增大：
-- **Δε(He) ≈ 0.03–0.05** for 6–14 M☉
-- **Δε(He) < 0.01** for M < 5 M☉
+- **$\Delta$$\epsilon$(He) ≈ 0.03–0.05** for 6–14 $M_\odot$
+- **$\Delta$$\epsilon$(He) < 0.01** for M < 5 $M_\odot$
 
 ### 1.2.4 Lyubimkov (1989) — C 贫化与 C+N 守恒
 
-[FACT] 对 9 颗有弱 C III 线 C 丰度的星：C 与 N 丰度近似相关，**C + N ≈ 常数 ≈ 太阳值**。这是 **CN-cycle 的守恒签名**（¹²C + ¹⁴N 在 CN-cycle 平衡态下，总核数守恒）。
+[FACT] 对 9 颗有弱 C III 线 C 丰度的星：C 与 N 丰度近似相关，**C + N ≈ 常数 ≈ 太阳值**。这是 **CN-cycle 的守恒签名**（$^{12}{\rm C}$ + $^{14}{\rm N}$ 在 CN-cycle 平衡态下，总核数守恒）。
 
 [FACT] B 星略 N 富集的恒星，可能是介于"普通 B 星"与"OBN 星"（Walborn 1976，N 线异常强）之间的中间情况。Schönberner et al. (1988) 对 4 颗 OBN 星的 non-LTE 分析显示：He 富集 + C 贫化 + N 富集 + O 正常，"corresponds to the expected mix for CN-cycled matter"。
 
@@ -79,9 +79,9 @@
 ## 1.4 关键公式/定义
 
 [FACT] 丰度标准标度：
-> **ε(X) = n(X)/n(H)**，且 **log ε(H) = 12.0**
+> **$\epsilon$(X) = n(X)/n(H)**，且 **log $\epsilon$(H) = 12.0**
 
-用于本文所有 log ε(X) 值。
+用于本文所有 log $\epsilon$(X) 值。
 
 ---
 
@@ -104,7 +104,7 @@ Lyubimkov 四篇论文：主序 B 星普遍 CN-cycled 富集
 ## 1.6 我的理解 [INTERPRETATION]
 
 [INTERPRETATION]
-1. 引言的论证策略非常"公平"：先把 Lyubimkov 主张说清楚、量化（三档质量的 d log ε(N)/dt、Δε(He) 数值、C+N 守恒），再指出其方法学固定假设（ξ=0、log g=4.0）可能在演化恒星中失效；
+1. 引言的论证策略非常"公平"：先把 Lyubimkov 主张说清楚、量化（三档质量的 d log $\epsilon$(N)/dt、$\Delta$$\epsilon$(He) 数值、C+N 守恒），再指出其方法学固定假设（$\xi$=0、log g=4.0）可能在演化恒星中失效；
 2. 三种混合机制的罗列暗示作者预期混合是**存在的**，但**是否普遍**是关键——本文不是"打假"，而是"校准"；
 3. 强调"弱线"选择标准，是预先回答一个常见批评："B 星 non-LTE 效应强，结果不可靠"；用双通道交叉验证来规避这个陷阱。
 
@@ -113,8 +113,8 @@ Lyubimkov 四篇论文：主序 B 星普遍 CN-cycled 富集
 ## 1.7 潜在问题与值得关注的地方 [CRITIQUE]
 
 [CRITIQUE]
-1. Lyubimkov 的 d log ε(N)/dt 值（0.15 dex per $10^{6}$ yr 对 13–20 M☉）极大——主序列寿命 ~$10^{7}$ yr，意味着 0.15×10 = 1.5 dex 总变化，远超 CN-cycle 平衡态的理论极限；这个数值本身就有物理上的可疑性；
-2. 引言没有正面提及"为什么 Lyubimkov 选 N II λλ4630 而本文选 N II λλ4987–5045 弱线群"——事实上这是后续 § 7.3 揭穿其假象的关键；
+1. Lyubimkov 的 d log $\epsilon$(N)/dt 值（0.15 dex per $10^{6}$ yr 对 13–20 $M_\odot$）极大——主序列寿命 ~$10^{7}$ yr，意味着 0.15×10 = 1.5 dex 总变化，远超 CN-cycle 平衡态的理论极限；这个数值本身就有物理上的可疑性；
+2. 引言没有正面提及"为什么 Lyubimkov 选 N II $\lambda$$\lambda$4630 而本文选 N II $\lambda$$\lambda$4987–5045 弱线群"——事实上这是后续 § 7.3 揭穿其假象的关键；
 3. 关于 Maeder (1987a) 湍流扩散，作者引用但未详细说明其物理（即旋转引起的 meridional circulation + shear-induced turbulent diffusion）；这是**隐含假设**读者知道。
 
 ---

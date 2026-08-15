@@ -23,7 +23,7 @@
 | consequently | adv. | 因果(结果) | 因此 | "Consequently, Sweigart and Mengel suggested that CN anomalies should be confined to the upper RGB" | 由物理前提推出理论预言 |
 | nevertheless | adv. | 转折/让步 | 尽管如此 | "...largely scattered, but **nevertheless** smaller, [Na/Fe] values..." | 承认散布但保留核心特征 |
 | although | conj. | 让步 | 虽然 | "**Although** some difficulties are encountered in the absolute determination of nitrogen abundances..." | 承认测量困难但保留结论 |
-| even if | conj. | 让步 | 即使 | "...**even if** the initial abundance of ²²Ne had been set to zero" | 弱化对 ²²Ne 丰度的依赖 |
+| even if | conj. | 让步 | 即使 | "...**even if** the initial abundance of $^{22}{\rm Ne}$ had been set to zero" | 弱化对 $^{22}{\rm Ne}$ 丰度的依赖 |
 | viz. | adv. | 举例/阐释 | 即 | "a related result has been noted, **viz.**, that there exists a very wide range of C and N abundances..." | 引出具体事实阐释 |
 | moreover | adv. | 递进 | 此外 | "**Moreover**, even if rotation by itself plays no direct role in delaying the helium core flash..." | 追加间接作用的论证 |
 | against | prep. | 让步(反方) | 反对此观点的是 | "**Against this view** are the results of the stellar evolutionary calculations of Deliyannis et al. (1989)..." | 引出反方证据 |
@@ -49,47 +49,47 @@
 | halo field subdwarf | 晕场次矮星 | 银河系晕中金属贫乏的主序星；作为 ab initio 丰度的替代探针 | §1 |
 | environmental pollution | 环境污染 | 团星受邻星抛射物影响 | §1 |
 | CH, CN, NH bands | 分子带 | 大气中 C、N 的分子吸收特征 | §2 |
-| ¹²C/¹³C ratio | 碳同位素比 | CNO 循环深度的示踪量；标准演化预言 90→20–30 | §2 |
+| $^{12}{\rm C}$/$^{13}{\rm C}$ ratio | 碳同位素比 | CNO 循环深度的示踪量；标准演化预言 90→20–30 | §2 |
 | [Fe/H] spread | [Fe/H] 展宽 | 团内 [Fe/H] 离散程度；一般 ≤ 0.1 dex | §2 |
 | differential reddening | 差向红化 | 团内不同位置的消光差异，可能污染 [Fe/H] 均匀性判断 | §2 |
-| omega Centauri (ω Cen) | 半人马座 ω | 银河系最大质量球状星团；[Fe/H] 展宽 ~1 dex 的例外 | §2 |
+| omega Centauri ($\omega$ Cen) | 半人马座 $\omega$ | 银河系最大质量球状星团；[Fe/H] 展宽 ~1 dex 的例外 | §2 |
 | M22 | 梅西耶 22 | 疑似 [Fe/H] 展宽但存争议 | §2 |
-| Δt/Δ[O/Fe] ≈ 4 Gyr/dex | O 丰度对年龄敏感度 | [O/Fe] 变化对拐点附近能量与不透明度的效应 | §2 |
+| $\Delta$t/$\Delta$[O/Fe] ≈ 4 Gyr/dex | O 丰度对年龄敏感度 | [O/Fe] 变化对拐点附近能量与不透明度的效应 | §2 |
 | global anticorrelation | 全局反相关 | Kraft et al. 1993 在 77 巨星中确立的 [O/Fe] vs [Na/Fe] 反相关 | §2 |
 | CNO cycle | CNO 循环 | 恒星内部以 C、N、O 为催化剂的氢燃烧循环 | §2 |
 | dredge-up / dredge up | 挖升 | 内部核处理物质被带到表面的过程 | §2 |
-| low-mass star | 低质量星 | M ≲ 2 M☉；形成简并 He 核 | §3 |
+| low-mass star | 低质量星 | M ≲ 2 $M_\odot$；形成简并 He 核 | §3 |
 | degenerate He core | 简并氦核 | RGB 底部的电子简并态氦核 | §3 |
 | CNO hydrogen-burning shell | CNO 氢燃烧壳层 | RGB 星的氢燃烧发生位置 | §3 |
 | external convection zone | 外部对流区 | 巨星外层的对流包层 | §3 |
 | deepest penetration radius | 最深穿透半径 | 对流层下缘在 SGB 阶段达到的最大深度 | §3 |
 | He core flash | 氦核闪 | 简并 He 核点燃的瞬间 | §3 |
 | secular mass loss | 长期质量损失 | RGB 顶端持续的质量流失 | §3 |
-| zero-age horizontal branch (ZAHB) | 零龄水平支 | He 核闪后由 ³α 过程驱动的水平支起始位置 | §3 |
-| triple alpha process | ³α 过程 | 三个 ⁴He 融合为 ¹²C 的核反应 | §3 |
+| zero-age horizontal branch (ZAHB) | 零龄水平支 | He 核闪后由 ³$\alpha$ 过程驱动的水平支起始位置 | §3 |
+| triple alpha process | ³$\alpha$ 过程 | 三个 $^{4}{\rm He}$ 融合为 $^{12}{\rm C}$ 的核反应 | §3 |
 | first parameter | 第一参数 | 决定 HB 形态的首要因素——金属丰度 | §3 |
 | second parameter effect | 第二参数效应 | 相同 [Fe/H] 团间 HB 形态差异 | §3 |
 | RR Lyrae | 天琴 RR 变星 | HB 不稳定带中的脉动变星 | §3 |
 | asymptotic giant branch (AGB) | 渐近巨星支 | He 壳层闪驱动的第二阶段巨星演化 | §3 |
 | shell flash | 壳层闪 | AGB 上 He 壳层热不稳定驱动的周期性爆发 | §3 |
 | dwarf spheroidal | 矮椭伴星系 | 银河系较年轻晕同伴 | §3 |
-| ²²Ne(α,n)²⁵Mg | 中子源反应 | 中子俘获元素形成的中子源 | §3 |
-| μ gradient | 质量分数梯度 | 核燃烧壳层外的化学组成梯度，阻止对流穿透 | §5 |
+| $^{22}{\rm Ne}$($\alpha$,n)$^{25}{\rm Mg}$ | 中子源反应 | 中子俘获元素形成的中子源 | §3 |
+| $\mu$ gradient | 质量分数梯度 | 核燃烧壳层外的化学组成梯度，阻止对流穿透 | §5 |
 | Sweigart-Mengel mechanism | Sweigart-Mengel 机制 | 1979 年提出的旋转驱动子午环流深混合机制 | §5 |
 | meridional circulation / current | 子午环流 | 恒星旋转驱动的对流层底部-壳层间极慢环流 | §5 |
 | characteristic velocity ~$10^{-3}$ cm s⁻¹ | 环流特征速度 | 子午环流的量级 | §5 |
 | CN anomaly | CN 反常 | 团巨星 CN 带强度的异常变化 | §5 |
-| angular velocity ω ~ 6×$10^{-5}$ s⁻¹ | 所需角速度 | Sweigart-Mengel 理论所需的主序前身星角速度 | §5 |
+| angular velocity $\omega$ ~ 6×$10^{-5}$ s⁻¹ | 所需角速度 | Sweigart-Mengel 理论所需的主序前身星角速度 | §5 |
 | spin down | 自转减速 | 主序星早期角动量流失 | §5 |
 | bimodal distribution | 双峰分布 | CN 带强度的双群分布 | §6 |
 | population signature | 群体签名 | 团间 CN 强/弱主分布的"性格"差异 | §6 |
 | double-metal molecule | 双金属分子 | CN——依赖两种金属元素的分子 | §6 |
-| Cottrell & Da Costa scenario | Cottrell-Da Costa 场景 | 中等质量星（5–8 M☉）风污染原始团气体的场景 | §6 |
+| Cottrell & Da Costa scenario | Cottrell-Da Costa 场景 | 中等质量星（5–8 $M_\odot$）风污染原始团气体的场景 | §6 |
 | primordial chemical inhomogeneity | 原始化学不均匀性 | 团形成物质中预存的元素丰度涨落 | §6 |
-| ²³Na, ²⁷Al production | Na、Al 合成 | 核处理中 Na、Al 的过量生成 | §6 |
+| $^{23}{\rm Na}$, $^{27}{\rm Al}$ production | Na、Al 合成 | 核处理中 Na、Al 的过量生成 | §6 |
 | nuclear reaction network | 核反应网络 | Langer et al. 1993 使用的 85 同位素网络 | §7 |
-| proton capture on ²²Ne | ²²Ne 质子俘获 | 23Na 合成的替代路径（不需中子） | §7 |
-| ²⁰Ne–²³Na chain | 20Ne–23Na 反应链 | ³⁰,⁰⁰⁰ 年建立的快速反应链 | §7 |
+| proton capture on $^{22}{\rm Ne}$ | $^{22}{\rm Ne}$ 质子俘获 | 23Na 合成的替代路径（不需中子） | §7 |
+| $^{20}{\rm Ne}$–$^{23}{\rm Na}$ chain | 20Ne–23Na 反应链 | ³⁰,⁰⁰⁰ 年建立的快速反应链 | §7 |
 | arclike distribution | 弧形分布 | Fig. 8 中 [O/Fe] vs [Na/Fe] 点云形状 | §7 |
 | 60,000 yr time scale | 60,000 年时标 | Langer 计算中达到 5% 氢耗竭的时间 | §7 |
 | superoxygen-poor | 超贫氧 | [O/Fe] < −0.4 的极端 O 耗竭现象 | §7 |
@@ -97,7 +97,7 @@
 | conservation of angular momentum | 角动量守恒 | 推断主序末自转的关键假设 | §7 |
 | rigid-body rotator | 刚体自转 | 太阳内部自转均匀性的假设 | §7 |
 | integrated spectrum | 集成光谱 | 河外星系的整体光谱 | §8 |
-| [α/Fe] substructure | α/Fe 丰度亚结构 | 温和贫金属星中 Mg、Si、Ca、Ti 比值的细微差异 | §8 |
+| [$\alpha$/Fe] substructure | $\alpha$/Fe 丰度亚结构 | 温和贫金属星中 Mg、Si、Ca、Ti 比值的细微差异 | §8 |
 | galactic nuclear bulge | 银核核球 | 银河系中心隆起区域；亚结构观测位置之一 | §8 |
 | thick disk globular cluster | 厚盘球状星团 | 厚盘相关团（如 M71） | §8 |
 | s-process | 慢中子俘获过程 | Armosky et al. 1994 证明与 [O/Fe]、[Na/Fe] 独立 | §8 |
@@ -146,11 +146,11 @@
 **翻译**：对于"丰度变化仅由恒星演化驱动"这一场景而言，一个更严重的问题是：在 NGC 6752 与 47 Tuc 的主序星中，观测到 CN 与 CH 呈（平均）反相关。
 
 ### C5. [§7]
-> "One can understand qualitatively the shape of the O versus Na anticorrelation, i.e., why one finds an 'arclike' distribution of points (Fig. 8): as the abundant species (¹⁶O and ²⁰Ne) are transformed into the initially rare species (¹⁴N and ²³Na), the latter at first increase very rapidly, but then the rate of increase levels off as the initially more abundant species become more and more heavily depleted."
+> "One can understand qualitatively the shape of the O versus Na anticorrelation, i.e., why one finds an 'arclike' distribution of points (Fig. 8): as the abundant species ($^{16}{\rm O}$ and $^{20}{\rm Ne}$) are transformed into the initially rare species ($^{14}{\rm N}$ and $^{23}{\rm Na}$), the latter at first increase very rapidly, but then the rate of increase levels off as the initially more abundant species become more and more heavily depleted."
 
 **主干**：One can understand qualitatively the shape of the anticorrelation: as A is transformed into B, B at first increases rapidly, but then the rate levels off.
 **修饰**：
 - i.e., why one finds an 'arclike' distribution of points 举例说明
-- (¹⁶O and ²⁰Ne) / (¹⁴N and ²³Na) 具体列出"丰富"与"稀少"物种
+- ($^{16}{\rm O}$ and $^{20}{\rm Ne}$) / ($^{14}{\rm N}$ and $^{23}{\rm Na}$) 具体列出"丰富"与"稀少"物种
 - as the initially more abundant species become more and more heavily depleted 时间状语从句，解释增长率趋缓的原因
-**翻译**：人们可以定性理解 O-Na 反相关的形状，即为何在图 8 中看到"弧形"分布点：当丰富物种（¹⁶O 与 ²⁰Ne）转化为最初稀少的物种（¹⁴N 与 ²³Na）时，后者起初急剧增加，但随后最初更丰富的物种越来越被耗竭，增长率也随之趋缓。
+**翻译**：人们可以定性理解 O-Na 反相关的形状，即为何在图 8 中看到"弧形"分布点：当丰富物种（$^{16}{\rm O}$ 与 $^{20}{\rm Ne}$）转化为最初稀少的物种（$^{14}{\rm N}$ 与 $^{23}{\rm Na}$）时，后者起初急剧增加，但随后最初更丰富的物种越来越被耗竭，增长率也随之趋缓。

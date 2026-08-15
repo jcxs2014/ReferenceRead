@@ -47,7 +47,7 @@
 |---|---|
 | 3D 流体动力学模型 | Nordlund, Stein & Asplund (2009)；Stein & Nordlund (1998)；Trampedach et al. (2009)；Caffau et al. (2008a co5bold) |
 | Non-LTE 综述 | Asplund (2005) Annu. Rev. A&A 43, 481 |
-| C | Asplund et al. (2009a)；Scott et al. (2006) ¹²C/¹³C |
+| C | Asplund et al. (2009a)；Scott et al. (2006) $^{12}{\rm C}$/$^{13}{\rm C}$ |
 | N | Sauval et al. (2009) |
 | O | Asplund et al. (2009c)；Pereira, Asplund & Kiselman (2009) S_H |
 | Na–Ca | Asplund et al. (2009b) |

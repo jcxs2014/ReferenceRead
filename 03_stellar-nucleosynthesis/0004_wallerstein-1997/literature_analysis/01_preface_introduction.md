@@ -16,8 +16,8 @@
 - [FACT] 1956 年 Suess & Urey 给出了改进的太阳系丰度曲线：
   - 显示"幻数"（N=50, 82）对应丰度峰
   - 将峰分为慢（s）与快（r）中子俘获两条过程线
-- [FACT] 当时 (n,γ) 截面数据首次公开，使得 s 过程定量分析成为可能。
-- [FACT] B2FH 引入了 α, ε, s, r, p, x 六种过程字母标记法——作者认为这是该领域"最大的推动"。
+- [FACT] 当时 (n,$\gamma$) 截面数据首次公开，使得 s 过程定量分析成为可能。
+- [FACT] B2FH 引入了 $\alpha$, $\epsilon$, s, r, p, x 六种过程字母标记法——作者认为这是该领域"最大的推动"。
 - [FACT] B2FH 原文包含了原创计算（s、r 过程的丰度曲线计算），而非纯综述。
 
 ### 1.1.3 关键评价
@@ -51,15 +51,15 @@
 作者在此处用简洁语言对八种过程进行现代更新：
 
 1. **Hydrogen burning (pp 链 & CNO 循环)**：Bethe 1938/1939 奠定基础；pp 链、CNO 循环、Ne-Na 循环、Mg-Al 循环反应率已大幅更新；热 CNO 循环在 nova 爆发中起关键作用；rp 过程可产生某些 p 富集同位素。
-2. **Helium burning (3α + 12C(α,γ)16O)**：Hoyle 预言的 12C** 7.65 MeV 能级已被实验精确测量；**但 40 年后 12C(α,γ)16O 反应率仍未精确确定**——作者明确指出。
-3. **The α process**：B2FH 设想 4He 连续俘获至 40Ca；但 16O(α,γ)20Ne 速率极慢，因此实际上 C、O 燃烧负责 Ne 至 S 区。
-4. **The ε process (统计平衡)**：温度 4–5×10^9 K 时核物质达到统计平衡，集中于 56Fe 附近；仅在超新星中达到。**SN 1987A γ 射线观测**（56Fe 激发态退激）证实了铁族元素在 SN 中的大量合成。
-5. **The s process (慢中子俘获)**：中子源为 13C(α,n)16O 与 22Ne(α,n)25Mg；可从铁族一直合成至 Pb、Bi；超过 Bi 后 α 衰变回 Pb、Tl。
-6. **The r process (快中子俘获)**：时间尺度远小于 β 衰变寿命，产生比 s 过程丰度峰重约 10 个质量单位的中子幻数峰（N=50, 82）。历史上与 SN 关联；近十年关注**新形成中子星周围的中微子加热大气层**作为 r 过程位点。
-7. **The p process (光致质子俘获/γ 过程)**：罕见的质子富集核如 92Mo 无法由纯中子俘获产生；可由高温 p 俘获或 SN 爆发中 (γ,n) 反应产生。
+2. **Helium burning (3$\alpha$ + 12C($\alpha$,$\gamma$)16O)**：Hoyle 预言的 12C** 7.65 MeV 能级已被实验精确测量；**但 40 年后 12C($\alpha$,$\gamma$)16O 反应率仍未精确确定**——作者明确指出。
+3. **The $\alpha$ process**：B2FH 设想 4He 连续俘获至 40Ca；但 16O($\alpha$,$\gamma$)20Ne 速率极慢，因此实际上 C、O 燃烧负责 Ne 至 S 区。
+4. **The $\epsilon$ process (统计平衡)**：温度 4–5×10^9 K 时核物质达到统计平衡，集中于 56Fe 附近；仅在超新星中达到。**SN 1987A $\gamma$ 射线观测**（56Fe 激发态退激）证实了铁族元素在 SN 中的大量合成。
+5. **The s process (慢中子俘获)**：中子源为 13C($\alpha$,n)16O 与 22Ne($\alpha$,n)25Mg；可从铁族一直合成至 Pb、Bi；超过 Bi 后 $\alpha$ 衰变回 Pb、Tl。
+6. **The r process (快中子俘获)**：时间尺度远小于 $\beta$ 衰变寿命，产生比 s 过程丰度峰重约 10 个质量单位的中子幻数峰（N=50, 82）。历史上与 SN 关联；近十年关注**新形成中子星周围的中微子加热大气层**作为 r 过程位点。
+7. **The p process (光致质子俘获/$\gamma$ 过程)**：罕见的质子富集核如 92Mo 无法由纯中子俘获产生；可由高温 p 俘获或 SN 爆发中 ($\gamma$,n) 反应产生。
 8. **The x process (未知)**：B2FH 无法解释 D、Li、Be、B。现代原初核合成 (BBN) 模型调谐以产生 D、3He、4He 及部分 7Li；7Li、Be、B 在恒星中的产生见 Boesgaard 的 Sec. V 综述。
 
-[FACT] Wallerstein 在引言中还提出**"neutrino-process"（ν 过程）**作为 B2FH 八大过程之外的**第九种过程**：当大质量恒星核心塌缩为 NS 时，中微子通量极强，高能的 μ- 与 τ-中微子可以激发重元素甚至 He 到粒子不束缚态，通过蒸发单个中子或质子显著改变核合成结果。例如 20Ne 丰富的 Ne 燃烧壳层可能是 19F（稀有元素）的天然来源（Woosley et al. 1990; Timmes, Woosley & Weaver 1995）。
+[FACT] Wallerstein 在引言中还提出**"neutrino-process"（$\nu$ 过程）**作为 B2FH 八大过程之外的**第九种过程**：当大质量恒星核心塌缩为 NS 时，中微子通量极强，高能的 $\mu$- 与 $\tau$-中微子可以激发重元素甚至 He 到粒子不束缚态，通过蒸发单个中子或质子显著改变核合成结果。例如 20Ne 丰富的 Ne 燃烧壳层可能是 19F（稀有元素）的天然来源（Woosley et al. 1990; Timmes, Woosley & Weaver 1995）。
 
 ### 1.2.4 D. Neutrino astrophysics
 
@@ -75,9 +75,9 @@
 - [FACT] **MSW 机制**（Wolfenstein 1978 物质中的中微子有效质量；Mikheyev & Smirnov 1985 物质增强的中微子振荡）提供了自然解释
 
 #### 2. Other aspects of neutrino astrophysics
-- [FACT] 温度 > 10^9 K 时 γγ ↔ e+e− 对形成平衡，e+e− → νν̄ 概率约 10^(-19)（但不可逆），中微子逸出带走能量
-- [FACT] 致密白矮星冷却阶段，**等离子体衰变 (plasmon decay)** 产生 νν̄，加速冷却
-- [FACT] 大质量恒星核心塌缩时的中微子通量可激发重元素——**ν 过程**
+- [FACT] 温度 > 10^9 K 时 $\gamma$$\gamma$ ↔ e+e− 对形成平衡，e+e− → $\nu$$\nu$̄ 概率约 10^(-19)（但不可逆），中微子逸出带走能量
+- [FACT] 致密白矮星冷却阶段，**等离子体衰变 (plasmon decay)** 产生 $\nu$$\nu$̄，加速冷却
+- [FACT] 大质量恒星核心塌缩时的中微子通量可激发重元素——**$\nu$ 过程**
 
 ### 1.2.5 E. Related reviews
 [FACT] 作者列出同期相关综述：Trimble 1975/1991/1995、Wheeler, Sneden & Truran 1989、Arnett 1996 专著、Pagel 1997（银河核合成专著）。
@@ -103,4 +103,4 @@
 - Haxton (1995) Phys. Rep.（太阳中微子问题综述）
 - Olive & Schramm (1996)（原初核合成综述）
 - Pagel (1997) Nucleosynthesis and the Chemical Evolution of Galaxies
-- Woosley et al. (1990)（ν 过程 19F 起源）
+- Woosley et al. (1990)（$\nu$ 过程 19F 起源）

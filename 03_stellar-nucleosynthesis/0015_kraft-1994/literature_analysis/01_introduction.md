@@ -39,7 +39,7 @@
 - **科学意义**：研究 [el/Fe] 比可为银河系核合成增丰史提供线索。
 - 综述前参考文献：*Wheeler, Sneden & Truran 1989, ARA&A 27, 279* [FACT]。
 
-> **与 0001_b2fh-1957 关联** [FACT]："a variety of nucleosynthetic sites in the post big-bang era" 这一表述正是 B²FH 综述的核心结论——大爆炸后多种场所（恒星、超新星、AGB 等）共同塑造元素丰度。Kraft 的讨论建立在 B²FH 框架之上，把"场所"落实到球状星团内部（CNO 壳层、AGB 闪烁）与星际介质污染两条路径。
+> **与 0001_b2fh-1957 关联** [FACT]："a variety of nucleosynthetic sites in the post big-bang era" 这一表述正是 B$^2$FH 综述的核心结论——大爆炸后多种场所（恒星、超新星、AGB 等）共同塑造元素丰度。Kraft 的讨论建立在 B$^2$FH 框架之上，把"场所"落实到球状星团内部（CNO 壳层、AGB 闪烁）与星际介质污染两条路径。
 
 ### 1.2.4 观测困境（the dilemma） [FACT]
 

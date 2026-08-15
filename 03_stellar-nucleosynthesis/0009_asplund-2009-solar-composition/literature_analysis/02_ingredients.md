@@ -12,7 +12,7 @@
 1. 观测：太阳谱线（强度谱 / 流量谱）
 2. 原子与分子数据：跃迁概率、加宽、超精细结构、电离、配分函数
 3. 大气模型与线形成：1D vs 3D、LTE vs. non-LTE
-4. 观测检验：3D 模型如何被中边缘（center-to-limb）变化、Hα/Hβ、金属线线型验证
+4. 观测检验：3D 模型如何被中边缘（center-to-limb）变化、H$\alpha$/H$\beta$、金属线线型验证
 
 ## 2.2 §2.1 Observations（观测）
 
@@ -84,7 +84,7 @@
 - [FACT] **3D 模型**在以下诊断上全面优于 1D：
   1. **米粒组织拓扑**、特征尺度、对流速度、亮度对比；
   2. **连续谱中-边缘变化**（Fig 2）：Trampedach et al. (2009) 3D 模型甚至优于**半经验**的 Holweger & Müller 模型（后者就是为拟合该诊断而设计的）；
-  3. **Hα、Hβ 线翼**（Fig 2 + §2.4）：Pereira et al. (2009) 发现 3D 模型在 LTE 下就能很好重现，且**不需要任何自由参数**；
+  3. **H$\alpha$、H$\beta$ 线翼**（Fig 2 + §2.4）：Pereira et al. (2009) 发现 3D 模型在 LTE 下就能很好重现，且**不需要任何自由参数**；
   4. **金属线线型、不对称性和位移**（Fig 3）：无需 micro- 和 macroturbulence 自由参数，3D 模型的**对流多普勒效应**自然解释了加宽、位移和不对称。
 
 - [CRITIQUE] Caffau 的 co5bold 模型整体线型好，但**线不对称性**尚未系统检验。
@@ -99,7 +99,7 @@
   1. **Mean atmospheric stratification**：½ · |3D spatial average − Holweger & Müller|
   2. **Atmospheric inhomogeneities**：½ · |full 3D − 3D average|
   3. **Non-LTE**：½ · |non-LTE correction|；下限 0.03 dex
-- [FACT] **总误差 = sqrt(σ_stat² + σ_syst²)**，其中 σ_stat = 加权标准误（权重来自谱线连续谱放置和已知混杂）
+- [FACT] **总误差 = sqrt($\sigma$_stat² + $\sigma$_syst²)**，其中 $\sigma$_stat = 加权标准误（权重来自谱线连续谱放置和已知混杂）
 - [FACT] 作者**未尝试**量化 gf 值的系统误差——这部分依赖谱线离散度来间接吸收。
 
 ## 2.7 关键判断

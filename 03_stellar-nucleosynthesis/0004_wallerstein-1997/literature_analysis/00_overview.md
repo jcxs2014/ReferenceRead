@@ -84,7 +84,7 @@ path: 03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_ov
 
 [FACT] 1957 年 Burbidge, Burbidge, Fowler, Hoyle 在 *Rev. Mod. Phys.* 29:547 上发表经典综述，首次系统提出恒星是元素起源的机制。本文于 1997 年发表在 *Rev. Mod. Phys.* 69:995，恰逢 40 周年。
 
-[FACT] B2FH 提出了 8 种元素合成过程：**α (alpha), ε (epsilon), s (slow neutron), r (rapid neutron), p (proton), x (unknown)** 加上氢燃烧、氦燃烧。作者明确写道："the introduction of a lettering notation for the various nuclear processes: α, ε, s, r, p, and x, which may have done more for the development of the subject than almost anything else!"
+[FACT] B2FH 提出了 8 种元素合成过程：**$\alpha$ (alpha), $\epsilon$ (epsilon), s (slow neutron), r (rapid neutron), p (proton), x (unknown)** 加上氢燃烧、氦燃烧。作者明确写道："the introduction of a lettering notation for the various nuclear processes: $\alpha$, $\epsilon$, s, r, p, and x, which may have done more for the development of the subject than almost anything else!"
 
 [INTERPRETATION] 这是核天体物理领域最重要的综述文献之一。其价值在于：(1) 提供了 B2FH 40 年后核数据、恒星演化、观测验证三个维度的完整进展汇总；(2) 每章节由该子领域权威撰写（Iben 恒星演化、Käppeler s 过程、Hoffman r 过程、Wallerstein 观测），权威性极高；(3) 是连接 1957 年原始理论框架与后续（AGB 星核合成、中子星合并 r 过程、原初核合成约束等）的关键枢纽。
 
@@ -97,14 +97,14 @@ path: 03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_ov
 
 ## 1.4 关键数值（论文中反复出现）
 
-- 主序寿命 ∝ M^(−2.25)，1M☉ ≈ 10^10 年，25M☉ ≈ 7×10^6 年
+- 主序寿命 ∝ M^(−2.25)，1$M_\odot$ ≈ 10^10 年，25$M_\odot$ ≈ 7×10^6 年
 - Helium 燃烧时间 ≈ 主序寿命的 25%（中等质量）至 10%（大质量）
 - AGB 热脉冲寿命 ≈ 10^5–10^6 年
-- AGB 超风阶段质量损失率 10^(−5)–10^(−4) M☉/yr（当脉动周期 > 400 天时）
-- C/O 核质量阈值：≥0.9 M☉ 时 22Ne(α,n)25Mg 成为强中子源
+- AGB 超风阶段质量损失率 10^(−5)–10^(−4) $M_\odot$/yr（当脉动周期 > 400 天时）
+- C/O 核质量阈值：≥0.9 $M_\odot$ 时 22Ne($\alpha$,n)25Mg 成为强中子源
 - 中子俘获率 ∝ T^(40)（氦燃烧对温度极敏感）
-- SN1987A 抛射 ~0.1 M☉ 的 56Fe 至星际介质
-- Neutron star 平均质量 1.35 ± 0.27 M☉
+- SN1987A 抛射 ~0.1 $M_\odot$ 的 56Fe 至星际介质
+- Neutron star 平均质量 1.35 ± 0.27 $M_\odot$
 - 银河系 SNIa 产生率 ~0.003 yr^(−1)
 - 白矮星形成率 ~0.5–1 yr^(−1)
 
@@ -119,11 +119,11 @@ B2FH 1957 原始框架（8 过程）
   → 每个核合成过程独立评估（Sec. IV–XVI）
     → pp/CN/NeNa/MgAl：反应率精确化，太阳中微子问题凸显
     → x 过程：7Li 起源仍存疑；9Be、11B 来自宇宙线散裂
-    → 3α + 12C(α,γ)16O：12C/16O 比率仍是核心不确定性
-    → s 过程：AGB 13C 口袋为低温中子源；22Ne(α,n) 为高温源
+    → 3$\alpha$ + 12C($\alpha$,$\gamma$)16O：12C/16O 比率仍是核心不确定性
+    → s 过程：AGB 13C 口袋为低温中子源；22Ne($\alpha$,n) 为高温源
     → r 过程：中子星形成时的中微子加热大气层为候选位点
-    → p 过程：γ 过程（光致中子剥离）为主导
-    → ε 过程：SN 塌缩核统计平衡产生铁族
+    → p 过程：$\gamma$ 过程（光致中子剥离）为主导
+    → $\epsilon$ 过程：SN 塌缩核统计平衡产生铁族
   → 观测验证：AGB 星（碳星）、UMR/EMP 星、SNe、LMC
   → 结论：B2FH 框架基本正确，但细节大量修正
 ```
@@ -149,7 +149,7 @@ B2FH 1957 原始框架（8 过程）
 3. **重点关注**：
    - AGB 第三挖掘层 (third dredge-up) 机制与 13C 口袋
    - r 过程的中子星形成时中微子加热大气层假设
-   - 12C(α,γ)16O 反应率的未解问题
+   - 12C($\alpha$,$\gamma$)16O 反应率的未解问题
    - Li-Be-B (x 过程) 的多源起源
    - 观测证据与理论的符合程度
 4. 注意：本文**不包含银河化学演化模型（Pagel 专著单独覆盖）**、**不包含太阳中微子问题详细综述**（作者声明留给 Bahcall 1989 与 Haxton 1995）。
@@ -171,8 +171,8 @@ B2FH 1957 原始框架（8 过程）
 
 ### 前序阅读
 
-- **B²FH (1957)** — 奠基论文（Rev. Mod. Phys. 29, 547）
-- **Trimble (1975)** — B²FH 18 年后综述（Rev. Mod. Phys. 47, 877）
+- **B$^2$FH (1957)** — 奠基论文（Rev. Mod. Phys. 29, 547）
+- **Trimble (1975)** — B$^2$FH 18 年后综述（Rev. Mod. Phys. 47, 877）
 - **Fowler (1984) Nobel Lecture** — 实验与理论核天体物理综述（Rev. Mod. Phys. 56, 149）
 
 ### 关联论文

@@ -84,7 +84,7 @@
 
 ### 2.4.6 [FACT] 关键判断
 
-- [FACT] Kapteyn-Jeans-Lindblad-Öpik-Oort 的一系列工作是现代**太阳邻域暗物质密度测量**（ρ_⊙）的奠基；**此量至今仍是直接探测实验的关键输入**（详见 Sec IV.C 与 Sec IX）。
+- [FACT] Kapteyn-Jeans-Lindblad-Öpik-Oort 的一系列工作是现代**太阳邻域暗物质密度测量**（$\rho$_⊙）的奠基；**此量至今仍是直接探测实验的关键输入**（详见 Sec IV.C 与 Sec IX）。
 
 ## 2.5 本节重要公式
 
@@ -94,7 +94,7 @@
 
 $$\rho_{\rm tot} \sim \frac{\sigma_v^2}{G r^2}$$
 
-其中 σ_v 为速度弥散，r 为系统特征尺度。恒星作为"气体"，其弥散决定引力质量；若引力质量 > 恒星质量之和，差额即为"暗物质"。
+其中 $\sigma$_v 为速度弥散，r 为系统特征尺度。恒星作为"气体"，其弥散决定引力质量；若引力质量 > 恒星质量之和，差额即为"暗物质"。
 
 - [FACT] Oort 1932 特别处理**垂直运动学**：
   $$\rho_{\rm local} = \frac{1}{4\pi G}\frac{\partial}{\partial z}\left(\nu(z) \sigma_z^2(z)\right)$$

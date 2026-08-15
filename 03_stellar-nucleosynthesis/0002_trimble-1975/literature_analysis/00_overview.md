@@ -47,9 +47,9 @@ path: 03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overvi
 
 ## 0.2 [FACT] 文献定位
 
-[FACT] 本文是对 1957 年经典 B²FH 论文（Burbidge, Burbidge, Fowler, Hoyle, Rev. Mod. Phys. 29, 547，简称 "B²FH"）以及 Cameron (1957) 综述的重要更新。它汇总了 1957—1975 年间近 18 年核合成与天体化学的研究进展，是继 B²FH 之后该领域最权威、最全面的综述之一。
+[FACT] 本文是对 1957 年经典 B$^2$FH 论文（Burbidge, Burbidge, Fowler, Hoyle, Rev. Mod. Phys. 29, 547，简称 "B$^2$FH"）以及 Cameron (1957) 综述的重要更新。它汇总了 1957—1975 年间近 18 年核合成与天体化学的研究进展，是继 B$^2$FH 之后该领域最权威、最全面的综述之一。
 
-[FACT] 与 B²FH 不同，本文作者仅为 Virginia Trimble 一人（不是 Burbidge 四人组），但文献编号 `0002_burbidge-1975` 反映的是其在 "B²FH 系列更新综述" 这一脉络中的位置。这一点在阅读和引用时应特别注意。
+[FACT] 与 B$^2$FH 不同，本文作者仅为 Virginia Trimble 一人（不是 Burbidge 四人组），但文献编号 `0002_burbidge-1975` 反映的是其在 "B$^2$FH 系列更新综述" 这一脉络中的位置。这一点在阅读和引用时应特别注意。
 
 ## 0.3 三大问题框架
 
@@ -76,7 +76,7 @@ III. NUCLEAR PROCESSES, THEIR SITES AND PRODUCTS       pp. 914–950
     A. Cosmological nucleosynthesis
     B. Cosmic-ray spallation & x process (supermassive stars, novae, SN shocks, spallation)
     C. Hydrostatic processes in stars (H, He, C, O, Si burning)
-    D. Violent processes in stars (explosive C, O, Si burning, ε process)
+    D. Violent processes in stars (explosive C, O, Si burning, $\epsilon$ process)
     E. Processes which build heavy elements (s, r, p)
     F. Summing over processes — yields per star & per generation
 IV.  THE EVOLUTION OF GALAXIES                          pp. 950–964
@@ -95,7 +95,7 @@ REFERENCES                                               pp. 966–969
 | 文件 | 覆盖章节 | 主要内容 |
 |------|----------|----------|
 | `00_overview.md` | 元数据 + 结构 | 本文 |
-| `01_introduction_and_history.md` | §I | 历史回顾：Goldschmidt→Suess-Urey→B²FH→Cameron |
+| `01_introduction_and_history.md` | §I | 历史回顾：Goldschmidt→Suess-Urey→B$^2$FH→Cameron |
 | `02_observed_abundances_I.md` | §II A, B | 太阳系丰度基准：地球-月、陨石、太阳 |
 | `03_observed_abundances_II.md` | §II C, D, E, F | 恒星、ISM、宇宙线、河外星系与 QSO |
 | `04_cosmological_nucleosynthesis.md` | §III A, B | 大爆炸核合成 + x 过程（宇宙线散裂） |
@@ -117,7 +117,7 @@ REFERENCES                                               pp. 966–969
 ## 0.7 [INTERPRETATION] 本文的价值与地位
 
 [INTERPRETATION] 在 1975 年的语境中，本文承担了 "18 年核合成进展的百科全书" 角色：它既是教学型综述，也是该领域 20 世纪 70 年代末共识的权威定义。对于今天的读者，它的最大价值在于：
-- 提供了从 B²FH 到 1975 全部进展的精确时间线；
+- 提供了从 B$^2$FH 到 1975 全部进展的精确时间线；
 - 汇总了当时所有观测数据的定量细节；
 - 清晰区分了 "已解决" 与 "未解决" 的问题，并诚实指出理论结构与观测基础的严重不对称。
 
@@ -127,9 +127,9 @@ REFERENCES                                               pp. 966–969
 
 ### 前序阅读
 
-- **B²FH (1957)** — 本领域奠基论文（Rev. Mod. Phys. 29, 547）
+- **B$^2$FH (1957)** — 本领域奠基论文（Rev. Mod. Phys. 29, 547）
 
 ### 关联论文
 
 - [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — Trimble 1975 → Wallerstein 1997 又是 22 年更新
-- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — Trimble 1975 是 B²FH 的 18 年后版本
+- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — Trimble 1975 是 B$^2$FH 的 18 年后版本

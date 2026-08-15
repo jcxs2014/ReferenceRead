@@ -9,23 +9,23 @@
 
 ## 4.1 本节核心内容
 
-§4 是全文的核心观测章节，标题即 "WHAT IS ACTUALLY OBSERVED?"。Kraft 系统列举 §3 标准预言与实测之间的每一条冲突，从 ¹²C/¹³C 至 α 元素丰度，逐一给出具体团、具体数值、具体来源。这是全文论证的"证据库"。
+§4 是全文的核心观测章节，标题即 "WHAT IS ACTUALLY OBSERVED?"。Kraft 系统列举 §3 标准预言与实测之间的每一条冲突，从 $^{12}{\rm C}$/$^{13}{\rm C}$ 至 $\alpha$ 元素丰度，逐一给出具体团、具体数值、具体来源。这是全文论证的"证据库"。
 
-## 4.2 铁峰元素与重 α 元素：基本符合传统预期 [FACT]
+## 4.2 铁峰元素与重 $\alpha$ 元素：基本符合传统预期 [FACT]
 
-- **除 Ω Cen 和可能 M22 外**：[Fe] 变化不超过 **0.1 dex** [FACT]。
-- **重 α 元素**：同一团内 [α/Fe] 未见星间差异 [FACT]。
-- **定量行为**：在给定 [Fe/H] 下（跨团独立），Mg, Si, Ca, Ti 四种重 α 元素"略微过量"且**数值相近** [FACT]。
-- **最近亚结构**（新信号）：Edvardsson et al. (1993)；McWilliam & Rich (1994)；Sneden et al. (1994) 提示温和贫金属星中重 α 元素存在丰度亚结构 [FACT]。
+- **除 $\Omega$ Cen 和可能 M22 外**：[Fe] 变化不超过 **0.1 dex** [FACT]。
+- **重 $\alpha$ 元素**：同一团内 [$\alpha$/Fe] 未见星间差异 [FACT]。
+- **定量行为**：在给定 [Fe/H] 下（跨团独立），Mg, Si, Ca, Ti 四种重 $\alpha$ 元素"略微过量"且**数值相近** [FACT]。
+- **最近亚结构**（新信号）：Edvardsson et al. (1993)；McWilliam & Rich (1994)；Sneden et al. (1994) 提示温和贫金属星中重 $\alpha$ 元素存在丰度亚结构 [FACT]。
 
-[INTERPRETATION] 这是关键控制变量：重 α 元素不变 → 说明这些元素不受"深混合"影响 → 混合机制若存在，必须具有元素选择性（只对 CNO + Na + Al 起作用），这与 CNO 循环处理直接吻合。
+[INTERPRETATION] 这是关键控制变量：重 $\alpha$ 元素不变 → 说明这些元素不受"深混合"影响 → 混合机制若存在，必须具有元素选择性（只对 CNO + Na + Al 起作用），这与 CNO 循环处理直接吻合。
 
-## 4.3 ¹²C/¹³C 趋向 CNO 平衡值 [FACT]
+## 4.3 $^{12}{\rm C}$/$^{13}{\rm C}$ 趋向 CNO 平衡值 [FACT]
 
 在 M4、M22、47 Tucanae 与场晕巨星的 RGB 星中（Sneden et al. 1986；Brown & Wallerstein 1992；Bell et al. 1990；Suntzeff & Smith 1991；Shetrone et al. 1993）：
-- **¹²C/¹³C 趋近 CNO 平衡值 = 4** [FACT]（Fig. 4）。
+- **$^{12}{\rm C}$/$^{13}{\rm C}$ 趋近 CNO 平衡值 = 4** [FACT]（Fig. 4）。
 
-[CRITIQUE] §3 标准预言仅给出 ¹²C/¹³C ≈ 20–30，而实测趋近 4——这是"标准预言低估混合深度"的最直接证据。
+[CRITIQUE] §3 标准预言仅给出 $^{12}{\rm C}$/$^{13}{\rm C}$ ≈ 20–30，而实测趋近 4——这是"标准预言低估混合深度"的最直接证据。
 
 ## 4.4 C 丰度在 RGB 上连续下降 [FACT]
 
@@ -54,13 +54,13 @@ Langer & Kraft (1984) [FACT]：
 | O–N 反相关首次示范 | M13 | Pilachowski 1989 |
 | Cohen (1978) 早期暗示 | M13 | Cohen 1978 |
 | O–N 反相关扩展 | M13（大样本） | Brown et al. 1991；Kraft et al. 1992（部分沿用 Suntzeff 1981 N 丰度） |
-| O 处理 dredge-up 证据 | Ω Cen | Paltoglou & Norris 1989 |
+| O 处理 dredge-up 证据 | $\Omega$ Cen | Paltoglou & Norris 1989 |
 
 ## 4.7 N 丰度测量的系统不确定性 [FACT + CRITIQUE]
 
 - N 丰度测定"臭名昭著地困难" [FACT]：
-  - **λ3660 NH 带**极端紫外建模复杂 [FACT]
-  - **λ3883 CN 带**建模复杂 [FACT]
+  - **$\lambda$3660 NH 带**极端紫外建模复杂 [FACT]
+  - **$\lambda$3883 CN 带**建模复杂 [FACT]
 - CN 与 NH 带分别导出的 N 丰度**存在显著差异**（Briley 1993）[FACT]。
 - **Kraft 立场**："反相关本身真实，但 N 的绝对值相当不确定；目前尚不能判定所有星是否以相同 C+N+O 总量起始" [FACT]。
 
@@ -68,8 +68,8 @@ Langer & Kraft (1984) [FACT]：
 
 ## 4.8 s-process 与 CH 星的零星发现 [FACT]
 
-- **s-process 增强巨星**：Ω Cen 少数亮巨星（Dickens & Bell 1976）[FACT]。
-- **CH 星**：Ω Cen, M22, M55, M2 中均有发现（Smith & Mateo 1990）[FACT]。
+- **s-process 增强巨星**：$\Omega$ Cen 少数亮巨星（Dickens & Bell 1976）[FACT]。
+- **CH 星**：$\Omega$ Cen, M22, M55, M2 中均有发现（Smith & Mateo 1990）[FACT]。
 
 ## 4.9 图分析
 
@@ -113,9 +113,9 @@ Kraft 由此过渡到 §5：在 §3 传统演化框架下，这一结果如何�
 
 | 观测/预言 | §3 预言 | §4 实测 | 偏离程度 |
 |-----------|---------|---------|---------|
-| ¹²C/¹³C | 20–30 | → 4（CNO 平衡） | 3–8× |
+| $^{12}{\rm C}$/$^{13}{\rm C}$ | 20–30 | → 4（CNO 平衡） | 3–8× |
 | [C/Fe] 沿 RGB | 下降 ~30% | 下降 >10×（M92, M15） | 极大 |
 | [O/Fe] | 不变 | 单个 M13 星 −0.8 → +0.5（跨度 1.3 dex） | 极大 |
-| 重 α 元素（Mg, Si, Ca, Ti） | 不变 | 不变 | 一致 |
+| 重 $\alpha$ 元素（Mg, Si, Ca, Ti） | 不变 | 不变 | 一致 |
 
-[INTERPRETATION] 观测与标准理论的偏离呈现**清晰的元素选择性**：CNO 系大幅偏离、α 系不变——这直接约束混合机制的深层物理：必须涉及 CNO 壳层但不触及更深处的高温核区。
+[INTERPRETATION] 观测与标准理论的偏离呈现**清晰的元素选择性**：CNO 系大幅偏离、$\alpha$ 系不变——这直接约束混合机制的深层物理：必须涉及 CNO 壳层但不触及更深处的高温核区。

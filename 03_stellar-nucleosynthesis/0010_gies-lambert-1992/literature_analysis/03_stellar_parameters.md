@@ -12,12 +12,12 @@
 
 [FACT] 作者采用 **Brown et al. (1986)** 与 **Wolff (1990)** 的方法：
 1. 用**测量 Balmer 跳变的色指数**作为 T_eff 指标；
-2. 用 **Hβ 谱线轮廓**作为 log g 指标；
-3. 因为色指数与 Hβ 宽度对 T_eff 和 log g 都有耦合依赖，用**迭代法**收敛。
+2. 用 **H$\beta$ 谱线轮廓**作为 log g 指标；
+3. 因为色指数与 H$\beta$ 宽度对 T_eff 和 log g 都有耦合依赖，用**迭代法**收敛。
 
 [FACT] 迭代流程：
-1. 用色指数 [c1] 与 Strömgren β 的校准先给 T_eff 与 log g 初值；
-2. 用该 T_eff 构建不同 log g 的 Hβ 轮廓网格，与观测宽度最佳匹配得到新 log g；
+1. 用色指数 [c1] 与 Strömgren $\beta$ 的校准先给 T_eff 与 log g 初值；
+2. 用该 T_eff 构建不同 log g 的 H$\beta$ 轮廓网格，与观测宽度最佳匹配得到新 log g；
 3. 用新 log g 反推 T_eff；
 4. 若两次 T_eff 差 > 50 K，回到步骤 2。
 
@@ -59,10 +59,10 @@ $c^0$ 与 $E(b-y)$ 通过 Crawford (1978) 迭代法获得；普通星用 **Under
 ## 3.3 与 Code et al. (1976) 基准温度的校准
 
 [FACT] 对 5 颗超巨星（Underhill et al. 1979 数据不完整），作者的 log g 分别来自：
-- η Ori (HD 51309)：Underhill et al. 1982，log g = 3.7；
-- δ Oph (HD 61068)：Vogt & Penrod 1983，log g = 3.8；
-- η Cen (HD 180163)：光谱分类 B1.5 Ve，log g = 4.0；
-- β Cru、δ Sco、α Pav：用 Underhill et al. 1979 数据 + Maeder & Meynet (1987) 演化轨在理论 H-R 图中定位，分别得 log g = 3.6, 3.8, 4.0。
+- $\eta$ Ori (HD 51309)：Underhill et al. 1982，log g = 3.7；
+- $\delta$ Oph (HD 61068)：Vogt & Penrod 1983，log g = 3.8；
+- $\eta$ Cen (HD 180163)：光谱分类 B1.5 Ve，log g = 4.0；
+- $\beta$ Cru、$\delta$ Sco、$\alpha$ Pav：用 Underhill et al. 1979 数据 + Maeder & Meynet (1987) 演化轨在理论 H-R 图中定位，分别得 log g = 3.6, 3.8, 4.0。
 
 [FACT] **Figure 6**：本文色指数温度 vs Code et al. (1976) 基准温度。
 - 除 Spica 外，Code et al. 温度**系统性偏高**；
@@ -71,7 +71,7 @@ $c^0$ 与 $E(b-y)$ 通过 Crawford (1978) 迭代法获得；普通星用 **Under
 
 [FACT] **误差估计**：
 - 温度：2%–4%（从图 6 散布）；
-- 重力：Δ log g = 0.1。
+- 重力：$\Delta$ log g = 0.1。
 
 [FACT] 与 **Wolff (1990)** 比较（8 颗共同星，方法最相似）：
 > ⟨log g(GL) − log g(Wolff)⟩ = 0.06，标准差 0.10 —— 与作者误差估计一致。
@@ -98,22 +98,22 @@ $c^0$ 与 $E(b-y)$ 通过 Crawford (1978) 迭代法获得；普通星用 **Under
 
 | 项目 | 值 |
 |------|-----|
-| 迭代收敛 | < 4 次，判据 ΔT < 50 K |
+| 迭代收敛 | < 4 次，判据 $\Delta$T < 50 K |
 | 温度误差 | 2%–4% |
-| 重力误差 | Δ log g = 0.1 |
+| 重力误差 | $\Delta$ log g = 0.1 |
 | T_eff 范围（修正后） | ~16,500 – 34,400 K |
 | log g 范围 | 2.10 – 4.36 |
 | Lester/Gray/Kurucz 校正 | ×1.042 |
 | Balona 校正 | ×1.052 |
-| 与 Wolff 1990 比较 | Δ log g = 0.06 ± 0.10 |
-| 超巨星 vs Underhill | ΔT ≈ 3000 K |
+| 与 Wolff 1990 比较 | $\Delta$ log g = 0.06 ± 0.10 |
+| 超巨星 vs Underhill | $\Delta$T ≈ 3000 K |
 
 ---
 
 ## 3.6 我的理解 [INTERPRETATION]
 
 [INTERPRETATION]
-1. 作者把色指数（Balmer 跳变）与 Hβ 轮廓两条独立温度/重力指标**耦合迭代**，这是 Balmer 大气参数测定的经典策略；比单纯用单一色指数更可靠；
+1. 作者把色指数（Balmer 跳变）与 H$\beta$ 轮廓两条独立温度/重力指标**耦合迭代**，这是 Balmer 大气参数测定的经典策略；比单纯用单一色指数更可靠；
 2. 明确承认 Kurucz LTE 模型对 O 星和超巨星不牢靠——为后续 non-LTE 分析铺路；
 3. 超巨星 T_eff 采用自己的（高于 Underhill ~3000 K），同时保留 Underhill 尺度下的丰度结果（Table 8），这种**保守双尺度**策略很稳健；
 4. 温度校准的 1.042/1.052 因子 + § 7.1 中 3.4% 修正，合计约 **10%** T_eff 上移 —— 是后续丰度分析的关键参数。
@@ -124,5 +124,5 @@ $c^0$ 与 $E(b-y)$ 通过 Crawford (1978) 迭代法获得；普通星用 **Under
 
 [CRITIQUE]
 1. 光谱双星的色指数未做校正——若伴星贡献显著（如 HD 31237 疑似 SB2），主星 [c1] 被伴星"稀释"，T_eff 被低估；
-2. 超巨星的 log g 从理论 H-R 图与演化轨插值得到（如 δ Sco log g=3.8），依赖演化模型本身，与后续 § 7.3 用 Maeder & Meynet 演化轨推演年龄有**潜在循环依赖**；
-3. 用"迭代收敛"判据 ΔT < 50 K 未报告迭代失败案例，但实际数据中若 Hβ 拟合不佳，可能收敛到次优解。
+2. 超巨星的 log g 从理论 H-R 图与演化轨插值得到（如 $\delta$ Sco log g=3.8），依赖演化模型本身，与后续 § 7.3 用 Maeder & Meynet 演化轨推演年龄有**潜在循环依赖**；
+3. 用"迭代收敛"判据 $\Delta$T < 50 K 未报告迭代失败案例，但实际数据中若 H$\beta$ 拟合不佳，可能收敛到次优解。

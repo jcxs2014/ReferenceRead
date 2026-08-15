@@ -106,9 +106,9 @@
 [FACT] 标准 BBN 模型（Wagoner et al. 1967; Thomas et al. 1993）仅产生 **7Li 的实质性数量**
 
 [FACT] 随核子/光子比（重子质量密度）增加，7Li 的产生经历三阶段：
-1. **低比值**：4He(3H,γ)7Li 主导
-2. **中比值**：7Li(p,α)4He 破坏 7Li → 7Li 丰度出现**凹陷**（在 n/γ ~ 127×10^(-10) 处）
-3. **高比值**：4He(3He,γ)7Be(e⁻,νₑ)7Li 再次产生 7Li
+1. **低比值**：4He(3H,$\gamma$)7Li 主导
+2. **中比值**：7Li(p,$\alpha$)4He 破坏 7Li → 7Li 丰度出现**凹陷**（在 n/$\gamma$ ~ 127×10^(-10) 处）
+3. **高比值**：4He(3He,$\gamma$)7Be(e⁻,$\nu$ₑ)7Li 再次产生 7Li
 
 [FACT] 预言的 7Li/H 比范围：**10^(-10) 至 10^(-9)**（Boesgaard & Steigman 1985; Krauss & Romanelli 1990）
 
@@ -118,30 +118,30 @@
 [FACT] **Reeves et al. (1970)**：银河系宇宙线轰击 C, N, O，碎裂为轻同位素——核心模型
 [FACT] Meneguzzi et al. (1971) 扩展：在多方面成功，但**欠产 7Li**，且无法匹配 Li 和 B 的同位素比
 
-[FACT] Steigman & Walker (1992)：**晕区散裂**比 α+α 反应更高效产生轻元素
+[FACT] Steigman & Walker (1992)：**晕区散裂**比 $\alpha$+$\alpha$ 反应更高效产生轻元素
 
 [FACT] 化学演化模型（Vangioni-Flam et al. 1990; Ryan et al. 1992; Prantzos et al. 1993; Feltzing & Gustafsson 1994; Tayler 1995; Lemoine et al. 1997）解释轻元素随银河系演化
 
 ### 4.4.3 3. Asymptotic giant branch stars
 
-[FACT] AGB 星可产生 7Li：3He + 4He → 7Be → 7Be(e⁻,νₑ)7Li（Cameron 1955）
+[FACT] AGB 星可产生 7Li：3He + 4He → 7Be → 7Be(e⁻,$\nu$ₑ)7Li（Cameron 1955）
 
 [FACT] LMC 中超锂巨星（Smith & Lambert 1989, 1990; Plez et al. 1993; Smith et al. 1995）：
 - 通过 ZrO 分子带识别为 AGB 星
-- Sackmann & Boothroyd (1992) 3–7 M☉ 模型可重现 LMC 超锂巨星（初始质量 **4–6 M☉**）
+- Sackmann & Boothroyd (1992) 3–7 $M_\odot$ 模型可重现 LMC 超锂巨星（初始质量 **4–6 $M_\odot$**）
 
 ### 4.4.4 4. Supernovae
 
 [FACT] **19F 的超新星起源**（Woosley et al. 1990; Timmes, Woosley & Weaver 1995）：
-- Ne 燃烧壳层中丰富的 20Ne 通过 ν 过程（neutrino evaporation）产生 19F
-- **ν 过程被提议作为 B2FH 八过程之外的新过程**
+- Ne 燃烧壳层中丰富的 20Ne 通过 $\nu$ 过程（neutrino evaporation）产生 19F
+- **$\nu$ 过程被提议作为 B2FH 八过程之外的新过程**
 
 ## 4.5 本章要点总结
 
 [FACT] Li, Be, B 的起源是**多源的**：
 - **7Li**：BBN（下限）+ AGB 星（次要）+ 可能其他
 - **9Be, 10B, 11B**：主要来自宇宙线散裂（银河系尺度）
-- **19F**：恒星 ν 过程（中微子加热重元素）
+- **19F**：恒星 $\nu$ 过程（中微子加热重元素）
 
 [FACT] **Spite plateau**（log N(Li) ≈ 2.2）是原初 Li 的下限估计，但存在内部散布（2.5× 内在范围），暗示 Li 的核合成/耗竭模型仍有问题
 
@@ -161,4 +161,4 @@
 | B/Be 比 | ~15 |
 | 太阳 B/H | 1.6×$10^{-10}$ |
 | 陨石 11B/10B | 4.05 |
-| AGB 7Li 超丰质量范围 | 4–6 M☉ |
+| AGB 7Li 超丰质量范围 | 4–6 $M_\odot$ |

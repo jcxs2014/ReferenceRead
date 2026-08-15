@@ -11,7 +11,7 @@
 | 中文逻辑词 | 英文等价词 | 词性 | 逻辑功能 | 原文/分析例句 | 逻辑说明 |
 |-----------|-----------|------|----------|---------------|----------|
 | 然而 | however | adv. | 转折 | "然而它的**代价**：金属丰度 Z 从 2% 降至 1.4%，打破了过去 20 年建立的'SSM 与日震一致性'的默契——这一张力至今未彻底解决。" | 承认 AGSS09 是分水岭，再指出代价，形成转折 |
-| 因此 | therefore / thus | adv. | 因果(结果) | "Lyubimkov 的 d log ε(N)/dt 值（0.15 dex per $10^{6}$ yr 对 13–20 M☉）极大——主序列寿命 ~$10^{7}$ yr，意味着 0.15×10 = 1.5 dex 总变化，远超 CN-cycle 平衡态的理论极限；这个数值本身就有物理上的可疑性；" | 由速率与寿命之积推出总变化超出理论极限 |
+| 因此 | therefore / thus | adv. | 因果(结果) | "Lyubimkov 的 d log $\epsilon$(N)/dt 值（0.15 dex per $10^{6}$ yr 对 13–20 $M_\odot$）极大——主序列寿命 ~$10^{7}$ yr，意味着 0.15×10 = 1.5 dex 总变化，远超 CN-cycle 平衡态的理论极限；这个数值本身就有物理上的可疑性；" | 由速率与寿命之积推出总变化超出理论极限 |
 | 从而 | thereby | adv. | 因果(由此) | "辐射加热/冷却率驱动对流运动；为节省计算，opacity 用 4–20 个典型 opacity bins 表示……" | opacity binning 是驱动对流计算节省的手段 |
 | 而 | whereas / while | conj. | 对比 | "陨石质谱：精度高（含同位素），但 H、He、C、N、O、Ne 挥发元素在陨石中缺失；因此陨石丰度以 Si = $10^{6}$ 为基准，需要太阳光球 Si 丰度'搭桥'。" | 陨石丰度 vs 太阳光球丰度的互补性 |
 | 进而 | furthermore | adv. | 递进 | "因此**观测质量不是太阳丰度误差的主要来源**，重点在于模型和原子数据。" | 递进论证：先肯定观测一致，进而指向模型/原子数据 |
@@ -23,7 +23,7 @@
 | 总之 | overall / in summary | adv. | 结论 | "本文承诺：回顾太阳丰度分析所需的所有原料……逐一元素、同质地讨论光球丰度……与陨石、邻近恒星、H II 区、ISM、日震、太阳中微子进行交叉比较……总结要点与开放问题" | 列出全文四大目标即作者结论 |
 | 同时 | simultaneously / likewise | adv. | 递进 | "逐一元素、同质地讨论光球丰度（§3）；与陨石、邻近恒星、H II 区、ISM、日震、太阳中微子进行交叉比较（§4）" | 两个研究目标并列进行 |
 | 相反 | in contrast / on the contrary | phrase | 转折 | "半经验模型（HM, MISS）的温度梯度比 1D 理论模型更浅（见 Fig 1）。" | 对比两类 1D 模型的温度结构 |
-| 换言之 | namely / that is | phrase | 举例 | "标准标度：log ε_H = 12.00；一般定义：log ε_X = log(N_X / N_H) + 12" | 定义展开 |
+| 换言之 | namely / that is | phrase | 举例 | "标准标度：log $\epsilon$_H = 12.00；一般定义：log $\epsilon$_X = log(N_X / N_H) + 12" | 定义展开 |
 | 此外 | moreover / in addition | adv. | 递进 | "Li 及可能的 Be 的额外烧尽（depletion）。" | 补充光球丰度修正的第二项 |
 | 甚至 | even | adv. | 递进 | "声速剖面偏差增大（尤其在对流区底部 R ≈ 0.71 R⊙ 以下）" | 递进强调偏差严重程度 |
 | 如果 | if / should | conj. | 让步 | "如果以上都无法解决，说明光球丰度测量本身可能存在问题，但目前找不到明显错误来源。这是天体物理学界至今的开放难题。" | 假设全部解决方案失败，引出更深层问题 |
@@ -38,7 +38,7 @@
 |-----------------|----------|----------|-------------|
 | solar abundance | 太阳丰度 | 40+ | §0.1 |
 | photosphere | 光球层 | 30+ | §0.3 |
-| log ε (astronomical abundance) | 天文对数丰度 log ε_X = log(N_X/N_H)+12 | 25+ | §0.5.1 |
+| log $\epsilon$ (astronomical abundance) | 天文对数丰度 log $\epsilon$_X = log(N_X/N_H)+12 | 25+ | §0.5.1 |
 | Z, X, Y (mass fractions) | 金属/氢/氦质量分数 | 20+ | §0.5.2 |
 | AGSS09 | Asplund et al. 2009 太阳丰度标 | 15+ | §0.2 |
 | 3D hydrodynamic model | 三维流体力学太阳模型 | 15+ | §1.3 |
@@ -48,7 +48,7 @@
 | Trampedach et al. (2009) | 本文主要 3D 模型 | 8+ | §2.4.2 |
 | equivalent width (EW) | 等值宽度 | 10+ | §2.4.3 |
 | line profile fitting | 线轮廓拟合 | 8+ | §2.4.3 |
-| microturbulence (ξ) | 微湍流 | 8+ | §2.5 |
+| microturbulence ($\xi$) | 微湍流 | 8+ | §2.5 |
 | macroturbulence | 宏湍流 | 3 | §2.5 |
 | mixed-length theory | 混合长理论 | 3 | §2.4.1 |
 | Opacity Project | 不透明度研究计划 | 3 | §2.3.2 |
@@ -69,7 +69,7 @@
 | C, N, O, Ne | 碳、氮、氧、氖丰度 | 30+ | §1.3 |
 | metallicity Z | 金属丰度 | 15+ | §0.5.2 |
 | solar system / proto-solar | 太阳系/原太阳 | 3 | §0.5.2 |
-| Γ₁ (adiabatic exponent) | 绝热指数 | 2 | §3.9 |
+| $\Gamma$₁ (adiabatic exponent) | 绝热指数 | 2 | §3.9 |
 | R_BCZ | 对流区底部半径 | 3 | §0.6 |
 | sound-speed profile | 声速剖面 | 4 | §0.6 |
 | opacity | 不透明度 | 6 | §0.6 |

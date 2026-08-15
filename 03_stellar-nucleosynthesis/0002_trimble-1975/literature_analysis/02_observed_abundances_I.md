@@ -64,17 +64,17 @@
 
 #### b. Abundances of the nuclides
 
-[FACT] 同位素丰度是核合成理论的"指纹"。B²FH 通过比较观测同位素丰度与 s 过程、r 过程路径上的稳定同位素位置，确立了 s 与 r 的双重路径图景。本文对这一框架做了定量更新。
+[FACT] 同位素丰度是核合成理论的"指纹"。B$^2$FH 通过比较观测同位素丰度与 s 过程、r 过程路径上的稳定同位素位置，确立了 s 与 r 的双重路径图景。本文对这一框架做了定量更新。
 
 #### c. Helium, neon, carbon, and oxygen
 
-[FACT] 太阳/陨石中 He、Ne、C、O 的丰度对宇宙学原初丰度与恒星产量都构成约束。He 是宇宙学产物，Ne 是 α 元素，C 与 O 是 He 燃烧与 H 燃烧的产物。
+[FACT] 太阳/陨石中 He、Ne、C、O 的丰度对宇宙学原初丰度与恒星产量都构成约束。He 是宇宙学产物，Ne 是 $\alpha$ 元素，C 与 O 是 He 燃烧与 H 燃烧的产物。
 
 #### d. Xenonology and nucleocosmochronology
 
-[FACT] "Xenonology"（氙同位素地球化学）通过陨石中异常 Xe 同位素组分反推短寿命核素（如 ¹²⁹I, ¹³⁵Cs）在太阳系形成时的存在，从而给出核合成时标约束。
+[FACT] "Xenonology"（氙同位素地球化学）通过陨石中异常 Xe 同位素组分反推短寿命核素（如 $^{129}{\rm I}$, $^{135}{\rm Cs}$）在太阳系形成时的存在，从而给出核合成时标约束。
 
-[FACT] "Nucleocosmochronology"（核素宇宙年代学）通过长寿命放射性核素（如 ²³⁵U/²³⁸U, ²³²Th 等）的衰变来估计银河重元素合成的时标。本文将其作为 §III F 中银河产量模型的关键外部约束。
+[FACT] "Nucleocosmochronology"（核素宇宙年代学）通过长寿命放射性核素（如 $^{235}{\rm U}$/$^{238}{\rm U}$, $^{232}{\rm Th}$ 等）的衰变来估计银河重元素合成的时标。本文将其作为 §III F 中银河产量模型的关键外部约束。
 
 ### 2.3.3 Solar photosphere and solar corona
 

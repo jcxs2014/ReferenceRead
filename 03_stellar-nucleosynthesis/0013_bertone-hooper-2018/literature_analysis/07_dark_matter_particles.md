@@ -25,16 +25,16 @@
 
 | 年份 | 作者 | 结论 / 事件 |
 |------|------|-------------|
-| 1966 | Gershtein & Zeldovich | 首次讨论宇宙学中中微子；基于 CMB 3 K；ν_e, ν_μ 热遗迹；**m_ν ≲ 400 eV** |
-| 1972 | Cowsik & McClelland | 类似方法，单种 Dirac ν **m_ν ≲ 8 eV**（Marx-Szalay 1972 独立） |
-| 1976 | Szalay & Marx | 讨论 ~10 eV ν 可构成缺失质量 |
+| 1966 | Gershtein & Zeldovich | 首次讨论宇宙学中中微子；基于 CMB 3 K；$\nu$_e, $\nu$_$\mu$ 热遗迹；**m_$\nu$ ≲ 400 eV** |
+| 1972 | Cowsik & McClelland | 类似方法，单种 Dirac $\nu$ **m_$\nu$ ≲ 8 eV**（Marx-Szalay 1972 独立） |
+| 1976 | Szalay & Marx | 讨论 ~10 eV $\nu$ 可构成缺失质量 |
 | 1977 Apr | Hut | 排除 120 eV – 3 GeV |
-| 1977（一周后） | Lee & Weinberg | 类似下界 m_ν > 2 GeV；末句首次暗示重 ν 可闭合宇宙 |
+| 1977（一周后） | Lee & Weinberg | 类似下界 m_$\nu$ > 2 GeV；末句首次暗示重 $\nu$ 可闭合宇宙 |
 | 1977 | Sato-Kobayashi | 类似 |
 | 1977 | Dicus-Kolb-Teplitz | 不稳定中微子可回避 |
 | 1977 | Vysotsky-Dolgov-Zeldovich | 更新苏联约束 |
 | 1978 | Gunn-Lee-Lerche-Schramm-Steigman | 明确指出重轻子是"galactic halos"和"bind clusters"的**优秀候选体** |
-| 1980 | Lubimov et al. | 氚 β 衰变测 **m(ν̄_e) ≈ 30 eV**（后被推翻） |
+| 1980 | Lubimov et al. | 氚 $\beta$ 衰变测 **m($\nu$̄_e) ≈ 30 eV**（后被推翻） |
 
 - [FACT] Lee-Weinberg 1977 末句：
   > "if a stable heavy neutral lepton were discovered with a mass of order 1-15 GeV, the gravitational field of these heavy neutrinos would provide a plausible mechanism for closing the universe."
@@ -45,7 +45,7 @@
 - [FACT] 关键句：
   > "The conventional neutrino-dominated picture appears to be ruled out."
 - [FACT] 冷 / 热暗物质术语由 Primack & Bond 1983 造出。
-- [FACT] 1983 年后中微子作为暗物质主流候选被放弃；τ 中微子（质量未测到 2000 年）除外。
+- [FACT] 1983 年后中微子作为暗物质主流候选被放弃；$\tau$ 中微子（质量未测到 2000 年）除外。
 
 ### 7.1.4 惰性中微子（Sterile Neutrino）
 
@@ -92,7 +92,7 @@ $$P_R = (-1)^{2s + 3B + L}$$
 | 1983 | Weinberg | 光微子质量下界 **m > 1.8 GeV** |
 | 1983 | Goldberg | 同，独立 |
 | 1983-1984 | Ellis-Hagelin-Nanopoulos-Olive-Srednicki | 扩展到多种中性微子 |
-| 1983 | Ellis et al. (Phys. Lett. B) | 脚注：可施加更严缺失质量约束 ρ_χ ≤ 2×$10^{-30}$ (Ωh²) g/cm³ |
+| 1983 | Ellis et al. (Phys. Lett. B) | 脚注：可施加更严缺失质量约束 $\rho$_$\chi$ ≤ 2×$10^{-30}$ ($\Omega$h²) g/cm³ |
 
 - [FACT] SUSY 的吸引力**不完全依赖暗物质**——还能解决**电弱等级问题**（hierarchy problem）、实现**规范耦合统一**（Dimopoulos-Raby-Wilczek 1981；Ibanez-Ross 1981；Marciano-Senjanovic 1982）。
 - [FACT] 若宇宙物质密度恰与可见重子一致，粒子物理学家仍会关注 SUSY——暗物质只是"附加奖励"。
@@ -103,12 +103,12 @@ $$P_R = (-1)^{2s + 3B + L}$$
 
 - [FACT] QCD 拉氏量包含 CP 破坏项（文中公式 (2)）：
 $$\mathcal{L}_{\rm QCD} \supset \bar{\Theta}\,\frac{g^2}{32\pi^2}\,G_{\mu\nu}^a\,\tilde{G}^{a\mu\nu}$$
-- [FACT] 若 Θ̄ ~ O(1)，中子电偶极矩应为实验上限 ~$10^{10}$ 倍。
-- [FACT] 实验要求 **|Θ̄| ≲ $10^{-10}$** —— 极度精细调节。
+- [FACT] 若 $\Theta$̄ ~ O(1)，中子电偶极矩应为实验上限 ~$10^{10}$ 倍。
+- [FACT] 实验要求 **|$\Theta$̄| ≲ $10^{-10}$** —— 极度精细调节。
 
 ### 7.3.2 Peccei-Quinn 机制
 
-- [FACT] Peccei-Quinn 1977a,b：引入自发破缺的整体 **U(1)** 对称性，动态把 Θ̄ 推向零。
+- [FACT] Peccei-Quinn 1977a,b：引入自发破缺的整体 **U(1)** 对称性，动态把 $\Theta$̄ 推向零。
 - [FACT] Wilczek 1978 与 Weinberg 1978 独立指出破缺的 U(1) 蕴含 **Nambu-Goldstone 玻色子——轴子（axion）**。
 - [FACT] 轴子质量：
 $$m_a \sim \frac{\lambda_{\rm QCD}^2}{f_{\rm PQ}}, \quad \lambda_{\rm QCD} \sim 200\,{\rm MeV}$$
@@ -118,7 +118,7 @@ $$m_a \sim \frac{\lambda_{\rm QCD}^2}{f_{\rm PQ}}, \quad \lambda_{\rm QCD} \sim 
 
 | 约束 | 排除质量范围 | 出处 |
 |------|--------------|------|
-| 稀有介子衰变 K⁺→π⁺a, J/ψ→γa | m_a > ~10 keV | 综述 |
+| 稀有介子衰变 K⁺→$\pi$⁺a, J/$\psi$→$\gamma$a | m_a > ~10 keV | 综述 |
 | 红巨星快速冷却 | m_a > ~1 eV | 综述 |
 | SN1987A | m_a ≳ $10^{-3}$ eV | 综述（引自 Kolb-Turner 1990 Ch.10） |
 | 现代主要候选质量区间 | $10^{-6}$ – $10^{-4}$ eV | 综述 |
@@ -126,10 +126,10 @@ $$m_a \sim \frac{\lambda_{\rm QCD}^2}{f_{\rm PQ}}, \quad \lambda_{\rm QCD} \sim 
 ### 7.3.4 轴子产生机制
 
 - [FACT] **热产生**（Kephart-Weiler 1987；Turner 1987）——丰度极小，不足。
-- [FACT] **失配机制**（misalignment）：PQ 场初始值为大值，当 T ~ λ_QCD 时场滚动到极小值，能量转换为轴子（Abbott-Sikivie 1983；Dine-Fischler 1983；Preskill-Wise-Wilczek 1983）。典型初始条件给出 m_a ~ $10^{-5}$ eV 时密度约等于暗物质密度。
+- [FACT] **失配机制**（misalignment）：PQ 场初始值为大值，当 T ~ $\lambda$_QCD 时场滚动到极小值，能量转换为轴子（Abbott-Sikivie 1983；Dine-Fischler 1983；Preskill-Wise-Wilczek 1983）。典型初始条件给出 m_a ~ $10^{-5}$ eV 时密度约等于暗物质密度。
 - [FACT] **拓扑缺陷**：弦（strings）与畴壁（domain walls），衰变产生轴子 ~ 失配量（Davis 1986）。
 - [FACT] 若暴胀发生在 PQ 破缺**之后**，缺陷网络被抹除；反之保留。
-- [FACT] 若暴胀在 PQ 破缺**之后**，可能存在**人择解释**（Linde 1991；Wilczek 2004；Tegmark et al. 2006）——Θ̄ 初始值 ~ O(1) 区域轴子密度过高、空间快速收缩；稀有 Θ̄ ≪1 区域允许宇宙膨胀，生命存在于此 → 我们必然观测到"暗物质相当的轴子密度"。
+- [FACT] 若暴胀在 PQ 破缺**之后**，可能存在**人择解释**（Linde 1991；Wilczek 2004；Tegmark et al. 2006）——$\Theta$̄ 初始值 ~ O(1) 区域轴子密度过高、空间快速收缩；稀有 $\Theta$̄ ≪1 区域允许宇宙膨胀，生命存在于此 → 我们必然观测到"暗物质相当的轴子密度"。
 
 ## 7.4 D. The WIMP Paradigm
 
@@ -155,9 +155,9 @@ $$\sigma v \sim 10^{-26}\,{\rm cm^3/s}$$
 
 | 公式 | 说明 |
 |------|------|
-| m_χ > ~1–100 keV | 冷暗物质下界（避免退耦为热暗物质） |
-| σv ≈ $10^{-26}$ cm³/s | 热遗迹丰度匹配 Ω_DM h² ≈ 0.12 的截面 |
-| Ωh² ≈ 0.1 / (σv) [近似] | WIMP 热遗迹丰度公式（Griest-Seckel） |
+| m_$\chi$ > ~1–100 keV | 冷暗物质下界（避免退耦为热暗物质） |
+| $\sigma$v ≈ $10^{-26}$ cm³/s | 热遗迹丰度匹配 $\Omega$_DM h² ≈ 0.12 的截面 |
+| $\Omega$h² ≈ 0.1 / ($\sigma$v) [近似] | WIMP 热遗迹丰度公式（Griest-Seckel） |
 
 ## 7.5 [CRITIQUE]
 

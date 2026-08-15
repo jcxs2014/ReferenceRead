@@ -51,11 +51,11 @@
 
 ---
 
-### Figure 5 — Hβ 轮廓拟合（p.677）
+### Figure 5 — H$\beta$ 轮廓拟合（p.677）
 
-1. **目的**：展示 Hβ 谱线轮廓随 log g 变化的模型拟合。
+1. **目的**：展示 H$\beta$ 谱线轮廓随 log g 变化的模型拟合。
 2. **元素**：观测轮廓（点）vs 不同 log g 的理论轮廓（线）。
-3. **关键观察**：Hβ 轮廓宽度对 log g 敏感，是重力测量的可靠指标。
+3. **关键观察**：H$\beta$ 轮廓宽度对 log g 敏感，是重力测量的可靠指标。
 4. **物理意义**：支撑 § 3 迭代法中的 log g 估计步骤。
 
 ---
@@ -101,27 +101,27 @@
 
 ### Figure 9 — LTE vs non-LTE microturbulence（p.683）
 
-1. **目的**：展示 LTE 与 non-LTE ξ 对比，证明 non-LTE 效应主要影响超巨星。
-2. **坐标**：横轴 ξ (LTE) (km s⁻¹)，纵轴 ξ (non-LTE)。
+1. **目的**：展示 LTE 与 non-LTE $\xi$ 对比，证明 non-LTE 效应主要影响超巨星。
+2. **坐标**：横轴 $\xi$ (LTE) (km s⁻¹)，纵轴 $\xi$ (non-LTE)。
 3. **元素**：超巨星（填充圆）、其他星（空心圆）。
 4. **关键观察**：
-   - 非超巨星：ξ (LTE) ≈ 6, ξ (non-LTE) ≈ 5（接近对角线）；
-   - **超巨星**：ξ (LTE) ≈ 20–25 → ξ (non-LTE) ≈ 5–10（大幅下降）。
-5. **物理意义**：超巨星 LTE ξ 的"超声速"值是 non-LTE 偏离的信号。
+   - 非超巨星：$\xi$ (LTE) ≈ 6, $\xi$ (non-LTE) ≈ 5（接近对角线）；
+   - **超巨星**：$\xi$ (LTE) ≈ 20–25 → $\xi$ (non-LTE) ≈ 5–10（大幅下降）。
+5. **物理意义**：超巨星 LTE $\xi$ 的"超声速"值是 non-LTE 偏离的信号。
 
 ---
 
 ### Figure 10 — Microturbulence vs T_eff（p.684，隐含）
 
-1. **目的**：展示 ξ 随 T_eff 变化。
-2. **关键数值**：ξ(NLTE) = 4 km s⁻¹ at 17,000 K → 6 km s⁻¹ at 30,000 K。
+1. **目的**：展示 $\xi$ 随 T_eff 变化。
+2. **关键数值**：$\xi$(NLTE) = 4 km s⁻¹ at 17,000 K → 6 km s⁻¹ at 30,000 K。
 
 ---
 
 ### Figure 11 — Non-LTE abundances vs T_eff（p.691）
 
 1. **目的**：展示 C II、N II、O II、He I non-LTE 丰度随 T_eff 的系统趋势，用于推导温度修正 f。
-2. **坐标**：横轴 T_eff (K) 10,000–35,000，纵轴 log ε − log ε(太阳)。
+2. **坐标**：横轴 T_eff (K) 10,000–35,000，纵轴 log $\epsilon$ − log $\epsilon$(太阳)。
 3. **元素**：非超巨星（空心圆）、超巨星（填充圆）；虚线 = 各物种最优 f 拟合，实线 = 统一 f = 0.034 拟合。
 4. **关键观察**：所有主要线种都显示丰度随 T_eff 单调下降，证实温度被系统性低估 ~3.4%。
 
@@ -151,7 +151,7 @@
 ### Figure 15 — Histogram of corrected abundances（p.693）
 
 1. **目的**：展示温度修正后丰度分布 vs 太阳。
-2. **坐标**：横轴 Δ log ε = log ε(本文) − log ε(太阳)；纵轴星数。
+2. **坐标**：横轴 $\Delta$ log $\epsilon$ = log $\epsilon$(本文) − log $\epsilon$(太阳)；纵轴星数。
 3. **元素**：实心线 = LTE，阴影 = non-LTE。
 4. **关键观察**：
    - C、O、He 分布对称，中心 ≈ 0；
@@ -162,7 +162,7 @@
 ### Figure 16 — C vs N anti-correlation（p.696）
 
 1. **目的**：测试 CN-cycle 的 C+N 守恒签名。
-2. **坐标**：横轴 non-LTE log ε(N)，纵轴 non-LTE log ε(C)。
+2. **坐标**：横轴 non-LTE log $\epsilon$(N)，纵轴 non-LTE log $\epsilon$(C)。
 3. **元素**：填充圆 = 超巨星；实线 = Maeder & Meynet (1988) 预测的 C 随 N 下降趋势。
 4. **关键观察**：
    - 边缘性证据：最 N-strong 星显示 C 下降；
@@ -204,10 +204,10 @@
 ### Figure 21 — Lyubimkov 假相关重演（p.698）
 
 1. **目的**：**决定性反证图**：用本文数据重演 Lyubimkov 的 N 丰度 vs 年龄相关。
-2. **坐标**：横轴年龄 ($10^{6}$ yr)，纵轴 N II λ4630 推导的 log ε(N)。
+2. **坐标**：横轴年龄 ($10^{6}$ yr)，纵轴 N II $\lambda$4630 推导的 log $\epsilon$(N)。
 3. **元素**：非超巨星（空心圆），超巨星 HD 52089（填充圆）；虚线 = 最小二乘拟合。
 4. **关键数值**：斜率 = **0.035 dex per $10^{6}$ yr**。
-5. **作者解释**：此相关**纯粹是 log g=4、ξ=0 假设导致的伪相关**——演化星 log g 下降 + ξ 增大 → 线变强 → 假定旧 log g、ξ 时推导的丰度假性增大。
+5. **作者解释**：此相关**纯粹是 log g=4、$\xi$=0 假设导致的伪相关**——演化星 log g 下降 + $\xi$ 增大 → 线变强 → 假定旧 log g、$\xi$ 时推导的丰度假性增大。
 
 ---
 
@@ -222,7 +222,7 @@
 
 ### Table 1 — Stellar Parameters（p.675）
 
-- 39 颗星的全参数：HD、HR、常用名、光谱型、[c1]、c⁰、T_eff、log g、V sin i、ξ(LTE)、ξ(NLTE)。
+- 39 颗星的全参数：HD、HR、常用名、光谱型、[c1]、c⁰、T_eff、log g、V sin i、$\xi$(LTE)、$\xi$(NLTE)。
 - 是全篇丰度分析的基础输入参数表。
 
 ### Table 2 — Observed Spectral Regions（p.675）
@@ -236,16 +236,16 @@
 
 ### Table 4 — Atomic Data（p.684）
 
-- 所有线的 log gf、Ref（K/W/A）、Tr、ΓS。
+- 所有线的 log gf、Ref（K/W/A）、Tr、$\Gamma$S。
 - 是丰度计算的核心原子数据源。
 
 ### Table 5 — LTE Mean Abundances（p.684–686，跨 2 页）
 
-- 每颗星的 15 种离子（He I、He II、C II、C III、N II、N III、O II、Ne I、Al III、Si II、Si III、Si IV、S II、Fe II、Fe III）的 log ε、σ、n、Δ 修正。
+- 每颗星的 15 种离子（He I、He II、C II、C III、N II、N III、O II、Ne I、Al III、Si II、Si III、Si IV、S II、Fe II、Fe III）的 log $\epsilon$、$\sigma$、n、$\Delta$ 修正。
 
 ### Table 6 — N I Equivalent Widths and Abundances（p.687）
 
-- 10 颗星 N I λλ8680, 8683, 8686 的 EW 与丰度；对多数星不可见（给出上限）。
+- 10 颗星 N I $\lambda$$\lambda$8680, 8683, 8686 的 EW 与丰度；对多数星不可见（给出上限）。
 
 ### Table 7 — （隐含，p.687）
 
@@ -257,15 +257,15 @@
 
 ### Table 9 — Non-LTE Mean Abundances（p.689–690）
 
-- 39 颗星的 non-LTE log ε(He)、log ε(C)、log ε(N)、log ε(O)，σ、Δ。
+- 39 颗星的 non-LTE log $\epsilon$(He)、log $\epsilon$(C)、log $\epsilon$(N)、log $\epsilon$(O)，$\sigma$、$\Delta$。
 
 ### Table 10 — Fractional Temperature Corrections（p.692）
 
 - 各物种的 f(LTE) 与 f(NLTE) 拟合值；平均 f = 0.034 ± 0.015。
 
-### Table 11 — NLTE Abundances from Si III λ5739（p.694）
+### Table 11 — NLTE Abundances from Si III $\lambda$5739（p.694）
 
-- 12 颗星的 non-LTE Si III 丰度（用 Lennon et al. 1986 表）；均值 log ε(Si) = 7.69 ± 0.40。
+- 12 颗星的 non-LTE Si III 丰度（用 Lennon et al. 1986 表）；均值 log $\epsilon$(Si) = 7.69 ± 0.40。
 
 ### Table 12 — Orion Nebula Abundance Analyses（p.695）
 
@@ -273,7 +273,7 @@
 
 ### Table 13 — Derived Properties from Evolutionary Tracks（p.698）
 
-- 39 颗星用 Maeder & Meynet (1988) 演化轨插值得到的 Age ($10^{6}$ yr)、Mass (M☉)、Radius (R☉)。
+- 39 颗星用 Maeder & Meynet (1988) 演化轨插值得到的 Age ($10^{6}$ yr)、Mass ($M_\odot$)、Radius (R☉)。
 - 是 § 7.3.4 Lyubimkov 假象重演的关键输入。
 
 ---
@@ -287,7 +287,7 @@
 | Fig. 6 | Table 1 | 温度校准 |
 | Fig. 7 | Table 1 | 温度比较 |
 | Fig. 8 | Table 1 | V sin i 比较 |
-| Fig. 9 | Table 1 | ξ 对比 |
+| Fig. 9 | Table 1 | $\xi$ 对比 |
 | Fig. 11–14 | Table 5, 9, 11 | 丰度-T 趋势 |
 | Fig. 15 | Table 5, 9 | 修正后丰度分布 |
 | Fig. 16 | Table 9 | C-N 反相关 |

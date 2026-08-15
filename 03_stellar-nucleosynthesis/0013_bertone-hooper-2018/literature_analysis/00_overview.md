@@ -149,27 +149,27 @@ References
 | MOND $a_{0}$ | ≈1.2×$10^{-10}$ m/s² | Milgrom 1983 |
 | 微透镜事件时长 | t ≈130 d × (M/M⊙)^0.5 | Paczynski 1986 |
 | 微透镜光学深度 | ≈1/(2×$10^{6}$) | Paczynski 1986 |
-| Ω_b h²（CMB, Burles 2001） | 0.020 ± 0.002 (95% CL) | Burles, Nollett & Turner 2001 |
-| Ω_b h²（WMAP） | 0.02264 ± 0.00050 (68%) | Hinshaw et al. 2013 |
-| Ω_b h²（Planck） | 0.02225 ± 0.00016（<1% 精度） | Ade et al. 2015 |
+| $\Omega$_b h²（CMB, Burles 2001） | 0.020 ± 0.002 (95% CL) | Burles, Nollett & Turner 2001 |
+| $\Omega$_b h²（WMAP） | 0.02264 ± 0.00050 (68%) | Hinshaw et al. 2013 |
+| $\Omega$_b h²（Planck） | 0.02225 ± 0.00016（<1% 精度） | Ade et al. 2015 |
 | 重子物质占比 | < 20% 的宇宙物质 | 综述结论 |
 | 冷原初黑体质量范围 | $10^{14}$ – $10^{23}$ kg | 综述引用微透镜+γ射线 |
-| WIMP 湮灭截面 | σv ~ $10^{-26}$ cm³/s | Steigman & Turner 1985 |
+| WIMP 湮灭截面 | $\sigma$v ~ $10^{-26}$ cm³/s | Steigman & Turner 1985 |
 | 中微子质量上限（Zeldovich-Gershtein 1966） | ≲ 400 eV | Gershtein-Zeldovich 1966 |
 | 中微子质量上限（Cowsik-McClelland 1972） | ≲ 8 eV | Cowsik-McClelland 1972 |
-| 中微子质量上限（Lubimov 1980 氚 β 衰变） | ~30 eV（后被推翻） | Lubimov et al. 1980 |
+| 中微子质量上限（Lubimov 1980 氚 $\beta$ 衰变） | ~30 eV（后被推翻） | Lubimov et al. 1980 |
 | 初代轴子被排除质量 | > ~10 keV（稀有衰变） | 综述 |
 | 红巨星冷却约束 | > ~1 eV 排除 | 综述 |
 | SN1987A 约束 | m_a ≲ $10^{-3}$ eV | 综述 |
 | axion 主要质量区间 | $10^{-6}$ – $10^{-4}$ eV | 综述 |
-| ADMX 首次探测质量 | 1.9–3.3 μeV | Asztalos et al. 2004 |
+| ADMX 首次探测质量 | 1.9–3.3 $\mu$eV | Asztalos et al. 2004 |
 | 银河系质量比估计（Blumenthal 1984） | ~10 倍冷暗物质 / 重子 | Blumenthal et al. 1984 |
 | CDM 小晕质量范围 | ~$10^{-3}$ M⊙ – $10^{-9}$ M⊙（典型中性微子） | 综述 |
 | DAMA 晶体 | 9 × 9.70 kg NaI(Tl) | 综述 |
 | DAMA 观测年份 | 首次 1998 报告年调制 | Bernabei et al. 1998 |
 | Homestake 直接探测 | 33 kg·day 暴露量 | Ahlen et al. 1987 |
 | Fermi dwarf galaxies 约束 | 排除了 <~100 GeV 多数 WIMP | Ackermann et al. 2015b |
-| 银心 GeV γ 超量 | 与 ~50 GeV DM 湮灭一致 | Goodenough-Hooper 2009；Daylan et al. 2014 |
+| 银心 GeV $\gamma$ 超量 | 与 ~50 GeV DM 湮灭一致 | Goodenough-Hooper 2009；Daylan et al. 2014 |
 
 ---
 

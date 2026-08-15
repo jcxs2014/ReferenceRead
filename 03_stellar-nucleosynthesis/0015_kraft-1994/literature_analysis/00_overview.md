@@ -69,16 +69,16 @@ Kraft 1994, PASP 106:553
 │
 ├── Abstract                              [FACT 观测-理论两派]
 ├── 1. INTRODUCTION                       [§01] 传统"同年龄-单一金属丰度"假设 / [Fe/H] 跨度 / 核钟
-├── 2. ABUNDANCE DIFFERENCES              [§02] CH/CN/NH/O/Na/Al/¹²C/¹³C 的实测差异
+├── 2. ABUNDANCE DIFFERENCES              [§02] CH/CN/NH/O/Na/Al/$^{12}{\rm C}$/$^{13}{\rm C}$ 的实测差异
 │   ├── Fig. 1 [O/Fe] vs [Fe/H] 散点
 │   └── Fig. 2 M3 CMD（>10000 星）
 ├── 3. PREDICTIONS BASED ON THE STANDARD THEORY
-│     OF EVOLUTION OF LOW-MASS STARS      [§03] 标准恒星演化预言（低质量 M≲2M☉）
-│   ├── 0.85 M☉ 主序 → RGB → He core flash → ZAHB → AGB
-│   ├── ¹²C/¹³C 90 → 20–30；C −30%；N +80%；O 不变
+│     OF EVOLUTION OF LOW-MASS STARS      [§03] 标准恒星演化预言（低质量 M≲2$M_\odot$）
+│   ├── 0.85 $M_\odot$ 主序 → RGB → He core flash → ZAHB → AGB
+│   ├── $^{12}{\rm C}$/$^{13}{\rm C}$ 90 → 20–30；C −30%；N +80%；O 不变
 │   └── Fig. 3 M3 vs M13（第二参数）
 ├── 4. WHAT IS ACTUALLY OBSERVED?         [§04] 实测偏离标准预言
-│   ├── ¹²C/¹³C → 4（M4/M22/47 Tuc）
+│   ├── $^{12}{\rm C}$/$^{13}{\rm C}$ → 4（M4/M22/47 Tuc）
 │   ├── M92/M15/NGC 6397 C 下降 >10×
 │   ├── C-N、O-N 反相关（M92/M13/M15）
 │   ├── Fig. 4 [C/Fe] vs Mv
@@ -87,7 +87,7 @@ Kraft 1994, PASP 106:553
 ├── 5. SWEIGART-MENGEL MIXING MECHANISM   [§05] 旋转驱动子午环流
 │   ├── 特征速度 ~$10^{-3}$ cm s⁻¹
 │   ├── 预言：仅上 RGB 见 CN 反常；金属丰度升高则 C/O 耗竭减弱
-│   └── 问题：M92 主序末碳耗竭过早；所需 ω~6×$10^{-5}$ s⁻¹
+│   └── 问题：M92 主序末碳耗竭过早；所需 $\omega$~6×$10^{-5}$ s⁻¹
 ├── 6. ARE PRIMORDIAL VARIATIONS REQUIRED? [§06] 是否必须"原始丰度变异"
 │   ├── CN 带强度双峰分布（M13 vs M3）
 │   ├── 主序星 C-N 反相关（NGC 6752, 47 Tuc）—— 强力支持原始场景
@@ -95,16 +95,16 @@ Kraft 1994, PASP 106:553
 │   ├── Fig. 7 CN 带双峰；Fig. 8 [O/Fe] vs [Na/Fe]
 │   └── Cottrell-Da Costa 中等质量星污染场景
 ├── 7. MIXING AND THE NA-AL VARIATIONS: A REEVALUATION [§07]
-│   ├── Denisenkov-Denisenkova ¹H+²²Ne 场景
+│   ├── Denisenkov-Denisenkova $^{1}{\rm H}$+$^{22}{\rm Ne}$ 场景
 │   ├── Langer et al. 1993：85 同位素网络，混合 60,000 yr 即可
-│   ├── ²⁰Ne–²³Na 链（~30,000 yr），解释 Fig. 8 弧形分布
-│   ├── Fig. 9 ¹⁶O/²²Ne/²⁴Mg/²⁸Si 演化；Fig. 10 [O/Fe] vs Mbol
+│   ├── $^{20}{\rm Ne}$–$^{23}{\rm Na}$ 链（~30,000 yr），解释 Fig. 8 弧形分布
+│   ├── Fig. 9 $^{16}{\rm O}$/$^{22}{\rm Ne}$/$^{24}{\rm Mg}$/$^{28}{\rm Si}$ 演化；Fig. 10 [O/Fe] vs Mbol
 │   └── M13 vs M3 角动量差异与 HB 形态
 ├── 8. A SUMMARY AND SOME CONCLUDING REMARKS [§08]
 │   ├── 演化 + 原始 双机制并存
 │   ├── 超贫 O 现象是演化驱动；主序星 C-N 反相关必属原始
 │   ├── 银河系/河外集成的 CN 谱线解释须谨慎
-│   └── Si, Mg, Ca, Ti [α/Fe] 亚结构的新信号
+│   └── Si, Mg, Ca, Ti [$\alpha$/Fe] 亚结构的新信号
 └── REFERENCES（40+ 条，含 1994 AJ in press 等）
 ```
 
@@ -114,11 +114,11 @@ Kraft 1994, PASP 106:553
 传统"同年龄-单一金属丰度"假设
   → 预期 [Fe/H] 单一，演化是唯一变量（§3）
   → 实测：CH/CN/O/Na/Al 在巨星间大幅变化，且出现 C-N、O-N、O-Na 反相关（§2, §4）
-  → 标准演化仅预言轻微 ¹²C/¹³C 下降与 C−30%/N+80%；不足以解释观测（§3 vs §4）
+  → 标准演化仅预言轻微 $^{12}{\rm C}$/$^{13}{\rm C}$ 下降与 C−30%/N+80%；不足以解释观测（§3 vs §4）
   → 引入 Sweigart-Mengel 旋转驱动深混合（§5），定性符合贫金属团观测，但存在 M92 过早耗竭与角速度需求问题
   → 补充证据：主序星 CN 反常 → 演化不能解释 → 需要原始丰度变异（§6）
-  → 反转（§7）：Langer et al. 1993 表明低质量巨星 CNO 壳层内可通过质子俘获合成 ²³Na、²⁷Al，部分原被归于"原始"的 Na-Al 差异可由演化解释
-  → 结论（§8）：演化与原始 **两机制并存**；"超贫 O"属演化；主序星 C-N 反相关必为原始；[α/Fe] 亚结构为未来研究挑战
+  → 反转（§7）：Langer et al. 1993 表明低质量巨星 CNO 壳层内可通过质子俘获合成 $^{23}{\rm Na}$、$^{27}{\rm Al}$，部分原被归于"原始"的 Na-Al 差异可由演化解释
+  → 结论（§8）：演化与原始 **两机制并存**；"超贫 O"属演化；主序星 C-N 反相关必为原始；[$\alpha$/Fe] 亚结构为未来研究挑战
 ```
 
 ## 0.5 输出文件索引（本次精读）
@@ -143,7 +143,7 @@ Kraft 1994, PASP 106:553
 
 ### 关联论文
 
-- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B²FH 核合成框架，本文 CNO 丰度讨论的理论背景
+- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B$^2$FH 核合成框架，本文 CNO 丰度讨论的理论背景
 - [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 现代太阳丰度，星族 II 丰度的对照基准
 - [`0010_gies-lambert-1992`](../../0010_gies-lambert-1992/literature_analysis/00_overview.md) — 早 B 型星 CNO 丰度，同族 CNO 循环研究
 - [`0014_cameron-1968`](../../0014_cameron-1968/literature_analysis/00_overview.md) — 元素丰度表经典，本文丰度讨论的数值基准

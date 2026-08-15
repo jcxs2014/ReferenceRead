@@ -72,7 +72,7 @@
 ## 7.4 表 3 精读：Elemental Abundances in CI Chondrites
 
 ### 7.4.1 结构
-每元素给出 5 块陨石（Alais / Ivuna / Orgueil / Revelstoke / Tonk）的"Mean ± 1σ / N"，以及 CI 组加权均值（含 N_met）。
+每元素给出 5 块陨石（Alais / Ivuna / Orgueil / Revelstoke / Tonk）的"Mean ± 1$\sigma$ / N"，以及 CI 组加权均值（含 N_met）。
 
 ### 7.4.2 关键组均（ppm by mass）
 - **C**: 35180 ± 4810（3 陨石，5 分析源）
@@ -134,8 +134,8 @@
 [FACT] 三列格式：Element / A (质量数) / Atom % / Abundance。按 cosmochemical 标尺 N(Si) = $10^{6}$。
 
 [FACT] 覆盖所有 83 种天然元素的全部天然同位素，包含 4.55 Gyr 前的放射性/衰变产物丰度（*号标记）：
-- **放射性母体**：⁸⁷Rb*、¹⁴⁷Sm*、¹⁷⁶Lu*、¹⁸⁷Re*、²³⁵U*、²³⁸U*、²³²Th*
-- **衰变产物**：⁸⁷Sr*、¹⁴³Nd*、¹⁷⁶Hf*、¹⁸⁷Os*、²⁰⁶/²⁰⁷/²⁰⁸Pb*
+- **放射性母体**：$^{87}{\rm Rb}$*、$^{147}{\rm Sm}$*、$^{176}{\rm Lu}$*、$^{187}{\rm Re}$*、$^{235}{\rm U}$*、$^{238}{\rm U}$*、$^{232}{\rm Th}$*
+- **衰变产物**：$^{87}{\rm Sr}$*、$^{143}{\rm Nd}$*、$^{176}{\rm Hf}$*、$^{187}{\rm Os}$*、²⁰⁶/²⁰⁷/$^{208}{\rm Pb}$*
 
 [FACT] 100% 总计指**当前**同位素丰度；*号给出的 4.55 Gyr 前丰度用于放射性定年与初始同位素比值计算。
 
@@ -189,7 +189,7 @@ $Al_{2}$$O_{3}$ (1677) → Hibonite (1659) → Perovskite (1593) → $Ca_{4}$$Ti
 [FACT] 式 5：**A(El)₀ = A(El) + 0.074**（原始丰度转换）
 [FACT] 式 6：log N(El)₀ = A(El)₀ − 1.614
 [FACT] 式 7：X_Al = n(Al)/n(H+$H_{2}$+He)
-[FACT] 式 8：P_Al = X_Al P_tot = Σ P_Al-gas
+[FACT] 式 8：P_Al = X_Al P_tot = $\Sigma$ P_Al-gas
 [FACT] 式 9：P_Al = a_Al[K_Al + K_AlO $fO_{2}$^0.5 + ...]
 [FACT] 式 10：2Al(g) + 1.5$O_{2}$ = $Al_{2}$$O_{3}$(s)
 [FACT] 式 11：a_$Al_{2}$$O_{3}$ = a_Al² $fO_{2}$^1.5 K_$Al_{2}$$O_{3}$

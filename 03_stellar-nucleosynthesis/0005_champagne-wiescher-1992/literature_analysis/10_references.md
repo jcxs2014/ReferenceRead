@@ -64,14 +64,14 @@
 
 | 编号 | 引用 | 反应 |
 |------|------|------|
-| 50 | Decrock et al. PRL 67:808–11 (1991) | ¹³N(p,γ)¹⁴O 放射性束直接测量 |
-| 52 | Motobayashi et al. PLB 264:259–63 (1991) | ¹⁴O 库仑裂变 |
-| 64 | Garcia et al. PR C43:2012–19 (1991) | ¹⁸Ne 中 $3^{+}$ 态 (Ex=4.561 MeV) |
-| 82 | Smith et al. NP A536:333–48 (1992) | ²⁰Na 共振 (植入靶) |
-| 96 | Seuthe et al. NP A514:471–502 (1990) | ²²Na(p,γ)²³Mg 直接测量 |
-| 98 | Buchmann et al. NP A415:93–113 (1984) | ²⁶Al(p,γ)²⁷Si 首次直接测量 |
-| 104 | Iliadis et al. NP A539:97–111 (1992) | ³²S(p,γ)³³Cl 精确测量 |
-| 110 | Mohar et al. PRL 66:1571–74 (1991) | ⁷³Rb 质子未束缚 |
+| 50 | Decrock et al. PRL 67:808–11 (1991) | $^{13}{\rm N}$(p,$\gamma$)$^{14}{\rm O}$ 放射性束直接测量 |
+| 52 | Motobayashi et al. PLB 264:259–63 (1991) | $^{14}{\rm O}$ 库仑裂变 |
+| 64 | Garcia et al. PR C43:2012–19 (1991) | $^{18}{\rm Ne}$ 中 $3^{+}$ 态 (Ex=4.561 MeV) |
+| 82 | Smith et al. NP A536:333–48 (1992) | $^{20}{\rm Na}$ 共振 (植入靶) |
+| 96 | Seuthe et al. NP A514:471–502 (1990) | $^{22}{\rm Na}$(p,$\gamma$)$^{23}{\rm Mg}$ 直接测量 |
+| 98 | Buchmann et al. NP A415:93–113 (1984) | $^{26}{\rm Al}$(p,$\gamma$)$^{27}{\rm Si}$ 首次直接测量 |
+| 104 | Iliadis et al. NP A539:97–111 (1992) | $^{32}{\rm S}$(p,$\gamma$)$^{33}{\rm Cl}$ 精确测量 |
+| 110 | Mohar et al. PRL 66:1571–74 (1991) | $^{73}{\rm Rb}$ 质子未束缚 |
 
 ### 10.2.6 Hauser-Feshbach 计算
 

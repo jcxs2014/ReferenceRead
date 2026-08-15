@@ -47,7 +47,7 @@
 [FACT] HII 区、行星状星云 (PNe)、超新星遗迹 (SNR) 与一般 ISM 提供四种互补的化学探针：
 - **HII 区**：B 型星电离的年轻气体，代表 "刚被恒星形成的气体" 的组成；
 - **PNe**：低-中质量恒星 AGB 阶段抛出的产物，含 s 过程富集；
-- **SNR**：超新星直接抛射物，含 Fe-peak 与 α 元素；
+- **SNR**：超新星直接抛射物，含 Fe-peak 与 $\alpha$ 元素；
 - **ISM**：混合后的一般星际介质。
 
 [FACT] 作者特别强调 SNR 中 Fe 的观测证据仍存在不确定性——"we seemingly do not know ... the iron-peak elements are made in stars or anywhere else"（见 §V 结论）。
@@ -58,7 +58,7 @@
 [FACT] 银河宇宙线到达能谱（~GeV/nuc）显示出比 ISM 更硬的谱指数（∝ E^{−2.7} 附近）。通过 "力场近似"（Force-field approximation）可以反推源端组成。
 
 ### 3.3.2 Isotopic composition
-[FACT] 1970 年代中期的 Balloon/卫星实验首次给出宇宙线中同位素分辨数据，显示次级/初级核素比（如 ¹⁰Be/⁹Be）可以约束宇宙线传播时标。
+[FACT] 1970 年代中期的 Balloon/卫星实验首次给出宇宙线中同位素分辨数据，显示次级/初级核素比（如 $^{10}{\rm Be}$/$^{9}{\rm Be}$）可以约束宇宙线传播时标。
 
 ### 3.3.3 The higher energy cosmic ray composition
 [FACT] 能量升高，宇宙线组成趋向简单（H、He 主导），反映了源端加速的选择效应。
@@ -79,7 +79,7 @@
 
 ## 3.5 [INTERPRETATION] 本节逻辑
 
-[INTERPRETATION] §II 整体构成一个"从内向外"的丰度地图：太阳系 → 银河系内恒星与 ISM → 河外星系。这个由近及远、由基准到变化的展开方式，是 B²FH 之后的标准做法。
+[INTERPRETATION] §II 整体构成一个"从内向外"的丰度地图：太阳系 → 银河系内恒星与 ISM → 河外星系。这个由近及远、由基准到变化的展开方式，是 B$^2$FH 之后的标准做法。
 
 ## 3.6 [CRITIQUE]
 

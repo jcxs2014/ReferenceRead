@@ -19,7 +19,7 @@
 | **Maeder 1987a** (A&A 178, 159) | **理论盟友** | 旋转湍流扩散 → 准同质演化 | ★★★ |
 | **Maeder & Meynet 1988** (A&AS 76, 411) | **演化轨数据源** | 本文 § 7.3 全部对比使用 | ★★★ |
 | Maeder & Meynet 1987 | 演化轨 | § 3 超巨星 log g 估计 | ★★ |
-| Maeder 1987b (A&A 173, 247) | 理论 | 20–40 M☉ 红巨星前不混合 | ★★ |
+| Maeder 1987b (A&A 173, 247) | 理论 | 20–40 $M_\odot$ 红巨星前不混合 | ★★ |
 
 ---
 
@@ -29,10 +29,10 @@
 |------|------|------|
 | Kane, McKeith & Dufton 1980 | Lyubimkov 用 EW | N II EW 主要来源 |
 | Dufton, Kane & McKeith 1981a | Lyubimkov 用 EW | 同上 |
-| Dufton, Kane & McKeith 1981b | 微湍流偏差 | ξ 高估 1–2.5 km/s 警告 |
-| Dufton & Hibbert 1981 | Lyubimkov 用 NLTE 表 | 仅 log g=4、ξ=0 |
-| Dufton et al. 1990 | 独立丰度 | h & ι Per 与 Cep OB3 |
-| Aller & Jugaku 1958 | EW 比较 | γ Peg 摄影谱 |
+| Dufton, Kane & McKeith 1981b | 微湍流偏差 | $\xi$ 高估 1–2.5 km/s 警告 |
+| Dufton & Hibbert 1981 | Lyubimkov 用 NLTE 表 | 仅 log g=4、$\xi$=0 |
+| Dufton et al. 1990 | 独立丰度 | h & $ι$ Per 与 Cep OB3 |
+| Aller & Jugaku 1958 | EW 比较 | $\gamma$ Peg 摄影谱 |
 | Kilian & Nissen 1989 | EW 比较 | CCD 谱（+12% EW） |
 | McWilliam 1990 (ApJS 74, 1075) | **GETPHD 程序** | 本文 EW 测量用 |
 
@@ -102,7 +102,7 @@
 | Lennon et al. 1990 | 热星属性 |
 | Leushin 1988a, b | 双星 vs 单星丰度 |
 | Barnett & Mc Keith 1988 | C II 丰度 |
-| Peters 1976 | γ Peg Al III |
+| Peters 1976 | $\gamma$ Peg Al III |
 | Sadakane, Takada & Jugaku 1983 | Al UV 共振线 |
 
 ---
@@ -156,7 +156,7 @@
 | Warren & Hesser 1978 | Orion 关联 |
 | Boesgaard 1989; Nissen 1988 | 银河金属丰度散布 |
 | Weiss, Hillebrandt & Truran 1988 | SN 1987A 前身星 |
-| Vogt & Penrod 1983 | η Ori 参数 |
+| Vogt & Penrod 1983 | $\eta$ Ori 参数 |
 
 ---
 
@@ -164,7 +164,7 @@
 
 [INTERPRETATION] 本文的引用网络呈现三层结构：
 
-1. **靶标层**（反驳对象）：Lyubimkov 四篇 + Dufton & Hibbert 1981 表（其 log g=4、ξ=0 硬假设是被攻击的方法学漏洞）；
+1. **靶标层**（反驳对象）：Lyubimkov 四篇 + Dufton & Hibbert 1981 表（其 log g=4、$\xi$=0 硬假设是被攻击的方法学漏洞）；
 2. **方法学层**（本文所用工具）：Kurucz 1979 + WIDTH6；Becker & Butler 三组表；Auer & Mihalas 1973a；Maeder & Meynet 1988；
 3. **独立验证层**（与本文结果比对）：Gehren/Brown/Lennon 太阳丰度基线；Dufton 1990 OB 团；Baldwin 1991 Orion 星云；Kilian 1991a 温度尺度；Wolff 1990 温度/重力。
 

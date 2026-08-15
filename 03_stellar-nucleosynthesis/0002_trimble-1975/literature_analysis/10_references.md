@@ -18,14 +18,14 @@
 |------|------|
 | Goldschmidt (1937) | 首次 cosmic abundance 表 |
 | Brown (1949) | 改进的丰度表 |
-| Suess & Urey (1956) | 标准丰度表（B²FH 之前）|
+| Suess & Urey (1956) | 标准丰度表（B$^2$FH 之前）|
 | Cameron (1968, 1973) | 本文所用标准丰度表 |
 
-### 10.2.2 B²FH 与 Cameron (1957)
+### 10.2.2 B$^2$FH 与 Cameron (1957)
 
 | 引用 | 作用 |
 |------|------|
-| Burbidge, Burbidge, Fowler & Hoyle (1957), Rev. Mod. Phys. 29, 547 | B²FH 原始论文，七过程框架 |
+| Burbidge, Burbidge, Fowler & Hoyle (1957), Rev. Mod. Phys. 29, 547 | B$^2$FH 原始论文，七过程框架 |
 | Cameron (1957), in Lectures in the Physical Sciences (Yale) | 独立七过程框架 |
 
 ### 10.2.3 大爆炸核合成
@@ -40,7 +40,7 @@
 
 | 引用 | 作用 |
 |------|------|
-| Hoyle & Fowler (1960) | 3α 反应与 Hoyle 共振 |
+| Hoyle & Fowler (1960) | 3$\alpha$ 反应与 Hoyle 共振 |
 | Clayton (1968, 1969) | 核合成教材与产量计算 |
 | Weaver, Woosley & Zimmerman (1973, 1974) | 大质量恒星演化与超新星模型 |
 
@@ -65,8 +65,8 @@
 
 | 引用 | 作用 |
 |------|------|
-| Salpeter (1955) | IMF ξ(M) ∝ M^−2.35 |
-| Schmidt (1963) | SFR ∝ μⁿ |
+| Salpeter (1955) | IMF $\xi$(M) ∝ M^−2.35 |
+| Schmidt (1963) | SFR ∝ $\mu$ⁿ |
 | Tinsley (1968, 1972, 1974, 1975) | 化学演化数值模型奠基 |
 | Lynden-Bell & Pringle (1974) | 星系吸积盘模型 |
 | Searle, Searle & Zinn (1973, 1976) | 简化化学演化 |
@@ -83,7 +83,7 @@
 ## 10.3 [INTERPRETATION] 引用结构解读
 
 [INTERPRETATION] 文献列表的结构反映了 1975 年核合成领域的"三大支柱"：
-1. **B²FH + Cameron (1957)** — 提供理论框架；
+1. **B$^2$FH + Cameron (1957)** — 提供理论框架；
 2. **Clayton + Fowler + Cameron 系列** — 提供定量核物理；
 3. **Tinsley + Salpeter + Schmidt** — 提供银河演化数学。
 
