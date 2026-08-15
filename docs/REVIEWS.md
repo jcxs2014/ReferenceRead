@@ -869,3 +869,29 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 - `webapp/` = 仅源码/模板/自托管资源（构建产物磁盘保留、不入库）
 - `docs/archive/audit/` = 18 个审计 tsv 追溯归档
 - 工作树干净；HEAD `1dab103`
+
+## 审查 #30：sections 补齐复验 + 豁免误判修正（2026-08-15 深夜）
+
+> 范围：Hermes sections 补齐（bad1ce6/5c33ba9/10f89d0）→ WorkBuddy 复验发现豁免误判 → 修正（Bell/BO/BE 补、TA 移除）
+
+### 复验结论
+
+| 项 | 判定 |
+|---|---|
+| bad1ce6（4 篇）+ 5c33ba9（7 篇） | ✅ 正确（ruszkowski/bhattacharjee/blasi/grenier + weinrich/amato-blasi/mewaldt/al-dargazelli/gaisser/anders-grevesse/kraft） |
+| 10f89d0（giuffrida/TA） | ⚠️ giuffrida ✅（§1-4 原文）；**TA ❌ 假 sections**——原文为 Science letter，正文连续段落无编号章节（加粗段落首句分隔），"Energy Reconstruction/Source Distance" 是精读分章主题冒充原文标题 |
+| 豁免判定 | ❌ **Bell/BO/BE 豁免误判**——原文有编号章节：Bell 5 节（1 Introduction/2 The energy spectrum/3 The upstream Alfvén waves/4 Generalization to oblique shocks/5 Conclusions）、BO 4 节（I-IV 罗马）、BE 6 节（Phys. Rept 综述 1-6） |
+| Cameron / grevesse-sauval 豁免 | ✅ 成立（00_overview 结构树明示原文无显式章节；PDF 核实无编号） |
+
+### 修正（commit 4fc3179，+18/-6）
+
+- **Bell/BO/BE 补 sections**（从 fulltext 逐字提取原文标题）
+- **TA 移除假 sections**（归豁免，与 Cameron 同因：原文无编号章节）
+- **最终状态：35/38 有 sections + 3 豁免（TA/grevesse-sauval/Cameron）= 38 全闭环**
+
+### 方法论沉淀
+
+1. **"路径 B 八段模板" ≠ "无原文章节"**——sections 记录原文章节，与分章格式无关（strong 0.x 格式也有 §I/§II）
+2. **豁免判定必须对照原文**：fulltext 可提取编号标题（Bell/BO 在 fulltext 中即见），不能凭"路径 B"或"PDF 无编号"臆断
+3. **分章主题 ≠ 原文标题**：精读分章文件名（01_introduction 等）或主题标题不能冒充 sections（TA 教训）
+4. 判定顺序：fulltext grep 编号标题 → 00_overview 结构树（注明"原文无章节"的才豁免）→ PDF 目录
