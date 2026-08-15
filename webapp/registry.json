@@ -27,7 +27,7 @@
       "0013_bertone-hooper-2018"
     ],
     "path": "01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md",
-    "quality": 5,
+    "quality": 0,
     "key_values": [
       {
         "quantity": "物理量",
@@ -875,19 +875,27 @@
   },
   {
     "title": "The acceleration of cosmic rays in shock fronts — I",
-    "authors": "A. R. Bell（之后系列 Bell 1978a/b/c）",
+    "authors": "A. R. Bell (Mullard Radio Astronomy Observatory, Cavendish Laboratory, Cambridge)",
     "year": "1978",
-    "journal": "MNRAS 182, 147 (1978)",
+    "journal": "Mon. Not. R. astr. Soc. 182, 147–156 (1978)",
     "doi": "10.1093/mnras/182.2.147",
     "arxiv": "—（预印本时代前）",
-    "category": "宇宙线起源",
+    "category": "02_cosmic-ray-origins",
+    "read_date": "2026-08-15",
     "status": "completed",
-    "read_date": "2026-08-14",
-    "lastread": "2026-08-14",
-    "tags": [],
+    "pages": "147-156",
+    "tags": [
+      "diffusive-shock-acceleration",
+      "first-order-fermi",
+      "test-particle",
+      "alfven-wave",
+      "spectral-index",
+      "power-law",
+      "snr"
+    ],
     "citations": [],
     "path": "02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md",
-    "quality": 0,
+    "quality": 6,
     "key_values": []
   },
   {
@@ -904,7 +912,7 @@
     "tags": [],
     "citations": [],
     "path": "02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_overview.md",
-    "quality": 0,
+    "quality": 6,
     "key_values": []
   },
   {

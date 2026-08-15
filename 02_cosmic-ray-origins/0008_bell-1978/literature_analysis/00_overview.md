@@ -10,7 +10,7 @@ read_date: '2026-08-15'
 status: completed
 pages: '147-156'
 tags: [diffusive-shock-acceleration, first-order-fermi, test-particle, alfven-wave, spectral-index, power-law, snr]
-citations: ['0009_blandford-ostriker-1978', '0010_blandford-eichler-1987', '0011_hillas-1984', '0004_blasi-2013', '0005_amato-2014']
+citations: []
 path: 02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md
 ---
 
@@ -94,4 +94,3 @@ path: 02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md
   3. 初始加速（热能→相对论）不在本文范围
   4. 扩散系数依赖波振幅 $\mathcal{F}$，无法自洽决定加速时间尺度
   5. 平行激波假设简化（1980s 后扩展到斜激波）
-

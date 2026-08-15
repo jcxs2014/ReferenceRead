@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**284 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**296 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -187,9 +187,9 @@
 
 |  |  |
 |---|---|
-| 作者 | A. R. Bell（之后系列 Bell 1978a/b/c） |
-| 期刊 | MNRAS 182, 147 (1978) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 作者 | A. R. Bell (Mullard Radio Astronomy Observatory, Cavendish Laboratory, Cambridge) |
+| 期刊 |  |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_energy_spectrum.md、03_alfven_waves.md、04_application_snr.md、…等 9 个） |
 | 目录 | [`02_cosmic-ray-origins/0008_bell-1978/literature_analysis/`](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0008_bell-1978/literature_analysis/99_final_summary.md) |
@@ -202,7 +202,7 @@
 |---|---|
 | 作者 | R. D. Blandford (Caltech), J. P. Ostriker (Princeton) |
 | 期刊 | The Astrophysical Journal 221, L29-L32 (1978) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_strong_shock_acceleration.md、03_cosmic_ray_application.md、04_extragalactic_radio_sources.md、…等 9 个） |
 | 目录 | [`02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/`](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/99_final_summary.md) |
@@ -517,8 +517,8 @@
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
 | 01. 宇宙线传播 | 6 | 18 |
-| 02. 宇宙线起源 | 15 | 99 |
+| 02. 宇宙线起源 | 15 | 111 |
 | 03. 恒星核合成与元素丰度 | 17 | 167 |
-| **合计** | **38** | **284** |
+| **合计** | **38** | **296** |
 
 > 最后更新: 2026-08-15（自动生成）
