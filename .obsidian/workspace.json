@@ -187,8 +187,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a8aea0cce5cdbb23",
+  "active": "4250e32b5887a43e",
   "lastOpenFiles": [
+    "02_cosmic-ray-origins/0008_bell-1978/literature_analysis/97_quality_check.md",
+    "02_cosmic-ray-origins/0008_bell-1978/literature_analysis/05_critical_assessment.md",
+    "02_cosmic-ray-origins/0008_bell-1978/literature_analysis/04_application_snr.md",
+    "02_cosmic-ray-origins/0008_bell-1978/literature_analysis/03_alfven_waves.md",
+    "02_cosmic-ray-origins/0008_bell-1978/literature_analysis/02_energy_spectrum.md",
+    "02_cosmic-ray-origins/0008_bell-1978/literature_analysis/01_introduction.md",
     "01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/97_quality_check.md",
     "01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/07_references.md",
     "01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/06_critique.md",
@@ -209,12 +215,6 @@
     "01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/03_interpretation.md",
     "01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/04_critique.md",
     "01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/97_quality_check.md",
-    "01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/05_references.md",
-    "01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/06_navigation.md",
-    "01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/03_methods_overview.md",
-    "03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/97_quality_check.md",
-    "03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/08_references.md",
-    "03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/07_critique.md",
     "scripts/restructure_chapters.py",
     "New minimal, median, and maximal propagation models for dark matter searches with Galactic cosmic rays.pdf",
     "01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis",
