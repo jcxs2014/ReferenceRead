@@ -1,3 +1,4 @@
+---
 title: Origin of high energy galactic cosmic rays
 authors: T. K. Gaisser
 year: '1990'

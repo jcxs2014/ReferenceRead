@@ -1,3 +1,4 @@
+---
 title: The Nine Lives of Cosmic Rays in Galaxies
 authors: Isabelle A. Grenier, John H. Black, Andrew W. Strong
 year: '2015'

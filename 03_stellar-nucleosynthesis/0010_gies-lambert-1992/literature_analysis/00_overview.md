@@ -1,3 +1,4 @@
+---
 title: Carbon, nitrogen, and oxygen abundances in early B-type stars
 authors: Douglas R. Gies（Georgia State University）; David L. Lambert（University of Texas, Austin）
 year: '1992'

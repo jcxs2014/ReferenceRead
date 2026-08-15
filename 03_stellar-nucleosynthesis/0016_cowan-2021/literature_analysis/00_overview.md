@@ -1,3 +1,4 @@
+---
 title: 'Origin of the Elements: A Status Report'
 authors: J. J. Cowan, C. Sneden, J. E. Lawler et al.（U. Oklahoma + 更多）
 year: '2021'

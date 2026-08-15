@@ -1,3 +1,4 @@
+---
 title: Cosmic-ray propagation and interactions in the Galaxy
 authors: Andrew W. Strong¹, Igor V. Moskalenko², Vladimir S. Ptuskin³
 year: '2007'

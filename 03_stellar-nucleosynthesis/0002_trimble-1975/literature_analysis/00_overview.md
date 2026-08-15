@@ -1,3 +1,4 @@
+---
 title: The origin and abundances of the chemical elements
 authors: Virginia Trimble
 year: '1975'

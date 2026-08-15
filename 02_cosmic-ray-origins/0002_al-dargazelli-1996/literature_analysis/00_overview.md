@@ -1,3 +1,4 @@
+---
 title: The origin of cosmic rays of the highest energies
 authors: S S Al-Dargazelli, A W Wolfendale, A Smialkowski, J Wdowczyk
 year: '1996'

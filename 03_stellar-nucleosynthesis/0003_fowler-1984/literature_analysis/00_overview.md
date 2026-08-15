@@ -1,3 +1,4 @@
+---
 title: 'Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements'
 authors: William A. Fowler
 year: '1984'

@@ -1,3 +1,4 @@
+---
 title: Galactic halo size in the light of recent AMS-02 data
 authors: N. Weinrich et al.（9 人）
 year: '2020'
@@ -12,6 +13,7 @@ lastread: '2026-08-15'
 tags: []
 citations: []
 path: 01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md
+---
 > 状态：**精读完成**（2026-08-15）
 > ★ **晕高 z_h 直接测量**——争议主题 3（传播参数）的核心观测约束；贝叶斯方法 + AMS-02 B/C 数据联合约束
 

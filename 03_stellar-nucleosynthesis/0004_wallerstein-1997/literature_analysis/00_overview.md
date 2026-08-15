@@ -1,3 +1,4 @@
+---
 title: 'Synthesis of the elements in stars: forty years of progress'
 authors: George Wallerstein, Icko Iben, Jr., Peter Parker, Ann Merchant Boesgaard, Gerald M. Hale, Arthur E. Champagne, Charles
   A. Barnes, Franz Käppeler, Verne V. Smith, Robert D. Hoffman, Frank X. Timmes, Chris Sneden, Richard N. Boyd, Bradley S.

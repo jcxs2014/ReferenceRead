@@ -1,3 +1,4 @@
+---
 title: The Origin of Galactic Cosmic Rays
 authors: Pasquale Blasi
 year: '2013'

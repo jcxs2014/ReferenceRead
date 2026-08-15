@@ -1,3 +1,4 @@
+---
 title: Theoretical Modeling of Starburst Galaxies
 authors: L. J. Kewley, M. A. Dopita, R. S. Sutherland, C. A. Heisler, J. Trevena
 year: '2001'

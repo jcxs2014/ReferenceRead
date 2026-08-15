@@ -1,3 +1,4 @@
+---
 title: 'Particle acceleration at astrophysical shocks: A theory of cosmic ray origin'
 authors: Roger Blandford (Caltech), David Eichler (U. Maryland / Ben Gurion)
 year: '1987'
@@ -12,6 +13,7 @@ lastread: '2026-08-14'
 tags: []
 citations: []
 path: 02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/00_overview.md
+---
 > 状态：**精读完成**（2026-08-15）
 > ★ **DSA 经典权威综述**——Bell 1978 + BO 1978 后 9 年，系统化 DSA 理论，命名"diffusive shock acceleration"，引入非线性理论与注入问题
 

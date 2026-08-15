@@ -1,3 +1,4 @@
+---
 title: THE ORIGIN OF GALACTIC COSMIC RAYS
 authors: Elena Amato
 year: '2014'

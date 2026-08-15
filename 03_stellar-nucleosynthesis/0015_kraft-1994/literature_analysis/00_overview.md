@@ -1,3 +1,4 @@
+---
 title: 'Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios'
 authors: Robert P. Kraft
 year: '1994'

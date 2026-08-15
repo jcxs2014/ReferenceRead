@@ -1,3 +1,4 @@
+---
 title: Explosive Hydrogen Burning
 authors: A. E. Champagne；M. Wiescher
 year: '1992'

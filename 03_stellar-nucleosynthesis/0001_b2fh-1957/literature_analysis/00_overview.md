@@ -1,3 +1,4 @@
+---
 title: Synthesis of the Elements in Stars
 authors: K. MARGARET BURBIDGE; G. R. BURBIDGE; WILLIAM A. FOWLER; F. HOYLE
 year: '1957'

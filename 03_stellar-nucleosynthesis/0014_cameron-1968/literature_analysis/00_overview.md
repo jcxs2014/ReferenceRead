@@ -1,3 +1,4 @@
+---
 title: A New Table of Abundances of the Elements in the Solar System
 authors: A. G. W. Cameron
 year: '1968'

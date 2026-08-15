@@ -1,3 +1,4 @@
+---
 title: The chemical composition of the Sun
 authors: Martin Asplund, Nicolas Grevesse, A. Jacques Sauval, Pat Scott
 year: '2009'

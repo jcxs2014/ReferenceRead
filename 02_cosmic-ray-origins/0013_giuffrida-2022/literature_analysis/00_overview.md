@@ -1,3 +1,4 @@
+---
 title: The supernova remnant SN 1006 as a Galactic particle accelerator
 authors: R. Giuffrida et al.（XMM-Newton + Fermi + HESS 合作）
 year: '2022'
@@ -12,6 +13,7 @@ lastread: '2026-08-15'
 tags: []
 citations: []
 path: 02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/00_overview.md
+---
 > 状态：**精读完成**（2026-08-15）
 > ★ **SNR 直接观测证据**——争议主题 4（SNR 范式）的核心观测裁决；SN 1006 多波段观测证实 DSA 加速
 

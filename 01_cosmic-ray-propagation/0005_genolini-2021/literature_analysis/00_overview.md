@@ -1,3 +1,4 @@
+---
 title: New minimal, median, and maximal propagation models for dark matter searches with Galactic cosmic rays
 authors: Y. Génolini et al.（8 人）
 year: '2021'
@@ -12,6 +13,7 @@ lastread: '2026-08-15'
 tags: []
 citations: []
 path: 01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/00_overview.md
+---
 > 状态：**精读完成**（2026-08-15）
 > ★ **min/med/max 传播模型**——争议主题 3 的系统性理论框架；作为暗物质搜寻的反卷积标准模型
 

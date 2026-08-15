@@ -1,3 +1,4 @@
+---
 title: The Solar Neighborhood. XXXII. The Hydrogen Burning Limit
 authors: S. B. Dieterich, T. J. Henry, W.-C. Jao, J. G. Winters, A. J. Hosey, C. T. Riedel, J. P. Subasavage
 year: '2014'
