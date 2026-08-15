@@ -42,17 +42,13 @@ $$E_{\max} \approx Z \left(\frac{R_{\rm sh}}{3 \; {\rm pc}}\right) \left(\frac{u
 
 ## 4.2.1 [FACT] 河外 CR 在低能段的贡献
 
-**1972 Brecher-Burbidge 假设**（"宇宙普遍 CR"）：所有强子 CR 来自河外，均匀充满宇宙。
+**§4.2.1 宇宙普遍 CR（Brecher-Burbidge 1972）**：若 CR 宇宙均匀分布，计算 π⁰ 衰变 γ 背景：
 
-**检验**：若 CR 宇宙均匀，河外气体上 π⁰ 衰变 γ 背景应超过观测。使用现代数据：
+$$\Phi_\gamma \approx 2 \times 10^{-24} \; {\rm MeV^2 \; sr^{-1} \; s^{-1} \; MeV^{-1} \; H^{-1}} \times 10^{28} \; {\rm cm} \approx 2 \times 10^{-3} \; {\rm MeV^2 \; cm^{-2} \; sr^{-1} \; s^{-1} \; MeV^{-1}}$$
 
-$$\Phi_\gamma \approx 2 \times 10^{-3} \; {\rm MeV^2 cm^{-2} sr^{-1} s^{-1} MeV^{-1}} \; \text{vs} \; {\rm IGRB} \approx 6 \times 10^{-4}$$
+对比观测 IGRB $\approx 6 \times 10^{-4}$——预言仍高出但"strangely close"。LMC/M31 的 γ 射线流量低于"宇宙普遍 CR"预期 → 更坚实的证据。
 
-预言仍高出观测，但**"strangely close"**——宇宙普遍 CR 仍被排除但差距不如预期大。
-
-**LMC/M31** 的 γ 射线流量低于"宇宙普遍 CR"预期 → 更坚实的证据。
-
-**论文主张**：**限制 EGCR 在 $> 10^{15}$ eV 是一种"preconceived notion"**——若 EGCR 谱为 $E^{-2.5}$，在 1 TeV 处约占 3–4%，与所有约束一致。
+**论文主张**：EGCR 谱若为 $E^{-2.5}$（而非通常假设的 $E^{-2}$），在 1 TeV 处约 3–4%——与所有现有约束一致。限制 EGCR 在 $> 10^{15}$ eV 是一种"preconceived notion"。
 
 ## 4.3 [FACT] CR 化学组成
 
