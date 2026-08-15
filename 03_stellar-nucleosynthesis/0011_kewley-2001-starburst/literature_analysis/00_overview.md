@@ -7,6 +7,15 @@ pages: '121-140'
 
 keywords: starburst, H II regions, abundance diagnostics, Wolf-Rayet stars, stellar population synthesis
 category: 恒星核合成
+sections:
+  - '§1 Introduction'
+  - '§2 The Observational Comparison Sample'
+  - '§3 Stellar Population Synthesis Models'
+  - '§4 Starburst Modeling'
+  - '§5 Wolf-Rayet Emission in Starburst Galaxies'
+  - '§6 Continuum Metal Opacity in Starburst Galaxies'
+  - '§7 Extreme Starburst Classification Line'
+  - '§8 Conclusions'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'
