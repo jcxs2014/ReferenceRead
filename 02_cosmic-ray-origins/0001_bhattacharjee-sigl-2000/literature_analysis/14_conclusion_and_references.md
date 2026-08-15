@@ -220,8 +220,8 @@ key_formulas:
   - "Eq. 43–49: DSAM"
   - "Eq. 51: Hillas"
   - "Eq. 63–68: injection spectra & benchmark"
-  - "Eq. 93: ṅ_X = (Q₀/m_X)(t/t₀)^{p-4}"
-  - "Eq. 95: τ_X ~ 2.8×10²¹ yr"
+  - "Eq. 93: ṅ_X = (Q$_{0}$/m_X)(t/t$_{0}$)^{p-4}"
+  - "Eq. 95: τ_X ~ 2.8×10$^{21}$ yr"
   - "Eq. 101: p=1 q constraint"
 keywords:
   - bottom-up
