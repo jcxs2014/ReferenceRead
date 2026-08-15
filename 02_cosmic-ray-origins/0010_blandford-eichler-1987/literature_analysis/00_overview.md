@@ -3,6 +3,13 @@ title: 'Particle acceleration at astrophysical shocks: A theory of cosmic ray or
 authors: Roger Blandford (Caltech), David Eichler (U. Maryland / Ben Gurion)
 year: '1987'
 journal: Physics Reports 154, 1 (1987)
+sections:
+  - '1. Introduction'
+  - '2. Observational background'
+  - '3. The diffusion approximation'
+  - '4. Test particle approximation'
+  - '5. Wave spectrum'
+  - '6. Non-linear theory, structure of collisionless shock waves, and injection'
 pages: '1-75'
 doi: 10.1016/0370-1573(87)90134-7
 arxiv: —（Physics Reports 1987，非预印本）

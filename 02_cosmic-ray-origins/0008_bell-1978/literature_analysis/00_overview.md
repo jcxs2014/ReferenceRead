@@ -9,6 +9,12 @@ category: 02_cosmic-ray-origins
 read_date: '2026-08-15'
 lastread: '2026-08-15'
 status: completed
+sections:
+  - '1 Introduction'
+  - '2 The energy spectrum'
+  - '3 The upstream Alfvén waves and their damping'
+  - '4 Generalization to oblique shocks'
+  - '5 Conclusions'
 pages: '147-156'
 tags: [diffusive-shock-acceleration, first-order-fermi, test-particle, alfven-wave, spectral-index, power-law, snr]
 citations: []

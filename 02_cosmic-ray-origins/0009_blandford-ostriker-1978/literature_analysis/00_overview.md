@@ -3,6 +3,11 @@ title: Particle acceleration by astrophysical shocks
 authors: R. D. Blandford (Caltech), J. P. Ostriker (Princeton)
 year: '1978'
 journal: The Astrophysical Journal 221, L29-L32 (1978)
+sections:
+  - 'I. INTRODUCTION'
+  - 'II. ACCELERATION BY A STRONG SHOCK'
+  - 'III. ACCELERATION OF COSMIC RAYS'
+  - 'IV. RELATIVISTIC ELECTRON ACCELERATION'
 pages: 'L29'
 doi: 10.1086/182658
 arxiv: —（预印本时代前）
