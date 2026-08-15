@@ -58,11 +58,11 @@
 | 3.0.2 Heliosphere modulation | ✅ | `03_propagation_physics` 分章 |
 | 3.0.3 Spectral modifications | ✅ | `03_propagation_physics` 分章 |
 | 3.1.1 Propagation in the Galaxy: the three-zone model | ✅ | `03_propagation_physics` 分章 |
-| 4.3.1 The inner galaxy | ❌ | `04_crwanderers`（04_crwanderers 有 4.3.1 段内容但用了二级 ## 标题（非三级 ###，标题层级误用）） |
-| 4.3.2 The Fermi Bubbles and Galactic Center | ❌ | `04_crwanderers`（内容在 ## 层级，### 标题层级误用） |
-| 7.1.1 In the HI | ❌ | `07_tracers`（内容在 ## 层级，### 标题层级误用） |
-| 7.1.2 In the dark neutral medium | ❌ | `07_tracers`（内容在 ## 层级，### 标题层级误用） |
-| 7.1.3 About $X_{CO}$ | ❌ | `07_tracers`（内容在 ## 层级，### 标题层级误用） |
-| 7.1.4 On dust properties | ❌ | `07_tracers`（内容在 ## 层级，### 标题层级误用） |
+| 4.3.1 The inner galaxy | ✅ | `04_crwanderers` 分章 |
+| 4.3.2 The Fermi Bubbles and Galactic Center | ✅ | `04_crwanderers` 分章 |
+| 7.1.1 In the HI | ✅ | `07_tracers` 分章 |
+| 7.1.2 In the dark neutral medium | ✅ | `07_tracers` 分章 |
+| 7.1.3 About $X_{CO}$ | ✅ | `07_tracers` 分章 |
+| 7.1.4 On dust properties | ✅ | `07_tracers` 分章 |
 
-**统计**：✅ 7/13（53%），❌ 6/13。❌ 项见位置列原因；本任务不改分章，仅记录。
+**统计**：✅ 13/13（100%），❌ 0/13。已全部对齐。

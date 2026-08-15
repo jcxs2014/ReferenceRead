@@ -6,7 +6,7 @@
 
 # 4. COSMIC-RAY WANDERERS IN THE MILKY WAY
 
-> **中文译文**
+> **银河系内的宇宙线漫游者**
 
 **[FACT]** CR 传播历史约束以两种方式记录：
 - **本地**：在成分中（一次/次级丰度比）；
@@ -20,7 +20,7 @@
 3. **本地 CR 样本**：到达地球的核子 > 一半在 2/1 kpc 内产生（Taillet & Maurin 2003）。
 4. **本地 ISM 特性**：与 halo 相通的大空腔（Galeazzi 2014; Lallement et al. 2014）+ Gould Belt 云（近 60 Myr 增强恒星形成，Grenier 2000; Perrot & Grenier 2003）→ Gould Belt CR 源可在 <0.5 Myr 使 B/C 波动 $\sim$50%（Büsching et al. 2005）；空洞烟囱严重改变重核（$A \ge 50$）相对丰度（Combet et al. 2005）。
 
-## 4.1. Cosmic Rays in the Local Interstellar Medium
+## 4.1 Cosmic Rays in the Local Interstellar Medium
 
 **[FACT]** Fermi-LAT $\gamma$ 数据分析显示 $q_\gamma^H$ 在 Gould Belt 与本地臂中**相当均匀**（Abdo et al. 2009, 2010b; Ackermann et al. 2011b, 2012b,d,e; Casandjian 2012）。
 
@@ -64,9 +64,9 @@
 
 **[FACT]** 与更远的 Perseus OB2 星团（300 pc）对比：10 倍大电离率 + 几乎均匀的 super-GeV CR 流 → **揭示低能 CR 空间分布中的强环境影响**。
 
-## 4.2. Cosmic Rays in the Outer Galaxy
+## 4.2 Cosmic Rays in the Outer Galaxy
 
-> **中文译文**
+> **银河系外部的宇宙线**
 
 **[FACT]** 表面密度 CR 源随 SFR 在太阳圈外快速下降（Urquhart et al. 2014）→ 期望 CR 密度下降梯度。
 
@@ -86,9 +86,9 @@
 - **暗中性介质（DNM）**：HI-bright 与 CO-bright 之间的界面，大量气体在射电巡天中遗失；超出太阳圈 DNM 丰富度 > CO-bright $H_2$（Planck Collab. 2011a; Pineda et al. 2013）；
 - $\gamma$ 射线分析含 $\gamma$-ray + dust 图来考虑缺失 DNM，但只有视线积分，且尘埃/气体比径向随金属度下降而下降 → 向下偏差（Sandstrom et al. 2013）。
 
-## 4.3. Cosmic Rays in the Inner Galaxy
+## 4.3 Cosmic Rays in the Inner Galaxy
 
-> **中文译文**
+> **银河系内部的宇宙线**
 
 **[FACT]** 图 5（全天图）：Fermi-LAT $\gamma$ 强度（>1 GeV，6 年）与 Planck+IRAS 353 GHz 尘埃光学深度——两者大体示踪相同总气体柱密度（$\gamma$ 射线加权 CR 密度，尘埃加权 dust-to-gas 与星光加热），细节上高度相似。
 
@@ -103,10 +103,10 @@
 - 1–30 MEV 范围发射高于预测（或许 MeV $\gamma$ 射线源群体）；
 - 存在高能超出的轻微迹象（需再分析）。
 
-## 4.3.2. Populations of unresolved γ-ray sources and The Fermi Bubbles and Galactic Center
+### 4.3.1 Populations of unresolved γ-ray sources and The Fermi Bubbles and Galactic Center
 **未分辨 γ 射线源群体与 Fermi Bubbles / 银河中心**
 
-> **中文译文**
+> **未分辨 γ 射线源群体及 Fermi Bubbles 与银河中心**
 
 **[FACT]** 扩展 SNR 可能贡献"看似"弥漫的 $\gamma$ 射线与 GeV 超出（Völk & Berezhko 2013）。
 
@@ -114,10 +114,9 @@
 
 **[FACT]** 中间/老脉冲星在空间上**不与气体结构强关联** → $q_\gamma^H$ 的测量（基于 $\gamma$ 射线与气体柱密度空间关联）只要气体与污染源分布不强烈空间相关，就不受影响。在螺旋臂相切方向与银河中心拥挤区域这一条件可能失效。
 
-## 4. The Fermi Bubbles and Galactic Center
-**Fermi Bubbles 与银河中心**
+### 4.3.2 The Fermi Bubbles and Galactic Center
 
-> **中文译文**
+> **Fermi Bubbles 与银河中心**
 
 **[FACT]** 最壮观的扩展发射发现——**Fermi Bubbles**（Su et al. 2010）， arguably 是 Fermi 任务迄今最意外的发现之一。详细空间与谱分析见 Ackermann et al. (2014)。
 
@@ -151,10 +150,10 @@
 - **[FACT]** 起源不明：脉冲星群（毫秒/普通）、CR 质子源、轻子源、暗物质模型。
 - **[FACT]** 与 INTEGRAL 观测到的延展 511-keV 正电子湮灭线的巧合**引人注意**。
 
-## 4.4. Global Properties of the High-Energy Galaxy
+## 4.4 Global Properties of the High-Energy Galaxy
 **高能银河系的整体性质**
 
-> **中文译文**
+> **高能银河系的整体性质**
 
 **[FACT]** 图 7：银河系从射电到 $\gamma$ 的多波段光度谱（Strong 2010）——一个银河系外（如 M31）观测者看到的：
 - 高能辐射只是光学 + IR 的一小部分；
@@ -168,7 +167,7 @@
 
 ## Figure 4 — γ-ray emissivity $q_\gamma^H$
 
-> **中文译文**
+
 
 **[FACT]** Panels (a,b,d)：不同云/区域内 $q_\gamma^H$ 谱，错误条包含统计误差 + HI 光学深度 + Fermi-LAT 曝光不确定度。
 
@@ -178,26 +177,26 @@
 
 ## Figure 5 — 全天 $\gamma$ 射线 vs 尘埃
 
-> **中文译文**
+
 
 - **[FACT]** 展示总气体在 $\gamma$ 与尘埃之间的强相关 → CR 密度在银河系内广泛均匀。
 
 ## Figure 6 — 内银河 $\gamma$ 谱
 
-> **中文译文**
+
 
 - **[FACT]** INTEGRAL-SPI + COMPTEL + Fermi-LAT 数据 vs GALPROP 模型。
 - 1–30 MEV 超出 → 潜在 MeV 源群体。
 
 ## Figure 7 — 银河系多波段光度谱
 
-> **中文译文**
+
 
 - **[FACT]** 强子（$\pi$ 衰变）与轻子（逆 Compton, 同步辐射）相当；质子仅 10% 损失；总 CR 光度 $\sim 10^{41}$ erg/s。
 
 ## 关键参数
 
-> **中文译文**
+> **关键参数**
 
 | 量 | 数值 |
 |----|------|

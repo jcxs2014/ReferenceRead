@@ -17,7 +17,7 @@
 
 **[FACT]** 放射性次级 **$^{10}{\rm Be}$**（半衰期 1.6 Myr）对银河系内停留时间敏感。$^{10}{\rm Be}/^{9}{\rm Be}$ 约束 **CR halo 标高高 4–10 kpc**（Strong 2007; Putze 2010; Trotta 2011）。ISOMAX 测量（Hams 2004）在 ≤2 GeV 给出略高于模型预测的 $^{10}{\rm Be}/^{9}{\rm Be}$ 值，但**尚未被重复**（第二次飞行失败）。
 
-### 3.0.1. Parametric studies of cosmic-ray propagation
+### 3.0.1 Parametric studies of cosmic-ray propagation
 
 > **中文译文**
 
@@ -29,7 +29,7 @@
 
 **[FACT]** 这些分析及 Trotta et al. (2011) 的工作展示了贝叶斯方法在约束此类多参数问题的优势。
 
-### 3.0.2. Diffusive reacceleration and alternatives
+### 3.0.2 Diffusive reacceleration and alternatives
 
 > **中文译文**
 
@@ -50,7 +50,7 @@
 
 **[FACT]** 对流在 sub-GeV/n 能段起作用，给出与能量无关的逃逸时间。Voyager 1 数据被 Schlickeiser et al. (2014) 用作银河系风的证据（1D 传输模型）。
 
-### 3.0.3. Secondary production in cosmic-ray sources
+### 3.0.3 Secondary production in cosmic-ray sources
 
 > **中文译文**
 
@@ -74,7 +74,7 @@
 
 **[FACT]** Lazarian & Yan (2014)：**超扩散（superdiffusion）**——因场线发散而比经典扩散快——在 CR 源区域可能重要。
 
-### 3.1.1. Cosmic-ray penetration into molecular clouds
+### 3.1.1 Cosmic-ray penetration into molecular clouds
 
 > **中文译文**
 

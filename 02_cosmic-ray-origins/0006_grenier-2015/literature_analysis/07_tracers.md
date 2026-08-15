@@ -23,7 +23,7 @@
 
 **[FACT]** CR 独立示踪所有气体 → 校准其他示踪，测量 HI 光学深度与 $X_{\text{CO}}$ 比。$N_H$ 示踪依赖**均匀 CR 流穿过 HI 与 $H_2$ 相**的假设——ISM 大 CR 扩散长度与观测到的跨相 CR 谱均匀性支撑该假设（见 §3.1.1）。CR 长期以来用于揭示分子云（Black & Fazio 1973; Lebrun & Paul 1983）、校准 $X_{\text{CO}}$（Strong et al. 1988）和发现 DNM 包络（Grenier et al. 2005）。Fermi-LAT 观测使这些研究飞跃式前进。
 
-## 7.1. Tracing Gas and Dust Properties
+## 7.1 Tracing Gas and Dust Properties
 
 > **示踪气体与尘埃性质**
 
@@ -31,7 +31,7 @@
 
 **[FACT]** CRs 揭示总气体（无论其热力学和化学状态），从而校准其他示踪以及测量 HI 光学深度与 $X_{\text{CO}}$。
 
-## 7.1.1. In the HI
+### 7.1.1 In the HI
 
 > **在 HI 中**
 
@@ -39,7 +39,7 @@
 
 **[FACT]** Cep-Pol 与 Cygnus 云结果与稀疏配对的吸收/发射 HI 谱精确值一致，但目前限于均匀自旋温度检验。
 
-## 7.1.2. In the dark neutral medium
+### 7.1.2 In the dark neutral medium
 
 > **在暗中性介质中**
 
@@ -65,7 +65,7 @@
 
 **[FACT]** **结论**：DNM 到底是**主要是原子还是分子**尚无法定 → 鉴于 HI–$H_2$ 过渡在空间和时间上都高度动态（Glover & Mac Low 2011），"neutral DNM" 名称比"CO-dark $H_2$"更合理。
 
-## 7.1.3. About $X_{\text{CO}}$
+### 7.1.3 About $X_{\text{CO}}$
 
 > **关于 $X_{\text{CO}}$**
 
@@ -83,7 +83,7 @@
 
 **[FACT]** Gould Belt 与 Local Arm 差 2 倍**不能**归因于金属度变化（弥漫分子包络面积大 → 应推高 $X_{\text{CO}}$，而非降低）→ 可能源于 CO-bright 与 HI/DNM 成分分离偏差或视线方向叠加与射电交叉噪声。
 
-## 7.1.4. On dust properties
+### 7.1.4 On dust properties
 
 > **关于尘埃性质**
 
@@ -103,7 +103,7 @@
 
 **[FACT]** 进一步比较 $\gamma$-ray 与尘埃吸收 $X_{\text{CO}}$ 至关重要，判断云间变化源于气体示踪选择、云内采样尺度还是环境差异。
 
-## 7.2. Tracing Cosmic-Ray Leptons and the Magnetic Field
+## 7.2 Tracing Cosmic-Ray Leptons and the Magnetic Field
 
 > **示踪宇宙线轻子与磁场**
 
