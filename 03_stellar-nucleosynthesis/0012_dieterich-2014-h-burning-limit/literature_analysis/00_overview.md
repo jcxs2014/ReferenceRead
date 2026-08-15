@@ -7,6 +7,14 @@ pages: '94'
 
 keywords: M dwarfs, brown dwarfs, hydrogen burning limit, trigonometric parallax
 category: 恒星核合成
+sections:
+  - '§1 Introduction'
+  - '§2 The Observed Sample'
+  - '§3 Photometric Observations'
+  - '§4 Astrometric Observations (CTIOPI Parallax)'
+  - '§5 Results'
+  - '§6 Discussion — The End of the Stellar Main Sequence'
+  - '§7 Conclusions and Future Work'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'
