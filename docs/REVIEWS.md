@@ -849,3 +849,23 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 ### 附：REVIEWS #23 标题修正
 
 - #23 正文已更正为 38 篇，但标题仍写"35 篇收官"——本次顺手修正（35→38），与正文一致
+
+## 审查 #29：webapp 产物归位清理（2026-08-15 深夜）
+
+> 范围：webapp/ 产物分类 → 文档迁移 / 审计归档 / 构建产物解控 / pyc 清理（commit `1dab103`，36 files，−71219 行）
+
+### 处理明细
+
+| 类别 | 项 | 处理 |
+|---|---|---|
+| 文档 | `审查报告.md`（85KB，webapp 三轮审查记录） | `git mv` → `docs/webapp审查报告.md`；RECOMMENDATIONS 3 处引用同步 |
+| 一次性审计产物 | 18 个 `.tsv`（公式 LaTeX 化两轮 audit_背景/核合成/起源/传播 × r1/r2 + gap + fix_audit + supsub_audit） | `git mv` → `docs/archive/audit/`（追溯明细，任务已闭环） |
+| 构建产物（可再生成） | registry.json / glossary.json / search_index.json / manifest.json / icon-192 / icon-512 / apple-touch-icon（7 个） | `git rm --cached`（**磁盘保留**，解除版本控制）+ webapp/.gitignore 补充 → 构建链 `build_registry → build_glossary → build_search_index → build_pwa` 再生成 |
+| 误入库缓存 | `__pycache__/` 6 个 `.pyc`（webapp×5 + tests×1） | `git rm`（gitignore 已忽略但历史 add 入库，清理） |
+| 保留 | 12 个 py 脚本 + shell.html + README.md + tests/test_core.py + third-party/katex/（自托管字体，315197a） + .gitignore | — |
+
+### 现状
+
+- `webapp/` = 仅源码/模板/自托管资源（构建产物磁盘保留、不入库）
+- `docs/archive/audit/` = 18 个审计 tsv 追溯归档
+- 工作树干净；HEAD `1dab103`
