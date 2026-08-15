@@ -89,3 +89,25 @@ CR 在星系和星系团演化中扮演什么动力学角色？CR 的长冷却�
 ## 关键词
 
 `cosmic-ray feedback` `galaxy formation` `cooling flow` `galactic winds` `streaming instability` `wave-particle interactions` `DSA`
+
+---
+
+## 分章导航（2026-08-15 补充分章正文后更新）
+
+> 本文按 READING_INSTRUCTIONS §3-§4 模板补全了 5 个正文分章文件，每个分章按 8 子结构（核心内容 / FACT / 公式 / 参数 / 图表 / 逻辑 / INTERPRETATION / CRITIQUE / 术语 / 页码）精读。
+
+| # | 章节 | 文件 | 原文对应 |
+|---|------|------|----------|
+| 01 | Introduction | `01_01_introduction.md` | §1.1 Discovery / §1.2 Basic properties / §1.3 Role in galaxy evolution / §1.4 Scope / §1.5 Outline |
+| 02 | Physics | `02_02_physics.md` | §2.1 CR-EM wave interactions / §2.2 Acceleration & escape / §2.3 Spatial transport / §2.4 Radiative cooling |
+| 03 | Astrophysical Systems | `03_03_astrophysical_systems.md` | §3.1 Galaxies / §3.2 CGM / §3.3 Galaxy clusters / §3.4 ICM / §3.5 Merger shocks |
+| 04 | Observational Signatures | `04_04_observational_signatures.md` | §4.1 Gamma-rays / §4.2 Radio / §4.3 X-ray / §4.4 UV / §4.5 Multi-messenger |
+| 05 | Open Questions and Future Directions | `05_05_open_questions_and_future_directions.md` | §5.1 Theory / §5.2 Simulations / §5.3 Observations |
+
+## 章节级核心关键词（按主题聚合）
+
+`('Feedback', '反馈，CR 对星系/星系团演化的动力学影响', 28)` `('Cooling flow problem', '冷却流问题——星系团核心为何没大量冷却形成恒星', 18)` `('Galactic wind', '银河风，CR 压力驱动的外流', 22)` `('CGM/ICM', 'Circumgalactic/Intracluster Medium', 25)` `('Streaming instability', '流动不稳定性，CR 流出时激发磁场不稳定性', 15)` `('Equipartition', '能量均分，CR 与热/磁场能量密度相当', 10)` `('Fermi bubbles', '银河系中心 Fermi-LAT 观测到的 γ 射线气泡结构', 14)` `('Wave-particle interaction', '波-粒相互作用', 20)`
+
+> **注**：本节为后续骨架更新追加，不影响原 00_overview.md 的 [FACT]/[INTERPRETATION]/[CRITIQUE] 框架。
+
+---
