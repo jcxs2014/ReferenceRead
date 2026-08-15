@@ -59,6 +59,31 @@ def score_chapter_sections(text: str) -> int:
     """X.1-X.8 / 0.x / ## 数字.数字 章节子节覆盖数量（0-8）。"""
     return len(re.findall(r"## X\.\d|## \d+\.\d+", text))
 
+# 子节镜像统计（议题 3，仅警告，不参与 --check）
+SUBSEC_RE = re.compile(r"^### \d+\.\d+\.\d+", re.M)
+
+
+def score_subsections(text: str) -> int:
+    """分章 ### N.n.n 三级子节数（路径 A 镜像指标）。"""
+    return len(SUBSEC_RE.findall(text))
+
+
+def parse_97_subsections(quality_text: str) -> tuple:
+    """从 97「子节级覆盖」块解析 (覆盖数, 名单总数)；无块返回 (None, None)。"""
+    m = re.search(r"## 子节级覆盖.*?\n((?:\|.*\n)+)", quality_text, re.S)
+    if not m:
+        return (None, None)
+    rows = [
+        r
+        for r in m.group(1).splitlines()
+        if r.startswith("|")
+        and "原文子节" not in r
+        and set(r.replace("|", "").strip()) != {"-"}
+    ]
+    covered = sum(1 for r in rows if "✅" in r)
+    return (covered, len(rows))
+
+
 def detect_format(text: str) -> str:
     """检测论文使用哪种精读格式。"""
     if re.search(r"## \[FACT\]|## \[INTERPRETATION\]|## \[CRITIQUE\]", text):
@@ -77,6 +102,13 @@ def scan_paper(paper_dir: Path) -> dict:
     combined = "\n".join(f.read_text(encoding="utf-8") for f in files)
     result = score_file(combined)
     result["chapter_sections"] = score_chapter_sections(combined)
+    result["subsections"] = score_subsections(combined)
+    # 97 块：尝试解析子节级覆盖 (covered, total)
+    q97 = la_dir / "97_quality_check.md"
+    if q97.exists():
+        result["subsec_97"] = parse_97_subsections(q97.read_text(encoding="utf-8"))
+    else:
+        result["subsec_97"] = (None, None)
     result["total_files"] = len(files)
     result["fmt"] = detect_format(combined)
     return result
@@ -136,6 +168,25 @@ def print_matrix(papers: list[tuple[str, dict]], verbose: bool = False) -> None:
     # 章节子节单独一行（不混在主表）
     avg_cs = total_cs // n
     print(f"章节子节: 平均 {avg_cs}/8（共 {total_cs}/{n*8} 节段）")
+
+    # 子节镜像（议题 3，仅 print，不参与 --check）
+    total_subsec = sum(row["subsections"] for _, row in papers)
+    entries = []
+    have_block = 0
+    for stem, row in papers:
+        covered, total = row["subsec_97"]
+        if covered is not None and total is not None and total > 0:
+            have_block += 1
+            pct = covered * 100 // total if total else 0
+            entries.append(f"{stem} {covered}/{total} ({pct}%)")
+    if entries:
+        print(
+            f"子节镜像: {have_block} 篇有 97 块 | "
+            + " | ".join(entries)
+            + f" | 全库 ### N.n.n = {total_subsec}"
+        )
+    else:
+        print(f"子节镜像: 0 篇有 97 块 | 全库 ### N.n.n = {total_subsec}")
 
     if verbose:
         print()
