@@ -191,7 +191,7 @@
     "tags": [],
     "citations": [],
     "path": "01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md",
-    "quality": 0,
+    "quality": 5,
     "key_values": [
       {
         "quantity": "物理量",
@@ -282,7 +282,7 @@
     "tags": [],
     "citations": [],
     "path": "01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md",
-    "quality": 0,
+    "quality": 3,
     "key_values": []
   },
   {
@@ -945,7 +945,7 @@
     "tags": [],
     "citations": [],
     "path": "02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/00_overview.md",
-    "quality": 0,
+    "quality": 6,
     "key_values": [
       {
         "quantity": "物理量",
@@ -1036,7 +1036,7 @@
     "tags": [],
     "citations": [],
     "path": "02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/00_overview.md",
-    "quality": 0,
+    "quality": 5,
     "key_values": []
   },
   {
@@ -1053,7 +1053,7 @@
     "tags": [],
     "citations": [],
     "path": "02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md",
-    "quality": 0,
+    "quality": 2,
     "key_values": []
   },
   {
@@ -1985,7 +1985,7 @@
     "tags": [],
     "citations": [],
     "path": "03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md",
-    "quality": 0,
+    "quality": 4,
     "key_values": []
   },
   {
@@ -2002,7 +2002,7 @@
     "tags": [],
     "citations": [],
     "path": "03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md",
-    "quality": 0,
+    "quality": 1,
     "key_values": []
   },
   {
