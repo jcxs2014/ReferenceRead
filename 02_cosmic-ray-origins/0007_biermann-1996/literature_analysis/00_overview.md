@@ -20,7 +20,7 @@ tags:
 - 元素丰度
 - 云捕获
 - 能量谱指数
-citations:
+citations: []
 - '[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview|0001_strong-moskalenko-ptuskin-2007]]'
 - '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|0004_blasi-2013]]'
 path: 02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md

@@ -25,7 +25,7 @@ tags:
 - 超新星核合成
 - 同位素异常
 - 核宇宙化学计时
-citations:
+citations: []
 - '[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]]'
 - '[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]]'
 path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview.md

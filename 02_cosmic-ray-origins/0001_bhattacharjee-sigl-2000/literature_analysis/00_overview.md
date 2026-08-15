@@ -26,7 +26,7 @@ tags:
 - photo-pion production
 - CMB
 - neutrino astrophysics
-citations:
+citations: []
 - '[[02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overview|0002_al-dargazelli-1996]]'
 - '[[02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview|0003_gaisser-1990]]'
 - '[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview|0001_strong-moskalenko-ptuskin-2007]]'

@@ -15,7 +15,7 @@ tags:
 - 'ISM: supernova remnants'
 - MHD
 - acceleration of particles
-citations:
+citations: []
 - '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|0004_blasi-2013]]'
 path: 02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md
 ---
