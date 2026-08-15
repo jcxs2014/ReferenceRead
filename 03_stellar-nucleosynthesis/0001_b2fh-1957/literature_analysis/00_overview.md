@@ -6,7 +6,7 @@ journal: Reviews of Modern Physics, Vol. 29, No. 4
 pages: '547-654'
 doi: 10.1103/RevModPhys.29.547（本 PDF 未直接给出 DOI，由引文推断）
 arxiv: 未提供（1957 年出版，早于 arXiv）
-keywords: 核合成、r 过程、s 过程、p 过程、α 过程、ε 过程、Big Bang 核合成、超新星、中子俘获、元素丰度、恒星演化、技术锝（Tc⁹⁹）、超重元素
+keywords: 核合成、r 过程、s 过程、p 过程、α 过程、ε 过程、Big Bang 核合成、超新星、中子俘获、元素丰度、恒星演化、技术锝（Tc$^{99}$）、超重元素
 category: 恒星核合成
 sections:
   - '§I Introduction'
@@ -36,7 +36,7 @@ tags:
 - 中子俘获
 - 元素丰度
 - 恒星演化
-- 技术锝（Tc⁹⁹）
+- 技术锝（Tc$^{99}$）
 - 超重元素
 citations:
 - '[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview|0002_trimble-1975]]'

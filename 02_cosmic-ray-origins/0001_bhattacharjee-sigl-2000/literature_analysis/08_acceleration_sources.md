@@ -5,7 +5,7 @@ pages: "40–48"
 sections:
   - "5.1 Maximum Achievable Energy within Diffusive Shock Acceleration Mechanism"
   - "5.2 Source Candidates for UHECR"
-  - "5.3 A Possible Link Between Gamma-Ray Bursts and Sources of E > 10²⁰ eV Events?"
+  - "5.3 A Possible Link Between Gamma-Ray Bursts and Sources of E > $10^{20}$ eV Events?"
 related_chapters:
   prev: 07_source_search_transport
   next: 09_topdown_basic_fragmentation
