@@ -4,6 +4,7 @@
 > 目的：38 篇文献的 `00_overview.md` frontmatter 补齐 `pages:` 字段（**整篇粒度、期刊正式页码**）
 > 背景：超长判定（综述 ≥40 页 / 原始论文 ≥20 页）依赖 pages 全量补齐——精读深度扩充备忘 §3.5/§5 的第一批前置任务
 > **用户拍板（2026-08-15）**：pages 统一整篇粒度、只放 00_overview；分章文件已有 pages 不动
+> **状态：✅ 已完成（2026-08-15）**——提交链 `1ad9840` 补齐 → `22ec1f1` 分隔符二次修复 → `5c03446` citations YAML 修复 → `11722f2` 备忘追踪。回归与修复记录见文末 §7（含修正后算法与复验口径）
 
 ---
 
@@ -122,3 +123,42 @@ grep -rh "^pages:" --include="00_overview.md" . | grep -vE "^pages: '[0-9]+(-[0-
 3. ≥10 篇抽查与 Crossref 一致 ✓
 4. 待人工清单已列原因，数量 ≤5 且无"编造值" ✓
 5. 工作树除 38 个 00_overview.md 外无其他改动 ✓
+
+---
+
+## 7. 回归与修复记录（1ad9840 误删 frontmatter 分隔符 → 已闭环）
+
+> 本段为 2026-08-15 执行后的回归事件记录 + 最终复验口径，替代原独立《pages 补齐回归修复执行指令》（已合并删除）。
+
+### 7.1 回归事件链
+
+| 提交 | 事件 | 结果 |
+|---|---|---|
+| `1ad9840` | Hermes 补齐 pages 38/38（数值全部正确：Crossref 明细核对、A74/L29 为 ApJ 文章编号型合法页码） | ❌ **误删 37/38 篇 frontmatter 首尾 `---`**（仅 bell 未触碰）→ YAML 不闭合，Obsidian 属性面板不渲染 |
+| `c746689` | Hermes 修复 | ❌ **只补了开头 `---`**，27/37 篇结尾仍缺（脚本把刚插的开头当结尾证据） |
+| `22ec1f1` | WorkBuddy 二次修复 | ✅ 27 篇补结尾（+27 行纯 `---`，diff 纯净、幂等） |
+| `5c03446` | WorkBuddy 深挖属性面板 | ✅ **修复老库 23 篇 `citations: []` + 顶格列表 YAML 非法**（`citations: []`→`citations:`，每篇 1 行）——这才是属性面板不渲染的直接根因 |
+
+### 7.2 修正后修复算法（防再犯，已验证幂等）
+
+```python
+def is_fm_line(s):
+    """True=frontmatter 内容行或结构行(可跳过)；False=正文行"""
+    if s.strip() in ('', '---'): return True     # 空行与 --- 结构行都跳过
+    if s.startswith(' '): return True            # 缩进续行
+    if s.startswith('- '): return True           # 列表项（含顶格 `- '[[...]]'`）
+    if re.match(r'^[A-Za-z_][A-Za-z0-9_]*\s*:', s): return True  # key:
+    return False
+```
+
+- 补开头：首行非 `---` 则插入；补结尾：**正文第一行**（第一个 `is_fm_line` False 的行）前若无 `---` 则插入
+- **坑 1**：`---` 必须被跳过（返回 True）——若当正文会双补
+- **坑 2**：先插开头再查"已有 ---"会把刚插的开头当结尾证据 → 跳过补结尾（Hermes 的 bug）
+- 写回用 `split('\n')` + `'\n'.join()` 保行尾/末尾换行原样，diff 才纯净
+
+### 7.3 复验判定（最终版，勿用旧口径）
+
+- **frontmatter 完整性**：`head -1 == "---"` **且** 正文第一行前 `---` 数 ≥ 2（开头+结尾）。勿用"正文前含 ---"（把开头当结尾→假阳性 38/38）、勿用"正文前一行==---"（结尾后隔空行→bell 误判）
+- **YAML 可解析性（权威）**：用 PyYAML（`/Users/jcxs2014/.workbuddy/binaries/python/envs/default/bin/python`，已装）`yaml.safe_load(frontmatter)`，38/38 全过
+- **全库 frontmatter 健康**：386 md / 99 真 frontmatter（38 个 00_overview + 61 其他）全部可解析；98_vocabulary/99_final_summary 无 frontmatter（`---` 后直接正文标题）非损坏
+- **frontmatter 判定**：`---` 与 `---` 之间须含 `^[A-Za-z_]\w*\s*:` key 行，否则视为无 frontmatter（防把 98/99 误当损坏）
