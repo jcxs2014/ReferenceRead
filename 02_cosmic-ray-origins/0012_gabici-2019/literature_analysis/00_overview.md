@@ -7,6 +7,12 @@ pages: '1930022'
 doi: 10.1142/S0218271819300221
 arxiv: arXiv:1907.10847
 category: 宇宙线起源
+sections:
+  - '§1 Introduction'
+  - '§2 The Orthodoxy (Supernova Remnants)'
+  - '§3 Observations Confront Theory'
+  - '§4 Open Problems'
+  - '§5 Conclusions'
 status: completed
 read_date: '2026-08-15'
 lastread: '2026-08-15'
