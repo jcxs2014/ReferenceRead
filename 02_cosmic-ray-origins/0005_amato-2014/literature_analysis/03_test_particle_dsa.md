@@ -81,7 +81,7 @@ $$\left\langle \frac{\Delta\mu\,\Delta\mu}{\Delta t} \right\rangle_\phi = \pi \O
 
 $$D(p) = \frac{1}{3} v(v\tau) \simeq \frac{1}{3}\, r_L\, v\, \left(\frac{k\,P(k)}{B_0^2/8\pi}\right)^{-1} = \frac{1}{3}\, r_L\, v\, \frac{1}{F}$$
 
-**[FACT]** 量级估计：H²/D(p) ~ $10^{7}$ yr 对应 D ~ $10^{29}$ cm²/s → $\delta$B/B ~ $6\times10^{-4}$（共振波长处），即**微量的 Alfvén 波功率即可满足银河系尺度上的 CR 约束**。
+**[FACT]** 量级估计：H$^{2}$/D(p) ~ $10^{7}$ yr 对应 D ~ $10^{29}$ cm$^{2}$/s → $\delta$B/B ~ $6\times10^{-4}$（共振波长处），即**微量的 Alfvén 波功率即可满足银河系尺度上的 CR 约束**。
 
 ## 3.5 DSA 输运方程（Blasi §3.3 / Amato §2）
 
@@ -106,8 +106,8 @@ $$f_0(p) = \frac{3r}{r-1}\,\frac{\eta n_1}{4\pi p_{inj}^2}\left(\frac{p}{p_{inj}
 $$\boxed{\alpha = \frac{3r}{r-1}}$$
 
 - r 为压缩比，强激波时 r → 4 → $\alpha$ → 4
-- 动量谱 p⁻⁴ 对相对论粒子等价于能量谱 E⁻²
-- 亚相对论：n($\epsilon$) ∝ $\epsilon^{\rm -3}$/²
+- 动量谱 p$^{-4}$ 对相对论粒子等价于能量谱 E$^{-2}$
+- 亚相对论：n($\epsilon$) ∝ $\epsilon^{\rm -3}$/$^{2}$
 - 谱形状**不依赖于扩散系数**（test-particle 的核心结果）
 
 **[FACT]** 压缩比（Blasi 式 (33)；Amato 式 (2)）：

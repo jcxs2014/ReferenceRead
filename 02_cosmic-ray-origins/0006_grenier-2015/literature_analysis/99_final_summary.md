@@ -22,7 +22,7 @@
 - **多信使观测**：直接（PAMELA, AMS-02, Voyager 1）+ 间接（$\gamma$ 射线 Fermi-LAT/HESS，射电同步辐射，亚毫米分子离子谱）。
 - **$\gamma$ 射线 emissivity q$\gamma_{\rm H}$** 作为 CR 密度与气体的空间映射。
 - **次级/一次核比**（B/C、$^{10}{\rm Be}$/$^{9}{\rm Be}$、反质子、正电子）约束扩散系数 D_xx(p) 与再加速。
-- **分子离子（$H_{3}^{\rm +}$、OH⁺、$H_{2}$O⁺、$H_{3}$O⁺、ArH⁺）** 作为低能 CR 电离率的化学探针。
+- **分子离子（$H_{3}^{\rm +}$、OH$^{+}$、$H_{2}$O$^{+}$、$H_{3}$O$^{+}$、ArH$^{+}$）** 作为低能 CR 电离率的化学探针。
 - **尘埃发射 + $\gamma$ 射线联合** 示踪暗中性介质（DNM）。
 - **传播模型**（GALPROP、DRAGON、USINE、PICARD）+ 贝叶斯参数扫描。
 - **MHD 粒子轨迹模拟**（Giacalone & Jokipii 传统）超越准线性理论。
@@ -31,16 +31,16 @@
 
 1. **谱硬化与成分差异**：PAMELA/AMS-02 揭示 >几百 GeV 处质子/He 谱硬化，He/p 比从 20 GeV 到 50 TeV 增 >2 倍。
 2. **Fermi Bubbles**：~50° 双对称 $\gamma$ 射线气泡，$2\times10^{30}$ W，与巨射电瓣（$10^{48}$ J、B ≤1.5 nT）重叠，速度 >900 km/s 的外流。
-3. **本地 ISM 谱反推**：从 $\gamma$-ray q$\gamma_{\rm H}$ 得到 $\zeta_{\rm H}^{\rm CR}$ ≈ $1.4\times10^{-17}$ s⁻¹，CR 能量密度 1.9 eV cm⁻³。
+3. **本地 ISM 谱反推**：从 $\gamma$-ray q$\gamma_{\rm H}$ 得到 $\zeta_{\rm H}^{\rm CR}$ ≈ $1.4\times10^{-17}$ s$^{-1}$，CR 能量密度 1.9 eV cm$^{-3}$。
 4. **CR 梯度问题**：外银河 q$\gamma_{\rm H}$ 仅下降 20–40%，与 halo 10 kpc 上限勉强一致。
 5. **Cygnus X cocoon**：年轻 CR 困住于电离腔，谱 E^−2.4，能量 $10^{42}$ J，扩散长度 100× 短于 ISM。
 6. **DMN 与 CO-dark $H_{2}$**：DNM 质量达 CO-bright 40–190%，但 DNM 主要原子/分子仍不明。
-7. **星暴星系 CR 反馈**：Arp 220 $\zeta_{H_{2}}^{\rm CR}$ >$10^{-13}$ s⁻¹（比 CMZ 高 $10^{2}$ 倍），质子量热效率 <50%。
+7. **星暴星系 CR 反馈**：Arp 220 $\zeta_{H_{2}}^{\rm CR}$ >$10^{-13}$ s$^{-1}$（比 CMZ 高 $10^{2}$ 倍），质子量热效率 <50%。
 
 ## 99.5 核心创新
 
 - 首次以"九种角色"框架系统整合 CR-ISM 反馈。
-- 首次将 CR 化学示踪（$H_{3}^{\rm +}$、OH⁺ 等）与 $\gamma$ 射线气体示踪、同步辐射磁场示踪并列讨论。
+- 首次将 CR 化学示踪（$H_{3}^{\rm +}$、OH$^{+}$ 等）与 $\gamma$ 射线气体示踪、同步辐射磁场示踪并列讨论。
 - 系统呈现 Voyager 1 与 Fermi-LAT 结合对本地 ISM 谱的双向约束。
 - 明确 CR 诱导 UV 化学、尘埃不透明度演化、DNM 示踪的新进展。
 
@@ -50,7 +50,7 @@
 - 传播参数（D_xx 动量指数、halo 高度、再加速水平）**多解简并**，需要独立探针打破。
 - 太阳调制在 sub-GeV 能区造成直接测量与 ISM 谱间的巨大不确定性。
 - 银河系中心/星暴区复杂的**多源叠加**与**非均匀 CR 密度**使得模型依赖强。
-- ArH⁺、OH⁺ 等亚毫米分子离子观测依赖 **Herschel 已结束**，后继仪器缺失是重大观测缺口。
+- ArH$^{+}$、OH$^{+}$ 等亚毫米分子离子观测依赖 **Herschel 已结束**，后继仪器缺失是重大观测缺口。
 
 ## 99.7 我应该记住什么（15 条）
 
@@ -60,8 +60,8 @@
 4. $^{22}{\rm Ne}$/$^{20}{\rm Ne}$ 比 CR/Solar = 5.3 ± 0.3；$^{59}{\rm Ni}$ 缺失约束加速在 SN 后 ~0.1 Myr。
 5. B/C 约束扩散 D_xx ∝ p^0.3–0.8；$^{10}{\rm Be}$ 半衰期 1.6 Myr 定 halo 标高 4–10 kpc。
 6. Voyager 1（2012-08-25, 122 AU）首次采样 <100 MeV 本地 ISM 谱。
-7. $\zeta_{\rm H}^{\rm CR}$ 本地 $~1.4\times10^{-17}$ s⁻¹；CMZ ~2–$7\times10^{-15}$ s⁻¹；Arp 220 >$10^{-13}$ s⁻¹。
-8. $H_{3}^{\rm +}$ 是 CR 电离核心示踪；OH⁺/$H_{2}$O⁺ 示踪低 f($H_{2}$) 气体。
+7. $\zeta_{\rm H}^{\rm CR}$ 本地 $~1.4\times10^{-17}$ s$^{-1}$；CMZ ~2–$7\times10^{-15}$ s$^{-1}$；Arp 220 >$10^{-13}$ s$^{-1}$。
+8. $H_{3}^{\rm +}$ 是 CR 电离核心示踪；OH$^{+}$/$H_{2}$O$^{+}$ 示踪低 f($H_{2}$) 气体。
 9. 每次 CR 电离沉积 ~13 eV；中性气体加热效率 ~20%；维持 10 K。
 10. q$\gamma_{\rm H}$ 在银河系半径 0–17 kpc 变化 <40% → CR 梯度问题。
 11. Fermi Bubbles 50°，$2\times10^{30}$ W，$10^{48}$ J 巨射电瓣，外流 >900 km/s。
@@ -83,7 +83,7 @@
 ## 99.9 可以借鉴的方法
 
 - **$\gamma$ 射线 emissivity q$\gamma_{\rm H}$** 作为 CR 密度示踪的空间映射方法。
-- **多化学离子协同示踪**（$H_{3}^{\rm +}$ + OH⁺_n）联合约束电离率与分子分数。
+- **多化学离子协同示踪**（$H_{3}^{\rm +}$ + OH$^{+}$_n）联合约束电离率与分子分数。
 - **贝叶斯 MCMC**（USINE）传播参数约束。
 - **粒子轨迹模拟**（超越准线性理论）处理强湍动中 CR 传播。
 - **$\gamma$ + 尘埃联合示踪**暗气体（DNM）。
@@ -91,8 +91,8 @@
 
 ## 99.10 可以直接使用的公式
 
-- **CR 与 H/$H_{2}$ 电离反应**：CR + H → H⁺ + e⁻ + CR；CR + $H_{2}$ → $H_{2}^{\rm +}$ + e⁻ + CR。
-- **次级电子级联加热率**（中性气体）：~$10^{-27}$ ($\zeta_{\rm H}^{\rm CR}$ / $10^{-16}$) erg s⁻¹ 每 H。
+- **CR 与 H/$H_{2}$ 电离反应**：CR + H → H$^{+}$ + e$^{-}$ + CR；CR + $H_{2}$ → $H_{2}^{\rm +}$ + e$^{-}$ + CR。
+- **次级电子级联加热率**（中性气体）：~$10^{-27}$ ($\zeta_{\rm H}^{\rm CR}$ / $10^{-16}$) erg s$^{-1}$ 每 H。
 - **扩散系数幂律**：D_xx(p) ∝ p^$\delta$, $\delta$ ∈ [0.3, 0.8]（Kolmogorov $\delta$=1/3）。
 - **$\zeta_{\rm H}$ 与 $\zeta_{H_{2}}$ 关系**：$\zeta_{\rm H}$ ≈ 0.65 $\zeta_{H_{2}}$。
 - **X_CO**：N($H_{2}$) = X_CO × W_CO。
@@ -105,7 +105,7 @@
 ## 99.12 值得进一步阅读的参考文献
 
 - **必须读**：Zweibel 2013（CR-MHD 反馈物理）；Strong et al. 2007（CR 传播框架）；Blasi 2013（CR 起源综述）。
-- **强推荐**：Crocker 2011/2014（银河系 CR 风）；Ackermann 2014（Fermi Bubbles）；Planck & Fermi Collab. 2015（$\gamma$+dust 联合）；Murphy 2012（30 Doradus 扩散）；Ackermann 2011a（Cygnus X）；Indriolo & McCall 2012/2015（$H_{3}^{\rm +}$, OH⁺ 化学示踪）；Gaggero 2014（DRAGON 传播）；Hanasz 2012b / Wóltański 2013（CR 流体+MHD）；Parizot 2004（超泡集体效应）。
+- **强推荐**：Crocker 2011/2014（银河系 CR 风）；Ackermann 2014（Fermi Bubbles）；Planck & Fermi Collab. 2015（$\gamma$+dust 联合）；Murphy 2012（30 Doradus 扩散）；Ackermann 2011a（Cygnus X）；Indriolo & McCall 2012/2015（$H_{3}^{\rm +}$, OH$^{+}$ 化学示踪）；Gaggero 2014（DRAGON 传播）；Hanasz 2012b / Wóltański 2013（CR 流体+MHD）；Parizot 2004（超泡集体效应）。
 
 ## 99.13 Completeness Check 自检
 

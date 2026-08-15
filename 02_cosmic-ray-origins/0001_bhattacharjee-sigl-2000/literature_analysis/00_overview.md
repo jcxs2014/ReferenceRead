@@ -170,7 +170,7 @@ literature_analysis/
 | GZK cutoff | §4.1 | §2.2, §4.5 |
 | CMB photo-pion | §4.1 | §6, §7 |
 | Photo-disintegration (Giant Dipole Res.) | §4.1 | §4.5 |
-| EM cascade ($\gamma$$\gamma$ → e⁺e⁻) | §4.2 | §7.1 |
+| EM cascade ($\gamma$$\gamma$ → e$^{+}$e$^{-}$) | §4.2 | §7.1 |
 | UHE neutrinos | §4.3.1 | §7.4 |
 | LPM effect | §2.4 | — |
 | Hillas criterion | §5.1 | §5.2 |

@@ -120,7 +120,7 @@ Blasi (2013), arXiv:1311.7346, 88 页
 │   └── 4.3 Dynamical reaction of amplified magnetic fields (Caprioli)
 ├── 5. The superbubble hypothesis (p. 46)
 ├── 6. Indirect evidence for CR acceleration in SNRs (pp. 47–58)
-│   ├── 6.1 Escape (boundary, integrated spectrum ∝ p⁻⁴)
+│   ├── 6.1 Escape (boundary, integrated spectrum ∝ p$^{-4}$)
 │   ├── 6.2 Spectra (concave NLDSA spectra vs gamma-ray data)
 │   ├── 6.3 Gamma-ray emission from isolated SNRs (RX J1713, Tycho)
 │   └── 6.4 SNRs near molecular clouds (pion bump, IC 443, W44, W28)

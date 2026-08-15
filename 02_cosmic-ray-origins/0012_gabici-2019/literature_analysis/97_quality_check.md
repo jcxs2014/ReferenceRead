@@ -19,12 +19,12 @@ title: "97. Quality Check — Gabici et al. 2019"
 
 | 数值 | 分章位置 | 原文验证 |
 |------|---------|---------|
-| $w_{\rm CR} \approx 1$ eV/cm³ | 02_orthodoxy §2.1 | ✅ fulltext.txt 行 124 |
+| $w_{\rm CR} \approx 1$ eV/cm$^{3}$ | 02_orthodoxy §2.1 | ✅ fulltext.txt 行 124 |
 | $W_{\rm CR} \approx 10^{55}$ erg | 02_orthodoxy §2.1 | ✅ 行 186 |
 | $P_{\rm CR} \approx 10^{41}$ erg/s | 02_orthodoxy §2.1 | ✅ 行 248 |
-| grammage $\Lambda \approx 10$ g/cm² | 02_orthodoxy §2.2 | ✅ 行 241 |
+| grammage $\Lambda \approx 10$ g/cm$^{2}$ | 02_orthodoxy §2.2 | ✅ 行 241 |
 | $\tau_{\rm esc} \approx 10$–$20$ Myr | 02_orthodoxy §2.2 | ✅ 行 307 |
-| $D_0 \approx 3\times10^{28}$ cm²/s | 02_orthodoxy §2.2 公式(1) | ✅ 行 328 |
+| $D_0 \approx 3\times10^{28}$ cm$^{2}$/s | 02_orthodoxy §2.2 公式(1) | ✅ 行 328 |
 | $\delta \approx 0.3$–$0.6$ | 02_orthodoxy §2.2 | ✅ 行 349 |
 | $\sim 10\%$ SN→CR 效率 | 02_orthodoxy §2.1 | ✅ 行 279 |
 | 300 GV 硬变 | 03_observations §3.1.1 | ✅ 行 552 |
@@ -55,7 +55,7 @@ title: "97. Quality Check — Gabici et al. 2019"
 
 | 公式 | 位置 | LaTeX 规范 |
 |------|------|-----------|
-| (1) $D_0 \approx 3\times10^{28}(\dots)^2(\dots)^{-1}$ cm²/s | 02_orthodoxy §2.2 | ✅ |
+| (1) $D_0 \approx 3\times10^{28}(\dots)^2(\dots)^{-1}$ cm$^{2}$/s | 02_orthodoxy §2.2 | ✅ |
 | (2) $\alpha = (3D_{\rm parallel}/c) \|\nabla n_{\rm CR}\|/n_{\rm CR}$ | 03_observations §3.2 | ✅ |
 | (3) $E_{\max} \approx Z(R_{\rm sh}/3\;{\rm pc})(u_{\rm sh}/1000\;{\rm km/s})(B_{\rm up}/\mu G)$ TeV | 04_open_problems §4.1 | ✅ |
 
@@ -66,5 +66,5 @@ title: "97. Quality Check — Gabici et al. 2019"
 | 01_introduction | 论文结构（5 章）、作者机构（法国/意大利）、核心问题定义 | 无重复 |
 | 02_orthodoxy | 三支柱（2.1–2.3）+ γ 射线测试（2.4–2.5）+ pion bump 辨析 | 无重复 |
 | 03_observations | 11 个异常子节（3.1.1–3.3.5）逐项展开 | 无重复 |
-| 04_open_problems | 膝区定量三角困境、踝区、⁶⁰Fe 证据 | 无重复 |
+| 04_open_problems | 膝区定量三角困境、踝区、$^{60}{\rm Fe}$ 证据 | 无重复 |
 | 05_conclusions | 6 经典问题 + 11 新谜题 + 10 未来观测 | 无重复 |

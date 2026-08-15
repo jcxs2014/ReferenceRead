@@ -10,7 +10,7 @@
 
 **[FACT]** 准确示踪所有云尺度的气体质量是理解星系演化与恒星形成效率的关键。$\gamma$ 射线与尘埃发射示踪**整个气体**（不论化学/热状态），但缺点是沿视线积分 N_H 全银河。
 
-**[FACT]** 与 CO 示踪的互补关系：**X_CO** = N($H_{2}$)/W_CO (cm⁻² / (K km s⁻¹)) — Bolatto et al. (2013) 综述。跨星系随金属度与 UV 流梯度温和变化，中心数 kpc 外大体均匀。
+**[FACT]** 与 CO 示踪的互补关系：**X_CO** = N($H_{2}$)/W_CO (cm$^{-2}$ / (K km s$^{-1}$)) — Bolatto et al. (2013) 综述。跨星系随金属度与 UV 流梯度温和变化，中心数 kpc 外大体均匀。
 
 **[FACT]** HI-$H_{2}$ 界面富含致密不透明 HI 与 CO-faint / CO-dark $H_{2}$（van Dishoeck & Black 1988; Visser 2009; Wolfire 2010）。联合 CR 与尘埃示踪揭示**暗中性介质（DNM）**（Grenier 2005）——远超 HI 与 CO 巡天的气体质量。
 
@@ -60,8 +60,8 @@
 **[FACT]** 两个剖面都可能暗示 X_CO 随银河系半径增加（比外部星系更明显，但需小心）。
 
 **[FACT]** 图 10（CO-dark $H_{2}$ 质量分数分布）：
-- $\gamma$ 射线在 Gould Belt 云（pc 尺度）平均 X_CO = **$0.9\times10^{20}$ cm⁻² K⁻¹ km⁻¹ s**
-- 在 Local 与 Perseus Arms（kpc 尺度）平均 X_CO = **$1.9\times10^{20}$ cm⁻² K⁻¹ km⁻¹ s**
+- $\gamma$ 射线在 Gould Belt 云（pc 尺度）平均 X_CO = **$0.9\times10^{20}$ cm$^{-2}$ K$^{-1}$ km$^{-1}$ s**
+- 在 Local 与 Perseus Arms（kpc 尺度）平均 X_CO = **$1.9\times10^{20}$ cm$^{-2}$ K$^{-1}$ km$^{-1}$ s**
 - 附近云低值与 CH 高分辨率或弥漫云分子化学估计一致（Liszt 2010; Cotten & Magnani 2013）。
 - Local/Perseus Arms 平均值仅比外部星系（Sandstrom 2013）均值高 30%。
 
@@ -87,7 +87,7 @@
 
 ## 7.6 §7.2 Tracing CR Leptons and the Magnetic Field
 
-**[FACT]** 同步辐射（CR e⁻/e⁺）是 $\gamma$ 射线示踪核子的**重要补充**，联合分析 $\gamma$ 与同步辐射可解除"粒子分布 vs 磁场"简并。
+**[FACT]** 同步辐射（CR e$^{-}$/e$^{+}$）是 $\gamma$ 射线示踪核子的**重要补充**，联合分析 $\gamma$ 与同步辐射可解除"粒子分布 vs 磁场"简并。
 
 **[FACT]** 传播模型与同步辐射数据对比（Jaffe 2011; Strong 2011; Lineros 2012）展示该方法的威力：
 - 使用**低频同步辐射**（<几 100 MHz）探测太阳调制使直接测量复杂区的轻子 → 同时提供 ISM 谱以测试调制模型。
@@ -149,8 +149,8 @@
 | DNM vs HI-bright | 约 1/5 |
 | 云内 DNM 极端 | 35%, 60% |
 | 半分子 DNM 假设下 CO-dark $H_{2}$ 分数 | 常 > 30% 理论 |
-| Gould Belt X_CO (pc 尺度) | $0.9\times10^{20}$ cm⁻² K⁻¹ km⁻¹ s |
-| Local/Perseus Arms X_CO (kpc 尺度) | $1.9\times10^{20}$ cm⁻² K⁻¹ km⁻¹ s |
+| Gould Belt X_CO (pc 尺度) | $0.9\times10^{20}$ cm$^{-2}$ K$^{-1}$ km$^{-1}$ s |
+| Local/Perseus Arms X_CO (kpc 尺度) | $1.9\times10^{20}$ cm$^{-2}$ K$^{-1}$ km$^{-1}$ s |
 | 尘埃不透明度变化（Chamaeleon） | 2–4.6 倍 |
 | Chamaeleon 尘埃温度 | 14–22 K |
 | 旋转量数据 | 40,000 河外 |

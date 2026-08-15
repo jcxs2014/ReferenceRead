@@ -31,7 +31,7 @@ $$d\epsilon = 4\pi p^2 dp\, p c\, N_{esc}(p) = \xi_{esc}\,\frac{1}{2}\rho v_{sh}
 **[FACT]** 在 Sedov-Taylor 相（R_sh ∝ t^{2/5}，V_sh ∝ t^{-3/5}），导出（Blasi 式 (103)）：
 $$\boxed{N_{esc}(p) \propto p^{-4}\, \xi_{esc}(t)}$$
 
-**[INTERPRETATION]** 这个 p⁻⁴ 与 test-particle DSA 的 p⁻⁴ **无关**——它纯粹是 Sedov-Taylor 自相似演化 + 峰状逃逸的直接后果。若 $\xi_{\rm esc}$ 随时间下降，逃逸谱**比 p⁻⁴ 更硬**。
+**[INTERPRETATION]** 这个 p$^{-4}$ 与 test-particle DSA 的 p$^{-4}$ **无关**——它纯粹是 Sedov-Taylor 自相似演化 + 峰状逃逸的直接后果。若 $\xi_{\rm esc}$ 随时间下降，逃逸谱**比 p$^{-4}$ 更硬**。
 
 ## 6.3 Amato §3.2：逃逸粒子的谱（同源推导）
 
@@ -41,22 +41,22 @@ $$N_{esc}(p) \propto f_{esc}\, p^{-4}\, t^{5\alpha - 2}$$
 **[FACT]** 当 $\alpha$ = 2/5（Sedov-Taylor）：$N_{esc}(p) \propto f_{esc}\, p^{-4}$ → 与 Blasi 结果完全一致。
 
 **[FACT]** Amato Fig.4：一个"典型"SNR 释放的 CR 谱：
-- 逃逸粒子（虚线）比 p⁻⁴ 更硬；
+- 逃逸粒子（虚线）比 p$^{-4}$ 更硬；
 - 后期释放（点划线，被对流到下游的）在最高能端贡献少；
-- **总谱（实线）接近 p⁻⁴**；
+- **总谱（实线）接近 p$^{-4}$**；
 - 但该"典型"SNR 的最高能量仍**达不到膝区**。
 
 ## 6.4 SNR 释放的完整谱：NLDSA 预测（Blasi §6.2）
 
-**[FACT]** Blasi Fig.10（Caprioli et al. 2010a）：$n_{0}$ = 0.1 cm⁻³, $T_{0}$ = $10^{5}$ K, $\xi_{\rm inj}$ = 3.9, 逃逸边界 $\chi$=0.15 R_sh。
+**[FACT]** Blasi Fig.10（Caprioli et al. 2010a）：$n_{0}$ = 0.1 cm$^{-3}$, $T_{0}$ = $10^{5}$ K, $\xi_{\rm inj}$ = 3.9, 逃逸边界 $\chi$=0.15 R_sh。
 - 虚线：逃逸粒子
 - 点划线：激波消散后释放的粒子（能量损失导致高能端截断）
 - 实线：总谱
 - **最高能端出现"鼓包"**，因为逃逸通量主导
 
 **[CRITIQUE]** Blasi 明确指出 NLDSA 预测的总谱在**两个层面**与观测不符：
-1. **$\gamma$ 射线观测**：SNR 的推断粒子谱比 E⁻² **更陡**（Caprioli 2011）；
-2. **银河系各向异性**：若注入谱 ~E⁻²，需要 D(E) ∝ E^{0.7} → 各向异性**远**超观测值（Ptuskin 2006; Blasi & Amato 2012b）。
+1. **$\gamma$ 射线观测**：SNR 的推断粒子谱比 E$^{-2}$ **更陡**（Caprioli 2011）；
+2. **银河系各向异性**：若注入谱 ~E$^{-2}$，需要 D(E) ∝ E^{0.7} → 各向异性**远**超观测值（Ptuskin 2006; Blasi & Amato 2012b）。
 
 **[FACT]** Amato §5 进一步分析：
 - 从 B/C 反推 $\delta$ 的不确定性 → 注入谱斜率 **2 < $\gamma_{\rm inj}$ < 2.4**；
@@ -64,7 +64,7 @@ $$N_{esc}(p) \propto f_{esc}\, p^{-4}\, t^{5\alpha - 2}$$
 - 包含源空间-时间离散性的计算（Blasi & Amato 2012a,b 或类似）显示：
   - $\gamma_{\rm inj}$ = 2.34, $\delta$ = 1/3（Kolmogorov）→ 谱与各向异性**都**符合；
   - $\gamma_{\rm inj}$ = 2.07, $\delta$ = 0.6 → 谱符合但各向异性**过大**（Amato Fig.7-8）；
-- **结论**：SNR 注入的 CR 谱比 E⁻² 更陡（$\gamma_{\rm inj}$ ~ 2.3–2.4），与 NLDSA 的"凹形硬谱"预测**严重矛盾**。
+- **结论**：SNR 注入的 CR 谱比 E$^{-2}$ 更陡（$\gamma_{\rm inj}$ ~ 2.3–2.4），与 NLDSA 的"凹形硬谱"预测**严重矛盾**。
 
 ## 6.5 可能的理论修订（Blasi §6.2 尾 & Amato §6）
 

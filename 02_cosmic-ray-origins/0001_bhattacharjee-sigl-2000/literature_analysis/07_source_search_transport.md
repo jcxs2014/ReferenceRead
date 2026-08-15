@@ -15,9 +15,9 @@
 对一组粒子种类 i，局域能量密度 n_i(E) 的演化：
 ```
 ∂_t n_i(E) =
-  − n_i(E) ∫d$\epsilon$ n_b($\epsilon$) ∫₋₁⁺¹ d$\mu$ (1−$\beta_{\rm b}$ $\beta_{\rm i}$)/2 · $\Sigma_{\rm j}$ $\sigma$_{i→j}[s=$\epsilon$E(1−$\beta_{\rm b}$ $\beta_{\rm i}$)]
+  − n_i(E) ∫d$\epsilon$ n_b($\epsilon$) ∫$_{-1}^{+1}$ d$\mu$ (1−$\beta_{\rm b}$ $\beta_{\rm i}$)/2 · $\Sigma_{\rm j}$ $\sigma$_{i→j}[s=$\epsilon$E(1−$\beta_{\rm b}$ $\beta_{\rm i}$)]
 
-  + ∫dE' ∫d$\epsilon$ n_b($\epsilon$) ∫₋₁⁺¹ d$\mu$ $\Sigma_{\rm j}$ (1−$\beta_{\rm b}$ $\beta$'_j)/2 · n_j(E') · d$\sigma$_{j→i}/dE[s=$\epsilon$E'(1−$\beta_{\rm b}$ $\beta_{\rm j}$), E]
+  + ∫dE' ∫d$\epsilon$ n_b($\epsilon$) ∫$_{-1}^{+1}$ d$\mu$ $\Sigma_{\rm j}$ (1−$\beta_{\rm b}$ $\beta$'_j)/2 · n_j(E') · d$\sigma$_{j→i}/dE[s=$\epsilon$E'(1−$\beta_{\rm b}$ $\beta_{\rm j}$), E]
 
   + $\Phi_{\rm i}$
 ```
@@ -60,7 +60,7 @@ $\delta$(E) = (3 D(r,E) / n(r,E)) |∇n(r,E)|
 
 ### 7.2.2 小偏转 (Monte Carlo, 3D) [FACT]
 
-磁场建模：Gaussian 随机场，零均值，功率谱 B²(k) ∝ kⁿᴴ for k < k_c，其中 k_c = 2$\pi$/l_c。
+磁场建模：Gaussian 随机场，零均值，功率谱 B$^{2}$(k) ∝ k$^{n}$ᴴ for k < k_c，其中 k_c = 2$\pi$/l_c。
 
 **Monte Carlo 流程**：
 1. 傅里叶变换生成磁场网格实现。
@@ -79,7 +79,7 @@ $\delta$(E) = (3 D(r,E) / n(r,E)) |∇n(r,E)|
 
 **EGMF 约束 (公式 38)** [FACT, 来自 AGASA 200 EeV 事件对分析]：
 ```
-B ≲ $2\times10^{-11}$ · (l_c/1 Mpc)⁻^(1/2) · (d/30 Mpc)⁻¹  G
+B ≲ $2\times10^{-11}$ · (l_c/1 Mpc)$^{-}$^(1/2) · (d/30 Mpc)$^{-1}$  G
 ```
 - 若证实，比 Faraday rotation 强两个量级。
 
@@ -92,7 +92,7 @@ B ≲ $2\times10^{-11}$ · (l_c/1 Mpc)⁻^(1/2) · (d/30 Mpc)⁻¹  G
 ### 7.2.4 发射时间尺度可探测范围 (公式 39) [FACT]
 
 ```
-$3\times10^{3}$ ($\Delta$$\theta$/1°)² (d/10 Mpc) yr ≲ T_S ≃ $\tau_{\rm E}$ ≲ $10^{4}$ – $10^{7}$ (E/100 EeV)⁻² yr
+$3\times10^{3}$ ($\Delta$$\theta$/1°)$^{2}$ (d/10 Mpc) yr ≲ T_S ≃ $\tau_{\rm E}$ ≲ $10^{4}$ – $10^{7}$ (E/100 EeV)$^{-2}$ yr
 ```
 
 ### 7.2.5 一般情形：扩散 vs rectilinear 的过渡区 [FACT]
@@ -103,12 +103,12 @@ Monte Carlo 推广到任意偏转 [311]：
 
 **扩散系数 (公式 40)**：
 ```
-D(E) ≃ (1/3) r_g(E) B · ∫_{1/r_g}^∞ dk k² ⟨B²(k)⟩
+D(E) ≃ (1/3) r_g(E) B · ∫_{1/r_g}^∞ dk k$^{2}$ ⟨B$^{2}$(k)⟩
 ```
 - Kolmogorov 谱下：
   - 扩散区 ($\tau_{\rm E}$ >~ d)：D(E) ∝ E^(1/3)（r_g < L/2$\pi$）→ $\tau_{\rm E}$ ∝ E^(−1/3)
-  - Bohm 扩散 (r_g > L/2$\pi$)：D(E) ∝ E → $\tau_{\rm E}$ ∝ E⁻¹
-  - Rectilinear：$\tau_{\rm E}$ ∝ E⁻²
+  - Bohm 扩散 (r_g > L/2$\pi$)：D(E) ∝ E → $\tau_{\rm E}$ ∝ E$^{-1}$
+  - Rectilinear：$\tau_{\rm E}$ ∝ E$^{-2}$
 
 **关键观测** [FACT, Fig. 19, 20]：
 - Fig. 19 显示 bursting source 上 $\tau$-E 关系的三个 regime。
@@ -134,22 +134,22 @@ D(E) ≃ (1/3) r_g(E) B · ∫_{1/r_g}^∞ dk k² ⟨B²(k)⟩
 ### 7.3.2 量子引力色散关系 (公式 41) [FACT]
 
 ```
-c²k² ≃ E² + $\chi$ E³/$E_{0}$
+c$^{2}$k$^{2}$ ≃ E$^{2}$ + $\chi$ E$^{3}$/$E_{0}$
 ```
-- 对应光子群速度 ∂E/∂k = c[1 − $\chi$ E/$E_{0}$ + O(E²/$E_{0}^{2}$)]
+- 对应光子群速度 ∂E/∂k = c[1 − $\chi$ E/$E_{0}$ + O(E$^{2}$/$E_{0}^{2}$)]
 - $\chi$ = ±1；$E_{0}$ = 量子引力尺度
 - 阈值 (公式 42)：
 ```
-$\epsilon$ ≃ E/4 · [m_e²/($E_{1}$$E_{2}$ + $\theta_{1}$$\theta_{2}$)] + $\chi$ E²/(4$E_{0}$)
+$\epsilon$ ≃ E/4 · [m_e$^{2}$/($E_{1}$$E_{2}$ + $\theta_{1}$$\theta_{2}$)] + $\chi$ E$^{2}$/(4$E_{0}$)
 ```
 
 **两种情形**：
-- **$\chi$ < 0 (c_$\gamma$ > c_p)**：E > E_c 时光子可自发衰变 → 河外光子传播受阻 → 观测 > 20 TeV 河外光子 [328,329] 约束 **$E_{0}$ >~ M_Pl** 或 (c²_i − c²) > ~ −$2\times10^{-17}$。
+- **$\chi$ < 0 (c_$\gamma$ > c_p)**：E > E_c 时光子可自发衰变 → 河外光子传播受阻 → 观测 > 20 TeV 河外光子 [328,329] 约束 **$E_{0}$ >~ M_Pl** 或 (c$^{2}$_i − c$^{2}$) > ~ −$2\times10^{-17}$。
 - **$\chi$ > 0**：E > E_c 时 $\epsilon$ 增长 → 光子传播不受阻 → 可观测 > 100 TeV 来自 > 100 Mpc 的河外光子。
 
 **时间色散 (公式)**：
 ```
-$\Delta$t ≃ (d/c)(E/$E_{0}$) ≃ 1 (d/100 Mpc)(E/TeV)($E_{0}$/M_Pl)⁻¹ s
+$\Delta$t ≃ (d/c)(E/$E_{0}$) ≃ 1 (d/100 Mpc)(E/TeV)($E_{0}$/M_Pl)$^{-1}$ s
 ```
 - Mrk 421 > 2 TeV $\gamma$ 在 300 s 内到达 → $E_{0}$ > $4\times10^{16}$ GeV [331]。
 - HEGRA 若观测到 > 200 TeV GRB $\gamma$ 在 200 s 内 → $E_{0}$ ≃ M_Pl。
@@ -157,17 +157,17 @@ $\Delta$t ≃ (d/c)(E/$E_{0}$) ≃ 1 (d/100 Mpc)(E/TeV)($E_{0}$/M_Pl)⁻¹ s
 ### 7.3.3 快子中微子 [FACT]
 
 - Kostelecký [333]：$\nu_{\rm e}$ 为 tachyon。
-- 核内质子可衰变 p → n + e⁺ + $\nu_{\rm e}$，阈值 Eth = m(A,Z)[m(A,Z±1)+m_e−m(A,Z)]/|m_$\nu$e|
+- 核内质子可衰变 p → n + e$^{+}$ + $\nu_{\rm e}$，阈值 Eth = m(A,Z)[m(A,Z±1)+m_e−m(A,Z)]/|m_$\nu$e|
 - 自由质子：Eth ≃ $1.7\times10^{15}$/(|m_$\nu$e|/eV) eV。
-- Ehrlich [334] 主张 m²_$\nu$e ≃ −(0.5 eV)² 可同时解释 knee 与高能端。
-- [CRITIQUE] 与氚 $\beta$ 衰变实验最佳拟合值 m²_$\nu$e < 0 一致（但最可能是实验未解决的系统问题），不过 |m²_$\nu$e| 值通常比 fit knee 所需大。
+- Ehrlich [334] 主张 m$^{2}$_$\nu$e ≃ −(0.5 eV)$^{2}$ 可同时解释 knee 与高能端。
+- [CRITIQUE] 与氚 $\beta$ 衰变实验最佳拟合值 m$^{2}$_$\nu$e < 0 一致（但最可能是实验未解决的系统问题），不过 |m$^{2}$_$\nu$e| 值通常比 fit knee 所需大。
 - 预测 knee 附近有 neutron 谱线 [336]。
 
 ## 7.4 关键数值速查
 
 | 量 | 值 |
 |---|---|
-| $\tau_{\rm E}$ 三个 regime | E⁻² (rectilinear), E⁻¹ (Bohm), E⁻¹/³ (Kolmogorov 扩散) |
+| $\tau_{\rm E}$ 三个 regime | E$^{-2}$ (rectilinear), E$^{-1}$ (Bohm), E$^{-1}$/$^{3}$ (Kolmogorov 扩散) |
 | AGASA 约束 (公式 38) | B ≲ $2\times10^{-11}$ G (l_c/Mpc)^(-1/2) (d/30 Mpc)^-1 |
 | VLI 约束 ($10^{20}$ eV 质子) | (c_p−c) < $10^{-23}$ |
 | VPE 约束 | (g_p/g_$\gamma$)−1 < $10^{-19}$ |

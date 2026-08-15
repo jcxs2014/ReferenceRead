@@ -23,7 +23,7 @@ title: "98. Vocabulary — Telescope Array Collaboration 2023"
 | accordingly | adv. | 因果 | 相应地 | "accordingly limits the origins" |
 | correspondingly | adv. | 因果 | 相应地 | "the corresponding center-of-mass energy... reached 700 TeV" |
 | presumably | adv. | 限定 | 推测 | "presumably" 在推测性论述中出现 |
-| approximately | adv. | 限定 | 大约 | "approximately 4×10⁷ times higher than the 7 TeV protons" |
+| approximately | adv. | 限定 | 大约 | "approximately 4×10$^{7}$ times higher than the 7 TeV protons" |
 | potentially | adv. | 限定 | 潜在地 | "potential cosmic ray sources" |
 | consistently | adv. | 强调 | 一致地 | "consistently with the GZK cutoff has been observed" |
 | disfavor | v. | 否定 | 不支持 | "we therefore disfavor PKS 1717+177 as the source" |
@@ -32,13 +32,13 @@ title: "98. Vocabulary — Telescope Array Collaboration 2023"
 
 | 术语 | 中文 | 释义 | 首次出现 |
 |------|------|------|---------|
-| UHECR | 超高能宇宙线 | 能量 >10¹⁸ eV 的宇宙线 | §1 |
-| EeV | 10¹⁸ eV | 1 exa-electron volt | §1 |
+| UHECR | 超高能宇宙线 | 能量 >10$^{18}$ eV 的宇宙线 | §1 |
+| EeV | 10$^{18}$ eV | 1 exa-electron volt | §1 |
 | GZK cutoff | GZK 截止 | Greisen-Zatsepin-Kuzmin 效应导致的能谱截断 | §1 |
 | EAS | 广延空气簇射 | 宇宙线在大气中产生的级联 | §TA |
 | SD | 表面探测器 | Telescope Array Surface Detector | §TA |
 | FD | 荧光探测器 | Fluorescence Detector | §TA |
-| S₈₀₀ | 800m 粒子密度 | 距簇射轴 800 m 处的粒子密度，能量估计量 | §TA |
+| S$_{800}$ | 800m 粒子密度 | 距簇射轴 800 m 处的粒子密度，能量估计量 | §TA |
 | Xmax | 簇射最大深度 | EAS 在大气中能量沉积最多的位置 | §TA |
 | GMF | 银河系磁场 | Galactic Magnetic Field | §Sources |
 | LSS | 大尺度结构 | Large-Scale Structure | §1 |

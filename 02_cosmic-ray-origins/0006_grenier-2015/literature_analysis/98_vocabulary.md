@@ -19,7 +19,7 @@
 | 尤其 | 尤其 | in particular / notably | adv. | "**[FACT]** 传播模型与同步辐射数据对比（Jaffe 2011; Strong 2011; Lineros 2012）展示该方法的威力： - 使用**低频同步辐射**（<几 100 MHz）探测太阳调制使直接测量复杂区的轻子 → 同时提供 ISM 谱以测试调制模型。 - **次级电子与正电子**对同步辐射谱重要（尤其低频，图 12）。" | 举例 |
 | 特别是 | 特别是 | in particular / specifically | phrase | "**[FACT]** 1. **观测简并**：D_xx(p) 的动量依赖与源产生的粒子谱之间存在简并（Putze 2011; Coste 2012）；次级/初级比观测部分缓解。 2. **环境效应**：MHD 湍动水平（特别是快磁声波）强烈影响扩散性质（Yan & Lazarian 2008），银盘与 halo 不同。 3. **本地 CR 样本**：到达地球的核子 > 一半在 2/1 kpc 内产生（Taillet & Maurin" | 举例 |
 | 例如 | 例如 | for instance / for example / e.g. | phrase | "**[FACT]** 图 4 中 q$\gamma_{\rm H}$ 剖面与气体质量面密度的对应**看似**表明 CR-ISM 线性耦合——但方位平均不尊重螺旋结构。Hunter et al. (1997) 建模的此类耦合被数据否定（例如在 14–16 kpc 给出两倍于测量值的 emissivity）。" | 举例 |
-| 随后 | 随后 | subsequently | adv. | "**[FACT]** OH⁺ 首个探测：Wyrowski 2010（APEX 望远镜），随后 HIFI（Herschel）$H_{2}$O⁺（Schilke 2010; Wyrowski 2010）。OH⁺ 现可通过地面光学光谱观测（Krełowski 2010; Porras 2014）。" | 顺序 |
+| 随后 | 随后 | subsequently | adv. | "**[FACT]** OH$^{+}$ 首个探测：Wyrowski 2010（APEX 望远镜），随后 HIFI（Herschel）$H_{2}$O$^{+}$（Schilke 2010; Wyrowski 2010）。OH$^{+}$ 现可通过地面光学光谱观测（Krełowski 2010; Porras 2014）。" | 顺序 |
 | 即 | 即 | namely / i.e. | adv. | "**[FACT]** 排除机制： 1. **共振散射在自生成的磁不规则性上**（CR streaming 激发）：Cesarsky & Volk (1978) 指出维持 Alfvén 波对抗中性电离摩擦所需功率过大。 2. **致密气体中增加的电离损失** → 净向内 CR streaming 通量 → 云边缘到云间介质连线上的 Alfvén 波阻止 CR 穿透 → 在几十 MeV 处压制通量数个量级（Cesarsky & Volk 1" | 举例 |
 | 据 | 据 | according to / based on | prep. | "**[FACT]** 偏离星际成分的证据： - **挥发性（Volatility） vs 难熔（Refractory）元素**：难熔元素相对太阳丰度增强；第一电离能 >10 eV 的元素耗竭，一直延伸到每核子 TeV 能量（Rauch 2009; Ahn 2010）。 - **80/20 混合物模型**：~80% ISM + 20% 大质量恒星抛射物（含 Wolf-Rayet 风 + core-collapse SN）可组织化数据。 -" | 因果 |
 
@@ -100,8 +100,8 @@
 4. $^{22}{\rm Ne}$/$^{20}{\rm Ne}$ 比 CR/Solar = 5.3 ± 0.3；$^{59}{\rm Ni}$ 缺失约束加速在 SN 后 ~0.1 Myr。
 5. B/C 约束扩散 D_xx ∝ p^0.3–0.8；$^{10}{\rm Be}$ 半衰期 1.6 Myr 定 halo 标高 4–10 kpc。
 6. Voyager 1（2012-08-25, 122 AU）首次采样 <100 MeV 本地 ISM 谱。
-7. $\zeta_{\rm H}^{\rm CR}$ 本地 $~1.4\times10^{-17}$ s⁻¹；CMZ ~2–$7\times10^{-15}$ s⁻¹；Arp 220 >$10^{-13}$ s⁻¹。
-8. $H_{3}^{\rm +}$ 是 CR 电离核心示踪；OH⁺/$H_{2}$O⁺ 示踪低 f($H_{2}$) 气体。
+7. $\zeta_{\rm H}^{\rm CR}$ 本地 $~1.4\times10^{-17}$ s$^{-1}$；CMZ ~2–$7\times10^{-15}$ s$^{-1}$；Arp 220 >$10^{-13}$ s$^{-1}$。
+8. $H_{3}^{\rm +}$ 是 CR 电离核心示踪；OH$^{+}$/$H_{2}$O$^{+}$ 示踪低 f($H_{2}$) 气体。
 9. 每次 CR 电离沉积 ~13 eV；中性气体加热效率 ~20%；维持 10 K。
 10. q$\gamma_{\rm H}$ 在银河系半径 0–17 kpc 变化 <40% → CR 梯度问题。
 11. Fermi Bubbles 50°，$2\times10^{30}$ W，$10^{48}$ J 巨射电瓣，外流 >900 km/s。
@@ -147,11 +147,11 @@ Introduction / Scope of the Review
 
 > 1. **谱硬化与成分差异**：PAMELA/AMS-02 揭示 >几百 GeV 处质子/He 谱硬化，He/p 比从 20 GeV 到 50 TeV 增 >2 倍。
 2. **Fermi Bubbles**：~50° 双对称 $\gamma$ 射线气泡，$2\times10^{30}$ W，与巨射电瓣（$10^{48}$ J、B ≤1.5 nT）重叠，速度 >900 km/s 的外流。
-3. **本地 ISM 谱反推**：从 $\gamma$-ray q$\gamma_{\rm H}$ 得到 $\zeta_{\rm H}^{\rm CR}$ ≈ $1.4\times10^{-17}$ s⁻¹，CR 能量密度 1.9 eV cm⁻³。
+3. **本地 ISM 谱反推**：从 $\gamma$-ray q$\gamma_{\rm H}$ 得到 $\zeta_{\rm H}^{\rm CR}$ ≈ $1.4\times10^{-17}$ s$^{-1}$，CR 能量密度 1.9 eV cm$^{-3}$。
 4. **CR 梯度问题**：外银河 q$\gamma_{\rm H}$ 仅下降 20–40%，与 halo 10 kpc 上限勉强一致。
 5. **Cygnus X cocoon**：年轻 CR 困住于电离腔，谱 E^−2.4，能量 $10^{42}$ J，扩散长度 100× 短于 ISM。
 6. **DMN 与 CO-dark $H_{2}$**：DNM 质量达 CO-bright 40–190%，但 DNM 主要原子/分子仍不明。
-7. **星暴星系 CR 反馈**：Arp 220 $\zeta_{H_{2}}^{\rm CR}$ >$10^{-13}$ s⁻¹（比 CMZ 高 $10^{2}$ 倍），质子量热效率 <50%。
+7. **星暴星系 CR 反馈**：Arp 220 $\zeta_{H_{2}}^{\rm CR}$ >$10^{-13}$ s$^{-1}$（比 CMZ 高 $10^{2}$ 倍），质子量热效率 <50%。
 
 **结构复杂度**：约 152 词（中文 117 字 + 英文 35 词）；18 处停顿（逗号/分号/冒号）；多分句嵌套。
 
@@ -160,7 +160,7 @@ Introduction / Scope of the Review
 > - **多信使观测**：直接（PAMELA, AMS-02, Voyager 1）+ 间接（$\gamma$ 射线 Fermi-LAT/HESS，射电同步辐射，亚毫米分子离子谱）。
 - **$\gamma$ 射线 emissivity q$\gamma_{\rm H}$** 作为 CR 密度与气体的空间映射。
 - **次级/一次核比**（B/C、$^{10}{\rm Be}$/$^{9}{\rm Be}$、反质子、正电子）约束扩散系数 D_xx(p) 与再加速。
-- **分子离子（$H_{3}^{\rm +}$、OH⁺、$H_{2}$O⁺、$H_{3}$O⁺、ArH⁺）** 作为低能 CR 电离率的化学探针。
+- **分子离子（$H_{3}^{\rm +}$、OH$^{+}$、$H_{2}$O$^{+}$、$H_{3}$O$^{+}$、ArH$^{+}$）** 作为低能 CR 电离率的化学探针。
 - **尘埃发射 + $\gamma$ 射线联合** 示踪暗中性介质（DNM）。
 - **传播模型**（GALPROP、DRAGON、USINE、PICARD）+ 贝叶斯参数扫描。
 - **MHD 粒子轨迹模拟**（Giacalone & Jokipii 传统）超越准线性理论。

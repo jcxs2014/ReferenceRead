@@ -24,7 +24,7 @@
 - 两个"量子数"：
   - **N**：相位绕组数（守恒电流的来源）。
   - **Z**：总电荷 Q = Ze。
-- **Chiral 状态**：|Z| ≃ |N|，角动量 L ≃ ZN ≃ N²。
+- **Chiral 状态**：|Z| ≃ |N|，角动量 L ≃ ZN ≃ N$^{2}$。
 - **半径**：R_v ≃ (2$\pi$)^(−1/2) |NZ|^(1/2) $\eta_{\rm s-1}$
 
 ### 11.2.2 GUT-scale Vortons 参数 [FACT]
@@ -60,30 +60,30 @@
 ### 11.3.1 Monopolonium 机制 [FACT, [392, 404]]
 
 **形成**：T ~ T_c 时，monopole-antimonopole 形成亚稳束缚态 monopolonium，结合能 E_b > T。
-- 初始半径：r_i ~ g_m²/(2 E_b)，g_m 为磁荷（Dirac：e g_m = N/2）。
+- 初始半径：r_i ~ g_m$^{2}$/(2 E_b)，g_m 为磁荷（Dirac：e g_m = N/2）。
 - 类"磁 Bohr 半径"：a_B^m = 8$\alpha_{\rm e}$/m_M（$\alpha_{\rm e}$ = 1/137）。
 
 **坍缩过程**：monopolonium 逐级跃迁到更紧束缚态，依次发射**光子 → 胶子 → Z → GUT X 玻色子** → 最终核心重叠 → **湮灭为 X 粒子**。
 
-**寿命**：$\tau$ ∝ r_i³ → 部分 monopolonium 幸存至今。
+**寿命**：$\tau$ ∝ r_i$^{3}$ → 部分 monopolonium 幸存至今。
 
 ### 11.3.2 形成时代与动力学 [FACT]
 
 - 现时代坍缩的 monopolonium 形成于**核合成时代**（BBN 附近）。
 - 此时 monopole-plasma 能量交换时间 < Hubble 时间 → Saha ionization 可描述形成时丰度。
-- 但 **e⁺e⁻ 湮灭**（T ~ 0.3 MeV 后）使 monopoles 脱耦 → 后续坍缩用**真空偶极辐射**公式 [392]。
-- 衰变率 ṅ_X(t) ∝ t⁻³（类似 string loop 碎裂）。
+- 但 **e$^{+}$e$^{-}$ 湮灭**（T ~ 0.3 MeV 后）使 monopoles 脱耦 → 后续坍缩用**真空偶极辐射**公式 [392]。
+- 衰变率 ṅ_X(t) ∝ t$^{-3}$（类似 string loop 碎裂）。
 
 ### 11.3.3 EHECR 解释的丰度条件 [FACT, [398]]
 
 - m_M ~ 40 m_X → 每个 monopolonium 释放 ~80 个 X 粒子。
 - 需要 ~**每几个太阳系体积，每年代，几个 monopolonium 坍缩**（在几十 Mpc 半径内）。
-- 条件：**$\Omega_{\rm M}$ h² $\xi_{\rm f}$ ≃ $1.7\times10^{-8}$ (m_X/$10^{16}$ GeV)^(1/2) [10 Mpc/l(E_$\gamma$)]**
+- 条件：**$\Omega_{\rm M}$ h$^{2}$ $\xi_{\rm f}$ ≃ $1.7\times10^{-8}$ (m_X/$10^{16}$ GeV)^(1/2) [10 Mpc/l(E_$\gamma$)]**
   - $\xi_{\rm f}$ = monopolonium-to-monopole 形成时分数。
 
 ### 11.3.4 Parker 界与可行性 [FACT]
 
-- Parker 界：($\Omega_{\rm M}$ h²)_Parker < $4\times10^{-3}$ (m_M/$10^{16}$ GeV)²
+- Parker 界：($\Omega_{\rm M}$ h$^{2}$)_Parker < $4\times10^{-3}$ (m_M/$10^{16}$ GeV)$^{2}$
 - Saha 估计的 $\xi_{\rm f}$ → 所需 monopole 丰度**在 Parker 界内** → **monopolonium 场景 attractive**。
 - **前提**：monopole 过丰问题已被（暴胀等）解决，但留有少许残留丰度（如在暴胀再加热阶段热产生）。
 
@@ -121,9 +121,9 @@ r ≡ m_M/($\mu$d)         $\mu$ = 弦线能量密度, d = monopole 平均间隔
 ### 11.4.3 X 产率 [FACT, 公式 91]
 
 ```
-ṅ_X ~ (r² $\mu$)/(m_X t³)          (91)
+ṅ_X ~ (r$^{2}$ $\mu$)/(m_X t$^{3}$)          (91)
 ```
-与 string loop 公式 (84) 相同形式，$\mu$ → r²$\mu$。
+与 string loop 公式 (84) 相同形式，$\mu$ → r$^{2}$$\mu$。
 - 足够大的 r 值：可解释 EHECR。
 - **优势**：
   - 大 r → 相邻 necklaces 间距小 → GZK 半径内足够多。
@@ -144,10 +144,10 @@ r ≡ m_M/($\mu$d)         $\mu$ = 弦线能量密度, d = monopole 平均间隔
 | Vorton EHECR 窗口 | $\eta_{\rm s}$ ≃ $\eta_\sigma$ ~ $10^{12}$ – $10^{14}$ GeV |
 | Vorton EHECR 加速质量 (Bonazzola-Peter) | Z ~ 100, m ~ $10^{9}$ GeV → m_V ~ $10^{11}$ GeV |
 | Monopole mass (GUT) | ~ $10^{17}$ GeV |
-| Monopolonium 寿命标度 | $\tau$ ∝ r_i³ |
-| 现时代 EHECR 要求 | $\Omega_{\rm M}$ h² $\xi_{\rm f}$ ≃ $1.7\times10^{-8}$ (m_X/$10^{16}$ GeV)^(1/2) |
-| Parker 界 | $\Omega_{\rm M}$ h² < $4\times10^{-3}$ (m_M/$10^{16}$ GeV)² |
-| Necklace X 产率 (公式 91) | ṅ_X ~ r²$\mu$/(m_X t³) |
+| Monopolonium 寿命标度 | $\tau$ ∝ r_i$^{3}$ |
+| 现时代 EHECR 要求 | $\Omega_{\rm M}$ h$^{2}$ $\xi_{\rm f}$ ≃ $1.7\times10^{-8}$ (m_X/$10^{16}$ GeV)^(1/2) |
+| Parker 界 | $\Omega_{\rm M}$ h$^{2}$ < $4\times10^{-3}$ (m_M/$10^{16}$ GeV)$^{2}$ |
+| Necklace X 产率 (公式 91) | ṅ_X ~ r$^{2}$$\mu$/(m_X t$^{3}$) |
 
 ## 11.6 [CRITIQUE]
 

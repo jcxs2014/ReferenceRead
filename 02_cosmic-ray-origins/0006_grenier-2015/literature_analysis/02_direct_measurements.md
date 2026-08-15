@@ -34,12 +34,12 @@
 **轻子（Leptons）**
 | 仪器 | 种类 | 能量 | 参考 |
 |---|---|---|---|
-| ATIC-1,2 | e⁻, e⁺ | 20 GeV–2.3 TeV | Chang 2008 |
-| HESS | e⁻+e⁺ | 340 GeV–3 TeV | Aharonian 2008,2009 |
-| Fermi-LAT | e⁻+e⁺ | 7 GeV–1 TeV | Ackermann 2010 |
-| Fermi-LAT | e⁻, e⁺ | 20–200 GeV | Ackermann 2012f |
-| PAMELA | e⁻, e⁺ | 1–300 GeV | Adriani 2009,2013d |
-| AMS-02 | e⁻, e⁺ | 0.5–700 GeV | Aguilar 2013 |
+| ATIC-1,2 | e$^{-}$, e$^{+}$ | 20 GeV–2.3 TeV | Chang 2008 |
+| HESS | e$^{-}$+e$^{+}$ | 340 GeV–3 TeV | Aharonian 2008,2009 |
+| Fermi-LAT | e$^{-}$+e$^{+}$ | 7 GeV–1 TeV | Ackermann 2010 |
+| Fermi-LAT | e$^{-}$, e$^{+}$ | 20–200 GeV | Ackermann 2012f |
+| PAMELA | e$^{-}$, e$^{+}$ | 1–300 GeV | Adriani 2009,2013d |
+| AMS-02 | e$^{-}$, e$^{+}$ | 0.5–700 GeV | Aguilar 2013 |
 
 **[FACT]** 表 1 明确说明这只是 2008–2014 的代表性而非详尽的选择。
 
@@ -131,8 +131,8 @@
 展示本地 CR 质子与 He 谱（在地球附近与日球层顶测量），显示质子硬化与 He 富集 >几百 GeV。
 
 ### 元素
-- **Panel (a)**：动量分布 log(p²c²J_pc) [ (eV/n) m⁻² s⁻¹ sr⁻¹ ] vs log(p)
-- **Panel (b)**：粒子谱 log(J_kin) [m⁻² s⁻¹ sr⁻¹ (eV/n)⁻¹] vs log(E_kin)
+- **Panel (a)**：动量分布 log(p$^{2}$c$^{2}$J_pc) [ (eV/n) m$^{-2}$ s$^{-1}$ sr$^{-1}$ ] vs log(p)
+- **Panel (b)**：粒子谱 log(J_kin) [m$^{-2}$ s$^{-1}$ sr$^{-1}$ (eV/n)$^{-1}$] vs log(E_kin)
 - 数据源：Panov (ATIC-2 2009), Adriani (PAMELA 2011), Yoon (CREAM 2011), Choutko (AMS-02 2013), Stone (Voyager 1 2013), Consolandi (AMS-02 2014)
 - 灰色带：从 ISM 气体平均 $\gamma$-ray emissivity 反推的 Local ISM 质子谱范围（Dermer 2013b）
 

@@ -35,7 +35,7 @@
 | 编号 | 公式 | 所在分章 | 状态 |
 |---|---|---|---|
 | 2.1 | $J(T) \propto T^{-2.7}$ | 02_observational | ✓ |
-| 2.2 | $\lambda_{\rm esc} \sim 20\,T^{-0.5}$ g/cm² | 02_observational | ✓ |
+| 2.2 | $\lambda_{\rm esc} \sim 20\,T^{-0.5}$ g/cm$^{2}$ | 02_observational | ✓ |
 | 2.3 | Sedov-Taylor 解 | 02_observational | ✓ |
 | 3.1 | 相对论性 Vlasov 方程 | 03_diffusion | ✓ |
 | 3.2 | $dN/dE \propto E^{-\gamma}$ | 03_diffusion | ✓ |
@@ -76,11 +76,11 @@
 | 数值 | 值 | 状态 |
 |---|---|---|
 | 超新星能量 | $10^{51}$ erg | ✓ |
-| 银河系 CR 能量密度 | $(1-2) \times 10^{-12}$ erg/cm³ | ✓ |
+| 银河系 CR 能量密度 | $(1-2) \times 10^{-12}$ erg/cm$^{3}$ | ✓ |
 | 银河系 CR 总功率 | $3 \times 10^{41}$ erg/s | ✓ |
 | 单 SNR CR 注入 | $\sim 3 \times 10^{49}$ erg（$3\%$）| ✓ |
 | CR 观测谱 | $T^{-2.7}$ | ✓ |
-| 逃逸柱密度 | $\lambda \sim 20 T^{-0.5}$ g/cm² | ✓ |
+| 逃逸柱密度 | $\lambda \sim 20 T^{-0.5}$ g/cm$^{2}$ | ✓ |
 | CR 年龄 | $\sim 20$ Myr | ✓ |
 | SNR 加速半径 | $1-50$ pc | ✓ |
 | SNR 高能截断 | $10^{15}$ eV | ✓ |

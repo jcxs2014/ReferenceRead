@@ -209,7 +209,7 @@ $$\frac{d\beta}{dt} \sim n_e, n_H \cdot \beta^2 \cdot Z^2 \tag{2}$$
 - **[FACT]** 穿越热物质一段时间 $\tau$ 后，出现低能截止，分布为：
   - 截止以下：~$\beta^{2}$ d$\beta$ （式 3）
   - 截止以上：原律
-  - 截止速度：$\beta_{\rm crit}$ ∼ {Z² (n_e, n_H) $\tau$}^(1/3) （式 4）
+  - 截止速度：$\beta_{\rm crit}$ ∼ {Z$^{2}$ (n_e, n_H) $\tau$}^(1/3) （式 4）
 - **[FACT]** 低于截止的粒子相空间上转移到热粒子库，可改变热粒子化学丰度——对 Li、Be、B 等丰度差异大的元素**尤其重要**。
 - **[FACT]** **grammage**（扭曲散射路径上的柱密度）是讨论宇宙线相互作用的关键量。
 - **[FACT]** 由 grammage 可得 H 的截止能 ~ 100 MeV，更重核相应更高。
@@ -230,7 +230,7 @@ $$\frac{d\beta}{dt} \sim n_e, n_H \cdot \beta^2 \cdot Z^2 \tag{2}$$
 ### 位点 1：分子云壳层 (Molecular cloud shell)
 - **[FACT]** 大质量星演化的强质量损失形成壳层，超新星爆炸时激波穿过风区，撞击壳层 [54]。
 - **[FACT]** 激波携带的能量粒子在壳层中碎裂。
-- **[FACT]** 次 Fe 元素的丰度估计壳层 grammage **~ 1 g/cm²** [85, 86]，与射电和毫米观测一致。
+- **[FACT]** 次 Fe 元素的丰度估计壳层 grammage **~ 1 g/cm$^{2}$** [85, 86]，与射电和毫米观测一致。
 - **[FACT]** 这是**奇 Z 元素、次 Fe 元素、以及部分 Li/Be/B 同位素**的主导过程。
 - **[FACT]** 此情况下次级谱 N_s 与主核谱 N_p 相同：
 $$N_s \sim N_p \tag{5}$$
@@ -310,7 +310,7 @@ $$\frac{N_{s,2}}{N_{p,1}} \sim E^{-2/3} \tag{25}$$
 - **[FACT]** 这与"定态漏盒 (stationary leaky box) 给出 ~ E^(-1/3)"的经典结论**相反**。
 
 ### 与"逃逸长度 vs 逃逸时间"的关系
-- **[FACT]** 由于非定态性，**escape length (g/cm²)** 与 **escape time** 不能再作为同义词使用。
+- **[FACT]** 由于非定态性，**escape length (g/cm$^{2}$)** 与 **escape time** 不能再作为同义词使用。
 - **[FACT]** 逃逸时间 $\tau$_{L,gal} ∝ E^(-1/3)（相对论区）。
 - **[FACT]** 逃逸长度有三个不同 regime；在 **GeV/nucleon** 能段相关的是约 E^(−0.6)，在本简化模型中 ~ E^(−2/3)。
 
@@ -426,7 +426,7 @@ $$N_s/N_p \sim E^{-1/3} \tag{28}$$
 | [76] | Spitzer 1968 Diffuse Matter in Space | **Alfvén 速度条件** |
 | [77] | Stanev, Biermann & Gaisser 1993 A&A 274 | **Figure 1 与膝过渡数据** |
 | [82] | Wentzel 1974 ARA&A | 宇宙线 Alfvén 速度束缚 |
-| [85,86] | Wiebel-Sooth et al. 1996 | 壳层 grammage ~1 g/cm² |
+| [85,86] | Wiebel-Sooth et al. 1996 | 壳层 grammage ~1 g/cm$^{2}$ |
 
 - **[FACT]** 89 条文献的分布：大量是本团队 (Biermann 组) 的早期工作 [7, 8, 11, 13, 52–54, 58, 77, 83–86]，说明三源模型与碎裂理论是 Biermann 组长期积累的工作。
 - **[FACT]** 观测侧覆盖 Akeno、Tibet AS$\gamma$、JACEE、LEAP、RICH、Fly's Eye、Haverah Park、MSU 等主流实验。

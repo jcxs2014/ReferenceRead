@@ -74,7 +74,7 @@ $$E_{\rm max} \approx 10 \text{ GeV} \quad \text{(对 Cygnus A 参数)}$$
 |---|---|---|
 | Cygnus A hot spot | $B_+$ | $10^{-4}$ G |
 | | $u_-$ | $3 \times 10^4$ km/s |
-| | $\rho$ | $10^{-28}$ g/cm³ |
+| | $\rho$ | $10^{-28}$ g/cm$^{3}$ |
 | | $E_{\rm max}$ | $\sim 10$ GeV |
 | | 辐射频率 | $\lesssim 100$ GHz |
 | | 谱指数 | $\sim 1$ |

@@ -15,14 +15,14 @@
 ## 2.2 原文内容（要点摘录）
 
 - [FACT] "the ratio of boron and carbon fluxes is related to the grammage traversed by CRs, X(E) = n̄·$\mu$·v·$\tau_{\rm esc}$(E)。"
-- [FACT] "For particles with energy per nucleon of 10 GeV/n the measured B/C corresponds to X ~ 1 g cm⁻²."
+- [FACT] "For particles with energy per nucleon of 10 GeV/n the measured B/C corresponds to X ~ 1 g cm$^{-2}$."
 - [FACT] "$\tau$* ~ 90 · (H/3 kpc) Myr" (Eq. 1) — 比弹道时间大三至四个量级，"the strongest evidence so far for diffusive motion of CRs in the Galaxy."
-- [FACT] D(E) = $3\times10^{28}$ (H/3 kpc) cm²/s 在 10 GeV。
-- [FACT] 高刚度 B/C 数据与 X(R) ∝ R⁻$\delta$ 一致，$\delta$ = 0.3–0.6。
+- [FACT] D(E) = $3\times10^{28}$ (H/3 kpc) cm$^{2}$/s 在 10 GeV。
+- [FACT] 高刚度 B/C 数据与 X(R) ∝ R$^{-}$$\delta$ 一致，$\delta$ = 0.3–0.6。
 - [FACT] 单次 SN 动能 E_SN = $10^{51}$·$E_{51}$ erg。
-- [FACT] 注入谱形式 N(p) = $\xi_{\rm CR}$·E_SN / m² · I($\gamma$) · (p/m)⁻ᵞ，其中 I($\gamma$) ≈ 2(3−$\gamma$)($\gamma$−2)/(4−$\gamma$)。
-- [FACT] 地球处质子通量：J(E) = (c/4$\pi$) · N(E)·R_SN / ($\pi$ R_d²·(2H)) · $\tau_{\rm esc}$(E)⁻¹ = $8\times10^{5}$·$\xi_{\rm CR}$·I($\gamma$) · (R_SN/30 yr⁻¹) · (E/m)⁻ᵞ⁻ᵟ · (E*/m)ᵟ m⁻²s⁻¹sr$^{-1}{\rm Ge}$V⁻¹（Eq. 2）
-- [FACT] 归一化到 10 GeV 通量后得到 $\xi_{\rm CR}$ ≈ $2.5\times10^{-3}$ · I($\gamma$)⁻¹ · (E*/m)ᵞ⁻² · (R_SN/30 yr⁻¹)⁻¹（Eq. 3）。
+- [FACT] 注入谱形式 N(p) = $\xi_{\rm CR}$·E_SN / m$^{2}$ · I($\gamma$) · (p/m)$^{-}$ᵞ，其中 I($\gamma$) ≈ 2(3−$\gamma$)($\gamma$−2)/(4−$\gamma$)。
+- [FACT] 地球处质子通量：J(E) = (c/4$\pi$) · N(E)·R_SN / ($\pi$ R_d$^{2}$·(2H)) · $\tau_{\rm esc}$(E)$^{-1}$ = $8\times10^{5}$·$\xi_{\rm CR}$·I($\gamma$) · (R_SN/30 yr$^{-1}$) · (E/m)$^{-}$ᵞ$^{-}$ᵟ · (E*/m)ᵟ m$^{-2}$s$^{-1}$sr$^{-1}{\rm Ge}$V$^{-1}$（Eq. 2）
+- [FACT] 归一化到 10 GeV 通量后得到 $\xi_{\rm CR}$ ≈ $2.5\times10^{-3}$ · I($\gamma$)$^{-1}$ · (E*/m)ᵞ$^{-2}$ · (R_SN/30 yr$^{-1}$)$^{-1}$（Eq. 3）。
 - [FACT] "$\xi_{\rm CR}$ ≃ 2–3% ... the total CR acceleration efficiency is somewhat higher than the estimate in Eq. 3 ... between 5% and 10% for the bulk of SNRs."
 
 ## 2.3 关键公式
@@ -30,7 +30,7 @@
 **Eq. 1**（逃逸时间）
 $$\tau^* = \frac{X(E^*)}{\bar n \mu c} = 90 \left(\frac{H}{3 \text{kpc}}\right) \text{Myr}$$
 
-其中 X~1 g/cm²、$\mu$ ≈ 1.4 m_p、n̄ = n_disc·h/H = $5\times10^{-2}$ · (n_disc/1 cm⁻³)·(H/3 kpc)⁻¹ cm⁻³。
+其中 X~1 g/cm$^{2}$、$\mu$ ≈ 1.4 m_p、n̄ = n_disc·h/H = $5\times10^{-2}$ · (n_disc/1 cm$^{-3}$)·(H/3 kpc)$^{-1}$ cm$^{-3}$。
 
 **Eq. 2**（地球处 CR 质子谱）
 $$J(E) = \frac{c}{4\pi}\frac{N(E) R_{\text{SN}}}{\pi R_d^2 \cdot 2H \cdot \tau_{\text{esc}}(E)} = 8 \times 10^5 \xi_{\text{CR}} I(\gamma) \left(\frac{R_{\text{SN}}}{30\,\text{yr}^{-1}}\right) \left(\frac{E}{m}\right)^{-\gamma-\delta}\left(\frac{E^*}{m}\right)^{\delta} \,\text{m}^{-2}\,\text{s}^{-1}\,\text{sr}^{-1}\,\text{GeV}^{-1}$$
@@ -46,14 +46,14 @@ $$\mathcal{M}_s = V_{\text{ej}}/c_s \approx 900 E_{51}^{1/2} M_{\text{ej},\odot}
 
 | 参数 | 数值 |
 |------|------|
-| X(10 GeV/n) | ~1 g/cm² |
-| n_disc | ~1 cm⁻³（标准） |
+| X(10 GeV/n) | ~1 g/cm$^{2}$ |
+| n_disc | ~1 cm$^{-3}$（标准） |
 | h（盘面半厚度） | 150 pc |
 | H（晕厚度） | ~3 kpc |
 | $\mu$ | ~1.4 m_p |
 | $\tau_{\rm esc}$(10 GeV) | ~90 (H/3 kpc) Myr |
-| D(E=10 GeV) | $~3\times10^{28}$ (H/3 kpc) cm²/s |
-| R_SN | ~30 yr⁻¹ |
+| D(E=10 GeV) | $~3\times10^{28}$ (H/3 kpc) cm$^{2}$/s |
+| R_SN | ~30 yr$^{-1}$ |
 | E_SN | $10^{51}$ erg |
 | R_d（盘面半径） | 10 kpc |
 | $\xi_{\rm CR}$（仅质子） | 2–3% |
@@ -77,5 +77,5 @@ $$\mathcal{M}_s = V_{\text{ej}}/c_s \approx 900 E_{51}^{1/2} M_{\text{ej},\odot}
 ## 2.8 潜在问题与值得关注的地方
 
 - [CRITIQUE] $\delta$ = 0.3–0.6 范围过宽，源自 B/C 在高能段的斜率不确定。作者在此未展开，但对后续 §6.2 的**各向异性论证**（需要 $\delta$ ≈ 0.7 才能匹配 NLDSA 硬谱）有直接影响。
-- [CRITIQUE] 银河系 SN 率 R_SN = 30 yr⁻¹ 存在系统性不确定性（±30%），直接影响 $\xi_{\rm CR}$ 反演。
+- [CRITIQUE] 银河系 SN 率 R_SN = 30 yr$^{-1}$ 存在系统性不确定性（±30%），直接影响 $\xi_{\rm CR}$ 反演。
 - **信息缺失**：作者未讨论源分布的径向依赖（如内盘密度高）对 $\xi_{\rm CR}$ 估算的影响。

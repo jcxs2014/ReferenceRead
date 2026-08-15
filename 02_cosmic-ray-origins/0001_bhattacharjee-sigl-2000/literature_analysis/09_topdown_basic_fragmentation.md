@@ -13,7 +13,7 @@
 - Top-down 场景基本思想：超重 X 粒子衰变 → 强子化 → 高能光子/中微子/核子。
 - X 粒子衰变**必须满足**三个基本条件：(a) 在近代衰变（~100 Mpc 内）；(b) m_X ≫ $10^{11}$ GeV；(c) 数密度/衰变率足够大。
 - 强子化理论：三阶段 factorization（parton cascade → 非微扰 confinement → 衰变）；LPHD 假设；MLLA 极限谱。
-- X 粒子衰变率基准估算：~$10^{35}$ Mpc⁻³ yr⁻¹ (m_X = $10^{16}$ GeV 时)。
+- X 粒子衰变率基准估算：~$10^{35}$ Mpc$^{-3}$ yr$^{-1}$ (m_X = $10^{16}$ GeV 时)。
 
 ## 9.2 §6.1 The Basic Idea
 
@@ -26,7 +26,7 @@
 
 ### 9.2.2 Top-down 三条件 [FACT]
 
-1. **(a) 近期衰变**：X 在**近期宇宙学时代**衰变，或源距离 <~100 Mpc。例外：UHE $\nu$ + RNB → Z⁰ 共振（Z-burst，见 §5.2.4）。
+1. **(a) 近期衰变**：X 在**近期宇宙学时代**衰变，或源距离 <~100 Mpc。例外：UHE $\nu$ + RNB → Z$^{0}$ 共振（Z-burst，见 §5.2.4）。
 2. **(b) m_X ≫ $10^{11}$ GeV**。
 3. **(c) 数密度/衰变率** 足够大。
 
@@ -44,7 +44,7 @@ X → (夸克, 轻子) → [夸克强子化: jets of light mesons ($\pi$) + bary
 
 ### 9.3.1 强子化三阶段 [FACT]
 
-1. **Parton Cascade**（微扰 QCD，截止 ⟨k_⊥²⟩^(1/2)_cut-off ~ 1 GeV）
+1. **Parton Cascade**（微扰 QCD，截止 ⟨k_⊥$^{2}$⟩^(1/2)_cut-off ~ 1 GeV）
 2. **Non-perturbative confinement**（LUND string [381] / cluster [382] 模型）
 3. **Unstable hadron 衰变**
 
@@ -58,13 +58,13 @@ x dN_h/dx = K(Y) · x dN_part/dx          (58)
 
 **MLLA 极限谱 (公式 57)**：
 ```
-x dN_part/dx = (4C_F/b) · $\Gamma$(B) · ∫₋$\pi$/2^$\pi$/2 dℓ/$\pi$ · e^(−B$\alpha$) ·
+x dN_part/dx = (4C_F/b) · $\Gamma$(B) · ∫$_{-}$$\pi$/2^$\pi$/2 dℓ/$\pi$ · e^(−B$\alpha$) ·
                [(cosh $\alpha$ + (2$\xi$/Y − 1)sinh $\alpha$) / ((4N_c/b)Y · ($\alpha$/sinh $\alpha$))]^(B/2)
                · I_B[{16N_c/(bY) · ($\alpha$/sinh $\alpha$) · (cosh $\alpha$ + (2($\xi$/Y)−1)sinh $\alpha$)}]^(1/2)
 ```
 其中：
-- $\xi$ = ln(1/x), Y = ln(E_jet/$\Lambda_{\rm eff}$), $\alpha$ = tanh⁻¹(1−2$\xi$/Y) + iℓ
-- B = a/b, a = 11N_c/3 + 2n_f/(3N_c²), b = (11N_c − 2n_f)/3
+- $\xi$ = ln(1/x), Y = ln(E_jet/$\Lambda_{\rm eff}$), $\alpha$ = tanh$^{-1}$(1−2$\xi$/Y) + iℓ
+- B = a/b, a = 11N_c/3 + 2n_f/(3N_c$^{2}$), b = (11N_c − 2n_f)/3
 - N_c = 3, C_F = 4/3, I_B = 修正 Bessel 函数
 
 **拟合参数** [FACT]：
@@ -74,8 +74,8 @@ x dN_part/dx = (4C_F/b) · $\Gamma$(B) · ∫₋$\pi$/2^$\pi$/2 dℓ/$\pi$ · e^
 ### 9.3.3 $\xi_{\rm max}$ 位置 (公式 59) [FACT]
 
 ```
-$\xi_{\rm max}$ = Y · [1/2 + sqrt(C/Y − C/Y²)]
-C = a²/(16bN_c)
+$\xi_{\rm max}$ = Y · [1/2 + sqrt(C/Y − C/Y$^{2}$)]
+C = a$^{2}$/(16bN_c)
 ```
 - 该峰的存在直接关联 QCD 色相干效应导致的软胶子倍增抑制。
 - LEP 数据确认 $\xi_{\rm max}$ 的 Y 演化 [388]。
@@ -83,15 +83,15 @@ C = a²/(16bN_c)
 ### 9.3.4 高能量极限下的高斯近似 (公式 60)
 
 ```
-x dN_h/dx ∝ (1/($\sigma$·√(2$\pi$))) · exp[−($\xi$ − $\xi_{\rm max}$)² / (2$\sigma^{2}$)]
-2$\sigma^{2}$ = [bY³/(36N_c)]^(1/2)
+x dN_h/dx ∝ (1/($\sigma$·√(2$\pi$))) · exp[−($\xi$ − $\xi_{\rm max}$)$^{2}$ / (2$\sigma^{2}$)]
+2$\sigma^{2}$ = [bY$^{3}$/(36N_c)]^(1/2)
 ```
 
 ### 9.3.5 Hill 谱 (公式 61, 62) [FACT]
 
 ```
-dN_h/dx ≃ (3/2) · 0.08 · exp[2.6·q·ln(1/x)] / [(1−x)² · (x/(q·ln(1/x)))^(−1)]     (61)
-dN_h/dx ≃ (15/16) · x^(−3/2) · (1−x)²                                         (62)
+dN_h/dx ≃ (3/2) · 0.08 · exp[2.6·q·ln(1/x)] / [(1−x)$^{2}$ · (x/(q·ln(1/x)))^(−1)]     (61)
+dN_h/dx ≃ (15/16) · x^(−3/2) · (1−x)$^{2}$                                         (62)
 ```
 - nf = 6；3/2 因子包含中性 $\pi^{0}$。
 - x ≪ 1（EHE 能区）：
@@ -101,8 +101,8 @@ dN_h/dx ≃ (15/16) · x^(−3/2) · (1−x)²                                  
 ### 9.3.6 SUSY 对强子化的影响 [FACT]
 
 若 SUSY 在 M_SUSY ~ 1 TeV "打开"：
-- parton cascade 中 squarks/gluinos 与普通 quarks/gluons 等概率参与（Q̃² > M_SUSY²）。
-- 一旦 Q̃² < M_SUSY²，SUSY 粒子 decouple → 最终衰变为 LSP。
+- parton cascade 中 squarks/gluinos 与普通 quarks/gluons 等概率参与（Q̃$^{2}$ > M_SUSY$^{2}$）。
+- 一旦 Q̃$^{2}$ < M_SUSY$^{2}$，SUSY 粒子 decouple → 最终衰变为 LSP。
 - **Berezinsky & Kachelriess [399]**：LSP 可能带走 ~40% 的 jet 总能量！
 - SUSY MLLA 谱：a → a_SUSY = 11N_c/3；b → b_SUSY = 9 − n_f → $\xi_{\rm max}$ 移到更高 $\xi$（更低能量）。
 
@@ -122,7 +122,7 @@ dN_h/dx ≃ (15/16) · x^(−3/2) · (1−x)²                                  
 
 **核子 (公式 63)**：
 ```
-$\Phi_{\rm N}$(E_i, t_i) = ṅ_X(t_i) · N_q · f_N / Ñ · (m_X / x²) · (dN_h/dx)
+$\Phi_{\rm N}$(E_i, t_i) = ṅ_X(t_i) · N_q · f_N / Ñ · (m_X / x$^{2}$) · (dN_h/dx)
 其中 x = Ñ E_i / m_X
 ```
 
@@ -171,22 +171,22 @@ j_$\gamma$(E_$\gamma$) ≃ (1/(4$\pi$ l(E_$\gamma$))) · ṅ_X · dN_$\gamma$/dE
 ### 9.5.3 X 粒子衰变率要求 (公式 68)
 
 ```
-(ṅ_X,0)_{EHECR} ≃ $1.2\times10^{-46}$ · (l(E_$\gamma$)/10 Mpc)⁻¹ · (E²j(E)/1 eV cm⁻² s⁻¹ sr⁻¹) ·
-                  (2E/$10^{16}$ GeV)^($\alpha$−1.5) · (m_X/$10^{16}$ GeV)^(1−$\alpha$) · (0.5/(2−$\alpha$)) · (0.9/f_$\pi$)  cm⁻³ s⁻¹
+(ṅ_X,0)_{EHECR} ≃ $1.2\times10^{-46}$ · (l(E_$\gamma$)/10 Mpc)$^{-1}$ · (E$^{2}$j(E)/1 eV cm$^{-2}$ s$^{-1}$ sr$^{-1}$) ·
+                  (2E/$10^{16}$ GeV)^($\alpha$−1.5) · (m_X/$10^{16}$ GeV)^(1−$\alpha$) · (0.5/(2−$\alpha$)) · (0.9/f_$\pi$)  cm$^{-3}$ s$^{-1}$
 ```
 
 ### 9.5.4 能量注入率 (公式 69)
 
 ```
-(Q_0)_{EHECR} ≃ $1.2\times10^{-21}$ · (l(E_$\gamma$)/10 Mpc)⁻¹ · (E²j(E)/1 eV cm⁻² s⁻¹ sr⁻¹) ·
-                (2E/$10^{16}$ GeV)^($\alpha$−1.5) · (m_X/$10^{16}$ GeV)^(2−$\alpha$) · (0.5/(2−$\alpha$)) · (0.9/f_$\pi$)  eV cm⁻³ s⁻¹
+(Q_0)_{EHECR} ≃ $1.2\times10^{-21}$ · (l(E_$\gamma$)/10 Mpc)$^{-1}$ · (E$^{2}$j(E)/1 eV cm$^{-2}$ s$^{-1}$ sr$^{-1}$) ·
+                (2E/$10^{16}$ GeV)^($\alpha$−1.5) · (m_X/$10^{16}$ GeV)^(2−$\alpha$) · (0.5/(2−$\alpha$)) · (0.9/f_$\pi$)  eV cm$^{-3}$ s$^{-1}$
 ```
 
 ### 9.5.5 数值示例 [FACT]
 
-EHECR 通量标度 E²j ~ 1 eV cm⁻² s⁻¹ sr⁻¹ at E = $10^{11}$ GeV, m_X = $10^{16}$ GeV, $\alpha$ = 1.5, f_$\pi$ = 0.9：
+EHECR 通量标度 E$^{2}$j ~ 1 eV cm$^{-2}$ s$^{-1}$ sr$^{-1}$ at E = $10^{11}$ GeV, m_X = $10^{16}$ GeV, $\alpha$ = 1.5, f_$\pi$ = 0.9：
 ```
-ṅ_X ≃ $1\times10^{35}$ Mpc⁻³ yr⁻¹ ≃ 13 AU⁻³ yr⁻¹
+ṅ_X ≃ $1\times10^{35}$ Mpc$^{-3}$ yr$^{-1}$ ≃ 13 AU$^{-3}$ yr$^{-1}$
 ```
 即 **每 10 Mpc 半径体积内，每年 ~10 个 X 粒子衰变**（每个太阳系大小）。
 
@@ -242,8 +242,8 @@ EHECR 通量标度 E²j ~ 1 eV cm⁻² s⁻¹ sr⁻¹ at E = $10^{11}$ GeV, m_X 
 | $\Lambda^{\rm ch}_{\rm eff}$ (LEP fit) | 250 MeV |
 | Hill 谱 $\alpha$ (x ≪ 1) | 1.3 (eq.61), 1.5 (eq.62) |
 | SUSY LSP 能量份额 | ~40% [399] |
-| (ṅ_X,0) EHECR 基准 | ~$10^{35}$ Mpc⁻³ yr⁻¹ (m_X=$10^{16}$ GeV) |
-| (Q_0) EHECR 基准 | ~$10^{-21}$ eV cm⁻³ s⁻¹ |
+| (ṅ_X,0) EHECR 基准 | ~$10^{35}$ Mpc$^{-3}$ yr$^{-1}$ (m_X=$10^{16}$ GeV) |
+| (Q_0) EHECR 基准 | ~$10^{-21}$ eV cm$^{-3}$ s$^{-1}$ |
 | M_X GUT 典型 | $10^{16}$ GeV |
 
 ## 9.8 [CRITIQUE]

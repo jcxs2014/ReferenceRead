@@ -76,7 +76,7 @@ $$E_{\rm crit} \sim 3.5 \times 10^{12}\ \text{eV} \tag{23}$$
 
 **估算**（基于典型年轻 SNR 参数）：
 - 激波速度 $v_s \sim 10^8$ cm/s
-- 上游密度 $n_H \sim 1$ cm⁻³
+- 上游密度 $n_H \sim 1$ cm$^{-3}$
 - 中性粒子碰撞率由 Kulsrud-Cesarksy 模型
 - 磁场 $B \sim 10^{-5}$ G
 

@@ -27,7 +27,7 @@ tags: [conclusions, perspectives, upcoming experiments, Auger upgrade, POEMMA, G
 1. **§4.1 地面实验现状与展望**：
    - Pierre Auger 升级（粒子 + 射电联合探测）
    - Telescope Array 升级（TA×4）
-   - GRAND（200,000 km² 射电阵列）
+   - GRAND（200,000 km$^{2}$ 射电阵列）
 2. **§4.2 空间实验现状与展望**：
    - 历史（Airwatch → EUSO → JEM-EUSO → POEMMA）
    - TUS（俄罗斯，已在 ISS 上运行）
@@ -57,13 +57,13 @@ tags: [conclusions, perspectives, upcoming experiments, Auger upgrade, POEMMA, G
 
 [FACT] **Telescope Array 升级（TA×4）**：
 - 表面探测器数量变为 3 倍（仍为相同类型：两块固体闪烁体 + 中间金属板）；
-- 覆盖面积约 3000 km²；
+- 覆盖面积约 3000 km$^{2}$；
 - 新闪烁体比原来的稀疏 2 倍；
 - 新增 FD 用于 hybrid 运行；
 - 目标：北方天空 UHE 各向异性 + 南北半球谱对比。
 
 [FACT] **GRAND**：最雄心勃勃的地面 UHECR 实验提议（Alvarez-Muniz et al. 2018）。
-- 200,000 km²（最终配置）；
+- 200,000 km$^{2}$（最终配置）；
 - 射电技术，对倾斜事件特别敏感——**曝光同时覆盖 TA 和 Auger**；
 - 5 年内可探测 $\sim 32,000$ 个 $E>10^{19.5}$ eV 事件；
 - 通过射电测量 calorimetric energy，预期有**好的 $X_{max}$ 分辨率**。
@@ -167,9 +167,9 @@ $$dE/dx \propto N_e$$
 |---|---|---|
 | Auger 升级天线 | Loop antenna | §4.1 |
 | Tunka-Rex 参考实验 | Bezyazeekov 2015, 2018 | §4.1 |
-| TA×4 覆盖面积 | $\sim 3000$ km² | §4.1 |
+| TA×4 覆盖面积 | $\sim 3000$ km$^{2}$ | §4.1 |
 | TA×4 探测器数 | $\times 3$ | §4.1 |
-| GRAND 覆盖面积 | $200{,}000$ km² | §4.1 |
+| GRAND 覆盖面积 | $200{,}000$ km$^{2}$ | §4.1 |
 | GRAND $E>10^{19.5}$ eV 事件数（5 年） | $\sim 32{,}000$ | §4.1 |
 | TUS 发射日期 | 2016-04-28 | §4.2 |
 | TUS FOV | $4.5°\times 4.5°$ | §4.2 |
@@ -293,7 +293,7 @@ $$dE/dx \propto N_e$$
 
 8. **TUS 的"200,000 events"vs UHECR 实际探测**：TUS 报告 1.5 年测得 $\sim 200{,}000$ 事件，但大部分是**非 UHECR** 的低能事件或噪声。EAS 候选只有"部分"被登记——TUS 的 UHECR 探测效率仍需独立评估。
 
-9. **Trinity 的"10 m² mirror"**：Figure 17 注明 Trinity 的 sensitivity 假设是 $10$ m² mirror——这是一个**相对较小的有效面积**。Trinity 的实际性能将取决于 mirror 面积是否增大。
+9. **Trinity 的"10 m$^{2}$ mirror"**：Figure 17 注明 Trinity 的 sensitivity 假设是 $10$ m$^{2}$ mirror——这是一个**相对较小的有效面积**。Trinity 的实际性能将取决于 mirror 面积是否增大。
 
 10. **§4 没有讨论"中国 UHECR 实验"**：GhZ（银河系宇宙线起源空间望远镜）、CARE（宇宙线成像切伦科夫探测阵列）等中国计划在 2019 年本文发表时**未被讨论**——反映本文的 Euro/US-centric 视角。
 
@@ -341,7 +341,7 @@ equations:
 key_topics:
   - Pierre Auger upgrade (radio + particle)
   - TA×4 upgrade
-  - GRAND (200,000 km² radio array)
+  - GRAND (200,000 km$^{2}$ radio array)
   - TUS (Russian ISS UHECR detector)
   - K-EUSO (Schmidt UV telescope)
   - POEMMA (dual-satellite Schmidt optics)

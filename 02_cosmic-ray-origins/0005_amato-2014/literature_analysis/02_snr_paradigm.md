@@ -22,9 +22,9 @@ $$\tau_{esc}(E) = \frac{H^2}{D(E)} = \tau_* \left(\frac{E}{E_*}\right)^{-\delta}
 
 其中：
 - grammage $X(E) = \bar{n}\mu v \tau_{esc}(E)$
-- 对 10 GeV/n 的粒子：$X \sim 10$ g/cm²
+- 对 10 GeV/n 的粒子：$X \sim 10$ g/cm$^{2}$
 - 银河盘厚 $h = 150$ pc，晕高 $H$（典型 3 kpc）
-- 平均密度 $\bar{n} \approx 5 \times 10^{-2} (H/3\,\mathrm{kpc})^{-1}$ cm⁻³
+- 平均密度 $\bar{n} \approx 5 \times 10^{-2} (H/3\,\mathrm{kpc})^{-1}$ cm$^{-3}$
 - 平均质量 $\mu \approx 1.4 m_p$（$n_{He} \approx 0.15 n_H$）
 
 **[FACT]** 10 GeV 质子的典型逃逸时标（Blasi 式 (1)）：
@@ -54,7 +54,7 @@ $$= 8\times 10^5\, \xi_{CR}\, I(\gamma) \left(\frac{R_{SN}}{30\,\mathrm{yr^{-1}}
 
 ## 2.4 加速效率 $\xi_{\rm CR}$ 的直接约束（Blasi 式 (3)）
 
-**[FACT]** 以 10 GeV 处 $E_*^2 J(E_*) \approx 2\times 10^3$ GeV m⁻² s⁻¹ sr⁻¹ 归一：
+**[FACT]** 以 10 GeV 处 $E_*^2 J(E_*) \approx 2\times 10^3$ GeV m$^{-2}$ s$^{-1}$ sr$^{-1}$ 归一：
 
 $$\xi_{CR} \approx 2.5\times 10^{-3}\, \frac{(E_*/m)^{\gamma-2}}{I(\gamma)} \left(\frac{R_{SN}}{30\,\mathrm{yr^{-1}}}\right)^{-1}$$
 
@@ -68,7 +68,7 @@ $$\xi_{CR} \approx 2.5\times 10^{-3}\, \frac{(E_*/m)^{\gamma-2}}{I(\gamma)} \lef
 ## 2.5 逃逸时间 vs 传播时标的张力
 
 **[FACT]** 若 $\xi_{\rm CR}$ ~ 10%，粒子对激波有动力学反作用，会改变：
-- 压缩比 R（因此谱斜率 $\alpha$ 不再是简单的 p⁻⁴）
+- 压缩比 R（因此谱斜率 $\alpha$ 不再是简单的 p$^{-4}$）
 - 亚激波结构（subshock）
 - 前置区（precursor）
 → 见第 4 章 NLDSA 部分。

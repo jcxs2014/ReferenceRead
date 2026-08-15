@@ -10,15 +10,15 @@
 
 | 中文逻辑词 | 英文等价词 | 词性 | 逻辑功能 | 原文/分析例句 | 逻辑说明 |
 |-----------|-----------|------|----------|---------------|----------|
-| 因此 | 因此 | therefore / consequently | adv. | "- [FACT] 超新星壳层的 **一阶 Fermi 激波加速（diffusive shock acceleration）** 自然产生 E⁻² 的源谱。[FACT] （Ref. 8: Blandford & Eichler, 1987；Ref. 9: Axford, 1987） - [FACT] 因此，一个非常自然的图景是：**大部分银河系宇宙线由向外膨胀进星际介质的超新星激波通过一阶 Fermi 机制加速产生**，能量最终来源于爆炸" | 因果 |
+| 因此 | 因此 | therefore / consequently | adv. | "- [FACT] 超新星壳层的 **一阶 Fermi 激波加速（diffusive shock acceleration）** 自然产生 E$^{-2}$ 的源谱。[FACT] （Ref. 8: Blandford & Eichler, 1987；Ref. 9: Axford, 1987） - [FACT] 因此，一个非常自然的图景是：**大部分银河系宇宙线由向外膨胀进星际介质的超新星激波通过一阶 Fermi 机制加速产生**，能量最终来源于爆炸" | 因果 |
 | 尽管 | 尽管 | despite / notwithstanding | prep./conj. | "其中 N_e^{(max)} 是簇射极大处的粒子数。**w** 和从地面 N_e 到 N_e^{(max)} 的修正**都是模型依赖的**，尽管后者可以半经验地处理（Ref. 14: Hillas）。" | 让步 |
 | 即使 | 即使 | even if | conj. | "[FACT] **Maryland group (Ref. 17)**：即使是较低能量就存在**两个分量**：质子/氦有较陡谱，重核有较平谱；因此 $10^{14}$ eV 及膝部以上组分**已经以重核为主**。这与 Fichtel-Linsley 的假说相反。" | 让步 |
 | 相反 | 相反 | conversely / in contrast | adv. | "[FACT] **Maryland group (Ref. 17)**：即使是较低能量就存在**两个分量**：质子/氦有较陡谱，重核有较平谱；因此 $10^{14}$ eV 及膝部以上组分**已经以重核为主**。这与 Fichtel-Linsley 的假说相反。" | 对比 |
 | 而 | 而 | whereas / while / and | conj. | "**弥散源（diffuse sources）**： - **Völk & Biermann (Ref. 18)**：超新星实际爆炸进**前身星的星风**（而非一般星际介质），可得到更高的 E_max。 - **Jokipii (Ref. 19)**：磁场几何的作用——在超新星激波的赤道区，磁场近垂直于激波方向，斜激波加速更快。 - **Cesarsky & Montmerle (Ref. 20)**：强恒星风的终止激波。 - **Jok" | 对比/转折 |
-| 同时 | 同时 | meanwhile / simultaneously | adv. | "**假说 1（Lagage-Cesarsky Ref. 31, Cowsik-Gaisser Ref. 32）**： - 观测宇宙线中 **25–30%** 来自"**遮蔽源（shrouded sources）**"——粒子在源处被足够多的物质穿透，产生大量反质子，同时碎裂掉重核以不破坏 B/C 等传统扩散模型的拟合。 - [CRITIQUE] 简单模型**难以同时满足观测到的 $^{3}{\rm He}$/$^{4}{\rm He}$ 比值**——氦截面足够小，使得 $^{3}{\rm He}$/⁴" | 递进/顺序 |
+| 同时 | 同时 | meanwhile / simultaneously | adv. | "**假说 1（Lagage-Cesarsky Ref. 31, Cowsik-Gaisser Ref. 32）**： - 观测宇宙线中 **25–30%** 来自"**遮蔽源（shrouded sources）**"——粒子在源处被足够多的物质穿透，产生大量反质子，同时碎裂掉重核以不破坏 B/C 等传统扩散模型的拟合。 - [CRITIQUE] 简单模型**难以同时满足观测到的 $^{3}{\rm He}$/$^{4}{\rm He}$ 比值**——氦截面足够小，使得 $^{3}{\rm He}$/$^{4}$" | 递进/顺序 |
 | 尤其 | 尤其 | in particular / notably | adv. | "- [CRITIQUE] 这是综述/评述报告，无新原始计算，Eq. (14) 只是对 Simon et al. 结果的近似复述 - [CRITIQUE] 未处理 **太阳调制（solar modulation）** 的详细效应（<1 GeV 段尤其重要），仅通过引用讨论 - [CRITIQUE] Fig. 3 中低能反质子数据点误差大且模型曲线差异主要在 10–100 GeV 段；当时数据还**无法区分**三模型 - [CRITIQUE" | 举例 |
 | 例如 | 例如 | for instance / for example / e.g. | phrase | "**逐项解释**： - 第一项 Q_{\bar{p}}(E)：反质子**源项**（产生率） - 第二项 1/$\tau_{\rm R}$ · J：反质子从**银河系逃逸** - 第三项 1/$\tau_{\rm I}$ · [...]：反质子在星际气体中的**衰减**（湮灭 + 产生反核子出射的次生反应；高能时后者主导） - 第四项 B · [...]：反质子**再加速**，B 是遭遇再加速位点的速率（例如弱星际激波）；dP(E,E')/dE 是从能量 E' 再加速到 E 的归一" | 举例 |
-| 最终 | 最终 | eventually | adv. | "- [FACT] 超新星壳层的 **一阶 Fermi 激波加速（diffusive shock acceleration）** 自然产生 E⁻² 的源谱。[FACT] （Ref. 8: Blandford & Eichler, 1987；Ref. 9: Axford, 1987） - [FACT] 因此，一个非常自然的图景是：**大部分银河系宇宙线由向外膨胀进星际介质的超新星激波通过一阶 Fermi 机制加速产生**，能量最终来源于爆炸" | 顺序 |
+| 最终 | 最终 | eventually | adv. | "- [FACT] 超新星壳层的 **一阶 Fermi 激波加速（diffusive shock acceleration）** 自然产生 E$^{-2}$ 的源谱。[FACT] （Ref. 8: Blandford & Eichler, 1987；Ref. 9: Axford, 1987） - [FACT] 因此，一个非常自然的图景是：**大部分银河系宇宙线由向外膨胀进星际介质的超新星激波通过一阶 Fermi 机制加速产生**，能量最终来源于爆炸" | 顺序 |
 | 即 | 即 | namely / i.e. | adv. | "[FACT] **Maryland group (Ref. 17)**：即使是较低能量就存在**两个分量**：质子/氦有较陡谱，重核有较平谱；因此 $10^{14}$ eV 及膝部以上组分**已经以重核为主**。这与 Fichtel-Linsley 的假说相反。" | 举例 |
 | 据 | 据 | according to / based on | prep. | "- **横轴**：动能，GeV，对数坐标，范围 ~1–1000 - **纵轴**：J(E)，对数坐标，范围 $10^{-4}$ – $10^{-1}$ - **数据点**： - Ahlen et al. (1988) - Bogomolov et al. (1981) - Buffington et al. (1981) - Golden et al. (1978, 1984) - This work (1988) —— 指 Ref." | 因果 |
 
@@ -67,16 +67,16 @@
 ### C1.
 
 > 1. [FACT] 银河系宇宙线功率平衡：超新星供给 $~3\times10^{42}$ erg/s ≈ 稳态需求
-2. [FACT] 观测谱 E⁻²·⁷ = E⁻⁰·⁶（传播）× E⁻²·¹（源谱）；源谱接近一阶 Fermi 加速的 E⁻²
+2. [FACT] 观测谱 E$^{-2.7}$ = E$^{-0.6}$（传播）× E$^{-2.1}$（源谱）；源谱接近一阶 Fermi 加速的 E$^{-2}$
 3. [FACT] 膝部陡化 $10^{15}$–$10^{16}$ eV，Akeno 数据点 $~5\times10^{15}$ eV
 4. [FACT] E_max/Z ≈ $10^{14}$ eV（超新星激波，ISM 参数）
 5. [FACT] 反质子阈值 5.63 GeV，产生截面随能量单调增大
 6. [FACT] 反质子源谱窄峰 1.5–15 GeV，是传播模型独特探针
 7. [FACT] leaky-box / closed galaxy / reacceleration 三模型给出不同的 p̄/p 比形状
 8. [FACT] 太阳活动极小期（1977）与极大期（1982）调制下的地球质子谱差异显著
-9. [FACT] LIS 能量密度 ~1 eV/cm³（质子 0.83 + He/重核 0.27）
+9. [FACT] LIS 能量密度 ~1 eV/cm$^{3}$（质子 0.83 + He/重核 0.27）
 10. [FACT] 99% 宇宙线能量在 <1 TeV/核子
-11. [FACT] >$10^{16}$ eV 通量 ~1 m⁻² sr⁻¹ yr⁻¹ → 需要大口径探测器
+11. [FACT] >$10^{16}$ eV 通量 ~1 m$^{-2}$ sr$^{-1}$ yr$^{-1}$ → 需要大口径探测器
 12. [FACT] JACEE 在膝部处首次直接测组分，但统计量不足
 13. [FACT] Swordy 月球量能器方案：直接…
 
@@ -87,7 +87,7 @@
 > ```
 超新星供给功率 ≈ 宇宙线稳态功率
      ↓
-大部分宇宙线由超新星激波通过一阶 Fermi 加速产生（源谱 E⁻²，观测谱 E⁻²·⁷，$\delta$ ≈ 0.6）
+大部分宇宙线由超新星激波通过一阶 Fermi 加速产生（源谱 E$^{-2}$，观测谱 E$^{-2.7}$，$\delta$ ≈ 0.6）
      ↓
 膝部（$10^{15}$–$10^{16}$ eV）陡化 → 两种解释：
   A) 超新星激波加速上限（rigidity-dependent, E_max/Z ~ $10^{14}$ eV）
@@ -140,9 +140,9 @@ Fig. 3 显示当前数据与 leaky-box 大致吻合
 ### C4.
 
 > - **再加速总是增大能量**（Simon et al. 假设）时：
-  - 未扰动解 J⁽⁰⁾(E) 在 E_c ≈ **2 GeV** 处有特征最大值
-  - E > E_c 时 J⁽⁰⁾(E) 下降，斜率反转
-  - 再加速的净效果是把注入谱 J⁽⁰⁾(E) 向更高能量平移
+  - 未扰动解 J$^{(0)}$(E) 在 E_c ≈ **2 GeV** 处有特征最大值
+  - E > E_c 时 J$^{(0)}$(E) 下降，斜率反转
+  - 再加速的净效果是把注入谱 J$^{(0)}$(E) 向更高能量平移
   - 因为观测质子通量随能量下降，**高能处 p̄/p 比增大**（图中中间曲线）
   - 极高能处增大趋于零（因 $\tau_{\rm R}$(E) 的能量依赖性）
   - **低能处 p̄/p 反而低于 leaky-box** 结果

@@ -16,7 +16,7 @@
 | consequently | adv. | 因果 | 因此 | "the energy input rate is ... consequently giving an acceleration time of $10^{6}$ years" | 能量注入率 → 加速时间 |
 | if | conj. | 条件 | 如果 | "if, on average, the fractional energy increase ... were $\epsilon$ ~ $10^{-1}$" | 设定假设推出结论 |
 | so that | conj. | 结果 | 使得 | "so that they can be accelerated by the Fermi (1949) method" | 散射条件 → 可加速 |
-| where | adv. | 定义/限定 | 其中 | "where K = D∥ cos²$\theta$" | 定义参数 K |
+| where | adv. | 定义/限定 | 其中 | "where K = D∥ cos$^{2}$$\theta$" | 定义参数 K |
 | which | pron. | 关系从句 | 即/它 | "which is more than sufficient to account for the known energy input requirements" | 指代能量注入量，评价其充分性 |
 | for | prep. | 举例 | 例如 | "e.g., Wentzel 1964; Hudson 1965..." | 列举历史文献 |
 | in this view | adv. | 框架引入 | 在这种观点下 | "in this view, high energy particles are a natural by-product" | 引入理论框架 |

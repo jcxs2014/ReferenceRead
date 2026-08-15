@@ -35,7 +35,7 @@
 | Ackermann 2011a | Cygnus X cocoon |
 | Ackermann 2014 | Fermi Bubbles 空间谱分析 |
 | Indriolo & McCall 2012 | $H_{3}^{\rm +}$ 弥漫云电离率 |
-| Indriolo 2015 | OH⁺_n Herschel 20 条视线 |
+| Indriolo 2015 | OH$^{+}$_n Herschel 20 条视线 |
 | Goto 2014 | CMZ $H_{3}^{\rm +}$ 多成分 |
 | Planck & Fermi Collab. 2015 | $\gamma$-ray + dust 联合 DNM |
 
@@ -87,8 +87,8 @@
 ├─ 10% 通过强子作用损失 → $\pi^{0}$ 衰变 $\gamma$ 射线（气体示踪）
 ├─ 60% 电子通过同步/IC 损失 → 同步辐射 + IC $\gamma$（电子示踪 + 磁场探针）
 ├─ <100 MeV CR 电离/加热暗云（每次 13 eV）
-│    ├─ $\zeta_{H_{2}}^{\rm CR}$ ~$10^{-16}$ s⁻¹（弥漫）→ 驱动离子化学
-│    │    ├─ $H_{3}^{\rm +}$、OH⁺、$H_{2}$O⁺、$H_{3}$O⁺ → 分子离子示踪
+│    ├─ $\zeta_{H_{2}}^{\rm CR}$ ~$10^{-16}$ s$^{-1}$（弥漫）→ 驱动离子化学
+│    │    ├─ $H_{3}^{\rm +}$、OH$^{+}$、$H_{2}$O$^{+}$、$H_{3}$O$^{+}$ → 分子离子示踪
 │    │    └─ 冷化学在 10 K 活跃
 │    └─ 云内 20% 电子能量 → 加热，维持 ~10 K
 └─ CR 流压 + 湍动 → 驱动 MHD 波
@@ -103,5 +103,5 @@
 | GeV–TeV 核 | 强子 $\pi^{0}$ 衰变 | $\gamma$ 射线（Fermi-LAT, HESS） |
 | GeV 电子 | 同步辐射 | 射电（VLA, WMAP） |
 | GeV 电子 | 逆 Compton | $\gamma$ 射线 |
-| <100 MeV 核 | 电离 H/$H_{2}$ | 分子离子谱线（$H_{3}^{\rm +}$, OH⁺） |
+| <100 MeV 核 | 电离 H/$H_{2}$ | 分子离子谱线（$H_{3}^{\rm +}$, OH$^{+}$） |
 | 全部 | 与气体作用积分 | q$\gamma_{\rm H}$  emissivity 分布 |

@@ -71,7 +71,7 @@
 - **谱指数**：$\mu = 2$（强激波 test-particle）→ $\mu = 2.5$（含波速修正）
 - **临界能量**：$E_{\rm crit} \sim 3.5 \times 10^{12}$ eV（典型年轻 SNR）
 - **SNR Cas A 加速能力**：$f(0,p) - f_0(p) \geq 10^4 f_{\rm gal}(p)$
-- **动力学参数**：激波速度 $v_s \sim 10^8$ cm/s；$n_H \sim 1$ cm⁻³；$B \sim 10^{-5}$ G；SNR Cas A 年龄 ≈ 330 年
+- **动力学参数**：激波速度 $v_s \sim 10^8$ cm/s；$n_H \sim 1$ cm$^{-3}$；$B \sim 10^{-5}$ G；SNR Cas A 年龄 ≈ 330 年
 
 ## 内容质量评估
 

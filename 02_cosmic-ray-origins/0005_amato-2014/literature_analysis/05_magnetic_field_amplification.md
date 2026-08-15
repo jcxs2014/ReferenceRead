@@ -20,7 +20,7 @@
 - 最大同步光子能量（Blasi 式 (74)）：$E_{\gamma,max} \approx 1.7\, V_{sh,8}^2$ keV（与 B 无关——Bohm 扩散下）；
 - 边缘厚度（Blasi 式 (75)）：$\sqrt{D\tau_{syn}} \approx 3.7\times 10^{-2} B_{100}^{-3/2}$ pc。
 
-**[FACT]** Amato §4.5 独立推导：$\sqrt{D\tau_{syn}} \approx 0.04\, B_{-4}^{-3/2}$（B₋₄ 单位为 100 $\mu$G）→ 一致。
+**[FACT]** Amato §4.5 独立推导：$\sqrt{D\tau_{syn}} \approx 0.04\, B_{-4}^{-3/2}$（B$_{-4}$ 单位为 100 $\mu$G）→ 一致。
 
 ## 5.2 两种根本不同的 MFA 机制（Blasi §4.4 首）
 
@@ -70,7 +70,7 @@ $$F_0(k) = \left(\frac{\pi}{6}\right)^{1/2}\left(\frac{\xi_{CR}}{\Lambda}\right)
 
 ### 5.3.4 色散关系图示（Blasi Fig.9 / Amato Fig.11）
 
-**[FACT]** Blasi Fig.9（Amato & Blasi 2009）：V_sh = $10^{9}$ cm/s, $B_{0}$ = 1 $\mu$G, n = 1 cm⁻³, $\xi_{\rm CR}$ = 10%, p_max = $10^{5}$ m_p c。上图左手极化、下图右手极化；实线 Re($\omega$)、虚线 Im($\omega$)。显示非共振模式在 k*r_L,0 ~ $10^{4}$ 处达到最大增长率。
+**[FACT]** Blasi Fig.9（Amato & Blasi 2009）：V_sh = $10^{9}$ cm/s, $B_{0}$ = 1 $\mu$G, n = 1 cm$^{-3}$, $\xi_{\rm CR}$ = 10%, p_max = $10^{5}$ m_p c。上图左手极化、下图右手极化；实线 Re($\omega$)、虚线 Im($\omega$)。显示非共振模式在 k*r_L,0 ~ $10^{4}$ 处达到最大增长率。
 
 **[FACT]** Amato Fig.11（完全同源）：展示弱流（点线，式 (16)/(26)）与强流（点划线，式 (29)）增长率的巨大差异；说明"标准"增长率高估了强流区。
 
@@ -83,7 +83,7 @@ $$k^* r_{L,0} = 3\, \xi_{CR}\, \gamma_{min}\, \frac{1}{\Lambda}\left(\frac{V_{sh
 - **电流驱动**，电流是 CR 电流导致的背景等离子体**返回电流**（电子相对离子漂移）；
 - 生长极快（V_sh ~ $10^{4}$ km/s 时 ~$10^{4}$ 倍快于共振模式）；
 - **几乎纯增长**（Re($\omega$) ≪ Im($\omega$)）；
-- 尺度 < r_L,0 → **不能直接与加速粒子共振**（"散射在最小偏角制"，D(p) ∝ p²）。
+- 尺度 < r_L,0 → **不能直接与加速粒子共振**（"散射在最小偏角制"，D(p) ∝ p$^{2}$）。
 
 **[FACT]** Zirakashvili et al. (2008) 数值：仅用 Bell 模式时 E_max ~ $10^{5}$ GeV（比膝低 1 个量级）。
 

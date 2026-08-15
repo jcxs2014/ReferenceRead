@@ -82,7 +82,7 @@
 
 **[FACT]** 亚秒差距核心的磁场结构导致 CR **排除（磁镜）**或**聚集（磁聚焦）**：
 - 排除主导多数核心构型 → 电离 CR 密度减少 2–4 倍（Padovani & Galli 2011）。
-- 收缩前恒星核心中心离子化率可降至 <$10^{-18}$ s⁻¹（Padovani 2013）。
+- 收缩前恒星核心中心离子化率可降至 <$10^{-18}$ s$^{-1}$（Padovani 2013）。
 
 **[FACT]** CR 在致密核心间的磁场瓶中被困住 → 局部 $\gamma$-ray emissivity q$\gamma_{\rm H}$ 可能增加：
 - 预测增加 3–5 倍（Cesarsky & Volk 1978）
@@ -116,7 +116,7 @@
 (a) 展示主核子谱 + B/C 传播模型的拟合；(b) B/C 随动量演化比较 3D 传播模型（不同 D_xx 动量依赖）。
 
 ### 元素
-- **Panel (a)**：E³J(E_kin) [GeV m⁻² s⁻¹ sr⁻¹] vs E_kin [GeV/nuc]
+- **Panel (a)**：E$^{3}$J(E_kin) [GeV m$^{-2}$ s$^{-1}$ sr$^{-1}$] vs E_kin [GeV/nuc]
   - 模型：KOL（Kolmogorov 湍动）、KRA（Kraichnan 湍动）、PD（无再加速的纯扩散）
   - 数据：p PAMELA 09-10、p AMS-02 (preliminary)、He PAMELA 06-08
 - **Panel (b)**：B/C vs E_kin

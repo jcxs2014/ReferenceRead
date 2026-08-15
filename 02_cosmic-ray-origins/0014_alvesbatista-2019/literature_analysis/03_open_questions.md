@@ -459,14 +459,14 @@ equations:
   - 'Eq 4: L_photon > 3×10^44 erg/s (EM counterpart bound)'
   - 'Eq 5: √s ≈ √(2Eε) (BSM CM energy)'
   - 'Eq 6: L_LIV = CPT-odd dim-5 operator'
-  - 'Eq 7: E_±² = m² + p²(1 ± ξ_±p/M_Pl^n) (LIV dispersion)'
-  - 'Eq 8: E_cr = E_Pl (m²|M|/M_Pl^n)^(1/(n+2))'
+  - 'Eq 7: E_±² = m$^{2}$ + p$^{2}$(1 ± ξ_±p/M_Pl^n) (LIV dispersion)'
+  - 'Eq 8: E_cr = E_Pl (m$^{2}$|M|/M_Pl^n)^(1/(n+2))'
 key_topics:
   - Spillover effect (energy resolution)
   - Peters cycle vs spallation
   - Rigidity evolution (R=E/Z)
   - Hillas criterion (necessary, not sufficient)
-  - Source energy budget (5×10^44 erg/Mpc³/yr)
+  - Source energy budget (5×10^44 erg/Mpc$^{3}$/yr)
   - Steady vs transient sources (t_prop/t_emiss)
   - GZK cutoff origin (pure GZK vs max energy)
   - EGMF constraints (10^-17 to 10^-9 G)

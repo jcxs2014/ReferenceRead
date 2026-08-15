@@ -9,7 +9,7 @@
 ## 1.1 本节核心内容
 
 - 从 Hess（1912）的宇宙线发现与 Rossi（1964）书的 50 周年回顾，引出"一个世纪后仍未完全解决"的主题。
-- 给出银河系宇宙线的基本图像：质子为主（~90%）、氦核（~10%），能量密度约 1 eV/cm³。
+- 给出银河系宇宙线的基本图像：质子为主（~90%）、氦核（~10%），能量密度约 1 eV/cm$^{3}$。
 - **全粒子能谱**：低能端 (~30 GeV 以下) 被太阳调制；膝点 knee 在 E_K = $3\times10^{15}$ eV 处从 $\gamma$ ≈ 2.7 变到 ≈ 3.1；膝点之上成分趋向重核主导，最高至 ~$10^{17}$ eV 后 Fe 谱可与轻成分相当。
 - **PAMELA / CREAM / AMS-02 硬转折**：p 与 $^{4}{\rm He}$ 在 230 GV 处硬化（$\gamma_{1}$=2.89→$\gamma_{2}$=2.67）。
 - **正电子分数异常**：>10 GeV 后 $\Phi(e^{+})/(\Phi(e^{+})+\Phi(e^{-}))$ 上升；反质子分数正常下降。
@@ -19,7 +19,7 @@
 ## 1.2 原文内容（要点摘录）
 
 - [FACT] "In 1962 Bruno Rossi finalized the writing of his book Cosmic Rays ... the field of CR research had become a complex combination of several fields, from Astronomy to Plasma Physics and Particle Physics."
-- [FACT] "Cosmic rays are mainly charged particles that contribute an energy density in the Galaxy of about 1 eV cm⁻³. They are mainly protons ... with about 10% fraction of helium nuclei and smaller abundances of heavier elements."
+- [FACT] "Cosmic rays are mainly charged particles that contribute an energy density in the Galaxy of about 1 eV cm$^{-3}$. They are mainly protons ... with about 10% fraction of helium nuclei and smaller abundances of heavier elements."
 - [FACT] The knee: "the prominent steepening of the spectrum at energy E_K = $3\times10^{15}$ eV is named the knee: at this point the spectral slope of the differential flux changes from ~−2.7 to ~−3.1."
 - [FACT] 膝点之上化学组成："evidence that the chemical composition of CRs changes across the knee region with a trend to become increasingly more dominated by heavy nuclei at high energy, at least up to ~$10^{17}$ eV."
 - [FACT] KASCADE-Grande（Apel et al, 2013）：电子富（轻）与电子贫（重）簇射分离，轻成分在 $10^{17}$ eV 处出现类似 ankle 的结构；ICETOP（Aartsen et al, 2013）也得到类似结论。
@@ -43,7 +43,7 @@
 
 | 物理量 | 数值 | 说明 |
 |--------|------|------|
-| 银河系 CR 能量密度 | ~1 eV/cm³ | 质子主导 |
+| 银河系 CR 能量密度 | ~1 eV/cm$^{3}$ | 质子主导 |
 | 质子分数 | ~90% | He 约 10%，重核更少 |
 | 膝点能量 E_K | $3\times10^{15}$ eV | 谱斜率从 −2.7 变到 −3.1 |
 | 膝点以上重核主导上限 | ~$10^{17}$ eV | KASCADE-Grande, ICETOP |

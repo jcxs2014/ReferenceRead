@@ -65,7 +65,7 @@
 
 $$Q_{CR} = \frac{\rho_E \, V_S}{\tau_R} \sim 5 \times 10^{40} \text{ erg} \quad (1)$$
 
-（[CRITIQUE] 此处文本中的数值印刷为 $5\times10^{40}$，但前文声称功率匹配 $3\times10^{42}$，数量级上存在差异。结合下文推导，作者实际使用的 $\rho_{\rm E}$ ≈ 1 eV/cm³、V_S ≈ $5\times10^{66}$ cm³、$\tau_{\rm R}$ ≈ $5\times10^{6}$ yr 得到的结果应当为 $~3\times10^{41}$ erg/s，与超新星供给 $3\times10^{42}$ erg/s 相当接近——这是本文核心论据之一。）
+（[CRITIQUE] 此处文本中的数值印刷为 $5\times10^{40}$，但前文声称功率匹配 $3\times10^{42}$，数量级上存在差异。结合下文推导，作者实际使用的 $\rho_{\rm E}$ ≈ 1 eV/cm$^{3}$、V_S ≈ $5\times10^{66}$ cm$^{3}$、$\tau_{\rm R}$ ≈ $5\times10^{6}$ yr 得到的结果应当为 $~3\times10^{41}$ erg/s，与超新星供给 $3\times10^{42}$ erg/s 相当接近——这是本文核心论据之一。）
 
 **LIS 能量密度**：
 
@@ -74,8 +74,8 @@ $$\rho_E = 4\pi E^2 \frac{dN}{dE}\bigg|_{\ln E} = \frac{d\rho_\epsilon}{d\ln E} 
 其中 E 是每核子动能，$\beta$c 是粒子速度，dN/dE 是核子的微分谱。
 
 **参数取值（作者假设）**：
-- $\rho_{\rm E}$ ≈ 1 eV/cm³ [FACT]
-- 源区体积 V_S ≈ $5\times10^{66}$ cm³（取银河系盘面）[FACT]
+- $\rho_{\rm E}$ ≈ 1 eV/cm$^{3}$ [FACT]
+- 源区体积 V_S ≈ $5\times10^{66}$ cm$^{3}$（取银河系盘面）[FACT]
 - 在盘中的驻留时间 $\tau_{\rm R}$ ≈ $5\times10^{6}$ yr [FACT]
 
 [FACT] 关键脚注：$\tau_{\rm R}$ 是"在盘中的驻留时间"，**不**是宇宙线的"年龄"（后者由如 $^{10}{\rm Be}$ 等放射性同位素相对丰度给出）。
@@ -88,14 +88,14 @@ $$\rho_E = 4\pi E^2 \frac{dN}{dE}\bigg|_{\ln E} = \frac{d\rho_\epsilon}{d\ln E} 
 
 ## 3.2 Figure 1 — 能量密度谱
 
-> **Figure 1**: Energy density in cosmic rays (eV/cm³).
+> **Figure 1**: Energy density in cosmic rays (eV/cm$^{3}$).
 
 ### 3.2.1 图的目的
 把不同能量区间对总宇宙线能量密度的贡献可视化。作者选择绘制 ∝ d$\rho_{\rm E}$/d ln E 的量，使得对数坐标图上的物理面积正比于各能量区间的贡献。
 
 ### 3.2.2 坐标轴
 - **横轴**：动能 $E_{0}$，单位 GeV，对数坐标，范围约 0.1 GeV ~ 1000 GeV
-- **纵轴**：$\rho_{\rm e}$（eV/cm³），线性坐标，范围 0 ~ 0.16
+- **纵轴**：$\rho_{\rm e}$（eV/cm$^{3}$），线性坐标，范围 0 ~ 0.16
 
 ### 3.2.3 图中元素
 - 1977 曲线：地球处质子通量（太阳活动极小期调制下）
@@ -103,9 +103,9 @@ $$\rho_E = 4\pi E^2 \frac{dN}{dE}\bigg|_{\ln E} = \frac{d\rho_\epsilon}{d\ln E} 
 - LIS 曲线：经去调制后的局部星际质子谱，来自 Evenson [Ref. 2]
 
 ### 3.2.4 关键观察与数值
-- **质子曲线下的面积** ≈ **0.83 eV/cm³** [FACT]
-- **He 及更重核贡献** ≈ **0.27 eV/cm³** [FACT]
-- 二者相加 ≈ **1.1 eV/cm³**，与作者前文"$\rho_{\rm E}$ ≈ 1 eV/cm³"一致 [FACT]
+- **质子曲线下的面积** ≈ **0.83 eV/cm$^{3}$** [FACT]
+- **He 及更重核贡献** ≈ **0.27 eV/cm$^{3}$** [FACT]
+- 二者相加 ≈ **1.1 eV/cm$^{3}$**，与作者前文"$\rho_{\rm E}$ ≈ 1 eV/cm$^{3}$"一致 [FACT]
 - **99% 的星际宇宙线能量**包含在 E < 1 TeV/核子 的粒子中 [FACT]
 - **超过一半的能量**由 E < 数 GeV 的粒子携带，这些粒子在穿透日球时被太阳风耗散 [FACT]
 
@@ -133,7 +133,7 @@ $$\tau_R = \frac{h\,H}{D} \quad \text{（一维，垂直于盘面扩散）}$$
 
 $$\lambda_{esc} = \lambda_{esc}(4\,\text{GV})\left(\frac{R}{4\,\text{GV}}\right)^{\!\!0.6} \quad R > 4\,\text{GV} \quad (3)$$
 
-对 R < 4 GV，$\lambda_{\rm esc}$ = const = 10.88 g/cm²。
+对 R < 4 GV，$\lambda_{\rm esc}$ = const = 10.88 g/cm$^{2}$。
 
 **由此，高能处观测谱 J(E) 与源谱 Q(E) 的关系**：
 
@@ -149,9 +149,9 @@ $$Q(E) \propto E^{-(\gamma - \delta)} \approx E^{-2.1}$$
 
 ### 3.3.2 物理解释
 
-- [FACT] 超新星壳层的 **一阶 Fermi 激波加速（diffusive shock acceleration）** 自然产生 E⁻² 的源谱。[FACT] （Ref. 8: Blandford & Eichler, 1987；Ref. 9: Axford, 1987）
+- [FACT] 超新星壳层的 **一阶 Fermi 激波加速（diffusive shock acceleration）** 自然产生 E$^{-2}$ 的源谱。[FACT] （Ref. 8: Blandford & Eichler, 1987；Ref. 9: Axford, 1987）
 - [FACT] 因此，一个非常自然的图景是：**大部分银河系宇宙线由向外膨胀进星际介质的超新星激波通过一阶 Fermi 机制加速产生**，能量最终来源于爆炸超新星壳层的动能。
-- [INTERPRETATION] $\delta$ ≈ 0.6、$\gamma$ ≈ 2.7、源谱 E⁻²·¹，三者之间通过 Eq. (4) 形成自洽链，把加速理论、传播模型、观测谱三个部分串联起来。
+- [INTERPRETATION] $\delta$ ≈ 0.6、$\gamma$ ≈ 2.7、源谱 E$^{-2.1}$，三者之间通过 Eq. (4) 形成自洽链，把加速理论、传播模型、观测谱三个部分串联起来。
 
 ### 3.3.3 关键参数小结
 
@@ -159,9 +159,9 @@ $$Q(E) \propto E^{-(\gamma - \delta)} \approx E^{-2.1}$$
 |---|---|---|
 | $\delta$ | ≈ 0.6 | rigidity-dependent 逃逸指数 |
 | $\gamma$ | ≈ 2.7 | 观测微分谱指数 (10 GeV – 数 TeV) |
-| 源谱指数 | ≈ 2.1 | 由 $\gamma$ - $\delta$ 推出，与 Fermi 一阶加速的 E⁻² 接近 |
-| $\lambda_{\rm esc}$(4 GV) | ≈ 6 g/cm² | 4 GV 处逃逸长度（来自 Gupta-Webber） |
-| R < 4 GV | 恒定 10.88 g/cm² | 低能段的近似 |
+| 源谱指数 | ≈ 2.1 | 由 $\gamma$ - $\delta$ 推出，与 Fermi 一阶加速的 E$^{-2}$ 接近 |
+| $\lambda_{\rm esc}$(4 GV) | ≈ 6 g/cm$^{2}$ | 4 GV 处逃逸长度（来自 Gupta-Webber） |
+| R < 4 GV | 恒定 10.88 g/cm$^{2}$ | 低能段的近似 |
 
 ---
 
@@ -215,7 +215,7 @@ $$\frac{E_{max}}{Z} \approx 10^{14}\ \text{eV} \quad (7)$$
 
 ### 3.4.4 量能计"全粒子"谱
 
-- 高于 $10^{14}$ eV 的通量 < 1 粒子/m²/h 通过 $\pi$ 立体角的探测器，气球或卫星不可行。
+- 高于 $10^{14}$ eV 的通量 < 1 粒子/m$^{2}$/h 通过 $\pi$ 立体角的探测器，气球或卫星不可行。
 - 几乎全部通过**空气簇射**实验（calorimetric）探测。
 - 空气簇射按**每粒子能量**分类，而不是按每核能量。
 
@@ -269,7 +269,7 @@ $$E_0 = w \times N_e^{(\text{max})} \quad (8)$$
 
 - **直接在膝部区测量各主要组分的能谱**对理解起源、加速、传播至关重要。
 - 低能直接测量（Ref. 12, 27, 28）已经显示出有趣的能量依赖性，需要**跟到高能量**。
-- 高于 $10^{16}$ eV 的通量约 **1 粒子 m⁻² sr⁻¹ 每年**，需要**数百 m²·年的大口径探测器**。
+- 高于 $10^{16}$ eV 的通量约 **1 粒子 m$^{-2}$ sr$^{-1}$ 每年**，需要**数百 m$^{2}$·年的大口径探测器**。
 - **Swordy (Ref. 29)** 提出**月球量能器**方案——在无大气覆盖的月球表面用大量能器直接测量初级核的电荷。
 
 ---
@@ -339,7 +339,7 @@ $$j^{(0)}(E) = \tau_R(E)\,Q_{\bar{p}}(E) \quad (13)$$
 - 因此若反质子在盘内由本地质子谱产生，**p̄/p 比在高能随 $\tau_{\rm R}$(E) 下降而下降**（$\tau_{\rm R}$ 在反质子的能量处求值，而不是在产生它的更高能量处）[FACT]
 - 图中**最低实线**：Protheroe 的计算（Ref. 43）
   - 逃逸长度 <10 GV 时比 Eq. (3) 低约 50%
-- 若部分反质子在**源附近的物质**中由初级质子产生，驱动谱可能更硬（如 E⁻²·¹），给 p̄/p 比贡献一个**渐近常数**。
+- 若部分反质子在**源附近的物质**中由初级质子产生，驱动谱可能更硬（如 E$^{-2.1}$），给 p̄/p 比贡献一个**渐近常数**。
 
 **模型 2：Closed galaxy**（Eq. 11 第三项重要）
 
@@ -358,9 +358,9 @@ $$j^{(0)}(E) = \tau_R(E)\,Q_{\bar{p}}(E) \quad (13)$$
 $$J_{\bar{p}}^{(1)}(E) = J_{\bar{p}}^{(0)}(E)\left[1 + B\,\tau_R(E)\int_0^E \frac{dP(E,E')}{dE}\frac{J_{\bar{p}}^{(0)}(E')}{J_{\bar{p}}^{(0)}(E)}\,dE'\right] \quad (14)$$
 
 - **再加速总是增大能量**（Simon et al. 假设）时：
-  - 未扰动解 J⁽⁰⁾(E) 在 E_c ≈ **2 GeV** 处有特征最大值
-  - E > E_c 时 J⁽⁰⁾(E) 下降，斜率反转
-  - 再加速的净效果是把注入谱 J⁽⁰⁾(E) 向更高能量平移
+  - 未扰动解 J$^{(0)}$(E) 在 E_c ≈ **2 GeV** 处有特征最大值
+  - E > E_c 时 J$^{(0)}$(E) 下降，斜率反转
+  - 再加速的净效果是把注入谱 J$^{(0)}$(E) 向更高能量平移
   - 因为观测质子通量随能量下降，**高能处 p̄/p 比增大**（图中中间曲线）
   - 极高能处增大趋于零（因 $\tau_{\rm R}$(E) 的能量依赖性）
   - **低能处 p̄/p 反而低于 leaky-box** 结果
@@ -403,7 +403,7 @@ $$J_{\bar{p}}^{(1)}(E) = J_{\bar{p}}^{(0)}(E)\left[1 + B\,\tau_R(E)\int_0^E \fra
 | 编号 | 公式 | 含义 |
 |---|---|---|
 | (1) | Q_CR = $\rho_{\rm E}$ V_S / $\tau_{\rm R}$ ~ $5\times10^{40}$ erg | 稳态宇宙线功率（文本印刷如此） |
-| (2) | $\rho_{\rm E}$ = 4$\pi$ E² dN/dE = d$\rho_\epsilon$/d ln E | LIS 能量密度 |
+| (2) | $\rho_{\rm E}$ = 4$\pi$ E$^{2}$ dN/dE = d$\rho_\epsilon$/d ln E | LIS 能量密度 |
 | (3) | $\lambda_{\rm esc}$ = $\lambda_{\rm esc}$(4 GV)(R/4 GV)^0.6 (R > 4 GV); 10.88 (R < 4 GV) | rigidity-dependent 逃逸长度 |
 | (4) | J(E) ∝ E^(-$\delta$) × Q(E), $\delta$ ≈ 0.6 | 观测谱-源谱关系 |
 | (5) | J(E) ∝ E^(-$\gamma$), $\gamma$ ≈ 2.7 (10 GeV – 数 TeV) | 观测微分谱 |
@@ -414,8 +414,8 @@ $$J_{\bar{p}}^{(1)}(E) = J_{\bar{p}}^{(0)}(E)\left[1 + B\,\tau_R(E)\int_0^E \fra
 | (10) | $^{16}{\rm O}$ + H → $^{10}{\rm B}$ + … | 碎裂反应，>1 GeV 截面近似恒定 |
 | (11) | 反质子平衡方程（源-逃逸-衰减-再加速） | 反质子通量的完整动力学方程 |
 | (12) | Q_p̄(E) = 2$\alpha$$\rho$F ∫ dN_p J_p(E_p) dE_p | 反质子源项 |
-| (13) | j⁽⁰⁾(E) = $\tau_{\rm R}$(E) Q_p̄(E) | leaky-box 平衡解 |
-| (14) | J_p̄⁽¹⁾(E) 迭代解，含再加速修正 | 小再加速效应下的反质子通量修正 |
+| (13) | j$^{(0)}$(E) = $\tau_{\rm R}$(E) Q_p̄(E) | leaky-box 平衡解 |
+| (14) | J_p̄$^{(1)}$(E) 迭代解，含再加速修正 | 小再加速效应下的反质子通量修正 |
 
 ---
 
@@ -427,14 +427,14 @@ $$J_{\bar{p}}^{(1)}(E) = J_{\bar{p}}^{(0)}(E)\left[1 + B\,\tau_R(E)\int_0^E \fra
 | 每次超新星壳层动能 | $2\times10^{51}$ erg | 脚注 |
 | 银河系宇宙线供给功率 | $~3\times10^{42}$ erg/s | 脚注 |
 | 稳态宇宙线功率 | $~5\times10^{40}$ erg（或推论 $~3\times10^{41}$ erg/s） | Eq. (1) |
-| LIS 能量密度 $\rho_{\rm E}$ | ~1 eV/cm³ | 本文 |
-| 源区体积 V_S | $5\times10^{66}$ cm³ | 本文 |
+| LIS 能量密度 $\rho_{\rm E}$ | ~1 eV/cm$^{3}$ | 本文 |
+| 源区体积 V_S | $5\times10^{66}$ cm$^{3}$ | 本文 |
 | 在盘中的驻留时间 $\tau_{\rm R}$ | $5\times10^{6}$ yr | 本文 |
 | 逃逸指数 $\delta$ | ≈ 0.6 | Eq. (4) |
 | 观测微分谱 $\gamma$ | ≈ 2.7 | Eq. (5) |
 | 源谱指数 | ≈ 2.1 | 由 $\gamma$ - $\delta$ 推出 |
-| 质子曲线积分面积 | 0.83 eV/cm³ | Fig. 1 |
-| He+重核贡献 | 0.27 eV/cm³ | Fig. 1 |
+| 质子曲线积分面积 | 0.83 eV/cm$^{3}$ | Fig. 1 |
+| He+重核贡献 | 0.27 eV/cm$^{3}$ | Fig. 1 |
 | 膝部陡化范围 | $10^{15}$ – $10^{16}$ eV | 本文 |
 | E_max/Z（超新星激波） | ~$10^{14}$ eV | Eq. (7) |
 | 星际磁场 B | 3 $\mu$Gauss | 本文 |
@@ -445,7 +445,7 @@ $$J_{\bar{p}}^{(1)}(E) = J_{\bar{p}}^{(0)}(E)\left[1 + B\,\tau_R(E)\int_0^E \fra
 | 反质子源谱产额主要区间 | 1.5 – 15 GeV | 本文 |
 | 未扰动反质子谱特征峰值 | E_c ≈ 2 GeV | 本文 |
 | 膝部以上 Z > 2 比例（rigidity 陡化预测） | ~53%（比低能 36% 高 1.5 倍） | 本文 |
-| >$10^{16}$ eV 通量 | ~1 m⁻² sr⁻¹ yr⁻¹ | 本文 |
+| >$10^{16}$ eV 通量 | ~1 m$^{-2}$ sr$^{-1}$ yr$^{-1}$ | 本文 |
 | PSR 1957+20 周期 | 1.6 ms | Ref. 25 |
 | 再加速所需 $\delta$ 调整 | $\tau_{\rm R}$(E) 下降更慢 | Ref. 51 |
 
@@ -489,7 +489,7 @@ $$J_{\bar{p}}^{(1)}(E) = J_{\bar{p}}^{(0)}(E)\left[1 + B\,\tau_R(E)\int_0^E \fra
 ```
 超新星供给功率 ≈ 宇宙线稳态功率
      ↓
-大部分宇宙线由超新星激波通过一阶 Fermi 加速产生（源谱 E⁻²，观测谱 E⁻²·⁷，$\delta$ ≈ 0.6）
+大部分宇宙线由超新星激波通过一阶 Fermi 加速产生（源谱 E$^{-2}$，观测谱 E$^{-2.7}$，$\delta$ ≈ 0.6）
      ↓
 膝部（$10^{15}$–$10^{16}$ eV）陡化 → 两种解释：
   A) 超新星激波加速上限（rigidity-dependent, E_max/Z ~ $10^{14}$ eV）
@@ -517,8 +517,8 @@ Fig. 3 显示当前数据与 leaky-box 大致吻合
 # 8. 隐含信息与文献未明确说明之处
 
 - **[Information Not Explicitly Provided]** 反质子最小产生过程的 Q-value 具体计算未展开（仅给出阈值 5.63 GeV）。
-- **[Information Not Explicitly Provided]** 超新星供给功率 $3\times10^{42}$ erg/s 与 Eq. (1) 中 $5\times10^{40}$ erg 的**数量级差异未解释**——可能是 Eq. (1) 印刷错误或单位不同（例如漏了 s⁻¹）。
-- **[Information Not Explicitly Provided]** "shrouded sources" 模型中遮蔽层的具体质量厚度（g/cm²）未给出。
+- **[Information Not Explicitly Provided]** 超新星供给功率 $3\times10^{42}$ erg/s 与 Eq. (1) 中 $5\times10^{40}$ erg 的**数量级差异未解释**——可能是 Eq. (1) 印刷错误或单位不同（例如漏了 s$^{-1}$）。
+- **[Information Not Explicitly Provided]** "shrouded sources" 模型中遮蔽层的具体质量厚度（g/cm$^{2}$）未给出。
 - **[隐含]** 作者默认读者熟悉 B/C 比、leaky-box、closed galaxy、分布再加速等标准宇宙线传播框架。
 - **[隐含]** Fig. 3 中的"this work (1988)"对应 Ref. 37 (Streitmatter et al.)，作者本人是合作者。
 - **[隐含]** 对太阳调制效应的讨论仅在低能反质子（<1 GeV）处轻触一笔，主要依赖 Perko (49)、Webber-Potgieter (50)。

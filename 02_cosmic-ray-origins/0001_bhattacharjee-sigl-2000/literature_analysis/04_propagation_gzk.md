@@ -13,7 +13,7 @@
 - 建立**传播长度、能量衰减长度、CEL 近似**的一般性框架（公式 7–12）。
 - **GZK 效应**详述：质子 + CMB 光子的 photo-pion 阈值、截面、相互作用长度 ~6 Mpc。
 - 其他损失机制：PPP（对产生）、红移、中子 $\beta$-衰变、核的光致分裂（Giant Dipole Resonance）。
-- **UHE 光子的 EM 级联**（pair production + inverse Compton）：级联深度、截止能量 ~100 GeV、E⁻¹·⁵ 堆积谱。
+- **UHE 光子的 EM 级联**（pair production + inverse Compton）：级联深度、截止能量 ~100 GeV、E$^{-1.5}$ 堆积谱。
 - 高 QED 过程（双对产生 DPP、三对产生 TPP）在 EHE 能区的重要性。
 
 ## 4.2 §4 起始的一般记号与公式 [FACT]
@@ -21,16 +21,16 @@
 ### 4.2.1 相互作用长度 (公式 7)
 
 ```
-l(E)⁻¹ = ∫d$\epsilon$ · n_b($\epsilon$) · ∫₋₁⁺¹ d$\mu$ · (1 − $\mu$$\beta$$\beta_{\rm b}$)/2 · $\sigma$(s)
+l(E)$^{-1}$ = ∫d$\epsilon$ · n_b($\epsilon$) · ∫$_{-1}^{+1}$ d$\mu$ · (1 − $\mu$$\beta$$\beta_{\rm b}$)/2 · $\sigma$(s)
 ```
 - n_b($\epsilon$)：背景粒子单位能量数密度
-- $\beta_{\rm b}$ = (1 − m_b²/$\epsilon^{2}$)^(1/2)
-- $\beta$ = (1 − m²/E²)^(1/2)
+- $\beta_{\rm b}$ = (1 − m_b$^{2}$/$\epsilon^{2}$)^(1/2)
+- $\beta$ = (1 − m$^{2}$/E$^{2}$)^(1/2)
 - $\mu$：入射动量夹角余弦
 - $\sigma$(s)：总截面
 - **质心能量平方** (公式 8)：
 ```
-s = m_b² + m² + 2$\epsilon$E(1 − $\mu$$\beta$$\beta_{\rm b}$)
+s = m_b$^{2}$ + m$^{2}$ + 2$\epsilon$E(1 − $\mu$$\beta$$\beta_{\rm b}$)
 ```
 
 ### 4.2.2 能量衰减长度 (公式 9)
@@ -54,7 +54,7 @@ $\eta$(s) ≡ 1 − (1/$\sigma$(s)) · ∫dE' · E' · (d$\sigma$/dE')(E', s)
 
 对物质主导平坦宇宙 ($\Omega_{0}$ = 1)：
 ```
-j(E) = (3/(8$\pi$$t_{0}$)) · ∫₀^{z_i,max} dz_i · (1+z_i)⁻^(11/2) · (dE_i(E,z_i)/dE) · $\Phi$(E, z_i)
+j(E) = (3/(8$\pi$$t_{0}$)) · ∫$_{0}$^{z_i,max} dz_i · (1+z_i)$^{-}$^(11/2) · (dE_i(E,z_i)/dE) · $\Phi$(E, z_i)
 ```
 - $t_{0}$：宇宙年龄
 - E_i(E, z_i)：注入红移 z_i 处的注入能量，满足 dE/dt = b(E)
@@ -76,7 +76,7 @@ E_lab,thr^$\gamma$ ≡ m_$\pi$ + m_$\pi^{2}$/(2m_N) ≃ 160 MeV
 
 对应质子阈值（对背景光子 $\epsilon$，公式 13）：
 ```
-E_th = m_$\pi$(m_N + m_$\pi$/2)/$\epsilon$ ≃ $6.8\times10^{16}$ · ($\epsilon$ / eV)⁻¹  eV
+E_th = m_$\pi$(m_N + m_$\pi$/2)/$\epsilon$ ≃ $6.8\times10^{16}$ · ($\epsilon$ / eV)$^{-1}$  eV
 ```
 - CMB 典型 $\epsilon$ ~ $10^{-3}$ eV → **GZK cutoff** 出现在"数十 EeV"处（即 $~5\times10^{19}$ eV），此时质子相互作用长度降至 **~6 Mpc**。
 
@@ -88,17 +88,17 @@ E_th = m_$\pi$(m_N + m_$\pi$/2)/$\epsilon$ ≃ $6.8\times10^{16}$ · ($\epsilon$
 
 ### 4.3.3 其他损失机制
 
-**质子-对产生 (PPP, p $\gamma_{\rm b}$ → p e⁺ e⁻)** [FACT, 公式 14]
+**质子-对产生 (PPP, p $\gamma_{\rm b}$ → p e$^{+}$ e$^{-}$)** [FACT, 公式 14]
 ```
-E_th = m_e(m_N + m_e)/$\epsilon$ ≃ $4.8\times10^{14}$ · ($\epsilon$ / eV)⁻¹  eV
+E_th = m_e(m_N + m_e)/$\epsilon$ ≃ $4.8\times10^{14}$ · ($\epsilon$ / eV)$^{-1}$  eV
 ```
 - CMB 中 PPP 发生于 E ~ $5\times10^{17}$ eV。
 - 首个天体物理讨论：Blumenthal [158]。
-- 核电荷 Z 的情形：PPP 截面 ~ Z² × triplet pair production 截面。
+- 核电荷 Z 的情形：PPP 截面 ~ Z$^{2}$ × triplet pair production 截面。
 
 **红移**：PPP 阈值附近的下一个主要损失机制。
 
-**中子 $\beta$-衰变 (n → p e⁻ $\nu$̄_e)** [FACT, 公式 15]
+**中子 $\beta$-衰变 (n → p e$^{-}$ $\nu$̄_e)** [FACT, 公式 15]
 ```
 R_n = $\tau_{\rm n}$ · E/m_N ≃ 0.9 · (E / $10^{20}$ eV)  Mpc
 ```
@@ -124,25 +124,25 @@ R_n = $\tau_{\rm n}$ · E/m_N ≃ 0.9 · (E / $10^{20}$ eV)  Mpc
 
 ### 4.4.1 主导过程 [FACT]
 
-- **Pair Production (PP)**：$\gamma$ $\gamma_{\rm b}$ → e⁺ e⁻
-- **Inverse Compton Scattering (ICS)**：e e⁺ + $\gamma_{\rm b}$ → 更高能 $\gamma$
+- **Pair Production (PP)**：$\gamma$ $\gamma_{\rm b}$ → e$^{+}$ e$^{-}$
+- **Inverse Compton Scattering (ICS)**：e e$^{+}$ + $\gamma_{\rm b}$ → 更高能 $\gamma$
 
 阈值（公式 16）：
 ```
-E_th = m_e²/$\epsilon$ ≃ $2.6\times10^{11}$ · ($\epsilon$ / eV)⁻¹  eV
+E_th = m_e$^{2}$/$\epsilon$ ≃ $2.6\times10^{11}$ · ($\epsilon$ / eV)$^{-1}$  eV
 ```
 
 高能极限截面（公式 17）：
 ```
-$\sigma_{\rm PP}$ ≃ 2 $\sigma_{\rm ICS}$ ≃ (3/2) $\sigma_{\rm T}$ · (m_e²/s) · ln(s/(2m_e²))   (s ≫ m_e²)
+$\sigma_{\rm PP}$ ≃ 2 $\sigma_{\rm ICS}$ ≃ (3/2) $\sigma_{\rm T}$ · (m_e$^{2}$/s) · ln(s/(2m_e$^{2}$))   (s ≫ m_e$^{2}$)
 ```
 
 ### 4.4.2 级联发展 [FACT]
 
-Klein-Nishina 极限下：PP 产生的 e⁺/e⁻ 携带大部分原始 $\gamma$ 能量 → ICS 非弹性度 ~1 → upscattered $\gamma$ 又成 leading → **反复 PP–ICS 循环** → EM cascade。
+Klein-Nishina 极限下：PP 产生的 e$^{+}$/e$^{-}$ 携带大部分原始 $\gamma$ 能量 → ICS 非弹性度 ~1 → upscattered $\gamma$ 又成 leading → **反复 PP–ICS 循环** → EM cascade。
 
 - **能量衰减长度 > 相互作用长度**（有效穿透更深，见 Fig. 11, 12）。
-- **级联堆积谱**：级联发展加速 → $\gamma$ 落入 PP 阈值以下 → **E⁻¹·⁵ 特征谱** [35, 182–184]。
+- **级联堆积谱**：级联发展加速 → $\gamma$ 落入 PP 阈值以下 → **E$^{-1.5}$ 特征谱** [35, 182–184]。
 - 完全发展级联的能量在 **~100 GeV 以下堆积** → 受 EGRET diffuse $\gamma$-ray 数据约束。
 
 ### 4.4.3 通用射电背景 (URB) [FACT]
@@ -154,22 +154,22 @@ Klein-Nishina 极限下：PP 产生的 e⁺/e⁻ 携带大部分原始 $\gamma$ 
 
 ### 4.4.4 EGMF 对级联的影响 [FACT]
 
-- 河外磁场抑制级联发展（通过 e⁺e⁻ 同步冷却）。
+- 河外磁场抑制级联发展（通过 e$^{+}$e$^{-}$ 同步冷却）。
 - 若同步冷却时标 < ICS 时标 → 级联停止 → UHE $\gamma$ 通量由"直接"$\gamma$（起源 < 吸收长度）主导。
 - 强 EGMF 效应：**高能端通量降低、~几十–几百 GeV 通量升高**。
 
 ### 4.4.5 高 QED 过程 [FACT]
 
-**双对产生 (DPP, $\gamma$ $\gamma_{\rm b}$ → e⁺e⁻e⁺e⁻)** — 公式 18：
+**双对产生 (DPP, $\gamma$ $\gamma_{\rm b}$ → e$^{+}$e$^{-}$e$^{+}$e$^{-}$)** — 公式 18：
 ```
-$\sigma_{\rm DPP}$ ≃ 172$\alpha^{4}$/(36$\pi$m_e²) ≃ 6.45 $\mu$barn   (s ≫ m_e²)
+$\sigma_{\rm DPP}$ ≃ 172$\alpha^{4}$/(36$\pi$m_e$^{2}$) ≃ 6.45 $\mu$barn   (s ≫ m_e$^{2}$)
 ```
 - DPP 主导 PP 的能区：**E > $10^{21}$–$10^{23}$ eV**（强 URB 时取较高值）。
 
-**三对产生 (TPP, e $\gamma_{\rm b}$ → e e⁺e⁻)** — 公式 19, 20：
+**三对产生 (TPP, e $\gamma_{\rm b}$ → e e$^{+}$e$^{-}$)** — 公式 19, 20：
 ```
-$\sigma_{\rm TPP}$ ≃ (3$\alpha$/(8$\pi$)) $\sigma_{\rm T}$ · (28/9 ln(s/m_e²) − 218/27)
-$\eta$ ≃ 1.768 · (s/m_e²)^(−3/4)   (s ≫ m_e²)
+$\sigma_{\rm TPP}$ ≃ (3$\alpha$/(8$\pi$)) $\sigma_{\rm T}$ · (28/9 ln(s/m_e$^{2}$) − 218/27)
+$\eta$ ≃ 1.768 · (s/m_e$^{2}$)^(−3/4)   (s ≫ m_e$^{2}$)
 ```
 - 尽管 $\sigma_{\rm TPP}$ ~ $\sigma_{\rm ICS}$ 在 E ~ $10^{17}$ eV 就已可比，但因 $\eta$ ≲ $10^{-3}$，能量衰减直到 **~$10^{22}$ eV** 才重要。
 - 主要影响：产生大量次级电子，把它们带到 UHE 以下。
@@ -177,11 +177,11 @@ $\eta$ ≃ 1.768 · (s/m_e²)^(−3/4)   (s ≫ m_e²)
 
 ### 4.4.6 其他可忽略过程 [FACT]
 
-- $\mu^{\rm +}$$\mu^{\rm -}$, $\tau^{\rm +}$$\tau^{\rm -}$, $\pi^{\rm +}$$\pi^{\rm -}$ 对产生（~比 e⁺e⁻ 小 10×）
+- $\mu^{\rm +}$$\mu^{\rm -}$, $\tau^{\rm +}$$\tau^{\rm -}$, $\pi^{\rm +}$$\pi^{\rm -}$ 对产生（~比 e$^{+}$e$^{-}$ 小 10×）
 - 双 Compton 散射（$\alpha^{3}$ 阶，UHE 下 <10%）
 - $\gamma$ $\gamma_{\rm b}$ → $\gamma$ $\gamma$（z > ~100 时才重要）
 - Bethe-Heitler 对产生
-- $\gamma$ B → e⁺e⁻（银河系强度 ~$10^{-6}$ G 需 E > ~$10^{24}$ eV；EGMF 下更高）
+- $\gamma$ B → e$^{+}$e$^{-}$（银河系强度 ~$10^{-6}$ G 需 E > ~$10^{24}$ eV；EGMF 下更高）
 
 ## 4.5 关键数值速查
 
@@ -193,7 +193,7 @@ $\eta$ ≃ 1.768 · (s/m_e²)^(−3/4)   (s ≫ m_e²)
 | PPP 质子阈值 | $~5\times10^{17}$ eV |
 | 中子衰变范围 | 0.9 Mpc (E=$10^{20}$ eV) |
 | 核光致分裂长度 ($2\times10^{20}$ eV) | ~10 Mpc (低 IRB) |
-| UHE $\gamma$ PP 阈值 | $2.6\times10^{11}$ ($\epsilon$/eV)⁻¹ eV |
+| UHE $\gamma$ PP 阈值 | $2.6\times10^{11}$ ($\epsilon$/eV)$^{-1}$ eV |
 | DPP 主导能区 | $10^{21}$–$10^{23}$ eV |
 | TPP 主导 EGMF 下限 | B_rms > $10^{-12}$ G |
 | 完全发展级联堆积能量 | ~100 GeV |

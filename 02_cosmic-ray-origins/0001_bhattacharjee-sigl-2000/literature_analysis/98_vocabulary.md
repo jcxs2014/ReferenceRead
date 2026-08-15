@@ -12,14 +12,14 @@
 |-----------|-----------|------|----------|---------------|----------|
 | 因此 | 因此 | therefore / consequently | adv. | "``` 观测事实：>10^20 eV 事件已被探测 → 传统加速模型遇到三个困难： (a) 粒子从致密源区逃出时能量损失； (b) GZK 效应限制源距离 ≲100 Mpc； (c) 本地宇宙缺乏足够强、近的源 → 因此需要两个视角： Bottom-up：改进加速/源模型（射电星系、AGN） Top-down：引入新物理（GUT 拓扑缺陷、超重粒子衰变） → 本文以 Top-down 为主（已" | 因果 |
 | 从而 | 从而 | thereby / thus | adv. | "**公式 (1) — X_max vs 能量** ``` <X_max> = X'_0 · ln(E / E_0) ``` - X'_0 = 伸长率 (elongation rate) - E_0 = 依赖初级组成的特征能量 - [FACT] 若 X_max 和 X'_0 由纵向剖面确定，则 E_0（从而组成）可以从总荧光产额反推 E 后提取。 - 地面阵列 vs 荧光技术的能量标度系统误差 ≲ 40%。" | 因果(由此) |
-| 不过 | 不过 | nevertheless / nonetheless | conj. | "- Kostelecký [333]：$\nu_{\rm e}$ 为 tachyon。 - 核内质子可衰变 p → n + e⁺ + $\nu_{\rm e}$，阈值 Eth = m(A,Z)[m(A,Z±1)+m_e−m(A,Z)]/|m_$\nu$e| - 自由质子：Eth ≃ $1.7\times10^{15}$/(|m_$\nu$e|/eV) eV。 - Ehrlich [334] 主张 m²_$\nu$e ≃ −(0.5 eV)² 可同时解释 knee 与高能端。 - [CRITIQUE] 与氚 $\beta$ 衰变实验" | 转折 |
-| 尽管 | 尽管 | despite / notwithstanding | prep./conj. | "**三对产生 (TPP, e $\gamma_{\rm b}$ → e e⁺e⁻)** — 公式 19, 20： ``` $\sigma_{\rm TPP}$ ≃ (3$\alpha$/(8$\pi$)) $\sigma_{\rm T}$ · (28/9 ln(s/m_e²) − 218/27) $\eta$ ≃ 1.768 · (s/m_e²)^(−3/4) (s ≫ m_e²) ``` - 尽管 $\sigma_{\rm TPP}$ ~ $\sigma_{\rm ICS}$ 在 E ~ $10^{17}$ eV 就已可比，但因 $\eta$ ≲ $10^{-3}$，能量衰减直到 **~$10^{22}$ eV** 才重要。 -" | 让步 |
+| 不过 | 不过 | nevertheless / nonetheless | conj. | "- Kostelecký [333]：$\nu_{\rm e}$ 为 tachyon。 - 核内质子可衰变 p → n + e$^{+}$ + $\nu_{\rm e}$，阈值 Eth = m(A,Z)[m(A,Z±1)+m_e−m(A,Z)]/|m_$\nu$e| - 自由质子：Eth ≃ $1.7\times10^{15}$/(|m_$\nu$e|/eV) eV。 - Ehrlich [334] 主张 m$^{2}$_$\nu$e ≃ −(0.5 eV)$^{2}$ 可同时解释 knee 与高能端。 - [CRITIQUE] 与氚 $\beta$ 衰变实验" | 转折 |
+| 尽管 | 尽管 | despite / notwithstanding | prep./conj. | "**三对产生 (TPP, e $\gamma_{\rm b}$ → e e$^{+}$e$^{-}$)** — 公式 19, 20： ``` $\sigma_{\rm TPP}$ ≃ (3$\alpha$/(8$\pi$)) $\sigma_{\rm T}$ · (28/9 ln(s/m_e$^{2}$) − 218/27) $\eta$ ≃ 1.768 · (s/m_e$^{2}$)^(−3/4) (s ≫ m_e$^{2}$) ``` - 尽管 $\sigma_{\rm TPP}$ ~ $\sigma_{\rm ICS}$ 在 E ~ $10^{17}$ eV 就已可比，但因 $\eta$ ≲ $10^{-3}$，能量衰减直到 **~$10^{22}$ eV** 才重要。 -" | 让步 |
 | 即使 | 即使 | even if | conj. | "- EHECR (E ≳ $10^{20}$ eV) 已被多个实验探测到 [FACT]，其起源是粒子物理与天体物理的重大难题。 - 作者把 EHECR 起源理论分为两大场景：**Bottom-up**（加速）与 **Top-down**（衰变），并明确本文以 Top-down 为主。 - 简述了 Bottom-up 面临的核心问题：即使加速能量可行，粒子也难从致密源区"逃出"（energy loss）；且本地宇宙 (<100 Mpc) 中缺乏足够" | 让步 |
 | 相反 | 相反 | conversely / in contrast | adv. | "- **Cusp**：弦上某点瞬时以光速运动 → 曲率半径极小 → Nambu-Goto action 失效。 - 具有有限宽度 w 的真实弦在 cusp 附近 → 弦段重叠 → "蒸发"为 X 粒子。 - **Kink 碰撞**也可形成 cusp（沿相反方向传播的 kinks 相撞 [424]）。" | 对比 |
-| 而 | 而 | whereas / while / and | conj. | "**关键约束**： - Z⁰ 湮灭主要由**非聚集的** RNB 主导（而非银晕内聚集的），除非新 $\nu$ 源 [204]。 - EGRET diffuse $\gamma$-ray (~10 GeV) 约束： - 若 X 粒子只衰变到 $\nu$：f_$\nu$ ≳ 20 (l_$\nu$/5 Mpc)⁻¹ - 若 L_$\gamma$ ~ L_$\nu$（多数模型）：f_$\nu$ ≳ $10^{3}$ (l_$\nu$/5 Mpc)⁻¹ - 若大部分 EM 能量在 TeV 段释放 → 可放宽 - Z-bur" | 对比/转折 |
+| 而 | 而 | whereas / while / and | conj. | "**关键约束**： - Z$^{0}$ 湮灭主要由**非聚集的** RNB 主导（而非银晕内聚集的），除非新 $\nu$ 源 [204]。 - EGRET diffuse $\gamma$-ray (~10 GeV) 约束： - 若 X 粒子只衰变到 $\nu$：f_$\nu$ ≳ 20 (l_$\nu$/5 Mpc)$^{-1}$ - 若 L_$\gamma$ ~ L_$\nu$（多数模型）：f_$\nu$ ≳ $10^{3}$ (l_$\nu$/5 Mpc)$^{-1}$ - 若大部分 EM 能量在 TeV 段释放 → 可放宽 - Z-bur" | 对比/转折 |
 | 同时 | 同时 | meanwhile / simultaneously | adv. | "**反对 AGN 核心作为 EHECR 源** [FACT, Norman et al. [13]]： - AGN 核心典型 R ~ 0.02 pc, B ~ 5 G → 公式 (49)：E_c ~ $10^{19}$ eV。 - **主要问题**：中心引擎内辐射场强烈 → 加速质子通过 photo-pion 严重衰减。 - 同时考虑加速与能量损失 → 质子或核在 **E > ~$10^{16}$ eV 无法逃出核心**。 - 中子假设也不行（中子本身也受" | 递进/顺序 |
 | 尤其 | 尤其 | in particular / notably | adv. | "- [CRITIQUE] 1999 年后，**Auger 数据**（2017 起）显示 UHECR 谱在 $~5\times10^{19}$ eV 处有明显陡化（与 GZK 一致），且 E > $5.7\times10^{19}$ eV 事件的到达方向与**近邻星团（尤其是 Centaurus A）**有显著相关。这些发展部分支持了 §5.2.1 中的射电星系/AGN 类 Bottom-up 模型。 - [CRITIQUE] Top-down 场景（§6–7）对观测约束越来越" | 举例 |
-| 最终 | 最终 | eventually | adv. | "若 SUSY 在 M_SUSY ~ 1 TeV "打开"： - parton cascade 中 squarks/gluinos 与普通 quarks/gluons 等概率参与（Q̃² > M_SUSY²）。 - 一旦 Q̃² < M_SUSY²，SUSY 粒子 decouple → 最终衰变为 LSP。 - **Berezinsky & Kachelriess [399]**：LSP 可能带走 ~40% 的 jet 总能量！ - SU" | 顺序 |
+| 最终 | 最终 | eventually | adv. | "若 SUSY 在 M_SUSY ~ 1 TeV "打开"： - parton cascade 中 squarks/gluinos 与普通 quarks/gluons 等概率参与（Q̃$^{2}$ > M_SUSY$^{2}$）。 - 一旦 Q̃$^{2}$ < M_SUSY$^{2}$，SUSY 粒子 decouple → 最终衰变为 LSP。 - **Berezinsky & Kachelriess [399]**：LSP 可能带走 ~40% 的 jet 总能量！ - SU" | 顺序 |
 | 由于 | 由于 | owing to / due to / because of | prep. | "- [FACT] **Z-burst 情景**在 IceCube 观测限制下（未发现对应 UHE 中微子）已基本被否定。 - [FACT] 加速器（LHC）未发现大额外维度（ADD），M_{4+n} >~ 5–10 TeV 对 n=2。 - [CRITIQUE] 整个 §4.3 的"奇特 EHECR 粒子"假设在 1999 年是开放问题，但 2020 年后由于 Auger 显示**最高能事件到达方向与近邻星系的关联**（如 Centau" | 因果 |
 | 即 | 即 | namely / i.e. | adv. | "- EHECR (E ≳ $10^{20}$ eV) 已被多个实验探测到 [FACT]，其起源是粒子物理与天体物理的重大难题。 - 作者把 EHECR 起源理论分为两大场景：**Bottom-up**（加速）与 **Top-down**（衰变），并明确本文以 Top-down 为主。 - 简述了 Bottom-up 面临的核心问题：即使加速能量可行，粒子也难从致密源区"逃出"（energy loss）；且本地宇宙 (<100 Mpc) 中缺乏足够" | 举例 |
 | 据 | 据 | according to / based on | prep. | "- **能量学论证**：银河系 CR 总光度 L_CR ~ $1.5\times10^{41}$ erg/s，约等于银河系超新星总动能输出的 10%，支持 SNR 是膝点以下主要源。 - **银河系 vs 河外起源**：多重证据（SMC $\gamma$ 射线、各向异性、电子成分）支持至少膝点以下 CR 为银河系起源。 - **加速机制**：两种主要机制——(1) 直接电场加速；(2) 统计 (Fermi) 加速；DSAM (Diffusive Shock Accele" | 因果 |
@@ -138,7 +138,7 @@
 ### C2.
 
 > - SCS 演化**高度不确定**（无详细数值模拟）。
-- 若采用 **OTW 场景**（L_s 常数）：ṅ_X ∝ t⁻⁴，HSW [393] 表明某些参数范围可产生可观测通量。
+- 若采用 **OTW 场景**（L_s 常数）：ṅ_X ∝ t$^{-4}$，HSW [393] 表明某些参数范围可产生可观测通量。
 - 若 L_s 随时间增长（如 dynamos 增磁）：L_s($t_{0}$) 更小 → 当前 ṅ_X 不够。
 - 若 L_s 随时间减小：早期注入能量过大 → **违反 CMB 畸变与 Big Bang 核合成** [437]。
 - 其他不确定性：

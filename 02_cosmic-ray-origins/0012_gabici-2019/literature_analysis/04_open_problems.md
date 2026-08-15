@@ -42,7 +42,7 @@ $$E_{\max} \approx Z \left(\frac{R_{\rm sh}}{3 \; {\rm pc}}\right) \left(\frac{u
 
 ## 4.2.1 [FACT] 河外 CR 在低能段的贡献
 
-**§4.2.1 宇宙普遍 CR（Brecher-Burbidge 1972）**：若 CR 宇宙均匀分布，计算 π⁰ 衰变 γ 背景：
+**§4.2.1 宇宙普遍 CR（Brecher-Burbidge 1972）**：若 CR 宇宙均匀分布，计算 $\pi^{0}$ 衰变 γ 背景：
 
 $$\Phi_\gamma \approx 2 \times 10^{-24} \; {\rm MeV^2 \; sr^{-1} \; s^{-1} \; MeV^{-1} \; H^{-1}} \times 10^{28} \; {\rm cm} \approx 2 \times 10^{-3} \; {\rm MeV^2 \; cm^{-2} \; sr^{-1} \; s^{-1} \; MeV^{-1}}$$
 
@@ -59,8 +59,8 @@ $$\Phi_\gamma \approx 2 \times 10^{-24} \; {\rm MeV^2 \; sr^{-1} \; s^{-1} \; Me
 | LiBeB / sub-Fe | 过量许多量级 | Spallation ✅ |
 | 难挥发元素 > 挥发元素 | 显著过量 | 尘埃颗粒加速 + 碎裂 |
 | Z > 2 相对 H/He | 过量 | **未解释** |
-| ²²Ne 过量 $\sim 5\times$ | 预期值 | Wolf-Rayet 风（He 燃烧产物） |
-| ⁵⁸Fe/⁵⁶Fe 增强 | 异常 | 未解释 |
+| $^{22}{\rm Ne}$ 过量 $\sim 5\times$ | 预期值 | Wolf-Rayet 风（He 燃烧产物） |
+| $^{58}{\rm Fe}$/$^{56}{\rm Fe}$ 增强 | 异常 | 未解释 |
 
 ### 4.3.2 超泡场景
 
@@ -68,10 +68,10 @@ $$\Phi_\gamma \approx 2 \times 10^{-24} \; {\rm MeV^2 \; sr^{-1} \; s^{-1} \; Me
 
 **超泡内混合 ISM** → 可解释：
 - 金属贫瘠晕星中 Be/B 丰度与金属丰度**线性**相关（非标准 ISM 下的**二次方**关系）
-- **⁶⁰Fe** 在 CR 中被发现——半衰期 $\sim 2.6$ Myr → 时间上限 $\lesssim$ few Myr → 附近近期 SN
+- **$^{60}{\rm Fe}$** 在 CR 中被发现——半衰期 $\sim 2.6$ Myr → 时间上限 $\lesssim$ few Myr → 附近近期 SN
 
-### 4.3.3 [FACT] ⁶⁰Fe 的关键意义
+### 4.3.3 [FACT] $^{60}{\rm Fe}$ 的关键意义
 
-⁶⁰Fe（β 不稳定初级 CR，半衰期 $\sim 2.6$ Myr，核心坍缩 SN 合成）→ **证据表明附近近期 SN 爆发**（$< 1$ kpc）→ **质疑许多当前 GCR 模型**。
+$^{60}{\rm Fe}$（β 不稳定初级 CR，半衰期 $\sim 2.6$ Myr，核心坍缩 SN 合成）→ **证据表明附近近期 SN 爆发**（$< 1$ kpc）→ **质疑许多当前 GCR 模型**。
 
-深海沉积物中的放射性 ⁶⁰Fe 发现支持了"附近近期 SN"。
+深海沉积物中的放射性 $^{60}{\rm Fe}$ 发现支持了"附近近期 SN"。

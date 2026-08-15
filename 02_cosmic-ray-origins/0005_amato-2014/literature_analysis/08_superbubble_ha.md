@@ -53,16 +53,16 @@
 
 **[FACT]** 关键后果（Blasi et al. 2012）：**测试粒子谱在中低能段显著变陡**（取决于 V_sh）：
 
-- V_sh > 3000 km/s → 谱回到标准 ~E⁻²；
+- V_sh > 3000 km/s → 谱回到标准 ~E$^{-2}$；
 - V_sh ~ 1000 km/s → 谱可极陡（$\gamma_{\rm e}$ ≫ 2），能量由注入能量而非粒子质量主导 → **实际无有效加速**。
 
-**[FACT]** Blasi Fig.13：V_sh 与谱斜率的关系（1、10、100、1000 GeV 粒子），密度 0.1 cm⁻³，B=10 $\mu$G，电离度 50%。
+**[FACT]** Blasi Fig.13：V_sh 与谱斜率的关系（1、10、100、1000 GeV 粒子），密度 0.1 cm$^{-3}$，B=10 $\mu$G，电离度 50%。
 
 **[FACT]** 中等程度（V_sh ~ 2000–3000 km/s）的效应：**谱被软化**——可能部分调和 NLDSA 预测的硬谱与观测的陡谱的张力。
 
 ### 8.2.4 NLDSA + 中性介质（Blasi Fig.14）
 
-**[FACT]** Blasi Fig.14（Morlino et al. 2013c）：V_sh = 4000 km/s, n=0.1 cm⁻³, p_max=50 TeV/c, $\xi_{\rm inj}$=3.5：
+**[FACT]** Blasi Fig.14（Morlino et al. 2013c）：V_sh = 4000 km/s, n=0.1 cm$^{-3}$, p_max=50 TeV/c, $\xi_{\rm inj}$=3.5：
 - 无加速（黑线）：宽线 + 窄线的基线；
 - 有加速 + 不同湍流加热 $\eta_{\rm TH}$：**宽线收窄 + 窄线展宽**；
 - **中间分量**（width few 100 km/s）在湍流加热强时显著。

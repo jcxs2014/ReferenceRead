@@ -99,13 +99,13 @@
 
 **[FACT]** 射电与 $\gamma$ 谱联合诠释约束气体密度、磁场强度、电离率，**独立于最小能量假设**（Paglione & Abrahams 2012）。
 
-**[FACT]** 射电干涉识别星暴星系遮蔽区中的单个 SN 与年轻遗迹（Arp 220：Lonsdale 2006; Parra 2007; Batejat 2011; M82: Fenech 2008; Gendre 2013）→ Arp 220 的 SN 事件率高达 **4±2 yr⁻¹**。
+**[FACT]** 射电干涉识别星暴星系遮蔽区中的单个 SN 与年轻遗迹（Arp 220：Lonsdale 2006; Parra 2007; Batejat 2011; M82: Fenech 2008; Gendre 2013）→ Arp 220 的 SN 事件率高达 **4±2 yr$^{-1}$**。
 
-**[FACT]** NGC 253 中心弱星暴 SN 率上限 <0.2 yr⁻¹（Rampadarath 2014）——可能约束那里的 $\gamma$ 射线诠释。
+**[FACT]** NGC 253 中心弱星暴 SN 率上限 <0.2 yr$^{-1}$（Rampadarath 2014）——可能约束那里的 $\gamma$ 射线诠释。
 
-**[FACT]** CR 驱动离子化学产生的活性分子离子（OH⁺、$H_{2}$O⁺、$H_{3}$O⁺）在星暴与活动星系中观测（van der Werf 2010; Aalto 2011; Rangwala 2011; Kamenetzky 2012; Spinoglio 2012; González-Alfonso 2013; Pereira-Santaella 2013）。
+**[FACT]** CR 驱动离子化学产生的活性分子离子（OH$^{+}$、$H_{2}$O$^{+}$、$H_{3}$O$^{+}$）在星暴与活动星系中观测（van der Werf 2010; Aalto 2011; Rangwala 2011; Kamenetzky 2012; Spinoglio 2012; González-Alfonso 2013; Pereira-Santaella 2013）。
 
-**[FACT]** 分子离子观测 → Arp 220 中 $\zeta_{H_{2}}^{\rm CR}$ > **$10^{-13}$ s⁻¹**（González-Alfonso 2013）——**比 CMZ 高 ~$10^{2}$ 倍**，并可示踪巨大星系风。
+**[FACT]** 分子离子观测 → Arp 220 中 $\zeta_{H_{2}}^{\rm CR}$ > **$10^{-13}$ s$^{-1}$**（González-Alfonso 2013）——**比 CMZ 高 ~$10^{2}$ 倍**，并可示踪巨大星系风。
 
 ## 8.5 §8.5 $\gamma$ Rays in Extragalactic Space
 
@@ -151,9 +151,9 @@
 | 30 Doradus 扩散长度 | 50× 短于银河 ISM |
 | M82/NGC 253 电子量热效率 | 大 |
 | 质子量热效率 | <50% |
-| Arp 220 SN 率 | 4 ± 2 yr⁻¹ |
-| NGC 253 中心 SN 率上限 | <0.2 yr⁻¹ |
-| Arp 220 $\zeta_{H_{2}}^{\rm CR}$ | >$10^{-13}$ s⁻¹ |
+| Arp 220 SN 率 | 4 ± 2 yr$^{-1}$ |
+| NGC 253 中心 SN 率上限 | <0.2 yr$^{-1}$ |
+| Arp 220 $\zeta_{H_{2}}^{\rm CR}$ | >$10^{-13}$ s$^{-1}$ |
 
 ## 8.8 潜在问题
 - **[CRITIQUE]** Cygnus X "cocoon" 起源（SNR vs 风激波 vs 再加速）尚未定；需要**该复杂、致密、高压环境的详细模型**。

@@ -27,7 +27,7 @@ title: "98. Vocabulary — Gabici et al. 2019"
 | undermine | v. | 削弱 | 破坏 | "undermined by more precise measurements" |
 | persist | v. | 持续 | 持续存在 | "several well-known problems of the paradigm persist" |
 | emerge | v. | 出现 | 出现 | "a much more complicated picture than previously thought has emerged" |
-| mandatory | adj. | 强调 | 必须的 | "it is mandatory to measure ¹⁰Be at larger energies" |
+| mandatory | adj. | 强调 | 必须的 | "it is mandatory to measure $^{10}{\rm Be}$ at larger energies" |
 
 ## B. 领域术语
 
@@ -46,10 +46,10 @@ title: "98. Vocabulary — Gabici et al. 2019"
 | GeV excess | GeV 超量 | 银心 3 GeV 处的球对称 γ 超量 | §3.3.1 |
 | Fermi bubbles | Fermi 气泡 | 银心上下各 ~10 kpc 的双泡 γ 结构 | §3.3.4 |
 | gradient problem | 梯度问题 | 观测 CR 密度梯度远小于理论预期 | §3.3.3 |
-| pion bump | π 峰 | π⁰ 衰变谱在 67.5 MeV 的峰（常被误引） | §2.5 |
-| knee | 膝区 | 能谱在 few PeV 处陡化为 E⁻³ | §4.1 |
-| ankle | 踝区 | 能谱在 ~3×10¹⁸ eV 处硬化 | §4.2 |
-| second knee | 第二膝 | ~10¹⁷ eV 处的轻微陡化 | §4.2 |
+| pion bump | π 峰 | $\pi^{0}$ 衰变谱在 67.5 MeV 的峰（常被误引） | §2.5 |
+| knee | 膝区 | 能谱在 few PeV 处陡化为 E$^{-3}$ | §4.1 |
+| ankle | 踝区 | 能谱在 ~3×10$^{18}$ eV 处硬化 | §4.2 |
+| second knee | 第二膝 | ~10$^{17}$ eV 处的轻微陡化 | §4.2 |
 | PeVatron | PeV 加速器 | 能将粒子加速至 PeV 能量的源 | §4.1 |
 | superbubble | 超泡 | OB 星团集体 SN 膨胀的大尺度空腔 | §4.2 |
 | refractory elements | 难挥发元素 | 易冷凝于尘埃颗粒的元素 | §2.3 |

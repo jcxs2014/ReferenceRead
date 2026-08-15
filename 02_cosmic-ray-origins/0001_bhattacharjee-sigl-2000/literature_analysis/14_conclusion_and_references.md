@@ -24,7 +24,7 @@
 | **新粒子 EHECR** | SUSY 粒子等与 CMB 相互作用极弱，可从宇宙学距离到达 | 必须是已知加速粒子（如质子）与介质作用的**次级**产物 → 产生 $\gamma$ 射线 → 面临观测约束 |
 | **已知粒子但新相互作用** | $\nu$ 截面在相关能区有 BSM 主导贡献（与大气作用） | 需满足 unitarity → 不能是点截面；需高 partial wave 贡献 |
 | **磁单极子 EHECR** | 银河磁场轻松加速 → 动力学 + 距离均无问题 | monopoles 太重 → 难产生相对论性空气簇射 |
-| **Z-burst** | 高能 $\nu$ + 遗迹 $\nu$ → Z⁰ 共振 → 核子/$\gamma$ | 需 $\nu$ 质量 ~eV → $\nu$ 作 hot DM；受关联 $\gamma$ 射线产生约束 |
+| **Z-burst** | 高能 $\nu$ + 遗迹 $\nu$ → Z$^{0}$ 共振 → 核子/$\gamma$ | 需 $\nu$ 质量 ~eV → $\nu$ 作 hot DM；受关联 $\gamma$ 射线产生约束 |
 | **Lorentz invariance 微小破坏** | 避开 GZK cutoff → 核子可从宇宙学距离到达 | 需精确测量谱与到达方向检验 |
 
 ### 14.1.3 Top-down 场景 [FACT]
@@ -57,8 +57,8 @@
 
 1. **Pierre Auger Observatory**：大曝光 + 组成测量 + 各向异性 → 可探测 1% 中性组分。
 2. **HiRes / Telescope Array**：荧光技术 UHECR + UHE $\nu$。
-3. **IceCube**：km³ 尺度 $\nu$ 探测。
-4. **OWL 卫星**：$10^{6}$ km² sr 曝光，duty cycle 0.08。
+3. **IceCube**：km$^{3}$ 尺度 $\nu$ 探测。
+4. **OWL 卫星**：$10^{6}$ km$^{2}$ sr 曝光，duty cycle 0.08。
 5. **GLAST (Fermi-LAT)**：探测 TD 10 MeV–GeV 级联成分。
 6. **$\gamma$ 谱精确测量**：可探测**QCD 在远超加速器能量的行为**。
 7. **EGMF 探测**：EHECR 图像（时-能-角分布）可能揭示未知的大尺度原初磁场。
