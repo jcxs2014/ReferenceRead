@@ -1,3 +1,18 @@
+---
+title: '01. INTRODUCTION (Fowler §I)'
+authors: William A. Fowler
+year: '1984'
+journal: Reviews of Modern Physics 56, 149 (1984) — Nobel Lecture
+doi: '未提供（诺贝尔特刊，版权属 THE NOBEL FOUNDATION 1984）'
+category: 恒星核合成
+chapter: §I
+sections:
+  - 'I. INTRODUCTION'
+status: completed
+read_date: '2026-08-15'
+lastread: '2026-08-15'
+path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/01_introduction.md
+---
 # 1. INTRODUCTION
 
 > 本章属于：**William A. Fowler (1984), *Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements*, Rev. Mod. Phys. 56, 149–172**
