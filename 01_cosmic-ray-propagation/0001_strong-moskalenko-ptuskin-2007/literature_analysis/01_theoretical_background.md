@@ -29,7 +29,7 @@
 - Annual Reviews 相关文章（1952–1989 年约 15 篇），涵盖重核 (1)、集体输运效应 (2)、成分 (3) 和传播 (4)
 - 基本教科书：Ginzburg & Syrovatskii 的《The Origin of Cosmic Rays》(9) 是现代宇宙线研究的奠基之作；其更新版 (8) 是基础参考
 - 其他重要书籍：Hillas (11)、Gaisser (12)、Stanev (13)（高能）、Schlickeiser (14)（理论）、Diehl et al. (15)（实验数据概览，截至 2001 年）
-- 高能（>10¹⁵ eV）宇宙线：作者明确排除，引用 (16–18) 和 (25–27)
+- 高能（>$10^{15}$ eV）宇宙线：作者明确排除，引用 (16–18) 和 (25–27)
 - 相互作用：(19)；实验与天体物理：(20)；传播与成分：(21–24)
 
 #### 两种研究方法
@@ -59,7 +59,7 @@
 - 太阳调制
 - 星系团
 - 外银河宇宙线
-- 能量高于 10¹⁵ eV 的宇宙线
+- 能量高于 $10^{15}$ eV 的宇宙线
 
 [FACT] 主要关注银河系自身，但提及来自外星系的信息（通过同步辐射）。
 
@@ -85,7 +85,7 @@
 
 [FACT] 经典的"几 g cm⁻²"穿透物质厚度是宇宙线物理学最广为人知的事实之一。
 
-[FACT] 作者认为："the diffusion model with possible inclusion of convection provides the most adequate description of CR transport in the Galaxy at energies below about 10¹⁷ eV."
+[FACT] 作者认为："the diffusion model with possible inclusion of convection provides the most adequate description of CR transport in the Galaxy at energies below about $10^{17}$ eV."
 
 ---
 

@@ -56,7 +56,7 @@
 | (81) Strong, Moskalenko & Reimer (2000) | ApJ 537:763 | 银河系磁场建模与同步辐射 |
 | (88) Moskalenko & Strong (2000) | ApJ 528:357 | 逆康普顿发射（各向异性散射） |
 | (113) Strong, Moskalenko & Reimer (2004) | ApJ 613:962 | 弥散 $\gamma$ 射线模型的核心计算（Fig. 13, 14 数据源） |
-| (144) Strong et al. (2004) | A&A 422:L47 | H₂/CO 梯度修正（Fig. 15, 16 数据源） |
+| (144) Strong et al. (2004) | A&A 422:L47 | $H_{2}$/CO 梯度修正（Fig. 15, 16 数据源） |
 | (34) Aharonian et al. (2006) | A&A 449:223 | H.E.S.S. TeV $\gamma$ 射线——SNR 起源的最新证据 |
 
 ---

@@ -34,12 +34,12 @@
 | namely | adv. | 举例 | 即 / 换句话说 | "GALPROP outputs spectra and full-sky maps, **namely** γ-rays and synchrotron, in standard astronomical formats"（§2.10.3） | 对前文的解释性展开 |
 | such as | prep. | 举例 | 例如 | "starting with the solution for the heaviest primaries **such as** ⁶⁴Ni"（§2.10.3） | 列举代表实例 |
 | e.g. | abbr. | 举例 | 例如 | "including secondaries, tertiaries, **e.g.** ¹⁰B from ¹⁰Be decay"（§2.10.3） | 举例缩写 |
-| for instance | phr. | 举例 | 例如 | "GALPROP has known limitations, **for instance** no particle trajectory calculation above 10¹⁵ eV"（§2.10.4） | 给出说明性例子 |
+| for instance | phr. | 举例 | 例如 | "GALPROP has known limitations, **for instance** no particle trajectory calculation above $10^{15}$ eV"（§2.10.4） | 给出说明性例子 |
 | likewise | adv. | 递进 | 同样地 | "NGC891 shows a non-thermal halo extending several kpc; **likewise** other edge-on galaxies confirm a large halo"（§3.8.6） | 平行递进，补充同类信息 |
 | furthermore | adv. | 递进 | 此外 | "The computing resources required by GALPROP are moderate; **furthermore**, the code is publicly available"（§2.10.4） | 补充新的论点 |
 | moreover | adv. | 递进 | 而且 | "**Moreover**, K-capture provides an independent test of reacceleration via the energy-dependent survival of ⁴⁹V and ⁵¹Cr"（§2.5.5） | 递进式补充，强化论点 |
 | overall | adv. | 结论 | 总体上 | "**Overall**, the models cannot be distinguished based on B/C and Sub-Fe/Fe data alone"（§3.1） | 给出概括性结论 |
-| in contrast | phr. | 转折(对比) | 相反 | "**In contrast**, the plain-diffusion model (D ~ E^0.54) predicts too-large anisotropy at E > 10¹⁴ eV"（§3.5.5） | 直接对比两种立场 |
+| in contrast | phr. | 转折(对比) | 相反 | "**In contrast**, the plain-diffusion model (D ~ E^0.54) predicts too-large anisotropy at E > $10^{14}$ eV"（§3.5.5） | 直接对比两种立场 |
 | alternatively | adv. | 转折(备选) | 另一种可能是 | "**Alternatively**, a large α (0.7–0.9) with injection index ≈ 2.0 has been proposed, attributing the low-energy B/C drop to convection"（§3.1.8） | 引出备选方案或对立模型 |
 | primarily | adv. | 限定 | 主要地 | "B is entirely secondary and is therefore **primarily** the reference ratio in propagation model fits"（§3.1.2） | 限定说明主要成分或原因 |
 | clearly | adv. | 结论(确认) | 明显地 | "**Clearly** the models cannot be distinguished based on these types of data alone, and they can all provide an adequate fit"（§3.1.4） | 强调论断的确定性 |
@@ -96,7 +96,7 @@
 | surviving fraction | 存活分数 | 放射性核素观测丰度与无衰变预期丰度之比，可转化为扩散系数等物理量 | §2.8 / §3.2 |
 | B/C ratio | 硼碳比 | 最主要的次级/初级比观测参考量（B 完全来自次级，测量精度好，可达 100 GeV） | §3.1 |
 | sub-Fe/Fe | 亚铁核/铁比 | 比 Fe 轻的稳定次级核与 Fe 的丰度比，是另一类传播探针 | §3.1 |
-| anisotropy | 各向异性 | CR 通量在空间上的方向性不均匀；本文测量幅度 $\delta \sim 10^{-3}$（10¹²–10¹⁴ eV） | §3.5 |
+| anisotropy | 各向异性 | CR 通量在空间上的方向性不均匀；本文测量幅度 $\delta \sim 10^{-3}$（$10^{12}$–$10^{14}$ eV） | §3.5 |
 | Compton-Getting anisotropy | 康普顿-吉廷各向异性 | 太阳系相对 ISM 运动引起的经典各向异性项，公式 $\delta_{CG} = (\gamma+2)u/c$ | §3.5 |
 | diffuse Galactic gamma rays | 弥散银河伽马射线 | CR 与 ISM（$\pi^0$ 衰变、轫致辐射、逆康普顿）相互作用产生的连续伽马射线辐射 | §3.6 |
 | $\pi^0$-decay gamma rays | 中性 $\pi$ 介子衰变伽马射线 | 质子与气体相互作用产生 $\pi^0$ 后衰变产生的伽马射线，用于探测 CR 质子分布 | §3.6 |

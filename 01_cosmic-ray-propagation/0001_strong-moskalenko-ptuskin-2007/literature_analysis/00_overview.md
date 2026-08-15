@@ -64,15 +64,15 @@ path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_a
 
 ### 原文
 
-> We survey the theory and experimental tests for the propagation of cosmic rays in the Galaxy up to energies of 10¹⁵ eV. A guide to the previous reviews and essential literature is given, followed by an exposition of basic principles. The basic ideas of cosmic-ray propagation are described, and the physical origin of its processes are explained. The various techniques for computing the observational consequences of the theory are described and contrasted. These include analytical and numerical techniques. We present the comparison of models with data including direct and indirect – especially gamma-ray – observations, and indicate what we can learn about cosmic-ray propagation. Some particular important topics including electrons and antiparticles are chosen for discussion.
+> We survey the theory and experimental tests for the propagation of cosmic rays in the Galaxy up to energies of $10^{15}$ eV. A guide to the previous reviews and essential literature is given, followed by an exposition of basic principles. The basic ideas of cosmic-ray propagation are described, and the physical origin of its processes are explained. The various techniques for computing the observational consequences of the theory are described and contrasted. These include analytical and numerical techniques. We present the comparison of models with data including direct and indirect – especially gamma-ray – observations, and indicate what we can learn about cosmic-ray propagation. Some particular important topics including electrons and antiparticles are chosen for discussion.
 
 ### 自然中文
 
-本文综述了银河系中宇宙线传播至 10¹⁵ eV 能量的理论与实验检验。首先给出了以往综述和重要文献的导览，随后阐述基本原理。介绍了宇宙线传播的基本思想及其物理起源，描述并比较了计算理论观测后果的各种方法——包括解析法和数值法。呈现了模型与数据的比较，涵盖直接观测和间接观测（尤其是伽马射线），并指出我们能从中学到关于宇宙线传播的什么知识。选取电子和反物质等若干重要专题进行讨论。
+本文综述了银河系中宇宙线传播至 $10^{15}$ eV 能量的理论与实验检验。首先给出了以往综述和重要文献的导览，随后阐述基本原理。介绍了宇宙线传播的基本思想及其物理起源，描述并比较了计算理论观测后果的各种方法——包括解析法和数值法。呈现了模型与数据的比较，涵盖直接观测和间接观测（尤其是伽马射线），并指出我们能从中学到关于宇宙线传播的什么知识。选取电子和反物质等若干重要专题进行讨论。
 
 ### 关键词与要点
 
-- **能量上限**：10¹⁵ eV（"膝"区，作者明确排除高于此能量的宇宙线）
+- **能量上限**：$10^{15}$ eV（"膝"区，作者明确排除高于此能量的宇宙线）
 - **直接观测**：气球/卫星直接探测到的粒子
 - **间接观测**：通过伽马射线和同步辐射
 - **核心方法对比**：解析法 vs. 数值法（作者倾向数值法）
