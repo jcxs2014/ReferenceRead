@@ -13,8 +13,8 @@
 | nevertheless | adv. | 让步 | 尽管如此 | "Nevertheless, we do provide an abbreviated summary..." |
 | whereas | conj. | 对比 | 而 | "whereas v refers to the velocity in the laboratory frame" |
 | thereby | adv. | 因果(由此) | 从而 | "thereby accelerating particles by the first-order Fermi process" |
-| hence | adv. | 因果 | 因此 | "henceforth θ_Bn is less than ~45°" |
-| if | conj. | 条件 | 如果 | "If the fractional energy increase on passing through the strong shock were ε ~ 10⁻¹..." |
+| hence | adv. | 因果 | 因此 | "henceforth $\theta$_Bn is less than ~45°" |
+| if | conj. | 条件 | 如果 | "If the fractional energy increase on passing through the strong shock were $\epsilon$ ~ $10^{-1}$..." |
 | where | adv. | 定义/限定 | 其中 | "where R is the radius of the blast wave and t is the age" |
 | which | pron. | 关系从句 | 即/它 | "which are believed to be collisionless shocks in the interstellar medium" |
 | e.g. | prep. | 举例 | 例如 | "e.g., Wentzel 1964; Hudson 1965" |

@@ -7,16 +7,16 @@
 |------|------|----------|------|----------|----------|
 | however | adv. | 转折 | 然而 | "However, cosmic ray physicists have found it more difficult to identify specific acceleration mechanisms." | 承认加速事实已知，转折指出机制未知 |
 | consequently | adv. | 因果(结果) | 因此 | "acceleration in strong shocks is consequently an attractive possibility" | 幂律谱的普适性 → 需要普适机制 |
-| thus | adv. | 因果(结论) | 因此 | "Thus if, on average, the fractional energy increase ... were ε ~ 10⁻¹..." | 由能量密度和体积推出可行性 |
+| thus | adv. | 因果(结论) | 因此 | "Thus if, on average, the fractional energy increase ... were $\epsilon$ ~ $10^{-1}$..." | 由能量密度和体积推出可行性 |
 | nevertheless | adv. | 让步(然而) | 尽管如此 | "Nevertheless, we can demonstrate that SNRs are energetically capable..." | 承认谱指数偏差，但能量可行性仍成立 |
 | whereas | conj. | 对比 | 而 | "quite unlike the situation in the Galaxy, whereas in extragalactic..." | 对比银河系和河外射电源 |
 | thereby | adv. | 因果(由此) | 从而 | "...scattered by Alfvén waves ... thereby accelerated by the first-order Fermi process" | 散射 → 加速 的因果链 |
 | hence | adv. | 因果(因此) | 因此 | "a general mechanism is at work, and ... hence acceleration in strong shocks" | 普适谱 → 激波加速为候选 |
 | although | conj. | 让步 | 尽管 | "although most particles will be accelerated when the shock starts to become Alfvénic..." | 承认效率降低，但给出修正 |
-| consequently | adv. | 因果 | 因此 | "the energy input rate is ... consequently giving an acceleration time of 10⁶ years" | 能量注入率 → 加速时间 |
-| if | conj. | 条件 | 如果 | "if, on average, the fractional energy increase ... were ε ~ 10⁻¹" | 设定假设推出结论 |
+| consequently | adv. | 因果 | 因此 | "the energy input rate is ... consequently giving an acceleration time of $10^{6}$ years" | 能量注入率 → 加速时间 |
+| if | conj. | 条件 | 如果 | "if, on average, the fractional energy increase ... were $\epsilon$ ~ $10^{-1}$" | 设定假设推出结论 |
 | so that | conj. | 结果 | 使得 | "so that they can be accelerated by the Fermi (1949) method" | 散射条件 → 可加速 |
-| where | adv. | 定义/限定 | 其中 | "where K = D∥ cos²θ" | 定义参数 K |
+| where | adv. | 定义/限定 | 其中 | "where K = D∥ cos²$\theta$" | 定义参数 K |
 | which | pron. | 关系从句 | 即/它 | "which is more than sufficient to account for the known energy input requirements" | 指代能量注入量，评价其充分性 |
 | for | prep. | 举例 | 例如 | "e.g., Wentzel 1964; Hudson 1965..." | 列举历史文献 |
 | in this view | adv. | 框架引入 | 在这种观点下 | "in this view, high energy particles are a natural by-product" | 引入理论框架 |

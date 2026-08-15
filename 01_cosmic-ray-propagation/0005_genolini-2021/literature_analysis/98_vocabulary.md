@@ -13,7 +13,7 @@
 | accordingly | adv. | 因果 | 相应地 | "accordingly, the escape time decreases with increasing energy" |
 | whereas | conj. | 对比 | 而 | "whereas MIN and MAX were respectively minimizing and maximizing the antiproton signal" |
 | hence | adv. | 因果 | 因此 | "hence the DM density profile is crucial in determining the flux" |
-| namely | conj. | 解释 | 即 | "namely L, δ, K0, Rl, and ℓ" |
+| namely | conj. | 解释 | 即 | "namely L, $\delta$, K0, Rl, and ℓ" |
 | given | prep. | 条件 | 鉴于 | "given that these authors introduced three benchmark sets" |
 | despite | prep. | 让步 | 尽管 | "despite potential issues on sub-galactic scales" |
 | in contrast | adv. | 对比 | 相反 | "In contrast to the previous MIN-MED-MAX benchmarks, we now account for the constraints on the diffusive halo size L" |

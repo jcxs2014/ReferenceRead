@@ -23,12 +23,12 @@
 |------|------|------|-------------|
 | galactic halo size | 银河晕大小 | CR 扩散区域的垂直半高 $L$ | §1 |
 | CR clock | 宇宙线时钟 | 放射性同位素的衰变作为传播时间的时钟 | §3 |
-| radioactive isotope | 放射性同位素 | 半衰期 $< 10^7$ yr 的不稳定核素（如 ¹⁰Be）| §3 |
-| Boron-10 (¹⁰Be) | 硼-10 | 半衰期 1.387 Myr 的放射性同位素——CR 时钟的标准 | §3 |
+| radioactive isotope | 放射性同位素 | 半衰期 $< 10^7$ yr 的不稳定核素（如 $^{10}{\rm Be}$）| §3 |
+| Boron-10 ($^{10}{\rm Be}$) | 硼-10 | 半衰期 1.387 Myr 的放射性同位素——CR 时钟的标准 | §3 |
 | B/C ratio | 硼/碳比率 | 最常用的二级/一级比率——传播参数的强约束 | §1 |
-| Be/B ratio | 铍/硼比率 | ¹⁰Be 衰变贡献的二级比率——对 $L$ 敏感 | §3 |
-| ¹⁰Be/⁹Be ratio | 硼-10/硼-9 比率 | 直接测量 ¹⁰Be 丰度的同位素比率 | §3 |
-| ¹⁰Be/Be ratio | 硼-10/硼比率 | 直接测量 ¹⁰Be 丰度的同位素比率 | §3 |
+| Be/B ratio | 铍/硼比率 | $^{10}{\rm Be}$ 衰变贡献的二级比率——对 $L$ 敏感 | §3 |
+| $^{10}{\rm Be}$/$^{9}{\rm Be}$ ratio | 硼-10/硼-9 比率 | 直接测量 $^{10}{\rm Be}$ 丰度的同位素比率 | §3 |
+| $^{10}{\rm Be}$/Be ratio | 硼-10/硼比率 | 直接测量 $^{10}{\rm Be}$ 丰度的同位素比率 | §3 |
 | $K_0/L$ degeneracy | 扩散系数/晕高简并 | B/C 只约束比值 $K_0/L$，对两者单独不敏感 | §1 |
 | BIG configuration | BIG 配置 | 7 参数传播方案（含对流+再加速+断裂）| §2 |
 | SLIM configuration | SLIM 配置 | 5 参数简化方案（$V_c=V_A=0$）| §2 |
@@ -46,14 +46,14 @@
 
 ## C. 长难句摘录
 
-### C1. §1（¹⁰Be 时钟的核心句）
+### C1. §1（$^{10}{\rm Be}$ 时钟的核心句）
 
 > "Radioactive secondary species whose lifetime is shorter than the propagation time scale can break the degeneracy between the diffusion coefficient normalisation and the halo size of the Galaxy."
 
-**主干**：Radioactive species + can break + the degeneracy + between + K₀ and L
+**主干**：Radioactive species + can break + the degeneracy + between + $K_{0}$ and L
 **修饰**：whose lifetime...（定语从句），the propagation time scale（比较对象），between...and（结构）
 **翻译**：寿命短于传播时间尺度的放射性二级同位素可以打破扩散系数归一化和银河晕大小之间的简并。
-**逻辑功能**：本文方法论的核心洞察——用 ¹⁰Be 衰变打破 $K_0/L$ 简并。
+**逻辑功能**：本文方法论的核心洞察——用 $^{10}{\rm Be}$ 衰变打破 $K_0/L$ 简并。
 
 ### C2. §3（晕大小的直接约束句）
 

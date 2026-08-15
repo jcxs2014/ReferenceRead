@@ -82,15 +82,21 @@ def restore_math(text: str, placeholders: list[str]) -> str:
     return text
 
 def in_frontmatter(text: str) -> list[bool]:
-    res = [False] * len(text.split('\n'))
     lines = text.split('\n')
-    in_fm = False
-    for i, line in enumerate(lines):
-        if i == 0 and line.strip() == '---':
-            in_fm = True
-        elif in_fm and line.strip() == '---':
-            in_fm = False
-        res[i] = in_fm
+    res = [False] * len(lines)
+    # 仅当首行是 '---' 且其后（前 60 行内）存在闭合 '---' 时才视为 frontmatter。
+    # 否则（如正文顶部的装饰性 '---' 无闭合）整体按正文处理，避免误跳过全部转换。
+    if not lines or lines[0].strip() != '---':
+        return res
+    close = None
+    for j in range(1, min(len(lines), 60)):
+        if lines[j].strip() == '---':
+            close = j
+            break
+    if close is None:
+        return res
+    for i in range(close + 1):
+        res[i] = True
     return res
 
 def convert_round1(text: str, audit: list[str]) -> str:

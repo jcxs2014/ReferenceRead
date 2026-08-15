@@ -1,0 +1,243 @@
+38	> - `../0001_b2fh-1957/` (B²FH 1957 核合成框架 — 本文丰度表的理论背景与核过程分类来源 [FACT])	> - `../0001_b2fh-1957/` (B$^2$FH 1957 核合成框架 — 本文丰度表的理论背景与核过程分类来源 [FACT])	R2 核素/希腊字母/单位
+78	[FACT] 本文是**Suess-Urey 1956 表的继承者**和**B²FH (1957) 核合成理论的丰度基准**;其内部又给出了 Cameron (1963) 未发表版与 Cameron (1967) 最新版的对照 (Table 1)。	[FACT] 本文是**Suess-Urey 1956 表的继承者**和**B$^2$FH (1957) 核合成理论的丰度基准**;其内部又给出了 Cameron (1963) 未发表版与 Cameron (1967) 最新版的对照 (Table 1)。	R2 核素/希腊字母/单位
+92	B²FH (1957) Rev. Mod. Phys. 29, 547	B$^2$FH (1957) Rev. Mod. Phys. 29, 547	R2 核素/希腊字母/单位
+104	[CRITIQUE] 本文是"过渡期"丰度表: 它仍然用 Si = $10^{6}$ 作为归一化基准(而非现代 log ε_H = 12 标度); 表 1 中给出的元素丰度以"相对 Si = $10^{6}$ 的数密度"给出, 数量级与 Anders & Grevesse 1989 表可作直接对照,但不应直接引用到现代数值工作。	[CRITIQUE] 本文是"过渡期"丰度表: 它仍然用 Si = $10^{6}$ 作为归一化基准(而非现代 log $\epsilon$_H = 12 标度); 表 1 中给出的元素丰度以"相对 Si = $10^{6}$ 的数密度"给出, 数量级与 Anders & Grevesse 1989 表可作直接对照,但不应直接引用到现代数值工作。	R2 核素/希腊字母/单位
+117	├── §1  Historical Context — Suess-Urey 1956 → B²FH → Cameron 1959 (pp.126–127)	├── §1  Historical Context — Suess-Urey 1956 → B$^2$FH → Cameron 1959 (pp.126–127)	R2 核素/希腊字母/单位
+119	│     ├── B²FH (1957) & Cameron (1957) 的核过程识别 [FACT]	│     ├── B$^2$FH (1957) & Cameron (1957) 的核过程识别 [FACT]	R2 核素/希腊字母/单位
+148	│     ├── σ_N = ⟨σ_ν⟩ × N 是光滑单调递减函数 (Seeger, Fowler, Clayton 1965) [FACT]	│     ├── $\sigma$_N = ⟨$\sigma$_$\nu$⟩ × N 是光滑单调递减函数 (Seeger, Fowler, Clayton 1965) [FACT]	R2 核素/希腊字母/单位
+152	│     ├── F 趋势光滑 → 存在丰度平滑机制 (多 Z 贡献或 β-衰变后的中子发射) [FACT]	│     ├── F 趋势光滑 → 存在丰度平滑机制 (多 Z 贡献或 $\beta$-衰变后的中子发射) [FACT]	R2 核素/希腊字母/单位
+153	│     ├── F 过程须"骤然终止",否则 β 衰变会破坏分布 [FACT]	│     ├── F 过程须"骤然终止",否则 $\beta$ 衰变会破坏分布 [FACT]	R2 核素/希腊字母/单位
+156	│     ├── 可能机制: 超新星激波穿越 He 壳层, (α,n) 反应作中子源 [FACT]	│     ├── 可能机制: 超新星激波穿越 He 壳层, ($\alpha$,n) 反应作中子源 [FACT]	R2 核素/希腊字母/单位
+189	- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B²FH 1957 核合成框架，本文丰度表的理论骨架	- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B$^2$FH 1957 核合成框架，本文丰度表的理论骨架	R2 核素/希腊字母/单位
+223	| **F** (fast) | 快速时间尺度中子俘获主产物 | r-process (B²FH 1957) |	| **F** (fast) | 快速时间尺度中子俘获主产物 | r-process (B$^2$FH 1957) |	R2 核素/希腊字母/单位
+224	| **S** (slow) | 慢速时间尺度中子俘获主产物 | s-process (B²FH 1957) |	| **S** (slow) | 慢速时间尺度中子俘获主产物 | s-process (B$^2$FH 1957) |	R2 核素/希腊字母/单位
+225	| **B** (bypassed) | 被中子俘获过程绕过的核素 | p-process (B²FH 1957) |	| **B** (bypassed) | 被中子俘获过程绕过的核素 | p-process (B$^2$FH 1957) |	R2 核素/希腊字母/单位
+286	| Pb-206 | 206 | — | 0.057 | α-衰变链(已作放射性回推) |	| Pb-206 | 206 | — | 0.057 | $\alpha$-衰变链(已作放射性回推) |	R2 核素/希腊字母/单位
+315	- S 同量异位素趋势: 相对光滑但局部有散布 —— 因为 σ_N = ⟨σ_ν⟩ × N 是光滑单调递减函数 (Seeger, Fowler, Clayton 1965)	- S 同量异位素趋势: 相对光滑但局部有散布 —— 因为 $\sigma$_N = ⟨$\sigma$_$\nu$⟩ × N 是光滑单调递减函数 (Seeger, Fowler, Clayton 1965)	R2 核素/希腊字母/单位
+327	3. **理论约束内插**: 8 元素内插基于 r/s/p 三分法预言的核素分布规律,这是**"以理论导数据"**的首次系统实践——B²FH 理论反过来塑造了观测表。	3. **理论约束内插**: 8 元素内插基于 r/s/p 三分法预言的核素分布规律,这是**"以理论导数据"**的首次系统实践——B$^2$FH 理论反过来塑造了观测表。	R2 核素/希腊字母/单位
+335	[INTERPRETATION] Cameron 1968 表是"丰度—核合成"双反馈范式的关键节点: 它既给 B²FH 提供了定量基准(用于检验理论),又被 B²FH 的理论判据所塑造(8 元素内插)。这个互锁结构是 1950–1970 年代核天体物理的核心方法论特征。	[INTERPRETATION] Cameron 1968 表是"丰度—核合成"双反馈范式的关键节点: 它既给 B$^2$FH 提供了定量基准(用于检验理论),又被 B$^2$FH 的理论判据所塑造(8 元素内插)。这个互锁结构是 1950–1970 年代核天体物理的核心方法论特征。	R2 核素/希腊字母/单位
+31	- **追溯因果**: Suess-Urey 表是 B²FH 1957 与 Cameron 1957 得以建立的前置条件	- **追溯因果**: Suess-Urey 表是 B$^2$FH 1957 与 Cameron 1957 得以建立的前置条件	R2 核素/希腊字母/单位
+50	[INTERPRETATION] 三大预言的物理根源 (来自 B²FH 1957 与 Cameron 1959):	[INTERPRETATION] 三大预言的物理根源 (来自 B$^2$FH 1957 与 Cameron 1959):	R2 核素/希腊字母/单位
+117	- 此外 U/Th 的 α-衰变链终产物是 Pb-206 / Pb-207 / Pb-208,因此**放射性成因 Pb** 贡献了太阳系 Pb 的相当一部分	- 此外 U/Th 的 $\alpha$-衰变链终产物是 Pb-206 / Pb-207 / Pb-208,因此**放射性成因 Pb** 贡献了太阳系 Pb 的相当一部分	R2 核素/希腊字母/单位
+185	[FACT] 摘录 3 — 追溯 B²FH 的起源 (p.126):	[FACT] 摘录 3 — 追溯 B$^2$FH 的起源 (p.126):	R2 核素/希腊字母/单位
+7	# 3. 对 B²FH 核合成框架的含义 (Nucleosynthesis Implications)	# 3. 对 B$^2$FH 核合成框架的含义 (Nucleosynthesis Implications)	R2 核素/希腊字母/单位
+35	3. s 产物应满足 σ_N = 常数 (Seeger, Fowler, Clayton 1965)	3. s 产物应满足 $\sigma$_N = 常数 (Seeger, Fowler, Clayton 1965)	R2 核素/希腊字母/单位
+44	## 3.2 Figure 6 三曲线与 σ_N 判据	## 3.2 Figure 6 三曲线与 $\sigma$_N 判据	R2 核素/希腊字母/单位
+48	> "One of the striking features of the abundance distribution of the products of neutron capture on a slow time scale is the fact that **σ_N, the product of the average neutron capture cross-section near 25 keV and the abundance, is a smooth monotonically decreasing function of mass number** (Seeger, Fowler and Clayton, 1965)."	> "One of the striking features of the abundance distribution of the products of neutron capture on a slow time scale is the fact that **$\sigma$_N, the product of the average neutron capture cross-section near 25 keV and the abundance, is a smooth monotonically decreasing function of mass number** (Seeger, Fowler and Clayton, 1965)."	R2 核素/希腊字母/单位
+60	1. **s-process** 在中子通量低时,每次中子俘获后核素在 β-衰变前处于稳态,故丰度与中子俘获截面成反比: N_s ∝ 1/σ_ν	1. **s-process** 在中子通量低时,每次中子俘获后核素在 $\beta$-衰变前处于稳态,故丰度与中子俘获截面成反比: N_s ∝ 1/$\sigma$_$\nu$	R2 核素/希腊字母/单位
+61	2. 因此 σ_ν × N_s = 常数(对给定分支),随 A 平滑下降	2. 因此 $\sigma$_$\nu$ × N_s = 常数(对给定分支),随 A 平滑下降	R2 核素/希腊字母/单位
+62	3. **r-process** 在中子通量极高时,核素在 β-衰变前多次俘获中子,达到"等待点"(waiting point),丰度主要由等待点的 β-衰变半衰期决定,与中子俘获截面**无关**	3. **r-process** 在中子通量极高时,核素在 $\beta$-衰变前多次俘获中子,达到"等待点"(waiting point),丰度主要由等待点的 $\beta$-衰变半衰期决定,与中子俘获截面**无关**	R2 核素/希腊字母/单位
+66	[CRITIQUE] 现代核物理已经测得了数千个中子俘获截面数据,σ_N 判据在 Seeger, Fowler, Clayton (1965) 之后被 Wallerstein et al. (1997, §0004) 系统完善。Cameron 1968 的 Figure 6 是这一判据的最早视觉化呈现。	[CRITIQUE] 现代核物理已经测得了数千个中子俘获截面数据,$\sigma$_N 判据在 Seeger, Fowler, Clayton (1965) 之后被 Wallerstein et al. (1997, §0004) 系统完善。Cameron 1968 的 Figure 6 是这一判据的最早视觉化呈现。	R2 核素/希腊字母/单位
+83	- 在相同质量数 A 附近,多个不同 Z 的丰中子核素通过 β-衰变链汇聚到同一稳定核素	- 在相同质量数 A 附近,多个不同 Z 的丰中子核素通过 $\beta$-衰变链汇聚到同一稳定核素	R2 核素/希腊字母/单位
+86	**机制 B — 高能量 β-衰变后的中子发射**:	**机制 B — 高能量 $\beta$-衰变后的中子发射**:	R2 核素/希腊字母/单位
+87	- r-process 等待点的丰中子核素 β-衰变时释放高能量,足以激发出中子 (β-delayed neutron emission)	- r-process 等待点的丰中子核素 $\beta$-衰变时释放高能量,足以激发出中子 ($\beta$-delayed neutron emission)	R2 核素/希腊字母/单位
+88	- 相当于每次 β-衰变都"重置"了中子数,使得最终产物对中子俘获路径的截面依赖被抹平	- 相当于每次 $\beta$-衰变都"重置"了中子数,使得最终产物对中子俘获路径的截面依赖被抹平	R2 核素/希腊字母/单位
+91	- 若中子流缓慢衰减,等待点会 β-衰变多次,每次衰变都会暴露出截面的局部涨落	- 若中子流缓慢衰减,等待点会 $\beta$-衰变多次,每次衰变都会暴露出截面的局部涨落	R2 核素/希腊字母/单位
+110	> "This suggests that there must be a **very different fast time scale process** in which a burst of neutrons can be produced and added to **pre-existing intermediate elements**. One possibility for producing this situation is the **passage of a supernova shock wave through the helium shell** in the presupernova structure, where **rapid (α,η) reactions may be an effective neutron source**."	> "This suggests that there must be a **very different fast time scale process** in which a burst of neutrons can be produced and added to **pre-existing intermediate elements**. One possibility for producing this situation is the **passage of a supernova shock wave through the helium shell** in the presupernova structure, where **rapid ($\alpha$,$\eta$) reactions may be an effective neutron source**."	R2 核素/希腊字母/单位
+117	| **i-process (intermediate)** | A ≈ 40, 70 | 中等元素 + 中子爆发, (α,n) 反应 | 超新星激波穿过 He 壳层 |	| **i-process (intermediate)** | A ≈ 40, 70 | 中等元素 + 中子爆发, ($\alpha$,n) 反应 | 超新星激波穿过 He 壳层 |	R2 核素/希腊字母/单位
+131	- **光致蜕变 (photodisintegration)**: 超新星激波穿越**贫氢区**(其中 (α,n) 反应无法大量产生中子),高能光子剥离已有核的中子和质子 [FACT]	- **光致蜕变 (photodisintegration)**: 超新星激波穿越**贫氢区**(其中 ($\alpha$,n) 反应无法大量产生中子),高能光子剥离已有核的中子和质子 [FACT]	R2 核素/希腊字母/单位
+157	[CRITIQUE] 现代观点(Wallerstein et al. 1997) 认为 p 产物主要来源于**光致蜕变 (γ-process)**,而非纯质子俘获。Cameron 1968 的质子俘获解释部分正确,但 γ-process 的贡献被低估。然而,Cameron 提出的丰度分布诊断方法(p 产物应随 Z 单调下降)仍然有效。	[CRITIQUE] 现代观点(Wallerstein et al. 1997) 认为 p 产物主要来源于**光致蜕变 ($\gamma$-process)**,而非纯质子俘获。Cameron 1968 的质子俘获解释部分正确,但 $\gamma$-process 的贡献被低估。然而,Cameron 提出的丰度分布诊断方法(p 产物应随 Z 单调下降)仍然有效。	R2 核素/希腊字母/单位
+179	## 3.7 对 B²FH 1957 框架的总体约束总结	## 3.7 对 B$^2$FH 1957 框架的总体约束总结	R2 核素/希腊字母/单位
+181	[INTERPRETATION] Cameron 1968 丰度表对 B²FH 1957 框架给出的**八项定量约束**:	[INTERPRETATION] Cameron 1968 丰度表对 B$^2$FH 1957 框架给出的**八项定量约束**:	R2 核素/希腊字母/单位
+185	3. **σ_N 判据** — s 产物满足 Seeger-Fowler-Clayton 平滑判据 [FACT]	3. **$\sigma$_N 判据** — s 产物满足 Seeger-Fowler-Clayton 平滑判据 [FACT]	R2 核素/希腊字母/单位
+189	7. **中等质量 r 产物过大** — 需额外 i-process 通道 (He 壳层 α,n) [FACT]	7. **中等质量 r 产物过大** — 需额外 i-process 通道 (He 壳层 $\alpha$,n) [FACT]	R2 核素/希腊字母/单位
+194	- 第 8 项:现代观点主张 γ-process 而非纯质子俘获为主机制 [FACT]	- 第 8 项:现代观点主张 $\gamma$-process 而非纯质子俘获为主机制 [FACT]	R2 核素/希腊字母/单位
+52	| r-process (fast time scale) | 快中子俘获过程 | 中子通量极高、中子俘获远快于 β-衰变的核合成通道;产生奇偶比低的丰中子产物;在 A=130, 195 处有闭壳峰 | §4 (Table 2 Class F) |	| r-process (fast time scale) | 快中子俘获过程 | 中子通量极高、中子俘获远快于 $\beta$-衰变的核合成通道;产生奇偶比低的丰中子产物;在 A=130, 195 处有闭壳峰 | §4 (Table 2 Class F) |	R2 核素/希腊字母/单位
+53	| s-process (slow time scale) | 慢中子俘获过程 | 中子通量较低、每次俘获后有充分时间 β-衰变的核合成通道;σ_N = 常数 判据成立 | §4 (Table 2 Class S) |	| s-process (slow time scale) | 慢中子俘获过程 | 中子通量较低、每次俘获后有充分时间 $\beta$-衰变的核合成通道;$\sigma$_N = 常数 判据成立 | §4 (Table 2 Class S) |	R2 核素/希腊字母/单位
+54	| p-process (bypassed nuclei) | 质子俘获/光致蜕变过程 | 产生质子富集稳定核素(B isobar)的过程;本文推断以质子俘获为主,但现代观点主张 γ-process | §4 (Table 2 Class B) |	| p-process (bypassed nuclei) | 质子俘获/光致蜕变过程 | 产生质子富集稳定核素(B isobar)的过程;本文推断以质子俘获为主,但现代观点主张 $\gamma$-process | §4 (Table 2 Class B) |	R2 核素/希腊字母/单位
+58	| σ_N | 截面-丰度乘积 | σ_N = ⟨σ_ν⟩ × N,在 s-process 中是质量数 A 的光滑单调递减函数;由 Seeger, Fowler & Clayton (1965) 建立 | §8 |	| $\sigma$_N | 截面-丰度乘积 | $\sigma$_N = ⟨$\sigma$_$\nu$⟩ × N,在 s-process 中是质量数 A 的光滑单调递减函数;由 Seeger, Fowler & Clayton (1965) 建立 | §8 |	R2 核素/希腊字母/单位
+60	| waiting point | 等待点 | r-process 中在丰中子区 β-衰变半衰期较长的核素,中子流在此"等待"衰变 | §9 (隐含) |	| waiting point | 等待点 | r-process 中在丰中子区 $\beta$-衰变半衰期较长的核素,中子流在此"等待"衰变 | §9 (隐含) |	R2 核素/希腊字母/单位
+61	| β-delayed neutron emission | β 延迟中子发射 | 高能量 β-衰变激发出中子;Cameron 提出此为 r 产物丰度平滑机制之一 | §9 |	| $\beta$-delayed neutron emission | $\beta$ 延迟中子发射 | 高能量 $\beta$-衰变激发出中子;Cameron 提出此为 r 产物丰度平滑机制之一 | §9 |	R2 核素/希腊字母/单位
+62	| (α,n) reaction | (α,n) 反应 | α 粒子被核俘获并放出中子的反应;Cameron 提出此为 i-process 中子源 | §9 |	| ($\alpha$,n) reaction | ($\alpha$,n) 反应 | $\alpha$ 粒子被核俘获并放出中子的反应;Cameron 提出此为 i-process 中子源 | §9 |	R2 核素/希腊字母/单位
+66	| photo-disintegration | 光致蜕变 | 高能光子剥离核内中子或质子的反应;现代 p-process 的主要机制(γ-process) | §9 |	| photo-disintegration | 光致蜕变 | 高能光子剥离核内中子或质子的反应;现代 p-process 的主要机制($\gamma$-process) | §9 |	R2 核素/希腊字母/单位
+72	| B²FH (Burbidge-Burbidge-Fowler-Hoyle 1957) | B²FH 论文 | 提出 r/s/p 三分法核合成框架的奠基论文;本文 Class 分类直接引用 | §1 |	| B$^2$FH (Burbidge-Burbidge-Fowler-Hoyle 1957) | B$^2$FH 论文 | 提出 r/s/p 三分法核合成框架的奠基论文;本文 Class 分类直接引用 | §1 |	R2 核素/希腊字母/单位
+115	- "frequent neutron emission following the high-energy beta decays of the neutron-rich final products" 机制 B: 富中子终产物的 β-衰变引发中子发射	- "frequent neutron emission following the high-energy beta decays of the neutron-rich final products" 机制 B: 富中子终产物的 $\beta$-衰变引发中子发射	R2 核素/希腊字母/单位
+116	- **翻译**: 丰度平滑过程必定在起作用,要么通过多个原子序数 Z 对同一质量数的贡献,要么通过俘获过程的丰中子终产物的高能 β-衰变后的频繁中子发射。	- **翻译**: 丰度平滑过程必定在起作用,要么通过多个原子序数 Z 对同一质量数的贡献,要么通过俘获过程的丰中子终产物的高能 $\beta$-衰变后的频繁中子发射。	R2 核素/希腊字母/单位
+120	> "This suggests that there must be a very different fast time scale process in which a burst of neutrons can be produced and added to pre-existing intermediate elements. One possibility for producing this situation is the passage of a supernova shock wave through the helium shell in the presupernova structure, where rapid (α,n) reactions may be an effective neutron source."	> "This suggests that there must be a very different fast time scale process in which a burst of neutrons can be produced and added to pre-existing intermediate elements. One possibility for producing this situation is the passage of a supernova shock wave through the helium shell in the presupernova structure, where rapid ($\alpha$,n) reactions may be an effective neutron source."	R2 核素/希腊字母/单位
+127	- "where rapid (α,η) reactions may be an effective neutron source" 关系从句进一步限定环境	- "where rapid ($\alpha$,$\eta$) reactions may be an effective neutron source" 关系从句进一步限定环境	R2 核素/希腊字母/单位
+128	- **翻译**: 这暗示必然存在一种截然不同的快时间尺度过程,在其中能产生中子爆发并加到已存在的中等质量元素上。实现这一情景的一种可能是:超新星激波穿越前超新星结构中的氦壳层,其中快速的 (α,n) 反应可作为有效的中子源。	- **翻译**: 这暗示必然存在一种截然不同的快时间尺度过程,在其中能产生中子爆发并加到已存在的中等质量元素上。实现这一情景的一种可能是:超新星激波穿越前超新星结构中的氦壳层,其中快速的 ($\alpha$,n) 反应可作为有效的中子源。	R2 核素/希腊字母/单位
+34	Cameron (1968) 以 Type I 碳质球粒陨石为主数据源、以核合成理论判据为内插依据,编纂了太阳/宇宙元素丰度的新基准表,首次将 B²FH (1957) 的 r/s/p 三分法反向输回到观测数据汇编中,并以此验证了 Suess-Urey 1956 表之后的 Sr/Zr 反转、稀土修正、Pb 增大三项预言。	Cameron (1968) 以 Type I 碳质球粒陨石为主数据源、以核合成理论判据为内插依据,编纂了太阳/宇宙元素丰度的新基准表,首次将 B$^2$FH (1957) 的 r/s/p 三分法反向输回到观测数据汇编中,并以此验证了 Suess-Urey 1956 表之后的 Sr/Zr 反转、稀土修正、Pb 增大三项预言。	R2 核素/希腊字母/单位
+44	5. **Table 2 Class 分类**: F(r-process)/S(s-process)/B(p-process) — B²FH 1957 分类的直接应用 [FACT]	5. **Table 2 Class 分类**: F(r-process)/S(s-process)/B(p-process) — B$^2$FH 1957 分类的直接应用 [FACT]	R2 核素/希腊字母/单位
+46	7. **σ_N 判据**: s-process 中 ⟨σ_ν⟩×N 是 A 的光滑单调递减函数(Seeger, Fowler, Clayton 1965) [FACT]	7. **$\sigma$_N 判据**: s-process 中 ⟨$\sigma$_$\nu$⟩×N 是 A 的光滑单调递减函数(Seeger, Fowler, Clayton 1965) [FACT]	R2 核素/希腊字母/单位
+49	10. **i-process 的提出**: 中等质量(A≈40, 70)r 产物过大,需 He 壳层 (α,n) 反应作中子源 [FACT]	10. **i-process 的提出**: 中等质量(A≈40, 70)r 产物过大,需 He 壳层 ($\alpha$,n) 反应作中子源 [FACT]	R2 核素/希腊字母/单位
+50	11. **p-process 机制判据**: Figure 6 中 B 曲线支持质子俘获(但现代观点主张 γ-process) [FACT]	11. **p-process 机制判据**: Figure 6 中 B 曲线支持质子俘获(但现代观点主张 $\gamma$-process) [FACT]	R2 核素/希腊字母/单位
+60	3. **理论约束内插**: 首次将 B²FH 的核合成判据显式用于内插缺失元素	3. **理论约束内插**: 首次将 B$^2$FH 的核合成判据显式用于内插缺失元素	R2 核素/希腊字母/单位
+61	4. **σ_N 判据的视觉化**: Figure 6 首次将 s-process σ_N 常数律绘制为可读曲线	4. **$\sigma$_N 判据的视觉化**: Figure 6 首次将 s-process $\sigma$_N 常数律绘制为可读曲线	R2 核素/希腊字母/单位
+72	5. 表 1 使用 Si = $10^{6}$ 标度,与现代 log ε_H = 12 标度不直接可比	5. 表 1 使用 Si = $10^{6}$ 标度,与现代 log $\epsilon$_H = 12 标度不直接可比	R2 核素/希腊字母/单位
+82	| B²FH 1957 | 本文核合成分类与判据的理论源头(Table 2 Class 直接引用) |	| B$^2$FH 1957 | 本文核合成分类与判据的理论源头(Table 2 Class 直接引用) |	R2 核素/希腊字母/单位
+84	| Seeger, Fowler, Clayton 1965 | σ_N 判据的来源(Figure 6 的核物理基础) |	| Seeger, Fowler, Clayton 1965 | $\sigma$_N 判据的来源(Figure 6 的核物理基础) |	R2 核素/希腊字母/单位
+94	- [优先] B²FH 1957 (Rev. Mod. Phys. 29, 547) — 核合成三分法的原始出处	- [优先] B$^2$FH 1957 (Rev. Mod. Phys. 29, 547) — 核合成三分法的原始出处	R2 核素/希腊字母/单位
+95	- [优先] Seeger, Fowler & Clayton 1965 (ApJ Suppl. 11, 121) — σ_N 判据	- [优先] Seeger, Fowler & Clayton 1965 (ApJ Suppl. 11, 121) — $\sigma$_N 判据	R2 核素/希腊字母/单位
+73	4. 丰度的**总体标准差 σ**（population std）	4. 丰度的**总体标准差 $\sigma$**（population std）	R2 核素/希腊字母/单位
+83	**[FACT]** 61 个元素的丰度被重新评估（图 1）。其中**只有 1 个元素**（Hg）的变动 > 20% 或 > 1σ（Hf 是另一例外）。说明陨石分析**已收敛到多数元素 <10% 不确定度**的精度水平。	**[FACT]** 61 个元素的丰度被重新评估（图 1）。其中**只有 1 个元素**（Hg）的变动 > 20% 或 > 1$\sigma$（Hf 是另一例外）。说明陨石分析**已收敛到多数元素 <10% 不确定度**的精度水平。	R2 核素/希腊字母/单位
+117	**[FACT]** 表 3 列出单个核素的丰度（atoms per $10^{6}$ Si）。放射性/放射成因核素给出 **4.55 AE 前**（太阳系形成时）的丰度，斜体表示；半衰期取自 Holden (1985a,b,c)。**例外**：⁴⁰K 采用地质年代学推荐值 $t_{1}$/₂ = 1.2505 × $10^{9}$ yr (Steiger & Jäger, 1977)。	**[FACT]** 表 3 列出单个核素的丰度（atoms per $10^{6}$ Si）。放射性/放射成因核素给出 **4.55 AE 前**（太阳系形成时）的丰度，斜体表示；半衰期取自 Holden (1985a,b,c)。**例外**：$^{40}{\rm K}$ 采用地质年代学推荐值 $t_{1}$/₂ = 1.2505 × $10^{9}$ yr (Steiger & Jäger, 1977)。	R2 核素/希腊字母/单位
+129	**[FACT]** ³He/⁴He = 1.42 × $10^{-4}$（"行星型" He，来自陨石，Reynolds 等 1978；Jeffery & Anders 1970）。因为太阳当前的 ³He 已被氘燃烧抬高（Coplan 等, 1984），不能直接用。	**[FACT]** $^{3}{\rm He}$/$^{4}{\rm He}$ = 1.42 × $10^{-4}$（"行星型" He，来自陨石，Reynolds 等 1978；Jeffery & Anders 1970）。因为太阳当前的 $^{3}{\rm He}$ 已被氘燃烧抬高（Coplan 等, 1984），不能直接用。	R2 核素/希腊字母/单位
+131	**[FACT]** D/H 用 Geiss & Bochsler (1981) 的**原太阳方法**重新计算，取新 He/H 与 ³He/⁴He 的差：	**[FACT]** D/H 用 Geiss & Bochsler (1981) 的**原太阳方法**重新计算，取新 He/H 与 $^{3}{\rm He}$/$^{4}{\rm He}$ 的差：	R2 核素/希腊字母/单位
+135	**[FACT]** ²⁰Ne/²²Ne = **13.7 ± 0.3**（当代太阳风，Geiss 1973）。作者认为比 SEP 更合适，因为 SEP 能量高、分馏可能更强（低能太阳风同位素变化小）。	**[FACT]** $^{20}{\rm Ne}$/$^{22}{\rm Ne}$ = **13.7 ± 0.3**（当代太阳风，Geiss 1973）。作者认为比 SEP 更合适，因为 SEP 能量高、分馏可能更强（低能太阳风同位素变化小）。	R2 核素/希腊字母/单位
+137	**[FACT]** ⁴⁰Ar 采用 Dyalpur 火星陨石 1850°C 释放的 (2.9 ± 1.7) × $10^{-4}$，得到 **⁴⁰Ar = 25 ± 14**（原子丰度）。观测值远低于 4.55 AE 内 ⁴⁰K 原位衰变的预期（仅 5 × $10^{-5}$ 那么高），说明已几乎完全去除了放射成因 ⁴⁰Ar。该值与 s 过程模型预期 24 ± 7（非脉冲）或 7 ± 2（脉冲）非常接近。	**[FACT]** $^{40}{\rm Ar}$ 采用 Dyalpur 火星陨石 1850°C 释放的 (2.9 ± 1.7) × $10^{-4}$，得到 **$^{40}{\rm Ar}$ = 25 ± 14**（原子丰度）。观测值远低于 4.55 AE 内 $^{40}{\rm K}$ 原位衰变的预期（仅 5 × $10^{-5}$ 那么高），说明已几乎完全去除了放射成因 $^{40}{\rm Ar}$。该值与 s 过程模型预期 24 ± 7（非脉冲）或 7 ± 2（脉冲）非常接近。	R2 核素/希腊字母/单位
+158	| 元素 | 光球层（新） | 陨石转换 | Δlog(S/m) |	| 元素 | 光球层（新） | 陨石转换 | $\Delta$log(S/m) |	R2 核素/希腊字母/单位
+189	**[FACT]** **Be**：三套数据均保留——V2 原子吸收（比 Q1 (γ,2α) 低 15%，比 S1 量热法低 10%）。数据用难熔元素分馏因子修正到 C1：C2、C3O 乘 1.11；C3V 乘 1.33。	**[FACT]** **Be**：三套数据均保留——V2 原子吸收（比 Q1 ($\gamma$,2$\alpha$) 低 15%，比 S1 量热法低 10%）。数据用难熔元素分馏因子修正到 C1：C2、C3O 乘 1.11；C3V 乘 1.33。	R2 核素/希腊字母/单位
+245	**[FACT]** **Hg**：C1 中变化太大无法直接定。采用 Beer & Macklin (1985) 的**s 过程系统学方法**（σN 恒定性）：**0.34 ± 0.04**（原子丰度），比 AE 值变动 >20%（表 1 唯一大变动）。	**[FACT]** **Hg**：C1 中变化太大无法直接定。采用 Beer & Macklin (1985) 的**s 过程系统学方法**（$\sigma$N 恒定性）：**0.34 ± 0.04**（原子丰度），比 AE 值变动 >20%（表 1 唯一大变动）。	R2 核素/希腊字母/单位
+246	**[FACT]** **Pb**：保留 AE 值 3.15 ± 0.25。与 Beer & Macklin (1985) 理论估算 2.85 ± 0.19 在误差内一致——前提是没有 ²⁰⁴Tl 分支；若有分支则 Pb 会更低。	**[FACT]** **Pb**：保留 AE 值 3.15 ± 0.25。与 Beer & Macklin (1985) 理论估算 2.85 ± 0.19 在误差内一致——前提是没有 $^{204}{\rm Tl}$ 分支；若有分支则 Pb 会更低。	R2 核素/希腊字母/单位
+330	## 8.3 γ 射线谱（新手段）	## 8.3 $\gamma$ 射线谱（新手段）	R2 核素/希腊字母/单位
+332	**[FACT]** Reames 等 (1988) 用**耀斑 γ 射线谱**（chromospheric 层次）发现：若 Mg/O, Si/O, Fe/O 与 SEP 一致，则 **Ne/O 约大 3 倍**，C/O 也可能偏大——**非常困惑的结果**。	**[FACT]** Reames 等 (1988) 用**耀斑 $\gamma$ 射线谱**（chromospheric 层次）发现：若 Mg/O, Si/O, Fe/O 与 SEP 一致，则 **Ne/O 约大 3 倍**，C/O 也可能偏大——**非常困惑的结果**。	R2 核素/希腊字母/单位
+349	**[FACT]** 惰性气体元素比（表 5）：⁴He/²⁰Ne 比太阳风和 SEP 高（He、Ne 在后者中分馏程度不同）。	**[FACT]** 惰性气体元素比（表 5）：$^{4}{\rm He}$/$^{20}{\rm Ne}$ 比太阳风和 SEP 高（He、Ne 在后者中分馏程度不同）。	R2 核素/希腊字母/单位
+390	- **全部元素**（除 Ag, Tb, Ho, Lu, Tl 和明显不符的 In, W）：Δlog = **−0.005 ± 0.10 dex**	- **全部元素**（除 Ag, Tb, Ho, Lu, Tl 和明显不符的 In, W）：$\Delta$log = **−0.005 ± 0.10 dex**	R2 核素/希腊字母/单位
+391	- **32 个 <25% 确定的元素**：Δlog = **−0.006 ± 0.04 dex**	- **32 个 <25% 确定的元素**：$\Delta$log = **−0.006 ± 0.04 dex**	R2 核素/希腊字母/单位
+392	- **29 个高质量元素**（足够好的谱线 + 跃迁概率）：Δlog = **±0.036 dex**，即 **±9%**（但**仍需排除 4 个"问题元素"：Mn, Fe, Ge, Pb**）	- **29 个高质量元素**（足够好的谱线 + 跃迁概率）：$\Delta$log = **±0.036 dex**，即 **±9%**（但**仍需排除 4 个"问题元素"：Mn, Fe, Ge, Pb**）	R2 核素/希腊字母/单位
+418	**[FACT]** 所有偏离 < 1σ；除 <600 K 挥发性外，所有偏离都比 1982 更小。	**[FACT]** 所有偏离 < 1$\sigma$；除 <600 K 挥发性外，所有偏离都比 1982 更小。	R2 核素/希腊字母/单位
+434	**[FACT]** Pb 在陨石内分布均匀（Orgueil σ = ±8%），Orgueil 与 Ivuna 一致到 ±17%——与"mm/cm 尺度高变超富集"不兼容。	**[FACT]** Pb 在陨石内分布均匀（Orgueil $\sigma$ = ±8%），Orgueil 与 Ivuna 一致到 ±17%——与"mm/cm 尺度高变超富集"不兼容。	R2 核素/希腊字母/单位
+440	**[FACT]** Δlog = +0.43 dex（W 太阳值异常高）。**错很可能在太阳数据**（Holweger & Werner, 1982）：两条"WF 线"非常弱且受扰动，可能甚至不是 WF；或者 W 的电离能可能偏低 0.43 eV。	**[FACT]** $\Delta$log = +0.43 dex（W 太阳值异常高）。**错很可能在太阳数据**（Holweger & Werner, 1982）：两条"WF 线"非常弱且受扰动，可能甚至不是 WF；或者 W 的电离能可能偏低 0.43 eV。	R2 核素/希腊字母/单位
+524	**[FACT]** s 过程纯核素丰度 N_s **反比于**中子俘获截面 σ，**正比于**中子注量（Clayton 等 1961）：	**[FACT]** s 过程纯核素丰度 N_s **反比于**中子俘获截面 $\sigma$，**正比于**中子注量（Clayton 等 1961）：	R2 核素/希腊字母/单位
+528	**[FACT]** 因此 **σN_s 图**（图 7）指示注量随 A 的函数，可重建 s 过程条件。需要**更好的丰度**和**更好的截面**（后者主要归功于 Karlsruhe 组：Beer, Kappeler, BAO & Kappeler）。	**[FACT]** 因此 **$\sigma$N_s 图**（图 7）指示注量随 A 的函数，可重建 s 过程条件。需要**更好的丰度**和**更好的截面**（后者主要归功于 Karlsruhe 组：Beer, Kappeler, BAO & Kappeler）。	R2 核素/希腊字母/单位
+530	## 14.1 图 7：σN_s 图	## 14.1 图 7：$\sigma$N_s 图	R2 核素/希腊字母/单位
+532	**[FACT]** 实心符号 = s-only 核素，用于在 90 ≤ A ≤ 205 定标曲线；空心符号 = "主要 s"核素或处于分支点的 f-only 核素（如 ¹⁵⁷Gd）、插值元素（Kr, Xe, Hg），或用于归一化 A < 90 的核素。	**[FACT]** 实心符号 = s-only 核素，用于在 90 ≤ A ≤ 205 定标曲线；空心符号 = "主要 s"核素或处于分支点的 f-only 核素（如 $^{157}{\rm Gd}$）、插值元素（Kr, Xe, Hg），或用于归一化 A < 90 的核素。	R2 核素/希腊字母/单位
+536	**[FACT]** 分支点处曲线分裂（中子俘获与 β 衰变竞争）；上下曲线代表合成路径的两个分支。	**[FACT]** 分支点处曲线分裂（中子俘获与 $\beta$ 衰变竞争）；上下曲线代表合成路径的两个分支。	R2 核素/希腊字母/单位
+540	**[FACT]** 从 σN 曲线可计算混合 r+s 核素的**s 分量**（需知 σ），减去后得 **r 分量**（图 8 空心符号）+ 纯 r 核素（实心符号）。	**[FACT]** 从 $\sigma$N 曲线可计算混合 r+s 核素的**s 分量**（需知 $\sigma$），减去后得 **r 分量**（图 8 空心符号）+ 纯 r 核素（实心符号）。	R2 核素/希腊字母/单位
+556	**[FACT]** 与光球层对比（Δlog，Halley 减光球）：	**[FACT]** 与光球层对比（$\Delta$log，Halley 减光球）：	R2 核素/希腊字母/单位
+558	| 元素 | Δlog |	| 元素 | $\Delta$log |	R2 核素/希腊字母/单位
+604	| σN_s 图 | 从核素丰度重建中子注量随 A 的分布 | §7.5 |	| $\sigma$N_s 图 | 从核素丰度重建中子注量随 A 的分布 | §7.5 |	R2 核素/希腊字母/单位
+605	| D/H = (3.4 ± 1.0) × $10^{-5}$ | 原太阳 D/H（用 He/H 和 ³He/⁴He 重算） | §2.3 |	| D/H = (3.4 ± 1.0) × $10^{-5}$ | 原太阳 D/H（用 He/H 和 $^{3}{\rm He}$/$^{4}{\rm He}$ 重算） | §2.3 |	R2 核素/希腊字母/单位
+631	| **图 7** | s 过程的 σN_s 图（Beer, 1988, priv. commun.） |	| **图 7** | s 过程的 $\sigma$N_s 图（Beer, 1988, priv. commun.） |	R2 核素/希腊字母/单位
+650	→ s/r 过程分解（σN_s 图、r 过程残差）	→ s/r 过程分解（$\sigma$N_s 图、r 过程残差）	R2 核素/希腊字母/单位
+683	- [x] 关键公式（R=1.554, N_s∝Φ/σ, D/H, He/H, Ne, Ar）	- [x] 关键公式（R=1.554, N_s∝$\Phi$/$\sigma$, D/H, He/H, Ne, Ar）	R2 核素/希腊字母/单位
+693	- [x] §7.5 s/r 过程（σN_s，r 残差）	- [x] §7.5 s/r 过程（$\sigma$N_s，r 残差）	R2 核素/希腊字母/单位
+23	| however | adv. | 限定 | 在……方面 | "All departures < 1σ; **however**, the $Fe_{3}$$O_{4}$ mechanism is not fully established." | 弱化前述结论 |	| however | adv. | 限定 | 在……方面 | "All departures < 1$\sigma$; **however**, the $Fe_{3}$$O_{4}$ mechanism is not fully established." | 弱化前述结论 |	R2 核素/希腊字母/单位
+57	| σN_s plot | σN_s 图 | 中子俘获截面 × s-only 核素丰度的乘积，用于重建 s 过程中子注量分布 | §7.5 |	| $\sigma$N_s plot | $\sigma$N_s 图 | 中子俘获截面 × s-only 核素丰度的乘积，用于重建 s 过程中子注量分布 | §7.5 |	R2 核素/希腊字母/单位
+59	| s-only / r-only | 纯 s 核素 / 纯 r 核素 | 只由 s 或 r 过程合成的稳定核素，用于 σN 定标 | §7.5 |	| s-only / r-only | 纯 s 核素 / 纯 r 核素 | 只由 s 或 r 过程合成的稳定核素，用于 $\sigma$N 定标 | §7.5 |	R2 核素/希腊字母/单位
+60	| branching point | 分支点 | s 过程中中子俘获速率与 β 衰变速率相当处，曲线分裂 | §7.5 |	| branching point | 分支点 | s 过程中中子俘获速率与 $\beta$ 衰变速率相当处，曲线分裂 | §7.5 |	R2 核素/希腊字母/单位
+27	- **σN_s 图**：重建 s 过程条件、计算 r 过程残差	- **$\sigma$N_s 图**：重建 s 过程条件、计算 r 过程残差	R2 核素/希腊字母/单位
+51	- 用 σN_s 图定量**分解 s 与 r 过程贡献**	- 用 $\sigma$N_s 图定量**分解 s 与 r 过程贡献**	R2 核素/希腊字母/单位
+71	9. **σN_s ∝ Φ** 是重建 s 过程条件的核心关系	9. **$\sigma$N_s ∝ $\Phi$** 是重建 s 过程条件的核心关系	R2 核素/希腊字母/单位
+82	- **UPPERLER/Kappeler/Beer** → s 过程截面与 σN_s 分析	- **UPPERLER/Kappeler/Beer** → s 过程截面与 $\sigma$N_s 分析	R2 核素/希腊字母/单位
+99	- σN_s ∝ Φ	- $\sigma$N_s ∝ $\Phi$	R2 核素/希腊字母/单位
+124	- [x] Important equations（σN_s 稳态流判据、R 换算公式）	- [x] Important equations（$\sigma$N_s 稳态流判据、R 换算公式）	R2 核素/希腊字母/单位
+94	| 太阳耀斑 | γ 射线光谱（Ramaty 1996） | 有限 |	| 太阳耀斑 | $\gamma$ 射线光谱（Ramaty 1996） | 有限 |	R2 核素/希腊字母/单位
+302	Ne、Ar 为**惰性气体**——不出现在光球光谱，也在陨石中流失 → 只能依赖：日冕光谱、太阳风、SEP、γ 射线光谱。	Ne、Ar 为**惰性气体**——不出现在光球光谱，也在陨石中流失 → 只能依赖：日冕光谱、太阳风、SEP、$\gamma$ 射线光谱。	R2 核素/希腊字母/单位
+372	- 绝大多数点分布在 y = 0 附近（|Δ| < 0.2 dex）	- 绝大多数点分布在 y = 0 附近（|$\Delta$| < 0.2 dex）	R2 核素/希腊字母/单位
+373	- 一个显著异常点在 Z ≈ 49（In），太阳 ≈ 1.66 vs 陨石 0.82 → Δ ≈ +0.84（被括号标注为低精度结果）	- 一个显著异常点在 Z ≈ 49（In），太阳 ≈ 1.66 vs 陨石 0.82 → $\Delta$ ≈ +0.84（被括号标注为低精度结果）	R2 核素/希腊字母/单位
+403	| 1956 | Suess & Urey | 关键数据，为 B²FH 1957 / Cameron 1957 奠定核合成理论基石 |	| 1956 | Suess & Urey | 关键数据，为 B$^2$FH 1957 / Cameron 1957 奠定核合成理论基石 |	R2 核素/希腊字母/单位
+474	- Burbidge et al. 1957 (B²FH) — 核合成理论基石	- Burbidge et al. 1957 (B$^2$FH) — 核合成理论基石	R2 核素/希腊字母/单位
+508	丰度来源（光谱、粒子收集、γ、日震、月球）→ 光球为主（元素最全、混合最好、数据最久）	丰度来源（光谱、粒子收集、$\gamma$、日震、月球）→ 光球为主（元素最全、混合最好、数据最久）	R2 核素/希腊字母/单位
+536	- Table I 全部 83 元素的 (A_el, σ) 数值	- Table I 全部 83 元素的 (A_el, $\sigma$) 数值	R2 核素/希腊字母/单位
+27	| such as | phr. | 举例 | 例如 | "several sources, **such as** Sunspots, SW, SEP, γ-rays." |	| such as | phr. | 举例 | 例如 | "several sources, **such as** Sunspots, SW, SEP, $\gamma$-rays." |	R2 核素/希腊字母/单位
+76	> "Using the **Holweger & Müller (1974)** empirical photospheric model and **65 Fe I lines**, one sees a **clear negative correlation** between derived A(Fe) and excitation potential; **by** lowering the temperature of the model by **~200 K at log τ ≈ −3**, the excitation-potential dependence disappears, and all lines converge on **A(Fe) = 7.50 ± 0.05**, **in agreement** with meteorites."	> "Using the **Holweger & Müller (1974)** empirical photospheric model and **65 Fe I lines**, one sees a **clear negative correlation** between derived A(Fe) and excitation potential; **by** lowering the temperature of the model by **~200 K at log $\tau$ ≈ −3**, the excitation-potential dependence disappears, and all lines converge on **A(Fe) = 7.50 ± 0.05**, **in agreement** with meteorites."	R2 核素/希腊字母/单位
+80	**翻译**：使用 Holweger & Müller (1974) 经验光球模型和 65 条 Fe I 线，可看到导出的 A(Fe) 与激发势之间存在清晰的负相关；通过在 log τ ≈ −3 处将模型温度降低约 200 K，激发势依赖消失，所有线收敛于 A(Fe) = 7.50 ± 0.05，与陨石值一致。	**翻译**：使用 Holweger & Müller (1974) 经验光球模型和 65 条 Fe I 线，可看到导出的 A(Fe) 与激发势之间存在清晰的负相关；通过在 log $\tau$ ≈ −3 处将模型温度降低约 200 K，激发势依赖消失，所有线收敛于 A(Fe) = 7.50 ± 0.05，与陨石值一致。	R2 核素/希腊字母/单位
+83	- **16.3 值得深读**：Anders & Grevesse 1989、B²FH 1957、Asplund et al. 2009	- **16.3 值得深读**：Anders & Grevesse 1989、B$^2$FH 1957、Asplund et al. 2009	R2 核素/希腊字母/单位
+26	5. SNR 激波机械能贡献到光电离模型 >20%（Hβ 光度贡献约 16–20%），不足以解释差异；	5. SNR 激波机械能贡献到光电离模型 >20%（H$\beta$ 光度贡献约 16–20%），不足以解释差异；	R2 核素/希腊字母/单位
+104	[FACT] 285 个温热 IRAS 星系样本，来自 Strauss et al. 1992 目录，选在 δ ≤ −10°，附加标准：	[FACT] 285 个温热 IRAS 星系样本，来自 Strauss et al. 1992 目录，选在 $\delta$ ≤ −10°，附加标准：	R2 核素/希腊字母/单位
+108	| 1 | 60 μm 流量 | ≥ 2.5 Jy；25, 60, 100 μm 有中等或高质量探测 |	| 1 | 60 $\mu$m 流量 | ≥ 2.5 Jy；25, 60, 100 $\mu$m 有中等或高质量探测 |	R2 核素/希腊字母/单位
+110	| 3 | 银纬 / 赤纬 | \|b\| ≥ 15°；δ ≤ −10° |	| 3 | 银纬 / 赤纬 | \|b\| ≥ 15°；$\delta$ ≤ −10° |	R2 核素/希腊字母/单位
+118	- 285 个中 225 个获得了 Hβ 处 50 km s⁻¹ 分辨率光学光谱；	- 285 个中 225 个获得了 H$\beta$ 处 50 km s⁻¹ 分辨率光学光谱；	R2 核素/希腊字母/单位
+119	- S/N > 3σ；	- S/N > 3$\sigma$；	R2 核素/希腊字母/单位
+156	- **混叠（overshooting）**：Padova 对 m ≥ 1 M☉ 混叠，混叠距离/压力标高比更大，下探到更低质量；Geneva 仅在 > 1.5 M☉ 时混叠；	- **混叠（overshooting）**：Padova 对 m ≥ 1 $M_\odot$ 混叠，混叠距离/压力标高比更大，下探到更低质量；Geneva 仅在 > 1.5 $M_\odot$ 时混叠；	R2 核素/希腊字母/单位
+167	[FACT] 因此，对任何持续 > **~6 Myr** 的星暴，对 > **~20 M☉** 的所有质量均建立出生/死亡的动态平衡，同时 W-R 星也能对 EUV 做出完整贡献。	[FACT] 因此，对任何持续 > **~6 Myr** 的星暴，对 > **~20 $M_\odot$** 的所有质量均建立出生/死亡的动态平衡，同时 W-R 星也能对 EUV 做出完整贡献。	R2 核素/希腊字母/单位
+210	- **电子密度** $n_e = 350$ cm⁻³（来自 [S II] λ6716, λ6731 禁戒线比值，配合 MAPPINGS III 五级模型原子推导；Kewley et al. 2001 中给出每颗星系的电子密度）	- **电子密度** $n_e = 350$ cm⁻³（来自 [S II] $\lambda$6716, $\lambda$6731 禁戒线比值，配合 MAPPINGS III 五级模型原子推导；Kewley et al. 2001 中给出每颗星系的电子密度）	R2 核素/希腊字母/单位
+294	- 一些谱显示 Hβ 低等值宽度或 Hβ 吸收线特征——直接证据显示恒星形成持续数 Myr；	- 一些谱显示 H$\beta$ 低等值宽度或 H$\beta$ 吸收线特征——直接证据显示恒星形成持续数 Myr；	R2 核素/希腊字母/单位
+309	- 电离参数范围：6 × $10^{6}$ ≤ χ ≤ 6 × $10^{7}$；	- 电离参数范围：6 × $10^{6}$ ≤ $\chi$ ≤ 6 × $10^{7}$；	R2 核素/希腊字母/单位
+317	- W-R 星在 He II 电离极限以上（4–8 Ry）贡献可观辐射——因此可探测 **He II λ4686**（§5 讨论）；	- W-R 星在 He II 电离极限以上（4–8 Ry）贡献可观辐射——因此可探测 **He II $\lambda$4686**（§5 讨论）；	R2 核素/希腊字母/单位
+328	- log([N II]/Hα): −2 到 0	- log([N II]/H$\alpha$): −2 到 0	R2 核素/希腊字母/单位
+329	- log([O III]/Hβ): −1 到 1.5	- log([O III]/H$\beta$): −1 到 1.5	R2 核素/希腊字母/单位
+330	- log([S II]/Hα): −2 到 0	- log([S II]/H$\alpha$): −2 到 0	R2 核素/希腊字母/单位
+331	- log([O I]/Hα): −3 到 −0.5	- log([O I]/H$\alpha$): −3 到 −0.5	R2 核素/希腊字母/单位
+334	- 电离参数 χ：5×$10^{6}$, 1×$10^{7}$, 2×$10^{7}$, 4×$10^{7}$, 8×$10^{7}$, 1.5×$10^{8}$, 3×$10^{8}$ cm s⁻¹	- 电离参数 $\chi$：5×$10^{6}$, 1×$10^{7}$, 2×$10^{7}$, 4×$10^{7}$, 8×$10^{7}$, 1.5×$10^{8}$, 3×$10^{8}$ cm s⁻¹	R2 核素/希腊字母/单位
+338	- [O III] λ5007 / [O II] λλ3726,9 是**电离参数**的好诊断；	- [O III] $\lambda$5007 / [O II] $\lambda$$\lambda$3726,9 是**电离参数**的好诊断；	R2 核素/希腊字母/单位
+339	- [N II] λ6584 / [O II] λλ3726,9 是**丰度**的最佳诊断（在 0.1–3 Z☉ 单调）。	- [N II] $\lambda$6584 / [O II] $\lambda$$\lambda$3726,9 是**丰度**的最佳诊断（在 0.1–3 Z☉ 单调）。	R2 核素/希腊字母/单位
+353	[FACT] SN 与恒星风产生的机械能光度 $E_0^{\text{mech}}$ 通过辐射激波转化为光学线发射。激波 Hβ 相对光电离 Hβ 的贡献：	[FACT] SN 与恒星风产生的机械能光度 $E_0^{\text{mech}}$ 通过辐射激波转化为光学线发射。激波 H$\beta$ 相对光电离 H$\beta$ 的贡献：	R2 核素/希腊字母/单位
+357	其中 $\alpha$ 为转化为 Hβ 通量的比例、$\alpha_{\text{eff}}$ 为氢的有效复合系数、$S^*$ 为热星团产生的电离光子数。	其中 $\alpha$ 为转化为 H$\beta$ 通量的比例、$\alpha_{\text{eff}}$ 为氢的有效复合系数、$S^*$ 为热星团产生的电离光子数。	R2 核素/希腊字母/单位
+375	- 总机械能光度：$6 \times 10^{41}$ erg s⁻¹ (M☉ yr⁻¹)⁻¹（Leitherer et al. 1999）；	- 总机械能光度：$6 \times 10^{41}$ erg s⁻¹ ($M_\odot$ yr⁻¹)⁻¹（Leitherer et al. 1999）；	R2 核素/希腊字母/单位
+376	- 由平均 IR 光度（Kennicutt 1998）导出 SFR ≈ **3.4 M☉ yr⁻¹**（注意 Kennicutt 定义 $L_{\text{IR}} = L_{\text{FIR}}$）；	- 由平均 IR 光度（Kennicutt 1998）导出 SFR ≈ **3.4 $M_\odot$ yr⁻¹**（注意 Kennicutt 定义 $L_{\text{IR}} = L_{\text{FIR}}$）；	R2 核素/希腊字母/单位
+377	- 假设 IR 光度均匀分布于 > 7 kpc 星系，1 kpc 视场内 SFR ≈ **0.07 M☉ yr⁻¹**；	- 假设 IR 光度均匀分布于 > 7 kpc 星系，1 kpc 视场内 SFR ≈ **0.07 $M_\odot$ yr⁻¹**；	R2 核素/希腊字母/单位
+378	- 用 Ha 光度对模板星暴的 SFR ≈ **0.04 M☉ yr⁻¹**（低于 FIR 值——尘埃吸收降低 Ha 探测）。	- 用 Ha 光度对模板星暴的 SFR ≈ **0.04 $M_\odot$ yr⁻¹**（低于 FIR 值——尘埃吸收降低 Ha 探测）。	R2 核素/希腊字母/单位
+392	| Hβ | 3.3 × $10^{38}$ |	| H$\beta$ | 3.3 × $10^{38}$ |	R2 核素/希腊字母/单位
+393	| Hα | 9.8 × $10^{40}$ |	| H$\alpha$ | 9.8 × $10^{40}$ |	R2 核素/希腊字母/单位
+395	[FACT] SNR 对 Hβ 发射的贡献 ≈ **16–20%**。	[FACT] SNR 对 H$\beta$ 发射的贡献 ≈ **16–20%**。	R2 核素/希腊字母/单位
+397	## 6.6 综合 [O III]/Hβ 公式（关键公式 3）	## 6.6 综合 [O III]/H$\beta$ 公式（关键公式 3）	R2 核素/希腊字母/单位
+399	[FACT] 观测总 log([O III]/Hβ) 为星暴与 SNR 贡献之和：	[FACT] 观测总 log([O III]/H$\beta$) 为星暴与 SNR 贡献之和：	R2 核素/希腊字母/单位
+402	[FACT] 在 [O III]$_{\text{starb}} \to 0$（低全局 χ 极限）：	[FACT] 在 [O III]$_{\text{starb}} \to 0$（低全局 $\chi$ 极限）：	R2 核素/希腊字母/单位
+404	（密度 350 cm⁻³，SFR ≈ 0.07 M☉ yr⁻¹ 在 1 kpc² 内）	（密度 350 cm⁻³，SFR ≈ 0.07 $M_\odot$ yr⁻¹ 在 1 kpc² 内）	R2 核素/希腊字母/单位
+406	[FACT] 但观测到的实际下限为 log([O III]/Hβ) ≈ **−1.0**（比 SNR 模型下限低一个数量级）。	[FACT] 但观测到的实际下限为 log([O III]/H$\beta$) ≈ **−1.0**（比 SNR 模型下限低一个数量级）。	R2 核素/希腊字母/单位
+408	[FACT] **结论**：SNR 对 log([O III]/Hβ) 的贡献 **> 20%**，实际约 **~2%**（低一个数量级），**可忽略**。	[FACT] **结论**：SNR 对 log([O III]/H$\beta$) 的贡献 **> 20%**，实际约 **~2%**（低一个数量级），**可忽略**。	R2 核素/希腊字母/单位
+422	- Conti 1991 编目，宽 [He II] λ4686 或宽 λ4640 (N III) 为主要识别特征；	- Conti 1991 编目，宽 [He II] $\lambda$4686 或宽 $\lambda$4640 (N III) 为主要识别特征；	R2 核素/希腊字母/单位
+423	- Guseva, Izotov & Thuan 2000：几乎所有样本星系都显示宽 W-R 发射，是 N III λ4640、C III λ4650、[Fe III] λ4658、He II λ4686 的未分辨混合体；弱 W-R 线包括 N III λ4512、Si III λ4565。	- Guseva, Izotov & Thuan 2000：几乎所有样本星系都显示宽 W-R 发射，是 N III $\lambda$4640、C III $\lambda$4650、[Fe III] $\lambda$4658、He II $\lambda$4686 的未分辨混合体；弱 W-R 线包括 N III $\lambda$4512、Si III $\lambda$4565。	R2 核素/希腊字母/单位
+428	- 从样本中 56 个 Hβ S/N ≥ 60 且零红移蓝端截止 < 4620 Å 的星暴星系；	- 从样本中 56 个 H$\beta$ S/N ≥ 60 且零红移蓝端截止 < 4620 Å 的星暴星系；	R2 核素/希腊字母/单位
+430	- Hβ 吸收等值宽度（Gaussian 同时拟合吸收+发射，IRAF ngauss_fits）≈ **3.6 Å**；	- H$\beta$ 吸收等值宽度（Gaussian 同时拟合吸收+发射，IRAF ngauss_fits）≈ **3.6 Å**；	R2 核素/希腊字母/单位
+433	## 7.3 He II λ4686 关键约束	## 7.3 He II $\lambda$4686 关键约束	R2 核素/希腊字母/单位
+436	- [Fe III] λ4658 与 He II λ4686 在 **2σ** 水平检出；	- [Fe III] $\lambda$4658 与 He II $\lambda$4686 在 **2$\sigma$** 水平检出；	R2 核素/希腊字母/单位
+438	- log(He II λ4686 / Hβ) ≈ **−1.6**。	- log(He II $\lambda$4686 / H$\beta$) ≈ **−1.6**。	R2 核素/希腊字母/单位
+441	| 电离连续谱 | log(He II λ4686/Hβ) |	| 电离连续谱 | log(He II $\lambda$4686/H$\beta$) |	R2 核素/希腊字母/单位
+446	[FACT] Schmutz 扩展大气模型预测的 He II/Hβ ≈ −1.7 与观测 −1.6 **一致**，支持 Schmutz 大气更适用于星暴星系。	[FACT] Schmutz 扩展大气模型预测的 He II/H$\beta$ ≈ −1.7 与观测 −1.6 **一致**，支持 Schmutz 大气更适用于星暴星系。	R2 核素/希腊字母/单位
+450	[INTERPRETATION] He II λ4686 提供了对 Schmutz 大气模型**唯一直接的光谱验证**，是 PEGASE vs STARBURST99 争论的关键锚点。	[INTERPRETATION] He II $\lambda$4686 提供了对 Schmutz 大气模型**唯一直接的光谱验证**，是 PEGASE vs STARBURST99 争论的关键锚点。	R2 核素/希腊字母/单位
+485	[FACT] 潜在反证：若如此，Schmutz 模型应预测过多的 He II λ4686——与观测不符（观测 log ≈ −1.6，模型 ≈ −1.7，**相符**）。	[FACT] 潜在反证：若如此，Schmutz 模型应预测过多的 He II $\lambda$4686——与观测不符（观测 log ≈ −1.6，模型 ≈ −1.7，**相符**）。	R2 核素/希腊字母/单位
+489	[CRITIQUE] 作者承认 He II λ4686 观测结果与 Schmutz 模型一致这一事实，使得 continuum metal blanketing 的解释力受到一定质疑——如果引入 continuum metal blanketing，He II λ4686 应更强。这一张力暗示问题可能是**多因素的**（如 IMF 斜率、W-R 星寿命、密度参数等）。	[CRITIQUE] 作者承认 He II $\lambda$4686 观测结果与 Schmutz 模型一致这一事实，使得 continuum metal blanketing 的解释力受到一定质疑——如果引入 continuum metal blanketing，He II $\lambda$4686 应更强。这一张力暗示问题可能是**多因素的**（如 IMF 斜率、W-R 星寿命、密度参数等）。	R2 核素/希腊字母/单位
+499	[FACT] 现实范围：Z = 0.1 – 3.0；χ = 5 × $10^{6}$ – 3 × $10^{8}$ cm s⁻¹（−3.5 ≤ log U ≤ −2.0）；连续星暴模型**始终**落在经验上限线下方/左方。	[FACT] 现实范围：Z = 0.1 – 3.0；$\chi$ = 5 × $10^{6}$ – 3 × $10^{8}$ cm s⁻¹（−3.5 ≤ log U ≤ −2.0）；连续星暴模型**始终**落在经验上限线下方/左方。	R2 核素/希腊字母/单位
+551	- [N II]/Hα、[S II]/Hα、[O I]/Hα vs [O III]/Hβ；	- [N II]/H$\alpha$、[S II]/H$\alpha$、[O I]/H$\alpha$ vs [O III]/H$\beta$；	R2 核素/希腊字母/单位
+555	- [N II]/[O II] vs [O III]/Hβ 与 [N II]/[O II] vs [O III]/[O II]；	- [N II]/[O II] vs [O III]/H$\beta$ 与 [N II]/[O II] vs [O III]/[O II]；	R2 核素/希腊字母/单位
+567	- 56 个星暴星系平均（Hβ S/N ≥ 60, 蓝截止 < 4620 Å）；	- 56 个星暴星系平均（H$\beta$ S/N ≥ 60, 蓝截止 < 4620 Å）；	R2 核素/希腊字母/单位
+571	- 位置标记 N III λ4640、C III λ4650、[Fe III] λ4658、He II λ4686；	- 位置标记 N III $\lambda$4640、C III $\lambda$4650、[Fe III] $\lambda$4658、He II $\lambda$4686；	R2 核素/希腊字母/单位
+572	- [Fe III] 与 He II 在 2σ 检出。	- [Fe III] 与 He II 在 2$\sigma$ 检出。	R2 核素/希腊字母/单位
+588	4. 模板平均光谱检出 **Fe III λ4658 与 He II λ4686**（2σ 水平），指示 W-R 活动，支持 Schmutz 大气模型；	4. 模板平均光谱检出 **Fe III $\lambda$4658 与 He II $\lambda$4686**（2$\sigma$ 水平），指示 W-R 活动，支持 Schmutz 大气模型；	R2 核素/希腊字母/单位
+590	6. SNR 激波机械能贡献到 EUV > 20%（Hβ 光度贡献 16–20%），**不足以**解释差异；	6. SNR 激波机械能贡献到 EUV > 20%（H$\beta$ 光度贡献 16–20%），**不足以**解释差异；	R2 核素/希腊字母/单位
+602	He II λ4686 检出支持 Schmutz →	He II $\lambda$4686 检出支持 Schmutz →	R2 核素/希腊字母/单位
+639	6. He II λ4686 来自模板平均，可能偏向年轻/亮星暴。	6. He II $\lambda$4686 来自模板平均，可能偏向年轻/亮星暴。	R2 核素/希腊字母/单位
+646	- He II λ4686 的实际等值宽度测量不确定度；	- He II $\lambda$4686 的实际等值宽度测量不确定度；	R2 核素/希腊字母/单位
+19	| 于是 | consequently | adv. | 因果 | "SNR 机械能贡献到光电离模型 >20%（Hβ 光度贡献约 16–20%），不足以解释差异" | 从贡献量推出不足以解释诊断图 |	| 于是 | consequently | adv. | 因果 | "SNR 机械能贡献到光电离模型 >20%（H$\beta$ 光度贡献约 16–20%），不足以解释差异" | 从贡献量推出不足以解释诊断图 |	R2 核素/希腊字母/单位
+27	| 如果 | if / should | conj. | 让步 | "如果引入 continuum metal blanketing，He II λ4686 应更强——**仍与观测相符**" | 假设性检验 |	| 如果 | if / should | conj. | 让步 | "如果引入 continuum metal blanketing，He II $\lambda$4686 应更强——**仍与观测相符**" | 假设性检验 |	R2 核素/希腊字母/单位
+28	| 由此 | hence | adv. | 因果 | "He II λ4686 观测提供对 Schmutz 大气模型**唯一直接的光谱验证**" | 从观测推出模型约束 |	| 由此 | hence | adv. | 因果 | "He II $\lambda$4686 观测提供对 Schmutz 大气模型**唯一直接的光谱验证**" | 从观测推出模型约束 |	R2 核素/希腊字母/单位
+29	| 尽管 | although | conj. | 让步 | "作者承认 He II λ4686 观测结果与 Schmutz 模型一致这一事实，使得 continuum metal blanketing 的解释力受到一定质疑" | 让步证据支持 Schmutz |	| 尽管 | although | conj. | 让步 | "作者承认 He II $\lambda$4686 观测结果与 Schmutz 模型一致这一事实，使得 continuum metal blanketing 的解释力受到一定质疑" | 让步证据支持 Schmutz |	R2 核素/希腊字母/单位
+30	| 换言之 | i.e. | phrase | 举例 | "诊断图上的'折回'（fold）是两参数网格（Z-χ）的**内在拓扑**" | 定义折回 |	| 换言之 | i.e. | phrase | 举例 | "诊断图上的'折回'（fold）是两参数网格（Z-$\chi$）的**内在拓扑**" | 定义折回 |	R2 核素/希腊字母/单位
+53	| He II λ4686 | 氦 II 4686 Å 发射线 | 10+ | §7.3 |	| He II $\lambda$4686 | 氦 II 4686 Å 发射线 | 10+ | §7.3 |	R2 核素/希腊字母/单位
+55	| ionization parameter (χ, U) | 电离参数 | 10+ | §4.1 |	| ionization parameter ($\chi$, U) | 电离参数 | 10+ | §4.1 |	R2 核素/希腊字母/单位
+74	| [O III]/Hβ | 诊断图纵轴（强激发比） | 10+ | §4.1 |	| [O III]/H$\beta$ | 诊断图纵轴（强激发比） | 10+ | §4.1 |	R2 核素/希腊字母/单位
+75	| [N II]/Hα, [S II]/Hα, [O I]/Hα | 诊断图横轴（低激发比） | 8+ | §4.1 |	| [N II]/H$\alpha$, [S II]/H$\alpha$, [O I]/H$\alpha$ | 诊断图横轴（低激发比） | 8+ | §4.1 |	R2 核素/希腊字母/单位
+84	| He II λ4640 (N III) | N III 4640 与 He II 4658 混杂 | 2 | §7.1 |	| He II $\lambda$4640 (N III) | N III 4640 与 He II 4658 混杂 | 2 | §7.1 |	R2 核素/希腊字母/单位
+85	| [Fe III] λ4658 | 铁 III 4658 禁戒线 | 3 | §7.1 |	| [Fe III] $\lambda$4658 | 铁 III 4658 禁戒线 | 3 | §7.1 |	R2 核素/希腊字母/单位
+118	> "**PEGASE 2 (Padova + Lejeune + Clegg & Middlemass PNN)**：**唯一**能覆盖几乎所有星暴星系的模型；谱在 1–4 Ry 区间**随 W-R 星启动变硬**（PNN 大气的直接结果）；电离参数范围：6 × $10^{6}$ ≤ χ ≤ 6 × $10^{7}$；金属丰度覆盖 0.2 – 3 Z☉；大多数星暴一致于 **1–3 Z☉**"	> "**PEGASE 2 (Padova + Lejeune + Clegg & Middlemass PNN)**：**唯一**能覆盖几乎所有星暴星系的模型；谱在 1–4 Ry 区间**随 W-R 星启动变硬**（PNN 大气的直接结果）；电离参数范围：6 × $10^{6}$ ≤ $\chi$ ≤ 6 × $10^{7}$；金属丰度覆盖 0.2 – 3 Z☉；大多数星暴一致于 **1–3 Z☉**"	R2 核素/希腊字母/单位
+122	**修饰**：分号连接五个事实：唯一覆盖 → 硬 EUV 来源 → χ 范围 → Z 范围 → 星暴普遍金属丰度 1–3 Z☉。	**修饰**：分号连接五个事实：唯一覆盖 → 硬 EUV 来源 → $\chi$ 范围 → Z 范围 → 星暴普遍金属丰度 1–3 Z☉。	R2 核素/希腊字母/单位
+124	**翻译**：PEGASE 2（Padova 演化轨 + Lejeune 大气 + Clegg & Middlemass PNN 大气）是唯一能覆盖几乎所有观测星暴星系位置的模型；其 EUV 谱在 1–4 Ry 区间随 W-R 星的启动而变硬（这是 PNN 大气的直接结果）；模型覆盖的电离参数范围为 6×$10^{6}$ ≤ χ ≤ 6×$10^{7}$ cm s⁻¹，金属丰度范围为 0.2–3 Z☉，其中大多数观测星暴与 1–3 Z☉ 的金属丰度一致。	**翻译**：PEGASE 2（Padova 演化轨 + Lejeune 大气 + Clegg & Middlemass PNN 大气）是唯一能覆盖几乎所有观测星暴星系位置的模型；其 EUV 谱在 1–4 Ry 区间随 W-R 星的启动而变硬（这是 PNN 大气的直接结果）；模型覆盖的电离参数范围为 6×$10^{6}$ ≤ $\chi$ ≤ 6×$10^{7}$ cm s⁻¹，金属丰度范围为 0.2–3 Z☉，其中大多数观测星暴与 1–3 Z☉ 的金属丰度一致。	R2 核素/希腊字母/单位
+130	> "**结论**：SNR 对 log([O III]/Hβ) 的贡献 **> 20%**，实际约 **~2%**（低一个数量级），**可忽略**。"	> "**结论**：SNR 对 log([O III]/H$\beta$) 的贡献 **> 20%**，实际约 **~2%**（低一个数量级），**可忽略**。"	R2 核素/希腊字母/单位
+132	**主干**：SNR 对 [O III]/Hβ 的贡献 ~2% → 可忽略。	**主干**：SNR 对 [O III]/H$\beta$ 的贡献 ~2% → 可忽略。	R2 核素/希腊字母/单位
+134	**修饰**：">20%"是 Hβ 光度的贡献上界（用于说明理论最大）；"实际 ~2%"是 [O III]/Hβ 的实际贡献；"低一个数量级"说明实际值比 Hβ 上界低 10×；"可忽略"是结论。	**修饰**：">20%"是 H$\beta$ 光度的贡献上界（用于说明理论最大）；"实际 ~2%"是 [O III]/H$\beta$ 的实际贡献；"低一个数量级"说明实际值比 H$\beta$ 上界低 10×；"可忽略"是结论。	R2 核素/希腊字母/单位
+136	**翻译**：结论：尽管 SNR 对 Hβ 光度贡献可达 >20%，但对 log([O III]/Hβ) 的诊断比值贡献实际仅约 ~2%（比 Hβ 上界低一个数量级），因此可忽略。	**翻译**：结论：尽管 SNR 对 H$\beta$ 光度贡献可达 >20%，但对 log([O III]/H$\beta$) 的诊断比值贡献实际仅约 ~2%（比 H$\beta$ 上界低一个数量级），因此可忽略。	R2 核素/希腊字母/单位
+28	1. **观测约束**：1–4 Ry 区间 EUV 必须较硬（log([O III]/Hβ) 高值）；	1. **观测约束**：1–4 Ry 区间 EUV 必须较硬（log([O III]/H$\beta$) 高值）；	R2 核素/希腊字母/单位
+30	3. **He II λ4686 约束**：模板星暴 log(He II λ4686/Hβ) ≈ −1.6，与 Schmutz 大气预测（−1.7）**一致**，与 PEGASE/Lejeune 预测（−6）**相差 5 个量级**；	3. **He II $\lambda$4686 约束**：模板星暴 log(He II $\lambda$4686/H$\beta$) ≈ −1.6，与 Schmutz 大气预测（−1.7）**一致**，与 PEGASE/Lejeune 预测（−6）**相差 5 个量级**；	R2 核素/希腊字母/单位
+31	4. **SNR 贡献**：Hβ 16–20%，但 [O III]/Hβ 贡献仅 ~2%（可忽略），不足以解释诊断图差异；	4. **SNR 贡献**：H$\beta$ 16–20%，但 [O III]/H$\beta$ 贡献仅 ~2%（可忽略），不足以解释诊断图差异；	R2 核素/希腊字母/单位
+39	3. 用 **He II λ4686** 观测值直接约束 W-R 星大气模型选择——为 Schmutz 大气的合理性提供经验支撑；	3. 用 **He II $\lambda$4686** 观测值直接约束 W-R 星大气模型选择——为 Schmutz 大气的合理性提供经验支撑；	R2 核素/希腊字母/单位
+45	2. He II λ4686 仅从**模板平均**光谱中 2σ 检出，可能偏向年轻/亮星暴；	2. He II $\lambda$4686 仅从**模板平均**光谱中 2$\sigma$ 检出，可能偏向年轻/亮星暴；	R2 核素/希腊字母/单位
+50	7. 观测样本选择为**南天天区**（δ ≤ −10°）与高红移限制——可能存在选择偏差。	7. 观测样本选择为**南天天区**（$\delta$ ≤ −10°）与高红移限制——可能存在选择偏差。	R2 核素/希腊字母/单位
+56	3. **Schmutz W-R 大气物理上更合理**，且 He II λ4686 观测支持它，但无法单独给出 1–4 Ry 硬 EUV；	3. **Schmutz W-R 大气物理上更合理**，且 He II $\lambda$4686 观测支持它，但无法单独给出 1–4 Ry 硬 EUV；	R2 核素/希腊字母/单位
+58	5. **SNR 机械能贡献 > 20% (Hβ) 但对 [O III]/Hβ 仅 ~2%**——不足以解释诊断图差异；	5. **SNR 机械能贡献 > 20% (H$\beta$) 但对 [O III]/H$\beta$ 仅 ~2%**——不足以解释诊断图差异；	R2 核素/希腊字母/单位
+60	7. **星暴 SFR**：全星系 ~3.4 M☉/yr，1 kpc 视场 ~0.07 M☉/yr（FIR）vs ~0.04 M☉/yr（Ha）；	7. **星暴 SFR**：全星系 ~3.4 $M_\odot$/yr，1 kpc 视场 ~0.07 $M_\odot$/yr（FIR）vs ~0.04 $M_\odot$/yr（Ha）；	R2 核素/希腊字母/单位
+69	- **Guseva, Izotov & Thuan 2000**：高空间分辨率 W-R 星系观测——本文模板平均光谱独立印证 He II λ4686；	- **Guseva, Izotov & Thuan 2000**：高空间分辨率 W-R 星系观测——本文模板平均光谱独立印证 He II $\lambda$4686；	R2 核素/希腊字母/单位
+71	- **González Delgado & Leitherer 1999**：星暴年龄与 Hβ 吸收等值宽度关系，用于 §5 年龄上限；	- **González Delgado & Leitherer 1999**：星暴年龄与 H$\beta$ 吸收等值宽度关系，用于 §5 年龄上限；	R2 核素/希腊字母/单位
+83	- **诊断图网格分析**：系统性扫描 Z-χ 二维网格，找出"禁带"——直接定位需要额外物理过程（激波、AGN、金属不透明度）。	- **诊断图网格分析**：系统性扫描 Z-$\chi$ 二维网格，找出"禁带"——直接定位需要额外物理过程（激波、AGN、金属不透明度）。	R2 核素/希腊字母/单位
+87	- **公式 (1)** 激波/光电离 Hβ 贡献比：	- **公式 (1)** 激波/光电离 H$\beta$ 贡献比：	R2 核素/希腊字母/单位
+115	- 1–4 Ry（54–756 eV）区间是诊断图对 EUV 谱的**关键灵敏区间**——高于 He II 电离极限的光子（>4 Ry）对 [N II]/Hα 等比值贡献小；	- 1–4 Ry（54–756 eV）区间是诊断图对 EUV 谱的**关键灵敏区间**——高于 He II 电离极限的光子（>4 Ry）对 [N II]/H$\alpha$ 等比值贡献小；	R2 核素/希腊字母/单位
+116	- 诊断图上的"折回"（fold）是两参数网格（Z-χ）的**内在拓扑**——任何额外激发机制（激波、AGN、金属屏蔽）的引入都能让模型跳出此折回。	- 诊断图上的"折回"（fold）是两参数网格（Z-$\chi$）的**内在拓扑**——任何额外激发机制（激波、AGN、金属屏蔽）的引入都能让模型跳出此折回。	R2 核素/希腊字母/单位
+121	- 用**观测锚点**（He II λ4686）直接约束大气模型选择，而非仅依赖诊断图拟合；	- 用**观测锚点**（He II $\lambda$4686）直接约束大气模型选择，而非仅依赖诊断图拟合；	R2 核素/希腊字母/单位
+128	- He II λ4686 观测对 W-R 星大气的验证，直接关系到 W-R 星在化学演化中的**质量损失与核合成产物释放率**；	- He II $\lambda$4686 观测对 W-R 星大气的验证，直接关系到 W-R 星在化学演化中的**质量损失与核合成产物释放率**；	R2 核素/希腊字母/单位
+155	| §5 W-R 发射（模板平均、He II λ4686 约束） | ✓ |	| §5 W-R 发射（模板平均、He II $\lambda$4686 约束） | ✓ |	R2 核素/希腊字母/单位
+164	| 关键数值（SFR、χ 范围、Z 范围、He II/Hβ、SNR 数目） | ✓ |	| 关键数值（SFR、$\chi$ 范围、Z 范围、He II/H$\beta$、SNR 数目） | ✓ |	R2 核素/希腊字母/单位
+88	- 因此 **检测到 Li λ6708 线** → 亚恒星。	- 因此 **检测到 Li $\lambda$6708 线** → 亚恒星。	R2 核素/希腊字母/单位
+117	1. **宽波段测光**（~0.4 μm 到 ~17 μm）+ **三角视差**；	1. **宽波段测光**（~0.4 $\mu$m 到 ~17 $\mu$m）+ **三角视差**；	R2 核素/希腊字母/单位
+234	1. 观测 9 波段（V, R, I, J, H, Ks, W1, W2, W3）→ 组合 **36 种颜色**，覆盖 ~0.4–16.7 μm；	1. 观测 9 波段（V, R, I, J, H, Ks, W1, W2, W3）→ 组合 **36 种颜色**，覆盖 ~0.4–16.7 $\mu$m；	R2 核素/希腊字母/单位
+247	- 少数 >2σ 离群值再剔除。	- 少数 >2$\sigma$ 离群值再剔除。	R2 核素/希腊字母/单位
+276	> **L = 4πR² σ_SB T_eff⁴**	> **L = 4$\pi$R² $\sigma$_SB T_eff⁴**	R2 核素/希腊字母/单位
+277	> σ_SB = 5.6704 × $10^{-5}$ erg cm⁻² s⁻¹ K⁻⁴	> $\sigma$_SB = 5.6704 × $10^{-5}$ erg cm⁻² s⁻¹ K⁻⁴	R2 核素/希腊字母/单位
+321	- Cushing et al. 2008（模型大气拟合 0.6–14.5 μm 光谱）	- Cushing et al. 2008（模型大气拟合 0.6–14.5 $\mu$m 光谱）	R2 核素/希腊字母/单位
+322	- Rajpurohit et al. 2013（BT-Settl 匹配 0.52–1.0 μm 光谱）	- Rajpurohit et al. 2013（BT-Settl 匹配 0.52–1.0 $\mu$m 光谱）	R2 核素/希腊字母/单位
+343	[FACT] Table 7 完整系数（6 种绝对星等 MV, MR, MI, MJ, MH, MK × 9 种颜色组合 = 54 组多项式）。1σ 不确定度范围 0.24–1.11 mag：	[FACT] Table 7 完整系数（6 种绝对星等 MV, MR, MI, MJ, MH, MK × 9 种颜色组合 = 54 组多项式）。1$\sigma$ 不确定度范围 0.24–1.11 mag：	R2 核素/希腊字母/单位
+464	2. 只用 1–5 μm 光谱，缺光学 + 中红外；	2. 只用 1–5 $\mu$m 光谱，缺光学 + 中红外；	R2 核素/希腊字母/单位
+479	| 17 | 2MASS J0523−1403 | L2.5 | **半径极小**；有射电 + Hα 发射（Berger 2002 等），但本文 I 波段变率上界 ~11.7 mmag |	| 17 | 2MASS J0523−1403 | L2.5 | **半径极小**；有射电 + H$\alpha$ 发射（Berger 2002 等），但本文 I 波段变率上界 ~11.7 mmag |	R2 核素/希腊字母/单位
+483	| 41 | Kelu-1AB | L2.0 | 已知 L2/L4 双星；锂检验（Li λ6708）→ 各 ≲0.06 M⊙，但 Li 检测"tenuous"；等光度分解则各 ~0.089 R⊙，进一步约束极小位置 |	| 41 | Kelu-1AB | L2.0 | 已知 L2/L4 双星；锂检验（Li $\lambda$6708）→ 各 ≲0.06 M⊙，但 Li 检测"tenuous"；等光度分解则各 ~0.089 R⊙，进一步约束极小位置 |	R2 核素/希腊字母/单位
+507	1. **Stefan–Boltzmann（半径）**：L = 4πR² σ_SB T_eff⁴，σ_SB = 5.6704 × $10^{-5}$ erg cm⁻² s⁻¹ K⁻⁴	1. **Stefan–Boltzmann（半径）**：L = 4$\pi$R² $\sigma$_SB T_eff⁴，$\sigma$_SB = 5.6704 × $10^{-5}$ erg cm⁻² s⁻¹ K⁻⁴	R2 核素/希腊字母/单位
+508	2. **等效温度定义**：F = σ_SB T⁴（黑体通量等同）	2. **等效温度定义**：F = $\sigma$_SB T⁴（黑体通量等同）	R2 核素/希腊字母/单位
+512	5. **迭代 SED 光度**：模板 × poly9(λ, 修正因子) → 迭代至各波段残差 < 2%	5. **迭代 SED 光度**：模板 × poly9($\lambda$, 修正因子) → 迭代至各波段残差 < 2%	R2 核素/希腊字母/单位
+513	6. **黑体外推修正**：F_total = F_μm / f_bb(Teff)，其中 f_bb 是黑体在模板波长覆盖的辐射占比（典型 ~1.5% 修正）	6. **黑体外推修正**：F_total = F_$\mu$m / f_bb(Teff)，其中 f_bb 是黑体在模板波长覆盖的辐射占比（典型 ~1.5% 修正）	R2 核素/希腊字母/单位
+515	MV = 0.21509(V−R)³ − 2.81698(V−R)² + 14.16273(V−R) − 1.45226，σ = 0.53 mag，范围 1.61 ≤ (V−R) ≤ 3.64	MV = 0.21509(V−R)³ − 2.81698(V−R)² + 14.16273(V−R) − 1.45226，$\sigma$ = 0.53 mag，范围 1.61 ≤ (V−R) ≤ 3.64	R2 核素/希腊字母/单位
+528	| 光谱覆盖 | ~0.4 – 16.7 μm |	| 光谱覆盖 | ~0.4 – 16.7 $\mu$m |	R2 核素/希腊字母/单位
+57	| Stefan–Boltzmann law | 斯特凡–玻尔兹曼定律 L=4πR²σT⁴ | 5 | §5.4 |	| Stefan–Boltzmann law | 斯特凡–玻尔兹曼定律 L=4$\pi$R²$\sigma$T⁴ | 5 | §5.4 |	R2 核素/希腊字母/单位
+60	| lithium test (Rebolo 1992) | 锂检验（Li λ6708 线检测亚恒星） | 6+ | §1 |	| lithium test (Rebolo 1992) | 锂检验（Li $\lambda$6708 线检测亚恒星） | 6+ | §1 |	R2 核素/希腊字母/单位
+61	| Li λ6708 | 锂 6708 Å 吸收线 | 4 | §1 |	| Li $\lambda$6708 | 锂 6708 Å 吸收线 | 4 | §1 |	R2 核素/希腊字母/单位
+21	- **9 波段测光**（VRI + JHKs + W1W2W3, ~0.4–16.7 μm）；	- **9 波段测光**（VRI + JHKs + W1W2W3, ~0.4–16.7 $\mu$m）；	R2 核素/希腊字母/单位
+111	- 排除 2σ 外离群颜色。	- 排除 2$\sigma$ 外离群颜色。	R2 核素/希腊字母/单位
