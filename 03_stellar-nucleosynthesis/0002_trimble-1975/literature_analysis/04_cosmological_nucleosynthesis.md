@@ -33,7 +33,7 @@ $$\Gamma_\beta \approx H \quad \Rightarrow \quad T_{\rm freeze} \approx 0.8 \ \t
 
 [FACT] 中子数演化（简化）：
 $$\frac{n_n}{n_p}(t) = \frac{1}{6}\, e^{-t/\tau_n}$$
-其中 $\tau$_n = 878 s 为中子 $\beta$ 衰变寿命。
+其中 $\tau_{\rm n}$ = 878 s 为中子 $\beta$ 衰变寿命。
 
 [FACT] 原初 $^{4}{\rm He}$ 质量分数（近似解析解）：
 $$Y_p \approx \frac{2 (n_n/n_p)}{1 + (n_n/n_p)} \approx 0.25$$
@@ -83,15 +83,15 @@ $$Y_p \approx \frac{2 (n_n/n_p)}{1 + (n_n/n_p)} \approx 0.25$$
 
 [FACT] 支持宇宙线散裂证据：
 - 银河宇宙线中 Li、Be、B 是 "次级核素"（由传播中产生），其丰度随能量下降而升高；
-- $^{10}{\rm Be}$ 是放射性核（T_{1/2} ≈ 1.5 × $10^{6}$ yr），其宇宙线丰度直接给出传播时标约束；
+- $^{10}{\rm Be}$ 是放射性核（T_{1/2} ≈ $1.5\times10^{6}$ yr），其宇宙线丰度直接给出传播时标约束；
 - Li/Be/B 的银河系平均丰度与宇宙线传播模型计算值吻合。
 
 ## 4.4 关键数值
 
 - 原初 $^{4}{\rm He}$ 质量丰度 Y_p ≈ 0.24–0.25；
 - n/p 冻结温度 T_freeze ≈ 0.8 MeV，n/p ≈ 1/6；
-- 中子 $\beta$ 衰变寿命 $\tau$_n ≈ 878 s；
-- $^{10}{\rm Be}$ 半衰期 T_{1/2} ≈ 1.5 × $10^{6}$ yr；
+- 中子 $\beta$ 衰变寿命 $\tau_{\rm n}$ ≈ 878 s；
+- $^{10}{\rm Be}$ 半衰期 T_{1/2} ≈ $1.5\times10^{6}$ yr；
 - 核合成启动温度 T ≲ $10^{9}$ K，时间 t ~ 200–300 s。
 
 ## 4.5 [INTERPRETATION]

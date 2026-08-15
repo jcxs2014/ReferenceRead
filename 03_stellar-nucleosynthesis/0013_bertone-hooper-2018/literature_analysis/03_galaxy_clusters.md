@@ -24,18 +24,18 @@
 
 - [FACT] 上述 1933 引言**并非**首次使用"dark matter"一词。
 - [FACT] Zwicky 在同年早些时候发表的关于**宇宙射线源**的论文（Zwicky 1933b）中已用过该词：
-  > "According to the present estimates the average density of dark matter in our galaxy ($\rho$_g) and throughout the rest of the universe ($\rho$_u) are in the ratio $\rho$_g/$\rho$_u > 100 000."
+  > "According to the present estimates the average density of dark matter in our galaxy ($\rho_{\rm g}$) and throughout the rest of the universe ($\rho_{\rm u}$) are in the ratio $\rho_{\rm g}$/$\rho_{\rm u}$ > 100 000."
 - [FACT] 显然 Zwicky 知晓 Kapteyn/Oort/Jeans 的银河系暗物质研究——他的用法**直接延续**了这些前人的术语。
 
 ### 3.1.3 Zwicky 1937（英文，ApJ）
 
 - [FACT] 目标：确定星系质量，提出多种方法。
-- [FACT] 输入更新为：Coma 内 1000 个星系、半径 2×$10^{6}$ 光年、视向速度弥散 700 km/s。
+- [FACT] 输入更新为：Coma 内 1000 个星系、半径 $2\times10^{6}$ 光年、视向速度弥散 700 km/s。
 - [FACT] 为保守起见，剔除一个退行速度 5100 km/s 的星系作为离群。
 - [FACT] 结果：
-  - Coma 总质量下限：**4.5×$10^{13}$ M⊙**
-  - 每个星系平均质量：**4.5×$10^{10}$ M⊙**
-  - 假设每个星系平均绝对光度 8.5×$10^{7}$ L⊙
+  - Coma 总质量下限：**$4.5\times10^{13}$ M⊙**
+  - 每个星系平均质量：**$4.5\times10^{10}$ M⊙**
+  - 假设每个星系平均绝对光度 $8.5\times10^{7}$ L⊙
   - 得**质光比 M/L ≈ 500**（极高）
 
 ### 3.1.4 $H_{0}$ 修正问题
@@ -54,7 +54,7 @@
 
 - [FACT] 假设外圈星系绕 Virgo 做圆周运动。
 - [FACT] 总质量 = $10^{14}$ M⊙；已知 500 个星系。
-- [FACT] 每星系数均 = **2×$10^{11}$ M⊙**，远高于 Hubble 的 $10^{9}$ M⊙ 估计。
+- [FACT] 每星系数均 = **$2\times10^{11}$ M⊙**，远高于 Hubble 的 $10^{9}$ M⊙ 估计。
 - [FACT] Smith 引述：
   > "the difference represents internebular material, either uniformly distributed or in the form of great clouds of low luminosity surrounding the galaxies."
 - [FACT] Hubble《The Realm of Nebulae》引用的是 Smith 而非 Zwicky，Hubble 称此质量差异为"真实且重要"（real and important），但承认"不完美"。
@@ -69,7 +69,7 @@
 ### 3.2.2 Schwarzschild 1954
 
 - [FACT] 剔除"闯入者"星系后，径向速度弥散降到 **630 km/s**（仍大）。
-- [FACT] 采用更新 $H_{0}$ 与 5×$10^{8}$ L⊙/星系，得 M/L ≈ **800**（"令人惊愕地高"）。
+- [FACT] 采用更新 $H_{0}$ 与 $5\times10^{8}$ L⊙/星系，得 M/L ≈ **800**（"令人惊愕地高"）。
 - [FACT] 见**图 1**（1950s 暗物质问题快照：星系和星系团的距离、质量、光度、质光比）。
 
 ### 3.2.3 Ambartsumian（1950s 末）
@@ -97,11 +97,11 @@
 |------|-------------|-------------|------------|-------------------|
 | 星系团 | Coma | Coma | Virgo | Coma/其他 |
 | 星系数 | 800 | 1000 | 500 | — |
-| 系统半径 | $10^{6}$ ly | 2×$10^{6}$ ly | — | — |
+| 系统半径 | $10^{6}$ ly | $2\times10^{6}$ ly | — | — |
 | 视向弥散 | 观测 1000 / 预期 80 km/s | 700 km/s | 圆周运动假设 | 630 km/s |
-| 每星系数均 | $10^{9}$（假设） | 4.5×$10^{10}$ | 2×$10^{11}$ | — |
+| 每星系数均 | $10^{9}$（假设） | $4.5\times10^{10}$ | $2\times10^{11}$ | — |
 | M/L | — | ≈500 | — | ≈800 |
-| 总质量 | — | >4.5×$10^{13}$ M⊙ | $10^{14}$ M⊙ | — |
+| 总质量 | — | >$4.5\times10^{13}$ M⊙ | $10^{14}$ M⊙ | — |
 
 ## 3.4 关键公式
 
@@ -111,7 +111,7 @@
 $$2\langle T \rangle + \langle W \rangle = 0$$
 即平均动能 = 引力势能绝对值之半。
 $$M \sim \frac{5 \, R \, \sigma_v^2}{G}$$
-其中 R 为系统半径、$\sigma$_v 为速度弥散、G 为引力常数。
+其中 R 为系统半径、$\sigma_{\rm v}$ 为速度弥散、G 为引力常数。
 
 - [INTERPRETATION] 该式是所有**动力学暗物质测量**的基石——从星系团维里质量，到星系自转曲线 M(<r) = v²r/G，到太阳邻域 Oort 质量。
 

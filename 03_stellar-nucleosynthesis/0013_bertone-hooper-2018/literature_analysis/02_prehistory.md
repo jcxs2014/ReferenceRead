@@ -52,7 +52,7 @@
 ### 2.4.1 Lord Kelvin (1904)
 
 - [FACT] 将银河系恒星视为气体，建立系统尺寸与速度弥散的关系。
-- [FACT] 估计在半径 3.09×$10^{16}$ km 球内可能有 **$10^{9}$ 颗恒星**，其中 9/10 太暗看不到。
+- [FACT] 估计在半径 $3.09\times10^{16}$ km 球内可能有 **$10^{9}$ 颗恒星**，其中 9/10 太暗看不到。
 - [FACT] 对物质密度给出**上限**——更大密度将与观测恒星速度矛盾。
 
 ### 2.4.2 Poincaré (1906)
@@ -76,10 +76,10 @@
 ### 2.4.5 Oort (1932) — 第一次太阳邻域暗物质密度定量估计
 
 - [FACT] Oort 放松了 Kapteyn 的"恒星气体等温"假设。
-- [FACT] 得到太阳邻域总密度最可能值：**0.092 M⊙/pc³ = 6.3×$10^{-24}$ g/cm³**。
+- [FACT] 得到太阳邻域总密度最可能值：**0.092 M⊙/pc³ = $6.3\times10^{-24}$ g/cm³**。
 - [FACT] Kapteyn 值为 0.099，Jeans 1922 为 0.143，Lindblad 1926 为 0.217 M⊙/pc³。Oort 认为 Kapteyn 与其"意外地吻合"。
 - [FACT] Oort 扣除恒星贡献后，给出暗物质上限：
-  > "total mass of nebulous or meteoric matter near the sun is less than **0.05 M⊙/pc³**, or 3×$10^{-24}$ g/cm³; it is probably less than the total mass of visible stars, possibly much less."
+  > "total mass of nebulous or meteoric matter near the sun is less than **0.05 M⊙/pc³**, or $3\times10^{-24}$ g/cm³; it is probably less than the total mass of visible stars, possibly much less."
 - [FACT] 含义：**暗物质上限约为总密度的 1/2**，且 Oort 认为其主要形态应是**暗星 + 星云 + 流星物质**——即尚未识别出的普通重子天体。
 
 ### 2.4.6 [FACT] 关键判断
@@ -94,7 +94,7 @@
 
 $$\rho_{\rm tot} \sim \frac{\sigma_v^2}{G r^2}$$
 
-其中 $\sigma$_v 为速度弥散，r 为系统特征尺度。恒星作为"气体"，其弥散决定引力质量；若引力质量 > 恒星质量之和，差额即为"暗物质"。
+其中 $\sigma_{\rm v}$ 为速度弥散，r 为系统特征尺度。恒星作为"气体"，其弥散决定引力质量；若引力质量 > 恒星质量之和，差额即为"暗物质"。
 
 - [FACT] Oort 1932 特别处理**垂直运动学**：
   $$\rho_{\rm local} = \frac{1}{4\pi G}\frac{\partial}{\partial z}\left(\nu(z) \sigma_z^2(z)\right)$$

@@ -91,3 +91,29 @@ B²FH 时代依赖核物理理论和恒星观测；引力波时代（2017+）直
 ## 关键词
 
 `r-process` `s-process` `nucleosynthesis` `kilonova` `GW170817` `neutron star merger` `B2FH` `heavy elements`
+
+---
+
+## 分章导航（2026-08-15 补充分章正文后更新）
+
+> 本文按 READING_INSTRUCTIONS §3-§4 模板补全了 9 个正文分章文件，每个分章按 8 子结构（核心内容 / FACT / 公式 / 参数 / 图表 / 逻辑 / INTERPRETATION / CRITIQUE / 术语 / 页码）精读。
+
+| # | 章节 | 文件 | 原文对应 |
+|---|------|------|----------|
+| 01 | Introduction and Historical Reviews | `01_01_introduction_and_historical_reviews.md` | §I 引言 + 历史综述 |
+| 02 | Observations | `02_02_observations.md` | §II 观测：金属贫瘠星 / 原子数据 / 银河趋势 / 长寿命放射性 / 千新星 |
+| 03 | Basic Working of the r Process | `03_03_basic_working_of_r_process.md` | §III 网络方程 / 等待点 / $N_n/N_{seed}$ |
+| 04 | Experimental Developments | `04_04_experimental_developments_for_r_process.md` | §IV 核素生产 / 核质量 / β-decay / n-capture |
+| 05 | Nuclear Modeling | `05_05_nuclear_modeling_of_r_process_input.md` | §V 核质量模型 / β-decay 模型 / n-capture 模型 / 裂变 |
+| 06 | Astrophysical Sites | `06_06_astrophysical_sites_and_their_ejecta.md` | §VI CCSN / MRSN / Collapsar / NSM / NSBH |
+| 07 | Electromagnetic Signatures | `07_07_electromagnetic_signatures_of_r_process.md` | §VII kilonova 光谱 / 元素鉴定 |
+| 08 | Abundance Evolution in the Galaxy | `08_08_abundance_evolution_in_galaxy.md` | §VIII site 总结 / 化学演化 / cosmochronometry |
+| 09 | Final Remarks and Conclusions | `09_09_final_remarks_and_conclusions.md` | §IX 核物理 5 项挑战 + 天体物理 5 项挑战 + 三大 site 选项 |
+
+## 章节级核心关键词（按主题聚合）
+
+`('s-process', 'slow neutron capture process', 25)` `('r-process', 'rapid neutron capture process', 38)` `('kilonova', '千新星，NSM 抛射物产生的光学/近红外爆发', 22)` `('GW170817', 'LIGO 2017 探测的双中子星并合引力波事件', 18)` `('AT2017gfo', 'GW170817 的 kilonova 电磁对应体', 15)` `('lanthanide-poor/-rich', 'kilonova 早期/晚期 ejecta 的稀土元素丰度', 12)` `('B²FH', 'Burbidge-Burbidge-Fowler-Hoyle 1957 框架', 10)` `('AGB', 'Asymptotic Giant Branch', 28)`
+
+> **注**：本节为后续骨架更新追加，不影响原 00_overview.md 的 [FACT]/[INTERPRETATION]/[CRITIQUE] 框架。
+
+---

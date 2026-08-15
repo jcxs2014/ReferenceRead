@@ -96,7 +96,7 @@ ABSTRACT
    - 表 5 LTE 平均丰度
 6. ABUNDANCES FROM NON-LTE CALCULATIONS
    - Becker & Butler 表：C II (Eber & Butler 1988, Becker 1988)、N II (Becker & Butler 1988a, Becker 1988)、O II (Becker & Butler 1988b)
-   - He I 用 Auer & Mihalas (1973a)；幂律 W$\lambda$ ∝ $\epsilon$^$\beta$（$\beta$≈0.5），式 (5)–(6)
+   - He I 用 Auer & Mihalas (1973a)；幂律 W$\lambda$ ∝ $\epsilon^\beta$（$\beta$≈0.5），式 (5)–(6)
    - Si III 用 Lennon et al. 1986；Si IV 用 Becker & Butler 1990
    - 表 6（N I）、表 8（超巨星低 T* 尺度）、表 9（non-LTE 平均）、表 11（Si III $\lambda$5739）
 7. RESULTS AND DISCUSSION

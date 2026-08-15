@@ -31,7 +31,7 @@
 | previously | adv. | 时序 | 此前 | "rates **previously** estimated by Wagoner et al. have been superseded by ... new nuclear spectroscopic data." |
 | namely | adv. | 举例 | 即 | "four impedance effects: waiting points, photodisintegration, bottlenecks, **namely** reaction cycles." |
 | such as | phr. | 举例 | 例如 | "impedance effects **such as** waiting points and bottlenecks" |
-| given that | conj. | 条件因果 | 鉴于 | "given that $\Gamma$_$\gamma$ ≪ $\Gamma$_p, the resonance strength is dominated by $\Gamma$_$\gamma$." |
+| given that | conj. | 条件因果 | 鉴于 | "given that $\Gamma_\gamma$ ≪ $\Gamma_{\rm p}$, the resonance strength is dominated by $\Gamma_\gamma$." |
 
 ## B. 领域术语（本篇特有）
 
@@ -44,17 +44,17 @@
 | $T_{9}$ | 以 $10^{9}$ K 为单位的温度 | $T_{9}$ = T / $10^{9}$ K；新星 $T_{9}$≈0.1–0.5，XRB $T_{9}$≈0.7–1.5 | §1.1 |
 | reaction network | 反应网络 | 耦合微分方程组，描述多种核素之间的 $\beta$ 衰变、(p,$\gamma$)、(p,$\alpha$)、($\alpha$,$\gamma$) 等反应及逆反应 | §2.1 |
 | Gamow peak | 高莫峰 | Maxwell 分布 × 库仑穿透因子峰值对应的能量窗口，是 (p,$\gamma$) 关键测量能区 | §2.2 |
-| Gamow energy E_G | 高莫能量 | E_G = 2$\pi$² e⁴ Z_a² Z_b² $\mu$ / ℏ²，刻画库仑穿透对截面的指数抑制 | §2.2 |
+| Gamow energy E_G | 高莫能量 | E_G = 2$\pi^{2}$ e⁴ Z_a² Z_b² $\mu$ / ℏ²，刻画库仑穿透对截面的指数抑制 | §2.2 |
 | S factor | S 因子 | 剥离库仑穿透后反应截面随能量缓慢变化的部分，$\sigma$ = S(E)/E · exp(−√(E_G/E)) | §2.2 |
 | Breit-Wigner resonance | 布赖特-维格纳共振 | 单共振截面标准形式，由入射/出射道分宽度与总宽度决定 | §2.2 |
-| $\omega$$\gamma$ (omega-gamma) | 共振强度 | $\omega$·$\Gamma$_a·$\Gamma$_b/$\Gamma$，用于窄共振 Maxwell 积分后的反应率 | §2.2 |
+| $\omega$$\gamma$ (omega-gamma) | 共振强度 | $\omega$·$\Gamma_{\rm a}$·$\Gamma_{\rm b}$/$\Gamma$，用于窄共振 Maxwell 积分后的反应率 | §2.2 |
 | Hauser-Feshbach (HF) | 豪泽-费雪统计模型 | 高激发能、高能级密度下用统计方法计算反应截面 | §2.2 |
 | proton drip line | 质子滴线 | 复合核质子分离能为零时的边界，越过此边界无法继续质子俘获 | §2.2 |
 | waiting point | 等待点 | 反应流抵达质子滴线内侧一个质子，只能等待 $\beta^{"+" if m.group(1)=="⁺" else "-"}$ 或 EC 衰变的重核 | §4.5.1 |
 | photodisintegration | 光致分解 | 高能 $\gamma$ 将复合核打回质子的逆反应，抑制偶偶 T=1 核的 (p,$\gamma$) | §4.5.2 |
 | bottleneck reaction | 瓶颈反应 | 在 $T_{9}$ < 1 时通向更重元素唯一链路的奇偶 T=1/2 核 (p,$\gamma$) | §4.5.3 |
 | reaction cycles | 反应循环 | (p,$\alpha$)/(p,$\gamma$) 竞争导致的 NeNa、MgAl、SiP 等循环，是流的阻抗 | §4.5.4 |
-| $\Gamma$_$\gamma$ (radiative width) | 辐射宽度 | 共振 $\gamma$ 衰变分宽度，对 $^{13}{\rm N}$(p,$\gamma$)$^{14}{\rm O}$ 决定反应率不确定度 | §3.2 |
+| $\Gamma_\gamma$ (radiative width) | 辐射宽度 | 共振 $\gamma$ 衰变分宽度，对 $^{13}{\rm N}$(p,$\gamma$)$^{14}{\rm O}$ 决定反应率不确定度 | §3.2 |
 | spin-statistical factor $\omega$ | 自旋统计因子 | Breit-Wigner 中考虑自旋自由度的统计权重 | §2.2 |
 | compound nucleus | 复合同位素 | 入射粒子被靶核完全吸收后形成的激发态核 | §2.2 |
 | Thomas-Ehrman shift | 托马斯-厄尔曼位移 | 类比核中质子未束缚态向束缚态的能量移动，用于类比态推 (p,$\gamma$) 共振 | §4.2 |

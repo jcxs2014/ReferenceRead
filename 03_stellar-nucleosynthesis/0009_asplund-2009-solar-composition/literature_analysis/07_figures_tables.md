@@ -9,12 +9,12 @@
 ## 7.1 Table 1 — 推荐光球 + CI 陨石丰度（p.42）
 
 ### 7.1.1 目的与结构
-- [FACT] 列出现今太阳**光球**丰度（log $\epsilon$_X）以及对应 **CI 陨石**丰度。惰性气体（He, Ne, Ar, Kr, Xe）光球值为**间接测定**（方括号标示）。
+- [FACT] 列出现今太阳**光球**丰度（log $\epsilon_{\rm X}$）以及对应 **CI 陨石**丰度。惰性气体（He, Ne, Ar, Kr, Xe）光球值为**间接测定**（方括号标示）。
 - [FACT] 共 85 个元素条目，含所有放射性核素（Th, U）。
 
 ### 7.1.2 关键数值（摘要）
 
-| Elem | log $\epsilon$_AGSS09 | 陨石 | $\Delta$ | Elem | log $\epsilon$ | 陨石 |
+| Elem | log $\epsilon_{\rm AGSS09}$ | 陨石 | $\Delta$ | Elem | log $\epsilon$ | 陨石 |
 |---|---|---|---|---|---|---|
 | H | 12.00 | 8.22±0.04 | — | He | [10.93±0.01] | 1.29 |
 | Li | 1.05±0.10 | 3.26±0.05 | **−2.21**（亏缺） | Be | 1.38±0.09 | 1.30±0.03 |
@@ -50,7 +50,7 @@
 ## 7.2 Table 2 — C, N, O 丰度比较（不同谱系 + 不同模型，p.43）
 
 ### 7.2.1 结构
-对 [C I], C I, CH, $C_{2}$, N I, NH, [O I], O I, OH 谱线，分别在 **3D、<3D>（空间平均 3D）、HM 1D、MARCS 1D** 模型下的 log $\epsilon$_C,N,O 值。
+对 [C I], C I, CH, $C_{2}$, N I, NH, [O I], O I, OH 谱线，分别在 **3D、<3D>（空间平均 3D）、HM 1D、MARCS 1D** 模型下的 log $\epsilon_{\rm C}$,N,O 值。
 
 ### 7.2.2 关键数值
 
@@ -133,7 +133,7 @@
 
 ## 7.6 Figure 1 — 3D 模型平均温度结构（p.47）
 
-- [FACT] **横轴**：log $\tau$_500nm（500 nm 处光学深度的对数）
+- [FACT] **横轴**：log $\tau_{\rm 500nm}$（500 nm 处光学深度的对数）
 - **纵轴**：T (K)，4000–9000 K
 - [FACT] 蓝实线：Trampedach et al. (2009) 3D 模型平均温度
 - 蓝虚线：3D 模型空间+时间 RMS 涨落
@@ -220,7 +220,7 @@
 ## 7.12 Figure 7 — 光球 − 陨石丰度差（p.53）
 
 - [FACT] 横轴：Z（1–85）
-- 纵轴：log $\epsilon$_ph − log $\epsilon$_met（dex，−0.4 到 +0.4）
+- 纵轴：log $\epsilon_{\rm ph}$ − log $\epsilon_{\rm met}$（dex，−0.4 到 +0.4）
 - [FACT] 观察：大多数点集中在 0.0 附近（±0.1 dex 内）
 - [FACT] 缺失：Li（太阳亏缺）、C/N/惰性气体（陨石亏损）→ 超出 y 轴范围
 

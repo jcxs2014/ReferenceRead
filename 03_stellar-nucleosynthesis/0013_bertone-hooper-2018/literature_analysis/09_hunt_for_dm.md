@@ -77,7 +77,7 @@
   - Gunn-Lee-Lerche-Schramm-Steigman 1978（Astrophys. J. 223, 1015）
   - Stecker 1978（Astrophys. J. 223, 1032）
 - [FACT] 关注对象：重稳定轻子（heavy neutrino）。
-- [FACT] 当时 $\gamma$ 背景（SAS-2，Fichtel-Simpson-Thompson 1978，35-100 MeV）：~6×$10^{-5}$ cm⁻² s⁻¹ sr⁻¹ —— 远高于暗物质湮灭平滑预测；但**暗物质晕内湮灭**可大幅提高预测。
+- [FACT] 当时 $\gamma$ 背景（SAS-2，Fichtel-Simpson-Thompson 1978，35-100 MeV）：$~6\times10^{-5}$ cm⁻² s⁻¹ sr⁻¹ —— 远高于暗物质湮灭平滑预测；但**暗物质晕内湮灭**可大幅提高预测。
 - [FACT] Gunn et al. 断言 GeV 暗物质信号"可能在未来 $\gamma$ 观测中被发现"。
 
 ### 9.3.2 多种信使

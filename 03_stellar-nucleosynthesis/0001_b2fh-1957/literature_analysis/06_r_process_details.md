@@ -68,29 +68,29 @@ $\Delta$Q_n / $\Delta$A ≈ -0.25 to -0.10 MeV
 
 [FACT] 论文指出，r 过程丰度也呈现**稳态流**的特征：
 ```
-$\sigma$_$\gamma$(A)·N(A) = $\lambda$_$\gamma$(A-1)·N(A-1) = const
-N(A) ∝ 1/$\sigma$_$\gamma$(A)
+$\sigma_\gamma$(A)·N(A) = $\lambda_\gamma$(A-1)·N(A-1) = const
+N(A) ∝ 1/$\sigma_\gamma$(A)
 ```
 
 ### 6.3.2 中子俘获截面 [FACT]
 
 r 过程中，中子能量远高于热中子（~10–100 keV 量级）。因此使用中子俘获的**几何截面**：
 ```
-$\sigma$_$\gamma$ ≈ $\pi$·(R + $\lambda$)² ≈ 几何截面（~4–5 barns）
+$\sigma_\gamma$ ≈ $\pi$·(R + $\lambda$)² ≈ 几何截面（~4–5 barns）
 ```
 
 ### 6.3.3 等待点公式 [FACT]
 
 在等待点（$\beta$ 衰变主导），丰度由 $\beta$ 衰变半衰期决定：
 ```
-N(A_waiting) ∝ 1 / $\lambda$_$\beta$(A_waiting) = t_$\beta$(A_waiting) / ln2
+N(A_waiting) ∝ 1 / $\lambda_\beta$(A_waiting) = t_$\beta$(A_waiting) / ln2
 ```
 
 ### 6.3.4 $\beta$ 衰变能量 W_$\beta$ [FACT]
 
 **关键公式 [FACT]**：
 ```
-t_$\beta$ ∝ 1/W_$\beta$⁵      （Fermi $\beta$ 衰变理论）
+t_$\beta$ ∝ 1/W_$\beta^{5}$      （Fermi $\beta$ 衰变理论）
 ```
 
 论文明确指出，对中子富集的重核：
@@ -115,7 +115,7 @@ W_$\beta$(A) ≈ 有效 $\beta$ 衰变能量（MeV）
 
 在持续中子照射下，各 A 的核素丰度达到稳态：
 ```
-dN(A)/dt = $\lambda$_$\gamma$(A-1)·N(A-1) - [$\lambda$_$\gamma$(A) + $\lambda$_$\beta$(A)]·N(A) = 0
+dN(A)/dt = $\lambda_\gamma$(A-1)·N(A-1) - [$\lambda_\gamma$(A) + $\lambda_\beta$(A)]·N(A) = 0
 ```
 
 ### 6.4.2 "循环"（Cycling）[FACT]
@@ -155,7 +155,7 @@ t_total ≈ 10–100 s
 [FACT] 论文明确指出，r 过程的最终产物包括：
 - **铀 (U²³⁵, U²³⁸)**
 - **钍 (Th²³²)**
-- **钚 (Pu²⁴⁴)**（半衰期 ~8×$10^{7}$ yr，今日确认为 r 过程产物）
+- **钚 (Pu²⁴⁴)**（半衰期 $~8\times10^{7}$ yr，今日确认为 r 过程产物）
 
 ### 6.5.4 自发裂变终止（图 VII.4）[FACT]
 

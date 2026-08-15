@@ -80,7 +80,7 @@ $$\langle\sigma\rangle(A) N_s(A) = \frac{f \cdot N_{56}}{A} \prod_{i=56}^{A} \le
 
 [FACT] **仅两个自由参数**：
 - f = 56Fe 丰度作为 s 过程种子的比例
-- $\tau$₀ = 平均中子照射量（mb⁻¹）
+- $\tau_{0}$ = 平均中子照射量（mb⁻¹）
 
 [FACT] **Figure 15**（⟨$\sigma$⟩Ns 曲线）：
 - 经典模型（实线）与 s-only 核素的实验乘积（符号）在 A = 56–209 范围**极好符合**
@@ -90,7 +90,7 @@ $$\langle\sigma\rangle(A) N_s(A) = \frac{f \cdot N_{56}}{A} \prod_{i=56}^{A} \le
 
 [FACT] **两个分量**：
 - **主要分量 (main component)**：AGB 星 He 壳层燃烧（Iben & Renzini 1983; Hollowell & Iben 1989）
-- **弱分量 (weak component)**：大质量星核心 He 燃烧（Peters 1968 等），由 22Ne($\alpha$,n)25Mg 在中高温下驱动，中子密度较低，持续时间 ~3×$10^{4}$ 年
+- **弱分量 (weak component)**：大质量星核心 He 燃烧（Peters 1968 等），由 22Ne($\alpha$,n)25Mg 在中高温下驱动，中子密度较低，持续时间 $~3\times10^{4}$ 年
 
 [FACT] 现代 AGB 模型的两步中子产生（Torino group, Gallino et al.）：
 1. **13C($\alpha$,n)16O**：H 燃烧阶段（$T_{8}$ ~ 1，低温）
@@ -161,5 +161,5 @@ $$n_n = \frac{1-2f_\beta}{f_\beta+1} \cdot \frac{v_T \langle\sigma\rangle_{148\t
 | s-only 核素均方偏差 | 3% |
 | 176Lu 恒星半衰期 | ~几年（vs 36 Gyr 地面） |
 | AGB He 燃烧持续时间 | ~200 yr/闪 |
-| H 燃烧补充 He 时间 | ~5×$10^{4}$ yr |
+| H 燃烧补充 He 时间 | $~5\times10^{4}$ yr |
 | AGB 闪次数 | 最多 ~20 次 |

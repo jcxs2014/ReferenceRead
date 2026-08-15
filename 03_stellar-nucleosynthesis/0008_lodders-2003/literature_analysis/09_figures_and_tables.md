@@ -190,10 +190,10 @@ $Al_{2}$$O_{3}$ (1677) → Hibonite (1659) → Perovskite (1593) → $Ca_{4}$$Ti
 [FACT] 式 6：log N(El)₀ = A(El)₀ − 1.614
 [FACT] 式 7：X_Al = n(Al)/n(H+$H_{2}$+He)
 [FACT] 式 8：P_Al = X_Al P_tot = $\Sigma$ P_Al-gas
-[FACT] 式 9：P_Al = a_Al[K_Al + K_AlO $fO_{2}$^0.5 + ...]
+[FACT] 式 9：P_Al = a_Al[K_Al + K_AlO $fO_{2}^{0.5}$ + ...]
 [FACT] 式 10：2Al(g) + 1.5$O_{2}$ = $Al_{2}$$O_{3}$(s)
-[FACT] 式 11：a_$Al_{2}$$O_{3}$ = a_Al² $fO_{2}$^1.5 K_$Al_{2}$$O_{3}$
-[FACT] 式 12：P_O = 2$fO_{2}$ + $fO_{2}$^0.5 [K_CO a_C + K_$H_{2}$O a_$H_{2}$ + ...]
+[FACT] 式 11：a_$Al_{2}$$O_{3}$ = a_Al² $fO_{2}^{1.5}$ K_$Al_{2}$$O_{3}$
+[FACT] 式 12：P_O = 2$fO_{2}$ + $fO_{2}^{0.5}$ [K_CO a_C + K_$H_{2}$O a_$H_{2}$ + ...]
 [FACT] 式 13：Fe(g) = Fe(metal)
 [FACT] 式 14：log K_Fe = A + B/T
 [FACT] 式 15：−log P_Fe = A + B/T

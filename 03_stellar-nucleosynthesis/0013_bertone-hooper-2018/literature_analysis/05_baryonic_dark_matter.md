@@ -34,7 +34,7 @@
 ### 5.2.2 Paczynski 预测（核心数值）
 
 - [FACT] 微透镜**光学深度**（给定时刻被放大的恒星比例）：
-  - 若晕全由 MACHO 组成，约 **1 / (2×$10^{6}$)** 颗恒星同时被放大
+  - 若晕全由 MACHO 组成，约 **1 / ($2\times10^{6}$)** 颗恒星同时被放大
 - [FACT] 事件时长：
 $$t \sim 130\,{\rm d}\times (M/M_\odot)^{0.5}$$
 - [FACT] 最佳探测质量范围 **$10^{-7}$ M⊙ 到 $10^{2}$ M⊙**（小时到年量级变化）。
@@ -52,7 +52,7 @@ $$t \sim 130\,{\rm d}\times (M/M_\odot)^{0.5}$$
 - [FACT] Irwin et al. 1989 首报微透镜事件。
 - [FACT] MACHO 1993 年 10 月首次事件（0.03–0.5 M⊙）；同月 EROS 报两事件（相似质量范围）。
 - [FACT] Griest 2000 引述："After the discovery of MACHOs in 1993, some thought that the dark matter puzzle had been solved."
-- [FACT] **MACHO 5.7 年**监测 40×$10^{6}$ 颗恒星，识别 **14–17 候选事件**，**远**高于背景预期。
+- [FACT] **MACHO 5.7 年**监测 $40\times10^{6}$ 颗恒星，识别 **14–17 候选事件**，**远**高于背景预期。
   - 结论：**8%–50%** 的银河系晕质量为致密天体（多集中于 **0.15–0.9 M⊙**）。
 - [FACT] **EROS 6.7 年**只识别 **1** 候选事件（另一 1993 事件后被排除）。
   - 结论：晕中 MACHO 质量分数 **< 8%**（Tisserand et al. 2007）。
@@ -72,11 +72,11 @@ $$t \sim 130\,{\rm d}\times (M/M_\odot)^{0.5}$$
 | 1957 | Burbidge-Burbidge-Fowler-Hoyle (B$^2$FH) 经典综述 —— 恒星核合成主导 |
 | 1965 | CMB 发现（Penzias-Wilson）推动 BBN 精确化 |
 | 1967 | Wagoner-Fowler-Hoyle：原初 He ~26-28% |
-| 1973 | Reeves-Audouze-Fowler-Schramm 首次用观测轻元素丰度给出 $\Omega$_b ≲ 0.1 $\Omega$_crit |
+| 1973 | Reeves-Audouze-Fowler-Schramm 首次用观测轻元素丰度给出 $\Omega_{\rm b}$ ≲ 0.1 $\Omega_{\rm crit}$ |
 | 1998 | Burles-Tytler 高精度原初氘丰度测量 |
-| 2001 | Burles-Nollett-Turner：$\Omega$_b h² = **0.020 ± 0.002**（95% CL） |
-| 2013 | WMAP 9 年：$\Omega$_b h² = **0.02264 ± 0.00050**（68% CL） |
-| 2015 | Planck：$\Omega$_b h² = **0.02225 ± 0.00016**（<1% 精度） |
+| 2001 | Burles-Nollett-Turner：$\Omega_{\rm b}$ h² = **0.020 ± 0.002**（95% CL） |
+| 2013 | WMAP 9 年：$\Omega_{\rm b}$ h² = **0.02264 ± 0.00050**（68% CL） |
+| 2015 | Planck：$\Omega_{\rm b}$ h² = **0.02225 ± 0.00016**（<1% 精度） |
 
 - [FACT] 重子物质仅占宇宙物质的 **< 20%**。
 - [FACT] CMB 重子密度从**奇数 / 偶数峰高度比**得到。

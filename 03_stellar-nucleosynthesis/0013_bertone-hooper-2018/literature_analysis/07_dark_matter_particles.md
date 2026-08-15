@@ -25,7 +25,7 @@
 
 | 年份 | 作者 | 结论 / 事件 |
 |------|------|-------------|
-| 1966 | Gershtein & Zeldovich | 首次讨论宇宙学中中微子；基于 CMB 3 K；$\nu$_e, $\nu$_$\mu$ 热遗迹；**m_$\nu$ ≲ 400 eV** |
+| 1966 | Gershtein & Zeldovich | 首次讨论宇宙学中中微子；基于 CMB 3 K；$\nu_{\rm e}$, $\nu_\mu$ 热遗迹；**m_$\nu$ ≲ 400 eV** |
 | 1972 | Cowsik & McClelland | 类似方法，单种 Dirac $\nu$ **m_$\nu$ ≲ 8 eV**（Marx-Szalay 1972 独立） |
 | 1976 | Szalay & Marx | 讨论 ~10 eV $\nu$ 可构成缺失质量 |
 | 1977 Apr | Hut | 排除 120 eV – 3 GeV |
@@ -92,7 +92,7 @@ $$P_R = (-1)^{2s + 3B + L}$$
 | 1983 | Weinberg | 光微子质量下界 **m > 1.8 GeV** |
 | 1983 | Goldberg | 同，独立 |
 | 1983-1984 | Ellis-Hagelin-Nanopoulos-Olive-Srednicki | 扩展到多种中性微子 |
-| 1983 | Ellis et al. (Phys. Lett. B) | 脚注：可施加更严缺失质量约束 $\rho$_$\chi$ ≤ 2×$10^{-30}$ ($\Omega$h²) g/cm³ |
+| 1983 | Ellis et al. (Phys. Lett. B) | 脚注：可施加更严缺失质量约束 $\rho_\chi$ ≤ $2\times10^{-30}$ ($\Omega$h²) g/cm³ |
 
 - [FACT] SUSY 的吸引力**不完全依赖暗物质**——还能解决**电弱等级问题**（hierarchy problem）、实现**规范耦合统一**（Dimopoulos-Raby-Wilczek 1981；Ibanez-Ross 1981；Marciano-Senjanovic 1982）。
 - [FACT] 若宇宙物质密度恰与可见重子一致，粒子物理学家仍会关注 SUSY——暗物质只是"附加奖励"。
@@ -118,7 +118,7 @@ $$m_a \sim \frac{\lambda_{\rm QCD}^2}{f_{\rm PQ}}, \quad \lambda_{\rm QCD} \sim 
 
 | 约束 | 排除质量范围 | 出处 |
 |------|--------------|------|
-| 稀有介子衰变 K⁺→$\pi$⁺a, J/$\psi$→$\gamma$a | m_a > ~10 keV | 综述 |
+| 稀有介子衰变 K⁺→$\pi^{\rm +}$a, J/$\psi$→$\gamma$a | m_a > ~10 keV | 综述 |
 | 红巨星快速冷却 | m_a > ~1 eV | 综述 |
 | SN1987A | m_a ≳ $10^{-3}$ eV | 综述（引自 Kolb-Turner 1990 Ch.10） |
 | 现代主要候选质量区间 | $10^{-6}$ – $10^{-4}$ eV | 综述 |
@@ -126,7 +126,7 @@ $$m_a \sim \frac{\lambda_{\rm QCD}^2}{f_{\rm PQ}}, \quad \lambda_{\rm QCD} \sim 
 ### 7.3.4 轴子产生机制
 
 - [FACT] **热产生**（Kephart-Weiler 1987；Turner 1987）——丰度极小，不足。
-- [FACT] **失配机制**（misalignment）：PQ 场初始值为大值，当 T ~ $\lambda$_QCD 时场滚动到极小值，能量转换为轴子（Abbott-Sikivie 1983；Dine-Fischler 1983；Preskill-Wise-Wilczek 1983）。典型初始条件给出 m_a ~ $10^{-5}$ eV 时密度约等于暗物质密度。
+- [FACT] **失配机制**（misalignment）：PQ 场初始值为大值，当 T ~ $\lambda_{\rm QCD}$ 时场滚动到极小值，能量转换为轴子（Abbott-Sikivie 1983；Dine-Fischler 1983；Preskill-Wise-Wilczek 1983）。典型初始条件给出 m_a ~ $10^{-5}$ eV 时密度约等于暗物质密度。
 - [FACT] **拓扑缺陷**：弦（strings）与畴壁（domain walls），衰变产生轴子 ~ 失配量（Davis 1986）。
 - [FACT] 若暴胀发生在 PQ 破缺**之后**，缺陷网络被抹除；反之保留。
 - [FACT] 若暴胀在 PQ 破缺**之后**，可能存在**人择解释**（Linde 1991；Wilczek 2004；Tegmark et al. 2006）——$\Theta$̄ 初始值 ~ O(1) 区域轴子密度过高、空间快速收缩；稀有 $\Theta$̄ ≪1 区域允许宇宙膨胀，生命存在于此 → 我们必然观测到"暗物质相当的轴子密度"。
@@ -156,7 +156,7 @@ $$\sigma v \sim 10^{-26}\,{\rm cm^3/s}$$
 | 公式 | 说明 |
 |------|------|
 | m_$\chi$ > ~1–100 keV | 冷暗物质下界（避免退耦为热暗物质） |
-| $\sigma$v ≈ $10^{-26}$ cm³/s | 热遗迹丰度匹配 $\Omega$_DM h² ≈ 0.12 的截面 |
+| $\sigma$v ≈ $10^{-26}$ cm³/s | 热遗迹丰度匹配 $\Omega_{\rm DM}$ h² ≈ 0.12 的截面 |
 | $\Omega$h² ≈ 0.1 / ($\sigma$v) [近似] | WIMP 热遗迹丰度公式（Griest-Seckel） |
 
 ## 7.5 [CRITIQUE]

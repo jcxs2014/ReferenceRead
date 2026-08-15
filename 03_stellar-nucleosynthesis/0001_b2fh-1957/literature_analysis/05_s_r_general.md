@@ -90,22 +90,22 @@ N(A) ∝ 1/$\sigma$(A)
 
 | 条件 | 中子密度 | 每 Fe 核中子数 | t_$\gamma$ (nearly Fe) | t_$\gamma$ (A~150) | 稳态流? |
 |---|---|---|---|---|---|
-| 低（红巨星内 $^{12}{\rm C}$($\alpha$,n) 为主） | ~$10^{7}$ cm⁻³ | ~5 | 6×$10^{6}$ yr | $10^{7}$–$10^{8}$ yr | $\sigma$N 下降 |
+| 低（红巨星内 $^{12}{\rm C}$($\alpha$,n) 为主） | ~$10^{7}$ cm⁻³ | ~5 | $6\times10^{6}$ yr | $10^{7}$–$10^{8}$ yr | $\sigma$N 下降 |
 | 高（$^{20}{\rm Ne}$($\alpha$,n) 或强混合） | ~$10^{11}$ cm⁻³ | ~100 | $10^{4}$ yr | 10 yr | $\sigma$N 常数 |
 
 ### 5.4.2 Kr 同位素的 s 过程回路 [FACT]
 
-Se⁷⁸ 的 $\beta$ 衰变半衰期 = 7×$10^{5}$ yr（**关键的分支点**）：
+Se⁷⁸ 的 $\beta$ 衰变半衰期 = $7\times10^{5}$ yr（**关键的分支点**）：
 - 92% 分支 → Kr⁸⁰（主链）
 - 8% 分支 → 绕过 Kr⁸⁰
 
 稳态流方程：
 ```
-$\lambda$_$\gamma$(Kr⁸⁰)·N(Kr⁸⁰) = 0.92 · $\lambda$_$\gamma$(Se⁷⁸)·N(Se⁷⁸)
-$\lambda$_$\gamma$(Kr⁸²)·N(Kr⁸²) = $\lambda$_$\gamma$(Se⁸⁰)·N(Se⁸⁰) + $\lambda$_$\beta$(Kr⁸¹)·N(Kr⁸¹)
+$\lambda_\gamma$(Kr⁸⁰)·N(Kr⁸⁰) = 0.92 · $\lambda_\gamma$(Se⁷⁸)·N(Se⁷⁸)
+$\lambda_\gamma$(Kr⁸²)·N(Kr⁸²) = $\lambda_\gamma$(Se⁸⁰)·N(Se⁸⁰) + $\lambda_\beta$(Kr⁸¹)·N(Kr⁸¹)
 ```
 
-推导出 t_$\gamma$(Se⁷⁸) ≈ 5×$10^{6}$ yr，折算到 Fe 附近（$\sigma$=30 mb）：t_$\gamma$ ≈ **6×$10^{6}$ yr**。
+推导出 t_$\gamma$(Se⁷⁸) ≈ $5\times10^{6}$ yr，折算到 Fe 附近（$\sigma$=30 mb）：t_$\gamma$ ≈ **$6\times10^{6}$ yr**。
 
 ### 5.4.3 Gd 同位素 [FACT]
 

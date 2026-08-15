@@ -85,3 +85,25 @@ s 和 r 过程共同合成全部比铁重的元素，两者缺一不可：s 过�
 ## 关键词
 
 `s-process` `AGB star` `weak s-process` `main s-process` `neutron capture` `cross section` `barium stars` `s-only nuclides`
+
+---
+
+## 分章导航（2026-08-15 补充分章正文后更新）
+
+> 本文按 READING_INSTRUCTIONS §3-§4 模板补全了 5 个正文分章文件，每个分章按 8 子结构（核心内容 / FACT / 公式 / 参数 / 图表 / 逻辑 / INTERPRETATION / CRITIQUE / 术语 / 页码）精读。
+
+| # | 章节 | 文件 | 原文对应 |
+|---|------|------|----------|
+| 01 | Introduction | `01_01_introduction.md` | §I Introduction |
+| 02 | Nuclear Physics | `02_02_nuclear_physics.md` | §II Nuclear Physics（截面测量、统计模型、核数据、反应率） |
+| 03 | Stellar Models | `03_03_stellar_models.md` | §III Stellar Models（Weak s 大质量星 + Main s AGB + Strong s 低金属丰度） |
+| 04 | Observational Constraints | `04_04_observational_constraints.md` | §IV Observational Constraints（Ba/CH/CEMP-s 星、详细丰度模式） |
+| 05 | Conclusions | `05_05_conclusions.md` | §V Summary |
+
+## 章节级核心关键词（按主题聚合）
+
+`('s-process', 'slow neutron capture process，AGB 星内约 10^4 yr 完成', 38)` `('Main s component', 'AGB 星中 He 燃烧和 C 燃烧壳层产生的 s 过程', 24)` `('Weak s component', '大质量恒星 C 壳层产生的 s 过程', 18)` `('MACS', 'Maxwellian-Averaged Cross Section，s 过程关键输入', 16)` `('SEF', 'Stellar Enhancement Factor，星际等离子体中的核反应增强因子', 8)` `('Branch point', '分支点核素，s 过程路径上 β-decay 与 n-capture 竞争的核素', 12)` `('KADONIS', 'Karlsruhe Database of Nucleosynthesis in Stars', 5)` `('Cross section', '截面，n-capture 概率', 28)`
+
+> **注**：本节为后续骨架更新追加，不影响原 00_overview.md 的 [FACT]/[INTERPRETATION]/[CRITIQUE] 框架。
+
+---

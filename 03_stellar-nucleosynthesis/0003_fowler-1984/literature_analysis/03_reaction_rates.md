@@ -17,7 +17,7 @@
 **N_A ⟨$\sigma$u⟩** — reactions per sec per (mol·cm⁻³)
 
 其中：
-- **N_A = 6.022×$10^{23}$ mol⁻¹**（Avogadro 常数）
+- **N_A = $6.022\times10^{23}$ mol⁻¹**（Avogadro 常数）
 - **⟨$\sigma$u⟩**：Maxwell-Boltzmann 平均，为 $\sigma$(u)·u 的函数
 - $\sigma$ 单位 cm²，u 单位 cm s⁻¹
 - 乘以两种反应物的数密度乘积得到 reactions per sec per cm³
@@ -43,7 +43,7 @@
 **Table I 的核心公式：**
 
 ```
-$\sigma$(E) = $\pi$ · g · $\lambda$² · P(E) · (INTRINSIC NUCLEAR FACTOR)
+$\sigma$(E) = $\pi$ · g · $\lambda^{2}$ · P(E) · (INTRINSIC NUCLEAR FACTOR)
 S(E) = $E_{0}$(E) · exp( +E_b/E^(1/2) )
 ```
 
@@ -54,7 +54,7 @@ S(E) = $E_{0}$(E) · exp( +E_b/E^(1/2) )
 - **g = 2J+1 / (2$j_{0}$+1)(2$j_{1}$+1)**：自旋统计因子
 - **S(E)**：天体物理 S 因子，缓慢变化，可外推
 
-[FACT] 单位：$\sigma$ 通常用 **barn ($10^{-24}$ cm²)**，能量用 **MeV (1.602×$10^{-6}$ erg)**，S 因子单位为 **MeV·b**（有时也用 keV·b）。
+[FACT] 单位：$\sigma$ 通常用 **barn ($10^{-24}$ cm²)**，能量用 **MeV ($1.602\times10^{-6}$ erg)**，S 因子单位为 **MeV·b**（有时也用 keV·b）。
 
 [FACT] 表 I 中标记 **$Z_{0}$, $Z_{1}$** 为两反应核的电荷数，**A** 为约化质量（原子质量单位）。
 
@@ -113,7 +113,7 @@ $E_{0}$ = 0.122 · ($Z_{0}$ $Z_{1}$ A)^(1/3) · T_9^(2/3)  MeV
 | 量 | 公式 |
 |----|------|
 | 反应速率 | N_A ⟨$\sigma$u⟩ (per mol·cm³·s) |
-| $\sigma$(E) | $\pi$g $\lambda$² P(E) × [intrinsic] |
+| $\sigma$(E) | $\pi$g $\lambda^{2}$ P(E) × [intrinsic] |
 | S(E) | $E_{0}$(E) exp(+E_b/E^(1/2)) |
 | $E_{0}$ | 0.122 ($Z_{0}$$Z_{1}$A)^(1/3) $T_{9}$^(2/3) MeV |
 | ⟨$\sigma$u⟩_nr | ∝ $T_{9}$^(−2/3) exp(−3$E_{0}$/kT) |

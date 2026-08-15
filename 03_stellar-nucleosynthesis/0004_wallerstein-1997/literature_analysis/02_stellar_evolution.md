@@ -38,7 +38,7 @@
 - 左半部分：LMXB 的最大光度，恒定半径线 ~ 10^25 cm（相当 1.4 $M_\odot$ NS 或 10 $M_\odot$ BH 的半径）
 - 星形符号：USXRs、新星后中心星、PN 中心星
 
-[FACT] 主序寿命 $\tau$_MS ∝ M^(−2.25)：
+[FACT] 主序寿命 $\tau_{\rm MS}$ ∝ M^(−2.25)：
 - 1 $M_\odot$：~10^10 年（~1 Hubble 时间）
 - 25 $M_\odot$：~7×10^6 年
 
@@ -238,10 +238,10 @@
 2. **共同包层 (Common Envelope, CE)**：供星质量 >> 吸星质量或供星有深对流包层时，吸星无法调节结构 → 物质填滿吸星 Roche 瓣 → CE 形成 → "鸡蛋搅拌器" 摩擦耗散 → CE 物质被驱散 → 轨道收缩
 3. **角动量损失**：引力波辐射 (GWR) 或磁星风 (MSW)
 
-[FACT] **CE 效率参数**：$\alpha$_CE = $\Delta$E_remove / $\Delta$E_bind
+[FACT] **CE 效率参数**：$\alpha_{\rm CE}$ = $\Delta$E_remove / $\Delta$E_bind
 - 越小 → 轨道收缩越大
 - 近几十年有争议（Iben & Livio 1993）
-- 3D 光滑粒子流体动力学计算建议 $\alpha$_CE ≈ 1（Rasio & Livio 1996; Yorke et al. 1995）
+- 3D 光滑粒子流体动力学计算建议 $\alpha_{\rm CE}$ ≈ 1（Rasio & Livio 1996; Yorke et al. 1995）
 
 [FACT] 银河系盘星出生函数（Iben & Tutukov 1984）：
 $$\frac{d^3 n}{d \log A_0 \, dM_{10} \, dq_0} \sim 0.2 \, M_{10}^{-2.5} \, \text{yr}^{-1}$$
@@ -300,7 +300,7 @@ $$\frac{L_{max}}{L_\odot} = 46{,}000 \left(\frac{M_{WD}}{M_\odot}\right)^{0.26}$
 #### c. X 射线双星与脉冲星
 
 [FACT] **LMXB** = NS 或 BH + 低质量主序/亚巨星供星：
-- 理论出生率：~2×10^(−5) yr^(−1)（$\alpha$_CE=1）至 ~2×10^(−6) yr^(−1)（$\alpha$_CE=0.5）
+- 理论出生率：~2×10^(−5) yr^(−1)（$\alpha_{\rm CE}$=1）至 ~2×10^(−6) yr^(−1)（$\alpha_{\rm CE}$=0.5）
 - NS 吸积 ~0.01 $M_\odot$ → 自转周期降至毫秒范围 (<10^3×10^(-3) s) → 毫秒脉冲星 (MSP)
 - 主序供星 → MSP + 供星被摧毁
 - 亚巨星供星 → MSP + He WD 残余

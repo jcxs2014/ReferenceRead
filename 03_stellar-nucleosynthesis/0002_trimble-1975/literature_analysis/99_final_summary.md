@@ -85,11 +85,11 @@
 | 公式 | 用途 |
 |------|------|
 | Z = y ln(1/$\mu$) | 封闭箱模型金属丰度演化 |
-| $\xi$(M) = $\xi$₀ M^−$\alpha$, $\alpha$=2.35 | Salpeter IMF |
+| $\xi$(M) = $\xi_{0}$ M^−$\alpha$, $\alpha$=2.35 | Salpeter IMF |
 | d($\mu$Z)/dt = −Z d$\mu$/dt + y(1−Z)(−d$\mu$/dt) | 金属丰度微分方程 |
 | ³$\alpha$ → $^{12}{\rm C}$ (Hoyle 共振 7.65 MeV) | He 燃烧启动 |
 | Y_p ≈ 2(n_n/n_p)/(1+n_n/n_p) ≈ 0.25 | BBN $^{4}{\rm He}$ 丰度 |
-| n_n/n_p ≈ (1/6) e^(−t/$\tau$_n), $\tau$_n = 878 s | BBN 中子演化 |
+| n_n/n_p ≈ (1/6) e^(−t/$\tau_{\rm n}$), $\tau_{\rm n}$ = 878 s | BBN 中子演化 |
 
 ## 99.11 值得进一步阅读
 
@@ -106,7 +106,7 @@
 - [x] 全文结构树已建立
 - [x] 每个主要章节已详细分析（§I–§V）
 - [x] 关键公式已保留（BBN、NSE、封闭箱、IMF、s/r/p 条件）
-- [x] 关键数值已记录（Y_p、$\tau$_n、y、b、$\alpha$、SN rate 等）
+- [x] 关键数值已记录（Y_p、$\tau_{\rm n}$、y、b、$\alpha$、SN rate 等）
 - [x] 关键图/表已逐一分析（Figure 12、表 X、Z(t) 图）
 - [x] [FACT]/[INTERPRETATION]/[CRITIQUE] 三标签贯穿全文
 - [x] 作者论证链已重建

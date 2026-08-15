@@ -48,7 +48,7 @@
 | 稳态流 (steady-flow) | s 过程 $\sigma$·N=const 的分析框架 | 中频 | §06 |
 | 中子俘获截面 (neutron-capture cross section) | (n,$\gamma$) 反应的概率 | 高频 | §06 |
 | 质量损失率 (mass-loss rate) | 恒星通过星风或抛射损失的物质速率 | 中频 | §07 |
-| Tc⁹⁹ (technetium-99) | 半衰期 2.1×$10^{6}$ yr 的短寿命核素；s 过程直接证据 | 中频 | §06 |
+| Tc⁹⁹ (technetium-99) | 半衰期 $2.1\times10^{6}$ yr 的短寿命核素；s 过程直接证据 | 中频 | §06 |
 | 双衰变定年 (double-decay chronometer) | 用两种放射性核素反推年龄的方法 | 中频 | §07 |
 | Cameron (1957) | Cameron 独立提出 Tc 证据与 r 过程概念 | 中频 | §01 |
 | Fowler, Caughlan, Zimmerman (FCZ) | 现代核合成反应速率表 | 中频 | §05 |

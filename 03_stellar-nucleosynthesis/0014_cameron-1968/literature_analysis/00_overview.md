@@ -101,7 +101,7 @@ Anders & Grevesse (1989) — 又一代修订
  Lodders / Asplund 等 — 现代太阳丰度
 ```
 
-[CRITIQUE] 本文是"过渡期"丰度表: 它仍然用 Si = $10^{6}$ 作为归一化基准(而非现代 log $\epsilon$_H = 12 标度); 表 1 中给出的元素丰度以"相对 Si = $10^{6}$ 的数密度"给出, 数量级与 Anders & Grevesse 1989 表可作直接对照,但不应直接引用到现代数值工作。
+[CRITIQUE] 本文是"过渡期"丰度表: 它仍然用 Si = $10^{6}$ 作为归一化基准(而非现代 log $\epsilon_{\rm H}$ = 12 标度); 表 1 中给出的元素丰度以"相对 Si = $10^{6}$ 的数密度"给出, 数量级与 Anders & Grevesse 1989 表可作直接对照,但不应直接引用到现代数值工作。
 
 ---
 
@@ -138,14 +138,14 @@ A New Table of Abundances of the Elements in the Solar System
 │     ├── 表头: Element / A / %Abundance / Class / Abundance [FACT]
 │     ├── Class 分类: F(r-process)/ S(s-process)/ B(p-process) [FACT]
 │     ├── 核素从 H-1 到 U-238 的完整列表 [FACT]
-│     └── He-3/He-4 = 3×$10^{-4}$, K-40/Ar-40 校正, Th/U/K-40 放射性回推 4.5×$10^{9}$ 年 [FACT]
+│     └── He-3/He-4 = $3\times10^{-4}$, K-40/Ar-40 校正, Th/U/K-40 放射性回推 $4.5\times10^{9}$ 年 [FACT]
 ├── §6  Figure 1 — 丰度随质量数 A 的分布 (p.137)
 ├── §7  Figures 2–5 — 中子俘获产物按元素的丰度 (pp.138–140)
 │     ├── 符号说明: 奇数 A 为实心点, 偶数 A 为叉号 [FACT]
 │     ├── 偶数 A 若为 F 同量异位素 → 叉外加方框 [FACT]
 │     └── 偶数 A 若为 S 同量异位素 → 叉外加圆 [FACT]
 ├── §8  Figure 6 — r/s/p 三条丰度趋势曲线 (pp.140–141)
-│     ├── $\sigma$_N = ⟨$\sigma$_$\nu$⟩ × N 是光滑单调递减函数 (Seeger, Fowler, Clayton 1965) [FACT]
+│     ├── $\sigma_{\rm N}$ = ⟨$\sigma_\nu$⟩ × N 是光滑单调递减函数 (Seeger, Fowler, Clayton 1965) [FACT]
 │     ├── S 趋势有局部散布; F 趋势异常光滑 [FACT]
 │     └── F 峰在 A=130 (N=82) 与 A=195 (N=126) [FACT]
 ├── §9  Astrophysical Implications (pp.141–143)

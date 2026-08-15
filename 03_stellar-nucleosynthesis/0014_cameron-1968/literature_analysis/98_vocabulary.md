@@ -50,12 +50,12 @@
 | solar corona | 日冕 | 太阳外层高温稀薄大气;文中指出 Fe 在日冕的丰度异常偏高,支持采用陨石值 | §3 |
 | nucleosynthesis | 核合成 | 恒星中由轻核聚变为重核的物理过程;本文全部讨论的理论框架 | §0 Abstract |
 | r-process (fast time scale) | 快中子俘获过程 | 中子通量极高、中子俘获远快于 $\beta$-衰变的核合成通道;产生奇偶比低的丰中子产物;在 A=130, 195 处有闭壳峰 | §4 (Table 2 Class F) |
-| s-process (slow time scale) | 慢中子俘获过程 | 中子通量较低、每次俘获后有充分时间 $\beta$-衰变的核合成通道;$\sigma$_N = 常数 判据成立 | §4 (Table 2 Class S) |
+| s-process (slow time scale) | 慢中子俘获过程 | 中子通量较低、每次俘获后有充分时间 $\beta$-衰变的核合成通道;$\sigma_{\rm N}$ = 常数 判据成立 | §4 (Table 2 Class S) |
 | p-process (bypassed nuclei) | 质子俘获/光致蜕变过程 | 产生质子富集稳定核素(B isobar)的过程;本文推断以质子俘获为主,但现代观点主张 $\gamma$-process | §4 (Table 2 Class B) |
 | isobar | 同量异位素 | 具有相同质量数 A 但不同 Z 的一组核素;本文按 Class (F/S/B) 对每个核素进行分类 | §4 |
 | odd-even ratio | 奇偶比 | 相邻奇数 A 与偶数 A 核素丰度的比值;奇偶比对核稳定性敏感,r 产物奇偶比小,s 产物奇偶比大 | §8 |
 | closed neutron shell (N=50, 82, 126) | 中子闭壳(幻数) | 中子数为 50/82/126 的核素具有额外稳定性,导致丰度分布上出现峰(s 峰: A=88, 138, 208; r 峰: A=130, 195) | §8 |
-| $\sigma$_N | 截面-丰度乘积 | $\sigma$_N = ⟨$\sigma$_$\nu$⟩ × N,在 s-process 中是质量数 A 的光滑单调递减函数;由 Seeger, Fowler & Clayton (1965) 建立 | §8 |
+| $\sigma_{\rm N}$ | 截面-丰度乘积 | $\sigma_{\rm N}$ = ⟨$\sigma_\nu$⟩ × N,在 s-process 中是质量数 A 的光滑单调递减函数;由 Seeger, Fowler & Clayton (1965) 建立 | §8 |
 | neutron capture cross-section | 中子俘获截面 | 描述核素俘获中子概率的量,单位靶恩(barn);近 25 keV 处的截面决定 s-process 分支比 | §8 |
 | waiting point | 等待点 | r-process 中在丰中子区 $\beta$-衰变半衰期较长的核素,中子流在此"等待"衰变 | §9 (隐含) |
 | $\beta$-delayed neutron emission | $\beta$ 延迟中子发射 | 高能量 $\beta$-衰变激发出中子;Cameron 提出此为 r 产物丰度平滑机制之一 | §9 |
@@ -64,8 +64,8 @@
 | supernova shock wave | 超新星激波 | 从恒星内部向外传播的强激波;Cameron 认为激波穿越不同壳层触发不同核合成过程 | §9 |
 | Coulomb barrier | 库仑位垒 | 质子俘获反应中由靶核与质子电荷排斥产生的势垒;随 Z 增大单调上升,压制质子俘获率 | §9 |
 | photo-disintegration | 光致蜕变 | 高能光子剥离核内中子或质子的反应;现代 p-process 的主要机制($\gamma$-process) | §9 |
-| initial solar system | 初始太阳系 | 太阳系形成时(t = 0)的丰度分布;本文通过放射性回推(4.5×$10^{9}$ 年)从现代陨石值反推 | §5 |
-| decay interval of 4.5 × $10^{9}$ years | 45 亿年衰变区间 | 从太阳系形成至今的时间;本文用于 U, Th, K-40 的放射性回推 | §5 |
+| initial solar system | 初始太阳系 | 太阳系形成时(t = 0)的丰度分布;本文通过放射性回推($4.5\times10^{9}$ 年)从现代陨石值反推 | §5 |
+| decay interval of $4.5\times10^{9}$ years | 45 亿年衰变区间 | 从太阳系形成至今的时间;本文用于 U, Th, K-40 的放射性回推 | §5 |
 | chemical fractionation | 化学分馏 | 不同元素因化学性质差异在物质相变中产生分异;稀土元素化学分馏小,是检验丰度表的"黄金标准" | §8 |
 | rare earth elements (REE) | 稀土元素 | La (Z=57) 到 Lu (Z=71) 的 15 个元素;化学性质相似、化学分馏小,核合成规律最明显 | §1 |
 | Suess-Urey table | Suess-Urey 表 | H. E. Suess 与 H. C. Urey (1956, Rev. Mod. Phys. 28, 53) 编纂的首个宇宙元素丰度表 | §1 |

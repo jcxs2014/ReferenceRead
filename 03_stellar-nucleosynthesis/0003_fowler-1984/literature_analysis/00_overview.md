@@ -108,7 +108,7 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overvie
 
 **Table**：
 
-- Table I  S 因子定义（Bethe 1967；$\sigma$(E) = $\pi$g $\lambda$² P(E) × 内在核因子；S(E) = $E_{0}$(E) exp(+E/E')）
+- Table I  S 因子定义（Bethe 1967；$\sigma$(E) = $\pi$g $\lambda^{2}$ P(E) × 内在核因子；S(E) = $E_{0}$(E) exp(+E/E')）
 - Table II  恒星反应速率函数（非共振与共振两种形式；有效恒星反应能量 $E_{0}$ = 0.122 ($Z_{0}$$Z_{1}$A)^(1/3) $T_{9}$^(2/3) MeV）
 
 ## 0.4 跨文件导航

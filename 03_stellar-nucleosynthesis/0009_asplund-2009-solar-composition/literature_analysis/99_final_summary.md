@@ -19,18 +19,18 @@
 - **大气模型**：Trampedach et al. (2009) 3D 时间依赖流体动力学模型
 - **线形成**：完整 3D + non-LTE（关键元素）、线轮廓拟合优先
 - **原子数据**：Opacity & Iron Projects、Barklem 系列加宽、Wisconsin 组实验室 gf
-- **交叉检验**：CI 陨石（Si 归一）、B 型主序星 non-LTE、H II 区、ISM、日震 $\Gamma$₁ 反演、太阳中微子
+- **交叉检验**：CI 陨石（Si 归一）、B 型主序星 non-LTE、H II 区、ISM、日震 $\Gamma_{1}$ 反演、太阳中微子
 
 ## 9.4 最重要结果
 
 | 项目 | 值 |
 |---|---|
-| log $\epsilon$_C | 8.43 ± 0.05 |
-| log $\epsilon$_N | 7.83 ± 0.05 |
-| log $\epsilon$_O | 8.69 ± 0.05 |
-| log $\epsilon$_Ne | [7.93 ± 0.09] |
-| log $\epsilon$_Fe | 7.50 ± 0.04 |
-| log $\epsilon$_Si | 7.51 ± 0.03 |
+| log $\epsilon_{\rm C}$ | 8.43 ± 0.05 |
+| log $\epsilon_{\rm N}$ | 7.83 ± 0.05 |
+| log $\epsilon_{\rm O}$ | 8.69 ± 0.05 |
+| log $\epsilon_{\rm Ne}$ | [7.93 ± 0.09] |
+| log $\epsilon_{\rm Fe}$ | 7.50 ± 0.04 |
+| log $\epsilon_{\rm Si}$ | 7.51 ± 0.03 |
 | X, Y, Z（今日光球） | 0.7381, 0.2485, **0.0134** |
 | X, Y, Z（原太阳） | 0.7154, 0.2703, 0.0142 |
 | Z/X（今日光球） | 0.0181 |
@@ -42,7 +42,7 @@
 
 - [FACT] 首次**系统性**对几乎所有元素应用 3D 模型 + non-LTE
 - [FACT] 用**多种原子+分子指示符的自洽性**作为低丰度的独立证据（尤其 C、N、O）
-- [FACT] 用**日震 $\Gamma$₁ 反转**直接测量 He（10.93 ± 0.01），摆脱对 SSM 校准的依赖
+- [FACT] 用**日震 $\Gamma_{1}$ 反转**直接测量 He（10.93 ± 0.01），摆脱对 SSM 校准的依赖
 - [FACT] 用**谱偏振**（太阳黑子 [O I] 630 nm）尝试独立分离 Ni 混杂（虽被反驳）
 
 ## 9.6 主要局限
@@ -56,7 +56,7 @@
 
 ## 9.7 我应该记住什么（15 条）
 
-1. **AGSS09 = log $\epsilon$_C=8.43, N=7.83, O=8.69, Ne=7.93, Fe=7.50, Z=0.0134, Z/X=0.018**
+1. **AGSS09 = log $\epsilon_{\rm C}$=8.43, N=7.83, O=8.69, Ne=7.93, Fe=7.50, Z=0.0134, Z/X=0.018**
 2. 推荐 Z = **1.4%**，比经典值 2% 低 30%
 3. C、N、O、Ne 比 AG89 低 ~0.2 dex；主要由 3D + non-LTE + 新原子数据驱动
 4. 3D 模型（Trampedach et al. 2009）**全面优于** 1D（HM 半经验）：
@@ -64,11 +64,11 @@
    - H$\alpha$/H$\beta$ 线（无自由参数）
    - 金属线线型（Fig 3，无需微/宏观湍流）
    - Fe I/Fe II 自洽（Fig 6，无激发势趋势）
-5. Fe 丰度之争在 3D 模型下得到解决：Fe I/Fe II 一致，log $\epsilon$_Fe = 7.50
+5. Fe 丰度之争在 3D 模型下得到解决：Fe I/Fe II 一致，log $\epsilon_{\rm Fe}$ = 7.50
 6. Li 太阳亏缺 ~150×（陨石 vs 光球差 2.21 dex）→ 需要额外混合机制
 7. Be、B 通过 UV missing opacity 修正回到陨石值
 8. 与 CI 陨石一致度极高：45 元素均值差 0.00 ± 0.05 dex（仅 10/57 超出合并不确定度）
-9. 陨石归一用 Si（log $\epsilon$_Si = 7.51），换算公式 log $\epsilon$_X = 1.51 + log N_X
+9. 陨石归一用 Si（log $\epsilon_{\rm Si}$ = 7.51），换算公式 log $\epsilon_{\rm X}$ = 1.51 + log N_X
 10. **Z/X 演化趋势**：AG89 0.0274 → AGS05 0.0165 → AGSS09 0.0181（AGSS09 略回升）
 11. **日震张力**：SSM 用 AGSS09 后 R_BCZ 偏浅 0.725 vs 0.713 R⊙，Y_S 偏低 0.238 vs 0.249，声速偏差在 R=0.71 R⊙ 以下最严重
 12. 需 +10–20% 不透明度（或 +12%）才能恢复吻合，但无原子物理支持
@@ -138,7 +138,7 @@
 - [x] Discussion（与陨石、近邻恒星、H II、日震、中微子交叉检验）
 - [x] Figures（8 图逐一分析）
 - [x] Tables（5 表逐一分析，含核心丰度表）
-- [x] Important equations（log $\epsilon$_X 定义、陨石换算公式、误差合成）
+- [x] Important equations（log $\epsilon_{\rm X}$ 定义、陨石换算公式、误差合成）
 - [x] Important numerical values（已列出关键数值）
 - [x] Important references（00_overview.md 已标注核心文献）
 

@@ -19,7 +19,7 @@
 | 于是 | consequently | adv. | 因果 | "R 宇称 (P_R = (-1)^{2s+3B+L}) 保证 SUSY LSP 稳定 → **自然暗物质候选**" | 从 R 宇称守恒推出 LSP 稳定 |
 | 反之 | on the contrary | phrase | 转折 | "MACHO 被**微透镜**（EROS: <8%）+ **重子预算**（BBN + CMB）双重排除" | 承前 MACHO 候选，转后双重排除 |
 | 进而 | furthermore | adv. | 递进 | "**Blumenthal-Faber-Primack-Rees 1984**：宇宙需 ~10 倍于重子物质的冷暗物质" | 递进给出具体数值 |
-| 同时 | simultaneously | adv. | 递进 | "**CMB + BBN** 双重证据给出 $\Omega$_b h² < 1% 精度 → 暗物质**必为非重子**" | 两条独立证据同时约束 |
+| 同时 | simultaneously | adv. | 递进 | "**CMB + BBN** 双重证据给出 $\Omega_{\rm b}$ h² < 1% 精度 → 暗物质**必为非重子**" | 两条独立证据同时约束 |
 | 换言之 | that is | phrase | 举例 | "**暗物质概念是多次独立发现、多尺度证据汇聚的结果**——非'Zwicky 一人之功'" | 核心叙事观点 |
 | 总之 | overall | adv. | 结论 | "**暗物质证据在多个独立尺度上均成立**：星系团维里质量、星系自转曲线、CMB 涨落、Bullet Cluster" | 综合四尺度证据 |
 | 此外 | moreover | adv. | 递进 | "**此外**，作者未讨论**新兴候选体**：fuzzy dark matter、dark photons、hidden valleys" | 补充未讨论内容 |
@@ -63,7 +63,7 @@
 | gravitational lensing (weak) | 弱引力透镜 | 5 | §3 |
 | CMB (Cosmic Microwave Background) | 宇宙微波背景 | 8+ | §8 |
 | BBN (Big Bang Nucleosynthesis) | 大爆炸核合成 | 6+ | §5 |
-| $\Omega$_b h², $\Omega$_c h² | 重子/冷暗物质密度参数 | 5 | §8 |
+| $\Omega_{\rm b}$ h², $\Omega_{\rm c}$ h² | 重子/冷暗物质密度参数 | 5 | §8 |
 | $\Lambda$CDM | $\Lambda$CDM 标准宇宙学模型 | 6+ | §8 |
 | dark matter halo | 暗物质晕 | 15+ | §8 |
 | NFW profile (Navarro-Frenk-White 1996) | 普适晕密度分布 | 6+ | §8 |

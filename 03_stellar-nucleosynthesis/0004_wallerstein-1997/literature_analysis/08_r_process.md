@@ -111,7 +111,7 @@ $$\alpha(\alpha\alpha,\gamma)^{12}\text{C}, \quad \alpha(\alpha n,\gamma)^{9}\te
 
 [FACT] **中微子味转换 (MSW 效应)**（Fuller et al. 1987）：
 - $\nu$̄_$\mu$/$\tau$ ↔ $\nu$̄_e 转换：若 $\Delta$m² ~ 1 eV² → 但预期不驱动 Ye < 0.5 → 不构成 r 过程位点的困难
-- $\nu$_$\mu$/$\tau$ ↔ $\nu$_e 转换（能量层级反转）→ 可能有破坏性后果（Qian & Fuller 1995）
+- $\nu_\mu$/$\tau$ ↔ $\nu_{\rm e}$ 转换（能量层级反转）→ 可能有破坏性后果（Qian & Fuller 1995）
 
 ### 8.1.6 结论
 

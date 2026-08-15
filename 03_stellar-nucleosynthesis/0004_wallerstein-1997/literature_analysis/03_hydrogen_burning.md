@@ -8,7 +8,7 @@
 
 **本章作者**：Peter Parker（Yale University）
 
-## 3.1 A. The p(p,e⁺,$\nu$ₑ)d reaction
+## 3.1 A. The p(p,e⁺,$\nu_{\rm e}$)d reaction
 
 [FACT] pp 链第一步的 $S_{11}$(0;$\delta$) 决定整个 pp 链速率：
 $$S_{11}(0;\delta) = S_{11}(0;0)_{BM69} \left(\frac{L}{L_{69}}\right)^2 \left(\frac{G_A/G_V}{(G_A/G_V)_{69}}\right)^2 \frac{f_{pp}^R}{(f_{pp})_{69}} \frac{[(ft)_{0^+ \to 0^+}]}{[(ft)_{0^+ \to 0^+}]_{69}} (1+\delta)^2$$
@@ -51,7 +51,7 @@ $$\sigma_b = \sigma_s / \exp(\pi \eta U_e / E_{c.m.})$$
 
 [FACT] 三组 7Be 放射性活度实验给出 **$S_{34}$(0) = 0.579 ± 0.024 keV·b**——与 $\gamma$ 方法结果在 **3$\sigma$ 水平上不一致**
 
-[FACT] 九组实验联合：$S_{34}$(0) = 0.533 ± 0.013 keV·b（$\chi$²=13.4, d.o.f.=8），建议的保守估计为 **$S_{34}$(0) = 0.53 ± 0.05 keV·b**（通过增大不确定度因子 3.7 使 $\chi$²/d.o.f. = 0.46）
+[FACT] 九组实验联合：$S_{34}$(0) = 0.533 ± 0.013 keV·b（$\chi^{2}$=13.4, d.o.f.=8），建议的保守估计为 **$S_{34}$(0) = 0.53 ± 0.05 keV·b**（通过增大不确定度因子 3.7 使 $\chi^{2}$/d.o.f. = 0.46）
 
 ## 3.4 D. The 7Be(p,$\gamma$)8B reaction
 
@@ -93,13 +93,13 @@ $$\sigma_b = \sigma_s / \exp(\pi \eta U_e / E_{c.m.})$$
 
 [FACT] 17O(p,$\alpha$)14N 在 $T_{9}$ < 0.1 时由 Ec.m. = 70 keV 的 J^$\pi$ = $1^{-}$ 共振决定
 
-[FACT] Blackmon et al. (1995) 对该共振的直接测量：**$\Gamma$_p$\gamma$ ≈ 5.5 neV**，将不确定度从 **~100× 减小至 ~±20%**
+[FACT] Blackmon et al. (1995) 对该共振的直接测量：**$\Gamma_{\rm p}$$\gamma$ ≈ 5.5 neV**，将不确定度从 **~100× 减小至 ~±20%**
 
 ## 3.8 H. The Hot CNO cycle
 
 [FACT] B2FH 未预见到的新现象：**热 CNO 循环**（13N(p,$\gamma$)14O 速率足够快，绕开 13N $\beta$ 衰变）
 
-[FACT] 三种独立测量（13N 束直接测量 Decrock 1991; 14O($\gamma$,p)13N 逆反应 Motobayashi 1991, Kiener 1993）给出 Ec.m. = 529 keV, l=0 共振强度：**$\Gamma$_p$\gamma$ = 2.3 ± 0.5 eV**
+[FACT] 三种独立测量（13N 束直接测量 Decrock 1991; 14O($\gamma$,p)13N 逆反应 Motobayashi 1991, Kiener 1993）给出 Ec.m. = 529 keV, l=0 共振强度：**$\Gamma_{\rm p}$$\gamma$ = 2.3 ± 0.5 eV**
 
 [FACT] 在 nova 爆炸温度 (0.2 < $T_{9}$ < 0.4) 下，热 CNO 循环是**主导的能量产生过程**
 
@@ -122,9 +122,9 @@ $$\sigma_b = \sigma_s / \exp(\pi \eta U_e / E_{c.m.})$$
 
 | 反应 | S(0) 值 (1997 推荐) | 不确定度 | 备注 |
 |---|---|---|---|
-| pp | 3.78×$10^{-25}$ MeV·b | +4.0% / −1.3% | $\delta$ 主导 |
+| pp | $3.78\times10^{-25}$ MeV·b | +4.0% / −1.3% | $\delta$ 主导 |
 | 3He(3He,2p)4He | 5.15 ± 0.35 MeV·b | ~7% | Gran Sasso 覆盖 Gamov 峰 |
 | 3He($\alpha$,$\gamma$)7Be | 0.53 ± 0.05 keV·b | ~10% | 系统误差主导 |
 | 7Be(p,$\gamma$)8B | 19 ± 2 eV·b | ~10% | 太阳中微子关键 |
 | 14N(p,$\gamma$)15O | 3.5^{+0.4}_{-1.6} keV·b | ~2× | CNO 限速反应 |
-| 17O(p,$\alpha$)14N $\Gamma$_p$\gamma$ | 5.5 neV | ±20% | 已从 100× 降至 20% |
+| 17O(p,$\alpha$)14N $\Gamma_{\rm p}$$\gamma$ | 5.5 neV | ±20% | 已从 100× 降至 20% |

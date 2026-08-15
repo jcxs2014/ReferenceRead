@@ -79,7 +79,7 @@
 | meridional circulation / current | 子午环流 | 恒星旋转驱动的对流层底部-壳层间极慢环流 | §5 |
 | characteristic velocity ~$10^{-3}$ cm s⁻¹ | 环流特征速度 | 子午环流的量级 | §5 |
 | CN anomaly | CN 反常 | 团巨星 CN 带强度的异常变化 | §5 |
-| angular velocity $\omega$ ~ 6×$10^{-5}$ s⁻¹ | 所需角速度 | Sweigart-Mengel 理论所需的主序前身星角速度 | §5 |
+| angular velocity $\omega$ ~ $6\times10^{-5}$ s⁻¹ | 所需角速度 | Sweigart-Mengel 理论所需的主序前身星角速度 | §5 |
 | spin down | 自转减速 | 主序星早期角动量流失 | §5 |
 | bimodal distribution | 双峰分布 | CN 带强度的双群分布 | §6 |
 | population signature | 群体签名 | 团间 CN 强/弱主分布的"性格"差异 | §6 |

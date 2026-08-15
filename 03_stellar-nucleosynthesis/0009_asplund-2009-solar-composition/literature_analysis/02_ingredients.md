@@ -99,7 +99,7 @@
   1. **Mean atmospheric stratification**：½ · |3D spatial average − Holweger & Müller|
   2. **Atmospheric inhomogeneities**：½ · |full 3D − 3D average|
   3. **Non-LTE**：½ · |non-LTE correction|；下限 0.03 dex
-- [FACT] **总误差 = sqrt($\sigma$_stat² + $\sigma$_syst²)**，其中 $\sigma$_stat = 加权标准误（权重来自谱线连续谱放置和已知混杂）
+- [FACT] **总误差 = sqrt($\sigma_{\rm stat2}$ + $\sigma_{\rm syst2}$)**，其中 $\sigma_{\rm stat}$ = 加权标准误（权重来自谱线连续谱放置和已知混杂）
 - [FACT] 作者**未尝试**量化 gf 值的系统误差——这部分依赖谱线离散度来间接吸收。
 
 ## 2.7 关键判断

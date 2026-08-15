@@ -32,7 +32,7 @@
 [CRITIQUE] Cameron (1959) 给出的"expected regularities"是什么?文献本身未列出,但据 Cameron 1959 Astrophys. J. 129, 676,主要包括:
 1. 奇偶比在 r 产物中应 < 1, 在 s 产物中应 > 1
 2. 在 N=50, 82, 126 闭壳处应出现丰度峰
-3. s 产物应满足 $\sigma$_N = 常数 (Seeger, Fowler, Clayton 1965)
+3. s 产物应满足 $\sigma_{\rm N}$ = 常数 (Seeger, Fowler, Clayton 1965)
 4. r 产物在 A≈130, 195 处有峰(对应 N=82, 126 闭壳)
 
 [FACT] 原文 §9 给出 Figure 1 的关键观察:
@@ -41,11 +41,11 @@
 
 ---
 
-## 3.2 Figure 6 三曲线与 $\sigma$_N 判据
+## 3.2 Figure 6 三曲线与 $\sigma_{\rm N}$ 判据
 
 [FACT] 原文 §8:
 
-> "One of the striking features of the abundance distribution of the products of neutron capture on a slow time scale is the fact that **$\sigma$_N, the product of the average neutron capture cross-section near 25 keV and the abundance, is a smooth monotonically decreasing function of mass number** (Seeger, Fowler and Clayton, 1965)."
+> "One of the striking features of the abundance distribution of the products of neutron capture on a slow time scale is the fact that **$\sigma_{\rm N}$, the product of the average neutron capture cross-section near 25 keV and the abundance, is a smooth monotonically decreasing function of mass number** (Seeger, Fowler and Clayton, 1965)."
 
 [FACT] S 趋势的局部散布:
 
@@ -57,13 +57,13 @@
 
 [INTERPRETATION] Cameron 的诊断逻辑链:
 
-1. **s-process** 在中子通量低时,每次中子俘获后核素在 $\beta$-衰变前处于稳态,故丰度与中子俘获截面成反比: N_s ∝ 1/$\sigma$_$\nu$
-2. 因此 $\sigma$_$\nu$ × N_s = 常数(对给定分支),随 A 平滑下降
+1. **s-process** 在中子通量低时,每次中子俘获后核素在 $\beta$-衰变前处于稳态,故丰度与中子俘获截面成反比: N_s ∝ 1/$\sigma_\nu$
+2. 因此 $\sigma_\nu$ × N_s = 常数(对给定分支),随 A 平滑下降
 3. **r-process** 在中子通量极高时,核素在 $\beta$-衰变前多次俘获中子,达到"等待点"(waiting point),丰度主要由等待点的 $\beta$-衰变半衰期决定,与中子俘获截面**无关**
 4. 因此 r 产物曲线应**不受截面局部涨落影响** — 这就是 Figure 6 中 F 曲线异常光滑的物理根源
 5. **观测事实** (F 曲线光滑) 反向证明 r-process 确实经历了这样的极端环境
 
-[CRITIQUE] 现代核物理已经测得了数千个中子俘获截面数据,$\sigma$_N 判据在 Seeger, Fowler, Clayton (1965) 之后被 Wallerstein et al. (1997, §0004) 系统完善。Cameron 1968 的 Figure 6 是这一判据的最早视觉化呈现。
+[CRITIQUE] 现代核物理已经测得了数千个中子俘获截面数据,$\sigma_{\rm N}$ 判据在 Seeger, Fowler, Clayton (1965) 之后被 Wallerstein et al. (1997, §0004) 系统完善。Cameron 1968 的 Figure 6 是这一判据的最早视觉化呈现。
 
 ---
 
@@ -182,7 +182,7 @@
 
 1. **Suess-Urey 三预言验证** — Sr/Zr 反转、稀土修正、Pb 增大全部或部分成立 [FACT]
 2. **奇偶比规则** — r 产物奇偶比 < 1,s 产物奇偶比 > 1,数据吻合 [FACT]
-3. **$\sigma$_N 判据** — s 产物满足 Seeger-Fowler-Clayton 平滑判据 [FACT]
+3. **$\sigma_{\rm N}$ 判据** — s 产物满足 Seeger-Fowler-Clayton 平滑判据 [FACT]
 4. **r 产物异常光滑** — 表明存在额外丰度平滑机制 [FACT]
 5. **r 产物闭壳峰** — A = 130 (N=82) 与 A = 195 (N=126) 峰明确 [FACT]
 6. **r 产物必须骤然终止** — 否则截面涨落会破坏光滑性 [FACT]

@@ -66,7 +66,7 @@
 | 引用 | 作用 |
 |------|------|
 | Salpeter (1955) | IMF $\xi$(M) ∝ M^−2.35 |
-| Schmidt (1963) | SFR ∝ $\mu$ⁿ |
+| Schmidt (1963) | SFR ∝ $\mu^{\rm n}$ |
 | Tinsley (1968, 1972, 1974, 1975) | 化学演化数值模型奠基 |
 | Lynden-Bell & Pringle (1974) | 星系吸积盘模型 |
 | Searle, Searle & Zinn (1973, 1976) | 简化化学演化 |

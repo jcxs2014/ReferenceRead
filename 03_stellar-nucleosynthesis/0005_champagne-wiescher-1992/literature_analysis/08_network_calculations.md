@@ -24,7 +24,7 @@ $$F_{ij} = \int \left[\dot{Y}(i \rightarrow j) - \dot{Y}(j \rightarrow i)\right]
 
 ### 8.2.2 同位素丰度演化（式 9）
 
-**[FACT]** 全部耗尽与产生反应率 $\lambda$_i 给出的**总时间演化**：
+**[FACT]** 全部耗尽与产生反应率 $\lambda_{\rm i}$ 给出的**总时间演化**：
 
 $$\dot{Y}_i = \sum_j \lambda_{ji}^{1} + \sum_{j,k} \lambda_{jk \rightarrow i}^{2} Y_k \tag{9}$$
 
@@ -98,7 +98,7 @@ $$^{28}\text{Si}(p,\gamma)^{29}\text{P}(p,\gamma)^{30}\text{S}(\beta^+\nu)^{30}\
 - 这些衰变导致 **$^{31}{\rm S}$ ($T_{1}$/₂ = 2.57 s) 富集**。
 - $^{31}{\rm S}$ 主要衰变至 **$^{31}{\rm P}$**，被 (p,$\alpha$) 反应再循环回 **$^{28}{\rm Si}$**——**在 SiP 区分布**。
 
-**[FACT]** SiP 循环时间常数 = $\tau$_SiP = $\tau$_$^{31}{\rm S}$ · (p,$\gamma$)/(p,$\alpha$)。
+**[FACT]** SiP 循环时间常数 = $\tau_{\rm SiP}$ = $\tau_{^{31}{\rm S}}$ · (p,$\gamma$)/(p,$\alpha$)。
 
 **[FACT]** $^{32}{\rm S}$ 通过 $^{31}{\rm P}$(p,$\gamma$) 的产率比 $^{32}{\rm S}$(p,$\gamma$)$^{33}{\rm Cl}$ 消耗率**大三个量级** → 每循环一次 $^{31}{\rm P}$(p,$\gamma$)$^{32}{\rm S}$ 分支导致 **$^{32}{\rm S}$ 最终增强**。
 

@@ -16,7 +16,7 @@
 ### 6.1.2 归一化
 
 - [FACT] 陨石原数据：N_Si = $10^{6}$
-- [FACT] 换算到天文标度：**log $\epsilon$_X = 1.51 + log N_X**（用本文光球 Si 归一，log $\epsilon$_Si = 7.51）
+- [FACT] 换算到天文标度：**log $\epsilon_{\rm X}$ = 1.51 + log N_X**（用本文光球 Si 归一，log $\epsilon_{\rm Si}$ = 7.51）
 - [FACT] 归一化的元素选择：本文只用 Si；AG89 用 11 个元素；Lodders 2009 用 39 个元素。实践上结果差别不大，但引入任意性。
 
 ### 6.1.3 一致性检验
@@ -101,7 +101,7 @@
 
 | 方案 | 来源 | 状态 |
 |---|---|---|
-| 不透明度 +10–20%（R = 0.4–0.7 R⊙, T = 2–5×$10^{6}$ K） | Bahcall et al. 2005 | 需要大幅修正；Opacity Project 比 OPAL 大仅 ~3%，不太可能 |
+| 不透明度 +10–20%（R = 0.4–0.7 R⊙, T = 2–$5\times10^{6}$ K） | Bahcall et al. 2005 | 需要大幅修正；Opacity Project 比 OPAL 大仅 ~3%，不太可能 |
 | 不透明度 +12% | Serenelli et al. 2009 | 同样缺依据 |
 | 更强元素扩散 | Asplund et al. 2004 | 需约 2× 预测值；能缓解声速但不能解决 He 和 BCZ |
 | 晚期贫金属气体吸积 | Castro, Vauclair & Richard 2007 | 同样不能解 He / BCZ |

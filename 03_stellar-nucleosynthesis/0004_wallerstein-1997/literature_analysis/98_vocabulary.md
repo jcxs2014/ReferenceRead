@@ -19,7 +19,7 @@
 | 反之 | conversely / in contrast | adv. | 对比 | "[FACT] 13C($\alpha$,n) 是低温中子源（主导）；**反之** 22Ne($\alpha$,n) 是高温中子源，覆盖 13C 无法到达的质量区" | 对比 |
 | 即 | namely / i.e. | conj. | 释义 | "[FACT] $\nu$ 过程——**即**中微子蒸发核子——是 B2FH 八过程之外**新提出**的核合成过程" | 释义 |
 | 不仅……而且 | not only … but also | conj. | 递进 | "[FACT] 本文**不仅**总结核数据，**而且**把恒星演化、观测验证和银河化学演化的整体图景重新整合" | 递进 |
-| 根据 | according to / based on | prep. | 依据 | "[FACT] **根据** Käppeler et al. (1989) 经典 s 过程模型，仅两个参数 (f, $\tau$₀) 就能以 3% 均方偏差描述 s-only 核素丰度" | 依据 |
+| 根据 | according to / based on | prep. | 依据 | "[FACT] **根据** Käppeler et al. (1989) 经典 s 过程模型，仅两个参数 (f, $\tau_{0}$) 就能以 3% 均方偏差描述 s-only 核素丰度" | 依据 |
 | 鉴于 | given that | prep. | 条件 | "[FACT] **鉴于** r 过程场所的多场景竞争（中微子风、NS-NS 合并、磁旋转 SN），定量丰度预言具有系统性不确定度" | 条件 |
 | 值得注意的是 | it is worth noting that | phrase | 提示 | "[FACT] **值得注意的是** $^{13}{\rm C}$ 口袋的确切形成机制在 1997 年仍有多种竞争方案（半对流混合、超射、He 闪后 H 摄取）" | 提示 |
 | 因此可以说 | thus / hence | conj. | 结论 | "B2FH 提出八过程框架，**因此可以说**本文是其在 40 年后的官方评估与修正" | 结论 |
@@ -39,7 +39,7 @@
 | 中微子驱动风 (neutrino-driven wind) | 中子星形成时中微子加热大气层；r 过程的主要候选场所 | 高频 | §08 |
 | $\nu$ 过程 (neutrino-process) | Woosley et al. (1990) 提出的新过程——中微子蒸发核子改变传统合成结果 | 高频 | §08 |
 | $\alpha$-rich freezeout ($\alpha$ 过程) | 中子星形成早期 $\alpha$ 粒子富集的冻结过程，产生 A~100 的 r 过程种子核 | 中频 | §08 |
-| 经典 s 过程模型 (classical s-process) | Käppeler et al. (1989)；两个参数 (f, $\tau$₀) 描述 A=56–209 的 s-only 核素 | 高频 | §07 |
+| 经典 s 过程模型 (classical s-process) | Käppeler et al. (1989)；两个参数 (f, $\tau_{0}$) 描述 A=56–209 的 s-only 核素 | 高频 | §07 |
 | 分支因子 (branching factor, f_$\beta$) | s 过程分支点处 $\beta$ 衰变与中子俘获的相对概率，反推 n_$\nu$, T | 中频 | §07 |
 | 统计平衡层次 (NSE/QSE) | Meyer et al. (1997) 系统化 NSE 与准统计平衡层次结构 | 中频 | §09 |
 | 贫金属晕星 (metal-poor halo stars) | [Fe/H]<−3 的极老恒星，是 B2FH 时代化学状态的化石 | 高频 | §10 |
@@ -96,7 +96,7 @@
 
 ### C5.
 
-> [FACT] 经典 s 过程模型——Käppeler et al. (1989) 提出，仅两个参数 (f, $\tau$₀) 描述 A=56–209 的 s-only 核素丰度，均方偏差仅 3%——**是**极简物理建模的典范；**因此可以说** 用最少参数实现高精度描述是经典模型的核心价值。
+> [FACT] 经典 s 过程模型——Käppeler et al. (1989) 提出，仅两个参数 (f, $\tau_{0}$) 描述 A=56–209 的 s-only 核素丰度，均方偏差仅 3%——**是**极简物理建模的典范；**因此可以说** 用最少参数实现高精度描述是经典模型的核心价值。
 
 **主干拆解**：主句"是典范"；破折号内插入技术细节（Käppeler 模型 + 参数 + 精度）。
 **修饰说明**：极简参数化（仅 2 参数）+ 3% 精度对比形成修辞张力。

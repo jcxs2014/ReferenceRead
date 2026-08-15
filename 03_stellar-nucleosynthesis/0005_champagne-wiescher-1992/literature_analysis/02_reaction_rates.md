@@ -118,7 +118,7 @@ $$E_G = \frac{2\pi^2 e^4 Z_a^2 Z_b^2 \mu}{\hbar^2} \tag{3}$$
 
 $$\sigma(E) = \frac{S(E)}{E} \exp\left[-\left(\frac{E_G}{E}\right)^{1/2}\right] \tag{4}$$
 
-- **1/E** 因子来自核截面中的 $\lambda$² 项
+- **1/E** 因子来自核截面中的 $\lambda^{2}$ 项
 - **S(E)** = 天文 S 因子（含非运动学部分，通常随能量缓慢变化）——允许对式 (2) 做数值积分或解析近似 (26–29)。
 
 ### 2.3.4 Breit-Wigner 单共振形式
@@ -129,13 +129,13 @@ $$\sigma(E) = \pi\lambda^2 \omega \frac{\Gamma_a \Gamma_b}{(E - E_r)^2 + \Gamma^
 
 - **$\lambda$** = 约化康普顿波长
 - **$\omega$** = 自旋统计因子
-- **$\Gamma$_a, $\Gamma$_b, $\Gamma$** = 入射/出射道分宽度与总宽度
+- **$\Gamma_{\rm a}$, $\Gamma_{\rm b}$, $\Gamma$** = 入射/出射道分宽度与总宽度
 
 **[FACT]** 对**孤立窄共振**（$\Gamma$ ≪ E_r），式 (2) 可积分得到：
 
 $$\langle\sigma v\rangle = \left(\frac{2\pi}{\mu}\right)^{3/2} \frac{\hbar^2}{(kT)^{3/2}} \omega\gamma \exp\left(-\frac{E_r}{kT}\right) \tag{6}$$
 
-其中 **共振强度** $\omega$$\gamma$ = $\omega$·$\Gamma$_a·$\Gamma$_b/$\Gamma$。
+其中 **共振强度** $\omega$$\gamma$ = $\omega$·$\Gamma_{\rm a}$·$\Gamma_{\rm b}$/$\Gamma$。
 
 **[FACT]** 各共振贡献**简单相加**；但若共振宽或重叠，必须**数值积分**式 (2)。
 

@@ -51,13 +51,13 @@
 
 - **质心能量** E_cm = 541 ± 2 keV（对应激发能 Ex = 5.17 MeV）(32, 40)
 - **总宽度** $\Gamma$ = 38.1 ± 1.8 keV（通过 $^{14}{\rm N}$($^{4}{\rm He}$,t)$^{14}{\rm O}$ 反应测量）(40, 41)
-- 辐射宽度 $\Gamma$_$\gamma$ ~ 数 eV ≪ 质子宽度 $\Gamma$_p → 共振强度**主要由 $\Gamma$_$\gamma$ 决定**
+- 辐射宽度 $\Gamma_\gamma$ ~ 数 eV ≪ 质子宽度 $\Gamma_{\rm p}$ → 共振强度**主要由 $\Gamma_\gamma$ 决定**
 
-### 3.3.2 §3.2.1 Calculations of $\Gamma$_$\gamma$
+### 3.3.2 §3.2.1 Calculations of $\Gamma_\gamma$
 
-**[FACT]** 多种模型对 $\Gamma$_$\gamma$ 的预言：
+**[FACT]** 多种模型对 $\Gamma_\gamma$ 的预言：
 
-| 模型 | 作者 | $\Gamma$_p | $\Gamma$_$\gamma$ |
+| 模型 | 作者 | $\Gamma_{\rm p}$ | $\Gamma_\gamma$ |
 |------|------|-----|-----|
 | 单粒子跃迁 (激发 $^{13}{\rm N}$ 核芯) | Mathews & Dietrich (42) | 34.7 keV | 2.44 eV |
 | 微观势模型 | Langanke et al (43) | 40.1 keV | 1.5 eV |
@@ -65,47 +65,47 @@
 | R-矩阵 (类比 $^{12}{\rm C}$(p,$\gamma$)$^{13}{\rm N}$) | Barker (45) | 35.9 keV | 1.2 eV（最佳值；通道半径变化时 1.2–2.4 eV） |
 | 生成坐标方法 | Descouvemont & Baye (46) | 66 keV | 4.1 eV |
 
-**[FACT]** 综述："a number of very different types of calculations indicate **1.2 ≤ $\Gamma$_$\gamma$ ≤ 4.1 eV**"。
+**[FACT]** 综述："a number of very different types of calculations indicate **1.2 ≤ $\Gamma_\gamma$ ≤ 4.1 eV**"。
 
 **[FACT]** 没有一种方法明显优于其他——"underscores the difficulty involved with detailed predictions of the properties of individual excited states (particularly as the state in question decays via an E1 transition)"。
 
 **[INTERPRETATION]** 计算分歧约 3 倍，反映单态预言在 s 波 $\gamma$ 衰变 E1 强度上的困难。
 
-### 3.3.3 §3.2.2 Measurements of $\Gamma$_$\gamma$
+### 3.3.3 §3.2.2 Measurements of $\Gamma_\gamma$
 
-**[FACT]** 计算预言 3.1 × $10^{-5}$ ≲ $\Gamma$_$\gamma$/$\Gamma$ ≲ 1.1 × $10^{-4}$——这个量级的**分支比测量非常困难**。
+**[FACT]** 计算预言 $3.1\times10^{-5}$ ≲ $\Gamma_\gamma$/$\Gamma$ ≲ $1.1\times10^{-4}$——这个量级的**分支比测量非常困难**。
 
 **[FACT]** 间接测量（通过核光谱）：
 
 | 方法 | 结果 |
 |------|------|
-| Wang (40) $^{14}{\rm N}$($^{4}{\rm He}$,t)$^{14}{\rm O}$*($\alpha$₀)–$\gamma$ 反冲符合 | $\Gamma$_$\gamma$/$\Gamma$ ≲ 4.5 × $10^{-4}$ → $\Gamma$_$\gamma$ ≲ 17 eV |
-| (47) $^{13}{\rm C}$($^{4}{\rm He}$,n,$\gamma$)$^{14}{\rm O}$，5.71 MeV 态 | $\Gamma$_$\gamma$ = 2.7 ± 1.3 eV |
-| (48) 同上 | $\Gamma$_$\gamma$ = 7.6 ± 3.8 eV |
-| (49) $^{1}{\rm H}$($^{14}{\rm N}$,$^{14}{\rm O}$)n 反应，$^{14}{\rm O}$ 反冲单计数（需 $^{14}{\rm N}$(p,n)$^{14}{\rm O}$ 截面辅助） | 综合得 $\Gamma$_$\gamma$ = 12 ± 7 eV |
+| Wang (40) $^{14}{\rm N}$($^{4}{\rm He}$,t)$^{14}{\rm O}$*($\alpha_{0}$)–$\gamma$ 反冲符合 | $\Gamma_\gamma$/$\Gamma$ ≲ $4.5\times10^{-4}$ → $\Gamma_\gamma$ ≲ 17 eV |
+| (47) $^{13}{\rm C}$($^{4}{\rm He}$,n,$\gamma$)$^{14}{\rm O}$，5.71 MeV 态 | $\Gamma_\gamma$ = 2.7 ± 1.3 eV |
+| (48) 同上 | $\Gamma_\gamma$ = 7.6 ± 3.8 eV |
+| (49) $^{1}{\rm H}$($^{14}{\rm N}$,$^{14}{\rm O}$)n 反应，$^{14}{\rm O}$ 反冲单计数（需 $^{14}{\rm N}$(p,n)$^{14}{\rm O}$ 截面辅助） | 综合得 $\Gamma_\gamma$ = 12 ± 7 eV |
 
 **[FACT]** 两种**放射性束直接测量**：
 
 1. **Decrock et al. (50)** — Louvain-la-Neuve，加速 $^{13}{\rm N}$ 束，通过 $^{1}{\rm H}$($^{13}{\rm N}$,$^{14}{\rm O}$)$\gamma$：
    - $\gamma$ 分支比来自与 $^{13}{\rm N}$ 反冲符合的 5.17 MeV $\gamma$ 产额，并采用宇宙线反符合、与回旋加速器 RF 相位锁定，最小化本底。
-   - 结果：**$\Gamma$_$\gamma$ = 3.8 ± 1.2 eV**。
+   - 结果：**$\Gamma_\gamma$ = 3.8 ± 1.2 eV**。
    - $^{13}{\rm N}$ + p 散射分析 (51)：宽度 $\Gamma$ = 37.0 ± 1.1 keV（与 (41) 一致），但**共振能量 E_cm = 526 ± 1 keV** 与公认值 541 ± 2 keV 严重不符。
 
 2. **Motobayashi et al. (52)** — $^{14}{\rm O}$ 弹在 $^{208}{\rm Pb}$ 库仑场中库仑裂变：
    - 测量碎裂产物角分布，与库仑 + 核激发计算比较。
-   - 归一化结果：**$\Gamma$_$\gamma$ = 3.1 ± 0.6 eV**。
+   - 归一化结果：**$\Gamma_\gamma$ = 3.1 ± 0.6 eV**。
    - 精度高因核激发效应可忽略，库仑激发易计算。
-   - Kiener et al. (54) 第二次测量：**$\Gamma$_$\gamma$ = 2.4 ± 0.9 eV**。
+   - Kiener et al. (54) 第二次测量：**$\Gamma_\gamma$ = 2.4 ± 0.9 eV**。
 
 ### 3.3.4 §3.2.3 Recommended Reaction Rate
 
-**[FACT]** 所有测量加权平均：**$\Gamma$_$\gamma$ = 3.1 ± 0.4 eV**。
+**[FACT]** 所有测量加权平均：**$\Gamma_\gamma$ = 3.1 ± 0.4 eV**。
 
 **[FACT]** 计算反应率时需考虑**分宽度在共振宽度内的能量依赖**——流程见 Fowler et al. (27)。
 
 **[FACT]** 同时采用 Fernandez et al. (47) 的**直接俘获截面**计算（基于测量类比反应 $^{13}{\rm C}$(p,$\gamma$)$^{14}{\rm N}$(2.313)）。
 
-**[FACT]** 目前**反应率不确定度主要由 $\Gamma$_$\gamma$ 决定**，而非共振能量的分歧。
+**[FACT]** 目前**反应率不确定度主要由 $\Gamma_\gamma$ 决定**，而非共振能量的分歧。
 
 **[FACT]** 因此**$^{13}{\rm N}$(p,$\gamma$)$^{14}{\rm O}$ 是全 HCNO 中唯一有可靠推荐值的反应**。
 
@@ -117,8 +117,8 @@
 | 对应激发能 Ex | 5.17 MeV |
 | 共振 J^$\pi$ | $1^{-}$ ($^{14}{\rm O}$) |
 | 总宽度 $\Gamma$ | 38.1 ± 1.8 keV |
-| 加权 $\Gamma$_$\gamma$（推荐值） | 3.1 ± 0.4 eV |
-| $\Gamma$_p | ≫ $\Gamma$_$\gamma$（主导 $\Gamma$） |
+| 加权 $\Gamma_\gamma$（推荐值） | 3.1 ± 0.4 eV |
+| $\Gamma_{\rm p}$ | ≫ $\Gamma_\gamma$（主导 $\Gamma$） |
 | $^{15}{\rm N}$(p,$\alpha$)$^{12}{\rm C}$ 中 710 keV 态 | J^$\pi$ = $0^{-}$，宇称禁戒 (p,$\alpha$) |
 | $^{12}{\rm C}$(p,$\gamma$)$^{13}{\rm N}$ 争议共振 | Ep 由 1.699 → 1.689 MeV |
 
@@ -127,17 +127,17 @@
 ```
 稳定靶四反应：基本确定（除 $^{15}{\rm N}$(p,$\alpha$)$^{12}{\rm C}$ 高温段用下限）
   ↓ 真正的未知是 $^{13}{\rm N}$(p,$\gamma$)$^{14}{\rm O}$
-  ↓ 该反应由单一共振主导，$\Gamma$_$\gamma$ 是关键
+  ↓ 该反应由单一共振主导，$\Gamma_\gamma$ 是关键
   ↓ 多种理论 → 1.2–4.1 eV
   ↓ 多种实验 → 2.4–12 eV（部分含系统误差）
-  ↓ 加权 $\Gamma$_$\gamma$ = 3.1 ± 0.4 eV → 反应率±13% 精度
+  ↓ 加权 $\Gamma_\gamma$ = 3.1 ± 0.4 eV → 反应率±13% 精度
 ```
 
 ## 3.6 潜在问题与值得注意之处
 
-1. **[CRITIQUE]** Decrock et al. (50) 的 E_cm = 526 ± 1 keV 与公认值 541 ± 2 keV 相差 15 keV——这个差异**超出误差**，作者将其视为"serious disagreement"，但**未讨论对反应率影响**（因 $\Gamma$_$\gamma$ 是主导不确定度来源，E_r 偏差在 exp(−E_r/kT) 中影响较小）。
-2. **[CRITIQUE]** 加权 $\Gamma$_$\gamma$ 计算未给出**误差处理方法**（$\sigma$ 相等的加权？系统误差如何纳入？）。12 ± 7 eV 的"间接测量"权重可能偏高。
-3. **[FACT]** $^{13}{\rm N}$(p,$\gamma$)$^{14}{\rm O}$ 反应率不确定度最终来自 $\Gamma$_$\gamma$——但 $\Gamma$_$\gamma$ 的量级为 eV（$\Gamma$ 为 keV），其**分支比 ~$10^{-4}$** 是"核物理实验中的挑战量级"，直接测量困难解释了为何直到 1990 年代初才有可靠值。
+1. **[CRITIQUE]** Decrock et al. (50) 的 E_cm = 526 ± 1 keV 与公认值 541 ± 2 keV 相差 15 keV——这个差异**超出误差**，作者将其视为"serious disagreement"，但**未讨论对反应率影响**（因 $\Gamma_\gamma$ 是主导不确定度来源，E_r 偏差在 exp(−E_r/kT) 中影响较小）。
+2. **[CRITIQUE]** 加权 $\Gamma_\gamma$ 计算未给出**误差处理方法**（$\sigma$ 相等的加权？系统误差如何纳入？）。12 ± 7 eV 的"间接测量"权重可能偏高。
+3. **[FACT]** $^{13}{\rm N}$(p,$\gamma$)$^{14}{\rm O}$ 反应率不确定度最终来自 $\Gamma_\gamma$——但 $\Gamma_\gamma$ 的量级为 eV（$\Gamma$ 为 keV），其**分支比 ~$10^{-4}$** 是"核物理实验中的挑战量级"，直接测量困难解释了为何直到 1990 年代初才有可靠值。
 
 ## 3.7 参考文献（本章）
 
@@ -148,7 +148,7 @@
 - (38–39) Zyskind & Parker 1979, Redder et al. 1982 — $^{15}{\rm N}$(p,$\alpha$)$^{12}{\rm C}$
 - (40) Wang 1986 PhD thesis Yale — $^{14}{\rm N}$($^{4}{\rm He}$,t)$^{14}{\rm O}$
 - (41) Chupp et al. 1985 — $^{14}{\rm O}$ 共振宽度
-- (42–46) Mathews & Dietrich 1984, Langanke et al. 1985, Funck & Langanke 1987, Barker 1985, Descouvemont & Baye 1989 — $\Gamma$_$\gamma$ 计算
+- (42–46) Mathews & Dietrich 1984, Langanke et al. 1985, Funck & Langanke 1987, Barker 1985, Descouvemont & Baye 1989 — $\Gamma_\gamma$ 计算
 - (47) Fernandez et al. 1989 — $^{13}{\rm N}$(p,$\gamma$)$^{14}{\rm O}$ 直接俘获类比
 - (48) Aguer et al. 1989
 - (49) Smith 1990 PhD thesis Yale

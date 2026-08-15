@@ -42,7 +42,7 @@
 
 - [FACT] 1980s 初暴胀（Guth 1981；Guth-Pi 1982；Hawking 1982；Linde 1982；Starobinsky 1982；Bardeen-Steinhardt-Turner 1983）首次给出**总量子密度预测**与**密度扰动谱**。
 - [FACT] 由此开启与"平坦宇宙理论指令"的 10 年纠结（Davis et al. 1985）。
-- [FACT] 星系团观测暗示 $\Omega$_m 远不足以闭合宇宙（White et al. 1993）。
+- [FACT] 星系团观测暗示 $\Omega_{\rm m}$ 远不足以闭合宇宙（White et al. 1993）。
 - [FACT] 1998 宇宙加速膨胀发现（Riess 1998；Perlmutter 1999）——**暗能量**补齐差量。
 
 ### 8.2.3 Peebles 1982a — CMB 涨落约束
@@ -99,4 +99,4 @@
 |-----|-----|------|
 | CDM/baryon 质量比 | ~10 | Blumenthal et al. 1984 |
 | 中性微子小晕质量范围 | ~$10^{-3}$ – $10^{-9}$ M⊙ | 综述 |
-| CDM 冷暗物质密度参数 | $\Omega$_c h² ≈ 0.12（文中未直接给，可从 $\Omega$_b 对比得） | 综述 |
+| CDM 冷暗物质密度参数 | $\Omega_{\rm c}$ h² ≈ 0.12（文中未直接给，可从 $\Omega_{\rm b}$ 对比得） | 综述 |

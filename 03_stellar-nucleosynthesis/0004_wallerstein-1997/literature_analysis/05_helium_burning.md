@@ -33,11 +33,11 @@ $$r_{3\alpha} = \frac{N_\alpha^3}{3} \cdot 2^{33/2} \cdot \left(\frac{2\pi}{M_\a
 
 [FACT] 关键参数（Ajzenberg-Selove 1990）：
 - Q = (M_12C** − 3M_$\alpha$)c² = 379.5 ± 0.3 keV
-- $\Gamma$_$\gamma$ = (3.64 ± 0.50) meV
-- $\Gamma$_pair = (60.5 ± 3.9) meV
-- $\Gamma$_rad = $\Gamma$_$\gamma$ + $\Gamma$_pair << $\Gamma$_$\alpha$ ≈ $\Gamma$ → 速率仅依赖 $\Gamma$_rad
+- $\Gamma_\gamma$ = (3.64 ± 0.50) meV
+- $\Gamma_{\rm pair}$ = (60.5 ± 3.9) meV
+- $\Gamma_{\rm rad}$ = $\Gamma_\gamma$ + $\Gamma_{\rm pair}$ << $\Gamma_\alpha$ ≈ $\Gamma$ → 速率仅依赖 $\Gamma_{\rm rad}$
 
-[FACT] **B2FH 时代低估此速率**：$\Gamma$_$\gamma$ = 1 meV（偏低）部分被当时较小的 Q 值（372 keV，而非 379.5 keV）的指数因子补偿
+[FACT] **B2FH 时代低估此速率**：$\Gamma_\gamma$ = 1 meV（偏低）部分被当时较小的 Q 值（372 keV，而非 379.5 keV）的指数因子补偿
 
 ## 5.3 B. $\alpha$ + 12C capture
 
@@ -133,11 +133,11 @@ $$\frac{dN_\alpha}{dE} = f_\beta(E) P_\alpha(E) \left|\sum_l B_l \sum_{l'} A_{ll
 
 | 量 | 数值 |
 |---|---|
-| 8Be 半衰期 | 0.97×$10^{-16}$ s |
+| 8Be 半衰期 | $0.97\times10^{-16}$ s |
 | 12C** 共振能 | Ex = 7.6542 MeV |
 | Q(3$\alpha$) | 379.5 ± 0.3 keV |
-| $\Gamma$_$\gamma$(7.65 MeV) | 3.64 ± 0.50 meV |
-| $\Gamma$_pair(7.65 MeV) | 60.5 ± 3.9 meV |
+| $\Gamma_\gamma$(7.65 MeV) | 3.64 ± 0.50 meV |
+| $\Gamma_{\rm pair}$(7.65 MeV) | 60.5 ± 3.9 meV |
 | S_cap(0.3 MeV) 推荐值 | 120 ± 40 keV·b |
 | S_E1(0.3 MeV) | 79 ± 16 keV·b |
 | S_E2(0.3 MeV) | 36 ± 6 keV·b |

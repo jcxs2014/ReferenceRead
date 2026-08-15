@@ -22,7 +22,7 @@
 | moreover | adv. | 递进 | 而且 | "CI chondrites preserve rock-forming bulk composition; **moreover**, their mineralogy is severely hydrated." |
 | insofar as | conj. | 限定 | 在……范围内 | "50% T is a better volatility index **insofar as** trace-element chemistry is concerned." |
 | owing to | prep. | 因果 | 由于 | "**Owing to** the low C/O ratio, graphite condensation is delayed to very low T." |
-| given that | conj. | 条件因果 | 鉴于 | "**Given that** $H_{2}$O/$H_{2}$ is ~5×$10^{-4}$, $fO_{2}$ is half the Anders & Grevesse (1989) value." |
+| given that | conj. | 条件因果 | 鉴于 | "**Given that** $H_{2}$O/$H_{2}$ is $~5\times10^{-4}$, $fO_{2}$ is half the Anders & Grevesse (1989) value." |
 | albeit | conj. | 让步 | 虽然 | "The new Ne abundance is 0.2 dex lower, **albeit** within the uncertainties of earlier measurements." |
 | for instance | phr. | 举例 | 例如 | "volatile elements lost in CI, **for instance** H, C, N, O." |
 | namely | adv. | 举例 | 即 | "three condensates: **namely** troilite (FeS), magnetite ($Fe_{3}$$O_{4}$), and water ice." |
@@ -90,11 +90,11 @@
 **翻译**：利用 Boothroyd & Sackmann (2003) 关于 Z/X 与 Y、X、$Z_{0}$、$X_{0}$、$Y_{0}$ 的标度关系，并采用新的光球金属度 Z/X = 0.0177，可得 $X_{0}$ = 0.7110 ± 0.0040、$Y_{0}$ = 0.2741 ± 0.0120、$Z_{0}$ = 0.0149 ± 0.0015；对 He 以上所有元素，现今与原始丰度之间的转换关系为 A(El)₀ = A(El) + 0.074 dex，对应约 16% 的重元素沉降与约 18% 的氦沉降。
 
 ### C2. §3.1（$fO_{2}$ 下降）
-> "Because **$H_{2}$O/$H_{2}$ ≈ 5.0 × $10^{-4}$**, about half the Anders & Grevesse (1989) value of 9.2 × $10^{-4}$, the **new $fO_{2}$ is lower**, and **all oxide and silicate condensation temperatures are consequently reduced** by roughly 10 K — a direct consequence of the depressed C, N, O abundances."
+> "Because **$H_{2}$O/$H_{2}$ ≈ $5.0\times10^{-4}$**, about half the Anders & Grevesse (1989) value of $9.2\times10^{-4}$, the **new $fO_{2}$ is lower**, and **all oxide and silicate condensation temperatures are consequently reduced** by roughly 10 K — a direct consequence of the depressed C, N, O abundances."
 
 **主干**：new $fO_{2}$ is lower; condensation temperatures are consequently reduced by ~10 K
 **修饰**：Because … 原因状语；— 后的破折号补充说明因果关系
-**翻译**：由于 $H_{2}$O/$H_{2}$ ≈ 5.0 × $10^{-4}$，约为 Anders & Grevesse (1989) 值 9.2 × $10^{-4}$ 的一半，新的 $fO_{2}$ 更低，所有氧化物与硅酸盐冷凝温度因此降低约 10 K——这是 C、N、O 丰度下调的直接结果。
+**翻译**：由于 $H_{2}$O/$H_{2}$ ≈ $5.0\times10^{-4}$，约为 Anders & Grevesse (1989) 值 $9.2\times10^{-4}$ 的一半，新的 $fO_{2}$ 更低，所有氧化物与硅酸盐冷凝温度因此降低约 10 K——这是 C、N、O 丰度下调的直接结果。
 
 ### C3. §1.3（触发本文的直接原因）
 > "**Allende Prieto, Lambert & Asplund (2001, 2002)** have **substantially revised downward** the solar **C and O** abundances (by a factor 1.4–1.7 relative to Anders & Grevesse 1989); since **C and O control the chemistry of most other elements**, the **absolute O abundance** lowers the condensation temperatures of O-bearing compounds, and the **C/O ratio** (now ~0.50, vs. 0.49 for Grevesse & Sauval 1998 and 0.42 for Anders & Grevesse 1989) further shifts the condensate distribution from oxides/silicates toward C-bearing compounds."

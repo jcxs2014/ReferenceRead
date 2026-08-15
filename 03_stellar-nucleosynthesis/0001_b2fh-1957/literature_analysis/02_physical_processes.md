@@ -121,8 +121,8 @@
 **两个指示器（两个时间标度）：**
 
 **① 来自 Kr 同位素 [FACT]**
-- 在 Se⁷⁸（$\beta$ 半衰期 7×$10^{5}$ yr）处的 s 过程回路。
-- 在 Fe 附近（$\sigma$=30 mb）的中子俘获半衰期：**~5×$10^{6}$ yr**。
+- 在 Se⁷⁸（$\beta$ 半衰期 $7\times10^{5}$ yr）处的 s 过程回路。
+- 在 Fe 附近（$\sigma$=30 mb）的中子俘获半衰期：**$~5\times10^{6}$ yr**。
 - 从 Fe 起总时间 ~$10^{6}$–$10^{7}$ yr（长时标），对应**中子匮乏**（每个 Fe 核 ~5 个中子）。
 
 **② 来自 Gd 同位素 (A=152, 154) [FACT]**
@@ -140,7 +140,7 @@
 - H 燃烧：$10^{7}$ K（$10^{10}$ yr）
 - He 燃烧：$10^{8}$ K（$10^{8}$ yr）
 - $\alpha$ 过程：$10^{9}$ K（$10^{7}$ yr）
-- $\epsilon$ 过程：5×$10^{9}$ K（秒）
+- $\epsilon$ 过程：$5\times10^{9}$ K（秒）
 - r 过程：~$10^{10}$ K（10–100 s）
 - p 过程：~$10^{9}$–$10^{10}$ K（秒-分钟）
 - s 过程：$10^{7}$–$10^{8}$ K（$10^{6}$–$10^{8}$ yr，伴随 H/He 燃烧）
@@ -150,26 +150,26 @@
 ### 2.7.1 s 过程稳态流方程（Kr 回路）[FACT]
 对 Se⁷⁸ 回路下的 Kr 同位素：
 ```
-N(Kr⁸⁰)·$\lambda$_$\gamma$(Kr⁸⁰) = 0.92 · N(Se⁷⁸)·$\lambda$_$\gamma$(Se⁷⁸)
-N(Kr⁸²)·$\lambda$_$\gamma$(Kr⁸²) = $\lambda$_$\gamma$(Se⁸⁰)·N(Se⁸⁰) + $\lambda$_$\beta$(Kr⁸¹)·N(Kr⁸¹)
+N(Kr⁸⁰)·$\lambda_\gamma$(Kr⁸⁰) = 0.92 · N(Se⁷⁸)·$\lambda_\gamma$(Se⁷⁸)
+N(Kr⁸²)·$\lambda_\gamma$(Kr⁸²) = $\lambda_\gamma$(Se⁸⁰)·N(Se⁸⁰) + $\lambda_\beta$(Kr⁸¹)·N(Kr⁸¹)
 ```
 系数 0.92 来自 Se⁷⁸ 回路中 Br 的 $\beta$ 衰变分支比（92%）。
 
 ### 2.7.2 时间比 [FACT]
 ```
-t_$\gamma$(Se⁷⁸) + t_$\beta$(Se⁷⁸) / t_$\gamma$(Kr⁸⁰)·$\lambda$_$\gamma$(Kr⁸⁰) = 0.92 / t_$\gamma$(Se⁷⁸)·$\lambda$_$\gamma$(Kr⁸⁰)
+t_$\gamma$(Se⁷⁸) + t_$\beta$(Se⁷⁸) / t_$\gamma$(Kr⁸⁰)·$\lambda_\gamma$(Kr⁸⁰) = 0.92 / t_$\gamma$(Se⁷⁸)·$\lambda_\gamma$(Kr⁸⁰)
 ```
 最终得出：
 ```
-t_$\gamma$(Se⁷⁸) ≈ 5×$10^{6}$ yr (在 A≈40 区)
-t_$\gamma$(Fe⁵⁶) ≈ 6×$10^{6}$ yr (按 $\sigma$ 折算，$\sigma$=30 mb)
+t_$\gamma$(Se⁷⁸) ≈ $5\times10^{6}$ yr (在 A≈40 区)
+t_$\gamma$(Fe⁵⁶) ≈ $6\times10^{6}$ yr (按 $\sigma$ 折算，$\sigma$=30 mb)
 ```
 
 ## 2.8 数值亮点
 
 - **每个 Fe 核 ~5 个中子**（长时标 s 过程） vs **~100 中子/Fe 核**（短时标 s 过程）。
 - r 过程：**~200 中子/Fe 核** 在 10–100 s 内。
-- Tc⁹⁹ 半衰期：2×$10^{6}$ yr —— 直接证明红巨星内的 s 过程。
+- Tc⁹⁹ 半衰期：$2\times10^{6}$ yr —— 直接证明红巨星内的 s 过程。
 - 蟹状星云超新星：$^{56}{\rm Ni}$ → $^{56}{\rm Co}$ 衰变链（~55 天 e-fold），暗示 Cf²⁵⁴ 自发裂变。
 
 ## 2.9 作者论证链

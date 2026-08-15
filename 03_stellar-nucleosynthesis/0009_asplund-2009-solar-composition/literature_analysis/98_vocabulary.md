@@ -23,7 +23,7 @@
 | 总之 | overall / in summary | adv. | 结论 | "本文承诺：回顾太阳丰度分析所需的所有原料……逐一元素、同质地讨论光球丰度……与陨石、邻近恒星、H II 区、ISM、日震、太阳中微子进行交叉比较……总结要点与开放问题" | 列出全文四大目标即作者结论 |
 | 同时 | simultaneously / likewise | adv. | 递进 | "逐一元素、同质地讨论光球丰度（§3）；与陨石、邻近恒星、H II 区、ISM、日震、太阳中微子进行交叉比较（§4）" | 两个研究目标并列进行 |
 | 相反 | in contrast / on the contrary | phrase | 转折 | "半经验模型（HM, MISS）的温度梯度比 1D 理论模型更浅（见 Fig 1）。" | 对比两类 1D 模型的温度结构 |
-| 换言之 | namely / that is | phrase | 举例 | "标准标度：log $\epsilon$_H = 12.00；一般定义：log $\epsilon$_X = log(N_X / N_H) + 12" | 定义展开 |
+| 换言之 | namely / that is | phrase | 举例 | "标准标度：log $\epsilon_{\rm H}$ = 12.00；一般定义：log $\epsilon_{\rm X}$ = log(N_X / N_H) + 12" | 定义展开 |
 | 此外 | moreover / in addition | adv. | 递进 | "Li 及可能的 Be 的额外烧尽（depletion）。" | 补充光球丰度修正的第二项 |
 | 甚至 | even | adv. | 递进 | "声速剖面偏差增大（尤其在对流区底部 R ≈ 0.71 R⊙ 以下）" | 递进强调偏差严重程度 |
 | 如果 | if / should | conj. | 让步 | "如果以上都无法解决，说明光球丰度测量本身可能存在问题，但目前找不到明显错误来源。这是天体物理学界至今的开放难题。" | 假设全部解决方案失败，引出更深层问题 |
@@ -38,7 +38,7 @@
 |-----------------|----------|----------|-------------|
 | solar abundance | 太阳丰度 | 40+ | §0.1 |
 | photosphere | 光球层 | 30+ | §0.3 |
-| log $\epsilon$ (astronomical abundance) | 天文对数丰度 log $\epsilon$_X = log(N_X/N_H)+12 | 25+ | §0.5.1 |
+| log $\epsilon$ (astronomical abundance) | 天文对数丰度 log $\epsilon_{\rm X}$ = log(N_X/N_H)+12 | 25+ | §0.5.1 |
 | Z, X, Y (mass fractions) | 金属/氢/氦质量分数 | 20+ | §0.5.2 |
 | AGSS09 | Asplund et al. 2009 太阳丰度标 | 15+ | §0.2 |
 | 3D hydrodynamic model | 三维流体力学太阳模型 | 15+ | §1.3 |
@@ -69,7 +69,7 @@
 | C, N, O, Ne | 碳、氮、氧、氖丰度 | 30+ | §1.3 |
 | metallicity Z | 金属丰度 | 15+ | §0.5.2 |
 | solar system / proto-solar | 太阳系/原太阳 | 3 | §0.5.2 |
-| $\Gamma$₁ (adiabatic exponent) | 绝热指数 | 2 | §3.9 |
+| $\Gamma_{1}$ (adiabatic exponent) | 绝热指数 | 2 | §3.9 |
 | R_BCZ | 对流区底部半径 | 3 | §0.6 |
 | sound-speed profile | 声速剖面 | 4 | §0.6 |
 | opacity | 不透明度 | 6 | §0.6 |

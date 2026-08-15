@@ -123,10 +123,10 @@ References: (p.33–41, 约 150 条)
 
 ### 0.5.1 天文对数丰度
 
-- [FACT] 标准标度：`log $\epsilon$_H = 12.00`
-- [FACT] 一般定义：**log $\epsilon$_X = log(N_X / N_H) + 12**，其中 N_X, N_H 为元素 X 与氢的数密度。
+- [FACT] 标准标度：`log $\epsilon_{\rm H}$ = 12.00`
+- [FACT] 一般定义：**log $\epsilon_{\rm X}$ = log(N_X / N_H) + 12**，其中 N_X, N_H 为元素 X 与氢的数密度。
 - [INTERPRETATION] 本文所有丰度表、图示、比较均基于此标度。陨石丰度原始定义为 N_Si = 10^6，需经下式换算：
-  **log $\epsilon$_X = 1.51 + log N_X**（§4.1）
+  **log $\epsilon_{\rm X}$ = 1.51 + log N_X**（§4.1）
 
 ### 0.5.2 质量分数 X、Y、Z
 
@@ -161,7 +161,7 @@ References: (p.33–41, 约 150 条)
   1. **平均大气结构**：½·| 结果(空间平均 3D) − 结果(Holweger & Müller 1974) |
   2. **大气不均匀性**：½·| 结果(完整 3D) − 结果(空间平均 3D) |
   3. **非 LTE 效应**：½·| 非 LTE 丰度修正 |；下限 0.03 dex；部分情形用 `S_H` (Drawin 碰撞公式缩放因子) 变化范围估算。
-- [FACT] 总误差 = sqrt($\sigma$_stat² + $\sigma$_syst²)，其中 $\sigma$_stat 为按谱线质量的加权标准误。
+- [FACT] 总误差 = sqrt($\sigma_{\rm stat2}$ + $\sigma_{\rm syst2}$)，其中 $\sigma_{\rm stat}$ 为按谱线质量的加权标准误。
 
 ## 0.6 本文核心争议（全文线索）
 
