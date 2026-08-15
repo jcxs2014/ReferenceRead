@@ -685,3 +685,34 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 ### 结论
 
 两篇精读合格并入全库；本会话精读累计 9 篇（Bell/BO/B&E + Amato/Génolini + Weinrich/Mewaldt + Hillas + Giuffrida + TA-2023），与声明一致。剩余 D5–D8（Ruszkowski/Gabici/Cowan/Kaeppeler）由其他会话处理中。
+
+## 审查 #23：Gabici 2019 核验 + 全库 35 篇收官（2026-08-15 14:20）
+
+> 范围：gabici-2019 精读（提交 759accd / 3f8d23f）+ 全库完整度扫描
+
+### 核验结果：gabici 合格 ✅，全库 35 篇精读全部闭环 🎉
+
+| 项 | 结果 |
+|---|---|
+| 提交链 | 759accd（8 files）/ 3f8d23f（INDEX+registry 刷新）存在 ✓ |
+| 规模 | 9 文件 / 773 行（声明 771，wc 口径差 2）✓ |
+| 三件套 | ✓ |
+| 97 | 存在且无占位符（含数值校验表：$w_{CR}\approx1$ eV/cm³、$W_{CR}\approx10^{55}$ erg、Fig 1–6 覆盖）✓ |
+| 行数门槛 | 773 ≥ 500 ✓ |
+| 相似度 | 01_introduction 12.0%——唯一 ≥25 字符块为 DOI 表格行（`10.1142/S0218271819300221`），与 #22/#21 同源的元数据表格误报，非搬运 ✓ |
+
+### 全库完整度扫描（35 篇）
+
+- ✅ 34 篇完整 + ✅ gabici 本篇 = **35/35 全部闭环**
+- 7 篇"1 分章"（al-dargazelli/gaisser/biermann/anders-grevesse/grevesse-sauval/kewley/dieterich）为老库单章长文结构（如 al-dargazelli 01_analysis.md 566 行 + 97/98/99），非遗漏
+- 唯一的骨架（gabici）已由本会话补精读
+
+### 里程碑
+
+**从 2026-08-13 的 21 篇老库 → 2026-08-15 的 35 篇全精读闭环**：批 A（Bell/BO/B&E）+ 批 B（Amato/Génolini）+ 批 C（Weinrich/Mewaldt）+ Hillas + Giuffrida + TA-2023 + Gabici = 14 篇新增精读全部落地。全部通过三件套/行数门槛/97/相似度（剥 FM）门禁。
+
+### 方法论沉淀（#21-#23 三轮共 5 个误报案例）
+
+- **相似度门禁须剥 frontmatter + 排除文献信息表格**（cowan/TA-2023/gabici 三个 DOI 表格误报）
+- **97 占位符检测须排除"无占位符/全篇无'需人工确认'"声明句**（TA-2023 误报）
+- 后续 quality_matrix.py / 审查脚本应内置这两条修正
