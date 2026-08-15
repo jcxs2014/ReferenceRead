@@ -4,8 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>papers 知识库 · 交互版</title>
-<link rel="stylesheet" href="__WEBAPP_ROOT__third-party/katex/katex.min.css" crossorigin="anonymous">
-<script defer src="__WEBAPP_ROOT__third-party/katex/katex.min.js"></script>
+<!-- KaTeX 协议自适应加载（2026-08-15 修复）：file:// 协议浏览器拦截本地子资源（CORS），走 CDN；http(s):// 走本地（离线可用） -->
+<script>
+(function(){
+  var base = (location.protocol === 'file:')
+    ? 'https://cdn.jsdelivr.net/npm/katex@0.16.11/dist'
+    : '__WEBAPP_ROOT__third-party/katex';
+  var l = document.createElement('link');
+  l.rel = 'stylesheet'; l.href = base + '/katex.min.css';
+  document.head.appendChild(l);
+  var s = document.createElement('script');
+  s.defer = true; s.src = base + '/katex.min.js';
+  document.head.appendChild(s);
+})();
+</script>
 <style>
 :root, [data-theme="light"] {
   --bg:#fff; --bg-2:#f6f8fa; --fg:#24292f; --fg-2:#57606a;
