@@ -5,6 +5,8 @@ convert_supsub.py — Unicode 上标/下标 → LaTeX（清零库内 Unicode 上
 范围（见 docs/公式上下标LaTeX化执行指令.md）：
   所有残留 Unicode 上标(⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁽⁾ⁿ) / 下标(₀₁₂₃₄₅₆₇₈₉₊₋₍₎ₐₑₕᵢⱼₖₗₘₙₒₚᵣₛₜᵤᵥₓ)
   → LaTeX ^{..} / _{..}。基底留数学模式外作文本；已处 $..$ 内只插 ^{..}。
+  特例：论文名标记 B²FH 保留 Unicode 不转换；± 后紧凑上下标（±²/₋₄）
+  → $\\pm^{2}_{-4}$（替代旧版「± 不确定度跳过豁免」）。
 
 铁律：
   - 数字零变化（Unicode 数字归一 ASCII，值不变）
@@ -86,13 +88,36 @@ def in_frontmatter(text):
     return res
 
 
-def is_uncertainty(line, i, prev_src):
-    """不确定度记法（±²/₋₄ 之类）跳过，不机械处理。"""
-    if prev_src == '±':
-        return True
-    if prev_src == '/' and '±' in line[max(0, i - 8):i]:
-        return True
-    return False
+def convert_pm(line, i, parity):
+    """处理 ± 后的紧凑上下标不确定度：±²/₋₄ → $\\pm^{2}_{-4}$。
+
+    仅当 ± 后紧跟 Unicode 上/下标时触发；否则（如 ±0.05 标准可读文本）
+    返回 (None, i) 保持原样。/ 分隔符在 LaTeX 中省略（\\pm^{2}_{-4} 已表达
+    上下界）。parity 奇数（已在 $..$ 内）时不包 $ 包裹。
+    """
+    n = len(line)
+    j = i + 1
+    blocks = []
+    while j < n:
+        c = line[j]
+        if c in SUP_MAP or c in SUB_MAP:
+            sup = c in SUP_MAP
+            k = j
+            while k < n and (line[k] in SUP_MAP or line[k] in SUB_MAP) and ((line[k] in SUP_MAP) == sup):
+                k += 1
+            norm = ''.join(SUP_MAP.get(x, SUB_MAP.get(x, x)) for x in line[j:k])
+            blocks.append(('^' if sup else '_', norm))
+            j = k
+        elif c == '/':
+            j += 1          # 分隔符省略
+        else:
+            break
+    if not blocks:
+        return None, i
+    inner = ''.join(f'{kk}{{{nm}}}' for kk, nm in blocks)
+    if parity % 2 == 1:
+        return '\\pm' + inner, j
+    return '$\\pm' + inner + '$', j
 
 
 def convert_line(line):
@@ -123,7 +148,19 @@ def convert_line(line):
                 while j < n and line[j] in UNI_SUPSUB:
                     j += 1
             run = line[i:j]
+            # 特例：论文名标记 B²FH 保留 Unicode，不转 LaTeX（避免 B²FH → B$^{2}$FH）
+            if line[i] == '²' and i > 0 and line[i - 1] == 'B' and line[j:j + 2] == 'FH':
+                out.append(run)
+                changes.append(('protected', 'B' + run + 'FH', 'B' + run + 'FH'))
+                i = j
+                continue
             prev_src = line[i - 1] if i > 0 else ''
+            # 方程中 ± 后接上下标（如 E_±²）保持原样，交由人工转为 E_{\pm}^{2}
+            if prev_src == '±':
+                out.append(run)
+                changes.append(('skip-eq', '±' + run, '±' + run))
+                i = j
+                continue
             if '·' in run:
                 # 十进制指数：整体作上标，· 替换为 .
                 norm = ''.join(SUP_MAP.get(c, SUB_MAP.get(c, ('.' if c == '·' else c))) for c in run)
@@ -143,13 +180,6 @@ def convert_line(line):
                     blocks.append(('^' if sup0 else '_', norm))
                     k = m
             inner = ''.join(f'{kk}{{{nm}}}' for kk, nm in blocks)
-
-            # 不确定度排除
-            if is_uncertainty(line, i, prev_src):
-                out.append(run)
-                changes.append(('skip', prev_src + run if prev_src else run, run))
-                i = j
-                continue
 
             # 同位素：前置上标 + 元素符号（基底非字母数字，且其后为元素）
             if blocks[0][0] == '^' and (i == 0 or not prev_src.isalnum()):
@@ -194,6 +224,17 @@ def convert_line(line):
             i = j
             continue
 
+        if line[i] == '±':
+            prev = line[i - 1] if i > 0 else ''
+            # 仅在 ± 独立成不确定度标记时转换（如 ±²/₋₄）；
+            # 方程中 ± 作下标/运算（如 E_±²、Z±1）保持原样，交人工处理
+            if not (prev.isalnum() or prev == '_'):
+                repl, j = convert_pm(line, i, parity)
+                if repl is not None:
+                    out.append(repl)
+                    changes.append(('pm', line[i:j], repl))
+                    i = j
+                    continue
         out.append(line[i])
         i += 1
     return ''.join(out), changes
