@@ -1,0 +1,642 @@
+arXiv:2311.14231v1 [astro-ph.HE] 24 Nov 2023   An extremely energetic cosmic ray observed by a
+                                                                surface detector array
+
+                                                                       Telescope Array Collaboration
+
+                                                                 Corresponding author: Toshihiro Fujii (toshi@omu.ac.jp)
+                                               Telescope Array Collaboration authors and affiliations are listed in the end of this article.
+
+                                                    Published in Science https://doi.org/10.1126/science.abo5095
+
+                                              Cosmic rays are energetic charged particles from extraterrestrial sources, with
+
+                                              the highest energy events thought to come from extragalactic sources. Their
+
+                                              arrival is infrequent, so detection requires instruments with large collecting
+
+                                              areas. In this work, we report the detection of an extremely energetic particle
+
+                                              recorded by the surface detector array of the Telescope Array experiment. We
+
+                                              calculate the particle's energy as 244 ± 29 (stat.)  +51  (syst.)  exa-electron  volts
+                                                                                                   -76
+
+                                              ( 40 joules). Its arrival direction points back to a void in the large-scale
+
+                                              structure of the Universe. Possible explanations include a large deflection by
+
+                                              the foreground magnetic field, an unidentified source in the local extragalactic
+
+                                              neighborhood or an incomplete knowledge of particle physics.
+
+                                                  Ultra-high-energy cosmic rays (UHECRs) are subatomic particles from extragalactic sources
+                                              with energies greater than 1018 eV (1 exa-electron volt, EeV), about a million times higher than
+                                              reached by human-made accelerators. The origins of UHECRs are thought to be related to the
+                                              most energetic phenomena in the Universe, such as relativistic jets and outflows associated with
+                                              black holes, gamma-ray bursts and relativistic flares of active galactic nuclei, or large-scale ac-
+                                              cretion shocks around clusters of galaxies (1). Alternatively, UHECRs might be produced by
+
+                                                                                                      1
+physics beyond the Standard Model of particle physics (2-4), though this possibility is con-
+strained by upper bounds on the flux of ultra-high-energy (UHE) photons (5, 6). The acceler-
+ation mechanisms of these particles are also unknown. Because cosmic rays are charged, they
+are deflected along their path to Earth by intervening Galactic and extragalactic magnetic fields,
+so their arrival directions do not necessarily point to their sources.
+
+    Although cosmic rays with energy >100 EeV have been observed (7), interactions with
+the cosmic microwave background radiation (CMB) (8) are expected to suppress the flux of
+UHECRs above 60 EeV (9, 10). This is because interactions between UHECR protons and the
+CMB can produce pions or induce photo-disintegration of heavy nuclei. The resulting break in
+the expected energy spectrum is known as the Greisen-Zatsepin-Kuzmin (GZK) cutoff (9, 10).
+This cutoff limits the origins of the highest energy particles detected on Earth to sources within
+50 to 100 mega-parsecs (Mpc) since they have a short enough path length to survive passage
+through the intergalactic medium. At these distance scales, the Universe is not homogeneous:
+matter is concentrated in a large-scale structure (LSS) composed of galaxy clusters, superclus-
+ters, filaments and sheets, separated by intergalactic voids. A suppression of cosmic ray flux
+at the highest energies consistent with the GZK cutoff has been observed (11-13). However,
+UHECRs with energies above the GZK cutoff are expected to be deflected less strongly by
+magnetic fields due to their high kinetic energies, so their arrival directions are expected to be
+more closely correlated with their sources.
+
+The Telescope Array experiment
+
+At energies greater than 100 EeV, the flux of cosmic rays is less than one particle per cen-
+tury per square kilometer (12). This low flux can only be measured by an instrument with a
+collecting area of 1000 km2. The energy, mass and arrival direction of UHECRs can be re-
+constructed from the cascades of secondary particles (Extensive Air Shower, EAS) produced
+
+                                                        2
+by their interaction with Earth's atmosphere. Arrays of detectors such as plastic scintillators or
+water-Cerenkov stations are conventionally used to measure EASs at ground.
+
+    The Telescope Array experiment (TA) is a cosmic ray detector in the northern hemisphere,
+located at 39.30 North, 112.91 West and 1370 m above sea level in Utah, the United States
+of America. It consists of a surface detector array (SD) with 507 stations arranged in a square
+grid. Each detector has two 3 m2 layers of plastic scintillator which detect charged EAS par-
+ticles. The stations are spaced by 1.2 km, giving a total effective area of 700 km2 (14). The
+time-dependent response of the surface detectors is continuously monitored and calibrated by
+penetrating muons and electrons (14). The sky over the SD is viewed by fluorescence detectors
+which directly measure EAS developments in the atmosphere and provide a calorimetric mea-
+surement of the shower energy (15). The mass of the primary cosmic ray is estimated using the
+fluorescence detectors by determining Xmax, the atmospheric slant depth (measured in g/cm2)
+at which an EAS deposits most of its energy. The Xmax observable is related to the mass com-
+position by a statistical analysis. TA does not determine the particle mass on an event-by-event
+basis (16). The SD measurements carry indirect information about the primary composition,
+which is extracted on a statistical basis using machine learning (17).
+
+    The arrival direction of a cosmic-ray particle is determined from the relative arrival times of
+the shower front at multiple SD stations, measured by a time-synchronized global positioning
+system (GPS) module mounted on each station. The particle density measured at a distance
+of 800 m from the EAS axis, S800, is used as the energy indicator. S800 is converted to the
+primary energy of the cosmic ray as a function of zenith angle based on Monte Carlo EAS
+simulations (18). The SD energy scale was calibrated to the calorimetric energy measured
+by the fluorescence detectors with a factor of 1/1.27 (12). The resolution of the SD is 1.5
+in arrival direction and 15% in energy (12), with a systematic uncertainty of 21% (19). The
+detailed analysis procedure and event reconstruction are described in (20).
+
+                                                        3
+                                                                                                         (B) Date: 27 May 2021 Time: 10:35:56.474337 UTC
+
+(A) Surface detector array of TA                                                                            20  SD0116: 2.2 MIP at 3.6 km
+                                                                                                            10  SD0217: 21.8 MIP at 2.3 km
+North-South distance [km]15
+                                                                              Signal size [FADC counts]      0        SD0316: 19.2 MIP at 2.4 km
+10                                                                                                          60           SD0317: 78.6 MIP at 1.5 km
+                                                                                                            40                SD0318: 216.9 MIP at 1.3 km
+5                                                                                                           20                    SD0416: 7.3 MIP at 2.3 km
+                                                                                                                                    SD0415: 4.9 MIP at 3.4 km
+0                                                                                                            0                     SD0417: 393.6 MIP at 1.1 km
+                                                                                                            40                         SD0418: 5581.2 MIP at 0.3 km
+-5                                                                                                                                            SD0516: 12.1 MIP at 2.5 km
+                                                                                                            20                                 SD0419: 347.5 MIP at 1.2 km
+-10                                                                                                                                            SD0517: 211.1 MIP at 1.4 km
+                                                                                                             0                                     SD0518: 3548.4 MIP at 0.7 km
+-15                                                                                                       100                                             SD0519: 313.0 MIP at 1.2 km
+                                                                                                                                                             SD0616: 3.6 MIP at 3.1 km
+                                                                                                            50                                               SD0617: 32.9 MIP at 2.2 km
+                                                                                                                                                                 SD0618: 96.8 MIP at 1.7 km
+                                                                                                             0                                                        SD0615: 1.8 MIP at 4.1 km
+                                                                                                          200                                                           SD0619: 40.3 MIP at 1.8 km
+                                                                                                                                                                                 SD0718: 9.7 MIP at 2.7 km
+                                                                                                          100                                                                           SD0620: 8.2 MIP at 2.6 km
+                                                                                                                                                                                               SD0720: 13.4 MIP at 3.2 km
+                                                                                                             0
+-20                                                                                                                        SD0820: 4.6 MIP at 3.9 km
+                                                                                                            20
+     -15 -10 -5  0  5             10 15                                                                     10  5  10  15  20                             25
+
+                                                                                                             0
+                                                                                                            30
+                                                                                                            20
+                                                                                                            10
+
+                                                                                                             0
+                                                                                                          300
+                                                                                                          200
+                                                                                                          100
+
+                                                                                                             0
+                                                                                                         4000
+                                                                                                         2000
+
+                                                                                                             0
+                                                                                                            30
+                                                                                                            20
+                                                                                                            10
+
+                                                                                                             0
+                                                                                                          300
+                                                                                                          200
+                                                                                                          100
+
+                                                                                                             0
+                                                                                                          150
+                                                                                                          100
+                                                                                                            50
+
+                                                                                                             0
+                                                                                                         4000
+                                                                                                         2000
+
+                                                                                                             0
+                                                                                                          300
+                                                                                                          200
+                                                                                                          100
+
+                                                                                                             0
+                                                                                                            40
+
+                                                                                                            20
+
+                                                                                                             0
+
+                                                                                                            50
+
+                                                                                                             0
+
+                                                                                                          100
+                                                                                                            50
+
+                                                                                                             0
+
+                                                                                                            20
+                                                                                                            10
+
+                                                                                                             0
+                                                                                                            60
+                                                                                                            40
+                                                                                                            20
+
+                                                                                                             0
+                                                                                                            60
+                                                                                                            40
+                                                                                                            20
+
+                                                                                                             0
+
+                                                                                                            40
+                                                                                                            20
+
+                                                                                                             0
+
+                                                                                                            50
+
+                                                                                                             0
+
+                                                                                                            40
+                                                                                                            20
+
+                                                                                                             0
+
+                                                                                                            0
+
+     East-West distance [km]                                                                                    Relative time from earliest detector [s]
+
+Figure 1: The high-energy particle event observed by TA SD on 27 May 2021. (A) A
+map of the TA SD. Each dot indicates the location of a SD station. The black arrow indicates
+the shower direction projected on the ground. The landing shower core position is located at
+(-9471 ± 31 m, 1904 ± 23 m) from the central position of the SD. The size of the colored
+circles is proportional to the number of particles detected by each station and the color denotes
+the relative time from the earliest detector. (B) The corresponding detector waveforms of flash
+analog-to-digital converter (FADC) counts for each station are shown with total signal in units
+of the minimum ionizing particle (MIP) and distance from the shower axis indicated. Thick
+and thin lines are recorded signals in upper and lower layers for each station. Each SD is
+identified by a four digit number. The first two digits correspond to the column of the array in
+which the SD is located (numbered west to east) and the second two digits correspond to the
+row (numbered south to north). The coordinated universal time (UTC) is used for the date and
+time of the event. The size of particle density and color code of the relative time in (A) are
+quantitatively indicated for each detector. 4
+Table 1: The reconstructed properties of the high-energy event. The energy and the particle
+
+density at the distance of 800 m, S800, of the high-energy particle. Also listed are its arrival
+
+direction in the zenith-azimuth coordinates and the derived equatorial coordinates. The azimuth
+
+angle is defined to be anti-clockwise from the East.
+
+ Date         Energy                  S800           Zenith        Azimuth             Right Declination
+(UTC)         (EeV)                  (m-2)           angle           angle           Ascension
+
+27 May 2021 244±29(stat.) 530±57 38.6±0.4 206.8±0.6 255.9±0.6                                       16.1±0.5
+
+10:35:56      +51  (syst.)
+              -76
+
+Energetic particle on 27 May 2021
+
+An unusually high energy event was identified during an arrival direction analysis (21) of all
+
+SD data taken between May 2008 and November 2021. This event triggered 23 detectors at the
+
+north-west region of the TA SD. To determine S800 and the primary energy, the lateral density
+
+distribution is shown in (20). Applying the defined analysis procedure, the event on 27 May
+
+2021  has  a  reconstructed  energy  of  244  ±  29  (stat.)  +51  (syst.)  EeV  in  the  detector  frame.  This
+                                                              -76
+
+energy is  4×107 times higher than the 7 tera-electron volts (TeV) protons accelerated by the
+
+Large Hadron Collider (LHC) (22). When this cosmic ray particle experienced its first collision
+
+with a nucleon at rest in the upper atmosphere, the corresponding center-of-mass energy of the
+
+particle collision, assuming the particle was a proton, reached 700 TeV.
+
+Fig. 1A shows a map of the TA SD and its recorded signals for the high-energy cosmic
+
+ray, including the footprint of the EAS on the TA SD. Fig. 1B shows the recorded signal size
+
+measured at each surface detector. Table 1 summarizes the reconstructed properties of the event.
+
+The waveforms recorded by detectors at distances above 2 km contain many peaks from muons
+
+induced by the hadronic interactions. With that many muon components, the primary particle is
+
+unlikely to be a photon because EASs induced by photons primarily consist of electromagnetic
+
+particles. We applied a neural network proton-photon classifier developed for photo-induced
+
+shower searches using the TA SD (23, 24) to this event. We find the classifier excludes a
+
+                                                     5
+photon as the primary particle at the 99.986% confidence level, instead favoring a primary
+proton. However, the classifier cannot distinguish between protons and heavier nuclei because
+the fluorescence detectors were not operating during this event due to bright moon light.
+
+    The core position of this event was located 1.1 km from the north-west edge of the SD
+(Fig. 1A). We evaluate the statistical uncertainty of the reconstructed energy using a detector
+simulation (12) assuming the reconstructed geometry and energy parameters; we find an energy
+resolution of 29 EeV for this event. Assuming an energy spectrum of E-4.8 above 100 EeV as
+measured by the TA SD (12), a migration effect where lower energy showers are reconstructed
+with higher energies due to the energy resolution is evaluated as -3%. We include an additional
+systematic uncertainty due to unknown primary of -10% in the direction of lower energies as
+calculated from simulations (20). There was no lightning or thunderstorm activity recorded in
+the vicinity of the TA site on 27 May 2021 (25).
+
+Comparison with previous events
+
+Previously reported extremely high-energy cosmic ray events include a 320 EeV particle in
+1991 (26), a 213 EeV particle in 1993 (27) and a 280 EeV particle in 2001 (28). The 1991
+event was measured using fluorescence detectors whilst the 1993 and 2001 events were both
+detected using surface detector arrays. All of these events were recorded by detectors in the
+northern hemisphere. A search in the southern hemisphere has not identified any events with
+energy greater than 166 EeV (29), although there is an energy scale difference between the
+experiments (30). Although the event we have detected was measured with a surface detector
+array, the reported energy of 244 EeV has been normalized to the equivalent energy that would
+have been measured with the TA fluorescence detector and is thus comparable to the 1991 event.
+This normalization is done as fluorescence detectors provide a direct, calorimetric measurement
+of the shower energy. The original TA SD reconstructed energy of 309±37(stat.) EeV (20) is
+
+                                                        6
+comparable to the 1993 and 2001 events.
+
+Possible sources of the cosmic ray
+
+Fig. 2 shows the calculated arrival direction of the 27 May 2021 event in equatorial coordinates.
+The arrival direction is not far from the disk of the Milky Way, where the Galactic magnetic
+field (GMF) is strong enough to substantially deflect even a particle with an energy of 244 EeV,
+especially if the primary particle is a heavy nucleus with a large electric charge. The map also
+shows the back-tracked arrival direction calculated assuming two GMF models (31, 32) and
+four possible primary particles (proton, carbon nucleus, silicon nucleus or iron nucleus). We
+used the back-tracking method of a cosmic-ray propagation framework (33) to find the arrival
+direction for the cosmic ray before it entered the Milky Way.
+
+    We compared the arrival directions to a catalog of gamma-ray sources (34). We find the
+active galaxy PKS 1717+177 is located within 2.5 of the calculated direction for a proton pri-
+mary. PKS 1717+177 is a flaring source (34), which has been proposed as potential cosmic ray
+sources (35). However, its distance of  600 Mpc (corresponding to a redshift of 0.137) (36)
+is expected to be too large for UHECR propagation to Earth, because the average propaga-
+tion distance at an energy of 244 EeV is calculated to be  30 Mpc for both proton and iron
+primaries (20). We therefore disfavor PKS 17171+177 as the source of this event.
+
+    Fig. 2 also shows the relative expected flux from an inhomogeneous source-density distri-
+bution following the local LSS (39), weighted by the expected attenuation for a 244 EeV iron
+primary smoothed to reflect the smearing due to turbulent magnetic fields in the Milky Way (20).
+Also shown are nearby gamma-ray emitting active galactic nuclei and starburst galaxies, which
+have been proposed as possible cosmic ray sources (37, 40). The arrival direction of this event
+is consistent with the location of the Local Void, a cavity between the Local Group of galaxies
+and nearby LSS filaments (38). There are only a small number of known galaxies in the void,
+
+                                                        7
+                                                                                                                         6
+
+Fig.2: Uncertainty of the Galactic magnetic field
+
+                         JF2012 Fe
+
+                                               Si
+
+                                   C Fe PT2011
+
+                                                   Si
+                                                P
+
+Figure 2: Sky map in equatorial coordinates showing the arrival direction of the 27 May
+2021 high-energy cosmic ray particle (black circle). Also shown are calculated back-tracked
+directions assuming two models of the Milky Way regular magnetic field labelled JF2012 (31)
+and PT2011 (32). For each model, different symbols indicate the directions calculated for four
+possible primary species: proton (P, red), carbon (C, purple), silicon (Si, green), and iron (Fe,
+blue). The color bar indicates the relative flux expected from the inhomogeneous source-density
+distribution in the local LSS, smeared with a random Milky Way magnetic field. For com-
+parison, nearby gamma-ray-emitting active galactic nuclei are shown by filled diamonds, and
+nearby starburst galaxies are marked with filled stars, both with sizes that scale by the expected
+flux shown in (37). The closest object to the proton back-tracked direction in a gamma-ray
+source catalog (34) is the active galaxy PKS 1717+177. The dotted large circle centered around
+(R.A., Dec.) = (146.7, 43.2) indicates the previously reported TA hot spot (21) and the dashed
+horizontal curve indicates the limit of the TA field-of-view (FoV). The left dotted large circle
+centered around around (R.A., Dec.) = (279.5, 18.0) is a location of the Local Void (38). The
+galactic plane (G.P.) and the super-galactic plane (S.G.P.) are shown as solid and dotted curves,
+respectively. The galactic center (G.C.) is indicated by the cross symbol.
+
+                                                         8
+none of which are expected sites of UHECR acceleration. Even taking into account the range
+of possible GMF deflections and primary mass, we do not identify any candidate sources for
+this event. Only in the JF2012 GMF model assuming an iron primary does the source direction
+approach a part of the LSS populated by galaxies. The starburst galaxy NGC 6946, called the
+Fireworks Galaxy, at the distance of 7.7 Mpc (41) is close to this backtracked direction. How-
+ever, NGC 6946 is not detected in gamma-rays, so is unlikely to be a strong source of UHECRs.
+
+    If the energy of this event was close to the lower bound of its uncertainties, then the average
+propagation distance is longer than we assumed in Fig. 2 and the deflection in the GMF would
+be larger (Fig. S3). This effect would increase the number of possible source galaxies, assuming
+a steady source (Supplementary Text). For the alternative case of transient sources, identifying
+a source is complicated by the time delays between electromagnetic radiation and charged par-
+ticles, due to the additional path lengths induced by magnetic deflection. We therefore cannot
+identify any potentially related transient sources.
+
+    Nevertheless, the detection of this highly energetic particle allows us to estimate D0, the dis-
+tance to the closest UHECR source. Assuming that the particle is an iron nucleus injected with
+an initial energy E0 = 103 EeV, taking into account the energy loss length estimated by the same
+propagation framework used in the back-tracking method (42), we find D0 = 10.3-3.0 +5.3 Mpc.
+Alternatively, assuming a proton primary, we find D0 = 27.0-3.0 +3.8 Mpc (Supplementary Text).
+At these energies, the UHECR background of distant sources is attenuated by the energy loss
+length, so only sources from the local Universe can contribute. We set upper limits on the deflec-
+tion by assuming a maximum value of the turbulent extragalactic magnetic field Brms  1 nG
+and a 1 Mpc characteristic length scale, finding <20 for iron and <1 for proton.
+
+                                                        9
+                                                                                                                         7
+
+          Fig 3: >100 EeV event (28 events)
+
+Figure 3: Arrival directions (empty circle) of all >100 EeV cosmic rays observed by TA SD
+during 13.5 years operation. The background and other symbols are the same as Fig. 2. No
+clustering around the highest energy event (thick circle) is evident.
+
+Distribution of other TA events
+
+Fig. 3 shows the arrival directions for the 28 TA SD events with energy >100 EeV observed
+between 2008 May and 2021 November, using the same event selection (21). The total exposure
+is 1.6 × 104 km2 sr yr. No clustering with the highest energy event is found. The 244 EeV event
+came from a different direction than the previously reported TA hot spot, a 3.4 excess centered
+at (Right ascension (R.A.), Declination (Dec.)) = (146.7, 43.2) found for events with energies
+>57 EeV (21).
+
+    Although we may have expected events with energies above 100 EeV to be clustered, the
+observed arrival directions above 100 EeV have an isotropic distribution (Fig. 3). The lack of a
+nearby source for the 244 EeV event could be due to larger magnetic deflections than predicted
+by the GMF models caused by a heavy primary particle or stronger magnetic fields than in the
+models. Alternatively, super-GZK UHECRs could be indicating an incomplete understanding
+
+                                                       10
+of particle physics. If there are unknown types of primary particles that are immune to the
+interactions with the CMB, they could retain their energy while traveling to Earth from more
+distant active galaxies. We can not distinguish between these possibilities with the observed
+events.
+
+Summary and conclusions
+
+We  detected  a  particle  with  an  energy  of  244 ± 29 (stat.)  +51  (syst.) EeV  on  27  May  2021.  The
+                                                                   -76
+
+arrival direction of this event does not align with any known astronomical objects thought to
+
+be a potential source of UHECRs, even after taking into account deflection by the GMF under
+
+various assumptions. Comparison to other observed events at energies above 100 EeV shows
+
+an isotropic distribution with no apparent clustering.
+
+References
+
+1. A. M. Hillas, Ann. Rev. Astron. Astrophys. 22, 425 (1984).
+2. P. Bhattacharjee, G. Sigl, Phys. Rept. 327, 109 (2000).
+3. F. W. Stecker, S. T. Scully, New J. Phys. 11, 085003 (2009).
+4. V. Berezinsky, M. Kachelriess, A. Vilenkin, Phys. Rev. Lett. 79, 4302 (1997).
+5. R. U. Abbasi, et al., Astropart. Phys. 110, 8 (2019).
+6. P. Abreu, et al., Astrophys. J. 933, 125 (2022).
+7. J. Linsley, Phys. Rev. Lett. 10, 146 (1963).
+8. A. A. Penzias, R. W. Wilson, Astrophys. J. 142, 419 (1965).
+
+                                                 11
+ 9. K. Greisen, Phys. Rev. Lett. 16, 748 (1966).
+10. G. Zatsepin, V. Kuzmin, Journal of Experimental and Theoretical Physics Letters 4, 78
+
+     (1966).
+11. R. Abbasi, et al., Phys. Rev. Lett. 100, 101101 (2008).
+12. T. Abu-Zayyad, et al., Astrophys. J. 768, L1 (2013).
+13. A. Aab, et al., Phys. Rev. Lett. 125, 121106 (2020).
+14. T. Abu-Zayyad, et al., Nucl. Instrum. Meth. A689, 87 (2013).
+15. H. Tokuno, et al., Nucl. Instrum. Meth. A676, 54 (2012).
+16. R. U. Abbasi, et al., Astrophys. J. 858, 76 (2018).
+17. R. U. Abbasi, et al., Phys. Rev. D 99, 022002 (2019).
+18. D. Heck, J. Knapp, J. N. Capdevielle, G. Schatz, T. Thouw, Forschungszentrum Karlsruhe
+
+     Report (FZKA) 6019 (1998).
+19. R. U. Abbasi, et al., Astropart. Phys. 80, 131 (2016).
+20. Materials and methods are available as supplementary materials .
+21. R. Abbasi, et al., Astrophys.J. 790, L21 (2014).
+22. L. Evans, P. Bryant, Journal of Instrumentation 3, S08001 (2008).
+23. O. Kalashev, et al., Proceedings of Science International Cosmic Ray Conference 2021,
+
+     864 (2021).
+
+                                                       12
+24. I. Kharuk, et al., Proceedings of Science International Cosmic Ray Conference 2021,
+     384 (2021).
+
+25. https://lightning-exporter.vaisala.com.
+26. D. J. Bird, et al., Astrophys. J. 441, 144 (1995).
+27. N. Hayashida, et al., Phys. Rev. Lett. 73, 3491 (1994).
+28. N. Sakaki, et al., Proceedings of 27th International Cosmic Ray Conference (2001), p. 337.
+29. P. Abreu, et al., Astrophys. J. 935, 170 (2022).
+30. V. Verzi, D. Ivanov, Y. Tsunesada, Progress of Theoretical and Experimental Physics 2017,
+
+     12A103 (2017).
+31. R. Jansson, G. R. Farrar, Astrophys. J. 757, 14 (2012).
+32. M. S. Pshirkov, P. G. Tinyakov, P. P. Kronberg, K. J. Newton-McGee, Astrophys. J. 738,
+
+     192 (2011).
+33. R. Alves Batista, et al., Journal of Cosmology and Astroparticle Physics 05, 038 (2016).
+34. S. Abdollahi, et al., Astrophys. J. Suppl. 247, 33 (2020).
+35. G. R. Farrar, A. Gruzinov, Astrophys. J. 693, 329 (2009).
+36. D. Sowards-Emmerd, R. W. Romani, P. F. Michelson, S. E. Healey, P. L. Nolan, The Astro-
+
+     physical Journal 626, 95 (2005).
+37. A. Aab, et al., Astrophys. J. 853, L29 (2018).
+38. R. B. Tully, et al., Astrophys. J. 676, 184 (2008).
+
+                                                       13
+39. M. Y. Kuznetsov, P. G. Tinyakov, Journal of Cosmology and Astroparticle Physics 04, 065
+     (2021).
+
+40. R. U. Abbasi, et al., Astrophys. J. 867, L27 (2018).
+41. J. J. Eldridge, L. Xiao, Monthly Notices of the Royal Astronomical Society Letters 485, L58
+
+     (2019).
+42. O. E. Kalashev, E. Kido, J. Exp. Theor. Phys. 120, 790 (2015).
+43. https://doi.org/10.5281/zenodo.8427755.
+
+                                                       14
+Acknowledgments
+
+The Telescope Array experimental site became available through the cooperation of the Utah
+School and Institutional Trust Lands Administration (SITLA), U.S. Bureau of Land Manage-
+ment (BLM), and the U.S. Air Force. We appreciate the assistance of the State of Utah and
+Fillmore offices of the BLM in crafting the Plan of Development for the site. Patrick A. Shea
+assisted the collaboration with valuable advice and supported the collaboration's efforts. The
+people and the officials of Millard County, Utah have been a source of steadfast and warm sup-
+port for our work which we greatly appreciate. We are indebted to the Millard County Road
+Department for their efforts to maintain and clear the roads. We gratefully acknowledge the
+contribution from the technical staffs of our home institutions. We gratefully acknowledge al-
+location of computer time from the Center for High Performance Computing at the University
+of Utah. We thank to Robert Cady for his long-standing contribution in construction and oper-
+ation of the detector, and to Rosa Mayta for her development of the event viewer tool. T. Fujii
+acknowledges insightful and productive discussions in the cosmic-ray group of Kyoto Univer-
+sity and interdisciplinary communications in the Hakubi Center for Advanced Research, Kyoto
+University, and in the program for the Development of Next-generation Leading Scientists with
+Global Insight (L-INSIGHT).
+
+Funding
+
+The Telescope Array experiment is supported by the Japan Society for the Promotion of Sci-
+ence (JSPS) through Grants-in-Aid for Priority Area 431, for Specially Promoted Research
+JP21000002, for Scientific Research (S) JP19104006, for Specially Promoted Research JP15H05693,
+for Scientific Research (S) JP15H05741, for Science Research (A) JP18H03705, for Young Sci-
+entists (A) JPH26707011, and for Fostering Joint International Research (B) JP19KK0074, by
+the joint research program of the Institute for Cosmic Ray Research (ICRR), The University of
+
+                                                       15
+Tokyo; by the Pioneering Program of RIKEN for the Evolution of Matter in the Universe (r-
+EMU); by the U.S. National Science Foundation awards PHY-1607727, PHY-1712517, PHY-
+1806797, PHY-2012934, and PHY-2112904; by the National Research Foundation of Korea
+(2017K1A4A3015188, 2020R1A2C1008230, 2020R1A2C2102800); by the Ministry of Sci-
+ence and Higher Education of the Russian Federation under the contract 075-15-2020-778,
+IISN project No. 4.4501.18; Belgian Science Policy under IUAP VII/37 (ULB); and by the Si-
+mons Foundation (00001470, NG). The Telescope Array was partially supported by the grants
+of the joint research program of the Institute for Space-Earth Environmental Research, Nagoya
+University and Inter-University Research Program of the Institute for Cosmic Ray Research of
+University of Tokyo. Also funded by the foundations of Dr. Ezekiel R. and Edna Wattis Dumke,
+Willard L. Eccles, and George S. and Dolores Dore´ Eccles. The State of Utah supported the
+Telescope Array through its Economic Development Board, and the University of Utah through
+the Office of the Vice President for Research.
+
+Author Contributions
+
+T. Fujii identified the event, performed data analyses and wrote the manuscript. R. Higuchi
+assisted the back-tracking calculation, T. Sako contributed the Monte Carlo simulations, M.
+Yu. Kuznetsov calculated the relative expected flux, and I. Kharuk performed the proton-gamma-
+ray classification. J.N. Matthews, P. Sokolsky, G.B. Thomson, H. Sagawa, C.H. Jui, S. Ogio,
+Y. Tsunesada, S.V. Troitsky, G.I. Rubtsov, P.G. Tinyakov, J.H. Kim, K. Fujita and N. Globus dis-
+cussed the results and commented on the manuscript. All authors meet the journal's authorship
+criteria for their contributions to the detector construction, deployment, long-term data-taking
+and maintenance, software development and review of the manuscript.
+
+                                                       16
+Competing interests
+
+There are no competing interests to declare.
+
+Data and materials availability
+
+Data of the extremely energetic cosmic ray event and codes are available at Zenodo (43).
+
+                                                       17
+Telescope Array Collaboration Authors and Affiliations
+
+R.U. Abbasi1, M.G. Allen2, R. Arimura3, J.W. Belz2, D.R. Bergman2, S.A. Blake4, B.K. Shin5,
+I.J. Buckland2, B.G. Cheon6, T. Fujii7,3,8, K. Fujisue9, K. Fujita9, M. Fukushima9, G.D. Furlich2,
+Z.R. Gerber2, N. Globus10,, K. Hibino11, R. Higuchi10, K. Honda12, D. Ikeda11, H. Ito10,
+A. Iwasaki3, S. Jeong13, H.M. Jeong13, C.H. Jui2, K. Kadota14, F. Kakimoto11, O.E. Kalashev15,
+K. Kasahara16, K. Kawata9, I. Kharuk15, E. Kido10, S.W. Kim13, H.B. Kim6, J.H. Kim2, J.H. Kim17,
+I. Komae3, Y. Kubota18, M.Yu. Kuznetsov15, K.H. Lee13, B.K. Lubsandorzhiev15, J.P. Lundquist19,
+J.N. Matthews2, S. Nagataki10, T. Nakamura18, A. Nakazawa18, T. Nonaka9, S. Ogio9, M. Ono20,10,
+H. Oshima9, I.H. Park13, M. Potts2, S. Pshirkov15, J.R. Remington21, D.C. Rodriguez22,2, C. Rott2,13,
+G.I. Rubtsov15, D. Ryu5, H. Sagawa9, N. Sakaki10, T. Sako9, N. Sakurai23, H. Shin9, J.D. Smith2,
+P. Sokolsky2, B.T. Stokes2, T.S. Stroman2, K. Takahashi9, M. Takeda9, A. Taketa24, Y. Tameda25,
+S. Thomas2, G.B. Thomson2, P.G. Tinyakov26, I. Tkachev15, T. Tomida18, S.V. Troitsky15,
+Y. Tsunesada3,8, S Udo11, F.R. Urban27, T. Wong2, K. Yamazaki28, Y. Yuma18, Y.V. Zhezher15
+and Z. Zundel2
+
+1 Physics Department, Loyola University Chicago, Chicago, IL, USA
+2 High Energy Astrophysics Institute and Department of Physics and Astronomy, University of
+Utah, Salt Lake City, Utah 84112-0830, USA
+3 Graduate School of Science, Osaka Metropolitan University, 3-3-138 Sugimoto, Sumiyoshi,
+Osaka, 558-8585, Japan
+4 Stellar Science, Albuquerque, New Mexico, 87110, USA
+5 Department of Physics, Ulsan National Institute of Science and Technology, 44919, Ulsan,
+Korea
+6 Department of Physics and The Research Institute of Natural Science, Hanyang University,
+
+                                                       18
+Seongdong-gu, Seoul, Korea
+7 Hakubi Center for Advanced Research and Graduate School of Science, Kyoto University,
+Sakyo, Kyoto, 606-8502, Japan
+8 Nambu Yoichiro Institute of Theoretical and Experimental Physics, Osaka Metropolitan Uni-
+versity, 3-3-138 Sugimoto, Sumiyoshi, Osaka, 558-8585, Japan
+9 Institute for Cosmic Ray Research, University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa-shi,
+Chiba, 277-8582, Japan
+10 Institute of Physical and Chemical Research, 2-1 Hirosawa, Wako, Saitama, 351-0198 Japan
+11 Faculty of Engineering, Kanagawa University, 3-27-1 Rokkakubashi, Kanagawa-ku, Yoko-
+hama 221-8686, Japan
+12 University of Yamanashi, Kofu, 400-8510, Japan
+13 Department of Physics, SungKyunKwan University, Jang-an-gu, Suwon 16419, Korea
+14 Department of Natural Sciences, Tokyo City University, Setagaya-ku, Tokyo 158-8557, Japan
+15 Institute for Nuclear Research of the Russian Academy of Sciences, prospekt 60-letiya Ok-
+tyabrya 7a, Moscow 117312, Russia
+16 Shibauta Institute of Technology and Sicence, Fukasaku 307, Minuma-ku, Saitama, Japan
+17 Physics Division, Argonne National Laboratory, Lemont, Illinois 60439, USA
+18 Academic Assembly School of Science and Technology Institute of Engineering, Shinshu
+University, Nagano, Nagano, 380-8553, Japan
+19 Center for Astrophysics and Cosmology, University of Nova Gorica, Nova Gorica, Slovenia
+20 Institute of Astronomy and Astrophysics, Academia Sinica, Taipei 10617, Taiwan
+21 NASA Marshall Space Flight Center, Martin Road, Huntsville, AL 35808, USA
+22 Integrated Support Center for Nuclear Nonproliferation and Nuclear Security, Japan Atomic
+Energy Agency, Tokai-mura, Ibaraki 319-1195, Japan
+23 Faculty of Design Technology, 3-1-1 Nakagaito, Daito City, Osaka, Japan
+
+                                                       19
+24 Earthquake Research Institute, University of Tokyo, Bunkyo-ku, Tokyo, 113-0032, Japan
+25 Department of Engineering Science, Faculty of Engineering, Osaka Electro-Communication
+University, Neyagawa-shi, Osaka 572-8530, Japan
+26 Universite Libre de Bruxelles, bvd du Triomphe CP225, Brussels, Belgium
+27 The Central European Institute for Cosmology and Fundamental Physics, Institute of Physics
+of the Czech Academy of Sciences, Na Slovance 1999/2, 182 21 Prague, Czech Republic
+28 College of Engineering, Chubu University, 1200 Matsumoto, Kasugai, Aichi 487-8501, Japan
+ Present address: Department of Astronomy and Astrophysics, University of California, Santa
+Cruz, CA 95064, USA
+ E-mail: toshi@omu.ac.jp
+
+                                                       20
+

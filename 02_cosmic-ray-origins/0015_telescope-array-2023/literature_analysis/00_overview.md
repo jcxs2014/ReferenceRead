@@ -4,7 +4,7 @@ authors: Telescope Array Collaboration
 year: '2023'
 journal: Science 380, 6629, 903-907 (2023)
 doi: 10.1126/science.abq2244
-arxiv: arXiv:2306.16960
+arxiv: arXiv:2311.14231
 category: 宇宙线起源
 status: completed
 read_date: '2026-08-15'
