@@ -24,12 +24,14 @@
   --border:#d0d7de; --accent:#0969da; --accent-fg:#fff;
   --card:#fff; --code-bg:#f6f8fa; --quote-bg:#f6f8fa; --quote-border:#d0d7de;
   --math:#24292f; --search-hl:#fff3b0; --kbd-bg:#e8e8e8;
+  --link:#0b66c3; --link-hover:#054f9e; --link-underline:rgba(11,102,195,.35);
 }
 [data-theme="dark"] {
   --bg:#0d1117; --bg-2:#161b22; --fg:#c9d1d9; --fg-2:#8b949e;
   --border:#30363d; --accent:#58a6ff; --accent-fg:#0d1117;
   --card:#161b22; --code-bg:#1c2128; --quote-bg:#1c2128; --quote-border:#30363d;
   --math:#c9d1d9; --search-hl:#9e6a03; --kbd-bg:#21262d;
+  --link:#58a6ff; --link-hover:#79c0ff; --link-underline:rgba(88,166,255,.4);
 }
 * { box-sizing:border-box; margin:0; padding:0; }
 html { scroll-behavior:smooth; }
@@ -38,6 +40,25 @@ body {
   font-size:15px; line-height:1.7; color:var(--fg); background:var(--bg);
   height:100vh; display:flex; flex-direction:column; overflow:hidden;
 }
+
+/* ─── 链接（现代风格，适配明暗主题）─── */
+.doc-section a {
+  color: var(--link);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color .15s ease;
+  cursor: pointer;
+}
+.doc-section a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--link-underline);
+}
+/* 演化谱系树叶子是交互块：保持无下划线，hover 变 accent */
+.evol-leaf a { color: var(--fg); text-decoration: none; }
+.evol-leaf a:hover { color: var(--accent); text-decoration: none; }
 
 /* ─── Layout ─── */
 .app { display:flex; flex-direction:column; height:100vh; overflow:hidden; }
