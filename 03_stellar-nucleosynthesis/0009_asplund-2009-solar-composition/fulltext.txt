@@ -1,0 +1,1854 @@
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+REVIEWS ANNUAL Further
+Click here for quick links to Annual Reviews content online, including:
+· Other articles in this volume · Top cited articles · Top downloaded articles · Our comprehensive search
+
+The Chemical Composition of the Sun
+Martin Asplund,1 Nicolas Grevesse,2 A. Jacques Sauval,3 and Pat Scott4
+1Max-Planck-Institut fu¨ r Astrophysik, D-85741 Garching, Germany; email: asplund@mpa-garching.mpg.de 2Centre Spatial de Lie`ge and Institut d'Astrophysique et de Ge´ophysique, Universite´ de Lie`ge, B-4031 Angleur-Lie`ge, Belgium; email: Nicolas.Grevesse@ulg.ac.be 3Observatoire Royal de Belgique, B-1180 Bruxelles, Belgium; email: jacques.sauval@oma.be 4Department of Physics and Oskar Klein Center for Cosmoparticle Physics, Stockholm University, AlbaNova University Center, S-10691 Stockholm, Sweden; email: pat@fysik.su.se
+
+Annu. Rev. Astron. Astrophys. 2009. 47:481-522
+The Annual Review of Astronomy and Astrophysics is online at astro.annualreviews.org
+This article's doi: 10.1146/annurev.astro.46.060407.145222
+Copyright c 2009 by Annual Reviews. All rights reserved
+0066-4146/09/0922-0481$20.00
+
+Key Words
+convection, meteoritic abundances, solar abundances, solar atmosphere, spectral line formation, Sun
+Abstract
+The solar chemical composition is an important ingredient in our understanding of the formation, structure, and evolution of both the Sun and our Solar System. Furthermore, it is an essential reference standard against which the elemental contents of other astronomical objects are compared. In this review, we evaluate the current understanding of the solar photospheric composition. In particular, we present a redetermination of the abundances of nearly all available elements, using a realistic new three-dimensional (3D), time-dependent hydrodynamical model of the solar atmosphere. We have carefully considered the atomic input data and selection of spectral lines, and accounted for departures from local thermodynamic equilibrium (LTE) whenever possible. The end result is a comprehensive and homogeneous compilation of the solar elemental abundances. Particularly noteworthy findings are significantly lower abundances of C, N, O, and Ne compared to the widely used values of a decade ago. The new solar chemical composition is supported by a high degree of internal consistency between available abundance indicators, and by agreement with values obtained in the Solar Neighborhood and from the most pristine meteorites. There is, however, a stark conflict with standard models of the solar interior according to helioseismology, a discrepancy that has yet to find a satisfactory resolution.
+
+481
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+1. INTRODUCTION
+The solar chemical composition is a fundamental yardstick in astronomy, to which the elemental abundances of essentially all cosmic objects, be they planets, stars, nebulae or galaxies, are anchored. The importance of having accurate solar elemental abundances thus can not be overstated. From the pioneering efforts of Russell (1929), Suess & Urey (1956), and Goldberg, Mu¨ ller & Aller (1960) to the more recent works of Anders & Grevesse (1989), Grevesse & Sauval (1998), Lodders (2003), Asplund, Grevesse & Sauval (2005), Grevesse, Asplund & Sauval (2007), and Lodders, Palme & Gail (2009), compilations of the Solar System abundances have found extremely wide-ranging use in astronomy and cosmology.
+There are two independent and complementary ways of determining the Solar System abundances, each with its pros and cons. Through mass spectroscopy of meteorites in terrestrial laboratories, it is possible to directly measure the abundance of almost every element and isotope with remarkable precision. The most pristine meteorites are the so-called CI chondrites, which have been modified least by various physical and chemical processes over the past 4.56 Gyr. Even in these meteorites volatile elements have been depleted to various degrees, including the six most abundant elements: H, He, C, N, O and Ne. As a consequence, it is not possible to rely on meteorites to determine the primordial Solar System abundances for such elements. This also implies that one must measure all meteoritic abundances relative to an element other than H, traditionally chosen to be Si. Prior knowledge of the solar photospheric Si abundance is therefore required in order to place the meteoritic abundances on the same absolute scale as the Sun (Suess & Urey 1956).
+With the exception of a general 10% modification owing to diffusion and gravitational settling and depletion of Li and possibly Be, today's photospheric abundances are believed to reflect those at the birth of the Solar System. They are of profound importance for the understanding of our own Solar System and the Sun's interior structure and evolution. Unfortunately, photospheric abundances cannot be determined with the same accuracy as those from meteorites. In particular, very little isotopic abundance information is available. Furthermore, photospheric abundances are not observed but inferred. Thus, the solar spectrum must be interpreted using realistic models of the solar atmosphere and spectrum-formation process. In addition, the required atomic and molecular data are rarely precise enough to rival the accuracy of meteoritic measurements. In spite of the remaining uncertainties in solar photospheric determinations, having access to the most accurate solar abundances possible is crucial, not only for understanding our own Sun but also in order to make meaningful comparisons with other stars (for which meteoritic information is obviously unavailable). The Sun is also the only possible reference for the interstellar medium, Hii regions, and other galaxies when studying the elements depleted in meteorites.
+In the decade since the appearance of the widely used compilation of the solar chemical composition by Grevesse & Sauval (1998), the abundances of a large number of elements have been revised, several rather severely (e.g., Asplund, Grevesse & Sauval 2005). This is true in particular for C, N, O, and Ne. There are three main reasons for the changes: improvements in atomic and molecular transition probabilities, the advent of 3D hydrodynamical solar model atmospheres, and relaxation of the assumption of local thermodynamic equilibrium (LTE) in the spectral line formation. Several of the proposed abundance alterations have not gone unchallenged, however. It is therefore timely to now critically assess the reference solar chemical composition and make recommendations regarding the most accurate values available to the astronomical community. After recapitulating the necessary ingredients in any solar abundance analysis (Section 2), we discuss in detail the solar chemical composition on an element-by-element basis (Section 3). We also present a comparison between photospheric solar abundances and those inferred by alternative
+482 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+means, such as via meteorites and stars or gas in the Solar Neighborhood (Section 4). We conclude by summarizing the main points and outlining a few open issues for the future (Section 5).
+2. INGREDIENTS FOR SOLAR ABUNDANCE ANALYSIS
+2.1. Observations
+Analyses of the solar photospheric chemical composition make use of the elemental fingerprints present in the solar spectrum in the form of spectral absorption lines. There are several solar atlases of both intensity and flux spectra in the UV, optical, and IR regions. The most commonly used optical disk-center intensity spectra of the quiet Sun are the so-called Jungfraujoch or Lie`ge atlas (after its locations of observation and production, respectively; Delbouille, Roland & Neven 1973) and the Kitt Peak solar atlas (Neckel & Labs 1984). The spectral resolving power of the latter is slightly higher, whereas the former is less affected by telluric absorption owing to the higher observing altitude. There are also corresponding IR disk-center intensity atlases observed from Kitt Peak (Delbouille et al. 1981) and from the Atmospheric Trace Molecule Spectroscopy (ATMOS) experiment flown on the space shuttle (Farmer & Norton 1989; Abrams et al. 1996). Finally, the solar flux spectrum has recently been rereduced by Kurucz (2006); see also Kurucz et al. (1984) for an earlier rendition of the same Kitt Peak solar data set. All solar atlases agree very well with each other except for spectral regions afflicted by telluric features. Thus, the quality of observations is in general not a source of significant error in solar abundance analyses.
+2.2. Atomic and Molecular Data
+A critical ingredient in any solar abundance analysis is, of course, the atomic and molecular line input data. Of these the transition probability is the most obvious, but there are a raft of other required components that are not always as well determined as one would hope. These include line broadening, hyperfine and isotopic splitting, dissociation energies, and partition functions. Much laudable work has been done in improving the gf-values for a large number of transitions (e.g., Kurucz 1992; Johansson et al. 2003; Lawler et al. 2006; Sobeck, Lawler & Sneden 2007), but several elements and lines still have surprisingly uncertain transition probabilities. Another important advancement in recent years is that it is now possible to accurately compute the pressure broadening (also known as van der Waals broadening) of metal lines (Anstee & O'Mara 1995; Barklem, Piskunov & O'Mara 2000a; Barklem & Aspelund-Johansson 2005), which has made the classical Unso¨ ld broadening and its ad hoc enhancement factors largely obsolete, at least for neutral species.
+The need for atomic data increases dramatically when relaxing the LTE assumption. In nonLTE calculations, one needs transition data not only for the line in question but in principle for all other lines of the element. In addition, photoionization cross sections play a crucial role. There have been noteworthy improvements in this respect in recent years through the Opacity and Iron Projects (Badnell et al. 2005), for example, but unfortunately the lack of quantum mechanical calculations for most elements preclude detailed non-LTE investigations. The most unsatisfactory situation, however, relates to collisional cross sections for excitation and ionization, for which laboratory or theoretical calculations are completely missing bar for a few elements and transitions relevant for spectroscopy of late-type stars (e.g., Belyaev & Barklem 2003; Barklem 2007a). In the absence of realistic evaluations, classical recipes such as those of van Regemorter (1962) and Drawin (1968) are frequently used but cannot be expected to be more than order-of-magnitude estimates at best. Often scaling factors to these formulas are used, sometimes calibrated by achieving an
+www.annualreviews.org · The Chemical Composition of the Sun 483
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+optimal overall fit to the various spectral features. It should be remembered that such a procedure may reveal less about the true collisional cross sections than about other shortcomings in the modeling of the stellar atmospheres and line formation (Asplund 2005).
+2.3. Solar Atmospheric and Line-Formation Modeling
+Extracting information about the Sun's chemical composition from the solar spectrum requires realistic models of the solar atmosphere and the line-formation process. Traditional solar and stellar abundance analyses employ one-dimensional (1D) model atmospheres assuming timeindependence and hydrostatic equilibrium. Such models come in two flavors: theoretical and semiempirical. The former are constructed assuming a constant total (radiative plus convective) energy flux through the atmosphere, which dictates the temperature stratification given the adopted equation of state and opacities. Convective energy transport is normally described by the mixing length theory (Bo¨ hm-Vitense 1958). The radiative flux is determined by solving the radiative transfer equation, typically under the simplification of LTE. To achieve a realistic temperature structure, treatment of the combined effects of spectral lines (line blanketing) must be as complete as possible. The most widely used theoretical 1D model atmospheres for solar-type stars are the Kurucz (1993) and MARCS (Gustafsson et al. 2008) grids of models.
+Semiempirical models are often the preferred choice for solar spectroscopists. In these models, temperatures are inferred from depth-dependent observations such as the center-to-limb variation of the continuum and/or lines with differing formation heights. The resulting atmospheric structure is, thus, sensitive to the ingredients involved in the inversion process, such as LTE for the continuum and line formation, and the adopted line data. Hydrostatic equilibrium is still assumed in semiempirical models, but the flux constancy criterion does not need to be obeyed nor is it necessary to estimate convective energy transport. Several semiempirical solar models are on the market, including the Holweger & Mu¨ ller (1974), VAL3C (Vernazza, Avrett & Loeser 1976), and MISS (Allende Prieto et al. 2001) models. The favored model of solar abundance aficionados is the Holweger & Mu¨ ller model, partially because its temperature stratification is expected to be an accurate representation of the real photosphere--but also partially just by habit. Indeed, it is somewhat surprising that the VAL3C model or its successors (e.g., Fontenla et al. 2006) have not caught on more within the solar abundance community, because they are built on similar premises but without the LTE restriction. The venerable Holweger & Mu¨ ller model, in fact, dates back more than forty years, since the 1974 version was simply a new pressure-integration of the original Holweger (1967) model using updated equation of state and continuous opacities. It was constructed to match the observed continuum center-to-limb variation as well as the line-depths of some 900 lines of varying strengths, under the assumption of LTE. Owing to the limited spectral resolution of the solar spectrum used by Holweger, one would expect the temperatures to be overestimated by about 50 K in the line-forming region. Interestingly, the corrected version of such a temperature structure would be more similar to the MISS semiempirical model (Allende Prieto et al. 2001); both semiempirical models have a shallower temperature gradient than 1D theoretical model atmospheres, as seen in Figure 1. Bear in mind that there exists an ambiguity when employing any 1D model: Although many simply adopt temperatures, pressures, and densities directly from the published model, a more correct procedure is to perform a pressure-integration using only the temperature structure as a function of continuum optical depth, in order to be consistent with the opacities computed with the spectrum synthesis code one employs.
+More recently it has become tractable to perform 3D, time-dependent, hydrodynamical simulations of the stellar surface convection (e.g., Stein & Nordlund 1998; Asplund et al. 1999; Freytag, Steffen & Dorch 2002; Vo¨ gler, Bruls & Schu¨ ssler 2004). Here the standard conservation equations
+484 Asplund et al.
+
+9000
+
+3D model (new)
+
+3D model's spatial and temporal variations
+
+1D Holweger & Müller
+
+1D MARCS
+
+8000
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+Temperature (K)
+
+7000
+
+6000
+
+5000
+
+4000
+
+-4
+
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+Logarithmic optical depth 500
+
+Figure 1
+The mean temperature structure of the 3D hydrodynamical model of Trampedach et al. (in preparation) used throughout this review is shown as a function of optical depth at 500 nm (blue solid line). The light blue shaded region corresponds to the spatial and temporal root mean square variations of the 3D model, whereas the red and yellow curves denote the 1D semiempirical Holweger & Mu¨ ller (1974) and the 1D theoretical MARCS (Gustafsson et al. 2008) model atmospheres, respectively.
+
+of mass, momentum, and energy are solved together with the 3D radiative transfer equation in a small but representative volume of the stellar atmosphere. Radiative energy exchange with the gas in the surface layers is crucial, because this is what drives the convective motions. Because of the much more computationally demanding nature of such hydrodynamical modeling, approximations must be made in the radiative transfer treatment. Rather than solving for many thousands of frequency points as regularly done in theoretical 1D hydrostatic models, the wavelength variation of opacity is represented by a small number of typical opacity bins (4-20) in order to compute the radiative heating/cooling rate that enters the energy equation (Nordlund 1982). Detailed comparisons with the monochromatic solution reveal that this scheme is surprisingly accurate. The reader is referred to Nordlund, Stein & Asplund (2009) for a recent review of the physics of solar surface convection and the numerical details of its simulation.
+A few different 3D hydrodynamical solar model atmospheres have been constructed and employed for abundance purposes (e.g., Asplund et al. 2000b; Caffau et al. 2008a; Trampedach et al., in preparation). Although these are computed with different codes, they are based on many of the same physical assumptions and approximations. It is therefore not too surprising that the resulting atmospheric structures are similar. The 3D models have been computed using realistic and comprehensive equation of state, continuous and line opacities. The numerical resolution is sufficiently high to adequately resolve the granulation, albeit obviously not high enough to reach down to the microscopic viscous dissipation length scales. The reason that these so-called large-eddy
+
+www.annualreviews.org · The Chemical Composition of the Sun 485
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+simulations are nevertheless quite successful in reproducing the real photosphere is that the mean stratification is largely independent of numerical resolution (Stein & Nordlund 1998; Asplund et al. 2000a). Spectral line formation is heavily biased to the upflows, which have a low degree of turbulence in comparison to the downflows, owing to the divergent flow. Obviously none of the mixing length parameters required in 1D models enters into 3D simulations, as the convective energy flux is instead a natural consequence of the hydrodynamics.
+Having a suitably realistic solar model atmosphere, the next step when trying to infer the solar chemical composition is to model how the spectrum is formed. In order to derive an abundance of an element, solar spectroscopists either measure the total observed line strength as defined by the equivalent width, or directly compare the observed and theoretical spectra through the fitting of line profiles. Finally, to compute the line strength requires knowledge of the level populations. In LTE, these follow straightforwardly from the local temperature and electron pressure using the Boltzmann and Saha distributions. In general, this rather severe simplification cannot be expected to be valid, and the non-LTE case must instead be considered. Although non-LTE is a general term covering all situations when LTE is not valid, in practice all calculations referred to herein assume statistical equilibrium, that is, the level populations do not change with time. Non-LTE thus requires a simultaneous solution of the rate equations for all relevant levels and species together with the radiative transfer equation for all relevant wavelengths. We refer to Asplund (2005) for a detailed account of the principles of non-LTE and the most important non-LTE effects encountered for late-type stars like the Sun.
+2.4. Observational Constraints on Solar Modeling
+Because more sophisticated modeling does not automatically imply a more realistic outcome, it is of paramount importance to carefully test the predictions of the 3D model atmospheres against an arsenal of observational diagnostics. This is especially true given that 1D model atmospheres more often than not fail the very same tests. Current generations of 3D models are very successful in reproducing the observed solar granulation topology, typical length- and timescales, convective velocities, and intensity brightness contrast (e.g., Nordlund, Stein & Asplund 2009), clearly none of which 1D models are able to predict.
+Another important constraint is the center-to-limb variation of the continuum as a function of wavelength. Ayres, Plymate & Keller (2006) have criticized the 3D hydrodynamical model of Asplund et al. (2000b), ofen used in recent solar abundance analyses, for having too steep a temperature gradient as judged by the observed center-to-limb variation. Koesterke, Allende Prieto & Lambert (2008) reach a somewhat milder conclusion, presumably because they performed spectral synthesis with the full 3D model rather than with only the spatially averaged version used by Ayres, Plymate & Keller. The 3D CO5BOLD solar model of Caffau et al. (2008a) appears to perform better in this respect (H. Ludwig, private communication). In the present work, we make extensive use of a new 3D solar model (Trampedach et al., in preparation), which has been constructed with an improved treatment of the radiative transfer and updated opacities. Because of its somewhat shallower temperature stratification than the 3D model of Asplund et al. (2000b) (Figure 1), the new 3D model satisfies the center-to-limb variation constraint very well, as illustrated in Figure 2. Indeed it outperforms all 1D models, even the semiempirical Holweger & Mu¨ ller (1974) model, which was designed to fit this diagnostic.
+The wings of the Hi Balmer lines are also sensitive tracers of the temperature stratification in the deeper layers of the photosphere. In recent years, significant improvements have been made in the treatment of the broadening of Hi lines, especially self-broadening (Barklem, Piskunov &
+486 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+I() /I(  = 1)
+
+1.0 0.9 µ = 0 .90
+
+0.8 0.7 µ = 0 .70
+
+0.6 0.5 µ = 0 .50
+
+0.4
+
+0.3 µ = 0 .30
+0.2 µ = 0 .10
+0 200 400
+
+3D model (new) 1D Holweger & Müller 1D MARCS Observations
+
+600
+
+800
+
+Wavelength (nm)
+
+1000
+
+Figure 2
+Comparison of the predicted continuum center-to-limb variation as a function of wavelength for different solar model atmospheres against observations (Neckel & Labs 1994). The results for five different viewing angles  are shown from near disk center ( = 0.9) to close to the limb ( = 0.1). All intensities are normalized to the corresponding disk-center intensities. The 3D hydrodynamical model (Trampedach et al., in preparation) used in this review outperforms even the Holweger & Mu¨ ller (1974) semiempirical model, which was designed to satisfy this diagnostic (Pereira et al., in preparation). As for all 1D theoretical model atmospheres, the MARCS (Gustafsson et al. 2008) model has a too steep temperature gradient, which manifests itself in a poor agreement with the center-to-limb variation.
+
+O'Mara 2000b; Allard et al. 2008). It is still unclear whether noticeable non-LTE effects can be expected in the solar atmosphere, because available calculations for the cross sections of inelastic H+H collisions are uncertain (Barklem 2007b). With 1D theoretical model atmospheres, the Hi lines imply too low Teff for the Sun by 50-100 K and have the wrong line shapes when the most accurate line broadening data are used (Barklem et al. 2002). Such problems can be partly cured by playing with the mixing length parameters, however. In contrast, the Hi lines suggest that the temperature gradient of the Holweger & Mu¨ ller (1974) semiempirical model is too shallow. The 3D solar model that we make extensive use of in this review reproduces the H and H lines very well, doing so significantly better than any 1D model investigated, but without requiring the tweaking of any free parameters. The CO5BOLD model has, to our knowledge, not yet been tested against Hi lines.
+As seen in Figure 3, with 3D hydrodynamical models for the solar atmosphere, it is now possible to achieve highly satisfactory agreement with observed profiles of typical weak and intermediate strong lines (the wings of strong lines reveal more about the pressure broadening data than the employed model atmosphere). It is important to remember that this is achieved without invoking the free parameters necessary in any 1D analysis (micro- and macroturbulence) in the
+
+www.annualreviews.org · The Chemical Composition of the Sun 487
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+Normalized intensity
+
+1.1
+
+1.0
+
+0.9
+
+0.8
+
+0.7
+
+0.6
+
+3D model
+
+0.5
+
+Observations
+
+1D Holweger & Müller
+
+0.4 649.88
+
+649.89
+
+649.90
+
+Wavelength (nm)
+
+649.91
+
+Figure 3
+
+The predicted spectral line profile of a typical Fei line from the 3D hydrodynamical solar model (blue solid line) compared to the observations (gray rhombuses). The agreement is clearly very satisfactory, which is the result of the Doppler shifts arising from the self-consistently computed convective motions that broaden, shift, and skew the theoretical profile. For comparison purposes, also shown is the predicted profile from a 1D model atmosphere (red line; Holweger & Mu¨ ller 1974); the 1D profile has been computed with a microturbulence of 1 km s-1 and a tuned macroturbulence to obtain the right overall linewidth. Note that even with these two free parameters, the 1D profile can predict neither the shift nor the asymmetry of the line.
+
+line-formation calculations. Such line broadening can thus be explained as the result of the Doppler shifts arising from the convective motions with a smaller contribution from the solar oscillations (e.g., Nordlund, Stein & Asplund 2009, and references therein). Indeed, even the observed line shifts and asymmetries are very well reproduced with 3D models (e.g., Asplund et al. 2000b). The CO5BOLD solar model produces good overall line profiles (e.g., Caffau et al. 2008a), but whether this extends also to line asymmetries has not yet been investigated.
+In summary, the 3D hydrodynamical model atmosphere that we draw results from in this review outperforms 1D model atmospheres in the available observational tests, from granulation topology and center-to-limb variation to Hi lines and the detailed profiles of metallic lines. For the purposes of photospheric abundance determinations, the 3D solar model employed here appears to be a very realistic representation of the solar photosphere. No large differences are expected from using our 3D model or the corresponding CO5BOLD model (Caffau et al. 2008a) given their overall similarities.
+
+3. PHOTOSPHERIC ABUNDANCES
+Our recommended solar photospheric elemental abundances are listed in Table 1, which also provides the corresponding meteoritic values for CI chondrites to be discussed in Section 4.1. [Throughout this review, we adopt the customary astronomical scale for logarithmic abundances where H is defined to be log H = 12.00, that is, log X = log(NX/NH) + 12, where NX and NH are the number densities of elements X and H, respectively.] Figure 4 shows how the solar abundances
+
+488 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Table 1 Element abundances in the present-day solar photosphere. Also given are the corresponding values for CI carbonaceous chondrites (Lodders, Palme & Gail 2009). Indirect photospheric estimates have been used for the noble gases (Section 3.9)
+
+Z Element Photosphere Meteorites Z Element Photosphere Meteorites
+
+1H
+
+12.00
+
+8.22 ± 0.04 44
+
+Ru
+
+1.75 ± 0.08
+
+1.76 ± 0.03
+
+2 He
+
+[10.93 ± 0.01] 1.29
+
+45
+
+Rh
+
+0.91 ± 0.10
+
+1.06 ± 0.04
+
+3 Li
+
+1.05 ± 0.10 3.26 ± 0.05 46
+
+Pd
+
+1.57 ± 0.10
+
+1.65 ± 0.02
+
+4 Be
+
+1.38 ± 0.09 1.30 ± 0.03 47
+
+Ag
+
+0.94 ± 0.10
+
+1.20 ± 0.02
+
+5B
+
+2.70 ± 0.20 2.79 ± 0.04 48
+
+Cd
+
+1.71 ± 0.03
+
+6C
+
+8.43 ± 0.05 7.39 ± 0.04 49
+
+In
+
+0.80 ± 0.20
+
+0.76 ± 0.03
+
+7N
+
+7.83 ± 0.05 6.26 ± 0.06 50
+
+Sn
+
+2.04 ± 0.10
+
+2.07 ± 0.06
+
+8O
+
+8.69 ± 0.05 8.40 ± 0.04 51
+
+Sb
+
+1.01 ± 0.06
+
+9F
+
+4.56 ± 0.30 4.42 ± 0.06 52
+
+Te
+
+2.18 ± 0.03
+
+10 Ne
+
+[7.93 ± 0.10] -1.12
+
+53
+
+I
+
+1.55 ± 0.08
+
+11 Na
+
+6.24 ± 0.04 6.27 ± 0.02 54
+
+Xe
+
+[2.24 ± 0.06] -1.95
+
+12 Mg
+
+7.60 ± 0.04 7.53 ± 0.01 55
+
+Cs
+
+1.08 ± 0.02
+
+13 Al
+
+6.45 ± 0.03 6.43 ± 0.01 56
+
+Ba
+
+2.18 ± 0.09
+
+2.18 ± 0.03
+
+14 Si
+
+7.51 ± 0.03 7.51 ± 0.01 57
+
+La
+
+1.10 ± 0.04
+
+1.17 ± 0.02
+
+15 P
+
+5.41 ± 0.03 5.43 ± 0.04 58
+
+Ce
+
+1.58 ± 0.04
+
+1.58 ± 0.02
+
+16 S
+
+7.12 ± 0.03 7.15 ± 0.02 59
+
+Pr
+
+0.72 ± 0.04
+
+0.76 ± 0.03
+
+17 Cl
+
+5.50 ± 0.30 5.23 ± 0.06 60
+
+Nd
+
+1.42 ± 0.04
+
+1.45 ± 0.02
+
+18 Ar
+
+[6.40 ± 0.13] -0.50
+
+62
+
+Sm
+
+0.96 ± 0.04
+
+0.94 ± 0.02
+
+19 K
+
+5.03 ± 0.09 5.08 ± 0.02 63
+
+Eu
+
+0.52 ± 0.04
+
+0.51 ± 0.02
+
+20 Ca
+
+6.34 ± 0.04 6.29 ± 0.02 64
+
+Gd
+
+1.07 ± 0.04
+
+1.05 ± 0.02
+
+21 Sc
+
+3.15 ± 0.04 3.05 ± 0.02 65
+
+Tb
+
+0.30 ± 0.10
+
+0.32 ± 0.03
+
+22 Ti
+
+4.95 ± 0.05 4.91 ± 0.03 66
+
+Dy
+
+1.10 ± 0.04
+
+1.13 ± 0.02
+
+23 V
+
+3.93 ± 0.08 3.96 ± 0.02 67
+
+Ho
+
+0.48 ± 0.11
+
+0.47 ± 0.03
+
+24 Cr
+
+5.64 ± 0.04 5.64 ± 0.01 68
+
+Er
+
+0.92 ± 0.05
+
+0.92 ± 0.02
+
+25 Mn
+
+5.43 ± 0.04 5.48 ± 0.01 69
+
+Tm
+
+0.10 ± 0.04
+
+0.12 ± 0.03
+
+26 Fe
+
+7.50 ± 0.04 7.45 ± 0.01 70
+
+Yb
+
+0.84 ± 0.11
+
+0.92 ± 0.02
+
+27 Co
+
+4.99 ± 0.07 4.87 ± 0.01 71
+
+Lu
+
+0.10 ± 0.09
+
+0.09 ± 0.02
+
+28 Ni
+
+6.22 ± 0.04 6.20 ± 0.01 72
+
+Hf
+
+0.85 ± 0.04
+
+0.71 ± 0.02
+
+29 Cu
+
+4.19 ± 0.04 4.25 ± 0.04 73
+
+Ta
+
+-0.12 ± 0.04
+
+30 Zn
+
+4.56 ± 0.05 4.63 ± 0.04 74
+
+W
+
+0.85 ± 0.12
+
+0.65 ± 0.04
+
+31 Ga
+
+3.04 ± 0.09 3.08 ± 0.02 75
+
+Re
+
+0.26 ± 0.04
+
+32 Ge
+
+3.65 ± 0.10 3.58 ± 0.04 76
+
+Os
+
+1.40 ± 0.08
+
+1.35 ± 0.03
+
+33 As
+
+2.30 ± 0.04 77
+
+Ir
+
+1.38 ± 0.07
+
+1.32 ± 0.02
+
+34 Se
+
+3.34 ± 0.03 78
+
+Pt
+
+1.62 ± 0.03
+
+35 Br
+
+2.54 ± 0.06 79
+
+Au
+
+0.92 ± 0.10
+
+0.80 ± 0.04
+
+36 Kr
+
+[3.25 ± 0.06] -2.27
+
+80
+
+Hg
+
+1.17 ± 0.08
+
+37 Rb
+
+2.52 ± 0.10 2.36 ± 0.03 81
+
+Tl
+
+0.90 ± 0.20
+
+0.77 ± 0.03
+
+38 Sr
+
+2.87 ± 0.07 2.88 ± 0.03 82
+
+Pb
+
+1.75 ± 0.10
+
+2.04 ± 0.03
+
+39 Y
+
+2.21 ± 0.05 2.17 ± 0.04 83
+
+Bi
+
+0.65 ± 0.04
+
+40 Zr
+
+2.58 ± 0.04 2.53 ± 0.04 90
+
+Th
+
+0.02 ± 0.10
+
+0.06 ± 0.03
+
+41 Nb
+
+1.46 ± 0.04 1.41 ± 0.04 92
+
+U
+
+-0.54 ± 0.03
+
+42 Mo
+
+1.88 ± 0.08 1.94 ± 0.04
+
+www.annualreviews.org · The Chemical Composition of the Sun 489
+
+12
+
+10
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+Logarithmic abundance (dex)
+
+8
+
+6
+
+4
+
+2
+
+0
+
+0
+
+20
+
+40
+
+60
+
+80
+
+Atomic number
+
+Figure 4
+
+The present-day solar photospheric elemental abundances as a function of atomic number. As throughout this review, the logarithmic abundance of H is defined to be log H = 12.0.
+
+vary with atomic number, illustrating several key features of nuclear and stellar physics: the high primordial H and He abundances; the fragile nature of Li, Be, and B; the relatively high abundance of elements involved in stellar H-, He-, and C-burning, modulated by the odd-even effect and the -capture effect; the high nuclear binding energy and near-nuclear statistical equilibrium for the Fe-peak; and the production of the heavy elements through successive neutron captures with peaks around the magic nuclei possessing closed neutron shells (e.g., Pagel 1997).
+In this review, we have attempted to reanalyze the solar abundances of (nearly) all elements in a homogeneous manner with the best possible atomic data and state-of-the-art solar modeling. As a guiding principle, we have been very discerning when selecting the lines for each element, because inclusion of dubious lines only increases the abundance scatter and tends to skew the results toward higher abundances owing to blends. The analysis has been carried out using several 1D and 3D model atmospheres and with non-LTE effects accounted for whenever possible, all done with the same well-tested computer codes. Unless specified otherwise, the results presented here have been based on the new 3D hydrodynamical solar model atmosphere of Trampedach et al. (in preparation). Below we present in some detail how the abundances were derived but the full description of the analysis (including line lists with all relevant data for the transitions) will appear in a forthcoming series of articles in Astronomy & Astrophysics (Asplund et al., in preparation; Grevesse et al., in preparation; Sauval et al., in preparation; Scott et al., in preparation).
+There are a wide range of potential sources of error in solar and stellar abundance analyses, from inaccurate input data for the transition ( gf-values, line broadening, etc.) to difficulties in estimating line strengths (finite signal-to-noise, continuum placement, blends, etc.), to inadequacies in the atmospheric and line-formation modeling (1D, LTE, mixing length and microturbulence parameters, continuous opacities, etc.). No consensus exists in the solar abundance literature on
+490 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+how the uncertainties should be quantified. Some researchers have used the standard deviation arising from the chosen sample of lines to represent the total error for a given species, while others have employed the standard error of the mean or some different measure altogether. Previous compilations of the solar chemical composition contained a mixture of different error estimates, because the values were taken from sources with differing modus operandi.
+We have attempted to quantify three possible systematic errors introduced by the modeling: mean atmospheric stratification, atmospheric inhomogeneities, and departures from LTE. The first uncertainty has been estimated by taking half the difference between the results with the spatially averaged 3D model (denoted 3D ) and the Holweger & Mu¨ ller (1974) model. The second has been evaluated as half the difference between the full 3D results and those from 3D . The inclusion of the theoretical MARCS (Gustafsson et al. 2008) and semiempirical MISS (Allende Prieto et al. 2001) models serves as a further check on these two systematic errors. Owing to the general lack of non-LTE calculations for the majority of elements, the non-LTE uncertainty is more difficult to quantify. Somewhat arbitrarily, in most cases we have chosen half of the predicted non-LTE abundance correction as an estimate of the error. Occasionally, we have employed the difference between the cases with and without inelastic H collisions through the Drawin (1968) formula, while taking into account the recommendations by Asplund (2005). We have used an arbitrary, minimal estimate of the possible errors in the non-LTE corrections of 0.03 dex. In some cases, this might overestimate the non-LTE systematic error, whereas in others it probably underestimates the error; there is, unfortunately, no other consistent way to include such unknown errors. Estimating possible systematic errors arising from inappropriate line input data has not been attempted here; relative errors in gf-values will at least be accounted for in the dispersion of the lines. When the elemental abundance is determined by only one or very few lines, we have attempted to estimate an additional error arising from uncertainties owing to continuum placement and possible blends. The systematic errors have been added in quadrature with the statistical error to estimate the total uncertainty, which is used throughout the review unless specified otherwise. The statistical error has been computed from the weighted standard error of the mean, with weights assigned to each line according to uncertainties in the continuum placement and known or suspected minor blends.
+3.1. Lithium, Beryllium, and Boron
+3.1.1. Lithium. In the Sun, Li is depleted by about a factor of 150 compared to the already small meteoritic value. Even the Lii resonance line at 670.8 nm is therefore very weak. The line is blended by an assortment of CN and Fei lines, which makes the Li abundance determination very challenging. Because the transition arises from the ground state of a minority species, the line is sensitive to both the temperature and photoionizing UV radiation field (Kiselman 1997, Asplund 2005) The recommended value given in Table 1 stems from the analysis of Mu¨ ller, Peytremann & de La Reza (1975), which has been corrected for the effects of atmospheric inhomogeneities and 3D non-LTE effects (Asplund et al. 1999, Barklem, Belyaev & Asplund 2003). The solar Li depletion cannot be explained by standard models based on the mixing length theory of convection but requires additional mixing below the convection zone (Brun, Turck-Chie`ze & Zahn 1999, Charbonnel & Talon 2005).
+3.1.2. Beryllium. Early work implied that Be was depleted in the solar convection zone by about a factor of two (Chmielewski, Brault & Mu¨ ller 1975). This interpretation was challenged by Balachandran & Bell (1998), who argued that one must take into account the long-suspected missing UV opacity (e.g., Short & Hauschildt 2005, and references therein) in synthesizing the
+www.annualreviews.org · The Chemical Composition of the Sun 491
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Beii resonance lines at 313 nm. They estimated the amount of missing opacity by requiring that the nearby OH electronic lines would return the same O abundance as the OH vibrational lines in the IR, which increased the derived photospheric Be abundance to the meteoritic value. The required extra opacity can be largely attributed to photoionization of Fei (Bell, Balachandran & Bautista 2001). The Balachandran & Bell analysis was corroborated by Asplund (2004), who found that the basic conclusions are independent of the adopted model atmosphere, whether 1D or 3D. The Beii lines are not sensitive to non-LTE effects in the Sun (Asplund 2005).
+3.1.3. Boron. The problem of the missing UV opacity may also impact the solar B abundance determination, which can realistically only be based on the Bi 249.7-nm resonance line. Cunha & Smith (1999) have reanalyzed the line with careful consideration of the important Mgi photoionization cross sections. The effects of departures from LTE (Kiselman & Carlsson 1996) and 3D hydrodynamical model atmospheres (Asplund, Grevesse & Sauval 2005) are small and opposite in sign. There is still a large uncertainty attached to the resulting abundance, log B = 2.70 ± 0.20, owing to the difficulty in analyzing this crowded spectral region. Not surprisingly, B does not appear depleted in the solar photosphere.
+3.2. Carbon
+The solar C abundance can be inferred from a wealth of indicators, from low-excitation forbidden and high-excitation permitted atomic Ci lines to various molecular transitions of CH, C2, and CO (Lambert 1978). This fortunate circumstance has not translated into a well-determined abundance over the years as the different diagnostics have often yielded discrepant results. The preliminary abundance log C = 8.56 ± 0.04 recommended by Anders & Grevesse (1989) eventually became 8.60 ± 0.05 in the final analysis of Grevesse et al. (1991). Grevesse & Sauval (1998) based their value of 8.52 ± 0.06 on an unpublished analysis employing a Holweger & Mu¨ ller (1974) model with a modified temperature structure, in an attempt to remove existing trends with excitation potential and equivalent widths for C, N, O, and Fe. Over the past decade, the solar C abundance has undergone an even more drastic downward revision. Allende Prieto, Lambert & Asplund (2002) reanalyzed the [Ci] 872.7-nm line and found that the combination of a 3D hydrodynamical solar model (Asplund et al. 2000b) and an updated gf-value brought the abundance down to 8.39 ± 0.04. The same value was obtained by Asplund et al. (2005), who also employed Ci, C2, and CH electronic and vibration lines using the same 3D model. Convincingly, all indicators gave consistent results, further strengthening the case for the reality of the low C abundance. In sharp contrast, the abundances estimated with the Holweger & Mu¨ ller (1974) model atmosphere disagreed by 0.2 dex. The presence of temperature inhomogeneities and a cooler mean temperature structure in the 3D model compared to the previously employed Holweger & Mu¨ ller (1974) model reduced the deduced abundance from the molecular lines in particular, whereas significant departures from LTE had a similar effect on the Ci lines. Using weak lines of the extremely temperature-sensitive CO molecule and a self-consistently derived O abundance, Scott et al. (2006) corroborated this finding. They also determined an isotopic ratio of 12C/13C = 86.8 ± 3.8.
+The value we recommend here, log C = 8.43 ± 0.05, is slightly higher than in Asplund, Grevesse & Sauval (2005), and stems from the mean of the 3D-based results for [Ci], Ci, CH, and C2 lines (Asplund et al., in preparation). As illustrated in Table 2, the various C indicators imply highly uniform abundances. With the exception of a correlation between derived abundance and line strength for Ci, there are no trends with transition properties such as excitation potential or equivalent width for any of the species. A similar trend was also present in Asplund et al. (2005), which was attributed to underestimated non-LTE effects for the stronger lines (Fabbian
+492 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Table 2 The derived photospheric solar C, N, and O abundances for the available indicators using different solar model atmospheresa
+
+Lines [Ci] Ci CH v = 1 CH A-X C2 Swan Ni NH v = 0 NH v = 1 [Oi] Oi OH v = 0 OH v = 1
+
+log C,N,O 3D
+8.41 8.42 ± 0.05 8.44 ± 0.04 8.43 ± 0.03 8.46 ± 0.03 7.78 ± 0.04 7.83 ± 0.03 7.88 ± 0.03 8.70 ± 0.05 8.69 ± 0.05 8.69 ± 0.03 8.69 ± 0.03
+
+log C,N,O 3D
+8.40 8.47 ± 0.04 8.44 ± 0.04 8.42 ± 0.03 8.46 ± 0.03 7.89 ± 0.04 7.94 ± 0.02 7.91 ± 0.03 8.70 ± 0.05 8.73 ± 0.05 8.75 ± 0.03 8.74 ± 0.03
+
+log C,N,O HM
+8.41 8.45 ± 0.04 8.53 ± 0.04 8.51 ± 0.03 8.51 ± 0.03 7.88 ± 0.04 8.02 ± 0.02 8.01 ± 0.03 8.73 ± 0.05 8.69 ± 0.05 8.83 ± 0.03 8.86 ± 0.03
+
+log C,N,O MARCS 8.38 8.39 ± 0.04 8.44 ± 0.04 8.40 ± 0.03 8.46 ± 0.03 7.78 ± 0.04 7.97 ± 0.02 7.91 ± 0.03 8.69 ± 0.05 8.62 ± 0.05 8.78 ± 0.03 8.75 ± 0.03
+
+aThe results have been obtained with a 3D hydrodynamical model of the solar atmosphere as well as with the temporally and spatially (over equal optical depth surfaces) averaged 3D model (denoted 3D ), the 1D theoretical MARCS model (Gustafsson et al. 2008), and the 1D semiempirical model of Holweger & Mu¨ ller (1974). The errors given here are only the standard deviation ( ) for each type of transition. For the atomic transitions, departures from LTE have been considered.
+
+et al. 2006). We note that only 1D non-LTE abundance corrections have been employed for the Ci results, while the departures from LTE are expected to be exacerbated in the presence of atmospheric inhomogeneities (Asplund 2005); a full 3D non-LTE study for C would clearly be worthwhile. Given the importance of this abundant element, it is essential that our results are confirmed by an independent group using an independent 3D model, akin to the analysis of the solar O abundance (Caffau et al. 2008a).
+
+3.3. Nitrogen
+The N abundance can be determined from both atomic and molecular lines, although the forbidden [Ni] lines are too weak in the solar spectrum to be measurable (Grevesse et al. 1990). A preliminary N abundance was given in Asplund, Grevesse & Sauval (2005) using high-excitation Ni lines and NH vibration-rotation lines in the IR, whereas in our final analysis also NH-pure rotation lines and a multitude of transitions from various bands of CN have been considered in the framework of an improved 3D model (Sauval et al., in preparation). The non-LTE effects for Ni are relatively small: -0.05 dex when ignoring H collisions (Caffau et al. 2009). In their own analysis of these very weak Ni lines using their CO5BOLD 3D solar model, Caffau et al. (2009) obtained a Ni-based abundance that is 0.08 dex higher than our corresponding value, largely owing to the selection of lines. They included many lines that we consider to be of dubious value owing to known or suspected blends. This is also reflected in the dramatically different standard deviations for the Ni lines in the two studies:  = 0.04 and 0.12 dex, respectively. We find good agreement between abundances inferred from Ni and NH lines, with small dispersion in the NH results. The different CN bands also give similar results when employing a self-consistently derived C abundance with the 3D model. Unfortunately, Caffau et al. (2009) did not consider molecular lines, and it is therefore not known how well their 3D model performs in achieving consistent
+www.annualreviews.org · The Chemical Composition of the Sun 493
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+results for atoms and molecules. It is sometimes stated in the literature that the molecular lines are more temperature sensitive than atomic lines, but in fact the NH lines are less so than these highly excited Ni lines.
+The N abundance that we recommend here, log N = 7.83 ± 0.05, is 0.09 dex lower than that suggested by Grevesse & Sauval (1998) and 0.22 dex lower than in Anders & Grevesse (1989).
+3.4. Oxygen
+Oxygen is the most abundant element in the cosmos not produced in the Big Bang and the third most common overall. Oxygen and its isotopes are key tracers of the formation and evolution of planets, stars, and galaxies and as such it is one of the most important elements in all of astronomy. Nevertheless, or perhaps consequentially, its abundance often seems to be in dispute; the solar O abundance is no exception. The favored solar content has dropped almost precipitously over the past two decades from log O = 8.93 ± 0.04 in Anders & Grevesse (1989) to 8.66 in Asplund, Grevesse & Sauval (2005). The value we recommend here, log O = 8.69 ± 0.05, stems from a 3D-based study of the available diagnostics: forbidden [Oi] and permitted Oi transitions as well as vibration-rotation and pure rotation lines of OH (Asplund et al., in preparation).
+Allende Prieto, Lambert & Asplund (2001) reanalyzed the [Oi] 630-nm line with a 3D model atmosphere. Based on the line profile, they demonstrated that the line is blended by a Nii line, which was subsequently confirmed experimentally ( Johansson et al. 2003). In combination with the 3D model, recognition of the blend led to a substantial lowering of the solar O abundance compared to the canonical value at the time. Ayres (2008) revisited the 630-nm line with a single snapshot of another 3D model but found a 0.12 dex higher O abundance, partly because he allowed the Nii gf-value to vary freely in spite of the new accurate measurement by Johansson et al. (2003). Caffau et al. (2008a) used several snapshots from the same CO5BOLD 3D model but instead fixed the Ni contribution assuming the Ni abundance from Grevesse & Sauval (1998), thereby confirming the results of Allende Prieto, Lambert & Asplund (2001) and Asplund et al. (2004). A more self-consistent approach is to first determine the Ni abundance before considering the [Oi] line, as done by Scott et al. (2009) with the same 3D model as employed by Asplund et al. (2004). As explained by Scott et al. (2009), it is then possible to very accurately predict the Nii contribution to the overall line strength, independent of the reference atmospheric model. We have updated this analysis with the new 3D model and find that the effects of the increased Nii proportion and the shallower model temperature gradient in comparison with Allende Prieto, Lambert & Asplund (2001) compensate for one another, leaving the abundance at log O = 8.66. This abundance is also consistent with the center-to-limb variation of the 630-nm feature (Pereira et al., in preparation).
+In addition to the 630-nm line, there are two other [Oi] transitions that can be utilized. The 636-nm line is located in the midst of a very broad Cai autoionization line as well as blended by CN lines; the latter's contribution can, however, be accurately predicted from other neighboring CN lines. Like Caffau et al. (2008a), we find that this line returns a slightly higher abundance than the 630-nm line, but the two lines are still consistent within the uncertainties. Mele´ndez & Asplund (2008) added the [Oi] 557-nm line, whose slightly excited lower level makes it largely independent of the model atmosphere. Unfortunately, this transition is badly blended by C2 lines, whose contribution Mele´ndez & Asplund attempted to estimate using nearby C2 lines with the same line strengths and excitation potential. We obtain an abundance from the 557nm line somewhat higher than those from the other two forbidden transitions. The three [Oi] lines imply a solar O abundance of log O = 8.70 ± 0.05 when due consideration is given to the blends.
+494 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Recently, Centeno & Socas-Navarro (2008) introduced a novel method to estimate the O abundance, namely spectropolarimetry of the [Oi] 630-nm line in a sunspot. Because of the different polarization of the [Oi] and Nii lines, it is possible to disentangle the Nii contribution. After consideration of the fraction of O tied up in CO in the cool environments of sunspots, they obtained a high O abundance of log O = 8.86. Scott et al. (2009) have, however, pointed out that Centeno & Socas-Navarro applied an outdated gf-value for the [Oi] line. Furthermore, they showed that when using an improved Ni abundance and an alternative CO treatment, one finds a significantly lower O abundance: log O = 8.71; a further reduction is obtained when employing an alternative sunspot model.
+There are a half dozen or so permitted, high-excitation Oi lines useful for solar abundance purposes. Of these, the relatively strong 777-nm triplet lines are arguably the most reliable because the others are either weak or partly blended. The main challenge when employing the Oi lines relates to quantifying the non-LTE effects, which can be significant. The predicted non-LTE abundance corrections are little dependent on the model atmosphere in question, be it 1D or 3D (Asplund et al. 2004), but they do depend on the adopted collisional cross sections, in particular the inelastic H collisions (e.g., Kiselman 1993, Asplund 2005). Different approaches have been used in solar abundance works to date, where some neglect the H collisions altogether based on the available atomic physics data for other elements, while others use the classical Drawin (1968) formula, possibly with a scaling factor SH that typically varies from 0 to 1. Holweger (2001) found log O = 8.71 ± 0.05 using the Holweger & Mu¨ ller (1974) model with granulation corrections estimated from a 2D solar model, whereas Asplund et al. (2004) obtained a 0.07-dex lower abundance from a 3D non-LTE study; the main difference, however, between the two studies is the adopted H collisions (SH = 1 and 0, respectively). Allende Prieto, Asplund & Fabiani Bendicho (2004) attempted to calibrate the poorly known collisional efficiency through a comparison of the center-to-limb variation of the Oi 777-nm line strengths because the relative importance of H collisions changes as NH/Ne increases with smaller optical depths. They found that SH = 1 was a marginally better fit than SH = 0, whereas the LTE case could be ruled out at high-significance level. Recently, Pereira et al. (in preparation) have revisited the issue equipped with better solar observations and tested additional SH values but have arrived at a similar conclusion, as can be seen in Figure 5.
+The Oi-based abundance we adopt here is based on full 3D non-LTE calculations with SH = 1 (Asplund et al., in preparation; Pereira et al., in preparation). The new electron collisional cross sections computed by Barklem (2007a) have also been adopted (see Fabbian et al. 2009 for an account of the impact of these on other stars). The revised abundance is slightly higher than that in Asplund et al. (2004): log O = 8.69 ± 0.05. Using a different 3D model, Caffau et al. (2008a) obtained log O = 8.73 ± 0.06 (unweighted mean) for their disk-center Oi lines, in spite of using SH = 1/3; with SH = 1 their result would be 0.02 dex higher. Because they were restricted to 1D non-LTE calculations, they were unable to carry out line profile fitting as done by Asplund et al. (in preparation). They were, therefore, forced to rely on measuring equivalent widths, which were surprisingly large compared to all previous published studies. Reassuringly, when the same input data are adopted (e.g., line strengths, non-LTE corrections), the Caffau et al. (2008a) analysis is in excellent agreement with ours, which shows that the exact choice of 3D model is of relatively little consequence for the permitted Oi lines; indeed quite similar results are obtained with 1D models.
+Grevesse, Sauval & van Dishoeck (1984) and Sauval et al. (1984) introduced the vibrationrotation and pure rotation lines of OH as solar O abundance indicators. In their 3D-based analysis, Asplund et al. (2004) found that the OH lines implied an O abundance only slightly lower than the atomic transitions. Although the vibration lines showed no trends with excitation potential or line strength, the pure rotation lines did. This is not too surprising, because these strong
+www.annualreviews.org · The Chemical Composition of the Sun 495
+
+OI 777.19 nm 8
+
+7
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+Equivalent width (pm)
+
+6
+
+Observations SH = 0.01 5 SH = 0.1 SH = 0.3 4 SH = 1 SH = 3 SH = LTE
+
+3
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+0.7
+
+0.8
+
+0.9
+
+1.0
+
+Viewing angle 
+
+Figure 5
+Comparison of the observed (open gray circles with error bars) and predicted center-to-limb variation of the equivalent width of the Oi 777.19-nm triplet line as a function of viewing angle ( = 1 corresponds to disk center and 0 to the limb). The theoretical curves are the result of full 3D non-LTE line formation calculations with different adopted efficiency for the poorly known inelastic H collisions; the O abundances have been normalized to fit the disk-center line strengths in each case. The curves are labeled with the scaling factor used to multiply the classical formula (Drawin 1968). The solar observations thus seem to suggest that this recipe is a rather accurate representation for Oi (Pereira et al., in preparation).
+
+rotation lines are formed in very high atmospheric layers, which are the most challenging to model realistically owing to, for example, magnetic fields, non-LTE, and nonequilibrium chemistry. We have revisited the OH lines equipped with a new 3D model, which yielded log O = 8.69 and 8.69 for the vibration-rotation and pure rotation lines, respectively (Asplund et al., in preparation); a trend with line strength for the latter is still present but somewhat reduced and now in the opposite direction. Unfortunately, the OH lines have not yet been analyzed using the alternative 3D model of Caffau et al. (2008a). Mele´ndez (2004) added a few vibration lines from the first overtone band of OH, which we, however, do not consider sufficiently reliable abundance indicators owing to their extreme weakness.
+The 3D-based solar O abundance that we recommend here, log O = 8.69 ± 0.05, is a mean of the [Oi], Oi, OH vibration-rotation, and OH pure rotation results of Asplund et al. (in preparation). The agreement between the different abundance indicators is very satisfactory, which is not the case with the Holweger & Mu¨ ller (1974) model as seen in Table 2. As explained above, the use of a 3D model is only one factor in the downward revision of the O abundance from the value 8.83 ± 0.06 given in Grevesse & Sauval (1998), with refined non-LTE line formation, better accounting of blends, and improved atomic and molecular data also playing important roles.
+Using CO lines, Scott et al. (2006) determined an isotopic abundance of 16O/18O = 479 ± 29. The significantly lower, nonterrestrial ratio obtained by Ayres, Plymate & Keller (2006) is likely the result of their use of 1D model atmospheres. Several lines due to 12C17O are present in the solar IR spectrum but owing to their extreme weakness we do not believe a trustworthy 16O/17O ratio can be inferred from them at this stage.
+
+496 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+3.5. Intermediate Mass Elements
+3.5.1. Sodium. We base our 3D solar Na abundance determination on five weak Nai lines (Asplund et al., in preparation), which all yield consistent results ( = 0.03 dex). The predicted departures from LTE in 1D are slightly negative (-0.04 dex) and agree well between different studies (Allende Prieto, Asplund & Fabiani Bendicho 2004; Shi, Gehren & Zhao 2004; Takeda et al. 2003). The Na abundance we adopt here is slightly larger than the preliminary value presented in Asplund, Grevesse & Sauval (2005).
+3.5.2. Magnesium. The abundance of Mg can be inferred from two ionization stages, each with a multitude of seemingly clean, relatively weak lines (Lambert & Luck 1978). Unfortunately, the gf-values for Mgi and Mgii are notoriously uncertain. Departures from LTE in 1D line formation by Mgi have been considered by Zhao, Butler & Gehren (1998) and T. Gehren (private communication); the abundance corrections are small and positive. Abia & Mashonkina (2004) and L. Mashonkina (private communication) have made corresponding calculations for Mgii. With the predicted non-LTE effects, the mean Mgii abundance is brought into agreement with the meteoritic abundance, while Mgi is further offset. Because we do not have greater confidence in either set of transition probabilities and because non-LTE calculations are available for both species, we simply take a straight mean of all lines (Asplund et al., in preparation).
+3.5.3. Aluminum. Our recommended Al abundance stems from a 3D-based analysis of seven good, weak Ali lines with relatively well-determined gf-values (Asplund et al., in preparation). The departures from LTE are predicted to be small. We have adopted the non-LTE results from 1D calculations by Gehren et al. (2004), with the expectation that they will not be very different in 3D.
+3.5.4. Silicon. Silicon is a critical element because it provides the absolute normalization for the meteoritic abundances (Section 4.1). Asplund (2000) carried out an early 3D-based LTE analysis of Sii and Siii lines and found log Si = 7.51 ± 0.04. With an improved 3D solar model and non-LTE corrections (-0.02 dex) taken from Shi et al. (2008), we find the same value in our reanalysis (Asplund et al., in preparation). Had we instead opted to use the Holweger & Mu¨ ller (1974) 1D semiempirical model, the result would have been a mere 0.02 dex higher.
+3.5.6. Phosphorus. Caffau et al. (2007b) carried out a solar P determination using a CO5BOLD 3D solar model and found log P = 5.46 ( = 0.04) from four Pi lines. We include one additional line and obtain a slightly lower 3D-based value (Asplund et al., in preparation): log P = 5.41±0.03 ( = 0.03). We adopt this latter value here on account of its smaller line-to-line scatter. No nonLTE investigation has been performed to date for these high-excitation Pi lines. Given the very small non-LTE effects seen in Si lines (Takeda et al. 2005), which should behave similarly to the Pi lines, departures from LTE are not expected to be significant for Pi.
+3.5.7. Sulfur. In their 3D-based analysis, Caffau et al. (2007a) obtained a disturbingly large lineto-line scatter: log S = 7.21 ± 0.11 ( ); this result includes the non-LTE corrections of Takeda et al. (2005). We have revisited the issue of the solar S abundance and included a few additional lines (Asplund et al., in preparation). Our non-LTE abundance is slightly smaller and, importantly, shows a much reduced uncertainty: log S = 7.12 ± 0.03 ( = 0.03). The differences between the two studies can be partly traced to the adopted equivalent widths, but this cannot be the whole explanation. Interestingly, we conclude that the forbidden [Si] 1082-nm line returns too
+www.annualreviews.org · The Chemical Composition of the Sun 497
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+high an abundance by 0.3 dex, which may signal an unidentified blend, non-LTE effects, or that the theoretical transition probability is in error, whereas Caffau & Ludwig (2007) found excellent agreement with the meteoritic value for this line. They adopted, however, an outdated gf-value and a much smaller equivalent width, which we are unable to reconcile with the observed solar spectrum.
+3.5.8. Potassium. The solar K abundance we recommend here is based on a 3D analysis of six Ki lines, including the strong resonance line at 769.9 nm (Asplund et al., in preparation). As in previous studies, the line-to-line scatter is disappointingly large for these lines, even when taking into account the theoretical non-LTE effects computed by Zhang et al. (2006). In terms of abundances, the non-LTE corrections are substantial for the two strongest lines (-0.2 dex).
+3.5.9. Calcium. The solar Ca abundance can be determined from both Cai and Caii (Lambert & Luck 1978), although there are problems with both species: Most of the Cai lines are rather strong, whereas the uncertainties in the transition probabilities for the Caii lines are still unsatisfactorily large (Opacity Project data assuming LS-coupling). We obtain a final Ca abundance of log Ca = 6.34 ± 0.04 ( = 0.04) from all Cai and Caii lines (Asplund et al., in preparation), including 1D non-LTE abundance corrections computed by Mashonkina, Korn & Przybilla (2007). We note that the forbidden [Caii] line at 732.3 nm implies an abundance that is fully consistent with the other transitions.
+3.6. Iron-Peak Elements
+3.6.1. Scandium. With its relatively low ionization potential, Sc is prone to overionization via non-LTE effects (Zhang, Gehren & Zhao 2008). The impact on abundances from Sci lines is dramatic (+0.15 dex relative to LTE on average for the lines considered by us), but predictably mild for Scii (-0.01 dex). Good lines, oscillator strengths, and hyperfine constants are available for both ionization stages. With five weak lines of Sci, twelve of Scii, and the non-LTE corrections of Zhang, Gehren & Zhao (2008), the 3D-based abundances show very good agreement between the two ionization stages (Scott et al., in preparation). In Table 1 we give the mean of the abundances from all lines of both species, where Scii ultimately dominates because of the greater number of lines. The +0.10-dex difference between the new Sc abundance and the meteoritic one is intriguing.
+3.6.2. Titanium. Many good lines of Tii are present in the Sun, virtually all with excellent atomic data. Although fewer lines of Tiii are available and the atomic data are not quite as good as for Tii, the situation is still relatively acceptable. The one glaring absence is a study of non-LTE effects for this element. As is the case for its neighbors Sc and V, the low ionization potential of Ti and the resulting minority status of Tii are expected to significantly skew the abundances it returns under the assumption of LTE. Using the improved 3D model atmosphere, we find stark disagreement between LTE abundances from Tii and Tiii (Tii: log Ti = 4.85±0.06, Tiii: log Ti = 4.99±0.04), though with very low scatter from each species individually ( = 0.03 for both ionization stages). In the absence of any non-LTE study, we favor Tiii in Table 1 by taking the mean of the two results weighted according to their total uncertainties (Scott et al., in preparation); we only retain any weighting for the Tii result because of the sheer number of excellent lines and oscillator strengths it includes.
+498 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+3.6.3. Vanadium. Neutral vanadium has scores of excellent lines in the visible solar spectrum, whereas very few are available from Vii, all extremely perturbed. However, Vi is expected to show similarly strong non-LTE effects as verified for Sci and suspected for Tii, owing to the elements' similar potential for overionization. The impact of non-LTE line formation on V has not yet been the subject of a dedicated study. We obtain a 3D LTE abundance of log V = 3.83 from Vi lines (Scott et al., in preparation). The Vii lines yield an abundance somewhat higher, but the poor quality of the lines employed makes the result inconclusive. In the absence of any reliable results for Vii, we adopt the Vi value but adjust it by the mean non-LTE effects seen in Sci and Cri (+0.10 dex); a non-LTE study of V is clearly urgently needed.
+3.6.4. Chromium. The solar spectrum exhibits a large number of clean, weak lines of both neutral and once-ionized chromium. Unfortunately, no reliable oscillator strengths are available for Crii. Neither is any published estimate of the impact of non-LTE effects on Cr available; given its relatively low ionization potential, Cr should consist mostly of Crii in the Sun, possibly leading to non-LTE effects for Cri. Recent non-LTE calculations by M. Bergemann (personal communication) confirm departures from LTE at the level of +0.04 dex. Using their own measured oscillator strengths for Cri, Sobeck, Lawler & Sneden (2007) recently revised the solar Cr abundance, which we update here using a 3D model and include the new non-LTE corrections (Scott et al., in preparation). Given the much greater number of Cri lines in the sample, and the poor quality of the Crii oscillator strengths, we allow Cri to dominate the value in Table 1 by taking the mean of abundances from all Cri and Crii lines together, although the two ionization stages agree very well anyway.
+3.6.5. Manganese. Following years of confusion now traceable mostly to poor oscillator strengths, the solar manganese abundance was recently rederived by Blackwell-Whitehead & Bergemann (2007), using their own improved Mni gf-values, extensive hyperfine splitting data, and the non-LTE calculations of Bergemann & Gehren (2007). The here recommended value brings the photospheric Mn abundance even closer to the meteoritic value (Scott et al., in preparation). Mni shows moderate non-LTE effects (about +0.06 dex), consistent with its ionization potential being intermediate between the lower values seen in the lighter members of the iron group Sc, Ti, V, and Cr and the higher values exhibited by the heavier elements Fe, Co, and Ni.
+3.6.6. Iron. In many circumstances Fe serves as a proxy for the overall metal content and as a reference against which other elemental abundances are measured. An intense debate long raged as to whether the solar Fe abundance inferred from Fei lines should be log Fe  7.7 (e.g., Blackwell, Lynas-Gray & Smith 1995) or log Fe  7.5 (e.g., Holweger, Kock & Bard 1995), with the choice of equivalent widths, gf-values, microturbulence parameters, and pressure-damping constants all playing a role. The advent of improved transition probabilities for Feii lines (e.g., Hannaford et al. 1992; Schnabel, Kock & Holweger 1999) and a proper treatment of pressure broadening (e.g., Anstee, O'Mara & Ross 1997; Barklem, Piskunov & O'Mara 2000a) strengthened the case for a low Fe abundance. An unsatisfactory combination of large abundance scatter, the presence of a free parameter (microturbulence), and a trend with excitation potential still remained with the Holweger & Mu¨ ller (1974) model, however (Grevesse & Sauval 1999). Using a 3D hydrodynamical solar model and LTE line profile fitting, Asplund et al. (2000c) succeeded in achieving consistent results for Fei and Feii lines without invoking any microturbulence: log Fe = 7.45 ± 0.05.
+Our Fei-based abundance of log Fe = 7.52±0.05 ( = 0.03) from weak lines is slightly higher than in Asplund et al. (2000c) on account of a slightly shallower mean temperature structure in the new 3D model and allowance of departures from LTE (Scott et al., in preparation). The non-LTE abundance corrections have been estimated to be +0.03 dex for Fei (Korn, Shi & Gehren 2003,
+www.annualreviews.org · The Chemical Composition of the Sun 499
+
+7.7 a
+7.6 7.5 7.4
+
+3D model
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+Logarithmic abundance (dex)
+
+7.7 b
+7.6 7.5 7.4
+
+Holweger & Müller (1974)
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Excitation potential (eV)
+
+Figure 6
+
+(a) The derived Fei (blue circles) and Feii (red circles) abundances (Scott et al., in preparation) as a function of excitation potential of the lower level when using a 3D hydrodynamical solar model atmosphere. (b) Same as above but with the 1D semiempirical Holweger & Mu¨ ller (1974) model. Note the offset between Fei and
+Feii and the trend with excitation potential for the Fei lines, neither of which are present when employing
+the 3D model.
+
+Collet, Asplund & The´venin 2005), although this depends on the still poorly known inelastic H collisions (see Asplund 2005, and references therein). In fact, a more reliable abundance now comes from Feii lines, thanks to the improved transition probabilities of Mele´ndez & Barbuy (2009) and the broadening treatment of Barklem & Aspelund-Johansson (2005). Together, these imply log Fe = 7.50 ± 0.04 ( = 0.04) using weak Feii lines with the same 3D model, which we base the here recommended Fe abundance on. We note that with the Holweger & Mu¨ ller (1974) model, there is a trend in Fei abundances with excitation potential and a discrepancy of 0.14 dex between Fei and Feii. Both have disappeared with the 3D solar model (Figure 6). Reassuringly, the situation regarding Fe has greatly improved over the past decade.
+3.6.7. Cobalt. The fairly high ionization potential of Co and the availability of many good Coi lines, gf-values, and hyperfine constants should make its solar analysis quite straightforward. Scott et al. (in preparation) find a 3D LTE abundance of log Co = 4.88, in agreement with the meteoritic value. Taking into account the surprisingly large non-LTE corrections of Bergemann (2008) changes the final abundance to log Co = 4.99 ± 0.07 ( = 0.05).
+
+500 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+3.6.8. Nickel. The solar Ni abundance was estimated by Scott et al. (2009) from 17 weak Nii lines, showing a very small abundance scatter. The value given in Table 1 is a slight revision of this result (Scott et al., in preparation) based on the improved 3D model atmosphere that has been employed throughout this review.
+3.7. Neutron Capture Elements
+Quite some work on the solar abundances of the heavy elements has been carried out over the past decade, largely driven by improvements in atomic transition probabilities. In this context, we would like to particularly highlight the very careful laboratory measurements performed by the Wisconsin group (e.g., Lawler et al. 2009). In a beautiful series of papers, they have systematically and methodically measured radiative lifetimes, branching fractions, oscillator strengths, isotopic shifts, and hyperfine constants for all the rare Earth elements: La (Lawler, Bonvallet & Sneden 2001); Ce (Lawler et al. 2009); Pr (Sneden et al. 2009); Nd (Den Hartog et al. 2003); Sm (Lawler et al. 2006); Eu (Lawler et al. 2001b); Gd (Den Hartog et al. 2006); Tb (Lawler et al. 2001a); Dy (Sneden et al. 2009); Ho (Lawler, Sneden & Cowan 2004); Er (Lawler et al. 2008); Tm, Yb, and Lu (Sneden et al. 2009). The group has also carried out a similar study for Hf (Lawler et al. 2007). In their solar abundance analyses, they have employed the 1D Holweger & Mu¨ ller (1974) model atmosphere and assumed LTE for the spectrum synthesis. Although all the utilized transitions are from the majority ionization stage (once ionized) for the rare Earth elements, one still expects a minor temperature and, thus, model-atmosphere dependency, because the lines originate from atomic levels with low excitation potentials ( exc  1.5 eV). The recommended solar abundances provided in Table 1 for these elements have been modified from the original sources by calculating the abundance difference between a 3D hydrodynamical model atmosphere and the Holweger & Mu¨ ller (1974) model, each computed using the same line-formation code with consistent input data (Grevesse et al., in preparation). For the majority of these lines, such (3D-HM) abundance corrections amount to -0.04 dex. In addition, the 1D non-LTE effects on Euii predicted by Mashonkina & Gehren (2000) have been taken into account in the 3D result; non-LTE studies are not available for any other rare Earth elements.
+A similar procedure has been implemented for Cd (Youssef, Doenszelmann & Grevesse 1990), W (Holweger & Werner 1982), Os (Quinet et al. 2006), Ir (Youssef & Khalil 1988), and Au (Youssef 1986), all of which have only heavily blended transitions available in the solar spectrum, necessitating careful and time-consuming spectrum syntheses. Owing to blends, we consider the two Asi lines employed by Gopka et al. (2001) too unreliable to base a meaningful abundance determination on and consequently do not provide a solar photospheric As abundance here. Similarly, we are unable to defend an estimate of the Sb abundance from the very weak and heavily perturbed, purported Sbi line at 323.2 nm reported by Ross & Aller (1976).
+For all other neutron capture elements (Cu, Zn, Ga, Ge, Rb, Sr, Y, Zr, Nb, Mo, Ru, Rh, Pd, Ag, Sn, Ba, Pb, and Th), the adopted abundances come from a complete 3D-based reanalysis using the best atomic data and newly measured equivalent widths or spectrum synthesis for the most reliable lines (Grevesse et al., in preparation); the case of Ru is also discussed in Fivet et al. (2009). The available 1D non-LTE abundance corrections for Zni (Takeda et al. 2005), Srii (Mashonkina & Gehren 2001), and Baii (Mashonkina & Gehren 2000) have been included in these estimates. For comparison purposes, we have also repeated the line calculations with an assortment of 1D model atmospheres. We have found very good agreement (<0.02 dex) with recent studies using the Holweger & Mu¨ ller (1974) model when allowance is made for differences in adopted transition probabilities and equivalent widths for Ge (Bie´mont et al. 1999), Sr (Barklem & O'Mara 2000), Pd (Xu et al. 2006), and Pb (Bie´mont et al. 2000).
+www.annualreviews.org · The Chemical Composition of the Sun 501
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+A handful of elements have previously been exposed to a 3D-based solar abundance analysis. Ljung et al. (2006) made use of new transition probabilities for Zrii and employed the 3D solar model of Asplund et al. (2000b). Not surprisingly, the agreement with our new value is very good. Eu has been the focus of Mucciarelli et al. (2008), who employed a 3D CO5BOLD hydrodynamical model and found a mean Eu abundance in perfect agreement with ours. The 3D LTE abundance for Hf from Caffau et al. (2008b) is 0.02 dex higher than our corresponding value. As explained above, we have corrected the spectrum synthesis results of Lawler et al. (2007) for 3D effects rather than attempted to measure the equivalent widths of these weak and blended Hfii lines as done by Caffau et al. (2008b). Caffau et al. (2008b) also performed a detailed investigation using 3D line profile fitting of the Thii 401.9-nm line, which is distorted by two Coi and Vi lines (not Vii as stated in their paper), as well as being in the red wing of a relatively strong feature from Fei and Nii. Interestingly, they argued that it is important to take into account the line asymmetry of the Fei+Nii blend introduced by the convective motions (e.g., Asplund et al. 2000b), which otherwise would lead to an overestimation of the Th abundance by 0.1 dex. Unfortunately, Caffau et al. (2008b) did not specify what abundances they used for the blending lines, so it is difficult to exactly reproduce their result; our value is consistent with that of Caffau et al. (2008b), though smaller by 0.06 dex.
+3.8. Abundances from Sunspots: Fluorine, Chlorine, Indium, and Thallium
+The photospheric abundances of a few elements are not possible to measure using spectroscopy of the quiet Sun. The solar F and Cl abundances have instead been inferred from the IR spectrum of sunspots using lines of HF (Hall & Noyes 1969) and HCl (Hall & Noyes 1972). Given the improvements in molecular data, observational quality, and sunspot modeling in the intervening years since the original works, it seems like a critical re-evaluation of these studies is warranted though we do not attempt it here. The same holds for Tl (Lambert, Mallia & Smith 1972). We note that in the meantime a more reliable estimate of the solar Cl abundance may be provided by nearby Hii regions: log Cl = 5.32 ± 0.07 (Garc´ia-Rojas & Esteban 2007). Recently, Vitas et al. (2008) have revisited the solar In abundance. In contrast to previous studies based on the quiet Sun, they find an abundance from a sunspot spectrum in agreement with the meteoritic value.
+3.9. Indirect Determinations: Noble Gases
+Owing to their high excitation potentials, there are no photospheric lines of the noble gases He, Ne, Ar, Kr, and Xe available in the solar spectrum. This forces one to estimate the solar abundances of these elements through indirect methods.
+3.9.1. Helium. A highly accurate He abundance determination is possible through helioseismology. The technique utilizes the change in the adiabatic index 1 in the Heii ionization zone that takes place at a solar radius of r/R  0.98. The result is quite insensitive to the reference solar model employed for the inversion, but does depend on the adopted equation of state. Basu & Antia (2004) found a He mass fraction in the convection zone of Ys = 0.2485 ± 0.0034, which corresponds to a He abundance by number of log He = 10.93 ± 0.01. The uncertainty essentially reflects the difference between the MHD (Mihalas, Da¨ppen & Hummer 1988) and OPAL (Rogers & Nayfonov 2002) equation of state, but there is also a minor dependency on the assumed metallicity of the reference solar model for the inversion (Trampedach, Da¨ppen & Baturin 2006). A similar value is obtained when calibrating solar interior models to achieve the correct mass, luminosity, and radius at the present solar age, if the chemical composition of Grevesse & Sauval
+502 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+(1998) is adopted and diffusion is considered. With the solar abundances of Table 1, however, the calibrated protosolar He abundance implies a surface value lower than the helioseismic measurement by 0.02 dex. Such models are also in conflict with other helioseismological evidence such as the depth of the convection zone and the sound speed variation with depth, as discussed in Section 4.3.
+3.9.2. Neon. The Ne abundance can be inferred from X-ray and UV spectroscopy of the solar corona and solar flares as well as directly from the solar wind. The interpretation is, however, complicated by the so-called first ionization potential (FIP) effect: Elements with ionization potential  ion < 10 eV are enhanced in the upper solar atmosphere and solar wind compared to their photospheric values, whereas the high ionization elements are not or only slightly affected (Feldman & Widing 2003). Rather than measuring the Ne abundance directly, a common approach is to determine the abundance relative to a reference element and assume that the ratio is the same in the photosphere. Here O is the reference element of choice, although we note that there is still a significant difference in ionization potential between O (13.6 eV) and Ne (21.6 eV), which could potentially introduce a systematic error given our poor understanding of the physical reasons for the FIP effect. The degree of chemical separation varies significantly, being more severe in regions of higher solar activity. Young (2005b) found a Ne/O ratio of 0.175 ± 0.031 for the quiet Sun, which is the value we adopt here to convert our photospheric O abundance to a Ne content. This result is particularly appealing for our purposes because Young (2005a) has demonstrated that the average quiet Sun does not show any FIP effect, a conclusion that is further corroborated when using the solar abundances given herein. This ratio is consistent with the results of Schmelz et al. (2005) for active regions (0.175 ± 0.074) and for the solar wind (0.14 ± 0.03) by Bochsler (2007). The corresponding ratio in solar energetic particles is very similar and remarkably constant: 0.152 ± 0.006 (Reames 1999), which was adopted by Asplund, Grevesse & Sauval (2005). In spite of its very small uncertainty, here we weight this result less than that from the quiet Sun owing to the potential modification through the FIP effect. Together with our recommended O abundance, the photospheric Ne abundance becomes log Ne = 7.93 ± 0.09.
+Our value is smaller than the solar flare determination (log Ne = 8.11 ± 0.12) by Landi, Feldman & Doschek (2007), but we consider the quiet Sun a more reliable indicator than solar flares owing to possible fractionation processes in the latter. Although the Ne abundance (log Ne = 7.96 ± 0.13) of Bochsler (2007) agrees with ours, there are significant additional uncertainties in this result on account of using He as a reference element, as it is known to be highly variable in the solar wind.
+Drake & Testa (2005) have argued on the basis of X-ray spectroscopy of nearby stars that the Ne/O ratio is significantly higher (0.41) than the solar ratios discussed above. Their sample is, however, heavily biased toward active stars, which experience an inverse FIP effect: Elements with  ion > 10 eV are enhanced in the corona compared to low ionization potential species (Gu¨ del 2004). Indeed, Robrade, Schmitt & Favata (2008) show that there is a systematic trend in Ne/O with activity level such that other inactive stars have similar low ratios to the Sun. One would therefore suspect that the high coronal Ne/O ratio inferred by Drake & Testa (2005) is a consequence of the difference in ionization potential, making Ne more susceptible to fractionation than O in high-activity environments. As is further discussed in Section 4.2, a more reliable stellar gauge of the solar Ne abundance is provided by OB stars in the Solar Neighborhood. Both the Ne/O ratio (0.20 ± 0.03) and the absolute Ne abundance (log Ne = 8.08 ± 0.03) estimated in this way are in very good agreement with the solar values we adopt here when the effects of solar diffusion and Galactic chemical enrichment over the past 4.5 Gyr are accounted for (Przybilla, Nieva & Butler 2008).
+www.annualreviews.org · The Chemical Composition of the Sun 503
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+3.9.3. Argon. As discussed in detail by Lodders (2008), there are a wide range of methods for inferring the solar Ar abundance: solar wind measurements, solar flares and energetic particles, nuclear statistical equilibrium with the abundances of the nearby -elements 28S and 40Ca, and comparison with other Solar System objects ( Jupiter) and the Solar Neighborhood (B stars, planetary nebulae, Hii regions). We follow the procedure of Lodders (2008) but employ our preferred values for the photospheric abundances of O (for the solar wind, flares, and energetic particles), Kr, and Xe (for analyses of Jupiter), and the lower He abundance appropriate for the upper atmosphere instead of the photospheric value (for solar wind analyses). The quoted errors for all methods in the literature are only the dispersions of the measurements, and thus likely an underestimate of the true uncertainties. We therefore take a straight unweighted mean of all techniques, which leads to log Ar = 6.40 ± 0.13. Our value is 0.1 dex lower than the result of Lodders (2008) but 0.2 dex higher than Asplund, Grevesse & Sauval (2005), which was based only on the Ar/O ratio in solar energetic particles (Reames 1999).
+3.9.4. Krypton. The Kr abundance has been estimated from interpolation of the theoretical sprocess production rates, because the cross sections for neutron capture of nearby pure s-isotopes have been accurately measured experimentally (Palme & Beer 1993). Our value accounts for a slight revision of the photospheric Si abundance, which serves as a normalization of the s-process predictions. This Kr estimate agrees well with the value inferred from the solar wind Kr/O ratio together with our photospheric O abundance (Geiss, Gloeckler & von Steiger 1994; Heber et al. 2008).
+3.9.5. Xenon. The procedure to estimate the Xe content is the same as for Kr (Ka¨ppeler 2005). For Xe, however, this s-process estimated value is 0.4 dex lower than deduced from the solar wind as measured from lunar regoliths (Geiss, Gloeckler & von Steiger 1994) and the Genesis space probe (Heber et al. 2008). This may suggest that Xe has experienced fractionation through the FIP effect in spite of its relatively high ionization energy ( ion = 12.1 eV).
+3.10. Solar Isotopic Abundances
+As a convenience to the reader, in Table 3 we give our best estimates of the protosolar isotopic fractions for each element. In most cases, the terrestrial isotopic abundance ratios as recommended by the International Union of Pure and Applied Chemistry (Rosman & Taylor 1998) have been adopted as representative of the Solar System values; direct solar isotopic information can only be gleaned from CO vibration-rotation lines in the IR spectrum of the Sun (e.g., Scott et al. 2006), although with comparatively large error bars by terrestrial standards. It should be noted that except for C and O, the isotopic fractions given here are the more conservative "representative isotopic composition" values from the compilation of Rosman & Taylor (1998), in contrast to Lodders (2003), who opted for the "best measurement from a single terrestrial source" data from the same reference. For most volatile elements more reliable isotopic fractions are available from alternative Solar System sources owing to strong depletion of terrestrial samples, as discussed below.
+The protosolar D abundance can be estimated from observations of Jupiter. Using Infrared Space Observatory spectra of the Jovian atmosphere and taking into account an expected 5-10% enrichment during the planet's formation, Lellouch et al. (2001) obtained a protosolar abundance of D/H = (2.1 ± 0.4) × 10-5. An alternative approach makes use of the measured enrichment of the 3He/4He ratio in the solar wind in comparison with the protosolar ratio 3He/4He = (1.66 ± 0.05) × 10-4 inferred from Jupiter (Mahaffy et al. 1998), because the additional 3He can be attributed to D-burning in the Sun (Gloeckler & Geiss 2000). Together with the solar wind
+504 Asplund et al.
+
+Table 3 Representative isotopic abundance fractions in the Solar System. Most of the isotopic values are taken from Rosman & Taylor (1998) with updates for some elements, as discussed in Section 3.10
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Z
+
+A
+
+%
+
+ZA
+
+%
+
+Z
+
+A
+
+%
+
+ZA
+
+%
+
+Z
+
+A
+
+%
+
+H
+
+1 99.998
+
+S
+
+32
+
+94.93 Fe 57
+
+2.119
+
+Kr 82
+
+11.655 Pd 105 22.33
+
+2 0.002
+
+33
+
+0.76
+
+58
+
+0.282
+
+83 11.546
+
+106 27.33
+
+34
+
+4.29
+
+84 56.903
+
+108 26.46
+
+He
+
+3 0.0166
+
+36
+
+0.02
+
+Co 59
+
+100.0
+
+86 17.208
+
+110 11.72
+
+4 99.9834
+
+Cl 35
+
+75.78
+
+Ni 58 68.0769 Rb 85 70.844 Ag 107 51.839
+
+Li
+
+6
+
+7.59
+
+37
+
+24.22
+
+60 26.2231
+
+87 29.156
+
+109 48.161
+
+7 92.41
+
+61 1.1399
+
+Ar 36 84.5946
+
+62 3.6345 Sr 84 0.5580 Cd 106 1.25
+
+Be
+
+9 100.0
+
+38 15.3808
+
+64 0.9256
+
+86 9.8678
+
+108 0.89
+
+40 0.0246
+
+87 6.8961
+
+110 12.49
+
+B
+
+10
+
+19.9
+
+Cu 63
+
+69.17
+
+88 82.6781
+
+111 12.80
+
+11
+
+80.1
+
+K 39 93.132
+
+65
+
+30.83
+
+112 24.13
+
+40
+
+0.147
+
+Y 89
+
+100.0
+
+113 12.22
+
+C
+
+12 98.8938
+
+41
+
+6.721 Zn 64
+
+48.63
+
+114 28.73
+
+13 1.1062
+
+66
+
+27.90
+
+Zr 90
+
+51.45
+
+116 7.49
+
+Ca 40 96.941
+
+67
+
+4.10
+
+91
+
+11.22
+
+N
+
+14 99.771
+
+42
+
+0.647
+
+68
+
+18.75
+
+92
+
+17.15
+
+In 113 4.29
+
+15 0.229
+
+43
+
+0.135
+
+70
+
+0.62
+
+94
+
+17.38
+
+115 95.71
+
+44
+
+2.086
+
+96
+
+2.80
+
+O
+
+16 99.7621
+
+46
+
+0.004 Ga 69
+
+60.108
+
+Sn 112 0.97
+
+17 0.0379
+
+48
+
+0.187
+
+71
+
+39.892 Nb 93
+
+100.0
+
+114 0.66
+
+18 0.2000
+
+115 0.34
+
+Sc 45
+
+100.0 Ge 70
+
+20.84 Mo 92 14.525
+
+116 14.54
+
+F
+
+19 100.0
+
+72
+
+27.54
+
+94
+
+9.151
+
+117 7.68
+
+Ti 46
+
+8.25
+
+73
+
+7.73
+
+95 15.838
+
+118 24.22
+
+Ne 20 92.9431
+
+47
+
+7.44
+
+74
+
+36.28
+
+96 16.672
+
+119 8.59
+
+21 0.2228
+
+48
+
+73.72
+
+76
+
+7.61
+
+97
+
+9.599
+
+120 32.58
+
+22 6.8341
+
+49
+
+5.41
+
+98 24.391
+
+122 4.63
+
+50
+
+5.18
+
+As 75
+
+100.0
+
+100 9.824
+
+124 5.79
+
+Na 23 100.0
+
+V 50
+
+0.250
+
+Se 74
+
+0.89
+
+Ru 96
+
+5.54
+
+Sb 121 57.21
+
+Mg 24 78.99
+
+51 99.750
+
+76
+
+9.37
+
+98
+
+1.87
+
+123 42.79
+
+25 10.00
+
+77
+
+7.63
+
+99
+
+12.76
+
+26 11.01
+
+Cr 50
+
+4.345
+
+78
+
+23.77
+
+100 12.60
+
+Te 120 0.09
+
+52 83.789
+
+80
+
+49.61
+
+101 17.06
+
+122 2.55
+
+Al
+
+27 100.0
+
+53
+
+9.501
+
+82
+
+8.73
+
+102 31.55
+
+123 0.89
+
+54
+
+2.365
+
+104 18.62
+
+124 4.74
+
+Si
+
+28 92.2297
+
+Br 79
+
+50.69
+
+125 7.07
+
+29 4.6832 Mn 55 100.0
+
+81
+
+49.31 Rh 103 100.0
+
+126 18.84
+
+30 3.0872
+
+128 31.74
+
+Fe 54
+
+5.845 Kr 78
+
+0.362 Pd 102
+
+1.02
+
+130 34.08
+
+P
+
+31 100.0
+
+56 91.754
+
+80
+
+2.326
+
+104 11.14
+
+(Continued )
+
+www.annualreviews.org · The Chemical Composition of the Sun 505
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Table 3 (Continued )
+
+Z
+
+A
+
+%
+
+I
+
+127 100.0
+
+Xe 124 0.122 126 0.108 128 2.188 129 27.255 130 4.376 131 21.693 132 26.514 134 9.790 136 7.954
+
+Cs 133 100.0
+
+Ba 130 0.106 132 0.101 134 2.417 135 6.592 136 7.854 137 11.232 138 71.698
+
+La 138 0.091 139 99.909
+
+Ce 136 0.185 138 0.251 140 88.450 142 11.114
+
+Pr 141 100.0
+
+ZA Nd 142
+143 144 145 146 148 150
+Sm 144 147 148 149 150 152 154
+Eu 151 153
+Gd 152 154 155 156 157 158 160
+Tb 159
+Dy 156 158
+
+%
+
+Z
+
+A
+
+%
+
+ZA
+
+27.044 Dy 160 2.329 Hf 178
+
+12.023
+
+161 18.889
+
+179
+
+23.729
+
+162 25.475
+
+180
+
+8.763
+
+163 24.896
+
+17.130
+
+164 28.260 Ta 180
+
+5.716
+
+181
+
+5.596 Ho 165 100.0
+
+W 180
+
+3.07
+
+Er 162 0.139
+
+182
+
+14.99
+
+164 1.601
+
+183
+
+11.24
+
+166 33.503
+
+184
+
+13.82
+
+167 22.869
+
+186
+
+7.38
+
+168 26.978
+
+26.75
+
+170 14.910 Re 185
+
+22.75
+
+187
+
+Tm 169 100.0
+
+47.81
+
+Os 184
+
+52.19 Yb 168
+
+0.12
+
+186
+
+170
+
+2.98
+
+187
+
+0.20
+
+171 14.09
+
+188
+
+2.18
+
+172 21.69
+
+189
+
+14.80
+
+173 16.10
+
+190
+
+20.47
+
+174 32.03
+
+192
+
+15.65
+
+176 13.00
+
+24.84
+
+Ir 191
+
+21.86 Lu 175 97.1795
+
+193
+
+176 2.8205
+
+100.0
+
+Pt 190
+
+Hf 174 0.162
+
+192
+
+0.056
+
+176 5.206
+
+194
+
+0.095
+
+177 18.606
+
+195
+
+% 27.297 13.629 35.100
+0.012 99.988
+0.12 26.50 14.31 30.64 28.43
+35.662 64.338
+0.020 1.598 1.271 13.337 16.261 26.444 41.070
+37.3 62.7
+0.014 0.782 32.967 33.832
+
+Z
+
+A
+
+%
+
+Pt 196 25.242
+
+198 7.163
+
+Au 197 100.0
+
+Hg 196 0.15 198 9.97 199 16.87 200 23.10 201 13.18 202 29.86 204 6.87
+
+Tl 203 29.524 205 70.476
+
+Pb 204 1.997 206 18.582 207 20.563 208 58.858
+
+Bi 209 100.0
+
+Th 232 100.0
+
+U 234 0.002 235 24.286 238 75.712
+
+ratio 3He/4He = (4.53 ± 0.03) × 10-4 from Genesis measurements (Heber et al. 2008), the Jovian ratio implies D/H = (1.96 ± 0.03) × 10-5; most of the uncertainty comes from the poorly known He fractionation in the solar wind. From the two methods, we finally estimate a protosolar abundance of D/H = (2.00 ± 0.2) × 10-5. This is consistent with the present-day local interstellar medium abundance (Linsky et al. 2006), which implies only a small degree of astration over the past 4.5 Gyr.
+The 12C/13C ratio does not appear to vary significantly between different Solar System sources, so we simply adopt the accurate terrestrial reference value of Vienna Peeddee belemnite: 12C/13C = 89.4 ± 0.2 (Coplen et al. 2002). We note that the representative isotopic composition from Rosman & Taylor (1998) corresponds to the significantly more uncertain value 12C/13C = 92 ± 7. The ratio inferred from the solar photosphere using CO lines (86.8 ± 3.8) is consistent with the terrestrial value (Scott et al. 2006).
+506 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+The 14N/15N ratio varies tremendously between various Solar System objects, from 100 to 450 (Owen et al. 2001). Here we adopt the Jovian value 435 ± 57 as representative of the protosolar ratio, in agreement with values in the interstellar medium and carbonaceous chondrites (Meibom et al. 2007).
+Oxygen isotopic abundances display a variability of up to a few percent within the Solar System. The best values to adopt for the protosolar O isotopic ratios are still debated (e.g., Hashizume & Chaussidon 2005, Ireland et al. 2006). The first results from the Genesis mission should appear very soon (McKeegan et al. 2009), which will hopefully shed some light on the issue. Until such clarification, we adopt the terrestrial values represented in Vienna Standard Mean Ocean Water: 16O/18O = 498.7 ± 0.1 and 16O/17O = 2632 ± 7 (Coplen et al. 2002). The solar photospheric ratio 16O/18O = 479 ± 29 obtained by Scott et al. (2006) is consistent with the terrestrial value, but with larger uncertainties [although in fairness the terrestrial representative isotopic composition from Rosman & Taylor (1998) is equally uncertain: 487 ± 35]. Surprisingly, Ayres, Plymate & Keller (2006) found strongly subterrestrial ratios (e.g., 16O/18O = 440 ± 20) from their analysis of the solar CO lines, probably owing to an inadequate consideration of the differing temperature sensitivities of the isotopomer transitions with 1D model atmospheres (Scott et al. 2006). Lines from 12C17O are also visible in the solar IR spectrum, but owing to their extreme weakness their reliability as abundance indicators is questionable.
+For Ne, Ar, Kr, and Xe we adopt the recommended values of Wieler (2002) derived from solar wind and lunar sample analyses. Very similar ratios have recently been presented from preliminary studies of solar wind samples from the Genesis mission (Heber et al. 2008). For Mo, Dy, Er, Yb, and Lu we have exchanged the Rosman & Taylor (1998) values with the more recent measurements given in Lodders, Palme & Gail (2009). Similarly the protosolar values given here for the radioactive nuclides have been taken from the same source.
+3.11. Conversion from Photospheric to Bulk Abundances
+The elemental abundances given in Table 1 are those currently present in the solar photosphere and, by extension, the whole convection zone. Owing to the combined effects of thermal diffusion, gravitational settling, and radiative acceleration (often referred to collectively as diffusion) over the past 4.56 Gyr, the values in Table 1 differ slightly from the protosolar chemical composition. In comparison with present-day photospheric values, the bulk composition of the Sun is higher by 0.05 dex for He and 0.04 dex for the heavier elements (Turcotte & Wimmer-Schweingruber 2002). The uncertainty in the overall diffusion correction is judged to be about 0.01 dex. The elementto-element variation in the expected diffusion is very small (<0.01 dex) and, therefore, currently not observationally testable by a comparison of photospheric and meteoritic abundances. We note that Lodders (2003) adopted a somewhat larger correction, 0.074 dex, than that of Turcotte & Wimmer-Schweingruber (2002). She based her estimate on the results of Boothroyd & Sackmann (2003), who computed their solar models using a less detailed diffusion model.
+3.12. Solar Metallicity
+With the solar chemical composition we recommend here, the mass fractions of H, He, and metals in the present-day photosphere become X = 0.7381, Y = 0.2485, and Z = 0.0134. The respective values for the bulk composition are 0.7154, 0.2703, and 0.0142. In other words, the solar metallicity is no longer the canonical 2% recommended by Anders & Grevesse (1989) but rather a substantially smaller 1.4%. Indeed, the intervening years have seen a steady decrease in Z/X from
+www.annualreviews.org · The Chemical Composition of the Sun 507
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Table 4 The mass fractions of H (X), He (Y) and metals (Z) for a number of widely used compilations of the solar chemical composition
+
+Source Present-day photosphere: Anders & Grevesse (1989)a Grevesse & Noels (1993)a Grevesse & Sauval (1998) Lodders (2003) Asplund, Grevesse & Sauval (2005) Lodders, Palme & Gail (2009) Present work Protosolar: Anders & Grevesse (1989) Grevesse & Noels (1993) Grevesse & Sauval (1998) Lodders (2003) Asplund, Grevesse & Sauval (2005) Lodders, Palme & Gail (2009) Present work
+
+X
+0.7314 0.7336 0.7345 0.7491 0.7392 0.7390 0.7381
+0.7096 0.7112 0.7120 0.7111 0.7166 0.7112 0.7154
+
+Y
+0.2485 0.2485 0.2485 0.2377 0.2485 0.2469 0.2485
+0.2691 0.2697 0.2701 0.2741 0.2704 0.2735 0.2703
+
+Z
+0.0201 0.0179 0.0169 0.0133 0.0122 0.0141 0.0134
+0.0213 0.0190 0.0180 0.0149 0.0130 0.0153 0.0142
+
+Z/X
+0.0274 0.0244 0.0231 0.0177 0.0165 0.0191 0.0181
+0.0301 0.0268 0.0253 0.0210 0.0181 0.0215 0.0199
+
+aThe He abundances given in Anders & Grevesse (1989) and Grevesse & Noels (1993) have here been replaced with the current best estimate from helioseismology (Section 3.9).
+
+0.027 to our preferred value of 0.018. This is illustrated in Table 4, which collects the resulting mass fractions from a number of widely used compilations of the solar chemical composition over the past two decades. Our metallicity reverses this declining trend of Z with time by being slightly larger than advocated by Asplund, Grevesse & Sauval (2005), which is mainly the result of the somewhat higher C, N, O, Ne, and Fe abundances.
+For completeness, we note that the He abundances recommended by Anders & Grevesse (1989) and Grevesse & Noels (1993) were based on calibration of solar models and, hence, corresponded to bulk composition; here we have substituted those with the helioseismic convection zone He content (Section 3.9) when computing the present-day photospheric values. Finally, from Table 4 it is clear that the surface He abundance employed by Lodders (2003) is too low on account of adopting a too efficient elemental diffusion.
+
+4. OTHER METHODS FOR INFERRING SOLAR ABUNDANCES
+4.1. Meteorites
+Meteoritic data on the elemental abundances constitute an excellent comparator for the results from the solar photosphere presented above. Not all meteorites are suitable for the purpose though; only a very small subsample are believed to accurately reflect the chemical composition of the protosolar nebula, because the majority have undergone varying degrees of fractionation and alteration. The most primitive, undifferentiated meteorites in this respect are the so-called CI (or C1) carbonaceous chondrites, of which only five are known: the Alais, Ivuna (after which this class of meteorites is named), Orgueil, Revelstoke, and Tonk meteorites (Lodders 2003). Of these, Orgueil is by far the largest and has therefore been exposed to the greatest number of analyses. It should be noted that while CI chondrites are believed not to have been noticeably chemically
+508 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+Photospheric-meteoritic abundance (dex)
+
+fractionated, they have still been severely modified mineralogically by aqueous alteration and thermal metamorphism. The main advantage of meteorites as a cosmic abundance standard is the extraordinarily high precision obtained, even for isotopic abundances, through mass spectroscopy. It comes at a cost, however, because the volatile elements H, C, N, O and the noble gases--which also happen to be the most abundant elements--have been severely depleted. As a consequence, the abundances in meteorites are pegged to the Si content, rather than H as is the case in solar and stellar spectroscopy.
+The mean abundances of CI chondrites presented in Table 1 have been appropriated from the data carefully compiled by Lodders, Palme & Gail (2009). To place the meteoritic abundances (defined as NSi = 106) on the same absolute scale as for the photosphere (defined as log H = 12.00), we have renormalized their data such that the meteoritic and photospheric Si abundances agree. The relation between the two scales is thus specified as log X = 1.51 + log NX. In principle, the conversion factor could employ additional elements besides Si; Anders & Grevesse (1989), for example, used Na, Mg, Si, Ca, V, Cr, Co, Ni, Y, Zr, Nb, and Mo, whereas Lodders, Palme & Gail (2009) included as many as 39 elements. In practice, however, this does not change the result noticeably but it introduces some degree of arbitrariness into the selection of elements to include in this exercise. Figure 7 shows the difference between the thus obtained photospheric and CI chondrite abundances, highlighting the excellent correspondence between the two methods.
+0.4
+
+0.2
+
+0
+
+-0.2
+
+-0.4
+
+0
+
+20
+
+40
+
+60
+
+80
+
+Atomic number
+
+Figure 7
+Difference between the logarithmic abundances determined from the solar photosphere and the CI carbonaceous chondrites as a function of atomic number. With a few exceptions, the agreement is excellent. Note that owing to depletion in the Sun and meteorites, the data points for Li, C, N, and the noble gases fall outside the range of the figure.
+
+www.annualreviews.org · The Chemical Composition of the Sun 509
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Naturally all volatile elements are depleted in the meteorites, whereas Li is depleted in the solar photosphere. For the other 45 elements with a purported photospheric uncertainty less than 25%, the mean difference between photospheric and meteoritic abundances is 0.00 ± 0.05 dex. The photospheric and meteoritic abundances differ by more than the total combined uncertainty for only 10 out of the 57 nonvolatile elements (expected 18/57), which suggests that our estimated errors are in fact slightly too conservative. It should be emphasized that this excellent agreement cannot be interpreted as an absence of any significant diffusion in the Sun (Section 3.11), as the meteoritic scale is set by Si; all elements heavier than He are fractionated by 0.04 dex relative to H but hardly at all relative to each other.
+In spite of the excellent agreement overall illustrated in Figure 7, there are a few noticeable exceptions. Of the ten nondepleted elements where the solar and meteoritic abundances differ by more than 0.1 dex (25%), this can in all cases be blamed on uncertain photospheric analyses. Indeed, in some cases the two methods still agree within the combined errors (Cl, Au, Tl). We note a significant improvement for W compared to previous compilations of the solar chemical composition [ log = +0.49 dex in Asplund, Grevesse & Sauval (2005), whereas here the difference amounts to +0.20 dex]; we suspect that unidentified blends and/or erroneous continuum placement may be at fault for the persisting discrepancy, likewise for Rb and Hf. For Co we reckon that the non-LTE corrections by Bergemann (2008) are somewhat overestimated. The remaining three elements, Rh, Ag, and Pb, have had their photospheric values determined from transitions originating either in the ground state or from low-excitation levels of the neutral species (also true for Pd, W, and Au), which are prone to non-LTE effects in their excitation and ionization populations (Asplund 2005).
+4.2. Solar Neighborhood
+Independent estimates of the chemical composition of the Sun are provided by solar-type stars, OB stars, Hii regions like the Orion nebula, and the interstellar medium in the Solar Neighborhood. In order to make a meaningful comparison one must first account for the effects of diffusion in the Sun and Galactic chemical enrichment. The former amounts to 0.04 dex for metals (Turcotte & Wimmer-Schweingruber 2002; cf. Section 3.11), whereas the latter is typically predicted to be 0.05-0.15 dex depending on the element in question (Chiappini, Romano & Matteucci 2003; Prantzos 2008).
+Whether the Sun is somehow special in its chemical composition relative to other FG dwarfs in the Galactic thin disk has attracted attention over the years (e.g., Gustafsson 2008, Robles et al. 2008, and references therein). We should bear in mind that most large-scale abundance analyses of Galactic thin disk stars to date (e.g., Edvardsson et al. 1993; Reddy et al. 2003; Bensby et al. 2005; Ram´irez, Allende Prieto & Lambert 2007; Fuhrmann 2008) have been performed differentially relative to the Sun to remove the uncertainties from gf-values and to minimize systematic errors due to inadequacies in the stellar modeling. These studies therefore reveal little about the absolute abundances of the stars but do imply that the Sun is a rather ordinary thin disk G dwarf for its age. In his volume-complete sample of stars within 25 pc, Fuhrmann (2008) found a mean spectroscopic metallicity of [Fe/H] = -0.02 ± 0.18. Similarly, among the stars within 40 kpc having an isochrone age of 4-6 Gyr, Holmberg, Nordstro¨ m & Andersen (2008) obtained a mean metallicity of [Fe/H] = -0.00 ± 0.10. In their study of 11 solar twins, Mele´ndez et al. (in preparation) found that the solar X/Fe ratios did not differ by more than 0.06 dex from the mean of the solar-twin sample for any of the 23 investigated elements.
+In the past, the Sun appeared to be metal-rich compared to, for example, young OB stars in the Solar Neighborhood, despite the expected chemical enrichment over the past 4.5 Gyr. In
+510 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Table 5
+Elem. He C N O Ne Mg Si S Ar Fe
+
+Comparison of the protosolar abundances with those in nearby B stars and HII regionsa
+
+Sunb 10.98 ± 0.01 8.56 ± 0.06 7.96 ± 0.06 8.87 ± 0.06 8.12 ± 0.06 7.62 ± 0.05 7.59 ± 0.05 7.37 ± 0.11 6.44 ± 0.06 7.55 ± 0.05
+
+Sunc 10.98 ± 0.01 8.47 ± 0.05 7.87 ± 0.05 8.73 ± 0.05 7.97 ± 0.10 7.64 ± 0.04 7.55 ± 0.04 7.16 ± 0.03 6.44 ± 0.13 7.54 ± 0.04
+
+B starsd 10.98 ± 0.02 8.35 ± 0.03 7.76 ± 0.05 8.76 ± 0.03 8.08 ± 0.03 7.56 ± 0.05 7.50 ± 0.02 7.21 ± 0.13 6.66 ± 0.06 7.44 ± 0.04
+
+HI Ie 10.96 ± 0.01 8.66 ± 0.06 7.85 ± 0.06 8.80 ± 0.04 8.00 ± 0.08
+7.30 ± 0.04 6.62 ± 0.06
+
+GCEf 0.01 0.06 0.08 0.04 0.04 0.04 0.08 0.09
+0.14
+
+aThe solar values given here include the effects of diffusion (Turcotte & Wimmer-Schweingruber 2002) as discussed in
+Section 3.11. The Hii numbers include the estimated elemental fractions tied up in dust; the dust corrections for Mg, Si,
+and Fe are very large and, thus, too uncertain to provide meaningful values here. Also given in the last column is the
+predicted Galactic chemical enrichment (GCE) over the past 4.56 Gyr. bGrevesse & Sauval (1998). cPresent work. dPrzybilla, Nieva & Butler (2008); Morel et al. (2006); Lanz et al. (2008). eEsteban et al. (2004, 2005), Garc´ia-Rojas & Esteban (2007). fChiappini, Romano & Matteucci (2003).
+
+the meantime, the solar abundances have decreased and the hot star abundances have increased. The latter have also become more accurate, as reflected in greatly diminished uncertainties (e.g., Daflon & Cunha 2004, Nieva & Przybilla 2006, Morel 2008). Arguably the most accurate result to date is the analysis of Przybilla, Nieva & Butler (2008), who have carried out a non-LTE study of six nearby B-type main-sequence stars. Their results are presented in Table 5; for S we give the mean abundance from Morel et al. (2006), whereas the Ar abundance is taken from Lanz et al. (2008). When accounting for diffusion in the Sun, there is good agreement between the solar and hot star abundances for O, Ne, and Mg in particular. Although the situation has greatly improved compared to the solar abundances of Grevesse & Sauval (1998) and earlier compilations, there is still a tendency for the solar C, N, and Fe abundances to be somewhat higher than in the B stars. It is unclear whether the solution can be found in the solar or B star analyses or, if a real difference indeed exists, perhaps due to infall of low-metallicity gas to the Solar Neighborhood or due to Galactic orbital migration (Scho¨ nrich & Binney 2009).
+The abundances of nearby Hii regions like the Orion nebula also provide constraints on the solar chemical composition. In Table 5 we provide the values from Esteban et al. (2004, 2005) and Garc´ia-Rojas & Esteban (2007) interpolated to a Galacto-centric radius of 8 kpc. The observed scatter between individual Hii regions is now quite small, and the inferred present-day Galactic abundance gradient is well determined. It is worth remembering that there are multiple potential pitfalls in the analyses of Hii regions, including corrections for unseen ionization stages and the effects of temperature fluctuations in the nebula. Furthermore, abundances derived from recombination (permitted) lines are often significantly larger than the corresponding values from collisionally excited (forbidden) lines. Finally, dust condensation needs to be taken into account for some elements. For C and O this somewhat uncertain dust correction amounts to 0.1 dex in Orion (Esteban et al. 2004). Volatile elements like Ne and S are not expected to form dust but refractory elements like Mg and Fe are predominantly in the solid phase, so it is therefore not possible to deduce a meaningful total elemental abundance for them. Overall, the agreement
+
+www.annualreviews.org · The Chemical Composition of the Sun 511
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+between the Sun and Hii regions is very satisfactory when accounting for diffusion and a minor chemical enrichment over the past 4.5 Gyr.
+Because of the generally lower temperatures encountered and the consequentially larger degree of dust condensation, the interstellar medium is a less reliable chemical composition gauge than Hii regions ( Jenkins 2004). Indeed, rather than setting constraints on the solar abundances, the Sun is often used to infer the amount in the solid phase in the interstellar medium (e.g., Sofia & Meyer 2001). The local abundances of the volatile elements C (Sofia et al. 2004), N ( Jensen, Rachford & Snow 2007), and O (Cartledge et al. 2006; Jensen, Rachford & Snow 2005) in the interstellar medium support our recommended solar values in general. With the older, higher (log O = 8.83 - 8.93) solar abundances preferred by Grevesse & Sauval (1998) and Anders & Grevesse (1989), it becomes very challenging to hide sufficient amounts of O in dust ( Jensen 2007). The gas phase abundances of the refractory elements is only a small fraction of the total abundance in both the cold and warm interstellar medium, preventing them from setting any stringent constraints.
+Also listed in Table 5 are predictions from models of Galactic chemical evolution (Chiappini, Romano & Matteucci 2003). Indeed, with these values it becomes difficult to reconcile the solar abundances with the results from OB stars and Hii regions for some elements like Fe. It is important to bear in mind though that the models have varying degrees of reliability for different elements. The evolutionary predictions for O, Ne, and Mg should be the most accurate, as they are produced in hydrostatic burning and ejected by SNe II; in fact for these elements there is good agreement between the Sun and its local neighborhood. All other elements are either produced in explosive burning and therefore dependent on the adopted mass-cut in the supernova explosion, or have a non-negligible contribution from SNe Ia or AGB stars, making theoretical estimates rather uncertain. One may conclude that the local Galactic volume has had a smaller star-formation rate than assumed in these chemical evolution models. This inference is borne out empirically by the observed age-metallicity relation, which Holmberg, Nordstro¨ m & Andersen (2008) estimated to be only 0.018 dex Gyr-1 for [Fe/H] in the Solar Neighborhood, that is, only half of the predictions in Table 5. An alternative explanation would be recent Galactic infall of more pristine gas or Galactic orbital migration (Scho¨ nrich & Binney 2009).
+4.3. Helioseismology
+The situation is decidedly less encouraging when attempting to assess the solar abundances by means of helioseismology. Because the various solar oscillation p-modes penetrate to different depths, it is possible to map the variation of the sound speed in the solar interior, which can be compared to the predicted values from solar structure models (see Basu & Antia 2008, for a detailed review). With the Grevesse & Sauval (1998) abundances, the predicted sound speed as a function of depth from standard solar models shows very good agreement with the helioseismic values. When instead employing the revised values of Asplund, Grevesse & Sauval (2005), this is no longer the case, a situation which has attracted a great deal of attention lately (e.g., Basu & Antia 2004, 2008; Turck-Chie`ze et al. 2004; Bahcall et al. 2005; Guzik, Watson & Cox 2005; Delahaye & Pinsonneault 2006). In this context it is perhaps fair to say that "better is worse." The sound speed discrepancy most clearly shows up immediately below the bottom of the convection zone, as illustrated in Figure 8. Also with the Grevesse & Sauval (1998) abundances there was a disagreement in this region but it is greatly aggravated by the further lowering of the solar O and Ne abundances and, to a lesser extent, by the reassessment of C, N, and Fe. With the solar chemical composition recommended here (Table 1), the situation is somewhat alleviated owing to the slightly higher abundances of these elements and consequently larger opacity in the radiative interior, but the deviation is still highly significant.
+512 Asplund et al.
+
+0.015
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+cS /cS
+
+0.010
+
+AGS05
+
+0.005 0
+
+AGSS09 GS98
+
+- 0.005 0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1.0
+
+R/R
+
+Figure 8
+
+The differences between the helioseismic and predicted sound speeds cs as a function of depth (Serenelli et al., in preparation). The standard solar models shown here only differ in the assumed chemical
+compositions: Grevesse & Sauval (1998, here denoted as GS98), gray line; Asplund, Grevesse & Sauval (2005, AGS05), red line; and the present work (AGSS09), blue line. Each model has independently been calibrated to achieve the correct solar luminosity, temperature, and age. The base of the convection zone is at R = 0.71 R , which is also where the discrepancy starts in earnest in all three cases.
+
+It is not only the sound speed variation that is discrepant when using the new solar abundances. The inferred depth of the convection zone is now too shallow: RBCZ  0.725 R instead of the helioseismic measurement 0.7133 ± 0.0005 R (Basu & Antia 2004). Furthermore, the resulting He abundance when calibrating solar interior models to achieve the correct solar luminosity and temperature at the solar age is similarly inconsistent with the value inferred from helioseismology (see Section 3.9): YS  0.238 compared to the observed 0.2485 ± 0.0034 (Basu & Antia 2004), where YS is the present-day He mass fraction at the surface. The problem also persists in the solar core both as implied by low-degree p-modes (Chaplin et al. 2007) and by gravity modes (Garc´ia et al. 2007). Thus, the problem exists in the convective envelope, in the radiative interior, and in the core.
+Following the initial revisions of the solar C and O abundances by Allende Prieto, Lambert & Asplund (2001, 2002), many possible solutions have been put forward to explain the problem, albeit with little success to date. The most obvious explanation would be that the opacities are underestimated. Bahcall et al. (2005) estimated that a 10-20% increase of the OPAL opacities over a relatively substantial fraction of the solar interior (R = 0.4-0.7 R or equivalently T = 2-4 × 106 K) would be required; Christensen-Dalsgaard et al. (2009) found even slightly more stringent requirements with the Asplund, Grevesse & Sauval (2005) solar abundances. Serenelli et al. (in preparation) have investigated the differences with the solar chemical composition presented here and conclude that 12% extra opacity is required to restore the previous agreement in sound speed. Little suggests, however, that current atomic physics calculations for stellar interiors are missing such a substantial fraction of the opacity. For example, Badnell et al. (2005) showed that opacities from the Opacity Project are at most 3% larger than the corresponding OPAL values in the relevant temperature range. Although perhaps unlikely to cure the problem by itself, it is
+
+www.annualreviews.org · The Chemical Composition of the Sun 513
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+wise to bear in mind that a similar situation for pulsating stars in fact existed in the 1980s, which found an unexpected resolution with the more comprehensive calculations by the OPAL and OP collaborations.
+There are other ways to compensate for the lower opacities resulting from the lower C, N, O, and Ne abundances. One is that the radiative interior contains more metals than expected from the photospheric abundances and standard models for diffusion. Asplund et al. (2004) first suggested that the diffusion efficiency may be seriously underestimated but the required elemental settlement is about twice the predicted value. Furthermore, though this may remedy the sound speed discrepancy, problems still remain in terms of the He abundance and depth of the convection zone (Montalba´n et al. 2004; Guzik, Watson & Cox 2005; Yang & Bi 2007). A hypothetical late accretion of metal-depleted gas during the formation of the Sun runs into the same trouble (Guzik, Watson & Cox 2005, Castro, Vauclair & Richard 2007). Alternatively, the reduced O abundance could conceivably be compensated by a corresponding (but larger) increase in the Ne abundance (Antia & Basu 2005). Bahcall, Basu & Serenelli (2005) estimated that a factor of three (0.5 dex) higher Ne content compared to the recommended values of Asplund, Grevesse & Sauval (2005), together with minor adjustments of C, N, O, and Ar within their associated uncertainties, would restore the good agreement found with the Grevesse & Sauval (1998) solar composition. There was initial excitement when Drake & Testa (2005) argued for exactly such an increase in Ne on the basis of inferences from coronal spectroscopy of other stars, but there is in fact little support for this idea, as explained in Section 3.9. The here recommended abundance of Ne is slightly higher than in Asplund, Grevesse & Sauval (2005), as are our recommended values for C, N, and O. This shift only partly allays the solar modeling discrepancy, as seen in Figure 8.
+Given that the problem exceeds the likely uncertainties in existing input data (e.g., opacities, diffusion, abundances), the only remaining option on the solar interior side seems to be to invoke some physical process not yet accounted for in standard solar models. It is perhaps suggestive that the largest deviation occurs immediately below the convection zone. Arnett, Meakin & Young (2005) have proposed that internal gravity waves generated by the convective motion at the base of the convection zone propagate inward and deposit their energy in the radiative zone. The ensuing structure changes are similar to an opacity enhancement, thus going in the right direction. In addition, the gravity waves induce additional mixing, which would also help. Young & Arnett (2005) have investigated these processes using multidimensional hydrodynamical simulations of stellar convection zones and found qualitative improvements in many stellar regimes. Owing to the computationally very challenging nature of the hydrodynamics, the modeling is unfortunately not yet able to quantitatively predict whether the effects are sufficient to explain the helioseismic signature.
+Thus, most suggestions to resolve the solar modeling discrepancy have already been ruled out or are considered improbable. The few possibilities still standing do so largely because no detailed modeling has as yet been forthcoming to properly put the proposals to test. It is possible that a combination of several factors could be the explanation, but such fine tuning would seem rather contrived. Should no likely solution be found, it would suggest that the photospheric abundances presented herein are wrong. Given the discussion in Sections 2 and 3, it is not easy to understand where such a serious error may lie but the possibility should obviously not be discounted.
+4.4. Solar Neutrinos
+Neutrinos provide another means by which to infer the solar chemical composition, though current experiments are not yet sufficiently sensitive to return decisive results in this respect. The metallicity adopted in a solar model modifies the conditions in the core, and thus the neutrino fluxes produced by the pp-chain and CNO-cycle. Although the neutrino fluxes cannot be
+514 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+directly associated with abundances of individual elements, the relevant neutrino channels depend most sensitively on C, N, O, Si, and Fe (Bahcall & Serenelli 2005). Using neutrino data from the SuperKamiokande I+II, SNO, and Borexino experiments, Pena-Garay & Serenelli (2008) have derived the neutrino oscillations and fluxes expected from solar models constructed with the Grevesse & Sauval (1998) and Asplund, Grevesse & Sauval (2005) compositions. Intriguingly, the existing data imply 7Be and 8B neutrino fluxes that fall between the predictions for the two models; we suspect that the solar neutrinos would favor the new abundances presented herein. A more direct test of the heavily debated solar C, N, and O abundances would come from measuring the 13N and 15O -decay neutrinos that follow proton capture on 12C and 14N, respectively. Meaningful constraints should come from Borexino within the next couple of years, and the proposed SNO+ experiment should weigh in with a definite answer sometime after 2011 (Haxton & Serenelli 2008).
+5. CONCLUDING REMARKS
+5.1. Summary Points
+We have critically examined all ingredients for the determination of the solar photospheric chemical composition, from the atmospheric and line-formation modeling, required atomic data, and selection of lines to the final estimate of the elemental abundances and associated errors (Section 3). A notable feature of this analysis is that for essentially every element, the effects of 3D hydrodynamical model atmospheres have now been accounted for. The 3D solar model employed here outperforms any 1D model, theoretical or semiempirical, in a raft of observational tests. The values we recommend for the most abundant metals C, N, O, Ne, and Fe are significantly smaller (by 0.2 dex) than those advocated in the widely used compilation of Anders & Grevesse (1989). Most of these differences can be attributed to the improvements over the past two decades in modeling the solar atmosphere, allowing for departures from LTE in the line formation, properly treating blends, and employing improved atomic and molecular data (Section 2). Among other things, these new, lower abundances are supported by the excellent agreement between different abundance indicators for C, N, and O: low-excitation forbidden atomic lines, high-excitation permitted atomic lines, and various molecular features.
+A comparison of the photospheric abundances and the most primitive class of meteorites, the CI chondrites, reveals a very good agreement for nearly all non-volatile elements (Section 4.1). Because the volatile elements, including H, have been depleted in the chondrites, the meteoritic abundance scale has been placed on the same absolute level as the photospheric abundances by enforcing equivalence of the Si abundances. The remaining few elements that suggest a significant difference between meteorites and the Sun can probably be attributed to poor solar determinations, likely owing to incorrect gf-values, unidentified blends, or unaccounted/wrong non-LTE effects.
+In order to make a meaningful comparison between the Sun and the abundances measured in the Solar Neighborhood, one must first correct for the effects of diffusion in the Sun and chemical enrichment in the Galaxy over the past 4.56 Gyr. All elements are predicted to have settled to the solar interior by essentially the same amount, meaning that the bulk, or equivalently the protosolar, composition is higher by 0.04 dex than listed in Table 1 for all elements heavier than He (Section 3.11). Our recommended solar abundances agree very well in general with those measured in nearby OB stars, Hii regions like Orion and the local interstellar medium (Section 4.2). We note that care should be exercised when comparing our solar results with corresponding abundances for late-type stars derived with classical 1D model atmospheres; ideally a differential study of the stars and the Sun should be performed; the solar abundances presented in Table 1 should be used to place them on an absolute scale.
+www.annualreviews.org · The Chemical Composition of the Sun 515
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+In spite of the many apparent successes of the solar chemical composition we recommend here, the outlook is not entirely rosy. With the downward revision of the overall metal content presented here compared to the Grevesse & Sauval (1998) abundances, the previous excellent agreement between predicted sound speeds from standard solar models and those inferred from helioseismology is ruined (Section 4.3). To date, there has been no fully convincing solution put forward. The discordance has been alleviated somewhat relative to the recommended values in Asplund, Grevesse & Sauval (2005), but it nevertheless remains a significant discrepancy in urgent need of resolution.
+5.2. Future Issues
+Although major progress has been made in recent years in the inferred solar chemical composition, there is no question that a great deal of work remains before we can confidently state that each solar elemental abundance is known to better than 0.01 dex (2%). For many, if not most elements, the achieved accuracy today is more like 0.05 dex or indeed significantly worse in many cases. A concerted effort on multiple fronts is required to substantially decrease the remaining uncertainties.
+We do not consider it likely that subsequent generations of 3D hydrodynamical model atmospheres will dramatically (that is, at the >0.1 dex level) amend the inferred solar photospheric chemical composition, given how successful the most recent models are in reproducing key observational diagnostics. It is fair to say that the mean temperature structure of the quiet solar granulation, the velocity distribution, and the atmospheric inhomogeneities are now rather well known, at least in the formation regions of the weaker lines largely employed by the abundance studies described herein. Higher atmospheric layers, to which the strongest atomic and molecular lines are more sensitive, are naturally less constrained observationally; on the modeling side this requires improved radiative transfer treatment and allowance of departures from LTE for key elements. For completeness, one should include the effects of magnetic fields in the 3D solar atmospheric models, but we do not expect that these will noticeably influence the derived abundances (Nordlund, Stein & Asplund 2009).
+The greatest uncertainties afflicting solar abundance work today instead stem from poor atomic and molecular data, as well as incomplete modeling of departures from LTE. Few spectral lines have their transition probabilities determined to better than a few percent. As an example here, it suffices to mention the case of Mg with its relatively simple atomic structure: The majority of the Mgi lines employed here and elsewhere for solar abundance purposes still have quoted uncertainties of 25-50% according to the NIST database, which is clearly unacceptable. Fortunately, there has been some laudable progress on this score in recent years, in terms of both experimental efforts (e.g., Johansson et al. 2003, Blackwell-Whitehead & Bergemann 2007, Lawler et al. 2009) and theoretical calculations (e.g., Kurucz 1992, Plez 1998, Badnell et al. 2005), as discussed in Section 2.2. A major problem, however, is the dearth of atomic physicists devoted to satisfying the astronomical need for various types of input data; the astronomical community ought to better appreciate and encourage the relatively few individuals carrying out this important work, given its tremendous benefit for solar and stellar astrophysics especially. On the wish list are improved gf-values for Mgi, Mgii, Siii, Caii, the once-ionized species of the Fe-peak elements, Cui, and Srii. Also, atomic lines in the IR have great potential given the accurate determination of the continuum and few blends but more often than not accurate transition probabilities are lacking.
+Equally important is the consideration of non-LTE effects on line formation. As discussed by Asplund (2005), even though departures from LTE are expected to be relatively serene in the Sun, one should always expect non-LTE abundance corrections at around the 0.05 dex level;
+516 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+indeed in many cases the effects will be significantly more severe. Still today, most elements have not been exposed to a detailed non-LTE study even in the Sun. Even rarer are solar abundance works going beyond the 1D framework and employing 3D non-LTE calculations (e.g., Asplund, Carlsson & Botnen 2003; Asplund et al. 2004). In part, the scarcity of non-LTE studies is related to a lack of adequate atomic data. Compared to the LTE case, vastly more input data are required in non-LTE calculations than are presently available for most elements. Significant headway will only become possible with the advent of detailed photoionization and collisional cross sections; for the latter, estimates of the impact of both electron and H collisions, as well as other processes like charge transfer, are urgently needed. There is also an issue of manpower; careful non-LTE studies are very time-consuming and there are not enough specialists working in the field to satisfy the demand. Finally, we note that non-LTE line formation should be explored in 3D model atmospheres, because the presence of atmospheric inhomogeneities is generally expected to amplify any existing non-LTE effects seen in 1D.
+A section on future issues in the solar chemical composition would not be complete without stressing the importance of finally resolving the solar modeling problem uncovered by helioseismology (Section 4.3). Many hypotheses have been put forward to explain the discrepancy, but no clear solution has been forthcoming. Until an explanation has been found, a mutual cloud of doubt will always linger over the solar chemical composition recommended here and current models of the solar interior. Whether the problem will be traced in the end to shortcomings in the atmospheric or interior modeling remains to be seen, but whatever the resolution it will place solar and stellar astrophysics--and, by extension, most of astronomy--on a much firmer footing.
+DISCLOSURE STATEMENT
+The authors are not aware of any affiliations, memberships, funding, or financial holdings that might be perceived as affecting the objectivity of this review.
+ACKNOWLEDGMENTS
+We are indebted to our collaborators over the years for their important contribution to uncovering the solar chemical composition. We would particularly like to highlight the contributions of Carlos Allende Prieto, David Lambert, Jorge Mele´ndez, and Tiago Pereira. The work presented here would not have been possible without extensive efforts in solar atmospheric and line-formation modeling by our colleagues Mats Carlsson, Remo Collet, Wolfgang Hayek, Dan Kiselman, A° ke Nordlund, Bob Stein, and Regner Trampedach. We thank Tiago Pereira and Aldo Serenelli for providing figures. Finally, we acknowledge a large number of colleagues around the world for many stimulating discussions, healthy and friendly competition, providing information prior to publication, and invaluable comments on the manuscript and topics discussed herein.
+LITERATURE CITED
+Abia C, Mashonkina L. 2004. MNRAS 350:1127-40 Abrams MC, Goldman A, Gunson MR, Rinsland CP, Zander R. 1996. Appl. Opt. 35:2747-51 Allard NF, Kielkopf JF, Cayrel R, van't Veer-Menneret C. 2008. Astron. Astrophys. 480:581-87 Allende Prieto C, Asplund M, Fabiani Bendicho P. 2004. Astron. Astrophys. 423:1109-17 Allende Prieto C, Barklem PS, Asplund M, Ruiz Cobo B. 2001. Ap. J. 558:830-51 Allende Prieto C, Lambert DL, Asplund M. 2001. Ap. J. Lett. 556:L63-66 Allende Prieto C, Lambert DL, Asplund M. 2002. Ap. J. Lett. 573:L137-40 Anders E, Grevesse N. 1989. Geochim. Cosmochim. Acta 53:197-214
+www.annualreviews.org · The Chemical Composition of the Sun 517
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Anstee SD, O'Mara BJ. 1995. MNRAS 276:859-66 Anstee SD, O'Mara BJ, Ross JE. 1997. MNRAS 284:202-12 Antia HM, Basu S. 2005. Ap. J. Lett. 620:L129-32 Arnett D, Meakin C, Young PA. 2005. See Barnes & Bash 2005, p. 235-46
+Asplund M. 2000. Astron. Astrophys. 359:755-58 Asplund M. 2004. Astron. Astrophys. 417:769-74 Asplund M. 2005. Annu. Rev. Astron. Astrophys. 43:481-530 Asplund M, Carlsson M, Botnen AV. 2003. Astron. Astrophys. 399:L31-34 Asplund M, Grevesse N, Sauval AJ. 2005. See Barnes & Bash 2005, p. 25-38
+Asplund M, Grevesse N, Sauval AJ, Allende Prieto C, Blomme R. 2005. Astron. Astrophys. 431:693-705 Asplund M, Grevesse N, Sauval AJ, Allende Prieto C, Kiselman D. 2004. Astron. Astrophys. 417:751-68 Asplund M, Ludwig HG, Nordlund A° , Stein RF. 2000a. Astron. Astrophys. 359:669-81 Asplund M, Nordlund A° , Trampedach R, Allende Prieto C, Stein RF. 2000b. Astron. Astrophys. 359:729-42 Asplund M, Nordlund A° , Trampedach R, Stein RF. 1999. Astron. Astrophys. 346:L17-20 Asplund M, Nordlund A° , Trampedach R, Stein RF. 2000c. Astron. Astrophys. 359:743-54 Ayres TR. 2008. Ap. J. 686:731-40 Ayres TR, Plymate C, Keller CU. 2006. Ap. J. Suppl. 165:618-51 Badnell NR, Bautista MA, Butler K, Delahaye F, Mendoza C, et al. 2005. MNRAS 360:458-64 Bahcall JN, Basu S, Pinsonneault M, Serenelli AM. 2005. Ap. J. 618:1049-56 Bahcall JN, Basu S, Serenelli AM. 2005. Ap. J. 631:1281-85 Bahcall JN, Serenelli AM. 2005. Ap. J. 626:530-42 Balachandran SC, Bell RA. 1998. Nature 392:791-93 Barklem PS. 2007a. Astron. Astrophys. 462:781-88 Barklem PS. 2007b. Astron. Astrophys. 466:327-37 Barklem PS, Aspelund-Johansson J. 2005. Astron. Astrophys. 435:373-77 Barklem PS, Belyaev AK, Asplund M. 2003. Astron. Astrophys. 409:L1-4 Barklem PS, O'Mara BJ. 2000. MNRAS 311:535-40 Barklem PS, Piskunov N, O'Mara BJ. 2000a. Astron. Astrophys. Suppl. 142:467-73 Barklem PS, Piskunov N, O'Mara BJ. 2000b. Astron. Astrophys. 363:1091-105 Barklem PS, Stempels HC, Allende Prieto C, Kochukhov OP, Piskunov N, O'Mara BJ. 2002. Astron. Astrophys.
+385:951-67
+Barnes TG III, Bash FN, eds. 2005. Cosmic Abundances as Records of Stellar Evolution and Nucleosynthesis, ASP Conf. Ser. Vol. 336. San Francisco, CA: ASP. 378 pp.
+Basu S, Antia HM. 2004. Ap. J. Lett. 606:L85-88 Basu S, Antia HM. 2008. Phys. Rep. 457:217-83 Bell RA, Balachandran SC, Bautista M. 2001. Ap. J. Lett. 546:L65-68 Belyaev AK, Barklem PS. 2003. Phys. Rev. A 68:062703-11 Bensby T, Feltzing S, Lundstro¨ m I, Ilyin I. 2005. Astron. Astrophys. 433:185-203 Bergemann M, Gehren T. 2007. Astron. Astrophys. 473:291--302 Bergemann M. 2008. NLTE in iron-group elements: Analysis of Mn and Co in metal-poor stars. PhD thesis.
+Ludwig-Maximilians-Universita¨t Mu¨ nchen. 144 pp.
+Bie´mont E, Garnir HP, Palmeri P, Li ZS, Svanberg S. 2000. MNRAS 312:116-22 Bie´mont E, Lynga° C, Li ZS, Svanberg S, Garnir HP, Doidge PS. 1999. MNRAS 303:721-26 Blackwell DE, Lynas-Gray AE, Smith G. 1995. Astron. Astrophys. 296:217-32 Blackwell-Whitehead R, Bergemann M. 2007. Astron. Astrophys. 472:L43-46 Bochsler P. 2007. Astron. Astrophys. 471:315-19 Bo¨ hm-Vitense E. 1958. Z. Astrophys. 46:108-43 Boothroyd AI, Sackmann IJ. 2003. Ap. J. 583:1004-23 Brun AS, Turck-Chie`ze S, Zahn JP. 1999. Ap. J. 525:1032-41 Caffau E, Faraggiana R, Bonifacio P, Ludwig HG, Steffen M. 2007a. Astron. Astrophys. 470:699-708 Caffau E, Ludwig HG. 2007. Astron. Astrophys. 467:L11-14 Caffau E, Ludwig HG, Steffen M, Ayres TR, Bonifacio P, et al. 2008a. Astron. Astrophys. 488:1031-46 Caffau E, Maiorca E, Bonifacio P, Faraggiana R, Steffen M, et al. 2009. Astron. Astrophys. 498:877-84
+518 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Caffau E, Sbordone L, Ludwig HG, Bonifacio P, Steffen M, Behara NT. 2008b. Astron. Astrophys. 483:591-98 Caffau E, Steffen M, Sbordone L, Ludwig HG, Bonifacio P. 2007b. Astron. Astrophys. 473:L9-12 Cartledge SIB, Lauroesch JT, Meyer DM, Sofia UJ. 2006. Ap. J. 641:327-46 Castro M, Vauclair S, Richard O. 2007. Astron. Astrophys. 463:755-58 Centeno R, Socas-Navarro H. 2008. Ap. J. Lett. 682:L61-64 Chaplin WJ, Serenelli AM, Basu S, Elsworth Y, New R, Verner GA. 2007. Ap. J. 670:872-84 Charbonnel C, Talon S. 2005. Science 309:2189-91 Chiappini C, Romano D, Matteucci F. 2003. MNRAS 339:63-81 Chmielewski Y, Brault JW, Mu¨ ller EA. 1975. Astron. Astrophys. 42:37-46 Christensen-Dalsgaard J, di Mauro MP, Houdek G, Pijpers F. 2009. Astron. Astrophys. 494:205-8 Collet R, Asplund M, The´venin F. 2005. Astron. Astrophys. 442:643-50 Coplen TB, Bo¨ hlke JK, De Bie`vre P, Ding T, Holden NE, et al. 2002. Pure Appl. Chem. 74:1987-2017 Cunha K, Smith VV. 1999. Ap. J. 512:1006-13 Daflon S, Cunha K. 2004. Ap. J. 617:1115-26 Delahaye F, Pinsonneault MH. 2006. Ap. J. 649:529-40 Delbouille L, Roland G, Brault J, Testerman L. 1981. Photometric atlas of the solar spectrum from 1850 to
+10000 cm-1. Kitt Peak Natl. Obs. and Univ. Lie`ge. 172 pp. Delbouille L, Roland G, Neven L. 1973. Photometric atlas of the solar spectrum from 3000 to 10000 A° . Univ.
+Lie`ge and Obs. R. Belg. 380 pp.
+Den Hartog EA, Lawler JE, Sneden C, Cowan JJ. 2003. Ap. J. Suppl. 148:543-66 Den Hartog EA, Lawler JE, Sneden C, Cowan JJ. 2006. Ap. J. Suppl. 167:292-314 Drake JJ, Testa P. 2005. Nature 436:525-28 Drawin HW. 1968. Z. Phys. 211:404-17 Edvardsson B, Andersen J, Gustafsson B, Lambert DL, Nissen PE, Tomkin J. 1993. Astron. Astrophys. 275:101-
+52 Esteban C, Garc´ia-Rojas J, Peimbert M, Peimbert A, Ruiz MT, et al. 2005. Ap. J. Lett. 618:L95-98 Esteban C, Peimbert M, Garc´ia-Rojas J, Ruiz MT, Peimbert A, Rodr´iguez M. 2004. MNRAS 355:229-47 Fabbian D, Asplund M, Barklem P, Carlsson M, Kiselman D. 2009. Astron. Astrophys. In press (arXiv:
+0902.4472)
+Fabbian D, Asplund M, Carlsson M, Kiselman D. 2006. Astron. Astrophys. 458:899-914 Farmer C, Norton R. 1989. A high-resolution atlas of the infrared spectrum of the sun and the earth atmosphere from
+space. A compilation of ATMOS spectra of the region from 650 to 4800 cm-1 (2.3 to 16 m). Vol. I. The sun. Natl. Aeronaut. Space Adm. 535 pp.
+Feldman U, Widing KG. 2003. Space Sci. Rev. 107:665-720 Fivet V, Quinet P, Palmeri P, Bie´mont E´ , Asplund M, et al. 2009. MNRAS In press Fontenla JM, Avrett E, Thuillier G, Harder J. 2006. Ap. J. 639:441-58 Freytag B, Steffen M, Dorch B. 2002. Astron. Nachr. 323:213-19 Fuhrmann K. 2008. MNRAS 384:173-224 Garc´ia RA, Turck-Chie`ze S, Jime´nez-Reyes SJ, Ballot J, Palle´ PL, et al. 2007. Science 316:1591-93 Garc´ia-Rojas J, Esteban C. 2007. Ap. J. 670:457-70 Gehren T, Liang YC, Shi JR, Zhang HW, Zhao G. 2004. Astron. Astrophys. 413:1045-63 Geiss J, Gloeckler G, von Steiger R. 1994. R. Soc. London Philos. Trans. Ser. A 349:213-26 Gloeckler G, Geiss J. 2000. In The Light Elements and Their Evolution, ed. L da Silva, R de Medeiros, M Spite,
+IAU Symp. 198:224-33 Goldberg L, Mu¨ ller EA, Aller LH. 1960. Ap. J. Suppl. 5:1-137 Gopka VF, Yushchenko AV, Shavrina AV, Andrievsky SM, Chernysheva LV. 2001. Kinemat. Fiz. Nebesnykh
+Tel 17:37-44 Grevesse N, Asplund M, Sauval AJ. 2007. Space Sci. Rev. 130:105-14 Grevesse N, Lambert DL, Sauval AJ, van Dishoeck EF, Farmer CB, Norton RH. 1990. Astron. Astrophys.
+232:225-30
+Grevesse N, Lambert DL, Sauval AJ, van Dishoek EF, Farmer CB, Norton RH. 1991. Astron. Astrophys. 242:488-95
+www.annualreviews.org · The Chemical Composition of the Sun 519
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Grevesse N, Noels A. 1993. In Origin and Evolution of the Elements, ed. N Prantzos, E Vangioni-Flam, M Casse´, pp. 15-25. Cambridge, UK: Cambridge Univ. Press. 561 pp.
+Grevesse N, Sauval AJ. 1998. Space Sci. Rev. 85:161-74 Grevesse N, Sauval AJ. 1999. Astron. Astrophys. 347:348-54 Grevesse N, Sauval AJ, van Dishoeck EF. 1984. Astron. Astrophys. 141:10-16 Gu¨ del M. 2004. Astron. Astrophys. Rev. 12:71-237 Gustafsson B. 2008. Phys. Scr. 130:014036-41 Gustafsson B, Edvardsson B, Eriksson K, Jørgensen UG, Nordlund A° , Plez B. 2008. Astron. Astrophys. 486:951-
+70 Guzik JA, Watson LS, Cox AN. 2005. Ap. J. 627:1049-56 Hall DNB, Noyes RW. 1969. Ap. Lett. 4:143-48 Hall DNB, Noyes RW. 1972. Ap. J. Lett. 175:L95-97 Hannaford P, Lowe RM, Grevesse N, Noels A. 1992. Astron. Astrophys. 259:301-6 Hashizume K, Chaussidon M. 2005. Nature 434:619-22 Haxton WC, Serenelli AM. 2008. Ap. J. 687:678-91 Heber VS, Baur H, Bochsler P, Burnett DS, Reisenfeld DB, et al. 2008. In 39th Lunar and Planetary Institute
+Conf., ed. Lunar and Planet. Inst., 39:1779 (2 pp.) Holmberg J, Nordstro¨ m B, Andersen J. 2008. Astron. Astrophys. In press (arXiv: 0811.3982) Holweger H. 1967. Z. Astrophys. 65:365-417 Holweger H. 2001. In Jt. SOHO/ACE Workshop, Solar and Galactic Composition, ed. RF Wimmer-
+Schweingruber, AIP Conf. Ser, Vol. 598, pp. 23-30. New York: AIP Holweger H, Kock M, Bard A. 1995. Astron. Astrophys. 296:233-40 Holweger H, Mu¨ ller EA. 1974. Solar Phys. 39:19-30 Holweger H, Werner K. 1982. Solar Phys. 81:3-8 Ireland TR, Holden P, Norman MD, Clarke J. 2006. Nature 440:776-78 Jenkins EB. 2004. In Carnegie Observatories Astrophys. Ser. Vol. 4: Origin and Evolution of the Elements, ed. A
+McWilliam, M Rauch, p. 336-53. Cambridge: Cambridge Univ. Press Jensen AG. 2007. Updated interstellar abundance studies and implications for dust models. PhD thesis. Univ. CO,
+Boulder, 302 pp. Jensen AG, Rachford BL, Snow TP. 2005. Ap. J. 619:891-913 Jensen AG, Rachford BL, Snow TP. 2007. Ap. J. 654:955-70 Johansson S, Litze´n U, Lundberg H, Zhang Z. 2003. Ap. J. Lett. 584:L107-10 Ka¨ppeler F. 2005. See Barnes & Bash 2005, pp. 255-68 Kiselman D. 1993. Astron. Astrophys. 275:269-82 Kiselman D. 1997. Ap. J. Lett. 489:L107-10 Kiselman D, Carlsson M. 1996. Astron. Astrophys. 311:680-89 Koesterke L, Allende Prieto C, Lambert DL. 2008. Ap. J. 680:764-73 Korn AJ, Shi J, Gehren T. 2003. Astron. Astrophys. 407:691-703 Kurucz RL. 1992. Rev. Mex. Astron. Astrofis. 23:45-48 Kurucz RL. 1993. In IAU Colloq. 138: Peculiar versus Normal Phenomena in A-type and Related Stars, ed. MM
+Dworetsky, F Castelli, R Faraggiana. ASP Conf. Ser. 44:496-501 Kurucz RL. 2006. High Resolution Irradiance Spectrum from 300 to 1000 nm. Presented at AFRL Transm. Meet.,
+15-16 June, 2005, Lexington, Massachusetts (astro-ph/0605029) Kurucz RL, Furenlid I, Brault J, Testerman L. 1984. Solar flux atlas from 296 to 1300 nm. Natl. Solar Obs.
+Atlas, Sunspot, NM: Natl. Solar Obs. Lambert DL. 1978. MNRAS 182:249-71 Lambert DL, Luck RE. 1978. MNRAS 183:79-100 Lambert DL, Mallia EA, Smith G. 1972. Solar Phys. 26:250-56 Landi E, Feldman U, Doschek GA. 2007. Ap. J. 659:743-49 Lanz T, Cunha K, Holtzman J, Hubeny I. 2008. Ap. J. 678:1342-50 Lawler JE, Bonvallet G, Sneden C. 2001. Ap. J. 556:452-60 Lawler JE, Den Hartog EA, Sneden C, Cowan JJ. 2006. Ap. J. Suppl. 162:227-60
+520 Asplund et al.
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Lawler JE, Hartog EAD, Labby ZE, Sneden C, Cowan JJ, Ivans II. 2007. Ap. J. Suppl. 169:120-36 Lawler JE, Sneden C, Cowan JJ. 2004. Ap. J. 604:850-60 Lawler JE, Sneden C, Cowan JJ, Ivans II, Den Hartog EA. 2009. Ap. J. Suppl. 182:51-79 Lawler JE, Sneden C, Cowan JJ, Wyart JF, Ivans II, et al. 2008. Ap. J. Suppl. 178:71-88 Lawler JE, Wickliffe ME, Cowley CR, Sneden C. 2001a. Ap. J. Suppl. 137:341-49 Lawler JE, Wickliffe ME, Den Hartog EA, Sneden C. 2001b. Ap. J. 563:1075-88 Lellouch E, Be´zard B, Fouchet T, Feuchtgruber H, Encrenaz T, de Graauw T. 2001. Astron. Astrophys.
+370:610-22
+Linsky JL, Draine BT, Moos HW, Jenkins EB, Wood BE, et al. 2006. Ap. J. 647:1106-24 Ljung G, Nilsson H, Asplund M, Johansson S. 2006. Astron. Astrophys. 456:1181-85 Lodders K. 2003. Ap. J. 591:1220-47 Lodders K. 2008. Ap. J. 674:607-11 Lodders K, Palme H, Gail H-P. 2009. Landolt-Bo¨rnstein, New Series in Astronomy and Astrophysics. In press.
+(arXiv: 0901.1149)
+Mahaffy PR, Donahue TM, Atreya SK, Owen TC, Niemann HB. 1998. Space Sci. Rev. 84:251-63 Mashonkina L, Gehren T. 2000. Astron. Astrophys. 364:249-64 Mashonkina L, Gehren T. 2001. Astron. Astrophys. 376:232-47 Mashonkina L, Korn AJ, Przybilla N. 2007. Astron. Astrophys. 461:261-75 McKeegan KD, Kallio AP, Heber VS, Jarzebinski G, Mao PH, et al. 2009. In 40th Lunar and Planetary Science
+Conf., ed. Lunar and Planet. Inst., 40:2494 (2 pp.) Meibom A, Krot AN, Robert F, Mostefaoui S, Russell SS, et al. 2007. Ap. J. Lett. 656:L33-36 Mele´ndez J. 2004. Ap. J. 615:1042-47 Mele´ndez J, Asplund M. 2008. Astron. Astrophys. 490:817-21 Mele´ndez J, Barbuy B. 2009. Astron. Astrophys. 497:611-17 Mihalas D, Da¨ppen W, Hummer DG. 1988. Ap. J. 331:815-25 Montalba´n J, Miglio A, Noels A, Grevesse N, di Mauro MP. 2004. In SOHO 14 Helio- and Asteroseismology:
+Towards a Golden Future, ed. D Danesy. ESA Spec. Publ. 559:574-76 Morel T. 2008. Comm. Asteroseismol. In press. (arXiv: 0811.4114) Morel T, Butler K, Aerts C, Neiner C, Briquet M. 2006. Astron. Astrophys. 457:651-63 Mucciarelli A, Caffau E, Freytag B, Ludwig HG, Bonifacio P. 2008. Astron. Astrophys. 484:841-45 Mu¨ ller EA, Peytremann E, de La Reza R. 1975. Solar Phys. 41:53-65 Neckel H, Labs D. 1984. Solar Phys. 90:205-58 Neckel H, Labs D. 1994. Solar Phys. 153:91-114 Nieva MF, Przybilla N. 2006. Ap. J. Lett. 639:L39-42 Nordlund A. 1982. Astron. Astrophys. 107:1-10 Nordlund A, Stein R, Asplund M. 2009. Living Rev. Solar Phys. 6:1-116 Owen T, Mahaffy PR, Niemann HB, Atreya S, Wong M. 2001. Ap. J. Lett. 553:L77-79 Pagel BEJ. 1997. Nucleosynthesis and Chemical Evolution of Galaxies. Cambridge, UK: Cambridge Univ. Press.
+392 pp.
+Palme H, Beer H. 1993. In Landolt-Bo¨rnstein, Group IV: Astronomy and Astrophysics, ed. HH Voigt, 3:196-221. Berlin: Springer-Verlag
+Pena-Garay C, Serenelli A. 2008. Phys. Rev. Lett. In press. (arXiv: 0811.2424) Plez B. 1998. Astron. Astrophys. 337:495-500 Prantzos N. 2008. In Stellar Nucleosynthesis: 50 Years After B2FH, ed. C Charbonnel, J-P Zahn. EAS Publ. Ser.
+32:369-93
+Przybilla N, Nieva MF, Butler K. 2008. Ap. J. Lett. 688:L103-106 Quinet P, Palmeri P, Bie´mont E´ , Jorissen A, van Eck S, et al. 2006. Astron. Astrophys. 448:1207-16 Ram´irez I, Allende Prieto C, Lambert DL. 2007. Astron. Astrophys. 465:271-89 Reames DV. 1999. Space Sci. Rev. 90:413-91 Reddy BE, Tomkin J, Lambert DL, Allende Prieto C. 2003. MNRAS 340:304-40 Robles JA, Lineweaver CH, Grether D, Flynn C, Egan CA, et al. 2008. Ap. J. 684:691-706 Robrade J, Schmitt JHMM, Favata F. 2008. Astron. Astrophys. 486:995-1002
+www.annualreviews.org · The Chemical Composition of the Sun 521
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Rogers FJ, Nayfonov A. 2002. Ap. J. 576:1064-74 Rosman KJR, Taylor PDP. 1998. J. Phys. Chem. Ref. Data 27:1275-87 Ross JE, Aller LH. 1976. Science 191:1223-29 Russell HN. 1929. Ap. J. 70:11-82 Sauval AJ, Grevesse N, Zander R, Brault JW, Stokes GM. 1984. Ap. J. 282:330-38 Schmelz JT, Nasraoui K, Roames JK, Lippner LA, Garst JW. 2005. Ap. J. Lett. 634:L197-200 Schnabel R, Kock M, Holweger H. 1999. Astron. Astrophys. 342:610-13 Scho¨ nrich R, Binney J. 2009. MNRAS. In press. (arXiv: 0809.3006) Scott P, Asplund M, Grevesse N, Sauval AJ. 2009. Ap. J. Lett. 691:L119-22 Scott PC, Asplund M, Grevesse N, Sauval AJ. 2006. Astron. Astrophys. 456:675-88 Shi JR, Gehren T, Butler K, Mashonkina LI, Zhao G. 2008. Astron. Astrophys. 486:303-10 Shi JR, Gehren T, Zhao G. 2004. Astron. Astrophys. 423:683-91 Short CI, Hauschildt PH. 2005. Ap. J. 618:926-38 Sneden C, Lawler JE, Cowan JJ, Ivans II, Den Hartog EA. 2009. Ap. J. Suppl. 182:80-96 Sobeck JS, Lawler JE, Sneden C. 2007. Ap. J. 667:1267-82 Sofia UJ, Lauroesch JT, Meyer DM, Cartledge SIB. 2004. Ap. J. 605:272-77 Sofia UJ, Meyer DM. 2001. Ap. J. Lett. 554:L221-24 Stein RF, Nordlund A. 1998. Ap. J. 499:914-33 Suess HE, Urey HC. 1956. Rev. Mod. Phys. 28:53-74 Takeda Y, Hashimoto O, Taguchi H, Yoshioka K, Takada-Hidai M, et al. 2005. Publ. Astron. Soc. Jpn. 57:751-68 Takeda Y, Zhao G, Takada-Hidai M, Chen YQ, Saito YJ, Zhang HW. 2003. Chin. J. Astron. Astrophys. 3:316-40 Trampedach R, Da¨ppen W, Baturin VA. 2006. Ap. J. 646:560-78 Turck-Chie`ze S, Couvidat S, Piau L, Ferguson J, Lambert P, et al. 2004. Phys. Rev. Lett. 93:211102 Turcotte S, Wimmer-Schweingruber RF. 2002. J. Geophys. Res. (Space Phys.) 107:1442-51 van Regemorter H. 1962. Ap. J. 136:906-15 Vernazza JE, Avrett EH, Loeser R. 1976. Ap. J. Suppl. 30:1-60 Vitas N, Vince I, Lugaro M, Andriyenko O, Gosic´ M, Rutten RJ. 2008. MNRAS 384:370-75 Vo¨ gler A, Bruls JHMJ, Schu¨ ssler M. 2004. Astron. Astrophys. 421:741-54 Wieler R. 2002. Rev. Mineral. Geochim. 47:21-70 Xu HL, Sun ZW, Dai ZW, Jiang ZK, Palmeri P, et al. 2006. Astron. Astrophys. 452:357-62 Yang WM, Bi SL. 2007. Ap. J. Lett. 658:L67-70 Young PA, Arnett D. 2005. Ap. J. 618:908-18 Young PR. 2005a. Astron. Astrophys. 439:361-66 Young PR. 2005b. Astron. Astrophys. 444:L45-48 Youssef NH. 1986. Astron. Astrophys. 164:395-96 Youssef NH, Doenszelmann A, Grevesse N. 1990. Astron. Astrophys. 239:367-68 Youssef NH, Khalil NM. 1988. Astron. Astrophys. 203:378-80 Zhang HW, Butler K, Gehren T, Shi JR, Zhao G. 2006. Astron. Astrophys. 453:723-27 Zhang HW, Gehren T, Zhao G. 2008. Astron. Astrophys. 481:489-97 Zhao G, Butler K, Gehren T. 1998. Astron. Astrophys. 333:219-30
+522 Asplund et al.
+
+Contents
+
+Annual Review of Astronomy and Astrophysics
+Volume 47, 2009
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+An Astronomical Life Salted by Pure Chance Robert P. Kraft p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 1
+The Hi Distribution of the Milky Way Peter M.W. Kalberla and Jürgen Kerp p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p27
+Progenitors of Core-Collapse Supernovae Stephen J. Smartt p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p63
+Gravitational Waves from Merging Compact Binaries Scott A. Hughes p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 107
+Physical Properties and Environments of Nearby Galaxies Michael R. Blanton and John Moustakas p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 159
+Hot Subdwarf Stars Ulrich Heber p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 211
+High-Contrast Observations in Optical and Infrared Astronomy Ben R. Oppenheimer and Sasha Hinkley p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 253
+Magnetic Reconnection in Astrophysical and Laboratory Plasmas Ellen G. Zweibel and Masaaki Yamada p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 291
+Magnetic Fields of Nondegenerate Stars J.-F. Donati and J.D. Landstreet p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 333
+Star-Formation Histories, Abundances, and Kinematics of Dwarf Galaxies in the Local Group Eline Tolstoy, Vanessa Hill, and Monica Tosi p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 371
+Complex Organic Interstellar Molecules Eric Herbst and Ewine F. van Dishoeck p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 427
+The Chemical Composition of the Sun Martin Asplund, Nicolas Grevesse, A. Jacques Sauval, and Pat Scott p p p p p p p p p p p p p p p p p p p p 481
+Teraelectronvolt Astronomy J.A. Hinton and W. Hofmann p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 523
+vii
+
+Annu. Rev. Astron. Astrophys. 2009.47:481-522. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/23/22. For personal use only.
+
+Gamma-Ray Bursts in the Swift Era N. Gehrels, E. Ramirez-Ruiz, and D.B. Fox p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 567
+Indexes Cumulative Index of Contributing Authors, Volumes 36-47 p p p p p p p p p p p p p p p p p p p p p p p p p p p 619 Cumulative Index of Chapter Titles, Volumes 36-47 p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 622 Errata An online log of corrections to Annual Review of Astronomy and Astrophysics articles may be found at http://astro.annualreviews.org/errata.shtml
+viii Contents
+
+

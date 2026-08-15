@@ -1,0 +1,449 @@
+arXiv:astro-ph/9609110v1 17 Sep 1996
+
+COSMIC RAY INTERACTIONS AND THE ABUNDANCES OF THE CHEMICAL ELEMENTS
+Peter L. Biermann Max-Planck Institute for Radioastronomy,
+D-53010 Bonn, Germany
+Abstract Our Galaxy is the largest nuclear interaction experiment which we know, because of the interaction between cosmic ray particles and the interstellar material. Cosmic rays are particles, which have been accelerated in the Galaxy or in extragalactic space. Cosmic rays come as protons, electrons, heavier nuclei, and their antiparticles. Up to energies up to some tens of TeV of particle energy it is possible to derive chemical abundances of cosmic rays. It has been proposed that cosmic ray particles can be attributed to three main sites of origin and acceleration, a) supernova shocks in the interstellar medium, b) supernova shocks in a stellar wind of the predecessor star, and c) powerful radio galaxies. This proposal leads to quantitative tests, which are encouraging sofar. Quantitative models for transport and interaction appear to be consistent with the data. Li, Be, B are secondary in cosmic rays, as are many of the odd-Z elements, as well as the sub-Fe elements. At very low energies, cosmic ray particles are subject to ionization losses, which produce a steep low energy cutoff; all particles below the cutoff are moved into the thermal material population, and the particles above it remain as cosmic rays. This then changes the chemical abundances in the interstellar medium, and is a dominant process for many
+1
+
+isotopes of Li, Be, B. With a quantitative theory for the origin of cosmic rays proposed, it appears worthwhile to search for yet better spallation cross sections, especially near threshold. With such an improved set of cross sections, the theory of the interstellar medium and its chemical abundances, both in thermal and in energetic particles, could be taken a large step forward.
+1 Introduction
+Before we can use our Galaxy as a tool for the interaction of cosmic rays and thermal material, we need to understand the origin of cosmic rays. The origin of cosmic rays is still a question [41, 47, 29, 30, 36, 40, 6] which is not finally answered; however, already some time ago Cocconi [23] argued convincingly that the very high energy cosmic rays must originate outside our Galactic disk, since their Larmor motion could not be contained. While the questions about the subtleties of cosmic ray acceleration provide ample material for discussion, the debate about the origin of cosmic rays of moderate energy has reached a consensus, that they are produced in the shockwaves of supernova explosions [4, 74, 34, 35, 48, 24, 16, 5, 44, 37, 38], be it into the interstellar medium, or into a stellar wind [80, 75, 8]. However, the origin of the cosmic rays of the highest energy has remained under dispute. Many of the relevant issues here have been dealt with in the excellent review by Hillas (1984 [42]) and in the books by Berezinsky et al. (1990, [6]) and Gaisser (1990, [31]).
+Here we are concerned with the interactions of cosmic rays in the Galaxy, and so we will adopt the picture that indeed the cosmic ray particles originate in the shocks of supernova explosions.
+2
+
+Using this concept (see, e.g. the review by Ginzburg [38]), we will describe recent advances in our theoretical attempt to formulate a quantitative theory for the cosmic rays in the Galaxy. The interaction between energetic particles and the interstellar medium has long been of interest [68, 82]. We observe consequences of such interaction, such as gamma ray emission in lines or in continuum, as well as abundances of some elements and isotopes (see the comprehensive review by Reeves [69] and the account given by Bloemen [18]). A recent example of a new measurement of the Boron isotope ratio, together with a summary of relevant references, has been given in [28]. The detection of gamma ray lines, presumably from excited nuclei after nuclear collisions between energetic particles and interstellar medium nuclei (predicted a long time ago by Meneguzzi & Reeves [50], and Ramaty et al. [59]), from the Orion complex [17] has aroused the interest of many [19, 20, 54, 21, 79]. Especially the group around R. Ramaty has contributed to the discussion, based on their experience with energetic particle interactions in the solar activity regions [59, 60, 61, 62, 63, 64, 65, 66]. The situation has possibly improved, as we will try to demonstrate, since we have now a quantitative proposal to account for the origin of cosmic rays, and while many of the aspects of this proposal remain to be worked out and verified, it may provide a useful basis for further investigations. Therefore here we will try to demonstrate that it will be worthwile to obtain better cross sections for many of these interactions, so that these interactions may become a quantitative tool in the future.
+The structure of this review is as follows: First we briefly summarize the recent proposal to account for the origin of cosmic rays; then we describe some aspects of injection of cosmic rays, and their electromagnetic interaction with the interstellar medium gas; then we go through the arguments for the various interaction sites, near the source and
+3
+
+far from the source; for the latter argument we go through the concept of trapping and leakage from interstellar clouds in some detail, since it is new. Finally we draw some conclusions and stress the importance of better cross sections.
+2 A quantitative proposal for the origin of galactic cosmic rays
+Cosmic rays arrive at earth with energies from several hundred MeV/particle to 3 1020 eV; their spectrum for protons is at GeV energies close to E-2.75, and for He and higher elements close to E-2.65 below a knee at  5 1015 eV, where the spectrum turns down to about E-3.1, to flatten out again near 3 1018 eV, called the ankle (e.g. [49, 51, 89]). The chemical composition is roughly similar to that of the interstellar medium, with reduced hydrogen and helium relative to silicon, and with the same general enhancement of elements of low first ionization potential as we find in solar energetic particles. The low energy end of the observed spectrum is cut off due to interaction with the solar wind. There is reason to believe that in interstellar space the cosmic ray spectrum extends far below what we can observe at Earth.
+In the newly proposed theory (starting with [8]) the origin of the cosmic rays below 3 1018 eV is traced to the shockwaves caused by supernovae exploding either into the interstellar medium, or into the predecessor stellar wind, following some rather classical ideas; the new element is a premise on the particle transport in the shock region, inspired by the observations of the radio polarization in supernova remnants, and the actual motion of radio features, as well as the size of the observed X-ray and radio supernova remnant shells [13]: These data suggest a strongly turbulent interaction region rather than a smooth shock wave, consistent with several arguments which have demonstrated that
+4
+
+cosmic ray influenced shocks are unstable (see [87, 67] and the detailed discussion of this point in [13]). This premise is the principle of the smallest dominant scale, which follows work by Prandtl (1925 [57]) and von Karman & Howarth (1938 [45]): This principle is used to find a length scale and a velocity scale, describing turbulent transport. Applied to supernova shock shells, this principle leads to some fraction of the radius of the spherical shock as a length scale and the velocity difference across the shock as the velocity scale, associated with fast convective shock turbulence, and therefore to a specific model of the transport of particles in the shock region. In the construction of a transport coefficient for energetic particles, then these scales are used, and thus determine, e.g., the time which a particle spends on either side of a shock; this time scale is in turn important for adiabatic losses, which a particle experiences, as well as energy gains by drifts in the electric fields, seen in the moving shock frame, and thus determines the spectrum of the final particle spectrum. This then gives net an appreciable energy loss during the expansion of the supernova shock, and leads to a steepening of the predicted spectrum as compared to the plane-parallel shock case.
+Figure 1. A schematic picture of the proposed three different source sites and their respective contributions (adapted from [77]). There is a contribution from supernovae exploding into the interstellar medium, component 1. The next two components arise from supernovae exploding into a predecessor stellar wind, components 2 and 3; the polar cap contribution, 3, comes from the polar region of the acceleration in wind-supernovae. Finally, component 4 comes from the hot spots of radio galaxies.
+The proposal leads to quantitative predictions for i) the spectra both below and above the knee of the cosmic ray spectrum near 5 1015 eV, where the spectrum turns downwards,
+5
+
+ii) the particle energies of the knee and the various cutoffs, as well as iii) the chemical composition. We have been able to subject these predictions [7, 8, 58] to a variety of tests in various publications (e.g. [78]) and reviewed them as well; the latest overviews of these developments are [10, 13, 14]. We continue to perform further tests using ever more detailed and newer data.
+2.1 Summary of the predictions for nuclei
+The proposal is that three sites of origin account for the cosmic rays observed, i) supernova explosions into the interstellar medium, ISM-SN, ii) supernova explosions into the stellar wind of the predecessor star, wind-SN, and iii) radio galaxy hot spots. Here the cosmic rays attributed to supernova-shocks in stellar winds, wind-SN, produce an important contribution at all energies up to 3 109 GeV.
+Particle energies go up to 100 Z TeV for ISM-SN, and to 100 Z PeV with a bend at 600 Z TeV for wind-SN. Radiogalaxy hot spots contribute up to about 100 EeV at the source, with some sources up to 4 ZeV, = 4 1021 eV [14]. These numerical values are estimates with uncertainties of surely larger than a factor of 2, since they derive from an estimated strength of the magnetic field, and estimated values of the effective shock velocity.
+The spectra are predicted to be E-2.75±0.04 for ISM-SN, and E-2.67-0.02±0.02 for windSN below the knee, and E-3.07-0.07±0.07 for wind-SM above the knee, and E-2.0 at injection for radiogalaxy hot spots. The polar cap of the wind-SN contributes an E-2.33 component (allowing for leakage from the Galaxy), which, however, contributes significantly only near and below the knee, if at all. These spectra are for nuclei and are corrected for leakage from the galaxy.
+The chemical abundances are near normal for the injection from ISM-SN, and are
+6
+
+strongly enriched for the contributions from wind-SN. At the knee the spectrum bends downwards at a given rigidity, and so the heavier elements bend downwards at higher energy per particle. Thus beyond the knee the medium nuclear mass elements dominate all the way to the switchover to the extragalactic component, which is, once again, mostly hydrogen and helium, corresponding to what is expected to be contributed from the interstellar medium of a radiogalaxy, as well as from any intergalactic contribution mixed in [9]. This continuous mix in the chemical composition at the knee already renders the overall knee feature in a spectrum in energy per particle unavoidably quite smooth, a tendency which can only partially be offset by the possible polar cap contribution, since that component also is strongest at the same rigidity, where the bend in the overall spectrum occurs; this term rigidity refers to the factor occurring in the expression for the Larmor radius for any energetic particle, and stands for p/Z, the momentum divided by the charge; thus nuclei at the same rigidity have the same Larmor radius in their gyromotion in a magnetic field.
+2.2 Observational tests
+These predictions can be compared at some detail with data, and we have given adequate comparisons in previous work; a summary of the predictions and tests is given in Table 1, adapted from [11]:
+Table 1. Spectral indices for hydrogen, helium and heavier nuclei.
+7
+
+Experiment
+Predicted
+Webber [81] LEAP [72] JACEE [2] JACEE [2] Sokol [43] Ryan et al. [71] MSU [88] JACEE [3, 2] Japan [46]
+
+Energy Range
+below knee 1-50 GeV 10-100 GeV <40 TeV >40 TeV >5 TeV 50-2000 GeV 10-200 TeV 50-200 TeV 8-50 TeV
+
+element range sp.index
+
+H H + He
+H H H H H H H H
+
+2.75 ± 0.04 2.70 ± 0.05 2.74 ± 0.02 2.64 ± 0.12 3.22 ± 0.28 2.85 ± 0.14 2.75 ± 0.03 3.14 ± 0.08 2.77 ± 0.06 2.82 ± 0.13
+
+predicted
+LEAP [72] RICH [25] Ryan et al. [71] Sokol [43] JACEE [3, 2] Japan [46] Sokol [43] Akeno [51] Akeno [77] Tibet AS [1]
+
+below knee 10-100 GeV 100-1000 GV 50-2000 GeV >5 TeV 50-200 TeV 8-50 TeV >5 TeV < 5 1015 eV below knee < 1014.75 eV
+
+He,..,Fe He He He He He He all all all all
+
+2.67 + 0.02 2.68 ± 0.03 2.64 ± 0.09 2.77 ± 0.05 2.64 ± 0.12 2.67 ± 0.08 2.75 ± 0.15 2.68 ± 0.07 2.62 ± 0.12 2.66 +syst. 2.60 ± 0.04
+
+±0.02
+
+predicted
+HP [49] HP [49] FE [15] Akeno [77] Akeno [51] Tibet AS [1] FE [15] Akeno [51]
+
+above knee < 0.4 1018 eV 0.4 - 4 1018 eV 2 - 4 1017 eV
+above knee 5 1015 eV - 6 1017 eV > 1015.85 eV 2 1017 - 4 1019 eV 6 1017 - 7 1018 eV
+
+all 3.07 + 0.07 ±0.07 all 3.01 ± 0.02 all 3.14 ± 0.06 all 3.07 ± 0.01 all 3.07 +syst. all 3.02 ± 0.03 all 3.00 ± 0.05 all 3.18 ± 0.01 all 3.18 ± 0.08
+
+We note that the error distribution of the prediction below and above the knee, for the
+
+elements He and higher nuclei is asymmetric with respect to the central prediction. The
+
+8
+
+systematic errors inherent in the analysis given in [77], and indicated as such in the Table, cannot be easily quantified, since they arise from the errors in the Monte-Carlo used for the modelling the airshowers; however, the fit to the data is quite acceptable, and so we believe that this systematic error is small. The cutoffs in the three source components and their chemical abundances can be checked using vertical and slanted airshowers, and are all consistent to within 20 % with prediction [77]. The gradual switch from one spectral range to another across the knee is clearly recognizable for the Tibet AS-experiment, for which this energy range is about a factor of 10, consistent with the expected gradual change in chemical composition (see [55, 56, 77]). The last two lines in the Table refer to energy ranges which cover some of the ankle, where the spectrum varies, due to the switch to a new contributor, the expected extragalactic cosmic rays. Here we note also that the cosmic ray spectra of the various chemical elements and electrons can be studied separately, and all are consistent with the predictions in the GeV to TeV range [83, 84]. This is the range of interest here.
+3 Injection of cosmic ray nuclei
+For the elements He,..C, O,.. Fe the injection law can be written as a powerlaw in momentum p
+
+N (p)  p-2.67 dp,
+
+(1)
+
+which extends all the way down to non-relativistic energies. This means that with p = A mp c  , where A is the atomic weight of the nucleus considered, and  and  are the Lorentz-factor and velocity in units of the velocity of light c, the spectrum at sub-
+
+9
+
+relativistic energies can be written as  -2.67 d. The energy loss in interactions with electrons, unbound (then proportional to ne, the
+density of free electrons) or bound in a shell around a hydrogen nucleus (then proportional to nH, the density of neutral hydrogen atoms; heavier elements can normally be neglected here) of the thermal matter can be written as
+ddt  2 ne, nH Z2, (2) where Z is the charge of the energetic nucleus losing energy. This simple behaviour is valid only for suprathermal energies and sub-relativistic speeds (see, e.g. [52]).
+After traversal of thermal matter for some time  the interaction results in a low energy cutoff of the distribution of energetic nuclei, and a law of
+
+ 2 d
+
+(3)
+
+below the cutoff, and the original law above the cutoff. The cutoff energy is given by
+
+crit  {Z2 (ne, nH ) }1/3.
+
+(4)
+
+All the particles which are lost to the energetic particle spectrum below the cutoff are shifted in phase space to the thermal particles, and can modify the chemical abundances there. This effect is especially important in the case that the chemical abundances in energetic particles are very different from those in the interstellar medium, and this is the case for some elements, such as for many isotopes of Li, Be, B.
+The column density along the twisted and scattering path of a charged particle in a highly chaotic magnetic field configuration is referred to as grammage, and this grammage
+
+10
+
+is the relevant quantitity to discuss cosmic ray interactions. This grammage can be inserted into the above expression, and then leads to estimates of the cutoff energies of order 100 MeV for hydrogen and correspondingly more for heavier nuclei.
+4 Spallation of cosmic ray nuclei
+Cosmic ray nuclei can be broken up in collisions with thermal matter; this process is called spallation. Obviously, there is a corresponding interaction between energetic protons, and thermal material comprising heavier nuclei such as Carbon. In such collisions the remaining nuclei can also be excited, and then emit -ray lines.
+There are several sites, which can be distinguished, where spallation is relevant (see, e.g., the recent work in this area [32, 26, 33, 27, 73]):
+4.1 Sites of spallation
+First of all, the massive stars, which explode as supernovae after going through an evolutionary phase accompanied by heavy mass loss, usually have a molecular cloud shell around their wind-zone. When the central star explodes, it gives rise to a powerful shock wave, which races through the wind, and then smashes into the shell [54]; since the shock is loaded with energetic particles, these particles then spallate in the shell. From the abundance of sub-Fe elements one can estimate that the grammage in this shell is of order 1 g/cm2 [85, 86], consistent with the data from radio and millimeter observations. This apparently is the dominant process at higher energy to account for the abundances in cosmic rays for most odd-Z elements, for the sub-Fe elements, and for some Li, Be, and B isotopes.
+In this case the spectrum of the secondary particles Ns is the same as the primary
+11
+
+particles Np:
+
+Ns  Np.
+
+(5)
+
+Next is the interaction in clouds, and here we have to distinguish between the energy range for which the particles move diffusively through a cloud, and the higher energy range, where they move unencumbered through the cloud material. It is this latter approximation which is commonly used in the literature.
+The secondary particles are then created in the clouds, and diffuse out of the galaxy, and so their creation equation can be written as
+
+d Ns = Np - Ns , (6)
+
+dt
+
+s L,gal
+
+where s is the spallation time scale, and L,gal is the time scale for diffusion out from
+
+the disk of the Galaxy. There is a fair amount of evidence that this latter diffusive
+
+transport can be derived from a Kolmogorov spectrum of interstellar turbulence [70, 39].
+
+The evidence for such a law of turbulence in the ISM has been discussed extensively in
+
+[12, 83]. The solution to this equation is in the stationary case
+
+Ns = Np L,gal , (7) s
+which translates to an energy dependence of the ratio of secondary to primary isotopes and elements of
+
+Ns  E-1/3, (8) Np
+
+12
+
+in the case of a Kolmogorov spectrum; here we have neglected for didactic simplicity the energy dependence of the spallation. The ratio of secondary to primary nuclei has been used in the past to argue that in fact the spectrum of interstellar turbulence is not a Kolmogorov law. Since the boron/carbon ratio B/C gives an energy dependence of close to E-0.6 [26, 33, 27], a Kolmogorov law did not seem to be consistent with the data.
+However, this line of argument is only true, if the cloud interaction is stationary; on the other hand we do know that interstellar clouds have their own temporal evolution, and so we need to check what happens when clouds form and dissipate again, e.g. by heating from newly formed stars. The decisive difference to the argument above arises, when we consider the formation of clouds, and we will proceed to do this in the next section.
+4.2 The capture of cosmic rays in clouds
+Here we wish to explore the following concept: The interstellar medium is forming large molecular clouds out of its small fragments and warmer parts. Gravitational instability is a key process in the collapse of clouds or cloud fragments. Gravitational instability sets in, as soon as the time scale for free-free collapse is shorter than the time scale for any pressure signal to propagate through the cloud. This means that the collapse also needs to be faster than the Alfv´en velocity [76]. As a consequence, cosmic rays are trapped upon the formation of a gravitationally bound system, such as a molecular cloud, since cosmic rays cannot stream significantly faster than the Alfv´en velocity [82].
+Trapped cosmic rays can get out of the cloud by diffusion; diffusion is a good approximation only as long as the mean free path for scattering by magnetic irregularities is significantly shorter than the size of the cloud. This entails an upper particle energy limit
+13
+
+for the diffusion approximation. Consider then a particle population of cosmic rays Np,1(E, t) trapped in a cloud, where
+the index 1 stands for inside:
+
+d Np,1 = - Np,1 (9)
+
+dt
+
+L,cl
+
+with
+
+L,cl = L,cl,0 ( E )-1/3. E0
+
+(10)
+
+This energy dependence follows from the concept that small scale turbulence in media,
+
+which are magnetic and partially or fully ionized, can be approximated by a Kolmogorov
+
+law, as discussed above.
+
+The solution is clearly
+
+Np,1 = Np,1,0(E) exp(- t ). L,cl
+
+(11)
+
+The particle population outside the cloud, but coming from inside, is then given by
+
+d Np,2 = + Np,1
+
+dt
+
+L,cl
+
+(12)
+
+which translates to
+
+t(E/E0)1/3
+
+Np,2 = Np,1,0(E){1 - exp(-
+
+)}
+
+L,cl,0
+
+(13)
+
+Secondaries are produced in nucleus-nucleus collisions inside the cloud, and so their
+
+production equation reads
+
+14
+
+d Ns,1 = Np,1 - Ns,1
+
+dt
+
+s
+
+L,cl
+
+(14)
+
+The solution is
+
+Ns,1(E) = Np,1,0(E) t exp(- t ). (15)
+
+s
+
+L,cl
+
+The secondaries outside the cloud are just those produced inside and leaking out, and
+
+so we have the relation
+
+d Ns,2 = + Ns,1 .
+
+dt
+
+L,cl
+
+(16)
+
+The solution to this differential equation is then
+
+Ns,2(E) = Np,1,0(E) L,cl s
+
+x xe-x dx,
+0
+
+(17)
+
+where x = t/L,cl. This entails for long times then
+
+Ns,2(E) = Np,1,0(E) L,cl,0 ( E )-1/3.
+
+s
+
+E0
+
+(18)
+
+Therefore, the secondary particles, injected into the interstellar medium outside the
+
+original cloud, have a spectrum which is steeper than the primary particles by 1/3. Or,
+
+given that the primary particles are well approximated by a spectrum of E-8/3, the
+
+secondary particles at injection have a spectrum of E-3.
+
+Now, considering then also the leakage from the Galaxy generalizes this results and
+
+gives the equilibrium spectrum for secondaries:
+
+d Ns,2 = + Ns,1 - Ns,2 .
+
+dt
+
+L,cl L,gal
+
+15
+
+(19)
+
+The solution then is
+
+Ns,2 = Np,1,0(E) L,cl exp(- t ) (1 - L,cl/L,gal)-2
+
+s
+
+L,gal
+
+where now
+
+x xe-xdx.
+0
+
+(20)
+
+x = t ( 1 - 1 ). (21) L,cl L,gal
+Without loss of generality we can assume that L,cl < L,gal, when the integral converges; in the opposite case a brief calculation confirms also the convergence.
+The next step is to assume that we are at present at no particular time; for each individual source this corresponds of Ns,2 to an integration over past injection time to give Ns,2; the sum over many sources then no longer changes the spectrum, but only the normalization. Clearly, after some long time, the remnants of the cloud are dispersed, but then the residual population of secondaries is no longer significant; this then ensures that the sum over many sources does not diverge. This then means the further integral gives already the proper energy dependence
+
+with
+
+
+
+Np,1,0(E )
+
+-2
+
+Ns,2 =
+
+L,cl(E) L,gal(E) (1 - L,cl/L,gal) I(t),
+
+s
+
+(22)
+
+I(t) =
+
+x e- " x dx x se-sds,
+
+0
+
+0
+
+(23)
+
+where
+
+x" = t/L,gal, 16
+
+x = x L,gal (1/L,cl - 1/L,gal).
+
+(24)
+
+The ratio of x/x is energy independent, since in our concept both the diffusion from the cloud and the leakage from the Galaxy have the same energy dependence. The integral I(t) can be worked out in closed form analytically, and approaches a constant value for reasonable large times x"  1.
+The energy dependence of the secondaries, as compared to the primaries is then clearly
+
+Ns,2/Np,1  E-2/3,
+
+(25)
+
+with our modelling of the interstellar and intracloud turbulence with a Kolmogorov spectrum.
+This is in accord with the observations, such as by Engelmann et al. [27]. This is in contrast to the usual finding that a stationary leaky box gives a ratio of secondary to primaries  E-1/3, if we use a Kolmogorov spectrum for turbulence.
+Therefore, considering the non-stationarity of the normal interstellar medium, we can readily explain the ratio of secondaries to primaries, and at the same time use a spectrum of turbulence which is consistent with all other observational evidence. Key was the use of the gravitational instability condition for the formation of a cloud.
+Translating this result into the language common in the literature, this means that escape length as measured in gm/cm2 and escape time can no longer used synonymously. The escape time is given by L,gal, and is proportional to E-1/3 in the relativistic range of particle energies. The escape length as a means to describe interaction has three different regimes, and the one relevant in the GeV/nucleon range is, as before, about E-0.6, and here, in our simplistic model,  E-2/3.
+
+17
+
+4.3 Energy dependence of secondary/primary ratio
+In the following we adopt for nuclei such as He and higher in mass the primary cosmic ray spectrum of E-7/3 at injection and the Kolmogorov law of turbulence, giving an energy dependence of a diffusive time of E-1/3. Therefore, the energy dependence of the secondary to primary ratio has three simple domains, which can be summarized as follows:
+· The spallation in the molecular cloud shell around exploding massive star winds leads to a ratio of secondary to primary nuclei as a function of energy in the interstellar medium observable of
+
+Ns/Np  const.
+
+(26)
+
+· The spallation in the energy range where trapping occurs for cosmic ray nuclei leads to
+
+Ns/Np  E-2/3.
+
+(27)
+
+· And the higher energy range when the interaction is no longer diffusive, we return to the canonical solution, which in our case gives
+
+Ns/Np  E-1/3.
+
+(28)
+
+A comparison with the data suggests that we discern only regime 1 and 2, and that regime 3 is never a dominant contributor. The data suggest that the switch between regime 1 and 2 occurs near an energy per nucleon of about 20 GeV/n. To repeat, the
+
+18
+
+spallation is described by the first two domains given above, and the escape time corresponds to a E-1/3 law throughout the relativistic particle energy range.
+5 Chemical abundances
+The origin of the chemical elements and their isotopes can be traced to three main source sites (see [68, 69]):
+· The big bang nucleosynthesis accounts readily for H, 4He, 2H, 3He, and 7Li. Deuterium, after some excitement about absorption lines in quasars, seems to be now in agreement given the first measurements in a neighboring galaxy [22]. Thus big bang nucleosynthesis does seem to give a coherent picture of a universe, where only a small fraction of the critical density is made up of normal baryons.
+· Stellar interiors and stellar envelopes provide clearly most heavy elements, spewed into interstellar space in supernova explosions. Some light isotopes such as deuterium are destroyed in the interior of stars.
+· The interactions of cosmic rays with thermal matter can explain a number of features both in the abundance distribution of thermal matter, as well as in the distribution of cosmic rays: First, the even-odd-Z distribution is dissimilar between the interstellar medium and the higher energy cosmic rays, with spallation providing a higher abundance for the odd-Z elements of cosmic rays. Second, the sub-Fe elements in the cosmic rays are also due to spallation. And finally, most isotopes of the elements Li, Be, and B are provided by cosmic ray interaction both in the interstellar medium and in the cosmic rays.
+19
+
+One test [52, 53] is the effect of ionization losses on the low energy protons, which provide also an ionization and heating source in molecular clouds; it is an important test for the entire concept that the cutoff in the proton spectrum due to such losses is consistent with the cutoff in the spallation product spectrum required to explain the abundances of Li, Be, and B in the interstellar medium. This is the case.
+There is a large amount of work yet to be done, to test the detailed concept proposed, in order to account for the chemical abundances in some detail, for the abundances of radioactive isotopes, and for accurate isotope ratios. This will provide stringent tests for this theory as for any other, and may yet disprove it.
+6 Outlook
+Given that a quantitative theory is beginning to show the promise of an explanation for the origin of cosmic rays, it may be worthwile to obtain much better cross sections for the cosmic ray interactions, especially near the critical threshold for any reaction. This would then allow to not only provide a quantitative explanation of the various abundances, but also to actually use them to study both cosmic rays and the interstellar medium.
+Acknowledgments The report is based on much work and help by my present and former graduate stu-
+dents, mostly here Alina and Fanel Donea, Torsten Ensslin, Karl Mannheim, Heino Falcke, Wolfram Kru¨lls, J¨org Rachen, Henning Seemann, Yiping Wang, and Christian Zier, as well as that resulting from my interactions and collaborations with Venya Berezinsky, Jim Cronin, Tom Gaisser, Gopal-Krishna, Hyesung Kang, Phil Kronberg, Jeremy Lloyd-Evans, Hartmut Machner, Matthew Malkan, Hinrich Meyer, Motohiko Nagano, Bi-
+20
+
+man Nath, Ray Protheroe, Reuven Ramaty, Wolfgang Rhode, Marcia and George Rieke, Dongsu Ryu, Eun-Suk Seo, Todor Stanev, Alan Watson, and Barbara Wiebel-Sooth. The new element, the concept of time-dependent trapping in interstellar clouds, was developed during the Calgary conference 1993, and then further evolved in many discussions; I wish to thank the organizers of the Calgary conference and also the organizers of many subsequent conferences for generously inviting me; the meeting MESON96 at Krakow 1996 - where this lecture was given - has been especially stimulating. I thank all my discussion partners and apologize for any errors and omissions which surely remain in the manuscript.
+References
+[1] Amenomori, M. et al.: Astrophys. J. (in press), Preprint ICRR-report-349-95-15 [2] K. Asakimori et al.: 1993 in Proc. 23rd Int. Cosm. Ray Conf. (Calgary) 2, 21 - 24. [3] K. Asakimori: 1993 et al. in Proc. 23rd Int. Cosm. Ray Conf. (Calgary) 2, 25 -28. [4] Baade, W., Zwicky, F.: 1934 Proc. Nat. Acad. Science, 20, no. 5, 259 - 263. [5] Berezhko, E.G., Krymskii, G.F.: 1988 Sov. Phys. Usp. 31, 27 - 51. [6] Berezinskii, V.S., et al.: 1990 Astrophysics of Cosmic Rays, North-Holland, Amsterdam
+(especially chapter IV) [7] Biermann, P.L., Strittmatter, P.A.: 1987 Astrophys.J.J 322, 643 - 649. [8] Biermann, P.L.: 1993 Astron. & Astrophys. 271, 649 - 661 (paper CR I), astro-ph/9301008. [9] Biermann, P.L.: 1993 in Currents in Astrophysics and Cosmology, (Conf. 1990) Eds. G.G.
+Fazio & R. Silberberg, Cambridge Univ. Press, Cambridge, UK, p. 12 - 19. [10] Biermann, P.L.: 1994 in High Energy Astrophysics, Ed. J.M. Matthews, World Scientific,
+Singapore, p. 217 - 286, astro-ph/930505. [11] Biermann, P.L., Gaisser, T.K., Stanev, T.: 1995 Physical Review D 51, 3450 - 3454,
+astro-ph/9501001.
+21
+
+[12] Biermann, P.L.: 1995 in Gamow Jubilee Seminar, Eds. A.M. Bykov, R.A. Chevalier, & D.G. Yakovlev, in Space Science Reviews 74, 385 - 396, astro-ph/9501003.
+[13] Biermann, P.L.: 1996 in Cosmic Winds and the Heliosphere, ed. J.R. Jokipii et al. (University of Arizona Press, Tucson), (in press), astro-ph/9501030.
+[14] Biermann, P.L. 1996 J. of Physics G , (in press) [15] Bird, D.J., et al.: 1994 Astrophys.J. 424, 491 - 502. [16] Blandford, R.D., Eichler, R.D.: 1987 Phys. Rep. 154, 1 - 75. [17] Bloemen, H. et al.: 1994 Astron. & Astroph. Letters 281, L5 - L8. [18] Bloemen, H.: 1995 in Gamow Jubilee Seminar, Eds. A.M. Bykov, R.A. Chevalier, & D.G.
+Yakovlev, in Space Science Reviews 74, 373 - 384. [19] Bozhokin, S.V., Bykov, A.M.: 1994 Astronomy Letters 20, 503 - 507, translat. from Pis'ma
+v Astron. Zh. 20, 593 - 598 [20] Bykov, A.M.: 1995 in Gamow Jubilee Seminar, Eds. A.M. Bykov, R.A. Chevalier, & D.G.
+Yakovlev, in Space Science Reviews 74, 397 - 406. [21] Cass´e, M., Lehoucq, R., Vangioni-Flam, E.: 1995 Nature 373, 318 - 319 (see also p. 286) [22] Chin, Y.-N., et al.: 1996 Astron. & Astroph. Letters (in press), astro-ph/9607053 [23] Cocconi, G.: 1956 Nuovo Cimento, 10th ser. 3, 1433 - 1442. [24] Drury, L.O'C: 1983 Rep. Prog. Phys.J 46, 973 - 1027. [25] J. Dwyer et al.: 1993 in Proc. 23rd Int. Cosm. Ray Conf. (Calgary) 1, 587 - 590. [26] Engelmann, J.J., et al.: 1985 Astron. & Astroph. 148, 12 - 20. [27] Engelmann, J.J., et al.: 1990 Astron. & Astroph. 233, 96 - 111. [28] Federman, S.R., Lambert, D.L., Cardelli, J.A., Sheffer, Y.: 1996 Nature 381, 764 - 766. [29] Fermi, E.: 1949 Phys. Rev. 2nd ser., 75, no. 8, 1169 - 1174. [30] Fermi, E.: 1954 Astrophys.J. 119, 1 - 6. [31] Gaisser, T.K.: 1990 Cosmic Rays and Particle Physics, Cambridge Univ. Press [32] Garcia-Munoz, M., Mason, G.M., Simpson, J.A.: 1977 Astrophys.J. 217, 859 - 877 [33] Garcia-Munoz, M., Simpson, J.A., Guzik, T.G., Wefel, J.P., Margolis, S.H.: 1987 Astro-
+phys.J. Suppl.JJ64, 269 - 304
+22
+
+[34] Ginzburg, V.L.: 1953 Usp. Fiz. Nauk 51, 343 - . See also 1956 Nuovo Cimento 3, 38 - . [35] Ginzburg, V.L.: 1953 Dokl. Akad. Nauk SSSR 92, 1133 - 1136 (NSF-Transl. 230). [36] Ginzburg, V.L., Syrovatskij, S.I.: 1969 The Origin of Cosmic Rays, Gordon and Breach,
+New York [37] Ginzburg, V.L.: 1993 Phys. Usp. 36, 587 - 591. [38] Ginzburg, V.L. 1996 Uspekhi Fizicheskikh Nauk 166, 169 - 183 [39] Goldstein, M.L., Roberts, D.A., Matthaeus, W.H.: 1995 Ann. Rev. Astron. & Astroph.
+33, 283 - 325 [40] Hayakawa, S.: 1969 Cosmic Ray Physics, Wiley-Interscience, New York [41] Hess, V.F.: 1912 Phys. Z. 13, 1084. [42] Hillas, A.M.: 1984 Ann. Rev. Astron. Astrophys. 22, 425 - 444. [43] I.P. Ivanenko et al.: 1993 in Proc. 23rd Int. Cosm. Ray Conf. (Calgary) 2, 17 - 19. [44] Jones, F.C., Ellison, D.C. : 1991 Space Science Rev. 58, 259 - 346. [45] Karman, Th. de, Howarth, L.: 1938 Proc. of the Royal Soc. of London 164, 192 - 214. [46] Y. Kawamura et al.: 1989 Phys. Rev. D40, 729. [47] Kohlh¨orster, W.: 1913 Phys. Z. 14, 1153. [48] Lagage, P.O., Cesarsky, C.J.: 1983 Astron. & Astroph. 118, 223 - 228. [49] Lawrence, M.A., et al.: 1991 J. Phys. G 17, 733 - 757 [50] Meneguzzi, M., Reeves, H.: 1975 Astron. & Astroph. 40, 91 - 98. [51] Nagano, M. et al.: 1992 J. Phys. G 18, 423 - 442 [52] Nath, B.B., Biermann, P.L.: 1993 Monthly Not. Roy. Astr. Soc. 265, 241 - 249, astro-
+ph/9306001. [53] Nath, B.B., Biermann, P.L.: 1994 Monthly Not. Roy. Astr. Soc. 267, 447 - 451, astro-
+ph/9311048. [54] Nath, B.B., Biermann, P.L.: 1994 Monthly Not. Roy. Astr. Soc. 270, L33 - L36, astro-
+ph/9407001. [55] Peters, B.: 1959 Nuovo Cimento Suppl. XIV, ser. X, p. 436 - 456. [56] Peters, B.: 1961 Nuovo Cimento XXII, p. 800 - 819
+23
+
+[57] Prandtl, L.: 1925 Zeitschrift angew. Math. und Mech. 5, 136 - 139. [58] Rachen, J.P., & Biermann, P.L.: 1993 Astron. & Astroph. 272, 161 - 175 (paper UHE CR
+I), astro-ph/9301010.
+[59] Ramaty et al.: 1979 Astrophys. J. Suppl. 40, 487 - 526.
+[60] Ramaty, R.: 1995 The Gamma Ray Sky with COMPTON GRO and SIGMA, Eds. M. Signore, P. Salvati, G. Vedrenne, Dordrecht (Kluwer), p. 279
+[61] Ramaty, R., Kozlovsky, B., Lingenfelter, R.E.: 1995 Astrophys. J. Letters 438, L21 - L24.
+[62] Ramaty, R., Kozlovsky, B., Lingenfelter, R.E.: 1995 17th Texas symposium on relativistic astrophysics and cosmology, Eds. H. Boehringer, G.E. Morfill, J. Truemper, Ann. New York Academy of Sciences, 759, p. 392 - 396.
+[63] Ramaty, R., Lingenfelter, R.E.: 1995 The analysis of emission lines, Eds. R.E. Williams, and M. Livio, Cambridge Univ. Press, p. 180
+[64] Ramaty, R., Kozlovsky, B., Lingenfelter, R.E.: 1996 Astrophys. J. 456, 525 - 540. [65] Ramaty, R.: 1996 Astron. & Astrophys., Proc. COMPTON-Sympos. Munich 1995, in press
+[66] Ramaty, R.: 1996 The Sun and beyond, Proc. Vietnam conf. Oct. 1995, in press
+[67] Ratkiewicz, R., Axford, W.I., McKenzie, J.F.: 1994 Astron. & Astroph. 291, 935 - 942. [68] Reeves, H.: 1974 Ann. Rev. Astron., & Astroph. 12, 437 - 469.
+[69] Reeves, H.: 1994 Rev. of Modern Physics 66, 193 - 216
+[70] Rickett, B.J.: 1990 Ann. Rev.Astron. & Astroph. 28, 561 - 605. [71] M.J. Ryan, J.F. Ormes and V.K. Balasubramanyan: 1972 Phys. Rev. Lett. 28, 985; 28,
+1497 (Erratum).
+[72] E.-S. Seo et al.: 1991 Ap. J. 378, 763 - 772. [73] Shibata, T.: 1995 24th Internat. Cosmic Ray Conf., rapporteur talk, preprint ICRR-343-
+95-9
+[74] Shklovskii, I.S.: 1953 Dokl. Akad. Nauk, SSSR 91, no. 3, 475 - 478 (Lib. of Congress Transl. RT-1495).
+[75] Silberberg, R., et al.: 1990 Astrophys.J. 363, 265 - 269.
+[76] Spitzer. L. Jr.: 1968 Diffuse Matter in Space, Interscience Publishers, Wiley, New York, (especially section 6, and eq. 6-43)
+24
+
+[77] Stanev, T., Biermann, P.L., & Gaisser, T.K.: 1993, Astron. & Astrophys. 274, 902 - 908 (paper CR IV), astro-ph/9303006.
+[78] Stanev, T., et al.: 1995 Phys. Rev. Letters 75, 3056 - 3059, astro-ph/9505093. [79] Vangioni-Flam, E., Cass´e, M., Fields, B.D., Olive, K.A.: 1996 Astrophys. J. submitted [80] V¨olk, H.J., & Biermann, P.L.: 1988 Astrophys.J. Letters 333, L65 - L68. [81] W.R. Webber, R.L. Golden and S.A. Stephens: 1987 in Proc. 20th Int. Cosm. Ray Conf.
+(Moscow) 1, 325. [82] Wentzel, D.G.: 1974 Ann. Rev. Astron. & Astroph. 12, 71 - 96. [83] Wiebel-Sooth, B., Biermann, P.L., Meyer, H.: 1995 Proc. 24th ICRC 3, 45 - 47 [84] Wiebel-Sooth, B., Biermann, P.L., Meyer, H.: 1995 Proc. 24th ICRC 2, 656 - 659. [85] Wiebel-Sooth, B., Biermann, P.L., Meyer, H.: 1996 Astron. & Astroph., (paper CRVII,
+submitted) [86] Wiebel-Sooth, B., Langer, N., Biermann, P.L., Meyer, H.: 1996 Astron. & Astroph., (paper
+CRVIII, to be submitted) [87] Zank, G.P., Axford, W.I., McKenzie, J.F.: 1990 Astron. & Astroph. 233, 275 - 284 [88] V.I. Zatsepin et al.: 1993 in Proc. 23rd Int. Cosm. Ray Conf. (Calgary) 2, 13 - 16. [89] Zatsepin, V.I.: 1995 J. of Phys. G 21, L31 - L34
+25
+
+

@@ -1,0 +1,1755 @@
+THE ASTROPHYSICAL JOURNAL, 556 : 121»140, 2001 July 20
+
+V
+
+( 2001. The American Astronomical Society. All rights reserved. Printed in U.S.A.
+
+THEORETICAL MODELING OF STARBURST GALAXIES
+L. J. KEWLEY, M. A. DOPITA, R. S. SUTHERLAND, C. A. HEISLER,1 AND J. TREVENA
+Research School of Astronomy and Astrophysics, Australian National University, Private Bag, Weston Creek PO, ACT 2611, Australia Received 2000 November 11 ; accepted 2001 March 28
+
+ABSTRACT
+We have modeled a large sample of infrared starburst galaxies using both the PEGASE v2.0 and STARBURST99 codes to generate the spectral energy distribution (SED) of the young star clusters. PEGASE utilizes the Padova group tracks, while STARBURST99 uses the Geneva group tracks, allowing comparison between the two. We used our MAPPINGS III code to compute photoionization models that include a self-consistent treatment of dust physics and chemical depletion. We use the standard optical diagnostic diagrams as indicators of the hardness of the EUV radiation –eld in these galaxies. These diagnostic diagrams are most sensitive to the spectral index of the ionizing radiation –eld in the 1»4 ryd region. We –nd that warm infrared starburst galaxies contain a relatively hard EUV –eld in this region. The PEGASE ionizing stellar continuum is harder in the 1»4 ryd range than that of STARBURST99. As the spectrum in this regime is dominated by emission from Wolf-Rayet (W-R) stars, this discrepancy is most likely due to the dierences in stellar atmosphere models used for the W-R stars. The PEGASE models use the Clegg & Middlemass planetary nebula nuclei (PNN) atmosphere models for the W-R stars, whereas the STARBURST99 models use the Schmutz, Leitherer, & Gruenwald W-R atmosphere models. We believe that the Schmutz et al. atmospheres are more applicable to the starburst galaxies in our sample ; however, they do not produce the hard EUV –eld in the 1»4 ryd region required by our observations. The inclusion of continuum metal blanketing in the models may be one solution. Supernova remnant (SNR) shock modeling shows that the contribution by mechanical energy from SNRs to the photoionization models is >20%. The models presented here are used to derive a new theoretical classi–cation scheme for starbursts and active galactic nucleus (AGN) galaxies based on the optical diagnostic diagrams.
+Subject headings : galaxies : starburst » radiation mechanisms : thermal
+On-line material : color –gures
+
+1. INTRODUCTION
+Observations of starburst galaxies can provide vital insights into the processes and spectral characteristics of massive star formation regions. In such regions the physical conditions are similar to those that existed at the time of collapse and formation of galaxies in the early universe, and they can also provide an understanding of early galaxy evolution. The Infrared Astronomical Satellite (IRAS) made the key discovery of large numbers of infrared luminous galaxies, similar to those found by Rieke & Low (1972). Many of these are dominated by intense star formation (Lutz et al. 1996, 1998 ; Genzel et al. 1998 ; Veilleux et al. 1995 ; Veilleux, Kim, & Sanders 1999) in which the luminosity of the young hot stars heats the surrounding dust, producing large amounts of infrared radiation.
+The theoretical tools required to interpret the spectra of such galaxies are now available. For example, detailed stellar population synthesis models have been developed for both instantaneous and continuous starbursts, and using these models, one is able to derive parameters such as the starburst age and metallicity from the continuous spectrum. In such models, the stellar initial mass function (IMF), star formation rate (SFR), and stellar atmosphere formulations are all adjustable initial parameters.
+The emission-line spectrum of the starburst provides constraints on the physical parameters for the ionized gas and the interstellar medium (ISM) in general. In particular, the gas density, temperature, and pressure can be derived
+1 Deceased, 1999 October 28.
+
+directly from such observations, and the total rates of star formation can be estimated from the luminosity in the Balmer lines of hydrogen for the objects without large quantities of dust at least (e.g., Kennicutt 1998). Using the ionizing UV radiation –elds produced by stellar population synthesis models in conjunction with detailed selfconsistent photoionization models such as MAPPINGS III (Sutherland & Dopita 1993) or CLOUDY (Ferland et al. 1998), we can now generate models for any H II region or starburst. In such models it is vital to include a selfconsistent treatment of dust physics and the depletion of various elements out of the gas phase.
+Since the nebular emission-line spectrum is very sensitive to the hardness of the ionizing EUV radiation, optical line ratio diagnostic diagrams provide an important constraint on the shape of the EUV spectrum, and these may also be used to estimate the mean ionization parameter and metallicity of the galaxies. Such optical diagnostic diagrams were –rst proposed by Baldwin, Phillips, & Terlevich (1981) to classify galaxies into starburst or active galactic nucleus (AGN) type, since AGNs have a much harder ionizing spectrum than hot stars. The classi–cation scheme was revised by Osterbrock & de Robertis (1985) and Veilleux & Osterbrock (1987, hereafter VO87). These revised diagnostics are used here. For both schemes, the line diagnostic tools are based on emission-line intensity ratios that turn out to be particularly sensitive to the hardness of the EUV radiation –eld.
+In an earlier paper (Dopita et al. 2000) we theoretically recalibrated the extragalactic H II region sequence using these line diagnostic diagrams and others, in order to
+
+121
+
+122
+
+KEWLEY ET AL.
+
+Vol. 556
+
+separate and quantify the eects of abundance, ionization parameter, and continuous versus instantaneous burst models. The theoretical H II region models were generated by the MAPPINGS III code, which uses as input the EUV –elds predicted by the stellar population synthesis models PEGASE v2.0 (Fioc & Rocca-Volmerange 1997) and STARBURST99 (Leitherer et al. 1999). Dust photoelectric heating and the gas-phase depletion of the heavy elements were treated in a self-consistent manner. This work found that the high surface brightness isolated extragalactic H II regions are in general excited by young clusters of OB stars and that, in this case, the ionizing EUV spectra and H II region emission-line spectra predicted by the PEGASE and STARBURST99 codes are essentially identical.
+For starburst galaxies, in which the starburst has a luminosity comparable to the luminosity of the host galaxy, the situation is rather dierent. In these objects, intense star formation is likely to continue over at least a galactic dynamical timescale, and therefore the assumption of a continuous rather than an instantaneous burst of star formation would be more accurate. As a consequence, the assumptions that go into the theoretical stellar mass loss formulations and evolutionary tracks are likely to play a much more important role in the modeling. Furthermore, for starbursts continued for more than a few Myr, the WolfRayet (W-R) stars can play an important part in determining both the intensity and shape of the EUV spectrum. For the W-R stars, the uncertain assumptions made about the stellar lifetimes, wind mass loss rates, the velocity law in the stellar wind, and the atmospheric opacities play a critical role in determining the spectral shape and intensity of the emergent EUV —ux predicted by theory.
+In this paper we present new grids of theoretical models (based on the assumption of continuous star formation) that combine H II region models generated by the MAPPINGS III code with input EUV –elds given by the stellar population spectral synthesis models PEGASE 2 and STARBURST99. These models are used in conjunction with our large observational data set described in Kewley et al. (2000, 2001) to place new observational constraints on the shape of the EUV ionizing radiation –eld. Since the two stellar population spectral synthesis codes provide a wide choice of stellar mass loss formulations, evolutionary tracks, and stellar atmospheric transfer models, they provide strikingly dierent predictions about the shape and intensity of the EUV –eld as a function of stellar age. In this paper we use these to separate and quantify the eects of the stellar atmospheric models and the evolutionary tracks used on the optical diagnostic diagrams. In particular, we will show that the models that give the hardest EUV spectrum below the He II ionization limit but have relatively few photons above this limit provide the best empirical –t to the distribution of starburst galaxies on the optical line ratio diagnostic diagrams. These new observational constraints should prove very helpful to theoreticians modeling the late stages of stellar evolution in massive stars.
+This paper is structured as follows. Our observational comparison sample is described in ∞ 2. The stellar population synthesis models used to calculate the EUV ionizing radiation –eld are presented in ∞ 3. Our theoretical starburst models were produced using the photoionization and shock code MAPPINGS III and are described in ∞ 4. W-R emission in our sample of starburst galaxies is discussed in ∞ 5, and the eect of continuum metal opacities on the EUV
+
+ionizing continuum is discussed in ∞ 6. A new theoretical classi–cation scheme for starbursts and AGNs is presented in ∞ 7, and our main conclusions are summarized in ∞ 8.
+2. THE OBSERVATIONAL COMPARISON SAMPLE
+We have selected a large sample of 285 warm IRAS galaxies covering a wide range of infrared luminosities. The warm selection criterion ensures that our sample contains galaxies with either concentrated star formation (Armus, Heckman, & Miley 1989, 1990), AGNs (Miley, Neugebauer, & Soifer 1985), or in many cases, a combination of the two.
+Our sample has been selected from the catalog by Strauss et al. (1992) and consists of all objects south of declination d \ 10° with the additional following criteria :
+1. Flux at 60 km [ 2.5 Jy with moderate- or high-quality detections at 25, 60, and 100 km. less than 30,000 km s~1 for log L [ 11. 2. Redshift less than 8000 km s~1 for log L FIR \ 11 and
+3. Galactic latitude o b o [ 15°FaIRnd declination d \ 10°. 4. Warm FIR colors ; 8 [ F F [ 0.5. 60/F25 [ 0.5 and 2 [ F60/
+100 100 km Here F25, re , F60spectivel , and F1y0.0 These selection criteria ensure are the IRAS —uxes at 25, 60, and that the galaxies in the sample are well resolved and that the sample has a large dynamical range in luminosity, so that luminosity-dependent eects can, in principle, be investigated.
+High-resolution (50 km s~1 at Hb) optical spectra with usable signal-to-noise (S/N) ratios (greater than 3 p) were obtained for 225 of the galaxies in our sample. Spectra were obtained in the red and blue wavelength ranges using the Double Beam Spectrograph on the Mount Stromlo and Siding Springs 2.3 m telescope. Full details of our observations are discussed in Kewley et al. (2000, 2001). All 225 objects were classi–ed into AGN, starburst, and LINER types using new theoretical classi–cation lines on the VO87 diagnostic diagrams. We found 157 starburst galaxies using the VO87 diagrams and semiempirical classi–cation scheme, which provide the primary observational comparison for the starburst spectral modeling presented here.
+We believe that there is little contamination by obscured AGNs in this starburst sample for two reasons. Firstly, in Kewley et al. (2001), we have shown that the optical diagnostic diagrams are extremely sensitive to the presence of an AGN. An AGN that contributes only 20% to the optical emission increases the line ratios sufficiently that it would be classi–ed as an AGN. Secondly, we found very few starwarm colors usually mean that the galax burst galaxies with warm colors (D4 \ F6y0 is /F2e5nergetically \ 8). Since dominated by an AGN, we can conclude that the fraction of obscured AGNs in our starburst galaxies must be low. These results are consistent with the infrared studies of Veilleux et al. (1999) and Genzel et al. (1998), who showed that ultraluminous infrared galaxies classi–ed as starbursts also show a lack of an energetically important AGN.
+3. STELLAR POPULATION SYNTHESIS MODELS
+The models we have utilized are described in detail in Dopita et al. (2000), and we describe them again brie—y here. We have used both the PEGASE 2 and STARBURST99 codes to model the starbursts in our sample. The PEGASE
+
+No. 1, 2001
+
+THEORETICAL MODELING OF STARBURST GALAXIES
+
+123
+
+2 code uses the Lejeune, Cuisinier, & Buser (1997) grid of atmospheres covering the entire Hertzsprung-Russell diagram (HRD) plus Clegg & Middlemass (1987) planetary nebula nucleus (PNN) atmospheres for stars with high eective temperatures (T [ 50,000 K) (hereafter known as the Clegg & Middlemass atmospheres). The Lejeune et al. (1997) grid (hereafter called the Lejeune grid) is derived from three sets of atmosphere calculations, the bulk being the Kurucz (1992) models with smaller specialized cool star models by Fluks et al. (1994) and Bessell et al. (1989, 1991). Lejeune et al. (1997) incorporated observational —ux corrections into these models for a range of stellar temperatures but do not alter the greater than 30 K models of Kurucz (1992). The STARBURST 99 code also uses the planeparallel atmospheric Lejeune grid. For stars with strong winds it oers the choice of the Lejeune grid or the Schmutz, Leitherer, & Gruenwald (1992) extended model atmospheres (hereafter known as the Schmutz atmospheres). The prescription for the switch between extended and plane-parallel atmospheres is the same as in Leitherer & Heckman (1995).
+We calculated models for both the "" standard œœ mass-loss rates and the "" enhanced œœ mass-loss rates described in Leitherer et al. (1999). We found that for the line diagnostic ratios used here, the mass-loss prescriptions agree to within 0.03 dex.
+Both codes follow the theoretical stellar tracks from the zero-age main sequence (ZAMS) to their –nal stages. These stages include the asymptotic giant branch (AGB) and postAGB phases for intermediate-mass stars. The Padova tracks (Bressan et al. 1993) are used in PEGASE 2, and the Geneva tracks (Schaller et al. 1992) are used in STARBURST99. The Padova tracks overshoot for masses tance to t m ∫ 1 M_he pressure scale height and down to lower masses and use a higher ratio of the overshooting disthan the Geneva tracks, which include overshooting only sias, Rogers, above 1.5 M_& Wilson (1992) for the Padova tracks and . Both tracks use the OPAL opacities : IgleRogers & Iglesias (1992) for the Geneva tracks. Both sets of tracks assume similar mixing lengths. Helium contents of 0.28 and 0.30 are used for the Padova and Geneva tracks, respectively. The Padova tracks have a higher resolution in mass and time. Clear dierences between these two sets of tracks (at solar metallicity) can be seen by comparing Figure 5 in Schaller et al. (1992) and Figure 7 in Bressan et al. (1993).
+Assuming a standard IMF, the choices oered by the two spectral synthesis modeling codes allow sufficient —exibility to investigate separately and to quantify the eect that either the stellar atmospheres or the stellar evolutionary tracks have upon the theoretical starburst model line intensity ratios as a function of age. For example, we can run the STARBURST99 code with either the Lejeune atmospheres or the Lejeune plus Schmutz atmospheres to investigate the eect of extended atmospheres, or we could compare the PEGASE v2.0 and STARBURST99 codes to quantify the eect of the dierences between the Padova and the Geneva tracks and the eect of the dierent stellar atmosphere models incorporated into these codes. We are con–dent that this comparison is valid, since in our earlier paper (Dopita et al. 2000) we compared the ionizing EUV spectra and H II region emission spectra predicted by the PEGASE and STARBURST99 codes for zero-age clusters and found these to be essentially identical.
+
+In the modeling of the starburst emission spectra, we distinguish between two limiting cases : an instantaneous star formation case with zero age and a continuous starburst case in which a balance between star birth and star death is set up for all stellar masses that contribute signi–cantly to the EUV spectrum. The hydrogen-burning lifetime Myr, so in practice this condition is satis–ed for an of massive stars is approximately q \ 4.5(M/40 M_y star- )~0.43 burst that lasts longer than about 6 Myr. This gives a dynamical balance between star births and star deaths for time for the W-R stars to produce the all masses greater than about 20 M_ir full contribution to and is also enough the EUV spectrum.
+Figure 1 compares the 0»5 Myr predicted solar metallicity EUV spectra produced by the PEGASE code, which uses the Lejeune stellar atmospheres plus Clegg & Middlemass atmospheres for stars with high eective temperatures (T [ 50,000 K), and the STARBURST99 codes, which use either the Lejeune stellar atmosphere grid or the Lejeune atmospheres plus Schmutz extended model atmospheres. The PEGASE models used range from ages of 0 to 6 Myr, and the STARBURST99 models cover ages of 0»8 Myr. No further evolution in the shape of the EUV spectrum is seen after 6 and 8 Myr for the PEGASE and STARBURST99 models, respectively. Note that the EUV ionizing continua for ages greater than 5 Myr are coincident with the 5 Myr curve (long-dashed line) shown in Figure 1.
+After a few Myr of evolution, quite marked dierences in the EUV spectrum develop. The comparison of Figures 1b and 1c shows that the Schmutz extended atmospheres produce far more ionizing radiation at frequencies above the He II ionization limit than do the Lejeune atmospheres, but the dierences are much less marked at lower energies. The dierences between Figures 1a»1c are due to a combination of the dierent evolutionary tracks and the stellar atmosphere models used. Figures 2 and 3 show the EUV spectra from PEGASE 2 and STARBURST99 for metallicities 0.2 and 2 times solar. We can observe clear dierences in the EUV spectra with increasing metallicity. In particular, the EUV spectrum becomes harder for lower age models. This is expected if high-mass stars are responsible for the EUV –eld in this regime. At higher metallicities, the high-mass stars make a larger contribution to the EUV radiation –eld at younger burst ages. The most likely cause of the dierence between the EUV –elds in Figures 1a»1c is to be found in the dierent stellar atmospheric models used for the high-mass stars, especially for the W-R stars.
+Since it was speci–cally constructed to model starbursts, the STARBURST99 code uses a more theoretically sophisticated approach to modeling the EUV spectrum. In the PEGASE 2 models, stars with eective temperatures greater than 50,000 K (which includes W-R stars) are modeled by the Clegg & Middlemass PNN atmospheres. These stars have much higher surface gravity than W-R stars, and so we would expect the atmospheric blanketing to be quite dierent. In STARBURST99 code, stars with strong stellar winds (which includes W-R stars) are modeled by the Schmutz W-R atmospheres. These include He opacities but do not include heavy-element opacities.
+The EUV spectrum emergent from a W-R model atmosphere depends critically on the fraction of ionizing photons that have been used up to maintain the ionization of the W-R wind region. This is determined by the size of the emission measure of the atmosphere, / n2 dr. This param-
+e
+
+124
+
+KEWLEY ET AL.
+
+Vol. 556
+
+FIG. 1.»Ionizing SED (normalized to the —ux at the Lyman limit) as a function of age of the starburst for (a) the PEGASE models, (b) the Lejeune plus Schmutz atmospheres, and (c) the STARBURST99 models for Lejeune atmospheres. Ionization edges are shown for some elements. Note the rapid initial evolution as the W-R stars evolve and the convergence toward an asymptotic solution when a stochastic balance between star births and star deaths is achieved for all masses that contribute to the EUV continuum. All models produce very similar results at zero age but dier markedly at later times, mainly re—ecting dierences between the extended stellar atmosphere models used (Clegg & Middlemass 1987 for PEGASE and Schmutz et al. 1992 for STARBURST99). Z \ 1 times solar metallicity has been used for this –gure. Note that spectra for ages greater than 5 Myr are coincident with the 5 Myr curve shown here. [See the electronic edition of the Journal for a color version of this –gure.]
+
+eter is proportional to the product (M0 /v )2R~3, where M0 is the mass-loss rate, v is the terminal v=elocit*y of the wind, and R is the photos=pheric radius of the star. This product is the *Schmutz, Hamann, & Wessolowski (1989) density
+
+parameter. Models with the same density parameter display
+very similar emission-line equivalent widths, but the total scaling in luminosity depends on R2 . The density parameter can also be expressed in term*s of a "" transformed
+
+No. 1, 2001
+
+THEORETICAL MODELING OF STARBURST GALAXIES
+
+125
+
+FIG. 2.»As in Fig. 1, except Z \ 0.2 times solar metallicity. Note that spectra for ages greater than 5 Myr are coincident with the 5 Myr curve shown here. [See the electronic edition of the Journal for a color version of this –gure.]
+
+radius,œœ Rt :
+
+A B R \ R v= M0 ref M0 2@3 , t *v ref
+
+(normal where vriezfing) reference mass-loss rate. Again, model is a (normalizing) reference velocity and M0 rsefwith is a
+
+similar values of the transformed radius give similar spectra.
+
+Stars that use a greater fraction of their EUV photons in
+
+maintaining the photoionization of their extended atmospheres would show a lower intensity and a harder EUV spectrum at energies below the He II ionization edge and would be expected to exhibit more atmospheric blanketing by heavy elements.
+4. STARBURST MODELING
+To model the starburst spectrum as a function of age of the exciting stars, metallicity, and ionization parameter, we
+
+126
+
+KEWLEY ET AL.
+
+Vol. 556
+
+FIG. 3.»As in Fig. 1, except Z \ 2 times solar metallicity. Note that spectra for ages greater than 5 Myr are coincident with the 5 Myr curve shown here. [See the electronic edition of the Journal for a color version of this –gure.]
+
+input the ionizing spectrum from both the continuous and instantaneous PEGASE and STARBURST99 models into the MAPPINGS III code. The photoionization modeling carried out with MAPPINGS III for this analysis is described in Dopita et al. (2000) and is described brie—y here. We computed plane-parallel, isobaric models with electron density of 350 cm~3, which is the average electron density of the individual (frequently unresolved) H II regions
+
+within the 1 kpc slit aperture extracted for the starburst
+galaxies in our sample. The electron density was found using the —ux in the [S II] j6716 and [S II] j6731 forbidden
+lines from our spectra in conjunction with a –ve-level model
+atom using MAPPINGS III. Electron densities for the gal-
+axies in our sample can be found in Kewley et al. (2001). The ionization parameter q (cm s~1) is de–ned on the
+inner boundary of the nebula, that is, the boundary nearest
+
+No. 1, 2001
+
+THEORETICAL MODELING OF STARBURST GALAXIES
+
+127
+
+the exciting star. This dimensional ionization parameter can be readily transformed to the more commonly used dimensionless ionization parameter through the identity U 4 q/c.
+Dust physics is treated explicitly through the absorption of the radiation –eld on grains, grain charging, and photoelectric heating by the grains. We do not yet calculate the reemission spectrum of dust in the IR, but this is currently being implemented. The dust model consists of silicate grains (100 \ a \ 1000 A ) and small amorphous organic grains (10 \ a \ 100 A ), with a size distribution following a Mathis, Rumpl, & Nordsieck (1977) power law and spherical geometry. The range of sizes is chosen so as to give depletion factors relative to solar similar to those observed by UV interstellar absorption measurements of stars seen through warm diuse clouds in the local ISM (e.g., Jenkins 1987). The MAPPINGS III dust model also provides the observed absorption per hydrogen atom for solar metallicity (Bohlin, Savage, & Drake 1978) :
+N(H) D 5.9 ] 1021 cm~2 mag~1 . EB~V Photoelectric yields are found using a more conservative yield curve of the same form as Draine & Sutin (1987). Photoelectric grain currents are found using Draine (1978) using the dust absorption data from Laor & Draine (1993). Collisions with electrons and protons are considered assuming the standard "" sticking œœ coefficients, following Draine (1978) and Draine & Sutin (1987). More details of the dust physics in MAPPINGS III can be found in Dopita & Sutherland (2000). The undepleted solar abundances are assumed to be those of Anders & Grevesse (1989) ; these abundances and the depletion factors adopted for each element in the starburst modeling are shown in Table 1. For nonsolar metallicities we assume that both the dust model and the depletion factors are unchanged, since we have no way of estimating what they may be otherwise. All elements except nitrogen and helium are taken to be primary nucleosynthesis elements. It is known that this assumption may be incorrect in systems where the time history of star formation in the galaxy is dierent or where galactic winds are important. For example, the O/Fe ratio is dierent from its solar value in both the LMC and the SMC (Russell & Dopita 1992). Again, we are forced to use the simplest assumptions possible in the absence of a more
+
+TABLE 1
+FACTORS (D) AD SOLAR METALLICITY (Z_OPTED FOR ) AND DEPLETION EACH ELEMENT
+
+Element
+H ................... He . . . . . . . . . . . . . . . . . . C .................... N ................... O ................... Ne . . . . . . . . . . . . . . . . . . Mg . . . . . . . . . . . . . . . . . . Si . . . . . . . . . . . . . . . . . . . S .................... Ar . . . . . . . . . . . . . . . . . . . Ca . . . . . . . . . . . . . . . . . . Fe . . . . . . . . . . . . . . . . . . .
+
+log Z_
+0 [1.01 [3.44 [3.95 [3.07 [3.91 [4.42 [4.45 [4.79 [5.44 [5.64 [4.33
+
+log D
+0 0 [0.30 [0.22 [0.22 0 [0.70 [1.0 0 0 [2.52 [2.0
+
+detailed understanding of the chemical evolution of star-
+
+burst galaxies.
+
+For helium, we assume a primary nucleosynthesis com-
+
+ponent in addition to the primordial value derived from
+
+Russell & Dopita (1992). This primary component is
+
+matched empirically to provide the observed abundances at
+
+the SMC and LMC and solar abundances (Anders &
+
+Grevesse 1989 ; Russell & Dopita 1992). By number, the
+
+He/H ratio is
+
+A B He \ 0.081 ] 0.026 Z .
+H Z_
+
+Nitrogen is assumed to be a secondary nucleosynthesis
+
+element above metallicities of 0.23 solar but a primary
+
+nucleosynthesis element at lower metallicities. This is an
+
+empirical –t to the observed behavior of the N/O ratio in
+
+H II regions (van Zee, Haynes, & Salzer 1997). By number,
+
+A B A B 4[4.57]log Z , log Z π[0.63 ,
+
+A B 0 log N \5
+
+Z_ Z_
+
+A B H [3.94]2 log Z , otherwise .
+
+06 Z_
+
+The ionization parameter was varied from q \ 5 ] 106 to
+
+3 ] 108 cm s~1, and the metallicities varied from 0.01 to 3
+
+solar for PEGASE and from 0.05 to 2 solar for
+
+STARBURST99. The metallicity values used are restricted
+
+by the stellar tracks used by the population synthesis
+
+models.
+
+4.1. Instantaneous Models
+Figure 1 shows that, because of the absence of W-R stars, the use of similar ZAMSs, and the use of identical model atmospheres for massive stars, the shape of the EUV spectrum for both the PEGASE 2 and STARBURST99 models is almost identical for instantaneous burst models at zero age. As a consequence, they produce almost identical optical line ratios in the photoionization models. The results from these models are compared with the observational data set on the VO87 line ratio diagnostic diagrams in Figures 4, 5, and 6. Note that the major problem seen with these models is that many starburst galaxies are found in a region lying above and to the right of the "" fold œœ in the ionization parameter»metallicity surface. This presents a problem, since these points lie in a "" forbidden zone œœ of line ratio space that cannot be reached by any combination of metallicity or ionization parameter. The only way to create models that fall into this region of the diagnostic diagrams is either to mix in another type of excitation, i.e., shocks or a power-law ionizing radiation –eld, or simply to use a harder EUV ionizing spectrum, particularly in the 1»4 ryd region.
+In any event, we should not be too surprised that the instantaneous models do not provide a very good –t to the observed starbursts, since many of these objects are seen in merging pairs of galaxies, and in this case we would theoretically expect star formation to continue over a galactic dynamical timescale. Thus, massive clusters associated with individual (usually unresolved) H II regions should have a wide variety of ages. Direct evidence for continuous star formation, or older H II regions, is seen in many of our starburst spectra. These show either a low equivalent width in Hb (which often indicates dilution by an older stellar
+
+128
+
+KEWLEY ET AL.
+
+Vol. 556
+
+(a) - Pegase (instantaneous burst model, Padova tracks)
+1.5
+
+LOG ([OIII]/H)
+
+1.0 Z=0.2 Z=0.5 Z=0.1
+
+0.5
+
+q=3e8
+
+q=1.5e8
+
+q=8e7
+
+q=4e7 0.0
+q=2e7
+
+Z=1.5
+
+-0.5
+
+q=1e7
+
+Z=2.0
+
+-1.0
+Starburst
+
+q=5e6
+
+-1.5 AGN
+LINER
+Ambiguous
+-2.0
+
+Z=3.0
+
+-2
+
+-1
+
+0
+
+1
+
+LOG ([NII]/H)
+
+(b) - Starburst99 (instantaneous burst model, Geneva tracks)
+1.5
+
+LOG ([OIII]/H)
+
+1.0
+
+q=3e8
+
+0.5
+
+1.5e8 q=8e7
+
+0.0
+
+q=4e7
+
+q=2e7
+
+-0.5 q=1e7
+
+Z=0.4
+
+-1.0
+
+Z=0.2
+
+q=5e6 Z=0.05
+
+Z=1.0
+
+-1.5 Z=2.0
+
+-2.0
+
+-2
+
+-1
+
+0
+
+1
+
+LOG ([NII]/H)
+
+FIG. 4.»VO87 diagnostic diagram log [N II]/Ha vs. log [O III]/Hb for (a) the instantaneous zero-age starburst models based on the PEGASE SED and (b) instantaneous zero-age starburst models based on the STARBURST99 SED with Lejeune plus Schmutz atmospheres. The theoretical grids of ionization parameter and chemical abundance are shown in each case. [See the electronic edition of the Journal for a color version of this –gure.]
+
+population) or clear evidence of Hb absorption in the stellar continuum. Both of these indicate that star formation has continued over at least several Myr (Gonza lez Delgado & Leitherer 1999). Further support for continuous star formation models is provided by Goldader et al. (1997), who found that instantaneous burst models imply an unrealistically short range of ages for their sample of luminous infrared galaxies.
+In Dopita et al. (2000), we showed that the line ratio usually used for measuring the ionization parameter, [O III] j5007/[O II] jj3726, 9, is indeed a good diagnostic and that the [N II] j6584/[O II] jj3726, 9 ratio gives the best diagnostic of abundance, as it is monotonic between 0.1 and over 3.0 times solar metallicity. The wavelength range of our spectra was not sufficient for us to observe [O II] ; however, we present the grids of the instantaneous models for the [N II] jj6548, 84/[O II] jj3726, 9 versus [O III]
+
+j5007/Hb diagram and the [N II] jj6548, 84/[O II] jj3726, 9 versus [O III] j5007/[O II] jj3726, 9 in Figures 7 and 8 for the use of the astronomical community.
+4.2. Continuous Models
+As we have seen, when star formation continues over several Myr, the ionizing spectrum evolves until a dynamic balance between stellar births and stellar deaths has been set up for all initial stellar masses, which are important in producing EUV photons. This occurs after 6 and 8 Myr for the PEGASE and STARBURST99 models, respectively, and so these cluster ages were assumed for the continuous star formation models presented in this section.
+The results for the continuous models shown on the VO87 line ratio diagnostic diagrams are presented in Figures 9»11 for the PEGASE 2 models with (a) the Lejeune plus Clegg & Middlemass PNN model atmospheres, (b) the
+
+No. 1, 2001
+
+THEORETICAL MODELING OF STARBURST GALAXIES
+
+129
+
+(a) - Pegase (instantaneous burst model, Padova tracks)
+1.5
+
+LOG ([OIII]/H)
+
+1.0 Z=0.2 Z=0.5 Z=0.1
+0.5 q=3e8 q=1.5e8 q=8e7 q=4e7
+0.0 q=2e7
+
+-0.5
+
+q=1e7
+
+-1.0
+Starburst
+
+q=5e6
+
+Z=1.0
+
+-1.5 AGN
+LINER
+Ambiguous
+-2.0
+
+Z=3.0
+
+Z=1.5 Z=2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+LOG ([SII]/H)
+
+(b) - Starburst99 (instantaneous burst model, Geneva tracks)
+1.5
+
+LOG ([OIII]/H)
+
+1.0
+
+q=3e8
+
+0.5
+
+1.5e8
+
+q=8e7
+
+0.0
+
+q=4e7
+
+q=2e7 -0.5
+q=1e7
+
+-1.0 q=5e6 Z=0.05
+-1.5
+
+Z=0.4 Z=0.2 Z=1.0
+
+Z=2.0 -2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+LOG ([SII]/H)
+
+FIG. 5.»As in Fig. 4 but for the diagram log [S II]/Ha vs. log [O III]/Hb. [See the electronic edition of the Journal for a color version of this –gure.]
+
+STARBURST99 models with the Lejeune plus Schmutz model atmospheres, and (c) the STARBURST99 models with the Lejeune atmospheres.
+Let us –rst consider the two sets of STARBURST99 models. The dierences seen here simply re—ect the dierences in the stellar atmospheric models. The Lejeune plus Schmutz model atmospheres show little change in spectral slope between 1 and 3 ryd as a function of cluster age. It is therefore not surprising that these continuous star formation models give very similar results to the zero-age instantaneous models of Figures 4»8. In these continuous star formation models the W-R stars provide a radiation –eld of appreciable strength above the He II ionization limit (e.g., 4»8 ryd in Figs. 1»3). In this case, we might expect to detect He II lines in the optical spectrum. The detection of a nebular He II j4686 line would provide an important observational diagnostic in support of the Schmutz extended atmospheric modeling and is discussed in ∞ 5.
+
+These models with Schmutz extended atmospheres have exactly the same difficulty in explaining the position of the observed points as do the instantaneous models, in that the model grid fails to overlap about half of the observed points, indicating the need for a harder ionizing spectrum than these tracks and atmospheres provide.
+The second of the STARBURST99 grids, for continuous starbursts using the Geneva tracks along with the Lejeune atmospheres, provides an even softer radiation –eld in the 1»4 ryd energy range. In this case, the theoretical grid falls below and to the left of the majority of the observed points on all three of the VO87 plots. This combination of tracks and atmospheres is therefore excluded with a good degree of certainty.
+Finally, consider the PEGASE 2 models, which use the Padova tracks with the Lejeune plus Clegg & Middlemass PNN extended atmospheres. These models are characterized by the hardest radiation –eld in the 1»4 ryd region and
+
+130
+
+KEWLEY ET AL.
+
+Vol. 556
+
+(a) - Pegase (instantaneous burst models, Padova tracks)
+1.5
+
+LOG ([OIII]/H)
+
+1.0
+
+Z=0.2
+
+Z=0.1
+
+0.5
+
+q=3e8
+
+q=1.5e8
+
+q=8e7
+
+q=4e7
+
+0.0
+
+q=2e7
+
+-0.5
+
+q=1e7
+
+Z=0.5
+
+-1.0
+
+Z=1.0
+
+q=5e6
+
+-1.5
+Z=3.0 -2.0
+
+Z=1.5 Z=2.0
+
+-3.0
+
+-2.5
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+LOG ([OI]/H)
+
+(b) - Starburst99 (instantaneous burst models, Geneva tracks)
+1.5
+
+LOG ([OIII]/H)
+
+1.0
+
+q=3e8
+
+0.5
+
+q=1.5e8
+
+q=8e7
+
+0.0
+
+q=4e7
+
+q=2e7
+
+-0.5
+
+q=1e7
+
+Z=0.4
+
+-1.0
+Starburst
+-1.5 AGN LINER
+
+q=5e6 Z=0.05
+
+Z=0.2 Z=1.0
+
+Ambiguous
+-2.0
+
+Z=2.0
+
+-3.0
+
+-2.5
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+LOG ([OI]/H)
+
+FIG. 6.»As in Fig. 4 but for the diagram log [O I]/Ha vs. log [O III]/Hb. [See the electronic edition of the Journal for a color version of this –gure.]
+
+are the only ones that show the spectrum becoming harder as the W-R stars turn on. This is a direct consequence of the Clegg & Middlemass PNN atmosphere models used for stars with eective temperatures greater than 50,000 K. These are the only models that encompass nearly all of the observed starbursts on all three of the VO87 line diagnostic plots. Furthermore, individual objects fall into similar regions of the theoretical grid in all three diagnostic plots, indicating that there is some degree of consistency achieved here. In essence, the ionization parameter appears to be limited to the range 6 ] 106 Z q Z 6 ] 107, and the metallicity seems to cover most of the range, from about 0.2 up to nearly 3 times solar. However, the low-metallicity objects appear to be rather rare in our sample, and most of the starbursts are consistent with a metallicity 1»3 times solar.
+We present the grids of the continuous models for the [N II] jj6548, 84/[O II] jj3726, 9 versus [O III] j5007/Hb diagram and the [N II] jj6548, 84/[O II] jj3726, 9 versus [O III] j5007/[O II] jj3726, 9 in Figures 12 and 13 for the use of the astronomical community.
+4.3. Shock Excitation from Supernovae
+The starburst models presented here are based on pure photoionization models and therefore do not incorporate
+
+the eect of mechanical luminosity from supernova shocks. The primary eect of the release of mechanical energy through shocks is to move the theoretical grids upward, and slightly to the right on the VO87 line ratio diagnostic plots. The size of this eect depends on the relative importance of the shock and photoionization luminosity. by supernova events and winds is converted in The input mechanical energy luminosity E0 mteochoptical line produced emission through radiative shocks. The importance of this line emission relative to that produced by photoionization depends on the fraction of this energy, v, that has been converted to Hb —ux compared to the Hb —ux produced by recombinations in the photoionized plasma :
+L Hb(shock) \ vE0 mech , (1) L Hb(photo) aeff hlHb S* hydrogen where aeffand S is the number of ionizing photons being is the eective recombination coefficient of produced by the*hot stars in the cluster. In the case of a supernova remnant (SNR), the shock becomes radiative, and the Sedov-Taylor (adiabatic) expanbecomes shorter than the dynamical expansion timesc sion phase is terminated when its cooling timescale, qcaoolle, of the shell, qexp. From standard Sedov-Taylor theory,
+
+No. 1, 2001
+
+THEORETICAL MODELING OF STARBURST GALAXIES
+
+131
+
+(a) - Pegase (instantaneous burst model, Padova tracks)
+1.5
+
+LOG ([OIII]/H)
+
+1.0
+q=3e8 0.5 q=1.5e8
+q=8e7 q=4e7 0.0
+q=2e7
+
+-0.5
+
+q=1e7
+
+Z=0.5
+
+Z=1.0
+
+Z=1.5 Z=2.0
+
+-1.0
+
+Z=0.2
+
+q=5e6 Z=0.1
+
+-1.5
+
+Z=3.0
+
+-2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+LOG ([NII]/[OII])
+
+(b) - Starburst99 (instantaneous burst model, Geneva tracks)
+1.5
+
+LOG ([OIII]/H)
+
+1.0
+
+q=3e8
+
+0.5
+
+q=1.5e8
+
+q=8e7
+
+0.0
+
+q=4e7
+
+q=2e7
+
+-0.5 q=1e7
+-1.0 Z=0.2 Z=0.4 q=5e6 Z=0.05
+
+-1.5
+
+Z=1.0
+
+Z=2.0 -2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+LOG ([NII]/[OII])
+
+FIG. 7.»As in Fig. 4 but for the diagram log [N II]/[O II] vs. log [O III]/Hb. We do not have [O II] observations for the galaxies in our sample, but we provide this diagram for the use of the astronomical community. [See the electronic edition of the Journal for a color version of this –gure.]
+
+LOG ([OIII]/[OII])
+
+(a) - Pegase (instantaneous burst model, Padova tracks)
+1.5
+
+Z=0.1, 0.2
+
+1.0
+
+q=3e8
+
+Z=0.5
+
+q=1.5e8 0.5
+q=8e7
+
+Z=1.0
+
+Z=1.5
+
+0.0
+
+q=4e7
+
+Z=2.0
+
+-0.5
+
+q=2e7
+
+q=1e7 -1.0
+
+Z=3.0
+
+q=5e6 -1.5
+
+-2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+LOG ([NII]/[OII])
+
+(b) - Starburst99 (instantaneous burst model, Geneva tracks)
+
+1.5
+
+q=3e8
+
+Z=0.05, 0.2
+
+1.0
+
+q=1.5e8
+
+Z=0.4
+
+q=8e7
+
+Z=1.0
+
+0.5
+
+q=4e7
+0.0 q=2e7
+
+Z=2.0
+
+-0.5 q=1e7
+
+-1.0 q=5e6
+
+-1.5
+
+-2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+LOG ([NII]/[OII])
+
+LOG ([OIII]/[OII])
+
+FIG. 8.»As in Fig. 4 but for the diagram log [N II]/[O II] vs. log [O III]/[O II]. We do not have [O II] observations for the galaxies in our sample, but we provide this diagram for the use of the astronomical community. [See the electronic edition of the Journal for a color version of this –gure.]
+
+thq eexpshock w \ R/vsave velocity, and t is the time since the sup \ 5t/2, where R is the radius of the SNR, vser-is nova explosion. The radiative shock wave theory of Dopita & Sutherland (1996) shows that the cooling timescale, in yr, can be expressed as
+
+v4.4
+
+q D 200 100 ,
+
+(2)
+
+cool
+
+Zn
+
+the met where v1a0ll0icity of the plasma relative to solar, and n is the is the shock velocity in units of 100 km s~1, Z is
+preshock density. We therefore –nd that, with n D 350 cm~3, an SNR typically becomes radiative at a radius of 1 pc, when the shock velocity is 600 km s~1. At this point, the SNR is D600 yr old, and its expansion timescale is
+D1500 yr.
+We therefore used a shock model with a velocity of 600 km s~1 in a spherical nebula of solar metallicity and n D 350 cm~3 to calculate the possible contribution by SNRs to our photoionization models. We assumed a total mechanical luminosity in SNRs of 6 ] 1041 ergs s~1 M~1 yr~1 (Leitherer et al. 1999). We calculated a star formati_on bursts in our sa rate of D3.4 M_mple, following the prescri yr~1 from the average L IpRtion given in for the star-
+nicutt 1998). Assuming that the Kennicutt (1998) (note that L IRIR luminosity is is de–ned as L FdIRistributed in Ken-
+evenly throughout the galaxy and a minimum size of 7 kpc, aperture. We note that this is the SFR reduces to D0.07 M_still higher than that found yr~1 in the observed 1 kpc
+using the Ha luminosity of our template starburst (within
+
+expected as dust absorption will redu the 1 kpc aperture) of D0.04 M_ce the Ha-derived SFR yr~1. This is to be compared with that derived using the FIR luminosity. We computed a 600 km s~1 shock model and a spherical ionized precursor with a shocked spherical radius of 1 pc. This model has a mechanical luminosity of 3.6 ] 1039 ergs s~1. As we expect the total mechanical luminosity to be D4 ] 1040 ergs s~1, we expect to obtain on average 11.2 SNRs within our 1 kpc aperture at any one time. The luminosities produced in the shock with precursor are given in Table 2.
+From this SNR model, the contribution to Hb emission in the starbursts due to SNRs would be about 16%»20%. The contribution to the Hb —ux from starbursts is determined more or less directly by the star formation history and the IMF. The contribution to Hb from SNRs is determined by the velocity and the total area covered by the
+
+TABLE 2
+LUMINOSITY EXPECTED FROM A 600 km s~1 SHOCK WITH A SPHERICAL PRECURSOR OF 1 pc
+
+Species
+[O III] . . . . . . . . . . . . . . . Hb . . . . . . . . . . . . . . . . . . . Ha . . . . . . . . . . . . . . . . . . .
+
+L (ergs s~1)
+2.5 ] 1039 3.3 ] 1038 9.8 ] 1040
+
+LOG ([OIII]/H)
+
+(a) - Pegase (Lejeune + Clegg & Middlemass atm, Padova tracks)
+1.5
+
+1.0
+
+Z=0.2
+
+Z=0.5
+
+Z=0.1
+
+0.5
+
+q=3e8 q=1.5e8
+
+q=8e7
+
+q=4e7
+
+0.0
+
+q=2e7
+
+-0.5
+
+q=1e7
+
+-1.0
+
+q=5e6
+
+Starburst
+
+-1.5 AGN LINER
+
+Ambiguous -2.0
+
+-2
+
+-1
+
+LOG ([NII]/H)
+
+Z=1.0 Z=1.5 Z=2.0
+Z=3.0
+
+0
+
+1
+
+(b) - Starburst99 (Lejeune + Schmutz atm, Geneva tracks)
+1.5
+
+1.0
+
+0.5 q=3e8
+
+q=1.5e8
+
+0.0
+
+q=8e7
+
+q=4e7
+
+q=2e7
+-0.5
+
+q=1e7
+-1.0
+
+-1.5 q=5e6 Z=0.05
+
+Z=0.2
+
+Z=0.4
+
+Z=1.0 Z=2.0
+
+-2.0
+
+-2
+
+-1
+
+0
+
+1
+
+LOG ([NII]/H)
+
+(c) - Starburst99 (Lejeune atm, Geneva tracks)
+1.5
+
+1.0
+
+LOG ([OIII]/H)
+
+LOG ([OIII]/H)
+
+0.5
+
+q=3e8
+
+q=1.5e8
+
+0.0
+
+q=8e7
+
+q=4e7 -0.5 q=2e7
+
+-1.0
+
+q=1e7
+
+Z=0.2 Z=0.4
+
+-1.5
+q=5e6 Z=0.05
+-2.0
+
+Z=1.0
+
+Z=2.0
+
+-2
+
+-1
+
+0
+
+1
+
+LOG ([NII]/H)
+
+FIG. 9.»VO87 diagnostic plot log [N II]/Ha vs. log [O III]/Hb for (a) the continuous starburst models based on the PEGASE SED, (b) continuous starburst models based on the STARBURST99 SED with Lejeune plus Schmutz atmospheres, and (c) continuous starburst models based on the STARBURST99 SED with Lejeune atmospheres. The theoretical grids of ionization parameter and chemical abundance are shown in each case. [See the electronic edition of the Journal for a color version of this –gure.]
+
+132
+
+LOG ([OIII]/H)
+
+(a) - Pegase (Lejeune + Clegg & Middlemass atm, Padova tracks)
+1.5
+
+1.0
+
+Z=0.2 Z=0.5
+
+Z=0.1
+
+0.5 q=3e8 q=1.5e8 q=8e7 q=4e7
+
+0.0
+
+q=2e7
+
+-0.5
+
+q=1e7
+
+Z=1.0 Z=1.5 Z=2.0
+
+-1.0
+
+q=5e6
+
+Z=3.0
+
+Starburst
+
+-1.5 AGN LINER
+
+Ambiguous -2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+LOG ([SII]/H)
+
+(b) - Starburst99 (Lejeune + Schmutz atm, Geneva tracks)
+1.5
+
+1.0
+
+q=3e8
+0.5
+
+q=1.5e8
+
+0.0
+
+q=8e7
+
+q=4e7
+
+-0.5
+
+q=2e7
+
+q=1e7
+-1.0
+
+-1.5 q=5e6 Z=0.05
+
+Z=1.0 Z=0.2 Z=0.4
+Z=2.0
+
+-2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+LOG ([SII]/H)
+
+(c) - Starburst99 (Lejeune atm, Geneva tracks)
+1.5
+
+1.0
+
+LOG ([OIII]/H)
+
+LOG ([OIII]/H)
+
+0.5 q=3e8
+
+q=1.5e8
+
+0.0
+
+q=8e7
+
+q=4e7
+
+-0.5 q=2e7
+
+-1.0
+
+Z=2.0 q=1e7
+
+Z=0.4 Z=0.2
+
+-1.5
+
+Z=1.0
+
+q=5e6 Z=0.05
+
+-2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+LOG ([SII]/H)
+
+FIG. 10.»As in Fig. 9 but for the plot log [S II]/Ha vs. log [O III]/Hb. [See the electronic edition of the Journal for a color version of this –gure.]
+
+133
+
+(a) - Pegase (Lejeune + Clegg & Middlemass atm, Padova tracks)
+1.5
+
+LOG ([OIII]/H)
+
+1.0
+
+Z=0.2 Z=0.5
+
+Z=0.1
+
+0.5
+
+q=3e8
+
+q=1.5e8
+
+q=8e7
+
+q=4e7
+
+0.0
+
+q=2e7
+
+-0.5 q=1e7 Z=1.5Z=1.0 Z=2.0
+
+-1.0 Starburst
+
+q=5e6 Z=3.0
+
+-1.5 AGN LINER
+
+Ambiguous -2.0
+
+-3.0
+
+-2.5
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+LOG ([OI]/H)
+
+(b) - Starburst99 (Lejeune + Schmutz atm, Geneva tracks)
+1.5
+
+LOG ([OIII]/H)
+
+1.0
+
+q=3e8
+0.5
+
+q=1.5e8
+
+0.0
+
+q=8e7
+
+q=4e7
+
+-0.5 q=2e7
+
+Z=0.4
+
+q=1e7
+
+Z=1.0
+
+-1.0
+
+Z=0.2
+
+-1.5 q=5e6 Z=0.05 Z=2.0
+
+-2.0
+
+-3.0
+
+-2.5
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+LOG ([OI]/H)
+
+(c) - Starburst99 (Lejeune atm, Geneva tracks)
+1.5
+
+1.0
+q=3e8
+0.5
+
+LOG ([OIII]/H)
+
+0.0 1.5e8 q=8e7 q=4e7
+-0.5
+q=2e7
+
+-1.0 Z=2.0
+
+q=1e7
+
+Z=0.4 Z=0.2
+
+-1.5
+
+Z=1.0
+
+q=5e6 Z=0.05
+
+-2.0
+
+-3.0
+
+-2.5
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+LOG ([OI]/H)
+
+FIG. 11.»As in Fig. 9 but for the plot log [O I]/Ha vs. log [O III]/Hb. [See the electronic edition of the Journal for a color version of this –gure.]
+
+THEORETICAL MODELING OF STARBURST GALAXIES
+
+135
+
+LOG ([OIII]/H)
+
+LOG ([OIII]/H)
+
+(a) - Pegase (Lejeune + Clegg & Middlemass atm, Padova tracks)
+1.5
+
+1.0
+
+q=3e8 0.5 q=1.5e8
+q=8e7
+
+q=4e7
+
+0.0
+
+q=2e7
+
+-0.5
+
+q=1e7
+
+Z=0.5
+
+Z=1.0
+
+Z=1.5
+
+Z=0.2
+
+Z=2.0
+
+-1.0
+
+q=5e6 Z=0.1
+
+Z=3.0
+
+-1.5
+
+-2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+LOG ([NII]/[OII])
+
+(b) - Starburst99 (Lejeune + Schmutz atm, Geneva tracks)
+1.5
+
+1.0
+
+0.5
+
+q=3e8
+
+q=1.5e8
+
+q=8e7 0.0 q=4e7
+
+-0.5 q=2e7
+
+q=1e7
+
+-1.0
+
+Z=0.2 Z=0.4
+
+-1.5 q=5e6 Z=0.05
+
+Z=1.0
+
+Z=2.0
+
+-2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+LOG ([NII]/[OII])
+
+(c) - Starburst99 (Lejeune atm, Geneva tracks)
+1.5
+
+1.0
+
+0.5
+
+q=3e8
+
+q=1.5e8
+
+0.0
+
+q=8e7
+
+q=4e7 -0.5
+q=2e7
+
+-1.0 q=1e7 Z=0.2 Z=0.4
+
+-1.5
+
+q=5e6
+
+Z=0.05
+
+-2.0
+
+Z=1.0
+
+Z=2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+LOG ([NII]/[OII])
+
+LOG ([OIII]/H)
+
+FIG. 12.»As in Fig. 9 but for the diagram log [N II]/[O II] vs. log [O III]/Hb. We do not have [O II] observations for the galaxies in our sample, but we provide this diagram for the use of the astronomical community. [See the electronic edition of the Journal for a color version of this –gure.]
+
+LOG ([OIII]/[OII])
+
+LOG ([OIII]/[OII])
+
+(a) - Pegase (Lejeune + Clegg & Middlemass atm, Padova tracks)
+1.5
+
+q=3e8 1.0
+q=1.5e8
+
+0.5
+
+q=8e7
+
+0.0
+
+q=4e7
+
+q=2e7 -0.5
+q=1e7
+
+-1.0
+
+Z=3.0
+
+q=5e6 Z=0.2 Z=0.5
+
+Z=1.0 Z=1.5 Z=2.0
+
+-1.5
+
+Z=0.1
+
+-2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+LOG ([NII]/[OII])
+
+(b) - Starburst99 (Lejeune + Schmutz atm, Geneva tracks)
+1.5
+
+Z=0.05
+
+1.0
+
+q=3e8 Z=0.2
+
+q=1.5e8
+
+Z=0.4
+
+Z=1.0
+
+0.5
+
+q=8e7
+
+0.0
+
+q=4e7
+
+-0.5
+
+q=2e7
+
+q=1e7 -1.0
+
+Z=2.0
+
+-1.5 q=5e6
+
+-2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+LOG ([NII]/[OII])
+
+(c) - Starburst99 (Lejeune atm, Geneva tracks)
+1.5
+
+1.0
+
+Z=0.05 Z=0.2
+
+q=3e8
+
+Z=0.4
+
+0.5 q=1.5e8
+
+0.0
+
+q=8e7
+
+q=4e7 -0.5
+q=2e7
+
+-1.0 q=1e7
+
+-1.5
+
+q=5e6
+
+Z=1.0
+
+Z=2.0
+
+-2.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+LOG ([NII]/[OII])
+
+LOG ([OIII]/[OII])
+
+FIG. 13.»As in Fig. 9 but for the diagram log [N II]/[O II] vs. log [O III]/[O II]. We do not have [O II] observations for the galaxies in our sample, but we provide this diagram for the use of the astronomical community. [See the electronic edition of the Journal for a color version of this –gure.]
+
+SNR shocks, which in turn depend on the number of SNRs (determined by the SFR and IMF) and weakly on the density. At low densities, SNRs are larger and have lower velocities than at higher densities and similar overall luminosities in Hb.
+The [O III] emission from the starbursts, on the other hand, is not a function of the SFR ; rather, it is a measure of the ionization parameter q of the radiation –eld within the starburst, which is a function of the density and mass distribution (i.e., –laments vs. uniform) of the gas. Thus, the [O III] in the starburst models varies from bright to negligible levels compared to Hb. The [O III] emission from the SNRs is constrained by the chosen model geometry and is therefore determined by the SFR and the average density, not by the global ionization parameter. The ionization parameter for each SNR is determined internally by the SNR model without reference to the global starburst value.
+The observed total log ([O III]/Hb) ratio is the sum of the starburst and SNR contributions :
+log ([O III]/Hb) \ log ([O III]starb ] [O III]SNR) [log (Hbstarb ] HbSNR) . (3)
+
+the starbursts, the observed Thus, in the limit of [O III]sltoargb ([O III]/Hb) ratio will reach \ 0 due to low global q in a lower limit of
+log ([O III]SNR) [ log (Hbstarb ] HbSNR) ∫ 0.0 , (4) with a density of 350 cm~3 and the SFR used here (D0.07 M_This lower limit is not observed, and the actual lower yr~1 in the observed aperture of 1 kpc2). limit is log ([O III]/Hb) B [1.0, a factor of 10 less than the modeled here is not compatible with the ob SNR model limit. Clearly the strong [O III]SsNeRrvations. This contribution incompatibility may be due to either the number of SNRs we derived or the fact that the average density in the SNR environment is less than 350 cm~3. We conclude that the SNR contribution to the log ([O III]/Hb) ratio is >20% and is probably a factor of 10 less (D2%), and it can be neglected for the starburst models derived here. We are currently investigating this SNR contribution to starbursts further by considering a range of densities and lower shock velocities to determine the level at which the SNR model is compatible with the observations. We expect to –nd that velocities in the 200»300 km s~1 range will be more com-
+
+136
+
+KEWLEY ET AL.
+
+Vol. 556
+
+patible with observations, resulting in a small [O III]SNR contribution, negligible in all but the starbursts with the lowest ionization parameter.
+5. WOLF-RAYET EMISSION IN STARBURST GALAXIES
+W-R features were –rst found in the dwarf emission galaxy He2-10 (Allen, Wright, & Goss 1976). As more such features were discovered in galaxies, Osterbrock & Cohen (1982) de–ned W-R galaxies as those galaxies that contain broad stellar emission lines in their spectra and therefore contain large numbers of W-R stars. The large numbers of W-R stars are thought to be a result of present or very recent star formation. Kunth & Joubert (1985) searched for W-R emission in a sample of blue emission-line galaxies. They found a positive detection in one galaxy and suspected in 14 others and suggested that W-R stars are preferentially detected in low-redshift galaxies. Following on from this study, Conti (1991) presented a catalog of W-R galaxies, showing that W-R galaxies can be easily distinguished by their broad [He II] j4686 emission feature, or in some cases a broad line at 4640 A due to N III. High-resolution long-slit observations of a sample of W-R galaxies were carried out recently by Guseva, Izotov, & Thuan (2000). Nearly all the galaxies in their sample show broad W-R emission consisting of an unresolved blend of N III j4640, C III j4650, [Fe III] j4658, and He II j4686 emission lines. They also found weaker W-R emission lines N III j4512 and Si III j4565 in some galaxies.
+The S/N ratios of our spectra are not sufficient in individual galaxies to detect these signatures of W-R emission. We have therefore constructed a template "" average œœ warm infrared starburst spectrum from the 56 starburst galaxies in our sample that have S/N ratios at Hb of 60 or greater and for which the zero-redshift blue wavelength cuto is lower than 4620 A . We note that this average spectrum is not representative of our sample of warm infrared starbursts because selecting for high S/N ratio galaxies may bias the average spectrum toward young and hence more luminous starbursts. However, it is useful simply to assist in the search for W-R features. The average spectrum is shown in Figure 14 and in detail in Figure 15. The positions of the expected W-R features are marked on Figure 15.
+The mean age of the average warm infrared starburst can be estimated from the Hb absorption equivalent width, bearing in mind that dust absorption may also contribute to the absorption-line pro–le and has not been taken into account. The Hb absorption equivalent width was found by simultaneously –tting the Hb absorption and emission lines with Gaussians in the IRAF task ngauss–ts. We –nd that the Hb absorption equivalent width is D3.6 A , which corresponds to an upper limit age of D7 Myr for a continuous star formation model at solar metallicity (Gonza lez Delgado & Leitherer 1999). As mentioned earlier, there is likely to be a selection aect toward more youthful starbursts, in that the bright starbursts tend to be both younger and intrinsically more luminous.
+In the "" average œœ spectrum of Figure 15, there appears to be marginal detections of [Fe III] j4658 and He II j4686 at the 2 p level. These lines do not appear broad ; however, this may simply be an eect of the low S/N ratio for these lines.
+The He II j4686 emission in the majority of our galaxies provides an important constraint on the Schmutz extended atmospheric modeling. The log (He II j4686/Hb) ratio for our template starburst galaxy is approximately [1.6.
+
+80 60
+
+40
+
+20
+
+0
+
+5000
+
+5500
+
+6000
+
+6500
+
+7000
+
+ (Angstroms)
+
+FIG. 14.»Average spectrum of 56 starbursts in our sample that have
+S/N ratios greater than 60 at Hb and a zero-redshift blue wavelength cuto of 4620 ”. Flux is in units of 1 ] 10~15 ergs s~1 cm~2 A ~1.
+
+Both the MAPPINGS III models with PEGASE and STARBURST99 (Lejeune atmospheres) stellar ionizing continua produce log (He II j4686/Hb) around [6, while the MAPPINGS III models with STARBURST99 (Lejeune plus Schmutz atmospheres) stellar ionizing continuum produce log (He II j4686/Hb) around [1.7, consistent with that observed with our template starburst galaxy. We note again that our template starburst galaxy has been composed of the starbursts in our sample with the highest S/N ratios and so may be biased toward the most luminous and therefore the youngest starbursts in our sample. This He II j4686/Hb ratio for our template starburst galaxy may therefore be biased toward those with more W-R stars than the average starburst galaxy in our sample.
+6. CONTINUUM METAL OPACITY IN
+STARBURST GALAXIES
+Clearly we require a hard EUV –eld in the 1»4 ryd regime to model our starburst galaxies on the optical diagnostic diagrams such as that provided with the PEGASE model. However, as we would expect the Schmutz extended atmo-
+
+5.0
+
+4.5
+
+N III 4640 C III 4650 [Fe III] 4658 He II 4686
+
+4.0
+
+3.5
+
+3.0
+
+4650
+
+4700
+
+4750
+
+4800
+
+4850
+
+ (Angstroms)
+
+FIG. 15.»Close-up of Fig. 14 showing where one would expect to see W-R emission features.
+
+No. 1, 2001
+
+THEORETICAL MODELING OF STARBURST GALAXIES
+
+137
+
+spheric modeling to be more appropriate to the modeling of our starburst galaxies, we believe that the inclusion of continuum metal opacity (continuum metal blanketing) in the stellar population synthesis models using the Schmutz extended atmospheres is a possible solution.
+For many years, estimates of the optical depth in the ISM in the EUV were made using the column density derived from the hydrogen 21 cm line and with the assumption of a uniform gas density. As a result of the high optical depths estimated in this manner, it was thought that the ISM should be opaque to radiation in the EUV (Aller 1959). The discovery that the ISM is inhomogeneous overturned this conclusion, and Cruddace et al. (1974) established an estimate of the eective absorption cross section of the ISM at EUV wavelengths using determinations of covering factors and abundances. Cruddace et al. (1974) showed that some EUV radiation should be able to be observed over considerable distances. More recent determinations of cross sections and abundances have been used by Rumph, Bowyer, & Vennes (1994) to provide a new estimate of the eective absorption cross section of the ISM at EUV wavelengths.
+The relative difficulty in obtaining EUV spectra to compare with theoretical estimates of opacity in the EUV continuum described above has decreased signi–cantly over the last decade with the aid of EUV telescopes such as the Extreme Ultraviolet Explorer (EUV E), the ROSAT WideField Camera, the Array of Low-Energy X-Ray Imaging Sensors (ALEXIS), the Far Ultraviolet Spectroscopic Explorer (FUSE), and the Extreme-Ultraviolet Imaging Telescope (EIT). These telescopes have allowed observations of many stellar objects that have greatly advanced the modeling of stellar atmospheres (e.g., Cassinelli et al. 1995) and have allowed the EUV study of some Seyfert galaxies (e.g., Hwang & Bowyer 1997). However, the EUV spectrum in starburst galaxies continues to remain unseen as a result of the weakness of the EUV continuum in starburst galaxies due to absorption. It is therefore necessary to rely on theoretical predictions of the EUV spectrum from stellar population synthesis codes.
+Although the EUV spectrum must be estimated using theoretical modeling, the reprocessing of the EUV spectrum into optical emission lines allows limits to be placed on the shape of the EUV spectrum in starburst galaxies. As concluded in previous sections, we require a harder EUV –eld in the 1»4 ryd regime than is provided by the stellar population synthesis models with Schmutz extended atmospheres. Currently, only continuous opacities due to helium are included in the models, as continuous metal opacities are relatively unimportant for many studies. We believe that the inclusion of continuum metal opacities in these models would provide a suitable shape in the EUV, enabling the models to reproduce the starburst sequence on the standard optical diagnostic diagrams.
+Continuum metal opacities, as with hydrogen and helium opacities, are a result of bound-free transitions, i.e., photoionization of the metals. Continuum metal opacity would allow some fraction of the radiation with energies greater than 4 ryd to be absorbed and reemitted less than 4 ryd. The fraction of radiation absorbed by metals depends on their individual absorption cross sections and abundances. The resulting EUV continuum would have a softer continuum above the He II ionization limit, as a result of carbon opacities. The spectrum would also have a harder but fainter
+
+EUV –eld in the 1»4 ryd regime, as required by the position of our starburst galaxies on the optical diagnostic diagrams. Note that if this were the case, we might expect that the models with Schmutz extended atmospheres would produce too much —ux in the He II j4686 line compared with our observations, contrary to our –ndings. We conclude that while continuum metal blanketing may be a possible solution to the discrepancy seen between our observations and the models using Schmutz extended atmospheres, it may not be the only solution.
+7. EXTREME STARBURST CLASSIFICATION LINE
+In order to place a theoretical upper limit for starburst models on the optical diagnostic diagrams, we used the PEGASE grids, since these provide the hardest EUV spectrum and therefore give a theoretical grid that is placed both highest and farthest to the right on the VO87 line ratio diagnostic diagrams.
+We have shown that, with a realistic range of metallicities (Z \ 0.1»3.0) and ionization parameter q (cm s~1) in the range 5 ] 106 π q π 3 ] 108 (or [3.5 π log U π [2.0), continuous starburst models produced by any modeling procedure always fall below and to the left of an empirical limit on the [N II]/Ha versus [O III]/Hb, [S II]/Ha versus [O III]/Hb, and [O I]/Ha versus [O III]/Hb diagrams. This is due to the two-parameter grid of the ionization parameter and metallicity folding back upon itself. Therefore, no combination of these parameters can generate a theoretical point above this fold. The lines dividing the theoretical starburst region from objects of other types of excitation are shown in Figure 16. These can be parametrized by the following simple –tting formulae, which have the shape of rectangular hyperbolae :
+A B log [O III] j5007 Hb \ 0.61 log ([N II]/Ha) [ 0.47 ] 1.19 , (5) A B log [O III] j5007 \
+Hb
+A B 0.72 log ([S II] jj6717, 31/Ha) [ 0.32 ] 1.30 , (6)
+log [O III] j5007 \ Hb
+0.73 log ([O I] j6300/Ha) ] 0.59 ] 1.33 . (7)
+The shape and position of this maximum starburst line has not been previously established from theoretical models, since the shape of the ionizing spectrum of the cluster has not been known to sufficient accuracy. VO87 have attempted to establish both the position and the shape of this boundary in a semiempirical way, using both observational data from the literature and a combination of models available to them at that time.
+The theoretical boundaries for starbursts de–ned by equations (1)»(3) provide us for the –rst time with a theoretical (as opposed to a semiempirical) boundary for the region occupied by starbursts in these diagnostic plots. In view of the potential for errors in the modeling that may —ow from errors in the assumptions made in the chemical abundances, chemical depletion factors, the slope of the IMF, and the evolutionary tracks and the stellar atmosphere models used,
+
+1.5
+(a)
+1.0
+0.5
+0.0
+
+AGN
+
+Extreme Mixing Line
+100% AGN
+60% 40%
+20%
+
+LOG ([OIII]/H)
+
+-0.5
+Starburst
+
+0%
+-1.0
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+LOG ([NII]/H)
+
+1.5
+(b)
+1.0
+
+AGN
+
+0.5
+
+Extreme
+
+Mixing
+
+Line
+
+0.0
+
+LOG ([OIII]/H)
+
+-0.5
+-1.0 -1.5
+1.5
+(c)
+1.0
+
+Starburst
+-1.0
+
+-0.5 LOG ([SII]/H)
+
+0.0
+
+0.5
+
+AGN
+
+LOG ([OIII]/H)
+
+0.5
+0.0 Starburst
+-0.5
+
+Extreme Mixing Line
+
+-1.0
+
+-2.5
+
+-2.0
+
+-1.5
+
+-1.0
+
+-0.5
+
+0.0
+
+LOG ([OI]/H)
+
+FIG. 16.»Diagnostic diagrams showing the galaxies in our sample. Our theoretical classi–cation line and extreme mixing line are shown by thick lines, and dashed lines represent ^0.1 dex of these lines, indicating the error range of our modeling. [See the electronic edition of the Journal for a color version of
+this –gure.]
+
+THEORETICAL MODELING OF STARBURST GALAXIES
+
+139
+
+we have indicated a "" best guess œœ estimate of these errors as dashed lines in Figure 16.
+These theoretical upper limits for starburst galaxies have been used in Kewley et al. (2001) to classify the galaxies in our sample along with an "" extreme œœ mixing line produced using our shock modeling to classify galaxies into starburst, LINER, and AGN types. The strength of our theoretical starburst classi–cation line can be seen by observing the number of galaxies that have "" ambiguous œœ classi–cations. These galaxies are those that fall within the starburst region of one or two of the diagnostic diagram(s) and the AGN region of the remaining diagram(s). We found that only 6% of our sample has ambiguous classi–cations using our theoretical extreme starburst line, compared with 16% ambiguous classi–cations using the standard VO87 classi–cation lines. These results indicate that our theoretical starburst line is a reliable tool for optically classifying galaxies into starburst and AGN types and is more consistent from diagram to diagram than the conventional VO87 method.
+8. CONCLUSIONS
+We have presented a comparison between the stellar population synthesis models PEGASE 2 and STARBURST99 using a large sample of 157 warm infrared starburst galaxies. The main dierences between the two synthesis models are the stellar tracks and stellar atmosphere prescriptions. PEGASE and STARBURST99 were used to generate the spectral energy distribution (SED) of the young star clusters. MAPPINGS III was used to compute photoionization models that include a selfconsistent treatment of dust physics and chemical depletion. The standard optical diagnostic diagrams are indicators of the hardness of the EUV radiation –eld in the starburst galaxies. These diagnostic diagrams are most sensitive to the spectral index of the ionizing radiation –eld in the 1»4 ryd region. We –nd that warm infrared starburst galaxies contain a relatively hard EUV –eld in this region. The PEGASE ionizing stellar continuum is harder in the 1»4 ryd range than that of STARBURST99, most likely because of the dierent stellar atmospheres used for W-R stars.
+We have constructed an average spectrum of the high S/N ratio warm infrared starbursts in our sample in order
+
+to look for W-R signatures. We –nd detections of Fe III j4658 and He II j4686 at the 2 p level, indicating W-R activity, and constraining the Schmutz extended atmospheric modeling. We require a hard EUV –eld in the 1»4 ryd regime to model our starburst galaxies on the optical diagnostic diagrams such as that provided with the PEGASE 2 model. However, as we would expect the Schmutz extended atmospheric modeling to be more appropriate to the modeling of our starburst galaxies, we believe that one solution would be to include continuum metal opacities in the stellar population synthesis models using the Schmutz extended atmospheres. Continuum metal opacities would allow much of the radiation with energies greater than 4 ryd to be absorbed and reemitted at energies less than 4 ryd. The resulting EUV continuum would have a softer continuum above the He II ionization limit and a harder EUV –eld in the 1»4 ryd regime, as required by the position of our starburst galaxies on the optical diagnostic diagrams. SNRs could also contribute to the hardness of the EUV –eld, although our models and observations suggest that this is likely to be >20%, insufficient to cause the discrepancy between our starburst galaxies and the models using Schmutz extended atmospheres.
+We use the starburst grids produced with the PEGASE EUV ionizing radiation –eld and our MAPPINGS III models to parameterize an extreme starburst line, which is useful in classifying galaxies into starburst or AGN types. In a previous paper (Kewley et al. 2001) we showed that this theoretical classi–cation scheme produces reliable classi–cations with less ambiguity than the classical VO87 empirical method.
+We thank Claus Leitherer and Brigitte RoccaVolmerange for helpful discussions and for the use of STARBURST99 and PEGASE 2. We thank the referee for his constructive comments, which have helped this to be a better paper. We also thank the sta at Siding Springs Observatories for their assistance during our spectroscopy observations. L. K. gratefully acknowledges support from the Australian Academy of Science Young Researcher Scheme and the French Service Culturel & Scienti–que.
+
+REFERENCES
+
+Allen, D. A., Wright, A. E., & Goss, W. M. 1976, MNRAS, 177, 91 Aller, L. H. 1959, PASP, 71, 324 Anders, E., & Grevesse, N. 1989, Geochim. Cosmochim. Acta, 53, 197 Armus, L., Heckman, T. M., & Miley, G. K. 1989, ApJ, 347, 727 »»». 1990, ApJ, 364, 471 Baldwin, J. A., Phillips, M. M., & Terlevich, R. 1981, PASP, 93, 5 Bessell, M. S., Brett, J. M., Scholz, M., & Wood, P. R. 1989, A&AS, 77, 1 »»». 1991, A&AS, 89, 335 Bohlin, R. C., Savage, B. D., & Drake, J. F. 1978, ApJ, 224, 132 Bressan, A., Fagotto, F., Bertelli, G., & Chiosi, C. 1993, A&AS, 100, 647 Cassinelli, J. P., et al. 1995, ApJ, 438, 932 Clegg, R. E. S., & Middlemass, D. 1987, MNRAS, 228, 759 Conti, P. S. 1991, ApJ, 377, 115 Cruddace, R., Paresce, F., Bowyer, S., & Lampton, M. 1974, ApJ, 187, 497 Dopita, M. A., Kewley, L. J., Heisler, C. A., & Sutherland, R. S. 2000, ApJ,
+542, 224 Dopita, M. A., & Sutherland, R. 1996, ApJS, 102, 161 »»». 2000, ApJ, 539, 742 Draine, B. T. 1978, ApJS, 36, 595 Draine, B. T., & Sutin, B. 1987, ApJ, 320, 803 Ferland, G. J., Korista, K. T., Verner, D. A., Ferguson, J. W., Kingdon,
+J. B., & Verner, E. M. 1998, PASP, 110, 761 Fioc, M., & Rocca-Volmerange, B. 1997, A&A, 326, 950 Fluks, M. A., et al. 1994, A&AS, 105, 311 Genzel, R., et al. 1998, ApJ, 498, 579 Goldader, J. D., Joseph, R. D., Doyon, R., & Sanders, D. B. 1997, ApJ, 474,
+104
+
+Gonza lez Delgado, R. M., & Leitherer, C. 1999, ApJS, 125, 479 Guseva, N. G., Izotov, Y. I., & Thuan, T. X. 2000, ApJ, 531, 776 Hwang, C.-Y., & Bowyer, S. 1997, ApJ, 475, 552 Iglesias, C. A., Rogers, F. J., & Wilson, B. G. 1992, ApJ, 397, 717 Jenkins, E. B. 1987, in "" Interstellar Processes,œœ ed. D. J. Hollenbach &
+H. A. Thronson, Jr. (Dordrecht : Reidel), 533 Kennicutt, R. C., Jr. 1998, ARA&A, 36, 189 Kewley, L. J., Heisler, C. A., Dopita, M. A., & Lumsden, S. 2001, ApJS, 132,
+37 Kewley, L. J., Heisler, C. A., Dopita, M. A., Sutherland, R. S., Norris, R. P.,
+Reynolds, J., & Lumsden, S. 2000, ApJ, 530, 704 Kunth, D., & Joubert, M. 1985, A&A, 142, 411 Kurucz, R. L. 1992, in IAU Symp. 149, The Stellar Populations of Gal-
+axies, ed. B. Barbuy & A. Renzini (Dordrecht : Kluwer), 225 Laor, A., & Draine, B. T. 1993, ApJ, 402, 441 Leitherer, C., et al. 1999, ApJS, 123, 3 Leitherer, C., & Heckman, T. M. 1995, ApJS, 96, 9 Lejeune, Th., Cuisinier, F., & Buser, R. 1997, A&AS, 125, 229 Lutz, D., et al. 1996, A&A, 315, L137 Lutz, D., Spoon, H. W. W., Rigopoulou, D., Moorwood, A. F. M., &
+Genzel, R. 1998, ApJ, 505, L103 Mathis, J. S., Rumpl, W., & Nordsieck, K. H. 1977, ApJ, 217, 425 Miley, G. K., Neugebauer, G., & Soifer, B. T. 1985, ApJ, 293, L11 Osterbrock, D. E., & Cohen, R. D. 1982, ApJ, 261, 64 Osterbrock, D. E., & de Robertis, M. M. 1985, PASP, 97, 1129 Rieke, G. H., & Low, F. J. 1972, ApJ, 176, L95 Rogers, F. J., & Iglesias, C. A. 1992, ApJS, 79, 507
+
+140
+
+KEWLEY ET AL.
+
+Rumph, T., Bowyer, S., & Vennes, S. 1994, AJ, 107, 2108 Russell, S. C., & Dopita, M. A. 1992, ApJ, 384, 508 Schaller, G., Schaerer, D., Meynet, G., & Maeder, A. 1992, A&AS, 96, 269 Schmutz, W., Hamann, W.-R., & Wessolowski, U. 1989, A&A, 210, 236 Schmutz, W., Leitherer, C., & Gruenwald, R. B. 1992, PASP, 104, 1164 Strauss, M. A., Huchra, J. P., Davis, M., Yahil, A., Fisher, K. B., & Tonry, J.
+1992, ApJS, 83, 29
+
+Sutherland, R. S., & Dopita, M. A. 1993, ApJS, 88, 253 van Zee, L., Haynes, M. P., & Salzer, J. J. 1997, AJ, 114, 2497 Veilleux, S., Kim, D.-C., & Sanders, D. B. 1999, ApJ, 522, 113 Veilleux, S., Kim, D.-C., Sanders, D. B., Mazzarella, J. M., & Soifer, B. T.
+1995, ApJS, 98, 171 Veilleux, S., & Osterbrock, D. E. 1987, ApJS, 63, 295 (VO87)
+
+

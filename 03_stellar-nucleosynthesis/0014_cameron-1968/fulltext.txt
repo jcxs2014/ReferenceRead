@@ -1,0 +1,2036 @@
+A New Table of Abundances of the Elements
+in the Solar System
+A. G. W. CAMERON
+Belfer Graduate School of Science, Yeshiva University, New York, New York
+and Institute for Space Studies, Goddard Space Flight Center, NASA,
+New York, New York
+Abstract
+A new table of the abundances of the elements, presumably characteristic of primitive solar matter, has been compiled. It is based as much as possible on abundances in Type I carbonaceous chondrites. Other sources, used where necessary, are ordinary chondrites, solar atmospheric abundances, and solar cosmic ray abundances. Eight elements were interpolated using criteria based on the theory of nucleosynthesis in stars. A discussion is given of some features of the abundance table which should be taken into account in theories of nucleosynthetic processes.
+A basic and necessary step in the development of theories of stellar nucleosynthesis was made by Suess and Urey (1956), who selected astronomical, meteoritic, and terrestrial element abundance data and produced a table of cosmic abundances. Most of the abundance data used by Suess and Urey were of poor quality, so these authors adjusted and interpolated the abundances of the elements to produce a smooth variation in the abundances of nuclides with odd mass numbers. From the resulting abundance tables it was then possible to identify a number of différent nuclear processes which could probably occur in stars and which would produce the characteristic features of the Suess-Urey table (Burbidge, Burbidge, Fowler and Hoyle, 1957; Cameron, 1957).
+The writer (Cameron, 1959) later readjusted some parts of the Suess-Urey abundance table making use of the hindsight given by the identification of the processes responsible for nucleosynthesis to use additional criteria for the adjustment of the abundances. Apart from minor adjustments, the principal predictions were that the Sr/Zr ratio should be inverted, the rare earth abundances should be strongly modified, and the abundance of Pb should be greatly increased. Subsequent meteoritic abundance measurements have confirmed
+
+126
+
+A. G. W. Cameron
+
+the first two of these points and have shown that the Pb abundance lies between the two values suggested.
+In subsequent years a great deal of high-quality meteoritic abundance data has been obtained by radiochemical techniques, and interest has arisen in the differences in abundances between various meteorite classes. The writer (Cameron, 1963) made a new abundance compilation based to a much greater extent than previously on good meteorite abundance measurements. Although this table was not published, many references to it appear in the literature, and hence the numbers obtained at that time have been included in Table 1 for the sake of the record.
+Anders (1964) has pointed out that there are systematic differences between the abundances of certain elements of somewhat greater volatility between abundance classes; he postulated some mechanisms to account for this. These ideas have recently received additional discussion (Larimer and Anders, 1967). These authors and others have pointed out that the least element depletions have occurred in Type I carbonaceous chondrites. Taking the point of view that it is probably easier to obtain uniform element depletion factors than uniform enrichment factors, the present writer has constructed a new abundance table based as much as possible on measurements in Type I carbonaceous chondrites. These meteorites are thus assumed to be the most representative source of solar system abundance data for which high-quality measurements can be made.
+The resulting list of abundances is given in Table 1 as Cameron (1967). The sources of the abundances and the assumptions made in assigning values to certain elements are given in the notes to Table 1. It may be seen from these notes that the majority of the nonvolatile elements now have abundances based on Type I carbonaceous chondrite measurements. In some cases it has been necessary to use abundances measured in ordinary chondrites. The volatile elements are based on solar photospheric and cosmic ray abundance data; they have been normalized to the meteoritic data using the solar photospheric abundances of ten nonvolatile elements. There remains a significant uncertainty in this normalization factor, perhaps amounting to a few tens of percent. Only eight elements have now been interpolated on the basis of nuclear regularities.
+It should be noted that this procedure has selected a high value of the iron abundance. This abundance has been a long-standing problem, since the solar photospheric abundance of iron (Aller, 1961) is considerably lower than the meteoritic value, and the oscillator strengths of the iron lines used in the solar abundance determination are claimed to be of superior quality. These are strong iron lines. Nevertheless, it appears that the iron abundance determined from weak lines is higher than for the strong lines (L. Goldberg, private communication), and the iron abundance is anomalously high in the solar corona. Hence it has seemed best to use the meteoritic value. The question of
+
+A New Table of Abundances
+
+127
+
+TABLE 1. COMPILATIONS OF ABUNDANCES NORMALIZED TO Si = 106 (Notes refer to the sources of Cameron (1967) )
+
+Element
+1 H 2 He 3 Li 4 Be 5B 6C 7N 80 9F 10 Ne 11 Na 12 Mg 13 Al 14 Si 15 P 16 S 17 Cl 18 Ar 19 K 20 Ca 21 Se 22 Ti 23 V 24 Cr 25 Mn 26 Fe 27 Co 28 Ni 29 Cu 30 Zn 31 Ga 32 Ge 33 As 34 Se 35 Br 36 Kr 37 Rb 38 Sr 39 Y 40 Zr 41 Nb 42 Mo 44 Ru 45 Rh 46 Pd 47 Ag 48 Cd 49 In 50 Sn 51 Sb
+
+1
+
+Suess
+
+Urey
+
+4.00 x 1010 3.08 x 109
+100
+20
+24 3.5 x 106 6.6 x 106 2.15 x 107
+1600 8.6 x 106 4.38 x 104 9.12 x 105 9.48 x 104 1.00 x 106 1.00 x 104 3.75 x 105
+8850 1.4 x 105
+3160 4.90 x 104
+28
+2240
+220
+7800
+6850 6.00 x 105
+1800 2.74 x 104
+212
+486
+11.4
+50.4
+4.0
+67.6
+13.4
+51.3
+6.5
+18.9
+8.9
+54.5
+1.00
+2.42
+1.49
+0.214
+0.675
+0.26
+0.89
+0.11
+1.33
+0.246
+
+Cameron (1963)
+
+3.2 x 1010 5.0 x 109
+
+38
+
+7
+
+6 1 1.66 x 107
+3.0 x 106
+2.9 x 107 --104
+1.7 x 107
+4.18 x 104
+1.046 x 106 8.93 x 104 1.00 x 106
+
+9320 6.0 x 105
+
+1836 2.4 x 105
+
+2970 7.28 x 104
+
+29
+
+3140
+
+590 1.20 x 104
+
+6320 8.42 x 105
+
+2290 4.44 x 104
+
+861
+
+930
+
+39
+
+134
+
+4.4
+
+18.8
+
+3.95
+
+20
+
+5.0
+
+21
+
+3.6
+
+23
+
+0.81
+
+2.42
+
+1.58
+
+0.26
+
+1.00
+
+0.26
+
+0.89
+
+0.11
+
+1.33
+
+0.15
+
+1
+
+Cameron (1967)
+2.6 x 1010 2.1 x 109
+45
+0.69 6.2 1.35 x 107 2.44 x 106 2.36 x 107 3630 2.36 x 106 6.32 x 104 1.050 x 106 8.51 x 104 1.00 x 106 1.27 x 104 5.06 x 105 1970 2.28 x 105
+3240 7.36 x 104
+33
+2300
+900 1.24 x 104
+8800 8.90 x 105
+2300 4.57 x 104
+919
+1500 45.5
+126 7.2
+70.1
+20.6 64.4
+5.95
+58.4 4.6 30 1.15 2.52 1.6 0.33 1.5 0.5 2.12 0.217 4.22 0.381
+
+Notes
+1 2 3 3 3 1 1 1 4 2 4 5 5 5 5 4 4 6 4 5 5 5 7 5 4 5 5 5 4 4 4 4 8 4 4 9 4 5 5 7 10 3 3 3 11 12 4 4 4 4
+
+128
+Element
+52 Te 53 1 54 Xe 55 Cs 56 Ba 57 La 58 Ce 59 Pr 60 Nd 62 Sm 63 Eu 64 Gd 65 Tb 66 Dy 67 Ho 68 Er 69 Tm 70 Yb 71 Lu 72 Hf 73 Ta 74 W 75 Re 76 Os 77 Ir 78 Pt 79 Au 80 Hg 81 Tl 82 Pb 83 Bi 90 Th 92 U
+
+Suess Urey
+4.67
+0.80 4.0 0.456 3.66 2.00 2.26 0.40 1.44 0.664 0.187 0.684 0.0956 0.556 0.118 0.316 0.0318 0.220 0.050 0.438 0.065 0.49 0.135 1.00 0.821 1.625 0.145 0.284 0.108 0.47 0.144
+-- --
+
+A.G.W. Cameron
+TABLE 1.--continued
+
+Cameron (1963)
+3.00
+0.46 3.15 0.25 4.0 0.38 1.08 0.16 0.69 0.24 0.083 0.33 0.054 0.33 0.076 0.21 0.032 0.18 0.031 0.16 0.021 0.11 0.054 0.73 0.500 1.157 0.13 0.27 0.11 2.2 0.14 0.069 0.042
+
+Cameron (1967)
+6.76
+1.41 7.10 0.367 4.7 0.36 1.17 0.17 0.77 0.23 0.091 0.34 0.052 0.36 0.090 0.22 O.Ö35 0.21 0.035 0.16 0.022 0.16 0.055 0.71 0.43 1.13 0.20 0.75 0.182 2.90 0.164 0.034 0.0234
+
+Notes
+4 4 13 4 5 5 5 5 5 5 5 14 14 5 5 5 5 5 5 3 15 11 16 16 17 18 17 19 4 4 4 20 20
+
+Notes to Table 1
+1. In Cameron (1963) the volatile elements are normalized to silicon = 106 in the sun, which is somewhat poorly determined. In Cameron (1967) the normalization is based on logarithmic averages of Na, Mg, AI, Si, S, K, Ca, Ti, Co, and Ni in the sun relative to meteoritic values. The solar abundances are taken from Aller (1961).
+2. He and Ne are normalized to the solar oxygen abundance using solar cosmic ray data, as suggested by Gaustad (1964).
+3. Based on abundances in chondrites, taken from Urey (1964).
+4. Based on abundances in Type I carbonaceous chondrites, taken from Larimer and Anders (1967).
+5. Based on abundances in the Orgueil and Ivuna Type I carbonaceous chondrites, taken from Urey (1964).
+6. Ar36 was interpolated between S32 and Ca40. 7. Based on abundances in carbonaceous chondrites, taken from Urey (1964). 8. As75 was interpolated between Ge73 and Se77.
+
+A New Table of Abundances
+
+129
+
+the iron abundance is of great importance for problems of nucleosynthesis, and it is important that additional work be done in an attempt to resolve the problem.
+The abundances of individual nuclides corresponding to the latest adjustment are given in Table 2. Also given in this table is a classification of certain of the heavier isobars as being predominantly made by a particular mechanism of nucleosynthesis. Thus F isobars are those which have been made principally by neutron capture on a fast time scale, corresponding to the r-process of Burbidge et al. (1957). S isobars are those which have been made principally by neutron capture on a slow time scale, corresponding to the s-process of Burbidge et al. (1957). B isobars are those which are bypassed by neutron capture processes, corresponding to the /7-process of Burbidge et al. (1957).
+A few assumptions have been necessary for the construction of Table 2 in addition to those used in the construction of Table 1. Thus the He3/He4 ratio has been taken to be 3 x 10"4 since this ratio is usually found in primordial helium extracted from meteorites (Signer and Suess, 1963). The large abundance of Ar40 in atmospheric argon is due to decay of terrestrial
+
+Notes to Table 1.--continued.
+9. Kr was assigned an abundance representing a compromise between interpolations of Kr84 between Se80 and Sr88 and of Kr83 between Br81 and Rb85.
+10. Nb93 was interpolated between Zr91 and Mo95. 11. Based on abundances in Type I carbonaceous chondrites, private communication from E. Anders. 12. Based on abundances in carbonaceous chondrites, taken from Larimer and Anders (1967). 13. Isotopic abundances of Xe were based on those in the Murray carbonaceous chondrite (Cameron, 1962). The element was normalized to Te and I to form a continuous abundance peak. 14. The abundances of Gd and Tb measured for Type I carbonaceous chondrites are anomalous relative to the usual chondritic pattern and have fairly large errors. Hence these abundances were based on those in ordinary chondrites (Urey, 1964) but normalized to Sm. 15. The Ta abundance of 0.044 for carbonaceous chondrites (Urey, 1964) appears too high relative to neighboring odd-mass nuclides. The given value was interpolated between Hf179 and W183 and is in good agreement with values in ordinary chondrites. 16. Based on abundances in Type I carbonaceous chondrites, taken from Morgan and Lovering (1967). 17. Based on abundances in Type I carbonaceous chondrites, taken from Baedecker (1967). 18. The abundance of Pt was adjusted relative to Os, Ir, and Au to form a continuous peak. The adopted value is slightly higher than in ordinary chondrites (Urey, 1964). 19. The abundances of Hg in carbonaceous chondrites are anomalously high and greatly variable. Hg was interpolated with as high a value as seemed possible, specifically by interpolating Hg199 and Hg201 between Au197 and Tl203. 20. Abundances as of 4.5 x 109 years ago based on ordinary chondrites, taken from Urey (1964).
+
+130
+
+A.G.W. Cameron
+TABLE 2. ABUNDANCES OF THE NUCLIDES CORRESPONDING TO THE ELEMENT ABUNDANCES OF CAMERON (1967) IN TABLE 1
+
+Element H He Li Be B C N O
+F Ne
+Na Mg
+Al Si
+P S
+Cl Ar
+
+A
+
+% Abundance
+
+Class
+
+Abundance
+
+1
+
+99.985
+
+2
+
+0.015
+
+3
+
+--0.03
+
+4
+
+--100
+
+6
+
+7.42
+
+7
+
+92.58
+
+9
+
+100
+
+10
+
+19.64
+
+11
+
+80.36
+
+12
+
+98.89
+
+13
+
+1.11
+
+14
+
+99.634
+
+15
+
+0.366
+
+16
+
+99.759
+
+17
+
+0.0374
+
+18
+
+0.2039
+
+19
+
+100
+
+20
+
+90.92
+
+21
+
+0.257
+
+22
+
+8.82
+
+23
+
+100
+
+24
+
+78.70
+
+25
+
+10.13
+
+26
+
+11.17
+
+27
+
+100
+
+28
+
+92.21
+
+29
+
+4.70
+
+30
+
+3.09
+
+31
+
+100
+
+32
+
+95.0
+
+33
+
+0.760
+
+34
+
+4.22
+
+36
+
+0.0136
+
+35
+
+75.529
+
+37
+
+24.471
+
+36
+
+84.2
+
+38
+
+15.8
+
+40
+
+~0.01
+
+2.6 x 1010 2.1 x 109
+
+2.6 x 1010 3.9 x 106 6.3 x 105 2.1 x 109
+
+45
+
+3.34
+
+41.66
+
+0.69
+
+6.2
+
+1.22
+
+1.35 X 107 2.44 X 106
+
+4.98 1.33 x 107 1.50 x 105 2.44 x 106
+
+2.36 x 107
+
+9000 2.36 x 107
+
+8800 4.8 x 104
+
+3630 2.36 x 106
+
+2.15 x 106
+
+6.32 x 104 1.050 x 106
+8.51 x 104 1.000 x 106
+1.27 x 104 5.06 x 105
+
+6060 2.00 x 105
+8.26 x 105 1.06 x 105 1.17 x 105
+9.22 x 105 4.70 x 104 3.09 x 104
+4.80 x 105 3.85 x 103 2.14 x 104
+
+F
+
+69
+
+1970
+
+1490
+
+2.28 x 105
+
+480 1.92 x 105 3.61 x 104
+
+F
+
+--20
+
+Element
+K Ca
+Sc Ti
+V Cr
+Mn Fe
+Co Ni
+Cu Zn
+Ga
+
+A New Table of Abundances
+
+131
+
+TABLE 2.--continued
+
+A
+
+% Abundance
+
+Class
+
+Abundance
+
+39
+
+93.10
+
+40
+
+0.38
+
+41
+
+6.88
+
+40
+
+96.97
+
+42
+
+0.64
+
+43
+
+0.145
+
+44
+
+2.06
+
+46
+
+0.0033
+
+48
+
+0.185
+
+45
+
+100
+
+46
+
+7.93
+
+47
+
+7.28
+
+48
+
+73.94
+
+49
+
+5.51
+
+50
+
+5.34
+
+50
+
+0.24
+
+51
+
+99.76
+
+50
+
+4.31
+
+52
+
+83.7
+
+53
+
+9.55
+
+54
+
+2.38
+
+55
+
+100
+
+54
+
+5.82
+
+56
+
+91.66
+
+57
+
+2.19
+
+58
+
+0.33
+
+59
+
+100
+
+58
+
+67.88
+
+60
+
+26.23
+
+61
+
+1.19
+
+62
+
+3.66
+
+64
+
+1.08
+
+63
+
+69.09
+
+65
+
+30.91
+
+64
+
+48.89
+
+66
+
+27.81
+
+67
+
+4.11
+
+68
+
+18.57
+
+70
+
+0.62
+
+3240
+
+3020
+
+12.3
+
+7.36 x 104
+
+223
+7.13 x 104
+
+470
+
+107
+
+1520
+
+F
+
+2.43
+
+F
+
+13Ç
+
+33
+
+2300
+
+182
+
+168
+
+1700
+
+127
+
+123
+
+900
+
+2.2
+
+898
+1.24 x 104
+
+535
+1.04 x 104
+
+1180
+
+297
+
+8800 8.90 x 105
+
+5.19 x 104 8.15 x 105
+1.95 x 104
+
+2900
+
+2300 4.57 x 104
+
+3.10 x 104 1.20 x 104
+
+544
+
+1670
+
+494
+
+919
+
+635
+
+284
+
+1500
+
+732
+
+417
+
+61.8
+
+278
+
+F
+
+9.3
+
+69
+
+60.4
+
+71
+
+39.6
+
+45.5 27.5 18.0
+
+132
+
+A.G.W. Cameron
+
+TABLE 2.--continued
+
+Element
+
+A
+
+% Abundance
+
+Class
+
+Abundance
+
+Ge
+
+70
+
+20.52
+
+72
+
+27.43
+
+73
+
+7.76
+
+74
+
+36.54
+
+76
+
+7.76
+
+As
+
+75
+
+100
+
+Se
+
+74
+
+0.87
+
+76
+
+9.02
+
+77
+
+7.58
+
+78
+
+23.52
+
+80
+
+49.82
+
+82
+
+9.19
+
+Br
+
+79
+
+50.537
+
+81
+
+49.463
+
+Kr
+
+78
+
+0.354
+
+80
+
+227
+
+82
+
+11.56
+
+83
+
+11.55
+
+84
+
+56.90
+
+86
+
+17.37
+
+Rb
+
+85
+
+72.15
+
+87
+
+27.85
+
+Sr
+
+84
+
+0.56
+
+86
+
+9.86
+
+87
+
+7.02
+
+88
+
+82.56
+
+Y
+
+89
+
+100
+
+Zr
+
+90
+
+51.46
+
+91
+
+11.23
+
+92
+
+17.11
+
+94
+
+17.40
+
+96
+
+2.80
+
+Nb
+
+93
+
+100
+
+Mo
+
+92
+
+15.84
+
+94
+
+9.04
+
+95
+
+15.72
+
+96
+
+16.53
+
+97
+
+9.46
+
+98
+
+23.78
+
+100
+
+9.63
+
+Ru
+
+96
+
+5.51
+
+98
+
+1.87
+
+99
+
+12.72
+
+126
+
+S
+
+25.8
+
+34.6
+
+9.77
+
+46.0
+
+F
+
+9.77
+
+7.2
+
+70.1
+
+B
+
+0.61
+
+S
+
+6.32
+
+5.31
+
+16.5
+
+34.9
+
+F
+
+6.44
+
+20.6
+
+10.4
+
+10.2
+
+64.4
+
+B
+
+0.228
+
+1.46
+
+S
+
+7.45
+
+7.44
+
+36.6
+
+11.2
+
+5.95
+
+4.29
+
+1.66
+
+58.4
+
+B
+
+0.327
+
+5.76
+
+4.10
+
+48.2
+
+4.6
+
+30
+
+15.1
+
+3.37
+
+5.14
+
+5.32
+
+F
+
+0.84
+
+1.15
+
+2.52
+
+B
+
+0.399
+
+B
+
+0.228
+
+0.396
+
+S
+
+0.417
+
+0.238
+
+0.599
+
+F
+
+0.242
+
+1.6
+
+B
+
+0.088
+
+B
+
+0.030
+
+0.204
+
+Element Rh Pd
+Ag Cd
+In Sn
+Sb Te
+I
+
+A New Table of Abundances
+
+133
+
+TABLE 2.-continued
+
+A
+
+%Abundance
+
+Class
+
+100
+
+12.62
+
+S
+
+101
+
+17.07
+
+102
+
+31.61
+
+104
+
+18.58
+
+F
+
+103
+
+100
+
+102
+
+0.96
+
+B
+
+104
+
+10.97
+
+S
+
+105
+
+22.23
+
+106
+
+27.33
+
+108
+
+26.71
+
+110
+
+11.81
+
+F
+
+107
+
+51.35
+
+109
+
+48.65
+
+106
+
+1.215
+
+B
+
+108
+
+0.875
+
+B
+
+110
+
+12.39
+
+S
+
+111
+
+12.75
+
+112
+
+24.07
+
+113
+
+12.26
+
+114
+
+28.86
+
+116
+
+7.58
+
+F
+
+113
+
+4.28
+
+115
+
+95.72
+
+112
+
+0.96
+
+B
+
+114
+
+0.66
+
+(B)
+
+115
+
+0.35
+
+(B)
+
+116
+
+14.30
+
+S
+
+117
+
+7.61
+
+118
+
+24.03
+
+119
+
+8.58
+
+120
+
+32.85
+
+122
+
+4.72
+
+(F)
+
+124
+
+5.94
+
+F
+
+121
+
+57.25
+
+123
+
+42.75
+
+120
+
+0.089
+
+B
+
+122
+
+2.46
+
+S
+
+123
+
+0.87
+
+124
+
+4.61
+
+S
+
+125
+
+6.99
+
+126
+
+18.71
+
+128
+
+31.79
+
+F
+
+130
+
+34.48
+
+F
+
+127
+
+100
+
+Abundance
+
+0.33 t5
+0.5 2.12
+0.217 4.22
+0.381 6.76
+1.41
+
+0.202 0.273 0.505 0.297
+0.0144 0.164 0.324 0.410 0.400 0.177
+0.257 0.243
+0.0258 0.0186 0.262 0.270 0.510 0.260 0.611 0.161
+0.0093 0.208
+0.0405 0.0278 0.0148 0.603 0.321 1.01 0.362 1.39 0.199 0.250
+0.218 0.163
+0.0060 0.166 0.059 0.312 0.472 1.27 2.15 2.33
+
+134
+Element Xe
+Cs Ba
+La Ce Pr Nd
+Sm
+Eu Gd
+
+A.G.W. Cameron
+TABLE 2.--continued
+
+A
+
+% Abundance
+
+Class
+
+124
+
+0.126
+
+B
+
+126
+
+0.115
+
+B
+
+128
+
+2.17
+
+S
+
+129
+
+27.5
+
+130
+
+4.26
+
+S
+
+131
+
+21.4
+
+132
+
+26.0
+
+134
+
+10.17
+
+F
+
+136
+
+8.39
+
+F
+
+133
+
+100
+
+130
+
+0.101
+
+B
+
+132
+
+0.097
+
+B
+
+134
+
+2.42
+
+S
+
+135
+
+6.59
+
+136
+
+7.81
+
+S
+
+137
+
+11.32
+
+138
+
+71.66
+
+138
+
+0.089
+
+139
+
+99.911
+
+136
+
+0.193
+
+B
+
+138
+
+0.250
+
+B
+
+140
+
+88.48
+
+142
+
+11.07
+
+F
+
+141
+
+100
+
+142
+
+27.11
+
+S
+
+143
+
+12.17
+
+144
+
+23.85
+
+145
+
+8.30
+
+146
+
+17.22
+
+148
+
+5.73
+
+F
+
+150
+
+5.62
+
+F
+
+144
+
+3.09
+
+B
+
+147
+
+14.97
+
+148
+
+11.24
+
+S
+
+149
+
+13.83
+
+150
+
+7.44
+
+S
+
+152
+
+26.72
+
+154
+
+22.71
+
+F
+
+151
+
+47.82
+
+153
+
+52.18
+
+152
+
+0.200
+
+154
+
+2.15
+
+S
+
+155
+
+14.73
+
+156
+
+20.47
+
+Abundance
+
+7.10
+0.367 4.7
+0.36 1.17 0.17 0.77
+0.23
+0.091 0.34
+
+0.00895 0.00816 0.154 1.95 0.303 1.52 1.85 0.721 0.595
+0.00475 0.00455 0.114 0.310 0.367 0.532 3.37
+0.00032 0.36
+0.00226 0.00292 1.035 0.129
+0.209 0.0936 0.184 0.0640 0.133 0.0441 0.0433
+0.0071 0.0344 0.0259 0.0318 0.0171 0.0614 0.0522
+0.0435 0.0475
+0.00068 0.00731 0.0501 0.0696
+
+Element
+
+A
+
+157
+
+158
+
+160
+
+Tb
+
+159
+
+Dy
+
+156 158 160 161
+
+1 162 163
+
+164
+
+Ho
+
+165
+
+Er
+
+162
+
+164
+
+166
+
+167
+
+168
+
+170
+
+Tm
+
+169
+
+Yb 168 170 171
+
+172 173
+
+174 176
+
+Lu 175
+
+176
+
+Hf
+
+174
+
+176 177
+
+178 179 180
+
+Ta 180 181
+
+W
+
+180 182 183 184 186
+
+Re 185 187
+
+A New Table of Abundances
+TABLE 2.--continued
+
+% Abundance
+15.68 24.87 21.90 100
+0.0524 0.0902 2.294 18.88 25.53 24.97 28.18 100
+0.136 1.56 33.41 22.94 27.07 14.88 100
+0.135 3.03 14.31 21.82 16.13 31.84 12.73
+97.41 2.59
+0.18 5.20 18.50 27.14 13.75 35.24
+0.0123 99.9877
+0.135 26.41 14.40 30.64 28.41
+37.07 62.93
+
+Class F B B S
+B
+F B S
+F
+B S
+B F
+
+135
+
+Abundance
+
+0.052 0.36
+0.090 0.22
+0.035 0.21
+0.035 0.16
+0.022 0.16
+0.055
+
+0.0532 0.0847 0.0745
+0.000189 0.000325 0.00825 0.0680 0.0919 0.0899 0.1112
+0.000299 0.00343 0.0735 0.0505 0.0595 0.0327
+0.000284 0.00636 0.0301 0.0460 0.0339 0.0670 0.0268
+0.0341 0.00091
+0.000288 0.00832 0.0296 0.0434 0.0220 0.0564
+0.0000027 0.022
+0.000216 0.0423 0.0230 0.0490 0.0455
+0.0204 0.0346
+
+136 Element Os
+Ir Pt
+Au Hg
+Tl Pb
+Bi Th U
+
+A. G. W. Cameron
+TABLE 2.--continued
+
+A
+
+% Abundance
+
+Class
+
+184
+
+0.018
+
+B
+
+186
+
+1.29
+
+S
+
+187
+
+1.64
+
+188
+
+13.3
+
+189
+
+16.1
+
+190
+
+26.4
+
+192
+
+41.0
+
+F
+
+191
+
+37.3
+
+193
+
+62.7
+
+190
+
+0.0127
+
+B
+
+192
+
+0.78
+
+S
+
+194
+
+32.9
+
+195
+
+33.8
+
+196
+
+25.3
+
+198
+
+7.21
+
+F
+
+197
+
+100
+
+196
+
+0.146
+
+B
+
+198
+
+10.02
+
+S
+
+199
+
+16.84
+
+200
+
+23.13
+
+201
+
+13.22
+
+202
+
+29.80
+
+204
+
+6.85
+
+F
+
+203
+
+29.50
+
+205
+
+70.50
+
+204
+
+1.97
+
+S
+
+206
+
+18.83
+
+207
+
+20.60
+
+208
+
+58.55
+
+209
+
+100
+
+232
+
+100
+
+235
+
+23.1
+
+238
+
+76.9
+
+Abundance
+
+0.71
+0.43 1.13
+0.20 0.75
+0.182 2.90
+0.164 0.034 0.0234
+
+0.000128 0.0113 0.0116 0.0945 0.1142 0.1875 0.291
+0.164 0.276
+0.000144 0.00994 0.372 0.382 0.286 0.0815
+0.00102 0.0703 0.118 0.162 0.0926 0.2084 0.0480
+0.0537 0.1283
+0.057 0.546 0.596 1.70
+0.0054 0.0180
+
+K 4 0 ; the estimate in Table 2 comes from the consideration that Ar40 is a product of neutron capture on a fast time scale and hence should be comparable in abundance to S 3 6 , Ca46, and Ca48. The abundances of uranium, thorium, and K 4 0 isotopes have been corrected for a decay interval of 4.5 x 109 years to make them typical of the initial solar system; other radioactive nuclides have not been corrected because the half-lives are long and the corrections small. The isotopic abundances of xenon have been taken from the analysis of xenon from the Murray carbonaceous chondrite according to
+
+A New Table of Abundances
+
+137
+
+the interpretation given by Cameron (1962); this assumes that the atmospheric composition of xenon is distorted by a fission xenon contribution.
+The Cameron (1967) abundances are plotted as a function of mass number infigure1. Of particular interest for problems of nucleo-synthesis are the oddeven ratios among the heavier nuclei and the sharp and rounded peaks corresponding to closed shells of 82 and 126 neutrons in the process of neutron capture on slow and fast time scales.
+
+0 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 Mass Number
+FIG. 1. Abundances of the nuclides plotted as a function of mass number.
+
+138
+
+A. G. W. Cameron
+
+The abundances of products of neutron capture are shown separately for each element upwards from the iron region in figures 2 to 5. Nuclides with odd mass numbers are plotted as solid circles ; those with even mass numbers are plotted with crosses. If an even mass number is classed as an F isobar, the cross is surrounded by a square; if it is classed as an S isobar, the cross is
+
+50 54 58 62 66 70 74 78 82 86 90 94 98 102 106 110 Mass Number
+FIG. 2. Abundances of nuclides which can be formed by neutron capture, upwards from the iron peak region (in which all nuclides are plotted). Symbols are explained
+in the text.
+surrounded by a circle. These figures are very useful if one wishes to make estimates of the relative contributions to abundances of nuclides from the fast and slow time scale processes.
+It should be emphasized that the abundances of heavy elements which are now based principally upon good determinations in Type I carbonaceous chondrites are very satisfactory from the point of view of the processes of nucleosynthesis. It has been known for a long time that there is an excellent
+
+A New Table of Abundances
+
+139
+
+-|
+
+1
+
+1
+
+1
+
+1
+
+i
+
+r-
+
+Mo
+
+Cd
+
+Wx -
+
+_j
+
+i
+
+i
+
+i
+
+i
+
+i
+
+I
+
+i
+
+i
+
+i_
+
+90 94 98 102 106 110 114 118 122 126 130 134 138 142 146 150
+
+Mass Number
+
+FIG. 3. Continuation offigure2.
+
+Os
+Er Yb
+
+10'
+
+_l
+
+I
+
+I
+
+L_
+
+130 134 138 142 146 150 154 158 162 166 170 174 178 182 186 190
+
+Mass Numer
+
+FIG. 4. Continuation of figure 3.
+
+140
+
+A. G. W. Cameron
+
+regularity in abundances of nuclides corresponding to a given process of nucleosynthesis among the rare earth elements, which are subject to very little chemical fractionation. This property is now generally true of the entire distributions of figures 2 to 5. Odd-even ratios vary regularly, being small for fast time scale products and larger for slow time scale products.
+
+170 174 178 182 186 190 194 198 202 206 210 228 232 236 240 244
+Mass Number
+FIG. 5. Continuation of figure 4.
+One difficulty with previous abundance determinations has been the small odd-even ratios for the isotopes of Cu and Zn. This has now been satisfactorily eliminated because of the higher Zn abundance measured in Type I carbonaceous chondrites. Other expected regularities as enumerated by Cameron (1959) are satisfactorily followed.
+In figure 6 are plotted the abundance trends of even mass numbers for three processes of nucleosynthesis : products of neutron capture on fast and slow time scales, and bypassed nuclei. These abundance trends have been determined from isobaric abundances and from additional behavior, such as peaks at closed neutron shells, where it is evident that the observed abundances are produced primarily by a single process.
+One of the striking features of the abundance distribution of the products of neutron capture on a slow time scale is the fact that , the product of the
+
+A New Table of Abundances
+
+141
+
+average neutron capture cross-section near 25 keV and the abundance, is a smooth monotonically decreasing function of mass number (Seeger, Fowler and Clayton, 1965). Because of local variability in the neutron capture crosssections, it may be noticed in figure 6 that the abundances of the S isobars scatter about a smooth curve.
+
+I02 i
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1 
+
+70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 Mass . Number
+FIG. 6. Trends among heavy nuclei of abundances attributable to neutron capture on fast and slow time scales and to bypassed processes.
+At present we know much less about the set of astrophysical environments responsible for the production of the products of neutron capture on a fast time scale than we do about those responsible for the slow time scale products. Therefore it is important to examine the abundance data to determine whether additional boundary conditions can be assigned to the fast time scale processes. Several features are worthy of note. The curve drawn through
+
+142
+
+A. G. W. Cameron
+
+the F isobar abundances is remarkably smooth, in contrast to the scatter about the S isobar curve. Hence the fast time scale abundances are not affected by the variability of individual neutron capture cross-sections. Abundance smoothing processes must have been operative, either through a contribution from several values of atomic number Z to each mass number, or through frequent neutron emission following the high-energy beta decays of the neutron-rich final products of the capture process. In addition, the neutron capture process must have terminated quite abruptly; otherwise fast beta decays would have produced only one capture product per mass number, and the final abundances would h^ve been affected by cross-section variations.
+The fast time scale product peaks at mass numbers 130 aijd 195 correspond to closed shells of 82 and 126 neutrons. As discussed by Truran, Arnett, Tsuruta and Cameron (1967), it appears that these peaks are made near the base of an ejected supernova envelope, where the material has been largely transformed into neutrons. Under the astrophysical conditions in which these peaks are made, it is expected that negligible amounts of intermediate mass numbers will be formed. Yet it can be seen in figure 6 and from Table 2 that the abundances associated with F isobars near mass numbers 40 and 70 are much larger than those in the closed shell peaks mentioned above. This suggests that there must be a very different fast time scale process in which a burst of neutrons can be produced and added to pre-existing intermediate elements. One possibility for producing this situation is the passage of a supernova shock wave through the helium shell in the presupernova structure, where rapid (,) reactions may be an effective neutron source.
+Also plotted in figure 6 are the abundances of the B isobars. These can be produced from a pre-existing abundance distribution either by photodisintegrations which remove neutrons and protons from nuclei, or by proton capture reactions taking place in a hydrogen-rich region briefly raised to a high temperature. The first case can arise when a supernova shock wave traverses a hydrogen-depleted region of the presupernova structure in which neutrons cannot be produced in quantity by (,) reactions. The second case can occur when a supernova shock wave traverses the outer hydrogen layer of the presupernova structure.
+The abundance distribution of figure 6 favors the proton capture process. Since this would take place in the outer layers of the presupernova structure, the heavy elements could at most have been exposed to the very small neutron flux accompanying deuterium-burning, and the abundance changes produced by this would be negligible. Hence one should expect that the abundance distribution of the proton capture products would be similar to the superposition of the abundance distributions produced by neutron capture, except that the increasing Coulomb barrier with increasing atomic number would produce a progressive decrease in proton capture rates, with a corresponding increase in the ratio of the abundances of the neutron capture to proton
+
+A New Table of Abundances
+
+143
+
+capture products. It may be seen that this expectation is fulfilled. In addition, the abundances of the B isobars are relatively high up to a position slightly beyond the slow time scale closed shell peaks, beyond which they fall rapidly. This also would be expected on the proton capture mechanism.
+The rise at the upper end of the B isobar distribution is given solely by an isotope of mercury. This element was interpolated in the compilation of the new abundance table, and there is great uncertainty in the interpolation. The mercury abundance was chosen as high as seemed reasonable in view of the large amounts of mercury in carbonaceous chondrites. Hence the reality of this final rise in the B isobar distribution is not at all certain.
+
+Acknowledgements
+I am indebted to Professor E. Anders for a great deal of advice on meteorite abundances during a period of several years and in connection with the present abundance compilation. I am further indebted to Dr. J. W. Truran and Dr. W. D. Arnett for many discussions of the relation between nucleosynthesis and supernova hydrodynamics which has influenced the discussion in the latter part of the paper. This research has been supported in part by the U.S. Atomic Energy Commission and the National Aeronautics and Space Administration.
+
+References
+ALLER, L. H . (1961) The Abundances of the Elements. Interscience Pub., Inc., New York. ANDERS, E. (1964) Space Sei. Revs. 3, 583. BAEDECKER, P. A. (1967) Thesis, U. of Kentucky. BURBIDGE, E. M., BURBIDGE, G. R., FOWLER, W. A. and HOYLE, F. (1957) Revs. Modern
+Phys. 29, 547. CAMERON, A. G. W. (1957) Chalk River report CRL-41. CAMERON, A. G. W. (1959) Astrophys. J. 129, 676. CAMERON, A. G. W. (1962) Icarus 1, 13. CAMERON, A. G. W. (1963) Nuclear Astrophysics. Notes from lectures at Yale University,
+unpublished. GAUSTAD, J. E. (1964) Astrophys. J. 139, 406. LARIMER, J. W. and ANDERS, E. (1967) Preprint. MORGAN, J. W. and LOVERING, J. F. (1967) Preprint. SEEGER, P. A., FOWLER, W. A. and CLAYTON, D . D . (1965) Astrophys. J. Suppl. 11, 121. SIGNER, P. and SUESS, H. E. (1963) In Earth Science and Meteoritics (J. Geiss and E. D .
+Goldberg, eds.), North-Holland Pub. Co., Amsterdam. SUESS, H. E. and UREY, H. C. (1956) Revs. Modern Phys. 28, 53.
+TRURAN, J. W., ARNETT, W. D., TSURUTA, S. and CAMERON, A. G. W. (1967) in AHRENS,
+L. H. This volume, p. 77.
+
+O.D.E.--6
+
+

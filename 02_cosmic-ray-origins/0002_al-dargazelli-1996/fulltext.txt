@@ -1,0 +1,267 @@
+Journal of Physics G: Nuclear and Particle Physics
+
+The origin of cosmic rays of the highest energies
+To cite this article: S S Al-Dargazelli et al 1996 J. Phys. G: Nucl. Part. Phys. 22 1825
+
+Related content
+- Limits to the flux of ultra-highenergycosmic rays from exotic phenomena in the galactic halo T Wibig and A W Wolfendale
+- Galactic cosmic rays at
+
+View the article online for updates and enhancements.
+
+A A Ivanov
+- Cosmic ray origin: the way ahead A W Wolfendale
+
+Recent citations
+- Ultra high energy cosmic rays Tadeusz Wibig and Arnold W Wolfendale
+- Peter Tinyakov
+- A comparative study of correlations between arrival directions of ultra-highenergy cosmic rays and positions of their potential astrophysical sources D.S. Gorbunov and S.V. Troitsky
+
+This content was downloaded from IP address 114.214.205.141 on 13/05/2021 at 16:08
+
+J. Phys. G: Nucl. Part. Phys. 22 (1996) 1825-1838. Printed in the UK
+
+The origin of cosmic rays of the highest energies
+S S Al-Dargazelli, A W Wolfendale, A Smialkowski and J Wdowczyk
+ Physics Department, University of Durham, Durham, UK  Physics Department, University of Lodz, Lodz, Poland
+Received 11 June 1996, in final form 19 August 1996
+Abstract. Recent work has focused on the presence of anisotropies in cosmic ray arrival directions for energies above 2 × 1019 eV. Here, we examine the results in some detail from the standpoint of identifying likely extra-galactic sources. Of the types of galaxy studied, those in collision, and which are within 10 Mpc of the Milky Way, are the strongest contenders.
+
+1. Introduction
+
+In a series of papers (Szabelski et al 1986, Chi et al 1992a, b, c, d and later papers) we examined the world's data on cosmic rays above 1018 eV from the standpoint of searching for their origin. We concluded that there was evidence for preferred directions in space (cosmic ray clusters) for their arrival directions--presumably the directions to specific sources. There were more clusters near the Galactic Plane than expected by chance and this fact, coupled with an apparent general excess towards the Galactic Plane (below 2×1019 eV), the Galactic Plane enhancement of Wdowczyk and Wolfendale (1984), led us to claim that there were still some cosmic rays (CRs) of Galactic origin of energy as high as 2 × 1019 eV and perhaps a little beyond. An increasing fraction of extragalactic (EG) particles (presumed to be protons) above a few 1018 eV was presumed to be responsible for the rest of the particles. Only the VIRGO cluster seemed to be favoured as a source of EG particles (Szabelski et al 1986).
+Very recently analyses have been made which have updated the earlier work by including more recent observations and by analysing the arrival directions in a different way. Stanev et al (1995) have examined the arrival directions from Northern Hemisphere arrays for particles above 2 × 1019 eV and claimed a non-uniform arrival direction distribution. Above 4 × 1019 eV it is claimed that there is a correlation with the `supergalactic plane', a region where there are many potential EG sources.
+Hayashida et al (1996) have studied the data from their own extensive air shower array (AGASA). They, too, found concentration on the supergalactic plane, but only for a subset; they also detect some interesting groupings.
+In what follows we endeavour to determine the nature of the sources of at least some of the EG particles. A necessary, and new, analysis is made of the topography of the magnetic field in the Galactic Halo and beyond; only if this is known will it be possible to interpret the anisotropies.
+ Since deceased.
+
+0954-3899/96/121825+14$19.50 c 1996 IOP Publishing Ltd
+
+1825
+
+1826
+
+S S Al-Dargazelli et al
+
+Figure 1. (a) Map of CR clusters: · , clusters from Chi et al (1992a) with E > 1019 eV (the
+statistically superior set); +, close pairs with E > 4 × 1019 eV from Hayashida et al (1996)
+(the average energy of all the pair particles is 9 × 1019 eV);  , clusters from the Yakutsk
+experiments with E > 1019 eV, Efimov and Mikhailov (1994); , events above 2 × 1020 eV (see text). Note that one of the close pairs in the lowest ringed set (shown as +) is the event shown as a triangle. (b) Map of CR excesses from the work of Stanev et al (1995); the darker regions represent more significant excesses and the dashed regions the least significant excesses. The dashed smooth line is the (approximate) edge of the exposure for the Northern Hemisphere data used. (c) The three regions for |b| > 20 have the strongest likelihood of relating to EG sources; we have denoted them A, B and C.
+2. Evidence for cosmic ray anisotropies
+2.1. Large-scale anisotropies
+Our earlier claims for a Galactic Plane enhancement and thus a Galactic origin of some of the particles (see section 1) seem, to us, to be still valid although its amplitude is somewhat smaller than first thought. The amplitude does in fact still grow with increasing energy, just as expected (see Chikawa et al (1995) for a very recent summary). The fact that the enhancement is never really strong is put down to two factors: a dominant flux of Galactic
+
+The origin of cosmic rays of the highest energies
+
+1827
+
+Figure 1. (Continued)
+heavy nuclei, with their attendant considerable deflections in the Galactic field even at energies above 1018 eV, and the likely presence of extragalactic particles which terminates the increase.
+2.2. Clusters
+Positive proof of the existence of specific astronomical objects will only come when `hot spots' or `clusters' (the terminology here) appear in the CR arrival direction at the highest energies and these coincide with a priori likely sources. In earlier work, we (Chi et al 1992a) made a statistical analysis of arrival directions and put forward tentative claims for clustering (i.e. hot spots) in various directions. Figure 1(a) shows the map. A cluster was such that four particles had to have energy above 1 × 1019 eV and be within 6 of a particle of energy above 3 × 1019 eV. Of greatest interest to us was the apparent excess (over isotropy) of clusters near the Galactic Plane; in the present work, however, our interest is in the region away from the Plane.
+As mentioned in the introduction, later workers have carried out somewhat similar analyses but with more data. In this context, a particularly useful analysis has been made by Stanev et al (1995); these authors have confined attention to the Northern Hemisphere arrays and their results are presented in figure 1(b). The most significant hot spots are shown as the darkest areas on the map and the least significant are dashed. The energy threshold is 2 × 1019 eV.
+There have been new data presented from the Akeno array (E > 4 × 1019 eV) by Hayashida et al (1996) and although these data have been analysed from the standpoint of correlations with the Galactic and Supergalactic Planes they have not been examined with respect to clusters in general. However, the authors drew attention to three unusually close pairs and these are indicated in figure 1(a). These observations are important because the (earlier) Akeno data were not included in our own earlier analyses.
+
+1828
+
+S S Al-Dargazelli et al
+
+The Yakutsk data have also been examined again using more data than were available to Chi et al by Efimov and Mikhailov (1994). Four clusters were identified and these are shown in figure 1(a).
+Finally, we have given, in figure 1(a), the directions of the three highest energy events: those above 2 × 1020 eV (from Fly's Eye, Bird et al (1995), Yakutsk, Efimov and Mikhailov (1994); and AGASA, Hayashida et al (1994)).
+Problems with different exposure characteristics for the various arrays make a proper analysis of `the world's data' from the cluster standpoint very difficult but we draw the following conclusions.
+(i) The analysis of Stanev et al, which takes data only from a comparatively harmonious set of arrays, indicates excesses, with various degrees of significance, for which the directions of the most significant are:
+
+, b (100-310), (65-80) (130-160), (45-65) 130, -35 160, 0 140, -15 65, 20 25, 0
+
+(region 1) (region 2) (region 3) (region 4) (region 5) (region 6) (region 7).
+
+(ii) The best clusters from figure 1(a) are those shown ringed, viz at
+, b 165, 0 70, +20 135, -35
+
+(see the caption to the figure 1(a) for details of the events). It will be noted that these clusters are close to regions 4, 6 and 3 above. Insofar as
+there are many common events in the two analyses, (ii) cannot be regarded as giving much extra support to (i) but it does give some.
+
+3. Discussion
+3.1. Clusters within 20 of the Galactic Plane
+Of the seven clusters (or, more properly, `regions of excess', since two are of considerable angular extent) four are within 20 of the Plane (regions 4-7) and it is reasonable, but by no means certain, to associate them with Galactic objects. The lack of certainty is associated with the lack of obvious astronomical counterparts. Pulsars, unidentified, as yet, at other wavelengths are a possibility but the mechanism by which such objects accelerate particles to 1020 eV is quite unclear.
+Until the Galactic sources are identified (if, indeed, they are Galactic) then there must be doubt as to whether or not the other sources (responsible for the `regions of excess') are Galactic or not. However, the large angular extent of some of the sources militates against a Galactic explanation, at least if the particles are protons. For iron nuclei even the high-latitude sources would need to be more than about 1 kpc away in order to reproduce the large extents of figure 1(b). Furthermore, we would expect the highest particles of all to centre on the regions of excess. Although this may be happening in regions 2, 3 and 6 it is not happening for the extended regions 1 and 4.
+
+The origin of cosmic rays of the highest energies
+
+1829
+
+3.2. Clusters/regions beyond |b| = 20
+
+The most reasonable explanation for these clusters and indeed for most `high'-latitude, high-energy particles is that they come from extragalactic (EG) sources (hardly an original suggestion!). In fact, those with |b| < 20 could also be EG but unidentified because of the near impossibility of detecting EG objects of significance in this region--a fact stemming from Galactic obscuration. We present the clusters and regions of excess (all to be referred to, still, as `clusters') in figure 1(c) denoted A, B and C.
+In what follows we examine the various contenders for EG sources, but before doing this it is necessary to examine the likely magnetic field topology in both Galactic and EG space. The question of loss of particles by interactions with the 2.7 K cosmic microwave background (CMB) will also be discussed.
+
+4. Factors affecting propagation
+4.1. The magnetic field topography
+Of crucial importance to the propagation of cosmic rays is the topography of the magnetic field, characterized by its mean value and its reversal length, the latter being a characteristic dimension which encapsulates what is no doubt a complex spectrum of irregularities. In fact the encapsulation is energy dependent in the sense that particles of a particular energy, E, are affected by irregularities on the scale of the Larmor radius L appropriate to that energy. Thus, the problem hinges on the power contained in the irregularity spectrum, on a scale of order L. At low energies where most of the total energy is carried, there is often a close linkage between the irregularities (turbulence) and the cosmic ray spectrum and there are, for example, plasma equations which relate L to the conditions of the medium but these are not appropriate for use at very high energies. Instead, rather empirical methods must be adopted.
+Locally, within the Galactic Disk, the mean smooth field is commonly regarded to have a strength of  2 µG (e.g. Phillipps et al (1981), Chi and Wolfendale (1990)) and a variety of observations (Faraday rotation, stellar polarization, etc) have led to rather direct studies of the field irregularities. These yield a reversal length of  200 pc, (Osborne et al 1973).
+Starting with the average strength of the magnetic field an estimate can be made using the well known empirical fact that there is (often) a near equality of the overall magnetic field energy density and that in cosmic rays (e.g., B  3 µG corresponds to the CR energy density, locally, of  0.5 eV cm-3). In what follows we assume that this equality is valid everywhere.
+Proceeding outward we are guided by synchrotron radiation analyses (e.g. Phillipps et al 1981) to postulate that the field falls to, typically, 1 µG at z = 1 kpc and then more rapidly. Although not of great importance here, we adopt the Giant Halo model of Moore and Davies (1994) in which the Halo extends to at least 100 kpc. The (ionized) gas temperature is estimated to be  2 × 106 K and the density, at  65 kpc,  5 × 10-5 cm-3. The corresponding energy density is  10-2 eV cm-3 yielding a field of  0.15 µG when equipartition arguments are adopted. Figure 2 shows the situation.
+Derivation of the reversal length  is much more difficult but an attempt has been made using the value ( 0.2 kpc) appropriate to the Galactic Plane. The fact that this value comes from rather direct observations means that there is considerable power in the irregularity spectrum at this  and we presume that there will be, similarly, power in the scaled value--which is of relevance to high-energy cosmic ray propagation.
+
+1830
+
+S S Al-Dargazelli et al
+
+Figure 2. Estimated magnetic field and reversal length for the region between the sun and the centre of the VIRGO cluster. VIRGO is positioned using H0 = 75 km s-1 Mpc-1.
+Plasma theory (e.g. Berezhko et al 1996) indicates   B-2 but this is for the close linkage of CR and turbulence referred to above. Simple geometry of expanding bubbles of magnetic field rising from the Plane indicate   B-1/2. A compromise, which is sufficiently accurate for the present purpose is to take   B-1 and the result for the Galactic Halo is shown in figure 2.
+The all-important region of EG space can now be examined. Other workers (e.g. Stanev et al 1995, Hayashida et al 1996) have argued that   1 Mpc in EG space but we consider this value to be too large for EG space towards the inner part of the supercluster, the centre of which is VIRGO at l, b  283, +75. Similarly we consider the mean field to be greater than the 10-3 µG adopted by Hayashida et al.
+It is interesting to note that these values come from the analysis of Kronberg (1994) in relation to the search for limits on the presence of a field aligned on cosmological scales and the results are quoted for a `widespread, all-prevading field'. As will be described shortly, the summary of Kronberg by no means precludes values of B and  as derived by us for the VIRGO supercluster region, which is not, of course, typical of the Universe as a whole.
+Our arguments run as follows: starting with the value of B, a simple calculation based on the known rate of emission of cosmic rays in the Galaxy, most of which escape, and the roughly known density of galaxies in the region in question (from Tully 1988) yields an energy density in CR for much of the region to the VIRGO cluster (say to 5 Mpc from VIRGO) corresponding to B 10-2 µG. Near the VIRGO cluster the field will increase; scaling from observations on the COMA cluster, where B  2 µG (Kim et al 1990), and other clusters, where B  1 µG out to some 0.5 Mpc from the clusters (Kim et al 1991), gives B  1 µG for the central region of VIRGO (the values come from Faraday rotation measurements). It is reasonable to assume that the field falls off with distance from the centre of VIRGO as indicated in figure 2, the scale length for the fall being that observed for the cluster gas.
+The determination of  for the EG space and the VIRGO region is the most difficult part of the analysis. Starting with the VIRGO region itself we use the values given in the survey by Kronberg (1994) for the COMA cluster (which is much richer than VIRGO), and `poor clusters and groups', to imply   3 kpc.
+It is interesting to note that to a first approximation B is approximately 3 µG kpc, not far from the 1 µG kpc for the `widespread all-pervading field' referred to above. A similar value (3 µG × 0.2 kpc = 0.6 µG kpc) pertains to the local region of the Galaxy (figure 2)
+
+The origin of cosmic rays of the highest energies
+
+1831
+
+Figure 3. Maps of galaxies (from the catalogue by Tully (1998)) with (a) R = 0-5 Mpc and (b) 5-10 Mpc.
+and insofar as we have adopted   B-1 for the Galactic Halo the same result is also true here. Thus, we adopt B = constant = 1 µG kpc for the bulk of the intergalactic space between the Galaxy and VIRGO.
+A similar value for  for the EG space can be derived from geometrical arguments (which have rather uncertain validity) by expanding the local Galactic value (0.2 kpc) to the effective fraction of the EG space `belonging' to the Galaxy. Thus, using the approximate density of galaxies (within 3 Mpc) derived by us from the catalogue of Tully (1988) yields an expansion factor of  200×. Expanding the Galactic value of  thus yields  40 kpc, which is not too far from our adopted 100 kpc.
+4.2. Propagation in the magnetic field
+It is easy to show that the RMS deflection of a proton of energy pc (units of 1020 eV) travelling through a magnetic field B (µG) (assumed constant over the reversal length, )
+
+1832
+
+S S Al-Dargazelli et al
+
+Table 1. RMS deflection (in degrees) for a proton of energy pc originating at a distance d from the sun. Propagation details from figure 2.
+
+
+
+d (Mpc)
+15 (VIRGO) 10 5
+
+pc = 4 × 1019 eV
+55 15 9
+
+pc = 1020 eV
+22 6 3.6
+
+from a source distance l (Mpc),  being measured in Mpc, is given by
+
+ = 510 (l)1/2 B degrees pc
+
+(for iron nuclei  is 26 times greater).
+
+Table 1 indicates the situation for protons coming from particular distances using the data of figure 2 and the equation for . We note that for the smaller clusters, with their minimum energy of 2 × 1019 eV (mean 4 × 1019 eV), 10 Mpc is about as far as one might hope to go. For extended regions of excess, however, the VIRGO cluster at 15 Mpc might just be reached.
+
+4.3. Interactions with the CMB
+The details of the interaction of protons with the CMB have been worked out by many authors. The mean free path is equal to the (adopted) distance to VIRGO of 15 Mpc at 3 × 1020 eV. Allowance for the extra path due to diffusion and the enhanced radiation field due to emission from the galaxies in the VIRGO cluster will reduce the energy to somewhat below 2 × 1020 eV.
+
+5. Potential sources of EG particles within 10 Mpc
+5.1. General remarks
+There are many possibilities. These include the following. (i) Galaxies which are 'normal' in other respects; insofar as we do not know the nature
+of the sources of very energetic particles in our own Galaxy we cannot define `cosmic ray normality'.
+(ii) Galaxies with active galactic nuclei (Seyferts, and Active Galactic Nuclei (`AGN') in general).
+(iii) Galaxies which are colliding. The lack of appreciation of what factor indicates which galaxy should emit very energetic particles means that cuts on optical brightness, strength of radio emission, etc may not be appropriate although a priori it would be expected that `brighter' galaxies would be stronger contenders. In what follows we examine the maps of galaxies of various types and compare them with the CR excess map of figure 1(c). As to a distance scale, we adopt H0 = 75 km s-1Mpc-1.
+
+The origin of cosmic rays of the highest energies
+
+1833
+
+5.2. All nearby galaxies
+Figure 3 gives the positions of all galaxies within the indicated distance bands, the data being from the catalogue of Tully (1988). Although no brightness information is indicated in the figure, in fact the mix is largely independent of region (with the exception of the Magellanic Clouds which have very high brightness recorded at earth). It is seen that cluster A could perhaps be in the range 5-10 Mpc, although there are not many galaxies in this region, and clusters B and C could be in either distance range, cluster B being particularly favoured by high galaxy densities in both distance regions.
+
+5.3. Seyfert galaxies
+Figure 4 shows the positions of Seyfert galaxies within 10 Mpc. Clusters A and C are not favoured by local bright Seyfert galaxies but, on the other hand, cluster B is so favoured.
+
+Figure 4. Seyfert galaxies within 10 Mpc. Figure 5. Colliding galaxies (VV type) within 10 Mpc.
+
+1834
+
+S S Al-Dargazelli et al
+
+5.4. Colliding galaxies
+Figure 5 shows colliding galaxies (the VV subset of Tully (1988)) in two ranges of brightness. It will be noted that this is the best situation yet with all three CR clusters correlating well with colliding galaxies, particularly the brighter ones. Details of the brighter colliding galaxies are given in table 2. It is interesting to note that the intrinsically brighter set is on average also closer than the others with mean distances of 7.2 and 8.9 Mpc, respectively.
+
+Table 2. Colliding galaxies within 10 Mpc and being brighter than MB = -18, from Tully (1988).
+
+VV No
+338 11 308 73 1 (M51) 344 (M101)
+
+Galaxies
+N672, U1249 N3432 N3627/8 N4618 N5194/5 N5457/74
+
+l
+
+b
+
+138 185 242 131 105 102
+
+-34 63 64 76 69 60
+
+Distance (Mpc) MB
+
+7.5 7.8 6.6, 7.7 7.3 7.7, 9.3 5.4, 6.0
+
+-18.65 -18.38 -19.66, -19.96 -18.12 -20.75, -19.32 -20.45
+
+6. Galaxies in the range 10-20 Mpc
+6.1. General remarks
+Inspection of table 1 shows that protons from sources beyond 10 Mpc--and perhaps as far as 20 Mpc--might just give detectable large area clusters for mean energies above 4×1019 eV. Thus, we now search these regions.
+6.2. All galaxies in the range 10-15 Mpc
+Figure 6 shows maps for two distance ranges. We note that all the clusters have virtually no galaxies in their areas. An interesting consequence of this fact is that the magnetic field in line of sight to A, B and C may be somewhat lower than in our estimate of figure 2 (and  correspondingly longer).
+6.3. All galaxies in the range 15-20 Mpc
+The situation here is very different for clusters A and B. Here, there are very many galaxies, potential sources, in the areas. Cluster A contains the VIRGO galaxy cluster and B contains the URSA MAJOR (or Canes Venatici, Tully (1988)) conglomerate. The latter appears to be connected by a `bridge' to VIRGO.
+6.4. Seyfert galaxies in the range 10-20 Mpc
+Figure 7(a) shows the map for Seyfert galaxies, with a distinction being made between the brighter and less bright galaxies. Cluster A is very marginally favoured, with a number of bright Seyfert galaxies being found on the perimeter. Cluster B is quite strongly favoured.
+
+The origin of cosmic rays of the highest energies
+
+1835
+
+Figure 6. Maps of all galaxies (from the catalogue of Tully (1998)) with (a) R = 10-15 Mpc and (b) 15-20 Mpc.
+6.5. Colliding galaxies in the range 10-20 Mpc Figure 7(b) shows the VV galaxies in the range 10-20 Mpc. Cluster A is strongly favoured; as might have been expected, the high density of galaxies in VIRGO is reflected by a large number of galaxies in collision.
+7. Discussion
+7.1. Colliding galaxies Inspection of the maps of the potential EG sources considered shows that there is a distinct possibility that colliding galaxies are responsible (figure 5), the case for cosmic ray cluster `C' being particularly strong. The colliding galaxy pair VV 338 (N672 and U1249) is therefore most favoured. The `local' colliding galaxies towards clusters A and B are not
+
+1836
+
+S S Al-Dargazelli et al
+
+Figure 7. (a) Map of Seyfert galaxies within the distance range R = 10-20 Mpc. (b) Map of colliding galaxies within the distance range R = 10-20 Mpc.
+quite as strong and it is just possible that these are not (mainly) responsible, as will become clear shortly. It is premature to work out a detailed model to account for the particles, suffice it to say that a spectrum of the form E-2 and total rate of energy production of approximately 1040 ergs-1 would be sufficient. Such an energy could come from magnetic connection of the field lines of the galaxies; it should be possible to accelerate protons within 108 y (the lifetime for 2 × 1020 eV protons on the CMB) and allow them to escape the accelerating region. Those of much lower energy may well be trapped and never escape; this fact is not important, however, because in this region Galactic particles predominate.
+It can also be remarked that there is direct evidence for enhanced magnetic fields in interacting galaxies (e.g. Hummel and Beck 1996) and also a possibility related phenomenon--the presence of intense bursts of massive star formation (Jog and Solomon 1992).
+
+The origin of cosmic rays of the highest energies
+
+1837
+
+7.2. Galaxies in the VIRGO and URSA MAJOR clusters
+In terms of sheer galaxy numbers these two regions are clear favourites for clusters A and B. Thus, if otherwise normal galaxies emit very energetic protons from time to time then these two galaxy clusters are favourites. Alternative, and perhaps more likely, explanations are the following.
+
+7.2.1. Colliding galaxies. Insofar as we have made a strong claim for cluster C being due to nearby colliding galaxies and figure 5 shows other nearby colliding galaxies to be close to or within the clusters, colliding galaxies must be taken very seriously.
+Figure 7(b) shows that there are also colliding galaxies in the regions of clusters A and B. Indeed, because of the high density of galaxies in the VIRGO and URSA MAJOR galaxy clusters there are probably more present--and capable of accelerating ultrahighenergy cosmic rays--than so far catalogued. In terms of statistics the greater number of potential colliding galaxies in VIRGO and URSA MAJOR compared with the local ones probably outweighs the loss by the inverse square law and extra diffusion en route to the earth.
+
+7.2.2. Cluster shocks. Another mechanism that must be taken seriously is the acceleration
+of particles in `cluster shocks'. Kang et al (1995) have examined this process in some detail
+and proposed that cosmic rays of ultrahigh-energy can be produced in VIRGO from which the very highest energy ones (E 1019 eV) could reach the earth. A problem is that the
+acceleration mechanism is slow so that losses on the CMB limit the maximum to the CMB cut-off at  6 × 1019 eV. Kang et al need an efficiency for conversion of inflowing energy to cosmic ray energy of  10%; not an unreasonable fraction. An attractive feature of the mechanism is that the shell from which the particles escape has an angular radius of about 35, which is not far from the semi-longitude extent for cluster A (but bigger than that in
+latitude).
+In order for this mechanism to have relevance here, the acceleration time (T ) must be
+reduced. It is set by the strength of the magnetic field in the shock region, B, and velocity of shock, µs: T  B-1 µ-2p, where p is the particle momentum. Kang et al adopt B = 1 µG and u = 3000 km s-1. It is just possible that higher values of B and u can be taken which would allow particles of energy up to 1020 eV to be generated but anything
+higher would require unreasonable values. It is interesting to note, in this context, that the very highest energy particles (E > 2 × 1020 eV) avoid VIRGO although one is close to the CANIS MAJOR region.
+
+8. Conclusions
+Quite a strong case can be made for a significant flux of extragalactic particles from nearby (R < 10 Mpc) colliding galaxies with perhaps some energetic particles from the VIRGO and CANIS MAJOR galaxy clusters; colliding galaxies are again a possibility in these galaxy clusters.
+In such a model most of the CRs above 1019 eV would, in fact, come from Galactic sources. The idea of a giant Halo, adopted here, would allow sufficient trapping of these particles were they heavy nuclei (iron?). It is true that the Fly's Eye group (Bird et al 1993a, b) claim that most particles above 1019 eV are protons, and thus EG, but we would draw attention to work with the Akeno array (Yoshida et al 1994) which does not support the idea of any change in composition from the mixed composition determined by them
+
+1838
+
+S S Al-Dargazelli et al
+
+below 1018 eV. It can be added that our own analysis of the Sydney extensive air shower
+data (Chi et al 1993) using `depth-of-maximum' arguments supported the idea of significant fluxes of iron nuclei as far as 5 × 1019 eV. In a recent paper, one of us (Wolfendale and Zan 1996) have examined the question of the mass composition above 1018 eV and pointed out
+the (rather obvious) sensitivity of the conclusions to the interaction model. The conclusion
+drawn there was that the evidence for a considerable flux of heavy nuclei in the range 1018 eV to 3 × 1019 eV was strong but that the result could not be regarded as definitive.
+
+References
+Berezhko E G, Elskin V K and Ksenofontov LT 1996 JETP 82 1 Bird D J et al 1993a Phys. Rev. Lett. 71 21 3401 ----1993b Proc. Int. Cosmic Ray Conf. (Calgary) vol 2, p 38 Bird D J et al 1995 Astrophys. J. 441 144 Chi X and Wolfendale A W 1990 J. Phys. G: Nucl. Part. Phys. 16 1409 Chi X et al 1992a J. Phys. G: Nucl. Part. Phys. 18 539 ----1992b J. Phys. G: Nucl. Part. Phys. 18 553 ----1992c J. Phys. G: Nucl. Part. Phys. 18 567 ----1992d J. Phys. G: Nucl. Part. Phys. 18 1259 Chi X, Wdowczyk J and Wolfendale A W 1993 J. Phys. G: Nucl. Part. Phys. 19 769 Chikawa M et al 1995 Proc. 24th Int. Cosmic Ray Conf. (Rome) vol 2, p 780 Efimov N N and Mikhailov A A 1994 Astropart. Phys. 2 329 Hayashida N et al 1994 Phys. Rev. Lett. 73 3491 ----1996 Phys. Rev. Lett. submitted Hummel E and Beck R 1996 Astron. Astrophys. at press Jog C J and Solomon P M 1992 Astrophys. J. 387 152 Kang H, Jones T W and Ryu D 1995 Proc. Int. Cosmic Ray. Conf. (Calgary) vol 3, p 333 Kim K-T et al 1990 Astrophys. J. 355 29 ----1991 Astrophys. J. 379 80 Kronberg P P 1994 Rep. Prog. Phys. 57 329 Moore B and Davis M 1994 Mon. Not. R. Astron. Soc. 270 209 Osborne J L, Roberts E and Wolfendale A W 1973 J. Phys. A: Math. Gen. 421 Phillipps S J et al 1981 Astron. Astrophys. 103 45 Stanev T et al 1995 Phys. Rev. Lett. 75 3056 Szabelski J, Wdowczyk J and Wolfendale A W 1986 J. Phys. G: Nucl. Phys. 12 1433 Tully R B 1988 Nearby Galaxies Catalog (Cambridge: Cambridge University Press) Wdowczyk J and Wolfendale A W 1984 J. Phys. G: Nucl. Phys. 10 1453 Wolfendale A W and Zan 1996 Proc. XV Cracow Summer School of Cosmology (University of Lodz, Poland) in
+press Yoshida S et al 1994 J. Phys. G: Nucl. Part. Phys. 20 651
+
+

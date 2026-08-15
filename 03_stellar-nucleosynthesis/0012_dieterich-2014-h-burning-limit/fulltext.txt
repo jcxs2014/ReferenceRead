@@ -1,0 +1,3562 @@
+The Astronomical Journal, 147:94 (25pp), 2014 May
+C 2014. The American Astronomical Society. All rights reserved. Printed in the U.S.A.
+
+doi:10.1088/0004-6256/147/5/94
+
+THE SOLAR NEIGHBORHOOD. XXXII. THE HYDROGEN BURNING LIMIT,
+Sergio B. Dieterich1,4, Todd J. Henry1,4, Wei-Chun Jao1,4, Jennifer G. Winters1,4, Altonio D. Hosey1,4, Adric R. Riedel2,4, and John P. Subasavage3,4
+1 Georgia State University, Atlanta, GA 30302-4106, USA; dieterich@chara.gsu.edu 2 American Museum of Natural History, New York, NY 10024, USA 3 United States Naval Observatory, Flagstaff, AZ 86001, USA
+Received 2013 August 15; accepted 2013 November 30; published 2014 March 24
+
+ABSTRACT
+
+We construct a Hertzsprung-Russell diagram for the stellar/substellar boundary based on a sample of 63 objects
+
+ranging in spectral type from M6V to L4. We report newly observed VRI photometry for all 63 objects and new
+
+trigonometric parallaxes for 37 objects. The remaining 26 objects have trigonometric parallaxes from the literature.
+
+We combine our optical photometry and trigonometric parallaxes with 2MASS and WISE photometry and employ
+
+a novel spectral energy distribution fitting algorithm to determine effective temperatures, bolometric luminosities, and radii. Our uncertainties range from 20 K to 150 K in temperature, 0.01 to 0.06 in log(L/L ) and 3% to 10% in radius. We check our methodology by comparing our calculated radii to radii directly measured
+
+via long baseline optical interferometry. We find evidence for the local minimum in the radius-temperature and
+
+radius-luminosity trends that signals the end of the stellar main sequence and the start of the brown dwarf sequence
+at Teff  2075 K, log(L/L )  -3.9, and (R/R )  0.086. The existence of this local minimum is predicted by evolutionary models, but at temperatures 400 K cooler. The minimum radius happens near the locus of 2MASS J0523-1403, an L2.5 dwarf with V - K = 9.42. We make qualitative arguments as to why the effects
+
+of the recent revision in solar abundances accounts for the discrepancy between our findings and the evolutionary
+
+models. We also report new color-absolute magnitude relations for optical and infrared colors which are useful for
+
+estimating photometric distances. We study the optical variability of all 63 targets and find an overall variability
+
+fraction
+
+of
+
+36+9 %
+-7
+
+at
+
+a
+
+threshold
+
+of
+
+15
+
+mmag
+
+in
+
+the
+
+I
+
+band,
+
+which
+
+is
+
+in
+
+agreement
+
+with
+
+previous
+
+studies.
+
+Key words: brown dwarfs - Hertzsprung-Russell and C-M diagrams - parallaxes - solar neighborhood - stars:
+
+fundamental parameters - stars: low-mass
+
+Online-only material: color figures, extended figures, machine-readable and VO tables
+
+1. INTRODUCTION
+The first comprehensive stellar structure and evolution models for the low-mass end of the main sequence were published in the late 20th century (e.g., Burrows et al. 1993; Baraffe et al. 1995). While the predictions of these models are widely accepted today, they remain largely unconstrained by observations. The problem is particularly noteworthy when it comes to the issue of distinguishing stellar objects from the substellar brown dwarfs. While the internal physics of stars and brown dwarfs is different, their atmospheric properties overlap in the late M and early L spectral types, thus making them difficult to distinguish based on photometric and spectroscopic features alone. One test used to identify substellar objects--the lithium test (Rebolo et al. 1992)--relies on the fact that lithium undergoes nuclear burning at temperatures slightly lower than hydrogen and, therefore, should be totally consumed in fully convective hydrogen burning objects at time scales than their evolutionary time scales. Detection of the Li 6708 line would therefore signal the substellar nature of an object. This is a powerful test, but it
+ Based in part on observations obtained at the Southern Astrophysical Research (SOAR) telescope, which is a joint project of the Ministe´rio da Cie^ncia, Tecnologia, e Inovac¸a~o (MCTI) da Repu´blica Federativa do Brasil, the U.S. National Optical Astronomy Observatory (NOAO), the University of North Carolina at Chapel Hill (UNC), and Michigan State University (MSU).  Based in part on observations obtained via the Cerro Tololo Inter-American Observatory Parallax Investigation (CTIOPI), at the Cerro Tololo 0.9 m telescope. CTIOPI began under the auspices of the NOAO Surveys Program in 1999, and continues via the SMARTS Consortium. 4 Visiting astronomer, Cerro Tololo Inter-American Observatory.
+
+fails us when we most need it. While evolutionary models predict the minimal stellar mass to be anywhere from 0.070 M to 0.077 M (see Section 7.2), the lithium test only works for masses 0.060 M due to the lower mass at which core temperatures are sufficient to fuse lithium.
+The models for low-mass stars and brown dwarfs in current usage (Burrows et al. 1993, 1997; Baraffe et al. 1998, 2003; Chabrier et al. 2000; Saumon & Marley 2008) predict the end of the stellar main sequence at temperatures ranging from 1550 to 1750 K, corresponding roughly to spectral type L4. These models have achieved varying degrees of success, but as we discuss in Section 7.2, they are mutually inconsistent when it comes to determining the properties of the smallest possible star. The inconsistency is not surprising given that none of these decade-old evolutionary models incorporates the stateof-the-art in atmospheric models, nor do they account for the recent 22% downward revision in solar abundances (Caffau et al. 2011), which are in agreement with the results of solar asteroseismology.5
+Over the last 10 yr few changes were made to models for very low mass (VLM) stars and brown dwarfs in large part because the models provide predictions that are not directly observable. Whereas an atmospheric model can be fully tested against an observed spectrum, testing an evolutionary model requires accurate knowledge of mass, age, and metallicity as well as an accurate atmospheric model that serves as a boundary condition.
+5 A review of the history of revisions to solar abundances, including issues related to solar asteroseismology, is given in Allard et al. (2013).
+
+1
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+The problem of understanding the stellar/substellar boundary can essentially be formulated by posing two questions. The first one is: "What do objects close to either side of the stellar/substellar boundary look like to an observer?" The second question is: "What are the masses and other structural parameters of objects on either side of the stellar/substellar boundary?" While it is the second question that usually gets the most attention, we note that any attempt to determine masses at the stellar/substellar boundary assumes an inherently model dependent (and therefore possibly flawed) answer to the first question. What is needed is an observational test that relies as little on evolutionary models as possible. Because brown dwarfs are supported by electron degeneracy pressure, their internal physics is fundamentally different from that of stars. One manifestation of this difference is the reversal of the mass-radius relation at the hydrogen burning limit (Chabrier et al. 2009; Burrows et al. 2011). Whereas, for stars, radius increases as a function of mass, the opposite is true for brown dwarfs. The result is a pronounced minimum in radius at the hydrogen burning limit (see Section 7).
+To reveal the end of the stellar main sequence by identifying the minimum in the radius trend, we construct a bona fide Hertzsprung-Russell (HR) diagram for the stellar/substellar boundary based on wide photometric coverage from 0.4 m to 17 m, trigonometric parallaxes, and the new BT-Settl model atmospheres (Allard et al. 2012, 2013), which have been shown to be highly accurate for M and L dwarfs (see Section 5). We also employ a new custom-made iterative spectral energy distribution (SED) fitting code that interpolates between model grid points to determine effective temperatures and performs small adjustments to the SED templates based on observed photometry to better determine luminosities. The results of our calculations are effective temperatures (Teff), luminosities (log(L/L )), and radii (R/R ), which we then use to construct the HR diagram as well as temperature-radius and luminosity-radius diagrams. The latter two diagrams provide the same essential information as the HR diagram but facilitate the inspection of radius trends.
+The paper is organized as follows. We include all of our observed and derived quantities in Table 1. The data presented in this table form the basis for subsequent discussions in the paper. We discuss our observed sample in Section 2 and discuss the methodology of our photometric and astrometric observations in Sections 3 and 4, respectively. We discuss our SED fitting algorithms and check their results against radii measured with long baseline optical interferometry in Section 5. We discuss our new optical photometric results, trigonometric parallaxes, effective temperatures, color-magnitude relations, and optical variability in Sections 6.1-6.5. We discuss the newly discovered astrometric binary DENIS J1454-6604AB in Section 6.6. In Section 7, we discuss the end of the stellar main sequence based on radius trends. We discuss individual objects in Section 8 and make concluding remarks and discuss future work in Section 9.
+2. THE OBSERVED SAMPLE
+Table 1 lists our observed sample. The goal of our target selection was to obtain an observing list that samples the color continuum between spectral types M6V to L4, corresponding to V-K ranging from 6.2 to 11.8, for the nearby Galactic disk population. Targets with known spectral types were selected from the literature, with at least eight targets in each spectral subclass, for a total of 82 targets. Because the differences between stellar and substellar objects become more pronounced at
+
+Dieterich et al.
+Figure 1. Spectral type distribution for the observed sample. M dwarfs are more heavily sampled because most M dwarfs already had trigonometric parallaxes at the beginning of the study. Several L dwarf parallaxes are still in progress.
+ages >1 Gyr, we avoided objects with known youth signatures. All targets have original distance estimates within 25 pc and are located south of declination +30. This declination requirement makes all targets observable from CTIO. Of these 82 targets, 26 have previously established trigonometric parallaxes. The remaining 56 were placed on our parallax observing list. In this paper, we report new trigonometric parallaxes for 37 targets and new VRI photometry for all 63 targets that either have trigonometric parallaxes from the literature or have new trigonometric parallaxes reported here. Parallax observations for 19 targets are still ongoing and will be described in a future publication. Figure 1 is a histogram showing the spectral type distribution of the observed sample for this paper. There are more M dwarfs than L dwarfs in Figure 1 because more M dwarfs had trigonometric parallaxes from the literature. Once parallax observations for the 19 ongoing targets are finished the spectral type distribution will become nearly even.
+3. PHOTOMETRIC OBSERVATIONS
+VLM stars and brown dwarfs have traditionally been studied in the near infrared where they emit most of their flux. However, as discussed in detail in Section 5, optical photometry is essential for determining the effective temperatures and the bolometric fluxes of these very red objects. We obtained VRI photometry for all targets in our sample using the CTIO 0.9 m telescope for the brighter targets and the SOAR Optical Imager camera on the SOAR 4.1m telescope for fainter targets. SOAR observations were conducted between 2009 September and 2010 December during six observing runs comprising NOAO programs 2009B0425, 2010A-0185, and 2010B-0176. A total of 17 nights on SOAR were used for optical photometry. Column 16 of Table 1 indicates which telescope was used for each target. The division between the 0.9 m telescope and SOAR fell roughly along the M/L divide. To ensure consistency, 28 targets were observed on both telescopes.
+Essentially the same observing procedure was used for both photometry programs. After determining that a night was likely to be entirely cloudless in the late afternoon, three or four photometric standard fields were chosen and an observing schedule was constructed so that each field was observed at three different air masses, typically around 2.0, 1.5, and the lowest possible air mass given the standard field's declination. We used the photometric standards compiled by Arlo Landolt (Landolt 1992, 2007, 2009) as well as standards from Bessel (1990)
+
+2
+
+3
+
+ID R.A.
+
+Decl.
+
+2000
+
+2000
+
+(1)
+
+(2)
+
+(3)
+
+1 00:04:34.9 -40:44:06
+
+2 00:21:05.8 -42:44:49
+
+3 00:21:10.7 -42:45:40
+
+4 00:24:24.6 -01:58:20
+
+5 00:36:16.0 +18:21:10
+
+6 00:52:54.7 -27:06:00
+
+7 01:02:51.2 -37:37:44
+
+8 02:48:41.0 -16:51:22
+
+9 02:53:00.5 +16:52:58
+
+10 03:06:11.5 -36:47:53
+
+11 03:39:35.2 -35:25:44
+
+12 03:51:00.0 -00:52:45
+
+13 04:28:50.9 -22:53:22
+
+14 04:35:16.1 -16:06:57
+
+15 04:51:00.9 -34:02:15
+
+16 05:00:21.0 +03:30:50
+
+17 05:23:38.2 -14:03:02
+
+18 06:52:19.7 -25:34:50
+
+19 07:07:53.3 -49:00:50
+
+20 07:46:42.5 +20:00:32
+
+21 07:51:16.4 -25:30:43
+
+22 08:12:31.7 -24:44:42
+
+23 08:28:34.1 -13:09:19
+
+24 08:29:49.3 +26:46:33
+
+25 08:40:29.7 +18:24:09
+
+26 08:47:28.7 -15:32:37
+
+27 08:53:36.0 -03:29:28
+
+28 09:00:23.6 +21:50:04
+
+29 09:49:22.2 +08:06:45
+
+30 10:48:12.8 -11:20:11
+
+31 10:49:03.4 +05:02:23
+
+32 10:56:29.2 +07:00:53
+
+33 10:58:47.9 -15:48:17
+
+34 11:06:18.9 +04:28:32
+
+35 11:21:49.0 -13:13:08
+
+36 11:26:39.9 -50:03:55
+
+37 11:53:52.7 +06:59:56
+
+38 11:55:42.9 -22:24:58
+
+39 12:24:52.2 -12:38:36
+
+Name
+(4) GJ 1001BC LEHPM1-0494B LEHPM1-0494A BRI B0021-0214 2MASS J0036+1821 RG 0050-2722
+LHS 132 LP 771-021 SO0253+1652 DENIS J0306-3647 LP 944-020
+LHS 1604 2MASS J0428-2253
+LP 775-031 2MASS J0451-3402 2MASS J0500+0330 2MASS J0523-1403 DENIS J0652-2534
+ESO 207-61 2MASS J0746+2000AB
+DENIS J0751-2530 DENIS J0812-2444 SSSPM J0829-1309
+GJ 1111 GJ 316.1 2MASS J0847-1532 LHS 2065 LHS 2090 LHS 2195 LHS 292 LHS 2314 GJ 406 DENIS J1058-1548 LHS 2351 LHS 2397aAB 2MASS J1126-5003 LHS 2471 LP 851-346 BRI B1222-1222
+
+Spct. Type (5) L4.5 M9.5 M6.0 M9.5 L3.5 M9.0 M8.0 M8.0 M6.5 M8.5 M9.0 M7.5 L0.5 M7.0 L0.5 L4.0 L2.5 L0.0 M8.0 L0.0J L2.5 L1.5 L1.0 M6.5 M6.0 L2.0 M9.0 M6.0 M8.0 M6.0 M6.0 M6.0 L3.0 M7.0 M8.5J L4.5 M6.5 M7.5 M9.0
+
+Ref.a,b
+(6) 14 9 24 20 10 18 22 15 21 18 7 15 16 25 15 29 15 28 31 33 28 28 28 31 32 15 31 21
+6 31
+2 31 12 ··· 8 27 ··· 18 31
+
+Table 1 Observed and Derived Properties
+
+ P.A.
+
+Parallax
+
+Ref.b Distance
+
+Vtan
+
+V
+
+R
+
+I
+
+Tel.c
+
+( /yr) (deg)
+
+(mas)
+
+(pc) (Km s-1)
+
+(7) (8)
+
+(9)
+
+(10)
+
+(11)
+
+(12)
+
+(13)
+
+(14)
+
+(15)
+
+(16)
+
+1.643 156.0 77.02 ± 2.07
+
+1
+
+13.15+0.36
+-0.34
+
+102.4
+
+22.77 ± .025 19.24 ± .045 16.76 ± .012
+
+S
+
+0.253 089.1 39.77 ± 2.10
+
+1
+
+25.14+1.40
+-1.26
+
+30.1 21.61 ± .085 19.08 ± .010 16.69 ± .001 S
+
+0.253 086.5 37.20 ± 1.99
+
+1
+
+26.88+1.51
+-1.36
+
+32.2 17.28 ± .045 15.67 ± .005 13.84 ± .005 S
+
+0.155 328.8 86.60 ± 4.00
+
+3
+
+11.54+0.55
+
+-0.50
+
+8.4 20.01 ± .051 17.45 ± .016 15.00 ± .025 S
+
+0.907 082.4 114.20 ± 0.80 11
+
+8.75+0.06
+-0.06
+
+37.6 21.43 ± .024 18.32 ± .016 15.92 ± .022 S
+
+0.098 026.0 41.00 ± 4.00
+
+4
+
+24.39+2.63
+-2.16
+
+11.3 21.54 ± .051 19.14 ± .017 16.57 ± .026 S
+
+1.479 079.8 81.95 ± 2.73 17
+
+12.20+0.42
+-0.39
+
+85.5 18.53 ± .021 16.30 ± .008 13.88 ± .012 C
+
+0.274 175.7 61.60 ± 5.40
+
+5
+
+16.23+1.55
+-1.30
+
+21.0 19.97 ± .050 17.70 ± .015 15.27 ± .015 S
+
+5.050 137.9 259.41 ± 0.89 21,30
+
+3.85+0.01
+-0.01
+
+92.2 15.14 ± .006 13.03 ± .004 10.65 ± .003 C
+
+0.690 196.0 76.46 ± 1.42
+
+1
+
+13.07+0.24
+-0.23
+
+42.7 19.38 ± .002 16.98 ± .023 14.49 ± .009 C
+
+0.408 048.5 155.89 ± 1.03
+
+1
+
+6.41+0.04
+-0.04
+
+12.4 18.70 ± .026 16.39 ± .007 14.01 ± .011 C
+
+0.526 176.0 68.10 ± 1.80
+
+4
+
+14.68+0.39
+-0.37
+
+36.6 18.11 ± .053 16.08 ± .020 13.80 ± .017 C
+
+0.189 038.1 38.48 ± 1.85
+
+1
+
+25.98+1.31
+-1.19
+
+23.2 21.68 ± .050 19.18 ± .025 16.79 ± .017 S
+
+0.356 028.0 95.35 ± 1.06
+
+1
+
+10.48+0.11
+-0.11
+
+17.6 17.67 ± .005 15.49 ± .029 13.08 ± .030 C
+
+0.158 036.5 47.46 ± 1.51
+
+1
+
+21.07+0.69
+-0.64
+
+15.7 22.11 ± .052 19.38 ± .015 16.84 ± .024 S
+
+0.350 177.9 73.85 ± 1.98
+
+1
+
+13.54+0.37
+-0.35
+
+22.4 23.01 ± .037 19.77 ± .026 17.32 ± .032 S
+
+0.195 032.5 80.95 ± 1.76
+
+1
+
+12.35+0.27
+-0.26
+
+11.4 21.05 ± .112 18.71 ± .021 16.52 ± .012 C
+
+0.250 289.3 63.76 ± 0.94
+
+1
+
+15.68+0.23
+-0.22
+
+18.5 20.77 ± .050 18.38 ± .005 15.85 ± .016 S
+
+0.405 005.0 60.93 ± 3.02
+
+4
+
+16.41+0.85
+-0.77
+
+31.5 21.09 ± .035 18.74 ± .023 16.19 ± .032 S
+
+0.377 261.9
+
+81.84 ± 0.30
+
+11,34,35
+
+12.21+0.04
+-0.04
+
+21.8 20.05 ± .038 17.42 ± .037 14.90 ± .038 S
+
+0.889 279.2 59.15 ± 0.84
+
+1
+
+16.90+0.24
+-0.23
+
+71.2 21.66 ± .045 18.86 ± .020 16.39 ± .005 S
+
+0.196 135.5 45.47 ± 0.96
+
+1
+
+21.99+0.47
+-0.45
+
+20.4 21.89 ± .053 19.45 ± .016 17.05 ± .025 S
+
+0.578 273.0 87.96 ± 0.78
+
+1
+
+11.36+0.10
+-0.09
+
+31.1 21.19 ± .023 18.41 ± .025 16.01 ± .026 S
+
+1.290 242.2 275.80 ± 3.00
+
+4
+
+3.62+0.03
+-0.03
+
+22.1 14.94 ± .033 12.88 ± .005 10.58 ± .018 C
+
+0.908 240.0 71.10 ± 1.00
+
+4
+
+14.06+0.20
+-0.19
+
+60.5 17.67 ± .042 15.72 ± .017 13.44 ± .006 C
+
+0.240 146.1 58.96 ± 0.99
+
+1
+
+16.96+0.28
+-0.28
+
+19.2 21.93 ± .068 19.16 ± .028 16.86 ± .024 C
+
+0.550 249.4 117.98 ± 0.76
+
+1
+
+8.47+0.05
+-0.05
+
+22.0 18.94 ± .032 16.74 ± .015 14.44 ± .029 C
+
+0.774 221.2 156.87 ± 2.67 21
+
+6.37+0.11
+-0.10
+
+23.3 16.11 ± .032 14.12 ± .020 11.84 ± .010 C
+
+0.887 177.4 60.32 ± 1.67
+
+1
+
+16.57+0.47
+-0.44
+
+69.7 19.76 ± .152 17.66 ± .035 15.20 ± .036 C
+
+1.645 158.0 220.30 ± 3.60
+
+4
+
+4.53+0.07
+-0.07
+
+35.3 15.78 ± .057 13.63 ± .002 11.25 ± .025 C
+
+0.624 217.0 41.10 ± 2.30
+
+4
+
+24.33+1.44
+-1.28
+
+71.9 19.14 ± .033 17.13 ± .033 14.91 ± .025 C
+
+4.696 235.0 419.10 ± 2.10
+
+4
+
+2.38+0.01
+-0.01
+
+53.1 13.58 ± .008 11.64 ± .028 9.44 ± .014 C
+
+0.290 288.1
+
+57.70 ± 1.00
+
+11,34,35
+
+17.33+0.30
+-0.29
+
+23.8 23.01 ± .005 20.01 ± .045 17.66 ± .027 S
+
+0.460 129.1 48.1 ± 3.1
+
+5
+
+20.79+1.43
+-1.25
+
+45.3 19.49 ± .049 17.27 ± .017 14.87 ± .017 C
+
+0.507 264.7 65.83 ± 2.02
+
+1
+
+15.19+0.48
+-0.45
+
+36.5 19.43 ± .036 17.33 ± .048 14.84 ± .040 S
+
+1.646 286.2 59.38 ± 1.64
+
+1
+
+16.84+0.47
+-0.45
+
+131.3
+
+23.75 ± .010 20.11 ± .020 17.51 ± .005
+
+S
+
+0.955 160.0 70.30 ± 2.60
+
+4
+
+14.22+0.54
+-0.50
+
+64.3 18.10 ± .009 16.02 ± .035 13.77 ± .005 C
+
+0.409 244.0 89.54 ± 1.77
+
+1
+
+11.16+0.22
+-0.21
+
+21.6 18.18 ± .027 15.97 ± .030 13.50 ± .031 C
+
+0.322 234.4 58.60 ± 3.80
+
+5
+
+17.06+1.18
+-1.03
+
+26.0 20.41 ± .039 17.99 ± .036 15.54 ± .038 S
+
+VRI Epochs
+(17) 2 2 2 1 1 1 3 2 3 2 3 2 2 2 1 1 2 2 1 1 2 1 1 2 2 2 3 3 1 3 2 2 2 2 1 2 2 2 1
+
+Teff (K) (18) 1725 ± 21 2305 ± 57 2918 ± 21 2315 ± 54 1796 ± 33 2402 ± 34 2513 ± 29 2512 ± 19 2656 ± 37 2502 ± 40 2312 ± 71 ··· 2212 ± 57 2532 ± 25 2146 ± 41 1783 ± 19 2074 ± 27 2313 ± 56 2403 ± 31 2310 ± 51 2186 ± 32 2295 ± 47 2117 ± 37 2690 ± 27 2683 ± 30 1922 ± 66 2324 ± 27 2680 ± 24 2481 ± 36 2588 ± 32 2691 ± 13 2700 ± 56 1804 ± 13 2619 ± 27 2376 ± 25 1797 ± 49 2611 ± 22 2595 ± 28 2398 ± 38
+
+Luminosity log(L/L )
+(19) -4.049 ± .048 -3.506 ± .046 -2.818 ± .046 -3.505 ± .042 -3.950 ± .011 -3.599 ± .078 -3.194 ± .030 -3.507 ± .076 -3.137 ± .013 -3.366 ± .017 -3.579 ± .010
+··· -3.441 ± .042 -3.033 ± .012 -3.676 ± .029 -4.010 ± .024 -3.898 ± .021 -3.600 ± .015 -3.625 ± .039 -3.413 ± .009 -3.732 ± .013 -3.696 ± .021 -3.845 ± .011 -3.107 ± .022 -3.039 ± .013 -3.798 ± .017 -3.516 ± .010 -3.084 ± .016 -3.399 ± .025 -3.166 ± .016 -3.169 ± .049 -3.036 ± .044 -3.997 ± .019 -3.218 ± .056 -3.291 ± .028 -4.035 ± .025 -3.113 ± .032 -3.194 ± .018 -3.454 ± .057
+
+Radius (R ) (20) 0.105 ± .005 0.110 ± .008 0.152 ± .008 0.109 ± .007 0.109 ± .004 0.091 ± .008 0.133 ± .005 0.093 ± .008 0.127 ± .004 0.110 ± .004 0.101 ± .006
+··· 0.129 ± .009 0.157 ± .003 0.104 ± .005 0.103 ± .003 0.086 ± .003 0.098 ± .005 0.088 ± .004 0.122 ± .005 0.094 ± .003 0.089 ± .004 0.088 ± .003 0.128 ± .004 0.139 ± .003 0.113 ± .008 0.107 ± .002 0.132 ± .003 0.107 ± .004 0.129 ± .004 0.119 ± .006 0.138 ± .009 0.102 ± .002 0.119 ± .008 0.133 ± .005 0.098 ± .006 0.135 ± .005 0.125 ± .003 0.108 ± .007
+
+Notes
+(21) d,e,f d,e d,e ··· ··· ··· ··· ··· ··· ··· ···
+d ··· ··· d ··· d ··· ··· f ··· ··· d ··· ··· ··· ··· ··· ··· ··· ··· ··· ··· ··· d,f ··· ··· ··· ···
+
+Dieterich et al.
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+
+ID R.A.
+
+Decl.
+
+2000
+
+2000
+
+(1)
+
+(2)
+
+(3)
+
+40 12:50:52.2 -21:21:09
+
+41 13:05:40.2 -25:41:06
+
+42 13:09:21.9 -23:30:33
+
+43 14:25:27.9 -36:50:22
+
+44 14:39:28.4 +19:29:15
+
+45 14:40:22.9 +13:39:23
+
+46 14:54:07.9 -66:04:47
+
+47 14:56:38.5 -28:09:51
+
+48 15:01:07.9 +22:50:02
+
+49 15:39:41.9 -05:20:43
+
+50 15:52:44.4 -26:23:07
+
+51 15:55:15.7 -09:56:05
+
+52 16:07:31.3 -04:42:06
+
+53 16:32:58.8 -06:31:45
+
+54 16:45:22.1 -13:19:51
+
+55 16:55:35.3 -08:23:40
+
+56 17:05:48.3 -05:16:46
+
+57 19:16:57.6 +05:09:02
+
+58 20:45:02.3 -63:32:05
+
+59 21:04:14.9 -10:37:37
+
+60 22:24:43.8 -01:58:52
+
+61 23:06:58.7 -50:08:58
+
+62 23:54:09.3 -33:16:25
+
+63 23:56:10.8 -34:26:04
+
+Name
+(4) LEHPM2-0174
+Kelu-1AB CE 303
+DENIS J1425-3650 2MASS J1439+1929 2MASS J1440+1339 DENIS J1454-6604
+LHS 3003 2MASS J1501+2250 DENIS J1539-0520
+LHS 5303 2MASS J1555-0956
+SIPS J1607-0442 SIPS J1632-0631 2MASS J1645-1319
+GJ 644C 2MASS J1705-0516AB
+GJ 752B SIPS J2045-6332 2MASS J2104-1037 2MASS J2224-0158 SSSPM J2307-5009
+LHS 4039C SSSPM J2356-3426
+
+Spct. Type (5) M6.5 L2.0J M7.0 L3.0 L1.0 M8.0 L3.5 M7.0 M9.0 L3.5 M6.0 L1.0 M8.0 M7.0 L1.5 M7.0 L0.5 M8.0 M9.0 L3.0 L4.5 M9.0 M9.0 M9.0
+
+Ref.a,b
+(6) ··· 19 13 29 11 25 28 17 31 25 18 13 13 13 13 17 23 31 25 15 11 20 29 20
+
+ ( /yr)
+(7) 0.566 0.285 0.381 0.544 1.295 0.331 0.565 0.965 0.074 0.602 0.495 1.217 0.415 0.342 0.874 1.202 0.165 1.434 0.218 0.662 0.984 0.458 0.505 0.312
+
+P.A. (deg) (8) 125.8 272.2 176.0 211.6 288.3 204.7 125.1 210.0 211.7 079.9 155.1 129.9 180.2 176.3 203.8 223.4 132.5 203.8 158.0 116.0 152.3 082.7 218.3 167.1
+
+Parallax (mas)
+(9) 57.77 ± 1.72 52.00 ± 1.54 69.33 ± 1.33 86.45 ± 0.83 69.60 ± 0.50 45.00 ± 1.11 84.88 ± 1.71 152.49 ± 2.02 94.40 ± 0.60 61.25 ± 1.26 94.63 ± 0.70 74.53 ± 1.21 63.90 ± 1.47 53.31 ± 1.48 90.12 ± 0.82 154.96 ± 0.52 55.07 ± 1.76 171.20 ± 0.50 41.72 ± 1.50 53.00 ± 1.71 86.70 ± 0.69 46.59 ± 1.57 44.38 ± 2.09 52.37 ± 1.71
+
+Ref.b
+(10) 1
+11 1 1 11 1 1 4 11 1 1 1 1 1 1 26 1 26 1 1 11 1 1 1
+
+Table 1 (Continued)
+
+Distance
+
+Vtan
+
+V
+
+R
+
+I
+
+Tel.c
+
+(pc) (Km s-1)
+
+(11)
+
+(12)
+
+(13)
+
+(14)
+
+(15)
+
+(16)
+
+17.31+0.53
+-0.50
+
+46.4
+
+18.36 ± .063 16.15 ± .005 13.78 ± .027 C
+
+19.23+0.58
+-0.55
+
+25.9
+
+22.03 ± .060 19.14 ± .050 16.80 ± .001 S
+
+14.42+0.28
+-0.27
+
+26.0
+
+19.37 ± .026 17.00 ± .013 14.58 ± .008 C
+
+11.56+0.11
+-0.11
+
+29.8
+
+22.81 ± .060 19.67 ± .041 17.35 ± .034 S
+
+14.36+0.10
+-0.10
+
+88.1
+
+···
+
+18.45 ± .056 15.97 ± .052 S
+
+22.22+0.56
+-0.53
+
+34.8
+
+18.95 ± .026 17.04 ± .080 14.81 ± .010 C
+
+11.78+0.24
+-0.23
+
+31.5
+
+···
+
+19.22 ± .034 16.89 ± .022 C
+
+6.55+0.08
+-0.08
+
+29.9
+
+16.95 ± .014 14.90 ± .006 12.53 ± .008 C
+
+10.59+0.06
+-0.06
+
+3.7 19.63 ± .021 17.39 ± .006 15.02 ± .018 C
+
+16.32+0.34
+-0.32
+
+46.5
+
+···
+
+19.69 ± .035 17.56 ± .046 C
+
+10.56+0.07
+-0.07
+
+24.7
+
+16.53 ± .039 14.66 ± .021 12.49 ± .007 C
+
+13.41+0.22
+-0.21
+
+77.4
+
+21.04 ± .150 18.28 ± .019 15.82 ± .019 C
+
+15.64+0.36
+-0.35
+
+30.7
+
+19.49 ± .024 17.19 ± .014 14.78 ± .014 C
+
+18.75+0.53
+-0.50
+
+30.4
+
+20.23 ± .042 18.01 ± .014 15.58 ± .005 C
+
+11.09+0.10
+-0.10
+
+45.9
+
+20.96 ± .045 17.99 ± .001 15.65 ± .014 S
+
+6.45+0.02
+-0.02
+
+36.7
+
+16.85 ± .059 14.64 ± .015 12.25 ± .015 C
+
+18.15+0.59
+-0.56
+
+14.2
+
+21.67 ± .032 19.04 ± .009 16.67 ± .006 C
+
+5.84+0.01
+-0.01
+
+39.7
+
+17.68 ± .029 15.21 ± .032 12.76 ± .026 S
+
+23.96+0.89
+-0.83
+
+24.7
+
+21.14 ± .155 18.49 ± .036 16.04 ± .008 C
+
+18.86+0.62
+-0.58
+
+59.2
+
+22.37 ± .023 19.46 ± .023 17.18 ± .021 S
+
+11.53+0.09
+-0.09
+
+53.7
+
+23.82 ± .039 20.26 ± .028 17.77 ± .022 S
+
+21.46+0.74
+-0.69
+
+46.5
+
+21.36 ± .050 18.90 ± .005 16.46 ± .019 S
+
+22.53+1.11
+-1.01
+
+53.9
+
+20.96 ± .015 18.45 ± .001 15.98 ± .001 S
+
+19.09+0.64
+-0.60
+
+28.2
+
+20.81 ± .055 18.34 ± .001 15.89 ± .001 S
+
+VRI Epochs
+(17) 2 2 2 1 1 2 1 2 2 1 2 1 1 2 2 3 1 1 2 1 1 2 2 2
+
+Teff (K) (18) 2598 ± 25 2026 ± 45 2508 ± 35 1752 ± 69 2186 ± 100 2624 ± 22 1788 ± 100 2581 ± 17 2398 ± 36 1835 ± 100 2718 ± 12 2194 ± 27 2466 ± 30 2485 ± 26 1925 ± 66 2611 ± 43 2207 ± 62 2478 ± 29 2179 ± 111 1851 ± 53 1567 ± 88 2347 ± 48 2412 ± 40 2438 ± 42
+
+Luminosity log(L/L )
+(19) -2.909 ± .026 -3.616 ± .033 -3.309 ± .018 -4.029 ± .009 -3.703 ± .010 -3.163 ± .022 -3.931 ± .019 -3.266 ± .013 -3.602 ± .009 -4.006 ± .019 -2.972 ± .008 -3.712 ± .015 -3.271 ± .021 -3.459 ± .025 -3.793 ± .011 -3.214 ± .007 -3.695 ± .029 -3.340 ± .009 -3.129 ± .032 -3.812 ± .030 -4.185 ± .013 -3.593 ± .030 -3.423 ± .041 -3.542 ± .029
+
+Radius (R ) (20) 0.173 ± .006 0.126 ± .007 0.117 ± .004 0.104 ± .008 0.098 ± .009 0.126 ± .003 0.112 ± .012 0.116 ± .002 0.091 ± .002 0.098 ± .010 0.147 ± .001 0.096 ± .002 0.126 ± .004 0.100 ± .003 0.113 ± .008 0.120 ± .004 0.097 ± .006 0.115 ± .003 0.190 ± .020 0.120 ± .008 0.109 ± .012 0.096 ± .005 0.111 ± .006 0.094 ± .004
+
+Notes
+(21) ··· d,f ··· ··· g ··· g ··· ··· g ··· ··· ··· ··· ··· e d,f e d ··· ··· ··· d,e ···
+
+4
+
+Notes. a Unfortunately many papers do not cite references for spectral types. We have made an effort to track down primary sources. The references listed here are either primary sources or, if a primary source could not be found, secondary sources that discuss spectral typing. In a few cases, several papers list the same spectral type with no reference and do not discuss the spectral type. In these cases, this column was left blank. b References: (1) This work; (2) Reid et al. 1995; (3) Tinney et al. 1995; (4) van Altena et al. 1995; (5) Tinney 1996; (6) Gizis & Reid 1997; (7) Kirkpatrick et al. 1997; (8) Mart´in et al. 1999; (9) Basri et al. 2000; (10) Gizis et al. 2000; (11) Dahn et al. 2002; (12) Geballe et al. 2002; (13) Gizis et al. 2002; (14) Leggett et al. 2002; (15) Cruz et al. 2003; (16) Kendall et al. 2003; (17) Costa et al. 2005; (18) Crifo et al. 2005; (19) Liu & Leggett 2005; (20) Lodieu et al. 2005; (21) Henry et al. 2006; (22) Reyle´ et al. 2006; (23) Reid et al. 2006; (24) Caballero 2007; (25) Schmidt et al. 2007; (26) van Leeuwen 2007; (27) Looper et al. 2008; (28) Phan-Bao et al. 2008; (29) Reid et al. 2008; (30) Gatewood & Coban 2009; (31) Jenkins et al. 2009; (32) Shkolnik et al. 2009; (33) Konopacky et al. 2010; (34) Dupuy & Liu 2012; (35) Faherty et al. 2012. c S - SOAR; C - CTIO 0.9 m. d See notes in Section 8. e Member of resolved multiple system. Parallaxes for 1, 55, and 57 are for brighter components. f Unresolved multiple. g No V photometry is available. SED fit and Teff excludes V.
+(This table is also available in machine-readable and Virtual Observatory (VO) forms in the online journal.)
+
+Dieterich et al.
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+and Graham (1982). In each night, at least two standards were red standards with V - I > 3.0. Details of the transformation equations used to derive the nightly photometric solution from the observation of photometric standards are given in Jao et al. (2005).
+After flat fielding, bias subtraction, and mosaic integration in the case of SOAR/SOI images, we performed aperture photometry using the IRAF apphot package. Landolt standards are reduced using an aperture 7 in radius. Ideally, we would perform aperture photometry on our targets using the same size aperture (7 ) as Landolt used to compile the standards we are using, but the faintness of our targets required us to use a smaller aperture for two reasons. First, the depth of our exposures (as faint as V  24 at SOAR and V  21 at the CTIO 0.9 m; see Section 6.1) means that the science target is often not more than 7 apart from another source. Second, the signal-to-noise error associated with a photometric observation is a combination of the Poisson error and the sky subtraction error. The latter's contribution is proportional to the area of the photometric aperture and is particularly problematic in deep exposures where the sky annulus may contain diffuse background sources. It, therefore, makes sense to use a smaller aperture and apply an aperture correction based on the curve of growth of bright stars in the same exposure. We used a 3 aperture with an aperture correction to 7 . The uncertainty associated with this aperture correction depends strongly on the seeing but is typically on the order of 1% to 3%. The final photometric error is the sum in quadrature of the signal-to-noise error, the error due to the aperture correction, and the error from the nightly photometric solution, which is typically on the order of 1% to 2%. Each photometric night had at least two targets in overlap with another night in order to check the validity of the night's photometric solution. We discuss optical variability in Section 6.5, where we show that the variability is usually less than the formal uncertainty in the photometry, thus justifying the use of only one epoch of photometry in cases where we were unable to obtain a second epoch due to time constraints on SOAR.
+Several different UBVRI photometric systems are in current usage. While the photometry taken on the CTIO 0.9 m telescope used filters in the Johnson-Kron-Cousins system, data taken on SOAR used Bessell filters. Descriptions of both systems, as well as conversion relations, are given in Bessell (1995). The V filter is photometrically identical between both systems. The R and I filters have color dependent differences that reach a few percent in the color regime explored by Bessell (1995), which considered stars as red as (V -R) = 1.8 and (V -I ) = 4.0. The targets in this study are significantly redder, with (V - I ) as red as 5.7. In Section 6.1, we derive new relations relevant to the very red regime considered in this study. The values listed in Table 1 are on the system used on each telescope (see Section 6.1).
+4. ASTROMETRIC OBSERVATIONS
+The Cerro Tololo Inter-American Observatory Parallax Investigation (CTIOPI; Jao et al. 2005; Henry et al. 2006) is a large and versatile astrometric monitoring program targeting diverse types of stellar and substellar objects in the solar neighborhood. Observations are taken using the CTIO 0.9 m telescope and its sole instrument, a 2048 × 2048 Tektronix imaging CCD detector with a plate scale of 0.401 pixel-1. We use the central quarter of the CCD chip, yielding a 6.8 × 6.8 field of view. Details of the observing procedures and data reduction pipeline are given in Jao et al. (2005). A brief description of the aspects
+
+Dieterich et al.
+most relevant for the observation of very red and faint targets is given here.
+Each target was typically observed for five "evening" epochs (i.e., before the midpoint of a given night) and five "morning" epochs over the course of at least two years. Observations were typically taken in sets of three consecutive 600 s exposures always within ±60 minutes of target transiting, and in most cases within ±30 minutes of transiting. This restriction in hour angle means that the target is always observed very close to its lowest possible air mass, which minimizes the effects of differential atmospheric refraction. All but one target were observed in the I band, where their optical spectrum is the brightest and also where atmospheric refraction is minimized. The sole exception is GJ 1001 A-BC, for which the parallax of the A component was measured in the R band to avoid saturation. The long exposures caused the fields to be rich with background stars, which greatly facilitated the selection of parallax reference stars. In most cases, we were able to set up the parallax field with the ideal configuration of 10 reference stars symmetrically distributed around the science target. Care was taken to position the reference fields using the same pixel coordinates for all epochs. Our experience shows that this consistency of positioning the reference fields helps reduce the final parallax error faster but is not absolutely required. There have been instances when a misaligned epoch was added to the parallax reduction, and having an additional epoch, although not perfectly positioned, still reduced the parallax error. Such instances were considered on an individual basis.
+VRI photometry (see Section 3) of the reference field was used to transform the relative parallaxes into absolute parallaxes using photometric distance relations. This transformation accounts for the fact that the parallax reference stars are not located at infinite distances and therefore have a finite, albeit much smaller, parallax. Any original reference star later found to be closer than 100 pc was discarded. The VRI photometry of the reference field and the science star was also used to correct for small shifts in the apparent positions of the stars due to atmospheric differential color refraction.
+5. METHODOLOGY FOR CALCULATING EFFECTIVE TEMPERATURES AND LUMINOSITIES
+Determining the effective temperatures (Teff)6 of M and L dwarfs has traditionally been difficult due to the complex nature of radiative transfer in cool stellar atmospheres. The task is particularly challenging in the L dwarf regime, where interphase chemistry between solid grains and the same substances in the gas phase becomes relevant. Significant progress has occurred recently with the publication of the BT-Settl family of model atmospheres (Allard et al. 2012, 2013). The BT-Settl models are the first to include a comprehensive cloud model based on non-equilibrium chemistry between grains and the gas phase and the rate of gravitational settling of solid grains. They have also been computed using the latest revised solar metallicities (Caffau et al. 2011). The authors (e.g., Allard et al. 2012) have demonstrated unprecedented agreement between observed M and L spectra and the BT-Settl model atmospheres.
+We determined Teff for each object in our sample by comparing observed photometric colors to synthetic colors derived
+6 The effective temperature (Teff ) of a surface is defined as the temperature at which a perfect blackbody would emit the same flux (energy per time per area) as the surface in question according to the Stefan-Boltzmann law: F = SBT 4. This quantity often differs from the stellar atmosphere's actual temperature, which is a function of optical depth as well as other factors.
+
+5
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+
+Band
+V R I J H Ks W1 W2 W3
+
+Blue Limita (m)
+0.485 0.554 0.710 1.102 1.494 1.977 2.792 4.037 7.540
+
+Table 2 Photometric Properties of Individual Bands
+
+Red Limita (m)
+0.635 0.806 0.898 1.352 1.804 2.327 3.823 5.270 16.749
+
+Effective Isophotal  (m)
+0.545 0.643 0.794 1.235 1.662 2.159 3.353 4.603 11.560
+
+Mag. Zero Point (photon s-1 cm-2)
+1.0146 × 1011 7.1558 × 1010 4.7172 × 1010 1.9548 × 1010 9.4186 × 109 4.6692 × 109 1.4000 × 109 5.6557 × 108 3.8273 × 107
+
+Reference
+Bessell & Murphy (2012) Bessell & Murphy (2012) Bessell & Murphy (2012) Cohen et al. (2003) Cohen et al. (2003) Cohen et al. (2003) Jarrett et al. (2011) Jarrett et al. (2011) Jarrett et al. (2011)
+
+Note. a 10% transmission normalized to band's peak transmission.
+
+Dieterich et al.
+
+from the BT-Settl model grid using custom made IDL procedures. Our procedure exploits the fact that synthetic colors can be computed from synthetic spectra and those colors can then be directly compared to observed colors. How well the synthetic colors match the observed colors is then a measure of how well the input properties of a given synthetic spectrum (Teff, log g, and [M/H]) match the real properties of the object in question. The best matching Teff can then be found by interpolating Teff as a function of the residuals of the color comparison (observed color - synthetic color) to the point of zero residual. The technique can be applied independently to each available photometric color, and the standard deviation of the resulting ensemble of Teff values is the measure of the uncertainty in Teff.
+In our implementation of this technique, we first combined our VRI photometry (Bessel system) with 2MASS JHKs (Skrutskie et al. 2006) and WISE W1, W2, and W3 photometry (Wright et al. 2010) to derive a total of 36 different colors for each object covering the spectral range from 0.4 m to 16.7 m.7 We then calculated the same 36 colors for each spectrum in the BT-Settl model grid using the photometric properties for each band listed in Table 2.8
+For each color, we then tabulated the residuals of (observed color - synthetic color) as a function of the synthetic spectrum's temperature. The residuals are negative if the synthetic spectrum's temperature is too cold, approach zero for spectra with the right temperature, and are positive for models hotter than the science object. For each color, we then interpolated the residuals as a function of temperature to the point of zero residual. The temperature value of this point was taken as the object's effective temperature according to the color in question. We then repeated the procedure for all 36 color combinations, thus providing 36 independent determinations of Teff. The adopted Teff for each object is the mean of the Teff values from each color. The uncertainty in Teff is the standard deviation of the values used to compute the mean. After performing this procedure, we noted that the majority of colors produced Teff results that converged in a Gaussian fashion about a central value, while other colors produced outliers that were a few hundred Kelvin away from the Gaussian peak. Further inspection showed that colors for which the bluest band was an optical band (VRI) were producing the convergent results while colors in which both bands were infrared bands tended to produce erratic values with
+7 We did not use the WISE W4 band centered at 22 m because it produces mostly null detections and upper limits for late M and L dwarfs. 8 A thorough review of photometric quantities, terminology, and procedures for deriving synthetic colors is given in the appendix of Bessell & Murphy (2012).
+
+no apparent systemic trend. We therefore performed the calculations a second time using only the colors involving the VRI bands and excluding I-J, which also did not converge well, for a total of twenty colors. Occasionally, a color combination still produced an outlier at Teff 2 from the adopted value. These outliers were excluded as well; however, the majority of objects had their effective temperatures computed using all twenty colors. The fact that none of the colors composed of infrared bands alone had good convergence emphasizes the need to include optical photometry when studying VLM stars and brown dwarfs.
+The model grid we used was a three-dimensional grid with a Teff range from 1300 K to 4500 K in steps of 100 K, log g range from 3.0 to 5.5 in steps of 0.5 dex, and metallicity, [M/H], range of -2.0 to 0.5 in steps of 0.5 dex. The procedure was repeated for each different combination of log g and [M/H]. The final adopted Teff was the one from the combination of gravity and metallicity that yielded the lowest Teff dispersion amongst the colors. As expected for VLM stars and brown dwarfs in the solar neighborhood, the vast majority of objects had their best fit effective temperatures at log g = 5.0 and [M/H] = 0.0. The color-Teff interpolations often did not converge for grid points where log g or [M/H] was more than 1.0 dex away from the final adopted value. We reserve a comprehensive discussion of metallicity and gravity issues in our observed sample for a future publication reporting our spectroscopic observations.
+The IDL procedure for determining effective temperatures also indicates which model spectrum in the BT-Settl grid provides the overall best fit to the observed photometry. We used the indicated best fit spectrum as a template for an object's SED in order to calculate an object's luminosity. Because the model spectra are spaced in a discrete grid, and because no model spectrum can be expected to provide a perfect match to observations, significant differences may still remain between the best fit synthetic spectrum and the real SED. We devised an iterative procedure that applies small modifications to the chosen SED template in order to provide a better match to the photometry. We first calculated synthetic photometry from the SED template for all nine bands listed in Table 2 using a procedure identical to the one used for calculating synthetic colors for the purpose of Teff determination. We then did a band by band comparison of the synthetic photometry to the observed photometry and computed a corrective flux factor by dividing the flux corresponding to the observed photometry by the synthetic flux. Next, we paired the corrective flux factors to the corresponding isophotal effective wavelength for each band and fit those values to a ninth order polynomial using the IDL
+
+6
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+function poly_fit, thus creating a continuous corrective function with the same wavelength coverage as the SED template. While it may seem unusual to fit nine bands of photometry to a ninth order polynomial, we note that the purpose of the fit is not to follow the general trend in the data, but rather to provide corrections to each individual band while still preserving the continuity of the SED. It therefore makes sense to use a function with the same order as the number of data points. To facilitate computations, poly_fit was run on a logarithmic wavelength scale that was then transformed back to a linear scale. The original SED template was then multiplied by the corrective function and the process was iterated until residuals for all bands fell below 2%. Because the W3 band is much broader than the other bands, two additional points were used to compute the corrective function at the blue and red ends of the band as well as at the isophotal wavelength. Figure 2 describes the process graphically. The first iteration typically produced mean color shifts of 0.1 to 0.25 mag, depending on how well the real SED of a given object matched the closest point in the spectral template grid.
+The BT-Settl models are published with flux units as they appear at the stellar surface. These are very high fluxes when compared to observed fluxes on Earth. To facilitate computations, the model spectra were first normalized to a value that is comparable in magnitude to the observed photometric fluxes that are used to calibrate the spectrum. Given the range of magnitudes of our objects, we found that normalizing the model spectra so that their bolometric flux is 10-10 erg s-1 cm-2 works well. The first iteration corrected for the bulk of the flux mismatch between the real target and this arbitrary normalization, thus causing a much larger correction than the subsequent iterations. The number of iterations necessary for conversion varied greatly, ranging anywhere from three to twenty or more. Table 3 shows the overall corrective factor for each band for the three examples shown in Figure 2, as well as the number of iterations that were necessary. The flux factors in Table 3 were normalized to 1.000 at the H band for ease of comparison. To check that our corrective polynomial approach was producing consistent results, we computed the luminosities for the objects listed in Table 3 using ninth order polynomials as well as eighth order polynomials. The results of dividing the luminosity obtained using the eighth order polynomials by that obtained using ninth order polynomials were 1.00052, 1.00077, and 0.99451, respectively, for LHS 3003, 2MASS J1501+2250, and 2MASS J2104-1037. The uncertainties associated with the adopted ninth order solution are 3.08%, 1.91%, and 6.97%, respectively, for LHS 3003, 2MASS J1501+2250, and 2MASS J2104-1037. This test shows that so long as the polynomials used are of high enough order, varying the order of the corrective polynomial causes changes to the resulting luminosities that are well within the formal uncertainties.
+The uncertainty in the final flux under the SED was calculated by propagating the uncertainty in the observed photometry and the residuals of the final SED fit for each band and summing the results in quadrature. Finally, the total flux was divided by the fraction of a blackbody's total flux covered by the SED template given the effective temperature of the object in question. This correction accounted for the finite wavelength range of the SED and was typically on the order of 1.5%.
+Once the effective temperatures and the observed bolometric fluxes were determined by the procedures described above, determining the radii of stars or brown dwarfs with a known trigonometric parallax followed easily from the
+
+Dieterich et al.
+(a)
+(b)
+(c) Figure 2. SED calibrations for (a) LHS 3003 (M7V), (b) 2MASS J1501+2250 (M9V), and (c) 2MASS J2104-1037 (L3). The corrective polynomial functions are shown by dashed lines and are fits to the corrective factors shown by plus signs. In the first two cases, the polynomial generated in the first iteration stands out at the bottom of the graph due to the flux mismatch caused by the difference between the object's real distance and the distance at which the SED template was calculated. The first iteration is too close to the wavelength axis to be noticeable in (c). The following iterations then produce corrective functions that differ only slightly from a flat 1.0 function and perform a "fine tuning" of the modifications caused by the first iteration. Both the original SED template and the final fit are plotted normalized to 1 at their maximum values. In the cases of 2MASS J1501+2250 and 2MASS J2104-1037, the end result is an SED slightly redder than the template. The template used for LHS 3003 was a very good fit and the resulting SED almost entirely overlaps the initial template. Table 3 lists the cumulative correction factors applied to each band for the three objects in this figure.
+
+7
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+
+Table 3 Corrective Factors for SEDs Shown in Figure 2a
+
+Object
+LHS 3003 2MASS J1501+2250 2MASS J2104-1037
+
+Iterations
+22 3 3
+
+V
+0.865 1.144 1.031
+
+R
+0.917 1.037 1.066
+
+I
+0.927 0.986 1.028
+
+J
+0.952 0.911 0.931
+
+H
+1.000 1.000 1.000
+
+Ks
+1.044 1.113 1.033
+
+W1
+1.042 1.203 0.842
+
+W2
+1.002 1.201 0.724
+
+W3
+0.711 1.032 1.075
+
+Note. a All values are normalized to 1.000 in the H band.
+
+Dieterich et al.
+
+Figure 3. Comparison of M dwarf radii obtained via our SED fitting technique to values based on direct angular diameter measurements obtained with Georgia State University's CHARA Array Optical Interferometer (Boyajian et al. 2012). From smallest to largest, the points correspond to: Barnard's Star (M4.0V), GJ 725B (M3.5V), GJ 725A (M3.0V), GJ 15A (M1.5V), GJ 411 (M2.0V), GJ 412A (M1.0V), and GJ 678 (M3.0V). The percent residuals in the sense (SED fit - CHARA) are: -0.3%, -10.9%, -3.6%, 0.8%, -1.3%, -1.3%, and 5.3%, respectively. The mean absolute residual is 3.4%.
+Stefan-Boltzmann law:
+L = 4 R2SBTeff4
+where L is the object's luminosity, R is its radius, SB = 5.6704 × 10-5 erg cm-2 s-1 K-4 is the Stefan-Boltzmann constant, and Teff is the effective temperature.
+In order to check the accuracy of our procedures for determining effective temperatures and luminosities, we applied our methodology to seven M dwarfs that have direct modelindependent radius measurements obtained using Georgia State University's CHARA Array Long Baseline Optical Interferometer (Boyajian et al. 2012). Figure 3 shows the comparison. The mean absolute residual is 3.4%. While it is currently difficult to directly measure the angular diameters of late M and L dwarfs using interferometry, the good agreement we obtain when comparing the results of our SED fitting procedure to direct radius measurements for hotter M dwarfs serves as a check on our technique. We also note that while direct radius measurements exist for several eclipsing binaries, the individual components of these systems lack the photometric coverage needed for applying our method and therefore cannot be used as checks.
+
+6. RESULTS
+Table 1 includes astrometric results (our new values as well as values from the literature), our VRI photometry, and the derived effective temperatures, luminosities, and radii for all objects. Table 4 reports detailed astrometric results for the 37 objects for which we report new trigonometric parallaxes. All resulting quantities are synthesized and summarized graphically in Figure 4, a bona fide HR diagram for the end of the stellar main sequence. We discuss several auxiliary results separately here and save a thorough discussion of the structure of the stellar/substellar boundary for Section 7.
+6.1. Photometric Results
+Columns 13-17 of Table 1 list our VRI photometry, the telescope in which the photometry was taken, and the number of epochs for which each target was observed. For the 28 targets observed on both telescopes, Table 1 lists the set of observations with the smallest error or the most epochs, with the number of epochs taking priority in selecting which data set to adopt. The electronic version of Table 1 lists both sets of photometry for these objects, along with 2MASS JHKs and WISE W1W2W3 photometry for all objects. We achieved sensitivities of V = 23.75 ± 0.01 on SOAR with 90 minute exposures under dark skies and good seeing. The time demands of the CTIOPI program at the 0.9 m telescope forced us to limit exposures to 20 minutes for the majority of targets. Under dark skies and good seeing (i.e., 1.0) 20 minute integrations yielded results as faint as V = 19.50 ± 0.05. In exceptional cases when we took longer integrations, we were able to achieve V = 21.93±0.07 in 90 minutes under extraordinary conditions. The majority of the measurements had errors <0.05 mag (i.e., 5%); however, for the fainter 0.9 m observations, the errors are as large as 0.15 mag. It was our original intention to observe all targets for at least two epochs, but this was not possible for some targets due to time constraints on SOAR. As discussed in Section 6.5, the optical variability for the sample is comparable to the photometric error, meaning that single epoch photometry should be generally consistent with the values we would obtain by averaging more observations.
+Table 1 shows the photometry in the photometric system used by the telescope with which the measurements were taken--Johnson-Kron-Cousins for the CTIO 0.9 m telescope and Bessell for SOAR. We have also converted the CTIO 0.9 m values to the Bessell system, and we present these data in the electronic version of Table 1. Rather than extrapolating the relations of Bessell (1995), we used the 28 objects observed on both telescopes to derive new relations between the colors (V - RB ) and (V - RC) as well as (V - IB ) and (V - IC) and show the results in Figure 5. Given the photometric uncertainties of our V and R observations (typically 5%; Table 1), we find no systematic deviation between the two (V - R) colors. We therefore adopt RB = RC for the purpose of this study. We do detect a trend in the (V - I ) colors, as shown in
+
+8
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+
+ID
+
+Name
+
+R.A.
+
+Decl.
+
+2000.0
+
+2000.0
+
+1
+
+GJ 1001BC
+
+00:04:34.9 -40:44:06
+
+2
+
+LEHPM1-0494B
+
+00:21:05.8 -42:44:49
+
+3
+
+LEHPM1-0494A
+
+00:21:10.7 -42:45:40
+
+10 DENIS J0306-3647 03:06:11.5 -36:47:53
+
+11
+
+LP 944-020
+
+03:39:35.2 -35:25:44
+
+13 2MASS J0428-2253 04:28:50.9 -22:53:22
+
+14
+
+LP 775-031
+
+04:35:16.1 -16:06:57
+
+15 2MASS J0451-3402 04:51:00.9 -34:02:15
+
+16 2MASS J0500+0330 05:00:21.0 +03:30:50
+
+17 2MASS J0523-1403 05:23:38.2 -14:03:02
+
+18 DENIS J0652-2534 06:52:19.7 -25:34:50
+
+21 DENIS J0751-2530 07:51:16.4 -25:30:43
+
+22 DENIS J0812-2444 08:12:31.7 -24:44:42
+
+23 SSSPM J0829-1309 08:28:34.1 -13:09:19
+
+26 2MASS J0847-1532 08:47:28.7 -15:32:37
+
+27
+
+LHS 2065
+
+08:53:36.0 -03:29:28
+
+29
+
+LHS 2195
+
+09:49:22.2 +08:06:45
+
+35
+
+LHS 2397aAB
+
+11:21:49.0 -13:13:08
+
+36 2MASS J1126-5003 11:26:39.9 -50:03:55
+
+38
+
+LP 851-346
+
+11:55:42.9 -22:24:58
+
+40
+
+LEHPM2-0174
+
+12:50:52.2 -21:21:09
+
+42
+
+CE 303
+
+13:09:21.9 -23:30:33
+
+43 DENIS J1425-3650 14:25:27.9 -36:50:22
+
+45 2MASS J1440+1339 14:40:22.9 +13:39:23
+
+46 DENIS J1454-6604e 14:54:07.9 -66:04:47
+
+49 DENIS J1539-0520e 15:39:41.9 -05:20:43
+
+50
+
+LHS 5303
+
+15:52:44.4 -26:23:07
+
+51 2MASS J1555-0956 15:55:15.7 -09:56:05
+
+52
+
+SIPS J1607-0442
+
+16:07:31.3 -04:42:06
+
+53
+
+SIPS J1632-0631
+
+16:32:58.8 -06:31:45
+
+54 2MASS J1645-1319 16:45:22.1 -13:19:51
+
+56 2MASS J1705-0516AB 17:05:48.3 -05:16:46
+
+58
+
+SIPS J2045-6332
+
+20:45:02.3 -63:32:05
+
+59 2MASS J2104-1037 21:04:14.9 -10:37:37
+
+61 SSSPM J2307-5009 23:06:58.7 -50:08:58
+
+62
+
+LHS 4039C
+
+23:54:09.3 -33:16:25
+
+63 SSSPM J2356-3426 23:56:10.8 -34:26:04
+
+Table 4 New Trigonometric Parallaxes, Proper Motions, and Optical Variability
+
+Filt. Nseaa Nfrmb
+
+Coverage
+
+Years Nref c
+
+ (rel) (mas)
+
+ (corr) (mas)
+
+ (abs) (mas)
+
+ (mas yr-1)
+
+P.A. (deg E. of N.)
+
+Vtan (Km s-1)
+
+Var.d (mmag)
+
+R 10s 112 1999.64-2011.74 12.10 6
+
+75.99 ± 2.06 1.03 ± 0.16 77.02 ± 2.07 1643.6 ± 0.6 156.0 ± .04
+
+102.4
+
+···
+
+I
+
+5s
+
+24 2008.86-2012.83 3.97 9
+
+39.22 ± 2.10 0.55 ± 0.08 39.77 ± 2.10 252.9 ± 1.6 089.1 ± .53
+
+30.1
+
+15.4
+
+I
+
+5s
+
+24 2008.86-2012.83 3.97 9
+
+36.65 ± 1.99 0.55 ± 0.08 37.20 ± 1.99 252.8 ± 1.5 086.5 ± .53
+
+32.2
+
+6.5
+
+I
+
+4s
+
+39 2009.75-2012.94 3.19 8
+
+75.79 ± 1.42 0.67 ± 0.08 76.46 ± 1.42 690.0 ± 1.1 196.0 ± .16
+
+42.7
+
+8.4
+
+I
+
+8s
+
+59 2003.95-2012.94 8.99 10 154.53 ± 1.03 1.36 ± 0.10 155.89 ± 1.03 408.3 ± 0.3 048.5 ± .07
+
+12.4
+
+8.8
+
+I
+
+4s
+
+22 2010.01-2012.94 2.92 9
+
+38.04 ± 1.85 0.44 ± 0.04 38.48 ± 1.85 189.3 ± 1.9 038.1 ± 1.11
+
+23.2
+
+18.0
+
+I
+
+7c
+
+74 2003.95-2012.88 8.94 8
+
+94.53 ± 1.05 0.82 ± 0.13 95.35 ± 1.06 356.0 ± 0.4 028.0 ± .11
+
+17.6
+
+8.1
+
+I
+
+5s
+
+22 2008.86-2013.12 4.26 8
+
+46.43 ± 1.43 1.03 ± 0.47 47.46 ± 1.51 157.6 ± 1.0 036.5 ± .75
+
+15.7
+
+50.6
+
+I
+
+4c
+
+23 2009.75-2012.89 3.15 13
+
+73.38 ± 1.98 0.47 ± 0.12 73.85 ± 1.98 350.2 ± 1.7 177.9 ± .41
+
+22.4
+
+14.8
+
+I
+
+3c
+
+24 2010.98-2013.12 2.14 9
+
+80.35 ± 1.76 0.60 ± 0.10 80.95 ± 1.76 194.5 ± 1.6 032.5 ± .94
+
+11.4
+
+11.7
+
+I
+
+4c
+
+36 2010.02-2013.12 3.10 12
+
+63.24 ± 0.94 0.52 ± 0.04 63.76 ± 0.94 249.6 ± 0.7 289.3 ± .31
+
+18.5
+
+10.5
+
+I
+
+4c
+
+35 2010.15-2013.12 2.97 10
+
+58.65 ± 0.84 0.50 ± 0.02 59.15 ± 0.84 889.1 ± 0.8 279.2 ± .09
+
+71.2
+
+15.3
+
+I
+
+4s
+
+28 2010.02-2013.25 3.24 14
+
+44.79 ± 0.96 0.68 ± 0.03 45.47 ± 0.96 196.4 ± 0.7 135.5 ± .41
+
+20.4
+
+19.9
+
+I
+
+4c
+
+24 2009.94-2013.26 3.32 10
+
+87.24 ± 0.76 0.72 ± 0.16 87.96 ± 0.78 577.3 ± 0.7 273.0 ± .10
+
+31.1
+
+9.2
+
+I
+
+5s
+
+35 2009.32-2013.27 3.95 12
+
+58.34 ± 0.99 0.62 ± 0.09 58.96 ± 0.99 239.5 ± 0.7 146.1 ± .34
+
+19.2
+
+9.9
+
+I 10s 101 2003.95-2013.26 9.31 6 117.19 ± 0.76 0.79 ± 0.03 117.98 ± 0.76 550.3 ± 0.2 249.4 ± .04
+
+22.0
+
+12.1
+
+I
+
+4s
+
+36 2010.01-2013.10 3.09 9
+
+59.55 ± 1.66 0.77 ± 0.15 60.32 ± 1.67 886.7 ± 1.2 177.4 ± .12
+
+69.7
+
+11.1
+
+I
+
+7c
+
+68 2005.09-2013.26 8.16 9
+
+65.28 ± 2.02 0.55 ± 0.07 65.83 ± 2.02 506.9 ± 0.6 264.7 ± .11
+
+36.5
+
+22.1
+
+I
+
+5s
+
+20 2009.19-2013.25 4.07 13
+
+58.82 ± 1.64 0.56 ± 0.12 59.38 ± 1.64 1645.7 ± 1.0 286.2 ± .06
+
+131.3
+
+25.3
+
+I
+
+7s
+
+56 2007.18-2013.28 6.10 9
+
+88.92 ± 1.77 0.62 ± 0.06 89.54 ± 1.77 408.6 ± 0.9 244.0 ± .23
+
+21.6
+
+10.4
+
+I
+
+8s
+
+45 2005.14-2013.38 8.25 9
+
+57.33 ± 1.72 0.44 ± 0.03 57.77 ± 1.72 565.7 ± 0.6 125.8 ± .15
+
+46.4
+
+7.8
+
+I
+
+4s
+
+47 2010.16-2013.27 3.11 11
+
+68.41 ± 1.32 0.92 ± 0.14 69.33 ± 1.33 380.5 ± 1.1 176.0 ± .26
+
+26.0
+
+10.2
+
+I
+
+5s
+
+33 2009.31-2013.28 3.96 13
+
+85.80 ± 0.79 0.65 ± 0.24 86.45 ± 0.83 543.7 ± 0.8 211.6 ± .17
+
+29.8
+
+15.1
+
+I
+
+5s
+
+34 2009.25-2013.26 4.01 8
+
+44.13 ± 1.11 0.87 ± 0.07 45.00 ± 1.11 331.1 ± 0.9 204.7 ± .28
+
+34.8
+
+6.9
+
+I
+
+5s
+
+22 2009.32-2013.26 3.94 11
+
+84.21 ± 1.70 0.67 ± 0.17 84.88 ± 1.71 564.8 ± 1.3 125.1 ± .25
+
+31.5
+
+19.9
+
+I
+
+5c
+
+29 2009.25-2013.25 4.00 11
+
+60.51 ± 1.26 0.74 ± 0.08 61.25 ± 1.26 602.3 ± 1.1 79.9 ± .17
+
+46.5
+
+17.0
+
+I
+
+9s
+
+85 2004.57-2012.59 8.02 10
+
+94.10 ± 0.70 0.53 ± 0.07 94.63 ± 0.70 495.4 ± 0.2 155.1 ± .05
+
+24.7
+
+10.7
+
+I
+
+4c
+
+25 2010.19-2013.28 3.08 10
+
+73.94 ± 1.21 0.59 ± 0.05 74.53 ± 1.21 1217.0 ± 1.3 129.9 ± .12
+
+77.4
+
+9.9
+
+I
+
+4c
+
+32 2010.39-2013.26 2.87 8
+
+62.79 ± 1.47 1.11 ± 0.06 63.90 ± 1.47 414.6 ± 1.2 180.2 ± .26
+
+30.7
+
+12.2
+
+I
+
+3c
+
+40 2010.19-2012.58 2.39 11
+
+52.31 ± 1.47 1.00 ± 0.14 53.31 ± 1.48 342.2 ± 1.9 176.3 ± .45
+
+30.4
+
+17.9
+
+I
+
+5c
+
+48 2009.32-2013.27 3.95 15
+
+89.19 ± 0.81 0.93 ± 0.10 90.12 ± 0.82 873.8 ± 0.6 203.8 ± .08
+
+45.9
+
+11.6
+
+I
+
+5s
+
+18 2009.32-2013.25 3.93 10
+
+53.34 ± 1.74 1.73 ± 0.26 55.07 ± 1.76 164.7 ± 1.1 132.5 ± .79
+
+14.2
+
+40.9
+
+I
+
+4c
+
+45 2010.59-2013.54 2.95 11
+
+40.65 ± 1.50 1.07 ± 0.07 41.72 ± 1.50 220.4 ± 1.2 158.0 ± .88
+
+24.7
+
+38.9
+
+I
+
+4c
+
+22 2009.56-2012.58 3.02 12
+
+52.23 ± 1.70 0.77 ± 0.15 53.00 ± 1.71 661.9 ± 1.3 116.0 ± .22
+
+59.2
+
+12.5
+
+I
+
+4c
+
+41 2009.55-2012.81 3.26 9
+
+46.21 ± 1.57 0.38 ± 0.06 46.59 ± 1.57 457.8 ± 1.6 82.7 ± .32
+
+46.5
+
+11.5
+
+I
+
+4c
+
+58 2003.51-2007.74 4.23 5
+
+41.91 ± 2.08 2.47 ± 0.15 44.38 ± 2.09 505.5 ± 1.8 218.3 ± .40
+
+53.9
+
+20.0
+
+I
+
+3c
+
+28 2009.56-2011.77 2.21 9
+
+51.80 ± 1.71 0.57 ± 0.07 52.37 ± 1.71 312.5 ± 2.1 167.1 ± .67
+
+28.2
+
+10.2
+
+9
+
+Notes. a Number of seasons observed, where 2-3 months of observations count as one season, for seasons having more than three images taken. The letter "c" indicates a continuous set of observations where multiple nights of data were taken in each
+season, whereas an "s" indicates scattered observations when one or more seasons have only a single night of observations. Generally "c" observations are better. b Total number of images used in reduction. Images are typically taken in sets of three consecutive observations. c Number of reference stars used to reduce the parallax. d Photometric variability of the science target. e No V photometry. Correction for differential color refraction based on estimated V from color-magnitude relations.
+
+Dieterich et al.
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+
+Dieterich et al.
+This paper Literature
+
+Figure 4. HR diagram for objects with spectral types ranging from M6V to L4.5. Several representative objects are named. Known binaries with joint photometry are enclosed in open circles. A few known binaries are clearly over-luminous, denoting their low luminosity ratios. The L4.5 binary GJ 1001BC was deconvolved based on the nearly identical luminosity of both components (Golimowski et al. 2004a). As we discuss in Section 7, the L2.5 dwarf 2MASS J0523-1403 lies at a pronounced minimum in the radius-luminosity relation and its location likely constitutes the end of the stellar main sequence. Versions of this diagram that use the ID labels in Table 1 and spectral type labels for plotting symbols are available as supplemental online material.
+(An extended, color version of this figure is available in the online journal.)
+
+Figure 5(b). Based on the data shown in Figure 5(b), we derive the transformation
+(V - IB ) = -0.0364(V - IC)2 + 1.4722(V - IC) - 1.3563.
+We emphasize that the relations we derive here are based on a small sample and serve the purposes of our study only. They should not be used as general relations analogous to those of Bessell (1995). In particular, the difference in the I band is likely dominated by the different detector efficiencies between the CTIO 0.9 m and the SOAR/SOI CCDs in the far red. The I photometry listed in Table 1 is in the photometric system of the telescope that took the adopted observations.
+We note that the procedure for determining effective temperatures and luminosities described in Section 5 uses photometry in the Bessell system because the transmission curves for Bessell filters are well-characterized (Bessell & Murphy 2012).
+6.2. New Trigonometric Parallaxes
+As reported in Table 4, our trigonometric parallax measurements have a mean uncertainty of 1.43 mas, corresponding to
+
+a distance error of 1% at 10 pc and 3.5% at our original distance horizon of 25 pc. When comparing our results to other samples observed by CTIOPI, we found that nearby late M and early L targets tend to be ideal targets for optical parallax investigations on one meter class telescopes. Although the intrinsic faintness of the targets made them a challenge in nights with poor seeing or a bright moon, the parallax solution converged with fewer epochs and had smaller errors than what we experience for brighter samples. We suspect that several factors contribute to this good outcome. First, the long exposures average out short atmospheric anomalies that may cause asymmetric point-spread functions (PSFs). The resulting symmetric PSF profiles facilitate centroiding. Second, the long exposures generate images rich in background stars that are likely more distant than reference stars available in shorter exposures. Because exposure times for brighter targets are often limited by the time it takes for the science target to saturate the detector, these faint and distant reference stars are not available for brighter parallax targets. Third, as already mentioned, the use of the I band minimizes atmospheric refraction when compared to other optical bands.
+
+10
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+(a)
+(b) Figure 5. Comparison of photometry for 28 objects observed on both the CTIO 0.9 m telescope (Kron-Cousins filters) and the SOI instrument on the SOAR 4.1 m telescope (Bessell filters). The dotted line indicates a 1 to 1 relation. The V band is photometrically identical on both systems. Panel "a" shows that there is no systematic difference between RC and RB. Panel "b" shows the trend for the I band. The solid line represents the polynomial fit (V - IB ) = -0.0364(V - IC )2 + 1.4722(V - IC ) - 1.3563. Most of the difference in the I band is likely due to different sensitivities between the two detectors in the far red. The dashed vertical lines indicate the red limit of the Bessell (1995) color relations for the two filter systems.
+From a mathematical point of view, solving a trigonometric parallax consists of fitting the measured apparent displacements of the science target to an ellipse whose eccentricity and orientation is predetermined by the target's position in the celestial sphere. At the same time, we deconvolve the constant linear component of motion due to the object's proper motion. The size of the ellipse's major and minor axes provide a measure of the object's distance. Figure 6 shows the parallax ellipses for our observations. In these plots, a parallax factor of 1 or -1 indicates the target's maximum apparent displacement from its mean position in the right ascension axis. Because we restricted the hour angle of our observations to ±30 minutes (Section 4), high parallax factor observations occurred during evening and morning twilight. As is clear from Figure 6, these twilight observations are essential for determining the parallax ellipse's major axis. The extent to which observations with lower parallax factors constrained the final parallax solution depended greatly
+
+Dieterich et al.
+in the parallax ellipse's eccentricity. An object with coordinates close to the ecliptic pole produces a parallax ellipse that is nearly circular, and in that case low parallax factor observations can still provide significant constraints to the parallax solution (e.g., object 1). The opposite occurs with the high eccentricity parallax ellipses for objects lying close to the ecliptic plane, where low parallax factor observations contribute little toward the final solution (e.g., object 29).
+Regardless of the target's position on the celestial sphere, we found out that attempting to fit a parallax ellipse to more than 4 epochs but fewer than 7 epochs will often produce an erroneous answer whose formal uncertainty is also unrealistically small. True convergence of a parallax result was best determined by assuring that the following conditions were met: (1) adding new epochs caused changes that were small compared to the formal uncertainty; (2) high parallax factor observations were taken during both evening twilight and morning twilight; and (3) the parallax ellipses shown in Figure 6 appeared to be sufficiently sampled so that the points trace out a unique ellipse.
+Nine of the 37 targets listed in Table 4 have previously published trigonometric parallaxes. These targets are listed in Table 5 with our new trigonometric parallax and the previous value. In five cases trigonometric parallaxes were not yet published at the beginning of this study in 2009 (Andrei et al. 2011; Dupuy & Liu 2012; Faherty et al. 2012). LHS 4039C (Subasavage et al. 2009) is a member of a resolved triple system; we re-reduced our data set with LHS 4039C as the science target (see Section 8). Finally, we note that LP944-020 (Tinney 1996) is no longer a member of the 5 pc sample and 2MASS J1645-1319 is no longer a member of the 10 pc sample (Henry et al. 2006).
+Table 9 of Dupuy & Liu (2012) lists all known ultracool dwarfs with trigonometric parallaxes at the time of that publication. In that list, 156 objects have spectral types matching the spectral type range of our study, M6V to L4. In addition, out of the seventy trigonometric parallaxes reported by Faherty et al. (2012), 24 are first parallaxes for objects in the M6V to L4 spectral type range. The 28 objects for which we publish first parallaxes in this paper therefore represent a 15.5% increase in the number of objects with trigonometric parallaxes in the M6V to L4 spectral type range, for a total of 208 objects.
+6.3. Effective Temperatures
+While the agreement with interferometric measurements shown in Figure 3 makes us confident that our overall methodology is right, the effective temperatures we derived based on nine bands of photometry are still essentially model-dependent. The uncertainties in temperatures listed in Table 1 and shown by the error bars in Figure 4 can therefore be interpreted as measures of how accurate the model atmospheres are in a given temperature range. Inspection of Figure 4 shows that the models work very well for temperatures above 2600 K, with uncertainties generally smaller than 30 K. The uncertainties then progressively increase as the temperature lowers and can be greater than 100 K for objects cooler than 2000 K. The turning point at 2600 K has been explained by the model authors (Allard et al. 2012) as a consequence of solid grain formation starting at that temperature, thus making the atmosphere significantly more complex.
+The year 2012 brought about crucial advances in our ability to determine effective temperatures for cool stellar (and substellar) atmospheres. First, the publication of the WISE All Sky
+
+11
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+
+Dieterich et al.
+
+Figure 6. Parallax ellipses for the 37 parallaxes reported in this paper (objects 2 and 3 comprise a wide binary and parallaxes are derived for both components using the same images). The black dots sample the ellipse that each object appears to trace on the sky as a result of Earth's annual motion. The eccentricity of the ellipse is a function of the target's location in the celestial sphere, with objects close to the ecliptic plane producing the most eccentric ellipses. Low parallax factor observations provide significant constraints when the ellipse is not markedly eccentric.
+
+Table 5 Targets with Previously Published Parallaxes
+
+ID
+
+Name
+
+New abs (mas)
+
+New Distance (pc)
+
+Previous abs (mas)
+
+Previous Distance (pc)
+
+Reference
+
+1
+
+GJ 1001 BC
+
+77.02 ± 2.07
+
+11
+
+LP 944-020
+
+155.89 ± 1.03
+
+26
+
+2MASS J0847-1532
+
+58.96 ± 0.99
+
+27
+
+LHS 2065
+
+117.98 ± 0.76
+
+35
+
+LHS2397Aab
+
+65.83 ± 2.02
+
+49
+
+DENIS J1539-0520
+
+61.25 ± 1.26
+
+54
+
+2MASS J1645-1319
+
+90.12 ± 0.82
+
+56 2MASS J1705-0516AB 55.07 ± 1.76
+
+62
+
+LHS 4039C
+
+44.38 ± 2.09
+
+12.98+0.36
+-0.34
+6.41+0.04
+-0.04
+16.96+0.28
+-0.28
+8.47+0.05
+-0.05
+15.19+0.48
+-0.45
+16.32+0.34
+-0.32
+11.09+0.10
+-0.10
+18.15+0.59
+-0.56
+22.53+1.11
+-1.01
+
+76.86 ± 3.97 201.40 ± 4.20
+76.5 ± 3.5 117.30 ± 1.50
+73.0 ± 2.1 64.5 ± 3.4 109.9 ± 6.1 45.0 ± 12.0 43.74 ± 1.43a
+
+13.01+0.71
+-0.63
+4.96+0.11
+-0.10
+13.07+0.63
+-0.57
+8.52+0.11
+-0.11
+13.78+0.41
+-0.38
+15.50+0.86
+-0.78
+9.01+0.53
+-0.48
+22.22+8.08
+-4.68
+22.86+0.78
+-0.72
+
+Henry et al. (2006) Tinney (1996)
+Faherty et al. (2012) van Altena et al. (1995)
+Dupuy & Liu (2012) Andrei et al. (2011) Faherty et al. (2012) Andrei et al. (2011) Subasavage et al. (2009)
+
+Note. a Weighted mean of A and B components. See Section 8 for details.
+
+Catalog9 provided uniform photometric coverage in the midinfrared for known cool stars and brown dwarfs. Second, as already discussed, the publication of the BT-Settl model atmospheres with revised solar metallicities has provided opportuni-
+9 http://wise2.ipac.caltech.edu/docs/release/allsky/
+
+ties to match observational data to fundamental atmospheric parameters with unprecedented accuracy (Section 5). Despite these recent advances, it is still useful to compare our results with earlier pioneering work in the field of effective temperature determination for cool atmospheres. Golimowski et al. (2004b) computed effective temperatures for 42 M, L, and T, dwarfs based on
+
+12
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+
+Table 6 Comparison of Effective Temperatures from Different Studies
+
+ID
+
+Name
+
+Spectral
+
+This
+
+G2004a
+
+G2004a
+
+Type
+
+Work
+
+Range
+
+(3 Gyr)
+
+30 LHS 292
+
+M6.0V 2588 ± 32 2475-2750
+
+32 GJ 406
+
+M6.0V 2700 ± 56 2650-2900
+
+40 LEHPM2-0174
+
+M6.5V 2598 ± 25
+
+···
+
+47 LHS 3003
+
+M7.0V 2581 ± 17 2350-2650
+
+38 LP 851-346
+
+M7.5V 2595 ± 28
+
+···
+
+7 LHS 132
+
+M8.0V 2513 ± 29
+
+···
+
+27 LHS 2065
+
+M9.0V 2324 ± 27 2150-2425
+
+58 SIPS J2045-6332
+
+M9.0V 2179 ± 111
+
+···
+
+4 BRI B0021-0214
+
+M9.5V 2315 ± 54 2150-2475
+
+20 2MASS J0746+2000AB L0.0J 2310 ± 51 1900-2225
+
+44 2MASS J1439+1929
+
+L1.0
+
+2186 ± 100 1950-2275
+
+41 Kelu-1AB
+
+L2.0J 2026 ± 45 2100-2350
+
+33 DENIS J1058-1548
+
+L3.0
+
+1804 ± 13 1600-1950
+
+5 2MASS J0036+1821
+
+L3.5
+
+1796 ± 33 1650-1975
+
+1 GJ 1001 BC
+
+L4.5
+
+1725 ± 21 1750-1975
+
+60 2MASS J2224-0158
+
+L4.5
+
+1567 ± 88 1475-1800
+
+2725 2900
+··· 2600
+··· ··· 2400 ··· 2425 2200 2250 2300 1900 1900 1850 1750
+
+C2008a
+··· ··· ··· ··· ··· ··· ··· ··· ··· ··· ··· ··· ··· 1700 ··· 1700
+
+R2013a
+2700 ···
+2700 ···
+2600 2600
+··· 2500
+··· ··· ··· ··· ··· ··· ··· ···
+
+Note. a G2004: Golimowski et al. 2004b; C2008: Cushing et al. 2008; R2013: Rajpurohit et al. 2013.
+
+Dieterich et al.
+
+observations in the L (3.4-4.1 m) and M (4.6-4.8 m) bands. They first used photometry to calculate bolometric fluxes based on observed spectra, and then used evolutionary models (Burrows et al. 1997) to determine a range of effective temperatures based on bolometric luminosities and radii with the assumption of an age range of 0.1 to 10 Gyr as well as a unique value for 3 Gyr. Cushing et al. (2008) determined the effective temperatures of nine L and T dwarfs by fitting observed flux-calibrated spectra in the wavelength range 0.6-14.5 m to their own model atmospheres. Their technique, like ours, has the advantage of relying solely on atmospheric models as opposed to the significantly more uncertain evolutionary models, as discussed in detail in Section 7.2. Finally, Rajpurohit et al. (2013) have recently compared optical spectra (0.52-1.0 m) for 152 M dwarfs to the same BT-Settl models we use in this study. Twenty-five of their M dwarfs have spectral types of M6V or later.
+Table 6 compares our results to overlapping objects in these three studies. While it is difficult to generalize from the small overlap amongst the different samples, there is a tendency for our results to be 100 K cooler than the others. The cause of this discrepancy is not clear. In the case of Golimowski et al. (2004b), the most likely explanation is that their assumed mean age of 3 Gyr may not be representative of our sample. An age mismatch combined with the significant uncertainty in the evolutionary models could easily account for this temperature difference. Out of the five objects in common between this study and Rajpurohit et al. (2013), the effective temperature for one object agrees well while three objects have mismatches of 100 K, and another has a significantly larger mismatch. While we do not know what is causing the different values, we note that the comparison of radii derived with our methodology with empirically measured radii (Section 5, Figure 3) makes systematic error in our measurements an unlikely explanation. A temperature difference of 100 K would produce a systematic radius difference of 5% to 10% in the temperature range under consideration, and yet our derived radii have a mean absolute residual of only 3.4% in a random scatter. Because Rajpurohit et al. (2013) base their calculations on optical spectra alone, we speculate that the discrepancy may be due to the stronger effects of metallicity in altering the optical colors of late M dwarfs; a small change in metallicity can significantly change the slope
+
+Figure 7. HR diagram of Figure 5 with data from Konopacky et al. (2010) over-plotted with open circles. The data agree well at low temperatures, but steadily diverge at higher temperatures. Both data sets have the minimum radius at 2075 K.
+of the blue end of the SED. Because our method uses twenty different colors composed of optical, near-infrared, and midinfrared bands, the selective effect of metallicity in optical colors is ameliorated in our calculations.
+In addition to comparisons to other studies with objects in common to ours, we compare the general trends of our HR diagram (Figure 4) with the values derived by Konopacky et al. (2010). That study used Keck AO resolved near infrared photometry of M and L binaries as well as Hubble Space Telescope (HST ) resolved optical photometry to derive effective temperatures and luminosities. Twenty-two of their targets fall in the temperature range of our study, but because theirs was a high resolution AO study there are no targets in common. Figure 7 shows their results over-plotted on our HR diagram. The large
+
+13
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+uncertainties in Konopacky et al. (2010) make their data difficult to interpret and are probably a result of the lack of mid infrared photometry in their methodology. There is good agreement between their results and ours at cooler temperatures, but the two trends steadily diverge for temperatures above 2000 K, with Konopacky et al. (2010) predicting temperatures as much as 500 K cooler for a given luminosity. The discrepancy is probably a result of atmospheric modeling. While the BT-Settl models used in our study predict the rate of atmospheric dust formation and sedimentation for a wide range of temperatures, the "DUSTY" models (Allard et al. 2001) used by Konopacky et al. (2010) assume the extreme case where grains do not settle below the photosphere, thus providing a strong source of opacity. The "DUSTY" models replicate the conditions of L dwarf atmospheres well but gradually become inadequate at hotter temperatures where grain formation is less relevant (Allard et al. 2013). The additional source of opacity then causes the M dwarfs to appear cooler and larger than they really are.
+
+Dieterich et al.
+
+6.4. Color-Magnitude Relations
+
+Color-absolute magnitude relations are often the first tools
+
+used in estimating the distance to a star or brown dwarf. Deter-
+
+mining useful relations using only near infrared colors is chal-
+
+(a)
+
+lenging for late M and L dwarfs due to the degenerate nature of
+
+the near infrared color-magnitude sequence. One possible solu-
+
+tion is the use of spectral type-magnitude relations (e.g., Cruz
+
+et al. 2003); however, such relations require accurate knowledge
+
+of spectral types in a consistent system and are subject to the
+
+uncertainties inherent to any discrete classification system. Here
+
+we present new color-magnitude relations based on the optical
+
+photometry, 2MASS photometry, and trigonometric parallaxes
+
+reported in Table 1. Table 7 presents third order polynomial fits
+
+for all color-magnitude combinations of the filters VRIJHKs except for those with the color R-I, which becomes degenerate
+
+(i.e., nearly vertical) for R - I > 2.5. As an example, the first
+
+line of Table 7 should be written algebraically as
+
+MV = 0.21509(V - R)3 - 2.81698(V - R)2 + 14.16273(V - R) - 1.45226 (±0.53);
+1.61 (V - R) 3.64
+
+The relations are an extension of those published in Henry et al. (2004) into the very red optical regime. They are also complementary to the izJ relations of Schmidt et al. (2010). Figure 8 shows the color-absolute magnitude diagrams and polynomial fits for Mv versus (V - Ks) and MKs versus (R - Ks). Known binaries as well as objects that are otherwise elevated in the color-magnitude diagrams were excluded when computing the polynomial fits. The 1 uncertainties vary widely by color and are as small as 0.24 mag for colors that combine the V filter with the JHKs filters.
+6.5. Optical Variability
+Photometric variability in very low-mass stars and brown dwarfs has lately become an active area of research because variability can serve as a probe of many aspects of an object's atmosphere (e.g., Heinze et al. 2013). The leading candidate mechanisms thought to cause photometric variability are nonuniform cloud coverage in L and early T dwarfs (e.g., Radigan et al. 2012; Apai et al. 2013), optical emission due to magnetic activity, and the existence of cooler star spots due to localized magnetic activity. The period of variability is often thought to
+
+(b)
+Figure 8. Example color-absolute magnitude diagrams over-plotted with third order polynomial fits. The Mv × (V-K) relation shown in (a) has a particularly low uncertainty ( = 0.25 mag) due to the steep decrease in V band flux in the late M and L dwarf sequence. The Mk × (R-K) relation shown in (b) has a slightly higher uncertainty ( = 0.28 mag) but is more practical from an observational point of view due to the difficulty in obtaining V band photometry for L dwarfs. Binary or otherwise elevated objects were excluded from the polynomial fits and are shown enclosed with open circles. Panel (b) uses the same labeling scheme as panel (a).
+(A color version of this figure is available in the online journal.)
+
+correspond to the object's period of rotation. Harding et al.
+
+(2011) have suggested that the link between optical variability
+
+and radio variability in two L dwarfs is indicative of auroral
+
+emission analogous to that seen in Jupiter. Khandrika et al.
+
+(
+
+2013)
+
+r
+
+eport
+
+an
+
+overall
+
+variability
+
+fraction
+
+of
+
+36+7
+-6
+
+%
+
+f
+
+or
+
+objects
+
+with spectral types ranging from L0 to L5 based on their own
+
+14
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+
+Table 7 Coefficients for Color-Magnitude Polynomial Fits
+
+Abs. Mag. Color Third Order Second Order First Order Constant
+
+Range
+
+
+
+MV
+
+V-R
+
+0.21509
+
+-2.81698
+
+14.16273 -1.45226 1.61-3.64 0.53
+
+MV
+
+V-I
+
+-0.48431
+
+7.02913 -30.24232
+
+55.89960 3.44-6.24 0.64
+
+MV
+
+V-J -0.05553
+
+1.34699
+
+-8.78095
+
+32.19850 5.28-9.75 0.30
+
+MV
+
+V-H -0.03062
+
+0.79529
+
+-5.04776
+
+23.53283 5.91-11.00 0.24
+
+MV
+
+V-K -0.02006
+
+0.54283
+
+-3.22970
+
+19.05263 6.23-11.80 0.25
+
+MV
+
+R-J
+
+0.38685
+
+-4.78978
+
+21.67522 -19.02625 3.67-6.19 0.39
+
+MV
+
+R-H -0.03466
+
+0.96656
+
+-4.96743
+
+21.51357 4.30-7.44 0.37
+
+MV
+
+R-K -0.06296
+
+1.36944
+
+-7.28721
+
+25.94882 5.30-8.24 0.40
+
+MV
+
+I-J
+
+1.18205
+
+-9.28970
+
+27.59574 -11.71022 1.84-3.70 0.42
+
+MV
+
+I-H
+
+0.24541
+
+-2.81568
+
+13.65365 -4.94381 2.47-4.95 0.48
+
+MV
+
+I-K
+
+0.09183
+
+-1.32390
+
+8.75709 -0.69280 2.79-5.75 0.51
+
+MV
+
+J-H
+
+5.05439
+
+-19.22739
+
+30.20127
+
+5.70728 0.51-1.25 1.11
+
+MV
+
+J-K
+
+4.35996
+
+-22.11834
+
+40.93688 -5.24138 0.80-2.05 0.92
+
+MV
+
+H-K
+
+23.11303
+
+-54.44877
+
+51.74136
+
+4.69129 0.29-0.80 0.84
+
+MR
+
+V-R
+
+0.21509
+
+-2.81698
+
+13.16273 -1.45226 1.61-3.64 0.53
+
+MR
+
+V-I
+
+-0.39598
+
+5.59585 -23.46994
+
+44.27366 3.44-6.24 0.60
+
+MR
+
+V-J -0.06508
+
+1.48971
+
+-9.70545
+
+32.85954 5.28-9.75 0.33
+
+MR
+
+V-H -0.03213
+
+0.78557
+
+-4.94969
+
+21.92657 5.91-11.00 0.28
+
+MR
+
+V-K -0.01882
+
+0.47360
+
+-2.65145
+
+16.13934 6.23-11.80 0.27
+
+MR
+
+R-J
+
+0.10246
+
+-0.87144
+
+3.43087
+
+7.64284 3.67-6.19 0.31
+
+MR
+
+R-H -0.09460
+
+1.86774
+
+-9.85431
+
+28.99232 4.30-7.44 0.26
+
+MR
+
+R-K -0.08589
+
+1.71800
+
+-9.39445
+
+28.84437 5.30-8.24 0.28
+
+MR
+
+I-J
+
+0.56097
+
+-4.48907
+
+14.76241 -2.05088 1.84-3.70 0.30
+
+MR
+
+I-H
+
+0.16178
+
+-1.99780
+
+10.43314 -2.43140 2.47-4.95 0.32
+
+MR
+
+I-K
+
+0.05698
+
+-0.92853
+
+6.77139
+
+0.79636 2.79-5.75 0.35
+
+MR
+
+J-H
+
+6.18765
+
+-22.77418
+
+31.75342
+
+3.61753 0.51-1.25 0.84
+
+MR
+
+J-K
+
+3.81245
+
+-19.70377
+
+36.29580 -4.63378 0.80-2.05 0.69
+
+MR
+
+H-K
+
+26.23045
+
+-59.75888
+
+51.53576
+
+3.25785 0.29-0.80 0.65
+
+MI
+
+V-R -0.30086
+
+1.51360
+
+1.22679
+
+6.92302 1.61-3.64 0.55
+
+MI
+
+V-I
+
+-0.48431
+
+7.02913 -31.24230
+
+55.89957 3.44-6.24 0.64
+
+MI
+
+V-J -0.08775
+
+2.06323 -14.53807
+
+43.98302 5.28-9.75 0.37
+
+MI
+
+V-H -0.05264
+
+1.35632 -10.21586
+
+35.60933 5.91-11.00 0.32
+
+MI
+
+V-K -0.03540
+
+0.96451
+
+-7.46468
+
+29.33155 6.23-11.80 0.30
+
+MI
+
+R-J
+
+0.05949
+
+-0.06127
+
+-1.61308
+
+15.59044 3.67-6.19 0.37
+
+MI
+
+R-H -0.15245
+
+3.02932 -17.57707
+
+43.57051 4.30-7.44 0.29
+
+MI
+
+R-K -0.13466
+
+2.76845 -16.87739
+
+44.05227 5.30-8.24 0.29
+
+MI
+
+I-J
+
+0.34947
+
+-2.28896
+
+7.32700
+
+3.70661 1.84-3.70 0.26
+
+MI
+
+I-H -0.05625
+
+0.65099
+
+-0.12146
+
+8.93958 2.47-4.95 0.27
+
+MI
+
+I-K -0.07979
+
+0.96350
+
+-1.79721
+
+11.08030 2.79-5.75 0.30
+
+MI
+
+J-H
+
+1.00902
+
+-9.06504
+
+20.09129
+
+4.41802 0.51-1.25 0.76
+
+MI
+
+J-K
+
+2.30591
+
+-13.03453
+
+26.79644 -2.67247 0.80-2.05 0.62
+
+MI
+
+H-K
+
+6.36493
+
+-24.92761
+
+31.89872
+
+4.41508 0.29-0.80 0.60
+
+MJ
+
+V-R -0.33337
+
+2.21935
+
+-2.66206
+
+9.68513 1.61-3.64 0.39
+
+MJ
+
+V-I
+
+-0.36037
+
+5.32260 -24.29187
+
+45.23880 3.44-6.24 0.45
+
+MJ
+
+V-J -0.05553
+
+1.34699
+
+-9.78094
+
+32.19847 5.28-9.75 0.30
+
+MJ
+
+V-H -0.03301
+
+0.88633
+
+-6.95483
+
+26.83274 5.91-11.00 0.26
+
+MJ
+
+V-K -0.02220
+
+0.63644
+
+-5.19321
+
+22.87309 6.23-11.80 0.25
+
+MJ
+
+R-J
+
+0.10247
+
+-0.87144
+
+2.43089
+
+7.64280 3.67-6.19 0.31
+
+MJ
+
+R-H -0.07510
+
+1.64461 -10.09617
+
+28.93402 4.30-7.44 0.25
+
+MJ
+
+R-K -0.07709
+
+1.67484 -10.64410
+
+31.00300 5.30-8.24 0.26
+
+MJ
+
+I-J
+
+0.34947
+
+-2.28897
+
+6.32701
+
+3.70660 1.84-3.70 0.26
+
+MJ
+
+I-H -0.01826
+
+0.36899
+
+-0.39111
+
+8.86504 2.47-4.95 0.25
+
+MJ
+
+I-K -0.05043
+
+0.71480
+
+-1.94540
+
+10.88528 2.79-5.75 0.26
+
+MJ
+
+J-H -1.75450
+
+1.46627
+
+6.33858
+
+6.88885 0.51-1.25 0.52
+
+MJ
+
+J-K
+
+0.89335
+
+-5.42563
+
+12.79557
+
+2.55729 0.80-2.05 0.44
+
+MJ
+
+H-K -0.71691
+
+-5.04246
+
+13.53644
+
+6.37982 0.29-0.80 0.44
+
+MH
+
+V-R -0.14308
+
+0.68377
+
+1.11084
+
+6.14662 1.61-3.64 0.33
+
+MH
+
+V-I
+
+-0.27640
+
+4.04822 -18.12088
+
+34.99090 3.44-6.24 0.38
+
+MH
+
+V-J -0.04698
+
+1.11998
+
+-7.94481
+
+26.92333 5.28-9.75 0.25
+
+MH
+
+V-H -0.03062
+
+0.79529
+
+-6.04775
+
+23.53280 5.91-11.00 0.24
+
+MH
+
+V-K -0.02177
+
+0.59741
+
+-4.70539
+
+20.62932 6.23-11.80 0.24
+
+MH
+
+R-J
+
+0.05414
+
+-0.30135
+
+0.23514
+
+9.78688 3.67-6.19 0.27
+
+MH
+
+R-H -0.09460
+
+1.86773 -10.85430
+
+28.99230 4.30-7.44 0.26
+
+MH
+
+R-K -0.08348
+
+1.70954 -10.45700
+
+29.39801 5.30-8.24 0.27
+
+MH
+
+I-J
+
+0.19024
+
+-1.18253
+
+3.72420
+
+5.16641 1.84-3.70 0.24
+
+MH
+
+I-H -0.05625
+
+0.65099
+
+-1.12146
+
+8.93959 2.47-4.95 0.27
+
+15
+
+Dieterich et al.
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+
+Table 7 (Continued)
+
+Abs. Mag. Color Third Order Second Order First Order Constant
+
+Range
+
+
+
+MH
+
+I-K
+
+-0.06209
+
+0.76792
+
+-1.96050 10.17762 2.79-5.75 0.28
+
+MH
+
+J-H
+
+-1.75451
+
+1.46627
+
+5.33858 6.88885 0.51-1.25 0.52
+
+MH
+
+J-K
+
+1.03555
+
+-6.09029
+
+13.19045 2.07593 0.80-2.05 0.45
+
+MH
+
+H-K
+
+0.29861
+
+-8.11097
+
+14.59934 5.74926 0.29-0.80 0.43
+
+MK
+
+V-R -0.00121
+
+-0.37537
+
+3.46600 4.16422 1.61-3.64 0.31
+
+MK
+
+V-I
+
+-0.20466
+
+3.00271
+
+-13.26362 27.36341 3.44-6.24 0.34
+
+MK
+
+V-J
+
+-0.03630
+
+0.86706
+
+-6.07434 22.17402 5.28-9.75 0.24
+
+MK
+
+V-H -0.02655
+
+0.68316
+
+-5.12699 20.83821 5.91-11.00 0.24
+
+MK
+
+V-K -0.02006
+
+0.54283
+
+-4.22970 19.05261 6.23-11.80 0.25
+
+MK
+
+R-J
+
+0.04475
+
+-0.23500
+
+0.13773 9.38717 3.67-6.19 0.26
+
+MK
+
+R-H -0.10097
+
+1.92794
+
+-11.03651 28.84667 4.30-7.44 0.27
+
+MK
+
+R-K -0.08589
+
+1.71800
+
+-10.39445 28.84436 5.30-8.24 0.28
+
+MK
+
+I-J
+
+0.14572
+
+-0.88536
+
+2.93380 5.59314 1.84-3.70 0.25
+
+MK
+
+I-H
+
+-0.09030
+
+0.98749
+
+-2.35957 10.16948 2.47-4.95 0.28
+
+MK
+
+I-K
+
+-0.07979
+
+0.96350
+
+-2.79722 11.08030 2.79-5.75 0.30
+
+MK
+
+J-H
+
+-1.86948
+
+1.75166
+
+4.48358 6.92764 0.51-1.25 0.49
+
+MK
+
+J-K
+
+-1.86948
+
+1.75166
+
+4.48358 6.92764 0.51-1.25 0.49
+
+MK
+
+H-K
+
+0.29864
+
+-8.11102
+
+13.59936 5.74925 0.29-0.80 0.43
+
+Dieterich et al.
+
+observations as well as six previous studies (Bailer-Jones &
+
+Mundt 2001; Gelino et al. 2002; Koen 2003, 2005; Enoch et al.
+
+2003; Koen et al. 2004). The threshold for variability of these
+
+studies ranged from 10 to 36 mmag and were conducted using
+
+various photometric bands.
+
+We have measured I band photometric variability as part
+
+of our parallax observations. Differential photometry of the
+
+parallax target is measured with respect to the astrometric
+
+reference stars. Any reference star found to be variable to
+
+more than 50 mmag is discarded and the remaining stars are
+
+used to determine the baseline variability for the field. Details
+
+of the procedure are discussed in Jao et al. (2011). Figure 9
+
+shows the 1 variability for 36 parallax targets.10 Because
+
+the parallax targets were mostly fainter than the reference
+
+stars, photometric signal-to-noise of the target objects is the
+
+limiting factor for sensitivity to variability. This limit becomes
+
+more pronounced for cooler and fainter stars, thus creating the
+
+upward linear trend for the least variable objects in Figure 9.
+
+Because of this trend, we have conservatively set the threshold
+
+for deeming a target variable at 15 mmag, as indicated by the
+
+dashed line in Figure 9. We detect 13 variable objects out of
+
+36,
+
+corresponding
+
+to
+
+an
+
+overall
+
+variability
+
+of
+
+36+9 %
+-7
+
+where
+
+the
+
+uncertainties are calculated using binomial statistics.11 While
+
+this result is in excellent agreement to that of Khandrika et al.
+
+(
+
+2013)
+
+(
+
+36+7
+-6
+
+%),
+
+we
+
+note
+
+t
+
+hat
+
+our
+
+sample
+
+includes
+
+spectral
+
+t
+
+ypes
+
+M6V to L4, while theirs ranges from L0 to L5. Targets found
+
+to be significantly variable are labeled in Figure 9 with their
+
+ID numbers. The objects 2MASS J0451-3402 (L0.5, ID 15),
+
+2MASS J1705-0516AB (L0.5 joint type, ID 56), and SIPS
+
+J2045-6332 (M9.0V, ID 58) stand out as being much more
+
+variable than the rest of the sample. We defer discussion of
+
+these objects until Section 8.
+
+6.6. DENIS J1454-6604AB: A New Astrometric Binary
+DENIS J1454-6604AB is an L3.5 dwarf first identified by Phan-Bao et al. (2008). We report a trigonometric parallax of
+
+10 GJ 1001BC is photometrically contaminated by the much brighter A component and was therefore excluded from the variability study. 11 A review of binomial statistics as applied to stellar populations can be found in the appendix of Burgasser et al. (2003).
+
+Figure 9. I band photometric variability derived from trigonometric parallax observations. The linear increase in minimum variability with decreasing temperature is most likely not real and caused by lower signal-to-noise for fainter targets. To account for this trend, we established the threshold for deeming a target variable at 15 mmag, indicated by the dashed line. Thirteen out of a sample of 36 targets are above the threshold and are labeled with the ID number used in Tables 1 and 4. See Section 8 for a discussion of the three most variable targets.
+
+84.88
+
+±
+
+1.71
+
+mas,
+
+corresponding
+
+to
+
+a
+
+distance
+
+of
+
+11.78+0.24
+-0.23
+
+pc.
+
+Figure 10 shows the residuals to the trigonometric parallax
+
+solution, denoting the motion of the object's photocenter once
+
+the parallax reflex motion and the proper motion have been
+
+subtracted. The sinusoidal trend in the R.A. axis is a strong
+
+indication of an unseen companion that is causing the system's
+
+photocenter to move with respect to the reference stars. The
+
+absence of a discernible trend in the declination axis indicates
+
+that the system must be nearly edge-on and its orbit has an
+
+orientation that is predominantly east-west. At this stage, it is
+
+not possible to determine the system's period or component
+
+16
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+Figure 10. Astrometric residuals indicating a perturbation on the photocenter position for DENIS J1454-6604 with data taken in the I band. The dots correspond to the positions of the system's photocenter once proper motion and parallax reflex motion are removed. Each solid dot is the nightly average of typically three consecutive observations. The open dot represents a night with a single observation. The lack of a discernible perturbation in the declination axis indicates that the system is viewed nearly edge-on and that its orbital orientation is primarily east-west.
+masses. While it may appear in Figure 10 that the system has completed nearly half an orbital cycle in the 4 yr that we have been monitoring it, unconstrained eccentricity means that the system may take any amount of time to complete the remainder of its orbit.
+Once the full orbit of a photocentric astrometric system is mapped, determining the mass and luminosity ratio of the system is a degenerate problem. The same perturbation can be produced by either a system where the companion has a much lower mass and luminosity than the primary or by a system where the components have nearly the same mass and luminosity. We note that a system where the two components are exactly equal would be symmetric about the barycenter and would therefore produce no perturbation at all. The fact that the system appears elevated in the HR diagram (Figure 4) is an indication that the secondary component is contributing considerable light and that therefore the nearly equal mass scenario is more likely. As described in Dieterich et al. (2011), a single high resolution image where both components are resolved is enough to determine the flux ratio of the components and therefore determine individual dynamical masses once the full photocentric orbit has been mapped.
+We will closely monitor this system with the goal of reporting the component masses once orbital mapping is complete.
+7. DISCUSSION--THE END OF THE STELLAR MAIN SEQUENCE
+One of the most remarkable facts about VLM stars is the fact that a small change in mass or metallicity can bring about profound changes to the basic physics of the object's interior, if the change in mass or metallicity places the object in the realm of the brown dwarfs, on the other side of the hydrogen burning minimum mass limit. If the object is unable to reach thermodynamic equilibrium through sustained nuclear fusion, the object's collapse will be halted by non-thermal electron degeneracy pressure. The macroscopic properties of
+
+Dieterich et al.
+(sub)-stellar matter are then ruled by different physics and obey a different equation of state (e.g., Saumon et al. 1995). Once electron degeneracy sets in at the core, the greater gravitational force of a more massive object will cause a larger fraction of the brown dwarf to become degenerate, causing it to have a smaller radius. The mass-radius relation therefore has a pronounced local minimum near the critical mass attained by the most massive brown dwarfs (Chabrier et al. 2009; Burrows et al. 2011). Identifying the stellar/substellar boundary by locating the minimum radius in the stellar/substellar sequence has an advantage over other search methods (e.g., a dynamical mass search): while the values associated with the locus of minimum radius depend on the unconstrained details of evolutionary models (Section 7.2), its existence is a matter of basic physics and is therefore largely model independent.
+In Figures 11(a) and (b), we re-arrange the HR diagram of Figure 4 to make radius an explicit function of luminosity (a) and effective temperature (b). We do not plot the data for LEHPM2-0174 and SIPS J2045-6332, which have abnormally elevated radii and would have made the figures difficult to read. These two objects are discussed individually in Section 8. After excluding the objects marked as known binaries and a few other elevated objects that we suspect are binary or young objects, both diagrams show the inversion of the radius trend near the location of the L2.5 dwarf 2MASS J0523-1403. Figures 11(a) and (b) can be compared to Figures 3-5 of Burrows et al. (2011) and Figures 1 and 2 of Chabrier et al. (2009) for insight into how our data fit the predicted local minimum in the radius trends. While these works examine radius as a theoretical function of mass at given isochrones, there is a remarkable similarity between the overall shape of the theoretical mass-radius trend and the luminosity-radius and temperature-radius trends we detect empirically. The real data are likely best represented by a combination of isochrones that are biased toward the ages at which high-mass substellar objects shine as early L dwarfs (see Section 7.1 and Figures 12-15). While Figure 1 of Chabrier et al. (2009) indicates radii as small as 0.075 R for the 10 Gyr isochrone, we should not expect to see radii this small in this study because substellar objects with that age are no longer in the luminosity range we observed (M6V to L4; Section 2). The same argument is valid for the figures in Burrows et al. (2011). Indeed, because luminosity and temperature are primarily functions of mass for stars and primarily functions of mass and age for brown dwarfs, our plots in Figure 11 essentially replicate the morphology of the mass-radius relation with added dispersion caused by the observed sample's finite ranges of metallicity and age.
+2MASS J0523-1403 has Teff = 2074 ± 27 K, log(L/L ) = -3.898±0.021, (R/R ) = 0.086±0.0031, and V -K = 9.42. While we cannot exclude the possibility of finding a stellar object with smaller radius, it is unlikely that such an object would be far from the immediate vicinity of 2MASS J0523-1403 in these diagrams. If cooler and smaller radii stars exist, they should be more abundant than the brown dwarfs forming the upward radius trend at temperatures cooler than 1900 K in Figure 11(b) because such stars would spend the vast majority of their lives on the main sequence, where their positions in the diagrams would be almost constant, whereas brown dwarfs would constantly cool and fade, thus moving to the right in the plots. We detect no such objects. We note that while the brown dwarfs cooler than 1900 K in Figure 11(b) are brighter than any putative lower radius star of the same temperature, the
+
+17
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+
+This paper Literature
+
+Dieterich et al.
+
+(a)
+This paper Literature
+
+(b)
+Figure 11. (a) Luminosity-radius and (b) temperature-radius diagrams for the observed sample. The targets are the same as in Figure 5 except for LEHPM2-0174 and SIPS J2045-6332, which were excluded for scaling purposes due to their large radii and are discussed in Section 8. These diagrams provide the same fundamental information as an HR diagram, but they make radius easier to visualize. Once known and suspected binaries are excluded, the radius trends have a minimum about 2MASS J0523-1403 (L2.5), indicating the onset of core electron degeneracy for cooler objects. The location and relevance of Kelu-1AB is discussed in Section 8. Versions of these diagrams that use the ID labels in Table 1 and spectral types for plotting symbols are available as supplemental online material. (An extended, color version of this figure is available in the online journal.)
+18
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+This paper Literature
+
+Dieterich et al.
+This paper Literature
+
+(a)
+
+This paper Literature
+
+(a)
+
+This paper Literature
+
+(b)
+Figure 12. Evolutionary tracks for the models of (a) Burrows et al. (1997, 1993) and (b) Baraffe et al. (1998) over-plotted on the luminosity-radius diagram. Dashed lines indicate the continuation of substellar evolutionary tracks where no data are available. The open circles on the evolutionary tracks represent ages of 0.5, 1.0, 3.0, and 5.0 Gyr from left to right, with the circles for older ages not in plotting range in some of the substellar tracks. The circles for older ages overlap each other in the stellar tracks because there is little evolution at those ages. The track corresponding to the hydrogen burning minimum mass is plotted with a dashed line and has its properties summarized in Table 8. These diagrams are best seen in color in the online version of the journal.
+(A color version of this figure is available in the online journal.)
+difference would amount to only 0.3 mag, which is not enough to generate a selection effect in our sample definition.
+7.1. A Discontinuity at the End of the Main Sequence
+Figure 11 shows a relative paucity of objects forming a gap at temperatures (luminosities) immediately cooler (fainter) than 2MASS J0523-1403. This gap is then followed by a densely populated region where radius has an increasing trend in both diagrams. Although we cannot at this point exclude the hypothesis that this gap is due to statistics of small numbers, we note that the existence of such a gap is consistent with the onset of the brown dwarf cooling curve. The stellar sequence to the left-hand-side of 2MASS J0523-1403 is well populated because VLM stars have extremely long main sequence lives, therefore holding their positions in the diagrams. The space immediately to the right-hand-side of 2MASS J0523-1403 is
+
+(b)
+Figure 13. Evolutionary tracks for the models of (a) Chabrier et al. (2000) and (b) Baraffe et al. (2003) over-plotted on the luminosity-radius diagram. Open dots represent ages of 0.05, 0.10, 0.12, 0.50, 1.00, and 10.0 Gyr, except for the 0.10 M track, which starts at 0.10 Gyr. The circles for older ages are not in the plotting range in some of the substellar tracks. The circles for older ages overlap each other in the stellar tracks because there is little evolution at those ages. The track corresponding to the hydrogen burning minimum mass is plotted with a dashed line and has its properties summarized in Table 8. The models were computed only at the values where open dots are plotted, with lines connecting the open dots for visualization purposes only. This diagram is best visualized in color in the online version of the journal.
+(A color version of this figure is available in the online journal.)
+sparsely populated because objects in that region must be in a very narrow mass and age range. They must be very high mass brown dwarfs that stay in that high luminosity (temperature) region for a relatively brief period of time before they fade and cool. The population density increases again to the right of this gap because that region can be occupied by brown dwarfs with several combinations of age and mass.
+The space density as functions of luminosity and effective temperature inferred from Figure 11 can be compared to theoretical mass and luminosity functions, while keeping in mind the important caveat that our observed sample is not volume complete (Section 2). The mass functions of both Burgasser (2004) and Allen et al. (2005) predict a shallow local minimum in the space distribution of dwarfs at temperatures 2000 K. In particular, Figure 6 of Burgasser (2004) predicts
+
+19
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+This paper Literature
+
+Dieterich et al.
+This paper Literature
+
+(a)
+This paper Literature
+
+(a)
+This paper Literature
+
+(b)
+Figure 14. Evolutionary tracks for the models of (a) Burrows et al. (1997, 1993) and (b) Baraffe et al. (1998) over-plotted on the temperature-radius diagram. Dashed lines indicate the continuation of substellar evolutionary tracks where no data are available. The open circles on the evolutionary tracks represent ages of 0.5, 1.0, 3.0, and 5.0 Gyr from left to right, with the circles for older ages not in the plotting range in some of the substellar tracks. The circles for older ages overlap each other in the stellar tracks because there is little evolution at those ages. The track corresponding to the hydrogen burning minimum mass is plotted with a dashed line and has its properties summarized in Table 8. These diagrams are best seen in color in the online version of the journal.
+(A color version of this figure is available in the online journal.)
+
+(b)
+Figure 15. Evolutionary tracks for the models of (a) Chabrier et al. (2000) and (b) Baraffe et al. (2003) over-plotted on the temperature-radius diagram. Open dots represent ages of 0.05, 0.10, 0.12, 0.50, 1.00, and 10.0 Gyr, except for the 0.10 M track, which starts at 0.10 Gyr. The circles for older ages are not in the plotting range in some of the substellar tracks. The circles for older ages overlap each other in the stellar tracks because there is little evolution at those ages. The track corresponding to the hydrogen burning minimum mass is plotted with a dashed line and has its properties summarized in Table 8. The models were computed only at the values where open dots are plotted, with lines connecting the open dots for visualization purposes only. This diagram is best visualized in color in the online version of the journal.
+(A color version of this figure is available in the online journal.)
+
+a relatively sharp drop in space density at 2000 K, in a manner similar to our results. However, the subsequent increase in space density at cooler temperatures is predicted to be gradual in both Burgasser (2004) and Allen et al. (2005) (Figure 2). Neither mass function predicts the sudden increase in space density we see at 1800 K in Figure 11(b). This last point is particularly noteworthy because our sample selection criteria (Section 2) aims to evenly sample the spectral type sequence. Our selection effect works against the detection of any variation in space density as a function of mass and luminosity, and yet we still detect a sharper gap between 2000 K and 1800 K than what is expected from the mass functions. Burgasser (2004) also predicts a population with significant stellar content down to temperatures of 1900 K, whereas the temperature-radius and luminosity-radius trends indicate that the coolest stellar object
+
+in our sample is 2MASS J0523-1403, with Teff = 2074±27 K. In summary, one may say that the current mass functions are useful in replicating the overall morphology of our observed distribution, but do not fully explain the detailed structure we notice at the end of the stellar main sequence. As we discuss in Section 9, only observing a truly volume-complete sample will yield definite answers about population properties such as the mass function.
+The discontinuity is even more pronounced in terms of radius: whereas radius decreases steadily with decreasing temperature until the sequence reaches 2MASS J0523-1403 (R = 0.086 R ), it then not only starts increasing, but it jumps abruptly to a group of objects with R  0.1 R . The discontinuity in radius is also visible as an offset in the HR diagram
+
+20
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+
+Model
+Burrows et al. (1993, 1997) Burrows et al. (1993) Baraffe et al. (1998) Chabrier et al. (2000) Baraffe et al. (2003) Saumon & Marley (2008) Saumon & Marley (2008) Our Results
+
+H. Burning Min. Mass (M )
+0.0767 0.094 0.072 0.070 0.072 0.075 0.070
+···
+
+Table 8 Properties of Evolutionary Models
+
+H. Burning Min. Teff (K)
+1747 3630 1700 1550 1560 1910 1550 2075
+
+H. Burning
+Min. log(L/L )
+-4.21 -2.90 -4.26 -4.42 -4.47 -4.00 -4.36 -3.9
+
+Metallicitya (Z/Z )
+1.28 0.00 1.28 1.28 1.28 0.87 0.87 ···
+
+Min. Stellar Radius (R/R )
+0.085 0.090 0.085 0.086 0.081 0.090 0.092 0.086
+
+Dieterich et al.
+Atmospheric Properties
+gray with grains metal free non-gray without grains "DUSTY" grains do not settle "COND" clear & metal depleted cloudless cloudy, fsed = 2
+...
+
+Note. a Models with Z/Z = 1.28 and Z/Z = 0.87 were originally meant as solar metallicity models. The new value takes into account the revised solar metallicities of Caffau et al. (2011).
+
+(Figure 4). This discontinuity is further evidence of the end of the stellar main sequence and has a simple explanation: whereas stars achieve their minimum radius at the zero age main sequence, brown dwarfs continue to contract slightly as they cool (Burrows et al. 1997; Baraffe et al. 1998, 2003; Chabrier et al. 2000). Substellar objects with radii falling in the discontinuity should therefore be high mass late L, T, or Y dwarfs and fall outside the luminosity range of our sample (M6V to L4; Section 2). We note that this sudden increase in radius is a different effect than the previously mentioned sudden decreases in luminosity and temperature, and indeed, it counteracts the decrease in luminosity. The fact that these discontinuities occur at the same location and can be explained by consequences of the stellar/substellar boundary provides strong evidence that we have indeed detected the boundary.
+The above argument for the causes of the discontinuity also lend credence to the idea that 2MASS J0523-1403 is a star despite the fact that it has the smallest radius in the sample. We note that 2MASS J0523-1403 and the L1.0 dwarf SSSPM J0829-1309 located immediately to its left fit nicely within the linear stellar sequences in Figures 4 and 11. As already discussed, we would also expect stars to be more prevalent around the locus of minimum radius due to the limited amount of time in which a massive brown dwarf would occupy that parameter space. Most importantly, there is a difference between the local minimum in the radius trends and the absolute minimum. While theory predicts that the object with the smallest radius should be the most massive brown dwarf (Burrows et al. 2011), such an object would not attain its minimum radius until it cools down and enters the T and Y dwarf regime and, therefore, drifts beyond the luminosity range of this study.
+7.2. Comparison of the HR Diagram to Evolutionary Models
+We now compare our results to the predictions of the most prevalent evolutionary models encompassing the stellar/ substellar boundary (Burrows et al. 1993, 1997; Baraffe et al. 1998, 2003; Chabrier et al. 2000, Saumon & Marley 2008).12 All of these models are the combination of an interior structure model and an atmospheric model used as a boundary condition. As previously discussed, atmospheric models have become highly sophisticated and achieved a great degree of success over the last several years. On the other hand, the evolutionary models we discuss here are older, and none of them currently
+12 We note that while Burrows et al. (1997) is well known for presenting a unified theory of brown dwarf and giant planet evolution, data in that paper concerning the hydrogen burning limit are from Burrows et al. (1993).
+
+incorporates the state-of-the-art in atmospheric models. The discrepancy is due in part to the lack of observational constraints for evolutionary models. While an atmospheric model may be fully tested against an observed spectrum, testing an evolutionary model requires accurate knowledge of age and mass. The available evolutionary models are also hindered by the fact that none of them incorporate the latest revised solar abundances that are used to translate observed metallicity diagnostic features into the number densities for different species used by the models. The current accepted values for solar abundances (Caffau et al. 2011) constitute a reduction of 22% when compared to the original values used by the evolutionary models of Burrows et al. 1993, 1997, Baraffe et al. 1998, Chabrier et al. 2000, and Baraffe et al. 2003 (e.g., Grevesse et al. 1993), and a slight increase of 15% when compared to the Lodders (2003) values used by Saumon & Marley (2008). We therefore cannot expect any of the models we consider here to be strictly correct, but comparing their predictions to our results is nevertheless a useful endeavor.
+Figures 12 through 15 show several evolutionary tracks from these models over-plotted on our luminosity-radius and temperature-radius diagrams. The evolutionary tracks of the clear and cloudy versions of the Saumon & Marley (2008) models have been shown to be in good agreement with the models of Baraffe et al. (2003) and Chabrier et al. (2000), respectively, and are not shown here. Figures 2 and 3 of Saumon & Marley (2008) compare their models to these earlier works.
+Table 8 lists the properties predicted for the hydrogen burning minimum mass tracks for these models. We also include the zero metallicity model of Burrows et al. (1993), which is listed to illustrate the effect of a reduction in metallicity. All models except for the unrealistic zero metallicity model predict the hydrogen burning limit at significantly cooler temperatures and lower luminosities than our values. The evolutionary tracks of Chabrier et al. (2000) and Baraffe et al. (2003) have reasonable agreement with the observations for log(L/L ) -3.5, where objects are solidly in the stellar domain. Chabrier et al. (2000) has also achieved some success in reproducing the radii of brown dwarfs with log(L/L )  -4.0 but cannot account for the small radius of 2MASS J0523-1403 and several other stellar objects. And while Burrows et al. (1993, 1997) seems to accurately predict the radius of the smallest stars, the model radii are too small everywhere else in the sequence. In sum, we see that at the level of accuracy needed to predict the entirety of our observations these models are for the most part mutually exclusive.
+While the differences between our results and model predictions (Table 8) may at first seem large, they must be examined
+
+21
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+Figure 16. Data from Sorahana et al. (2013; open circles) over-plotted on our temperature-radius diagram. Their radius minimum at 1800 K is probably a result of their unrealistically high temperatures for these objects.
+in the context of the recently revised solar abundances (Caffau et al. 2011). Lowering the metal content of a (sub)stellar object has the effect of decreasing opacities both in the atmosphere and in the interior. The net effect is a facilitation of radiative transfer from the object's core to space and thus a decrease in the temperature gradient between the core and the atmosphere. Because in the low metallicity scenario energy escapes the stellar core more easily, maintaining the minimal core temperature necessary for sustained hydrogen burning requires a higher rate of energy generation. As shown by the Z/Z = 0 model of Table 8, the minimum stellar mass, minimum effective temperature, and minimum luminosity all increase as a result of a decrease in metallicity. The effect of metallicity on the minimum luminosity is particularly strong. When compared to the Burrows Z/Z = 1.28 model, the Z/Z = 0.00 model produces a minimum luminosity that is greater by a factor of 20.4. Our results suggest a minimum luminosity that is greater than that predicted by the Z/Z = 1.28 models by a factor ranging from 2.0 to 3.2, depending upon the model chosen. From Figure 4 of Burrows et al. (2011), a lower metallicity would also cause a more pronounced local minimum in the radius trends we detect in our Figure 11. We note, however, that the Saumon & Marley (2008) models use an abundance that is slightly lower than the currently accepted values, and even though the temperature for the hydrogen burning limit predicted by their cloudless model is closer to ours, the change in metallicity alone does not completely solve the discrepancy. It is likely that other factors such as the choice of molecular opacity lists and the precise rate of nuclear reactions also play important roles (M. Marley & D. Homeier 2013, private communication).
+It is interesting to note that if we accept the masses of the several evolutionary tracks shown in Figures 12 through 15, then three out of the four models (Burrows et al. 1997; Baraffe et al. 1998, 2003) show a jump from stellar masses at log(L/L )  3.9 (Teff  2075 K) to masses 0.050 M for cooler objects. The Chabrier et al. (2000) models show a slightly smaller jump to masses 0.060 M . This interpretation is difficult to reconcile with the idea of a continuous mass function for substellar objects. Because more massive objects cool more slowly, we would expect to see more brown dwarfs in the mass range of 0.070-0.050 M than less massive objects occupying the same temperature range. As an example, the mass function
+
+Dieterich et al.
+of Allen et al. (2005) predicts the mean mass of spectral type L5 to be 0.067 M , and yet comparing our results to evolutionary models shows masses 0.050 M in the L3 temperature range. A discontinuous mass function that produces objects of stellar mass and then jumps to such low masses without producing the intermediate mass objects is not likely. Observations and theory could be reconciled by either increasing the masses associated with the evolutionary tracks or decreasing the radii predicted by our SED fitting technique. We note however that a systemic over-prediction of radius values by our fitting technique would likely manifest itself in a manner independent of spectral type, and would therefore also be noticeable in the stellar part of Figures 12 through 15 and in our comparison to interferometric radii (Figure 3).
+Finally, we note that while our observations do not address the minimum mass for hydrogen burning, higher values for mass should also be expected as a result of the downward revision in solar abundances. Independent confirmation of this effect through a dynamical mass study would further enhance the body of evidence we have presented for the end of the stellar main sequence at values close to those of 2MASS J0523-1402 (L2.5): Teff  2075 K, log(L/L )  -3.9, (R/R )  0.086, and V - K = 9.42.
+7.3. Comparison of Radii With Other Studies
+Unfortunately, there are only a few other observational studies that directly measure or calculate radii for objects in the temperature range considered here. These objects are too faint to be observed by the Kepler mission except as companions to more massive stars. Their faintness also means that they are likely to remain outside the domain of long baseline optical interferometry for the foreseeable future. There are nevertheless several examples of VLM eclipsing binary companions where the primary star in the system is an early M dwarf or a solar analogue (e.g., Burrows et al. 2011, and references therein). Such systems are valuable for comparisons regarding mass and radius, but they lack the photometric coverage needed to calibrate the SED and derive the luminosity in a manner analogous to this work. We note that the only known eclipsing system where both members are brown dwarfs (Stassun et al. 2006) is a member of the Orion star forming region and is, therefore, only a few million years old. Stassun et al. (2006) measure radii of 0.669 ± 0.034 R and 0.511 ± 0.026 R for the two components. At such a young age and such large radii, this system is a valuable probe of early substellar evolution, but should not be compared to the much older objects we discuss in this study.
+There have been two recent studies that derive the stellar parameters needed for placing objects in the HR diagram. As already mentioned, Konopacky et al. (2010) derived effective temperatures that agree with our values for early L dwarfs but steadily diverge as the temperature increases (Section 6.3, Figure 7), and their errors are 200 K. Although their data are limited at temperatures cooler than 2000 K for the determination of a robust radius trend, they also have a local minimum in radius at Teff = 2075 K, for 2MASS J2140+16B, consistent with our results. More recently, Sorahana et al. (2013) derived radii for several L and T dwarfs based on AKARI near infrared spectra. They report a sharp radius minimum of 0.064 R at 1800 K. Figure 16 shows their results over-plotted in our temperature-radius plot. There are several reasons why the results of Sorahana et al. (2013) deserve further scrutiny. First, it is difficult to imagine the cause of such a sudden drop in radius
+
+22
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+at L dwarf temperatures, and there are questions as to whether or not such high densities can be accommodated by any reasonable equation of state (e.g., Saumon et al. 1995). Also, they attempt to derive the SED based on near infrared spectra alone, covering wavelengths from 1 m to 5 m only. Finally, we note that their effective temperatures agree to other studies for most objects but are higher by as much as a few hundred K when compared to Golimowski et al. (2004b) and Cushing et al. (2008) for objects corresponding to the sharp drop in radius. In Section 6.3, we discussed the importance of optical and mid-infrared data when deriving effective temperatures. Because Sorahana et al. (2013) do not use mid-infrared or optical data, their results should be approached with caution.
+
+8. NOTES ON INDIVIDUAL OBJECTS
+
+GJ 1001BC (L4.5 ID 1) is a binary L dwarf with nearly equal
+
+luminosity components (Golimowski et al. 2004a). Golimowski
+
+et al. (2006, 2007) report a preliminary total system dynamical
+
+mass of 0.10 M based on orbital mapping using HST and Very
+
+Large Telescope. The conservative assumption of a mass ratio
+
+3:2 based on nearly equal luminosity would make individual
+
+masses range between 0.04 M and 0.06 M , thus placing both
+
+objects in the brown dwarf regime. We derive Teff = 1725 ± 21 and log(L/L ) = -4.049±0.48 for each component, assuming
+
+the two objects are identical. These numbers are generally above
+
+the hydrogen burning limit numbers predicted by models but
+
+below our numbers (Table 8). This inconsistency is further
+
+evidence that the hydrogen burning limit must happen at higher
+
+luminosities and temperatures than what is predicted by the
+
+currently accepted models.
+
+LEHPM1-0494 A (M6.0V ID 3) and B (M9.5V ID 2) are
+
+reported by Caballero (2007) to be a wide common proper
+
+motion binary with separation of 78 . We report trigonometric
+
+parallaxes for both components based on individual reductions
+
+of
+
+the
+
+same
+
+field
+
+of
+
+view,
+
+and
+
+derive
+
+distances
+
+of
+
+26.88+1.51
+-1.36
+
+pc
+
+for
+
+the
+
+A
+
+component
+
+and
+
+25.14+1.40
+-1.26
+
+pc
+
+for
+
+the
+
+B
+
+component
+
+for a projected separation of 2100 AU. These trigonometric
+
+distances are in good agreement with Caballero's distance
+
+estimate of 23 ± 2 pc and support his claim of a physical
+
+association between these two objects.
+
+LHS 1604 (M7.5V ID 12) was first reported by Cruz et al.
+
+(2007) as being over-luminous by 0.6 mag in J. They sug-
+
+gested that the near-infrared photometry is consistent with an
+
+unresolved M7.5V/M9.0V binary. LHS 1604 is the only star in
+
+our sample for which we were not able to calculate Teff or per-
+
+form an SED fit using the procedures outlined in Section 5--the
+
+fits diverged due to a large infrared excess. We observed LHS
+
+1604 using high-resolution laser guide star adaptive optics on
+
+Gemini North and preliminary results do not show a resolved
+
+companion. We defer a thorough analysis of this target to a
+
+future publication where we discuss our high-resolution obser-
+
+vations and use them to place limits on the properties of the
+
+putative companion (S. B. Dieterich et al., in preparation). We
+
+are also monitoring LHS 1604 for astrometric perturbations but
+
+it is too early to notice any trends.
+
+2MASS J0451-3402 (L0.5 ID 15) has the highest photometric
+
+variability in our sample. It was first noted as a photometrically
+
+variable target by Koen (2004), who reported a sinusoidal trend
+
+with a period of 3.454 days and mean amplitude of 1%
+
+(10 mmag), though varying to as high as 4% (40 mmag). While
+
+our observations do not have the cadence necessary to obtain
+
+phase information, the variability of 51 mmag in the I band we
+
+Dieterich et al.
+
+detect is in agreement, if not somewhat higher, to that of Koen
+
+(2004). It is interesting to note the spike in variability around
+
+Teff  2100 K in Figure 9. Further investigation is needed to
+
+determine whether this trend has a physical cause associated
+
+with that temperature range or whether this is a coincidence.
+
+2MASS J0523-1403 (L2.5 ID 17) is discussed throughout
+
+this paper as the object closest to the local minimum in the
+
+luminosity-radius and temperature-radius trends (Figure 11).
+
+As we discussed in Section 7, there is strong evidence indicating
+
+that the end of the stellar main sequence must lie in its proximity
+
+in parameter space. The target has been described as having
+
+variable radio and H emission (Berger 2002; Antonova et al.
+
+2007; Berger et al. 2010). Despite the common association
+
+between H emission and youth, we note that it is difficult
+
+to conceive of a target with such a small radius (R/R =
+
+0.086 ± .0031) as being young. As discussed in Section 6.5,
+
+radio emission is often used as a probe of magnetic fields and
+
+may be accompanied by optical variability if they result in
+
+auroral phenomena. We detect no significant I band variability
+
+for 2MASS J0523-1403 (upper limit 11.7 mmag), meaning
+
+that either the star was in a mostly quiescent state during the
+
+3 yr for which we monitored the target (2010.98-2013.12)
+
+or that the link between radio emission and I band variability is
+
+not universal.
+
+SSSPM J0829-1309 (L1.0 ID 23) is an object very similar
+
+to 2MASS J0523-1403 but slightly more luminous. The two
+
+objects have 1 uncertainties that overlap in radius and Teff, but
+
+not luminosity. As shown in Figure 11, the location of SSSPM
+
+J0829-1309 is crucial for establishing 2MASS J0523-1403 as
+
+being close to the minimum of the radius trends. Taken together,
+
+2MASS J0523-1403 and SSSPM J0829-1309 show that the
+
+radius trends in Figure 11 are real, and therefore, the conclusions
+
+we draw in this paper are not the result of one isolated odd object
+
+(i.e., 2MASS J0523-1403).
+
+LHS 2397aAB (M8.5V (joint) ID 35) is an M8.0V/L7.513
+
+binary (Freed et al. 2003). Dupuy et al. (2009) report a total
+
+system
+
+dynamical
+
+mass
+
+of
+
+0.146+0.015 M
+-0.013
+
+. Konopacky et al.
+
+(2010) derive individual dynamical masses of 0.09 ± 0.06 M
+
+for the primary and 0.06 ± 0.05 M for the secondary. The
+
+system is therefore an important probe of the hydrogen burning
+
+mass limit because two coeval components presumably with the
+
+same metallicity lie on opposite sides of the stellar/substellar
+
+boundary. We are mapping the astrometric orbit for this system
+
+in a manner similar to that discussed in Section 6.6 for DENIS
+
+J1454-6604AB and will publish refined individual dynamical
+
+masses as soon as orbital mapping is complete.
+
+LEHPM2-0174 (M6.5V ID 40) appears over-luminous in
+
+Figure 4. It is most likely an unresolved multiple, a young
+
+object, or both. We note that we could not determine a reliable
+
+source for the spectral type of this object, thus leaving open
+
+the possibility that it has been miss-characterized as an M6.5V.
+
+LEHPM2-0174 is excluded from Figure 11 because scaling the
+
+figure to fit its radius (0.173 R ) would make the figure difficult
+
+to read.
+
+Kelu-1AB (L2.0 (joint) ID 41) is a well-known L2/L4 bi-
+
+nary (Liu & Leggett 2005). That study notes that the presence
+
+of Li 6708 makes both components substellar with masses
+
+0.06 M according to the lithium test of Rebolo et al. (1992),
+
+although they note that the Li6708 detection is tenuous. De-
+
+convolution of this system would provide important informa-
+
+tion about the hydrogen burning limit due to its location in the
+
+13 Infrared spectral type for secondary.
+
+23
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+temperature-radius trend (Figure 11(b)). If we assume that the system is an equal luminosity binary, then the deconvolved radii of the components are 0.089 M . That number would further constrain the position of 2MASS J0523-1309 as being in the minimum of the radius trend. However, because the components of Kelu1-AB do not have equal luminosities, we can expect the A component to be a more massive brown dwarf or a stellar component with mass just above the hydrogen burning limit. In either case, the A component would have a smaller radius than the B component. Determining the precise radius, Teff and luminosity of the A component is crucial for determining the exact location of the point of minimal radius in Figure 11.
+2MASS J1705-0516AB (L0.5 (joint) ID 56) was first reported as an M9V/L3 binary by Reid et al. (2006). The system's position in the midst of the main sequence in the HR diagram (Figure 4) shows that the system is dominated by the A component in luminosity. Our parallax observations detect a clear astrometric perturbation. We are working on mapping the system's orbit and will soon be able to publish dynamical masses for the individual components. Like LHS 2397aAB, this system will serve as a crucial benchmark system with components likely residing on either side of the stellar/substellar boundary. As indicated in Figure 9, this target has one of the largest optical variabilities in the sample, at 41 mmag in I. We defer a more thorough discussion of 2MASS J1705-0516AB to a future paper (S. B. Dieterich et al., in preparation).
+SIPS J2045-6332 (M9.0V ID 58) is an extremely overluminous object (Figure 4). We note that unresolved equal luminosity duplicity alone cannot explain the over-luminosity. The object is also highly variable at 39 mmag in I, as shown in Figure 9. The variability suggests that youth may play a role in explaining the over-luminosity of SIPS J2045-6332.
+LHS 4039C (M9.0V ID 62) is a member of a triple system with an M4V primary 102.8 away from LHS 4039C. The third component is a DA white dwarf 6.5 away from the primary (Scholz et al. 2004; Subasavage et al. 2009). Subasavage et al. (2009) report a trigonometric parallax of 43.74 ± 1.43 mas from the weighted mean of the A and B components. In this paper we have reduced the same data using LHS 4039C as the science target and measure a parallax of 44.38 ± 2.09, thus supporting the physical association of the system. The intriguing combination of a white dwarf and a VLM star in the same system allows us to constrain the properties of LHS 4039C based on the better understood models of white dwarf evolution. Based on the white dwarf cooling time of 0.81 ± 0.05 Gyr (Subasavage et al. 2009) and the progenitor age of 4.4 ± 3.7 Gyr (Iben & Laughlin 1989) assuming a progenitor mass of 1.17 ± 0.26 M (Williams et al. 2009), we infer a total system age of 5.2 ± 3.7 Gyr. Assuming the system to be coeval, LHS4039C is then a main sequence star with no remaining traces of youth. Its locus on the HR diagram is therefore an indication of where the VLM stellar main sequence lies.14
+9. CONCLUSIONS AND FUTURE WORK
+We have determined fundamental properties (effective temperatures, luminosities, and radii) based on a photometric and astrometric survey of 63 targets with spectral types ranging from M6V to L4, and we used the data to construct an HR diagram of the stellar/substellar boundary. We find strong evidence for the
+14 It was not possible to label this object in Figure 4 due to crowding of the diagram. The reader is referred to the online supplements where diagrams are plotted using ID numbers.
+
+Dieterich et al.
+local minimum in radius signaling the stellar/substellar boundary close to the locus of 2MASS J0523-1403 at Teff  2075 K, (R/R )  0.086, and log(L/L )  -3.9. The two panels of Figure 11 present the evidence for the local minimum in the radius trends as functions of luminosity and temperature. While our sample is not volume complete, it covers the photometric color range from M6V to L4 in a continuous manner. As we discussed in Section 7, our interpretation of the radius trends leaves little chance for the discovery of stellar objects at temperatures cooler than 2000 K.
+Our plans for the future include making the sample volumecomplete so that population properties such as the mass and luminosity functions can be studied with more rigor. We have already started a volume-complete astrometric search of all southern systems with primaries having spectral types ranging from M3V to L5 within 15 pc and would like to extend the search to 20 pc and to L7. One of the fundamental questions that this larger volume-complete search will answer is whether or not the gap we see in Figure 11 after 2MASS J0523-1403 is real or whether it is an effect of statistics of small numbers. As we discussed in Section 7, the existence of a gap immediately after the onset of the brown dwarf cooling curve is a natural consequence of the fact that only very massive brown dwarfs can occupy that parameter space and do so for a small fraction of their lifetimes. As discussed in Section 2, 19 targets are still undergoing parallax observations and will be ready for placement in the HR diagram during the next few years. These targets are mostly L dwarfs. These additional targets constitute a powerful test of the ideas we discussed in this work--if they follow the same trends, they will provide independent confirmation of our conclusions. We also plan to perform higher cadence variability studies on targets with effective temperatures
+2100 K to investigate the spike in variability we notice for targets just above the hydrogen burning limit (Sections 6.5 and 8, Figure 9).
+In this paper, we have addressed the question: "What do objects at the stellar/substellar boundary look like to an observer?" We next plan to populate the HR diagram with dynamical masses for systems such as GJ 1001BC, LHS 2397aAB, 2MASS J1705-0516AB (Section 8) as well as the newly discovered binary DENIS J1454-6604AB (Section 6.6). Only then we will be able to answer the question: "What are the masses of objects at the stellar/substellar boundary?" Along with the answer to the first question, we hope that this work will bring us closer to a complete and thorough understanding of (sub)stellar structure and evolution at the stellar/substellar boundary.
+This research was supported by NSF grants AST-0507711, AST-09-08402, and AST-11-09445. CTIO 0.9 m observations were made possible through the SMARTS Consortium. S.B.D. acknowledges travel support for SOAR observing runs from NOAO's graduate student dissertation support program. We thank Michael Bessell, Adam Burrows, Adam Burgasser, Douglas Gies, and Russel White for useful discussions. We also thank the anonymous referee for suggestions that increased the quality of the paper. The authors thank the staff of Cerro Tololo Inter-American Observatory for welcoming us into their country and for their continuous help and support. We are especially grateful to Sean Points, SOAR/SOI Instrument Scientist, for his help and to Steven Heathcote, SOAR Director, for allowing us to stand by on engineering nights and use any remaining time after engineering activities were concluded. This publication makes
+
+24
+
+The Astronomical Journal, 147:94 (25pp), 2014 May
+use of data products from the Two Micron All Sky Survey, which is a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center/California Institute of Technology, funded by the National Aeronautics and Space Administration and the National Science Foundation. This publication makes use of data products from the Wide-field Infrared Survey Explorer, which is a joint project of the University of California, Los Angeles, and the Jet Propulsion Laboratory/ California Institute of Technology, funded by the National Aeronautics and Space Administration. This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France. This research has made use of NASA's Astrophysics Data System. This research has benefited from the M, L, T, and Y dwarf compendium housed at DwarfArchives.org.
+REFERENCES
+Allard, F., Hauschildt, P. H., Alexander, D. R., Tamanai, A., & Schweitzer, A. 2001, ApJ, 556, 357
+Allard, F., Homeier, D., Freytag, B., Schaffenberger, W., & Rajpurohit, A. S. 2013, MSAIS, 24, 128
+Allard, F., Homeier, D., Freytag, B., & Sharp, C. M. 2012, in EAS Publications Series, Vol. 57, Low-Mass Stars and the Transition Stars/Brown Dwarfs, ed. C. Reyle´, C. Charbonnel, & M. Schultheis (Les Ulis: EDP Sciences), 3
+Allen, P. R., Koerner, D. W., Reid, I. N., & Trilling, D. E. 2005, ApJ, 625, 385 Andrei, A. H., Smart, R. L., Penna, J. L., et al. 2011, AJ, 141, 54 Antonova, A., Doyle, J. G., Hallinan, G., Golden, A., & Koen, C. 2007, A&A,
+472, 257 Apai, D., Radigan, J., Buenzli, E., et al. 2013, ApJ, 768, 121 Bailer-Jones, C. A. L., & Mundt, R. 2001, A&A, 367, 218 Baraffe, I., Chabrier, G., Allard, F., & Hauschildt, P. H. 1995, ApJL, 446, L35 Baraffe, I., Chabrier, G., Allard, F., & Hauschildt, P. H. 1998, A&A, 337, 403 Baraffe, I., Chabrier, G., Barman, T. S., Allard, F., & Hauschildt, P. H.
+2003, A&A, 402, 701 Basri, G., Mohanty, S., Allard, F., et al. 2000, ApJ, 538, 363 Berger, E. 2002, ApJ, 572, 503 Berger, E., Basri, G., Fleming, T. A., et al. 2010, ApJ, 709, 332 Bessel, M. S. 1990, A&AS, 83, 357 Bessell, M. S. 1995, PASP, 107, 672 Bessell, M., & Murphy, S. 2012, PASP, 124, 140 Boyajian, T. S., von Braun, K., van Belle, G., et al. 2012, ApJ, 757, 112 Burgasser, A. J. 2004, ApJS, 155, 191 Burgasser, A. J., Kirkpatrick, J. D., Reid, I. N., et al. 2003, ApJ, 586, 512 Burrows, A., Heng, K., & Nampaisarn, T. 2011, ApJ, 736, 47 Burrows, A., Hubbard, W. B., Saumon, D., & Lunine, J. I. 1993, ApJ, 406, 158 Burrows, A., Marley, M., Hubbard, W. B., et al. 1997, ApJ, 491, 856 Caballero, J. A. 2007, A&A, 462, L61 Caffau, E., Ludwig, H.-G., Steffen, M., Freytag, B., & Bonifacio, P. 2011, SoPh,
+268, 255 Chabrier, G., Baraffe, I., Allard, F., & Hauschildt, P. 2000, ApJ, 542, 464 Chabrier, G., Baraffe, I., Leconte, J., Gallardo, J., & Barman, T. 2009, in AIP
+Conf. Ser. 1094, 15th Cambridge Workshop on Cool Stars, Stellar Systems, and the Sun, ed. E. Stempels (Melville, NY: AIP), 102 Cohen, M., Wheaton, W. A., & Megeath, S. T. 2003, AJ, 126, 1090 Costa, E., Me´ndez, R. A., Jao, W.-C., et al. 2005, AJ, 130, 337 Crifo, F., Phan-Bao, N., Delfosse, X., et al. 2005, A&A, 441, 653 Cruz, K. L., Reid, I. N., Kirkpatrick, J. D., et al. 2007, AJ, 133, 439 Cruz, K. L., Reid, I. N., Liebert, J., Kirkpatrick, J. D., & Lowrance, P. J. 2003, AJ, 126, 2421 Cushing, M. C., Marley, M. S., Saumon, D., et al. 2008, ApJ, 678, 1372 Dahn, C. C., Harris, H. C., Vrba, F. J., et al. 2002, AJ, 124, 1170 Dieterich, S. B., Henry, T. J., Jao, W.-C., & Riedel, A. R. 2011, in ASP Conf. Ser. 448, 16th Cambridge Workshop on Cool Stars, Stellar Systems, and the Sun, ed. C. Johns-Krull, M. K. Browning, & A. A. West (San Francisco, CA: ASP), 849 Dupuy, T. J., & Liu, M. C. 2012, ApJS, 201, 19 Dupuy, T. J., Liu, M. C., & Ireland, M. J. 2009, ApJ, 699, 168 Enoch, M. L., Brown, M. E., & Burgasser, A. J. 2003, AJ, 126, 1006 Faherty, J. K., Burgasser, A. J., Walter, F. M., et al. 2012, ApJ, 752, 56 Freed, M., Close, L. M., & Siegler, N. 2003, ApJ, 584, 453 Gatewood, G., & Coban, L. 2009, AJ, 137, 402 Geballe, T. R., Knapp, G. R., Leggett, S. K., et al. 2002, ApJ, 564, 466
+
+Dieterich et al.
+Gelino, C. R., Marley, M. S., Holtzman, J. A., Ackerman, A. S., & Lodders, K. 2002, ApJ, 577, 433
+Gizis, J. E., Monet, D. G., Reid, I. N., et al. 2000, AJ, 120, 1085 Gizis, J. E., & Reid, I. N. 1997, PASP, 109, 849 Gizis, J. E., Reid, I. N., & Hawley, S. L. 2002, AJ, 123, 3356 Golimowski, D. A., Henry, T. J., Krist, J. E., et al. 2004a, AJ, 128, 1733 Golimowski, D. A., Leggett, S. K., Marley, M. S., et al. 2004b, AJ, 127, 3516 Golimowski, D. A., Minniti, D., Henry, T. J., & Ford, H. C. 2006, BAAS,
+38, 83 Golimowski, D. A., Minniti, D., Henry, T. J., & Ford, H. C. 2007, in IAU Symp.
+240, Binary Stars as Critical Tools and Tests in Contemporary Astrophysics, ed. W. I. Hartkopf, P. Harmanec, & E. F. Guinan (Cambridge: Cambridge Univ. Press), 329 Graham, J. A. 1982, PASP, 94, 244 Grevesse, N., Noels, A., & Sauval, A. J. 1993, A&A, 271, 587 Harding, L. K., Hallinan, G., Boyle, R. P., et al. 2011, in ASP Conf. Ser. 448, 16th Cambridge Workshop on Cool Stars, Stellar Systems, and the Sun, ed. C. Johns-Krull, M. K. Browning, & A. A. West (San Francisco, CA: ASP), 219 Heinze, A. N., Metchev, S., Apai, D., et al. 2013, ApJ, 767, 173 Henry, T. J., Jao, W.-C., Subasavage, J. P., et al. 2006, AJ, 132, 2360 Henry, T. J., Subasavage, J. P., Brown, M. A., et al. 2004, AJ, 128, 2460 Iben, I., Jr., & Laughlin, G. 1989, ApJ, 341, 312 Jao, W.-C., Henry, T. J., Subasavage, J. P., et al. 2005, AJ, 129, 1954 Jao, W.-C., Henry, T. J., Subasavage, J. P., et al. 2011, AJ, 141, 117 Jarrett, T. H., Cohen, M., Masci, F., et al. 2011, ApJ, 735, 112 Jenkins, J. S., Ramsey, L. W., Jones, H. R. A., et al. 2009, ApJ, 704, 975 Kendall, T. R., Mauron, N., Azzopardi, M., & Gigoyan, K. 2003, A&A, 403, 929 Khandrika, H., Burgasser, A. J., Melis, C., et al. 2013, AJ, 145, 71 Kirkpatrick, J. D., Henry, T. J., & Irwin, M. J. 1997, AJ, 113, 1421 Koen, C. 2003, MNRAS, 346, 473 Koen, C. 2004, MNRAS, 354, 378 Koen, C. 2005, MNRAS, 360, 1132 Koen, C., Matsunaga, N., & Menzies, J. 2004, MNRAS, 354, 466 Konopacky, Q. M., Ghez, A. M., Barman, T. S., et al. 2010, ApJ, 711, 1087 Landolt, A. U. 1992, AJ, 104, 340 Landolt, A. U. 2007, AJ, 133, 2502 Landolt, A. U. 2009, AJ, 137, 4186 Leggett, S. K., Hauschildt, P. H., Allard, F., Geballe, T. R., & Baron, E. 2002, MNRAS, 332, 78 Liu, M. C., & Leggett, S. K. 2005, ApJ, 634, 616 Lodders, K. 2003, ApJ, 591, 1220 Lodieu, N., Scholz, R.-D., McCaughrean, M. J., et al. 2005, A&A, 440, 1061 Looper, D. L., Kirkpatrick, J. D., Cutri, R. M., et al. 2008, ApJ, 686, 528 Mart´in, E. L., Delfosse, X., Basri, G., et al. 1999, AJ, 118, 2466 Phan-Bao, N., Bessell, M. S., Mart´in, E. L., et al. 2008, MNRAS, 383, 831 Radigan, J., Jayawardhana, R., Lafrenie`re, D., et al. 2012, ApJ, 750, 105 Rajpurohit, A. S., Reyle´, C., Allard, F., et al. 2013, A&A, 556, A15 Rebolo, R., Martin, E. L., & Magazzu, A. 1992, ApJL, 389, L83 Reid, I. N., Cruz, K. L., Kirkpatrick, J. D., et al. 2008, AJ, 136, 1290 Reid, I. N., Hawley, S. L., & Gizis, J. E. 1995, AJ, 110, 1838 Reid, I. N., Lewitus, E., Allen, P. R., Cruz, K. L., & Burgasser, A. J. 2006, AJ, 132, 891 Reyle´, C., Scholz, R.-D., Schultheis, M., Robin, A. C., & Irwin, M. 2006, MNRAS, 373, 705 Saumon, D., Chabrier, G., & van Horn, H. M. 1995, ApJS, 99, 713 Saumon, D., & Marley, M. S. 2008, ApJ, 689, 1327 Schmidt, S. J., Cruz, K. L., Bongiorno, B. J., Liebert, J., & Reid, I. N. 2007, AJ, 133, 2258 Schmidt, S. J., West, A. A., Hawley, S. L., & Pineda, J. S. 2010, AJ, 139, 1808 Scholz, R.-D., Lodieu, N., Ibata, R., et al. 2004, MNRAS, 347, 685 Shkolnik, E., Liu, M. C., & Reid, I. N. 2009, ApJ, 699, 649 Skrutskie, M. F., Cutri, R. M., Stiening, R., et al. 2006, AJ, 131, 1163 Sorahana, S., Yamamura, I., & Murakami, H. 2013, ApJ, 767, 77 Stassun, K. G., Mathieu, R. D., & Valenti, J. A. 2006, Natur, 440, 311 Subasavage, J. P., Jao, W.-C., Henry, T. J., et al. 2009, AJ, 137, 4547 Tinney, C. G. 1996, MNRAS, 281, 644 Tinney, C. G., Reid, I. N., Gizis, J., & Mould, J. R. 1995, AJ, 110, 3014 van Altena, W. F., Lee, J. T., & Hoffleit, D. 1995, yCat, 1174, 0 van Leeuwen, F. (ed.) 2007, Hipparcos, the New Reduction of the Raw Data (Astrophysics and Space Science Library, Vol. 350; Berlin: Springer) Williams, K. A., Bolte, M., & Koester, D. 2009, ApJ, 693, 355 Wright, E. L., Eisenhardt, P. R. M., Mainzer, A. K., et al. 2010, AJ, 140, 1868
+
+25
+
+

@@ -1,0 +1,1014 @@
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76 Copyright © 1992 by Annual Reviews Inc. All rights reserved
+
+REVIEWS ANNUAL Further
+Quick links to online content
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING
+A . E. Champagne
+Department of Physics and Astronomy, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599; and Triangle Universities Nuclear Laboratory, Duke University, Durham, North Carolina 27706
+M. Wiescher
+Department of Physics, University of Notre Dame, Notre Dame, Indiana
+46556
+KEY WORDS: nucleosynthesis, hot eNO cycles, rp-process
+
+CONTENTS
+
+I . INTRODUCTION .................... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+40
+
+1 . 1 Novae.......................................................... 4 1
+
+1 . 2 X-Ray Bursts.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+42
+
+1 . 3 Supernovae .....................................................
+
+42
+
+2. NUCLEAR REACTIONS DURING AN OUTBURST ... .. ..... .. .... .. 42 2. 1 Reaction Networks ... .. .... .. ..... .... .. ..... .. ... .. .. ... ...... . 42 2 . 2 Thermonuclear Reaction Rates. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+
+3. THE HOT CNO CyCLES ........................................... 4 7
+
+3. 1 Reactions Involving Stable Tarets; 12C(p,y)13N, 14N(p,y)150,
+
+15N(p,a)12C, and 160(p,y)1 F .. . . .. .......... .. . . ... .. .. .... . . 4 7
+
+3. 2 The 13N(p,y)140 Reaction ...... .. . . ....... .. ..... .. .. ..... .. .... . 48
+
+3.3 The Structure ofl8Ne and the 140(a,p)17F, and 17F(p,y)18Ne
+
+Reactions . . . .... . . . . .. .. . . .... . . .... . .. . . ... .... .... . .... ..
+
+50
+
+3.4 The 18Ne(a,p?lNa Reaction ........................... .. . .... . . . . 54
+
+3.5 The Structure of 19Ne and the 150(a,y)19Ne, 18F(p, a)150, and
+
+18F(p,y)19Ne Reactions . . . . . . . . . . . . . . . ,. . . . . . . . . . . . . . . . . . . . . .
+
+54
+
+3. 6 Differences Between Laboratory Rates and Stellar Rates .. .. . . .. .. .. 56
+
+4. THE rp-PROCESS . . .... ...... ...... . . .... .. ..... .. ... .. .. . .. .. .. ...
+
+57
+
+4. 1 Reaction Rates in General. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+
+4.2 The 19Ne(p,y)20Na Reaction . . . . . . . .. . . . . . . . . . . .. . . . . . . . . . . . . . . . . .
+
+58
+
+4. 3 The Early rp-Process: 2oNa(p,y?IMg, 22Na(p,y?3Mg, and
+
+26AI(p,yPSi ... .. .... ... .. . . .... .. ..... ...... . . ... .. .... .... 60
+
+4.4 The rp-Process For A = 30-60 . .. ...... . .. ... ..... ....... . .. ... . .
+
+61
+
+4.5 Impedance Effects .... .. .. ......... .... .. ....... .. ... ...... . . .. . . 6 2
+
+39
+
+0163-8998/92/1201-0039$02.00
+
+40
+
+CHAMPAGNE & WIESCHER
+
+5. NETWORK CALCULATIONS. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+66
+
+5.1 Low Temperatures and Densities . . . ........ . . . . . ....... . ..... . .... 67
+
+5.2 Intermediate Temperatures and Densities . . . . . . . . . . . . . . . . . . . . . . . . . . 69
+
+5.3 High Temperatures and Densities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71
+
+6. CONCLUDING REMARKS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+73
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+1. INTRODUCTION
+Under astrophysical conditions of extreme temperature and density, nuclear reactions can occur with rates that are comparable to a dynamical free-fall time, i.e. on the order of seconds. Explosive hydrogen burning will take place in a number of sites , most notably in cataclysmic binary systems (including novae and some x-ray bursts), and during Type II supernovae. The former objects are thought to be thermonuclear outbursts triggered by mass accretion onto the surface of either a white dwarf or a neutron star. A knowledge of the relevant nuclear reaction cross sections is therefore critical to our understanding of the outburst phenomenon itself. In particular, this information determines the amount of energy generated to power the outburst and the inventory of elements produced. These results may be compared with direct observations to provide a tight constraint on models of these systems. Much useful information can be obtained from the nucleosynthesis itself. For example, measurements of absolute and relative elemental abundances, combined with nucleosynthesis calculations, could yield information regarding the physical conditions during the explosion. Also, if a detectable amount of a gamma-ray emitter such as 22Na or 26Al is produced, then observations of the gamma-ray flux over time may shed some light on how the ejecta are mixed into the interstellar medium. The nuclei of active galaxies are thought to be powered by a similar mechanism, in this case mass accretion by massive black holes. As a result, much of what we learn by studying cataclysmic binaries might also be applied to models of active galaxies. In the case of supernovae, explosive hydrogen burning is incidental to the underlying explosion mechanism. However, nucleosynthetic yields are again useful in probing the explosion. In addition, since supernovae are major sources of heavy elements, explosive nucleosynthesis is responsible for much of galactic chemical evolution.
+The goal of this article is to review the status of the nuclear reaction data base used for calculations of explosive hydrogen burning. We begin with a brief discussion of the astrophysical sites followed by a general description of the relevant reaction networks and thermonuclear reaction rates. Following this is a detailed summary of the data for the two primary reaction networks, which are known as the Hot
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING 41
+CNO cycles and the r(apid)p(roton)-process. Finally, we review the results of recent network calculations.
+1.1 Novae
+A nova event is generally understood to result from mass transfer within a close-binary system. In this picture, envelope material from a star that has filled its Roche lobe is captured by a white-dwarf companion ( 1 -3). The white dwarf is typically composed of CoO (with masses on the order of 1 Mo) or, in the case of more evolved progenitors, O-Ne-Mg [with masses in the range 1 .2-1 .4 M0 (4)] . In a simple picture, the infalling material carries a great deal of angular momentum and builds up into an accretion disk before spiraling to the surface of the white dwarf. However, formation of an accretion disk does not always accompany mass transfer. If the orbital radius is sufficiently small, the two stars will share a common envelope. This can occur either on the way to or following the thermonuclear runaway (5, 6). The response of the white dwarf to mass transfer depends upon its mass (typically on the order of 1 M0), its temperature (or degree of degeneracy) , and the rate of mass transfer, M (7). For modest masstransfer rates (M = 10-9 M0/yr), the infalling material has an opportunity to diffuse into the white dwarf, cool and achieve some measure of degeneracy. Eventually, the density of accreted material will exceed 103 g cm-3, which triggers nuclear reactions on a rapid time scale (8, 9). The course of the resulting thermonuclear runaway is determined by the degree of degeneracy (8). In a fully degenerate gas, the pressure is determined by density rather than by temperature. Under these reactions, nuclear burning is unstable: Although the energy released by nuclear reactions leads to a sharp rise in temperature, there is little or no corresponding rise in outward pressure, which would tend to cool the gas. Partially degenerate material will burn violently, but will not be ejected from the white dwarf. Complete mass ejection, which characterizes a classical nova outburst, occurs if the material is degenerate enough to delay ejection while the thermonuclear runaway strengthens. Under these conditions, peak temperatures range between T = 108 and 2 x 108 K (T9 = 0.1-0.2) for a CoO white dwarf and T9 = 0.4-0.5 for an O-Ne-Mg white dwarf. The thermonuclear runaway occurs over the course of 100-200 s. During this time, the two stars will spiral apart in order to conserve angular momentum. However, following the explosion, mass will be transferred at an accelerated rate as radiation heating causes the envelope of the companion star to expand (10). Finally, the system will settle down into a period of low M until friction
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+42 CHAMPAGNE & WIESCHER
+and/or gravitational radiation brings the stars back into close contact. An outburst may reoccur after an interval of 103-105 yr.
+1.2 X-Ray Bursts
+In general, the observed spectral features of x-ray bursts suggest some interaction involving neutron stars (11 and references therein). Some sources have been observed in binary systems and in these cases, it is believed that there is a superficial resemblance between the mechanism responsible for an x-ray burst and that producing novae. In particular, it is assumed that mass from a companion star is transferred to the surface of a neutron star where it is ignited under degenerate conditions. Because this material falls through a much stronger gravitational potential than was the case for novae, nuclear burning starts at a comparatively greater density (106-108 g cm -3) and produces more energy. A typical event may last only 5-10 s, but peak temperatures may be in the range T9 = 0.7-1.5. However, the strong gravitational potential prevents much material from being ejected, unlike the case for novae. Thus , x-ray bursts are not important contributors to galactic nucleos ynthesis.
+1.3 Supernovae
+Following core collapse in a massive star, a shock front is generated and expands through the stellar envelope and ultimately ejects it into the interstellar medium. During passage of the shock, the envelope will experience a dramatic increase in pressure and density that will trigger a burst of nuclear burning. Although the bulk of the nucleosynthetic yield comes from the inner silicon- and carbon-rich zones, calculations performed for the collapse of a 25-Mo star ( 1 2) indicate that the outer hydrogen- and helium-rich layers will also undergo some shock processing. The duration of this compression and heating is 5-10 s, during which time the material will experience peak temperatures of T9 0.2-1.0 and densities of p = 102_104 g cm-3.
+2. NUCLEAR REACTIONS DURING AN OUTBURST
+2.1 Reaction Networks
+The production sites considered above are characterized by temperatures in the range T9 = 0.1-1. 5 and densities of p = 103_108 g cm -3. For seed material consisting of C and 0, the nuclear reaction network will resemble the well-known CNO cycles of hydrostatic hydrogen
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING 43
+burning. However, an important difference between hydrostatic and explosive burning is that for the latter case, the time scales for nuclear reactions are comparable to or shorter than typical beta-decay lifetimes. Hence, following the 12C(p;y)13N reaction, the beta decay of 13N (T1I2 = 9.97 m) will be bypassed by the 13N(p ,'y)140 reaction, which leads to the Hot CNO (HCNO) cycles (13-17). These cycles are diagrammed in Figure 1. From 160, the route into the HCNO cycles is by the sequence 160(p,-y)17p(13 +)170(p,a)14N(p,-y) 150 at the lower tcmperatures and by 160(p,-y) 17P(p,-y)18Ne, etc as the temperature increases. While the HCNO cycles are in operation, higher-mass material, e.g. Ne or Mg will be burned via (p,-y) reactions operating near the line of beta stability.
+For temperatures up to T9 = 0.2, the cycle
+1.
+is thought to dominate the reaction flow and would therefore be the energy source for classical novae. Within this main cycle, the rate of energy production is limited by the r3 + decays at 14.150 (TlI2 = 71 s and 122 s, respectively). Therefore, in equilibrium most of the catalytic
+
+T9=O.21 (P,Y) (p,a)
+
+ 15N
+
+50 _
+
+p+
+
+(p,a) ,
+
+:(a,y) , ,
+
+c9 " (p,y)
+
+19Ne ITs=O.sl )I'
+
+'" "(a,p)
+
+Figure 1 The Hot eNO cycles. The dominant reaction path is denoted by the heavy
+arrows. At higher temperatures, the sequence initiated by the 140(0t,p)17F reaction be­
+comes important (light arrows). At stilI higher temperatures, it may be possible to leave the Hot eNO cycle entirely (dashed arrows).
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+44 CHAMPAGNE & WIESCHER material will exist as 14.150 and ultimately as 14.15N in novae ejecta. In addition, the abundance of 15N will be enhanced relative to 14N owing to the longer half life of 150 versus 140. As the temperature approaches T9 = 0.4, alpha-induced reactions may begin to come into play. For example, the waiting point at 140 may be bypassed by the sequence 140(0',p)I7F(p,'y) 18Ne( +)18F(p ,0')150, which will increase the rate of energy generation. At still higher temperatures, it may be possible to break out of the RCNO cycles via the 150(a,'Y)1 9Ne, 18F(p,'Y)19Ne, or 1 8Ne(a,p?INa reactions. At this point, 19Ne and 21 Na can become the catalysts for a further series of rapid proton- and alphainduced reactions (Figure 2) known as the rp-process (18, 1 9). However, note that an rp-process may be triggered by a sufficient preexplosion abundance of Ne, Na, or Mg without direct feeding from the RCNO cycles. These reactions may be the source of the enhancements of Ne, Na, Mg, and Al observed in the ejecta of novae Cyg 1975 (20) , Aquilae 1 982 (2 1), CrA8 1 (22), and Vulpeculae (23).
+The path of the rp-process lies between the line of stability and the
+ETC.
+HOT CNO CYCLES
+Figure 2 The transition from the Hot eNO cycles to the rp-process at high temperatures. The shaded region comprises the stable nuclei. More detailed reaction paths may be found in Section 5 .
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING 45
+proton drip line and is determined by a competition between chargedparticle reactions and beta decay. The reaction rates have an exponential temperature dependence whereas the beta-decay rates are, to first approximation , temperature independent. At low temperatures , these rates are comparable and s o the rp-process runs close to o r along the line of stability. At higher temperatures, where reactions occur more rapidly than beta decay, the reaction path will run close to the proton drip line. The flow of material toward heavier masses is governed by the rates of the slowest reactions along the rp-path as well as by any other effects that may impede the reaction flow. These include beta-decay waiting points, photodisintegration reactions, and reaction cycles. All of these effects must be taken into consideration when calculating nucleosynthesis within the rp-process. However, crude estimates of the reaction rates in the rp-process indicate that nucleosynthesis can occur up to or beyond the iron-peak elements and that energy is produced at a rate of about 100 times that of the main HCNO cycle (18). This rate may be sufficient to power an x-ray burst.
+Measurements of the reactions of the HCNO cycles and in the rpprocess are necessary to fully understand explosive hydrogen burning. However, since the majority of the reactions of interest involve shortlived nuclei, these measurements have proven to be challenging. Only the 1 3N(p ; 'Y) 140 reaction rate has been measured with reasonable precision (in this case, to ± 13% accuracy) and the rate of the 150(a;y)19Ne reaction has been determined within an uncertainty of a factor of 2. The rates of many of the reactions of interest were estimated in surveys of explosive hydrogen burning by Wagoner et al (24) and Wagoner (25). An enormous amount of nuclear spectroscopy has been completed since then and the majority of these early estimates have been superseded. However, the latest estimates, based on available experimental and theoretical nuclear structure information, are still very uncertain (by factors of 5-1000). Because of these large uncertainties, models of cataclysmic binaries rely on rather suspect nuclear reaction input.
+2.2 Thermonuclear Reaction Rates
+The thermonuclear reaction rate (26-29) is the product of the reaction cross section (]' and the center-of-mass velocity v, averaged over the distribution of velocities (assumed to be Maxwellian):
+( ) «(]'v)= 8 1 (kT)-3 12 /2 (]'(E)E exp(-ElkT) dE, 2. J 1TJ..l
+where J.l. is the reduced mass and k is Boltzmann's constant. In general,
+
+46
+
+CHAMPAGNE & WIESCHER
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+a(E) will contain contributions from nonresonant direct reactions (or direct capture in the case of radiative reactions) and resonant capture. For charged-particle reactions, the energy dependence of the nonresonant cross section is dominated by the penetrability factor for the combined Coulomb and centrifugal barriers. At low energies, this factor is approximately proportional to exp[ - (EGIE)1I2], where EG is a constant defined by
+
+EG = (2'Tre2ZtZ2/h?fJ-/2
+
+3.
+
+and Z refers to the nuclear charge. With this energy dependence for the cross section, the integral in Equation 2 is nonnegligible over a restricted energy region (known as the Gamow peak). The location and width of the Gamow peak roughly define the region ofinterest for crosssection measurements. For (p;y) reactions in the HCNO cycles, this region spans 25 keV to 1.1 MeV in the center of mass and 150 keV to 2.5 MeV near the upper end of the rp-process. It is sometimes useful to express the nonresonant cross section in the following simple parameterization
+
+aCE) = See) E exp[ -(EGIE)1I2]. 4.
+The factor of liE arises from the }\2 term in the nuclear cross section and the remaining term is known as the astrophysical S-factor. The Sfactor contains the nonkinematic portions of the cross section and is usually a slowly varying function of energy. This permits the reaction rate to be determined by a straightforward numerical integration of Equation 2 or by simple analytic approximations (26-29).
+In most cases, considerations of the level densities of the relevant compound nuclei suggest that the reaction rates for both the ReNO cycles and the rp-process are determined primarily by resonant capture. If the cross section is dominated by a resonance at an energy Er, then a(E) takes on the familiar Breit-Wigner form
+
+_
+
+fafb
+
+aCE) - 1T}\2W
+
+.
+
+5.
+
+(E _ Er)2 + f2/4
+
+Here )\ is the reduced Compton wavelength; w is the spin-statistical
+
+factor; and fa, fb, and f are the partial widths for the incoming and outgoing channels and the total width, respectively. For a resonance
+
+(2 )3/2 that is isolated and narrow (i.e. iff  Er), Equation 2 may be integrated
+to yield
+
+(av) = fJ-:T h2 w"/ exp( - ErlkT).
+
+6.
+
+EXPLOSIVE HYDROGEN BURNING
+
+47
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+The factor w-y (w-y = wfafb/f) is the resonance strength. The contributions of individual resonances are simply summed. If, however, a resonance is broad, or if several resonances overlap, then the shape of the cross section may be appreciably different from the Lorentzian shape assumed in obtaining Equation 6. In this case, Equation 2 must be evaluated numerically in order to obtain the reaction rate. In situations where many, possibly overlapping, resonances contribute to the reaction, the cross section will take on a statistical character. Here, the properties of individual resonances are less important than level densities, masses and energetics. For stable nuclei, Hauser-Feshbach calculations accurately reproduce these cross sections (30, 31).
+For most of the reactions of interest, a direct measurement of a(E) would require the production of either a radioactive ion beam or a radioactive target. Of these two approaches, the radioactive-beam method is preferable: In general, the radioactive-target technique suffers from severe background problems for targets with half-lives less than several hours, i.e. for most of the targets of interest. A complimentary approach, relying upon traditional nuclear spectroscopy involves producing the relevant compound nucleus using stable beams and stable targets. Measurements of excitation energies, spins and parities, widths, and decay branches determine all of the resonance information contained in Equation 6. Both ofthese approaches have been brought to bear on the study of the HCNO cycles and of the rp-process.
+
+3. THE HOT CNO CYCLES
+3. 1 Reactions Involving Stable Targets: 12C(p,y) 13N, 14N(p,yl50, 15N(p,a) 12C, and 160(p,yl7p
+Measurements of the I2C(p,-y)13N, 14N(p ,-y)1 50, 15N(p,a)I 2C, and 160(p ,-y)17F reactions have been carried out at energies throughout the range of interest for the HCNO cycles. The relevant nuclear data may be found in recent tabulations (32, 33), and thermonuclear reaction rates derived from these data were listed by Caughlin & Fowler (34). Overall, the data and reaction rates are well understood. However, there are a few ambiguities that merit some discussion.
+The 1 2C(p,-y)13N reaction has been measured over the energy range 150 keV to 2.5 MeV by Rolfs & Azuma (35) and the recommended reaction rate (34) is based upon these results. More recent work (36) indicates that a resonance located at a laboratory energy Ep = 1 .699 MeV in the earlier study is actually at Ep = 1 .689 MeV. Another measurement (37) agrees with the earlier value. However, since this resonance is too weak to be astrophysically significant, there is no meaningful uncertainty in the reaction rate for the temperatures of interest.
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+48 CHAMPAGNE & WIESCHER
+The rate of the 1 5N(p,a)1 2e reaction (34) is based upon an average of two data sets (38, 39) and is assumed to be accurate at low temperatures. In contrast, the rate for T9 :;:3 1 includes uncertain contributions from two presumed resonances at Ep = 710 and 1 050 keV. The former state possesses a spin-parity r = 0 - . Consequently, alphaparticle emission to either ground state or first-excited state of 1 2e is parity-forbidden and this state should not be considered as a possible (p,a) resonance. The latter state appears to be too weak to play a role in the HCNO cycles. Therefore, the lower limit compiled for the 1 5N(p,a) 1 2e reaction (34) should be used in network calculations of explosive hydrogen burning.
+3.2 The 13N(p,y)140 Reaction
+The I3N(p ;y)140 reaction is dominated by s-wave capture to a single JTr = 1 - resonance at a center-of-mass energy Ecm = 541 ± 2 keY (corresponding to an excitation energy Ex = 5.17 MeV) (32 , 40). The total width of this state, f = 38. 1 ± 1 .8 keY, was measured (40, 4 1 ) via the 14NeHe,t)140 reaction. Because the radiative width, f-y, is on the order of a few eV and is therefore much smaller than the proton width, fp, the strength of this resonance is determined primarily by f-y.
+3 .2. 1 CALCULATIONS OF f'Y Mathews & Dietrich (42) considered I3N + p resonant capture as a single-particle transition on top of an excited I 3N core. This calculation predictsfp = 34.7 keY and f'Y = 2 .44 eV for the state of interest in 140. Although the core-polarization coupling was adjusted to reproduce f'Y for 13N(2.365), the calculation overpredicts f'Y for 13e. A microscopic-potential model was used by Langanke et al (43) to predict rp = 40.1 keY and f-y = 1 .5 eV. This work was extended (44) to include the effects of core excitation [specifically 13N(3 . 5 1 )] in the capture process, which did not lead to much difference in the final results:fp = 53 keV, f-y = 1 .6 eV. It was noted by Barker (45) that the mechanism for populating the resonance in 1 40 should be similar to that for s-wave capture in the 1 2C(p ;y) I3N reaction where an R-matrix approach is known to work well. Such a calculation for 140 yields fp = 35.9 keY and a best value off-y = 1.2 eV (different channel radii lead to values off-y in the range 1 .2-2.4 eV). Both this result and those of Langanke and colleagues (43 , 44) depend sensitively upon the choice of potential or radius parameters. With this in mind, Descouvement & Baye (46) employed a generator-coordinate method that was thought to produce more realistic excited-state configurations. With this technique, they obtainedfp = 66 keY andf-y = 4. 1 eV and
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING 49
+were able to do a reasonable j ob of reproducing the known l3C + n scattering length. However, the method underpredicts the (n,'y) thermal cross section.
+In summary, a number of very different types of calculations indicate 1 .2 :S;; f-y :S;; 4. 1 eV. No single method is obviously superior to the others and this simply underscores the difficulty involved with detailed predictions of the properties of individual excited states (particularly as the state in question decays via an El transition).
+3 . 2 . 2 MEASUREMENTS OF f-y In principle, the most direct way to obtain the l3N(p,'y)140 cross section is through a measurement of the IH(l3NI40)y reaction. Since this approach requires the use of an accelerated radioactive beam and since all of the relevant resonance parameters except for f-y had already been measured, initial studies focused upon a measurement of f.)f using indirect nuclear spectroscopy. The calculations summarized above predict 3 . 1 x 10 - 5 .:: f-yff .:: 1 . 1 x 1 0-4. At this level, branching ratio measurements are quite difficult. Wang (40) obtained an upper limit f-yff .:: 4.5 x 10-4 from a 14NeHe,t)1 40*(,40)-y recoil-coincidence measurement. Using f = 38. 1 keY, this branching ratio corresponds to f"  1 7 eV. Two subsequent measurements of the \3CeHe ,n,'y) 140 reaction have produced definite results: The ratio of coincident gamma rays to neutrons emitted from population of the 5.71-MeV state in each case implies f-y = 2 . 7 ± 1 .3 eV (47) and 7.6 ± 3 .8 eV (48). A fourth indirect measurement (49) involved the IH('4N, 140)n reaction. In this experiment, 140 recoils were detected in singles . Therefore, in order to extract f-y from this information, a measurement of the 14N(p,n)140o.1 cross section was also required. A synthesis of these results is consistent with f-y = 1 2 ± 7 eV, which i s somewhat higher than the previous two results.
+Recently, two very different types of measurements were completed using radioactive beams . At Louvain-Ia-Neuve, an accelerated 13N beam was used to produce the IH(\3N, 140)"( reaction (50). The gammaray branching ratio was extracted from the yield of 5 . 1 7-MeV gamma rays measured in coincidence with 13N recoils, in anticoincidence with cosmic rays, and in phase with the cyclotron RF. In this manner, the effects of prompt and delayed beam-induced background were minimized. The resulting gamma-ray yield is consistent with f-y = 3.8 ± 1 .2 eV. An analysis of I3N + p scattering (5 1 ) was also used to check the excitation energy and width. A width of 37.0 ± 1 . 1 keV is obtained, which is in agreement with the earlier eHe,t) result (41). [Delbar et al point out that the calculated value ofDescouvemont & Baye (46) would also be consistent with these results if the level-shift parameter had
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+50 CHAMPAGN E & WIESCHER
+been included in the calculation.] However, the resonance energy, Ecm = 526 ± 1 keV is in serious disagreement with the accepted value of 54 1 ± 2 (40). The second technique involved breakup of an 140 projectile in the Coulomb field of 208Pb (52). In principle, a measurement of the breakup of 140 into \3N + P in kinematic coincidence could be used to extract the I3N + P cross section directly (53) . However, since the fragments have different ZIA ratios, they will undergo a differential Coulomb acceleration upon breakup and thus the measured kinematics will not represent the true breakup kinematics . Instead, the fragment yield was measured as a function of opening angle and compared to a simple Coulomb-plus-nuclear excitation calculation. The overall normalization between theory and experiment implies f-y = 3.1 ± 0.6 eV. The precision of this result reflects the fact that nuclear excitation was found to be negligible compared to the easily calculable effects of Coulomb excitation. A second measurement (54) of 140 breakup yields similar results, in this case f-y = 2 . 4 ± 0.9 eV.
+3.2 . 3 RECOMMENDED REACTION RATE A weighted average o f all of these measurements is r'Y = 3. 1 :±: 0.4 eV. In calculating the reaction rate, it is necessary to account for the energy dependence of the partial widths over the width of the resonance. This procedure is outlined by Fowler et al (27). We have also adopted the calculation of the directcapture cross section from Fernandez et al (47), which is based upon the measured analog reaction 13C(p,'y)14N(2.3 1 3). At present, the uncertainty in the reaction rate is dominated by the uncertainty in f'Y and not by the disagreement in the resonance energy.
+3.3 The Structure of 18Ne and the 140(a,pl7F and 17F(p,-y)18Ne Reactions
+Unlike the case of the 1 3N(p,y)140 reaction, little experimental information exists regarding either the 140(U,p) 17F or the 17F(p,y)18Ne reactions. The compound nucleus in each reaction, 18Ne, is the analog to 180, which by comparison is well studied. Thus , the properties of states in 18Ne may be inferred from those of analogous states in 180. The level structure of these nuclei, based upon information compiled by Ajzenberg-Selov (55), is shown in Figure 3. As is clear from a comparison of these level schemes, several excited states remain to be discovered in 18Ne and these may have some bearing on the cross sections under consideration. In addition, the resonance properties of the states that are known have not been determined because a definite analog correspondence remains to be established.
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING 5 1
+
+li R.21 8.28 8
+17ciR
+t;-"Z
+
+,4 .1.: 'f-
+
+7.12
+
+4+
+
+-
+
+6.88
+
+0
+
+6.35 6.40 _12-) 3-
+
+8.09 7.ll
+7.0a
+_" <In. 6 35
+
+_o"1L
+(1",1)
+(4') _
+
+ 5.53
+
+2
+
+ 5,26_5.34-2+- __
+
+3
+
+4.46
+
+f
+
+5.45
+rs.O 5.15 (23)(231
+
+452 4.59
+
+0+
+
+3.92 3.55 3.63
+
+2+
+Q+ +- 3.58 3.62
+---= 3.38
+
+5.114 140 + (l
+3.922 F+p
+
+1.98
+
+2+
+
+11R9
+
+0
+
+n+
+
+n
+
+Figure 3 Level structure of the 180_18Ne analog pair. Known analog connections are indicated.
+
+3.3.1 THE 140(a ,p)17F REACTION Both projectile and target in 140 + a reaction are 0+ particles and therefore only natural-parity states will
+play a role in the 140(a,p)17p reaction. No such states are known to exist within about 1 MeV of the reaction threshold. It is possible that some of the undiscovered states could thus be important and efforts are under way to locate them via the 12C(12C,6He)18Ne and 2°Ne(p,t)18Ne reactions (K, 1. Hahn and A, E, Champagne, private communication). At present, the reaction rate is based upon theoretical treatments .
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+52 CHAMPAGNE & WIESCHER
+In their estimate of the (a,p) rate, Wallace & Woosley (18) considered two resonances at Eern = 1 . 19 and 1 .24 MeV, which correspond to known states at Ex = 6 . 30 and 6.35 MeV, respectively. This work laid the basis for further studies (56) that used a calculation of A = 18 Thomas-Ehrman shifts to deduce the analog correspondence between 1 80 and 1 8Ne. In this procedure, it was noted that several of the tentative J'" assignments (55) are inconsistent with the analog assignments. With this caveat, a new state was placed at Ex = 6. 13 MeV in 1 8Ne, which is the analog to the 6. 1 98-MeV (J'" = 1 -) state in ISO. Proton and alpha partial widths were obtained from measured 170(d,p)180 (55) and 14C(6Li,d)ISO (57) spectroscopic factors and when these were not available, from shell-model calculations (58). Radiative widths were estimated from those known in 1 80. From this information, resonance strengths were calculated and the nonresonant, direct-reaction component was treated under the assumption of direct capture to a-bound, but p-unbound states. This mechanism appears to be a relatively unimportant part of the entire cross section as the reaction rate was found to be determined almost entirely by two J'" = 1 - resonances at Eern
+= 1.01 MeV (Ex = 6.13 MeV)andEern = 1.94 MeV (Ex = 7.06 MeV).
+Furthermore, the competing (a;y) reaction was found to play an insignificant role in the destruction of 140.
+Subsequent to this work, it was pointed out that the direct-reaction mechanism is more complicated than simple direct capture to protonunbound levels (59). Therefore, a microscopic-potential model was employed to calculate the (a,p) cross section. Included in this calculation were the effects of interference between resonant and nonresonant amplitudes . Because the spins of states above the alpha-capture threshold are uncertain at best, no spin information was used to constrain the calculation. Consequently, the lowest r = 1 - resonance is associated with the known state at Ex = 6.30 MeV rather than a new level at 6. 1 3 MeV. Where this calculation produced results in accord with the previous work (56), the same resonance parameters were chosen. Otherwise, calculated properties of 180 (60) were used. The final reaction rate differs considerably from that of Wiescher et al (56): For T9 :=;; 0.35, the new rate is more than 100 times larger while for T9 ,3 0 .6, it is about a factor of 3 smaller. Much of the difference at low energy stems from the influence of a J7r = 2 + resonance at Eern = 34 keV (identified with a known state at Ex = 5.15 MeV). The contribution from this state was treated using a narrow-resonance formalism by Wiescher et al (56) and found to be insignificant. In contrast, the latter calculation (59) accounts for the measured width of this state explicitly and finds a large effect. In further studies with an enlarged model space
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING 53
+(61), this enhancement is reduced by a factor of 3 .6, but the hightemperature reaction rate is essentially unchanged from that of Funck & Langanke (59).
+3 . 3 . 2 RECOMMENDED REACTION RATE It is difficult to recommend a reaction rate on the basis of such conflicting results and sparse experimental input. As was pointed out by Funck & Langanke (59), the previous calculation (56) may have used an oversimplified picture of the reaction mechanism. The later rate relies more heavily on calculated properties of 1 8Ne because of ambiguities in the nuclear data, but also ignores some experimental input. For example, a calculated reduced alpha width was used for the lowest r = 1 - resonance, but an experimental value exists for the analog state. The theoretical value is about a factor of 3 larger than that derived from experiment, but in this instance, there is little effect on the final rate. Fortunately, the largest disagreement among these calculations occurs for T9  0.35 where the (u,p) reaction is probably too slow to compete with the beta decay of 140. At temperatures where the (u,p) reaction predominates, the calculations agree to within a factor of 2. At high temperatures, the rate calculated by Wiescher et al (56) includes a statistical-model estimate of the effects of high-energy resonances, a contribution to the cross section that was not examined by Funck & Langanke (59, 61). Because the high-temperature reaction rate from Wiescher et al (56) may be the most reliable, it is used in the network calculations presented in Section 5.
+3 . 3 . 3 THE 17F(p;y)1 8Ne REACTION In marked contrast to the situation regarding the 140(U,p)17F reaction, the 17P(p;y) 18Ne reaction is reasonably well understood. A comparison of T = 1 states in the A = 18 system shows that analogous JTr = 3 + states exist at Ex = 5.38 MeV in 180 and at 6.16 MeV in 18F (55; see Figure 3) . However, until recently the corresponding state in 18Ne has not been observed. Because this state could be populated by s-wave proton capture, it could be an important (p;y) resonance. However, the possible effect of this state was not included in initial calculations (62). Later work predicted Ex = 4 . 33 MeV on the basis of a simple Thomas-Ehrman shift calculation (63). This energy would place the state in question at an astrophysically interesting location, 406 keV above the 17p + P threshold. Because rp = r for this state, the resonance strength is w')' = wr'Y. Its radiative width was calculated using the decay of the mirror state in 180 as a starting point, with the result that this state was indeed the most important contributor to the reaction rate over the entire temperature
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+54 CHAMPAGNE & WIESCHER
+range of interest. However, a different calculation (64), using a more realistic nuclear potential, placed this state approximately 200 keY higher in energy where it would have a lesser influence on the reaction rate .
+Experimental verification of this prediction is difficult because population of unnatural-parity states via direct two-proton or two-neutron transfer is forbidden. Consequently, this state can only be observed in reactions such as 160CHe,n)18Ne and 2°Ne(p,t)18Ne if the reaction mechanism is more complicated than direct transfer. Using the CHe,n) reaction, Garcia et al in fact observed a weak state in the region near Ex = 4.5 MeV (64). By a process of elimination, this state has been associated with the missing 3 + state. A line-shape analysis yields Ex = 4.561 ± 6 ± 7 MeV, where the first error is statistical and the second accounts for systematic effects. Because the resulting resonance energy is actually Ecm = 639 keV rather than 406 keV, its effect on the 17P(p,'y)ISNe reaction rate is much less pronounced than was previously believed.
+3.3.4 RECOMMENDED REACTION RATE On the basis of an experimentally determined location for the r = 3 + resonance, the reaction rate reported by Garcia et al (64) is clearly superior to the earlier estimate (63) and is about a factor of 10 lower at the temperatures of interest.
+3.4 The 18Ne(a,pllNa Reaction
+Operation of the 1 8Ne(u,p?lNa reaction may provide a link between the HCNO cycles and the rp-process. Unfortunately, little is known about the structure 0[22Mg above the 18Ne+u threshold [Eth = 8.140 MeV (65)]. However, in 22Ne there are 22 known states in the region of excitation between 8.14 and 10.14 MeV (65). As a rule, level densities ;?; 10 per MeV imply that a statistical-model treatment of the cross section is warranted (66, 67). Hence, the 18Ne(u,p)21Na cross section has been obtained by a Hauser-Peshbach calculation (P.-K. Thielemann, private communication) without detailed knowledge of the level structure of 22Mg. However, without this information, it is also difficult to make an a priori estimate for the accuracy of this result.
+3.5 The Structure of19Ne and the 150(a, y;t9Ne, 18F(p,a)150, and 18F(p,y)19Ne Reactions
+A second link between the HCNO cycles and the rp-process is through the 1 50(u,'y)19Ne reaction. Its rate was estimated by assuming dimensionless reduced alpha widths e = 0.02 for all states above the 1 50 + u threshold (18). Radiative widths were adopted from presumed analog
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING 55
+states in 19p. This basic approach was also used by Langanke et al (68). Since the alpha widths determine the resonance strengths for energies below Ecm = 1 MeV, these widths were estimated with somewhat more care by using experimental or theoretical values for e that were not available earlier. However, the rate remained essentially unchanged. One important discovery of this work was that the directcapture process makes an insignificant contribution to the reaction rate. This assertion was confirmed qualitatively in other calculations (60).
+Because the 1 50 + u cross section appears to be dominated by the contributions of isolated resonances, it is possible to determine the cross section experimentally by procedures similar to those used for the 1 3N(p,'y)140 reaction. The experimental situation is further simplified by the fact that the analog states in 19p have been identified (55). Measurements of the 1 5N(u,'y) 19p reaction (55, 69, 70) have been used to determine e for some of these analog pairs. After correcting for the difference in Coulomb barriers between 1 5N and 150, these measurements determine fe" for states Ex "" 4.549 MeV in 1 9Ne. Four states lie below this level and could not be treated in this manner. Of these, the Ex = 4.033-MeV state (Ecm = 504 keV) is potentially the most important owing to its low spin (and hence low-angular-momentum transfer in alpha capture). The alpha width of this state was estimated from 1 5N(6Li,d)19p data (71). Pinally, the alpha decays of many of these states were measured via the 19PCHe,tu)1 50 reaction (7 1). Given C", this measurement was used to deduce r-yo Also, with values for r-y inferred from 19p, the alpha-branching ratios provided an independent check on r{1' An intercomparison of these results provides reasonably accurate resonance strengths for resonances at Ecm = 1 020, 107 1 , and 1 1 83 keV as well as an estimate for the 504-keV resonance.
+A similar approach is planned (M. Wiescher, private communication) in order to examine the competition between the 18p(p,U)150 and 18p(p;y)19Ne reactions. At present, these rates are only estimated (62) based on the locations of known states in 19Ne and possible analogs in 19P. Although the states involved OCCur approximately 3 MeV higher than those taking part in the 1 50 + u reaction, the level density is still low enough so that isolated resonances are expected to be important. However, resonance parameters have only been guessed at because little spectroscopic information exists.
+3 . 5 . 1 RECOMMENDED REACTION RATES It is interesting to note that the experimentally derived (71 ) 1 50(u,'Y)19Ne reaction rate differs from the theoretical estimate (68) by no more than ± 20% at any temperature of interest. However, the calculations do not accurately represent any
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+56 CHAMPAGNE & WIESCHER
+of the individual resonance strengths. For this reason, the experimental rate should be used as the basis for future calculations. Unfortunately, for T9 ::;:; 0.5, (where the 504-keV resonance is important) this rate is uncertain by approximately a factor of 2. A measurement of f",If for this state would be a challenge because it is expected to be quite small (= 10-4) . The effect of this uncertainty on nucleosynthesis calculations depends upon what temperature and density are required for the (a,-y) reaction to compete with the 13 + decay of 150. This in turn is governed by the details of the astrophysical model. An improvement to our understanding of this rate may have to await the development of a radioactive beam. The resonance parameters obtained for the 18F(p ,a) 150 and 18F(p,-y)1 9Ne reactions were based on reasonable assumptions about the structure of 1 9Ne (62). Unfortunately, individual resonances may deviate greatly from systematic behavior and thus the rates of these reactions are highly uncertain. Until new experimental information becomes available, these rates will have to be relied upon.
+3.6 Differences Between Laboratory Rates and Stellar
+Rates
+3 . 6 . 1 CONTRIBUTIONS FROM EXCITED STATES The above discussion implicitly assumed that the reactions of interest involved nuclei in their ground states. However, in an astrophysical environment, these nuclei will be immersed in a hot photon bath and may instead be found in a thermal population of excited states. Because energy thresholds and centrifugal barriers will be altered for reactions on excited states versus those for a target in its ground state, the latter reaction may bear little resemblance to the stellar reaction. Also, if excited states can beta decay, then beta half-lives will be modified by thermal excitation. Unless the excited state in question is isomeric (and therefore might be made into a beam) , a direct measurement of the reaction cross section is virtually impossible. Reliable estimates can be made only when an analog reaction can be studied.
+In equilibrium, the ratio of nuclei in an excited state to those in the ground state is given by the B oltzmann formula (28)
+Nx 2Jx + 1 exp( - ExlkT), 7 . No = 2Jo + 1
+where the subscript "x" refers to the excited state and 0 refers to the ground state. For the HCNO cycles, all of the targets of interest will be primarily in their ground states throughout the relevant temperature
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING 57
+range. Only 17,18p will have any noticeable excited-state population (0.7% and 0.2% in the first-excited state at T9 = 1 .5, respectively). Of course, the possibility exists that a reaction occurring on an excited target might be much stronger than the ground-state reaction and this could offset the difference in population to some degree. However, based upon the available spectroscopic information, there is no reason to expect this situation for 17,18p+p.
+Excited states are a serious consideration for rates in the rp-process (where level densities are generally greater), Por example, 19Ne will be in its first-excited state 1 -47% of the time for T9 = 0.5- 1 .5. As improved experimental information becomes available, these effects will need to be examined more closely.
+3.6 . 2 STELLAR BETA-DECAY RATES Decay via positron emission is largely unaffected by the astrophysical environments considered here. In contrast, continuum electron capture will be enhanced with increasing density and temperature. Por allowed and first-forbidden decays, the ratio of stellar to terrestrial half lives is approximately proportional to TI12/p (72). Of the nuclei in the HCNO cycles, only 18p has a branching ratio for electron capture [3. 1% (55)] large enough for its stellar half life to depart significantly from its measured value. This difference will become important as densities approach 105 g cm - 3 (for T9 = l ) . The actual magnitude o f this effect will also depend upon the mean molecular weight of the gas and must be examined within the framework of a model calculation. Again, this effect will become more important with increasing mass (i.e. in the rp-process) as electron capture becomes progressively more favored relative to positron decay.
+4. THE rp-PROCESS
+The nuclear reactions in the CNO cycles have been determined experimentally over a wide energy range and the HCNO reactions have, at least, been constrained by experiment. In contrast, many of the proton-capture rates along the suggested rp-process path (including those involving stable nuclei) are quite uncertain. Also, unlike the HCNO cycles, the path of the rp-process is a very complicated function of the physical conditions governing the explosion. By necessity, network calculations of the rp-process have employed reaction rates that may be highly suspect. In this section, we review our present understanding of the few reactions that have been studied in any detail.
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+58 CHAMPAGNE & WIESCHER
+4. 1 Reaction Rates in General
+Proton capture reactions on the A > 20 nuclides that lie near the line of stability typically have fairly high Q-values , (on the order of 5 MeV or more). Consequently, level densities at these excitation energies in the compound nuclei are probably high enough tojustify reaction rates based on Hauser-Feshbach calculations. For proton capture reactions on stable nuclei, excellent agreement has been obtained between the calculated and the experimentally derived rates (31). However, this approach is not necessarily valid for capture reactions on unstable nuclei (18). For reactions occurring near the proton drip line or near closed shells, compound nuclei are formed at very low excitation energies and therefore at low level densities. In these instances, the reaction rates are determined by the contributions of individual resonances as well as by nonresonant direct capture. As was the case for reactions in the HCNO cycles, these rates need to be derived from a direct measurement of the reaction or calculated from the spectroscopic properties of the compound nucleus. Direct measurements of nuclear reaction cross sections on unstable nuclei require the use of either a radioactive target or a radioactive beam. While a few attempts have been made to measure capture reactions on long-lived nuclei by the radioactive-target technique, the radioactive beam technique is, for the most part, still being developed (74-77). Although the first radioactive-beam measurements on light nuclei have succeeded, the cross sections for capture reactions on the heavy nuclei along the rp-process path are significantly smaller, owing to their larger Coulomb barriers. Therefore, much of what we know about the rp-process is the result of indirect nuclear spectroscopy.
+4.2 The 19Ne(p,y)20Na Reaction
+Because the 19Ne(p;y)20Na reaction is a trigger for the rp-process, a great deal of effort has been spent on determining its rate. Until recently, little was known about the level structure of 2°Na above the 19Ne + p threshold and this made reliable estimates of the (p;y) cross section difficult to obtain. Wallace & Woosley (18) used the known spectrum of states in 2°F (without any level shifts) to construct an analogous level scheme for 2°Na. An improved level scheme was proposed (68) from calculations of Thomas-Ehrman shifts. Resonance properties were obtained from the respective analog states. This calculation assumed single-particle wavefunctions appropriate for a square well, but constrained the magnitudes of the shifts on the basis of single-particle reduced widths derived from a diffuse potential. Thus
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING 59
+there is a systematic uncertainty in their final resonance energies and proton widths.
+Initial measurements of the excitation energies of proton-unbound states in 2°Na were carried out by Lamm et al (78) using the 2°NeCHe,t)2°Na reaction. Higher-resolution studies of this reaction and of the 2°Ne(p,n)20Na reaction followed (79), and the results were generally in agreement with the earlier work. However, some of the states seen in the first measurement were not observed in the second and have since been attributed to contaminant reactions (80). In general, there was little correspondence between the measured excitation energies and the predictions ( 1 8 , 68). With this new information, a revised reaction rate was presented (79) that was approximately 100 times that of the theoretical estimate (68) at T9 = 0.5. This dramatic difference was a result of the different resonance energies used in each case. The major contributor to this new rate was a resonance at 445 keY (Ex = 2.644 MeV). Its spin and parity, 1'" = 1 + was deduced from CHe,t) and (p,n) angular distributions. But resonance parameters in (79) were taken directly from the work of Langanke et al (68), without correcting for the difference in resonance energies between the two studies . Consequently, the proton widths, which are extremely energy dependent, are in error in this later study.
+The results of these measurements have been confirmed in three other studies (80-82). An implanted 20Ne target was used by Smith et al (82) to obtain better resolution and yields the best energies for the various possible resonances: Ecm = 447 ± 5, 658 ± 5, 787 ± 5, and 857 ± 5 keY. Again, the lowest-energy resonance was found to be the most important contributor to the reaction rate. It has been assumed (80, 82) that this state is the 1'" = 1 + analog to the 3 . 173-MeV particlehole state in 20p and its resonance parameters were obtained from the (d,p) spectroscopic factor and calculated El strength of this latter state. For this and the other resonances , the resonance strength was determined primarily by the radiative width. However, it was pointed out in that the systematics of particle-hole states in this mass region do not permit simple estimates of El decay strengths, even for cases where the analog strength is known (82). As a result, the reaction rate may be uncertain by several orders of magnitude.
+More recently, the 1'" = 1 + assignment for the 447-keV resonance has been called into question. Using a three-cluster microscopic model, Descouvemont & Baye (83) predict r = 1 - for the 3 . 173-MeV state in 2°F and its analog in 2°Na (still taken to be the 447-keV resonance). B . A. Brown et al (private communication) argue that, on the basis of available spectroscopic information and shell-model calculations, r
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+60 CHAMPAGNE & WIESCHER
+= 0 - is favored. If this assertion is correct, then the reaction rate will increase by at least a factor of 10 over what has been accepted (80 , 82) because of an enhanced M l decay strength versus a hindered E l strength for r = 1 + .
+It is clear that the rate of the 19Ne(p,')')20Na reaction cannot be estimated with any degree of confidence until r for the 447-keV resonance has been established. This state is not observed to be populated in the beta decay of 2°Mg (84) nor is its presumed analog populated in the decay of 2°0 (85). While these results do not allow a definitive r assignment, they would naturally follow from r = 0 - or 1 - . With the recent development of an accelerated 19Ne beam (86), a direct measurement of the (p;y) cross section may be possible in the near future. Resonances have been observed at Ecm = 839 and 904 keY in the I HC9Ne,p) 19Ne reaction. The lowest resonance might correspond to that inferred from eHe ,t) studies at Ecm = 857 ± 5 keY (82). However, the upper state is only seen in one of the indirect measurements (80) . More work will be required before these direct measurements can be pushed down to lower energies. It should also be remembered that the correct astrophysical reaction rate must also include contributions from excited states of 19Ne as well as that from the ground state.
+4.3 The Early rp-Pro.cess: 2oNa(p,yf1Mg, 22Na(p, yf3Mg, and 26AI(p, y)27Si
+4. 3 . 1 THE 2°Na(p,')')2 1Mg REACTION Following the sequence 150(a,')')19Ne(p,')')20Na, which links the HCNO cycles with the rp-process , the 2°Na(p,')')2I Mg reaction is expected to continue the reaction flow to higher masses. The level structure of 21Mg has been investigated (87) via the 24MgeHe,6He)2IMg reaction. The level shifts in the 21F_21 Mg analog pair are larger than what had been assumed in earlier calculations of the rp-process ( 1 8 , 1 9) . Because the states that could play a role in the (p,,),) reaction are now shifted to lower energies than before, the reaction rate may be two orders of magnitude smaller than had been anticipated.
+4. 3 .2 THE 22Na(p,,),)23Mg AND 26AI(p ,'y)27Si REACTIONS The rates of the 22Na(p,,),)Z3Mg and 26AI(p,,),)27Si reactions are of particular interest because they regulate the amount of 22Na and 26Al produced by an explosion. Both of these isotopes are long-lived (TII2 = 2 .61 yr and 7.2 x 1 05 yr, respectively) and thus may be observable as gamma-ray sources in the interstellar medium by satellite-based gamma-ray detectors such as the Compton Observatory or the Nuclear Astrophysics Explorer. Several observations of 26Al have already been reported (88-
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING 6 1
+91) and further measurements would provide tight constraints o n calculations of explosive nucleosynthesis, provided that the net production rates are calculable. These reactions are two cases in which the radioactive-target technique has been used successfully.
+Measurements of the 24MgeHe,u)23Mg (92) and 24Mg(p,d?3Mg (93) reactions have yielded accurate excitation energies and J'IT values (94) for states in the vicinity of the 22Na + p threshold[Q = 7.554 MeV (65)] . The high density of levels observed implied that the reaction rate could be calculated by using a statistical model. An initial attempt to measure the 22Na(p,'y)23Mg directly (95) used an enriched, evaporated 22Na target. However, no resonances were observed because of substantial target impurities and high background radiation from target activity. A second attempt (96) was more successful: With an implanted 22Na target, the 22Na(p;y)23Mg reaction was investigated in the energy range 0 . 1 7 to 1 .29 MeV, using high efficiency NaI and D20 detectors (97). Several resonances were observed at energies above 0.29 MeV and the resulting resonance energies are in excellent agreement with values derived from the transfer studies. From these results, the reaction rate could be calculated accurately for the temperature range 0.3 ,,;; T9 ,,;; 1 . 5 . As expected from the level density, this rate is well reproduced by a Hauser-Feshbach calculation (3 1) .
+The 26AI(p;y)27Si reaction was first measured directly by Buchmann et al (98). In this work, seven isolated resonances were discovered at energies 276 ,,;; Ecm ,,;; 893 keV. Seven additional resonances were discovered over a somewhat larger energy range in work by Vogelaar (99). From these measurements, the (p;y) reaction rate is well understood for temperatures T9 !2! 0 . 15 . A number of additional states have been identified in spectroscopic studies ( 1 00- 102) and these may have a large effect on the reaction rate at temperatures below T9 = 0 . 1 5 . A calculation of the low-temperature rate, based on this information and on shell-model calculations is in progress (A. E . Champagne, private communication). However, it should be noted that all of this work is relevant only to reactions on 26AI in its ground state. For temperatures T9 !2! 0.4, 26AI will be found in a thermal equilibrium between its ground state and its first-excited state ( 103) and the effects of these thermal excitations must be estimated in the final reaction rate.
+4.4 The rp-Process for A = 30-60
+For temperatures T9 ,,;; 0 . 5 , the reaction flow in the A = 30-50 mass range is expected to proceed via (p;y) reactions on the T = 0 eveneven nuclei 28Si, 32S , 36Ar, and 40Ca. Because these reactions are characterized by low Q-values and low level densities in the compound
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+62 CHAMPAGNE & WIESCHER
+nucleus , they are expected to be dominated by the contributions of
+6 isolated resonances. These reactions have all been measured by bom­
+barding a solid target with a high-intensity proton beam ( 5, 104, 1 05) and the reaction rate has been determined accurately from the measured excitation function.
+In the iron region, the reaction flow is expected to pass through 56Ni. This nucleus is short-lived terrestrially (T1/2 = 6. 1 days), but is essentially stable during the short duration of an explosion. Hence, it may be an important link to masses beyond Fe-Ni. Although a direct measurement of the 56Ni(p,'y)57Cu reaction is not currently feasible, some relevant information has been obtained from nuclear spectroscopy: The reaction Q-value (Q = 740 keV) has been obtained from recent mass measurements of 57CU ( 106- 108). From measurements of the 58NiCLi,8He)57Cu ( 107) and 58NiC4N,15C)57CU ( 108) reactions, two proton-unbound levels are observed at Ex == 1 .04 and 2.52 MeV . Calculations of Thomas-Ehrman shifts for well-known states in the analog nucleus 57Ni indicate that each of these 57CU states is a doublet ( l08). All of these states are expected to be strong single-particle states. Proton widths were calculated from estimates of the single-particle spectroscopic factors for these states and these are found to be the major contributors to the reaction rate. However, this result and others derived from nuclear spectroscopy are uncertain by at least an order of magnitude. This is because the nuclear structure is not known well enough to permit resonance parameters to be calculated with complete confidence. To verify these rates, a direct measurement, using radioactive-beam techniques, is necessary.
+4.5 Impedance Effects
+On the basis of Coulomb barriers, Woosley (73) estimated how far rpnucleosynthesis would proceed in charge and mass as a function of time. However, the reaction flow may be substantially delayed by impedance effects in which material is stored over a period of time within a certain mass range before it can be processed further.
+In principle, four impedance effects may operate within the rp-process: waiting points, photodisintegration, bottlenecks, and reaction cycles. In the mass range A = 20-40 , the nuclear structure systematics underlying these impedance effects; are fairly well understood. However, in the mass range A = 40-70, the lack of experimental information about the nuclei near the proton drip line makes general predictions difficult.
+
+EXPLOSIVE HYDROGEN BURNING
+
+63
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+4.5 . 1 WAITING POINTS Once the reaction flow gets to within one proton of the proton drip line, further proton captures are not possible because the compound nuclei are particle unbound. Therefore these isotopes can only be depleted by 13+ or electron-capture decay. Nucleosynthesis toward heavier masses then has to wait for these decays. These waiting point nuclei can be identified by mapping the proton drip line and by measuring lifetimes. This information is essential for a
+determination of the endpoint of rp-process nucleosynthesis at high temperatures. For the A = 20-40 isotopes , the proton drip line has been established at 24Si, 29S , 33Ar, 37Ca, 38Ca, [4ITi] , etc (65). At higher masses and particularly at 43V , 47Mn, 50,51 CO, 6OGa, 55As, 59Br, and 73Rb, various atomic-mass predictions (109) disagree as to whether some nuclei are proton bound or unbound. A recent systematic study of proton-rich nuclei in the A = 50- 100 mass region indicates that 61Ga, 65As, and 69Br have lifetimes of at least 150 ns ( 1 10). Whether or not these nuclei are reached in the rp-process is governed by their binding energies . However, 73Rb was not observed and this implies a waiting point at 72Kr. Because 72Kr has a half-life of 1 7.2 s , an rpprocess of less than 17 s duration will stop at this point.
+
+4.5.2 PHOTODISINTEGRATION Proton capture reactions on even-even, T = 1 nuclei, e2Mg, 26Si, 30S , 34Ar, 42Ti, 46Cr, etc) typically have very small Q-values (Q  0.5 MeV) and are strongly hindered at high temperatures by the inverse photodisintegration of the T = 3/2 compound
+nucleus. Ifthe photodisintegration rate is larger than the proton-capture
+rate , then further reactions are halted pending the 13 decay of the T = 1 nucleus. Typically, the T = 1 and T = 312 nuclei will maintain an equilibrium abundance and therefore a second proton capture may bridge the T = 3/2 nucleus. The latter situation occurs during conditions of high temperature and density. Because of the low proton thresholds in the T = 3/2 compound nuclei, (p,'y) reactions will usually involve isolated resonances, corresponding to the first and second excited states, and by the direct capture to the ground state. However, current experimental knowledge about the levels in T = 3/2 nuclei, including the excitation energies of the low-lying excited states, is very limited.
+As an example, the first excited level in 23AI , which is relevant to the 22Mg(p;y)23Al reaction, was observed via the 24MgCLi,8He)23Al reaction ( 1 1 1) at an excitation energy of 460 ± 60 keV (corresponding to Ecm = 360 ± 60 keV). The spin and parity for this level were adopted from the mirror state in 23Ne, and the single-particle spectroscopic factor and B(E2)-strength for "y decay to the ground state were cal-
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+64 CHAMPAGNE & WIESCHER
+culated in terms of the Brown-Wildenthal sd-model ( 1 12). However, experimental verification of these level parameters would seem to be warranted.
+4. 5.3 BOTTLENECK REACTIONS The reaction Q-values for proton capture on even-odd T = 1 12 nuclei e3Mg, 27Si, 3 1 S , 35Ar, 39Ca, 43Ti, 55Ni) are also usually low (Q :s;: 2.0 MeV) and again the reaction rates are determined by the influence of isolated resonances and by nonresonant direct capture. Clearly, the Hauser-Feshbach approach is not justified here. Because they represent the only possible reaction link towards heavier elements for temperatures below T9 = 1, these reactions are referred to as bottlenecks . Their reaction rates therefore limit the overall reaction flow, and small rates may lead to a substantial delay for further reactions.
+The 3 1S(p;y)32CI reaction (Q = 1 .574 MeV) is an important branch out of the SiP-cycle to heavier nuclei. Three states have been located in the energy region between threshold and Ecm = 1 MeV via 32SeHe,t)32CI studies ( 1 1 3 , 1 14). The excitation energies from these two measurements disagree by about 20 keV. However, the latter results are in excellent agreement with the energies obtained from a measurement of the beta-delayed ,,! decay of 32Ar. Resonance parameters were obtained from the properties of the well-known analog states in 32p (65). The reaction rate for temperatures characteristic of explosive hydrogen burning appears to be entirely determined by the contribution of the d-wave resonance at 568 keV (Ex = 2 . 1 42 MeV, r = 3 + ). At these temperatures and for densities of p :s;: 106 g cm - \ the 13 decay of 3 1 S is significantly faster than the proton capture reaction. Therefore, this reaction is a bottleneck in the route to higher masses. Again, it must be stressed that a measurement of the level parameters or a direct study of the resonance strength is highly desirable.
+4 . 5 . 4 REACTION CYCLES For temperatures T9 :s;: 0.4, unstable evenodd T = 112 nuclei such as 23Mg, 27Si, 3 1 S , 35Ar, 39Ca, and 43Ti will most likely 13 decay to the odd-even T = 1/2 nuclei 23Na, 27AI, 31p, 35CI, 39K , and 43SC, respectively, rather than undergo further reactions. For proton capture on these decay products, both (p,,,!) and (p,a) reaction channels are open. The (p,,,!) branch will continue processing toward higher masses, whereas the competing (p,a) reaction will complete a cyclic reaction sequence, e.g. NeNa, MgAI, SiP, SCI, ArK, and CaSc cycles . Depending on the reaction branching, b = (p ,a>/(p ,,,!>, the reaction flow is hindered by the storage of material in the cycle over b cycle-times T and the cycle acts as a flow impedance with a
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING 65
+temperature-dependent time constant b·T. To study the time scales in explosive stellar burning processes it is therefore important to determine the cycle times (which at low temperatures are determined by the proton capture rates and at high temperatures by the f3 + decay rates) and to study the various (p ,ex)-(p,y) reaction branching b .
+I n all cases, the proton capture populates a T = 0 compound nucleus
+at fairly high excitation energies (Ex = 8- 1 2 MeV). Because of the high
+level density in this region of excitation, and because all populated resonances can decay into the f-y channel, a Hauser-Feshbach approach should be applicable for the (p,y) reaction rate . In contrast, the competing (p,ex) reaction channel is open only for natural parity, T = o levels. The density of these levels may not be high enough to allow a reliable calculation of the reaction rate by the Hauser-Feshbach approximation. This restriction requires that we investigate the T = 0 nuclei in order to determine the level density of natural parity states , and the energies and resonance strengths i n the (p ,ex) reaction channel.
+Measurements of reaction branching for the NeNa, MgAI , and SiP cycles have recently been reported ( 1 15- 1 19): Competition between the 23Na(p,,),)24Mg and 23Na(p ,ex)20Ne reactions was examined by populating 23Na + p resonances directly and measuring both reaction channels simultaneously ( 1 1 5, 1 16). The resulting reaction-rate ratio indicates that for T9 ;3 0 . 2 , a large fraction of the NeNa material is recycled via the 23Na(p,ex)20Ne reaction.
+A similar measurement has been carried out for the MgAI cycle
+where the 27AI(p,,),)28Si reaction competes with the 27Al(p,ex?4Mg re­
+action ( 1 1 7). A careful search for low-energy resonances in the (p,ex) channel produced restrictive upper limits on the strengths of several resonances that are known to be strong (p,,),) resonances. These results were confirmed by a fundamentally different technique in which the 27AteHe,d)28Si reaction was used to populate the states of interest and decay protons and alphas were detected in coincidence with deuterons ( 1 1 8) . In contrast to the NeNa cycle, these results indicate that the MgAI cycle actually cycles only 0 . 1-1% of the time for T9 = 0.2 and about 10% of the time at higher temperatures . Thus , most of the material in the MgAI cycle is processed to higher masses.
+The closure of the SiP cycle was investigated by measuring the 3 I p(p,,),)/(p,ex) branching ratio ( 1 19) in a manner similar to the previous measurements ( 1 1 5- 1 17). While several resonances have been observed in the 3 I P(p ,,),)32S reaction at energies above 250 keY, only a single strong resonance was identified (at 383 keY) in the 3IP(p,exf8Si reaction. The reaction rates for both reaction channels can be calculated reliably for T9 ;3 0 . 4. At lower temperatures , some uncertainty
+
+66 CHAMPAGNE & WIESCHER
+
+results from the unknown spin of the Ex = 9.060-MeV (r = 0 - -2 - ) state observed i n transfer reaction studies . For natural parity ( 1 - ) , the
+31 P(p,a) channel is expected to dominate ; for unnatural parity (0 - , 2 - )
+the a channel is closed and only in 3 I p(p;y) channel i s a strong resonance expected.
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+5. NETWORK CALCULATIONS
+
+Nucleosynthesis in the rp-process can be described via a large-scale
+
+network calculation ( 1 8 , 19, 3 1), in which the net reaction flow Fij between two nuclei, i and j, is defined by
+
+J Fij = [ Y(i  j) - Y(j  i)] dt,
+
+8.
+
+where hi  J) is the change in the isotopic abundance Yi ( Y = X/A ,
+i . e . mass fraction divided by atomic number) with time, induced by all
+
+reactions converting nucleus i to j. The total time evolution of the
+
+isotopic abundances is calculated from all depleting and producing re­
+action rates Ai as a function of temperature and density
+
+Y; =  Aj l} +  Aj,d j Yk·
+
+9.
+
+j
+
+j,k
+
+The first term in the equation includes 13 + decays and photodisintegation of all nuclei j to i, while the second term describes two-particle reaction processes between nuclei j and k leading to i.
+Recently, reaction network calculations have been performed to investigate the reaction flow in the rp-process up to the mass range A = 80 for various conditions of temperature and density ( 1 14, 1 20). In these calculations, the reaction network used by Wallace & Woosley ( 1 8) for reaction flow up to the mass range A = 40 has been updated and extended. The new network contains 2 1 6 stable and unstable nuclei
+and 946 nuclear interactions-including 13 + electron capture weak interaction processes, as well as (p,-y), (p,a) , (a ,-v) , and (a,p) reactions and the various inverse reactions.
+The reaction flow of the rp-process will be discussed in the following for three temperature , density and time-scale conditions: T9 = 0 . 3 , p
+= 1 03 g cm - 3 , calculated over a period of t = 1 0 s; T9 = 0.4, p = 104 g cm - 3 , calculated over a period of t = 1 000 s; and T9 = 1 .5 , P = 1 06
+g cm - 3, calculated over a period of t = 1 0 s. These parameters represent the peak conditions of explosive hydrogen burning in the supernova shock wave, in the thermal runaway in novae and in the thermal runaway in x-ray bursts , respectively. All calculations have been performed for constant temperature and density conditions. For the
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+EXPLOSIVE HYDROGEN BURNING 67
+initial elemental-abundance distribution , solar isotopic abundances
+have been used ( 1 2 1 ) .
+5. 1 Low Temperatures and Densities
+Figure 4 shows the reaction flow pattern in the mass range A = 20-
+60, calculated over a period of t = 10 s for temperature and density conditions of T9 = 0. 3 and p = 103 g cm - 3 . The connecting lines
+indicate the time integrated reaction flux Fij · Clearly indicated is the
+reaction flux in the HCNO cycles that leads to an enhancement in the abundances of the waiting-point nuclei 14, 150 and 18Ne by two proton captures on the initial isotopes 1 2, \3C and 160, However, there is no connection between the HCNO cycles and the NeNa region , This in­
+dicates that an rp-process will occur only if there is preexisting A  20 material. In the NeNa mass region, the flow pattern indicates the
+hot NeNa cycle
+2°Ne(p,y)21Na(p,'Yf2Mg(J3 + vf2Na(p ,'Y)23Mg(J3 + vf3Na(p,u)20Ne.
+10.
+
+T9 = 0 . 3 P = 1 03 g /c m3
+S I-l-+Rdtk'
+
+36
+34 32 30
+24 26 28 22 18 20
+
+16 12 14 10
+
+)
+Figure 4 The rp-process reaction path, calculated for T9 = 0.3 and p = 103 g cm - 3. Stable nuclei are shown as shaded squares. The solid line indicates the main reaction flow, integrated over a period of 10 s. The dashed line indicates additional processing after a period of 100 s.
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+68 CHAMPAGNE & WIESCHER
+
+The flow towards heavier masses passes through the two bottleneck reactions 23Mg(p ;y)24AI and 24Mg(p;y?5AI. Because of the large time constant for breakout from the NeNa cycle, the bulk of the material will stay confined in the NeNa region over the time period of the cal­
+culation. A continuous reaction sequence
+
+24Al(p ;y?5Si(/3 + V?5Al(p;y)26Si(/3 + V)26Al(p ;y)27Si(p ;y?8p(/3 + v)28Si
+
+11.
+
+leads into the Si,P,S region. Here the flow pattern is characterized by the hot SiP cycle
+
+28Si(p;y)29P(p;y)30S(/3 + v)30p(p ;y)3 1 S(/3 + v)3 1p(p,u)28Si.
+
+12.
+
+A significant percentage of this material is processed toward higher masses via the reaction sequence 3 I P(p ;y)32S(p;y)33CI . Only a weak flux characterizes further reactions up to the endpoint, 40Ca.
+Figure 5 shows the abundances of various isotopes along the process path as a function of time. The initial 2°Ne is processed mainly into 22Mg, where it remains confined because of its long half-life (T1I2 = 3 . 86 s) . Preexisting 24Mg and 28Si are processed into 26Si (T1/2 = 2.23
+s) and 30S (T1/2 = 1 . 1 8 s). The decay of these isotopes leads to an
+
+I-
+10- 2 
+I-
+
+-- - - oN e 22
+- - - - - - Mg 32
+.-.-. 5 __40C a
+
+Tg = 0 . 3
+
+_
+
+d e n sity = 1 03 g /c m _ 3
+
+
+
+I O ' ° L-____________-L____-L____
+
+-3
+
+-2
+
+-1
+
+°
+
+10
+
+10
+
+10
+
+10
+
+time ( sec )
+
+Figure 5 The time evolution of 2°Ne, 22Mg, 32S, and 40Ca for T9 = 0.3 and p = 103 g
+
+cm - 3. Solar abundances ( 1 2 1 ) have been used for initial values.
+
+EXPLOSIVE HYDROGEN BURNING 69
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+enrichment of 3 1 S (T1I2 = 2 . 57 s). As the reaction-flow calculations show, 3 1 S primarily decays to 31p, which is recycled by a (p,a) reaction to 28Si where it essentially remains distributed in the SiP region e 1 S) . The time constant for the reaction cycle (which impedes further processing) is determined by the lifetime of 3 1 S and the 3 1P(p ;y)/(p,a) reaction rate ratio, "TSiP = "Te I S)(p,y)/(p ,a). Because the production rate for 32S via the 3 1P(p,y) reaction is approximately three orders of magnitude larger at these temperatures than the 32S depleting reaction 32S(p;y)33Cl, processing with each cycle by the 3 1P(p;y)32S branch leads to a final enhancement of 32S. The nucleus 32S, therefore is the endpoint of nucleosynthesis for initial material in the mass range A = 20-32 after a burning time of 10 s. For a longer burning period , an endpoint
+is reached at 40Ca. It should be pointed out that this result differs from previous network calculations based on the old 32S(p,y)33CI rate by Wallace & Woosley ( 1 8) , which was predicted to be two orders of magnitude larger than the rate recently measured by Iliadis et al ( 104) .
+
+5 . 2 Intermediate Temperatures and Densities
+For typical novae, peak temperatures will be near T9 = 0.2 and hydrogen burning will be dominated by the primary HCNO cycle. However, for energetic novae (T9 = 0.4), rp-process nucleosynthesis will also be important. Network flow calculations , appropriate for extreme nova peak conditions , T9 = 0.4, p = 1 X 104 g cm - 3 , are shown in Figure 6. These calculations have been performed for a burning period of I:!.t = 100 s. The flow pattern indicates a considerable flux of material from the CNO region towards the mass region A "'" 20 via the reaction sequence
+
+13.
+
+A t the "waiting point" 22Mg, the flow branches into two sequences
+bypassing the NeNa and the MgAI cycles . The first is initiated by the 22Mg(p,y)23Al reaction,
+
+22Mg(p,'Y)23AI(p,'Y)24Si(13 + ,v)24AI(p,'Y?5Si(13 + ,V)25AI(p,'Y)-
+
+26Si(l3 + ,v?6Al(p,'Y?7Si,
+
+14.
+
+and the second follows the 13 decay of 22Mg, 15.
+
+A further series o freactions runs close t o the proton drip line, feeding the SiP mass range by 27Si(p,'Y)28p(p,'Y)29S(I3 + v?9P(p,'Y)30S. The mass region A "'" 40 is characterized by a sequence of three reaction cycles,
+
+70 CHAMPAGNE & WIESCHER
+
+T9 = 0.4
+
+4
+
+3
+
+P = 1 0 g /c m
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+36
+34 32 30
+24 26 28 22 18 20
+
+16
+
+12 14
+
+z
+
+10
+
+Figure 6 Same as Figure 4 but for T9 = 0.4 and p = 104 g cm- 3·
+the SiP, SCI, and the ArK cycles, which branch into each other via the bottleneck reactions 3 1 S(p;y)32CI, 35Ar(p;y)36K. Progress towards
+A > 40 is channeled via two weak proton-capture reactions, 39Ca(p;y)40Sc and 40Ca(p,'y)41 Sc ( 1 22) , into the CaSc cycle. This stage of nucleosynthesis is reached after approximately 20 s of burning. In the A = 50 region, the reaction flow leaks out of the CaSc cycle via
+43Ti(p ,),)44Y(13 + V)44Ti(p;y)45y and 43Sc(p ,)')44Ti(p,)')45y . Further reactions lead to an endpoint at 52Fe .
+Figure 7 shows the corresponding time evolution of isotopic abun­
+dances along the process path. At this temperature , the original 2°Ne is depleted within the first second of the process and converted into 22Mg(3 . 86 s) . Because 22Mg can be destroyed by a (p,'y) reaction, its effective half-life is shorter, TI/2eff = 2.4 s, and within that time period, material is converted into the waiting-point nuclei 34Ar and 40Ca. The abundances of these nuclei reach an equilibrium value between pro­
+duction and decay after 10 s. However, since the production flow will
+cease, the net abundances drop. Also during this period, 40Ca will be significantly enhanced owing to its very weak depletion reaction
+
+EXPLOSIVE HYDROGEN BURNING 7 1
+
+T9= 0.4
+
+4
+
+3
+
+densl.ty = 1 0 g /c m
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+time ( sec )
+Figure 7 The time evolution of 2oNe, 22Mg, 34Ar, 40Ca, and 52Pe for T9 = 0.4 and p = 1 04 g cm -3 .
+40Ca(p,'y)4ISC. Further processing will completely convert 40Ca into 52Fe. Because of its long j3-decay half-life (T1/2 = 8.28 h) , and its weak depletion rate via the 52Fe(p,'y)53Co reaction, 52Fe is the endpoint of
+the rp-process under these conditions.
+5.3 High Temperatures and Densities
+The third calculation deals with nucleosynthesis during an x-ray burst where the temperature and density are chosen as T9 = 1 .5 and p = 1(1' g cm - 3 . These conditions are expected to last for 10 s or less ( 1 1). The reaction flux (Figure 8) shows a continuous flow from 4He to 73Kr, which is the endpoint of the reaction network. At the start of the outburst, 12C is produced by the triple reaction and then quickly converted
+to 140. The light waiting-point nuclei, 140, 18Ne, 22Mg, 28Si, 30S, and
+34Ar are bridged by a sequence of (n,p) reactions [known as the npprocess (73)J . Beyond A = 38 , the rp-process path is characterized by proton-capture reactions and p decays along the proton drip line, up to the Ni region. Because of an increasing Coulomb barrier, further (n,p) reactions will be too slow to compete with 13 decay. The nucleus 54Ni is predicted to be particle unbound ( 1 23), consequently the re-
+
+72 CHAMPAGNE & WIESCHER
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+,"- a1'11"1"  z He H o
+
+Tg = 1 . 5
+
+p = 1 06 g / c m3
+
+Ge
+
+(0
+
+Zn
+
+"-
+
+u
+
+N i I " " "  1- 1
+
+Co
+
+Fe L  1
+
+
+
+Mn 1" 1"
+
+C r "-
+
+I
+
+Ti
+
+" I-
+
+%
+
+'C Co
+
+LL
+I   
+
+K I N.P' 
+
+Ar I 1\1 
+
+
+
+CI
+
+I  
+
+5
+
+11" r%
+
+P
+
+J..I I 
+
+5i L
+
+J' 
+
+AI
+
+1%
+
+Mg L -
+
+1%1%
+
+r- r-
+
+rN-o/-jf %
+
+
+
+
+
+F N %
+
+- 24 26 28
+ 22
+
+,-NC 1--
+
+18 20
+'---
+
+B
+Be r-'7
+
+I I 
+
+ 16 12 14
+
+I I U 10
+
+_U 8 4 6
+
+2N )
+
+Figure 8 Same as Figure 4 but for T9 = 1 . 5 and p
+
+Kr
+
+,
+
+lr
+
+5e L 2
+
+AS
+
+ : I I" I"
+
+r- I
+
+
+
+ %
+
+tiZtiZ r% 
+
+ ,, 
+    %
+
+
+36 k- 34 '--- 32 30
+
+= 1 06 g cm - 3 .
+
+  
+
+
+action flow is channeled along the path
+
+53Co(13+ )53Fe(p,-y)54CO(p;y)55Ni(p ,-y)56Cu(13 + )56Ni(p,-y)57CU. 1 6 .
+
+The (p,-y) reactions o n 55,56Ni have low Q-values ( Q = 0.459 and
+0.767 MeV , respectively) and will be hindered by photodisintegration ( 120). Reactions will continue up to 64Ge(63 .7 s), which is essentially stable during the course of the outburst. If 65As is proton unbound,
+then 64Ge will terminate the rp-process during an x-ray burst. However, if 65As is stable against proton decay, then the reaction path will con­
+tinue along
+
+65As(p,-y)66Se(13 + )66As(p,-y)67Se(13 + )67As(p,-y)68Se
+
+17.
+
+and
+
+68Se(p,-y)69Br(p,-yfOKr([3 + fOBr(p;yfl Kr(13 + fI Br(p,-yf2Kr,
+
+18.
+
+1 0° 1 0- 2
+
+(I)
+
+-4
+
+(J 1 0
+
+c:
+
+C
+
+"0
+
+c:
+
+::J:
+
+-6
+
+.0 1 0
+
+C
+
+1 0- 8
+
+EXPLOSIVE HYDROGEN BURNING 73
+T9 = 1 . 5
+d en s i t y = 1 06 g /c m3
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+provided that 69Br is also particle stable . Since recent measurements indicate that 73Rb is particle unbound ( 1 1 0), the rp-process will terminate at 72Kr0 7.2 s).
+Figure 9 shows the resulting isotopic abundances along the process path. After 0.5 s, preexisting CNO and NeNa material is converted into 34Ar. After 1 s, the (ap-process will produce 38Ca. The abundances of 55,56Ni will reach a maximum at 1 .5 s, and after 5 s, the bulk of the original material will reach 64Ge. The abundance of 64Ge will decrease slowly because both destruction processes , 64Ge(p ;y)65As and 64Ge(13 + )64Ga are weak. Ultimately , 64Ge will be converted into 72Kr, which will reach a maximum abundance after 20 s .
+6 . CONCLUDING REMARKS
+Although an impressive amount of effort has been devoted to understanding nucleosynthesis during explosive hydrogen burning, a great deal of work remains to be done. The reactions described in this review are only a few of the reactions of interest. All are uncertain to some degree . Reactions that have not been mentioned may be equally important but have rates that are essentially unknown. Impressive net-
+
+74 CHAMPAGNE & WIESCHER
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+work calculations have been performed, but based on our knowledge of reaction rates , it is fair to ask if we have not built a house of cards. There is no substitute for measured rates and this effort will require the continued development of radioactive beams as well as old-fashioned nuclear spectroscopy. Nuclear spectroscopy will also be important as a source of other necessary nuclear input such as masses, lifetimes, etc. However, in order to push these measurements to the proton drip line, radioactive beams will be required. We look forward to continued progress in this field for some time to come.
+
+ACKNOWLEDGMENTS
+We would like to thank P. D. Parker, J. G6rres, and F.-K. Thielmann for some useful conversations. The authors are supported in part by the United States Department of Energy and in part by the National Science Foundation.
+
+Literature Cited
+I . Gallagher, J. S . , Starrfield, S . , Annu. Rev. Astron. Astrophys. 1 6 : 1 7 1 -2 1 4
+( 1 978) 2. Truran, J. W . , in Essays in Nuclear
+Astrophysics, ed. C. A. Barnes, D. D.
+Clayton, D. N . Schramm. Cambridge
+Univ. Press. 562 pp. (1982), pp. 46793 3. Starrfield, S . , Sparks , W. M . , Truran, J . W . , Astrophys.J. 291 :13646 (1985) 4. Nomoto, K . , Astrophys. J. 277:791805 (1 984) 5 . Paczynski, B . , Science 225: 275-80
+( 1 984) 6. Livio, M . , et al, Astrophys. J.
+356:250-54 (1990) 7. Kovetz, A . , Pria1nik, D . , Astrophys.
+J. 291 :8 1 2-21 ( 1 985) 8. Starrfield, S . , in Advances in Nuclear
+Astrophysics, ed. E. Vangioni-Flam,
+et al. Singapore: Kim Hup Lee ( 1 986), pp. 22 1 -41 9. Prialnik, D . , Astrophys. J. 310:222-
+37 ( 1 986) 10. Shara, M. M . , et ai, Astrophys. J.
+31 1 :1 63-71 (1986) 1 1 . Tamm, R E . , Annu. Rev. Nucl. Part.
+Sci. 35:1-23 (1985) 1 2 . Arnould, M . , et ai, Astrophys. J.
+237:931 -50 (1 980) 1 3 . Hoyle, F . , Fowler, W. A . , in Quasi­
+Stellar Sources and Gravitational Collapse, ed. I. Robinson, A. Schild,
+E. L. Schucking. Univ. Chicago
+Press. 475 pp. (1965), pp. 1 2-27 14. Audouze, J . , Truran , J . W., Zimmer­
+man, B . A . , Astrophys. J. 184:49351 6 ( 1 973)
+
+15. Audouze, J., Lazareff, B . , in Novae
+and Related Stars, ed. M . Friedgung.
+Dordreeht: Reidel. 228 pp. ( 1 977), pp.
+205- 1 5 1 6. Caughlan, G . R . , in CNO Isotopes in
+Astrophysics, ed. J. Audouze. Dordrecht: Reidel (1977), pp. 121 -31 1 7 . Lazareff, B . , et ai, Astrophys. J. 228:875-80 (1979) 1 8 . Wallace, R. K . , Woosley , S. E . , Astrophys. J. Suppl. 45 :389-420 (1981) 19. Wieseher, M . , et aI, Astron. Astro­
+phys. 160: 56-72 ( 1 986) 20. Ferland, G . J . , Shields, G. A . , Astro­
+phys. J. 226:172-85 (1978) 2 1 . Snijders, M. A. J . , et ai, Mon. Not.
+R. Astron. Soc. 2 1 1 :7P-13P (1984)
+22. WiIIiams, R . E . , et ai, Mon. Not. R.
+Astron. Soc. 2 1 2:753-66 ( 1 985) 23. Gehrz, R. D . , et ai, Astrophys. J.
+308:L63-L66 (1986)
+24. Wagoner, R. V . , Fowler, W. A . , Hoyle, F . , Astrophys. J. 148:3-49 ( 1 967)
+25. Wagoner, R. V . , Astrophys. J.
+1 79 : 343-60 (1973) 26. Fowler, W. A . , Caughlan, G. R ,
+Zimmerman, B . A . , Annu. Rev. Astron . Astrophys. 5:525-70 (1967)
+27. Fowler, W. A . , Caughlan, G. R . , Zimmerman, B . A . , Annu. Rev. Asfron. Astrophys. 1 3 :69- 1 1 2 (1975)
+28. Clayton, D. D . , Principles of Stellar Evolution and Nucleosynthesis. Univ. Chicago Press. 6 1 2 pp. ( 1 983),
+pp. 283-361
+29. Rolfs, C. E . , Rodney, W. S . , Caldrons in the Cosmos. Univ. Chicago
+Press. 560 pp. (1988), pp. 1 50-89
+
+EXPLOSIVE HYDROGEN BURNING 75
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+30. Woosley, S. E . , et aI, At. Data Nuc!. Data Tables 22:37 1 -442 ( 1 978)
+3 1 . Cowan, J. J . , Thielemann, F.-K. , Truran, J. W . , Phys. Rep. 208:267394 ( 199 1 )
+32. Ajzenberg-Selove, F . , Nucl. Phys .
+A460: 1 - 148 ( 1 986) 33. Ajzenberg-Selove, F . , Nucl. Phys.
+A523 : 1 - 196 ( 1 99 1 ) 34. Caughlan, G . R . , Fowler, W . A . , At.
+Data Nucl. Data Tables 40:284-334
+( 1 988) 35. Rolfs , c . , Azuma, R. E . , Nucl. Phys .
+A227 :291 -308 ( 1 974)
+36. Kiss, A. Z . , Koltay , E . , SomOIjai , E . ,
+Acta Phys. Hung . 65:277-86 ( 1 989) 37. Poyarkov, V. A . , Sizov, I. V . , Sov.
+J. Nucl. Phys. 45:940-43 ( 1 987) 38. Zyskind, J. L . , Parker, P. D . , Nucl.
+Phys. A320:404- 1 2 ( 1 979) 39. Redder, A . , et ai, Z. Phys. A305:325-
+33 ( 1 982) 40. Wang, T. F . , PhD Thesis, Yale
+Univ . , unpublished ( 1 986) 4 1 . Chupp, T. E . , et ai, Phys. Rev.
+C3 1 : 1023-25 ( 1 985) 42. Mathews, G. J . , Dietrich, F. S . , As­
+trophys. J. 287:969-76 ( 1 984) 43. Langanke, K . , Van Roosmalen, O .
+S . , Fowler, W. A . , Nucl. Phys.
+A435: 657-68 ( 1 985) 44. Funck, C . , Langanke, K . , Nuc!.
+Phys. A464:90- 1 02 ( 1 987) 45. Barker, F., Aust. J. Phys. 38:757
+( 1 985)
+46. Descouvemont, P . , Baye, D . , Nucl. Phys. A500: 1 55-67 ( 1 989)
+47. Fernandez, P. B . , Adelberger, E . G . , Garcia, A . , Phys. Rev. C40: 18871 900 ( 1 989)
+48. Aguer, P., et ai, in Proc. Int. Symp . Heavy-Ion Phys. and Nuc!. Astrophys. Problems, ed. S. Kubono, M .
+Ishihara, T. Nomura. Singapore:
+World Scientific ( 1 989), p. 107
+49. Smith, M. S . , PhD Thesis, Yale
+Univ . , unpublished ( 1 990) 50. Decrock, P . , et ai, Phys. Rev. Lett.
+67:808- 1 1 ( 199 1 )
+5 1 . Decrock, P., e t ai, i n Radioactive Nuclear Beams, 1 99 1 , Proc. 2nd Int Conf. on Radioactive Nuc!ear Beams, ed. Th. Delbar. Bristol/Phi­
+ladlephia/New York: Adam Hilger
+( 1 992), pp. 281 -86
+52. Motobayashi, T . , et ai, Phys. Lett.
+B264: 259-63 ( 1 991 ) 53 . Bauer, G . , Bertulani, C . A . , Rebel,
+H . , Nucl. Phys. A458: 1 88-204 ( 1 986) 54. Kiener, J . , et ai, see Ref. 5 1 , pp. 3 1 1 -
+16 55. Ajzenberg-Selove, F . , Nuc!. Phys.
+A475 : 1 - 198 ( 1 987)
+
+56. Wiescher, M . , et aI, Astrophys. J. 3 1 6: 1 62-71 ( 1 987)
+57. Cunsolo, A . , et ai, Phys. Rev.
+C24:476-87 ( 1 98 1 ) 58. Ellis, P . J . , Engeland, T. , Nucl. Phys.
+A 1 44: 1 6 1 -90 ( 1 972) 59. Funck, c . , Langanke, K . , Nucl.
+Phys. A480: 1 88-204 ( 1 988) 60. Descouvemont, P . , Baye, D . , Nucl.
+Phys. A463 :629-43 ( 1987)
+6 1 . Funck, C . , Grund, B . , Langanke, K . , Z . Phys. A332: 109- 1 0 ( 1 989)
+62. Wiescher, M . , Kettner, K.-U . , Astrophys. J. 263 : 89 1 -901 ( 1 982)
+63. Wiescher, M . , Garres, J . , Thielemann, F.-K . , Astrophys . J. 326: 3849 1 ( 1 988)
+64. Garcia, A . , et ai, Phys. Rev.
+C43:20 1 2 - 1 9 ( 199 1 ) 65. Endt, P . M . , Nucl. Phys. A52 1 : 1 -830
+( 1990) 66. Holmes, J. A . , et aI, At. Data Nucl.
+Data Tables 1 8 : 305-412 ( 1 976)
+67. Mahaux, C . , Weidenmiiller, H. A . , Annu. Rev. Nucl. Part. Sci. 29: 1 -3 1
+( 1 979) 68. Langanke, K . , et ai, Astrophys. J.
+301 : 629-33 ( 1 986)
+69. Rogers, D. W. O . , Aitken, J. H . , Litherland, A . E . , Can. J. Phys. 50:268-77 ( 1 972)
+70. Magnus, P. V . , et ai, Nuc!. Phys.
+A470:206- 1 2 ( 1 987) 7 1 . Magnus, P. V . , et ai, Nucl. Phys.
+A506:332-45 ( 1990) 72. Bahcall, J. N . , Astrophys. J.
+1 39 : 3 1 8-38 ( 1 964)
+73 . Woosley, S. E . , see Ref. 75 , pp. 4-
+27 74. Boyd, R. N . , ed., Proc. Workshop on
+Radioactive Ion Beams and Small Cross Sections ( 1 98 1 ) 75. Buchmann, L . , d'Auria, J . , eds . , Proc. Accelerated Radioactive Beams Workshop , TRI-85- 1 , 403 pp.
+( 1 985) 76. Myers, W. D . , Nitschke, J. M . , Nor­
+man, E. B . , eds . , Radioactive Nuclear Beams ( 1 990)
+77. Duggan, J. L . , Morgan, I. L . , eds . , Proc. 1 1 th Int. Conf. Application of Accelerators in Research and Industry, 1990, Nucl. Instrum. Methods
+B56: 1 -67 1 ( \ 99 1 ) 78. Lamm, L. 0., e t ai, Z . Phys.
+A327:239-40 ( 1 987) 79. Kubono, S . , et aI, Astrophys. J.
+344:460-63 ( 1 990) 80. Lamm, L. 0 . , et aI, Nucl. Phys.
+A 5 1 0:503 - 1 7 ( 1990) 8 1 . Clarke, N. M . , et ai, J. Phys.
+G I6: 1 547-52 ( 1990) 82. Smith, M. S . , et ai, Nucl. Phys. A536:
+333-48 ( 1 992)
+
+76 CHAMPAGNE & WIESCHER
+
+Annu. Rev. Nucl. Part. Sci. 1992.42:39-76. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 05/16/21. For personal use only.
+
+83. 84. 85.
+86. 87. 88. 89. 90. 91.
+92.
+93. 94. 95. 96. 97. 98. 99. 100. 101 . 102.
+
+Descouvemont, P., Baye, D . , Nucl. Phys. A51 7 : 1 43-58 ( 1990) Kubono, S. et ai, see Ref. 5 1 , pp. 3 1 7-22
+Alburger, D. E . , Wang, G . , Warbur­
+ton, E. K . , Phys. Rev. C35 : 1479-84 ( 1 987) Galster, W. , et ai, see Ref. 5 1 , pp. 375-90 Kubono, S . , et ai, Z. Phys. A334: 5 1 1 - 1 2 ( 1989) Mahoney, W. A . , et ai, Astrophys. 1. 286:578 ( 1984) Share, G . R . , et ai, Astrophys. 1. 292: L61-L65 (1985) MacCallum, C. J . , et ai, Astrophys. 1. 3 17:877-80 ( 1 987)
+Von Ballmoos, P . , Diehl, R . , SchOn­
+felder, V . , Astrophys. 1. 3 1 8:654-63 ( 1 987) Schmalbrock, P . , et al, in Capture Gamma Ray Spectroscopy, AlP Proc. 125, ed. S. Raman . New York: Am. Inst. Phys. ( 1 985), pp. 785-88 Miller D. W., et ai, Phys. Rev. C20: 2008-24 ( 1979) Wiese her, M . , Langanke, K . , Z. Phys. A325:309- 1 5 ( 1986) Gorres, J . , et ai, Phys. Rev. C39:813 ( 1989) Seuthe, S . , et ai, Nucl. Phys. A514: 471 -502 ( 1990) Seuthe , S . , et ai, Nucl. Instrum. Methods A272: 8 14-24 (1988) Buchmann, L . , et ai, Nucl. Phys. A415:93-1 1 3 ( 1984)
+Vogelaar, R. B . , PhD Thesis, Calif.
+Inst. Techno!. , unpublished ( 1 989) Sehmalbroek, P . , et ai, Nucl. Phys. A457: 1 82-88 ( 1986) Lickert, M . , et ai, Z. Phys. A33 1 : 409-32 (1988) Wang, T. F . , et ai, Nucl. Phys. A499: 546-64 (1989)
+
+103. 104. 105. 106. 107. 108. 109. 1 10. 111. 1 12.
+1 13. 1 I4. 1 I5.
+1 16. 1 17. 1 18. 1 19. 1 20. 121. 122. 1 23 .
+
+Ward, R. A . , Fowler, W. A . , Astrophys. 1. 238:266-86 (1980) Iliadis, C . , et ai, Nucl. Phys. A539: 97- 1 1 1 (1992) Iliadis, C . , et ai, Phys. Rev. C, ( 1 992), in press Shinozuka, T . , et ai, Phys . Rev. C30: 2 1 1 1- 1 4 ( 1984) Sherrill , B . , et ai, Phys. Rev. C3 1 : 875-79 ( 1985) Stiliaris, E . , et al, Z. Phys. A326: 1 3946 (1987) Raustein, P. E . , At. Data Nucl. Data Tables 39: 1 85-393 ( 1 988) Mohar, M. F . , et ai, Phys. Rev. Lett. 66: 1 57 1 -74 ( 1 99 1 ) Wiescher, M . , et ai, Nucl. Phys. A484:90-97 ( 1 988) Brown, B. A . , Wildenthal, B. R . , At. Data Nucl. Data Tables 33: 347-404 ( 1 985) Jeanperrin, c . , et ai, Nucl. Phys. A503:77-89 ( 1989)
+Van Wormer, L . , PhD Thesis, Univ.
+Notre Dame, unpublished ( 1 99 1 ) Zyskind, J . , Rios, M . , Rolfs , C . , Astrophys. 1. 243: L53-L56; 245:L57 ( 1981 ) Gorres, J . , Wiescher, M . , Rolfs, C . , Astrophys. 1 . 343:365-68 ( 1989) Timmermann, R . , et ai, Nucl. Phys. A477: 105- 19 ( 1988) Champagne, A. E . , et ai, Nucl. Phys. A487:433-41 (1988) Iliadis, C . , et ai, Nucl. Phys. A533: 153-69 ( 1 99 1 ) Wiescher, M . , e t ai, see Ref. 5 1 , pp. 353-58 Anders, E . , Ebihara, M . , Geochim. Cosmochim. Acta 46:2363 ( 1982) Wiescher, M . , Gorres , J . , Astrophys. 1. 346: 104 1 -44 ( 1989) Masson, P. J . , Janecke, J . , A t . Data Nucl. Data Tables 39:273-80 ( 1 988)
+
+

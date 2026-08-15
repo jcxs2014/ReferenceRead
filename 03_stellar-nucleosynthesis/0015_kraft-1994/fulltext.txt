@@ -1,0 +1,374 @@
+Publications of the Astronomical Society of the Pacific
+
+Vol. 106
+Publications of the Astronomical Society of the Pacific 106: 553-565, 1994 June
+
+Invited
+
+Review
+
+1994 June Paper
+
+No. 700
+
+Abundance Differences Among Globular-Cluster Giants:
+Primordial Versus Evolutionary Scenarios1
+Robert P. Kraft
+UCO/Lick Observatory, Board of Studies in Astronomy and Astrophysics, University of California, Santa Cruz, California 95064 Electronic mail: kraft@helios.ucsc.edu
+Received 1994 January 28; accepted 1994 April 5
+ABSTRACT. Contrary to historical expectation, stars within a given globular cluster often exhibit wide variations in the abundance of C, N, and O as well as certain light metals, particularly Na and Al. Owing to flux limitations, studies have been confined to evolved stars, especially giants, but in few instances variations have been detected among main-sequence stars. Variations in the Fe-peak elements exceeding --0.1 dex are firmly established in the case of omega Centauri, the most massive cluster, and are strongly suspected in the case of M22, but in no other cluster. Among field halo giants of comparable Fe-peak metallicity, variations in the C, , O group appear to be much less pronounced than in globular-cluster giants. Among giants, the variations are of two kinds: (1) those related on the average to evolutionary state, and (2) variations among stars in the same apparent evolutionary state. In addition, clusters having the same Fe-peak abundances often contain stars with very different "signatures" of oxygen and CN-band strengths. The abundances of C and  are often anticorrelated, and in the limited number of cases in which both have been measured, O and  abundances have also often proved to be anticorrelated (Pilachowski 1988; Sneden et al. 1991; Brown et al. 1991; Kraft et al. 1992). Following pioneering work by Cohen (1978) and Peterson (1980), strong evidence has recently emerged for the existence of a significant global anticorrelation between O and Na abundances (Drake et al. 1992, Kraft et al. 1993). The observations are discussed in terms of contrasting hypotheses: evolutionary versus primordial. In the former, the variations are attributed to the dredgeup of material that has been processed through the CNO cycle in the globular-cluster stars themselves. In the latter, the variations are attributed to primordial chemical inhomogeneities in the material out of which the cluster stars were formed, the composition of these "clumps" having been determined by nuclear processing in a prior generation of more massive stars. Observational evidence supporting each of these scenarios is cited. Recent studies of stellar rotation among horizontal branch stars in certain clusters (Peterson et al. 1994) as well as new calculations of 23Na and 27Al production in the CNO processing regions of evolving low-mass giants (Langer et al. 1993) lend fresh support to the evolutionary hypothesis. However, such calculations do not explain the variation of C and  abundances found among cluster main-sequence stars (Suntzeff 1989; Briley et al. 1991) which therefore seem explicable only on the basis of a primordial scenario. Among mildly metal-poor giants, i.e., those in the range from solar metallicity to [Fe/H]~ --1, recent observational evidence suggesting the existence of a substructure in the [el/Fe] ratios of the heavier alpha elements, e.g., Si, Mg, Ca, and Ti, is discussed. The possible influence of this effect on the interpretation of the integrated spectra of extragalactic globular clusters and  galaxies is noted.
+
+1. INTRODUCTION Globular clusters traditionally have provided a major testing ground for the theory of stellar evolution. This happy
+Essentially the text of an invited lecture given before the American Astronomical Society in Phoenix, AZ in January, 1993. Lick Observatory Bulletin No. 1286.
+
+state of affairs arose because the stars in any particular cluster were considered to be coeval and monometallic. Since they spend only a tiny fraction of their main-sequence lifetimes as giants or horizontal branch stars, presently observed luminous stars in globular clusters must have begun their post-main-sequence careers with virtually the same mass. Thus among these evolved cluster stars, the only significant
+
+553
+
+© 1994. Astronomical Society of the Pacific
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+554 KRAFT/
+variable, according to the traditional view, is evolutionary state.
+Because post-main-sequence stellar evolution is driven by the exhaustion of nuclear fuels, globular clusters also provide a nuclear clock: it was already clear half a century ago that the main-sequence tumoff luminosities were close to solar, and thus that globular clusters must be rather old. Refinements in nuclear physics and stellar structure calculations, as well as improvements in distance moduli and abundance measurements in fact soon demonstrated that they were older than the Sun and indeed contained the oldest stars in the Galaxy. It therefore became of interest to compare the age of the Universe that one would infer from the Hubble constant and conventional cosmologies with the nuclear time scale of cluster stars. To this day there remain uncertainties which suggest a discrepancy between these time scales that is unresolved.2
+Globular cluster metallicities exhibit a range in [Fe/H]3 from solar (--0.0) to about -2.5. Theories of galactic nucleosynthesis predict that the elements arose from a variety of nucleosynthetic sites in the post big-bang era, and that chemical enrichment proceeds at different rates for different species (isotopes). Thus the study of the abundance ratios [e/ZFe] in the very old globular-cluster stars should provide clues to the history of galactic nucleosynthetic enrichment. A comprehensive review of the literature of this subject prior to 1989 is found in Wheeler et al. (1989).
+However, the interpretation of the observed [<?//Fe] ratios in globular-cluster stars is clouded because there is confusion between the ab initio [el/Fe] ratios and the effects of stellar evolution. Globular clusters are far away. Even the brightest globular-cluster giants are faint when judged by the ñux required to obtain spectra of high S/N at substantial spectral resolution. Unevolved stars can be reached with existing telescopes in the case of only one or two clusters, and then only at very limited spectral resolution. By being forced to observe the brightest cluster giants, we study the very stars whose ab initio [el¡Fe] ratios are most prone to being altered by the addition of nuclearly processed material dredged up from the stellar interior. This is, of course, a curse to students of Galactic nucleosynthesis. By contrast, it is a blessing to students of stellar structure and evolution, since the abundance observations provide new insight into processes by which material is mixed outward from nuclear burning cores or shell sources into the atmospheres of red giants. It helps only marginally if we try to bypass this whole problem by studying the generally nearer (if intrinsically much fainter) halo field subdwarfs. Nuclear ages for these stars are hard to determine since in most cases their parallaxes are too imprecisely determined to provide a satisfactory fit to theoretical
+2It would take us too far afield in this short lecture to recount the extensive history of globular-cluster research and its influence on our understanding of stellar evolution and cosmology. The interested reader is referred to the comprehensive review by Sandage (1986). 3In the common spectroscopic notation, [eI/H]=(eI/H)--log (^//H)©. Fe is normally taken as a surrogate for "metallicity." Fe-peak elements such as V and Ni generally follow Fe, so that [el/Fe] ratios are close to zero, but this is not generally true for other species, several of which are discussed in this paper. (For a recent review, see, e.g., Gratton 1993).
+
+isochrones (e.g., Carney 1979).4 Significant progress has, however, been made recently by investigators who make use of photometric parallaxes based on calibration of Strömgren indices (Schuster and Nissen 1989). Even so, the study of Galactic halo chemical evolution is subject to something of a dilemma. The main-sequence stars in clusters for which ages can be, in principle, well determined for the most part cannot be reached with sufficient spectral resolution. On the other hand, more work is needed to improve the determination of the ages of individual halo field subdwarfs since they are not in clusters. In addition, the whole matter is clouded by the possibility that cluster stars may suffer "environmental pollution" by collecting ejecta from the evolution of more massive cluster neighbors. Thus it is possible that cluster stars do not, after all, reflect the "pure" state of element formation in the post big-bang era. Perhaps the best we can currently strive for observationally is a careful comparison of [el/Fe] ratios found in globular-cluster giants with those found in halo field stars (both giants and dwarfs) of comparable metallicity.
+2. ABUNDANCE DIFFERENCES
+It is well known that globular clusters are essentially monometallic, in the sense that all the stars in a given cluster appear to have the same value of [Fe/H]. Evidence that this is true comes from both photometry and spectroscopy. As photometry has improved thanks to improved spatial resolution and the use of CCDs, the color widths of the giant branch and main sequences of clusters have narrowed, so that any potential differential color spread induced by an [Fe/H] range has been reduced to values ^0.1 dex (cf. reviews by Suntzeff 1993 and Stetson 1993). Of course differential reddening presents a problem in such analyses, so that monometallicity cannot be absolutely guaranteed for every cluster, but it seems a likely inference. The most notable exception is the case of omega Centauri, the most massive Galactic globular cluster, which has a well-established metallicity spread of about 1 dex (Dickens and Bell 1976; Butler et al. 1978; Noms 1980; Persson et al. 1980, Mukherjee et al. 1992) and probably M22 (Lloyd Evans 1975; Norris and Freeman 1983), although the latter is more controversial (cf. Lloyd Evans 1978; Smith 1987; Lehnert et al. 1991; Laird et al. 1991; Suntzeff 1993). Recently, Langer et al. (1993) have found evidence for a 0.1 dex spread among M92 giants, but this does not contradict the photometric constraints cited above.
+What does appear to be the case is that among giants within a given essentially monometallic halo globular cluster there are wide variations in the strengths of CH, CN, and NH bands attributable to star-to-star variations in the abundances of carbon and nitrogen, wide variations in oxygen abundance, and apparently wide variations in sodium and alumi-
+4The recent comprehensive study of the abundances of mildly metal-poor disk and thick disk dwarfs (Edvardsson et al. 1993) does not apply to the metallicity domain under consideration here. The Edvardsson et al. study derives ages from the calibration of the C] index in Strömgren photometry and is confined to stars younger (ages <2 Gyr) and generally more metalrich ([Fe/H]>-1) than halo subdwarfs.
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+ABUNDANCE DIFFERENCES AMONG GLOBULAR-CLUSTER GIANTS 555
+
+1.0 I I I I I I I I I I I I I M I I I I I I I I I I I
+
+0.5 tlH 0.0
+-0.5 -- -1.0
+
+
+
+ ^ O
+
+-- o M5
+
+Mi O M13
+
+ M3
+
+ 92
+
+ 15
+
+a 4
+
+ 47 Tue
+
+· MIO
+
+ 8
+
+ NGC 4833
+
+o
+
+ NGC 3201
+
+V
+
+* NGC 2298
+
+o NGC 362
+
+o
+
+O NGC 288
+
++ field
+
+o
+
+I I I I I I I I I I I I I I I I I I I I I I I -3.0 -2.5 --2.0 -1.5 -1.0 -0.5
+[Fe/U]
+
+Fig. 1--(After Suntzeff 1993, copyright Astronomical Society of the Pacific. Reproduced with permission.) Oxygen abundances for globular-cluster and halo field giants. Sources of [O/Fe] values are as follows: Sneden et al. 1991; Sneden et al. 1992; Kraft et al. 1993; Barbuy 1988; Brown et al. 1990; Brown and Wallerstein 1992; Cohen 1978, 1979, 1980; Dickens et al. 1991; Drake et al. 1992; Gratton 1987; Gratton and Ortolani 1989; Luck and Bond 1985; McWilliam et al. 1992; Pilachowski et al. 1983.
+
+num abundances. In addition there is a wide range of 12C/13C abundance ratios (cf. reviews by Bell 1991; Suntzeff 1989, 1993). Some of these variations are quite clearly related to evolutionary state, and suggest that the products of internal nuclear processing have been brought to the surface. But other differences are not so clearly driven by evolution and seem to reflect ab initio or "primordial" conditions imprinted into the material out of which the stars were originally formed (cf. e.g., the review by Smith and Wirth 1991). Is it possible to distinguish between the effects which are "primordial" and those which are "evolutionary?"5
+The answer to this question has implications beyond the narrow confines of stellar evolution and nucleosynthesis. For example, the abundance of oxygen [O/Fe] affects both the energy generation and internal opacity of stars near the turnoff region of the color-magnitude diagram, and thus the derived ages of globular clusters and the oldest stars (Rood and Crocker 1985; VandenBerg 1985). The sensitivity is not negligible: one finds that Ai/A[0/Fe] 4 Gyr/1 dex (VandenBerg 1992). Although among halo field and globular-cluster giants the maximum observed value of [O/Fe] is -+0.4 to +0.5, many cluster giants are found to have [O/Fe] several tenths dex smaller than this (Fig. 1, references in caption). Current estimates of [O/Fe] in individual M13 giants, for example, range from -0.8 to +0.5. What is the "real" oxygen abundance of M13 stars? Is there an ab initio [O/Fe] ratio common to all M13 stars which would be "revealed" were we able to observe the main-sequence stars with sufficient spectral resolution? Can we explain the entire range in
+
+In this section, we describe in a very general way what the observations reveal, and give references only to recent review articles. In the more detailed discussion to follow (especially Sees. 4-6) references to original papers are cited in extenso.
+
+' ' I '  ' I  '  I ' ' ' i ' ' ' i ' ' ' I ' ' ' -0.4 0.0 0.4 0.8 1.2 1.5
+ - V
+Fig. 2--(After Renzini and Fusi Pecci 1988, copyright Annual Reviews, Inc. Reproduced with permission.) The color-magnitude diagram of M3, based on a sample of more than 10,000 stars. The sequences described in the text are indicated.
+[O/Fe] found among Ml3 giants as a result of deep mixing and dredge up driven by stellar evolution?
+To answer these questions, let us first briefly review standard evolutionary theory for globular-cluster stars and the degree of deep mixing predicted by that theory (cf. reviews by Iben 1974, 1981; Iben and Renzini 1984).
+3. PREDICTIONS BASED ON THE STANDARD THEORY OF EVOLUTION OF LOW-MASS STARS
+By way of orientation, there follows a short summary of the evolution of a low-mass star, here defined as one having an initial mass ^2Mq , as it is currently predicted by standard models of stellar evolution. All stars below this critical mass limit develop degenerate He cores on leaving the main sequence, and the subsequent evolutionary events are morphologically similar regardless of mass. A typical globularcluster star leaves the main sequence with a mass near 0.85M© , and runs on a CNO hydrogen-burning shell source. As it ascends the first giant branch (RGB) (see Fig. 2 for a definition of the sequences), the star develops an external convection zone, and at a luminosity somewhere on the subgiant (SGB) branch (location dependent on metallicity), the lower edge of this convection zone achieves a radius of deepest penetration. This radius is "outside" the "precursor" region where a limited amount of CNO-cycle burning occurs. However, as evolution up the RGB proceeds, the base of the convection zone retreats ahead of the CNO burning shell, so that a really "firm" connection is never established between the shell and the convective envelope. As the shell bums outward, the temperature increases and the degenerate core slowly heats up until finally the degeneracy is lifted at the tip of the RGB, and the He core is fired (the He core flash). There is evidence that mass is secularly ejected near the tip of the RGB at a rate in the range of 10~8 to 10~9  yr_1
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+556 KRAFT
+>
+>
+Color
+Fig. 3--A comparison of color-magnitude diagrams for M3 and Ml3, illustrating the second parameter effect. The two clusters differ in [Fe/H] by only 0.02 dex (Kraft et al. 1993). Diagrams courtesy of M. Bolte.
+(Rood 1973; Cohen 1976; Dupree et al. 1994). It does not appear possible to construct theoretical horizontal branches (HB) that agree in both luminosity and temperature distribution with those observed in globular clusters without invoking RGB mass loss that varies stochastically from star to star, but has an average value near 0.2Mo (e.g., Rood and Crocker 1985).
+In post-He core flash evolution, the star first takes up a position on the zero-age horizontal branch (ZAHB) powered by a triple alpha He-burning core and a hydrogen-burning shell. As evolution proceeds the star develops a C-0 degenerate core surrounded by a He-burning shell, and increases its luminosity to a value slightly above that of the ZAHB. Outside still remains the CNO burning shell. It is well known observationally and theoretically that the HB moves redward on the average with increasing metallicity (Faulkner 1966; Sandage and Smith 1966): metallicity is therefore called the "first parameter" governing HB morphology. But it is also the case that there is substructure: two clusters can have the same [Fe/H] yet different HB morphologies. This is called the "second parameter" effect, and is well illustrated by comparing the color-magnitude arrays of M3 and M13 (Fig. 3). These two clusters have [Fe/H] differing by no more than 0.02 dex (Kraft et al. 1993), yet whereas the HB of M3 is fairly uniformly populated and contains many RR Lyrae stars, Ml3 contains at most 2 or 3 RR Lyraes and almost all HB stars lie blueward of the RR Lyrae instability strip. What is this second parameter?
+Several possibilities have been considered over the past decade (and longer), but the most popular and probably best-
+
+supported candidate seems to be age (Searle and Zinn 1978; Zinn 1993; Lee 1993). The leading idea grows out of the fact that, over a considerable range of tumoff masses (~0.2Mo) and therefore age, the mass of the He core at He core flash is nearly constant (e.g., Iben 1974). Thus at the moment of the flash the ratio of total stellar mass to core mass decreases with increasing age. If the other independent parameters are fixed, the smaller is the envelope mass of a ZAHB star the farther to the left it will lie in the HR diagram, i.e., the higher will be its effective temperature. Thus if mass loss near the RGB tip is not a function of age, the older is the star (as judged by its tumoff luminosity and mass), the more likely it is to settle on the blue side of the ZAHB following the He core flash. Supporters of age as the global second parameter cite as independent evidence the observation that the tumoff luminosities of selected "second parameter" clusters seem to be brighter than those of the "normal" very old clusters (Zinn 1993).
+The second parameter has also been attributed to variations in [CNO/Fe] (cf. review by Iben and Renzini 1984), but at least one counterexample is known in the comparison of NGC 288 with NGC 362. Dickens et al. (1991) have shown that these two clusters, which have essentially the same [Fe/ H] but differ in HB morphology, have the same total C+N+O, and Bolte (1989) has shown that the tumoff luminosities also differ by the right amount in the right direction to explain the HB difference as an age difference. Another possible second parameter driver, which is discussed later, is stellar angular momentum (Renzini 1977; Suntzeff 1981; Norris 1981).
+Following HB evolution, a significant fraction of HB stars again ascend the giant branch in virtually the same part of the color-magnitude array as the RGB, but spend only about 20% of the time taken for their first ascent to reach luminosities corresponding to that of the He core flash. The He shell burning is thermally unstable and gives rise to shell flashes on the way up this so-called asymptotic giant branch (AGB) (Gingold 1974). Additional secular mass loss presumably occurs. Whether the AGB terminates quiescently owing to such further mass loss and the extinguishing of the CNO shell source or whether a "final" He shell flash ejects the remaining envelope is not certain, but there remains a coincidence: the ages of globular clusters are such that the terminal luminosity of the AGB is about the same as that of the RGB. In somewhat younger stellar populations, such as occur in the halos of the SMC and in the dwarf spheroidal companions of the Galaxy, the AGB extends well above the tip of the RGB in luminosity (e.g., Suntzeff et al. 1986; Buonanno et al. 1985).
+The preceding sketch would suggest that, until we get to stages past the He core and/or shell flashes, little change in the surface abundances is expected, and indeed only tiny modifications are predicted during the first ascent of the RGB (Iben 1974; VandenBerg and Smith 1988). Expected is a decline in the 12C/13C ratio from the initially assumed (solar value) of 90 to about 20-30; carbon abundances should drop by about 30% and nitrogen should increase by a corresponding 80% (assuming the solar O/C/N ratio of 8/3/1 by number). Oxygen should remain unchanged, and indeed all
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+O) -1.0
+
+ABUNDANCE DIFFERENCES AMONG GLOBULAR-CLUSTER GIANTS 557 [C/Fe]
+
+Fig. 4--(After Suntzeff 1993, copyright as stated in caption to Fig. 1.) [C/Fe] as a function of Mv , i.e., evolutionary state, for giants in M4, (closed symbols) and NGC 6752 (open symbols). Circles and squares refer to RGB and AGB stars, respectively,
+other elements should remain unchanged. The convection zone simply does not reach to depths in which envelope processing provides more than a modest increase in 13C and 14N as a result of 12C depletion in the CNO cycle. Moreover, interior temperatures never approach values (they remain smaller by a factor of 10) at which one expects significant processing of the heavier alpha elements, i.e., those heavier than oxygen, or the establishment of a neutron source such as 22Ne(a,M)25Mg (Iben 1983).
+4. WHAT IS ACTUALLY OBSERVED?
+The preceding section describes the changes in surface abundances of globular-cluster stars that are expected on the basis of traditional evolutionary theory. However, the observations paint an entirely different picture. As mentioned earlier, there are no Fe inhomogeneities beyond --0.1 dex (except in omega Cen and perhaps M22), and no observed starto-star differences in the heavier [alpha/Fe] ratios in a given cluster. Indeed, at a given [Fe/H], independent of specific cluster, each of the heavier alpha elements, e.g., Mg, Si, Ca, and Ti, is slightly overabundant by about the same amount [although some very recent work suggests the existence of an abundance substructure in these elements among mildly metal-poor stars (Edvardsson et al. 1993; McWilliam and Rich 1994; Sneden et al. 1994)]. However, there is evidence that among RGB stars in M4, M22, 47 Tucanae, and the halo field (Sneden et al. 1986; Brown and Wallerstein 1992; Bell et al. 1990; Suntzeff and Smith 1991; Shetrone et al. 1993), the 12C/13C ratio approaches its equilibrium value of 4 (Fig. 4). In M92 (Carbon et al. 1982), M15 (Trefzger et al. 1983), and NGC 6397 (Briley et al. 1990), there is a continuous decline (with scatter that is real) in carbon abundance reaching a factor of 10 or more as one passes from the mainsequence turnoff toward the red giant tip (Fig. 5). Langer and Kraft (1984) showed that the mean nitrogen and carbon abundances of evolved RGB stars in the halo field and sev-
+
+Fig. 5--(After Suntzeff 1989, copyright Obs. de Paris. Reproduced with permission.) Carbon abundances as a function of , i.e., evolutionary state, in M92 and M15. For M92, the closed circles are from Langer et al. (1986), the open circles are derived from studies by Bell (1984) and Stetson (1984), and the crosses refer to the three stars in NGC 6397 (Bell et al. 1979). The position of the field subdwarfs and the average values for the AGB in M92 are shown by the arrows. For M15, the closed circles are from data analyzed by Trefzger et al. (1983). Open circles refer to stars analyzed under the assumption that [O/Fe]~+0.6; these points should probably be lowered by --0.3 dex (see text). The straight lines represent the limits of the [C/Fe] distribution for M92 stars. Crosses refer to the distance cluster Pal 13.
+eral halo globular clusters were compatible with the carbon and nitrogen abundances observed in solar vicinity subdwarfs (Laird 1985; Carbon et al. 1987), on the assumption that the evolved stars had processed their envelopes through the hydrogen-burning shell, thereby converting significant amounts of C to  (Fig. 6).
+In addition, Pilachowski (1988) found the first convincing evidence that the dredgeup of O-->N processed material is occurring in some M92 stars near the tip of the giant branch and this was confirmed for a larger sample of stars studied by Sneden et al. (1991), who found an O versus  anticorrelation among both M92 and Ml5 giants. Similar anticorrelations, first demonstrated by Pilachowski (1989) in Ml3 and hinted at much earlier by Cohen (1978), were confirmed and extended for much larger samples of giants in this cluster by Brown et al. (1991) and Kraft et al. (1992), who made use in part of the nitrogen abundances previously obtained by Suntzeff (1981). Elsewhere, Paltoglou and Norris (1989) found evidence for the dredge up of O--processed material in giants of omega Cen. In evaluating the validity of all these results, the reader should be aware that nitrogen abundances are notoriously difficult to determine with accuracy: modeling of the extreme uv NH band at 3660 and the CN band at 3883 is complex and subject to a number of uncer-
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+558 KRAFT
+0.6
+0.4
+0.2 <[N/Fe]>
+0.0
+-0.2
+-0.4
+0.0 -0.4 -0.8 -1.2 -1.6 <[C/Fe]>
+Fig. 6--(After Langer and Kraft 1984, copyright Astronomical Society of the Pacific. Reproduced with permission.) The abundances of [N/Fe] and [C/Fe], averaged over giants with Mv near --1 in several metal-poor globular clusters. The locations of field giants with metallicities similar to M3 and M13 (Type I) and M92 and M15 (Type II) as well as field subdwarfs are indicated. The lines correspond to loci under the assumption of constant C+N; they are arbitrarily separated by 0.1 dex.
+tainties. There remains also a significant discrepancy between abundances of nitrogen derived from analysis of CN as opposed to NH bands (Briley 1993). There seems to be little doubt that the observed anticorrelations are real, but the absolute values of the nitrogen abundances are rather uncertain, so at this point we cannot decide whether all stars start out with the same total abundance of C+N+O. We return to this point in Sec. 6.
+Finally, we note that a few bright giants with enhancement of s-process species have been found in omega Cen (Dickens and Bell 1976). In addition, CH stars have been found in omega Cen, M22, M55, and M2 (Smith and Mateo 1990, and references therein).
+The preceding observations strongly suggest that globular-cluster giants succeed in mixing the products of interior nuclear processing into their atmospheres. In particular, certain observations, e.g., the decline in [C/Fe] along the RGB of such metal-poor clusters as M92, Ml5, and NGC 6397, provide strong evidence in favor of an evolutionary scenario in which deep mixing in stars on the first giant branch (RGB) succeeds in processing the stellar envelope through the CNO-burning shell. In the light of the discussion of the traditional theoretical evolution of such stars given in Sec. 3, how is this accomplished?
+5. SWEIGART-MENGEL MIXING MECHANISM Recognizing that traditional models of evolving low-mass stars failed to meet the requirements imposed by the observed abundances, Sweigart and Mengel (1979) proposed a solution in which circulation within the radiative zone between the base of the convective envelope and the CNO-
+
+burning shell effectively connects the surface of a giant with the region responsible for nuclear processing. The circulation was postulated to be the result of stellar rotation which drives meridional currents having characteristic velocities of order 10-3 cm s-1. Later, Smith and Tout (1992) established that somewhat faster, but still very slow, circulation currents, maintained throughout the RGB phase of evolution were sufficient to bring about the decline in [C/Fe] found along the RGB in clusters such as M92, M15, and NGC 6397. Such currents pirovide the means to change the surface CNO abundances on a time scale much shorter than the evolutionary time scale of 108 yr associated with the first ascent giant branch.
+The Sweigart-Mengel theory leads to several predictions that can be tested by the observations. For example, evidence of mixing can appear in the atmosphere of an immediate post-main-sequence giant only after the CNO shell crosses the radius corresponding to the deepest penetration of the external convection zone. Consequently, Sweigart and Mengel suggested that CN anomalies should be confined to the upper RGB. In addition, the theory predicts that C and O depletions among cluster giants will be less severe (and indeed may cease to exist!) as metallicity is increased. This is because the mass of the carbon-depleted region above the  gradient in the hydrogen-burning shell decreases with increasing metallicity, and thus proportionally less processed material is made available for dredgeup. In addition, as the metallicity decreases, circulation currents may more easily access zones of O-->N and C-^N processing, to the point where the products of considerable O-->N as well as C-^N conversion may be brought up. How do these predictions fare when confronted by the observations?
+The answer is "quite well," but there are some caveats. First, the theory explains at least qualitatively what one sees in metal-poor clusters, i.e., those with [Fe/H]^ --1; e.g., M92, M15, NGC 6397, NGC 6752; M3, M13, and M5. Particularly striking are the significant oxygen depletions and nitrogen enhancements exhibited by bright giants in the metal-poor clusters M92 and M15 (Pilachowski 1989; Sneden et al. 1991) and especially in Ml3 (Pilachowski 1989; Brown and Wallerstein 1992; Kraft et al. 1993). Furthermore there is evidence that deep mixing decreases as cluster metallicity increases. Thus, for example, carbon depletions seem less extreme in the more metal-rich clusters (Bell et al. 1979; Dickens et al. 1979; Bell and Dickens 1980), and there is little evidence for oxygen depletion among giants in such mildly metal-poor clusters as 47 Tue (Brown and Wallerstein 1992) and M71 (Sneden et al. 1994). On the other hand, there are some problems. In M92, carbon depletion appears to set in almost as soon as the stars leave the main sequence (Carbon et al. 1982), prior to the critical luminosity at which Sweigart and Mengel infer that deep mixing can be initiated6 (Fig. 5). In addition, the theory re-
+6Stars near the tumoff in M92 are faint {V-\l to 18). Abundance determinations of carbon (from CH-band modeling) are based on spectra of limited S/N (Langer et al. 1986), and observations of the NH band in the optical uv are essentially beyond present capabilities. Additional work is needed before one can definitely cite this result as a failure of the theory.
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+ABUNDANCE DIFFERENCES AMONG GLOBULAR-CLUSTER GIANTS 559
+
+Fig. 7--(After Smith and Norris 1982, copyright American Astronomical Society. Reproduced with permission.) The distribution of CN-band strengths in samples of RGB stars in three globular clusters, illustrating the bimodal distribution described in the text.
+quires a degree of angular momentum in globular-cluster giants that in turn forces the angular velocity of the mainsequence progenitors to lie somewhere near =6~5 s-1. If the progenitor were a solid-body rotator, the surface rotational velocity would be about 60 km s_1. It is well-known that main-sequence stars in the same magnitude range as the cluster red giant progenitors initially have rotational velocities of this order but spin down on time scale of 107 yr (Kraft 1967; Stauffer et al. 1989), which is much shorter than the age of any known Galactic globular cluster.
+6. ARE PRIMORDIAL VARIATIONS REQUIRED?
+Even granting the existence of these specific difficulties with the Sweigart-Mengel mechanism, one would be hard put to dismiss the evidence that deep mixing must indeed play a significant role in generating what the observations reveal. On the other hand, it appears that deep mixing alone is inadequate. First of all, it has been known for some time that among first ascent giants and subgiants in many intermediately metal-poor clusters (--0.8^[Fe/H]1.6), there is a bimodal distribution of cyanogen-band strengths (e.g.. Smith and Norris 1982; Smith and Norris 1983; Norris 1988) (Fig. 7). The bimodality may have something of a population
+
+"signature," in that some clusters contain stars that are predominantly CN strong (e.g., Ml3), whereas others may be predominantly CN weak (e.g., M3) at the same metallicity. The CN bands in field halo giants are also unusually weak compared with most cluster giants of comparable metallicity (Hesser et al. 1977; Langer et al. 1992). It is true that in many cases the CN- and CH-band strengths are anticorrelated, which suggests that the bimodality is a result of mixing that takes place in some stars and not in others, at the same evolutionary state. But against this view is the fact that the distributions are indeed bimodal, i.e., there are few if any of the intermediate cases that one might expect to see in a mixing scenario. More importantly, in both 47 Tue (Briley et al. 1989) and M5 (Briley et al. 1992), not enough nitrogen is produced from the observed carbon depletion to account for the strengths of the cyanogen bands in CN-strong stars. In other words, not all stars have the same ab initio C+N abundance. In very metal-poor cluster giants, stars in which the CN bands disappear because CN is a "double-metal" molecule, whereas CH and NH bands persist, a related result has been noted, viz., that there exists a very wide range of C and  abundances in which it is quite clear that the total C+N abundance cannot be the same from one star to another (Carbon et al. 1982; Trefzger et al. 1983).
+But a more serious difficulty for a scenario in which the abundance changes are driven solely by stellar evolution is the finding of a CN versus CH anticorrelation (on average) among main-sequence stars in NGC 6752 (Suntzeff 1989) and 47 Tue (Bell et al. 1983; Briley et al. 1991). It is somewhat hard to believe that deep mixing takes place in mainsequence stars of near solar mass and luminosity. These results therefore strongly suggest that the anticorrelation of C and  arose in nuclear processing of pre-existing material; i.e., in events that occurred in the material out of which the present low-mass cluster stars were formed. In addition, these investigations reveal that some main-sequence stars of 47 Tue are both CH and CN strong while others are CH and CN weak. This points to a similarity between metal-rich and metal-poor clusters in that both have ab initio fluctuations from star to star in the total number of C and  atoms. Again this must be driven by a pre-existing condition in the primordial cluster material.
+Even more devastating evidence against pure mixing scenarios seems to have been the discovery that CN-band strengths are correlated with the strengths of Al I and Na I lines. Beginning with the seminal paper of Peterson (1980), the existence of these correlations has become increasingly convincing (Cottrell and Da Costa 1981; Norris and Smith 1983; Pilachowski et al. 1983; Norris and Pilachowski 1985; Paltoglou and Norris 1989; Lehnert et al. 1991; Drake et al. 1992; Kraft et al. 1992; Sneden et al. 1992; Brown and Wallerstein 1992). Campbell and Smith (1987) showed that the correlation was not an artifact of some non-LTE effect in the Na D lines. Drake et al. (1992) demonstrated that subordinate Na I lines, which also correlate with CN, were formed essentially in LTE and could safely be used to derive Na abundances. Thus it is clear that CN is positively correlated
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+560 KRAFT
+
+U0-) 
+-.5
+
+· M13 OM3 *M5 + field  M15 92
+-.5
+
+ >%#· A ° -· ^
++ + d-*+ n:
++ ++
++
++ .
+.5 [O/Fe]
+
+Fig. 8--(After Kraft et al. 1993, copyright American Astronomical Society. Reproduced with permission.) The Na-O anticorrelation among giants in globular clusters and the halo field having metallicities [Fe/H]< --1. In the color-magnitude diagram, all cluster stars lie within 1 mag of the red giant tip; the field star sample is dominated by giants having luminosities less than that of the typical cluster giant.
+
+with the abundances of Na and Al, and therefore that nitrogen, which is assumed to be the controlling influence on CN-band strengths among stars of the RGB, must be correlated with Na and Al.
+In some cases the evidence is a bit indirect. In M13, for example, Brown et al. (1991) showed that O and  were anticorrelated in a number of bright giants, and Kraft et al. (1992) showed that O and Na were also anticorrelated. Although some difficulties are encountered in the absolute determination of nitrogen abundances (cf. Suntzeff 1981; Brown et al. 1991), is seems clear that  and Na are correlated, whereas O and Na are anticorrelated. Drake et al. (1992) demonstrated that in M4, CN-strong giants were enhanced in sodium and aluminum and deficient in oxygen, whereas CN-weak giants had deficiencies in sodium and aluminum, but enhanced oxygen. Oxygen versus sodium anticorrelations have also been found among bright giants in M92, M15, M3, Ml3, and M5, and indeed in a sample of 77 cluster and halo giants, Kraft et al. (1993) have demonstrated what they call a "global anticorrelation" of [O/Fe] versus [Na/Fe] (Fig. 8). Most of these stars belong to the first giant branch (RGB). How is this to be explained?
+The most immediate interpretation that comes to mind when one is confronted with an oxygen-nitrogen anticorrelation among RGB stars is that O has been processed to  by CNO-cycle burning. The issue here is where is the site in which such processing has occurred? What the existence of the oxygen-sodium anticorrelation and the corresponding nitrogen-sodium correlation at first seemed to suggest is that the mechanism resides not within the individual stars themselves, but rather in some primordial environment. Generally it has been supposed that 23Na, for example, is built by neutron addition to 22Ne (Iben 1975, 1976). A neutron source is required, and there are two possibilities: 13C(ai,n)160 and
+
+22Ne (a,rc) 25Mg. The difficulty with an internal dredgeup scenario is that neither of these sources is likely to operate in a star on the first ascent giant branch. As discussed by Iben (1983), the first source is operative only on the AGB as a consequence of mixing associated with a He shell-flash episode. The second source is significant (Iben 1976) only in a temperature regime near ~3108 , which is about 10 times higher than the highest interior temperature achieved by a low-mass RGB star. Such temperatures would be achieved, however, in the interiors of evolving stars with masses ^5MQ .
+Thus, Cottrell and Da Costa (1981) considered a scenario in which the primordial variations arose as a result of the pollution of juvenile cluster gas by winds ejected by intermediate mass (5-8 Mq) stars. The polluting material is incorporated into the still-contracting low-mass stars we presently observe. One assumes that the source of 23Na is the reaction 22Ne (,) 25Mg followed by 22Ne (,) 23Ne(/r^)23Na. Cottrell and Da Costa argued that in a lowmetallicity environment in which [Ne/Fe] and [Mg/Fe] are elevated, neutrons would preferentially be captured by 22Ne and 25Mg (as well as 26Mg), leading to overabundance of 23Na and 27Al. One might worry, however, that 22Ne is not a very abundant species of Ne, especially in material presumably derived preferentially from Type II supernovae (Pardo et al. 1974). But in an environment in which nitrogen is enriched, one might expect the reaction 14(,)18 {+ ^)180(a,7)22Ne to be frequent. Thus the stage would be set: in primordial material which has undergone significant O-^N processing, and which is thus nitrogen rich and oxygen poor, one would expect to see a Na-N correlation, and a corresponding Na-0 anticorrelation.
+Qualitatively, at least, one can replace 23Na by 27Al, the latter being built up by neutron captures on 26Mg. The production of the alpha elements and the odd-even elements (e.g., Na and Al) as a function of neutron excess in a given environment is discussed by Smith and Wirth (1991). Although the body of quantitative abundance analysis is smaller in the case of Al compared with Na, the two elements seem to behave in a similar fashion (cf., e.g., Cohen 1978, 1979, 1980; Cottrell and Da Costa 1981; Gratton and Sneden 1988; Gratton and Ortolani 1989; Drake et al. 1992; McWilliam et al. 1992; Brown and Wallerstein 1992). It seems reasonable to state that these internal cluster variations in Na and Al and their one-to-one functional relationships with  and O have been one of the two principal pillars supporting the hypothesis that primordial abundance fluctuations exist among globular-cluster stars. The other pillar, as already mentioned, is the finding of variations in the strengths of CN bands among main-sequence stars in NGC 6752 and 47 Tue.
+7. MIXING AND THE NA-AL VARIATIONS: A REEVALUATION
+But is it true that the only way to make excess 23Na and 27Al is the addition of neutrons to 22Ne and 26Mg? Denisenkov and Denisenkova (1990) suggested an alternative process: in low-mass giants, 23Na could be synthesized by pro-
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+ABUNDANCE DIFFERENCES AMONG GLOBULAR-CLUSTER GIANTS 561
+
+Log t (s)
+
+Fig. 9--(After Langer et al. 1993, copyright Astronomical Society of the
+
+Pacific. Reproduced with permission.) Mass fractions for ten isotopes in
+
+mater-i3al that has been mixed to a temperature 9=0.40 and density of 44.7
+
+g cm ; the abscissa is the log of time since the mixing occurred. The mass
+
+fractions a1r6e 12/1050 ti2m4 es their s2o8lar values for most isotopes. The four alpha
+
+isotopes,
+
+0,
+
+Ne,
+
+Mg, and
+
+Si,
+23
+
+are
+
+assu2m7 ed
+
+to
+
+be
+
+enhanced
+
+by
+
+a
+
+factor
+
+of 2.5 initially. The abundances of Na and Al are assumed to be 2.5 times
+
+less than their scaled solar values. At log? = 12.25 (60,000 yr), the abun-
+
+dance of hyd2r3ogen has dropped by 5% in the mixed material. Note that the
+
+outcome for Na, after log 2t--2 12.25, would be the same as shown here even
+
+if the initial 1a2bundance of Ne had been set to zero. Note also the partial
+
+recovery of C as time advances.
+
+ton capture on 22Ne in regions of the hydrogen-burning shell where O is converted to N. They applied their results to giants in omega Cen where Paltoglou and Norris (1989) had shown that [Na/Fe] is correlated with [N/Fe]. Continuing along these lines, Langer et al. (1993) explored what would happen to material from the envelope of an evolving lowmetallicity, low-mass Sweigart-Mengel (1979) red giant model if it were mixed to a region just below the oxygenburning shell. They used a nuclear reaction network that examines the changes in 85 isotopes of elements between hydrogen and calcium. They also limited the hydrogen depletion in the mixed material to 5% (or less), so that the mixing adds little new fuel to the shell-burning region and therefore has little effect on either the evolutionary time scale or the location of the star in the HR diagram. They found that after a time of only 60,000 yr, at which point the abundance of hydrogen in the mixed material had dropped by the assumed 5%, the mixing had severely depleted 160, 22Ne, 25Mg, and 26Mg, and greatly enhanced 14N, 23Na, and 27Al. These changes are illustrated in Fig. 9. The process would be extinguished as the still deeper hydrogen-burning
+
+part of the shell advances in radius as evolution proceeds. This requires 260,000 yr, so there is evidently enough time to produce the required changes. The 60,000 yr time scale is also very much shorter than the evolutionary time scale for the ascent of a star from the luminosity level of the HB to the red giant tip; this is the luminosity regime over which all observations of oxygen abundance in globular-cluster stars have so far been possible.
+One might be concerned that the production of 23Na would be dependent on an adequate supply of 22Ne, a neutron-rich isotope of Ne that is comparatively rare in the sun, and may be relatively even rarer (compared with 20Ne) in globular-cluster stars. However, Langer et al. show that over an even shorter time scale (--30,000 yr) a 20Ne-23Na chain is set up. The abundance of 23Na has risen far enough to allow the inverse reaction 23Na (,) 20Ne to occur at a significant rate. Thus 20Ne begins to decline, and the 23Na enhancement is then fed by the depletion of the relatively abundant isotope of 20Ne. If this is indeed the case, one can understand qualitatively the shape of the O versus Na anticorrelation, i.e., why one finds an "arclike" distribution of points (Fig. 8). As the abundant species (160 and 20Ne) are transformed into the initially rare species (14N and 23Na), the latter at first increase very rapidly, but then the rate of increase levels off as the initially more abundant species become more and more heavily depleted.
+The preceding arguments lend credibility to the idea that proton captures on 22Ne and 26Mg could lead to the enhancements of 23Na and 27Al that are seen in low-mass red giants of the Galactic halo, but they do not necessarily compel
+us to believe that the process actually takes place in the stars we observe. Indeed, the proton captures could equally as well have taken place in primordial cluster material. However, in the case of M13 giants at least, there is fairly strong evidence that the dredgeup process actually occurs within the stars currently near the tip of the giant branch. Kraft et al. (1993) studied the oxygen and sodium abundances in twenty-two giants in M13 and seven in M3. A plot of [O/Fe] ratios as a function of Mbol is shown in Fig. 10. The Ml3 sample is 88% complete for the stars brighter than Mbol=--2.9, and representative below that; the M3 sample is believed to be representative even if not complete. Inspection of the figure shows that the overwhelming majority of stars in M13 brighter than Mbol=--2.9 are superoxygen poor (i.e., [0/Fe]<--0.4) and correspondingly Na rich, whereas M3 stars are typically much more oxygen rich. Kraft et al. argue that these stars must be prehelium core flash (RGB) stars, since the lifetimes of AGB stars are only about 20% that of RGB stars. The main point is that extreme depletions of oxygen are strongly associated with a particular location in the HR diagram, and thus with a particular evolutionary state.
+If it is indeed true that the super-O-poor phenomenon is associated with evolutionary state, why is it that one star near the tip--indeed, the brightest star, shows only a modest depletion, and none of the M3 stars in the same range of luminosity shows such strong depletion? One can possibly understand this by appeal to a mixing mechanism that is governed by stellar evolution but regulated by a stochastic
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+KRAFT
+
+.8 RG tip (theory) 0.1 E7 0.2E7
+
+11
+
+1
+
+1
+
+1
+
+.4
+
+-.4
+
+-.8  I I I  I   i I I I ' I i I 1 I 1 I I U
+
+-3.5
+
+-3
+
+-2.5
+
+-2
+
+Mbol
+
+Fig. 10--(After Kraft et al. 1993, copyright American Astronomical Society. Reproduced with permission.) The abundance of oxygen as a function of luminosity for a sample of 22 giants in Ml3 (filled circles) and 7 in M3 (open circles). The Ml3 sample is 88% complete for stars brighter than Mbol=-2.9. The location of the RGB tip is indicated, as well as the time scale for a star of a given luminosity to reach the tip (Rood 1972).
+process, in this case meridional circulation driven by internal rotation (Sweigart and Mengel 1979; Smith and Tout 1992). If there should exist a critical angular velocity below which circulation between the CNO burning shell and the base of the convective envelope ceases, and if there is a distribution of angular velocity among the globular-cluster giants within a given cluster, then some giants will mix and others will not. A stochastic spread will be seen at a given evolutionary state, in qualitative accordance with the observations (Fig. 10). The difference in behavior in O and Na abundances among M3 giants as opposed to Ml3 giants could then be understood if M3 giants have little or no angular momentum compared to M13 giants. There are two pieces of observational evidence which in fact support this picture, one indirect, one quite direct. First, Norris (1987) showed that predominantly CNstrong clusters (like M13) have greater cluster ellipticity than CN-weak clusters (like M3). The ellipticity is presumably driven by total cluster angular momentum. However, it is unclear whether or how such global angular momentum is transferred to individual stars. Much more direct evidence that rotation plays a role is the finding (Peterson 1983; Peterson et al. 1994) that HB stars of Ml3 rotate systematically faster than similar stars in M3. The maximum value of  sin i is about 30 km s-1. Interestingly, if we assume that angular momentum is conserved and is not radially redistributed as stars evolve, we predict that such a star would rotate at  sin /--60 km s_1 when it left the main sequence of Ml3. Rotational velocities of this order are not only required by the Sweigart-Mengel theory, as noted already in Sec. 5, but are, in fact, approximately what one observes among solartype stars which have just reached the main sequence after the initial stage of gravitational contraction (Kraft 1967; Stauffer et al. 1989). However, such young stars spin down rapidly and lose most of their angular momentum, unless a significant fraction of this momentum is retained in a rapidly rotating core. Whether this is the case within the Sun, for example, remains an elusive question (cf. Libbrecht and
+
+Morrow 1991). If the Sun is indeed a rigid-body rotator, it is hard to believe that cluster stars which are three times older can succeed in maintaining a significant radial gradient in angular velocity.
+Despite this uncertainty, a picture in which the superoxygen-poor phenomenon is caused essentially by rotationally driven mixing, along the lines proposed by Sweigart and Mengel, has much to recommend it when confronted with both theory and observation. First, as noted earlier, copious quantities of Na, Al, and  can be produced at the expense of 20Ne, 26Mg, and 160, respectively, and dredged up on a time scale of only 60,000 yr, without upsetting the traditional interpretation of the color-magnitude array. This time must not exceed the evolutionary time scale for the stars in question to reach the helium core flash; inspection of Fig. 10 shows that this time scale for the super-O-poor stars (i.e., those brighter than Mbol=--2.9) is 240,000 yr (Rood 1972), so the condition is satisfied. Second, examination of the relative abundances achieved in the processed envelope (Fig. 9) reveals that as equilibrium is approached in the C, N, and O abundances, the initial sharp drop in carbon is reversed: the carbon abundance is eventually enhanced, although it does not achieve its preprocessed value (Langer et al. 1993). This is exactly what is seen in the behavior of carbon as a function of evolutionary state in M92 (Carbon et al. 1982) and especially in M15 (Trefzger et al. 1983) (see Fig. 5). As stars approach the red giant tip, carbon is severely depleted, but then recovers by a factor of 3 to 5 as the giants exceed Mbol 3.0 in luminosity. However, part of the effect results from the original assumption (by these authors) of an oxygen abundance of [O/Fe]~+0.6. It is likely that a value of [O/Fe]~0.0 is more nearly correct (Sneden et al. 1991) among these highly evolved stars (see Fig. 10). If so, since one must allow for CO formation in estimating [C/Fe] from the observation of CH-band strengths, the value of [C/Fe] would be closer to a factor of 2.
+At the moment it is not known whether carbon behaves in like manner in M3, since determinations of carbon abundance among the brightest stars in this cluster are lacking. Whether among the brightest Ml3 giants a recovery in the carbon abundance in fact exists, in parallel with the situation in M92 and M15, is not clear, despite the fact that carbon abundances have been measured in a sample of 37 stars extending from My~ + 1 to the red giant tip (Suntzeff 1981; Brown et al. 1991). The Brown et al. sample of five giants near the tip unfortunately does not overlap with the Suntzeff sample of 32 fainter giants, and thus one is not able to assess the effect of possible systematic differences in the abundance scales of C and  between the two investigations. It is particularly troublesome that the [Fe/H] scales seem to differ by --0.25 dex, since abundances of C,  (and O) are measured and quoted in units of the Fe abundance. Thus, in the case of M13, the carbon recovery question must await further investigation.
+8. A SUMMARY AND SOME CONCLUDING REMARKS
+In the preceding section, we advanced the idea that, because the superoxygen-poor phenomenon in Ml3 appears to
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+ABUNDANCE DIFFERENCES AMONG GLOBULAR-CLUSTER GIANTS 563
+
+be characteristic of stars in a particular advanced evolutionary state, the mechanism driving it must be active in the stars themselves, and therefore the phenomenon is not a consequence of a primordial condition in the preexisting stellar material. But this is not the whole story: in all the clusters so far studied, there remains a wide range of oxygen abundances among stars more than one magnitude fainter than the red giant tip, and among these stars, there is no evidence to suggest that the phenomenon occurs at some definite evolutionary state. These stars also show a Na versus O anticorrelation, and occupy portions of the same "arclike" structure evident in Fig. 8. The data do not exclude the possibility that for these stars the anticorrelation could have developed in a preexisting nucleosynthetic site in which proton addition onto 22Ne led to fresh production of 23Na and in which 160 was being converted to l4N. The most that can be concluded is that the 23Na enhancement is almost certainly not a result of neutron captures on 22Ne, since it is unlikely that slow neutrons would be preferentially captured by 22Ne compared with Fe-peak elements. And there is in fact strong evidence that in the sample of 22 Ml3 giants discussed in Sees. 5 and 6, traditional [s-process/Fe] ratios are completely independent of [O/Fe] and [Na/Fe] (Armosky et al. 1994).
+The relative location of field halo giants and globularcluster giants shown in Fig. 8 may also provide an additional clue to the relative importance of evolutionary versus primordial scenarios. The cluster samples are biased toward bright giants because of flux limitations, whereas the field samples reflect more closely the luminosity function of evolving giants. The latter tend to be hotter and fainter than the former, i.e., to represent an earlier evolutionary stage. But one sees immediately that the field stars have large [O/Fe] values and widely scattered, but nevertheless smaller, [Na/Fe] values than the more evolved globular-cluster stars. This suggests not only that the ab initio Na abundances may have been quite scattered, but that Na enhancement at the expense of a process that depletes O may indeed be driven primarily by evolutionary state. Unfortunately this picture cannot be embraced with certainty. Kraft et al. (1993) noted that when the field stars of Fig. 8 were divided into two groups by luminosity, there appeared to be no statistically significant difference in the mean value of either [O/Fe] or [Na/Fe]. The sample of more highly evolved field giants was, however, rather small, and the determination of absolute magnitudes for field giants is subject to uncertainties in reddening and metallicity. More work is needed, and resolution of the problem will no doubt depend on the determination of accurate oxygen and sodium abundances for cluster stars lying in the same range of T&if and Mbol as the field stars.
+Kraft et al. (1993) also proposed that stellar angular momentum is the regulator of the degree of deep mixing experienced by globular-cluster giants at a given advanced evolutionary stage, and that the differences in the degree of oxygen depletion seen in M13 versus M3 giants is the result of a difference in angular momentum. This may also be the driving force behind the difference in horizontal branch morphology between M3 and M13, in which case age cannot be assumed to be the only mechanism driving the second parameter effect. Against this view are the results of the stellar
+
+evolutionary calculations of Deliyannis et al. (1989) which show that rotation has little effect on the ratio of core mass to total mass among stars about to experience the helium core flash, and thus that rotation is not the probable driver of the second parameter. On the other hand, there is the strange case of NGC 2808, which has both a red and blue HB, and one wonders how such a dichotomy could be driven by age alone (Rood et al. 1993). Moreover, even if rotation by itself plays no direct role in delaying the helium core flash, it is possible that rotation could drive indirect effects, e.g., an increase in the mass loss rate near the red giant tip (Rood 1993). As mentioned earlier, these remarks do not challenge the notion that age is an important variable driving the second parameter effect in the Galactic halo: we caution only that other "second parameters" may be at work in some clusters (cf. Buonanno 1993).
+Another important point needs emphasis. While it is true that the existence of a Na versus O anticorrelation can no longer be cited as incontrovertible evidence in favor of primordial scenarios, neither can deep mixing and dredgeup be cited as the sole driver of abundance variations among globular-cluster stars. We recall that CN variations exist among main-sequence stars in both 47 Tue and NGC 6752: these cannot be due to mixing and almost certainly must be explained by primordial variations in [N/Fe]. Most recently, Briley and Smith (1993) studied the CH, CN, and NH bands in a sample of Ml3 and M5 bright giants that had previously been studied for oxygen and sodium abundances (Kraft et al. 1992; Sneden et al. 1992). They concluded that among the Ml3 giants, [N/Fe] was strongly correlated with [Na/Fe] and anticorrelated with [O/Fe], as expected on a purely mixing and dredgeup scenario. However, the M5 giants revealed a more complex picture, in that among CN-weak giants, they found C-N-0 relationships similar to those seen in Ml3; however, the CN-strong giants exhibit no correlation between CN-band strength and the abundance of either oxygen or sodium. They inferred that the abundance excesses of the CN-strong stars required the existence of ab initio abundance variations in nitrogen, in agreement with the results inferred from the study of main-sequence stars in 47 Tue and NGC 6752.
+Finally, a word or two might be said about the implications of Galactic globular-cluster abundance anomalies on the interpretation of the integrated spectra of extragalactic stellar populations. The anomalous behavior of CN in the integrated spectra of M31 globular clusters compared with Galactic globular clusters in a plot of CN band versus Mg line strengths has been known for some time (Burstein et al. 1984; Brodie and Huchra 1991). But interpretation of the effect is not obvious in the light of the results just noted on M5 and Ml3 giants, and studies of CN-band strengths among M3 and Ml3 giants (Langer et al. 1992). We know, for example, that M3 giants are predominantly CN weak whereas Ml3 giants are mostly CN strong. But CN-strong giants in Ml3 appear to be the way they are because they have dredged up C-->N and O-^N processed material on a significantly large scale. On the other hand, M5 giants are predominantly CN strong (Smith and Norris 1983), and as we have seen above, this effect is partially driven by an
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+564 KRAFT
+ab initio overabundance of nitrogen. It would seem therefore that interpretation of CN anomalies in the integrated spectra of globular clusters is somewhat premature until one understands the degree to which the products of O-->N processing have been dredged up in individual stars of one cluster versus another. Both observation and interpretation of [O l] lines in the integrated spectra of extragalactic globular clusters present formidable challenges.
+Anomalies among the heavier alpha elements such as Si, Mg, Ca, and Ti may also cloud the interpretation of integrated spectra of stellar populations having [Fe/H]^-1. These elements generally show a slow rise in the [alpha/Fe] ratios from 0.0 to about +0.3 as [Fe/H] falls from 0.0 to -1.0 (cf., e.g., Edvardsson et al. 1993); below [Fe/H]=-1, the [alpha/Fe] ratios level off at a constant value near +0.3, which appears to be roughly the same, to the level of 0.1 to 0.2 dex, for all four elements (Gratton 1989; Gratton and Sneden 1988, 1991; Sneden et al. 1992; Kraft et al. 1993; Gratton 1993). These results apply equally well to stars in Galactic globular clusters and halo field stars in the vicinity of the Sun. Recently, however, substructure has been found in the abundances of these elements among stars having [Fe/ H]> --1. Thus in a sample of giants in the Galactic nuclear bulge, McWilliam and Rich (1994) find that [Mg/Fe] and [Ti/Fe] ratios are unusually large compared with [Si/Fe] and [Ca/Fe] ratios and Sneden et al. (1994) find a similar effect in the case of Ti among giants in the mildly metal-poor thick disk globular cluster M71. These results may find application in the Ca versus Mg and Fe versus Mg anomalies that appear when comparing line strengths of these elements in integrated spectra of  galaxies, M31 globular clusters, and Milky Way globular clusters (e.g., Faber and Worthey 1993). Obviously much more work on the abundances of these key elements is needed, especially in stars of the Galactic nuclear bulge and in metal-rich thick disk globular clusters, if we are to make progress in understanding the nucleosynthetic history of these extragalactic populations. Indeed, speaking generally, there is little doubt that the origin of abundance anomalies among globular cluster stars is far from understood. Resolution of the problems cited in this brief review remains as a major challenge to observers in the forthcoming "supertelescope" era.
+It is a pleasure to thank Graeme Smith, Mike Bolte, George Wallerstein, and Bruce Carney for their trenchant criticism of a first draft of the manuscript. Helpful discussions with Bob Rood, Mike Briley, Ed Langer, and Chris Sneden are gratefully acknowledged, as is Michele Bivens' careful preparation of the manuscript for publication. Special thanks go to Mike Bolte for providing Fig. 3, and to Nick Suntzeff for assistance with obtaining clean copies of several of the other figures. This review was written with partial support from NSF Contract No. AST 92-17970.
+REFERENCES Armosky, B. J., Sneden, C., Langer, G. ., and Kraft, R. P. 1994,
+AJ, in press Barbuy, B. 1988, A&A, 191, 121 Bell, R. A. 1984, PASP, 96, 518
+
+Bell, R. A. 1991, ASP Conf. Ser., 13, 485 Bell, R. ., Briley, . M, and Smith, G. H. 1990, AJ, ICQ, 187 Bell, R. ., and Dickens, R. J. 1980, ApJ, 242, 657 Bell, R. ., Dickens, R. J., and Gustafsson, B. 1979, ApJ, 229, 604 Bell, R. ., Hesser, J. ., and Cannon, R. D. 1983, ApJ, 269, 580 Bolte, M. 1989, AJ, 97, 1688 Briley, . M. 1993, private communication Briley, M., Bell, R. ., Hoban, S., and Dickens, R. J. 1990, ApJ,
+359, 307 Briley, . M., Bell, R. ., Smith, G. H, and Hesser, J. E. 1989,
+ApJ, 341, 800 Briley, . M., Hesser, J. E., and Bell, R. A. 1991, ApJ, 373, 482 Briley, . M., and Smith, G. H. 1993, PASP, 105, 1260 Briley, . M., Smith, G. H, Bell, R. ., Oke, J. B., and Hesser, J.
+E. 1992, ApJ, 387, 612 Brown, J. ., and Wallerstein, G. 1992, AJ, 104, 1818 Brown, J. ., Wallerstein, G., and Oke, J. B. 1990, AJ, 100, 1561 Brown, J. ., Wallerstein, G., and Oke, J. B. 1991, AJ, 101, 1693 Brodie, J., and Huchra, J. 1991, ApJ, 379, 157
+Buonanno, R. 1993, ASP Conf. Ser., 48, 131 Buonanno, R., Corsi, C. E., Fusi Pecci, F., Hardy, E., and Zinn, R.
+1985, A&A, 152, 65 Burstein, D., Faber, S. M., Gaskell, C. M., and Krumm, . 1984,
+ApJ, 287, 586 Butler, D., Dickens, R. J., and Epps, E. 1978, ApJ, 225, 148
+Campbell, B., and Smith, G. H. 1987, ApJ, 323, L69 Carbon, D. F., Barbuy, D., Kraft, R. P., Friel, E., and Suntzeff, . B.
+1987, PASP, 99, 335 Carbon, D. F., Langer, G. ., Butler, D., Kraft, R. P., Trefzger, C. F.,
+Suntzeff, . B., Kemper, ., and Romanishin, W. 1982, ApJS, 49, 207 Carney, B. W 1979, ApJ, 233, 877 Cohen, J. G. 1976, ApJ, 203, L127 Cohen, J. G. 1978, ApJ, 223, 487 Cohen, J. G. 1979, ApJ, 231, 751 Cohen, J. G. 1980, ApJ, 241, 981 Cottrell, P., and DaCosta, G. 1981, ApJ, 245, L79 Deliyannis, C. P, Demarque, P., and Pinsonneault, M. H. 1989, ApJ, 347, L73 Denisenkov, . ., and Denisenkova, S. . 1990, Soviet Astron. Lett., 16, 275 Dickens, R. J., and Bell, R. . 1976, ApJ, 207, 506 Dickens, R. J., Bell, R. ., and Gustafsson, B, 1979, ApJ, 232, 428 Dickens, R. J., Croke, B., Cannon, R., and Bell, R. A. 1991, Nature, 351, 212 Drake, J. J., Smith, V. V., and Suntzeff, . B. 1992, ApJ, 395, L795 Dupree, A. K, Hartmann, L., Smith, G. H., Rodgers, A. W., Roberts, W H., and Zucker, D. B. 1994, ApJ, 421 542 Faber, S. M., and Worthey, G. 1993, ASP Conf. Ser., 48, 508 Edvardsson, B., Andersen, J., Gustafsson, B., Lambert, D. L., Nissen,  E., and Tomkin, J. 1993, A&A, 275, 101 Faulkner, J. 1966, ApJ, 144, 978 Gingold, R. A. 1974, ApJ, 193, 177 Gratton, R. G. 1987, A&A, 177, 177 Gratton, R. G. 1989, A&A, 208, 171 Gratton, R. G. 1993, ASP Conf. Ser., 48, 246 Gratton, R. G., and Ortolani, S. 1989, A&A, 211, 41 Gratton, R. G., and Sneden, C. 1988, A&A, 204, 193 Gratton, R. G., and Sneden, C. 1991, A&A, 241, 501 Hesser, J. E., Hartwick, F. D. ., and McClure, R. D. 1977, ApJS, 33, 471 Iben, L 1974, ARA&A, 12, 215 Iben, L 1975, ApJ, 196, 525 Iben, L 1976, ApJ, 208, 165
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+ABUNDANCE DIFFERENCES AMONG GLOBULAR-CLUSTER GIANTS 565
+
+Iben, I. 1981, in Physical Process in Red Giants, ed. 1. Iben and A. Renzini (Dordrecht, Reidel), p. 3
+Iben, 1. 1983, ApJ, 275, L65 Iben, I., and Renzini, A. 1984, Phys. Rep., 105, 329
+Kraft, R. R 1967, ApJ, 150, 551 Kraft, R. R, Sneden, C, Langer, G. ., and Prosser, C. F. 1992, AI,
+104, 645 Kraft, R. P., Sneden, C, Langer, G. ., and Shetrone, M. D. 1993,
+AJ, 106, 1490 Laird, J. 1985, ApJ, 289, 556 Laird, J. B., Wilhelm, R. J., and Peterson, R. C. 1991, ASP Conf.
+Ser., 13, 578 Langer, G. ., Boite, M., Prosser, C. F, and Sneden, C. 1993, ASP
+Conf. Ser., 48, 206
+Langer, G. E., Hoffman, R., and Sneden, C. 1993, PASP, 105, 301 Langer, G. E., and Kraft, R. P. 1984, PASP, 96, 339 Langer, G. E., Kraft, R. P., Carbon, D. F, Friel, E., and Oke, J. B.
+1986, PASP, 98, 473 Langer, G. E., Suntzeff, N. B., and Kraft, R. P. 1992, PASP, 104,
+523 Lee, Y. -W. 1993, ASP Conf. Ser. 48, 142 Lehnert, W. D., Bell, R. ., and Cohen, J. G. 1991, ApJ, 367, 514 Libbrecht, K. G., and Morrow, C. A. 1991, in Solar Interior and
+Atmosphere, ed. . . Cox, W. C. Livingston, and M. S. Matthews (Tucson, University of Arizona), p. 479 Lloyd Evans, T. 1975, MNRAS, 171, 647 Lloyd Evans, T. 1978, MNRAS, 182, 293 Luck, R. E., and Bond, H. E. 1985, ApJ, 242, 559 McWilliam, ., Geisler, D., and Rich, R. M. 1992, PASP, 104, 1193 McWilliam, ., and Rich, R. M. 1993, AJ, submitted Mukheriee, K., Anthony-Twarog, B., and Twarog, B. A. 1992, PASP, 104, 561 Norris, J. 1980 in Globular Clusters, ed. D. Hanes and B. Madore (Cambridge, Cambridge University), p. 113 Norris, J. 1981, ApJ, 248, 177 Norris, J. 1987, ApJL, 313, 65 Norris, J. 1988, in IAU Symposium, No. 126, ed. J. E. Grindlay and A. G. Davis Philip (Dordrecht, Kluwer), p. 93 Norris, J., and Freeman, K. C. 1983, ApJ, 266, 130 Norris, J., and Pilachowski, C. A. 1985, ApJ, 299, 295 Paltogiou, G., and Norris, J. 1989, ApJ, 336, 185
+Pardo, R. C. Couch, R. G., and Amett, W. D. 1974, ApJ, 191, 711 Persson, S. E., Frogel, J. ., Cohen, J. G., Aaronson, M., and Mat-
+thews, K. 1980, ApJ, 235, 452 Peterson, R. C. 1980, ApJ, 237, L87 Peterson, R. 1983, ApJ, 275, 737 Peterson, R., Crocker, D. ., and Rood, R. T. 1994, in Hot Stars and
+the Halo, ed. S. Adelman, A. Upgren, and C. Adelman (Cambridge, Cambridge University, in press) Pilachowski, C. 1988, ApJ, 326, L57 Pilachowski, C. 1989, in The Abundances Spread within Globular Clusters, ed. G. Cayrel de Strobel, M. Spite, and T. L. Evans (Paris, Obs. de Paris), p. 1 Pilachowski, C, Sneden, C, and Wallerstein, G. 1983, ApJS, 52, 241
+
+Renzini, . 1977, in Advanced Stages of Stellar Evolution, ed. P. Bouvier and A. Maeder (Geneva, Geneva), p. 151
+Renzini, ., and Fusi Pecci, F 1988, ARA&A, 26, 199 Rood, R.  1972, ApJ, 177, 681 Rood, R. T. 1973, ApJ, 184, 815 Rood, R. T. 1993, private communication Rood, R. T, and Crocker, D. A. 1985, in ESO Workshop on Pro-
+duction and Distribution of CNO Elements, ed. 1. J. Danziger, F. Matteucci, and K. Kjar (Garching, ESO), p. 61 Root, R. T, Crocker, D. ., Fusi Pecci, F, Ferraro, F. R., Clementini, G., and Buonanno, R. 1993, ASP Conf. Ser., 48, 218 Sandage, A. 1986, ARA&A, 24, 421 Sandage, A. R., and Smith, L. L. 1996, ApJ, 144, 886
+Searle, L, and Zinn, R. 1978, ApJ, 225, 357 Schuster, W. J., and Nissen, R E. 1989, A&A, 222, 69 Shetrone, M. D., Sneden, C., and Pilachowski, C. A. 1993, PASP,
+105, 337 Smith, G. H. 1987, PASP, 99, 67 Smith, G. H., and Mateo, M. 1990, ApJ, 353, 533 Smith, G. H., and Norris, J. 1982, ApJ, 254, 149 Smith, G. H., and Norris, J. 1983, ApJ, 264, 215 Smith, G. H., and Tout, C. A. 1992, MNRAS, 256, 449 Smith, G. H., and Wirth, G. D. 1991, PASP, 103, 1158 Sneden, C., Kraft, R. P., Langer, G. ., Prosser, C. F, and Shetrone,
+M. D. 1984, AJ, in press Sneden, C., Kraft, R. P., Prosser, C. F, and Langer, G. E. 1991, AJ,
+102, 2001 Sneden, C., Kraft, R. P., Prosser, C. F, and Langer, G. E. 1992, AJ,
+104, 2121 Sneden, C., Pilachowski, C. ., and VandenBerg, 1986, ApJ, 311,
+826 Stauffer, J., Hartmann, L. W, and Jones, B. F. 1989, ApJ, 346, 160 Stetson, P. B. 1984, PASP, 96, 128 Stetson, P. B. 1993, ASP Conference Series, 48, 14 Suntzeff, . . 1981, ApJS, 47, 1 Suntzeff, . B. 1989, in The Abundance Spread within Globular
+Clusters, ed. G. Cayrel de Strobel, M. Spite, and T. Lloyd Evans (Paris, Obs. de Paris), p. 71 Suntzeff, . B. 1993, in ASP Conf. Ser., 48, 167 Suntzeff, N. B., Friel, E., Klemola, ., Kraft, R. P., and Graham, J. A. 1986, AJ, 91, 275 Suntzeff, . B., and Smith, V. V. 1991, ApJ, 381, 160 Sweigart, ., and Mengel, J. 1979, ApJ, 229, 624 Trefzger, C. F, Carbon, D., Langer, G. ., Suntzeff, . ., and Kraft, R. P. 1983, ApJ, 266, 144 VandenBerg, D. A. 1992, ApJ, 391, 685 VandenBerg, D. A. 1985, in ESO Workshop on Production and Distribution of CNO Elements, ed. I. J. Danziger, F Matteucci, and K. Kjar (Garching, ESO), p. 73 VandenBerg, D. ., and Smith, G. H. 1988, PASP, 100, 314 Wheeler, J. C., Sneden, C, and Truran, J. W. 1989, ARA&A, 27, 279 Zinn, R. 1993, ASP Conf. Ser., 48, 38
+
+© Astronomical Society of the Pacific · Provided by the NASA Astrophysics Data System
+
+

@@ -1,0 +1,3033 @@
+1992ApJ. . .387. .673G
+
+The Astrophysical Journal, 387:673-700,1992 March 10 © 1992. The American Astronomical Society. All rights reserved. Printed in U.S.A.
+
+CARBON, NITROGEN, AND OXYGEN ABUNDANCES IN EARLY B-TYPE STARS
+Douglas R. Gies Department of Physics and Astronomy, Georgia State University, Atlanta, GA 30303
+AND
+David L. Lambert Department of Astronomy, University of Texas, Austin, TX 78712
+Received 1991 July 3; accepted 1991 September 12
+ABSTRACT
+We report on a survey of the C, N, and O abundances in a sample of early B-type stars which was undertaken to test Lyubimkov's claim that CN-cycled material is mixed to the surfaces of these stars during their core hydrogen-burning phase. We have obtained equivalent widths of generally weak lines using high signalto-noise Reticon spectra of 39 stars in four spectral regions. We have derived effective temperatures and gravities for these stars using Strömgren dereddened color indices and Hy line profiles through a comparison with colors and line profiles from Kurucz line-blanketed atmospheres. We have also measured projected rotational velocities using a cross-correlation technique. Abundances have been derived using LTE methods (Kurucz atmospheres and the WIDTH6 program) and using non-LTE equivalent width calculations from Becker & Butler; these methods yield similar results. We find that the He, C, N, and O abundances of the nonsupergiant stars in our sample are very close to the values found for the Orion Nebula, with the notable exception of a few stars which show enhanced N, a signature of CN-cycled material. The supergiants all appear N-rich and probably He-rich.
+We find no compelling evidence for a systematic increase in N abundance with evolutionary age, so we cannot confirm Lyubimkov's claim that mixing occurs generally in main-sequence B stars. However, the Nenriched nonsupergiant stars we have identified may correspond to a subset of B stars predicted by Maeder that show moderate surface enrichment of CN-cycled material through mixing by turbulent diffusion. The fact that the supergiants show surface abundances indicative of only partial mixing of CN-cycled elements suggests that significant mixing can occur in massive supergiants before the red supergiant phase.
+Subject headings: stars: abundances -- stars: early-type -- stars: interiors -- stars: rotation -- supergiants
+
+1. INTRODUCTION
+Recent studies of the C, N, and O abundances of B stars on or near the main sequence have found that these stars generally have a solar-like composition, even in stars with widely varying Galactocentric distances (Gehren et al. 1985; Brown et al. 1986; Lennon et al. 1990). However, in a surprising series of papers, Lyubimkov (1984, 1988, 1989, 1991) has presented detailed evidence that the atmospheres of many normal B stars are unexpectedly contaminated with CN-cycled products, i.e., atmospheres having He and N overabundances and C underabundances. In the first paper, Lyubimkov (1984) calculates N abundances for 36 B stars based on equivalent widths of the N il AA3995 and 4630 lines as measured by Kane, McKeith, & Dufton (1980) and Duftoh, Kane, & McKeith (1981a). These observed equivalent widths were compared with the non-LTE predictions of Dufton & Hibbert (1981). The appropriate model atmospheres (reff, log g) and corresponding set of predicted equivalent widths were selected using the photometric [cj and ß indices and a calibration of these based on non-LTE atmospheres. The N abundance was then derived from the Dufton & Hibbert grid assuming zero microturbulence (£ = 0 km s"1) and a gravity log g = 4.0. In addition, Lyubimkov determined the masses and evolutionary ages of the individual stars by plotting their position in a (Teff, log g)-plane against evolutionary tracks (Becker 1981 ; Brunish &Truran 1982).
+Lyubimkov's striking discovery that the N abundance increases with evolutionary age was, he points out, overlooked
+673
+
+in the original abundance papers, which concentrated on the mean N abundance in the sample. For the most massive stars in his study (13-20 M0), Lyubimkov finds the N abundance to increase from log e ~ 7.6 to log e ~ 8.6 in less than 10 million years [abundances are given in the usual scale: (X) = n(X)f n(H), with log e(H) = 12.0]. The N increase is slower at lower masses: d log e(N)/di æ 0.15 for 13-20 M0, 0.06 for 9.9-12.3 M0, and 0.024 for 5.7-8.5 M0, where time is given in units of 106 yr. The initial abundance, log e(N) ~ 7.6, is close to the observed value in local H n regions, while the extreme abundance, log (N) ~ 8.6, seen in old B stars is similar to that found in more evolved F-K supergiants (Luck 1978; Luck & Lambert 1981). The great majority of F-K supergiants are expected to have evolved not directly from the main sequence, but from red supergiants. The deep convective envelope of a red supergiant is predicted to enrich the atmosphere in CNcycled products from layers that underwent mild H burning on the main sequence (the first dredge-up). Standard stellar models do not predict the appearance of CN-cycled products at the stellar surface prior to the first dredge-up. Lyubimkov's discovery that N abundances in old B stars match those of the F-K supergiants would imply that the outer layers of the stars are so well mixed prior to the first dredge-up that the red supergiant's convective envelope induces no further changes in the surface N abundance.
+If the N overabundances in B stars are due to CN cycling, then C must be underabundant and He possibly overabundant. Through a reconsideration of the He studies of
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+674
+
+GIES & LAMBERT
+
+Vol. 387
+
+Wolff & Heasley (1985), Nissen (1976), and Peterson & Shipman (1973), Lyubimkov (1988) presents evidence for He enrichment: the He surface abundance increases with evolutionary age at a rate dependent on stellar mass, and the total enrichment over the main-sequence lifetime is Ae(He) « 0.030.05 for 6-14 M0 and Ae(He) < 0.01 for masses below 5 M0. Finally, a third paper in the same spirit examines the evidence for C depletion in B stars (Lyubimkov 1989). Lyubimkov reviews the non-LTE problems in certain lines, and shows that the C and N abundances of nine stars with a C abundance based on weak C n lines are roughly correlated in such a way that the sum of the C and N abundances is constant and approximately equal to the solar value. Conservation of the total number of C and N nuclei is a signature of CN cycling.
+The B stars with slight N enrichments may represent an intermediate case between normal B stars and the OBN stars whose spectra display unusually strong N lines (Walborn 1976). Schönberner et al. (1988) have made a detailed non-LTE abundance analysis of four OBN stars, and they find that all four have enriched He, depleted C, enriched N, and normal O abundances. This pattern corresponds to the expected mix for CN-cycled matter, and they suspect that OBN stars show processed matter in their atmospheres due to a combination of mixing and mass loss. Stellar evolution calculations by Maeder (1987a) show that rapid rotation can induce mixing in massive stars by a process of turbulent diffusion; these stars evolve upward along the main sequence as chemically homogeneous objects. Maeder finds that even some moderately rotating stars that evolve normally (toward cooler temperature) will show CN-cycled matter on their surfaces. Mixing could also be promoted by tidal action in close binary systems, and Bolton & Rogers (1978) estimate that at least half the OBN stars are members of close binary systems. In fact, Leushin (1988a, b) finds that C is underabundant and N overabundant in binary stars compared with single early-type stars. Finally, it is possible that some differences in C, N, and O abundances may be due to differences in the progenitor cloud (Dufton 1979).
+Here we report on a program of spectroscopic observations of the B stars undertaken to search for the evolutionary changes in the C, N, and O abundances suggested by Lyubimkov. We have measured equivalent widths for a selection of weak C n, N n, and O n lines which we expect will be relatively immune from problems associated with the microturbulent velocity or non-LTE effects. The observations are described in § 2, and temperatures and gravities for each star are derived in § 3 through a comparison of the observed color indices and the Hy line profiles with predicted colors and profiles from blanketed, LTE model atmospheres. Measurements of projected rotational velocities are given in § 4. We derive abundances using both LTE model atoms (§ 5) and new non-LTE model atom calculations from the Munich group (§ 6). We discuss the resulting abundances of the CN-cycled elements in § 7.
+2. OBSERVATIONS AND EQUIVALENT WIDTHS
+The targets for this study are bright, early-type B stars that are easily accessible to northern observers. The sample includes 39 stars with spectral types between 09 and B3. Most of the target stars are dwarfs and more evolved giants, but we also observed five supergiant B stars. We restricted the sample to stars with projected rotational velocities V sin i < 100 km s_1 in order to avoid line blending in the weak lines we observed. The stars are listed in Table 1 together with spectral
+
+classifications as given in the Bright Star Catalogue (Hoffleit & Jaschek 1982). Sixteen stars in the sample are included in Lyubimkov's (1984) study of N abundances.
+Spectra of all the program stars were obtained in four bands of about 100 Á each that included the Hy, C n, N n, O n, and other absorption lines, and subsets of the sample were observed in three additional bands that included further C n and N n lines plus N i lines (see Table 2). These spectral regions were selected to provide a large number of weak absorption lines within a restricted wavelength range. The spectra were obtained between 1985 December and 1987 December at the University of Texas McDonald Observatory using the 2.1 m telescope and coudé spectrograph. The spectra were made using a 1200 groove mm-1 grating blazed at 6000 Â in first order with a variety of order-blocking filters and grating tilts. The spectral coverage, reciprocal dispersion, and resolution of the spectra are given in Table 2. The detector was a Reticon (RL1728H/20) consisting of a linear array of 1728 15 x 750 micron pixels. The spectra generally have a signal-to-noise ratio in the continuum of 300 per pixel, which was obtained in exposures that never exceeded 1 hour.
+The first step in the reductions was to remove irregularities in the Reticon detector by dividing the stellar spectra by an average flat-field exposure, compiled from all the flat fields taken during the night. The spectra were then rectified to a unit continuum by piecewise-linear fits between line-free selected continuum regions in order to correct for any slope and/or curvature in the data. The resulting spectra for the three longwavelength regions (see Table 2) contained telluric water vapor lines superposed on the stellar spectrum These spectra were corrected for atmospheric line contamination through division by a telluric line spectrum that was constructed from observations of rapidly rotating late B- and early A-type stars (usually the star Regulus). The spectra of the rapid rotators are characterized by sharp atmospheric telluric lines combined with broad stellar absorption lines. We used a Fourier transform filter to extract the broad stellar component, which was then divided out of the rapid rotator spectrum to produce a pure telluric spectrum. A comparison of the program and telluric spectra was made to adjust the line depths of the telluric features and make any zero-point shifts in wavelength before division. Iron arc or Fe-Ne cathode exposures were used to make a wavelength calibration, and the spectra were transformed to a heliocentric wavelength grid. Sample spectra for the three primary O n, N n, and C n line regions are illustrated in Figures 1-3. The figures portray the changes in line strength for main-sequence stars from spectral type B0 to B3 (top to bottom). The O n lines appear strongest near type Bl, while the N ii and C n lines peak between Bl and B2 classes.
+The equivalent widths were measured for some 70 absorption lines in the spectra of each star using an interactive program GETPHD described in McWilliam (1990). This program uses the line broadening of several selected absorption lines to perform least-squares Gaussian fits to the lines of interest. The data and the fits are visually inspected on a terminal and if necessary an interactive fit is made. The chief advantage of this program is that partially blended lines can be fitted by multiple Gaussians to estimate the equivalent widths of the individual components. Gaussian fits were poor in some cases, particularly the broad He lines and lines in rapid rotators, and instead a direct numerical integration of equivalent width was made. All the spectroscopic binaries in our sample were treated as single-lined spectral objects; five targets (HD
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+No. 2, 1992
+
+C, N, AND O ABUNDANCES IN B STARS
+
+675
+
+TABLE 1 Stellar Parameters
+
+Other Spectral
+
+i«//
+
+V sin i £(LT-E1) £(NLT-1E)
+
+HD HR Name Classification [ci] Co (K) log g (km s (km s ) (km s )
+
+886 39 3360 153 16582 779 22951 1123 24131 1191
+
+7 Peg C Cas 6 Cet 40 Per
+
+B2 IV B2 IV B2 IV B0.5 V Bl V
+
+0.137 0.116 22670 4.02 0.152 0.131 22180 3.92 0.102 0.081 23750 4.08 -0.013 -0.043 28850 4.36 0.036 0.007 26440 4.36
+
+26912 1320 /x Tau B3 IV 0.399 0.380 16980 3.75
+
+29248 1463 i4/ Eri
+
+B2 III 0.086 0.064 24110 3.91
+
+30836 1552 7TS Ori B2 III + B2 IV 0.142 0.120 22120 3.59
+
+31237 1567 7T Ori B3 III + B0 V 0.148 0.126 21860 3.51
+
+34078 1712 AE Aur 09.5 V -0.060 -0.093 31420 4.07
+
+34816 1756 35039 1765 35299 1781 35337 1783 35468 1790
+
+A Lep 22 Ori 8 Lep 7 Ori
+
+B0.5 IV B2 IV-V B1.5 V B2 IV B2 III
+
+-0.037 -0.061 29890 4.22 0.181 0.160 21270 3.73 0.076 0.054 24670 4.18 0.083 0.061 24420 4.19 0.129 0.108 22570 3.72
+
+6± 2 21 ± 2 15 ± 2 26 ± 4 75 ± 1 59 ± 31 ± 39 ± 85 ± 30 ± 33 ± 16 ± 0 ± 13 ± 49 ±
+
+2.6 ± 0.3 4.9 ± 0.5 6.1 ± 0.4 4.5 ± 0.1 9.1 ± 1.8
+1.0 ± 1.0 9.4 ± 2.6 9.7 ± 0.7 10.8 ± 1.4 6.9 ± 2.1
+6.7 ± 2.7 4.1 ± 0.8 3.7 ± 0.6 4.1 ± 0.9 7.7 ± 2.6
+
+0.0 ± 1.0 1.0 ± 1.0 3.8 ± 5.1 3.2 ± 6.0 10.2 ± 5.8 8.7 ± 0.6 8.3 ± 4.0 5.7 ± 2.3 11.8 ± 1.5 8.0 ± 0.6 5.6 ± 5.5 3.5 ± 1.2 2.2 ± 1.4 6.3 ± 3.8 5.7 ± 1.0
+
+36512 1855 v Ori 36591 1861 36959 1886 36960 1887 37209 1911
+
+41753 2159 i/ Ori 44743 2294 ß CMa 46328 2387 ^ CMa 50707 2571 15 CMa 51309 2596 L CMa
+
+52089 2618 61068 2928 91316 4133 180163 7298 184171 7426
+
+e CMa p Leo V Lyr 8 Cyg
+
+198478 7977 55 Cyg
+
+205021 8238 ß Cep
+
+206165 8279
+
+9
+2
+
+Cep
+
+207330 8335 7T Cyg
+
+213420 8579 6 Lac
+
+214680 8622 10 Lac 214993 8640 12 Lac 216916 8725 16 Lac 218376 8997 1 Cas
+
+B0 V Bl IV Bl V B0.5 V Bl V B3 V Bl II-III B0.5 IV Bl IV B3 II B2 II B2 III B1 lb B2.5 IV B3 IV
+B3 lae Bl IV B2 lb B3 III B2 IV
+09 V B2 III B2 IV B0.5 IV
+
+-0.073 -0.098 32470 4.29 0.009 -0.016 27380 4.15 0.059 0.036 25380 4.36 -0.036 -0.061 29960 4.30 0.070 0.047 24900 4.19 0.341 0.324 17880 4.06 0.016 -0.008 26630 3.89 -0.003 -0.028 27720 3.99 -0.001 -0.026 27710 4.04 0.210 0.205 17390 2.70 0.014 -0.002 24750 3.65 0.062 0.038 25130 4.05 -0.034 -0.047 24200 3.09 0.366 0.348 17360 3.38 0.387 0.371 17140 3.70 0.082 0.057 16450 2.10 0.023 -0.001 26740 4.16 0.080 0.059 19040 2.61 0.254 0.234 19470 3.49 0.192 0.169 20890 3.56 -0.096 -0.122 34370 4.29 0.047 0.022 25630 3.99 0.088 0.065 24050 3.90 -0.022 -0.052 28390 3.85
+
+29 ± 11 ± 8 ± 31 ± 47 ±
+35 ± 31 ± 12 ± 39 dh 6 38 ± 6
+33 ± 4 18 ± 3 60 ± 2 33 ± 4 28 ± 5
+49 ± 1 28 dh 1 47 ± 43 ± 59 ±
+35 ± 39 ± 14 13 ± 2 44 ± 2
+
+5.7 ± 0.6 5.2 ± 1.0 2.9 ± 2.1 4.3 ± 3.0 7.5 ± 0.8
+2.4 ± 1.5 9.4 ± 3.3 5.9 ± 1.3 6.3 ± 1.3 14.2 ± 3.3
+18.8 ± 2.2 4.6 ± 2.0 24.8 ± 5.4 6.1 ± 2.4 5.6 ± 1.6
+29.6 ± 2.0 7.6 ± 1.5 28.9 ± 2.9 7.1 ± 1.4 5.6 ± 0.8
+12.2 ± 2.2 6.1 ± 2.3 4.5 ± 1.6 10.5 ± 2.2
+
+2.6 ± 2.5 4.4 ± 3.7 2.8 ± 3.7 2.6 ± 3.3 12.3 ± 2.2 1.8 ± 2.6 6.6 ± 4.8 2.4 ± 3.3 4.2 ± 4.6 3.5 ± 1.4 11.5 ± 2.5 4.3 ± 5.2 9.9 ± 4.0 2.0 ± 2.7 1.4 ± 2.6
+8.5 ± 1.1 3.3 ± 3.7 11.2 ± 1.8 5.8 ± 7.6 3.3 ± 5.4
+7.9 ± 7.7 4.4 ± 5.4 3.6 ± 4.6 10.0 ± 4.6
+
+30836, HD 31237, HD 41753, HD 207330, and HD 216916) are listed as single-lined spectroscopic binaries with a quality rating of d or better in the catalog of Batten, Fletcher, & MacCarthy (1989). There was no clear evidence of a secondary spectrum for any of these stars, with the possible exception of HD 31237. The line profile shapes in the spectrum of this star
+resemble an unresolved double-lined spectroscopic binary, but
+
+Line Species
+Hy On N ii Cii C ii, Nil Cii Ni
+
+TABLE 2 Observed Spectral Regions
+
+A Range (Â)
+4287-4394 4618-4724 4960-5065 5092-5196 5645-5749 6486-6587 8642-8732
+
+Reciprocal Dispersio1n (Â pixel' )
+0.071 0.070 0.070 0.070 0.068 0.067 0.060
+
+Resolution (FWHM)
+(Â)
+0.43 0.28 0.21 0.21 0.20 0.20 0.36
+
+Telluric Division
+No No No No Yes Yes Yes
+
+the separation of the components was too small in our spectra to attempt measurements of the individual equivalent widths or the relative fluxes. Thus the equivalent widths (and abundances) for this star should be used with caution.
+Our equivalent width measurements appear in Table 3 under column headings giving the HD number of each star. An entry of "... " in Table 3 indicates that no measurement was made, due either to extreme blending problems or to a lack of available data; a zero entry indicates that no line was visible within the noise limits of the observed spectrum; and a colon following the entry indicates a higher degree of uncertainty in the measurement. Our measurements are compared in Figure 4 with those from photographic spectra of Aller & Jugaku (1958) for HD 886 (y Peg) and Kane et al. (1980) and Dufton et al. (1981a) for several stars in the Lyubimkov sample, and with those from the CCD spectra of Kilian & Nissen (1989) for five other stars. There is acceptable agreement with the Aller & Jugaku sample (filled circles), but the Kane et al. and Dufton et al. equivalent widths (plus signs) appear to scatter above our measurements, perhaps because of the lower signal-to-noise ratio (S/N) in their spectra and their continuum placement. A
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+0o0 E 676
+
+GIES & LAMBERT
+
+Vol. 387
+
+Fig. 1.--Selection of spectra from the primary O n region. Four rectified spectra are displayed (offset by 30% of the continuum) for the spectral type range {from top to bottom) BO (HD 36512), Bl (HD 36959), B2 (HD 886), and B3 (HD 184171) to show how the line strengths change with temperature.
+
+more disturbing trend is that the Kilian & Nissen equivalent widths (open circles) are uniformly 12% stronger than our own. This may be due to differences in continuum placement (the Kilian & Nissen spectra have S/N = 100, as compared with S/N = 300 in our spectra) or scattered light in one of the spectrographs. Our Gaussian fitting technique may slightly underestimate the contribution of the extreme line wings, but this difference must be very small, since equivalent widths measured by direct integration between the wing extremities are virtually identical to those found by Gaussian fitting. Whatever its origin, this 12% difference will yield abundance differ-
+
+ences no greater than 0.1 dex, which is of the same order as the errors in abundance due to uncertainties in the stellar temperatures and gravities, and consequently the discrepancy in equivalent widths is insignificant for this study.
+3. EFFECTIVE TEMPERATURES AND GRAVITIES
+The first step in the abundance determination is to select an appropriate atmosphere for the derivation of theoretical equivalent widths. Our method for estimating the effective temperature, Teff, and the logarithm of the gravitational acceleration, log g, is similar to the approach of Brown et al.
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+0o0 Kr"O
+
+r" No. 2, 1992
+
+C, N, AND O ABUNDANCES IN B STARS
+
+677
+
+oooo
+
+^0 a CM
+
+Fig. 3.--Sample spectra for the same four stars as in Fig. 1, for the primary C n spectral region
+
+(1986) and Wolif (1990), i.e., we use a color index which measures the Balmer jump as an indicator of and we compare observed and theoretical Balmer line profiles to find log g. However, because the color index and width of the Balmer lines are somewhat dependent on both ^ff and log g for the B stars, we used an iterative scheme to arrive at our final results. We begin with an initial guess for ^eff and log g based on the calibration of the color index and Strömgren ß index. Next, we use this derived temperature to construct a grid of Balmer line profiles for a range in log g, and the profile that best matches the observed line width yields a new estimate for log g. Then Teff is derived from the color index assuming the new value of log g, and if the difference between the current and previous temperature estimates exceeds 50°, the cycle is repeated. We found that the scheme usually converged to a solution in less than four iterations.
+Fig. 4.--Comparison of our measured equivalent widths (in mÂ) with those of Aller & Jugaku (1958) (filled circles), Kane et al. (1980) and Dufton et al. (1981a) (plus signs), and Kilian & Nissen (1989) (open circles).
+
+The Teff and log g calibrations of both the color indices and the Balmer line profiles are based on the line-blanketed model atmospheres of Kurucz (1979), which assume local thermodynamic equilibrium (LTE). These models are reasonably secure for main-sequence B stars, but their use for the O stars and supergiants is suspect because conditions in the stellar atmosphere become increasingly non-LTE at higher temperatures and lower gravities (Lennon et al. 1990). We used two calibrations for a temperature determination based on the Strömgren color indices ct and b -- y. These colors were taken mainly from the catalog of Hauck & Mermilliod (1980), with supplemental data from Oblak & Chareton (1980) (for HD 36959 and HD 36960) and Crawford, Barnes, & Golson (1970) (for HD 51309). No color corrections were made for the spec-
+troscopic binaries in the sample. First, we used the calibration of Lester, Gray, & Kurucz (1986) to estimate Teff for an assumed log g and an observed, reddening-free color index [cA] which is given by
+
+Cci] = ci -- 0.2(b -- y).
+
+(1)
+
+The color index [cj for very low gravities (supergiants) was taken from the Kurucz models calculated by Fitzpatrick (1991). Next we made a second estimate of Teff using the calibration of Balona (1984) for an assumed log g and a different dereddened color index, c0, which is obtained from
+
+c0 = G - 02AE{b - y),
+
+(2)
+
+where E(b -- y) = (b -- y) -- (b -- y)0 and the subscript zero represents the dereddened value. The c0 and E(b -- y) terms are found iteratively (Crawford 1978) through an empirical relation between c0 and (b -- y)0. We derived a linear relation for these two quantities using the data given in Table 2-3 of
+Underhill & Doazan (1982), but for the supergiants we relied on the relationship given by Shobbrook (1976). The derived
+values of [cx] and c0 are listed in Table 1. The temperatures from these two calibrations generally agreed within a few
+hundred degrees, and so we used the average temperature.
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+ooo Kr"O or"o oo
+
+ft
+
+Line (Â)
+
+Hel Hel Hel He II CII CII CII CII CII CII CII CII CII cm cm
+N II N II N II N II N II N II N II N II N II N II N II Nil N II N II N II N II N II N II N III N III OII OII OII OII OII OII OII OII OII OII OII OII OII Ne I Al III Al III Si II Si II Si III Si III Si IV Si IV S II SU S II S II SU SU S II S II Fell Fell FelII FelII FelII
+
+4713.2 5015.7 5047.7 4685.7 5137.3 5139.2 5143.5 5145.2 5151.1 5648.1 5662.5 6578.0 6582.9 4647.4 4665.9 4630.5 4643.1 4987.4 4994.4 5001.1 5001.5 5002.7 5005.1 5007.3 5010.6 5025.7 5045.1 5175.9 5666.6 5676.0 5679.6 5686.2 5710.8 4634.2 4640.6 4638.9 4641.8 4649.1 4661.6 4673.7 4676.2 4696.4 4699.2 4701.2 4703.2 4705.4 4710.0 5160.0 6506.5 5696.6 5722.7 5041.0 5056.0 4716.7 5739.7 4631.3 4654.3 4991.9 5009.5 5014.0 5027.2 5032.4 5103.3 5142.3 5647.0 5018.4 5169.0 5063.4 5156.1 5193.9
+
+TABLE 3 Equivalent Width Measurements (mÂ)
+
+886 3360 16582 22951 24131 26912 29248 30836 31237 34078 34816 35039 35299
+
+248 262 275 176 222 196 285 267 247 243 251 256 269
+
+265: 294: 297 273: 253: 178: 284: 333: 342: 262 260 290 252
+
+173 182 179 155 157 95 172 189 220: 114 139 181 167
+
+0 3 4 61 49 0 0 0 0 747 206 0 5
+
+10 11 8 3 0
+
+8 14
+
+0 0 12 8
+
+13 12 8 1 0
+
+11 18 iö 0 0 13 11
+
+31 30 23 24:
+
+7: 34: 43
+
+0 16 31 27
+
+53 51 47 30:
+
+11 60 72
+
+0 37 56 50
+
+36 32 31 19 22 5: 37 40 41 0 15 36 31
+
+20 25:
+
+15: 0
+
+20
+
+25 24 lï
+
+21:
+
+0 0
+
+9 27 22
+
+157 187
+
+102
+
+279 278
+
+189 127
+
+132 149
+
+64
+
+209 209
+
+155 106
+
+12 11 20 87:
+
+6: 38 21 41: 241 175 12 29
+
+3 5 4 15
+
+0 6 0 8 56 33 2 4
+
+54 86 98 49
+
+30 98 90
+
+20: 46: 59 68
+
+32 55 70 30: 7: 11: 70: 45: 1*9: 3 20: 34 42
+
+8 17 20 7 0 0 12 13 8 0 6 7 8
+
+19 31 37 20 21 0 32:
+
+0 17 15 22
+
+37: 55: 56: 24
+
+31:
+
+4 20: 29: 44:
+
+43: 72: 70: 51
+
+89:
+
+6 38: 49: 51:
+
+12 24 31 35
+
+23
+
+0 9 14 15
+
+49 71 75 41 47 0 62 64 45
+
+38 46 57
+
+23 41 40 22 21 0 35 27 7 6 21 21 29
+
+23 44 51 20 29: 0 39 39: 22: 6 19 19 28
+
+15 22 21 5 0 0 21 14 20: 7 4 11 13
+
+34 54 63 29 35 13: 54 51 32: 0 28 30 38
+
+7 8 9 12 0 0 11 6
+
+0 17 5 7
+
+42 74 95:
+
+46 0
+
+54: 56: 0 23 38 50
+
+28: 56 65
+
+31 0
+
+37 48 0 20 25 35
+
+63 98 112
+
+84 20
+
+100 110 18 49 59 72
+
+19: 41 45
+
+42 0
+
+17: 9 10 5 15 22
+
+23 39 58
+
+61 0
+
+21 0 0 20 18 27
+
+0 0 5 11 11:
+
+5 0 0 47 29: 4: 3
+
+0 2 7 69: 25: Ö 9: 0 35: 61: 43: 0 3
+
+42 46 60 73 113 20 99 67 64: 70 123 40 66
+
+58 63 79 104: 136: 17: 135: 99: 128: 106: 160: 54 88
+
+65 74 97: 136:
+
+22: 163: 128: 109: 132: 178: 68 105
+
+39 38 58 73 96 9 97 61 55 69 113 37 64
+
+14 12 20 36 52 8 32 22 20: 42 51 11 27
+
+32 35 49 67 110 0 78 56 67: 53 96 32 55
+
+11 10 13 18 23: 0 20 12: 8 11 22 10 18
+
+39 32 49 79 107 12: 69 43 39 54 111 27 56
+
+8 6 13 23 30 6 26 11 1 13 35 7 17
+
+13 12 15 28 30 3 21 16 17 20 44 12 22
+
+36 35 46 62 89 8 66 52 46 55 98 31 57
+
+19 19 25 40 54 10 38 21 7 24 69 14 33
+
+24 21 27 43 60 8 34 25 24 22 50 17 22:
+
+31 30
+
+0
+
+35 0
+
+37 24
+
+72 90 90
+
+113 0
+
+161 178 91: 133 78 72
+
+54 70 76
+
+60 0
+
+113 124 25 47 56 50
+
+15: 22: 10 0:
+
+46: 11: 34: 9 0 0 21 10
+
+22 27 20 0 Ö 92 24 50 25 0 0 28 11
+
+17: 21 24: 16: 23: 0 31: 15: 0 0 16 14: 25:
+
+69 75 89
+
+108 0
+
+167 178 37 103 69 79
+
+2 0 0 17
+
+0 *Ö 0
+
+87: 45: 5 3
+
+2 5: 17 20 12 0 8 0 iö 100 53 0 8
+
+12 16 15 0 0 27: 13 20 7 0 0 17 8
+
+20 25 16 0
+
+17 12 11:
+
+0 0 27 12
+
+39: 53: 38 15: 12: 46: 51: 48: 14: 0 0 56 32
+
+14 15 16 0 0 10 17 15
+
+0 0 16 9
+
+30: 37: 20 0 18: 50 26: 55: 59: 0 0 33: 19:
+
+10 13 10 0 0 0 7 10 0 0 0 15 6
+
+9 6 10 6 0
+
+1:
+
+0 0 0 7 5
+
+38 62:
+
+9Ö: 105:
+
+54
+
+11: 11: 11 0 0 41 8 11 0 0 0 17 8
+
+13 17 14 0 0 45 15 21 17 0 0 20 10
+
+11 6 12 0 0 8: 12 12 10 0 0 18 12
+
+35 40 36 32 39 15 47 48 56 0 18 30 29
+
+15 14 18 9 0 0 30 26 27 0 0 18 13
+
+678 © American Astronomical Society Provided by the NASA Astrophysics Data System
+
+0o0 Kr"O o?o" oo
+
+ft TABLE 3--Continued
+
+Line (A) He I 4713.2 He I 5015.7 He I 5047.7 Hell 4685.7 CII 5137.3 CII 5139.2 CII 5143.5 CII 5145.2 CII 5151.1 CII 5648.1 CII 5662.5 CII 6578.0 CII 6582.9 cm 4647.4 cm 4665.9 Nil 4630.5 Nil 4643.1 Nil 4987.4 N II 4994.4 Nil 5001.1 Nil 5001.5 Nil 5002.7 Nil 5005.1 Nil 5007.3 Nil 5010.6 Nil 5025.7 Nil 5045.1 Nil 5175.9 Nil 5666.6 Nil 5676.0 Nil 5679.6 Nil 5686.2 Nil 5710.8 N III 4634.2 N III 4640.6 Oil 4638.9 Oil 4641.8 Oil 4649.1 Oil 4661.6 Oil 4673.7 Oil 4676.2 Oil 4696.4 Oil 4699.2 Oil 4701.2 Oil 4703.2 on 4705.4 on 4710.0 on 5160.0 Ne I 6506.5 A1 III 5696.6 A1 III 5722.7 Si II 5041.0 Si II 5056.0 Si III 4716.7 Si III 5739.7 Si IV 4631.3 Si IV 4654.3 SII 4991.9 SII 5009.5 SII 5014.0 SII 5027.2 SII 5032.4 SII 5103.3 SII 5142.3 SII 5647.0 Fell 5018.4 Fell 5169.0 Fe III 5063.4 Fe III 5156.1 Fe III 5193.9
+
+35337 35468 36512 36591 36959 36960 37209 41753 44743 46328 50707 51309 52089
+
+270 283 230 242 239 246 250 223 274 236 255 310 311
+
+278 331 258 269 261 268 281: 250: 314 260 312: 400: 389:
+
+163 192 130 150 152 144 166 134 167 119 173 192 204
+
+6 2 602 52 24 192 25 0 42 74 46 0 17
+
+10 10 0 5 8 8 5: 4 9 4: 4: 5 8
+
+14 12 0 9 11 6: 8 4 10 5 8 7 11
+
+30 33 0 22 25 18 32 14: 32 16 28 20: 31:
+
+51 58 16 41 44 43 57 25 54 34 49 43: 64:
+
+30 38 0 27 27 21 39 13 24 20 28 18 33
+
+27:
+
+0
+
+19 8 19
+
+27 *0
+
+11
+
+16 17 7
+
+225 23
+
+114 68
+
+140 75 116
+
+171 0
+
+89 46
+
+110 61 91
+
+33 26: 196: 89 48 150 52: 0 94 93 84 9 65:
+
+3 4: 40 11 5 24 3 0 8 10 5 2 7
+
+68 130 33: 64: 68 51: 86: 24: 86: 96: 114: 94: 192:
+
+43 71: 11 40 41 24: 33: 13: 48: 52 79: 60 115:
+
+7 30 0 7 11 6 6 0 7 13 26 12 20
+
+22
+
+7: 22 23 20 27 7: 27 26 52 28 49:
+
+49:
+
+10 48: 50:
+
+39: 11 48: 40: 81 34 49
+
+50:
+
+17: 53: 48:
+
+73: 16 75: 73: 87 77 147
+
+15
+
+3 14 15 0 9 4 20 20 25 27 51
+
+57 83 21 60 60 46 62 18 86 76 105 76 146
+
+28 36 9 31 34 19 38 10 34 38 46 48 73
+
+28
+
+7 30 29 21 42 8: 41 41 74: 50: 94:
+
+11 26 1 10 15 17 16 3 15 6 27 17 31
+
+38 83 12 40 38 29 48 11 53 48 91 53 129
+
+7 7 19 17 11 16 29 0 20
+
+20 4 13:
+
+104 0
+
+38
+
+62 68 98
+
+76 0
+
+18
+
+52 58 90
+
+144 16
+
+60
+
+119 106 144
+
+68 0
+
+19
+
+28 38 50
+
+60 0
+
+28
+
+32 41 59
+
+0 7 46 9 6 26 9 0 12: 21 14: 4 10:
+
+6 0 62 16 6 37: 0 0 21: 30 29: 4: 20:
+
+65 82 67: 100 74 122 94 14 155 111 139 40 161
+
+86 122: 108 135 101 156: 127 16: 211: 151 187: 54: 221:
+
+106 140: 131: 156 119 166: 149 28: 257: 170 233: 79: 266:
+
+65 71 66 107 77 113 89 13 154 105 127 38 167
+
+24 29: 37 47 29 46 41 4 56 42 46 10 47
+
+55 69: 53 93 67 97 90 9 132: 93 130: 36 132:
+
+17 17 13 31 22 30 24 0 38 28 35 4 26
+
+61 54 69 102 77 122 97 7 128 101 114 18 107
+
+15 12 16 31 22 30 33 0 34 28 33 0 24
+
+23 17 25 38 29 41 34 0 44 40 44 6 32
+
+57 50 60 89 69 96 85 10 127 98 114 18 113
+
+33 28 27 57 42 54 51 5 60 55 61 13 56
+
+30 25 31 47 50 58 50 4 60 63 61 6 50
+
+36 0
+
+17 4
+
+15 9 4
+
+141 40
+
+138
+
+174 89 163
+
+100 13
+
+52
+
+98 65 98
+
+9: 22: 0 0: 11 0
+
+36: 0: 0 0 75: 26:
+
+9 41 1 0 6 0 14 64 0 0 12: 122 22
+
+29: 23: 0 28: 27 18 31: 4: 27 23 17 15: 37:
+
+127 46
+
+115
+
+214 125: 176
+
+*5 0 67: 15: *9 45: *0 0 22: 22: 21: iï: 21:
+
+13 9 70 22 10 39 16 0 10 26 23 6: 18
+
+7 23 2 2 0 0 0 18: 3 0 0 34 6
+
+9
+
+0 0 10 0 6 22 5 6 0 48: 19:
+
+30 32 0 26 33 10 42: 43 31 13 29: 88: 41:
+
+9 14 0 0 8 3 6 14 5 0 0 36 12
+
+17: 49: 2 7: 14:
+
+24: 42 8 0 9 90 27:
+
+6 7 0 1 3 3: 0 13
+
+4:
+
+28 10
+
+5 6 0 1
+
+0 6: Ö
+
+19: 4
+
+67:
+
+Ö
+
+30 1*4 17
+
+0 7 0 0 0 0 14 36 3 0 0 83 13
+
+5 9 0 1 4 0 0 29: 0
+
+85 10:
+
+11 26 0 7 18 3 8 6 1 3 Ö 16 12
+
+34 46 0 37 34 18 38 17 51 31 41 54 67
+
+18 19 0 16 16 14 23 0 26 7 19
+
+35:
+
+679 © American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+TABLE 3--Continued
+
+Line (Â) 61068 91316 180163 184171 198478 205021 206165 207330 213420 214680 214993 216916 218376
+
+He I 4713.2 255 337 234: 208 299 226 323 276 258: 235 280 279 303
+
+He I 5015.7 304: 409: 240: 200 371: 269 387: 294: 279: 268 292 252: 331:
+
+He I 5047.7 171 204: 131 105 225: 145 191: 162 157 102 174 166 173
+
+He II 4685.7 26 47 0 0 0 60 2 0 0 858 25 0 87
+
+CII 5137.3 5 0 7 0 0 2 2 3 0 0 7 7 0
+
+CII 5139.2 0 6 4 0 6 5 7 4 0 0 9 11 5
+
+CII 5143.5 21 20: 15 12 18: 16 21: 22 27 0 27 31 15
+
+CII 5145.2 35 38: 24 17 36: 31 47: 40 50 4: 53 46 35
+
+CII 5151.1 21 17 16 9 25 16 21 19 24 3: 33 34 18
+
+CII 5648.1
+
+2:
+
+13:
+
+25:
+
+CII 5662.5
+
+8
+
+16
+
+CII 6578.0
+
+143
+
+95
+
+173 160 !!.'
+
+CII 6582.9
+
+105
+
+70
+
+129 130
+
+C III 4647.4 57 118: 4 0 21: 88 38: 0 1*8: 227 58: 30 156:
+
+C III 4665.9 11 10 5 0 3 0 7 0 0 38 0 5 15
+
+NII 4630.5 92: 275: 28 22: 237: 88: 183: 189: 53: 20: 51: 72 130:
+
+NII 4643.1 61 171: 17: 9 145: 54: 115: 38: 35: 8: 69: 47 69:
+
+Nil 4987.4 16 34 0 4 31 12 21 0 0 0 15 12 16
+
+NII 4994.4 35: 71: 7 6 63: 36: 45: 17: ... 9 30: 22 38:
+
+NII 5001.1 61: 114: 6:
+
+79: 53: 79: 31: 21: 11: 48: 53: 71:
+
+N II 5001.5 78: 120: 24: 21: 133: 86: 110: 22: 51: 3: 79: 49: 80:
+
+NII 5002.7 31 102: 9 9 95: 29 54: 11: 0 7 23 17 35:
+
+NII 5005.1 76 208: 13 9 183 83 144 32 36 14 74 57 103
+
+NII 5007.3 45 91: 11 5 98 43 67 22 24 7 39 28 48
+
+NII 5010.6 57 152 11 7 143: 53 92: 16: 33: 4 44: 27 55:
+
+NII 5025.7 18 52 11 0 40: 21 25: 8: 0 14 17 14 24:
+
+NII 5045.1 62 225: 8 10 167: 72 128: 24 39 9 58 41 88
+
+NII 5175.9 14 16 ... 0 7 15 10
+
+9 10
+
+NII 5666.6
+
+293
+
+84
+
+76
+
+NII 5676.0
+
+218:
+
+68
+
+55
+
+NII 5679.6
+
+417:
+
+117
+
+Ill
+
+NII 5686.2
+
+141
+
+41
+
+34
+
+NII 5710.8
+
+152
+
+37
+
+37
+
+N III 4634.2 15 30: 0 0 4 21: 0 Ö Ö 47: 0 0 29:
+
+N III 4640.6 21 69: 0 3 7: 36: 14: 0 3: 67: 2: 5 55:
+
+O II 4638.9 94 187 21 16 65 114 111: 54 40 61 138 73 173
+
+OII 4641.8 126 329: 27: 13 110: 151: 184: 49: 59: 84: 156: 94 243:
+
+OII 4649.1 150 390: 39: 20: 137: 183: 226: 74: 99: 111: 132: 114 278:
+
+OII 4661.6 98 200 16 6 63 109 115 37 39 45 119 69 179
+
+OII 4673.7 39 66: 11 5: 22: 36 34: 0 18: 33 53 24 59:
+
+OII 4676.2 83 187: 10 9 60: 97 103: 29 42: 37 108 56 150:
+
+OII 4696.4 25 33: 0 0 10 35 20 0 0 9: 40: 15 32:
+
+OII 4699.2 88 111: 8 5 32 110: 63 26 35: 35 111: 60 128
+
+OII 4701.2 26 21: 0 0 10 28 18 11 10: 5 29: 16 34
+
+OII 4703.2 33 35: 0 4 8 42 19 13 14: 12 39: 22 40
+
+OII 4705.4 82 125: 9 6 34 88 67 21 36: 43 95: 59 128
+
+OII 4710.0 50 59 10 5: 16 58 28 17 18 13 63 37 69
+
+OII 5160.0
+
+71 9 0 17 54 33 5 29 11 39 32: 54
+
+Ne I 6506.5
+
+3
+
+5
+
+10 20
+
+A1 III 5696.6
+
+224
+
+129
+
+148
+
+A1 III 5722.7
+
+125
+
+70
+
+105
+
+Si II 5041.0 12: 29 45: 46: 45 0 23: 40: 0 0 14: 12: 0
+
+Si II 5056.0 11 0 80 97 58 0 36 75 30 0 20 18 0
+
+Si III 4716.7 26: 29: 5: 0 15: 21: 15: 0 3: 0 46 32: 18:
+
+Si III 5739.7
+
+355
+
+134
+
+155
+
+Si IV 4631.3 14: 60: 0 0 15: 6: 12: Ö Ö 78: 36: 0 3:
+
+Si IV 4654.3 16 41 8 0 3: 24 14: 0 0 95 9 7 28
+
+S II 4991.9 5 7 24 28 33: 2 17 33: 0 0 8 7 8
+
+S II 5009.5 9 29 26 26 33: 3 19: 32: 0 0 12: 14 0
+
+SII 5014.0 40: 9: 62: 41 70: 27 59: 84: 51: 0 51 37 11:
+
+SII 5027.2 5 2 23 17 42: 1 24: 35: 0 0 10 10 6:
+
+SII 5032.4 7: 15: 53 55 91 ... 43: 57: 42 0 16: 26: 0
+
+SII 5103.3 0 15 24 19 34 0 6 25 0 0 0 0 0
+
+SII 5142.3
+
+0 13 9 11: 0 5: 10 0 0
+
+SII 5647.0
+
+23:
+
+24:
+
+Fe II 5018.4 0 0 54 48 64: 2 31 34 22: 0 6 10 0
+
+Fe II 5169.0 0 8 52 51 63 0 33: 46 18 0 7 10
+
+Fe III 5063.4 8 9 0 3 26 10 26 8 0 0 15 12 0
+
+Fe III 5156.1 36 92 30 11 105 38 90 27 31 0 49 37 45
+
+Fe III 5193.9 19 21 ... 0 25 10 39
+
+28 21
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+0o0 Kr"O
+
+or"o
+
+C, N, AND O ABUNDANCES IN B STARS
+
+681
+
+oo
+
+The primary feature for the gravity determination was the
+
+^ Hy profile. For a given test temperature, a set of model Hy
+
+^ profiles were constructed from the tabular data in Kurucz
+
+(1979). The model profiles were first broadened to include the
+
+^ effects of rotation (according to the simplified scheme using a
+
+linear limb-darkening law as described in Gray 1976), macro-
+
+turbulence (assumed to be a Gaussian distribution with a standard deviation of 0, 5, and 10 km s-1 for dwarfs, giants, and
+
+supergiants, respectively; see Ebbets 1979), and slit projection
+
+(equivalent to 0.43 Â FWHM). The model profiles were then
+
+re-rectified in the same way as the observed profiles by fitting a
+
+straight line through the intensity levels at positions 34 Â blue-
+
+ward and 23 Â redward of line center, the adopted rectification
+
+zones nearest to Hy. The observed profile was transformed to
+
+the same wavelength grid as the model by including velocity
+
+shifts due to the Earth's motion and the star's radial velocity. The best-fit model is found by measuring the x2 difference
+
+between the observed and model profiles and then determining the minimum in/2 as a function of log g. The central 3 Â of the profile was omitted from the calculation of /2 to avoid non-LTE problems. Furthermore, other sections in the profile marred by weak absorption lines were omitted from the /2 calculation through an iterative process of deleting observed points that fell significantly below the model profile for the /2
+
+Fig. 6.--Comparison of the photometrically derived effective temperatures (K) using the Lester et al. (1986) calibration {filled circles) and the Balona (1984) calibration {open circles) with the fundamental temperatures derived by Code et al. (1976). The solid diagonal line represents a one-to-one relationship, while the dashed line gives the linear fit to the Lester et al. temperatures; the Code et al. temperatures are uniformly higher. The discrepant low point corresponds to Spica.
+
+minimum log g. A sample Hy line and model fit are illustrated
+
+in Figure 5 for the star y Peg (HD 886).
+
+We checked the two temperature calibrations for systematic errors by comparing the photometrically derived temperatures with effective temperatures derived by Code et al. (1976) from angular diameter and flux distribution measurements. We calculated temperatures for eight stars in the Code et al. sample spanning the same spectral range as our target stars. Photometric indices were taken from Davis & Shobbrook (1977) and were corrected for binarity in the cases of ß Seo, a Vir, and <5 Seo as described in their paper. The gravities for these eight stars were estimated in several ways: for two stars in our program we used our initial gravities from the Hy fits (log g = 3.7 and 3.8 for HD 35468 and HD 44743); for Spica we took the results in Table 2-10 of Underhill & Doazan
+
+(1982) (log g = 3.7); for £ Oph we used data from Vogt & Penrod (1983) (log g = 3.8); for rj Cen we adopted log g -- 4.0 from the spectral classification (B1.5 Ve); and for the remaining three stars log g was estimated by plotting their positions in a theoretical H-R diagram (using data from Underhill et al. 1979) together with the evolutionary tracks of Maeder & Meynet (1987) (log g = 3.6, 3.8, and 4.0 for ß Cru, <5 Seo, and a Pav, respectively). A comparison of the Code et al. (1976) and derived photometric temperatures is shown in Figure 6. With the sole exception of Spica, the Code et al. temperatures are systematically higher than those produced by either photometric calibration. Thus we adjusted all our photometric temperatures by factors of 1.042 (for the Lester et al. 1986
+
+calibration) and 1.052 (for the Balona 1984 calibration) to
+
+make our temperatures consistent with the Code et al. (1976)
+
+temperature scale. Our derived temperatures and gravities are
+
+listed in Table 1. The tabulated values of Teff include a small
+
+correction applied to all but the supergiant stars (described in
+
+§ 7.1). From the scatter in Figure 6, we estimate that the errors
+
+in the derived temperatures range from 2% to 4% over the cool
+
+to hot range of our sample. Errors in the gravities are esti-
+
+mated to be A log g = 0.1. Wolffs (1990) study of the B stars
+
+provides the best comparison of derived gravities, since her
+
+methodology is very similar to our own. From the eight stars
+
+common to both programs, we find a mean difference of
+
+<log 0(GL) -- log g(Wolff)> = 0.06, with a standard deviation
+
+of 0.10, identical to our error estimate.
+
+Our derived (uncorrected) temperatures are compared with
+
+recent published values in Figure 7. The largest overlap is with
+
+the survey of Underhill et al. (1979) (open circles), which is
+
+based on absolute photometry (to estimate angular sizes) and
+
+the integrated flux. We also plot the temperatures for eight
+
+stars in common with the sample of Wolff (1990) (filled circles).
+
+Fig. 5.--Spectrum of HD 886 (y Peg) in the region of Hy. The solid line depicts the observed spectrum (mainly Hy plus O ii features), while the dashed line shows the theoretical Hy profile from the grid of Kurucz (1979) that provides the best fit in our temperature and gravity calibration scheme.
+
+Both of these works have relied on Kurucz model atmospheres, and the agreement with our temperatures is satisfactory. The temperatures derived by Kane et al. (1980) (plus signs) from the Strömgren indices [cj and ß are slightly higher than
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+0o0 Kr"O J 682
+
+GIES & LAMBERT
+
+Vol. 387
+
+had to be omitted in the cases of the hottest and coolest stars in the sample, since the C n lines become too weak at these temperature limits. We used a cross-correlation of the form
+
+r n
+
+-|l/2
+
+Fj =
+
+- C¡)7«J >
+
+(3)
+
+Fig. 7.--Comparison of our derived effective temperatures (K) with those of Underhill et al. (1979) (nonsupergiants: open circles; supergiants: crosses), Wolff (1990) {filled circles), Kane et al. (1980) {plus signs), and the non-LTE studies of Grigsby (1990) {triangles) and Kilian et al. (1991a) and Kudritzki & Hummer (1990) {squares). The agreement is satisfactory except at the hot end and among the supergiants.
+our own because they are based on hydrogen-only blanketed atmospheres. Kilian et al. (1991a) have determined temperatures for five stars in common with our sample using non-LTE calculations of Si line strengths (squares), and their temperatures are also slightly (3.5%) higher than our own. We will return to the temperature calibration issue in § 7.1.
+The only significant deviations are found where non-LTE effects become important, i.e., among the O-type stars and the supergiants. We have plotted (squares) temperatures for the O stars AE Aur (HD 34078) and 10 Lac (HD 214680) from the non-LTE studies listed in Kudritzki & Hummer (1990). These temperatures from the Munich group are significantly higher than our own. On the other hand, another non-LTE study by Grigsby (1990) based on line-blanketed atmospheres yields temperatures at the high end that are lower than ours (triangles). It may be necessary to revise the temperatures of the hottest stars once these differences in the models are resolved. Finally, we have plotted the Underhill et al. (1979) temperatures for the five supergiants in our sample (crosses), which are some 3000° cooler than our own. The supergiant temperatures we derive appear to be in better accord with the temperature scale given by Flower (1977). We adopt our derived supergiant temperatures, but we discuss below (§ 5) how lower temperatures will change the abundance results.
+4. PROJECTED ROTATIONAL VELOCITIES
+If rotational mixing promotes the appearance of CN-cycled products on the surfaces of hot stars, then there could be a correlation between the abundances of these elements and rotation period. Consequently, we decided to measure the projected rotational velocities for the stars in our sample to derive a homogeneous set of V sin i values from high-quality spectra. The line widths were estimated by measuring the FWHM of cross-correlation functions obtained by cross-correlating each spectrum with the spectrum of y Peg (HD 886), one of the most sharp-lined stars in the sample. The cross-correlation functions were calculated for three spectral regions: 4627-4717 Â (O n), 4999-5050 Â (N n), and 5120-5163 Â (C n). The latter region
+
+where s is the individual spectrum, c is the standard y Peg spectrum, and n is the number of data points in the spectral range. Each cross-correlation function was rectified to a unit continuum by fitting a line to the function in regions adjacent to the prominent minimum, and the FWHM was measured relative to the continuum. Since the broadening of the crosscorrelation function reflects the broadening of both the test spectrum and the standard spectrum, we calculated a corrected half-width Hc to represent the broadening of the test spectrum alone :
+Hc = (Ht est 2 - H yPeg 2 )V2 , (4)
+where Htest is the measured half-width of the cross-correlation function and HyPeg is the measured half-width of the crosscorrelation of the y Peg spectrum with itself, divided by y/2. We calculated the mean and standard deviation of the halfwidth for each star from the measurements in the three spectral regions. The individual measurements were generally in good agreement, except in the cases of two stars, HD 214993 and HD 22951. Our spectrum of HD 214993 in the 4670 Â region shows moderately broad line profiles that are marked by a subtle, slightly redshifted emission reversal near line center. However, the profiles in the other two regions (obtained on different nights) appear much more sharp-lined and show no evidence of a core reversal. This star (12 Lac) is a /? Cep variable and a known line profile variable (Smith 1977); ß Cep itself (HD 205021) displayed consistent line broadening in each region. Our spectrum of HD 22951 in the 5025 Â region shows that both He i 25015 and He i 25047 had extended red wings which are absent in other lines; the wings could be due to a binary companion.
+We calibrated the relationship between these crosscorrelation half-widths and V sin i by calculating crosscorrelation functions for a grid of rotationally broadened line profiles. We took the width of the sharpest-lined star in our sample, HD 35299, to represent a star with negligible rotational line broadening, so that its measured half-width represents the total broadening from all other sources (instrumental and intrinsic to the line formation process). This half-width (13.1 km s-1) was used to construct a standard line profile with a Gaussian shape. We assume for simplicity that the microturbulent and macroturbulent broadening in the standard star provides a reasonable match of these broadening mechanisms in the entire sample. This assumption is poor for the supergiants, since their macroturbulent broadening is large (Ebbets 1979), but the particular supergiants in our program have moderately large rotational broadening, and consequently our procedure will produce only slight overestimates ( < 10 km s"1) of their projected rotational velocities. We then formed a grid of rotationally broadened line profiles using the method outlined in Gray (1976) for a linear limb-darkening law with a coefficient e = 0.28 (an appropriate value for main-sequence stars at the center of our temperature range; Wade & Rucinski 1985). Each model profile was convolved with the standard Gaussian profile to account for the other broadening processes and was renormalized to the same equivalent width as the standard profile. We then calculated cross-correlation func-
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+No. 2, 1992
+
+C, N, AND O ABUNDANCES IN B STARS
+
+683
+
+Fig. 8.--Comparison _o1f our measured projected rotational velocities V sin i in units of km s with published measurements from Uesugi & Fukuda (1970) (open circles) and Slettebak et al. (1975) (filled circles).
+lions for the model profiles in the same way as we did for the observations. With these data, we formed a calibration curve between measured half-width and model V sin i, and we interpolated within this curve to finally derive the projected rotational velocities. Our results are listed in Table 1 and are compared with published values in Figure 8. The five filled circles in this diagram represent stars that were also measured by Slettebak et al. (1975), and from the good agreement between results our velocities appear to be consistent with their system of measurement. The open circles represent velocities listed in the catalog of Uesugi & Fukuda (1970), and there is reasonable agreement with these published values, with the possible exception of HD 24131, for which we find V sin i = 75 km s-1, compared with the catalog value of 140 km s_1.
+5. LTE ABUNDANCES
+We initially derived abundances for each measured equivalent width using Kurucz (1979) line-blanketed atmospheres and the Kurucz WIDTH6 program. The temperatures and gravities determined in § 3 were used to construct a model atmosphere for each star by interpolation in the solar abundance atmospheres tabulated in Kurucz (1979). The four Kurucz models that bracketed the assumed temperature and gravity of a given star were transformed to a uniform depth scale (based on the Rosseland optical depth), and then a bilinear interpolation was made for the logarithm of temperature, pressure, and electron density as a function of depth. The WIDTH6 calculation of line equivalent width included the dominant sources of continuous opacity for hot stars, and oscillator strengths, multiplicities, and energy levels for each line were generally taken from Kurucz & Peytremann (1975) and from Wiese, Smith, & Glennon (1966), where greater accuracy was available. In addition, we used atomic data from Artru et al. (1981) for the Si n >U5041 and 5056 transitions. The radiative damping widths for each line were calculated from a summation of the Einstein coefficients (for an average Teff = 25,000 K), but in cases where there were insufficient data for the summation, we relied on published values from Peters (1976) and Hardorp & Scholz (1970). The damping widths for
+
+quadratic Stark broadening were taken from a variety of experimental compilations (He i: Konjevic, Dimitrijevic, & Wiese 1984a; C m, N m, Si n: Konjevic, Dimitrijevic, & Wiese 1984b; Ne i: Konjevic & Roberts 1976; N n, O n, S n: Konjevic & Wiese 1976; Si m: Dimitrijevic 1983; A1 m: Dimitrijevic & Konjevic 1981 ; Si n: Puric et al. 1983), and where experimental data were unavailable, we used the tables and approximate formula for ions given in Griem (1974). The oscillator strengths and radiative and quadratic Stark damping widths (in units of s'1) are listed in Table 4. Atomic data for other transitions in the spectra of B-type stars have been tabulated by Kilian, Montenbruck, & Nissen (1991b).
+In order to determine an appropriate value for the microturbulent velocity, £, we ran the WIDTH6 program for three different ^-values to find the value that produced a zero slope in a diagram of log abundance versus equivalent width, i.e., a microturbulent velocity that would bring the abundance results for strong lines into consistency with those for weak lines. We determined Ç for each of the C n, N n, and O n species (and sometimes S n), and we adopted a mean £ (weighted by the number of lines in each species) that was used in the final abundance determination for all lines. These microturbulent velocities are listed in Table 1. We also determined ^ in a similar way using non-LTE (NLTE) calculations (§ 6). With the exception of the five supergiants, the mean microturbulences, <^(LTE)> = 6.2 km s_1 and <^(NLTE)> = 5.0 km s_1, are physically plausible in the restricted sense that they do not exceed the sound speed in these stellar atmospheres. The LTE results for the supergiants give <^(LTE)> = 23 km s_1, which is obviously supersonic. Introduction of non-LTE reduces £ for the supergiants, yielding <£(NLTE)> = 8.9 km s'1, which is just subsonic (see Fig. 9). Thus the large LTE «^-values for the supergiants should probably be regarded as an indication of departures from LTE. There is a suggestion from Table 1 that Ç increases with effective temperature; for example, <^(NLTE)> is equal to 4 km s'1 at Teff = 17,000 K and increases to 6 km s'1 at 30,000 K for the nonsupergiants. Dufton, Durrant, & Durrant (1981b) have shown that a determination of Ç using diagrams of log abundance versus equivalent width can lead to overestimates of £ of
+Fig. 9.--Comparison of the derived microturbulent velocities from the LTE analysis and from the non-LTE analysis. The filled circles represent the supergiant stars, while the open circles are used for the rest. The non-LTE values of £ are uniformly lower than the LTE values, especially for the supergiants.
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+684
+
+GIES & LAMBERT
+
+TABLE 4 Atomic Data
+
+Spectral Line (Á) log gf Ref.* log gf (BB)
+
+Tr
+
+TS
+
+He I 4713.200 -0.973 W
+
+8.28
+
+-4.94
+
+He I 5015.680 -0.820 W
+
+8.84
+
+-5.05
+
+He I 5047.740 -1.602 W
+
+9.29
+
+-4.76
+
+He II 4685.696
+
+1.180
+
+K
+
+9.08
+
+-4.88
+
+C II 5137.257 -0.930
+
+K
+
+900
+
+8.93
+
+-4.46
+
+C II 5139.174 -0.720
+
+K
+
+698
+
+8.93
+
+-4.46
+
+C II 5143.494 -0.230
+
+K
+
+202
+
+8.93
+
+-4.46
+
+C II 5145.165
+
+0.170
+
+K
+
+99
+
+8.93
+
+-4.46
+
+C II 5151.085 -0.200
+
+K
+
+70
+
+8.93
+
+-4.46
+
+C II 5648.070 -0.370
+
+K
+
+404
+
+8.84
+
+-4.59
+
+C II 5662.460 -0.190
+
+K
+
+229
+
+8.84
+
+-4.59
+
+C II 6578.050 0.096 W
+
+23
+
+9.16
+
+-6.15
+
+C II 6582.880 -0.206 W
+
+24
+
+9.16
+
+-6.15
+
+C III 4647.400
+
+0.100
+
+K
+
+9.37
+
+-6.29
+
+C III 4665.860 0.010 W
+
+9.01
+
+-5.49
+
+N I 8682.667
+
+0.400
+
+K
+
+8.83
+
+-6.33
+
+NI 8685.786
+
+0.140
+
+K
+
+8.83
+
+-6.33
+
+N I 8688.535 -0.270
+
+K
+
+8.83
+
+-6.33
+
+N II 4630.540 0.129 W
+
+92
+
+9.22
+
+-6.32
+
+N II 4643.086 -0.280
+
+K
+
+85
+
+9.22
+
+-6.32
+
+N II 4987.377 -0.660
+
+K
+
+34
+
+9.39
+
+-6.23
+
+N II 4994.371 -0.150
+
+K
+
+56
+
+9.39
+
+-6.23
+
+N II 5001.134
+
+0.280
+
+K
+
+62
+
+8.71
+
+-6.28
+
+N II 5001.474
+
+0.450
+
+K
+
+33
+
+8.71
+
+-6.28
+
+N II 5002.702 -0.850
+
+K
+
+65
+
+9.22
+
+-6.77
+
+N II 5005.150
+
+0.600
+
+K
+
+93
+
+8.71
+
+-6.28
+
+N II 5007.328
+
+0.150
+
+K
+
+65
+
+9.39
+
+-6.23
+
+N II 5010.621 -0.500
+
+K
+
+66
+
+9.22
+
+-6.77
+
+N II 5025.670 -0.451 W
+
+8.71
+
+-6.28
+
+N II 5045.099 -0.390
+
+K
+
+88
+
+9.22
+
+-6.77
+
+N II 5175.889
+
+0.500
+
+K
+
+8.92
+
+-4.92
+
+N II 5666.629 -0.020
+
+K
+
+9.20
+
+-6.23
+
+N II 5676.017 -0.340
+
+K
+
+9.20
+
+-6.23
+
+N II 5679.558
+
+0.270
+
+K
+
+9.20
+
+-6.23
+
+N II 5686.212 -0.600
+
+K
+
+9.20
+
+-6.23
+
+N II 5710.766 -0.530
+
+K
+
+9.20
+
+-6.23
+
+N III 4634.169 -0.070
+
+K
+
+10.07
+
+-6.55
+
+N III 4640.644
+
+0.190
+
+K
+
+10.07
+
+-6.55
+
+O II 4638.861 -0.290
+
+K
+
+49
+
+9.09
+
+-6.49
+
+O II 4641.825
+
+0.100
+
+K
+
+52
+
+9.09
+
+-6.49
+
+O II 4649.143
+
+0.350
+
+K
+
+32
+
+9.09
+
+-6.49
+
+O II 4661.643 -0.250
+
+K
+
+42
+
+9.09
+
+-6.49
+
+O II 4673.748 -1.090
+
+K
+
+48
+
+9.09
+
+-6.49
+
+O II 4676.244 -0.380
+
+K
+
+16
+
+9.09
+
+-6.49
+
+O II 4696.358 -1.390
+
+K
+
+36
+
+9.09
+
+-6.49
+
+O II 4699.210 0.408 W
+
+29
+
+9.48
+
+-6.27
+
+O II 4701.230 0.063 W
+
+96
+
+9.15
+
+-5.37
+
+O II 4703.180 0.215 w
+
+74
+
+9.48
+
+-6.27
+
+O II 4705.360 0.560 w
+
+80
+
+9.48
+
+-6.27
+
+O II 4710.040 -0.469 w
+
+9.00
+
+-6.72
+
+O II 5160.020 -0.550 w
+
+9.28
+
+-6.29
+
+Ne I 6506.528
+
+0.030
+
+K
+
+8.96
+
+-6.66
+
+A1 III 5696.603
+
+0.230
+
+K
+
+9.32
+
+-5.76
+
+A1 III 5722.730 -0.070
+
+K
+
+9.32
+
+-5.76
+
+Si II 5041.024
+
+0.185
+
+A
+
+61
+
+9.13
+
+-5.71
+
+Sill 5055.984
+
+0.441
+
+A
+
+18
+
+9.13
+
+-5.71
+
+Si III 4716.654
+
+0.750
+
+K
+
+9.24
+
+-5.28
+
+Si III 5739.734
+
+0.050
+
+K
+
+9.36
+
+-6.20
+
+Si IV 4631.273
+
+1.216
+
+K
+
+14
+
+9.51
+
+-5.05
+
+Si IV 4654.312
+
+1.483
+
+K
+
+80
+
+9.01
+
+-5.05
+
+S II 4991.918 -0.670
+
+K
+
+8.95
+
+-6.25
+
+S II 5Ó09.519 -0.170
+
+K
+
+8.95
+
+-6.25
+
+S II 5013.998
+
+0.160
+
+K
+
+8.95
+
+-5.91
+
+S II 5027.190 -0.720 W
+
+8.10
+
+-6.31
+
+S II 5032.386
+
+0.230
+
+K
+
+8.95
+
+-6.25
+
+S II 5103.291 -0.140
+
+K
+
+8.95
+
+-6.25
+
+S II 5142.330 -0.830 W
+
+8.10
+
+-6.31
+
+S II 5646.979
+
+0.110
+
+K
+
+8.88
+
+-6.78
+
+Fe II 5018.440 -1.524
+
+K
+
+8.95
+
+-6.32
+
+Fe II 5169.033 -1.428
+
+K
+
+8.92
+
+-6.33
+
+Fe III 5063.421 -3.170
+
+K
+
+8.94
+
+-6.38
+
+Fe III 5156.111 -2.230
+
+K
+
+8.92
+
+-6.38
+
+Fe III 5193.909 -3.140
+
+K
+
+8.92
+
+-6.38
+
+* K: Kurucz & Peytremann 1975; W: Wiese, Smith, & Glennon 1966; A: Artruetal. 1981.
+
+1-2.5 km s-1 in high-quality data because of the asymmetric error distribution in log abundance due to the nonlinear shape of the curve of growth. However, even after correction for this bias, we are still left with microturbulent velocities that are significantly greater than zero. Our results show that, contrary to some suggestions (Becker & Butler 1989), the concept of
+microturbulence is not entirely an artifact of the misapplication of LTE. When LTE is replaced by NLTE, Ç is reduced especially for the supergiants, but remains nonzero. Finally, we note that the derivation of microturbulence for the supergiants is not completely self-consistent, since the calculation of the
+
+atmosphere itself depends on an assumed microturbulence (2 km s-1; Kurucz 1979) which affects the total metal line opacity. Fully consistent models would represent an obvious improvement in methodology (Fitzpatrick 1991).
+The errors in £ quoted in Table 1 are the standard deviations based on the scatter in £ between line species. The different line species generally had consistent ^-values, although in some cases so few lines were available of a certain species that we omitted the associated Rvalue from the average. The errors in Ç from the non-LTE analysis are twice as large as those from the LTE analysis on average, and in some cases the error
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+o«O oto
+
+: o o
+
+o d
+
+d d
+
+h)
+
+a
+
+1co0 ^Oí
+
+oó o¿
+
+; L«O oTÍoJ
+
+: es
+
+` oó oó
+
+* oó oó
+
+o o d d d d d o o o o o ooooo ooooo
+
+J. r0H3 0T--3( :. rH tT---J CLOS trHH r'»-Jf Oo
+
+d d
+
+do d d d d
+
+o o o o ( o o oo o o o o o c ooooo toooooo ooot^to OOOOO o o o
+
+LOO OO OrH «rHOOOrOHrHrHaOO rrHHrHrOHCLSOrrHH
+
+es es o es
+
+ddooo ooooo oöddd ddddd ddddd ooooo o < > o d d d d d
+
+OOOOOOOOOO 0000000000 OOOOOOOOOO 000000000 0000000000 0000000000 00 00 00 00 00 00 00 00 00
+
+: : : es :
+
+o o
+
+o o
+
+es es
+
+. es es
+
+o o
+
+: O rH ;
+
+d d
+
+'dd *
+
+es . . es
+
+. o» oo
+
+< O O rH rH o O i
+
+.; roH orH
+
+» O O O O OOOOO OOOOO > O O O o o o o
+
+d d
+
+oo oooo
+
+b-b-t-oo rb es es rH b- m b- b- t-n es o es es »b es o b- to b- es »-t es lo o oo rH b- es o oo os to es es
+
+O O< CrH0 LrHO tCOS 0rH»rbH>rrHHC-OíO trHo 0O3 LOO LOO rCHS LrOHbO~ 0O3 ito b- CO( * W3« -rtHb oOoOoorHHCSbeos es cs cs toI oCS cCo0 oOs rrHH e,s ooooo ooooo ooooo ooooo ooooo ooooo ddddd dddd
+
+b- oo <30 b- b- b- b- b- í b- b- b- b- b- 00 b- b~ b- b" b- b- b~ b~ 00 <
+
+) b- b- 00 b- b- <
+
+0O- CC_O0 LtoO_ 0C3S_ rHHbrHCSeS
+
+0CO3 C0.3S 0O0 erHs OTb CS CS CO CO C0
+
+00 CO030 0CO3SS bCCO0- 0Hto0b nCbOCLOOCLOOCLOOCLOO
+. rH rH .
+
+CLrHOS
+
+Lr0HO3
+
+O0LO3S
+
+O0to3
+
+CO » CS
+
+tCoO tCoO tCoO tCoO bCO-
+
+3 0 0 0 0 (SrHrHrHrH
+
+CLO0 CTOb 0C0S bO- 0O3 brH- bn^btCO0 Ob-rHCO Hb Hb Hb LO LO :. ecos eess ecss
+odd
+
+O0030 O0CO0 CtrOH0 rCtHo0 rbrHHClOS tOrHOrSHOoOOrOb
+
+b0T0b- OrCHS rLtHoO COC00 TOCbS 0003LO0C0O " C0
+
+o00 C0O3 rtHo bCOtHob 0H3b 0to3 Coo0 reHs erHs erHs crHs
+o o o o es rH rH rH
+
+LTE Mean Abundances
+
+HOb OLO OrH OooOHb HrHb Oo LOO LOO ddddd dddd 03 03 to co nb es lo oo nb
+ooooo oooo
+
+: Hesb Hnbb ; l0o0 Hcob Hb<b> bCO- rcHo : cHob tcOo bes- crHo tHOb r0H0 * oó oó oó
+
+: eess tcoo lrHo nlob * oó oó oó oó
+
+ooooo ooooo oooo
+
+.; CrH0 HrHb * o .: OrH bo-
+
+d d
+
+d d
+
+Hb C33 00 LO 03 rH Hb b- 00 Hb CO 03 b- OO Hb LO CO b- Hb C0 Hb b- Hb co co
+
+: OLO COS COO CrHS oCOebs- CrHO C00S OHb OC0OtoCOrHrHb-r-rHJ O00 C00S OrH LOO oCO ooooo `dddd ddddd ddddd ddddd
+
+.: oco o odo bdo.osb-co
+
+) 00 b- 00 00 00 oo aoooooaooo oo oo oo oo c 00 00 00 00 00 00 00 00 00 00 00 b- 00 00 00
+
+. bCO- C0J03 Hbb< O rH rH rH ! d d d
+
+bL~O; bLO; .: bcsrH O O
+
+co co co co eo cococococo coeoeoeoco co co co co co cocococoeo coeoeoeoeo coeoeocoeo co co co co Oc*> Olo Onb C03S rtHo rbH- reHs irH es rH o O rH o O Oto OCS OCOOeoOb- COO OrH CrHO O<30 reHs rCHS too rOH o03 rCHO C03S tOO 0rH3 OtO LOO eo b- rH C OOOOO OOOOO OOOOO OOOOO O O O c ooooo ooooo oooo
+rCHS eCsS rCHS <rH30 O<30 reHs -C*Ob LO/3 rOH tCo0 enbs C<3S0 nCbS Lerst TCbS LCO0 bCS- brH- <e3s0 tOO rHHb CrHJ3 rH HHbb HOb CrHO CC0OrCHSbrH- rOn bCS- LOO ltOo OrH <o30 bCS-CCOOnMbbH-b rrHH rrHH rrHH rrHH OrH rrHH rrHH rrHH rrHH rrHH rrHH rrHH rrHH rrHH rrHH rrHH rrHH rrHH rrHH rrHH rrHH rrHH rrH-i rrHH rrHH rrHH rrH-i rrHH rrHH rrHH OrHrrHH OrHrHrHrHrH rrHH rrHH rrHH rrHH
+
+0t<O300 tOCOO 0LCO0S Lr0HO3 CrrHHO
+
+Cr0H3S H<C3Sb0 Ct0OO0 CbCS0- b<O3-0
+
+tO< 00
+
+CO<303
+
+00C33S
+
+CbCO0-
+
+C<H3Ob0
+
+CrLHOS
+
+0lrOH3
+
+LC03O33
+
+C0OO3
+
+O03 CS
+
+bCLO~O
+
+HbCOb-
+
+C<C3OS0
+
+bO -
+
+O03 C0
+
+<0O330 t<OO30 CCO0I CCiOO brH-
+
+<30 CrHS CLOO CoO OCS Hb O rH C0 Hb
+
+<O30 0C30 t\o CO tO 03 03 C0
+
+CO trHo CeSs Hcsb teos e03s cOo crHo Hcob HebocLOocLOocLóOcLóO ecoô CcOö ceoo tCoO tc-o nb < ^to Oîô irHo lcos rtHo ,d oo ob Sooo^h ^^Í2?h
+
+rH rH rH CS CS CS CS CS CS CS CS
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+a
+
+O O O O o o o o o oooo oooo
+
+o o o ooo
+
+eo co co N i C*) CO CO CO 1-1 CO CO CO CO . co co es co cs cs es es cs CO CO CO t--· i--· 00 CO 00 CS 1--1 . CO CO tH
+
+brH- Cr-St bCN- 0rH0 OOOO oooo
+
+'oooo ooooo ooo oooo
+
+b-b-b»b- b~b-b»b-
+Xb . 00 00 O O es cm . eg . CNJ rH Or-i O00 d d
+
+t^bO"»bC"O0Or-lbC*O b» b- b- b- b>.00 . .00
+
+b-í^00b- b-b-b-b-b-
+
+ b-- b-- b- b- b-b-- b-b-b-
+
+.! :. ik--O» ltOh ; : 50 °°
+
+d d
+
+d d
+
+. 1-H CS CM CS CS CN CS
+
+: <io» xeob ccos  00 b^ b>^
+
+OOi bO* TiHH »O tH b- bodd
+. lO o b- -xb
+
+oooo , 00 co CO b-
+
+. xb . co co
+
+.co . xb à« . b- CO CO CO b- b- b- . CO b- CS
+
+CO CO CO xb oooo
+
+o ooooo o
+
+0e0s e00s cCoO b^ b^ b^ b- b- b- Í-- b- b- b- b-
+
+b- b- b- b- CO CO b-
+
+0CO0 OCO C00S i1O-H CrHO 1C--St x00b CCOO bCO- b00- rC-O» COO OOS bCO- 0CO0 CT-HSOrSHtoOCOO OO ClOO CxOb C00S bO- OC» 0O0 C0O0 Cr-O1 CCOO bT---· b->CrS-iClOOCOO OCS OOOOC.SO. CO CO 00 CO lO C» rH A CS 00 CS O 00 O CS CO Xb lO iO OS OS CS b* b-- CO b» CO O O CO rH rH xb O rH CO xb CO OS OS CO
+rH 1-H rH CS CS CS CS CS CS CS CS
+
+TABLE 5--Continued
+
+.; LrHO CrHO OrHS CrHS CrHO 1rH-H odd odd
+
+co to xb
+
+b^ b^ b^
+
+b- b- b- b- b b-
+
+: ocos ctoo xob ' b- b- 00
+
+. O to xb rH
+
+.: CrHO x1-bH
+
+oooo d d d d
+
+d d
+
+CS CS CS CS CS CS CS . CS CS CS CS . CS . 1-H CS .CS CS CS rH CS CS CS . CS CS i-H . CS CS
+
+CO O CO
+
+CO to 00 CO
+
+oooo
+
+; rH CS i-H · ÔxOb rrHH d d
+
+; rrHH xxbb O1-HS CrHO r0H0 0000 OOSS : b00- 0O0S << *b b- CO 00 CO CO CO ` CO CO <
+
+ooo
+
+oIIooooIoIIoo
+
+CS CS CS
+
+. es es es es es es .CS CS
+
+CoO orHoOS
+
+odd
+
+'ooo ooo
+
+ooo
+
+o
+
+o
+
+. CS CS CS . ..CS.. .CS... .CS
+
+: rH o CS 'odd
+
+CO CO b- b- CO CO _ _ _ CSI OxOb CCOO bCO- b0-0-- CrHOCOOSOOSSbC-OOC-OO- C1--H-SO-rSHlOOSCOO iO tCoO CXOb C00S bO- OOS O00S 0CO0-- CrHO CCOO brH- b00 1C.S.tCoO CoO oCS O00 COOS CrHO bCO 00 CCOO CtoO COSS xrHb OCOS OCSS O00 1C-HS xOb X00b tOo tCoS tCoO txob CtOO tCOOOCSOOCSOCbS brH bxb CCOO bO 1C-OH COS 1O-H rCHO roH rxHb 0x0b OtO 1C-OH bco xCOb CxOb OxbS COOS 0CO0
+rH CS CS CS CS CO CO CO COCOCOCOCO COCOCOCOCO xb Xb xb to to to CO OS 0rH0 r0H0 OrHS COS COS COS CrHS CrHS CrHS CrHS CrHS
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+C, N, AND O ABUNDANCES IN B STARS
+
+687
+
+TABLE 6 N i Equivalent Widths and Abundances
+
+18680.3
+
+18683.4
+
+18686.2
+
+Averages
+
+HD
+
+WÀ log(N) Wx log(N) W, log(N) log e(N) log e(N)a d
+
+35468
+
+16 8.51
+
+5: 8.18
+
+7: 8.68
+
+8.45
+
+...
+
+0.26
+
+51309
+
+96 8.85 55 8.74 30 8.83
+
+8.81
+
+8.53 0.06
+
+52089
+
+20 9.11 10: 9.01
+
+7: 9.27
+
+9.13
+
+8.45 0.11
+
+a Based on the lower temperature scale for the supergiants.
+
+exceeds £ itself. This is partially due to the fact that more lines were available in the LTE case and due to the greater internal consistency of abundances from different lines using the Kurucz & Peytremann (1975) oscillator strengths. Although the errors in microturbulence are significant for several stars, we want to emphasize that abundances derived from weak lines are relatively immune to the actual value of £. Take for example, the case of strong and weak N n lines in an atmosphere with Teff = 21,000 K, log # = 4, and ^ = 5 km s_ 1 : for the non-LTE case (§ 6), an error of 5 km s-1 in £ leads to a abundance error of 0.21 dex for the strong line N n 24630 (used by Lyubimkov 1984), but only 0.10 dex for the weaker line N n 25007. Since most of the lines we observed are relatively weak, our final abundances should be largely independent of the actual microturbulent velocity.
+The abundance results are presented as averages by line species in Table 5. The abundances are given on the usual scale, e(X) = n(X)/n(H) with log e(H) = 12.0, and for each line species we list the unweighted average, the standard deviation <r of the sample, the number n of lines included, and A, a small correction that has been applied to the abundance based on a slight revision in the adopted temperature scale (see § 7.1). In forming these averages, we have attempted to exclude any
+abundances based on faulty or questionable equivalent width data. The deletions include the following: all lines with Wx< 5 mÂ; lines which gave consistently different results than others in the same species (N n 25175; O n 224705, 4710, 5160); lines from higher ionization species in cooler stars (which should be vanishingly weak), where the Wx measurements may correspond to the wrong features (C m 24647 for stars with T"t< 23,000 K, C in 24665 for stars with Teff < 29,000 K, N m for stars with Teff < 26,000 K, and Si iv for stars with Teff < 29,000 K); lines from low-ionization species which are very weak in hot stars (Si n for stars with Teff > 25,000 K, S n for stars with Teff > 24,750 K, and Fe n for stars with Teff > 22,500 K); lines giving abundances more than 2 standard deviations from the mean; and other lines which, because of excessive weakness and/or line blending, were considered to be error-prone (for example, Si m 24716.7, which often appears blended with S n 24716.2).
+Abundances from different ionization states generally appear to be similar (which supports our temperature assignments), with the possible exception of abundances in the supergiant stars. Specifically, the abundances from N in appear to be consistent with the N n results in stars where both abundances are available. We also made a survey for the lines N i 228680, 8683, 8686 in a subset of 10 stars from the sample. We could not detect these lines in the spectra of HD 886, HD 29248, HD 31237, HD 44743, and HD 91316, and only marginal detections of the strongest line N i 28680 were made in two B3-type stars (HD 26912 and HD 41753). The general weak-
+
+ness of N i in these stars is consistent with their temperatures and gravities and the N abundances derived from the N n lines. However, the N i lines were visible and reliably measured in the three remaining stars, HD 35468, HD 51309, and HD 52089, and the equivalent widths and abundances (from WIDTH6) are listed in Table 6. For HD 35468 (B2 III) the agreement between abundances from the two ionization states is reasonable (8.45 ± 0.26 versus 8.17 ±0.21 for N i and N n, respectively), but for the supergiants HD 51309 and HD 52089, the N i abundances are 0.7 and 1.0 dex higher, respectively, than the N n abundances. The difference could be due to non-LTE effects or an incorrect temperature assignment for the supergiants, and, as we mentioned in § 3, Underhill et al. (1979) and Fitzpatrick (1987) have found lower temperatures than we do for the supergiants. Thus we have also calculated abundances for the supergiants assuming the lower temperature scale. We assigned temperatures to the supergiants from the data of Underhill et al. (1979) supplemented with temperatures from Code et al. (1976) (HD 52089), Remie & Lamers (1982) (HD 91316), and Lamers (1981) (HD 198478), and we then determined log g by fitting the Hy profile as outlined in § 3. In the case of HD 198478 (55 Cyg), Hy is extremely narrow and blended with nearby features, so for this star we estimated log g from the luminosity and temperature given by Underhill & Doazan (1982; Tables 4-1 and 4-12) and the implied mass from the evolutionary tracks of Maeder & Meynet (1987). The stellar parameters based on the lower temperature scale are given in Table 7, and the WIDTH6 abundances based on these parameters are listed in Table 8 [the N i abundances in Table 6 under the column headed log e(N)a]. The lower temperature scale does improve the agreement between the N i and N n abundances (differences of --0.1 and 4-0.3 dex for HD 51309 and HD 52089, respectively), but the C ii and C m abundance difference has increased for HD 91316, and there is only a marginal improvement in the Fe n/Fe in results. The present data are insufficient to select the better temperature scale for the supergiants. Finally, we note that the Si n abundances are systematically lower than those from Si in and Si iv; we will return to this problem in the next section.
+
+TABLE 7 Supergiant Parameters: Lower Teff Scale
+
+HD 51309 52089 91316 198478 206165
+
+Lff
+
+£ -1
+
+(K) log g (km s )
+
+14860 2.42
+
+13.2
+
+20990 3.20 15.8
+
+20290 2.83
+
+19.5
+
+14285 2.14 32.6
+
+15730 2.29 28.0
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+688
+HD 51309 52089 91316 198478 206165
+HD 51309 52089 91316 198478 206165
+HD 51309 52089 91316 198478 206185.
+
+GIES & LAMBERT
+
+Vol. 387
+
+TABLE 8 Supergiant Mean Abundances: Lower T* Scale
+
+He i
+
+He h
+
+C n
+
+C m
+
+N n
+
+log e(He) a n log e(He) a n log (C) a n log (C) a n log e(N) a n
+
+11.46 0.14 3 10.97 0.11 3 10.92 0.10 3 10.81 0.29 3 10.68 0.16 3
+
+... 11.27 ... 1 11.26 ... 1 ... ...
+
+8.51 0.07 5 8.27 0.03 5 8.92 ... 1 7.73 0.44 7 8.87 ... 1 8.44 0.08 4 8.28 0.02 4
+
+8.63 0.15 12 8.17 0.08 11 8.35 0.19 15 9.10 0.13 11 8.51 0.10 12
+
+N in log e(N) a
+... ... ... ... ...
+
+On
+
+Ne i
+
+n log e(0) cr n log e(Ne) a
+
+9.21 0.10 8
+
+...
+
+9.07 0.18 10
+
+...
+
+8.94 0.29 10
+
+...
+
+9.41 0.12 10
+
+...
+
+9.44 0.12 10
+
+...
+
+A1 in n log e(Al) a
+... ... 6.52 0.10 ... ...
+
+Si n n log (Si) a n
+6.79 0.04 2 6.79 0.23 2 2 7.22 ... 1 6.40 0.09 2 6.35 0.04 2
+
+Si in
+
+Si iv
+
+S ii
+
+Fe ii
+
+Fe m
+
+log (Si) or n log (Si) a n log e(S) a n log e(Fe) a n log e(Fe) a n
+
+... ... 8.08 ... 1 ... ...
+
+...
+
+7.03 0.20 7 7.13 0.06 2 7.69 0.19 2
+
+...
+
+7.02 0.20 6 7.71 0.15 2 7.63 0.31 3
+
+...
+
+... ... 7.06 0.29 6 7.70
+
+... 1 7.40 0.18 3
+
+...
+
+6.92 0.22 7 6.88 0.07 2 7.88 0.11 3
+
+...
+
+6.66 0.38 6 7.03 0.05 2 7.81 0.24 3
+
+6. ABUNDANCES FROM NON-LTE CALCULATIONS
+Since our sample of stars has a location in the H-R diagram adjacent to regions where departures from LTE become significant, we have investigated how sensitive our abundance results are to the assumption of LTE. First, we derived abundances on a line-by-line basis using the equivalent width tables of Eber & Butler (1988) and Becker (1988) (C n), Becker & Butler (1988a) and Becker (1988) (N ii), and Becker & Butler (1988b) (O ii). These tables give Wx as a function of temperature, gravity, microturbulent velocity, and abundance, and they are based on blanketed LTE model atmospheres and detailed non-LTE populations for C n, N n, and O ii atoms. The abundances were determined in the same way as described in § 5 above, i.e., for given values of Teff and log g, an abundance was found for each line for three values of £, and a microturbulence was then selected that produced zero slope in a diagram of log abundance versus equivalent width. Our derived ^-values are listed in the last column of Table 1, and the results were compared with the LTE ^-values in § 5. The non-LTE abundances for the supergiants should be treated with caution, since the Becker & Butler grid extends to a lowest gravity of log g = 3.0 (3.5 for the O n tables), and abundances for three of the supergiants were obtained by extrapolating to even lower gravities. The Becker & Butler grid for O n starts at Te{{ = 24,000 K, and so non-LTE O abundances were not calculated for stars with Teff < 23,000 K.
+Mean abundances derived from the non-LTE models of Becker & Butler cited above are given in Table 9. The averages were formed from all available C ii lines, the N n lines from 24630 through 25045 (less 225002 and 5025), and the O ii lines between 24638 and 24705. In general there is consistency
+
+between abundances obtained from different lines, with the possible exception of the lines C ii 226578 and 6582, for which the abundances were »0.3 dex lower than those from the other C ii lines. The differences between the mean abundances from the LTE and non-LTE methods are plotted in Figure 10 against the non-LTE abundance for C, N, and O. The scatter
+Fig. 10.--Plot of differences between the resulting abundances from the LTE and non-LTE approaches shown as a function of the non-LTE abundance relative to the solar system values. The plotted quantities are log e; for increased clarity the upper plot is offset by +1 dex (C n; plus signs) and the lower plot is offset by -- 1 dex (O n; open circles) from the middle plot (N n; filled circles).
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+No. 2, 1992
+
+HD
+886. 3360. 16582. 22951. 24131. 26912. 29248. 30836. 31237. 34078. 34816. 35039. 35299. 35337. 35468. 36512. 36591. 36959. 36960. 37209. 41753. 44743. 46328. 50707. 51309. 52089. 61068. 91316. 180163. 184171. 198478. 205021. 206165. 207330. 213420. 214680. 214993. 216916. 218376.
+
+Hei log e(He)
+10.82 0.17 10.92 0.13 10.97 0.08 11.07 0.26 10.93 0.06 10.88 0.17 11.00 0.10 11.08 0.09 11.13 0.23
+10.93 0.13 10.90 0.14 10.92 0.06 11.10 0.06
+11.01 0.01 10.88 0.01 10.93 0.05 11.06 0.12 11.14 0.03 10.90 0.12 11.16 0.07 11.75 0.18 11.36 0.10 11.01 0.06 11.75 0.30 11.04 0.12 10.93 0.14
+10.93 0.04 11.85 0.27 11.05 0.06 10.91 0.04
+11.08 0.06 10.92 0.18 11.29 0.07
+
+C, N, AND O ABUNDANCES IN B STARS
+
+689
+
+TABLE 9 Non-LTE Mean Abundances
+
+Cn log (C) -0.01 8.41 0.06 -0.02 8.43 0.10 0.01 8.14 0.13 0.04 8.14 0.21 0.04 7.83 0.41 -0.12 8.00 0.09 0.02 8.25 0.04 -0.02 8.44 0.15 -0.03 8.01 0.18
+8.26 0.07 -0.04 8.40 0.07 0.02 8.17 0.19 0.02 8.29 0.09 -0.01 8.30 0.09
+0.04 8.24 0.06 0.03 8.10 0.26
+8.27 0.32 0.03 8.17 0.10 -0.10 8.58 0.15 0.04 8.21 0.22 0.04 8.04 0.24 0.04 8.20 0.24
+8.09 0.07 8.25 0.03 0.03 8.05 0.05 7.91 0.17 -0.11 8.32 0.22 -0.11 8.32 0.13 7.92 0.07 0.04 7.96 0.22 7.94 0.05 -0.07 8.04 0.18 -0.05 8.20 0.08
+0.03 8.25 0.16 9 0.02 8.15 0.13 7 0.04 8.17 0.02 4
+
+Nil
+
+On
+
+log e(N)
+
+log e(O)
+
+-0.06 7.78 0.08 10 -0.12 -0.07 8.26 0.06 10 -0.13 -0.04 8.12 0.14 10 -0.10 0.09 7.69 0.32 10 0.07 8.45 0.17 10 0.02 0.04 7.43 0.20 6 -0.02 8.53 0.12 8 -0.15
+
+-0.15 7.98 0.17 3 -0.14 -0.03 7.75 0.14 10 -0.09 8.70 0.25 10 -0.18 -0.07 7.79 0.12 7 -0.13 -0.08 7.33 0.20 6 -0.13
+7.41 0.09 5 0.16 8.49 0.25 10 0.15
+
+0.12 7.66 0.13 10 0.11 8.75 0.25 10 0.07 -0.09 7.76 0.11 10 -0.14 -0.01 7.71 0.08 10 -0.08 8.63 0.20 10 -0.21 -0.02 7.65 0.10 10 -0.08 8.56 0.17 10 -0.20 -0.06 8.13 0.21 6 -0.12
+
+7.67 0.08 9 0.19 8.73 0.22 10 0.23 0.06 7.64 0.10 10 0.02 8.64 0.22 10 -0.08 0.00 7.76 0.08 10 -0.05 8.65 0.19 10 -0.21 0.12 7.72 0.09 8 0.11 8.88 0.30 10 0.07 0.00 7.57 0.14 10 -0.07 8.50 0.18 10 -0.21
+
+-0.14 8.15 0.14 9 -0.14 0.04 7.71 0.13 10 0.00 8.75 0.29 10 -0.13 0.07 7.89 0.10 10 0.03 8.69 0.28 10 -0.05 0.07 8.23 0.16 9 0.03 8.87 0.31 10 -0.05
+8.41 0.11 10
+
+8.12 0.17 10
+
+8.50 0.20 10
+
+0.00 7.96 0.17 10 -0.06 8.70 0.22 10 0.21
+
+8.41 0.34 10
+
+-0.15 7.89 0.26 9 -0.14
+
+-0.15 7.91 0.25 9 -0.14
+
+8.44 0.59 9
+
+0.04 7.97 0.17 10 0.00 8.77 0.26 10 0.13
+
+8.19 0.15 10
+
+-0.12 7.87 0.17
+
+0.15
+
+-0.10 7.75 0.18 7 -00..14
+
+7.88 0.31 9 0.25 8.97 0.29 10 0.40 0.01 7.80 0.23 10 -0.05 8.78 0.38 10 -0.20 -0.03 7.66 0.11 10 -0.09 8.64 0.25 10 -0.18 0.08 8.10 0.19 10 0.06 8.69 0.29 10 0.00
+
+in this diagram is consistent with the internal errors from lineto-line abundance differences for a given star, and the overall impression is that the two approaches lead to similar abundances. Consequently, we suggest that the relatively large range in abundance that we observe (especially in N) is not an artifact of non-LTE effects, and we must look elsewhere for its origin.
+While the relative abundances agree well between the LTE and non-LTE treatments, it is surprising that the absolute abundances are also quite similar, since non-LTE calculations generally predict stronger lines. The apparent consistency is partially due to differences in adopted oscillator strengths. The oscillator strengths we used with WIDTH6 (§ 5) are compared with the newer Becker & Butler (1988a, b; Becker 1988) values in Table 4 under the column heading log qf (BB). Note that Becker & Butler's published oscillator strengths are actually equal to fglgt, where/is the conventional oscillator strength, g is the statistical weight of the line, and gt is the statistical weight of the multiplet (Becker 1991). Our LTE abundances can be approximately transformed to the log gf system of
+
+Becker & Butler by subtracting the mean difference between their oscillator strengths and ours (the approximation is weakest for N n, since the LTE analysis used a somewhat larger sample of lines). The corrections amount to -1-0.02, + 0.16, and --0.02 dex for C n, N n, and O n, respectively. Then the observed mean differences in abundance (LTE -- NLTE) from Figure 10 become +0.10, +0.16, and + 0.12 dex for C n, N n, and O n, respectively. Some portion of these differences may be due to systematic differences in the choice of microturbulence and model atmosphere, but we expect that the differences mainly reflect non-LTE effects, i.e., the lines appear stronger than predicted by LTE methods.
+Finally, we have also calculated abundances for He i using a simple aproach based on the non-LTE atmospheres and model atoms described in Auer & Mihalas (1973a). The LTE abundance results for He (Table 5) were obtained using a rudimentary scheme for quadratic Stark broadening that almost certainly underestimates the true extent of broadening, and in fact we find a significant correlation between helium abundance and gravity in the LTE results. The Auer & Mihalas
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+690
+
+GIES & LAMBERT
+
+Vol. 387
+
+(1973a) models employ an improved broadening theory for He i lines and allow for departure from LTE in the model He atom and stellar atmosphere. They present predicted equivalent widths for the three He i lines we observed for the cases of both LTE and non-LTE assuming solar abundances. They also calculated equivalent widths for models with He abundances ±0.3 dex from solar to show how abundance differences would be inferred if a purely LTE analysis were made of their predicted non-LTE line strengths. We made the simplifying assumption that the relatively strong He i lines behave as a power law on the saturated part of the curve of growth, so that
+
+Wxocß,
+
+(5)
+
+where e is the abundance and the exponent is /? æ 0.5. We then used the inferred LTE abundances in Auer & Mihalas (1973a) to estimate /? as a function of temperature and gravity over their tabulated grid. We further assumed that changes in the predicted non-LTE equivalent width with abundance would follow a similar power law. Abundances were then derived for He using
+
+log 6(He)= 11.00 +-log ^i(obs) (6) P PTa(NLTE) '
+
+where fV^NLTE) and ß were found by interpolation in the Auer & Mihalas tabular data according to the temperature and gravity of the star as given in Table 1. We note that our temperatures and gravities are based on line-blanketed atmospheres, whereas the Auer & Mihalas models are not, so that there may be systematic errors in the abundances due to differences in the temperature scale, but we expect that such errors are significant only in the hottest stars. Since their grid ends at Teff = 27,500 K, we omitted five hot stars with Teff > 28,500 K. Similarly, we deleted the supergiant HD 198478 from the analysis because its gravity (log # = 2.1) is below the grid limit (log g -- 2.5). The final results (Table 9) show that all the nonsupergiant stars have near solar He abundances. The supergiant stars, however, all show much higher He abundances, and these overabundances become even more acute if the lower temperature scale is adopted (§ 5). We advocate a cautious interpretation of the numerical value of the overabundance, since our simplified power-law representation of line strength (eq. [5]) will become less accurate the larger the departure from solar He abundance, so the magnitude of He enrichment in the supergiants could have large errors.
+Kudritzki et al. (1989) have made a quantitative spectroscopic analysis of nine Galactic and Magellanic Cloud B supergiants, and they find helium enrichments in all nine stars. They point out that a helium enrichment not only increases the helium line strengths but also changes the strengths of the hydrogen lines and the Balmer jump. Thus, if the supergiants in our sample are truly helium-enriched, our derived temperatures and gravities for these stars may be prone to systematic errors (since we use solar abundance models to derive these quantities; see § 3), and consequently our derived abundances for the supergiants should be considered as preliminary results.
+Becker & Butler (1990) have recently published tables of equivalent widths for Si n, Si m, and Si iv, and we have checked whether these new predictions can improve the problem of the low silicon abundance derived from Si n. Unfortunately the new calculations apparently overestimate the line strengths of Si il /Ü5041 and 5056 in much the same way as our LTE
+
+analysis did. For example, the predicted equivalent widths for y Peg (HD 886) are 59 and 99 mÂ, respectively, for our derived temperature and gravity compared with the observed values of 15 and 22 mÂ. The small observed equivalent widths can only be matched if the star's temperature is artificially inflated to 26.500 K (a 22% increase), but such a large increase is ruled out by the apparent consistency of abundances from different ions. We suspect that there remain outstanding problems with the atomic data for these Si n transitions.
+7. DISCUSSION
+The primary questions are whether these abundance results are consistent with expectations and, if not, whether they are consistent with enrichment of CN-cycled material as suggested by Lyubimkov. In this section we argue that although the abundances of all the elements appear to be close to the expected values for unmixed stars, there do exist significant deviations for certain elements in a subset of the stars. Before discussing the comparisons between our stars and other objects, we assess the measurement and systematic errors that afflict our abundances.
+7.1. Observed Abundance Dispersions
+The distribution of the abundances about the means should reflect our expectations of the error distribution in the derived abundances, provided that the dispersions of the stars' initial compositions and the range of the alterations during evolution are smaller than the measurement errors. The alterations will affect one or two obvious elements (e.g., N and C), and so the dispersion of initial compositions may be assessed from unaffected elements. Unfortunately, the best-represented elements--C, N, and O--contain two, possibly three, elements affected by possible mixing of CN-cycled material into the atmosphere.
+The internal errors in abundance given in Tables 5, 8, and 9 represent the line-to-line scatter in the abundance determination which is due mainly to errors in equivalent width measurement and errors in the atomic data adopted. We estimate this error to range from 0.1 to 0.3 dex for the C n, N n, and O n abundances, depending mainly on the star's temperature and the apparent line strengths. The next source of error is that due to our temperature and gravity calibration from the Strömgren colors and Hy line widths. We estimated this error by calculating abundances using temperatures derived by changing the color indices by ± 0.02 mag. This photometric error produced a temperature uncertainty ranging from 2% to 4% between the cool and hot limits of our sample. In general, a temperature change of this order will yield an abundance difference in C, N, and O of æO.l dex for temperatures well away from the temperature of maximum equivalent width ( ä 23,000, 25,000, and 27.500 K for C n, N n, and O n, respectively), but significantly less than 0.1 dex close to these temperatures (below we describe in detail how the abundances are affected by changes in temperature). The abundance errors associated with the uncertainties in log g and Ç are generally smaller than this. For example, we showed in § 5 that weak lines are relatively immune to uncertainties in the value of microturbulence.
+The largest abundance errors may result from outstanding systematic errors in the temperature calibration. In Figure 11 we show the difference between the observed (non-LTE) and solar system abundances (see § 7.2) as a function of Teff for C, N, and O. In each case there is an apparent trend of decreasing abundance with increasing temperature. Similar trends are
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+p-' No. 2, 1992
+
+C, N, AND O ABUNDANCES IN B STARS
+
+691
+
+ft
+
+TEMPERATURE Fig. 11.--Non-LTE abundances relative to solar system values plotted as a function of Tff (K). The open circles represent nonsupergiant stars, while the filled circles correspond to the supergiants. The dashed lines indicate the best fit of the abundance deviations in a particular species for an optimal fractional increase in the assumed temperatures. The solid lines represent the fit for a fractional increase in temperature of / = 0.034, the adopted value for all species. Supergiants were omitted from the sample for the fit.
+
+10000 15000 20000 25000 30000 35000 TEMPERATURE
+Fig. 12.--LTE abundances relative to solar system values plotted as a function of Teff (K) in the same format as Fig. 11.
+
+found for the LTE abundances from C n and N n (Fig. 12) and from O ii (Fig. 13). In the case of N n, is it possible that the trend could be due to evolutionary effects, since our sample is biased toward more evolved stars at the cool end, but we doubt that this is the case, since C n and O n also show the same trend. The well-defined trends are probably the consequence of a small error in the adopted T* scale. Since a given line of C n, N ii, and O n reaches a maximum equivalent width within the observed range of effective temperature, a systematic underestimate of Teff will yield a roughly, monotonically decreasing trend in abundance with increasing Teff.
+We have attempted to correct our abundances by seeking a temperature correction that can effectively remove the temperature trends in each of the well-represented species. We assume that the improved temperatures equal the provisional temperatures from § 3 plus a small correction, ATe({, and that the correction to the abundance is given by
+A log e = dWx / dW, ATeff : (7) dT'ul 8 log e
+where the partial derivatives express the change in equivalent width, with temperature and abundance. The simplest choice for the correction is ATeff = constant, but we used instead a correction of the form A7¡ff = /Teff, since some of the trends appear to have a steeper slope at the hot end of the
+
+10000 15000 20000 25000 30000 35000
+TEMPERATURE Fig. 13.--LTE abundances relative to solar system values plotted as a function of Teff (K) in the same format as Fig. 11.
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+692
+
+GIES & LAMBERT
+
+sample. For each line species we applied a model fit of the form
+
+Vol. 387
+
+sw,! sw, \ l°g e(^ff) = <l°g «> +/ dT'J d log / eff_ ' (8)
+
+to derive the mean abundance <log e> and the fractional temperature correction / The portion of the equation in square brackets was calculated for a grid of temperatures from 15,000 to 33,000 K based on one or two representative lines for each species. The partial derivatives were derived from equivalent width tables for atmospheres with log g = 4.0, £ = 5 km s-1, and solar abundances, parameters which approximately represent the sample as a whole. The equivalent width tables were curves of growth from WIDTH6 for the LTE abundances and were the Becker & Butler tables (§ 6) for the non-LTE abundances (with the exception of He i, where we relied on the results of Auer & Mihalas 1973a). The quantity in square brackets equals zero at the effective temperature of maximum equivalent width (within our sample range for most species), and thus the value of log  at this temperature in the fit defines the mean abundance <log >. A least-squares fit of equation (8) to the observed abundances was made for the entire sample less the supergiant stars using Bevington's (1969) CURFIT program.
+The resulting best fits are drawn as dashed lines in Figures 11-13, and the derived fractional temperature corrections are listed in Table 10. We have omitted any fit to the LTE abundances for He i because of our concerns about the He i linebroadening treatment. The estimates of / from different line species and different analyses are all very similar, and we have taken the average value,/ = 0.034 + 0.015, for our final correction. The fits made with / = 0.034 are shown as solid lines in Figures 11-13, and they all appear to represent adequately the observed temperature trends. Below we discuss the consistency of this temperature correction for other line species (Figs. 13 and 14). Our adopted effective temperatures were based on the Ten scale of Code et al. (1976). Evidently, a small correction (ä3%) is needed to obtain consistent abundances over our sample. This small correction is within the estimated uncertainties of our adopted Teff scale, and applying the correction brings our temperatures into good agreement with the Teff scale of Kilian et al. (1991a) based on non-LTE Si line strengths. The effective temperatures in Table 1 represent corrected values.
+We corrected the abundances for each line species according to equation (8) using the / = 0.034 fits to remove the temperature trends. Corrections were not applied to the supergiant star abundances because the supergiants were not included in the temperature trend samples and because there is some indication that our Teff scale actually overestimates their temperatures (§ 5). With the temperature trends removed, we expect to find an error distibution dominated by the observed internal errors and the calibration errors, which combine to
+
+TABLE 10 Fractional Temperature Corrections
+
+Line Species He i C ii N ii On
+
+/(LTE) 0.042 0.025 0.016
+
+/(NLTE) 0.025 0.054 0.049 0.024
+
+TEMPERATURE
+Fig. 14.--LTE abundances relative to solar system values plotted as a function of Tcff (K) in the same format as Fig. 11.
+produce a distribution with a standard deviation of 0.1-0.2 dex.
+Our mean, corrected non-LTE abundances for C, N, and O are log (C) = 8.20 ± 0.16, log e(N) = 7.81 ± 0.22, and log e(O) = 8.68 ± 0.14 for the main-sequence stars (Fig. 11). The corrected LTE abundances are higher by 0.06 dex for C ii, 0.02 dex for N n, and 0.06 dex for O n (Figs. 12-13). The error quoted here is the standard deviation of the distribution of the temperature-corrected abundances. The C m and N m LTE abundance measurements (Fig. 12) are restricted to a small sample of hot stars, but the predicted temperature trends for / = 0.034 (solid lines) are consistent with the limited number of observations. The corrected LTE N abundance from the N m lines is log (N) = 7.70 ±0.17, which is consistent with the N ii result, but the C m lines yield a somewhat larger abundance, log 6(C) = 8.50 ± 0.23, than the C n lines.
+The distributions of the corrected abundances from C n, N ii, and O n relative to solar appear in Figure 15; the choice of the solar system as the reference source is not critical here, since we are examining the spread in the abundances. Below (§ 7.2), we compare the compositions of the Sun and B stars. The solar abundances are taken from Anders & Grevesse (1989), with the exception of the more recent evaluations of log 6(C) = 8.60 ± 0.05 (Grevesse et al. 1991) and log 6(N) = 8.00 ± 0.05 (Grevesse et al. 1990). The solid outlines in Figure 15 give the histograms for the LTE abundances, while the shaded regions correspond to the non-LTE results. The central portions of these distributions have approximately the expected widths from the error discussion above, but the N ii distribution shows an extended population of highabundance objects that reach beyond the limits expected from
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+No. 2, 1992
+
+C, N, AND O ABUNDANCES IN B STARS
+
+693
+
+T 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 r
+
+-1.0
+
+-0.5
+
+0.0
+
+0.5
+
+1.0
+
+DELTA LOG EPSILON Fig. 15.--Histogram plots of the corrected abundances relative to the solar system values. The solid lines correspond to the LTE results, while the shaded regions correspond to the non-LTE results. The asymmetric distribution for N ii indicates that there are significant departures from the mean abundance among stars in the N-rich wing of the distribution.
+
+our error analysis. There is generally good agreement between the relative abundance distributions derived from LTE and non-LTE analyses, and so the appearance of N strong stars cannot be attributed to non-LTE effects. Rather, we believe that the stars that populate the extreme wings of the N n distribution have abundances which differ significantly from the mean.
+Our mean abundances for C, N, and O are in good agreement with recent results by other investigators. In most cases, LTE has been assumed, but except in special cases (e.g., the C n A4267 feature) the LTE and non-LTE abundances differ by only a small amount. The C abundances from C n are in good agreement with measurements by Barnett & McKeith (1988) (seven stars in common), Schönberner et al. (1988) (10 Lac), and Leushin (1988a) (14 stars in common). From five stars in the h and / Per cluster and six stars in the Cep OB3 association, Dufton et al. (1990) found log e(C) = 7.8 ± 0.2 and 8.0 ± 0.1, respectively, and quote an abundance log 6(C) = 8.2 for bright normal B stars (Kane et al. 1980).
+The average N abundance from the N n lines is in good agreement with those of Leushin (1988b) (14 stars in common), Kane et al. (1980) (14 stars in common), and Gehren et al. (1985) (HD 61068). Dufton et al. (1990) give log (N) = 7.8 ± 0.3 and 7.7 ± 0.3 for the two associations.
+
+Our O abundance is in good agreement for the stars in common with Kane et al. (1980). Our result for HD 61068 [NLTE: log 6(0) = 8.70 ± 0.22] is identical to the value quoted by Gehren et al. (1985) for this star. Dufton et al. (1990) obtain log e(O) = 8.9 + 0.3 and 8.6 ± 0.2 from O n lines for the two associations.
+The He abundances from the non-LTE models (Auer & Mihalas 1973a) should be reasonably accurate, at least for stars with near-solar abundances (Fig. 11). The average corrected He abundance is log (He) = 11.00 + 0.11 based on 29 stars (see Table 9; supergiants are omitted). This mean abundance is very similar to that given by Nissen (1976) and Wolff & Heasley (1985); for example, the latter's survey gave log e(He) = 10.93 + 0.02 when the He i 24026 line is used, and, for three stars in common with our sample, the differences are A log 6 = log (He)GL -- log (He)WH = 0.04, 0.08, and --0.04. A similar mean abundance is given by Dufton et al. (1990) for two OB associations.
+The Ne abundance is based on a single weak line that was included in one of our secondary spectral regions, and consequently equivalent widths are not available for the entire sample. Our LTE abundances (Fig. 13) display a decline with increasing Teff that is somewhat steeper than the predicted trend. The corrected LTE Ne abundance is log e(Ne) = 8.41 +0.13 from 11 stars. In a seminal paper, Auer & Mihalas (1973b) showed that the red Ne i lines normally used to determine the Ne abundance in B stars were enhanced by non-LTE effects such that the non-LTE abundance was about 0.4 dex lower than the LTE value. Unfortunately, the published calculations refer to stars with Teff = 15,000-22,500 K, and many of our stars are hotter than 22,500 K. The Auer & Mihalas results indicate that the size of the correction for Ne i 26506 decreases for Teff > 20,000 K, and thus the steeper trend seen in Figure 13 may be partially due to non-LTE effects. We used the Auer & Mihalas equivalent width ratios between non-LTE and LTE treatments together with curves of growth from WIDTH6 to estimate the abundance corrections necessary to account for non-LTE effects (using the same atmospheric parameters adopted for the temperature-correction scheme above). These corrections are temperature-dependent, so we formed an average correction based on corrections for the temperatures of the stars in our observed sample. The result is a downward adjustment of 0.44 dex or a non-LTE corrected abundance of log e(Ne) = 7.97 + 0.13.
+Aluminum is represented in our spectra by two strong lines, and the stronger line Al m 25696 is, in particular sensitive to the adopted value of the microturbulence and non-LTE effects. It is probably for these reasons that the Al abundances show a greater dispersion than for almost any other element (Fig. 13). It is difficult to discern any temperature trend in Al abundances, owing to the large scatter that exists in this diagram. The mean corrected LTE Al abundance from 18 stars is log e(Al) = 6.86 + 0.25. Dufton et al. (1986) have calculated non-LTE line strengths for the two Al m lines we observed, and they find that non-LTE effects strengthen the lines leading to abundance overestimates. We used their tables of equivalent widths with and without LTE to calculate abundance corrections in the same way as we did for Ne i. For our sample of stars, the temperature-weighted non-LTE abundance correction is a decrease of 0.41 dex, yielding a non-LTE corrected abundance of log e(Al) = 6.45 + 0.25. Earlier (LTE) determinations have generally given a similar or slightly lower abundance, e.g., Dufton et al. (1990) observed a single blend of two
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+694
+
+GIES & LAMBERT
+
+Vol. 387
+
+Al in lines and report log e(Al) = 6.1 ± 0.4 and 6.2 ± 0.2 for
+the two associations, Peters (1976) in an analysis of y Peg measured eight A1 m lines obtaining log e(Al) = 6.47, and Sadakane, Takada, & Jugaku (1983) observed the ultraviolet resonance lines of A1 n and A1 m in six B9 normal stars and obtained log e(Al) = 6.5.
+The abundance trends for Si n and Si m are plotted in Figures 13 and 14. Both are generally consistent with the predicted abundance declines with increasing temperature, although the Si m abundances of two hot stars (HD 34078 and HD 36512) fall conspicuously below the predicted trend. The Si in abundances are based solely on the strong 5739 Â line, and the large scatter in this plot suggests that, like A1 m, the derived abundances are sensitive to the assumed microturbulence and non-LTE effects. Silicon, as traced by the line Si in 25739, has a mean corrected LTE abundance of log e(Si) = 7.63 ± 0.26. Lennon et al. (1986) have calculated non-LTE equivalent widths for this feature, but unlike the case for the previous two line species, we did not calculate non-LTE abundance corrections because their published LTE equivalent widths are very different from the WIDTH6 results, so the value of a differential correction is uncertain. Instead, we used their tables of equivalent widths together with our adopted gravities, non-LTE microturbulent velocities, and corrected temperatures to find the abundance directly for each star. Our abundances are listed in Table 11. The mean non-LTE abundance is log e(Si) = 7.69 ± 0.40 after deletion of two hot stars (HD 34078 and HD 36512) which have unusually low abundances. The LTE and non-LTE results for Si in are almost identical. Although abundances were derived from Si iv in only three stars, the results are very similar to those from Si m. The corrected LTE Si abundance from Si iv is log e(Si) = 7.51 ± 0.36. We have also consulted the non-LTE equivalent width tables of Becker & Butler (1990) to derive a
+mean non-LTE abundance from Si iv of log e(Si) = 7.47 ± 0.08, which is consistent with the other estimates. The Si n mean corrected LTE abundance is log e(Si) = 6.86 ±0.19, which is significantly lower than the abundance from the two higher ionization states. As we mentioned in § 6, the situation is no better using Becker & Butler's (1990) non-LTE calculations of Si ii line strength. Until this anomaly with Si n is better understood, we suggest that the abundances from Si m and Si iv are more reliable. For both the OB associations h and
+X Per and Cep OB3, Dufton et al. (1990) give log e(Si) = 7.5 ± 0.2 from one or two Si m or Si iv lines.
+Sulfur abundances, as derived from a set of weak S n lines, are illustrated in Figure 14. As noted in § 5, we regard the S abundance determinations for hot stars as unreliable because of the extreme weakness and small number of lines available. For example, two of the remaining lines in the hot stars, S n 225014 and 5647, pose special problems: the former is found in
+
+HD 886. 3360. 16582. 24131. 30836. 31237.
+
+TABLE 11 NLTE Abundances from Si m /5739
+
+log e(Si)
+
+HD
+
+36960. 44743. 46328. 50707. 205021. 214993.
+
+loge(Si) 7.58 7.83 7.62 7.91 7.77 7.88
+
+the wing of the line He 125015, and part of its equivalent width may be a wing contribution from He i, while the latter is very close to the edge of the Reticon array. From the restricted sample (stars with < 24,750 K), the mean corrected S abundance is log e(S) = 7.21 ± 0.12. The S abundance may increase slightly with 7¡ff from 16,000 to 25,000 K, but the scatter of ±0.1 dex is essentially that expected from various known errors.
+In the atmospheres of B stars, iron is primarily present as Fe2+, so that the Fe m lines are likely to be a more reliable abundance indicator than the Fe n lines. The Fe abundances from the Fe m lines show no large correlation with ^eff (Fig. 14). The scatter is somewhat higher than in other line species, owing to the small number of relatively weak lines available. The mean, corrected LTE abundance for 31 stars is log e(Fe) = 7.73 ± 0.20. Like S n, the Fe n lines become extremely weak and problematical in hot stars, and thus the Fe ii abundances for stars with Teff > 22,000 K are unreliable. A fit was made of the predicted trend for stars in the restricted sample, and in this one species the predicted trend is only marginally satisfactory. The mean corrected abundance is log e(Fe) = 7.71 ± 0.23 from 12 stars, which is fortuitously identical to that quoted for Fe m. However, with this single exception, the temperature adjustment derived from He i, C n, N ii, and O n appears to be largely consistent with the abundance trends in all the other species we observed.
+7.2. Compositions ofB Stars, H n Regions, and the Solar System
+In this section we comment on the compositions of the local B stars, the local H n regions and the solar system. The data provoking our comments are assembled in Table 12. The B star abundances are corrected, when possible, for non-LTE effects. With the exception of Ne i, A1 m, and a few lines (e.g., C ii 24267) of other species, the corrections for non-LTE effects are small, and, hence, we conjecture that the outstand-
+
+TABLE 12 Mean Abundances of B Stars, Sun, and Orion Nebula
+
+B 8 Sun: Element Stars Meteorites B91
+
+Orion Nebula*5 R91 OTV92 DST82 P87
+
+He
+
+11.00dc (10.99) 10.94 11.00 11.00 10.98 11.01
+
+C
+
+8.20d 8.60 8.33 8.53 ...e 8.46 8.57
+
+N
+
+7.81d 8.00 7.94 7.83 7.57 7.48 7.68
+
+O
+
+8.68f
+
+8.93
+
+8.58 8.60 8.49c 8.60 8.65
+
+Ne
+
+7.97f 8.09 8.60 7.91 7.74 7.79 7.80
+
+A1
+
+6.45
+
+6.47
+
+Si
+
+7.58* 7.55
+
+S
+
+7.21h 7.23 7.12 6.93 7.04 e 7.12 7.10
+
+Fe
+
+7.72
+
+7.51 (6.62)* ... (6.43) '*
+
+a b
+
+This
+
+paper,
+
+but
+
+excluding
+
+the
+
+supergiants.
+
+B91 = Baldwin et al. 1991; R91 = Rubin et al. 1991; OTV92 =
+
+Osterbrock, Tran, & Veilleux 1992; DST82 = Dufour, Shields, & Talent
+
+198c2; P87 = Peimbert 1987.
+
+d Non-LTE results from He i.
+
+Non-LTE results from C il, N il, or O il
+
+* Estimated abundances of unobserved ions account for more than 50% of
+
+theftotal.
+
+8 Approximately corrected for non-LTE effects.
+
+h Mean non-LTE abundance from Si m and Si iv.
+
+Mean LTE abundance from Fe ii and Fe m lines.
+
+* Depleted by grain formation.
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+No. 2, 1992
+
+C, N, AND O ABUNDANCES IN B STARS
+
+695
+
+ing stellar abundances based on the LTE assumption (S and Fe) are close to the true (non-LTE) abundances.
+Since the abundance of certain elements varies with Galactocentric distance, comparison of B stars and H n regions must be made at the same Galactocentric distance and most preferably, of course, in the same association. As a representative of local H ii regions we adopt the Orion Nebula, whose emissionline spectrum has been the subject of several thorough analyses: results of five analyses are listed in Table 12. For this nebula we observed associated stars and, hence, can compare directly the composition of the gas and young stars.
+Inspection of Table 12 shows that the B stars and the Orion Nebula have identical compositions as regards the few elements in common with well-determined abundances. If a more recent analysis of the Orion Nebula is adopted (Baldwin et al. 1991), the differences A log e = log eB -- log 0rion are 0.06 (He), -0.13 (C), -0.13 (N), +0.10 (O), and +0.09 (S), which are clearly smaller than the combined uncertainties of the abundance analyses of hot stars and gas. Small amounts of lighter elements may also be trapped within and on grains. Meyer (1989) estimates that 20% + 5% of O is in grains. If this correction is applied to Baldwin et al.'s O abundance, the stellar and H n abundances become quite indistinguishable. It is also to be noted that four analyses of the Orion Nebula provide very similar O abundances. The low Fe abundance for the Orion Nebula is surely due to loss of Fe to grains within the H ii region.
+In Baldwin et al.'s (1991) abundance analysis neon is remarkably more abundant than it appears in the B stars, in the solar system, and in the two earlier analyses of the Orion Nebula. Ferland (1991) cautions that Baldwin et al.'s abundance estimate for Ne is quite uncertain because the model H n region ionized by the ultraviolet radiation predicted by the adopted stellar atmosphere is incapable of simultaneously matching the [Ne m] and other familiar lines, especially the [Ne m] 12.8 /mi line. Hence, we attach no astrophysical significance to the fact that A log e(Ne) = --0.63. In fact, Rubin et al. (1991) find that by increasing the temperature of the source, the neon ionization structure is substantially altered, and they derive a neon abundance that is very similar to that of the B stars.
+With the exceptions of Ne and Fe, for which there appear to be valid reasons (excuses), the elemental abundances are identical in local B stars and local H n regions. For the Orion Nebula, a more exact comparison is possible because eight of our stars belong to the Orion association (Warren & Hesser 1978). The mean stellar abundances from these stars and Baldwin et al.'s nebular abundances give A log 6 = --0.01 (He), -0.10 (C), -0.28 (N), and +0.07 (O) i.e, A log e = 0 to within the measurement uncertainties.
+In perusing the previous paragraphs, the reader may have assumed that A log e = 0 is the expected result, i.e., young massive stars and the H n regions they support should have identical compositions when elements with particular properties (e.g., Fe which is locked in grains) are set aside. However, the stellar and H n abundances need not necessarily be identical. In particular, Olive & Schramm (1982; also Schramm & Olive 1982) predict that the "OB associations probably undergo a significant variation in the heavy-element composition between stars that form at the beginning of the association and stars that form just before the association disperses." Since the nearby Orion OBI association consists of four subgroups of different ages (Blaauw 1964; Warren & Hesser 1978), Olive
+
+& Schramm's proposal appears testable by careful analyses of Orion stars from the four subgroups.
+Three of the four subgroups of the Orion association (groups a, b, and c; see Warren & Hesser 1978) are represented in our sample by two, two, and four stars, respectively. Stars from the youngest subgroup (d) were not observed. At the level of +0.1 dex, the C and N abundances of the subgroups a, b, and c are
+identical. The oxygen abundances do show an apparent increase from log e = 8.66(LTE)/8.63(NLTE for HD 35299 alone) in group a to 8.76(LTE)/8.57(NLTE) in group b to 8.92(LTE)/8.69(NLTE) in group c. Since oxygen is synthesized in much greater amounts than C and N in massive stars
+(supernovae of Type II), the suspected increase in the O abundance in the younger subgroups is qualitatively consistent with the constancy of the C and N abundances. This increase in O abundance is in agreement with preliminary results from an extensive survey of 18 main-sequence stars in Orion by Cunha & Lambert (1991).
+There are in the literature suggestions that the stars and gas within an association may have different compositions or that the composition of the gas may vary from position to position within the association. For example, Walborn (1976) remarked that the OB supergiants in the Orion belt and NGC 6231 within the Seo OBI association are nitrogen-deficient, and he supposed that these stars formed from nitrogen-deficient clouds. Walborn's labeling of these stars as N-deficient was a qualitative assessment. Recently Lennon et al. (1990) performed a non-LTE analysis of one (e Ori) of the three Orion stars considered by Walborn and confirmed the low N abundance ([N/H] = --0.7) and showed that C, O, and Mg were similarly underabundant. None of the Orion or other stars in our sample show such deficiencies with respect to the solar composition.
+In the simplest picture of Galactic chemical evolution, one expects the local gas to be more enriched in products of stellar nucleosynthesis ("metals") than the Sun, which was formed from the gas nearly 5 billion years ago. Comparisons of the Sun and local H n regions have long shown that O (and other elements) are underabundant in the H n regions relative to the Sun by about 0.2-0.3 dex (see Table 12). Peimbert (1987) gives a thorough review of these differences. Our results for B stars confirm this difference in comparison.
+For the solar abundances, we adopt the solar/meteoritic abundances given by Anders & Grevesse (1989). Note, however, that their He abundance is based on results from hot
+stars and H n regions, and, hence, must not be used in the comparison. For the solar Fe abundance we adopt the "low" meteoritic abundance [log (Fe) = 7.51]. Recent spectroscopic determinations of the photospheric abundances appear to be converging on this value: see Biémont et al. (1991), who obtain log e(Fe) = 7.54 + 0.03 from Fe n lines, and Holweger et al. (1991), who find log e(Fe) = 7.50 + 0.07 from Fe i lines. The abundance differences A log e = log -- log e0 are --0.40 (C), -0.19 (N), -0.23 (O), -0.12 (Ne), -0.02 (Al), 0.03 (Si), --0.02 (S), and 0.21 (Fe). [If the "high" spectroscopic solar Fe abundance differences A log e = log eB -- log e0 are --0.40 1984; Blackwell et al. 1986), is adopted, A log e(Fe) = 0.05.] These differences are quite consistent with earlier indications based on nebular measurements that " young " material is less metal-rich than the solar system (see also Luck & Lambert 1985). There is a hint that A log e is correlated with atomic number or the first ionization potential.
+Perhaps the simplest interpretation of the abundance differ-
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+696
+
+GIES & LAMBERT
+
+Vol. 387
+
+enees is that the Galactic gas is poorly mixed and abundance inhomogeneities exist. The inhomogeneity is suggested by accurate determinations of the metallicity of young open clusters (Boesgaard 1989; Nissen 1988) showing a spread in metallicity [Fe/H] of about --0.1 to +0.1 at a given age over the last 109 yr. If the Sun were formed from metal-rich gas, the differences between it and the Orion Nebula might be accounted for. Of course, other more imaginative schemes can be invoked.
+
+7.3. Evolutionary Changes in Abundance
+Our survey demonstrates that the N abundance distribution of the B stars shows an extended population of N enriched stars (Fig. 15). Since N enrichment is the primary indication of CN-cycled matter, it is important to determine whether the N-strong stars show other abundance deviations consistent with CN-processing. We have used the models of Maeder & Meynet (1988) to show how the surface abundances of He, C, and O change with an increase in N as CN-cycled material is mixed to the surface layers. These models in fact only predict a surface enrichment after the stars have become red supergiants, but we naively expect that the relative abundances should be correct for any type of mixing process. One of the most Nenriched stars is p Leo (HD 91316), which has a LTE N abundance 0.76 dex (0.60 dex for non-LTE) greater than the mean for the B stars, and the Maeder & Meynet models indicate that this amount of N enrichment should be accompanied by smaller changes in the other elements: an increase of 0.16 (0.10 non-LTE) dex in He, and decreases of 0.15 (0.10 non-LTE) dex and 0.07 (0.04 non-LTE) dex in C and O, respectively. Perhaps fortuitously, the abundances of p Leo appear somewhat high for He, slightly low for C, and close to the mean for O (see Tables 5 and 9). Walborn (1976) suggested that p Leo is moderately N-enhanced based on the qualitative appearance of the spectrum.
+Our expectation that CN cycling will produce a large N enrichment, a small C deficit, and an even smaller decrease in O appears to be consistent with the observed distributions of these elements (Fig. 15). The critical question is whether the N-strong stars in general are also C-weak and He-enhanced. In Figure 16 we plot the temperature-corrected non-LTE C abundances as a function of non-LTE N abundance. The filled circles in this plot represent the supergiant stars. The solid line drawn in the figure shows the expected decline in C with increasing N from Maeder & Meynet (1988) (after adjusting their starting abundances by --0.49 and --0.18 dex to match the observed mean abundances from C n and N n, respectively), and there is marginal evidence that the C decline is seen in the most N-strong stars. The low C point in the lower left-hand portion of the diagram corresponds to the star HD 24131, the most rapidly rotating and shallow-lined star in our sample. The C abundance for this star is based on only four lines, and the internal error is large (0.43 dex). The lowest N abundance point (isolated at left) corresponds to the SB2
+system HD 31237, and we suspect that the lines in this star are made weaker by the added continuum flux of the companion star, since the abundances of many of the other species are also below average. A similar diagram of He (non-LTE) versus N abundance shows again that the scatter in the observations far exceeds the magnitude of the expected trend. There is a hint that the N-strong stars are He-enriched, but among the supergiant stars the apparent He enrichment is much greater than predicted for the observed N overabundance. We noted in § 6 that our method of He abundance determination becomes very
+
+Fig. 16.--Corrected abundance of C, log e(C), plotted as a function of corrected N abundance, log (N) (from the non-LTE analysis). Filled circles represent the supergiants, while open circles are used for the rest. The thick solid line shows the expected decline in C as N-enriched material from the CN cycle is mixed to the surface. The two points at the lower left correspond to HD 24131 (lowest C abundance but with a large associated error) and the SB2 system HD 31237 (lowest apparent N abundance, due probably to line dilution from the flux of the companion).
+prone to error with large departures from the solar He abundance, so the actual He abundances of the supergiants are large but not accurately known. Taken together, these arguments suggest that the N-strong stars have abundances which are probably consistent with the presence of CN-cycled material.
+The N-strong stars are all at least somewhat evolved stars, but not all the evolved stars are N-strong. The stars with log (N) > 8.22 (more than 2 standard deviations above the mean) according to the LTE analysis include the supergiants HD 91316 and HD 198478 and the subgiants HD 50707 and HD 218376. There are minor differences between the LTE and non-LTE N abundances but the most N-rich stars using non-LTE are the same two supergiants plus the supergiant HD 51309 and the subgiant HD 3360 (again those with a N abundance greater than 2 standard deviations above the mean). None of these stars are known binaries, and all have moderately low projected rotational velocities. The abundances of He, C, N, and O for each star are plotted in H-R diagrams of log g versus log ^eff in Figures 17 through 20, respectively. Evolutionary tracks from Maeder & Meynet (1988) are also drawn in these figures. In each of these plots, the areas of the filled circles are proportional to the linear abundance of the star relative to solar. There is a tendency in Figure 19 for the more evolved stars to be N-enriched, but there are many somewhat evolved stars that apparently have normal abundances. Similar statements can be made about the He abundances (Fig. 17) and, in the opposite sense, about the C abundances (Fig. 18). Since these abundance trends are most apparent among the supergiants, one might be tempted to attribute the deviations to hidden non-LTE effects which could become important at low gravities. However, we expect that further non-LTE changes will tend to affect C n and O n in the same way as N n because of the similarity of their energy levels, and the fact that only the N abundance appears to increase among the supergiants is a strong argument that the abundance differences are real.
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+No. 2, 1992
+
+C, N, AND O ABUNDANCES IN B STARS
+
+697
+
+Fig. 17.--Positions and He abundances of our sample stars in an H-R diagram of log g versus log Teff. The area of the plotted symbol is directly proportional to the linear abundance of He derived from the He i lines (nonLTE analysis). The " solar system " abundance for He is given by a reference circle in the upper left-hand portion of the diagram. The solid lines show the predicted evolutionary tracks for stars of different mass (labeled by the initial mass in M0 near the ZAMS position) from the work of Maeder & Meynet (1988). The supergiants are He-enriched, but the magnitude of the enrichment is very uncertain.
+Thus, although we find that some evolved stars do show CN-cycled N enrichment we cannot confirm Lyubimkov's (1984) claim that there is a systematic increase in N abundance with age among the B stars. Our results clearly demonstrate that there do exist evolved stars with normal N abundances, so that the presumed mixing of CN-cycled elements cannot be a general phenomenon among B stars. In hindsight, it seems possible that Lyubimkov arrived at his conclusion by making two poor assumptions required by his methodology, i.e., assuming log g = 4.0 and zero microturbulence for all his stars. Lyubimkov determined abundances using the non-LTE N ii equivalent width tables of Dufton & Hibbert (1981), which are only given for log g = 4.0 and <!; = 0. In more evolved stars,
+
+LOG TEMPERATURE Fig. 19.--N abundance derived from N n lines (LTE analysis) for our sample of stars, displayed in the same format as Fig. 17. There is a tendency for more evolved stars to show N enrichment, but not all evolved objects are N-rich.
+the microturbulence tends to be larger (stronger lines) and log g is lower (stronger lines), and by ignoring these two changes, the derived N abundances will show an apparent increase with age.
+The magnitude of this effect can be estimated from the Becker & Butler (1988a) tables (see § 6) for the N n 24630 line used by Lyubimkov (1984). The equivalent width for this line in a solar abundance atmosphere with 7¡ff = 21,000 K, log 0 = 4, and <^ = 0 is 57 mÂ. If the gravity is lowered to log 0 = 3.5, the equivalent width increases to 75 mÂ; if the microturbulent velocity is increased to 5 (10) km s-1, then the equivalent width increases to 69 (88) mÂ. The abundance increases that would be inferred by 'assuming log 0 = 4 and £ = 0 would be 0.32 dex for a change to log g = 3.5, 0.22 dex for a change to £ = 5, and a huge 0.90 dex for a combined change to log g = 3.5 and £ = 10. We can illustrate this effect in an application to our own data. We used our measured
+
+Fig. 18.--C abundances derived from C n lines (LTE analysis) for our sample of stars, displayed in the same format as Fig. 17. The supergiant stars appear slightly C-poor.
+
+Fig. 20.--O abundances derived from O n lines (LTE analysis) for our sample of stars, displayed in the same format as Fig. 17.
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+698
+
+GIES & LAMBERT
+
+Vol. 387
+
+equivalent widths for N n ¿4630 with our temperatures from § 3 to derive the N abundance assuming log # = 4 and £ = 0. We then estimated the ages and masses of the stars by comparing their temperatures and gravities with the evolutionary tracks of Maeder & Meynet (1988). These parameters were determined by interpolation in the published tracks at the observed value of log g to obtain an age, mass, and log 7¡ff for each track. We then found the age and mass by plotting each as a function of log ^eff and by interpolating to the observed
+temperature. The procedure becomes ambiguous where the tracks loop to higher temperature, and so we arbitrarily removed those sections of the tracks so that log g becomes a monotonically decreasing function with time. This simplification introduces errors as large as 30% in the ages and masses of stars with log g « 3.5. Our results are listed in Table 13. Lyubimkov (1984) found that the slope of the N abundance versus age diagram depended on the masses of the stars (steeper in more massive stars), so we selected a sample of stars in the range 8.5-13.0 M0 to correspond to his middle mass-range group. The N abundances for log # = 4 and (^ = 0 are plotted
+
+TABLE 13 Derived Properties from Evolutionary Tracks
+
+HD
+886 3360 16582 22951 24131 26912 29248 30836 31237 34078 34816 35039 35299 35337 35468 36512 36591 36959 36960 37209 41753 44743 46328 50707 51309 52089 61068 91316 180163 184171 198478 205021 206165 207330 213420 214680 214993 216916 218376
+
+A6ge Mass Radius (10 yr) (M0) (R0)
+
+19.1
+
+8.3
+
+4.7
+
+22.4
+
+8.4
+
+5.2
+
+14.3
+
+8.7
+
+4.4
+
+0.0 11.3
+
+3.7
+
+0.0
+
+9.6
+
+3.4
+
+60.5
+
+6.1
+
+5.5
+
+16.7
+
+9.8
+
+5.8
+
+21.3 10.2
+
+8.5
+
+21.0 10.6
+
+9.5
+
+4.8 15.1
+
+5.9
+
+2.0 12.8
+
+4.6
+
+25.7
+
+8.7
+
+6.7
+
+7.6
+
+8.9
+
+4.0
+
+7.7
+
+8.8
+
+4.0
+
+21.0
+
+9.8
+
+7.2
+
+0.0 14.8
+
+4.6
+
+6.0 11.1
+
+4.6
+
+7.2
+
+9.1
+
+4.0
+
+46.9
+
+5.6
+
+3.7
+
+11.7 11.8
+
+6.5
+
+9.2 12.2
+
+5.9
+
+8.7 11.8
+
+5.5
+
+11.3 15.8 29.4
+
+13.0 12.9
+
+8.9
+
+12.5
+
+9.9
+
+4.9
+
+7.6 21.3 21.9
+
+38.1
+
+7.9
+
+9.5
+
+56.7
+
+6.3
+
+5.9
+
+4.9 32.1 83.8
+
+6.5 10.6
+
+4.5
+
+8.0 20.9 37.6
+
+30.3
+
+8.7
+
+8.8
+
+24.9
+
+9.3
+
+8.4
+
+0.0 17.0
+
+4.9
+
+12.6 10.6
+
+5.5
+
+17.0
+
+9.8
+
+5.9
+
+9.5 13.9
+
+7.4
+
+o_j CO CqD
+
+0
+
+10
+
+20
+
+30
+
+AGE (MILLION YEARS)
+
+Fig. 21.--Non-LTE abundances derived from N n 24630 by assuming a uniform gravity (log g = 4) and microturbulence (£ = 0), plotted as a function of stellar age. The sample is restricted to stars in the mass range 8.5-13.0 M0 to match the central mass group of stars studied by Lyubimkov (1984). The solid circle represents the supergiant HD 52089. The dashed line is a leastsquares fit to the co6rrelation of increasing N abundance with age (slope = 0.035 dex per 10 yr). This correlation, qualitatively the same as found by Lyubimkov, is due to the neglect of the line strengthening associated with the lower gravities and higher microturbulent velocities found in more evolved stars.
+
+against age in Figure 21, and as expected there is an apparent correlation of abundance with age. Our actual non-LTE,
+temperature-corrected N abundances for this sample are plotted against age in Figure 22, and these abundances which properly account for the individual values of log g and £ show little or no evidence of an age dependence (the same is true of the LTE N abundances). The mass ranges M < 8.5 M0 and M > 13 M0 are poorly represented in our sample (six and four nonsupergiant stars, respectively), so we cannot comment on possible evolutionary trends in stars of different mass. However, for the mass range illustrated in Figures 21 and 22,
+
+0.0
+
+8.8
+
+3.3
+
+9.0 - 0.0 12.4
+
+4.1
+
+O
+
+7-0l     I , 0
+
+ ,
+
+i , , ,
+
+i
+
+10
+
+20
+
+30
+
+AGE (MILLION YEARS)
+
+Fig. 22.--Corrected N abundances (non-LTE) for the same sample of stars as given in Fig. 21, but derived according to the log g and Ç values appropriate to each star. When account is made of the gravity and microturbulent velocity differences in the evolved stars, the correlation claimed by Lyubimkov disappears.
+
+© American Astronomical Society Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+No. 2, 1992
+
+C, N, AND O ABUNDANCES IN B STARS
+
+699
+
+we can rule out a N enrichment with age of the magnitude suggested by Lyubimkov. Since the changes expected from CN cycling for the He and C abundances are much smaller than those for N, we must view his claims for these other elements with suspicion.
+Mixing by meridional circulation could bring CN-processed material to the surfaces of massive stars if it were not for the influence of //-gradients built up by nuclear evolution. However, Maeder (1987a) has shown that in very rapidly rotating stars mixing can occur by a process of turbulent dififusion which causes stars to evolve quasi-homogeneously, following paths in the H-R diagram that lead to both increased luminosity and temperature. Maeder finds that even stars with rotational velocities below the critical velocity for homogeneous evolution can produce surface enhancements of CNprocessed elements because of the absence of //-gradient barriers at the beginning of their nuclear-burning lifetime. Schönberner et al. (1988) believe that the OBN stars may be the direct result of this rotationally induced mixing. They suggest that the present-day OBN stars do not show their initial rapid rotation because of a spin-down resulting from angular momentum loss caused by stellar wind mass loss. The N-strong stars in our sample do not show the same degree of enrichment as the OBN stars, but like the OBN stars they apparently have only moderate rotational speeds and can be found even close to the main sequence. We suspect that the N-strong stars in our sample reflect some phase of earlier or continuing mixing, and represent those predicted by Maeder (1987a) that are "a fraction of the normally redwards evolving stars [that] are expected to show CNO ratios intermediate between cosmic and [CN cycle] equilibrium values."
+All of the five supergiants we observed show some degree of N, and, perhaps, He enrichment, but the C-to-N ratios are
+
+much closer to the solar value than the CN-cycle equilibrium value. Maeder (1987b) suggests that large-scale mixing of CNcycled elements to the surfaces of stars in the 20-40 M 0 range will only occur after the star has reached the red supergiant phase, so that blue supergiants with fully enriched surfaces represent stars that are evolving on a blueward loop in the H-R diagram. Since the supergiant abundances we find are less than fully mixed, then by Maeder's criterion we conclude that they have not yet been red supergiants. Yet the N overabundances of the supergiants argue clearly that some type of mixing has already occurred. Thus it may be possible for a blue supergiant to show substantial mixing before the red supergiant phase, which may have important consequences for the interpretation of evolutionary status of the precursor star to SN 1987A (Weiss, Hillebrandt, & Truran 1988).
+We thank Sylvia Becker for sending us extended tables of equivalent widths for transitions of C n and N n. We also thank Ed Fitzpatrick for providing us with model Strömgren colors for the supergiants, and Laura Penny for her assistance in measuring rotational line broadening. We also acknowledge helpful discussions with Gary Ferland, Katia Cunha, and Ingemar Furenlid. D. R. G. gratefully acknowledges the financial support of a McDonald Observatory Postdoctoral Fellowship and a Natural Sciences and Engineering Research Council of Canada Postdoctoral Fellowship at the time of the observations. D. R. G. also expresses his thanks to the American Astronomical Society for a Chrétien International Research Grant that provided partial funding for the purchase of a work station used in this analysis. This research was partially supported by National Science Foundation grants AST-891Í7740 (D. R. G.) and AST-8902835 (D. L. L.) and by the Robert A. Welch Foundation (D. L. L.).
+
+REFERENCES
+
+Aller, L. H., & Jugaku, J. 1958, ApJ, 127,125 Anders, E., & Grevesse, N. 1989, Geochim. Cosmochim. Acta, 53,197 Artru, M. C, Jamar, C, Petrini, D., & Praderie, F. 1981, A&AS, 44,171 Auer, L. H., & Mihalas, D. 1973a, ApJS, 25,433
+. 1973b, ApJ, 184,151 Baldwin, J. A., Ferland, G. J., Martin, P. G., Corbin, M. R., Cota, S. A.,
+Peterson, B. M., & Slettebak, A. 1991, ApJ, 374, 580 Balona, L. A. 1984, MNRAS, 211,973 Barnett, E. W., & McKeith, C. D. 1988, MNRAS, 234, 325 Batten, A. H., Fletcher, J. M., & MacCarthy, D. G. 1989, Pub. Dom. Astro-
+phys. Obs. Victoria, 17,1 Becker, S. A. 1981, ApJS, 45,475 Becker, S. R. 1988, private communication
+. 1991, private communication Becker, S. R., & Butler, K. 1988a, A&AS, 76,331
+. 1988b, A&AS, 74,211 . 1989, A&A, 209,244 . 1990, A&AS, 84,95 Bevington, P. R. 1969, Data Reduction and Error Analysis for the Physical Sciences (New York: McGraw-Hill) Biémont, E., Baudoux, M., Kurucz, R. L., Ansbacher, W., & Pinnington, E. H. 1991, A&A, in press Blaauw, A. 1964, ARA&A, 2,219 Blackwell, D. E., Booth, A. J., Haddock, D. J., Petford, A. D., & Leggett, S. K. 1986, MNRAS, 220,549 Blackwell, D. E, Booth, A. J., & Petford, A. D. 1984, A&A, 132,236 Boesgaard, A. M. 1989, ApJ, 336,798 Bolton, C. T., & Rogers, G. L. 1978, ApJ, 222,234 Brown, P. J. F., Dufton, P. L., Lennon, D. J., & Keenan, F. P. 1986, MNRAS, 220,1003 Brunish, W. M., & Truran, J. W. 1982, ApJ, 256,247 Code, A. D., Davis, J., Bless, R. C, & Hanbury Brown, R. 1976, ApJ, 203,417 Crawford, D. L. 1978, AJ, 83,48 Crawford, D. L., Barnes, J. V., & Golson, J. C, 1970, AJ, 75,624 Cunha, K., & Lambert, D. L. 1991, BAAS, 23,1264 Davis, J., & Shobbrook, R. R. 1977, MNRAS, 178,651 Dimitrijevic, M. S. 1983, A&A, 127,68
+
+Dimitrijevic, M. S., & Konjevic, N. 1981, in Spectral Line Shapes, Yol. 1, ed. B. Wende (Berlin : Walter de Gruyter), 211
+Dufour, R. J., Shields, G. A., & Talent, R. J., Jr. 1982, ApJ, 252,461 Dufton, P. L. 1979, A&A, 73,203 Dufton, P. L., Brown, P. J. F., Fitzsimmons, A., & Lennon, D. J. 1990, A&A,
+232,431 Dufton, P. L., Brown, P. J. F., Lennon, D. J., & Lynas-Gray, A. E. 1986,
+MNRAS, 222,713 Dufton, P. L., Durrant, A. C., & Durrant, C. J. 1981b, A&A, 97,10 Dufton, P. L., & Hibbert, A. 1981, A&A, 95,24 Dufton, P. L., Kane, L., & McKeith, C. D. 1981a, MNRAS, 194, 85 Ebbets, D. 1979, ApJ, 227, 510 Eber, F, & Butler, K. 1988, A&A, 202,153 Ferland, G. J. 1991, private communication Fitzpatrick, E. L. 1987, ApJ, 312,596
+. 1991, private communication Flower, P. J. 1977, A&A, 54, 31 Gehren, T., Nissen, P. E., Kudritzki, R. P., & Butler, K. 1985, in Proc. ESO
+Workshop 21, Production and Distribution of C, N, O Elements, ed. I. J. Danziger, F. Matteucci, & K. Kjär (Garching: ESO), 171 Gray, D. F. 1976, The Observation and Analysis of Stellar Atmospheres (New York: Wiley), chap. 17 Grevesse, N., Lambert, D. L., Sauvai, A. J., van Dishoeck, E. F., Farmer, C. B., & Norton, R. H. 1990, A&A, 232,225
+. 1991, A&A, 242,488 Griem, H. R. 1974, Spectral Line Broadening by Plasmas (New York:
+Academie) Grigsby, J. A. 1990, in ASP Conf. Ser., Vol. 7, Properties of Hot Luminous
+Stars, ed. C. D. Garmany (San Francisco : ASP), 160 Hardorp, J., & Scholz, M. 1970, ApJS, 19,193 Hauck, B., Mermilliod, M. 1980, A&AS, 40,1 Hoffleit, D., & Jaschek, C. 1982, The Bright Star Catalogue (4th ed.; New
+Haven: Yale Univ. Obs.) Holweger, H., Bard, A., Kock, A., & Kock, M. 1991, A&A, in press Kane, L., McKeith, C. D., & Dufton, P. L. 1980, A&A, 84,115 Kilian, J., Becker, S. R., Gehren, T., & Nissen, P. E. 1991a, A&A, 244,419 Kilian, J., Montenbruck, O., & Nissen, P. E. 1991b, A&AS, 88,101
+
+© American Astronomical Society Provided by the NASA Astrophysics Data System
+
+1992ApJ. . .387. .673G
+
+700
+
+GIES & LAMBERT
+
+Vol. 387
+
+Kilian, J., «fe Nissen, P. E. 1989, A«feAS, 80,255 Konjevic, N., Dimitrijevic, M. S., <& Wiese, W. L. 1984a, J. Phys. Chem. Ref.
+Data, 13 (No. 3), 619 . 1984b, J. Phys. Chem. Ref. Data, 13 (No. 3), 649
+Konjevic, N., & Roberts, J. R. 1976, J. Phys. Chem. Ref. Data, 5 (No. 2), 209 Konjevic, N., «fe Wiese, W. L. 1976, J. Phys. Chem. Ref. Data, 5 (No. 2), 259 Kudritzki, R. P., Gabler, A., Gabler, R., Groth, H. G., Pauldrach, A. W. A., <&
+Puls, J. 1989, in Physics of Luminous Blue Variables, ed. K. Davidson, A. F. J. Moffat, «fe H. J. G. L. M. Lamers (Dordrecht : Kluwer), 67 Kudritzki, R. P., <& Hummer, D. G. 1990, ARA«feA, 28,303 Kurucz, R. L. 1979, ApJS, 40,1 Kurucz, R. L., «fe Peytremann, E. 1975, Smithsonian Astrophys. Obs. Spec. Rept., No. 362 Lamers, H. J. G. L. M. 1981, ApJ, 245,593 Lennon, D. J., Kudritzki, R. P., Becker, S. R., Eber, F., Butler, K., <fe Groth, H. G. 1990, in A.S.P. Conf. Ser., Vol. 7, Properties of Hot Luminous Stars, ed. C. D. Garmany (San Francisco : ASP), 315 Lennon, D. J., Lynas-Gray, A. E., Brown, P. J. F., <& Dufton, P. L. 1986, MNRAS, 222,719 Lester, J. B., Gray, R. O., «fe Kurucz, R. L. 1986, ApJS, 61, 509 Leushin, V. V. 1988a, Soviet Astron., 32,291
+. 1988b, Soviet Astron., 32,430 Luck, R. E. 1978, ApJ, 219,148 Luck, R. E., «fe Lambert, D. L. 1981, ApJ, 245,1018
+. 1985, ApJ, 298,782 Lyubimkov, L. S. 1984, Astofizika, 20,475
+. 1988, Astrofizika, 29,479 . 1989, Astrofizika, 30,99 . 1991, in Evolution of Stars: The Photospheric Abundance Connection ed. G. Michaud <& A. Tutukov (Dordrecht: Kluwer), 125 Maeder, A. 1987a, A«fcA, 178,159 . 1987b, A«feA, 173,247 Maeder, A., «fe Meynet, G. 1987, A«&A, 182,243 . 1988, A«feAS, 76,411 McWilliam, A. 1990, ApJS, 74,1075 Meyer, J.-P. 1989, in Cosmic Abundances of Matter, ed. C. J. Waddington (New York :AIP), 245
+
+Nissen, P. E. 1976, A«feA, 50,343 . 1988, A«&A, 199,146
+Oblak, E., «fe Chareton, M. 1980, A«&AS, 41,255 Olive, K. A, «fe Schramm, D. N. 1982, ApJ, 257,276 Osterbrock, D. E., Tran, H. D., «fe Veilleux, S. 1992, ApJ, in press Peimbert, M. 1987, in Star Forming Regions, ed. M. Peimbert «fe J. Jugaku
+(Dordrecht : Reidel), 111 Peters, G. J. 1976, ApJS, 30,551 Peterson, D. M., <& Shipman, H. L. 1973, ApJ, 180,635 Puric, J., Lesage, A., Lalcicevic, J. S., <& Rathmore, B. A. 1983, in Spectral Line
+Shapes, Vol. 2, ed. K. Burnett (Berlin: Walter de Gruyter), 175 Remie, H., «fe Lamers, H. J. G. L. M. 1982, A«feA, 105,85 Rubin, R. H., Simpson, J. P., Haas, M. R., «fe Erickson, E. F. 1991, ApJ, 374, 564 Sadakane, K., Takada, M., <& Jugaku, J. 1983, ApJ, 274,261 Schönberner, D., Herrero, A., Becker, S., Eber, F., Butler, K., Kudritzki, R. P.,
+«fe Simon, K. P. 1988, A«feA, 197,209 Schramm, D. N., & Olive, K. A. 1982, Ann. NY Acad. Sei., 395,236 Shobbrook, R. R. 1976, MNRAS, 176,673 Slettebak, A., Collins, G. W., Boyce, P. B., White, N. M., «fe Parkinson, T. D.
+1975, ApJS, 29,137 Smith, M. A. 1977, ApJ, 215, 574 Uesugi, A., & Fukuda, I. 1970, Contr. Inst. Astrophys. Kwasan Obs. Univ.
+Kyoto, No. 189 Underhill, A. B., Divan, L., Prévot-Burnichon, M.-L., «fe Doazan, V. 1979,
+MNRAS, 189,601 Underhill, A. B., <& Doazan, V. 1982, B stars with and without Emission Lines
+(NASA SP-456; Washington, DC: NASA) Vogt, S. S., «fe Penrod, G. D. 1983, ApJ, 275,661 Wade, R. A, <& Rucinski, S. M. 1985, A«feAS, 60,471 Walborn, N. R. 1976, ApJ, 205,419 Warren, W. H., Jr., <& Hesser, J. E. 1978, ApJS, 36,497 Weiss, A., Hillebrandt, W., «fe Truran, J. W. 1988, A«&A, 197, LU Wiese, W. L., Smith, M. W., <& Glennon, B. M. 1966, Atomic Transition
+Probabilities, Vol. 1, Hydrogen through Neon (NSRDS-NBS4; Washington, DC : GPO) Wolff, S. C. 1990, AJ, 100,1994 Wolff, S. C, «fe Heasley, J. N. 1985, ApJ, 292, 589
+
+Note added in proof.--If there is a systematic increase in N abundance with evolutionary state, then a plot of N abundance versus relative age (i.e., age divided by main-sequence lifetime) should display less scatter than when plotted against actual age (Fig. 22) because of the dispersion in main-sequence age within the mass range of the sample. We have constructed such a plot for the intermediate-mass group shown in Figure 22 (less HD 31237, which may have a low apparent N abundance due to spectral dilution by a binary companion), and although there is considerable scatter in the plot, a linear fit yields a slope of 0.26 dex per mainsequence lifetime. This is consistent with our statement in the paper that there is a tendency for more evolved stars to be N-enriched. We are indebted to L. S. Lyubimkov for suggesting this method to us.
+
+© American Astronomical Society · Provided by the NASA Astrophysics Data System
+
+

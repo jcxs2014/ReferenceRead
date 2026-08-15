@@ -1,0 +1,2068 @@
+Gmchrnica L'I Ciwnwhtmica ACIU Vol. 53. pp. 197-214 Copyright 0 1989 Pergamon Press pk. Printed in U.S.A
+
+0016-7037/89/$3.00 + .30
+
+Abundances of the elements: Meteoritic and solar
+
+EDWARDANDERS Enrico Fermi Institute and Department of Chemistry, University of Chicago, Chicago, IL 60637-1433, U.S.A.
+
+and
+
+NKOLAS GREVESSE Institut d'Astrophysique, Universite de Liege, B-4200 O&e-Liege,
+
+Belgium
+
+(ReceivedJuly 14, 1988; acceptedin revisedform November2, 1988)
+
+Abstract-New abundance tables have been compiled for Cl chondrites and the solar photosphere and corona, based on a critical review of the literature to mid-1988. The meteorite data are generally accurate to +5-10%. Significant discrepancies between Sun and meteorites occur only for Fe, Mn, Ge, Pb, and W; other well-determined elements agree to &90/oon the average. There is no evidence for group fractionations in Cl chondrites of cosmochemically similar elements (refractories, siderophiles, volatiles, etc.), but a selective fractionation of Fe cannot be ruled out. Abundances of odd-A n&ides between A = 65 and 209 show a generally smooth trend, with elemental abundances conforming to the slope defined by isotopic abundances. Significant irregularities occur in the Nd-Sm-Eu region, however, suggesting that the abundance curve is dependably smooth only down to the -20% level.
+
+1. INTBODUCTION
+THIS PAPERIS a new edition of the abundance compilations of ANDERsand EBIHARA(1982; hereafter AE) for meteorites and GREVESSE(1984a,b) for the solar photosphere. Although meteoritic values have changed little, many photospheric values, including those for C, N, 0, have improved greatly in recent years, mainly due to the use of highly accurate transition probabilities, and thus permit a critical comparison of solar and meteoritic abundances. In addition to better data, our new abundance tables contain many small improvements, such as better coupling of solar and meteoritic scales, better isotopic abundances, etc.
+Section 2 of this paper presents the new abundance tables. Sections 3 and 4 review the elements individually for meteorites and the solar photosphere, showing how the values were obtained and discussing uncertainties. Section 5 presents values for the solar corona, from spectroscopy as well as measurements of solar wind and solar energetic particles (SEP). Section 6 reviews data for noble gases. Section 7 compares photospheric, coronal, meteoritic, and cometary abundances, as well as trends in s-process and r-process nuclides.
+2. ABUNDANCE OF THE ELEMENTS AND NUCLIDES
+2.1. Solar-system abundance?: Elements
+Abundances on the Si = 10" scale, based mainly on Cl chondrites, are given in Table 1, along with the values ofAE. Columns 4 and 5 give the population standard deviation and the number of C 1 analyses averaged. Parentheses mean that data for other meteorite classes were included, requiring a more involved procedure (Sec. 3). Columns 7 and 8 give
+
+abundances by weight and the number of analyses for the Orgueil meteorite. Column 6 gives weight abundances for a nominal Cl chondrite of Si = 10.64%, calculated from the atomic abundances in column 2. These values, rather than those for Orgueil, should be used whenever abundances by weight are needed (e.g., for normalization to Cl chondrites), as they are fully consistent with the atomic abundances in Column 2 (except for the incompletely condensed elements H, C, N, 0 and the noble gases).
+Comparison with previous data. All together, the values for 61 elements have been reevaluated since 1982 (Fig. l), but in only one case did the change exceed 20% (Hg) or one standard deviation (Hf). Apparently meteorite analyses have converged to the point where most elements are known to better than 10%. This seems to be true even for elements estimated indirectly from other meteorite classes. These indirect estimates by AE were confirmed in all four cases (B, Nb, Ta, W) where they were checked by direct analyses on Cl's.
+Mass fractions (X, I', Z). From the abundances in Table 1, we have calculated mass fractions of H, He, and heavier elements (usually referred to as X, Y, Z in the astronomical literature). The values (%) are given below, with an alternative set for the solar Fe value (log Fe = 7.67) in parentheses. The uncertainties are conservative estimates, calculated by varying the individual elements within their error limits.
+X(H) = 70.683 (70.643) rt 2.5%
+Y (He) = 27.431 (27.416) f 6%
+Z(Li-U) = 1.886 (1.941) 2 8.5%
+
+' A few definitions. Solar-systemabundances (formerly known as cosmic abundances) are best estimates for the entire solar system. They are based on meteorites except for H, C, N, 0 and noble gases, where solar and other astronomical data were used. Solar abundances are best estimates for the Sun. They are based mainly on photospheric data, augmented as needed by solar wind, SEP, or other astronomical (but not meteoritic) data.
+
+The mass fraction of Si (for log Fe = 7.5 1) is 0.069889 1%. With this value, it is easy to calculate from Table 1 mass fractions of various condensates or element groups.
+2.2. Solar abundances
+Table 2 gives solar photospheric abundances on the usual logarithmic ("dex") scale relative to hydrogen [AE, = log(&,/
+
+197
+
+198
+
+E. Anders and N. Grevesse
+
+Element
+1H
+2He
+3 Li
+4 Be
+5B
+hC
+7N
+X0
+YF
+10 Ne IlNa l2Ng 13 AI 14 Si 15P 165 17CI 18Ar 19K 20 ca 21 SC 22 Ti 23 v 24 Cr 25 hln 26 Fe 27 Co 28 Ni 29 Cu 30 Zn 31 Ga 32 Ge 33 As 34 Se 35 BF 36 Kr
+37 Rb 38Sr 3YY 40Zr 41Nb
+42 Mrt
+44 Ru
+45 Rh 46 Pd 47 Ag
+48 Cd 49 I" 50 S" 51 Sb 52Te 53 I 54 Xe 55 cs 56 Ba 57 Ia SMCe 59Pr 60 Nd h? Sm 63 E" 64 Gd 45 Tb 66 Dy 67 Ho 68 Er hY Tm 70 Yb 71 L" 72 Hf 73 Ta 74W 75 Re 76 OS
+77 rr 78 Pt ?Y Au f-(1Hg 81 n X2 Pb X3 Ri 90 Th 92U
+
+Table I. Solar-System Abundances of the Elements,
+
+Based on Meteorites (Arom@ Si)
+
+his Work*
+.79 .lO'O .72 rl09
+57.1 0.73
+21.2 01 x10' -13 xl@ .3R x IO' x43 .44 xl06 .74 .I00 .074xlOh ..49x IO`+ .3O xl@ 04 Y lo4 .I5 xl@ 240 .Ol xl@ 770 f.11 x10-' 34.2 400 2Y3 .35 xll? `550 1.00xloi :250 ,.93 *I@ 522 260
+37.8 119
+6.56 62.1 11.8 45
+7.09 23.5
+4.64 11.4 0.69X 2.55
+1.X6 0.344 1.3Y l1.4Sh
+
+Andrrs &
+iE .blhara (lY82)'
+t 2.72x10'"
+2.18x109 59.7 a`.7X 2 4 1.21 x10'
+.48 xlOC 2.O, xl@ 8,43 3 7h xl@ 5.7O .lOJ 1.075x 106 ei.49 xl@ I .l,O x lo6 1.04 XIOJ 58.15 xld 5,240
+1.04 x IOS
+I1770
+1.11 .lof
+33.8 1; i4OO
+295
+11.34 xl04 `a510 cUIO I tll~
+!250
+193 xi@
+.il4
+I260
+37.x
+11x
+6.79
+h?. I
+Il.8
+45.3
+7SlY
+23 X
+4.64
+10.7
+0.71
+2.52
+1.86
+0.344
+1.3')
+0.529
+
+-
+(%)
+9.2 9.5
+10
+10 1s 14
+7.1 3.8 3.6 4.4 10 13 15 h 7.7 7.1 X.6 5.0 5.1 7.6 9.6 2.7 6.6 5.1 il 4.4 h.9 9.6 12 6.4 19 1x 6.6 8.1 6.0 6.4 1.4 5.5 5.4 x 6.6 2.`)
+
+Nt
+
+Meall
+
+Cl chondr.4
+
+. .
+1 h0.7 ppm . . 20 5wo ,Dpm 15 9.89 8 19 86%) p&w 9 1O.M 8 4 1220 ppm 5 6.25 8 10 704 ppm
+29 558 ppm 15 92SU pp 18 5.82 ppni
+7 436 ppm Y 56.5 ppm 13 2660 ppm 20 1990 ppm 19 19.04 8 18 502 ppm 27 1.10 8 8 126 ppm 27 312 ppm 14 10.0 ppm 31 32.7 ppm 18 1.86 ppm 1x 18.6 ppm 18) 3.57 ppzz
+19 2.30 ppm 1x 7.80 ppm
+5 1.5h ppm : 32.4Y64 ppbm
+2 928 pph 9 712 ppb (7) 134 pp* 25 560 ppb 6 199 ppb
+
+I.hl
+0,184 3.82 0.309 4.x1 0.90 4.7 0.372 4.49 0.44M) 1.136 0.1669 0.8279 O.ZSH2 0.0973 0.3300 O.OhO3 0.3942 0.0889 0.2508 0.0378 0.2479 0.0367 0.154 0.0207 0.133 0.0517 0.675 O.hhl 1.34 0.187 0.34 0.1x4 3.15 0.144 0.0335 O.oUYO
+i
+
+1.69 0.184 3.82 11.352 4.91 O.YO 4.35 0.372 4.36 0.448 I.16 0.174 0.836 0.261 0.0972 0.331 0.0589 0.398 0.0875 0.253 0.03R6 0.243 0.0369 0.116 0.0226 0.137 0.0507 0.717 0.660 1.37 #.I?36 0.52 0.184 3.15 0.144 0.0335 O.r#90
+
+6.5 30 z PPb
+
+6.4 24
+
+P&-b
+
+Y.4 II 1720 ppb
+
+18
+
+22 142 ppb
+
+10
+
+17 2320 ppb
+
+`II) 433 ppb
+
+::,
+
+5.6 20 I87 ppb
+
+6.3
+
+x 2340 ppb
+
+2.0
+
+4 234.7 ppb
+
+1.7
+
+4 603.2 ppb
+
+2.4 20) 89.1 ppb
+
+1.3
+
+4 452.4 ppb
+
+1.3
+
+4 147.1 ppb
+
+1.6
+
+4 56.0 @
+
+1.4
+
+4 196.h ppb
+
+2.2 21) 36.3 ppb
+
+1.4
+
+4 242.7 ppb
+
+2.4 123) 55.6 ppb
+
+1.3
+
+4 158.9 ppb
+
+2.3 20) 24.2 ppb
+
+1.6
+
+4 162.5 ppb
+
+1.3
+
+(1.9
+
+:3) z: ;:
+
+1.8
+
+2 14.2 ppb
+
+5.1
+
+3 92.6 orb
+
+9.4 21 36.5 ?pb
+
+6.3 16 4X6 ppb
+
+61
+
+7.4
+
+15
+
+12
+
+._ 258 ppb
+
+9.4 18 142 ppb
+
+7.R
+
+3 2470 oob
+
+8.2
+
+5.7
+
+x.4
+
+Orgue@
+
+2.02
+Sh
+1.49 24.9 870 3.45 tiso 46.4 58.2 203 :`;;
+
+s
+d/g
+pp ppb ppb % ppn B ppm PL/E i'"
+
+ihYO 0.67 IlSO 5.25 698
+751 566 3020 5.83 436 56.2 2660 19%) 8.51 507 1.10 119 311 10.1 32.6 1.85 iii2 3.56 8.7 2.30 7.80 1.53 3.95 246 YZX 714 134 5% 197
+
+ppm s ppm s ppm
+@/I ppm ppm ppm ppm ppm ppm ppm 8 ppm 8 ppm ppm ppm ppm ppm ppm ppm pw, ppm ppm pp pp ppb pps .Dpb ppb ppb ppb
+
+6x0 77.8 I680 133 2270 433
+8.6 IS6 2340 236 619
+90 463 144 54.7 199 35.3
+
+,DPb ppb pph ppb ppb ppb ,DL,J ppb ppb p&lb ppb
+PPb ppb ppb ppb ppb pp*
+
+246 ppb 55 2 ppb 162 ppb
+
+22 ppb 166 ppb 24.5 ppb 108 ppb
+
+14.0 ppb 92.3 ppb 37.1 ppb 4x3 ppb 474 ppb 973 ppb
+
+145 ppb 258 ppb
+
+143 ppb 2430 ,vpb
+
+Ill ppb 26.6 ppD
+
+8.1 ppb
+
+400% . . ..I...
+
+* I....,....,....,..
+
+..i.,..,....,..~.I..
+
+2
+2; `. l 20.0% - * . l
+z . I! 0.0% - ·he-**y::.-~:,.e ,' . : . -z .. .
+2 -20.0%
+
+l.*. .*.l..*r
+.' .
+
+-40.0% 1' 0
+
+*' ' . . . ' 10 20
+
+t **.'. ' '
+
+' ' ~. . '
+
+30 40 SO 60 70
+
+Atomic number, 2
+
+' ' . ' A.&-J
+80 90 100
+
+PIG. 1. Comparison of new solar-system abundances with those of ANDERS and EBIHARA(1982).
+
+NH) + lZ.OO]. Individual results are discussed in Sec. 4. For comparison, column 3 shows the meteorite-based solar-system abundances from Table 1, converted to the astronomical scale by adding 1.554 to the log of the abundance (see below). Column 4 gives the log of the ratio Sun/meteorites. The ratio itself is plotted in Fig. 2 against atomic number.
+The conversion factor from the solar abundance scale (log NH = 12.00) to the meteoritic scale (Nsi = 106) has been derived by comparing the solar-meteoritic ratio, R = log (sol/ met), for all elements. This comparison shows that R for well-determined elements clusters between 1.52 and 1.58, with a maximum around 1.55. We have adopted R = 1.S54 i 0.020, the mean for 12 elements (Na, Mg, Si, Ca, V, Cr, Co, Ni, Y, Zr, Nb, and MO). This ratio is very close to previous estimates by MEYER(1979), CAMERON(1982), and,@ 1.57 f 0.16, 1.576, and 1.566 2 0.023. The nominal uncertainty in coupling the two scales now is only kS%.
+2.3. Solar-system abundances: Nuclides
+Abundances of individual nuclides are given in Table 3. For radioactive and radiogenic nuchdes their abundances 4.55 AE ago are given in italics, based on half-lives from HOLDEN (1985a,b,c and priv. commun.), except for K4', where the value recommended in geochronology ( 1.2505 ' 1O9 yr, STEIGERand JAGER, 1977) was used.
+For isotopiccompositions,we generallyused terrestrialrather than solar values, except for H and noble gases. Solar values are hard to measure accurately by spectroscopy, as the isotopic shifts of atomic lines are small compared to the width of photospheric lines. Only for C and 0 can accurate isotopic ratios be obtained, using the infrared vibration-rotation bands of CO. These values confirm the terrestrial ratios in Table 3.
+Isotopic abundances generally are the terrestrial "representative isotopic impositions" r~ommended by IUPAC (HOLDEN et al., 1984;and HOLDEN, priv. commun.). In caseswhere the recommended composition gave the abundance of a rare isotope to only one significant figure, we either took that value from the `best measurement from a single natural source" (Se, OS), or used the entire "best" analysis, when it appeared that the recommended commotion was merely a rounded-off version of the best analysis (25, La, Dy). We also used the latest analyses for Ga (MACHLAN et al., 1986), Sn (ROSMAN et al., 1984), Sb (DELAETER and HOSIE, 1988), Te (SMITH and DELAETER, 1986), and Hg (ZADNIKet al., 1989).
+The IUPAC com~itio~ are intended to represent "the chemicals and/or materials most commonly encountered in the laboratory", not necessarily "the most abundant natural material" (HOLDEN et al., 1984). This makes a slight difference for light elements (Li, B, C,
+
+Abundances of the elements
+
+199
+
+Table 2. Abundances in the Solar Photosphere (lo8 N&2.00)
+
+`hotospherc*
+
+IH 2He 3 Li 4Be 5B bc 7N 80 9F IllNe II Na 12Mg 13AI 14 Si 15 P 16s 17CI 18Ar 19 K 20 Ca 21 SC 22 Ti 23 V 24 Cr 25 Mn 26 Fe 27 Co 28 Ni 2.9 CU 30 Zn 31C9 32 Ce 33 As 34 Se 35 Br 36 Kr 37 Rb 38 ST 39Y 40 Zr 41 Nb 42 MO 44 Ru 45 Rh 46 Pd 47Ag 48 Cd 49 In 50 so 51 Sb 52Te 53 I 54 Xe 5s Cs 56 Ba s7la 58 Ce 59 Pr 60 Nd 62 Sm 63 Eu 64 Cd 65 Tb
+66 &' 67 Ho 68 Er 69 Tm 7017, 71 Lu 72 HP 73 Te 74 w 75 Re 76 OS 77 Ir 78 Pt 79 Au 80 Hg 81 Tl 82 Pb 83 Bi 9oTlt 92 u (<
+
+2.00 0.99 1.16 1.15 2.6 8.56 8.05 8.93 4.56 8.09 6.33 7.58 6.47 7.55
+5.45 7.21 5.5 h.56 5.12 6.36 3.10 4.99 4.00 5.67 5.39 7.67 4.02 6.25 4.21 4.60 2.88 3.41
+
++a. 035: _&x1 io.10 fU.3) fO.04 to.04 fO.035 ti.3 to. IO] 20.03 _+O.OS io.07 _+0.05
+i(O.04, _io.lx 110.3 ?O.lO] _%I3 ~0.02 qo.09, to.02 iO.02 to.03 to.03 +O,OSt 20.04 M.04 _%.04 _`O.O%
+i(O.10 iO.14 _ _ _
+
+2.60 2.90 2.24 2.60 I.42 1.92 1.84 1.12 1.69 `0.94 1.R6 .1.66 2.0 1.0
+
+_t(OI. S fO.06 M.03 20.03 -`a.06 ?0.05 9.07 iO.lZ _%.04
+50. 25) _+O.JS _W.U) _+(0.3) _+(0.3) _ _ _
+
+2.13 1.22
+1.55 0.71 1.50 1.00 0.51 1.12 0.1
+1.1
+0.26 O.Y3 O.aa 1.08 0.76 0.88
+
+iO.OS fO.09
+ti.20 iO.08 10.06 20.08 ?0.08 fO.04 iO.3)
+?0lf
+M.16) fOo,06 fO.15) *co. IS, ti.30) i(O.08,
+
+1.11 iO.15)
+
+1.45 _tO.lO
+1.35 _`(O.lO, 1.8 _+0.3 1.01 -cO.lS)
+
+a9 20.2) I.85 H.O.5
+
+0.12 -0.47)
+
+i@Ocj`
+
+Meteoritest Phlot.-Mst.'
+
+12.00] l&99]
+3.31 1.42 2.88 [8.56] [8.05] [8.93] 4.48 [X.09 6.31 7.58 6.48 7.55 5.57 7.27 5.27 [6.56 5.13 6.34 3.09 4.93 4.02 5.68 5.53 7.51 4.9t 6.25 4.27 4.65 3.13 3.63 2.31 3.35 2.63 3.23 2.40 2.93 2.22 Z.hl 1.40
+1.96 1.82 1.09 1.70 1.24 1.76 0.x2 2.14 1.04 2.24 1.51 2.23 1.12 2.21 1.20 1.61 0.78 1.47 0.97 0.54 1.07 0.33 1.15 0.50 0.95 0.13 0.95 0.12 0.73 0.13 0.68 0.27 1.38 1.37 1.68 0.83 1.09 0.82 2.05 0.71 0.08 -0.49
+
+ti.ff`! ~0.04
+?O.O.# i
+ti.06 iO.lO] S.03 +0.02 _tO.OZ -ro.oz iO.04 tO.O.5 -@.fx _+O.lO] ti.03 to.03 _w.o4 ro.02 to.02 So.03 +0.04 ~0.01 -to.03 ro.02 _sm iO.O.? 20.03 20.04 ?a05 MO3 _W.OU 10.07 $0.03 to.03 to.02 20.03 _+.o.oI -sx?2 _W`O2 +a.03 to.03 SOI _NO3 /0.03 to.04 ?O.O? _N.O.# _fl.OR _cO.O8 10.02 _`1203 ftw.oI _N.OI
+-to.01
+ia.01 ?a.01 ~.a.01 io.01 _sI.OI TO.01 fO.01 _@.OI _&Of _+O.OI _G.Oi _+0.01 kO.01 a02 20.04 -4.03 a.03 &OS 20.06 _~.Osi _m?4 sm? a03 ti.02 +a04
+
+-2.15 -0.27 ( -0.28)
++o.os
++0.02 0.00
+-0.01 0.00
+-0.12 -0.06 i-O.23
+_ -0.01 +0.02 co.01 +0.06 -0.02 -0.01 -0.14 +0.16* +0.01
+O.OO -0.06 -0.05 -0.25 -0.22
++0.20 -0.03 co.02 -0.01 i 0.02 -0.04 +0.02 10.03 -0.01 w;"d
+(+0.84) -0.14 -0.04
+-0.08 +0.02 -0.06 -0.07 +0.03 -0.03 - 0.03 f0.05 (-0.43) -0.05 (-0.24) -0.02 W;;'
+[to&) CO.15
+(-cO.43)
+f0.07 -0.02 +0.12 :+0,18)
+:+0.08) -0.20
++0.04
+
+.
+
+.lOO.o% -.~`~~~~(LY-.`~~~~~~~~~`~~~`I~~"I~~~l~~'."'.~
+
+0
+
+10 20
+
+30
+
+40
+
+50 60
+
+70
+
+80
+
+90 100
+
+Atomic number, Z
+
+FIG. 2. Comparison of solar-system ("meteoritic") and photospheric abundances.
+
+0) and for elements with small radiogenic components (Sr, Nd, Hf, OS). It makes a much larger difference for elements that are strongly depleted in the Earth (H, N, noble gases) or are largely radiogenic (Pb). For the first group, we have retained the 1UPAC compositions, in the expectation that any reader concerned about these small differences will consult the references cited by HOLDEN er ai. (1984) and papers on isotope geology. Our choices for the second group are discussed below.
+For hydrogen, we recomputed the protosolar D/H ratio (GEISS and BOCHSLER, 198I) for our He/H ratio, again using the difference between He3/He4 in solar wind, (4.9 + 0.5). IO-" (COPLAN et al., 1984; BOCHSLER, 1987) and in meteoritic "planetary" He (1.42 + 0.2). 10e4(REYNOLDS et al., 1978; JEFFERY and ANDERS,1970). The resulting protosolar D/H-(3.4 + 1.0). 1O-s-is somewhat larger than the previous value of 2 * lo-' (GEISS and BOCHSLER1, 98I), but agrees with the results for Jupiter and Saturn (GAUTIER, 1983; OWEN etal., 1986).It is larger, though, than the latest value for the interstellar medium, 0.8 5 D/H s 2 * 10es (BOESGAARD and STEIGMAN, 1985). For an error analysis, see GEISSand B~CHSLER ( 1981).
+For nitrogen,it is difficult to find a truly representative value, as trapped (mainly solar-wind) nitrogen in lunar soils shows a -35% increase in N"/N14 during the last 2.5. lo9 yr (KERRIDGE, 1980; CLAYTONand THIEMENS, 1980; GEISS and BOCHSLER, 1982). We have adopted the terrestrial atmospheric ratio, as it falls within the solar-wind range. For lead, we have used the most accurate analysis for Orgueil (TATSLJMOTeOt al., 1976).
+For noble gases, we used mainly solar-wind values. How-
+ever, for He3/He4, we again used 1.42 s 10s4, the ratio in
+"planetary" He, since the solar ratio has been raised by deu-
+terium burning. The situation for Nezo/Nez2 is quite complex as this ratio varies widely: present solar wind in Al-foils = 13.7 f 0.3 (GEISS, 1973); older solar wind in lunar soils = 13.3 f 0. I (WIELER et al., 1986); low-energy SEP in lunar soils = 11.3 + 0+3 (WIELER et al., 1986) and in meteorites = 10.6 f 0.3 (BLACK, 1972); ~~g~-ener~ SEP = 7.7 (+.X3, -1.5) or 9.2 (+1.9, -1.8) (DIETRICH and SIMPSON, 1979; MEWALDTet al., 1984), which becomes 7.6 (+I. 7, -1.5) after
+correction for Q/M-dependent fractionation (MEWALDTand STONE, 1987), or various kinds of "planetary'" Ne in meteorites: Ne-Al or -A2 = 8.4-8.9 (TANG and ANDERS, 1988)
+and @Ne = 10. l- 10.6 (ANDERS, 1988). Much of the plan-
+etary Ne is associated with isotopically anomalous Ar, Kr,
+Xe (ANDERS, 1988) and thus is not a good candidate for
+primordial solar-system Ne. This leaves SEP-Ne or solar-wind
+Ne. The latter seems more appropriate, as its lower energy
+makes isotopic fractionations less likely (GEISS, 1973). Indeed,
+its isotopic composition is less variable than that of SEP's, as shown by a comparison ofpresent-day measurements with
+
+200
+
+E. Anders and N. Grevesse
+
+Ekment, A
+
+Atom Percent
+
+Process`
+
+Abund.t
+
+IH
+
+99.9966
+
+:
+
+0.0034
+
+2He 3 0.0142 4 99.9858
+
+3Li
+
+6
+
+7.5
+
+7 92.5
+
+4Be Y 100
+
+5R 10 19.9 I1 80.1
+
+6C 12 98.90 13 1.10
+
+IN 14 99.634 15 0.366
+
+80
+
+16 99.762
+
+17 0.038
+
+IX 0.200
+
+QF IQ 100
+
+IONe 20 21 22
+
+92.99 0.226 6.79
+
+1lNn 23 100
+
+12Mg 24 78.99
+
+::, ;::::
+
+U,h? U,b
+X U,r,h
+X
+X X
+
+3.86x1@ 2.12x1og
+4.28 52.82
+0.73
+4.22 16.98
+
+He NH He,N
+N &x
+HkN
+CNeEk
+Z& NeExC
+
+2.37~10' Y.04xlo3 4.76x 104
+a43
+3.20x 106 7.77xld 234x105
+5.74~10~
+8.48x1@ 1.07x 105 l.lSxld
+
+13Al 27 100
+
+Ne,Ex 8.49 x 104
+
+l4Si 28 92.23 :1: 43.6170
+
+0,EX Ne,Ex Ne,Ex
+
+Y.22xlO~
+4.67x 104 3.10x lo4
+
+15 P 31 in0
+
+NE,& 1.04x IOJ
+
+16s 32 95.02 33 0.75 34 4.21
+36 0.02
+
+17CI 35 75.77 37 24.23
+18Ar 36 84.2 38 15.8 40 40
+
+&s
+?Ex s,iitz
+
+2S6Q 913
+8.50u104 1.60x104
+26 ~Ssti4
+
+19 K 39 Y3.2581
+40 0.01167
+40 41 6.7302 Ex
+
+3516 0.440
+5.48
+253.7
+
+2OCo 40
+42 43
+44
+46 48
+
+96.Q41
+0.647 0.135
+2.086
+0.004 0.187
+
+::0
+E&S Ex,S
+ExCNe E,Ex
+
+59329x5104
+82.5 1275
+2.4 113
+
+21 SC 45 100
+
+ExNeE
+
+34.2
+
+22Ti 46
+
+8.0
+
+47
+
+7.3
+
+48 73.x
+
+49
+
+5.5
+
+50
+
+5.4
+
+23v
+
+50
+
+0.250
+
+51 99.750
+
+240 SO 4.345 52 83.789
+
+::
+
+29.356051
+
+25 Mn 55 100
+
+26Fe 54 5.8
+
+56 91.72
+
+::
+
+02.28
+
+:; EX Ex E
+E&E Ex
+Ex Ew
+E x
+E&E
+
+19725 1771
+132 130
+0.732 292
+587 1.131x104
+1321893
+9550
+
+27co 28Ni
+29Cu
+
+SY 100
+
+58 68.27
+
+60 26.10
+
+61
+
+1.13
+
+62 3.59
+
+64 0.91
+
+63 69.17 65 30.83
+
+ES
+E,Ex
+6 Ex,C Ex
+
+2250 361 161
+
+Element, A
+
+Atom PerCent
+
+Table 3. Abundance Process* Abund.t
+
+of the Nuclides (Atoms/l06 Si)
+
+_
+
+.-.
+
+Element, A PAto",t
+
+Process*
+
+Abund.'
+
+30Zn 64 48.63 66 27.90 67 4.10 68 18.75
+70 0.62
+
+31 Ga 69 71
+
+60.108 39.892
+
+32Ce 70 20.5
+
+:: 274 74 3::;
+76 7.8
+
+33As 7s 100
+
+34Se 74 0.88
+76 9.0
+77 76._
+78 23.6
+80 49.7 82 9.2
+
+35Br 79 SO.69 81 49.31
+
+36Kr 78 0.339
+
+g
+
+121.2425
+
+83 11.47
+84 57.11 86 17.42
+
+37Rb 85 72.165 87 27.835
+87
+
+38Sr 84 0.56
+
+:!:
+
+97.8060
+
+87
+
+88 82.55
+
+39Y 89 100
+
+40 Zr 41Nb
+
+90 51.45
+
+;:
+
+11.22
+
+17.15 94 17.38
+
+96 2.80
+
+93 100
+
+42Mn 92 ;:
+
+14.84 195.2952
+
+96 16.68 97 9.55
+98 24.13 l@n 9.63
+
+44Ru 96 98
+99 100
+101
+102 104
+
+5.52 1.88
+12.7 12.6 17.0 31.6 18.7
+
+45Rh 103 100
+
+46Pd 102 104 105
+1% 108
+110
+
+1.020 11.14 22.33
+27.33 26.46
+11.72
+
+47Ag 107 109
+
+51.839 48.161
+
+48Cd 106
+108 110 111 112
+113 114 116
+
+1.25
+0.a9 12.49 12.80 24.13
+12.22 28.73
+7.49
+
+49fn 113 11s
+
+4.3 95.7
+
+5OSn 112 0.973 114 0.659 115 0.339 116 14.538 117 1.612 118 24.217 119 8.587 120 32.596 122 4.632 124 5.787 R
+
+613 352
+51.7 236
+7.8
+22.7 15.1
+24.4 32.6
+9.28 43.4
+9.28
+6.56
+0.55 5.6 4.7 14.7 30.9 5.7
+S.Y8 5.82
+n.153 0.999 5.15 5.16 25.70 7.84
+5.12 1.97
+2 ii
+(1.132 2.32 1.64 1.51 IQ.41
+4.64
+5.87 1.28 I.96 1.98 l1.32(1
+0.698
+0.378 0.236 0.406 0.425 0.244 0.615 0.246
+0.103 0.0350 0.236 0.234 0.316 0.588 0.348
+0.344
+6.0142 0.155 0.310 0.380 0.368 0.163
+0.252 0.234
+0.0201 0.0143 0.201 0.206 0.388 0.197 0.463 0.121
+0.0079 0.176
+0.0372 0.0252 0.0129 0.555 0.293 0.925 0.328 1.245 0.177 0.221
+
+51 Sb 121 123
+
+57.362 42.638
+
+52Te 120
+;;: 124 125 126 128 130
+
+0.09
+;:`8; 4.76 7.10 18.89 31.73 33.97
+
+531 127 100
+
+54xe 124 I26 128 129 130 131 132
+134 136
+
+O.iZl 0.108 2.19
+27.34 4.35
+21.69 26.50
+9.76 7.94
+
+550 133 100
+
+56Bn 130
+132 134 135 136 137 138
+
+0.106 0.101 2.417
+6.592 7.854 11.23 71.70
+
+S7Ln 138
+138 139
+
+0.089 99.911
+
+5RCe 136
+138
+138 140 142
+
+0.19 0.25
+88.48 il.08
+
+59Pr I41 160
+
+6ONd 142
+143 143 144 145 146 148 150
+
+27.13 12.18
+23.80 8.30 17.19 5.76 5.64
+
+62 sm 144 147 147
+148 149 150 152 154
+
+3.1 15.0
+11.3 13.8
+7.4 26.7 22.7
+
+63Eu 151 47.8 153 52.2
+
+64Gd
+
+152 1.54 155 156 157 158 160
+
+0.20 2.18 14.80 20.47 15.65 24.84 21.86
+
+65Tb 159 100
+
+66Dy 156 158 160 161 162 163 164
+
+0.056 0.096 2.34 18.91 25.51 24.90 28.19
+
+67Hu 165 100
+
+58Er 162 164 166 167
+168 170
+
+0.14 1.61 33.6 22.95 26.8 14.9
+
+59Tm 169 100
+
+7OYb 168 170 171 172 173 174 176
+
+0.13 3.05 14.3 21.9 16.12 31.8 12.7
+
+R-5
+R
+R P ; ! R RJ :: R,s
+P SJ P P SJ R RS Z,S
+P R.5 S KS s R.S R RJ RJ P,S S RJ R,s R,s RJ R R
+R P PS R,S R R,S R
+
+(1.177 0.132
+0.0043 0.124 0.0428 0.229 0.342 0.909 1.526 1.634
+0.90
+0.00571 0.00569 0.103 1.28 0.205 1.02 1.24 0.459 0.373
+0.372
+0.00476 0.00453 0.109 0.2% 0.353 0.505 3.22
+0.00039 0.00040! 0.446
+0.00216 0.00284 0.00283 1.005 0.126
+0.167
+0.225 0.101 0.100 0.197 0.0687 0.142 0.0477 0.0467
+0.00800 0.0387 0.0399 0.0292 0.0356 0.0191 0.0689 0.0586
+0.0465 0.0508
+0.00066 0.00719 0.0488 0.0676 0.05 16 0.0820 0.072 I
+0.06Gj
+a.060221 0.00037F 0.00922 0.0745 O.lOl 0.0982 0.111
+0.0889
+O.OOo351 0.00404 0.0843 0.0576 0.0672 0.0374
+0.0378
+0.000322 0.00756 0.0354 0.0543 0.04cil 0.0788 0.0315
+
+.-
+:.lement, A P4to.nt
+
+Process*
+
+Ab6nd.t
+
+`1 Lu 175 97.41
+
+R,r
+
+176 2.59
+
+S
+
+176
+
+`2Hf 174 0.162 P 176 5.206 S
+176 177 18.606 R,s 17X 21.297 R,S 179 13.629 R,s 180 35.100 S,R
+
+i3Ta 180 0.012
+
+,w
+
+181 99.988 g ,S
+
+l.lW 180 0.13
+
+P
+
+182 26.3
+
+R,s
+
+1834 3104.637
+
+21
+
+186 28.6
+
+R'
+
+75Re 185 37.40
+
+R,s
+
+187 62.60
+
+R
+
+187
+
+760s 184 0.018 P
+
+1X876 1.568
+
+:
+
+IN7
+
+18s 13.3
+
+R,S
+
+189 1h.l
+
+190 26.4
+
+::
+
+192 41.0
+
+R
+
+77fr 1913 3672.37
+
+::
+
+7XPt 190 0.0127 P
+
+1924 320.978
+
+:
+
+1956 2353.28
+
+::
+
+198 7.19
+
+R
+
+79AU 197 luo
+
+R
+
+10 llg 196 0.1534 P
+198 9.968 S
+199 16.873 R,S 200 23.096 S,r 201 13.181 S,r 202 29.863 S,r
+204 6.865 R
+
+81 TI 203 29.524 R,S 205 70.476 S,R
+
+82Pb 204
+
+1.94
+
+s
+
+206 19.12
+
+R,S
+
+206
+
+207 20.62
+
+R.S
+
+207
+
+208 58.31
+
+R,s
+
+20x
+
+"i3Bi 20Y 1nO
+
+R,s
+
+POTb 232 100
+
+RA
+
+232
+
+32 U 235 0.7200 RA 23.5 238 99.2745 RA 238
+
+0.0357 0.00095 1 0.001035
+0.000249 0.00802 0.00793 0.0287 0.0420 0.0210 0.0541
+2.48~ W6 0.0207
+o.oi0173 0.0350 0.0190 0.0408 0.0380
+ns1193 0.0324 o.o.z51
+O.OOOl22 0.0107 0.0108 0.00807 0.0898 O.lO9 0.178 0.277
+0.247 0.414
+0.0011170 0.0105 0.441 0.453 0.338 0.0963
+0.187
+0.00052 0.0339 0.0574 0.0785 0.0448 0.1015 0.0233
+0.0543 0.1297
+0.061 I 0.602 0.f 93 0.650 0.644 1.837 1.828
+0.144
+(I.0335 0.0420
+h.4ax lo-* o.oos73 O.OoRY3 0.0181
+
+Abundances of the elements
+
+201
+
+long-term averages in lunar soils; +3 t 2% for solar wind, -33 + 15% for SEP.
+The Ar36/Ar38ratio is virtually the same in solar wind and in the Earth's atmosphere, which makes the choice easy. For Ar4', we have used the lowest Ar40/Arj6 ratio observed in meteorites, (2.9 + 1.7) - 10e4 in an 1850°C fraction from the Dyalpur ureilite (G~BEL et al., 1978), which leads to Ar4' = 25 + 14. Part or all of this Ar4' could be radiogenic, but since the observed amount is only 5 * 10m5that expected from in situ decay of K4' in 4.55 AE (recalculated from BEGEMANN and OTT, 1983), it seems that radiogenic Ar4' was very efficiently removed in the measurement of G~BEL et al. (1978). Indeed, the observed value is remarkably close to the range predicted by s-process calculations, 24 + 7 to 7 ? 2 for unpulsed or pulsed s-processes (BEER and PENZHORN, 1987, MACKLIN et al., 1989). We have therefore assumed that the Dyalpur fraction was nearly pure primordial Ar as of 4.55 AE ago, with only a negligible contribution of Ar4' from K4'
+decay. For Kr and Xe, we used solar-wind compositions selected
+by GEISSand BOCHSLER(1985).
+3. REVIEW OF METEORITIC ABUNDANCES
+In this section we discuss the abundances of individual elements in Table 1, using the Si = lo6 scale. After briefly explaining our methodology, we review the elements by increasing atomic number, omitting those for which no new data have become available since AE. Only new (or previously omitted) references are given, even though the revised abundances generally include all the earlier data from AE.
+Methodology. We closely followed the procedure of AE. For each element, we first tabulated all published values for each meteorite, omitting only repeat publications or data obtained by obviously inaccurate methods. We then converted the data to atomic abundances, rejected obvious outliers, and calculated the mean for each meteorite. Replicates were generally counted as separate analyses except when they seemed less accurate than the data by other authors; in such cases only their mean was used. As in AE, papers that contained no usable data generally are not cited at all.
+For the normalization to Si, we used the author's own Si value if Si was determined on the same sample. In all other cases, we used wet-chemical values: Orgueil lO.64%, Ivuna 10.60%, Alais 9.7 1% (WIIK, 1969),Tonk 10.47%(CHRISTIE,1914, cited by MASON,1963). Generally we averaged all analyses (= "analysis mean"), thus effectively giving greatest weight to the frequently analyzed Orgueil. But for a few elements that showed systematic differences among meteorites (Mg,Si, S, and Fe), we averagedthe means for each meteorite, thus giving unit weight to each (= "meteorite mean").
+One limit to analytical accuracy that has not been generally recognized is the variable water content of Cl chondrites. These meteorites contain about 8% of loosely hound water, which is lost at low relative humidities due to the transformation of MgSO., .7 Hz0 to the tetra- or (less often) monohydrate. Very few analysts specify their sample drying procedure, and most published data thus have an indeterminate error of 3 to 4% on top of the analytical error.
+References. As in AE, we use an abbreviated codefor referencesto analytical data, consisting of the first letter of the senior author's surname and a number. These references are numbered consecutively with those in AE, picking up where AE left off.
+3.1. Li, Be, B
+Lithium (K5). The 7 NAA analyses of M14 were not used as they showed up to two-fold differences between fragments and bulk samples. If included they would have lowered Li from 57.1 to 53.0.
+
+Beryllium (Sl, V2). The atomic absorption values of V2 are only 15% lower than the (y, 2an) data of Ql, and 10% lower than the calorimetric values of SI, which were previously rejected. Although the data of QI should he superior since they were based on large samples and a highly specific nuclear method, the differences were small, and we have therefore retained all three sets. None of the samples were Cl's, and the data were therefore corrected by fractionation factors for refractories (KI): 1.11 for C2 and C30, 1.33 for C3V (see Sec. 7.3, however).
+Boron (Cl I). The latest measurements by Curtis and Gladney (Cl I) give an abundance of 2 1.1 + 2 for Orgueil, close to the indirect value of 24 f 7 of AE. The latter value had been derived from the data of C6 (mainly ordinary chondrites) by applying corrections for chondrule content, on the assumption that boron is moderately volatile and hence depleted in chondrules. The data for C2, 3 chondrites when similarly corrected show even better agreement with the new Orgueil value:
+8 C2, 3 chondrites (CII): 18.5 + 3.3
+21 C2, 3 chondrites (CII. C6): 20.1 f 3.4.
+There is little to choose among these various estimates, but following CII, we adopt the new Orgueil value.
+.3.2. F, Na, Mg, Al, Si, P, S, Cl
+Sodium (Gl3). Magnesium (G14). Aluminum (G14). The scatter of the data of Kl was reduced by using their Al/Mg ratios rather than Al concentrations and converting them to Al/Si ratios via the Mg/Si ratio from Table 1. Silicon (M2). The 1912 analysis of Tonk by Christie (M2) has been reinstated, as it looks pretty good except for low Mg, Cr and high alkalis. The mean Si content for the 4 Cl chondrites then becomes 10.38 + 0.45%. This has no effect on the Si = lo6 normalization or the Si value (10.64%) for a "nominal" Cl chondrite, which is used to convert atomic abundances back to weight abundances in Table 1.
+3.3. K, Ca, SC, Ti, V, Cr, Mn. Fe, Co, Ni
+Potassium (B6). Calcium. The Ca and Al values from Table 1 give a Ca/Al (weight) ratio of 1.07, slightly below the empirical mean of - 1.08shown by most meteorite classes (AHRENS,1970). However, we did not adjust our Ca value, as the difference is less than the uncertainty in the empirical mean, especially since the most recent data (Kl) suggest slight variations in mean Ca/Al among C 1-C3 chondrites, in addition to variations within the C 1,C2 classes attributable to hydrothermal transport. It is not clear whether the mean Cl chondrite value is preferable to a grand average of all chondrite classes, but for consistency we have chosen the former. The difference is less than 2% in any case. Scandium (G14, J3). Davis (1988, in preparation) has estimated indirect Cl abundances of SCand several other refractory elements from their ratios to REE in chondrites, using a very precise set of REE abundances based mainly on isotope dilution analyses (Sec. 3.6). His value for SC(6.066 2 0.085 ppm) corresponds to an atomic abundance of 35.6 f 0.5, which is 4% higher than the value in Table 1 (but see Sec. 3.6). Vanadium (G14). Chromium (G14). Manganese (Gl3, G14). Cobalt (RS). Nickel (R8, Tl).
+3.4. Cu. Zn, Ga, Ge, As, Se, Br, Rb, Sr, Y, Zr, Nb, MO
+Copper (RS). Zinc. The revised value uses individual analyses rather than means from C8 and Kl. Germanium. The revised value uses individual analyses rather than means from Kl.
+
+202
+
+E. Anders and N. Grevesse
+
+Arsenic (RS). Two low values from C7 and Hl were reinstated, as they were consistent with the new values by R8.
+Selenium Data by Kl are systematically high by -20% compared to the remaining analyses (which agree within *3%) and have therefore been omitted.
+Rubidium (B6). Strontium (B6. G2). Yttrium (J3). The new average of 4.64 f 0.28 agrees exactly with the old, but the error is smaller. Three indirect estimates give similar values: 4.79 * 0.33 from Y/Ho of 8 C-chondrites (J3), 5.16 + 0.47 from Zr/Y of C-chondrites (J3). or 4.52 ? 0.12 from the Y/REE ratio of 14 chondrites (DAVIS, 1988, in preparation). Zirconium. Following (JS), we deleted the data of G7, which gave a low Zr/Hf ratio and were 23% low compared to the mean of the remaining 5 analyses, 1I .4 * 0.7. This value also gives reasonable Zr/Hf, Zr/Y, and Zr/Ho ratios, agreeing with those for C2 and C3 chondrites (JS). It is somewhat disturbing, though, that C2, C30, and C3V chondrites (K3, J3) give a mean Zr abundance virtually identical to the C 1 value, 11.7 * 1.0 vs. 11.4 + 0.7, although Kl have shown that these three classes are generally enriched in refractories by factors of 1.11, 1.11 and 1.33. Either these fractionations do not apply to Zr or some of the Zr data are wrong. More highquality analyses are obviously needed for Zr and Hf. Niobium (J-I).The first measurements on a C 1 chondrite (J3) agree very well with the earlier, indirect estimate of AE, 0.698 vs. 0.71, and with the mean value from eight Cl-C3 analyses: 0.706 f 0.038 (J3). Again, J3 find no systematic difference between Cl's and other C-chondrite classes. Molybdenum (RS). The new value (RB) is based on a slight (- 1%) upward revision of the original data of P3.
+3.5. Ru, Rh. Pd, Ag, Cd, In, Sn, Sb, Te, I, Cs, Ba
+Palladium (L6). Seven new isotope dilution values by L6 have left the mean unchanged.
+Silver (L6). The six isotope dilution values by L6 are only slightly lower than the 11 RNAA values used by AE, but have better precision: 0.486 + 0.014 vs. 0.529 f 0.050. We have therefore used only the data of L6.
+Cadmium (L6). Tin. BEERet al. (1988) have measured the neutron capture crosssection of Sn'16,and have argued from s-process systematics that the Sn abundance ought to be 2.95 f 0.23 rather than 3.82 f 0.36. It does not seem possible to lower the meteoritic value, which is based on 11 RNAA and ID measurements from four laboratories for three meteorites. The mean of the two isotope dilution values is close to the overall mean: 3.77 f 0.17 vs. 3.82 + 0.36 (as usual, errors are standard deviations of the population, not the mean). Antimony (RS). The highly accurate metal extraction method of R8 gave 120 and 123 ppb for Orgueil, which agrees with the 19731978 Chicago RNAA values (K4, Tl) but is markedly lower than many other measurements. We therefore rejected 13 Orgueil and Ivuna values that exceeded 155 ppb (an isotope dilution value by K3 chosen as a cutoff). For Alais, all four values were systematically high, and we therefore rejected only the highest value (209 ppb). Tellurium (L6). The mean of nine isotope dilution values is only slightly lower than the mean of all 17 analyses: 4.69 + 0.16 vs. 4.8 1 + 0.47. Zodine. The indirect value for this element, based on ratios to F, Br, In, and Cd, is only negligibly affected by the change in Cd abundance. Cesium (B6). The new values left the mean unchanged. Barium (86). The values of D2 and D5 were deleted, as they appeared to be not independent measurements but unreferenced data from the literature.
+3.6. Rare earth elements, Hf Ta, W, Re, OS. Zr, Pt, Au
+REE (B6, J3). We have used the pattern derived by Davis (1988, in preparation), which was obtained in the following manner:
+a. Relative abundances of polyisotopic REE were found by averag-ing- four isotope dilution analyses for Cl's (B6. N2).
+b. For each of 19 Cl chondrite patterns in the literature, the mean REE enrichment factor was calculated relative to the reference pattern from (a), rejecting outlying enrichment factors for individual REE.
+
+c. The grand mean of these mean enrichment factors was then used to normalize the absolute level of the reference pattern. (The 1~ error of the grand mean was f 1.22%b, ut the individual means ranged from 0.924 to 1.129 the grand mean.)
+d. Abundances of monoisotopic REE were found by normalizing literature analyses of Cl and other chondrites to the abundances of polyisotopic REE from (b), rejecting fractionated or irregular patterns. The concentrations of SC,Y, Pr, Tb, Ho, and Tm in each meteorite were then normalized to a standard C 1 by dividing them by the mean enrichment factor for polyisotopic REE in that meteorite. These Clnormalized abundances were then averaged.
+The REE data in Table 1 were renormalized to Si = 10.64% from Davis' 10.57%. Errors include both the error in the pattern and that in absolute abundance. Because of this unconventional procedure, the number of analyses used for the atomic abundances in Table 1 requires some explanation. For polyisotopic REE, four Cl analyses were used for the relative abundances and 5 19 Cl analyses for absolute abundances. For monoisotopic REE, 20 to 23 analyses-including chondrites of other classes-were used. In contrast, the (weight) abundances for Orgueil in Table I were obtained by straight averaging, as usual.
+Hafnium (86). The analyses of K3 and S4 were rejected, as they were some 15%higher than the isotope dilution analyses of 86 (106.1, 107.1 ppb). Even the latter values gave an atomic Lu/Hf ratio slightly below the value inferred by B6 from isotope systematics: 0.233 vs. 0.243. As we did not feel justified in raising the REE, we lowered Hf from 0.159 to a compromise value of 0.154, which raised the Lu/Hf ratio to 0.238 while giving a Zr/Hf (weight) ratio of 37.9.
+Tantalum (J3). The first measurements on a Cl chondrite (J3) gave an abundance of0.0207, only 10%lower than the indirect value ofAE. (05 had previously given a Cl value of 17 ppb, corresponding to an abundance of 0.248, but this seems to be an unreferenced value by E6 for the Murray C2 chondrite.) Another indirect value can be obtained from the Sc/Ta ratio of 428 f 3 in Cl and C2 chondrites (w/w; J3). With the SCabundance from Table 1, it yields a Ta abundance of 0.0 198, only 4% lower than the direct value.
+Tungsten (RS). The mean of W2 and two new measurements by R8 agrees well with the indirect value of AE, which was based on an average of W2 and the C2-C3 chondrite mean (corrected for fractionation): 0.133 vs. 0.137.
+Rhenium (RS). Osmium (RS). The new values of R8 are near the low end of the range of previous measurements, and we have therefore rejected the highest four values used by AE (from C9 and E3). The Orgueil value in Table 1 of AE should have been given as 504 ppb, not 699 ppb. (The latter number is the abundance on the Si = lo6 scale, . lo'.) Iridium (G14). Platinum (RS). In light of the new data, the Ivuna value of C9 was rejected (the Alais value had already been rejected by AE). Gold (RS).
+3.7. Hg, Pb, Bi, Th, V
+Mercury (87). Mercury in Cl chondrites is too variable for a reliable abundance determination, and therefore has been customarily estimated by interpolation. A better approach is to use s-process systematics; specifically, the near-constancy of UN. BEER and MACKLIN (1985) have obtained a value of 0.34 f 0.04 in this manner, using measured cross-sections and the abundances of neighboring elements from AE. As these abundances have hardly changed (Table l), the above value should still be valid.
+Lead. The value of AE remains unchanged. It agrees within error limits with a theoretical estimate by BEERand MACKLIN(1985): 3.15 + 0.25 vs. 2.85 f 0.19. However, this estimate assumes no s-process branching at T1204r;f such branching occurs, then the lead abundance will be smaller (BEER, 1988). See Sec. 7.2 for further discussion.
+4. REVIEW OF SOLAR PHOTOSPHERIC ABUNDANCES
+In this section, abundances are expressed on a logarithmic
+scale relative to log H = 12. Some of the elements in Table
+2 have remained unchanged since the last critical compila-
+
+Abundances of the elements
+
+203
+
+tions by one of us (GREVESSE, 1984a,b). We shall therefore discuss only those elements that have been redetermined since 1984.
+4.1. H, C, N, 0
+These major volatiles are incompletely condensed in meteorites, and thus the Sun is the only source of their solar-system abundances (LAMBERT,1978; SAUVALet al., 1984). Furthermore, since a fractionation process occurs in the chromosphere that depletes these elements in the corona (Sec. 5 and 7. I), only the photospheric results are reliable. For various reasons summarized by GREVESSEet nl. (1987), the most accurate values come from a careful analysis of vibration-rotation and pure rotation lines of molecules such as CO, CH, OH, NH that are present in the solar infrared spectrum (SAUVAL et al., 1988, in preparation), as obtained from space by the ATMOS SL3 experiment (FARMERet al., 1987). These new results (Tables 1 and 2) differ somewhat, for C and N, from those previously adopted by GREVESSE(1984a).
+4.2. Li
+Lithium (STEENBOCKand HOLWEGER,1984).
+4.3. SC, Ti, V, Cr, Mn. Fe
+Scandium (GREVESSE,1988, in preparation). Titanium (BLACKWELLet al., 1987; GREVESSEet al., 1988). Vanadium (WHALINGet al., 1985; B&MONT et al., 1988). Chromium (BLACKWELLet al.. 1987). Manganese (BOOTHet al., 1984). Iron. Updating the discussion by GREVESSE(1984a), we note that the earlier results of BLACKWELLet al. (1984) have been confirmed by BLACKWELLet al. (1986), through study of faint Fe1 lines of rather low excitation (~2.6 eV) with accurately known oscillator strengths. This result, based on local thermodynamic equilibrium (LTE), is listed in Table 2. Actually, slight non-LTE effects in excitation have been discovered empirically in Fe1 (BLACKWELLet al., 1984), Til, CrI (BLACKWELLel al., 1987), and V 1 (BI~ONTet al., 1988), all through the use of very high accuracy transition probabilities. These effects are taken into account in the corresponding abundances in Table 2. A full non-LTE treatment of FeI-Fe11 by STEENBOCK(1985; see also HOLWEGER,1988) shows that LTE-based abundances from Fe1 lines should be increased slightly (by -0.05 dex) to allow for deviations from LTE. This would raise the abundance of Fe from 7.67 to 7.72, still farther from the meteoritic value of 7.5 1. A substantially lower value, 7.56 + 0.08, was obtained by G'MARA(priv. commun.), using transition probabilities of high-excitation Fe I lines (MILFORD et al., 1988), which should be less sensitive than low excitation lines to temperature and non-LTE effects. Similarly, results from lines of Fe11(by far the dominant species) should not be affected by slight departures from LTE. Although accurate transition probabilities for good solar Fe11lines are very rarely available, promising efforts to measure them have been made by WHALING(1985) MOITY(1988, priv. commun.), and PAULS(1988). The latter author obtained dvahies for 3 Fe11lines in the near infrared, which lead to A, = 7.63. But a higher value, 7.68 * 0.05, was obtained in a reanalysis of ten forbidden Fe II lines (N. GREVESSEu,npublished work). Thus the question of the solar-iron abundance remains in a state of flux, but there is hope that full agreement will soon be reached by joint efforts of atomic physicists and astronomers.
+4.4. Ge, Pb
+Germanium (GREVESSEand MEYER, 1985). Lead (GREVESSEand MEYER, 1985).
+4.5. Y, Zr, Nb
+Yttrium, Zirconium. The results from GREVESSE(1984a), based on data by HANNAFORDet al. (1982) and B&MONTet al. (1981), have been recalculated on the basis of new ionization potentials (ZrI:
+
+HACKETTet al., 1986), with inclusion of a previously overlooked value for Y (GARTONet al., 1973).
+Niobium (HANNAFORDet al.. 1985).
+4.6. Nd, Sm, Gd, Er, Au, Th
+Neodymium (WARD et al., 1985). Samarium. A new analysis by B&MONTet al. (1989, in preparation), based on new, accurate lifetimes of Sm II, has removed the discrepancy between the photospheric and meteoritic values. Gadolinium (BERGSTROMet al., 1988). Erbium (B&MONTand YOUSSEF1,984). Hafnium. Because the six Hf II lines used by ANDERSENet al. (1976) are faint and heavily blended, the actual uncertainty of the abundance may be considerably larger than reported by these authors. Gold. The value in Table 2 is the mean of 0.95 (YOUSSEF,1986) and 1.08(N. GREVESSEu, npublished data), both based on the same blended line in the UV. Thorium. The value in Table 2 is based on a new study of the spectra of the full solar disk and its center (N. GREVESSEu,npublished data). The single Th line at 4019 A is blended with a Co1 line, the transition probability of which was determined only very recently (WHALINGand LAWLER,unpublished data). With this correction, the Th value drops from 0.18 to 0.12.
+5. SOLAR CORONA, SOLAR WIND, SOLAR ENERGETIC PARTICLES (SEP)
+Excellent reviews are available on the problem of deriving abundances in the solar corona, either by spectroscopy or by measurement of particles originating in the solar corona, such as solar wind and SEP (MEYER, 1985a,b, GEISS, 1982; GEISS and BOCHSLER, 1985; BRENEMAN and STONE,1985; BOCHSLER, 1987). The most recent values are given in Table 4.
+Spectroscopic measurements, summarized by MEYER(1985b), are available for H, He, C, N, 0, Ne, Na, Mg, Al, Si, S, Ar, Ca, Fe, and Ni. Ah converge well, but their uncertainties are rather large (-0.20 dex or even up to 0.48 dex for some elements such as He or C).
+NOCI et al. (1988) reconsidered the abundances of C, N, 0, Ne, Mg, Si and S in different regions of the solar transition zone (a coronal hole, a quiet region, and an active region). They concluded that the coronal abundances do not differ from photospheric abundances by
+
+Element Spectroscapi,
+
+I H 2m 6C 7N 80 9F IONe llNs IZMg 13 Al 14 Si 15 P 16s 17CI 18Ar 19K 20 Ca 21 SC 22 Ti 23 V 24 Cr 25 Mn 26 Fe 28 Ni 29 Cu 30 Zn
+
+I
+111.88?a30
+(10.88 9.48)
+8.33 s.48 7.55 ?a23 8.35 tO..?O
+
+7.50 6.40 7.53 6.40 .7.55
+
+,a20 to.23 m** 10.27 _W..II
+
+6.89 M23
+
+6.28 fl.26
+
+6.43 a20
+
+7.55 _Hl8 6.29 HZ
+
+Table 4. Abundances m the Solar Corona'
+
+Solar Wind
+
+11.53 10.13 7.88 7.42 8.25
+
+ti.08 a.10 ?a02 ?O.IS M.IS
+
+7.48 _@.OS
+
+S.E.P.'
+
+CLXTla Adopted
+
+10.14 7.92 7.40 8.30 (4.00 7.44 6.38 7.59 6.47 -7.55 5.24 6.93 4.93 5.93 5.14 6.46 :4.04 5.24 14.23 5.81 5.38 7.65 6.22 4.31 4.76
+
+!oOt to.04 `0.03 HI.03 to.30) to.04 3.04 MO3 _%.03 -403 ti.06 !a02 ?a14 ti.06 Ml7 ?lW6 fl.40) M12 fl.40) H.08 fl.17 H.04 -HO.5 H.40) fll8
+
+10.14 7.90 7.40 8.30 (4.W 7.46 6.38 7.59 6.47
+-7.55 5.24 6.93 4.93 5.89 5.14 6.46 (4.04 5.24 (4.23 5.81 5.38 7.65 6.22
+(4.31 4.76
+
+Ho.06 ?a.06 to.06 tfJO.06 fO.30 H.06 _`006 MO6 ti.06 fO.05 fl.08 to.05 fl.l.14 9.10 fo.17 %I.08 H.40 9.13 H.40 fl.09 !a.18 H.06 H.08 XI40 H.19
+
+Photosphere
+
+12.00
+10.99
+8.56 8.05 8.93
+4.56 8.07 6.33
+7.58 6.47 7.55 5.45 7.21 5.5 6.58 5.12 6.36 3.10 4.99 4.00 5.67
+5.39 7.67 6.25 4.21 4.60
+
+s.03
+!a04 H.04 HI.03
+fO.30 ~0.18 HI.03
+H.05 _@.07 to.05 +0.04 Ho.06 3.3 to.18 H.13 MO.? fo.G9 ~.O,? to.02 MO3
+a.03 ti.03 fO.04 M.04 fl.08
+
+COKXlaPhot.
+-0.85 -0.66 -0.65 -0.63 -0.56) -0.61 +0.05 +0.01
+OS10 0.00 -0.21 -0.28 -0.57 -0.69 to.02 to.10 t0.96) t0.25 t0.23) to.14 -0.01 -0.02 -0.03 Cfl.10) to.16
+
+204
+
+E. Anders and N. Grevesse
+
+more than their rather large uncertainties (0.40 dex), except for 0, which is underabundant.
+Solar-wind (SW) values are available for H, He, C, N, 0, Ne, Si, Ar, and Fe; their uncertainties are on the order of 0.05-0.20 dex (BOCHSLER1, 987). Within their error limits, the SW data agree with spectroscopic coronal values, though the match for log He/H is hardly significant in view of the large errors (SW = -1.40 + 0.10, corona -1.00 f 0.48).
+The data for SEP's in Table 4 (BRENEMANand STONE, 1985) cover a wider range of elements and are quite accurate (generally f 10%). Following the authors, we list values corrected for a residual charge/mass (Q/M) fractionation; the correction is small for light elements but reaches +O. 10 to +O. 18 dex in the iron group (Sec. 7. I).
+The SEP values-even without this correction-and SW values generally agree within error limits with the spectroscopic values. We therefore took the SEP-SW mean for He, C, Ne and Ar, and SEP alone for the remaining elements as our best estimates for the outer layers of the Sun ("Corona, adopted" in Table 4). Differences between these values and photospheric ones (last column of Table 4) will be discussed in Sec. 7.1.
+6. NOBLE GASES
+6.1. He
+Despite its high abundance and great astrophysical importance, helium is difficult to determine accurately.
+In the Sun, He does not appear in the photospheric spectrum, and therefore can be determined only from prominence spectra, solar wind, solar energetic particles, or models of the solar interior. Prominence spectrayield very uncertain results, as the relevant physical processes are not well understood. Values of NuJNn vary from 6.5 to 16% (HIRAYAMA, 1978; MILKEY, 1978; HEASLEYand MILKEY, 1978). In the solar wind(BOCHSLER1, 987), helium is extremely variable, but generally NuJNn is rather low, -4 f 2%. A similar value is found for solar energeticparticles(COOK et al., 1984; MCGUIRE et nl., 1986). However, none of these results are reliable enough for our purposes, due to low accuracy (prominences) or possible fractionation (solar wind, SEP).
+Giantplanetsareanother source of He/H ratios, but at least Jupiter and Saturn (5.7 + 1.3% and 1.6 + 1.3%; CONRATHet al., 1984) seem to have been affected by fractionation. Only Uranus (9.2 + 1.7%; CONRATHef al., 1987) agrees with the result derived below.
+We shall therefore turn to extrasolar sources, such as HII regions or hot stars. Many results are available (SHAVERef al., 1983; WOLF and HEASLEY,1985; PEIMBERT,1986; PAGEL,1987, 1988; MEYER, 1989) and indicate a rather uniform abundance for media with roughly solar metallicity, NHc/NHu 9 to 11%. Values in the same range, 9.2 to 10.4% come from recent standard solar models, which consistently give a He mass fraction, Y, between 0.264 and 0.288 (CAHEN, 1986; TURCK-CHI&E et al., 1988; BAHCALLand ULRICH, 1988). We therefore adopt N&NH = 9.75% (Y = 0.275), with an uncertainty of k8% (9% 5 NHJNH 5 10.5%; 0.26 5 Y 5 0.29).
+6.2. Ne, Ar
+Like He, C, N, 0, these elements are fractionated relative to low FIP metals in the solar corona (Sec. 7.1). For this reason we shah again partly rely on local galactic values, i.e. for HI1 regions, HI gas, and stars, as reviewed by MEYER(1985a, 1989). As these data also agree very well with "photospheric" values derived from coronal spectroscopy, solar wind and SEP (corrected by a constant fractionation factor for ah elements of 2 > 2 with FIP > 11 eV), we have adopted the mean values: log Ne = 8.09, log Ar = 6.56 (Sec. 7.1). These values agree with a prominence measurement, which presumably refers to photospheric, not coronal material, as judged from the Mg/O ratio (WIDING et al., 1986). Moreover, the Ar value is only 3% smaller than the value obtained by interpolating A? between Si2'and Ca4' (CAMERON,1973, 1982; AE).
+6.3. Kr, Xe
+For Kr, the latest value based on s-process systematics (45 k 8; H. BEER,priv. commun., 1987; see also WALTERet nl., 1986) agrees
+
+well with the earlier estimate of 45.3 (AE) obtained by Cameron's method (ti3 was interpolated between Bra' and Rbss, and ti4 between Se*'and Spa). The Xe value was obtained by graphicallyfitting Xe to the Te-I-Cs-Bapeak, using both the even- and odd-A nuclides. The result, 4.7, agrees with an estimate of 5.0 f 1.0 based on sprocess systematics (BEERet al., 1983).
+The corresponding elemental ratios may be compared with those of the solar wind and other estimates (Table 5). He4/Ne2' again is high compared to the solar wind and SEP, apparently due to different depletions of He and Ne in the latter (Fig. 3; Sec. 7.1). The other ratios seem to have stabilized, although the individual abundances of all four noble gases have changed.
+7. DISCUSSION
+7.1. Photospheric vs. coronal abundances
+It is well known that several different processes affect abundances in the solar corona (MEYER, 1985b; VAUCLAIR and MEYER, 1985; GEISS, 1985; BRENEMAN and STONE, 1985; GEISS and BOCHSLER,1985; BOCHSLER, 1987 and references therein). There is clear evidence from abundance patterns that separation processes at relatively low temperature fractionate the gas supplied to the corona. Elements with high first ionization potentials (FIP), which are neutral at this temperature, are depleted relative to elements of lower FIP, which are ionized. Figure 3 shows this trend for data from Table 4: a -4.5-fold drop in abundance occurs between 9.5 and 11 eV.
+Thanks to the improvement in the data for CNO, some trends now appear with greater clarity than in previous versions of Fig. 3.
+(1) The depletion is constant at -0.65 dex (factor of 4.5) for CNO, and presumably for all heavy elements of FIP 2 11 eV. The trend confirms the "two-plateau pattern" for the atom-ion separation process suggested by COOK et al. (1979).
+(2) H and He part company from the other elements. He lies -0.20 dex below the high-FIP element plateau at -0.65 dex, in SW as well as SEP. Hydrogen, which cannot be determined in SEP, lies slightly above this plateau in SW, but much higher, right on the low-FIP plateau, in the corona itself, according to spectroscopic data (Fig. 3). Similar characteristic deviations have been seen previously in galactic cosmic rays (MEYER, 1985b; GEISS and BOCHSLER, 1985). The reasons for this are not known, but these two elements are much lighter and more abundant than any of the others.
+Correction for fractionation. It is not quite clear what correction is most appropriate for Q/M fractionation, as this
+
+Table 5. Noble-Gas Ratios
+Solar system Solar Wind Solar Corona, spectr. SEP, Observed
+
+Ref.
+20.6 22.5 15.5 10
+
+Abundances of the elements
+
+205
+J
+
+r----_~o_~o-----~
+
+0
+
+5
+
+10
+
+15
+
+20 FIPieV) 25
+
+FIG. 3. Abundances of solar energetic particles (SEP) relative to the solar photosphere (Table 4). Elements K to Zn, of first ionization potential (FIP) i 10 eV, are present in normal abundance relative to Si, but elements C to Ne, of higher FIP, are depleted by an approximately constant factor. Apparently these elements are depleted in the corona by a process depending on FIP (or first ionization time, FIT). The points for P and S would fall closer to the dashed trend line if they were referenced to meteoritic rather than photospheric abundances. As H cannot be reliably determined in SEP, we plotted representative spectroscopic and solar-wind data from Table 4.
+
+correction depends strongly on the adopted Fe abundance. BRENEMAN and STONE (1985) found that the SEP/photospheric abundance ratio for low-FIP elements-including Fe-fit a power-law in Q/M, and used this power-law as the correction factor, on the tacit assumption that these elements were not fractionated between photosphere and corona. An alternative, if extreme, approach would be to use no correcticn at all. The mean ratio log (SEP/photosphere) then becomes -0.61 dex (instead of -0.65) for high FIP elements and -0.01 + 0.09 dex (instead of +0.07) for low FIP elements. In particular, the iron abundance then becomes 7.53 (close to the meteoritic value) instead of 7.65. Given these uncertainties in the Q/M fractionation correction, the SEP data cannot be used to resolve the discrepancy between photospheric and meteoritic iron abundance.
+Gamma-ray spectroscopy of flares has provided a new technique for determining solar abundances, probably at chromospheric level (MURPHY et al., 1985). Recent results (REAMES et al., 1988) show that if the ratios Mg/O, Si/O, and Fe/O agree with SEP values, then Ne/O is about 3X larger and even C/O may be larger. These results are very puzzling.
+Mechanism and site of separation process. If FIP is the relevant physical parameter, then the fractionation must take place in low-T, i.e., chromospheric-type, material (T-N lo4 K) consisting of neutral and singly ionized atoms (MEYER, 1985b). Most likely, neutrals somehow diffuse away from the gas and enter the corona, whereas ions are prevented from doing so by the magnetic field. Two mechanisms based on this idea have been investigated thus far. VAUCLAIR and MEYER (1985) proposed gravitational settling of heavy neutrals in the -6500 K temperature plateau of the middle chromosphere, with FIP as the key parameter. Others (e.g. GEISS, 1985) have considered diffusive loss of neutrals during the fast rise of matter from chromosphere to corona in spicule-
+
+like features that are rapidly heated; here the relevant parameter is the first ionization time (FIT), which is actually closely related to FIP.
+Both mechanisms are very slow (days, for realistic parameters), compared both to turbulent mixing times in the chromosphere and to spicule lifetimes (5 min). A reliable value for the coronal abundance of H would provide strong constraints on these mechanisms.
+Neon and Argon. We can derive photospheric abundances of these elements from the rather accurate SEP and solar-wind data, by adding the correction factor of 0.65 dex to the coronal values. We thus find ANe = 8.11 + 0.10 and A*, = 6.54 + 0.10; very close to the local galactic values of 8.07 f 0.18 and 6.58 +- 0.18 derived from HI1 regions, HI gas, and stars (MEYER:1985a, 1988). [A new analysis by MEYER(1989) again gives very similar coronal and local galactic values: ANe= 8.08 + 0.06 and 8.14 * 0.10; AA, = 6.55 + 0.08 and 6.63 + 0.20.] This agreement is not likely to be fortuitous, and thus seems to support the underlying data: SEP and solar-wind abundances, a constant coronal fractionation factor for all heavy elements with FIP r 11 eV, and the astronomical measurements used for the local galactic estimates. We shall therefore adopt for the solar system the means of the solar and local galactic values, with an estimated uncertainty of *25%: ANe= 8.09 2 0.10 and AA, = 6.56 + 0.10.
+7.2. Meteoritic vs. solar abundances
+Gross trends. The log of the abundance ratio Sunfmeteorites (Table 2) is plotted in Fig. 4, with the elements grouped according to cosmochemical character. Elements that are poorly determined in the Sun are represented by open symbols.
+On the whole, the agreement is remarkably good. Past discrepancies have gone away as the solar values-especially thanks to improved transition probabilities and other atomic data-have become more accurate. Even now, the agreement improves if we delete the less accurate values. The mean Sun-meteorite difference for all elements from Table 2 (except the very uncertain Ag, Tb, Ho, Lu, Tl and the grossly dis-
+
+206
+
+E. Anders and N. Grevesse
+
+FIG. 4. Solar photospheric and meteoritic abundances (Table 2) agree rather well, except for elements affected by thermonuclear reactions (Li, Be), elements poorly determined in the photosphere (uncertain abundances or errors, or large errors: open symbols), and five problematic cases: W, Fe, Mn, Ge, and Pb (see text). If these elements are omitted, there is no systematic difference between photospheric and Cl chondrite abundances of the five major cosmochemical groups.
+cordant In and W) is -0.005 10.10 dex. If we limit ourselves to the 32 elements known to better than 25% (0.10 dex), the mean difference becomes -0.006 + 0.04 dex. And if we retain only 29 accurately known elements (having a sufficient number of good lines with good transition probabilities) then the data agree within kO.036 dex, i.e., +9%. For the last two means, we omitted four well-determined but discordant elements, which are discussed below: Mn, Fe, Ge, and Pb.
+Of the elements disagreeing by more than 0.10 to 0.15 dex, Li and Be are depleted by nuclear reactions at the bottom of the convection zone. Twenty others (B, F, P, Cl, Ga, Rb, Ag, In, Sn, Sb, Ce, Tb, Ho, Tm, Yb, Lu, Hf, Pt, Au, Tl) without doubt are poorly determined in the photosphere, due to severe blending of their few available lines, lack of accurate transition probabilities, or both.
+However, this leaves five other elements-Ge, Pb, W, Fe, and Mn-that deviate more than expected from the quality of the solar data. In chondrites, elements of similar volatility and cosmochemical properties usually fractionate together, by similar factors (ANDERS,197 1). Thus, if these five elements had been fractionated by known cosmochemical processes, other elements of the same cosmochemical group (Fig. 4) should have fractionated by similar factors. We therefore compare mean abundance ratios for each cosmochemical group, omitting the five elements under discussion as well as a few poorly determined elements (Table 6).
+All of the deviations are less than la, and except for the ~600 K volatiles, all are smaller than in 1982. We must therefore consider the possibility that Ge, Pb, W, Fe, and Mn were fractionated in C 1 chondrites by selectiveprocesses that affected only these elements and no others.
+
+Germanium. GREVESSEand MEYER (1985) have suggested that the discrepancy for this element (and lead, below) could be real, implying chemical enrichment in Cl chondrites. Indeed, Ge is known to be depleted in all other chondrite classes-by factors up to 0. 15X-but so are I3 other elements of similar volatility (Fig. 4), apparently reflecting volatile loss during chondrule formation (LARIMER and ANDERS, 1967). Germanium appears to have no unique property that would allow it to go its own ways, unaccompanied by other elements of similar volatility. It is siderophile as well as volatile, but so are, to only slightly lesser degrees, Ag, Cu, Sb, Sn, etc. (WAI and WASSON, 1977).
+Lead. At first sight it seems that a suitable enrichment process for Pb is available. The highly volatile (~600 K) elements, to which Pb belongs, show much larger variations in abundance, including-in contrast to the 1300-600 K group-occasional "superenrichments" above C 1 chondrite levels, though only in ordinary, not carbonaceous chondrites. Some authors suggest that these volatiles were left behind in the nebula by earlier generations of meteorites and condensed on the last traces of dust after temperatures had dropped (HIGUCHI et al., 1977). Others believe that the volatiles sublimed from the inner parts of the meteorite parent bodies and condensed in the cooler, outer regions (BINZ et al., 1976). In the cases studied, Pb usually is accompanied by other elements of similar volatility (Cd, In, Bi, Tl), but in highly variable proportions (HIGUCHI et al., 1977), with Pb and Bi occasionally predominating (KEAYS et al, 197 1; TILTON, 1973).
+However, it is very unlikely that such "superenrichment" can explain the high Pb abundance. This process is not specific for Pb, it has never been seen in C-chondrites, and it produces enrichments that are highly variable on a mm or cm scalein contrast to the observed uniformity of the Pb distribution within meteorites (u for Orgueil is *8%, Table 1) or between meteorites (Orgueil and Ivuna agree within + 17%, according to BURNETT et al., 1988). Moreover, 12 C chondrites-ineluding Orgueil-analyzed by spark-source mass spectrometry/isotope dilution (K.?) show a perfectly normal abundance trend for volatiles: Cl/C2/C3 N 1.00/0.50/0.25-0.30. Apparently none of these meteorites, including Orgueil, has been affected by superenrichment.
+Tungsten. The discrepancy is large (+0.43 dex), but the fault may well be with the solar data (HOLWEGERand WERNER, 1982). Although the transition probabilities are very accurate, the two ostensible WI iines are very faint and perturbed, and may not even be due to WI. Alternatively, the ionization energy of W may be too low by 0.43 eV.
+Iron and Manganese. The discrepancies for these two ele-
+
+Table 6. Mean Abundance Ratios, Photosphere/Meteorites
+
+Elements
+Refractories Silicate Siderophiles Volatiles, 1300-600K Volatiles,<600K
+
+N
+
+log Phot./CI
+
+This work*
+
+AE
+
+23 0.002 H.U4 -0.029 a.15 2 o.cOO?0.00 -0.007 ti.013
+4 - 0.003 ?O.Ol -0.054 tiO81 5 -0.022 &.f$# -0.099 fl.15
+3 (0.13 ti.08) 0.059im.14
+
+*We omitted Li, Be, Mn, Fe, In,W,and Pb (Sec. 7.2) and-acepi 101 the
+a5CQ K volatile+-the elements poorly determined in the photosphere (open symbols in Fig. 4). However, the means for each group remain close 10 ~10 aen when the poorly-determined clements are retained.
+
+Abundances of the elements
+
+207
+
+ments (+O. 16 and -0.14 dex, i.e. 40-50%) are puzzling, as both elements appear to be well-determined in the solar photosphere. Although the solar data for Fe have not yet fully converged, and need to be confirmed by measurement of the dominant species, Fe II (Sec. 4.3), most results are higher than the meteoritic value. It would be surprising if this discrepancy were resolved merely by improved atomic data or a better understanding of physical processes in the photosphere (HOLWEGER, 1988).
+Perhaps the meteoritic abundance of Fe is at fault. The most obvious way to fractionate Fe-as nickel-iron-is not feasible, as it would simultaneously deplete other siderophiles. There are two lines of evidence against such depletion. (1) The most abundant, well-determined siderophiles-Co and Ni-are not depleted in Cl chondrites relative to the Sun (Table 2, Fig. 4). (2) There is no systematic break in the abundances of odd-A nuclei between A = 99 and 111 (Fig. 5), where cosmochemical character changes rapidly: Ru, Rh (refractory siderophiles), Pd (normal siderophile), Ag (moderately volatile siderophile) and Cd (highly volatile). Even a 10 to 20% increase, let alone a 50% increase, in the abundances of Ru, Rh, Pd relative to Ag, Cd would cause a marked offset in the curve.
+However, a more selective fractionation process of Fe alone is available, at least in principle. Below 400 K in a solar gas, the stable chemical form of Fe is magnetite, FesOl, which would therefore be the principal condensate of Fe in an interstellar cloud that remained at 5400 K throughout contraction. On crystal chemical grounds, most other siderophiles should not be enriched in magnetite, and this has actually been confirmed for meteoritic magnetite from C 1 chondrites (KRAHENBOHL et al., 1973; KERRIDGE et al., 1979). Once formed, magnetite could fractionate from other solids on the basis of its ferromagnetism. Moreover, there is evidence for Fe/Si fractionations in meteorites and planets (LARIMERand ANDERS, 1970; MORGAN and ANDERS, 1980).
+It is not certain, however, that the pure Fe304 grains required by this mechanism were available. Although Fe is strongly depleted in the interstellar gas (SALPETER, 1977; PHILLIPSet al., 1982), so are many other elements (Ni, Mg, Si, etc.), and it is not clear that the major part of Fe is contained in discrete magnetite grains rather than in mixed, perhaps amorphous, grains.
+For Mn, no similarly selective chemistry is available. It is one of the least volatile of the 15 moderately volatile (1300600 K) elements (Fig. 4), and if it is enriched in C 1 chondrites, at least some of the other elements should be also. If we take the solar data at face value, then only Ge appears to be so enriched, but since several of these elements are poorly determined in the Sun, it may be possible to devise an ad hoc mechanism for enriching Mn, Ge, and a few other elements that is consistent with the data and is cosmochemically tenable.
+7.3. Cl chondrites as abundance standards
+There are three major reasons why Cl chondrites are used as the abundance standard: 1) they seem to have escaped the fractionation processes (e.g. chondrule formation) that affected other meteorite classes (ANDERS,197 1); 2) their volatile element abundances are higher and match solar ratios for
+
+Na/Ca, S/Ca, Si/Ca (HOLWEGER, 1977); 3) they give the smoothest nuclidic abundance curve (SUESS,1947; ANDERS, 1971). Nonetheless, even the best may not be good enough, and one must therefore periodically reexamine Cl's for evidence of modification or alteration. We shall summarize and update the discussion in AE.
+High-temperature minerals. Orgueil contains - 1%of olivine and orthopyroxene, either indigenous or accreted on the regolith of the parent body. This component has only a negligibleeffecton the overall composition. Some fewOrgueil samples are enriched in refractories, suggestingsporadic (regolith?)contamination with Ca, Al-rich inclusions, but since we have rejected all such anomalous analyses, they do not affect the abundance table.
+Presolar matter. Several types of interstellar matter have been identified in C-chondrites: diamond, Sic, organic matter, in abundances of a few to a few hundred ppm. As these exotic components account for < 1O-* of the total C and Si, they have only a negligible effect on overall abundances. The apatite mentioned by AE turned out to be local rather than exotic.
+Hydrothermal alteration. Cl chondrites have been altered by liquid water in their parent bodies, but for most watersoluble elements there has been no net change, suggesting that the alteration took place in a closed system. The principal exceptions are Br and I, where abundances had to be estimated from other meteorite classes (AE). Large variations have been found for C2 chondrites, where in addition Na, K, and Ca have been affected (KI).
+Interelement ratios: di$eences between Cl's and other meteorite classes. In contrast to volatiles, refractory elements usually have essentially constant ratios in all chondrite (and even some achondrite) classes. Some authors (e.g. JOCHUM et al., 1986) have assumed that this constancy is exact for all refractory lithophiles except V (KI), so that mean ratios for all C chondrites can be used to refine ratios for C 1 chondrites. AE pointed out two apparent exceptions to this constancy: the Zr/Hf and Re/Ir ratios of C2 chondrites were - 14% higher than those of Cl's. However, these differences have not stood up in the light of new data or reevaluation of older data. The Zr/Hf ratio of Cl's now is within the range for other classes (J3; Sec. 3.4, 3.6). The variations in Re/Ir and Re/Os ratios seem to reflect mainly differences among laboratories or analysts, not meteorite classes.
+Thus at present there is no direct evidence for interelement fractionation of refractories, within the accuracy of the data. However, there are some disturbing inconsistencies. KALLEMEYNand WASSON (198 1) have shown that the (Mg-normalized) abundances of eight refractory lithophiles (Al, SC, Ca, Lu, Yb, Eu, Sm, La) vary systematically among C-chondrite classes: Cl/C2,C3O/C3V = l.OO/l.l l/1.33. Since the Mg/Si ratios are constant in the first three classes and only 3% higher in C3V's, one would expect elementPi ratios for all refractory lithophiles to vary from class to class by the above factors. But JOCHUMet al. (1986) confirmed this trend only for SC; for Nb, Y, and Ho they found no enrichment in C2's, slight enrichment in C3V's, and large enrichments in a C30. KNAB (198 1) found essentially constant Zr/Si ratios in all C chondrite classes.
+Evidently at least some of these data must be wrong. If all refractory lithophiles are fractionated by the KallemeynWasson factors, then their Si-normalized abundances should vary correspondingly from class to class. Conversely, if these
+
+208
+
+E. Anders and N. Grevesse
+
+abundances do not vary for some elements (e.g. Zr), then the interelement ratios of refractory lithophiles cannot be constant. Obviously, these contradictions will have to be resolved by further measurements; until then, it seems advisable not to use data from other meteorite classes if at all possible.
+7.4. Smoothness of abundance curve
+A major milestone in this field was GUESS (1947) postulate that the abundances of nuclides-especially of odd A-are a smooth function of mass number. The slope of the abundance curve is accurately defined over short segments by isotopic pairs, and on the basis of the above postulate, Suess adjusted elemental abundances as needed to produce a continuous, smooth curve.
+Suess' adjustments (by factors of up to 100, e.g. Re) were vindicated by subsequent measurements, and in view of this success, his postulate later became one of the main reasons for choosing C 1 chondrites as the abundance standard; they gave the smoothest curve.
+However, now that most Cl chondrite abundances are known to better than lo%, the smoothness of the abundance curve can be tested to higher accuracy. Deviations may imply either chemical fractionations of Cl chondrites, or failure of Suess' postulate at the - 10% level.
+This question was reexamined by AE, who claimed smoothness of .slO% overall, but with irregularities at PdAg-Cd and Nd-Sm-Eu, which they attributed to analytical error or chemical fractionations. BURNETT et al. (1988) ap proached the problem experimentally, analyzing by a single technique the elements Ni through Ru as well as Fe and Pb in six samples of two Cl chondrites. They concluded that the abundance curve is smooth within 4 to 10% between A = 60 and A = 10 1, but not necessarily at higher mass numbers. Figures 5 and 6 show our new data for the mass regions 67139 and 135-209.
+
+The low-mass region (Fig. 5) seems generally smooth, though the steep slopes and varied topography would mask small irregularities. The most sensitive test is provided by the Pd-Ag-Cd region, where the flat trend and contiguity of two isotopic pairs help bring out small irregularities. The AgCd irregularity noted by AE has smoothed out somewhat due to the revision in the Ag abundance, and would require only a further 7% drop in Ag/Cd ratio for perfect continuity. Such a change exceeds the combined error of the two means (+1.8%), but since the Ag value is based on only 6 analyses from a single laboratory, a larger systematic error cannot be excluded.
+The high-mass region (Fig. 6) is more suitable for a test, as it is flatter, has many more isotopic pairs, and contains mainly refractory elements, which do not readily fractionate from each other in cosmochemical processes. The REE are of particular interest, since they are chemically coherent and analytically very well determined (Sec. 3.6, Table 1).
+The most sensitive test is the Nd-Sm-Eu-Gd region, where four isotopic pairs occur in sequence and thus provide four well-defined curve segments. Yet the new data, despite their high accuracy, still fail to give elemental trends agreeing with the isotopic trends: Sm looks too low and Eu looks too high. AE ruled out analytical error, and discussed various chemical or nuclear causes for this irregularity. The chemical explanations, involving some special process for Cl chondrites, now look less plausible, as our new REE abundances, based on DAVIS (1988, in preparation), are quite similar to REE patterns in other meteorite classes. Apparently the smoothness postulate breaks down below the 10 to 20% level, due to nuclear causes. This is not quite surprising, since most nuelides in this mass region are made by both the s- and rprocesses, and even if the distributions of pure s- or r-process nuclei were perfectly smooth, their mixture need not be. The nuclear parameters determining s- and r-process yields are not perfectly smooth functions of mass number, and thus
+
+I , I , I , / /_
+
+50-O '
+
+-. 0 Reftaclorles
+
+-2n
+
+Go
+
+n Slderophlles
+
+-z
+
+E IOF
+
+2
+
+-
+
+Ge . As
+
+0 Volollles 1300-600K
+
++ Volollles < 600K
+
+I
+
+1
+
+Ill
+
+O'
+
+70
+
+.
+
+II II I I? "II5 I I I I I
+
+80
+
+90
+
+100
+
+HO
+
+I20
+
+130
+
+140
+
+Moss Number
+
+FIG. 5. Abundances of odd-mass nuclides from Zn to La are a smooth function of mass number, with elemental
+abundances conforming to the trend set by the isotopic ratios (tie lines). Peaks at Y, Sn, and Te-Cs correspond to closed neutron or proton shells of the nuclides themselves or their neutron-rich, shortlived progenitors in the r-process. There is no evidence for fractionation of cosmochemical groups from each other, as there are no distinct offsets at junctions where cosmochemical character changes (Ge-As-9 or Rh-Pd-Ag). The only exception is a 7% offset between Ag and Cd.
+
+Abundances of the elements
+
+209
+
+I 0 Refractories
+
+n Slderophlles + Volallles <600K
+
+Oaw'
+
+" " " " 160
+
+170
+
+If30
+
+190
+
+200
+
+Moss Number
+
+" 210
+
+FIG. 6. The trend from Ba to Bi is likewise smooth, except that Sm is too low relative to Nd and Eu. As analytical and cosmochemical causes are ruled out (see text), it appears that the abundance curve is smooth only down to the -20% level.
+
+the smoothness postulate is bound to fail eventually. Nonetheless, this principle, which has successfully guided the field for 40 years, should be retired with proper honors, now that it has reached its limits of applicability.
+7.5. Nucleosynthesis: Contributions of s and r-processes
+Most heavy nuclides are made by both the s- and r-processes, but the contributions of these processes can be resolved
+
+by first assessing the s-process component (UPPELER et al., 1982 and references therein). The abundance N, of a pure s-process nuclide is inversely proportional to the neutron capture cross section CTand directly proportional to the neutron fluence (CLAYTON et al., 1961). Thus a plot of UN, vs A indicates the fluence as a function of A, permitting reconstruction of s-process conditions in some detail. Progress in this field has required both better abundances and better cross
+
+1a'C I
+
+I
+
+50
+
+70
+
+90
+
+"
+
+I
+
+I
+
+I
+
+I
+
+1
+
+HO
+
+130 150 170 I90
+
+Mass NumberA
+
+FIG. 7. (BEER, 1988, priv. commun.). In the s-process, abundance N and neutron capture cross-section u are inversely proportional to each other and thus a plot of UN for s-process nuclides is a function mainly of neutron exposure (WPPELER et al., 1982). A computer fit to the s-only points (filled symbols) accounts for the region 90-205, but underproduces Pb2"*and light nuclides of A i 90. Two additional s-processes, at higher and lower fluences, are needed to account for these two regions. See text for additional discussion.
+
+50
+
+70
+
+90
+
+II0
+
+130
+
+150
+
+170
+
+190
+
+3
+
+Moss Number A
+
+FIG. 8. (BEER, 1988, priv. commun.). To obtain the r-processcomponent of nuclides of mixed parentage, the s-process component From Fig. 7 is subtracted from the total abundances. These "r-process residuals" (open symbols) form a smooth curve passing through the "r-only" nuclides (filled symbols), suggesting that the input data (abundances and cross sections) are reasonably accurate. The peaks at A N 130 and = 195 represent the enhanced abundances of shortlived, neutron-rich progenitors with closed, 82- or 126-neutron shells.
+
+210
+
+E. Anders and N. Grevesse
+
+sections, of which the latter were contributed mainly by the Karlsruhe group (BEER, 1986; KAPPELER, 1986; BAO and KAPPELER, 1987).
+Figure 7 shows a aN, plot, based on the abundances from Table 3 (BEER, 1988, priv. commun.). The filled symbols are s-only nuclides used for normalization of the curve in the mass range 90 -z:A < 205. The open symbols represent either "mainly-s" nuclides or f-only nuclides that are situated in branchings (e.g. Gd15'), belong to interpolated elements (Kr, Xe, Hg), or were used to normalize the curve below A = 90. A computer fit to the s-only points accounts for the mass region 90 < A c 205, but underproduces Pbzo8 and the nuelides of A < 90. For these, two additional s-processes at high and low fluences ("strong" and "weak" processes) are needed (BEER, 1986). The line splits at branch points where neutron capture competes with p-decay; the top and bottom curves represent the individual branches of the synthesis path.
+From the aN curve, the s-process components of mixed, r + s, nuclides can be calculated, provided their g's are known. Subtraction of these s-components then leaves the r-components. These (open symbols) along with pure r-nuclides (filled symbols) are plotted in Fig. 8. The curve is rather smooth over most of its range, except below A = 70 where the e-process begins to contribute. As subtraction of similarlysized numbers usually inflates errors, the smoothness of the curve suggests that the input data (abundances and cross sections) are reasonably accurate.
+A caveat to be noted is that the above conclusions were obtained within the framework of the "classical" s- and rprocesses. The actual processes may be different and more complex (CAMERON, 1988, priv. commun.).
+7.6. Comet Halley
+Now that the Vega and Giotto missions have obtained data from Comet Halley, it is interesting to compare these data with the new photospheric and meteoritic abundances (Table 7). The most extensive data, from the PUMA- 1 mass spectrometer (JE.SSBERGERet al., 1988), are for the dust com-
+
+Element
+:
+Fi
+Na
+Eg
+Si
+: Ca Ti Cr Mll Fe CO Ni
+
+Table 7. Abundances in Comet Halley*
+
+T;"ornet Halley
+
+SWI
+
+Geiss (1987)
+
+Delsemme (1988)
+
+Jessber er a al. (19 L )'
+
+9.41 8.90
+7.59 fO.4 ,
+9.17
+-7.79
+
+9.21 8.66 7.88 9.00 6.58 -7.58
+7.73 7.53
+
+7.58
+
+9.47
+8.64 8.05
+8.99 6.58 -7.58 6.41 7.85 7.44 4.88 6.38 5.18
+5.53 5.28 7.30 5.06 6.19
+
+S.08 ti.08 ti.12 SOS ?a20
+fO.10 %UJ4 ?a12 ti.18 tOI. ti.18 too.09 ti.15 _@.07 _<.22 ftI.18
+
+12.00 8.56
+8.05 8.93 6.33 7.58 6.47
+7.55 7.21 5.12 6.36 4.99 5.67 5.39 7.67 4.92 6.25
+
+`E 8.05 8.93 6.31 7.58
+6.48 7.55 7.27 5.13 6.34 4.93 5.68 5.53 7.51 4.91
+6.25
+
+"E--
+-2.53 0.08 0.00
+::;: -0.00 -0.06
+0.30 0.23 -0.24 0.02 0.19 -0.14 -0.11 -0.37 0.14 -0.06
+
+increasingOSlo.garilhmic abundances as follo;uS:
+
+(Delsemme, 1988). Jessbersr'r orieinalvalues for
+
+C= 8.49~.08.N'=7.20~).12.O
+
+=8.53+0.05.
+
+H (0.G da), C (0.15), t-4 (&35), the dust component only were: H
+
+and Cl (0.48) = 8.89 kO.08,
+
+COMET HALLEY (Jessberqer et 01 , 1988)
+1H C N 0 No Ma Al SI S K Cu TiCr Mn FeCo Ni1
+FIG. 9. Mg-normalized abundances in Comet Halley (JESSBERGER et al., 1988) generally match those in the solar photosphere, andfor the gas/dust ratio assumed (DELSEMME, 1988)-show no deficiency for C, N, and 0. However,Fe and Siare distinctly anomalous. If these values are correct, then Halley has the lowest Fe/Si ratio of any known solar-system object, except for the Moon, and cannot be pristine interstellar matter.
+ponent only, and we have therefore added the HCNO abundances for the gas component, using the gas/dust ratios of DELSEMME(1988). These data are compared with photospheric abundances in Fig. 9.
+The depletion of H is very large, and obviously reflects the non-condensation of molecular hydrogen. C, N, and 0, on the other hand, agree remarkably well with solar values. Even N no longer shows the depletion reported in earlier studies (GEL%, 1987), but since the'N value critically depends on the gas/dust ratio and the composition of the gas, it cannot be regarded as definitive. As Nz is the most volatile of the principal molecules in comets, it is a potentially valuable indicator of the formation temperature and subsequent thermal history of the comet (YAMAMOTO,1985).
+Of the remaining elements, two disagree by more than 2~: Si = +0.30 dex, Fe = -0.37 dex. Sulfur is a trifle below 2a, at +0.23 dex. Relative to meteorites the Si and Fe discrep ancies are a little smaller (+O. I7 and -0.2 1 dex), but are still outside the quoted errors. Since these discrepancies have op posite signs, they cannot be eliminated by changing the normalization from Mg to Si or some other element. (Indeed, one argument for the Mg normalization is that it gives a mean residual close to zero, i.e. 0.01 + 0.20 for the 13 elements from Na to Ni.)
+To first order, the Halley data suggest that Fe/Mg and Mg/ Si both decline with distance from the Sun (HOLWEGER, 1988). However, when additional data for meteorites and the Earth are included, the two sequences are quite different, and thus cannot represent a simple monotonic decline with distance. Note in particular the varying positions of EH and EL chondrites. Fe/M& Sun > Earth > EH > C c H > EL > L > LL > Halley. Mglsi: Earth > Sun = C > H = L = LL > EL > EH > Halley. At best one of these sequences is a simple function of distance, and perhaps neither of them is. We therefore limit ourselves to the following tentative conclusions.
+(1) Relative to Mg, Comet Halley seems to possess its cosmic complement of C, 0, and perhaps even N, i.e. the "ice" component (GEL%, 1987).
+
+Abundances of the elements
+
+211
+
+(2) Halley has the lowest known Fe/Si and M@Si ratios
+
+BERGS~R#MH., B&MONTE., LUNDBERGH. and PERSSON
+
+of any object in the solar system (except for the Moon), farthest from the solar ratios (JESSBERGEeRt al., 1988). If these data are correct, then Halley cannot be pristine interstellar
+
+A. (1988) Transition probabilities for Gd II and a new determination of the solar abundance of gadolinium. Aaron. Astrophys. 192,335-337.
+B&MONTE. and YOUSSEFN. H. ( 1984) The solar abundance
+
+matter. Apparently at least its dust component was affected
+
+of erbium. Astron. Astrophys. 140, 177- 178.
+
+by the chemical processes that fmctionated these elements elsewhere in the solar system (ANDERS,1986).
+
+B&MONT E., GREVESSE,N., HANNAFORDP. and LOWE R. M. (198 1) Oscillator strengths for Zr I and Zr II and a new determination of the solar abundance of Zr. Astrophys. J. 248,
+
+Acknowledgements-We thank Janice Butz for skillful preparation of the manuscript, undaunted by the logistic complexities of this transatlantic collaboration. J. P. Meyer provided countless constructive suggestions that greatly improved the paper. We also thank the following colleagues for formal or informal reviews: L. H. Aller, H. Beer, A. G. W. Cameron, J. R. de Laeter, J. Geiss, D. Hartmann, R. D. Hoffman, U. Kr&henbiihl, H. Palme, E. C. Stone, and D. S. Woolum. We are indebted to C. J. Waddington for Figures 1 and 2, and H. Beer for Figures 7 and 8. This work was supported in part by NASA Grant NAG 9-52.
+
+867-873. BI~MOIL'TE., GREVESSEN., FAIRESL. M., MARSDENG.,
+LAWLERJ. E. and WHALINGW. (1988) Lifetimes and transition probabilities in V II and the solar abundance of vanadium. Astron. Astrophys. (in press).
+&;uz C. M., IKRAMUDDI~M., REY P. and LSPSCHUTZM. E. (1976) Trace elements in primitive meteorites: VI. Abundance patterns of thirteen trace elements and interelement relationships in unequilibrated ordinary chondrites. Geochim. Cosmochim. Acta 40, 59-7 I.
+BLACKD. C. (1972) On the origins of trapped helium, neon
+
+Editorial handling: H. Palme
+
+and argon isotopic variations in meteorites: 1. Gas-rich meteorites, lunar soil and breccia. Geochim. Cosmochim. Acta 36,
+
+347-375.
+
+REFERENCES
+
+BLACKWELLD. E., BOOTHA. J. and PETFORDA. D. (1984)
+
+AHRENS,L. H. ( 1970) The com~sition of stony meteorites:
+
+Is there an abundance anomaly for the 2.2 eV Fe I lines in the
+
+(IX) Abundance trends of the refractory elements in chondrites,
+
+solar spectrum? Asfron. Astrophys. 132,236-239.
+
+basaltic achondrites and Apollo 11 fines. Earth Planet. Sci. Lett.
+
+BLACKWELLD. E., BOOTHA. J., HAD-K D. J., PETFORD
+
+10, l-6.
+
+A. D. and LEGGET?S' . K. (1986) Measurement of the oscillator
+
+ANDERSE. (197 1) How well do we know "cosmic" abun-
+
+strengths of very weak 1 eV Fe I lines. Mon. Not. Roy. Astr.
+
+dances? Geochim. Cosm~him. Acta 35,5 16-522.
+
+sot. 220,549x%3.
+
+ANDERSE. (1986) What can meteorites tell us about comets?
+
+BLACKWELLD. E., BOOTH A. J., MENONS. L. R. and PET-
+
+In Comet Nucleus Sample Return, ESA SP-249, 31-39, Eur.
+
+FORD A. D. (1987) An LTE analysis of the solar photospheric
+
+Space Agency, Paris, France.
+
+Ti I and Cr I spectra: evidence for non-LTE in excitation. Astron.
+
+ANDERSE. (1988) Circumstellar material in meteorites: Noble
+
+Astrophys. 180,229-240.
+
+gases, carbon, and nitrogen. In ~eieorites and the Early Sofar
+
+BOCHSLERP. (1987) Solar wind ion composition. Physica
+
+System (eds. J. F. KERRIDCEand M. S. MATTHEWS)p, p. 927-
+
+Scripta T18, 55-60.
+
+955. Univ. Arizona Press.
+
+BOESGAARDA, M. and STEIGMANG. (1985) Big bang nu-
+
+ANDERSE. and EBIHARAM. (1982) Solar-system abundances
+
+cleosynthesis: Theories and observations. Ann. Rev. Astron. As-
+
+of the elements. Geochim. Cosmochim. Acta 46,2363-2380.
+
+trophys. 23, 3 19-378.
+
+ANDERSENT., PETERSENP., and HAUGE0. (1976) The solar
+
+BOOTHA. J., BLACKWELLD. E. and SHALLISM. J. (1984)
+
+hafnium abundance. Solar Physics 49,21 I-21 5.
+
+Analysis of Mn f lines in the solar spectrum using accurate os-
+
+BAHCALLJ. N. and ULRICHR. K. (1988) Solar models, neu-
+
+cillator strengths. Mon. Not. Roy. Astr. Sot. 209,77-8 1.
+
+trino experiments, and helioseismology. Rev. Mod. Phys. 60,
+
+BRENEMANI-I. H. and STONEE. C. (1985) Solar coronal and
+
+297-312.
+
+photospheric abundances from solar energetic particles. Astro-
+
+BAO 2. Y. and K?~PPELERF. (1987) Neutron capture cross
+
+phys. J. 299, LS7-6 1.
+
+sections for s-process studies. Atom. Duta Nucl. Data Tables
+
+BURNETTD. S., WOOLUMD. S., BENJAMINT. M., ROGERS
+
+36,411-451.
+
+P. S. Z., DUFFYC. J. and MAGGIOREC. (1988) A test of car-
+
+BEERH. (1986) s-Process studies using single and pulsed neu-
+
+bonaceous chondrite elemental abundance smoothness. Geo-
+
+tron exposures. In Advances in Nuclear Astrophysics (eds. E.
+
+chim. Cosmochim. Acta (in press).
+
+VANGIONI-CAM,J. AUD~LJZE,M. CA&, J. P. CHI~?~Ea,nd J.
+
+CAHENS. f 1986)About the standard solar model. In Advances
+
+TRANTHANHVAN), pp. 375-383. Ed. Frontitres, Paris.
+
+in Nuclear Astrophysi&s teds. E. VANGIONI-F~M, J. AUDOUZE,
+
+BEER H. (1988) Chronometers. Contribution to the Intl.
+
+M. CASS&J. P. CHIBZE, and J. TRAN THANHVAN), pp. 97-
+
+Workshop on Quests in Nuclear Astrophysics and Experimental
+
+104. Ed. Front&es, Paris, France.
+
+Approaches, Crete.
+
+CAMERONA. G. W. (1973) Abundances of the elements in
+
+87 BEER H. and MACKLIN R. L. (1985) 198.iy9.2M)~X)~~2"2.204Hg the solar system. Space Sci. Rev. 15, 121-146.
+
+(n, y) cross sections and the termination of s-process nucleo-
+
+CAMERONA. G. W. (1982) Elemental and nuctidic abun-
+
+synthesis. Phys. Rev. C32, 738-755.
+
+dances in the solar system. In Essays in Nuclear Astrophysics
+
+BEERH. and PENZHORNR. D. (1987) Measurement of the
+
+(eds. C. A. BARNES,D. D. CLAMON, D. N. SCHRAMM),pp.
+
+neutron capture cross section of "Ar and an s-process analysis
+
+23-43. Cambridge Univ. Press.
+
+from 34Sto %a. Astron. Astrophys. 174, 323-328.
+
+C7 CASE D. R., LAUL J. C., PELLY 1. Z., WECHTERM. A.,
+
+BEERH., KAPPELERF., REFFOG. and VENTURINIG. (1983)
+
+~HMIDT-BLEAKF. and LIPSCHUTZM. E. (1973) Abundance
+
+Neutron capture cross-sections of stable xenon isotopes and their
+
+patterns of thirteen trace elements in primitive carbonaceous
+
+application in stellar nucleosynthesis. Astrophys. Space Sci. 97,
+
+and unequilibrated ordinary chondrites. Geochim. Cosmochim.
+
+95-l 19.
+
+Acta 37, 19-33.
+
+B6 BEERH., WALTERG., MACKLINR. L. and PATCHES P. J.
+
+C8 CHOU C.-L., BAEDECKERP. A. and WASSONJ. T. (1976)
+
+$k%?) N~~~~~ncapture cross sections and solar abundances of Yb "5~`76Luand `","`Hf for the s-process analysis
+ofthe%dionucliAe 17&Lu`.Whys.Rev. C30,464-478.
+
+Allende inclusions: Volatile~lement dist~bution and evidence for incomplete volatilization of presolar solids. Geochim. Cosmochim. Acta 40, 85-94.
+
+BEER H., WALTERG. and ~PPELER F. (1988) s-Process
+
+CLAYTOND. D., FOWLERW. A., HULL T. E. and ZIMMER-
+
+studies on tin. Astron. Astrophys. (submitted).
+
+MAN B. A. (1961) Neutron capture chains in heavy element
+
+BEGEMANNF. and OTT U. (1983) Comment on "The nature
+
+synthesis. Annals Phys. 12, 331-408.
+
+and origin of ureilites" by J. L. Berkley et al., Geochim. Cos-
+
+CLAYTONR. N. and THIEMENSM. H. (1980) Lunar nitrogen:
+
+mochim. Acta 47,975-977.
+
+Evidence for secular change in the solar wind. In Proc. Co&
+
+212
+
+E. Anders and N. Grevesse
+
+Ancient Sun (eds. R. 0. PEPIN, J. A. EDDYand R. B. MERRILL),
+
+pp. 463-473. Lunar & Planetary Institute, Houston.
+
+CONRATHB. J., GAUTIERD., HANELR. A. and HONSTEIN
+
+J. S. (1984) The helium abundance of Saturn from Voyager
+
+measurements. Astrophys. .I. 282, 807-815.
+
+CONRATHB., GAUTIER D., HANELR., LINDALG. and MARTEN A. ( I987 ) The helium abundance of Uranus from Voyager
+
+measurements. J. Geophys. Res. 92, 15003-15010.
+
+COOKW. R., STONE E. C., VOGTR. E., TRAINORJ. H. and
+
+WEBBERW. R. (1979) Elemental composition of solar energetic
+
+particles in 1977 and 1978. Proc. 16th Int. Cosmic Ray Conf
+
+12,265-270.
+
+CCK~KW. R., STONEE. C. and VOGTR. E. (1984) Elemental
+
+composition of solar energetic particles. Astrophys. J. 279,827-
+
+838.
+
+COPLANM. A., OGILVIEK. W., BOCHSLERP. and GEISSJ.
+
+(1984) Interpretation of He3 abundance variation in the solar
+
+wind. Solar Phys. 93, 4 15-434.
+
+C9 CROCKETJ. H., KEAYSR. R. and HSIEHS. (1967) Precious
+
+metal abundances in some carbonaceous and enstatite chon-
+
+drites. Geochim. Cosmochim. Acta 31, 1615-1623.
+
+Cl1 CURTISD. B. and GLADNEYE. S. (1985) Boron cosmochem-
+
+istry. Earth Planet. Sci. Lett. 75, 31 l-320.
+
+C6 CURTISD., GLADNEYE. and JURNEYE. (1980) A revision
+
+of the meteorite based cosmic abundance of boron. Geochim.
+
+Cosmochim. Acta 44, 1945-1953.
+
+DELAETERJ. R. and HOSIED. J. (1988) The isotopic composition of antimony. Int. J. Mass Spec. Ion Proc. 83,3 11-318.
+DELSEMMEA. H. (1988)The chemistry of comets. Phil. Trans.
+
+Roy. Sot. London A325,509-523.
+
+DIETRICHW. F. and SIMPSONJ. A. (1979) The isotopic and
+
+elemental abundances of neon nuclei accelerated in solar flares.
+
+Astrophys. J. 231, L91-L95.
+
+D5 DREIBUSG. and WANKEH. (1980) The bulk composition of
+
+the eucrite parent asteroid and its bearing on planetary evolution.
+
+Z. Naturforsch. 35a, 204-2 16.
+
+D2 DREIBUSG., KRUSEH., SPETTELB. and WKNKEH. (1977)
+
+The bulk composition of the moon and the eucrite parent body.
+
+Proc. Lunar Planet. Sci. Conf 8th, 21 l-237.
+
+E3 EBIHARAM., WOLFR. and ANDERSE. (1982) Are Cl chon-
+
+drites chemically fractionated? A trace element study. Geochim. Cosmochim. Acta 46, 1849- 1861.
+
+E6 EHMANNW. D. (1965) On some tantalum abundances in
+
+meteorites and tektites. Geochim. Cosmochim. Acta 29,43-48.
+
+FARMERC. B., RAPER 0. F. and O'CALLAGHANF. G. (1987)
+
+Final report on the first flight of the ATMOS instrument during
+
+the Spacelab 3 mission, April 29 through May 6, 1985, l-45.
+
+J.P.L. Publ. 87-32.
+
+G7 GANAPATHYR., PAPIAG. M. and GROSSMANL. (1976) The
+
+abundances of zirconium and hafnium in the solar system. Earth
+
+Planet. Sci. Lett. 29, 302-308.
+
+GARTONW. R. S., REEVESE. M., TOMKINSF. S. and ERCOLI
+
+B. (1973) Rydberg series and autoionization resonances in the
+
+YI absorption spectrum. Proc. Roy. Sot. London A333, 17-24.
+
+GAUTIERD. (1983) Helium and deuterium in the outer solar
+
+system. In Primordial Helium (eds. P. A. SHAVER,D. KUNTH, and K. KJaR), pp. 139-161. ESO, Garching, F.R.G.
+
+G10 GEISS J. (1973) Solar wind composition and implications
+
+about the history of the solar system. Proc. 13th Intl. Cosmic
+
+Ray Conf 5, 3375-3398.
+
+GEISSJ. (1982) Processes affecting abundances in the solar
+
+wind. Space Sci. Rev. 33,20 l-2 17.
+
+GEISSJ. (1985) Diagnostics of corona by in-situ composition measurements at 1 AU. Proc. ESA Workshop on Future Mis-
+
+sions in Solar, Heliospheric and Soace Plasma Phv_sics. 37-50.
+
+ESA SP-235.
+
+-
+
+GEISSJ. (1987) Composition measurements and the history
+
+of cometary matter. Astron. Astrophys. 187, 859-866.
+
+GEISSJ. and BOCHSLERP. (1981) On the abundances of rare ions in the solar wind. In Solar Wind Four (ed. H. ROSENBAUER),
+
+pp. 403-4 13. Max-Planck Inst. Aeronomie, Lindau, F.R.G.
+
+GEISSJ. and BOCHSLERP. (1982) Nitrogen isotopes in the
+
+solar system. Geochim. Cosmochim. Acta 46, 529-548.
+
+GEISS J. and BOCHSLERP. (1985) Ion composition in the solar wind in relation to solar abundances. In Rapports isotopiques duns le systeme solaire, (ed. by CNES), pp. 213-218. Cepadues Ed., Paris.
+GOBELR., OTT U. and BEGEMANNF. (1978) On trapped noble gases in ureilites. J. Geophys. Res. 83, 855-867. GI4 GILDING J. L., KEIL K., FLJKUOKA T. and SCHMI-~-R~. (1980) Elemental abundances in chondrules from unequihbrated chondrites: Evidence for chondrule origin by melting of preexisting materials. Earth Planet. Sci. Lett. 50, 17I- 180. G2 GREENLANDL. and LOVERINGJ. F. (1965) Minor and trace element abundances in chondritic meteorites. Geochim. Cosmochim. Acta 29, 821-858.
+GREVES~EN. (1984a) Abundances of the elements in the Sun. In Frontiers ofAstronomy andAstrophysics (ed. R. PALLAVICINI), pp. 71-82. Ital. Astron. Sot., Florence, Italy.
+GREVESSEN. (1984b) Accurate atomic data and solar photospheric spectroscopy. Physica Scripta T8,49-58.
+GREVESSEN. and MEYERJ.-P. (1985) Germanium and lead: Significant differences between meteoritic and photospheric abundances. Proc. 19th Cosmic Ray Conf 3,5-8, LaIolla, CA.
+GREVESSEN., SAUVALA. J., FARMERC. B. and NORTON R. H. (1987) Diatomic molecules in the solar infrared spectrum from ATMOS-SW high resolution observations. In Obsewational Astrophysics with High Precision Data, 27th Liege Astrophysical Colloquium, pp. I 1l- 117. Inst. d'Astrophysique, Liege, Belgium.
+GREVESSEN., BLACKWELDL. E., PETFORDA. D. and BOOTH A. J. (1988) Revision of the absolute scale of the Oxford Ti I oscillator strengths and the solar titanium abundance. Astron. Astrophys. (in press). GI3 GROSSMANL. and GANAPATHYR. (1975) Volatile elements in Allende inclusions. Proc. Lunar Sci. Conf 6th, 1729-1736.
+HACKETTP. A., HUMPHRIESM. R., MITCHELLS. A. and RAYNERD. M. (1986) The first ionization potential of zirconium atoms determined by two laser field-ionization spectroscopy of high-lying Rydberg series. J. Chem. Phys. 85, 3 194-3 197. HI HAMAGUCHIH., ONUMA N., HIRAO Y., YOKOYAMAH., BANDOS. and FURUKAWAM. (1969) The abundances ofarsenic, tin and antimony in chondritic meteorites. Geochim. Cosmochim. Acta 33, 507-5 18.
+HANNAFORDP., LOWER. M., GREVESSEN., BI~MONTE. and WHALINGW. (1982) Oscillator strengths for Y I and Y II and the solar abundance of Y. Astrophys. .I. 261,736-746.
+HANNAFORDP., LOWER. M., B&MONTE. and GREVESSE N. (1985)Radiative lifetimes for Nb II and the oroblem of the solar abundance of niobium. Astron. Astrophys.`l43,447-450.
+HEASLEYJ. and MILKEYR. (1978) Structure and spectrum of quiescent prominences: III. Applications of theoretical models in helium abundance determinations. Astrophys. .I. 221, 677688.
+HICUCHIH., GANAPATHYR., MORGANJ. W. and ANDERS E. (1977) "Mysterite": A late condensate from the solar nebula. Geochim. Cosmochim. Acta 41, 843-852.
+HIRAYAMAT. (1978) Prominence spectra and their interpretation. In Physics of Solar Prominences (eds. E. JENSEN,P. MALTBY,and F. Q. ORRALL),pp. 4-32. IAU Colloquium No. 44, Inst. Theoret. Astrophys., Blindern, Norway.
+HOLDENN. E. (1985a) Long-lived light mass element halflives (A < 125). Report BNL-NCS-36959.
+HOLDENN. E. (1985b) Long-lived heavy mass element halflives (A > 125). Report BNL-NCS-36960.
+HOLDENN. E. (i985c) Total and spontaneous fission halflives for uranium and plutonium nuclides. Report BNL-NCS36961.
+HOLDENN. E., MARTINR. L. and BARNESI. L. (1984) Isotopic compositions of the elements 1983. Pure Appl. Chem. 56, 675-694.
+HOLWEGERH. (1977) The solar Na/Ca and S/Ca ratios: A close comparison with carbonaceous chondrites. Earth Planet. Sci. Lett. 34, 152-I 54.
+HOLWEGERH. (1988) Accurate spectroscopy of intermediate and late spectral types. In The Impact of Very High S/N Spec-
+
+Abundances of the elements
+
+213
+
+troscopyon StellarPhysics(eds. G. CAYRELand M. SPITE),pp. 4 I I-420. D. Reidel, Dordrecht, Holland.
+HOLWECERH. and WERNERK. (1982) The solar abundance of tungsten. Solar Phys. 81, 3-8. J2 JEFFERYP. M. and ANDERSE. (1970) Primordial noble gases in separated meteoritic minerals: I. Geochim. Cosmochim.Acfa 34, 1175-l 198.
+JESSBERGERE. K., CHRISTOFORIDIAS. and KISSEL J. (1988) Aspects of the major element composition of Halley's dust. Nature 332,691-695. J3 JOCHUMK. P., SEUFERTH. M., SPETTE~3. and PALMEH.
+(1986) The solar-system abundances of Nb, Ta, and Y, and the
+relative abundances of refractory lithophile elements in differentiated planetary bodies. Geochim.Cosmochim.Acta50,i 1731183. Kl KALLEMEYNG. W. and WASSONJ. T. (1981) The compositional classification of chondrites-I. The carbonaceous chondrite groups. Geochim. Cosmochim.Acta 45, 1217- 1230.
+K&PPELERF. (1986) Status of the classical s-process. In Advancesin NuclearAstrophysics(eds. E. VANGIO~I-HAM,J. AU-
+DO~ZE, M. CASSB,J. P. CHIZZE,and J. TRAN THANH VAN), pp. 355-373. Ed. Frontieres, Paris.
+K&PPELERF., BEER H., WISSHAK K., CLAYTOND. D.,
+MACKLINR. L. and WARD R. A. (1982) s-Process studies in
+the light of new experimental cross sections: Distribution of neutron fluences and r-process residuals. Astrophys.J. 257,82 I-
+846.
+KEAYSR. R., GANAPATHYR. and ANDERSE. (197 1)Chem-
+ical fractionations in meteorites-IV. Abundances of fourteen
+trace elements in L-chondrites; implications for cosmothermometrv. Geochim. ~osmochim. Actu 35.337-363.
+KERRIDGE J. F. (1980) Secular variations in composition of the solar wind: Evidence and causes. In Proc. Conf AncientSun (eds. R. PEPIN,J. A. EDDY, and R. B. MERRILL),pp. 474-489.
+Lunar & Planetary Institute, Houston. KERRIDGEJ. F,, MACKAYA. L. and BOYNTON W. V. (f979)
+Magnetite in CI carbonaceous meteorites: Origin by aqueous activity on a planetesimal surface. Science 205, 395-397. K3 KNAB H.-J. (198 1) The distribution of trace elements in carbonaceous chondrites. Geochim. Cosmochim. Acta 45, 15631572. K4 KRKHENB~HLU., MORGANJ. W., GANAPATHYR. and ANDERSE. (1973) Abundance of 17 trace elements in carbonaceous chondrites. Geochim. Cosmochim. Acta 37, 1353-1370.
+K.5 KRANKOWSKYD. and MULLER0. (1964) Isoto~nh~ufi~eit und Konzentration des Lithiums in Steinmeteo~ten. Ge~h~m. Cosmochim. Acta 28, 1625-1630. LAMBERTD. L. (1978) The abundances of the elements in
+the solar photosphere: VIII, Revised abundances of carbon, nitrogen and oxygen. Mon. hrof.Roy. Asfr. Sot. 182,249-272.
+LARIMERJ. W. and ANDERSE. ( 1967)ChemicaI ~~onations in meteorites-II. Abundance patterns and their interpretation. Geochim. Cosmochim. Acfa 31, 1239-1270.
+LARIMERJ. W. and ANDERSE. (1970)Chemical fractionations
+in meteorites-III. Major element fractionations in chondrites. Ge~him. Cosm~h~m~Acta 34,367-388. I*6 Loss R. D.. ROSMANK. J. R. and DELAETERJ. R. (1984)
+Mass spectrometric isotope dilution analyses of palladium,.silver, cadmium and tellurium in carbonaceous chondrites. Geochim. Cosmochim.Acfa 48, 1677- 1681.
+MA~HLANL. A., GRAMLICHJ. W., POWELLL. J. and LAM-
+BERTG. M. ( 1986)Absolute isotopic abundance ratio and atomic weight of a reference sample of gallium. J. Res. NBS 91, 323-
+331.
+MACKLINR. L., WINTERSR. and SCHMIDTD. M. (1989) Resonance neutron capture by argon-40. Astron. Astrophys. SuppI. (in press).
+MARTIK., WILKENINGL. and SUE% H. E. (1972) Solar rare gases and the abundances of the elements. Astrophys.J. 173, 445-450. M2 MASONB. (1963) The carbonaceous chondrites. Space Sci. Rev. 1,62 l-646.
+MAZORE., HEYMANND. and ANDERSE. (1970) Noble gases
+
+in carbonaceous chondrites. Geochirn. Cosmochim. Acta 34, 78 l-824.
+MCGUIRE R. E., VONROSENVINGET. T. and MCDONALD F. B. (1986)The composition of solar energetic particles. Astrophys.J. 301,938-96 1.
+MEWALDTR. A. and STONE E. C. (1987) Isotope abundances
+of solar coronal material derived from solar energetic particle measurements. Proc. 20th Int. Cosmic Ray Conf: (Moscow)3,
+255-258.
+MEWALDTR. A., SPALDINGJ. D. and STONEE. C. (1984) A high-resolution study of the isotopes of solar flare nuclei. Astrophys. J. 280,892-901.
+MEYER J.-P. (1979) The significance of the carbonaceous chondrites abundances. In Les .%ments et leurs isotopesdam l'univers,pp. 153-188. Institut ~A~physiqu~ Liege, Belgium.
+MEYERJ.-P. (1985a) The baseline composition of solar energetic particles. Astrophys.J. Suppi. Ser. 57, 15l-17 1.
+MEYER J.-P. (1985b) Solar-stellar outer atmospheres and energetic particles, and galactic cosmic rays. Astrophys.J. SuppI Ser. 57, 173-204.
+MEYER J.-P. (1988) Everything you always wanted to ask
+about local galactic abundances, but were afraid to know. In Originand Distributionof the Elements (ed. G. J. MATHEWS), pp. 337-348. World Scientific, Singapore.
+MEYERJ.-P. (1989) The abundances of matter in the interstellar medium, In Cosmic Abundances of Matter (ed. C. J.
+WADDINGTON)A. merican Institute of Physics (in press).
+MILFORDP. N., G'MARAB. J. and ROSSJ. E. (1988) Mea-
+surement of relative intensities of Fe1 lines of astrophysical interest. J. Quant. Spectr. Rad. Transx (in press),
+MILKEY R. M. (1978) Models of the~~ynamic properties of prominences. In PhysicsofSoiarProminences(eds.E. JENSEN, P. MALTBY,R. Q, ORRALL),pp. 349-356. IAU Colloquium
+No. 44, Inst. Theoret. Astrophys., Blindem, Norway.
+MORGANJ. W. and ANDERSE. (1980) Chemical composition of the Earth, Venus, and Mercury. Proc. Natl.Acad. Sci. U.S. 77,6973-6977.
+MURPHYR. J., RAMATY R., FORRESTD. J. and KOZLOVSKY
+B. (1985) Abundances from solar-flare gamma-line spectroscopy. Proc. 19th Cosmic Ray Conj 4,249-252. LaJolIa, CA.
+Ml4 MURTYS. V. S., SHUKLAP. N. and GOEL P. S. (1983) Lithium in stone meteorites and stony irons. Meteorifics18, 123- 136.
+N2 NAKAMURAN. (1974) Determination of REE, Ba, Fe, Mg, Na and K in carbonaceous and ordinary chondrites. Geochim. Cosmochim.Acta 38,757-775. NOCIG., SPADAROD., ZAPPALAR. A. and ZUCCARELLOF. (1988) Elemental abundances in different solar regions from EUV observations. Astron.Astrophys.198, 3 I I-32 1.
+OWENT., LUTZB. L. and DEBERGHC. (1986) Deuterium in the outer solar system: Evidence for two distinct reservoirs. Nature 320.244-246.
+PAGEL B. E. J. (1987) Primordial abundances of the light elements. In ESG-CERN Schoolon Astro-ParticlePhysics(eds. A. DE RUJULA, D. NANOPOULOSP, . A. SHAVER).World Sci-
+entific, Singapore.
+PAGELB. E. J. (1988) Primordial helium and the half-life of the neutron. Gemini 18, 1-4. P3 PALMEH. and RAMMENSEWE . (1981)The cosmic abundance of molybdenum. Earth Planet. Sci. Left. 55.356-362.
+PAI& U. (1988) Transition proclitic and bmnching ratios
+of astrophysical interest: Ionized iron and neutral carbon. Ph.D.
+thesis, l-62. E.T.H., Zurich, Switzerland.
+PEIMBERTM. (1986) On the helium and heavy element enrichment of the interstellar medium. Publ. Astron. Sot. Pacific 98, 1057-1060.
+PHILLIPSA. P., GONDHALCKARP. M. and PE~INI M. (1982) A study of element depletion in interstellar gas. Mon. Not. Roy. Astr. Sot. 200, 687-703. QI QUANDTU. and HERR W. (1974) Beryllium abundance of meteorites determined by "non~~t~ctive" photon activation. Earth Planet.Sci. Lett. 24, 53-58. R8 RAMMENSEEW. and PALMEH. (1982) Metal-silicate extrac-
+
+214
+
+E. Anders and N. Grevesse
+
+tion technique for the analysis of geological and meteoritical samples. J. Radioanalyt. Chem. 71, 401-418.
+REAMESD. V., RAMATYR. and VON ROSENV~NGET. T. (I 988) Solar neon abundances from gamma-ray spectroscopy and )He-rich particle events. Astrophys. J. Lett. (in press).
+REYNOLDSJ. H., FRICKU., NEIL J. M. and PHINNEYD. L. (1978) Rare-gas-rich separates from carbonaceous chondrites. Geochim. Cosmochim. Acta 42, 1775-l 197.
+ROSMANK. J. R., Loss R. D. and DELAETERJ. R. (1984) The isotopic com~sition of tin. Intf. J. Mass Spec. Ion Proc. 56,281-291.
+SALPETERE. E. (1977) Formation and destruction of dust grains. Ann. Rev. Astron. Astrophys. 15, 267-293.
+SAIJVALA. J., GREVESSEN., BRAULTJ. W., STOKESG. M. and ZANDERR. (1984) The pure rotation spectrum of OH and the solar oxygen abundance. Astrophys. J. 282,330-338.
+SCHMIDJ., BOCHSLERP. and GEISSJ. (1988) Abundance of iron ions in the solar wind. Astrophys. J. 329,956-966.
+_SH. AVERP. A.. KUNTH D. and KJXRK. (1983) Primordial ~etium. k$O, Garching F.R.G., 418~. S4 SHIMA M. (1979) The abundances of titanium, zirconium and hafnium in stony meteorites. Geochim. Cosmochim. Acta
+43,353-362. S1 SILLC. W. and WILLISC. P. (1962) The beryllium content
+of some meteorites. Geochim. Cosm~him. Acta 26,1209- I2 14. SMITHC. L. and DELAETERJ. R. (1986) The isotopic com-
+position of tellurium in the Abee meteorite. Meteoritics 21, 133139.
+STEENBOCKW. (1985) Statistical equilibrium of Fe I/Fe II in cool stars. In Cooi Stars with Excesses ofHeavy Elements (eds. M. JASCHEKand P. C. KENNAN), pp. 23 l-235. D. Reidel, Dordrecht, Holland.
+STEENBOCKW. and HOLWEGERH. (1984) Statistical equilibrium of lithium in cool stars of different metallicity. Astron. Astrophys. 130, 3 19-323.
+STEIGERR. H. and JAGERE. (1977) Subcommission on geochronology: Convention on the use of decay constants in geoand cosmochronology. Earth Planet. Sci. Lett. 36, 359-362.
+SUE% H. E, (1947) Uber kosmische Kemhlufigkeiten. 1. Einige H~ufi~ei~regeln und ihre Anwendung bei der A~h~~ung der Haufigkeitswerte fur die mittelschweren und schweren Elemente. Z. Naturforsch. 2a, 3 1l-32 1. Tl TAKAHASHHI ., JAN~~ENSM.-J., MORGANJ. W. and ANDERS E. (1978) Further studies of trace elements in C3 chondrites. Geochim. Cosm~him. Acta 42,97-106.
+TANG M. and ANDERSE. (1988) Isotopic anomalies of Ne, Xe, and C in meteorites: III. Local and exotic noble gas components and their interrelations. Geochim. Cosmochim. Ada 52. 1235-1244.
+~ATTSUMOTOM., UNRUH D. M. and DESBOROUGHG. A. f 1976) U-Th-Pb and Rb-Sr svstematics of Allende and U-ThPb systematics of Orgueil. Gekhim. Cosmochim. Acta 40,6 17634.
+TILTONG. R. (1973) Isotopic lead ages of chondritic meteorites. Earth Plane?. Sci. Lett. 19, 32 l-329.
+
+TURCK-CHIBZES., CAHENS., CASSBM. and Door C. (1988) Revisiting the standard solar model. Astrophys. J. (in press).
+VAUCLAIRS. and MEYERJ.-P. (1985) Diffusion in the chromosphere, and the composition ofthe solar, corona and energetic particles. Prof. 19th Cosmic Ray Conf: 4,233-236, LaJolla, CA.
+VECKN. J. and PARKINSONJ. H. (1981) Solar abundances from X-ray Ilare observations. Mon. Not. Roy. Astr. Sot. 197, 41-55. V2 VILCSEKE. and LOHMANNG. (1978) Bestimmung von Beryllium in extraterrestrischer Materie mit Hilfe der Bammenl~n Atomab~~tion~~ktroskopie. Z. Anal. Chem. 293,410-411.
+WAI C. M. and WASSONJ. T. (1977) Nebular condensation of moderately volatile elements and their abundances in ordinary chondrites. Earth Planet. Sci. Lett. 36, l-1 _3.
+WALTERG., BEERH., KPIPPELERF., REFFOG. and FABBRI F. (1986) The s-process branching at "Se. Astron. Astrophys. 167, 186- 199. W2 WXNKEH., BADDENHAUSEHN., PALMEH. and SPETTELB. (1974) On the chemistry of the Allende inclusions and their origin as high temperature condensates. Earth Planet. Sci. Lett. 23, l-7.
+WARD L., VDCELO., ARNESENA., HALLINP. and WANNSTROMA. (1985) Accurate experimental lifetimes of excited levels in Nd II. Physica Scripta 31, 161-165.
+WHALINGW. (1985) Absolute transition probabilities in Fe II. Technical Report 85A, Calif. Inst. Technol., Pasadena, CA.
+WHALINGW., HANNAFORDP., LOWER. M., BIBUONT E. and GREVESSEN. (1985) Absolute transition probabilities in vanadium I and the solar abundance of vanadium. Astron. Astrophys. 153, 109- 115.
+WIDING K. G., FELDMANU. and BHATIAA. K. (1986) The extreme ultraviolet spectrum (300-630 A) of an erupting prominence observed from Skylab. Astrophys. J. 308, 982-992.
+W~ELERR., BAURH. and SIGNERP. (1986) Noble gases from solar energetic particles revealed by closed system stepwise etching of lunar soil minerals. Geochim. &osm~h~m. Acta 50,19972017.
+WIIK H. B. (1969) On regular discontinuities in the composition of meteorites. Commentationes Physic@Mathematicae 34, 135-145.
+WOLFS. C. and HEASLEYJ. P. (1985) The determination of the helium abundance in main sequence B stars. Astrophys. J. 292,589-600.
+WOOSLEYS. E. and HOFFMANR. D. (1986) 16th advanced course. In Nucfeosynthesis and Chemical Evolution (eds. B. HAUCK,A. MAEDER,and G. MEYNET).Saas-Fee.
+WOOSLEYS. E. and HOFFMANR. D. (1989) Parametrized studies of nucleosynthesis. Astrophys. J. Suppl. (in press).
+YAMAMOTOT. (1985) Formation environment of cometary nucleiin the primordial solar nebula. Astron. Astrophys. 142, 31-36.
+YOUSSEFN. H. (1986) A search for gold in the Sun. Astron. Astrophys. 164, 395-396.
+ZADNIKM. G., SPECHTS. and BEGEMANNF. (1989) Revised isotopic composition of terrestrial mercury. Znt. J. Mass Spec. Ion Proc. (in press).
+
+

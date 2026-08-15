@@ -1,0 +1,982 @@
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+ANNUAL
+REVIEWS Further
+Click here for quick links to Annual Reviews content online, including:
+· Other articles in this volume · Top cited articles · Top downloaded articles · Our comprehensive search
+
+The Nine Lives of Cosmic Rays in Galaxies
+Isabelle A. Grenier,1 John H. Black,2 and Andrew W. Strong3
+1Laboratoire AIM Paris-Saclay, CEA/Irfu, CNRS, Universite´ Paris Diderot, F-91191 Gif-sur-Yvette Cedex, France; email: isabelle.grenier@cea.fr 2Department of Earth & Space Sciences, Chalmers University of Technology, Onsala Space Observatory, SE-439 92 Onsala, Sweden; email: john.black@chalmers.se 3Max-Planck-Institut fu¨ r extraterrestrische Physik, 85741 Garching, Germany; email: aws@mpe.mpg.de
+
+Annu. Rev. Astron. Astrophys. 2015. 53:199-246
+First published online as a Review in Advance on June 18, 2015
+The Annual Review of Astronomy and Astrophysics is online at astro.annualreviews.org
+This article's doi: 10.1146/annurev-astro-082214-122457
+Copyright c 2015 by Annual Reviews. All rights reserved
+
+Keywords
+ rays, interstellar medium, interstellar chemistry, dust, superbubbles
+Abstract
+Cosmic-ray astrophysics has advanced rapidly in recent years, and its impact on other astronomical disciplines has broadened. Many new experiments measuring these particles, both directly in the atmosphere or space and indirectly via  rays and synchrotron radiation, have widened the range and quality of the information available on their origin, propagation, and interactions. The impact of low-energy cosmic rays on interstellar chemistry is a fast-developing topic, including the propagation of these particles into the clouds in which the chemistry occurs. Cosmic rays, via their  -ray production, also provide a powerful way to probe the gas content of the interstellar medium. Substantial advances have been made in the observations and modelling of the interplay between cosmic rays and the interstellar medium. Focusing on energies up to 1 TeV, these interrelating aspects are covered at various levels of detail, giving a guide to the state of the subject.
+
+199
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+1. SCOPE OF THE REVIEW
+The term cosmic rays (CRs) refers generically to particles with energies starting at 1 MeV and continuing to around 1021 eV. The particles encompass nuclei (from protons to actinides), antiprotons, electrons, and positrons. Locally, the CR energy density is dominated by GeV protons and compares with the interstellar energy densities of the thermal gas, magnetic field, stellar radiation, and the cosmic microwave background. The Larmor radii of Galactic CRs range from 105 km at the lowest energies to 10-1 pc near 1015 eV, so that directional information on their sources is completely lost during propagation. For this reason,  -ray and radio synchrotron observations are essential for studying the large-scale distribution and spectra of Galactic CRs, giving clues to their origin and propagation. There is good evidence that CRs are accelerated in Galactic sites up to the knee energy of  3 × 1015 eV at which point the spectrum steepens; at much higher energies they almost certainly originate outside the Galaxy because the Larmor radii are of kiloparsec order above 1018 eV, and there is no sign of a directional modulation related to the Galactic disc. The transition energy from Galactic to extragalactic, however, is not known because the nuclear compositions of both Galactic and extragalactic CRs affect the spectrum in the transition region through the dependence of the Larmor radius on mass and charge. The transition is usually assumed to be in the 1015-17 eV band in which the CR spectrum steepens from index 2.7 to approximately 3.3 (in particle flux per momentum unit), which is consistent with the point of rapid escape from the Galaxy. The spectrum flattens again at higher energies, consistent with a contribution from extragalactic sources. In contrast, CR electrons and positrons are all certainly of Galactic origin because their energy losses by inverse Compton scattering on the cosmic microwave background limit their travel in intergalactic space to only a few kiloparsecs, even at GeV energies.
+The centenary of the 1912 discovery of CRs has passed, accompanied by commemorative celebrations (Ormes 2013) and reviews (Kotera & Olinto 2011, Blasi 2013, Zweibel 2013, Blandford et al. 2014, Slane et al. 2014), that highlighted the impressive historical progress on the continuing questions of their origin and acceleration in the Galaxy and beyond. The main acceleration site of Galactic CRs is thought to be the shocks of young supernova remnants. Particles traverse the shock many times owing to efficient, Bohm-like diffusion. They gain momentum at each pass, generating a power-law spectrum. The number of remnants and the long-term average supernova frequency in the Galaxy are sufficient to supply the observed CRs if a few percent of the explosive energy of a supernova is converted into CRs (e.g., Drury et al. 1994). Gamma-ray observations of supernova remnants at GeV energies (Fermi Large Area Telescope, Fermi-LAT; Astro-Rivelatore Gamma a Immagini Leggero, AGILE) and at TeV energies (High Energy Stereoscopic System, HESS; Major Atmospheric Gamma-ray Imaging Cherenkov Telescopes, MAGIC; Very Energetic Radiation Imaging Telescope Array System, VERITAS) allow direct tests of this scenario via the production of pion-decay, bremsstrahlung, and inverse-Compton  rays by in situ CRs. The challenge is to separate and delineate the emission components from the CR nuclei and electrons, i.e., to probe how efficiently and how high in energy supernova shock waves can accelerate both types of particles. A hadronic emission signature has at last been found in the W44 and IC 443 remnants with Fermi-LAT and AGILE (Ackermann et al. 2013b, Cardillo et al. 2014), although it does not constitute firm evidence of the acceleration of CR nuclei until the measurements are extended to well below the pion peak energy at 70 MeV.
+In parallel, a significant paradigm shift has been the realization that CR sources other than supernova remnants are probably important. Pulsars and pulsar-wind nebulae are now receiving more attention as sources of primary electrons and positrons, triggered by observations of more high-energy positrons than expected from hadronic interactions of CRs with interstellar matter (see Section 2.4).
+200 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+CR sources and acceleration mechanisms are not addressed in the present review. For recent coverage, we refer the reader to the insightful reviews quoted above, and to Castellina & Donato (2013) and Amato (2014).
+We focus instead on the numerous facets of CR lives and feedback in their host galaxies, which we attempt to capture and review here in their fascinating variety. In broad brushstrokes, Galactic CRs:
+1. Differentially penetrate into astrospheres to probe their physics, as glimpsed in the heliosphere by the two Voyager spacecraft and by  -ray observations toward the Sun.
+2. Randomly diffuse through the turbulent interstellar magnetic fields, scrambling their paths to our detectors but transferring and ultimately depositing energy across kiloparsecs in the interstellar medium (ISM). CR nuclei and electrons leave 10% and 60% of their energy, respectively, before escaping into intergalactic space. Energy losses and interactions with matter and radiation fields leave collective traces of their long journeys through the Galactic disc and halo.
+3. Produce spallation secondaries with elemental and isotopic abundances of diagnostic value in understanding the composition of accelerated matter and later propagation.
+4. Drive magnetohydrodynamic (MHD) waves, which partly maintain interstellar turbulence. Conversely, CRs are subjected to wind-driven turbulence near stellar clusters, which may severely reduce their diffusion lengths in star-forming regions.
+5. Drive large-scale interstellar flows, including possible galactic winds, fountains, and perhaps large-scale features, like the Fermi Bubbles.
+6. Take away between 10% and 50% of the energy of the supernova shock waves that have accelerated them, thereby lowering remnant temperatures and moderating their feedback on the ISM.
+7. Ionize and heat the dense interstellar gas, depositing 13 eV per interaction to keep the darkest ISM at temperatures near 10 K and electron fractions near 10-7. They drive a remarkably rich chemistry at low temperature. Reactive molecular ions thus provide remote tracers of low-energy CRs, with kinetic energies below a few MeV.
+8. Cause interstellar clouds to glow brightly in  rays and reveal their total gas content, irrespective of their chemical and thermodynamical state.
+9. Interact with magnetic fields, probing their strength, as well as with soft radiation fields to trace starlight and dust radiation.
+We have highlighted nine topics above, hence the title of this review (for completeness, we mention that there are other related aspects not addressed here, such as the effect of CRs on climate and weather), which aims to discuss recent findings on the numerous interactions of subTeV CRs with their interstellar habitat.
+Some of these findings were not known at the time of the previous CR article in Annual Reviews (Strong et al. 2007), which illustrates how lively this field of research is. New results include direct composition measurements from light to heavy nuclei; evidence of spectral hardening above a few hundred GeV and of spectral differences between the nuclei; the successful mapping of remote CRs in the Milky Way from their  -ray emission, as seen by the Fermi-LAT telescope; the rapid developments in the use of chemical information to probe few-MeV CRs beyond the enormous barrier of the heliosphere and near supernova remnants; rapid progress in the use of CRs and their  -ray emission to trace the total gas in the ISM; the recent realization of the potential confinement of young CRs in starburst regions; and the first observations of CR-driven  rays in starburst galaxies. This review focusses on CR energies only up to 1 TeV because it is mainly concerned with the interstellar effects of CRs and their use as a tracer of the ISM, where only lower energies are relevant.
+www.annualreviews.org · Cosmic Rays and the ISM 201
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Table 1 Recent measurements of cosmic-ray composition and spectraa
+
+Instrument Nuclei PAMELA AMS-02 AMS-02 ACE AMS-01 PAMELA ATIC-2 PAMELA AMS-02 PAMELA CREAM TRACER TIGER PAMELA BESS-Polar Leptons ATIC-1,2 HESS Fermi-LAT Fermi-LAT PAMELA AMS-02
+
+Species
+
+Energy per nucleon
+
+p, He p He Isotopes B-Ni Isotopes of H, He, Li, Be, B Isotopes of p, He p, He, C, O, Ne, Mg, Si, Fe B/C B/C d C-Fe B-Fe, B/C Elements Fe-Se p p
+
+100 MeV-1 TeV 1 GeV-1.8 TeV 2 GeV-3 TeV few 100 MeV 0.2-1.4 GeV 100-900 MeV 50 GeV-200 TeV 0.44-129 GeV 0.5-700 GeV 50-650 MeV 500 GeV-few TeV 1 GeV-1 TeV 0.35-250 GeV 60 MeV-350 GeV 170 MeV-3.5 GeV
+
+e-, e+ e- + e+ e- + e+ e-, e+ e-, e+ e-, e+
+
+20 GeV-2.3 TeV 340 GeV-3 TeV 7 GeV-1 TeV 20-200 GeV 1-300 GeV 0.5-700 GeV
+
+aThis is a representative but not exhaustive selection of results from 2008-2014.
+
+Reference
+Adriani et al. 2011; 2013a,b Consolandi et al. 2014 Choutko et al. 2013 Lave et al. 2013 Aguilar et al. 2011 and references therein Adriani et al. 2013c Panov et al. 2009 Adriani et al. 2014 Oliva et al. 2013 Koldobskiy et al. 2013 Ahn et al. 2008, 2009, 2010; Yoon et al. 2011 Obermeier et al. 2011 Rauch et al. 2009 Mayorov et al. 2013 Abe et al. 2012
+Chang et al. 2008 Aharonian et al. 2008, 2009 Ackermann et al. 2010 Ackermann et al. 2012f Adriani et al. 2009, 2013d; Mikhailov et al. 2013 Aguilar et al. 2013, Battiston 2014
+
+2. ADVANCES FROM DIRECT MEASUREMENTS
+In CR astrophysics the most important resources are the experiments and their data. Direct measurements are those made from balloons in the atmosphere and spacecraft in the heliosphere, in contrast to indirect methods using  rays, synchrotron, etc., to remotely probe CRs to large distances in the Galaxy. Improved experimental techniques have led to significant progress particularly in the quality and accuracy of the measured composition and spectra. In some cases there is no longer any significant experimental uncertainty remaining for the theorist using these data; therefore, the challenges for interpretation are well defined. Table 1 summarizes recent direct measurements discussed below and gives their references.
+Direct CR observations from balloons and satellites are affected by the solar wind below a few GeV, which makes their astrophysical interpretation problematic but also allows detailed studies of solar modulation. Solar modulation is an important topic not covered in this review. A recent study using time-dependent measurements of proton and helium (He) spectra with Payload for Antimatter/Matter Exploration and Light-nuclei Astrophysics (PAMELA), and a comparison with heliospheric models, is given by Adriani et al. (2013b), to which the reader is referred for further literature.
+Another important finding is the observation of anisotropies in the CR flux at TeV energies and above. It relates to diffusion from discrete CR sources but also to the structure of the local
+202 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+interstellar magnetic field and of the heliosphere, and it is not included in the present review (see, e.g., Pohl & Eichler 2013, Schwadron et al. 2014 for further reading).
+Until a few years ago surprisingly little attention was devoted to the task of collecting CR data in a systematic way, given the huge effort expended in building and deploying instruments to make the measurements. An initiative started in 2009 (Strong & Moskalenko 2009) has been pursued for several years and is now superseded by a sophisticated database, which is maintained with incoming data and offers comprehensive literature and instant plots (Maurin et al. 2014). We recommend interested readers to access this valuable resource (at http://lpsc.in2p3.fr/cosmic-rays-db).
+Our understanding of CR data in terms of physical models is still rather rudimentary. For orientation, we give a general introduction to the principles involved before commenting on recent results.
+2.1. Propagation Principles
+Galactic CRs are thought to propagate mainly by diffusion due to scattering on random or turbulent magnetic fields. The spatial diffusion coefficient, Dxx ( p), depends on particle momentum p. Regular transport by convection in Galactic winds and fountains is also probable. The particle spectra are modified along the way by energy losses and by diffusive reacceleration. The latter is due to particle scattering on moving MHD waves. Random wave motions lead to stochastic acceleration, which is described as diffusion in momentum space with diffusion coefficient Dpp . Energy losses include a large variety of processes, such as ionization and Coulomb interactions with interstellar gas (dominant for low-energy CR nuclei) and hadronic interactions like pion production (dominant for high-energy nuclei). Lepton losses are much larger due to synchrotron, bremsstrahlung, and inverse-Compton interactions, as well as ionization and Coulomb losses. The CR nuclei produced by the sources (primary CR) also undergo nuclear interactions with the interstellar gas, producing secondary nuclei by spallation (secondary CR). CR dynamics in the Galaxy is therefore generally described by a differential equation that includes acceleration, loss, and transport terms (see, e.g., Strong et al. 2007, Zweibel 2013).
+CR sources are concentrated in the Galactic plane, and the particles undergo great numbers of scatterings before finally escaping into intergalactic space. The escape is an essential, but little understood, part of their history and is usually treated simply by setting the CR density to zero at some boundary a few kiloparsecs above the Galactic plane. Its height can be tested in Galactic-wide propagation models. The region occupied by CRs is often referred to as the CR halo, and similar halos are observed in the radio synchrotron emission from external galaxies viewed edge on (Beck 2012).
+2.2. Composition of Primary Cosmic Rays
+The primary CR composition can be determined from direct measurements, after accounting for secondary spallation products during Galactic propagation. The latest elemental composition data are from ACE (Advanced Composition Explorer), CREAM (Cosmic Ray Energetics and Mass), TRACER (Transition Radiation Array for Cosmic Energetic Radiation), and TIGER (TransIron Galactic Element Recorder; see Table 1 for details and references).
+These data concur to suggest that CRs are accelerated from material of the general ISM mixed with only a small fraction of stellar wind material expelled by the massive progenitors of corecollapse supernovae. The evidence for this is the generally similar composition of CRs to that of the solar photosphere or meteorites after allowing for spallation secondaries.
+Deviations from interstellar composition are nevertheless observed and are related to primary CR acceleration via first-ionization potential, volatility, and the isotopic composition in special
+www.annualreviews.org · Cosmic Rays and the ISM 203
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+regions like superbubbles. Elemental and isotopic abundances therefore give essential clues to the acceleration sites and timescales. The recent data confirm the CR enrichment, relative to solar abundances, in refractory elements over volatile ones. They also confirm that elements with first ionization potentials larger than 10 eV are depleted with respect to those with lower potentials, up to TeV energies per nucleon (Rauch et al. 2009, Ahn et al. 2010).
+Yet, the observed dependence of abundances on atomic mass or charge is not fully explained by ionization potentials and volatility, and some elemental abundances (e.g., Ga/Ge) are inconsistent with a pure interstellar composition. The organization of the data significantly improves when using a CR composition mixture of approximately 20% ejecta of massive stars (including WolfRayet winds and core-collapse supernovae) and 80% interstellar gas (Rauch et al. 2009). If so, the acceleration mechanism should be three to four times more efficient for refractory elements than for volatiles. This is possible via the acceleration of interstellar grains, as suggested by Ellison et al. (1997). In this model, dust grains are charged by photoionization and accelerated to modest energies by supernova shock waves. Atoms later sputtered off of these grains are injected into the accelerating shock with suprathermal energies; hence they are more efficiently accelerated than thermal interstellar atoms swept up and heated by the shock. The grain model has unfortunately not be en pursued lately.
+The large isotopic ratio of 22Ne/20Ne, which is 5.3 ± 0.3 times higher in CRs than in the Solar System, also provides useful constraints on CR acceleration, suggesting that acceleration is restricted in time to the early periods of the supernova remnant expansion, ending well before the end of the Sedov phase (Prantzos 2012). The high 22Ne/20Ne ratio together with the lack of the unstable 59Ni in CRs (Wiedenbeck et al. 1999) yields important time constraints for CR acceleration in massive-star clusters: It would take place soon (<a few million years) after enrichment of the ambient medium in 22Ne by the Wolf-Rayet winds, and approximately 0.1 Myr after a supernova explosion to avoid accelerating freshly synthesized 59Ni. This may be possible if the injections of 22Ne-rich wind material and of 59Ni-rich supernova ejecta are sufficiently separated in time (Binns et al. 2007) and if 59Ni largely remains inside the ejecta, i.e., beyond the reach of the forward shock wave (Prantzos 2012). But the full interpretation of these constraints still requires detailed time-dependent MHD models of the expansion of multiple shocks (winds and supernovae) produced with time and space densities representative of OB associations. CR activity in starburst superbubbles is further discussed in Section 8.1.
+2.3. Spectral Puzzles
+Measurements of CR spectra, for both primaries and secondaries, provide the most important clues to cosmic-ray origin and propagation. In this section we describe some recent progress on this topic.
+2.3.1. Above GeV energies. Spectral measurements to high energies are restricted to the more abundant elements, but the new data from the Alpha Magnetic Spectrometer (AMS-02), PAMELA, CREAM, Advanced Thin Ionization Calorimeter (ATIC-2), and TRACER (see Table 1) have revealed spectral deviations from simple power laws well below the knee energy.
+The finding with PAMELA of a hardening of the proton and He spectra near 200 GeV/nucleon has been the subject of much theoretical attention. A powerful magnet combined with long exposures on the International Space Station gives the latter significant advantages over previous instruments. It shows with high accuracy that the proton and He spectra follow power laws in the 0.1-1.8 TeV band (see Figure 1). The He spectrum smoothly extends with index 2.65 (in particle
+204 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+log (p2c2Jpc) [(eV/n) m-2 s-1 sr-1] log (Jkin) [m-2 s-1 sr-1 (eV/n)-1]
+
+a
+13.5 13
+12.5 12
+11.5 11
+10.5 10 9.5 9 8.5 8
+
+b
+Pamela CREAM ATIC-2 AMS-02 H Voyager 1 Local ISM
+He
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14 6
+
+log (pc) (eV/n)
+
+H He
+
+8
+
+10
+
+12
+
+log (Ekin) (eV/n)
+
+-4 -6 -8 -10 -12 -14 -16 -18 -20 14
+
+Figure 1
+Local spectra of cosmic-ray protons and helium, as measured near the Earth and heliopause (Panov et al. 2009, Adriani et al. 2011, Yoon et al. 2011, Choutko et al. 2013, Stone et al. 2013, Consolandi et al. 2014), and displayed without solar demodulation (a) in momentum distributions and (b) in particle spectra in kinetic energy. They indicate proton hardening and He enrichment above a few hundred GeV. The gray band marks the range of proton spectra inferred in the local ISM from the average  -ray emissivity of the interstellar gas, given the current uncertainties in the hadronic cross sections (data from Dermer et al. 2013b).
+
+flux per momentum unit) up to 50 TeV. The CREAM and ATIC-2 data require a small upturn in protons above a few TeV, with a change in index from 2.792 ± 0.002 in the 0.1-1.8 TeV band (AMS-02) to 2.728 ± 0.018 above 2 TeV (CREAM).
+Another essential feature is the spectral difference between protons and He, first measured with PAMELA and then confirmed by AMS-02 (see Figure 1). The He/p ratio increases by more than a factor of two from 20 GeV to 50 TeV.
+The CREAM and TRACER experiments have obtained consistent spectra for all major nuclei from boron (B) to iron, up to a few TeV/nucleon. These spectra, with indices nearly equal at 2.66 ± 0.04, are consistent with the He one. An exception is nitrogen (N), which shows a flattening beyond 100 GeV/nucleon.
+The spectral hardening in protons challenges the current propagation models. Potential causes under investigation include the manifestation of new types of CR sources to complement supernova remnants, spatial variations in diffusion properties, local anomalies due to nearby sources or to different transport in the Local Bubble, spallation effects, etc. The change in He/p ratio is rather interpreted in terms of acceleration processes (different acceleration efficiencies or injection efficiencies into the shock, chemical variations in the upstream medium, activity of the reverse shock, etc.). We point the reader to the introductions by Vladimirov et al. (2012) and Ptuskin et al. (2013) for further literature on both spectral dilemmas. More data on different nuclei are expected soon from AMS-02. They should allow these scenarios to be tested with unprecedented accuracy.
+
+www.annualreviews.org · Cosmic Rays and the ISM 205
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+2.3.2. Below 2 GeV. At low energies, a monumental event has been the arrival of Voyager 1 near the heliospheric boundary at 122 AU, on August 25, 2012, and the simultaneous detection of an abrupt increase in CR flux at all kinetic energies below 1 GeV (Stone et al. 2013). Whether CRs have fully unimpeded access to Voyager 1, free of solar modulation and of local interstellar modulation, is still under debate (Stone et al. 2013). If so, these data allow the interstellar CR spectrum to be sampled directly for the first time, down to the kinetic energies below 10 MeV that are essential to estimate the level of CR-induced ionization in the ISM (see Section 5 and Padovani et al. 2009, their figure 7). The differential spectra of protons and He appear to be rather flat below kinetic energies of 100 MeV per nucleon (see Figure 1). We defer further discussion to Section 4.1, which has a comparison with the proton spectrum inferred in the nearby ISM from  -ray observations and its implications.
+Voyager 1 has also measured a stable He/p ratio close to solar abundance up to hundreds of MeV in kinetic energy, at variance with the 1.5 solar value found at TeV energies. We look forward to Voyager 2, which is expected to leave the heliosphere in a few years, to provide further and independent data at low energy.
+2.3.3. Cosmic rays inside the heliosphere. We shortly digress from direct measurements to remote  -ray measurements to probe CRs in the region between the Earth and the Sun. The possibility of detectable  rays from CR electrons up-scattering sunlight or starlight was pointed out by Moskalenko et al. (2006) and Orlando & Strong (2007) and confirmed with data from Compton Gamma-Ray Observatory's Energetic Gamma-Ray Experiment Telescope (CGRO-EGRET) (Orlando & Strong 2008). This emission produces a diffuse halo of  rays, many degrees in extent, centered on the Sun. The spectrum and angular profile can be measured to follow the particle evolution. The quiescent solar disc is also a  -ray source as CR nuclei interact with the photospheric gas. Continuous monitoring of these emissions on a daily basis with Fermi-LAT enables systematic studies of solar modulation through the solar cycle and of CR transport well within the orbit of Mercury, which is otherwise hardly possible (Abdo et al. 2011).
+This extended emission constitutes a significant  -ray foreground that must be accounted for, and removed, in studies of diffuse  rays from the Galaxy and beyond. In the future, Fermi-LAT should deepen this study and eventually detect such emission around nearby bright O and B stars, thereby opening a window onto their astrospheres.
+2.4. Positron Excess at High Energies
+The most surprising result of the past several years was the discovery of a high-energy excess of positrons over that predicted from the decay of  + pions produced in hadronic interactions between CR nuclei and interstellar gas in the Milky Way (Adriani et al. 2009). This has since been confirmed by AMS-02 and Fermi-LAT (see Table 1). In addition to its main goal as a  -ray telescope, Fermi-LAT is indeed also an excellent lepton detector. It has helped extend the spectral measurements to 1 TeV for total leptons and to 200 GeV for separate charges with the use of the Earth's magnetic field to separate them. The ground-based Cherenkov telescope HESS also measures leptons, though it does not distinguish charge. The total lepton spectrum resulting from these instruments shows no sign of fine structure or peak at a few hundred GeV (invalidating the ATIC-2 detection) but exhibits signs of a cutoff at TeV energies, as expected from the severe radiative losses incurred by these particles during propagation.
+The positron fraction is seen to rise from 0.05% near 10 GeV to approximately 0.15% above 200 GeV, where it starts to flatten in the AMS-02 data. The rise is due to an increase in positron flux rather than a deficit in electrons. The excess suggests a primary positron source, for example,
+206 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+E3 J(E) (GeV2 m-2 s-1 sr-1)
+
+103 PAMELA 2011 [e-] PAMELA 2013 [e+] AMS-02 2013 [e-] AMS-02 2013 [e+]
+102
+101
+100 100 101 102 103 104 E (GeV)
+Figure 2 Cosmic-ray electron and positron spectra from AMS-02 and PAMELA compared with 3D models with possible contributions from nearby pulsars (long dashed line for Vela, double dotted-dashed lines for Monogem and Geminga) and an additional component (dotted line) required to explain the data (from Gaggero et al. 2014). Solid lines show the total spectra including the Galactic primary and secondary leptons. Solar modulation is modelled to a level appropriate to the PAMELA data. Adapted with permission from Gaggero et al. 2014. Copyright by the American Physical Society.
+pulsars or pulsar wind nebulae (see, e.g., the models in Figure 2), although much attention has also been devoted to origins in dark matter annihilation and decay. Different propagation histories between electrons and positrons may also induce an asymmetry. CR positrons and protons of the same rigidity are scattered by the same Alfve´n waves, but not the electrons. Because there are more waves generated by the numerous CR protons than by the sparse CR electrons, positrons may diffuse more efficiently and have a longer residence time in the Galaxy than electrons (Blandford et al. 2014).
+3. ADVANCES IN COSMIC-RAY PROPAGATION Primary CR nuclei produce secondary nuclei by spallation in the ISM. The rate of secondary production can be calculated using the primary spectrum and spallation cross sections, so that the secondary source function in the diffusion equation is in principle known. This is the key to using secondary/primary ratios to test CR propagation models and to constrain the amount of reacceleration during propagation. Secondaries include antiprotons and positrons as well. Precise antiproton measurements were made by the Balloon-borne Experiment with Superconducting Spectrometer (BESS) and PAMELA (see Table 1).
+The most striking feature in the CR composition is the large abundance of spallation products like lithium (Li), beryllium (Be), boron (B), and sub-iron elements. These are absent or minor in the ISM but have comparable abundances to their primary parents owing to the large number of interactions between primaries and interstellar atoms during their Galactic journey (see Section 5.4).
+www.annualreviews.org · Cosmic Rays and the ISM 207
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+The most useful ratio to probe CR propagation is boron/carbon (B/C), which is accurately measured by PAMELA, AMS-02, and TRACER up to 1 TeV (see Table 1). Carbon is almost entirely primary, whereas boron is entirely secondary, being a spallation product of carbon, oxygen (O), and heavier nuclei. Hence, the evolution of B/C with momentum p primarily reveals the momentum dependence of the diffusion coefficient Dxx( p), which is independent of the primary spectra because secondaries have nearly the same energy per nucleon as the parent. The measured decrease of B/C with momentum (see Figure 3) indicates a decrease in the amount of matter traversed by the higher-p primaries and, thus, an increase in Dxx( p) with p. Representing Dxx( p) as a power law, the index ranges from 0.3 to 0.8 depending on the model. This index explains the difference between the CR spectra escaping supernova shock waves, with index near 2.2, and the steeper spectra observed in the ISM, with index near 2.7 after propagation. Figure 3 shows examples of consistent modelling of the proton, He, and B/C data from AMS-02 and PAMELA with different diffusion assumptions.
+Significant curvature is observed in the B/C spectrum above 20 GeV. It can trace a change in Dxx( p) between the Galactic disc and halo, owing to different levels of MHD turbulence (Evoli & Yan 2014), or a change from CR diffusion on self-generated Alfve´n waves (generated by streaming instability) to diffusion on ambient turbulence in the ISM (Aloisio & Blasi 2013). It can also trace effects within CR sources, such as reacceleration of Galactic CRs passing by or spallation reactions inside supernova remnants, hence probing the average CR residence time and gas density inside accelerating remnants (Berezhko et al. 2003).
+Radioactive secondaries like 10Be, with its 1.6-Myr rest-frame half-life, are sensitive to the time spent in the Galaxy. The combination of stable and radioactive secondaries allows the confinement time, thus the size of the CR halo, to be estimated. The measurement of 10Be/9Be up to 2 GeV with Isotope Magnet Experiment (ISOMAX, Hams et al. 2004) tends to be higher than predictions from current propagation models, but it has unfortunately not yet been repeated, as the second flight was unsuccessful. Results from new experiments would be very valuable. The scale-height of the CR halo can be constrained by the 10Be/9Be ratio to be 4-10 kpc, but is still uncertain (Strong et al. 2007, Putze et al. 2010, Trotta et al. 2011). Alternatively, the scale-height can be constrained by propagation analyses of electron/positron spectra in the CR together with synchrotron emission (Di Bernardo et al. 2013).
+3.0.1. Parametric studies of cosmic-ray propagation. Systematic parametric studies of CR propagation models using the USINE code and a Bayesian Markov chain Monte Carlo technique (Maurin et al. 2010, Putze et al. 2011, Lavalle et al. 2014) show that a wide range of momentum dependence of Dxx( p) can fit the B/C data; this is in part due to the inclusion of convection, which allows a larger range of models. They also show that spectral differences between primaries can be naturally ascribed to transport effects and that secondary positrons exclude a very steep variation of Dxx( p), which was not a very likely scenario anyway. These analyses, and those by Trotta et al. (2011), illustrate the advantages of a Bayesian approach in constraining multiparameter problems of this kind.
+3.0.2. Diffusive reacceleration and alternatives. Diffusive reacceleration is simply diffusion in momentum due to the gain and loss of momentum off moving scatterers; hence there is a basic relation between Dpp and Dxx (see, e.g., Strong et al. 2007). Thornbury & Drury (2014) give a useful and clear derivation of the reacceleration formula and also clarify its relation to the original Fermi second-order mechanism. This process has been frequently included in models because it explains the momentum dependence of B/C without an ad-hoc break in the momentum dependence of Dxx( p), and it is compatible with the Dxx( p)  p1/3 variation expected for Kolmogorov turbulence.
+208 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+However, the question remains as to the actual importance of this process in the ISM. In the models with large reacceleration, a significant amount of energy is injected into CRs from the ISM itself so that CR acceleration involves more than just the standard sources like supernova remnants. The source of this energy poses a problem and should be studied in more detail. As discussed in Section 7.2, reacceleration at the level often invoked seems incompatible with the low-frequency synchrotron spectrum, which is sensitive to the electron and positron spectra at a few GeV. Secondary antiprotons provide another test of reacceleration. Models that fit B/C underpredict antiprotons below a few GeV.
+By contrast, diffusion models without reacceleration have a problem reproducing the B/C spectrum without either a very large break in Dxx( p) (Strong & Moskalenko 1998), an additional velocity dependence in Dxx( p), or dissipation of MHD waves (Ptuskin et al. 2006). But the use of B/C to constrain models depends critically on the level of solar modulation adopted to convert the modelled B/C ratio (outside the heliopshere) to the observed one, because sub-GeV nuclei are strongly decelerated in the heliosphere. A lower level of modulation than the value 500 MV often adopted would ease the tension. Lave et al. (2013) use a modulation potential of 250 MV to compare models with and without reacceleration to the B/C data taken near the solar minimum.
+Convection also plays a role in the sub-GeV/nucleon range, because it gives an energyindependent escape time. An interpretation of Voyager 1 CR data as evidence for a Galactic wind, using a 1D transport model, has been put forward by Schlickeiser et al. (2014).
+3.0.3. Secondary production in cosmic-ray sources. In the past, secondary quantities like B/C and the positron and antiproton spectra have usually been assumed to be entirely produced in the ISM and, hence, related solely to interstellar propagation. As noted above, some secondaries must, however, be produced in the CR sources before primaries escape, and this produces an additional flux, which complicates the picture. Berezhko & Ksenofontov (2014) calculate antiproton and B productions in supernova remnants and compare them with PAMELA and AMS-02 data. Similarly, Mertsch & Sarkar (2014) compute secondary positron production in nearby remnants and relate this to secondary B and antiproton production, which can be tested with future data.
+3.1. Advances in Propagation Physics
+An important development has been to compute explicitly the trajectories of charged particles in the magnetized ISM, thus going beyond the analytical approximations of, e.g., the quasi-linear theory. This involves the Lorentz force and Maxwell's equations and can address issues like crossfield diffusion, momentum dependence, etc. This approach was pioneered by Giacalone & Jokipii (1994, 1999). The turbulent magnetic field is modelled as a superposition of modes with a powerlaw spectrum, using Alfve´n waves (i.e., time-dependence), in addition to the regular field. The trajectories are computed for large numbers of particles, and then statistical properties--diffusion tensors, etc.--are calculated. The diffusion coefficient perpendicular to the magnetic field is found to be much smaller than the parallel one. Casse et al. (2002) extended this approach to higher energies and a wide range of environments, including supernova remnants, superbubbles, and radio galaxies. Lazarian & Yan (2014) found that superdiffusion--faster than classic diffusion because of field-line divergence--can be important in CR source regions.
+3.1.1. Cosmic-ray penetration into molecular clouds. Fatuzzo et al. (2010) and Fatuzzo & Melia (2014) have performed numerical experiments using particle trajectories in various phases of the ISM with MHD turbulence. Their goal was to obtain scaling relations for the diffusion
+www.annualreviews.org · Cosmic Rays and the ISM 209
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+coefficient Dxx( p) in a variety of environments in the Galaxy and in CR sources. They have found significant deviations from the results of quasi-linear theory for strong turbulence. They have studied spatial diffusion into molecular clouds and the possibility of particle acceleration by diffusion in energy in these clouds, concluding that it is probably not very important.
+Observations have indicated that CRs with energies above 1 GeV have diffusion lengths exceeding typical cloud dimensions (Abdo et al. 2010b, Ackermann et al. 2011b), but various mechanisms can alter their flux inside the dense molecular phase. This is particularly true at energies well below 1 GeV that are invisible to  -ray observations but essential to gas ionization and chemistry.
+Exclusion processes include resonant scattering on magnetic irregularities generated by the CRs themselves (excited by their streaming) for wavelengths commensurate with their gyroradii ( milliparsecs). However, maintaining the Alfve´n waves against ion friction with the predominant neutrals in the clouds requires too large a power (Cesarsky & Volk 1978). Another depletion scenario is triggered by the increased ionization losses in dense gas, which leads to a net CR streaming flux inward (and electron flux outward), which in turn generates Alfve´n waves on the field lines connecting the cloud edges to the intercloud medium. These waves impede CR penetration at energies below 1 GeV and suppress their flux by several orders of magnitude at tens of MeV (Cesarsky & Volk 1978, Skilling & Strong 1976), but at GeV energies, Everett & Zweibel (2011) predict only a 7.5% decrease in CR pressure at a rather extreme transition between the warm, diffuse, ionized medium and a dense, cold atomic or molecular cloud.
+The overall magnetic structure of subparsec cores also leads to CR exclusion (magnetic mirroring) or concentration (magnetic focusing). The former dominates in a large variety of core configurations and it adds a depletion factor of 2 to 4 to the density of ionizing CRs (Padovani & Galli 2011). In collapsing prestellar cores, the ionization rate can fall well below 10-18 s-1 in the central condensation because of magnetic mirroring (Padovani et al. 2013).
+Conversely, CR trapping in the magnetic bottles created between dense cores may locally increase the  -ray emissivity per gas nucleon, q H, if the trapped particles substantially lose their energy before being replenished by diffusion. A three- to fivefold increase in  -ray emissivity has been predicted (Cesarsky & Volk 1978), but numerical simulations indicate that TeV particles effectively scatter off magnetic turbulence and that they smoothly diffuse throughout the complex uniform+turbulent field of a molecular cloud (Fatuzzo et al. 2010).
+For energies above 1 GeV, all these concentration/exclusion processes leave an energydependent signature that is not detected in the present  -ray data, thereby supporting the use of hadronic interactions between CRs and interstellar gas, and the subsequent  -ray emission, to trace all forms of gas in the ISM.
+3.2. Advances in Propagation Models
+Numerical models of CR propagation are an important tool to enable prediction of a wide range of observables to be compared with experiments. The original large project of this kind, GALPROP, is maintained as public software (see http://galprop.stanford.edu and http:// sourceforge.net/projects/galprop; for details of the developments, see http://www.mpe.mpg. de/aws/galprop_explanatory_supplement.pdf ), has many users, and has many publications based on it. Other projects with similar goals have been developed, in particular DRAGON (Evoli & Yan 2014, Gaggero et al. 2014 and references therein), which extends the CR propagation to anisotropic and spatially dependent diffusion and to diffusion properties related to the level of interstellar MHD turbulence. DRAGON is also publicly available (at http://www.dragonproject.org). Examples of DRAGON predictions for nuclei and leptons are shown in Figures 2 and 3.
+210 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+E3 J(E kin) [GeV m-2 s-1 sr-1] B/C
+
+a
+104 103
+
+KRA model PD model KOL model
+
+102
+
+101 p PAMELA09-10 p AMS-02 (preliminary data) He PAMELA06-08
+100 10-1 100 101 102 103 Ekin [GeV/nuc]
+
+b
+0.40
+
+0.35
+
+0.30
+
+0.25
+
+0.20
+
+0.15
+
+0.10
+
+AMS-02 (preliminary data)
+
+0.05
+
+PAMELA (preliminary data)
+
+0.00 10-1
+
+100
+
+101
+
+102
+
+Ekin [GeV/nuc]
+
+KRA model PD model KOL model
+103
+
+Figure 3
+(a) Proton and helium spectra from AMS-02 and PAMELA compared with propagation models that fit boron/carbon (B/C). This shows how the primary injection spectrum combined with propagation can be modelled. (b) Spectral evolution of the B/C ratio from AMS-02 and PAMELA compared with 3D propagation models, with various momentum dependences of the diffusion coefficient. This shows how such models can be used to interpret the data, in this case with a 3D treatment of diffusion, and spiral structure in the source distribution. Solar modulation, important below a few GeV, is included in the predictions. Abbreviations: KOL, Kolmogorov turbulence; KRA, Kraichnan turbulence; PD, pure diffusion without reacceleration. Adapted with permission from Gaggero et al. (2014). Copyright by the American Physical Society.
+
+USINE (Putze et al. 2011, and references therein) is a semianalytical CR-propagation package, which has the advantage of speed for model parameter explorations and which has served many recent investigations.
+These numerical packages have limitations in terms of both accuracy and speed and, hence, the spatial resolution achievable. Their use has often been restricted to 2D models with cylindrical symmetry. The new PICARD code (Kissmann 2014; Werner et al. 2013, 2015) is fully 3D in concept and has state-of-the art numerical techniques. It can handle models with spiral structure at good (e.g., 10-pc) resolution with reasonable computer resources.
+In the future, more detailed physical content is needed in these models, including Galactic winds, treatment of the boundary conditions, and the connection to the extragalactic medium. Convection in the form of Galactic winds is supported by recent X-ray observations (Everett et al. 2012), so it will be important to include their effect. A Galactic wind driven by CR streaming was studied by Uhlig et al. (2012).
+GALPROP and similar programs are still basically phenomenological; i.e., they use diffusion and convection as parameterized processes but do not treat these at the physical level. They also treat CRs as test particles and do not include their dynamical effects on the ISM. A different approach, in which the influence of CRs on the Galaxy is treated as a CR relativistic fluid in an MHD treatment, has been used to study a CR-driven dynamo generating the Galactic magnetic field (Hanasz et al. 2009, 2012b; Wo´ ltan´ ski et al. 2013). This uses the PIERNICK program (Hanasz et al. 2010, 2012a). It can be extended in the future to include the energy spectrum of CRs, instead of a single fluid, to enable comparisons with the various observational diagnostics as for the other approaches. On smaller scales (100 pc), Girichidis et al. (2014) have studied the dynamical impact
+
+www.annualreviews.org · Cosmic Rays and the ISM 211
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+of CRs escaping from a supernova remnant on the surrounding ISM using the MHD code FLASH; the propagation is anisotropic, and the surrounding gas is accelerated.
+The study of CR secondaries, so important for propagation studies, is still limited by the accuracy of nuclear cross sections. An initiative to improve them is described by Moskalenko (2011). A new treatment of the complicated processes involving the light (Z  2) nuclei is given by Coste et al. (2012), including, for example, deuterium production by p-p fusion reactions. Antiproton production physics also requires improvements to take advantage of current and future data (Kappl & Winkler 2014). Hadronic  -ray and lepton production poses a challenge to our knowledge of the basic physics as well (Dermer et al. 2013a).
+4. COSMIC-RAY WANDERERS IN THE MILKY WAY
+Constraints on the propagation history of CR nuclei in and around the Galaxy are registered locally in their composition and remotely in their interactions with interstellar gas, and therefore in variations of the  -ray emissivity rate per gas nucleon, q H. Abundance ratios between CR primaries and/or secondaries suggest that 10-GeV/nucleon CRs spend most of their 108-year residence time diffusing away from the thin Galactic disc, which they occasionally, but repeatedly, cross. By the end of their journey, they have traversed a gas column density N H  3 × 1024 cm-2, which largely exceeds the disc-through integrals of (0.1 - 1.4) × 1021 cm-2 characterizing the ISM to a radius of 20 kpc (Kalberla & Dedes 2008, Pineda et al. 2013). These abundance ratios set the magnitude and momentum dependence of the diffusion coefficient, yet one should recall several caveats:
+The observational degeneracy between the momentum dependence of Dxx( p) and the particle spectra emerging from sources (Putze et al. 2011, Coste et al. 2012). This degeneracy is somewhat alleviated by the observation of secondary-to-primary ratios. The possibly strong environmental effects on the diffusion properties via the level of interstellar MHD turbulence and, in particular, the level of fast magnetosonic modes that efficiently scatter CRs (Yan & Lazarian 2008). They imply different diffusions through the Galactic disc and halo (Evoli & Yan 2014) and, hence, also in the different ISM phases. The local character of the CR sample reaching the Earth, with more than half of the light/heavy nuclei produced within 2/1 kpc (Taillet & Maurin 2003). The specificity of the local ISM with its large cavities open to the halo (Galeazzi et al. 2014, Lallement et al. 2014) and surrounded by the Gould Belt clouds that have formed stars at an enhanced rate over the past 60 Myr (Grenier 2000, Perrot & Grenier 2003). CR sources from the Gould Belt can induce significant fluctuations in the CR abundance ratios near the Sun (e.g., by 50% in B/C for durations <0.5 Myr; Bu¨ sching et al. 2005). The hollow chimney can severely affect the relative abundance of heavy nuclei ( A  50; Combet et al. 2005). With the opposite effects of a lower spallation rate in the chimney and enhanced CR source production in the expanding Gould Belt together with potentially different diffusions in and out of the chimney, the net effect on abundance ratios is unclear. It definitely requires further modelling to improve the Galaxy-wide propagation models.
+In this context, it is worth comparing the CR spectrum inferred from  -ray observations from various locations around the Sun and to further distances in the Local and Perseus spiral arms, where the gas mass and kinematical separation along sightlines are best constrained.
+It is important to probe the CR spectrum in the HI phase, rather than in the total gas, because of the more robust NH determination in the HI than in molecular gas and because HI dominates the surface mass density of the gas at the solar circle and beyond (Pineda et al. 2013). In the diffuse
+212 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+HI, where corrections for self-absorption of the 21-cm lines are small, the  -ray emissivity q H has been verified to scale linearly with NHI across the (0.1-2) × 1021 cm-2 range (Abdo et al.
+2009). In more massive clouds, q H values are subject to 10-40% uncertainties because of the HI
+optical depth.
+
+4.1. Cosmic Rays in the Local Interstellar Medium
+Analyses of the Fermi-LAT  -ray data have revealed a fairly uniform distribution of q H emissivities in the Gould Belt and in the Local Arm (Abdo et al. 2009, 2010b; Ackermann et al. 2011b, 2012b,d,e; Casandjian 2012). The emissivity spectra displayed in Figure 4 show less than 30% variations in amplitude and no spectral change across the  -ray band, which samples CR energies of 0.5-103 GeV. The variations are commensurate with the uncertainties in NHI and in the Fermi-LAT exposure (Ackermann et al. 2012a).
+The uniformity is remarkable given the large span in mass of the sampled clouds, from 103 to 8 × 106 M , and given their notable differences in star-formation activity, from the quiescent
+
+8
+
+8.5
+
+-23.5 a
+
+log(E) (eV)
+
+9
+
+9.5 10 10.5 11 8
+
+8.5
+
+b
+
+log(E) (eV) 9 9.5 10 10.5 11
+-23.5
+
+log (E2 qH) (MeV s-1 sr-1) log (E2 qH) (MeV s-1 sr-1)
+
+log (E2 qH) (MeV s-1 sr-1)
+
+qH/qH MH/ MH nCR/nCR
+
+
+
+-24 -24.5
+-25
+
+Local Mid-lat Cep-Pol RCrA Ori Cha IVA
+
+3.5 c
+3
+
+2.5
+
+2
+
+1.5
+
+1
+
+0.5
+
+00 5 10 15 Galactocentric radius (kpc)
+
+-24
+
+Local Cygnus 2Q Local Arm 3Q Local Arm Inter arm
+
+-24.5 -25
+
+d -23.5
+
+Local 3Q outer arm 2Q outer arm 3Q Per arm 2Q Per arm 1Q Per arm
+
+-24 -24.5 -25
+
+8 8.5 9 9.5 10 10.5 11 log(E) (eV)
+
+
+
+
+
+Figure 4
+(a,b,d )  -Ray emissivity spectra per interstellar H atom, q H, measured with Fermi-LAT in the atomic gas of nearby clouds and in different sectors along the Local and Perseus Arms as well as between these spiral arms (Abdo et al. 2009, 2010b; Ackermann et al. 2011b, 2012d,b,e; Planck & Fermi Collab. et al. 2015). The errors are statistical, and the inserts illustrate the range of potential uncertainties owing to HI optical depth corrections and Fermi-LAT exposure. The average spectrum found in the local ISM (in black), at latitudes 10  |b|  70, is common to the three spectral plots (Casandjian et al. 2013). It includes systematic uncertainties. (c) Radial distribution across the Milky Way of different quantities, relative to their value near the Sun; in colors, cloud emissivity q H integrals above 400 MeV as proxies for the cosmic-ray (CR) densities (the errors include uncertainties in the LAT exposure and a 15% uncertainty in the derivation of NHI column densities); in black, the mass surface density of the total gas (Pineda et al. 2013); from light to dark blue, CR densities modelled with GALPROP for halo heights of 10, 4, and 2 kpc, respectively, and the input CR source distribution following that of pulsars (model C from Lorimer et al. 2006).
+
+www.annualreviews.org · Cosmic Rays and the ISM 213
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Cepheus and Polaris clouds to the starburst region of Cygnus. The same emissivity is also found in an intermediate-velocity cloud (Figure 4, IVA), which appears to be sheared in space and in velocity, at a possible altitude of 60 pc above the Galactic plane (Planck & Fermi Collab. et al. 2015). Consistent values are found in three independent sectors along a 3-kpc-long segment of the Local Arm. They compare well with the average obtained locally in thinner HI gas at medium latitudes.
+The observation of a uniform q H emissivity in the Solar Neighborhood provides a reference for the local interstellar spectrum (LIS) of CRs well outside the heliosphere (Casandjian 2012, Dermer et al. 2013b, Casandjian et al. 2013). Figure 1 shows a preliminary proton spectrum inferred from the local q H measurement. Uncertainties in the hadronic production cross sections still limit its precision to within 30%, but the data provide clear experimental evidence for solar modulation below tens of GeV and for good consistency between the CR spectra in and out of the Solar System at high energy.
+There are preliminary indications of a break in the  -ray inferred LIS below a few GeV in momentum. It is compatible with propagation effects and supported by the data taken by Voyager 1 near the heliopause. The Voyager data in fact suggest a pronounced turnover in the momentum spectrum near 1 GeV, i.e., a rather flat particle differential spectrum for kinetic energies below 100 MeV (see Figure 1). On the one hand, the CRs detected by Voyager 1 may still be decelerated by solar modulation, and the true LIS may be above these data points; the question is still open (see the discussion in Stone et al. 2013). On the other hand, the  -ray LIS extraction at low momentum is hampered by the uncertain subtraction of electron bremsstrahlung radiation in q H at low  -ray energies, and the break could be more pronounced. Voyager 1 has indeed detected a larger electron flux locally than that used to derive the broken power law shown in Figure 1. Below the break, models predict a falloff due to ionization losses that cannot be probed in  rays, but the value of the break momentum itself bears information on adiabatic losses from a local Galactic wind and on the inhomogeneity of the CR source distribution in the solar vicinity (Schlickeiser et al. 2014).
+The Voyager 1 data represent either the actual sub-GeV LIS or a lower limit to it. Conversely, the  -inferred LIS yields an upper limit to the sub-GeV LIS. Together they bracket the span of low-energy CRs more tightly than the test cases studied to estimate the CR ionization rate,  H CR, of H atoms in the local ISM (Padovani et al. 2009, Rimmer et al. 2012). We have used the new data of Figure 1 to calculate  H CR and the local CR energy density. To do so, we have extrapolated the Voyager 1 data down to 1 MeV, and we have used the ionization cross section of Spitzer & Tomasko (1968) and solar modulation potentials of 450-500 MV for PAMELA (Adriani et al. 2011) and 400 MV for AMS-02. The latter was set to ensure compatibility of the demodulated spectrum with the  -inferred LIS. Accounting separately for the CR protons and He spectra, and adding the contribution from heavier CR nuclei according to their fractional abundance and charge and/or mass (Padovani et al. 2009), we obtain  H CR  1.4 × 10-17 s-1 and a CR energy density of 1.9 eV cm-3. Using the same proton spectrum at high energy but the extrapolation of the  -inferred LIS down to 1 MeV, and scaling for the contribution of heavier nuclei, we find an upper limit of 2.8×10-14 s-1 for  H CR. This corresponds to a CR energy density so much larger than those of the other interstellar components (gas, magnetic field, starlight) that its consequences should be investigated.
+A low sub-GeV CR spectrum, close to the Voyager 1 data, implies a rather mild decline in ionization rate with increasing depth inside the nearby clouds (Padovani et al. 2009, Rimmer et al. 2012). It also implies an ionization rate that is interestingly an order of magnitude below those derived from most of the Galactic measurements of molecular ions in the diffuse ISM, even though the Sun lies in a diffuse region in which low-energy CRs should not be severely depleted [see Indriolo (2012) for the CR H2 distribution deduced from H3+ absorption lines, with  H CR  0.65CR H2 ]. Locally, the  H CR upper limits of (2-12) × 10-17 s-1 obtained toward 100-200-pc
+214 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+distant stars in Sco-Oph compare well with the estimate based on Voyager data. But toward the more distant Perseus OB2 cluster (300 pc), the parallel observation of ten-times-larger ionization rates and of an almost uniform flux of super-GeV CRs over this zone (as seen in  rays) betrays strong environmental effects in the spatial distribution of the lowest-energy CRs.
+4.2. Cosmic Rays in the Outer Galaxy
+The surface density of potential CR sources is expected to rapidly decline beyond the solar circle, along with the star-formation rate (SFR; Urquhart et al. 2014). We therefore expect a downward gradient in CR density as we move out in Galactic radius. However, the Fermi-LAT data displayed in Figure 4 show that the  -ray emissivity per gas nucleon, q H, decreases by only 20% to 40% from the Local to the outer spiral arms, with no significant spectral change. These values readily confirm the long-standing CR gradient problem, first raised by Cosmic-B observations (Strong et al. 1988) and later with CGRO-EGRET (Digel et al. 2001): the shallow q H gradient in the outer Galaxy is barely consistent with the largest halo size of 10 kpc allowed by the 10Be/9Be data for a uniform diffusion coefficient and for a CR source distribution peaking in the inner Galaxy as expected for supernova remnants or pulsars (see Figure 4).
+Furthermore, the contrast in q H between the Local or Perseus Arms and their interregion is less than 10-20% despite different interstellar and stellar environments. The correspondence in Figure 4 between the q H profile and that of the surface density of the gas mass wrongly suggests a linear coupling between the CR and ISM densities because the azimuthal averaging does not respect the spiral structure of the Galaxy. Such a coupling has been modelled (Hunter et al. 1997) and is rejected by the data; it yields, for instance, a twice larger emissivity than actually measured in the 14-16-kpc range.
+In order to mitigate the gradient problem, Evoli et al. (2012) have proposed a strong, almost linear, coupling between the CR source surface density and the diffusion coefficient perpendicular to the regular magnetic field. It is physically motivated by the enhanced turbulence level induced by stellar and supernova activity, which scatters CRs off the spiral arms and smooths out the radial distribution. It would be challenging, but instructive, to test this scenario at closer range against the lack of contrast in q H (in magnitude and spectrum) in and out of the well-known Local and Perseus Arms.
+An alternative or complementary solution to the gradient problem is to look for missing gas in the inventory of the outer Galaxy because the  rays trace the product of the CR and gas densities. Cold HI in the cold neutral medium (CNM) is more prone to self-absorption than diffuse warm HI. From 8.5 kpc to 10 kpc in radius, the twofold drop in CNM fraction cannot flatten the q H profile. Beyond 10 kpc, the 15-20% CNM fraction is rather uniform (Dickey et al. 2009, Pineda et al. 2013), and it should not strongly bias the measurement of an outward q H gradient when averaging data over large regions.
+In contrast, large quantities of gas escape radio surveys at the dark-neutral-medium (DNM) interface between the HI-bright and CO-bright media (see Section 7.1). The abundance of missing gas exceeds that of the CO-bright H2 beyond the solar circle (Planck Collab. et al. 2011a, Pineda et al. 2013). The  -ray analyses include a joint  -ray+dust map to account for this missing DNM gas, but only as integrals along sightlines and with a downward bias since the dust-to-gas ratio is known to decrease radially outward with metallicity (Sandstrom et al. 2013). Future observations of other DNM tracers, such as OH, CH, or C+, can constrain the DNM mass to large radii, but they require much higher instrumental sensitivities than are currently available. Stellar extinction and reddening from future deep surveys provide an alternative. It is indeed important to accurately
+www.annualreviews.org · Cosmic Rays and the ISM 215
+
+a +90
+
+b +90
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
++180 -180
+
+-90
+
+-90
+
+Figure 5
+Sky maps of (a) the  -ray intensity recorded by Fermi-LAT above 1 GeV in six years of observations (http://fermi.gsfc.nasa.gov/ssc/) and of (b) the dust optical depth measured at 353 GHz from the Planck and IRAS surveys (Planck Collab. et al. 2014b). Both maps broadly trace the same total gas column densities, weighted by the ambient cosmic-ray density in  rays and by the ambient dust-to-gas mass ratio and starlight heating rate in the dust map. They exhibit striking similarities in details of the gas features. The  -ray map also contains numerous point sources and faint non-gas-related diffuse components.
+
+quantify the gas mass in the outer arms to assess whether the measured q H emissivities truly reflect the large CR fluxes needed to ionize and heat the outer ISM.
+
+4.3. Cosmic Rays in the Inner Galaxy
+Fermi-LAT  -ray maps cover the full sky with angular resolution varying from degrees to several arcminutes with increasing photon energy. They allow critical tests of global Galactic models of CR emission. Figure 5 shows a full-sky map obtained for energies above 1 GeV, which readily displays how CR emission dominates over other sources of  rays in the Galactic disc. It spectacularly illustrates the close synergy between the total ISM traced in  rays and in dust, thereby demonstrating the absence of large variations in CR density across the Galaxy (for GeV-TeV nuclei), even toward the active inner regions.
+The first notable interstellar result from Fermi-LAT was the finding that the excess observed with CGRO-EGRET in the GeV range above the expected interstellar emission was evidently an instrumental effect. Hence this aspect covered in earlier reviews (e.g., Strong et al. 2007) must be revised.
+A representative  -ray spectrum of the inner Galaxy is displayed from 20 keV to 100 GeV in Figure 6 (see also Ackermann et al. 2012g, their figure 15), together with its decomposition into continuum and line emission components, positronium included (Bouchet et al. 2011, Strong 2011). The Fermi-LAT data show reasonable agreement with the model predictions, which are chosen to be consistent with locally observed CR spectra. The most detailed analysis to date (Ackermann et al. 2012g) finds a global agreement between GALPROP models and the FermiLAT data, for both spectra in various sky regions and for broad longitude and latitude distributions. On smaller scales, however, there are numerous regions at variance with the average particle distributions predicted by a Galaxy-wide model such as GALPROP. There is also still some sign of a high-energy excess, but this awaits reanalysis with improved data reductions and increased statistics from the extended mission. Inverse Compton emission notably contributes at both ends of the Fermi-LAT range, which can be jointly used in the future to explore the soft radiation fields in the inner Galaxy. The emission in the 1-30-MeV range is above the predictions, perhaps due
+216 Grenier · Black · Strong
+
+galdef ID 54_z04LMS
+1 0.00 < l < 30.00 , 330.00 < l < 360.00 -10.00 < b < 0.00 , 0.00 < b < 10.00
+10-1
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+E2 × intensity (MeV cm-2 s-1 sr-1)
+
+10-2
+
+10-3
+
+10-410-2 10-1 1
+
+10
+
+102
+
+103
+
+104
+
+105
+
+Energy, MeV
+
+Figure 6
+
+ -Ray spectrum of the inner Galaxy from INTEGRAL-SPI (magenta and blue bars), CGRO-COMPTEL ( green crosses), and Fermi-LAT (black bars) compared with the radiation output from cosmic rays in the ISM (pion-decay in solid red, inverse Compton in green, and bremsstrahlung in cyan). Other contributors are the isotropic background for Fermi-LAT (black power law) and detected sources (lower red dotted curve). The total model is given with (upper red dotted curve) and without (blue) sources. Adapted with permission from Strong (2011), Proceedings 12th ICATPP Conference, Cosmic Rays for Particle and Astroparticle Physics, S. Giani, C. Leroy, P.G. Rancoita, eds., copyright c 2011, World Scientific.
+
+to a population of MeV  -ray sources. Future data from Fermi-LAT should probe at least the upper end of this important and unexplored range. Likewise, measurements with Fermi-LAT of the q H emissivity profile toward the inner spiral arms shall be obtained soon to test the relative importance of diffusion and advection in CR transport in the turbulent inner regions and to test the presence of a Galactic wind in the central zone (Breitschwerdt et al. 2002, Zweibel 2013).
+4.3.1. Populations of unresolved  -ray sources. Extended supernova remnants may contribute to the apparently diffuse  -ray emission in the Galactic disc and to the excess at GeV energies (Vo¨ lk & Berezhko 2013). They are often difficult to separate from their clumpy interstellar environment, even with detectable fluxes, because of the limited angular resolution of Fermi-LAT. Populations of faint, unresolved sources, below the detection threshold, may also contaminate the interstellar emission (Strong 2007, Ackermann et al. 2013a). It involves mainly young and recycled millisecond pulsars. Their contribution amounts to several percent of the total diffuse emission above 10 GeV, and this fraction is expected to increase with poorer angular resolution at lower energies. This contamination has been largely ignored in analyses up to now. It does not directly impact the measure of the ISM  -ray emissivity, q H, which is based on a spatial correlation between the  -ray signal and gas column densities, as long as the gas and contaminating source distributions do not strongly correlate in space. Middle-aged and old pulsars, which dominate the  -ray pulsar population,
+www.annualreviews.org · Cosmic Rays and the ISM 217
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+are fortunately only loosely connected to the gas structures. This condition is likely to fail in the directions tangent to the spiral arms and in the crowded regions around the Galactic Center.
+4.3.2. The Fermi Bubbles and Galactic Center. The most spectacular discovery in the area of extended emission is the so-called Fermi Bubbles (Su et al. 2010); this is arguably the most unexpected discovery of the Fermi mission so far. A detailed spatial and spectral analysis is presented by Ackermann et al. (2014). The Bubbles are two 50-diameter, oval regions of emission with sharp edges, roughly symmetrical with respect to the Galactic Center. They extend over several kiloparsecs toward the north and south Galactic poles, assuming a large distance, as seems probable given their apparent relation to the Galactic Center and their axis being perpendicular to the Galactic plane (the local ISM is dominated by the inclined geometry of the Gould Belt; Perrot & Grenier 2003, Lallement et al. 2014). They have a much harder spectrum than the rest of the interstellar emission; hence they appear clearly in sky maps at energies above 10 GeV even without complex foreground modelling.
+They partially overlap two giant radio lobes emanating from the Galactic bulge and permeated by large magnetic fields, up to 1.5 nT (Carretti et al. 2013). These lobes transport 1048 J into the halo and are possibly driven by the Galactic wind evidenced through multiwavelength observations of the central 200-pc zone. The Fermi Bubbles are certainly filled with CRs with a radiative power of 2 × 1030 W in  rays, but the hadronic or leptonic nature of the dominant particles is currently unknown.
+Hence the Bubbles have relevance to CR origin and propagation, but it will be a long time before their actual role becomes clear. CR pressure is necessary to launch a massive wind in the inner Galaxy (Zweibel 2013). The central supernova rate can sustain the large CR population required to power such a wind and to explain the nonthermal emissions observed in the region (Crocker et al. 2011) but with difficulties (Yoast-Hull et al. 2014a). Observations include synchrotron aging of CR electrons with increasing distance, from the Galactic plane (Law 2010) and diffuse TeV emission detected by HESS and attributed to pion decay, possibly from a transient source of CR protons near the Galactic Center (Aharonian et al. 2006). The data suggest that most CRs are advected away into the halo (Crocker et al. 2011). However, it is unclear whether the Fermi Bubbles record the past starburst and wind activity of the central nucleus or jet activity from its black hole. Among the many models are Yang et al.'s (2013) detailed simulations of a leptonic origin from recent AGN jet activity; Lacki (2014) proposed CR acceleration at starburst wind termination shocks, whereas a hadronic model with 100-Myr confinement has been suggested by Crocker et al. (2014). Past AGN activity has also been invoked (Barkov & Bosch-Ramon 2014). The presence of a powerful CR-driven wind would help explain the relatively small gradient observed in interstellar  rays toward the central zones (Breitschwerdt et al. 2002). Ultraviolet absorption spectroscopy has been used to trace the kinematics of gas associated with the Fermi Bubbles, which can be interpreted as a biconical outflow at velocities exceeding 900 km s-1 (Fox et al. 2014). As for the AGN connection, we remark that the Fermi Bubbles bear a close resemblance to the lobes of the nearby Cen A radio galaxy, which have also been detected by Fermi-LAT (Abdo et al. 2010g).
+The Galactic Center itself shows two bright coincident  -ray sources, above 1 GeV with Fermi-LAT and up to 40 TeV with HESS (Chernyakova et al. 2011), with matching but complex spectra and whose origin is unclear at present. Possibilities include large numbers of pulsars (millisecond or normal; Yuan & Zhang 2014), CR proton sources (Carlson & Profumo 2014), lepton sources, and dark-matter models. The coincidence with the extended 511-keV positron annihilation line source observed by International Gamma-Ray Astrophysics Laboratory (INTEGRAL) is intriguing; perhaps the sources are related in some way.
+218 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+Galactic luminosity (MeV2 s-1 MeV-1)
+
+galdef ID 54_z04LMS
+1046
+1045
+× 10-4
+1044
+1043
+
+-15
+
+-10
+
+-5
+
+0
+
+5
+
+log (energy, MeV)
+
+Figure 7
+
+Multiwavelength luminosity spectrum of the Milky Way Galaxy, from radio to  rays, and including cosmic rays (CRs): synchrotron emission (left black solid line); downscaled far-IR and optical radiation (magenta solid line); total  rays (right black solid line) with their decomposition into pion decay (red solid line), inverse Compton ( green solid line), and bremsstrahlung (cyan solid line) radiation. CR powers for protons (red dotted line), helium (blue dotted line), primary electrons ( green dotted line), secondary electrons (cyan dotted line), and secondary positrons (magenta dotted line). Adapted with permission from the Astrophysical Journal Letters, Strong et al. (2010).
+
+4.4. Global Properties of the High-Energy Galaxy
+Figure 7 shows the luminosity spectrum of the Galaxy from radio to  rays, as well as proton and electron luminosities (Strong et al. 2010). This is what an extraterrestrial, or rather an extragalactic colleague (e.g., in M31), would observe looking at our Galaxy. It illustrates that high-energy radiation is only a small fraction of the optical and IR emission. It shows that hadronic and leptonic processes have comparable power and that the leptonic emission is roughly equal in the synchrotron and  -ray bands (inverse Compton emission). The Galaxy is a fair lepton calorimeter, with about half the energy escaping to intergalactic space, which is of interest in the context of the radio-far-IR correlation observed in galaxies (see Section 8.4). In contrast, CR protons escape with only approximately 10% loss by hadronic interactions with gas. The total CR-related luminosity of the Galaxy is approximately 1041 erg s-1 (depending on the model adopted), which is consistent with the supernova rate, the energy released in their explosions, and a few percent acceleration efficiency.
+
+5. COSMIC-RAY/INTERSTELLAR MEDIUM INTERACTION PROCESSES CRs interact with interstellar matter in two distinct ways: through collective behavior and by microscopic atomic, molecular, and nuclear processes. Collective interactions include those with
+www.annualreviews.org · Cosmic Rays and the ISM 219
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+magnetic fields and waves and naturally yield to a fluid description at energies for which the meanfree-path is very small compared with characteristic scales (Zweibel 2013). At the other extreme, CR particles collide one by one with interstellar atoms, molecules, and dust particles, and with the radiation field. To appreciate the effects of CRs on interstellar matter and to understand the indirect tracers of them, it is necessary to consider many processes over an enormous range of energy.
+5.1. Atomic and Molecular Processes
+Many aspects of interstellar matter require a microscopic, kinetic description, because the physical and chemical states of the gas and dust are far from thermodynamic equilibrium. Details can be found in recent textbooks by, for example, Draine (2011) and Tielens (2005). Briefly, the most important coupling between CRs and interstellar matter is through ionization processes. Most of the Galactic interstellar mass is contained in the neutral phase, and most of that is hydrogen, either in atomic (H) or molecular (H2) form. Columns of neutral hydrogen, N H  1018 to 1021 cm-2, are sufficient to make the neutral interstellar matter opaque to ionizing radiation from the hottest, most luminous thermal sources. To first order, hydrogen-ionizing photons are confined to the immediate surroundings of their stellar sources in ionization-bounded, photoionized nebulae. Outside the nebulae, UV starlight with photon energies h < 13.6 eV can still penetrate the gas, ionizing trace elements having lower ionization potentials, like C, S, Si, Mg, Fe, etc., until the column of associated dust particles grows thick enough to shield the gas completely. This radiation can also photodissociate molecules, although H2 and CO partly shield themselves even at small depths at which dust particles are ineffective. Thus the fractional ionization of the neutral ISM is thought to vary from x(e) = n(e)/nH  10-4, where C remains mostly ionized, decreasing with an increasing shielding column to x(e) < 10-7. A neutral region in which thermal UV photons dominate the ionization, chemistry, and thermal state of the gas is called a photon-dominated region (PDR), which includes by definition the so-called diffuse and translucent molecular clouds (Snow & McCall 2006).
+Beyond the PDR, into the opaque zone of dark clouds and giant molecular clouds, it is thought that CRs control much of the ionization, chemistry, and thermal balance. The neutral interstellar matter always retains some degree of ionization wherever CRs penetrate or wherever long-lived radioactive nuclei (notably 40K) persist. If the residual ionization remains high enough, then the magnetic field can remain coupled to the gas over timescales long compared with the dynamical ages of clouds and filaments and thus remain important in the collapse to form stars; however, if the ionization becomes low enough, then the field can diffuse out of a cloud, allowing it to collapse faster (Padovani et al. 2013). The thermal state of the neutral gas is directly linked to ionization mechanisms, through which the liberated electrons transform atomic binding energy to kinetic energy in the gas. In a PDR, photoelectric ejection from dust particles and very large molecules (e.g., polycyclic aromatic hydrocarbons) is an important heating input.
+CR nuclei and electrons ionize atoms and molecules in collisions. In the case of CR protons on hydrogen, the most important primary processes are:
+CR + H  H+ + e- + CR and CR + H2  H2+ + e- + CR,
+in which the CR loses a negligible fraction of its energy, and the liberated electron carries off a typical kinetic energy of 35 eV, almost independent of the CR energy. The CR barely feels this loss of energy and continues on its path. The electron is sufficiently energetic to ionize at least one additional atom or molecule, yielding further secondary electrons. The electron also engages in (a) inelastic collisions that excite bound states of hydrogen and He and (b) elastic collisions with
+220 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+atoms, molecules, and thermal electrons. The competition among these processes depends upon the fractional ionization, molecular fraction, and He abundance, with different probabilities at each energy (Dalgarno et al. 1999) as the initial electron cascades from 35 eV down to the mean thermal energy of the gas, kT  8.6(T /100 K) meV. That is, from the point of view of an ambient atom at a temperature of 100 K, even a 35-eV electron is superthermal by a factor >103. The fraction of the initial electron energy that goes into heating is nearly 100% in fully ionized gas but closer to 20% in neutral gas in which secondary ionization and bound-state excitations prevail. Thus the heating rate by CRs in neutral gas is of the order of 10-27( H CR/10-16) ergs s-1 per hydrogen, in which  H CR is the effective ionization rate [s-1 per H]. A crucial point is that CRs can penetrate large columns of interstellar matter and ionize some hydrogen and He in places that are well shielded from other sources of ionization like UV and X-ray photons. The ionization process provides enough heating to raise the gas temperature (lowest observed values near 8 K) above that of the cosmic microwave background (2.7 K). CR ionization also yields enough ions to drive observable chemical activity through ion-neutral reactions that proceed rapidly even at temperatures below 10 K.
+CR He and heavier nuclei also ionize interstellar atoms and molecules but at proportionally lower rates owing to their lower abundances in the CR spectrum. The processes, cross sections, and rates of all the important CR ionizing processes have been reviewed recently by Padovani et al. (2009, 2013).
+5.2. Cosmic Ray-Induced Ultraviolet Radiation
+An electric discharge in H2 gas produces a characteristic UV emission spectrum at wavelengths  < 200 nm. Similarly, the secondary electrons from CR ionization of interstellar hydrogen can generate an internal source of UV radiation deep inside molecular clouds into which starlight does not penetrate. The photochemical consequences of this UV radiation were first analyzed by Prasad & Tarafdar (1983). The UV spectrum of H2 excited by electron impact was modeled in more detail, including the scattering effects of interstellar dust (Sternberg et al. 1987, Gredel et al. 1989, Cecchi-Pestellini & Aiello 1992), and approximate expressions for the resulting photorates in the ISM have been incorporated into widely used chemical reaction networks [e.g., the UMIST database for astrochemistry (http://www.udfa.net; McElroy et al. 2013) and the Kinetic Database for Astrochemistry (KIDA, http://kida.obs.u-bordeaux1.fr; Wakelam et al. 2012). There is still a need for more general descriptions of the spectra of CR-induced photons that are based upon the basic cross sections (Abgrall et al. 1997, Jonin et al. 2000, Aguilar et al. 2008), especially now that the electron-impact UV emission spectrum of H2 can be identified directly in some circumstellar disks (Ingleby et al. 2009).
+Most interstellar molecules are photodissociated mainly by continuous absorption processes, in which case the dissociation rates caused by CR-induced UV radiation scale linearly with the CR ionization rate of H2, CR H2 , and depend on an average probability that the photons are scattered or absorbed by dust particles. There are three molecules, H2, CO, and N2, that are photodissociated at wavelengths  > 91.2 nm only via narrow line absorptions rather than continuous processes. Thus the CR-induced photorates for CO and N2 are extremely sensitive to accidental coincidences in line wavelengths: Extensive laboratory data and detailed calculations are needed to determine the rates. For example, when CR H2 = 10-16 s-1, the CR-induced photodissociation rate of N2 is 10-15 s-1, whereas the rate for the 14N15N isotopologue is quite different (Heays et al. 2014). This is one of the processes that can enrich molecular nitrogen in the heavier isotope in space. Such isotope fractionation can propagate through chemical networks to other--more easily observable--molecules.
+www.annualreviews.org · Cosmic Rays and the ISM 221
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+5.3. Interaction with Solid Particles
+Interstellar dust particles make up approximately one percent by mass of the total interstellar matter. The particles responsible for extinction of starlight (with diameters on the order of 0.1 m) have refractory cores composed of amorphous carbon, silicates, and other materials. These particles present an average geometrical cross section of 10-21 cm2 per interstellar hydrogen. When the particles are cold, Tdust < 20 K, the abundant volatile species in the gas (C, N, O, and their molecular forms, H2O, NH3, CO, etc.) freeze out onto the solid surfaces. Chemical reactions occur in these icy mantles, and the chemical processing can be enhanced by exposure to electromagnetic radiation, thermal changes, and particle bombardment. CR protons of energy 1 MeV have a range in amorphous carbon of 2.8 × 10-3 g cm-2; therefore, all such CRs pass through a typical interstellar dust grain without losing significant energy. From the perspective of the dust particle, however, the amount of energy deposited in a CR event is substantial. The possible effects of CRs on interstellar dust and ice mantles have been investigated in laboratory experiments at low energies, 1 MeV/nucleon or less (e.g., Palumbo et al. 2008), and more recently at energies of the CRs that also ionize gaseous hydrogen in the ISM (Seperuelo Duarte et al. 2009, Dartois et al. 2013). However, it may be difficult to distinguish effects of 1-100-MeV nuclei from those of UV photons (Gerakines et al. 2001, Mun~ oz Caro et al. 2014). More important, the direct CR interactions with ice mantles tend to be less important than photodesorption and photoprocessing caused by the CR-induced UV radiation described in the preceding subsection (Shen et al. 2004). Particle bombardment is expected to reduce the porosity of water ice, for example, consistent with the IR absorption spectra of interstellar ices that indicate a general lack of highly porous solid water (Dartois et al. 2013).
+5.4. Spallation and Synthesis of Light Elements
+Abundances of the isotopes of the light elements, Li, Be, and B, are especially important manifestations of CR interactions with interstellar matter. Because these nuclei undergo fusion reactions at relatively low temperatures inside stars, they tend to be destroyed rather than formed in stellar nucleosynthesis. Thus their abundances in interstellar matter are partly controlled by spallation reactions in which Galactic CR protons and  particles on C, N, and O nuclei yield 6Li, 7Li, 9Be, 10B, and 11B in predictable amounts. There is competition from reverse spallation, in which C, N, and O nuclei in the CR spectrum react with ambient hydrogen and He and also from neutrino-induced spallation in type II supernovae (Woosley et al. 1990) and possibly type Ic ones (Nakamura et al. 2010). The isotopes 6Li, 9Be, and 10B are created mainly by CR spallation in the ISM. 7Li comes from spallation and from (, He) in supernovae, Big-Bang nucleosynthesis, stars on the asymptotic giant branch (AGB), and novae. 11B comes from spallation and from (, C) in supernovae, AGB stars, and novae. Thus the isotope ratios in Li and B are governed not only by spallation rates but also by the integrated history of stellar evolution, mass loss, and mixing in the Galaxy.
+In principle, the abundances of Li, Be, and B can be measured in both the interstellar gas and the Galactic CR spectrum (e.g., Adriani et al. 2014). With sufficiently accurate measurements of the light isotopes and of a progenitor nucleus (C or O, for example), it should be possible to determine the contributions of CR spallation, of local variations in CR fluxes, and of diffusion to the production rates. In detail there are complications (see Section 3).
+The 7Li/6Li abundance ratio can be measured directly in the ISM. For example, Knauth et al. (2000, 2003) found a ratio of 2 in several diffuse clouds, which is a value differing from that in the Solar System (12.3) and which signifies recent Li production from spallation. Observations of relatively low values of 7Li/6Li in interstellar matter near the supernova remnant IC 443 provide further evidence of recent Li production by CR spallation and suggest that neutrino-induced
+222 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+spallation in the supernova event plays a minor role in Li production (Taylor et al. 2012). Other measurements of the Li isotope ratio are taken as evidence of homogeneous mixing and rapid recycling of the interstellar gas (Kawanomoto et al. 2009).
+The abundance of B and the 10B/11B ratio in interstellar gas have been studied (Lambert et al. 1998, Howk et al. 2000, Ritchey et al. 2011). It is now possible to investigate abundances of the light elements and their isotopes in other galaxies. The Small Magellanic Cloud (SMC) has both lower abundances of interstellar C, N, and O (Korn et al. 2000, Salmon et al. 2012) and lower CR fluxes than the Milky Way (Abdo et al. 2010e). If forward spallation dominated B production, its production rate in the SMC should be approximately 5% of that of the Milky Way (Brooks et al. 2002). The interstellar Li abundance in the SMC (Howk et al. 2012) is consistent with expectations from Big Bang nucleosynthesis, thus placing constraints on the contributions of stellar nucleosynthesis and CR spallation in that low-metallicity system. B has now been detected in galaxies at high redshift (z = 2.0-2.6) via absorption spectroscopy of damped L systems toward quasi-stellar objects (Prochaska et al. 2003, Berg et al. 2013). Reverse spallation (interstellar H and He as targets) may dominate in a metal-poor ISM, an effect that would be expected to increase with redshift. Interstellar beryllium has so far evaded detection (Hebrard et al. 1997).
+6. COSMIC-RAY STIMULI ON THE INTERSTELLAR MEDIUM
+6.1. In the Vicinity of Cosmic-Ray Sources
+Gamma-ray emission at GeV (Fermi -LAT) and TeV (HESS, MAGIC, VERITAS) energies has been associated with 17 prominent supernova remnants with convincing, albeit not firm, observational evidence for in situ acceleration of CR nuclei in several instances. In parallel, acceleration by shock waves directly from the thermal gas has been explicitly demonstrated in the ab-initio simulations of MHD turbulence and ions by Spitkovsky (2008) for relativistic shocks (relevant to  -ray bursts and AGNs) and by Gargate´ & Spitkovsky (2012) and Caprioli & Spitkovsky (2014) for nonrelativistic shocks, relevant to supernova remnants. This seems to solve the injection problem for CR acceleration, since it does not require the prior presence of suprathermal particles. The acceleration efficiency is 10-20%, which is compatible with the energy requirements for a supernova remnant origin of CRs. The fraction of thermal material accelerated to the nonthermal phase is of order 10-3. The energy spectrum in the nonthermal region exhibits a -2 spectral index, as in the standard theory of strong shock acceleration.
+A few remnants among the  -ray emitting ones are known to overtake surrounding clouds, which can serve as calorimeters to estimate the total energy in escaping CRs. The example of W28 and the TeV source HESS J1801-233 is often quoted (Hanabata et al. 2014). The other TeV sources detected near W28, HESS J1800-240 A and B, correspond to more distant starforming regions embedded in giant molecular complexes at 3 kpc (Sato et al. 2014). The relative angular sizes of W28 and of these massive complexes, and the linear sizes of tens of parsecs of the latter, indicate that the supernova remnant lies too far in front of these complexes for them to be useful probes for CR diffusion. It is unclear how the slowing down of the shock wave in the dense cloud and the enhanced dissipation of Alfve´n waves due to the ion-neutral collisions in the dense gas actually impact the emerging CR and  -ray spectra (Ellison & Bykov 2011, Fang & Zhang 2013, Fang et al. 2013). It is also possible that pre-existing Galactic CRs are reaccelerated by the slow shock in the crushed cloud or that particles accelerated earlier in the history of the supernova remnant remain trapped in the interaction region and produce pion-decay radiation even if shock acceleration is not efficient (Uchiyama et al. 2010, Tang & Chevalier 2014). The potential detection of  rays from remnant-molecular cloud associations has stimulated much
+www.annualreviews.org · Cosmic Rays and the ISM 223
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+new work on the early propagation of CRs near their sources (Ptuskin et al. 2008, Telezhinsky et al. 2012, Malkov et al. 2013, Nava & Gabici 2013). Because of the gradient in CR density outside the supernova remnant, the particles excite Alfve´n waves, and their diffusion coefficient is both reduced below the standard ISM value and anisotropic along and across the ambient regular magnetic field. It is still unclear how far the enhanced CR cloud extends and how long it survives to be detectable, but theoretical progress is rapid.
+It is of interest to know how the CR spectrum extends in the crushed cloud below 100 MeV, where ionization and heating of interstellar matter is efficient. An increase in the CR ionization rate above the Galactic average may be observable through enhanced abundances of molecules that are especially sensitive to the ionization rate. Ionization rates enhanced by as much as a factor of 102 have been inferred in molecular gas near the  -ray-emitting supernova remnants W51C (Ceccarelli et al. 2011) and W28 (Vaupre´ et al. 2014), based mainly on observations of millimeter wave emission lines of the molecular ions HCO+ and DCO+. However, the abundance of the main isotopologue H12C16O+ cannot be determined from saturated line intensities without good knowledge of the distribution of temperature and density in the emitting gas nor can the DCO+/HCO+ abundance ratio be used as a reliable measure of the electron fraction unless the temperature-dependent D fractionation is well constrained. Hydrogen ions are more direct tracers of superthermal ionization. Indriolo et al. (2010) observed interstellar absorption of H3+ along six sightlines that pass through molecular material near the supernova remnant IC 443 and deduced H2 ionization rates CR H2  2 × 10-15 s-1 in two cases.
+Other probes to be investigated include H2+ that may be detectable at IR and radio wavelengths (Becker et al. 2011) in extreme cases in which the product of ionization rate and H2 density are integrated over path length,  = CR H2 n(H2)d  109 s-1 cm-2. The H2+ lines are excited directly by the ionization of H2, so that their fluxes are proportional to the integral above and are insensitive to conditions like density and temperature. When the CR exposure is as high as   109 s-1 cm-2, then the distortion-induced rotational transitions of H3+ in the far-IR (Pan & Oka 1986, Black 1998) may also become detectable.
+6.2. Interstellar Ion Chemistry Driven by Cosmic Rays
+Low-energy CRs, <100 MeV/nucleon, ionize H, H2, and He, which are otherwise well shielded from ionizing starlight in neutral interstellar gas (see Section 5.1). The ionization products, H+, H2+, and He+, react with other interstellar atoms and molecules and drive an active ion-neutral chemistry even at temperatures near absolute zero. The astrochemistry directly related to CR ionization has been reviewed recently by Indriolo & McCall (2013). In neutral regions with a high molecular fraction, f (H2) = 2n(H2)/[2n(H2) + n(H)]  1, almost every ionization event forming H2+ is followed by the rapid reaction H2+ + H2  H3+ + H. The interstellar H3+ molecular ion is observable by high-resolution absorption spectroscopy toward background stars at IR wavelengths, whereas the highly reactive H2+ has not yet been observed in space.
+Production of the hydrogen ions also initiates the ion chemistry of O, the third most abundant element in space. Aside from the accidentally near-resonant charge transfer with protons H+ + O H + O+, which is sensitive to temperature at T < 300 K, this ion-neutral chemistry remains rapid even at the lowest interstellar temperatures. The ion chemistry of O-bearing ions is thought to be well understood and supported by accurate reaction rate coefficients (Hollenbach et al. 2012). As illustrated in the reaction flow diagram (Figure 8), the charge of CR-produced H+ and H3+ is transferred readily to OH+, H2O+, and H3O+. The efficiency with which the O ion sequence proceeds all the way to the saturated ion H3O+ is limited mainly by the molecule fraction of the gas: If f (H2) 1, then the abundance of OH+ is favored. Only when f (H2)  1 does formation of the
+224 Grenier · Black · Strong
+
+Cosmic ray-induced chemistry
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+CR
+H2 H
+
+e-
+
+HeH+
+
+He H+ H2
+2
+
+H2 O
+H+
+3
+
+e-
+
+e-
+
+OH+ H2O H2 + H3O H2 + e e - e- - e-
+
+2H
+
+3H
+
+H2 O
+
+OH
+
+H2O
+
+CR
+
+O
+
+H
+
+H+
+
+O+
+
+H
+
+D
+
+D+ H2 HD
+
+Figure 8 Flow chart of chemical reactions that are initiated by cosmic-ray (CR) ionizations of H and H2. This simplified version illustrates how the abundances of the oxygen-containing ions and H3+ are related to the ionization rate and to the fractional abundances of H2 and free electrons.
+
+highly reactive ions OH+ and H2O+ lead to H3O+ with high efficiency. Thus the H2O+/OH+ ratio is sensitive to f (H2). In molecular regions, these ions spawn important neutral molecules OH and H2O in abundances that depend on the abundance of free electrons. Atomic C has an ionization potential less than that of atomic hydrogen and is therefore susceptible to photoionization by
+UV photons of the background starlight, which penetrate through diffuse molecule gas (visual extinction AV  1 magnitude). Thus C ion chemistry in diffuse and translucent molecular gas tends to be dominated by photoionization rather than CR ionization. In diffuse and translucent gas (PDR), starlight photoionization leads to C+, CH2+, CH3+, etc., which react with products of CR ionization (OH, H2O) to provide the main sources of HCO+ and CO. In contrast, in dense, dark regions where f (H2)  1, the reaction H3+ + CO  HCO+ + H2 may be both the main source of HCO+ and one of the main sinks of H3+. In general, the abundant (HCO+/H2  10-9) and widely observed ion HCO+ is not necessarily a direct tracer of CR ionization: (a) Its rotational
+emission lines readily become optically thick (saturated) so that there is not a linear relation
+between line intensity and column density (abundance), and (b) its formation and destruction are
+partly controlled by ionization processes that do not involve CR. The abundant C+ and S+ ions from photoionization in diffuse molecular gas also participate in
+the formation of CH+ and SH+ in turbulent dissipation regions (TDR), where a high-temperature chemistry is thought to operate over relatively small scales of length (1011-1013 cm) and time (1-102 years). Models of TDR chemistry have developed considerably in recent years (Godard et al. 2009, 2014), particularly in response to Herschel Space Observatory observations of CH+ and SH+ absorption lines over long path lengths through the Galactic ISM (Falgarone et al. 2010a,b;
+Godard et al. 2012). In a very broad sense, the TDR chemistry may be related to CRs through
+
+www.annualreviews.org · Cosmic Rays and the ISM 225
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+their coupling to interstellar turbulence on large scales. There are tantalizing hints of a more active TDR chemistry in the nearby starburst galaxy M82, in which the abundance ratio CH+/CH is
+much higher than in our Galaxy, which may signify a larger input of CR-driven turbulence in that
+galaxy (Welty et al. 2014). The discovery of a noble-gas molecule, ArH+, together with OH+, in the Crab Nebula (Barlow
+et al. 2013) reveals an environment in which molecular ions can be used to probe the competition between energetic particles and nonthermal UV/X-radiation. ArH+ was subsequently shown to be widespread in interstellar absorption; it is likely formed by the reaction Ar+ + H2  ArH+ + H following CR ionization of neutral argon (Schilke et al. 2014). Because ArH+ is destroyed readily by reaction with H2, it evidently traces neutral gas of low molecular fraction, f (H2)  10-4 to 10-3. The column densities of ArH+, OH+, H2O+, and HF, taken together, should offer a good diagnostic of the distribution of the fractional abundance of H2 (Schilke et al. 2014). Unfortunately, sensitive observations of most of these species require high-resolution spectra at submillimeter
+wavelengths; such spectra would be best obtained with an orbiting telescope like Herschel, which
+completed its mission in 2013 with no successor in sight.
+6.3. Observations of Molecular Ions: H3+ The central role of the H3+ ion, produced by CR ionization, in interstellar chemistry (Herbst & Klemperer 1973) was confirmed by its discovery in dense molecular clouds through highresolution IR spectroscopy (Geballe & Oka 1996). The identification of H3+ in diffuse molecular gas (McCall et al. 1998, 2002, 2003; Geballe et al. 1999; Indriolo et al. 2007; Indriolo & McCall
+2012) as well as in dense clouds (McCall et al. 1999, Kulesa 2002, Brittain et al. 2004, Gibb et al.
+2010) meant that the CR ionization rate could be inferred in two distinct chemical regimes. In the diffuse gas in which the fractional ionization is high, x(e) = n(e)/n(H2)  10-4, and photondominated, the H3+ abundance is limited by dissociative recombination with e-. In dense clouds that are opaque to UV radiation, H3+ is removed mainly by reactions with O, CO, and other neutral species.
+Detections of H3+ in 21 out of 50 observed diffuse lines of sight were collected by Indriolo & McCall (2012), who deduced values of the CR ionization rate of H2 in the range of (1.7 ± 1.3) × 10-16 < CR H2 < (10.6 ± 8.2) × 10-16 s-1 and found some upper limits as low as CR H2 < 0.4 × 10-16 s-1. The mean value derived from the distribution of measured rates is CR H2 = 3.5-3.0 +5.3 × 10-16 s-1. These results show that the CR ionization rate does vary from place to place, and they confirm that the ionization rate in thicker, denser clouds tends to be lower than that in the diffuse clouds. Indriolo et al. (2012) combined IR observations of H3+ with submillimeter wave absorption observations of OH+ and H2O+ in the same diffuse cloud toward W51 to constrain the molecular hydrogen fraction in the photon-dominated part of the cloud and to deduce CR H2 = (4.8 ± 3.4) × 10-16 s-1.
+Crabtree et al. (2011) compared the abundances of the para and ortho nuclear-spin-symmetry species of H2 and H3+ in diffuse molecular clouds and found that the spin temperature is lower in H3+ than in its neutral parent H2. A full interpretation requires better knowledge of the state-specific rates of dissociative recombination with electrons and may have consequences for
+the inferred CR ionization rates (Albertsson et al. 2014). The central part of our Galaxy is clearly special. At the IR wavelengths of the H3+ absorption
+lines, the extinction by interstellar dust is small enough that background stars in the Galactic
+Center can be observed with good sensitivity and high spectroscopic resolution. Thus it has been possible to map H3+ across the 200-pc-diameter Central Molecular Zone (CMZ) of the Galaxy (Goto et al. 2002, 2008, 2011, 2014; Oka et al. 2005) with results reviewed by Geballe (2012)
+226 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+and Goto et al. (2013). Although the large molecular mass of the CMZ is concentrated in dense molecular clouds, these occupy only a small fraction of its volume. The H3+ observations revealed large column densities and surprisingly high abundances in excited rotational states (Oka et al. 2005, Goto et al. 2011) at radial velocities distinct from those of the dominant giant molecular clouds; this implies the existence of an interesting component of dilute, n(H2)  100 cm-3, and warm, T  200 K, molecular gas with a large filling factor relative to the denser clouds (Oka & Epp 2004). Moreover, the ionization rate in the CMZ is estimated to be CR H2  (2 - 7) × 10-15 s-1 (Oka et al. 2005, Goto et al. 2013), that is, 10 times higher than in the Galactic disk. Observations toward two stars in the central star cluster, GCIRS 1W and GCIRS 3, have revealed H3+ in several different kinematical components within the CMZ (Goto et al. 2014). The molecular gas at velocities +20 km s-1 to +80 km s-1 is thought to be confined very close to the Galactic Center and appears to be even hotter, T  300 ± 50 K, and much denser, n(H2)  104 cm-3, than the dilute gas of the CMZ but with a similar CR ionization rate, CR H2 > 1.6 × 10-15 s-1 (Goto et al. 2014). That the ionization rate is higher than in the diffuse molecular gas of the Galactic disk is perhaps not surprising, considering that the frequency and density of supernovae must be higher near the Galactic Center. Several recent studies have assembled more comprehensive descriptions of the energetic particles and photons in the Galactic Center (e.g., Yusef-Zadeh et al. 2013, Yoast-Hull et al. 2014a).
+6.4. Observations of Molecular Ions: OH+, H2O+, H3O+
+Recent advances in submillimeter wave astronomy have made it possible to observe the reactive molecular ions OHn+ (n = 1 to 3) and thus to test long-standing predictions of interstellar chemical models (see Section 6.2). Interstellar OH+ was first detected by Wyrowski et al. (2010) with the Atacama Pathfinder EXperiment telescope shortly before the first surveys of this ion were completed with the Heterodyne Instrument for the Far-Infrared instrument aboard Herschel (Gerin et al. 2010, Neufeld et al. 2010). The OH+ ion can now be observed via ground-based optical spectroscopy, too (Krelowski et al. 2010, Porras et al. 2014). The water ion H2O+ was also surveyed using Herschel absorption observations (Schilke et al. 2010, Wyrowski et al. 2010).
+The abundances of the OHn+ ions in relation to the CR ionization rate have been explored through detailed models (Hollenbach et al. 2012), which complement the analytical approximations that apply in the limit of low f (H2). The three OHn+ ions are also observed in absorption and/or emission in star-forming regions (Benz et al. 2010, 2013; Gupta et al. 2010; van der Tak et al. 2013), in planetary nebulae (Aleman et al. 2014, Etxaluze et al. 2014), and in the Crab Nebula (Barlow et al. 2013), but these are instances of UV/X-ray photochemistry rather than a manifestation of CRs.
+Indriolo et al. (2015) have assembled the Herschel absorption observations of the OHn+ ions in multiple velocity components along 20 lines of sight in the Galaxy. These observations trace diffuse gas of low molecular fraction that has a Gaussian distribution with mean and standard deviation f (H2) = 0.042 ± 0.018. The derived CR ionization rates in this component of gas outside the CMZ display a log-normal distribution with a mean  H CR = 1.8×10-16 s-1 and a standard deviation in the logarithm of 0.29. Diffuse gas near the Galactic Center is exposed to ionization rates 102 times higher. Because  H CR  0.65CR H2 , these results are completely consistent with the ionization rates derived from H3+ observations of diffuse molecular gas (Section 6.3). The ubiquity of OH+, H2O+, and ArH+ (Schilke et al. 2014) in regions of low f (H2) provides independent evidence of a significant component of neutral, molecule-containing gas that will not be traced in surveys of molecular emission lines like CO (cf. Section 7.1).
+www.annualreviews.org · Cosmic Rays and the ISM 227
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Unlike its highly reactive precursors (OH+ and H2O+), the H3O+ ion is found mainly in regions of higher density and higher molecular fraction; nevertheless, it is still widespread. Herschel observations of H3O+ line absorption over long sightlines toward Sgr B2 and W31C revealed surprisingly large amounts of the ion in highly excited rotational energy levels (Erot/k  1,000 K above the ground state). These rotationally hot molecules do not require molecular gas at high kinetic temperature (400 K) because the exoergic formation process H2O+ + H2  H3O+ + H converts the chemical energy difference between reactants and products into internal (rotational) energy of H3O+ (Lis et al. 2014). In this interpretation, the observations place rather direct constraints on the chemical source rate of H3O+, and they imply CR ionization rates that are in harmony with the rates deduced from OH+, H2O+, and H3+ in both the Galactic disk and the CMZ.
+7. COSMIC-RAY TRACERS OF THE INTERSTELLAR MEDIUM
+7.1. Tracing Gas and Dust Properties
+Accurately tracing the gas mass at all cloud scales plays a pivotal role in understanding galaxy evolution and the gas structure that leads to star formation with a given efficiency and initial mass function. Close-up studies offer key data to test the reliability of NH measures, commonly evaluated from HI lines and from CO rotational emission lines as a proxy for cold H2. Herschel has recently opened access to new line surveys, among which is the ubiquitous CII line at 158 m, which arises from all gas phases except the UV-shielded H2 (Pineda et al. 2013). Thermal emission from dust grains and  rays from CR interactions with the gas nucleons complement the line data with the advantage of tracing the whole gas indifferently but with the disadvantage of integrating NH column densities across the whole Galaxy.
+The empirical XCO factor that relates N H2 column densities and integrated 12CO (10) line intensities (WCO) has recently been reviewed by Bolatto et al. (2013). Across galaxies, XCO varies only moderately with metallicity and UV-flux gradients. Past the central few kiloparsecs, it averages out to uniform values to large radii (Glover & Mac Low 2011, Sandstrom et al. 2013). Within individual clouds, XCO is expected to decrease from the molecular outskirts, where CO is exposed to photodissociation and weakly excited, to the dust-shielded cores, where CO self-shields, and most of the carbon is locked in CO instead of C+ except where 12CO lines become saturated. Large XCO fluctuations may result from local imbalance between CO formation and dissociation in the optically thin envelopes (Sheffer et al. 2008, Glover & Clark 2012, Lee et al. 2014), but they may average out along sightlines (Liszt et al. 2010).
+The HI-H2 interface is rich in dense and opaque HI and in CO-faint or CO-dark H2 (van Dishoeck & Black 1988, Visser et al. 2009, Wolfire et al. 2010). Both the atomic and molecular parts of this interface can easily escape HI and CO surveys. Early dust studies hinted at the presence of dust excesses over the HI and CO contributions (e.g., Blitz et al. 1990), but the importance of this DNM interface in the interstellar mass budget has been revealed by jointly using CRs and dust to trace large gas masses not accounted for in HI and CO emission (Grenier et al. 2005). The correlation between the two tracers is essential to rule out localized variations in dust-to-gas ratio, dust opacity, or CR flux (Planck & Fermi Collab. et al. 2015). The first  -ray and dust study revealed a DNM mass equal to approximately 30% of the CO-bright mass in the local ISM (Grenier et al. 2005). Later studies have increased this local fraction to 118% and 164% with the sole use of dust to estimate the mass (Planck Collab. et al. 2011b, Paradis et al. 2012). Dust and [CII] line analyses suggest that the DNM fractional mass increases with radius in the Galaxy (Planck Collab. et al. 2011a, Pineda et al. 2013, Langer et al. 2014). In the absence of extensive [CII], CH, or OH surveys, and given the difficult [CII] separation between the DNM and the other
+228 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+neutral and ionized phases (Langer et al. 2014), one must currently rely on the spatial correlation between  -ray and dust excesses over HI and CO expectations in a cloud to quantify and map the elusive DNM phase. We look forward to the first confrontations of the DNM maps with [CI], [CII], CH, and OH line data in nearby clouds, away from the Galactic plane confusion, to learn more about the DNM chemical composition.
+CRs expose the total gas to view, regardless of its thermodynamical and chemical state, thereby enabling the calibration of other tracers as well as measurements of HI opacities and XCO ratios. The NH tracing relies on the assumption of a uniform CR flux through the HI and H2 phases of a given cloud. The large CR diffusion lengths in the ISM and the observed uniformity of CR spectra across gas phases give weight to this assumption (see Section 3.1.1). CRs have thus long been used to unveil molecular clouds (e.g., Black & Fazio 1973, Lebrun & Paul 1983), calibrate XCO (Strong et al. 1988 and references therein), and discover DNM envelopes of nearby clouds (Grenier et al. 2005). Such studies have leaped forward with Fermi-LAT observations. We briefly summarize results obtained so far in the different regions referred to in Figure 4.
+7.1.1. In the HI. The choice of HI spin temperature modifies the contrast between peaks and troughs in the derived NHI maps. This choice can be tested against the  -ray intensity produced in the HI gas (Abdo et al. 2010b; Ackermann et al. 2012e; Planck & Fermi Collab. et al. 2015). The results obtained for the Cepheus and Cygnus clouds agree with the precise, but sparse, values measured with paired absorption/emission HI spectra, but such tests are restricted to uniform spin temperatures so far.
+7.1.2. In the dark neutral medium. DNM column-density maps in nearby clouds show that this phase occupies a volume and exhibits column densities close to that of the dense HI around the CO-bright cores (Abdo et al. 2010b; Ackermann et al. 2012b,e; Planck & Fermi Collab. et al. 2015). Comparing the masses locked in the HI-bright, DNM, and CO-bright phases in the current sample of 104 - 106 M clouds, we find that the DNM mass compares with the CO-bright one (40-190%) but that it represents only about a fifth of the HI-bright mass. Compared with the total mass in a cloud, the DNM often amounts to less than 20% because of the predominant HI gas, but there can be large deviations: two nearby complexes in the 2005 CGRO-EGRET sample reached mass fractions of 35% and 60%. The low fractions measured locally compare with the average near 20% found with [CII] in the Galactic disc for clouds exhibiting dense CO (Langer et al. 2014). However, we caution that mass fractions involving the HI mass can be uncertain because of the ill-defined outer HI edge of a cloud in the observations.
+Dust UV shielding in the DNM phase is essential to theoretically explain the HI-H2 transition and the CO observations (Lee et al. 2014): The larger the visual extinction, AV, the thinner the CO photodissociation layer (see Langer et al. 2014, their figure 17, and Wolfire et al. 2010). Figure 9 shows  -ray estimates of the AV/NH ratios in the DNM with values comparable to those found in the HI gas. Yet, we observe a puzzling evolution of the DNM fractional mass with AV in separate clouds of the same complex (Planck & Fermi Collab. et al. 2015): Its rise with the average AV across the CO-bright part is at odds with the marked decline expected from the thinning of the CO photodissociation layer. Models also predict that 30% of the H2 mass should be CO-dark (Wolfire et al. 2010, Levrier et al. 2012). The CO-dark H2 fractions shown in Figure 10 often exceed the theoretical expectations whether we adopt a half or fully molecular composition for the DNM. In view of these results, we cannot conclude whether the DNM is mostly atomic or molecular, especially because the HI  H2 transition is very dynamical in space and time (Glover & Mac Low 2011). This uncertainty justifies the neutral DNM appellation over that of CO-dark H2 also in use.
+www.annualreviews.org · Cosmic Rays and the ISM 229
+
+XCO (1020 cm-2 K-1 km-1 s)
+
+5
+a
+4
+3
+2
+1
+
+Cep-Pol RCrA Ori Cha Cygnus 2Q Local Arm 3Q Local Arm Inter arm 1Q Per arm 2Q Per arm 3Q Per arm
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+cm-2)
+
+0 9
+b
+8
+7
+6
+
+Cep-Pol RCrA Cha Cygnus 3Q Local Arm
+
+mag
+
+(10-22
+
+5
+
+DNM
+NH
+
+4
+
+/
+
+AV
+
+3
+
+2 2 4 6 8 10 12 14 16 Galactocentric radius (kpc)
+
+Figure 9
+(a) Radial distribution across the Milky Way of the XCO ratios measured in  rays (same data, colors, and errors as in Figure 4) and from the radiative transfer of 12CO and 13CO lines for a given gradient in [C]/[H] abundance ( gray profile, from Pineda et al. 2013). The  -ray measure assumes no metallicity or cosmic ray-density gradient. Examples of dust-derived ratios are given as rectangles. Estimates based on dust emissivity spectra and optical depth exceed the  -ray values found in the same region [e.g., pink rectangle in the Chamaeleon from Planck & Fermi Collab. et al. (2015), or green rectangle at |b| > 10 from Planck Collab. et al. (2011b)]. Estimates from dust absorption (blue rectangle, Paradis et al. 2012) or 100-m flux ( gray rectangle, Dame et al. 2001) are consistent with the  -ray average in the Local Arm. (b) Local  -ray measurements of the AV/NH ratios in the dark-neutral-medium (DNM) phase compared with dust estimates in the HI (dashed black, gray, and light gray lines, respectively, for Bohlin et al. 1978, Liszt 2014, Planck Collab. et al. 2014a), and dust estimates in the local DNM (dashed cyan line, Planck Collab. et al. 2011b).
+
+7.1.3. About XCO. Recent XCO measurements made in  rays in the local ISM and in the outer Galaxy are shown in Figure 9, together with the XCO profile obtained from the radiative transfer of 12CO and 13CO lines, assuming variations in [CO]/[H2] abundance linked to the metallicity gradient (Pineda et al. 2013). The  -ray estimates require no assumption about a metallicity or CR-density gradient but only that of a uniform CR penetration between the HI and CO-bright gas of a given complex kinematically separated from other clouds along sightlines. Both profiles may jointly hint at an XCO increase with Galactic radius. It would be more pronounced than in external galaxies, but caution is strongly advised because the CO-transfer estimates reflect the input metallicity gradient, and the  -ray signal from the outer arm is faint and point-source contamination is difficult to remove.
+230 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+Number of clouds
+
+4 3 2 1
+
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1
+
+CO-dark H2 mass fraction
+
+Figure 10
+Mass fractions of the H2 gas that is CO-dark in nearby clouds as traced with cosmic rays and dust (Abdo et al. 2010b; Ackermann et al. 2012b,e; Grenier et al. 2005; Planck & Fermi Collab. et al. 2015). The fractions are given for a half (light gray) or fully (dark gray) molecular dark-neutral-medium composition.
+
+The  -ray data yield an average XCO value at parsec scales in the Gould Belt clouds of 0.9 × 1020 cm-2 K-1 km-1 s and a kiloparsec-scale average in the Local and Perseus Arms of 1.9 × 1020 cm-2 K-1 km-1 s. The low XCO values in nearby clouds compare well with high-resolution estimates based on CH data or molecular chemistry in diffuse clouds (Liszt et al. 2010, Cotten & Magnani 2013). The average in the Local and Perseus Arms is only 30% greater than the mean found in external galaxies (Sandstrom et al. 2013). The factor-of-two difference between the Gould Belt and Local Arm cannot be attributed to metallicity variations. Diffuse molecular envelopes cover larger surfaces than dense cores in well-resolved nearby clouds. This would bias the cloud average XCO upward, not downward, as XCO increases toward cloud edges (Liszt et al. 2010, Cotten & Magnani 2013, Lee et al. 2014). It remains to be checked whether the difference stems from a bias in the component separation between the CO-bright and much more massive HI and DNM phases. It can result from pile-up along sightlines and/or the increased level of cross talk in the radio maps of distant complexes. Observations of face-on versus edge-on external galaxies do indicate a larger XCO ratio in the latter (Sandstrom et al. 2013).
+
+7.1.4. On dust properties. CRs have recently been used to quantify how dust emission properties, per gas nucleon, vary from the diffuse HI to the dense H2 environments in the translucent Chamaeleon clouds (Planck & Fermi Collab. et al. 2015). They have revealed a 2-4.6-fold rise in grain emission opacity as the gas becomes denser and grains less heated, as attested by a twofold drop in their radiated power. Figure 11 shows these important trends. They confirm the opacity changes recently noted inside the HI phase (Planck Collab. et al. 2014a) or from comparisons between dust emission and absorption data (Martin et al. 2012, Roy et al. 2013) with the CR advantage of independently accounting for the total NH in the opaque HI, DNM, and CO-bright H2 gas. The opacity variations presumably indicate a chemical and/or structural change of the grains, perhaps in response to ice coating and aggregation. The magnitude of the variations can severely bias the derivation of XCO to high values when using dust emission to trace the gas (e.g., by 190% in the Chamaeleon complex, see Figure 9). The magnitude of the opacity variations
+
+www.annualreviews.org · Cosmic Rays and the ISM 231
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+a
+
+b
+
+c
+
+353/NHm (10-27 cm2)
+
+60 10
+
+353 (× 105)
+
+40 5
+20
+
+4R/NHm (10-31 W)
+
+R (10-7 W m-2 sr-1)
+
+0
+6 10
+5
+
+4 5
+3
+
+0 10 20 30 40 50 NH (1020 cm-2)
+
+20.8 21.2 21.6 log (NHm) (cm-2)
+
+2 14 16 18 20 22
+Temperature (K)
+
+1
+
+10 100 1,000
+
+Figure 11
+Evolution of the dust emission properties in the Chamaeleon clouds. (a) 2D histograms of the correlations between the total gas column densities, N H , measured in  rays and the dust optical depth at 353 GHz,  353, or the dust radiance, R, deduced from the 353-3,000-GHz spectral energy distributions of the thermal emission of the grains. The changes in (b) dust emission opacity,  353/NH, and specific power, 4 R/N H, in intervals of N H m column density and (c) dust color temperature. The N H m values come from the higherresolution multiwavelength data gauged in column densities with the  rays (details in Planck & Fermi Collab. et al. 2015). The solid and dashed error bars give the error on the means and the standard deviations in each sample, respectively. The thin horizontal lines mark the average values found in the (0.4-2) × 1021 cm2 range. Adapted from Planck & Fermi Collab. et al. (2015) with permission.
+
+also raises a cautionary flag for the use of dust emission to retrieve HI optical depths and spin temperatures in the opaque CNM (Fukui et al. 2015).
+Further comparisons between  -ray and dust-absorption determinations of XCO are of crucial importance to assess whether the cloud-to-cloud variations found in the literature stem from the choice of total gas tracer, the sampling scale in the cloud, or environmental differences. The same remark holds for cloud-to-cloud variations in dust-emission or -absorption opacities, which can be gauged with the independent  -ray data. The clouds off the Galactic plane exhibit large differences in emission opacity (Planck Collab. et al. 2014b), which may be largely due to the DNM column densities missing in the gas census in this work (compare these variations with the sky maps by the Planck Collab. et al. 2011b and Grenier et al. 2005). Yet, accounting for all forms of  -rayemitting gas in the Chamaeleon clouds leaves unexplained twofold differences in emission opacity and specific power between these clouds and the all-sky average (Planck & Fermi Collab. et al. 2015): They may hint at cloud-to-cloud, therefore environmental, changes in dust properties. The new millimeter and  -ray all-sky surveys open the way to stimulating studies to explore the origin of grain evolution in a variety of environments.
+232 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+log (I) (erg cm-2 s-1 sr-1 Hz-1)
+
+7.2. Tracing Cosmic-Ray Leptons and the Magnetic Field
+Synchrotron emission from CR electrons and positrons gives an essential complementary view (to  rays) of the distribution and spectrum of leptons throughout the Galaxy. Because synchrotron also depends on the magnetic field, the joint analysis with  rays should allow an unambiguous picture to be developed. Although this has not been completed yet, comparison of CR propagation models with synchrotron data ( Jaffe et al. 2011, Strong et al. 2011, Lineros et al. 2012) shows the power of this approach. It illustrates the use of low-frequency synchrotron (below a few 100 MHz) to probe leptons in the regions where solar modulation makes direct measurements problematic and simultaneously provides an interstellar spectrum for testing modulation models themselves. The comparison with CR propagation models also emphasizes the importance of secondary electrons and positrons in addition to primary CR electrons for interpreting synchrotron spectra, especially at low frequency (see Figure 12; Strong et al. 2011). Note, however, that these model spectra do not include the contribution from the positrons responsible for the excess above 10 GeV detected by PAMELA, Fermi-LAT, and AMS-02, which are presumably primary (see Section 2.4). This increases the intensity at frequencies above a few GHz and is important to consider in the future.
+The study of Galactic synchrotron radiation was extended to full-sky spatial distribution and polarization data by Orlando & Strong (2013) and Sun et al. (2008) using a range of magnetic field models from the literature. They provide useful constraints on the strengths of the regular and anisotropic fields in the disc and of the toroidal field in the halo. They also explore the height of the CR electron halo. The role of old supernova remnants in the form of radio loops was studied by Mertsch & Sarkar (2013). They conclude that the loops may make an important contribution to the fine structure of the synchrotron sky.
+-17
+
+-17.5
+
+-18
+
+-18.5
+
+-19
+
+-19.5
+
+-20
+
+-20.5
+
+1
+
+2
+
+3
+
+4
+
+5
+
+log () (MHz)
+
+Figure 12 Synchrotron spectra at high latitudes, 10  |b|  45, from primary electrons (dashed line), secondary electrons and positrons (dot-dashed line), and total leptons (solid line). Data points (triangles) are from various radio surveys below 10 GHz and from WMAP from 23 GHz. Adapted from Orlando & Strong (2013) with permission.
+
+www.annualreviews.org · Cosmic Rays and the ISM 233
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+The magnetic field model of Jaffe et al. (2011), using the Hammurabi software (Waelkens et al. 2009) to compute synchrotron, includes a so-called striated field with reversals, which affect rotation measures but not the synchrotron emission. A new model by Jansson & Farrar (2012a) based on Wilkinson Microwave Anisotropy Probe (WMAP) radio surveys and 40,000 extragalactic rotation measures was compared with synchrotron data of Jansson & Farrar (2012b) and with WMAP polarization data of Farrar (2014). This model includes the X-shape feature in the magnetic field observed in external galaxies, and unlike other previous models, the field is divergencefree--a physical constraint on possible field configurations. Spectral index variation of polarized emission measured by WMAP (Fuskeland et al. 2014) will provide essential information on both the regular magnetic field and CR lepton propagation. For an extensive review of the whole subject of magnetic fields in galaxies see Beck & Wielebinski (2013) and also Haverkorn (2015). These also cover external galaxies, like the face-on grand-design spiral M51. But we caution against the extensive use in such work of the so-called equipartition method, which assumes an equality of energy in CRs and magnetic fields, for which there is no real justification.
+8. COSMIC RAYS IN STARBURST ENVIRONMENTS
+8.1. Effect on Cosmic-Ray Composition
+It has long been expected that massive-star forming regions host CR factories because 80% of all Galactic supernovae are core-collapse explosions with progenitors formed in OB associations (Higdon & Lingenfelter 2005). Shock waves of thermonuclear and core-collapse supernovae sweep material of different metallicities (1.3 Z in the ISM, 2-3 Z in superbubbles; Lingenfelter & Higdon 2007), so the CR composition holds a record of the mixing of supernova ejecta, progenitor wind, and ISM gas in the acceleration site. 22Ne/20Ne, Si/Fe, and N-Sr abundances give a record integrated over 1-20 Myr in the local spiral arms (Lingenfelter & Higdon 2007). Both refractory and volatile elements indicate a mixing by mass of 80% of older ISM gas with 20% of ejecta and wind material (Rauch et al. 2009). The lack of 59Ni in the CR composition also sets a minimum timescale of 0.1 Myr between the synthesis and acceleration of heavy nuclei (Wiedenbeck et al. 1999, Binns et al. 2007). It is the time required for 59Ni to decay by electron capture, whereas bare nuclei, stripped of their electrons at the CR-accelerating shock, would survive. It has been argued that the average time between supernovae in an OB association is long enough compared with the 59Ni half-life to prevent substantial acceleration of recently synthesized 59Ni before it can decay (Binns et al. 2007). Little is known, however, about the potential acceleration of 59Ni (before decay) by the powerful stellar wind shocks and, in general, on CR propagation in the highly turbulent media characterizing starburst regions and on the collective action of multiple shock waves to accelerate CRs or to reaccelerate older CRs passing by (Bykov & Toptygin 2001, Ferrand & Marcowith 2010). Parizot et al. (2004) suggest that collective effects in superbubbles are important for CR acceleration to knee energies.
+Fermi-LAT observations have at last opened a new window on high-energy particles in these active regions, in both the Milky Way and external galaxies.
+8.2. A Cocoon of Young Cosmic Rays in Cygnus X
+Bright stellar clusters in the Cygnus X region, with high densities of massive stars and very young ages of 3-6 Myr, have carved their parent clouds over tens of parsecs through the combined action of their intense ionizing radiation and energetic winds. The latter can develop a total energy comparable to that of a supernova over the few-million-year period of strong winds (Parizot et al.
+234 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Gal. latitude (deg)
+
+a
+4 3 2 1 0 -1
+
+c
+4 LAT
+3
+
+2
+
+NGC6910
+
+ Cyg 1
+
+0
+
+Cyg OB2
+
+I8µm (10-6 W m-2 s-1)
+8 4 2 1 0.3
+Photon/bin 0.36 0.25 0.16 0.09
+
+MeV2 cm-2 s-1 MeV-1
+
+b
+-3.5 -4
+-4.5 -5
+-5.5 -6
+-6.5 -7
+-7.5 -8 8 9
+
+10
+
+11
+
+12
+
+13
+
+log (E) (eV)
+
+Gal. latitude (deg)
+
+-1 10 pc at 1.4 kpc
+
+82
+
+80
+
+78
+
+Gal. longitude (deg)
+
+Figure 13
+The Cygnus X region: maps of (a) the 8-m emission from photodominated regions (MSX data) and (c) the photon excess detected in the 10-100-GeV band by the Fermi-LAT (Ackermann et al. 2011a). The  -ray excess reveals young cosmic rays diffusing in the ionized cavities carved by numerous OB stars (red stars) and OB associations (red circles). The 0.2  /bin contour of the  -ray excess is overlaid in blue in panel a. The green circle marks the  Cygni supernova remnant; the  -ray emission from its disc has been subtracted. (b) Spectral energy distribution of the emission detected by the Fermi-LAT (crosses, Ackermann et al. 2011a), MILAGRO (dashed power law, Abdo et al. 2012), and ARGO-YBG (squares, Bartoli et al. 2014). The curves show the expectations from the old Galactic cosmic-ray population spreading the ionized gas ( gray band ) or up-scattering the stellar and interstellar light (red curve) with individual contributions from the Cyg OB2 cluster (upper pink), the NGC 6910 cluster (middle pink), and the average interstellar radiation field in the region (lower pink). Adapted from Ackermann et al. (2011a) with permission.
+
+2004, Ackermann et al. 2011a). The 1-100 GeV images from the Fermi-LAT have revealed an extended source of hard emission that fills the region bounded by the ionization fronts as in a cocoon (see Figure 13). The emission spectrum may break at around a few TeV and extend to beyond 20 TeV if the hardly resolved TeV sources observed in this direction are the counterparts to the 10-GeV cocoon (Bartoli et al. 2014). The hard  rays cannot be explained by either inverse Compton scattering of the large stellar and interstellar radiation fields in the region or by hadronic interactions of Galactic CRs in the large gas masses (see Figure 13). The emission requires a hard
+
+www.annualreviews.org · Cosmic Rays and the ISM 235
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+distribution of probably freshly accelerated CR nuclei with a spectrum close to ECR -2.4 and a total energy of only 1042 J above 2 GeV/nucleon (Ackermann et al. 2011a). Their origin is unknown. They may have been accelerated by a supernova remnant hidden in the region or by the dispersed ensemble of stellar wind shocks and supersonic turbulence in the cocoon (Ackermann et al. 2011a). They may also be older Galactic CRs re-energized by the wind-powered magnetic turbulence. Detailed models of this complex, dense, and high-pressure environment are needed to decide among these scenarios.
+The cocoon detection raises another important issue on the early propagation of CRs once they escape from their accelerator and before they travel at large in and off the Galactic disc. The conditions prevailing in the cocoon suggest a regular magnetic field strength of 2 nT (if in pressure equilibrium with the gas) and an energy-containing scale of 10 pc for the turbulence. With magnetic turbulence near saturation, the CR diffusion length in the cocoon can be 100 times smaller than in the normal ISM, thereby implying an efficient proton confinement over 100 kyr, which is in agreement with the 59Ni timescale. The question then arises of the actual CR spectrum leaking out of starburst bubbles and impinging on the remains of the parent clouds, at GeV-TeV energies relevant for diffusion diagnostics at larger kiloparsec scales and at sub-GeV energies relevant for ionizing and heating the surrounding clouds.
+8.3. Normal Galaxies
+Nearby external galaxies provide the opportunity to study the CR distributions via the outside view of their radio and  -ray emission to investigate the key role played by magnetic fields and CRs in the feedback between star-formation activity and the ISM dynamics. Unfortunately, the  -ray flux from normal galaxies is low and the poor angular resolution severely limits the imaging possibilities. Only M31 and the Large Magellanic Cloud (LMC) and SMC have been detected so far by Fermi-LAT (Abdo et al. 2010d,e,f). The total emission from M31 is consistent with a CR density similar to that in our Galaxy, whereas the lower values found in the LMC and SMC (<30% and <15% of the Galactic value, respectively) confirm the production of GeV-TeV CRs within galaxies, as first evidenced by the CGRO-EGRET observations (Sreekumar et al. 1993). The LMC emission is interestingly concentrated in the 30 Doradus starburst region, and it does not correlate well with the gas in the early maps recorded by Fermi-LAT even though CRs can sample the mean ISM density in a starburst environment over a large range of interstellar conditions (Boettcher et al. 2013). Spatial correlations between the warm dust emission, radio synchrotron emission, and GeV  rays indicate a 50-times shorter diffusion length for 20-GeV CR protons in the vicinity of 30 Doradus than in the Galactic ISM (Murphy et al. 2012). This low value compares favorably with the expectation quoted above for the turbulent medium of Cygnus X.
+Radio interferometric observations of external galaxies enable studies of CR electrons and magnetic fields. Face-on spirals, like M51, can be studied with resolutions down to approximately 200 pc and reveal the relation of CR electrons to spiral arms and to the compression of the regular and turbulent parts of the magnetic field (Fletcher et al. 2011). Galaxies have synchrotron halos extending to several kiloparsecs from the disk, and observations of those seen edge on allow a study of the vertical propagation of CR electrons and magnetic fields in their halos. A large project (Continuum HAlos in Nearby Galaxies--an EVLA Survey) to observe 35 edge-on galaxies with the Jansky Very Large Array is in progress and will provide a valuable resource for such work (Irwin et al. 2012a,b, 2013). Most observations are taken at GHz frequencies to obtain the angular resolution required, but lower frequencies are more suited for synchrotron studies by reducing the contribution from the free-free emission. Extension to 100 MHz with the Low Frequency
+236 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Array is now starting (Mulcahy et al. 2014) and is to be followed by the Square Kilometer Array (SKA) (https://www.skatelescope.org/) down to approximately 300 MHz.
+8.4. Starburst Galaxies
+The discovery of a correlation between the far-IR (FIR) and radio luminosities of galaxies (Helou et al. 1985) has highlighted the close relationship between the CR electron energy content of a galaxy and its SFR. Such a correlation can be explained via the supernova rate if the galaxy is a good electron calorimeter, that is, if electron energy is lost to synchrotron radiation inside the galaxy (Voelk 1989). A similar correlation would hold between the FIR and  -ray luminosity if the galaxy is a good proton calorimeter. Reality is complicated by variations in magnetic field strengths, which impact synchrotron losses; by nonradiative losses, such as ionization in dense clouds; by secondary lepton production in dense clouds; and by advection of CRs and magnetic fields in a Galactic wind (e.g., Boettcher et al. 2013, Yoast-Hull et al. 2013). Starburst galaxies provide extreme test cases of these scaling relations. Four objects (M82, NGC 253, NGC 1068, and NGC 4945) have been detected by Fermi-LAT with  -ray luminosities that scale with the SFR measured via FIR or radio-continuum luminosities (Abdo et al. 2010a, Ackermann et al. 2012c). M82and NGC 253 have also been detected at higher energies by VERITAS and HESS, respectively (Acero et al. 2009, VERITAS Collab. et al. 2009). The level of CR versus AGN activity in other starburst detections at GeV and TeV energies is unclear, although progress is being made (Yoast-Hull et al. 2014b).
+The first interpretations of the scaling laws and radio+ -ray spectra vary in their approximations, but they point to large calorimetric efficiencies for the CR electrons and to efficiencies below 50% for the protons (Abramowski et al. 2012, Ackermann et al. 2012c, Paglione & Abrahams 2012, Yoast-Hull et al. 2013). The hard and flat spectra recorded to TeV energies favor energy-independent loss mechanisms for the CR nuclei over the diffusive losses that likely shape the  -ray spectra observed in quiescent galaxies. Together with the low calorimetric efficiency, they suggest that CR nuclei are predominantly advected away from the starburst nucleus, taking away their energy and lepton production potential. The combined interpretation of the radio and  -ray spectra of specific galaxies can help constrain the gas densities, magnetic field strengths, and ionization rates in these dense and crowded environments, independent of minimum-energy assumptions (Paglione & Abrahams 2012). Detailed studies of these examples are essential to evaluate the impact of CRs on the ISM in CR-dominated regions.
+Radio interferometry makes it possible to identify individual supernovae and young remnants in highly obscured regions of starburst galaxies, like Arp 220 (Lonsdale et al. 2006, Parra et al. 2007, Batejat et al. 2011) and M82 (Fenech et al. 2008, Gendre et al. 2013), and to infer a supernova event rate as high as 4 ± 2 year-1 in the former. The upper limit of <0.2 year-1 (Rampadarath et al. 2014) in the center of the weak starburst NGC 253 may constrain the interpretation of the  rays detected there. CR-driven ion chemistry produces reactive molecular ions, such as OH+, H2O+, and H3O+, which can now be observed in starburst and active galaxies (van der Werf et al. 2010, Aalto et al. 2011, Rangwala et al. 2011, Kamenetzky et al. 2012, Spinoglio et al. 2012, Gonza´lezAlfonso et al. 2013, Pereira-Santaella et al. 2013,). The observations of molecular ions have been used to infer a high rate of ionization CR H2 > 10-13 s-1 in Arp 220 (Gonza´lez-Alfonso et al. 2013)-- 102 times higher than that in the CMZ of the Milky Way--and to trace massive galactic winds.
+8.5.  Rays in Extragalactic Space
+The extragalactic  -ray background (EGB) is a basic observable complementary to those at radio, IR, optical, and X-ray energies. The multiwavelength extragalactic spectrum contains important
+www.annualreviews.org · Cosmic Rays and the ISM 237
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+information on cosmology, intergalactic CRs, etc. The determination of the EGB is critically dependent on modelling the Galactic foreground--in particular the CR halo, which is still quite uncertain. Hence there is an essential coupling between CR and EGB studies. Significant progress has been made in the determination of the EGB spectrum using Fermi-LAT (Ackermann et al. 2015). Both the improvement in data and modelling of the Galactic emission have contributed to the accuracy of the EGB determination. Now we have to distinguish the real EGB, which is the true intergalactic  -ray flux, from that due to Galactic (e.g., millisecond pulsars) and extragalactic sources (e.g., AGNs) below the detection threshold, as well as from other possible diffuse processes. The part of the EGB due to known sources (mostly AGNs) is comparable with the undetected sources part at present (Abdo et al. 2010c). The latter decreases as the observations go deeper with time. The unresolved population of normal and starburst galaxies may play an important role and dominate the EGB at a few GeV because of their hadronic pion emission (Ackermann et al. 2012c).
+9. A FEW MORE WORDS The numerous interactions of sub-TeV CRs with their environment constitute a lively part of the dynamics of the interstellar medium. The latest direct measurements performed near the Earth and heliopause have reached a level of accuracy that starts to unravel imperfections in CR characteristics (spectra, composition, and anisotropy) of great value for better understanding their origin and modes of propagation in different media. Multiwavelength data, in particular  rays, submillimeter and low-frequency radio surveys, and emission lines from chemical compounds, are rapidly expanding our capability to remotely probe CR populations across decades in energy and in a large variety of environments from the starburst nucleus to the quiet periphery of the Milky Way and to nearby galaxies. These are important achievements and, with the preparation of new CR instruments (e.g., CALorimetric Electron Telescope) and telescopes [e.g., SKA, the High-Altitude Water Cherenkov Gamma-Ray Observatory, Cherenkov Telescope Array, Gamma Astronomical Multifunctional Modular Apparatus (Gamma-400), Large High Altitude Air Shower Observatory], the prospects are bright for making further progress on the long list of open questions that sprinkle the present review. CRs are major actors in the feedback between high-energy events in galaxies and the ISM, but we still know very little, both observationally and theoretically, about how this feedback operates from the microscales of plasma physics and shocks to the large scales of galactic fountains and winds. Studying these feedback processes and finding ways to probe the dark side of CRs (the low-energy ionizing ones) are stimulating challenges for the coming years.
+DISCLOSURE STATEMENT The authors are not aware of any affiliations, memberships, funding, or financial holdings that might be perceived as affecting the objectivity of this review.
+ACKNOWLEDGMENTS We thank the Lorentz Center (http://www.lorentzcenter.nl/lc/web/2011/435/info. php3?wsid=435&venue=Oort) for hosting a most inspiring workshop on cosmic-ray interactions, which laid the foundations for many discussions presented in this review. I.G. gratefully thanks the Institut Universitaire de France for its research support.
+238 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+LITERATURE CITED
+Aalto S, Costagliola F, van der Tak F, Meijerink R. 2011. Astron. Astrophys. 527:A69 Abdo AA, Abeysekara U, Allen BT, et al. 2012. Ap. J. 753:159 Abdo AA, Ackermann M, Ajello M, et al. 2009. Ap. J. 703:1249-56 Abdo AA, Ackermann M, Ajello M, et al. 2010a. Ap. J. Lett. 709:L152-57 Abdo AA, Ackermann M, Ajello M, et al. 2010b. Ap. J. 710:133-49 Abdo AA, Ackermann M, Ajello M, et al. 2010c. Ap. J. 720:435-53 Abdo AA, Ackermann M, Ajello M, et al. 2010d. Astron. Astrophys. 512:A7 Abdo AA, Ackermann M, Ajello M, et al. 2010e. Astron. Astrophys. 523:A46 Abdo AA, Ackermann M, Ajello M, et al. 2010f. Astron. Astrophys. 523:L2 Abdo AA, Ackermann M, Ajello M, et al. 2010g. Science 328:725-29 Abdo AA, Ackermann M, Ajello M, et al. 2011. Ap. J. 734:116 Abe K, Fuke H, Haino S, et al. 2012. Phys. Rev. Lett. 108:051102 Abgrall H, Roueff E, Liu X, Shemansky DE. 1997. Ap. J. 481:557-66 Abramowski A, Acero F, Aharonian F, et al. 2012. Ap. J. 757:158 Acero F, Aharonian F, Akhperjanian AG, et al. 2009. Science 326:1080-82 Ackermann M, Ajello M, Albert A, et al. 2012a. Ap. J. Suppl. 203:4 Ackermann M, Ajello M, Albert A, et al. 2015. Ap. J. 799:86 Ackermann M, Ajello M, Allafort A, et al. 2011a. Science 334:1103-7 Ackermann M, Ajello M, Allafort A, et al. 2012b. Ap. J. 755:22 Ackermann M, Ajello M, Allafort A, et al. 2012c. Ap. J. 755:164 Ackermann M, Ajello M, Allafort A, et al. 2012d. Ap. J. 756:4 Ackermann M, Ajello M, Allafort A, et al. 2012e. Astron. Astrophys. 538:A71 Ackermann M, Ajello M, Allafort A, et al. 2012f. Phys. Rev. Lett. 108:011103 Ackermann M, Ajello M, Allafort A, et al. 2013a. Ap. J. Suppl. 209:34 Ackermann M, Ajello M, Allafort A, et al. 2013b. Science 339:807-11 Ackermann M, Ajello M, Atwood WB, et al. 2010. Phys. Rev. D 82:092004 Ackermann M, Ajello M, Atwood WB, et al. 2012g. Ap. J. 750:3 Ackermann M, Ajello M, Baldini L, et al. 2011b. Ap. J. 726:81 Ackermann M, Albert A, Atwood WB, et al. 2014. Ap. J. 793:64 Adriani O, Barbarino GC, Bazilevskaya GA, et al. 2009. Nature 458:607-9 Adriani O, Barbarino GC, Bazilevskaya GA, et al. 2011. Science 332:69-71 Adriani O, Barbarino GC, Bazilevskaya GA, et al. 2013a. Adv. Space Res. 51:219-26 Adriani O, Barbarino GC, Bazilevskaya GA, et al. 2013b. Ap. J. 765:91 Adriani O, Barbarino GC, Bazilevskaya GA, et al. 2013c. Ap. J. 770:2 Adriani O, Barbarino GC, Bazilevskaya GA, et al. 2013d. Phys. Rev. Lett. 111:081102 Adriani O, Barbarino GC, Bazilevskaya GA, et al. 2014. Ap. J. 791:93 Aguilar A, Ajello JM, Mangina RS, et al. 2008. Ap. J. Suppl. 177:388-407 Aguilar M, Alberti G, Alpat B, et al. 2013. Phys. Rev. Lett. 110:141102 Aguilar M, Alcaraz J, Allaby J, et al. 2011. Ap. J. 736:105 Aharonian F, Akhperjanian AG, Anton G, et al. 2009. Astron. Astrophys. 508:561-64 Aharonian F, Akhperjanian AG, Barres de Almeida U, et al. 2008. Phys. Rev. Lett. 101:261104 Aharonian F, Akhperjanian AG, Bazer-Bachi AR, et al. 2006. Nature 439:695-98 Ahn HS, Allison PS, Bagliesi MG, et al. 2008. Astropart. Phys. 30:133-41 Ahn HS, Allison P, Bagliesi MG, et al. 2009. Ap. J. 707:593-603 Ahn HS, Allison PS, Bagliesi MG, et al. 2010. Ap. J. 715:1400-7 Albertsson T, Indriolo N, Kreckel H, et al. 2014. Ap. J. 787:44 Aleman I, Ueta T, Ladjal D, et al. 2014. Astron. Astrophys. 566:A79 Aloisio R, Blasi P. 2013. J. Cosmol. Astropart. Phys. 7:1 Amato E. 2014. Int. J. Mod. Phys. D 23:30013 Barkov MV, Bosch-Ramon V. 2014. Astron. Astrophys. 565:A65 Barlow MJ, Swinyard BM, Owen PJ, et al. 2013. Science 342:1343-45
+www.annualreviews.org · Cosmic Rays and the ISM 239
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Bartoli B, Bernardini P, Bi XJ, et al. 2014. Ap. J. 790:152 Batejat F, Conway JE, Hurley R, et al. 2011. Ap. J. 740:95 Battiston R. 2014. Phys. Dark Universe 4:6-9 Beck R. 2012. Space Sci. Rev. 166:215-30 Beck R, Wielebinski R. 2013. In Planets, Stars and Stellar Systems, ed. TD Oswalt, G Gilmore, 5:641-724.
+Dordrecht, Neth.: Springer-Sci. + Bus. Media Becker JK, Black JH, Safarzadeh M, Schuppan F. 2011. Ap. J. Lett. 739:L43 Benz AO, Bruderer S, van Dishoeck EF, et al. 2010. Astron. Astrophys. 521:L35 Benz AO, Bruderer S, van Dishoeck EF, Sta¨uber P, Wampfler SF. 2013. J. Phys. Chem. A 117:9840-47 Berezhko EG, Ksenofontov LT. 2014. Ap. J. Lett. 791:L22 Berezhko EG, Ksenofontov LT, Ptuskin VS, Zirakashvili VN, Vo¨ lk HJ. 2003. Astron. Astrophys. 410:189-98 Berg TAM, Ellison SL, Venn KA, Prochaska JX. 2013. MNRAS 434:2892-906 Binns WR, Wiedenbeck ME, Arnould M, et al. 2007. Space Sci. Rev. 130:439-49 Black JH. 1998. Faraday Discuss. 109:257 Black JH, Fazio GG. 1973. Ap. J. Lett. 185:L7 Blandford R, Simeon P, Yuan Y. 2014. In Proc. Cosmic Ray Origin - Beyond the Standard Models Int. Conf., ed.
+O Tibolla, L Drury, M Persic, S Kaufmann, H Vo¨ lk, K Mannheim, A. de Angelis. Nucl. Phys. B Proc. Suppl. 256-57:9-22 Blasi P. 2013. Astron. Astrophys. Rev. 21:70 Blitz L, Bazell D, Desert FX. 1990. Ap. J. Lett. 352:L13-16 Boettcher E, Zweibel EG, Yoast-Hull TM, Gallagher JS III. 2013. Ap. J. 779:12 Bohlin RC, Savage BD, Drake JF. 1978. Ap. J. 224:132-42 Bolatto AD, Wolfire M, Leroy AK. 2013. Annu. Rev. Astron. Astrophys. 51:207-68 Bouchet L, Strong AW, Porter TA, et al. 2011. Ap. J. 739:29 Breitschwerdt D, Dogiel VA, Vo¨ lk HJ. 2002. Astron. Astrophys. 385:216-38 Brittain SD, Simon T, Kulesa C, Rettig TW. 2004. Ap. J. 606:911-16 Brooks AM, Venn KA, Lambert DL, et al. 2002. Ap. J. 573:584-96 Bu¨ sching I, Kopp A, Pohl M, et al. 2005. Ap. J. 619:314-26 Bykov AM, Toptygin IN. 2001. Astron. Lett. 27:625-33 Caprioli D, Spitkovsky A. 2014. Ap. J. 783:91 Cardillo M, Tavani M, Giuliani A, et al. 2014. Astron. Astrophys. 565:A74 Carlson E, Profumo S. 2014. Phys. Rev. D 90:023015 Carretti E, Crocker RM, Staveley-Smith L, et al. 2013. Nature 493:66-69 Casandjian J-M. 2012. In High Energy Gamma-Ray Astronomy: 5th Int. Meet. High Energy Gamma-Ray Astronomy, AIP Conf. Ser., ed. FA Aharonian, W Hofmann, FM Rieger, 1505:37-45. Melville, NY: AIP Casandjian J-M, Fermi-LAT Collab., et al. 2013. In Proc. 33rd Int. Cosmic Ray Conf., Rio de Janeiro, Brazil. July 2-9, ICRC2013, paper ID 966 Casse F, Lemoine M, Pelletier G. 2002. Phys. Rev. D 65:023002 Castellina A, Donato F. 2013. In Planets, Stars and Stellar Systems, ed. TD Oswalt, G Gilmore, 5:725-88. Dordrecht, Neth.: Springer-Sci. + Bus. Media Ceccarelli C, Hily-Blant P, Montmerle T, et al. 2011. Ap. J. Lett. 740:L4 Cecchi-Pestellini C, Aiello S. 1992. MNRAS 258:125-33 Cesarsky CJ, Volk HJ. 1978. Astron. Astrophys. 70:367 Chang J, Adams JH, Ahn HS, et al. 2008. Nature 456:362-65 Chernyakova M, Malyshev D, Aharonian FA, Crocker RM, Jones DI. 2011. Ap. J. 726:60 Choutko V, AMS Collab., et al. 2013. In Proc. 33rd Int. Cosmic Ray Conf., Rio de Janeiro, Brazil, July 2-9, ICRC2013, paper ID 1262 Combet C, Maurin D, Donnelly J, Drury LO'C, Vangioni-Flam E. 2005. Astron. Astrophys. 435:151-60 Consolandi C, AMS-02 Collab., et al. 2014. In Proc. 10th Int. Symp. Cosmol. Part. Astrophys., Honolulu, Nov. 12-15, CosPA2013. arXiv:1402.0467 Coste B, Derome L, Maurin D, Putze A. 2012. Astron. Astrophys. 539:A88 Cotten DL, Magnani L. 2013. MNRAS 436:1152-60
+240 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Crabtree KN, Indriolo N, Kreckel H, Tom BA, McCall BJ. 2011. Ap. J. 729:15 Crocker RM, Bicknell GV, Carretti E, Hill AS, Sutherland RS. 2014. Ap. J. Lett. 791:L20 Crocker RM, Jones DI, Aharonian F, et al. 2011. MNRAS 413:763-88 Dalgarno A, Yan M, Liu W. 1999. Ap. J. Suppl. 125:237-56 Dame TM, Hartmann D, Thaddeus P. 2001. Ap. J. 547:792-813 Dartois E, Ding JJ, de Barros ALF, et al. 2013. Astron. Astrophys. 557:A97 de Avillez MA, ed. 2012. The Role of the Disk-Halo Interaction in Galaxy Evolution: Outflow vs. Infall?, EAS Publ.
+Ser., Vol. 56. Cambridge, UK: Cambridge Univ. Press Dermer CD, Finke JD, Murphy RJ, et al. 2013a. In Proc. 2012 4th Fermi Symp., Monterey, CA, Oct. 29-Nov.
+2, eConf C121028, pp. 162-71. arXiv:1303.6482 Dermer CD, Strong AW, Orlando E, et al. 2013b. In Proc. 33rd Int. Cosmic Ray Conf., Rio de Janeiro, Brazil,
+July 2-9, ICRC2013, paper ID 1165. arXiv:1307.0497 Di Bernardo G, Evoli C, Gaggero D, Grasso D, Maccione L. 2013. J. Cosmol. Astropart. Phys. 3:36 Dickey JM, Strasser S, Gaensler BM, et al. 2009. Ap. J. 693:1250-60 Digel SW, Grenier IA, Hunter SD, Dame TM, Thaddeus P. 2001. Ap. J. 555:12-22 Draine BT. 2011. Physics of the Interstellar and Intergalactic Medium. Princeton, NJ: Princeton Univ. Press Drury LO, Aharonian FA, Voelk HJ. 1994. Astron. Astrophys. 287:959-71 Ellison DC, Bykov AM. 2011. Ap. J. 731:87 Ellison DC, Drury LO, Meyer JP. 1997. Ap. J. 487:197-217 Etxaluze M, Cernicharo J, Goicoechea JR, et al. 2014. Astron. Astrophys. 566:A78 Everett J, Zweibel E, Benjamin B, et al. 2012. In The Role of the Disk-Halo Interaction in Galaxy Evolution:
+Outflow vs. Infall?, ed. MA de Avillez. EAS Publ. Ser., ed. MA de Avillez, 56:73-76. Cambridge, UK: Cambridge Univ. Press Everett JE, Zweibel EG. 2011. Ap. J. 739:60 Evoli C, Gaggero D, Grasso D, Maccione L. 2012. Phys. Rev. Lett. 108:211102 Evoli C, Yan H. 2014. Ap. J. 782:36 Falgarone E, Godard B, Cernicharo J, et al. 2010a. Astron. Astrophys. 521:L15 Falgarone E, Ossenkopf V, Gerin M, et al. 2010b. Astron. Astrophys. 518:L118 Fang J, Yu H, Zhu BT, Zhang L. 2013. MNRAS 435:570-74 Fang J, Zhang L. 2013. New Astron. 18:35-41 Farrar GR. 2014. C.R. Phys. 15:339-48 Fatuzzo M, Melia F. 2014. Ap. J. 784:131 Fatuzzo M, Melia F, Todd E, Adams FC. 2010. Ap. J. 725:515-27 Fenech DM, Muxlow TWB, Beswick RJ, Pedlar A, Argo MK. 2008. MNRAS 391:1384-402 Fermi-LAT Collab., Ackermann M, Ajello M, Albert A, et al. 2014. Ap. J. 799:86 Ferrand G, Marcowith A. 2010. Astron. Astrophys. 510:A101 Fletcher A, Beck R, Shukurov A, Berkhuijsen EM, Horellou C. 2011. MNRAS 412:2396-416 Fox AJ, Bordoloi R, Savage BD, et al. 2015. Ap. J. Lett. 799:L7 Fukui Y, Torii K, Onishi T, et al. 2015. Ap. J. 798:6 Fuskeland U, Wehus IK, Eriksen HK, Næss SK. 2014. Ap. J. 790:104 Gaggero D, Maccione L, Grasso D, Di Bernardo G, Evoli C. 2014. Phys. Rev. D 89:083007 Galeazzi M, Chiao M, Collier MR, et al. 2014. Nature 512:171-73 Gargate´ L, Spitkovsky A. 2012. Ap. J. 744:67 Geballe TR. 2012. R. Soc. Lond. Philos. Trans. Ser. A 370:5151-61 Geballe TR, McCall BJ, Hinkle KH, Oka T. 1999. Ap. J. 510:251-57 Geballe TR, Oka T. 1996. Nature 384:334-35 Gendre MA, Fenech DM, Beswick RJ, Muxlow TWB, Argo MK. 2013. MNRAS 431:1107-20 Gerakines PA, Moore MH, Hudson RL. 2001. J. Geophys. Res. 106:33381-86 Gerin M, de Luca M, Black J, et al. 2010. Astron. Astrophys. 518:L110 Giacalone J, Jokipii JR. 1994. Ap. J. Lett. 430:L137-40 Giacalone J, Jokipii JR. 1999. Ap. J. 520:204-14 Gibb EL, Brittain SD, Rettig TW, et al. 2010. Ap. J. 715:757-66 Girichidis P, Naab T, Walch S, Hanasz M. 2014. MNRAS. Submitted. arXiv:1406.4861
+www.annualreviews.org · Cosmic Rays and the ISM 241
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Glover SCO, Clark PC. 2012. MNRAS 421:116-31 Glover SCO, Mac Low MM. 2011. MNRAS 412:337-50 Godard B, Falgarone E, Gerin M, et al. 2012. Astron. Astrophys. 540:A87 Godard B, Falgarone E, Pineau des Fore^ts G. 2009. Astron. Astrophys. 495:847-67 Godard B, Falgarone E, Pineau des Fore^ts G. 2014. Astron. Astrophys. 570:A27 Gonza´lez-Alfonso E, Fischer J, Bruderer S, et al. 2013. Astron. Astrophys. 550:A25 Goto M, Geballe TR, Indriolo N, et al. 2014. Ap. J. 786:96 Goto M, Indriolo N, Geballe TR, Usuda T. 2013. J. Phys. Chem. A 117:9919-30 Goto M, McCall BJ, Geballe TR, et al. 2002. Publ. Astron. Soc. Jpn. 54:951-61 Goto M, Usuda T, Geballe TR, et al. 2011. Publ. Astron. Soc. Jpn. 63:L13-17 Goto M, Usuda T, Nagata T, et al. 2008. Ap. J. 688:306-19 Gredel R, Lepp S, Dalgarno A, Herbst E. 1989. Ap. J. 347:289-93 Grenier IA. 2000. Astron. Astrophys. 364:L93-96 Grenier IA, Casandjian JM, Terrier R. 2005. Science 307:1292-95 Gupta H, Rimmer P, Pearson JC, et al. 2010. Astron. Astrophys. 521:L47 Hams T, Barbier LM, Bremerich M, et al. 2004. Ap. J. 611:892-905 Hanabata Y, Katagiri H, Hewitt JW, et al. 2014. Ap. J. 786:145 Hanasz M, Kowalik K, Wo´ ltan´ ski D, Pawlaszek R. 2010. In Extrasolar Planets in Multi-Body Systems: Theory
+and Observations, EAS Publ. Ser., ed. K Gozdziewski, A Niedzielski, J Schneider, 42:275-80. Cambridge, UK, Cambridge Univ. Press Hanasz M, Kowalik K, Wo´ ltan´ ski D, Pawlaszek R. 2012a. See de Avillez 2012, pp. 363-66 Hanasz M, Otmianowska-Mazur K, Kowal G, Lesch H. 2009. Astron. Astrophys. 498:335-46 Hanasz M, Otmianowska-Mazur K, Lesch H, et al. 2012b. See de Avillez 2012, pp. 347-54 Haverkorn M. 2015. In Magnetic Fields in Diffuse Media, ed. A Lazarian, EM de Gouveia Dal Pino, C Melioli, 407:483-506. Berlin: Springer-Verlag Heays AN, Visser R, Gredel R, et al. 2014. Astron. Astrophys. 562:A61 Hebrard G, Lemoine M, Ferlet R, Vidal-Madjar A. 1997. Astron. Astrophys. 324:1145-48 Helou G, Soifer BT, Rowan-Robinson M. 1985. Ap. J. Lett. 298:L7-11 Herbst E, Klemperer W. 1973. Ap. J. 185:505-34 Higdon JC, Lingenfelter RE. 2005. Ap. J. 628:738-49 Hollenbach D, Kaufman MJ, Neufeld D, Wolfire M, Goicoechea JR. 2012. Ap. J. 754:105 Howk JC, Lehner N, Fields BD, Mathews GJ. 2012. Nature 489:121-23 Howk JC, Sembach KR, Savage BD. 2000. Ap. J. 543:278-83 Hunter SD, Bertsch DL, Catelli JR, et al. 1997. Ap. J. 481:205-40 Indriolo N. 2012. R. Soc. Lond. Philos. Trans. Ser. A 370:5142-50 Indriolo N, Blake GA, Goto M, et al. 2010. Ap. J. 724:1357-65 Indriolo N, Geballe TR, Oka T, McCall BJ. 2007. Ap. J. 671:1736-47 Indriolo N, McCall BJ. 2012. Ap. J. 745:91 Indriolo N, McCall BJ. 2013. Chem. Soc. Rev. 42:7763-73 Indriolo N, Neufeld DA, Gerin M, et al. 2012. Ap. J. 758:83 Indriolo N, Neufeld DA, Gerin M, et al. 2015. Ap. J. 800:40 Ingleby L, Calvet N, Bergin E, et al. 2009. Ap. J. Lett. 703:L137-41 Irwin J, Beck R, Benjamin RA, et al. 2012a. Astron. J. 144:43 Irwin J, Beck R, Benjamin RA, et al. 2012b. Astron. J. 144:44 Irwin J, Krause M, English J, et al. 2013. Astron. J. 146:164 Jaffe TR, Banday AJ, Leahy JP, Leach S, Strong AW. 2011. MNRAS 416:1152-62 Jansson R, Farrar GR. 2012a. Ap. J. 757:14 Jansson R, Farrar GR. 2012b. Ap. J. Lett. 761:L11 Jonin C, Liu X, Ajello JM, James GK, Abgrall H. 2000. Ap. J. Suppl. 129:247-66 Kalberla PMW, Dedes L. 2008. Astron. Astrophys. 487:951-63 Kamenetzky J, Glenn J, Rangwala N, et al. 2012. Ap. J. 753:70 Kappl R, Winkler MW. 2014. J. Cosmol. Astropart. Phys. 9:51 Kawanomoto S, Kajino T, Aoki W, et al. 2009. Ap. J. 701:1506-18
+242 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Kissmann R. 2014. Astropart. Phys. 55:37-50 Knauth DC, Federman SR, Lambert DL. 2003. Ap. J. 586:268-85 Knauth DC, Federman SR, Lambert DL, Crane P. 2000. Nature 405:656-58 Koldobskiy SA, Adriani O, Barbarino GC, et al. 2013. J. Phys. Conf. Ser. 409:012040 Korn AJ, Becker SR, Gummersbach CA, Wolf B. 2000. Astron. Astrophys. 353:655-65 Kotera K, Olinto AV. 2011. Annu. Rev. Astron. Astrophys. 49:119-53 Krelowski J, Beletsky Y, Galazutdinov GA. 2010. Ap. J. Lett. 719:L20-22 Kulesa CA. 2002. Molecular hydrogen and its ions in dark interstellar clouds and star-forming regions. PhD Thesis,
+Univ. Ariz., Tucson Lacki BC. 2014. MNRAS 444:L39-43 Lallement R, Vergely JL, Valette B, et al. 2014. Astron. Astrophys. 561:A91 Lambert DL, Sheffer Y, Federman SR, et al. 1998. Ap. J. 494:614-22 Langer WD, Velusamy T, Pineda JL, Willacy K, Goldsmith PF. 2014. Astron. Astrophys. 561:A122 Lavalle J, Maurin D, Putze A. 2014. Phys. Rev. D 90:081301 Lave KA, Wiedenbeck ME, Binns WR, et al. 2013. Ap. J. 770:117 Law CJ. 2010. Ap. J. 708:474-84 Lazarian A, Yan H. 2014. Ap. J. 784:38 Lebrun F, Paul JA. 1983. Ap. J. 266:276-86 Lee MY, Stanimirovic´ S, Wolfire MG, et al. 2014. Ap. J. 784:80 Levrier F, Le Petit F, Hennebelle P, et al. 2012. Astron. Astrophys. 544:A22 Lineros RA, Bringmann T, Donato F. 2012. J. Phys. Conf. Ser. 375:012037 Lingenfelter RE, Higdon JC. 2007. Ap. J. 660:330-35 Lis DC, Schilke P, Bergin EA, et al. 2014. Ap. J. 785:135 Liszt H. 2014. Ap. J. 780:10 Liszt HS, Pety J, Lucas R. 2010. Astron. Astrophys. 518:A45 Lonsdale CJ, Diamond PJ, Thrall H, Smith HE, Lonsdale CJ. 2006. Ap. J. 647:185-93 Lorimer DR, Faulkner AJ, Lyne AG, et al. 2006. MNRAS 372:777-800 Malkov MA, Diamond PH, Sagdeev RZ, Aharonian FA, Moskalenko IV. 2013. Ap. J. 768:73 Martin PG, Roy A, Bontemps S, et al. 2012. Ap. J. 751:28 Maurin D, Melot F, Taillet R. 2014. Astron. Astrophys. 569:A32 Maurin D, Putze A, Derome L. 2010. Astron. Astrophys. 516:A67 Mayorov AG, Adriani O, Barbarino GC, et al. 2013. J. Phys. Conf. Ser. 409:012056 McCall BJ, Geballe TR, Hinkle KH, Oka T. 1998. Science 279:1910 McCall BJ, Geballe TR, Hinkle KH, Oka T. 1999. Ap. J. 522:338-48 McCall BJ, Hinkle KH, Geballe TR, et al. 2002. Ap. J. 567:391-406 McCall BJ, Huneycutt AJ, Saykally RJ, et al. 2003. Nature 422:500-2 McElroy D, Walsh C, Markwick AJ, et al. 2013. Astron. Astrophys. 550:A36 Mertsch P, Sarkar S. 2013. J. Cosmol. Astropart. Phys. 6:41 Mertsch P, Sarkar S. 2014. Phys. Rev. D 90:061301 Mikhailov V, Adriani O, Barbarino G, et al. 2013. J. Phys. Conf. Ser. 409:012035 Moskalenko I. 2011. Int. Cosmic Ray Conf. 6:283 Moskalenko IV, Porter TA, Digel SW. 2006. Ap. J. Lett. 652:L65-68 Mulcahy DD, Horneffer A, Beck R, et al. 2014. Astron. Astrophys. 568:A74 Mun~ oz Caro GM, Dartois E, Boduch P, et al. 2014. Astron. Astrophys. 566:A93 Murphy EJ, Porter TA, Moskalenko IV, Helou G, Strong AW. 2012. Ap. J. 750:126 Nakamura K, Yoshida T, Shigeyama T, Kajino T. 2010. Ap. J. Lett. 718:L137-40 Nava L, Gabici S. 2013. MNRAS 429:1643-51 Neufeld DA, Goicoechea JR, Sonnentrucker P, et al. 2010. Astron. Astrophys. 521:L10 Obermeier A, Ave M, Boyle P, et al. 2011. Ap. J. 742:14 Oka T, Epp E. 2004. Ap. J. 613:349-54 Oka T, Geballe TR, Goto M, Usuda T, McCall BJ. 2005. Ap. J. 632:882-93 Oliva A, AMS Collab., et al. 2013. Proc. 33rd Int. Cosmic Ray Conf., Rio de Janeiro, Brazil. July 2-9, ICRC2013,
+paper ID 1266
+www.annualreviews.org · Cosmic Rays and the ISM 243
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Orlando E, Strong A. 2013. MNRAS 436:2127-42 Orlando E, Strong AW. 2007. Ap. Space Sci. 309:359-63 Orlando E, Strong AW. 2008. Astron. Astrophys. 480:847-57 Ormes JF, ed. 2013. Centenary Symp. 2012: Discovery of Cosmic Rays, AIP Conf. Proc. 1516. Melville, NY: AIP Padovani M, Galli D. 2011. Astron. Astrophys. 530:A109 Padovani M, Galli D, Glassgold AE. 2009. Astron. Astrophys. 501:619-31 Padovani M, Galli D, Glassgold AE. 2013. Astron. Astrophys. 549:C3 Padovani M, Hennebelle P, Galli D. 2013. Astron. Astrophys. 560:A114 Paglione TAD, Abrahams RD. 2012. Ap. J. 755:106 Palumbo ME, Baratta GA, Fulvio D, et al. 2008. J. Phys. Conf. Ser. 101:012002 Pan FS, Oka T. 1986. Ap. J. 305:518-25 Panov AD, Adams JH, Ahn HS, et al. 2009. Bull. Russ. Acad. Sci. Phys. 73:564-67 Paradis D, Dobashi K, Shimoikura T, et al. 2012. Astron. Astrophys. 543:A103 Parizot E, Marcowith A, van der Swaluw E, Bykov AM, Tatischeff V. 2004. Astron. Astrophys. 424:747-60 Parra R, Conway JE, Diamond PJ, et al. 2007. Ap. J. 659:314-30 Pereira-Santaella M, Spinoglio L, Busquet G, et al. 2013. Ap. J. 768:55 Perrot CA, Grenier IA. 2003. Astron. Astrophys. 404:519-31 Pineda JL, Langer WD, Velusamy T, Goldsmith PF. 2013. Astron. Astrophys. 554:A103 Planck Collab., Abergel A, Ade PAR, Aghanim N, et al. 2011a. Astron. Astrophys. 536:A21 Planck Collab., Abergel A, Ade PAR, Aghanim N, et al. 2014a. Astron. Astrophys. 566:A55 Planck Collab., Abergel A, Ade PAR, Aghanim N, et al. 2014b. Astron. Astrophys. 571:A11 Planck Collab., Ade PAR, Aghanim N, Arnaud M, et al. 2011b. Astron. Astrophys. 536:A19 Planck & Fermi Collab., Ade PAR, Aghanim N, et al. 2015. Astron. Astrophys. In press. arXiv:1409.3268 Pohl M, Eichler D. 2013. Ap. J. 766:4 Porras AJ, Federman SR, Welty DE, Ritchey AM. 2014. Ap. J. Lett. 781:L8 Prantzos N. 2012. Astron. Astrophys. 538:A80 Prasad SS, Tarafdar SP. 1983. Ap. J. 267:603-9 Prochaska JX, Howk JC, Wolfe AM. 2003. Nature 423:57-59 Ptuskin VS, Moskalenko IV, Jones FC, Strong AW, Zirakashvili VN. 2006. Ap. J. 642:902-16 Ptuskin VS, Zirakashvili V, Seo ES. 2013. Ap. J. 763:47 Ptuskin VS, Zirakashvili VN, Plesser AA. 2008. Adv. Space Res. 42:486-90 Putze A, Derome L, Maurin D. 2010. Astron. Astrophys. 516:A66 Putze A, Maurin D, Donato F. 2011. Astron. Astrophys. 526:A101 Rampadarath H, Morgan JS, Lenc E, Tingay SJ. 2014. Astron. J. 147:5 Rangwala N, Maloney PR, Glenn J, et al. 2011. Ap. J. 743:94 Rauch BF, Link JT, Lodders K, et al. 2009. Ap. J. 697:2083-88 Rimmer PB, Herbst E, Morata O, Roueff E. 2012. Astron. Astrophys. 537:A7 Ritchey AM, Federman SR, Sheffer Y, Lambert DL. 2011. Ap. J. 728:70 Roy A, Martin PG, Polychroni D, et al. 2013. Ap. J. 763:55 Salmon S, Montalba´n J, Morel T, et al. 2012. MNRAS 422:3460-74 Sandstrom KM, Leroy AK, Walter F, et al. 2013. Ap. J. 777:5 Sato M, Wu YW, Immer K, et al. 2014. Ap. J. 793:72 Schilke P, Comito C, Mu¨ ller HSP, et al. 2010. Astron. Astrophys. 521:L11 Schilke P, Neufeld DA, Mu¨ ller HSP, et al. 2014. Astron. Astrophys. 566:A29 Schlickeiser R, Webber WR, Kempf A. 2014. Ap. J. 787:35 Schwadron NA, Adams FC, Christian ER, et al. 2014. Science 343:988-90 Seperuelo Duarte E, Boduch P, Rothard H, et al. 2009. Astron. Astrophys. 502:599-603 Sheffer Y, Rogers M, Federman SR, et al. 2008. Ap. J. 687:1075-106 Shen CJ, Greenberg JM, Schutte WA, van Dishoeck EF. 2004. Astron. Astrophys. 415:203-15 Skilling J, Strong AW. 1976. Astron. Astrophys. 53:253-58 Slane P, Bykov A, Ellison DC, Dubner G, Castro D. 2014. Space Sci. Rev. July 2014:09 Jul 2014 Snow TP, McCall BJ. 2006. Annu. Rev. Astron. Astrophys. 44:367-414 Spinoglio L, Pereira-Santaella M, Busquet G, et al. 2012. Ap. J. 758:108
+244 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Spitkovsky A. 2008. Ap. J. Lett. 682:L5-8 Spitzer L Jr, Tomasko MG. 1968. Ap. J. 152:971 Sreekumar P, Bertsch DL, Dingus BL, et al. 1993. Phys. Rev. Lett. 70:127-29 Sternberg A, Dalgarno A, Lepp S. 1987. Ap. J. 320:676-82 Stone EC, Cummings AC, McDonald FB, et al. 2013. Science 341:150-53 Strong AW. 2007. Ap. Space Sci. 309:35-41 Strong AW, Fermi-LAT Collab. et al. 2011. In Cosmic Rays for Particle and Astroparticle Physics, Proc. 12th
+ICATPP Conf., ed. S Giani, C Leroy, PG Rancoita, pp. 473-81. Singapore: World Sci. Strong AW, Bloemen JBGM, Dame TM, et al. 1988. Astron. Astrophys. 207:1-15 Strong AW, Moskalenko IV. 1998. Ap. J. 509:212-28 Strong AW, Moskalenko IV. 2009. Proc. 31st Int. Cosmic Ray Conf., Lodz, Poland. July 7-15, ICRC2009, paper
+ID 626. arXiv:0907.0565 Strong AW, Moskalenko IV, Ptuskin VS. 2007. Annu. Rev. Nucl. Part. Sci. 57:285-327 Strong AW, Orlando E, Jaffe TR. 2011. Astron. Astrophys. 534:A54 Strong AW, Porter TA, Digel SW, et al. 2010. Ap. J. Lett. 722:L58-63 Su M, Slatyer TR, Finkbeiner DP. 2010. Ap. J. 724:1044-82 Sun XH, Reich W, Waelkens A, Enßlin TA. 2008. Astron. Astrophys. 477:573-92 Taillet R, Maurin D. 2003. Astron. Astrophys. 402:971-83 Tang X, Chevalier RA. 2014. Ap. J. Lett. 784:L35 Taylor CJ, Ritchey AM, Federman SR, Lambert DL. 2012. Ap. J. Lett. 750:L15 Telezhinsky I, Dwarkadas VV, Pohl M. 2012. Astron. Astrophys. 541:A153 Thornbury A, Drury LO. 2014. MNRAS 442:3010-12 Tielens AGGM. 2005. The Physics and Chemistry of the Interstellar Medium. Cambridge, UK: Cambridge Univ.
+Press Trotta R, Jo´ hannesson G, Moskalenko IV, et al. 2011. Ap. J. 729:106 Uchiyama Y, Blandford RD, Funk S, Tajima H, Tanaka T. 2010. Ap. J. Lett. 723:L122-26 Uhlig M, Pfrommer C, Sharma M, et al. 2012. MNRAS 423:2374-96 Urquhart JS, Figura CC, Moore TJT, et al. 2014. MNRAS 437:1791-807 van der Tak FFS, Nagy Z, Ossenkopf V, et al. 2013. Astron. Astrophys. 560:A95 van der Werf PP, Isaak KG, Meijerink R, et al. 2010. Astron. Astrophys. 518:L42 van Dishoeck EF, Black JH. 1988. Ap. J. 334:771-802 Vaupre´ S, Hily-Blant P, Ceccarelli C, et al. 2014. Astron. Astrophys. 568:A50 VERITAS Collab., Acciari VA, Aliu E, Arlen T, et al. 2009. Nature 462:770-72 Visser R, van Dishoeck EF, Black JH. 2009. Astron. Astrophys. 503:323-43 Vladimirov AE, Jo´ hannesson G, Moskalenko IV, Porter TA. 2012. Ap. J. 752:68 Voelk HJ. 1989. Astron. Astrophys. 218:67-70 Vo¨ lk HJ, Berezhko EG. 2013. Ap. J. 777:149 Waelkens A, Jaffe T, Reinecke M, Kitaura FS, Enßlin TA. 2009. Astron. Astrophys. 495:697-706 Wakelam V, Herbst E, Loison JC, et al. 2012. Ap. J. Suppl. 199:21 Welty DE, Ritchey AM, Dahlstrom JA, York DG. 2014. Ap. J. 792:106 Werner M, Kissmann R, Strong AW, Reimer O. 2013. Proc. 33rd Int. Cosmic Ray Conf., Rio de Janeiro, Brazil.
+July 2-9, ICRC2013, paper ID 375. arXiv:1308.2829 Werner M, Kissmann R, Strong AW, Reimer O. 2015. Astropart. Phys. 64:18 Wiedenbeck ME, Binns WR, Christian ER, et al. 1999. Ap. J. Lett. 523:L61-64 Wolfire MG, Hollenbach D, McKee CF. 2010. Ap. J. 716:1191-207 Wo´ ltan´ ski D, Hanasz M, Kowalik K. 2013. In Advances in Solid State Physics, Vol. 34, Cosmic Rays in Star-
+Forming Environments, ed. DF Torres, O Reimer, pp. 425-32. Berlin: Springer Woosley SE, Hartmann DH, Hoffman RD, Haxton WC. 1990. Ap. J. 356:272-301 Wyrowski F, Menten KM, Gu¨ sten R, Belloche A. 2010. Astron. Astrophys. 518:A26 Yan H, Lazarian A. 2008. Ap. J. 673:942-53 Yang HYK, Ruszkowski M, Zweibel E. 2013. MNRAS 436:2734-46 Yoast-Hull TM, Everett JE, Gallagher JS III, Zweibel EG. 2013. Ap. J. 768:53 Yoast-Hull TM, Gallagher JS III, Zweibel EG. 2014a. Ap. J. 790:86
+www.annualreviews.org · Cosmic Rays and the ISM 245
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Yoast-Hull TM, Gallagher JS III, Zweibel EG, Everett JE. 2014b. Ap. J. 780:137 Yoon YS, Ahn HS, Allison PS, et al. 2011. Ap. J. 728:122 Yuan Q, Zhang B. 2014. J. High Energy Astrophys. 3:1-8 Yusef-Zadeh F, Hewitt JW, Wardle M, et al. 2013. Ap. J. 762:33 Zweibel EG. 2013. Phys. Plasmas 20:055501
+RELATED RESOURCES NASA ADS compilation of references in this review and other relevant literature: http://
+adsabs.harvard.edu/cgi-bin/nph-abs_connect?library&libname=AnnRev2014&libid= 4469910512
+246 Grenier · Black · Strong
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Annual Review of Astronomy and Astrophysics
+Volume 53, 2015
+
+Contents
+
+Exploring the Universe Maarten Schmidt p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 1
+Hypervelocity Stars Warren R. Brown p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p15
+Physical Models of Galaxy Formation in a Cosmological Framework Rachel S. Somerville and Romeel Dave´ p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p51
+Powerful Outflows and Feedback from Active Galactic Nuclei Andrew King and Ken Pounds p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 115
+Visible/Infrared Imaging Spectroscopy and Energy-Resolving Detectors Frank Eisenhauer and Walfried Raab p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 155
+The Nine Lives of Cosmic Rays in Galaxies Isabelle A. Grenier, John H. Black, and Andrew W. Strong p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 199
+Ideas for Citizen Science in Astronomy Philip J. Marshall, Chris J. Lintott, and Leigh N. Fletcher p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 247
+On the Cool Side: Modeling the Atmospheres of Brown Dwarfs and Giant Planets M.S. Marley and T.D. Robinson p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 279
+Grid-Based Hydrodynamics in Astrophysical Fluid Flows Romain Teyssier p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 325
+Revisiting the Unified Model of Active Galactic Nuclei Hagai Netzer p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 365
+The Occurrence and Architecture of Exoplanetary Systems Joshua N. Winn and Daniel C. Fabrycky p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 409
+
+viii
+
+Annu. Rev. Astron. Astrophys. 2015.53:199-246. Downloaded from www.annualreviews.org Access provided by University of Science & Technology of China on 01/08/20. For personal use only.
+
+Faltering Steps Into the Galaxy: The Boundary Regions of the Heliosphere G.P. Zank p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 449
+Interstellar Dust Grain Alignment B-G Andersson, A. Lazarian, and John E. Vaillancourt p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 501
+Observations of the Icy Universe A.C. Adwin Boogert, Perry A. Gerakines, and Douglas C.B. Whittet p p p p p p p p p p p p p p p p p p p 541
+Molecular Clouds in the Milky Way Mark Heyer and T.M. Dame p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 583
+Near-Field Cosmology with Extremely Metal-Poor Stars Anna Frebel and John E. Norris p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 631
+Indexes Cumulative Index of Contributing Authors, Volumes 42-53 p p p p p p p p p p p p p p p p p p p p p p p p p p p 689 Cumulative Index of Article Titles, Volumes 42-53 p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p 692 Errata An online log of corrections to Annual Review of Astronomy and Astrophysics articles may be found at http://www.annualreviews.org/errata/astro
+Contents ix
+
+

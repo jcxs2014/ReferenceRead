@@ -1,0 +1,475 @@
+Origin of high energy galactic cosmic rays
+Cite as: AIP Conference Proceedings 203, 168 (1990); https:// doi.org/10.1063/1.39149 Published Online: 29 May 2008
+T. K. Gaisser
+
+AIP Conference Proceedings 203, 168 (1990); https://doi.org/10.1063/1.39149 © 1990 American Institute of Physics.
+
+203, 168
+
+168
+Origin of high energy galactic cosmic rays
+T.K. Gaisser
+
+Bartol Research Institute University of Delaware Newark DE 19716
+Abstract
+In this talk I discuss two problems in high energy particle astrophysics, the flux of cosmic ray antiprotons and the chemical composition in the region of the "knee~ of the cosmic ray energy spectrum (~ 1015 eV). Both are rather poorly known at present, yet they have great potential for informing us about the sources, acceleration and propagation of high energy cosmic radiation.
+
+1 Introduction
+
+It is well known that the power requirement for galactic cosmic rays is nicely matched
+
+to the energy available from supernova explosions in the galaxy,1 which is about
+
+3 × 1042 erg/s.* The power required to sustain the steady state cosmic ray spectrum
+
+is
+
+QcR = __PEVs ~ 5×1040-,erg
+
+(1)
+
+T R
+
+S
+
+where Vs is the volume in which the sources are distributed and rR is the residence
+
+time in that volume. The energy density of the cosmic radiation in the local interstellar
+
+medium (LIS) is
+
+t dNdE
+
+4~rE2 d N
+
+PE
+
+-
+
+~--~dln E,
+
+(2)
+
+where E is the kinetic energy per nucleon, tic is the particle velocity and dN/dE
+is the differential spectrum of nucleons. If we assume that the cosmic ray spectrum observed in the LIS is typical of that throughout the source region, then we estimate PE ~ 1 eV/cm s. Then if we take the source region to coincide with the disk of the
+galaxy (Vs N 5 x 1066 cm), and assume a residence time in the disk of 5 x 106 yrs, we
+arrive at the numerical estimate shown in Eq. 1.t
+
+*This estimate is based on one supernova every 30 years with a total kinetic energy of 2 × 10s~ ergs in the ejected shell.
+tNote that rR is the residence time in the disk, not the cosmic ray "age" as determined from the measurement of the relative intensity of a radioactive isotope such as 1°Be.
+
+© 1990 American Institute of Physics
+
+169
+
+..1'46f
+.12
+,p, (ev L
+
+I
+
+I
+
+!
+
+.06
+
+.04
+
+.02
+
+I
+
+!
+
+I
+
+0.1 1.0 I0 I00 I000
+
+Eo (GeV)
+
+Figure 1: Energy density in cosmic rays (eV/cm3).
+
+It is interesting to display the contributions of different energy regions to the total cosmic ray energy density. I show this in Fig. 1 by plotting the integrand of the right hand side of Eq. 2. By plotting a quantity proportional to d p ~ / d l n E , I obtain a graph in which physical areas on the semilogarithmic plot are proportional to their contributions to the integral. The lines labelled 1977 and 1982 correspond to fluxes of protons measured at Earth at periods of minimum and maximum solar modulation respectively. The curve for the LIS is obtained from the demodulated local interstellar spectrum of protons as given by Evenson. 2 The area under the proton curve is 0.83 e V / c m 3. Helium and heavier nuclei together contribute another N 0.27 e V / c m 3. About 99% of the energy content of the interstellar cosmic ray flux is contained in particles with energy less that 1 TeV/nucleon. Indeed, over half the energy is carried by particles with energies below several GeV and is lost to the solar wind as particles penetrate the heliosphere.
+A great deal of our current picture of cosmic ray origin and propagation comes from detailed studies of elemental and isotopic composition of particles with kinetic energies of several GeV and below. The status of this research has been reviewed recently by Mewaldt 3 and Binns et al. 4 (see also Ref. 5 for a comprehensive review). One wellknown result is the fact that the ratio of secondary to primary nuclei, such as boron to carbon, decreases as energy increases. This is interpreted as a rigidity-dependent decrease in the residence time (or increase in the spatial diffusion coefficient), t The
+~In a model with spatial diffusionin one dimension (perpendicular to the disk) the relation between rz~ and spatial diffusion coefficient is6 rR = h H / D , where H is the thickness of the halo and h the thickness of the disk.
+
+170
+
+higher energy particles spend less time in the gaseous disk of the galaxy and so create
+
+(_;)00 fewer secondaries. One recent fit7 gives
+
+=
+
+= 10.8
+
+, R > 4 GV,
+
+(3)
+
+and Aes¢ = 10.88 for R < 4 GV. At high energy the observed spectrum, J(E), and the source spectrum, Q(E), of primaries are therefore related by
+
+J(E) ~ E -~ × Q(E),
+
+(4)
+
+with 5 ~ 0.6. At energies from about 10 GeV up to several TeV, the differential spectrum of
+nucleons can be represented by
+
+J ( E ) cx E -'~,
+
+(5)
+
+with 5' ~ 2.7. Thus, from Eq. 4 the source spectrum must be proportional to E-(U-~) N E -~.1. The notion that cosmic rays are powered by supernova explosions was reinforced with the advent of the theory of first order Fermi acceleration by astrophysical shocks, which provides a natural explanation for this particular power law dependence of the energy spectrum, s,9 A nice scenario for the origin of the bulk of the galactic cosmic rays, therefore, is that they are accelerated by first order Fermi acceleration at supernova blast waves expanding into the interstellar medium. The energy derives ultimately from the kinetic energy of the exploded supernova shells.
+
+2 Composition
+
+at the "knee"
+
+The origin of particles with energies above N 1014 eV is much more problematic. Since it takes longer to accelerate high energy particles than low energy ones with diffusive shock acceleration, the maximum energy per particle is limited by the lifetime of the shock. (For non-planar shocks, escape from the acceleration region may be a more important limitation on the energy.) The acceleration rate is inversely proportional to the spatial diffusion coefficient in the region of the shock. In the approximation that diffusion is characterized by the minimum possible scattering length both upstream and downstream, D ~ }rnc, with the gyroradius rn = P c / ( Z e B ) . (Here P is the total momentum per nucleus and Z the charge.) In this approximation 1°
+
+3 Ul Z e B (ul TA).
+
+(6)
+
+Emax "~ 20 c
+
+Using an interstellar field of 3 #Gauss, shock speed Ul ,~ 109 cm/s and lifetime TA ,'~
+
+1000 years, gives
+
+E m ~ / Z ~" 1014 eV.
+
+(7)
+
+Axford9 uses a longer lifetime and estimates a somewhat higher value of Emax.
+
+171
+
+Table 1: Fractional composition of five major cosmic ray groups.
+
+Mass group
+
+< A>
+
+Particles
+
+Particles
+
+(> E/A) (> E/nucleus)
+
+JACEE (Ref. 12) (> 200 TeV/nucleus)
+
+p
+
+1
+
+0.96
+
+0.47
+
+4
+
+0.035
+
+0.18
+
+M (Z -- 6 to 9)
+
+14
+
+0.0024
+
+0.I0
+
+H (Z -- I0 to 20)
+
+24
+
+0.0007
+
+0.07
+
+VH (Z -- 21 to 30) 56
+
+0.0004
+
+0.18
+
+0.19±0.12 0.2210.07 0.17±0.06 0.30±0.15 0.13±0.09
+
+The primary spectrum, as determined by air shower experiments, steepens in an energy range between 1015 and 1016 eV. This feature is referred to as the "knee" in the energy spectrum. Axford9 suggests this feature may be a consequence of exhausting the supernova blast wave accelerator~ as just discussed. Another possibility is that an increase in the escape rate from the galaxy (or from a more local trapping region) superimposed on a uniform acceleration mechanism might be responsible for the steepening of the spectrum. In both cases the behavior of the composition through this energy region would be characteristic of a rigidity dependent steepening. 11
+Calorhnetric~ ~all particle" s p e c t r u m The flux of cosmic rays above 1014 eV is less than 1 particle per square meter
+per hour through a detector with an angular acceptance of lr steradians. The energy spectrum in this region has so far been explored almost entirely by air shower experiments because this rate is too low for detectors on balloons or spacecraft. Since an air shower experiment is calorimetric, events are classified by energy per particle, rather than by energy per nucleon. In both of the cases discussed above, the composition should become progressively rich in heavy nuclei because of their smaller rigidity at a given total energy per nucleus.
+To appreciate that this signature would be readily visible if the chemical composition of the cosmic radiation could be measured in this energy range, it is helpful to see the composition on an energy per nucleus basis as directly measured at lower energy. The composition around 100 GeV/nucleon is shown in Table l. At low energy the chemical composition of the cosmic radiation is usually presented by giving the relative fraction of various nuclei at the same energy per nucleon, as shown in the third column of the table. On an energy per nucleon basis, only 0.03% of the cosmic rays are nuclei heavier than helium, but this fraction is 36% when nuclei are compared at the same energy per nucleus (fourth column of the table). If the steepening of the spectrum is a rigidity dependent effect, either of acceleration or escape, the fraction of nuclei with Z > 2 above the bend would be about 53%, an increase by a factor of ,-, 1.5 over its low energy value. Such a change in composition would be quite easy to detect
+
+172
+
+10~ 0 0
+>= ';~ 10)
+'S
+"° t
+
+Z. o oo o o o~.¢r-.
+
+From N, (w=l.'/fieV) /Chocalt,,y, tw=l.~Gevl
+
+~q~qL~.
+
+Fr°m N"`Y)
+
+FromN*(w=l"l' 5eV)/
+
+FromNp(HP) ' ~ o
+
+10t
+
+t
+
+|
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+"1
+
+12 13 1&. 1S 16 1"/ 18 19 20
+
+tog Eo
+
+Figure 2: Primary spectrum as summarized by the Akeno group (Ref. 13).
+
+provided only that it is possible to obtain a reasonable number of events with charge identification in the region of the "knee". (The reason for quoting Z > 2 relative to H and a is that air showers generated by hydrogen and helium have similar longitudinal development, while carbon and heavier nuclei reach maximum significantly more quickly and fluctuate less.)
+Because of the low flux, it is not easy to obtain adequate statistics. The last column of Table 1 shows the JACEE data 12 at the highest energy for which they have events. This is the highest energy at which there is a direct measurement of the primary composition, and there are evidently a only very few events in each group. At present, going to higher energies requires use of air shower experiments, which do not see the primaries directly, but only the cascades of particles they produce in the atmosphere. Fig. 2 is a summary of calorimetric measurements of the cosmic ray spectrum - the =all particle" spectrum - from the paper of the Akeno group in Japan. 13 As is conventional, the differential spectrum has been multiplied by a factor E 2"5 to display the steepening of the spectrum which, is clearly visible in the Akeno data around 5 x 10t5 eV.
+Model dependence of air shower spectra Because classic air shower experiments only sample the cascades at one depth,
+the conversion to primary energy and the construction of an energy spectrum is not obvious. There are at least two kinds of problems that need attention. First, the acceptance of the array is a function of energy, because bigger (i.e. more energetic and/or more deeply penetrating) showers trigger the array more efficiently. Second, the relation between observed size and primary energy depends on the properties of the hadronic interactions that make up the core of the shower, and these are not fully known at air shower energies. The latter ambiguity is illustrated by the two different
+
+173
+
+representations of the Akeno data labelled Ne (w = 1.7 GeV)and Ne (w = 1.4 GeV)
+in Fig. 2. The primary energy per nucleus is given by
+
+E0 = w x We(max),
+
+(8)
+
+where N~(max) is the number of particles in the shower at shower maximum. Both w and the correction from Ne at ground level to Ne(max) are model-dependent, although the correction to shower maximum can be done semi-empirically. 14 Despite the difficulties, there is a great deal of evidence from many experiments that the spectrum indeed steepens in the energy range between 1015 and 1016 eV.
+Establishing the composition with air shower experiments is much more difficult than estimating the all particle energy spectrum. Very little indeed is known at present. Hillas15 has argued that the bend in the spectrum is too sharp to be accounted for by a smooth steepening in rigidity of an underlying composition of the kind discussed above. Fichtel & Linsley16 argue that a new source predominates above ,-, 10is eV after the lower energy components die out, limited either by failure of the acceleration mechanism or increased escape. They further argue that this new, high energy source accelerates mostly protons. The evidence that leads to this conclusion has to do with the large fluctuations observed in various ways with air shower experiments, which would be difficult to achieve with heavy nuclei alone. The Maryland group, on the other hand, have long favored two components17 even at relatively low energy: protons and helium with steeper spectra and heavier nuclei with flatter spectra, so that the composition is predominantly heavy already at 1014 eV and through the region of the break, contrary to the Fichtel & Linsley hypothesis. In my opinion, either view could be correct.
+Possible m e c h a n i s m s to achieve E > 100 TeV. There are several ideas for new sources to provide the high energy cosmic rays.
+They can be divided into two categories, diffuse sources and point sources. Two ways in which the acceleration limit for supernova blast waves could be increased have been discussed in the literature. VSlk & Biermann TM point out that a supernova is likely to explode into the wind of the progenitor star rather than into the general interstellar medium, and that this can lead to somewhat higher energy than the estimate of Eq. 6. Jokipii19 emphasizes the role of magnetic field geometry and argues that in the equatorial region of a supernova blast wave higher energy can be obtained, because there the magnetic field is nearly perpendicular to the direction of the blast wave, and oblique shock acceleration may occur more rapidly. Termination shocks of plasma winds are possible sites at which higher energy may be achieved as a consequence of higher fields or longer time scales. Cesarsky & Montmerle have discussed strong stellar winds, s° Jokipii & Morrill 21 have suggested that the termination shock of a galactic wind may be able to accelerate cosmic rays even to 1019 to 1020 eV.
+Possible point sources of cosmic rays with energies > l0 is eV, such as accreting x-ray binaries or new supernovas, are also potential sources of TeV - PeV photons. This is a subject that has received a great deal of attention in the last decade and has been extensively reviewed. 22,2s,24 The photons would come from decay of ~°'s
+
+174
+
+produced when some of the accelerated particles collide with matter near the source. Millisecond binary pulsars, such as 1957 + 20 with a 1.6 ms period, 2s are also possible point sources. 26
+Conclusion It is clear that a direct determination of the energy spectrum of each major compo-
+nent of the cosmic radiation through the region of the knee is essential to understanding the origin,acceleration and propagation of high energy cosmic particles. At lower energies, the direct measurements of the primary composition 12,2z,2salready show interesting energy dependences, which now need to be followed up to higher energy. The total flux of particlesabove 1016 eV is about 1 particlem-2sr -I per year. Thus an exposure of several hundred square meter-years with a detector of large aperture is required. Swordy 29 has proposed a lunar calorimeter to accomplish this measurement, an idea that has been discussed further during this conference. Without an overlying atmosphere, a large calorimeter on the lunar surface could be instrumented to measure the charges of the primary nuclei directly.
+
+3 Antiprotons
+
+Indications s° that the flux of cosmic ray antiprotons may be higher than expected if the propagation history of protons and helium is the same as heavier primary nuclei (as deduced from the ratio of secondary to primary nuclei) have drawn attention to the possibility that there may be more than one type of source even at energies of several GeV. One possibility sl's2 is that a fraction (25-30%) of the observed cosmic rays comes from shrouded sources, in which enough material is traversed at the source after acceleration to produce many antiprotons, while breaking up heavy nuclei so as not to spoil the conventional diffusion or leakage models for boron/carbon, etc. Such simple models have difficulty confronting the observed 3He/4He ratio, however. The helium cross section is small enough so that this ratio would be larger than is observed, ss
+On the other hand, more exotic ideas, such as primary antimatter s4 or W I M P annihilation ss as the source of observable antiprotons now appear even more unlikely because of the recent low upper limits on the/~/p ratio below a GeV. s6,s7 These models would tend to give a relatively large flux of antiprotons at low energy. In contrast, for kinematic reasons, the flux of secondary antiprotons is supressed at kinetic energies less than about a GeV. ss The current experimental situation, as summarized in Ref. 37 (shown here as Fig. 3), suggests a secondary origin of cosmic ray antiprotons.
+The main point I wish to emphasize in this talk is that antiprotons are a unique probe of acceleration and propagation of energetic particles in the galaxy because of the high threshold for their production. The minimum process for production by a cosmic ray nucleon on interstellar hydrogen is
+
+p + H -~ p + p + p + # ,
+
+(9)
+
+which has a threshold kinetic energy 5.63 GeV. The production cross section rises from zero at threshold, increasing to about 1 mb at 100 GeV and 5 mb at 1000 GeV.
+
+i 111,i I
+
+i i i Iii~
+
+i rl
+
+,
+
+10-3
+
+175
+
+.9
+ix 10 4
+
+10 ~ 0.1
+
+AHLEN ET A L (19881 0 BOGOMOLOV ET A L (1981) · BUFFING'ION ET AL. 11981) O GOLDEN ET AL. (1978, 1984~
+THIS WORK ( 198B~
+
+iltlli 10
+Kinetic Energy (GeV)
+
+i i i i i ii 102
+
+Figure 3: Summary of antiproton data and models from Ref. 37. Other data shown is from Refs. 36a, 39, 40, 41. The final results of the new low energy experiments (Ref. 36b and Streitmatter, private communication) are somewhat lower than shown here.
+
+In contrast, spallation cross sections for processes such as
+
+1SO + H --, l°B + . - .
+
+(10)
+
+are nearly constant above a GeV and have a resonance structure below 100 MeV. 42 In addition, in nuclear spallation processes the secondary nuclei emerge with nearly the same energy per nucleon as the primary. Antiprotons, on the other hand, have considerably less energy than the projectile nucleon. (At high energy, the ratio is typically a tenth.)
+To see the consequences of these features, consider the following simple approximation for the equilibrium flux of antiprotons:
+
+dJp(E)
+
+1
+
+dt - 0 -- Qp(E) rR(E) Jp(E)
+
+(11)
+
+J~ + 1 [ ~ d.p~(E, ~ ) Jp(E')dS'
+
+r~ r~ ]E
+
+dE
+
+-SJ~(S)
+
++
+
+B f0 °°
+
+dP(E, E')
+dE
+
+J p ( E ' ) d E t.
+
+The first line of Eq. 11 is the balance between production of antiprotons and loss from the galaxy. If the antiprotons are secondaries, the source term is
+
+qp(E) -- 2 cpa F f dn,.~p Jp(Ep)dEp,
+
+(12)
+
+mH J
+
+176
+
+where Jp is the spectrum of primary protons, p the density of gas in the interstellar medium and a the proton-proton cross section. The factor F is needed to account for effects of nuclei in the interstellar gas and in the cosmic ray beam, and the explicit factor 2 accounts for antineutron production. The source spectrum of antiprotons is quite narrow, with most of the yield between 1.5 and 15 GeV.
+Leaky box model. The first line of Eq. 11 by itself represents the "leaky box" approximation for
+antiproton production. The equilibrium l~ distribution is
+
+j(0)(E) -- rR(E) Q~(E).
+
+(13)
+
+The source function for antiprotons (Eq. 12) asymptotically has the same energy dependence as the driving primary spectrum, i.e. as E ~ 0%
+
+Q~(E) ---* constant × Jp(E).
+Thus if antiprotons are produced throughout the galactic disk by a spectrum of nu-
+cleons that is the same as observed locally, then the pip ratio will decrease at high
+energy because of the energy dependence of ra (Eq. 3). This is illustrated by the lowest solid curve§ in Fig. 3 from the calculation of Protheroe. 4s (Note the important point that rR is to be evaluated at the energy of the 1~,not at the higher energy of the particle that produced it.) If some antiprotons are produced in matter traversed by primary protons near the source, then the driving primary spectrum in Eq. 12 may have a harder spectrum than the observed spectrum, for example, E -2"1 (recall the discussion of Eq. 5). This would give an asymptotically constant contribution to the
+~/p ratio.
+Closed galaxy model The second line of Eq. 11 represents attenuation of antiprotons, including anni-
+hilation as well as interactions in which an antinucleon emerges with reduced energy.
+(The latter dominate at high energy.) The interaction rate is 1/ri. Normally this term
+is unimportant (except for Eg < 1 GeV) because ra << rl. In a closed galaxy model,44 however, a fraction of the observed cosmic radiation is an %ld" component, for which the confinement time is infinite. The l~ flux produced by this component is given by an equation like (13) with rR --* rl, which can significantly enhance the antiproton
+flux.4s In this model the g/p ratio eventually approaches a constant because ri = con-
+stant. This occurs, however, only at very high energy, after the "young" component of the primary cosmic radiation (for which rR decreases according to Eq. 3) becomes
+negligible. A g/p ratio for a closed galaxy model is represented by the upper curve in Fig. 3. 43
+Reacceleration The last line of Eq. 11 represents the possibilityof reaceleration. B is the rate
+of encounters with reacceleration sites (e.g. weak interstellarshocks).46 The function
+~The escapelengthused forthiscurveis~ 50% lowerbelow 10 G V than Eq. 3.
+
+177
+d P ( E , E~)/dE characterizes the reacceleration by giving the normalized distribution of
+energies E that emerges from a reacceleration event for a group of particles injected with identical energy E ~. The implicit assumption in this approach4s is that the time to redistribute the energies of the particles is much less than the characteristic time scales 1/B and rR. There is a great deal of recent work on reacceleration or distributed acceleration of cosmic rays, which is summarized in Cesarsky's rapporteur talk at Moscow.4r Although it is apparently not possible to account for all cosmic ray acceleration as distributed acceleration simultaneous with propagation, some (weak) reacceleration is possible. Indeed, if solar cosmic rays in the heliosphere are any guide, reacceleration in the galaxy must be inevitable. For a given model of reacceleration, the energy dependence of the escape length (see Eq. 3) must be readjusted from its conventional value to reproduce the observed ratios of secondary to primary nuclei. Simon et al.4s have discussed the effect of weak reacceleration on the production of secondary antiprotons. This is the middle curve in Fig. 3.
+The general character of the Simon et al. result can be understood by considering an iterative solution of Eq. 11 valid when reacceleration is a small effect. For simplicity I neglect attenuation of antiprotons (second line of Eq. 11). Taking Eq. 13 as the unperturbed solution, the first approximation to a solution of Eq. 11 can be written
+as
+If reacceleration only increases the energy (as assumed by Simon et al.4S), then the
+upper limit to the integral in Eq. 14 is E. The unperturbed solution, --Jt°)(E), has a
+characteristic maximum at E = E~ ,~ 2 GeV of kinetic energy,ss Below that critical
+energy J(~°)(E) > ~ ° ) ( E ' ) for E' < E. For E > E, the slope is reversed, so reac-
+celeration decreases (increases) the/~ flux at E < E¢ (E > E~). In other words, if reacceleration always results in increased energy per particle, then the effect is simply to shift the injection spectrum, j(0)(E), to higher energy. Since the observed proton
+flux, to which J~(E) is compared, decreases with increasing energy, shifting the 15 spectrum to higher energy increases the ~/p ratio at high energy, as shown by the
+middle curve4s in Fig. 3. The increase tends to zero at very high energy because
+of the energy dependence of rR(E) that multiplies the second term on the right side of Eq. 14. At low energy the p/p ratio will actually fall below the leaky box result
+if all reacceleration increases particle energies. If both acceleration and deceleration occur, however, then the injected spectrum will be spread to lower as well as to higher energies. Also, for E < Ec effects of solar modulation are particularly important, 49'~ and must be taken into account. In addition, Webber & Potgieter 5° have recently emphasized that modulation is likely to depend on the sign of the charge differently at different epochs of the solar cycle.
+The solution (14) can also be used to show the effect of reacceleration on secondary
+nuclei, such as boron, by replacing J~ by Jseeondary and using the observed flux of
+primary nuclei in Eq. 12 to calculate the injection spectrum of the secondaries. Since the injection spectrum of a secondary nucleus always decreases with increasing energy
+
+178
+(at least above ,,,I00 MeV) the reaccelerationterm on the right side of (14) always adds to j($0e)condary[kE~] " more at low energy and less at high energy because of the decrease with energy of rR(E). If the energy dependence of rR(E) from the leaky box model [Eq. (3)] is used as input the secondary/primary nucleus ratio becomes steeper than observed. This is corrected by adjusting 8 so that rR(E) decreases more slowly.51
+Conclusion In their recent paper, Webber & Potgieter5° argue that the antiproton flux in the
+6-12 GeV range39 may be no more than a factor of two higher than expectation in the simplest leaky box model when the correct grammage and the correct interstellar primary spectrum are used and effects of nuclei are properly accounted for. The second two factors need further investigation~ but even if it turns out that there is little or no discrepancy between the antiproton flux in this energy range and a leaky box calculation, a high precision measurement of the energy spectrum of cosmic ray antiprotons has the potential to provide important information about cosmic ray acceleration and propagation. Secondary ~'s are injected with a relatively sharply peaked spectrum that makes them a unique probe. They give information complementary to secondary nuclei because the ~ production cross section is strongly energy dependent, increasing to high energy. In combination with measurements of helium and hydrogen isotopes and of positron and electron fluxes52,s3 a much more complete picture of cosmic ray origin becomes accessible.
+ACKNOWLEDGMENTS. I am grateful for helpful conversations with Paul Evenson, Dick Mewaldt, Randy Jokipii~ Robert Schaefer, Todor Stanev and Gary Zank. This research is supported in part by NASA grant NAGW-1644.
+
+179
+4 References
+1. V.L. Ginzburg & S.I. Syrovatskii, The Origin of Cosmic Rays (Pergamon Press,
+1 4).
+2. P.A. Evenson, "Time variation of galactic cosmic rays," Proc. Conf. on Interplanetary Particle Environment (JPL Pub. 88-28, ed. Joan Feynman and Stephan Gabriel) 149-161 (1988).
+3. R.A. Mewaldt, "The abundances of isotopes in the cosmic radiation," in Cosmic Abundances of Matter (A.I.P. Conference Proceedings 183, ed. C. Jake Waddington), 124-146 (1989).
+4. W.R. Binns et al., "The abundances of the heavier elements in the cosmic radiation," Ibid., 147-167.
+5. J.A. Simpson, "Elemental and isotopic composition of the galactic cosmic rays," Ann. Revs. Nucl. Part. Sci. 33 323-381 (1983).
+6. V.L. Ginzburg, Ya. M. Khazan & V.S. Ptuskin, "Origin of Cosmic Rays: Galactic Models with Halo", Astrophys. Spa. Sci. 68, 295-314 (1980).
+7. M. Gupta & W.R. Webber, "The Abundance of 14N at the cosmic-ray source: a study using new fragmentation cross sections", Ap. J. 340, 1124-1134 (1989).
+8. R. Blandford & D. Eichler, "Particle acceleration at astrophysical shocks: a theory of cosmic ray origin," Phys. Reports 154 1-75 (1987).
+9. W.I. Axford, "Cosmic ray acceleration," Proc. ~Oth lnt. Cosmic Ray Conf. (Moscow) 8, 120-126 (1087).
+10. P.O. Lagage & C.J. Cesarsky, "The maximum energy of cosmic rays accelerated by supernova shocks," Astron. Astrophvs. 125, 249-257 (1983).
+11. B. Peters, "Origin of cosmic radiation," Nuovo Cimento (Suppl.) 14 436-456 (1959). Also Proe. 6th Int. Cosmic Ray Conf. (Moscow) 3,157 (1960).
+12. T.H. Burnett et al. "Energy spectra of cosmic rays above 1 TeV per AMU by JACEE," OG6.1-10, XXI ICRC, Adelaide (1990).
+13. M. Nagano et al. "Energy spectrum of primary cosmic rays between 1014"5and 10TM eV," d. Phys. G 10, 1295-1310 (1984).
+14. A.M. Hillas, "A note on various versions of the primary energy spectrum," Proc. Cosmic Ray Workshop (U. of Utah, ed. T.K. Gaisser) pp..16-24 (1983).
+15. A.M. I-Iillas "The Origin of Ultra-High-Energy cosmic rays," A.M. Hillas, Ann. Rev. Astron. Astrophys. 22, 425-444 (1984).
+
+180
+16. Carl E. Fichtel & John Linsley "High-energy and ultra-high-energy cosmic rays,"
+Ap. J., 300, 474-487 (1986).
+17. H.T. Freudenreich et al. "A study ofhadrons at the cores of extensive air showers and the elemental composition of cosmic rays at 1015 eV," UMDCR Preprint 90-024 (1989). See also J.A. Goodman et al., "Delayed hadrons in extensive air showers: Evidence for the iron group nuclei in primary cosmic ray flux at energies ~ 1013-10ls eV," Phys. Rev. D26 1043 (1982).
+18. H.J. VSlk & P.L. Biermann "Maximum energy of cosmic-ray particles accelerated by supernova remnant shocks in stellar wind cavities," Ap.J. 333, L65-L68 (1988).
+19. J.R. Jokipii, "Mechanism of Particle Energy Gain at Shocks: The Role of Magnetic Field Geometry," Proc. 6th Int. Solar Wind Conf. (Estes Park, Colorado, August 1977) NCAR TN-306, vol 2, p. 481. See also Ap. J. 313,842 (1987) and 255, 716 (1982).
+20. C.J. Cesarsky and T. Montmerle, "Gamma Rays from Active Regions in the Galaxy: The Possible Contribution of Stellar Winds," Space Sei. Revs. 36, 173-93 (1983).
+21. J.R. Jokipii & G. Morrill "Ultra-high-energy cosmic rays in a galactic wind and its termination shock," Ap. J. 312, 170-177 (1987).
+22. T.C. Weekes, "Very high energy gamma-ray astronomy," Phys. Reports 160 1-121 (1988).
+23. D.E. Nagle, T.K. Gaisser & R.J. Protheroe, "Extensive air showers associated with discrete astrophysical sources," Ann. Rev. Nucl. Part. Sci. 38, 609-657 (1988).
+24. J.-M. Bonnet-Bidaud & G. Chardin, "Cygnus X-3, a critical review," Phys. Reports 1T0, 325-414 (1988).
+25. A.S. Fruchter, D.R. Stinebring ~z J.H. Taylor, "A millisecond pulsar in an eclipsing binary," Nature 333,237-239 (1988).
+26. A.K. Harding & T.K. Gaisser, "Acceleration by pulsar winds in binary systems," in preparation (1989).
+27. John M. Grunsfeld et al. "Energy spectra of cosmic-ray nuclei from 50 to 2000 GeV per AMU," Ap. 3. 327, L31-L34 (1988).
+28. J.A. Esposito et al., "Measurement of the cosmic ray iron spectrum between 60 and 200 GeV/nucleon," NASA/GSFC preprint 89-043 (1989).
+29. S.P. Swordy, "The measurement of elemental abundances above 1015 eV at a lunar base," these proceedings (1989).
+
+181
+30. S.A. Stephens & R.L. Golden, ~Recent observations of cosmic ray antiprotons and a critical assessment of the theories of their origin," Astron. Astrophys. 202 1-7 (1988). See also S.A. Stephens & R.L. Golden UThe role of antiprotons in cosmic-ray physics," Space Science Reviews 46, 31-91 (1987).
+31. P.O. Lagage & C.J. Cesarsky, "Antiprotons from thick cosmic-ray sources," Astron. Astrophys. 147, 127-134 (1985).
+32. R. Cowsik & T.K. Galsser, "Antiprotons from galactic sources of cosmic rays and gamma rays," Proc. 17th Int. Cosmic Ray Conf. (Paris) 2, 218.
+33. W.R. Webber, R.L. Golden & R.A. Mewaldt, "A reexamination of the cosmicray helium spectrum and the SHe/4He ratio at high energies," Ap. J. 312, 178-182 (1987).
+34. F.W. Stecker & A.W. Wolfendale, "The case for antiparticles in the extragalactic cosmic radiation," Nature 309, 37-38 (1984).
+35. F.W. Stecker & A.J. Tylka, "The cosmic-ray antiproton spectrum from dark matter annihilation and its astrophysical implications: a new look," Ap. J. Letters 336, L51-54 (1989).
+36. S.P. Ahlen et al., "New limit on the low-energy antiproton/proton ratio in the galactic cosmic radiation," Phys. Rev. Letters 61, 145-148 (1988). See also M.H. Salamon et al. "Limits on the antiproton/proton ratio in the cosmic radiation from 100 MeV to 1580 MeV," Ap.J. (to be published Jan. 1990).
+37. R.E. Streitmatter et al. "Experimental limit on low energy antiprotons in the cosmic radiation," Advances in Space Research 9, 65 (1989).
+38. T.K. Gaisser & E.H. Levy "Astrophysical implications of cosmic-ray antiprotons," Phys. Rev. DIO, 1731-1735 (1974).
+39. R.L. Golden et al., "Evidence for the existence of cosmic-ray antiprotons," Phys. Rev. Letters 43, 1196-1199 (1979) and "Energy dependence of the p/p ratio in cosmic rays," Astrophysical Letters 24 75-83 (1984).
+40. E.A. Bogomolov et al., "Galactic antiproton spectrum in the 0.2-5 GeV range," Proc. 20th Int. Cosmic Ray Conf. (Moscow) 2, 72-75 (1987).
+41. A. Buffington, S.M. Schindler & C.R. Pennypacker, "A measurement of the cosmic-ray antiproton flux and a search for antihelium," Ap. J. 248, 1179 (1981).
+42. M. Garcia-Munoz et al., "Cosmic-ray Propagation in the galaxy and in the heliosphere: the path-length distribution at low energy," Ap. J. (Supplements) 64, 269-304 (1987).
+
+182
+43. R.J. Protheroe, "Cosmic ray antiprotons in the closed galaxy model," Ap. J. 251, 387 (1981).
+44. B. Peters & N.J. Westergaard,"Cosmie ray propagation in a closed galaxy," Astrophys. Space Sci. 48, 21 (1977).
+45. G. Steigman, "Secondary antiprotons: A valuable cosmic ray probe," Ap. J. (Letters) 21'/, L131-133 (1977).
+46. Amri Wandel et al. "Distributed reacceleration of cosmic rays," Ap. J. 316, 676-690 (1987).
+47. C.J. Cesarsky, "Cosmic ray propagation in the interstellar medium," Proc. 20th Int. Cosmic Ray Conf. (Moscow) 8 87-119 (1987).
+48. M. Simon, U. Heinbach & Ch. Koch, "Antiproton production of propagating cosmic rays under distributed reacceleration," Ap. J. 320 699-702 (1987).
+49. J.S. Perko, "Solar modulation of galactic antiprotons," Astron. Astrophys. 184, 119-121 (1987).
+50. W.R. Webber & M.S. Potgieter, "A new calculation of the cosmic-ray antiproton spectrum in the galaxy and heliospheric modulation effects on this spectrum using a drift plus wavy current sheet model," Ap.J. 344, 779-785 (1989).
+51. M. Simon, W. Heinrich & K.D. Mathis, "Propagation of injected cosmic rays under distributed reacceleration," Ap.J. 300, 32-40 (1986).
+52. Dietrich Mfiller & Kwok-Kwong Tang, "Cosmic-ray positrons from 10 to 20 GeV: A balloon-borne measurement using the geomagnetic east-west asymmetry," Ap. J. 312 183-194 (1986).
+53. R.L. Golden et al. "Observation of cosmic ray positrons in the region from 5 to 50 GeV," Astron. Astrophys. 188,145-154 (1987).
+
+
