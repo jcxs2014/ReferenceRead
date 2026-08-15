@@ -114,6 +114,19 @@ def fix_form2_line(line):
     while i < n:
         ch = line[i]
         if ch == '$':
+            # 显示公式定界符 $$ —— 整块跳过，避免把显示公式内的前置上下标
+            # （同位素记号 ^7Li、^A_Z X 等合法 LaTeX）误判为公式割裂。
+            if line[i:i + 2] == '$$':
+                close = line.find('$$', i + 2)
+                if close != -1:
+                    # 同行完整的 $$ ... $$ 块，原样保留整块
+                    out.append(line[i:close + 2])
+                    i = close + 2
+                    continue
+                else:
+                    # 多行显示公式的开口行，本行余下内容属显示公式内部，不再处理
+                    out.append(line[i:])
+                    break
             j = line.find('$', i + 1)
             if j == -1:
                 out.append(line[i:])
