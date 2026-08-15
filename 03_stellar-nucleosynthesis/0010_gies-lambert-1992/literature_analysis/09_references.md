@@ -65,10 +65,10 @@
 |------|------|
 | Code et al. 1976 | 基本温度尺度基准 |
 | Lester, Gray & Kurucz 1986 (ApJS 61, 509) | [c1] 校准 |
-| Balona 1984 | c⁰ 校准 |
+| Balona 1984 | c$^{0}$ 校准 |
 | Underhill et al. 1979 (MNRAS 189, 601) | 绝对测光温度 |
-| Underhill & Doazan 1982 | c⁰-E(b-y) 关系 |
-| Shobbrook 1976 | 超巨星 c⁰-E(b-y) |
+| Underhill & Doazan 1982 | c$^{0}$-E(b-y) 关系 |
+| Shobbrook 1976 | 超巨星 c$^{0}$-E(b-y) |
 | Hauck & Mermilliod 1980 | Strömgren 色指数 |
 | Oblak & Chareton 1980 | 补充色指数 |
 | Crawford, Barnes & Golson 1970 | 补充色指数 |

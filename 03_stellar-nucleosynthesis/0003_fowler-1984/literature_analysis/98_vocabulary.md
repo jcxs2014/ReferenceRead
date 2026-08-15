@@ -11,7 +11,7 @@
 | 因此 | therefore / consequently | adv. | 因果 | "[FACT] 太阳中微子通量仅观测到约 1/4 的理论值，**因此**中微子振荡或恒星模型错误成为可能的解释" | 因果 |
 | 进而 | furthermore / moreover | adv. | 递进 | "[FACT] 实验测定核反应截面，**进而**通过 S 因子外推到低能区，**进而**输入恒星演化模型" | 递进 |
 | 尤其 | in particular / notably | adv. | 举例 | "[FACT] $^{12}{\rm C}$($\alpha$,$\gamma$)$^{16}{\rm O}$ 反应率**尤其**是恒星光核合成最大单一不确定度之一" | 强调 |
-| 特别是 | specifically / in particular | adv. | 举例 | "[FACT] 25 $M_\odot$ 恒星的洋葱分层结构中，Si 燃烧**特别是**产生 Ni⁵⁶ 前驱核的关键" | 举例 |
+| 特别是 | specifically / in particular | adv. | 举例 | "[FACT] 25 $M_\odot$ 恒星的洋葱分层结构中，Si 燃烧**特别是**产生 Ni$^{56}$ 前驱核的关键" | 举例 |
 | 然而 | however / yet | conj. | 转折 | "[FACT] Hoyle 共振态的预言是成功的；**然而**$^{12}{\rm C}$($\alpha$,$\gamma$)$^{16}{\rm O}$ 的 1.6 倍外推分歧至今未解" | 转折 |
 | 由于 | because / due to | prep. | 原因 | "[FACT] **由于**质量缺口 5 和 8 使大爆炸无法合成重元素，3$\alpha$→$^{12}{\rm C}$ 是唯一可行的绕道方案" | 因果 |
 | 随后 | subsequently | adv. | 顺序 | "[FACT] 主序阶段 H 燃烧结束后，**随后**恒星进入 He 燃烧阶段，3$\alpha$ 反应点燃" | 顺序 |
@@ -41,12 +41,12 @@
 | 洋葱分层 (onion-skin) | 25 $M_\odot$ 恒星从外到内 H→He→C→Ne→O→Si 依次燃烧 | 高频 | §06 |
 | 弱相互作用速率 (weak rates) | 涉及 Z 或 N 改变的反应速率；FFN (Fuller-Fowler-Newman) 数据库 | 高频 | §07 |
 | FFN 弱速率表 | Fuller, Fowler, Newman (1980–1984) 给出的弱相互作用速率数据库 | 高频 | §07 |
-| 有效 ft 值 (effective ft) | 弱衰变参量，log ft=5 对应 ⟨|M_F|²⟩ = 0.062, ⟨|M_GT|²⟩ = 0.039 | 中频 | §07 |
+| 有效 ft 值 (effective ft) | 弱衰变参量，log ft=5 对应 ⟨|M_F|$^{2}$⟩ = 0.062, ⟨|M_GT|$^{2}$⟩ = 0.039 | 中频 | §07 |
 | Hauser-Feshbach 统计模型 | 用于共振密集区域（如 Si 燃烧）的统计核反应截面方法 | 中频 | §06 |
 | FCZ 反应速率表 | Fowler, Caughlan, Zimmerman (1967/1975) 的现代核合成速率标准 | 高频 | §02 |
 | Caughlan-Fowler (1988) | 完整实验核天体物理反应速率汇编 (ADNDDT 40, 283) | 中频 | §00 |
 | 中子壳阻塞 (neutron shell blocking) | 弱速率表中涉及中子壳层阻塞效应 | 中频 | §07 |
-| $^{26}{\rm Al}$ 1809 keV $\gamma$ 线 | 银河系内 $^{26}{\rm Al}$ $\beta^{"+" if m.group(1)=="⁺" else "-"}$ 衰变伴随的特征 $\gamma$ 线，证明核合成"今天"仍在进行 | 高频 | §08 |
+| $^{26}{\rm Al}$ 1809 keV $\gamma$ 线 | 银河系内 $^{26}{\rm Al}$ $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变伴随的特征 $\gamma$ 线，证明核合成"今天"仍在进行 | 高频 | §08 |
 | Cas A (仙后座 A) | 年轻超新星遗迹；Fowler 用其丰度检验核合成模型 | 中频 | §08 |
 | 核宇宙化学计时 (cosmochronology) | 用放射性核素（$^{232}{\rm Th}$, $^{235}{\rm U}$, $^{238}{\rm U}$, $^{187}{\rm Re}$）反推银河系年龄 | 高频 | §10 |
 | "eon glasses" | Fowler 诗意的叫法：放射性核素像"亿年玻璃"记录时间 | 中频 | §10 |

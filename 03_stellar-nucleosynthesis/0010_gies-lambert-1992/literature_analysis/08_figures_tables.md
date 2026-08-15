@@ -95,14 +95,14 @@
 2. **元素**：本文 vs Uesugi & Fukuda (1970)（空心圆）；本文 vs Slettebak et al. (1975)（填充圆，5 星）。
 3. **关键数值**：
    - 与 Slettebak 良好一致；
-   - **HD 24131 例外**：本文 75 vs 目录 140 km s⁻¹。
+   - **HD 24131 例外**：本文 75 vs 目录 140 km s$^{-1}$。
 
 ---
 
 ### Figure 9 — LTE vs non-LTE microturbulence（p.683）
 
 1. **目的**：展示 LTE 与 non-LTE $\xi$ 对比，证明 non-LTE 效应主要影响超巨星。
-2. **坐标**：横轴 $\xi$ (LTE) (km s⁻¹)，纵轴 $\xi$ (non-LTE)。
+2. **坐标**：横轴 $\xi$ (LTE) (km s$^{-1}$)，纵轴 $\xi$ (non-LTE)。
 3. **元素**：超巨星（填充圆）、其他星（空心圆）。
 4. **关键观察**：
    - 非超巨星：$\xi$ (LTE) ≈ 6, $\xi$ (non-LTE) ≈ 5（接近对角线）；
@@ -114,7 +114,7 @@
 ### Figure 10 — Microturbulence vs T_eff（p.684，隐含）
 
 1. **目的**：展示 $\xi$ 随 T_eff 变化。
-2. **关键数值**：$\xi$(NLTE) = 4 km s⁻¹ at 17,000 K → 6 km s⁻¹ at 30,000 K。
+2. **关键数值**：$\xi$(NLTE) = 4 km s$^{-1}$ at 17,000 K → 6 km s$^{-1}$ at 30,000 K。
 
 ---
 
@@ -222,7 +222,7 @@
 
 ### Table 1 — Stellar Parameters（p.675）
 
-- 39 颗星的全参数：HD、HR、常用名、光谱型、[c1]、c⁰、T_eff、log g、V sin i、$\xi$(LTE)、$\xi$(NLTE)。
+- 39 颗星的全参数：HD、HR、常用名、光谱型、[c1]、c$^{0}$、T_eff、log g、V sin i、$\xi$(LTE)、$\xi$(NLTE)。
 - 是全篇丰度分析的基础输入参数表。
 
 ### Table 2 — Observed Spectral Regions（p.675）

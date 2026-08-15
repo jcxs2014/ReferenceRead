@@ -14,7 +14,7 @@
 
 ### (i) Hydrogen Burning
 - 主序星的能量来源。
-- 合成产物：He⁴（主要）；以及不被 (ii)、(iii) 覆盖的 C/N/O/F/Ne/Na 同位素。
+- 合成产物：He$^{4}$（主要）；以及不被 (ii)、(iii) 覆盖的 C/N/O/F/Ne/Na 同位素。
 - 详细讨论见第 III 章。
 
 ### (ii) Helium Burning
@@ -66,13 +66,13 @@
 - **sr** / **rs**：一个过程主导、另一个过程有少量贡献。
 - **m** (in parentheses)：幻数核（N=14, 20, 28, 50, 82, 126）——s 过程封闭壳核。
 - **m'** (in parentheses)：r 过程的产物，其前身具有 50/82/126 中子的封闭壳。
-- **return**：轻核中会发生导致 A 减小的反应（如 Li⁶）——标为"返回"。
+- **return**：轻核中会发生导致 A 减小的反应（如 Li$^{6}$）——标为"返回"。
 
 ### "屏蔽"与"屏蔽者" [FACT]
 - 某些同位素被**屏蔽**（shielded）——它们不可能通过中子俘获链从邻近核到达（因为邻近核的 (n,$\gamma$) 截面极小）。
 - "被 r 过程屏蔽" → 意味着该同位素只能由 s 过程产生。
 - "被 s 过程屏蔽" → 意味着该同位素只能由 r 过程产生。
-- **Kr⁷⁸, Kr⁸⁰**：只由 s 过程产生，被 r 过程中的 Se⁷⁶, Se⁷⁸ 屏蔽。
+- **Kr$^{78}$, Kr$^{80}$**：只由 s 过程产生，被 r 过程中的 Se$^{76}$, Se$^{78}$ 屏蔽。
 - **p 过程核**：它们位于中子俘获链的"上方"（质子更富集一侧），不可能由 s 或 r 过程的直接中子俘获到达。
 
 ### 关键判据 [FACT]
@@ -96,7 +96,7 @@
 
 ### (2) Helium Burning
 - 发生在红巨星阶段。
-- 核心温度 **~$10^{8}$ K**，密度 **~$10^{5}$ g/cm³**。
+- 核心温度 **~$10^{8}$ K**，密度 **~$10^{5}$ g/cm$^{3}$**。
 - 由 Hoyle & Schwarzschild 计算：允许 $^{12}{\rm C}$ 合成。
 - 时间标度：**$10^{7}$–$10^{8}$ yr**。
 
@@ -114,20 +114,20 @@
 | p 过程 | 与 r 相当 | 超新星 II 型 |
 
 **[FACT] r 过程的观测证据**：
-> "The spontaneous fission of Cf²⁵⁴ is responsible for the form of the decay light curves of supernovae of Type I which have an exponential form with a half-life near 55 days..." — Burbidge (Bu56)
+> "The spontaneous fission of Cf$^{254}$ is responsible for the form of the decay light curves of supernovae of Type I which have an exponential form with a half-life near 55 days..." — Burbidge (Bu56)
 - 超新星爆发的爆炸相可能短至 **100–1000 s**。
 
 ### (5) s 过程时间标度 [FACT]
 **两个指示器（两个时间标度）：**
 
 **① 来自 Kr 同位素 [FACT]**
-- 在 Se⁷⁸（$\beta$ 半衰期 $7\times10^{5}$ yr）处的 s 过程回路。
+- 在 Se$^{78}$（$\beta$ 半衰期 $7\times10^{5}$ yr）处的 s 过程回路。
 - 在 Fe 附近（$\sigma$=30 mb）的中子俘获半衰期：**$~5\times10^{6}$ yr**。
 - 从 Fe 起总时间 ~$10^{6}$–$10^{7}$ yr（长时标），对应**中子匮乏**（每个 Fe 核 ~5 个中子）。
 
 **② 来自 Gd 同位素 (A=152, 154) [FACT]**
-- Sm¹⁴⁷（$\beta$ 半衰期 80 yr）必须在 $\beta$ 衰变前先俘获中子。
-- 得到 t_$\gamma$(Sm¹⁴⁷) ≈ **5 yr**（在 A=150 附近）。
+- Sm$^{147}$（$\beta$ 半衰期 80 yr）必须在 $\beta$ 衰变前先俘获中子。
+- 得到 t_$\gamma$(Sm$^{147}$) ≈ **5 yr**（在 A=150 附近）。
 - 折算到 Fe 附近：**$10^{4}$ yr**。
 - 对应 **100 中子/Fe 核** 量级的充裕中子条件。
 
@@ -148,29 +148,29 @@
 ## 2.7 关键公式
 
 ### 2.7.1 s 过程稳态流方程（Kr 回路）[FACT]
-对 Se⁷⁸ 回路下的 Kr 同位素：
+对 Se$^{78}$ 回路下的 Kr 同位素：
 ```
-N(Kr⁸⁰)·$\lambda_\gamma$(Kr⁸⁰) = 0.92 · N(Se⁷⁸)·$\lambda_\gamma$(Se⁷⁸)
-N(Kr⁸²)·$\lambda_\gamma$(Kr⁸²) = $\lambda_\gamma$(Se⁸⁰)·N(Se⁸⁰) + $\lambda_\beta$(Kr⁸¹)·N(Kr⁸¹)
+N(Kr$^{80}$)·$\lambda_\gamma$(Kr$^{80}$) = 0.92 · N(Se$^{78}$)·$\lambda_\gamma$(Se$^{78}$)
+N(Kr$^{82}$)·$\lambda_\gamma$(Kr$^{82}$) = $\lambda_\gamma$(Se$^{80}$)·N(Se$^{80}$) + $\lambda_\beta$(Kr$^{81}$)·N(Kr$^{81}$)
 ```
-系数 0.92 来自 Se⁷⁸ 回路中 Br 的 $\beta$ 衰变分支比（92%）。
+系数 0.92 来自 Se$^{78}$ 回路中 Br 的 $\beta$ 衰变分支比（92%）。
 
 ### 2.7.2 时间比 [FACT]
 ```
-t_$\gamma$(Se⁷⁸) + t_$\beta$(Se⁷⁸) / t_$\gamma$(Kr⁸⁰)·$\lambda_\gamma$(Kr⁸⁰) = 0.92 / t_$\gamma$(Se⁷⁸)·$\lambda_\gamma$(Kr⁸⁰)
+t_$\gamma$(Se$^{78}$) + t_$\beta$(Se$^{78}$) / t_$\gamma$(Kr$^{80}$)·$\lambda_\gamma$(Kr$^{80}$) = 0.92 / t_$\gamma$(Se$^{78}$)·$\lambda_\gamma$(Kr$^{80}$)
 ```
 最终得出：
 ```
-t_$\gamma$(Se⁷⁸) ≈ $5\times10^{6}$ yr (在 A≈40 区)
-t_$\gamma$(Fe⁵⁶) ≈ $6\times10^{6}$ yr (按 $\sigma$ 折算，$\sigma$=30 mb)
+t_$\gamma$(Se$^{78}$) ≈ $5\times10^{6}$ yr (在 A≈40 区)
+t_$\gamma$(Fe$^{56}$) ≈ $6\times10^{6}$ yr (按 $\sigma$ 折算，$\sigma$=30 mb)
 ```
 
 ## 2.8 数值亮点
 
 - **每个 Fe 核 ~5 个中子**（长时标 s 过程） vs **~100 中子/Fe 核**（短时标 s 过程）。
 - r 过程：**~200 中子/Fe 核** 在 10–100 s 内。
-- Tc⁹⁹ 半衰期：$2\times10^{6}$ yr —— 直接证明红巨星内的 s 过程。
-- 蟹状星云超新星：$^{56}{\rm Ni}$ → $^{56}{\rm Co}$ 衰变链（~55 天 e-fold），暗示 Cf²⁵⁴ 自发裂变。
+- Tc$^{99}$ 半衰期：$2\times10^{6}$ yr —— 直接证明红巨星内的 s 过程。
+- 蟹状星云超新星：$^{56}{\rm Ni}$ → $^{56}{\rm Co}$ 衰变链（~55 天 e-fold），暗示 Cf$^{254}$ 自发裂变。
 
 ## 2.9 作者论证链
 
@@ -185,12 +185,12 @@ t_$\gamma$(Fe⁵⁶) ≈ $6\times10^{6}$ yr (按 $\sigma$ 折算，$\sigma$=30 m
 
 ## 2.10 [INTERPRETATION]
 
-1. **Tc⁹⁹ 证据**是本论文最具分水岭意义的观测支撑——它将"恒星核合成"从一个假设升级为**当前正在发生**的过程。
+1. **Tc$^{99}$ 证据**是本论文最具分水岭意义的观测支撑——它将"恒星核合成"从一个假设升级为**当前正在发生**的过程。
 2. 稳态流 ($\sigma$N=const) 判据在**今天**仍然是 s 过程理论的核心工具，本文首次将其系统化。
 3. "屏蔽同位素"的概念直接决定了哪些同位素属于 s only、r only、或 p only——是后续所有同位素归属判据的基石。
 
 ## 2.11 [CRITIQUE]
 
-1. 作者对 r 过程"10–100 s"时间标度的论证依赖 Cf²⁵⁴ 自发裂变的假设，**今日已知 Cf²⁵⁴ 半衰期为 60.5 天，不是 r 过程核素的直接证据**——后来证实超新星中主要供能核素是 $^{56}{\rm Ni}$/$^{56}{\rm Co}$（而非 Cf²⁵⁴）。这是 B$^2$FH 论文中最著名的**历史误判**之一。
+1. 作者对 r 过程"10–100 s"时间标度的论证依赖 Cf$^{254}$ 自发裂变的假设，**今日已知 Cf$^{254}$ 半衰期为 60.5 天，不是 r 过程核素的直接证据**——后来证实超新星中主要供能核素是 $^{56}{\rm Ni}$/$^{56}{\rm Co}$（而非 Cf$^{254}$）。这是 B$^2$FH 论文中最著名的**历史误判**之一。
 2. r 过程的"10–100 s"被后来的**快中子俘获（rapid neutron-capture）理论**保留，但其实际场所更可能是 **neutron star mergers**（2017 年 GW170817 事件后确认）。
 3. s 过程的"$10^{3}$–$10^{7}$ yr"时间标度被**现代 AGB 星模型**验证（~$10^{4}$–$10^{5}$ yr），但中子源 $^{12}{\rm C}$($\alpha$,n) 在现代 AGB 模型中是主要中子源，而非论文强调的 $^{20}{\rm Ne}$($\alpha$,n)。

@@ -143,18 +143,18 @@ References
 | Zwicky 1937 得 Coma 质量下限 | $4.5\times10^{13}$ M⊙，星系均质 $4.5\times10^{10}$ M⊙，M/L≈500 | Zwicky 1937 |
 | Smith 1936 Virgo 总质量 | $10^{14}$ M⊙；每星系数均 $2\times10^{11}$ M⊙ | Smith 1936 |
 | Schwarzschild 1954 M/L | 800 | Schwarzschild 1954 |
-| Oort 1932 太阳附近总密度 | 0.092 M⊙/pc³ = $6.3\times10^{-24}$ g/cm³ | Oort 1932 |
-| Kapteyn 值 | 0.099 M⊙/pc³；Jeans 0.143；Lindblad 0.217 | Oort 1932 引用 |
-| 暗物质最大允许（Oort 结论） | ≤0.05 M⊙/pc³ = $3\times10^{-24}$ g/cm³ | Oort 1932 |
-| MOND $a_{0}$ | $≈1.2\times10^{-10}$ m/s² | Milgrom 1983 |
+| Oort 1932 太阳附近总密度 | 0.092 M⊙/pc$^{3}$ = $6.3\times10^{-24}$ g/cm$^{3}$ | Oort 1932 |
+| Kapteyn 值 | 0.099 M⊙/pc$^{3}$；Jeans 0.143；Lindblad 0.217 | Oort 1932 引用 |
+| 暗物质最大允许（Oort 结论） | ≤0.05 M⊙/pc$^{3}$ = $3\times10^{-24}$ g/cm$^{3}$ | Oort 1932 |
+| MOND $a_{0}$ | $≈1.2\times10^{-10}$ m/s$^{2}$ | Milgrom 1983 |
 | 微透镜事件时长 | t ≈130 d × (M/M⊙)^0.5 | Paczynski 1986 |
 | 微透镜光学深度 | ≈1/($2\times10^{6}$) | Paczynski 1986 |
-| $\Omega_{\rm b}$ h²（CMB, Burles 2001） | 0.020 ± 0.002 (95% CL) | Burles, Nollett & Turner 2001 |
-| $\Omega_{\rm b}$ h²（WMAP） | 0.02264 ± 0.00050 (68%) | Hinshaw et al. 2013 |
-| $\Omega_{\rm b}$ h²（Planck） | 0.02225 ± 0.00016（<1% 精度） | Ade et al. 2015 |
+| $\Omega_{\rm b}$ h$^{2}$（CMB, Burles 2001） | 0.020 ± 0.002 (95% CL) | Burles, Nollett & Turner 2001 |
+| $\Omega_{\rm b}$ h$^{2}$（WMAP） | 0.02264 ± 0.00050 (68%) | Hinshaw et al. 2013 |
+| $\Omega_{\rm b}$ h$^{2}$（Planck） | 0.02225 ± 0.00016（<1% 精度） | Ade et al. 2015 |
 | 重子物质占比 | < 20% 的宇宙物质 | 综述结论 |
 | 冷原初黑体质量范围 | $10^{14}$ – $10^{23}$ kg | 综述引用微透镜+γ射线 |
-| WIMP 湮灭截面 | $\sigma$v ~ $10^{-26}$ cm³/s | Steigman & Turner 1985 |
+| WIMP 湮灭截面 | $\sigma$v ~ $10^{-26}$ cm$^{3}$/s | Steigman & Turner 1985 |
 | 中微子质量上限（Zeldovich-Gershtein 1966） | ≲ 400 eV | Gershtein-Zeldovich 1966 |
 | 中微子质量上限（Cowsik-McClelland 1972） | ≲ 8 eV | Cowsik-McClelland 1972 |
 | 中微子质量上限（Lubimov 1980 氚 $\beta$ 衰变） | ~30 eV（后被推翻） | Lubimov et al. 1980 |

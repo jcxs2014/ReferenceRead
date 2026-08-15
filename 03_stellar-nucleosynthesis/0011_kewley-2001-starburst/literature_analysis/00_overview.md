@@ -64,7 +64,7 @@ path: 03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/
 ## 0.5 核心贡献
 
 - 理论星暴分类线（BPT 图）：区分星暴、AGN、复合区域
-- W-R 星物理：发射测度 ∝ (Ṁ/v∞)²R*⁻³
+- W-R 星物理：发射测度 ∝ (Ṁ/v∞)$^{2}$R*$^{-3}$
 - 提出 continuum metal blanketing 解决 EUV 硬度问题
 
 ---

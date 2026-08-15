@@ -36,7 +36,7 @@ $$\Delta\log\varepsilon = \frac{\partial W_\lambda/\partial T_\text{eff}}{\parti
 $$\log\varepsilon(T_\text{eff}) = \langle\log\varepsilon\rangle + f\left[\frac{\partial W_\lambda}{\partial T_\text{eff}}\frac{\partial\log\varepsilon}{\partial W_\lambda}\right]_{T_\text{eff}}$$
 
 - 方括号项用 T_eff = 15,000–33,000 K 网格计算；
-- 偏导基于 log g = 4.0、$\xi$ = 5 km s⁻¹、太阳丰度的 EW 表（WIDTH6 LTE 或 Becker & Butler non-LTE）；
+- 偏导基于 log g = 4.0、$\xi$ = 5 km s$^{-1}$、太阳丰度的 EW 表（WIDTH6 LTE 或 Becker & Butler non-LTE）；
 - 方括号项在**最大 EW 温度**处 = 0，因此该温度下的 log $\epsilon$ 定义了均值 ⟨log $\epsilon$⟩；
 - 用 Bevington (1969) CURFIT 做最小二乘拟合（去除超巨星）。
 
@@ -158,8 +158,8 @@ $$\log\varepsilon(T_\text{eff}) = \langle\log\varepsilon\rangle + f\left[\frac{\
 [FACT] **数值量化**（用 Becker & Butler 1988a 表，N II $\lambda$4630 线）：
 - 太阳丰度，T_eff = 21,000 K, log g = 4, $\xi$ = 0：W$\lambda$ = **57 mÅ**
 - log g = 3.5：W$\lambda$ = **75 mÅ**（+32%）
-- $\xi$ = 5 km s⁻¹：W$\lambda$ = **69 mÅ**（+21%）
-- $\xi$ = 10 km s⁻¹：W$\lambda$ = **88 mÅ**（+54%）
+- $\xi$ = 5 km s$^{-1}$：W$\lambda$ = **69 mÅ**（+21%）
+- $\xi$ = 10 km s$^{-1}$：W$\lambda$ = **88 mÅ**（+54%）
 
 假设 log g = 4、$\xi$ = 0 时**推导的丰度增量**：
 - log g → 3.5：**+0.32 dex**
@@ -241,7 +241,7 @@ $$\log\varepsilon(T_\text{eff}) = \langle\log\varepsilon\rangle + f\left[\frac{\
 
 [CRITIQUE]
 1. 温度修正 f=0.034 假设对所有物种相同，但表 10 显示不同物种最佳拟合 f 在 0.016–0.054 之间变化，用单一 f 会引入物种间 ~0.02–0.04 dex 系统偏差；
-2. 温度修正的偏导基于 log g = 4.0、$\xi$ = 5 km s⁻¹、太阳丰度——对超巨星（log g 2–3.7，$\xi$ 8–23）此近似**很差**，因此超巨星丰度"未修正"本身也是问题；
+2. 温度修正的偏导基于 log g = 4.0、$\xi$ = 5 km s$^{-1}$、太阳丰度——对超巨星（log g 2–3.7，$\xi$ 8–23）此近似**很差**，因此超巨星丰度"未修正"本身也是问题；
 3. 若 He 富集影响大质量超巨星的温度/重力（Kudritzki et al. 1989 指出），则这些星的丰度**系统性**受影响；
-4. N-rich 星的**选择偏差**：V sin i < 100 km s⁻¹ 的样本**天然排除最快转者**，而这些恰恰是 Maeder 湍流混合最强的子集——因此本文可能**低估**了旋转混合的普遍性；
+4. N-rich 星的**选择偏差**：V sin i < 100 km s$^{-1}$ 的样本**天然排除最快转者**，而这些恰恰是 Maeder 湍流混合最强的子集——因此本文可能**低估**了旋转混合的普遍性；
 5. C+N 守恒的定量检验在本文中**未系统展示**——只在 § 1 提及 Lyubimkov (1989) 的结论，本文自己的 C+N 分布未直接画出（仅间接在图 16 讨论 C vs N）。

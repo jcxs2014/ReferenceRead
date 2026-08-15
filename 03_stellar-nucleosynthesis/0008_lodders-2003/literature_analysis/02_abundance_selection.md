@@ -117,9 +117,9 @@ $$U(\%) = \mp 100 (10^{\mp a} - 1)$$
 
 ### 2.5.2 氦（§ 2.3.1.1，关键论证链）
 
-[FACT] **历史做法**：Anders & Grevesse (1989) 从 H II 区与类太阳金属度 B 星推导 A(He)₀ = 10.99，假设 (Z/X)₀ ≈ (Z/X)_present，即忽略沉降。
+[FACT] **历史做法**：Anders & Grevesse (1989) 从 H II 区与类太阳金属度 B 星推导 A(He)$_{0}$ = 10.99，假设 (Z/X)$_{0}$ ≈ (Z/X)_present，即忽略沉降。
 
-[FACT] **新认识（SSM + 日震学）**：自 Christensen-Dalsgaard (1998)、Gabriel (1997)、Boothroyd & Sackmann (2003) 起，**标准太阳模型已纳入 He 与重元素扩散**，明确 (Z/X)₀ > (Z/X)_present。
+[FACT] **新认识（SSM + 日震学）**：自 Christensen-Dalsgaard (1998)、Gabriel (1997)、Boothroyd & Sackmann (2003) 起，**标准太阳模型已纳入 He 与重元素扩散**，明确 (Z/X)$_{0}$ > (Z/X)_present。
 
 [FACT] **作者反驳"Z/X 约束"论点**：
 > "The agreement of relative abundances of rock-forming elements in photosphere and meteorites cannot be taken as an argument that heavy-element settling does not occur."
@@ -147,7 +147,7 @@ $$(Z_0/X_0) = 6.545 \pm 0.937 \times 10^{-4} + 1.150 \pm 0.004 \cdot (Z/X)$$
 [FACT] **原始 $Y_{0}$** 与大气 Y 关系：
 $$Y_0 = 0.1685 \pm 0.009 + 0.4441 \pm 0.0357 \cdot Y$$
 → **$Y_{0}$ = 0.2741 ± 0.0120**，$X_{0}$ = 0.7110，$Z_{0}$ = 0.0149
-→ **A(He)₀ = 10.984 ± 0.019**
+→ **A(He)$_{0}$ = 10.984 ± 0.019**
 
 ### 2.5.3 Z/X 演化史（表 5）
 
@@ -251,7 +251,7 @@ $$(Z/X)/(Z_0/X_0) = 0.8429 \Rightarrow A(\text{El})_0 = A(\text{El}) + 0.074 \te
 
 [FACT] 含义：**约 16% 重元素从大气沉降到太阳内部，约 18% He 沉降**。
 
-[FACT] 表 2 的宇宙化学标尺上，除 H、He 外，所有元素 A(El)₀ = A(El)（因为归一化到 Si = $10^{6}$，Si 是重元素，已吸收分馏）；**差异表现在 $H_{0}$ ≈ 0.84 × H（大气 H 偏少）与 $He_{0}$ ≈ 1.02 × He（大气 He 偏少）**。
+[FACT] 表 2 的宇宙化学标尺上，除 H、He 外，所有元素 A(El)$_{0}$ = A(El)（因为归一化到 Si = $10^{6}$，Si 是重元素，已吸收分馏）；**差异表现在 $H_{0}$ ≈ 0.84 × H（大气 H 偏少）与 $He_{0}$ ≈ 1.02 × He（大气 He 偏少）**。
 
 ---
 
@@ -269,7 +269,7 @@ $$(Z/X)/(Z_0/X_0) = 0.8429 \Rightarrow A(\text{El})_0 = A(\text{El}) + 0.074 \te
 - **He**：$^{3}{\rm He}$/$^{4}{\rm He}$ = 1.66 ± $0.05\times10^{-4}$（Jupiter 大气作为 protosolar 代表）
 - **Ne, Ar, Kr, Xe**：采用 Wieler (2002) 太阳风同位素比
 
-[FACT] 表 6 中 * 号标记给出 **4.55 Gyr 前的放射性/衰变产物丰度**（$^{87}{\rm Rb}$*, $^{87}{\rm Sr}$*, $^{147}{\rm Sm}$*, $^{143}{\rm Nd}$*, $^{176}{\rm Lu}$*, $^{176}{\rm Hf}$*, $^{187}{\rm Re}$*, $^{187}{\rm Os}$*, $^{235}{\rm U}$*, $^{238}{\rm U}$*, $^{232}{\rm Th}$*, ²⁰⁶/²⁰⁷/$^{208}{\rm Pb}$* 等）。
+[FACT] 表 6 中 * 号标记给出 **4.55 Gyr 前的放射性/衰变产物丰度**（$^{87}{\rm Rb}$*, $^{87}{\rm Sr}$*, $^{147}{\rm Sm}$*, $^{143}{\rm Nd}$*, $^{176}{\rm Lu}$*, $^{176}{\rm Hf}$*, $^{187}{\rm Re}$*, $^{187}{\rm Os}$*, $^{235}{\rm U}$*, $^{238}{\rm U}$*, $^{232}{\rm Th}$*, $^{206}$/$^{207}$/$^{208}{\rm Pb}$* 等）。
 
 ---
 
@@ -280,7 +280,7 @@ $$(Z/X)/(Z_0/X_0) = 0.8429 \Rightarrow A(\text{El})_0 = A(\text{El}) + 0.074 \te
   → 认识：大气受沉降影响，金属度低 ~16%
     → 方法：SSM 标度（Boothroyd & Sackmann 2003）从 Z/X 推导 Y、$Y_{0}$、$Z_{0}$
       → 关键关系式（式 3–5）
-        → 重建原始太阳丰度（A(El)₀ = A(El) + 0.074）
+        → 重建原始太阳丰度（A(El)$_{0}$ = A(El) + 0.074）
           → 陨石精炼岩石元素的相对丰度
             → 惰性气体由太阳风/SEP/NSE 插值
               → 表 1 大气 + 表 2 太阳系 + 表 6 同位素 = 自洽基准

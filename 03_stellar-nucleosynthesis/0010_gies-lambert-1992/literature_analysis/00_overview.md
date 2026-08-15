@@ -72,7 +72,7 @@ ABSTRACT
    - Maeder 湍流扩散混合；Bolton & Rogers 近距离双星潮汐混合
    - 本文任务：检验演化 C/N/O 变化
 2. OBSERVATIONS AND EQUIVALENT WIDTHS
-   - 39 颗早期 B 星（09–B3）；V sin i < 100 km s⁻¹；含 5 颗超巨星
+   - 39 颗早期 B 星（09–B3）；V sin i < 100 km s$^{-1}$；含 5 颗超巨星
    - UT McDonald 2.1 m + coudé 光谱仪；Reticon RL1728H/20；S/N ≈ 300/pixel
    - 7 个光谱带（表 2）
    - 数据归算：flat-field、斜率/曲率校正、telluric 校正（Fourier 滤波）
@@ -80,7 +80,7 @@ ABSTRACT
    - 与 Aller & Jugaku 1958、Kane et al. 1980、Kilian & Nissen 1989 比较（图 4）
 3. EFFECTIVE TEMPERATURES AND GRAVITIES
    - 色指数 Balmer 跳变 + H$\beta$ 轮廓 + Kurucz 模型迭代法
-   - [c1] = c1 − 0.2(b−y)（式 1）；c⁰ = c1 − 0.2E(b−y)（式 2）
+   - [c1] = c1 − 0.2(b−y)（式 1）；c$^{0}$ = c1 − 0.2E(b−y)（式 2）
    - Lester et al. 1986 与 Balona 1984 双校准 + Code et al. 1976 校正因子 1.042/1.052
    - 温度误差 2%–4%，重力误差 $\Delta$ log g = 0.1；与 Wolff 1990 比较 $\Delta$ log g = 0.06 ± 0.10
 4. PROJECTED ROTATIONAL VELOCITIES
@@ -91,8 +91,8 @@ ABSTRACT
 5. LTE ABUNDANCES
    - Kurucz (1979) 大气 + WIDTH6；表 4 原子数据（log gf、Tr、$\Gamma$S）
    - 微湍流 $\xi$ 由 log $\epsilon$ vs EW 零斜率确定；对 C II、N II、O II（有时 S II）分别确定
-   - 非超巨星：⟨$\xi$(LTE)⟩ = 6.2 km s⁻¹；⟨$\xi$(NLTE)⟩ = 5.0 km s⁻¹
-   - 超巨星：⟨$\xi$(LTE)⟩ = 23 km s⁻¹（超声速，暗示非 LTE 偏离）；⟨$\xi$(NLTE)⟩ = 8.9 km s⁻¹
+   - 非超巨星：⟨$\xi$(LTE)⟩ = 6.2 km s$^{-1}$；⟨$\xi$(NLTE)⟩ = 5.0 km s$^{-1}$
+   - 超巨星：⟨$\xi$(LTE)⟩ = 23 km s$^{-1}$（超声速，暗示非 LTE 偏离）；⟨$\xi$(NLTE)⟩ = 8.9 km s$^{-1}$
    - 表 5 LTE 平均丰度
 6. ABUNDANCES FROM NON-LTE CALCULATIONS
    - Becker & Butler 表：C II (Eber & Butler 1988, Becker 1988)、N II (Becker & Butler 1988a, Becker 1988)、O II (Becker & Butler 1988b)
@@ -141,7 +141,7 @@ REFERENCES
 3. **Lyubimkov 反证**：以自身数据复现其"假相关"并给出量级估算（0.32 dex / 0.22 dex / 0.90 dex），把争议从"是否真实演化效应"转为"恒星参数误设的伪相关"；
 4. **与 H II 区对比**：以 Orion 关联星（8 颗）直接比对年轻恒星与电离气体的化学组成，给出早期 B 星丰度 ≈ 星云丰度的经验性基线。
 
-[CRITIQUE] 局限：数据基于 1985–1987 年老 Reticon 光谱，S/N=300/pixel 且分辨率 0.21–0.43 Å；He I 丰度依赖 Auer & Mihalas (1973a) 简化幂律，超巨星 He 值不确定度很大；V sin i > 100 km s⁻¹ 的恒星被排除（即快速自转者，而旋转恰是 Maeder 混合的关键驱动者），因此本样本**天然偏慢转**，可能低估旋转混合的整体效应。
+[CRITIQUE] 局限：数据基于 1985–1987 年老 Reticon 光谱，S/N=300/pixel 且分辨率 0.21–0.43 Å；He I 丰度依赖 Auer & Mihalas (1973a) 简化幂律，超巨星 He 值不确定度很大；V sin i > 100 km s$^{-1}$ 的恒星被排除（即快速自转者，而旋转恰是 Maeder 混合的关键驱动者），因此本样本**天然偏慢转**，可能低估旋转混合的整体效应。
 
 ---
 

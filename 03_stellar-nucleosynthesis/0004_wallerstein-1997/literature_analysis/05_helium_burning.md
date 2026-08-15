@@ -23,7 +23,7 @@
 ## 5.2 A. Triple-$\alpha$ capture
 
 [FACT] **两阶段过程**：
-1. 两个 $\alpha$ 粒子在 8Be 基态（非束缚，半衰期 $t_{1}$/₂ = 0.97×10^(-16) s）中短暂共存
+1. 两个 $\alpha$ 粒子在 8Be 基态（非束缚，半衰期 $t_{1}$/$_{2}$ = 0.97×10^(-16) s）中短暂共存
 2. 第三个 $\alpha$ 粒子在 8Be 衰变前被俘获，形成 12C** (Ex = 7.6542 MeV, J^$\pi$ = $0^{+}$)
 
 [FACT] **Hoyle (1954) 的预言**：为解释观测到的 12C 丰度，必须存在 Ex ~ 7.65 MeV 的 $0^{+}$ 共振态——被实验验证，是核天体物理最杰出的成就之一
@@ -32,7 +32,7 @@
 $$r_{3\alpha} = \frac{N_\alpha^3}{3} \cdot 2^{33/2} \cdot \left(\frac{2\pi}{M_\alpha k T}\right)^{3/2} \cdot \frac{\Gamma_\alpha \Gamma_{rad}}{\Gamma} \exp\left(\frac{-Q}{kT}\right)$$
 
 [FACT] 关键参数（Ajzenberg-Selove 1990）：
-- Q = (M_12C** − 3M_$\alpha$)c² = 379.5 ± 0.3 keV
+- Q = (M_12C** − 3M_$\alpha$)c$^{2}$ = 379.5 ± 0.3 keV
 - $\Gamma_\gamma$ = (3.64 ± 0.50) meV
 - $\Gamma_{\rm pair}$ = (60.5 ± 3.9) meV
 - $\Gamma_{\rm rad}$ = $\Gamma_\gamma$ + $\Gamma_{\rm pair}$ << $\Gamma_\alpha$ ≈ $\Gamma$ → 速率仅依赖 $\Gamma_{\rm rad}$
@@ -46,7 +46,7 @@ $$r_{\alpha+12C} = N_\alpha N_{12C} \langle \sigma_{cap} v \rangle_T$$
 
 [FACT] 截面参数化：
 $$\sigma_{cap}(E) = \frac{S_{cap}(E)}{E} \exp(-2\pi\eta)$$
-- $\eta$ = $Z_{1}$$Z_{2}$e²/ℏv（Sommerfeld 库仑参数）
+- $\eta$ = $Z_{1}$$Z_{2}$e$^{2}$/ℏv（Sommerfeld 库仑参数）
 - S_cap(E) = S_E1(E) + S_E2(E)（E1 + E2 多极分量）
 
 [FACT] **Gamow 能量**：在氦燃烧温度 $T_{9}$ = 0.2–0.6 下，$E_{0}$ = 0.3–0.9 MeV

@@ -43,7 +43,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/98_vocabula
 | **GW170817** | LIGO 2017 探测的双中子星并合引力波事件 | 18 |
 | **AT2017gfo** | GW170817 的 kilonova 电磁对应体 | 15 |
 | **lanthanide-poor/-rich** | kilonova 早期/晚期 ejecta 的稀土元素丰度 | 12 |
-| **B²FH** | Burbidge-Burbidge-Fowler-Hoyle 1957 框架 | 10 |
+| **B$^{2}$FH** | Burbidge-Burbidge-Fowler-Hoyle 1957 框架 | 10 |
 | **AGB** | Asymptotic Giant Branch | 28 |
 | **waiting point** | r 过程路径上的延迟核 | 14 |
 | **neutron drip line** | 中子数极大值，超过此线核不稳定 | 8 |

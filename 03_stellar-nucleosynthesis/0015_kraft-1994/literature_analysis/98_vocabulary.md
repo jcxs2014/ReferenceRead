@@ -65,8 +65,8 @@
 | deepest penetration radius | 最深穿透半径 | 对流层下缘在 SGB 阶段达到的最大深度 | §3 |
 | He core flash | 氦核闪 | 简并 He 核点燃的瞬间 | §3 |
 | secular mass loss | 长期质量损失 | RGB 顶端持续的质量流失 | §3 |
-| zero-age horizontal branch (ZAHB) | 零龄水平支 | He 核闪后由 ³$\alpha$ 过程驱动的水平支起始位置 | §3 |
-| triple alpha process | ³$\alpha$ 过程 | 三个 $^{4}{\rm He}$ 融合为 $^{12}{\rm C}$ 的核反应 | §3 |
+| zero-age horizontal branch (ZAHB) | 零龄水平支 | He 核闪后由 $^{3}$$\alpha$ 过程驱动的水平支起始位置 | §3 |
+| triple alpha process | $^{3}$$\alpha$ 过程 | 三个 $^{4}{\rm He}$ 融合为 $^{12}{\rm C}$ 的核反应 | §3 |
 | first parameter | 第一参数 | 决定 HB 形态的首要因素——金属丰度 | §3 |
 | second parameter effect | 第二参数效应 | 相同 [Fe/H] 团间 HB 形态差异 | §3 |
 | RR Lyrae | 天琴 RR 变星 | HB 不稳定带中的脉动变星 | §3 |
@@ -77,9 +77,9 @@
 | $\mu$ gradient | 质量分数梯度 | 核燃烧壳层外的化学组成梯度，阻止对流穿透 | §5 |
 | Sweigart-Mengel mechanism | Sweigart-Mengel 机制 | 1979 年提出的旋转驱动子午环流深混合机制 | §5 |
 | meridional circulation / current | 子午环流 | 恒星旋转驱动的对流层底部-壳层间极慢环流 | §5 |
-| characteristic velocity ~$10^{-3}$ cm s⁻¹ | 环流特征速度 | 子午环流的量级 | §5 |
+| characteristic velocity ~$10^{-3}$ cm s$^{-1}$ | 环流特征速度 | 子午环流的量级 | §5 |
 | CN anomaly | CN 反常 | 团巨星 CN 带强度的异常变化 | §5 |
-| angular velocity $\omega$ ~ $6\times10^{-5}$ s⁻¹ | 所需角速度 | Sweigart-Mengel 理论所需的主序前身星角速度 | §5 |
+| angular velocity $\omega$ ~ $6\times10^{-5}$ s$^{-1}$ | 所需角速度 | Sweigart-Mengel 理论所需的主序前身星角速度 | §5 |
 | spin down | 自转减速 | 主序星早期角动量流失 | §5 |
 | bimodal distribution | 双峰分布 | CN 带强度的双群分布 | §6 |
 | population signature | 群体签名 | 团间 CN 强/弱主分布的"性格"差异 | §6 |
@@ -89,7 +89,7 @@
 | $^{23}{\rm Na}$, $^{27}{\rm Al}$ production | Na、Al 合成 | 核处理中 Na、Al 的过量生成 | §6 |
 | nuclear reaction network | 核反应网络 | Langer et al. 1993 使用的 85 同位素网络 | §7 |
 | proton capture on $^{22}{\rm Ne}$ | $^{22}{\rm Ne}$ 质子俘获 | 23Na 合成的替代路径（不需中子） | §7 |
-| $^{20}{\rm Ne}$–$^{23}{\rm Na}$ chain | 20Ne–23Na 反应链 | ³⁰,⁰⁰⁰ 年建立的快速反应链 | §7 |
+| $^{20}{\rm Ne}$–$^{23}{\rm Na}$ chain | 20Ne–23Na 反应链 | $^{30}$,$^{000}$ 年建立的快速反应链 | §7 |
 | arclike distribution | 弧形分布 | Fig. 8 中 [O/Fe] vs [Na/Fe] 点云形状 | §7 |
 | 60,000 yr time scale | 60,000 年时标 | Langer 计算中达到 5% 氢耗竭的时间 | §7 |
 | superoxygen-poor | 超贫氧 | [O/Fe] < −0.4 的极端 O 耗竭现象 | §7 |

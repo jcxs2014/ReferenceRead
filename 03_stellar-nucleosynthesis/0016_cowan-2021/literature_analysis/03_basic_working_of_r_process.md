@@ -36,7 +36,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/03_basic_wo
 ### §III.B — Special features of the r process
 
 > **[FACT]** r 过程的特征环境：
-> 1. **高 neutron density**: $N_n > 10^{20}$ cm⁻³
+> 1. **高 neutron density**: $N_n > 10^{20}$ cm$^{-3}$
 > 2. **短时标**: 几次 neutron captures 之间的间隔 < 1 s
 > 3. **高温**: $T \sim 10^9$ K
 
@@ -75,7 +75,7 @@ $$A_{final} \approx A_{seed} \cdot \left(1 + \frac{N_n}{N_{seed}}\right)$$
 
 | 参数 | 典型值 | 物理意义 |
 |---|---|---|
-| $N_n$ | $> 10^{20}$ cm⁻³ | 中子数密度 |
+| $N_n$ | $> 10^{20}$ cm$^{-3}$ | 中子数密度 |
 | $T$ | $10^9$ K | r 过程温度 |
 | 时标 $\tau$ | $< 1$ s | 单次 neutron capture 间隔 |
 | $Y_e$ | $0.1$–$0.4$ | 电子分数 |

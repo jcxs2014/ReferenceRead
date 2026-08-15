@@ -108,7 +108,7 @@
 [FACT] 随核子/光子比（重子质量密度）增加，7Li 的产生经历三阶段：
 1. **低比值**：4He(3H,$\gamma$)7Li 主导
 2. **中比值**：7Li(p,$\alpha$)4He 破坏 7Li → 7Li 丰度出现**凹陷**（在 n/$\gamma$ ~ 127×10^(-10) 处）
-3. **高比值**：4He(3He,$\gamma$)7Be(e⁻,$\nu_{\rm e}$)7Li 再次产生 7Li
+3. **高比值**：4He(3He,$\gamma$)7Be(e$^{-}$,$\nu_{\rm e}$)7Li 再次产生 7Li
 
 [FACT] 预言的 7Li/H 比范围：**10^(-10) 至 10^(-9)**（Boesgaard & Steigman 1985; Krauss & Romanelli 1990）
 
@@ -124,7 +124,7 @@
 
 ### 4.4.3 3. Asymptotic giant branch stars
 
-[FACT] AGB 星可产生 7Li：3He + 4He → 7Be → 7Be(e⁻,$\nu_{\rm e}$)7Li（Cameron 1955）
+[FACT] AGB 星可产生 7Li：3He + 4He → 7Be → 7Be(e$^{-}$,$\nu_{\rm e}$)7Li（Cameron 1955）
 
 [FACT] LMC 中超锂巨星（Smith & Lambert 1989, 1990; Plez et al. 1993; Smith et al. 1995）：
 - 通过 ZrO 分子带识别为 AGB 星

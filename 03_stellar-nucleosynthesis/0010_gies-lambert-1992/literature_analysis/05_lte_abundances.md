@@ -21,7 +21,7 @@
 
 ## 5.2 Table 4 — 原子数据
 
-[FACT] 表 4 列出所有线的 log gf、参考文献、Tr（radiative damping, s⁻¹）、$\Gamma$S（quadratic Stark damping, s⁻¹）。
+[FACT] 表 4 列出所有线的 log gf、参考文献、Tr（radiative damping, s$^{-1}$）、$\Gamma$S（quadratic Stark damping, s$^{-1}$）。
 
 [FACT] **log gf 数据来源**：
 - **K** = Kurucz & Peytremann (1975)；
@@ -49,23 +49,23 @@
 [FACT] 再对所有物种的 $\xi$ 取**加权平均**（按线数加权）作为最终 $\xi$，用于所有线的丰度计算。
 
 [FACT] **关键结果**：
-- 非超巨星：⟨$\xi$(LTE)⟩ = **6.2 km s⁻¹**；⟨$\xi$(NLTE)⟩ = **5.0 km s⁻¹**
-- 超巨星 LTE：⟨$\xi$(LTE)⟩ = **23 km s⁻¹** ← **超声速**
-- 超巨星 NLTE：⟨$\xi$(NLTE)⟩ = **8.9 km s⁻¹** ← 亚音速
+- 非超巨星：⟨$\xi$(LTE)⟩ = **6.2 km s$^{-1}$**；⟨$\xi$(NLTE)⟩ = **5.0 km s$^{-1}$**
+- 超巨星 LTE：⟨$\xi$(LTE)⟩ = **23 km s$^{-1}$** ← **超声速**
+- 超巨星 NLTE：⟨$\xi$(NLTE)⟩ = **8.9 km s$^{-1}$** ← 亚音速
 
-[FACT] 作者解释：超巨星 LTE $\xi$ 高达 23 km s⁻¹ 是"obviously supersonic"，应视为**non-LTE 偏离的信号**，而非真实微湍流。引入 non-LTE 后 $\xi$ 大幅降低。
+[FACT] 作者解释：超巨星 LTE $\xi$ 高达 23 km s$^{-1}$ 是"obviously supersonic"，应视为**non-LTE 偏离的信号**，而非真实微湍流。引入 non-LTE 后 $\xi$ 大幅降低。
 
 [FACT] $\xi$ 随 T_eff 增加的趋势：
-- ⟨$\xi$(NLTE)⟩ = 4 km s⁻¹ at T_eff = 17,000 K
-- ⟨$\xi$(NLTE)⟩ = 6 km s⁻¹ at T_eff = 30,000 K
+- ⟨$\xi$(NLTE)⟩ = 4 km s$^{-1}$ at T_eff = 17,000 K
+- ⟨$\xi$(NLTE)⟩ = 6 km s$^{-1}$ at T_eff = 30,000 K
 
 [FACT] 作者明确反驳 **Becker & Butler (1989)** 的观点（即"微湍流完全是 LTE 误用的伪像"）：
 > "When LTE is replaced by NLTE, $\xi$ is reduced especially for the supergiants, but remains nonzero."
 
-[FACT] 超巨星中 $\xi$ 的推导**不完全自洽**：大气模型本身依赖假设 $\xi$=2 km s⁻¹（Kurucz 1979），影响金属线总不透明度；Fitzpatrick (1991) 的自洽模型会是改进。
+[FACT] 超巨星中 $\xi$ 的推导**不完全自洽**：大气模型本身依赖假设 $\xi$=2 km s$^{-1}$（Kurucz 1979），影响金属线总不透明度；Fitzpatrick (1991) 的自洽模型会是改进。
 
 [FACT] **关键论据**（关于弱线抗微湍流）：
-> 例：T_eff = 21,000 K, log g = 4, $\xi$ = 5 km s⁻¹ 的大气中，$\xi$ 误差 5 km s⁻¹ 导致：
+> 例：T_eff = 21,000 K, log g = 4, $\xi$ = 5 km s$^{-1}$ 的大气中，$\xi$ 误差 5 km s$^{-1}$ 导致：
 > - N II $\lambda$4630（强线）丰度误差 **0.21 dex**；
 > - N II $\lambda$5007（弱线）丰度误差 **0.10 dex**。
 
@@ -123,7 +123,7 @@
 - **填充圆** = 超巨星，**空心圆** = 其他星
 - NLTE $\xi$ 一致低于 LTE $\xi$，尤其是超巨星
 
-[INTERPRETATION] 超巨星 LTE $\xi$ 高达 ~20–30 km s⁻¹，而 NLTE $\xi$ 降至 < 10 km s⁻¹ —— 这是非 LTE 效应最强的恒星子集，也是本文必须用 NLTE 交叉验证的核心理由。
+[INTERPRETATION] 超巨星 LTE $\xi$ 高达 ~20–30 km s$^{-1}$，而 NLTE $\xi$ 降至 < 10 km s$^{-1}$ —— 这是非 LTE 效应最强的恒星子集，也是本文必须用 NLTE 交叉验证的核心理由。
 
 ---
 
@@ -136,20 +136,20 @@
 | 原子数据源 | Kurucz & Peytremann 1975；Wiese, Smith & Glennon 1966；Artru et al. 1981 |
 | Stark 阻尼平均 T_eff | 25,000 K |
 | $\xi$ 确定判据 | log $\epsilon$ vs EW 斜率为 0 |
-| 非超巨星 ⟨$\xi$(LTE)⟩ | 6.2 km s⁻¹ |
-| 非超巨星 ⟨$\xi$(NLTE)⟩ | 5.0 km s⁻¹ |
-| 超巨星 ⟨$\xi$(LTE)⟩ | 23 km s⁻¹（超声速） |
-| 超巨星 ⟨$\xi$(NLTE)⟩ | 8.9 km s⁻¹（亚音速） |
+| 非超巨星 ⟨$\xi$(LTE)⟩ | 6.2 km s$^{-1}$ |
+| 非超巨星 ⟨$\xi$(NLTE)⟩ | 5.0 km s$^{-1}$ |
+| 超巨星 ⟨$\xi$(LTE)⟩ | 23 km s$^{-1}$（超声速） |
+| 超巨星 ⟨$\xi$(NLTE)⟩ | 8.9 km s$^{-1}$（亚音速） |
 | EW 阈值 | < 5 mÅ 剔除 |
 | 删选标准 | 系统性不一致、错认、>2$\sigma$ |
-| 弱线抗 $\xi$ 灵敏度 | N II $\lambda$5007 误差 0.10 dex for $\Delta$$\xi$=5 km s⁻¹ |
+| 弱线抗 $\xi$ 灵敏度 | N II $\lambda$5007 误差 0.10 dex for $\Delta$$\xi$=5 km s$^{-1}$ |
 
 ---
 
 ## 5.8 潜在问题 [CRITIQUE]
 
 [CRITIQUE]
-1. $\xi$ 由 log $\epsilon$ vs EW 斜率 = 0 反推，但 **Dufton, Durrant & Durrant (1981b)** 指出此法可能因曲线生长非线性导致 $\xi$ **高估 1–2.5 km s⁻¹** —— 即使扣除偏差，剩余 $\xi$ 仍显著非零；
+1. $\xi$ 由 log $\epsilon$ vs EW 斜率 = 0 反推，但 **Dufton, Durrant & Durrant (1981b)** 指出此法可能因曲线生长非线性导致 $\xi$ **高估 1–2.5 km s$^{-1}$** —— 即使扣除偏差，剩余 $\xi$ 仍显著非零；
 2. 超巨星 $\xi$ 的自洽性问题（大气假设 $\xi$=2 vs 推得 $\xi$=23），作者承认但仍未完全解决；
 3. 删选标准依赖"与其他线一致"，但若有真实丰度异常（如 CN-cycled 星），这些异常本身可能因被当作离群值而被剔除 —— 这是一个潜在**确认偏误**（尽管作者通过保留 N 富集星说明并未过度删选）；
 4. 冷星的高电离线剔除与热星的低电离线剔除，用的是 T_eff 阈值，若 T_eff 本身有误差（2–4%），可能误判该线是否应保留。

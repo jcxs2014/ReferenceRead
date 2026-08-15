@@ -54,7 +54,7 @@
 | cloud chemistry (dust settling) | 云化学（尘埃重力沉降） | 5 | §5.2 |
 | color-Teff interpolation | 色温插值法 | 8+ | §5.2 |
 | SED fitting (spectral energy distribution) | 光谱能量分布拟合 | 10+ | §5.3 |
-| Stefan–Boltzmann law | 斯特凡–玻尔兹曼定律 L=4$\pi$R²$\sigma$T⁴ | 5 | §5.4 |
+| Stefan–Boltzmann law | 斯特凡–玻尔兹曼定律 L=4$\pi$R$^{2}$$\sigma$T$^{4}$ | 5 | §5.4 |
 | CHARA Array | Georgia State 长基线光学干涉阵列 | 5 | §5.5 |
 | angular diameter | 角直径 | 3 | §5.5 |
 | lithium test (Rebolo 1992) | 锂检验（Li $\lambda$6708 线检测亚恒星） | 6+ | §1 |

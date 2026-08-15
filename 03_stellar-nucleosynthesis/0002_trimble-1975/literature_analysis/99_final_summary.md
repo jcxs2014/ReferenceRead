@@ -50,7 +50,7 @@
 1. B$^2$FH (1957) 提出了七过程 + x 过程框架；本文是其在 1975 年的全面更新。
 2. 本文作者实为 **Virginia Trimble**（非 Burbidge），但其内容仍属 "B$^2$FH 更新综述" 传统。
 3. 标准丰度表 1956→1968 间仅 8/81 元素变化 >3×；最大变化 Be ÷25。
-4. Orion Nebula He⁺/H⁺ 双 Stromgren 球问题是 HII 区丰度测量的典型系统误差。
+4. Orion Nebula He$^{+}$/H$^{+}$ 双 Stromgren 球问题是 HII 区丰度测量的典型系统误差。
 5. BBN 给出 Y_p ≈ 0.24–0.25，n/p 冻结温度 ~0.8 MeV。
 6. Hoyle 共振（$^{12}{\rm C}$ 7.65 MeV）是精细调节的经典例子。
 7. s 过程发生在 AGB 恒星，$^{13}{\rm C}$($\alpha$,n) 是主要中子源；$^{177}{\rm Lu}$ 分支点是温度诊断器。
@@ -87,7 +87,7 @@
 | Z = y ln(1/$\mu$) | 封闭箱模型金属丰度演化 |
 | $\xi$(M) = $\xi_{0}$ M^−$\alpha$, $\alpha$=2.35 | Salpeter IMF |
 | d($\mu$Z)/dt = −Z d$\mu$/dt + y(1−Z)(−d$\mu$/dt) | 金属丰度微分方程 |
-| ³$\alpha$ → $^{12}{\rm C}$ (Hoyle 共振 7.65 MeV) | He 燃烧启动 |
+| $^{3}$$\alpha$ → $^{12}{\rm C}$ (Hoyle 共振 7.65 MeV) | He 燃烧启动 |
 | Y_p ≈ 2(n_n/n_p)/(1+n_n/n_p) ≈ 0.25 | BBN $^{4}{\rm He}$ 丰度 |
 | n_n/n_p ≈ (1/6) e^(−t/$\tau_{\rm n}$), $\tau_{\rm n}$ = 878 s | BBN 中子演化 |
 

@@ -17,10 +17,10 @@
 
 - [FACT] 在**低加速度极限** a ≪ $a_{0}$ 下，修改为：
 $$F = m\,\frac{a^2}{a_0}$$
-- [FACT] 临界加速度参数：**$a_{0}$ ≈ $1.2\times10^{-10}$ m/s²**
+- [FACT] 临界加速度参数：**$a_{0}$ ≈ $1.2\times10^{-10}$ m/s$^{2}$**
 - [FACT] 在此区，圆周速度满足：
 $$v^4 = G\,M\,a_0$$
-- [FACT] 由此精确给出 Tully-Fisher 关系 L ∝ V⁴（若 M/L 常）。
+- [FACT] 由此精确给出 Tully-Fisher 关系 L ∝ V$^{4}$（若 M/L 常）。
 
 ## 6.3 A. Toward a realistic theory of MOND
 
@@ -89,7 +89,7 @@ $$v^4 = G\,M\,a_0$$
 
 | 量 | 值 | 说明 |
 |----|-----|------|
-| $a_{0}$ | $1.2\times10^{-10}$ m/s² | MOND 临界加速度 |
+| $a_{0}$ | $1.2\times10^{-10}$ m/s$^{2}$ | MOND 临界加速度 |
 | $\alpha$ (Tully-Fisher) | ≈ 4（观测）；4（MOND 精确预测） | 旋涡星系关系 |
 | TeVeS 自由度 | 3 参数 + 1 函数 | Bekenstein 2004 |
 | 大质量中微子 m_$\nu$ | ~1-2 eV | 缓解星系团问题 |

@@ -85,9 +85,9 @@ Kraft 1994, PASP 106:553
 │   ├── Fig. 5 [C/Fe] vs Mv
 │   └── Fig. 6 <[N/Fe]> vs <[C/Fe]>
 ├── 5. SWEIGART-MENGEL MIXING MECHANISM   [§05] 旋转驱动子午环流
-│   ├── 特征速度 ~$10^{-3}$ cm s⁻¹
+│   ├── 特征速度 ~$10^{-3}$ cm s$^{-1}$
 │   ├── 预言：仅上 RGB 见 CN 反常；金属丰度升高则 C/O 耗竭减弱
-│   └── 问题：M92 主序末碳耗竭过早；所需 $\omega$$~6\times10^{-5}$ s⁻¹
+│   └── 问题：M92 主序末碳耗竭过早；所需 $\omega$$~6\times10^{-5}$ s$^{-1}$
 ├── 6. ARE PRIMORDIAL VARIATIONS REQUIRED? [§06] 是否必须"原始丰度变异"
 │   ├── CN 带强度双峰分布（M13 vs M3）
 │   ├── 主序星 C-N 反相关（NGC 6752, 47 Tuc）—— 强力支持原始场景

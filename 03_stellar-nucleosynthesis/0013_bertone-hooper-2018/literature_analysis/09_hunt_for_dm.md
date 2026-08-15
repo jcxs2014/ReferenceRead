@@ -12,7 +12,7 @@
 
 - [FACT] 三大探测方向：
   1. **直接探测**（scattering with nuclei）——粒子与探测器原子核碰撞
-  2. **间接探测**（annihilation and decay）——在宇宙/太阳中湮灭/衰变产生 $\gamma$、$\nu$、e⁺、p̄
+  2. **间接探测**（annihilation and decay）——在宇宙/太阳中湮灭/衰变产生 $\gamma$、$\nu$、e$^{+}$、p̄
   3. **对撞机**（未在本文独立小节，主要在 LHC 提及）——产生暗物质候选
   4. **轴子实验**（ADMX 等）
 
@@ -77,7 +77,7 @@
   - Gunn-Lee-Lerche-Schramm-Steigman 1978（Astrophys. J. 223, 1015）
   - Stecker 1978（Astrophys. J. 223, 1032）
 - [FACT] 关注对象：重稳定轻子（heavy neutrino）。
-- [FACT] 当时 $\gamma$ 背景（SAS-2，Fichtel-Simpson-Thompson 1978，35-100 MeV）：$~6\times10^{-5}$ cm⁻² s⁻¹ sr⁻¹ —— 远高于暗物质湮灭平滑预测；但**暗物质晕内湮灭**可大幅提高预测。
+- [FACT] 当时 $\gamma$ 背景（SAS-2，Fichtel-Simpson-Thompson 1978，35-100 MeV）：$~6\times10^{-5}$ cm$^{-2}$ s$^{-1}$ sr$^{-1}$ —— 远高于暗物质湮灭平滑预测；但**暗物质晕内湮灭**可大幅提高预测。
 - [FACT] Gunn et al. 断言 GeV 暗物质信号"可能在未来 $\gamma$ 观测中被发现"。
 
 ### 9.3.2 多种信使

@@ -92,7 +92,7 @@ $$P_R = (-1)^{2s + 3B + L}$$
 | 1983 | Weinberg | 光微子质量下界 **m > 1.8 GeV** |
 | 1983 | Goldberg | 同，独立 |
 | 1983-1984 | Ellis-Hagelin-Nanopoulos-Olive-Srednicki | 扩展到多种中性微子 |
-| 1983 | Ellis et al. (Phys. Lett. B) | 脚注：可施加更严缺失质量约束 $\rho_\chi$ ≤ $2\times10^{-30}$ ($\Omega$h²) g/cm³ |
+| 1983 | Ellis et al. (Phys. Lett. B) | 脚注：可施加更严缺失质量约束 $\rho_\chi$ ≤ $2\times10^{-30}$ ($\Omega$h$^{2}$) g/cm$^{3}$ |
 
 - [FACT] SUSY 的吸引力**不完全依赖暗物质**——还能解决**电弱等级问题**（hierarchy problem）、实现**规范耦合统一**（Dimopoulos-Raby-Wilczek 1981；Ibanez-Ross 1981；Marciano-Senjanovic 1982）。
 - [FACT] 若宇宙物质密度恰与可见重子一致，粒子物理学家仍会关注 SUSY——暗物质只是"附加奖励"。
@@ -118,7 +118,7 @@ $$m_a \sim \frac{\lambda_{\rm QCD}^2}{f_{\rm PQ}}, \quad \lambda_{\rm QCD} \sim 
 
 | 约束 | 排除质量范围 | 出处 |
 |------|--------------|------|
-| 稀有介子衰变 K⁺→$\pi^{\rm +}$a, J/$\psi$→$\gamma$a | m_a > ~10 keV | 综述 |
+| 稀有介子衰变 K$^{+}$→$\pi^{\rm +}$a, J/$\psi$→$\gamma$a | m_a > ~10 keV | 综述 |
 | 红巨星快速冷却 | m_a > ~1 eV | 综述 |
 | SN1987A | m_a ≳ $10^{-3}$ eV | 综述（引自 Kolb-Turner 1990 Ch.10） |
 | 现代主要候选质量区间 | $10^{-6}$ – $10^{-4}$ eV | 综述 |
@@ -156,8 +156,8 @@ $$\sigma v \sim 10^{-26}\,{\rm cm^3/s}$$
 | 公式 | 说明 |
 |------|------|
 | m_$\chi$ > ~1–100 keV | 冷暗物质下界（避免退耦为热暗物质） |
-| $\sigma$v ≈ $10^{-26}$ cm³/s | 热遗迹丰度匹配 $\Omega_{\rm DM}$ h² ≈ 0.12 的截面 |
-| $\Omega$h² ≈ 0.1 / ($\sigma$v) [近似] | WIMP 热遗迹丰度公式（Griest-Seckel） |
+| $\sigma$v ≈ $10^{-26}$ cm$^{3}$/s | 热遗迹丰度匹配 $\Omega_{\rm DM}$ h$^{2}$ ≈ 0.12 的截面 |
+| $\Omega$h$^{2}$ ≈ 0.1 / ($\sigma$v) [近似] | WIMP 热遗迹丰度公式（Griest-Seckel） |
 
 ## 7.5 [CRITIQUE]
 

@@ -76,10 +76,10 @@
 ### 2.4.5 Oort (1932) — 第一次太阳邻域暗物质密度定量估计
 
 - [FACT] Oort 放松了 Kapteyn 的"恒星气体等温"假设。
-- [FACT] 得到太阳邻域总密度最可能值：**0.092 M⊙/pc³ = $6.3\times10^{-24}$ g/cm³**。
-- [FACT] Kapteyn 值为 0.099，Jeans 1922 为 0.143，Lindblad 1926 为 0.217 M⊙/pc³。Oort 认为 Kapteyn 与其"意外地吻合"。
+- [FACT] 得到太阳邻域总密度最可能值：**0.092 M⊙/pc$^{3}$ = $6.3\times10^{-24}$ g/cm$^{3}$**。
+- [FACT] Kapteyn 值为 0.099，Jeans 1922 为 0.143，Lindblad 1926 为 0.217 M⊙/pc$^{3}$。Oort 认为 Kapteyn 与其"意外地吻合"。
 - [FACT] Oort 扣除恒星贡献后，给出暗物质上限：
-  > "total mass of nebulous or meteoric matter near the sun is less than **0.05 M⊙/pc³**, or $3\times10^{-24}$ g/cm³; it is probably less than the total mass of visible stars, possibly much less."
+  > "total mass of nebulous or meteoric matter near the sun is less than **0.05 M⊙/pc$^{3}$**, or $3\times10^{-24}$ g/cm$^{3}$; it is probably less than the total mass of visible stars, possibly much less."
 - [FACT] 含义：**暗物质上限约为总密度的 1/2**，且 Oort 认为其主要形态应是**暗星 + 星云 + 流星物质**——即尚未识别出的普通重子天体。
 
 ### 2.4.6 [FACT] 关键判断

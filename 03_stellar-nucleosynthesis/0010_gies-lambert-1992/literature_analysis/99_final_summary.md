@@ -31,7 +31,7 @@
 |----------|----------|
 | 观测 | UT McDonald 2.1 m + coudé 光谱仪；Reticon 1728 像素；7 个光谱带；S/N=300/pixel |
 | EW 测量 | GETPHD（McWilliam 1990）高斯拟合 + 交互检查 |
-| T_eff / log g | Strömgren [c1] 与 Balona c⁰ 双校准 + H$\beta$ 轮廓迭代；Kurucz LTE 大气；Code et al. 1976 归一 |
+| T_eff / log g | Strömgren [c1] 与 Balona c$^{0}$ 双校准 + H$\beta$ 轮廓迭代；Kurucz LTE 大气；Code et al. 1976 归一 |
 | V sin i | Cross-correlation vs $\gamma$ Peg；HD 35299 零旋转基准；Gray (1976) 旋转展宽轮廓 |
 | LTE 丰度 | Kurucz (1979) 大气 + WIDTH6 曲线生长 |
 | Non-LTE 丰度 | Becker & Butler (1988a,b) 表 + Auer & Mihalas (1973a) He 幂律 |
@@ -86,7 +86,7 @@
 
 ## 15.6 主要局限
 
-1. **V sin i < 100 km s⁻¹ 的选择偏差**：排除了快速自转者，而快速自转恰是 Maeder 湍流混合的主要驱动者 → 本文可能**低估**旋转混合的普遍性；
+1. **V sin i < 100 km s$^{-1}$ 的选择偏差**：排除了快速自转者，而快速自转恰是 Maeder 湍流混合的主要驱动者 → 本文可能**低估**旋转混合的普遍性；
 2. **He 丰度幂律近似的局限**：式 (5) $\beta$≈0.5 幂律在超巨星（He 显著富集）时不再准确；超巨星 He 富集幅度**不确定度大**；
 3. **超巨星大气模型不自洽**：用太阳丰度大气推超巨星参数（T_eff, log g），但超巨星 He 富集改变 Balmer 跳变与 H 线强度 → 参数系统误差未量化；
 4. **Si II 丰度异常未解**：log $\epsilon$(Si II) = 6.86，显著低于 Si III/IV（~7.5）；non-LTE 也未改善；
@@ -100,12 +100,12 @@
 ## 15.7 我应该记住什么（15 条要点）
 
 1. **Lyubimkov (1984) 主张**：13–20 $M_\odot$ B 星 log $\epsilon$(N) 从 7.6 → 8.6 在 <$10^{7}$ yr（d log $\epsilon$(N)/dt = 0.15 dex per $10^{6}$ yr）——**后来被本文证伪**。
-2. **本文样本**：39 星（O9–B3），含 5 颗超巨星，V sin i < 100 km s⁻¹。
+2. **本文样本**：39 星（O9–B3），含 5 颗超巨星，V sin i < 100 km s$^{-1}$。
 3. **非超巨星 CNO ≈ 太阳丰度**：log $\epsilon$(C)≈8.15, log $\epsilon$(N)≈8.15, log $\epsilon$(O)≈8.80, log $\epsilon$(He)≈11.00。
 4. **温度修正 f = 0.034**：$\Delta$T_eff = 0.034 × T_eff，使本文 T_eff 与 Kilian et al. 1991a 一致。
 5. **温度修正方法**（式 7–8）：利用 C/N/O 线 EW 在峰值温度附近的导数，从丰度-T 趋势反推尺度误差。
-6. **微湍流**：⟨$\xi$(LTE)⟩ = 6.2 (非超巨星) / 23 km s⁻¹ (超巨星，超声速)；⟨$\xi$(NLTE)⟩ = 5.0 / 8.9 km s⁻¹。
-7. **弱线抗微湍流**：N II $\lambda$5007 弱线对 $\Delta$$\xi$=5 km s⁻¹ 的丰度误差仅 0.10 dex（强线 N II $\lambda$4630 为 0.21 dex）。
+6. **微湍流**：⟨$\xi$(LTE)⟩ = 6.2 (非超巨星) / 23 km s$^{-1}$ (超巨星，超声速)；⟨$\xi$(NLTE)⟩ = 5.0 / 8.9 km s$^{-1}$。
+7. **弱线抗微湍流**：N II $\lambda$5007 弱线对 $\Delta$$\xi$=5 km s$^{-1}$ 的丰度误差仅 0.10 dex（强线 N II $\lambda$4630 为 0.21 dex）。
 8. **超巨星 LTE $\xi$=23 是 non-LTE 偏离的信号**，不是真实微湍流。
 9. **Lyubimkov 假象的量化**：log g=4→3.5 使 N II $\lambda$4630 EW 从 57→75 mÅ，假增丰度 0.32 dex；log g=3.5 + $\xi$=10 组合 → 假增 **0.90 dex**。
 10. **用本文数据复现 Lyubimkov 相关**：斜率 0.035 dex per $10^{6}$ yr（图 21），与 Lyubimkov 方向一致，但**是伪相关**。

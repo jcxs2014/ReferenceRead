@@ -19,14 +19,14 @@
 | 于是 | consequently | adv. | 因果 | "R 宇称 (P_R = (-1)^{2s+3B+L}) 保证 SUSY LSP 稳定 → **自然暗物质候选**" | 从 R 宇称守恒推出 LSP 稳定 |
 | 反之 | on the contrary | phrase | 转折 | "MACHO 被**微透镜**（EROS: <8%）+ **重子预算**（BBN + CMB）双重排除" | 承前 MACHO 候选，转后双重排除 |
 | 进而 | furthermore | adv. | 递进 | "**Blumenthal-Faber-Primack-Rees 1984**：宇宙需 ~10 倍于重子物质的冷暗物质" | 递进给出具体数值 |
-| 同时 | simultaneously | adv. | 递进 | "**CMB + BBN** 双重证据给出 $\Omega_{\rm b}$ h² < 1% 精度 → 暗物质**必为非重子**" | 两条独立证据同时约束 |
+| 同时 | simultaneously | adv. | 递进 | "**CMB + BBN** 双重证据给出 $\Omega_{\rm b}$ h$^{2}$ < 1% 精度 → 暗物质**必为非重子**" | 两条独立证据同时约束 |
 | 换言之 | that is | phrase | 举例 | "**暗物质概念是多次独立发现、多尺度证据汇聚的结果**——非'Zwicky 一人之功'" | 核心叙事观点 |
 | 总之 | overall | adv. | 结论 | "**暗物质证据在多个独立尺度上均成立**：星系团维里质量、星系自转曲线、CMB 涨落、Bullet Cluster" | 综合四尺度证据 |
 | 此外 | moreover | adv. | 递进 | "**此外**，作者未讨论**新兴候选体**：fuzzy dark matter、dark photons、hidden valleys" | 补充未讨论内容 |
 | 甚至 | even | adv. | 递进 | "**即使**暗物质晕内湮灭可大幅提高预测……" | 递进极端假设 |
 | 如果 | if / should | conj. | 让步 | "**如果** WIMP 假设正确，则直接探测应已发现 → 20 年 null 结果严重压缩参数空间" | 假设性测试 |
 | 由此 | hence | adv. | 因果 | "R 宇称守恒 → LSP 稳定 → 自然暗物质候选" | 从对称性到物理结论 |
-| 尽管 | notwithstanding | prep. | 让步 | "**尽管** WIMP 奇迹（$\sigma$v ~ $10^{-26}$ cm³/s 与弱力截面巧合一致），但 20 年 null 结果已严重压缩参数空间" | 让步巧合，但转后 null |
+| 尽管 | notwithstanding | prep. | 让步 | "**尽管** WIMP 奇迹（$\sigma$v ~ $10^{-26}$ cm$^{3}$/s 与弱力截面巧合一致），但 20 年 null 结果已严重压缩参数空间" | 让步巧合，但转后 null |
 | 换言之 | in other words | phrase | 举例 | "**暗物质**一词 19 世纪已用（Kelvin, Poincaré, Kapteyn, Zwicky 1933b），非 Zwicky 1933 首创" | 澄清术语史 |
 
 *共 20 个逻辑词，均在本篇分析文本中实际出现。*
@@ -49,7 +49,7 @@
 | microlensing (EROS) | 微引力透镜搜索 | 6+ | §5 |
 | MOND (Modified Newtonian Dynamics) | 修正牛顿动力学 | 10+ | §6 |
 | Milgrom (1983) | MOND 提出者 | 3 | §6 |
-| Tully-Fisher relation | Tully-Fisher 关系（L ∝ V⁴） | 5 | §6 |
+| Tully-Fisher relation | Tully-Fisher 关系（L ∝ V$^{4}$） | 5 | §6 |
 | Famaey-McGaugh (2012) | MOND 现代综述 | 2 | §9.6 |
 | Zwicky (1933, 1937) | 星系团维里质量缺失质量 | 10+ | §3 |
 | Coma cluster | 后发座星系团 | 6+ | §3 |
@@ -63,7 +63,7 @@
 | gravitational lensing (weak) | 弱引力透镜 | 5 | §3 |
 | CMB (Cosmic Microwave Background) | 宇宙微波背景 | 8+ | §8 |
 | BBN (Big Bang Nucleosynthesis) | 大爆炸核合成 | 6+ | §5 |
-| $\Omega_{\rm b}$ h², $\Omega_{\rm c}$ h² | 重子/冷暗物质密度参数 | 5 | §8 |
+| $\Omega_{\rm b}$ h$^{2}$, $\Omega_{\rm c}$ h$^{2}$ | 重子/冷暗物质密度参数 | 5 | §8 |
 | $\Lambda$CDM | $\Lambda$CDM 标准宇宙学模型 | 6+ | §8 |
 | dark matter halo | 暗物质晕 | 15+ | §8 |
 | NFW profile (Navarro-Frenk-White 1996) | 普适晕密度分布 | 6+ | §8 |

@@ -113,7 +113,7 @@ $$2\langle T \rangle + \langle W \rangle = 0$$
 $$M \sim \frac{5 \, R \, \sigma_v^2}{G}$$
 其中 R 为系统半径、$\sigma_{\rm v}$ 为速度弥散、G 为引力常数。
 
-- [INTERPRETATION] 该式是所有**动力学暗物质测量**的基石——从星系团维里质量，到星系自转曲线 M(<r) = v²r/G，到太阳邻域 Oort 质量。
+- [INTERPRETATION] 该式是所有**动力学暗物质测量**的基石——从星系团维里质量，到星系自转曲线 M(<r) = v$^{2}$r/G，到太阳邻域 Oort 质量。
 
 ## 3.5 图 1 分析（Schwarzschild 1954）
 

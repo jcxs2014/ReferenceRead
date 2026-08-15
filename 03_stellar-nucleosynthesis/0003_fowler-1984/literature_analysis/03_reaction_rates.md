@@ -14,13 +14,13 @@
 
 [FACT] 恒星中热核反应速率（per reaction type）通常表达为：
 
-**N_A ⟨$\sigma$u⟩** — reactions per sec per (mol·cm⁻³)
+**N_A ⟨$\sigma$u⟩** — reactions per sec per (mol·cm$^{-3}$)
 
 其中：
-- **N_A = $6.022\times10^{23}$ mol⁻¹**（Avogadro 常数）
+- **N_A = $6.022\times10^{23}$ mol$^{-1}$**（Avogadro 常数）
 - **⟨$\sigma$u⟩**：Maxwell-Boltzmann 平均，为 $\sigma$(u)·u 的函数
-- $\sigma$ 单位 cm²，u 单位 cm s⁻¹
-- 乘以两种反应物的数密度乘积得到 reactions per sec per cm³
+- $\sigma$ 单位 cm$^{2}$，u 单位 cm s$^{-1}$
+- 乘以两种反应物的数密度乘积得到 reactions per sec per cm$^{3}$
 
 [FACT] N_A 的引入是为了能用**质量分数**（mass fractions）进行计算，详见 Fowler, Caughlan, Zimmerman (1967, 1975; Harris et al. 1983; Caughlan 1984)。
 
@@ -34,7 +34,7 @@
 
 ### 3.3.1 中子反应
 
-[FACT] 对**中子诱导反应**，定义 **S 因子 = $\sigma$ × u**，以消除截面在低速时的 **u⁻¹ 奇点**。
+[FACT] 对**中子诱导反应**，定义 **S 因子 = $\sigma$ × u**，以消除截面在低速时的 **u$^{-1}$ 奇点**。
 
 ### 3.3.2 带电粒子反应——核心公式（Table I）
 
@@ -50,11 +50,11 @@ S(E) = $E_{0}$(E) · exp( +E_b/E^(1/2) )
 其中：
 - **$\lambda$ = ħ/(2$\mu$E)^{1/2}**：de Broglie 波长（约化质量 $\mu$）
 - **P(E) = exp(−2$\pi$$\eta$)**：**Gamow 穿透因子**（Gamow penetration factor），控制对库仑势垒的隧穿
-- **$\eta$ = $\pi$ $Z_{0}$$Z_{1}$ e² / (ħv)**：Sommerfeld 参数
+- **$\eta$ = $\pi$ $Z_{0}$$Z_{1}$ e$^{2}$ / (ħv)**：Sommerfeld 参数
 - **g = 2J+1 / (2$j_{0}$+1)(2$j_{1}$+1)**：自旋统计因子
 - **S(E)**：天体物理 S 因子，缓慢变化，可外推
 
-[FACT] 单位：$\sigma$ 通常用 **barn ($10^{-24}$ cm²)**，能量用 **MeV ($1.602\times10^{-6}$ erg)**，S 因子单位为 **MeV·b**（有时也用 keV·b）。
+[FACT] 单位：$\sigma$ 通常用 **barn ($10^{-24}$ cm$^{2}$)**，能量用 **MeV ($1.602\times10^{-6}$ erg)**，S 因子单位为 **MeV·b**（有时也用 keV·b）。
 
 [FACT] 表 I 中标记 **$Z_{0}$, $Z_{1}$** 为两反应核的电荷数，**A** 为约化质量（原子质量单位）。
 
@@ -100,7 +100,7 @@ $E_{0}$ = 0.122 · ($Z_{0}$ $Z_{1}$ A)^(1/3) · T_9^(2/3)  MeV
 
 [FACT] 若反过来（$^{12}{\rm C}$ 轰击 $^{4}{\rm He}$ 气体靶，测 $^{16}{\rm O}$ 不测 $\gamma$），则实验符号为 $^{4}{\rm He}$($^{12}{\rm C}$,$^{16}{\rm O}$)$\gamma$。**恒星不在乎这个——恒星中所有粒子都在运动，只有质心系才有意义。**
 
-[FACT] $^{12}{\rm C}$($\alpha$,n)$^{16}{\rm O}$(e⁺+$\nu$)$^{15}{\rm N}$：n 是即时产生并检测的中子，e⁺ 是 $^{16}{\rm O}$ $\beta^{"+" if m.group(1)=="⁺" else "-"}$ 衰变的正电子，$\nu$ 是同时发射的中微子。
+[FACT] $^{12}{\rm C}$($\alpha$,n)$^{16}{\rm O}$(e$^{+}$+$\nu$)$^{15}{\rm N}$：n 是即时产生并检测的中子，e$^{+}$ 是 $^{16}{\rm O}$ $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变的正电子，$\nu$ 是同时发射的中微子。
 
 [FACT] Fowler 自豪回忆 1955 年 1 月 26 日在瑞典皇家科学院作 "Nuclear Reactions in Stars" 报告——"有些你们在座的人听过那次报告"（呼应 30 年后再次登台）。
 
@@ -112,7 +112,7 @@ $E_{0}$ = 0.122 · ($Z_{0}$ $Z_{1}$ A)^(1/3) · T_9^(2/3)  MeV
 
 | 量 | 公式 |
 |----|------|
-| 反应速率 | N_A ⟨$\sigma$u⟩ (per mol·cm³·s) |
+| 反应速率 | N_A ⟨$\sigma$u⟩ (per mol·cm$^{3}$·s) |
 | $\sigma$(E) | $\pi$g $\lambda^{2}$ P(E) × [intrinsic] |
 | S(E) | $E_{0}$(E) exp(+E_b/E^(1/2)) |
 | $E_{0}$ | 0.122 ($Z_{0}$$Z_{1}$A)^(1/3) $T_{9}$^(2/3) MeV |

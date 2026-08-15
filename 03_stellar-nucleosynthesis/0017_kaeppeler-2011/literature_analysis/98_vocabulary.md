@@ -49,9 +49,9 @@ path: 03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/98_voca
 | **s-only nuclides** | 仅由 s 过程产生的稳定核素（如 Ba-130, Ba-132） | 10 |
 | **Barium stars** | 表面 Ba 丰度异常的恒星，s 过程丰度特征的观测例 | 7 |
 | **AGB** | Asymptotic Giant Branch 渐近巨星支 | 32 |
-| **¹³C pocket** | AGB 星中 ¹³C 富集区域，s 过程主要中子源 | 15 |
-| **²²Ne(α,n)²⁵Mg** | weak s 中子源反应 | 8 |
-| **¹³C(α,n)¹⁶O** | main s 中子源反应 | 12 |
+| **$^{13}{\rm C}$ pocket** | AGB 星中 $^{13}{\rm C}$ 富集区域，s 过程主要中子源 | 15 |
+| **$^{22}{\rm Ne}$(α,n)$^{25}{\rm Mg}$** | weak s 中子源反应 | 8 |
+| **$^{13}{\rm C}$(α,n)$^{16}{\rm O}$** | main s 中子源反应 | 12 |
 | **CEMP-s / CEMP-s/r** | Carbon-Enhanced Metal-Poor stars（s 或 s/r 增强） | 9 |
 | **FRANEC** | stellar evolution code（Frascati Raphson Newton Evolutionary Code） | 4 |
 | **LEPP** | Lead-204 / s-process Endpoint Problem | 3 |

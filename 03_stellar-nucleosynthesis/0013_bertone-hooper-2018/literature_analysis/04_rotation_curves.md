@@ -14,7 +14,7 @@
 - [FACT] 历史上最关键的观测是"远端**平坦**自转曲线"（flat rotation curves）——即 v(r) 在超出光学盘半径处不下降——迫使引入**大质量晕（dark halo）**。
 - [FACT] 核心公式：
 $$v_{\rm circ}^2(r) = \frac{G M(<r)}{r}$$
-对于点质量或集中质量 M(<r) ≈ const，v ∝ r⁻¹/²（Kepler 下降）；**平坦**（v ≈ const）要求 M(<r) ∝ r，即质量外延到很远处。
+对于点质量或集中质量 M(<r) ≈ const，v ∝ r$^{-1}$/$^{2}$（Kepler 下降）；**平坦**（v ≈ const）要求 M(<r) ∝ r，即质量外延到很远处。
 
 ## 4.2 A. The beginnings（1914–1959）
 

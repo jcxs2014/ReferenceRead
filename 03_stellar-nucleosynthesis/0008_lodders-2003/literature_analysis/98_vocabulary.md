@@ -13,7 +13,7 @@
 | whereas | conj. | 对比 | 而 | "Photospheric values are present-day, **whereas** solar-system values are protosolar (4.55 Gyr ago)." |
 | consequently | adv. | 因果 | 因此 | "C, O are depressed; **consequently**, metallicity and condensation temperatures must be recomputed." |
 | thus | adv. | 因果 | 从而 | "$fO_{2}$ drops by a factor of 2; **thus**, all oxide condensation temperatures decrease by ~10 K." |
-| hence | adv. | 因果 | 因此 | "The 0.8429 factor applies to all elements except H, He; **hence**, A(El)₀ = A(El) + 0.074." |
+| hence | adv. | 因果 | 因此 | "The 0.8429 factor applies to all elements except H, He; **hence**, A(El)$_{0}$ = A(El) + 0.074." |
 | therefore | adv. | 因果 | 因此 | "CONDOR solves all 83 elements simultaneously; **therefore**, trace chemistry is self-consistently determined." |
 | although | conj. | 让步 | 尽管 | "**Although** meteoritic rock-forming elements agree with the photosphere, this does not preclude heavy-element settling." |
 | despite | prep. | 让步 | 尽管 | "**Despite** 23 years of solar-model development, Z/X has dropped by 34%." |
@@ -54,7 +54,7 @@
 | astronomical scale (A_el) | 天文对数标尺 | A(El) = log[n(El)/n(H)] + 12 | §2.2 |
 | cosmochemical scale (N_Si = $10^{6}$) | 宇宙化学标尺 | 陨石元素以 Si=$10^{6}$ 原子的对数比表示 | §2.2 |
 | A(El) = 1.540 + log N(El) | 两标尺耦合 | 陨石 Si=$10^{6}$ → 太阳 log H=12 的换算常数 | §2.2 |
-| A(El)₀ = A(El) + 0.074 dex | 原始-大气转换关系 | 除 H、He 外统一使用，反映 16% 重元素沉降 | §2.8 |
+| A(El)$_{0}$ = A(El) + 0.074 dex | 原始-大气转换关系 | 除 H、He 外统一使用，反映 16% 重元素沉降 | §2.8 |
 | CI chondrite | CI 碳质球粒陨石 | 五块 CI 陨石（Alais、Ivuna、Orgueil、Revelstoke、Tonk），保存原初太阳星云 rock-forming 元素 bulk composition | §2.2 |
 | CAI (calcium-aluminum inclusion) | 钙铝包裹体 | 球粒陨石中超难熔 Ca-Al-Ti 相包裹体，可能是太阳星云中第一冷凝物 | §3.2 |
 | hibonite $CaAl_{12}$$O_{19}$ | 金红石 / Hibonite | 超难熔 Ca-Al 相，冷凝温度 1659 K | §3.2 |
@@ -64,9 +64,9 @@
 | troilite FeS | 陨硫石 | Fe-S 主硫化物，冷凝温度 704 K | §3.2 |
 | magnetite $Fe_{3}$$O_{4}$ | 磁铁矿 | 动力学极慢的 Fe 氧化物，冷凝温度 371 K | §3.2 |
 | fremdlinge | 外来金属颗粒 | 超难熔金属（W、Re、Os、Ir、Mo、Pt、Rh、Ru）在 CAIs 中的金属合金 | §3.3.1 |
-| whitlockite $Ca_{3}$($PO_{4}$)₂ | 磷灰石族 | 陨石中 P 的常见矿物宿主 | §3.3.6 |
+| whitlockite $Ca_{3}$($PO_{4}$)$_{2}$ | 磷灰石族 | 陨石中 P 的常见矿物宿主 | §3.3.6 |
 | chromite $FeCr_{2}$$O_{4}$ | 铬铁矿 | 陨石中 Cr 的常见矿物宿主 | §3.3.6 |
-| fluorapatite $Ca_{5}$($PO_{4}$)₃F | 氟磷灰石 | F、Cl、Br、I 的主要宿主 | §3.3.8 |
+| fluorapatite $Ca_{5}$($PO_{4}$)$_{3}$F | 氟磷灰石 | F、Cl、Br、I 的主要宿主 | §3.3.8 |
 | sodalite $Na_{4}$[$Al_{3}$$Si_{3}$$O_{12}$]Cl | 钠沸石 | Cl 在磷灰石之前冷凝的早期宿主 | §3.3.8 |
 | lithophile / siderophile / chalcophile / atmophile | 亲石 / 亲铁 / 亲硫 / 亲气 | 按地质亲和性划分元素在凝聚相中的归宿 | §3.1 |
 | refractory / moderately volatile / volatile / highly volatile | 难熔 / 中等挥发 / 挥发 / 高挥发 | 按冷凝温度区间划分：<371 K 高挥发，371–704 K 挥发，704–1290 K 中等挥发，1290–1360 K 普通，>1360 K 难熔 | §3.2 |
@@ -83,11 +83,11 @@
 ## C. 长难句摘录（3–5 句）
 
 ### C1. §2.8（原始太阳重建）
-> "Using the Boothroyd & Sackmann (2003) scaling relations between **Z/X** and **Y, X, $Z_{0}$, $X_{0}$, $Y_{0}$**, and adopting the new photospheric metallicity **Z/X = 0.0177**, one obtains **$X_{0}$ = 0.7110 ± 0.0040**, **$Y_{0}$ = 0.2741 ± 0.0120**, **$Z_{0}$ = 0.0149 ± 0.0015**; the conversion between present-day and protosolar abundances is **A(El)₀ = A(El) + 0.074 dex** for all elements above He, corresponding to **~16% settling of heavy elements** and **~18% settling of helium**."
+> "Using the Boothroyd & Sackmann (2003) scaling relations between **Z/X** and **Y, X, $Z_{0}$, $X_{0}$, $Y_{0}$**, and adopting the new photospheric metallicity **Z/X = 0.0177**, one obtains **$X_{0}$ = 0.7110 ± 0.0040**, **$Y_{0}$ = 0.2741 ± 0.0120**, **$Z_{0}$ = 0.0149 ± 0.0015**; the conversion between present-day and protosolar abundances is **A(El)$_{0}$ = A(El) + 0.074 dex** for all elements above He, corresponding to **~16% settling of heavy elements** and **~18% settling of helium**."
 
-**主干**：one obtains $X_{0}$, $Y_{0}$, $Z_{0}$; the conversion is A(El)₀ = A(El) + 0.074
+**主干**：one obtains $X_{0}$, $Y_{0}$, $Z_{0}$; the conversion is A(El)$_{0}$ = A(El) + 0.074
 **修饰**：Using … 方式状语；and adopting … 并列方式状语；corresponding to … 现在分词结果状语
-**翻译**：利用 Boothroyd & Sackmann (2003) 关于 Z/X 与 Y、X、$Z_{0}$、$X_{0}$、$Y_{0}$ 的标度关系，并采用新的光球金属度 Z/X = 0.0177，可得 $X_{0}$ = 0.7110 ± 0.0040、$Y_{0}$ = 0.2741 ± 0.0120、$Z_{0}$ = 0.0149 ± 0.0015；对 He 以上所有元素，现今与原始丰度之间的转换关系为 A(El)₀ = A(El) + 0.074 dex，对应约 16% 的重元素沉降与约 18% 的氦沉降。
+**翻译**：利用 Boothroyd & Sackmann (2003) 关于 Z/X 与 Y、X、$Z_{0}$、$X_{0}$、$Y_{0}$ 的标度关系，并采用新的光球金属度 Z/X = 0.0177，可得 $X_{0}$ = 0.7110 ± 0.0040、$Y_{0}$ = 0.2741 ± 0.0120、$Z_{0}$ = 0.0149 ± 0.0015；对 He 以上所有元素，现今与原始丰度之间的转换关系为 A(El)$_{0}$ = A(El) + 0.074 dex，对应约 16% 的重元素沉降与约 18% 的氦沉降。
 
 ### C2. §3.1（$fO_{2}$ 下降）
 > "Because **$H_{2}$O/$H_{2}$ ≈ $5.0\times10^{-4}$**, about half the Anders & Grevesse (1989) value of $9.2\times10^{-4}$, the **new $fO_{2}$ is lower**, and **all oxide and silicate condensation temperatures are consequently reduced** by roughly 10 K — a direct consequence of the depressed C, N, O abundances."

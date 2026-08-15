@@ -29,7 +29,7 @@
 
 ### 3.2.2 HB 阶段与"第一参数 / 第二参数"效应
 
-- **ZAHB**：氦核闪后由 ³$\alpha$ 过程 He 燃烧核 + H 燃烧壳层驱动 [FACT]。
+- **ZAHB**：氦核闪后由 $^{3}$$\alpha$ 过程 He 燃烧核 + H 燃烧壳层驱动 [FACT]。
 - **演化路径**：C-O 简并核 + He 燃烧壳层 + 外部 CNO 燃烧壳层 [FACT]。
 - **第一参数（First Parameter）**：金属丰度 —— HB 平均红移随 [Fe/H] 增大而红移（Faulkner 1966；Sandage & Smith 1966）[FACT]。
 - **第二参数（Second Parameter）效应**：相同 [Fe/H] 的星团 HB 形态可不同 [FACT]。
@@ -79,7 +79,7 @@
 
 ## 3.5 与 0001_b2fh-1957 的关联 [FACT]
 
-B$^2$FH 综述把"多种核合成场所"列为关键：RGB 的 CNO 燃烧壳层、AGB 的 ³$\alpha$ 与 He 壳层闪、Type II SN 等是 B$^2$FH 框架内的典型场所。Kraft 在此明确引用这些场所——他讨论的"low-mass RGB star"正是 B$^2$FH 分类中"low-mass stellar interior"的代表。
+B$^2$FH 综述把"多种核合成场所"列为关键：RGB 的 CNO 燃烧壳层、AGB 的 $^{3}$$\alpha$ 与 He 壳层闪、Type II SN 等是 B$^2$FH 框架内的典型场所。Kraft 在此明确引用这些场所——他讨论的"low-mass RGB star"正是 B$^2$FH 分类中"low-mass stellar interior"的代表。
 
 ## 3.6 关键公式与符号
 

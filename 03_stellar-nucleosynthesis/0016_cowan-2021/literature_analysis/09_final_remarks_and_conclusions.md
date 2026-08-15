@@ -148,7 +148,7 @@ $$\frac{dY_i}{dt} = \sum_j \lambda_j Y_j + \sum_{j,k} N_{j,k}^{j,k}\rho N_A \lan
 ### Cowan 2021 的"现状报告"定位
 > [INTERPRETATION]
 
-RMP "Status Report" 的定位（与 B²FH 1957 / Wallerstein 1997 等"完整 review"不同）：
+RMP "Status Report" 的定位（与 B$^{2}$FH 1957 / Wallerstein 1997 等"完整 review"不同）：
 - 不试图覆盖所有细节
 - 突出当前活跃研究方向
 - 给领域研究者一个"快照"
@@ -211,7 +211,7 @@ FRIB 等新一代 RIB 设施的核心目标就是填补这一缺口。Cowan 2021
 - **neutrino flavor transformation**: 中微子味转换
 - **matter-neutrino resonance**: 物质-中微子共振
 - **fast pairwise flavor conversion**: 快速成对味转换
-- **atomic opacity** $\kappa$: 原子不透明度（cm²/g）
+- **atomic opacity** $\kappa$: 原子不透明度（cm$^{2}$/g）
 - **actinide**: 锕系元素
 - **supernova remnant (SNR) neutrino**: 超新星中微子
 - **cosmogenic neutrino**: 宇宙学起源中微子
@@ -238,7 +238,7 @@ FRIB 等新一代 RIB 设施的核心目标就是填补这一缺口。Cowan 2021
 
 Cowan 2021 是 **r 过程研究的里程碑式综述**：
 
-1. **历史定位**：B²FH 1957 后 r 过程研究的"第三次大综合"（前两次：Cowan, Thielemann, Truran 1991；Arnould, Goriely, Takahashi 2007）
+1. **历史定位**：B$^{2}$FH 1957 后 r 过程研究的"第三次大综合"（前两次：Cowan, Thielemann, Truran 1991；Arnould, Goriely, Takahashi 2007）
 2. **多信使整合**：引力波 + kilonova + VMP 谱学的首次系统整合
 3. **核物理 + 天体物理 + 化学演化的完整链条**
 
@@ -254,7 +254,7 @@ Cowan 2021 引用的论文数 ~500，预计将成为 2020–2030 年代 r 过程
 
 ### 与本文献库的关系
 
-本文是本库（`papers/webapp`）恒星核合成主题的**当代核心综述**——与 B²FH 1957（奠基）+ Käppeler 2011（s 过程）+ Bertone-Hooper 2018（暗物质）共同构成完整框架。
+本文是本库（`papers/webapp`）恒星核合成主题的**当代核心综述**——与 B$^{2}$FH 1957（奠基）+ Käppeler 2011（s 过程）+ Bertone-Hooper 2018（暗物质）共同构成完整框架。
 
 后续可期待：
 - **FRIB 实验数据论文**（2024+）—— 核物理维度更新

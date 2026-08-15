@@ -106,7 +106,7 @@
 | # | 标准 | 数值 |
 |---|------|------|
 | 1 | 60 $\mu$m 流量 | ≥ 2.5 Jy；25, 60, 100 $\mu$m 有中等或高质量探测 |
-| 2 | 红移 | log L_FIR < 11 时 z < 8000 km s⁻¹；log L_FIR ≥ 11 时 z < 30000 km s⁻¹ |
+| 2 | 红移 | log L_FIR < 11 时 z < 8000 km s$^{-1}$；log L_FIR ≥ 11 时 z < 30000 km s$^{-1}$ |
 | 3 | 银纬 / 赤纬 | \|b\| ≥ 15°；$\delta$ ≤ −10° |
 | 4 | 温热 FIR 颜色 | 8 ≤ F60/F25 ≤ 0.5（应为 −8 ≤ F60/F25 ≤ 0.5 之误，原文如此，疑为印刷）；2 ≤ F60/F100 ≤ 0.5（同上） |
 
@@ -115,7 +115,7 @@
 ## 2.2 光谱观测
 
 [FACT]
-- 285 个中 225 个获得了 H$\beta$ 处 50 km s⁻¹ 分辨率光学光谱；
+- 285 个中 225 个获得了 H$\beta$ 处 50 km s$^{-1}$ 分辨率光学光谱；
 - S/N > 3$\sigma$；
 - 使用 Mount Stromlo & Siding Springs 2.3 m 望远镜的 Double Beam Spectrograph，蓝/红两段波长；
 - 观测细节见 Kewley et al. 2000, 2001。
@@ -207,9 +207,9 @@ $$R_t \equiv R_* \left(\frac{v_\infty}{v_{\text{ref}}}\right) \left(\frac{\dot{M
 
 [FACT] 计算设置：
 - **几何**：平面-平行、等压模型
-- **电子密度** $n_e = 350$ cm⁻³（来自 [S II] $\lambda$6716, $\lambda$6731 禁戒线比值，配合 MAPPINGS III 五级模型原子推导；Kewley et al. 2001 中给出每颗星系的电子密度）
-- **电离参数** $\chi$（cm s⁻¹，尺寸化）定义在星云**内边界**（最接近激发星处）；无量纲形式 $U = \chi/c$
-- $\chi$ 变化范围：**$5\times10^{6}$ – $3\times10^{8}$ cm s⁻¹**（即 log U = −3.5 – −2.0）
+- **电子密度** $n_e = 350$ cm$^{-3}$（来自 [S II] $\lambda$6716, $\lambda$6731 禁戒线比值，配合 MAPPINGS III 五级模型原子推导；Kewley et al. 2001 中给出每颗星系的电子密度）
+- **电离参数** $\chi$（cm s$^{-1}$，尺寸化）定义在星云**内边界**（最接近激发星处）；无量纲形式 $U = \chi/c$
+- $\chi$ 变化范围：**$5\times10^{6}$ – $3\times10^{8}$ cm s$^{-1}$**（即 log U = −3.5 – −2.0）
 - 金属丰度：PEGASE **0.01 – 3 Z☉**；STARBURST99 **0.05 – 2 Z☉**
 
 ## 4.2 尘埃物理
@@ -331,7 +331,7 @@ $$\log(\text{N/H}) = -3.94 + 2\log(Z/Z_\odot)$$
 - log([O I]/H$\alpha$): −3 到 −0.5
 
 [FACT] MAPPINGS III 网格参数：
-- 电离参数 $\chi$：$5\times10^{6}$, $1\times10^{7}$, $2\times10^{7}$, $4\times10^{7}$, $8\times10^{7}$, $1.5\times10^{8}$, $3\times10^{8}$ cm s⁻¹
+- 电离参数 $\chi$：$5\times10^{6}$, $1\times10^{7}$, $2\times10^{7}$, $4\times10^{7}$, $8\times10^{7}$, $1.5\times10^{8}$, $3\times10^{8}$ cm s$^{-1}$
 - 金属丰度（Z/Z☉）：0.05, 0.1, 0.2, 0.4/0.5, 1.0, 1.5, 2.0, 3.0
 
 [FACT] Dopita et al. 2000 证明：
@@ -365,28 +365,28 @@ $$\tau_{\text{exp}} \equiv R/v_s = 5t/2$$
 
 [FACT] Dopita & Sutherland 1996 辐射激波冷却时标：
 $$\tau_{\text{cool}} \simeq 200 \, v_{100}^{-4.4} \, Z \, n \quad \text{（单位：yr）} \quad (2)$$
-其中 $v_{100}$ 是激波速度（100 km s⁻¹ 单位），Z 相对太阳丰度，n 前激波密度。
+其中 $v_{100}$ 是激波速度（100 km s$^{-1}$ 单位），Z 相对太阳丰度，n 前激波密度。
 
-[FACT] 代入 $n \simeq 350$ cm⁻³：SNR 通常在 **1 pc** 半径、**600 km s⁻¹** 速度时变辐射；此时 SNR 约 600 yr 老，膨胀时标约 1500 yr。
+[FACT] 代入 $n \simeq 350$ cm$^{-3}$：SNR 通常在 **1 pc** 半径、**600 km s$^{-1}$** 速度时变辐射；此时 SNR 约 600 yr 老，膨胀时标约 1500 yr。
 
 ## 6.4 样本的 SFR 与 SNR 数目
 
 [FACT]
-- 总机械能光度：$6 \times 10^{41}$ erg s⁻¹ ($M_\odot$ yr⁻¹)⁻¹（Leitherer et al. 1999）；
-- 由平均 IR 光度（Kennicutt 1998）导出 SFR ≈ **3.4 $M_\odot$ yr⁻¹**（注意 Kennicutt 定义 $L_{\text{IR}} = L_{\text{FIR}}$）；
-- 假设 IR 光度均匀分布于 > 7 kpc 星系，1 kpc 视场内 SFR ≈ **0.07 $M_\odot$ yr⁻¹**；
-- 用 Ha 光度对模板星暴的 SFR ≈ **0.04 $M_\odot$ yr⁻¹**（低于 FIR 值——尘埃吸收降低 Ha 探测）。
+- 总机械能光度：$6 \times 10^{41}$ erg s$^{-1}$ ($M_\odot$ yr$^{-1}$)$^{-1}$（Leitherer et al. 1999）；
+- 由平均 IR 光度（Kennicutt 1998）导出 SFR ≈ **3.4 $M_\odot$ yr$^{-1}$**（注意 Kennicutt 定义 $L_{\text{IR}} = L_{\text{FIR}}$）；
+- 假设 IR 光度均匀分布于 > 7 kpc 星系，1 kpc 视场内 SFR ≈ **0.07 $M_\odot$ yr$^{-1}$**；
+- 用 Ha 光度对模板星暴的 SFR ≈ **0.04 $M_\odot$ yr$^{-1}$**（低于 FIR 值——尘埃吸收降低 Ha 探测）。
 
-[FACT] 600 km s⁻¹ 激波模型（球形，1 pc 半径，太阳丰度，n = 350 cm⁻³）机械能光度：
+[FACT] 600 km s$^{-1}$ 激波模型（球形，1 pc 半径，太阳丰度，n = 350 cm$^{-3}$）机械能光度：
 $$3.6 \times 10^{39} \text{ erg s}^{-1}$$
 
-[FACT] 预期 1 kpc 内总机械光度 ≈ $4 \times 10^{40}$ erg s⁻¹，因此平均有 **11.2 个 SNR** 同时存在于 1 kpc 视场内。
+[FACT] 预期 1 kpc 内总机械光度 ≈ $4 \times 10^{40}$ erg s$^{-1}$，因此平均有 **11.2 个 SNR** 同时存在于 1 kpc 视场内。
 
 ## 6.5 Table 2 — 激波贡献光度
 
-[FACT] 600 km s⁻¹ 激波 + 球形前驱体（1 pc）产生的光度：
+[FACT] 600 km s$^{-1}$ 激波 + 球形前驱体（1 pc）产生的光度：
 
-| 谱线 | L (erg s⁻¹) |
+| 谱线 | L (erg s$^{-1}$) |
 |------|-------------|
 | [O III] | $2.5\times10^{39}$ |
 | H$\beta$ | $3.3\times10^{38}$ |
@@ -401,13 +401,13 @@ $$\log(\text{[O III]}/\text{H}\beta) = \log(\text{[O III]}_{\text{starb}} + \tex
 
 [FACT] 在 [O III]$_{\text{starb}} \to 0$（低全局 $\chi$ 极限）：
 $$\log(\text{[O III]}/\text{H}\beta) \geq 0.0 \quad (4)$$
-（密度 350 cm⁻³，SFR ≈ 0.07 $M_\odot$ yr⁻¹ 在 1 kpc² 内）
+（密度 350 cm$^{-3}$，SFR ≈ 0.07 $M_\odot$ yr$^{-1}$ 在 1 kpc$^{2}$ 内）
 
 [FACT] 但观测到的实际下限为 log([O III]/H$\beta$) ≈ **−1.0**（比 SNR 模型下限低一个数量级）。
 
 [FACT] **结论**：SNR 对 log([O III]/H$\beta$) 的贡献 **> 20%**，实际约 **~2%**（低一个数量级），**可忽略**。
 
-[FACT] 200–300 km s⁻¹ 的激波速度预期与观测更相容，产生的 [O III]$_{\text{SNR}}$ 贡献可忽略。
+[FACT] 200–300 km s$^{-1}$ 的激波速度预期与观测更相容，产生的 [O III]$_{\text{SNR}}$ 贡献可忽略。
 
 ---
 
@@ -496,7 +496,7 @@ $$\log(\text{[O III]}/\text{H}\beta) \geq 0.0 \quad (4)$$
 
 [FACT] 用 **PEGASE 网格**（最硬 EUV）在 VO87 诊断图上设定星暴模型理论上限。
 
-[FACT] 现实范围：Z = 0.1 – 3.0；$\chi$ = $5\times10^{6}$ – $3\times10^{8}$ cm s⁻¹（−3.5 ≤ log U ≤ −2.0）；连续星暴模型**始终**落在经验上限线下方/左方。
+[FACT] 现实范围：Z = 0.1 – 3.0；$\chi$ = $5\times10^{6}$ – $3\times10^{8}$ cm s$^{-1}$（−3.5 ≤ log U ≤ −2.0）；连续星暴模型**始终**落在经验上限线下方/左方。
 
 [FACT] 原因：电离参数-金属丰度两参数网格在诊断图上**折回自身**——无参数组合能生成此折回上方的理论点。
 
@@ -565,7 +565,7 @@ $$\log\frac{\text{[O III]}\,\lambda 5007}{\text{H}\beta} \leq \frac{0.73}{\log(\
 
 ## Figure 14 — 模板平均星暴光谱
 - 56 个星暴星系平均（H$\beta$ S/N ≥ 60, 蓝截止 < 4620 Å）；
-- 通量单位：$1\times10^{-15}$ erg s⁻¹ cm⁻² Å⁻¹。
+- 通量单位：$1\times10^{-15}$ erg s$^{-1}$ cm$^{-2}$ Å$^{-1}$。
 
 ## Figure 15 — Fig. 14 局部放大
 - 位置标记 N III $\lambda$4640、C III $\lambda$4650、[Fe III] $\lambda$4658、He II $\lambda$4686；

@@ -69,7 +69,7 @@ Grevesse & Sauval 用一段历史脉络建立本综述的合法地位：
 | 1929 | H.N. Russell | 首次对太阳大气化学组成做定量分析；使用 Revised Rowland Atlas 的目测谱线强度 + 反演层假设 | 56 |
 | 1948 | Unsöld | 更好观测 + 更好技术，得到 25 元素结果，与 Russell 结果差异不大；赞 Russell "unvergleichliches spektroskopisches Fingerspitzengefühl"（无与伦比的光谱敏锐感） | 25 |
 | 1931 | Minnaert & Slob; Minnaert & Mulders | 生长曲线（curve of growth）技术 | — |
-| 1939 | Wildt | 太阳连续不透明度主要来自 H⁻ 离子 | — |
+| 1939 | Wildt | 太阳连续不透明度主要来自 H$^{-}$ 离子 | — |
 | 1940 | Strömgren | 首个光球模型 | — |
 | 1960 | Goldberg, Müller, Aller (GMA) | 用生长曲线 + 光球模型 + 振子强度（gf），首次给出 42 元素的标准参考丰度 | 42 |
 

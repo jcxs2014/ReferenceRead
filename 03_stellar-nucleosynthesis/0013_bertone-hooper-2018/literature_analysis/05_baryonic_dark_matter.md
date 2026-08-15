@@ -74,9 +74,9 @@ $$t \sim 130\,{\rm d}\times (M/M_\odot)^{0.5}$$
 | 1967 | Wagoner-Fowler-Hoyle：原初 He ~26-28% |
 | 1973 | Reeves-Audouze-Fowler-Schramm 首次用观测轻元素丰度给出 $\Omega_{\rm b}$ ≲ 0.1 $\Omega_{\rm crit}$ |
 | 1998 | Burles-Tytler 高精度原初氘丰度测量 |
-| 2001 | Burles-Nollett-Turner：$\Omega_{\rm b}$ h² = **0.020 ± 0.002**（95% CL） |
-| 2013 | WMAP 9 年：$\Omega_{\rm b}$ h² = **0.02264 ± 0.00050**（68% CL） |
-| 2015 | Planck：$\Omega_{\rm b}$ h² = **0.02225 ± 0.00016**（<1% 精度） |
+| 2001 | Burles-Nollett-Turner：$\Omega_{\rm b}$ h$^{2}$ = **0.020 ± 0.002**（95% CL） |
+| 2013 | WMAP 9 年：$\Omega_{\rm b}$ h$^{2}$ = **0.02264 ± 0.00050**（68% CL） |
+| 2015 | Planck：$\Omega_{\rm b}$ h$^{2}$ = **0.02225 ± 0.00016**（<1% 精度） |
 
 - [FACT] 重子物质仅占宇宙物质的 **< 20%**。
 - [FACT] CMB 重子密度从**奇数 / 偶数峰高度比**得到。

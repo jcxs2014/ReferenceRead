@@ -15,8 +15,8 @@
 ### 5.2.1 Hydrogen burning and the hot CNO cycle
 
 [FACT] 氢燃烧有两种主要机制：
-- **pp 链**：主导低质量恒星（M ≲ 1.3 M_☉），能量产生率对温度依赖较弱（$\epsilon$ ∝ T⁴）；
-- **CNO 循环**：主导大质量恒星（M ≳ 1.3 M_☉），能量产生率对温度依赖很强（$\epsilon$ ∝ T¹⁶ 至 T²⁰），并解释了恒星核心的温度敏感性。
+- **pp 链**：主导低质量恒星（M ≲ 1.3 M_☉），能量产生率对温度依赖较弱（$\epsilon$ ∝ T$^{4}$）；
+- **CNO 循环**：主导大质量恒星（M ≳ 1.3 M_☉），能量产生率对温度依赖很强（$\epsilon$ ∝ T$^{16}$ 至 T$^{20}$），并解释了恒星核心的温度敏感性。
 
 [FACT] "hot CNO cycle"（即 CNO bi-cycle）发生在极高温度下（T ≳ $3\times10^{8}$ K），涉及 $^{14}{\rm O}$、$^{15}{\rm O}$ 等不稳定核的 $\beta$ 衰变环节，是 X 射线双星、新星、Ia 型超新星前身星的重要过程。
 
@@ -50,7 +50,7 @@ $$3 \, ^4\text{He} \to ^{12}\text{C} + \gamma \quad (\text{通过 Hoyle 共振�
 
 [FACT] 核统计平衡 (NSE) 组分分布：
 $$\frac{n_i}{n_A} = \frac{g_i}{g_A} \frac{A^{3/2} A_i^{3/2}}{A_i} \left(\frac{m_u k T}{2\pi\hbar^2}\right)^{3(N_i-N_A)/2} \exp\left(\frac{B_i - B_A}{kT}\right)$$
-其中 n_i、A_i、g_i、B_i 分别是核种 i 的数密度、质量数、简并度、结合能；n_A 为单位核子的密度。在 NSE 条件下，物质组成由温度、密度、中子过剩 $\eta_{\rm n}$ 唯一确定，向结合能最高的 Fe-peak 核（$^{56}{\rm Ni}$ → $\beta^{"+" if m.group(1)=="⁺" else "-"}$ → $^{56}{\rm Co}$ → $\beta^{"+" if m.group(1)=="⁺" else "-"}$ → $^{56}{\rm Fe}$）演化。
+其中 n_i、A_i、g_i、B_i 分别是核种 i 的数密度、质量数、简并度、结合能；n_A 为单位核子的密度。在 NSE 条件下，物质组成由温度、密度、中子过剩 $\eta_{\rm n}$ 唯一确定，向结合能最高的 Fe-peak 核（$^{56}{\rm Ni}$ → $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ → $^{56}{\rm Co}$ → $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ → $^{56}{\rm Fe}$）演化。
 
 ## 5.3 D. Violent Processes in Stars
 

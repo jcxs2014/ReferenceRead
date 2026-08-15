@@ -113,7 +113,7 @@ $$\mathcal{R}_{NSM} \sim 10^{-4} \text{ yr}^{-1} \text{ galaxy}^{-1}$$
 |---|---|---|---|
 | r-II star 比例 | [Fe/H] < -2 中 ~5% | ~5% | 早期 r 过程高产 |
 | r-II star 比例 | [Fe/H] < -3 中 ~30% | ~30% | 早期 r 过程主导 |
-| NSM 事件率 | 当代银河系 | ~$10^{-4}$ yr⁻¹ | 主要 rate |
+| NSM 事件率 | 当代银河系 | ~$10^{-4}$ yr$^{-1}$ | 主要 rate |
 | NSM 延迟时间 | $P(t) \propto t^{-1}$ | 10–100 Myr | 早期富集时标 |
 | HE 1523-0901 | r-clock 年龄 | 13.0 ± 2.5 Gyr | cosmochronometry |
 | CS 31082-001 | Th/Eu 年龄 | ~12.5 Gyr | cosmochronometry |
@@ -170,7 +170,7 @@ $$\mathcal{R}_{NSM} \sim 10^{-4} \text{ yr}^{-1} \text{ galaxy}^{-1}$$
 - 尾部到 ~10 Gyr
 
 **5. 数值信息**：
-- LIGO/Virgo O3 估计合并率 ~320 Gpc⁻³ yr⁻¹
+- LIGO/Virgo O3 估计合并率 ~320 Gpc$^{-3}$ yr$^{-1}$
 
 **6. 作者的解释**：NSM 延迟时间与早期 r 过程富集时标匹配。
 
@@ -179,7 +179,7 @@ $$\mathcal{R}_{NSM} \sim 10^{-4} \text{ yr}^{-1} \text{ galaxy}^{-1}$$
 **8. 物理意义**：NSM 延迟时间决定 r 过程在银河系历史中的"开启时间"。
 
 **9. 需要注意的问题**：
-- 不同双星演化模型给出不同的 $P(t)$（t⁻¹ vs t⁻¹·⁵ 等）
+- 不同双星演化模型给出不同的 $P(t)$（t$^{-1}$ vs t$^{-1.5}$ 等）
 
 ## §VIII.6 作者的逻辑
 

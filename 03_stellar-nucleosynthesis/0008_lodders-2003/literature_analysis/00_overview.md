@@ -79,7 +79,7 @@ path: 03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overvi
     - §2.3.5 Bromine and Iodine Abundances
     - §2.3.6 Mercury Abundance
   - §2.4 Solar System Abundances of the Elements（**表 2：Recommended Elemental Abundances of the Proto-Sun**）
-    - 关键关系式（式 5）：A(El)₀ = A(El) + 0.074
+    - 关键关系式（式 5）：A(El)$_{0}$ = A(El) + 0.074
   - §2.5 Abundances of the Isotopes（**表 6：Abundances of the Isotopes in the Solar System**，含 4.55 Gyr 前放射性/衰变产物丰度）
 - **§3 Condensation Temperatures of the Elements**（p. 1236–1245）
   - §3.1 Computational Methods and Nomenclature（CONDOR 代码，式 7–15；p = $10^{-4}$ bar）
@@ -114,7 +114,7 @@ path: 03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overvi
 - 当前质量分数：**X = 0.7491 ± 0.0030, Y = 0.2377 ± 0.0030, Z = 0.0133 ± 0.0014**，Z/X = 0.0177
 - 原始（protosolar）质量分数：**$X_{0}$ = 0.7110 ± 0.0040, $Y_{0}$ = 0.2741 ± 0.0120, $Z_{0}$ = 0.0149 ± 0.0015**，$X_{0}$/$Z_{0}$ = 0.0210
 
-[FACT] 原始与大气丰度的转换关系为 A(El)₀ = A(El) + 0.074 dex（除 H、He 外），即大气金属度约为原始太阳的 **84.29%**（约 16% 重元素沉降，约 18% He 沉降）。
+[FACT] 原始与大气丰度的转换关系为 A(El)$_{0}$ = A(El) + 0.074 dex（除 H、He 外），即大气金属度约为原始太阳的 **84.29%**（约 16% 重元素沉降，约 18% He 沉降）。
 
 [FACT] 使用自洽的原始太阳丰度与CONDOR代码，在总压 $10^{-4}$ bar 下重算全部 83 种天然元素的**初始冷凝温度**与**50% 冷凝温度**，按挥发性分为：
 - 超难熔 >1650 K：Os, Re, W, Al, Hf, Sc, Th, Y, Zr, Gd, Tb, Dy, Ho, Er, Tm, Lu

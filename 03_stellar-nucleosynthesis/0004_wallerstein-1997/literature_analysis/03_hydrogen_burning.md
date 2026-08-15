@@ -8,13 +8,13 @@
 
 **本章作者**：Peter Parker（Yale University）
 
-## 3.1 A. The p(p,e⁺,$\nu_{\rm e}$)d reaction
+## 3.1 A. The p(p,e$^{+}$,$\nu_{\rm e}$)d reaction
 
 [FACT] pp 链第一步的 $S_{11}$(0;$\delta$) 决定整个 pp 链速率：
 $$S_{11}(0;\delta) = S_{11}(0;0)_{BM69} \left(\frac{L}{L_{69}}\right)^2 \left(\frac{G_A/G_V}{(G_A/G_V)_{69}}\right)^2 \frac{f_{pp}^R}{(f_{pp})_{69}} \frac{[(ft)_{0^+ \to 0^+}]}{[(ft)_{0^+ \to 0^+}]_{69}} (1+\delta)^2$$
 
 **关键参数**（1997 年最佳值）：
-- L² = 6.92 (±61%)（Kamionkowski & Bahcall 1994）
+- L$^{2}$ = 6.92 (±61%)（Kamionkowski & Bahcall 1994）
 - G_A/G_V = 1.2654 ± 0.0042（Barnett et al. 1996; INT Workshop 1997）
 - (ft)_{$0^{+}$→$0^{+}$} = 3073.3 ± 3.5（Hardy et al. 1990）
 - $\delta$ = 0.01 (0.004 < $\delta$ < 0.03)（Bahcall & Pinsonneault 1992）——**$\rho$/$\omega$ 介子交换对核矩阵元的修正**
@@ -31,7 +31,7 @@ $$S_{11}(0;\delta) = S_{11}(0;0)_{BM69} \left(\frac{L}{L_{69}}\right)^2 \left(\f
 
 [FACT] **电子屏蔽修正**：
 $$\sigma_b = \sigma_s / \exp(\pi \eta U_e / E_{c.m.})$$
-- U_e = $Z_{1}$$Z_{2}$e²/R_a
+- U_e = $Z_{1}$$Z_{2}$e$^{2}$/R_a
 - 对 3He(3He,2p)4He 在 Ec.m. = 22 keV 时，修正达 **20%**
 - 在 Ec.m. > 150 keV 时，修正 <1%
 

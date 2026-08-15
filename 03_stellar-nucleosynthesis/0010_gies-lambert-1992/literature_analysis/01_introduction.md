@@ -31,7 +31,7 @@
 - 对 36 颗 B 星基于 Kane, McKeith & Dufton (1980) 和 Dufton, Kane & McKeith (1981a) 测量的 N II $\lambda$$\lambda$3995, 4630 等值宽度；
 - 与 Dufton & Hibbert (1981) non-LTE 预测表比较；
 - 通过 [c1]、$\beta$ 指数校准选定 (T_eff, log g)；
-- **关键固定假设**：**$\xi$ = 0 km s⁻¹** 且 **log g = 4.0** 用于所有星。
+- **关键固定假设**：**$\xi$ = 0 km s$^{-1}$** 且 **log g = 4.0** 用于所有星。
 
 [FACT] 核心结果：
 - 13–20 $M_\odot$ 恒星：log $\epsilon$(N) 从 **7.6 → 8.6** 在 **< $10^{7}$ yr** 内；

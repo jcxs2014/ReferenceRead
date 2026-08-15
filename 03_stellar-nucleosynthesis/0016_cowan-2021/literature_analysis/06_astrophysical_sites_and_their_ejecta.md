@@ -44,7 +44,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/06_astrophy
 
 > **[FACT]** **GW170817 + AT2017gfo 拟合**：总 ejecta ~0.04-0.05 M☉；dynamical 30-50%（lanthanide-rich 红）；wind 50-70%（lanthanide-poor 蓝）。
 
-> **[FACT]** **NSM 事件率**：$\mathcal{R} \sim 320^{+490}_{-240}$ Gpc⁻³ yr⁻¹（Abbott et al. 2020）。
+> **[FACT]** **NSM 事件率**：$\mathcal{R} \sim 320^{+490}_{-240}$ Gpc$^{-3}$ yr$^{-1}$（Abbott et al. 2020）。
 
 > **[FACT]** **NSBH mergers**（行 2900+）：潮汐撕裂 ejecta 较少（~$10^{-3}$ M☉），$Y_e$ 可低至 ~0.05。
 

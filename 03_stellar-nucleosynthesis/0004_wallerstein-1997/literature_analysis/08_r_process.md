@@ -8,12 +8,12 @@
 
 ## 8.1 Sec. XII: The r Process (Hoffman & Timmes)
 
-[FACT] B2FH 与 Cameron (1957) 提出：种子核（通常铁）在比 $\beta^{"+" if m.group(1)=="⁺" else "-"}$ 衰变时标快得多的时标上快速俘获大量中子。
+[FACT] B2FH 与 Cameron (1957) 提出：种子核（通常铁）在比 $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变时标快得多的时标上快速俘获大量中子。
 
 [FACT] r 过程基本图景：
-- 中子俘获直至 (n,$\gamma$) ↔ ($\gamma$,n) 平衡 → $\beta^{"+" if m.group(1)=="⁺" else "-"}$ 衰变前进到更高 Z
+- 中子俘获直至 (n,$\gamma$) ↔ ($\gamma$,n) 平衡 → $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变前进到更高 Z
 - 适当的中子照射下可合成 Th 和 U
-- 中子流下降后，$\beta^{"+" if m.group(1)=="⁺" else "-"}$ 衰变填充每个 A 的第一个稳定核
+- 中子流下降后，$\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变填充每个 A 的第一个稳定核
 
 [FACT] **主要综述引用**：Hillebrandt (1978), Schramm (1982), Mathews & Ward (1985), Cowan et al. (1991), Meyer (1994)
 
@@ -110,7 +110,7 @@ $$\alpha(\alpha\alpha,\gamma)^{12}\text{C}, \quad \alpha(\alpha n,\gamma)^{9}\te
 [FACT] **Haxton et al. (1997)**：A=124–126 与 A=183–187 区间的核显示出对中微子后处理效应的极端敏感性 → 可能对未来核心塌缩模型中的冻结半径和动态时标施加强约束
 
 [FACT] **中微子味转换 (MSW 效应)**（Fuller et al. 1987）：
-- $\nu$̄_$\mu$/$\tau$ ↔ $\nu$̄_e 转换：若 $\Delta$m² ~ 1 eV² → 但预期不驱动 Ye < 0.5 → 不构成 r 过程位点的困难
+- $\nu$̄_$\mu$/$\tau$ ↔ $\nu$̄_e 转换：若 $\Delta$m$^{2}$ ~ 1 eV$^{2}$ → 但预期不驱动 Ye < 0.5 → 不构成 r 过程位点的困难
 - $\nu_\mu$/$\tau$ ↔ $\nu_{\rm e}$ 转换（能量层级反转）→ 可能有破坏性后果（Qian & Fuller 1995）
 
 ### 8.1.6 结论

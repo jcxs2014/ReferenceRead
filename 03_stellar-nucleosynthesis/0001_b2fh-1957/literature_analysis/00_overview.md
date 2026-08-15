@@ -49,7 +49,7 @@ path: 03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.
 | **DOI** | 10.1103/RevModPhys.29.547（本 PDF 未直接给出 DOI，由引文推断） |
 | **arXiv** | 未提供（1957 年出版，早于 arXiv） |
 | **Research Field** | 恒星核合成 / 核天体物理 / 宇宙化学 |
-| **Keywords** | 核合成、r 过程、s 过程、p 过程、$\alpha$ 过程、$\epsilon$ 过程、Big Bang 核合成、超新星、中子俘获、元素丰度、恒星演化、技术锝（Tc⁹⁹）、超重元素 |
+| **Keywords** | 核合成、r 过程、s 过程、p 过程、$\alpha$ 过程、$\epsilon$ 过程、Big Bang 核合成、超新星、中子俘获、元素丰度、恒星演化、技术锝（Tc$^{99}$）、超重元素 |
 | **Funding** | Joint program of the Office of Naval Research and the U.S. Atomic Energy Commission（页脚注） |
 
 **题记引文（作者开篇即立基调）**：[FACT]
@@ -102,7 +102,7 @@ VII. Details of the r Process (P48–P59)
 VIII. Extension and Termination of the r Process and s Process (P59–P65)
     A. Synthesis of the Naturally Radioactive Elements
     B. Extension and Termination of the r Process（自发裂变截止）
-    C. Age of the Elements and of the Galaxy（U²³⁵/U²³⁸ 双衰变）
+    C. Age of the Elements and of the Galaxy（U$^{235}$/U$^{238}$ 双衰变）
     D. Termination of the s Process; the Abundances of Lead, Bismuth, Thorium, Uranium
 IX.  p Process (P65–P74)
     (p,$\gamma$) 与 ($\gamma$,n) 光致蜕变；质子富集核（p-nuclei）
@@ -120,7 +120,7 @@ XI.  Variations in Chemical Composition among Stars, and Their Bearing on the Va
 XII. General Astrophysics (P85–P95)
     A. Ejection of Material from Stars and the Enrichment of the Galaxy in Heavy Elements
     B. Supernova Outbursts
-    C. Supernova Light Curves（Cf²⁵⁴ 自发裂变供能）
+    C. Supernova Light Curves（Cf$^{254}$ 自发裂变供能）
     D. Origin of the r-Process Isotopes in the Solar System
 XIII. Conclusion (P95)
     —
@@ -133,11 +133,11 @@ XIII. Conclusion (P95)
 
 | 编号 | 过程 | 物理机制 | 产物范围 | 时间标度 | 关键场所 |
 |---|---|---|---|---|---|
-| (i) | Hydrogen Burning | pp 链 & CN 循环 | He⁴、C/N/O/F/Ne/Na 部分同位素 | $10^{7}$–$10^{10}$ yr | 主序星内部 |
-| (ii) | Helium Burning | 3$\alpha$ 与 $\alpha$ 逐次俘获 | $^{12}{\rm C}$、$^{16}{\rm O}$、$^{20}{\rm Ne}$、$^{24}{\rm Mg}$ | $10^{7}$–$10^{8}$ yr | 红巨星核心（T~$10^{8}$ K，$\rho$~$10^{5}$ g/cm³） |
-| (iii) | $\alpha$ (alpha) Process | Ne²⁰ 起逐次 $\alpha$ 俘获 | $^{24}{\rm Mg}$、$^{28}{\rm Si}$、$^{32}{\rm S}$、$^{36}{\rm Ar}$、$^{40}{\rm Ca}$、$^{44}{\rm Ca}$、$^{48}{\rm Ti}$ | $10^{6}$–$10^{7}$ yr | 演化后期收缩相 |
+| (i) | Hydrogen Burning | pp 链 & CN 循环 | He$^{4}$、C/N/O/F/Ne/Na 部分同位素 | $10^{7}$–$10^{10}$ yr | 主序星内部 |
+| (ii) | Helium Burning | 3$\alpha$ 与 $\alpha$ 逐次俘获 | $^{12}{\rm C}$、$^{16}{\rm O}$、$^{20}{\rm Ne}$、$^{24}{\rm Mg}$ | $10^{7}$–$10^{8}$ yr | 红巨星核心（T~$10^{8}$ K，$\rho$~$10^{5}$ g/cm$^{3}$） |
+| (iii) | $\alpha$ (alpha) Process | Ne$^{20}$ 起逐次 $\alpha$ 俘获 | $^{24}{\rm Mg}$、$^{28}{\rm Si}$、$^{32}{\rm S}$、$^{36}{\rm Ar}$、$^{40}{\rm Ca}$、$^{44}{\rm Ca}$、$^{48}{\rm Ti}$ | $10^{6}$–$10^{7}$ yr | 演化后期收缩相 |
 | (iv) | $\epsilon$ (epsilon) Process | 极高 T、$\rho$ 下的统计平衡 | 铁族（V,Cr,Mn,Fe,Co,Ni，A≈50–62） | 秒或分钟 | 超新星爆发前 |
-| (v) | s Process（slow） | (n,$\gamma$)，每步间 $\beta$ 衰变慢于中子俘获 | 23≲A≲46（大部分）；63≲A≲209（相当比例） | $10^{3}$–$10^{8}$ yr | 红巨星内部（伴随 Tc⁹⁹） |
+| (v) | s Process（slow） | (n,$\gamma$)，每步间 $\beta$ 衰变慢于中子俘获 | 23≲A≲46（大部分）；63≲A≲209（相当比例） | $10^{3}$–$10^{8}$ yr | 红巨星内部（伴随 Tc$^{99}$） |
 | (vi) | r Process（rapid） | (n,$\gamma$)，中子俘获极快；$\beta$ 衰变时标 0.01–1 s | 70≲A≲209（大量）；U、Th；可能含轻元素如 $^{44}{\rm Ca}$ | 10–100 s | 超新星爆发 |
 | (vii) | p Process | (p,$\gamma$) 或 ($\gamma$,n) 光致蜕变 | 质子富集核（低丰度） | 分钟级 | 超新星 II 型外抛壳 |
 | (viii) | x Process | 多种可能 | D、Li、Be、B | 秒–$10^{9}$ yr | 低 T、低密度区（恒星大气、宇宙线） |
@@ -148,10 +148,10 @@ XIII. Conclusion (P95)
 
 1. Suess & Urey (1956) 元素丰度表（论文主要数据源）。
 2. Russell (1929) 太阳丰度；Goldberg, Aller, Müller (1957) 最新太阳值。
-3. **S 型星（Merrill, 1952）中的技术锝 Tc⁹⁹**——半衰期 $2\times10^{6}$ yr 的短寿命核素在恒星大气中被观测到，直接证明恒星内部正在进行的慢中子俘获过程。
+3. **S 型星（Merrill, 1952）中的技术锝 Tc$^{99}$**——半衰期 $2\times10^{6}$ yr 的短寿命核素在恒星大气中被观测到，直接证明恒星内部正在进行的慢中子俘获过程。
 4. 超新星中 $^{56}{\rm Ni}$/$^{56}{\rm Co}$ 衰变链——超新星爆发内快速中子俘获的证据。
 5. Population I vs II 恒星的重元素丰度差异。
-6. 蟹状星云超新星遗迹中 Cf²⁵⁴ 自发裂变的推断（Burbidge, 1956）。
+6. 蟹状星云超新星遗迹中 Cf$^{254}$ 自发裂变的推断（Burbidge, 1956）。
 
 ## 0.7 关键图表目录（本分析将在后续章节逐一展开）
 
@@ -165,7 +165,7 @@ XIII. Conclusion (P95)
 | Fig. II.4 | 各过程时间标度 vs 恒星内部温度示意 |
 | Fig. III.1 | 质子质子反应截面因子 S(E) |
 | Fig. III.6 | 超新星壳层中由 H/He 燃烧产生的中子源反应图 |
-| Fig. IV.1 | 铁族观测/计算平衡丰度（$\log_{10}$ N/N(Fe⁵⁶)） |
+| Fig. IV.1 | 铁族观测/计算平衡丰度（$\log_{10}$ N/N(Fe$^{56}$)） |
 | Fig. V.1 | Neutron-capture cross section × abundance 曲线（s 过程稳态流） |
 | Fig. VII.1 | 平均过量中子结合能（幻数 50/82/126） |
 | Fig. VII.4 | 重核 r 过程丰度（超铀、裂变） |

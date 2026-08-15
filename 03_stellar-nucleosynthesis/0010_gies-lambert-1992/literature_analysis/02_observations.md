@@ -12,7 +12,7 @@
 
 [FACT] **望远镜与光谱仪**：UT McDonald Observatory，2.1 m 望远镜 + coudé 光谱仪
 [FACT] **探测器**：Reticon RL1728H/20，线性阵列 1728 个 15×750 $\mu$m 像素
-[FACT] **光栅**：1200 groove mm⁻¹，闪耀 6000 Å，一阶
+[FACT] **光栅**：1200 groove mm$^{-1}$，闪耀 6000 Å，一阶
 [FACT] **观测时段**：1985 Dec – 1987 Dec
 [FACT] **信噪比**：连续谱 **S/N ≈ 300/pixel**，单次曝光 ≤ 1 小时
 [FACT] **样本量**：**39 颗早 B 星**，光谱型 **O9–B3**；含 **5 颗超巨星**
@@ -21,10 +21,10 @@
 
 [FACT]
 1. 北天易观测的明亮早 B 型星；
-2. V sin i < 100 km s⁻¹（避免弱线被旋转展宽）；
+2. V sin i < 100 km s$^{-1}$（避免弱线被旋转展宽）；
 3. 16 颗星属于 Lyubimkov (1984) 样本（便于直接对比）。
 
-[CRITIQUE] 选择 V sin i < 100 km s⁻¹ 意味着**快速自转者被系统性排除**——而 Maeder (1987a) 明确指出快速自转是旋转混合的主要驱动者。因此本样本对"旋转混合是否普遍"这个问题**有偏**。
+[CRITIQUE] 选择 V sin i < 100 km s$^{-1}$ 意味着**快速自转者被系统性排除**——而 Maeder (1987a) 明确指出快速自转是旋转混合的主要驱动者。因此本样本对"旋转混合是否普遍"这个问题**有偏**。
 
 ### 2.1.2 光谱带（Table 2）
 
@@ -57,7 +57,7 @@
 
 ## 2.3 Table 1 — 恒星基本参数
 
-[FACT] 39 颗星的 HD 号、HR 号、常用名、光谱型（Bright Star Catalogue, Hoffleit & Jaschek 1982）、[c1]、c⁰、T_eff (K)、log g、V sin i、$\xi$(LTE)、$\xi$(NLTE)。
+[FACT] 39 颗星的 HD 号、HR 号、常用名、光谱型（Bright Star Catalogue, Hoffleit & Jaschek 1982）、[c1]、c$^{0}$、T_eff (K)、log g、V sin i、$\xi$(LTE)、$\xi$(NLTE)。
 
 [FACT] **光谱型分布**：O9.5, O9, B0, B0.5, B1, B1.5, B2, B2.5, B3；含多种光度级 V/IV/III/II/Ib/Iae。
 

@@ -74,7 +74,7 @@ $$\kappa_{Fe} \approx 0.1 \text{ cm}^2/\text{g}$$
 **扩散时标**：
 $$t_{diff} \sim \sqrt{\frac{\kappa M_{ej}}{v_{ej} c}}$$
 
-对 $\kappa = 1$ cm²/g, $M_{ej} = 0.05 M_\odot$, $v = 0.2 c$：$t_{diff} \sim 7$ 天。
+对 $\kappa = 1$ cm$^{2}$/g, $M_{ej} = 0.05 M_\odot$, $v = 0.2 c$：$t_{diff} \sim 7$ 天。
 
 ## §VII.4 关键参数 / 数据点
 
@@ -185,7 +185,7 @@ Cowan 2021 §VII 的核心论证是：观测到的"蓝+红"双成分直接对应
 - **kilonova**: 双中子星并合的电磁对应体
 - **lanthanide-poor / -rich**: kilonova 早期 / 晚期 ejecta 中 lanthanide 元素丰度
 - **P Cygni profile**: 谱线的发射 + 吸收组合轮廓，ejecta 速度诊断
-- **opacity $\kappa$**: 不透明度（cm²/g）
+- **opacity $\kappa$**: 不透明度（cm$^{2}$/g）
 - **fission cycling**: r 过程末端的裂变循环（A ~ 260 → A ~ 130）
 - **4f electron**: lanthanide 元素的特征电子层，决定高 opacity
 - **NIR** (Near-Infrared): 近红外（1–5 μm）

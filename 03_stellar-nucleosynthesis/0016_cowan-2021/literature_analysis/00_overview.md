@@ -33,7 +33,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview
 ## [FACT] 论文内容
 
 ### 核心问题
-宇宙中元素是如何产生的？B²FH 框架后的 60 年，r 过程和 s 过程分别负责哪些元素？引力波时代如何改变元素起源研究？
+宇宙中元素是如何产生的？B$^{2}$FH 框架后的 60 年，r 过程和 s 过程分别负责哪些元素？引力波时代如何改变元素起源研究？
 
 ### s 过程（慢中子俘获）
 - **位置**：AGB 星（渐近巨星支）内部
@@ -47,8 +47,8 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview
 - **时标**：秒级中子俘获，产生极不稳定核素
 - **观测证据**：kilonova AT2017gfo（千新星）光谱证实 r 过程合成
 
-### B²FH 的当代更新
-| 过程 | B²FH 当年 | 2021 状态 |
+### B$^{2}$FH 的当代更新
+| 过程 | B$^{2}$FH 当年 | 2021 状态 |
 |---|---|---|
 | s 过程 | AGB 星 | 基本确认，细部修正 |
 | r 过程 | 未知（SN？） | **NSM 确认**，GW170817 直接证据 |
@@ -63,7 +63,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview
 ## [INTERPRETATION] 物理意义
 
 ### 元素起源研究的范式转变
-B²FH 时代依赖核物理理论和恒星观测；引力波时代（2017+）直接探测 NSM 的电磁对应体，标志着"多信使天文学"在元素起源领域的应用。
+B$^{2}$FH 时代依赖核物理理论和恒星观测；引力波时代（2017+）直接探测 NSM 的电磁对应体，标志着"多信使天文学"在元素起源领域的应用。
 
 ### 核天文汇合
 核物理（核反应截面、不稳定核素性质）和天体物理（恒星演化、NSM 事件率）在 r 过程问题上深度交叉——纯核物理或纯天文方法均无法独立解决。
@@ -84,7 +84,7 @@ B²FH 时代依赖核物理理论和恒星观测；引力波时代（2017+）直
 
 | 关系 | 论文 | 说明 |
 |---|---|---|
-| B²FH 原始 | **B²FH 1957** | 元素合成框架奠基 |
+| B$^{2}$FH 原始 | **B$^{2}$FH 1957** | 元素合成框架奠基 |
 | s 过程 | **Käppeler et al. 2011** | s 过程权威综述（批4同篇） |
 | NSM 证据 | **Cowan et al. 2021 自引** | GW170817 kilonova |
 
@@ -112,7 +112,7 @@ B²FH 时代依赖核物理理论和恒星观测；引力波时代（2017+）直
 
 ## 章节级核心关键词（按主题聚合）
 
-`('s-process', 'slow neutron capture process', 25)` `('r-process', 'rapid neutron capture process', 38)` `('kilonova', '千新星，NSM 抛射物产生的光学/近红外爆发', 22)` `('GW170817', 'LIGO 2017 探测的双中子星并合引力波事件', 18)` `('AT2017gfo', 'GW170817 的 kilonova 电磁对应体', 15)` `('lanthanide-poor/-rich', 'kilonova 早期/晚期 ejecta 的稀土元素丰度', 12)` `('B²FH', 'Burbidge-Burbidge-Fowler-Hoyle 1957 框架', 10)` `('AGB', 'Asymptotic Giant Branch', 28)`
+`('s-process', 'slow neutron capture process', 25)` `('r-process', 'rapid neutron capture process', 38)` `('kilonova', '千新星，NSM 抛射物产生的光学/近红外爆发', 22)` `('GW170817', 'LIGO 2017 探测的双中子星并合引力波事件', 18)` `('AT2017gfo', 'GW170817 的 kilonova 电磁对应体', 15)` `('lanthanide-poor/-rich', 'kilonova 早期/晚期 ejecta 的稀土元素丰度', 12)` `('B$^{2}$FH', 'Burbidge-Burbidge-Fowler-Hoyle 1957 框架', 10)` `('AGB', 'Asymptotic Giant Branch', 28)`
 
 > **注**：本节为后续骨架更新追加，不影响原 00_overview.md 的 [FACT]/[INTERPRETATION]/[CRITIQUE] 框架。
 

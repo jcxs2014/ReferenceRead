@@ -75,7 +75,7 @@ $$\text{Fe}(g) = \text{Fe}(metal) \quad \text{（式 13）}$$
 $$\log K_{\text{Fe}} = \log(a_{\text{Fe}}/P_{\text{Fe}}) = A + B/T \quad \text{（式 14）}$$
 $$-\log P_{\text{Fe}} = A + B/T \quad \text{（式 15）}$$
 
-[FACT] 冷凝温度 = 气体分压 Pi = 凝聚相蒸气压 Pvap 时的温度。即**饱和比 S = Pi/Pvap = 1 = 活动度 aᵢ**。
+[FACT] 冷凝温度 = 气体分压 Pi = 凝聚相蒸气压 Pvap 时的温度。即**饱和比 S = Pi/Pvap = 1 = 活动度 a$_{i}$**。
 
 ### 3.4.7 氧逸度 $fO_{2}$ 的表达式（式 12）
 

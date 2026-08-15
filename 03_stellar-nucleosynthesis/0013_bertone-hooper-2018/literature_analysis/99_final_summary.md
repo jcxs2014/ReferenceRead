@@ -34,7 +34,7 @@
   2. 星系自转曲线（1970s）
   3. CMB 涨落 + 结构形成（1980s-90s）
   4. Bullet Cluster 透镜（2006）
-- [FACT] 宇宙学观测确立**非重子冷暗物质**（$\Omega_{\rm b}$ h² = 0.02225 ± 0.00016，重子 < 20% 的宇宙物质）。
+- [FACT] 宇宙学观测确立**非重子冷暗物质**（$\Omega_{\rm b}$ h$^{2}$ = 0.02225 ± 0.00016，重子 < 20% 的宇宙物质）。
 - [FACT] MACHO 被**微透镜**（EROS: <8%）+ **重子预算**（BBN + CMB）双重排除。
 - [FACT] MOND 在星系尺度成功（Tully-Fisher），但**星系团与 CMB** 强冲突。
 - [FACT] WIMP 参数空间被**直接探测 30 年**与 **LHC 无发现**大幅压缩（2018 年时已现"WIMP 时刻已到"迹象）。
@@ -55,15 +55,15 @@
 ## 99.7 我应该记住的要点（10 条）
 
 1. "Dark matter"一词 19 世纪已用（Kelvin, Poincaré, Kapteyn, Zwicky 1933b），非 Zwicky 1933 首创。
-2. **Oort 1932 太阳邻域密度** = 0.092 M⊙/pc³；暗物质上限 0.05 M⊙/pc³——现代直接探测的关键输入。
+2. **Oort 1932 太阳邻域密度** = 0.092 M⊙/pc$^{3}$；暗物质上限 0.05 M⊙/pc$^{3}$——现代直接探测的关键输入。
 3. Zwicky 1937 Coma M/L ≈ 500（修正 $H_{0}$ 后仍高 ~60）——星系团证据稳健。
 4. **Freeman 1970 首次明确断言**"必须存在未探测到的额外物质"——星系尺度范式转换节点。
 5. **1974 双胞胎论文**（Einasto et al. + Opriker-Peebles-Yahil）首次把星系团与星系缺失质量统一。
-6. MOND $a_{0}$ ≈ $1.2\times10^{-10}$ m/s² 精确预测 Tully-Fisher $\alpha$=4；**Bullet Cluster 2006** 是其最大挑战。
-7. WIMP 奇迹：$\sigma$v ~ $10^{-26}$ cm³/s 与弱力截面"巧合一致"——但 20 年 null 结果已严重压缩参数空间。
+6. MOND $a_{0}$ ≈ $1.2\times10^{-10}$ m/s$^{2}$ 精确预测 Tully-Fisher $\alpha$=4；**Bullet Cluster 2006** 是其最大挑战。
+7. WIMP 奇迹：$\sigma$v ~ $10^{-26}$ cm$^{3}$/s 与弱力截面"巧合一致"——但 20 年 null 结果已严重压缩参数空间。
 8. R 宇称 (P_R = (-1)^{2s+3B+L}) 保证 SUSY LSP 稳定 → 自然暗物质候选。
 9. Axion：解决强 CP 问题；质量 $10^{-6}$ – $10^{-4}$ eV；ADMX 已覆盖 1.9-3.3 $\mu$eV。
-10. **CMB + BBN** 双重证据给出 $\Omega_{\rm b}$ h² < 1% 精度 → 暗物质**必为非重子**。
+10. **CMB + BBN** 双重证据给出 $\Omega_{\rm b}$ h$^{2}$ < 1% 精度 → 暗物质**必为非重子**。
 
 ## 99.8 与相关工作的关系
 
@@ -110,7 +110,7 @@
 - [x] Data（Oort 1932、Zwicky 1937、旋转曲线、CMB/BBN、Bullet Cluster）
 - [x] Background（19 世纪暗物质概念、MACHO、修正引力）
 - [x] Signal（维里质量、旋转曲线、引力透镜、结构形成）
-- [x] Statistics（$\Omega_{\rm b}$ h²=0.02225、WIMP 截面约束）
+- [x] Statistics（$\Omega_{\rm b}$ h$^{2}$=0.02225、WIMP 截面约束）
 - [x] Systematics（MACHO 微透镜上限、直接探测系统误差）
 - [x] Results
 - [x] Discussion（暗物质证据多尺度汇聚）

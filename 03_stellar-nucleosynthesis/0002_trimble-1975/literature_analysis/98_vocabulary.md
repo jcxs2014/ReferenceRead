@@ -19,7 +19,7 @@
 | 反之 | conversely / in contrast | adv. | 对比 | "[FACT] Pop II 恒星的重元素丰度低；**反之** Pop I 星因经过多代恒星增丰而富金属" | 对比 |
 | 即 | namely / i.e. | conj. | 释义 | "[FACT] IMF——**即** 初始质量函数 (Initial Mass Function)，描述恒星形成时的质量分布——是银河演化的核心输入" | 释义 |
 | 不仅……而且 | not only … but also | conj. | 递进 | "[FACT] 本文**不仅**综述了元素起源的历史，**而且**提出了定量检验丰度数据的系统方法" | 递进 |
-| 根据 | according to / on the basis of | prep. | 依据 | "[FACT] **根据** Cameron (1957) 的分析，S 型星中 Tc⁹⁹ 的观测**是** s 过程正在发生的直接证据" | 依据 |
+| 根据 | according to / on the basis of | prep. | 依据 | "[FACT] **根据** Cameron (1957) 的分析，S 型星中 Tc$^{99}$ 的观测**是** s 过程正在发生的直接证据" | 依据 |
 | 鉴于 | given that | prep. | 条件 | "[FACT] **鉴于** r 过程场所的不确定性，银河模型对重元素时标的推断具有系统性误差" | 条件 |
 | 值得注意的是 | it is worth noting that | phrase | 提示 | "[FACT] **值得注意的是** 1975 年本文对 $^{12}{\rm C}$($\alpha$,$\gamma$)$^{16}{\rm O}$ 速率的讨论已被后来 40 年的实验大幅修正" | 提示 |
 | 因此可以说 | thus / hence | conj. | 结论 | "B$^2$FH 的贡献在于提出统一框架；**因此可以说**本文是对该框架的系统验证" | 总结 |
@@ -48,7 +48,7 @@
 | 稳态流 (steady-flow) | s 过程 $\sigma$·N=const 的分析框架 | 中频 | §06 |
 | 中子俘获截面 (neutron-capture cross section) | (n,$\gamma$) 反应的概率 | 高频 | §06 |
 | 质量损失率 (mass-loss rate) | 恒星通过星风或抛射损失的物质速率 | 中频 | §07 |
-| Tc⁹⁹ (technetium-99) | 半衰期 $2.1\times10^{6}$ yr 的短寿命核素；s 过程直接证据 | 中频 | §06 |
+| Tc$^{99}$ (technetium-99) | 半衰期 $2.1\times10^{6}$ yr 的短寿命核素；s 过程直接证据 | 中频 | §06 |
 | 双衰变定年 (double-decay chronometer) | 用两种放射性核素反推年龄的方法 | 中频 | §07 |
 | Cameron (1957) | Cameron 独立提出 Tc 证据与 r 过程概念 | 中频 | §01 |
 | Fowler, Caughlan, Zimmerman (FCZ) | 现代核合成反应速率表 | 中频 | §05 |

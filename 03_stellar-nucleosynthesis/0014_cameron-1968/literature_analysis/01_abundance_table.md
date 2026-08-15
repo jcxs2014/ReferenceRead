@@ -288,7 +288,7 @@
 
 [FACT] **放射性回推**(§5 末):
 
-> "The abundances of **uranium, thorium, and K⁴⁰** isotopes have been corrected for a decay interval of **$4.5\times10^{9}$ years** to make them typical of the **initial solar system**; other radioactive nuclides have not been corrected because the half-lives are long and the corrections small."
+> "The abundances of **uranium, thorium, and K$^{40}$** isotopes have been corrected for a decay interval of **$4.5\times10^{9}$ years** to make them typical of the **initial solar system**; other radioactive nuclides have not been corrected because the half-lives are long and the corrections small."
 
 [CRITIQUE] 此处 Cameron 说 "other radioactive nuclides ... half-lives are long and the corrections small" —— 这在 1968 年是合理的;但今天我们对 Al-26, Fe-60, Mn-53 等短寿命放射性核素在太阳系形成中的作用已有更深入认识,这些不在 1968 表的讨论范围内。
 

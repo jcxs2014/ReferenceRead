@@ -121,7 +121,7 @@
 - Cu 1037, As 1065, Au 1060（1000–1100 K）
 - Ag 996, Bi 746, Ge 883, Pb 727, Sb 979, Sn 704, Te 709
 
-[FACT] **Cr 与 P 的宿主矛盾**：Al & Mason (1973) 与 Mason & Graham (1970) 在陨石中找到 Cr 主要在 chromite ($FeCr_{2}$$O_{4}$)、P 主要在 whitlockite [$Ca_{3}$($PO_{4}$)₂]，而非 Fe 合金。作者解释：**chromite 与磷酸盐的形成需要氧化过程**，发生在 Fe 合金冷凝之后的更低温度。
+[FACT] **Cr 与 P 的宿主矛盾**：Al & Mason (1973) 与 Mason & Graham (1970) 在陨石中找到 Cr 主要在 chromite ($FeCr_{2}$$O_{4}$)、P 主要在 whitlockite [$Ca_{3}$($PO_{4}$)$_{2}$]，而非 Fe 合金。作者解释：**chromite 与磷酸盐的形成需要氧化过程**，发生在 Fe 合金冷凝之后的更低温度。
 
 ---
 
@@ -141,7 +141,7 @@
 
 ## 4.9 卤素（§ 3.3.8）
 
-[FACT] **F、Cl、Br、I** 主要在氟/氯磷灰石 [$Ca_{5}$($PO_{4}$)₃(F,Cl)] 中富集，Br、I 也在 troilite 中出现。
+[FACT] **F、Cl、Br、I** 主要在氟/氯磷灰石 [$Ca_{5}$($PO_{4}$)$_{3}$(F,Cl)] 中富集，Br、I 也在 troilite 中出现。
 
 [FACT] **Cl 也进入钠沸石 sodalite ($Na_{4}$[$Al_{3}$$Si_{3}$$O_{12}$]Cl)**，在磷灰石之前冷凝；钠沸石可在低温或母体变质过程中分解，形成含 Cl 磷灰石。
 

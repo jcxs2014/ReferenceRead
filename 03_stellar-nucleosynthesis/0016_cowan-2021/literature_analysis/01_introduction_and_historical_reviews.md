@@ -16,7 +16,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/01_introduc
 
 §I 是 RMP 综述的"序章"——作者在进入具体的天体物理观测、核物理实验和 r 过程建模之前，先建立三件事：
 
-1. **元素宇宙学的全局框架**：从 118 个已知元素出发，把元素起源分为**大爆炸核合成**（BBN: ¹²H, ³⁴He, ⁷Li）、**恒星燃烧**（charged-particle reactions: C–Fe 元素）、**中子俘获过程**（s 过程 / r 过程）三大块；同时点明 proton-rich p 过程、ν-process、α-process、γ-process 等"次要"贡献者。
+1. **元素宇宙学的全局框架**：从 118 个已知元素出发，把元素起源分为**大爆炸核合成**（BBN: $^{1}{\rm H}$, $^{2}{\rm H}$, $^{3}{\rm He}$, $^{4}{\rm He}$, $^{7}{\rm Li}$）、**恒星燃烧**（charged-particle reactions: C–Fe 元素）、**中子俘获过程**（s 过程 / r 过程）三大块；同时点明 proton-rich p 过程、ν-process、α-process、γ-process 等"次要"贡献者。
 2. **s 过程与 r 过程的实验观测对比**：图 1（Fig. 1, fulltext.txt 行 168–193）以质量数 A 为横轴，展示太阳系 r-only 核素（粉色）、s-only 核素（土耳其色/绿松石色）、BBN（黄色）、charged-particle（绿色）的丰度分布——清晰呈现 r 过程丰度峰相对于 s 过程"左移"（更轻质量数），这是 r 过程高 neutron-to-seed ratio 的直接证据。
 3. **历史综述**：列出 1978 年以来的代表性 r 过程综述（Hillebrandt 1978; Cowan, Thielemann, Truran 1991; Arnould, Goriely, Takahashi 2007; Thielemann et al. 2011, 2017），明确本文是该系列最新一作。
 
@@ -24,7 +24,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/01_introduc
 
 > **[FACT]** "At present we know of 118 elements from charge number Z = 1 (H) to Z = 118 (Og). Eighty of them have at least one stable isotope (up to Z = 82, Pb) with Z = 43 (Tc) and Z = 61 (Pm) being unstable."（fulltext.txt 行 155–157）
 
-> **[FACT]** "Presently we know that of the natural elements and isotopes only ¹²H, ³⁴He, and ⁷Li originated in the big bang, with problems remaining in understanding the abundance of ⁷Li (Cyburt et al., 2016; Pitrou et al., 2018). All other elements were synthesized in stars..."（行 169–175）
+> **[FACT]** "Presently we know that of the natural elements and isotopes only $^{1}{\rm H}$, $^{2}{\rm H}$, $^{3}{\rm He}$, $^{4}{\rm He}$, and $^{7}{\rm Li}$ originated in the big bang, with problems remaining in understanding the abundance of $^{7}{\rm Li}$ (Cyburt et al., 2016; Pitrou et al., 2018). All other elements were synthesized in stars..."（行 169–175）
 
 > **[FACT]** "The majority of stars, which have long evolutionary phases, are powered by fusion reactions. Major concepts for stellar burning were laid out in the 1950s (Burbidge et al., 1957; Cameron, 1957), including the then called x process..."（行 176–180）
 
@@ -48,7 +48,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/01_introduc
 | 至少一个稳定同位素的元素 | 80（直到 Z = 82, Pb） | 行 155–156 |
 | 无稳定同位素的元素 | Z = 43 (Tc), Z = 61 (Pm) | 行 156 |
 | 自然存在的放射性元素上限 | Z = 94 (Pu)，除 Z = 93 (Np) | 行 158–160 |
-| BBN 合成元素 | ¹²H, ³⁴He, ⁷Li | 行 171–173 |
+| BBN 合成元素 | $^{1}{\rm H}$, $^{2}{\rm H}$, $^{3}{\rm He}$, $^{4}{\rm He}$, $^{7}{\rm Li}$ | 行 171–173 |
 | 恒星燃烧（C→Fe）范围 | Z = 6–30 (C–Zn) | 行 182–184 |
 | r 过程产物 | 重于 Fe 的核素，含 Pb, Bi, 锕系 | 行 187–188 |
 
@@ -82,7 +82,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/01_introduc
 
 **9. 需要注意的问题**：
 - 太阳系丰度是"时间快照"
-- ⁷Li 丰度问题仍未解决（BBN 预测 vs 观测的 3-4 倍差异）
+- $^{7}{\rm Li}$ 丰度问题仍未解决（BBN 预测 vs 观测的 3-4 倍差异）
 
 ## §I.6 作者的逻辑
 
@@ -104,7 +104,7 @@ Cowan 2021 作为 RMP "Status Report"（非完整 review），§I 仅 4 页—�
 > [INTERPRETATION]
 
 当代延伸：
-- **i process**（intermediate neutron capture, $N_n \sim 10^{13-15}$ cm⁻³）：Cowperthwaite et al. 2019 提议对应 low-metallicity AGB 星
+- **i process**（intermediate neutron capture, $N_n \sim 10^{13-15}$ cm$^{-3}$）：Cowperthwaite et al. 2019 提议对应 low-metallicity AGB 星
 - **weak r process**：可能产生 Zr, Sr 等轻 r-only 核素
 
 Cowan 2021 主要在 §VI 和 §VIII 简要触及，但未深入。
@@ -114,7 +114,7 @@ Cowan 2021 主要在 §VI 和 §VIII 简要触及，但未深入。
 
 按时间顺序：Hillebrandt 1978 → Cowan, Thielemann, Truran 1991 → Arnould, Goriely, Takahashi 2007 → Thielemann et al. 2011, 2017。
 
-**没有**列入 Wallerstein 1997 经典综述——暗示本文把 B²FH 框架当作"已知背景"。
+**没有**列入 Wallerstein 1997 经典综述——暗示本文把 B$^{2}$FH 框架当作"已知背景"。
 
 ## §I.8 潜在问题与值得关注的地方 [CRITIQUE]
 
@@ -127,7 +127,7 @@ Cowan 2021 主要在 §VI 和 §VIII 简要触及，但未深入。
 ### §I.8.2 局限
 > [CRITIQUE]
 1. 未提及 weak r process / i process
-2. BBN ⁷Li 问题未给出可能解释
+2. BBN $^{7}{\rm Li}$ 问题未给出可能解释
 3. s 过程未充分展开
 4. 引言太短（仅 4 页）
 
@@ -148,7 +148,7 @@ Cowan 2021 主要在 §VI 和 §VIII 简要触及，但未深入。
 |---|---|---|
 | §I 引言起始 | 015002-2 | 行 155 |
 | BBN 元素 | 015002-2 | 行 171 |
-| 1950 年代 B²FH 引用 | 015002-2 | 行 178–179 |
+| 1950 年代 B$^{2}$FH 引用 | 015002-2 | 行 178–179 |
 | 重于 Fe 的核素需中子 | 015002-2 | 行 187–188 |
 | p process 引用 | 015002-2 | 行 195–198 |
 | Fig. 1 | 015002-2 | 行 168 |

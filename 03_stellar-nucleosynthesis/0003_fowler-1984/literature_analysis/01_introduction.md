@@ -29,7 +29,7 @@
 
 ## 1.3 核天体物理两大目标
 
-[FACT] 目标 1：**理解恒星能量产生**——核过程通过核子质量差 $\Delta$m 乘以 c² 释放巨大能量（E=$\Delta$m c²，Einstein 贡献）。
+[FACT] 目标 1：**理解恒星能量产生**——核过程通过核子质量差 $\Delta$m 乘以 c$^{2}$ 释放巨大能量（E=$\Delta$m c$^{2}$，Einstein 贡献）。
 
 [FACT] 目标 2：**理解各种天体物理条件下合成元素及其同位素的相对丰度**（对应标题第二部分 "the quest for the origin of the elements"）。
 
