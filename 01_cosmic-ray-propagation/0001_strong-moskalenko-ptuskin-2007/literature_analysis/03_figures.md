@@ -23,7 +23,7 @@
 三个子图分别显示质子、氦、铁的谱。
 - KASCADE（QGSJET / SIBYLL 模型）
 - GRAPES-3（QGSJET / SIBYLL）
-- Tibet-BD (HD)、Tibet-ASγ (HD)
+- Tibet-BD (HD)、Tibet-AS$\gamma$ (HD)
 - EAS-TOP (SH/HD)、EAS-TOP
 - Mt. Chacaltaya, Mt. Fuji, HEGRA
 - AMS, ATIC, BESS, CAPRICE 98, HEAT, IMAX, JACEE, MASS, RICH-II, SOKOL, RUNJOB 等气球/卫星数据
@@ -234,12 +234,12 @@ C 和 Fe 谱数据与修正加权板处理下的四种模型比较。
 
 ---
 
-## Figure 11 — ¹⁰Be/⁹Be energy dependence
+## Figure 11 — $^{10}{\rm Be}$/$^{9}{\rm Be}$ energy dependence
 
 **位置**：第36页
 
 ### 1. 图的目的
-展示 ¹⁰Be/⁹Be 的能量依赖，约束晕大小。
+展示 $^{10}{\rm Be}$/$^{9}{\rm Be}$ 的能量依赖，约束晕大小。
 
 ### 2. 数据来源
 ACE, Ulysses, Voyager, IMP, ISEE-3, ISOMAX (129)
@@ -249,7 +249,7 @@ ACE, Ulysses, Voyager, IMP, ISEE-3, ISOMAX (129)
 - 其他线：泄漏盒模型 (130)
 
 ### 4. 关键观察
-¹⁰Be/⁹Be 数据与 4–6 kpc 晕高度一致。
+$^{10}{\rm Be}$/$^{9}{\rm Be}$ 数据与 4–6 kpc 晕高度一致。
 
 ---
 

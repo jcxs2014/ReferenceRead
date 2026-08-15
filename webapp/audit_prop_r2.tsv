@@ -1,0 +1,48 @@
+165	| ψ(r⃗, p, t) | 单位动量的宇宙线密度    |	| $\psi$(r⃗, p, t) | 单位动量的宇宙线密度    |	R2 核素/希腊字母/单位
+167	| τf          | 碎裂时间尺度        |	| $\tau$f          | 碎裂时间尺度        |	R2 核素/希腊字母/单位
+168	| τr          | 放射性衰变时间尺度     |	| $\tau$r          | 放射性衰变时间尺度     |	R2 核素/希腊字母/单位
+58	- 超新星遗迹作为宇宙线源（文献可追溯至最近的 H.E.S.S. TeV γ-ray 结果 (34)）	- 超新星遗迹作为宇宙线源（文献可追溯至最近的 H.E.S.S. TeV $\gamma$-ray 结果 (34)）	R2 核素/希腊字母/单位
+270	[FACT] 再加速的额外检验来自次级 K-俘获同位素：³⁷Ar, ⁴⁴Ti, ⁴⁹V, ⁵¹Cr 等，在低能时通过电子俘获快速衰变。	[FACT] 再加速的额外检验来自次级 K-俘获同位素：$^{37}{\rm Ar}$, $^{44}{\rm Ti}$, $^{49}{\rm V}$, $^{51}{\rm Cr}$ 等，在低能时通过电子俘获快速衰变。	R2 核素/希腊字母/单位
+274	[FACT] ⁴⁹V 和 ⁵¹Cr 在 CR 中能量依赖衰变的首次测量 (73) 被用来检验分布再加速速率 (74)，但需要核产生截面的精细化。	[FACT] $^{49}{\rm V}$ 和 $^{51}{\rm Cr}$ 在 CR 中能量依赖衰变的首次测量 (73) 被用来检验分布再加速速率 (74)，但需要核产生截面的精细化。	R2 核素/希腊字母/单位
+465	[FACT] 求解从最重初级核（如 ⁶⁴Ni）开始，逐步向下计算碎裂源项，直至质子、次级电子/正电子和反质子。⁽¹⁰B 通过 ¹⁰Be 衰变通道产生，重要，需要第二次迭代⁾。	[FACT] 求解从最重初级核（如 $^{64}{\rm Ni}$）开始，逐步向下计算碎裂源项，直至质子、次级电子/正电子和反质子。⁽$^{10}{\rm B}$ 通过 $^{10}{\rm Be}$ 衰变通道产生，重要，需要第二次迭代⁾。	R2 核素/希腊字母/单位
+103	利用长寿命放射性次级核素（¹⁰Be 等）作为"时钟"约束传播区域大小。	利用长寿命放射性次级核素（$^{10}{\rm Be}$ 等）作为"时钟"约束传播区域大小。	R2 核素/希腊字母/单位
+109	| ¹⁴C | 5730 y |  |	| $^{14}{\rm C}$ | 5730 y |  |	R2 核素/希腊字母/单位
+110	| ¹⁰Be | 1.51×$10^{6}$ y | 寿命最长、测量最好 |	| $^{10}{\rm Be}$ | 1.51×$10^{6}$ y | 寿命最长、测量最好 |	R2 核素/希腊字母/单位
+111	| ²⁶Al | 7.2×$10^{5}$ y |  |	| $^{26}{\rm Al}$ | 7.2×$10^{5}$ y |  |	R2 核素/希腊字母/单位
+112	| ³⁶Cl | 3×$10^{5}$ y |  |	| $^{36}{\rm Cl}$ | 3×$10^{5}$ y |  |	R2 核素/希腊字母/单位
+113	| ⁵⁴Mn | 312×$10^{3}$ y |  |	| $^{54}{\rm Mn}$ | 312×$10^{3}$ y |  |	R2 核素/希腊字母/单位
+119	[FACT] Fig. 11 显示 ¹⁰Be/⁹Be 与模型的比较；ISOMAX ¹⁰Be 测量 (129) 至 2 GeV（因此衰变寿命更长）与拟合一致，但统计量不具强约束力。	[FACT] Fig. 11 显示 $^{10}{\rm Be}$/$^{9}{\rm Be}$ 与模型的比较；ISOMAX $^{10}{\rm Be}$ 测量 (129) 至 2 GeV（因此衰变寿命更长）与拟合一致，但统计量不具强约束力。	R2 核素/希腊字母/单位
+163	利用爆炸核合成产生的 K-俘获同位素（⁵⁹Ni, ⁵⁷Co, ⁵⁶Ni）判断加速是否在衰变之前发生。	利用爆炸核合成产生的 K-俘获同位素（$^{59}{\rm Ni}$, $^{57}{\rm Co}$, $^{56}{\rm Ni}$）判断加速是否在衰变之前发生。	R2 核素/希腊字母/单位
+169	| ⁵⁹Ni | $7.6\times10^4$ y | 存在 |	| $^{59}{\rm Ni}$ | $7.6\times10^4$ y | 存在 |	R2 核素/希腊字母/单位
+170	| ⁵⁷Co | 0.74 y | 存在 |	| $^{57}{\rm Co}$ | 0.74 y | 存在 |	R2 核素/希腊字母/单位
+171	| ⁵⁶Ni | 6 d | 缺失（符合预期，因为加速前就衰变） |	| $^{56}{\rm Ni}$ | 6 d | 缺失（符合预期，因为加速前就衰变） |	R2 核素/希腊字母/单位
+173	[FACT] 如果加速在衰变前发生，衰变被抑制（核被剥去电子）。⁵⁶Ni 缺失符合预期。	[FACT] 如果加速在衰变前发生，衰变被抑制（核被剥去电子）。$^{56}{\rm Ni}$ 缺失符合预期。	R2 核素/希腊字母/单位
+175	[FACT] (135) 使用 ACE 数据表明：合成与加速之间的延迟远长于 ⁵⁹Ni 的衰变时间，除非超新星中产生大量 ⁵⁹Co。	[FACT] (135) 使用 ACE 数据表明：合成与加速之间的延迟远长于 $^{59}{\rm Ni}$ 的衰变时间，除非超新星中产生大量 $^{59}{\rm Co}$。	R2 核素/希腊字母/单位
+193	[FACT] (137)：⁵¹V/⁵²Cr 与再加速模型更符合，但 ⁴⁹Ti/(⁴⁶+⁴⁷+⁴⁸Ti) 给出相反结果。	[FACT] (137)：$^{51}{\rm V}$/$^{52}{\rm Cr}$ 与再加速模型更符合，但 $^{49}{\rm Ti}$/(⁴⁶+⁴⁷+$^{48}{\rm Ti}$) 给出相反结果。	R2 核素/希腊字母/单位
+197	[FACT] (137) 使用 ACE 的 ³⁷Ar, ⁴⁴Ti, ⁴⁹V, ⁵¹Cr, ⁵⁵Fe, ⁵⁷Co 数据，结果不明确。	[FACT] (137) 使用 ACE 的 $^{37}{\rm Ar}$, $^{44}{\rm Ti}$, $^{49}{\rm V}$, $^{51}{\rm Cr}$, $^{55}{\rm Fe}$, $^{57}{\rm Co}$ 数据，结果不明确。	R2 核素/希腊字母/单位
+26	- Tibet-BD (HD)、Tibet-ASγ (HD)	- Tibet-BD (HD)、Tibet-AS$\gamma$ (HD)	R2 核素/希腊字母/单位
+237	## Figure 11 — ¹⁰Be/⁹Be energy dependence	## Figure 11 — $^{10}{\rm Be}$/$^{9}{\rm Be}$ energy dependence	R2 核素/希腊字母/单位
+242	展示 ¹⁰Be/⁹Be 的能量依赖，约束晕大小。	展示 $^{10}{\rm Be}$/$^{9}{\rm Be}$ 的能量依赖，约束晕大小。	R2 核素/希腊字母/单位
+252	¹⁰Be/⁹Be 数据与 4–6 kpc 晕高度一致。	$^{10}{\rm Be}$/$^{9}{\rm Be}$ 数据与 4–6 kpc 晕高度一致。	R2 核素/希腊字母/单位
+100	| (129) Hams et al. (2004) | ApJ 611:892 | ISOMAX ¹⁰Be 测量 |	| (129) Hams et al. (2004) | ApJ 611:892 | ISOMAX $^{10}{\rm Be}$ 测量 |	R2 核素/希腊字母/单位
+23	| while | conj. | 让步 | 然而 | "one cannot for example allow a model which fits secondary/primary ratios **while** not fitting γ-rays or not being compatible with the known interstellar gas distribution"（§2.10） | 让步转折：允许 A 但同时不能非 B |	| while | conj. | 让步 | 然而 | "one cannot for example allow a model which fits secondary/primary ratios **while** not fitting $\gamma$-rays or not being compatible with the known interstellar gas distribution"（§2.10） | 让步转折：允许 A 但同时不能非 B |	R2 核素/希腊字母/单位
+27	| nevertheless | adv. | 转折 | 然而 | "The main problem is the accuracy of the fragmentation cross-sections; **nevertheless**, the K-capture ratio ⁵¹V/⁵²Cr is more consistent with reacceleration"（§3.4） | 与前文形成转折，指出仍有的线索 |	| nevertheless | adv. | 转折 | 然而 | "The main problem is the accuracy of the fragmentation cross-sections; **nevertheless**, the K-capture ratio $^{51}{\rm V}$/$^{52}{\rm Cr}$ is more consistent with reacceleration"（§3.4） | 与前文形成转折，指出仍有的线索 |	R2 核素/希腊字母/单位
+34	| namely | adv. | 举例 | 即 / 换句话说 | "GALPROP outputs spectra and full-sky maps, **namely** γ-rays and synchrotron, in standard astronomical formats"（§2.10.3） | 对前文的解释性展开 |	| namely | adv. | 举例 | 即 / 换句话说 | "GALPROP outputs spectra and full-sky maps, **namely** $\gamma$-rays and synchrotron, in standard astronomical formats"（§2.10.3） | 对前文的解释性展开 |	R2 核素/希腊字母/单位
+35	| such as | prep. | 举例 | 例如 | "starting with the solution for the heaviest primaries **such as** ⁶⁴Ni"（§2.10.3） | 列举代表实例 |	| such as | prep. | 举例 | 例如 | "starting with the solution for the heaviest primaries **such as** $^{64}{\rm Ni}$"（§2.10.3） | 列举代表实例 |	R2 核素/希腊字母/单位
+36	| e.g. | abbr. | 举例 | 例如 | "including secondaries, tertiaries, **e.g.** ¹⁰B from ¹⁰Be decay"（§2.10.3） | 举例缩写 |	| e.g. | abbr. | 举例 | 例如 | "including secondaries, tertiaries, **e.g.** $^{10}{\rm B}$ from $^{10}{\rm Be}$ decay"（§2.10.3） | 举例缩写 |	R2 核素/希腊字母/单位
+40	| moreover | adv. | 递进 | 而且 | "**Moreover**, K-capture provides an independent test of reacceleration via the energy-dependent survival of ⁴⁹V and ⁵¹Cr"（§2.5.5） | 递进式补充，强化论点 |	| moreover | adv. | 递进 | 而且 | "**Moreover**, K-capture provides an independent test of reacceleration via the energy-dependent survival of $^{49}{\rm V}$ and $^{51}{\rm Cr}$"（§2.5.5） | 递进式补充，强化论点 |	R2 核素/希腊字母/单位
+43	| alternatively | adv. | 转折(备选) | 另一种可能是 | "**Alternatively**, a large α (0.7–0.9) with injection index ≈ 2.0 has been proposed, attributing the low-energy B/C drop to convection"（§3.1.8） | 引出备选方案或对立模型 |	| alternatively | adv. | 转折(备选) | 另一种可能是 | "**Alternatively**, a large $\alpha$ (0.7–0.9) with injection index ≈ 2.0 has been proposed, attributing the low-energy B/C drop to convection"（§3.1.8） | 引出备选方案或对立模型 |	R2 核素/希腊字母/单位
+94	| K-capture isotope | K-俘获同位素 | ³⁷Ar、⁴⁴Ti、⁴⁹V、⁵¹Cr、⁵⁵Fe、⁵⁷Co 等在低能下通过 K-俘获快速衰变的次级同位素 | §2.5 / §3.4 |	| K-capture isotope | K-俘获同位素 | $^{37}{\rm Ar}$、$^{44}{\rm Ti}$、$^{49}{\rm V}$、$^{51}{\rm Cr}$、$^{55}{\rm Fe}$、$^{57}{\rm Co}$ 等在低能下通过 K-俘获快速衰变的次级同位素 | §2.5 / §3.4 |	R2 核素/希腊字母/单位
+95	| radioactive clock | 放射性时钟 | 利用长寿命放射性次级核素（如 ¹⁰Be）约束传播时间尺度的方法 | §3.2 |	| radioactive clock | 放射性时钟 | 利用长寿命放射性次级核素（如 $^{10}{\rm Be}$）约束传播时间尺度的方法 | §3.2 |	R2 核素/希腊字母/单位
+124	| HEAT | 高能反物质望远镜 | 1990s 气球实验，观测到 5–8 GeV 处 ~3σ 正电子超额 | §3.7 |	| HEAT | 高能反物质望远镜 | 1990s 气球实验，观测到 5–8 GeV 处 ~3$\sigma$ 正电子超额 | §3.7 |	R2 核素/希腊字母/单位
+167	> "All data relate to the same system, the Galaxy, and one cannot for example allow a model which fits secondary/primary ratios while not fitting γ-rays or not being compatible with the known interstellar gas distribution."	> "All data relate to the same system, the Galaxy, and one cannot for example allow a model which fits secondary/primary ratios while not fitting $\gamma$-rays or not being compatible with the known interstellar gas distribution."	R2 核素/希腊字母/单位
+37	4. **多观测联合约束**：同时拟合 B/C、Sub-Fe/Fe、¹⁰Be/⁹Be、质子谱、反质子谱、$\gamma$ 射线谱和天空图、各向异性——这是 GALPROP 的核心理念	4. **多观测联合约束**：同时拟合 B/C、Sub-Fe/Fe、$^{10}{\rm Be}$/$^{9}{\rm Be}$、质子谱、反质子谱、$\gamma$ 射线谱和天空图、各向异性——这是 GALPROP 的核心理念	R2 核素/希腊字母/单位
+48	| 晕高度 $z_h$ | 4–6 kpc（¹⁰Be 约束） | §3.2 |	| 晕高度 $z_h$ | 4–6 kpc（$^{10}{\rm Be}$ 约束） | §3.2 |	R2 核素/希腊字母/单位
+55	| 加速延迟 | $\geq 10^5$ 年（⁵⁹Ni） | §3.3 |	| 加速延迟 | $\geq 10^5$ 年（$^{59}{\rm Ni}$） | §3.3 |	R2 核素/希腊字母/单位
+105	4. **晕高度 $z_h \approx 4$ kpc**，来自 ¹⁰Be 放射性时钟	4. **晕高度 $z_h \approx 4$ kpc**，来自 $^{10}{\rm Be}$ 放射性时钟	R2 核素/希腊字母/单位
+113	8. **加速延迟 $\geq 10^5$ 年**（来自 ⁵⁹Ni K-俘获数据）——支持 ISM 物质加速而非喷射物加速	8. **加速延迟 $\geq 10^5$ 年**（来自 $^{59}{\rm Ni}$ K-俘获数据）——支持 ISM 物质加速而非喷射物加速	R2 核素/希腊字母/单位
+123	13. **正电子谱**在 5–8 GeV 有 ~3σ 超额（HEAT 数据）——后来 Pamela 和 AMS-02 确认了这一趋势	13. **正电子谱**在 5–8 GeV 有 ~3$\sigma$ 超额（HEAT 数据）——后来 Pamela 和 AMS-02 确认了这一趋势	R2 核素/希腊字母/单位
+138	- 本文发表后，ATIC 实验（2008）发现 CR 谱硬化（"ankle"），后被 PAMELA（2008）正电子超额和费米 GLAST（2008–）γ 射线数据继续推动	- 本文发表后，ATIC 实验（2008）发现 CR 谱硬化（"ankle"），后被 PAMELA（2008）正电子超额和费米 GLAST（2008–）$\gamma$ 射线数据继续推动	R2 核素/希腊字母/单位
+184	- [x] Statistics（各向异性 >5σ、正电子超额 ~3σ）	- [x] Statistics（各向异性 >5$\sigma$、正电子超额 ~3$\sigma$）	R2 核素/希腊字母/单位
+17	> ★ **CR 传播现代综述**——直接支撑争议主题 3（传播参数 δ 与晕高 z_h）；是 Génolini 2021 和 Weinrich 2020 的理论基础	> ★ **CR 传播现代综述**——直接支撑争议主题 3（传播参数 $\delta$ 与晕高 z_h）；是 Génolini 2021 和 Weinrich 2020 的理论基础	R2 核素/希腊字母/单位
+63	3. **晕大小约束**：来自放射性同位素（¹⁰Be 等）的 $L \sim 3-10$ kpc 约束	3. **晕大小约束**：来自放射性同位素（$^{10}{\rm Be}$ 等）的 $L \sim 3-10$ kpc 约束	R2 核素/希腊字母/单位

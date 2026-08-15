@@ -97,7 +97,7 @@
 | (43) Moskalenko et al. (2005) | Adv. Sp. Res. 35:156 | 反质子通量计算 |
 | (37) Kobayashi et al. (2004) | ApJ 601:340 | 电子谱——本地 SNR 贡献 |
 | (48) Wiedenbeck et al. (2001) | Space Sci. Rev. 99:15 | ACE 高精度丰度 |
-| (129) Hams et al. (2004) | ApJ 611:892 | ISOMAX ¹⁰Be 测量 |
+| (129) Hams et al. (2004) | ApJ 611:892 | ISOMAX $^{10}{\rm Be}$ 测量 |
 | (142) Ambrosio et al. (2003) | Phys. Rev. D 67:042002 | 各向异性数据汇编 |
 | (158) Orito et al. (2000) | Phys. Rev. Lett. 84:1078 | BESS 反质子精确测量 |
 

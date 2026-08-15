@@ -162,10 +162,10 @@ path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_a
 | Dxx         | 空间扩散系数        |
 | V           | 对流速度          |
 | Dpp         | 动量空间扩散系数（再加速） |
-| ψ(r⃗, p, t) | 单位动量的宇宙线密度    |
+| $\psi$(r⃗, p, t) | 单位动量的宇宙线密度    |
 | q(r⃗, p, t) | 源项（含初级、碎裂、衰变） |
-| τf          | 碎裂时间尺度        |
-| τr          | 放射性衰变时间尺度     |
+| $\tau$f          | 碎裂时间尺度        |
+| $\tau$r          | 放射性衰变时间尺度     |
 | R           | 粒子磁刚度 = pc/Ze |
 | zh          | 宇宙线晕（halo）高度  |
 

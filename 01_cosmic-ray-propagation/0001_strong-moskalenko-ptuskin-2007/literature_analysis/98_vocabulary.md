@@ -20,27 +20,27 @@
 | however | adv. | 转折 | 然而 | "The computing resources required by GALPROP are moderate by today's standards."（§2.10.4；however 逻辑：从局限讨论转向成本不高） | 从讨论局限转向说明计算成本并不高 |
 | whereas | conj. | 对比 | 而 | "C and Fe 注入谱指数 2.3–2.4（§3.1），**whereas** 电子注入谱指数 ≈ 2.4（§3.8）" | 并列对比核素与电子的注入谱指数 |
 | thereby | adv. | 因果(由此) | 从而 | "it is precisely the combination of stable and radioactive data which does allow this: the radioactives determine the diffusion coefficient, which then allows the size ... to be determined **thereby**"（§3.2.5） | 前句结果直接导致本句结果 |
-| while | conj. | 让步 | 然而 | "one cannot for example allow a model which fits secondary/primary ratios **while** not fitting γ-rays or not being compatible with the known interstellar gas distribution"（§2.10） | 让步转折：允许 A 但同时不能非 B |
+| while | conj. | 让步 | 然而 | "one cannot for example allow a model which fits secondary/primary ratios **while** not fitting $\gamma$-rays or not being compatible with the known interstellar gas distribution"（§2.10） | 让步转折：允许 A 但同时不能非 B |
 | while | conj. | 让步 | 然而 | "The surviving fraction can better be related to physical parameters, **while** the leaky-box gas density is misleading"（§2.8.5） | 与前句"存活分数可用"形成对比 |
 | although | conj. | 让步 | 虽然 | "The argument is invalid at low energies, **although** distributed acceleration could be strong there"（§2.5） | 承认例外或反向信息 |
 | despite | prep. | 让步 | 尽管 | "Clearly the models cannot be distinguished based on these types of data alone, **despite** all providing an adequate fit"（§3.1） | 承认障碍但结论不受影响 |
-| nevertheless | adv. | 转折 | 然而 | "The main problem is the accuracy of the fragmentation cross-sections; **nevertheless**, the K-capture ratio ⁵¹V/⁵²Cr is more consistent with reacceleration"（§3.4） | 与前文形成转折，指出仍有的线索 |
+| nevertheless | adv. | 转折 | 然而 | "The main problem is the accuracy of the fragmentation cross-sections; **nevertheless**, the K-capture ratio $^{51}{\rm V}$/$^{52}{\rm Cr}$ is more consistent with reacceleration"（§3.4） | 与前文形成转折，指出仍有的线索 |
 | consequently | adv. | 因果(结果) | 因此 | "The surviving fraction can better be related to physical parameters; **consequently**, it determines the diffusion coefficient"（§3.2.4） | 前句为因，本句为必然推论 |
 | hence | adv. | 因果(结果) | 故 | "The source spectrum and composition depend on X(R), **hence** the process is iterative, starting from a solar-like composition"（§3.1.3） | 紧接原因的紧凑推论 |
 | thus | adv. | 因果(结果) | 因此 | "a uniform source abundance is assumed, **thus** no superbubble enhancement"（§2.10.4） | 引出结果 |
 | accordingly | adv. | 因果(据此) | 相应地 | "**Accordingly**, the local bubble may inflate the inferred halo size if radioactive secondaries are produced there"（§3.2.6） | 基于前文做出相应处理 |
 | insofar as | conj. | 限定 | 在……的范围内 | "The leaky-box model is valid **insofar as** fast CR diffusion and a flat halo are assumed"（§2.8.2） | 限定论断的适用范围 |
 | provided that | conj. | 条件 | 前提是 | "The modified weighted-slab becomes exact **provided that** the diffusion coefficient is separable in energy and position"（§2.8.3） | 给出结论成立的必要前提 |
-| namely | adv. | 举例 | 即 / 换句话说 | "GALPROP outputs spectra and full-sky maps, **namely** γ-rays and synchrotron, in standard astronomical formats"（§2.10.3） | 对前文的解释性展开 |
-| such as | prep. | 举例 | 例如 | "starting with the solution for the heaviest primaries **such as** ⁶⁴Ni"（§2.10.3） | 列举代表实例 |
-| e.g. | abbr. | 举例 | 例如 | "including secondaries, tertiaries, **e.g.** ¹⁰B from ¹⁰Be decay"（§2.10.3） | 举例缩写 |
+| namely | adv. | 举例 | 即 / 换句话说 | "GALPROP outputs spectra and full-sky maps, **namely** $\gamma$-rays and synchrotron, in standard astronomical formats"（§2.10.3） | 对前文的解释性展开 |
+| such as | prep. | 举例 | 例如 | "starting with the solution for the heaviest primaries **such as** $^{64}{\rm Ni}$"（§2.10.3） | 列举代表实例 |
+| e.g. | abbr. | 举例 | 例如 | "including secondaries, tertiaries, **e.g.** $^{10}{\rm B}$ from $^{10}{\rm Be}$ decay"（§2.10.3） | 举例缩写 |
 | for instance | phr. | 举例 | 例如 | "GALPROP has known limitations, **for instance** no particle trajectory calculation above $10^{15}$ eV"（§2.10.4） | 给出说明性例子 |
 | likewise | adv. | 递进 | 同样地 | "NGC891 shows a non-thermal halo extending several kpc; **likewise** other edge-on galaxies confirm a large halo"（§3.8.6） | 平行递进，补充同类信息 |
 | furthermore | adv. | 递进 | 此外 | "The computing resources required by GALPROP are moderate; **furthermore**, the code is publicly available"（§2.10.4） | 补充新的论点 |
-| moreover | adv. | 递进 | 而且 | "**Moreover**, K-capture provides an independent test of reacceleration via the energy-dependent survival of ⁴⁹V and ⁵¹Cr"（§2.5.5） | 递进式补充，强化论点 |
+| moreover | adv. | 递进 | 而且 | "**Moreover**, K-capture provides an independent test of reacceleration via the energy-dependent survival of $^{49}{\rm V}$ and $^{51}{\rm Cr}$"（§2.5.5） | 递进式补充，强化论点 |
 | overall | adv. | 结论 | 总体上 | "**Overall**, the models cannot be distinguished based on B/C and Sub-Fe/Fe data alone"（§3.1） | 给出概括性结论 |
 | in contrast | phr. | 转折(对比) | 相反 | "**In contrast**, the plain-diffusion model (D ~ E^0.54) predicts too-large anisotropy at E > $10^{14}$ eV"（§3.5.5） | 直接对比两种立场 |
-| alternatively | adv. | 转折(备选) | 另一种可能是 | "**Alternatively**, a large α (0.7–0.9) with injection index ≈ 2.0 has been proposed, attributing the low-energy B/C drop to convection"（§3.1.8） | 引出备选方案或对立模型 |
+| alternatively | adv. | 转折(备选) | 另一种可能是 | "**Alternatively**, a large $\alpha$ (0.7–0.9) with injection index ≈ 2.0 has been proposed, attributing the low-energy B/C drop to convection"（§3.1.8） | 引出备选方案或对立模型 |
 | primarily | adv. | 限定 | 主要地 | "B is entirely secondary and is therefore **primarily** the reference ratio in propagation model fits"（§3.1.2） | 限定说明主要成分或原因 |
 | clearly | adv. | 结论(确认) | 明显地 | "**Clearly** the models cannot be distinguished based on these types of data alone, and they can all provide an adequate fit"（§3.1.4） | 强调论断的确定性 |
 
@@ -91,8 +91,8 @@
 | Kraichnan spectrum | 克莱奇南谱 | 另一种湍流谱 $w(k) \propto k^{-3/2}$，对应扩散系数 $D_{xx} \sim R^{1/2}$ | §2.3 |
 | Alfvén speed ($V_a$) | 阿尔芬速度 | 磁场中 MHD 扰动的特征传播速度，本文取 $\sim 30$ km/s | §2.5 |
 | K-capture (K-capture decay) | K-电子俘获 | 原子核俘获 K 壳电子的放射性衰变方式；在 CR 中因电子被剥离而抑制，是检验再加速的探针 | §2.5 / §3.3 |
-| K-capture isotope | K-俘获同位素 | ³⁷Ar、⁴⁴Ti、⁴⁹V、⁵¹Cr、⁵⁵Fe、⁵⁷Co 等在低能下通过 K-俘获快速衰变的次级同位素 | §2.5 / §3.4 |
-| radioactive clock | 放射性时钟 | 利用长寿命放射性次级核素（如 ¹⁰Be）约束传播时间尺度的方法 | §3.2 |
+| K-capture isotope | K-俘获同位素 | $^{37}{\rm Ar}$、$^{44}{\rm Ti}$、$^{49}{\rm V}$、$^{51}{\rm Cr}$、$^{55}{\rm Fe}$、$^{57}{\rm Co}$ 等在低能下通过 K-俘获快速衰变的次级同位素 | §2.5 / §3.4 |
+| radioactive clock | 放射性时钟 | 利用长寿命放射性次级核素（如 $^{10}{\rm Be}$）约束传播时间尺度的方法 | §3.2 |
 | surviving fraction | 存活分数 | 放射性核素观测丰度与无衰变预期丰度之比，可转化为扩散系数等物理量 | §2.8 / §3.2 |
 | B/C ratio | 硼碳比 | 最主要的次级/初级比观测参考量（B 完全来自次级，测量精度好，可达 100 GeV） | §3.1 |
 | sub-Fe/Fe | 亚铁核/铁比 | 比 Fe 轻的稳定次级核与 Fe 的丰度比，是另一类传播探针 | §3.1 |
@@ -121,7 +121,7 @@
 | ACE | 高级成分探测器 | 太空粒子探测器，本文大量引用其 B/C、K-俘获同位素、反质子数据 | §3.3 / §3.4 |
 | BESS / BESS-Polar | 反物质宇宙线实验 | 气球/航天飞机实验，反质子和正电子精密测量 | §3.7 |
 | AMS / AMS-02 | 阿尔法磁谱仪 | 国际空间站上的粒子探测实验，提供高精度正电子/反质子数据 | §3.7 / §99 |
-| HEAT | 高能反物质望远镜 | 1990s 气球实验，观测到 5–8 GeV 处 ~3σ 正电子超额 | §3.7 |
+| HEAT | 高能反物质望远镜 | 1990s 气球实验，观测到 5–8 GeV 处 ~3$\sigma$ 正电子超额 | §3.7 |
 | Pamela | 反物质探测实验 | 2008 年发布的正电子/反质子数据，后续推动该领域 | §3.7 / §99 |
 | Voyager 2 | 旅行者 2 号 | 深空探测器，提供外日球层 B/C 数据（低太阳调制） | §3.1 |
 | self-consistent model | 自洽模型 | 把 CR 作为 ISM 动力学的相对论性气体成分进行耦合求解的模型 | §2.12 |
@@ -164,7 +164,7 @@
 
 ### C3. [§2.10, GALPROP 第一设计原则]
 
-> "All data relate to the same system, the Galaxy, and one cannot for example allow a model which fits secondary/primary ratios while not fitting γ-rays or not being compatible with the known interstellar gas distribution."
+> "All data relate to the same system, the Galaxy, and one cannot for example allow a model which fits secondary/primary ratios while not fitting $\gamma$-rays or not being compatible with the known interstellar gas distribution."
 
 **主干**：All data relate to the same system（并列分句1）；one cannot allow a model（并列分句2）
 **修饰**："the Galaxy"（同位语，解释 the same system）；"which fits ... while not fitting ... or not being compatible with ..."（定语从句修饰 model，说明不允许的模型类型）；"for example"（插入语，引出例证）
