@@ -14,7 +14,7 @@
 
 |  |  |
 |---|---|
-| 作者 | Andrew W. Strong¹, Igor V. Moskalenko², Vladimir S. Ptuskin³ |
+| 作者 | Andrew W. Strong$^{1}$, Igor V. Moskalenko$^{2}$, Vladimir S. Ptuskin$^{3}$ |
 | 期刊 |  |
 | 分析文件 | 8 个（00_overview.md、01_theoretical_background.md、02_confrontation_with_data.md、03_figures.md、04_references.md、…等 8 个） |
 | 目录 | [`01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/) |

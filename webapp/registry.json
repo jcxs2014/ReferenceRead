@@ -38,7 +38,7 @@
       },
       {
         "quantity": "$D_{xx}$（3 GV 处，B/C 拟合）",
-        "value": "$(3\\text{–}5)\\times10^{28}$ cm²/s",
+        "value": "$(3\\text{–}5)\\times10^{28}$ cm$^{2}$/s",
         "uncertainty": "因子 ~2",
         "source": "Strong et al. 2007",
         "section": "§3.2, §2.3"
@@ -66,7 +66,7 @@
       },
       {
         "quantity": "$D_{xx}$（Kraichnan，$R<10^8$ GV）",
-        "value": "$\\approx 2\\times10^{27}\\,\\beta\\,R^{1/3}_{\\text{GV}}$ cm²/s",
+        "value": "$\\approx 2\\times10^{27}\\,\\beta\\,R^{1/3}_{\\text{GV}}$ cm$^{2}$/s",
         "uncertainty": "—",
         "source": "Strong et al. 2007",
         "section": "§2.3"
@@ -202,7 +202,7 @@
       },
       {
         "quantity": "电离参数 $\\chi$ 扫描",
-        "value": "$5\\times10^6$–$3\\times10^8$ cm s⁻¹（log U = −3.5 至 −2.0）",
+        "value": "$5\\times10^6$–$3\\times10^8$ cm s$^{-1}$（log U = −3.5 至 −2.0）",
         "uncertainty": "—",
         "source": "Kewley et al. 2001",
         "section": "§15.3"
@@ -216,7 +216,7 @@
       },
       {
         "quantity": "电子密度 $n_e$",
-        "value": "350 cm⁻³",
+        "value": "350 cm$^{-3}$",
         "uncertainty": "—",
         "source": "Kewley et al. 2001",
         "section": "§15.3"
@@ -370,7 +370,7 @@
       },
       {
         "quantity": "X 粒子衰变率基准",
-        "value": "$\\dot{n}_X\\sim 10^{35}$ Mpc⁻³ yr⁻¹（$m_X=10^{16}$ GeV）",
+        "value": "$\\dot{n}_X\\sim 10^{35}$ Mpc$^{-3}$ yr$^{-1}$（$m_X=10^{16}$ GeV）",
         "uncertainty": "—",
         "source": "Bhattacharjee & Sigl 1999",
         "section": "§2.4"
@@ -451,7 +451,7 @@
       },
       {
         "quantity": "X 粒子衰变率基准",
-        "value": "$\\dot{n}_X\\sim 10^{35}$ Mpc⁻³ yr⁻¹（$m_X=10^{16}$ GeV）",
+        "value": "$\\dot{n}_X\\sim 10^{35}$ Mpc$^{-3}$ yr$^{-1}$（$m_X=10^{16}$ GeV）",
         "uncertainty": "—",
         "source": "Bhattacharjee & Sigl 1999",
         "section": "§2.4"
@@ -866,7 +866,7 @@
       },
       {
         "quantity": "X 粒子衰变率基准",
-        "value": "$\\dot{n}_X\\sim 10^{35}$ Mpc⁻³ yr⁻¹（$m_X=10^{16}$ GeV）",
+        "value": "$\\dot{n}_X\\sim 10^{35}$ Mpc$^{-3}$ yr$^{-1}$（$m_X=10^{16}$ GeV）",
         "uncertainty": "—",
         "source": "Bhattacharjee & Sigl 1999",
         "section": "§2.4"
@@ -990,7 +990,7 @@
         "section": "§15.4"
       },
       {
-        "quantity": "银河系年龄（U²³⁵/U²³⁸ 定年）",
+        "quantity": "银河系年龄（U$^{235}$/U$^{238}$ 定年）",
         "value": "~$10^{10}$ yr",
         "uncertainty": "—",
         "source": "B$^2$FH 1957",
@@ -1151,7 +1151,7 @@
         "section": "§15.4"
       },
       {
-        "quantity": "银河系年龄（U²³⁵/U²³⁸ 定年）",
+        "quantity": "银河系年龄（U$^{235}$/U$^{238}$ 定年）",
         "value": "~$10^{10}$ yr",
         "uncertainty": "—",
         "source": "B$^2$FH 1957",
@@ -1238,7 +1238,7 @@
         "section": "§15.4"
       },
       {
-        "quantity": "银河系年龄（U²³⁵/U²³⁸ 定年）",
+        "quantity": "银河系年龄（U$^{235}$/U$^{238}$ 定年）",
         "value": "~$10^{10}$ yr",
         "uncertainty": "—",
         "source": "B$^2$FH 1957",
@@ -1330,7 +1330,7 @@
         "section": "§15.4"
       },
       {
-        "quantity": "银河系年龄（U²³⁵/U²³⁸ 定年）",
+        "quantity": "银河系年龄（U$^{235}$/U$^{238}$ 定年）",
         "value": "~$10^{10}$ yr",
         "uncertainty": "—",
         "source": "B$^2$FH 1957",
@@ -1421,7 +1421,7 @@
         "section": "§15.4"
       },
       {
-        "quantity": "银河系年龄（U²³⁵/U²³⁸ 定年）",
+        "quantity": "银河系年龄（U$^{235}$/U$^{238}$ 定年）",
         "value": "~$10^{10}$ yr",
         "uncertainty": "—",
         "source": "B$^2$FH 1957",
@@ -1743,7 +1743,7 @@
       },
       {
         "quantity": "电离参数 $\\chi$ 扫描",
-        "value": "$5\\times10^6$–$3\\times10^8$ cm s⁻¹（log U = −3.5 至 −2.0）",
+        "value": "$5\\times10^6$–$3\\times10^8$ cm s$^{-1}$（log U = −3.5 至 −2.0）",
         "uncertainty": "—",
         "source": "Kewley et al. 2001",
         "section": "§15.3"
@@ -1757,7 +1757,7 @@
       },
       {
         "quantity": "电子密度 $n_e$",
-        "value": "350 cm⁻³",
+        "value": "350 cm$^{-3}$",
         "uncertainty": "—",
         "source": "Kewley et al. 2001",
         "section": "§15.3"
@@ -2029,7 +2029,7 @@
       },
       {
         "quantity": "$D_{xx}$（3 GV 处，B/C 拟合）",
-        "value": "$(3\\text{–}5)\\times10^{28}$ cm²/s",
+        "value": "$(3\\text{–}5)\\times10^{28}$ cm$^{2}$/s",
         "uncertainty": "因子 ~2",
         "source": "Strong et al. 2007",
         "section": "§3.2, §2.3"
@@ -2057,7 +2057,7 @@
       },
       {
         "quantity": "$D_{xx}$（Kraichnan，$R<10^8$ GV）",
-        "value": "$\\approx 2\\times10^{27}\\,\\beta\\,R^{1/3}_{\\text{GV}}$ cm²/s",
+        "value": "$\\approx 2\\times10^{27}\\,\\beta\\,R^{1/3}_{\\text{GV}}$ cm$^{2}$/s",
         "uncertainty": "—",
         "source": "Strong et al. 2007",
         "section": "§2.3"
@@ -2078,7 +2078,7 @@
       },
       {
         "quantity": "逃逸长度 $X_0$",
-        "value": "11.8 g cm⁻²",
+        "value": "11.8 g cm$^{-2}$",
         "uncertainty": "—",
         "source": "Strong et al. 2007",
         "section": "§3.1, (69)"
@@ -2105,7 +2105,7 @@
         "section": "§3.1"
       },
       {
-        "quantity": "注入谱指数（e⁻）",
+        "quantity": "注入谱指数（e$^{-}$）",
         "value": "$\\approx 2.4$",
         "uncertainty": "—",
         "source": "Strong et al. 2007",
