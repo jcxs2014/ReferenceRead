@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**379 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**385 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -241,7 +241,7 @@
 |---|---|
 | 作者 | S. Gabici, C. Evoli, D. Gaggero, P. Lipari, D. Supanitsky |
 | 期刊 | Int. J. Mod. Phys. D 28, 1930022 (2019) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_orthodoxy.md、03_observations_confront.md、04_open_problems.md、…等 9 个） |
 | 目录 | [`02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/`](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/99_final_summary.md) |
@@ -517,8 +517,8 @@
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
 | 01. 宇宙线传播 | 6 | 55 |
-| 02. 宇宙线起源 | 15 | 141 |
+| 02. 宇宙线起源 | 15 | 147 |
 | 03. 恒星核合成与元素丰度 | 17 | 183 |
-| **合计** | **38** | **379** |
+| **合计** | **38** | **385** |
 
 > 最后更新: 2026-08-15（自动生成）
