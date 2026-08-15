@@ -49,10 +49,10 @@ print(f"[build_all] Using python: {PY}")
 
 # ── Steps ────────────────────────────────────────────────────────────────────
 STEPS: list[dict] = [
-    {"id": "citations", "cmd": [PY, str(WEBAPP / "scripts" / "build_citations.py"), "--dry-run" if os.environ.get("DRY") else ""],
-     "label": "citations"},
-    {"id": "fm", "cmd": [PY, str(WEBAPP / "scripts" / "build_fm.py"), "--dry-run" if os.environ.get("DRY") else ""],
-     "label": "frontmatter"},
+    {"id": "citations", "cmd": [PY, str(WEBAPP / "scripts" / "build_citations.py")],
+     "label": "citations(只读)"},
+    {"id": "fm", "cmd": [PY, str(WEBAPP / "scripts" / "build_fm.py")],
+     "label": "frontmatter(只读)"},
     {"id": "registry", "cmd": [PY, str(WEBAPP / "scripts" / "build_registry.py"), "--dry-run" if os.environ.get("DRY") else ""],
      "label": "registry"},
     {"id": "glossary", "cmd": [PY, str(WEBAPP / "scripts" / "build_glossary.py"), "--dry-run" if os.environ.get("DRY") else ""],
@@ -91,9 +91,9 @@ def main() -> None:
         # 更新 cmd（根据 args.dry 重新构建）
         dry_flag = "--dry-run" if args.dry else ""
         if step["id"] == "citations":
-            cmd = [PY, str(WEBAPP / "scripts" / "build_citations.py")] + ([dry_flag] if dry_flag else [])
+            cmd = [PY, str(WEBAPP / "scripts" / "build_citations.py")]   # 只读审计，不写文档
         elif step["id"] == "fm":
-            cmd = [PY, str(WEBAPP / "scripts" / "build_fm.py")] + ([dry_flag] if dry_flag else [])
+            cmd = [PY, str(WEBAPP / "scripts" / "build_fm.py")]          # 只读审计，不写文档
         elif step["id"] == "registry":
             cmd = [PY, str(WEBAPP / "scripts" / "build_registry.py")] + ([dry_flag] if dry_flag else [])
         elif step["id"] == "glossary":

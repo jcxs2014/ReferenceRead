@@ -60,11 +60,11 @@ fi
 
 # ── 2. build_fm.py dry-run ───────────────────────────────────────
 echo ""
-echo "[2/6] build_fm.py --dry-run"
-if $PYTHON "$ROOT/webapp/scripts/build_fm.py" --dry-run 2>&1 | grep -c "失败 0 个" > /dev/null; then
-    pass "build_fm dry-run: 0 failures"
+echo "[2/6] build_fm.py 只读检查"
+if $PYTHON "$ROOT/webapp/scripts/build_fm.py" 2>&1 | grep -c "失败 0 个" > /dev/null; then
+    pass "build_fm 只读检查: 0 失败"
 else
-    fail "build_fm dry-run: non-zero failures"
+    fail "build_fm 只读检查: 非零失败"
 fi
 
 # ── 3. build_registry.py dry-run ─────────────────────────────────

@@ -120,7 +120,7 @@ def update_citations_in_frontmatter(overview_path: Path, new_citations: list[str
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dry-run", action="store_true", help="只统计不写入")
+    ap.add_argument("--write", action="store_true", help="显式启用写回 citations（仅新库初始化；存量库禁用——文档修改属文献阅读工作流）")
     args = ap.parse_args()
 
     total_edges = 0
@@ -137,14 +137,14 @@ def main() -> int:
                 continue
             stems = collect_nav_stems(overview.read_text(encoding="utf-8"))
             total_edges += len(stems)
-            if args.dry_run:
+            if not args.write:
                 print(f"[DRY] {d.name}: {len(stems)} 条 citations — {stems}")
             else:
                 if update_citations_in_frontmatter(overview, stems):
                     changed += 1
                     print(f"[OK]  {d.name}: {len(stems)} 条 → frontmatter")
 
-    if args.dry_run:
+    if not args.write:
         print(f"\n[dry] 总计 {total_edges} 条库内引用（21 篇提取完成）")
         return 0
 

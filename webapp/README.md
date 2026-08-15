@@ -29,7 +29,7 @@ webapp/
 |---|---|---|---|
 | **构建链必需**（每次构建跑） | `build_registry.py` `build_glossary.py` `build_search_index.py` `build_webapp.py` `audit.py` `md2doc_html.py` | 生成 registry/glossary/索引 → 构建 interactive.html → 审计 | 每次构建 |
 | **按需** | `server.py` | 形态 B 本地服务（/api/progress, /api/rebuild） | 需要本地服务时 |
-| **危险·仅新库**（⚠️） | `build_fm.py` `build_citations.py` | 写 frontmatter / 生成 citations | **仅新文献入库**；存量库禁止全库重跑（见注意事项 1） |
+| **只读审计**（⚠️ 不写文档） | `build_fm.py` `build_citations.py` | frontmatter 卫生审计 / citations 校验统计 | **默认只读**（不改文档库）；`--write` 显式才写，**存量库禁用**（见注意事项 1） |
 | **已归档**（archive/） | `apply_wikilinks.py` `patch_appendix_nav.py` `build_pwa.py` | 图谱 wikilink 化 / 97/98/99 补导航 / PWA 资源 | 已完成使命；重生成按需（见注意事项 3） |
 
 ## 构建链执行步骤（详细）
@@ -62,12 +62,11 @@ bash scripts/verify_claim.sh               # 或 --full-rebuild 真重建
 
 ## ⚠️ 注意事项（重要）
 
-### 1. build_fm / build_citations 存量库禁止全库重跑（P0 教训，见 docs/TROUBLESHOOTING A7）
+### 1. build_fm / build_citations 默认只读，不写文档库（P0 教训，见 docs/TROUBLESHOOTING A7）
 
-- **build_fm.py 是"白名单重建"**——重写 frontmatter 只保留 `title/authors/year/category/status/read_date/lastread/tags/citations/path`，**会丢弃 journal/doi/arxiv/pages/sections/keywords 等增强字段**（2026-08-15 曾致 38 篇属性面板字段丢失，已回滚）
-- **build_citations.py 会重写 38 篇 frontmatter 的 citations**——存量库重跑会清空/改写
-- **适用场景**：仅新文献入库时的单篇/新库初始化；跑前必须 `--dry-run` 对比字段差异
-- 全库构建链（build_all）默认以 `--dry-run` 跑这两步——**不要去掉 dry-run**
+- **默认只读审计**：`build_fm.py` 校验 frontmatter 卫生（YAML/字段/[FACT] 残留），`build_citations.py` 统计校验 citations——**均不修改任何 md**（文档修改属文献阅读工作流）
+- **`--write` 显式才写**，且**存量库禁用**：build_fm 是"白名单重建"（只保留 8 字段，丢弃 journal/doi/arxiv/pages/sections 等增强字段——2026-08-15 曾致 38 篇属性面板字段丢失已回滚）；build_citations 会重写 38 篇 citations
+- **`--write` 仅限新库初始化场景**；跑前先 `git status` 确认工作树干净可回滚
 
 ### 2. 产物不入库
 

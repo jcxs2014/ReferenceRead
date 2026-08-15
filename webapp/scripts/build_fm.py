@@ -591,7 +591,7 @@ def process_background(path: Path, dry_run: bool) -> bool:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Build YAML frontmatter for overview & background files.")
-    ap.add_argument("--dry-run", action="store_true", help="只打印，不写入")
+    ap.add_argument("--write", action="store_true", help="显式启用写回 frontmatter（仅新库初始化；存量库禁用——文档修改属文献阅读工作流）")
     args = ap.parse_args()
 
     overview_files: list[Path] = []
@@ -609,7 +609,7 @@ def main() -> None:
     ok, fail = 0, 0
     for p in overview_files:
         try:
-            if process_overview(p, args.dry_run):
+            if process_overview(p, dry_run=not args.write):
                 ok += 1
             else:
                 fail += 1
@@ -619,7 +619,7 @@ def main() -> None:
 
     for p in bg_files:
         try:
-            if process_background(p, args.dry_run):
+            if process_background(p, dry_run=not args.write):
                 ok += 1
             else:
                 fail += 1
