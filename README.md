@@ -1,16 +1,16 @@
 # papers — 文献阅读与分析工作区
 
-> **23 篇文献**（共 23 篇精读，含 0 篇双论文并列）、31 篇分析目录、7 篇跨篇主题背景知识库。
+> **38 篇文献**（38 篇精读全部闭环）、38 篇分析目录、7 篇跨篇主题背景知识库。
 >
-> 按主题域 → 单篇论文 → `literature_analysis/` 三层结构组织。每篇文献按 `docs/READING_INSTRUCTIONS.md` 的 29 节规范精读。
+> 按主题域 → 单篇论文 → `literature_analysis/` 三层结构组织。每篇文献按 `docs/READING_INSTRUCTIONS.md` 的 30 节规范精读（§4 分章结构：综述/长文献走"路径 A 子节镜像"，短篇走"路径 B 八段"）。
 
 ## 目录结构
 
 ```
 papers/
 ├── README.md                       ← 本文档：工作区总览与接入 SOP
-├── docs/READING_INSTRUCTIONS.md         ← 精读操作手册（29 节规范 + 数据一致性经验）
-├── INDEX.md                        ← 23 篇论文分析入口（gen_index.py 自动生成）
+├── docs/READING_INSTRUCTIONS.md         ← 精读操作手册（30 节规范 + 数据一致性经验）
+├── INDEX.md                        ← 38 篇论文分析入口（gen_index.py 自动生成）
 ├── docs/ADVANCEMENT.md                  ← 进阶方案（v2.1 + V2.2 补丁，已全部落地）
 ├── docs/WEBAPP_DESIGN.md                ← Webapp 架构与实现
 ├── docs/ENHANCEMENTS.md                 ← 改进建议清单（9 条全部完成，归档参考）
@@ -45,16 +45,20 @@ papers/
 │   ├── build_webapp.py             ← 主构建（背景必跑，加 --include-papers 收论文）
 │   ├── build_fm.py                 ← 写 frontmatter（剥离 _strip_fact_tag 等防护）
 │   ├── build_citations.py          ← citations 唯一生成器（篇间导航 → 库内引用）
-│   ├── build_registry.py           ← 读 27 frontmatter → webapp/registry.json
-│   ├── build_glossary.py            ← 从 23 篇 98_vocabulary.md 抽 → 05_glossary.md
+│   ├── build_registry.py           ← 读 45 frontmatter → webapp/registry.json
+│   ├── build_glossary.py            ← 从 38 篇 98_vocabulary.md 抽 → 05_glossary.md
 │   ├── build_pwa.py                ← PWA 资源（manifest + 图标 + apple-touch-icon）
 │   ├── apply_wikilinks.py          ← V2.2: 导航/citations → Obsidian wikilink
 │   ├── patch_appendix_nav.py       ← V2.2: 给 97/98 附录补链（防孤立）
 │   ├── audit.py                    ← 构建后审计（18 条断言，失败非零退出）
 │   ├── server.py                   ← 形态 B 服务层（/api/progress?slug=, /api/rebuild）
 │   ├── md2doc_html.py              ← md → HTML 片段
-│   ├── registry.json               ← 派生产物（30 条：23 论文 + 7 背景）
-│   └── glossary.json               ← 派生产物（661 术语）
+│   ├── convert_unicode_math.py     ← 公式 Unicode → LaTeX（round1/round2）
+│   ├── convert_supsub.py           ← Unicode 上下标 → LaTeX（全库清零）
+│   ├── fix_math_fragmentation.py   ← 公式割裂修复（幂等）
+│   ├── build_search_index.py       ← 全文搜索索引
+│   ├── registry.json               ← 派生产物（45 条：38 论文 + 7 背景）
+│   └── glossary.json               ← 派生产物（769 术语）
 │
 ├── scripts/                        ← 库级生成脚本
 │   ├── gen_index.py                ← 扫描 → INDEX.md
@@ -67,10 +71,10 @@ papers/
 
 | 编号 | 主题 | 论文数 |
 |---|---|---|
-| 01 | 宇宙线传播 | 1 |
-| 02 | 宇宙线起源与 UHECR | 7 |
-| 03 | 恒星核合成与元素丰度 | 15 |
-| **合计** | | **23** |
+| 01 | 宇宙线传播 | 6 |
+| 02 | 宇宙线起源与 UHECR | 15 |
+| 03 | 恒星核合成与元素丰度 | 17 |
+| **合计** | | **38** |
 
 新增主题域直接开 `NN_主题名/`（编号顺延），同时更新 `INDEX.md` 和本文档。
 
@@ -81,7 +85,7 @@ papers/
 ```
 PDF 原文
   │
-  ├──→ fulltext.txt / extracted.json（fitz 提取；.gitignore 忽略；跨设备靠 FreeFileSync 同步）
+  ├──→ fulltext.txt（pdftotext/fitz 提取，38/38 已补齐含 OCR；.gitignore 忽略；跨设备靠 FreeFileSync 同步）
   │
   └──→ literature_analysis/
        00_overview.md            ← 文献元数据 + 结构树 + 篇间导航
@@ -100,9 +104,8 @@ PDF 原文
 ```bash
 ① 建目录   在合适主题域下新建 NNNN_作者-年份/（编号为主题域内下一个序号）
 ② 归档原文  PDF 放入目录；仓库内 PDF 用 `git add -f`（根目录 PDF 默认 .gitignore）
-③ 提取文本  env -u PYTHONPATH python3 -c "import fitz; ..." → fulltext.txt
-            扫描版 PDF 用 pdftoppm 转 PNG → vision_analyze
-④ 精读     按 READING_INSTRUCTIONS.md 29 节执行
+③ 提取文本  pdftotext <pdf> <篇>/fulltext.txt（文本型）；扫描型用 pdftoppm 转 PNG → OCR/视觉读取
+④ 精读     按 READING_INSTRUCTIONS.md 30 节执行（§4：综述/长文献 → 路径 A 子节镜像；短篇 → 路径 B 八段）
             → literature_analysis/：00_overview → 分章 → 98_vocabulary → 99_final_summary
             → 篇间导航小节用 [``stem``](../../NN_作者-年份/literature_analysis/00_overview.md) 标准格式
 ⑤ 走 build 链（顺序关键，P0-6 防护）：
@@ -110,12 +113,12 @@ PDF 原文
             python3 webapp/build_fm.py           # 写 frontmatter（自动清洗 [FACT] 等）
             python3 webapp/build_registry.py     # 生成 webapp/registry.json
 ⑥ 自动维护：
-            python3 scripts/gen_index.py        # 23 篇 → INDEX.md
+            python3 scripts/gen_index.py        # 38 篇 → INDEX.md
             python3 scripts/gen_quality_check.py # → 97_quality_check.md
             python3 scripts/gen_glossary.py      # → background/05_glossary.md
             （gen_glossary.py 已被 webapp/build_glossary.py 部分替代，后者直接生成 webapp/glossary.json）
 ⑦ webapp 重建：
-            python3 webapp/build_webapp.py --include-papers    # docs 31 / TOC 4333 / papers 23
+            python3 webapp/build_webapp.py --include-papers    # papers 38（docs/TOC 以实际输出为准）
 ⑧ 审计：   python3 webapp/audit.py              # 18 条断言，失败非零退出
             headless 验证：/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --headless --dump-dom ...
 ⑨ 提交     git add -f <新篇目录> + git commit
@@ -156,14 +159,14 @@ git log --oneline -10
 env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0].get_text())"
 ```
 
-## webapp 工具链（11 脚本）
+## webapp 工具链（15 脚本）
 
 | 脚本 | 职责 | 调用顺序 |
 |---|---|---|
 | `build_citations.py` | **citations 唯一生成器**（篇间导航 → 库内引用） | 1 |
 | `build_fm.py` | 写 frontmatter（剥 `[FACT]`/wikilink 透传/P0-6 防护） | 2 |
-| `build_registry.py` | 读 27 frontmatter → `registry.json` | 3 |
-| `build_glossary.py` | 661 术语解析 → `glossary.json` | 4 |
+| `build_registry.py` | 读 45 frontmatter → `registry.json` | 3 |
+| `build_glossary.py` | 769 术语解析 → `glossary.json` | 4 |
 | `build_webapp.py` | 主构建（`--include-papers` 收论文） | 5 |
 | `audit.py` | 18 条断言（label/年份/TOC/citations/图谱） | 6 |
 | `build_pwa.py` | PWA 资源（manifest + 图标） | 7 |
@@ -171,6 +174,10 @@ env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0]
 | `patch_appendix_nav.py` | V2.2 97/98 补链 | 8 前置 |
 | `server.py` | 形态 B 进度 API | 独立 |
 | `md2doc_html.py` | md → HTML 片段 | build_webapp 内部 |
+| `convert_unicode_math.py` | 公式 Unicode → LaTeX（round1/2） | 独立/公式维护 |
+| `convert_supsub.py` | Unicode 上下标 → LaTeX（幂等） | 独立/公式维护 |
+| `fix_math_fragmentation.py` | 公式割裂修复（幂等） | 独立/公式维护 |
+| `build_search_index.py` | 全文搜索索引 | build_webapp 内部 |
 
 **最小可重跑链**：`build_citations → build_fm → build_registry → build_webapp → audit`
 
@@ -198,8 +205,8 @@ env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0]
 
 | 文档 | 用途 |
 |---|---|
-| [`docs/READING_INSTRUCTIONS.md`](docs/READING_INSTRUCTIONS.md) | 精读操作手册（29 节规范 + 数据一致性经验） |
-| [`INDEX.md`](INDEX.md) | 23 篇论文分析入口（自动生成） |
+| [`docs/READING_INSTRUCTIONS.md`](docs/READING_INSTRUCTIONS.md) | 精读操作手册（30 节规范 + 数据一致性经验） |
+| [`INDEX.md`](INDEX.md) | 38 篇论文分析入口（自动生成） |
 | [`docs/ADVANCEMENT.md`](docs/ADVANCEMENT.md) | 进阶方案 v2.1 + V2.2 补丁（已全部落地） |
 | [`docs/WEBAPP_DESIGN.md`](docs/WEBAPP_DESIGN.md) | Webapp 架构与实现细节 |
 | [`docs/ENHANCEMENTS.md`](docs/ENHANCEMENTS.md) | 改进建议清单（9 条全部 ✅ 完成） |
@@ -213,10 +220,15 @@ env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0]
 - ✅ 批 3（术语 hover + O2 图谱，61 边）
 - ✅ 批 4（PWA + 阶段六争议演化）
 - ✅ V2.2 补丁（Obsidian 图谱链接化）
-- ✅ 库扩 23 篇（+2 新文献：Cameron 1968 / Kraft 1994）
+- ✅ 库扩至 38 篇（全部精读闭环，REVIEWS #23）
+- ✅ fulltext.txt 全库补齐（38/38，含 2 篇扫描型 OCR）
+- ✅ pages 字段全量补齐（38/38 整篇粒度）+ frontmatter YAML 修复
+- ✅ 公式 Unicode/上下标 → LaTeX 规范化（全库四域）
+- ✅ 精读深度扩充备忘定稿（路径 A/B 选择规则，见 READING_INSTRUCTIONS §4）
+- 🔄 子节镜像批 1（4 篇长综述示范批次，ruszkowski 已提交，执行中）
 
 后续路线见 [`docs/ADVANCEMENT.md`](docs/ADVANCEMENT.md)。
 
 ---
 
-> 最后更新: 2026-08-14
+> 最后更新: 2026-08-15
