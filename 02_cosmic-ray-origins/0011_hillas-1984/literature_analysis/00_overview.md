@@ -6,6 +6,12 @@ journal: Ann. Rev. Astron. Astrophys. 22, 425 (1984)
 pages: '425-444'
 doi: 10.1146/annurev.aa.22.090184.002245
 category: 宇宙线起源
+sections:
+  - '§1 Why Bother?'
+  - '§2 Observational Data'
+  - '§3 Acceleration Mechanisms'
+  - '§4 Propagation'
+  - '§5 Conclusions'
 status: completed
 read_date: '2026-08-15'
 lastread: '2026-08-15'
