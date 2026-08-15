@@ -24,7 +24,7 @@ tags:
 - 恒星演化
 - 技术锝（Tc⁹⁹）
 - 超重元素
-citations: []
+citations:
 - '[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview|0002_trimble-1975]]'
 - '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
 - '[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]]'

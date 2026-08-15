@@ -16,7 +16,7 @@ tags:
 - solar atmosphere
 - spectral line formation
 - convection
-citations: []
+citations:
 - '[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview|0006_grenier-2015]]'
 - '[[02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview|0007_biermann-1996]]'
 - '[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview|0010_gies-lambert-1992]]'

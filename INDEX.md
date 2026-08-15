@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**329 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**335 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -55,7 +55,7 @@
 |---|---|
 | 作者 | R. A. Mewaldt, N. E. Yanasak, M. E. Wiedenbeck et al.（Caltech/JPL/Washington U/NASA Goddard） |
 | 期刊 | Space Science Reviews 99, 137 (2001) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_acceleration_delay_clocks.md、03_electron_capture_transport.md、04_beta_decay_clocks.md、…等 9 个） |
 | 目录 | [`01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/`](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/99_final_summary.md) |
@@ -516,9 +516,9 @@
 
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
-| 01. 宇宙线传播 | 6 | 43 |
+| 01. 宇宙线传播 | 6 | 49 |
 | 02. 宇宙线起源 | 15 | 119 |
 | 03. 恒星核合成与元素丰度 | 17 | 167 |
-| **合计** | **38** | **329** |
+| **合计** | **38** | **335** |
 
 > 最后更新: 2026-08-15（自动生成）

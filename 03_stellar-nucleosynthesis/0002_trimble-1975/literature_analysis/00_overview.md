@@ -19,7 +19,7 @@ tags:
 - 银河演化
 - 初始质量函数
 - 超新星
-citations: []
+citations:
 - '[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]]'
 - '[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]]'
 path: 03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview.md
