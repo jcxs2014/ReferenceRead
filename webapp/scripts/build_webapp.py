@@ -9,12 +9,13 @@ import sys
 import subprocess
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent  # papers/
-TOOLS = HERE       # webapp/
+HERE = Path(__file__).resolve().parent       # webapp/scripts/
+ROOT = HERE.parent.parent                     # papers/
+TOOLS = HERE                                  # scripts/（md2doc_html.py 所在）
 DOCROOT = ROOT / "background"
-OUT = HERE / "interactive.html"   # built artifact lives in webapp/ alongside shell + scripts
-SHELL = HERE / "shell.html"
+WEBAPP = HERE.parent                          # webapp/（产物/模板所在）
+OUT = WEBAPP / "interactive.html"             # 构建产物
+SHELL = WEBAPP / "shell.html"                 # 骨架模板
 INDEX = ROOT / "INDEX.md"
 
 PAPER_INFO = {
@@ -24,7 +25,7 @@ PAPER_INFO = {
 }
 
 # Load registry for enriched paper metadata (status, read_date, tags, citations)
-REGISTRY_FILE = HERE / "registry.json"
+REGISTRY_FILE = WEBAPP / "registry.json"
 _registry: dict = {}
 if REGISTRY_FILE.exists():
     for e in json.loads(REGISTRY_FILE.read_text(encoding="utf-8")):
@@ -173,10 +174,19 @@ def _deduplicate_headings(html_body: str, parent_id: str) -> tuple:
     items = []
     for m in matches:
         full_id = m.group(3)
-        bare    = re.sub(r'-\d+$', '', full_id)   # strip md2doc's -N suffix
         level   = int(m.group(1))
         raw     = re.sub(r"<[^>]+>", "", m.group(5)).strip()
         title   = html_mod.unescape(raw)
+        # 从标题重建裸 anchor（与 md2doc_html 同规则），供跨 fragment 去重。
+        # 不依赖 full_id 剥离 -N 后缀：旧逻辑 `re.sub(r'-\d+$','',full_id)` 会误剥
+        # 真实数字 anchor（`### 1`→"doc"、`### $^{1}$`→"doc-1"），Pass 2 重编号时碰撞
+        # （全库术语表 doc-1/doc-2 重复断言失败）；对同篇多分章同名标题（跨 fragment）
+        # 也无法正确合并去重（ruszkowski 多分章 `### 1. 图的目的` 碰撞）。
+        title_anchor = re.sub(r"[^\w\u4e00-\u9fff0-9-]+", "-", title).strip("-").lower()
+        if not title_anchor:
+            title_anchor = f"h{level}"
+        prefix = full_id.split("-doc-")[0] if "-doc-" in full_id else ""
+        bare   = f"{prefix}-doc-{title_anchor}" if prefix else title_anchor
         items.append({
             "bare": bare, "full_id": full_id, "level": level,
             "title": title, "old_tag": m.group(0),
@@ -314,7 +324,7 @@ def build(include_papers=False, out=None):
     shell = shell.replace("__TOC_JSON__",     json.dumps(all_toc,     ensure_ascii=False, indent=2))
     shell = shell.replace("__PAPERS_JSON__",  json.dumps(papers_json, ensure_ascii=False, indent=2))
     # 倒排索引（build_search_index.py → search_index.json）
-    search_idx_path = HERE / "search_index.json"
+    search_idx_path = WEBAPP / "search_index.json"
     if search_idx_path.exists():
         search_idx = json.loads(search_idx_path.read_text(encoding="utf-8"))
         # 只注入 index 字段（含 count/total_entries 冗余）
@@ -325,7 +335,7 @@ def build(include_papers=False, out=None):
     else:
         shell = shell.replace("__SEARCH_INDEX_JSON__", "{}")
     # 术语表（05_glossary.md → glossary.json，运行时 hover 用）
-    gloss_path = HERE / "glossary.json"
+    gloss_path = WEBAPP / "glossary.json"
     if gloss_path.exists():
         gloss = json.loads(gloss_path.read_text(encoding="utf-8"))
     else:

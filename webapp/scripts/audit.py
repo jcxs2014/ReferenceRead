@@ -11,7 +11,7 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 WEBAPP = ROOT / "webapp"
 INTERACTIVE = WEBAPP / "interactive.html"
 REGISTRY = WEBAPP / "registry.json"

@@ -23,7 +23,7 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 KEY_VALUES_FILE = ROOT / "background" / "00_key_values.md"
 
 CATEGORY_MAP = {

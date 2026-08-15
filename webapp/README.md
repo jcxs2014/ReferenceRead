@@ -1,121 +1,77 @@
-# papers/webapp/ — 交互知识库网页构建工具
+# papers/webapp/ — 交互知识库网页（构建与维护引导）
 
-> 将 `papers/background/` 下的 Markdown 知识库 + 可选的 21 篇论文精读合辑，构建为**单文件离线交互网页**。
+> 将 `papers/background/` 知识库 + 38 篇论文精读，构建为**单文件离线交互网页**（`interactive.html`）。
+> 本 README 是 webapp 的统一引导：目录结构 → 构建链 → 快速开始 → 故障指引。
 
 ## 目录结构
 
 ```
 webapp/
-├── README.md              ← 本文档
-├── shell.html             ← 骨架模板（CSS + JS + 3 个 JSON 占位符）
-├── build_webapp.py        ← 构建脚本（md→html→b64→注入→输出）
-├── md2doc_html.py         ← Markdown → HTML fragment 转换器
-└── interactive.html       ← 构建产物（4.4 MB 单文件，离线可用）
+├── README.md              ← 本文档（统一引导）
+├── shell.html             ← 骨架模板（CSS + JS + 3 个 JSON 占位符，构建注入数据）
+├── scripts/               ← 12 个构建/服务脚本（统一管理，见「构建链」）
+├── docs/                  ← webapp 文档（审查报告：webapp/docs/审查报告.md）
+├── tests/                 ← 单元测试（unittest，verify_claim 门禁会跑）
+├── third-party/katex/     ← KaTeX 自托管资源（http:// 协议本地字体，315197a 引入）
+├── interactive.html       ← 构建产物（~7 MB 单文件，不入库）
+├── registry.json          ← 构建产物（45 条，不入库）
+├── glossary.json          ← 构建产物（769 术语，不入库）
+├── search_index.json      ← 构建产物（全文索引，不入库）
+├── manifest.json / icon-*.png / apple-touch-icon.png  ← PWA 产物（不入库）
 ```
 
-## 三个文件各自做什么
+**构建产物全部不入库**（顶层 `.gitignore` 统一管理），由构建链再生成。
 
-### shell.html — 骨架模板
+## 构建链（webapp/scripts/ 12 脚本）
 
-网页的**外壳**，包含：
-- 全局 CSS（暗/亮主题、flex 布局、sidebar 展开/收起）
-- 三个 JSON 占位符（`build_webapp.py` 会替换它们）
-- 全部 JavaScript 逻辑（导航、搜索、公式渲染、复制按钮等）
+| 脚本 | 职责 | 顺序 |
+|---|---|---|
+| `build_citations.py` | citations 唯一生成器（篇间导航 → 库内引用） | 1 |
+| `build_fm.py` | 写 frontmatter（剥 `[FACT]`/wikilink 透传/P0-6 防护） | 2 |
+| `build_registry.py` | 读 frontmatter → `registry.json` | 3 |
+| `build_glossary.py` | 98_vocabulary → `glossary.json` | 4 |
+| `build_webapp.py` | 主构建（`--include-papers` 收论文） | 5 |
+| `audit.py` | 构建后审计（18 条断言，失败非零退出） | 6 |
+| `build_pwa.py` | PWA 资源（manifest + 图标 + shell 注入） | 7 |
+| `apply_wikilinks.py` | V2.2 导航/citations → Obsidian wikilink | 8 |
+| `patch_appendix_nav.py` | V2.2 97/98 附录补链 | 8 前置 |
+| `server.py` | 形态 B 服务层（/api/progress?slug=, /api/rebuild） | 独立 |
+| `md2doc_html.py` | md → HTML 片段（build_webapp 内部调用） | 内部 |
+| `build_search_index.py` | 全文搜索索引 | build_webapp 内部 |
 
-不直接可打开——必须经过 `build_webapp.py` 注入数据后才能使用。
+**最小可重跑链**：`build_citations → build_fm → build_registry → build_webapp → audit`
 
-### build_webapp.py — 构建脚本
-
-**流程**：
-```
-┌──────────────┐    ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│ background/*.md  │──→│ md2doc_html.py  │──→│  base64 编码    │──→│ shell.html      │
-│ 文学/论文*.md     │    │ (markdown→html)  │    │  + TOC 提取    │    │ (注入 → 输出)   │
-└──────────────┘    └─────────────────┘    └──────────────────┘    └─────────────────┘
-```
-
-1. 读取 `background/*.md`（跳过 `00_*`、`99_*` 等非内容文件）
-2. 调用 `md2doc_html.py` 将每个 md 转为 HTML fragment
-3. 从 fragment 的 `<h2..h6 id="doc-xxx">` 标签提取 TOC
-4. 将 fragment 内容 base64 编码（避免 HTML 嵌套转义问题）
-5. 将 `DOCS`（文档列表 + b64）、`TOCS`（目录 flat array）、`PAPERS`（论文元数据）注入 `shell.html`
-6. 输出单文件 `interactive.html`
-
-### md2doc_html.py — Markdown 转换器
-
-将单个 Markdown 文件转为 HTML fragment。**关键设计**：
-- 每个 heading 带 `id="doc-{anchor}"`（anchor 去空格/符号转 `-`、小写）→ 用于 TOC 锚点跳转
-- 行内 `$...$` 和块 `$${...}$$` 公式**保留原始 LaTeX**（不渲染），由浏览器端 KaTeX 处理
-- 块公式自动添加「📋 LaTeX」复制按钮
-- 不输出 `<html>/<body>` 标签——只输出文档正文片段
-
-## 构建流程
-
-```
-背景 Markdown ─┐                            ┌─→ shell.html (骨架)
-               ├─→ md2doc_html.py ─→ HTML   ├─→ base64 编码 ─→ 注入 DOCS 占位符
-论文 Markdown ─┘      fragment    │         ├─→ 提取 TOC   ─→ 注入 TOC 占位符
-                                  │         └─→ 论文元数据  ─→ 注入 PAPERS 占位符
-                                  │
-                    webapp/interactive.html (4.4 MB 单文件)
-```
+## 快速开始
 
 ```bash
 cd papers
 
-# 仅构建 background 知识库（6 个文档，约 1 MB）
-python3 webapp/build_webapp.py
+# 一键全链路（scripts/build_all.py，含 citations/fm/registry/glossary/index/webapp/pwa/audit）
+python3 scripts/build_all.py --full
 
-# 包含全部 21 篇论文精读（27 个文档，约 4.4 MB）
-python3 webapp/build_webapp.py --include-papers
+# 或手动最小链（从 papers 根目录）
+python3 webapp/scripts/build_citations.py
+python3 webapp/scripts/build_fm.py
+python3 webapp/scripts/build_registry.py
+python3 webapp/scripts/build_webapp.py --include-papers
+python3 webapp/scripts/audit.py            # 18 条断言
 
-# 指定输出路径
-python3 webapp/build_webapp.py --include-papers --out background/background-interactive.html
+# 声称完成门禁（非破坏性检查）
+bash scripts/verify_claim.sh               # 或 --full-rebuild 真重建
+
+# 本地服务（形态 B）
+python3 webapp/scripts/server.py
 ```
 
 构建后打开 `webapp/interactive.html`（双击即可，无需服务器）。
 
-## 交互功能
+## 协议自适应（KaTeX 字体）
 
-### 导航栏
-顶部 27 个标签页（按主题分组：宇宙线传播 / 宇宙线起源 / 恒星核合成 / 论文 21 篇），点击切换文档。
+- `file://` 打开：KaTeX 走 CDN（`cdn.jsdelivr.net/npm/katex@0.16.9`），离线自动降级为等宽源码
+- `http://` 服务：走 `third-party/katex/` 本地字体（自托管，`shell.html` 按协议自动切换）
 
-### 侧边栏目录
-点击 `☰` 按钮展开，显示当前文档的 TOC（最多 4 级标题，带缩进），**点击 TOC 条目平滑滚动**到对应章节。
+## 故障指引
 
-### 搜索
-顶部搜索框，全文匹配关键词，结果显示"文档名 · 匹配次数"，点击跳转到包含结果的文章。
-
-### 公式
-- 行内公式：自动 KaTeX 渲染
-- 块公式：右侧带「📋 LaTeX」按钮，点击复制 LaTeX 源码
-- 公式字体颜色跟随正文（不会全部红色）
-
-### 主题切换
-点击 `🌙`/`☀` 按钮切换暗/亮模式，自动保存到 `localStorage`。
-
-### 跨论文引用卡
-文档中 `[{论文编号}]` 语法自动渲染为引用卡片（显示论文年份、标题、主题）。
-
-## 技术细节
-
-### TOC 锚点格式
-
-TOC 条目 id 与 heading id 严格一致，格式为 `doc-{anchor}`，anchor 规则：
-```
-re.sub(r"[^\w\u4e00-\u9fff0-9-]+", "-", title).strip("-").lower()
-```
-例如「0.1 文献基本信息」→ `doc-0-1-文献基本信息`。
-
-### 离线降级
-
-KaTeX 通过 CDN 加载（`cdn.jsdelivr.net/npm/katex@0.16.9`），如离线则自动降级为等宽字体显示原始 LaTeX 源码。
-
-### 构建碎片清理
-
-`md2doc_html.py` 生成 `.fragment.html` 临时文件，`build_webapp.py` 完成后自动删除，不残留。
-
-## Git 忽略
-
-`webapp/interactive.html`（4.4 MB 构建产物）已加入 `.gitignore`。
-每次修改后重新构建即可。
+- webapp 构建/渲染故障：见 `docs/TROUBLESHOOTING.md` B 区（B1–B18，KaTeX 时序/overlay/搜索高亮等）
+- frontmatter/YAML/审计问题：见 `docs/TROUBLESHOOTING.md` A 区（A2–A6）
+- 公式转换工具（Unicode → LaTeX / 割裂修复）：`scripts/convert_supsub.py` 等（库级工具，非本目录）

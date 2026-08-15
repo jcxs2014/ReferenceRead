@@ -19,7 +19,7 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 CATEGORY_MAP = {
     "01_cosmic-ray-propagation": "宇宙线传播",
     "02_cosmic-ray-origins": "宇宙线起源",

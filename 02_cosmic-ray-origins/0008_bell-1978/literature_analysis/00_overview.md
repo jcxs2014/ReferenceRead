@@ -7,6 +7,7 @@ doi: 10.1093/mnras/182.2.147
 arxiv: —（预印本时代前）
 category: 02_cosmic-ray-origins
 read_date: '2026-08-15'
+lastread: '2026-08-15'
 status: completed
 pages: '147-156'
 tags: [diffusive-shock-acceleration, first-order-fermi, test-particle, alfven-wave, spectral-index, power-law, snr]

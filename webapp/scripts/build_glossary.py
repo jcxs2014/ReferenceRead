@@ -17,7 +17,7 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 GLOSSARY_FILE = ROOT / "background" / "05_glossary.md"
 OUT_FILE = ROOT / "webapp" / "glossary.json"
 

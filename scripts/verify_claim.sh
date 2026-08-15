@@ -61,7 +61,7 @@ fi
 # ── 2. build_fm.py dry-run ───────────────────────────────────────
 echo ""
 echo "[2/6] build_fm.py --dry-run"
-if $PYTHON "$ROOT/webapp/build_fm.py" --dry-run 2>&1 | grep -c "失败 0 个" > /dev/null; then
+if $PYTHON "$ROOT/webapp/scripts/build_fm.py" --dry-run 2>&1 | grep -c "失败 0 个" > /dev/null; then
     pass "build_fm dry-run: 0 failures"
 else
     fail "build_fm dry-run: non-zero failures"
@@ -70,7 +70,7 @@ fi
 # ── 3. build_registry.py dry-run ─────────────────────────────────
 echo ""
 echo "[3/6] build_registry.py dry-run"
-if $PYTHON "$ROOT/webapp/build_registry.py" --dry-run 2>&1 | grep -c '"path":' > /dev/null; then
+if $PYTHON "$ROOT/webapp/scripts/build_registry.py" --dry-run 2>&1 | grep -c '"path":' > /dev/null; then
     pass "build_registry dry-run OK"
 else
     fail "build_registry dry-run failed"
@@ -114,7 +114,7 @@ CHECKS=(
     "background/05_glossary.md"
     "background/04_critique_index.md"
     "webapp/registry.json"
-    "webapp/audit.py"
+    "webapp/scripts/audit.py"
 )
 for f in "${CHECKS[@]}"; do
     if [ -f "$ROOT/$f" ]; then
@@ -127,11 +127,11 @@ done
 # ── 6. audit.py ─────────────────────────────────────────────────
 echo ""
 echo "[6/6] audit.py"
-if $PYTHON "$ROOT/webapp/audit.py" 2>&1 | grep -E 'All checks passed|pass' | grep -c 'All checks passed' > /dev/null; then
+if $PYTHON "$ROOT/webapp/scripts/audit.py" 2>&1 | grep -E 'All checks passed|pass' | grep -c 'All checks passed' > /dev/null; then
     pass "audit.py passed"
 else
     echo "  [WARN] audit.py output (not necessarily failure):"
-    $PYTHON "$ROOT/webapp/audit.py" 2>&1 | tail -10
+    $PYTHON "$ROOT/webapp/scripts/audit.py" 2>&1 | tail -10
     pass "audit.py ran (manual review recommended)"
 fi
 
@@ -150,9 +150,9 @@ fi
 if [ "${1:-}" = "--full-rebuild" ]; then
     echo ""
     echo "[full-rebuild] 重建 webapp"
-    $PYTHON "$ROOT/webapp/build_fm.py"
-    $PYTHON "$ROOT/webapp/build_registry.py"
-    $PYTHON "$ROOT/webapp/build_webapp.py" --include-papers
+    $PYTHON "$ROOT/webapp/scripts/build_fm.py"
+    $PYTHON "$ROOT/webapp/scripts/build_registry.py"
+    $PYTHON "$ROOT/webapp/scripts/build_webapp.py" --include-papers
     echo "  [DONE] webapp rebuilt"
 fi
 

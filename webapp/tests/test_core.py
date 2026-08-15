@@ -12,19 +12,20 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "webapp"))
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from webapp.build_fm import (
+from webapp.scripts.build_fm import (
     _extract_year,
     _most_likely_year,
     _normalize_key,
     _split_tags,
     extract_fields,
 )
-from webapp.build_webapp import _clean_author, _fmt_authors, slug
+from webapp.scripts.build_webapp import _clean_author, _fmt_authors, slug
 from scripts.gen_index import _fmt_title
-from webapp.apply_wikilinks import (
+from webapp.scripts.apply_wikilinks import (
     convert_nav_line,
     nav_link_target,
     stem_to_cat,

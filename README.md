@@ -39,28 +39,31 @@ papers/
 │   ├── 05_glossary.md              ← 全库术语表（gen_glossary.py 自动生成，769 术语）
 │   └── 06_controversy_evolution.md ← 争议演化时间线
 │
-├── webapp/                         ← 单文件 HTML 知识库（详见 webapp/ 工具链）
+├── webapp/                         ← 单文件 HTML 知识库（详见 webapp/README.md 引导）
+│   ├── README.md                   ← webapp 引导（目录/构建链/快速开始/故障）
 │   ├── shell.html                  ← HTML 模板（CSS + JS + KaTeX 集成）
+│   ├── docs/                       ← webapp 文档（审查报告等）
+│   ├── scripts/                    ← 12 个构建/服务脚本（统一管理，见下）
+│   │   ├── build_webapp.py         ← 主构建（背景必跑，加 --include-papers 收论文）
+│   │   ├── build_fm.py             ← 写 frontmatter（剥离 _strip_fact_tag 等防护）
+│   │   ├── build_citations.py      ← citations 唯一生成器（篇间导航 → 库内引用）
+│   │   ├── build_registry.py       ← 读 45 frontmatter → webapp/registry.json
+│   │   ├── build_glossary.py       ← 从 38 篇 98_vocabulary.md 抽 → 05_glossary.md
+│   │   ├── build_pwa.py            ← PWA 资源（manifest + 图标 + apple-touch-icon）
+│   │   ├── apply_wikilinks.py      ← V2.2: 导航/citations → Obsidian wikilink
+│   │   ├── patch_appendix_nav.py   ← V2.2: 给 97/98 附录补链（防孤立）
+│   │   ├── audit.py                ← 构建后审计（18 条断言，失败非零退出）
+│   │   ├── server.py               ← 形态 B 服务层（/api/progress?slug=, /api/rebuild）
+│   │   ├── md2doc_html.py          ← md → HTML 片段
+│   │   └── build_search_index.py   ← 全文搜索索引
 │   ├── interactive.html            ← 构建产物（~4 MB，被 .gitignore 忽略）
-│   ├── build_webapp.py             ← 主构建（背景必跑，加 --include-papers 收论文）
-│   ├── build_fm.py                 ← 写 frontmatter（剥离 _strip_fact_tag 等防护）
-│   ├── build_citations.py          ← citations 唯一生成器（篇间导航 → 库内引用）
-│   ├── build_registry.py           ← 读 45 frontmatter → webapp/registry.json
-│   ├── build_glossary.py            ← 从 38 篇 98_vocabulary.md 抽 → 05_glossary.md
-│   ├── build_pwa.py                ← PWA 资源（manifest + 图标 + apple-touch-icon）
-│   ├── apply_wikilinks.py          ← V2.2: 导航/citations → Obsidian wikilink
-│   ├── patch_appendix_nav.py       ← V2.2: 给 97/98 附录补链（防孤立）
-│   ├── audit.py                    ← 构建后审计（18 条断言，失败非零退出）
-│   ├── server.py                   ← 形态 B 服务层（/api/progress?slug=, /api/rebuild）
-│   ├── md2doc_html.py              ← md → HTML 片段
-│   ├── build_search_index.py       ← 全文搜索索引
 │   ├── registry.json               ← 派生产物（45 条，构建生成，不入库）
 │   └── glossary.json               ← 派生产物（769 术语，构建生成，不入库）
 │
 ├── scripts/                        ← 库级工具（生成 + 文献内容处理）
 │   ├── gen_index.py                ← 扫描 → INDEX.md
 │   ├── gen_quality_check.py        ← 扫描 → 97_quality_check.md
-│   ├── gen_glossary.py             ← 扫描 → 05_glossary.md（已被 webapp/build_glossary.py 替代）
+│   ├── gen_glossary.py             ← 扫描 → 05_glossary.md（已被 webapp/scripts/build_glossary.py 替代）
 │   ├── build_all.py                ← 全链路编排（scripts + webapp 构建链）
 │   ├── quality_matrix.py           ← 8 列质量矩阵 + 子节镜像统计
 │   ├── verify_claim.sh             ← 声称完成门禁（PASS=11）
@@ -112,17 +115,17 @@ PDF 原文
             → literature_analysis/：00_overview → 分章 → 98_vocabulary → 99_final_summary
             → 篇间导航小节用 [``stem``](../../NN_作者-年份/literature_analysis/00_overview.md) 标准格式
 ⑤ 走 build 链（顺序关键，P0-6 防护）：
-            python3 webapp/build_citations.py    # 篇间导航 → frontmatter citations
-            python3 webapp/build_fm.py           # 写 frontmatter（自动清洗 [FACT] 等）
-            python3 webapp/build_registry.py     # 生成 webapp/registry.json
+            python3 webapp/scripts/build_citations.py    # 篇间导航 → frontmatter citations
+            python3 webapp/scripts/build_fm.py           # 写 frontmatter（自动清洗 [FACT] 等）
+            python3 webapp/scripts/build_registry.py     # 生成 webapp/registry.json
 ⑥ 自动维护：
             python3 scripts/gen_index.py        # 38 篇 → INDEX.md
             python3 scripts/gen_quality_check.py # → 97_quality_check.md
             python3 scripts/gen_glossary.py      # → background/05_glossary.md
-            （gen_glossary.py 已被 webapp/build_glossary.py 部分替代，后者直接生成 webapp/glossary.json）
+            （gen_glossary.py 已被 webapp/scripts/build_glossary.py 部分替代，后者直接生成 webapp/glossary.json）
 ⑦ webapp 重建：
-            python3 webapp/build_webapp.py --include-papers    # papers 38（docs/TOC 以实际输出为准）
-⑧ 审计：   python3 webapp/audit.py              # 18 条断言，失败非零退出
+            python3 webapp/scripts/build_webapp.py --include-papers    # papers 38（docs/TOC 以实际输出为准）
+⑧ 审计：   python3 webapp/scripts/audit.py              # 18 条断言，失败非零退出
             headless 验证：/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --headless --dump-dom ...
 ⑨ 提交     git add -f <新篇目录> + git commit
 ```
@@ -143,16 +146,16 @@ cd /Users/jcxs2014/Sites/HermesLocal/papers
 ls 0?-*/  | grep "000[0-9]"
 
 # 完整 build 链
-python3 webapp/build_citations.py && \
-python3 webapp/build_fm.py && \
-python3 webapp/build_registry.py && \
+python3 webapp/scripts/build_citations.py && \
+python3 webapp/scripts/build_fm.py && \
+python3 webapp/scripts/build_registry.py && \
 python3 scripts/gen_index.py && \
 python3 scripts/gen_quality_check.py && \
-python3 webapp/build_webapp.py --include-papers && \
-python3 webapp/audit.py
+python3 webapp/scripts/build_webapp.py --include-papers && \
+python3 webapp/scripts/audit.py
 
 # 启动形态 B 服务层（端口 8747）
-python3 webapp/server.py
+python3 webapp/scripts/server.py
 
 # 检查 git 状态
 git status
