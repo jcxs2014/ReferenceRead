@@ -93,6 +93,42 @@ $$
 
 [FACT] Time-dependent wind solutions（Dorfi & Breitschwerdt 2012；Dorfi et al. 2019）：多次恒星反馈在风中形成 forward/reverse shock，能 in situ 通过 first-order Fermi 过程再加速 CR，可能把 CR 加速到 Knee（$\sim 3\times 10^{15}$ eV）甚至 Ankle（$\sim 10^{18}$ eV）以上。
 
+<!-- WorkBuddy 补 (2026-08-15)：§3.2 原文 pp.74–112 的 4 个原文子节（此前精读仅覆盖 1D 模型 3.2.1） -->
+
+#### 3.2.2 Dynamical impact of cosmic rays on multiphase medium（原文子节，WorkBuddy 补）
+
+[FACT] **CR 源附近动力学**：CR 在 SNR 激波、大质量年轻恒星风、喷流终止/吸积激波中高效产生。CR 流体绝热指数小于热气体、且在雪犁（snowplow）辐射阶段能量损失远小于热气体——因此 CR 能帮助 SNR 膨胀、向周围介质传递更多动量，增强恒星反馈强度（需从第一性原理研究 CR 对 SN 反馈的动力学影响）。
+
+[FACT] Pais et al. (2018) 3D MHD 模拟：SN 早期 Sedov-Taylor 阶段的**磁倾角依赖的原地 CR 加速**——准平行激波处（激波法向近似平行于局地磁场）CR 有效注入增加气体可压缩性，导致 SNR 呈**椭球形**；平均 CR 加速效率约为动力学模拟预期最大效率的 **30%**，与 ISM 磁场相干长度无关。
+
+[FACT] **近源 CR 输运抑制**：GeV CR（贡献 CR 压的主体）扩散时间大于 SNR 寿命（Caprioli 2012）；当 CR 流出通量超过局地磁压时可激发 **Bell 非共振不稳定性**（Bell 2004），增长磁湍流散射并降低 CR 输运速度，形成**过压气泡**（特征尺度可达 **100 pc**，Schroer et al. 2021, 2022 混合动力学模拟）。强抑制使 CR 累积 grammage，改变 B/C 与次级/初级比（Cowsik & Burch 2010；Lipari 2018），并解释星团附近增强的 γ 射线发射（Aharonian et al. 2019；Casanova et al. 2010）。
+
+[FACT] **多相介质中的双瓶颈效应**（Bustard & Zweibel 2021）：在弱电离相，**离子-中性摩擦**高效阻尼自生 Alfvén 波（Kulsrud & Pearce 1969），CR 输运速度远大于完全电离气体（离子 Alfvén 速度）。CR 朝过密云 streaming 时输运速度下降形成**瓶颈**（上游 CR 压平坦）；进入云内部后电离分数下降、离子-中性摩擦阻尼增强使输运加快、CR 压降低；穿过云到达远侧后摩擦失效、CR 与气体重新强耦合，形成**第二个瓶颈**——CR 压因此在云内保持平坦。
+
+#### 3.2.3 Parker instability and cosmic rays（原文子节，WorkBuddy 补）
+
+[FACT] 太阳邻域 CR、磁场、辐射场、气体动能的能量密度相当（~1 eV cm⁻³，准等分）。CR 与磁场作为"无质量"组分可对星系盘气体引力平衡起动力学作用；但**等分假设在星暴星系不成立**（Yoast-Hull et al. 2016）：高气体密度 + 风的质量损失使 CR 能量密度显著损失，同步辐射需更强磁场匹配观测射电光度 → 磁场能量密度可远超 CR。
+
+[FACT] **Parker 不稳定性**（Parker 1966）：磁化介质 + CR 的浮力不稳定性（类比重流体置于轻流体上的 Rayleigh-Taylor）。不稳定性触发后气体沿扰动磁场下流，释放引力势能并压缩气体。
+
+[FACT] **CR 物理对 Parker 不稳定性的调制**：增长率随平行扩散系数增加而增加（线性分析 + 数值模拟，Kuwabara & Ko 2006, 2020）；慢扩散情形气体形成**平行于磁场方向**的丝状结构，快扩散情形气体沿磁场滑动形成**垂直**丝状（Heintz & Zweibel 2018）；含 CR 的各向异性扩散模拟中出现显著的磁"Parker loops"，与无 CR 模拟差异明显。
+
+#### 3.2.4 Wind launching and simulations of disk patches and stratified boxes（原文子节，WorkBuddy 补）
+
+[FACT] **CR Eddington 极限**（Socrates et al. 2008）：若星系 CR 光度（CR 能量产生率）超过临界值，气体可被解除束缚——类比 Eddington 光度，只是光子换成了 CR 相对论粒子。扩散极限下临界 CR 光度 $L_{\rm Edd,cr}$ 由"CR 通量抵消引力所需临界通量"平衡导出（Huang & Davis 2022；streaming 主导情形类似）。
+
+[FACT] **CR 声学不稳定性与动量传递**：Tsung et al. (2022) 1D 时变模拟演示；密度跳变可形成冲击波；Huang & Davis (2022) 数值实验表明 CR 与气体动力学上仍强耦合——动量传递效率即使在有效退耦情形下也保持可观。
+
+[FACT] **CR 与冷气体退耦**：CR 有效被困于冷气体时其实际输运速度依赖局地条件；Holguin et al. (2019) 在类似设置下证明结论推广到 CR streaming 情形——**湍流阻尼调节的 streaming**；更强的阻尼导致更延伸的 CR/气体分布与更强的动量耦合。
+
+#### 3.2.5 Role of cosmic rays in global models of isolated galaxies（原文子节，WorkBuddy 补）
+
+[FACT] **平面几何（zoom-in 盘贴片）的局限**：风解不能从亚声速过渡到超声速（Chevalier & Clegg 1985 标准风理论），外流较慢、质量载荷因子显著偏低、更易发展喷泉流（Kim & Ostriker 2018 TIGRESS；Schneider et al. 2020 CGOLS）。全局模型中引力势"稀释"自然预言**锥形外流**与更大的质量载荷因子。
+
+[FACT] **全局模型结论**：银河系质量晕中 CR 反馈可驱动**质量载荷因子 >1 的强风**；外流呈锥形、CR 压主导（超过热压）；CR 扩散系数增大导致星形成率降低的趋势；矮星系中 CR 反馈显著提升质量载荷因子、抑制星形成率（Girichidis et al. 2016b；Simpson et al. 2016；Pfrommer et al. 2022 等）。
+
+[FACT] 全局模型还可研究外流与周介质相互作用：辐射冷却坍缩的气体晕提供湍流源并驱动小尺度磁发电机（Pfrommer et al. 2022）；供气气流与银河风相互作用（Peschken et al. 2021）。
+
 ### 3.2.3 §3.3 Cosmological effects of cosmic ray-driven winds (pp. 112–120)
 
 [FACT] CR 传输系数（$\mathcal{D}$）对质量外流率呈**非单调关系**：峰值出现在 $\mathcal{D} \sim 3\times 10^{29}$ cm$^2$ s$^{-1}$ 附近。
