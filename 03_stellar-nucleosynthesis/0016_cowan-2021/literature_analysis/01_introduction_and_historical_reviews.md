@@ -96,10 +96,12 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/01_introduc
 ## §I.7 我的理解 [INTERPRETATION]
 
 ### 引言为什么短
+> [INTERPRETATION]
 
 Cowan 2021 作为 RMP "Status Report"（非完整 review），§I 仅 4 页——比 Wallerstein 1997 或 Käppeler 2011 的引言短得多。这反映 RMP "status report" 的定位：领域当前状态的精简快照。
 
 ### 元素分类的当代修正
+> [INTERPRETATION]
 
 当代延伸：
 - **i process**（intermediate neutron capture, $N_n \sim 10^{13-15}$ cm⁻³）：Cowperthwaite et al. 2019 提议对应 low-metallicity AGB 星
@@ -108,6 +110,7 @@ Cowan 2021 作为 RMP "Status Report"（非完整 review），§I 仅 4 页—�
 Cowan 2021 主要在 §VI 和 §VIII 简要触及，但未深入。
 
 ### 历史综述的引用选择
+> [INTERPRETATION]
 
 按时间顺序：Hillebrandt 1978 → Cowan, Thielemann, Truran 1991 → Arnould, Goriely, Takahashi 2007 → Thielemann et al. 2011, 2017。
 
@@ -116,11 +119,13 @@ Cowan 2021 主要在 §VI 和 §VIII 简要触及，但未深入。
 ## §I.8 潜在问题与值得关注的地方 [CRITIQUE]
 
 ### §I.8.1 优点
+> [CRITIQUE]
 1. 全景视角优秀
 2. 历史综述选择合理
 3. Fig. 1 设计精良
 
 ### §I.8.2 局限
+> [CRITIQUE]
 1. 未提及 weak r process / i process
 2. BBN ⁷Li 问题未给出可能解释
 3. s 过程未充分展开

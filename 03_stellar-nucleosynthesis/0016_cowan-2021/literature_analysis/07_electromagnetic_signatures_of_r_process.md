@@ -49,8 +49,8 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/07_electrom
 > - "lanthanide-poor"ejecta 显得蓝（蓝光透过多）
 
 > **[FACT]** NSM 的中微子信号（GW170817 + 后续）：
-> - 单个事件的 ν 信号远低于现有探测器灵敏度
-> - 累计 ~10⁴ NSM/galaxy 后，ν 信号可达 Hyper-Kamiokande 灵敏度
+> - 单个事件的 $\nu$ 信号远低于现有探测器灵敏度
+> - 累计 ~$10^{4}$ NSM/galaxy 后，ν 信号可达 Hyper-Kamiokande 灵敏度
 
 ## §VII.3 关键公式
 
@@ -59,7 +59,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/07_electrom
 **Arnett 定律**（放射性衰变加热）：
 $$L(t) = M_{ej} \cdot \frac{f(t)}{t}$$
 
-其中 $f(t)$ 是放射性衰变能沉积函数（r 过程产物的 β-decay 与 fission）。
+其中 $f(t)$ 是放射性衰变能沉积函数（r 过程产物的 $\beta$-decay 与 fission）。
 
 **Lanthanide opacity**：
 $$\kappa_{lanthanide} \approx 10 \text{ cm}^2/\text{g}$$
@@ -135,6 +135,7 @@ $$t_{diff} \sim \sqrt{\frac{\kappa M_{ej}}{v_{ej} c}}$$
 ## §VII.7 我的理解 [INTERPRETATION]
 
 ### kilonova 光谱的"指纹"价值
+> [INTERPRETATION]
 
 不同 r 过程元素的发射/吸收线对应不同波长窗口：
 - **光学** (400–700 nm)：Sr II, Ca II, Fe-peak
@@ -144,6 +145,7 @@ $$t_{diff} \sim \sqrt{\frac{\kappa M_{ej}}{v_{ej} c}}$$
 kilonova 的多波段观测可**逐元素**鉴定产物——这是恒星谱学（VMP 星丰度）做不到的实时验证。
 
 ### Lanthanide opacity 的"红化"机制
+> [INTERPRETATION]
 
 Lanthanide 元素有 4f 电子 → 数万个束缚-束缚跃迁 → 极高 opacity。Opacity 高的光子扩散慢 → 峰值晚、峰值暗、颜色红。
 
@@ -152,17 +154,20 @@ Lanthanide 元素有 4f 电子 → 数万个束缚-束缚跃迁 → 极高 opaci
 Cowan 2021 §VII 的核心论证是：观测到的"蓝+红"双成分直接对应"lanthanide-poor + lanthanide-rich"双 ejecta 通道——NSM 模拟的多 $Y_e$ 分布的**直接验证**。
 
 ### 未来观测的瓶颈
+> [INTERPRETATION]
 
 截至 2021 年，AT2017gfo 是唯一有详细光谱的 kilonova。其他事件（GW190425 等）距离太远或没有光学对应体。下一代 survey（如 ZTF, LSST/Rubin, ULTRASAT）将提供更多 kilonova 光谱样本，使 r 过程研究从"单事件"转向"统计学"。
 
 ## §VII.8 潜在问题与值得关注的地方 [CRITIQUE]
 
 ### §VII.8.1 优点
+> [CRITIQUE]
 1. **光谱鉴定明确**：Sr, Y, Zr, Ba, La 等都被识别
 2. **物理机制清晰**：lanthanide opacity 解释简明
 3. **理论与观测对照**：光谱与 NSM ejecta 预测的丰度直接对比
 
 ### §VII.8.2 局限
+> [CRITIQUE]
 1. **单事件依赖**：基于 GW170817 一个事件——是否普遍？需更多事件验证
 2. **光谱分辨不足**：P Cygni 重叠 → 元素鉴定的独特性不强
 3. **lanthanide 原子数据缺口**：高激发态的振子强度仍不确定
@@ -170,6 +175,7 @@ Cowan 2021 §VII 的核心论证是：观测到的"蓝+红"双成分直接对应
 5. **fission fragment 贡献**：fission recycling 在光谱中的特征未充分讨论
 
 ### §VII.8.3 与其他章节的张力
+> [CRITIQUE]
 - §VII → §II.E：§II.E 简述 kilonova 事件，§VII 深入光谱学
 - §VII → §VI.B：§VI.B 给出 NSM ejecta 的 $Y_e$ 分布，§VII 通过光谱验证
 - §VII → §V.D：fission fragment 在 §V.D 中讨论，在 §VII 的后期光谱中体现

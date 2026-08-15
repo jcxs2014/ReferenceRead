@@ -24,7 +24,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/09_final_re
 
 §IX 是 Cowan 2021 的**总结章**，明确列出 r 过程研究的**当前成就 + 开放问题 + 未来方向**。结构如下：
 
-- **核物理维度**：(1) 核质量；(2) β-decay 半衰期；(3) 裂变；(4) α 衰变；(5) neutron capture
+- **核物理维度**：(1) 核质量；(2) $\beta$-decay 半衰期；(3) 裂变；(4) $\alpha$ 衰变；(5) neutron capture
 - **天体物理维度**：(1) 状态方程 EOS；(2) 多尺度 GR-MHD 模拟；(3) 磁场；(4) 中微子；(5) 辐射输运
 - **三大候选 site**：(1) NSM（确认）；(2) Magnetars/MRSN（待证）；(3) 早期 CCSN（待证）
 
@@ -36,13 +36,13 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/09_final_re
 
 > **[FACT]** (1) **核质量**：RIB 设施的新型探测器使远离稳定线核素质量测量精度提升，约束了经验与微观 mass 模型——但仍有"对 r 过程丰度分布有决定性影响"的不确定度（行 3801+）。
 
-> **[FACT]** (2) **β-decay 半衰期**：RIKEN 对中等质量中子丰富核的 β-decay 半衰期测量是近年重大成就——决定 r 过程向重核的推进速度与丰度峰高度。但 **N = 126 (及更重) r 过程路径核素的 β-decay 数据仍为空白**，需下一代 RIB 设施。
+> **[FACT]** (2) **$\beta$-decay 半衰期**：RIKEN 对中等质量中子丰富核的 $\beta$-decay 半衰期测量是近年重大成就——决定 r 过程向重核的推进速度与丰度峰高度。但 **N = 126 (及更重) r 过程路径核素的 $\beta$-decay 数据仍为空白**，需下一代 RIB 设施。
 
 > **[FACT]** (3) **裂变**：在高 $N_n$ 环境（如 NSM）中，裂变终止 actinides 之后的流，触发 fission cycling——把物质返回轻核，是第二峰的主要来源。但**重核（特别是 N=184 闭壳层）的裂变 rates / yields 实验仍不可达**。
 
-> **[FACT]** (4) **α 衰变**：α 衰变链（特别是 actinide 核素的）对 kilonova 光变曲线与 Pb 丰度有重要贡献。**α 与裂变的竞争**对重核是开放问题。
+> **[FACT]** (4) **$\alpha$ 衰变**：α 衰变链（特别是 actinide 核素的）对 kilonova 光变曲线与 Pb 丰度有重要贡献。**$\alpha$ 与裂变的竞争**对重核是开放问题。
 
-> **[FACT]** (5) **Neutron capture**：freeze-out 期间的 (n,γ)-(γ,n) 平衡受直接 / 复合核反应机制选择影响。**实验测量 r 过程核 (n,γ) 截面目前不可达**——surrogate 方法可间接约束。
+> **[FACT]** (5) **Neutron capture**：freeze-out 期间的 (n,$\gamma$)-($\gamma$,n) 平衡受直接 / 复合核反应机制选择影响。**实验测量 r 过程核 (n,$\gamma$) 截面目前不可达**——surrogate 方法可间接约束。
 
 ### 天体物理挑战（5 项）
 
@@ -91,16 +91,16 @@ $$\frac{dY_i}{dt} = \sum_j \lambda_j Y_j + \sum_{j,k} N_{j,k}^{j,k}\rho N_A \lan
 | 项目 | 当前状态 | 未来需求 |
 |---|---|---|
 | 核质量 | ~2500 测 / ~3500 总 | 覆盖率 90%+ |
-| β-decay $T_{1/2}$ | ~1000 测 | N=126 路径核全部测 |
+| $\beta$-decay $T_{1/2}$ | ~1000 测 | N=126 路径核全部测 |
 | 裂变 yields | ~200 核 | N=184 路径核 |
-| α 衰变数据 | 大部分已测 | N=184 重 actinides |
-| n-capture σ | ~50 直接测 | 直接测量 r 过程核 |
+| $\alpha$ 衰变数据 | 大部分已测 | N=184 重 actinides |
+| n-capture $\sigma$ | ~50 直接测 | 直接测量 r 过程核 |
 
 ### 天体物理未来需求
 
 | 项目 | 当前状态 | 未来需求 |
 |---|---|---|
-| EOS | ~2 σ 约束 | 对称能 $S(\rho)$ 全函数 |
+| EOS | ~2 $\sigma$ 约束 | 对称能 $S(\rho)$ 全函数 |
 | GR-MHD 模拟 | 2D 部分 | 3D + 全相对论 |
 | 磁场演化 | 简化模型 | MRI 自洽演化 |
 | 中微子输运 | 1D 近似 | 多维 + flavor 振荡 |
@@ -146,6 +146,7 @@ $$\frac{dY_i}{dt} = \sum_j \lambda_j Y_j + \sum_{j,k} N_{j,k}^{j,k}\rho N_A \lan
 ## §IX.7 我的理解 [INTERPRETATION]
 
 ### Cowan 2021 的"现状报告"定位
+> [INTERPRETATION]
 
 RMP "Status Report" 的定位（与 B²FH 1957 / Wallerstein 1997 等"完整 review"不同）：
 - 不试图覆盖所有细节
@@ -155,34 +156,39 @@ RMP "Status Report" 的定位（与 B²FH 1957 / Wallerstein 1997 等"完整 rev
 §IX 的总结符合这一风格——不是百科全书，而是"现状清单"。
 
 ### NSM 确认后的"下一个重大问题"
+> [INTERPRETATION]
 
 NSM 确认后，r 过程研究的新焦点：
 
 1. **r 过程多样性**：不同 NSM 的 yields 不同——为什么？$Y_e$ 分布的来源？
 2. **早期银河系 r 过程**：z > 1 时期的 r 过程来源——仅 NSM 够吗？
 3. **次要 site 的物理**：MRSN、collapsar 等的物理机制
-4. **核数据的"长期空白"**：N=126 路径核的 β-decay / mass
+4. **核数据的"长期空白"**：N=126 路径核的 $\beta$-decay / mass
 
 Cowan 2021 §IX 明确指出这些问题，但不给定论——留给未来。
 
 ### GW170817 的"领域重塑"
+> [INTERPRETATION]
 
 2017 GW170817 后，r 过程研究从"理论假说时代"进入"多信使验证时代"。§IX 的三大 site 选项中，NSM 已确认；其他两个还有待证。这种状态在 RMP 综述中很少见——大多数 RMP 综述不写"open questions"。
 
 ### r 过程与核物理的"数据革命"
+> [INTERPRETATION]
 
-NSM 的 yields 预测受限于核物理输入。Cowan 2021 §IX.2 的 5 项核物理挑战中，**N=126 路径核的 β-decay 数据**是最关键的——这一数据缺口直接决定第三峰后 actinides 的产量。
+NSM 的 yields 预测受限于核物理输入。Cowan 2021 §IX.2 的 5 项核物理挑战中，**N=126 路径核的 $\beta$-decay 数据**是最关键的——这一数据缺口直接决定第三峰后 actinides 的产量。
 
 FRIB 等新一代 RIB 设施的核心目标就是填补这一缺口。Cowan 2021 §IX 给出了核物理与天体物理社区的"协作路线图"。
 
 ## §IX.8 潜在问题与值得关注的地方 [CRITIQUE]
 
 ### §IX.8.1 优点
+> [CRITIQUE]
 1. **分层总结清晰**：核物理 + 天体物理 + site 三层
 2. **开放问题明确**：明确指出 NSM 之外的 site 仍待证
 3. **未来方向具体**：FRIB, kilonova survey, GR-MHD 模拟都有明确指向
 
 ### §IX.8.2 局限
+> [CRITIQUE]
 1. **量化目标不足**：未给出"未来 5 年达到 X 覆盖率"的具体时间表
 2. **国际协作忽略**：FRIB, FAIR, RIBF 等设施的协作框架未提及
 3. **理论方法局限**：Bayesian 推断、机器学习等新方法未深入讨论
@@ -190,6 +196,7 @@ FRIB 等新一代 RIB 设施的核心目标就是填补这一缺口。Cowan 2021
 5. **公众与教育**：未讨论 r 过程研究的公众传播（kilonova 是科普极佳题材）
 
 ### §IX.8.3 与其他章节的张力
+> [CRITIQUE]
 - §IX.2 → §IV：核物理挑战是 §IV 的"未来维度"
 - §IX.3 → §VI：天体物理挑战是 §VI 的"未来维度"
 - §IX.4 → §VIII：site 选项与 GCE 模型的关系

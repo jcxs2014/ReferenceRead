@@ -147,6 +147,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/02_observat
 ## §II.7 我的理解 [INTERPRETATION]
 
 ### 恒星谱学 vs kilonova 的认识论对比
+> [INTERPRETATION]
 
 - **VMP 恒星谱学**：精度高（< 0.1 dex），但空间/时间分辨率差
 - **kilonova**：单事件精度高，但样本极少
@@ -154,10 +155,12 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/02_observat
 **为什么 NSM 长期未确认？** 2017 之前，r 过程 site 长期模糊。VMP 星模式倾向 NSM，但无直接证据。GW170817 改变这一局面。
 
 ### r-II 星的稀有性
+> [INTERPRETATION]
 
 r-II 星（[Eu/Fe] > +1）仅占 VMP 星的 ~5%——意味着早期 r 过程事件是**稀疏高产的**，与 NSM 事件率（~$10^{-4}$–$10^{-5}$ / yr / galaxy）一致。
 
 ### 长寿命放射性的双重作用
+> [INTERPRETATION]
 
 Th/U cosmochronometry：(1) 测恒星年龄；(2) 测 r 过程产额比。
 
@@ -166,11 +169,13 @@ HE 1523-0901（Frebel et al. 2007）：同时测 Th、U、Os、Ir → ~13 Gyr �
 ## §II.8 潜在问题与值得关注的地方 [CRITIQUE]
 
 ### §II.8.1 优点
+> [CRITIQUE]
 1. 证据层次分明
 2. 历史 + 当代平衡（HD 115444 1982 → GW170817 2017）
 3. 关键分类标准明确
 
 ### §II.8.2 局限
+> [CRITIQUE]
 1. i process 提及不足
 2. 量化原子数据系统不确定度
 3. kilonova 模型不确定性

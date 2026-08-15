@@ -10,7 +10,7 @@
 
 ## 2.1 本节核心内容
 
-[FACT] §II 系统综述了 s 过程研究所需的核物理输入，重点是**中子俘获截面（(n,γ) cross sections）的测量与计算**，以及**恒星条件下 β 衰变率的修正**。这一节在逻辑上是整个 s 过程研究的\"数据基石\"——所有的恒星模型与观测比较都依赖于这些核数据的精度。
+[FACT] §II 系统综述了 s 过程研究所需的核物理输入，重点是**中子俘获截面（(n,$\gamma$) cross sections）的测量与计算**，以及**恒星条件下 $\beta$ 衰变率的修正**。这一节在逻辑上是整个 s 过程研究的\"数据基石\"——所有的恒星模型与观测比较都依赖于这些核数据的精度。
 
 [FACT] §II 的核心论点是：**仅靠实验不足以覆盖所有核素与所有能量；实验与理论（统计模型）的紧密结合是 s 过程核物理研究的根本范式。**
 
@@ -30,7 +30,7 @@
   - (1) Statistical model（统计模型 / Hauser-Feshbach）
   - (2) Maxwellian averaged cross sections（Maxwellian 平均截面，MACS）
   - (3) Stellar enhancement factors（恒星增强因子，SEF）
-- **II.C β-decay under stellar conditions**：恒星条件下的 β 衰变
+- **II.C $\beta$-decay under stellar conditions**：恒星条件下的 $\beta$ 衰变
 - **II.D Status and prospects**：截面数据现状与展望
 
 ### 2.2.2 中子源
@@ -41,7 +41,7 @@
 
 $$ ^7{\rm Li}(p,n)^7{\rm Be} \quad \text{可覆盖} \quad kT \approx 25\ {\rm keV}\ \text{到}\ 500\ {\rm keV} $$
 
-用于模拟 AGB 星中 ²²Ne(α,n)²⁵Mg 中子源的温度（23 keV 有效温度）；
+用于模拟 AGB 星中 ²²Ne($\alpha$,n)²⁵Mg 中子源的温度（23 keV 有效温度）；
 
 **电子直线加速器（white neutron source）**：
 
@@ -65,20 +65,20 @@ GELINA（Geel, Belgium）、ORELA（Oak Ridge）；连续中子能谱从热能�
 
 ### 2.2.3 探测器技术
 
-**（a）4π 吸收量热计（calorimetric detector）**：
+**（a）4$\pi$ 吸收量热计（calorimetric detector）**：
 
-[FACT] 核反应释放的总 γ 级联能量等于中子结合能，这是最直接的捕获事件标识。
+[FACT] 核反应释放的总 $\gamma$ 级联能量等于中子结合能，这是最直接的捕获事件标识。
 
 $$ E_{\rm casc} = \sum_{i=1}^{m} E_i = E_{\rm tot} $$
 
-[FACT] 4π 探测器的关键要求：**效率接近 100%**。当前主流是 BaF₂ 晶体阵列：
+[FACT] 4$\pi$ 探测器的关键要求：**效率接近 100%**。当前主流是 Ba$F_{2}$ 晶体阵列：
 
 - **Karlsruhe（42 模块）**：截锥金字塔排列（富勒烯型几何），各模块对样品覆盖相同的立体角
-- **ORNL / FZ Rossendorf**：六边形 BaF₂ 圆柱阵列
-- **DANCE（LANSCE，162 模块）**：最先进的 4π 阵列
+- **ORNL / FZ Rossendorf**：六边形 Ba$F_{2}$ 圆柱阵列
+- **DANCE（LANSCE，162 模块）**：最先进的 4$\pi$ 阵列
 
-[FACT] BaF₂ 相比早期液体闪烁体的优势：
-- γ 能量分辨率更好
+[FACT] Ba$F_{2}$ 相比早期液体闪烁体的优势：
+- $\gamma$ 能量分辨率更好
 - 本底更低
 - 可分离快慢成分（快成分用于能谱，慢成分用于总能量）
 
@@ -90,21 +90,21 @@ $$ \varepsilon(E_i) = k E_i $$
 
 通过离线加权函数实现。
 
-[FACT] C₆F₆ 液闪 → C₆D₆ 液闪的改进：氘的 (n,γ) 截面远小于氢，大幅降低了中子散射本底。
+[FACT] $C_{6}$$F_{6}$ 液闪 → $C_{6}$$D_{6}$ 液闪的改进：氘的 (n,$\gamma$) 截面远小于氢，大幅降低了中子散射本底。
 
 [FACT] 当前 **PHWT 的系统误差已降至 <2%**（Abbondanno et al., 2004b），远低于早期 20% 的水平。
 
 **（c）关键改进——6LiH 吸收壳**：
 
-[FACT] 样品散射中子被 BaF₂ 晶体捕获产生 ~10% 的系统本底；用 6LiH 或 6Li 化合物吸收壳包裹样品可显著抑制这一本底（Reifarth et al., 2004b；Heil et al., 2001）。
+[FACT] 样品散射中子被 Ba$F_{2}$ 晶体捕获产生 ~10% 的系统本底；用 6LiH 或 6Li 化合物吸收壳包裹样品可显著抑制这一本底（Reifarth et al., 2004b；Heil et al., 2001）。
 
 ### 2.2.4 数据采集（FADC 时代）
 
-[FACT] 现代 (n,γ) 实验全部采用 **Flash Analog-to-Digital Converter (FADC)**：
+[FACT] 现代 (n,$\gamma$) 实验全部采用 **Flash Analog-to-Digital Converter (FADC)**：
 
 - 采样整个探测器信号的波形，而非只记录幅度
 - 允许离线重复分析、修正基线漂移、堆积、噪声
-- 支持 n/γ 鉴别（Marrone et al., 2006b）和 BaF₂ 本征 β 本底抑制（Reifarth et al., 2004b）
+- 支持 n/$\gamma$ 鉴别（Marrone et al., 2006b）和 Ba$F_{2}$ 本征 $\beta$ 本底抑制（Reifarth et al., 2004b）
 
 [FACT] n_TOF 的数据采集系统：8-bit FADC，采样率高达 **2 GHz**，每脉冲 8–16 MB 内存；峰值 8 MB/检测器/脉冲；0.4 Hz 重复率留出充裕的数字化与存储时间。
 
@@ -128,9 +128,9 @@ $$ ^A_Z X + n \rightarrow ^{A+1}_Z X^* \xrightarrow{\beta^-} \text{放射性子�
 
 | 反应 | 有效温度 kT | 对应 s 过程 | 中子强度（100 μA） |
 |---|---|---|---|
-| ⁷Li(p,n)⁷Be | 25 keV | ²²Ne(α,n)，AGB 23 keV | $10^9$ s⁻¹ |
+| ⁷Li(p,n)⁷Be | 25 keV | ²²Ne($\alpha$,n)，AGB 23 keV | $10^9$ s⁻¹ |
 | ³H(p,n)³He | 52 keV | 大质量星 C 壳层 90 keV（需外推） | $10^8$ s⁻¹ |
-| ¹⁸O(p,n)¹⁸F | 5 keV | ¹²C(α,n)，AGB 8 keV | $10^5$ s⁻¹ |
+| ¹⁸O(p,n)¹⁸F | 5 keV | ¹²C($\alpha$,n)，AGB 8 keV | $10^5$ s⁻¹ |
 
 [FACT] **激活法 vs TOF 的互补性（Table II）**：
 
@@ -148,7 +148,7 @@ $$ ^A_Z X + n \rightarrow ^{A+1}_Z X^* \xrightarrow{\beta^-} \text{放射性子�
 
 ### 2.2.7 分支点与放射性同位素
 
-[FACT] **分支点概念**（Ward et al., 1976）：当 $n_n\langle\bar{\sigma}v\rangle \approx \lambda_\beta$ 时，反应流在中子俘获与 β 衰变之间分流。
+[FACT] **分支点概念**（Ward et al., 1976）：当 $n_n\langle\bar{\sigma}v\rangle \approx \lambda_\beta$ 时，反应流在中子俘获与 $\beta$ 衰变之间分流。
 
 [FACT] 重要的分支点：
 
@@ -170,9 +170,9 @@ $$ ^A_Z X + n \rightarrow ^{A+1}_Z X^* \xrightarrow{\beta^-} \text{放射性子�
 
 ### 2.2.8 间接方法
 
-[FACT] 对不稳定性核素，直接 (n,γ) 实验不可行，有以下间接途径：
+[FACT] 对不稳定性核素，直接 (n,$\gamma$) 实验不可行，有以下间接途径：
 
-- **(α,n) 逆反应 + 详细平衡（detailed balance）**：$^{185}{\rm W}(\alpha,n)^{188}{\rm Os}$
+- **($\alpha$,n) 逆反应 + 详细平衡（detailed balance）**：$^{185}{\rm W}(\alpha,n)^{188}{\rm Os}$
 - **Surrogate 方法**（Escher et al., 2005）：利用复合核形成与衰变的独立性，通过替代直接反应产生复合核
 - 关键挑战：**J 布居失配**（不同复合态布居）、预平衡反应、束流碎裂
 
@@ -249,7 +249,7 @@ $$ \lambda_{n\gamma} = n_n \langle\bar{\sigma}v\rangle = n_n\, \bar{v}\, \langle
 - $\bar{v}$：平均热速度
 - $\langle\bar{\sigma}\rangle_{kT}$：Maxwellian 平均截面
 
-[FACT] 与 β 衰变率的竞争：
+[FACT] 与 $\beta$ 衰变率的竞争：
 
 $$ \text{分支条件} \Longleftrightarrow n_n \langle\bar{\sigma}v\rangle \approx \lambda_\beta^* = \frac{\ln 2}{t_{1/2}^*} $$
 
@@ -265,7 +265,7 @@ $$ \frac{N_p}{N_f} = \frac{\langle\bar{\sigma}\rangle_f}{\langle\bar{\sigma}\ran
 
 | 参数 | 数值 | 备注 |
 |---|---|---|
-| 主 s 过程有效温度 | $kT = 8–25$ keV | AGB 星 ¹²C(α,n)¹⁶O 源 |
+| 主 s 过程有效温度 | $kT = 8–25$ keV | AGB 星 ¹²C($\alpha$,n)¹⁶O 源 |
 | Weak s 过程 Core He 燃烧 | $kT = 26$ keV | 大质量星 |
 | Weak s 过程 Shell C 燃烧 | $kT = 90$ keV | 大质量星 |
 | 截面测量精度目标 | 1–5% | 目前已在部分核素实现 |
@@ -274,7 +274,7 @@ $$ \frac{N_p}{N_f} = \frac{\langle\bar{\sigma}\rangle_f}{\langle\bar{\sigma}\ran
 | SEF C 壳层燃烧 | > 40% | 大质量星 |
 | n_TOF 中子强度 | 300 n/质子 | 20 GeV 质子束 |
 | n_TOF 飞行路径 | 185 m | 高能量分辨率 |
-| DANCE 模块数 | 162 个 BaF₂ | LANSCE |
+| DANCE 模块数 | 162 个 Ba$F_{2}$ | LANSCE |
 | PHWT 系统误差 | < 2% | 最新水平 |
 | ¹⁸⁷Os 第一激发态 | 9.75 keV | 47% 布居 |
 | ⁶⁰Fe 截面 | 5.7 mb | 样品 1.4 μg |
@@ -325,7 +325,7 @@ $$ \frac{N_p}{N_f} = \frac{\langle\bar{\sigma}\rangle_f}{\langle\bar{\sigma}\ran
 
 **4. 作者的解释**：$\langle\bar{\sigma}\rangle N_s$ 曲线在 magic numbers 之间的平台是反应流达到平衡的直接证据。
 
-### Figure 6 — 恒星 (n,γ) 截面的当前精度
+### Figure 6 — 恒星 (n,$\gamma$) 截面的当前精度
 
 **1. 目的**：展示 s 过程相关核素截面的当前不确定度。
 
@@ -351,9 +351,9 @@ $$ \frac{N_p}{N_f} = \frac{\langle\bar{\sigma}\rangle_f}{\langle\bar{\sigma}\ran
 [FACT] §II 的论证链：
 
 ```
-s 过程建模需要完整的 (n,γ) 截面数据
+s 过程建模需要完整的 (n,$\gamma$) 截面数据
   → 但实验不可能覆盖所有核素和能量
-    → 因此必须发展多种实验方法（TOF / 激活法 / 4π 量热 / PHWT）
+    → 因此必须发展多种实验方法（TOF / 激活法 / 4$\pi$ 量热 / PHWT）
       → 并对无法实验测量的核素发展理论计算（Hauser-Feshbach 统计模型）
         → 理论需要实验校准
           → 且必须将实验室基态测量修正到恒星激发态布居（SEF）
@@ -367,10 +367,10 @@ s 过程建模需要完整的 (n,γ) 截面数据
 
 [INTERPRETATION] §II 最重要的认识是：**s 过程核物理不是单一学科的课题，而是"核物理实验 + 核结构理论 + 天体物理"三者紧密结合的范例**。
 
-[INTERPRETATION] 三种实验方法（TOF / 4π 量热 / 激活法）形成完整的互补体系：
+[INTERPRETATION] 三种实验方法（TOF / 4$\pi$ 量热 / 激活法）形成完整的互补体系：
 
 - **TOF**：全能量覆盖、适合稳定核、精度 2–5%、需要大量样品
-- **4π 量热**：高灵敏度、适合分支点研究、BaF₂ 阵列
+- **4$\pi$ 量热**：高灵敏度、适合分支点研究、Ba$F_{2}$ 阵列
 - **激活法**：直接测 MACS、灵敏度最高（sub-μg）、适合不稳定核
 
 [INTERPRETATION] **分支点是 s 过程的"温度计"**：分支比直接反映中子密度；不同分支点对不同中子密度区间敏感。这一诊断工具的物理基础是分支点核的半衰期与中子俘获率的竞争。
@@ -385,9 +385,9 @@ s 过程建模需要完整的 (n,γ) 截面数据
 
 ### 8.1 中子灵敏度问题的系统性影响
 
-[CRITIQUE] BaF₂ 晶体的中子散射本底问题在 ²⁰⁹Bi、²⁰⁸Pb、⁹⁰Zr、¹³⁹La 等**中子魔法核**上表现最严重——它们的俘获-散射比极低。这意味着所有涉及中子魔法核的早期 TOF 数据都可能被高估，需要系统性地重新评估。
+[CRITIQUE] Ba$F_{2}$ 晶体的中子散射本底问题在 ²⁰⁹Bi、²⁰⁸Pb、⁹⁰Zr、¹³⁹La 等**中子魔法核**上表现最严重——它们的俘获-散射比极低。这意味着所有涉及中子魔法核的早期 TOF 数据都可能被高估，需要系统性地重新评估。
 
-### 8.2 ¹³C(α,n) 和 ²²Ne(α,n) 中子源反应
+### 8.2 ¹³C($\alpha$,n) 和 ²²Ne($\alpha$,n) 中子源反应
 
 [CRITIQUE] 这两个中子源反应本身在 Gamow 窗口（低能端）的截面**至今没有直接测量**。当前使用的是统计模型外推 + 高能端测量锚定，存在 ~30% 的系统误差。**这是整个 s 过程建模中最大的核物理不确定度**——因为中子源直接决定中子产量，而中子产量决定 s 过程效率。
 
@@ -404,7 +404,7 @@ s 过程建模需要完整的 (n,γ) 截面数据
 
 ### 8.5 间接方法的理论依赖
 
-[CRITIQUE] (α,n) 逆反应和 surrogate 方法都**严重依赖理论假设**（光学势、复合核形成/衰变独立性、J 布居），因此精度天然低于直接测量。它们的价值在于提供"其他方法都做不到"的信息，而非高精度。
+[CRITIQUE] ($\alpha$,n) 逆反应和 surrogate 方法都**严重依赖理论假设**（光学势、复合核形成/衰变独立性、J 布居），因此精度天然低于直接测量。它们的价值在于提供"其他方法都做不到"的信息，而非高精度。
 
 ---
 
@@ -440,7 +440,7 @@ key_equations:
 key_topics:
   - '脉动中子源（小型加速器 / 直线加速器 / 散裂源）'
   - 'TOF 与激活法'
-  - '4π 量热与 PHWT 探测器'
+  - '4$\pi$ 量热与 PHWT 探测器'
   - 'Hauser-Feshbach 统计模型'
   - 'Maxwellian 平均截面'
   - '恒星增强因子'

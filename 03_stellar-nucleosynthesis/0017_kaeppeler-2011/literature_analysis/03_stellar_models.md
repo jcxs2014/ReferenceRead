@@ -73,7 +73,7 @@ $$ \langle\bar{\sigma}\rangle_i N_{s,i} = {}^{56}{\rm Fe}_{\odot}\, f\, \rho_0\,
 **阶段 2：Shell C 燃烧**
 - 温度 $T \approx 1\times10^9$ K
 - 中子源反应：$^{22}{\rm Ne}(\alpha,n)^{25}{\rm Mg}$
-- α 粒子来自 $^{12}{\rm C}(^{12}{\rm C},\alpha)^{20}{\rm Ne}$
+- $\alpha$ 粒子来自 $^{12}{\rm C}(^{12}{\rm C},\alpha)^{20}{\rm Ne}$
 - 中子密度 $n_n \gtrsim 10^{12}$ cm$^{-3}$
 
 [FACT] ²²Ne 的来源链（关键）：
@@ -95,7 +95,7 @@ $$ ^{14}{\rm N}(\alpha,\gamma)^{18}{\rm F}(\beta^+)^{18}{\rm O}(\alpha,\gamma)^{
 [FACT] 原文核心警告：**weak s 过程没有达到反应流平衡**，因此：
 > "a particular MACS not only determines the abundance of the respective isotope, but also affects the abundances of all heavier isotopes as well"
 
-[FACT] **关键案例：⁶²Ni(n,γ)⁶³Ni**
+[FACT] **关键案例：⁶²Ni(n,$\gamma$)⁶³Ni**
 
 - 该截面长期被 TOF 数据高估
 - 修正后（Nassar et al., 2005；Tomyo et al., 2005；Alpizar-Vicente et al., 2008）引起 Fe–Sr 区间所有 s 过程丰度的**系统性重新分配**
@@ -126,13 +126,13 @@ $$ ^{14}{\rm N}(\alpha,\gamma)^{18}{\rm F}(\beta^+)^{18}{\rm O}(\alpha,\gamma)^{
 
 [FACT] **主 s 过程的两个中子源**：
 
-**中子源 1：¹²C(α,n)¹⁶O**
+**中子源 1：¹²C($\alpha$,n)¹⁶O**
 - 温度 $T \approx 0.9\times10^8$ K
 - 中子密度 $n_n \sim 10^6 – 10^8$ cm$^{-3}$
 - 暴露时间 ~10,000 年
 - **初级过程**（与金属丰度无关，因为 ¹²C 是恒星自己合成的）
 
-**中子源 2：²²Ne(α,n)²⁵Mg**
+**中子源 2：²²Ne($\alpha$,n)²⁵Mg**
 - 温度 $T \approx 3.5\times10^8$ K（中等质量 AGB，4 < M/M☉ < 8）
 - 中子密度更高
 - 次级过程（依赖金属丰度）
@@ -146,7 +146,7 @@ $$ ^{14}{\rm N}(\alpha,\gamma)^{18}{\rm F}(\beta^+)^{18}{\rm O}(\alpha,\gamma)^{
 3. 第一次 convective He 不稳定性扩展穿过 H 壳层
 4. **质子被"捕获"到富含 ¹²C 的 He 层**
 5. $^{12}{\rm C}(p,\gamma)^{13}{\rm N}(\beta^+)^{13}{\rm C}$ 形成薄的 ¹³C 富集层
-6. 下一次 TP 期间，¹³C(α,n)¹⁶O 提供中子
+6. 下一次 TP 期间，¹³C($\alpha$,n)¹⁶O 提供中子
 
 [FACT] **¹³C 口袋的 ab initio 处理**：
 
@@ -159,7 +159,7 @@ $$ ^{14}{\rm N}(\alpha,\gamma)^{18}{\rm F}(\beta^+)^{18}{\rm O}(\alpha,\gamma)^{
 
 [FACT] **中等质量 AGB（4 < M/M☉ < 8）**：
 - He 壳层闪温度达 $3.5\times10^8$ K
-- ²²Ne(α,n)²⁵Mg 贡献显著
+- ²²Ne($\alpha$,n)²⁵Mg 贡献显著
 - 但 He 壳层质量和 TDU 效率远小于低质量 AGB
 - 因此包络中的 s 过程丰度**远低于**低质量 AGB 的预测
 
@@ -171,8 +171,8 @@ $$ ^{14}{\rm N}(\alpha,\gamma)^{18}{\rm F}(\beta^+)^{18}{\rm O}(\alpha,\gamma)^{
 - 第一个完全发展的 TP 期间发生
 - ¹³C 口袋形成机制不同于大质量 AGB 的"标准口袋"
 - He 壳层可能**分裂为两个子壳**（Cristallo, Piersanti et al., 2009）：
-  - 下子壳：¹²C(α,n)¹⁶O 主导
-  - 上子壳：CNO 循环 + ¹³C(α,n)¹⁶O
+  - 下子壳：¹²C($\alpha$,n)¹⁶O 主导
+  - 上子壳：CNO 循环 + ¹³C($\alpha$,n)¹⁶O
 - **第一次 TDU 携带轻 s 元素（ls）到表面**
 - **第二次 TDU 携带重 s 元素（hs）和 Pb 到表面**
 
@@ -195,7 +195,7 @@ $$ ^{14}{\rm N}(\alpha,\gamma)^{18}{\rm F}(\beta^+)^{18}{\rm O}(\alpha,\gamma)^{
 [FACT] ¹³C 口袋的边界条件：
 
 - **最低 ¹³C 口袋**：刚好能影响最终 s 过程分布
-- **最高 ¹³C 口袋**：ST×2——超过此值则 ¹³C(p,γ)¹⁴N 反应竞争使 ¹³C 增加不显著
+- **最高 ¹³C 口袋**：ST×2——超过此值则 ¹³C(p,$\gamma$)¹⁴N 反应竞争使 ¹³C 增加不显著
 - **效率假设为常数**：对所有 TP 周期相同
 
 [FACT] **三个 s 过程峰的定义**：
@@ -232,7 +232,7 @@ $$ \rm[hs/Fe] = \frac{1}{3}\left(\rm[La/Fe] + \rm[Nd/Fe] + \rm[Sm/Fe]\right) $$
 
 [FACT] **Weak s 对银河系化学演化的贡献**：
 
-- 太阳 Zn：~50% 来自 weak s；剩余 64Zn 来自超新星 ν-wind 的 r 冻结
+- 太阳 Zn：~50% 来自 weak s；剩余 64Zn 来自超新星 $\nu$-wind 的 r 冻结
 - 太阳 Cu：weak s 贡献 90%，main s 贡献 5%，SN Ia 不贡献
 - 预测：$\rm[Zn/Fe]$ 在晕中应约 +0.2 dex（与观测一致）
 - 预测：$\rm[Cu/Fe]$ 在晕中应恒定且强负，约 $-0.8$ dex
@@ -301,7 +301,7 @@ $$ ^{22}{\rm Ne}(\alpha,n)^{25}{\rm Mg} \quad \text{（实际中子源）} $$
 | Shell C 燃烧中子密度 | $n_n \gtrsim 10^{12}$ cm$^{-3}$ | ²²Ne 源 |
 | 主 s AGB 质量范围 | $1–3\ M_{\odot}$ | |
 | 中等质量 AGB | $4–8\ M_{\odot}$ | ²²Ne 源主导 |
-| ¹³C 口袋温度 | $T \approx 0.9\times10^8$ K | ¹²C(α,n)¹⁶O |
+| ¹³C 口袋温度 | $T \approx 0.9\times10^8$ K | ¹²C($\alpha$,n)¹⁶O |
 | 主 s 过程暴露时间 | ~10,000 年 | ¹³C 源 |
 | ¹³C 口袋效率参数 | $\alpha \in [1/150,\ 2]$ | ST 的倍数 |
 | Strong s 金属丰度界限 | $\rm[Fe/H] < -2.5$ | |
@@ -320,7 +320,7 @@ $$ ^{22}{\rm Ne}(\alpha,n)^{25}{\rm Mg} \quad \text{（实际中子源）} $$
 
 **1. 目的**：对比经典模型与恒星模型给出的 r 过程成分。
 
-**2. 坐标轴**：横轴质量数 $A$，纵轴核素丰度（Ni 相对 Si = 10⁶）。
+**2. 坐标轴**：横轴质量数 $A$，纵轴核素丰度（Ni 相对 Si =$10^{6}$）。
 
 **3. 图中元素**：
 - 空心方块：r-residual 值（$N_r = N - N_s$）
@@ -404,7 +404,7 @@ s 过程核合成发生在 He 燃烧层
 - **Strong s**：最低质量低金属丰度 AGB、first strong pulse、Pb 的第二半
 
 [INTERPRETATION] ¹³C 口袋是整个 AGB s 过程研究的**中心枢纽**——它的形成机制、深度、效率决定了：
-- 中子产量（¹²C(α,n)¹⁶O）
+- 中子产量（¹²C($\alpha$,n)¹⁶O）
 - 反应流时间结构（10,000 年的暴露时间）
 - 表面 s 过程丰度（通过 TDU）
 - CEMP-s 星的丰度散布
@@ -436,14 +436,14 @@ s 过程核合成发生在 He 燃烧层
 [CRITIQUE] 中等质量 AGB（4–8 M☉）的 s 过程产额低，因为：
 - He 壳层质量小
 - TDU 效率低
-- ²²Ne(α,n)²⁵Mg 源虽然强，但不足以弥补 He 壳层质量的不足
+- ²²Ne($\alpha$,n)²⁵Mg 源虽然强，但不足以弥补 He 壳层质量的不足
 
 这是否意味着中等质量 AGB 星在银河系化学演化中可以忽略？§III 没有明确回答。
 
 ### 8.4 银河系化学演化的参数敏感性
 
 [CRITIQUE] §III.E 的 s 过程产额对以下参数敏感：
-- **中子源反应率**：¹²C(α,n)¹⁶O、²²Ne(α,n)²⁵Mg
+- **中子源反应率**：¹²C($\alpha$,n)¹⁶O、²²Ne($\alpha$,n)²⁵Mg
 - **¹³C 口袋效率**：质量-金属丰度依赖
 - **初始质量函数（IMF）**：AGB 星的质量分布
 - **星风质量损失率**：AGB 演化时间尺度

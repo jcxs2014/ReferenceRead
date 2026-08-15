@@ -142,6 +142,7 @@ $$v_{ej} \sim 0.2-0.3 c$$
 ## §VI.7 我的理解 [INTERPRETATION]
 
 ### r 过程 site 问题的当代共识
+> [INTERPRETATION]
 
 截至 2021 年：
 - **Main r process（重核）**：NSM（确认），可能 + MRSN
@@ -149,23 +150,27 @@ $$v_{ej} \sim 0.2-0.3 c$$
 - **i process（中间）**：超低金属丰度 AGB
 
 ### NSM 与早期银河系 r 过程的矛盾
+> [INTERPRETATION]
 
 NSM 事件率 ~$10^{-4}$/yr/galaxy，但早期银河系 r 过程增强星已显示成熟 r 过程模式。两种解释：
 1. 早期 NSM 率高
 2. 其他 r 过程 site 补充
 
 ### 多个 r 过程 site 的核合成模式混合
+> [INTERPRETATION]
 
 当代：60-90% NSM + 10-30% 其他 site。
 
 ## §VI.8 潜在问题与值得关注的地方 [CRITIQUE]
 
 ### §VI.8.1 优点
+> [CRITIQUE]
 1. Site 覆盖全面
 2. $Y_e$ 维度强调
 3. NSM 多通道论述
 
 ### §VI.8.2 局限
+> [CRITIQUE]
 1. 早期银河系 r 过程来源未深入
 2. 核合成产物的 ISM 混合机制未详细
 3. 二维/三维 vs 一维 NSM 模拟维度影响未量化

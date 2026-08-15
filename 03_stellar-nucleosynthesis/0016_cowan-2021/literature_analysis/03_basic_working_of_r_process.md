@@ -40,7 +40,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/03_basic_wo
 > 2. **短时标**: 几次 neutron captures 之间的间隔 < 1 s
 > 3. **高温**: $T \sim 10^9$ K
 
-> **[FACT]** **Waiting point nucleus**: 在 r 过程路径上 neutron capture 与 photodisintegration 瞬时平衡 $(\text{n}, \gamma) \rightleftharpoons (\gamma, \text{n})$ 的核素，其寿命由 β-decay 半衰期决定。
+> **[FACT]** **Waiting point nucleus**: 在 r 过程路径上 neutron capture 与 photodisintegration 瞬时平衡 $(\text{n}, \gamma) \rightleftharpoons (\gamma, \text{n})$ 的核素，其寿命由 $\beta$-decay 半衰期决定。
 
 ### §III.C — How to obtain $N_n / N_{seed}$
 
@@ -59,13 +59,13 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/03_basic_wo
 
 $$\langle\sigma v\rangle(T) = \left(\frac{8}{\pi\mu}\right)^{1/2}\frac{1}{(k_B T)^{3/2}} \int_0^\infty \sigma(E) E \exp(-E/k_B T) dE$$
 
-### β-衰变率
+### $\beta$-衰变率
 
 $$\lambda_\beta = \frac{\ln 2}{T_{1/2}}$$
 
 ### Waiting point 条件
 
-当 $N_n \langle\sigma v\rangle_{n+\gamma} \gg \lambda_\beta$ 时，r 过程路径沿 β-平衡线分布。
+当 $N_n \langle\sigma v\rangle_{n+\gamma} \gg \lambda_\beta$ 时，r 过程路径沿 $\beta$-平衡线分布。
 
 ### $A_{final}$ 与 $N_n/N_{seed}$
 
@@ -101,7 +101,7 @@ $$A_{final} \approx A_{seed} \cdot \left(1 + \frac{N_n}{N_{seed}}\right)$$
 
 **5. 数值信息**：magic N=50, 82, 126。
 
-**6. 作者的解释**：r 过程路径是高 $N_n/N_{seed}$ + β-平衡 + magic shell 的物理后果。
+**6. 作者的解释**：r 过程路径是高 $N_n/N_{seed}$ + $\beta$-平衡 + magic shell 的物理后果。
 
 **7. 与正文的关系**：§III.B 的核心图。
 
@@ -109,7 +109,7 @@ $$A_{final} \approx A_{seed} \cdot \left(1 + \frac{N_n}{N_{seed}}\right)$$
 
 **9. 需要注意的问题**：
 - 实际 r 过程路径依赖 $Y_e$ 分布
-- 极端中子丰富核素的 mass / β-decay 数据仍不完整
+- 极端中子丰富核素的 mass / $\beta$-decay 数据仍不完整
 
 ## §III.6 作者的逻辑
 
@@ -122,6 +122,7 @@ $$A_{final} \approx A_{seed} \cdot \left(1 + \frac{N_n}{N_{seed}}\right)$$
 ## §III.7 我的理解 [INTERPRETATION]
 
 ### r 过程网络的计算复杂度
+> [INTERPRETATION]
 
 §III.A 网络方程 $O(N_{nuclei}^2)$。实际计算常用：
 1. 等效单核素近似（waiting point）
@@ -129,11 +130,13 @@ $$A_{final} \approx A_{seed} \cdot \left(1 + \frac{N_n}{N_{seed}}\right)$$
 3. full network（仅 supercomputer）
 
 ### 高 $Y_e$ 与低 $Y_e$ 的 r 过程分支
+> [INTERPRETATION]
 
 - **low-$Y_e$ r process**（$Y_e < 0.25$）：合成所有 r 过程核素——NSM blue component
 - **high-$Y_e$ r process**（$0.25 < Y_e < 0.45$）：仅合成到第一/二峰——NSM red component 或 weak r in CCSN
 
-### β-decay vs neutron capture 的竞争
+### $\beta$-decay vs neutron capture 的竞争
+> [INTERPRETATION]
 
 - $N_n \langle\sigma v\rangle_{n+\gamma} \gg \lambda_\beta$：r 过程推进，但 magic N 处堆积
 - $\lambda_\beta \gg N_n \langle\sigma v\rangle$：r 过程冻结，β-衰变拉回稳定线
@@ -141,14 +144,16 @@ $$A_{final} \approx A_{seed} \cdot \left(1 + \frac{N_n}{N_{seed}}\right)$$
 ## §III.8 潜在问题与值得关注的地方 [CRITIQUE]
 
 ### §III.8.1 优点
+> [CRITIQUE]
 1. 网络方程标准形式完整
 2. 物理量纲清晰
 3. 历史脉络完整
 
 ### §III.8.2 局限
+> [CRITIQUE]
 1. 数值方法过简
 2. 三体反应处理简略
-3. β-decay 率温度依赖性未讨论
+3. $\beta$-decay 率温度依赖性未讨论
 4. fission recycling 简述
 5. i process 缺失
 
@@ -162,7 +167,7 @@ $$A_{final} \approx A_{seed} \cdot \left(1 + \frac{N_n}{N_{seed}}\right)$$
 - **seed nucleus**
 - **neutron-to-seed ratio** $N_n/N_{seed}$
 - **electron fraction** $Y_e$
-- **β-equilibrium**
+- **$\beta$-equilibrium**
 - **photodisintegration** $(\gamma, n)$
 
 ## §III.10 引用页码索引

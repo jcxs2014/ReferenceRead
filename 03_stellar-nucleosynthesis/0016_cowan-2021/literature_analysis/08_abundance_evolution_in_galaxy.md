@@ -65,7 +65,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/08_abundanc
 
 > **[FACT]** **元素比诊断**：
 > - [Eu/Ba] vs [Fe/H]: 早期高，晚期下降至 solar
-> - [Eu/Mg]: 反映 r 过程 / α 元素（CCSN）的相对贡献
+> - [Eu/Mg]: 反映 r 过程 / $\alpha$ 元素（CCSN）的相对贡献
 > - [Th/Eu]: cosmochronometry
 
 ### §VIII.D — Long-lived radioactivities
@@ -195,6 +195,7 @@ $$\mathcal{R}_{NSM} \sim 10^{-4} \text{ yr}^{-1} \text{ galaxy}^{-1}$$
 ## §VIII.7 我的理解 [INTERPRETATION]
 
 ### "分层 r 过程"假说
+> [INTERPRETATION]
 
 当代主流观点（截至 2021）：
 
@@ -208,12 +209,14 @@ $$\mathcal{R}_{NSM} \sim 10^{-4} \text{ yr}^{-1} \text{ galaxy}^{-1}$$
 Cowan 2021 §VIII 倾向"分层 r 过程"假说——多种 site 协同产生不同元素段。
 
 ### 早期 NSM 事件率问题
+> [INTERPRETATION]
 
 VMP r-II 星的丰度模式要求 ~$10^{-3}$–$10^{-4}$/yr/galaxy 的 r 过程事件率在 [Fe/H] < -2 时（约 ~12 Gyr ago）。当代 NSM 率是 ~$10^{-4}$/yr/galaxy——意味着要么早期 SFR 高（NSM 形成多），要么有额外 site（MRSN/collapsar）补充。
 
 Cowan 2021 §VIII.B 未做量化。
 
 ### Actinde boost 的物理意义
+> [INTERPRETATION]
 
 某些 r-II 星（如 CS 31082-001）的 U/Th 比例是 solar 的 2×——"actinide boost"。可能机制：
 1. **NSM 的 $Y_e$ 多样性**：某些 NSM 极低 $Y_e$ 产生更多 actinides
@@ -224,11 +227,13 @@ Cowan 2021 §VIII.B 未做量化。
 ## §VIII.8 潜在问题与值得关注的地方 [CRITIQUE]
 
 ### §VIII.8.1 优点
+> [CRITIQUE]
 1. **site + GCE 的整合**：把天体物理与化学演化无缝连接
 2. **多模型对比**：均匀 / 非均匀 GCE 模型都给
 3. **独立时间校验**：cosmochronometry 与 GCE 独立
 
 ### §VIII.8.2 局限
+> [CRITIQUE]
 1. **早期 SFR 历史**：依赖 SFR(z) 假设，未充分讨论不确定度
 2. **GCE 模型参数空间**：参数拟合的简化解 vs 全参数扫描
 3. **Actinide boost 的系统研究**：仅有少数星有 actinide 测量
@@ -236,6 +241,7 @@ Cowan 2021 §VIII.B 未做量化。
 5. **化学动力学模拟**：3D 代码（AREPO）的初始条件依赖
 
 ### §VIII.8.3 与其他章节的张力
+> [CRITIQUE]
 - §VIII.A → §VI：site 列表的重申
 - §VIII.B → §II.A：VMP 星观测的连接
 - §VIII.D → §II.D：cosmochronometry 在 §II 已介绍，§VIII 深入应用

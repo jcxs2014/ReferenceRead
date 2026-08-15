@@ -27,10 +27,10 @@
 
 [FACT] 原文（§V 首段）总结：
 
-> \"Progress in neutron capture experiments has been reviewed in Sec. II, where it was shown that the required accuracy of the (n,γ) cross sections has been achieved for most nuclei.\"
+> \"Progress in neutron capture experiments has been reviewed in Sec. II, where it was shown that the required accuracy of the (n,$\gamma$) cross sections has been achieved for most nuclei.\"
 
 [FACT] **关键进步**：
-- 新一代 **4π 探测器**（BaF₂ 阵列）提供了前所未有的灵敏度
+- 新一代 **4$\pi$ 探测器**（Ba$F_{2}$ 阵列）提供了前所未有的灵敏度
 - 允许首次测量 s 过程路径上的不稳定分支点核素
 - KADONIS 截面库（V0.3）成为领域标准
 
@@ -38,17 +38,17 @@
 
 [FACT] 原文列出四个关键未解决问题：
 
-1. **(n,γ) 截面精度提升**：在以下区间仍需改进到 3–5% 以下
+1. **(n,$\gamma$) 截面精度提升**：在以下区间仍需改进到 3–5% 以下
    - 魔法中子数附近（⁹⁰Zr、¹³⁹La、²⁰⁸Pb 等）
    - Fe–Sr 区域（weak s 过程）
    - 较轻元素
 
 2. **中子源反应率**（核心问题）：
-   - **¹²C(α,n)¹⁶O** 在 Gamow 窗口（$E_\alpha \approx 300$ keV）的截面未知
-   - **²²Ne(α,n)²⁵Mg** 在 Gamow 窗口的截面未知
+   - **¹²C($\alpha$,n)¹⁶O** 在 Gamow 窗口（$E_\alpha \approx 300$ keV）的截面未知
+   - **²²Ne($\alpha$,n)²⁵Mg** 在 Gamow 窗口的截面未知
    - 与丰量轻元素一起决定 s 过程中的**中子平衡**
 
-3. **不稳定核素的 (n,γ) 截面**：
+3. **不稳定核素的 (n,$\gamma$) 截面**：
    - s 过程分支点关键核素（⁷⁹Se、¹²³Te、¹⁴⁷Pm 等）
    - 需要更先进的中子设施和实验技术
 
@@ -64,7 +64,7 @@
 - **填补实验空白**：为没有测量的核素提供截面估计
 - **提供 SEF**：修正实验室基态测量到恒星激发态布居
 
-[FACT] **β 衰变率**（§II.C）：
+[FACT] **$\beta$ 衰变率**（§II.C）：
 
 [FACT] 原文强调：
 > \"the even more pronounced enhancement of the weak interaction rates as a function of neutron and electron density at the s-process sites remains an important domain of theoretical studies, especially because experimental work in this field had long been neglected.\"
@@ -77,7 +77,7 @@
 
 [FACT] 原文（§V）：
 
-> \"The weak s process, which produces a large fraction of the s isotopes between Fe and Sr during convective core He burning and subsequent convective shell C burning, is of secondary nature. The neutron source is driven by (α,n) reactions on ²²Ne deriving from the conversion of initial CNO nuclei to ¹⁴N during core H burning via the sequence ¹⁴N(α,γ)¹⁸F(β⁺)¹⁸O, and subsequently by ¹⁸O(α,γ)²²Ne reactions at the beginning of convective core He burning, when the central temperature rises above $2.5\times10^8$ K.\"
+> \"The weak s process, which produces a large fraction of the s isotopes between Fe and Sr during convective core He burning and subsequent convective shell C burning, is of secondary nature. The neutron source is driven by ($\alpha$,n) reactions on ²²Ne deriving from the conversion of initial CNO nuclei to ¹⁴N during core H burning via the sequence ¹⁴N($\alpha$,$\gamma$)¹⁸F(β⁺)¹⁸O, and subsequently by ¹⁸O($\alpha$,$\gamma$)²²Ne reactions at the beginning of convective core He burning, when the central temperature rises above $2.5\times10^8$ K.\"
 
 [FACT] **Weak s 的贡献估计**：
 - **~50% 太阳 Zn**
@@ -191,7 +191,7 @@ $$ N_{\odot}(A) = N_s(A) + N_r(A) + N_p(A) $$
 | 太阳 Ba 的 s 过程分数 | ~80% | r 过程 20% |
 | 太阳 La 的 s 过程分数 | ~70% | r 过程 30% |
 | 太阳 Eu 的 s 过程分数 | ~6% | r 过程 94% |
-| 太阳 Zn 的 weak s 贡献 | ~50% | 剩余来自 SN ν-wind |
+| 太阳 Zn 的 weak s 贡献 | ~50% | 剩余来自 SN $\nu$-wind |
 | 太阳 Cu 的 weak s 贡献 | 70–80% | |
 | 太阳 Ga/Ge/As 的 weak s 贡献 | 70–80% | |
 | $A > 90$ 的 s 同位素 | ~100% | Main s |
@@ -215,7 +215,7 @@ $$ N_{\odot}(A) = N_s(A) + N_r(A) + N_p(A) $$
 | Fig. 3 | ²⁰⁹Bi R-矩阵分析 | §II |
 | Fig. 4 | 新 vs 旧截面 s 产额 | §II |
 | Fig. 5 | 反应流平衡示例 | §II |
-| Fig. 6 | 恒星 (n,γ) 截面不确定度 | §II |
+| Fig. 6 | 恒星 (n,$\gamma$) 截面不确定度 | §II |
 | Fig. 8 | R-residual 分布 | §III |
 | Fig. 10 | ¹³C 口袋形成 | §III |
 | Fig. 12 | [hs/ls] 和 [Pb/hs] vs [Fe/H] | §III |
@@ -264,7 +264,7 @@ s 过程研究的\"三位一体\"范式：
 3. **恒星模型层面**：AGB 星 s 过程模型已能复现太阳主 s 成分和多数 CEMP-s 星的观测，但 **¹³C 口袋的 ab initio 处理仍不完全**。
 
 4. **未解问题的优先级**：
-   - **最高优先级**：中子源反应率（¹²C(α,n)¹⁶O、²²Ne(α,n)²⁵Mg）——影响整个 s 过程建模
+   - **最高优先级**：中子源反应率（¹²C($\alpha$,n)¹⁶O、²²Ne($\alpha$,n)²⁵Mg）——影响整个 s 过程建模
    - **次高优先级**：weak s Fe–Sr 区间截面——影响银河系化学演化中的 Cu/Zn/Ga/Ge 预测
    - **长期问题**：LEPP 起源、Strong s 成分的理论基础
 
@@ -289,9 +289,9 @@ s 过程研究的\"三位一体\"范式：
 
 ### 8.1 中子源反应率的\"最后堡垒\"
 
-[CRITIQUE] ¹²C(α,n)¹⁶O 和 ²²Ne(α,n)²⁵Mg 的 Gamow 窗口截面**仍然是整个 s 过程建模中最大的核物理不确定度**：
+[CRITIQUE] ¹²C($\alpha$,n)¹⁶O 和 ²²Ne($\alpha$,n)²⁵Mg 的 Gamow 窗口截面**仍然是整个 s 过程建模中最大的核物理不确定度**：
 
-- ¹²C(α,n)¹⁶O 的 Gamow 窗口在 $E_\alpha \approx 300$ keV，实验室测量极困难（截面极小，~10⁻¹³ mb 量级）
+- ¹²C($\alpha$,n)¹⁶O 的 Gamow 窗口在 $E_\alpha \approx 300$ keV，实验室测量极困难（截面极小，~$10^{⁻13}$ mb 量级）
 - 当前依赖高能端测量 + 统计模型外推
 - 这一不确定度**~30%** 直接影响：
   - AGB 星中子产量
@@ -302,7 +302,7 @@ s 过程研究的\"三位一体\"范式：
 
 [CRITIQUE] CEMP-s=r 星的\"双源\"（s 过程 AGB 星 + r 过程超新星）解释虽然直观，但存在以下问题：
 
-- **时间尺度不匹配**：r 过程超新星（<10⁷ yr）远快于 AGB 星（>10⁸ yr），如何在同一巨分子云中相遇？
+- **时间尺度不匹配**：r 过程超新星（<$10^{7}$ yr）远快于 AGB 星（>$10^{8}$ yr），如何在同一巨分子云中相遇？
 - **丰度比的可重复性**：不同 CEMP-s=r 星的 [La/Eu] 差异很大，双源模型需要不同的初始条件组合
 - **r-II 星 vs CEMP-s=r 星**：r-II 星定义（[Eu/Fe] > 1.0, [Eu/Ba] < 0.0）与 CEMP-s=r 星的区分有时模糊
 
@@ -319,7 +319,7 @@ s 过程研究的\"三位一体\"范式：
 ### 8.4 核素合成年代学（nucleocosmochronology）
 
 [CRITIQUE] §V 提到 Re/Os 核宇宙时钟，但本文重点不在年代学。Re/Os 时钟依赖：
-- ¹⁸⁷Re 的恒星条件下 β 衰变率（bound-state β⁻）
+- ¹⁸⁷Re 的恒星条件下 $\beta$ 衰变率（bound-state β⁻）
 - ¹⁸⁷Os 和 ¹⁸⁶Os 的 MACS
 - SEF 修正
 - 187Re 的时间依赖产生率和 astration（后续恒星世代中的破坏）

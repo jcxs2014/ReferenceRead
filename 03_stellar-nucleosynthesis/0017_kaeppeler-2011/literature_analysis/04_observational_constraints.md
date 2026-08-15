@@ -87,7 +87,7 @@ $$ d_{\rm il} = \log_{10}\frac{M_{\rm env}}{M_{\rm transferred}} $$
 
 [FACT] **三个 s 过程峰的观测散布**：
 
-[FACT] 银盘金属丰度（[Fe/H] ≈ -1）的 MS、S、C(N)、Ba 星显示三个 s 过程峰的丰度散布：
+[FACT] 银盘金属丰度（[Fe/H] $\approx$ -1）的 MS、S、C(N)、Ba 星显示三个 s 过程峰的丰度散布：
 - **ls 峰**（$N=50$）：Sr, Y, Zr
 - **hs 峰**（$N=82$）：Ba, La, Ce, Nd, Sm
 - **Pb 峰**（$N=126$）：Pb
@@ -114,9 +114,9 @@ $$ d_{\rm il} = \log_{10}\frac{M_{\rm env}}{M_{\rm transferred}} $$
 [FACT] 关键事实：
 - 太阳 Eu：~94% 来自 r 过程（仅 6% s 过程）
 - 太阳 La：~70% 来自 s 过程（30% r 过程）
-- **AGB s 过程预测 [La/Eu]ₛ ≈ 1**
+- **AGB s 过程预测 [La/Eu]$_{s}$ $\approx$ 1**
 
-[FACT] 因此，观测到高 [Eu/Fe] 且 [La/Fe] ≈ [Eu/Fe] 的恒星，**必须有大 r 过程贡献**——这些星被命名为 **CEMP-s=r 星**。
+[FACT] 因此，观测到高 [Eu/Fe] 且 [La/Fe] $\approx$ [Eu/Fe] 的恒星，**必须有大 r 过程贡献**——这些星被命名为 **CEMP-s=r 星**。
 
 [FACT] **已知 CEMP-s=r 星**（文献中 Eu 测量）：
 
@@ -126,7 +126,7 @@ $$ d_{\rm il} = \log_{10}\frac{M_{\rm env}}{M_{\rm transferred}} $$
 - **CS 22898-027**（Aoki et al., 2007）
 - **CS 31062-050**（Aoki et al., 2006a）：$\rm T_{\rm eff} = 5600\pm150$ K，$\log g = 3.0\pm0.3$
 
-[FACT] 约一半已知的 CEMP-s 星也显示 r 过程富集（[Eu/Fe] ≈ [La/Fe]）。
+[FACT] 约一半已知的 CEMP-s 星也显示 r 过程富集（[Eu/Fe] $\approx$ [La/Fe]）。
 
 [FACT] **CEMP-s=r 星的双星解释**：
 
@@ -174,13 +174,13 @@ $$ d_{\rm il} = \log_{10}\frac{M_{\rm env}}{M_{\rm transferred}} $$
 [FACT] **高中子密度的观测证据**：相对于 Sr、Y 或 Zr 的高 Rb 丰度比。
 - ⁸⁷Rb 是中子魔法核素（$N=50$），截面极小——一旦到达 ⁸⁷Rb，反应流在此堆积
 
-[FACT] 但热脉冲 AGB 星预期**低中子密度**（¹²C(α,n)¹⁶O 源）——矛盾！
+[FACT] 但热脉冲 AGB 星预期**低中子密度**（¹²C($\alpha$,n)¹⁶O 源）——矛盾！
 
 [FACT] **OH/IR 星中的 Rb 增强**（García-Hernández et al., 2007）：
 - 大质量 AGB 星（4–8 M☉）
 - $\rm[-1.0 < [Rb/Fe] < 2.6]$ 的大范围增强
 - 相对温和的 s 过程增强（$\rm[Zr/Fe] < 0.5$）
-- 高 Rb/Zr 比被解释为**热脉冲中 ²²Ne(α,n)²⁵Mg 反应的证据**
+- 高 Rb/Zr 比被解释为**热脉冲中 ²²Ne($\alpha$,n)²⁵Mg 反应的证据**
 
 [FACT] **贫金属星中的 Rb**（Tomkin & Lambert, 1999）：
 - 排除 CH 星后，$\rm[Fe/H] < -0.5$ 的星 Y、Zr、Ba 均偏低，但 **Rb 平均偏高（$\rm[Rb/Fe] = 0.21$）**
@@ -190,7 +190,7 @@ $$ d_{\rm il} = \log_{10}\frac{M_{\rm env}}{M_{\rm transferred}} $$
 **（2）¹⁵¹Sm 分支**
 
 [FACT] ¹⁵¹Sm 分支（$\rm t_{1/2} = 90$ yr）是 s 过程**温度诊断**：
-- ¹⁵¹Sm 的 β 衰变半衰期在恒星条件下因热布居激发态而**显著缩短**（bound-state β⁻ 衰变）
+- ¹⁵¹Sm 的 $\beta$ 衰变半衰期在恒星条件下因热布居激发态而**显著缩短**（bound-state β⁻ 衰变）
 - ¹⁵¹Eu（β 衰变产物）与 ¹⁵²Sm（中子俘获产物）的丰度比直接反映温度
 
 [FACT] **在 CEMP-s 星中**：
@@ -272,7 +272,7 @@ $$ ^{151}{\rm Sm} \xrightarrow{\beta^-\ \text{或}\ n\gamma} \begin{cases} ^{151
 | 参数 | 数值 | 备注 |
 |---|---|---|
 | ⁸⁵Kr 半衰期 | 10.7 yr | ⁸⁵Kr 分支 |
-| ⁸⁵Kr 低中子密度阈值 | $n_n < 10^7$ cm$^{-3}$ | β 衰变主导 |
+| ⁸⁵Kr 低中子密度阈值 | $n_n < 10^7$ cm$^{-3}$ | $\beta$ 衰变主导 |
 | ⁸⁵Kr 高中子密度阈值 | $n_n > 10^8$ cm$^{-3}$ | 中子俘获主导 |
 | ¹⁵¹Sm 半衰期 | 90 yr | ¹⁵¹Sm 分支 |
 | ⁹³Zr 半衰期 | $1.5\times10^6$ yr | Zr/Nb 诊断 |
@@ -304,7 +304,7 @@ $$ ^{151}{\rm Sm} \xrightarrow{\beta^-\ \text{或}\ n\gamma} \begin{cases} ^{151
 - 实心菱形：CEMP-s=r 星（CS 29497-030 和 CS 31062-050）
 
 **4. 关键观察**：
-- 银盘金属丰度 [Fe/H] ≈ -1：[hs/ls] 散布 ~1 dex，模型可覆盖
+- 银盘金属丰度 [Fe/H] $\approx$ -1：[hs/ls] 散布 ~1 dex，模型可覆盖
 - 晕金属丰度 [Fe/H] < -2.5：[Pb/hs] 散布 ~2 dex
 - [hs/ls] 与 [Fe/H] 无明确相关性
 
@@ -340,7 +340,7 @@ $$ ^{151}{\rm Sm} \xrightarrow{\beta^-\ \text{或}\ n\gamma} \begin{cases} ^{151
 - 实线：Serminato et al. (2009) 更新模型
 
 **4. 关键观察**：
-- [Ba/Fe] 在 [Fe/H] ≈ -1 处开始平坦化（AGB 星开始贡献）
+- [Ba/Fe] 在 [Fe/H] $\approx$ -1 处开始平坦化（AGB 星开始贡献）
 - [Eu/Fe] 在贫金属端平坦且高（r 过程主导，短寿命前身星）
 
 **5. 物理意义**：AGB 星（寿命较长）和 r 过程源（短寿命前身星）的不同时标造成 Ba 和 Eu 丰度演化的不同斜率——这是**核合成时标**的直接观测证据。
@@ -398,7 +398,7 @@ $$ ^{151}{\rm Sm} \xrightarrow{\beta^-\ \text{或}\ n\gamma} \begin{cases} ^{151
 - **AGB 初始质量函数（IMF）**：未知
 - **¹³C 口袋的效率**：质量和金属丰度依赖未知
 - **质量损失率**：AGB 演化时标
-- **中子源反应率**：¹²C(α,n)¹⁶O 和 ²²Ne(α,n)²⁵Mg 的 Gamow 窗口截面未知
+- **中子源反应率**：¹²C($\alpha$,n)¹⁶O 和 ²²Ne($\alpha$,n)²⁵Mg 的 Gamow 窗口截面未知
 
 [CRITIQUE] 这些不确定性意味着银河系化学演化模型中的 s 过程产额**不是唯一确定的**，需要在不同假设下给出范围。
 
