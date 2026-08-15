@@ -66,3 +66,29 @@
 - ✅ 正文分章 5 文件全覆盖
 - ✅ 公式、图、文献引用均覆盖
 - ✅ 批判性分析（[INTERPRETATION]/[CRITIQUE] 标注）
+
+## 子节级覆盖（原文子节名单，对照 PDF/正文目录）
+
+
+| 原文子节 | 覆盖 | 位置 |
+|---|---|---|
+| 2.1.1 Cosmic ray number densities | ✅ | `02_physics` 分章 |
+| 2.1.2 Cosmic ray-wave scattering and diffusion | ✅ | `02_physics` 分章 |
+| 2.1.3 Streaming instabilities | ✅ | `02_physics` 分章 |
+| 2.2.1 CR pressure gradient force | ✅ | `02_physics` 分章 |
+| 2.2.2 CR energy losses and heating | ✅ | `02_physics` 分章 |
+| 2.2.3 CR advection by bulk flow | ✅ | `02_physics` 分章 |
+| 2.3.1 Galaxy-scale: stellar feedback | ✅ | `02_physics` 分章 |
+| 2.3.2 Galaxy-scale: galactic winds | ✅ | `02_physics` 分章 |
+| 2.3.3 Galaxy-scale: cosmic ray escape | ✅ | `02_physics` 分章 |
+| 2.3.4 Group-cluster-scale: IC emission | ✅ | `02_physics` 分章 |
+| 2.3.5 Group-cluster-scale: intracluster medium pressure | ✅ | `02_physics` 分章 |
+| 2.3.6 Group-cluster-scale: cluster cool cores | ✅ | `02_physics` 分章 |
+| 2.4.1 γ-ray signatures | ✅ | `02_physics` 分章 |
+| 2.4.2 X-ray signatures | ✅ | `02_physics` 分章 |
+| 2.4.3 Radio signatures | ✅ | `02_physics` 分章 |
+| 2.4.4 Neutrino signatures | ✅ | `02_physics` 分章 |
+| 2.5.1 CR streaming and its limits | ✅ | `02_physics` 分章 |
+| 2.5.2 CR escape and energy budget | ✅ | `02_physics` 分章 |
+
+**统计**：✅ 18/18（100%），❌ 0/18。❌ 项见位置列原因；本任务不改分章，仅记录。

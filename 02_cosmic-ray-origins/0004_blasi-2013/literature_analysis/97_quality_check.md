@@ -45,3 +45,15 @@
 - 无
 
 *（本页由 `scripts/gen_quality_check.py` 自动生成）*
+
+## 子节级覆盖（原文子节名单，对照 PDF/正文目录）
+
+
+| 原文子节 | 覆盖 | 位置 |
+|---|---|---|
+| 4.2.1 Resonant streaming instability | ✅ | `04_nl_dsa` 分章 |
+| 4.2.2 Non-resonant small-scale modes from streaming instability | ✅ | `04_nl_dsa` 分章 |
+| 4.2.3 Filamentation instability | ✅ | `04_nl_dsa` 分章 |
+| 4.2.4 Non-resonant large-scale streaming instability | ✅ | `04_nl_dsa` 分章 |
+
+**统计**：✅ 4/4（100%），❌ 0/4。❌ 项见位置列原因；本任务不改分章，仅记录。

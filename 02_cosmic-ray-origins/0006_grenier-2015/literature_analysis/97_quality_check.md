@@ -45,3 +45,24 @@
 - 无
 
 *（本页由 `scripts/gen_quality_check.py` 自动生成）*
+
+## 子节级覆盖（原文子节名单，对照 PDF/正文目录）
+
+
+| 原文子节 | 覆盖 | 位置 |
+|---|---|---|
+| 2.3.1 Protons and antiprotons above GeV energies | ✅ | `02_direct_measurements` 分章 |
+| 2.3.2 Primary and secondary nuclei | ✅ | `02_direct_measurements` 分章 |
+| 2.3.3 Positrons and electrons | ✅ | `02_direct_measurements` 分章 |
+| 3.0.1 Propagating from source to detector | ✅ | `03_propagation_physics` 分章 |
+| 3.0.2 Heliosphere modulation | ✅ | `03_propagation_physics` 分章 |
+| 3.0.3 Spectral modifications | ✅ | `03_propagation_physics` 分章 |
+| 3.1.1 Propagation in the Galaxy: the three-zone model | ✅ | `03_propagation_physics` 分章 |
+| 4.3.1 The inner galaxy | ❌ | `04_crwanderers`（04_crwanderers 有 4.3.1 段内容但用了二级 ## 标题（非三级 ###，标题层级误用）） |
+| 4.3.2 The Fermi Bubbles and Galactic Center | ❌ | `04_crwanderers`（内容在 ## 层级，### 标题层级误用） |
+| 7.1.1 In the HI | ❌ | `07_tracers`（内容在 ## 层级，### 标题层级误用） |
+| 7.1.2 In the dark neutral medium | ❌ | `07_tracers`（内容在 ## 层级，### 标题层级误用） |
+| 7.1.3 About $X_{CO}$ | ❌ | `07_tracers`（内容在 ## 层级，### 标题层级误用） |
+| 7.1.4 On dust properties | ❌ | `07_tracers`（内容在 ## 层级，### 标题层级误用） |
+
+**统计**：✅ 7/13（53%），❌ 6/13。❌ 项见位置列原因；本任务不改分章，仅记录。
