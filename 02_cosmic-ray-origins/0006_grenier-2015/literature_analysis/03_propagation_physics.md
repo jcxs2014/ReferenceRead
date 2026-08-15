@@ -19,7 +19,7 @@
 
 ### 3.0.1 Parametric studies of cosmic-ray propagation
 
-> **中文译文**
+> **宇宙线传播的参数化研究**
 
 **[FACT]** 使用 USINE 代码 + 贝叶斯 Markov 链蒙特卡洛技术的系统参数研究（Maurin et al. 2010; Putze et al. 2011; Lavalle et al. 2014）显示：
 
@@ -31,7 +31,7 @@
 
 ### 3.0.2 Diffusive reacceleration and alternatives
 
-> **中文译文**
+> **扩散再加速及替代方案**
 
 **[FACT]** 扩散再加速 = 动量空间扩散，源于粒子在运动散射体上的动量获得与损失；因此 $D_{pp}$ 与 $D_{xx}$ 存在基本关系（Strong et al. 2007）。Thornbury & Drury (2014) 给出了再加速公式的清晰推导，并阐明其与原始 Fermi 二阶机制的关系。
 
@@ -52,7 +52,7 @@
 
 ### 3.0.3 Secondary production in cosmic-ray sources
 
-> **中文译文**
+> **宇宙线源中的次级产生**
 
 **[FACT]** 过去假设 B/C、正电子、反质子谱全部在 ISM 中产生；实际上有些次级在 CR 源内产生后初级逃逸 → 额外通量使图像复杂化。
 
@@ -63,7 +63,7 @@
 ## 3.1. Advances in Propagation Physics
 **粒子传播物理的进展**
 
-> **中文译文**
+> **传播物理的进展**
 
 **[FACT]** 关键发展：**显式计算磁化 ISM 中带电粒子轨迹**（Giacalone & Jokipii 1994, 1999），超越准线性理论近似。涉及 Lorentz 力与 Maxwell 方程：
 - 湍动磁场建模为具有幂律谱的模式叠加，使用 Alfvén 波（时间依赖），加上规则场；
@@ -76,7 +76,7 @@
 
 ### 3.1.1 Cosmic-ray penetration into molecular clouds
 
-> **中文译文**
+> **宇宙线对分子云的穿透**
 
 **[FACT]** Fatuzzo et al. (2010) 与 Fatuzzo & Melia (2014) 在 MHD 湍动中做粒子轨迹数值实验，目标为获得扩散系数的标度关系。**结论**：强湍动下显著偏离准线性理论结果。
 
@@ -100,7 +100,7 @@
 ## 3.2. Advances in Propagation Models
 **传播模型的进展**
 
-> **中文译文**
+> **传播模型的进展**
 
 **[FACT]** 主要工具：
 
@@ -129,7 +129,7 @@
 
 ## Figure 3 — 传播模型对比
 
-> **中文译文**
+
 
 **[FACT]** 目的：(a) 展示主核子谱 + B/C 传播模型的拟合；(b) B/C 随动量演化比较 3D 传播模型（不同 $D_{xx}$ 动量依赖）。
 
@@ -146,7 +146,7 @@
 
 ## 关键公式与量级
 
-> **中文译文**
+
 
 - $D_{xx}(p)$ 幂律指数：**0.3–0.8**
 - $^{10}{\rm Be}$ 半衰期：**1.6 Myr**
