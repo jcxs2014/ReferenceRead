@@ -1,5 +1,11 @@
 # 7. VII Dark Matter Particles（暗物质粒子）
 
+sections:
+  - A. Neutrinos
+  - B. Supersymmetry
+  - C. Axions
+  - D. The WIMP paradigm
+
 > 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/06_modified_gravity.md|06_modified_gravity.md]]
@@ -14,7 +20,11 @@
 - [FACT] 这一术语转变反映**科学文化的社会学转变**：宇宙学从边缘到主流；粒子物理与天体物理深度融合（Fermilab 1983 成立理论天体物理组在当时被视为"激进"）。
 - [FACT] 2014 P5 报告将"宇宙前沿"与"能量前沿"、"强度前沿"并列。
 
-## 7.1 A. Neutrinos
+---
+
+### 7.1 A. Neutrinos
+
+> **译文：中微子——作为暗物质的早期模板，以及其作为标准宇宙学暗物质候选的历史判决（从 Gershtein-Zeldovich 1966 到惰性中微子假说）**
 
 ### 7.1.1 中微子作为早期模板
 
@@ -53,7 +63,11 @@
 - [FACT] 严格 Dodelson-Widrow 机制**已被排除**，但变体仍存活。
 - [FACT] 详见 Sec IX.B 讨论的 3.55 keV 线信号。
 
-## 7.2 B. Supersymmetry
+---
+
+### 7.2 B. Supersymmetry
+
+> **译文：超对称性——从数学起源到 MSSM、R 宇称与中性微子作为过去 35 年最被研究的单一暗物质候选**
 
 ### 7.2.1 起源与发展
 
@@ -97,18 +111,22 @@ $$P_R = (-1)^{2s + 3B + L}$$
 - [FACT] SUSY 的吸引力**不完全依赖暗物质**——还能解决**电弱等级问题**（hierarchy problem）、实现**规范耦合统一**（Dimopoulos-Raby-Wilczek 1981；Ibanez-Ross 1981；Marciano-Senjanovic 1982）。
 - [FACT] 若宇宙物质密度恰与可见重子一致，粒子物理学家仍会关注 SUSY——暗物质只是"附加奖励"。
 
-## 7.3 C. Axions
+---
+
+### 7.3 C. Axions
+
+> **译文：轴子——源于 QCD 强 CP 问题的 Peccei-Quinn 机制，通过失配与拓扑缺陷产生，被排除到 $10^{-6}$ – $10^{-4}$ eV 质量区间**
 
 ### 7.3.1 强 CP 问题
 
 - [FACT] QCD 拉氏量包含 CP 破坏项（文中公式 (2)）：
 $$\mathcal{L}_{\rm QCD} \supset \bar{\Theta}\,\frac{g^2}{32\pi^2}\,G_{\mu\nu}^a\,\tilde{G}^{a\mu\nu}$$
-- [FACT] 若 $\Theta$̄ ~ O(1)，中子电偶极矩应为实验上限 ~$10^{10}$ 倍。
-- [FACT] 实验要求 **|$\Theta$̄| ≲ $10^{-10}$** —— 极度精细调节。
+- [FACT] 若 $\bar{\Theta}$ ~ O(1)，中子电偶极矩应为实验上限 ~$10^{10}$ 倍。
+- [FACT] 实验要求 **$|\bar{\Theta}| ≲ 10^{-10}$** —— 极度精细调节。
 
 ### 7.3.2 Peccei-Quinn 机制
 
-- [FACT] Peccei-Quinn 1977a,b：引入自发破缺的整体 **U(1)** 对称性，动态把 $\Theta$̄ 推向零。
+- [FACT] Peccei-Quinn 1977a,b：引入自发破缺的整体 **U(1)** 对称性，动态把 $\bar{\Theta}$ 推向零。
 - [FACT] Wilczek 1978 与 Weinberg 1978 独立指出破缺的 U(1) 蕴含 **Nambu-Goldstone 玻色子——轴子（axion）**。
 - [FACT] 轴子质量：
 $$m_a \sim \frac{\lambda_{\rm QCD}^2}{f_{\rm PQ}}, \quad \lambda_{\rm QCD} \sim 200\,{\rm MeV}$$
@@ -129,9 +147,13 @@ $$m_a \sim \frac{\lambda_{\rm QCD}^2}{f_{\rm PQ}}, \quad \lambda_{\rm QCD} \sim 
 - [FACT] **失配机制**（misalignment）：PQ 场初始值为大值，当 T ~ $\lambda_{\rm QCD}$ 时场滚动到极小值，能量转换为轴子（Abbott-Sikivie 1983；Dine-Fischler 1983；Preskill-Wise-Wilczek 1983）。典型初始条件给出 m_a ~ $10^{-5}$ eV 时密度约等于暗物质密度。
 - [FACT] **拓扑缺陷**：弦（strings）与畴壁（domain walls），衰变产生轴子 ~ 失配量（Davis 1986）。
 - [FACT] 若暴胀发生在 PQ 破缺**之后**，缺陷网络被抹除；反之保留。
-- [FACT] 若暴胀在 PQ 破缺**之后**，可能存在**人择解释**（Linde 1991；Wilczek 2004；Tegmark et al. 2006）——$\Theta$̄ 初始值 ~ O(1) 区域轴子密度过高、空间快速收缩；稀有 $\Theta$̄ ≪1 区域允许宇宙膨胀，生命存在于此 → 我们必然观测到"暗物质相当的轴子密度"。
+- [FACT] 若暴胀在 PQ 破缺**之前**，可能存在**人择解释**（Linde 1991；Wilczek 2004；Tegmark et al. 2006）——$\bar{\Theta}$ 初始值 ~ O(1) 区域轴子密度过高、空间快速收缩；稀有 $\bar{\Theta} ≪1$ 区域允许宇宙膨胀，生命存在于此 → 我们必然观测到"暗物质相当的轴子密度"。
 
-## 7.4 D. The WIMP Paradigm
+---
+
+### 7.4 D. The WIMP Paradigm
+
+> **译文：WIMP 范式——"热遗迹截面恰好等于弱力截面"的 WIMP 奇迹（Steigman-Turner 1985），冷、非重子暗物质范式的兴起与近年 null 结果带来的质疑**
 
 ### 7.4.1 涌现（~1980 末）
 
@@ -159,7 +181,9 @@ $$\sigma v \sim 10^{-26}\,{\rm cm^3/s}$$
 | $\sigma$v ≈ $10^{-26}$ cm$^{3}$/s | 热遗迹丰度匹配 $\Omega_{\rm DM}$ h$^{2}$ ≈ 0.12 的截面 |
 | $\Omega$h$^{2}$ ≈ 0.1 / ($\sigma$v) [近似] | WIMP 热遗迹丰度公式（Griest-Seckel） |
 
-## 7.5 [CRITIQUE]
+---
+
+## [CRITIQUE]
 
 - [CRITIQUE] WIMP 奇迹在 2010s 后被逐渐质疑——直接探测 20 年 null 结果 + LHC 无 SUSY 发现 → WIMP 参数空间被**大幅压缩**（详见 Sec IX）。
 - [CRITIQUE] 作者对 WIMP 保持开放立场，明确 Bertone 2010 观点为"either/or"——但 2018 年的现实更接近"衰落"一侧。

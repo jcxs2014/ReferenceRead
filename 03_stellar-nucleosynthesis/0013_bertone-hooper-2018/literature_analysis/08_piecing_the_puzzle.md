@@ -1,5 +1,10 @@
 # 8. VIII Piecing the Puzzle（拼图：宇宙学、结构形成与数值模拟）
 
+sections:
+  - A. Discrepancies at all scales
+  - B. Cosmology
+  - C. Numerical simulations
+
 > 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/07_dark_matter_particles.md|07_dark_matter_particles.md]]

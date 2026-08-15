@@ -1,5 +1,10 @@
 # 2. II Prehistory（前史）—— 从古希腊到 19 世纪末
 
+sections:
+  - A. From Epicurus to Galileo
+  - B. Dark stars, dark planets, dark clouds
+  - C. Dynamical evidence
+
 > 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/01_preface.md|01_preface.md]]

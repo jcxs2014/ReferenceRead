@@ -1,5 +1,9 @@
 # 6. VI Modified Gravity（修正引力 / MOND）
 
+sections:
+  - A. Toward a realistic theory of MOND
+  - B. Observational successes and failures
+
 > 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/05_baryonic_dark_matter.md|05_baryonic_dark_matter.md]]

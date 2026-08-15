@@ -1,5 +1,9 @@
 # 3. III Galaxy Clusters（星系团）—— Zwicky 与 Smith
 
+sections:
+  - A. Zwicky and Smith
+  - B. A confusing situation
+
 > 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/02_prehistory.md|02_prehistory.md]]

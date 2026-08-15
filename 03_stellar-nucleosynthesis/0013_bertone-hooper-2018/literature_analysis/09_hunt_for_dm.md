@@ -1,5 +1,10 @@
 # 9. IX The Hunt for Dark Matter Particles（暗物质粒子搜寻）
 
+sections:
+  - A. Scattering with nuclei
+  - B. Annihilation and decay
+  - C. Axion experiments
+
 > 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/08_piecing_the_puzzle.md|08_piecing_the_puzzle.md]]

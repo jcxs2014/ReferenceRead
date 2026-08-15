@@ -1,5 +1,10 @@
 # 5. V Baryonic Dark Matter（重子暗物质）
 
+sections:
+  - A. Gravitational microlensing
+  - B. The Universe's baryon budget
+  - C. Primordial black holes
+
 > 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/04_rotation_curves.md|04_rotation_curves.md]]
