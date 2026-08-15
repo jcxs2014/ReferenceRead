@@ -18,7 +18,7 @@
 1. **观测简并**：$D_{xx}(p)$ 的动量依赖与源产生的粒子谱之间存在简并（Putze 2011; Coste 2012）；次级/初级比观测部分缓解。
 2. **环境效应**：MHD 湍动水平（特别是快磁声波）强烈影响扩散性质（Yan & Lazarian 2008），银盘与 halo 不同。
 3. **本地 CR 样本**：到达地球的核子 > 一半在 2/1 kpc 内产生（Taillet & Maurin 2003）。
-4. **本地 ISM 特性**：与 halo 相通的大空腔（Galeazzi 2014; Lallement et al. 2014）+ Gould Belt 云（近 60 Myr 增强恒星形成，Grenier 2000; Perrot & Grenier 2003）→ Gould Belt CR 源可在 <0.5 Myr 使 B/C 波动 $\sim$50%（Büsching et al. 2005）；空洞烟囱严重改变重核（$A \ge 50$）相对丰度（Combet et al. 2005）。
+4. **本地 ISM 特性**：与 halo 相通的大空腔（Galeazzi 2014; Lallement et al. 2014）+ Gould Belt 云（近 60 Myr 增强恒星形成，Grenier 2000; Perrot & Grenier 2003）→ Gould Belt CR 源可在 <0.5 Myr 使 B/C 波动 $\sim$ 50%（Büsching et al. 2005）；空洞烟囱严重改变重核（$A \ge 50$）相对丰度（Combet et al. 2005）。
 
 ## 4.1 Cosmic Rays in the Local Interstellar Medium
 
@@ -30,10 +30,10 @@
 
 **[FACT]** 相同 emissivity 也出现在中速云（IVA，可能海拔 60 pc）中（Planck & Fermi Collab. 2015）。
 
-**[FACT]** 均匀 $q_\gamma^H$ → **本地星际谱（LIS）** 参考（Casandjian 2012; Dermer 2013b; Casandjian 2013）。图 1 灰色带显示初步的质子谱；强子产生截面不确定度 $\sim$30%。
+**[FACT]** 均匀 $q_\gamma^H$ → **本地星际谱（LIS）** 参考（Casandjian 2012; Dermer 2013b; Casandjian 2013）。图 1 灰色带显示初步的质子谱；强子产生截面不确定度 $\sim$ 30%。
 
 **[FACT]** LIS 在动量几个 GeV 以下存在初现"折点"：
-- 与 Voyager 1 在 heliopause 附近的动量谱转折一致（动量 $\sim$1 GeV 处 → 动能 <100 MeV 处平坦粒子微分谱）；
+- 与 Voyager 1 在 heliopause 附近的动量谱转折一致（动量 $\sim$ 1 GeV 处 → 动能 <100 MeV 处平坦粒子微分谱）；
 - Voyager 1 数据可能仍受太阳调制减速；$\gamma$-ray LIS 在低动量处被低能 $\gamma$ 射线中电子韧致辐射扣除的不确定性影响。
 
 **[FACT]** 图 1 折点以下的信息：
@@ -72,7 +72,7 @@
 
 **[FACT]** Fermi-LAT 数据显示 $q_\gamma^H$ 从 Local 到 outer spiral arms **仅下降 20%–40%**，无显著谱变化。
 
-**[FACT]** 这确认**长存"CR 梯度问题"**（首先由 Cosmic-B 观测提出，Strong 1988；CGRO-EGRET 后 Digel 2001）：外银 $q_\gamma^H$ 梯度与 $^{10}$Be/$^{9}$Be 允许的最大 halo 大小 $\sim$10 kpc 之间勉强一致（均匀扩散、源在内部峰值）。
+**[FACT]** 这确认**长存"CR 梯度问题"**（首先由 Cosmic-B 观测提出，Strong 1988；CGRO-EGRET 后 Digel 2001）：外银 $q_\gamma^H$ 梯度与 $^{10}$Be/$^{9}$Be 允许的最大 halo 大小 $\sim$ 10 kpc 之间勉强一致（均匀扩散、源在内部峰值）。
 
 **[FACT]** Local 与 Perseus 臂间 vs 臂内 $q_\gamma^H$ 对比 <10–20%，尽管 ISM 与恒星环境不同。
 
@@ -121,7 +121,7 @@
 **[FACT]** 最壮观的扩展发射发现——**Fermi Bubbles**（Su et al. 2010）， arguably 是 Fermi 任务迄今最意外的发现之一。详细空间与谱分析见 Ackermann et al. (2014)。
 
 **Fermi Bubbles 特征**：
-- **[FACT]** 两个 $\sim$50° 直径、边缘锐利的椭圆区，关于银河中心大致对称，向银极延伸数 kpc（其轴垂直于银河系平面，本地 ISM 由倾斜的 Gould Belt 几何主导；Perrot & Grenier 2003; Lallement et al. 2014）；
+- **[FACT]** 两个 $\sim$ 50° 直径、边缘锐利的椭圆区，关于银河中心大致对称，向银极延伸数 kpc（其轴垂直于银河系平面，本地 ISM 由倾斜的 Gould Belt 几何主导；Perrot & Grenier 2003; Lallement et al. 2014）；
 - **[FACT]** 谱比剩余星际发射硬得多 → 在 >10 GeV 图中清晰可见；
 - **[FACT]** 与银河核球发出的两个巨大射电瓣部分重叠，磁场高达 **1.5 nT**（Carretti et al. 2013）；
 - **[FACT]** 瓣将 **$10^{48}$ J** 输送到 halo，可能由中心 200 pc 多波长观测示意的银河系风驱动；
