@@ -16,7 +16,7 @@
 | 尤其 | in particular | adv. | 举例 | "星云发射线光谱对电离 EUV 辐射的硬度**极其敏感**" | 强调诊断图的关键灵敏区 |
 | 特别是 | specifically | adv. | 举例 | "MAPPINGS III 中**尘埃物理**的自洽处理：辐射场被尘埃吸收、尘埃带电、光电加热" | 具体列举尘埃物理三要素 |
 | 虽然 | although | conj. | 让步 | "作者因此更偏袒 Schmutz 大气模型（物理上更适合 W-R 星），但该模型无法单独解释观测到 1–4 Ry 的硬 EUV" | 让步 Schmutz 物理更优 |
-| 于是 | consequently | adv. | 因果 | "SNR 机械能贡献到光电离模型 >20%（Hβ 光度贡献约 16–20%），不足以解释差异" | 从贡献量推出不足以解释诊断图 |
+| 于是 | consequently | adv. | 因果 | "SNR 机械能贡献到光电离模型 >20%（H$\beta$ 光度贡献约 16–20%），不足以解释差异" | 从贡献量推出不足以解释诊断图 |
 | 反之 | on the contrary | phrase | 转折 | "Geneva+Lejeune 被排除"（相对 PEGASE 唯一覆盖） | 承前 PEGASE 成功，转后排除某模型 |
 | 进而 | furthermore | adv. | 递进 | "提出 **continuum metal blanketing** 作为在 Schmutz 大气中恢复 1–4 Ry 硬 EUV 的方案" | 递进提出解决方案 |
 | 同时 | simultaneously | adv. | 递进 | "用**两套独立代码**（不同演化轨、大气、IMF 默认值）交叉检验理论预测的鲁棒性" | 两个方法并行 |
@@ -24,10 +24,10 @@
 | 总之 | overall | adv. | 结论 | "分类模糊率 6%（理论）vs 16%（VO87）——本文最直接的实证价值" | 结论性对比 |
 | 此外 | moreover | adv. | 递进 | "此外，SNR 贡献仅考虑单一激波速度（600 km s⁻¹），作者预期 200–300 km s⁻¹ 更相容" | 补充局限 |
 | 甚至 | even | adv. | 递进 | "连续星暴**始终**落在经验上限线下方/左方" | 递进强调分类线稳健 |
-| 如果 | if / should | conj. | 让步 | "如果引入 continuum metal blanketing，He II λ4686 应更强——**仍与观测相符**" | 假设性检验 |
-| 由此 | hence | adv. | 因果 | "He II λ4686 观测提供对 Schmutz 大气模型**唯一直接的光谱验证**" | 从观测推出模型约束 |
-| 尽管 | although | conj. | 让步 | "作者承认 He II λ4686 观测结果与 Schmutz 模型一致这一事实，使得 continuum metal blanketing 的解释力受到一定质疑" | 让步证据支持 Schmutz |
-| 换言之 | i.e. | phrase | 举例 | "诊断图上的'折回'（fold）是两参数网格（Z-χ）的**内在拓扑**" | 定义折回 |
+| 如果 | if / should | conj. | 让步 | "如果引入 continuum metal blanketing，He II $\lambda$4686 应更强——**仍与观测相符**" | 假设性检验 |
+| 由此 | hence | adv. | 因果 | "He II $\lambda$4686 观测提供对 Schmutz 大气模型**唯一直接的光谱验证**" | 从观测推出模型约束 |
+| 尽管 | although | conj. | 让步 | "作者承认 He II $\lambda$4686 观测结果与 Schmutz 模型一致这一事实，使得 continuum metal blanketing 的解释力受到一定质疑" | 让步证据支持 Schmutz |
+| 换言之 | i.e. | phrase | 举例 | "诊断图上的'折回'（fold）是两参数网格（Z-$\chi$）的**内在拓扑**" | 定义折回 |
 
 *共 20 个逻辑词，均在本篇分析文本中实际出现。*
 
@@ -50,9 +50,9 @@
 | transformed radius | 变换半径 $R_t$ | 2 | §3.4 |
 | EUV spectrum (1–4 Ry) | 极紫外光谱（54–756 eV） | 25+ | §0.1 |
 | He II ionization edge | He II 电离边（4 Ry = 54.4 eV） | 8+ | §7 |
-| He II λ4686 | 氦 II 4686 Å 发射线 | 10+ | §7.3 |
+| He II $\lambda$4686 | 氦 II 4686 Å 发射线 | 10+ | §7.3 |
 | photoionization | 光电离 | 10+ | §1.1 |
-| ionization parameter (χ, U) | 电离参数 | 10+ | §4.1 |
+| ionization parameter ($\chi$, U) | 电离参数 | 10+ | §4.1 |
 | metallicity (Z/Z☉) | 金属丰度（相对太阳） | 12+ | §4.1 |
 | depletion factor (D) | 尘埃耗尽因子 | 5 | §4.3 |
 | BPT diagram (Baldwin-Phillips-Terlevich) | BPT 发射线诊断图 | 8+ | §1.2 |
@@ -71,8 +71,8 @@
 | SFR (star formation rate) | 恒星形成率 | 6+ | §6.4 |
 | Kennicutt (1998) calibration | Kennicutt SFR 定标 | 3 | §6.4 |
 | IRAS warm galaxy sample | IRAS 温热红外星系样本 | 5 | §2.1 |
-| [O III]/Hβ | 诊断图纵轴（强激发比） | 10+ | §4.1 |
-| [N II]/Hα, [S II]/Hα, [O I]/Hα | 诊断图横轴（低激发比） | 8+ | §4.1 |
+| [O III]/H$\beta$ | 诊断图纵轴（强激发比） | 10+ | §4.1 |
+| [N II]/H$\alpha$, [S II]/H$\alpha$, [O I]/H$\alpha$ | 诊断图横轴（低激发比） | 8+ | §4.1 |
 | fold (grid topology) | 网格折回（禁带拓扑） | 5 | §5.1 |
 | forbidden line ([S II], [O III]) | 禁戒线 | 5 | §4.1 |
 | MRN dust size distribution | Mathis-Rumpl-Nordsieck 尘埃尺寸分布 | 3 | §4.2 |
@@ -81,8 +81,8 @@
 | primary vs secondary N | 初级 vs 次级氮 | 5 | §4.3 |
 | N/O–Z☉ 0.23 transition | 氮 0.23 Z☉ 转折点 | 4 | §4.3 |
 | IMF (initial mass function) | 初始质量函数 | 3 | §1.1 |
-| He II λ4640 (N III) | N III 4640 与 He II 4658 混杂 | 2 | §7.1 |
-| [Fe III] λ4658 | 铁 III 4658 禁戒线 | 3 | §7.1 |
+| He II $\lambda$4640 (N III) | N III 4640 与 He II 4658 混杂 | 2 | §7.1 |
+| [Fe III] $\lambda$4658 | 铁 III 4658 禁戒线 | 3 | §7.1 |
 | W-R galaxy | W-R 星系（宽恒星发射线） | 4 | §7.1 |
 
 *共 45 个领域术语（按出现频次大致降序排列；仅列出在本文分析文本中实际出现者）。*
@@ -115,25 +115,25 @@
 
 ### C3. §5.2 PEGASE 唯一覆盖
 
-> "**PEGASE 2 (Padova + Lejeune + Clegg & Middlemass PNN)**：**唯一**能覆盖几乎所有星暴星系的模型；谱在 1–4 Ry 区间**随 W-R 星启动变硬**（PNN 大气的直接结果）；电离参数范围：6 × 10⁶ ≤ χ ≤ 6 × 10⁷；金属丰度覆盖 0.2 – 3 Z☉；大多数星暴一致于 **1–3 Z☉**"
+> "**PEGASE 2 (Padova + Lejeune + Clegg & Middlemass PNN)**：**唯一**能覆盖几乎所有星暴星系的模型；谱在 1–4 Ry 区间**随 W-R 星启动变硬**（PNN 大气的直接结果）；电离参数范围：6 × $10^{6}$ ≤ $\chi$ ≤ 6 × $10^{7}$；金属丰度覆盖 0.2 – 3 Z☉；大多数星暴一致于 **1–3 Z☉**"
 
 **主干**：PEGASE 是唯一覆盖所有观测点的模型 → 因 PNN 大气使 1–4 Ry 变硬 → 给出电离参数与金属丰度约束。
 
-**修饰**：分号连接五个事实：唯一覆盖 → 硬 EUV 来源 → χ 范围 → Z 范围 → 星暴普遍金属丰度 1–3 Z☉。
+**修饰**：分号连接五个事实：唯一覆盖 → 硬 EUV 来源 → $\chi$ 范围 → Z 范围 → 星暴普遍金属丰度 1–3 Z☉。
 
-**翻译**：PEGASE 2（Padova 演化轨 + Lejeune 大气 + Clegg & Middlemass PNN 大气）是唯一能覆盖几乎所有观测星暴星系位置的模型；其 EUV 谱在 1–4 Ry 区间随 W-R 星的启动而变硬（这是 PNN 大气的直接结果）；模型覆盖的电离参数范围为 6×10⁶ ≤ χ ≤ 6×10⁷ cm s⁻¹，金属丰度范围为 0.2–3 Z☉，其中大多数观测星暴与 1–3 Z☉ 的金属丰度一致。
+**翻译**：PEGASE 2（Padova 演化轨 + Lejeune 大气 + Clegg & Middlemass PNN 大气）是唯一能覆盖几乎所有观测星暴星系位置的模型；其 EUV 谱在 1–4 Ry 区间随 W-R 星的启动而变硬（这是 PNN 大气的直接结果）；模型覆盖的电离参数范围为 6×$10^{6}$ ≤ $\chi$ ≤ 6×$10^{7}$ cm s⁻¹，金属丰度范围为 0.2–3 Z☉，其中大多数观测星暴与 1–3 Z☉ 的金属丰度一致。
 
 ---
 
 ### C4. §6.6 SNR 贡献可忽略
 
-> "**结论**：SNR 对 log([O III]/Hβ) 的贡献 **> 20%**，实际约 **~2%**（低一个数量级），**可忽略**。"
+> "**结论**：SNR 对 log([O III]/H$\beta$) 的贡献 **> 20%**，实际约 **~2%**（低一个数量级），**可忽略**。"
 
-**主干**：SNR 对 [O III]/Hβ 的贡献 ~2% → 可忽略。
+**主干**：SNR 对 [O III]/H$\beta$ 的贡献 ~2% → 可忽略。
 
-**修饰**：">20%"是 Hβ 光度的贡献上界（用于说明理论最大）；"实际 ~2%"是 [O III]/Hβ 的实际贡献；"低一个数量级"说明实际值比 Hβ 上界低 10×；"可忽略"是结论。
+**修饰**：">20%"是 H$\beta$ 光度的贡献上界（用于说明理论最大）；"实际 ~2%"是 [O III]/H$\beta$ 的实际贡献；"低一个数量级"说明实际值比 H$\beta$ 上界低 10×；"可忽略"是结论。
 
-**翻译**：结论：尽管 SNR 对 Hβ 光度贡献可达 >20%，但对 log([O III]/Hβ) 的诊断比值贡献实际仅约 ~2%（比 Hβ 上界低一个数量级），因此可忽略。
+**翻译**：结论：尽管 SNR 对 H$\beta$ 光度贡献可达 >20%，但对 log([O III]/H$\beta$) 的诊断比值贡献实际仅约 ~2%（比 H$\beta$ 上界低一个数量级），因此可忽略。
 
 ---
 

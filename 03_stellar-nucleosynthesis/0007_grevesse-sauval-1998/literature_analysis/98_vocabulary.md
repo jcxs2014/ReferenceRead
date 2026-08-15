@@ -24,7 +24,7 @@
 | owing to | prep. | 因果 | 由于 | "**Owing to** improved transition probabilities, solar-meteorite discrepancies have largely vanished." |
 | given that | conj. | 条件因果 | 鉴于 | "**Given that** the Li-depletion factor is 160, standard convection models cannot explain it." |
 | namely | adv. | 举例 | 即 | "three improvements: (1) atomic data, **namely** A_ij / gf; (2) 3D models; (3) new Fe analysis." |
-| such as | phr. | 举例 | 例如 | "several sources, **such as** Sunspots, SW, SEP, γ-rays." |
+| such as | phr. | 举例 | 例如 | "several sources, **such as** Sunspots, SW, SEP, $\gamma$-rays." |
 | for instance | phr. | 举例 | 例如 | "volatiles lost in CI, **for instance** H, C, N, O." |
 | in summary | phr. | 结论 | 总之 | §6 结论处 |
 | overall | adv. | 结论 | 总体而言 | "**Overall**, solar and CI chondrite abundances agree perfectly." |
@@ -73,11 +73,11 @@
 **翻译**：对流区底部的元素迁移效应（它预测现今光球丰度应比陨石给出的原太阳星云丰度低 10–15%）并未被观测到；这令人困惑但并不意外，因为光球丰度不确定度仍然太大，无法探测到如此微弱的效应。
 
 ### C2. §4.5（Fe 争议解决）
-> "Using the **Holweger & Müller (1974)** empirical photospheric model and **65 Fe I lines**, one sees a **clear negative correlation** between derived A(Fe) and excitation potential; **by** lowering the temperature of the model by **~200 K at log τ ≈ −3**, the excitation-potential dependence disappears, and all lines converge on **A(Fe) = 7.50 ± 0.05**, **in agreement** with meteorites."
+> "Using the **Holweger & Müller (1974)** empirical photospheric model and **65 Fe I lines**, one sees a **clear negative correlation** between derived A(Fe) and excitation potential; **by** lowering the temperature of the model by **~200 K at log $\tau$ ≈ −3**, the excitation-potential dependence disappears, and all lines converge on **A(Fe) = 7.50 ± 0.05**, **in agreement** with meteorites."
 
 **主干**：one sees a clear negative correlation; the dependence disappears; all lines converge on A(Fe) = 7.50 ± 0.05
 **修饰**：Using … 方式状语；by lowering … 方式状语说明修正；in agreement with meteorites 结果状语
-**翻译**：使用 Holweger & Müller (1974) 经验光球模型和 65 条 Fe I 线，可看到导出的 A(Fe) 与激发势之间存在清晰的负相关；通过在 log τ ≈ −3 处将模型温度降低约 200 K，激发势依赖消失，所有线收敛于 A(Fe) = 7.50 ± 0.05，与陨石值一致。
+**翻译**：使用 Holweger & Müller (1974) 经验光球模型和 65 条 Fe I 线，可看到导出的 A(Fe) 与激发势之间存在清晰的负相关；通过在 log $\tau$ ≈ −3 处将模型温度降低约 200 K，激发势依赖消失，所有线收敛于 A(Fe) = 7.50 ± 0.05，与陨石值一致。
 
 ### C3. §4.2（Li-Be-B 悖论）
 > "The Sun is **depleted in Li by a factor 160** relative to the protosolar value (A_Li,prim ≈ 3.3 vs. A_Li,phot = 1.10), **whereas** Be and B are essentially undestroyed; **standard convection models cannot reproduce** this pattern, but **a mild mixing below the base of the convection zone** (Blöcker 1998; Vauclair 1998; Zahn 1998) successfully explains it."

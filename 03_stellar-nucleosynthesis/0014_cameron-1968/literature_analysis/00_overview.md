@@ -35,7 +35,7 @@ path: 03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overvi
 >
 > 前序阅读:
 > - `../0013_bertone-hooper-2018/` (本分类下上一篇)
-> - `../0001_b2fh-1957/` (B²FH 1957 核合成框架 — 本文丰度表的理论背景与核过程分类来源 [FACT])
+> - `../0001_b2fh-1957/` (B$^2$FH 1957 核合成框架 — 本文丰度表的理论背景与核过程分类来源 [FACT])
 > - `../0003_fowler-1984/` (Fowler 1984 — 核合成理论后续 [FACT])
 > - `../0006_anders-grevesse/` (Anders & Grevesse 1989 — 丰度系继承链 [FACT])
 >
@@ -75,7 +75,7 @@ path: 03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overvi
 
 # 2. 文献在丰度系谱中的位置
 
-[FACT] 本文是**Suess-Urey 1956 表的继承者**和**B²FH (1957) 核合成理论的丰度基准**;其内部又给出了 Cameron (1963) 未发表版与 Cameron (1967) 最新版的对照 (Table 1)。
+[FACT] 本文是**Suess-Urey 1956 表的继承者**和**B$^2$FH (1957) 核合成理论的丰度基准**;其内部又给出了 Cameron (1963) 未发表版与 Cameron (1967) 最新版的对照 (Table 1)。
 
 [INTERPRETATION] 太阳/宇宙丰度表的迭代谱系如下(按年代):
 
@@ -89,7 +89,7 @@ Cameron (1959) Astrophys. J. 129, 676
 Cameron (1963) (未发表, Yale 讲义)
     │  ← 更多基于好质量的陨石数据
     ▼
-B²FH (1957) Rev. Mod. Phys. 29, 547
+B$^2$FH (1957) Rev. Mod. Phys. 29, 547
     │  ← 提出 r/s/p 三分法, 反过来要求丰度表满足的约束
     ▼
 **Cameron (1968) — 本文**
@@ -101,7 +101,7 @@ Anders & Grevesse (1989) — 又一代修订
  Lodders / Asplund 等 — 现代太阳丰度
 ```
 
-[CRITIQUE] 本文是"过渡期"丰度表: 它仍然用 Si = 10⁶ 作为归一化基准(而非现代 log ε_H = 12 标度); 表 1 中给出的元素丰度以"相对 Si = 10⁶ 的数密度"给出, 数量级与 Anders & Grevesse 1989 表可作直接对照,但不应直接引用到现代数值工作。
+[CRITIQUE] 本文是"过渡期"丰度表: 它仍然用 Si = $10^{6}$ 作为归一化基准(而非现代 log $\epsilon$_H = 12 标度); 表 1 中给出的元素丰度以"相对 Si = $10^{6}$ 的数密度"给出, 数量级与 Anders & Grevesse 1989 表可作直接对照,但不应直接引用到现代数值工作。
 
 ---
 
@@ -114,9 +114,9 @@ A New Table of Abundances of the Elements in the Solar System
 ├── §0  Front Matter
 │     ├── Title / Author / Affiliation (p.126)
 │     └── Abstract (p.126)
-├── §1  Historical Context — Suess-Urey 1956 → B²FH → Cameron 1959 (pp.126–127)
+├── §1  Historical Context — Suess-Urey 1956 → B$^2$FH → Cameron 1959 (pp.126–127)
 │     ├── Suess-Urey 1956 的贡献与不足 [FACT]
-│     ├── B²FH (1957) & Cameron (1957) 的核过程识别 [FACT]
+│     ├── B$^2$FH (1957) & Cameron (1957) 的核过程识别 [FACT]
 │     └── Cameron 1959 的三项预言 (Sr/Zr 反转、稀土修正、Pb 增大) [FACT]
 ├── §2  Motivation — 陨石丰度类差异与 Type I 碳质球粒陨石的选择 (p.127)
 │     ├── Cameron 1963 未发表汇编 [FACT]
@@ -138,22 +138,22 @@ A New Table of Abundances of the Elements in the Solar System
 │     ├── 表头: Element / A / %Abundance / Class / Abundance [FACT]
 │     ├── Class 分类: F(r-process)/ S(s-process)/ B(p-process) [FACT]
 │     ├── 核素从 H-1 到 U-238 的完整列表 [FACT]
-│     └── He-3/He-4 = 3×10⁻⁴, K-40/Ar-40 校正, Th/U/K-40 放射性回推 4.5×10⁹ 年 [FACT]
+│     └── He-3/He-4 = 3×$10^{-4}$, K-40/Ar-40 校正, Th/U/K-40 放射性回推 4.5×$10^{9}$ 年 [FACT]
 ├── §6  Figure 1 — 丰度随质量数 A 的分布 (p.137)
 ├── §7  Figures 2–5 — 中子俘获产物按元素的丰度 (pp.138–140)
 │     ├── 符号说明: 奇数 A 为实心点, 偶数 A 为叉号 [FACT]
 │     ├── 偶数 A 若为 F 同量异位素 → 叉外加方框 [FACT]
 │     └── 偶数 A 若为 S 同量异位素 → 叉外加圆 [FACT]
 ├── §8  Figure 6 — r/s/p 三条丰度趋势曲线 (pp.140–141)
-│     ├── σ_N = ⟨σ_ν⟩ × N 是光滑单调递减函数 (Seeger, Fowler, Clayton 1965) [FACT]
+│     ├── $\sigma$_N = ⟨$\sigma$_$\nu$⟩ × N 是光滑单调递减函数 (Seeger, Fowler, Clayton 1965) [FACT]
 │     ├── S 趋势有局部散布; F 趋势异常光滑 [FACT]
 │     └── F 峰在 A=130 (N=82) 与 A=195 (N=126) [FACT]
 ├── §9  Astrophysical Implications (pp.141–143)
-│     ├── F 趋势光滑 → 存在丰度平滑机制 (多 Z 贡献或 β-衰变后的中子发射) [FACT]
-│     ├── F 过程须"骤然终止",否则 β 衰变会破坏分布 [FACT]
+│     ├── F 趋势光滑 → 存在丰度平滑机制 (多 Z 贡献或 $\beta$-衰变后的中子发射) [FACT]
+│     ├── F 过程须"骤然终止",否则 $\beta$ 衰变会破坏分布 [FACT]
 │     ├── A=130,195 峰发生在被抛射的超新星包层底部,物质大部分已被转化为中子 [FACT]
 │     ├── 中等质量 (A≈40,70) F 产物过大 → 需另外的 F 过程 [FACT]
-│     ├── 可能机制: 超新星激波穿越 He 壳层, (α,n) 反应作中子源 [FACT]
+│     ├── 可能机制: 超新星激波穿越 He 壳层, ($\alpha$,n) 反应作中子源 [FACT]
 │     ├── B 产物可来自光致蜕变或富氢高温区的质子俘获 [FACT]
 │     └── Figure 6 支持质子俘获机制, C 库仑位垒单调压低 B 产物 [FACT]
 ├── §10 Acknowledgements (p.143)
@@ -186,7 +186,7 @@ A New Table of Abundances of the Elements in the Solar System
 
 ### 关联论文
 
-- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B²FH 1957 核合成框架，本文丰度表的理论骨架
+- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B$^2$FH 1957 核合成框架，本文丰度表的理论骨架
 - [`0002_trimble-1975`](../../0002_trimble-1975/literature_analysis/00_overview.md) — 恒星核合成综合评述
 - [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — r/s/p 过程系统化的后续发展
 - [`0006_anders-grevesse`](../../0006_anders-grevesse/literature_analysis/00_overview.md) — 本文丰度表的直接继承者与修订者

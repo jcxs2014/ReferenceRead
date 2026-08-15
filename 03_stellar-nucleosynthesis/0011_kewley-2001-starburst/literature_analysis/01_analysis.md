@@ -23,7 +23,7 @@
 2. 温热红外星暴在 1–4 Ry 区间拥有**相对较硬**的 EUV 场；
 3. PEGASE 的 1–4 Ry 连续谱比 STARBURST99 更硬，差异主要来自 **W-R 星大气模型** 的不同；
 4. Schmutz 大气模型更接近物理现实，但无法单独产生 1–4 Ry 的硬 EUV——**连续谱金属不透明度（continuum metal blanketing）** 可能是解法之一；
-5. SNR 激波机械能贡献到光电离模型 >20%（Hβ 光度贡献约 16–20%），不足以解释差异；
+5. SNR 激波机械能贡献到光电离模型 >20%（H$\beta$ 光度贡献约 16–20%），不足以解释差异；
 6. 给出新的**星暴–AGN 理论分类线**（rectangular hyperbola 拟合公式）。
 
 ## 0.2 论文结构树
@@ -101,13 +101,13 @@
 
 ## 2.1 样本选择标准
 
-[FACT] 285 个温热 IRAS 星系样本，来自 Strauss et al. 1992 目录，选在 δ ≤ −10°，附加标准：
+[FACT] 285 个温热 IRAS 星系样本，来自 Strauss et al. 1992 目录，选在 $\delta$ ≤ −10°，附加标准：
 
 | # | 标准 | 数值 |
 |---|------|------|
-| 1 | 60 μm 流量 | ≥ 2.5 Jy；25, 60, 100 μm 有中等或高质量探测 |
+| 1 | 60 $\mu$m 流量 | ≥ 2.5 Jy；25, 60, 100 $\mu$m 有中等或高质量探测 |
 | 2 | 红移 | log L_FIR < 11 时 z < 8000 km s⁻¹；log L_FIR ≥ 11 时 z < 30000 km s⁻¹ |
-| 3 | 银纬 / 赤纬 | \|b\| ≥ 15°；δ ≤ −10° |
+| 3 | 银纬 / 赤纬 | \|b\| ≥ 15°；$\delta$ ≤ −10° |
 | 4 | 温热 FIR 颜色 | 8 ≤ F60/F25 ≤ 0.5（应为 −8 ≤ F60/F25 ≤ 0.5 之误，原文如此，疑为印刷）；2 ≤ F60/F100 ≤ 0.5（同上） |
 
 [CRITIQUE] 选择标准的第 4 项颜色不等式数值（8 ≤ F60/F25 ≤ 0.5）在原文中是明显印刷错误，实际应为 log(F60/F25) 或类似量级。参考 Veilleux & Osterbrock 与 Kewley et al. 2001 原始选择为 0.5 ≤ (F60/F25) ≤ 8。
@@ -115,8 +115,8 @@
 ## 2.2 光谱观测
 
 [FACT]
-- 285 个中 225 个获得了 Hβ 处 50 km s⁻¹ 分辨率光学光谱；
-- S/N > 3σ；
+- 285 个中 225 个获得了 H$\beta$ 处 50 km s⁻¹ 分辨率光学光谱；
+- S/N > 3$\sigma$；
 - 使用 Mount Stromlo & Siding Springs 2.3 m 望远镜的 Double Beam Spectrograph，蓝/红两段波长；
 - 观测细节见 Kewley et al. 2000, 2001。
 
@@ -127,7 +127,7 @@
 
 [FACT] 作者论证本星暴样本 AGN 污染低：
 1. Kewley et al. 2001 显示诊断图对 AGN 存在极敏感——即使 AGN 仅贡献 **20%** 光学发射，线比值也会被推入 AGN 区域；
-2. 本样本中 D₁ ≡ F60/F25 ≤ 8（即无温热色）的星暴很少，而温热色通常标志 AGN 能量主导。
+2. 本样本中 $D_{1}$ ≡ F60/F25 ≤ 8（即无温热色）的星暴很少，而温热色通常标志 AGN 能量主导。
 
 [FACT] 结论：与 Veilleux et al. 1999 与 Genzel et al. 1998 一致——ULIRG 中分类为星暴的星系缺乏能量主导的 AGN。
 
@@ -153,7 +153,7 @@
 ## 3.2 演化轨细节
 
 [FACT] Padova vs Geneva 的差别：
-- **混叠（overshooting）**：Padova 对 m ≥ 1 M☉ 混叠，混叠距离/压力标高比更大，下探到更低质量；Geneva 仅在 > 1.5 M☉ 时混叠；
+- **混叠（overshooting）**：Padova 对 m ≥ 1 $M_\odot$ 混叠，混叠距离/压力标高比更大，下探到更低质量；Geneva 仅在 > 1.5 $M_\odot$ 时混叠；
 - **不透明度**：Padova 用 Iglesias, Rogers & Wilson 1992 OPAL 不透明度；Geneva 用 Rogers & Iglesias 1992；
 - **混合长度**：两套轨相近；
 - **氦含量**：Padova Y = 0.28；Geneva Y = 0.30；
@@ -164,7 +164,7 @@
 [FACT] 大质量星氢燃烧寿命：
 $$\tau \simeq 4.5 \left(\frac{M}{40\, M_\odot}\right)^{-0.43} \text{ Myr}$$
 
-[FACT] 因此，对任何持续 > **~6 Myr** 的星暴，对 > **~20 M☉** 的所有质量均建立出生/死亡的动态平衡，同时 W-R 星也能对 EUV 做出完整贡献。
+[FACT] 因此，对任何持续 > **~6 Myr** 的星暴，对 > **~20 $M_\odot$** 的所有质量均建立出生/死亡的动态平衡，同时 W-R 星也能对 EUV 做出完整贡献。
 
 [FACT] Figure 1 显示（Z = 1 Z☉）：
 - PEGASE 年龄 0–6 Myr，STARBURST99 年龄 0–8 Myr；
@@ -207,9 +207,9 @@ $$R_t \equiv R_* \left(\frac{v_\infty}{v_{\text{ref}}}\right) \left(\frac{\dot{M
 
 [FACT] 计算设置：
 - **几何**：平面-平行、等压模型
-- **电子密度** $n_e = 350$ cm⁻³（来自 [S II] λ6716, λ6731 禁戒线比值，配合 MAPPINGS III 五级模型原子推导；Kewley et al. 2001 中给出每颗星系的电子密度）
+- **电子密度** $n_e = 350$ cm⁻³（来自 [S II] $\lambda$6716, $\lambda$6731 禁戒线比值，配合 MAPPINGS III 五级模型原子推导；Kewley et al. 2001 中给出每颗星系的电子密度）
 - **电离参数** $\chi$（cm s⁻¹，尺寸化）定义在星云**内边界**（最接近激发星处）；无量纲形式 $U = \chi/c$
-- $\chi$ 变化范围：**5 × 10⁶ – 3 × 10⁸ cm s⁻¹**（即 log U = −3.5 – −2.0）
+- $\chi$ 变化范围：**5 × $10^{6}$ – 3 × $10^{8}$ cm s⁻¹**（即 log U = −3.5 – −2.0）
 - 金属丰度：PEGASE **0.01 – 3 Z☉**；STARBURST99 **0.05 – 2 Z☉**
 
 ## 4.2 尘埃物理
@@ -291,7 +291,7 @@ $$\log(\text{N/H}) = -3.94 + 2\log(Z/Z_\odot)$$
 
 [FACT] 观测证据支持连续星暴：
 - 许多星暴处于合并星系对——理论上恒星形成应持续星系动力学时标；
-- 一些谱显示 Hβ 低等值宽度或 Hβ 吸收线特征——直接证据显示恒星形成持续数 Myr；
+- 一些谱显示 H$\beta$ 低等值宽度或 H$\beta$ 吸收线特征——直接证据显示恒星形成持续数 Myr；
 - Goldader et al. 1997 发现瞬时模型对亮红外星系给出的年龄范围不现实。
 
 ## 5.2 连续模型（§4.2）
@@ -306,7 +306,7 @@ $$\log(\text{N/H}) = -3.94 + 2\log(Z/Z_\odot)$$
 [FACT]
 - **唯一**能覆盖几乎所有星暴星系的模型；
 - 谱在 1–4 Ry 区间**随 W-R 星启动变硬**（PNN 大气的直接结果）；
-- 电离参数范围：6 × 10⁶ ≤ χ ≤ 6 × 10⁷；
+- 电离参数范围：6 × $10^{6}$ ≤ $\chi$ ≤ 6 × $10^{7}$；
 - 金属丰度覆盖 0.2 – 3 Z☉；
 - 大多数星暴一致于 **1–3 Z☉**；低丰度物体罕见。
 
@@ -314,7 +314,7 @@ $$\log(\text{N/H}) = -3.94 + 2\log(Z/Z_\odot)$$
 [FACT]
 - Schmutz 大气在 1–3 Ry 随星团年龄几乎不变；
 - 与零龄瞬时模型给出相似结果；
-- W-R 星在 He II 电离极限以上（4–8 Ry）贡献可观辐射——因此可探测 **He II λ4686**（§5 讨论）；
+- W-R 星在 He II 电离极限以上（4–8 Ry）贡献可观辐射——因此可探测 **He II $\lambda$4686**（§5 讨论）；
 - **仍无法**解释约一半观测点的位置——需要更硬的电离谱。
 
 **(c) STARBURST99 (Geneva + Lejeune  alone)**
@@ -325,18 +325,18 @@ $$\log(\text{N/H}) = -3.94 + 2\log(Z/Z_\odot)$$
 ## 5.3 诊断图关键数值
 
 [FACT] 连续 PEGASE 模型覆盖区域：
-- log([N II]/Hα): −2 到 0
-- log([O III]/Hβ): −1 到 1.5
-- log([S II]/Hα): −2 到 0
-- log([O I]/Hα): −3 到 −0.5
+- log([N II]/H$\alpha$): −2 到 0
+- log([O III]/H$\beta$): −1 到 1.5
+- log([S II]/H$\alpha$): −2 到 0
+- log([O I]/H$\alpha$): −3 到 −0.5
 
 [FACT] MAPPINGS III 网格参数：
-- 电离参数 χ：5×10⁶, 1×10⁷, 2×10⁷, 4×10⁷, 8×10⁷, 1.5×10⁸, 3×10⁸ cm s⁻¹
+- 电离参数 $\chi$：5×$10^{6}$, 1×$10^{7}$, 2×$10^{7}$, 4×$10^{7}$, 8×$10^{7}$, 1.5×$10^{8}$, 3×$10^{8}$ cm s⁻¹
 - 金属丰度（Z/Z☉）：0.05, 0.1, 0.2, 0.4/0.5, 1.0, 1.5, 2.0, 3.0
 
 [FACT] Dopita et al. 2000 证明：
-- [O III] λ5007 / [O II] λλ3726,9 是**电离参数**的好诊断；
-- [N II] λ6584 / [O II] λλ3726,9 是**丰度**的最佳诊断（在 0.1–3 Z☉ 单调）。
+- [O III] $\lambda$5007 / [O II] $\lambda$$\lambda$3726,9 是**电离参数**的好诊断；
+- [N II] $\lambda$6584 / [O II] $\lambda$$\lambda$3726,9 是**丰度**的最佳诊断（在 0.1–3 Z☉ 单调）。
 
 [FACT] 因本文光谱未覆盖 [O II]，Figures 7, 8（瞬时）与 12, 13（连续）专门提供给天文界使用。
 
@@ -350,11 +350,11 @@ $$\log(\text{N/H}) = -3.94 + 2\log(Z/Z_\odot)$$
 
 ## 6.2 激波/光电离贡献比值（关键公式 1）
 
-[FACT] SN 与恒星风产生的机械能光度 $E_0^{\text{mech}}$ 通过辐射激波转化为光学线发射。激波 Hβ 相对光电离 Hβ 的贡献：
+[FACT] SN 与恒星风产生的机械能光度 $E_0^{\text{mech}}$ 通过辐射激波转化为光学线发射。激波 H$\beta$ 相对光电离 H$\beta$ 的贡献：
 
 $$\frac{L_{\text{H}\beta}(\text{shock})}{L_{\text{H}\beta}(\text{photo})} = \frac{\alpha E_0^{\text{mech}}}{\alpha_{\text{eff}} \, h\nu_{\text{H}\beta} \, S^*} \quad (1)$$
 
-其中 $\alpha$ 为转化为 Hβ 通量的比例、$\alpha_{\text{eff}}$ 为氢的有效复合系数、$S^*$ 为热星团产生的电离光子数。
+其中 $\alpha$ 为转化为 H$\beta$ 通量的比例、$\alpha_{\text{eff}}$ 为氢的有效复合系数、$S^*$ 为热星团产生的电离光子数。
 
 ## 6.3 SNR 辐射阶段
 
@@ -372,10 +372,10 @@ $$\tau_{\text{cool}} \simeq 200 \, v_{100}^{-4.4} \, Z \, n \quad \text{（单�
 ## 6.4 样本的 SFR 与 SNR 数目
 
 [FACT]
-- 总机械能光度：$6 \times 10^{41}$ erg s⁻¹ (M☉ yr⁻¹)⁻¹（Leitherer et al. 1999）；
-- 由平均 IR 光度（Kennicutt 1998）导出 SFR ≈ **3.4 M☉ yr⁻¹**（注意 Kennicutt 定义 $L_{\text{IR}} = L_{\text{FIR}}$）；
-- 假设 IR 光度均匀分布于 > 7 kpc 星系，1 kpc 视场内 SFR ≈ **0.07 M☉ yr⁻¹**；
-- 用 Ha 光度对模板星暴的 SFR ≈ **0.04 M☉ yr⁻¹**（低于 FIR 值——尘埃吸收降低 Ha 探测）。
+- 总机械能光度：$6 \times 10^{41}$ erg s⁻¹ ($M_\odot$ yr⁻¹)⁻¹（Leitherer et al. 1999）；
+- 由平均 IR 光度（Kennicutt 1998）导出 SFR ≈ **3.4 $M_\odot$ yr⁻¹**（注意 Kennicutt 定义 $L_{\text{IR}} = L_{\text{FIR}}$）；
+- 假设 IR 光度均匀分布于 > 7 kpc 星系，1 kpc 视场内 SFR ≈ **0.07 $M_\odot$ yr⁻¹**；
+- 用 Ha 光度对模板星暴的 SFR ≈ **0.04 $M_\odot$ yr⁻¹**（低于 FIR 值——尘埃吸收降低 Ha 探测）。
 
 [FACT] 600 km s⁻¹ 激波模型（球形，1 pc 半径，太阳丰度，n = 350 cm⁻³）机械能光度：
 $$3.6 \times 10^{39} \text{ erg s}^{-1}$$
@@ -388,24 +388,24 @@ $$3.6 \times 10^{39} \text{ erg s}^{-1}$$
 
 | 谱线 | L (erg s⁻¹) |
 |------|-------------|
-| [O III] | 2.5 × 10³⁹ |
-| Hβ | 3.3 × 10³⁸ |
-| Hα | 9.8 × 10⁴⁰ |
+| [O III] | 2.5 × $10^{39}$ |
+| H$\beta$ | 3.3 × $10^{38}$ |
+| H$\alpha$ | 9.8 × $10^{40}$ |
 
-[FACT] SNR 对 Hβ 发射的贡献 ≈ **16–20%**。
+[FACT] SNR 对 H$\beta$ 发射的贡献 ≈ **16–20%**。
 
-## 6.6 综合 [O III]/Hβ 公式（关键公式 3）
+## 6.6 综合 [O III]/H$\beta$ 公式（关键公式 3）
 
-[FACT] 观测总 log([O III]/Hβ) 为星暴与 SNR 贡献之和：
+[FACT] 观测总 log([O III]/H$\beta$) 为星暴与 SNR 贡献之和：
 $$\log(\text{[O III]}/\text{H}\beta) = \log(\text{[O III]}_{\text{starb}} + \text{[O III]}_{\text{SNR}}) - \log(\text{H}\beta_{\text{starb}} + \text{H}\beta_{\text{SNR}}) \quad (3)$$
 
-[FACT] 在 [O III]$_{\text{starb}} \to 0$（低全局 χ 极限）：
+[FACT] 在 [O III]$_{\text{starb}} \to 0$（低全局 $\chi$ 极限）：
 $$\log(\text{[O III]}/\text{H}\beta) \geq 0.0 \quad (4)$$
-（密度 350 cm⁻³，SFR ≈ 0.07 M☉ yr⁻¹ 在 1 kpc² 内）
+（密度 350 cm⁻³，SFR ≈ 0.07 $M_\odot$ yr⁻¹ 在 1 kpc² 内）
 
-[FACT] 但观测到的实际下限为 log([O III]/Hβ) ≈ **−1.0**（比 SNR 模型下限低一个数量级）。
+[FACT] 但观测到的实际下限为 log([O III]/H$\beta$) ≈ **−1.0**（比 SNR 模型下限低一个数量级）。
 
-[FACT] **结论**：SNR 对 log([O III]/Hβ) 的贡献 **> 20%**，实际约 **~2%**（低一个数量级），**可忽略**。
+[FACT] **结论**：SNR 对 log([O III]/H$\beta$) 的贡献 **> 20%**，实际约 **~2%**（低一个数量级），**可忽略**。
 
 [FACT] 200–300 km s⁻¹ 的激波速度预期与观测更相容，产生的 [O III]$_{\text{SNR}}$ 贡献可忽略。
 
@@ -419,35 +419,35 @@ $$\log(\text{[O III]}/\text{H}\beta) \geq 0.0 \quad (4)$$
 - W-R 特征首次在矮发射星系 He2-10 发现（Allen, Wright & Goss 1976）；
 - Osterbrock & Cohen 1982 定义 W-R 星系——含宽恒星发射线（大量 W-R 星）；
 - Kunth & Joubert 1985：1 例正检，14 例疑似；
-- Conti 1991 编目，宽 [He II] λ4686 或宽 λ4640 (N III) 为主要识别特征；
-- Guseva, Izotov & Thuan 2000：几乎所有样本星系都显示宽 W-R 发射，是 N III λ4640、C III λ4650、[Fe III] λ4658、He II λ4686 的未分辨混合体；弱 W-R 线包括 N III λ4512、Si III λ4565。
+- Conti 1991 编目，宽 [He II] $\lambda$4686 或宽 $\lambda$4640 (N III) 为主要识别特征；
+- Guseva, Izotov & Thuan 2000：几乎所有样本星系都显示宽 W-R 发射，是 N III $\lambda$4640、C III $\lambda$4650、[Fe III] $\lambda$4658、He II $\lambda$4686 的未分辨混合体；弱 W-R 线包括 N III $\lambda$4512、Si III $\lambda$4565。
 
 ## 7.2 模板平均星暴光谱
 
 [FACT] 单个星系 S/N 不足以探测 W-R 特征，因此作者构建"平均"模板：
-- 从样本中 56 个 Hβ S/N ≥ 60 且零红移蓝端截止 < 4620 Å 的星暴星系；
+- 从样本中 56 个 H$\beta$ S/N ≥ 60 且零红移蓝端截止 < 4620 Å 的星暴星系；
 - **选择偏差警告**：选择高 S/N 星系可能偏向**年轻**、**更亮**的星暴；
-- Hβ 吸收等值宽度（Gaussian 同时拟合吸收+发射，IRAF ngauss_fits）≈ **3.6 Å**；
+- H$\beta$ 吸收等值宽度（Gaussian 同时拟合吸收+发射，IRAF ngauss_fits）≈ **3.6 Å**；
 - 对应连续星暴模型在太阳丰度下年龄上限 ≈ **7 Myr**（González Delgado & Leitherer 1999）。
 
-## 7.3 He II λ4686 关键约束
+## 7.3 He II $\lambda$4686 关键约束
 
 [FACT] 模板平均光谱中：
-- [Fe III] λ4658 与 He II λ4686 在 **2σ** 水平检出；
+- [Fe III] $\lambda$4658 与 He II $\lambda$4686 在 **2$\sigma$** 水平检出；
 - 线不明显宽化——可能是低 S/N 效应；
-- log(He II λ4686 / Hβ) ≈ **−1.6**。
+- log(He II $\lambda$4686 / H$\beta$) ≈ **−1.6**。
 
 [FACT] 模型预测对比：
-| 电离连续谱 | log(He II λ4686/Hβ) |
+| 电离连续谱 | log(He II $\lambda$4686/H$\beta$) |
 |-----------|----------------------|
 | PEGASE 或 STARBURST99 (Lejeune) | ≈ **−6** |
 | STARBURST99 (Lejeune + **Schmutz**) | ≈ **−1.7** |
 
-[FACT] Schmutz 扩展大气模型预测的 He II/Hβ ≈ −1.7 与观测 −1.6 **一致**，支持 Schmutz 大气更适用于星暴星系。
+[FACT] Schmutz 扩展大气模型预测的 He II/H$\beta$ ≈ −1.7 与观测 −1.6 **一致**，支持 Schmutz 大气更适用于星暴星系。
 
 [FACT] 但 Schmutz 大气在 1–4 Ry 区间无法产生足够硬的 EUV——见 §6（continuum metal opacities 讨论）。
 
-[INTERPRETATION] He II λ4686 提供了对 Schmutz 大气模型**唯一直接的光谱验证**，是 PEGASE vs STARBURST99 争论的关键锚点。
+[INTERPRETATION] He II $\lambda$4686 提供了对 Schmutz 大气模型**唯一直接的光谱验证**，是 PEGASE vs STARBURST99 争论的关键锚点。
 
 ---
 
@@ -482,11 +482,11 @@ $$\log(\text{[O III]}/\text{H}\beta) \geq 0.0 \quad (4)$$
 - **He II 电离极限以上变软**（主要因 C 不透明度）；
 - **1–4 Ry 区间更硬但更弱**——正是诊断图所需的形状。
 
-[FACT] 潜在反证：若如此，Schmutz 模型应预测过多的 He II λ4686——与观测不符（观测 log ≈ −1.6，模型 ≈ −1.7，**相符**）。
+[FACT] 潜在反证：若如此，Schmutz 模型应预测过多的 He II $\lambda$4686——与观测不符（观测 log ≈ −1.6，模型 ≈ −1.7，**相符**）。
 
 [FACT] **结论**：Continuum metal blanketing 是可能解法之一，但**可能不是唯一解法**。
 
-[CRITIQUE] 作者承认 He II λ4686 观测结果与 Schmutz 模型一致这一事实，使得 continuum metal blanketing 的解释力受到一定质疑——如果引入 continuum metal blanketing，He II λ4686 应更强。这一张力暗示问题可能是**多因素的**（如 IMF 斜率、W-R 星寿命、密度参数等）。
+[CRITIQUE] 作者承认 He II $\lambda$4686 观测结果与 Schmutz 模型一致这一事实，使得 continuum metal blanketing 的解释力受到一定质疑——如果引入 continuum metal blanketing，He II $\lambda$4686 应更强。这一张力暗示问题可能是**多因素的**（如 IMF 斜率、W-R 星寿命、密度参数等）。
 
 ---
 
@@ -496,7 +496,7 @@ $$\log(\text{[O III]}/\text{H}\beta) \geq 0.0 \quad (4)$$
 
 [FACT] 用 **PEGASE 网格**（最硬 EUV）在 VO87 诊断图上设定星暴模型理论上限。
 
-[FACT] 现实范围：Z = 0.1 – 3.0；χ = 5 × 10⁶ – 3 × 10⁸ cm s⁻¹（−3.5 ≤ log U ≤ −2.0）；连续星暴模型**始终**落在经验上限线下方/左方。
+[FACT] 现实范围：Z = 0.1 – 3.0；$\chi$ = 5 × $10^{6}$ – 3 × $10^{8}$ cm s⁻¹（−3.5 ≤ log U ≤ −2.0）；连续星暴模型**始终**落在经验上限线下方/左方。
 
 [FACT] 原因：电离参数-金属丰度两参数网格在诊断图上**折回自身**——无参数组合能生成此折回上方的理论点。
 
@@ -548,11 +548,11 @@ $$\log\frac{\text{[O III]}\,\lambda 5007}{\text{H}\beta} \leq \frac{0.73}{\log(\
 - 1–4 Ry 区间**变硬**。
 
 ## Figures 4–6 — 瞬时模型在 VO87 图上
-- [N II]/Hα、[S II]/Hα、[O I]/Hα vs [O III]/Hβ；
+- [N II]/H$\alpha$、[S II]/H$\alpha$、[O I]/H$\alpha$ vs [O III]/H$\beta$；
 - **观测点大量落入"禁带"**——瞬时模型无法解释。
 
 ## Figures 7–8 — [O II] 相关图（瞬时）
-- [N II]/[O II] vs [O III]/Hβ 与 [N II]/[O II] vs [O III]/[O II]；
+- [N II]/[O II] vs [O III]/H$\beta$ 与 [N II]/[O II] vs [O III]/[O II]；
 - 观测上无 [O II] 数据，提供供天文界使用。
 
 ## Figures 9–11 — 连续模型在 VO87 图上
@@ -564,12 +564,12 @@ $$\log\frac{\text{[O III]}\,\lambda 5007}{\text{H}\beta} \leq \frac{0.73}{\log(\
 - 同 Figs 7–8 用途。
 
 ## Figure 14 — 模板平均星暴光谱
-- 56 个星暴星系平均（Hβ S/N ≥ 60, 蓝截止 < 4620 Å）；
-- 通量单位：1 × 10⁻¹⁵ erg s⁻¹ cm⁻² Å⁻¹。
+- 56 个星暴星系平均（H$\beta$ S/N ≥ 60, 蓝截止 < 4620 Å）；
+- 通量单位：1 × $10^{-15}$ erg s⁻¹ cm⁻² Å⁻¹。
 
 ## Figure 15 — Fig. 14 局部放大
-- 位置标记 N III λ4640、C III λ4650、[Fe III] λ4658、He II λ4686；
-- [Fe III] 与 He II 在 2σ 检出。
+- 位置标记 N III $\lambda$4640、C III $\lambda$4650、[Fe III] $\lambda$4658、He II $\lambda$4686；
+- [Fe III] 与 He II 在 2$\sigma$ 检出。
 
 ## Figure 16 — 理论分类线与极端混合线
 - 三幅 VO87 诊断图上的**粗线**为理论星暴上限；
@@ -585,9 +585,9 @@ $$\log\frac{\text{[O III]}\,\lambda 5007}{\text{H}\beta} \leq \frac{0.73}{\log(\
 1. PEGASE 与 STARBURST99 用 157 个温热红外星暴星系比较，主差异在于**演化轨与恒星大气模型**；
 2. 光学诊断图对**1–4 Ry 区间 EUV 谱硬度**最敏感；
 3. PEGASE 在该区间比 STARBURST99 **更硬**，主要来自 W-R 星大气模型差异；
-4. 模板平均光谱检出 **Fe III λ4658 与 He II λ4686**（2σ 水平），指示 W-R 活动，支持 Schmutz 大气模型；
+4. 模板平均光谱检出 **Fe III $\lambda$4658 与 He II $\lambda$4686**（2$\sigma$ 水平），指示 W-R 活动，支持 Schmutz 大气模型；
 5. **Continuum metal blanketing** 是使 Schmutz 大气模型达到观测 EUV 硬度的可能方案（但可能非唯一）；
-6. SNR 激波机械能贡献到 EUV > 20%（Hβ 光度贡献 16–20%），**不足以**解释差异；
+6. SNR 激波机械能贡献到 EUV > 20%（H$\beta$ 光度贡献 16–20%），**不足以**解释差异；
 7. 用 PEGASE EUV 场给出**极端星暴线**（公式 5–7），分类可靠性优于 VO87。
 
 ---
@@ -599,7 +599,7 @@ IRAS 温热星系含剧烈恒星形成 → EUV 电离辐射驱动星云发射线
 发射线诊断图对 1–4 Ry 硬度敏感 → 观测要求硬 EUV → 
 PEGASE vs STARBURST99 差异主要源于 W-R 星大气 → 
 Schmutz W-R 大气物理上更合理 → 但 Schmutz 无法单独给出 1–4 Ry 硬 EUV → 
-He II λ4686 检出支持 Schmutz → 
+He II $\lambda$4686 检出支持 Schmutz → 
 Continuum metal blanketing 可能解决硬度差异 → 
 SNR 激波贡献 >20% 不足以解决 → 
 PEGASE 最硬 EUV 提供理论星暴上限 → 
@@ -636,14 +636,14 @@ PEGASE 最硬 EUV 提供理论星暴上限 →
 3. 平面-平行、等压星云几何；
 4. IMF 为**标准**（文献未明确说明斜率，疑为 Salpeter）；
 5. 星暴星系 EUV 谱**不可见**，必须依赖理论；
-6. He II λ4686 来自模板平均，可能偏向年轻/亮星暴。
+6. He II $\lambda$4686 来自模板平均，可能偏向年轻/亮星暴。
 
 [FACT] 文献**未明确提供**：
 - IM F 具体斜率与质量范围；
 - 具体每个星系的 SFR；
 - PEGASE 与 STARBURST99 各自使用的 ZAMS；
 - MAPPINGS III 网格的完整输出；
-- He II λ4686 的实际等值宽度测量不确定度；
+- He II $\lambda$4686 的实际等值宽度测量不确定度；
 - 每个连续模型具体使用的金属丰度网格（0.01–3 Z☉ vs 0.05–2 Z☉ 的限制来自恒星轨本身）。
 
 [CRITIQUE] 作者未讨论 IMF 斜率变化对 EUV 硬度的影响——这是重要的未系统量化的不确定度来源。

@@ -31,23 +31,23 @@
 
 ## 99.2 一句话总结
 
-Cameron (1968) 以 Type I 碳质球粒陨石为主数据源、以核合成理论判据为内插依据,编纂了太阳/宇宙元素丰度的新基准表,首次将 B²FH (1957) 的 r/s/p 三分法反向输回到观测数据汇编中,并以此验证了 Suess-Urey 1956 表之后的 Sr/Zr 反转、稀土修正、Pb 增大三项预言。
+Cameron (1968) 以 Type I 碳质球粒陨石为主数据源、以核合成理论判据为内插依据,编纂了太阳/宇宙元素丰度的新基准表,首次将 B$^2$FH (1957) 的 r/s/p 三分法反向输回到观测数据汇编中,并以此验证了 Suess-Urey 1956 表之后的 Sr/Zr 反转、稀土修正、Pb 增大三项预言。
 
 ---
 
 ## 99.3 核心要点 (Must-Remember)
 
 1. **主数据源**: Type I 碳质球粒陨石(Orgueil, Ivuna),理由是"depletion 比 enrichment 更容易得到一致" [FACT]
-2. **归一化基准**: Si = 10⁶;Cameron (1967) 用 10 种非挥发分元素(Na/Mg/Al/Si/S/K/Ca/Ti/Co/Ni)的对数平均作基准;仍存"百分之几十"不确定性 [FACT]
+2. **归一化基准**: Si = $10^{6}$;Cameron (1967) 用 10 种非挥发分元素(Na/Mg/Al/Si/S/K/Ca/Ti/Co/Ni)的对数平均作基准;仍存"百分之几十"不确定性 [FACT]
 3. **8 元素核合成内插**: Ar, As, Kr, Nb, Ta, Pt, Hg 是"以理论导数据"的关键创新 [FACT]
 4. **Fe 丰度争议**: Cameron 选择陨石值(高),承认未解决 [FACT]
-5. **Table 2 Class 分类**: F(r-process)/S(s-process)/B(p-process) — B²FH 1957 分类的直接应用 [FACT]
+5. **Table 2 Class 分类**: F(r-process)/S(s-process)/B(p-process) — B$^2$FH 1957 分类的直接应用 [FACT]
 6. **三大预言**: Sr/Zr 反转(已确认)、稀土修正(已确认)、Pb 增大(介于两值之间) [FACT]
-7. **σ_N 判据**: s-process 中 ⟨σ_ν⟩×N 是 A 的光滑单调递减函数(Seeger, Fowler, Clayton 1965) [FACT]
+7. **$\sigma$_N 判据**: s-process 中 ⟨$\sigma$_$\nu$⟩×N 是 A 的光滑单调递减函数(Seeger, Fowler, Clayton 1965) [FACT]
 8. **r-process 异常光滑**: 需要丰度平滑机制 + 骤然终止 [FACT]
 9. **r-process 闭壳峰**: A=130 (N=82) 与 A=195 (N=126),发生在被抛射的超新星包层底部 [FACT]
-10. **i-process 的提出**: 中等质量(A≈40, 70)r 产物过大,需 He 壳层 (α,n) 反应作中子源 [FACT]
-11. **p-process 机制判据**: Figure 6 中 B 曲线支持质子俘获(但现代观点主张 γ-process) [FACT]
+10. **i-process 的提出**: 中等质量(A≈40, 70)r 产物过大,需 He 壳层 ($\alpha$,n) 反应作中子源 [FACT]
+11. **p-process 机制判据**: Figure 6 中 B 曲线支持质子俘获(但现代观点主张 $\gamma$-process) [FACT]
 12. **Hg 不确定性**: 明确声明"not at all certain",传导到 p-process 推断 [FACT]
 13. **历史定位**: Suess-Urey 1956 → Cameron 1959 → Cameron 1968 → Anders & Grevesse 1989 → Lodders → Asplund [INTERPRETATION]
 
@@ -57,8 +57,8 @@ Cameron (1968) 以 Type I 碳质球粒陨石为主数据源、以核合成理论
 
 1. **CI 陨石优先原则**: 首次系统地将 Type I 碳质球粒陨石定位为原初太阳物质的最佳代理
 2. **多元素归一化**: 10 种非挥发分元素的对数平均取代单元素归一化,提高稳健性
-3. **理论约束内插**: 首次将 B²FH 的核合成判据显式用于内插缺失元素
-4. **σ_N 判据的视觉化**: Figure 6 首次将 s-process σ_N 常数律绘制为可读曲线
+3. **理论约束内插**: 首次将 B$^2$FH 的核合成判据显式用于内插缺失元素
+4. **$\sigma$_N 判据的视觉化**: Figure 6 首次将 s-process $\sigma$_N 常数律绘制为可读曲线
 5. **r-process 环境的定量推断**: 丰度光滑性 → 骤然终止判据;中等质量 r 产物 → i-process 提出
 
 ---
@@ -69,7 +69,7 @@ Cameron (1968) 以 Type I 碳质球粒陨石为主数据源、以核合成理论
 2. Hg 内插 "not at all certain"(Cameron 自承)
 3. Fe 丰度争议未解决(Cameron 自承)
 4. 8 元素内插的判据本身建立在当时尚未完全成熟的理论之上
-5. 表 1 使用 Si = 10⁶ 标度,与现代 log ε_H = 12 标度不直接可比
+5. 表 1 使用 Si = $10^{6}$ 标度,与现代 log $\epsilon$_H = 12 标度不直接可比
 6. 未系统考虑短寿命放射性核素(Al-26, Fe-60, Mn-53 等)在太阳系形成初期的作用
 
 ---
@@ -79,9 +79,9 @@ Cameron (1968) 以 Type I 碳质球粒陨石为主数据源、以核合成理论
 | 文献 | 关系 |
 |------|------|
 | Suess & Urey 1956 | 被本文继承并改进(三列对照中的 Suess-Urey 列) |
-| B²FH 1957 | 本文核合成分类与判据的理论源头(Table 2 Class 直接引用) |
+| B$^2$FH 1957 | 本文核合成分类与判据的理论源头(Table 2 Class 直接引用) |
 | Cameron 1959 | 本文三大预言(§1)的首次提出者 |
-| Seeger, Fowler, Clayton 1965 | σ_N 判据的来源(Figure 6 的核物理基础) |
+| Seeger, Fowler, Clayton 1965 | $\sigma$_N 判据的来源(Figure 6 的核物理基础) |
 | Truran, Arnett, Tsuruta, Cameron 1967 | 本文 §9 中 A=130, 195 r-峰天体物理环境的共同作者 |
 | Larimer & Anders 1967 | Type I 碳质球粒陨石丰度测量的直接来源(Table 1 Notes 4, 12) |
 | Anders & Grevesse 1989 | 本文丰度表的后续继承者;三大预言的最终定量验证 |
@@ -91,8 +91,8 @@ Cameron (1968) 以 Type I 碳质球粒陨石为主数据源、以核合成理论
 
 ## 99.7 值得进一步阅读的参考文献
 
-- [优先] B²FH 1957 (Rev. Mod. Phys. 29, 547) — 核合成三分法的原始出处
-- [优先] Seeger, Fowler & Clayton 1965 (ApJ Suppl. 11, 121) — σ_N 判据
+- [优先] B$^2$FH 1957 (Rev. Mod. Phys. 29, 547) — 核合成三分法的原始出处
+- [优先] Seeger, Fowler & Clayton 1965 (ApJ Suppl. 11, 121) — $\sigma$_N 判据
 - [优先] Cameron 1959 (ApJ 129, 676) — 三大预言的原始出处
 - [跟进] Anders & Grevesse 1989 — 本文丰度表的下一代修订
 - [跟进] Wallerstein et al. 1997 (Rev. Mod. Phys. 69, 995) — s-process 与 p-process 的现代综述

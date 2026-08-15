@@ -22,9 +22,9 @@ Anders & Grevesse (1989) 是 Anders & Ebihara (1982) 陨石丰度表 + Grevesse 
 ## 15.3 核心方法
 
 - **批判复核**：每个元素列出所有已发表数据，剔除离群与方法不可靠的，分"分析均值"与"陨石均值"
-- **尺度耦合 R = 1.554 ± 0.020**：将陨石 Si=10⁶ 标度与太阳 log H=12 标度耦合
+- **尺度耦合 R = 1.554 ± 0.020**：将陨石 Si=$10^{6}$ 标度与太阳 log H=12 标度耦合
 - **逐元素宇宙化学分组**：难熔、硅酸盐、亲铁、1300–600K 挥发、<600K 挥发
-- **σN_s 图**：重建 s 过程条件、计算 r 过程残差
+- **$\sigma$N_s 图**：重建 s 过程条件、计算 r 过程残差
 - **FIP 分馏分析**：识别日冕 4.5× 双平台
 - **奇质量数核素曲线平滑性测试**
 
@@ -40,15 +40,15 @@ Anders & Grevesse (1989) 是 Anders & Ebihara (1982) 陨石丰度表 + Grevesse 
 | 6 | **FIP 分馏**：高 FIP（≥11 eV）日冕元素丰度骤降 −0.65 dex（约 4.5×） |
 | 7 | **Nd-Sm-Eu 区域不规则**：平滑性假设在 10–20% 失效 |
 | 8 | **Halley 慧星 Fe/Si, Mg/Si 为太阳系最低**（除月球），非原始星际物质 |
-| 9 | D/H = (3.4 ± 1.0) × 10⁻⁵；N_He/N_H = 9.75%（Y = 0.275） |
+| 9 | D/H = (3.4 ± 1.0) × $10^{-5}$；N_He/N_H = 9.75%（Y = 0.275） |
 
 ## 15.5 核心创新
 
 - 将**高精度跃迁概率**（Whaling, Bémont 等）引入太阳光谱分析，使 C, N, O, Fe 等达到 <5% 精度
 - 系统检验"太阳 = 陨石"的定量证据（29 元素 ±9%）
-- 提出 **Fe₃O₄ 磁铁矿机制**解释 Fe 的陨石-太阳差异（虽未被后续广泛接受）
+- 提出 **$Fe_{3}$$O_{4}$ 磁铁矿机制**解释 Fe 的陨石-太阳差异（虽未被后续广泛接受）
 - 正式**宣告 Suess 平滑性假设的适用范围**：10–20% 精度以下不再可靠
-- 用 σN_s 图定量**分解 s 与 r 过程贡献**
+- 用 $\sigma$N_s 图定量**分解 s 与 r 过程贡献**
 
 ## 15.6 主要局限
 
@@ -68,7 +68,7 @@ Anders & Grevesse (1989) 是 Anders & Ebihara (1982) 陨石丰度表 + Grevesse 
 6. **FIP ≈ 11 eV** 是日冕分馏的关键分界；高 FIP 元素在日冕减少 4.5×
 7. **H, He 在日冕分馏中的行为特殊**——与质量/丰度相关
 8. **平滑性假设在 10–20% 失效**，是 s+r 混合的核合成后果
-9. **σN_s ∝ Φ** 是重建 s 过程条件的核心关系
+9. **$\sigma$N_s ∝ $\Phi$** 是重建 s 过程条件的核心关系
 10. **Halley 慧星的低 Fe/Si 比**说明其尘埃组分经历过太阳系内化学分馏
 
 ## 15.8 与相关工作的关系
@@ -79,7 +79,7 @@ Anders & Grevesse (1989) 是 Anders & Ebihara (1982) 陨石丰度表 + Grevesse 
 - **Cameron (1973, 1982)** → 太阳系丰度插值方法
 - **Meyer (1985a,b)** → 日冕分馏与 SEP 基线丰度
 - **Geiss & Bochsler (1981–85)** → 太阳风离子成分
-- **UPPERLER/Kappeler/Beer** → s 过程截面与 σN_s 分析
+- **UPPERLER/Kappeler/Beer** → s 过程截面与 $\sigma$N_s 分析
 - **Vauclair & Meyer (1985)** / **Geiss (1985)** → FIP 分馏机制
 - **Grevesse & Sauval (1998)** → 大幅下调金属丰度（引发"太阳金属丰度问题"）
 - **Asplund 等 (2009)** → 3D 非 LTE 光球层丰度表（取代本文 Fe）
@@ -95,8 +95,8 @@ Anders & Grevesse (1989) 是 Anders & Ebihara (1982) 陨石丰度表 + Grevesse 
 ### 16.2 可直接使用的公式
 - R = 1.554（陨石 → 太阳换算）
 - X, Y, Z = 70.68%, 27.43%, 1.886%
-- D/H = 3.4 × 10⁻⁵；N_He/N_H = 9.75%
-- σN_s ∝ Φ
+- D/H = 3.4 × $10^{-5}$；N_He/N_H = 9.75%
+- $\sigma$N_s ∝ $\Phi$
 
 ### 16.3 值得进一步阅读的参考文献
 - Anders & Ebihara (1982) — 前身陨石表
@@ -121,7 +121,7 @@ Anders & Grevesse (1989) 是 Anders & Ebihara (1982) 陨石丰度表 + Grevesse 
 - [x] Discussion（太阳-陨石一致性的意义、FIP 分馏的物理起源）
 - [x] Figures（9 图逐一分析）
 - [x] Tables（7 表逐一分析，含核心丰度表 Table I）
-- [x] Important equations（σN_s 稳态流判据、R 换算公式）
+- [x] Important equations（$\sigma$N_s 稳态流判据、R 换算公式）
 - [x] Important numerical values（已列出关键数值）
 - [x] Important references（00_overview.md 已标注核心文献）
 

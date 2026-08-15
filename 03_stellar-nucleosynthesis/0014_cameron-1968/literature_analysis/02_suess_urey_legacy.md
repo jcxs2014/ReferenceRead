@@ -28,7 +28,7 @@
 - **肯定**: "basic and necessary step" — 首次系统汇编宇宙丰度,是核合成理论的起点
 - **承认局限**: "Most of the abundance data ... were of poor quality" — 承认数据基础薄弱
 - **肯定 Suess-Urey 的补偿方法**: "adjusted and interpolated" 是当时条件下合理的处理
-- **追溯因果**: Suess-Urey 表是 B²FH 1957 与 Cameron 1957 得以建立的前置条件
+- **追溯因果**: Suess-Urey 表是 B$^2$FH 1957 与 Cameron 1957 得以建立的前置条件
 
 [CRITIQUE] Suess-Urey 的"奇数质量核素光滑变化"判据,本质是**核稳定性的经验规律**(偶数 A 核素更稳定,故丰度更高)。但 Suess-Urey 没有区分 r/s/p 三种核合成过程,因此这一判据在 Z > 82 的重元素区失效。
 
@@ -47,7 +47,7 @@
 
 > "Subsequent meteoritic abundance measurements have **confirmed the first two of these points** and have shown that **the Pb abundance lies between the two values suggested**."
 
-[INTERPRETATION] 三大预言的物理根源 (来自 B²FH 1957 与 Cameron 1959):
+[INTERPRETATION] 三大预言的物理根源 (来自 B$^2$FH 1957 与 Cameron 1959):
 
 ### 预言 1: Sr/Zr 比应反转
 
@@ -114,7 +114,7 @@
 [INTERPRETATION] 预言 Pb 增大的物理根源:
 - Pb (Z=82) 位于**双幻数 N=126** 附近的 s-process 累积终点
 - 三 r-process 与 s-process 通道都最终汇聚到 Tl/Pb/Bi 区域
-- 此外 U/Th 的 α-衰变链终产物是 Pb-206 / Pb-207 / Pb-208,因此**放射性成因 Pb** 贡献了太阳系 Pb 的相当一部分
+- 此外 U/Th 的 $\alpha$-衰变链终产物是 Pb-206 / Pb-207 / Pb-208,因此**放射性成因 Pb** 贡献了太阳系 Pb 的相当一部分
 - Cameron 表 2 中 Pb 同位素丰度之和:
   - Pb-204 (B): 0.0480
   - Pb-206: 0.182
@@ -138,7 +138,7 @@
 | 维度 | Suess-Urey 1956 | Cameron 1963 | Cameron 1967 |
 |------|-----------------|--------------|--------------|
 | 主数据源 | 混合(天文+陨石+地球) | 更多陨石数据 | **Type I 碳质球粒陨石** |
-| 归一化基准 | Si = 10⁶ (太阳) | Si = 10⁶ (太阳) | 10 种非挥发分的对数平均 |
+| 归一化基准 | Si = $10^{6}$ (太阳) | Si = $10^{6}$ (太阳) | 10 种非挥发分的对数平均 |
 | 内插判据 | 奇数质量核素光滑 | 部分核合成判据 | **核合成判据主导** |
 | 主要改进 | — | Li/Be/B/C 大幅上修 | H/He/Ne 大幅下调, 稀土系统性下调 |
 | 内插元素数 | 多(未说明) | 未说明 | **8 个** |
@@ -147,12 +147,12 @@
 
 | 元素 | Suess-Urey | C-1963 | C-1967 | 1963→1967 变化 |
 |------|-----------|--------|--------|----------------|
-| H | 4.00 × 10¹⁰ | 3.2 × 10¹⁰ | 2.6 × 10¹⁰ | ↓ 19% |
-| He | 3.08 × 10⁹ | 5.0 × 10⁹ | 2.1 × 10⁹ | ↓ 58% |
-| Ne | 8.6 × 10⁶ | 1.7 × 10⁷ | 2.36 × 10⁶ | ↓ 86% |
-| C | 3.5 × 10⁶ | 1.66 × 10⁷ | 1.35 × 10⁷ | ↓ 19% |
-| O | 2.15 × 10⁷ | 2.9 × 10⁷ | 2.36 × 10⁷ | ↓ 19% |
-| Fe | 6.00 × 10⁵ | 8.42 × 10⁵ | 8.90 × 10⁵ | ↑ 6% |
+| H | 4.00 × $10^{10}$ | 3.2 × $10^{10}$ | 2.6 × $10^{10}$ | ↓ 19% |
+| He | 3.08 × $10^{9}$ | 5.0 × $10^{9}$ | 2.1 × $10^{9}$ | ↓ 58% |
+| Ne | 8.6 × $10^{6}$ | 1.7 × $10^{7}$ | 2.36 × $10^{6}$ | ↓ 86% |
+| C | 3.5 × $10^{6}$ | 1.66 × $10^{7}$ | 1.35 × $10^{7}$ | ↓ 19% |
+| O | 2.15 × $10^{7}$ | 2.9 × $10^{7}$ | 2.36 × $10^{7}$ | ↓ 19% |
+| Fe | 6.00 × $10^{5}$ | 8.42 × $10^{5}$ | 8.90 × $10^{5}$ | ↑ 6% |
 | Pb | — | 2.20 | 2.90 | ↑ 32% |
 
 ---
@@ -182,7 +182,7 @@
 
 > "Most of the abundance data used by Suess and Urey were of poor quality..."
 
-[FACT] 摘录 3 — 追溯 B²FH 的起源 (p.126):
+[FACT] 摘录 3 — 追溯 B$^2$FH 的起源 (p.126):
 
 > "From the resulting abundance tables it was then possible to identify a number of different nuclear processes which could probably occur in stars..."
 
