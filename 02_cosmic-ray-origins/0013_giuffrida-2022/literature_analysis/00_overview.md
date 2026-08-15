@@ -8,6 +8,11 @@ doi: 10.1038/s41467-022-32618-y
 arxiv: arXiv:2208.12588
 category: 宇宙线起源
 status: completed
+sections:
+  - '§1 Introduction'
+  - '§2 Results'
+  - '§3 Discussion'
+  - '§4 Methods'
 read_date: '2026-08-15'
 lastread: '2026-08-15'
 tags: []

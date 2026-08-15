@@ -8,6 +8,12 @@ doi: 10.1126/science.abq2244
 arxiv: arXiv:2311.14231
 category: 宇宙线起源
 status: completed
+sections:
+  - '§1 Introduction'
+  - '§2 Energy Reconstruction'
+  - '§3 Direction and Large-Scale Structure'
+  - '§4 Source Distance'
+  - '§5 Conclusions'
 read_date: '2026-08-15'
 lastread: '2026-08-15'
 tags: []
