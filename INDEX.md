@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**296 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**309 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -16,7 +16,7 @@
 |---|---|
 | 作者 | Andrew W. Strong¹, Igor V. Moskalenko², Vladimir S. Ptuskin³ |
 | 期刊 |  |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 8 个（00_overview.md、01_theoretical_background.md、02_confrontation_with_data.md、03_figures.md、04_references.md、…等 8 个） |
 | 目录 | [`01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/99_final_summary.md) |
@@ -215,7 +215,7 @@
 |---|---|
 | 作者 | Roger Blandford (Caltech), David Eichler (U. Maryland / Ben Gurion) |
 | 期刊 | Physics Reports 154, 1 (1987) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 11 个（00_overview.md、01_introduction.md、02_observational_background.md、03_diffusion_approximation.md、04_test_particle_approximation.md、…等 11 个） |
 | 目录 | [`02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/`](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/99_final_summary.md) |
@@ -516,9 +516,9 @@
 
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
-| 01. 宇宙线传播 | 6 | 18 |
-| 02. 宇宙线起源 | 15 | 111 |
+| 01. 宇宙线传播 | 6 | 23 |
+| 02. 宇宙线起源 | 15 | 119 |
 | 03. 恒星核合成与元素丰度 | 17 | 167 |
-| **合计** | **38** | **296** |
+| **合计** | **38** | **309** |
 
 > 最后更新: 2026-08-15（自动生成）
