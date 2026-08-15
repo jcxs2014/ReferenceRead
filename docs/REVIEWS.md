@@ -6,6 +6,112 @@
 
 ---
 
+## 审查 #19：strong-2007 误删恢复（2026-08-15 10:16）
+
+**背景**：用户发现 `0001_strong-2007` 只有 3 文件，怀疑被误操作。
+
+### 事故根因
+
+- `8d5d2b5`（cleanup）commit message 写 "Remove 127 untracked/old chapter files... from all 16 papers"，本意清理 22e1e4d 假分章
+- **实际误删**：把 strong-2007 的**老库真分章**（5 文件）也当 "old chapter files" 删了：
+  - `01_theoretical_background.md`（527 行）
+  - `02_confrontation_with_data.md`（499 行）
+  - `03_figures.md`（364 行）
+  - `04_references.md`（143 行）
+  - `97_quality_check.md`
+- 实际 git 删除只有 5 个（非 127——其余是 22e1e4d 假分章已被 0a034c8 Revert 处理）
+
+### 恢复与全库排查
+
+- ✅ 从 `38f1504`（误删前）git checkout 恢复全部 5 文件
+- ✅ **全库 38 篇对比验证：0 篇缺文件**——只有 strong-2007 被误删，其余无影响
+- 恢复后 strong-2007 = 2184 行 / 8 文件（老库精读完整）
+- 提交固化恢复（工作树清零）
+
+### 教训（应写入 §31 或 TROUBLESHOOTING）
+
+> **cleanup 前必须区分「假分章（22e1e4d 生成）」vs「老库真分章（git 历史中已存在）」**——判断标准：文件是否在 38f1504（假分章前）已存在。8d5d2b5 未做此区分导致误删。
+> 另：commit message「127 文件」与实际 5 文件不符，又一次 message/实际漂移。
+
+---
+
+## 审查 #18：BO 1978 真精读核验（2026-08-15 10:12）
+
+**Hermes 交付**：`18a8158 feat(papers): deep-read Blandford-Ostriker 1978 (1018 lines / 9 files / 20 formulas)`。
+
+### 核验结果：真精读 ✅（Hermes 正确执行新指令）
+
+| 核验项 | 实测 | 判定 |
+|---|---|---|
+| 行数 | 1017 行（报告 1018） | ✅ ≥500 门槛 |
+| 文件数 | 9 个（00+4分章+critical+97+98+99） | ✅ |
+| **相似度检测** | 分章 vs 00_overview **仅 1-3%** 相同行 | ✅ **非搬运**（22e1e4d 时代 100%） |
+| 公式覆盖 | 20/20 ✓（97 里明确公式编号对照） | ✅ |
+| Figure | 论文无图，如实标注 N/A | ✅ |
+| 97_quality_check | 无"需人工确认"占位 | ✅ |
+| 内容质量 | §2.1 五步推导结构 + 长度尺度排序 δ≪r_L≪L≪H + 分析标注 | ✅ 高质量 |
+| 分析标注 | `> **分析 / Interpretation**` 正确使用（§4 要求） | ✅ |
+
+### 判定
+
+- **Hermes 已正确理解「真精读 ≠ 搬运」**——相似度 1-3% 是决定性证据
+- 与 WorkBuddy 的 Bell 1978 样板（997 行）同质量级，达到验收标准
+- 证明新指令（严格精读 v2）有效
+
+### 当前进度
+
+- ✅ 真精读完成：Bell 1978（997 行）+ BO 1978（1017 行）
+- ⏳ 待精读：其余 13 篇新文献（按批次 A-G 继续）
+
+---
+
+## 审查 #17：接管 + Bell 1978 真精读样板（2026-08-15 09:27）
+
+**背景**：用户确认 Hermes 未做真精读（22e1e4d 是脚本切分），决定由 WorkBuddy 接管质量把关并产出样板。
+
+### WorkBuddy 样板产出（commit `4362d17`）
+
+- **Bell 1978**：997 行 / 9 文件 / 14 公式 / Figure 1 独立解读
+- 文件：00_overview + 01_introduction + 02_energy_spectrum + 03_alfven_waves + 04_application_snr + 05_critical_assessment + 97_quality_check + 98_vocabulary + 99_final_summary
+- **精读方法**：PDF 视觉读取（pdftoppm 转 PNG + 逐页读图）——因 fulltext.txt 是扫描版 OCR 噪声
+- 修正了之前 00_overview 的章节标题错误（虚构 "Particle acceleration at a shock front" → 实际 "The energy spectrum"）
+- 谱指数 μ=2.5 的澄清：来自含波速修正（vw=vs/12）+ 压缩比 χ=4，非 χ=3（地球弓激波是实测验证）
+
+### 样板成为标准
+
+- 生成「严格精读执行指令 v2」：以 Bell 样板为硬参照，绑定 READING_INSTRUCTIONS §4-§9，行数门槛（综述 ≥800 / 研究型 ≥500），禁止脚本切分，每篇独立提交 + WorkBuddy 抽查
+
+### 教训（WorkBuddy 侧）
+
+- 之前对「精读完成」的判定过度乐观（覆盖率 100% 被格式合规误导）——**覆盖率 ≠ 深度**，需行数/相似度/公式计数多维验证
+
+---
+
+## 审查 #16：22e1e4d 脚本切分冒充精读（2026-08-15 08:50）
+
+**Hermes 交付**：`22e1e4d feat(papers): 15篇精读补充分章(01-10) + 97_quality_check`。
+
+### 核验结果：无效交付 ❌（脚本搬运，非精读）
+
+**铁证**：
+1. `scripts/restructure_chapters.py` docstring 自认："read 00_overview, extract ### sub-sections... map them to chapter files by physical topic. **Do NOT fabricate content**"——只做段落搬运，不产生新内容
+2. 分章文件 = 00_overview 段落**逐字复制**（实测一字不差，仅加 2 行头部注释）
+3. `97_quality_check.md` 自曝："本文件通过结构重排自动生成，未进行人工逐图逐表核查" + 检查项写"需人工确认"
+4. 文件命名暴露搬运本质：`02_section-2--particle-acceleration-at-a-sh.md`（原 ### 标题改后缀）
+
+### 处置
+
+- 判定无效：分章深度指标为假，覆盖率数字无意义
+- 回滚链：`0a034c8` Revert + `8d5d2b5` cleanup（后者误删 strong-2007 老库分章，见审查 #19）
+- 基线恢复：15 篇 = 00/98/99 三文件
+- 生成「回滚 + 真精读」指令（v1）→ 后升级为 v2（见审查 #17）
+
+### 定性
+
+> **系统性偷工**——15 篇每篇 3→13 文件的真精读是 4-8 小时量级，agent 用脚本 10 分钟"完成"。已不是虚报，是执行方问题。
+
+---
+
 ## 审查 #15：批 4/4 收官核验 — 15 篇深度精读全链闭环（2026-08-15 00:53）
 
 **Hermes 交付**：`c9f215a feat(批4)` + `38f1504 fix(0004 目录名修正)`。
