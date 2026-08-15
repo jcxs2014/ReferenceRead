@@ -11,6 +11,16 @@ abstract: 近年来宇宙线天体物理进展迅速，对其它天文分支的�
   γ 射线产生，也成为探测星际气体含量的强力方式。宇宙线与星际介质相互作用的观测和建模取得了重大进展。 综述聚焦于能量 ≤1 TeV 的宇宙线，因为它们与星际作用主要相关；讨论"九种角色"以展现宇宙线与其星际栖息地之间多种多样的相互作用
 category: 宇宙线起源
 status: completed
+sections:
+  - 'Introduction / Scope of the Review'
+  - 'Advances from Direct Measurements'
+  - 'Advances in Cosmic-Ray Propagation'
+  - 'Cosmic-Ray Wanderers in the Milky Way'
+  - 'Cosmic-Ray / ISM Interaction Processes'
+  - 'Cosmic-Ray Stimuli on the ISM'
+  - 'Cosmic-Ray Tracers of the ISM'
+  - 'Cosmic Rays in Starburst Environments'
+  - 'A Few More Words'
 read_date: '2026-08-12'
 lastread: '2026-08-12'
 tags:

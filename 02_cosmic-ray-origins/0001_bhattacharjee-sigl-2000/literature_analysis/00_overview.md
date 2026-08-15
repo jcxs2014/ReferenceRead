@@ -10,6 +10,15 @@ keywords: EHECR, UHECR, GZK cutoff, topological defects, cosmic strings, monopol
   acceleration, AGN, photo-pion production, CMB, neutrino astrophysics
 category: 宇宙线起源
 status: completed
+sections:
+  - '§1 Introduction and Scope of This Review'
+  - '§2 The Observed Cosmic Rays'
+  - '§3 Origin of Bulk of the Cosmic Rays: General Considerations'
+  - '§4 Propagation and Interactions of Ultra-High Energy Radiation'
+  - '§5 Origin of UHECR: Acceleration Mechanisms and Sources'
+  - '§6 Non-acceleration Origin of Cosmic Rays above 10^20 eV (Top-Down)'
+  - '§7 Constraints on the Topological Defect Scenario'
+  - '§8 Summary and Conclusions'
 read_date: '2026-08-12'
 lastread: '2026-08-12'
 tags:

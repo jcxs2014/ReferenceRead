@@ -8,6 +8,12 @@ doi: 10.1007/s00159-023-00149-2
 arxiv: arXiv:2306.12341
 category: 宇宙线传播
 status: completed
+sections:
+  - '§1 Introduction'
+  - '§2 Physics'
+  - '§3 Astrophysical Systems'
+  - '§4 Observational Signatures'
+  - '§5 Open Questions and Future Directions'
 read_date: '2026-08-15'
 lastread: '2026-08-15'
 tags: []

@@ -8,6 +8,15 @@ doi: 10.48550/arXiv.1311.7346（arXiv）；10.1007/s11214-013-0001-4（SSRv）
 arxiv: 1311.7346v2 [astro-ph.HE]，2013-12-09
 category: 宇宙线起源
 status: completed
+sections:
+  - '§1 Introduction'
+  - '§2 The bases of the SNR paradigm'
+  - '§3 Test-particle DSA'
+  - '§4 Non-linear DSA'
+  - '§5 The superbubble hypothesis'
+  - '§6 Indirect evidence for CR acceleration in SNRs'
+  - '§7 Hα line as cosmic ray calorimeter'
+  - '§8 Conclusions'
 read_date: '2026-08-12'
 lastread: '2026-08-12'
 tags: []
