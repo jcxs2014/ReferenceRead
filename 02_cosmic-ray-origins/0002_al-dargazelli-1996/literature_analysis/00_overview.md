@@ -8,6 +8,15 @@ pages: '1825-1839'
 keywords: UHECR, cosmic ray anisotropy, colliding galaxies, VIRGO cluster, GZK cutoff
 category: 宇宙线起源
 status: completed
+sections:
+  - '§1 Introduction'
+  - '§2 Evidence for cosmic ray anisotropies'
+  - '§3 Discussion'
+  - '§4 Factors affecting propagation'
+  - '§5 Potential sources of EG particles within 10 Mpc'
+  - '§6 Galaxies in the range 10-20 Mpc'
+  - '§7 Discussion'
+  - '§8 Conclusions'
 read_date: '2026-08-12'
 lastread: '2026-08-12'
 tags:

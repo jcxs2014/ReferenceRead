@@ -8,6 +8,15 @@ doi: 10.1016/j.asr.2017.04.019
 arxiv: arXiv:1704.05696
 category: 宇宙线传播
 status: completed
+sections:
+  - '§1 Introduction'
+  - '§2 A summary of standard predictions'
+  - '§3 Self-excited Alfven waves and their damping'
+  - '§4 Galactic CR transport in self-generated waves'
+  - '§5 Propagation in the vicinity of sources'
+  - '§6 CR induced Galactic winds'
+  - '§7 Secondary particles and antiparticles'
+  - '§8 Summary and conclusions'
 read_date: '2026-08-15'
 lastread: '2026-08-15'
 tags: []

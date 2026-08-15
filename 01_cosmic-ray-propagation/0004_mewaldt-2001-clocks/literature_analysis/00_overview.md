@@ -7,6 +7,12 @@ pages: '137-151'
 doi: 10.1023/A:1013873705653
 category: 宇宙线传播
 status: completed
+sections:
+  - '§1 Introduction'
+  - '§2 Acceleration-Time Delay Clocks'
+  - '§3 Electron-Capture Nuclei as Probes of Cosmic Ray Transport Processes'
+  - '§4 Beta-Decay Clocks and Cosmic-Ray Transport in the Galaxy'
+  - '§5 Summary'
 read_date: '2026-08-15'
 lastread: '2026-08-15'
 tags: []

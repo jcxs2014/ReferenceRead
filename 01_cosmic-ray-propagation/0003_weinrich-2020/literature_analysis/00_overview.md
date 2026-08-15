@@ -8,6 +8,10 @@ doi: 10.1051/0004-6361/202038064
 arxiv: arXiv:2004.00441
 category: 宇宙线传播
 status: completed
+sections:
+  - '§1 Introduction'
+  - '§2 Model and configurations (BIG, SLIM, QUAINT)'
+  - '§3 Halo size L from CR clocks'
 read_date: '2026-08-15'
 lastread: '2026-08-15'
 tags: []

@@ -8,6 +8,12 @@ pages: '197-214'
 keywords: solar abundances, CI chondrites, FIP fractionation, s-process, cosmic abundance
 category: 恒星核合成
 status: completed
+sections:
+  - '§1–§3 引言：Suess 平滑性假设、FIP 分馏'
+  - '§4–§9 逐元素精读'
+  - '§10 陨石-太阳接合表'
+  - '§11 讨论'
+  - '§12 结论'
 read_date: '2026-08-12'
 lastread: '2026-08-12'
 tags:

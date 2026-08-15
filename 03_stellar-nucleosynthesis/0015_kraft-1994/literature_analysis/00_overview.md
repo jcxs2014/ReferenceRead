@@ -8,6 +8,15 @@ doi: 未提供（原文未列出 DOI；arXiv 编号未提供）
 keywords: 球状星团巨星、丰度差异、CNO 循环、Sweigart-Mengel 混合机制、深混合、原始丰度变异、Na-O 反相关、C/N 反相关、次参数效应、星族 II
 category: 恒星核合成
 status: completed
+sections:
+  - '§1 INTRODUCTION'
+  - '§2 ABUNDANCE DIFFERENCES'
+  - '§3 PREDICTIONS BASED ON THE STANDARD THEORY OF EVOLUTION OF LOW-MASS STARS'
+  - '§4 WHAT IS ACTUALLY OBSERVED?'
+  - '§5 SWEIGART-MENGEL MIXING MECHANISM'
+  - '§6 ARE PRIMORDIAL VARIATIONS REQUIRED?'
+  - '§7 MIXING AND THE NA-AL VARIATIONS: A REEVALUATION'
+  - '§8 A SUMMARY AND SOME CONCLUDING REMARKS'
 read_date: '2026-08-14'
 lastread: '2026-08-14'
 tags:

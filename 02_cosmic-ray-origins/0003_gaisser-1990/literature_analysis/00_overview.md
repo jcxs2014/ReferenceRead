@@ -8,6 +8,10 @@ doi: 10.1063/1.39149
 keywords: cosmic ray knee, supernova remnants, JACEE, antiproton, leaky box
 category: 宇宙线起源
 status: completed
+sections:
+  - '§1 超新星能量学：稳态需求'
+  - '§2 膝部（10^15–10^16 eV）：加速上限'
+  - '§3 反质子：阈值与模型对比'
 read_date: '2026-08-12'
 lastread: '2026-08-12'
 tags:
