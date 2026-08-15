@@ -46,11 +46,11 @@ path: background/README.md
 | 公式 | 所在文档 | 用途 |
 |---|---|---|
 | CR 传播方程 (1) | `01_cosmic_rays.md` §1.1.1 | 宇宙线传播理论核心 |
-| DSA 谱指数 α = 3r/(r-1) | `01_cosmic_rays.md` §1.2.1 | 激波加速 |
+| DSA 谱指数 $\alpha$ = 3r/(r-1) | `01_cosmic_rays.md` §1.2.1 | 激波加速 |
 | 丰度标度 A_el = log(N_el/N_H) + 12 | `03_astrophysics.md` §1.6 | 太阳丰度标度 |
-| 3α 反应率 | `02_nucleosynthesis.md` §2.3.1 | 氦燃烧 |
-| s 过程稳态流 σN = const | `02_nucleosynthesis.md` §2.5.2 | 慢中子俘获 |
-| 封闭箱模型 Z = y·ln(1/μ) | `02_nucleosynthesis.md` §2.10.1 | 化学演化 |
+| 3$\alpha$ 反应率 | `02_nucleosynthesis.md` §2.3.1 | 氦燃烧 |
+| s 过程稳态流 $\sigma$N = const | `02_nucleosynthesis.md` §2.5.2 | 慢中子俘获 |
+| 封闭箱模型 Z = y·ln(1/$\mu$) | `02_nucleosynthesis.md` §2.10.1 | 化学演化 |
 
 ## 文献阅读顺序建议
 

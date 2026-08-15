@@ -81,18 +81,18 @@ A&G 1989        Z/X = 0.0267,  O = 8.86, C = 8.52, Fe = 7.50       [旧基准]
 
 **革命 1 (GS98)**：Fe 丰度争议终结
 - 历史：Oxford（Blackwell 等）Fe I 线给出 A(Fe)=7.63 > 陨石 7.50；Kiel-Hannover 与陨石一致
-- 根因：Holweger-Müller 1974 半经验模型在 log τ ≈ −3 层偏热 ~200 K，
+- 根因：Holweger-Müller 1974 半经验模型在 log $\tau$ ≈ −3 层偏热 ~200 K，
   使低激发 Fe I 线形成区温度偏高 → 低估 Fe 丰度
 - 解决：Anstee-O'Mara 精确计算 s-p, p-s, p-d 与中性 H 的碰撞展宽截面；
-  构造"新模型"在 log τ ≈ −3 层降温 200 K，低激发线丰度**上移**到陨石值
+  构造"新模型"在 log $\tau$ ≈ −3 层降温 200 K，低激发线丰度**上移**到陨石值
 - 结论：Fe I/Fe II 自洽，A(Fe) = **7.50 ± 0.05**，与陨石 Fe=7.50 精确一致
 
 **革命 2 (AGSS09)**：3D non-LTE 系统性重测
 - 3D 模型（Trampedach et al. 2009）全面优于 1D Holweger-Müller：
-  - 中心-边缘变化自然出现，Hα/Hβ 线无自由参数复现
+  - 中心-边缘变化自然出现，H$\alpha$/H$\beta$ 线无自由参数复现
   - 金属线线型自然复现，无需微湍流/宏观湍流参数
   - Fe I/Fe II 一致（无激发势趋势）
-- Fe 丰度之争在 3D 模型下彻底解决：log ε_Fe = 7.50
+- Fe 丰度之争在 3D 模型下彻底解决：log $\epsilon$_Fe = 7.50
 - Li 太阳亏缺 ~150×（陨石 vs 光球差 2.21 dex）→ 需对流区底部额外混合
 - Be、B 通过 UV "missing opacity" 修正回到陨石值
 
@@ -191,11 +191,11 @@ He 不出现在光球光谱（He I 5876/6678/7065 在光球不显著），且在
 - **金属性贡献**：O 47%, C 17%, N 5%
 - 底部对流区不透明度主要贡献者
 - C/N/O 是 **CNO 循环的平衡产物**：
-  - $C_{1}$² → $N_{1}$³（慢步骤，¹²C(p,γ)¹³N）
+  - $C_{1}$² → $N_{1}$³（慢步骤，$^{12}{\rm C}$(p,$\gamma$)$^{13}{\rm N}$）
   - 循环平衡时：C↓↓, N↑↑, O 不变
 - AGSS09 直接影响恒星演化模型中的 CNO 初始丰度假设
 - **C/O 比**：AGSS09 C/O = 10^(8.43-8.69) = 0.28 < 1 → **太阳是富 O 型**
-- 太阳中微子（Borexino, SNO+）将直接测量 ¹³N、¹⁵O 通量（CNO 循环）
+- 太阳中微子（Borexino, SNO+）将直接测量 $^{13}{\rm N}$、$^{15}{\rm O}$ 通量（CNO 循环）
 
 ---
 
@@ -244,20 +244,20 @@ He 不出现在光球光谱（He I 5876/6678/7065 在光球不显著），且在
 | 环节 | 技术 |
 |------|------|
 | 观测 | McDonald 2.1 m + coudé；Reticon 1728 px；S/N=300 |
-| T_eff / log g | Strömgren [c1] + Balona c⁰ + Hβ 轮廓迭代 |
+| T_eff / log g | Strömgren [c1] + Balona c⁰ + H$\beta$ 轮廓迭代 |
 | LTE 丰度 | Kurucz 1979 大气 + WIDTH6 |
 | Non-LTE 丰度 | Becker & Butler (1988) 表 + Auer & Mihalas (1973) He 幂律 |
-| 温度修正 | ΔT = f·T_eff, f = 0.034 ± 0.015 |
+| 温度修正 | $\Delta$T = f·T_eff, f = 0.034 ± 0.015 |
 
 ### 5.3 结果
 
-- 非超巨星 B 星 ≈ 太阳 ≈ Orion 星云（Δ log ε ≈ 0）
-  - log ε(He) ≈ 11.00（与太阳一致）
-  - log ε(C) ≈ 8.15（略低于太阳 8.43）
-  - log ε(N) ≈ 8.15（略低于太阳 7.83-8.4）
-  - log ε(O) ≈ 8.80（与太阳 8.69 一致）
-- **Lyubimkov 主张不成立**：log g=3.5 + ξ=10 的假组合可产生 0.90 dex 假增
-- **ρ Leo (HD 91316)** 最 N 富集 +0.60 dex → **定量匹配 Maeder-Meynet 演化轨**
+- 非超巨星 B 星 ≈ 太阳 ≈ Orion 星云（$\Delta$ log $\epsilon$ ≈ 0）
+  - log $\epsilon$(He) ≈ 11.00（与太阳一致）
+  - log $\epsilon$(C) ≈ 8.15（略低于太阳 8.43）
+  - log $\epsilon$(N) ≈ 8.15（略低于太阳 7.83-8.4）
+  - log $\epsilon$(O) ≈ 8.80（与太阳 8.69 一致）
+- **Lyubimkov 主张不成立**：log g=3.5 + $\xi$=10 的假组合可产生 0.90 dex 假增
+- **$\rho$ Leo (HD 91316)** 最 N 富集 +0.60 dex → **定量匹配 Maeder-Meynet 演化轨**
   - 预测 He +0.10、C −0.10、O −0.04 → 观测一致 → **部分 CN-cycle 混合**
 - **超巨星**：5 颗全 N 富集，但 C/N 远未达 CN-cycle 平衡 → **部分混合**
   - 重要意义：蓝超巨星可在红巨星之前出现显著混合 → SN 1987A 前身星
@@ -274,9 +274,9 @@ He 不出现在光球光谱（He I 5876/6678/7065 在光球不显著），且在
 
 ### 6.1 核心图像
 
-- 诊断图（BPT 图）：log([O III]λ5007/Hβ) vs log([N II]/Hα) 或 [S II]/Hα 或 [O I]/Hα
+- 诊断图（BPT 图）：log([O III]$\lambda$5007/H$\beta$) vs log([N II]/H$\alpha$) 或 [S II]/H$\alpha$ 或 [O I]/H$\alpha$
 - **诊断图对 1–4 Ry 区间（54–756 eV）EUV 谱指数最敏感**
-- > 4 Ry 光子（>756 eV）对 [N II]/Hα 贡献小
+- > 4 Ry 光子（>756 eV）对 [N II]/H$\alpha$ 贡献小
 - **星暴（非 H II 区）必须用连续恒星形成模型**——瞬时模型产生"禁带"
 
 ### 6.2 PEGASE vs STARBURST99 差异
@@ -286,7 +286,7 @@ He 不出现在光球光谱（He I 5876/6678/7065 在光球不显著），且在
 | 演化轨 | Padova | Geneva |
 | 大气 | Clegg & Middlemass PNN | Lejeune W-R |
 | 1-4 Ry EUV | **最硬** | 较软 |
-| He II λ4686 预测 | −6（错误）| −1.7（与观测一致）|
+| He II $\lambda$4686 预测 | −6（错误）| −1.7（与观测一致）|
 
 - **PEGASE 是唯一覆盖所有观测点的模型**，但仅因 PNN 大气硬 EUV
 - **Schmutz W-R 大气物理上更合理**，但需连续金属不透明度补充硬 EUV
@@ -297,9 +297,9 @@ He 不出现在光球光谱（He I 5876/6678/7065 在光球不显著），且在
 |----|----|
 | W-R 星发射测度 | ∫ n² dr ∝ (Ṁ/v∞)² · $R_{3}$⁻³ |
 | 星暴年龄（动态平衡）| ≈ 6 Myr (PEGASE) / 8 Myr (STARBURST99) |
-| 氢燃烧寿命 | τ ≈ 4.5 (M/40 M☉)⁻⁰·⁴³ Myr |
-| 全星系 SFR | ~3.4 M☉/yr |
-| 1 kpc 视场 SFR | ~0.07 M☉/yr (FIR) vs ~0.04 M☉/yr (Hα) |
+| 氢燃烧寿命 | $\tau$ ≈ 4.5 (M/40 $M_\odot$)⁻⁰·⁴³ Myr |
+| 全星系 SFR | ~3.4 $M_\odot$/yr |
+| 1 kpc 视场 SFR | ~0.07 $M_\odot$/yr (FIR) vs ~0.04 $M_\odot$/yr (H$\alpha$) |
 
 ### 6.4 Kewley 极端星暴分类线（公式 5–7）
 
@@ -325,9 +325,9 @@ N 从初级 $\rightarrow$ 次级 的转折点 = $0.23\ Z_\odot$
 
 ### 6.6 SNR 对诊断图的贡献
 
-- Hβ 贡献 16–20%，但 [O III]/Hβ 仅 ~2%（可忽略）
+- H$\beta$ 贡献 16–20%，但 [O III]/H$\beta$ 仅 ~2%（可忽略）
 - **不足以解释星暴-AGN 诊断图差异**
-- 冷却时标：τ_cool ≈ 200 · $v_{100}$⁻⁴·⁴ · Z · n yr
+- 冷却时标：$\tau$_cool ≈ 200 · $v_{100}$⁻⁴·⁴ · Z · n yr
 
 ---
 
@@ -372,7 +372,7 @@ N 从初级 $\rightarrow$ 次级 的转折点 = $0.23\ Z_\odot$
 
 | 尺度 | 关键观测 | 年代 |
 |------|---------|------|
-| 太阳邻域 | Oort 1932 总密度 0.092 M☉/pc³ | 1932 |
+| 太阳邻域 | Oort 1932 总密度 0.092 $M_\odot$/pc³ | 1932 |
 | 星系团 | Zwicky 1933 Coma 视向速弥散 1000 km/s vs 80 km/s 预期 | 1933 |
 | 星系团 M/L | Zwicky 1937 Coma M/L ≈ 500（修正 $H_{0}$ 后仍高 ~60）| 1937 |
 | 本星系群 | Kahn-Woltjer 1959 timing argument | 1959 |
@@ -380,7 +380,7 @@ N 从初级 $\rightarrow$ 次级 的转折点 = $0.23\ Z_\odot$
 | HI 自转 | Bosma 1978 25 星系平坦到光学区外 | 1978 |
 | 星系团维里 | 大 M/L（100–800）| 1930s-1950s |
 | 微引力透镜 | EROS < 8%（排除 MACHO）| 1993+ |
-| CMB | Ω_b h² = 0.02225 ± 0.00016 | Planck 2015 |
+| CMB | $\Omega$_b h² = 0.02225 ± 0.00016 | Planck 2015 |
 | 引力透镜 | Bullet Cluster 2006（暗物质与重子空间分离）| 2006 |
 
 ### 8.2 关键公式
@@ -417,7 +417,7 @@ $$\langle\sigma v\rangle \sim 10^{-26}\ \mathrm{cm^3/s} \quad \text{[WIMP 奇迹
 | 中微子（热）| 标准模型遗迹 | ≲ eV | **排除**（White-Frenk-Davis 1983）|
 | 重中微子 | 稳定重轻子 | 1–15 GeV | 排除 |
 | 惰性中微子 | 振荡产生 | keV | 严格 Dodelson-Widrow 已排除 |
-| 轴子 | PQ 机制 | $10^{-6}$ – $10^{-4}$ eV | ADMX 已覆盖 1.9–3.3 μeV |
+| 轴子 | PQ 机制 | $10^{-6}$ – $10^{-4}$ eV | ADMX 已覆盖 1.9–3.3 $\mu$eV |
 | 中性微子 | SUSY LSP | GeV–TeV | **35 年主流候选**；LHC 无发现 |
 | 引力微子 | SUSY 引力伴 | ≪ eV 或 ≫ TeV | 宇宙学 gravitino problem |
 | 单极子/宇宙弦 | 大统一遗迹 | 各种 | 约束严格 |
@@ -425,10 +425,10 @@ $$\langle\sigma v\rangle \sim 10^{-26}\ \mathrm{cm^3/s} \quad \text{[WIMP 奇迹
 
 ### 8.4 宇宙学观测约束
 
-- **Ω_b h² = 0.02225 ± 0.00016**（Planck 2015，<1% 精度）
+- **$\Omega$_b h² = 0.02225 ± 0.00016**（Planck 2015，<1% 精度）
 - **重子物质 < 20% 宇宙物质** → **暗物质必为非重子**
 - **MACHO 双重排除**：
-  1. EROS 微透镜 < 8%（排除 0.1–10 M☉）
+  1. EROS 微透镜 < 8%（排除 0.1–10 $M_\odot$）
   2. BBN + CMB 重子预算
 - **MOND**：星系尺度成功（Tully-Fisher）；**星系团与 CMB 强冲突**；
   Bullet Cluster 2006 是最大挑战
@@ -440,7 +440,7 @@ $$\langle\sigma v\rangle \sim 10^{-26}\ \mathrm{cm^3/s} \quad \text{[WIMP 奇迹
 | DAMA (1998-) | 直接 | 9×9.7 kg NaI(Tl)；报道年调制（有争议）|
 | XENON1T / XENONnT | 直接 (LZ 2022, PandaX-4T) | 大幅压缩 WIMP 截面参数空间 |
 | Fermi dwarf galaxies | 间接 | 排除 < 100 GeV 多数 WIMP |
-| ADMX | 轴子 | 覆盖 1.9–3.3 μeV |
+| ADMX | 轴子 | 覆盖 1.9–3.3 $\mu$eV |
 | ATLAS/CMS mono-X | LHC | 无发现 |
 
 ### 8.6 "WIMP 时刻"现状（2018 视角）
@@ -465,7 +465,7 @@ $$\langle\sigma v\rangle \sim 10^{-26}\ \mathrm{cm^3/s} \quad \text{[WIMP 奇迹
 - **Gies & Lambert 1992**：B 星 CNO 检验 CN-cycle 混合，用太阳丰度为参考
 - **Kewley 2001**：星暴星系诊断图与 W-R 星 C/N/O 核合成产物的释放
 - **Dieterich 2014**：太阳金属丰度直接决定演化模型的氢燃烧极限位置
-- **Bertone & Hooper 2018**：Ω_b h² 约束与太阳邻域密度（Oort 1932）
+- **Bertone & Hooper 2018**：$\Omega$_b h² 约束与太阳邻域密度（Oort 1932）
 
 ### 9.2 关键交叉引用链
 
@@ -557,13 +557,13 @@ GS98 Y=0.248
 
 | 量 | 值 |
 |----|----|
-| Ω_b h² (Planck 2015) | 0.02225 ± 0.00016 |
+| $\Omega$_b h² (Planck 2015) | 0.02225 ± 0.00016 |
 | 重子占宇宙物质 | < 20% |
 | MOND $a_{0}$ | 1.2 × $10^{-10}$ m/s² |
-| WIMP σv | ~$10^{-26}$ cm³/s |
+| WIMP $\sigma$v | ~$10^{-26}$ cm³/s |
 | Coma M/L (Zwicky 1937) | ≈ 500 |
-| Oort 1932 太阳邻域 | 0.092 M☉/pc³ |
-| 暗物质上限 (Oort) | ≤ 0.05 M☉/pc³ |
+| Oort 1932 太阳邻域 | 0.092 $M_\odot$/pc³ |
+| 暗物质上限 (Oort) | ≤ 0.05 $M_\odot$/pc³ |
 | EROS MACHO | < 8% |
 
 ---
@@ -590,9 +590,9 @@ GS98 Y=0.248
 
 1. **WIMP 范式衰落**：直接探测 30 年 null + LHC 无发现
 2. **非 WIMP 候选体**：fuzzy dark matter、dark photon、hidden valley、asymmetric DM
-3. **ΛCDM 小尺度危机**：missing satellites, cusp-core, too-big-to-fail
+3. **$\Lambda$CDM 小尺度危机**：missing satellites, cusp-core, too-big-to-fail
 4. **$H_{0}$ tension**：Planck 67.4 vs 局部 74 km/s/Mpc
-5. **σ₈ tension**：CMB vs 弱引力透镜
+5. **$\sigma$₈ tension**：CMB vs 弱引力透镜
 6. **DAMA 年调制信号**的争议
 
 ---
@@ -633,7 +633,7 @@ GS98 Y=0.248
 | 核合成主题 | 关键输入 | 相关论文 |
 |-----------|---------|---------|
 | **主序核合成（pp, CNO 循环）** | 太阳 CNO 初始丰度 | AGSS09, Gies-Lambert 1992 |
-| **氦燃烧（3α, α+α）** | 太阳 He 丰度 | GS98, AGSS09 |
+| **氦燃烧（3$\alpha$, $\alpha$+$\alpha$）** | 太阳 He 丰度 | GS98, AGSS09 |
 | **碳燃烧 / 氧燃烧 / 硅燃烧** | Fe = 7.50 基准 | AGSS09 |
 | **s 过程（热/弱/主/极强）** | 太阳 Ba, La, Ce, Eu | AGSS09 + 陨石 |
 | **r 过程** | 太阳 Eu, Os, Ir, Pt | AGSS09 + 陨石 |
@@ -641,7 +641,7 @@ GS98 Y=0.248
 | **大质量星核合成产物释放** | W-R 星质量损失 | Kewley 2001 |
 | **星系化学演化** | C/O 比, [Fe/H] 演化 | AGSS09, Kewley 2001 |
 | **低质量恒星演化** | 太阳 Z/X = 0.018 | AGSS09 → Dieterich 2014 |
-| **暗物质与核合成** | Ω_b h², 原初核合成 | Bertone-Hooper 2018 |
+| **暗物质与核合成** | $\Omega$_b h², 原初核合成 | Bertone-Hooper 2018 |
 
 ---
 

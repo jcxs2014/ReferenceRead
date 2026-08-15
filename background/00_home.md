@@ -30,7 +30,7 @@ path: background/00_home.md
 - [Strong, Moskalenko & Ptuskin 2007](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) — CR 传播与星际介质
 - [Amato & Blasi 2018](01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_overview.md) — CR 输运综述（AMS-02 后）
 - [Weinrich et al. 2020](01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md) — 银河晕大小（贝叶斯约束）
-- [Mewaldt et al. 2001](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md) — 放射性时钟（¹⁰Be/²⁶Al）
+- [Mewaldt et al. 2001](01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md) — 放射性时钟（$^{10}{\rm Be}$/$^{26}{\rm Al}$）
 - [Génolini et al. 2021](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/00_overview.md) — min/med/max 传播模型
 - [Ruszkowski & Pfrommer 2023](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md) — CR 反馈（星系+星系团）
 - [Bhattacharjee & Sigl 2000](02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md) — UHECR 起源与传播
@@ -50,7 +50,7 @@ path: background/00_home.md
 - [Telescope Array 2023](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/00_overview.md) — Amaterasu 244 EeV 事件
 
 ### 论文 · 恒星核合成与丰度（16 篇）
-- [B²FH 1957](03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md) — 恒星核合成经典论文
+- [B$^2$FH 1957](03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md) — 恒星核合成经典论文
 - [Trimble 1975](03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview.md) — 核合成综述
 - [Fowler 1984](03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview.md) — 恒星核合成（R 过程）
 - [Wallerstein et al. 1997](03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md) — 核合成综述
@@ -70,7 +70,7 @@ path: background/00_home.md
 ## 推荐阅读路径
 
 1. **入门**：Strong 2007（传播）+ 背景知识 `01_cosmic_rays.md`
-2. **核合成**：B²FH 1957（经典）+ Fowler 1984（R 过程）+ 背景 `02_nucleosynthesis.md`
+2. **核合成**：B$^2$FH 1957（经典）+ Fowler 1984（R 过程）+ 背景 `02_nucleosynthesis.md`
 3. **进阶**：Blasi 2013 / Amato 2014（加速）+ Grenier 2015（CR 与介质）
 
 ## 工具入口

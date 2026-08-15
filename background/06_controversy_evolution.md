@@ -22,7 +22,7 @@ path: background/06_controversy_evolution.md
 
 > 本库最大、延续最久的争议——跨 4 篇论文、40+ 年未完全解决。
 
-| 时间 | 文献/事件 | 立场与数值（log ε Fe） |
+| 时间 | 文献/事件 | 立场与数值（log $\epsilon$ Fe） |
 |---|---|---|
 | 1989 | Anders & Grevesse | 经典值 **7.50** —— CI 陨石 + 1D 光球模型，成为 1990s 标准 |
 | 1998 | Grevesse & Sauval | 下调至 **7.50 → 7.52** 间微调；确立 GS98 组合 |
@@ -43,7 +43,7 @@ path: background/06_controversy_evolution.md
 |---|---|---|
 | 1970s–80s | 理论提出 | **Top-down**：X 粒子衰变/宇宙弦/磁单极（天花板衰变产生 UHECR） |
 | 1990 | Gaisser 综述 | 系统整理 Hillas（质子）/ Fichtel-Linsley（Fe）/ Maryland（重核）成分之争 |
-| 2000 | Bhattacharjee & Sigl | 权威综述：Bottom-up（AGN/SNR/GRB）vs Top-down 全面对比，指出 Top-down 的 γ/ν 伴随辐射预言 |
+| 2000 | Bhattacharjee & Sigl | 权威综述：Bottom-up（AGN/SNR/GRB）vs Top-down 全面对比，指出 Top-down 的 $\gamma$/$\nu$ 伴随辐射预言 |
 | 2007–2017 | Auger 实验 | 谱硬化 + **Xmax 数据支持重核为主**；上限排除 Top-down 特征伴辐射 |
 | 2010s | IceCube + TA | 联合排除 Top-down；指向近邻 AGN/射电星系 |
 
@@ -51,17 +51,17 @@ path: background/06_controversy_evolution.md
 
 ---
 
-## 3. 银河系 CR 传播参数：扩散谱指数 δ 与晕高 z_h
+## 3. 银河系 CR 传播参数：扩散谱指数 $\delta$ 与晕高 z_h
 
 | 时间 | 文献/事件 | 立场 |
 |---|---|---|
-| 1970s–80s | 经典理论 | Kolmogorov 湍流 δ=0.33 vs Kraichnan δ=0.54 |
-| 1990 | Gaisser | B/C 比推断 δ≈0.3–0.6（模型依赖） |
-| 2007 | Strong et al. | GALPROP 系统拟合：δ 与 z_h 强耦合（z_h≈4–6 kpc） |
-| 2013 | Blasi | 重提传播方程现代形式（δ 与再加速耦合） |
+| 1970s–80s | 经典理论 | Kolmogorov 湍流 $\delta$=0.33 vs Kraichnan $\delta$=0.54 |
+| 1990 | Gaisser | B/C 比推断 $\delta$≈0.3–0.6（模型依赖） |
+| 2007 | Strong et al. | GALPROP 系统拟合：$\delta$ 与 z_h 强耦合（z_h≈4–6 kpc） |
+| 2013 | Blasi | 重提传播方程现代形式（$\delta$ 与再加速耦合） |
 | 2014 | Amato | 非线性 DSA 与传播谱指数耦合分析 |
-| 2015 | Grenier | 九命综述：放射性时钟（¹⁰Be/²⁶Al）限 z_h≈4 kpc |
-| 2016+ | AMS-02 | 高精度 B/C → δ 上限收紧；z_h 被压低 |
+| 2015 | Grenier | 九命综述：放射性时钟（$^{10}{\rm Be}$/$^{26}{\rm Al}$）限 z_h≈4 kpc |
+| 2016+ | AMS-02 | 高精度 B/C → $\delta$ 上限收紧；z_h 被压低 |
 | 2020 | Weinrich et al. | A&A 639, A74：贝叶斯分析 → 晕大小 L ≥ 8 kpc 显著优于传统 4 kpc |
 | 2021 | Génolini et al. | PRD 104, 083005：min/med/max 传播模型作为暗物质搜寻反卷积标准 |
 
@@ -73,12 +73,12 @@ path: background/06_controversy_evolution.md
 
 | 时间 | 文献/事件 | 立场 |
 |---|---|---|
-| ~1978–2000s | SNR 扩散激波加速（DSA）范式 | "三支柱"论证（谱指数/能量学/γ 射线）确立为默认范式 |
+| ~1978–2000s | SNR 扩散激波加速（DSA）范式 | "三支柱"论证（谱指数/能量学/$\gamma$ 射线）确立为默认范式 |
 | 1978 | Bell / Blandford-Ostriker | **DSA 奠基**（同期独立）：first-order Fermi 加速数学形式化 |
 | 1987 | Blandford-Eichler | Phys. Rep. 154, 1：经典综述，命名"diffusive shock acceleration" |
 | 2013 | Blasi | 系统审视：三支柱均**间接证据**，不足以证明范式正确 |
 | 2014 | Amato | 关键批判：**Bell 模式波放大被系统性高估**（$F_{0}$≲1）；NLDSA 谱比观测硬 |
-| 2021 | LHAASO | 发现银河系 **PeVatron**（超高能 γ 源）——超泡作为膝点 CR 位点被支持 |
+| 2021 | LHAASO | 发现银河系 **PeVatron**（超高能 $\gamma$ 源）——超泡作为膝点 CR 位点被支持 |
 | 未来 | CTA | 待运行——SNR 范式最终裁决者 |
 
 **演化形态**：**范式确立 → 内部批判（Amato/Blasi）→ 观测部分救赎（LHAASO 超泡）**。当前"倾向超泡可行"。
@@ -89,9 +89,9 @@ path: background/06_controversy_evolution.md
 
 | 时间 | 文献/事件 | 立场 |
 |---|---|---|
-| 1957 | B²FH | 提出 r/s 过程框架（尚无具体位点） |
-| 1984 | Fowler | r 过程位点候选：中微子风 SN；s 过程：AGB ¹³C 口袋 |
-| 1997 | Wallerstein | 综述：r 过程位点仍未定（超新星 vs 合并）；s 过程 ¹³C 形成机制（Ne 富集 vs 混合）未决 |
+| 1957 | B$^2$FH | 提出 r/s 过程框架（尚无具体位点） |
+| 1984 | Fowler | r 过程位点候选：中微子风 SN；s 过程：AGB $^{13}{\rm C}$ 口袋 |
+| 1997 | Wallerstein | 综述：r 过程位点仍未定（超新星 vs 合并）；s 过程 $^{13}{\rm C}$ 形成机制（Ne 富集 vs 混合）未决 |
 | 2017 | **GW170817** | NS-NS 合并引力波+千新星 → **r 过程首要位点实锤**（第一峰）；中微子风可能仍贡献 |
 | 2019+ | kilonova 光谱观测 | 证实 r 过程重元素（Ba、Te 等）产物 |
 | 2021 | Cowan, Sneden, Lawler (RMP) | RMP 93, 015002：r 过程现代综述，把 r 位点争论尘埃落定 |
@@ -134,7 +134,7 @@ path: background/06_controversy_evolution.md
 | 平坦自转曲线 | 暗物质 vs MOND | 倾向暗物质（多维证据） |
 | 银河年龄 | 核宇宙化学 17.9 Gyr vs Planck 13.8 | **已解决**（Planck） |
 | BBN Li-7 | 标准模型 vs 观测 | **未决**（cosmic lithium problem） |
-| ¹²C(α,γ)¹⁶O 反应率 | S(300keV) 1.0–2.0 keV·b | LUNA 收窄至 ~10–20% |
+| $^{12}{\rm C}$($\alpha$,$\gamma$)$^{16}{\rm O}$ 反应率 | S(300keV) 1.0–2.0 keV·b | LUNA 收窄至 ~10–20% |
 | 正电子超出 | 暗物质 vs 脉冲星 | 倾向脉冲星（AMS-02 2020s） |
 
 ---
@@ -142,13 +142,13 @@ path: background/06_controversy_evolution.md
 ## 9. 时间线总结（本库视角）
 
 ```
-1957  B²FH —— 核合成框架（r/s 过程）起点
+1957  B$^2$FH —— 核合成框架（r/s 过程）起点
 1975  Trimble —— 早期恒星演化综述
 1984  Fowler —— 未决争议清单（中微子/银河年龄/Li-7）
 1989  Anders & Grevesse —— 太阳丰度经典值 7.50
 1997  Wallerstein —— 核合成综述（r 位点未定）
 2001  SNO —— 太阳中微子振荡实锤（终结 Fowler 1984 争议）
-2007  Strong —— 传播参数系统拟合（δ/z_h 耦合）
+2007  Strong —— 传播参数系统拟合（$\delta$/z_h 耦合）
 2014  Amato —— Bell 波放大系统高估批判
 2017  GW170817 —— r 过程位点实锤（核合成最大争议裁决）
 2018  Bertone & Hooper —— WIMP 衰落
