@@ -73,7 +73,7 @@
       },
       {
         "quantity": "晕高度 $z_h$",
-        "value": "4–6 kpc（¹⁰Be 约束）",
+        "value": "4–6 kpc（$^{10}{\\rm Be}$ 约束）",
         "uncertainty": "—",
         "source": "Strong et al. 2007",
         "section": "§3.2"
@@ -175,7 +175,7 @@
     "tags": [],
     "citations": [],
     "path": "01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md",
-    "quality": 0,
+    "quality": 5,
     "key_values": []
   },
   {
@@ -222,7 +222,7 @@
         "section": "§15.3"
       },
       {
-        "quantity": "模板星暴 log(He II λ4686/Hβ)",
+        "quantity": "模板星暴 log(He II $\\lambda$4686/H$\\beta$)",
         "value": "~$-1.6$",
         "uncertainty": "—",
         "source": "Kewley et al. 2001",
@@ -243,7 +243,7 @@
         "section": "§15.4"
       },
       {
-        "quantity": "SNR 对 Hβ 贡献",
+        "quantity": "SNR 对 H$\\beta$ 贡献",
         "value": "16–20%",
         "uncertainty": "—",
         "source": "Kewley et al. 2001",
@@ -956,51 +956,51 @@
       },
       {
         "quantity": "八大合成过程",
-        "value": "H 燃烧、He 燃烧、α、ε、s、r、p、x（+ ν）",
+        "value": "H 燃烧、He 燃烧、$\\alpha$、$\\epsilon$、s、r、p、x（+ $\\nu$）",
         "uncertainty": "—",
-        "source": "B²FH 1957; Wallerstein 1997",
+        "source": "B$^2$FH 1957; Wallerstein 1997",
         "section": "§15.4"
       },
       {
         "quantity": "s 过程丰度峰（Zr/Ba/Pb）",
         "value": "A=90 (Z=50), 138, 208 (Z=82)",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "r 过程丰度峰（Se/Xe/Os）",
         "value": "A=80, 130, 194",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "r 过程丰度峰（中子幻数）",
         "value": "N=50, 82, 126",
         "uncertainty": "—",
-        "source": "B²FH 1957; Fowler 1984",
+        "source": "B$^2$FH 1957; Fowler 1984",
         "section": "§15.7"
       },
       {
         "quantity": "稳态流判据",
         "value": "$\\sigma(A)\\cdot N(A) = \\text{const}$",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "银河系年龄（U²³⁵/U²³⁸ 定年）",
         "value": "~$10^{10}$ yr",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "中子源",
-        "value": "¹²C(α,n)¹⁶O、²⁰Ne(α,n)²⁴Mg",
+        "value": "$^{12}{\\rm C}$($\\alpha$,n)$^{16}{\\rm O}$、$^{20}{\\rm Ne}$($\\alpha$,n)$^{24}{\\rm Mg}$",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       }
     ]
@@ -1117,51 +1117,51 @@
       },
       {
         "quantity": "八大合成过程",
-        "value": "H 燃烧、He 燃烧、α、ε、s、r、p、x（+ ν）",
+        "value": "H 燃烧、He 燃烧、$\\alpha$、$\\epsilon$、s、r、p、x（+ $\\nu$）",
         "uncertainty": "—",
-        "source": "B²FH 1957; Wallerstein 1997",
+        "source": "B$^2$FH 1957; Wallerstein 1997",
         "section": "§15.4"
       },
       {
         "quantity": "s 过程丰度峰（Zr/Ba/Pb）",
         "value": "A=90 (Z=50), 138, 208 (Z=82)",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "r 过程丰度峰（Se/Xe/Os）",
         "value": "A=80, 130, 194",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "r 过程丰度峰（中子幻数）",
         "value": "N=50, 82, 126",
         "uncertainty": "—",
-        "source": "B²FH 1957; Fowler 1984",
+        "source": "B$^2$FH 1957; Fowler 1984",
         "section": "§15.7"
       },
       {
         "quantity": "稳态流判据",
         "value": "$\\sigma(A)\\cdot N(A) = \\text{const}$",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "银河系年龄（U²³⁵/U²³⁸ 定年）",
         "value": "~$10^{10}$ yr",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "中子源",
-        "value": "¹²C(α,n)¹⁶O、²⁰Ne(α,n)²⁴Mg",
+        "value": "$^{12}{\\rm C}$($\\alpha$,n)$^{16}{\\rm O}$、$^{20}{\\rm Ne}$($\\alpha$,n)$^{24}{\\rm Mg}$",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       }
     ]
@@ -1204,51 +1204,51 @@
       },
       {
         "quantity": "八大合成过程",
-        "value": "H 燃烧、He 燃烧、α、ε、s、r、p、x（+ ν）",
+        "value": "H 燃烧、He 燃烧、$\\alpha$、$\\epsilon$、s、r、p、x（+ $\\nu$）",
         "uncertainty": "—",
-        "source": "B²FH 1957; Wallerstein 1997",
+        "source": "B$^2$FH 1957; Wallerstein 1997",
         "section": "§15.4"
       },
       {
         "quantity": "s 过程丰度峰（Zr/Ba/Pb）",
         "value": "A=90 (Z=50), 138, 208 (Z=82)",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "r 过程丰度峰（Se/Xe/Os）",
         "value": "A=80, 130, 194",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "r 过程丰度峰（中子幻数）",
         "value": "N=50, 82, 126",
         "uncertainty": "—",
-        "source": "B²FH 1957; Fowler 1984",
+        "source": "B$^2$FH 1957; Fowler 1984",
         "section": "§15.7"
       },
       {
         "quantity": "稳态流判据",
         "value": "$\\sigma(A)\\cdot N(A) = \\text{const}$",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "银河系年龄（U²³⁵/U²³⁸ 定年）",
         "value": "~$10^{10}$ yr",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "中子源",
-        "value": "¹²C(α,n)¹⁶O、²⁰Ne(α,n)²⁴Mg",
+        "value": "$^{12}{\\rm C}$($\\alpha$,n)$^{16}{\\rm O}$、$^{20}{\\rm Ne}$($\\alpha$,n)$^{24}{\\rm Mg}$",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       }
     ]
@@ -1296,51 +1296,51 @@
       },
       {
         "quantity": "八大合成过程",
-        "value": "H 燃烧、He 燃烧、α、ε、s、r、p、x（+ ν）",
+        "value": "H 燃烧、He 燃烧、$\\alpha$、$\\epsilon$、s、r、p、x（+ $\\nu$）",
         "uncertainty": "—",
-        "source": "B²FH 1957; Wallerstein 1997",
+        "source": "B$^2$FH 1957; Wallerstein 1997",
         "section": "§15.4"
       },
       {
         "quantity": "s 过程丰度峰（Zr/Ba/Pb）",
         "value": "A=90 (Z=50), 138, 208 (Z=82)",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "r 过程丰度峰（Se/Xe/Os）",
         "value": "A=80, 130, 194",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "r 过程丰度峰（中子幻数）",
         "value": "N=50, 82, 126",
         "uncertainty": "—",
-        "source": "B²FH 1957; Fowler 1984",
+        "source": "B$^2$FH 1957; Fowler 1984",
         "section": "§15.7"
       },
       {
         "quantity": "稳态流判据",
         "value": "$\\sigma(A)\\cdot N(A) = \\text{const}$",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "银河系年龄（U²³⁵/U²³⁸ 定年）",
         "value": "~$10^{10}$ yr",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "中子源",
-        "value": "¹²C(α,n)¹⁶O、²⁰Ne(α,n)²⁴Mg",
+        "value": "$^{12}{\\rm C}$($\\alpha$,n)$^{16}{\\rm O}$、$^{20}{\\rm Ne}$($\\alpha$,n)$^{24}{\\rm Mg}$",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       }
     ]
@@ -1387,51 +1387,51 @@
       },
       {
         "quantity": "八大合成过程",
-        "value": "H 燃烧、He 燃烧、α、ε、s、r、p、x（+ ν）",
+        "value": "H 燃烧、He 燃烧、$\\alpha$、$\\epsilon$、s、r、p、x（+ $\\nu$）",
         "uncertainty": "—",
-        "source": "B²FH 1957; Wallerstein 1997",
+        "source": "B$^2$FH 1957; Wallerstein 1997",
         "section": "§15.4"
       },
       {
         "quantity": "s 过程丰度峰（Zr/Ba/Pb）",
         "value": "A=90 (Z=50), 138, 208 (Z=82)",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "r 过程丰度峰（Se/Xe/Os）",
         "value": "A=80, 130, 194",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "r 过程丰度峰（中子幻数）",
         "value": "N=50, 82, 126",
         "uncertainty": "—",
-        "source": "B²FH 1957; Fowler 1984",
+        "source": "B$^2$FH 1957; Fowler 1984",
         "section": "§15.7"
       },
       {
         "quantity": "稳态流判据",
         "value": "$\\sigma(A)\\cdot N(A) = \\text{const}$",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "银河系年龄（U²³⁵/U²³⁸ 定年）",
         "value": "~$10^{10}$ yr",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       },
       {
         "quantity": "中子源",
-        "value": "¹²C(α,n)¹⁶O、²⁰Ne(α,n)²⁴Mg",
+        "value": "$^{12}{\\rm C}$($\\alpha$,n)$^{16}{\\rm O}$、$^{20}{\\rm Ne}$($\\alpha$,n)$^{24}{\\rm Mg}$",
         "uncertainty": "—",
-        "source": "B²FH 1957",
+        "source": "B$^2$FH 1957",
         "section": "§15.4"
       }
     ]
@@ -1468,42 +1468,42 @@
         "section": "章节"
       },
       {
-        "quantity": "¹³N(p,γ)¹⁴O $\\Gamma_\\gamma$",
+        "quantity": "$^{13}{\\rm N}$(p,$\\gamma$)$^{14}{\\rm O}$ $\\Gamma_\\gamma$",
         "value": "$3.1\\pm 0.4$ eV",
         "uncertainty": "~13%",
         "source": "Champagne & Wiescher 1992",
         "section": "§99.4"
       },
       {
-        "quantity": "¹³N 半衰期",
+        "quantity": "$^{13}{\\rm N}$ 半衰期",
         "value": "$9.97$ min",
         "uncertainty": "—",
         "source": "Champagne & Wiescher 1992",
         "section": "§99.7"
       },
       {
-        "quantity": "¹⁵O(α,γ)¹⁹Ne 不确定度",
+        "quantity": "$^{15}{\\rm O}$($\\alpha$,$\\gamma$)$^{19}{\\rm Ne}$ 不确定度",
         "value": "因子 2（$T_9\\lesssim 0.5$）",
         "uncertainty": "—",
         "source": "Champagne & Wiescher 1992",
         "section": "§99.4"
       },
       {
-        "quantity": "¹⁴O(α,p)¹⁷F 高温率不确定度",
+        "quantity": "$^{14}{\\rm O}$($\\alpha$,p)$^{17}{\\rm F}$ 高温率不确定度",
         "value": "因子 2（高温）",
         "uncertainty": ">100（低温）",
         "source": "Champagne & Wiescher 1992",
         "section": "§99.4"
       },
       {
-        "quantity": "¹⁷F(p,γ)¹⁸Ne 改进",
+        "quantity": "$^{17}{\\rm F}$(p,$\\gamma$)$^{18}{\\rm Ne}$ 改进",
         "value": "优于早期 10×",
         "uncertainty": "—",
         "source": "Champagne & Wiescher 1992",
         "section": "§99.4"
       },
       {
-        "quantity": "¹⁹Ne(p,γ)²⁰Na 不确定度",
+        "quantity": "$^{19}{\\rm Ne}$(p,$\\gamma$)$^{20}{\\rm Na}$ 不确定度",
         "value": "**数个量级**（J$^\\pi$ 争议）",
         "uncertainty": "—",
         "source": "Champagne & Wiescher 1992",
@@ -1511,7 +1511,7 @@
       },
       {
         "quantity": "rp-process 端点（XRB，$T_9=1.5$）",
-        "value": "⁷²Kr（$T_{1/2}=17.2$ s）",
+        "value": "$^{72}{\\rm Kr}$（$T_{1/2}=17.2$ s）",
         "uncertainty": "—",
         "source": "Champagne & Wiescher 1992",
         "section": "§99.4 / §99.7"
@@ -1660,42 +1660,42 @@
         "section": "章节"
       },
       {
-        "quantity": "¹³N(p,γ)¹⁴O $\\Gamma_\\gamma$",
+        "quantity": "$^{13}{\\rm N}$(p,$\\gamma$)$^{14}{\\rm O}$ $\\Gamma_\\gamma$",
         "value": "$3.1\\pm 0.4$ eV",
         "uncertainty": "~13%",
         "source": "Champagne & Wiescher 1992",
         "section": "§99.4"
       },
       {
-        "quantity": "¹³N 半衰期",
+        "quantity": "$^{13}{\\rm N}$ 半衰期",
         "value": "$9.97$ min",
         "uncertainty": "—",
         "source": "Champagne & Wiescher 1992",
         "section": "§99.7"
       },
       {
-        "quantity": "¹⁵O(α,γ)¹⁹Ne 不确定度",
+        "quantity": "$^{15}{\\rm O}$($\\alpha$,$\\gamma$)$^{19}{\\rm Ne}$ 不确定度",
         "value": "因子 2（$T_9\\lesssim 0.5$）",
         "uncertainty": "—",
         "source": "Champagne & Wiescher 1992",
         "section": "§99.4"
       },
       {
-        "quantity": "¹⁴O(α,p)¹⁷F 高温率不确定度",
+        "quantity": "$^{14}{\\rm O}$($\\alpha$,p)$^{17}{\\rm F}$ 高温率不确定度",
         "value": "因子 2（高温）",
         "uncertainty": ">100（低温）",
         "source": "Champagne & Wiescher 1992",
         "section": "§99.4"
       },
       {
-        "quantity": "¹⁷F(p,γ)¹⁸Ne 改进",
+        "quantity": "$^{17}{\\rm F}$(p,$\\gamma$)$^{18}{\\rm Ne}$ 改进",
         "value": "优于早期 10×",
         "uncertainty": "—",
         "source": "Champagne & Wiescher 1992",
         "section": "§99.4"
       },
       {
-        "quantity": "¹⁹Ne(p,γ)²⁰Na 不确定度",
+        "quantity": "$^{19}{\\rm Ne}$(p,$\\gamma$)$^{20}{\\rm Na}$ 不确定度",
         "value": "**数个量级**（J$^\\pi$ 争议）",
         "uncertainty": "—",
         "source": "Champagne & Wiescher 1992",
@@ -1703,7 +1703,7 @@
       },
       {
         "quantity": "rp-process 端点（XRB，$T_9=1.5$）",
-        "value": "⁷²Kr（$T_{1/2}=17.2$ s）",
+        "value": "$^{72}{\\rm Kr}$（$T_{1/2}=17.2$ s）",
         "uncertainty": "—",
         "source": "Champagne & Wiescher 1992",
         "section": "§99.4 / §99.7"
@@ -1763,7 +1763,7 @@
         "section": "§15.3"
       },
       {
-        "quantity": "模板星暴 log(He II λ4686/Hβ)",
+        "quantity": "模板星暴 log(He II $\\lambda$4686/H$\\beta$)",
         "value": "~$-1.6$",
         "uncertainty": "—",
         "source": "Kewley et al. 2001",
@@ -1784,7 +1784,7 @@
         "section": "§15.4"
       },
       {
-        "quantity": "SNR 对 Hβ 贡献",
+        "quantity": "SNR 对 H$\\beta$ 贡献",
         "value": "16–20%",
         "uncertainty": "—",
         "source": "Kewley et al. 2001",
@@ -2064,7 +2064,7 @@
       },
       {
         "quantity": "晕高度 $z_h$",
-        "value": "4–6 kpc（¹⁰Be 约束）",
+        "value": "4–6 kpc（$^{10}{\\rm Be}$ 约束）",
         "uncertainty": "—",
         "source": "Strong et al. 2007",
         "section": "§3.2"
@@ -2084,7 +2084,7 @@
         "section": "§3.1, (69)"
       },
       {
-        "quantity": "¹⁰Be 半衰期（用于 halo 约束）",
+        "quantity": "$^{10}{\\rm Be}$ 半衰期（用于 halo 约束）",
         "value": "1.6 Myr",
         "uncertainty": "—",
         "source": "Grenier, Black & Strong 2015",
@@ -2092,7 +2092,7 @@
       },
       {
         "quantity": "加速延迟",
-        "value": "$\\geq 10^5$ 年（⁵⁹Ni）",
+        "value": "$\\geq 10^5$ 年（$^{59}{\\rm Ni}$）",
         "uncertainty": "—",
         "source": "Strong et al. 2007",
         "section": "§3.3"
