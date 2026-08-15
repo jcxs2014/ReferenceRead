@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract B-class terminology from all 21 98_vocabulary.md files and merge into a unified glossary."""
+"""Extract B-class terminology from all 98_vocabulary.md files and merge into a unified glossary."""
 import re
 from pathlib import Path
 from collections import OrderedDict
@@ -66,7 +66,7 @@ def main():
     lines = [
         "# 05. 全库术语表 (Glossary)",
         "",
-        f"> 从 21 篇 `98_vocabulary.md` 的 B 类术语提取汇总。",
+        f"> 从 {len(files)} 篇 `98_vocabulary.md` 的 B 类术语提取汇总。",
         f"> 去重前：{total_entries} 条引用；去重后：{len(glossary)} 个独立术语。",
         f"> 跨篇复用：{len(multi)} 个术语在多篇论文中独立出现。",
         "",
