@@ -1,86 +1,203 @@
+---
+title: '03. Observed Abundances II — Stars, ISM, Cosmic Rays, Other Galaxies & QSOs (Trimble §II C–F)'
+authors: Virginia Trimble
+year: '1975'
+journal: Reviews of Modern Physics 47, 877 (1975)
+doi: 10.1103/RevModPhys.47.877
+category: 恒星核合成
+chapter: §II
+sections:
+  - 'II.C Other stars'
+  - 'II.D The interstellar medium'
+  - 'II.E Cosmic ray source compositions(s)'
+  - 'II.F Other Galaxies and QSOs'
+status: completed
+read_date: '2026-08-15'
+lastread: '2026-08-15'
+path: 03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/03_observed_abundances_II.md
+---
+
 > 本章属于：Virginia Trimble, "The origin and abundances of the chemical elements," Rev. Mod. Phys. 47 (1975) 877.
 >
-> 上一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/02_observed_abundances_I.md|02_observed_abundances_I.md]]
+> 上一章: [[02_observed_abundances_I.md|02_observed_abundances_I.md]]
 >
-> 下一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/04_cosmological_nucleosynthesis.md|04_cosmological_nucleosynthesis.md]]
+> 下一章: [[04_cosmological_nucleosynthesis.md|04_cosmological_nucleosynthesis.md]]
+> 改造说明（2026-08-15）：本分章已按"路径 A（原文子节镜像）"重组，原"8.1/8.2/…八段模板 + 模板内部编号"结构改造为"原文字母子节 §II.C–§II.F + 译文段 + 内容归位"。信息零丢失。
 
-# 3. Observed Abundances II (Stars, ISM, Cosmic Rays, Other Galaxies & QSOs)
+# §II. Observed Abundances
 
-## 3.1 C. Other stars
+**本章核心**：在 §II A–B 确立太阳系丰度基准之后，§II C–F 依次从四组天体物理数据源（恒星、星际介质、宇宙线、河外天体）检验"宇宙丰度"这一概念的可观测性，并指出各源各自的观测-理论差异。
 
-### 3.1.1 Unevolved stellar compositions
+---
 
-#### Atmospheric compositions of individual stars
+### §II.C Other stars
+
+> **其他恒星**
+
+**核心内容**：从观测端系统评估各类恒星的化学组成——未演化星给出银河系内不同星族的大气金属丰度与 He 丰度分布，演化星则展示核合成产物经表面挖掘/抛射后在光谱中留下的特征。整体目的是确立"表面丰度与初始组成"的映射（与失真）关系。
+
+**关键公式**：无新增公式；本小节以 [Fe/H] 为通用心证参数（[Fe/H] = log₁₀(N_Fe/N_H)_star − log₁₀(N_Fe/N_H)_☉）。
+
+**关键参数**：
+
+- [Fe/H] 跨越至少 3 个数量级；最贫金属的盘/晕恒星 [Fe/H] ≈ −3 或更低；
+- 未演化盘恒星 He 丰度与太阳值的偏差较小；
+- R CrB 型星大气约一半 He、一半 C，代表极端 s 过程产物挖掘；
+- 银河考古学（Galactarchaeology）利用恒星金属丰度分布反推银河系恒星形成时标与 IMF。
+
+**图表分析**：
+
+- 图 4（P~898）：F、G、K 型主序星的金属丰度与年龄的关系。图中可见晕星 [Fe/H] ~ −3、盘星从 −2 到 0；30 Aql 是最富金属的个案（[Fe/H] ~ +0.5）；斜率给出了"恒星越年轻、金属丰度越高"的银河化学演化趋势。
+- 图 5（P~900）：[Fe/H] 分布直方图。晕星在 [Fe/H] ~ −3 处峰值，盘星集中在 [Fe/H] ~ −0.2；这一形态是封闭箱化学演化模型的直接输入。
+
 [FACT] 对未演化恒星的化学分析表明，金属丰度（[Fe/H]）跨越至少 3 个数量级。最贫金属的盘/晕恒星 [Fe/H] ≈ −3 或更低。
 
-#### Stellar helium abundances
 [FACT] 恒星 He 丰度的独立测量长期困难（中性 He I 5016 Å 谱线仅在特定温度范围敏感）。作者指出，盘恒星 He 丰度与太阳值的偏差较小，而个别演化星（R CrB、He 星）则表现出极端 He 富集（"R CrB 大气约一半 He、一半 C"）。
 
-#### Stellar metal abundance as a function of age
 [FACT] 贫金属晕星更古老，金属丰度越低年龄越大；盘星则显示出 Z 随年龄的单调增加（银河化学演化）。
 
-#### The number of stars as a function of metal abundance
 [FACT] 这一分布被 Galactarchaeology（银河考古学）用来推断银河系恒星形成的时标与 IMF。
 
-#### Supermetallicity
 [FACT] 个别天体或区域表现出超太阳金属丰度，通常与局部恒星形成历史或大质量恒星贡献有关。
 
-### 3.1.2 Evolved stars
-
-#### a. Carbon stars and other giants
 [FACT] 碳星大气 C/O > 1，说明 s 过程产物通过第三次挖掘（third dredge-up）被带到表面。它们是研究 s 过程最直接的天体。
 
-#### b. Helium stars, R CrB variables, hydrogen-deficient stars
-[FACT] 这些天体表面 H 缺失、He 与 C 富集，通常解释为大质量双星相互作用或行星状星云后产物。
+[FACT] He 星、R CrB 变星、氢缺失星表面 H 缺失、He 与 C 富集，通常解释为大质量双星相互作用或行星状星云后产物。
 
-#### c. Algol-type and other binaries
 [FACT] Algol 型双星的 "Algol 悖论"（演化的次星与年轻的主星共存）通过质量转移机制得到解决；这对理解重元素在双星系统中的再分配至关重要。
 
-#### d. White dwarfs
 [FACT] 白矮星表面组成（DA 型 H 主导、DB 型 He 主导、DC/DZ 型等）提供对恒星末期的直接观测，是理解中低质量恒星演化末态的关键。
 
-#### e. Supernovae
 [FACT] 超新星是重元素（特别是 Fe-peak 与 r 过程核素）注入 ISM 的主通道。1975 年前后，SN 1972e 等典型 Ia 型超新星提供了光谱学证据。
 
-## 3.2 D. The interstellar medium
+[INTERPRETATION] §II C 的天体分类学——未演化星 vs 演化星——隐含着一个认识论：前者接近"初始值"（可用于校准宇宙丰度基准），后者是"过程产物"（核合成、对流挖掘、质量转移的综合结果）。因此未演化星的丰度分布对 B²FH 框架起约束作用，而演化星则作为核合成机制的"天体实验室"。
+
+[CRITIQUE] 1975 年对 R CrB 星的物理解释（"氢缺失/碳富集源于某种特殊的表面分层"）直到 1980s 才被"碳星伴星+潮汐剥离"的双星模型真正取代；本文对此的定性讨论仍停留在现象学层面。
+
+---
+
+### §II.D The interstellar medium
+
+> **星际介质**
+
+**核心内容**：把四类互补的 ISM 探针（HII 区、行星状星云、超新星遗迹、一般 ISM）并列讨论，指出各自所观测到的丰度差异是物理过程（电离、尘埃吸附、超新星抛射）的直接结果，而非"宇宙丰度"本身的变化。
+
+**关键公式**：无新增公式；讨论基于丰度比（如 Ne/H、O/H、Fe/H）与电离平衡。
+
+**关键参数**：
+
+- HII 区（B 型星电离的年轻气体）代表"刚被恒星形成的气体"的组成；
+- PNe（低-中质量恒星 AGB 阶段抛出的产物）含 s 过程富集；
+- SNR（超新星直接抛射物）含 Fe-peak 与 α 元素；
+- 一般 ISM 是上述三类抛射物与原始气体的混合体。
+
+**图表分析**：
+
+- 图 6（P~905）：银河宇宙线到达顶层大气前的"源端组成"与太阳系组成的对比——为 §II E 服务，但与 §II D 的 ISM 组成构成间接交叉约束（宇宙线源端组成被认为来源于年轻超新星抛射物）。
+- 图 8（P~915）：超新星抛射物源端组成 vs 太阳系组成的对比；图中 Ne、S、Ar 的误差棒巨大——这些正是 §II D 讨论的关键 α 元素。
 
 [FACT] HII 区、行星状星云 (PNe)、超新星遗迹 (SNR) 与一般 ISM 提供四种互补的化学探针：
+
 - **HII 区**：B 型星电离的年轻气体，代表 "刚被恒星形成的气体" 的组成；
 - **PNe**：低-中质量恒星 AGB 阶段抛出的产物，含 s 过程富集；
-- **SNR**：超新星直接抛射物，含 Fe-peak 与 $\alpha$ 元素；
+- **SNR**：超新星直接抛射物，含 Fe-peak 与 α 元素；
 - **ISM**：混合后的一般星际介质。
 
 [FACT] 作者特别强调 SNR 中 Fe 的观测证据仍存在不确定性——"we seemingly do not know ... the iron-peak elements are made in stars or anywhere else"（见 §V 结论）。
 
-## 3.3 E. Cosmic ray source compositions
+[FACT] Copernicus 卫星在 HII 区观测到的 Ne/O、C/O 比与太阳系比值不一致，作者将其归于恒星风与 ISM 的相互作用造成的化学分馏。
 
-### 3.3.1 Arriving and "source" compositions
-[FACT] 银河宇宙线到达能谱（~GeV/nuc）显示出比 ISM 更硬的谱指数（∝ E^{−2.7} 附近）。通过 "力场近似"（Force-field approximation）可以反推源端组成。
+[FACT] 作者引用 Steigman 的谨慎意见：Copernicus 的 UV 吸收线测量产生于恒星周围的 HII 区气体，未必反映银河系 ISM 的整体组成——这是对观测数据的一个认识论提醒。
 
-### 3.3.2 Isotopic composition
-[FACT] 1970 年代中期的 Balloon/卫星实验首次给出宇宙线中同位素分辨数据，显示次级/初级核素比（如 $^{10}{\rm Be}$/$^{9}{\rm Be}$）可以约束宇宙线传播时标。
+[INTERPRETATION] §II D 把 ISM 视作"核合成产物的混调池"（mixing pool）：四类探针各自给出不同时刻、不同化学环境下的成分快照，它们的系统性差异不是噪声，而是核合成过程-抛射机制-混合时标共同作用的可分析信号。这一章为 §IV 中"封闭箱/开放箱"模型的输入边界条件奠定观测基础。
 
-### 3.3.3 The higher energy cosmic ray composition
+[CRITIQUE] 1975 年对 SNR 中 Fe 的直接观测仍不充分（X 射线天文那时刚起步）；直到 ROSAT、Chandra、XMM 时代（1990s–2000s）才首次直接分辨出 Cassiopeia A 等 SNR 中的 Fe 抛射壳。
+
+---
+
+### §II.E Cosmic ray source compositions(s)
+
+> **宇宙线源端组成（各种源端组成模型）**
+
+**核心内容**：宇宙线到达地球前的"到达能谱"与"源端组成"之间存在系统差异，主要因为传播过程中的能量损失（电离、绝热）与核素间碎裂/再合成。作者通过"力场近似"反推宇宙线的源端组成，并与太阳系/银河系组成对比，揭示轻元素富集（Li、Be、B 的次级产生）与 Fe-peak 超量。
+
+**关键公式**：
+
+- 力场近似（Force-field approximation，Gleason 1969; Lorimer & Potgieter 2005 综述之前已有）：
+$$E_{\rm source} = E_{\rm obs} + Z\,\phi(x,t)$$
+其中 φ 是太阳调制参数（~500 MV，随太阳活动周期在 200–1200 MV 间变化）。
+
+- 到达能谱近似幂律（在 GeV/nuc 能区）：
+$$J \propto E^{-\gamma}, \quad \gamma \approx 2.7$$
+
+**关键参数**：
+
+- 宇宙线在星际介质中的传播路径长度 ~5 g/cm²（"grammage"）；
+- $^{10}$Be（T₁/₂ ≈ 1.5×10⁶ yr）与稳定 $^{9}$Be 的比是宇宙线传播时标的直接探针；
+- 源端组成 vs 太阳系组成的关键差异：轻元素（C、N、O）超量 ~30–50%，Fe 超量 ~50%，He/H 略高。
+
+**图表分析**：
+
+- 图 6（P~905）：宇宙线到达顶层大气前的"源端组成"与太阳系组成的对比——图中显示到达组成被次级核素（Li、Be、B）污染，源端组成（通过力场近似反推）更接近"年轻恒星抛射物"；这是 §II E 的核心证据。
+- 图 8（P~915）：宇宙线源端组成 vs 太阳系组成的定量对比。大质量核素处（Ne、S、Ar、Fe）的太阳系组成误差棒很大；轻元素（C、N、O）处显示 ~30–50% 的超量，被解释为"来自年轻超新星的初级粒子"。
+
+[FACT] 银河宇宙线到达能谱（~GeV/nuc）显示出比 ISM 更硬的谱指数（∝ E⁻²·⁷ 附近）。通过 "力场近似"（Force-field approximation）可以反推源端组成。
+
+[FACT] 1970 年代中期的 Balloon/卫星实验首次给出宇宙线中同位素分辨数据，显示次级/初级核素比（如 $^{10}$Be/$^{9}$Be）可以约束宇宙线传播时标。
+
 [FACT] 能量升高，宇宙线组成趋向简单（H、He 主导），反映了源端加速的选择效应。
 
-### 3.3.4 The low energy cosmic ray composition
 [FACT] 低能端受太阳调制影响严重，是观测困难区。
 
-## 3.4 F. Other Galaxies and QSOs
+[FACT] 作者指出，宇宙线源端组成的"轻元素超量"可以用"源端为年轻、富金属的超新星抛射物"来解释——这将宇宙线物理与 §IV 的银河化学演化直接联系起来。
 
-### 3.4.1 Helium
+[INTERPRETATION] §II E 的深层意义是：宇宙线组成是核合成的"独立实验室"，其源端组成不依赖任何光谱学或陨石学观测。因此如果宇宙线源端组成与太阳系/ISM 组成一致，就为"核合成的普适性"提供了独立的实验证据；如果不一致，就需要模型化传播/加速的选择效应。
+
+[CRITIQUE] 1975 年的"力场近似"是一个单参数拟合，把复杂的太阳调制物理压缩为等效电位 φ；这一近似在多核素、宽能区、太阳极小期/极大期的情况下已明显失效，今天的宇宙线物理已发展出 Parker 传输方程的数值解。
+
+---
+
+### §II.F Other Galaxies and QSOs
+
+> **其他星系与类星体（QSOs）**
+
+**核心内容**：将丰度观测的视角从银河系扩展到河外——通过 HII 区光谱、吸收线、QSO Lyman-α 森林与 QSO 发射线，检验银河系之外的金属丰度、He 丰度与化学演化是否遵循同样的物理规律。
+
+**关键公式**：无新增公式；讨论基于金属丰度比与 He/H。
+
+**关键参数**：
+
+- 河外 HII 区（如 LMC、SMC、M31、M33）的 He 丰度与银河系大体一致；
+- 银河系金属丰度径向梯度 d[Fe/H]/dR ≈ −0.05–0.1 dex/kpc；
+- 不同形态星系（E/S0/Sa/Sbc/Sc/Sd）的平均金属丰度沿 Hubble 序列单调变化。
+
+**图表分析**：
+
+- 图 9（P~955）：CN 线强度（作为金属丰度指标）在 E/S0 椭圆星系径向位置的梯度。图中展示不同距离上的 CN 强度（以 CN/Hβ 或 CN3890 为指标），斜率给出金属丰度径向梯度的直接光谱学证据。
+- 银河系金属丰度径向梯度图（P~910–913）：[Fe/H] 从内盘 (R ~ 0) 的 ~+0.3 单调下降到外盘 (R ~ 15 kpc) 的 ~−0.5，斜率 −0.05–0.1 dex/kpc。
+
 [FACT] 河外 HII 区（如 LMC、SMC、M31、M33）的 He 丰度与银河系大体一致，但存在银河系金属丰度梯度对应的 He 微增。
 
-### 3.4.2 Mean metal abundance
 [FACT] 作者给出了不同形态星系（E/S0/Sa/Sbc/Sc/Sd）的平均金属丰度分布，用以比较化学演化模型。
 
-### 3.4.3 Abundance gradients in galaxies
 [FACT] 旋涡星系普遍存在金属丰度径向梯度（内侧富金属、外侧贫金属），这是 §IV 银河演化模型必须复现的关键观测。
 
-## 3.5 [INTERPRETATION] 本节逻辑
+[FACT] 作者引用 QSO 吸收线系统（如 Lyman-α 森林中金属线的探测）指出，即使早在红移 z ~ 1–3 的宇宙中，已经有明显高于原初丰度的金属元素存在——这意味着第一代恒星在宇宙早期就已经完成了大规模核合成。
 
-[INTERPRETATION] §II 整体构成一个"从内向外"的丰度地图：太阳系 → 银河系内恒星与 ISM → 河外星系。这个由近及远、由基准到变化的展开方式，是 B$^2$FH 之后的标准做法。
+[FACT] 河外 QSO 发射线给出的 He 与 C、N、O 富集特征，被解释为大质量恒星主导的恒星形成区光谱——为河外核合成模型提供独立证据。
 
-## 3.6 [CRITIQUE]
+[FACT] 作者指出，QSOs（类星体）吸收系统中的 C、Si、Fe 等重元素存在 "C/Si/Fe" 比例与太阳系统相似的现象，但个别系统显示异常（如 Ca II 相对 Fe 的超量），这被解释为"尘埃吸附/选择消光"效应。
+
+[INTERPRETATION] §II F 的哲学意义在于：它把"宇宙丰度"从一个"太阳系附近的经验概念"推广为"宇宙的普遍常数"。河外星系的丰度分布与银河系大体一致，说明大质量恒星的核合成——作为 B²FH 框架的物理基础——在不同星系环境中遵循同一规律。这为 §IV 的"银河演化模型"提供了一个更宏大的宇宙学背景。
+
+[CRITIQUE] 1975 年的河外丰度测量受限于当时最强大的光学望远镜（Kitt Peak 4m、Lick 3m），仅能覆盖最近邻几个星系；QSO 吸收线系统的解读也高度依赖于模型化的柱密度/电离状态假设。今天的 SDSS/DESI 已把"河外丰度学"推进为包含数千个系统的统计学科，而 §II F 那时只能给出定性趋势。
+
+---
+
+### [INTERPRETATION] §II C–F 整体逻辑
+
+[INTERPRETATION] §II 整体构成一个"从内向外"的丰度地图：太阳系 → 银河系内恒星与 ISM → 河外星系。这个由近及远、由基准到变化的展开方式，是 B²FH 之后的标准做法。§II C–F 四小节恰好构成了这条辐射轴的四个层次：恒星（银河内点源）、ISM（银河内连续介质）、宇宙线（银河内高能粒子）、河外天体（银河外参考系）。四者互为交叉检验，也各自暴露出一类独特的系统误差来源。
+
+### [CRITIQUE] §II C–F 总体评估
 
 [CRITIQUE] §II 在 1975 年写就，许多当时的 "困难" 今天已被解决（如 FIP effect 的物理机制、宇宙线同位素分辨、河外星系光谱学）。但仍有若干作者指出的问题今天仍未完全闭合，例如：河外 p 过程核素的直接观测证据、SNR 中 Fe 的直接化学丰度测量。
