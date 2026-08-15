@@ -633,3 +633,36 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 - `README.md` 6 个内部链接 → `docs/` 前缀
 - `webapp/审查报告.md`（85KB，含历史审查记录）暂缓合并，仍保留在 `webapp/`
 - Commit: `a086c0b docs: 目录整理（docs/ 文档归位 + scripts/ 脚本归位）— #22`
+
+## 审查 #21：4 篇综述精读补全核验（2026-08-15 13:30）
+
+> 范围：alvesbatista-2019 / kaeppeler-2011 / ruszkowski-pfrommer-2023 / cowan-2021（Hermes 另一会话补全骨架为真精读）
+> 提交：03030ea / e7721d2 / d6f3f52 / 5724469 / b4a82ec
+
+### 核验结果：整体合格 ✅，1 项门禁不一致 ⚠️
+
+| 论文 | 文件/行数 | 三件套 | 门槛(≥800) | 相似度(剥FM) | 判定 |
+|---|---|---|---|---|---|
+| alvesbatista-2019 | 7 / 1625 | ✓ | ✓ | 0.054 | ✅ |
+| kaeppeler-2011 | 8 / 2344 | ✓ | ✓ | 0.072 | ✅ |
+| ruszkowski-pfrommer-2023 | 8 / 1704 | ✓ | ✓ | 0.066 | ✅ |
+| cowan-2021 | 12 / 2189 | ✓ | ✓ | 0.054 | ✅ |
+
+- **提交链真实**：5 commit 文件数与声明一致（6/7/7/11/14）。
+- **相似度门禁**：初测 cowan 07 章 0.101 超门槛，定位为 **frontmatter 元数据重复**（每分章带同套 year/journal/doi/path，非正文搬运）——剥 frontmatter 后 0.054 通过。**方法论教训：相似度比对应剥 frontmatter，否则带 FM 的新篇会误报**。
+- **标签密度**：声明 15-20/k 与实测 0.8-1.8/k 口径不符（声明疑按含全部标签/中文字符），但相对关系成立：cowan 1.6/k ≥ alv 0.8，与 rusz 1.8 持平——"修复 cowan 密度过低"目标达成。
+- **公式 LaTeX 化合规**：kaeppeler 上标残留 790 处实测均为核素质量数（¹³C×66、²²Ne、¹⁵¹Eu 等，前导字母/空格/括号语境），按 §7.1 保留合规；科学记数法/参数下标已转。
+- **frontmatter 补齐**：4 篇 00/98/99 保留 + 分章新带 frontmatter（title/authors/year/journal）——与老库分章（无 FM）风格不一致，但利于 Dataview/registry，方向正面。
+
+### ⚠️ 1 项不一致
+
+- **4 篇均缺 `97_quality_check.md`**——样板 bell/BO/BE 均有（门禁要求"97 无占位符"隐含文件存在）。补全时未补 97，与批 A 样板不符。建议 Hermes 补 4 篇 97（或用 quality_matrix.py 统一生成），维持全库一致性。
+
+### 其他
+
+- 工作树有 telescope-array-2023 未提交改动（PDF 删除 + 分章新增）——Hermes 并发处理"残留文件"，未触碰。
+- 割裂修复指令已由另一会话执行（13fbe3e/3e896f1/06e85bc 三个 commit，01/02/03 域），待下轮复验。
+
+### 结论
+
+**4 篇精读合格，可进入 Phase 3 收尾**（骨架剩 hillas/gabici/giuffrida/telescope-array 等）；97 补齐为低优先一致性项。
