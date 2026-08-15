@@ -1,8 +1,8 @@
----
 title: 'The history of the s-process: Its status in the light of modern nucleosynthesis modeling'
 authors: F. Kappeler, A. Mengoni, A. O. 等
 year: '2011'
 journal: Rev. Mod. Phys. 83, 157 (2011)
+pages: '157-193'
 doi: 10.1103/RevModPhys.83.157
 arxiv: arXiv:1012.1223
 category: 恒星核合成
@@ -12,7 +12,6 @@ lastread: '2026-08-15'
 tags: []
 citations: []
 path: 03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md
----
 > 状态：**精读完成**（2026-08-15）
 > ★ **s 过程权威综述**——RMP 2011；s 过程（慢中子俘获）的历史、核物理基础、当代模型；B$^{2}$FH 的核心验证对象
 

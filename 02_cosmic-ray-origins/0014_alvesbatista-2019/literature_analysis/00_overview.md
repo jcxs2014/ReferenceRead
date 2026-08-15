@@ -1,8 +1,8 @@
----
 title: Open Questions in Cosmic-Ray Research at Ultrahigh Energies
 authors: M. A. O. Alves Batista et al.（20+ 人，Pierre Auger + TA 合作）
 year: '2019'
 journal: Frontiers in Astronomy and Space Sciences 6, 44 (2019)
+pages: '44'
 doi: 10.3389/fspas.2019.00044
 arxiv: arXiv:1906.07770
 category: 宇宙线起源
@@ -12,7 +12,6 @@ lastread: '2026-08-15'
 tags: []
 citations: []
 path: 02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md
----
 > 状态：**精读完成**（2026-08-15）
 > ★ **UHECR 开放问题综述**——争议主题 3（传播参数）+ 主题 4（SNR 范式）的交叉地带；系统梳理 UHECR 领域 7 大未解问题
 

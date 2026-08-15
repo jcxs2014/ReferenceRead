@@ -1,8 +1,8 @@
----
 title: The origin and abundances of the chemical elements
 authors: Virginia Trimble
 year: '1975'
 journal: Reviews of Modern Physics
+pages: '877-976'
 doi: 10.1103/RevModPhys.47.877
 arxiv: 未提供
 keywords: 化学元素丰度、核合成、r 过程、s 过程、p 过程、银河演化、初始质量函数、超新星
@@ -23,7 +23,6 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]]'
 - '[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]]'
 path: 03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview.md
----
 > 本章属于：Virginia Trimble, "The origin and abundances of the chemical elements," Rev. Mod. Phys. 47 (1975) 877.
 >
 > 下一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/01_introduction_and_history.md|01_introduction_and_history.md]]

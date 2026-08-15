@@ -1,8 +1,8 @@
----
 title: Radioactive Clocks and Cosmic-ray Transport in the Galaxy
 authors: R. A. Mewaldt, N. E. Yanasak, M. E. Wiedenbeck et al.（Caltech/JPL/Washington U/NASA Goddard）
 year: '2001'
 journal: Space Science Reviews 99, 137 (2001)
+pages: '137-151'
 doi: 10.1023/A:1013873705653
 category: 宇宙线传播
 status: completed
@@ -11,7 +11,6 @@ lastread: '2026-08-15'
 tags: []
 citations: []
 path: 01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md
----
 > 状态：**精读完成**（2026-08-15）
 > ★ **放射性时钟**——主题 1（传播参数）核验方法：用放射性同位素（Be-10/Al-26/Cl-36）约束 CR 在银河系停留时间
 

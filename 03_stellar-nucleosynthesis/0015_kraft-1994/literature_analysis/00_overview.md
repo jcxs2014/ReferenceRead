@@ -1,8 +1,8 @@
----
 title: 'Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios'
 authors: Robert P. Kraft
 year: '1994'
 journal: Publications of the Astronomical Society of the Pacific (PASP)
+pages: '553-565'
 doi: 未提供（原文未列出 DOI；arXiv 编号未提供）
 keywords: 球状星团巨星、丰度差异、CNO 循环、Sweigart-Mengel 混合机制、深混合、原始丰度变异、Na-O 反相关、C/N 反相关、次参数效应、星族 II
 category: 恒星核合成
@@ -26,7 +26,6 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview|0010_gies-lambert-1992]]'
 - '[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overview|0014_cameron-1968]]'
 path: 03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md
----
 # 0. Overview — 文献基本信息、结构树与篇间导航
 
 > 本文属于：*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)，分类「03_stellar-nucleosynthesis」文献 0015。

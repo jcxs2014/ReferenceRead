@@ -1,8 +1,8 @@
----
 title: THE ORIGIN OF GALACTIC COSMIC RAYS
 authors: Elena Amato
 year: '2014'
 journal: 'International Journal of Modern Physics: Conference Series'
+pages: '70'
 doi: 未提供
 arxiv: arXiv:1406.7714v1 [astro-ph.HE], 30 Jun 2014
 keywords: 'ISM: supernova remnants; MHD; acceleration of particles'
@@ -17,7 +17,6 @@ tags:
 citations: []
 - '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|0004_blasi-2013]]'
 path: 02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md
----
 # 0. 文献概览（Overview）
 
 > 本章属于：The origin of galactic cosmic rays (Amato 2014 & Blasi 2013)

@@ -1,8 +1,8 @@
----
 title: Explosive Hydrogen Burning
 authors: A. E. Champagne；M. Wiescher
 year: '1992'
 journal: Annual Review of Nuclear and Particle Science
+pages: '39-76'
 doi: 未提供
 arxiv: 无
 keywords: nucleosynthesis, hot CNO cycles, rp-process
@@ -18,7 +18,6 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview|0010_gies-lambert-1992]]'
 - '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
 path: 03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview.md
----
 # 00. 文献概览 (Overview)
 
 > 本章属于：**Explosive Hydrogen Burning** (Champagne & Wiescher, 1992)

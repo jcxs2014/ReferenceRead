@@ -1,8 +1,8 @@
----
 title: Cosmic-ray propagation and interactions in the Galaxy
 authors: Andrew W. Strong¹, Igor V. Moskalenko², Vladimir S. Ptuskin³
 year: '2007'
 journal: Reviews of Modern Physics（根据格式推断，arXiv 上标注为 RMP 投稿，2008 年 2 月为草稿日期）
+pages: '2451-2489'
 doi: 10.1103/RevModPhys.79.2451
 arxiv: arXiv:astro-ph/0701517v1
 keywords: energetic particles, gamma rays, interstellar medium, magnetic fields, plasmas
@@ -32,7 +32,6 @@ citations: []
 - '[[02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview|0007_biermann-1996]]'
 - '[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview|0013_bertone-hooper-2018]]'
 path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md
----
 # 00. Overview — 文献基本信息与结构
 
 > 本章属于：Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)

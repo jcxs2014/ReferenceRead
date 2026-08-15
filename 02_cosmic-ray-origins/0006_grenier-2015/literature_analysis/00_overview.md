@@ -1,8 +1,8 @@
----
 title: The Nine Lives of Cosmic Rays in Galaxies
 authors: Isabelle A. Grenier, John H. Black, Andrew W. Strong
 year: '2015'
 journal: Annual Review of Astronomy and Astrophysics, Volume 53, pp. 199–246
+pages: '199-246'
 doi: 10.1146/annurev-astro-082214-122457
 arxiv: 未提供
 keywords: γ rays, interstellar medium, interstellar chemistry, dust, superbubbles
@@ -24,7 +24,6 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'
 - '[[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview|0011_kewley-2001-starburst]]'
 path: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md
----
 > 本章属于：The Nine Lives of Cosmic Rays in Galaxies（Grenier, Black & Strong 2015）
 >
 > 下一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/01_scope_and_nine_lives.md|01_scope_and_nine_lives.md]]

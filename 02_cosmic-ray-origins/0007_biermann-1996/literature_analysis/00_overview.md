@@ -1,8 +1,8 @@
----
 title: Cosmic Ray Interactions and the Abundances of the Chemical Elements
 authors: Peter L. Biermann
 year: '1996'
 journal: 1996 年 Kraków 召开的国际会议 MESON96 报告（讲座稿）
+pages: '1-26'
 doi: 未提供
 arxiv: astro-ph/9609110v1
 keywords: 宇宙线起源、核碎裂 (spallation)、银河系加速、超新星激波、次级核 (Li/Be/B)、元素丰度、云捕获、能量谱指数
@@ -23,7 +23,6 @@ citations: []
 - '[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview|0001_strong-moskalenko-ptuskin-2007]]'
 - '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|0004_blasi-2013]]'
 path: 02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md
----
 > 本章属于：Cosmic Ray Interactions and the Abundances of the Chemical Elements (arXiv:astro-ph/9609110)
 >
 > 上一章：无（首章）

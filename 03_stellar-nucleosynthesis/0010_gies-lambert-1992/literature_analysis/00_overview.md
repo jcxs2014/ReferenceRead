@@ -1,8 +1,8 @@
----
 title: Carbon, nitrogen, and oxygen abundances in early B-type stars
 authors: Douglas R. Gies（Georgia State University）; David L. Lambert（University of Texas, Austin）
 year: '1992'
 journal: The Astrophysical Journal, Vol. 387, pp. 673–700
+pages: '673-700'
 doi: 未提供
 arxiv: 未提供
 category: 恒星核合成
@@ -15,7 +15,6 @@ citations: []
 - '[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]]'
 - '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
 path: 03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview.md
----
 # 0. 文献基本信息
 
 > 本精读档案属于：Gómez & Lambert (1992) — "Carbon, nitrogen, and oxygen abundances in early B-type stars", ApJ 387:673

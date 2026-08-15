@@ -1,8 +1,8 @@
----
 title: Particle acceleration by astrophysical shocks
 authors: R. D. Blandford (Caltech), J. P. Ostriker (Princeton)
 year: '1978'
 journal: The Astrophysical Journal 221, L29-L32 (1978)
+pages: 'L29'
 doi: 10.1086/182658
 arxiv: —（预印本时代前）
 category: 宇宙线起源
@@ -12,7 +12,6 @@ lastread: '2026-08-14'
 tags: []
 citations: []
 path: 02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_overview.md
----
 > 状态：**精读完成**（2026-08-15）
 > ★ **DSA 奠基论文**（与 Bell 1978 同期独立提出，共同构成 diffusive shock acceleration 的双源头）
 

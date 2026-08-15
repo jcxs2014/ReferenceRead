@@ -1,8 +1,8 @@
----
 title: An extremely energetic cosmic ray observed by a surface detector array
 authors: Telescope Array Collaboration
 year: '2023'
 journal: Science 380, 6629, 903-907 (2023)
+pages: '903-907'
 doi: 10.1126/science.abq2244
 arxiv: arXiv:2311.14231
 category: 宇宙线起源
@@ -12,7 +12,6 @@ lastread: '2026-08-15'
 tags: []
 citations: []
 path: 02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/00_overview.md
----
 > 状态：**精读完成**（2026-08-15）
 > ★ **Amaterasu 事件**——Science 2023 封面；争议主题 3+4 的最新观测裁决；能量超 GZK cutoff 但无对应 cosmogenic 背景
 

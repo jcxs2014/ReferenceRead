@@ -1,8 +1,8 @@
----
 title: 'Cosmic Ray Origins: An Astronomer Physicist Perspective'
 authors: S. Gabici, C. Evoli, D. Gaggero, P. Lipari, D. Supanitsky
 year: '2019'
 journal: Int. J. Mod. Phys. D 28, 1930022 (2019)
+pages: '1930022'
 doi: 10.1142/S0218271819300221
 arxiv: arXiv:1907.10847
 category: 宇宙线起源
@@ -12,7 +12,6 @@ lastread: '2026-08-15'
 tags: []
 citations: []
 path: 02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/00_overview.md
----
 > 状态：**精读完成**（2026-08-15）
 > ★ **范式挑战综述**——争议主题 4（SNR 范式）的核心综述；系统评估 SNR 作为 CR 来源的观测证据与理论困难
 

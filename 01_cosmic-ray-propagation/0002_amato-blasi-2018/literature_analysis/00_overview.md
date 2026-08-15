@@ -1,8 +1,8 @@
----
 title: 'Cosmic ray transport in the Galaxy: A review'
 authors: Elena Amato (INAF Arcetri), Pasquale Blasi (GSSI)
 year: '2018'
 journal: Advances in Space Research 62, 2731 (2018)
+pages: '2731-2749'
 doi: 10.1016/j.asr.2017.04.019
 arxiv: arXiv:1704.05696
 category: 宇宙线传播
@@ -12,7 +12,6 @@ lastread: '2026-08-15'
 tags: []
 citations: []
 path: 01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_overview.md
----
 > 状态：**精读完成**（2026-08-15）
 > ★ **CR 传播现代综述**——直接支撑争议主题 3（传播参数 $\delta$ 与晕高 z_h）；是 Génolini 2021 和 Weinrich 2020 的理论基础
 
