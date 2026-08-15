@@ -22,7 +22,7 @@ tags:
 - direct detection
 - indirect detection
 - structure formation
-citations:
+citations: []
 - '[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview|0001_strong-moskalenko-ptuskin-2007]]'
 path: 03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview.md
 ---

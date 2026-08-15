@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**335 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**341 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -228,7 +228,7 @@
 |---|---|
 | 作者 | A. M. Hillas (University of Durham) |
 | 期刊 | Ann. Rev. Astron. Astrophys. 22, 425 (1984) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 9 个（00_overview.md、01_why_bother.md、02_observational_data.md、03_acceleration_mechanisms.md、04_propagation.md、…等 9 个） |
 | 目录 | [`02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/`](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/99_final_summary.md) |
@@ -517,8 +517,8 @@
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
 | 01. 宇宙线传播 | 6 | 49 |
-| 02. 宇宙线起源 | 15 | 119 |
+| 02. 宇宙线起源 | 15 | 125 |
 | 03. 恒星核合成与元素丰度 | 17 | 167 |
-| **合计** | **38** | **335** |
+| **合计** | **38** | **341** |
 
 > 最后更新: 2026-08-15（自动生成）

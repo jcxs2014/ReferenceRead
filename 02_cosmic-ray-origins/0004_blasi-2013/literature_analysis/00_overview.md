@@ -10,7 +10,7 @@ status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'
 tags: []
-citations:
+citations: []
 - '[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview|0005_amato-2014]]'
 - '[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview|0006_grenier-2015]]'
 path: 02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md

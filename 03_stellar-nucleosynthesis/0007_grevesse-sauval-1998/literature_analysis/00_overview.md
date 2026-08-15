@@ -14,7 +14,7 @@ tags:
 - CI chondrites
 - Fe abundance
 - X/Y/Z
-citations:
+citations: []
 - '[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overview|0008_lodders-2003]]'
 - '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'
 path: 03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/00_overview.md
