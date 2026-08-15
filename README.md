@@ -225,7 +225,9 @@ env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0]
 - ✅ pages 字段全量补齐（38/38 整篇粒度）+ frontmatter YAML 修复
 - ✅ 公式 Unicode/上下标 → LaTeX 规范化（全库四域）
 - ✅ 精读深度扩充备忘定稿（路径 A/B 选择规则，见 READING_INSTRUCTIONS §4）
-- 🔄 子节镜像批 1（4 篇长综述示范批次，ruszkowski 已提交，执行中）
+- ✅ 子节镜像批 1 + 批 2（4 篇长综述 30 分章 + 20 篇长文献，路径 A 改造，REVIEWS #25/#26）
+- ✅ 议题 3（quality_matrix 子节镜像统计 + 97 子节级覆盖块，覆盖率 100%）
+- ✅ docs 整理（一次性执行指令 13 份归档至 `docs/archive/`，通用模板见 `docs/执行指令模板.md`）
 
 后续路线见 [`docs/ADVANCEMENT.md`](docs/ADVANCEMENT.md)。
 
