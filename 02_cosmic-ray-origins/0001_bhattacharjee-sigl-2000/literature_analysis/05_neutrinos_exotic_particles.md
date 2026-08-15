@@ -1,203 +1,192 @@
-> 本章属于：Bhattacharjee & Sigl (1999), Phys. Rep. 320, 1–150
+> 本章属于：Bhattacharjee & Sigl (1999), *Phys. Rep.* 320, 1–150
 >
-> 上一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/04_propagation_gzk.md|04_propagation_gzk.md]]
+> 上一章：`04_propagation_gzk.md`
 >
-> 下一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/06_magnetic_fields_constraints.md|06_magnetic_fields_constraints.md]]
+> 下一章：`06_magnetic_fields_constraints.md`
+---
+
+# 5. Origin of UHECR: Acceleration Mechanisms and Sources (§5, p. 40–48)
+
+[FACT] §5 聚焦"bottom-up" 路径：以 DSAM (Diffusive Shock Acceleration Mechanism) 为基准估计最大可加速能量，用 Hillas 判据筛选候选源（AGN / 射电星系 / 脉冲星），并以 GRB 作为可能的极端候选，共 3 个子节（5.1–5.3）。
+
+[INTERPRETATION] §5 是 §3 一般性讨论的"具体候选源"实现——把 §3 中"激波压缩比决定谱指数""Hillas 判据筛源"两条原理应用到具体天体物理环境。
 
 ---
 
-# 5. UHE Neutrinos & Exotic Particles (§4.3, p. 22–28)
+## 5.1 Maximum Achievable Energy within DSA Mechanism
 
-## 5.1 本节核心内容
+> **DSA 机制内可加速的最大能量**
 
-- UHE 中微子主要与**宇宙 relic neutrino background (RNB)** 相互作用。
-- **Z-burst** 情景：UHE 中微子与 relic 中微子在 Z$^{0}$ 共振处湮灭，产生高能次级粒子，作为 EHECR 候选源。
-- UHE 中微子**探测**：通过 $\mu$ 子（CC 相互作用），$\nu_\tau$ 可"再生"穿透地球。
-- **新物理增强中微子截面**的可能：extra dimensions, generation symmetry。
-- **SUSY 候选粒子**：轻 quasi-stable gluino → S$^{0}$ R-hadron（质量 0.1–1 GeV），有效 GZK 阈值提高 → 可作为 EHECR 候选。
-- **QCD 奇特粒子**：uuddss H-dibaryon (M_H ≃ 1700 MeV) 也可作为 EHECR 候选。
+[FACT] DSAM 加速机制的简单模型推导，给出 $E_{\rm max}$ 的"benchmark"估计（公式 43–50）。
 
-## 5.2 §4.3.1 UHE 中微子传播
+[FACT] **基本框架 (公式 43–46)**：
+$$
+\frac{dE}{dt} = \frac{E}{T_{\rm acc}} \qquad (43)
+$$
+$$
+q = 1 + T_{\rm acc}/T_{\rm esc} \qquad (44)
+$$
+$$
+T_{\rm acc} = \frac{3}{(u_1-u_2)}\cdot\left(\frac{D_1}{u_1}+\frac{D_2}{u_2}\right) \qquad (45)
+$$
+$$
+D_1, D_2 \sim \lambda/3 > gE/(3ZeB) \qquad (46)
+$$
+- 非相对论激波 $g=1$；相对论激波 MC 模拟 $g\simeq 40$ [342]，但有额外的 ~10× 补偿因子（高倾角）和 ~13.5×（平行）
 
-### 5.2.1 与 RNB 的相互作用 [FACT]
+[FACT] **最小 $T_{\rm acc}$ (公式 47)**：
+$$
+T_{\rm acc} \gtrsim \frac{g}{2.25}\cdot\frac{E}{ZeB}
+$$
 
-中微子-UHE 中微子 (E) 与 relic 中微子 ($\epsilon$) 的平均 CM 能量平方：
-```
-⟨s⟩ ≃ (45 GeV)$^{2}$ · ($\epsilon$/$10^{-3}$ eV) · (E/$10^{15}$ GeV)   (公式 21)
-```
-- relativistic relic $\nu$: $\epsilon$ ≃ 3T_$\nu$(1+$\eta_{\rm b}$/4)，T_$\nu$ ≃ 1.9(1+z) K = $1.6\times10^{-4}$(1+z) eV
-- nonrelativistic relic $\nu$ (m_$\nu$ ≲ 20 eV): $\epsilon$ ≃ max[3T_$\nu$, m_$\nu$]
+[FACT] **谱指数 (公式 48)**：
+$$
+q(E>E_{\rm diff}) \sim 1 + \frac{E}{2.25\,E_{\rm diff}}, \qquad E_{\rm diff}\equiv ZeBR/g
+$$
 
-**主导相互作用**：
-- t-channel W±: $\nu_{\rm i}$ + $\nu$̄_j → l_i + l̄_j
-- s-channel Z$^{0}$: $\nu_{\rm i}$ + $\nu$̄_i → f f̄
-- t-channel Z$^{0}$: $\nu_{\rm i}$ + $\nu$̄_j → $\nu_{\rm i}$ + $\nu$̄_j
+[FACT] **最大能量（$q=3$ 时, benchmark 估计, 公式 49）**：
+$$
+E_c \equiv E_{q=3} \sim 10^{17}\cdot Z\cdot(R/{\rm kpc})\cdot(B/\mu{\rm G})\ {\rm eV}
+$$
+- 假设 $B$ 平行激波法线
 
-**s-channel Z$^{0}$ 微分截面 (公式 22)**：
-```
-d$\sigma$/(d$\mu$) = (G_F$^{2}$ s / 4$\pi$) · M_Z$^{2}$ / [(s−M_Z$^{2}$)$^{2}$ + M_Z$^{2}$$\Gamma_{\rm Z2}$] · [g_L$^{2}$(1+$\mu$*)$^{2}$ + g_R$^{2}$(1−$\mu$*)$^{2}$]
-```
-- $\mu$*：CM 散射角余弦
-- g_L, g_R：左右耦合常数
+[FACT] **倾斜磁场额外漂移加速 (公式 50)**：
+$$
+E_{\rm max} = Ze\,u_1\,B\,R \sim 10^{18}\cdot Z\,u_1\cdot(R/{\rm kpc})\cdot(B/\mu{\rm G})\ {\rm eV}
+$$
+- 比 (49) 高 ~10×（$u_1\to c$ 时），但需要特殊条件（plasma 效应使 E 场更小）
 
-**t-channel 截面 (公式 23)**：
-```
-$\sigma_{\rm t}$(E,$\epsilon$) ~ min[$10^{-34}$, $3\times10^{-39}$ · ($\epsilon$/$10^{-3}$ eV) · (E/$10^{20}$ eV)]  cm$^{2}$
-```
+[FACT] **谱斜率**：
+- 简单 DSAM：$q=(r+2)/(r-1)$，$r<4\to q>2$（典型 ~2.3–2.4）
+- 强激波 back-reaction：$q=1.5$（harder）[337]
+- 超相对论激波 ($\Gamma\to\infty$)：$q\simeq 2.2$（softer）[338]
+- 相对论 blast wave：第一次 crossing ~$\Gamma^2$ 能量增益，后续 cycles ~2× [339]
 
-### 5.2.2 中微子-核子截面 [FACT, 公式 24]
+---
 
-```
-$\sigma_\nu$N(E) ~ $10^{-31}$ (E/$10^{20}$ eV)^0.4  cm$^{2}$    for E ≳ $10^{15}$ eV
-```
-- 尽管 $\sigma_\nu$N > $\sigma_\nu$$\nu$ (RNB)，但 RNB 粒子数密度比重子密度高 **~$10^{10}$** → RNB 相互作用仍占主导（除 GUT 尺度能量外）。
+## 5.2 Source Candidates for UHECR
 
-### 5.2.3 其他中微子相互作用
+> **UHECR 的候选源**
 
-- **$\nu$ + $\gamma$ → l W$^{+}$** [197]：W± 产生阈值以上可与 $\nu$$\nu$ 过程可比，但永远不主导。
-- **$\gamma$ + $\nu$ → $\gamma$ + $\gamma$ + $\nu$** [198]：
-```
-$\sigma$ ≃ $9\times10^{-56}$ (s/MeV$^{2}$)$^{5}$  cm$^{2}$    valid up to s ≲ 10 MeV$^{2}$
-```
-- 若 s$^{5}$ 行为持续到 s ~几百 MeV$^{2}$，则此过程在 E ~ $3\times10^{17}$ ($\epsilon$/$10^{-3}$ eV) eV 开始主导 [199]。
+[FACT] 无论具体加速机制如何，只有满足**Hillas 判据**的天体物理源才能承担 UHECR 加速。
 
-### 5.2.4 Z-burst 情景 [FACT]
+**Hillas 判据 (公式 51)**：
+$$
+(B/\mu{\rm G})\cdot(R/{\rm kpc}) > 2\cdot(E/10^{18}\ {\rm eV})\cdot 1/(Z\,\beta)
+$$
+- 加速区尺寸 $R>$ 回旋半径 $2\,r_g$
+- **Hillas 图 (Fig. 25)**：只有 AGN、射电星系、脉冲星等少数源满足 ~$10^{20}$ eV 加速条件
 
-**核心机制**：若 relic 中微子质量 ~1 eV（热暗物质，可能聚集在星系团/银晕）：
-- E = M_Z$^{2}$/(2m_$\nu$) = **$4\times10^{21}$ (eV/m_$\nu$) eV** 处，Z$^{0}$ 共振湮灭概率增大。
-- Z$^{0}$ 衰变产物：主要核子 (~E_$\nu$/5) 和 $\gamma$ (~E_$\nu$/40)。
-- 若 UHE $\nu$ 是加速质子的次级产物 → 需要**加速到 ≥ 几 $10^{22}$ eV** → 更可能来自 non-acceleration (top-down) 场景。
+### 5.2.1 AGNs and Radio-Galaxies
 
-**关键约束**：
-- Z$^{0}$ 湮灭主要由**非聚集的** RNB 主导（而非银晕内聚集的），除非新 $\nu$ 源 [204]。
-- EGRET diffuse $\gamma$-ray (~10 GeV) 约束：
-  - 若 X 粒子只衰变到 $\nu$：f_$\nu$ ≳ 20 (l_$\nu$/5 Mpc)$^{-1}$
-  - 若 L_$\gamma$ ~ L_$\nu$（多数模型）：f_$\nu$ ≳ $10^{3}$ (l_$\nu$/5 Mpc)$^{-1}$
-  - 若大部分 EM 能量在 TeV 段释放 → 可放宽
-- Z-burst 要求源对加速质子**光学厚**（否则 GZK 以下质子流将与 $\nu$ 流可比 [204]）。
+> **AGN 与射电星系**
 
-**Z-burst 参数**（Super-K 结果 [212]）[FACT]：
-- m_$\nu$ ≃ 0.07 eV, $\Omega_\nu$ ≃ 0.01，源 z ~ 几 → 需 $\nu$ 源产生 E ≥ $10^{22}$ eV。
+[FACT] **支持 AGN 作为 UHECR 源的证据**：
+1. **Mrk 421, Mrk 501** (BL Lac) 在 >10 TeV $\gamma$ 被观测 → 可由质子光 $\pi$ 产生解释（vs IC）
+2. EGRET diffuse $\gamma$-ray 能量密度 ~ E$^{-2}$ 质子注入谱到 $10^{20}$ eV 所需能量 → 支持河外质子加速
 
-### 5.2.5 中微子振荡 [FACT]
+[FACT] **反对 AGN 核心作为 EHECR 源 (Norman et al. [13])**：
+- AGN 核心典型 $R\sim 0.02$ pc, $B\sim 5$ G → 公式 (49)：$E_c\sim 10^{19}$ eV
+- **主要问题**：中心引擎内辐射场强烈 → 加速质子通过 photo-pion 严重衰减
+- 同时考虑加速与能量损失 → 质子或核在 **$E>\sim 10^{16}$ eV 无法逃出核心**
+- 中子假设也不行（中子本身也受 photo-pion 衰减）
 
-Super-K 结果：$\mu$-$\tau$ 近最大混合，|$\Delta$m$^{2}$| ≃ $5\times10^{-3}$ eV$^{2}$ [212]：
-```
-L_osc = 2E/|$\Delta$m$^{2}$| = $2.6\times10^{-6}$ (E/PeV) (|$\Delta$m$^{2}$|/$5\times10^{-3}$ eV$^{2}$)$^{-1}$ pc
-```
-- 银河系 halo 中的 RNB 势引起的共振转换可能影响 UHE $\nu$ 味组成 [224]。
-- 长基线对 $\nu$ 衰变敏感 [225]。
+[FACT] **FR-II 射电星系 hot spots** — **最有希望的加速器**：
+- Hot spot 周围 soft photon 密度低 → photo-pion 损失不显著
+- 若 $B$ 场足够强 → **$E_{\rm max}$ 可达 ~$10^{21}$ eV**
+- 但**主要问题**：hot spot 距地球大 cosmological 距离 >100 Mpc [26] → GZK 效应使其粒子无法存活
+- **结论**：射电星系 hot spots 可能是 UHECR (>$10^{17}$ eV) 源，但**难以解释 $10^{20}$ eV 以上事件**
 
-## 5.3 §4.3.1 Neutrino Detection
+[FACT] **Boldt–Ghosh [27] 建议**：自旋超大质量黑洞（不活跃 quasar 遗迹）事件视界附近加速 → $E_{\rm max}\sim 10^{21}$ eV；本地 50 Mpc 内足够多候选 → 可解释 EHECR 通量。
 
-### 5.3.1 基本方法 [FACT]
+[FACT] **Waxman-Bahcall Bound [218]**：比较 UHECR 通量 (E ~$10^{19}$ eV) → 对 diffuse $\nu$ 通量给出更强上界。Mannheim, Protheroe, Rachen [353] 声称存在 loophole（仅 $10^{16}$–$10^{18}$ eV 适用）；Bahcall & Waxman [352] 反驳 → 认为 bound **robust**。**不适用于**：对质子光学厚的源（如 AGN 核心）；**不适用于 top-down**（$\nu$ 是初级而非次级）。
 
-通过 CC 反应产生的 $\mu$ 子探测。折叠 quark-$\nu$ 基本截面与核子内 parton 分布函数 (PDF)。对 x ≃ M_W$^{2}$/(2m_N E) 的 parton 最敏感。
+### 5.2.2 Pulsars
 
-**中微子-核子 CC 截面 (公式 25)**：
-```
-$\sigma_\nu$N(E) ≃ $2.36\times10^{-32}$ (E/$10^{19}$ eV)^0.363  cm$^{2}$    ($10^{16}$ eV ≲ E ≲ $10^{21}$ eV)
-```
-- CTEQ4-DIS 参数化 [227]。
-- 非主导 1/x 对数贡献 [231]：与 [227,230] 差异 <1.5 倍（至 $10^{21}$ eV）。
-- NC 截面比 CC 小 2–3 倍。
-- Glashow 共振：$\nu$̄_e e → W$^{-}$，E = $6.3\times10^{15}$ eV。
+> **脉冲星**
 
-### 5.3.2 地球衰减 [FACT]
+[FACT]
+- **简单脉冲星直接加速**：~$10^{21}$ eV 势差，但 **pair-cascade 短路** → 实际 <$10^{15}$ eV
+- **吸积盘**：能量损失限制 ~$10^{15}$ eV
+- **Magnetar** (SGR 1900+14)：表面 $B\sim 10^{15}$ G → 能量预算提高 2–3 个量级，但损失问题未解决
+- **Fe 离子 MHD 风** [355]：新形成强磁化脉冲星（初始 $P<4(B_s/10^{13}\ {\rm G})^{1/2}$ ms）→ 可加速 Fe 离子 >$10^{20}$ eV，预言 EHECR 组成以 Fe 为主（可检验）
 
-- >~100 TeV 中微子在地球内开始被吸收（$\sigma$ 随 E 增长）。
-- **$\tau$ 中微子再生**：$\tau$ 中微子能量到 ~100 PeV 仍可穿透地球，因为 $\tau$ 衰变再产生 $\tau$ 中微子。
-- PeV 能量处**"double-bang"事件** [222]：
-  - 第 1 个 bang：CC 产生 $\tau$
-  - 第 2 个 bang：$\tau$ 在 ~100 m 外衰变
-- 各向同性 10 TeV–10 PeV $\nu$ 流可作为地球密度分布的探针（中微子吸收层析 [234]）。
+### 5.2.3 Other Candidate Sources
 
-## 5.4 新物理增强的中微子截面
+> **其他候选源**
 
-### 5.4.1 新相互作用 [FACT]
+| 源 | $E_{\rm max}$ | 备注 |
+|---|---|---|
+| 银河风终止激波 | 可能达 UHE | 依赖 $B$ |
+| 星系碰撞激波 | ~UHE | [357] |
+| 星系团吸积/合并激波 | UHE | [358,359] |
+| 结构形成大尺度激波 | UHE | [13] |
 
-**Generation Symmetry 情景** [235–236]：
-- 引入破缺 SU(3) 规范对称（与 QCD 颜色 SU(3) 对偶）。
-- 三族轻子/夸克代表 generation 对称量子数。
-- 中微子与夸克有效强相互作用 → 有效截面 ~几何核子截面。
-- 约束：FCNC 实验 → 新相互作用尺度 >~100 TeV。
+[FACT] 一般难以超过 $10^{20}$ eV。
 
-**大额外维度 (ADD) 情景** [237–242]：
-- n 个额外紧致维度，量子引力尺度 M_{4+n} ~ TeV。
-- Bulk graviton (KK 模式) 交换增强两粒子截面：
-```
-$\sigma_{\rm g}$ ≃ 4$\pi$s/M_{4+n}$^{4}$ ≃ $10^{-27}$ (M_{4+n}/TeV)$^{-4}$ (E/$10^{20}$ eV)  cm$^{2}$   (公式 26)
-```
-- 中微子 $\sigma_\nu$N > $10^{-27}$ cm$^{2}$ 开始在大气中作用 → 中微子成为 EHECR 事件候选！
-- 具体信号：
-  - IceCube/水冰中微子望远镜：E > E_c 处无事件。
-  - Pierre Auger：E > E_c 处谱硬化。
+---
 
-**超新星约束** [240]：
-```
-M_6 >~50 TeV, M_7 >~4 TeV, M_8 >~1 TeV  (n=2,3,4)
-```
-- → 若中微子作 EHECR 候选，需 **n ≥ 4**。
+## 5.3 A Possible Link Between GRBs and Sources of $E>10^{20}$ eV Events
 
-**额外维度半径 (公式 27)**：
-```
-r_n ≃ M_{4+n}$^{-1}$ (M_Pl/M_{4+n})^{2/n} ≃ $2\times10^{-17}$ (TeV/M_{4+n}) (M_Pl/M_{4+n})^{2/n}  cm
-```
-- 对应上限：r_6 ≲ $3\times10^{-4}$ mm, r_7 ≲ $4\times10^{-7}$ mm, r_8 ≲ $2\times10^{-8}$ mm。
+> **GRB 与 $E>10^{20}$ eV 事件源的关联可能性**
 
-## 5.5 §4.3.2 超对称粒子 (SUSY)
+[FACT] **基本动机**：
+- UHECR 所需能量释放率 ~ GRB $\gamma$ 辐射率 [361,362]
+- 预言谱与观测谱 E > ~$10^{19}$ eV 一致（质子注入 E$^{-2.3\pm 0.5}$ [288]，Fermi 加速）
+- **主要问题**：GZK 距离内 (<50 Mpc) 宇宙学 GRB 率 ~**每世纪一次** → 观测 UHECR 时间窗内概率极低，除非磁场导致 > 百年时间延迟
 
-### 5.5.1 轻 quasi-stable gluino [FACT]
+[FACT] **磁场下限 (公式 52)**：
+$$
+B \gtrsim 10^{-10}\cdot(E/10^{20}\ {\rm eV})\cdot(d/30\ {\rm Mpc})^{-1}\cdot(l_c/1\ {\rm Mpc})^{1/2}\ {\rm G}
+$$
+- $N$ 个不同到达方向 → bound 增强 $N^{1/2}$ 倍
+- 最近观测各向同性 [8] + EGMF 上界 [363] → 已构成挑战
+- GRB 距离标度变大 → 能量要求更苛刻 [363]
 
-**机制**：若 gluino 质量 ~0.1–1 GeV [245]，最轻 gluino-baryon uds ̃g 记作 **S$^{0}$**，可长寿命或稳定。
+[FACT] **Dissipative Wind Model**：光 + $e^+e^-$ + 少量重子风 → 超相对论 Lorentz 因子 $\gamma\gg 1$。耗散半径 $r_d$ 处 internal shock → 部分动能转 $\gamma$ 射线（GRB）。耗散产生 near-equipartition 磁场 → 二阶 Fermi 加速。
 
-**有效 GZK 阈值提高** [246]：
-- 阈能被抬高（m_{S$^{0}$} 代替 m_N 代入公式 13）。
-- 截面峰值位置抬高 (m_{S$^{0}$}/m_N)·(m*−m_{S$^{0}$})/(m_$\Delta$−m_N) 倍（质量间距比 >~2）。
-- 有效 GZK 阈值**提高几个量级** → **源可远 15–30 倍** 于核子情形。
+**三重条件**：
+1. **加速时间 < 膨胀时间 (公式 53)**：
+$$
+B \gtrsim (E/{\rm erg}) \simeq 3\times10^4\cdot(E/10^{20}\ {\rm eV})\cdot(r_d/10^{13}\ {\rm cm})^{-1}\ {\rm G}
+$$
+2. **$\pi$ 产生损失 < 加速 (公式 54)**：
+$$
+B \gtrsim 20\cdot(L_\gamma/10^{51}\ {\rm erg/s})\cdot(r_d/10^{13}\ {\rm cm})^{-2}\cdot(\gamma/300)^{-2}\ {\rm G}
+$$
+3. **同步损失 < 加速 (公式 55)**：
+$$
+B \lesssim 3\times10^5\cdot(\gamma/300)^2\cdot(E/10^{20}\ {\rm eV})^{-2}
+$$
 
-**观测关联** [FACT, Farrar & Biermann [247]]：
-- 5 个最高能量 CR 事件到达方向与 z = 0.3–2.2 致密类星体可能相关。
-- 但统计分析受 Hoffman [248] 批评，Farrar & Biermann [249] 回应。
+**同时满足**：需 $r_d>10^{12}(\gamma/300)^{-2}(E/10^{20}\ {\rm eV})^3$ cm（公式 56），以及 **$\gamma>40\,(E/10^{20}\ {\rm eV})^{3/4}\,(t_{\rm GRB}/{\rm s})^{-1/4}$**。
 
-### 5.5.2 加速器约束 [FACT]
+[FACT] **次级产物**：
+- **$\nu$ 通量**：~$10^{14}$ eV，数十事件/km$^3$ 中微子望远镜 [365,370]；>$10^{19}$ eV 可被 AIRWATCH/MASS 探测 [366]
+- **MACRO 上界**：每个 GRB $0.87\times10^{-9}$ cm$^{-2}$ $\mu$ 通量 [372]
+- **同步辐射信号**：~1% 总 burst 能量在 10 MeV（GLAST 可探测）；数百 GeV（IACT 可探测）；~TeV afterglow [367–369]
+- 若 GeV cascade 解释 diffuse $\gamma$-ray → 每个 GRB 释放 ~$10^{56}$ erg，$\gamma>500$
 
-- [245] 的轻 gluino 情景已被加速器约束否定 [250,251]。
-- "可调节"gluino 质量情景 [243] 仍可能：
-  - 候选：R$^{0}$ (glueballino g̃g)，$\rho$̃（isotriplet ̃g−(uū−dd̄)$_{8}$）
-- EAS 组成约束 [254]：**初级粒子静止质量 <~50 GeV**；Auger 数据可降至 ~10 GeV。
-- S$^{0}$ 需作为加速质子与物质作用的次级产物 → 质子需加速到 ≥ $10^{21}$ eV。
-- 次级过程也产生 $\nu$ 和 $\gamma$ → 可通过 EGRET/GLAST/HEGRA/WHIPPLE/VERITAS 约束。
-- 质子→R-hadron 分支比 >~0.01（粗略估计）。
+[FACT] **Waxman-Bahcall 与 Top-down 的区别**：
+- Bottom-up（AGN/Radio/GRB）：$\nu$ 是次级产物，受 diffuse GeV $\gamma$-ray background 约束
+- Top-down：$\nu$ 是初级，通量可显著高于核子 → 但仍受 diffuse GeV $\gamma$ 约束（§4.3.1）
 
-## 5.6 §4.3.3 其他奇特粒子
+[CRITIQUE] 与 1999 年后对照：
+- [FACT] **AGN 核心 vs hot spot** 的争论在 Auger 时代得到部分澄清：UHECR 到达方向与**近邻 AGN/星暴星系**的相关（Auger 2017–2020），暗示**河外离散源是 UHECR 主要成分**
+- [FACT] **Fe 组成**：Auger 显示 E > ~$10^{19.5}$ eV 组成**变重**（倾向 Fe），支持 §5.2.2 中 magnetar Fe 风模型或类似的重核加速源
+- [CRITIQUE] **GRB-UHECR 关联**：Auger 未发现显著 GRB 关联；IceCube 也未发现 UHE $\nu$ 与 GRB 关联 → 弱化了 §5.3 的 GRB 情景
 
-### 5.6.1 uuddss H-dibaryon [FACT]
+---
 
-- QCD instanton 诱导 uds-uds 束缚态，M_H ≃ 1700 MeV [255]。
-- 性质类似 S$^{0}$：中性、自旋 0。
-- **有效 GZK 截断 $~7.3\times10^{20}$ eV**（比核子高）。
-- 可作为高红移源的 EHECR 事件候选。
-
-## 5.7 关键数值速查
+## 关键数值速查
 
 | 量 | 值 |
 |---|---|
-| ⟨s⟩ for UHE $\nu$ on RNB | (45 GeV)$^{2}$ ($\epsilon$/$10^{-3}$ eV)(E/$10^{15}$ GeV) |
-| $\sigma_{\rm t}$(E,$\epsilon$) (t-channel) | min[$10^{-34}$, $3\times10^{-39}$($\epsilon$/$10^{-3}$ eV)(E/$10^{20}$ eV)] cm$^{2}$ |
-| $\sigma_\nu$N (CC, 公式 25) | $2.36\times10^{-32}$ (E/$10^{19}$ eV)^0.363 cm$^{2}$ |
-| Z-burst 阈值 | $4\times10^{21}$ (eV/m_$\nu$) eV |
-| Super-K |$\Delta$m$^{2}$| | $5\times10^{-3}$ eV$^{2}$ |
-| ADD $\sigma_{\rm g}$ (公式 26) | $10^{-27}$ (M/TeV)$^{-4}$ (E/$10^{20}$ eV) cm$^{2}$ |
-| ADD 约束 | n ≥ 4, M_{4+n} > 1 TeV |
-| S$^{0}$ gluino 质量 | 0.1–1 GeV |
-| S$^{0}$ GZK 阈值提升 | 提高几倍，源距离 15–30× |
-| EHECR 粒子静止质量上限 | <~50 GeV（Auger 可降到 10 GeV）|
-| H-dibaryon 质量 | 1700 MeV |
-| H-dibaryon GZK 阈值 | $7.3\times10^{20}$ eV |
+| DSAM $E_c$ (benchmark, 公式 49) | $10^{17}\,Z\,(R/{\rm kpc})(B/\mu{\rm G})$ eV |
+| 漂移加速 $E_{\rm max}$ (公式 50) | $10^{18}\,Z\,u_1\,(R/{\rm kpc})(B/\mu{\rm G})$ eV |
+| Hillas 判据 (公式 51) | $B(\mu{\rm G})\cdot R({\rm kpc}) > 2\cdot(E/10^{18}\ {\rm eV})/(Z\beta)$ |
+| AGN 核心 $E_c$ | ~$10^{19}$ eV（但损失使可逃出 <$10^{16}$ eV） |
+| FR-II hot spot $E_{\rm max}$ | 可达 ~$10^{21}$ eV（若 $B$ 足够） |
+| GRB 条件 $\gamma >$ | $40\,(E/10^{20}\ {\rm eV})^{3/4}\,(t_{\rm GRB}/{\rm s})^{-1/4}$ |
 
-## 5.8 [CRITIQUE] 历史评价
-
-- [FACT] **Z-burst 情景**在 IceCube 观测限制下（未发现对应 UHE 中微子）已基本被否定。
-- [FACT] 加速器（LHC）未发现大额外维度（ADD），M_{4+n} >~ 5–10 TeV 对 n=2。
-- [CRITIQUE] 整个 §4.3 的"奇特 EHECR 粒子"假设在 1999 年是开放问题，但 2020 年后由于 Auger 显示**最高能事件到达方向与近邻星系的关联**（如 Centaurus A 在 2017–2018 年数据中显著），支持了"重核（如 Fe）来自近邻源"的 Bottom-up 解释，使 exotic primary 假设更弱。
+**引用页码**：*Phys. Rep.* 320 (1999), pp. 40–48。
