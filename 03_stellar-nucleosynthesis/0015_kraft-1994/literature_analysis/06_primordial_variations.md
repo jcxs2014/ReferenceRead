@@ -1,8 +1,8 @@
-> 本章属于：*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)
+> 本章属于：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md|*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)]]
 
-> 上一章：`05_mixing_mechanisms.md`
+> 上一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/05_mixing_mechanisms.md|05_mixing_mechanisms]]
 
-> 下一章：`07_conclusions.md`
+> 下一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/07_conclusions.md|07_conclusions]]
 
 # 6. Are Primordial Variations Required? — 原始丰度变异的必要性
 

@@ -1,3 +1,4 @@
+> 上一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/98_vocabulary.md|98_vocabulary]]
 ## 核心结论（2026-08-15 骨架扩展后）
 
 Alves Batista et al. (2019) Frontiers 综述系统梳理 UHECR 领域 7 大开放问题（来源、成分矛盾、GZK cutoff、各向异性、传播、加速机制、双重谜题），是 Pierre Auger + TA 合作的共同观点。

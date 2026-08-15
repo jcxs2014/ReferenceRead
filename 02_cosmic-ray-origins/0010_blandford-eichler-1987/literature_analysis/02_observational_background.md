@@ -1,8 +1,8 @@
-> 本章属于：Particle Acceleration at Astrophysical Shocks: A Theory of Cosmic Ray Origin（Blandford & Eichler 1987）
+> 本章属于：[[02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/00_overview.md|Particle Acceleration at Astrophysical Shocks: A Theory of Cosmic Ray Origin（Blandford & Eichler 1987）]]
 >
-> 上一章：`01_introduction.md`
+> 上一章：[[02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/01_introduction.md|01_introduction]]
 >
-> 下一章：`03_diffusion_approximation.md`
+> 下一章：[[02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/03_diffusion_approximation.md|03_diffusion_approximation]]
 >
 > 总览：`00_overview.md`
 

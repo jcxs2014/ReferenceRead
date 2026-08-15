@@ -1,6 +1,6 @@
 # 03. Figures and Tables — 图表分析
 
-> 本章属于：Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)
+> 本章属于：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md|Cosmic-ray propagation and interactions in the Galaxy (Strong, Moskalenko & Ptuskin, 2007)]]
 >
 > 上一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/02_confrontation_with_data.md|02_confrontation_with_data.md]]
 >

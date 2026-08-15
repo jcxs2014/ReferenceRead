@@ -17,7 +17,7 @@ lastread: '2026-08-15'
 path: 03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/03_observed_abundances_II.md
 ---
 
-> 本章属于：Virginia Trimble, "The origin and abundances of the chemical elements," Rev. Mod. Phys. 47 (1975) 877.
+> 本章属于：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview.md|Virginia Trimble, "The origin and abundances of the chemical elements," Rev. Mod. Phys. 47 (1975) 877.]]
 >
 > 上一章: [[02_observed_abundances_I.md|02_observed_abundances_I.md]]
 >

@@ -1,6 +1,6 @@
 # 2. SNR 范式的基础（Bases of the SNR Paradigm）
 
-> 本章属于：The origin of galactic cosmic rays (Blasi 2013 §2)
+> 本章属于：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md|The origin of galactic cosmic rays (Blasi 2013 §2)]]
 >
 > 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/01_introduction.md|01_introduction.md]]
 >

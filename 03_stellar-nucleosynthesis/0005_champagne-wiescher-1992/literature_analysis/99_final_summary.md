@@ -1,4 +1,4 @@
-> 本章属于：[Champagne & Wiescher 1992, *Explosive Hydrogen Burning*, Annu. Rev. Nucl. Part. Sci. 42:39–76]
+> 本章属于：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview.md|[Champagne & Wiescher 1992, *Explosive Hydrogen Burning*, Annu. Rev. Nucl. Part. Sci. 42:39–76]]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/10_references.md|10_references.md]]
 >

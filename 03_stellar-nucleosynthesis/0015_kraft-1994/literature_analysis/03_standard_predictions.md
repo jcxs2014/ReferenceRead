@@ -1,8 +1,8 @@
-> 本章属于：*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)
+> 本章属于：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md|*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)]]
 
-> 上一章：`02_abundance_differences.md`
+> 上一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/02_abundance_differences.md|02_abundance_differences]]
 
-> 下一章：`04_observed_vs_predicted.md`
+> 下一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/04_observed_vs_predicted.md|04_observed_vs_predicted]]
 
 # 3. Standard Predictions — 低质量恒星标准演化的丰度预言
 

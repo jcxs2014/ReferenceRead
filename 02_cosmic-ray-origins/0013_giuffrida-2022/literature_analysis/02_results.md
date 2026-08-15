@@ -5,8 +5,8 @@ outline_ref: "§2 Results"
 original_sections: ["§2.1 Spatially resolved spectral analysis", "§2.2 Azimuthal profile of the post-shock density"]
 ---
 
-> 上一章：`01_introduction.md`
-> 下一章：`03_discussion.md`
+> 上一章：[[02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/01_introduction.md|01_introduction]]
+> 下一章：[[02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/03_discussion.md|03_discussion]]
 
 ## 2.1 [FACT] 观测数据
 

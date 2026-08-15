@@ -10,11 +10,11 @@ created: 2026-08-15
 tags: [UHECR, introduction, MIAPP, Pierre Auger, Telescope Array]
 ---
 
-> 本章属于：[Open Questions in Cosmic-Ray Research at Ultrahigh Energies]
+> 本章属于：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md|[Open Questions in Cosmic-Ray Research at Ultrahigh Energies]]]
 >
-> 上一章：`00_overview.md`
+> 上一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md|00_overview]]
 >
-> 下一章：`02_status_ultrahigh_energy.md`
+> 下一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/02_status_ultrahigh_energy.md|02_status_ultrahigh_energy]]
 
 # 1. Introduction
 
@@ -63,8 +63,10 @@ $$d = rac{N_{max} - N_{min}}{N_{max} + N_{min}} = 6.5\%$$
 $$rac{d_{obs}}{d_{proper\ motion}} pprox 10$$
 
 **能量阈值定义**：
-$$E_{m UHE} = 10^{18} 	ext{ eV} = 1 	ext{ EeV}$$
-$$E_{m Linsley} = 10^{20} 	ext{ eV} = 100 	ext{ EeV}$$
+$$E_{
+m UHE} = 10^{18} 	ext{ eV} = 1 	ext{ EeV}$$
+$$E_{
+m Linsley} = 10^{20} 	ext{ eV} = 100 	ext{ EeV}$$
 
 ## 1.4 关键参数
 

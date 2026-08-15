@@ -14,11 +14,11 @@ related_chapters:
 status: done
 ---
 
-> 本章属于：Cosmic ray feedback in galaxies and galaxy clusters (Ruszkowski & Pfrommer 2023)
+> 本章属于：[[01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md|Cosmic ray feedback in galaxies and galaxy clusters (Ruszkowski & Pfrommer 2023)]]
 >
-> 上一章：`00_overview.md`
+> 上一章：[[01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md|00_overview]]
 >
-> 下一章：`02_physics.md`
+> 下一章：[[01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/02_physics.md|02_physics]]
 
 # 1. Introduction — Ruszkowski & Pfrommer (2023)
 

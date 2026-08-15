@@ -1,4 +1,6 @@
 # 97. Quality Check — 完成度自查
+> 上一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/04_references.md|04_references]]
+> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0001_strong-moskalenko-ptuskin-2007`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。

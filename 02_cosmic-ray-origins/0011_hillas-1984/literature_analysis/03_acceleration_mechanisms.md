@@ -5,8 +5,8 @@ outline_ref: "§3 ACCELERATION MECHANISMS"
 original_sections: ["§3.1 Statistical (Fermi/Shock) (L414–572)", "§3.2 Direct (Pulsar/AGN) (L575–683)", "§3.3 Final Comments (L686–692)"]
 ---
 
-> 上一章：`02_observational_data.md`
-> 下一章：`04_propagation.md`
+> 上一章：[[02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/02_observational_data.md|02_observational_data]]
+> 下一章：[[02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/04_propagation.md|04_propagation]]
 
 ## 3.1 两类加速机制的对比
 

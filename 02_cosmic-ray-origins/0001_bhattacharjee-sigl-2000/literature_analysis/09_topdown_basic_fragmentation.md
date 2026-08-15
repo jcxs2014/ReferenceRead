@@ -12,11 +12,11 @@ related_chapters:
 status: done
 ---
 
-> 本章属于：Bhattacharjee & Sigl (1999), *Phys. Rep.* 320, 1–150
+> 本章属于：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md|Bhattacharjee & Sigl (1999), *Phys. Rep.* 320, 1–150]]
 >
-> 上一章：`08_acceleration_sources.md`
+> 上一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/08_acceleration_sources.md|08_acceleration_sources]]
 >
-> 下一章：`10_cosmic_strings.md`
+> 下一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/10_cosmic_strings.md|10_cosmic_strings]]
 
 # 9. Top-down Scenario: Basic Idea & Fragmentation (§6.1–6.3, p. 48–58)
 

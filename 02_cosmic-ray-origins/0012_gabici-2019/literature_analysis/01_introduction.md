@@ -5,7 +5,7 @@ outline_ref: "§1 Introduction"
 original_sections: ["§1 Introduction"]
 ---
 
-> 下一章：`02_orthodoxy.md`
+> 下一章：[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/02_orthodoxy.md|02_orthodoxy]]
 
 ## 1.1 [FACT] 论文基本信息
 

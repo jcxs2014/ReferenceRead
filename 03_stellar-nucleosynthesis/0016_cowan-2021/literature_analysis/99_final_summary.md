@@ -1,3 +1,4 @@
+> 上一章：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/98_vocabulary.md|98_vocabulary]]
 ## 核心结论（2026-08-15 骨架扩展后）
 
 Cowan et al. (2021) RMP 综述更新 B$^{2}$FH 框架：s 过程基本确认（AGB 星），r 过程在 GW170817 后确认由 NSM 主导，但 minor r 过程来源和核数据缺口仍存；多信使天文（引力波+电磁）开启元素起源研究新纪元。

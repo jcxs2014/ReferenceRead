@@ -1,8 +1,8 @@
-> 本章属于：Particle Acceleration by Astrophysical Shocks（Blandford & Ostriker 1978）
+> 本章属于：[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_overview.md|Particle Acceleration by Astrophysical Shocks（Blandford & Ostriker 1978）]]
 >
-> 上一章：`03_cosmic_ray_application.md`
+> 上一章：[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/03_cosmic_ray_application.md|03_cosmic_ray_application]]
 >
-> 下一章：`05_critical_assessment.md`
+> 下一章：[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/05_critical_assessment.md|05_critical_assessment]]
 >
 > 总览：`00_overview.md`
 

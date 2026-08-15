@@ -1,6 +1,6 @@
 # 10. Figures and Tables（全部图综合）
 
-> 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
+> 本章属于：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview.md|[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/09_hunt_for_dm.md|09_hunt_for_dm.md]]
 >

@@ -194,7 +194,6 @@ path: 01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_a
 
 ---
 
-> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/01_theoretical_background.md|01_theoretical_background.md]]
 
 ---
 

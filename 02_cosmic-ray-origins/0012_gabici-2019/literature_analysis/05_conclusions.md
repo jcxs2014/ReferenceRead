@@ -5,8 +5,8 @@ outline_ref: "§5 Conclusions"
 original_sections: ["§5 Conclusions"]
 ---
 
-> 上一章：`04_open_problems.md`
-> 下一章：`97_quality_check.md`
+> 上一章：[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/04_open_problems.md|04_open_problems]]
+> 下一章：[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/97_quality_check.md|97_quality_check]]
 
 ## 5.1 [FACT] 六个经典问题
 

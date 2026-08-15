@@ -1,4 +1,6 @@
 # 97. Quality Check — 完成度自查
+> 上一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/04_conclusions_and_perspectives.md|04_conclusions_and_perspectives]]
+> 下一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > **文献**：`0014_alvesbatista-2019`
 > **精读方式**：PDF 阅读 + 结构化精读（2026-08-15）

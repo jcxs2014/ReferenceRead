@@ -1,5 +1,6 @@
 ---
 # 99. Final Summary — 最终总结
+> 上一章：[[01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 ## 99.1 一句话总结
 

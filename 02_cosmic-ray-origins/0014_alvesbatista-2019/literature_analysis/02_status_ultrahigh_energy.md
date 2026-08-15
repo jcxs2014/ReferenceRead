@@ -10,11 +10,11 @@ created: 2026-08-15
 tags: [UHECR, Pierre Auger, Telescope Array, spectrum, composition, anisotropy, cosmogenic, hadronic interactions]
 ---
 
-> 本章属于：[Open Questions in Cosmic-Ray Research at Ultrahigh Energies]
+> 本章属于：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md|[Open Questions in Cosmic-Ray Research at Ultrahigh Energies]]]
 >
-> 上一章：`01_introduction.md`
+> 上一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/01_introduction.md|01_introduction]]
 >
-> 下一章：`03_open_questions.md`
+> 下一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/03_open_questions.md|03_open_questions]]
 
 # 2. Status of Ultrahigh Energy Cosmic Ray Research
 
@@ -113,14 +113,21 @@ tags: [UHECR, Pierre Auger, Telescope Array, spectrum, composition, anisotropy, 
 ## 2.3 关键公式
 
 **Rayleigh analysis**（大尺度各向异性）：
-$$f = rac{\sqrt{\langle\cos\phiangle^2 + \langle\sin\phiangle^2}}{\sqrt{N}}$$
+$$f = rac{\sqrt{\langle\cos\phi
+angle^2 + \langle\sin\phi
+angle^2}}{\sqrt{N}}$$
 
 **GZK 视界**（能量依赖）：
-$$d_{m GZK}(10^{19}\,{m eV}) pprox 1 	ext{ Gpc}$$
-$$d_{m GZK}(5	imes10^{19}\,{m eV}) pprox 100	ext{--}300 	ext{ Mpc}$$
+$$d_{
+m GZK}(10^{19}\,{
+m eV}) pprox 1 	ext{ Gpc}$$
+$$d_{
+m GZK}(5	imes10^{19}\,{
+m eV}) pprox 100	ext{--}300 	ext{ Mpc}$$
 
 **$X_{max}$ 与对数质量关系**：
-$$\langle X_{max}angle \propto \ln A$$
+$$\langle X_{max}
+angle \propto \ln A$$
 
 **$X_0$ 涨落与截面关系**：
 $$rac{dP}{dX_0} \sim e^{-X_0/\lambda_I}, \quad \sigma(X_0) = \lambda_I$$

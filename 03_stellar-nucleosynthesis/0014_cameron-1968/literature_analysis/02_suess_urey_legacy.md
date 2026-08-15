@@ -1,8 +1,8 @@
 > 本章属于: A New Table of Abundances of the Elements in the Solar System (Cameron, 1968)
 >
-> 上一章: `01_abundance_table.md`
+> 上一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/01_abundance_table.md|01_abundance_table]]
 >
-> 下一章: `03_nucleosynthesis_implications.md`
+> 下一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/03_nucleosynthesis_implications.md|03_nucleosynthesis_implications]]
 
 # 2. Suess-Urey 1956 的传承与改进 (Legacy & Improvements)
 

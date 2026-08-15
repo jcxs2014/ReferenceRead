@@ -1,10 +1,10 @@
 # 01. Introduction — Kappeler et al. (2011) §I 精读
 
-> 本章属于：The history of the s-process: Its status in the light of modern nucleosynthesis modeling
+> 本章属于：[[03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md|The history of the s-process: Its status in the light of modern nucleosynthesis modeling]]
 >
-> 上一章：`00_overview.md`
+> 上一章：[[03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md|00_overview]]
 >
-> 下一章：`02_nuclear_physics.md`
+> 下一章：[[03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/02_nuclear_physics.md|02_nuclear_physics]]
 
 ---
 

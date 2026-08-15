@@ -5,8 +5,8 @@ outline_ref: "§Comparison with previous events; Possible sources of the cosmic 
 original_sections: ["§Direction and LSS analysis; §Comparison with Auger and other events"]
 ---
 
-> 上一章：`02_energy_reconstruction.md`
-> 下一章：`04_source_distance.md`
+> 上一章：[[02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/02_energy_reconstruction.md|02_energy_reconstruction]]
+> 下一章：[[02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/04_source_distance.md|04_source_distance]]
 
 ## 3.1 [FACT] 到达方向
 

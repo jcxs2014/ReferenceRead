@@ -1,4 +1,7 @@
 # 01. Introduction（pp.147–148）
+> 本章属于：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md|The acceleration of cosmic rays in shock fronts — I]]
+> 上一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/02_energy_spectrum.md|02_energy_spectrum]]
 
 > **本节定位**：开场白，交代三个事实背景 + 3 个理论假设，并通过与地球弓激波的类比论证机制的现实性。
 

@@ -1,6 +1,6 @@
 # 6. Abundances from Non-LTE Calculations — non-LTE 丰度
 
-> 本章属于：Gies & Lambert (1992) — ApJ 387:673
+> 本章属于：[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview.md|Gies & Lambert (1992) — ApJ 387:673]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/05_lte_abundances.md|05_lte_abundances.md]]
 >

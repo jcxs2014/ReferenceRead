@@ -1,4 +1,7 @@
 # 02. The energy spectrum（pp.148–152）
+> 本章属于：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md|The acceleration of cosmic rays in shock fronts — I]]
+> 上一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/03_alfven_waves.md|03_alfven_waves]]
 
 > **本节核心**：从扩散-对流方程出发，推导**幂律谱指数**——论文的数学重心。
 

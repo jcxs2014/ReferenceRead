@@ -10,11 +10,11 @@ related_chapters:
 status: done
 ---
 
-> 本章属于：The Origin of Galactic Cosmic Rays（Blasi, 2013, arXiv:1311.7346）
+> 本章属于：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md|The Origin of Galactic Cosmic Rays（Blasi, 2013, arXiv:1311.7346）]]
 >
-> 上一章：`04_nl_dsa.md`
+> 上一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/04_nl_dsa.md|04_nl_dsa]]
 >
-> 下一章：`06_indirect_evidence.md`
+> 下一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/06_indirect_evidence.md|06_indirect_evidence]]
 
 # 5 The superbubble hypothesis — SNR 之外 CR 加速场所的候选
 

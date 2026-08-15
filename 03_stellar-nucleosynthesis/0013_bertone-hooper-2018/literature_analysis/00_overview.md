@@ -39,7 +39,7 @@ path: 03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00
 ---
 # 0. 文献基本信息
 
-> 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
+> 本章属于：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview.md|[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]]]
 >
 > 下一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/01_preface.md|01_preface.md]]
 

@@ -1,4 +1,7 @@
 # 4. Conclusions — 结论
+> 本章属于：[[01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md|Galactic halo size in the light of recent AMS-02 data]]
+> 上一章：[[01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/97_quality_check.md|97_quality_check]]
 
 ## 4.1 核心结论
 

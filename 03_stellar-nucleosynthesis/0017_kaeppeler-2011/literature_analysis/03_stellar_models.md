@@ -1,10 +1,10 @@
 # 03. Stellar Models — Kappeler et al. (2011) §III 精读
 
-> 本章属于：The history of the s-process: Its status in the light of modern nucleosynthesis modeling
+> 本章属于：[[03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md|The history of the s-process: Its status in the light of modern nucleosynthesis modeling]]
 >
-> 上一章：`02_nuclear_physics.md`
+> 上一章：[[03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/02_nuclear_physics.md|02_nuclear_physics]]
 >
-> 下一章：`04_observational_constraints.md`
+> 下一章：[[03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/04_observational_constraints.md|04_observational_constraints]]
 
 ---
 

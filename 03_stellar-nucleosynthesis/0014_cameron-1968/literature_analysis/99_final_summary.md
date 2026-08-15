@@ -1,6 +1,6 @@
 > 本章属于: A New Table of Abundances of the Elements in the Solar System (Cameron, 1968)
 >
-> 上一章: `98_vocabulary.md`
+> 上一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/98_vocabulary.md|98_vocabulary]]
 >
 > 下一章: 无(此为文献精读档案的最后一个文件)
 

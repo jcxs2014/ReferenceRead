@@ -4,6 +4,9 @@ paper: "Mewaldt et al. 2001, Radioactive Clocks and Cosmic-Ray Transport in the 
 outline_ref: "§1 Introduction"
 original_sections: ["§1. Introduction (全文 L21–75, 55 行, 3 段)"]
 ---
+> 本章属于：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md|Radioactive Clocks and Cosmic-ray Transport in the Galaxy]]
+> 上一章：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/02_acceleration_delay_clocks.md|02_acceleration_delay_clocks]]
 
 ## 1.1 [FACT] 上下文：宇宙线的能量源与加速机制共识
 

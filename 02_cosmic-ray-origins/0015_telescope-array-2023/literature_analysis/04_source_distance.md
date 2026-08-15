@@ -5,8 +5,8 @@ outline_ref: "§Supplementary Text: Expected cosmic ray sources (distance calcul
 original_sections: ["§Methods: Distance to closest UHECR source"]
 ---
 
-> 上一章：`03_direction_and_lss.md`
-> 下一章：`05_discussion_and_conclusions.md`
+> 上一章：[[02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/03_direction_and_lss.md|03_direction_and_lss]]
+> 下一章：[[02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/05_discussion_and_conclusions.md|05_discussion_and_conclusions]]
 
 ## 4.1 [FACT] 源距离计算方法
 

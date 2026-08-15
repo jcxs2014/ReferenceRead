@@ -14,11 +14,11 @@ related_chapters:
 status: done
 ---
 
-> 本章属于：Cosmic ray feedback in galaxies and galaxy clusters (Ruszkowski & Pfrommer 2023)
+> 本章属于：[[01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md|Cosmic ray feedback in galaxies and galaxy clusters (Ruszkowski & Pfrommer 2023)]]
 >
-> 上一章：`01_introduction.md`
+> 上一章：[[01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/01_introduction.md|01_introduction]]
 >
-> 下一章：`03_astrophysical_systems.md`
+> 下一章：[[01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/03_astrophysical_systems.md|03_astrophysical_systems]]
 
 # 2. Physics — CR 等离子体物理的核心机制
 

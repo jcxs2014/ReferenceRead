@@ -1,4 +1,4 @@
-> 本章属于：T. K. Gaisser (1990) "Origin of high energy galactic cosmic rays", AIP Conference Proceedings 203, 168
+> 本章属于：[[02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview.md|T. K. Gaisser (1990) "Origin of high energy galactic cosmic rays", AIP Conference Proceedings 203, 168]]
 >
 > 上一章：（无，本文件为正文分析）
 >

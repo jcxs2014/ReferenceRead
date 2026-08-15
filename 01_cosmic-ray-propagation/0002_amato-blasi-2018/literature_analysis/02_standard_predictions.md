@@ -1,8 +1,8 @@
-> 本章属于：Cosmic ray transport in the Galaxy: A review（Amato & Blasi 2018）
+> 本章属于：[[01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_overview.md|Cosmic ray transport in the Galaxy: A review（Amato & Blasi 2018）]]
 >
-> 上一章：`01_introduction.md`
+> 上一章：[[01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/01_introduction.md|01_introduction]]
 >
-> 下一章：`03_self_excited_alfven_waves.md`
+> 下一章：[[01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/03_self_excited_alfven_waves.md|03_self_excited_alfven_waves]]
 >
 > 总览：`00_overview.md`
 

@@ -1,4 +1,6 @@
 # 97. Quality Check — 完成度自查
+> 上一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/03_nucleosynthesis_implications.md|03_nucleosynthesis_implications]]
+> 下一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0014_cameron-1968`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。

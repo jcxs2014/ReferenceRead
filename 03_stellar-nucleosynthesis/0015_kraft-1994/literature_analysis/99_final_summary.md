@@ -1,8 +1,8 @@
 # 99. Final Summary — 完整性检查与核心要点
 
-> 本章属于：*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)
+> 本章属于：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md|*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)]]
 >
-> 上一章：`98_vocabulary.md`
+> 上一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/98_vocabulary.md|98_vocabulary]]
 >
 > （本文末章）
 

@@ -1,8 +1,8 @@
-> 本章属于：Cosmic ray transport in the Galaxy: A review（Amato & Blasi 2018）
+> 本章属于：[[01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_overview.md|Cosmic ray transport in the Galaxy: A review（Amato & Blasi 2018）]]
 >
-> 上一章：`05_near_source_confinement.md`
+> 上一章：[[01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/05_near_source_confinement.md|05_near_source_confinement]]
 >
-> 下一章：`07_secondary_particles_anomalies.md`
+> 下一章：[[01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/07_secondary_particles_anomalies.md|07_secondary_particles_anomalies]]
 >
 > 总览：`00_overview.md`
 

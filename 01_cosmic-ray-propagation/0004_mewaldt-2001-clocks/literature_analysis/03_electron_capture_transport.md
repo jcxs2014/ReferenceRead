@@ -4,6 +4,9 @@ paper: "Mewaldt et al. 2001, Radioactive Clocks and Cosmic-Ray Transport in the 
 outline_ref: "§3 Electron-Capture Nuclei as Probes of Cosmic Ray Transport Processes"
 original_sections: ["§3 (L156–213, 57 行)"]
 ---
+> 本章属于：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md|Radioactive Clocks and Cosmic-ray Transport in the Galaxy]]
+> 上一章：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/04_beta_decay_clocks.md|04_beta_decay_clocks]]
 
 ## 3.1 [FACT] 物理动机：单次加速 vs 系列加速
 

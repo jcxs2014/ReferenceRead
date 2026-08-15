@@ -1,6 +1,6 @@
 # 9. 图表完整目录与分析
 
-> 本章属于：The origin of galactic cosmic rays (Amato 2014 & Blasi 2013)
+> 本章属于：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md|The origin of galactic cosmic rays (Amato 2014 & Blasi 2013)]]
 >
 > 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/08_superbubble_ha.md|08_superbubble_ha.md]]
 >

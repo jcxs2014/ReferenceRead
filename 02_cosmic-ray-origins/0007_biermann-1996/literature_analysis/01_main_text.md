@@ -1,4 +1,4 @@
-> 本章属于：Cosmic Ray Interactions and the Abundances of the Chemical Elements (arXiv:astro-ph/9609110)
+> 本章属于：[[02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md|Cosmic Ray Interactions and the Abundances of the Chemical Elements (arXiv:astro-ph/9609110)]]
 >
 > 上一章：[[02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md|00_overview.md]]
 >

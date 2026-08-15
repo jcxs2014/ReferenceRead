@@ -1,6 +1,6 @@
 # 4. 非线性扩散激波加速（NLDSA）
 
-> 本章属于：The origin of galactic cosmic rays (Blasi 2013 §4 & Amato 2014 §3)
+> 本章属于：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md|The origin of galactic cosmic rays (Blasi 2013 §4 & Amato 2014 §3)]]
 >
 > 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/03_test_particle_dsa.md|03_test_particle_dsa.md]]
 >

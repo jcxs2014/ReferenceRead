@@ -5,7 +5,7 @@ sections:
   - B. Cosmology
   - C. Numerical simulations
 
-> 本章属于：[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]
+> 本章属于：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/00_overview.md|[Bertone & Hooper, History of Dark Matter, Rev. Mod. Phys. 90, 045002 (2018)]]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0013_bertone-hooper-2018/literature_analysis/07_dark_matter_particles.md|07_dark_matter_particles.md]]
 >

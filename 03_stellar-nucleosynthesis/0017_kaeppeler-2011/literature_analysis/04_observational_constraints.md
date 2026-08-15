@@ -1,10 +1,10 @@
 # 04. Observational Constraints — Kappeler et al. (2011) §IV 精读
 
-> 本章属于：The history of the s-process: Its status in the light of modern nucleosynthesis modeling
+> 本章属于：[[03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md|The history of the s-process: Its status in the light of modern nucleosynthesis modeling]]
 >
-> 上一章：`03_stellar_models.md`
+> 上一章：[[03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/03_stellar_models.md|03_stellar_models]]
 >
-> 下一章：`05_conclusions.md`
+> 下一章：[[03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/05_conclusions.md|05_conclusions]]
 
 ---
 

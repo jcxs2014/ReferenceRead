@@ -5,8 +5,8 @@ outline_ref: "§2 OBSERVATIONAL DATA"
 original_sections: ["§2.1 Energy Spectrum (L127–217)", "§2.2 Anisotropy (L219–340)"]
 ---
 
-> 上一章：`01_why_bother.md`
-> 下一章：`03_acceleration_mechanisms.md`
+> 上一章：[[02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/01_why_bother.md|01_why_bother]]
+> 下一章：[[02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/03_acceleration_mechanisms.md|03_acceleration_mechanisms]]
 
 ## 2.1 [FACT] 探测手段与实验
 

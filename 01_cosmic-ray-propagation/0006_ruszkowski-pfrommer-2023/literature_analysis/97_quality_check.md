@@ -1,4 +1,6 @@
 # 97. Quality Check — 完成度自查
+> 上一章：[[01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/05_open_questions_and_future_directions.md|05_open_questions_and_future_directions]]
+> 下一章：[[01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > **文献**：`0006_ruszkowski-pfrommer-2023`
 > **精读方式**：PDF 阅读 + 结构化精读（2026-08-15）

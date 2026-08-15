@@ -1,4 +1,4 @@
-> 本章属于：The Nine Lives of Cosmic Rays in Galaxies（Grenier, Black & Strong 2015）
+> 本章属于：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md|The Nine Lives of Cosmic Rays in Galaxies（Grenier, Black & Strong 2015）]]
 >
 > 上一章：[[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/03_propagation_physics.md|03_propagation_physics.md]]
 >

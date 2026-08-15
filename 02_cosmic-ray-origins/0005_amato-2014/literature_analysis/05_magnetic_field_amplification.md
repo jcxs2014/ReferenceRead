@@ -1,6 +1,6 @@
 # 5. 磁场放大（MFA）— 非线性 DSA 的核心
 
-> 本章属于：The origin of galactic cosmic rays (Blasi 2013 §4.2-4.4 & Amato 2014 §3.1, §7)
+> 本章属于：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md|The origin of galactic cosmic rays (Blasi 2013 §4.2-4.4 & Amato 2014 §3.1, §7)]]
 >
 > 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/04_nl_dsa.md|04_nl_dsa.md]]
 >

@@ -18,7 +18,7 @@ lastread: '2026-08-15'
 path: 03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/03_hydrogen_helium_alpha_burning.md
 ---
 
-> 本章属于：B$^{2}$FH (1957) — *Synthesis of the Elements in Stars*（第 III 章，P13–P31）
+> 本章属于：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md|B$^{2}$FH (1957) — *Synthesis of the Elements in Stars*（第 III 章，P13–P31）]]
 > 上一章: [[02_physical_processes.md|02_physical_processes.md]]
 > 下一章: [[04_epsilon_process.md|04_epsilon_process.md]]
 > 改造说明（2026-08-15）：本分章已按"路径 A（原文子节镜像）"重组，原"八段模板 + 模板内部编号"结构改造为"原文字母子节 + 译文段 + 内容归位"。信息零丢失（全部 261 行内容均归位到对应原文子节）。

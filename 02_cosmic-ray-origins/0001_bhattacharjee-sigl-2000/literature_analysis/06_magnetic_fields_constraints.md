@@ -13,11 +13,11 @@ related_chapters:
 status: done
 ---
 
-> 本章属于：Bhattacharjee & Sigl (1999), *Phys. Rep.* 320, 1–150
+> 本章属于：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md|Bhattacharjee & Sigl (1999), *Phys. Rep.* 320, 1–150]]
 >
-> 上一章：`05_neutrinos_exotic_particles.md`
+> 上一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/05_neutrinos_exotic_particles.md|05_neutrinos_exotic_particles]]
 >
-> 下一章：`07_source_search_transport.md`
+> 下一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/07_source_search_transport.md|07_source_search_transport]]
 
 # 6. Galactic & Extragalactic Magnetic Fields (§4.4–4.6, p. 27–30)
 

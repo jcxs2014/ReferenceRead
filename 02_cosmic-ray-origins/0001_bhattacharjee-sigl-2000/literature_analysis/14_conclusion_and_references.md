@@ -10,11 +10,11 @@ related_chapters:
 status: done
 ---
 
-> 本章属于：Bhattacharjee & Sigl (1999), *Phys. Rep.* 320, 1–150
+> 本章属于：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md|Bhattacharjee & Sigl (1999), *Phys. Rep.* 320, 1–150]]
 >
-> 上一章：`13_constraints_on_td.md`
+> 上一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/13_constraints_on_td.md|13_constraints_on_td]]
 >
-> 下一章：`99_final_summary.md`
+> 下一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/99_final_summary.md|99_final_summary]]
 
 # 14. Summary, Conclusions & Reference Overview (§8, p. 92–94 + references)
 

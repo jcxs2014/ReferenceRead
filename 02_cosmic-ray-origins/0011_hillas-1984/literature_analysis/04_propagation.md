@@ -5,8 +5,8 @@ outline_ref: "§4 PROPAGATION OF COSMIC RAYS"
 original_sections: ["§4.1 Extragalactic (L707–734)", "§4.2 Galactic (L736–762)"]
 ---
 
-> 上一章：`03_acceleration_mechanisms.md`
-> 下一章：`05_conclusions.md`
+> 上一章：[[02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/03_acceleration_mechanisms.md|03_acceleration_mechanisms]]
+> 下一章：[[02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/05_conclusions.md|05_conclusions]]
 
 ## 4.1 [FACT] 河外传播：GZK 效应与扩散
 

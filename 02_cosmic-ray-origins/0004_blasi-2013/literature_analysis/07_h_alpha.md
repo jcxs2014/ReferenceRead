@@ -11,11 +11,11 @@ related_chapters:
 status: done
 ---
 
-> 本章属于：The Origin of Galactic Cosmic Rays（Blasi, 2013, arXiv:1311.7346）
+> 本章属于：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md|The Origin of Galactic Cosmic Rays（Blasi, 2013, arXiv:1311.7346）]]
 >
-> 上一章：`06_indirect_evidence.md`
+> 上一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/06_indirect_evidence.md|06_indirect_evidence]]
 >
-> 下一章：`08_conclusions.md`
+> 下一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/08_conclusions.md|08_conclusions]]
 
 
 # 7. H-alpha observations

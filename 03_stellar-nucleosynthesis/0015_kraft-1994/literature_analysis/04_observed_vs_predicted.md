@@ -1,8 +1,8 @@
-> 本章属于：*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)
+> 本章属于：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md|*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)]]
 
-> 上一章：`03_standard_predictions.md`
+> 上一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/03_standard_predictions.md|03_standard_predictions]]
 
-> 下一章：`05_mixing_mechanisms.md`
+> 下一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/05_mixing_mechanisms.md|05_mixing_mechanisms]]
 
 # 4. Observed vs Predicted — 实测与标准模型预言的冲突
 

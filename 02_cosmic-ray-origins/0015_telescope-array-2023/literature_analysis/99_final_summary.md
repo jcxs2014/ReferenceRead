@@ -1,3 +1,4 @@
+> 上一章：[[02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/98_vocabulary.md|98_vocabulary]]
 ---
 title: "99. Final Summary — Telescope Array Collaboration 2023"
 ---

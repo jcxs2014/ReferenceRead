@@ -4,6 +4,9 @@ paper: "Mewaldt et al. 2001, Radioactive Clocks and Cosmic-Ray Transport in the 
 outline_ref: "§5 Summary"
 original_sections: ["§5 (L398–424, 26 行)"]
 ---
+> 本章属于：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md|Radioactive Clocks and Cosmic-ray Transport in the Galaxy]]
+> 上一章：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/97_quality_check.md|97_quality_check]]
 
 ## 5.1 [FACT] 三项时钟的核心结论
 

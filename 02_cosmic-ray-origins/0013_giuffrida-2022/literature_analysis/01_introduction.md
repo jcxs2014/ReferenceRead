@@ -5,7 +5,7 @@ outline_ref: "§1 Introduction"
 original_sections: ["§1 (约 95 行, 6 段)"]
 ---
 
-> 下一章：`02_results.md`
+> 下一章：[[02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/02_results.md|02_results]]
 
 ## 1.1 [FACT] 研究背景与核心问题
 

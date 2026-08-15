@@ -1,8 +1,8 @@
 > 本章属于: A New Table of Abundances of the Elements in the Solar System (Cameron, 1968)
 >
-> 上一章: `00_overview.md`
+> 上一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overview.md|00_overview]]
 >
-> 下一章: `02_suess_urey_legacy.md`
+> 下一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/02_suess_urey_legacy.md|02_suess_urey_legacy]]
 
 # 1. 丰度表建构方法 (Abundance Table Construction)
 

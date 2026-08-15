@@ -1,6 +1,6 @@
-> 本章属于：Particle Acceleration by Astrophysical Shocks（Blandford & Ostriker 1978）
+> 本章属于：[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_overview.md|Particle Acceleration by Astrophysical Shocks（Blandford & Ostriker 1978）]]
 >
-> 下一章：`02_strong_shock_acceleration.md`
+> 下一章：[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/02_strong_shock_acceleration.md|02_strong_shock_acceleration]]
 >
 > 总览：`00_overview.md`
 

@@ -41,7 +41,6 @@ citations:
 - '[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview|0001_strong-moskalenko-ptuskin-2007]]'
 path: 02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md
 ---
-> 本章属于：[Bhattacharjee & Sigl (1999) "Origin and Propagation of Extremely High Energy Cosmic Rays", Phys. Rep. 320 (1999) 1–150]
 >
 > 上一章：（无）
 >

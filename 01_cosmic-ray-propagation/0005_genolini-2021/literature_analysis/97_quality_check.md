@@ -1,4 +1,6 @@
 # 97. Quality Check — Completeness 自检
+> 上一章：[[01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/05_summary_conclusion.md|05_summary_conclusion]]
+> 下一章：[[01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 ## 文献信息
 

@@ -1,3 +1,5 @@
+> 上一章：[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/97_quality_check.md|97_quality_check]]
+> 下一章：[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/99_final_summary.md|99_final_summary]]
 ---
 title: "98. Vocabulary — Gabici et al. 2019"
 ---

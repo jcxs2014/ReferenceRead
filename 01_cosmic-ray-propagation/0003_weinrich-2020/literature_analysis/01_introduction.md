@@ -1,6 +1,6 @@
-> 本章属于：Galactic halo size in the light of recent AMS-02 data（Weinrich et al. 2020）
+> 本章属于：[[01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/00_overview.md|Galactic halo size in the light of recent AMS-02 data（Weinrich et al. 2020）]]
 >
-> 下一章：`02_model_configurations.md`
+> 下一章：[[01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/02_model_configurations.md|02_model_configurations]]
 >
 > 总览：`00_overview.md`
 

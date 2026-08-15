@@ -1,4 +1,4 @@
-> 本章属于：Theoretical Modeling of Starburst Galaxies (Kewley et al. 2001, ApJ 556:121)
+> 本章属于：[[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview.md|Theoretical Modeling of Starburst Galaxies (Kewley et al. 2001, ApJ 556:121)]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/01_analysis.md|01_analysis.md]]
 

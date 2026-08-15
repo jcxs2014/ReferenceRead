@@ -13,7 +13,7 @@ lastread: '2026-08-15'
 path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/09_final_remarks_and_conclusions.md
 ---
 
-> 本章属于：Origin of the Elements: A Status Report (Cowan et al. 2021)
+> 本章属于：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md|Origin of the Elements: A Status Report (Cowan et al. 2021)]]
 > 原文位置: fulltext.txt 行 3801–6497（约 60 页综述的最后总结部分）
 > 上一章: [08_abundance_evolution_in_galaxy.md](08_abundance_evolution_in_galaxy.md)
 > 下一章: —（§IX 为综述末章）

@@ -1,3 +1,4 @@
+> 上一章：[[03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/98_vocabulary.md|98_vocabulary]]
 ## 核心结论（2026-08-15 骨架扩展后）
 
 Kappeler et al. (2011) RMP 综述 s 过程：Main s 过程（AGB 星）合成重 s 元素，Weak s 过程（大质量星 C 壳层）合成轻 s 元素；核截面数据精确测量与 AGB 演化模型进步使 s 过程预测精度大幅提升，但仍存在中子源反应率和 third dredge-up 深度的不确定性。

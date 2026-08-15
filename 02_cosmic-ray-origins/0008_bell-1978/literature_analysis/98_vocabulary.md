@@ -1,5 +1,7 @@
 ---
 # 98. Vocabulary — Bell (1978) 学术词汇表
+> 上一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/97_quality_check.md|97_quality_check]]
+> 下一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/99_final_summary.md|99_final_summary]]
 
 ## A. 逻辑连接词（基于 Bell 1978 原文）
 

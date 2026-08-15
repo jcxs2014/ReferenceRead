@@ -1,5 +1,6 @@
 ---
 # 99. Final Summary — Bell (1978) 核心结论速查
+> 上一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 ## 一句话核心
 

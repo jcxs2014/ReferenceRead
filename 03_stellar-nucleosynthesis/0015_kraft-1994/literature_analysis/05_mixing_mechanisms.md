@@ -1,8 +1,8 @@
-> 本章属于：*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)
+> 本章属于：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md|*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)]]
 
-> 上一章：`04_observed_vs_predicted.md`
+> 上一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/04_observed_vs_predicted.md|04_observed_vs_predicted]]
 
-> 下一章：`06_primordial_variations.md`
+> 下一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/06_primordial_variations.md|06_primordial_variations]]
 
 # 5. Sweigart-Mengel Mixing Mechanism — 深混合与内部输运
 

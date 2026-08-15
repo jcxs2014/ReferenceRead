@@ -1,8 +1,8 @@
-> 本章属于：Cosmic ray transport in the Galaxy: A review（Amato & Blasi 2018）
+> 本章属于：[[01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_overview.md|Cosmic ray transport in the Galaxy: A review（Amato & Blasi 2018）]]
 >
-> 上一章：`02_standard_predictions.md`
+> 上一章：[[01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/02_standard_predictions.md|02_standard_predictions]]
 >
-> 下一章：`04_self_generated_transport.md`
+> 下一章：[[01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/04_self_generated_transport.md|04_self_generated_transport]]
 >
 > 总览：`00_overview.md`
 

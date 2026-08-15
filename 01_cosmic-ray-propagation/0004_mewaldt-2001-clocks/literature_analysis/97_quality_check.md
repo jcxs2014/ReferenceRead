@@ -1,3 +1,5 @@
+> 上一章：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/05_summary.md|05_summary]]
+> 下一章：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/98_vocabulary.md|98_vocabulary]]
 ---
 title: "97. Quality Check"
 ---

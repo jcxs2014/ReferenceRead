@@ -1,10 +1,10 @@
 # 4. The non-linear theory of diffusive shock acceleration
 
-> 本章属于：The Origin of Galactic Cosmic Rays（Blasi, 2013, arXiv:1311.7346）
+> 本章属于：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md|The Origin of Galactic Cosmic Rays（Blasi, 2013, arXiv:1311.7346）]]
 >
-> 上一章：`03_test_particle_dsa.md`
+> 上一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/03_test_particle_dsa.md|03_test_particle_dsa]]
 >
-> 下一章：`05_superbubble.md`
+> 下一章：[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/05_superbubble.md|05_superbubble]]
 
 [FACT] §4 是全文的**方法论核心**：从 test-particle DSA 跃升到**非线性 DSA（NLDSA）**。三个一级子节（§4.1 加速粒子对激波的动力学反馈、§4.2 磁场放大、§4.3 放大磁场对激波的反向作用）构成"加速粒子→磁场→激波"的自洽闭合。§4.2 细分为四个二级子节（§4.2.1–§4.2.4），按"共振→非共振小尺度→filamentation→非共振大尺度"递进，是四种磁化放大机制的完整谱系。
 

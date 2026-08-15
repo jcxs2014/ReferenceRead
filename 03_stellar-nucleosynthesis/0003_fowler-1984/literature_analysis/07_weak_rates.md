@@ -15,7 +15,7 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/07_weak_ra
 ---
 # 7. ASTROPHYSICAL WEAK-INTERACTION RATES (Sec. VII)
 
-> 本章属于：**William A. Fowler (1984), *Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements*, Rev. Mod. Phys. 56, 149–172**
+> 本章属于：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview.md|**William A. Fowler (1984), *Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements*, Rev. Mod. Phys. 56, 149–172**]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/06_advanced_burning.md|06_advanced_burning.md]]
 >

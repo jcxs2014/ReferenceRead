@@ -1,8 +1,8 @@
-> 本章属于：Bhattacharjee & Sigl (1999), *Phys. Rep.* 320, 1–150
+> 本章属于：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md|Bhattacharjee & Sigl (1999), *Phys. Rep.* 320, 1–150]]
 >
-> 上一章：`04_propagation_gzk.md`
+> 上一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/04_propagation_gzk.md|04_propagation_gzk]]
 >
-> 下一章：`06_magnetic_fields_constraints.md`
+> 下一章：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/06_magnetic_fields_constraints.md|06_magnetic_fields_constraints]]
 ---
 
 # 5. Origin of UHECR: Acceleration Mechanisms and Sources (§5, p. 40–48)

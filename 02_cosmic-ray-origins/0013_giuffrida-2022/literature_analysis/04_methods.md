@@ -5,8 +5,8 @@ outline_ref: "§4 Methods"
 original_sections: ["§4.1 X-ray data analysis (Chandra)", "§4.2 X-ray data analysis (XMM-Newton)", "§4.3 Modeling the shock modification"]
 ---
 
-> 上一章：`03_discussion.md`
-> 下一章：`97_quality_check.md`
+> 上一章：[[02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/03_discussion.md|03_discussion]]
+> 下一章：[[02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/97_quality_check.md|97_quality_check]]
 
 ## 4.1 [FACT] Chandra 数据处理
 

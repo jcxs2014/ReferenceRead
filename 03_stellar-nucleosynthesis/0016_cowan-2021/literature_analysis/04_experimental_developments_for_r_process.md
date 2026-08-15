@@ -9,6 +9,9 @@ status: completed
 read_date: '2026-08-15'
 path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/04_experimental_developments_for_r_process.md
 ---
+> 本章属于：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md|Origin of the Elements: A Status Report]]
+> 上一章：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/05_nuclear_modeling_of_r_process_input.md|05_nuclear_modeling_of_r_process_input]]
 
 # §IV. Experimental Developments for r-Process Studies — 精读笔记
 

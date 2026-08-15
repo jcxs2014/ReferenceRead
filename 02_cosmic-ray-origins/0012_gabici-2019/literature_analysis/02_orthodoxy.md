@@ -5,8 +5,8 @@ outline_ref: "§2 The Orthodoxy (§2.1–§2.5)"
 original_sections: ["§2.1 Energy source; §2.2 Diffusive confinement; §2.3 DSA at SNR shocks; §2.4 VHE γ-rays; §2.5 Pion bump"]
 ---
 
-> 上一章：`01_introduction.md`
-> 下一章：`03_observations_confront.md`
+> 上一章：[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/01_introduction.md|01_introduction]]
+> 下一章：[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/03_observations_confront.md|03_observations_confront]]
 
 ## 2.1 [FACT] 支柱一：超新星爆炸提供 CR 能量
 

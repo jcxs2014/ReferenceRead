@@ -1,6 +1,6 @@
 # 6. CR 逃逸与谱（Escape & Spectra）
 
-> 本章属于：The origin of galactic cosmic rays (Blasi 2013 §6.1–6.2 & Amato 2014 §3.2, §5)
+> 本章属于：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md|The origin of galactic cosmic rays (Blasi 2013 §6.1–6.2 & Amato 2014 §3.2, §5)]]
 >
 > 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/05_magnetic_field_amplification.md|05_magnetic_field_amplification.md]]
 >

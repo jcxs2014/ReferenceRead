@@ -16,11 +16,11 @@ related_chapters:
 status: done
 ---
 
-> 本章属于：Cosmic ray feedback in galaxies and galaxy clusters (Ruszkowski & Pfrommer 2023)
+> 本章属于：[[01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md|Cosmic ray feedback in galaxies and galaxy clusters (Ruszkowski & Pfrommer 2023)]]
 >
-> 上一章：`03_astrophysical_systems.md`
+> 上一章：[[01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/03_astrophysical_systems.md|03_astrophysical_systems]]
 >
-> 下一章：`05_open_questions_and_future_directions.md`
+> 下一章：[[01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/05_open_questions_and_future_directions.md|05_open_questions_and_future_directions]]
 
 # 4. Observational signatures — CR 反馈的观测证据
 

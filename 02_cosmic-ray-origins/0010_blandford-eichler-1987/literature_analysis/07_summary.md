@@ -1,8 +1,8 @@
-> 本章属于：Particle Acceleration at Astrophysical Shocks: A Theory of Cosmic Ray Origin（Blandford & Eichler 1987）
+> 本章属于：[[02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/00_overview.md|Particle Acceleration at Astrophysical Shocks: A Theory of Cosmic Ray Origin（Blandford & Eichler 1987）]]
 >
-> 上一章：`06_nonlinear_theory.md`
+> 上一章：[[02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/06_nonlinear_theory.md|06_nonlinear_theory]]
 >
-> 下一章：`97_quality_check.md`
+> 下一章：[[02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/97_quality_check.md|97_quality_check]]
 >
 > 总览：`00_overview.md`
 

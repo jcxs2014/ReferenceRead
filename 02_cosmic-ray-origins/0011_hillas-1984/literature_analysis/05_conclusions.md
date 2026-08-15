@@ -5,7 +5,7 @@ outline_ref: "§5 CONCLUSIONS"
 original_sections: ["§5 (L764–822, 59 行)"]
 ---
 
-> 上一章：`04_propagation.md`
+> 上一章：[[02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/04_propagation.md|04_propagation]]
 
 ## 5.1 [FACT] 三个核心问题
 

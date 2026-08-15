@@ -1,8 +1,8 @@
-> 本章属于：New minimal, median, and maximal propagation models for dark matter searches with Galactic cosmic rays（Génolini et al. 2021）
+> 本章属于：[[01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/00_overview.md|New minimal, median, and maximal propagation models for dark matter searches with Galactic cosmic rays（Génolini et al. 2021）]]
 >
-> 上一章：`01_introduction.md`
+> 上一章：[[01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/01_introduction.md|01_introduction]]
 >
-> 下一章：`03_statistical_method.md`
+> 下一章：[[01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/03_statistical_method.md|03_statistical_method]]
 >
 > 总览：`00_overview.md`
 

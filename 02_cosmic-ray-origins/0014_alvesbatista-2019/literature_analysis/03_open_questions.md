@@ -10,11 +10,11 @@ created: 2026-08-15
 tags: [open questions, Hillas, source identification, BSM, LIV, magnetic fields, hadronic interactions]
 ---
 
-> 本章属于：[Open Questions in Cosmic-Ray Research at Ultrahigh Energies]
+> 本章属于：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md|[Open Questions in Cosmic-Ray Research at Ultrahigh Energies]]]
 >
-> 上一章：`02_status_ultrahigh_energy.md`
+> 上一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/02_status_ultrahigh_energy.md|02_status_ultrahigh_energy]]
 >
-> 下一章：`04_conclusions_and_perspectives.md`
+> 下一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/04_conclusions_and_perspectives.md|04_conclusions_and_perspectives]]
 
 # 3. Open Questions
 

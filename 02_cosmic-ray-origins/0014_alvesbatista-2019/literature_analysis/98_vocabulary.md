@@ -13,6 +13,8 @@ path: 02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/98_vocabu
 ---
 
 # 98. Vocabulary — 学术词汇与术语
+> 上一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/97_quality_check.md|97_quality_check]]
+> 下一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/99_final_summary.md|99_final_summary]]
 
 > 文献：Open Questions in Cosmic-Ray Research at Ultrahigh Energies（M. A. O. Alves Batista et al. et al., 2019）。本词汇表基于 `literature_analysis/` 中各分析文件提取，供中文母语读者辅助精读原文。
 >

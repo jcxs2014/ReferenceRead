@@ -1,3 +1,4 @@
+> 上一章：[[02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/98_vocabulary.md|98_vocabulary]]
 ---
 title: "99. Final Summary"
 ---

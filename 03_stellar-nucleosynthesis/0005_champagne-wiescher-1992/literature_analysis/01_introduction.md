@@ -1,6 +1,6 @@
 # 1. Introduction
 
-> 本章属于：Explosive Hydrogen Burning (Champagne & Wiescher, 1992)
+> 本章属于：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview.md|Explosive Hydrogen Burning (Champagne & Wiescher, 1992)]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview.md|00_overview.md]]
 >

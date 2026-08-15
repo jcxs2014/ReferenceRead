@@ -4,6 +4,9 @@ paper: "Mewaldt et al. 2001, Radioactive Clocks and Cosmic-Ray Transport in the 
 outline_ref: "§4 Beta-Decay Clocks and Cosmic-Ray Transport in the Galaxy"
 original_sections: ["§4 (L215–396, 182 行, 全文最长章节)"]
 ---
+> 本章属于：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md|Radioactive Clocks and Cosmic-ray Transport in the Galaxy]]
+> 上一章：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/05_summary.md|05_summary]]
 
 ## 4.1 [FACT] 物理原理：β 衰变时钟与储存寿命
 

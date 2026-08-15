@@ -1,8 +1,8 @@
 > 本章属于: A New Table of Abundances of the Elements in the Solar System (Cameron, 1968)
 >
-> 上一章: `03_nucleosynthesis_implications.md`
+> 上一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/03_nucleosynthesis_implications.md|03_nucleosynthesis_implications]]
 >
-> 下一章: `99_final_summary.md`
+> 下一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/99_final_summary.md|99_final_summary]]
 
 # 98. Vocabulary — 学术词汇与术语
 

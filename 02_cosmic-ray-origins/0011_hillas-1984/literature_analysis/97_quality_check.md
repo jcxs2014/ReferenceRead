@@ -1,3 +1,5 @@
+> 上一章：[[02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/05_conclusions.md|05_conclusions]]
+> 下一章：[[02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/98_vocabulary.md|98_vocabulary]]
 ---
 title: "97. Quality Check"
 ---

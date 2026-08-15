@@ -1,8 +1,8 @@
-> 本章属于：Particle Acceleration by Astrophysical Shocks（Blandford & Ostriker 1978）
+> 本章属于：[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_overview.md|Particle Acceleration by Astrophysical Shocks（Blandford & Ostriker 1978）]]
 >
-> 上一章：`04_extragalactic_radio_sources.md`
+> 上一章：[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/04_extragalactic_radio_sources.md|04_extragalactic_radio_sources]]
 >
-> 下一章：`97_quality_check.md`
+> 下一章：[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/97_quality_check.md|97_quality_check]]
 >
 > 总览：`00_overview.md`
 

@@ -5,7 +5,7 @@ outline_ref: "§1 引言"
 original_sections: ["§1 引言; The Telescope Array experiment; Energetic particle on 27 May 2021"]
 ---
 
-> 下一章：`02_energy_reconstruction.md`
+> 下一章：[[02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/02_energy_reconstruction.md|02_energy_reconstruction]]
 
 ## 1.1 [FACT] 论文基本信息
 

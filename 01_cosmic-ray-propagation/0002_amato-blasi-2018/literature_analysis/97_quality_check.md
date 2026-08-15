@@ -1,4 +1,6 @@
 # 97. Quality Check — Completeness 自检
+> 上一章：[[01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/08_summary.md|08_summary]]
+> 下一章：[[01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 ## 文献信息
 

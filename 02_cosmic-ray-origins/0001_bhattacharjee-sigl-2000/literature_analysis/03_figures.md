@@ -1,4 +1,4 @@
-> 本章属于：Bhattacharjee & Sigl (1999), Phys. Rep. 320, 1–150
+> 本章属于：[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md|Bhattacharjee & Sigl (1999), Phys. Rep. 320, 1–150]]
 >
 > 论文：`0001_longair-ptuskin-1999`
 

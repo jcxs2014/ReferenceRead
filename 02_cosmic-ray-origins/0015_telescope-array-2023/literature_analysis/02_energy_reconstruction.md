@@ -5,8 +5,8 @@ outline_ref: "§Methods: Analysis Procedure and Energy Reconstruction"
 original_sections: ["Energetic particle on 27 May 2021; Supplementary: Analysis Procedure and Energy Reconstruction"]
 ---
 
-> 上一章：`01_introduction.md`
-> 下一章：`03_direction_and_lss.md`
+> 上一章：[[02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/01_introduction.md|01_introduction]]
+> 下一章：[[02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/03_direction_and_lss.md|03_direction_and_lss]]
 
 ## 2.1 [FACT] Table 1 — 重建事件属性
 

@@ -9,6 +9,9 @@ status: completed
 read_date: '2026-08-15'
 path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/06_astrophysical_sites_and_their_ejecta.md
 ---
+> 本章属于：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md|Origin of the Elements: A Status Report]]
+> 上一章：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/07_electromagnetic_signatures_of_r_process.md|07_electromagnetic_signatures_of_r_process]]
 
 # §VI. Astrophysical Sites and Their Ejecta Composition — 精读笔记
 

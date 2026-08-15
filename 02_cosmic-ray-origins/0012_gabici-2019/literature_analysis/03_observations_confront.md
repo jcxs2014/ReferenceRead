@@ -5,8 +5,8 @@ outline_ref: "§3 Recent Observations Confront Orthodoxy"
 original_sections: ["§3.1 Spectral anomalies; §3.2 Anisotropies; §3.3 Far-away observations"]
 ---
 
-> 上一章：`02_orthodoxy.md`
-> 下一章：`04_open_problems.md`
+> 上一章：[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/02_orthodoxy.md|02_orthodoxy]]
+> 下一章：[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/04_open_problems.md|04_open_problems]]
 
 ## 3.1 [FACT] 局域 CR 谱异常
 

@@ -1,4 +1,4 @@
-> 本章属于：B$^2$FH (1957) — *Synthesis of the Elements in Stars*
+> 本章属于：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md|B$^2$FH (1957) — *Synthesis of the Elements in Stars*]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/07_r_process_termination.md|07_r_process_termination.md]]
 >

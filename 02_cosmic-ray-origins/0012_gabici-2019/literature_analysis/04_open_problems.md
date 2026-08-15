@@ -5,8 +5,8 @@ outline_ref: "§4 Long Standing Open Problems in the Standard Paradigm"
 original_sections: ["§4.1 The knee; §4.2 GCR-EGCR transition; §4.3 Chemical composition"]
 ---
 
-> 上一章：`03_observations_confront.md`
-> 下一章：`05_conclusions.md`
+> 上一章：[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/03_observations_confront.md|03_observations_confront]]
+> 下一章：[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/05_conclusions.md|05_conclusions]]
 
 ## 4.1 [FACT] 膝区——PeVatron 问题
 

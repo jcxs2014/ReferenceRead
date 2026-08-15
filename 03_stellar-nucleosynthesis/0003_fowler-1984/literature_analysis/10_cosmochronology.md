@@ -1,6 +1,6 @@
 # 10. NUCLEOCOSMOCHRONOLOGY & CONCLUSION (Sec. XII & XIII)
 
-> 本章属于：**William A. Fowler (1984), *Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements*, Rev. Mod. Phys. 56, 149–172**
+> 本章属于：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview.md|**William A. Fowler (1984), *Experimental and theoretical nuclear astrophysics: the quest for the origin of the elements*, Rev. Mod. Phys. 56, 149–172**]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/09_anomalies_neutron.md|09_anomalies_neutron.md]]
 >

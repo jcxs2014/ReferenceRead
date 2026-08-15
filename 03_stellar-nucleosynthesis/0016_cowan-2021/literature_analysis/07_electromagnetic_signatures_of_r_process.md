@@ -13,7 +13,7 @@ lastread: '2026-08-15'
 path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/07_electromagnetic_signatures_of_r_process.md
 ---
 
-> 本章属于：Origin of the Elements: A Status Report (Cowan et al. 2021)
+> 本章属于：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md|Origin of the Elements: A Status Report (Cowan et al. 2021)]]
 > 原文位置: fulltext.txt 行 3072–3259（约 3 页正文）
 > 上一章: [06_astrophysical_sites_and_their_ejecta.md](06_astrophysical_sites_and_their_ejecta.md)
 > 下一章: [08_abundance_evolution_in_galaxy.md](08_abundance_evolution_in_galaxy.md)

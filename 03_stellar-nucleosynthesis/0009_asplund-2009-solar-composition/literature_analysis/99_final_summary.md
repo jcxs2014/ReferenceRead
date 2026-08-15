@@ -1,4 +1,4 @@
-> 本章属于：Asplund et al. (2009) AGSS09
+> 本章属于：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview.md|Asplund et al. (2009) AGSS09]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/09_conclusion_and_references.md|09_conclusion_and_references.md]]
 

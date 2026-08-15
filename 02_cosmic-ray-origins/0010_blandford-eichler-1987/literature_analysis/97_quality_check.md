@@ -1,4 +1,6 @@
 # 97. Quality Check — Completeness 自检
+> 上一章：[[02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/07_summary.md|07_summary]]
+> 下一章：[[02_cosmic-ray-origins/0010_blandford-eichler-1987/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 ## 文献信息
 

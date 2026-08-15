@@ -1,4 +1,6 @@
 # 97. Quality Check — 完成度自查
+> 上一章：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/09_final_remarks_and_conclusions.md|09_final_remarks_and_conclusions]]
+> 下一章：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > **文献**：`0016_cowan-2021`
 > **精读方式**：PDF 阅读 + 结构化精读（2026-08-15）

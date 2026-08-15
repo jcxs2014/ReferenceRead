@@ -1,4 +1,7 @@
 # 04. Application to SNR & conclusion（p.156）
+> 本章属于：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md|The acceleration of cosmic rays in shock fronts — I]]
+> 上一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/05_critical_assessment.md|05_critical_assessment]]
 
 > **本节定位**：把 §2-§3 的机制应用到**真实 SNR**——Cassiopeia A——检验理论与观测的可对比性。
 

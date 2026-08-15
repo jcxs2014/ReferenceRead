@@ -5,8 +5,8 @@ outline_ref: "§3 Discussion"
 original_sections: ["§3 Discussion"]
 ---
 
-> 上一章：`02_results.md`
-> 下一章：`04_methods.md`
+> 上一章：[[02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/02_results.md|02_results]]
+> 下一章：[[02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/04_methods.md|04_methods]]
 
 ## 3.1 [FACT] 激波修改的物理解释
 

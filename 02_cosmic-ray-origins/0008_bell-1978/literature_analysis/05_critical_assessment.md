@@ -1,4 +1,7 @@
 # 05. Critical assessment — 综合批判（跨章节）
+> 本章属于：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md|The acceleration of cosmic rays in shock fronts — I]]
+> 上一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/97_quality_check.md|97_quality_check]]
 
 > **本节定位**：跨 §1–§4 的综合审视，既包括 Bell 1978 的整体贡献，也包括对其历史局限的诚实评价。
 

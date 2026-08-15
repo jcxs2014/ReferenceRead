@@ -1,4 +1,4 @@
-> 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
+> 本章属于：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md|Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md|00_overview.md]]
 >

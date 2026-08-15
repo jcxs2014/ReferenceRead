@@ -1,3 +1,4 @@
+> 上一章：[[01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/98_vocabulary.md|98_vocabulary]]
 ## 核心结论（2026-08-15 骨架扩展后）
 
 Ruszkowski & Pfrommer (2023) A&A Review 系统综述 CR 反馈在星系（驱动银河风、抑制恒星形成）和星系团（抑制冷却流）中的动力学作用，强调波-粒相互作用和 streaming instability 是 CR 能量耗散到等离子体的核心机制。

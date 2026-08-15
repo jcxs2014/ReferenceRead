@@ -1,4 +1,6 @@
 # 97. Quality Check — 完成度自查
+> 上一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/05_critical_assessment.md|05_critical_assessment]]
+> 下一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > **文献**：`0008_bell-1978`  
 > **精读方式**：PDF 视觉读取（页 147–156）+ 已知物理推导交叉验证

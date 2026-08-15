@@ -1,4 +1,4 @@
-> 本章属于：B$^2$FH (1957) — *Synthesis of the Elements in Stars*
+> 本章属于：[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview.md|B$^2$FH (1957) — *Synthesis of the Elements in Stars*]]
 >
 > 本文档分析论文中最重要的 14 张图，按原文章节编号排列。
 

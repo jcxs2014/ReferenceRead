@@ -1,4 +1,7 @@
 # 03. Alfvén waves upstream of the shock（pp.152–156）
+> 本章属于：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md|The acceleration of cosmic rays in shock fronts — I]]
+> 上一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/04_application_snr.md|04_application_snr]]
 
 > **本节核心**：推导加速机制的**自洽性**——粒子如何激发它们自身散射所需的 Alfvén 波，以及能量上限 $E_{\rm crit}$ 的来源。
 

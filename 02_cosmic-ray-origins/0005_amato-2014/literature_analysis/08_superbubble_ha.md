@@ -1,6 +1,6 @@
 # 8. Superbubble 假说 + H$\alpha$ 线作为 CR 量热器
 
-> 本章属于：The origin of galactic cosmic rays (Blasi 2013 §5, §7 & Amato 2014 §8)
+> 本章属于：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md|The origin of galactic cosmic rays (Blasi 2013 §5, §7 & Amato 2014 §8)]]
 >
 > 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/07_gammaray_snr.md|07_gammaray_snr.md]]
 >

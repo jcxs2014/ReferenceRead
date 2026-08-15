@@ -1,8 +1,8 @@
-> 本章属于：*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)
+> 本章属于：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md|*Abundance Differences Among Globular-Cluster Giants: Primordial Versus Evolutionary Scenarios* (Kraft, 1994)]]
 
-> 上一章：`00_overview.md`
+> 上一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/00_overview.md|00_overview]]
 
-> 下一章：`02_abundance_differences.md`
+> 下一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/02_abundance_differences.md|02_abundance_differences]]
 
 # 1. Introduction — 星族 II 丰度研究背景
 

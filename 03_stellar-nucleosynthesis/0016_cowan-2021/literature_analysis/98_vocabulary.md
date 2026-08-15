@@ -13,6 +13,8 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/98_vocabula
 ---
 
 # 98. Vocabulary — 学术词汇与术语
+> 上一章：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/97_quality_check.md|97_quality_check]]
+> 下一章：[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/99_final_summary.md|99_final_summary]]
 
 > 文献：Origin of the Elements: A Status Report（J. J. Cowan et al., 2021）。本词汇表基于 `literature_analysis/` 中各分析文件提取，供中文母语读者辅助精读原文。
 >

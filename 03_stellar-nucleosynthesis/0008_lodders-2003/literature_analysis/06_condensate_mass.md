@@ -1,4 +1,4 @@
-> 本章属于：Solar System Abundances and Condensation Temperatures of the Elements (Lodders 2003)
+> 本章属于：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overview.md|Solar System Abundances and Condensation Temperatures of the Elements (Lodders 2003)]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/05_ices_volatile.md|05_ices_volatile.md]]
 >

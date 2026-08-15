@@ -5,8 +5,8 @@ outline_ref: "§Summary and conclusions"
 original_sections: ["Summary and conclusions"]
 ---
 
-> 上一章：`04_source_distance.md`
-> 下一章：`97_quality_check.md`
+> 上一章：[[02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/04_source_distance.md|04_source_distance]]
+> 下一章：[[02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/97_quality_check.md|97_quality_check]]
 
 ## 5.1 [FACT] 论文总结
 

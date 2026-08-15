@@ -1,4 +1,6 @@
 # 97. Quality Check — Completeness 自检
+> 上一章：[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/05_critical_assessment.md|05_critical_assessment]]
+> 下一章：[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 ## 文献信息
 

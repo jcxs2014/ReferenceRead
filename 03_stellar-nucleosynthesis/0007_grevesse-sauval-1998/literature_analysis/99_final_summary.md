@@ -1,6 +1,6 @@
 # 99. Final Summary
 
-> 本章属于：Standard Solar Composition — Grevesse & Sauval (1998), *Space Science Reviews* **85**, 161–174
+> 本章属于：[[03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/00_overview.md|Standard Solar Composition — Grevesse & Sauval (1998), *Space Science Reviews* **85**, 161–174]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/01_analysis.md|01_analysis.md]]
 >

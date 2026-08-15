@@ -1,4 +1,6 @@
 # 97. Quality Check — 完成度自查
+> 上一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/07_conclusions.md|07_conclusions]]
+> 下一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0015_kraft-1994`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。

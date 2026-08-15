@@ -4,6 +4,9 @@ paper: "Mewaldt et al. 2001, Radioactive Clocks and Cosmic-Ray Transport in the 
 outline_ref: "§2 Acceleration-Time Delay Clocks"
 original_sections: ["§2 (L83–155, 72 行)"]
 ---
+> 本章属于：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md|Radioactive Clocks and Cosmic-ray Transport in the Galaxy]]
+> 上一章：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_overview.md|00_overview]]
+> 下一章：[[01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/03_electron_capture_transport.md|03_electron_capture_transport]]
 
 ## 2.1 [FACT] 物理原理：电子俘获核作为核合成–加速延迟时钟
 

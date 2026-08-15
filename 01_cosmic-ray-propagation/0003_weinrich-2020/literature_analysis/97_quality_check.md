@@ -1,4 +1,6 @@
 # 97. Quality Check — Completeness 自检
+> 上一章：[[01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/04_conclusions.md|04_conclusions]]
+> 下一章：[[01_cosmic-ray-propagation/0003_weinrich-2020/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 ## 文献信息
 

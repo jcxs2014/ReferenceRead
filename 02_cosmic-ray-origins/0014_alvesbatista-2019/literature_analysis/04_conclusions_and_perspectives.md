@@ -10,11 +10,11 @@ created: 2026-08-15
 tags: [conclusions, perspectives, upcoming experiments, Auger upgrade, POEMMA, GRAND, ARIANNA, action items]
 ---
 
-> 本章属于：[Open Questions in Cosmic-Ray Research at Ultrahigh Energies]
+> 本章属于：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md|[Open Questions in Cosmic-Ray Research at Ultrahigh Energies]]]
 >
-> 上一章：`03_open_questions.md`
+> 上一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/03_open_questions.md|03_open_questions]]
 >
-> 下一章：`98_vocabulary.md`
+> 下一章：[[02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 # 4. Conclusions and Perspectives
 

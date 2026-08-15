@@ -1,4 +1,4 @@
-> 本章属于：Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)
+> 本章属于：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md|Synthesis of the elements in stars, forty years of progress (Wallerstein et al., 1997)]]
 >
 > 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/01_preface_introduction.md|01_preface_introduction.md]]
 >
@@ -77,7 +77,8 @@ sections:
 - 左半部分：LMXB 的最大光度，恒定半径线 ~ 10^25 cm（相当 1.4 $M_\odot$ NS 或 10 $M_\odot$ BH 的半径）
 - 星形符号：USXRs、新星后中心星、PN 中心星
 
-[FACT] 主序寿命 $	au_{m MS}$ ∝ M^(−2.25)：
+[FACT] 主序寿命 $	au_{
+m MS}$ ∝ M^(−2.25)：
 - 1 $M_\odot$：~10^10 年（~1 Hubble 时间）
 - 25 $M_\odot$：~7×10^6 年
 
@@ -297,17 +298,21 @@ u$)7Li 破坏 → Li 超丰（Cameron 1955; Cameron & Fowler 1971）
 2. **共同包层 (Common Envelope, CE)**：供星质量 >> 吸星质量或供星有深对流包层时，吸星无法调节结构 → 物质填满吸星 Roche 瓣 → CE 形成 → "鸡蛋搅拌器" 摩擦耗散 → CE 物质被驱散 → 轨道收缩
 3. **角动量损失**：引力波辐射 (GWR) 或磁星风 (MSW)
 
-[FACT] **CE 效率参数**：$lpha_{m CE}$ = $\Delta$E_remove / $\Delta$E_bind
+[FACT] **CE 效率参数**：$lpha_{
+m CE}$ = $\Delta$E_remove / $\Delta$E_bind
 - 越小 → 轨道收缩越大
 - 近几十年有争议（Iben & Livio 1993）
-- 3D 光滑粒子流体动力学计算建议 $lpha_{m CE}$ ≈ 1（Rasio & Livio 1996; Yorke et al. 1995）
+- 3D 光滑粒子流体动力学计算建议 $lpha_{
+m CE}$ ≈ 1（Rasio & Livio 1996; Yorke et al. 1995）
 
 [FACT] 银河系盘星出生函数（Iben & Tutukov 1984）：
 $$rac{d^3 n}{d \log A_0 \, dM_{10} \, dq_0} \sim 0.2 \, M_{10}^{-2.5} \, 	ext{yr}^{-1}$$
 - 积分 $A_{0}$ = 10^−1–10^6, $M_{10}$ = 0.8–100, $q_{0}$ = 0–1 → n ≈ 1 yr^(−1）（银河系主序逃逸率）
 
 [FACT] 轨道角动量守恒方程（保守转移）：
-$$J_{orb} = M_{1f} M_{2f} \left(rac{G A_f}{M_t}ight)^{1/2} = M_{10} M_{20} \left(rac{G A_0}{M_t}ight)^{1/2}$$
+$$J_{orb} = M_{1f} M_{2f} \left(rac{G A_f}{M_t}
+ight)^{1/2} = M_{10} M_{20} \left(rac{G A_0}{M_t}
+ight)^{1/2}$$
 
 ### 2.4.2 2. Scenario modeling
 
@@ -329,7 +334,8 @@ $$J_{orb} = M_{1f} M_{2f} \left(rac{G A_f}{M_t}ight)^{1/2} = M_{10} M_{20} \le
 - 核能释放解除电子简并 → 包层膨胀至巨星尺度
 
 [FACT] **L_max 与 M_WD 的关系**（Iben & Tutukov 1989）：
-$$rac{L_{max}}{L_\odot} = 46{,}000 \left(rac{M_{WD}}{M_\odot}ight)^{0.26}$$
+$$rac{L_{max}}{L_\odot} = 46{,}000 \left(rac{M_{WD}}{M_\odot}
+ight)^{0.26}$$
 - Paczynski-Uus 关系（用于 PN 中心星）：L_max/L☉ = 59,000 (M_WD/$M_\odot$)^0.52
 - 差异源于新星底层 WD 更冷、半径更小
 
@@ -367,7 +373,9 @@ $$rac{L_{max}}{L_\odot} = 46{,}000 \left(rac{M_{WD}}{M_\odot}ight)^{0.26}$$
 > **X 射线双星与脉冲星**
 
 [FACT] **LMXB** = NS 或 BH + 低质量主序/亚巨星供星：
-- 理论出生率：~2×10^(−5) yr^(−1)（$lpha_{m CE}$=1）至 ~2×10^(−6) yr^(−1)（$lpha_{m CE}$=0.5）
+- 理论出生率：~2×10^(−5) yr^(−1)（$lpha_{
+m CE}$=1）至 ~2×10^(−6) yr^(−1)（$lpha_{
+m CE}$=0.5）
 - NS 吸积 ~0.01 $M_\odot$ → 自转周期降至毫秒范围 (<10^3×10^(-3) s) → 毫秒脉冲星 (MSP)
 - 主序供星 → MSP + 供星被摧毁
 - 亚巨星供星 → MSP + He WD 残余

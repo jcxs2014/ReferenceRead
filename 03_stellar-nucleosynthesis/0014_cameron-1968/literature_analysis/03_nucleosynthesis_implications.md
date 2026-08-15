@@ -1,8 +1,8 @@
 > 本章属于: A New Table of Abundances of the Elements in the Solar System (Cameron, 1968)
 >
-> 上一章: `02_suess_urey_legacy.md`
+> 上一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/02_suess_urey_legacy.md|02_suess_urey_legacy]]
 >
-> 下一章: `98_vocabulary.md`
+> 下一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 # 3. 对 B$^2$FH 核合成框架的含义 (Nucleosynthesis Implications)
 

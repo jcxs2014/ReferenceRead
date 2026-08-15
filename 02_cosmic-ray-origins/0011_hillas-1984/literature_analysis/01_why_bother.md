@@ -5,8 +5,8 @@ outline_ref: "§1 WHY BOTHER WITH ULTRA-HIGH-ENERGY COSMIC RAYS?"
 original_sections: ["§1 (L17–111, ~95 行)"]
 ---
 
-> 本章属于：[Hillas 1984]
-> 下一章：`02_observational_data.md`
+> 本章属于：[[02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/00_overview.md|[Hillas 1984]]]
+> 下一章：[[02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/02_observational_data.md|02_observational_data]]
 
 ## 1.1 本节核心内容
 

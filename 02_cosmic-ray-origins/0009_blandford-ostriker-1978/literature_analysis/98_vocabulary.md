@@ -1,5 +1,7 @@
 ---
 # 98. Vocabulary — 学术词汇与术语
+> 上一章：[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/97_quality_check.md|97_quality_check]]
+> 下一章：[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/99_final_summary.md|99_final_summary]]
 
 ## A. 学术逻辑词（本篇原文出现）
 
