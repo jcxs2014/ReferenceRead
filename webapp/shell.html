@@ -228,6 +228,22 @@ mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px
   background: rgba(74, 108, 247, 0.12);
   border-radius: 2px;
 }
+
+/* ── 文献演化谱系树 ─────────────────────────────────────────── */
+.evol-box { margin: 1.5rem 0; padding: 1rem 1.2rem; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-1); }
+.evol-box h3 { margin: 0 0 .3rem; font-size: 1.05rem; color: var(--accent); }
+.evol-hint { margin: 0 0 .6rem; font-size: .82rem; color: var(--fg-2, #888); }
+.evol-tree { list-style: none; padding-left: 0; margin: .4rem 0; }
+.evol-tree ul { list-style: none; padding-left: 1.3rem; margin: .15rem 0 .15rem .35rem; border-left: 1px dashed var(--border); }
+.evol-branch { cursor: pointer; margin: .18rem 0; }
+.evol-toggle { display: inline-block; width: 1.15em; text-align: center; color: var(--fg-2, #888); transition: transform .15s ease; font-size: .85em; }
+.evol-branch.open > .evol-toggle { transform: rotate(90deg); }
+.evol-branch > .evol-tree { display: none; }
+.evol-branch.open > .evol-tree { display: block; }
+.evol-label { font-weight: 500; }
+.evol-leaf { margin: .12rem 0; }
+.evol-leaf a { color: var(--accent); text-decoration: none; cursor: pointer; }
+.evol-leaf a:hover { text-decoration: underline; }
 </style>
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -279,6 +295,99 @@ const PAPERS = __PAPERS_JSON__;
 const GLOSS  = __GLOSS_JSON__;
 
 const LS = "kb_";
+
+// ── 文献演化谱系树（38 篇，对应 README「文献演化关系」）────────────────
+const EVOLUTION_TREE = [
+  { label: "01 宇宙线传播", children: [
+    { label: "框架基石 · CR 传播综述", children: [
+      { label: "Strong, Moskalenko & Ptuskin 2007", slug: "paper-0001_strong-moskalenko-ptuskin-2007" }]},
+    { label: "传播参数现代化", children: [
+      { label: "Génolini et al. 2021", slug: "paper-0005_genolini-2021" }]},
+    { label: "放射性时钟方法线", children: [
+      { label: "Mewaldt et al. 2001（Be-10/Al-26/Cl-36 时钟）", slug: "paper-0004_mewaldt-2001-clocks" },
+      { label: "Weinrich et al. 2020（AMS-02 约束晕大小）", slug: "paper-0003_weinrich-2020" }]},
+    { label: "输运理论综述 → 反馈动力学", children: [
+      { label: "Amato & Blasi 2018（CR 输运综述）", slug: "paper-0002_amato-blasi-2018" },
+      { label: "Ruszkowski & Pfrommer 2023（星系/星系团反馈）", slug: "paper-0006_ruszkowski-pfrommer-2023" }]},
+  ]},
+  { label: "02 宇宙线起源与 UHECR", children: [
+    { label: "DSA 奠基（1978 双璧）", children: [
+      { label: "Bell 1978（平行激波加速）", slug: "paper-0008_bell-1978" },
+      { label: "Blandford & Ostriker 1978（扩散激波加速）", slug: "paper-0009_blandford-ostriker-1978" },
+      { label: "理论综述：Blandford & Eichler 1987", slug: "paper-0010_blandford-eichler-1987" }]},
+    { label: "现代综述与 SNR 应用", children: [
+      { label: "Blasi 2013（银河 CR 起源现代综述）", slug: "paper-0004_blasi-2013" },
+      { label: "Amato 2014（SNR 伽马射线）", slug: "paper-0005_amato-2014" },
+      { label: "Gabici 2019（逃逸与宇宙线海）", slug: "paper-0012_gabici-2019" },
+      { label: "Giuffrida 2022（SN 1006 多波段观测）", slug: "paper-0013_giuffrida-2022" }]},
+    { label: "判据与全景", children: [
+      { label: "Hillas 1984（Hillas 判据）", slug: "paper-0011_hillas-1984" },
+      { label: "TA 2023（超 GZK 事件观测）", slug: "paper-0015_telescope-array-2023" },
+      { label: "Grenier 2015（银河系内 CR 九命全景）", slug: "paper-0006_grenier-2015" },
+      { label: "Gaisser 1990（高能银河 CR 起源）", slug: "paper-0003_gaisser-1990" },
+      { label: "Biermann 1996（星系尺度加速与丰度关联）", slug: "paper-0007_biermann-1996" }]},
+    { label: "UHECR 链", children: [
+      { label: "Bhattacharjee & Sigl 2000（极端能量 CR 综述）", slug: "paper-0001_bhattacharjee-sigl-2000" },
+      { label: "Alves Batista 2019（开放问题）", slug: "paper-0014_alvesbatista-2019" },
+      { label: "Al-Dargazelli 1996（最高能起源）", slug: "paper-0002_al-dargazelli-1996" }]},
+  ]},
+  { label: "03 恒星核合成与元素丰度", children: [
+    { label: "奠基与综述", children: [
+      { label: "B²FH 1957（元素恒星合成）", slug: "paper-0001_b2fh-1957" },
+      { label: "Trimble 1975（起源与丰度）", slug: "paper-0002_trimble-1975" },
+      { label: "Wallerstein 1997（四十年进展）", slug: "paper-0004_wallerstein-1997" }]},
+    { label: "太阳丰度表谱系", children: [
+      { label: "Cameron 1968（丰度表奠基）", slug: "paper-0014_cameron-1968" },
+      { label: "Anders & Grevesse 1989（陨石+太阳）", slug: "paper-0006_anders-grevesse" },
+      { label: "Grevesse & Sauval 1998（标准太阳组成）", slug: "paper-0007_grevesse-sauval-1998" },
+      { label: "Asplund 2009（3D 模型）", slug: "paper-0009_asplund-2009-solar-composition" },
+      { label: "Lodders 2003（太阳系丰度+凝聚温度）", slug: "paper-0008_lodders-2003" }]},
+    { label: "核反应与核天体物理", children: [
+      { label: "Champagne & Wiescher 1992（爆炸氢燃烧）", slug: "paper-0005_champagne-wiescher-1992" },
+      { label: "Fowler 1984（核天体物理）", slug: "paper-0003_fowler-1984" },
+      { label: "Käppeler 2011（s 过程史）", slug: "paper-0017_kaeppeler-2011" }]},
+    { label: "恒星观测丰度", children: [
+      { label: "Gies & Lambert 1992（B 型星 CNO）", slug: "paper-0010_gies-lambert-1992" },
+      { label: "Kraft 1994（球状星团）", slug: "paper-0015_kraft-1994" },
+      { label: "Kewley 2001（星暴星系金属丰度）", slug: "paper-0011_kewley-2001-starburst" }]},
+    { label: "恒星演化边界与宇宙学核合成", children: [
+      { label: "Dieterich 2014（氢燃烧极限）", slug: "paper-0012_dieterich-2014-h-burning-limit" },
+      { label: "Bertone & Hooper 2018（含 BBN 的暗物质史）", slug: "paper-0013_bertone-hooper-2018" }]},
+    { label: "重元素双通道", children: [
+      { label: "Cowan 2021（r 过程现状）", slug: "paper-0016_cowan-2021" },
+      { label: "Käppeler 2011（s 过程，与 r 并列）", slug: "paper-0017_kaeppeler-2011" }]},
+  ]},
+];
+
+function evolTreeHTML(nodes) {
+  let h = "<ul class='evol-tree'>";
+  nodes.forEach(n => {
+    if (n.children && n.children.length) {
+      h += `<li class='evol-branch'><span class='evol-toggle'>▸</span><span class='evol-label'>${escapeHtml(n.label)}</span>${evolTreeHTML(n.children)}</li>`;
+    } else {
+      h += `<li class='evol-leaf'><a href='#' data-slug='${n.slug}'>${escapeHtml(n.label)}</a></li>`;
+    }
+  });
+  return h + "</ul>";
+}
+
+function renderEvolutionTree(container) {
+  const box = document.createElement("div");
+  box.className = "evol-box";
+  box.innerHTML = `<h3>📚 文献演化谱系（38 篇）</h3><p class="evol-hint">点击 ▸ 展开谱系分支，点击论文名跳转对应精读页</p>${evolTreeHTML(EVOLUTION_TREE)}`;
+  container.appendChild(box);
+  box.addEventListener("click", e => {
+    const t = e.target.closest(".evol-toggle");
+    if (t) {
+      const li = t.parentElement;
+      const open = li.classList.toggle("open");
+      t.textContent = open ? "▾" : "▸";
+      return;
+    }
+    const a = e.target.closest(".evol-leaf a");
+    if (a) { e.preventDefault(); switchDoc(a.dataset.slug); }
+  });
+}
 
 function safeLsGet(k)  { try { return localStorage.getItem(k); } catch { return null; } }
 function safeLsSet(k,v){ try { localStorage.setItem(k,v); } catch {} }
@@ -602,6 +711,7 @@ function buildDocs() {
   const sec = container.querySelector("section[data-slug]");
   if (sec && active.slug === "知识库首页") {
     renderGraph(sec);
+    renderEvolutionTree(sec);
   }
   // Pre-cache all other docs in memory (E2: fast subsequent switches)
   DOCS.forEach(d => { if (d.slug !== active.slug && !(d.slug in docCache)) docCache[d.slug] = d.html; });
