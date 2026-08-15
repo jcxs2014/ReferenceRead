@@ -27,9 +27,7 @@ webapp/icon-192.png
 webapp/icon-512.png
 webapp/apple-touch-icon.png
 
-# 审计类 tsv（转换/复验的一次性产物，不追踪）
-# - webapp 构建审计：webapp/scripts/audit.py 产物，落 webapp 根
+# 审计类 tsv
+# - webapp 构建审计：webapp/scripts/audit.py 产物，落 webapp 根（构建产物，不追踪）
 webapp/audit_*.tsv
-# - 公式脚本审计（scripts/convert_supsub.py、fix_math_fragmentation.py 产物），落 scripts/ 同目录、不追踪
-scripts/supsub_audit*.tsv
-scripts/fix_audit*.tsv
+# - 公式脚本审计（convert_supsub.py / fix_math_fragmentation.py 产物）统一归档 docs/archive/audit/（已入库、追踪），scripts/ 不再保留
