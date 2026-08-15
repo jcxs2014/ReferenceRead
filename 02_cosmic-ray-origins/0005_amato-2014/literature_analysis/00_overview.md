@@ -8,6 +8,15 @@ doi: 未提供
 arxiv: arXiv:1406.7714v1 [astro-ph.HE], 30 Jun 2014
 keywords: 'ISM: supernova remnants; MHD; acceleration of particles'
 category: 宇宙线起源
+sections:
+  - '§1 Introduction'
+  - '§2 SNR Paradigm'
+  - '§3 Test Particle DSA'
+  - '§4 Non-linear DSA'
+  - '§5 Magnetic Field Amplification'
+  - '§6 Escape Spectra'
+  - '§7 Gamma-ray SNR Observations'
+  - '§8 Superbubble and Hα'
 status: completed
 read_date: '2026-08-12'
 lastread: '2026-08-12'
