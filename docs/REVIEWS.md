@@ -895,3 +895,30 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 2. **豁免判定必须对照原文**：fulltext 可提取编号标题（Bell/BO 在 fulltext 中即见），不能凭"路径 B"或"PDF 无编号"臆断
 3. **分章主题 ≠ 原文标题**：精读分章文件名（01_introduction 等）或主题标题不能冒充 sections（TA 教训）
 4. 判定顺序：fulltext grep 编号标题 → 00_overview 结构树（注明"原文无章节"的才豁免）→ PDF 目录
+
+## 审查 #31：webapp 脚本链回归事件 + 全量回滚（2026-08-15 深夜）
+
+> 范围：并行会话执行 webapp 辅助脚本全链（build_fm/build_citations/apply_wikilinks 等）→ 发现 frontmatter 被破坏 → 全量回滚恢复
+
+### 事件
+
+并行会话跑完 12 个脚本后报告"全部执行完毕"，用户质疑"属性面板是不是被脚本覆盖了"——**复验确认 P0 破坏**：
+
+| 脚本 | 破坏 |
+|---|---|
+| `build_fm.py` | **38 篇 00_overview frontmatter 全部重写，只保留白名单字段（title/authors/year/category/status/read_date/lastread/tags/citations/path），丢弃 journal/doi/arxiv/pages/sections/keywords/abstract 等**——Bell 的 title/journal/doi/pages/刚补的 5 个 sections 全丢 |
+| `build_citations.py` | 15 篇 citations 被清空为无值（citations: 后直接 path，非列表） |
+| `apply_wikilinks.py` | 分章改动仅为**末尾换行符噪音**（无实质链接变化，图谱昨晚已 0 孤立） |
+
+### 修复（全量回滚）
+
+- `git checkout -- 0*/` 回滚 131 个文件 → **工作树 0 改动，完全恢复 HEAD 干净状态**
+- 重建 build_webapp（46 docs/38 papers）+ build_registry（45 条）+ build_glossary（766 条）
+- **验证全绿**：38 篇双闭合/YAML/title/pages/citations 全恢复、Bell sections 5 个、audit 全部通过、图谱孤立 0/385、PIL 12.3.0 正常（并行会话报的 `_imaging` 缺失系其环境问题）
+
+### 方法论沉淀（重要，已记 TROUBLESHOOTING A7）
+
+1. **build_fm.py 是"白名单重建"**——重写 frontmatter 只保留它认识的字段，**不可用于已含 sections/pages/journal 等增强字段的存量库**；执行前必须 dry-run 对比字段差异
+2. **脚本链"全执行"≠"全正确"**——并行会话跑完 12 脚本的"成功"汇总掩盖了数据破坏；复验必须查 frontmatter 字段守恒（title/pages/sections/citations 逐项）
+3. **audit 的 2 项失败是有效预警**（title 空/registry 不一致）——执行侧应解读为"数据被破坏"而非"修复后重跑"
+4. 属性面板完整性 = frontmatter 字段白名单之外的字段（journal/doi/pages/sections）不被脚本触碰
