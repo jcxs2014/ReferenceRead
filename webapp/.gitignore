@@ -8,3 +8,7 @@ icon-192.png
 icon-512.png
 apple-touch-icon.png
 # interactive.html 已在顶层 .gitignore（webapp/interactive.html）
+# 审计类 tsv（转换/复验的一次性产物，归档至 docs/archive/audit/，不落 webapp 根）
+audit_*.tsv
+supsub_audit*.tsv
+fix_audit*.tsv
