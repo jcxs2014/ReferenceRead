@@ -7,6 +7,11 @@ pages: '44'
 doi: 10.3389/fspas.2019.00044
 arxiv: arXiv:1906.07770
 category: 宇宙线起源
+sections:
+  - '§1 Introduction'
+  - '§2 Status of Ultrahigh-Energy Cosmic Rays'
+  - '§3 Open Questions'
+  - '§4 Conclusions and Perspectives'
 status: completed
 read_date: '2026-08-15'
 lastread: '2026-08-15'
