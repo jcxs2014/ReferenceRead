@@ -282,7 +282,7 @@
     "tags": [],
     "citations": [],
     "path": "01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md",
-    "quality": 0,
+    "quality": 6,
     "key_values": []
   },
   {
@@ -1053,7 +1053,7 @@
     "tags": [],
     "citations": [],
     "path": "02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md",
-    "quality": 2,
+    "quality": 5,
     "key_values": []
   },
   {
@@ -1062,7 +1062,7 @@
     "year": "2023",
     "journal": "Science 380, 6629, 903-907 (2023)",
     "doi": "10.1126/science.abq2244",
-    "arxiv": "arXiv:2306.16960",
+    "arxiv": "arXiv:2311.14231",
     "category": "宇宙线起源",
     "status": "completed",
     "read_date": "2026-08-15",
@@ -1070,7 +1070,7 @@
     "tags": [],
     "citations": [],
     "path": "02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/00_overview.md",
-    "quality": 0,
+    "quality": 6,
     "key_values": []
   },
   {
@@ -1985,7 +1985,7 @@
     "tags": [],
     "citations": [],
     "path": "03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md",
-    "quality": 2,
+    "quality": 10,
     "key_values": []
   },
   {
@@ -2002,7 +2002,7 @@
     "tags": [],
     "citations": [],
     "path": "03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md",
-    "quality": 2,
+    "quality": 6,
     "key_values": []
   },
   {

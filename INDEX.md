@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**352 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**379 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -81,7 +81,7 @@
 |---|---|
 | 作者 | Mateusz Ruszkowski（U. Michigan）, Christoph Pfrommer（AIP） |
 | 期刊 | A&A Review 31:4 (2023) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_physics.md、03_astrophysical_systems.md、04_observational_signatures.md、…等 9 个） |
 | 目录 | [`01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/99_final_summary.md) |
@@ -267,7 +267,7 @@
 |---|---|
 | 作者 | M. A. O. Alves Batista et al.（20+ 人，Pierre Auger + TA 合作） |
 | 期刊 | Frontiers in Astronomy and Space Sciences 6, 44 (2019) |
-| 分析文件 | 5 个（00_overview.md、03_open_questions.md、04_conclusions_and_perspectives.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 8 个（00_overview.md、01_introduction.md、02_status_ultrahigh_energy.md、03_open_questions.md、04_conclusions_and_perspectives.md、…等 8 个） |
 | 目录 | [`02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/`](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/99_final_summary.md) |
@@ -280,7 +280,7 @@
 |---|---|
 | 作者 | Telescope Array Collaboration |
 | 期刊 | Science 380, 6629, 903-907 (2023) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_energy_reconstruction.md、03_direction_and_lss.md、04_source_distance.md、…等 9 个） |
 | 目录 | [`02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/99_final_summary.md) |
@@ -492,7 +492,7 @@
 |---|---|
 | 作者 | J. J. Cowan, C. Sneden, J. E. Lawler et al.（U. Oklahoma + 更多） |
 | 期刊 | Rev. Mod. Phys. 93, 015002 (2021) |
-| 分析文件 | 5 个（00_overview.md、07_electromagnetic_signatures_of_r_process.md、08_abundance_evolution_in_galaxy.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 13 个（00_overview.md、01_introduction_and_historical_reviews.md、02_observations.md、03_basic_working_of_r_process.md、04_experimental_developments_for_r_process.md、…等 13 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/`](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/) |
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/99_final_summary.md) |
@@ -505,7 +505,7 @@
 |---|---|
 | 作者 | F. Kappeler, A. Mengoni, A. O. 等 |
 | 期刊 | Rev. Mod. Phys. 83, 157 (2011) |
-| 分析文件 | 5 个（00_overview.md、02_nuclear_physics.md、03_stellar_models.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_nuclear_physics.md、03_stellar_models.md、04_observational_constraints.md、…等 9 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/) |
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/99_final_summary.md) |
@@ -516,9 +516,9 @@
 
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
-| 01. 宇宙线传播 | 6 | 49 |
-| 02. 宇宙线起源 | 15 | 132 |
-| 03. 恒星核合成与元素丰度 | 17 | 171 |
-| **合计** | **38** | **352** |
+| 01. 宇宙线传播 | 6 | 55 |
+| 02. 宇宙线起源 | 15 | 141 |
+| 03. 恒星核合成与元素丰度 | 17 | 183 |
+| **合计** | **38** | **379** |
 
 > 最后更新: 2026-08-15（自动生成）
