@@ -614,103 +614,14 @@ function injectGloss(root, stem) {
   });
 }
 
-// ── 论文引用图谱（O2：citations 驱动，首页渲染）─────────────────────
-function renderGraph(container) {
-  if (!PAPERS || !PAPERS.length || !container || !container.querySelector) return;
-  // 建 stem → paper 映射
-  const byStem = {};
-  PAPERS.forEach(p => byStem[p.stem] = p);
-  // 边：引用（出边 citations）+ 被引（入边，图谱更直观）
-  const edges = [];
-  PAPERS.forEach(p => {
-    (p.citations || []).forEach(c => {
-      if (byStem[c]) edges.push({ from: p.stem, to: c });
-    });
-  });
-  // 度数（入+出）
-  const deg = {};
-  PAPERS.forEach(p => deg[p.stem] = 0);
-  edges.forEach(e => { deg[e.from]++; deg[e.to]++; });
-  // 简单力导向布局（斥力 + 弹簧，80 轮）
-  const pos = {};
-  PAPERS.forEach((p, i) => {
-    const ang = (i / PAPERS.length) * Math.PI * 2;
-    pos[p.stem] = { x: 240 + Math.cos(ang) * 190, y: 180 + Math.sin(ang) * 150 };
-  });
-  const cx = 240, cy = 180;
-  for (let iter = 0; iter < 80; iter++) {
-    // 斥力
-    for (let i = 0; i < PAPERS.length; i++) {
-      for (let j = i + 1; j < PAPERS.length; j++) {
-        const a = pos[PAPERS[i].stem], b = pos[PAPERS[j].stem];
-        let dx = b.x - a.x, dy = b.y - a.y;
-        let d = Math.sqrt(dx * dx + dy * dy) || 1;
-        const force = 2600 / (d * d);
-        dx /= d; dy /= d;
-        a.x -= dx * force; a.y -= dy * force;
-        b.x += dx * force; b.y += dy * force;
-      }
-    }
-    // 弹簧（引用边拉近）
-    edges.forEach(e => {
-      const a = pos[e.from], b = pos[e.to];
-      if (!a || !b) return;
-      let dx = b.x - a.x, dy = b.y - a.y;
-      let d = Math.sqrt(dx * dx + dy * dy) || 1;
-      const force = (d - 90) * 0.06;
-      dx /= d; dy /= d;
-      a.x += dx * force; a.y += dy * force;
-      b.x -= dx * force; b.y -= dy * force;
-    });
-    // 引力（向中心，防飞散）
-    PAPERS.forEach(p => {
-      const v = pos[p.stem];
-      v.x += (cx - v.x) * 0.008;
-      v.y += (cy - v.y) * 0.008;
-    });
-  }
-  // 渲染 SVG
-  const W = 520, H = 380;
-  let svg = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:560px;background:rgba(255,255,255,0.03);border:1px solid var(--fg-3, #333);border-radius:8px" role="img" aria-label="论文引用图谱">`;
-  edges.forEach(e => {
-    const a = pos[e.from], b = pos[e.to];
-    if (!a || !b) return;
-    svg += `<line x1="${a.x.toFixed(1)}" y1="${a.y.toFixed(1)}" x2="${b.x.toFixed(1)}" y2="${b.y.toFixed(1)}" stroke="var(--fg-3, #888)" stroke-width="1" stroke-opacity="0.5"/>`;
-  });
-  PAPERS.forEach(p => {
-    const v = pos[p.stem];
-    if (!v) return;
-    const r = 6 + Math.min(8, deg[p.stem] * 2.5);
-    svg += `<g class="graph-node" data-slug="${p.slug}" style="cursor:pointer" title="${p.label}">
-      <circle cx="${v.x.toFixed(1)}" cy="${v.y.toFixed(1)}" r="${r}" fill="var(--accent, #4a6cf7)" fill-opacity="0.8" stroke="var(--bg, #111)" stroke-width="1.5"/>
-      <text x="${(v.x + r + 4).toFixed(1)}" y="${(v.y + 4).toFixed(1)}" font-size="9" fill="var(--fg, #ddd)">${p.label.replace(/&/g, "&amp;").length > 22 ? p.label.replace(/&/g, "&amp;").slice(0, 21) + "…" : p.label.replace(/&/g, "&amp;")}</text>
-    </g>`;
-  });
-  svg += `</svg><p style="color:var(--fg-2,#999);font-size:12px;margin:6px 0 0">节点大小 = 引用度数；边 = 库内引用（citations）。点击节点跳转论文。</p>`;
-  const box = document.createElement("div");
-  box.className = "graph-box";
-  box.style.margin = "18px 0";
-  box.innerHTML = `<h3 style="margin:0 0 8px">📈 论文引用图谱（21 篇 · ${edges.length} 条库内引用）</h3>` + svg;
-  container.appendChild(box);
-  // 点击跳转
-  box.querySelectorAll(".graph-node").forEach(n => {
-    n.addEventListener("click", () => {
-      const slug = n.dataset.slug;
-      if (slug && typeof switchDoc === "function") switchDoc(slug);
-      else if (slug) location.hash = "#" + slug;
-    });
-  });
-}
-
 function buildDocs() {
   const active = DOCS.find(d => d.slug === activeSlug) || DOCS[0];
   const container = document.getElementById("doc-container");
   container.innerHTML = `<section class="doc-section" data-slug="${active.slug}">${active.html}</section>`;
   injectGloss(container.querySelector("section[data-slug]"), active.slug);
-  // 首页渲染引用图谱（打开即见全局论文关系）
+  // 首页渲染演化谱系树（38 篇可交互大纲）
   const sec = container.querySelector("section[data-slug]");
   if (sec && active.slug === "知识库首页") {
-    renderGraph(sec);
     renderEvolutionTree(sec);
   }
   // Pre-cache all other docs in memory (E2: fast subsequent switches)
