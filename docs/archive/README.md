@@ -1,7 +1,7 @@
 # docs/archive — 归档的执行指令
 
 > **用途**：一次性/批次性执行指令的归档区。任务闭环（复验通过 + REVIEWS 记条）后从 `docs/` 根目录移入本目录，**git mv 保留提交历史**，根目录只保留常驻文档（指南/规范/备忘/模板）。
-> **归档日期**：2026-08-15（13 份全部归档）
+> **归档日期**：2026-08-15（14 份全部归档，含 sections 补齐）
 
 ## 归档清单
 
@@ -40,3 +40,4 @@
 
 - **`audit/`**（18 个 .tsv）：公式 LaTeX 化两轮（r1/r2）与割裂修复的**逐行转换审计清单**（audit_背景/核合成/起源/传播 各域 × r1/r2 + gap + fix_audit + supsub_audit）——任务已闭环（REVIEWS 有档、残留 0），tsv 仅作追溯明细，从 webapp/ 移入。
 - 构建产物（registry.json / glossary.json / search_index.json / manifest.json / icon-*.png / apple-touch-icon.png / interactive.html）**不入库**（webapp/.gitignore），由构建链 `build_registry → build_glossary → build_search_index → build_pwa → build_webapp` 再生成。
+| `sections补齐执行指令.md` | 15 篇路径 A 补 `sections:` 字段 | ✅ 35/38 + 3 豁免（Bell/BO/BE 等经复验修正，REVIEWS #30） |

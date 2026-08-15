@@ -249,10 +249,17 @@ env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0]
 |---|---|
 | [`docs/READING_INSTRUCTIONS.md`](docs/READING_INSTRUCTIONS.md) | 精读操作手册（30 节规范 + 数据一致性经验） |
 | [`INDEX.md`](INDEX.md) | 38 篇论文分析入口（自动生成） |
+| [`docs/REVIEWS.md`](docs/REVIEWS.md) | 审查记录（#1–#30：批次核验/回归修复/复验方法论） |
+| [`docs/精读深度扩充设计备忘.md`](docs/精读深度扩充设计备忘.md) | 精读深度扩充设计决策源（路径 A/B/批次/97 块） |
+| [`docs/RECOMMENDATIONS.md`](docs/RECOMMENDATIONS.md) | 改进建议路线图（22 条） |
 | [`docs/ADVANCEMENT.md`](docs/ADVANCEMENT.md) | 进阶方案 v2.1 + V2.2 补丁（已全部落地） |
 | [`docs/WEBAPP_DESIGN.md`](docs/WEBAPP_DESIGN.md) | Webapp 架构与实现细节 |
 | [`docs/ENHANCEMENTS.md`](docs/ENHANCEMENTS.md) | 改进建议清单（9 条全部 ✅ 完成） |
-| [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md) | 故障排除与修复记录（18 条 + SOP） |
+| [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md) | 故障排除与修复记录（A1–A6 + B1–B18 + C/D/E/F + SOP） |
+| [`docs/合规审查报告.md`](docs/合规审查报告.md) | 全库合规审查 + WorkBuddy 批注（翻译段/路径 B/97 块判定修正） |
+| [`docs/执行指令模板.md`](docs/执行指令模板.md) | 批量任务执行指令通用模板（铁律/复验口径/归档约定） |
+| [`docs/子节镜像示例-ruszkowski-02.md`](docs/子节镜像示例-ruszkowski-02.md) | 路径 A 子节镜像规范模板示例 |
+| [`docs/archive/`](docs/archive/) | 14 份闭环执行指令归档（含 audit/ 审计明细，索引见 `docs/archive/README.md`） |
 | [`background/`](background/) | 7 篇跨篇主题知识库 |
 
 ## 已完成 / 进行中
