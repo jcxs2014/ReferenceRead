@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**318 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**324 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -68,7 +68,7 @@
 |---|---|
 | 作者 | Y. Génolini et al.（8 人） |
 | 期刊 | Physical Review D 104, 083005 (2021) |
-| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_generalities.md、03_statistical_method.md、04_new_min_med_max.md、…等 9 个） |
 | 目录 | [`01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/`](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0005_genolini-2021/literature_analysis/99_final_summary.md) |
@@ -516,9 +516,9 @@
 
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
-| 01. 宇宙线传播 | 6 | 32 |
+| 01. 宇宙线传播 | 6 | 38 |
 | 02. 宇宙线起源 | 15 | 119 |
 | 03. 恒星核合成与元素丰度 | 17 | 167 |
-| **合计** | **38** | **318** |
+| **合计** | **38** | **324** |
 
 > 最后更新: 2026-08-15（自动生成）
