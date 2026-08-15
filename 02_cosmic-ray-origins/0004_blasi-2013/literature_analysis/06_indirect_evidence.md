@@ -9,7 +9,7 @@
 ## 6.1 本节核心内容
 
 - 综合多波段观测证据（射电、X 射线、$\gamma$ 射线）对 SNR CR 加速的检验。
-- 关键议题：(1) CR 逃逸机制与逃逸谱形状；(2) SNR 加速谱的凹性与 $\gamma$ 射线谱、各向异性的冲突；(3) 孤立 SNR（RX J1713.7–3946, Tycho）的多波段分析；(4) 邻近分子云的 SNR（$\pi$⁰ 鼓包）。
+- 关键议题：(1) CR 逃逸机制与逃逸谱形状；(2) SNR 加速谱的凹性与 $\gamma$ 射线谱、各向异性的冲突；(3) 孤立 SNR（RX J1713.7–3946, Tycho）的多波段分析；(4) 邻近分子云的 SNR（$\pi^{0}$ 鼓包）。
 
 ## 6.2 原文内容
 
@@ -30,8 +30,8 @@
 - [FACT] 边界处逃逸通量（Eq. 102）：
 $$F(z_0, p) = -D(p)\frac{\partial f}{\partial z}\bigg|_{z=z_0} = -\frac{u_1 f_0(p)}{1 - \exp(u_1 z_0/D(p))}\exp\left(\frac{u_1 z_0}{D(p)}\right)$$
 - [FACT] 逃逸谱形状：在动量 p*（满足 D(p*)/$u_{1}$ ≃ $z_{0}$）处峰值 → 每个时刻的逃逸谱集中在 p* 附近。
-- [FACT] Sedov 阶段时间积分（Eq. 103, 104）：**在 $\xi$_esc 与时间无关的假设下，逃逸谱 ∝ p⁻⁴**——与 DSA 的瞬时谱斜率无关，只依赖"逃逸发生在自相似阶段"这一前提。
-- [FACT] 若 $\xi$_esc 随时间下降，逃逸谱硬于 p⁻⁴。
+- [FACT] Sedov 阶段时间积分（Eq. 103, 104）：**在 $\xi_{\rm esc}$ 与时间无关的假设下，逃逸谱 ∝ p⁻⁴**——与 DSA 的瞬时谱斜率无关，只依赖"逃逸发生在自相似阶段"这一前提。
+- [FACT] 若 $\xi_{\rm esc}$ 随时间下降，逃逸谱硬于 p⁻⁴。
 
 ### §6.2 Spectra
 
@@ -68,12 +68,12 @@ $$F(z_0, p) = -D(p)\frac{\partial f}{\partial z}\bigg|_{z=z_0} = -\frac{u_1 f_0(
 
 ### §6.4 SNRs near molecular clouds
 
-- [FACT] AGILE（Giuliani et al. 2011, 2010）与 Fermi-LAT（Ackermann et al. 2013）**首次明确探测到 $\pi$ 鼓包**（pion bump），证实 pp→$\pi$⁰→2$\gamma$。
+- [FACT] AGILE（Giuliani et al. 2011, 2010）与 Fermi-LAT（Ackermann et al. 2013）**首次明确探测到 $\pi$ 鼓包**（pion bump），证实 pp→$\pi^{0}$→2$\gamma$。
 - [FACT] 典型对象：IC 443、W44（Fig. 12）。
 - [FACT] 分子云内密度 n=$10^{3}$ cm⁻³、几何截面 $\sigma$~$10^{-14}$ cm² → $\lambda$~$10^{11}$ cm —— **SNR 激波撞击分子云时可能从碰撞less 变为碰撞型**。
 - [FACT] 分子云加热证据来自**脉泽发射**（Hewitt et al. 2009）。
-- [FACT] 逃逸 CR 到达分子云的**低能截止**条件：[D(E)·$\tau$_SNR]^½ ≃ R_MC。
-- [FACT] $\pi$ 产生截面 ~ 1/E_$\pi$ → 低能 $\gamma$ 谱 ~ E_$\gamma$⁻¹ 是低能截止的特征。
+- [FACT] 逃逸 CR 到达分子云的**低能截止**条件：[D(E)·$\tau_{\rm SNR}$]^½ ≃ R_MC。
+- [FACT] $\pi$ 产生截面 ~ 1/E_$\pi$ → 低能 $\gamma$ 谱 ~ E_$\gamma^{\rm -1}$ 是低能截止的特征。
 - [FACT] W28（Giuliani et al. 2010）：**两个不同距离的云**表现出不同 CR 通量，较远的云低能截止出现在更高能量——**符合传播时延图像**。
 - [FACT] CR 源附近 <几十 pc 范围内，源 CR 主导银河系 CR 通量（Blasi & Amato 2012a）→ 该范围内的 D(E) 由自散射主导，可能**不同于银河系平均值**。
 - [FACT] 主导 B 场方向时，CR 扩散各向异性 → 在 L_c ~ 50–100 pc（相干尺度）以内沿 B 方向拉长。
@@ -86,15 +86,15 @@ $$F(z_0, p) = -D(p)\frac{\partial f}{\partial z}\bigg|_{z=z_0} = -\frac{u_1 f_0(
 |------|------|------|
 | 101 | f(z,p) 边界解 | 逃逸边界条件 f($z_{0}$,p)=0 下的分布函数 |
 | 102 | F($z_{0}$,p) | 逃逸通量（动量依赖的峰）|
-| 103 | d$\epsilon$ = 4$\pi$p²dp·pc·N_esc(p) = $\xi$_esc · ½$\rho$V³_sh · 4$\pi$R²_sh dt | 逃逸能量守恒 |
-| 104 | N_esc(p) ∝ p⁻⁴ $\xi$_esc(t) | Sedov 阶段积分后逃逸谱 |
+| 103 | d$\epsilon$ = 4$\pi$p²dp·pc·N_esc(p) = $\xi_{\rm esc}$ · ½$\rho$V³_sh · 4$\pi$R²_sh dt | 逃逸能量守恒 |
+| 104 | N_esc(p) ∝ p⁻⁴ $\xi_{\rm esc}$(t) | Sedov 阶段积分后逃逸谱 |
 | 105 | $\alpha$ = (r̃+2)/(r̃−1)，r̃ = ($u_{1}$ ± v_W,1)/($u_{2}$ ± v_W,2) | 含移动散射中心的谱指数 |
 
 ## 6.4 关键数值
 
 | 物理量 | 数值 |
 |--------|------|
-| $\nu$_sync (GeV e⁻) | 3.7 MHz · B_µ · E²(GeV) |
+| $\nu_{\rm sync}$ (GeV e⁻) | 3.7 MHz · B_µ · E²(GeV) |
 | X 射线边缘厚度 | ~$10^{-2}$ pc |
 | Tycho 推断 B | ~300 µG |
 | Tycho 加速 p_max | ~500 TeV |
@@ -120,7 +120,7 @@ $$F(z_0, p) = -D(p)\frac{\partial f}{\partial z}\bigg|_{z=z_0} = -\frac{u_1 f_0(
 
 ## 6.7 我的理解
 
-- [CRITIQUE] §6.1 的 N_esc(p) ∝ p⁻⁴ 结果值得**强调**：它**与注入谱斜率无关**，只要求"自相似阶段逃逸"。这为理解"地球处观测谱为何是 E⁻²·⁷（比 p⁻⁴ 软 0.7 个指数）"提供自然路径——只要 $\xi$_esc 随时间下降即可。
+- [CRITIQUE] §6.1 的 N_esc(p) ∝ p⁻⁴ 结果值得**强调**：它**与注入谱斜率无关**，只要求"自相似阶段逃逸"。这为理解"地球处观测谱为何是 E⁻²·⁷（比 p⁻⁴ 软 0.7 个指数）"提供自然路径——只要 $\xi_{\rm esc}$ 随时间下降即可。
 - [CRITIQUE] §6.2 关于 D(E) ∝ E^0.7 与各向异性冲突的论证在 Blasi 的**多篇后续论文**中被深化（Blasi & Amato 2012b），本文仅给出定性说明。
 - [INTERPRETATION] §6.3 中 Tycho vs RX J1713 的对比是本文的**"双案例教学"**：Tycho 支持强子（有 $\pi$ 鼓包证据）+ 高 B + 有限 p_max；RX J1713 则暴露"谱 vs 环境"的复杂性。
 - [CRITIQUE] 对 Tycho 的解释（Morlino & Caprioli vs Berezhko 等）作者**明确偏向**前者，但仍承认"one is left to wander"。这是综述中的**少数明确立场**之一，值得记住。

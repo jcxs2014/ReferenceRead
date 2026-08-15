@@ -19,7 +19,7 @@
 
 - [FACT] "The problem of the origin of cosmic rays is a complex one: what we observe at the Earth results from the convolution of acceleration inside sources, escape from the sources and propagation in the Galaxy."
 - [FACT] **证据三支柱**：
-  1. $\gamma$ 射线："prove that SNRs accelerate particles up to at least 50–500 TeV"（Aharonian 2013；Brandt et al. 2013a,b；Holder 2012）；Tycho 的 $\gamma$ 射线最可能是 $\pi$⁰ 衰变。
+  1. $\gamma$ 射线："prove that SNRs accelerate particles up to at least 50–500 TeV"（Aharonian 2013；Brandt et al. 2013a,b；Holder 2012）；Tycho 的 $\gamma$ 射线最可能是 $\pi^{0}$ 衰变。
   2. X 射线边缘："magnetic field amplification is taking place at SNR shocks, in virtually all young SNRs"（Völk et al. 2005；Vink 2012），场强 ~几百 µG，最可能由加速粒子诱导的不稳定性产生。
   3. Balmer 线异常宽度："evidence for anomalous width of the Balmer lines, that can be interpreted as the result of efficient CR acceleration"（Heng 2010）。
 - [FACT] "At present there is not yet any evidence of an individual SNR accelerating CRs up to the knee"（Caprioli 2011, 2012）——"may not be surprising, because of the relatively short duration of the phase during which acceleration to the highest energies is expected to take place."
@@ -46,7 +46,7 @@
 | 物理量 | 数值 |
 |--------|------|
 | $\gamma$ 射线直接证明的加速上限 | 50–500 TeV |
-| 膝点能量 | ~3 × $10^{15}$ eV |
+| 膝点能量 | $~3\times10^{15}$ eV |
 | Fe_max（SNR 范式） | ~$10^{17}$ eV |
 | ankle（传统银河-河外过渡） | ~$10^{18}$·⁵ eV |
 | 需要额外分量的能段 | $10^{17}$–$10^{19}$ eV |

@@ -34,8 +34,8 @@
 
 ```
 X → (夸克, 轻子) → [夸克强子化: jets of light mesons ($\pi$) + baryons (N)]
-→ $\pi$⁰ → 2$\gamma$
-→ $\pi$± → $\mu$ ± $\nu$_$\mu$ → (e ±) + $\nu$_e + $\nu$̄_$\mu$
+→ $\pi^{0}$ → 2$\gamma$
+→ $\pi$± → $\mu$ ± $\nu_\mu$ → (e ±) + $\nu_{\rm e}$ + $\nu$̄_$\mu$
 ```
 - **直接产生**：光子、中微子、带电轻子 + 少量核子。
 - 核子占 hadron 总数 ~3–10% [FACT, collider 数据]。
@@ -63,28 +63,28 @@ x dN_part/dx = (4C_F/b) · $\Gamma$(B) · ∫₋$\pi$/2^$\pi$/2 dℓ/$\pi$ · e^
                · I_B[{16N_c/(bY) · ($\alpha$/sinh $\alpha$) · (cosh $\alpha$ + (2($\xi$/Y)−1)sinh $\alpha$)}]^(1/2)
 ```
 其中：
-- $\xi$ = ln(1/x), Y = ln(E_jet/$\Lambda$_eff), $\alpha$ = tanh⁻¹(1−2$\xi$/Y) + iℓ
+- $\xi$ = ln(1/x), Y = ln(E_jet/$\Lambda_{\rm eff}$), $\alpha$ = tanh⁻¹(1−2$\xi$/Y) + iℓ
 - B = a/b, a = 11N_c/3 + 2n_f/(3N_c²), b = (11N_c − 2n_f)/3
 - N_c = 3, C_F = 4/3, I_B = 修正 Bessel 函数
 
 **拟合参数** [FACT]：
-- $\Lambda$^ch_eff ~ 250 MeV（LEP Z-resonance, E_cm ~ 90 GeV）
+- $\Lambda^{\rm ch}_{\rm eff}$ ~ 250 MeV（LEP Z-resonance, E_cm ~ 90 GeV）
 - K ~ 1.3（LEP 能量）
 
-### 9.3.3 $\xi$_max 位置 (公式 59) [FACT]
+### 9.3.3 $\xi_{\rm max}$ 位置 (公式 59) [FACT]
 
 ```
-$\xi$_max = Y · [1/2 + sqrt(C/Y − C/Y²)]
+$\xi_{\rm max}$ = Y · [1/2 + sqrt(C/Y − C/Y²)]
 C = a²/(16bN_c)
 ```
 - 该峰的存在直接关联 QCD 色相干效应导致的软胶子倍增抑制。
-- LEP 数据确认 $\xi$_max 的 Y 演化 [388]。
+- LEP 数据确认 $\xi_{\rm max}$ 的 Y 演化 [388]。
 
 ### 9.3.4 高能量极限下的高斯近似 (公式 60)
 
 ```
-x dN_h/dx ∝ (1/($\sigma$·√(2$\pi$))) · exp[−($\xi$ − $\xi$_max)² / (2$\sigma$²)]
-2$\sigma$² = [bY³/(36N_c)]^(1/2)
+x dN_h/dx ∝ (1/($\sigma$·√(2$\pi$))) · exp[−($\xi$ − $\xi_{\rm max}$)² / (2$\sigma^{2}$)]
+2$\sigma^{2}$ = [bY³/(36N_c)]^(1/2)
 ```
 
 ### 9.3.5 Hill 谱 (公式 61, 62) [FACT]
@@ -93,7 +93,7 @@ x dN_h/dx ∝ (1/($\sigma$·√(2$\pi$))) · exp[−($\xi$ − $\xi$_max)² / (2
 dN_h/dx ≃ (3/2) · 0.08 · exp[2.6·q·ln(1/x)] / [(1−x)² · (x/(q·ln(1/x)))^(−1)]     (61)
 dN_h/dx ≃ (15/16) · x^(−3/2) · (1−x)²                                         (62)
 ```
-- nf = 6；3/2 因子包含中性 $\pi$⁰。
+- nf = 6；3/2 因子包含中性 $\pi^{0}$。
 - x ≪ 1（EHE 能区）：
   - (61) → **dN_h/dE ∝ E^(−1.3)** ($\alpha$ ~ 1.3)
   - (62) → **dN_h/dE ∝ E^(−1.5)** ($\alpha$ ~ 1.5)
@@ -104,7 +104,7 @@ dN_h/dx ≃ (15/16) · x^(−3/2) · (1−x)²                                  
 - parton cascade 中 squarks/gluinos 与普通 quarks/gluons 等概率参与（Q̃² > M_SUSY²）。
 - 一旦 Q̃² < M_SUSY²，SUSY 粒子 decouple → 最终衰变为 LSP。
 - **Berezinsky & Kachelriess [399]**：LSP 可能带走 ~40% 的 jet 总能量！
-- SUSY MLLA 谱：a → a_SUSY = 11N_c/3；b → b_SUSY = 9 − n_f → $\xi$_max 移到更高 $\xi$（更低能量）。
+- SUSY MLLA 谱：a → a_SUSY = 11N_c/3；b → b_SUSY = 9 − n_f → $\xi_{\rm max}$ 移到更高 $\xi$（更低能量）。
 
 ### 9.3.7 硬 vs 软谱 [FACT]
 
@@ -122,29 +122,29 @@ dN_h/dx ≃ (15/16) · x^(−3/2) · (1−x)²                                  
 
 **核子 (公式 63)**：
 ```
-$\Phi$_N(E_i, t_i) = ṅ_X(t_i) · N_q · f_N / Ñ · (m_X / x²) · (dN_h/dx)
+$\Phi_{\rm N}$(E_i, t_i) = ṅ_X(t_i) · N_q · f_N / Ñ · (m_X / x²) · (dN_h/dx)
 其中 x = Ñ E_i / m_X
 ```
 
-**光子 (公式 64, $\pi$⁰ → 2$\gamma$)**：
+**光子 (公式 64, $\pi^{0}$ → 2$\gamma$)**：
 ```
-$\Phi$_$\gamma$(E_i, t_i) ≃ 2 ∫_{E_i}^{m_X/Ñ} dE/E · $\Phi$_{$\pi$⁰}(E, t_i)
-$\Phi$_{$\pi$⁰} ≃ (1/3) · ((1−f_N)/f_N) · $\Phi$_N
+$\Phi_\gamma$(E_i, t_i) ≃ 2 ∫_{E_i}^{m_X/Ñ} dE/E · $\Phi$_{$\pi^{0}$}(E, t_i)
+$\Phi$_{$\pi^{0}$} ≃ (1/3) · ((1−f_N)/f_N) · $\Phi_{\rm N}$
 ```
 
-**中微子 (公式 65, $\pi$± → $\mu$± $\nu$_$\mu$)**：
+**中微子 (公式 65, $\pi$± → $\mu$± $\nu_\mu$)**：
 ```
-$\Phi$_{$\nu$_$\mu$ + $\nu$̄_$\mu$}(E_i) ≃ 2.34 ∫_{2.34 E_i}^{m_X/Ñ} dE/E · $\Phi$_{$\pi$±}(E, t_i)
-$\Phi$_{$\pi$±} ≃ 2 $\Phi$_{$\pi$⁰}
+$\Phi$_{$\nu_\mu$ + $\nu$̄_$\mu$}(E_i) ≃ 2.34 ∫_{2.34 E_i}^{m_X/Ñ} dE/E · $\Phi$_{$\pi$±}(E, t_i)
+$\Phi$_{$\pi$±} ≃ 2 $\Phi$_{$\pi^{0}$}
 ```
-- 每个 $\mu$ 衰变再产生 $\nu$_e + $\nu$̄_$\mu$ → 每个 $\pi$± → 3 $\nu$。
-- **总 $\nu$_$\mu$ + $\nu$̄_$\mu$ ≈ 2× (65)；总 $\nu$_e + $\nu$̄_e ≈ (65)**。
+- 每个 $\mu$ 衰变再产生 $\nu_{\rm e}$ + $\nu$̄_$\mu$ → 每个 $\pi$± → 3 $\nu$。
+- **总 $\nu_\mu$ + $\nu$̄_$\mu$ ≈ 2× (65)；总 $\nu_{\rm e}$ + $\nu$̄_e ≈ (65)**。
 
 ### 9.4.2 相对丰度 [FACT]
 
 若 f_N ~ 3%：
-- $\Phi$_{$\pi$⁰}/$\Phi$_N ≃ 10
-- $\Phi$_{$\pi$±}/$\Phi$_N ~ 20
+- $\Phi$_{$\pi^{0}$}/$\Phi_{\rm N}$ ≃ 10
+- $\Phi$_{$\pi$±}/$\Phi_{\rm N}$ ~ 20
 - → **光子与中微子在数上占主导**（至少 ×10 于核子）。
 
 **关键 Top-down 标志** [FACT]：**$\gamma$/CR 通量比 > 1** 在足够高 EHECR 能区（§7 讨论）。
@@ -171,14 +171,14 @@ j_$\gamma$(E_$\gamma$) ≃ (1/(4$\pi$ l(E_$\gamma$))) · ṅ_X · dN_$\gamma$/dE
 ### 9.5.3 X 粒子衰变率要求 (公式 68)
 
 ```
-(ṅ_X,0)_{EHECR} ≃ 1.2×$10^{-46}$ · (l(E_$\gamma$)/10 Mpc)⁻¹ · (E²j(E)/1 eV cm⁻² s⁻¹ sr⁻¹) ·
+(ṅ_X,0)_{EHECR} ≃ $1.2\times10^{-46}$ · (l(E_$\gamma$)/10 Mpc)⁻¹ · (E²j(E)/1 eV cm⁻² s⁻¹ sr⁻¹) ·
                   (2E/$10^{16}$ GeV)^($\alpha$−1.5) · (m_X/$10^{16}$ GeV)^(1−$\alpha$) · (0.5/(2−$\alpha$)) · (0.9/f_$\pi$)  cm⁻³ s⁻¹
 ```
 
 ### 9.5.4 能量注入率 (公式 69)
 
 ```
-(Q_0)_{EHECR} ≃ 1.2×$10^{-21}$ · (l(E_$\gamma$)/10 Mpc)⁻¹ · (E²j(E)/1 eV cm⁻² s⁻¹ sr⁻¹) ·
+(Q_0)_{EHECR} ≃ $1.2\times10^{-21}$ · (l(E_$\gamma$)/10 Mpc)⁻¹ · (E²j(E)/1 eV cm⁻² s⁻¹ sr⁻¹) ·
                 (2E/$10^{16}$ GeV)^($\alpha$−1.5) · (m_X/$10^{16}$ GeV)^(2−$\alpha$) · (0.5/(2−$\alpha$)) · (0.9/f_$\pi$)  eV cm⁻³ s⁻¹
 ```
 
@@ -186,7 +186,7 @@ j_$\gamma$(E_$\gamma$) ≃ (1/(4$\pi$ l(E_$\gamma$))) · ṅ_X · dN_$\gamma$/dE
 
 EHECR 通量标度 E²j ~ 1 eV cm⁻² s⁻¹ sr⁻¹ at E = $10^{11}$ GeV, m_X = $10^{16}$ GeV, $\alpha$ = 1.5, f_$\pi$ = 0.9：
 ```
-ṅ_X ≃ 1×$10^{35}$ Mpc⁻³ yr⁻¹ ≃ 13 AU⁻³ yr⁻¹
+ṅ_X ≃ $1\times10^{35}$ Mpc⁻³ yr⁻¹ ≃ 13 AU⁻³ yr⁻¹
 ```
 即 **每 10 Mpc 半径体积内，每年 ~10 个 X 粒子衰变**（每个太阳系大小）。
 
@@ -202,7 +202,7 @@ EHECR 通量标度 E²j ~ 1 eV cm⁻² s⁻¹ sr⁻¹ at E = $10^{11}$ GeV, m_X 
 - Superconducting cosmic strings
 - 混合系统 (necklaces 等)
 
-产生于 GUT 相变；核心尺寸 ~ $\eta$⁻¹（$\eta$ 为 Higgs VEV）。
+产生于 GUT 相变；核心尺寸 ~ $\eta^{\rm -1}$（$\eta$ 为 Higgs VEV）。
 
 ### 9.6.2 与暴胀的兼容性 [FACT]
 
@@ -216,8 +216,8 @@ EHECR 通量标度 E²j ~ 1 eV cm⁻² s⁻¹ sr⁻¹ at E = $10^{11}$ GeV, m_X 
 | TD 类型 | 质量标度 |
 |---|---|
 | Monopole | ~ T_c ~ $\eta$ |
-| Cosmic string 线质量 $\mu$ | ~ $\eta$² |
-| Domain wall 面密度 | ~ $\eta$³ |
+| Cosmic string 线质量 $\mu$ | ~ $\eta^{2}$ |
+| Domain wall 面密度 | ~ $\eta^{3}$ |
 
 若 GUT 破缺：$\eta$ ~ $10^{16}$ GeV → m_X ~ $10^{16}$ GeV。
 
@@ -239,7 +239,7 @@ EHECR 通量标度 E²j ~ 1 eV cm⁻² s⁻¹ sr⁻¹ at E = $10^{11}$ GeV, m_X 
 |---|---|
 | Top-down 三条件 | (a) 近期衰变/源 < 100 Mpc; (b) m_X ≫ $10^{11}$ GeV; (c) 足够衰变率 |
 | 核子占强子数 | 3–10% |
-| $\Lambda$^ch_eff (LEP fit) | 250 MeV |
+| $\Lambda^{\rm ch}_{\rm eff}$ (LEP fit) | 250 MeV |
 | Hill 谱 $\alpha$ (x ≪ 1) | 1.3 (eq.61), 1.5 (eq.62) |
 | SUSY LSP 能量份额 | ~40% [399] |
 | (ṅ_X,0) EHECR 基准 | ~$10^{35}$ Mpc⁻³ yr⁻¹ (m_X=$10^{16}$ GeV) |

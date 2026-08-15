@@ -46,7 +46,7 @@ $$\frac{c^2 k^2}{\omega^2} = 1 + \sum_\alpha \frac{4\pi^2 q_\alpha^2}{\omega} \i
 
 ### 5.3.2 弱流极限（Zweibel 1979; Achterberg 1983）
 
-**[FACT]** 条件（Blasi 式 (86)）：$n_{CR}/n_i \ll v_A^2/V_{sh}^2$ → 对应 $\xi$_CR ≪ $10^{-3}$
+**[FACT]** 条件（Blasi 式 (86)）：$n_{CR}/n_i \ll v_A^2/V_{sh}^2$ → 对应 $\xi_{\rm CR}$ ≪ $10^{-3}$
 
 **[FACT]** 增长率为共振 Alfvén 波（Blasi 式 (87)）：
 $$\omega_I(k) = \frac{\pi}{8}\, \Omega_p^*\, \frac{V_{sh}}{v_A}\, \frac{n_{CR}(p > p_{res}(k))}{n_i}$$
@@ -54,11 +54,11 @@ $$\omega_I(k) = \frac{\pi}{8}\, \Omega_p^*\, \frac{V_{sh}}{v_A}\, \frac{n_{CR}(p
 **[FACT]** 波功率谱在激波处（Blasi 式 (81)）：
 $$F_0(k) = \frac{\pi}{4}\, \xi_{CR}\, \frac{V_{sh}}{v_A}\, \frac{1}{\Lambda}$$
 
-典型参数（$\xi$_CR=0.1, V_sh=5000 km/s, v_A=3 km/s, $\Lambda$~10）→ **$F_{0}$ ≫ 1**，即弱流极限给出极强的放大。
+典型参数（$\xi_{\rm CR}$=0.1, V_sh=5000 km/s, v_A=3 km/s, $\Lambda$~10）→ **$F_{0}$ ≫ 1**，即弱流极限给出极强的放大。
 
 ### 5.3.3 强流极限（"CR modified regime"）
 
-**[FACT]** 实际 SNR 中 $\xi$_CR ~ 10% ≫ $10^{-3}$ → 弱流条件**不成立**。此时（Blasi 式 (89)）：
+**[FACT]** 实际 SNR 中 $\xi_{\rm CR}$ ~ 10% ≫ $10^{-3}$ → 弱流条件**不成立**。此时（Blasi 式 (89)）：
 $$\omega_I \approx \omega_R = \left(\frac{\pi}{8}\, \Omega_p^*\, k V_{sh}\, \frac{n_{CR}(p > p_{res})}{n_i}\right)^{1/2} \propto k \quad (k\,r_{L,0} \le 1)$$
 
 **[FACT]** 强流极限下的波功率谱（Blasi 式 (90)）：
@@ -70,13 +70,13 @@ $$F_0(k) = \left(\frac{\pi}{6}\right)^{1/2}\left(\frac{\xi_{CR}}{\Lambda}\right)
 
 ### 5.3.4 色散关系图示（Blasi Fig.9 / Amato Fig.11）
 
-**[FACT]** Blasi Fig.9（Amato & Blasi 2009）：V_sh = $10^{9}$ cm/s, $B_{0}$ = 1 $\mu$G, n = 1 cm⁻³, $\xi$_CR = 10%, p_max = $10^{5}$ m_p c。上图左手极化、下图右手极化；实线 Re($\omega$)、虚线 Im($\omega$)。显示非共振模式在 k*r_L,0 ~ $10^{4}$ 处达到最大增长率。
+**[FACT]** Blasi Fig.9（Amato & Blasi 2009）：V_sh = $10^{9}$ cm/s, $B_{0}$ = 1 $\mu$G, n = 1 cm⁻³, $\xi_{\rm CR}$ = 10%, p_max = $10^{5}$ m_p c。上图左手极化、下图右手极化；实线 Re($\omega$)、虚线 Im($\omega$)。显示非共振模式在 k*r_L,0 ~ $10^{4}$ 处达到最大增长率。
 
 **[FACT]** Amato Fig.11（完全同源）：展示弱流（点线，式 (16)/(26)）与强流（点划线，式 (29)）增长率的巨大差异；说明"标准"增长率高估了强流区。
 
 ## 5.4 非共振短波模式：Bell 模式（Blasi §4.2.2 & Amato §7）
 
-**[FACT]** Bell (2004, 2005) 发现：当 $\xi$_CR 超过式 (91) 的阈值时，右旋模式在 k*r_L,0 > 1（**比所有加速粒子的回旋半径更小**）出现**非共振支**，增长率随 k^{1/2} 增加，达到最大（Blasi 式 (92)）：
+**[FACT]** Bell (2004, 2005) 发现：当 $\xi_{\rm CR}$ 超过式 (91) 的阈值时，右旋模式在 k*r_L,0 > 1（**比所有加速粒子的回旋半径更小**）出现**非共振支**，增长率随 k^{1/2} 增加，达到最大（Blasi 式 (92)）：
 $$k^* r_{L,0} = 3\, \xi_{CR}\, \gamma_{min}\, \frac{1}{\Lambda}\left(\frac{V_{sh}}{v_A}\right)^2 \frac{V_{sh}}{c}$$
 
 **[FACT]** 特点：

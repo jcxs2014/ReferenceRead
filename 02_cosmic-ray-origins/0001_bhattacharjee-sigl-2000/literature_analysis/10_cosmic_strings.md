@@ -27,18 +27,18 @@
 1. **形成后**：随机缠绕网络。
 2. **摩擦主导期**（T > (G$\mu$)^(1/2) $\eta$）：
    - 弯曲弦段达终端速度 ∝ 1/r。
-   - 弦被拉直、长度缩短 → $\xi$_s 增加 → $\rho$_s 下降。
+   - 弦被拉直、长度缩短 → $\xi_{\rm s}$ 增加 → $\rho_{\rm s}$ 下降。
 3. **相对论期**：摩擦可忽略。
-   - 情形(a) **Scaling 解**：$\xi$_s/t = const → $\rho$_s,scaling ∝ 1/t²
-   - 情形(b) $\xi$_s 增长慢于 t → 弦过早主导宇宙（被排除）。
+   - 情形(a) **Scaling 解**：$\xi_{\rm s}$/t = const → $\rho_{\rm s}$,scaling ∝ 1/t²
+   - 情形(b) $\xi_{\rm s}$ 增长慢于 t → 弦过早主导宇宙（被排除）。
 
 ### 10.2.2 Scaling 能量损失 [FACT]
 
 ```
-$\rho$̇_s,total = −2(Ṙ/R) $\rho$_s + $\rho$̇_s,loss         (71)
+$\rho$̇_s,total = −2(Ṙ/R) $\rho_{\rm s}$ + $\rho$̇_s,loss         (71)
 ```
-- 辐射主导：$\rho$̇_s,loss = −$\rho$_s/t
-- 物质主导：$\rho$̇_s,loss = −(2/3) $\rho$_s/t
+- 辐射主导：$\rho$̇_s,loss = −$\rho_{\rm s}$/t
+- 物质主导：$\rho$̇_s,loss = −(2/3) $\rho_{\rm s}$/t
 
 ### 10.2.3 环形成与小尺度结构 [FACT]
 
@@ -48,7 +48,7 @@ $\rho$̇_s,total = −2(Ṙ/R) $\rho$_s + $\rho$̇_s,loss         (71)
 
 ### 10.2.4 Scaling 弦的 loop distribution (公式 72–76) [FACT]
 
-- Scaling 解：$\rho$_s = $\mu$/(x t)², x ∈ [0.3–0.7]（近期模拟 x ~ 0.3）。
+- Scaling 解：$\rho_{\rm s}$ = $\mu$/(x t)², x ∈ [0.3–0.7]（近期模拟 x ~ 0.3）。
 - 环长度：L_b = K $\zeta$(t_b) = K $\Gamma$ G$\mu$ t_b （公式 72）
 - 环诞生率（物质主导，公式 73）：
 ```
@@ -63,22 +63,22 @@ dn/dL (L, t) = [2/(3 x²)] (K+1)/K · 1/(t² (L + $\Gamma$ G$\mu$ t)²), L ≤ K
 
 | 量 | 值 |
 |---|---|
-| 最丰环长度 | ~200 (G$\mu$/$10^{-6}$)($\Omega$₀h²)^(−1/2) kpc |
-| 数密度 | ~4.6×$10^{-6}$ (G$\mu$/$10^{-6}$)⁻¹($\Omega$₀h²)^(3/2) Mpc⁻³ |
-| 典型间隔 | ~60 (G$\mu$/$10^{-6}$)^(1/3)($\Omega$₀h²)^(−1/2) Mpc |
+| 最丰环长度 | ~200 (G$\mu$/$10^{-6}$)($\Omega_{0}$h²)^(−1/2) kpc |
+| 数密度 | $~4.6\times10^{-6}$ (G$\mu$/$10^{-6}$)⁻¹($\Omega_{0}$h²)^(3/2) Mpc⁻³ |
+| 典型间隔 | ~60 (G$\mu$/$10^{-6}$)^(1/3)($\Omega_{0}$h²)^(−1/2) Mpc |
 
 ## 10.3 §6.4.2 Intercommuting 过程
 
 ### 10.3.1 机制 [FACT]
 
-- 两条弦段交叉 → 重叠长度 ~w ~ $\eta$⁻¹ → Higgs 相未定义 → 拓扑去除事件。
+- 两条弦段交叉 → 重叠长度 ~w ~ $\eta^{\rm -1}$ → Higgs 相未定义 → 拓扑去除事件。
 - 释放能量 ~$\mu$w ~ $\eta$ → 每个 intercommuting 释放 ~1 个 X 粒子。
 
 ### 10.3.2 速率估算 [FACT]
 
 ```
-n_ic(t) = $\chi$/$\xi$_s⁴          (77)
-$\xi$_s ~ x t, x ~ 0.3–0.7
+n_ic(t) = $\chi$/$\xi_{\rm s4}$          (77)
+$\xi_{\rm s}$ ~ x t, x ~ 0.3–0.7
 ```
 - **结论**：intercommuting 过程的 X 产额 **utterly negligible**，远不足以解释 EHECR 通量。
 
@@ -113,8 +113,8 @@ $\xi$_s ~ x t, x ~ 0.3–0.7
 ### 10.5.1 机制 [FACT]
 
 - 大环 L/4 时刻坍缩为 double-line 配置 → 整体湮灭为 X 粒子。
-- 或反复自相交分裂为越来越小的子环 → debris of tiny loops（~$\eta$⁻¹ 尺度）→ X 粒子。
-- **碎裂时间**：$\tau$_debris ~ L ≪ $\tau$_grav ~ ($\Gamma$G$\mu$)⁻¹L
+- 或反复自相交分裂为越来越小的子环 → debris of tiny loops（~$\eta^{\rm -1}$ 尺度）→ X 粒子。
+- **碎裂时间**：$\tau_{\rm debris}$ ~ L ≪ $\tau_{\rm grav}$ ~ ($\Gamma$G$\mu$)⁻¹L
 
 ### 10.5.2 速率 [FACT, 公式 84]
 
@@ -126,29 +126,29 @@ $\xi$_s ~ x t, x ~ 0.3–0.7
 ### 10.5.3 解释 EHECR 的条件 (公式 85)
 
 ```
-f_X · $\eta$₁₆^(3/2) ≃ 2.8×$10^{-5}$            (85)
+f_X · $\eta_{16}$^(3/2) ≃ $2.8\times10^{-5}$            (85)
 ```
-（$\eta$₁₆ = $\eta$/$10^{16}$ GeV, l(E_$\gamma$=300 EeV) = 50 Mpc）
+（$\eta_{16}$ = $\eta$/$10^{16}$ GeV, l(E_$\gamma$=300 EeV) = 50 Mpc）
 
 ### 10.5.4 级联 $\gamma$ 约束 (公式 86–88) [FACT]
 
 - 注入 EHECR 能量的 EM 级联：
 ```
-$\omega$_cas ≃ (1/2) m_X ṅ_X $t_{0}$            (86)
-$\omega$_cas ≤ 2×$10^{-6}$ eV cm⁻³              (87, [185])
+$\omega_{\rm cas}$ ≃ (1/2) m_X ṅ_X $t_{0}$            (86)
+$\omega_{\rm cas}$ ≤ $2\times10^{-6}$ eV cm⁻³              (87, [185])
 ```
 - 导出（公式 88）：
 ```
-f_X · $\eta$₁₆² ≤ 9.6×$10^{-6}$              (88)
+f_X · $\eta_{162}$ ≤ $9.6\times10^{-6}$              (88)
 ```
 
 ### 10.5.5 允许窗口 [FACT]
 
 联立 (85)+(88)：
 ```
-9.2×$10^{12}$ GeV <~ $\eta$ <~ 1.2×$10^{15}$ GeV
-f_X ~ 2.8×$10^{-5}$ $\eta$₁₆^(−3/2)
-f_X ∈ [6.7×$10^{-4}$, 1]
+$9.2\times10^{12}$ GeV <~ $\eta$ <~ $1.2\times10^{15}$ GeV
+f_X ~ $2.8\times10^{-5}$ $\eta_{16}$^(−3/2)
+f_X ∈ [$6.7\times10^{-4}$, 1]
 ```
 - **m_X ≫ $10^{15}$ GeV 时 GUT-scale 弦难以同时满足**（违反 $\gamma$ 背景约束）。
 - **$\eta$ ~ $10^{13}$ GeV 的"轻"弦**是自然候选。
@@ -159,14 +159,14 @@ f_X ∈ [6.7×$10^{-4}$, 1]
 - Kinks 是高谐波配置 → 有 kink 的环高概率自相交 → f_X ~ few×$10^{-4}$ 是**合理的**。
 - **Vilenkin [429]**：子环碎裂过程中部分能量转化为动能 → X 粒子可能**相对论性**（空间分散）。
 - **Berezinsky-Blasi-Vilenkin [406]**：对 relativistic X 情形，某些 loop fragmentation 模型下无法同时满足 (85)+(88) → 但其他模型（如 Siemens-Kibble）可绕过。
-- Bhattacharjee-Sigl [432]：f_X ~ 1 时（全部环碎裂为 X），若 $\eta$ ≲ 3.1×$10^{13}$ GeV 且 f_KE ≲ few%，可解释 EHECR 且不违反 $\gamma$ 约束。
+- Bhattacharjee-Sigl [432]：f_X ~ 1 时（全部环碎裂为 X），若 $\eta$ ≲ $3.1\times10^{13}$ GeV 且 f_KE ≲ few%，可解释 EHECR 且不违反 $\gamma$ 约束。
 
 ### 10.5.7 轻弦的额外优势 [FACT]
 
 - Loop 数密度 ∝ (G$\mu$)⁻¹ → $\eta$ = $10^{13}$ GeV 时（G$\mu$ ~ $10^{-12}$），与 $\eta$ = $10^{16}$ GeV 相比 loop 数密度**大 $10^{6}$ 倍**。
 - GZK 半径 (50 Mpc) 内：
-  - GUT 弦 (~$10^{16}$ GeV)：仅 ~2.4($\Omega$₀h²)^(3/2) 个 loop。
-  - 轻弦 (~$10^{13}$ GeV)：~ 2.4×$10^{6}$ 个 loop。
+  - GUT 弦 (~$10^{16}$ GeV)：仅 ~2.4($\Omega_{0}$h²)^(3/2) 个 loop。
+  - 轻弦 (~$10^{13}$ GeV)：~ $2.4\times10^{6}$ 个 loop。
 - **结论**：轻弦 ($\eta$ ~ few×$10^{13}$ GeV) 通过快速多重碎裂过程可**自然产生足够多 X 粒子**。
 
 ## 10.6 §6.4.6 Direct Emission 争议 [FACT]
@@ -204,8 +204,8 @@ f_X ∈ [6.7×$10^{-4}$, 1]
 
 **电磁辐射主导** (G$\mu$ ≲ $10^{-8}$ 或 g > 10(G$\mu$)^(1/2))：
 ```
-Ṅ_F = (4/$\pi$²) $\alpha$_em $\gamma$_em g³ $\eta$            (89)
-$\gamma$_em ≃ 100
+Ṅ_F = (4/$\pi^{2}$) $\alpha_{\rm em}$ $\gamma_{\rm em}$ g³ $\eta$            (89)
+$\gamma_{\rm em}$ ≃ 100
 ```
 
 **引力辐射主导** (g ≪ 10(G$\mu$)^(1/2))：
@@ -238,11 +238,11 @@ $\gamma$_em ≃ 100
 | Intercommuting X 数/事件 | ~1 |
 | Cusp 长度 ℓ_c (旧) | ~ $\zeta$^(2/3) w^(1/3) |
 | Cusp 长度 ℓ_c (新 [425]) | ~ (Lw)^(1/2) |
-| Loop 碎裂 EHECR 条件 | f_X $\eta$₁₆^(3/2) ≃ 2.8×$10^{-5}$ |
-| $\gamma$ 背景约束 | f_X $\eta$₁₆² ≤ 9.6×$10^{-6}$ |
-| 允许 $\eta$ 窗口 | 9.2×$10^{12}$ – 1.2×$10^{15}$ GeV |
+| Loop 碎裂 EHECR 条件 | f_X $\eta_{16}$^(3/2) ≃ $2.8\times10^{-5}$ |
+| $\gamma$ 背景约束 | f_X $\eta_{162}$ ≤ $9.6\times10^{-6}$ |
+| 允许 $\eta$ 窗口 | $9.2\times10^{12}$ – $1.2\times10^{15}$ GeV |
 | Direct emission $\eta$ 上限 | ≲ $10^{13}$ GeV |
-| SCS X 发射率 (EM 主导) | (4/$\pi$²) $\alpha$_em $\gamma$_em g³ $\eta$ |
+| SCS X 发射率 (EM 主导) | (4/$\pi^{2}$) $\alpha_{\rm em}$ $\gamma_{\rm em}$ g³ $\eta$ |
 | SCS X 发射率 (引力主导) | (g/$\pi$)($\Gamma$G$\mu$)$\eta$ |
 
 ## 10.9 [CRITIQUE] 与 1999 年后对照

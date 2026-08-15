@@ -20,7 +20,7 @@ $$V_{ej} = 10000\, E_{51}^{1/2}\, M_{ej,\odot}^{-1/2}\,\mathrm{km/s}$$
 
 $$c_s = \sqrt{\frac{\gamma_g kT}{m_p}} \approx 11\left(\frac{T}{10^4\,\mathrm{K}}\right)^{1/2}\,\mathrm{km/s}$$
 
-其中 $\gamma$_g = 5/3（绝热指数）
+其中 $\gamma_{\rm g}$ = 5/3（绝热指数）
 
 **[FACT]** 激波 Mach 数（Blasi 式 (6)）：
 
@@ -81,7 +81,7 @@ $$\left\langle \frac{\Delta\mu\,\Delta\mu}{\Delta t} \right\rangle_\phi = \pi \O
 
 $$D(p) = \frac{1}{3} v(v\tau) \simeq \frac{1}{3}\, r_L\, v\, \left(\frac{k\,P(k)}{B_0^2/8\pi}\right)^{-1} = \frac{1}{3}\, r_L\, v\, \frac{1}{F}$$
 
-**[FACT]** 量级估计：H²/D(p) ~ $10^{7}$ yr 对应 D ~ $10^{29}$ cm²/s → $\delta$B/B ~ 6×$10^{-4}$（共振波长处），即**微量的 Alfvén 波功率即可满足银河系尺度上的 CR 约束**。
+**[FACT]** 量级估计：H²/D(p) ~ $10^{7}$ yr 对应 D ~ $10^{29}$ cm²/s → $\delta$B/B ~ $6\times10^{-4}$（共振波长处），即**微量的 Alfvén 波功率即可满足银河系尺度上的 CR 约束**。
 
 ## 3.5 DSA 输运方程（Blasi §3.3 / Amato §2）
 
@@ -107,7 +107,7 @@ $$\boxed{\alpha = \frac{3r}{r-1}}$$
 
 - r 为压缩比，强激波时 r → 4 → $\alpha$ → 4
 - 动量谱 p⁻⁴ 对相对论粒子等价于能量谱 E⁻²
-- 亚相对论：n($\epsilon$) ∝ $\epsilon$⁻³/²
+- 亚相对论：n($\epsilon$) ∝ $\epsilon^{\rm -3}$/²
 - 谱形状**不依赖于扩散系数**（test-particle 的核心结果）
 
 **[FACT]** 压缩比（Blasi 式 (33)；Amato 式 (2)）：
@@ -120,7 +120,7 @@ $$r = \frac{4 M_s^2}{M_s^2 + 3} \xrightarrow{M_s\gg 1} 4$$
 
 $$\left\langle \frac{\Delta E}{E}\right\rangle = \frac{4}{3}\beta$$
 
-其中 $\beta$ = ($u_{1}$−$u_{2}$)/c → **一阶 Fermi 加速**（∝ $\beta$¹，对比二阶 Fermi 的 ∝ $\beta$²）
+其中 $\beta$ = ($u_{1}$−$u_{2}$)/c → **一阶 Fermi 加速**（∝ $\beta^{1}$，对比二阶 Fermi 的 ∝ $\beta^{2}$）
 
 **[FACT]** 加速时间（Blasi 式 (46)-(47)；Amato 式 (3)）：
 
@@ -130,7 +130,7 @@ $$\tau_{acc} = \frac{3}{u_1-u_2}\left(\frac{D_1}{u_1} + \frac{D_2}{u_2}\right) \
 
 | 定义 | 条件 | 适用场景 |
 |---|---|---|
-| (1) 时标 | $\tau$_acc(E_max) = $\tau$_SNR | 主要，粒子在 SNR 年龄内被加速 |
+| (1) 时标 | $\tau_{\rm acc}$(E_max) = $\tau_{\rm SNR}$ | 主要，粒子在 SNR 年龄内被加速 |
 | (2) 逃逸 | D(p_max)/V_sh ≈ $\chi$ R_sh，$\chi$ < 1 | Sedov-Taylor 相 |
 | (3) 几何 | r_L(p_max) = R_sh | 严格上界，高估 ~c/V_sh |
 

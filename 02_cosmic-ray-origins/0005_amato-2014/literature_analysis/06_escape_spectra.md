@@ -31,7 +31,7 @@ $$d\epsilon = 4\pi p^2 dp\, p c\, N_{esc}(p) = \xi_{esc}\,\frac{1}{2}\rho v_{sh}
 **[FACT]** 在 Sedov-Taylor 相（R_sh ∝ t^{2/5}，V_sh ∝ t^{-3/5}），导出（Blasi 式 (103)）：
 $$\boxed{N_{esc}(p) \propto p^{-4}\, \xi_{esc}(t)}$$
 
-**[INTERPRETATION]** 这个 p⁻⁴ 与 test-particle DSA 的 p⁻⁴ **无关**——它纯粹是 Sedov-Taylor 自相似演化 + 峰状逃逸的直接后果。若 $\xi$_esc 随时间下降，逃逸谱**比 p⁻⁴ 更硬**。
+**[INTERPRETATION]** 这个 p⁻⁴ 与 test-particle DSA 的 p⁻⁴ **无关**——它纯粹是 Sedov-Taylor 自相似演化 + 峰状逃逸的直接后果。若 $\xi_{\rm esc}$ 随时间下降，逃逸谱**比 p⁻⁴ 更硬**。
 
 ## 6.3 Amato §3.2：逃逸粒子的谱（同源推导）
 
@@ -48,7 +48,7 @@ $$N_{esc}(p) \propto f_{esc}\, p^{-4}\, t^{5\alpha - 2}$$
 
 ## 6.4 SNR 释放的完整谱：NLDSA 预测（Blasi §6.2）
 
-**[FACT]** Blasi Fig.10（Caprioli et al. 2010a）：$n_{0}$ = 0.1 cm⁻³, $T_{0}$ = $10^{5}$ K, $\xi$_inj = 3.9, 逃逸边界 $\chi$=0.15 R_sh。
+**[FACT]** Blasi Fig.10（Caprioli et al. 2010a）：$n_{0}$ = 0.1 cm⁻³, $T_{0}$ = $10^{5}$ K, $\xi_{\rm inj}$ = 3.9, 逃逸边界 $\chi$=0.15 R_sh。
 - 虚线：逃逸粒子
 - 点划线：激波消散后释放的粒子（能量损失导致高能端截断）
 - 实线：总谱
@@ -59,12 +59,12 @@ $$N_{esc}(p) \propto f_{esc}\, p^{-4}\, t^{5\alpha - 2}$$
 2. **银河系各向异性**：若注入谱 ~E⁻²，需要 D(E) ∝ E^{0.7} → 各向异性**远**超观测值（Ptuskin 2006; Blasi & Amato 2012b）。
 
 **[FACT]** Amato §5 进一步分析：
-- 从 B/C 反推 $\delta$ 的不确定性 → 注入谱斜率 **2 < $\gamma$_inj < 2.4**；
+- 从 B/C 反推 $\delta$ 的不确定性 → 注入谱斜率 **2 < $\gamma_{\rm inj}$ < 2.4**；
 - 用 GALPROP/DRAGON 无法解决"离散源"问题；
 - 包含源空间-时间离散性的计算（Blasi & Amato 2012a,b 或类似）显示：
-  - $\gamma$_inj = 2.34, $\delta$ = 1/3（Kolmogorov）→ 谱与各向异性**都**符合；
-  - $\gamma$_inj = 2.07, $\delta$ = 0.6 → 谱符合但各向异性**过大**（Amato Fig.7-8）；
-- **结论**：SNR 注入的 CR 谱比 E⁻² 更陡（$\gamma$_inj ~ 2.3–2.4），与 NLDSA 的"凹形硬谱"预测**严重矛盾**。
+  - $\gamma_{\rm inj}$ = 2.34, $\delta$ = 1/3（Kolmogorov）→ 谱与各向异性**都**符合；
+  - $\gamma_{\rm inj}$ = 2.07, $\delta$ = 0.6 → 谱符合但各向异性**过大**（Amato Fig.7-8）；
+- **结论**：SNR 注入的 CR 谱比 E⁻² 更陡（$\gamma_{\rm inj}$ ~ 2.3–2.4），与 NLDSA 的"凹形硬谱"预测**严重矛盾**。
 
 ## 6.5 可能的理论修订（Blasi §6.2 尾 & Amato §6）
 

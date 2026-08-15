@@ -77,3 +77,24 @@ UHECR 与 CMB/ECMB 光子的相互作用产生 cosmogenic neutrinos（可作为�
 ## 关键词
 
 `UHECR` `GZK cutoff` `Pierre Auger` `Telescope Array` `cosmogenic` `composition` `anisotropy`
+
+---
+
+## 分章导航（2026-08-15 补充分章正文后更新）
+
+> 本文按 READING_INSTRUCTIONS §3-§4 模板补全了 4 个正文分章文件，每个分章按 8 子结构（核心内容 / FACT / 公式 / 参数 / 图表 / 逻辑 / INTERPRETATION / CRITIQUE / 术语 / 页码）精读。
+
+| # | 章节 | 文件 | 原文对应 |
+|---|------|------|----------|
+| 01 | Introduction | `01_01_introduction.md` | §1 Introduction |
+| 02 | Status of Ultrahigh Energy | `02_02_status_ultrahigh_energy.md` | §2 Status of UHECR（含 §2.1 Anisotropy, §2.4 Neutral Secondaries） |
+| 03 | Open Questions | `03_03_open_questions.md` | §3 Open Questions（7 大开放问题：来源/成分/GZK/各向异性/传播/加速/双重谜题） |
+| 04 | Conclusions and Perspectives | `04_04_conclusions_and_perspectives.md` | §4 Experiments + §5 Outlook |
+
+## 章节级核心关键词（按主题聚合）
+
+`('UHECR', 'Ultra-high-energy cosmic ray, >10^18 eV', 25)` `('GZK cutoff', 'Greisen-Zatsepin-Kuzmin cutoff, ~5×10^19 eV', 18)` `('Cosmogenic', '宇宙学传播产生的（secondary particles/neutrinos）', 12)` `('Dipole anisotropy', 'CR 通量在天空的偶极分布（方向性）', 10)` `('Pierre Auger Observatory', '南美大型 CR 实验阵列', 15)` `('Telescope Array', '北美 CR 实验阵列', 14)` `('Composition', 'CR 核成分（质子/轻核/重核）', 22)` `('Hillas criterion', 'Hillas 判据，约束加速源类型', 8)`
+
+> **注**：本节为后续骨架更新追加，不影响原 00_overview.md 的 [FACT]/[INTERPRETATION]/[CRITIQUE] 框架。
+
+---

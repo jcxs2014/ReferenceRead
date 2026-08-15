@@ -105,7 +105,7 @@
 
 **[FACT]** CR 驱动离子化学产生的活性分子离子（OH⁺、$H_{2}$O⁺、$H_{3}$O⁺）在星暴与活动星系中观测（van der Werf 2010; Aalto 2011; Rangwala 2011; Kamenetzky 2012; Spinoglio 2012; González-Alfonso 2013; Pereira-Santaella 2013）。
 
-**[FACT]** 分子离子观测 → Arp 220 中 $\zeta$_$H_{2}$^CR > **$10^{-13}$ s⁻¹**（González-Alfonso 2013）——**比 CMZ 高 ~$10^{2}$ 倍**，并可示踪巨大星系风。
+**[FACT]** 分子离子观测 → Arp 220 中 $\zeta_{H_{2}}^{\rm CR}$ > **$10^{-13}$ s⁻¹**（González-Alfonso 2013）——**比 CMZ 高 ~$10^{2}$ 倍**，并可示踪巨大星系风。
 
 ## 8.5 §8.5 $\gamma$ Rays in Extragalactic Space
 
@@ -153,7 +153,7 @@
 | 质子量热效率 | <50% |
 | Arp 220 SN 率 | 4 ± 2 yr⁻¹ |
 | NGC 253 中心 SN 率上限 | <0.2 yr⁻¹ |
-| Arp 220 $\zeta$_$H_{2}$^CR | >$10^{-13}$ s⁻¹ |
+| Arp 220 $\zeta_{H_{2}}^{\rm CR}$ | >$10^{-13}$ s⁻¹ |
 
 ## 8.8 潜在问题
 - **[CRITIQUE]** Cygnus X "cocoon" 起源（SNR vs 风激波 vs 再加速）尚未定；需要**该复杂、致密、高压环境的详细模型**。

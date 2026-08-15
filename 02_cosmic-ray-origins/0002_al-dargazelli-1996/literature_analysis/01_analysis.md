@@ -61,7 +61,7 @@ References
 
 ## 3.1 Abstract
 
-**[FACT]** 作者指出近期工作聚焦于 > 2 × $10^{19}$ eV 宇宙线到达方向各向异性；本文从识别河外源的视角审视各向异性证据。在研究的各类星系中，**碰撞星系（colliding galaxies）** 且距银河系 **≤ 10 Mpc** 的星系是"最强的候选者"（strongest contenders）。
+**[FACT]** 作者指出近期工作聚焦于 > $2\times10^{19}$ eV 宇宙线到达方向各向异性；本文从识别河外源的视角审视各向异性证据。在研究的各类星系中，**碰撞星系（colliding galaxies）** 且距银河系 **≤ 10 Mpc** 的星系是"最强的候选者"（strongest contenders）。
 
 **[INTERPRETATION]** 摘要即给出论文核心论点：以各向异性为约束、以 10 Mpc 内碰撞星系为最优源模型。这是典型的"数据驱动源识别"型文章，不涉及 Z 机制、拓扑缺陷等奇异物理。
 
@@ -72,14 +72,14 @@ References
 **[FACT]** 作者团队（Szabelski et al 1986; Chi et al 1992a,b,c,d 等）长期系统研究 > $10^{18}$ eV 宇宙线，结论：
 - 到达方向存在优先方向（"clusters" / "hot spots"），指向特定天体源。
 - **银河面附近** 的 cluster 数比各向同性预期多。
-- 结合 Wdowczyk & Wolfendale (1984) 的"银河面增强"，团队主张 **银河系起源的 CR 可延伸至 2 × $10^{19}$ eV**，甚至略高。
+- 结合 Wdowczyk & Wolfendale (1984) 的"银河面增强"，团队主张 **银河系起源的 CR 可延伸至 $2\times10^{19}$ eV**，甚至略高。
 - 高于几 × $10^{18}$ eV 的粒子中，河外（EG）粒子比例递增（假设为质子）。
 - **VIRGO 星系团** 是被唯一明确偏好的 EG 源（Szabelski et al 1986）。
 
 ### 3.2.2 近年新进展（1995–1996）
 
 **[FACT]** 三项新工作推动本文：
-1. **Stanev et al (1995)**：分析北半球阵列 > 2 × $10^{19}$ eV 数据，声称到达方向**非均匀**；**> 4 × $10^{19}$ eV** 与 **supergalactic plane（超星系面）** 相关——那里富含 EG 源。
+1. **Stanev et al (1995)**：分析北半球阵列 > $2\times10^{19}$ eV 数据，声称到达方向**非均匀**；**> $4\times10^{19}$ eV** 与 **supergalactic plane（超星系面）** 相关——那里富含 EG 源。
 2. **Hayashida et al (1996)**：AGASA 阵列数据，也发现超星系面集中，但仅在子集中；另观测到若干有趣 grouping。
 3. 作者本人：需对 **银河晕（Galactic Halo）及以外** 的磁场拓扑做新的必要分析，因为"只有知道它，才能解释各向异性"。
 
@@ -100,9 +100,9 @@ References
 ## 4.2 §2.2 Clusters 聚类
 
 **[FACT]** "Hot spots / clusters" 是确认天体源的关键证据。早期 Chi et al (1992a) 的聚类判据：
-- **≥ 4 个粒子，E > 1 × $10^{19}$ eV，且与一颗 E > 3 × $10^{19}$ eV 粒子在 6° 内。**
+- **≥ 4 个粒子，E > $1\times10^{19}$ eV，且与一颗 E > $3\times10^{19}$ eV 粒子在 6° 内。**
 
-**[FACT]** Stanev et al (1995) 分析北半球阵列，能量阈值 **2 × $10^{19}$ eV**，识别出 7 个过量区域（regions of excess），用银河坐标 (ℓ, b)：
+**[FACT]** Stanev et al (1995) 分析北半球阵列，能量阈值 **$2\times10^{19}$ eV**，识别出 7 个过量区域（regions of excess），用银河坐标 (ℓ, b)：
 
 | Region | ℓ | b |
 |---|---|---|
@@ -124,11 +124,11 @@ References
 
 这些分别对应 region 4、6、3。
 
-**[FACT]** 三个最高能事件（> 2 × $10^{20}$ eV）方向也标注：Fly's Eye (Bird et al 1995)、Yakutsk (Efimov & Mikhailov 1994)、AGASA (Hayashida et al 1994)。
+**[FACT]** 三个最高能事件（> $2\times10^{20}$ eV）方向也标注：Fly's Eye (Bird et al 1995)、Yakutsk (Efimov & Mikhailov 1994)、AGASA (Hayashida et al 1994)。
 
 **[FACT]** **区域 A、B、C**：|b| > 20° 的三个区域有最强可能性关联到 EG 源，被标记为 A、B、C（图 1c）。这是后文讨论的锚点。
 
-**[FACT]** **Hayashida et al (1996)** 特别指出 Akeno 阵列 E > 4 × $10^{19}$ eV 的**三个极近对**（close pairs），其平均能量 **≈ 9 × $10^{19}$ eV**（图 1a 中 `+` 符号）。
+**[FACT]** **Hayashida et al (1996)** 特别指出 Akeno 阵列 E > $4\times10^{19}$ eV 的**三个极近对**（close pairs），其平均能量 **≈ $9\times10^{19}$ eV**（图 1a 中 `+` 符号）。
 
 **[FACT]** Yakutsk (Efimov & Mikhailov 1994) 使用更多数据，识别出 **4 个 clusters**。
 
@@ -158,7 +158,7 @@ References
 - **平均磁场 B**
 - **反转长度 $\lambda$**（encapsulate 不规则性频谱的单一尺度）
 
-**[FACT]** 能量依赖性：能量 E 的粒子受 **Larmor 半径 $\lambda$_L 尺度** 的不规则性影响。问题取决于不规则性频谱在 ~$\lambda$_L 尺度上的功率。
+**[FACT]** 能量依赖性：能量 E 的粒子受 **Larmor 半径 $\lambda_{\rm L}$ 尺度** 的不规则性影响。问题取决于不规则性频谱在 ~$\lambda_{\rm L}$ 尺度上的功率。
 
 **[FACT]** 银河盘局部：
 - 平滑平均磁场 **⟨B⟩ ≈ 2 $\mu$G**（Phillipps et al 1981; Chi & Wolfendale 1990）
@@ -168,8 +168,8 @@ References
 **[FACT]** 向外的估计（synchrotron 分析，Phillipps et al 1981）：
 - **z = 1 kpc 处 B ≈ 1 $\mu$G**，之后下降更快
 - 采用 **Moore & Davies (1994) Giant Halo 模型**：Halo 延伸至 ≥ 100 kpc
-- 电离气体温度 ~ 2 × $10^{6}$ K
-- 在 ~65 kpc 处密度 $\rho$ ≈ 5 × $10^{-5}$ cm⁻³
+- 电离气体温度 ~ $2\times10^{6}$ K
+- 在 ~65 kpc 处密度 $\rho$ ≈ $5\times10^{-5}$ cm⁻³
 - 对应能量密度 ~ $10^{-2}$ eV cm⁻³ → 用均分论点得 **B ≈ 0.15 $\mu$G**
 
 **[FACT]** 反转长度 $\lambda$ 的推导：
@@ -215,14 +215,14 @@ $$
 
 **[FACT]** **表 1**（Table 1）——偏转角的数值结果：
 
-| 距离 d (Mpc) | p_c = 4 × $10^{19}$ eV | p_c = $10^{20}$ eV |
+| 距离 d (Mpc) | p_c = $4\times10^{19}$ eV | p_c = $10^{20}$ eV |
 |---|---|---|
 | 15 (VIRGO) | 55° | 22° |
 | 10 | 15° | 6° |
 | 5 | 9° | 3.6° |
 
 **[FACT]** 作者结论：
-- 对于**小 clusters**（最低能 2 × $10^{19}$ eV，平均 ~4 × $10^{19}$ eV），**10 Mpc** 是大概最远可溯源的距离。
+- 对于**小 clusters**（最低能 $2\times10^{19}$ eV，平均 $~4\times10^{19}$ eV），**10 Mpc** 是大概最远可溯源的距离。
 - 对于**扩展的过量区域**（extended regions of excess），**VIRGO 团（15 Mpc）** 勉强可达。
 
 **[INTERPRETATION]** 该表是后文 5–20 Mpc 星系匹配的物理约束基础。$10^{20}$ eV 质子从 VIRGO（15 Mpc）偏转 22°，足以把 15 Mpc 处的 VIRGO 与图 1c 中 A 区域对上。
@@ -231,10 +231,10 @@ $$
 
 ## 6.3 §4.3 CMB 相互作用
 
-**[FACT]** **自由程 = 15 Mpc（对应到 VIRGO 的采用距离），在 3 × $10^{20}$ eV**。
-- 扣除扩散造成的额外路径 + VIRGO 团内星系发射的增强辐射场，能量降至略低于 **2 × $10^{20}$ eV**。
+**[FACT]** **自由程 = 15 Mpc（对应到 VIRGO 的采用距离），在 $3\times10^{20}$ eV**。
+- 扣除扩散造成的额外路径 + VIRGO 团内星系发射的增强辐射场，能量降至略低于 **$2\times10^{20}$ eV**。
 
-**[FACT]** 第 7.1 节再提到：**2 × $10^{20}$ eV 质子在 CMB 上的寿命 ~ $10^{8}$ 年**——这是加速-逃逸-传播的时间预算上限。
+**[FACT]** 第 7.1 节再提到：**$2\times10^{20}$ eV 质子在 CMB 上的寿命 ~ $10^{8}$ 年**——这是加速-逃逸-传播的时间预算上限。
 
 **[INTERPRETATION]** 这就是 GZK 截断的定量表达（Greisen 1966; Zatsepin & Kuzmin 1966），但作者未明言 GZK 名称。
 
@@ -319,7 +319,7 @@ $$
 - 能谱形状：**E⁻²**
 - 总能量产生率：**~ $10^{40}$ erg s⁻¹**
 - 加速机制：**星系磁场线的磁连接**（magnetic connection of field lines of the galaxies）
-- 加速时间：**< $10^{8}$ 年**（即 2 × $10^{20}$ eV 质子在 CMB 上的寿命）
+- 加速时间：**< $10^{8}$ 年**（即 $2\times10^{20}$ eV 质子在 CMB 上的寿命）
 - 加速后粒子可逃离加速区；低能粒子可能被 trap 而不逃逸（不影响结论，因为此区域银河粒子主导）
 
 **[FACT]** 支持证据（独立）：
@@ -342,7 +342,7 @@ $$
 **[FACT]** 引入 **Kang, Jones & Ryu (1995)** 的团激波加速机制：
 - 声称可在 **VIRGO 产生 UHECR**
 - 最高能粒子（E ≳ $10^{19}$ eV）可到达地球
-- **加速慢** → CMB 损失限制最大能至 **CMB cutoff ~ 6 × $10^{19}$ eV**
+- **加速慢** → CMB 损失限制最大能至 **CMB cutoff ~ $6\times10^{19}$ eV**
 - 需 **10%** 的流入能量转化为 CR 能量（"并非不合理"）
 - **吸引人的特征**：逃逸壳层的角半径 **~ 35°**，与 cluster A 的半经度延伸相近（但纬度上更大）
 
@@ -354,16 +354,16 @@ $$
 
 - T：加速时间
 - B：激波区磁场
-- $\mu$_s（原文如此，应为 u_s）：激波速度
+- $\mu_{\rm s}$（原文如此，应为 u_s）：激波速度
 - p：粒子动量
 
 **[FACT]** Kang et al 的采用值：**B = 1 $\mu$G, u = 3000 km s⁻¹**。
 
 **[FACT]** 作者评估：更高 B、u 值"刚可能"让粒子达到 $10^{20}$ eV；更高则需"不合理"的值。
 
-**[FACT]** **极最高能事件（E > 2 × $10^{20}$ eV）避开 VIRGO**——但有一个事件接近 **CANIS MAJOR 区域**。
+**[FACT]** **极最高能事件（E > $2\times10^{20}$ eV）避开 VIRGO**——但有一个事件接近 **CANIS MAJOR 区域**。
 
-**[CRITIQUE]** 团激波机制在本文仅被作为"备选"提及，且被自己的能量上限（~ 6 × $10^{19}$ eV）所限制；但作者同时又要求模型解释 > 2 × $10^{20}$ eV 事件——这两者之间的张力未被明确讨论。
+**[CRITIQUE]** 团激波机制在本文仅被作为"备选"提及，且被自己的能量上限（~ $6\times10^{19}$ eV）所限制；但作者同时又要求模型解释 > $2\times10^{20}$ eV 事件——这两者之间的张力未被明确讨论。
 
 # 10. §8 结论
 
@@ -376,8 +376,8 @@ $$
 
 **[FACT]** 与 Fly's Eye（Bird et al 1993a,b）的**张力**：Fly's Eye 声称 > $10^{19}$ eV 粒子多数是质子（即 EG 起源），但作者指出：
 - **Akeno 阵列**（Yoshida et al 1994）**不支持**任何从 < $10^{18}$ eV 混合成分的变化
-- 作者团队自身（Chi et al 1993）对 Sydney 广延空气簇射数据的 **depth-of-maximum 分析**支持"铁核通量显著延伸至 5 × $10^{19}$ eV"
-- Wolfendale & Zan (1996)：**$10^{18}$ eV – 3 × $10^{19}$ eV 范围内存在大量重核的证据很强**，但**结果不能被看作决定性的**——对相互作用模型敏感
+- 作者团队自身（Chi et al 1993）对 Sydney 广延空气簇射数据的 **depth-of-maximum 分析**支持"铁核通量显著延伸至 $5\times10^{19}$ eV"
+- Wolfendale & Zan (1996)：**$10^{18}$ eV – $3\times10^{19}$ eV 范围内存在大量重核的证据很强**，但**结果不能被看作决定性的**——对相互作用模型敏感
 
 **[INTERPRETATION]** 结论实际上**部分回撤**了引言中"EG 粒子假设为质子"的表述：最终模型允许重核主导 > $10^{19}$ eV，EG 成分在更高能才占据主要。这体现了当时粒子成分测量的根本不确定性。
 
@@ -394,7 +394,7 @@ $$
 呈现多实验合作的高能 CR 到达方向证据。
 
 ### 11.1.2 三 panel 结构
-- **(a)** Chi et al (1992a) clusters（E > $10^{19}$ eV，"统计上更优的集合"，●）；Hayashida et al (1996) close pairs（E > 4 × $10^{19}$ eV，+，平均能量 9 × $10^{19}$ eV）；Yakutsk（E > $10^{19}$ eV，Efimov & Mikhailov 1994，◦）；> 2 × $10^{20}$ eV 事件（△）。
+- **(a)** Chi et al (1992a) clusters（E > $10^{19}$ eV，"统计上更优的集合"，●）；Hayashida et al (1996) close pairs（E > $4\times10^{19}$ eV，+，平均能量 $9\times10^{19}$ eV）；Yakutsk（E > $10^{19}$ eV，Efimov & Mikhailov 1994，◦）；> $2\times10^{20}$ eV 事件（△）。
 - **(b)** Stanev et al (1995) excess map：深色 = 显著过量，虚线区域 = 最不显著；虚线平滑曲线 = 北半球数据曝光边界近似。
 - **(c)** |b| > 20° 的三区域（A、B、C）—— EG 源关联度最强。
 
@@ -407,7 +407,7 @@ $$
 ### 11.1.5 需要注意的问题
 - 各阵列曝光特征不同（§2.2 已承认）
 - 环圈 clusters 与 Stanev 分析大量共享事件 → 独立证据有限
-- > 2 × $10^{20}$ eV 的"事件"数仅 3，样本极小，但作者仍纳入定性讨论
+- > $2\times10^{20}$ eV 的"事件"数仅 3，样本极小，但作者仍纳入定性讨论
 
 ## 11.2 Figure 2 — 太阳到 VIRGO 的磁场拓扑
 
@@ -471,7 +471,7 @@ Seyfert 星系**仅强烈青睐 Cluster B**，A、C 无明显关联。
 ## 12.1 Table 1 — RMS 偏转角
 
 **[FACT]** 完整数据见 §6.2。关键推论：
-- 4 × $10^{19}$ eV 质子从 VIRGO（15 Mpc）偏转 55° → 与 cluster 尺度可比拟
+- $4\times10^{19}$ eV 质子从 VIRGO（15 Mpc）偏转 55° → 与 cluster 尺度可比拟
 - $10^{20}$ eV 质子从 VIRGO 偏转 22° → 仍可追溯
 
 ## 12.2 Table 2 — 10 Mpc 内碰撞星系
@@ -485,9 +485,9 @@ Seyfert 星系**仅强烈青睐 Cluster B**，A、C 无明显关联。
 | 项目 | 内容 |
 |---|---|
 | **Data Sample** | 来自 Chi et al 1992a（世界数据）、Stanev et al 1995（北半球阵列）、Hayashida et al 1996（AGASA + Akeno）、Efimov & Mikhailov 1994（Yakutsk）、Bird et al 1995（Fly's Eye） |
-| **能量阈值** | Chi: $10^{19}$ eV（cluster 成员）；Stanev: 2 × $10^{19}$ eV；Hayashida close pairs: 4 × $10^{19}$ eV；highest events: > 2 × $10^{20}$ eV |
+| **能量阈值** | Chi: $10^{19}$ eV（cluster 成员）；Stanev: $2\times10^{19}$ eV；Hayashida close pairs: $4\times10^{19}$ eV；highest events: > $2\times10^{20}$ eV |
 | **Star catalogue** | Tully (1988) Nearby Galaxies Catalog — 用于星系匹配 |
-| **Cluster 判据** | ≥ 4 粒子 E > $10^{19}$ eV + 1 粒子 E > 3 × $10^{19}$ eV，在 6° 内 |
+| **Cluster 判据** | ≥ 4 粒子 E > $10^{19}$ eV + 1 粒子 E > $3\times10^{19}$ eV，在 6° 内 |
 | **Hubble 常数** | $H_{0}$ = 75 km s⁻¹ Mpc⁻¹ |
 | **距离分层** | 0–5、5–10、10–15、15–20 Mpc 四层 |
 | **磁场模型输入** | B, $\lambda$ 沿太阳-VIRGO 视线（图 2）；$\lambda$ ∝ B⁻¹ |
@@ -502,7 +502,7 @@ Seyfert 星系**仅强烈青睐 Cluster B**，A、C 无明显关联。
 数据基础：Chi 1992 / Stanev 1995 / Hayashida 1996 / Yakutsk 1994 到达方向分析 →
 约束 1：磁场拓扑（B、$\lambda$）决定偏转角 →
 约束 2：偏转角公式 $\theta$ = 510(l$\lambda$)¹/²/(p_c B) 限制可追溯距离（表 1） →
-约束 3：CMB 相互作用限制最高能（~ 2 × $10^{20}$ eV at 15 Mpc） →
+约束 3：CMB 相互作用限制最高能（~ $2\times10^{20}$ eV at 15 Mpc） →
 方法：在天文星表（Tully 1988）中按星系类型分层匹配 A/B/C →
 匹配结果：Seyfert 只解释 B；碰撞星系解释 A/B/C（0–10 Mpc）；VIRGO + URSA MAJOR 内碰撞星系解释 A/B（15–20 Mpc） →
 能量预算：E⁻² 谱 + $10^{40}$ erg s⁻¹ 总功率 + 磁连接加速机制 + $10^{8}$ 年时标 →
@@ -541,7 +541,7 @@ Seyfert 星系**仅强烈青睐 Cluster B**，A、C 无明显关联。
 | 位置 | 陈述 A | 陈述 B | 可能解释 | 状态 |
 |---|---|---|---|---|
 | §2.2 vs §8 | EG 粒子假设为质子 | > $10^{19}$ eV 大部分来自银河源（重核） | "cluster" 成分 vs "整体流"成分可能不同 | 需澄清 |
-| §4.2 vs §7.2.2 | $10^{20}$ eV 从 VIRGO 偏转 22° | 团激波机制上限 ~ 6 × $10^{19}$ eV | 团激波机制只能产生低能端 EG 粒子 | 明确张力 |
+| §4.2 vs §7.2.2 | $10^{20}$ eV 从 VIRGO 偏转 22° | 团激波机制上限 ~ $6\times10^{19}$ eV | 团激波机制只能产生低能端 EG 粒子 | 明确张力 |
 | 图 3/6 说明 vs 引用 | "Tully (1998)" | 参考文献为 Tully (1988) | 印刷笔误 | 已确认 |
 
 ## 16.3 Information Not Explicitly Provided

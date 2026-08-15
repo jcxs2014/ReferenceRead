@@ -53,7 +53,7 @@
 | Aharonian et al. (2004, 2006, 2007) | RXJ1713.7-3946 HESS |
 | Giordano et al. (2012) | Tycho Fermi-LAT |
 | Acciari et al. (2011) | Tycho VERITAS |
-| **Ackermann et al. (2013, Science 339:807)** | **IC443/W44 $\pi$⁰ 鼓包——里程碑** |
+| **Ackermann et al. (2013, Science 339:807)** | **IC443/W44 $\pi^{0}$ 鼓包——里程碑** |
 | Ackermann et al. (2011, Science 334:1103) | Cygnus superbubble |
 | Morlino & Caprioli (2012) | Tycho 多频建模 |
 | Berezhko et al. (2013) | Tycho 强子起源 + 密度不均匀 |
@@ -93,14 +93,14 @@
 2. MFA + NLDSA 的核心框架仍成立，但需**修订**（散射中心速度、强流区增长率）；
 3. **新数据**（PAMELA 硬化、AMS-02 正电子分数）指向新物理；
 4. 正电子分数上升：暗物质 vs 脉冲星，**尚无定论**；
-5. Balmer 线是"CR 量热器"——**最有望的定量 $\xi$_CR 测量工具**，但仍需完备观测。
+5. Balmer 线是"CR 量热器"——**最有望的定量 $\xi_{\rm CR}$ 测量工具**，但仍需完备观测。
 
 ## 10.4 两篇的合流观点
 
 **[FACT]** 两篇一致认同：
 - SNR 是**最可能**的银河系 CR 来源；
 - DSA + MFA 是**核心机制**；
-- $\xi$_CR ~ 10% 是**能量学必需**；
+- $\xi_{\rm CR}$ ~ 10% 是**能量学必需**；
 - 单一 SNR 加速到膝**未被直接证明**；
 - **理论预测的硬谱与观测的陡谱**存在系统性张力，是当前最大未解问题；
 - 未来 CTA、高分辨率 Balmer 线、Galactic $\gamma$ 射线空间分布是**关键突破口**。

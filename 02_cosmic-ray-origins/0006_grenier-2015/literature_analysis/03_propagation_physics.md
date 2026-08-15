@@ -84,7 +84,7 @@
 - 排除主导多数核心构型 → 电离 CR 密度减少 2–4 倍（Padovani & Galli 2011）。
 - 收缩前恒星核心中心离子化率可降至 <$10^{-18}$ s⁻¹（Padovani 2013）。
 
-**[FACT]** CR 在致密核心间的磁场瓶中被困住 → 局部 $\gamma$-ray emissivity q$\gamma$_H 可能增加：
+**[FACT]** CR 在致密核心间的磁场瓶中被困住 → 局部 $\gamma$-ray emissivity q$\gamma_{\rm H}$ 可能增加：
 - 预测增加 3–5 倍（Cesarsky & Volk 1978）
 - 数值模拟表明 TeV 粒子有效散射于磁湍动 → 在云的均匀+湍动场中平滑扩散（Fatuzzo 2010）。
 

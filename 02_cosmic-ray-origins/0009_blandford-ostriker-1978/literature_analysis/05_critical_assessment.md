@@ -70,7 +70,7 @@ BO 1978 是 DSA 理论的**奠基之作之一**（与 Bell 1977 和 ALS 1977 并
 ### 已证实的部分
 
 - DSA 机制在实验室等离子体中已被实验证实（2010s 激光等离子体实验）
-- $q \approx 4$ 的幂律谱在 SNR 中由费米 LAT 观测到的 $\pi$⁰ 衰变 $\gamma$ 射线证实（Mori et al. 2016, SNR IC 443）
+- $q \approx 4$ 的幂律谱在 SNR 中由费米 LAT 观测到的 $\pi^{0}$ 衰变 $\gamma$ 射线证实（Mori et al. 2016, SNR IC 443）
 - AMS-02 观测的电子谱在 PeV 范围符合 DSA 预测
 
 ### 仍需完善的部分

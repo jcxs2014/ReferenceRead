@@ -128,7 +128,7 @@ References
 **[FACT]** 两份文献**高度重叠**（Amato 是 Blasi 合作者，两人同在 INAF Arcetri 高能天体物理组），Amato 2014 版本中明确引用 Blasi 2013 作为"其他优秀近期综述"，但两篇的切入角度不同：
 
 - **Blasi (2013)**：理论更系统、公式更完整（包含完整的色散关系推导、色散关系 (85) 式、非线性动理学方程组），观测部分覆盖 SNR + 分子云 + H$\alpha$；更偏"教科书式"综述。
-- **Amato (2014)**：更突出**最新**（2013-2014）进展——PAMELA 质子谱硬化、AMS-02 正电子分数、Fermi-LAT 分子云 $\pi$⁰ 鼓包、W44/IC443 强证据；对 NLDSA + MFA 的理论修订讨论更深（特别是"强流区"色散关系的完整推导和"标准"增长率的错误使用问题）。
+- **Amato (2014)**：更突出**最新**（2013-2014）进展——PAMELA 质子谱硬化、AMS-02 正电子分数、Fermi-LAT 分子云 $\pi^{0}$ 鼓包、W44/IC443 强证据；对 NLDSA + MFA 的理论修订讨论更深（特别是"强流区"色散关系的完整推导和"标准"增长率的错误使用问题）。
 
 **[INTERPRETATION]** 两篇合起来构成一个**互补综述对**：Blasi 给出理论框架，Amato 补充最新观测与理论更新。
 
@@ -142,15 +142,15 @@ References
 | NLDSA | Non-Linear DSA（非线性 DSA） |
 | MFA | Magnetic Field Amplification（磁场放大） |
 | PeVatron | PeV 能量加速器（E ≥ 1 PeV） |
-| $\xi$_CR | CR 加速效率（能量份额） |
-| $\alpha$ / $\gamma$_p | 谱斜率（动量谱） |
+| $\xi_{\rm CR}$ | CR 加速效率（能量份额） |
+| $\alpha$ / $\gamma_{\rm p}$ | 谱斜率（动量谱） |
 | R_sub / R_tot | 亚激波/总压缩比 |
 | v_A | Alfvén 速度 |
 | MFA Bell mode | Bell 非共振不稳定模式（2004） |
 | Filamentation instability | 丝状不稳定性 |
 | B/C ratio | Boron/Carbon 比（传播示踪） |
 | H$\alpha$ | Balmer-$\alpha$ 谱线 |
-| $\pi$⁰ | neutral pion（强子 $\gamma$ 射线示踪） |
+| $\pi^{0}$ | neutral pion（强子 $\gamma$ 射线示踪） |
 
 ---
 

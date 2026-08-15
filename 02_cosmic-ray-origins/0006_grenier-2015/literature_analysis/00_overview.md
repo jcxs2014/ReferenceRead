@@ -103,7 +103,7 @@ Introduction / Scope of the Review
 - **Figure 1** — Local spectra of CR protons and He near Earth / heliopause
 - **Figure 2** — CR electron/positron spectra: AMS-02 + PAMELA + 邻近脉冲星模型
 - **Figure 3** — Proton/He 谱 + B/C 比 vs 传播模型（KOL/KRA/PD）
-- **Figure 4** — $\gamma$-ray emissivity q$\gamma$_H per H 的银河系半径分布 + 局部云对比
+- **Figure 4** — $\gamma$-ray emissivity q$\gamma_{\rm H}$ per H 的银河系半径分布 + 局部云对比
 - **Figure 5** — 全天图：Fermi-LAT $\gamma$ 强度（1 GeV 以上） vs Planck+IRAS 尘埃光学深度
 - **Figure 6** — 银河系内部 $\gamma$-ray 能谱（INTEGRAL+COMPTEL+Fermi-LAT）
 - **Figure 7** — 银河系多波段光度谱（射电→$\gamma$，含 CR 功率分解）

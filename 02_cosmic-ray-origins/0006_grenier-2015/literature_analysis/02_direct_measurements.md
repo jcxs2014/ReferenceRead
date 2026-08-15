@@ -114,7 +114,7 @@
 
 ## 2.6 §2.4 Positron Excess at High Energies — 高能正电子超出
 
-**[FACT]** 近年最令人惊讶的结果：高能正电子超出预期（Adriani 2009; AMS-02; Fermi-LAT）。预期来自银河系内 CR 核与星际气体的强子 $\pi$⁺ 衰变。
+**[FACT]** 近年最令人惊讶的结果：高能正电子超出预期（Adriani 2009; AMS-02; Fermi-LAT）。预期来自银河系内 CR 核与星际气体的强子 $\pi^{\rm +}$ 衰变。
 
 **[FACT]** 总轻子谱在 ~几百 GeV 处**未显示精细结构或峰**（排除 ATIC-2 探测），但显示 TeV 能量处截断迹象（辐射损失）。
 

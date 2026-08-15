@@ -89,9 +89,9 @@
 
 **Kephart-Weiler 场景**：m_M ~ $10^{9}$ – $10^{10}$ GeV 的磁单极子，被**银河磁场加速**至 EHE。
 
-**加速机制**：穿越银河磁场区域（R ~ 30 kpc, B ~ 3×$10^{-6}$ G, L_c ~ 300 pc）获得的动能：
+**加速机制**：穿越银河磁场区域（R ~ 30 kpc, B ~ $3\times10^{-6}$ G, L_c ~ 300 pc）获得的动能：
 ```
-E_K ≃ q_M B L_c √N ≃ 5.7×$10^{20}$ · (B/3×$10^{-6}$ G) · (L_c/300 pc)^(1/2) · (R/30 kpc)^(1/2) eV      (94)
+E_K ≃ q_M B L_c √N ≃ $5.7\times10^{20}$ · (B/$3\times10^{-6}$ G) · (L_c/300 pc)^(1/2) · (R/30 kpc)^(1/2) eV      (94)
 ```
 - N ~ R/L_c 是相干畴数量；√N 因子反映畴间磁取向随机差异。
 - **最小 Dirac 磁荷**：q_M = e/(2$\alpha$)（$\alpha$ = 1/137）。
@@ -103,7 +103,7 @@ E_K ≃ q_M B L_c √N ≃ 5.7×$10^{20}$ · (B/3×$10^{-6}$ G) · (L_c/300 pc)^
 
 **主要问题**：
 - **空气簇射机制**不明：
-  - Monopole 有强相互作用 hadronic "cloud" (~$\Lambda$_QCD⁻¹ ~ few fm) → 有类似质子的强相互作用截面。
+  - Monopole 有强相互作用 hadronic "cloud" (~$\Lambda_{\rm QCD-1}$ ~ few fm) → 有类似质子的强相互作用截面。
   - 还有 monopole-catalyzed baryon-number violating 反应（~$10^{-27}$ cm²）[459]。
   - **大的非弹性度**对大质量粒子（如 monopole）**难以实现** → 空气簇射中能量传输困难 [401]。
 - **到达方向**：应偏向本地银河磁场方向 [462]，但观测 EHECR 各向同性。
@@ -146,21 +146,21 @@ E_K ≃ q_M B L_c √N ≃ 5.7×$10^{20}$ · (B/3×$10^{-6}$ G) · (L_c/300 pc)^
 
 - **Thermal equilibrium 上限**：unitarity 限制自湮灭截面 → 热产生暗物质质量 <~ **500 TeV** [473]。
 - MSRP (m ≥ $10^{12}$ GeV) 必须**非热产生**。
-- 若 $\Omega$_X h² ~ 1 → MSRP 是 CDM（或重要组分）。
+- 若 $\Omega_{\rm X}$ h² ~ 1 → MSRP 是 CDM（或重要组分）。
 
 ### 12.6.4 GHXPD 场景 (Galactic Halo X-Particle Decay) [FACT, [389, 406]]
 
-**核心洞察**：无论宇宙平均 $\Omega$_X 值如何，**X 粒子与 CDM 在银河 halo 内按相同比例聚类**（都只受引力影响）。
+**核心洞察**：无论宇宙平均 $\Omega_{\rm X}$ 值如何，**X 粒子与 CDM 在银河 halo 内按相同比例聚类**（都只受引力影响）。
 
 **银河 halo 平均 X 数密度**（公式 96）：
 ```
-n_X^H ≃ 3×$10^{-13}$ · ($\Omega$_X/$\Omega$_CDM) · ($10^{12}$ GeV/m_X) · ($\rho$_CDM^H / 0.3 GeV cm⁻³)  cm⁻³
+n_X^H ≃ $3\times10^{-13}$ · ($\Omega_{\rm X}$/$\Omega_{\rm CDM}$) · ($10^{12}$ GeV/m_X) · ($\rho_{\rm CDM}^{\rm H}$ / 0.3 GeV cm⁻³)  cm⁻³
 ```
 
 **Halo 与河外贡献的比值 f**（公式 97）：
 ```
 f ≡ j_H/j_ex = $\zeta$ · (n_X^H/n_X^cos) · (R_H/l_E)
-         ≃ 15 $\zeta$ · (0.2/$\Omega$_CDM h²) · (R_H/100 kpc) · (100 Mpc/l_E)
+         ≃ 15 $\zeta$ · (0.2/$\Omega_{\rm CDM}$ h²) · (R_H/100 kpc) · (100 Mpc/l_E)
 ```
 - $\zeta$ = halo 空间分布几何因子（~1）。
 - 等温分布：$\zeta$ ≃ 6.7 [479]。
@@ -179,12 +179,12 @@ f ≡ j_H/j_ex = $\zeta$ · (n_X^H/n_X^cos) · (R_H/l_E)
 
 假设均匀分布（未考虑 halo 聚类）：
 ```
-$\tau$_X ≃ 2.8×$10^{21}$ · ($\Omega$_X h²) · (l_E/100 Mpc) · ($10^{12}$ GeV/m_X)^(1/2)  yr      (95)
+$\tau_{\rm X}$ ≃ $2.8\times10^{21}$ · ($\Omega_{\rm X}$ h²) · (l_E/100 Mpc) · ($10^{12}$ GeV/m_X)^(1/2)  yr      (95)
 ```
-- $\Omega$_X h² ~ 1 → $\tau$_X ~ 3×$10^{21}$ yr (m_X = $10^{12}$ GeV, l_E = 100 Mpc)。
-- 若要解释 EHECR：**$\tau$_X 不能 ≪ $10^{10}$ yr**（否则全部已衰变）→ 但**$\tau$_X ≫ $t_{0}$ 时仍有衰变**。
-- $\tau$_X ~ $t_{0}$ ~ $10^{10}$ yr → 仅需 $\Omega$_X h² ~ 3×$10^{-12}$（m_X = $10^{12}$ GeV）。
-- **$\tau$_X 上限** ~ $10^{22}$ yr（因 m_X >~ $10^{12}$ GeV）。
+- $\Omega_{\rm X}$ h² ~ 1 → $\tau_{\rm X}$ ~ $3\times10^{21}$ yr (m_X = $10^{12}$ GeV, l_E = 100 Mpc)。
+- 若要解释 EHECR：**$\tau_{\rm X}$ 不能 ≪ $10^{10}$ yr**（否则全部已衰变）→ 但**$\tau_{\rm X}$ ≫ $t_{0}$ 时仍有衰变**。
+- $\tau_{\rm X}$ ~ $t_{0}$ ~ $10^{10}$ yr → 仅需 $\Omega_{\rm X}$ h² ~ $3\times10^{-12}$（m_X = $10^{12}$ GeV）。
+- **$\tau_{\rm X}$ 上限** ~ $10^{22}$ yr（因 m_X >~ $10^{12}$ GeV）。
 
 ### 12.6.7 Instanton 衰变 vs 微扰衰变 [FACT, [463]]
 
@@ -236,16 +236,16 @@ $\tau$_X ≃ 2.8×$10^{21}$ · ($\Omega$_X h²) · (l_E/100 Mpc) · ($10^{12}$ G
 | Necklace p | 1 |
 | Vorton decay p | 2 |
 | SCS p | < 1（已排除） |
-| MSRP 寿命 (公式 95) | $\tau$_X ≃ 2.8×$10^{21}$ yr ($\Omega$_X h²=1, m_X=$10^{12}$ GeV) |
+| MSRP 寿命 (公式 95) | $\tau_{\rm X}$ ≃ $2.8\times10^{21}$ yr ($\Omega_{\rm X}$ h²=1, m_X=$10^{12}$ GeV) |
 | MSRP 寿命上限 | ~$10^{22}$ yr |
 | Thermal 暗物质质量上限 | 500 TeV [473] |
-| Galactic halo 增强因子 f (公式 97) | ~15$\zeta$ (0.2/$\Omega$_CDM h²) (R_H/100 kpc)(100 Mpc/l_E) |
+| Galactic halo 增强因子 f (公式 97) | ~15$\zeta$ (0.2/$\Omega_{\rm CDM}$ h²) (R_H/100 kpc)(100 Mpc/l_E) |
 | GHXPD 各向异性 | 10%–40% |
-| Monopole 加速能量 (公式 94) | 5.7×$10^{20}$ eV |
+| Monopole 加速能量 (公式 94) | $5.7\times10^{20}$ eV |
 | Monopole-catalyzed 反应截面 | ~$10^{-27}$ cm² [459] |
 
 ## 12.9 [CRITIQUE] 与 1999 年后对照
 
 - [FACT] **MSRP (GHXPD) 场景**：Auger 数据显示 **UHECR 各向异性**（~40 Mpc 尺度的聚团与 star-forming galaxies 相关）→ **排除 MSRP halo 主导场景**（后者预言 ~halo 尺度各向异性，且与已知源无关）。
-- [FACT] **Auger+IceCube 2018**：E > 4×$10^{19}$ eV UHECR 与 AGN/starburst galaxies **显著相关** [Auger Collaboration, PRD 2018] → 支持**河外离散源**，否定 GHXPD 与 MSRP 主导场景。
+- [FACT] **Auger+IceCube 2018**：E > $4\times10^{19}$ eV UHECR 与 AGN/starburst galaxies **显著相关** [Auger Collaboration, PRD 2018] → 支持**河外离散源**，否定 GHXPD 与 MSRP 主导场景。
 - [FACT] **Instanton 衰变多重性**（Kuzmin-Rubakov 预言 ~10 夸克末态）：尚未有直接观测验证，但其预言的硬光强子化谱（flat 分布）与 TD 场景的 MLLA 谱可区分。

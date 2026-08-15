@@ -60,8 +60,8 @@
 **[FACT]** 两个剖面都可能暗示 X_CO 随银河系半径增加（比外部星系更明显，但需小心）。
 
 **[FACT]** 图 10（CO-dark $H_{2}$ 质量分数分布）：
-- $\gamma$ 射线在 Gould Belt 云（pc 尺度）平均 X_CO = **0.9 × $10^{20}$ cm⁻² K⁻¹ km⁻¹ s**
-- 在 Local 与 Perseus Arms（kpc 尺度）平均 X_CO = **1.9 × $10^{20}$ cm⁻² K⁻¹ km⁻¹ s**
+- $\gamma$ 射线在 Gould Belt 云（pc 尺度）平均 X_CO = **$0.9\times10^{20}$ cm⁻² K⁻¹ km⁻¹ s**
+- 在 Local 与 Perseus Arms（kpc 尺度）平均 X_CO = **$1.9\times10^{20}$ cm⁻² K⁻¹ km⁻¹ s**
 - 附近云低值与 CH 高分辨率或弥漫云分子化学估计一致（Liszt 2010; Cotten & Magnani 2013）。
 - Local/Perseus Arms 平均值仅比外部星系（Sandstrom 2013）均值高 30%。
 
@@ -130,10 +130,10 @@
 
 ### Figure 11 — Chamaeleon 云尘埃性质
 
-**Panel (a)**：N_H$\gamma$ 与 $\tau$_353 或 R 的 2D 直方图相关。
-**Panel (b)**：$\tau$_353/N_H 与 4$\pi$R/N_H 随 N_H m$\lambda$ 的变化。
+**Panel (a)**：N_H$\gamma$ 与 $\tau_{353}$ 或 R 的 2D 直方图相关。
+**Panel (b)**：$\tau_{353}$/N_H 与 4$\pi$R/N_H 随 N_H m$\lambda$ 的变化。
 **Panel (c)**：尘埃颜色温度。
-- **[FACT]** $\tau$_353/N_H 上升 2–4.6 倍；4$\pi$R/N_H 下降 ~2 倍。
+- **[FACT]** $\tau_{353}$/N_H 上升 2–4.6 倍；4$\pi$R/N_H 下降 ~2 倍。
 
 ### Figure 12 — 同步辐射谱（高纬 10°≤|b|≤45°）
 
@@ -149,8 +149,8 @@
 | DNM vs HI-bright | 约 1/5 |
 | 云内 DNM 极端 | 35%, 60% |
 | 半分子 DNM 假设下 CO-dark $H_{2}$ 分数 | 常 > 30% 理论 |
-| Gould Belt X_CO (pc 尺度) | 0.9 × $10^{20}$ cm⁻² K⁻¹ km⁻¹ s |
-| Local/Perseus Arms X_CO (kpc 尺度) | 1.9 × $10^{20}$ cm⁻² K⁻¹ km⁻¹ s |
+| Gould Belt X_CO (pc 尺度) | $0.9\times10^{20}$ cm⁻² K⁻¹ km⁻¹ s |
+| Local/Perseus Arms X_CO (kpc 尺度) | $1.9\times10^{20}$ cm⁻² K⁻¹ km⁻¹ s |
 | 尘埃不透明度变化（Chamaeleon） | 2–4.6 倍 |
 | Chamaeleon 尘埃温度 | 14–22 K |
 | 旋转量数据 | 40,000 河外 |

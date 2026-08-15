@@ -13,11 +13,11 @@
 | 因此 | 因此 | therefore / consequently | adv. | "- **[FACT]** 这些谱指数**对核 (nuclei)** 是**修正了银河系泄漏**之后的值。 - **[FACT]** ISM-SN 的化学丰度接近正常；wind-SN 的贡献**强烈富集 (strongly enriched)**。 - **[FACT]** 在膝处谱在给定**刚度** (rigidity) 向下弯曲，因此更重元素在更高每粒子能量处弯曲。 - **[FACT]** 膝之外，**中等核质量元素** (medi" | 因果 |
 | 而 | 而 | whereas / while / and | conj. | "- **[FACT]** 基于 Prandtl (1925, [57]) 和 von Kármán & Howarth (1938, [45]) 的工作。 - **[FACT]** 用于确定湍流输运的**长度尺度**和**速度尺度**： - 长度尺度：球形激波半径的某个分数 (some fraction of the radius) - 速度尺度：激波两侧速度差 (velocity difference across the s" | 对比/转折 |
 | 进而 | 进而 | furthermore / subsequently | adv. | "- **[FACT]** 基于 Prandtl (1925, [57]) 和 von Kármán & Howarth (1938, [45]) 的工作。 - **[FACT]** 用于确定湍流输运的**长度尺度**和**速度尺度**： - 长度尺度：球形激波半径的某个分数 (some fraction of the radius) - 速度尺度：激波两侧速度差 (velocity difference across the s" | 递进 |
-| 尤其 | 尤其 | in particular / notably | adv. | "- **[FACT]** 穿越热物质一段时间 $\tau$ 后，出现低能截止，分布为： - 截止以下：~$\beta$² d$\beta$ （式 3） - 截止以上：原律 - 截止速度：$\beta$_crit ∼ {Z² (n_e, n_H) $\tau$}^(1/3) （式 4） - **[FACT]** 低于截止的粒子相空间上转移到热粒子库，可改变热粒子化学丰度——对 Li、Be、B 等丰度差异大的元素**尤其重要**。 - **[FACT]** **grammage**（" | 举例 |
+| 尤其 | 尤其 | in particular / notably | adv. | "- **[FACT]** 穿越热物质一段时间 $\tau$ 后，出现低能截止，分布为： - 截止以下：~$\beta^{2}$ d$\beta$ （式 3） - 截止以上：原律 - 截止速度：$\beta_{\rm crit}$ ∼ {Z² (n_e, n_H) $\tau$}^(1/3) （式 4） - **[FACT]** 低于截止的粒子相空间上转移到热粒子库，可改变热粒子化学丰度——对 Li、Be、B 等丰度差异大的元素**尤其重要**。 - **[FACT]** **grammage**（" | 举例 |
 | 特别是 | 特别是 | in particular / specifically | phrase | "- **[FACT]** 定量理论**初见成效**（beginning to show the promise）。 - **[FACT]** 作者呼吁获取**更好的宇宙线相互作用截面**，特别是**接近反应阈值 (critical threshold)** 附近。 - **[FACT]** 这将不仅提供对各种丰度的定量解释，还能让我们真正**用宇宙线相互作用去研究宇宙线和星际介质本身**。" | 举例 |
 | 随后 | 随后 | subsequently | adv. | "- **[FACT]** 研究生：Alina & Fanel Donea、Torsten Ensslin、Karl Mannheim、Heino Falcke、Wolfram Krülls、Jörg Rachen、Henning Seemann、Yiping Wang、Christian Zier。 - **[FACT]** 合作/讨论者：Venya Berezinsky、Jim Cronin、Tom Gaisser、Gopal-Kri" | 顺序 |
 | 最终 | 最终 | eventually | adv. | "- **[FACT]** 基于 Prandtl (1925, [57]) 和 von Kármán & Howarth (1938, [45]) 的工作。 - **[FACT]** 用于确定湍流输运的**长度尺度**和**速度尺度**： - 长度尺度：球形激波半径的某个分数 (some fraction of the radius) - 速度尺度：激波两侧速度差 (velocity difference across the s" | 顺序 |
-| 据 | 据 | according to / based on | prep. | "- **[FACT]** 新理论（始于 [8] Biermann 1993, A&A 271, 649–661）追溯 **< 3 × $10^{18}$ eV** 宇宙线到超新星激波，进入 ISM 或前身星风。 - **[FACT]** 新颖元素：**激波区粒子输运的前提**，受超新星遗迹的射电偏振、射电特征运动、X 射线和射电壳层尺寸 [13] 启发。 - **[FACT]** 这些观测数据暗示**强烈湍流的相互作用区**（而非光滑激波），与" | 因果 |
+| 据 | 据 | according to / based on | prep. | "- **[FACT]** 新理论（始于 [8] Biermann 1993, A&A 271, 649–661）追溯 **< $3\times10^{18}$ eV** 宇宙线到超新星激波，进入 ISM 或前身星风。 - **[FACT]** 新颖元素：**激波区粒子输运的前提**，受超新星遗迹的射电偏振、射电特征运动、X 射线和射电壳层尺寸 [13] 启发。 - **[FACT]** 这些观测数据暗示**强烈湍流的相互作用区**（而非光滑激波），与" | 因果 |
 
 *共 8 个逻辑词，均在本篇分析文本中实际出现。*
 
@@ -107,8 +107,8 @@
 
 ### C5.
 
-> - **[FACT]** 宇宙线到达地球能量范围：**几百 MeV/particle 到 3 × $10^{20}$ eV**。
-- **[FACT]** 质子谱在 GeV 能段接近 **E^−2.75**；He 及更重元素接近 **E^−2.65**，在 **膝 (knee) ≈ 5 × $10^{15}$ eV** 处向下弯曲到约 **E^−3.1**，又在 **踝 (ankle) ≈ 3 × $10^{18}$ eV** 处再次变平（引用 [49, 51, 89]）。
+> - **[FACT]** 宇宙线到达地球能量范围：**几百 MeV/particle 到 $3\times10^{20}$ eV**。
+- **[FACT]** 质子谱在 GeV 能段接近 **E^−2.75**；He 及更重元素接近 **E^−2.65**，在 **膝 (knee) ≈ $5\times10^{15}$ eV** 处向下弯曲到约 **E^−3.1**，又在 **踝 (ankle) ≈ $3\times10^{18}$ eV** 处再次变平（引用 [49, 51, 89]）。
 - **[FACT]** 化学组成大致类似于星际介质，但**相对 Si 而言，H 和 He 被压低**；与太阳高能粒子 (SEP) 一样有低第一电离势元素 (FIP) 的**增强**。
 - **[FACT]** 低能端截止由太阳风相互作用造成；星际空间实际谱延伸得比地球可测能量更低。
 

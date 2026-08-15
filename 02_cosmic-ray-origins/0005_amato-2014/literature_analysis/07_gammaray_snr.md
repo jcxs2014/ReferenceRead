@@ -13,15 +13,15 @@
 - **Fermi-LAT**（空间，GeV）：RXJ1713.7-3946（Abdo 2011），W44（Abdo 2010a），IC443（Abdo 2010c），W28（Abdo 2010a），W51C（Abdo 2009），Tycho（Giordano 2012）
 - **AGILE**：W44（Giuliani 2010, 2011）
 - **VERITAS**（地面 Cherenkov，TeV）：Tycho（Acciari 2011）
-- **Multi-messenger 突破**：Ackermann et al. 2013（Science 339:807）首次确认 **$\pi$⁰ 鼓包**（pi bump）在 IC443 和 W44
+- **Multi-messenger 突破**：Ackermann et al. 2013（Science 339:807）首次确认 **$\pi^{0}$ 鼓包**（pi bump）在 IC443 和 W44
 
 ## 7.2 RXJ1713.7-3946 的"反复横跳"
 
 **[FACT]** 该 SNR（核心塌缩型）的解读历经多次反转：
 
 1. **2004–2009**：HESS 发现 TeV $\gamma$ 射线 + Chandra 亮窄 X 射线边缘（B ~ 160 $\mu$G） → 早期倾向**强子起源**（Morlino et al. 2009）；
-2. **Ellison et al. 2010**：精细热 X 射线分析 → 若电子与质子同温则应有强热发射，未观测到 → 暗示电子温度低；但即使慢速库仑散射也会激发氧线，未观测到 → 气体密度上限很低 → $\pi$⁰ 产率不足 → **转向轻子**；
-3. **Fermi-LAT (Abdo 2011)**：MeV-GeV 谱**过硬**，无法用 $\pi$⁰ 衰变解释 → 确认轻子起源更可能；
+2. **Ellison et al. 2010**：精细热 X 射线分析 → 若电子与质子同温则应有强热发射，未观测到 → 暗示电子温度低；但即使慢速库仑散射也会激发氧线，未观测到 → 气体密度上限很低 → $\pi^{0}$ 产率不足 → **转向轻子**；
+3. **Fermi-LAT (Abdo 2011)**：MeV-GeV 谱**过硬**，无法用 $\pi^{0}$ 衰变解释 → 确认轻子起源更可能；
 4. **Fukui et al. 2012**：$H_{2}$ 分布与 TeV $\gamma$ 射线空间相关 → 又暗示强子起源。
 
 **[FACT]** 轻子起源（ICS）面临的困难：
@@ -44,24 +44,24 @@
 
 **[INTERPRETATION]** Tycho 是"**最接近膝区**"的 SNR，但目前只能到 **500 TeV**——仍差一个量级。
 
-## 7.4 SNR 与分子云（MC）— $\pi$⁰ 鼓包的"smoking gun"
+## 7.4 SNR 与分子云（MC）— $\pi^{0}$ 鼓包的"smoking gun"
 
-**[FACT]** **Ackermann et al. (2013, Science 339:807)** 首次直接探测到 IC443 和 W44 中的 $\pi$⁰ 衰变特征鼓包（~70 MeV）。
+**[FACT]** **Ackermann et al. (2013, Science 339:807)** 首次直接探测到 IC443 和 W44 中的 $\pi^{0}$ 衰变特征鼓包（~70 MeV）。
 
-**[FACT]** Blasi Fig.12：IC443（左）与 W44（右）的 $\gamma$ 射线谱，$\pi$⁰ 鼓包明显。
+**[FACT]** Blasi Fig.12：IC443（左）与 W44（右）的 $\gamma$ 射线谱，$\pi^{0}$ 鼓包明显。
 
 **[FACT]** 其他 MC-SNR 复合体（Fermi-LAT 探测）：W28（G6.4-0.1）、W51C、IC443、W44。
 
 **[FACT]** 关键特征（Blasi）：
 - 这些是**中年龄 SNR**（~$10^{4}$ yr），加速已不活跃 → 谱陡峭；
 - $\gamma$ 射线亮度来自**高靶密度**，而非高 CR 通量；
-- $\gamma$ 射线谱陡峭 → 推断 CR 谱在所有能量 > few GeV 上都比 E⁻² 陡（$\gamma$_e ~ 2.5–3）。
+- $\gamma$ 射线谱陡峭 → 推断 CR 谱在所有能量 > few GeV 上都比 E⁻² 陡（$\gamma_{\rm e}$ ~ 2.5–3）。
 
 **[FACT]** Blasi 区分两类 SNR-MC 复合体：
 1. 激波**直接冲击 MC**（n ~ $10^{3}$ cm⁻³，分子碰撞长度 $\lambda$ ~ $10^{11}$ cm，激波可能退化为**有碰撞**激波）；
 2. SNR 与 MC 分离，CR **扩散**到 MC 后被照射。
 
-**[FACT]** 情形 2 中的**低能截断**现象：CR 谱在 [D(E)·$\tau$_SNR]^{1/2} ~ R_MC 处有低能截断 → 高能粒子先到达 MC。
+**[FACT]** 情形 2 中的**低能截断**现象：CR 谱在 [D(E)·$\tau_{\rm SNR}$]^{1/2} ~ R_MC 处有低能截断 → 高能粒子先到达 MC。
 
 **[FACT]** 该截断在 $\gamma$ 射线谱中表现为低能端近似 ∝ E_$\gamma$^{-1} 的谱（$\pi$ 产额截面 ∝ 1/E）。
 
@@ -87,7 +87,7 @@
 3. 凹谱（少数 SNR 射电）✓
 4. 空间发射轮廓（SN1006 X 射线 → $\xi$ ~ 30%；Tycho → $\xi$ ~ 10%）✓
 5. 放大磁场（X 射线窄边缘 ~0.01 pc → B ~ 100 $\mu$G）✓
-6. $\gamma$ 射线强子示踪（W44、IC443 $\pi$⁰ 鼓包）✓
+6. $\gamma$ 射线强子示踪（W44、IC443 $\pi^{0}$ 鼓包）✓
 
 **张力**（1 项，但严重）：
 - **粒子谱**：所有测到的 SNR 推断谱都比 E⁻² **更陡**（Amato §4.7 直言"discrepancy is clearly very serious"）。

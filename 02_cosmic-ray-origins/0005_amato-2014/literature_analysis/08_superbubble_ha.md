@@ -54,7 +54,7 @@
 **[FACT]** 关键后果（Blasi et al. 2012）：**测试粒子谱在中低能段显著变陡**（取决于 V_sh）：
 
 - V_sh > 3000 km/s → 谱回到标准 ~E⁻²；
-- V_sh ~ 1000 km/s → 谱可极陡（$\gamma$_e ≫ 2），能量由注入能量而非粒子质量主导 → **实际无有效加速**。
+- V_sh ~ 1000 km/s → 谱可极陡（$\gamma_{\rm e}$ ≫ 2），能量由注入能量而非粒子质量主导 → **实际无有效加速**。
 
 **[FACT]** Blasi Fig.13：V_sh 与谱斜率的关系（1、10、100、1000 GeV 粒子），密度 0.1 cm⁻³，B=10 $\mu$G，电离度 50%。
 
@@ -62,9 +62,9 @@
 
 ### 8.2.4 NLDSA + 中性介质（Blasi Fig.14）
 
-**[FACT]** Blasi Fig.14（Morlino et al. 2013c）：V_sh = 4000 km/s, n=0.1 cm⁻³, p_max=50 TeV/c, $\xi$_inj=3.5：
+**[FACT]** Blasi Fig.14（Morlino et al. 2013c）：V_sh = 4000 km/s, n=0.1 cm⁻³, p_max=50 TeV/c, $\xi_{\rm inj}$=3.5：
 - 无加速（黑线）：宽线 + 窄线的基线；
-- 有加速 + 不同湍流加热 $\eta$_TH：**宽线收窄 + 窄线展宽**；
+- 有加速 + 不同湍流加热 $\eta_{\rm TH}$：**宽线收窄 + 窄线展宽**；
 - **中间分量**（width few 100 km/s）在湍流加热强时显著。
 
 ### 8.2.5 SNR 0509-67.5（LMC，50 ± 1 kpc）
@@ -74,21 +74,21 @@
 - NE 缘：FWHM = **3900 ± 800 km/s**，V_sh = 6600 ± 400 km/s；
 - 整个 SNR 平均 V_sh = 6000 ± 300 km/s。
 
-**[FACT]** Blasi Fig.15（Morlino et al. 2013b）：V_sh = 4000 km/s 和 5000 km/s 两种情形下的 FWHM vs. $\xi$_CR（h_N = 10%，$\beta$_down = 0.01/0.1/0.5/1）：
-- 低 V_sh + 完全电子-质子平衡（$\beta$_down=1）：观测 FWHM **兼容无加速**；
-- **快速激波（$\beta$_down ≪ 1，Ghavamian 2007, 2013 支持）**：FWHM 指示 $\xi$_CR ~ **10–20%**。
+**[FACT]** Blasi Fig.15（Morlino et al. 2013b）：V_sh = 4000 km/s 和 5000 km/s 两种情形下的 FWHM vs. $\xi_{\rm CR}$（h_N = 10%，$\beta_{\rm down}$ = 0.01/0.1/0.5/1）：
+- 低 V_sh + 完全电子-质子平衡（$\beta_{\rm down}$=1）：观测 FWHM **兼容无加速**；
+- **快速激波（$\beta_{\rm down}$ ≪ 1，Ghavamian 2007, 2013 支持）**：FWHM 指示 $\xi_{\rm CR}$ ~ **10–20%**。
 
 **[FACT]** 争议点：
-- van Adelsberg et al. (2008) 用过的中性氢分布假设可能**高估** $\xi$_CR；
-- SW 缘实际 V_sh 可能低至 ~4000 km/s → $\xi$_CR 更低。
+- van Adelsberg et al. (2008) 用过的中性氢分布假设可能**高估** $\xi_{\rm CR}$；
+- SW 缘实际 V_sh 可能低至 ~4000 km/s → $\xi_{\rm CR}$ 更低。
 
 ### 8.2.6 RCW86
 
-**[FACT]** Helder et al. (2009) 初测：FWHM = 1100 ± 63 km/s, V_sh = 6000 ± 2800 km/s → 宣称 $\xi$_CR ~ **80%**（异常高）；
+**[FACT]** Helder et al. (2009) 初测：FWHM = 1100 ± 63 km/s, V_sh = 6000 ± 2800 km/s → 宣称 $\xi_{\rm CR}$ ~ **80%**（异常高）；
 
 **[FACT]** Helder et al. (2013) **部分撤回**：更精细的区域分析显示 V_sh 更低，仅在个别区域有边际加速证据。
 
-**[CRITIQUE]** RCW86 案例警示：**距离不确定** + **激波速度局部依赖** + **$\beta$_down 不确定** → $\xi$_CR 推断极其敏感。
+**[CRITIQUE]** RCW86 案例警示：**距离不确定** + **激波速度局部依赖** + **$\beta_{\rm down}$ 不确定** → $\xi_{\rm CR}$ 推断极其敏感。
 
 ### 8.2.7 SN1006（Nikolić et al. 2013）
 
@@ -99,10 +99,10 @@
 
 ### 8.2.8 关键观测需求
 
-**[FACT]** 要定量推断 $\xi$_CR，**必须在同一位置同时测量**：
+**[FACT]** 要定量推断 $\xi_{\rm CR}$，**必须在同一位置同时测量**：
 - 宽 Balmer 线宽；
 - 窄 Balmer 线宽；
 - 中间 Balmer 线宽；
-- 热 X 射线（约束 T_e → $\beta$_down）。
+- 热 X 射线（约束 T_e → $\beta_{\rm down}$）。
 
 目前**没有任何天体满足**这一完备条件。

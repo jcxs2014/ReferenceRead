@@ -37,18 +37,18 @@
 
 ### 2.1 UHECR 观测事实
 
-- **能谱**：膝（~3×$10^{15}$ eV）→ 踝（~3×$10^{18}$ eV）→ GZK 区（> $10^{19}$·⁹ eV）。
+- **能谱**：膝（$~3\times10^{15}$ eV）→ 踝（$~3\times10^{18}$ eV）→ GZK 区（> $10^{19}$·⁹ eV）。
 - **组成**：膝→踝逐渐变轻；踝后变重（与 Auger 2009 结果一致，原文当时仍认为 EHE 为纯核子）。
 - **各向异性**：AGASA 1998–2000 数据 → **大尺度各向同性**，小尺度 ~ 30 Mpc 聚类 [83]。
-- **AGASA 数据显示无 GZK cutoff** [82]（后来 Auger 2007 在 ~6×$10^{19}$ eV 观测到陡峭截断）。
+- **AGASA 数据显示无 GZK cutoff** [82]（后来 Auger 2007 在 $~6\times10^{19}$ eV 观测到陡峭截断）。
 
 ### 2.2 传播物理的关键公式
 
-- **GZK 阈值**（p + $\gamma$_CMB → $\Delta$ → p + $\pi$⁰）：E_p ≳ 5×$10^{19}$ eV。
-- **能量损失长度**：l_E ≃ 50 Mpc（@ E > $10^{20}$ eV）；l_E ≃ 60 Mpc（@ 5×$10^{19}$ eV）。
+- **GZK 阈值**（p + $\gamma_{\rm CMB}$ → $\Delta$ → p + $\pi^{0}$）：E_p ≳ $5\times10^{19}$ eV。
+- **能量损失长度**：l_E ≃ 50 Mpc（@ E > $10^{20}$ eV）；l_E ≃ 60 Mpc（@ $5\times10^{19}$ eV）。
 - **CMB 上 pair production**：E ≃ $10^{13}$ – $10^{15}$ eV 处显著（对光子而言）。
-- **EGMF 效应**：偏转 $\tau$_E ∝ E⁻²（rectilinear），E⁻¹（Bohm），E⁻¹/³（Kolmogorov 扩散）。
-- **AGASA 约束**：B ≲ 2×$10^{-11}$ (l_c/Mpc)^(−1/2)(d/30 Mpc)⁻¹ G（式 38）。
+- **EGMF 效应**：偏转 $\tau_{\rm E}$ ∝ E⁻²（rectilinear），E⁻¹（Bohm），E⁻¹/³（Kolmogorov 扩散）。
+- **AGASA 约束**：B ≲ $2\times10^{-11}$ (l_c/Mpc)^(−1/2)(d/30 Mpc)⁻¹ G（式 38）。
 - **VLI 约束**：(c_p − c) < $10^{-23}$（若 $10^{20}$ eV 事件为质子）。
 
 ### 2.3 Bottom-up（加速）场景的困境
@@ -80,7 +80,7 @@
 | 宇宙弦 loop 碎裂 | 1 | Viable（$\eta$ ~ $10^{13}$ GeV）|
 | Monopolonium | 1 | Viable |
 | Necklaces | 1 | Viable（r ≫ 1）|
-| Vorton 衰变 | 2 | Viable（$\eta$_s ~ $10^{12}$–$10^{14}$ GeV）|
+| Vorton 衰变 | 2 | Viable（$\eta_{\rm s}$ ~ $10^{12}$–$10^{14}$ GeV）|
 | SCS 最简单模型 | < 1 | **已排除**（CMB/BBN 约束）|
 | MSRP 衰变 | 2 | Viable（halo 聚类）|
 
@@ -89,7 +89,7 @@
 | 约束 | 限制 |
 |---|---|
 | **弥漫 $\gamma$-ray** (EGRET) | p = 0 完全排除；p = 1 需 q > 1.7（m_X = $10^{16}$ GeV）；$Q_{0}$ < $10^{-22}$ eV cm⁻³ s⁻¹ |
-| **BBN / 4He 光致分解** | ($^{3}{\rm He}$+D)/H < 5×$10^{-5}$（与 $\gamma$ 约束独立）|
+| **BBN / 4He 光致分解** | ($^{3}{\rm He}$+D)/H < $5\times10^{-5}$（与 $\gamma$ 约束独立）|
 | **CMB 畸变** | 排除 p = 0 |
 | **弥漫 $\nu$ 通量** | SLBY98 ~ 0.15 yr⁻¹ (1 km³ @ > $10^{19}$ eV)，模型无关上限 (式 105) |
 
@@ -110,13 +110,13 @@
 - **Auger 2017–2019**：UHECR 到达方向与**邻近活动星系/星暴星系相关** [Auger PRD 2017–2018] → 支持**河外离散源**，否定 MSRP halo 主导场景，但**兼容 §6.13 中 GHXPD 作为 < 10% 分量的可能性**。
 - **IceCube 2013–2020**：观测到弥漫 $\nu$ 通量，与本文 SLBY98 TD 预言的 ~1 PeV $\nu$ 事件率量级一致。
 - **CMB Planck 2018**：宇宙弦 G$\mu$ < $10^{-7}$ → 排除 GUT-scale ($10^{16}$ GeV) 弦 → 与 §10.6 讨论的 $\eta$ ≲ $10^{13}$ GeV 轻弦场景一致。
-- **GLAST/Fermi-LAT (2008+)**：弥漫 $\gamma$ 谱在 10 MeV–100 GeV 比 EGRET 高 → TD 级联约束**更严**（§13.2 讨论的 $\omega$_cas 上限需下调）。
+- **GLAST/Fermi-LAT (2008+)**：弥漫 $\gamma$ 谱在 10 MeV–100 GeV 比 EGRET 高 → TD 级联约束**更严**（§13.2 讨论的 $\omega_{\rm cas}$ 上限需下调）。
 
 ### 3.2 未验证或被排除的预言
 
-- **AGASA "无 GZK cutoff"** → Auger 2007 观测到清晰 GZK 截断 @ ~6×$10^{19}$ eV → **否定 AGASA 无 cutoff 结论**。
+- **AGASA "无 GZK cutoff"** → Auger 2007 观测到清晰 GZK 截断 @ $~6\times10^{19}$ eV → **否定 AGASA 无 cutoff 结论**。
 - **GHXPD 大尺度各向异性**（10%–40%） → Auger 数据未观测到相应量级的 halo 尺度各向异性 → **GHXPD 主导场景基本被排除**。
-- **MSRP 作为暗物质**（$\Omega$_X h² ~ 1）→ 现代暗物质搜索（LUX, XENON, PandaX, LZ）+ Auger 相关数据 → **超重 MSRP 主导场景受到严重限制**。
+- **MSRP 作为暗物质**（$\Omega_{\rm X}$ h² ~ 1）→ 现代暗物质搜索（LUX, XENON, PandaX, LZ）+ Auger 相关数据 → **超重 MSRP 主导场景受到严重限制**。
 - **纯光子 EHECR** → Auger 组成测量显示 EHECR 为**核子/重核混合**（非光子主导）→ 对纯 TD 光子主导场景不利。
 
 ### 3.3 仍开放的问题

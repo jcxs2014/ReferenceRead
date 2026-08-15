@@ -25,11 +25,11 @@
   - **N**：相位绕组数（守恒电流的来源）。
   - **Z**：总电荷 Q = Ze。
 - **Chiral 状态**：|Z| ≃ |N|，角动量 L ≃ ZN ≃ N²。
-- **半径**：R_v ≃ (2$\pi$)^(−1/2) |NZ|^(1/2) $\eta$_s⁻¹
+- **半径**：R_v ≃ (2$\pi$)^(−1/2) |NZ|^(1/2) $\eta_{\rm s-1}$
 
 ### 11.2.2 GUT-scale Vortons 参数 [FACT]
 
-- $\eta$_s ~ $\eta$_$\sigma$ ~ $10^{16}$ GeV → N ≃ Z ~ 100 → R_v ~ $10^{-28}$ cm（可偏差几个量级）。
+- $\eta_{\rm s}$ ~ $\eta_\sigma$ ~ $10^{16}$ GeV → N ≃ Z ~ 100 → R_v ~ $10^{-28}$ cm（可偏差几个量级）。
 
 ### 11.2.3 暗物质与宇宙学约束 [FACT]
 
@@ -38,19 +38,19 @@
 - 相变阶数影响 vorton 密度 [444]：
   - 二阶相变：$10^{5}$ – $10^{14}$ GeV 被排除（过密）。
   - 一阶相变：$10^{9}$ – $10^{12}$ GeV 被排除。
-  - $\eta$_s ≫ $10^{14}$ GeV：无 vorton 形成。
-  - $\eta$_s ≲ $10^{5}$ GeV（或 $10^{9}$ GeV 一阶）：可做暗物质，但**太重无法产生 EHECR**。
-- **留有窗口**：$\eta$_s ≃ $\eta$_$\sigma$ ~ $10^{12}$ – $10^{14}$ GeV 可能是 EHECR 候选。
+  - $\eta_{\rm s}$ ≫ $10^{14}$ GeV：无 vorton 形成。
+  - $\eta_{\rm s}$ ≲ $10^{5}$ GeV（或 $10^{9}$ GeV 一阶）：可做暗物质，但**太重无法产生 EHECR**。
+- **留有窗口**：$\eta_{\rm s}$ ≃ $\eta_\sigma$ ~ $10^{12}$ – $10^{14}$ GeV 可能是 EHECR 候选。
 
 ### 11.2.4 Vorton 衰变（Davis 半经典模型）[FACT, [445]]
 
-- 隧穿概率：$\tau$_v⁻¹ ~ m_v exp(−$\Delta$E·$\Delta$R)，$\Delta$E·$\Delta$R ≃ N（能量守恒）。
-- 现时代衰变要求 N > N_min ~ ln(t_0 $\eta$_$\sigma$)。
+- 隧穿概率：$\tau_{\rm v-1}$ ~ m_v exp(−$\Delta$E·$\Delta$R)，$\Delta$E·$\Delta$R ≃ N（能量守恒）。
+- 现时代衰变要求 N > N_min ~ ln(t_0 $\eta_\sigma$)。
 - **矛盾**：为得到足够通量，N 不能太大；为在现时代衰变，N 不能太小 → **EHECR 解释困难**。
 
 ### 11.2.5 Vorton 作为 EHECR 粒子 (加速) [FACT, [446]]
 
-- Bonazzola & Peter 提议：m_V ~ Zm, Z ~ 100, m ~ $\eta$_s ~ $\eta$_$\sigma$ ~ $10^{9}$ GeV。
+- Bonazzola & Peter 提议：m_V ~ Zm, Z ~ 100, m ~ $\eta_{\rm s}$ ~ $\eta_\sigma$ ~ $10^{9}$ GeV。
 - 在 AGN / radio galaxy hot spots 可加速到 EHE 能。
 - 但 vortons 与普通物质相互作用未知 → 难以预言空气簇射特征。
 - 预言 EAS 有**线谱成分**。
@@ -61,7 +61,7 @@
 
 **形成**：T ~ T_c 时，monopole-antimonopole 形成亚稳束缚态 monopolonium，结合能 E_b > T。
 - 初始半径：r_i ~ g_m²/(2 E_b)，g_m 为磁荷（Dirac：e g_m = N/2）。
-- 类"磁 Bohr 半径"：a_B^m = 8$\alpha$_e/m_M（$\alpha$_e = 1/137）。
+- 类"磁 Bohr 半径"：a_B^m = 8$\alpha_{\rm e}$/m_M（$\alpha_{\rm e}$ = 1/137）。
 
 **坍缩过程**：monopolonium 逐级跃迁到更紧束缚态，依次发射**光子 → 胶子 → Z → GUT X 玻色子** → 最终核心重叠 → **湮灭为 X 粒子**。
 
@@ -78,13 +78,13 @@
 
 - m_M ~ 40 m_X → 每个 monopolonium 释放 ~80 个 X 粒子。
 - 需要 ~**每几个太阳系体积，每年代，几个 monopolonium 坍缩**（在几十 Mpc 半径内）。
-- 条件：**$\Omega$_M h² $\xi$_f ≃ 1.7×$10^{-8}$ (m_X/$10^{16}$ GeV)^(1/2) [10 Mpc/l(E_$\gamma$)]**
-  - $\xi$_f = monopolonium-to-monopole 形成时分数。
+- 条件：**$\Omega_{\rm M}$ h² $\xi_{\rm f}$ ≃ $1.7\times10^{-8}$ (m_X/$10^{16}$ GeV)^(1/2) [10 Mpc/l(E_$\gamma$)]**
+  - $\xi_{\rm f}$ = monopolonium-to-monopole 形成时分数。
 
 ### 11.3.4 Parker 界与可行性 [FACT]
 
-- Parker 界：($\Omega$_M h²)_Parker < 4×$10^{-3}$ (m_M/$10^{16}$ GeV)²
-- Saha 估计的 $\xi$_f → 所需 monopole 丰度**在 Parker 界内** → **monopolonium 场景 attractive**。
+- Parker 界：($\Omega_{\rm M}$ h²)_Parker < $4\times10^{-3}$ (m_M/$10^{16}$ GeV)²
+- Saha 估计的 $\xi_{\rm f}$ → 所需 monopole 丰度**在 Parker 界内** → **monopolonium 场景 attractive**。
 - **前提**：monopole 过丰问题已被（暴胀等）解决，但留有少许残留丰度（如在暴胀再加热阶段热产生）。
 
 ### 11.3.5 近期动力学研究 [FACT, [450]]
@@ -140,13 +140,13 @@ r ≡ m_M/($\mu$d)         $\mu$ = 弦线能量密度, d = monopole 平均间隔
 | 量 | 值 |
 |---|---|
 | Vorton radius (GUT scale) | ~$10^{-28}$ cm, N~Z~100 |
-| Vorton 衰变寿命 $\tau$_v⁻¹ | ~ m_v exp(−N) |
-| Vorton EHECR 窗口 | $\eta$_s ≃ $\eta$_$\sigma$ ~ $10^{12}$ – $10^{14}$ GeV |
+| Vorton 衰变寿命 $\tau_{\rm v-1}$ | ~ m_v exp(−N) |
+| Vorton EHECR 窗口 | $\eta_{\rm s}$ ≃ $\eta_\sigma$ ~ $10^{12}$ – $10^{14}$ GeV |
 | Vorton EHECR 加速质量 (Bonazzola-Peter) | Z ~ 100, m ~ $10^{9}$ GeV → m_V ~ $10^{11}$ GeV |
 | Monopole mass (GUT) | ~ $10^{17}$ GeV |
 | Monopolonium 寿命标度 | $\tau$ ∝ r_i³ |
-| 现时代 EHECR 要求 | $\Omega$_M h² $\xi$_f ≃ 1.7×$10^{-8}$ (m_X/$10^{16}$ GeV)^(1/2) |
-| Parker 界 | $\Omega$_M h² < 4×$10^{-3}$ (m_M/$10^{16}$ GeV)² |
+| 现时代 EHECR 要求 | $\Omega_{\rm M}$ h² $\xi_{\rm f}$ ≃ $1.7\times10^{-8}$ (m_X/$10^{16}$ GeV)^(1/2) |
+| Parker 界 | $\Omega_{\rm M}$ h² < $4\times10^{-3}$ (m_M/$10^{16}$ GeV)² |
 | Necklace X 产率 (公式 91) | ṅ_X ~ r²$\mu$/(m_X t³) |
 
 ## 11.6 [CRITIQUE]

@@ -47,7 +47,7 @@ path: 02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview.md
 ## 0.3 全文结构树
 
 ```
-1. 超新星能量学：稳态需求 ~3×$10^{42}$ erg/s 与超新星供给
+1. 超新星能量学：稳态需求 $~3\times10^{42}$ erg/s 与超新星供给
 2. 膝部（$10^{15}$–$10^{16}$ eV）：加速上限、JACEE 组分、Hillas 图
 3. 反质子：阈值 5.63 GeV、产生截面、三种模型对比
 ```
