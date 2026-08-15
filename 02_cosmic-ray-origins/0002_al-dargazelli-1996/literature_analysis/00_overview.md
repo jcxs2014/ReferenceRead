@@ -16,7 +16,7 @@ tags:
 - colliding galaxies
 - VIRGO cluster
 - GZK cutoff
-citations: []
+citations:
 - '[[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview|0001_bhattacharjee-sigl-2000]]'
 path: 02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overview.md
 ---

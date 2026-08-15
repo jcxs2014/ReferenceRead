@@ -26,7 +26,7 @@ tags:
 - CNO 循环
 - AGB nucleosynthesis
 - r-process site
-citations: []
+citations:
 - '[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]]'
 - '[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]]'
 path: 03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview.md
