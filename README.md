@@ -49,9 +49,8 @@ papers/
 │   │   ├── build_citations.py      ← citations 唯一生成器（篇间导航 → 库内引用）
 │   │   ├── build_registry.py       ← 读 45 frontmatter → webapp/registry.json
 │   │   ├── build_glossary.py       ← 从 38 篇 98_vocabulary.md 抽 → 05_glossary.md
-│   │   ├── build_pwa.py            ← PWA 资源（manifest + 图标 + apple-touch-icon）
-│   │   ├── apply_wikilinks.py      ← V2.2: 导航/citations → Obsidian wikilink
-│   │   ├── patch_appendix_nav.py   ← V2.2: 给 97/98 附录补链（防孤立）
+│   │   ├── archive/               ← 已完成使命脚本（apply_wikilinks/patch_appendix_nav/build_pwa，按需重生成）
+│   │   ├── audit.py                ← 构建后审计（18 条断言，失败非零退出）
 │   │   ├── audit.py                ← 构建后审计（18 条断言，失败非零退出）
 │   │   ├── server.py               ← 形态 B 服务层（/api/progress?slug=, /api/rebuild）
 │   │   ├── md2doc_html.py          ← md → HTML 片段
@@ -167,10 +166,10 @@ PDF 原文
 ⑨ 提交     git add -f <新篇目录> + git commit
 ```
 
-**V2.2 wikilink 化**（可选，让 Obsidian Graph 显示论文间连线）：
+**V2.2 wikilink 化**（已全部落地：图谱孤立 0/385；新文献入库时按需跑，脚本在 archive/）：
 ```bash
-python3 webapp/patch_appendix_nav.py     # 97/98 补链（孤立节点）
-python3 webapp/apply_wikilinks.py        # 导航头 + citations → [[wikilink]]（含编号对齐修复）
+python3 webapp/scripts/archive/patch_appendix_nav.py     # 97/98 补链（孤立节点）
+python3 webapp/scripts/archive/apply_wikilinks.py        # 导航头 + citations → [[wikilink]]
 ```
 
 ## 常用命令
@@ -202,7 +201,7 @@ git log --oneline -10
 env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0].get_text())"
 ```
 
-## webapp 工具链（12 脚本）
+## webapp 工具链（9 脚本 + 3 归档）
 
 | 脚本 | 职责 | 调用顺序 |
 |---|---|---|
@@ -212,14 +211,13 @@ env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0]
 | `build_glossary.py` | 769 术语解析 → `glossary.json` | 4 |
 | `build_webapp.py` | 主构建（`--include-papers` 收论文） | 5 |
 | `audit.py` | 18 条断言（label/年份/TOC/citations/图谱） | 6 |
-| `build_pwa.py` | PWA 资源（manifest + 图标） | 7 |
-| `apply_wikilinks.py` | V2.2 导航/citations → wikilink | 8 |
-| `patch_appendix_nav.py` | V2.2 97/98 补链 | 8 前置 |
 | `server.py` | 形态 B 进度 API | 独立 |
 | `md2doc_html.py` | md → HTML 片段 | build_webapp 内部 |
 | `build_search_index.py` | 全文搜索索引 | build_webapp 内部 |
 
-**最小可重跑链**：`build_citations → build_fm → build_registry → build_webapp → audit`
+**最小可重跑链**：`build_registry → build_glossary → build_search_index → build_webapp → audit`
+
+**已归档 3 脚本**（`webapp/scripts/archive/`，已完成使命，新文献入库时按需跑）：`apply_wikilinks.py`（图谱 wikilink 化）、`patch_appendix_nav.py`（97/98/99 补导航）、`build_pwa.py`（PWA 资源重生成）——详见 `webapp/README.md` 注意事项 3。
 
 **scripts/ 库级工具**（9 脚本）：`gen_index.py`（INDEX 生成）、`gen_quality_check.py`（97 生成）、`gen_glossary.py`（已被 build_glossary 替代）、`build_all.py`（全链路编排）、`quality_matrix.py`（质量矩阵 + 子节镜像统计）、`verify_claim.sh`（声称完成门禁）、`convert_unicode_math.py` / `convert_supsub.py` / `fix_math_fragmentation.py`（公式 Unicode → LaTeX / 上下标 → LaTeX / 割裂修复，文献内容处理）
 

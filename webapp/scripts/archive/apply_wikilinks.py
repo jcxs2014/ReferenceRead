@@ -21,7 +21,7 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent.parent
 CAT_DIRS = ["01_cosmic-ray-propagation", "02_cosmic-ray-origins", "03_stellar-nucleosynthesis"]
 NAV_RE = re.compile(r"^(>\s*(?:上一章|下一章)[：:])\s*`([^`]+\.md)`\s*$")
 CIT_INLINE_RE = re.compile(r"^citations:\s*\[(.*?)\]\s*$")

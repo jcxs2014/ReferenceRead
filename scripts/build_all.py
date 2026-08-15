@@ -49,23 +49,24 @@ print(f"[build_all] Using python: {PY}")
 
 # ── Steps ────────────────────────────────────────────────────────────────────
 STEPS: list[dict] = [
-    {"id": "citations", "cmd": [PY, str(WEBAPP / "build_citations.py"), "--dry-run" if os.environ.get("DRY") else ""],
+    {"id": "citations", "cmd": [PY, str(WEBAPP / "scripts" / "build_citations.py"), "--dry-run" if os.environ.get("DRY") else ""],
      "label": "citations"},
-    {"id": "fm", "cmd": [PY, str(WEBAPP / "build_fm.py"), "--dry-run" if os.environ.get("DRY") else ""],
+    {"id": "fm", "cmd": [PY, str(WEBAPP / "scripts" / "build_fm.py"), "--dry-run" if os.environ.get("DRY") else ""],
      "label": "frontmatter"},
-    {"id": "registry", "cmd": [PY, str(WEBAPP / "build_registry.py"), "--dry-run" if os.environ.get("DRY") else ""],
+    {"id": "registry", "cmd": [PY, str(WEBAPP / "scripts" / "build_registry.py"), "--dry-run" if os.environ.get("DRY") else ""],
      "label": "registry"},
-    {"id": "glossary", "cmd": [PY, str(WEBAPP / "build_glossary.py"), "--dry-run" if os.environ.get("DRY") else ""],
+    {"id": "glossary", "cmd": [PY, str(WEBAPP / "scripts" / "build_glossary.py"), "--dry-run" if os.environ.get("DRY") else ""],
      "label": "glossary"},
     {"id": "index", "cmd": [PY, str(ROOT / "scripts" / "gen_index.py"), "--check"],
      "label": "INDEX.md"},
-    {"id": "search_index", "cmd": [PY, str(WEBAPP / "build_search_index.py")],
+    {"id": "search_index", "cmd": [PY, str(WEBAPP / "scripts" / "build_search_index.py")],
      "label": "search_index"},
     {"id": "webapp", "cmd": [PY, str(WEBAPP / "scripts" / "build_webapp.py"), "--include-papers"],
      "label": "webapp"},
-    {"id": "pwa", "cmd": [PY, str(WEBAPP / "build_pwa.py")],
-     "label": "PWA"},
-    {"id": "audit", "cmd": [PY, str(WEBAPP / "audit.py")],
+    # PWA 资源（manifest/icon）已生成并注入 shell.html；重生成按需运行：
+    #   python3 webapp/scripts/archive/build_pwa.py
+    # {"id": "pwa", "cmd": [PY, str(WEBAPP / "scripts" / "archive" / "build_pwa.py")], "label": "PWA"},
+    {"id": "audit", "cmd": [PY, str(WEBAPP / "scripts" / "audit.py")],
      "label": "audit"},
     {"id": "quality", "cmd": [PY, str(ROOT / "scripts" / "quality_matrix.py"), "--check"],
      "label": "quality_matrix"},
@@ -90,23 +91,21 @@ def main() -> None:
         # 更新 cmd（根据 args.dry 重新构建）
         dry_flag = "--dry-run" if args.dry else ""
         if step["id"] == "citations":
-            cmd = [PY, str(WEBAPP / "build_citations.py")] + ([dry_flag] if dry_flag else [])
+            cmd = [PY, str(WEBAPP / "scripts" / "build_citations.py")] + ([dry_flag] if dry_flag else [])
         elif step["id"] == "fm":
-            cmd = [PY, str(WEBAPP / "build_fm.py")] + ([dry_flag] if dry_flag else [])
+            cmd = [PY, str(WEBAPP / "scripts" / "build_fm.py")] + ([dry_flag] if dry_flag else [])
         elif step["id"] == "registry":
-            cmd = [PY, str(WEBAPP / "build_registry.py")] + ([dry_flag] if dry_flag else [])
+            cmd = [PY, str(WEBAPP / "scripts" / "build_registry.py")] + ([dry_flag] if dry_flag else [])
         elif step["id"] == "glossary":
-            cmd = [PY, str(WEBAPP / "build_glossary.py")] + ([dry_flag] if dry_flag else [])
+            cmd = [PY, str(WEBAPP / "scripts" / "build_glossary.py")] + ([dry_flag] if dry_flag else [])
         elif step["id"] == "index":
             cmd = [PY, str(ROOT / "scripts" / "gen_index.py"), "--check"]
         elif step["id"] == "search_index":
-            cmd = [PY, str(WEBAPP / "build_search_index.py")]
+            cmd = [PY, str(WEBAPP / "scripts" / "build_search_index.py")]
         elif step["id"] == "webapp":
             cmd = [PY, str(WEBAPP / "scripts" / "build_webapp.py"), "--include-papers"]
-        elif step["id"] == "pwa":
-            cmd = [PY, str(WEBAPP / "build_pwa.py")]
         elif step["id"] == "audit":
-            cmd = [PY, str(WEBAPP / "audit.py")]
+            cmd = [PY, str(WEBAPP / "scripts" / "audit.py")]
         else:
             continue
 

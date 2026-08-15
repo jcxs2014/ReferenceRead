@@ -21,7 +21,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent.parent
 WEBAPP = ROOT / "webapp"
 SHELL = WEBAPP / "shell.html"
 

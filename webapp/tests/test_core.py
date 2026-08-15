@@ -25,7 +25,7 @@ from webapp.scripts.build_fm import (
 )
 from webapp.scripts.build_webapp import _clean_author, _fmt_authors, slug
 from scripts.gen_index import _fmt_title
-from webapp.scripts.apply_wikilinks import (
+from webapp.scripts.archive.apply_wikilinks import (
     convert_nav_line,
     nav_link_target,
     stem_to_cat,
