@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**289 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **38 篇文献**、**284 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -16,7 +16,7 @@
 |---|---|
 | 作者 | Andrew W. Strong¹, Igor V. Moskalenko², Vladimir S. Ptuskin³ |
 | 期刊 |  |
-| 分析文件 | 8 个（00_overview.md、01_theoretical_background.md、02_confrontation_with_data.md、03_figures.md、04_references.md、…等 8 个） |
+| 分析文件 | 3 个（00_overview.md、98_vocabulary.md、99_final_summary.md） |
 | 目录 | [`01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/99_final_summary.md) |
@@ -516,9 +516,9 @@
 
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
-| 01. 宇宙线传播 | 6 | 23 |
+| 01. 宇宙线传播 | 6 | 18 |
 | 02. 宇宙线起源 | 15 | 99 |
 | 03. 恒星核合成与元素丰度 | 17 | 167 |
-| **合计** | **38** | **289** |
+| **合计** | **38** | **284** |
 
 > 最后更新: 2026-08-15（自动生成）
