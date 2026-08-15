@@ -20,7 +20,7 @@ $$V_{ej} = 10000\, E_{51}^{1/2}\, M_{ej,\odot}^{-1/2}\,\mathrm{km/s}$$
 
 $$c_s = \sqrt{\frac{\gamma_g kT}{m_p}} \approx 11\left(\frac{T}{10^4\,\mathrm{K}}\right)^{1/2}\,\mathrm{km/s}$$
 
-其中 γ_g = 5/3（绝热指数）
+其中 $\gamma$_g = 5/3（绝热指数）
 
 **[FACT]** 激波 Mach 数（Blasi 式 (6)）：
 
@@ -73,7 +73,7 @@ $$v_z(t) = v_\parallel = v\mu = \mathrm{const}$$
 
 回旋频率 $\Omega = qB_0/(mc\gamma)$
 
-**[FACT]** 引入 Alfvén 波扰动（δB 沿 x̂ 偏振），共振散射率（Blasi 式 (28)）：
+**[FACT]** 引入 Alfvén 波扰动（$\delta$B 沿 x̂ 偏振），共振散射率（Blasi 式 (28)）：
 
 $$\left\langle \frac{\Delta\mu\,\Delta\mu}{\Delta t} \right\rangle_\phi = \pi \Omega^2 \left(\frac{\delta B}{B_0}\right)^2 \frac{(1-\mu^2)}{\mu}\,\delta\!\left(k - \frac{\Omega}{v\mu}\right)$$
 
@@ -81,7 +81,7 @@ $$\left\langle \frac{\Delta\mu\,\Delta\mu}{\Delta t} \right\rangle_\phi = \pi \O
 
 $$D(p) = \frac{1}{3} v(v\tau) \simeq \frac{1}{3}\, r_L\, v\, \left(\frac{k\,P(k)}{B_0^2/8\pi}\right)^{-1} = \frac{1}{3}\, r_L\, v\, \frac{1}{F}$$
 
-**[FACT]** 量级估计：H²/D(p) ~ $10^{7}$ yr 对应 D ~ $10^{29}$ cm²/s → δB/B ~ 6×$10^{-4}$（共振波长处），即**微量的 Alfvén 波功率即可满足银河系尺度上的 CR 约束**。
+**[FACT]** 量级估计：H²/D(p) ~ $10^{7}$ yr 对应 D ~ $10^{29}$ cm²/s → $\delta$B/B ~ 6×$10^{-4}$（共振波长处），即**微量的 Alfvén 波功率即可满足银河系尺度上的 CR 约束**。
 
 ## 3.5 DSA 输运方程（Blasi §3.3 / Amato §2）
 
@@ -105,9 +105,9 @@ $$f_0(p) = \frac{3r}{r-1}\,\frac{\eta n_1}{4\pi p_{inj}^2}\left(\frac{p}{p_{inj}
 
 $$\boxed{\alpha = \frac{3r}{r-1}}$$
 
-- r 为压缩比，强激波时 r → 4 → α → 4
+- r 为压缩比，强激波时 r → 4 → $\alpha$ → 4
 - 动量谱 p⁻⁴ 对相对论粒子等价于能量谱 E⁻²
-- 亚相对论：n(ε) ∝ ε⁻³/²
+- 亚相对论：n($\epsilon$) ∝ $\epsilon$⁻³/²
 - 谱形状**不依赖于扩散系数**（test-particle 的核心结果）
 
 **[FACT]** 压缩比（Blasi 式 (33)；Amato 式 (2)）：
@@ -120,7 +120,7 @@ $$r = \frac{4 M_s^2}{M_s^2 + 3} \xrightarrow{M_s\gg 1} 4$$
 
 $$\left\langle \frac{\Delta E}{E}\right\rangle = \frac{4}{3}\beta$$
 
-其中 β = ($u_{1}$−$u_{2}$)/c → **一阶 Fermi 加速**（∝ β¹，对比二阶 Fermi 的 ∝ β²）
+其中 $\beta$ = ($u_{1}$−$u_{2}$)/c → **一阶 Fermi 加速**（∝ $\beta$¹，对比二阶 Fermi 的 ∝ $\beta$²）
 
 **[FACT]** 加速时间（Blasi 式 (46)-(47)；Amato 式 (3)）：
 
@@ -130,8 +130,8 @@ $$\tau_{acc} = \frac{3}{u_1-u_2}\left(\frac{D_1}{u_1} + \frac{D_2}{u_2}\right) \
 
 | 定义 | 条件 | 适用场景 |
 |---|---|---|
-| (1) 时标 | τ_acc(E_max) = τ_SNR | 主要，粒子在 SNR 年龄内被加速 |
-| (2) 逃逸 | D(p_max)/V_sh ≈ χ R_sh，χ < 1 | Sedov-Taylor 相 |
+| (1) 时标 | $\tau$_acc(E_max) = $\tau$_SNR | 主要，粒子在 SNR 年龄内被加速 |
+| (2) 逃逸 | D(p_max)/V_sh ≈ $\chi$ R_sh，$\chi$ < 1 | Sedov-Taylor 相 |
 | (3) 几何 | r_L(p_max) = R_sh | 严格上界，高估 ~c/V_sh |
 
 **[FACT]** 关键约束（Blasi 式 (48)-(50)）：
@@ -140,15 +140,15 @@ $$\frac{1}{3} r_L(p_{max}) c\, F(k_{min}) \approx \tau_{SNR}$$
 
 $$r_L(p_{max}) = 1\,\mathrm{pc}\, \left(\frac{E}{10^{15}\,\mathrm{eV}}\right) B_{\mu G}^{-1}$$
 
-**[FACT]** **PeVatron 条件**（Blasi）：为使 SNR 能到 $10^{15}$ eV，必须 $F(k_{min}) \gg 1$，即 δB/$B_{0}$ ≫ 1 → **必须磁场放大 ~10–100 倍**。若用 ISM 的 B/C 反推扩散系数，则 E_max 远不及 GeV。
+**[FACT]** **PeVatron 条件**（Blasi）：为使 SNR 能到 $10^{15}$ eV，必须 $F(k_{min}) \gg 1$，即 $\delta$B/$B_{0}$ ≫ 1 → **必须磁场放大 ~10–100 倍**。若用 ISM 的 B/C 反推扩散系数，则 E_max 远不及 GeV。
 
-**[FACT]** Amato 明确给出：若 ISM 湍流（Kolmogorov）不放大 → $E_{Max} \sim$ few GeV；若场放大到 δB ≈ $B_{0}$ → $E_{Max} \sim 10^4$–$10^5$ GeV，仍差 30–100 倍；因此**放大是必需的**。
+**[FACT]** Amato 明确给出：若 ISM 湍流（Kolmogorov）不放大 → $E_{Max} \sim$ few GeV；若场放大到 $\delta$B ≈ $B_{0}$ → $E_{Max} \sim 10^4$–$10^5$ GeV，仍差 30–100 倍；因此**放大是必需的**。
 
 ## 3.7 Test-Particle 理论的已知局限（Blasi §3.4 尾）
 
 **[FACT]** 三种已知偏离：
 1. 稳态假设 → 无最大能量的问题；
-2. δB/$B_{0}$ ≫ 1 时准线性理论失效；
-3. 各向异性/垂直扩散在 δB/$B_{0}$ → 1 时成为主导（NLGC 理论，Matthaeus 2003）。
+2. $\delta$B/$B_{0}$ ≫ 1 时准线性理论失效；
+3. 各向异性/垂直扩散在 $\delta$B/$B_{0}$ → 1 时成为主导（NLGC 理论，Matthaeus 2003）。
 
 **[INTERPRETATION]** 这些局限正是**过渡到 NLDSA** 的动机，见第 4 章。

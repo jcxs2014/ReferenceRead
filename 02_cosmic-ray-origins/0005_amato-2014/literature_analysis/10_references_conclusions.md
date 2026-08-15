@@ -53,13 +53,13 @@
 | Aharonian et al. (2004, 2006, 2007) | RXJ1713.7-3946 HESS |
 | Giordano et al. (2012) | Tycho Fermi-LAT |
 | Acciari et al. (2011) | Tycho VERITAS |
-| **Ackermann et al. (2013, Science 339:807)** | **IC443/W44 π⁰ 鼓包——里程碑** |
+| **Ackermann et al. (2013, Science 339:807)** | **IC443/W44 $\pi$⁰ 鼓包——里程碑** |
 | Ackermann et al. (2011, Science 334:1103) | Cygnus superbubble |
 | Morlino & Caprioli (2012) | Tycho 多频建模 |
 | Berezhko et al. (2013) | Tycho 强子起源 + 密度不均匀 |
-| Helder et al. (2010, 2011) | SNR 0509-67.5 Hα |
-| Helder et al. (2009, 2013) | RCW86 Hα |
-| Nikolić et al. (2013) | SN1006 Hα |
+| Helder et al. (2010, 2011) | SNR 0509-67.5 H$\alpha$ |
+| Helder et al. (2009, 2013) | RCW86 H$\alpha$ |
+| Nikolić et al. (2013) | SN1006 H$\alpha$ |
 | Ghavamian et al. (2013) | Balmer 线综述 |
 | Heng (2010) | Balmer 线作为 CR 量热器理论 |
 | Morlino et al. (2012, 2013c) | 部分电离介质 NLDSA |
@@ -80,11 +80,11 @@
 
 **[FACT]** Blasi 结尾强调：
 1. **CR 起源 = 加速 + 逃逸 + 传播** 三重卷积，每层非线性；
-2. **SNR 范式**有足够间接证据：γ 射线强子示踪、MFA 磁边、Hα 异常；
+2. **SNR 范式**有足够间接证据：$\gamma$ 射线强子示踪、MFA 磁边、H$\alpha$ 异常；
 3. **膝区问题**仍开放——单个 SNR 加速到膝尚无直接证据；
 4. **MFA 微观机制**尚不完整——特别是 PeV 粒子散射的**尺度**问题；
 5. **谱斜率张力**——NLDSA 硬谱 vs 观测陡谱 vs 各向异性约束；
-6. **未来关键实验**：CTA（高分辨率 γ 射线）、AMS-02/PAMELA 后续数据、Balmer 线高精度测量。
+6. **未来关键实验**：CTA（高分辨率 $\gamma$ 射线）、AMS-02/PAMELA 后续数据、Balmer 线高精度测量。
 
 ## 10.3 Amato §10 结论（关键要点）
 
@@ -93,17 +93,17 @@
 2. MFA + NLDSA 的核心框架仍成立，但需**修订**（散射中心速度、强流区增长率）；
 3. **新数据**（PAMELA 硬化、AMS-02 正电子分数）指向新物理；
 4. 正电子分数上升：暗物质 vs 脉冲星，**尚无定论**；
-5. Balmer 线是"CR 量热器"——**最有望的定量 ξ_CR 测量工具**，但仍需完备观测。
+5. Balmer 线是"CR 量热器"——**最有望的定量 $\xi$_CR 测量工具**，但仍需完备观测。
 
 ## 10.4 两篇的合流观点
 
 **[FACT]** 两篇一致认同：
 - SNR 是**最可能**的银河系 CR 来源；
 - DSA + MFA 是**核心机制**；
-- ξ_CR ~ 10% 是**能量学必需**；
+- $\xi$_CR ~ 10% 是**能量学必需**；
 - 单一 SNR 加速到膝**未被直接证明**；
 - **理论预测的硬谱与观测的陡谱**存在系统性张力，是当前最大未解问题；
-- 未来 CTA、高分辨率 Balmer 线、Galactic γ 射线空间分布是**关键突破口**。
+- 未来 CTA、高分辨率 Balmer 线、Galactic $\gamma$ 射线空间分布是**关键突破口**。
 
 ## 10.5 建议进一步阅读
 
@@ -112,7 +112,7 @@
 | DSA 完整综述 | Blandford & Eichler 1987 (Phys Rep 154:1) |
 | NLDSA 完整综述 | Malkov & Drury 2001 (Reports on Progress in Physics 64) |
 | MFA 综述 | Schure, Bell, O'C Drury, Biermann 2012 |
-| SNR γ 射线综述 | Aharonian 2013 (Astropart Phys 43:71) |
+| SNR $\gamma$ 射线综述 | Aharonian 2013 (Astropart Phys 43:71) |
 | Balmer 线综述 | Ghavamian, Ray, van Adelsberg 2013 |
 | CR 传播综述 | Strong, Moskalenko, Ptuskin 2007 (ARAA 45:57) |
 | 膝区综述 | Gaisser, Stanev, Seckel 2016; Hörandel 2006 |

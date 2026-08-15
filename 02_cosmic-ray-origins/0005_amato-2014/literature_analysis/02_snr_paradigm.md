@@ -11,7 +11,7 @@
 **[FACT]** Blasi §2 用一段"能量守恒 + 传播时标"的推理建立 SNR 范式：
 
 1. **B/C 比 → 传播时标** → 支持"扩散传播"（diffusive propagation）假设；
-2. **B/C 比 + 银河系几何 + CR 通量 → 单个 SN 需提供的加速效率 ξ_CR**；
+2. **B/C 比 + 银河系几何 + CR 通量 → 单个 SN 需提供的加速效率 $\xi$_CR**；
 3. 结论：**~5–10%** 的爆发动能必须转化为 CR 粒子 → SNR 加速机制必须是**非线性的**（test-particle 假设失效）。
 
 ## 2.2 B/C 比作为传播示踪（Blasi §2）
@@ -37,7 +37,7 @@ $$\tau_* \sim 90 \left(\frac{H}{3\,\mathrm{kpc}}\right)\,\mathrm{Myr}$$
 
 $$D(E) \simeq 3\times 10^{28} \left(\frac{H}{3\,\mathrm{kpc}}\right)\,\mathrm{cm^2\,s^{-1}}$$
 
-**[FACT]** B/C 高能行为与 power law $X(R) \propto R^{-\delta}$ 一致，**δ = 0.3 – 0.6**。
+**[FACT]** B/C 高能行为与 power law $X(R) \propto R^{-\delta}$ 一致，**$\delta$ = 0.3 – 0.6**。
 
 ## 2.3 单个 SNR 贡献的 CR 质子通量（Blasi 式 (2)）
 
@@ -52,14 +52,14 @@ $$= 8\times 10^5\, \xi_{CR}\, I(\gamma) \left(\frac{R_{SN}}{30\,\mathrm{yr^{-1}}
 - $I(\gamma)$ 是归一化积分 $I(\gamma) \approx \frac{2(3-\gamma)(\gamma-2)}{4-\gamma}$
 - 逃逸时标以 $E_*$ 处归一 → 通量**不依赖于晕高 H**（因为 CR 通量和 grammage 都 ∝ H/D）
 
-## 2.4 加速效率 ξ_CR 的直接约束（Blasi 式 (3)）
+## 2.4 加速效率 $\xi$_CR 的直接约束（Blasi 式 (3)）
 
 **[FACT]** 以 10 GeV 处 $E_*^2 J(E_*) \approx 2\times 10^3$ GeV m⁻² s⁻¹ sr⁻¹ 归一：
 
 $$\xi_{CR} \approx 2.5\times 10^{-3}\, \frac{(E_*/m)^{\gamma-2}}{I(\gamma)} \left(\frac{R_{SN}}{30\,\mathrm{yr^{-1}}}\right)^{-1}$$
 
 **[FACT]** 对典型参数：
-- **ξ_CR ~ 2–3%**（仅计质子）
+- **$\xi$_CR ~ 2–3%**（仅计质子）
 - 计入重核贡献：总效率 **5–10%**
 - 对个别 SNR 可更高或更低，取决于爆发环境
 
@@ -67,13 +67,13 @@ $$\xi_{CR} \approx 2.5\times 10^{-3}\, \frac{(E_*/m)^{\gamma-2}}{I(\gamma)} \lef
 
 ## 2.5 逃逸时间 vs 传播时标的张力
 
-**[FACT]** 若 ξ_CR ~ 10%，粒子对激波有动力学反作用，会改变：
-- 压缩比 R（因此谱斜率 α 不再是简单的 p⁻⁴）
+**[FACT]** 若 $\xi$_CR ~ 10%，粒子对激波有动力学反作用，会改变：
+- 压缩比 R（因此谱斜率 $\alpha$ 不再是简单的 p⁻⁴）
 - 亚激波结构（subshock）
 - 前置区（precursor）
 → 见第 4 章 NLDSA 部分。
 
-**[CRITIQUE]** 从 B/C 反推 δ 时，**δ = 0.3–0.6 的不确定性**（约 2 倍）反映了 B/C 高能测量的误差（Blasi Fig.2）。这直接影响对**注入谱斜率 γ_inj** 的推断（Amato §5 进一步讨论）。
+**[CRITIQUE]** 从 B/C 反推 $\delta$ 时，**$\delta$ = 0.3–0.6 的不确定性**（约 2 倍）反映了 B/C 高能测量的误差（Blasi Fig.2）。这直接影响对**注入谱斜率 $\gamma$_inj** 的推断（Amato §5 进一步讨论）。
 
 ## 2.6 文献未明确说明
 

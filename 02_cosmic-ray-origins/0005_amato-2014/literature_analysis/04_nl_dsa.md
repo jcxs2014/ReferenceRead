@@ -10,9 +10,9 @@
 
 **[FACT]** Blasi 明确列出：
 
-1. **加速粒子的动力学反作用**：ξ_CR ~ 10% → 加速粒子压力显著影响激波结构，通过改变压缩比 → 谱不再是单幂律，且依赖刚度。
+1. **加速粒子的动力学反作用**：$\xi$_CR ~ 10% → 加速粒子压力显著影响激波结构，通过改变压缩比 → 谱不再是单幂律，且依赖刚度。
 2. **加速粒子诱导的等离子体不稳定性**：MFA（磁场放大）必须在**上游**发生（否则不能缩短加速时间），极可能是加速粒子自身驱动（streaming 不稳定）；因此扩散系数本身依赖于分布函数。
-3. **放大磁场的动力学反作用**：100–1000 μG 场的磁压虽只是 ρv²_s 的 $10^{-2}$–$10^{-3}$，但可**超过**上游热压 → 影响压缩比 → 进一步耦合回分布函数。
+3. **放大磁场的动力学反作用**：100–1000 $\mu$G 场的磁压虽只是 $\rho$v²_s 的 $10^{-2}$–$10^{-3}$，但可**超过**上游热压 → 影响压缩比 → 进一步耦合回分布函数。
 
 **[INTERPRETATION]** 这三点构成"**三个非线性**"——粒子↔流体、粒子↔波、波↔流体。
 
@@ -41,7 +41,7 @@ $$\frac{\partial}{\partial t}(\rho u) = -\frac{\partial}{\partial z}\bigl(\rho u
 **能量**（Blasi 式 (56) 及稳态式 (67)）：
 $$\frac{\partial}{\partial t}\left(\frac{1}{2}\rho u^3 + \frac{P_g}{\gamma_g-1} + E_c\right) = -\frac{\partial}{\partial z}\left(\frac{1}{2}\rho u^3 + \frac{\gamma_g}{\gamma_g-1}u P_g + \frac{\gamma_c}{\gamma_c-1}u P_c\right) + \frac{\partial}{\partial z}\left(\bar{D}\frac{\partial E_c}{\partial z}\right)$$
 
-其中 $E_c = P_c/(\gamma_c - 1)$ 是 CR 能量密度，γ_c 是 CR 的绝热指数。
+其中 $E_c = P_c/(\gamma_c - 1)$ 是 CR 能量密度，$\gamma$_c 是 CR 的绝热指数。
 
 **[FACT]** 粒子分布函数输运方程（Blasi 式 (61)）：
 $$\frac{\partial f}{\partial t} + u\frac{\partial f}{\partial z} = \frac{\partial}{\partial z}\left(D\frac{\partial f}{\partial z}\right) + \frac{1}{3}\frac{du}{dz}\,p\frac{\partial f}{\partial p} + Q$$
@@ -68,7 +68,7 @@ $$\xi_{CR}(z) \approx \frac{P_c(z)}{\rho_0 u_0^2} \approx 1 - \frac{u(z)}{u_0}$$
 - 低能粒子扩散短、只看到亚激波 R_sub < 4 → 谱比 p⁻⁴ 更陡；
 - 高能粒子扩散到前置区深处、看到 R_tot > 4 → 谱比 p⁻⁴ 更硬。
 
-**[FACT]** Blasi Fig.8（Blasi et al. 2005）：$M_{0}$ = 10, 50, 100 三个 Mach 数下的粒子分布函数（热+非热）× p⁴ 图。p_max = $10^{5}$ GeV/c，ξ = 3.5。Mach 越高，凹性越强，下游热峰越左移（温度越低）。
+**[FACT]** Blasi Fig.8（Blasi et al. 2005）：$M_{0}$ = 10, 50, 100 三个 Mach 数下的粒子分布函数（热+非热）× p⁴ 图。p_max = $10^{5}$ GeV/c，$\xi$ = 3.5。Mach 越高，凹性越强，下游热峰越左移（温度越低）。
 
 **[FACT]** Amato 图 3（左：前置区速度/压力轮廓；右：下游谱）给出了相同物理图像。
 
@@ -82,7 +82,7 @@ $$\xi_{CR}(z) \approx \frac{P_c(z)}{\rho_0 u_0^2} \approx 1 - \frac{u(z)}{u_0}$$
 | Monte Carlo | Ellison & Eichler 1984; Knerr et al. 1996; Vladimirov et al. 2008 | 可处理非扩散效应 |
 | 半解析 | Malkov 1997, 1999; Blasi 2002, 2004; Amato & Blasi 2005, 2006 | 快，易嵌入流体演化 |
 
-**[FACT]** Amato 强调"thermal leakage"注入：$p_{inj} = \xi_{inj}\, p_{th,2}$，其中 $p_{th,2} = \sqrt{2m_p k_B T_2}$。典型 ξ_inj = 3.5。
+**[FACT]** Amato 强调"thermal leakage"注入：$p_{inj} = \xi_{inj}\, p_{th,2}$，其中 $p_{th,2} = \sqrt{2m_p k_B T_2}$。典型 $\xi$_inj = 3.5。
 
 **[FACT]** 新近 hybrid 模拟（Gargaté & Spitkovsky 2012; Caprioli & Spitkovsky 2013）显示注入概率可能与粒子动量**无关**——这与 thermal leakage 假设**矛盾**，是目前注入物理的最大不确定性。
 
@@ -91,8 +91,8 @@ $$\xi_{CR}(z) \approx \frac{P_c(z)}{\rho_0 u_0^2} \approx 1 - \frac{u(z)}{u_0}$$
 **[FACT]** 强加速 SNR 的四个可观测特征：
 
 1. **R > 4**（已在 Tycho、SN1006 观测到 R ~ 7）；
-2. **下游温度低于 Rankine-Hugoniot 预期**（在 RCW86 Hα 观测中首次得到支持）；
+2. **下游温度低于 Rankine-Hugoniot 预期**（在 RCW86 H$\alpha$ 观测中首次得到支持）；
 3. **凹形粒子谱**（少数 SNR 射电谱显示硬化）；
-4. **放大磁场**（Chandra X 射线窄边缘 → ~100 μG）。
+4. **放大磁场**（Chandra X 射线窄边缘 → ~100 $\mu$G）。
 
-**[CRITIQUE]** 预测 #3（凹形谱，高能端比 E⁻² 硬）与观测到的 γ 射线谱（见第 7 章）存在**系统性张力**——几乎所有已测 SNR 的推断粒子谱比 E⁻² 更陡。
+**[CRITIQUE]** 预测 #3（凹形谱，高能端比 E⁻² 硬）与观测到的 $\gamma$ 射线谱（见第 7 章）存在**系统性张力**——几乎所有已测 SNR 的推断粒子谱比 E⁻² 更陡。

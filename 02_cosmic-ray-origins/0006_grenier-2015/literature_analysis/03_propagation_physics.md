@@ -23,7 +23,7 @@
 2. 从 CR 自生成 Alfvén 波扩散 → 环境湍动扩散的转变（Aloisio & Blasi 2013）
 3. CR 源内部效应（银河系 CR 路过时的再加速、SNR 内部散裂）→ 探测平均停留时间和源内气体密度（Berezhko 2003）
 
-**[FACT]** 放射性次级 **¹⁰Be**（1.6 Myr 半衰期）对银河系内停留时间敏感。10Be/9Be 约束 **CR halo 标高高 4–10 kpc**（Strong 2007; Putze 2010; Trotta 2011）。ISOMAX 测量（Hams 2004）在 ≤2 GeV 给出略高于模型预测的 10Be/9Be 值，但**尚未被重复**（第二次飞行失败）。
+**[FACT]** 放射性次级 **$^{10}{\rm Be}$**（1.6 Myr 半衰期）对银河系内停留时间敏感。10Be/9Be 约束 **CR halo 标高高 4–10 kpc**（Strong 2007; Putze 2010; Trotta 2011）。ISOMAX 测量（Hams 2004）在 ≤2 GeV 给出略高于模型预测的 10Be/9Be 值，但**尚未被重复**（第二次飞行失败）。
 
 ## 3.3 §3.0.1 Parametric studies — USINE + 贝叶斯
 
@@ -47,7 +47,7 @@
 
 **[FACT]** 无再加速模型的问题：需要 D_xx(p) 中非常大的断点（Strong & Moskalenko 1998），或额外的速度依赖（Ptuskin 2006），或 MHD 波耗散。
 
-**[FACT]** B/C 对模型约束对太阳调制水平敏感：通常采用 Φ ~ 500 MV；若调制较低（Lave 2013 用 250 MV），张力可缓解。
+**[FACT]** B/C 对模型约束对太阳调制水平敏感：通常采用 $\Phi$ ~ 500 MV；若调制较低（Lave 2013 用 250 MV），张力可缓解。
 
 **[FACT]** 对流在 sub-GeV/n 能段起作用，给出与能量无关的逃逸时间。Voyager 1 数据被 Schlickeiser et al. (2014) 用作银河系风的证据（1D 传输模型）。
 
@@ -73,7 +73,7 @@
 
 **[FACT]** Fatuzzo & Melia (2010, 2014)：MHD 湍动中粒子轨迹数值实验 → D_xx(p) 标度关系 → 强湍动下显著偏离准线性理论结果。
 
-**[FACT]** 观测表明 >1 GeV CR 的扩散长度超过典型云尺寸（Abdo 2010b; Ackermann 2011b），但 <1 GeV 能区（对电离和化学关键、γ 射线不可见）可被多种机制调节。
+**[FACT]** 观测表明 >1 GeV CR 的扩散长度超过典型云尺寸（Abdo 2010b; Ackermann 2011b），但 <1 GeV 能区（对电离和化学关键、$\gamma$ 射线不可见）可被多种机制调节。
 
 **[FACT]** 排除机制：
 1. **共振散射在自生成的磁不规则性上**（CR streaming 激发）：Cesarsky & Volk (1978) 指出维持 Alfvén 波对抗中性电离摩擦所需功率过大。
@@ -84,11 +84,11 @@
 - 排除主导多数核心构型 → 电离 CR 密度减少 2–4 倍（Padovani & Galli 2011）。
 - 收缩前恒星核心中心离子化率可降至 <$10^{-18}$ s⁻¹（Padovani 2013）。
 
-**[FACT]** CR 在致密核心间的磁场瓶中被困住 → 局部 γ-ray emissivity qγ_H 可能增加：
+**[FACT]** CR 在致密核心间的磁场瓶中被困住 → 局部 $\gamma$-ray emissivity q$\gamma$_H 可能增加：
 - 预测增加 3–5 倍（Cesarsky & Volk 1978）
 - 数值模拟表明 TeV 粒子有效散射于磁湍动 → 在云的均匀+湍动场中平滑扩散（Fatuzzo 2010）。
 
-**[FACT]** >1 GeV 时所有聚集/排除过程均未在当前 γ 射线数据中显示能量依赖特征 → **支持用 CR 强子作用 + γ 射线示踪所有形式气体**。
+**[FACT]** >1 GeV 时所有聚集/排除过程均未在当前 $\gamma$ 射线数据中显示能量依赖特征 → **支持用 CR 强子作用 + $\gamma$ 射线示踪所有形式气体**。
 
 ## 3.7 §3.2 Propagation Models — 数值模型
 
@@ -108,7 +108,7 @@
 
 **[FACT]** 100 pc 尺度：Girichidis et al. (2014) 用 FLASH 研究 SNR 逃逸 CR 对周围 ISM 的动力学影响（各向异性传播，周围气体被加速）。
 
-**[FACT]** 核截面精度限制次级研究：Moskalenko (2011) 改进倡议；Coste (2012) 处理轻核（Z≤2）复杂过程；反质子产生需改进（Kappl & Winkler 2014）；强子 γ 射线与轻子产生也有挑战（Dermer 2013a）。
+**[FACT]** 核截面精度限制次级研究：Moskalenko (2011) 改进倡议；Coste (2012) 处理轻核（Z≤2）复杂过程；反质子产生需改进（Kappl & Winkler 2014）；强子 $\gamma$ 射线与轻子产生也有挑战（Dermer 2013a）。
 
 ## 3.8 Figure 3 分析
 
@@ -132,8 +132,8 @@
 
 ## 3.9 关键公式与量级
 - D_xx(p) 幂律指数：0.3–0.8
-- ¹⁰Be 半衰期：**1.6 Myr**
+- $^{10}{\rm Be}$ 半衰期：**1.6 Myr**
 - CR halo 标高：**4–10 kpc**
-- 太阳调制 Φ：250–500 MV
+- 太阳调制 $\Phi$：250–500 MV
 - Kolmogorov：D_xx ∝ p^(1/3)
 - Everett & Zweibel (2011)：GeV CR 压力下降 **7.5%**（极端过渡）

@@ -25,32 +25,32 @@
   - **N**：相位绕组数（守恒电流的来源）。
   - **Z**：总电荷 Q = Ze。
 - **Chiral 状态**：|Z| ≃ |N|，角动量 L ≃ ZN ≃ N²。
-- **半径**：R_v ≃ (2π)^(−1/2) |NZ|^(1/2) η_s⁻¹
+- **半径**：R_v ≃ (2$\pi$)^(−1/2) |NZ|^(1/2) $\eta$_s⁻¹
 
 ### 11.2.2 GUT-scale Vortons 参数 [FACT]
 
-- η_s ~ η_σ ~ $10^{16}$ GeV → N ≃ Z ~ 100 → R_v ~ $10^{-28}$ cm（可偏差几个量级）。
+- $\eta$_s ~ $\eta$_$\sigma$ ~ $10^{16}$ GeV → N ≃ Z ~ 100 → R_v ~ $10^{-28}$ cm（可偏差几个量级）。
 
 ### 11.2.3 暗物质与宇宙学约束 [FACT]
 
-- 亚稳态 vortons（τ > t_0）可作暗物质。
+- 亚稳态 vortons（$\tau$ > t_0）可作暗物质。
 - 但早期丰度过高 → 宇宙超密 → 排除对应模型。
 - 相变阶数影响 vorton 密度 [444]：
   - 二阶相变：$10^{5}$ – $10^{14}$ GeV 被排除（过密）。
   - 一阶相变：$10^{9}$ – $10^{12}$ GeV 被排除。
-  - η_s ≫ $10^{14}$ GeV：无 vorton 形成。
-  - η_s ≲ $10^{5}$ GeV（或 $10^{9}$ GeV 一阶）：可做暗物质，但**太重无法产生 EHECR**。
-- **留有窗口**：η_s ≃ η_σ ~ $10^{12}$ – $10^{14}$ GeV 可能是 EHECR 候选。
+  - $\eta$_s ≫ $10^{14}$ GeV：无 vorton 形成。
+  - $\eta$_s ≲ $10^{5}$ GeV（或 $10^{9}$ GeV 一阶）：可做暗物质，但**太重无法产生 EHECR**。
+- **留有窗口**：$\eta$_s ≃ $\eta$_$\sigma$ ~ $10^{12}$ – $10^{14}$ GeV 可能是 EHECR 候选。
 
 ### 11.2.4 Vorton 衰变（Davis 半经典模型）[FACT, [445]]
 
-- 隧穿概率：τ_v⁻¹ ~ m_v exp(−ΔE·ΔR)，ΔE·ΔR ≃ N（能量守恒）。
-- 现时代衰变要求 N > N_min ~ ln(t_0 η_σ)。
+- 隧穿概率：$\tau$_v⁻¹ ~ m_v exp(−$\Delta$E·$\Delta$R)，$\Delta$E·$\Delta$R ≃ N（能量守恒）。
+- 现时代衰变要求 N > N_min ~ ln(t_0 $\eta$_$\sigma$)。
 - **矛盾**：为得到足够通量，N 不能太大；为在现时代衰变，N 不能太小 → **EHECR 解释困难**。
 
 ### 11.2.5 Vorton 作为 EHECR 粒子 (加速) [FACT, [446]]
 
-- Bonazzola & Peter 提议：m_V ~ Zm, Z ~ 100, m ~ η_s ~ η_σ ~ $10^{9}$ GeV。
+- Bonazzola & Peter 提议：m_V ~ Zm, Z ~ 100, m ~ $\eta$_s ~ $\eta$_$\sigma$ ~ $10^{9}$ GeV。
 - 在 AGN / radio galaxy hot spots 可加速到 EHE 能。
 - 但 vortons 与普通物质相互作用未知 → 难以预言空气簇射特征。
 - 预言 EAS 有**线谱成分**。
@@ -61,11 +61,11 @@
 
 **形成**：T ~ T_c 时，monopole-antimonopole 形成亚稳束缚态 monopolonium，结合能 E_b > T。
 - 初始半径：r_i ~ g_m²/(2 E_b)，g_m 为磁荷（Dirac：e g_m = N/2）。
-- 类"磁 Bohr 半径"：a_B^m = 8α_e/m_M（α_e = 1/137）。
+- 类"磁 Bohr 半径"：a_B^m = 8$\alpha$_e/m_M（$\alpha$_e = 1/137）。
 
 **坍缩过程**：monopolonium 逐级跃迁到更紧束缚态，依次发射**光子 → 胶子 → Z → GUT X 玻色子** → 最终核心重叠 → **湮灭为 X 粒子**。
 
-**寿命**：τ ∝ r_i³ → 部分 monopolonium 幸存至今。
+**寿命**：$\tau$ ∝ r_i³ → 部分 monopolonium 幸存至今。
 
 ### 11.3.2 形成时代与动力学 [FACT]
 
@@ -78,13 +78,13 @@
 
 - m_M ~ 40 m_X → 每个 monopolonium 释放 ~80 个 X 粒子。
 - 需要 ~**每几个太阳系体积，每年代，几个 monopolonium 坍缩**（在几十 Mpc 半径内）。
-- 条件：**Ω_M h² ξ_f ≃ 1.7×$10^{-8}$ (m_X/$10^{16}$ GeV)^(1/2) [10 Mpc/l(E_γ)]**
-  - ξ_f = monopolonium-to-monopole 形成时分数。
+- 条件：**$\Omega$_M h² $\xi$_f ≃ 1.7×$10^{-8}$ (m_X/$10^{16}$ GeV)^(1/2) [10 Mpc/l(E_$\gamma$)]**
+  - $\xi$_f = monopolonium-to-monopole 形成时分数。
 
 ### 11.3.4 Parker 界与可行性 [FACT]
 
-- Parker 界：(Ω_M h²)_Parker < 4×$10^{-3}$ (m_M/$10^{16}$ GeV)²
-- Saha 估计的 ξ_f → 所需 monopole 丰度**在 Parker 界内** → **monopolonium 场景 attractive**。
+- Parker 界：($\Omega$_M h²)_Parker < 4×$10^{-3}$ (m_M/$10^{16}$ GeV)²
+- Saha 估计的 $\xi$_f → 所需 monopole 丰度**在 Parker 界内** → **monopolonium 场景 attractive**。
 - **前提**：monopole 过丰问题已被（暴胀等）解决，但留有少许残留丰度（如在暴胀再加热阶段热产生）。
 
 ### 11.3.5 近期动力学研究 [FACT, [450]]
@@ -112,7 +112,7 @@
 ### 11.4.2 关键参数 [FACT]
 
 ```
-r ≡ m_M/(μd)         μ = 弦线能量密度, d = monopole 平均间隔
+r ≡ m_M/($\mu$d)         $\mu$ = 弦线能量密度, d = monopole 平均间隔
 ```
 - r ≪ 1：monopole 次要 → 类似普通弦。
 - r ≫ 1：monopole 主导。
@@ -121,9 +121,9 @@ r ≡ m_M/(μd)         μ = 弦线能量密度, d = monopole 平均间隔
 ### 11.4.3 X 产率 [FACT, 公式 91]
 
 ```
-ṅ_X ~ (r² μ)/(m_X t³)          (91)
+ṅ_X ~ (r² $\mu$)/(m_X t³)          (91)
 ```
-与 string loop 公式 (84) 相同形式，μ → r²μ。
+与 string loop 公式 (84) 相同形式，$\mu$ → r²$\mu$。
 - 足够大的 r 值：可解释 EHECR。
 - **优势**：
   - 大 r → 相邻 necklaces 间距小 → GZK 半径内足够多。
@@ -140,14 +140,14 @@ r ≡ m_M/(μd)         μ = 弦线能量密度, d = monopole 平均间隔
 | 量 | 值 |
 |---|---|
 | Vorton radius (GUT scale) | ~$10^{-28}$ cm, N~Z~100 |
-| Vorton 衰变寿命 τ_v⁻¹ | ~ m_v exp(−N) |
-| Vorton EHECR 窗口 | η_s ≃ η_σ ~ $10^{12}$ – $10^{14}$ GeV |
+| Vorton 衰变寿命 $\tau$_v⁻¹ | ~ m_v exp(−N) |
+| Vorton EHECR 窗口 | $\eta$_s ≃ $\eta$_$\sigma$ ~ $10^{12}$ – $10^{14}$ GeV |
 | Vorton EHECR 加速质量 (Bonazzola-Peter) | Z ~ 100, m ~ $10^{9}$ GeV → m_V ~ $10^{11}$ GeV |
 | Monopole mass (GUT) | ~ $10^{17}$ GeV |
-| Monopolonium 寿命标度 | τ ∝ r_i³ |
-| 现时代 EHECR 要求 | Ω_M h² ξ_f ≃ 1.7×$10^{-8}$ (m_X/$10^{16}$ GeV)^(1/2) |
-| Parker 界 | Ω_M h² < 4×$10^{-3}$ (m_M/$10^{16}$ GeV)² |
-| Necklace X 产率 (公式 91) | ṅ_X ~ r²μ/(m_X t³) |
+| Monopolonium 寿命标度 | $\tau$ ∝ r_i³ |
+| 现时代 EHECR 要求 | $\Omega$_M h² $\xi$_f ≃ 1.7×$10^{-8}$ (m_X/$10^{16}$ GeV)^(1/2) |
+| Parker 界 | $\Omega$_M h² < 4×$10^{-3}$ (m_M/$10^{16}$ GeV)² |
+| Necklace X 产率 (公式 91) | ṅ_X ~ r²$\mu$/(m_X t³) |
 
 ## 11.6 [CRITIQUE]
 

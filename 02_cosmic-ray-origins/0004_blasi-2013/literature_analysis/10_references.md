@@ -79,15 +79,15 @@
 
 | 文献 | 作用 |
 |------|------|
-| Aharonian et al. | 2004, 2006, 2007 | RX J1713.7–3946 TeV γ 射线首次探测（H.E.S.S.）|
+| Aharonian et al. | 2004, 2006, 2007 | RX J1713.7–3946 TeV $\gamma$ 射线首次探测（H.E.S.S.）|
 | Aharonian | 2013 | H.E.S.S. 观测综述 |
-| Giordano et al. | 2012 | Fermi-LAT Tycho GeV γ |
-| Acciari et al. | 2011 | VERITAS Tycho TeV γ |
-| Ackermann et al. | 2013 | Fermi-LAT IC 443/W44 π 鼓包 |
+| Giordano et al. | 2012 | Fermi-LAT Tycho GeV $\gamma$ |
+| Acciari et al. | 2011 | VERITAS Tycho TeV $\gamma$ |
+| Ackermann et al. | 2013 | Fermi-LAT IC 443/W44 $\pi$ 鼓包 |
 | Ackermann et al. | 2011 | Fermi-LAT Cygnus 超泡 |
-| Abdo et al. | 2011 | Fermi-LAT RX J1713 GeV γ |
+| Abdo et al. | 2011 | Fermi-LAT RX J1713 GeV $\gamma$ |
 | Brandt et al. | 2013a, 2013b | SNR 加速粒子能量上限综述 |
-| Holder | 2012 | SNR γ 射线综述 |
+| Holder | 2012 | SNR $\gamma$ 射线综述 |
 | Morlino & Caprioli | 2012 | Tycho 强子模型——本文 §6.3 的核心支持 |
 | Berezhko et al. | 2013 | Tycho 环境效应方案 |
 | Ellison et al. | 2010 | RX J1713 强子起源否证 |
@@ -117,7 +117,7 @@
 | Malkov et al. | 2013 | 源附近 CR 传播自洽解 |
 | Nava & Gabici | 2013 | 各向异性 CR 传播 |
 | Giacinti et al. | 2013 | 各向异性 |
-| Gabici et al. | 2007, 2009 | SNR-MC γ 射线模型 |
+| Gabici et al. | 2007, 2009 | SNR-MC $\gamma$ 射线模型 |
 | Rodríguez Marrero et al. | 2008 | SNR-MC |
 
 ## 10.9 PAMELA/AMS-02 硬转折

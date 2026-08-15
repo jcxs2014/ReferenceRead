@@ -123,7 +123,7 @@ path: 02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_
     6.13 EHECR from Metastable Superheavy Relic Particles
     6.14 Cosmic Rays from Evaporation of Primordial Black Holes
 7  Constraints on the Topological Defect Scenario .............. p. 83
-    7.1 Low-Energy Diffuse γ-ray Background
+    7.1 Low-Energy Diffuse $\gamma$-ray Background
     7.2 Constraints from Primordial Nucleosynthesis
     7.3 CMB Distortions
     7.4 Constraints on Neutrino Fluxes
@@ -159,7 +159,7 @@ literature_analysis/
 
 - 自然单位：ℏ = c = k_B = 1。
 - 能量单位：1 EeV = $10^{18}$ eV；UHE 指 E ≳ 1 EeV；**EHE 指 E ≳ $10^{20}$ eV**（作者特意区分）。
-- 主要背景光子场：CMB (ε ~ $10^{-3}$ eV), Extragalactic IR/Optical Background (EIB)。
+- 主要背景光子场：CMB ($\epsilon$ ~ $10^{-3}$ eV), Extragalactic IR/Optical Background (EIB)。
 - 关键质量标度：GUT 标度 M_X ~ $10^{16}$ GeV；SUSY 标度 ~ 1 TeV。
 
 ## 0.7 全文核心概念索引
@@ -170,7 +170,7 @@ literature_analysis/
 | GZK cutoff | §4.1 | §2.2, §4.5 |
 | CMB photo-pion | §4.1 | §6, §7 |
 | Photo-disintegration (Giant Dipole Res.) | §4.1 | §4.5 |
-| EM cascade (γγ → e⁺e⁻) | §4.2 | §7.1 |
+| EM cascade ($\gamma$$\gamma$ → e⁺e⁻) | §4.2 | §7.1 |
 | UHE neutrinos | §4.3.1 | §7.4 |
 | LPM effect | §2.4 | — |
 | Hillas criterion | §5.1 | §5.2 |
@@ -181,7 +181,7 @@ literature_analysis/
 | Cosmic Necklaces | §6.8 | — |
 | Baryon Asymmetry + EHECR | §6.10 | — |
 | PBH evaporation | §6.14 | — |
-| CMB spectral distortion (μ, y) | §7.3 | — |
+| CMB spectral distortion ($\mu$, y) | §7.3 | — |
 
 ---
 

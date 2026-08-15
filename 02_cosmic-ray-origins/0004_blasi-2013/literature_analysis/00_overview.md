@@ -58,7 +58,7 @@ V2 是作者对同一主题的一篇 8 页短文，刊于 *Nuclear Physics B (Pr
 5. Transition from Galactic to extragalactic CRs
 6. Summary
 
-V1（88 页）则是完整章节级综述，含 8 章、大量公式推导、多频率观测分析、Hα Balmer 线观测细节。**V1 覆盖 V2 全部内容并大幅扩展**，因此本精读聚焦 V1，V2 视为同一作者同一主题下的"压缩版会议报告"。
+V1（88 页）则是完整章节级综述，含 8 章、大量公式推导、多频率观测分析、H$\alpha$ Balmer 线观测细节。**V1 覆盖 V2 全部内容并大幅扩展**，因此本精读聚焦 V1，V2 视为同一作者同一主题下的"压缩版会议报告"。
 
 ## 0.4 文献类型与写作风格
 
@@ -68,7 +68,7 @@ V1（88 页）则是完整章节级综述，含 8 章、大量公式推导、多
 
 ## 0.5 本文核心结论一句话
 
-> [FACT] Blasi 论证：在 2013 年，超新星遗迹（SNR）作为银河系宇宙线主要源的"SNR 范式"具备充分但尚不确凿的间接证据（π⁰ 衰变 γ 射线、X 射线磁化放大、Hα 线异常），但非线性扩散激波加速（NLDSA）理论预言的粒子谱与观测到的 γ 射线谱和宇宙线各向异性存在系统性矛盾，而磁场放大机制、粒子逃逸过程、SNR 达到膝点能量的能力仍是未解决的"loose ends"。
+> [FACT] Blasi 论证：在 2013 年，超新星遗迹（SNR）作为银河系宇宙线主要源的"SNR 范式"具备充分但尚不确凿的间接证据（$\pi$⁰ 衰变 $\gamma$ 射线、X 射线磁化放大、H$\alpha$ 线异常），但非线性扩散激波加速（NLDSA）理论预言的粒子谱与观测到的 $\gamma$ 射线谱和宇宙线各向异性存在系统性矛盾，而磁场放大机制、粒子逃逸过程、SNR 达到膝点能量的能力仍是未解决的"loose ends"。
 
 ---
 
@@ -83,7 +83,7 @@ V1（88 页）则是完整章节级综述，含 8 章、大量公式推导、多
 | 04 | `04_nl_dsa.md` | §4 Non-linear theory of DSA（27–46 页） |
 | 05 | `05_superbubble.md` | §5 Superbubble hypothesis（46 页） |
 | 06 | `06_indirect_evidence.md` | §6 Indirect evidence for CR acceleration in SNRs（47–58 页） |
-| 07 | `07_h_alpha.md` | §7 Hα line as a cosmic ray calorimeter（58–65 页） |
+| 07 | `07_h_alpha.md` | §7 H$\alpha$ line as a cosmic ray calorimeter（58–65 页） |
 | 08 | `08_conclusions.md` | §8 Conclusions（65–67 页） |
 | 09 | `09_figures_tables.md` | 全部 Figure 1–15 逐一分析 |
 | 10 | `10_references.md` | 关键参考文献分析 |
@@ -102,8 +102,8 @@ Blasi (2013), arXiv:1311.7346, 88 页
 │   ├── SNR 作为 CR 源的间接证据
 │   └── DSA 与 SNR 范式 (10% 加速效率)
 ├── 2. The bases of the SNR paradigm (pp. 7–8)
-│   ├── B/C 比例 → τ_esc → D(E)
-│   ├── 所需 CR 加速效率 ξ_CR ~ 2–10%
+│   ├── B/C 比例 → $\tau$_esc → D(E)
+│   ├── 所需 CR 加速效率 $\xi$_CR ~ 2–10%
 │   └── 银河系扩散模型
 ├── 3. Test-particle DSA (pp. 9–26)
 │   ├── 3.1 Collisionless shocks
@@ -124,7 +124,7 @@ Blasi (2013), arXiv:1311.7346, 88 页
 │   ├── 6.2 Spectra (concave NLDSA spectra vs gamma-ray data)
 │   ├── 6.3 Gamma-ray emission from isolated SNRs (RX J1713, Tycho)
 │   └── 6.4 SNRs near molecular clouds (pion bump, IC 443, W44, W28)
-├── 7. Hα line as cosmic ray calorimeter (pp. 58–65)
+├── 7. H$\alpha$ line as cosmic ray calorimeter (pp. 58–65)
 │   ├── 7.1 Test particles in partially ionized media (neutral return flux)
 │   └── 7.2 NLDSA in partially ionized media (SNR 0509-67.5, RCW86, SN1006)
 ├── 8. Conclusions (pp. 65–67)
@@ -137,7 +137,7 @@ Blasi (2013), arXiv:1311.7346, 88 页
 
 ### 前序阅读
 
-- **B²FH (1957)** — 宇宙线起源的早期框架（Rev. Mod. Phys. 29, 547）
+- **B$^2$FH (1957)** — 宇宙线起源的早期框架（Rev. Mod. Phys. 29, 547）
 - **Strong, Moskalenko & Ptuskin (2007)** — 传播理论的标准参考（§1 引言提及）（Rev. Mod. Phys.）
 - **Gaisser (1990)** — 膝部以下宇宙线组分（AIP Conf. Proc. 203, 168）
 

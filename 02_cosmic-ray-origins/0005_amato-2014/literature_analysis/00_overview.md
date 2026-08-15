@@ -39,7 +39,7 @@ path: 02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview.md
 | **出版信息** | 引用号 70，21 期（会议文集） | Astron. Astrophys. Rev. **21**:70 (2013) |
 | **收稿/发表** | 未提供 | Received 1 Sep 2013 / Published online 5 Nov 2013 |
 | **页数** | 43 页 | 73 页 |
-| **主题** | 银河系宇宙线起源（侧重 NLDSA + 观测验证 + MFA 修订） | 银河系宇宙线起源（侧重 SNR 范式完整理论 + 磁场放大 + Hα 观测） |
+| **主题** | 银河系宇宙线起源（侧重 NLDSA + 观测验证 + MFA 修订） | 银河系宇宙线起源（侧重 SNR 范式完整理论 + 磁场放大 + H$\alpha$ 观测） |
 
 **这两篇不是 Padovani & Protheroe 2013 的重复版本**，而是两篇独立综述，主题相近但作者、期刊、年份、观点侧重不同。本次精读按实际作者归属进行处理。
 
@@ -96,7 +96,7 @@ Abstract
     6.2 Spectra
     6.3 Gamma-ray emission from isolated SNRs
     6.4 SNRs near molecular clouds
-7. Hα line as a cosmic-ray calorimeter in SNRs
+7. H$\alpha$ line as a cosmic-ray calorimeter in SNRs
     7.1 Acceleration of test particles at shocks in partially ionized media
     7.2 NLDSA in partially ionized media
 8. Conclusions
@@ -117,7 +117,7 @@ Introduction
 5. The CR spectrum injected in the Galaxy
 6. Revising NLDSA theory
 7. Revising MFA theory
-8. Hα line as a cosmic-ray calorimeter
+8. H$\alpha$ line as a cosmic-ray calorimeter
 9. Galactic CRs: the positron fraction and the spectral hardening
 10. Conclusions
 References
@@ -127,8 +127,8 @@ References
 
 **[FACT]** 两份文献**高度重叠**（Amato 是 Blasi 合作者，两人同在 INAF Arcetri 高能天体物理组），Amato 2014 版本中明确引用 Blasi 2013 作为"其他优秀近期综述"，但两篇的切入角度不同：
 
-- **Blasi (2013)**：理论更系统、公式更完整（包含完整的色散关系推导、色散关系 (85) 式、非线性动理学方程组），观测部分覆盖 SNR + 分子云 + Hα；更偏"教科书式"综述。
-- **Amato (2014)**：更突出**最新**（2013-2014）进展——PAMELA 质子谱硬化、AMS-02 正电子分数、Fermi-LAT 分子云 π⁰ 鼓包、W44/IC443 强证据；对 NLDSA + MFA 的理论修订讨论更深（特别是"强流区"色散关系的完整推导和"标准"增长率的错误使用问题）。
+- **Blasi (2013)**：理论更系统、公式更完整（包含完整的色散关系推导、色散关系 (85) 式、非线性动理学方程组），观测部分覆盖 SNR + 分子云 + H$\alpha$；更偏"教科书式"综述。
+- **Amato (2014)**：更突出**最新**（2013-2014）进展——PAMELA 质子谱硬化、AMS-02 正电子分数、Fermi-LAT 分子云 $\pi$⁰ 鼓包、W44/IC443 强证据；对 NLDSA + MFA 的理论修订讨论更深（特别是"强流区"色散关系的完整推导和"标准"增长率的错误使用问题）。
 
 **[INTERPRETATION]** 两篇合起来构成一个**互补综述对**：Blasi 给出理论框架，Amato 补充最新观测与理论更新。
 
@@ -142,15 +142,15 @@ References
 | NLDSA | Non-Linear DSA（非线性 DSA） |
 | MFA | Magnetic Field Amplification（磁场放大） |
 | PeVatron | PeV 能量加速器（E ≥ 1 PeV） |
-| ξ_CR | CR 加速效率（能量份额） |
-| α / γ_p | 谱斜率（动量谱） |
+| $\xi$_CR | CR 加速效率（能量份额） |
+| $\alpha$ / $\gamma$_p | 谱斜率（动量谱） |
 | R_sub / R_tot | 亚激波/总压缩比 |
 | v_A | Alfvén 速度 |
 | MFA Bell mode | Bell 非共振不稳定模式（2004） |
 | Filamentation instability | 丝状不稳定性 |
 | B/C ratio | Boron/Carbon 比（传播示踪） |
-| Hα | Balmer-α 谱线 |
-| π⁰ | neutral pion（强子 γ 射线示踪） |
+| H$\alpha$ | Balmer-$\alpha$ 谱线 |
+| $\pi$⁰ | neutral pion（强子 $\gamma$ 射线示踪） |
 
 ---
 

@@ -39,7 +39,7 @@ path: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md
 - **DOI:** 10.1146/annurev-astro-082214-122457
 - **arXiv:** 未提供
 - **Research Field:** 宇宙线天体物理 / 星际介质物理 / 星系反馈
-- **Keywords:** γ rays, interstellar medium, interstellar chemistry, dust, superbubbles
+- **Keywords:** $\gamma$ rays, interstellar medium, interstellar chemistry, dust, superbubbles
 - **Affiliations:**
   1. Laboratoire AIM Paris-Saclay, CEA/Irfu, CNRS, Université Paris Diderot（Grenier）
   2. Onsala Space Observatory, Chalmers University of Technology（Black）
@@ -69,7 +69,7 @@ Introduction / Scope of the Review
 ├── 4. Cosmic-Ray Wanderers in the Milky Way
 │   ├── 4.1 CR in the Local ISM
 │   ├── 4.2 CR in the Outer Galaxy
-│   ├── 4.3 CR in the Inner Galaxy (4.3.1 未分辨 γ 源, 4.3.2 Fermi Bubbles & GC)
+│   ├── 4.3 CR in the Inner Galaxy (4.3.1 未分辨 $\gamma$ 源, 4.3.2 Fermi Bubbles & GC)
 │   └── 4.4 Global Properties of the High-Energy Galaxy
 ├── 5. Cosmic-Ray / ISM Interaction Processes
 │   ├── 5.1 Atomic and Molecular Processes
@@ -93,7 +93,7 @@ Introduction / Scope of the Review
 │   ├── 8.2 Cocoon of Young CRs in Cygnus X
 │   ├── 8.3 Normal Galaxies
 │   ├── 8.4 Starburst Galaxies
-│   └── 8.5 γ Rays in Extragalactic Space
+│   └── 8.5 $\gamma$ Rays in Extragalactic Space
 └── 9. A Few More Words
 ```
 
@@ -103,16 +103,16 @@ Introduction / Scope of the Review
 - **Figure 1** — Local spectra of CR protons and He near Earth / heliopause
 - **Figure 2** — CR electron/positron spectra: AMS-02 + PAMELA + 邻近脉冲星模型
 - **Figure 3** — Proton/He 谱 + B/C 比 vs 传播模型（KOL/KRA/PD）
-- **Figure 4** — γ-ray emissivity qγ_H per H 的银河系半径分布 + 局部云对比
-- **Figure 5** — 全天图：Fermi-LAT γ 强度（1 GeV 以上） vs Planck+IRAS 尘埃光学深度
-- **Figure 6** — 银河系内部 γ-ray 能谱（INTEGRAL+COMPTEL+Fermi-LAT）
-- **Figure 7** — 银河系多波段光度谱（射电→γ，含 CR 功率分解）
+- **Figure 4** — $\gamma$-ray emissivity q$\gamma$_H per H 的银河系半径分布 + 局部云对比
+- **Figure 5** — 全天图：Fermi-LAT $\gamma$ 强度（1 GeV 以上） vs Planck+IRAS 尘埃光学深度
+- **Figure 6** — 银河系内部 $\gamma$-ray 能谱（INTEGRAL+COMPTEL+Fermi-LAT）
+- **Figure 7** — 银河系多波段光度谱（射电→$\gamma$，含 CR 功率分解）
 - **Figure 8** — CR 电离引发的星际化学反应流图
 - **Figure 9** — 银河系 XCO 径向分布 + DNM 的 AV/NH
 - **Figure 10** — 附近云 CO-dark H2 质量分数
 - **Figure 11** — Chamaeleon 云中尘埃发射性质的演化
 - **Figure 12** — 高纬 synchrotron 谱（主/次电子 + 正电子）
-- **Figure 13** — Cygnus X：8 μm 图 + Fermi-LAT γ-ray cocoon
+- **Figure 13** — Cygnus X：8 $\mu$m 图 + Fermi-LAT $\gamma$-ray cocoon
 
 ---
 
@@ -131,7 +131,7 @@ Introduction / Scope of the Review
 
 ## Abstract（中文精读）
 
-**[FACT]** 近年来宇宙线天体物理进展迅速，对其它天文分支的影响不断扩大。众多新实验通过大气中/太空中的直接测量以及 γ 射线、同步辐射的间接测量，拓宽了对宇宙线起源、传播和相互作用信息的获取范围。低能宇宙线对星际化学的影响是一个快速发展的方向，包括这些粒子如何在发生化学反应的云中传播。宇宙线通过其 γ 射线产生，也成为探测星际气体含量的强力方式。宇宙线与星际介质相互作用的观测和建模取得了重大进展。
+**[FACT]** 近年来宇宙线天体物理进展迅速，对其它天文分支的影响不断扩大。众多新实验通过大气中/太空中的直接测量以及 $\gamma$ 射线、同步辐射的间接测量，拓宽了对宇宙线起源、传播和相互作用信息的获取范围。低能宇宙线对星际化学的影响是一个快速发展的方向，包括这些粒子如何在发生化学反应的云中传播。宇宙线通过其 $\gamma$ 射线产生，也成为探测星际气体含量的强力方式。宇宙线与星际介质相互作用的观测和建模取得了重大进展。
 
 **[FACT]** 综述聚焦于能量 ≤1 TeV 的宇宙线，因为它们与星际作用主要相关；讨论"九种角色"以展现宇宙线与其星际栖息地之间多种多样的相互作用。
 

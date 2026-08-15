@@ -12,17 +12,17 @@
 |-----------|-----------|------|----------|---------------|----------|
 | 因此 | 因此 | therefore / consequently | adv. | "``` 观测事实：>10^20 eV 事件已被探测 → 传统加速模型遇到三个困难： (a) 粒子从致密源区逃出时能量损失； (b) GZK 效应限制源距离 ≲100 Mpc； (c) 本地宇宙缺乏足够强、近的源 → 因此需要两个视角： Bottom-up：改进加速/源模型（射电星系、AGN） Top-down：引入新物理（GUT 拓扑缺陷、超重粒子衰变） → 本文以 Top-down 为主（已" | 因果 |
 | 从而 | 从而 | thereby / thus | adv. | "**公式 (1) — X_max vs 能量** ``` <X_max> = X'_0 · ln(E / E_0) ``` - X'_0 = 伸长率 (elongation rate) - E_0 = 依赖初级组成的特征能量 - [FACT] 若 X_max 和 X'_0 由纵向剖面确定，则 E_0（从而组成）可以从总荧光产额反推 E 后提取。 - 地面阵列 vs 荧光技术的能量标度系统误差 ≲ 40%。" | 因果(由此) |
-| 不过 | 不过 | nevertheless / nonetheless | conj. | "- Kostelecký [333]：ν_e 为 tachyon。 - 核内质子可衰变 p → n + e⁺ + ν_e，阈值 Eth = m(A,Z)[m(A,Z±1)+m_e−m(A,Z)]/|m_νe| - 自由质子：Eth ≃ 1.7×$10^{15}$/(|m_νe|/eV) eV。 - Ehrlich [334] 主张 m²_νe ≃ −(0.5 eV)² 可同时解释 knee 与高能端。 - [CRITIQUE] 与氚 β 衰变实验" | 转折 |
-| 尽管 | 尽管 | despite / notwithstanding | prep./conj. | "**三对产生 (TPP, e γ_b → e e⁺e⁻)** — 公式 19, 20： ``` σ_TPP ≃ (3α/(8π)) σ_T · (28/9 ln(s/m_e²) − 218/27) η ≃ 1.768 · (s/m_e²)^(−3/4) (s ≫ m_e²) ``` - 尽管 σ_TPP ~ σ_ICS 在 E ~ $10^{17}$ eV 就已可比，但因 η ≲ $10^{-3}$，能量衰减直到 **~$10^{22}$ eV** 才重要。 -" | 让步 |
+| 不过 | 不过 | nevertheless / nonetheless | conj. | "- Kostelecký [333]：$\nu$_e 为 tachyon。 - 核内质子可衰变 p → n + e⁺ + $\nu$_e，阈值 Eth = m(A,Z)[m(A,Z±1)+m_e−m(A,Z)]/|m_$\nu$e| - 自由质子：Eth ≃ 1.7×$10^{15}$/(|m_$\nu$e|/eV) eV。 - Ehrlich [334] 主张 m²_$\nu$e ≃ −(0.5 eV)² 可同时解释 knee 与高能端。 - [CRITIQUE] 与氚 $\beta$ 衰变实验" | 转折 |
+| 尽管 | 尽管 | despite / notwithstanding | prep./conj. | "**三对产生 (TPP, e $\gamma$_b → e e⁺e⁻)** — 公式 19, 20： ``` $\sigma$_TPP ≃ (3$\alpha$/(8$\pi$)) $\sigma$_T · (28/9 ln(s/m_e²) − 218/27) $\eta$ ≃ 1.768 · (s/m_e²)^(−3/4) (s ≫ m_e²) ``` - 尽管 $\sigma$_TPP ~ $\sigma$_ICS 在 E ~ $10^{17}$ eV 就已可比，但因 $\eta$ ≲ $10^{-3}$，能量衰减直到 **~$10^{22}$ eV** 才重要。 -" | 让步 |
 | 即使 | 即使 | even if | conj. | "- EHECR (E ≳ $10^{20}$ eV) 已被多个实验探测到 [FACT]，其起源是粒子物理与天体物理的重大难题。 - 作者把 EHECR 起源理论分为两大场景：**Bottom-up**（加速）与 **Top-down**（衰变），并明确本文以 Top-down 为主。 - 简述了 Bottom-up 面临的核心问题：即使加速能量可行，粒子也难从致密源区"逃出"（energy loss）；且本地宇宙 (<100 Mpc) 中缺乏足够" | 让步 |
 | 相反 | 相反 | conversely / in contrast | adv. | "- **Cusp**：弦上某点瞬时以光速运动 → 曲率半径极小 → Nambu-Goto action 失效。 - 具有有限宽度 w 的真实弦在 cusp 附近 → 弦段重叠 → "蒸发"为 X 粒子。 - **Kink 碰撞**也可形成 cusp（沿相反方向传播的 kinks 相撞 [424]）。" | 对比 |
-| 而 | 而 | whereas / while / and | conj. | "**关键约束**： - Z⁰ 湮灭主要由**非聚集的** RNB 主导（而非银晕内聚集的），除非新 ν 源 [204]。 - EGRET diffuse γ-ray (~10 GeV) 约束： - 若 X 粒子只衰变到 ν：f_ν ≳ 20 (l_ν/5 Mpc)⁻¹ - 若 L_γ ~ L_ν（多数模型）：f_ν ≳ $10^{3}$ (l_ν/5 Mpc)⁻¹ - 若大部分 EM 能量在 TeV 段释放 → 可放宽 - Z-bur" | 对比/转折 |
+| 而 | 而 | whereas / while / and | conj. | "**关键约束**： - Z⁰ 湮灭主要由**非聚集的** RNB 主导（而非银晕内聚集的），除非新 $\nu$ 源 [204]。 - EGRET diffuse $\gamma$-ray (~10 GeV) 约束： - 若 X 粒子只衰变到 $\nu$：f_$\nu$ ≳ 20 (l_$\nu$/5 Mpc)⁻¹ - 若 L_$\gamma$ ~ L_$\nu$（多数模型）：f_$\nu$ ≳ $10^{3}$ (l_$\nu$/5 Mpc)⁻¹ - 若大部分 EM 能量在 TeV 段释放 → 可放宽 - Z-bur" | 对比/转折 |
 | 同时 | 同时 | meanwhile / simultaneously | adv. | "**反对 AGN 核心作为 EHECR 源** [FACT, Norman et al. [13]]： - AGN 核心典型 R ~ 0.02 pc, B ~ 5 G → 公式 (49)：E_c ~ $10^{19}$ eV。 - **主要问题**：中心引擎内辐射场强烈 → 加速质子通过 photo-pion 严重衰减。 - 同时考虑加速与能量损失 → 质子或核在 **E > ~$10^{16}$ eV 无法逃出核心**。 - 中子假设也不行（中子本身也受" | 递进/顺序 |
 | 尤其 | 尤其 | in particular / notably | adv. | "- [CRITIQUE] 1999 年后，**Auger 数据**（2017 起）显示 UHECR 谱在 ~5×$10^{19}$ eV 处有明显陡化（与 GZK 一致），且 E > 5.7×$10^{19}$ eV 事件的到达方向与**近邻星团（尤其是 Centaurus A）**有显著相关。这些发展部分支持了 §5.2.1 中的射电星系/AGN 类 Bottom-up 模型。 - [CRITIQUE] Top-down 场景（§6–7）对观测约束越来越" | 举例 |
 | 最终 | 最终 | eventually | adv. | "若 SUSY 在 M_SUSY ~ 1 TeV "打开"： - parton cascade 中 squarks/gluinos 与普通 quarks/gluons 等概率参与（Q̃² > M_SUSY²）。 - 一旦 Q̃² < M_SUSY²，SUSY 粒子 decouple → 最终衰变为 LSP。 - **Berezinsky & Kachelriess [399]**：LSP 可能带走 ~40% 的 jet 总能量！ - SU" | 顺序 |
 | 由于 | 由于 | owing to / due to / because of | prep. | "- [FACT] **Z-burst 情景**在 IceCube 观测限制下（未发现对应 UHE 中微子）已基本被否定。 - [FACT] 加速器（LHC）未发现大额外维度（ADD），M_{4+n} >~ 5–10 TeV 对 n=2。 - [CRITIQUE] 整个 §4.3 的"奇特 EHECR 粒子"假设在 1999 年是开放问题，但 2020 年后由于 Auger 显示**最高能事件到达方向与近邻星系的关联**（如 Centau" | 因果 |
 | 即 | 即 | namely / i.e. | adv. | "- EHECR (E ≳ $10^{20}$ eV) 已被多个实验探测到 [FACT]，其起源是粒子物理与天体物理的重大难题。 - 作者把 EHECR 起源理论分为两大场景：**Bottom-up**（加速）与 **Top-down**（衰变），并明确本文以 Top-down 为主。 - 简述了 Bottom-up 面临的核心问题：即使加速能量可行，粒子也难从致密源区"逃出"（energy loss）；且本地宇宙 (<100 Mpc) 中缺乏足够" | 举例 |
-| 据 | 据 | according to / based on | prep. | "- **能量学论证**：银河系 CR 总光度 L_CR ~ 1.5×$10^{41}$ erg/s，约等于银河系超新星总动能输出的 10%，支持 SNR 是膝点以下主要源。 - **银河系 vs 河外起源**：多重证据（SMC γ 射线、各向异性、电子成分）支持至少膝点以下 CR 为银河系起源。 - **加速机制**：两种主要机制——(1) 直接电场加速；(2) 统计 (Fermi) 加速；DSAM (Diffusive Shock Accele" | 因果 |
+| 据 | 据 | according to / based on | prep. | "- **能量学论证**：银河系 CR 总光度 L_CR ~ 1.5×$10^{41}$ erg/s，约等于银河系超新星总动能输出的 10%，支持 SNR 是膝点以下主要源。 - **银河系 vs 河外起源**：多重证据（SMC $\gamma$ 射线、各向异性、电子成分）支持至少膝点以下 CR 为银河系起源。 - **加速机制**：两种主要机制——(1) 直接电场加速；(2) 统计 (Fermi) 加速；DSAM (Diffusive Shock Accele" | 因果 |
 
 *共 13 个逻辑词，均在本篇分析文本中实际出现。*
 
@@ -52,7 +52,7 @@
 | AGN | 活动星系核 | 30 | §00 |
 | 传播 | 传播 | 27 | §03 |
 | SUSY | 超对称 | 25 | §00 |
-| γ 射线 | γ 射线 | 21 | §02 |
+| $\gamma$ 射线 | $\gamma$ 射线 | 21 | §02 |
 | 强子 | 强子 | 19 | §03 |
 | cascade | 级联 | 18 | §00 |
 | 光致 | 光致过程 | 17 | §02 |
@@ -63,7 +63,7 @@
 | vorton | 涡旋子 | 13 | §10 |
 | 暗物质 | 暗物质 | 13 | §05 |
 | 对产生 | 对产生 | 13 | §03 |
-| pion | π 介子 | 12 | §00 |
+| pion | $\pi$ 介子 | 12 | §00 |
 | 同步辐射 | 同步辐射 | 12 | §03 |
 | 各向同性 | 各向同性 | 12 | §02 |
 | 脉冲星 | 脉冲星 | 11 | §03 |
@@ -104,7 +104,7 @@
 | primordial | 原初黑洞 | 4 | §00 |
 | 磁单极子 | 磁单极子 | 4 | §01 |
 | cosmic string | 宇宙弦 | 3 | §09 |
-| muon | μ 子 | 3 | §02 |
+| muon | $\mu$ 子 | 3 | §02 |
 | decay | 衰变 | 3 | §11 |
 | dipole | 偶极 | 3 | §00 |
 | anisotropy | 各向异性 | 3 | §00 |
@@ -152,11 +152,11 @@
 ### C3.
 
 > 1. **能量学**（§3.1）：L_CR ~ 10% L_SN。
-2. **SMC γ 射线上界** [FACT]：
-   - CR 与气体相互作用产生 π⁰ 衰变 γ 射线 [118]。
+2. **SMC $\gamma$ 射线上界** [FACT]：
+   - CR 与气体相互作用产生 $\pi$⁰ 衰变 $\gamma$ 射线 [118]。
    - SMC 观测上界比"宇宙 CR 密度均匀"假设下的预言低一个量级 [119]。
    - → SMC 处 CR 密度比本地银河低至少几倍 → CR 不是宇宙均匀的。
-3. **银河系 CR 梯度**：若银河起源，CR 强度应随银心距离下降 → 反映在次级 γ 射线中 [120–122]。观测结果尚不完全确定 [123]。
+3. **银河系 CR 梯度**：若银河起源，CR 强度应随银心距离下降 → 反映在次级 $\gamma$ 射线中 [120–122]。观测结果尚不完全确定 [123]。
 4. **各向异性**：
    - <$10^{14}$ eV：各向异性 ~$10^{-3}$，统计显著，基本能量无关 → Compton-Getting 效应 [126]。
    - >$10^{18}$ eV：无显著与银道面相关的各向异性 → **暗示高能端河外起源**。

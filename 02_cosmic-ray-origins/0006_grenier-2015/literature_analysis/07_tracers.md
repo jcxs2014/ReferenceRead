@@ -8,22 +8,22 @@
 
 ## 7.1 本节核心内容
 
-**[FACT]** 准确示踪所有云尺度的气体质量是理解星系演化与恒星形成效率的关键。γ 射线与尘埃发射示踪**整个气体**（不论化学/热状态），但缺点是沿视线积分 N_H 全银河。
+**[FACT]** 准确示踪所有云尺度的气体质量是理解星系演化与恒星形成效率的关键。$\gamma$ 射线与尘埃发射示踪**整个气体**（不论化学/热状态），但缺点是沿视线积分 N_H 全银河。
 
 **[FACT]** 与 CO 示踪的互补关系：**X_CO** = N($H_{2}$)/W_CO (cm⁻² / (K km s⁻¹)) — Bolatto et al. (2013) 综述。跨星系随金属度与 UV 流梯度温和变化，中心数 kpc 外大体均匀。
 
 **[FACT]** HI-$H_{2}$ 界面富含致密不透明 HI 与 CO-faint / CO-dark $H_{2}$（van Dishoeck & Black 1988; Visser 2009; Wolfire 2010）。联合 CR 与尘埃示踪揭示**暗中性介质（DNM）**（Grenier 2005）——远超 HI 与 CO 巡天的气体质量。
 
-**[FACT]** γ-ray 与尘埃**空间相关性**是关键：排除 dust-to-gas 比、尘埃不透明度或 CR 流的局部变化（Planck & Fermi Collab. 2015）。
+**[FACT]** $\gamma$-ray 与尘埃**空间相关性**是关键：排除 dust-to-gas 比、尘埃不透明度或 CR 流的局部变化（Planck & Fermi Collab. 2015）。
 
 **[FACT]** DNM 质量的演化：
-- 首次 γ+dust 研究：~30% CO-bright（Grenier 2005）
+- 首次 $\gamma$+dust 研究：~30% CO-bright（Grenier 2005）
 - 后期（只用尘埃）：118% 和 164%（Planck Collab. 2011b; Paradis 2012）
 - 银河系半径上 DNM 分数增加（Planck Collab. 2011a; Pineda 2013; Langer 2014）
 
 ## 7.2 §7.1.1 In the HI
 
-**[FACT]** HI 自旋温度选择改变 N_HI 图中峰谷对比 → 可用 γ 射线检验（Abdo 2010b; Ackermann 2012e; Planck & Fermi Collab. 2015）。
+**[FACT]** HI 自旋温度选择改变 N_HI 图中峰谷对比 → 可用 $\gamma$ 射线检验（Abdo 2010b; Ackermann 2012e; Planck & Fermi Collab. 2015）。
 
 **[FACT]** Cep-Pol 与 Cygnus 云结果与稀疏配对的吸收/发射 HI 谱精确值一致，但目前限于均匀自旋温度检验。
 
@@ -42,7 +42,7 @@
 
 **[FACT]** DNM 中尘埃 UV 屏蔽理论上解释 HI-$H_{2}$ 过渡与 CO 观测（Lee 2014；Langer 2014 图 17；Wolfire 2010）。
 
-**[FACT]** 图 9(b)：γ-ray 估算 DNM 中 A_V/N_H 与 HI 气体相当。
+**[FACT]** 图 9(b)：$\gamma$-ray 估算 DNM 中 A_V/N_H 与 HI 气体相当。
 
 **[FACT]** 但 DNM 分数随 A_V 演化**令人困惑**：
 - 沿 CO-bright 部分平均 A_V 上升 → 与 CO 光解层变薄的预期**相反**（Planck & Fermi Collab. 2015）。
@@ -53,14 +53,14 @@
 
 ## 7.4 §7.1.3 About X_CO
 
-**[FACT]** 图 9(a)：γ 射线在本地 ISM 与外银河的 X_CO 测量 vs CO 辐射转移结果（[C]/[H] 丰度梯度，Pineda 2013）。
+**[FACT]** 图 9(a)：$\gamma$ 射线在本地 ISM 与外银河的 X_CO 测量 vs CO 辐射转移结果（[C]/[H] 丰度梯度，Pineda 2013）。
 
-**[FACT]** γ 射线方法**无需金属度或 CR 密度梯度**假设，只需同一复合体中 HI 与 CO-bright 之间 CR 均匀穿透。
+**[FACT]** $\gamma$ 射线方法**无需金属度或 CR 密度梯度**假设，只需同一复合体中 HI 与 CO-bright 之间 CR 均匀穿透。
 
 **[FACT]** 两个剖面都可能暗示 X_CO 随银河系半径增加（比外部星系更明显，但需小心）。
 
 **[FACT]** 图 10（CO-dark $H_{2}$ 质量分数分布）：
-- γ 射线在 Gould Belt 云（pc 尺度）平均 X_CO = **0.9 × $10^{20}$ cm⁻² K⁻¹ km⁻¹ s**
+- $\gamma$ 射线在 Gould Belt 云（pc 尺度）平均 X_CO = **0.9 × $10^{20}$ cm⁻² K⁻¹ km⁻¹ s**
 - 在 Local 与 Perseus Arms（kpc 尺度）平均 X_CO = **1.9 × $10^{20}$ cm⁻² K⁻¹ km⁻¹ s**
 - 附近云低值与 CH 高分辨率或弥漫云分子化学估计一致（Liszt 2010; Cotten & Magnani 2013）。
 - Local/Perseus Arms 平均值仅比外部星系（Sandstrom 2013）均值高 30%。
@@ -83,11 +83,11 @@
 
 **[FACT]** 图 11(c) 尘埃颜色温度 ~14–22 K 范围内变化。
 
-**[FACT]** 进一步比较 γ-ray 与尘埃吸收 X_CO 至关重要，判断云间变化源于气体示踪选择、云内采样尺度还是环境差异。
+**[FACT]** 进一步比较 $\gamma$-ray 与尘埃吸收 X_CO 至关重要，判断云间变化源于气体示踪选择、云内采样尺度还是环境差异。
 
 ## 7.6 §7.2 Tracing CR Leptons and the Magnetic Field
 
-**[FACT]** 同步辐射（CR e⁻/e⁺）是 γ 射线示踪核子的**重要补充**，联合分析 γ 与同步辐射可解除"粒子分布 vs 磁场"简并。
+**[FACT]** 同步辐射（CR e⁻/e⁺）是 $\gamma$ 射线示踪核子的**重要补充**，联合分析 $\gamma$ 与同步辐射可解除"粒子分布 vs 磁场"简并。
 
 **[FACT]** 传播模型与同步辐射数据对比（Jaffe 2011; Strong 2011; Lineros 2012）展示该方法的威力：
 - 使用**低频同步辐射**（<几 100 MHz）探测太阳调制使直接测量复杂区的轻子 → 同时提供 ISM 谱以测试调制模型。
@@ -115,9 +115,9 @@
 ### Figure 9 — X_CO 与 A_V/N_H 径向分布
 
 **Panel (a)**：
-- 银河系半径分布上：X_CO 的 γ 射线测量 vs CO ¹²CO/¹³CO 线辐射转移（[C]/[H] 丰度梯度，Pineda 2013）+ 尘埃发射/吸收测量示例。
-- **[FACT]** 尘埃发射估计（Chamaeleon 粉色矩形，Planck & Fermi 2015）与 |b|>10° 绿色矩形（Planck 2011b）**超过** γ-ray 值。
-- **[FACT]** 尘埃吸收（Paradis 2012）与 100 μm 流量（Dame 2001）**与 γ 平均值一致**。
+- 银河系半径分布上：X_CO 的 $\gamma$ 射线测量 vs CO $^{12}{\rm C}$O/$^{13}{\rm C}$O 线辐射转移（[C]/[H] 丰度梯度，Pineda 2013）+ 尘埃发射/吸收测量示例。
+- **[FACT]** 尘埃发射估计（Chamaeleon 粉色矩形，Planck & Fermi 2015）与 |b|>10° 绿色矩形（Planck 2011b）**超过** $\gamma$-ray 值。
+- **[FACT]** 尘埃吸收（Paradis 2012）与 100 $\mu$m 流量（Dame 2001）**与 $\gamma$ 平均值一致**。
 
 **Panel (b)**：
 - DNM 中 A_V/N_H 与 HI 中尘埃估计（Bohlin 1978; Liszt 2014; Planck 2014a）+ 本地 DNM 尘埃估计（Planck 2011b）。
@@ -130,10 +130,10 @@
 
 ### Figure 11 — Chamaeleon 云尘埃性质
 
-**Panel (a)**：N_Hγ 与 τ_353 或 R 的 2D 直方图相关。
-**Panel (b)**：τ_353/N_H 与 4πR/N_H 随 N_H mλ 的变化。
+**Panel (a)**：N_H$\gamma$ 与 $\tau$_353 或 R 的 2D 直方图相关。
+**Panel (b)**：$\tau$_353/N_H 与 4$\pi$R/N_H 随 N_H m$\lambda$ 的变化。
 **Panel (c)**：尘埃颜色温度。
-- **[FACT]** τ_353/N_H 上升 2–4.6 倍；4πR/N_H 下降 ~2 倍。
+- **[FACT]** $\tau$_353/N_H 上升 2–4.6 倍；4$\pi$R/N_H 下降 ~2 倍。
 
 ### Figure 12 — 同步辐射谱（高纬 10°≤|b|≤45°）
 

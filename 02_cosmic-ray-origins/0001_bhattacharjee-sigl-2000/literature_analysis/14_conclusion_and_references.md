@@ -21,10 +21,10 @@
 
 | 提议 | 核心思想 | 代价 |
 |---|---|---|
-| **新粒子 EHECR** | SUSY 粒子等与 CMB 相互作用极弱，可从宇宙学距离到达 | 必须是已知加速粒子（如质子）与介质作用的**次级**产物 → 产生 γ 射线 → 面临观测约束 |
-| **已知粒子但新相互作用** | ν 截面在相关能区有 BSM 主导贡献（与大气作用） | 需满足 unitarity → 不能是点截面；需高 partial wave 贡献 |
+| **新粒子 EHECR** | SUSY 粒子等与 CMB 相互作用极弱，可从宇宙学距离到达 | 必须是已知加速粒子（如质子）与介质作用的**次级**产物 → 产生 $\gamma$ 射线 → 面临观测约束 |
+| **已知粒子但新相互作用** | $\nu$ 截面在相关能区有 BSM 主导贡献（与大气作用） | 需满足 unitarity → 不能是点截面；需高 partial wave 贡献 |
 | **磁单极子 EHECR** | 银河磁场轻松加速 → 动力学 + 距离均无问题 | monopoles 太重 → 难产生相对论性空气簇射 |
-| **Z-burst** | 高能 ν + 遗迹 ν → Z⁰ 共振 → 核子/γ | 需 ν 质量 ~eV → ν 作 hot DM；受关联 γ 射线产生约束 |
+| **Z-burst** | 高能 $\nu$ + 遗迹 $\nu$ → Z⁰ 共振 → 核子/$\gamma$ | 需 $\nu$ 质量 ~eV → $\nu$ 作 hot DM；受关联 $\gamma$ 射线产生约束 |
 | **Lorentz invariance 微小破坏** | 避开 GZK cutoff → 核子可从宇宙学距离到达 | 需精确测量谱与到达方向检验 |
 
 ### 14.1.3 Top-down 场景 [FACT]
@@ -47,7 +47,7 @@
 
 | 方面 | TD 模型 | MSRP 场景 |
 |---|---|---|
-| γ 背景约束 | **严格受限**（级联再循环到 10 MeV–100 GeV） | **不受**弥漫 γ 约束（halo 尺度无 cascade） |
+| $\gamma$ 背景约束 | **严格受限**（级联再循环到 10 MeV–100 GeV） | **不受**弥漫 $\gamma$ 约束（halo 尺度无 cascade） |
 | 各向异性 | 取决于聚类方式（可 halo 聚类如 monopolonium） | **强各向异性**（太阳偏离 halo 中心） |
 | 谱 | 注入谱 + 传播效应 | 注入谱 ≈ 观测谱（几乎无修改） |
 | 可解释 AGASA 无 cutoff | p=1 均匀河外 TD 亦可 | halo 聚类自然解释 |
@@ -56,11 +56,11 @@
 ### 14.1.5 关键实验展望 [FACT]
 
 1. **Pierre Auger Observatory**：大曝光 + 组成测量 + 各向异性 → 可探测 1% 中性组分。
-2. **HiRes / Telescope Array**：荧光技术 UHECR + UHE ν。
-3. **IceCube**：km³ 尺度 ν 探测。
+2. **HiRes / Telescope Array**：荧光技术 UHECR + UHE $\nu$。
+3. **IceCube**：km³ 尺度 $\nu$ 探测。
 4. **OWL 卫星**：$10^{6}$ km² sr 曝光，duty cycle 0.08。
 5. **GLAST (Fermi-LAT)**：探测 TD 10 MeV–GeV 级联成分。
-6. **γ 谱精确测量**：可探测**QCD 在远超加速器能量的行为**。
+6. **$\gamma$ 谱精确测量**：可探测**QCD 在远超加速器能量的行为**。
 7. **EGMF 探测**：EHECR 图像（时-能-角分布）可能揭示未知的大尺度原初磁场。
 
 ## 14.2 参考文献结构
@@ -71,9 +71,9 @@
 - **EHECR 谱与到达方向**：AGASA [7–8, 77–83]，Fly's Eye [7, 79–80]，Haverah Park [3]，Yakutsk [6]，Yoshida-Dai 综述 [33]。
 - **空气簇射与组成**：Stanev 等 [72, 73, 79]；Clay-Smith [76]。
 - **EAS 探测器**：HiRes [84]，Telescope Array [85]，Auger [86]，OWL [87]，AIRWATCH [88–89]。
-- **γ-ray 探测**：HEGRA [49, 67]，EGRET [51]，GLAST [90]，VERITAS [92]，HESS [93]，STACEE [95]，GRAAL [97]，CELESTE [96]，CAT [44]。
-- **ν 探测**：AMANDA [58, 102]，DUMAND [98]，Baikal [99]，ANTARES [101]，ICECube [103]，MACRO [55]，Soudan [62]，EAS-TOP [56–57]。
-- **宇宙 γ-ray 背景**：Sreekumar-Stecker-Kappadath [185]，EGRET [185]，CASA-MIA [258]。
+- **$\gamma$-ray 探测**：HEGRA [49, 67]，EGRET [51]，GLAST [90]，VERITAS [92]，HESS [93]，STACEE [95]，GRAAL [97]，CELESTE [96]，CAT [44]。
+- **$\nu$ 探测**：AMANDA [58, 102]，DUMAND [98]，Baikal [99]，ANTARES [101]，ICECube [103]，MACRO [55]，Soudan [62]，EAS-TOP [56–57]。
+- **宇宙 $\gamma$-ray 背景**：Sreekumar-Stecker-Kappadath [185]，EGRET [185]，CASA-MIA [258]。
 
 ### 14.2.2 传播理论 (~130–270)
 - **GZK 原始工作**：Greisen [21]，Zatsepin-Kuzmin [22]，Stecker [23, 24]，Puget-Stecker-Bredekamp [25]。
@@ -99,7 +99,7 @@
 ### 14.2.5 Lorentz violation / QG (~317–336)
 - Coleman-Glashow [317, 320]，Gonzalez-Mestres [318, 325]，Cowsik-Sreekantan [319]。
 - Amelino-Camelia 等 [331]，Ellis-Farakos-Mavromatos-Mitsou-Nanopoulos [332]。
-- Kostelecký [333]（tachyon ν），Ehrlich [334, 336]。
+- Kostelecký [333]（tachyon $\nu$），Ehrlich [334, 336]。
 
 ### 14.2.6 Top-down / TD (~370–470)
 - **Lemaître "Primeval Atom"** [380]。
@@ -124,7 +124,7 @@
 - **Cascading nucleosynthesis**：Protheroe-Stanev-Berezinsky [485]，Kawasaki-Moroi [485]，Ellis-Gelmini-Lopez-Nanopoulos-Sarkar [486]。
 - **CMB distortion**：Hu-Silk [497]，Zel'dovich-Sunyaev [498]，Mather 等 [499]，Wright 等 [500]。
 - **EGRET & blazars**：Stecker-Salamon [489]，Mücke-Pohl [490]，Mukherjee-Chiang [491]。
-- **Galactic halo γ**：Smialkowski-Wolfendale-Zhang [488]，Blasi [493]，Dubovsky-Tinyakov [492]。
+- **Galactic halo $\gamma$**：Smialkowski-Wolfendale-Zhang [488]，Blasi [493]，Dubovsky-Tinyakov [492]。
 
 ## 14.3 关键公式索引
 
@@ -153,7 +153,7 @@
 
 - 这是 **EHECR 起源问题在 2000 年前最系统、最完整的综述**。
 - 整合了**加速器物理（QCD 强子化）**、**宇宙学（CMB/BBN/暗物质）**、**粒子物理（GUT/SUSY）** 与 **高能天体物理（AGN/GRB/磁场）** 四大领域。
-- **§7 的观测约束框架**（γ-ray/BBN/CMB/ν 四道）成为后来 UHECR 综述的标准范式。
+- **§7 的观测约束框架**（$\gamma$-ray/BBN/CMB/$\nu$ 四道）成为后来 UHECR 综述的标准范式。
 - **Table 1** 是首个系统地比较 viable TD 参数空间的总结。
-- 预言了 Auger 可探测 **γ/CR ~ 1–10%** 的混合 TD 场景 → 2010–2020 数据基本符合。
+- 预言了 Auger 可探测 **$\gamma$/CR ~ 1–10%** 的混合 TD 场景 → 2010–2020 数据基本符合。
 - **§8 的"五类新物理提议"** 框架至今仍被广泛引用。

@@ -10,15 +10,15 @@
 
 | 中文逻辑词 | 英文等价词 | 词性 | 逻辑功能 | 原文/分析例句 | 逻辑说明 |
 |-----------|-----------|------|----------|---------------|----------|
-| 因此 | 因此 | therefore / consequently | adv. | "**[FACT]** 宇宙线（CRs）泛指能量从 1 MeV 到约 $10^{21}$ eV 的粒子，包括从质子到锕系的核、反质子、电子和正电子。能量密度在银河系内由 GeV 质子主导，与热气体、磁场、恒星辐射和 CMB 的能量密度相当。银河系 CR 的 Larmor 半径从最低能量时的 $10^{5}$ km 到接近 $10^{15}$ eV 时的 $10^{-1}$ pc，因此方向信息在传播中完全丢失，γ 射线和射电同步辐射观测对于研究银河系 CR 的大尺度分布和谱不可或" | 因果 |
+| 因此 | 因此 | therefore / consequently | adv. | "**[FACT]** 宇宙线（CRs）泛指能量从 1 MeV 到约 $10^{21}$ eV 的粒子，包括从质子到锕系的核、反质子、电子和正电子。能量密度在银河系内由 GeV 质子主导，与热气体、磁场、恒星辐射和 CMB 的能量密度相当。银河系 CR 的 Larmor 半径从最低能量时的 $10^{5}$ km 到接近 $10^{15}$ eV 时的 $10^{-1}$ pc，因此方向信息在传播中完全丢失，$\gamma$ 射线和射电同步辐射观测对于研究银河系 CR 的大尺度分布和谱不可或" | 因果 |
 | 尽管 | 尽管 | despite / notwithstanding | prep./conj. | "**[FACT]** 在宇宙线发现的百年（1912 发现）之后，尽管对"加速位置 = 超新星遗迹激波"的经典图像已建立（几 % 的超新星爆炸能量 → CR），但近年来的"范式转移"（paradigm shift）表明：**除超新星遗迹之外**的 CR 源（如脉冲星和脉冲星风星云）很可能同样重要。" | 让步 |
 | 即使 | 即使 | even if | conj. | "**[FACT]** 排除机制： 1. **共振散射在自生成的磁不规则性上**（CR streaming 激发）：Cesarsky & Volk (1978) 指出维持 Alfvén 波对抗中性电离摩擦所需功率过大。 2. **致密气体中增加的电离损失** → 净向内 CR streaming 通量 → 云边缘到云间介质连线上的 Alfvén 波阻止 CR 穿透 → 在几十 MeV 处压制通量数个量级（Cesarsky & Volk 1" | 让步 |
 | 相反 | 相反 | conversely / in contrast | adv. | "**[FACT]** 但 DNM 分数随 A_V 演化**令人困惑**： - 沿 CO-bright 部分平均 A_V 上升 → 与 CO 光解层变薄的预期**相反**（Planck & Fermi Collab. 2015）。 - 模型预测 ~30% $H_{2}$ 质量应 CO-dark（Wolfire 2010; Levrier 2012）。 - 图 10 中 CO-dark $H_{2}$ 分数（无论半分子或全分子假设）常**超过**理论预期。" | 对比 |
-| 而 | 而 | whereas / while / and | conj. | "**[FACT]** 替代方案：**外银缺失气体**（γ 射线示踪 CR×气体积）。 - CNM 冷 HI 更容易自吸收 → 8.5 到 10 kpc 内 CNM 分数减半不足以抚平 qγ_H 剖面。 - >10 kpc，15–20% CNM 均匀（Dickey 2009; Pineda 2013）。 - **暗中性介质（DNM）**：HI-bright 与 CO-bright 之间的界面，大量气体在射电巡天中遗失；超出太阳圈 DNM" | 对比/转折 |
+| 而 | 而 | whereas / while / and | conj. | "**[FACT]** 替代方案：**外银缺失气体**（$\gamma$ 射线示踪 CR×气体积）。 - CNM 冷 HI 更容易自吸收 → 8.5 到 10 kpc 内 CNM 分数减半不足以抚平 q$\gamma$_H 剖面。 - >10 kpc，15–20% CNM 均匀（Dickey 2009; Pineda 2013）。 - **暗中性介质（DNM）**：HI-bright 与 CO-bright 之间的界面，大量气体在射电巡天中遗失；超出太阳圈 DNM" | 对比/转折 |
 | 同时 | 同时 | meanwhile / simultaneously | adv. | "**[FACT]** 传播模型与同步辐射数据对比（Jaffe 2011; Strong 2011; Lineros 2012）展示该方法的威力： - 使用**低频同步辐射**（<几 100 MHz）探测太阳调制使直接测量复杂区的轻子 → 同时提供 ISM 谱以测试调制模型。 - **次级电子与正电子**对同步辐射谱重要（尤其低频，图 12）。" | 递进/顺序 |
 | 尤其 | 尤其 | in particular / notably | adv. | "**[FACT]** 传播模型与同步辐射数据对比（Jaffe 2011; Strong 2011; Lineros 2012）展示该方法的威力： - 使用**低频同步辐射**（<几 100 MHz）探测太阳调制使直接测量复杂区的轻子 → 同时提供 ISM 谱以测试调制模型。 - **次级电子与正电子**对同步辐射谱重要（尤其低频，图 12）。" | 举例 |
 | 特别是 | 特别是 | in particular / specifically | phrase | "**[FACT]** 1. **观测简并**：D_xx(p) 的动量依赖与源产生的粒子谱之间存在简并（Putze 2011; Coste 2012）；次级/初级比观测部分缓解。 2. **环境效应**：MHD 湍动水平（特别是快磁声波）强烈影响扩散性质（Yan & Lazarian 2008），银盘与 halo 不同。 3. **本地 CR 样本**：到达地球的核子 > 一半在 2/1 kpc 内产生（Taillet & Maurin" | 举例 |
-| 例如 | 例如 | for instance / for example / e.g. | phrase | "**[FACT]** 图 4 中 qγ_H 剖面与气体质量面密度的对应**看似**表明 CR-ISM 线性耦合——但方位平均不尊重螺旋结构。Hunter et al. (1997) 建模的此类耦合被数据否定（例如在 14–16 kpc 给出两倍于测量值的 emissivity）。" | 举例 |
+| 例如 | 例如 | for instance / for example / e.g. | phrase | "**[FACT]** 图 4 中 q$\gamma$_H 剖面与气体质量面密度的对应**看似**表明 CR-ISM 线性耦合——但方位平均不尊重螺旋结构。Hunter et al. (1997) 建模的此类耦合被数据否定（例如在 14–16 kpc 给出两倍于测量值的 emissivity）。" | 举例 |
 | 随后 | 随后 | subsequently | adv. | "**[FACT]** OH⁺ 首个探测：Wyrowski 2010（APEX 望远镜），随后 HIFI（Herschel）$H_{2}$O⁺（Schilke 2010; Wyrowski 2010）。OH⁺ 现可通过地面光学光谱观测（Krełowski 2010; Porras 2014）。" | 顺序 |
 | 即 | 即 | namely / i.e. | adv. | "**[FACT]** 排除机制： 1. **共振散射在自生成的磁不规则性上**（CR streaming 激发）：Cesarsky & Volk (1978) 指出维持 Alfvén 波对抗中性电离摩擦所需功率过大。 2. **致密气体中增加的电离损失** → 净向内 CR streaming 通量 → 云边缘到云间介质连线上的 Alfvén 波阻止 CR 穿透 → 在几十 MeV 处压制通量数个量级（Cesarsky & Volk 1" | 举例 |
 | 据 | 据 | according to / based on | prep. | "**[FACT]** 偏离星际成分的证据： - **挥发性（Volatility） vs 难熔（Refractory）元素**：难熔元素相对太阳丰度增强；第一电离能 >10 eV 的元素耗竭，一直延伸到每核子 TeV 能量（Rauch 2009; Ahn 2010）。 - **80/20 混合物模型**：~80% ISM + 20% 大质量恒星抛射物（含 Wolf-Rayet 风 + core-collapse SN）可组织化数据。 -" | 因果 |
@@ -32,7 +32,7 @@
 | 电离 | 电离 | 89 | §00 |
 | 银河系 | 银河系的 | 77 | §00 |
 | 源 | （宇宙线）源 | 71 | §00 |
-| γ 射线 | γ 射线 | 67 | §00 |
+| $\gamma$ 射线 | $\gamma$ 射线 | 67 | §00 |
 | ISM | 星际介质 | 65 | §00 |
 | 模型 | 模型 | 49 | §00 |
 | 传播 | 传播 | 39 | §00 |
@@ -97,13 +97,13 @@
 > 1. 宇宙线在银盘损失 10% 能量（核）和 60%（电子），大部分核逃逸。
 2. CR 谱在膝盖 ~3×$10^{15}$ eV 处从 2.7 → 3.3 陡峭。
 3. PAMELA/AMS-02 发现质子/He 谱 ~200 GeV 硬化；He/p 比增 >2×。
-4. ²²Ne/²⁰Ne 比 CR/Solar = 5.3 ± 0.3；⁵⁹Ni 缺失约束加速在 SN 后 ~0.1 Myr。
-5. B/C 约束扩散 D_xx ∝ p^0.3–0.8；¹⁰Be 半衰期 1.6 Myr 定 halo 标高 4–10 kpc。
+4. $^{22}{\rm Ne}$/$^{20}{\rm Ne}$ 比 CR/Solar = 5.3 ± 0.3；$^{59}{\rm Ni}$ 缺失约束加速在 SN 后 ~0.1 Myr。
+5. B/C 约束扩散 D_xx ∝ p^0.3–0.8；$^{10}{\rm Be}$ 半衰期 1.6 Myr 定 halo 标高 4–10 kpc。
 6. Voyager 1（2012-08-25, 122 AU）首次采样 <100 MeV 本地 ISM 谱。
-7. ζ_H^CR 本地 ~1.4×$10^{-17}$ s⁻¹；CMZ ~2–7×$10^{-15}$ s⁻¹；Arp 220 >$10^{-13}$ s⁻¹。
+7. $\zeta$_H^CR 本地 ~1.4×$10^{-17}$ s⁻¹；CMZ ~2–7×$10^{-15}$ s⁻¹；Arp 220 >$10^{-13}$ s⁻¹。
 8. $H_{3}$⁺ 是 CR 电离核心示踪；OH⁺/$H_{2}$O⁺ 示踪低 f($H_{2}$) 气体。
 9. 每次 CR 电离沉积 ~13 eV；中性气体加热效率 ~20%；维持 10 K。
-10. qγ_H 在银河系半径 0–17 kpc 变化 <40% → CR 梯度问题。
+10. q$\gamma$_H 在银河系半径 0–17 kpc 变化 <40% → CR 梯度问题。
 11. Fermi Bubbles 50°，2×$10^{30}$ W，$10^{48}$ J 巨射电瓣，外流 >900 km/s。
 12. Cygnus X cocoon：E^−2.…
 
@@ -134,10 +134,10 @@ Introduction / Scope of the Review
 - **Figure 1** — Local spectra of CR protons and He near Earth / heliopause
 - **Figure 2** — CR electron/positron spectra: AMS-02 + PAMELA + 邻近脉冲星模型
 - **Figure 3** — Proton/He 谱 + B/C 比 vs 传播模型（KOL/KRA/PD）
-- **Figure 4** — γ-ray emissivity qγ_H per H 的银河系半径分布 + 局部云对比
-- **Figure 5** — 全天图：Fermi-LAT γ 强度（1 GeV 以上） vs Planck+IRAS 尘埃光学深度
-- **Figure 6** — 银河系内部 γ-ray 能谱（INTEGRAL+COMPTEL+Fermi-LAT）
-- **Figure 7** — 银河系多波段光度谱（射电→γ，含 CR 功率分解）
+- **Figure 4** — $\gamma$-ray emissivity q$\gamma$_H per H 的银河系半径分布 + 局部云对比
+- **Figure 5** — 全天图：Fermi-LAT $\gamma$ 强度（1 GeV 以上） vs Planck+IRAS 尘埃光学深度
+- **Figure 6** — 银河系内部 $\gamma$-ray 能谱（INTEGRAL+COMPTEL+Fermi-LAT）
+- **Figure 7** — 银河系多波段光度谱（射电→$\gamma$，含 CR 功率分解）
 - **Figure 8** — CR 电离引发的星际化学反应流图
 - **Figure 9** — 银河系 XCO 径向分布 + DNM 的 A…
 
@@ -146,22 +146,22 @@ Introduction / Scope of the Review
 ### C4.
 
 > 1. **谱硬化与成分差异**：PAMELA/AMS-02 揭示 >几百 GeV 处质子/He 谱硬化，He/p 比从 20 GeV 到 50 TeV 增 >2 倍。
-2. **Fermi Bubbles**：~50° 双对称 γ 射线气泡，2×$10^{30}$ W，与巨射电瓣（$10^{48}$ J、B ≤1.5 nT）重叠，速度 >900 km/s 的外流。
-3. **本地 ISM 谱反推**：从 γ-ray qγ_H 得到 ζ_H^CR ≈ 1.4×$10^{-17}$ s⁻¹，CR 能量密度 1.9 eV cm⁻³。
-4. **CR 梯度问题**：外银河 qγ_H 仅下降 20–40%，与 halo 10 kpc 上限勉强一致。
+2. **Fermi Bubbles**：~50° 双对称 $\gamma$ 射线气泡，2×$10^{30}$ W，与巨射电瓣（$10^{48}$ J、B ≤1.5 nT）重叠，速度 >900 km/s 的外流。
+3. **本地 ISM 谱反推**：从 $\gamma$-ray q$\gamma$_H 得到 $\zeta$_H^CR ≈ 1.4×$10^{-17}$ s⁻¹，CR 能量密度 1.9 eV cm⁻³。
+4. **CR 梯度问题**：外银河 q$\gamma$_H 仅下降 20–40%，与 halo 10 kpc 上限勉强一致。
 5. **Cygnus X cocoon**：年轻 CR 困住于电离腔，谱 E^−2.4，能量 $10^{42}$ J，扩散长度 100× 短于 ISM。
 6. **DMN 与 CO-dark $H_{2}$**：DNM 质量达 CO-bright 40–190%，但 DNM 主要原子/分子仍不明。
-7. **星暴星系 CR 反馈**：Arp 220 ζ_$H_{2}$^CR >$10^{-13}$ s⁻¹（比 CMZ 高 $10^{2}$ 倍），质子量热效率 <50%。
+7. **星暴星系 CR 反馈**：Arp 220 $\zeta$_$H_{2}$^CR >$10^{-13}$ s⁻¹（比 CMZ 高 $10^{2}$ 倍），质子量热效率 <50%。
 
 **结构复杂度**：约 152 词（中文 117 字 + 英文 35 词）；18 处停顿（逗号/分号/冒号）；多分句嵌套。
 
 ### C5.
 
-> - **多信使观测**：直接（PAMELA, AMS-02, Voyager 1）+ 间接（γ 射线 Fermi-LAT/HESS，射电同步辐射，亚毫米分子离子谱）。
-- **γ 射线 emissivity qγ_H** 作为 CR 密度与气体的空间映射。
-- **次级/一次核比**（B/C、¹⁰Be/⁹Be、反质子、正电子）约束扩散系数 D_xx(p) 与再加速。
+> - **多信使观测**：直接（PAMELA, AMS-02, Voyager 1）+ 间接（$\gamma$ 射线 Fermi-LAT/HESS，射电同步辐射，亚毫米分子离子谱）。
+- **$\gamma$ 射线 emissivity q$\gamma$_H** 作为 CR 密度与气体的空间映射。
+- **次级/一次核比**（B/C、$^{10}{\rm Be}$/$^{9}{\rm Be}$、反质子、正电子）约束扩散系数 D_xx(p) 与再加速。
 - **分子离子（$H_{3}$⁺、OH⁺、$H_{2}$O⁺、$H_{3}$O⁺、ArH⁺）** 作为低能 CR 电离率的化学探针。
-- **尘埃发射 + γ 射线联合** 示踪暗中性介质（DNM）。
+- **尘埃发射 + $\gamma$ 射线联合** 示踪暗中性介质（DNM）。
 - **传播模型**（GALPROP、DRAGON、USINE、PICARD）+ 贝叶斯参数扫描。
 - **MHD 粒子轨迹模拟**（Giacalone & Jokipii 传统）超越准线性理论。
 
