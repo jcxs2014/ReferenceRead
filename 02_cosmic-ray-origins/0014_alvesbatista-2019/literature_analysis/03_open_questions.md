@@ -459,8 +459,8 @@ equations:
   - 'Eq 4: L_photon > 3×10^44 erg/s (EM counterpart bound)'
   - 'Eq 5: √s ≈ √(2Eε) (BSM CM energy)'
   - 'Eq 6: L_LIV = CPT-odd dim-5 operator'
-  - 'Eq 7: E_±² = m$^{2}$ + p$^{2}$(1 ± ξ_±p/M_Pl^n) (LIV dispersion)'
-  - 'Eq 8: E_cr = E_Pl (m$^{2}$|M|/M_Pl^n)^(1/(n+2))'
+  - 'Eq 7: $E_{\pm}^2 = m^2 + p^2\left(1\pm\frac{\xi_\pm\,p}{M_{Pl}^n}\right)$ (LIV dispersion)'
+  - 'Eq 8: $E_{cr} = E_{Pl} (m^2|M|/M_{Pl}^n)^{1/(n+2)}$'
 key_topics:
   - Spillover effect (energy resolution)
   - Peters cycle vs spallation
