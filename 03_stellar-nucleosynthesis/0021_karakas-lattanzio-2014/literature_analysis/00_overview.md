@@ -5,7 +5,7 @@ year: 2014
 journal: "Publications of the Astronomical Society of Australia (PASA)"
 volume: 31
 pages: e030
-doi: "10.1017/pas.2014.xxx"
+doi: "10.1017/pasa.2014.21"
 arxiv: "1405.0062"
 category: 恒星核合成
 pdf_path: "../karakas-lattanzio-2014_agb-yields.pdf"
@@ -39,27 +39,8 @@ encoding_note: "子 agent 原始输出为 Markdown 表格格式 frontmatter；�
 
 # 00 Overview — Karakas & Lattanzio 2014
 
-## Frontmatter
-
-| 字段 | 值 |
-|------|----|
-| 类目 (category) | 恒星核合成 (stellar nucleosynthesis) |
-| 论文编号 | 0021 |
-| 目录名 | `0021_karakas-lattanzio-2014` |
-| 标题 | **The Dawes Review 2: Nucleosynthesis and stellar yields of low and intermediate-mass single stars** |
-| 作者 | Amanda I. Karakas¹, John C. Lattanzio² |
-| 单位 | ¹Research School of Astronomy & Astrophysics, ANU, Canberra; ²Monash Centre for Astrophysics, Monash University |
-| 期刊 | Publications of the Astronomical Society of Australia (PASA), Astronomical Society of Australia 2014, published by Cambridge University Press |
-| DOI | 10.1017/pas.2014.xxx |
-| arXiv | arXiv:1405.0062v1 [astro-ph.SR], 1 May 2014 |
-| Year | 2014 |
-| Pages | 30（PASA 印张）；PDF 共 70 页（含附录/参考文献/图形） |
-| 关键词 | stars: AGB and post-AGB – nucleosynthesis – ISM: composition – Population II stars – stars: mixing – chemical evolution |
-
-## 勘误 / 元数据核验
-- 目录名 `karakas-lattanzio-2014` 与 PDF 首页作者 (Karakas & Lattanzio)、年份 (2014)、标题 **一致**。
-- 期刊 (PASA, Dawes Review 2) 与 arXiv 版本一致。
-- 页数口径：任务上下文给 pages=30 指 PASA 期刊印张；PDF 抽取得 70 页含大量图形与参考文献——两者均已在正文分析中引用对应页码。
+## 精读版本说明
+子 agent 原始输出为 Markdown 表格格式 frontmatter；已转为标准 YAML frontmatter（见上方）。
 
 ## Citations (本文 →)
 - **wallerstein-1997** (03/0004) — The origin and evolution of elements (rev. mod. phys.)，s-过程、AGB 核合成的标准参考框架。
