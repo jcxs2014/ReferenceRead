@@ -84,16 +84,64 @@ def _slugify(title: str) -> str:
     return raw
 
 
-def _snippet(plain: str, term: str, radius: int = 50) -> str:
-    """匹配词前后的上下文片段（前后各 radius 字符，… 截断标记）。"""
-    idx = plain.lower().find(term)
+def _clean_line(line: str) -> str:
+    """把单行 markdown 清洗为自然语言（snippet 用）：
+    去 wikilink/链接/代码/加粗、LaTeX 公式去反斜杠括号、表格行转空格分隔文本。"""
+    line = re.sub(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", r"\1", line)   # [[path|label]]
+    line = re.sub(r"\[([^\]]*)\]\([^\)]*\)", r"\1", line)            # [text](url)
+    line = re.sub(r"`([^`]*)`", r"\1", line)                         # `code`
+    line = re.sub(r"\*\*|__|\*|_", "", line)                         # emphasis
+    line = re.sub(r"^#{1,6}\s*", "", line)                           # heading marker
+    # 表格行：| a | b | → "a b"（保留单元格内容便于定位）
+    if line.strip().startswith("|"):
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        line = "  ".join(cells)
+        line = re.sub(r"^[-: ]+$", "", line)  # 分隔行 |---|---| 清空
+
+    def math_repl(m):
+        inner = m.group(1) or m.group(2)
+        inner = re.sub(r"[{}]", "", inner)                           # 去花括号
+        inner = re.sub(r"\\([a-zA-Z]+)", lambda mm: mm.group(1), inner)  # \rm → rm
+        inner = re.sub(r"[^0-9a-zA-Z\s.,%±×≤≥~→≈÷+\-*/^]", " ", inner)  # 去残留符号
+        return " " + re.sub(r"\s+", " ", inner).strip() + " "
+
+    line = re.sub(r"\$\$([\s\S]*?)\$\$|\$([^$\n]*?)\$", math_repl, line)
+    line = re.sub(r"[^\w\u4e00-\u9fff\s.,%±×≤≥~→≈÷+\-*/:：;；，。？！、（）()\"'“”‘’]", " ", line)
+    line = re.sub(r"\s+", " ", line).strip()
+    return line
+
+
+def _snippet(lines: list[str], term: str, radius: int = 45) -> str:
+    """从匹配词所在行提取上下文片段（Google 式 snippet）：
+    优先非表格正文行；表格行清洗后也可用；全空则取 section 前 120 字。"""
+    cleaned_lines = []
+    for line in lines:
+        s = line.strip()
+        if not s or s.startswith("```"):
+            continue
+        cleaned = _clean_line(line)
+        if cleaned:
+            cleaned_lines.append(cleaned)
+    # 1) 非表格正文行优先（更自然）
+    for cl in cleaned_lines:
+        if term.lower() in cl.lower():
+            return _slice(cl, term, radius)
+    # 2) 回退：整个 section 拼接里找
+    whole = "  ".join(cleaned_lines)
+    if term.lower() in whole.lower():
+        return _slice(whole, term, radius)
+    return ""
+
+
+def _slice(text: str, term: str, radius: int) -> str:
+    idx = text.lower().find(term)
     if idx == -1:
         return ""
     start = max(0, idx - radius)
-    end = min(len(plain), idx + len(term) + radius)
+    end = min(len(text), idx + len(term) + radius)
     pre = "…" if start > 0 else ""
-    post = "…" if end < len(plain) else ""
-    return pre + plain[start:end].strip() + post
+    post = "…" if end < len(text) else ""
+    return pre + text[start:end].strip() + post
 
 
 def main() -> None:
@@ -140,7 +188,7 @@ def main() -> None:
                         "slug": slug,
                         "section": sec["title"][:80],
                         "anchor": _slugify(sec["title"]),   # 标题锚点（前端 scrollIntoView 用）
-                        "snippet": _snippet(plain, t),      # 匹配词上下文（前端展示用）
+                        "snippet": _snippet(sec["lines"], t),  # 匹配词行上下文（前端展示用）
                         "path": rel,
                     }
                     index.setdefault(t, []).append(entry)
