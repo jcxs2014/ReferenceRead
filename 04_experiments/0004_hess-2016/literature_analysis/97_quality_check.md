@@ -1,51 +1,47 @@
----
-title: "§97 Quality Check"
-paper: "hess-2016"
-section: 97
-nav_prev: "08_conclusions.md"
-nav_next: "98_vocabulary.md"
----
-上一章：`08_conclusions.md` — §8
-下一章：`98_vocabulary.md` — Quality Check
+# 97. Quality Check — 完成度自查
 
-# §97 Quality Check — 完成度自查
+> 文献：`0004_hess-2016`
+> 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
 
-## 覆盖率自检
+## 文件清单
 
-| 检查项 | 状态 |
+| 组件 | 状态 |
 |---|---|
-| frontmatter 字段完整性 | ✅ title/authors/year/journal/pages/doi/arxiv/category/citations |
-| 00_overview 存在 | ✅ |
-| 分章结构（路径 B 八段） | ✅ 8 个分章 |
-| [FACT] 标注 | ✅ 全文 [FACT] 标注关键数值 |
-| [INTERPRETATION] 标注 | ✅ |
-| [CRITIQUE] 标注 | ✅ |
-| 原文页码引用 | ✅ "原文 p.X" 格式 |
-| 数字守恒 | ✅ 5 处数值对照原文 |
-| 公式 LaTeX | ✅ 所有公式 $...$ 格式 |
-| 97/98/99 完整 | 本文件 / 98_vocabulary / 99_final_summary |
+| 00_overview.md | ✅ |
+| 99_final_summary.md | ✅ |
+| 98_vocabulary.md | ✅ |
+| 正文章节文件 | 9 个（✅） |
+| **合计** | **12 个分析文件，611 行** |
 
-## 分章统计
+## 覆盖统计
 
-- 01_detector_and_method：~110 行
-- 02_diffuse_emission_observations：~100 行
-- 03_gamma_ray_spectrum_analysis：~110 行
-- 04_pevatron_evidence：~100 行
-- 05_cosmic_ray_energy_density：~85 行
-- 06_sagittarius_a_star_as_pevatron：~100 行
-- 07_implications_for_acceleration_theory：~110 行
-- 08_conclusions：~100 行
+| 项目 | 数量 | 说明 |
+|---|---|---|
+| §1 标题数 | 12 | 主章节数 |
+| §2 标题数 | 46 | 分节数 |
+| §3 标题数 | 0 | 子分节数 |
+| 图 (Figure) | 0 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 0 | 同上 |
+| 公式 | 0 | LaTeX 行内/独立公式计数 |
+| [FACT] | 42 | 事实陈述 |
+| [INTERPRETATION] | 4 | 解读 |
+| [CRITIQUE] | 1 | 批判 |
 
-**总行数**：~815 行
+## 完成度评分
 
-## FACT 统计
+| 维度 | 得分 | 满分 |
+|---|---|---|
+| 元数据 (00_overview) | 1 | 1 |
+| 总结 (99_final_summary) | 1 | 1 |
+| 词汇表 (98_vocabulary) | 1 | 1 |
+| 正文覆盖 | 2 | 2 |
+| 图表完整性 | 0 | 2 |
+| 批判性分析 | 1 | 2 |
+| 公式完整性 | 0 | 1 |
+| **总分** | **5 / 10** | |
 
-全文 [FACT] 标注：~12 处
-- 探测器参数（能量范围、分辨率）
-- 观测数值（w_CR 倍数、光子指数）
-- 关键物理量（扩散系数标度、质子指数）
-- 理论预测（Bell/Blandford-Ostriaker 框架参数）
+## 建议
 
-## 质量说明
+- 该论文精读**部分覆盖**（5/10）。可考虑补充正文分章、批判观点或公式整理。
 
-本精读为 Nature Letter（~4 页），信息密度高，分章按八段模板结构化。[FACT] 密度 ~15/千字，远超 4.0/千字门槛。数字守恒已核查 5 处关键数值，无误。
+*（本页由 `scripts/gen_quality_check.py` 自动生成）*

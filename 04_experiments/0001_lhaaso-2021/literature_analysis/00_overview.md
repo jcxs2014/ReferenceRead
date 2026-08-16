@@ -1,4 +1,5 @@
 ---
+> 论文：LHAASO 1.4 PeV γ 射线源（Nature 594, 2021）
 title: "Ultrahigh-energy photons up to 1.4 petaelectronvolts from 12 γ-ray Galactic sources"
 authors: "Zhen Cao, F. A. Aharonian, LHAASO Collaboration"
 year: 2021
@@ -16,7 +17,7 @@ citations:
   - '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|blasi-2013]]'
 ---
 
-# LHAASO 1.4 PeV γ 射线源（Nature 594, 2021）
+# 0. 文献基本信息
 
 ## 核心发现
 
@@ -29,7 +30,7 @@ LHAASO KM2A 探测器在不到一年运行期内，从银河系内 12 个甚高�
 - **相关库内文献**：gabici-2019（银河 CR 起源与 PeVatron 搜寻）、blasi-2013（SNR 作为银河宇宙线起源，膝区物理）
 - **领域坐标**：该工作首次实现 >100 TeV γ 射线"background-free"探测（muon veto 效率 10$^{-5}$），灵敏度 10$^{-14}$ erg cm$^{-2}$ s$^{-1}$
 
-## 分章结构（路径 B：八段模板，实验文献）
+## 0.3 论文结构树（路径 B 八段，实验文献）
 
 - `01_detector_and_method`：LHAASO 探测器设计与 KM2A 性能
 - `02_key_measurements`：12 个 ≥100 TeV γ 源与 1.4 PeV 光子

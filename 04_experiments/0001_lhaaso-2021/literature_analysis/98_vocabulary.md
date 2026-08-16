@@ -35,7 +35,9 @@ nav_next: "99_final_summary.md"
 | with significance of | n. | 显著性 | 显著度 | "with significance of >7σ" | 统计陈述 |
 | of which | pron. | 限定 | 其中 | "of which 1.4 PeV is..." | 限定选取 |
 
-## 探测器与仪器
+## B. 领域术语
+
+### 探测器与仪器
 
 | 术语 | 全称/中文 | 说明 |
 |---|---|---|
@@ -48,7 +50,7 @@ nav_next: "99_final_summary.md"
 | PSF | Point Spread Function / 点扩展函数 | 源角分辨率度量，本文 68% containment = 0.45°–0.62° |
 | N_μ/N_e | 缪子数/电磁粒子数比 | KM2A 的 γ/CR 判别量，cut <1/230 |
 
-## 物理量
+### 物理量
 
 | 术语 | 说明 |
 |---|---|
@@ -69,7 +71,7 @@ nav_next: "99_final_summary.md"
 | knee | 银河宇宙线谱"膝区"（~3×10$^{15}$ eV） |
 | first/second knee | 初级/次级膝（CR 能谱拐点） |
 
-## 方法学
+### 方法学
 
 | 术语 | 说明 |
 |---|---|
@@ -83,7 +85,7 @@ nav_next: "99_final_summary.md"
 | 4FGL | Fermi LAT 第八年源目录 |
 | Pass 8 | Fermi LAT 数据处理版本 |
 
-## 关键数值（供速查）
+### 关键数值（供速查）
 
 | 量 | 值 |
 |---|---|

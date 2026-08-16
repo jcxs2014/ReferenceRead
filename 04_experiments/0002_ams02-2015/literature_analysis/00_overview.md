@@ -1,4 +1,5 @@
 ---
+> 论文：AMS-02 质子谱精确测量（PRL 114, 171103, 2015）
 title: "Precision Measurement of the Proton Flux in Primary Cosmic Rays from Rigidity 1 GV to 1.8 TV with the AMS-02 on the ISS"
 authors: "M. Aguilar, D. Aisa, B. Alpat, et al. (AMS Collaboration)"
 year: 2015
@@ -18,7 +19,7 @@ citations:
   - "[[0004_mewaldt-2001-clocks]]"
 ---
 
-# AMS-02 质子谱精确测量（PRL 114, 171103, 2015）
+# 0. 文献基本信息
 
 ## 核心发现
 
@@ -48,7 +49,7 @@ AMS-02 在 ISS 上基于 **3 亿质子事例**，精确测量了刚性 **1 GV �
 - 初级 $Z=+1$ 选例后：$3.0\times10^{8}$ 质子（含少量氘核污染）
 - 刚性分辨率、接受度、触发效率、磁场、几何因子——全部来自 CERN SPS 束流测试 + ISS 原位监测
 
-## 分章结构（路径 B：八段模板，实验短篇 <20 页）
+## 0.3 论文结构树（路径 B：八段模板，实验短篇 <20 页）
 
 - `01_detector_and_method` — AMS-02 磁谱仪与质子选择方法
 - `02_proton_flux_results` — 1 GV–1.8 TV 质子流强测量

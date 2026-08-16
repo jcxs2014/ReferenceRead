@@ -1,16 +1,6 @@
----
-title: "§97 Quality Check"
-paper: "lhaaso-2021"
-section: 97
-nav_prev: "08_conclusions.md"
-nav_next: "98_vocabulary.md"
----
-上一章：`08_conclusions.md` — §8
-下一章：`98_vocabulary.md` — Quality Check
+# 97. Quality Check — 完成度自查
 
-# §97. Quality Check — 完成度自查
-
-> 文献：`04_experiments/0001_lhaaso-2021`
+> 文献：`0001_lhaaso-2021`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
 
 ## 文件清单
@@ -18,38 +8,40 @@ nav_next: "98_vocabulary.md"
 | 组件 | 状态 |
 |---|---|
 | 00_overview.md | ✅ |
-| 01_detector_and_method.md | ✅ |
-| 02_key_measurements.md | ✅ |
-| 03_scientific_implications.md | ✅ |
-| 04_comparison_with_theory.md | ✅ |
-| 05_background_and_systematics.md | ✅ |
-| 06_statistical_significance.md | ✅ |
-| 07_future_prospects.md | ✅ |
-| 08_conclusions.md | ✅ |
-| 98_vocabulary.md | ✅ |
 | 99_final_summary.md | ✅ |
-| **合计** | **11 个分析文件** |
+| 98_vocabulary.md | ✅ |
+| 正文章节文件 | 9 个（✅） |
+| **合计** | **12 个分析文件，950 行** |
 
 ## 覆盖统计
 
 | 项目 | 数量 | 说明 |
 |---|---|---|
-| 主章节文件 | 8 | 路径 B 八段模板 |
-| [FACT] | 见 99_final_summary 统计 | 事实陈述密度 ≥4.0/千字（观测类 OBSERVATIONAL 名单，公式豁免） |
-| 数值核查（对照 PDF） | 2 处 | 1.4 PeV 表述 + 12 源列表 |
+| §1 标题数 | 12 | 主章节数 |
+| §2 标题数 | 63 | 分节数 |
+| §3 标题数 | 5 | 子分节数 |
+| 图 (Figure) | 0 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 8 | 同上 |
+| 公式 | 0 | LaTeX 行内/独立公式计数 |
+| [FACT] | 95 | 事实陈述 |
+| [INTERPRETATION] | 0 | 解读 |
+| [CRITIQUE] | 0 | 批判 |
 
 ## 完成度评分
 
 | 维度 | 得分 | 满分 |
 |---|---|---|
 | 元数据 (00_overview) | 1 | 1 |
-| 八段模板覆盖 | 1 | 1 |
 | 总结 (99_final_summary) | 1 | 1 |
 | 词汇表 (98_vocabulary) | 1 | 1 |
-| 原文数值核查 | 1 | 1 |
-| FACT 密度 | 1 | 1 |
-| **总分** | **6 / 6** | |
+| 正文覆盖 | 2 | 2 |
+| 图表完整性 | 2 | 2 |
+| 批判性分析 | 0 | 2 |
+| 公式完整性 | 0 | 1 |
+| **总分** | **7 / 10** | |
 
 ## 建议
 
-- 该论文精读**完整**。八段路径 B 模板全部到位，FACT 密度达 4+ 每千字，关键数值已与原文 PDF 双源核对。
+- 该论文精读**基本完整**（7/10）。
+
+*（本页由 `scripts/gen_quality_check.py` 自动生成）*
