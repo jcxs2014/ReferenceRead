@@ -20,6 +20,10 @@ ROOT = Path(__file__).resolve().parent.parent
 # 纯观测/数据类（公式豁免）——必须是观测综述，不含理论模型推导
 OBSERVATIONAL = {
     "sneden-cowan-2008",    # 观测丰度综述，公式少
+    "lhaaso-2021",           # LHAASO PeV γ 源观测
+    "ams02-2015",            # AMS-02 磁谱仪质子谱测量
+    "icecube-2013",          # IceCube 天体物理中微子探测
+    "hess-2016",             # HESS 银河中心 PeV 质子
 }
 
 # 公式优先理论论文（FACT密度门槛豁免，公式数仍需 ≥50）
