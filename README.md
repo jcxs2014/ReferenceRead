@@ -1,6 +1,6 @@
 # papers — 文献阅读与分析工作区
 
-> **51 篇文献**（51 篇精读全部闭环）、51 篇分析目录、7 篇跨篇主题背景知识库。
+> **55 篇文献**（55 篇精读全部闭环）、55 篇分析目录、7 篇跨篇主题背景知识库。
 >
 > 按主题域 → 单篇论文 → `literature_analysis/` 三层结构组织。每篇文献按 `docs/READING_INSTRUCTIONS.md` 的 30 节规范精读（§4 分章结构：综述/长文献走"路径 A 子节镜像"，短篇走"路径 B 八段"）。
 
@@ -10,7 +10,7 @@
 papers/
 ├── README.md                       ← 本文档：工作区总览与接入 SOP
 ├── docs/READING_INSTRUCTIONS.md         ← 精读操作手册（30 节规范 + 数据一致性经验）
-├── INDEX.md                        ← 51 篇论文分析入口（gen_index.py 自动生成）
+├── INDEX.md                        ← 55 篇论文分析入口（gen_index.py 自动生成）
 ├── docs/ADVANCEMENT.md                  ← 进阶方案（v2.1 + V2.2 补丁，已全部落地）
 ├── docs/WEBAPP_DESIGN.md                ← Webapp 架构与实现
 ├── docs/ENHANCEMENTS.md                 ← 改进建议清单（9 条全部完成，归档参考）
@@ -79,13 +79,14 @@ papers/
 | 01 | 宇宙线传播 | 7 |
 | 02 | 宇宙线起源与 UHECR | 20 |
 | 03 | 恒星核合成与元素丰度 | 24 |
-| **合计** | | **51** |
+| 04 | 实验与观测 | 4 |
+| **合计** | | **55** |
 
 新增主题域直接开 `NN_主题名/`（编号顺延），同时更新 `INDEX.md` 和本文档。
 
 ## 文献演化关系（学术谱系）
 
-> 51 篇文献的内在演化脉络（奠基 → 继承 → 综述）。标号为文献库编号，**点击跳转对应 `00_overview.md`**；缩进表示谱系继承，`→` 表示思想/方法上的直接传承，`≍` 表示同一时期的平行/互补工作。
+> 55 篇文献的内在演化脉络（奠基 → 继承 → 综述）。标号为文献库编号，**点击跳转对应 `00_overview.md`**；缩进表示谱系继承，`→` 表示思想/方法上的直接传承，`≍` 表示同一时期的平行/互补工作。
 
 ### 01 宇宙线传播（7 篇）
 
@@ -127,7 +128,7 @@ papers/
 ```
 PDF 原文
   │
-  ├──→ fulltext.txt（pdftotext/fitz 提取，51/51 已补齐含 OCR；.gitignore 忽略；跨设备靠 FreeFileSync 同步）
+  ├──→ fulltext.txt（pdftotext/fitz 提取，55/55 已补齐含 OCR；.gitignore 忽略；跨设备靠 FreeFileSync 同步）
   │
   └──→ literature_analysis/
        00_overview.md            ← 文献元数据 + 结构树 + 篇间导航
@@ -155,12 +156,12 @@ PDF 原文
             python3 webapp/scripts/build_fm.py           # 写 frontmatter（自动清洗 [FACT] 等）
             python3 webapp/scripts/build_registry.py     # 生成 webapp/registry.json
 ⑥ 自动维护：
-            python3 scripts/gen_index.py        # 51 篇 → INDEX.md
+            python3 scripts/gen_index.py        # 55 篇 → INDEX.md
             python3 scripts/gen_quality_check.py # → 97_quality_check.md
             python3 scripts/gen_glossary.py      # → background/05_glossary.md
             （gen_glossary.py 已被 webapp/scripts/build_glossary.py 部分替代，后者直接生成 webapp/glossary.json）
 ⑦ webapp 重建：
-            python3 webapp/scripts/build_webapp.py --include-papers    # papers 51（docs/TOC 以实际输出为准）
+            python3 webapp/scripts/build_webapp.py --include-papers    # papers 55（docs/TOC 以实际输出为准）
 ⑧ 审计：   python3 webapp/scripts/audit.py              # 18 条断言，失败非零退出
             headless 验证：/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --headless --dump-dom ...
 ⑨ 提交     git add -f <新篇目录> + git commit
@@ -246,7 +247,7 @@ env -u PYTHONPATH python3 -c "import fitz; doc=fitz.open('XX.pdf'); print(doc[0]
 | 文档 | 用途 |
 |---|---|
 | [`docs/READING_INSTRUCTIONS.md`](docs/READING_INSTRUCTIONS.md) | 精读操作手册（30 节规范 + 数据一致性经验） |
-| [`INDEX.md`](INDEX.md) | 51 篇论文分析入口（自动生成） |
+| [`INDEX.md`](INDEX.md) | 55 篇论文分析入口（自动生成） |
 | [`docs/REVIEWS.md`](docs/REVIEWS.md) | 审查记录（#1–#30：批次核验/回归修复/复验方法论） |
 | [`docs/精读深度扩充设计备忘.md`](docs/精读深度扩充设计备忘.md) | 精读深度扩充设计决策源（路径 A/B/批次/97 块） |
 | [`docs/RECOMMENDATIONS.md`](docs/RECOMMENDATIONS.md) | 改进建议路线图（22 条） |
