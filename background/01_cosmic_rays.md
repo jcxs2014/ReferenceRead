@@ -13,7 +13,7 @@ path: background/01_cosmic_rays.md
 ---
 # 1. 宇宙线物理（背景知识体系）
 
-> 本综述整合 8 篇核心文献的精确精读分析，覆盖银河系宇宙线（GCR）传播、加速、观测约束、超高能宇宙线（UHECR）起源、以及宇宙线与星系的相互作用。主要参考文献包括 Strong, Moskalenko & Ptuskin (2007, RMP 79:2451)、Bhattacharjee & Sigl (1999, Phys. Rep. 320:1)、Al-Dargazelli et al. (1996)、Gaisser (1990)、Blasi (2013, A&AR 21:70)、Amato (2014, arXiv:1406.7714)、Grenier, Black & Strong (2015, ARA&A 53:199)、Biermann (1996, astro-ph/9609110)。
+> 本综述整合 14 篇核心文献的精确精读分析，覆盖银河系宇宙线（GCR）传播、加速、观测约束、超高能宇宙线（UHECR）起源、以及宇宙线与星系的相互作用。主要参考文献包括 Strong, Moskalenko & Ptuskin (2007, RMP 79:2451)、Bhattacharjee & Sigl (1999, Phys. Rep. 320:1)、Al-Dargazelli et al. (1996)、Gaisser (1990)、Blasi (2013, A&AR 21:70)、Amato (2014, arXiv:1406.7714)、Grenier, Black & Strong (2015, ARA&A 53:199)、Biermann (1996, astro-ph/9609110)；**2026-08-16 补入**：Drury (1983, Rep. Prog. Phys. 46:973)、Bell 1978 II (MNRAS 182:443)、Caprioli & Spitkovsky 2014 I/II (ApJ 783:91 / 794:46)、Giacalone (2017, ApJ 848:123)、Kotera & Olinto (2011, ARA&A 49:119)。
 
 ## 1.1 传播理论
 

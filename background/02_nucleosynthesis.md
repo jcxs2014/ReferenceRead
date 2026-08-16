@@ -12,7 +12,7 @@ path: background/02_nucleosynthesis.md
 ---
 # 2. 恒星核合成（背景知识体系）
 
-> 本文件基于以下 6 篇文献的 `literature_analysis/` 精读结果整理：
+> 本文件基于以下 13 篇文献的 `literature_analysis/` 精读结果整理（基础 6 篇 + 2026-08-16 补入 7 篇）：
 >
 > 1. Burbidge, Burbidge, Fowler, Hoyle (1957) — *Rev. Mod. Phys.* **29**, 547 (B$^2$FH)
 > 2. Virginia Trimble (1975) — *Rev. Mod. Phys.* **47**, 877
@@ -20,6 +20,13 @@ path: background/02_nucleosynthesis.md
 > 4. Wallerstein *et al.* (1997) — *Rev. Mod. Phys.* **69**, 995（B$^2$FH 40 周年）
 > 5. Champagne & Wiescher (1992) — *Annu. Rev. Nucl. Part. Sci.* **42**, 39
 > 6. Anders & Grevesse (1989) — *Geochim. Cosmochim. Acta* **53**, 197
+> 7. Busso, Gallino & Wasserburg (1999) — *Annu. Rev. Astron. Astrophys.* **37**, 239（AGB 经典）
+> 8. Karakas & Lattanzio (2014) — *Publ. Astron. Soc. Aust.* **31**, e030（Dawes Review 2）
+> 9. Sneden, Cowan & Gallino (2008) — *Annu. Rev. Astron. Astrophys.* **46**, 241（r 过程桥接）
+> 10. Eichler *et al.* (1989) — *Nature* **340**, 126（NS 并合 r 过程）
+> 11. Arnould & Goriely (2003) — *Phys. Rep.* **384**, 1（p 过程综述）
+> 12. Nomoto, Kobayashi & Tominaga (2013) — *Annu. Rev. Astron. Astrophys.* **51**, 457（SN 核合成）
+> 13. Nomoto & Suzuki (2014) — IAU Symp. **298**, 154（SN 产额表）
 
 本文档给出后续讨论所需的**恒星核合成背景知识**，重点给出概念、公式与关键数值；不涉及推导。
 
@@ -931,5 +938,5 @@ $$\xi(M) \propto M^{-\alpha},\quad \alpha = 2.35$$
 
 ---
 
-*本文件基于 6 篇恒星核合成核心文献的 `literature_analysis/` 精读分析编写，给出概念框架、关键公式与数值。如需更详细的某过程推导或实验进展，请参考对应论文的全文分析。*
+*本文件基于 13 篇恒星核合成核心文献的 `literature_analysis/` 精读分析编写，给出概念框架、关键公式与数值。如需更详细的某过程推导或实验进展，请参考对应论文的全文分析。*
 

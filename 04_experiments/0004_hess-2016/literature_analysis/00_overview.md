@@ -1,5 +1,4 @@
 ---
-> 论文：HESS 银河中心 PeV 质子加速（Nature 531, 2016）
 title: "Acceleration of petaelectronvolt protons in the Galactic Centre"
 authors: "H.E.S.S. Collaboration"
 year: 2016
@@ -19,6 +18,7 @@ citations:
 ---
 
 # 0. 文献基本信息
+> 论文：HESS 银河中心 PeV 质子加速（Nature 531, 2016）
 
 ## 核心发现
 

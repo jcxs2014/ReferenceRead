@@ -1,5 +1,4 @@
 ---
-> 论文：LHAASO 1.4 PeV γ 射线源（Nature 594, 2021）
 title: "Ultrahigh-energy photons up to 1.4 petaelectronvolts from 12 γ-ray Galactic sources"
 authors: "Zhen Cao, F. A. Aharonian, LHAASO Collaboration"
 year: 2021
@@ -18,6 +17,7 @@ citations:
 ---
 
 # 0. 文献基本信息
+> 论文：LHAASO 1.4 PeV γ 射线源（Nature 594, 2021）
 
 ## 核心发现
 

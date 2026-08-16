@@ -1,5 +1,4 @@
 ---
-> 论文：IceCube 高能天体物理中微子证据（Science 342, 2013）
 title: "Evidence for High-Energy Extraterrestrial Neutrinos at the IceCube Detector"
 authors: "IceCube Collaboration (Aartsen M. G. et al.)"
 year: 2013
@@ -18,6 +17,7 @@ citations:
 ---
 
 # 0. 文献基本信息
+> 论文：IceCube 高能天体物理中微子证据（Science 342, 2013）
 
 ## 核心发现
 

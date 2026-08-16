@@ -162,7 +162,7 @@ path: background/06_controversy_evolution.md
 
 ---
 
-*本文件由 04_critique_index.md 争议索引 + 23 篇文献年份结构化生成，内容可在文献侧更新后重跑。*
+*本文件由 04_critique_index.md 争议索引 + 55 篇文献年份结构化生成，内容可在文献侧更新后重跑。*
 
 ## 10. 现代实验裁决（2013–2021，本库 04 域新增）
 

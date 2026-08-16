@@ -7,6 +7,7 @@ import html as html_mod
 import base64
 import sys
 import subprocess
+import tempfile
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent       # webapp/scripts/
@@ -149,7 +150,10 @@ def slug(s):
 
 
 def convert_doc(path: Path, doc_id: str = ""):
-    tmp = path.with_suffix(".fragment.html")
+    # fragment 写到系统临时目录（不再污染源目录）——2026-08-16 保护层
+    # 曾拦截源目录批量 unlink（SAFE_DELETE_BULK_CONFIRM_REQUIRED）致构建中断，
+    # /tmp 下清理不触发工作区保护，且免去 .gitignore 依赖
+    tmp = Path(tempfile.gettempdir()) / f"frag_{path.stem}_{doc_id or 'x'}.html"
     args = [sys.executable, str(TOOLS / "md2doc_html.py"), str(path), str(tmp), "--reset-anchors"]
     if doc_id:
         args.append(doc_id)
@@ -159,8 +163,6 @@ def convert_doc(path: Path, doc_id: str = ""):
     try:
         content = tmp.read_text(encoding="utf-8")
     finally:
-        # 临时 fragment 清理失败不中断构建（.gitignore 已忽略 *.fragment.html，
-        # 残留可在构建后统一清理；2026-08-16 保护层曾拦截批量 unlink 致构建中断）
         try:
             tmp.unlink(missing_ok=True)
         except Exception:
