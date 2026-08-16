@@ -231,6 +231,9 @@ $$
 E_{\max} \approx \frac{3 u_1 Z e B (\tau_u \tau_A)}{20 c} \sim 10^{14} Z\ {\rm eV} \quad (B = 3\ \mu\text{G}, u_1 = 10^9\ \text{cm/s}, \tau_A = 10^3\ \text{yr})
 $$
 
+
+**现代理论补充**：**Drury (1983)** 的 DSA 综述（Rep. Prog. Phys. 105:57）将加速机制系统化——谱指数 $q=(r+2)/(r-1)$（$r$ 为压缩比）、加速时标 $\sim\kappa/V^2$、球状激波与点爆炸的奇异摄动处理，是 DSA 的公共理论参照。**Bell 1978 II** 进一步处理激波波前上的磁流体加速（激波前压缩磁场 + 粒子反射），给出 ~1% 太阳风质子注入效率的估算——与 Bell 1978 I 构成完整理论。
+
 ### 1.2.2 非线性 DSA（NLDSA）
 
 Test-particle 假设 $\xi_{\rm CR} \ll 1$（宇宙线能量份额）。实际上 SNR 中 $\xi_{\rm CR} \sim 10\%$（甚至到 $50\%$），必须考虑非线性效应。
@@ -261,6 +264,9 @@ $$
 **计算 NLDSA 的三种方法**：有限差分（Berezhko & Völk；Zirakashvili & Ptuskin）；Monte Carlo（Ellison & Eichler；Knerr）；半解析（Malkov；Blasi 2002；Amato & Blasi）。
 
 Amato (2014) 强调**逃逸粒子**的作用：高能粒子逃逸到 SNR 外部可形成"辐射型"激波行为，$R_{\rm tot}$ 甚至可达 7。逃逸谱（escape spectrum）通过逆问题方法从观测到的银河系总谱反推，给出源注入谱的形状。
+
+
+**数值验证（Caprioli & Spitkovsky 2014 I）**：3D PIC 模拟首次自洽给出**加速效率 ~10–20%**（动能转 CR，强激波马赫数依赖），谱指数收敛于 ~2.0，与解析理论一致；注入参数 $\xi_{\rm inj}\approx 3$–$3.5$、$\eta\approx 10^{-3}$–$10^{-4}$ 刻画热质子注入份额。
 
 ### 1.2.3 磁场放大（MFA）
 
@@ -293,6 +299,9 @@ $$
 
 Amato (2014) 特别讨论了"强流区"色散关系的完整推导——标准增长率公式在此处误用，需要修订。
 
+
+**磁场放大数值（Caprioli & Spitkovsky 2014 II）**：逃逸 CR 密度 $\epsilon_{\rm CR}\sim 10^{-4}$ 即可通过非共振混杂不稳定性（NRH）将 ISM 磁场放大 10×+，饱和由非线性 Landau 阻尼控制——为 SNR 加速到 PeV 提供磁场条件。
+
 ### 1.2.4 PeVatron 条件
 
 **PeVatron**（$E \ge 1$ PeV 加速器）：SNR 要达到 PeV 需满足：
@@ -304,6 +313,9 @@ Amato (2014) 特别讨论了"强流区"色散关系的完整推导——标准�
 Filamentation 不稳定性在 Tycho 参数下可达 ~200 TeV，距膝点差约一个量级。Blasi (2013) 指出 SNRs with even larger velocity (therefore much younger) may be responsible for acceleration of PeV CRs。
 
 银河系 SN 供给功率 $\sim 3 \times 10^{42}$ erg/s（Gaisser 1990；Grenier 2015 给出总 CR 相关光度 $\sim 10^{41}$ erg/s），与观测 CR 能量密度 $\rho_E \approx 1$ eV/cm$^{3}$ 匹配。
+
+
+**球状激波几何（Giacalone 2017）**：三维球面激波数值模拟显示粒子沿磁场线向极区漂移聚集，最高能粒子在准垂直（赤道）区更快加速——对 SNR 遗迹的 PeVatron 判读（极区增强、非各向同性加速）至关重要。
 
 ## 1.3 观测约束
 
@@ -461,6 +473,9 @@ CMB 典型 $\varepsilon \sim 10^{-3}$ eV → **GZK 截断出现在 $\sim 5 \time
 **完全发展 EM 级联堆积能量**在 ~100 GeV，受 EGRET diffuse $\gamma$-ray 数据约束。级联特征谱 $E^{-1.5}$。
 
 **2017 年 Pierre Auger 确认**：$E > 5 \times 10^{19}$ eV 处能谱陡化（与 GZK 预期一致）。
+
+
+**现代综述（Kotera & Olinto 2011）**：UHECR 系统综述覆盖源候选（AGN/GRB/星系团）、传播与 GZK、磁场偏转、多信使（中微子 0.03–0.2 ν/年、γ 射线）——将本节源模型讨论系统化，并预告 Auger 混合成分与各向异性的开放问题。
 
 ### 1.4.2 源模型（bottom-up）
 
