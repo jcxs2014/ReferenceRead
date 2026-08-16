@@ -24,7 +24,6 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/98_vocabula
 
 | 词汇/短语 | 原文例句 | 逻辑功能 |
 |-----------|---------|---------|
-
 | **Approximately half of** | 'Approximately half of the elements beyond iron' | 比例陈述 |
 | **The other half** | 'The other half are produced by the r-process' | 对称分类 |
 | **Following the discovery of** | 'Following the discovery of GW170817 in 2017' | 时间线引出 |
@@ -38,7 +37,6 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/98_vocabula
 
 | 术语 | 中文释义 | 频次（粗估） |
 |------|---------|------------|
-
 | **s-process** | slow neutron capture process | 25 |
 | **r-process** | rapid neutron capture process | 38 |
 | **kilonova** | 千新星，NSM 抛射物产生的光学/近红外爆发 | 22 |

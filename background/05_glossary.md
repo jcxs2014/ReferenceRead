@@ -131,28 +131,36 @@ path: background/05_glossary.md
 
 ## 2. 单篇术语（按首字母分组）
 
-| 术语 | 论文来源 | 释义 |
-|---|---|---|
 ### "
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `"eon glasses"` | 0003_fowler-1984 | Fowler 诗意的叫法：放射性核素像"亿年玻璃"记录时间 |
 
 ### $
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$\pi^0$-decay gamma rays` | 0001_strong-moskalenko-ptuskin-2007 | 中性 $\pi$ 介子衰变伽马射线 |
 
 ### (
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `($\alpha$,n) reaction` | 0014_cameron-1968 | ($\alpha$,n) 反应 |
 
 ### 1
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `1-zone / 2-zone model` | 0001_strong-moskalenko-ptuskin-2007 | 一区 / 二区模型 |
 | `12C($\alpha$,$\gamma$)16O` | 0004_wallerstein-1997 | 恒星 He 燃烧中决定 C/O 比的核心反应，速率仍存 30% 不确定 |
 | `13C 口袋 (13C pocket)` | 0004_wallerstein-1997 | AGB 星 He 闪后形成的 13C 富集薄层，是低温 (n,$\gamma$) 中子源 |
 
 ### 2
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `2075 K radius minimum` | 0012_dieterich-2014-h-burning-limit | 本文半径极小温度 |
 | `21 cm HI line` | 0013_bertone-hooper-2018 | 21 厘米中性氢线 |
 | `22Ne($\alpha$,n)25Mg` | 0004_wallerstein-1997 | AGB 星高温中子源；C/O 核质量 ≥0.9 $M_\odot$ 时启动 |
@@ -163,20 +171,28 @@ path: background/05_glossary.md
 
 ### 3
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `3.55 keV line` | 0013_bertone-hooper-2018 | 3.55 keV X 射线线（惰性中微子候选信号） |
 | `3D hydrodynamic model` | 0009_asplund-2009-solar-composition | 三维流体力学太阳模型 |
 
 ### 5
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `5.2±3.7 Gyr (LHS 4039C age)` | 0012_dieterich-2014-h-burning-limit | 白矮星冷却+前身星年龄 |
 | `50% condensation temperature` | 0008_lodders-2003 | 50% 冷凝温度 |
 
 ### 6
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `60,000 yr time scale` | 0015_kraft-1994 | 60,000 年时标 |
 
 ### A
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `A(El) = 1.540 + log N(El)` | 0008_lodders-2003 | 两标尺耦合 |
 | `A(El)$_{0}$ = A(El) + 0.074 dex` | 0008_lodders-2003 | 原始-大气转换关系 |
 | `ACE` | 0001_strong-moskalenko-ptuskin-2007 | 高级成分探测器 |
@@ -207,6 +223,8 @@ path: background/05_glossary.md
 
 ### B
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `B/C ratio` | 0001_strong-moskalenko-ptuskin-2007 | 硼碳比 |
 | `BBN (Big Bang Nucleosynthesis)` | 0013_bertone-hooper-2018 | 大爆炸核合成 |
 | `BESS / BESS-Polar` | 0001_strong-moskalenko-ptuskin-2007 | 反物质宇宙线实验 |
@@ -240,6 +258,8 @@ path: background/05_glossary.md
 
 ### C
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `C + N = const` | 0010_gies-lambert-1992 | C+N 守恒（CN-cycle 签名） |
 | `C, N, O abundance` | 0010_gies-lambert-1992 | 碳氮氧丰度 |
 | `C, N, O, Ne` | 0009_asplund-2009-solar-composition | 碳、氮、氧、氖丰度 |
@@ -308,6 +328,8 @@ path: background/05_glossary.md
 
 ### D
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `DAMA/LIBRA` | 0013_bertone-hooper-2018 | 意大利 Gran Sasso 年调制实验 |
 | `DENIS J1454−6604AB` | 0012_dieterich-2014-h-burning-limit | 本文新发现的天体测量双星 |
 | `dSph (dwarf spheroidal)` | 0013_bertone-hooper-2018 | 矮球状星系 |
@@ -340,6 +362,8 @@ path: background/05_glossary.md
 
 ### E
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `EGRET` | 0001_strong-moskalenko-ptuskin-2007 | 高能伽马射线实验望远镜 |
 | `EHE` | 0001_bhattacharjee-sigl-2000 | 极端高能 |
 | `EHECR` | 0001_bhattacharjee-sigl-2000 | 极端高能宇宙线 |
@@ -368,6 +392,8 @@ path: background/05_glossary.md
 
 ### F
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `FCZ 反应速率表` | 0003_fowler-1984 | Fowler, Caughlan, Zimmerman (1967/1975) 的现代核合成速率标准 |
 | `FFN 弱速率表` | 0003_fowler-1984 | Fuller, Fowler, Newman (1980–1984) 给出的弱相互作用速率数据库 |
 | `FIP (first ionization potential)` | 0006_anders-grevesse | 第一电离势 |
@@ -392,6 +418,8 @@ path: background/05_glossary.md
 
 ### G
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `GALPROP` | 0001_strong-moskalenko-ptuskin-2007 | 银河系传播代码 |
 | `GCR` | 0003_gaisser-1990 | 银河宇宙线 |
 | `GETPHD` | 0010_gies-lambert-1992 | 高斯拟合等值宽度程序 |
@@ -418,6 +446,8 @@ path: background/05_glossary.md
 
 ### H
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `H II region` | 0010_gies-lambert-1992 | H II 区（电离氢区） |
 | `H-R diagram` | 0010_gies-lambert-1992 | 赫罗图 |
 | `HEAT` | 0001_strong-moskalenko-ptuskin-2007 | 高能反物质望远镜 |
@@ -450,6 +480,8 @@ path: background/05_glossary.md
 
 ### I
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `I-band variability` | 0012_dieterich-2014-h-burning-limit | I 波段光学变率 |
 | `IMF (initial mass function)` | 0011_kewley-2001-starburst | 初始质量函数 |
 | `IRAS warm galaxy sample` | 0011_kewley-2001-starburst | IRAS 温热红外星系样本 |
@@ -473,6 +505,8 @@ path: background/05_glossary.md
 
 ### K
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `K-capture (K-capture decay)` | 0001_strong-moskalenko-ptuskin-2007 | K-电子俘获 |
 | `K-capture isotope` | 0001_strong-moskalenko-ptuskin-2007 | K-俘获同位素 |
 | `Kellogg Lab` | 0003_fowler-1984 | William Fowler 所在的核物理实验室，实验核天体物理的中心 |
@@ -483,6 +517,8 @@ path: background/05_glossary.md
 
 ### L
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `LPHD` | 0001_bhattacharjee-sigl-2000 | 局域部分子-强子对偶性 |
 | `LSP (lightest supersymmetric particle)` | 0013_bertone-hooper-2018 | 最轻超对称粒子 |
 | `Li $\lambda$6708` | 0012_dieterich-2014-h-burning-limit | 锂 6708 Å 吸收线 |
@@ -506,6 +542,8 @@ path: background/05_glossary.md
 
 ### M
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `M dwarf, L dwarf` | 0012_dieterich-2014-h-burning-limit | M 矮星 / L 矮星（光谱型） |
 | `M22` | 0015_kraft-1994 | 梅西耶 22 |
 | `MACHO (Massive Astrophysical Compact Halo Object)` | 0013_bertone-hooper-2018 | 大质量致密天体（重子暗物质候选） |
@@ -540,6 +578,8 @@ path: background/05_glossary.md
 
 ### N
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `N/O–Z☉ 0.23 transition` | 0011_kewley-2001-starburst | 氮 0.23 Z☉ 转折点 |
 | `NATO ASI 1974` | 0002_trimble-1975 | 剑桥天文研究所举办的元素起源研讨会 |
 | `NFW profile (Navarro-Frenk-White 1996)` | 0013_bertone-hooper-2018 | 普适晕密度分布 |
@@ -563,6 +603,8 @@ path: background/05_glossary.md
 
 ### O
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `OBN star` | 0010_gies-lambert-1992 | 氮异常 O/B 星（Walborn 1976） |
 | `Oort (1932)` | 0013_bertone-hooper-2018 | 太阳邻域物质密度测量 |
 | `Opacity Project` | 0009_asplund-2009-solar-composition | 不透明度研究计划 |
@@ -578,6 +620,8 @@ path: background/05_glossary.md
 
 ### P
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `PAMELA` | 0013_bertone-hooper-2018 | 空间反质子测量 |
 | `PEGASE (Fioc & Rocca-Volmerange)` | 0011_kewley-2001-starburst | PEGASE 恒星种群代码 |
 | `Padua evolutionary tracks` | 0011_kewley-2001-starburst | Padova 演化轨 |
@@ -621,11 +665,15 @@ path: background/05_glossary.md
 
 ### Q
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `Q/M fractionation` | 0006_anders-grevesse | 荷质比分馏 |
 | `quasi-linear theory (QLT)` | 0001_strong-moskalenko-ptuskin-2007 | 准线性理论 |
 
 ### R
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `R-parity` | 0013_bertone-hooper-2018 | R 宇称（P_R = (-1)^{2s+3B+L}） |
 | `RR Lyrae` | 0015_kraft-1994 | 天琴 RR 变星 |
 | `R_BCZ` | 0009_asplund-2009-solar-composition | 对流区底部半径 |
@@ -652,6 +700,8 @@ path: background/05_glossary.md
 
 ### S
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `S factor` | 0005_champagne-wiescher-1992 | S 因子 |
 | `S 型星 (S stars)` | 0001_b2fh-1957 | 大气中 ZrO 分子带强的 s 过程超丰恒星光谱亚型 |
 | `S/N (signal-to-noise)` | 0015_kraft-1994 | 信噪比 |
@@ -735,6 +785,8 @@ path: background/05_glossary.md
 
 ### T
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `TOF 与活化法` | 0004_wallerstein-1997 | 时间飞行法 (Time-of-Flight) 与活化法 (activation)——核反应截面两种主要测量技术 |
 | `T_eff` | 0010_gies-lambert-1992 | 有效温度 |
 | `Tc$^{99}$ (technetium-99)` | 0002_trimble-1975 | 半衰期 2.1×$10^{6}$ yr 的短寿命核素；s 过程直接证据 |
@@ -761,12 +813,16 @@ path: background/05_glossary.md
 
 ### U
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `UHE` | 0001_bhattacharjee-sigl-2000 | 超高能 |
 | `U$^{235}$/U$^{238}$ 双衰变定年` | 0001_b2fh-1957 | 用两种铀同位素放射性衰变反推银河系年龄 |
 | `uniform enrichment` | 0014_cameron-1968 | 均匀富集 |
 
 ### V
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `V sin i` | 0010_gies-lambert-1992 | 投影自转速度 |
 | `VO87 (Veilleux & Osterbrock 1987)` | 0011_kewley-2001-starburst | 半经验星暴-AGN 分类图 |
 | `VRI photometry` | 0012_dieterich-2014-h-burning-limit | VRI 光学测光 |
@@ -780,6 +836,8 @@ path: background/05_glossary.md
 
 ### W
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `W-R galaxy` | 0011_kewley-2001-starburst | W-R 星系（宽恒星发射线） |
 | `WIDTH6` | 0010_gies-lambert-1992 | WIDTH6 曲线生长程序 |
 | `WIMP miracle` | 0013_bertone-hooper-2018 | WIMP 奇迹（$\sigma$v ~ 弱力截面） |
@@ -791,15 +849,21 @@ path: background/05_glossary.md
 
 ### X
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `X-ray burst (XRB)` | 0005_champagne-wiescher-1992 | X 射线暴 |
 | `XENON1T / LUX / LZ` | 0013_bertone-hooper-2018 | 液氙直接探测实验 |
 
 ### Y
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `Y_i (isotopic abundance)` | 0005_champagne-wiescher-1992 | 同位素丰度 |
 
 ### Z
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `Z, X, Y (mass fractions)` | 0009_asplund-2009-solar-composition | 金属/氢/氦质量分数 |
 | `Z/X` | 0008_lodders-2003 | 金属对氢质量比 |
 | `ZAMS (zero-age main sequence)` | 0012_dieterich-2014-h-burning-limit | 零龄主序 |
@@ -808,6 +872,8 @@ path: background/05_glossary.md
 
 ### [
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `[Fe III] $\lambda$4658` | 0011_kewley-2001-starburst | 铁 III 4658 禁戒线 |
 | `[Fe/H] spread` | 0015_kraft-1994 | [Fe/H] 展宽 |
 | `[Fe/H], metal-poor` | 0009_asplund-2009-solar-composition | 铁丰度/贫金属 |
@@ -818,6 +884,8 @@ path: background/05_glossary.md
 
 ### $^{2}$
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$^{22}{\rm Ne}$($\alpha$,n)$^{25}{\rm Mg}$` | 0015_kraft-1994 | 中子源反应 |
 | `$^{23}{\rm Na}$, $^{27}{\rm Al}$ production` | 0015_kraft-1994 | Na、Al 合成 |
 | `$^{20}{\rm Ne}$($\alpha$,n)$^{24}{\rm Mg}$ 中子源` | 0001_b2fh-1957 | 高温中子源 |
@@ -826,6 +894,8 @@ path: background/05_glossary.md
 
 ### $^{1}$
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$^{12}{\rm C}$ 口袋的形成` | 0004_wallerstein-1997 | 半对流混合、超射、He 闪后 H 摄取等多机制竞争 |
 | `$^{12}{\rm C}$($\alpha$,n)$^{16}{\rm O}$ 中子源` | 0001_b2fh-1957 | AGB 星 s 过程的重要低温中子源 |
 | `$^{12}{\rm C}$($\alpha$,$\gamma$)$^{16}{\rm O}$` | 0003_fowler-1984 | 恒星 He 燃烧中决定 C/O 比的核心反应，速率仍存 1.6 倍不确定 |
@@ -833,50 +903,72 @@ path: background/05_glossary.md
 
 ### $\Alpha$
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$\alpha$-rich freezeout ($\alpha$ 过程)` | 0004_wallerstein-1997 | 中子星形成早期 $\alpha$ 粒子富集的冻结过程，产生 A~100 的 r 过程种子核 |
 
 ### $\Beta$
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$\beta$ 衰变 (beta decay)` | 0001_b2fh-1957 | 核通过弱相互作用改变 Z/N 的衰变 |
 | `$\beta$-delayed neutron emission` | 0014_cameron-1968 | $\beta$ 延迟中子发射 |
 
 ### $\Gamma$
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$\Gamma$_$\gamma$ (radiative width)` | 0005_champagne-wiescher-1992 | 辐射宽度 |
 | `$\Gamma$$_{1}$ (adiabatic exponent)` | 0009_asplund-2009-solar-composition | 绝热指数 |
 
 ### $\Delta$
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$\Delta$t/$\Delta$[O/Fe] ≈ 4 Gyr/dex` | 0015_kraft-1994 | O 丰度对年龄敏感度 |
 
 ### $\Lambda$
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$\Lambda$CDM` | 0013_bertone-hooper-2018 | $\Lambda$CDM 标准宇宙学模型 |
 
 ### $\Mu$
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$\mu$ gradient` | 0015_kraft-1994 | 质量分数梯度 |
 
 ### $\Nu$
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$\nu$ 过程 (neutrino-process)` | 0004_wallerstein-1997 | Woosley et al. (1990) 提出的新过程——中微子蒸发核子改变传统合成结果 |
 
 ### $\Rho$
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$\rho$ Leo (HD 91316)` | 0010_gies-lambert-1992 | 本文最 N 富集星 |
 
 ### $\Sigma$
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$\sigma$N_s plot` | 0006_anders-grevesse | $\sigma$N_s 图 |
 | `$\sigma$_N` | 0014_cameron-1968 | 截面-丰度乘积 |
 
 ### $\Omega$
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `$\Omega$_b h$^{2}$, $\Omega$_c h$^{2}$` | 0013_bertone-hooper-2018 | 重子/冷暗物质密度参数 |
 | `$\omega$$\gamma$ (omega-gamma)` | 0005_champagne-wiescher-1992 | 共振强度 |
 
 ### 中
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `中子俘获 (neutron capture, (n,$\gamma$))` | 0001_b2fh-1957 | 核吸收中子并发射 $\gamma$ 光子的反应 |
 | `中子俘获截面 (neutron-capture cross section)` | 0002_trimble-1975 | (n,$\gamma$) 反应的概率 |
 | `中子壳阻塞 (neutron shell blocking)` | 0003_fowler-1984 | 弱速率表中涉及中子壳层阻塞效应 |
@@ -885,181 +977,263 @@ path: background/05_glossary.md
 
 ### 伽
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `伽马射线` | 0004_blasi-2013 | $\gamma$ 射线 |
 
 ### 元
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `元素丰度表 (abundance table)` | 0002_trimble-1975 | Suess & Urey (1956) 给出的元素/同位素相对丰度 |
 | `元素起源` | 0002_trimble-1975 | 元素从何而来（本文核心命题） |
 | `元素起源 (origin of the elements)` | 0001_b2fh-1957 | 本论文核心命题：元素从何而来 |
 
 ### 光
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `光致蜕变 (photodisintegration, ($\gamma$,n))` | 0001_b2fh-1957 | $\gamma$ 光子打飞核内的中子/质子 |
 
 ### 八
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `八大合成过程 (eight processes)` | 0001_b2fh-1957 | H 燃烧、He 燃烧、$\alpha$、$\epsilon$、s、r、p、x 八大过程 |
 
 ### 分
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `分支因子 (branching factor, f_$\beta$)` | 0004_wallerstein-1997 | s 过程分支点处 $\beta$ 衰变与中子俘获的相对概率，反推 n_$\nu$, T |
 
 ### 初
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `初始质量函数 (IMF, Initial Mass Function)` | 0002_trimble-1975 | 描述恒星形成时质量分布的函数 |
 
 ### 化
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `化学元素丰度 (elemental abundances)` | 0002_trimble-1975 | 元素在恒星、星际介质、陨石中的相对丰度 |
 
 ### 半
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `半对流 (semiconvection)` | 0004_wallerstein-1997 | 介于对流与辐射之间的混合机制 |
 
 ### 原
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `原初核合成 (Big Bang nucleosynthesis, BBN)` | 0004_wallerstein-1997 | 宇宙早期 D、$^{3}{\rm He}$、$^{7}{\rm Li}$ 的合成 |
 | `原子核` | 0007_biermann-1996 | 原子核 |
 
 ### 双
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `双白矮星合并 (WD-WD merger)` | 0004_wallerstein-1997 | SN Ia 前身星场景之一；Tutukov et al. (1992) 提出 |
 | `双衰变定年 (double-decay chronometer)` | 0002_trimble-1975 | 用两种放射性核素反推年龄的方法 |
 
 ### 哈
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `哈勃` | 0002_al-dargazelli-1996 | 哈勃（常数/尺度） |
 
 ### 大
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `大爆炸核合成 (Big Bang nucleosynthesis)` | 0002_trimble-1975 | 宇宙早期（3–20 min）合成 D、He、Li |
 
 ### 宇
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `宇宙弦` | 0001_bhattacharjee-sigl-2000 | 宇宙弦 |
 
 ### 对
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `对产生` | 0001_bhattacharjee-sigl-2000 | 对产生 |
 
 ### 幻
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `幻数 (magic number)` | 0001_b2fh-1957 | 核壳层闭合的 Z 或 N 值 (2,8,20,28,50,82,126) |
 | `幻数峰 (magic number peaks)` | 0002_trimble-1975 | 丰度曲线上在 N=50/82/126 处的峰 |
 
 ### 弥
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `弥散` | 0003_gaisser-1990 | 弥散的 |
 
 ### 弱
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `弱相互作用速率 (weak rates)` | 0003_fowler-1984 | 涉及 Z 或 N 改变的反应速率；FFN (Fuller-Fowler-Newman) 数据库 |
 
 ### 恒
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `恒星核合成` | 0001_b2fh-1957 | 恒星内部的核反应产生比 H、He 更重的元素 |
 
 ### 情
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `情景` | 0001_bhattacharjee-sigl-2000 | 情景/情形 |
 
 ### 截
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `截面 (cross section, $\sigma$)` | 0001_b2fh-1957 | 核反应发生概率的量度 (1 barn = $10^{-24}$ cm$^{2}$) |
 
 ### 技
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `技术锝 Tc$^{99}$` | 0001_b2fh-1957 | 短寿命核素在 S 型星中被直接观测到 |
 
 ### 日
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `日球层` | 0006_grenier-2015 | 日球层 |
 
 ### 星
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `星暴` | 0006_grenier-2015 | 星暴 |
 | `星系际` | 0006_grenier-2015 | 星系际 |
 
 ### 有
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `有效 ft 值 (effective ft)` | 0003_fowler-1984 | 弱衰变参量，log ft=5 对应 ⟨ |
 | `有效反应能量 $E_{0}$` | 0003_fowler-1984 | $E_{0}$ = 0.122 ($Z_{0}$$Z_{1}$A)^(1/3) $T_{9}$^(2/3) MeV，恒星内部实际反应发生能量 |
 
 ### 核
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `核合成 (nucleosynthesis)` | 0002_trimble-1975 | 通过核反应生成元素的过程 |
 | `核宇宙化学计时 (cosmochronology)` | 0003_fowler-1984 | 用放射性核素（$^{232}{\rm Th}$, $^{235}{\rm U}$, $^{238}{\rm U}$, $^{187}{\rm Re}$）反推银河系年龄 |
 | `核统计平衡 (NSE)` | 0001_b2fh-1957 | 高温高密下核反应网络达到化学平衡 |
 
 ### 洋
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `洋葱分层 (onion-skin)` | 0003_fowler-1984 | 25 $M_\odot$ 恒星从外到内 H→He→C→Ne→O→Si 依次燃烧 |
 
 ### 活
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `活动星系核` | 0002_al-dargazelli-1996 | 活动星系核 |
 
 ### 热
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `热 CNO 循环 (hot CNO)` | 0004_wallerstein-1997 | 新星爆发中热 CN 循环与 rp 过程作为主要能量产生过程 |
 
 ### 磁
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `磁单极子` | 0001_bhattacharjee-sigl-2000 | 磁单极子 |
 
 ### 第
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `第三挖掘层 (third dredge-up)` | 0004_wallerstein-1997 | AGB 星热脉冲后把内层新合成物质带到表面的对流混合事件 |
 
 ### 经
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `经典 s 过程模型 (classical s-process)` | 0004_wallerstein-1997 | Käppeler et al. (1989)；两个参数 (f, $\tau$$_{0}$) 描述 A=56–209 的 s-only 核素 |
 
 ### 统
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `统计平衡层次 (NSE/QSE)` | 0004_wallerstein-1997 | Meyer et al. (1997) 系统化 NSE 与准统计平衡层次结构 |
 
 ### 视
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `视界` | 0001_bhattacharjee-sigl-2000 | 视界 |
 
 ### 质
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `质子富集核 (p-nuclei)` | 0001_b2fh-1957 | 仅由 p 过程产生的稳定核素 |
 | `质量损失率 (mass-loss rate)` | 0002_trimble-1975 | 恒星通过星风或抛射损失的物质速率 |
 | `质量缺口 (mass gap) 5 和 8` | 0003_fowler-1984 | 无 A=5 和 A=8 的稳定核，使大爆炸无法合成重元素 |
 
 ### 贫
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `贫金属晕星 (metal-poor halo stars)` | 0004_wallerstein-1997 | [Fe/H]<−3 的极老恒星，是 B2FH 时代化学状态的化石 |
 
 ### 超
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `超射 (overshooting)` | 0004_wallerstein-1997 | 对流核边界外的非规则混合 |
 | `超新星丰度 (supernova yields)` | 0002_trimble-1975 | 单颗超新星抛射到 ISM 的元素量 |
 | `超风 (superwind)` | 0004_wallerstein-1997 | AGB 星晚期（脉动周期 >400 天）的强烈星风，质量损失率 $10^{-5}$–$10^{-4}$ $M_\odot$/yr |
 
 ### 轫
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `轫致辐射` | 0004_blasi-2013 | 轫致辐射 |
 
 ### 重
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `重子` | 0001_bhattacharjee-sigl-2000 | 重子 |
 
 ### 铁
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `铁峰 (iron peak)` | 0001_b2fh-1957 | A≈56 附近丰度最高的元素区 (Cr, Mn, Fe, Co, Ni) |
 | `铁族元素 (iron-group)` | 0001_b2fh-1957 | Cr, Mn, Fe, Co, Ni, Cu, Zn |
 
 ### 银
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `银河化学演化 (galactic chemical evolution)` | 0002_trimble-1975 | 银河系中元素丰度随时间的变化 |
 | `银河系增丰 (galactic enrichment)` | 0001_b2fh-1957 | 恒星生成重元素并反馈到星际介质 |
 
 ### 静
 
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | `静水核燃烧 (hydrostatic burning)` | 0002_trimble-1975 | 恒星内部稳态进行的核燃烧阶段 |
 
 ---
@@ -1095,6 +1269,8 @@ path: background/05_glossary.md
 ## 4. 新增术语（2026-08-16 补 17 篇核心术语）
 
 ### 4.1 0007_drury-1983
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `中文` | 英文等价 | 逻辑功能 |
@@ -1109,6 +1285,8 @@ path: background/05_glossary.md
 | `简言之` | in brief / in short | 总结 |
 
 ### 4.1 0016_caprioli-2014
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `单词` | 词性 | 逻辑功能 |
@@ -1123,6 +1301,8 @@ path: background/05_glossary.md
 | `crucially` | adv. | 强调 |
 
 ### 4.2 0017_caprioli-2014-ii
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `单词` | 词性 | 逻辑功能 |
@@ -1137,6 +1317,8 @@ path: background/05_glossary.md
 | `consistently` | adv. | 一致 |
 
 ### 4.3 0018_kotera-olinto-2011
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `中文` | 英文 | 含义 |
@@ -1151,6 +1333,8 @@ path: background/05_glossary.md
 | `Dip 模型` | Dip model | 踝点是质子对产生传播 dip 的模型 (Berezinsky et al. 2006) |
 
 ### 4.4 0020_giacalone-2017
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `单词` | 词性 | 逻辑功能 |
@@ -1165,6 +1349,8 @@ path: background/05_glossary.md
 | `consequently` | adv. | 因果 |
 
 ### 4.5 0018_arnould-goriely-2003
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `p-process` | photodisintegration process | 光致核反应过程 |
@@ -1179,6 +1365,8 @@ path: background/05_glossary.md
 | `Optical potential` | complex nuclear potential for compound formation | 光学势 |
 
 ### 4.6 0019_sneden-cowan-2008
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `单词` | 词性 | 逻辑功能 |
@@ -1193,6 +1381,8 @@ path: background/05_glossary.md
 | `despite` | prep | 让步 |
 
 ### 4.7 0020_nomoto-2013
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `单词` | 词性 | 逻辑功能 |
@@ -1207,6 +1397,8 @@ path: background/05_glossary.md
 | `Whereas` | prep | 让步 |
 
 ### 4.8 0021_karakas-lattanzio-2014
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `英文` | 词性 | 逻辑功能 |
@@ -1221,6 +1413,8 @@ path: background/05_glossary.md
 | `For this reason` | adv. | 因果 |
 
 ### 4.9 0022_busso-1999
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `中文逻辑词` | 英文等价词 | 词性 |
@@ -1235,6 +1429,8 @@ path: background/05_glossary.md
 | `不仅……而且` | not only … but also | conj. |
 
 ### 4.10 0024_nomoto-suzuki-2014
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `英文单词` | 词性 | 逻辑功能 |
@@ -1249,6 +1445,8 @@ path: background/05_glossary.md
 | `namely` | adv | 列举 |
 
 ### 4.11 0001_lhaaso-2021
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `LHAASO` | Large High Altitude Air Shower Observatory / 高海拔宇宙线观测站 | 位于稻城海子山（海拔 4,410 m），由 KM2A+WCDA+WFCTA 三套阵列组成 |
@@ -1261,6 +1459,8 @@ path: background/05_glossary.md
 | `N_μ/N_e` | 缪子数/电磁粒子数比 | KM2A 的 γ/CR 判别量，cut <1/230 |
 
 ### 4.12 0002_ams02-2015
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `单词` | 词性 | 逻辑功能 |
@@ -1275,6 +1475,8 @@ path: background/05_glossary.md
 | `in particular` | adv. | 举例 |
 
 ### 4.13 0004_hess-2016
+| 术语 | 论文来源 | 释义 |
+|---|---|---|
 | 术语 | 中文 | 释义 |
 |---|---|---|
 | `词汇` | 原文例句 | 逻辑功能 |

@@ -24,7 +24,6 @@ path: 01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysi
 
 | 词汇/短语 | 原文例句 | 逻辑功能 |
 |-----------|---------|---------|
-
 | **The appealing features of** | 'The appealing features of CRs are their relatively long cooling times' | 引出优势 |
 | **Similarly** | 'Similarly, CRs may provide a significant contribution to' | 类比延伸 |
 | **Overall** | 'Overall, the underlying physics of CR interactions with plasmas' | 归纳总结 |
@@ -38,7 +37,6 @@ path: 01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysi
 
 | 术语 | 中文释义 | 频次（粗估） |
 |------|---------|------------|
-
 | **Feedback** | 反馈，CR 对星系/星系团演化的动力学影响 | 28 |
 | **Cooling flow problem** | 冷却流问题——星系团核心为何没大量冷却形成恒星 | 18 |
 | **Galactic wind** | 银河风，CR 压力驱动的外流 | 22 |

@@ -24,7 +24,6 @@ path: 03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/98_voca
 
 | 词汇/短语 | 原文例句 | 逻辑功能 |
 |-----------|---------|---------|
-
 | **In the framework of** | 'In the framework of the s-process scenario' | 框架陈述 |
 | **The key to** | 'The key to this problem lies in' | 引出关键 |
 | **In addition to** | 'In addition to the main component' | 补充说明 |
@@ -38,7 +37,6 @@ path: 03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/98_voca
 
 | 术语 | 中文释义 | 频次（粗估） |
 |------|---------|------------|
-
 | **s-process** | slow neutron capture process，AGB 星内约 10^4 yr 完成 | 38 |
 | **Main s component** | AGB 星中 He 燃烧和 C 燃烧壳层产生的 s 过程 | 24 |
 | **Weak s component** | 大质量恒星 C 壳层产生的 s 过程 | 18 |

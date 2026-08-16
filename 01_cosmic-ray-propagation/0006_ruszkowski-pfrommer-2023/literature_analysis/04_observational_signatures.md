@@ -188,7 +188,7 @@ $$
 | B/C 幂律指数 | $-0.33$ | — | §4.1 (AMS) |
 | 扩散系数 $\mathcal{D}_0$（1 GV） | $\sim 3\times 10^{28}$ | cm$^2$ s$^{-1}$ | §4.1 |
 | Fermi Bubble 纬度 | $\lvert b\rvert \lesssim 60^\circ$ | ° | §4.2 |
-| eROSITA Bubble 纬度 | $|b| \lesssim 80^\circ$ | ° | §4.2 |
+| eROSITA Bubble 纬度 | $\lvert b\rvert \lesssim 80^\circ$ | ° | §4.2 |
 | Fermi Bubble γ 射线截止 | $\sim 100$ | GeV | §4.2 |
 | CR 能量密度提升（Galactic Center） | 3 个数量级 | × | §4.2 |
 | CGM 冷气体重子占比 | 最多 50% | — | §4.4 |

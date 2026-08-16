@@ -24,6 +24,8 @@
 
 （注：为避免冗余，下表只列 15 个最常用逻辑词。）
 
+| 单词 | 词性 | 逻辑功能 | 中文 | 原文例句 | 逻辑说明 |
+|---|---|---|---|---|---|
 | nevertheless | adv | 让步 | 然而 | — | 让步转折 |
 | accordingly | adv | 因果 | 相应地 | — | 因果 |
 | similarly | adv | 类比 | 类似地 | "Similarly, observations and models of nearby supernovae" | 类比 |

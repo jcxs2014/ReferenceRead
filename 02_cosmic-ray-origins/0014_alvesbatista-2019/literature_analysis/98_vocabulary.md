@@ -24,7 +24,6 @@ path: 02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/98_vocabu
 
 | 词汇/短语 | 原文例句 | 逻辑功能 |
 |-----------|---------|---------|
-
 | **rather than** | 'origin rather than acceleration mechanisms' | 优先级判断 |
 | **in the context of** | 'in the context of both astrophysical and particle physics' | 跨领域语境 |
 | **in terms of** | 'in terms of both energy and composition' | 维度分解 |
@@ -38,7 +37,6 @@ path: 02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/98_vocabu
 
 | 术语 | 中文释义 | 频次（粗估） |
 |------|---------|------------|
-
 | **UHECR** | Ultra-high-energy cosmic ray, >10^18 eV | 25 |
 | **GZK cutoff** | Greisen-Zatsepin-Kuzmin cutoff, ~5×10^19 eV | 18 |
 | **Cosmogenic** | 宇宙学传播产生的（secondary particles/neutrinos） | 12 |
