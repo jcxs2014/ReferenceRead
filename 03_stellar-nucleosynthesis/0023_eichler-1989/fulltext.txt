@@ -1,4 +1,536 @@
-� 1989 Nature Publishing Group
-� 1989 Nature Publishing Group
-� 1989 Nature Publishing Group
-
+LETTERS TO NATURE
+
+evidence that during folding an early framework intermediate
+forms in which there is significant secondary structure™* and
+the proposal that the transition state occurs late on the folding
+pathway’. The initial results from our protein engineering study
+have begun to map out the energetics of these processes and to
+show new details such as a major loop not being formed in the
+
+transition state or the lack of hydrogen bonds from N caps to
+the exposed backbone NH groups of the helices. These studies
+now point to new questions that can be answered by studying
+further mutations. For example, are all the loops exposed to
+solvent in the transition state and are they the last elements of
+structure to be formed? Oo
+
+Received 20 April; accepted 7 June 1989.
+
+. Creighton, T. E. Proc. natn. Acad. Sci. US.A. 85, 5082-5086 (1988).
+
+. Udgaonkar, J. B. & Baldwin, R. L. Nature 335, 694-699 (1988).
+
+. Roder, H., Eléve, G. A. & Englander, S. W. Nature 335, 700-704 (1988).
+
+Beasty, A. M. ef al. Biochemistry 25, 2965-2974 (1989).
+
+. Garvey, E. P. & Matthews, C. R. Biochemistry 28, 2083-2093 (1989).
+
+Chen, B.-|, Baase, W. A. & Scheliman, J. A. Biochemistry 28, 691-699 (1989).
+
+Goldenberg, D. P., Frieden, R. W., Haack, J. A. & Morrison, T. B. Nature 338, 127-132 (1989).
+. Winter, G, Fersht, A. R., Wilkinson, A. J., Zoller, M. & Smith, M. Nature 299, 756-758 (1982).
+. Fersht, A. R. Biochemistry 26, 8031-8037 (1987).
+
+. Keltis, J. T., Jr, Nyberg, K., Sali, D. & Fersht, A. R. Nature 333, 784-786 (1988).
+
+11. Sali, D., Bycroft, M. & Fersht. A. R. Nature 335, 741-743 (1988).
+
+12. Kellis, J. T., Jr, Nyberg, K. & Fersht, A. R. Biochemistry 28, 4914-4922 (1989).
+
+B
+COMNDOAWHE
+
+LETTERS TO NATURE
+
+13, Mauguen, Y. ef al. Nature 297, 162-164 (1982).
+
+14. Schmid, F. X. & Baldwin, R. L. Proc. natn. Acad. Sci. US.A. 75, 4764-4768 (1978).
+
+15. Fersht, A. R., Leatherbarrow, R. J. & Wells, T. N. C. Biochemistry 26, 6030-6038 (1987).
+
+16. Tanford, C. Aav. Protein Chem, 24, 1-95 (1970).
+
+47. Fersht, A.R. Enzyme Structure and Mechanism 2nd edn (Freeman, New York, 1985).
+
+18. Fersht, A. R. Biochemistry 27, 1577-1580 (1988).
+
+19. Woifenden, R., Andersson, L., Cullis, P. M. & Southgate, C. C. B. Biochemistry 20, 849-855
+(1981).
+
+20. Presta, L. G. & Rose, G. D. Science 240, 1632-1641 (1988).
+
+21. Richardson, J. S. & Richardson, D. C. Science 240, 1648-1652 (1988).
+
+ACKNOWLEDGEMENTS. J.T.K. is a recipient of a NATO postdoctoral fellowship. L.S. is a recipient of
+an EMBO postdoctoral fellowship.
+
+Nucleosynthesis, neutrino bursts
+and y-rays from coalescing
+neutron stars
+
+David Ejichler*, Mario Liviot, Tsvi Pirant
+& David N. Schramm§
+
+* Department of Physics, Ben Gurion University, Beer Sheva, Israel, and
+Astronomy Program, University of Maryland, College Park,
+
+Maryland 20742, USA
+
++ Department of Physics, The Technion, Haifa, Israel
+
++ Racah Institute for Physics, Hebrew University, Jerusalem, Israel, and
+Princeton University Observatory, Princeton, New Jersey 08544, USA
+
+§ Departments of Physics and Astrophysics, University of Chicago,
+5640 Ellis Avenue, Chicago, Illinois 60637, USA,
+
+and NASA/Fermilab Astrophysics Center, Batavia,
+
+Illinois 60510, USA
+
+NEUTRON-STAR collisions occur inevitably when binary neutron
+stars spiral into each other as a result of damping of gravitational
+radiation. Such collisions will produce a characteristic burst of
+gravitational radiation, which may be the most promising source
+of a detectable signal for preposed gravity-wave detectors’. Such
+signals are sufficiently unique and robust for them to have been
+proposed as a means of determining the Hubble constant’.
+However, the rate of these neutron-star collisions is highly uncer-
+tain®. Here we note that such events should also synthesize neutron-
+rich heavy elements, thought to be formed by rapid neutron capture
+(the r-process)*. Furthermore, these collisions should produce
+neutrino bursts® and resultant bursts of y-rays; the latter should
+comprise a subclass of observable y-ray bursts. We argue that
+observed r-process abundances and y-ray-burst rates predict rates
+for these collisions that are both significant and consistent with
+other estimates.
+
+The binary pulsar system will coalesce in roughly 10° yr. Using
+this fact together with the pulsar birth rate and the observed
+frequency of occurrence of close binary pulsars (then, one in
+every 300 pulsars), Clark et al* estimated the formation rate in
+the Galaxy to be (3+1.6)x10* yr '. As 450 pulsars have now
+been observed, this estimate should be decreased by a factor of
+1.5, but this does not change the following discussion. The
+natural progenitor for a close neutron-star binary system is a
+massive X-ray binary, from which the neutron-star binary will
+form following a supernova explosion. Clark et al* estimated
+that the probability of disruption of such a close binary in the
+
+126
+
+supernova of the secondary is 0.1-0.2, and this led them to a
+formation rate consistent with that based on pulsar statistics.
+
+Alternatively, neutron stars formed in separate events might
+become associated in a dense globular cluster®’. Such modes
+of formation will lead to roughly equal-mass binaries with both
+neutron stars of mass 1.4 Mo.
+
+On the other hand, were there to exist a separate class of
+neutron-star binaries in which the stars are in close proximity
+on formation of the binary, these might escape detection because
+they would decay on a short timescale, 7,,, via gravitational
+radiation. For example, it has been suggested recently® that
+millisecond pulsars arise from accretion-induced collapse of
+white dwarfs in binaries’. It is argued on statistical grounds®
+that low-mass X-ray binaries are too rare to be the progenitors
+of millisecond pulsars, as had been proposed previously®. As
+the white dwarfs are likely to be spun up to maximum angular
+momentum, the collapse to a neutron star is likely to ‘fizzle’,
+leading to two neutron stars in orbit around each other’. It is
+not unlikely that the two neutron stars would have significantly
+different masses. Although the statistical arguments have been
+criticized (F. Verbunt, J. van Paradijs and W. Lewin, personal
+communication), such criticism does not exclude the possibility
+that close neutron-star binaries are indeed formed from white
+dwarfs in globular clusters.
+
+Essentially for all equations of state, the less massive
+component (the secondary) has a larger radius’®, R. As it also
+has the smaller Roche-lobe radius, R,, it is invariably this
+lighter component that fills its tidal lobe first, following
+which mass transfer ensues. If {;=(@In R,/ain M,)> f=
+(aln R,/aIn M,) the mass transfer is dynamically stable,
+whereas for Z, < ¢, itis unstable. The latter situation arises when
+the secondary (‘donor’) neutron star has a mass that is compar-
+able to or only slightly smaller than that of the larger, whereas
+a high initial mass ratio will result in a stable mass-stripping
+process.
+
+Clark and Eardley’ have discussed the evolution of a close
+neutron-star binary. In systems that are unstable to mass transfer
+on a dynamical timescale, the margin by which the less massive
+neutron star is the first to overfill its lobe grows until the orbital
+evolution is dominated by mass exchange (rather than by gravi-
+tational radiation), for which the timescale’! Ar., is ~6 ms for
+masses of M,=1.4 Mo, M,=1.2 Mo. Once the mass-transfer
+timescale becomes shorter than the gravitational-radiation
+timescale, mass loss accelerates rapidly. In a three-dimensional
+simulation of this process for a doubly degenerate binary system,
+it is found that the lighter component is completely dissipated
+in a little more than two orbital periods (~4 ms in our case).
+
+NATURE - VOL 340 - 13 JULY 1989
+
+© 1989 Nature Publishing Group
+
+LETTERS TO NATURE
+
+The secondary is transformed into a thick, axially symmetric
+disk orbiting around the primary. Such configurations for the
+case of a white-dwarf binary have been constructed recently”.
+In the calculation of Benz et al.'*, about 0.3% of the total mass
+escaped the system. A similar fraction can be expected in our
+case, because this fraction depends mainly on the surface
+potentials of the two stars and is thus proportional to
+(1— M)R,/M,R)).
+
+Calculations'”? have shown that, for the white-dwarf binary,
+the collapse does not occur immediately even though the total
+mass exceeds the Chandrasekhar mass, mainly because the
+system is supported by centrifugal forces (stability is also indi-
+cated by the ratio of kinetic to gravitational energy). Thus, the
+late-stage evolution of the configuration depends critically on
+transport and disposal of angular momentum from the disk. If
+transport of angular momentum occurs entirely by means of
+degenerate matter viscosity'*, then extremely long viscous time-
+scales result. The value of the Reynolds number indicates,
+however, that turbulence may arise in a significant fraction of
+the disk'*. In this case, the relevant viscosity may be the turbulent
+viscosity
+
+Yrurp = (2x 10° cm? s')( V,/108 cm s~)(1,/ 10° cm)(Re,/ 5,000)",
+
+where |, and V, are the typical size and velocity of a turbulent
+cell and Re, is the critical Reynolds number. Such a turbulent
+disk will transport angular momentum on a timescale
+
+Tyis = 500( R/10° cm)?( 4.4/2 x 10° cm? s~!)7' s.
+
+If the binary is stable (¢,> ¢,.) against dynamical-timescale
+mass transfer (that is, if the initial mass ratio is large), the
+mass-transfer rate, M,, will approach asymptotically a value
+dictated essentially by gravitational radiation’?: M,~
+—2M,/(¢— 1) t,,. This accretion rate is enormous and it raises
+again the question of how angular momentum is disposed of
+and of whether the accreting neutron star has the ability to
+accommodate such a large mass influx. In the case of stable
+mass transfer there is another interesting possibility. Neutron
+stars have a minimum mass below which they are unstable to
+free expansion. In the present context, the secondary may be
+stripped to this minimum mass before colliding with the more
+massive component, at which stage it will explode'®'*.
+
+An interesting feature of the decompression of the secondary
+is the accompanying de-neutronization of the material. One
+expects the neutrons to aggregate into large droplets, in the
+same way as they do in decompressed water'””°. Assuming that
+the difference in Fermi energies of the neutron and proton in
+the neutron-rich nuclei is of the order of a few MeV, the B-decay
+timescale is of the order of a few milliseconds near the neutron
+drip line (where neutron-rich nuclei are no longer able to capture
+or retain additional neutrons), which is comparable to the
+decompression timescale. Hence the de-neutronization is non-
+adiabatic. This has two important implications. First, decom-
+pression can occur while the nuclei are far from the B-decay
+instability, and thus the nuclei may undergo rapid neutron
+capture**'. It has been pointed out!'®° that such a process can
+produce r-process nuclei in the observed mass range with abund-
+ance peaks corresponding to the neutron ‘magic’ numbers”.
+This is particularly interesting because these abundance peaks
+are observed to be quite narrow and to be distinct from the
+corresponding s-process abundance peaks. More conventional
+r-process models involving supernova explosions require fine
+tuning of temperature and neutron densities throughout many
+different dynamical events in order to produce such sharp
+peaks***, We see, however, that neutron-star decompression
+may give rise to sharp peaks as a consequence of the intrinsic
+nuclear physics rather than having to rely on hydrodynamic
+concordance throughout different events.
+
+Neutron capture is extremely rapid and throughout most of
+the decompression the nuclei remain very close to the neutron
+drip line. However, because the B-decay timescale is then
+
+NATURE - VOL 340 - 13 JULY 1989
+
+comparable to the expansion timescale, radioactivity causes
+significant heating, so that the temperature may be of the order
+of 1 MeV throughout most of the decompression phase and the
+actual neutron excess may be somewhat below that of the
+zero-temperature neutron drip line, as required by the location
+of the r-process peaks.
+
+Furthermore, antineutrinos should be emitted at energies of
+up to a few MeV. The B-decay states are usually excited states
+with energies again of a few MeV, and rapidly emit y-ray
+cascades as they decay to stable states.
+
+In a close neutron-star binary, the larger neutron star accretes
+most of its companion over a dynamical timescale of ~10~* s,
+liberating energy at a rate of ~10°* erg s_', and copious neutrino
+emission is expected. The rate of mass infall onto the primary
+is within an order of magnitude of that expected from spherically
+symmetric core collapse, so the neutrino spectrum which is
+buffered by energy-dependent interaction cross-sections, should
+resemble the (now measured) burst from a core collapse. Note
+that in the coalescing case the matter in the envelope is hotter
+than in the isolated core collapse and it is therefore easier for
+the neutrinos to diffuse. The neutrino diffusion timescale is of
+the order of 1s, but because the distribution of infalling material
+is biased towards the orbital plane, neutrinos may escape out
+of the plane on a significantly shorter timescale. A total energy
+output of ~10° erg is expected from the accretion process, a
+sixth of which is due to electron neutrinos (unfortunately, such
+neutrinos cannot be detected with existing detectors beyond
+~100kpc). An energy of ~10°' erg is expected from antine-
+utrinos that result from the de-neutronization of the companion
+during its decompression.
+
+The electron neutrinos from the accreting primary and the
+antineutrinos from the disrupted secondary can produce elec-
+tron-positron pairs where they collide out of the orbital plane.
+The efficiency with which antineutrinos are converted is
+roughly”?
+
+€~7xX10af[(a,,/10°“ cm?)(E,/10 MeV)"]
+
+x [es 10°? erg)
+
+6 -1 -1
+eA 8) Veo em) °(7/0.1s)
+
+where g,, is the cross-section for vy >e*e , E, is the total energy
+emitted in neutrinos, E, is the average energy of a neutrino; R
+is the size of the region in which the neutrino flux is large and
+tr is the duration of the neutrino burst; a is a geometrical factor
+that depends on the geometry of the neutrinosphere and f is
+the filling factor of the system.
+
+The total energy converted to e*e™ pairs and, ultimately, the
+time profiles of the neutrino emission make this estimate of ¢
+rather uncertain. The energy of the primary y-ray cascades
+accompanying the -decay antineutrinos should be within an
+order of magnitude of this total energy, that is, =10°° erg.
+
+A comparable or larger y-ray flux might be produced from
+pair production by vi pairs emerging from, say, opposite sides
+of the primary because, although the geometry is less favourable,
+the greater total energy and the greater compactness may more
+than compensate. Here the key uncertainty concerns the matter
+that presumably envelopes the more massive neutron star as it
+accretes onto it. Because this matter is intensely heated by its
+own radioactivity, we cannot draw too many parallels with
+previously catastrophic-mass-transfer models. In order that the
+‘y-rays emerge before complete degradation, they must be pro-
+duced beyond the accretion column, and this may require too
+small an intersection angle between the neutrino and antineu-
+trino trajectories to sustain a centre-of-mass energy much above
+2 m.c?.
+
+The y-ray fireball has such a large compactness parameter
+that any soft photons produced within are Compton-upscattered
+and kinetic equilibrium is attained with the remaining pairs.
+The fireball is optically thick for temperatures T> 10° K, and
+e*e pairs are produced. The fireball will expand until most of
+
+127
+
+© 1989 Nature Publishing Group
+
+LETTERS TO NATURE
+
+the pairs have annihilated irreversibly, and it then becomes
+optically thin. Although the photons are redshifted during the
+expansion in the frame of the co-moving fluid, the bulk
+expansion at the onset of transparency causes a blueshift in the
+frame of the observer by the same factor. The overall spectrum
+will be a modified black-body spectrum with the same tem-
+perature as initially but with fewer hard photons*°. A large
+uncertainty in the end result of this process stems from the
+potential appearance of a thick baryonic wind. If a large amount
+of baryonic matter is mixed in with the fireball, most of the
+available energy will be used in accelerating it and the y-ray
+signal will then not be so strong.
+
+For a luminosity of 10°’ ergs ' emitted from a region of size
+2x10’ cm, the temperature of the region is ~10° K. The spec-
+trum and timescale should be similar to those of a typical y-ray
+burst. As the Universe is transparent to soft y-rays””**, it should
+be detectable to distances of ~100 Mpc with fluences typical of
+y-ray bursts (10*eVcm~’), if the energy output is ~10* erg.
+However, we do not expect such radiation to have cyclotron
+absorption features, nor a significant non-thermal tail above
+several MeV. These two features are relatively common for y-ray
+bursts, so that the scenario we propose can explain only a subset
+of them, that is, ‘featureless’ y-ray bursts. Such featureless bursts
+would be extragalactic and thus isotropic. Statistics on feature-
+less y-ray bursts may thus provide an estimate of the rates of
+neutron-star coalescence events.
+
+In numerical models of cataclysmic mass transfer, a small
+fraction (~0.3% ) of the transferred mass is expelled to infinite
+distances. It is possible that radioactive heating, which can
+supply an energy of ~3x 107° Mc’, can cause most of the
+disrupted star to explode and escape to infinity. There is
+~10° Mo per galaxy of material produced by the r-process, and
+a few times 10° Mo of the heavy r-process material that might
+be favoured in this type of event. If we assume that ~0.3% of
+the mass is ejected per event, then such events should occur at
+a rate of 3 x 10° to 3 x 10’ times per galaxy per Hubble time (the
+lower limit applies if we wish to explain the heavy r-process
+material in this way and the upper limit applies if we wish to
+explain all r-processed material). These rates bracket the rate
+obtained by Clark et al? of 3x 107‘ events per year per galaxy.
+If a subset of these events is also to be able to account for
+millisecond pulsars, then we require only about 10°° events per
+year, or 10° per galaxy per Hubble time. Here we have assumed
+an average spin-down time for a typical millisecond pulsar of
+10° years, and that there are currently about 10* millisecond
+pulsars in our Galaxy.
+
+This scenario makes two simple observational predictions.
+First, assuming that ~10° galaxies are within 100 Mpc and that
+the bursts are indeed detectable out to that distance, then an
+occurrence of ~10~“* per galaxy per year yields a detection rate
+of 10 per year. With the oriented scintillation spectrometer
+experiment on the Gamma Ray Observatory, it will be relatively
+straightforward to distinguish featureless, highly thermal y-ray
+bursts from others. Should such a class be identified, we suggest
+that it would be worthwhile to check for identifications of such
+bursts with galaxies. Second, gravitational-radiation events of
+this nature should be detectable with a 300 signal up to a
+distance of 100 Mpc and with a 3o@ signal up to a distance of
+1,000 Mpc by the proposed Caltech-MIT Gravitational Wave
+Detector’. The rate of stronger events should be comparable to
+that of y-ray bursts of this kind, and the coincidence of such
+‘y-ray bursts with gravity waves may in fact provide the most
+stringent observational test of the scenario. Verification would
+imply that our model identifies the site of the astrophysical
+r-process.
+
+Received 20 March; accepted 20 May 1989.
+
+1. Clark, J. P. A. & Eardley, D. M. Astrophys. J 215, 311-322 (1977).
+2. Shutz,B. F. in Gravitational Collapse and Gravity (eds Sato, H. & Nakamura, T.) 246-253 (Singapore
+World Scientific, 1986).
+
+128
+
+. Clark, J. P. A., van den Heuvel, E. P. J. & Sutantyo, W. Astr. Astrophys. 72, 120-128 (1979).
+
+. Lattimer, J. & Schramm, D. N. Astrophys. J 210, 549-556 (1976).
+
+. Berezinsky, V. & Pritutski, P. Proc. 19th Int. Cosmic Ray Conf. 1, 29-32 (La Jolla, 1985).
+
+. Grindlay, J. E. & Bailyn, C. D. Nature 336, 48-50 (1988).
+
+. Ostriker, J. P. Sources of Gravitational Radiation (ed. Smarr, L. L.) 461-476 (Cambridge University
+
+Press, 1979).
+
+Alpar, M. A., Cheng, A. F., Ruderman, M. A. & Shaham, J. Nature 300, 728-730 (1982).
+
+. Clark, J. P. A. Sources of Gravitational Radiation (ed. Smarr, L. L.) 447-459 (Cambridge University
+
+Press, 1979).
+
+10. Arnett, W. D. & Bowers, R. L. Astrophys. J Suppi. 33, 415-436 (1977).
+
+141. Webbnik, R. F. Astrophys. 4 277, 355-360 (1984).
+
+12. Mochkovitch, R. & Livio, M. Astr. Astrophys. 209, 111-118 (1989).
+
+13. Benz, W., Bowers, R. L., Cameron, A. G. W. & Press, W. H. Astrophys. J (in the press).
+
+14. Itoh, N., Kohyama, Y. & Takenchi, H. Astrophys. J 317, 733-736 (1987).
+
+15. Webbink, R. F. & iben, |. Jr in {AU Collog. 95, The Second Conference on Faint Blue Star (eds
+Davis Philip, A. G., Hayes, D. S. & Liebert, J. W. 778 (L. Davis Press, Schenectady, 1987).
+
+16. Page, D. N. Phys. Lett. A 91, 201-202 (1982).
+
+17. Shapiro, S. in Numerical Astrophysics (eds Centrella, J, Leblanc, J. & Bowers, R.} 190, 215
+(Bertlett, Boston, 1985).
+
+18. Colpi, M., Shapiro, S. L. & Teukolsky, S. A. Astrophys. J (in the press).
+
+19. Lattimer, J. M., Mackie, F., Ravenhall, D. G. & Schramm, D. N. Astrophys. 4 213, 225-233 (1977).
+
+20. Meyer, B. Astrophys. J (in the press).
+
+21. Symbalisty, E. M. D. & Schramm, D. N. Astrophys. Lett. 22, 132-145 (1982).
+
+22. Burbidge, E. M., Burbidge, C. A.. Fowler, W. A. & Hoyle, F. Rev. mod. Phys. 29, 547-650 (1957).
+
+23. Norman, E. & Schramm, D. N. Astrophys. J 228, 881-892 (1979).
+
+24. Cameron, A. G. W., Cowan, J. & Truran, J. in Nucleosynthesis {eds Arnett, W. D. & Truran, J.)
+190-201 (University of Chicago Press, 1985).
+
+25. Berezinsky, V. & Prilutski, F. Proc. 20th int. Cosmic Ray Conf. 1, 54-68 (Moscow, 1987).
+
+26. Goodman, J. Astrophys. 4 308, L47-L50 (1986).
+
+27. Babul, A., Paczynski, B. & Spergel, D. N. Astrophys. J 316, L49-L54 (1987).
+
+28. Shapiro, S. L. & Teukolsky, S. A. Black Holes, White Dwarfs and Neutron Stars (Wiley, New York,
+
+1983).
+
+NOP W
+
+© %
+
+ACKNOWLEDGEMENTS. We thank J. Goodman, B. Paczynski and B. Meyer for discussions. This work
+was supported in part by NASA and the NSF at Chicago, by the NASA Fermilab Astrophysics Center
+at Maryland and by BSF at Jerusalem. We thank the Jerusalem Winter School, the 1AS at Princeton
+{D.N.S. and D-F.E.) and the Princeton University Observatory (T.P.) for hospitality.
+
+Observation of interfacial atomic
+steps during silicon oxidation
+J. M. Gibson & M. Y. Lanzerotti*
+
+AT&T Bell Laboratories, 600 Mountain Avenue, Murray Hill,
+New Jersey 07974, USA
+
+SILICON oxidation is perhaps the most common process in the
+fabrication of electronic devices. The silicon/silicon dioxide inter-
+face has excellent electrical properties which are employed in
+field-effect devices and surface passivation, and are arguably
+responsible for the dominance of silicon technology in the micro-
+electronics industry. As device dimensions shrink, the need for
+high-quality oxides grown at increasingly lower thicknesses and
+temperatures has demanded ever more perfect, extremely flat
+Si/SiO, interfaces. Here we use transmission electron microscopy
+to image exposed and buried monatomic interfacial steps at the
+Si/SiO, interface during oxidation. The results show that
+extremely flat boundaries can be formed at low temperatures and
+that atomic steps do not play a dominant role in the oxidation
+process itself. A simple bulk-terminated Si/amorphous SiO, inter-
+face is consistent with our data.
+
+The nature of the terminating Si lattice at the Si/SiO, boun-
+dary influences the transport of carriers in metal-oxide-semicon-
+ductor field-effect transistors (MOSFETs), and correlation has
+been observed between apparent interface roughness and Hall
+mobility’. In the high-resolution transmission electron micro-
+scopy (HRTEM) study of ref. 1 it was emphasized that only
+statistical properties of interface roughness could be identified
+because of the implicit projection through ~100 A specimen
+thickness. One detailed study” of Si/SiO, interfacial roughness
+with low-energy electron diffraction (LEED) assumed that the
+Si/SiO, interfacial structure was unperturbed by stripping of
+the oxide in HF. Other experiments*-’? which examined the
+stoichiometry of the SiO, layer adjacent to the interface suggest
+an abruptly terminating Si lattice. In a recent HRTEM study of
+Si layers and their native oxides® deposited by molecular beam
+
+* Present address: Dunster House, Harvard University, Cambridge, Massachusetts 02138, USA.
+
+NATURE - VOL 340 - 13 JULY 1989
+
+© 1989 Nature Publishing Group
+

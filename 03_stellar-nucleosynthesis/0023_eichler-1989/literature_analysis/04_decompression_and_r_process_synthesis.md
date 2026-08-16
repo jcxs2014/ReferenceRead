@@ -6,6 +6,26 @@
 - 在**中子滴线（neutron drip line）**附近，β 衰变时标为几毫秒，**与解压时标可比**。
 - **关键推论**：去中子化是**非绝热的**（non-adiabatic）。
 
+## [FACT] 粘性时标与质量转移时标（OCR p.127）
+
+**[FACT] 湍流粘性公式**（原文 p.127, 公式 18/19）：
+
+$$\nu_{\rm turb} = (2 \times 10^{5}\,\mathrm{cm}^{2}\,\mathrm{s}^{-1})\,(V_{\rm t}/10^{8}\,\mathrm{cm\,s^{-1}})(l_{\rm t}/10^{5}\,\mathrm{cm})(\mathrm{Re}_{\rm c}/5000)$$
+
+其中 $V_{\rm t}, l_{\rm t}$ 为湍流元的特征速度和尺度，$\mathrm{Re}_{\rm c}$ 为临界 Reynolds 数。湍流粘性使得角动量传输时标缩短。
+
+**[FACT] 粘性耗散时标**（原文 p.127）：
+
+$$\tau_{\rm vis} = 500\,(R/10^{6}\,\mathrm{cm})^{2}\,(\nu/2\times 10^{5}\,\mathrm{cm}^{2}\,\mathrm{s}^{-1})^{-1}\,\mathrm{s}$$
+
+盘内 $R \sim 10^{6}\,\mathrm{cm}$ 处 $\tau_{\rm vis} \sim 500\,\mathrm{s}$——比引力辐射时标短得多。
+
+**[FACT] 稳定质量转移率**（原文 p.127, 公式 22/23）：
+
+$$\dot{M} \sim -\frac{2 M}{(\xi - 1)\,\tau_{\rm gr}}$$
+
+其中 $\xi = \partial\ln R/\partial\ln M$，$\tau_{\rm gr}$ 为引力辐射时标。稳定转移率由 $\dot{M}$ vs $\tau_{\rm gr}$ 平衡决定。
+
 ## [FACT] r 过程发生的两个重要含义
 1. **解压可在核远离 β 衰变不稳定时发生** → 核可经历**快速中子俘获**（r 过程⁴²¹）。
 2. Lattimer 等¹⁹²⁰ 已指出：此类过程能产生**观测质量范围内的 r 过程核**，其**丰度峰对应中子幻数**²²。

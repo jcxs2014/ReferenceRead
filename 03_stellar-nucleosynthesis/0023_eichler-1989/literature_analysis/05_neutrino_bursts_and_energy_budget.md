@@ -43,6 +43,20 @@ $$ \epsilon \approx 7\times10^{-3}\, \alpha\, f \,
 - 100 kpc 外难以探测电子中微子 → 直接探测前景有限。
 - 但 $\nu\bar{\nu}\to e^+e^-$ 转换产生的 γ 射线暴**是主要的可观测信号**。
 
-## [FACT] 关键参考文献
+## [FACT] γ 射线fireball 温度（OCR p.128）
+
+**[FACT] 黑体等效温度**（原文 p.128）：
+
+$$T_{\rm fireball} \sim 10^{9}\,\mathrm{K}$$
+
+由 $L = 4\pi R^{2}\sigma T^{4}$ 推得，对应 $L \sim 10^{51}\,\mathrm{erg\,s^{-1}}$、$R \sim 2\times 10^{7}\,\mathrm{cm}$。fireball 的频谱和时标应与典型 γ 射线暴相似。
+
+**[FACT] 特征less γ 射线暴可探测距离**（原文 p.128）：
+
+$$d_{\rm detect} \lesssim 100\,\mathrm{Mpc}, \quad \mathrm{fluence} \sim 10^{-6}\,\mathrm{erg\,cm^{-2}}$$
+
+若能量输出 $\sim 10^{51}\,\mathrm{erg}$，特征less γ 射线暴可在 100 Mpc 内探测——比 100 Mpc 之外软 γ 射线会被宇宙透明度限制。
+
+**[FACT] 关键参考文献**
 5. Berezinsky & Priutski, Proc. 19th Int. Cosmic Ray Conf. 1985
 25. Berezinsky & Priutski, Proc. 20th Int. Cosmic Ray Conf. 1987
