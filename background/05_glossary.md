@@ -1092,4 +1092,200 @@ path: background/05_glossary.md
 | 0014_cameron-1968 | 40 |
 | 0015_kraft-1994 | 68 |
 
+## 4. 新增术语（2026-08-16 补 17 篇核心术语）
+
+### 4.1 0007_drury-1983
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `中文` | 英文等价 | 逻辑功能 |
+| `然而` | however / nevertheless | 转折 |
+| `因此` | thus / therefore | 因果 |
+| `此外` | furthermore / moreover | 递进 |
+| `显然` | clearly / obviously | 断言 |
+| `尽管` | although / even though | 让步 |
+| `例如` | e.g. / for example | 举例 |
+| `反之` | conversely / on the other hand | 对照 |
+| `特别地` | in particular / notably | 特例 |
+| `简言之` | in brief / in short | 总结 |
+
+### 4.1 0016_caprioli-2014
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `单词` | 词性 | 逻辑功能 |
+| `however` | adv. | 转折 |
+| `moreover` | adv. | 递进 |
+| `also` | adv. | 递进 |
+| `nevertheless` | adv. | 转折 |
+| `conversely` | adv. | 对比 |
+| `notably` | adv. | 强调 |
+| `consistently` | adv. | 强调 |
+| `crucial` | adj. | 强调 |
+| `crucially` | adv. | 强调 |
+
+### 4.2 0017_caprioli-2014-ii
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `单词` | 词性 | 逻辑功能 |
+| `however` | adv. | 转折 |
+| `conversely` | adv. | 对比 |
+| `consequently` | adv. | 因果 |
+| `moreover` | adv. | 递进 |
+| `furthermore` | adv. | 递进 |
+| `nevertheless` | adv. | 转折 |
+| `notably` | adv. | 强调 |
+| `remarkably` | adv. | 强调 |
+| `consistently` | adv. | 一致 |
+
+### 4.3 0018_kotera-olinto-2011
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `中文` | 英文 | 含义 |
+| `超高能宇宙线` | Ultrahigh Energy Cosmic Rays (UHECR) | 能量 ≥10¹⁸ eV (通常 ≥10²⁰ eV) 的带电粒子 |
+| `膝点` | Knee | 宇宙线谱在 ~1 PeV 处的第一次变陡 |
+| `踝点` | Ankle | ~3 EeV 处的谱硬化，银河-河外转换或传播 dip |
+| `第二膝` | Second knee | ~0.5 EeV 处预测的次级变陡 |
+| `GZK 截断` | Greisen-Zatsepin-Kuzmin cutoff | >50 EeV 处 UHECR 与 CMB 作用导致的通量抑制 (Greisen 1966; Zatsepin & Ku |
+| `Trans-GZK` | Trans-GZK | >60 EeV 能量段，源须在 GZK 视界 (~100 Mpc) 内 |
+| `GZK 视界` | GZK horizon | ~100 Mpc 内可观测 UHECR 源的距离 |
+| `踝点转换模型` | Ankle transition model | 银河-河外转换发生在踝点的模型 |
+| `Dip 模型` | Dip model | 踝点是质子对产生传播 dip 的模型 (Berezinsky et al. 2006) |
+
+### 4.4 0020_giacalone-2017
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `单词` | 词性 | 逻辑功能 |
+| `however` | adv. | 转折 |
+| `whereas` | conj. | 对比 |
+| `thus` | adv. | 因果 |
+| `moreover` | adv. | 递进 |
+| `whereas` | conj. | 对比 |
+| `regardless` | adj. | 让步 |
+| `notably` | adv. | 举例 |
+| `namely` | adv. | 说明 |
+| `consequently` | adv. | 因果 |
+
+### 4.5 0018_arnould-goriely-2003
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `p-process` | photodisintegration process | 光致核反应过程 |
+| `p-nuclide` | neutron-deficient stable nuclide | 缺中子稳定核素 |
+| `s-process / r-process` | slow / rapid neutron-capture process | 慢/快中子俘获过程 |
+| `SNII` | Type II supernova (core-collapse) | II 型超新星（核心坍缩） |
+| `SN Ia / Ib / Ic` | thermonuclear / stripped-envelope SNe | Ia / Ib / Ic 型超新星 |
+| `PCSN` | Pair-Creation Supernova | 对不稳定性超新星 |
+| `O/Ne layer` | oxygen + neon shell in massive stars | O/Ne 燃烧壳层 |
+| `Hauser-Feshbach` | statistical model for nuclear reactions | 核反应统计模型 |
+| `γ-ray strength function` | E1/M1 photon strength function | γ 射线强度函数 |
+| `Optical potential` | complex nuclear potential for compound formation | 光学势 |
+
+### 4.6 0019_sneden-cowan-2008
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `单词` | 词性 | 逻辑功能 |
+| `however` | adv | 转折 |
+| `consequently` | adv | 因果 |
+| `notwithstanding` | prep | 让步 |
+| `whereas` | conj | 对比 |
+| `moreover` | adv | 递进 |
+| `namely` | adv | 举例 |
+| `thereby` | adv | 因果 |
+| `indeed` | adv | 加强 |
+| `despite` | prep | 让步 |
+
+### 4.7 0020_nomoto-2013
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `单词` | 词性 | 逻辑功能 |
+| `However` | adv | 转折 |
+| `By contrast` | adv | 转折 |
+| `Interestingly` | adv | 转折/强调 |
+| `Thus` | adv | 因果 |
+| `Therefore` | adv | 因果 |
+| `As a result` | adv | 因果 |
+| `In particular` | adv | 递进 |
+| `Whereas` | conj | 转折 |
+| `Whereas` | prep | 让步 |
+
+### 4.8 0021_karakas-lattanzio-2014
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `英文` | 词性 | 逻辑功能 |
+| `However` | conj. | 转折 |
+| `In contrast` | prep. | 对比 |
+| `Furthermore` | adv. | 递进 |
+| `Whereas` | conj. | 让步 |
+| `In addition to` | prep. | 递进 |
+| `Due to` | prep. | 因果 |
+| `As a consequence` | adv. | 因果 |
+| `Owing to` | prep. | 因果 |
+| `For this reason` | adv. | 因果 |
+
+### 4.9 0022_busso-1999
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `中文逻辑词` | 英文等价词 | 词性 |
+| `因此` | therefore / thus | adv. |
+| `进而` | consequently / subsequently | adv. |
+| `尤其` | in particular / notably | adv. |
+| `然而` | however / yet | conj. |
+| `反之` | conversely | adv. |
+| `由于` | because / due to | prep. |
+| `随着` | as / with | prep. |
+| `最终` | ultimately / eventually | adv. |
+| `不仅……而且` | not only … but also | conj. |
+
+### 4.10 0024_nomoto-suzuki-2014
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `英文单词` | 词性 | 逻辑功能 |
+| `however` | adv | 转折 |
+| `thus` | adv | 因果 |
+| `whereas` | conj | 对比 |
+| `namely` | adv | 列举 |
+| `consequently` | adv | 因果 |
+| `namely` | adv | 解释 |
+| `whereas` | conj | 对照 |
+| `namely` | adv | 列举 |
+| `namely` | adv | 列举 |
+
+### 4.11 0001_lhaaso-2021
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `LHAASO` | Large High Altitude Air Shower Observatory / 高海拔宇宙线观测站 | 位于稻城海子山（海拔 4,410 m），由 KM2A+WCDA+WFCTA 三套阵列组成 |
+| `KM2A` | Kilometer Square Array / 平方公里阵列 | 表面宇宙线阵列，1 km²；含 ED 闪烁体 + MD 水中切伦科夫缪子 veto |
+| `ED` | Electromagnetic detector / 电磁探测器 | 5,195 个塑料闪烁体计数器（15 m 网格） |
+| `MD` | Muon detector / 缪子探测器 | 1,188 个地下水中切伦科夫探测器（30 m 网格，2.5 m 埋深） |
+| `WCDA` | Water Cherenkov Detector Array / 水中切伦科夫探测器阵列 | 78,000 m²、4.5 m 水深；能量桥接 Fermi-LAT 与 KM2A |
+| `WFCTA` | Wide Field-of-view Cherenkov Telescope Array / 广角切伦科夫望远镜阵列 | 18 台 16°×16° FoV 望远镜，50 TeV–100 PeV |
+| `PSF` | Point Spread Function / 点扩展函数 | 源角分辨率度量，本文 68% containment = 0.45°–0.62° |
+| `N_μ/N_e` | 缪子数/电磁粒子数比 | KM2A 的 γ/CR 判别量，cut <1/230 |
+
+### 4.12 0002_ams02-2015
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `单词` | 词性 | 逻辑功能 |
+| `however` | adv. | 转折 |
+| `thereby` | adv. | 因果(由此) |
+| `consequently` | adv. | 因果(结果) |
+| `nevertheless` | adv. | 转折 |
+| `consequently` | adv. | 因果 |
+| `owing to` | prep. | 因果 |
+| `whereas` | conj. | 对比 |
+| `despite` | prep. | 让步 |
+| `in particular` | adv. | 举例 |
+
+### 4.13 0004_hess-2016
+| 术语 | 中文 | 释义 |
+|---|---|---|
+| `词汇` | 原文例句 | 逻辑功能 |
+| `implies` | This implies that our Galaxy contains PeVatrons | 推导结论 |
+| `whereas` | proton flux ... whereas leptonic ... | 对比/转折 |
+| `hence` | hence the name PeVatron | 因果顺承 |
+| `whereas` | whereas the low-energy ... | 对比两类机制 |
+| `therefore` | therefore be considered as | 结果归纳 |
+| `PeVatron` | accelerators of PeV particles | 能将质子加速至 PeV 级的天体 |
+| `IACT` | imaging atmospheric Cherenkov technique | 成像大气切伦科夫技术 |
+| `CMZ` | central molecular zone | 银河系中心分子云 |
+| `w_CR` | cosmic-ray energy density | 宇宙线能量密度 |
+
 *（由 `scripts/gen_glossary.py` 自动生成）*
