@@ -45,7 +45,9 @@ THRESHOLDS = {
 
 
 def count_words(text: str) -> int:
-    """中英混合分词，word = 连续字母/汉字序列"""
+    """中英混合分词，word = 连续字母/汉字序列；去掉 YAML frontmatter"""
+    # 去掉 ---...--- 块（兼容单行和多行 frontmatter）
+    text = re.sub(r'^---.*?---', '', text, flags=re.DOTALL)
     return len(re.findall(r"[a-zA-Z]{2,}|[\u4e00-\u9fff]", text))
 
 
@@ -58,8 +60,10 @@ def analyze_lit(dirpath: Path):
     total_formulas = 0
     total_words = 0
 
+    # 跳过辅助文档（97/98/99）和 frontmatter
+    skip = {"00_overview.md", "97_quality_check.md", "98_vocabulary.md", "99_final_summary.md"}
     for fp in files:
-        if fp.name in ("00_overview.md",):
+        if fp.name in skip:
             continue
         text = fp.read_text(encoding="utf-8", errors="replace")
         words = count_words(text)
