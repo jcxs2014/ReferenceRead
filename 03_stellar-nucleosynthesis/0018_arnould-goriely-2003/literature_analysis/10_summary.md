@@ -39,3 +39,22 @@ read_date: '2026-08-16'
 ## 分章索引
 - 上：09_anomalies_chronometry.md
 - 下：97_quality_check.md
+
+
+---
+
+## 10.4 关键公式与 FACT 汇总（原文 p.76–84）
+
+> **FACT 补充**：§10 总结部分虽无显式新公式，但作者在此集中回顾了 §3–§9 的定量结论。以下把整篇论文的定量骨架以公式形式收束（原文 p.76–84）。
+
+### 10.4.1 定量总结（原文 p.76–84）
+- **[FACT]** p 过程主导温度窗（原文 p.77）：$T_p\approx 2\text{–}3\times10^{9}\,\mathrm{K}$
+- **[FACT]** 核物理误差主导：$\Delta Y_p^{\mathrm{nuc}}\approx 5\text{–}10\times$，$\Delta Y_p^{\mathrm{astroph}}\approx 3\times$（原文 p.78）
+- **[FACT]** 中微子俘获对 ¹³⁸La 的放大 $36\times$ 与本篇 ν 过程结论一致（原文 p.78）
+- **[FACT]** ¹⁸⁰Ta(m) 亚稳态分支 $p_m\approx 0.4$（原文 p.78）
+- **[FACT]** 反应网络规模 $N_{\mathrm{nuc}}\gtrsim 2\times10^{4}$、$N_{\mathrm{rxn}}\gtrsim 2\times10^{7}$（原文 p.79）
+- **[FACT]** Xe-HL 观测约束：$^{124}$Xe/$^{126}$Xe = 2.1–2.4（原文 p.79）
+- **[FACT]** ¹⁴⁶Sm 时钟：$t_{1/2}=1.03\times10^{8}\,\mathrm{yr}$（原文 p.80）
+- **[FACT]** 22Ne(α,n) 速率放大 $F=50$ 缓解 Mo/Ru 之谜（原文 p.80）
+- **[FACT]** PCSN 爆炸动能 $E_{\mathrm{kin}}=4.4\times10^{51}\,\mathrm{erg}$（原文 p.81）
+- **[FACT]** 中微子损失率 $\varepsilon_\nu\propto\rho\,T_9^9$ 决定晚期燃烧时标（原文 p.81）

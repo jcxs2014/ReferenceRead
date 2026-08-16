@@ -65,6 +65,26 @@ sections:
 
 [FACT] 13C 反应率的实验更新 (Denker et al 1995) 使反应率比 Caughlan & Fowler (1988) 高 2 倍——对 s 过程结果有重要影响。
 
+
+
+[FORMULAS] 13C pocket 与中子源方程：
+
+- **13C 生成链**：$^{12}{\rm C}(p,\gamma)^{13}{\rm N}(\beta^+\nu)e^{+}^{13}{\rm C}(p,\gamma)^{14}{\rm N}$；在 $T\sim(0.8\text{-}0.9)\times10^8$ K 时全部 H 被烧光，残留 13C（原文 p.260）。
+- **13C pocket 质量（ST）**：$M(^{13}{\rm C})\approx 3\times 10^{-6}\,M_{\odot}/{\rm pulse}$（Gallino et al 1998；原文 p.265）。
+- **H 注入上界**：$X_{\rm H}\le 0.0015$，即 $N_{\rm H}/N_{^{12}{\rm C}}<0.1$（原文 p.265）。
+- **13C 燃烧中子源反应**：$^{13}{\rm C}(\alpha,n)^{16}{\rm O}$，$Q=2.21\ {\rm MeV}$；$T\sim 0.9\times10^8$ K（原文 p.255）。
+- **22Ne 生成链**：$^{14}{\rm N}(\alpha,\gamma)^{18}{\rm F}(\beta^+\nu)e^{+}^{18}{\rm O}(\alpha,\gamma)^{22}{\rm Ne}$（原文 p.260）。
+- **22Ne 中子源反应**：$^{22}{\rm Ne}(\alpha,n)^{25}{\rm Mg}$，$Q=4.71\ {\rm MeV}$；$T\gtrsim 3\times10^8$ K（原文 p.255）。
+- **13C 燃烧中子密度**：$N_n\lesssim 10^7\ {\rm cm^{-3}}$（原文 p.255）。
+- **22Ne 燃烧中子密度**：$N_n\sim 5\times10^{10}\ {\rm cm^{-3}}$（原文 p.265）。
+- **13C 对流燃烧（旧模型）的 Nn 上限**：$N_n\approx (4\text{-}10)\times10^8\ {\rm cm^{-3}}$（原文 p.262）。
+- **22Ne 反应率更新**：$\lambda(^{22}{\rm Ne}(\alpha,n))\uparrow\times3$ 相对 Caughlan & Fowler 1988；排除 633 keV 共振（原文 p.265）。
+- **13C 反应率更新**：$\lambda(^{13}{\rm C}(\alpha,n))\uparrow\times2$（Denker et al 1995；原文 p.260）。
+- **混合长度参数**：$\alpha\equiv l/H_P=1.5\text{-}2.1$（太阳模型匹配要求；原文 p.251、p.263）。
+- **3-M☉ TDU 触发核心质量**：$M_{\rm H}\gtrsim 0.63\,M_{\odot}$；C 星阶段在第 11–26 次脉冲出现（原文 p.263、p.249）。
+- **2-M☉ 模型 TDU 起始脉冲数**：$N_{\rm TP}^{\rm TDU}\approx 11$（原文 p.263）。
+- **3-M☉ 模型 TDU 起始脉冲数**：$N_{\rm TP}^{\rm TDU}\approx 9$（原文 p.263）。
+
 ## 4.5 与相关文献的交叉
 
 - [[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/07_s_process.md|Wallerstein et al. 1997 §X]]：提供了 s 过程现象学框架

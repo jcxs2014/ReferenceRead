@@ -67,3 +67,51 @@
 - s-过程贡献太阳系 Pb 的 **91%**（Travaglio et al. 2001a 表 3）；
 - Eu 太阳系 ~97% 由 r-过程贡献；
 - Sr、Y、Zr、Ba、La、Pb → 主要 s-过程产物。
+
+## 6.3 HBB + s-过程反应公式（LaTeX）
+
+[FACT] **CN 循环净反应**（HBB 把 TDU 送来的 $^{12}$C 转为 $^{14}$N）：原文 p.40
+$$ ^{12}\mathrm{C}(p,\gamma)^{13}\mathrm{N}(\beta^+)^{13}\mathrm{C}(p,\gamma)^{14}\mathrm{N} \;\Longrightarrow\; ^{12}\mathrm{C} \;\to\; ^{14}\mathrm{N} $$
+
+[FACT] **Ne-Na 链**（HBB 表面 ²²Ne、²³Na 增丰源）：原文 p.41
+$$ ^{20}\mathrm{Ne}(p,\gamma)^{21}\mathrm{Na}(\beta^+)^{21}\mathrm{Ne}(p,\gamma)^{22}\mathrm{Na}(\beta^+)^{22}\mathrm{Mg}(p,\gamma)^{23}\mathrm{Al}(\beta^+)^{23}\mathrm{Mg} $$
+
+[FACT] **Mg-Al 链**：原文 p.41
+$$ ^{25}\mathrm{Mg}(p,\gamma)^{26}\mathrm{Al}(\beta^+)^{26}\mathrm{Mg}(p,\gamma)^{27}\mathrm{Al} $$
+
+[FACT] **HBB 底部温度判据**：原文 p.41
+$$ T_{\rm HBB} \;\approx\; 3\times 10^{7}\,\mathrm{K} \quad (\text{Ne-Na、Mg-Al 链激活阈值}) $$
+
+[FACT] **⁷Li 生成（间接）**：$^{7}$Be 被对流带到冷包络 β 衰变：原文 p.41
+$$ ^{7}\mathrm{Be}(p,\gamma)^{11}\mathrm{B}(\beta^+) \;\longrightarrow\; \text{对流} \;\longrightarrow\; ^{7}\mathrm{Be}(\beta^-)\,^{7}\mathrm{Li} $$
+
+[FACT] **s-过程中子密度判据**：原文 p.43
+$$ N_n \;\lesssim\; 10^{8}\,\mathrm{n/cm}^{3} \qquad \text{(slow, 慢于 β 衰变时标)} $$
+
+[FACT] **r-过程中子密度**（对比）：原文 p.43
+$$ N_n \;\gtrsim\; 10^{20}\,\mathrm{n/cm}^{3} \qquad \text{(fast, 快于 β 衰变)} $$
+
+[FACT] **¹³C 中子源**（低质量 AGB，log T ≈ 8–8.7）：原文 p.44
+$$ ^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}, \qquad Q = +2.215\,\mathrm{MeV}, \qquad \log T \simeq 8\text{--}8.7 $$
+
+[FACT] **²²Ne 中子源**（中质量 AGB，log T ≈ 8.8–9.0）：原文 p.44
+$$ ^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}, \qquad Q = -0.049\,\mathrm{MeV}, \qquad \log T \simeq 8.8\text{--}9.0 $$
+
+[FACT] **¹³C 袋丰度**（interpulse 期缓慢燃烧为中子源）：原文 p.44
+$$ X(^{13}\mathrm{C})_{\rm pocket} \;\approx\; 0.01\text{--}0.05 \qquad (\text{质量分数}) $$
+
+[FACT] **s-过程流沿稳定谷（β 平衡）**：原文 p.45
+$$ \lambda_\gamma\,N_{\rm stable}(A) \;=\; \sigma_A\,\phi_n\,N(A) \qquad (\sigma_A\,\phi_n = \text{neutron exposure}\,\tau) $$
+
+[FACT] **Galactic 中 AGB s-过程贡献**（定量）：原文 p.45
+$$ f_s(\mathrm{Pb})_{\rm AGB} \;\approx\; 91\%, \qquad f_s(\mathrm{Eu})_{\rm AGB} \;\approx\; 3\% \;(\text{Eu 主要 r-过程}), \qquad f_s(\mathrm{Ba/La})_{\rm AGB} \;\approx\; 80\text{--}100\% $$
+
+[FACT] **s-过程中子俘获比 β 衰变慢**（时标比较）：原文 p.45
+$$ \tau_n = \frac{1}{\sigma_A\,\phi_n} \;\gg\; \tau_\beta \qquad \Longrightarrow \quad \text{nuclei stay on stability valley} $$
+
+[FACT] **r-过程中子俘获比 β 衰变快**（时标比较，用于区分）：原文 p.45
+$$ \tau_n \;\ll\; \tau_\beta \qquad \Longrightarrow \quad \text{nuclei reach neutron drip line} $$
+
+[FACT] **中子通量 $\phi_n$**：低质量 AGB ¹³C 袋内典型值：原文 p.45
+$$ \phi_n \;\approx\; 10^{5}\text{--}10^{8}\,\mathrm{n\,cm^{-2}\,s^{-1}} \qquad (\text{¹³C 袋}) $$
+$$ \phi_n \;\approx\; 10^{13}\,\mathrm{n\,cm^{-2}\,s^{-1}} \qquad (\text{²²Ne 脉冲期}) $$

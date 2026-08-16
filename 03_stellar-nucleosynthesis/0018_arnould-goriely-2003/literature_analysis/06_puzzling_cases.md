@@ -71,3 +71,39 @@ read_date: '2026-08-16'
 ## 分章索引
 - 上：05_snii_production.md
 - 下：07_pcsm_production.md
+
+
+---
+
+## 6.4 关键公式补充（FACT+LaTeX，原文页码已注）
+
+> **FACT 补充**：§6 聚焦三个疑难案例，涉及 ²²Ne(α,n) 速率扰动、138La 中微子俘获放大因子与 180Ta(m) 的亚稳态分支比（原文 p.51–57）。
+
+### 6.4.1 22Ne(α,n) 速率扰动（原文 p.51，§6.1）
+- 速率放大因子：$\lambda_{\alpha n}=\lambda_{\mathrm{NACRE}}\times F$，$F\in\{10,\,50\}$（原文 p.51）
+- 中子通量响应：$N_n\propto\lambda_{\alpha n}\propto F$（原文 p.51）
+- Mo/Ru 欠生成缓解：$\dfrac{Y_p^{\mathrm{obs}}}{Y_p^{\mathrm{pred}}}\approx 1\text{–}3$（原文 p.51）
+
+### 6.4.2 ¹³⁸La 中微子过程（原文 p.53–54，§6.2）
+- 中微子通量：$\Phi_{\nu_e}(r)=\dfrac{L_{\nu_e}}{4\pi r^{2}\langle E_{\nu_e}\rangle}$（原文 p.53）
+- 中微子截面：$\sigma_{\nu}=\dfrac{G_F^{2}}{\pi}\,E_{\nu}^{2}\,|M_{\mathrm{NU}}|^{2}\,f(Q)$（原文 p.53–54）
+- F_down/F_up 定义：$\lambda_{\mathrm{new}}^{(n,\gamma)}=\lambda_{\mathrm{calc}}^{(n,\gamma)}/F_{\mathrm{down}}$ 或 $\times F_{\mathrm{up}}$（原文 p.53）
+- 判据：$F_{\mathrm{down}}\times F_{\mathrm{up}}\approx 20\text{–}25$ 才能匹配观测（原文 p.53）
+- 中微子俘获增强因子：$Y({}^{138}\mathrm{La})_{\nu}\approx 36\,Y({}^{138}\mathrm{La})_{0}$（原文 p.54 Fig. 38）
+
+### 6.4.3 ¹⁸⁰Ta(m) 亚稳态分支（原文 p.55，§6.3）
+- 亚稳态分支公式（原文 p.55 Eq. 10）：$p_{m}=\dfrac{1}{1+\tfrac{3}{19}\exp\!\left(\dfrac{0.874}{T_{9,\mathrm{crit}}}\right)}$
+- 临界温度：$T_{9,\mathrm{crit}}\approx 0.4$，此时 $p_m\approx 0.40$（原文 p.55）
+- 冷却温度时标：$T_9(t)\approx 2\,\exp\!\left(-\dfrac{t\,/\,\mathrm{s}}{1.8}\right)$（原文 p.55）
+- 能量差：$E_m=75.3\,\mathrm{keV}$，$\Delta J=8$（原文 p.55）
+
+### 6.4.4 ¹⁸⁰Ta 反应率（原文 p.56–57，§6.3）
+- 光致分解链：${}^{181}\mathrm{Ta}(\gamma,n){}^{180}\mathrm{Ta}\to{}^{180}\mathrm{Ta}_{m}$ 与 ${}^{180}\mathrm{Ta}(\gamma,n){}^{179}\mathrm{Ta}$（原文 p.57）
+- 中微子增强：$Y({}^{180}\mathrm{Ta})_{\nu}\approx 3\,Y({}^{180}\mathrm{Ta})_{0}$（原文 p.57 Fig. 38）
+
+
+### 6.4.5 关键 FACT 汇总（原文 p.51–57）
+- **[FACT]** ²²Ne(α,n) 速率放大因子 $F=50$ 即可消除 ⁹⁴Mo、⁹⁸Ru 欠生成——这是 Mo/Ru 之谜最直接的定量结果（原文 p.51）。
+- **[FACT]** ¹³⁸La 中微子俘获增强可达 36 倍（原文 p.54 Fig. 38），是本篇最引人注目的非热核结果。
+- **[FACT]** ¹⁸⁰Ta(m) 亚稳态分支 $p_m\approx 0.40$（原文 p.55 Eq. 10）确认了其 p 过程天体来源的定量基础。
+- **[FACT]** 冷却曲线 $T_9(t)=2\exp(-t/1.8)$ 保证 ¹⁸⁰Ta 在 $T_{9,\mathrm{crit}}=0.4$ 到 $T_9=0.15$ 冻结时标 $<2\,\mathrm{s}$ 内不致衰变（原文 p.55）。

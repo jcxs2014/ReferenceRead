@@ -75,6 +75,24 @@ sections:
 
 [INTERPRETATION] 这个七阶段循环是现代 AGB 核合成模型的**范式框架**——在 1999 年确立了从辐射 13C 燃烧 → 22Ne 二次辐照 → TDU 富集的完整链条。§6 把它推广到不同金属丰度并连接银河化学演化。
 
+
+
+[FORMULAS] 13C pocket 结构、s 过程核反应网络方程：
+
+- **13C pocket 质量占比**：$\Delta M_{\rm pocket}/\Delta M_{\rm intershell}\approx 1/20$（原文 p.265）。
+- **每次脉冲的中子曝露（中央层）**：$\tau\approx 0.40\ {\rm mbarn}^{-1}$，$\tau/\tau_0\approx 1.4$（原文 p.265）。
+- **13C 燃烧时标**：$\tau_{^{13}{\rm C}(\alpha,n)}\ll \Delta t_{\rm interpulse}\sim 10^4\ {\rm yr}$（原文 p.260）。
+- **s-only 同位素增强倍数**：$\xi_{\rm s}\sim 10^3\text{-}5\times10^4$（原文 p.265）。
+- **核反应网络方程（微分形式）**：$\frac{dY_i}{dt}=\lambda_{i-1\to i}Y_{i-1}-\lambda_{i\to i+1}Y_i+\lambda_{\beta,j\to i}Y_j-\lambda_{\beta,i}Y_i$，其中 $Y_i$ 为 i 核素的摩尔分数（原文 p.256）。
+- **中子俘获速率**：$\lambda_{(n,\gamma),i}=n_n\langle\sigma v\rangle_i=n_n\,\bar\sigma_i\,v_T$（原文 p.255）。
+- **β 衰变速率**：$\lambda_{\beta,i}=\ln 2/\tau_{1/2,i}(T)$（原文 p.256）。
+- **分支处丰度比与 N_n 的自洽方程**：$\frac{Y_{i+1}^{s}}{Y_{i+2}^{s}}\approx\frac{\lambda_{\beta,i}}{n_n\,\bar\sigma_{i+1}v_T}$（原文 p.256）。
+- **163Dy 高温失稳**：在 $T_b\sim 3\times10^8$ K 时 $^{163}{\rm Dy}$ β 半衰期被大幅缩短，向 $^{164}{\rm Dy}(\beta^-)^{164}{\rm Er}$ 开放（原文 p.265）。
+- **60Fe 产量由 59Fe 分支控制**：$^{59}{\rm Fe}(\beta^-,\tau=65.1\ {\rm d})\to^{59}{\rm Co}(n,\gamma)^{60}{\rm Co}(\beta^-)^{60}{\rm Fe}$；$\sigma(^{60}{\rm Fe}(n,\gamma))\approx 3.2\ {\rm mb}$（原文 p.265）。
+- **85Kr 分支不对称**：$\lambda_\beta(^{85}{\rm Kr}^m)\ll n_n\,\bar\sigma v_T$ 时被 86,87Sr 消耗（原文 p.265）。
+- **22Ne 燃烧时 134Ba 消耗**：$^{134}{\rm Ba}(n,\gamma)^{135}{\rm Ba}(n,\gamma)^{136}{\rm Ba}(\beta^-)^{136}{\rm La}$ 链被打开（原文 p.265）。
+- **稀释因子（包层 vs He 夹层）**：$\mu_{\rm dil}\sim 20$（原文 p.272）。
+
 ## 5.5 与相关文献的交叉
 
 - [[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/07_s_process.md|Wallerstein et al. 1997 §X]] 的经典 s 过程模型——指数曝露假设在此被正式推翻

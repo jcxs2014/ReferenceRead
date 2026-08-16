@@ -72,6 +72,21 @@ sections:
 
 [FACT] **s 过程产物不是单一 s 过程的结果，而是银河化学演化平均的结果**——这是本文 §6 对 §3 现象学模型的最终取代。
 
+
+
+[FORMULAS] 金属丰度依赖与银河化学演化方程：
+
+- **13C 源的初级性质（曝露–金属丰度标度）**：$\tau_{\rm s}\propto Z^{-1}$（Clayton 1988 原始假设；原文 p.268）。
+- **恒星模型实测的 Z 依赖**：$\tau_{\rm s}\propto Z^{-0.6}$（$Z=Z_\odot/10$ 起；Gallino et al 1999；原文 p.268）。
+- **16O 中子吸收对有效 $N_n$ 的修正**：$n_n^{\rm eff}\approx n_n/(1+n_{16{\rm O}}\bar\sigma_{16{\rm O}}/\bar\sigma_{\rm Fe})$（原文 p.268）。
+- **贫金属 Pop II 元素丰度修正**：$\Delta{\rm [O/Fe]}\approx+0.5\ {\rm dex}$；$\Delta{\rm [\alpha/Fe]}\approx+0.3\ {\rm dex}$（原文 p.268）。
+- **中子密度约束（Rb/Sr）**：$N_n<10^7\ {\rm cm^{-3}}$（与 MS、S 星数据相容；原文 p.268）。
+- **s/r 丰度分离（Ba 为示例）**：${\rm [Ba/Fe]}={\rm log}(N_{\rm s}+N_{\rm r})-{\rm log}\,N_{\rm Fe,\odot}$（原文 p.275）。
+- **太阳的 s 贡献份额**：$f_{\rm s}(t=t_{\rm s})=N_{\rm s}/N=0.80$；$(1-N_{\rm s}/N)_{\rm Ba}=0.20$（原文 p.275）。
+- **银河内 s 贡献占主导的时间**：$\Delta t_{\rm s}\gtrsim 1\ {\rm Gyr}$ 对应 $[{\rm Fe/H}]\lesssim -1$（原文 p.275）。
+- **银河盘 Ba/Fe 定标**：$M_{\rm AGB}\in[2,4]\,M_\odot$；$\sigma \approx 1.5$（Reimers；原文 p.272）。
+- **hs/ls 定义**：$[{\rm hs/ls}]\equiv \log(N_{\rm Ba,La,Nd,Sm}/N_{\rm Y,Zr})-\log(N_{\rm Ba,La,Nd,Sm}/N_{\rm Y,Zr})_{\odot}$（Luck & Bond 1991；原文 p.272）。
+
 ## 6.5 与相关文献的交叉
 
 - [[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|Wallerstein et al. 1997]]：AGB 作为 s 过程主分量的定位

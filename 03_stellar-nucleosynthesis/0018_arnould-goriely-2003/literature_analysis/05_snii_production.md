@@ -51,3 +51,34 @@ read_date: '2026-08-16'
 ## 分章索引
 - 上：04_pre_sn_production.md
 - 下：06_puzzling_cases.md
+
+
+---
+
+## 5.7 关键公式补充（FACT+LaTeX，原文页码已注）
+
+> **FACT 补充**：§5 将反应网络应用于 SNII 位点，得到 p 核素产量表达式与敏感性分析（原文 p.39–51）。
+
+### 5.7.1 激波加热温-时曲线（原文 p.39–40，§5.1）
+- 峰值温度随质量坐标：$T_{9}^{\mathrm{peak}}(m)\approx 2\text{–}3\,K$（原文 p.39）
+- 时间演化：$T_9(t)\approx T_{9}^{\mathrm{peak}}\,\exp\!\left(-\dfrac{t}{\tau_{\mathrm{cool}}}\right)$，$\tau_{\mathrm{cool}}\sim 1\text{–}2\,\mathrm{s}$（原文 p.40）
+- 积分加热参数：$\theta=\int_0^{\infty}\rho\,T^{10}\,dt$（原文 p.40–41）
+
+### 5.7.2 反应网络质量守恒（原文 p.41，§5.1）
+- 质量守恒：$\sum_i A_i\,Y_i(t)=\sum_i A_i\,Y_i(0)$（原文 p.41）
+- 种子质量分数：$X_{\mathrm{seed}}(m,t)=\dfrac{\sum_{A\ge 56}A\,Y_A(m,t)}{\rho(m,t)}$（原文 p.41）
+
+### 5.7.3 IMF 平均产量（原文 p.44–46，§5.2）
+- IMF 加权：$\langle Y_p(Z)\rangle_{\mathrm{IMF}}=\dfrac{\int_{M_{\mathrm{min}}}^{M_{\mathrm{max}}}Y_p(Z,M)\,\xi(M)\,dM}{\int_{M_{\mathrm{min}}}^{M_{\mathrm{max}}}\xi(M)\,dM}$（原文 p.44）
+- Salpeter IMF：$\xi(M)\propto M^{-2.35}$（原文 p.44）
+
+### 5.7.4 反应率敏感性（原文 p.48–51，§5.5）
+- 相对扰动：$\dfrac{\Delta Y_p}{Y_p}\approx\sum_r S_r\,\dfrac{\Delta\lambda_r}{\lambda_r}$，$S_r=\partial\ln Y_p/\partial\ln\lambda_r$（原文 p.48–49）
+- 多反应联合扰动：$\Delta_{\mathrm{tot}}=\sqrt{\sum_r S_r^{2}\,\Delta_r^{2}}$（原文 p.51）
+- 特别敏感反应：${}^{12}\mathrm{C}(\gamma,\alpha)$、${}^{12}\mathrm{C}(\gamma,n)$、${}^{92}\mathrm{Mo}(\gamma,\alpha)$、${}^{94}\mathrm{Mo}(\gamma,n)$、${}^{138}\mathrm{Ba}(\gamma,n)$（原文 p.51）
+
+
+### 5.7.5 关键 FACT 汇总（原文 p.39–51）
+- **[FACT]** 冷却时标 $\tau_{\mathrm{cool}}\sim 1\text{–}2\,\mathrm{s}$ 是 SNII O/Ne 层 p 过程"时窗"的直接定量量（原文 p.40）。
+- **[FACT]** Salpeter IMF 指数 $-2.35$ 是 IMF 平均产量的核心假设（原文 p.44）。
+- **[FACT]** 敏感性系数 $S_r=\partial\ln Y_p/\partial\ln\lambda_r$ 使作者能对 50 个反应率进行系统扰动分析（原文 p.48–49）。

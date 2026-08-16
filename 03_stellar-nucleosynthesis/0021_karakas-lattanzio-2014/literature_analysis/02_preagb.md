@@ -76,3 +76,45 @@
 | 2.00 | SDU | 0.292 | 20.16 | 2224 | 743 | 4.84e-5 |
 | 5.00 | SDU | 0.309 | 18.74 | 3289 | 751 | 5.96e-5 |
 | 8.00 | SDU | 0.362 | 18.21 | 4675 | 637 | 7.21e-5 |
+
+## 2.7 关键反应公式（LaTeX）
+
+[FACT] **CNO 循环的净反应**（四个质子合成一个 $^4$He，$^{12}$C 作为催化剂回归原位）：原文 p.3
+$$ 4\,^1\mathrm{H} \;\longrightarrow\; ^4\mathrm{He} \;+\; 2e^+ \;+\; 2\nu_e \;+\; \gamma \quad (Q \approx 26.7\,\mathrm{MeV}) $$
+
+[FACT] **CNO 循环能量产生率** $\varepsilon_{\mathrm{CNO}}$ 对温度依赖极强，约 $T^{16-20}$（Z=0.02）——对比 pp 链的 $T^4$：原文 p.3
+$$ \varepsilon_{\mathrm{CNO}} \propto \rho\, X\, Z_{\mathrm{CNO}}\, T^{16-20}, \qquad \varepsilon_{\mathrm{pp}} \propto \rho\, X^2\, T^{4} $$
+
+[FACT] **主序质量–光度关系**（下主序 vs 上主序有不同指数）：原文 p.3
+$$ L \propto M^{\alpha}, \qquad \alpha \simeq 3 \text{ (lower MS)}, \quad \alpha \simeq 4.5 \text{ (upper MS)} $$
+
+[FACT] **主序 H 燃烧寿命**（4 个 $^1$H → $^4$He 释放恒定能量 → 寿命 $\propto M/L$）：原文 p.5
+$$ \tau_{\mathrm{MS}} \;\approx\; \frac{0.10\,Q\,M}{L} \;\propto\; M^{-2.5}, \qquad \tau_{\mathrm{MS}}(2M_\odot)\approx 1\,\mathrm{Gyr},\;\; \tau_{\mathrm{MS}}(6M_\odot)\approx 53\,\mathrm{Myr} $$
+
+[FACT] **He 燃烧的三重 α 反应（3α process）**：原文 p.5
+$$ 3\,^4\mathrm{He} \;\longrightarrow\; ^{12}\mathrm{C} \;+\; \gamma \qquad (Q = 7.275\,\mathrm{MeV}) $$
+
+[FACT] **$^{12}$C 俘获 α 生成 $^{16}$O**：原文 p.5
+$$ ^{12}\mathrm{C}(\alpha,\gamma)^{16}\mathrm{O} \qquad (Q = 7.162\,\mathrm{MeV}) $$
+
+[FACT] **He 燃烧释放能量约为 H 燃烧的 1/10**（原文 p.5）：
+$$ \varepsilon_{\mathrm{He}} \;\approx\; 0.1\,\varepsilon_{\mathrm{H}}, \qquad \tau_{\mathrm{He}}(2M_\odot)\approx 124\,\mathrm{Myr} \ll \tau_{\mathrm{MS}}(2M_\odot) $$
+
+[FACT] **He 燃烧使 $^{16}$O 从 $^{12}$C 累积**：$^{12}$C/$^{16}$O 竞争比例取决于 $^{12}$C($\alpha,\gamma$)$^{16}$O 反应率：原文 p.5
+$$ \frac{^{16}\mathrm{O}}{^{12}\mathrm{C}} \;\propto\; \frac{\lambda_{^{12}\mathrm{C}(\alpha,\gamma)^{16}\mathrm{O}}}{\lambda_{3\alpha}} $$
+
+[FACT] **核心 He 闪条件**（最大质量 $\approx 2.1\,M_\odot$，无超射；$\approx 1.6\,M_\odot$，含超射）：原文 p.5
+$$ M_{\mathrm{He-flash}}^{\max} \simeq 2.1\,M_\odot \text{ (无超射)}, \qquad \simeq 1.6\,M_\odot \text{ (含超射)} $$
+
+[FACT] **RGB 光度尖峰（bump）发生在包络对流最深触及 He 燃烧残骸层时**：原文 p.10
+$$ L_{\mathrm{bump}} \approx L(M_{\mathrm{cve}}^{\max}) \quad \Longleftrightarrow \quad m(r) = m_{\mathrm{discontinuity}}^{\mathrm{FDU}} $$
+
+[FACT] **3He 原初丰度与银河演化对比**：原文 p.13
+$$ \left(\frac{^3\mathrm{He}}{\mathrm{H}}\right)_{\mathrm{prim}} = 1.00\pm 0.07\times 10^{-5}\quad(\text{Cyburt et al. 2008}) $$
+$$ \left(\frac{^3\mathrm{He}}{\mathrm{H}}\right)_{\mathrm{ISM}} \approx 2.4\pm 0.7\times 10^{-5}, \qquad \left(\frac{^3\mathrm{He}}{\mathrm{H}}\right)_{\mathrm{chem.evol.pred.}} \approx 5\times 10^{-5} $$
+
+[FACT] **$^3$He 破坏反应**（pp 链中 3He 自灭）：原文 p.17
+$$ ^3\mathrm{He} + \;^3\mathrm{He} \;\longrightarrow\; ^4\mathrm{He} \;+\; 2\,^1\mathrm{H} $$
+
+[FACT] **额外混合扩散系数参数化**（$D$ 沿 RGB 衰减）：原文 p.14
+$$ \ln D = \ln D_0 - \alpha\,\ln\tau_v, \qquad \tau_{\mathrm{mix}} \sim 10^6\text{--}10^7\,\mathrm{yr} $$

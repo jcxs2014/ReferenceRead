@@ -40,3 +40,20 @@
 - AGB s-过程贡献太阳系 Pb 的 **91%**（Travaglio et al. 2001a 表 3）；
 - 低质量 AGB（1.5–3M⊙）贡献银河系 s-过程 ~80%；
 - AGB 对银河系 ¹²C 净贡献显著（具体数值取决于 IMF + 产额表）。
+
+## 9.5 产额定义与关键公式（LaTeX）
+
+[FACT] **恒星生命周期产额**（$m_i$ 元素 $i$ 的质量注入）：原文 p.72
+$$ m_i \;=\; \int_0^{t_{\rm end}} \big(\dot{M}_{\rm wind}(t)\,X_i(t)\big)\,dt \;+\; \big(M_{\rm final}\,X_i^{\rm surf}\big)\big|_{t_{\rm end}} \;-\; M_{\rm init}\,X_i^{\rm init} $$
+
+[FACT] **质量损失积分决定 TDU 次数上限**：原文 p.27
+$$ N_{\rm pulse}^{\max} \;\approx\; \frac{M_{\rm env}(t_{\rm TP-AGB\,start})}{\langle \dot{M}\rangle\,\Delta t_{\rm interpulse}} $$
+
+[FACT] **AGB 总产额加权 IMF**（银河化学演化输入）：原文 p.72
+$$ \langle m_i \rangle(Z) \;=\; \int_{M_{\rm low}}^{M_{\rm high}} m_i(M,Z)\,\xi(M)\,dM \qquad \big(\xi \sim M^{-2.35}\big) $$
+
+[FACT] **产额网格**（本文 Karakas & Lattanzio 2014）：原文 p.72
+$$ M \in \{1.0,\,1.1,\,\dots,\,8.0\}\,M_\odot, \qquad Z \in \{10^{-4},\,4\times 10^{-4},\,0.001,\,0.004,\,0.01,\,0.02\} $$
+
+[FACT] **C 富星产额 vs O 富星产额分界**：原文 p.73
+$$ \frac{X(^{12}\mathrm{C})}{X(^{16}\mathrm{O})}\bigg|_{\rm yield} \;\geq\; 1 \quad \Longleftrightarrow \quad \text{C-rich yield regime} $$

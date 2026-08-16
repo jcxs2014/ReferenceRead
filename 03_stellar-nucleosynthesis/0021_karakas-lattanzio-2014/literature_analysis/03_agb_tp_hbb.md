@@ -39,3 +39,23 @@ $$L/L_{\odot} \approx 59200\left(M_c/M_{\odot} - 0.522\right) \quad \text{(Paczy
 | 3 | 0.02 | 否 | 是 | 119 | 0.40 |
 | 6 | 0.02 | 是（强） | 否 | 保持 < 20 | 大 |
 | 1 | 0.02 | 否 | 是 | ~25 | — |
+
+## 3.3 关键反应公式（LaTeX）
+
+[FACT] **Paczynski 核质量–光度关系**（TP-AGB 光度由 C-O 核质量 $M_c$ 决定）：原文 p.27
+$$ \frac{L}{L_\odot} \;\approx\; 59200\left(\frac{M_c}{M_\odot} - 0.522\right) \qquad \text{(Paczynski 1970)} $$
+
+[FACT] **TP-AGB 核质量增长**：每次 interpulse 期核质量增量 $\Delta M_c$ 由 H 壳燃烧率决定：原文 p.27
+$$ \Delta M_c \;\approx\; \frac{L_{\mathrm{H-shell}}}{\varepsilon_H}\,\Delta t_{\mathrm{interpulse}} $$
+
+[FACT] **HBB 判据**：包络底部温度 $T_{\rm base} \gtrsim 3\times 10^7$ K 点燃 pp + CNO（M $\gtrsim$ 4.5M$\odot$）：原文 p.20
+$$ T_{\rm base} \;\gtrsim\; 3\times 10^{7}\,\mathrm{K}, \qquad M \gtrsim 4.5\,M_\odot \text{ (Z=0.02)} $$
+
+[FACT] **HBB 寿命**：HBB 型 AGB 演化寿命仅 ~100 Myr：原文 p.4
+$$ \tau_{\mathrm{HBB-AGB}} \;\approx\; 100\,\mathrm{Myr} $$
+
+[FACT] **C 星条件（表面数比）**：原文 p.4
+$$ \frac{n(^{12}\mathrm{C})}{n(^{16}\mathrm{O})} \;\geq\; 1 \qquad \Longleftrightarrow\qquad \text{carbon star} $$
+
+[FACT] **HBB 破坏速率 vs TDU 注入速率**：最亮 C 星要求：原文 p.28
+$$ \frac{dX(^{12}\mathrm{C})}{dt}\bigg|_{\mathrm{TDU}} \;>\; \frac{dX(^{12}\mathrm{C})}{dt}\bigg|_{\mathrm{HBB}\,\mathrm{burn}} $$

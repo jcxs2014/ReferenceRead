@@ -38,3 +38,26 @@
 | ¹²C(α,γ)¹⁶O 反应率 | intershell C/O | 实验约束差 |
 
 [CRITIQUE] 本文明确指出 §6 中的展望：对流与质量损失是所有 AGB 产额系统误差的两大主导源。
+
+## 8.4 关键方程（LaTeX）
+
+[FACT] **Schwarzschild 对流判据**：原文 p.16
+$$ \nabla_{\rm rad} \;>\; \nabla_{\rm ad} \qquad \Longleftrightarrow \qquad \text{convective unstable} $$
+
+[FACT] **Ledoux 判据**（加入 $\nabla_\mu$ 分子重量梯度）：原文 p.16
+$$ \nabla_{\rm rad} \;>\; \nabla_{\rm ad} + \varphi\,\nabla_\mu \qquad \Longleftrightarrow \qquad \text{Ledoux unstable} $$
+
+[FACT] **Reimers 质量损失率**（RGB/AGB 经典参数化）：原文 p.27
+$$ \dot{M}_{\rm Reimers} \;\approx\; 4\times 10^{-13}\,\eta_R\,\frac{L\,R}{M}\;\Big[\frac{M_\odot}{\mathrm{yr}}\Big] \qquad (\eta_R \simeq 0.4\text{--}1.0) $$
+
+[FACT] **Vassiliadis–Wood (1994) 关系**（$L/L_\odot$ 依赖包络质量）：原文 p.27
+$$ \dot{M}_{\rm VW} \;=\; 4\times 10^{-13}\,L\,R\,\Big(\frac{M_{\rm env}}{M_0}\Big)^{-0.5} $$
+
+[FACT] **Blocker (1995) 关系**（用于 O-富 AGB）：原文 p.27
+$$ \dot{M}_{\rm Blocker} \;=\; 6\times 10^{-14}\,\frac{L\,R}{M}\Big(\frac{X_{\rm H}}{0.70}\Big)^2 $$
+
+[FACT] **对流超射长度参数化**（指数衰减）：原文 p.16
+$$ P_{\rm overshoot}(d) \;=\; P_0\,\exp\!\Big(-\frac{2d}{\alpha_{\rm ov}\,H_P}\Big) $$
+
+[FACT] **semiconvection 扩散系数**：原文 p.8
+$$ D_{\rm sc} \;\propto\; \frac{\nabla_{\rm rad} - \nabla_{\rm ad}}{|\nabla_\mu|} $$

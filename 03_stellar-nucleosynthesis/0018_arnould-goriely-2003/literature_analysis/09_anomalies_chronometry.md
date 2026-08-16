@@ -57,3 +57,26 @@ read_date: '2026-08-16'
 ## 分章索引
 - 上：08_typei_production.md
 - 下：10_summary.md
+
+
+---
+
+## 9.4 关键公式补充（FACT+LaTeX，原文页码已注）
+
+> **FACT 补充**：§9 涉及 p 过程同位素异常与短寿命时钟（原文 p.72–76）。
+
+### 9.4.1 放射性衰变时钟（原文 p.74–75，§9.2–9.3）
+- 衰变定律：$N(t)=N_0\exp(-\lambda t)$，$\lambda=\ln 2/t_{1/2}$（原文 p.74）
+- ⁹²Nb 半衰期：$t_{1/2}(^{\mathrm{92}}\mathrm{Nb})\approx 3.5\times10^{7}\,\mathrm{yr}$（原文 p.74）
+- ¹⁴⁶Sm 半衰期：$t_{1/2}(^{\mathrm{146}}\mathrm{Sm})\approx 1.03\times10^{8}\,\mathrm{yr}$（原文 p.75）
+- 时钟反演：$\Delta t=-\dfrac{t_{1/2}}{\ln 2}\ln\dfrac{(^{92}\mathrm{Nb}/^{93}\mathrm{Nb})_{\mathrm{now}}}{(^{92}\mathrm{Nb}/^{93}\mathrm{Nb})_{0}}$（原文 p.74–75）
+
+### 9.4.2 Xe-HL 同位素比（原文 p.72，§9.1）
+- 同位素比约束：$\left(\dfrac{^{124}\mathrm{Xe}}{^{126}\mathrm{Xe}}\right)_{\mathrm{obs}}=2.1\text{–}2.4$（原文 p.72）
+- 同位素比约束：$\left(\dfrac{^{128}\mathrm{Xe}}{^{126}\mathrm{Xe}}\right)_{\mathrm{obs}}=6.1\text{–}7.6$（原文 p.72）
+- 三分分解：$\delta^{124}\mathrm{Xe}=\delta^{124}\mathrm{Xe}_p+\delta^{124}\mathrm{Xe}_s+\delta^{124}\mathrm{Xe}_r$（原文 p.72）
+
+
+### 9.4.3 关键 FACT 汇总（原文 p.72–76）
+- **[FACT]** ⁹²Nb 半衰期 $3.5\times10^{7}$ 年量级使太阳系形成前 < 10⁷ 年的 p 过程源可被 ⁹²Zr 示踪（原文 p.74）。
+- **[FACT]** Xe-HL 观测同位素比 $^{124}$Xe/$^{126}$Xe = 2.1–2.4 是所有 p 过程模型必须同时满足的硬约束（原文 p.72）。

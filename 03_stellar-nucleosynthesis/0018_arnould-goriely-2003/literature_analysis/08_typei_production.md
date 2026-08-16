@@ -32,3 +32,28 @@ read_date: '2026-08-16'
 ## 分章索引
 - 上：07_pcsm_production.md
 - 下：09_anomalies_chronometry.md
+
+
+---
+
+## 8.4 关键公式补充（FACT+LaTeX，原文页码已注）
+
+> **FACT 补充**：§8 涵盖热核型超新星 p 过程（原文 p.60–72），涉及温区、Ni 产量约束与点火条件。
+
+### 8.4.1 Type Ia 温度与产量（原文 p.60–63，§8.1）
+- 温区：$T\approx 3\text{–}5\times10^{9}\,\mathrm{K}$（原文 p.60）
+- 铁峰产量约束：$M({}^{56}\mathrm{Ni})\approx 0.6\text{–}0.8\,M_{\odot}$（W7 模型，原文 p.61）
+- 相对产量比：$Y_p/Y_{56}\propto f_{\mathrm{hot}}(T_{\mathrm{peak}})$（原文 p.62）
+
+### 8.4.2 点火与火焰传播（原文 p.63，§8.1）
+- 点火判据：$\tau_{\mathrm{nucl}}<\tau_{\mathrm{hydro}}$（原文 p.63）
+- 火焰速度：$v_{\mathrm{fl}}\sim 1000\text{–}10000\,\mathrm{km\,s^{-1}}$（deflagration/detonation，原文 p.63）
+
+### 8.4.3 亚钱德拉塞哈 He 爆（原文 p.72，§8.3）
+- He 壳质量：$M_{\mathrm{He}}\sim 0.01\text{–}0.1\,M_{\odot}$（原文 p.72）
+- He 闪温：$T\approx 2\text{–}4\times10^{9}\,\mathrm{K}$（原文 p.72）
+
+
+### 8.4.4 关键 FACT 汇总（原文 p.60–72）
+- **[FACT]** W7 模型 $M({}^{56}\mathrm{Ni})\approx 0.6\text{–}0.8\,M_{\odot}$ 决定了 Ia 型在太阳 p/Fe 比约束下的"天花板"（原文 p.61）。
+- **[FACT]** 火焰速度 $v_{\mathrm{fl}}\sim 10^{3}\text{–}10^{4}\,\mathrm{km\,s^{-1}}$ 区分延迟 detonation 与纯 detonation 两种物理图像（原文 p.63）。

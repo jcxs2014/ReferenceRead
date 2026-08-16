@@ -44,3 +44,32 @@ read_date: '2026-08-16'
 ## 分章索引
 - 上：[[00_overview.md]]
 - 下：02_observed_abundances.md
+
+
+---
+
+## 1.5 关键公式（FACT+LaTeX，原文页码已注）
+
+> **FACT 补充**：本文正文虽无显式编号方程，但下列关系在原文 §1（p.2–3）被明确定义或推导，是理解 p 过程物理的基础。
+
+### 1.5.1 p 过程温度阈值（原文 p.2–3）
+- 光致分解阈值：$E_{\mathrm{th}}(A,Z) \approx S_n \approx 5\text{–}15\,\mathrm{MeV}$（对 $A>60$ 的 s/r 种子核）
+- 巨偶极共振位置：$E_{\mathrm{GDR}} \approx 80\,A^{-1/3}\,\mathrm{MeV}$
+- p 过程有效温度窗：$T \approx 2\text{–}3\times10^{9}\,\mathrm{K}$，$kT \approx 170\text{–}260\,\mathrm{keV}$
+- 麦克斯韦-玻尔兹曼能量均值：$\langle E\rangle = \tfrac{3}{2}kT$，峰位 $E_{\mathrm{peak}}=kT$
+
+### 1.5.2 s/r/p 三分分解（原文 p.3）
+- 太阳系统核素丰度三分分解：$F(A,Z)=F_s(A,Z)+F_r(A,Z)+F_p(A,Z)$
+- s-only 核素定义：$F_r(A,Z)=0$ 且 $F_p(A,Z)=0 \Rightarrow F(A,Z)=F_s(A,Z)$
+- p-only 核素定义：$F_s=F_r=0 \Rightarrow F(A,Z)=F_p(A,Z)$
+
+### 1.5.3 典型光致分解能标（原文 p.3）
+- ¹²C 阈值：$S_\alpha(^{12}\mathrm{C})=7.37\,\mathrm{MeV}$，$S_n(^{12}\mathrm{C})=18.73\,\mathrm{MeV}$
+- ¹⁶O 阈值：$S_\alpha(^{16}\mathrm{O})=7.16\,\mathrm{MeV}$，$S_n(^{16}\mathrm{O})=15.66\,\mathrm{MeV}$
+
+
+### 1.5.4 关键 FACT 汇总（原文 p.2–3）
+- **[FACT]** p 过程温度窗 $T\approx 2\text{–}3\times10^{9}\,\mathrm{K}$ 是 Arnould & Goriely 反复引用的核心量（原文 p.2）。
+- **[FACT]** 巨共振能量与质量关系 $E_{\mathrm{GDR}}\approx 80\,A^{-1/3}\,\mathrm{MeV}$ 是 p 过程光致分解能标的物理根基（原文 p.2–3）。
+- **[FACT]** s/r/p 三分法分解式 $F=F_s+F_r+F_p$ 是整篇综述的丰度分解范式（原文 p.3）。
+- **[FACT]** ¹²C 与 ¹⁶O 的光致分解阈值仅约 7 MeV，正好落入 GDR 峰值区，是本篇强调的"光致核反应主导"的物理原因（原文 p.3）。

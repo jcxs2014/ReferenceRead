@@ -34,3 +34,26 @@ read_date: '2026-08-16'
 ## 分章索引
 - 上：06_puzzling_cases.md
 - 下：08_typei_production.md
+
+
+---
+
+## 7.3 关键公式补充（FACT+LaTeX，原文页码已注）
+
+> **FACT 补充**：§7 讨论对不稳定性超新星（PCSN），涉及对产生阈值、爆炸能量与黑洞残余质量的定量关系（原文 p.57–60）。
+
+### 7.3.1 对产生阈值（原文 p.57–58，§7.1）
+- 对产生阈值能量：$2m_ec^{2}=1.022\,\mathrm{MeV}$（原文 p.57）
+- 对产生率阈值：$\exp(-2m_ec^{2}/kT)\gtrsim 10^{-3}$，即 $T_9\gtrsim 2$（原文 p.58）
+- 绝热指数：$\gamma\to 4/3$ 时失稳（原文 p.58 Fig. 39）
+
+### 7.3.2 爆炸能量与残余质量（原文 p.58–59，§7.2）
+- 释放动能：$E_{\mathrm{kin}}\approx 4.4\times10^{51}\,\mathrm{erg}$（$M_{\mathrm{ZAMS}}=140\,M_{\odot}$，原文 p.58）
+- 对爆炸核质量：$M_{\mathrm{expl}}\approx 4\,M_{\odot}$（原文 p.58）
+- 残余黑洞质量标度：$M_{\mathrm{BH}}=M_{\mathrm{core}}-M_{\mathrm{expl}}$（原文 p.59 Fig. 40）
+- p 核素产量归一化：$Y_p^{\mathrm{norm}}(M_{\mathrm{BH}})=Y_p(M_{\mathrm{BH}})/\sum_A Y_p(A,M_{\mathrm{BH}})$（原文 p.59）
+
+
+### 7.3.3 关键 FACT 汇总（原文 p.57–60）
+- **[FACT]** $M_{\mathrm{ZAMS}}=140\,M_{\odot}$ 模型释放动能 $4.4\times10^{51}\,\mathrm{erg}$（原文 p.58），是 PCSN 位点的代表性数值。
+- **[FACT]** p 核素产量归一化对残余黑洞质量 $M_{\mathrm{BH}}$ 的高度敏感性是本篇 PCSN 讨论的核心定量发现（原文 p.59 Fig. 40）。

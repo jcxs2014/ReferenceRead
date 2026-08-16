@@ -60,3 +60,26 @@ $$\lambda \equiv \frac{\Delta M_{\rm dredge}}{\Delta M_{\rm core}}$$
 | 1.0 | 0.02 | ~0.55 | ~0.15 | ~25 | ~1 |
 | 1.5 | 0.02 | ~0.55 | ~0.3 | ~60 | >1 |
 | 3.0 | 0.02 | ~0.60 | ~0.4 | ~119 | ~1.74 |
+
+## 4.6 TDU 与稀释公式（LaTeX）
+
+[FACT] **TDU 效率参数 $\lambda$**（本文公式 2）：原文 p.22
+$$ \lambda \;\equiv\; \frac{\Delta M_{\mathrm{dredge}}}{\Delta M_{\mathrm{core}}} $$
+
+[FACT] **每脉冲表面数丰度变化**（$X_s$ 表面质量丰度；$X_{\rm intershell}$ intershell 丰度；$M_{\rm env}$ 包络质量；$M_{\rm dredge}$ 本次 TDU 带入质量）：原文 p.23
+$$ \Delta X_s \;\approx\; \frac{M_{\rm dredge}}{M_{\rm env}}\;\big(X_{\rm intershell} - X_s\big) \;=\; \frac{\lambda\,\Delta M_c}{M_{\rm env}}\;\big(X_{\rm intershell} - X_s\big) $$
+
+[FACT] **表面 C/O 演化累积公式**：原文 p.23
+$$ \frac{n(^{12}\mathrm{C})}{n(^{16}\mathrm{O})}\bigg|_{\mathrm{surf},\,k+1} \;=\; \frac{n(^{12}\mathrm{C})}{n(^{16}\mathrm{O})}\bigg|_{\mathrm{surf},\,k}\;+\;\frac{\lambda\,\Delta M_c}{M_{\rm env}}\left(\frac{n(^{12}\mathrm{C})}{n(^{16}\mathrm{O})}\bigg|_{\rm intershell} - \frac{n(^{12}\mathrm{C})}{n(^{16}\mathrm{O})}\bigg|_{\rm surf,k}\right) $$
+
+[FACT] **C 星条件（数比）**：原文 p.24
+$$ \frac{n(^{12}\mathrm{C})}{n(^{16}\mathrm{O})}\bigg|_{\mathrm{surf}} \;\geq\; 1 $$
+
+[FACT] **$M_c^{\rm min}$ 判据**：只有当 $M_c \geq M_c^{\rm min}(M,Z)$ 时 TDU 才启动；此后每脉冲 $M_c$ 递增：原文 p.23
+$$ M_c^{(k)} \;=\; M_c^{\mathrm{min}} + k\,\Delta M_c, \qquad k = 1,2,\dots,N_{\mathrm{pulse}} $$
+
+[FACT] **中间质量星 intershell 稀释**：He intershell 质量约为低质量星的 1/10：原文 p.25
+$$ M_{\rm intershell}(M\gtrsim 4.5M_\odot) \;\approx\; 0.1\,M_{\rm intershell}(M\lesssim 3M_\odot) $$
+
+[FACT] **Karakas et al. (2002) 参数化**：$\lambda$ 与 $M_c^{\mathrm{min}}$ 依赖 $M$ 和 Z：原文 p.23
+$$ \lambda = \lambda(M, Z), \qquad M_c^{\rm min} = M_c^{\rm min}(M, Z) $$

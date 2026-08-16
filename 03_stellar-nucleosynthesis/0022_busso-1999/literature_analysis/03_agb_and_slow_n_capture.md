@@ -92,6 +92,20 @@ sections:
 
 [INTERPRETATION] §3.4 是 §4–§5 的**起点**——它把本文要解决的问题框定清楚：中子源到底在哪里、在什么条件下燃烧、以及如何在模型中自洽地呈现。
 
+
+
+[FORMULAS] AGB 与 s 过程关键方程：
+
+- **中子曝露定义**：$\tau=\int n_n\langle\sigma v_T\rangle\,dt$，或等效写为 $\tau=\int n_n\,\bar\sigma_{\rm (n,\gamma)}\,v_T\,dt$（原文 p.255）。
+- **中子曝露概率密度**：$\phi(\tau)=\frac{f\,N_{56}}{\tau_0}\exp\!\left(-\frac{\tau}{\tau_0}\right)$，其中 $f\equiv N_{56}^{\rm capt}/N_{56}$（原文 p.255）。
+- **太阳主分量的特征曝露**：$\tau_0=0.28\ {\rm mbarn}^{-1}$（Käppeler et al 1989；原文 p.255）。
+- **B2FH 稳定谷条件（局域）**：$\sigma_{(n,\gamma)}(A)\,N_s(A)\approx {\rm const}$，远离 magic 核时适用（原文 p.255）。
+- **branching 比值**：$f_\beta=\frac{\lambda_\beta}{\lambda_\beta+\lambda_n}$，其中中子俘获率 $\lambda_n=n_n\,\bar\sigma_\beta\,v_T$（原文 p.256）。
+- **由 branching 反推中子密度**：$n_n=\frac{(1-f_\beta)\lambda_\beta}{f_\beta\,\bar\sigma_\beta\,v_T}$，在 s-only 对取太阳丰度时定标（原文 p.256）。
+- **134Cs β 半衰期的温度依赖**：$\tau_{1/2}^{134{\rm Cs}}(T=1\text{-}3\times10^8\,{\rm K})=0.97\ {\rm yr}\to 46\ {\rm d}$，由 Takahashi & Yokoi (1987) 定（原文 p.256）。
+- **134Cs 的中子俘获截面**：$\sigma_{134{\rm Cs}}\approx 1\ {\rm barn}$（30 keV；原文 p.256）。
+- **Paczynski 参数关系**：$L\propto M_{\rm core}^{7}$ 及 $\Delta t\propto L^{-1}\propto M_{\rm core}^{-7}$（原文 p.249）。
+
 ## 3.5 与相关文献的交叉
 
 - [[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/07_s_process.md|Wallerstein et al. 1997 §X]] 提供了 s 过程现象学模型的完整框架，本文在此基础之上讨论 AGB 具体实现

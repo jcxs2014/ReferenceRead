@@ -72,6 +72,17 @@ sections:
 
 [INTERPRETATION] 二次挖掘层主要影响中等质量 AGB 前驱星的氮丰度；对 s 过程影响有限（因为 s 过程主要在 AGB 阶段才启动）。
 
+
+
+[FORMULAS] 关键公式（原文公式对照）：
+
+- **He 燃烧壳与 H 燃烧壳的相对能量比**：$L_{\rm He}/L_{\rm H}\sim 10^{-3}$，H 壳主导能量输出（原文 p.249）。
+- **He 夹层初始质量**：$M_{\rm H}-M_{\rm He}\approx 1\times 10^{-2}M_{\odot}$ 到 $2\times 10^{-2}M_{\odot}$（低质量星）；中等质量星小 5–10 倍（原文 p.249）。
+- **氦闪质量阈值**：$M_{\rm HeF}\in[1.7,2.5]\,M_{\odot}$，取决于对流算法（原文 p.245）。
+- **恒星质量损失率（Reimers）**：$\dot{M}=4\times 10^{-13}\,\eta\,L R/M\;\;[M_{\odot}/{\rm yr}]$，AGB 星在 C 星阶段 $\dot{M}\sim 10^{-6}M_{\odot}/{\rm yr}$（原文 p.246）。
+- **包层风驱动的能量预算**：$L_{\rm rad}^{\rm dust}\propto\kappa_{\rm dust}\,L/(4\pi c r^2)\cdot\dot{M}$（辐射压主导星风的能量约束，原文 p.246）。
+- **AGB 星作为银河质量回注源**：$\dot{M}_{\rm AGB}\gtrsim 50\%\cdot\dot{M}_{\rm evolved}$（原文 p.246）。
+
 ## 2.6 本章小结
 
 [FACT] AGB 前的演化链对理解 AGB 星核合成有四个关键意义：

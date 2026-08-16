@@ -39,3 +39,24 @@
 - AGB 对 s-过程 Ba 银河贡献占比：~80–100%；
 - AGB 对 Pb 太阳系贡献：**91%**；
 - AGB 对银河系尘埃贡献：~90%。
+
+## 10.5 银河化学增丰关键方程（LaTeX）
+
+[FACT] **封闭盒化学演化方程**（$Z$ 金属丰度，$R$ 回注率）：原文 p.72
+$$ Z(t) \;=\; -\frac{y}{1-R}\,\ln\mu(t), \qquad \mu(t) = \frac{M_{\rm gas}(t)}{M_{\rm gas}(0)} $$
+
+[FACT] **AGB 单核素产额定义**（恒星生命周期净注入）：原文 p.72
+$$ m_i(Z) \;=\; m_i^{\rm surf}(t_{\rm end}) \;-\; m_i^{\rm initial} \qquad \Big[\mathrm{M_\odot}\Big] $$
+
+[FACT] **银河系 [X/Fe] 时间积分**（多源贡献叠加）：原文 p.72
+$$ \left[\frac{X}{\mathrm{Fe}}\right](t) \;=\; \log_{10}\!\frac{\dot{X}_{\rm CC-SN}+\dot{X}_{\rm Ia}+\dot{X}_{\rm AGB}+\cdots}{\dot{\mathrm{Fe}}_{\rm CC-SN}+\dot{\mathrm{Fe}}_{\rm Ia}+\cdots}\;-\;\left(\frac{X}{\mathrm{Fe}}\right)_\odot $$
+
+[FACT] **AGB 延迟时间分布**（决定 [X/Fe] vs [Fe/H] 演化曲线的"膝"）：原文 p.72
+$$ \tau_{\rm delay}(M,Z) \;\sim\; 10^{8}\text{--}10^{10}\,\mathrm{yr} \qquad (M \sim 1\text{--}4\,M_\odot) $$
+
+[FACT] **AGB 贡献的太阳邻域比例**：原文 p.72
+$$ f_{\rm AGB}(\,^{12}\mathrm{C}\,)_\odot \;\approx\; 50\text{--}60\%, \qquad f_{\rm AGB}(\,^{14}\mathrm{N}\,)_\odot \;\approx\; 50\text{--}60\% $$
+$$ f_{\rm AGB}(\mathrm{Pb})_\odot \;\approx\; 91\%, \qquad f_{\rm AGB}(\mathrm{Ba/La})_\odot \;\approx\; 80\text{--}100\% $$
+
+[FACT] **尘埃注入比例**：原文 p.3
+$$ f_{\rm dust}(AGB) \;\approx\; 90\%, \qquad f_{\rm dust}(\text{massive}) \;\approx\; 10\% $$

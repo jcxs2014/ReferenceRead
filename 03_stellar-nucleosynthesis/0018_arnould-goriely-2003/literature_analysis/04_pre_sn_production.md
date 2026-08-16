@@ -45,3 +45,35 @@ read_date: '2026-08-16'
 ## 分章索引
 - 上：03_nuclear_physics.md
 - 下：05_snii_production.md
+
+
+---
+
+## 4.4 关键公式补充（FACT+LaTeX，原文页码已注）
+
+> **FACT 补充**：§4 讨论大质量恒星演化与 s 过程种子的生成，涉及燃烧时标、中子产额、金属度缩放等定量关系（原文 p.35–39）。
+
+### 4.4.1 燃烧时标与中微子损失（原文 p.35，§4.1）
+- 核燃烧时标量级估计：$\tau_{\mathrm{burn}}\sim\dfrac{X\,Q\,m_H}{\rho\,\varepsilon_{\mathrm{nuc}}}$（原文 p.35–36）
+- 中微子能量损失率：$\varepsilon_{\nu}\approx 5.7\times10^{11}\,\rho\,T_9^{9}\;\mathrm{erg\,cm^{-3}\,s^{-1}}$（Pair 过程主导，原文 p.35，原文 p.36 提到 $T>5\times10^{8}$ K 后中微子主导）
+- 恒星寿命与质光比：$\tau_{\mathrm{MS}}\propto M/L\propto M^{-2.5}$（原文 p.35）
+
+### 4.4.2 s 过程种子生成（原文 p.36，§4.2）
+- 中子源反应率：$\dot{n}\propto X(^{22}\mathrm{Ne})\,\rho\,X(\alpha)\,\langle\sigma v\rangle_{^{22}\mathrm{Ne}(\alpha,n)}$（原文 p.36）
+- 中子通量：$N_n=\dot{n}/\alpha$，$\alpha$ 为总中子俘获率（原文 p.36）
+- 中子密度阈值：$n_n\gtrsim 10^{7}\text{–}10^{8}\,\mathrm{cm^{-3}}$ 用于驱动 s 过程（原文 p.36）
+
+### 4.4.3 金属度缩放（原文 p.36–37，§4.2）
+- 轻元素（$A\le 30$）金属度缩放：$X_Z(Z)=(Z/Z_{\odot})\,X_Z(Z_{\odot})$（原文 p.36 Fig. 24 caption）
+- 重元素（$A\ge 30$，含 Fe）：$X_Z(Z)=(Z/Z_{\odot})^{1.42}\,X_Z(Z_{\odot})$（原文 p.36）
+- 富金属度下 [Fe/O] 关系：$\mathrm{[Fe/O]}=0.42\,\mathrm{[O/H]}$（原文 p.36 Fig. 24）
+
+### 4.4.4 非爆发 p 过程温度窗（原文 p.38，§4.3）
+- 有效温度条件：$T\gtrsim 10^{9}\,\mathrm{K}$ 为光致分解显著阈值（原文 p.38）
+- 流体质点温度振荡：$\Delta T/T\sim 0.2\text{–}0.3$，振荡中心 $T\approx 1.5\text{–}2.2\times10^{9}\,\mathrm{K}$（原文 p.38–39 Fig. 26）
+
+
+### 4.4.5 关键 FACT 汇总（原文 p.35–39）
+- **[FACT]** 中微子损失率 $\varepsilon_{\nu}\propto \rho\,T_9^{9}$ 解释了为何 $T>5\times10^{8}$ K 后燃烧时标骤降（原文 p.35）。
+- **[FACT]** 金属度缩放指数 1.42（A≥30）解释了为何低金属度下 p 过程种子严重不足（原文 p.36）。
+- **[FACT]** 非爆发位点 $T\gtrsim 10^{9}$ K 的有效温度条件是判断"是否能发生 p 过程"的定量门槛（原文 p.38）。
