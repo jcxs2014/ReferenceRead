@@ -814,10 +814,14 @@ function doSearch(query) {
   if (!q) { count.textContent = ""; return; }
 
   // Try index first (pre-built, cross-doc)
+  let indexEntries = null;
   if (_searchTermMap && _searchTermMap.has(q.toLowerCase())) {
-    const entries = _searchTermMap.get(q.toLowerCase());
-    count.textContent = `${entries.length} 命中（${_sectionNames(entries)}）`;
-    return;
+    indexEntries = _searchTermMap.get(q.toLowerCase());
+    // 索引命中：弹窗显示计数 + 可点击章节名（跳到第一个 entry 文档），
+    // 不 return，继续走 fallback 高亮当前文档
+    const firstPath = indexEntries[0]?.path || "";
+    const linkText = _sectionNames(indexEntries);
+    count.innerHTML = `${indexEntries.length} 命中（<a href="#" class="search-link" data-search-path="${firstPath.replace(/"/g,'&quot;')}">${linkText}</a>）`;
   }
 
   // Fallback: live DOM walk for multi-word / fuzzy
@@ -849,10 +853,23 @@ function doSearch(query) {
       }
     });
   });
-  count.textContent = total ? `${total} 命中` : "无";
+  // 索引命中分支已设 innerHTML（不再覆盖）；fallback 分支按命中数显示
+  if (!indexEntries) {
+    count.textContent = total ? `${total} 命中` : "无";
+  }
   if (total > 0) {
     const first = document.querySelector("mark.search-hl");
     if (first) first.scrollIntoView({behavior:"smooth", block:"center"});
+  } else if (indexEntries) {
+    // 索引命中但当前 DOM 未命中：切换到第一个 entry 的文档再高亮
+    const first = indexEntries[0];
+    if (first && first.path && typeof _searchJumpToDoc === "function") {
+      _searchJumpToDoc(first.path);
+      setTimeout(() => {
+        const m = _highlightFirst(q);
+        if (m) m.scrollIntoView({behavior:"smooth", block:"center"});
+      }, 350);
+    }
   }
 }
 
@@ -867,6 +884,71 @@ function _sectionNames(entries) {
   return parts.slice(0, 3).join(", ") + (parts.length > 3 ? ` +${parts.length - 3}` : "");
 }
 function escapeRegex(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+
+// 索引命中后跳转到对应文档（论文 paper-<stem> 或背景文档）
+function _searchJumpToDoc(path) {
+  // 论文：.../0X_xxx/0001_stem-2007/literature_analysis/00_overview.md
+  const m = path.match(/\/(\d{4}_[a-z0-9-]+)\/literature_analysis\/00_overview\.md$/);
+  if (m && typeof switchDoc === "function") {
+    switchDoc("paper-" + m[1].replace(/_/g, "-"));
+    return;
+  }
+  // 背景文档：background/<file>.md
+  const fname = (path.split("/").pop() || "").replace(/\.md$/, "");
+  const doc = (typeof DOCS !== "undefined" ? DOCS : []).find(d => d.category === "背景知识" && d.file === fname + ".md");
+  if (doc && typeof switchDoc === "function") {
+    switchDoc(doc.stem);
+  }
+}
+
+// 切换文档后高亮第一个匹配（异步，等 DOM 加载完成）
+function _highlightFirst(q) {
+  const re = new RegExp(escapeRegex(q), "gi");
+  let firstMark = null;
+  document.querySelectorAll(".doc-section").forEach(sec => {
+    if (firstMark) return;
+    const walker = document.createTreeWalker(sec, NodeFilter.SHOW_TEXT, null, false);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    for (const tn of nodes) {
+      const parent = tn.parentElement;
+      if (parent && (parent.closest(".katex") || parent.closest(".math"))) continue;
+      if (re.test(tn.textContent)) {
+        re.lastIndex = 0;
+        const frag = document.createDocumentFragment();
+        const parts = tn.textContent.split(re);
+        re.lastIndex = 0;
+        for (let i = 0; i < parts.length; i++) {
+          if (parts[i]) frag.appendChild(document.createTextNode(parts[i]));
+          if (i < parts.length - 1) {
+            const m = document.createElement("mark");
+            m.className = "search-hl";
+            m.textContent = q;
+            frag.appendChild(m);
+            if (!firstMark) firstMark = m;
+          }
+        }
+        tn.parentNode.replaceChild(frag, tn);
+        if (firstMark) break;
+      }
+    }
+  });
+  return firstMark;
+}
+
+// 弹窗内搜索链接点击事件（data-search-path 跳转）
+document.getElementById("search-count").addEventListener("click", (e) => {
+  const link = e.target.closest("a.search-link");
+  if (!link) return;
+  e.preventDefault();
+  const path = link.getAttribute("data-search-path") || "";
+  const q = document.getElementById("search-input").value.trim();
+  _searchJumpToDoc(path);
+  setTimeout(() => {
+    const m = _highlightFirst(q);
+    if (m) m.scrollIntoView({behavior:"smooth", block:"center"});
+  }, 350);
+});
 
 // ── Theme ──────────────────────────────────────────────────────────────────
 function applyTheme() {
