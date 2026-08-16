@@ -79,3 +79,43 @@ nav_next: "07_very_massive_stars.md"
 - [FACT] **可能对应观测**：
   - **SN Ic 1999as**：宽线特征不明显（因为抛射质量大、膨胀速度不够高）(Nomoto 2012)
   - **超亮超新星 (Super-Luminous SNe, SLSNe)**：因大 E 与大 ⁵⁶Ni，可产生 SLSNe (Moriya et al. 2010)
+### 6.1 Hypernova 分支（§6.1）
+
+$$
+E_{51}^{\mathrm{HN}} \gtrsim 10,\qquad M(^{56}\!\mathrm{Ni})_{\mathrm{HN}} \approx 0.3\text{–}0.5\,M_{\odot}
+$$
+
+Si-burning 层因强爆炸而外移，α-rich freeze-out 增强（Fig. 2a→2b）：
+
+$$
+M_{r}(\mathrm{Si\text{-}burn})_{E_{51}=10} > M_{r}(\mathrm{Si\text{-}burn})_{E_{51}=1}
+$$
+
+### 6.2 Faint / Failed SN（§6.2）
+
+暗淡分支的 ⁵⁶Ni fallback：
+
+$$
+M(^{56}\!\mathrm{Ni})_{\mathrm{ejecta}} \ll M(^{56}\!\mathrm{Ni})_{\mathrm{produced}}
+$$
+
+$$
+f_{\mathrm{fallback}} = 1 - \frac{M(^{56}\!\mathrm{Ni})_{\mathrm{ejecta}}}{M(^{56}\!\mathrm{Ni})_{\mathrm{produced}}} \longrightarrow 1
+$$
+
+Failed-SN 临界质量（§6.2 上限）：
+
+$$
+M_{\mathrm{failed}} \gtrsim 25\,M_{\odot}
+$$
+
+### 6.3 Pulsational Instability（§6.3）
+
+对 $130\,M_{\odot} \lesssim M \lesssim 160\,M_{\odot}$（Nomoto 2013 母综述 §2.11，本文 §6.3）：
+
+$$
+130\,M_{\odot} \lesssim M \lesssim 160\,M_{\odot}\quad \Longrightarrow\quad \text{脉动不稳定性 (PISN 前驱)}
+$$
+
+---
+

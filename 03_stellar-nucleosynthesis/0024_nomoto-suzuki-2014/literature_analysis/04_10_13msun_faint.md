@@ -41,3 +41,33 @@ nav_next: "05_13_25msun_normal.md"
 - [FACT] **理论归类**：与 **Smartt (2009)** 归类的**暗淡 SN (faint supernovae)** 对应
 
 > [INTERPRETATION] §4 是全文质量区间中**能量最低**的一段：中微子加热勉强驱动爆炸，⁵⁶Ni 产出极微——这是 §2 双分支图中 faint SN branch 在**中低质量端**的物理实现。它与 §3 EC-SNe 合起来解释了"低能量核心坍缩 SN"的物理图像。
+10–13 M☉ 经历 off-center Ne 点火，暗弱分支（§4）：
+
+$$
+10\,M_{\odot} < M < 11\,M_{\odot}:\ \text{Ne flame quenched}\Rightarrow \text{O-Ne-Mg 简并核}
+$$
+
+$$
+M > 11\,M_{\odot}:\ \text{Ne flame}\to\text{center}\Rightarrow \text{Fe 核}<1.4\,M_{\odot}
+$$
+
+Fe 核坍缩形成中子星（§4 关键）：
+
+$$
+M_{\mathrm{Fe\ core}} < 1.4\,M_{\odot}\quad \Longrightarrow \quad \mathrm{NS\ formation}
+$$
+
+NS–BH 密度梯度阈值：
+
+$$
+\left.\frac{d\rho}{dr}\right|_{M\approx 1.4\,M_{\odot}}\ \text{陡峭}\ \Longrightarrow\ \text{不会进一步吸积到 BH}
+$$
+
+暗弱 SN 的 ⁵⁶Ni 抛射极小：
+
+$$
+M(^{56}\!\mathrm{Ni})_{\mathrm{faint}} \ll 10^{-2}\,M_{\odot}
+$$
+
+---
+

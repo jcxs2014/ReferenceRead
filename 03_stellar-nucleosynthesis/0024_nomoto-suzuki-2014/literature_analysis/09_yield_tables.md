@@ -70,3 +70,41 @@ nav_next: "10_conclusion.md"
 - [FACT] 在线表还包含**放射性物种表 (radioactive species tables)**
 
 > [INTERPRETATION] Nomoto 2013 表是本文的**最终交付**：它把超新星、暗淡 SN、PISN、SN Ia 四类机制的产额**首次在一个自洽的 (M, Z) 网格上**整理，且把**质量损失 + 混合回落 + Fe-peak 一致性**三问题**同时解决**——直接支撑 §8 的丰度拟合，也为后续 GCE 研究提供**定量输入**。
+### 9.1 产额表定义
+
+元素 X 的产额（yields）为
+
+$$
+y_{X}(M,Z) \equiv M_{X,\mathrm{ejecta}}(M,Z)\quad [\mathrm{M}_{\odot}]
+$$
+
+GCE 主力区间：
+
+$$
+10\,M_{\odot}\leqslant M \leqslant 140\,M_{\odot}
+$$
+
+### 9.2 WW95 问题（§9.2.1）
+
+Fe 产额偏大因子：
+
+$$
+\frac{y_{\mathrm{Fe}}^{\mathrm{WW95}}}{y_{\mathrm{Fe}}^{\mathrm{obs}}} \approx 2
+$$
+
+若强行减 2 倍 Fe：
+
+$$
+[\alpha/\mathrm{Fe}]_{\mathrm{WW95,\ ad hoc}} \approx 0\ \ (\text{与贫金属星观测}\ [\alpha/\mathrm{Fe}]>0.2\ \text{矛盾})
+$$
+
+### 9.3 Nomoto 2013 表的自洽性（§9.3）
+
+Fe-peak 通过 mixing & fallback 自洽得到：
+
+$$
+y_{\mathrm{Fe-peak}}^{\mathrm{Nomoto2013}} = y_{\mathrm{Fe-peak}}(M,Z;\ \text{含 mixing \& fallback, 含质量损失})
+$$
+
+---
+

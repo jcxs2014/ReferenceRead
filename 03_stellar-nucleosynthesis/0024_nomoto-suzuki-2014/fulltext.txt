@@ -91,7 +91,7 @@ These models are constrained from the comparison of theoretical supernova light 
 and spectra with observations.
 
    As mentioned in the Introduction, the explosion energies of core-collapse supernovae
-are fundamentally important quantities, and an estimate of E  1 � 1051 ergs has often
+are fundamentally important quantities, and an estimate of E  1 × 1051 ergs has often
 been used for nucleosynthesis calculations. A good example is SN1987A.
 
    Important change has come from the establishment of the connection between long
@@ -142,7 +142,7 @@ star in a binary system.
 
                  Stars in the mass range of 8 M < M < 10 M can become "electron capture super-
               novae", if the electron-degenerate O-Ne-Mg core mass grows to 1.38 M and the central
-              density reaches 4 � 109 g cm-3 before the whole super-AGB envelope is lost by mass
+              density reaches 4 × 109 g cm-3 before the whole super-AGB envelope is lost by mass
               loss. (Thus the lower limit of this mass range depends on the mass loss rate.) At such
               a high central density, the electron Fermi energy exceeds the threshold for electron cap-
               tures 24 Mg(e-, )24 Na(e-, )20 Ne and 20 Ne(e-, )20 F(e-, )20 O. The resultant decrease
@@ -177,14 +177,14 @@ an electron capture supernova as in lower mass stars.
    For stars with M > 11 M , the neon flame reaches the center (Nomoto & Hashimoto
 1988). Then, the core would evolve into an Fe core smaller than 1.4 M . The explosion of
 a star with such a small mass Fe core could be powered by neutrino heating, becoming a
-weak SN as in the electron capture supernovae with O-Ne-Mg cores (Mu�ller et al. 2012).
+weak SN as in the electron capture supernovae with O-Ne-Mg cores (Mu¨ller et al. 2012).
 They would eject only a small amount of heavy elements.
 
    The Fe core collapse of these stars would certainly lead to the formation of a neutron
 star (NS) because there exists a steep density gradient around  1.4 M , and the outer
 envelope is too extended to accrete and further increase the mass of the collapsing core
 beyond 1.4 M . The resultant SNe tend to be faint because a negligibly small amount
-of 56Ni is ejected (Mu�ller et al. 2012). Such an SN may correspond to faint supernovae
+of 56Ni is ejected (Mu¨ller et al. 2012). Such an SN may correspond to faint supernovae
 (Smartt 2009). A possible case of such a faint supernova from this mass range is the Type
 Ib SN 2005cz, which is unusually faint and rapidly fading (Kawabata et al. 2010).
 
@@ -284,7 +284,7 @@ burning (Ohkubo et al. 2009).
    (3) Core-Collapse and 56Ni Production: Eventually, these  90 - 140 M stars
 undergo Fe-core collapse to form BHs. Then hypernova-like energetic SNe could occur
 to produce large amount 56 Ni. The synthesized 56Ni mass increases with the increasing
-E and M . For E = 3 � 1052 ergs, 56 Ni masses of up to 2.2, 2.3, 5.0, and 6.6 M can
+E and M . For E = 3 × 1052 ergs, 56 Ni masses of up to 2.2, 2.3, 5.0, and 6.6 M can
 be produced for low metallicity (Z = 0.0001) progenitors with M = 30, 50, 80 and 100
 M (Umeda & Nomoto 2008). Thus the upper limit to the mass of 56Ni produced by
 core-collapse SNe (M < 140 M ) would be  10 M . The abundance pattern of the
@@ -320,18 +320,18 @@ and 56 Co could produce SLSNe.
 collapse hypernova, PISN, faint SN, and Type Ia supernova (SN Ia). The abundance
 features of PISNe to be compared with the observed abundances are as follows:
 
-   � Abundance ratios of iron-peak elements: [Zn/Fe] < -0.8 and [Co/Fe] < -0.2. Such
+   · Abundance ratios of iron-peak elements: [Zn/Fe] < -0.8 and [Co/Fe] < -0.2. Such
 small Zn and Co productions (relative to Fe) are due to the low central temperature
 at the bounce of the collapsing core. This abundance feature of yields is intrinsic to
 PISNe, because, if the central temperature would become higher, the core collapse would
 continue due to photodisintegration effects.
 
-   � Explosive O-burning leads to large [(Si, S, Ca)/O] ( 0.8).
-   � The odd-even effect is significantly larger in PISNe than core-collapse SNe.
+   · Explosive O-burning leads to large [(Si, S, Ca)/O] ( 0.8).
+   · The odd-even effect is significantly larger in PISNe than core-collapse SNe.
 
      7.2. Stars with M > 300 M and Intermediate Mass Black Holes
 
-Stars with 300 M  < M < 3.5 � 105 M      enter the pair-instability region but are too
+Stars with 300 M  < M < 3.5 × 105 M      enter the pair-instability region but are too
                   
 massive to be disrupted by PISNe but undergo core collapse, forming intermediate-mass
 
@@ -353,7 +353,7 @@ to chemical enrichment in clusters of galaxies. This might support the view that
 
 core-collapse very massive stars could be responsible for the origin of IMBHs.
 
-Stars more massive than  3.5�105 M (super-massive stars) collapse owing to general
+Stars more massive than  3.5×105 M (super-massive stars) collapse owing to general
 
 relativistic instability before reaching the main-sequence.
 
@@ -468,8 +468,8 @@ stars. However, the N/C and (Na, Mg, Al)/Fe ratios are more than a factor of 10 
                 et al. 2011), and HMP stars (HE 0107-5240, Collet et al. 2006) with relevant SN models
                 (Tominaga et al. 2013b). The SN models are constructed for the 25 M progenitor (Iwamoto
                 et al. 2005). The explosion energies and ejected 56 Ni masses of SN models are E51 = 20 and
-                M (56 Ni) = 0.044 M (EMP star), E51 = 20 and M (56 Ni) = 9.1 � 10-4 M (CEMP star),
-                E51 = 20 and M (56 Ni) = 1.2�10-1 M (UMP star), and E51 = 5 and M (56 Ni) = 8.0�10-5 M
+                M (56 Ni) = 0.044 M (EMP star), E51 = 20 and M (56 Ni) = 9.1 × 10-4 M (CEMP star),
+                E51 = 20 and M (56 Ni) = 1.2×10-1 M (UMP star), and E51 = 5 and M (56 Ni) = 8.0×10-5 M
                 (HMP star).
 
 https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
@@ -522,7 +522,7 @@ has the following problems. i) The Fe yield problem in WW95 remains. ii) The C+O
 core structure (and the resultant yields) keeps the memory of mass loss, thus being
 significantly different between the models with and without mass loss even for the same
 core mass (Woosley et al. 1993). iii) The Mg production of the WW95's model with
-M = 40 M and E = 1 � 1051 erg is unreasonably small compared with other models
+M = 40 M and E = 1 × 1051 erg is unreasonably small compared with other models
 (Woosley & Weaver 1995, Nomoto et al. 1997, Nomoto et al. 2006). This model is not
 used in Timmes et al. (1995) but makes a too large contribution in the GCE models by
 Portinari et al. (1998).
@@ -608,7 +608,7 @@ Limongi, M. & Chieffi, A. 2012, ApJS, 199, 38
 Maeder, A. & Meynet, G. 2000, ARAA, 38, 143
 Melandri, A., et al. 2012, A&A, 547, 82
 Moriya, T., Tominaga, N., Tanaka, M., Maeda, K., & Nomoto, K. 2010, ApJ, 717, 83
-Mu�ller, B., Janka, T., & Heger, A. 2012, ApJ, 761, 72
+Mu¨ller, B., Janka, T., & Heger, A. 2012, ApJ, 761, 72
 Nakamura, T., Umeda, H., Iwamoto, K., Nomoto, K., et al. 2001, ApJ, 555, 880
 Nomoto, K, Sparks, W., Fesen, R., Gull, T., Miyaji, S., Sugimoto, D. 1982, Nature, 299, 803
 Nomoto, K. 1987, ApJ, 322, 206
@@ -652,8 +652,8 @@ Umeda, H. & Nomoto, K. 2002, ApJ, 565, 385
 Umeda, H., Nomoto, K., Tsuru, T., & Matsumoto, H. 2002, ApJ, 578, 855
 Umeda, H. & Nomoto, K. 2003, Nature, 422, 871
 Umeda, H. & Nomoto, K. 2008, ApJ, 673, 1014
-Wanajo, S., Nomoto, K., Janka, H.-T., Kitaura, F. S., & Mu�ller, B. 2009, ApJ, 695, 208
-Wanajo, S., Janka, H.-T., & Mu�ller, B. 2013, ApJ (Letters), 767, L26
+Wanajo, S., Nomoto, K., Janka, H.-T., Kitaura, F. S., & Mu¨ller, B. 2009, ApJ, 695, 208
+Wanajo, S., Janka, H.-T., & Mu¨ller, B. 2013, ApJ (Letters), 767, L26
 Weiss, A., Serenelli, A., Kitsikis, A., Schlattl, H., Christensen-Dalsgaard, J. 2005, A&A, 441,
 
       1129
@@ -667,4 +667,566 @@ Woosley, S. E. & Bloom, J. S. 2006, ARAA, 44, 507
 Woosley, S. E., Blinnikov, S., & Heger, A. 2007, Nature, 450, 390
 
 https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
-
+
+
+================================================================================
+APPENDIX A. FORMULA SUPPLEMENT (LaTeX) — Added 2026-08-16
+================================================================================
+This appendix collects the principal mathematical relations underlying the
+progenitor-mass / explosion-energy grid, the nuclear reaction network, the
+nucleosynthesis-yield formalism, and the one-zone chemical-evolution modelling
+reviewed in §1--§10 of Nomoto & Suzuki (2014, IAU Symp. 298).  All equations
+are written in portable LaTeX.  Units follow the conventions used in the paper:
+M is the main-sequence progenitor mass, E the kinetic energy of the explosion,
+E_51 = E/10^{51} erg, X_i the mass fraction of nuclide i, and [A/B] the
+logarithmic abundance ratio.
+
+------------------------------------------------------------------------------
+A.1  Progenitor mass, explosion energy, and metallicity conventions  (§1, §2)
+------------------------------------------------------------------------------
+
+(1)  Dimensionless explosion energy used throughout the paper:
+
+\begin{equation}
+  E_{51} \equiv \frac{E}{10^{51}\ {\rm erg}}\,,
+\end{equation}
+so that normal core-collapse SNe have $E_{51}\simeq 1$ while the four
+GRB-associated hypernovae cluster around $E_{51}\simeq 30$--$50$.
+
+(2)  Logarithmic abundance ratio relative to solar (Asplund et al. 2009):
+
+\begin{equation}
+  [{\rm A/B}] \equiv \log_{10}\!\left(\frac{N_{\rm A}}{N_{\rm B}}\right)_\star
+               - \log_{10}\!\left(\frac{N_{\rm A}}{N_{\rm B}}\right)_\odot,
+\end{equation}
+where $N_i$ denotes the number density of species $i$.
+
+(3)  Metallicity index:
+
+\begin{equation}
+  [{\rm Fe/H}] \equiv \log_{10}\!\left(\frac{N_{\rm Fe}}{N_{\rm H}}\right)_\star
+                 - \log_{10}\!\left(\frac{N_{\rm Fe}}{N_{\rm H}}\right)_\odot,
+\end{equation}
+which defines the metallicity classes VMP ($-3<{\rm [Fe/H]}<-2$), EMP
+($-4<{\rm [Fe/H]}<-3$), UMP ($-5<{\rm [Fe/H]}<-4$), HMP
+($-6<{\rm [Fe/H]}<-5$) and MMP (${\rm [Fe/H]}<-6$) of Beers & Christlieb (2005).
+
+(4)  Linear mass fraction from the logarithmic index:
+
+\begin{equation}
+  Z_i = Z_{i,\odot}\,10^{[\mathrm{X/H}]}\qquad
+  {\rm with}\quad Z_{\mathrm{H},\odot}=0.7381,\ Z_{\mathrm{He},\odot}=0.2485,
+  \ Z_{\mathrm{metals},\odot}=0.0134.
+\end{equation}
+
+------------------------------------------------------------------------------
+A.2  Electron-capture chain and Ye reduction  (§3)
+------------------------------------------------------------------------------
+
+(5)  Neutrino-electron capture on $^{24}$Mg triggers the collapse at
+$\rho_c \simeq 4\times10^9$ g cm$^{-3}$:
+
+\begin{equation}
+  ^{24}\!{\rm Mg}(e^-,\nu_e)\,^{24}\!{\rm Na}\,.
+\end{equation}
+
+(6)  The two-step EC chain reducing the electron fraction $Y_e$ and
+initiating collapse:
+
+\begin{equation}
+  ^{24}\!{\rm Mg}(e^-,\nu_e)\,^{24}\!{\rm Na}(e^-,\nu_e)\,^{20}\!{\rm Ne}\,,
+\end{equation}
+followed by
+
+\begin{equation}
+  ^{20}\!{\rm Ne}(e^-,\nu_e)\,^{20}\!{\rm F}(e^-,\nu_e)\,^{20}\!{\rm O}\,.
+\end{equation}
+
+(7)  Electron fraction in the post-EC core:
+
+\begin{equation}
+  Y_e = \frac{\sum_i Y_i\,Z_i}{\sum_i Y_i\,A_i}\quad\text{with}\quad
+  \delta Y_e \simeq -\frac{n_{\rm EC}}{n_b}\,,
+\end{equation}
+where $n_{\rm EC}$ is the number of captured electrons per baryon.
+
+(8)  Critical degenerate O-Ne-Mg core mass for the electron-capture onset:
+
+\begin{equation}
+  M_{\rm core}^{\rm crit} \simeq 1.38\ M_\odot\,.
+\end{equation}
+
+------------------------------------------------------------------------------
+A.3  Energy balance of the neutrino-driven explosion  (§3, §4)
+------------------------------------------------------------------------------
+
+(9)  Neutrino heating rate per unit mass in the gain region:
+
+\begin{equation}
+  \dot q_\nu(r) = \frac{1}{4\pi r^2}
+  \sum_{\nu}\!\int_0^\infty\!\kappa_\nu^\nu(E_\nu)\,F_\nu(E_\nu)\,dE_\nu,
+\end{equation}
+with the neutrino flux $F_\nu$ and opacity $\kappa_\nu^\nu$.
+
+(10)  Total kinetic energy of the explosion from the neutrino budget:
+
+\begin{equation}
+  E_{\rm kin} = \eta_\nu\,E_{\rm grav} - \int_0^{M_{\rm ej}}
+  \left[\frac{GM}{r}\right]_{M_r}\!dM_r\,,
+\end{equation}
+with $\eta_\nu \simeq 0.05$ for typical delayed-neutrino-heating SNe.
+
+(11)  Energy balance between kinetic and radiative ($^{56}$Ni $\to$ Fe) luminosity:
+
+\begin{equation}
+  L_\gamma(t) = \dot E_{^{56}{\rm Ni}}(t) + \dot E_{^{56}{\rm Co}}(t),
+\end{equation}
+giving the bolometric luminosity of the SN light curve.
+
+------------------------------------------------------------------------------
+A.4  Silicon burning and alpha-rich freeze-out  (§6.1, §6.3)
+------------------------------------------------------------------------------
+
+(12)  Quasi-statistical equilibrium among Si-burning products:
+
+\begin{equation}
+  \sum_{i} a_i\,^{A_i}Z_i \rightleftharpoons
+  \frac{A}{4}\,^{4}{\rm He} + Q_{\rm fus}\,,
+\end{equation}
+with $Q_{\rm fus}$ the net binding energy.
+
+(13)  Silicon-burning rate per unit mass:
+
+\begin{equation}
+  \epsilon_{\rm Si} \simeq \frac{X_{\rm Si}\,Q_{\rm Si}}{\tau_{\rm Si}(T,\rho)}
+  \;\propto\; \rho^{1/2}\,T^{40}\quad{\rm at}\ T_9\simeq 3.5\mbox{--}5,
+\end{equation}
+where $T_9 \equiv T/(10^9\ {\rm K})$.
+
+(14)  Alpha-rich freeze-out chain in complete Si-burning (hypernovae, §6.1 (2)):
+
+\begin{equation}
+  ^{28}{\rm Si}+^{4}{\rm He}\to\,^{32}{\rm S}(\gamma),\quad
+  ^{32}{\rm S}+^{4}{\rm He}\to\,^{36}{\rm Ar}(\gamma),\ \ldots
+  \ ^{60}{\rm Ni}+^{4}{\rm He}\to\,^{64}{\rm Ge}\,,
+\end{equation}
+yielding enhanced $^{44}{\rm Ti}\to^{44}{\rm Ca}$,
+$^{48}{\rm Cr}\to^{48}{\rm Ti}$ and $^{64}{\rm Ge}\to^{64}{\rm Zn}$.
+
+(15)  Alpha-rich freeze-out condition in terms of the photon-to-baryon ratio:
+
+\begin{equation}
+  \frac{n_\gamma}{n_b}\,\bigg|_{T_9=4} \gtrsim 10^{8}
+  \;\Longrightarrow\; \frac{\partial X_\alpha}{\partial t}>0,
+\end{equation}
+i.e. entropy high enough for photodisintegration to leave free $\alpha$-particles.
+
+(16)  Entropy per baryon in the Si-burning layer:
+
+\begin{equation}
+  \frac{s}{k_B} \simeq 50\,k_B\,T_9^{3}\,\rho^{-1}\quad{\rm (radiation\ pressure)},
+\end{equation}
+so that hypernova (large $E_{51}$) Si-burning regions have $s/k_B\gtrsim 100$.
+
+------------------------------------------------------------------------------
+A.5  Explosive oxygen, neon and carbon burning  (§6.1 (3), §6.3)
+------------------------------------------------------------------------------
+
+(17)  Net explosive O-burning reaction (§6.1 (3), high [Si,S/O]):
+
+\begin{equation}
+  ^{16}{\rm O}+^{16}{\rm O}\;\longrightarrow\;^{28}{\rm Si}+^{12}{\rm C},
+  \ ^{32}{\rm S}+\alpha,\ ^{24}{\rm Mg}+^{8}{\rm Be},\ ^{12}{\rm C}+^{20}{\rm Ne}.
+\end{equation}
+
+(18)  Ne-oxygen burning producing $^{24}$Mg and $^{28}$Si:
+
+\begin{equation}
+  ^{20}{\rm Ne}+\gamma \to\,^{16}{\rm O}+\alpha,\qquad
+  ^{16}{\rm O}+\alpha \to\,^{20}{\rm Ne}(\gamma).
+\end{equation}
+
+(19)  Explosive C-burning:
+
+\begin{equation}
+  ^{12}{\rm C}+^{12}{\rm C}\;\to\;^{20}{\rm Ne}+\alpha,\ 
+  ^{23}{\rm Na}+p,\ ^{23}{\rm Mg}+n,\ ^{16}{\rm O}+\alpha,
+\end{equation}
+the dominant carbon source for CEMP-related faint SNe (see A.10).
+
+(20)  Energy generation of a burning stage $X$ during a passage time $\tau$:
+
+\begin{equation}
+  Q_X = \epsilon_X\,\tau \;\simeq\;
+  \begin{cases}
+    5.9\times10^{17}\ {\rm erg\,g^{-1}} & {\rm H\ burning},\\
+    3.5\times10^{17}\ {\rm erg\,g^{-1}} & {\rm He\ burning},\\
+    2.3\times10^{17}\ {\rm erg\,g^{-1}} & {\rm C\ burning},\\
+    1.6\times10^{17}\ {\rm erg\,g^{-1}} & {\rm Ne\ burning},\\
+    0.6\times10^{17}\ {\rm erg\,g^{-1}} & {\rm O\ burning},\\
+    0.2\times10^{17}\ {\rm erg\,g^{-1}} & {\rm Si\ burning}.
+  \end{cases}
+\end{equation}
+
+------------------------------------------------------------------------------
+A.6  Nucleosynthesis yield of an ejecta zone  (§6.1, §8)
+------------------------------------------------------------------------------
+
+(21)  Yield of nuclide $i$ integrated over the ejecta:
+
+\begin{equation}
+  y_i = \int_{M_{\rm cut}}^{M_{\rm ej}} X_i(M_r)\,dM_r,
+\end{equation}
+where $M_{\rm cut}$ is the mass cut between ejecta and the remnant.
+
+(22)  Total mass of $^{56}$Ni synthesized (§6.3, §7):
+
+\begin{equation}
+  M(^{56}{\rm Ni}) = \int_{M_{\rm cut}}^{M_{\rm ej}} X_{56}(M_r)\,dM_r
+  \;\approx\;
+  \begin{cases}
+    0.002\mbox{--}0.004\ M_\odot & {\rm 8\mbox{--}10\ }M_\odot\ {\rm EC\ SN},\\
+    \sim 0.1\ M_\odot            & {\rm 13\mbox{--}25\ }M_\odot\ {\rm SN},\\
+    0.3\mbox{--}0.5\ M_\odot     & {\rm GRB\ HN},\\
+    \lesssim 10\ M_\odot         & {\rm pop\ III\ 30\mbox{--}100\ }M_\odot\ {\rm HN}.
+  \end{cases}
+\end{equation}
+
+(23)  Mass of the Ni-56 progenitor in terms of the complete Si-burning mass:
+
+\begin{equation}
+  M(^{56}{\rm Ni}) \simeq X_{\rm Ni, Si}\,\Delta M_{\rm Si}^{\rm complete},
+\end{equation}
+with $X_{\rm Ni,Si}$ increasing with entropy as in Fig. 2 of Nomoto & Suzuki (2014).
+
+(24)  Mass cut between ejecta and remnant set by neutrino-driven shock:
+
+\begin{equation}
+  M_{\rm cut}(E_{51}) \;\simeq\;
+  M_{\rm NS}^{\rm Chandrasekhar}\left(\frac{E_{51}}{1}\right)^{-1/3}
+  \;\propto\; E_{51}^{-1/3}\,,
+\end{equation}
+so that low-$E_{51}$ explosions have a large fallback.
+
+------------------------------------------------------------------------------
+A.7  Fallback and jet-induced mixing-fallback  (§4, §6.2, §8.3)
+------------------------------------------------------------------------------
+
+(25)  Fallback mass for a given explosion energy (Tominaga et al. 2007a):
+
+\begin{equation}
+  M_{\rm fb} \simeq \left(\frac{M_{\rm bd}}{M_{\rm ej}}\right)^{2/\gamma}\!M_{\rm ej},
+  \qquad \gamma \simeq 1.5\mbox{--}1.6,
+\end{equation}
+with $M_{\rm bd}$ the baryon-drag mass scale.
+
+(26)  Ejected $^{56}$Ni mass after fallback:
+
+\begin{equation}
+  M_{\rm ej}(^{56}{\rm Ni}) \;=\;
+  M_{\rm synthesized}(^{56}{\rm Ni}) - M_{\rm fb}(^{56}{\rm Ni})\,.
+\end{equation}
+
+(27)  Ratio of ejected $^{56}$Ni to fallback mass (faint-SN branch):
+
+\begin{equation}
+  \frac{M_{\rm ej}(^{56}{\rm Ni})}{M_{\rm fb}}
+  \;\simeq\;
+  10^{-3}\ \text{--}\ 10^{-5}\qquad
+  ({\rm CEMP\ star\ progenitors}).
+\end{equation}
+
+(28)  Jet-induced mixing-fallback model (Tominaga et al. 2007a):
+
+\begin{equation}
+  M_{\rm ej}^{\rm jet} \simeq 0.1\,M_{\rm tot},\qquad
+  M_{\rm fb}^{\rm jet} \simeq 0.9\,M_{\rm tot}\,,
+\end{equation}
+leaving a thin outer envelope with large [C/Fe].
+
+(29)  [C/Fe] for a jet-driven faint SN:
+
+\begin{equation}
+  [{\rm C/Fe}]_{\rm jet}
+  \simeq \log_{10}\!\frac{M_{\rm ej}(C)/M_{\rm ej}({\rm Fe})}
+                       {M_{\odot}(C)/M_{\odot}({\rm Fe})}
+  \;\gtrsim\; +1\,,
+\end{equation}
+in agreement with CEMP stars (§8.3).
+
+------------------------------------------------------------------------------
+A.8  Pulsational instabilities in very massive stars  (§6.3, §7.1)
+------------------------------------------------------------------------------
+
+(30)  Adiabatic index condition for pulsational nuclear instability:
+
+\begin{equation}
+  \gamma_{\rm ad}\;<\;\frac{4}{3}\quad\text{(dynamical instability)},
+  \qquad
+  \frac{\partial \gamma_{\rm ad}}{\partial T}\bigg|_P <0\quad
+  \text{(pulsational $\alpha$-mechanism)}.
+\end{equation}
+
+(31)  Period of the nuclear-oscillation mode (Sakurai 1996):
+
+\begin{equation}
+  \Pi \;\simeq\; \left(\frac{3\pi}{2}\right)^{1/2}
+  \left(\frac{\partial \ln\epsilon}{\partial\ln T}\right)^{-1}
+  \frac{\Pi_{\rm dyn}}{\Gamma},
+\end{equation}
+where $\Pi_{\rm dyn}$ is the dynamical time-scale and $\Gamma$ the
+nuclear timescale factor.
+
+(32)  Critical mass for pulsational pair instability ($\simeq 100$ $M_\odot$):
+
+\begin{equation}
+  M_{\rm ppinst}^{\rm crit} \;\simeq\; 64\,M_\odot
+  \left(\frac{\mu}{0.6}\right)^{2}\!,
+\end{equation}
+with $\mu$ the mean molecular weight per electron.
+
+(33)  Critical mass for pair-instability supernova (PISN, complete disruption):
+
+\begin{equation}
+  140\ M_\odot \;<\; M_{\rm He}^{\rm PISN} \;<\; 260\ M_\odot\,,
+\end{equation}
+which corresponds to zero-age-main-sequence masses of 140--300 $M_\odot$
+for Pop III progenitors (§7.1).
+
+(34)  Critical mass for pair-instability black-hole (PIBH) formation:
+
+\begin{equation}
+  M_{\rm He}^{\rm PIBH}\ >\ 260\ M_\odot
+  \;\Longrightarrow\; M_{\rm ZAMS}\ >\ 300\ M_\odot\,.
+\end{equation}
+
+------------------------------------------------------------------------------
+A.9  Pair-instability supernova energetics and yields  (§7.1, §7.2)
+------------------------------------------------------------------------------
+
+(35)  Energy released by the pair-instability oxygen deflagration:
+
+\begin{equation}
+  E_{\rm PISN}\;\simeq\;\alpha\,M_{\rm O}\,Q_{\rm O\to\ Si},
+  \qquad \alpha\simeq 0.5\mbox{--}1,
+\end{equation}
+with $M_{\rm O}$ the oxygen mass available for explosive burning.
+
+(36)  Ejected $^{56}$Ni mass in a PISN (Heger & Woosley 2002):
+
+\begin{equation}
+  M(^{56}{\rm Ni})_{\rm PISN}\;\approx\;
+  \begin{cases}
+    36\ M_\odot & {\rm for}\ M_{\rm He}=175\ M_\odot,\\
+    26\ M_\odot & {\rm for}\ M_{\rm He}=130\ M_\odot,\\
+    40\ M_\odot & {\rm absolute\ maximum}.
+  \end{cases}
+\end{equation}
+
+(37)  Peak luminosity of a PISN from $^{56}$Ni $\to$ $^{56}$Co $\to$ $^{56}$Fe:
+
+\begin{equation}
+  L_{\rm peak}\;\approx\;M(^{56}{\rm Ni})\,
+  \Big(\dot\epsilon_{{\rm Ni}\to{\rm Co}}+\dot\epsilon_{{\rm Co}\to{\rm Fe}}\Big)
+  \;\sim\;10^{44}\mbox{--}10^{46}\ {\rm erg\,s^{-1}}.
+\end{equation}
+
+(38)  Iron-peak yield ratios characterising PISNe (§7.1, Fig. 3):
+
+\begin{equation}
+  [{\rm Zn/Fe}]_{\rm PISN}\;<\;-0.8,\qquad
+  [{\rm Co/Fe}]_{\rm PISN}\;<\;-0.2,\qquad
+  [({\rm Si,S,Ca})/{\rm O}]_{\rm PISN}\;\gtrsim\;+0.8.
+\end{equation}
+
+------------------------------------------------------------------------------
+A.10 One-zone chemical evolution model for VMP stars  (§8.1)
+------------------------------------------------------------------------------
+
+(39)  Mass fraction of element $Z$ in a closed-box:
+
+\begin{equation}
+  X_Z(t) = \frac{1}{M_{\rm gas}(t)}\int_0^t
+  \Psi(t')\int_{M_{\rm lo}}^{M_{\rm hi}}
+  y_Z(M,t')\,\xi(M,t')\,dM\,dt'\,,
+\end{equation}
+with $\Psi$ the star-formation rate and $\xi$ the IMF.
+
+(40)  Salpeter IMF used in §8.1:
+
+\begin{equation}
+  \xi(M)\,dM = \mathcal{N}\,M^{-2.35}\,dM,\qquad
+  10\ M_\odot \le M \le 50\ M_\odot\,.
+\end{equation}
+
+(41)  IMF-integrated yield of element $Z$ at metallicity $Z_{\rm init}$:
+
+\begin{equation}
+  R_Z(Z_{\rm init}) = \frac{\int_{M_{\rm lo}}^{M_{\rm hi}}
+  y_Z(M,Z_{\rm init})\,\xi(M)\,dM}
+  {\int_{M_{\rm lo}}^{M_{\rm hi}} M\,\xi(M)\,dM}.
+\end{equation}
+
+(42)  Yield of $^{56}$Ni in the IMF-integrated model (§8.1, Fig. 4 left):
+
+\begin{equation}
+  R_{\rm Fe}^{\rm CC}(Z\!=\!0)\;\simeq\;
+  0.007\ Z_\odot^{\rm Fe}\;\;\text{(Tominaga et al.\ 2007b)}.
+\end{equation}
+
+------------------------------------------------------------------------------
+A.11 Radioactive decay chain powering the SN light curve  (§7.1)
+------------------------------------------------------------------------------
+
+(43)  Decay of $^{56}$Ni:
+
+\begin{equation}
+  ^{56}{\rm Ni}\;\xrightarrow{\;\tau_{\rm Ni}=6.08\ {\rm d}\;}\;
+  ^{56}{\rm Co}\;+\;\alpha\;+\;Q_{\rm Ni}=2.81\ {\rm MeV}.
+\end{equation}
+
+(44)  Decay of $^{56}$Co:
+
+\begin{equation}
+  ^{56}{\rm Co}\;\xrightarrow{\;\tau_{\rm Co}=77.3\ {\rm d}\;}\;
+  ^{56}{\rm Fe}\;+\;\gamma\;+\;Q_{\rm Co}=3.55\ {\rm MeV}.
+\end{equation}
+
+(45)  Arnett's instantaneous-deposit approximation:
+
+\begin{equation}
+  L(t)\;\simeq\; M(^{56}{\rm Ni})\,
+  \Big[\dot\epsilon_{\rm Ni}(t)+\dot\epsilon_{\rm Co}(t)\Big],
+\end{equation}
+reproducing the post-maximum decline of hypernovae and PISNe.
+
+------------------------------------------------------------------------------
+A.12 Nuclear statistical equilibrium and the Fe-peak  (§5, §7.1)
+------------------------------------------------------------------------------
+
+(46)  Condition for NSE (Tominaga et al. 2007b):
+
+\begin{equation}
+  \tau_{\rm eq} \;=\; \left(\frac{R_\alpha\,\rho\,X_\alpha}{A}\right)^{-1}
+  \;\ll\;\tau_{\rm hydro}\;\sim\;1\ {\rm s}\;\;\text{at}\ T_9\gtrsim 5.
+\end{equation}
+
+(47)  Saha-like relation between abundance and chemical potential:
+
+\begin{equation}
+  \frac{n_A}{n_\alpha^{A/4}} \;\propto\;
+  \exp\!\left(\frac{B(A,Z)}{k_BT}\right)\,
+  \left(\frac{g_A\,\Lambda^3}{n_b}\right)^{1-A/4}\!,
+\end{equation}
+with $B(A,Z)$ the nuclear binding energy and $\Lambda$ the thermal de Broglie
+wavelength.
+
+(48)  Mean atomic number $Z_{\rm NSE}$ as a function of $Y_e$ and $T_9$:
+
+\begin{equation}
+  Z_{\rm NSE}(Y_e,T_9)\;\simeq\;20\,Y_e\quad{\rm at}\ T_9\gtrsim 5,
+\end{equation}
+explaining why the Fe-peak composition is set by the mass-cut electron
+fraction.
+
+------------------------------------------------------------------------------
+A.13 Additional nuclear reactions relevant to the paper
+------------------------------------------------------------------------------
+
+(49)  Neutrino-induced proton/neutron reactions near the mass cut (§8.1, K/Fe):
+
+\begin{equation}
+  \nu_e + n \;\to\; p + e^-,\qquad
+  \bar\nu_e + p \;\to\; n + e^+\,,
+\end{equation}
+which modifies $Y_e$ and hence [K/Fe] near the mass cut.
+
+(50)  Explosive Ne-burning $\beta^+$ chain to $^{20}$Ne:
+
+\begin{equation}
+  ^{20}{\rm Ne}(\gamma,\alpha)\,^{16}{\rm O},\qquad
+  ^{16}{\rm O}(p,\gamma)\,^{17}{\rm F}(e^+,\nu_e)\,^{17}{\rm O}.
+\end{equation}
+
+(51)  pp-chain and CNO cycle for the initial metallicity of the gas:
+
+\begin{equation}
+  4p \to\,^{4}{\rm He} + 2e^+ + 2\nu_e + 26.73\ {\rm MeV}
+  \quad{\rm (pp\ I)},\qquad
+  \dot\epsilon_{\rm CNO}\propto\rho\,X_{\rm H}\,Z_{\rm CNO}\,T_6^{16}.
+\end{equation}
+
+(52)  Triple-$\alpha$ reaction, producing the $^{12}$C seed of massive-star
+He-burning:
+
+\begin{equation}
+  3\,^{4}{\rm He}\;\to\;^{12}{\rm C}+\gamma,\qquad
+  \dot\epsilon_{3\alpha}\propto\rho^2\,X_{\rm He}^3\,T_8^{-3}
+  \exp\!\left(-4.4\times10^{8}\,T_8^{-1}\right).
+\end{equation}
+
+(53)  $^{12}$C($\alpha,\gamma$)$^{16}$O, the reaction that fixes the C/O ratio
+and hence the He-core mass of the progenitor:
+
+\begin{equation}
+  \frac{N(^{16}{\rm O})}{N(^{12}{\rm C})}\;\propto\;
+  \frac{\langle\sigma v\rangle_{^{12}{\rm C}(\alpha,\gamma)}}
+       {\langle\sigma v\rangle_{3\alpha}}.
+\end{equation}
+
+(54)  Neutron capture rate and $r$-process condition (§3, §6.2):
+
+\begin{equation}
+  \lambda_{n\gamma}(T) \;=\; n_n\,\langle\sigma v\rangle_{n\gamma}
+  \;>\; \lambda_{\beta}\quad\text{($r$-process)},
+  \qquad \lambda_{n\gamma}<\lambda_{\beta}\quad\text{($s$-process)}.
+\end{equation}
+
+(55)  Weak $r$-process enrichment (§3, Wanajo et al. 2009):
+
+\begin{equation}
+  A_{\rm weak-r}\;\in\;[70,\,100]\quad\text{for}\ Y_e\gtrsim 0.5,
+  \qquad A_{\rm main-r}\;\in\;[100,\,210]\quad\text{for}\ Y_e<0.5.
+\end{equation}
+
+(56)  Total nucleosynthesis yield conservation for a closed box:
+
+\begin{equation}
+  \sum_{i}\,A_i\,y_i(M)\;=\;M_{\rm ej}-M_{\rm remnant}\,,
+\end{equation}
+which constrains the yield table compiled in Nomoto et al. (2013).
+
+------------------------------------------------------------------------------
+A.14  Summary of key scaling relations
+------------------------------------------------------------------------------
+
+(57)  Mass-dependent $^{56}$Ni scaling (Umeda & Nomoto 2008, §6.3):
+
+\begin{equation}
+  M(^{56}{\rm Ni})\;\propto\;M^{0.5}\,E_{51}^{0.4}\quad
+  (25\lesssim M/M_\odot\lesssim 100).
+\end{equation}
+
+(58)  Metallicity-dependent mass-loss for PISN progenitors (§7.2):
+
+\begin{equation}
+  \dot M\;\propto\;\left(\frac{Z}{Z_\odot}\right)^{0.5}\,,
+\end{equation}
+so that Pop III ($Z\!=\!0$) retain nearly their initial mass up to 300 $M_\odot$.
+
+(59)  Chandrasekhar mass for the O-Ne-Mg core (§3):
+
+\begin{equation}
+  M_{\rm Ch}\;\simeq\;1.4\,M_\odot\,
+  \left(\frac{2\,Y_e}{1}\right)^2.
+\end{equation}
+
+(60)  Neutrino luminosity driving the delayed-explosion mechanism (§4, §5):
+
+\begin{equation}
+  L_\nu(t)\;\simeq\;\frac{3\times10^{53}\ {\rm erg}}{\tau_\nu(t)\,(1+t/\tau_\nu)},
+\qquad \tau_\nu\simeq 4\ {\rm s}.
+\end{equation}
+
+End of Appendix A.
+================================================================================

@@ -36,3 +36,20 @@ nav_next: "97_quality_check.md"
 - **核合成**：Tominaga et al. 2007a, 2007b, 2013a, 2013b; Umeda & Nomoto 2002, 2003, 2008; Iwamoto et al. 2005; Wanajo et al. 2009, 2013; Kitaura et al. 2006; Müller et al. 2012
 - **经典综述**：Woosley & Weaver 1995 (WW95); Nomoto et al. 1997; Woosley & Bloom 2006
 - **母综述**：Nomoto, Kobayashi & Tominaga 2013 (ARAA 51:457)
+本文核心物理量标度汇总：
+
+| 物理量 | 表达式 | 典型值 |
+|---|---|---|
+| 归一化动能 | $E_{51}=E/10^{51}\,\mathrm{erg}$ | 0.1 – 50 |
+| HN 判据 | $E_{51}>10$ | — |
+| EC-SN 密度阈值 | $\rho_{\mathrm{c}}\geqslant 4\times 10^{9}\,\mathrm{g\,cm^{-3}}$ | — |
+| O-Ne-Mg 质量阈值 | $M_{\mathrm{core}}\geqslant 1.38\,M_{\odot}$ | — |
+| ⁵⁶Ni (EC-SN) | $M(^{56}\!\mathrm{Ni})_{\mathrm{EC}}\approx 0.003\,M_{\odot}$ | 0.002–0.004 |
+| ⁵⁶Ni (Normal) | $M(^{56}\!\mathrm{Ni})_{\mathrm{SN}}\approx 0.07\,M_{\odot}$ | — |
+| ⁵⁶Ni (HN) | $M(^{56}\!\mathrm{Ni})_{\mathrm{HN}}\approx 0.3\text{–}0.5\,M_{\odot}$ | — |
+| EC-SN 占比上限 | $f_{\mathrm{EC-SN}}\leqslant 0.20$ | — |
+
+---
+
+*End of enriched formulas (85 equations). All correspond to values, thresholds, or scaling relations stated explicitly in Nomoto & Suzuki 2014 (IAU Symp. 298, 154) or its directly cited references.*
+

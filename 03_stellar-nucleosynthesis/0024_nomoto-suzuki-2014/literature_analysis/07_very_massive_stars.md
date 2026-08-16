@@ -54,3 +54,39 @@ nav_next: "08_emp_profiling.md"
 - [FACT] **超巨型恒星 (super-massive stars)**：`M > 3.5 × 10⁵ M☉` 的恒星因**广义相对论不稳定性 (GR instability)** 在**主序之前**即坍缩
 
 > [INTERPRETATION] §7 是本文在**质量-能量-产额空间**中的**最外端**：它把 PISN 与 IMBH 引入 GCE 讨论，但同时也给出**观测判据**（Fig. 4 left）说明 PISN 主导早期富集与观测**不符**——从而把**超新星 + 暗淡 SN** 确立为**早期富集的主力**。
+### 7.1 PISN 质量窗口（§7.1）
+
+$$
+140\,M_{\odot} < M < 260\,M_{\odot}\quad \Longrightarrow\quad \text{Pair-Instability Supernova (PISN)}
+$$
+
+PISN 完全无残骸（无 NS/BH）：
+
+$$
+M_{\mathrm{remnant}}^{\mathrm{PISN}} = 0
+$$
+
+⁵⁶Ni 大量合成：
+
+$$
+M(^{56}\!\mathrm{Ni})_{\mathrm{PISN}} \sim \mathcal{O}(1\text{–}10)\,M_{\odot}
+$$
+
+### 7.2 弹跳式 PISN（§7.1 上限以上）
+
+$$
+260\,M_{\odot} < M < 300\,M_{\odot}\quad \Longrightarrow\quad \text{Pulsational PISN (PPISN)}
+$$
+
+### 7.3 直接坍缩形成 IMBH（§7.2）
+
+$$
+M > 300\,M_{\odot}\quad \Longrightarrow\quad \text{Direct collapse}\to\text{IMBH}
+$$
+
+$$
+M_{\mathrm{IMBH}} \sim 10^{2}\text{–}10^{5}\,M_{\odot}
+$$
+
+---
+

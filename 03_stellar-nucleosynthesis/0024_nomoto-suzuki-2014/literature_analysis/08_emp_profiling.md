@@ -100,3 +100,67 @@ nav_next: "09_yield_tables.md"
 - [FACT] **3D 计算 (Ritter et al. 2012)**：SN 抛射向星际云介质中的膨胀给出 [Fe/H] 从 **−5 到 −1** 的宽广范围 → UMP 星可由**与 EMP/CEMP 同一颗 SN** 富集的**低 [Fe/H] 云**形成
 
 > [INTERPRETATION] §8 完成**观测-理论闭环**：VMP/EMP/CEMP/HMP/UMP 五个子类别分别由 **SN + HN 积分 / HN / 暗淡 SN / 混合-回落暗淡 SN / 同 SN 的低丰度云** 解释——所有机制都来自 §3–§7 建立的模型族，**无需要求引入额外机制**。
+### 8.1 VMP 星（§8.1，Fig. 4 left）
+
+$$
+-3 < [\mathrm{Fe}/\mathrm{H}] < -2
+$$
+
+VMP 平均丰度由 Pop III SN + HN（10–50 M☉ IMF 积分）主导；PISN 主导被排除：
+
+$$
+Y_{\mathrm{VMP}} \approx \int_{10}^{50} Y(M)\,\xi(M)\,dM \quad \text{(PISN excluded)}
+$$
+
+### 8.2 EMP 星（§8.2，Fig. 4 right）
+
+$$
+-4 < [\mathrm{Fe}/\mathrm{H}] < -3
+$$
+
+HN (20 M☉, E₅₁=10, 含 mixing & fallback) 优于正常 SN (15 M☉, E₅₁=1) 拟合 [(Ti,Co,Zn)/Fe]：
+
+$$
+\bigl|[\mathrm{Ti}/\mathrm{Fe}]_{\star} - [\mathrm{Ti}/\mathrm{Fe}]_{\mathrm{HN}}\bigr| < \bigl|[\mathrm{Ti}/\mathrm{Fe}]_{\star} - [\mathrm{Ti}/\mathrm{Fe}]_{\mathrm{SN}}\bigr|
+$$
+
+### 8.3 CEMP 星（§8.3，Fig. 5b）
+
+碳增强判据（Beers & Christlieb 2005）：
+
+$$
+\mathrm{CEMP}:\quad [\mathrm{C}/\mathrm{Fe}] > +1.0
+$$
+
+CS 29498-043 模型：25 M☉、$E_{51}=20$、$M(^{56}\!\mathrm{Ni})=9.1\times 10^{-4}\,M_{\odot}$：
+
+$$
+M(^{56}\!\mathrm{Ni})_{\mathrm{CS29498}} = 9.1\times 10^{-4}\,M_{\odot}
+$$
+
+$$
+[\mathrm{C}/\mathrm{Fe}]_{\mathrm{CS29498}} > 1\quad (\text{单一暗淡 SN 的 fallback 重现})
+$$
+
+### 8.4 HMP / UMP 星（§8.4–8.5，Fig. 5c–d）
+
+BS 16467-062：
+
+$$
+M(^{56}\!\mathrm{Ni})_{\mathrm{BS16467}} = 0.044\,M_{\odot},\qquad E_{51}=20
+$$
+
+HMP HE 0107-5240：
+
+$$
+M(^{56}\!\mathrm{Ni})_{\mathrm{HE0107}} = 8.0\times 10^{-5}\,M_{\odot},\qquad E_{51}=5
+$$
+
+UMP SDSS J102915+172927：
+
+$$
+M(^{56}\!\mathrm{Ni})_{\mathrm{SDSS102915}} = 1.2\times 10^{-1}\,M_{\odot},\qquad E_{51}=20
+$$
+
+---
+

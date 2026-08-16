@@ -50,3 +50,67 @@ $$E \approx 10^{50} \text{ erg} \quad (E_{51} \approx 0.1)$$
 
 - [FACT] **上限 (10 M☉)**：与 §4 (10–13 M☉) 的边界——同样是 O-Ne-Mg 核但**质量损失/简并结构不同**
 - [FACT] **下限 (8 M☉)**：与 AGB 恒星的边界——由质量损失率决定（Nomoto 2013 母综述 §2.3 详述）
+### 3.1 触发阈值（§3.1 原文数值）
+
+O-Ne-Mg 核质量与中心密度触发条件：
+
+$$
+M_{\mathrm{O-Ne-Mg}} \geqslant 1.38\,M_{\odot}
+$$
+
+$$
+\rho_{\mathrm{c}} \geqslant 4\times 10^{9}\,\mathrm{g\,cm^{-3}}
+$$
+
+电子费米能超过电子俘获阈值：
+
+$$
+E_{\mathrm{F}}(e^{-}) \geqslant Q\!\left(^{24}\!\mathrm{Mg} \to ^{24}\!\mathrm{Na}\right)
+$$
+
+### 3.2 电子俘获级联（§3.1 原文核反应）
+
+$$
+^{24}\!\mathrm{Mg}\,(e^{-},\,\nu_{e})\,^{24}\!\mathrm{Na}\,(e^{-},\,\nu_{e})\,^{20}\!\mathrm{Ne}
+$$
+
+$$
+^{20}\!\mathrm{Ne}\,(e^{-},\,\nu_{e})\,^{20}\!\mathrm{F}\,(e^{-},\,\nu_{e})\,^{20}\!\mathrm{O}
+$$
+
+坍缩触发条件由电子分数下降导致：
+
+$$
+\Delta Y_{e}<0 \quad \Longrightarrow \quad \text{触发坍缩}
+$$
+
+### 3.3 爆炸能量（§3.2）
+
+$$
+E_{\mathrm{EC-SN}} \approx 10^{50}\,\mathrm{erg},\qquad E_{51}^{\mathrm{EC-SN}}\approx 0.1
+$$
+
+相对正常 SN 弱化一个量级：
+
+$$
+\frac{E_{\mathrm{EC-SN}}}{E_{\mathrm{normal}}} \approx \frac{0.1}{1}=10^{-1}
+$$
+
+### 3.4 ⁵⁶Ni 产量与占比上限（§3.3）
+
+$$
+M(^{56}\!\mathrm{Ni})_{\mathrm{EC-SN}} = 0.002\text{–}0.004\,M_{\odot}
+$$
+
+$$
+\frac{M(^{56}\!\mathrm{Ni})_{\mathrm{EC-SN}}}{M(^{56}\!\mathrm{Ni})_{\mathrm{normal}}} \approx \frac{0.003}{0.1}=3\times 10^{-2}
+$$
+
+O-Ne-Mg 核爆炸占所有核心坍缩 SN 的比例上限：
+
+$$
+f_{\mathrm{EC-SN}} \leqslant 0.20
+$$
+
+---
+

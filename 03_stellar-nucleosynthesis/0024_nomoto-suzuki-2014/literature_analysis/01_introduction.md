@@ -60,3 +60,39 @@ nav_next: "02_progenitor_energy.md"
 - [FACT] 更详细的推导见 **Nomoto, Kobayashi & Tominaga 2013 (ARAA 51:457)**——本库 `0020_nomoto-2013`（本文的**母综述**）
 
 > [CRITIQUE] 作为一篇 IAU 短综述（13 页），本文不推导公式、不给出新的产额数据，而是**把 Nomoto 2013 母综述的核心结论重新聚焦到"产额对 GCE 建模的约束"**这一应用层。因此本文的价值在于**产额表应用的物理论证**，而非新的理论推导。
+论文采用惯例的金属丰度对数记号：
+
+$$
+[\mathrm{X}/\mathrm{H}] \equiv \log_{10}\!\left(\frac{N_{\mathrm{X}}}{N_{\mathrm{H}}}\right)_{\star} - \log_{10}\!\left(\frac{N_{\mathrm{X}}}{N_{\mathrm{H}}}\right)_{\odot}
+$$
+
+$$
+[\mathrm{X}/\mathrm{Fe}] \equiv [\mathrm{X}/\mathrm{H}] - [\mathrm{Fe}/\mathrm{H}]
+$$
+
+超新星动能以 $10^{51}$ erg 为单位归一化：
+
+$$
+E_{51} \equiv \frac{E}{10^{51}\,\mathrm{erg}}
+$$
+
+**超新星 (Hypernova) 判据**（§1, Woosley & Bloom 2006）：
+
+$$
+E_{51} > 10 \quad \Longleftrightarrow \quad E > 10^{52}\,\mathrm{erg}
+$$
+
+**极贫金属 (EMP) 星分级**（Beers & Christlieb 2005；§1.2.1）：
+
+$$
+\begin{cases}
+-3 < [\mathrm{Fe}/\mathrm{H}] < -2 & \text{VMP (Very Metal-Poor)}\\
+-4 < [\mathrm{Fe}/\mathrm{H}] < -3 & \text{EMP}\\
+-5 < [\mathrm{Fe}/\mathrm{H}] < -4 & \text{UMP (Ultra Metal-Poor)}\\
+-6 < [\mathrm{Fe}/\mathrm{H}] < -5 & \text{HMP (Hyper Metal-Poor)}\\
+[\mathrm{Fe}/\mathrm{H}] < -6 & \text{MMP (Mega Metal-Poor)}
+\end{cases}
+$$
+
+---
+

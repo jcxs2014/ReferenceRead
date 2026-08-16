@@ -68,3 +68,53 @@ nav_next: "03_8_10msun_ecsn.md"
 
 - [FACT] 本文 §2 基本是 Nomoto et al. 2013 (§4.5 Hypernovae, Faint Supernovae, and 25–140 M☉ Stars) 的**浓缩版**；双分支图像在两篇中一致
 - [CRITIQUE] 母综述中的**3D 非球对称性、fallback 详细机制**在本文中**大幅压缩**——读者若需细节需回到 `0020_nomoto-2013`
+### 2.1 归一化能量标度
+
+论文在 §2 明确把爆炸动能写作 $E = E_{51}\times 10^{51}\,\mathrm{erg}$。以 SN 1987A 为典型基准：
+
+$$
+E_{\mathrm{SN1987A}} = 1\times 10^{51}\,\mathrm{erg}, \qquad E_{51}=1
+$$
+
+### 2.2 GRB–SN 能量与 ⁵⁶Ni 关系
+
+GRB-SNe（Type Ic-BL）的典型能量与 ⁵⁶Ni 产量（§2.2）：
+
+$$
+E_{51}^{\mathrm{GRB}} \approx 30\text{–}50
+$$
+
+$$
+M(^{56}\!\mathrm{Ni})_{\mathrm{GRB}} \approx 0.3\text{–}0.5\,M_{\odot}
+$$
+
+GRB 前身星处于**主序高质量端**：
+
+$$
+M_{\mathrm{GRB}} \gtrsim 25\,M_{\odot}
+$$
+
+### 2.3 X-Ray Flash–SN（低能端）
+
+$$
+E_{51}^{\mathrm{XRF/SN\ 2006aj}} \approx 2, \qquad M \approx 20\,M_{\odot}
+$$
+
+$$
+E_{51}^{\mathrm{XRF/SN\ 2010bh}} \approx 10
+$$
+
+### 2.4 E–M 双分支结构
+
+Fig. 1 (right) 揭示双分支：
+
+$$
+M < 20\text{–}25\,M_{\odot}:\ \text{正常 SN 簇},\quad E_{51}\approx 1
+$$
+
+$$
+M > 25\,M_{\odot}:\ \begin{cases} \text{超新星分支 (Hypernova)}: & E_{51}\gg 1\\ \text{暗淡 SN 分支 (Faint)}: & E_{51}\ll 1 \end{cases}
+$$
+
+---
+

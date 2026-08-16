@@ -39,3 +39,36 @@ nav_next: "06_25_140msun_hn_faint.md"
 
 - [FACT] SN 1987A（LMC，前身星 ≈ 15–20 M☉）
 - [FACT] SN 1993J 与 SN 1994I（Type Ib/IIb）在 Nomoto 2013 母综述 §4.4 中被详述（本文因篇幅限制未展开）
+### 5.1 基准 SN 1987A 参数（§5.2）
+
+$$
+M_{\mathrm{ZWO}} \approx 15\text{–}20\,M_{\odot}, \qquad E_{51}\approx 1
+$$
+
+$$
+M(^{56}\!\mathrm{Ni})_{\mathrm{SN1987A}} \approx 0.07\,M_{\odot}
+$$
+
+### 5.2 Arnett 法则（光变曲线峰值）
+
+$$
+L_{\mathrm{peak}} \approx M(^{56}\!\mathrm{Ni})\,\varepsilon_{\mathrm{Ni}\to\mathrm{Co}\to\mathrm{Fe}}
+$$
+
+⁵⁶Ni → ⁵⁶Co → ⁵⁶Fe 衰变链产热率（Arnett 1982）：
+
+$$
+\dot{\varepsilon}(t) = \varepsilon_{\mathrm{Ni}}\,e^{-t/\tau_{\mathrm{Ni}}} + \varepsilon_{\mathrm{Co}}\!\left(e^{-t/\tau_{\mathrm{Co}}} - e^{-t/\tau_{\mathrm{Ni}}}\right)
+$$
+
+$$
+\tau_{\mathrm{Ni}} = 6.1\,\mathrm{d},\qquad \tau_{\mathrm{Co}} = 77.3\,\mathrm{d}
+$$
+
+$$
+\varepsilon_{\mathrm{Ni}} \approx 3.9\times 10^{10}\,\mathrm{erg\,g^{-1}\,s^{-1}},\qquad
+\varepsilon_{\mathrm{Co}} \approx 6.8\times 10^{9}\,\mathrm{erg\,g^{-1}\,s^{-1}}
+$$
+
+---
+
