@@ -395,7 +395,7 @@ function evolTreeHTML(nodes) {
 function renderEvolutionTree(container) {
   const box = document.createElement("div");
   box.className = "evol-box";
-  box.innerHTML = `<h3>📚 文献演化谱系（38 篇）</h3><p class="evol-hint">点击 ▸ 展开谱系分支，点击论文名跳转对应精读页</p>${evolTreeHTML(EVOLUTION_TREE)}`;
+  box.innerHTML = `<h3>📚 文献演化谱系（51 篇）</h3><p class="evol-hint">点击 ▸ 展开谱系分支，点击论文名跳转对应精读页</p>${evolTreeHTML(EVOLUTION_TREE)}`;
   container.appendChild(box);
   box.addEventListener("click", e => {
     const t = e.target.closest(".evol-toggle");

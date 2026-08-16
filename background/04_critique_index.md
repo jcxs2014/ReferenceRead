@@ -13,7 +13,7 @@ path: background/04_critique_index.md
 ---
 # 全库 CRITIQUE 观点汇总
 
-> 自动从 38 篇 `literature_analysis/*.md` 提取的 [CRITIQUE] 标签内容汇总，聚焦批判性观点与领域争议点。共覆盖宇宙线传播（6 篇）、宇宙线起源（16 篇）、恒星核合成（16 篇）三大子库，约 **300 条** [CRITIQUE] 标注（仅对已完成精读的 23 篇生效）。
+> 自动从 51 篇 `literature_analysis/*.md` 提取的 [CRITIQUE] 标签内容汇总，聚焦批判性观点与领域争议点。共覆盖宇宙线传播（7 篇）、宇宙线起源（20 篇）、恒星核合成（24 篇）三大子库，约 **300 条** [CRITIQUE] 标注（仅对已完成精读的 51 篇生效）。
 
 ---
 
