@@ -863,7 +863,8 @@ function doSearch(query) {
   // Fallback: live DOM walk for multi-word / fuzzy
   const re = new RegExp(escapeRegex(q), "gi");
   let total = 0;
-  document.querySelectorAll(".doc-section").forEach(sec => {
+  // 只遍历当前激活文档（.doc-section.active），避免高亮污染隐藏文档
+  document.querySelectorAll(".doc-section.active").forEach(sec => {
     const nodes = [];
     const walker = document.createTreeWalker(sec, NodeFilter.SHOW_TEXT, null, false);
     while (walker.nextNode()) nodes.push(walker.currentNode);
@@ -929,11 +930,13 @@ function _searchJumpToDoc(path) {
     switchDoc("paper-" + m[1].replace(/_/g, "-"));
     return;
   }
-  // 背景文档：background/<file>.md
-  const fname = (path.split("/").pop() || "").replace(/\.md$/, "");
-  const doc = (typeof DOCS !== "undefined" ? DOCS : []).find(d => d.category === "背景知识" && d.file === fname + ".md");
+  // 背景文档：background/<file>.md → DOCS 按 file 匹配，跳转用 slug（中文标题）
+  const fname = (path.split("/").pop() || "").replace(/\.md$/, "") + ".md";
+  const doc = (typeof DOCS !== "undefined" ? DOCS : []).find(
+    d => d.category === "背景知识" && d.file === fname
+  );
   if (doc && typeof switchDoc === "function") {
-    switchDoc(doc.stem);
+    switchDoc(doc.slug);   // 注意：slug 是中文标题（如"恒星核合成"），不是 stem
   }
 }
 
@@ -941,7 +944,7 @@ function _searchJumpToDoc(path) {
 function _highlightFirst(q) {
   const re = new RegExp(escapeRegex(q), "gi");
   let firstMark = null;
-  document.querySelectorAll(".doc-section").forEach(sec => {
+  document.querySelectorAll(".doc-section.active").forEach(sec => {
     if (firstMark) return;
     const walker = document.createTreeWalker(sec, NodeFilter.SHOW_TEXT, null, false);
     const nodes = [];
