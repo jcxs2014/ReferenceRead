@@ -321,7 +321,8 @@ const LS = "kb_";
 const EVOLUTION_TREE = [
   { label: "01 宇宙线传播", children: [
     { label: "框架基石 · CR 传播综述", children: [
-      { label: "Strong, Moskalenko & Ptuskin 2007", slug: "paper-0001-strong-moskalenko-ptuskin-2007" }]},
+      { label: "Strong, Moskalenko & Ptuskin 2007", slug: "paper-0001-strong-moskalenko-ptuskin-2007" },
+      { label: "Drury 1983（DSA 理论经典综述）", slug: "paper-0007-drury-1983" }]},
     { label: "传播参数现代化", children: [
       { label: "Génolini et al. 2021", slug: "paper-0005-genolini-2021" }]},
     { label: "放射性时钟方法线", children: [
@@ -335,7 +336,12 @@ const EVOLUTION_TREE = [
     { label: "DSA 奠基（1978 双璧）", children: [
       { label: "Bell 1978（平行激波加速）", slug: "paper-0008-bell-1978" },
       { label: "Blandford & Ostriker 1978（扩散激波加速）", slug: "paper-0009-blandford-ostriker-1978" },
-      { label: "理论综述：Blandford & Eichler 1987", slug: "paper-0010-blandford-eichler-1987" }]},
+      { label: "理论综述：Blandford & Eichler 1987", slug: "paper-0010-blandford-eichler-1987" },
+      { label: "Bell 1978 II（激波波前磁流体加速）", slug: "paper-0019-bell-1978-ii" }]},
+    { label: "现代 DSA 数值验证", children: [
+      { label: "Caprioli & Spitkovsky 2014 I（加速效率 PIC 模拟）", slug: "paper-0016-caprioli-2014" },
+      { label: "Caprioli & Spitkovsky 2014 II（磁场放大）", slug: "paper-0017-caprioli-2014-ii" },
+      { label: "Giacalone 2017（球状激波粒子加速）", slug: "paper-0020-giacalone-2017" }]},
     { label: "现代综述与 SNR 应用", children: [
       { label: "Blasi 2013（银河 CR 起源现代综述）", slug: "paper-0004-blasi-2013" },
       { label: "Amato 2014（SNR 伽马射线）", slug: "paper-0005-amato-2014" },
@@ -350,6 +356,7 @@ const EVOLUTION_TREE = [
     { label: "UHECR 链", children: [
       { label: "Bhattacharjee & Sigl 2000（极端能量 CR 综述）", slug: "paper-0001-bhattacharjee-sigl-2000" },
       { label: "Alves Batista 2019（开放问题）", slug: "paper-0014-alvesbatista-2019" },
+      { label: "Kotera & Olinto 2011（UHECR 现代综述）", slug: "paper-0018-kotera-olinto-2011" },
       { label: "Al-Dargazelli 1996（最高能起源）", slug: "paper-0002-al-dargazelli-1996" }]},
   ]},
   { label: "03 恒星核合成与元素丰度", children: [
@@ -377,6 +384,21 @@ const EVOLUTION_TREE = [
     { label: "重元素双通道", children: [
       { label: "Cowan 2021（r 过程现状）", slug: "paper-0016-cowan-2021" },
       { label: "Käppeler 2011（s 过程，与 r 并列）", slug: "paper-0017-kaeppeler-2011" }]},
+    { label: "p 过程与现代核合成综述", children: [
+      { label: "Arnould & Goriely 2003（p 过程综述）", slug: "paper-0018-arnould-goriely-2003" },
+      { label: "Sneden, Cowan & Gallino 2008（r 过程观测-理论桥接）", slug: "paper-0019-sneden-cowan-2008" }]},
+    { label: "恒星核合成与银河增丰", children: [
+      { label: "Nomoto et al. 2013（SN 核合成+化学演化）", slug: "paper-0020-nomoto-2013" },
+      { label: "Nomoto & Suzuki 2014（SN 产额表）", slug: "paper-0024-nomoto-suzuki-2014" },
+      { label: "Busso et al. 1999（AGB 经典综述）", slug: "paper-0022-busso-1999" },
+      { label: "Karakas & Lattanzio 2014（AGB 产额 Dawes Review）", slug: "paper-0021-karakas-lattanzio-2014" },
+      { label: "Eichler et al. 1989（NS 并合 r 过程起源）", slug: "paper-0023-eichler-1989" }]},
+  ]},
+  { label: "04 实验与观测", children: [
+    { label: "LHAASO 2021（PeV γ 射线源）", slug: "paper-0001-lhaaso-2021" },
+    { label: "AMS-02 2015（精密质子谱）", slug: "paper-0002-ams02-2015" },
+    { label: "IceCube 2013（天体物理中微子）", slug: "paper-0003-icecube-2013" },
+    { label: "HESS 2016（银河中心 PeVatron）", slug: "paper-0004-hess-2016" },
   ]},
 ];
 
