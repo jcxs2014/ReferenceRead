@@ -1,10 +1,8 @@
-> 本章属于：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/00_overview.md|Busso, Gallino & Wasserburg (1999)]]
->
-> 上一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/02_stellar_evolution_prior_agb.md|02_stellar_evolution_prior_agb.md]]
->
-> 下一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/04_low_mass_agb_evolution.md|04_low_mass_agb_evolution.md]]
+> 本章属于：[[./00_overview.md|Busso, Gallino & Wasserburg (1999)]]
+> 上一章：[[./02_stellar_evolution_prior_agb.md|02 Stellar Evolution Prior Agb]]
+> 下一章：[[./04_low_mass_agb_evolution.md|04 Low Mass Agb Evolution]]
 
-# 3. AGB 星与慢中子俘获过程
+# 3. Asymptotic Giant Branch Stars and the Slow Neutron Capture Process
 
 **本章作者**：M. Busso, R. Gallino, G. J. Wasserburg  
 **原文映射**：Sec. 3. ASYMPTOTIC GIANT BRANCH STARS AND THE SLOW NEUTRON CAPTURE PROCESS (p. 249–259)

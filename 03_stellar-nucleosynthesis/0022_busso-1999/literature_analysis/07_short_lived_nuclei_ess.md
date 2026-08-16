@@ -1,10 +1,8 @@
-> 本章属于：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/00_overview.md|Busso, Gallino & Wasserburg (1999)]]
->
-> 上一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/06_metallicity_chemical_evolution.md|06_metallicity_chemical_evolution.md]]
->
-> 下一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/08_conclusions.md|08_conclusions.md]]
+> 本章属于：[[./00_overview.md|Busso, Gallino & Wasserburg (1999)]]
+> 上一章：[[./06_metallicity_chemical_evolution.md|06 Metallicity Chemical Evolution]]
+> 下一章：[[./08_conclusions.md|08 Conclusions]]
 
-# 7. 太阳系早期短寿命核素的来源
+# 7. Sources of Short-Lived Nuclei in the Early Solar System
 
 **本章作者**：M. Busso, R. Gallino, G. J. Wasserburg  
 **原文映射**：Sec. 7. SOURCES OF SHORT-LIVED NUCLEI IN THE EARLY SOLAR SYSTEM (p. 277–299)

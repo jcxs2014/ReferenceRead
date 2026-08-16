@@ -1,6 +1,6 @@
-> 本章属于：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/00_overview.md|Busso, Gallino & Wasserburg (1999)]]
->
-> 下一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/02_stellar_evolution_prior_agb.md|02_stellar_evolution_prior_agb.md]]
+> 本章属于：[[./00_overview.md|Busso, Gallino & Wasserburg (1999)]]
+> 上一章：[[./97_quality_check.md|97_quality_check.md]]
+> 下一章：[[./02_stellar_evolution_prior_agb.md|02 Stellar Evolution Prior Agb]]
 
 # 1. Introduction
 

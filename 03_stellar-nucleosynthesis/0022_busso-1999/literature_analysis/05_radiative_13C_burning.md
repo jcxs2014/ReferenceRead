@@ -1,10 +1,8 @@
-> 本章属于：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/00_overview.md|Busso, Gallino & Wasserburg (1999)]]
->
-> 上一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/04_low_mass_agb_evolution.md|04_low_mass_agb_evolution.md]]
->
-> 下一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/06_metallicity_chemical_evolution.md|06_metallicity_chemical_evolution.md]]
+> 本章属于：[[./00_overview.md|Busso, Gallino & Wasserburg (1999)]]
+> 上一章：[[./04_low_mass_agb_evolution.md|04 Low Mass Agb Evolution]]
+> 下一章：[[./06_metallicity_chemical_evolution.md|06 Metallicity Chemical Evolution]]
 
-# 5. 辐射 13C 燃烧与新的慢中子俘获过程
+# 5. Radiative 13C Burning and the New Slow-Neutron-Capture Process
 
 **本章作者**：M. Busso, R. Gallino, G. J. Wasserburg  
 **原文映射**：Sec. 5. RADIATIVE 13C BURNING AND THE NEW SLOW-NEUTRON-CAPTURE PROCESS (p. 265–267)

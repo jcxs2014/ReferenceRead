@@ -1,10 +1,8 @@
-> 本章属于：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/00_overview.md|Busso, Gallino & Wasserburg (1999)]]
->
-> 上一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/01_introduction.md|01_introduction.md]]
->
-> 下一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/03_agb_and_slow_n_capture.md|03_agb_and_slow_n_capture.md]]
+> 本章属于：[[./00_overview.md|Busso, Gallino & Wasserburg (1999)]]
+> 上一章：[[./01_introduction.md|01 Introduction]]
+> 下一章：[[./03_agb_and_slow_n_capture.md|03 Agb And Slow N Capture]]
 
-# 2. 恒星的 AGB 前演化
+# 2. Stellar Evolution Prior to the Asymptotic Giant Branch
 
 **本章作者**：M. Busso, R. Gallino, G. J. Wasserburg  
 **原文映射**：Sec. 2. STELLAR EVOLUTION PRIOR TO THE ASYMPTOTIC GIANT BRANCH (p. 242–248)

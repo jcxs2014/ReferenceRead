@@ -1,10 +1,8 @@
-> 本章属于：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/00_overview.md|Busso, Gallino & Wasserburg (1999)]]
->
-> 上一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/03_agb_and_slow_n_capture.md|03_agb_and_slow_n_capture.md]]
->
-> 下一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/05_radiative_13C_burning.md|05_radiative_13C_burning.md]]
+> 本章属于：[[./00_overview.md|Busso, Gallino & Wasserburg (1999)]]
+> 上一章：[[./03_agb_and_slow_n_capture.md|03 Agb And Slow N Capture]]
+> 下一章：[[./05_radiative_13C_burning.md|05 Radiative 13C Burning]]
 
-# 4. 低质量 AGB 星的演化与核合成
+# 4. Evolution and Nucleosynthesis in Low-Mass AGB Stars
 
 **本章作者**：M. Busso, R. Gallino, G. J. Wasserburg  
 **原文映射**：Sec. 4. EVOLUTION AND NUCLEOSYNTHESIS IN LOW-MASS AGB STARS (p. 260–264)

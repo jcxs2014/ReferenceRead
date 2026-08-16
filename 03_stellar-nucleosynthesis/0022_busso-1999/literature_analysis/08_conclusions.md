@@ -1,10 +1,8 @@
-> 本章属于：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/00_overview.md|Busso, Gallino & Wasserburg (1999)]]
->
-> 上一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/07_short_lived_nuclei_ess.md|07_short_lived_nuclei_ess.md]]
->
-> 下一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/97_quality_check.md|97_quality_check.md]]
+> 本章属于：[[./00_overview.md|Busso, Gallino & Wasserburg (1999)]]
+> 上一章：[[./07_short_lived_nuclei_ess.md|07 Short Lived Nuclei Ess]]
+> 下一章：[[./97_quality_check.md|97_quality_check.md]]
 
-# 8. 结论
+# 8. Conclusions
 
 **本章作者**：M. Busso, R. Gallino, G. J. Wasserburg  
 **原文映射**：Sec. 8. CONCLUSIONS (p. 300–302)

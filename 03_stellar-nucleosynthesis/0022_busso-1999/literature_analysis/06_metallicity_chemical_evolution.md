@@ -1,10 +1,8 @@
-> 本章属于：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/00_overview.md|Busso, Gallino & Wasserburg (1999)]]
->
-> 上一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/05_radiative_13C_burning.md|05_radiative_13C_burning.md]]
->
-> 下一章：[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/07_short_lived_nuclei_ess.md|07_short_lived_nuclei_ess.md]]
+> 本章属于：[[./00_overview.md|Busso, Gallino & Wasserburg (1999)]]
+> 上一章：[[./05_radiative_13C_burning.md|05 Radiative 13C Burning]]
+> 下一章：[[./07_short_lived_nuclei_ess.md|07 Short Lived Nuclei Ess]]
 
-# 6. 金属丰度效应与银河化学演化
+# 6. Metallicity Effects and the Chemical Evolution of the Galaxy
 
 **本章作者**：M. Busso, R. Gallino, G. J. Wasserburg  
 **原文映射**：Sec. 6. METALLICITY EFFECTS AND THE CHEMICAL EVOLUTION OF THE GALAXY (p. 268–276)
