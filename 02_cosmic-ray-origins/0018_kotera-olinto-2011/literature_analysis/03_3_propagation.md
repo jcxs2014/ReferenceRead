@@ -14,15 +14,28 @@ UHECR 从源到地球经历两类过程：(i) 与宇宙背景辐射作用 → �
 
 [FACT] **§3.1 Interaction processes on cosmic backgrounds**：
 - 最高能：与 CMB 作用；次高能：与 IR-UV 背景作用 (Kneiske et al. 2004; Stecker et al. 2006)
-- 质子光核作用：pγ → Nπⁿ (光致π产生) 或 pγ → pe⁺e⁻ (Bethe-Heitler 对产生)
-- 阈值：E_p,π ≈ 200 EeV (ε_CMB/ε) 光致π；E_p,ee ≈ 0.8 EeV (ε_CMB/ε) 对产生；ε_CMB ≈ 2.7 k_B T_CMB ≈ 6×10⁻⁴ eV
-- 能量损失长度 x_loss = |E⁻¹ dE/dt|⁻¹；E > 60 EeV 时急剧缩短 → GZK 特征
+- 质子光核作用：$p+\gamma_{\mathrm{CMB}}\to N+\pi^n$ (光致π产生) 或 $p+\gamma\to p+e^+e^-$ (Bethe-Heitler 对产生)
+- **阈值的相对论推导**：在粒子静止系中光子能量 $\varepsilon'=\gamma_p \varepsilon(1-\cos\theta)$；阈条件 $(p+\gamma)^2 = (m_N+m_\pi)^2$ 给出
+$$E_{p,\pi} = \frac{m_\pi\,(2m_p+m_\pi)}{4\varepsilon} \approx 5\times10^{20}\text{ eV}\left(\frac{6\times10^{-4}\text{ eV}}{\varepsilon}\right)\approx 200\text{ EeV}\left(\frac{\varepsilon_{\mathrm{CMB}}}{\varepsilon}\right).$$
+对产生阈 ($2m_e$ 替换 $m_\pi$)：
+$$E_{p,ee} = \frac{2m_e^2 c^4}{\varepsilon}\approx 8\times10^{17}\text{ eV}\left(\frac{6\times10^{-4}\text{ eV}}{\varepsilon}\right)\approx 0.8\text{ EeV}\left(\frac{\varepsilon_{\mathrm{CMB}}}{\varepsilon}\right).$$
+- **能量损失率** (对产生，Bethe-Heitler)：
+$$-\frac{\mathrm{d}E}{\mathrm{d}t}\bigg|_{ee} \approx \sigma_{ee}\,c\,n_\gamma\,\frac{2m_e c^2}{m_p c^2}\,E \propto E,$$
+其中 $\sigma_{ee}\approx 5\times10^{-26}$ cm²，$n_\gamma = \int n(\varepsilon)\,\mathrm{d}\varepsilon \approx 410\text{ cm}^{-3}$ 为 CMB 光子数密度。
+- **光致π产生**：$\mathrm{d}E/\mathrm{d}x|_\pi \approx -E/\lambda_\pi$，能量损失长度 $\lambda_\pi \approx 40$ Mpc 在 $E\sim 10^{20}$ eV。
+- 能量损失长度 $x_\mathrm{loss}(E) = \left|E^{-1}\,\mathrm{d}E/\mathrm{d}t\right|^{-1}$；$E>60$ EeV 时急剧缩短 → GZK 特征
 - **核光致离解**：CMB + IR-UV 光子，三机制按能量递增：
-  - Giant Dipole Resonance (GDR, ε ≈ 8–30 MeV)
-  - Quasi-Deuteron (QD, ε ≈ 20–150 MeV)
-  - Baryonic Resonance (ε ≳ 150 MeV)
+  - Giant Dipole Resonance (GDR, $\varepsilon\approx 8\text{–}30$ MeV)：单核子敲出，$\gamma+A\to (A-1)+n$
+  - Quasi-Deuteron (QD, $\varepsilon\approx 20\text{–}150$ MeV)：核子对敲出
+  - Baryonic Resonance ($\varepsilon\gtrsim 150$ MeV)：激发 $\Delta(1232)$ → π介子喷射
+- **核传播的 Lorentz 不变量**：在单核子敲出近似下，光致离解不改变核子平均结合能 → 每次敲出一个核子 $A\to A-1$ 但 $E_{\mathrm{tot}}/A=\gamma_{\mathrm{nucleus}}\,m_N c^2$ 近似守恒，即
+$$\gamma_{A}(E,A) \approx \gamma_{A-1}(E-\delta E, A-1),\qquad \delta E/A \approx \Delta_b\approx 8\text{ MeV}.$$
 - 一次近似下，核的 Lorentz 因子在光致离解中近似守恒
-- A < 20 核在几十 Mpc 内即离解 (Fig 4)；只有 Fe 族核能存留至 trans-GZK
+- $A<20$ 核在几十 Mpc 内即离解 (Fig 4)；只有 Fe 族核能存留至 trans-GZK
+- **核光致离解长度**：
+$$\lambda_{\mathrm{phod}}(A,E) \approx \left[\int \mathrm{d}\varepsilon\, n(\varepsilon)\, c\, \sigma_{\mathrm{phod}}(A,\varepsilon')\right]^{-1},$$
+对 IR-UV 背景 $\varepsilon\sim 1$ eV，$\varepsilon'=\gamma_{\mathrm{Fe}}\varepsilon$ 落入 GDR 区对应 $\gamma_{\mathrm{Fe}}\sim 10^9$，即 $E\sim 10^{19.5}$ eV。
+- 存活率近似指数衰减：$f_A(D) \approx \exp[-D/\lambda_\mathrm{phod}(A)]$
 
 [FACT] 传播代码：SOPHIA (Mücke et al. 1999) 解析 photo-hadronic；CRPropa (Armengaud et al. 2007) 蒙特卡洛公开代码；Allard et al. (2006) 完整核传播工具。
 

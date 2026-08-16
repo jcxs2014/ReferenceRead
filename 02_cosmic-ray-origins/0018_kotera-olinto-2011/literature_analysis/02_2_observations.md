@@ -12,17 +12,33 @@
 
 ## 2. 原文内容
 
-[FACT] 观测站历史：AGASA (100 km², 1.6×10³ L₁)；HiRes (荧光望远镜，~3200 L₁)；Fly's Eye 首测 320 EeV 事件 (Linsley 1963, Bird et al. 1994)；Pierre Auger Observatory (2008 完工, 3000 km², 1.5 km 间距水切伦科夫阵列 + 4 台荧光望远镜, 18 国合作)；Telescope Array (762 km², 1.2 km 间距, Utah, 3 台荧光)。
+**宇宙线能谱的 broken power law**：
+$$J(E) = J_0 \left(\frac{E}{E_0}\right)^{-s(E)}, \qquad s(E)=\begin{cases}2.7 & E<E_\mathrm{knee}\ (\approx 1\text{ PeV})\\ 3.0 & E_\mathrm{knee}<E<E_\mathrm{ankle}\ (\approx 3\text{ EeV})\\ 2.6 & E_\mathrm{ankle}<E<E_\mathrm{GZK}\ (\approx 30\text{ EeV})\end{cases}$$
+积分通量 $I(>E) = \int_E^\infty J(E')\,dE' = \frac{J_0\,E_0^{s}}{s-1}\left(\frac{E_0}{E}\right)^{s-1}$（$s>1$）。
+
+**Auger 曝光量**：$L = A_\mathrm{eff}\,\Omega\,T$，其中 $A_\mathrm{eff}\approx 3000\text{ km}^2$，$\Omega = 2\pi\text{ sr}$（南半天球），$T$ 为运行时间；单位 Linsley（1 L = 1 km²·sr·yr）。
 
 ## §2.1 Spectrum
 
-[FACT] 宇宙线能谱近似为 broken power law E⁻ˢ：
+[FACT] 观测站历史：AGASA (100 km², 1.6×10³ L₁)；HiRes (荧光望远镜，~3200 L₁)；Fly's Eye 首测 320 EeV 事件 (Linsley 1963, Bird et al. 1994)；Pierre Auger Observatory (2008 完工, 3000 km², 1.5 km 间距水切伦科夫阵列 + 4 台荧光望远镜, 18 国合作)；Telescope Array (762 km², 1.2 km 间距, Utah, 3 台荧光)。
+
+[FACT] 宇宙线能谱近似为 broken power law $E^{-s}$：
 - < knee (~1 PeV): s ≈ 2.7
 - knee → ankle (~3 EeV): s ≈ 3
 - 踝点以上: s ≈ 2.6
 - > 30 EeV: 通量抑制 (GZK)
 
-[FACT] GZK 确认史：AGASA 未见抑制 (Takeda et al. 1998) → HiRes 2006 首次显著观测到 (Abbasi et al. 2008b) → Auger 确认 (Abraham et al. 2008b; 2010b) 基于 1.3×10⁴ L 曝光。绝对能量刻度系统误差 ~22%。Auger 最高能事件 142 EeV (Abreu et al. 2010)。
+能量损失的 GZK 特征可用 $\lambda(E) = \epsilon(E) / \left|\mathrm{d}E/\mathrm{d}t\right|$ 表达：当光致π产生的能量损失率 $-\mathrm{d}E/\mathrm{d}t|_\pi \propto E$ 超过宇宙膨胀红移损失率 $\dot{E}_\mathrm{cosm}=HE$ 时（$E\gtrsim 50$ EeV），$\lambda$ 骤降 → 通量陡降。
+
+**Heaviside 型注入 + GZK 截断近似**：观测谱可参数化为
+$$E^{2.7}\,J(E) \propto E^{2.7-s_0}\left(1 + \frac{E}{E_\mathrm{cut}}\right)^{-\gamma},$$
+混合/Fe 模型：$s_0\approx 2.1,\,E_\mathrm{cut}\sim 10^{20}\text{ eV},\,\gamma\approx 1.5$；dip 模型 $s_0\approx 2.0$ 但在 $E\sim 4\times10^{18}$ eV 处引入额外 "dip"。
+
+## §2.2 Anisotropies
+
+**点源角分辨的 rigidity 依赖**：对 rigidity $\mathcal{R}=E/Z$ 粒子，穿过 $D$ 距离、磁场 $B$、相干长度 $l_B$ 后的均方偏转角近似
+$$\langle\theta^2\rangle \simeq 4.6\left(\frac{B}{10^{-9}\text{ G}}\right)^2\left(\frac{l_B}{10\text{ kpc}}\right)\left(\frac{D}{100\text{ Mpc}}\right)\left(\frac{100\text{ EeV}}{Z\,\mathcal{R}}\right)^2,$$
+在 $D\sim 100$ Mpc、$B\sim 10^{-9}$ G 下质子偏转 ≲10°，Fe (Z=26) 偏转 ≲2°/26 ≈ 0.1°——**偏转角随 Z 增大反而减小**，但成分变重对能量损失的惩罚更大。
 
 [FACT] 拟合模型 (Kotera et al. 2010b)：
 - **混合/Fe 主导模型** (Allard et al. 2007)：踝点是银河→河外转换；SFR 演化；注入 s ≈ 2–2.1
@@ -44,6 +60,18 @@
 ## §2.3 Composition
 
 [FACT] Xmax (g/cm²) 是最佳成分指标：Xmax ∝ ln(E/A)。质子 Xmax 深于铁同能量。质子 showers 涨落更大 → RMS(Xmax) 也是成分指标。μ 子数：质子 showers μ 子少于重核 showers。
+
+**Xmax 与 RMS 解析关系**：
+$$X_\mathrm{max} \approx X_0 \ln\!\left(\frac{E}{E_\mathrm{cr}(A)}\right), \qquad \sigma(X_\mathrm{max})^2 \approx \eta^2 \sigma_\mathrm{fluct}^2$$
+其中 $X_0 = 80\text{ g/cm}^2$ 为海平面空气辐射长度，$E_\mathrm{cr}(A) \sim A\cdot E_\mathrm{cr}(1)$。对质子 showers 涨落因子 $\eta_p^2\approx 2.4$，对 Fe $\eta_\mathrm{Fe}^2 \approx 2.4/36$，故同能下质子 showers 的 Xmax 离散显著大于铁。
+
+**μ 子数经验公式**（Heinz & Rathgeb 1998，被 Auger 广泛引用）：
+$$N_\mu \approx 0.92\,\frac{E}{E_0}\left(\frac{E}{A\,E_0}\right)^{0.85-1}, \qquad E_0 \simeq 800\text{ TeV}$$
+质子 showers $N_\mu \propto E^{0.85}$；重核 $N_\mu \propto E$，因此 μ 子数 / 能量比是成分判别的强判据。
+
+**Rigidity (刚度)**：
+$$\mathcal{R} = \frac{p}{Ze} \approx \frac{E}{Z}$$
+Galactic 截断为 rigidity cutoff（而非 energy cutoff）→ 膝点随 A 平移 → 重核膝点在 $A\times E_\mathrm{knee}(p)$ 处。
 
 [FACT] 膝点到踝点以下：轻→重的趋势，符合 rigidity 依赖的银河宇宙线 Emax / 银河磁场约束 (Lemoine 2005; Hillas 2006)。
 
