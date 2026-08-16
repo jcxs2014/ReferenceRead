@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **51 篇文献**、**543 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **55 篇文献**、**591 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -681,6 +681,62 @@
 
 ---
 
+## 04. 实验与观测
+
+### `0001_lhaaso-2021`
+
+**Ultrahigh-energy photons up to 1.4 petaelectronvolts from 12 γ-ray Galactic sources**
+
+|  |  |
+|---|---|
+| 作者 | - "Zhen Cao |
+| 期刊 |  |
+| 分析文件 | 12 个（00_overview.md、01_detector_and_method.md、02_key_measurements.md、03_scientific_implications.md、04_comparison_with_theory.md、…等 12 个） |
+| 目录 | [`04_experiments/0001_lhaaso-2021/literature_analysis/`](04_experiments/0001_lhaaso-2021/literature_analysis/) |
+| 概览 | [`00_overview.md`](04_experiments/0001_lhaaso-2021/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](04_experiments/0001_lhaaso-2021/literature_analysis/99_final_summary.md) |
+
+### `0002_ams02-2015`
+
+**Precision Measurement of the Proton Flux in Primary Cosmic Rays from Rigidity 1 GV to 1.8 TV with the AMS-02 on the ISS**
+
+|  |  |
+|---|---|
+| 作者 | ["M. Aguilar", "D. Aisa", "B. Alpat", "et al. (AMS Collaboration)"] |
+| 期刊 |  |
+| 分析文件 | 12 个（00_overview.md、01_detector_and_method.md、02_proton_flux_results.md、03_spectral_index_anomaly.md、04_implications_for_cosmic_ray_physics.md、…等 12 个） |
+| 目录 | [`04_experiments/0002_ams02-2015/literature_analysis/`](04_experiments/0002_ams02-2015/literature_analysis/) |
+| 概览 | [`00_overview.md`](04_experiments/0002_ams02-2015/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](04_experiments/0002_ams02-2015/literature_analysis/99_final_summary.md) |
+
+### `0003_icecube-2013`
+
+**Evidence for High-Energy Extraterrestrial Neutrinos at the IceCube Detector**
+
+|  |  |
+|---|---|
+| 作者 | ["IceCube Collaboration (Aartsen M. G. et al.)"] |
+| 期刊 |  |
+| 分析文件 | 12 个（00_overview.md、01_detector_and_method.md、02_event_selection_and_background.md、03_neutrino_candidate_events.md、04_statistical_significance.md、…等 12 个） |
+| 目录 | [`04_experiments/0003_icecube-2013/literature_analysis/`](04_experiments/0003_icecube-2013/literature_analysis/) |
+| 概览 | [`00_overview.md`](04_experiments/0003_icecube-2013/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](04_experiments/0003_icecube-2013/literature_analysis/99_final_summary.md) |
+
+### `0004_hess-2016`
+
+**Acceleration of petaelectronvolt protons in the Galactic Centre**
+
+|  |  |
+|---|---|
+| 作者 | ["H.E.S.S. Collaboration"] |
+| 期刊 |  |
+| 分析文件 | 12 个（00_overview.md、01_detector_and_method.md、02_diffuse_emission_observations.md、03_gamma_ray_spectrum_analysis.md、04_pevatron_evidence.md、…等 12 个） |
+| 目录 | [`04_experiments/0004_hess-2016/literature_analysis/`](04_experiments/0004_hess-2016/literature_analysis/) |
+| 概览 | [`00_overview.md`](04_experiments/0004_hess-2016/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](04_experiments/0004_hess-2016/literature_analysis/99_final_summary.md) |
+
+---
+
 ## 统计
 
 | 分类 | 篇数 | 分析文件 |
@@ -688,6 +744,7 @@
 | 01. 宇宙线传播 | 7 | 66 |
 | 02. 宇宙线起源 | 20 | 201 |
 | 03. 恒星核合成与元素丰度 | 24 | 276 |
-| **合计** | **51** | **543** |
+| 04. 实验与观测 | 4 | 48 |
+| **合计** | **55** | **591** |
 
 > 最后更新: 2026-08-16（自动生成）
