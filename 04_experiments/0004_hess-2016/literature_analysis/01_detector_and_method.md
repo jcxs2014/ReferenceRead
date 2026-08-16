@@ -10,7 +10,7 @@ nav_next: "02_diffuse_emission_observations.md"
 
 # §1 Detector and Method — HESS 望远镜阵列与观测模式
 
-## HESS 探测系统
+## [FACT] 1.1 HESS 探测系统
 
 HESS（High Energy Stereoscopic System）位于纳米比亚，是四台 13 米成像大气切伦科夫（IACT）望远镜组成的阵列。各台望远镜从不同视角同时记录大气簇射产生的契伦科夫光，立体成像实现精确方向重建和能量测量。
 
@@ -33,7 +33,7 @@ HESS（High Energy Stereoscopic System）位于纳米比亚，是四台 13 米�
 
 [FACT] CMZ 分子氢面密度在 Sgr A* 附近最高，向外递减，分布与 HESS γ射线亮度强相关（原文 p.37，Fig. 1）。
 
-## γ射线 vs 宇宙线信号
+## [FACT] 1.2 γ射线 vs 宇宙线信号
 
 VHE γ射线探测有两种产生机制（原文 p.34）：
 

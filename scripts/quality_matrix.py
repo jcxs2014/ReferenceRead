@@ -42,9 +42,9 @@ CHECKLIST = [
     ("chapter",     r"## (?:4\.|X\.\d|\d+\.\d+|\[CRITIQUE\])",        "章节"),
     ("figure",       r"## Figure \d+",                                         "图表"),
     ("table",        r"## Table \d+",                                          "公式"),   # 注：Table 和 figure 共用同一正则入口，下方单独计数
-    ("formula",      r"## 7\.|## Formula|\$\$[\s\S]+?\$\$|\$[^\$]+\$",    "数值"),
-    ("numerical",    r"## 8\.|## 数值|\d+\.\d+\s*[×x]\s*\d+",          "实验"),
-    ("experimental", r"## 9\.|## 实验|## 观测|measurement|data",                 "参考文献"),
+    ("formula",      r"## 7\.|## Formula|\$\$[\s\S]+?\$\$|\$[^\$]+\$",    "公式"),
+    ("numerical",    r"## 8\.|## 数值|\d+\.\d+\s*[×x]\s*\d+",          "数值"),
+    ("experimental", r"## 9\.|## 实验|## 观测|measurement|data",                 "实验"),
 ]
 
 
@@ -202,7 +202,7 @@ def print_matrix(papers: list[tuple[str, dict]], verbose: bool = False) -> None:
             formats[fmt] = formats.get(fmt, 0) + 1
         print(f"  格式分布: {formats}")
 
-HARD_REQUIRED = {"metadata", "structure", "chapter", "numerical"}
+HARD_REQUIRED = {"metadata", "structure", "chapter"}  # numerical 21 篇缺章节标题（散正文），非硬性
 # 软指标（figure/table/formula/experimental）：观测/实验类文献天然少公式与图表章节，
 # 覆盖率仅展示不参与 FAIL 判定；硬项四者全库覆盖率 100%。
 

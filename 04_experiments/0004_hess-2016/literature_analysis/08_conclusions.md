@@ -10,7 +10,7 @@ nav_next: "97_quality_check.md"
 
 # §8 Conclusions — 结论
 
-## 核心结论
+## [FACT] 8.1 核心结论
 
 HESS 对银河系中心的深 VHE γ射线观测提供了以下核心结论：
 

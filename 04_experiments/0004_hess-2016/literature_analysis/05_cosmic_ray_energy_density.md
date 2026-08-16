@@ -10,7 +10,7 @@ nav_next: "06_sagittarius_a_star_as_pevatron.md"
 
 # §5 Cosmic-Ray Energy Density — 宇宙线能量密度
 
-## w_CR(r) 径向分布
+## [FACT] 5.1 w_CR(r) 径向分布
 
 HESS 测量了 CMZ 内宇宙线能量密度 w_CR 随银心距 r 的分布（Fig. 2，原文 p.38）：
 
@@ -24,7 +24,7 @@ $$w_{CR}(r) \propto \frac{1}{r} \quad (10 \lesssim r \lesssim 200 \text{ pc})$$
 
 [FACT] w_CR(r) ~ 1/r 轮廓支持中心 PeVatron 连续注入宇宙线（原文 p.38，Fig. 2）。
 
-## 扩散模型拟合
+## [FACT] 5.2 扩散模型拟合
 
 扩散方程（原文 p.38，Methods）：
 
@@ -38,7 +38,7 @@ $$w_{CR}(r) = Q(E) \cdot \frac{\pi r^2}{4 D(E) t} \cdot \text{erfc}(r/r_{\text{d
 
 [FACT] 扩散模型拟合给出扩散系数 D(E) ~ E^0.5（原文 p.38，Methods），与银河系传播模型一致。
 
-## 与银河系盘的比较
+## [FACT] 5.3 与银河系盘的比较
 
 CMZ w_CR 约是银河系盘均值的 **10 倍**（原文 p.38）：
 - 银河系盘：$w_{\text{CR}} \approx 1 \text{ eV cm}^{-3}$

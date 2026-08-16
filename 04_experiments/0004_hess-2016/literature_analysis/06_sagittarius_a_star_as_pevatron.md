@@ -10,7 +10,7 @@ nav_next: "07_implications_for_acceleration_theory.md"
 
 # §6 Sagittarius A* as PeVatron — 人马座 A* 作为 PeVatron
 
-## Sgr A* 的加速能力
+## [FACT] 6.1 Sgr A* 的加速能力
 
 Sgr A* 是银河系中心的超大质量黑洞（质量 ~4 × 10$^{6}$ M☉，原文 p.33）。HESS 提出 Sgr A* 是 CMZ PeVatron 的候选源（原文 p.35）。
 
@@ -22,7 +22,7 @@ Sgr A* 的 PeV 加速能力论证：
 
 [FACT] Sgr A* 过去可能有活跃期（10$^{6}$–10$^{7}$ yr），可作为 PeVatron 注入银河系宇宙线（原文 p.35）。
 
-## Sgr A* PeV 质子产能估算
+## [FACT] 6.2 Sgr A* PeV 质子产能估算
 
 若 Sgr A* 过去以 L ≈ 10$^{44}$ erg/s 的光度活动（典型低光度 AGN），持续 Δt ≈ 10$^{6}$ yr：
 
@@ -32,7 +32,7 @@ $$E_{\text{total}} \approx L \cdot \Delta t \approx 10^{57} \text{ erg}$$
 
 [FACT] Sgr A* 过去活动可向 CMZ 注入 ~10$^{57}$ erg 的粒子能量，足以维持观测到的 PeV 宇宙线密度（原文 p.35，估算）。
 
-## 与 SNR 的比较
+## [FACT] 6.3 与 SNR 的比较
 
 | 加速源 | 加速机制 | 最高能量 | 贡献 |
 |---|---|---|---|

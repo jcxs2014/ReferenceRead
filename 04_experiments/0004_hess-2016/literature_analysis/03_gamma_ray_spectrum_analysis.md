@@ -10,7 +10,7 @@ nav_next: "04_pevatron_evidence.md"
 
 # §3 Gamma-Ray Spectrum Analysis — γ 射线谱分析
 
-## 能谱提取
+## [FACT] 3.1 能谱提取
 
 从 CMZ 提取的 γ射线能谱（Fig. 3，原文 p.39）：对 Sgr A* 周围 ~0.2° 环状区域（annulus）积分，消除点源污染后得到弥散成分。
 
@@ -23,7 +23,7 @@ nav_next: "04_pevatron_evidence.md"
 
 [FACT] CMZ 弥散 γ射线能谱最佳拟合光子指数 $\Gamma \approx 2.3$，延伸至 ~30 TeV 无截断（原文 p.39，Fig. 3）。
 
-## 强子起源论证
+## [FACT] 3.2 强子起源论证
 
 γ射线强子过程（$\pi^{0}$ 衰变）的判据（原文 p.39–40）：
 
@@ -33,7 +33,7 @@ nav_next: "04_pevatron_evidence.md"
 
 [FACT] $\pi^{0}$ 衰变模型可同时解释 CMZ 的 γ射线形态和能谱（原文 p.40，Fig. 3 拟合）。
 
-## 父代质子能谱
+## [FACT] 3.3 父代质子能谱
 
 从 γ射线反推母体质子谱（原文 p.39，Extended Data）：
 
@@ -41,7 +41,7 @@ $$\frac{dN_p}{dE} \propto E^{-2.0 \pm 0.1} \quad (E \lesssim 1 \text{ PeV})$$
 
 [FACT] 父代质子能谱指数 ~2.0（原文 p.39，Extended Data Fig. 3），与典型的 supernova remnant 加速预测（Bell 1978 激波加速：幂律指数 ~2.0）一致。
 
-## 与其他观测对比
+## [FACT] 3.4 与其他观测对比
 
 | 探测器/观测 | 目标 | 能量范围 | 关键结果 |
 |---|---|---|---|

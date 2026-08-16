@@ -10,7 +10,7 @@ nav_next: "08_conclusions.md"
 
 # §7 Implications for Acceleration Theory — 对加速理论的意义
 
-## 对 Bell (1978) 激波加速理论的意义
+## [INTERPRETATION] 7.1 对 Bell (1978) 激波加速理论的意义
 
 Bell (1978) 的激波加速微观理论（BAM）给出平行激波的粒子加速速率：
 
@@ -24,7 +24,7 @@ HESS 结果对 Bell 框架的意义：
 
 [FACT] Bell (1978) 激波加速框架预测的质子谱指数 ~2.0 与 HESS 观测的父代质子谱一致（原文 p.34）。
 
-## 对 Blandford-Ostriker (1978) 的意义
+## [INTERPRETATION] 7.2 对 Blandford-Ostriker (1978) 的意义
 
 Blandford & Ostriaker (1978) 提出了宇宙线激波加速的一般框架，预测激波加速的谱指数与 Bell 一致（~2.0）。
 
@@ -36,7 +36,7 @@ $$D(E) \propto E^{0.5}$$
 
 [FACT] HESS CMZ w_CR(r) 拟合约束扩散系数 D(E) ∝ E^0.5（原文 p.38），与 CRM 的传播标度一致。
 
-## PeV 加速的磁场要求
+## [INTERPRETATION] 7.3 PeV 加速的磁场要求
 
 PeV 能量质子在激波处被约束需要足够强的磁场。对于 SNR：
 

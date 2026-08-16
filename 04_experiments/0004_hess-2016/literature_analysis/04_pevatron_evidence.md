@@ -10,7 +10,7 @@ nav_next: "05_cosmic_ray_energy_density.md"
 
 # §4 PeVatron Evidence — PeVatron 证据
 
-## PeVatron 定义
+## [FACT] 4.1 PeVatron 定义
 
 PeVatron：能够将质子加速至 ~1 PeV（10$^{15}$ eV）的天体物理加速器。银河系内 PeVatron 的特征是产生 **无截断的幂律 γ射线能谱**（延伸到 TeV 以上），这是 PeV 能量级质子的示踪信号。
 
@@ -24,7 +24,7 @@ HESS 提供了银河系中心存在 PeVatron 的直接证据（原文 p.34–35�
 
 [FACT] HESS 观测的 γ射线无截断幂律谱（>30 TeV）是银河系 PeVatron 存在的直接证据（原文 p.34）。
 
-## PeV 质子加速的条件
+## [FACT] 4.2 PeV 质子加速的条件
 
 激波加速理论（Bell 1978, Blandford & Ostriaker 1978）给出质子最大能量的标度关系：
 
@@ -40,7 +40,7 @@ $$E_{\max} \approx \beta \eta Z e B R$$
 
 [FACT] Bell (1978) 激波加速框架预测 SNR 可达 $E_{\max} \sim 10^{15}$ eV（原文 p.34），但传统 SNR 模型在此能量面临困难。
 
-## 中心分子云 PeV 质子储存
+## [FACT] 4.3 中心分子云 PeV 质子储存
 
 关键数值（原文 p.38–39）：
 
