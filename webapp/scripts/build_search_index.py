@@ -75,6 +75,27 @@ def _tokenize(text: str) -> list[str]:
     return tokens
 
 
+def _slugify(title: str) -> str:
+    """标题 → HTML 锚点（与 md2doc_html.py 的 heading anchor 同规则）。"""
+    raw = re.sub(r"[^\w\u4e00-\u9fff0-9-]+", "-", title).strip("-").lower()
+    if not raw:
+        bare = re.sub(r"[^\w\u4e00-\u9fff0-9]+", "-", title).strip("-")
+        raw = f"h-{bare.lower()}" if bare else "h"
+    return raw
+
+
+def _snippet(plain: str, term: str, radius: int = 50) -> str:
+    """匹配词前后的上下文片段（前后各 radius 字符，… 截断标记）。"""
+    idx = plain.lower().find(term)
+    if idx == -1:
+        return ""
+    start = max(0, idx - radius)
+    end = min(len(plain), idx + len(term) + radius)
+    pre = "…" if start > 0 else ""
+    post = "…" if end < len(plain) else ""
+    return pre + plain[start:end].strip() + post
+
+
 def main() -> None:
     index: dict[str, list[dict]] = {}
 
@@ -118,6 +139,8 @@ def main() -> None:
                     entry = {
                         "slug": slug,
                         "section": sec["title"][:80],
+                        "anchor": _slugify(sec["title"]),   # 标题锚点（前端 scrollIntoView 用）
+                        "snippet": _snippet(plain, t),      # 匹配词上下文（前端展示用）
                         "path": rel,
                     }
                     index.setdefault(t, []).append(entry)
