@@ -159,7 +159,12 @@ def convert_doc(path: Path, doc_id: str = ""):
     try:
         content = tmp.read_text(encoding="utf-8")
     finally:
-        tmp.unlink(missing_ok=True)
+        # 临时 fragment 清理失败不中断构建（.gitignore 已忽略 *.fragment.html，
+        # 残留可在构建后统一清理；2026-08-16 保护层曾拦截批量 unlink 致构建中断）
+        try:
+            tmp.unlink(missing_ok=True)
+        except Exception:
+            pass
     return content
 
 
