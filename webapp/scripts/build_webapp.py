@@ -331,7 +331,49 @@ def build(include_papers=False, out=None):
                 })
 
     # ── Inject & write ───────────────────────────────────────────
+    # Backlinks（反向链接）：从论文 citations + 文档 wikilink 构建
+    # {targetSlug: [{from, label, snippet}]} —— Obsidian 式"谁引用了我"
+    from_map: dict[str, list[dict]] = {}
+    paper_by_stem = {p["stem"]: p for p in papers_json}
+    def add_bl(target_slug: str, from_label: str, from_slug: str = ""):
+        if not target_slug or target_slug == from_label:
+            return
+        # 清洗 label：去 LaTeX 残留（$^{1}$ 等）
+        clean = re.sub(r"\$\^?\{[^}]*\}\$|\$[^$]*\$", "", from_label)
+        clean = re.sub(r"\s+", " ", clean).strip()
+        if not clean:
+            clean = from_slug
+        from_map.setdefault(target_slug, [])
+        if not any(b.get("from_slug") == from_slug and b["from"] == clean for b in from_map[target_slug]):
+            from_map[target_slug].append({"from": clean, "from_slug": from_slug})
+    def _bl_target_slug(href: str) -> str:
+        """wikilink href → 目标 slug（论文 paper-<stem> 或背景文档 slug）。"""
+        m = re.search(r"/(\d{4}_[a-z0-9-]+)/literature_analysis/00_overview\.md$", href)
+        if m:
+            stem = m.group(1)
+            if stem in paper_by_stem:
+                return paper_by_stem[stem]["slug"]
+        fname = href.split("/")[-1].replace(".md", "")
+        for d in docs:
+            if d.get("category") == "背景知识" and d.get("file", "").replace(".md", "") == fname:
+                return d.get("slug", "")
+        return ""
+    # 1) 论文 citations：A 引用 B → B 的反向链接加 A（含 A 的 label）
+    for p in papers_json:
+        for cit in (p.get("citations") or []):
+            cit_stem = str(cit).split("/")[-1].replace(".md", "").split("|")[0].strip()
+            if cit_stem in paper_by_stem:
+                add_bl(paper_by_stem[cit_stem]["slug"], p["label"], p["slug"])
+    # 2) 文档 wikilink：A 文档里有 [[B]] → B 的反向链接加 A
+    for d in docs:
+        html = d.get("html", "")
+        for m in re.finditer(r'<a[^>]+class="wl"[^>]+href="([^"]+)"', html):
+            tgt = _bl_target_slug(m.group(1))
+            if tgt:
+                add_bl(tgt, d.get("title", d.get("slug", "")), d.get("slug", ""))
+
     shell = SHELL.read_text(encoding="utf-8")
+    shell = shell.replace("__BACKLINKS_JSON__", json.dumps(from_map, ensure_ascii=False, indent=2))
     shell = shell.replace("__DOCS_JSON__",   json.dumps(docs,        ensure_ascii=False, indent=2))
     shell = shell.replace("__TOC_JSON__",     json.dumps(all_toc,     ensure_ascii=False, indent=2))
     shell = shell.replace("__PAPERS_JSON__",  json.dumps(papers_json, ensure_ascii=False, indent=2))

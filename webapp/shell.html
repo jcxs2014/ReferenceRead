@@ -362,6 +362,37 @@ mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px
 }
 [data-theme="dark"] #search-count a.search-link { color: #79c0ff; }
 [data-theme="dark"] #search-count a.search-link:hover { background: #9e6a03; color: #fff3b0; }
+
+/* ── Backlinks 面板 ── */
+.bl-panel { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--border); }
+.bl-title { font-size: 14px; color: var(--fg-2); margin-bottom: 10px; font-weight: 600; }
+.bl-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.bl-item {
+  padding: 6px 12px; border: 1px solid var(--border); border-radius: 6px;
+  background: var(--card); font-size: 13px; cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.bl-item:hover { border-color: var(--search-hl); background: var(--search-hl); }
+.bl-from { color: var(--fg); }
+
+/* ── Hover 预览卡片（Wikipedia 式）── */
+.hover-card {
+  position: absolute; z-index: 1000; max-width: 320px; min-width: 200px;
+  padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px;
+  background: var(--card); box-shadow: 0 4px 16px rgba(0,0,0,.12);
+  font-size: 13px; line-height: 1.5;
+}
+.hover-card .hc-title { font-weight: 600; color: var(--fg); margin-bottom: 4px; }
+.hover-card .hc-snippet { color: var(--fg-2); }
+[data-theme="dark"] .hover-card { box-shadow: 0 4px 16px rgba(0,0,0,.5); }
+
+/* ── 阅读进度条（Medium 式）── */
+#reading-progress {
+  position: fixed; top: 0; left: 0; height: 3px; width: 0%;
+  background: linear-gradient(90deg, #2e8555, #4aa8df);
+  z-index: 2000; transition: width .08s linear;
+}
+
 </style>
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -411,6 +442,7 @@ const DOCS   = __DOCS_JSON__;
 const TOCS   = __TOC_JSON__;
 const PAPERS = __PAPERS_JSON__;
 const GLOSS  = __GLOSS_JSON__;
+const BACKLINKS = __BACKLINKS_JSON__;
 
 const LS = "kb_";
 
@@ -867,6 +899,7 @@ function switchDoc(slug) {
   });
 
   renderTOC(slug);
+  renderBacklinks(slug);
   const main = document.getElementById("main");
   if (scrollPos[slug] !== undefined) main.scrollTop = scrollPos[slug];
   else main.scrollTop = 0;
@@ -879,6 +912,121 @@ function switchDoc(slug) {
 function getDoc(slug) {
   return DOCS.find(d => d.slug === slug) || DOCS[0];
 }
+
+// ── Backlinks 反向链接（Obsidian 式：显示"谁引用了我"）─────────────
+function renderBacklinks(slug) {
+  const sec = document.querySelector(`section.doc-section[data-slug="${slug}"]`);
+  if (!sec) return;
+  const bls = (BACKLINKS && BACKLINKS[slug]) || [];
+  const old = sec.querySelector(".bl-panel");
+  if (old) old.remove();
+  if (!bls.length) return;
+  const items = bls.map(b => {
+    const label = (b.from || "").replace(/"/g, "&quot;");
+    const fslug = (b.from_slug || "").replace(/"/g, "&quot;");
+    return `<div class="bl-item" data-from-slug="${fslug}">↩ <span class="bl-from">${label}</span></div>`;
+  }).join("");
+  const panel = document.createElement("div");
+  panel.className = "bl-panel";
+  panel.innerHTML = `<h3 class="bl-title">反向链接（${bls.length}）</h3><div class="bl-list">${items}</div>`;
+  sec.appendChild(panel);
+  // 点击反向链接来源 → 按 from_slug 直接跳转（构建时已解析）
+  panel.addEventListener("click", (e) => {
+    const item = e.target.closest(".bl-item");
+    if (!item) return;
+    const s = item.dataset.fromSlug;
+    if (s && typeof switchDoc === "function") switchDoc(s);
+  });
+}
+
+// ── Hover 预览（Wikipedia 式：悬停 wikilink 弹出摘要卡片）────────────
+let _hoverTimer = null, _hoverCard = null;
+function ensureHoverCard() {
+  if (_hoverCard) return _hoverCard;
+  _hoverCard = document.createElement("div");
+  _hoverCard.className = "hover-card";
+  _hoverCard.style.display = "none";
+  document.body.appendChild(_hoverCard);
+  return _hoverCard;
+}
+function _docSummary(slug) {
+  const d = getDoc(slug);
+  if (!d) return { title: slug, snippet: "" };
+  const html = d.html || "";
+  // 取正文第一个 <p> 文本作为摘要
+  const pm = html.match(/<p>([^<]{20,180})/);
+  return { title: d.title || d.slug, snippet: pm ? pm[1].replace(/<[^>]+>/g, "").trim() : "" };
+}
+document.addEventListener("mouseover", (e) => {
+  const a = e.target.closest("a.wl");
+  if (!a) { if (_hoverCard) _hoverCard.style.display = "none"; return; }
+  const href = a.getAttribute("href") || "";
+  // 解析目标 slug：论文 paper-<stem> 或背景文件名
+  let slug = "";
+  const m = href.match(/\/(\d{4}_[a-z0-9-]+)\/literature_analysis\/00_overview\.md$/);
+  if (m) { const stem = m[1]; const p = PAPERS.find(x => x.stem === stem); if (p) slug = p.slug; }
+  else {
+    const fname = href.split("/").pop().replace(/\.md$/, "");
+    const d = DOCS.find(x => x.category === "背景知识" && x.file === fname + ".md");
+    if (d) slug = d.slug;
+  }
+  if (!slug) return;
+  clearTimeout(_hoverTimer);
+  _hoverTimer = setTimeout(() => {
+    const info = _docSummary(slug);
+    const card = ensureHoverCard();
+    card.innerHTML = `<div class="hc-title">${escapeHtml(info.title)}</div><div class="hc-snippet">${escapeHtml(info.snippet)}</div>`;
+    const r = a.getBoundingClientRect();
+    card.style.display = "block";
+    // 定位：链接下方，避免溢出视口
+    const cw = card.offsetWidth, ch = card.offsetHeight;
+    let left = r.left + window.scrollX;
+    let top  = r.bottom + window.scrollY + 6;
+    if (left + cw > window.innerWidth - 8) left = Math.max(8, window.innerWidth - cw - 8);
+    if (top + ch > window.innerHeight - 8) top = Math.max(8, r.top + window.scrollY - ch - 6);
+    card.style.left = left + "px";
+    card.style.top  = top + "px";
+  }, 180);
+});
+document.addEventListener("mouseout", (e) => {
+  if (e.target.closest("a.wl")) { clearTimeout(_hoverTimer); if (_hoverCard) _hoverCard.style.display = "none"; }
+});
+
+// ── 键盘快捷键（GitHub 式：/ 聚焦搜索，Esc 清空，↑↓ 导航结果）────────
+document.addEventListener("keydown", (e) => {
+  const si = document.getElementById("search-input");
+  const tag = (e.target.tagName || "").toLowerCase();
+  // '/' 聚焦搜索（不在输入框/文本区时）
+  if (e.key === "/" && !["input","textarea","select"].includes(tag) && !e.ctrlKey && !e.metaKey && !e.altKey) {
+    e.preventDefault();
+    si.focus();
+    return;
+  }
+  // Esc：清空搜索并关闭结果
+  if (e.key === "Escape" && document.activeElement === si) {
+    si.value = "";
+    doSearch("");
+    si.blur();
+  }
+});
+
+// ── 阅读进度条（Medium 式：顶部细条随滚动填充）─────────────────────
+function _updateProgress() {
+  const main = document.getElementById("main");
+  const bar  = document.getElementById("reading-progress");
+  if (!main || !bar) return;
+  const total = main.scrollHeight - main.clientHeight;
+  const ratio = total > 0 ? (main.scrollTop / total) : 0;
+  bar.style.width = (ratio * 100) + "%";
+}
+document.addEventListener("DOMContentLoaded", () => {
+  const bar = document.createElement("div");
+  bar.id = "reading-progress";
+  document.body.appendChild(bar);
+  const main = document.getElementById("main");
+  if (main) main.addEventListener("scroll", _updateProgress, { passive: true });
+  _updateProgress();
+});
 
 // ── Escape HTML ────────────────────────────────────────────────────────────
 function escapeHtml(s) {
