@@ -1,4 +1,14 @@
-# 97. Quality Check — 完成度自查
+---
+title: "§97 Quality Check"
+paper: "icecube-2013"
+section: 97
+nav_prev: "08_conclusions.md"
+nav_next: "98_vocabulary.md"
+---
+上一章：`08_conclusions.md` — §8
+下一章：`98_vocabulary.md` — Quality Check
+
+# §97 Quality Check — 完成度自查
 
 > 文献：`04_experiments/0003_icecube-2013`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。

@@ -1,3 +1,15 @@
+---
+title: "§6 Implications for Neutrino Astronomy"
+paper: "icecube-2013"
+section: 6
+nav_prev: "05_spatial_correlation.md"
+nav_next: "07_comparison_with_theory.md"
+---
+上一章：`05_spatial_correlation.md` — §5
+下一章：`07_comparison_with_theory.md` — Implications for Neutrino Astronomy
+
+
+# §6 Implications for Neutrino Astronomy — 天体物理中微子天文学意义
 ## [FACT] 6.1 开启中微子天文学时代
 
 **IceCube 2013 是中微子天文学的"发现时刻"**（类比 1968 Davis 太阳中微子 / 1987A 超新星中微子）：

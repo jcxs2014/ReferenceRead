@@ -1,4 +1,14 @@
-# 02_diffuse_emission_observations
+---
+title: "§2 Diffuse Emission Observations"
+paper: "hess-2016"
+section: 2
+nav_prev: "01_detector_and_method.md"
+nav_next: "03_gamma_ray_spectrum_analysis.md"
+---
+上一章：`01_detector_and_method.md` — §1
+下一章：`03_gamma_ray_spectrum_analysis.md` — Diffuse Emission Observations
+
+# §2 Diffuse Emission Observations — 银河中心弥散 γ 发射观测
 
 ## VHE γ射线图像
 
@@ -10,7 +20,7 @@ HESS 对银河系中心 2°×2° 区域的深度观测，产生 Fig. 1（原文 
 - 辐射沿分子气体分布，形态与 CS 线发射的分子气体密度分布**强相关**（原文 p.37）
 - HESS 排除的最小天区（~66° 扇形）用于后续能谱提取
 
-[FACT] Fig. 1 显示 CMZ VHE γ射线亮度与分子气体分布强相关 → 支持强子起源（π⁰ 衰变）（原文 p.37，Fig. 1）。
+[FACT] Fig. 1 显示 CMZ VHE γ射线亮度与分子气体分布强相关 → 支持强子起源（$\pi^{0}$ 衰变）（原文 p.37，Fig. 1）。
 
 ## 径向轮廓
 
@@ -22,7 +32,7 @@ HESS 对银河系中心 2°×2° 区域的深度观测，产生 Fig. 1（原文 
 | ~100 | ~5 | 快速衰减 |
 | ~200 | ~1 | 接近银河系盘均值 |
 
-[FACT] w_CR(r) 随 ~1/r 分布（原文 p.38，Fig. 2），与连续注入中心源的扩散传播模型一致，不支持暴冲模型（~1/r²）或单次爆发（常数轮廓）。
+[FACT] w_CR(r) 随 ~1/r 分布（原文 p.38，Fig. 2），与连续注入中心源的扩散传播模型一致，不支持暴冲模型（~1/r$^{2}$）或单次爆发（常数轮廓）。
 
 ## 系统误差与背景
 

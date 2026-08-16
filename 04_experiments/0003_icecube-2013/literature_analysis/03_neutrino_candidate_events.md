@@ -1,3 +1,15 @@
+---
+title: "§3 Neutrino Candidate Events"
+paper: "icecube-2013"
+section: 3
+nav_prev: "02_event_selection_and_background.md"
+nav_next: "04_statistical_significance.md"
+---
+上一章：`02_event_selection_and_background.md` — §2
+下一章：`04_statistical_significance.md` — Neutrino Candidate Events
+
+
+# §3 Neutrino Candidate Events — 28 个候选中微子事件
 ## [FACT] 3.1 28 起候选事件总览
 
 **观测结果**（原文 p.1242856-1–2，Fig.2）：在两年观测（662 天）中，观测到 **28 起中微子候选事件**，**沉积能量范围 30–1200 TeV**（原文："28 events with in-detector deposited energies between 30 and 1200 TeV"）。
@@ -54,7 +66,7 @@ Track 事件方位角分辨率 ~1°（优于 shower 的 10°–15°），是**�
 ## [FACT] 3.6 空间分布均匀性
 
 **事件首次探测光坐标**（Fig.3，原文 p.3）：
-- 事件在 **(r², z) 空间**中近似均匀分布
+- 事件在 **(r$^{2}$, z) 空间**中近似均匀分布
 - 与中微子在探测体内均匀相互作用的预期一致
 - 与 μ 背景（在探测器边界/ veto 层附近聚集）明确区分
 

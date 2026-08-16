@@ -1,3 +1,15 @@
+---
+title: "§2 Event Selection and Background"
+paper: "icecube-2013"
+section: 2
+nav_prev: "01_detector_and_method.md"
+nav_next: "03_neutrino_candidate_events.md"
+---
+上一章：`01_detector_and_method.md` — §1
+下一章：`03_neutrino_candidate_events.md` — Event Selection and Background
+
+
+# §2 Event Selection and Background — 事件筛选与大气背景
 ## [FACT] 2.1 事件选择核心策略
 
 **在探测器内部首次看到光（in-fiducial-volume first light）**——这是本分析排除大气 μ 背景的关键几何判据。

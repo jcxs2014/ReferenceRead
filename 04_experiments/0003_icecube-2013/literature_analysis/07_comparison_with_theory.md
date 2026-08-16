@@ -1,3 +1,15 @@
+---
+title: "§7 Comparison with Theory"
+paper: "icecube-2013"
+section: 7
+nav_prev: "06_implications_for_neutrino_astronomy.md"
+nav_next: "08_conclusions.md"
+---
+上一章：`06_implications_for_neutrino_astronomy.md` — §6
+下一章：`08_conclusions.md` — Comparison with Theory
+
+
+# §7 Comparison with Theory — 与理论预言对比
 ## [FACT] 7.1 E<sup>−2</sup> 天体物理通量与宇宙线加速理论
 
 **IceCube 观测到的弥散 ν 通量**：
@@ -32,7 +44,7 @@ E<sup>2</sup> F<sub>ν</sub>(E) = **(1.2 ± 0.4) × 10<sup>−8</sup> GeV cm<sup
 ## [FACT] 7.4 与 Fermi-Gamma 观测模型的关联
 
 **Fermi LAT γ 射线观测**（原文 p.1）对宇宙线加速源的约束：
-- Fermi LAT 2013（ref 2）在 SNR 中探测到 π⁰ 衰变特征 γ 射线
+- Fermi LAT 2013（ref 2）在 SNR 中探测到 $\pi^{0}$ 衰变特征 γ 射线
 - 若 IceCube 观测到同源中微子，则直接验证 pp 相互作用（vs p e 相互作用）
 - IceCube 2013 事件**未能与具体 γ 源对应**（TS 仅 8%）
 

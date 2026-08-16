@@ -1,4 +1,14 @@
-# 05_cosmic_ray_energy_density
+---
+title: "§5 Cosmic-Ray Energy Density"
+paper: "hess-2016"
+section: 5
+nav_prev: "04_pevatron_evidence.md"
+nav_next: "06_sagittarius_a_star_as_pevatron.md"
+---
+上一章：`04_pevatron_evidence.md` — §4
+下一章：`06_sagittarius_a_star_as_pevatron.md` — Cosmic-Ray Energy Density
+
+# §5 Cosmic-Ray Energy Density — 宇宙线能量密度
 
 ## w_CR(r) 径向分布
 
@@ -8,7 +18,7 @@ $$w_{CR}(r) \propto \frac{1}{r} \quad (10 \lesssim r \lesssim 200 \text{ pc})$$
 
 这一轮廓有重要的物理含义：
 
-1. **排除单次暴冲**：暴冲预期 ~1/r²（随膨胀快速稀释）
+1. **排除单次暴冲**：暴冲预期 ~1/r$^{2}$（随膨胀快速稀释）
 2. **排除常数轮廓**：常数需要持续的点源注入
 3. **支持连续注入**：中心源（如 Sgr A*）连续注入粒子
 
@@ -24,7 +34,7 @@ $$w_{CR}(r) = Q(E) \cdot \frac{\pi r^2}{4 D(E) t} \cdot \text{erfc}(r/r_{\text{d
 
 最佳拟合参数：
 - 扩散系数：D(E) ~ E^0.5（与 CRM 下半对流尺度一致）
-- 注入时间：Δt ≥ 10⁴ yr
+- 注入时间：Δt ≥ 10$^{4}$ yr
 
 [FACT] 扩散模型拟合给出扩散系数 D(E) ~ E^0.5（原文 p.38，Methods），与银河系传播模型一致。
 

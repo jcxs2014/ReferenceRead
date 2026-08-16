@@ -27,7 +27,7 @@ LHAASO KM2A 探测器在不到一年运行期内，从银河系内 12 个甚高�
 - **观测类型**：UHE γ 射线（>100 TeV）缪子 veto 阵列（KM2A）地面宇宙线观测
 - **核心约束**：银河系 PeV 质子加速 → 对 Blasi 2013 SNR 加速上限、Gabici 2019 PeVatron 搜索提供观测判据
 - **相关库内文献**：gabici-2019（银河 CR 起源与 PeVatron 搜寻）、blasi-2013（SNR 作为银河宇宙线起源，膝区物理）
-- **领域坐标**：该工作首次实现 >100 TeV γ 射线"background-free"探测（muon veto 效率 10⁻⁵），灵敏度 10⁻¹⁴ erg cm⁻² s⁻¹
+- **领域坐标**：该工作首次实现 >100 TeV γ 射线"background-free"探测（muon veto 效率 10$^{-5}$），灵敏度 10$^{-14}$ erg cm$^{-2}$ s$^{-1}$
 
 ## 分章结构（路径 B：八段模板，实验文献）
 

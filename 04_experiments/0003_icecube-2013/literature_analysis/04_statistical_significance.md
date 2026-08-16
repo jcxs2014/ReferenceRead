@@ -1,3 +1,15 @@
+---
+title: "§4 Statistical Significance"
+paper: "icecube-2013"
+section: 4
+nav_prev: "03_neutrino_candidate_events.md"
+nav_next: "05_spatial_correlation.md"
+---
+上一章：`03_neutrino_candidate_events.md` — §3
+下一章：`05_spatial_correlation.md` — Statistical Significance
+
+
+# §4 Statistical Significance — 统计显著性 (4σ)
 ## [FACT] 4.1 4σ 显著性（核心结果）
 
 **纯大气起源假设被 28 起事件以 4σ 水平拒绝**（原文 p.1242856-1）：

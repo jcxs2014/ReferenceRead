@@ -1,8 +1,18 @@
-# 04_pevatron_evidence
+---
+title: "§4 PeVatron Evidence"
+paper: "hess-2016"
+section: 4
+nav_prev: "03_gamma_ray_spectrum_analysis.md"
+nav_next: "05_cosmic_ray_energy_density.md"
+---
+上一章：`03_gamma_ray_spectrum_analysis.md` — §3
+下一章：`05_cosmic_ray_energy_density.md` — PeVatron Evidence
+
+# §4 PeVatron Evidence — PeVatron 证据
 
 ## PeVatron 定义
 
-PeVatron：能够将质子加速至 ~1 PeV（10¹⁵ eV）的天体物理加速器。银河系内 PeVatron 的特征是产生 **无截断的幂律 γ射线能谱**（延伸到 TeV 以上），这是 PeV 能量级质子的示踪信号。
+PeVatron：能够将质子加速至 ~1 PeV（10$^{15}$ eV）的天体物理加速器。银河系内 PeVatron 的特征是产生 **无截断的幂律 γ射线能谱**（延伸到 TeV 以上），这是 PeV 能量级质子的示踪信号。
 
 ## HESS PeVatron 证据
 
@@ -10,7 +20,7 @@ HESS 提供了银河系中心存在 PeVatron 的直接证据（原文 p.34–35�
 
 1. **γ射线能谱延伸至 30+ TeV 无截断**：→ 母体质子能量 > PeV
 2. **w_CR ~ 1/r 轮廓**：→ 中心连续注入 + 扩散传播
-3. **CMZ 分子气体密度高**（n ~ 10³ cm⁻³）：→ 质子-质子碰撞产生 π⁰ → γ 射线的靶气体充足
+3. **CMZ 分子气体密度高**（n ~ 10$^{3}$ cm$^{-3}$）：→ 质子-质子碰撞产生 $\pi^{0}$ → γ 射线的靶气体充足
 
 [FACT] HESS 观测的 γ射线无截断幂律谱（>30 TeV）是银河系 PeVatron 存在的直接证据（原文 p.34）。
 

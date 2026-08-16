@@ -1,10 +1,17 @@
-# 06. Statistical Significance — 统计显著性
+---
+title: "§6 Statistical Significance"
+paper: "lhaaso-2021"
+section: 6
+nav_prev: "05_background_and_systematics.md"
+nav_next: "07_future_prospects.md"
+---
+上一章：`05_background_and_systematics.md` — §5
+下一章：`07_future_prospects.md` — Statistical Significance
 
-> 本章属于：[[00_overview.md]]
+# §06. Statistical Significance — 统计显著性
+
 >
-> 上一章：[[05_background_and_systematics.md]]
 >
-> 下一章：[[07_future_prospects.md]]
 
 ---
 
@@ -72,4 +79,4 @@
 
 [FACT] **Tibet ASγ、HAWC**（引文 3–6）：少数 >100 TeV 的"marginal detection"（原文 p.406–417）——LHAASO 12 源的 >7σ 显著性远超这些报告。
 
-[FACT] **CASA-MIA**（引文 24–25）：1980s 首个 >100 TeV γ 尝试，因 MD 密度不足（~1%）无法达到 10⁻⁴ 背景抑制——LHAASO 的 1,188 MD 覆盖解决了这一瓶颈（原文 p.407–417）。
+[FACT] **CASA-MIA**（引文 24–25）：1980s 首个 >100 TeV γ 尝试，因 MD 密度不足（~1%）无法达到 10$^{-4}$ 背景抑制——LHAASO 的 1,188 MD 覆盖解决了这一瓶颈（原文 p.407–417）。

@@ -1,4 +1,14 @@
-# 01_detector_and_method
+---
+title: "§1 Detector and Method"
+paper: "hess-2016"
+section: 1
+nav_prev: ""
+nav_next: "02_diffuse_emission_observations.md"
+---
+上一章：`00_overview.md` — 概述
+下一章：`02_diffuse_emission_observations.md` — Detector and Method
+
+# §1 Detector and Method — HESS 望远镜阵列与观测模式
 
 ## HESS 探测系统
 
@@ -16,8 +26,8 @@ HESS（High Energy Stereoscopic System）位于纳米比亚，是四台 13 米�
 ## 观测对象：银河系中心分子云
 
 银心分子云区（Central Molecular Zone, CMZ）：
-- 分子氢总质量：~3 × 10⁷ M☉（原文 p.37）
-- 密度：n ~ 10²–10⁴ cm⁻³（局部）
+- 分子氢总质量：~3 × 10$^{7}$ M☉（原文 p.37）
+- 密度：n ~ 10$^{2}$–10$^{4}$ cm$^{-3}$（局部）
 - 延伸范围：l ≈ ±0.5°，|b| ≈ ±0.3°（银经 ±0.5°，银纬 ±0.3°）
 - 中心距离：d = 8.5 kpc（原文 p.37）
 
@@ -27,7 +37,7 @@ HESS（High Energy Stereoscopic System）位于纳米比亚，是四台 13 米�
 
 VHE γ射线探测有两种产生机制（原文 p.34）：
 
-1. **强子过程（Hadronic）**：质子-质子碰撞 → π⁰ 衰变 → γ射线（能量 ~质子能量的 ~1/20）
+1. **强子过程（Hadronic）**：质子-质子碰撞 → $\pi^{0}$ 衰变 → γ射线（能量 ~质子能量的 ~1/20）
 2. **轻子过程（Leptonic）**：高能电子逆康普顿散射（IC）
 
 判据（原文 p.34）：电子在 CMZ 强辐射场中快速损失能量（10 TeV 电子冷却时间 ~1 年 << 传播时间），因此电子无法产生覆盖 ~70 pc 尺度的弥散 γ射线辐射 → **轻子机制被排除**，强子机制主导。

@@ -1,10 +1,17 @@
-# 07. Future Prospects — 未来展望
+---
+title: "§7 Future Prospects"
+paper: "lhaaso-2021"
+section: 7
+nav_prev: "06_statistical_significance.md"
+nav_next: "08_conclusions.md"
+---
+上一章：`06_statistical_significance.md` — §6
+下一章：`08_conclusions.md` — Future Prospects
 
-> 本章属于：[[00_overview.md]]
+# §07. Future Prospects — 未来展望
+
 >
-> 上一章：[[06_statistical_significance.md]]
 >
-> 下一章：[[08_conclusions.md]]
 
 ---
 
@@ -20,7 +27,7 @@
 
 [FACT] **核心物理目标**（原文 p.154–156）：将谱延伸至 >几 PeV 且无截断，将"揭示**超 PeVatron**（super-PeVatrons）——银河系内产生 '膝区' 以上本地宇宙线流的加速器工厂"。
 
-> **意义**：超 PeVatron 对应 CR 能谱 3×10¹⁵ eV "膝区" 以上的能量来源——这是宇宙线起源的核心未解问题。
+> **意义**：超 PeVatron 对应 CR 能谱 3×10$^{15}$ eV "膝区" 以上的能量来源——这是宇宙线起源的核心未解问题。
 
 ---
 

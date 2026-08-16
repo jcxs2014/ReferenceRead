@@ -36,7 +36,7 @@ IceCube 立方公里南极冰层中微子探测阵列在 2010 年 5 月至 2012 
 - `04_statistical_significance`：4.1σ 统计显著性（10.6 背景 vs 28 事件）
 - `05_spatial_correlation`：与γ射线源/GC 区域的空间相关性（最佳聚类 8%，未达显著）
 - `06_implications_for_neutrino_astronomy`：对中微子天文学的启示
-- `07_comparison_with_theory`：与宇宙线加速理论（E⁻² 通量 (1.2±0.4)×10⁻⁸ GeV cm⁻² s⁻¹ sr⁻¹）的对比
+- `07_comparison_with_theory`：与宇宙线加速理论（E$^{-2}$ 通量 (1.2±0.4)×10$^{-8}$ GeV cm$^{-2}$ s$^{-1}$ sr$^{-1}$）的对比
 - `08_conclusions`：结论
 - `97_quality_check.md`：质量检查
 - `98_vocabulary.md`：术语表

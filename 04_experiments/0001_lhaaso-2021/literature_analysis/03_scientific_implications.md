@@ -1,10 +1,17 @@
-# 03. Scientific Implications — 对 PeVatrons 与银河宇宙线起源的意义
+---
+title: "§3 Scientific Implications"
+paper: "lhaaso-2021"
+section: 3
+nav_prev: "02_key_measurements.md"
+nav_next: "04_comparison_with_theory.md"
+---
+上一章：`02_key_measurements.md` — §2
+下一章：`04_comparison_with_theory.md` — Scientific Implications
 
-> 本章属于：[[00_overview.md]]
+# §03. Scientific Implications — 对 PeVatrons 与银河宇宙线起源的意义
+
 >
-> 上一章：[[02_key_measurements.md]]
 >
-> 下一章：[[04_comparison_with_theory.md]]
 
 ---
 
@@ -25,9 +32,9 @@
 
 ## 3.2 电子 PeVatron vs 质子 PeVatron
 
-[FACT] **电子 PeVatron**：蟹状星云作为典型——PWN 中电子在终止激波加速，逆康普顿散射产生 UHE γ。蟹状星云因其极端 L̇₀ 和 B ≈ 100 μG 使其逆康普顿效率低（仅 ~0.01%），但大自转功率足以补偿（原文 p.121–128）。
+[FACT] **电子 PeVatron**：蟹状星云作为典型——PWN 中电子在终止激波加速，逆康普顿散射产生 UHE γ。蟹状星云因其极端 L̇$_{0}$ 和 B ≈ 100 μG 使其逆康普顿效率低（仅 ~0.01%），但大自转功率足以补偿（原文 p.121–128）。
 
-[FACT] **质子 PeVatron**：π⁰ 衰变产生 γ；银河系内 PeV 质子加速是"宇宙线起源"的核心未解问题。LHAASO 12 源中的大部分（蟹星云除外）可能涉及质子加速，但**"尚未被明确定位和识别"**（原文 p.23–24）。
+[FACT] **质子 PeVatron**：$\pi^{0}$ 衰变产生 γ；银河系内 PeV 质子加速是"宇宙线起源"的核心未解问题。LHAASO 12 源中的大部分（蟹星云除外）可能涉及质子加速，但**"尚未被明确定位和识别"**（原文 p.23–24）。
 
 [FACT] **J2032+4102（天鹅座 Cocoon）作为强子 PeVatron 的证据**：位置与天鹅座 OB2 Cocoon 重合，>1 PeV 光子发射；排除轻子起源（γ 图像不指向 OB2 亮区）；大质量恒星风的强子加速被提出（原文 p.157–167）。
 
@@ -49,7 +56,7 @@
 
 ## 3.4 弥散 γ 辐射与"巨型晕"
 
-[FACT] 大部分 UHE 源是角延展达 1° 的**弥散结构**（原文 p.36–37）；对应 ≥10⁴ pc³ 尺度（原文 p.95–99）。
+[FACT] 大部分 UHE 源是角延展达 1° 的**弥散结构**（原文 p.36–37）；对应 ≥10$^{4}$ pc$^{3}$ 尺度（原文 p.95–99）。
 
 [FACT] 与 TeV PWN "halos" 联系（Giacinti et al. 2020；Abeysekara et al. 2017）：PWN 周围的电子扩散晕可产生延展 TeV γ 辐射；部分 LHAASO 源可能宿主能量星（原文 p.100–104）。
 

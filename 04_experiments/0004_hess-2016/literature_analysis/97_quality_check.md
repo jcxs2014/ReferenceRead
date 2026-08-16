@@ -1,4 +1,14 @@
-# 97_quality_check.md
+---
+title: "§97 Quality Check"
+paper: "hess-2016"
+section: 97
+nav_prev: "08_conclusions.md"
+nav_next: "98_vocabulary.md"
+---
+上一章：`08_conclusions.md` — §8
+下一章：`98_vocabulary.md` — Quality Check
+
+# §97 Quality Check — 完成度自查
 
 ## 覆盖率自检
 

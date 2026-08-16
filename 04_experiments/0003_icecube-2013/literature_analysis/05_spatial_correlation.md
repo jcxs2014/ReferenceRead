@@ -1,3 +1,15 @@
+---
+title: "§5 Spatial Correlation"
+paper: "icecube-2013"
+section: 5
+nav_prev: "04_statistical_significance.md"
+nav_next: "06_implications_for_neutrino_astronomy.md"
+---
+上一章：`04_statistical_significance.md` — §4
+下一章：`06_implications_for_neutrino_astronomy.md` — Spatial Correlation
+
+
+# §5 Spatial Correlation — 天球相关性分析
 ## [FACT] 5.1 点源搜索方法
 
 **最大似然点源分析（maximum likelihood point source analysis）**（原文 p.1242856-4）：

@@ -1,10 +1,17 @@
-# 08. Conclusions — 结论
+---
+title: "§8 Conclusions"
+paper: "lhaaso-2021"
+section: 8
+nav_prev: "07_future_prospects.md"
+nav_next: "97_quality_check.md"
+---
+上一章：`07_future_prospects.md` — §7
+下一章：`97_quality_check.md` — Conclusions
 
-> 本章属于：[[00_overview.md]]
+# §08. Conclusions — 结论
+
 >
-> 上一章：[[07_future_prospects.md]]
 >
-> 下一章：[[97_quality_check.md]]
 
 ---
 
@@ -28,8 +35,8 @@
 | 源数量 | **12 个 ≥100 TeV** | ~1（银心，HESS） |
 | 最低显著性 | **7σ** | marginal（2–5σ） |
 | 探测模式 | **background-free** | 背景污染 |
-| 灵敏度 | 10⁻¹⁴ erg cm⁻² s⁻¹ | ~10⁻¹³ erg cm⁻² s⁻¹ |
-| 缪子 veto 效率 | 10⁻⁵ @1 PeV | 10⁻² – 10⁻⁴ |
+| 灵敏度 | 10$^{-14}$ erg cm$^{-2}$ s$^{-1}$ | ~10$^{-13}$ erg cm$^{-2}$ s$^{-1}$ |
+| 缪子 veto 效率 | 10$^{-5}$ @1 PeV | 10$^{-2}$ – 10$^{-4}$ |
 
 ---
 
@@ -55,6 +62,6 @@
 
 ## 8.5 一句话总结
 
-> LHAASO 在 308 天内，以 1 km² 缪子 veto 阵列从银河系内 12 个源探测到 530 个 >100 TeV 光子（最高 1.4 PeV），全部 ≥7σ，首次**无偏证实银河系 PeVatron 的存在**，开启了对银河系 PeV 加速器普查的时代。
+> LHAASO 在 308 天内，以 1 km$^{2}$ 缪子 veto 阵列从银河系内 12 个源探测到 530 个 >100 TeV 光子（最高 1.4 PeV），全部 ≥7σ，首次**无偏证实银河系 PeVatron 的存在**，开启了对银河系 PeV 加速器普查的时代。
 
 ---

@@ -1,10 +1,17 @@
-# 05. Background and Systematics — 背景估计与系统误差
+---
+title: "§5 Background and Systematics"
+paper: "lhaaso-2021"
+section: 5
+nav_prev: "04_comparison_with_theory.md"
+nav_next: "06_statistical_significance.md"
+---
+上一章：`04_comparison_with_theory.md` — §4
+下一章：`06_statistical_significance.md` — Background and Systematics
 
-> 本章属于：[[00_overview.md]]
+# §05. Background and Systematics — 背景估计与系统误差
+
 >
-> 上一章：[[04_comparison_with_theory.md]]
 >
-> 下一章：[[06_statistical_significance.md]]
 
 ---
 
@@ -45,9 +52,9 @@
 
 ## 5.4 γ-γ 吸收（系统效应）
 
-[FACT] **γ-γ 对产生**（γγ → e⁺e⁻）：>100 TeV 来自 CMB，<100 TeV 来自 ISRF（原文 p.364–378）。
+[FACT] **γ-γ 对产生**（γγ → e$^{+}$e$^{-}$）：>100 TeV 来自 CMB，<100 TeV 来自 ISRF（原文 p.364–378）。
 
-[FACT] 峰值波长 λ ≈ 1·[E_γ/(1 TeV)]⁻¹ μm。用 Popescu et al. 2017 的 ISRF 模型 + Moskalenko, Porter, Strong 2006 的银河系 γ-γ 光深计算（原文 p.374–383, refs 29–30）。
+[FACT] 峰值波长 λ ≈ 1·[E_γ/(1 TeV)]$^{-1}$ μm。用 Popescu et al. 2017 的 ISRF 模型 + Moskalenko, Porter, Strong 2006 的银河系 γ-γ 光深计算（原文 p.374–383, refs 29–30）。
 
 [FACT] **影响**：对三主要源，即使最高能量处吸收效应也很小（原文 p.83–87）；对数抛物线拟合的"吸收修正版"（dotted curves，原文 Fig. 1）与未修正版几乎重合。
 
@@ -59,7 +66,7 @@
 
 [FACT] **SED bin 定义**：10 TeV 至 1 PeV 共 10 个 Δ(logE)=0.2 bin（原文 p.397–404）。
 
-[FACT] **SED 拟合方法**：向前展开 + 最小 χ²；对数抛物线 vs 简单幂律用 AIC（Akaike Information Criterion）比较（原文 p.190–200）。
+[FACT] **SED 拟合方法**：向前展开 + 最小 $\chi^{2}$；对数抛物线 vs 简单幂律用 AIC（Akaike Information Criterion）比较（原文 p.190–200）。
 
 ---
 
@@ -67,7 +74,7 @@
 
 [FACT] **LHAASO J1908+0621 的 GeV 段**：用 Fermi LAT Pass 8 数据（2008-08-04 至 2020-01-17，**11 年**）；10°×10° ROI；30–250 GeV 分 4 个 log-spaced bin；4FGL 目录 + 0.5° 附加分量的模型（原文 p.385–390）。
 
-[FACT] 结果：在强子场景，若电子注入随 PSR J1907+0602 自转历史演化，α=1.75 幂律 + E=0.8 PeV 超指数截断可拟合 GeV–TeV 数据；π⁰ 强子模型需复杂质子谱（broken PL + 指数截断）——轻子 vs 强子尚未唯一确定（原文 p.110–116, p.390）。
+[FACT] 结果：在强子场景，若电子注入随 PSR J1907+0602 自转历史演化，α=1.75 幂律 + E=0.8 PeV 超指数截断可拟合 GeV–TeV 数据；$\pi^{0}$ 强子模型需复杂质子谱（broken PL + 指数截断）——轻子 vs 强子尚未唯一确定（原文 p.110–116, p.390）。
 
 ---
 

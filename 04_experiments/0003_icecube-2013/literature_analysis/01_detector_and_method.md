@@ -1,3 +1,15 @@
+---
+title: "§1 Detector and Method"
+paper: "icecube-2013"
+section: 1
+nav_prev: ""
+nav_next: "02_event_selection_and_background.md"
+---
+上一章：`00_overview.md` — 概述
+下一章：`02_event_selection_and_background.md` — Detector and Method
+
+
+# §1 Detector and Method — IceCube 探测器与中微子选择方法
 ## [FACT] 1.1 IceCube 探测器原理
 
 **南极冰层切伦科夫中微子探测**——利用南极冰盖作为切伦科夫辐射介质，通过光电倍增管（PMT）阵列捕捉次级带电粒子在冰中产生的切伦科夫光，从而重建原发中微子能量与方向。
@@ -39,7 +51,7 @@
 
 ## [FACT] 1.6 与库内 UHECR 工作的接口
 
-IceCube 探测的正是 **Bell 1978 / Blandford-Ostriker** 激波加速模型所预言的高能宇宙线加速源的副产物中微子。若 UHECR 加速器（AGN jet、GRB、Galactic PeVatron 等）在源区发生 pp/pγ 相互作用产生 π⁰/π±，则 π± → μ + ν_μ → e + ν_e + ν_μ + ν̄_μ 的级联衰变产生可探测的高能 ν 束。alvesbatista-2019 综述（库内 02_cosmic-ray-origins/0014）将 IceCube 2013 的发现列为 **UHECR 起源问题在 2013 年前后的关键观测突破**。
+IceCube 探测的正是 **Bell 1978 / Blandford-Ostriker** 激波加速模型所预言的高能宇宙线加速源的副产物中微子。若 UHECR 加速器（AGN jet、GRB、Galactic PeVatron 等）在源区发生 pp/pγ 相互作用产生 $\pi^{0}$/π±，则 π± → μ + ν_μ → e + ν_e + ν_μ + ν̄_μ 的级联衰变产生可探测的高能 ν 束。alvesbatista-2019 综述（库内 02_cosmic-ray-origins/0014）将 IceCube 2013 的发现列为 **UHECR 起源问题在 2013 年前后的关键观测突破**。
 
 ## [INTERPRETATION] 探测原理评价
 

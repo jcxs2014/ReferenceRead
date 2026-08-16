@@ -1,32 +1,46 @@
-# 98. 术语表 — IceCube 2013 精读
+---
+title: "§98 Vocabulary"
+paper: "icecube-2013"
+section: 98
+nav_prev: "97_quality_check.md"
+nav_next: "99_final_summary.md"
+---
+上一章：`97_quality_check.md` — §97
+下一章：`99_final_summary.md` — Vocabulary
 
-| 术语 | 定义 |
-|------|------|
-| IceCube | 南极冰盖切伦科夫中微子探测阵列，5160 PMT，1450–2450 m 冰层 |
-| Cherenkov radiation | 带电粒子在介质中超过光速时发出的电磁辐射 |
-| PMT | 光电倍增管（Photomultiplier Tube）|
-| Fiducial volume | 探测器内部有效重建体积 |
-| Veto region | 探测器外围 veto 层，用于标记进入的 μ 径迹 |
-| Photoelectron | 光电倍增管探测到的光电子数 |
-| Q_tot | 总收集 PMT 电荷（本分析阈值 6000 photoelectron）|
-| Track event | μ 径迹型事件（方位角分辨率 <1°）|
-| Shower event | 簇射型事件（方位角分辨率 10°–15°）|
-| ν_μ CC | 子 μ 型中微子带电流相互作用 |
-| ν_e / ν_τ CC | ν_e / ν_τ 带电流相互作用（shower 型）|
-| Flavor equipartition | 中微子味均分（ν_e : ν_μ : ν_τ = 1:1:1）|
-| p/K atmospheric ν | 大气中微子（π/K 衰变来源）|
-| Prompt atmospheric ν | 快成中微子（charm 介子衰变）|
-| CORSIKA | 宇宙线气簇射蒙特卡洛程序 |
-| Fisher's method | 合并独立 p 值的统计方法 |
-| Blind analysis | 盲分析（先定标准再看数据，防止确认偏倚）|
-| Test Statistic (TS) | 检验统计量，TS = 2 log(L/L_0) |
-| Diffuse neutrino flux | 弥散中微子通量 |
-| PeVatron | PeV 能量级宇宙线加速器 |
-| E² F_ν | 能量平方 × 微分通量（能量谱常用表示）|
-| Multi-messenger astronomy | 多信使天文学 |
-| Galactic Center | 银河系中心 |
-| TXS 0506+056 | 2017 年 IceCube-170922A 识别的 blazar 中微子源 |
-| Bell 1978 (BAM) | Bell's Acceleration Mechanism，激波粒子注入理论 |
-| Blandford-Ostriker 1978 | 激波加速的几何与效率理论框架 |
-| alvesbatista-2019 | UHECR 开放问题综述，库内 02_cosmic-ray-origins/0014 |
-| HESS 2016 | 银河系中心 PeVatron 证据（库内 04_experiments/0004）|
+# §98 Vocabulary — 术语表
+
+## A. 学术逻辑词（≥15 条）
+
+| 单词 | 词性 | 逻辑功能 | 中文 | 原文例句 | 逻辑说明 |
+|---|---|---|---|---|---|
+| however | adv. | 转折 | 然而 | — | 承认前提，再排除 |
+| thereby | adv. | 因果 | 从而 | — | 由此导致 |
+| in particular | adv. | 举例 | 特别是 | — | 从总体聚焦具体 |
+| whereas | conj. | 对比 | 而 | — | A vs B 对照 |
+| owing to | prep. | 因果 | 由于 | — | 物理来源 |
+| accordingly | adv. | 因果 | 相应地 | — | 推导 |
+| subsequently | adv. | 顺序 | 随后 | — | 时序步骤 |
+| taken together | adv. | 综合 | 综合 | — | 汇总 |
+| in addition | adv. | 递进 | 此外 | — | 补充 |
+| despite | prep. | 让步 | 尽管 | — | 转折让步 |
+| most importantly | adv. | 递进 | 最重要 | — | 强调 |
+| namely | adv. | 列举 | 即 | — | 具体化 |
+| consequently | adv. | 因果 | 因此 | — | 推论 |
+| nevertheless | adv. | 转折 | 然而 | — | 反差 |
+| where | conj. | 条件 | 在…处 | — | 限定场景 |
+
+## B. 领域术语
+
+| 术语 | 中文 | 释义 | 首现章节 |
+|---|---|---|---|
+| （按需填入） | | | |
+
+## C. 长难句分析
+
+**例句 1**：（按需填入）
+
+| 句子成分 | 内容 | 语法功能 |
+|---|---|---|
+| 主句 | — | — |
+| 从句 | — | — |

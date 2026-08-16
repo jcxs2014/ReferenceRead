@@ -1,4 +1,14 @@
-# 03_gamma_ray_spectrum_analysis
+---
+title: "§3 Gamma-Ray Spectrum Analysis"
+paper: "hess-2016"
+section: 3
+nav_prev: "02_diffuse_emission_observations.md"
+nav_next: "04_pevatron_evidence.md"
+---
+上一章：`02_diffuse_emission_observations.md` — §2
+下一章：`04_pevatron_evidence.md` — Gamma-Ray Spectrum Analysis
+
+# §3 Gamma-Ray Spectrum Analysis — γ 射线谱分析
 
 ## 能谱提取
 
@@ -15,13 +25,13 @@
 
 ## 强子起源论证
 
-γ射线强子过程（π⁰ 衰变）的判据（原文 p.39–40）：
+γ射线强子过程（$\pi^{0}$ 衰变）的判据（原文 p.39–40）：
 
 1. **形态一致**：γ射线与分子气体分布强相关
 2. **能谱无截断**：30 TeV 无截断 → 母体质子能量超过 PeV
-3. **轻子机制排除**：多 TeV 电子冷却时间 ~1 年 << CMZ 尺度传播时间（~10⁴ 年）
+3. **轻子机制排除**：多 TeV 电子冷却时间 ~1 年 << CMZ 尺度传播时间（~10$^{4}$ 年）
 
-[FACT] π⁰ 衰变模型可同时解释 CMZ 的 γ射线形态和能谱（原文 p.40，Fig. 3 拟合）。
+[FACT] $\pi^{0}$ 衰变模型可同时解释 CMZ 的 γ射线形态和能谱（原文 p.40，Fig. 3 拟合）。
 
 ## 父代质子能谱
 

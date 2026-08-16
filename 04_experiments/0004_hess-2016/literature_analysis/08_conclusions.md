@@ -1,4 +1,14 @@
-# 08_conclusions
+---
+title: "§8 Conclusions"
+paper: "hess-2016"
+section: 8
+nav_prev: "07_implications_for_acceleration_theory.md"
+nav_next: "97_quality_check.md"
+---
+上一章：`07_implications_for_acceleration_theory.md` — §7
+下一章：`97_quality_check.md` — Conclusions
+
+# §8 Conclusions — 结论
 
 ## 核心结论
 
@@ -21,7 +31,7 @@ HESS 对银河系中心的深 VHE γ射线观测提供了以下核心结论：
 本文发表后的关键后续：
 - **LHAASO**：2021 年 Cao et al. Nature 公布 12 个 PeV γ射线源（独立验证）
 - **CTA**：未来切伦科夫望远镜阵列将提供更高灵敏度的银心 PeV 观测
-- **中微子**：CMZ 的 π⁰ 衰变也应产生相应的中微子信号（Extended Data Fig. 3）
+- **中微子**：CMZ 的 $\pi^{0}$ 衰变也应产生相应的中微子信号（Extended Data Fig. 3）
 
 ## 原文关键数值守恒核查
 

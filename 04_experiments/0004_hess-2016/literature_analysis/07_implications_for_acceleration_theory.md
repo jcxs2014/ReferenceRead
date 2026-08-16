@@ -1,4 +1,14 @@
-# 07_implications_for_acceleration_theory
+---
+title: "§7 Implications for Acceleration Theory"
+paper: "hess-2016"
+section: 7
+nav_prev: "06_sagittarius_a_star_as_pevatron.md"
+nav_next: "08_conclusions.md"
+---
+上一章：`06_sagittarius_a_star_as_pevatron.md` — §6
+下一章：`08_conclusions.md` — Implications for Acceleration Theory
+
+# §7 Implications for Acceleration Theory — 对加速理论的意义
 
 ## 对 Bell (1978) 激波加速理论的意义
 

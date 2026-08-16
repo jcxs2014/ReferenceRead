@@ -1,3 +1,15 @@
+---
+title: "§8 Conclusions"
+paper: "icecube-2013"
+section: 8
+nav_prev: "07_comparison_with_theory.md"
+nav_next: "97_quality_check.md"
+---
+上一章：`07_comparison_with_theory.md` — §7
+下一章：`97_quality_check.md` — Conclusions
+
+
+# §8 Conclusions — 结论
 ## [FACT] 8.1 结论一：天体物理中微子通量存在（4σ）
 
 **核心结论**（原文 Summary, p.1）：
