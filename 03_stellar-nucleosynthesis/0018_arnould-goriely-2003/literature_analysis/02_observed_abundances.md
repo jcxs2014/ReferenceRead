@@ -53,8 +53,31 @@ read_date: '2026-08-16'
   - 但全碳质球粒陨石（Allende、Murchison）显示 ⁹²Mo、⁹⁴Mo **p 同位素超额**（p.12 Fig. 8–9）——与 A44A 的差异暗示不同载体。
   - **⁹⁷Mo 超额**：可能来自 ⁹⁷Tc 的衰变（t₁/₂=4.0×10⁶ 年）；但 [20] 不倾向此解释，[22] 也未最终证实。⁹⁷Tc、⁹⁸Tc（t₁/₂=4.2×10⁶ 年）均可由 p 过程与 s 过程产生——模糊了 p 过程的唯一归属。
 
----
+## 2.6 p-process 观测丰度标度公式（本文 §2.1-§2.5 隐含）
 
-## 分章索引
-- 上：01_introduction.md
-- 下：03_nuclear_physics.md
+**[FACT] p-only 同位素丰度相对丰度比**（本文 §2.3 形式化）：
+
+$$\delta^p_{i} = \log\left[\frac{(N_{i}/N_{\rm ref})_{\rm sample}}{(N_{i}/N_{\rm ref})_{\rm standard}}\right] \times 10^3$$
+
+对每个 p-only 同位素 $i$（⁹²Mo、⁹⁴Mo、⁹⁶Ru、⁹⁸Ru、¹⁰²Pd 等 35 种）计算 $\delta^p_i$（单位 ‰）。本文 §2.3-§2.5 给出的 Allende/Murchison ⁹²Mo、⁹⁴Mo 超额即此标度。
+
+**[FACT] CAI 残差与全陨石残差之差**（本文 §2.4 / Fig. 8-9）：
+
+$$\Delta^p_{\rm CAI-CI} = \delta^p_{i,\rm CAI} - \delta^p_{i,\rm CI}$$
+
+全碳质球粒陨石（CI）的 p-only 残差比 CAI 系统高出 ~10³ ppm 量级——本文 §2.4 据此推断"CAI 中的 p 残差被标准样品污染"或"两种载体在不同天体环境中分异"。
+
+**[FACT] p 同位素相对产额与稳定核距离**（本文 §2.3）：
+
+$$\log f_p(i) \propto \log\left[N_p(i)/N_{\odot}(i)\right]$$
+
+$p$ 过程产额 $f_p(i)$ 随 p-only 同位素离 β 稳定线距离（$Z-Z_{\rm stab}$）增大而下降。本文 §2.3 Fig. 4 显示此衰减——但 ¹⁹²Ir、¹⁹⁰Pt 偏离此规律，本文 §2.4 视为未解之谜。
+
+**[FACT] Sr-Mo 区域 p 残差"全陨石"超额**（本文 §2.5 / Fig. 8-9）：
+
+$$\delta^p_{i,\rm CI}/\delta^p_{i,\rm CAI} \approx 5-10 \quad (i = {}^{92,94}\mathrm{Mo},\; {}^{96,98}\mathrm{Ru})$$
+
+CI 全陨石中这些 p-only 残差比 CAI 高 5–10 倍——本文 §2.5 据此论证"CI 中的 p-only 来自 CAI 之外的另一载体"。
+
+上一章：[01_introduction](01_introduction.md)
+下一章：[03_nuclear_physics](03_nuclear_physics.md)

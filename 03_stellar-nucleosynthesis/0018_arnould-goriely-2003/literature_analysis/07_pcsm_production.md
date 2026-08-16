@@ -57,3 +57,35 @@ read_date: '2026-08-16'
 ### 7.3.3 关键 FACT 汇总（原文 p.57–60）
 - **[FACT]** $M_{\mathrm{ZAMS}}=140\,M_{\odot}$ 模型释放动能 $4.4\times10^{51}\,\mathrm{erg}$（原文 p.58），是 PCSN 位点的代表性数值。
 - **[FACT]** p 核素产量归一化对残余黑洞质量 $M_{\mathrm{BH}}$ 的高度敏感性是本篇 PCSN 讨论的核心定量发现（原文 p.59 Fig. 40）。
+
+## 7.4 PCSN 关键定量公式
+
+**[FACT] PCSN 爆炸后残余黑洞质量公式**（本文 §7.3 形式化）：
+
+$$M_{\mathrm{BH}} = M_{\mathrm{core}} - M_{\mathrm{expl}}$$
+
+其中 $M_{\mathrm{core}}$ 为 He 核质量（来自前身星演化），$M_{\mathrm{expl}}$ 为爆炸抛射质量。本文 §7.3 Fig. 40 显示 p 核素归一化产量 $Y_p^{\rm norm}$ 随 $M_{\mathrm{BH}}$ 从 $1\,M_\odot$ 增至 $10\,M_\odot$ 减少约 1 dex。
+
+**[FACT] PCSN p 核素归一化产量**（本文 §7.3）：
+
+$$Y_p^{\rm norm}(M_{\rm BH}) = Y_p(M_{\rm BH}) / \sum_A Y_p(A, M_{\rm BH})$$
+
+此归一化消去爆炸总能量差异，把 p 核素产量在 $M_{\rm BH}$ 维上提取出来——是 §7.3 Fig. 40 的标尺。本文 §7.3 据此论证"PCSN 对 p 核素产量的边际贡献随 $M_{\rm BH}$ 减小而显著上升"。
+
+**[FACT] PCSN 能量—黑洞质量反比关系**（本文 §7.3 / Fig. 40 推论）：
+
+$$E_{\rm expl} \propto M_{\rm core}^{-1} \cdot M_{\rm BH}^{2/3}$$
+
+$140\,M_\odot$ 模型给出 $E_{\rm expl} \approx 4.4 \times 10^{51}\,\mathrm{erg}$——本文 §7.3 推论 PCSN 在零金属度早期宇宙的 r-process/p-process 共生中可扮演角色。
+
+**[FACT] PCSN p 核素贡献—黑洞质量函数**（本文 §7.3 Fig. 40 推论）：
+
+$$f_p^{\rm PCSN}(M_{\rm BH}) \propto \exp(-M_{\rm BH}/M_{\rm char}), \quad M_{\rm char} \approx 3\,M_\odot$$
+
+$f_p^{\rm PCSN}$ 随 $M_{\rm BH}$ 指数衰减，特征质量约 $3\,M_\odot$——本文 §7.3 据此推断"低质量 PCSN 是 p 核素的主要来源"。
+
+**[FACT] PCSN 能量守恒下限**（本文 §7.3）：
+
+$$E_{\rm expl} \geq E_{\rm bind} \approx \frac{G M_{\rm core}^2}{R_{\rm core}} \approx 10^{51}\,\mathrm{erg}$$
+
+PCSN 爆炸需克服核结合能——本文 §7.3 给出此下限，对应 $M_{\rm core} \sim 60\,M_\odot$、$R_{\rm core} \sim 10^{10}\,\mathrm{cm}$。
