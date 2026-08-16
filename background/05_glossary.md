@@ -1266,14 +1266,9 @@ path: background/05_glossary.md
 | 0014_cameron-1968 | 40 |
 | 0015_kraft-1994 | 68 |
 
-## 4. 新增术语（2026-08-16 补 17 篇核心术语）
-
 ### 4.1 0007_drury-1983
-| 术语 | 论文来源 | 释义 |
+| 术语 | 英文等价 | 逻辑功能 |
 |---|---|---|
-| 术语 | 中文 | 释义 |
-|---|---|---|
-| `中文` | 英文等价 | 逻辑功能 |
 | `然而` | however / nevertheless | 转折 |
 | `因此` | thus / therefore | 因果 |
 | `此外` | furthermore / moreover | 递进 |
@@ -1284,12 +1279,9 @@ path: background/05_glossary.md
 | `特别地` | in particular / notably | 特例 |
 | `简言之` | in brief / in short | 总结 |
 
-### 4.1 0016_caprioli-2014
-| 术语 | 论文来源 | 释义 |
+### 4.2 0016_caprioli-2014
+| 术语 | 词性 | 逻辑功能 |
 |---|---|---|
-| 术语 | 中文 | 释义 |
-|---|---|---|
-| `单词` | 词性 | 逻辑功能 |
 | `however` | adv. | 转折 |
 | `moreover` | adv. | 递进 |
 | `also` | adv. | 递进 |
@@ -1300,12 +1292,9 @@ path: background/05_glossary.md
 | `crucial` | adj. | 强调 |
 | `crucially` | adv. | 强调 |
 
-### 4.2 0017_caprioli-2014-ii
-| 术语 | 论文来源 | 释义 |
+### 4.3 0017_caprioli-2014-ii
+| 术语 | 词性 | 逻辑功能 |
 |---|---|---|
-| 术语 | 中文 | 释义 |
-|---|---|---|
-| `单词` | 词性 | 逻辑功能 |
 | `however` | adv. | 转折 |
 | `conversely` | adv. | 对比 |
 | `consequently` | adv. | 因果 |
@@ -1316,12 +1305,9 @@ path: background/05_glossary.md
 | `remarkably` | adv. | 强调 |
 | `consistently` | adv. | 一致 |
 
-### 4.3 0018_kotera-olinto-2011
-| 术语 | 论文来源 | 释义 |
+### 4.4 0018_kotera-olinto-2011
+| 术语 | 英文 | 含义 |
 |---|---|---|
-| 术语 | 中文 | 释义 |
-|---|---|---|
-| `中文` | 英文 | 含义 |
 | `超高能宇宙线` | Ultrahigh Energy Cosmic Rays (UHECR) | 能量 ≥10¹⁸ eV (通常 ≥10²⁰ eV) 的带电粒子 |
 | `膝点` | Knee | 宇宙线谱在 ~1 PeV 处的第一次变陡 |
 | `踝点` | Ankle | ~3 EeV 处的谱硬化，银河-河外转换或传播 dip |
@@ -1332,12 +1318,9 @@ path: background/05_glossary.md
 | `踝点转换模型` | Ankle transition model | 银河-河外转换发生在踝点的模型 |
 | `Dip 模型` | Dip model | 踝点是质子对产生传播 dip 的模型 (Berezinsky et al. 2006) |
 
-### 4.4 0020_giacalone-2017
-| 术语 | 论文来源 | 释义 |
+### 4.5 0020_giacalone-2017
+| 术语 | 词性 | 逻辑功能 |
 |---|---|---|
-| 术语 | 中文 | 释义 |
-|---|---|---|
-| `单词` | 词性 | 逻辑功能 |
 | `however` | adv. | 转折 |
 | `whereas` | conj. | 对比 |
 | `thus` | adv. | 因果 |
@@ -1348,10 +1331,8 @@ path: background/05_glossary.md
 | `namely` | adv. | 说明 |
 | `consequently` | adv. | 因果 |
 
-### 4.5 0018_arnould-goriely-2003
+### 4.6 0018_arnould-goriely-2003
 | 术语 | 论文来源 | 释义 |
-|---|---|---|
-| 术语 | 中文 | 释义 |
 |---|---|---|
 | `p-process` | photodisintegration process | 光致核反应过程 |
 | `p-nuclide` | neutron-deficient stable nuclide | 缺中子稳定核素 |
@@ -1364,12 +1345,9 @@ path: background/05_glossary.md
 | `γ-ray strength function` | E1/M1 photon strength function | γ 射线强度函数 |
 | `Optical potential` | complex nuclear potential for compound formation | 光学势 |
 
-### 4.6 0019_sneden-cowan-2008
-| 术语 | 论文来源 | 释义 |
+### 4.7 0019_sneden-cowan-2008
+| 术语 | 词性 | 逻辑功能 |
 |---|---|---|
-| 术语 | 中文 | 释义 |
-|---|---|---|
-| `单词` | 词性 | 逻辑功能 |
 | `however` | adv | 转折 |
 | `consequently` | adv | 因果 |
 | `notwithstanding` | prep | 让步 |
@@ -1380,12 +1358,9 @@ path: background/05_glossary.md
 | `indeed` | adv | 加强 |
 | `despite` | prep | 让步 |
 
-### 4.7 0020_nomoto-2013
-| 术语 | 论文来源 | 释义 |
+### 4.8 0020_nomoto-2013
+| 术语 | 词性 | 逻辑功能 |
 |---|---|---|
-| 术语 | 中文 | 释义 |
-|---|---|---|
-| `单词` | 词性 | 逻辑功能 |
 | `However` | adv | 转折 |
 | `By contrast` | adv | 转折 |
 | `Interestingly` | adv | 转折/强调 |
@@ -1396,12 +1371,9 @@ path: background/05_glossary.md
 | `Whereas` | conj | 转折 |
 | `Whereas` | prep | 让步 |
 
-### 4.8 0021_karakas-lattanzio-2014
-| 术语 | 论文来源 | 释义 |
+### 4.9 0021_karakas-lattanzio-2014
+| 术语 | 词性 | 逻辑功能 |
 |---|---|---|
-| 术语 | 中文 | 释义 |
-|---|---|---|
-| `英文` | 词性 | 逻辑功能 |
 | `However` | conj. | 转折 |
 | `In contrast` | prep. | 对比 |
 | `Furthermore` | adv. | 递进 |
@@ -1412,12 +1384,9 @@ path: background/05_glossary.md
 | `Owing to` | prep. | 因果 |
 | `For this reason` | adv. | 因果 |
 
-### 4.9 0022_busso-1999
-| 术语 | 论文来源 | 释义 |
+### 4.10 0022_busso-1999
+| 中文逻辑词 | 英文等价词 | 词性 |
 |---|---|---|
-| 术语 | 中文 | 释义 |
-|---|---|---|
-| `中文逻辑词` | 英文等价词 | 词性 |
 | `因此` | therefore / thus | adv. |
 | `进而` | consequently / subsequently | adv. |
 | `尤其` | in particular / notably | adv. |
@@ -1428,12 +1397,9 @@ path: background/05_glossary.md
 | `最终` | ultimately / eventually | adv. |
 | `不仅……而且` | not only … but also | conj. |
 
-### 4.10 0024_nomoto-suzuki-2014
-| 术语 | 论文来源 | 释义 |
+### 4.11 0024_nomoto-suzuki-2014
+| 术语 | 词性 | 逻辑功能 |
 |---|---|---|
-| 术语 | 中文 | 释义 |
-|---|---|---|
-| `英文单词` | 词性 | 逻辑功能 |
 | `however` | adv | 转折 |
 | `thus` | adv | 因果 |
 | `whereas` | conj | 对比 |
@@ -1444,10 +1410,8 @@ path: background/05_glossary.md
 | `namely` | adv | 列举 |
 | `namely` | adv | 列举 |
 
-### 4.11 0001_lhaaso-2021
+### 4.12 0001_lhaaso-2021
 | 术语 | 论文来源 | 释义 |
-|---|---|---|
-| 术语 | 中文 | 释义 |
 |---|---|---|
 | `LHAASO` | Large High Altitude Air Shower Observatory / 高海拔宇宙线观测站 | 位于稻城海子山（海拔 4,410 m），由 KM2A+WCDA+WFCTA 三套阵列组成 |
 | `KM2A` | Kilometer Square Array / 平方公里阵列 | 表面宇宙线阵列，1 km²；含 ED 闪烁体 + MD 水中切伦科夫缪子 veto |
@@ -1458,12 +1422,9 @@ path: background/05_glossary.md
 | `PSF` | Point Spread Function / 点扩展函数 | 源角分辨率度量，本文 68% containment = 0.45°–0.62° |
 | `N_μ/N_e` | 缪子数/电磁粒子数比 | KM2A 的 γ/CR 判别量，cut <1/230 |
 
-### 4.12 0002_ams02-2015
-| 术语 | 论文来源 | 释义 |
+### 4.13 0002_ams02-2015
+| 术语 | 词性 | 逻辑功能 |
 |---|---|---|
-| 术语 | 中文 | 释义 |
-|---|---|---|
-| `单词` | 词性 | 逻辑功能 |
 | `however` | adv. | 转折 |
 | `thereby` | adv. | 因果(由此) |
 | `consequently` | adv. | 因果(结果) |
@@ -1474,12 +1435,9 @@ path: background/05_glossary.md
 | `despite` | prep. | 让步 |
 | `in particular` | adv. | 举例 |
 
-### 4.13 0004_hess-2016
-| 术语 | 论文来源 | 释义 |
+### 4.14 0004_hess-2016
+| 术语 | 原文例句 | 逻辑功能 |
 |---|---|---|
-| 术语 | 中文 | 释义 |
-|---|---|---|
-| `词汇` | 原文例句 | 逻辑功能 |
 | `implies` | This implies that our Galaxy contains PeVatrons | 推导结论 |
 | `whereas` | proton flux ... whereas leptonic ... | 对比/转折 |
 | `hence` | hence the name PeVatron | 因果顺承 |

@@ -364,6 +364,12 @@ def main() -> int:
     check("附: 静态文案篇数一致性", len(doc_ids_with_mismatch) == 0,
           f'{"; ".join(doc_ids_with_mismatch) if doc_ids_with_mismatch else "0 不一致"} ≠ {paper_count}篇(PAPERS)')
 
+    # ── 表格健康检查（列数一致 + 无孤立行，2026-08-16 固化）──
+    tbl_problems = _table_scan_problems()
+    check("附: 表格列数一致且无孤立行", len(tbl_problems) == 0,
+          f"{len(tbl_problems)} 处" +
+          (f": {tbl_problems[0][0]}:{tbl_problems[0][1]} {tbl_problems[0][2]}" if tbl_problems else ""))
+
     print()
     if FAILED:
         print(f"审计结果: {len(FAILED)} 项失败 — {', '.join(FAILED)}")
@@ -385,6 +391,79 @@ def _fs_paper_count() -> int:
 
 def _norm(s: str) -> str:
     return re.sub(r"\*+", "", s).strip().lower()
+
+
+# ── 表格健康检查（2026-08-16 全库 220 处实测后固化，bd52e7b + 68adabb）──
+# 检测两类问题：
+#   ① 列数不匹配：表头 N 列、数据行 ≠N 列（md2doc_html.py 忠实按源列数渲染 →
+#      浏览器渲染错位，用户感知"单元格被拆"）
+#   ② 孤立表格行：表格行存在但缺表头/被空行·注释·标题打断 →
+#      md2doc_html 渲染时整行被挤出表格变普通段落（表格识别条件 =
+#      startswith("|") and endswith("|") + 前一分隔行进入表格模式）
+def _table_scan_problems() -> list[tuple[str, int, str, str]]:
+    """全库扫描表格问题。返回 [(文件, 行号, 问题描述, 行内容前 90 字)]。"""
+
+    def split_cells(line: str) -> list[str]:
+        # 保护 \| 和 $...$ 内 |（数学环境竖线不是分隔符）
+        protected = re.sub(
+            r"\$[^$\n]*\$",
+            lambda m: m.group(0).replace("|", "\x00M\x00"),
+            line,
+        )
+        protected = protected.replace("\\|", "\x00P\x00")
+        cells = protected.strip().strip("|").split("|")
+        return [c.replace("\x00P\x00", "\\|").replace("\x00M\x00", "|") for c in cells]
+
+    def is_sep(l: str) -> bool:
+        # 与 md2doc_html.py:196 一致：分隔行 = 单元格全为 -{2,}（: 对齐可选）
+        return bool(re.match(r"^\s*\|[\s:|-]+\|\s*$", l.strip()))
+
+    scan_dirs = [ROOT / c for c in CAT_DIRS] + [ROOT / "background"]
+    md_files: list[Path] = []
+    for d in scan_dirs:
+        if d.exists():
+            md_files += list(d.rglob("*.md"))
+
+    problems: list[tuple[str, int, str, str]] = []
+    for f in sorted(md_files):
+        if "archive" in f.parts or ".git" in f.parts:
+            continue
+        lines = f.read_text(encoding="utf-8").splitlines()
+        i = 0
+        in_code = False
+        while i < len(lines):
+            s = lines[i].strip()
+            if s.startswith("```"):
+                in_code = not in_code
+                i += 1
+                continue
+            if in_code:
+                i += 1
+                continue
+            # 表格块：当前行 | 开头 + 下一行是分隔行 → 进入表格
+            if s.startswith("|") and i + 1 < len(lines) and is_sep(lines[i + 1]):
+                ncols = len(split_cells(lines[i]))
+                j = i + 2
+                while j < len(lines):
+                    sj = lines[j].strip()
+                    if not (sj.startswith("|") and sj.endswith("|")):
+                        break  # 表格结束（空行/标题/非表格行）
+                    if is_sep(sj):
+                        break  # 遇到新分隔行 = 表格结束
+                    cells = split_cells(lines[j])
+                    if len(cells) != ncols:
+                        problems.append((str(f.relative_to(ROOT)), j + 1,
+                                         f"列数 {len(cells)}≠表头 {ncols}", lines[j][:90]))
+                    j += 1
+                i = j
+            elif s.startswith("|") and s.endswith("|") and not is_sep(s):
+                # 孤立表格行：以 | 开头结尾、非分隔行，但无表格上下文
+                problems.append((str(f.relative_to(ROOT)), i + 1,
+                                 "孤立表格行（缺表头/表格上下文断裂）", s[:90]))
+                i += 1
+            else:
+                i += 1
+    return problems
 
 
 if __name__ == "__main__":
