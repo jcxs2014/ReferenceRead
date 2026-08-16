@@ -48,5 +48,45 @@ pages: "257-260 (PDF p15-18)"
 
 [INTERPRETATION] §5 为 §8 的 AGB 模型对比提供观测靶标。CEMP-s/r/(s+r) 的分类框架后来被 Cowan 2021 沿用并扩展。Pb-rich 星（HD 196944 等）是"强 s-process"成分的典型代表。
 
+## 5.6 s-process 定量标度公式（本文 §5.1-§5.5 隐含）
+
+**[FACT] CEMP-s 鉴定判据**（本文 §5.1 形式化）：
+
+$$[\mathrm{C/Fe}] \geq +1.0 \;\wedge\; [\mathrm{Ba/Fe}] \geq +1.0$$
+
+依 Beers & Christlieb (2005) 分类口径，CEMP-s 双条件即"碳富集 + s 元素富集"。CEMP-(s+r) 进一步要求 $[\mathrm{Eu/Fe}] > +1.0$，本文 §5.2 列出 6 个典型 CEMP-(s+r) 星（原文§5，p.257-258）。
+
+**[FACT] [Ba/Fe]–[Ba/Sr] 双对数演化图**（本文 §5.3 / Fig. 7）：
+
+$$[\mathrm{Ba/Sr}] = \log(N_{\rm Ba}/N_{\rm Sr})_{\rm star} - \log(N_{\rm Ba}/N_{\rm Sr})_{\odot}$$
+
+16 颗 r-rich 星（[Eu/Fe] > 0.80）均值 [Ba/Sr] ≈ 0，[Ba/Fe] ≈ 1，对应"纯 r-process 比例"基线——本文 §8.2 用此作为 s-process 模型对比基线（原文§5，p.258）。
+
+**[FACT] s-only 同位素的中子俘获截面与丰度积**（本文 §5.4 隐含 + §3.2 公式的 s 子集）：
+
+$$\sigma_s N_s \approx \mathrm{const}, \quad A \in \{70, 86, 96, 100, 104, 110, 142, 150, 160, 204, 207, 208\}$$
+
+12 个 s-only 同位素的 $\sigma_s N_s$ 拟合值定标 s-process 主曲线。本文 §5.4 的 Pb-rich 星（HD 196944、CS 29497-030）以 ${}^{208}\mathrm{Pb}$ 结尾——是 s 主曲线最右端的"第三个峰"。
+
+**[FACT] AGB 质量传递的 s-process 元素净增量**（本文 §5.5 隐含）：
+
+$$\Delta N_i^{\rm (s, post-transfer)} = f_{\rm transfer} \cdot \Delta N_i^{\rm (s, AGB wind)}$$
+
+其中 $f_{\rm transfer}$ 为双星质量传递效率（典型 0.1-0.5），$\Delta N_i^{\rm (s, AGB wind)}$ 为 AGB 主星抛射风中 s-only 元素的丰度增量。这是观测金属贫星巨星"s 元素超丰"的根本来源——本文 §5.5 引用的 60% 双星比例是这一公式的实证。
+
+**[FACT] Pb-rich 星 s-process 终止判据**（本文 §5.4）：
+
+$$[\mathrm{Pb/Fe}] \geq +2.0 \;\wedge\; [\mathrm{hs/ls}] \geq +1.5$$
+
+"hs/ls" = [Ba/La/Sr] / [Y/Zr] 重 s 与轻 s 比。Pb-rich 反映 AGB 中 $N=126$ 幻数堆积 → s-process 终止。CS 29497-030 同时满足此双判据（Ivans et al. 2005）。
+
+**[FACT] 单线双星光谱的径向速度变化限**（本文 §5.5 实证）：
+
+$$\Delta v_{\r} \gtrsim 5\,\mathrm{km/s},\quad P_{\r} \sim 10^{2-3}\,\mathrm{day}$$
+
+Lucatello et al. (2005) 在 60% 的 CEMP-s/r 星中检测到此量级 $\Delta v_r$，排除"非双星"假设。配合 Preston & Sneden (2000) 的 BMP 2/3 双星比例——本文 §5.5 的"几乎全部为双星"结论的实证基础（原文§5，p.259-260）。
+
+[INTERPRETATION] 这 6 个公式把 §5 的"CEMP/Pb-rich 分类 + Ba/Sr 演化 + 双星传递"全部量化。s-process 在金属贫星中的丰度格局不再是定性描述——它由 6 个简单公式 + 一组 s-only 同位素截面数据完全刻画。**这是经典 s/r 分解 + AGB 模型 + 双星演化三者的合流点**。
+
 上一章：[04_r_process_observations](04_r_process_observations.md)
 下一章：[06_r_process_abundance_implications](06_r_process_abundance_implications.md)

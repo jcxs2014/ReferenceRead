@@ -47,5 +47,47 @@ pages: "247-250 (PDF p7-10)"
 
 [CRITIQUE] 太阳系统 r-only 基准的可靠性最终依赖 (a) s-process 曲线的准确度和 (b) r-only 同位素的识别正确性。Table 1 是本文后续所有对比的"标尺"。
 
+## 3.5 经典分解的定量公式（本文 §3.2 隐含的方程）
+
+> 本节给出 Cameron (1973) → Käppeler, Beer & Wisshak (1989) → Arlandini et al. (1999) → Simmerer et al. (2004) 这一经典 s/r 分解路线的数学形式化，是本文 Table 1 的根基。
+
+**[FACT] σN_s 经验主曲线**（B²FH 经典，沿用至本文 §3.2）：
+
+$$\sigma N_s \approx \mathrm{const}, \quad A \in [A_{\rm low}, A_{\rm high}]$$
+
+其中 $\sigma(A)$ 为中子俘获截面（mb），$N_s(A)$ 为 s-only 同位素太阳系丰度。避开 N=50、82、126 三个幻数附近的"魔术数下降"区，本文 Table 1 列出 12 个 s-only 同位素的 $\sigma N_s$ 拟合值（原文§3，p.247）。
+
+**[FACT] 经典分解模型的中子照射量分布**（本文 §3.2 隐含）：
+
+$$\rho(\tau) = f(\tau)\,d\tau$$
+
+其中 $\tau$ 为 AGB 星 He 燃烧期间的中子照射量（mb⁻¹），$\rho(\tau)$ 为分布密度。Käppeler, Beer & Wisshak (1989) 用指数分布 $f(\tau) \propto \exp(-\tau/\tau_0)$，Arlandini et al. (1999) 用 AGB 恒星模型的 $\rho(\tau)$；后者更物理化但与经典结果定性一致。
+
+**[FACT] s-process 太阳系丰度重构公式**（本文 §3.3 核心）：
+
+$$N_s(Z, A) = N_{\odot}(Z, A) - N_r(Z, A) - N_p(Z, A)$$
+
+其中 $N_r$ 由 $\sigma N_s$ 主曲线在 $N=50,82,126$ 处的拟合延拓给出，$N_p$ 仅对部分轻 p-only 同位素（⁹²Mo、¹⁴⁴Sm 等）非零。本文 Table 1 即此公式的应用结果。
+
+**[FACT] r-only 同位素 $\sigma_r$ 残差**（本文 §3.4 / Cowan & Sneden 2006）：
+
+$$\sigma_r(Z, A) = \frac{N_{\odot}(Z, A)}{N_r(Z, A)}\,\sigma(Z, A) \quad (A > 100,\, Z > 40)$$
+
+将 §3.3 的 $N_r$ 代入，可得每个 r-only 同位素的中子俘获截面预测值。Cowan & Sneden (2006) 的星基修正使某些 $N_r$ 偏离 Simmerer et al. (2004) 系统约 30%——这是 §6 修正预测的关键。
+
+**[FACT] 三 s-process 峰位置的幻数堆积律**（本文 §3.4 描述）：
+
+$$A_{\rm peak}^{(i)} \approx A_{\rm seed} + (N_{\rm magic} - N_{\rm seed}), \quad N_{\rm magic} \in \{50, 82, 126\}$$
+
+s-process 从 Fe 种子开始逐次俘获中子，至 $N_{\rm magic}$ 处 $\sigma$ 骤降导致丰度堆积，形成 ls ($A\sim 90$)、hs ($A\sim 138$)、3rd ($A\sim 208$) 三大峰。本文 Table 2 列出各峰的核素组成（原文§3，p.244-247）。
+
+**[FACT] 太阳系统 r/s 归一化比**（本文 §3.4 核心标度）：
+
+$$\log\epsilon_r(A) - \log\epsilon_s(A) = \log[N_r(A)/N_s(A)]$$
+
+对每个稳定重核，$r$ 残差与 $s$ 主曲线之比给出一致量化的相对产额；典型金属贫星的 [X/Fe] 演化对照即此标度的延伸。
+
+[INTERPRETATION] 这 6 个公式不是简单"重新声明"——它们把 Cameron (1973) 以来的 s/r 分解传统形式化，并指出本文 §3 Table 1 与后续 §4-§6 的所有量化对比都建立在这一组公式之上。**Cowan & Sneden (2006) 的修正**只动 $N_r$，其他公式结构不变——这是经典模型的"鲁棒性"。
+
 上一章：[02_heavy_element_formation](02_heavy_element_formation.md)
 下一章：[04_r_process_observations](04_r_process_observations.md)

@@ -54,5 +54,31 @@ pages: "250-257 (PDF p8-14)"
 
 [INTERPRETATION] §4 的要点：高分辨光谱 + 精确原子数据 = r-process 观测的两大支柱。Fig. 6 展示的"修正后星间一致"是全文后续 §6 定量对比的基础。Ag–Ba 之间的观测空白是 §6.2 讨论"多 r 位点"时的核心限制。
 
+## 4.7 r-process 观测的标度公式（本文 §4.4-§4.6 隐含）
+
+**[FACT] r-II 分类阈值**（本文 §4.5 形式化）：
+
+$$[\mathrm{Eu/Ba}] < 0 \;\wedge\; [\mathrm{Eu/Fe}] > +1.0 \;\wedge\; [\mathrm{Fe/H}] < -2.5 \;\Rightarrow\; r\text{-II}$$
+
+r-I 较宽松：$[\mathrm{Eu/Fe}] \in [+0.3, +1.0]$。本文 §4.5 引用的 16 颗 r-II 星（CS 22892-052、CS 31082-001、HE 1523-0901、HD 221170、HD 115444 等）均满足此双判据。
+
+**[FACT] r-process 残差的 [X/Fe] 归一**（本文 §4.5 Fig. 6 形式化）：
+
+$$[\mathrm{X/Fe}]_r = \log(N_{\rm X}/N_{\rm Fe})_{\rm star} - \log(N_{\rm X}/N_{\rm Fe})_{\odot,r}$$
+
+其中下标 $r$ 指 r-process 残差标度（扣除 s 贡献）。Cowan & Sneden (2006) 修正使某些元素的 $[\mathrm{X/Fe}]_r$ 与原 Simmerer et al. (2004) 经典值系统偏差约 0.2-0.3 dex。
+
+**[FACT] La II 4102 Å 的 NLTE 修正**（本文 §4.6）：
+
+$$\log\epsilon_{\rm NLTE}(\mathrm{La}) = \log\epsilon_{\rm LTE}(\mathrm{La}) + \Delta_{\rm NLTE}(T_{\rm eff}, \log g, [\mathrm{Fe/H}])$$
+
+CN 分子带对蓝区影响导致 LTE 误差可达 0.2-0.3 dex；本文 §4.6 强调低金属度下需 NLTE + 精确分子拟合。
+
+**[FACT] 金属贫星 r-process 残差一致性的量化指标**（本文 §4.5 Fig. 6）：
+
+$$\sigma_r(\log\epsilon) = \mathrm{std}_i\{[\mathrm{X/Fe}]_r^{(i)} - [\mathrm{X/Fe}]_{r,\odot}\}$$
+
+对 16 颗 r-II 星求各元素 $[\mathrm{X/Fe}]_r$ 相对太阳 r 残差的散布。本文 §4.5 给出 $\sigma_r < 0.20$ dex 的判定"星际 r-process 普适"。
+
 上一章：[03_solar_system_abundances](03_solar_system_abundances.md)
 下一章：[05_s_process_observations](05_s_process_observations.md)

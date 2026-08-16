@@ -64,5 +64,31 @@ pages: "243-246 (PDF p3-6)"
 
 [INTERPRETATION] §2 是全文的核物理基础层：所有后续观测对比、同位素分解、位点讨论，都要回到 τₙ/τ_β 判据和中子幻数结构。Cowan 2021 的进展仍在这一框架内推进。
 
+## 2.7 关键定量判据公式（本文 §2.1-§2.6 隐含）
+
+**[FACT] s-process vs r-process 判据**（本文 §2.1 核心）：
+
+$$\tau_{n} \gg \tau_{\beta} \;\Rightarrow\; s\text{-process}; \qquad \tau_{n} \ll \tau_{\beta} \;\Rightarrow\; r\text{-process}$$
+
+其中 $\tau_n = 1/(n_n \langle\sigma v\rangle)$ 为中子俘获时标（与中子数密度 $n_n$ 与中子俘获速率 $\langle\sigma v\rangle$ 相关），$\tau_\beta = t_{1/2}/\ln 2$ 为不稳定核的 β 衰变寿命。当 $\tau_n \gg \tau_\beta$ 时核反应沿 β 稳定线推进（s）；当 $\tau_n \ll \tau_\beta$ 时核反应推进至远离 β 稳定线的中子富集区（r）。本文 §2.1 的两类过程定义即此判据。
+
+**[FACT] r-process 等待点方程**（本文 §2.3 / 经典形式化）：
+
+$$\frac{dY_i}{dt} = n_n \sum_j \langle\sigma v\rangle_{j\to i} Y_j - n_n \sum_j \langle\sigma v\rangle_{i\to k} Y_i - \lambda_{\beta,i}\,Y_i$$
+
+其中 $Y_i$ 为核素 $i$ 的丰度。$(n,\gamma) \rightleftharpoons (\gamma,n)$ 平衡建立后，$\lambda_{\beta,i}$ 决定 r-process 路径沿幻数 N=50,82,126 的"等待"时间尺度。本文 §2.3 Fig. 1 的 r-process 路径即此方程在 $\beta$ 流平衡时的解。
+
+**[FACT] 中子俘获截面共振求和**（本文 §2.3 Maxwellian 平均截面 MACS）：
+
+$$\langle\sigma v\rangle = \left(\frac{8}{\pi\mu}\right)^{1/2}\frac{1}{(kT)^{3/2}}\int_0^\infty \sigma(E)\,E\,\exp(-E/kT)\,dE$$
+
+MACSF$K_0 = 30\,\mathrm{keV}$ 是 s-process 主导温度。实验测量 MACS 是经典分解 $\sigma N_s$ 拟合的输入数据（本文 §3.2）。
+
+**[FACT] s-process 经典主曲线拟合**（本文 §2.1 + §3.2 隐含）：
+
+$$\sigma_s(A) N_s(A) \approx \mathrm{const}, \quad A \in (90, 200)$$
+
+避开 N=50,82,126 幻数堆积区。B²FH (1957) 首次提出，本文 §3 Table 1 用此定标 12 个 s-only 同位素的 $\sigma_s N_s$。
+
 上一章：[01_introduction](01_introduction.md)
 下一章：[03_solar_system_abundances](03_solar_system_abundances.md)

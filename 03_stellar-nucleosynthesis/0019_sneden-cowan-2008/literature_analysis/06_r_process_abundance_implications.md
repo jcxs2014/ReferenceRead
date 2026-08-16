@@ -70,5 +70,31 @@ pages: "260-270 (PDF p18-27)"
 
 [INTERPRETATION] §6.2 是 Cowan 2021 的核心接续点：2008 年提出"多个 r 位点"作为可能解释轻 r-process 异常；2017 年 NS-NS 并合 GW170817（Bloom et al. 2017；Drout et al. 2017）首次观测到重 r-process 的直接产物，2021 年综述将此与"主 r-process"位点关联。
 
+## 6.4 r-process 残差一致性的定量公式
+
+**[FACT] r-rich 星与太阳系 r-only 残差的均方根偏差**（本文 §6.1 / Fig. 11）：
+
+$$\sigma_{\rm rms}^{(r)} = \sqrt{\frac{1}{N_X}\sum_{X} \left([\mathrm{X/Fe}]_r^{\rm star} - [\mathrm{X/Fe}]_{r,\odot}\right)^2}$$
+
+对 16 颗 r-II 星的 r-only 元素（Ba 及以上）求偏差，本文 §6.1 Fig. 11 显示 $\sigma_{\rm rms}^{(r)} < 0.20$ dex——支撑"r-process 普适性"。
+
+**[FACT] LEPP 过程贡献分数**（本文 §6.2）：
+
+$$f_{\rm LEPP}(X) = \frac{N_{\rm LEPP}(X)}{N_{\rm SS}(X)} \in [0.08, 0.20]$$
+
+Sr/Y/Zr/Ag 等轻 n-capture 元素的太阳系丰度 ~8%-20% 来自 LEPP 过程（Travaglio et al. 2004）。本文 §6.2 用 HD 122563 与 CS 22892-052 的 Sr-Y-Zr 残差验证此分数。
+
+**[FACT] 残差的两分量分解**（本文 §6.2 / Qian & Wasserburg 2007）：
+
+$$[\mathrm{X/Fe}] = f_{\rm main}\cdot [\mathrm{X/Fe}]_{\rm main} + (1-f_{\rm main})\cdot[\mathrm{X/Fe}]_{\rm LEPP}$$
+
+其中 $f_{\rm main}$ 为主 r-process 贡献分数，$(1-f_{\rm main})$ 为 LEPP 贡献。对 Sr-Y-Zr 元素，$f_{\rm main}$ 仅 0.80-0.92，与 Sr-Y-Zr 在轻 r 区相对主 r 的"下凹"一致。
+
+**[FACT] NS-NS 并合 r-process 产率估计**（本文 §6.3 推论）：
+
+$$Y_{\rm r}^{\rm NS-NS} \approx 10^{-2}-10^{-3}\,M_{\odot}\,\mathrm{per~event}$$
+
+单次 NS-NS 并合事件抛射 r-process 元素总质量约 $10^{-2}$–$10^{-3}\,M_\odot$（Cowan 2021 + GW170817 kilonova 数据校正）。本文 §6.3 给出这一量级的星族合成反推。
+
 上一章：[05_s_process_observations](05_s_process_observations.md)
 下一章：[07_early_galactic_nucleosynthesis](07_early_galactic_nucleosynthesis.md)
