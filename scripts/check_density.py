@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """check_density.py — 精读内容密度门禁
 
-阈值（基于全库实测基线）：
-  FACT密度 ≥ 3 /千字（理论类）
-  公式数   ≥ 50（理论类）；≥ 0（观测/实验类，豁免）
-  解读批判比 ≥ 10%（INTERP+CRIT）/ 全部标记
+阈值（基于质量标杆：nomoto=12.7 / drury=7.2 / giacalone=4.4 的下沿）：
+  FACT密度 ≥ 4.0 /千字（理论类）
+  公式数   ≥ 50（理论类）；豁免：sneden-cowan-2008（观测综述）
+  解读批判比 暂不设（误杀率高）
 
 用法：
   python3 scripts/check_density.py [--json]
@@ -17,13 +17,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-# 观测/实验类论文（公式豁免）
+# 纯观测/数据类（公式豁免）——必须是观测综述，不含理论模型推导
 OBSERVATIONAL = {
     "sneden-cowan-2008",    # 观测丰度综述，公式少
-    "busso-1999",            # 观测+理论混合，公式少
 }
 
-# 公式优先理论论文（FACT密度门槛豁免，但公式数仍需 ≥50）
+# 公式优先理论论文（FACT密度门槛豁免，公式数仍需 ≥50）
 FORMULA_FIRST = {
     "amato-blasi-2018",       # 宇宙线加速理论，方程主导
     "weinrich-2020",          # 宇宙线传播模型，方程主导
@@ -32,14 +31,10 @@ FORMULA_FIRST = {
     "blandford-eichler-1987",  # 宇宙线加速，方程密集
 }
 
-# 阈值说明（基于全库实测）：
-# - 理论物理类（宇宙线传播/加速）：高公式密度，INTERP 标签一般偏少
-# - 观测/数据综述类：公式少但 FACT 密度应高
-# - 混合类（核合成）：两指标互补
+# 阈值（基于质量标杆，不是现状最差值）
 THRESHOLDS = {
-    "fact_density_min": 2.0,      # 宽松门槛（arnould=2.4 为当前最低）
-    "formula_min": 0,              # 不设公式门槛（观测综述类天然少公式，易误杀）
-    "interpretation_ratio_min": 0.0,  # 暂不设（误杀率高，见全库多篇 <10% 但质量正常）
+    "fact_density_min": 4.0,   # 标杆下沿（nomoto=12.7/drury=7.2/giacalone=4.4）
+    "formula_min": 50,         # 理论综述类 ≥50 公式（0=系统性缺失）
 }
 
 
@@ -56,7 +51,6 @@ def analyze_lit(dirpath: Path):
     total_crit = 0
     total_formulas = 0
     total_words = 0
-    all_tag_lines = []
 
     for fp in files:
         if fp.name in ("00_overview.md",):
@@ -65,14 +59,10 @@ def analyze_lit(dirpath: Path):
         words = count_words(text)
         total_words += words
 
-        # Tags
         total_fact   += len(re.findall(r"\[FACT\]", text))
         total_interp += len(re.findall(r"\[INTERP\]", text))
         total_crit   += len(re.findall(r"\[CRITIQUE\]", text))
         total_formulas += len(re.findall(r"\$[^$]+\$", text))
-
-        # For ratio: lines containing a tag
-        all_tag_lines.extend(re.findall(r"^\[.+\]", text, re.MULTILINE))
 
     tagged = total_fact + total_interp + total_crit
     interp_ratio = (total_interp + total_crit) / tagged if tagged > 0 else 0.0
@@ -91,12 +81,11 @@ def analyze_lit(dirpath: Path):
     }
 
 
-def check_paper(dirpath: Path, is_observational: bool) -> dict:
+def check_paper(dirpath: Path) -> dict:
     """返回 pass/fail 及失败原因"""
     d = analyze_lit(dirpath)
     failures = []
     name = dirpath.parent.name
-    # Strip leading index prefix (e.g. "0002_amato-blasi-2018" -> "amato-blasi-2018")
     pure_name = re.sub(r"^\d+_", "", name)
     is_formula_first = pure_name in FORMULA_FIRST
     is_observational = pure_name in OBSERVATIONAL
@@ -134,10 +123,8 @@ def main():
             lit_dir = paper_dir / "literature_analysis"
             if not lit_dir.exists():
                 continue
-            name = paper_dir.name
-            is_obs = name in OBSERVATIONAL
-            r = check_paper(lit_dir, is_obs)
-            r["name"] = name
+            r = check_paper(lit_dir)
+            r["name"] = paper_dir.name
             r["domain"] = domain
             results.append(r)
 
@@ -148,9 +135,8 @@ def main():
         print(json.dumps({"papers": results, "fails": fails}, indent=2, ensure_ascii=False))
         return
 
-    # Human-readable
     print(f"\n{'='*70}")
-    print(f"{'精读密度审计':^60}  (阈值: FACT密度≥2.0/千字)")
+    print(f"{'精读密度审计':^60}  (阈值: FACT密度≥4.0/千字, 公式≥50, sneden观测豁免)")
     print(f"{'='*70}")
     print(f"{'论文':<40} {'FACT密度':>8} {'公式':>5} {'解读比':>8} {'判定':>6}")
     print("-"*70)
@@ -161,7 +147,7 @@ def main():
         if r.get("is_formula_first"):
             tag = " [公式优先]"
         elif r.get("is_observational"):
-            tag = " [观测类]"
+            tag = " [观测豁免]"
         print(f"{r['name']:<40} {r['fact_density']:>7.1f} {r['formulas']:>5} "
               f"{r['interp_ratio']:>7.0%} {status:>6}{tag}")
         if not r["pass"]:

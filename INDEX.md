@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **51 篇文献**、**530 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **51 篇文献**、**543 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -345,7 +345,7 @@
 |---|---|
 | 作者 | A. R. Bell |
 | 期刊 |  |
-| 分析文件 | 5 个（00_overview.md、01_introduction.md、97_quality_check.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_acceleration_shock_front.md、03_nonrelativistic_spectrum.md、04_cosmic_ray_generation.md、…等 9 个） |
 | 目录 | [`02_cosmic-ray-origins/0019_bell-1978-ii/literature_analysis/`](02_cosmic-ray-origins/0019_bell-1978-ii/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0019_bell-1978-ii/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0019_bell-1978-ii/literature_analysis/99_final_summary.md) |
@@ -629,11 +629,11 @@
 
 ### `0021_karakas-lattanzio-2014`
 
-****
+**The Dawes Review 2: Nucleosynthesis and Stellar Yields of Low- and Intermediate-Mass Single Stars**
 
 |  |  |
 |---|---|
-| 作者 |  |
+| 作者 | Amanda I. Karakas, John C. Lattanzio |
 | 期刊 |  |
 | 分析文件 | 15 个（00_overview.md、01_introduction.md、02_preagb.md、03_agb_tp_hbb.md、04_tdu.md、…等 15 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0021_karakas-lattanzio-2014/literature_analysis/`](03_stellar-nucleosynthesis/0021_karakas-lattanzio-2014/literature_analysis/) |
@@ -648,9 +648,10 @@
 |---|---|
 | 作者 | M. Busso, R. Gallino, G. J. Wasserburg |
 | 期刊 |  |
-| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_stellar_evolution_prior_agb.md、03_agb_and_slow_n_capture.md、04_low_mass_agb_evolution.md、…等 9 个） |
+| 分析文件 | 12 个（00_overview.md、01_introduction.md、02_stellar_evolution_prior_agb.md、03_agb_and_slow_n_capture.md、04_low_mass_agb_evolution.md、…等 12 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/`](03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/) |
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/99_final_summary.md) |
 
 ### `0023_eichler-1989`
 
@@ -660,7 +661,7 @@
 |---|---|
 | 作者 | David Eichner, Mario Livio, Tsvi Piran, David N. Schramm |
 | 期刊 |  |
-| 分析文件 | 5 个（00_overview.md、01_eichler-1989.md、97_quality_check.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 11 个（00_overview.md、01_eichler-1989.md、02_formation_channels_and_rates.md、03_mass_transfer_and_dynamical_evolution.md、04_decompression_and_r_process_synthesis.md、…等 11 个） |
 | 目录 | [`03_stellar-nucleosynthesis/0023_eichler-1989/literature_analysis/`](03_stellar-nucleosynthesis/0023_eichler-1989/literature_analysis/) |
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0023_eichler-1989/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0023_eichler-1989/literature_analysis/99_final_summary.md) |
@@ -685,8 +686,8 @@
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
 | 01. 宇宙线传播 | 7 | 66 |
-| 02. 宇宙线起源 | 20 | 197 |
-| 03. 恒星核合成与元素丰度 | 24 | 267 |
-| **合计** | **51** | **530** |
+| 02. 宇宙线起源 | 20 | 201 |
+| 03. 恒星核合成与元素丰度 | 24 | 276 |
+| **合计** | **51** | **543** |
 
 > 最后更新: 2026-08-16（自动生成）
