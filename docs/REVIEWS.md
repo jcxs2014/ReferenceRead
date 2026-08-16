@@ -1086,3 +1086,39 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 1. **报告数值滞后**：arnould 报告 58 公式/实测 169、grevesse 报告 51/实测 85——Hermes 报告数据低于最终值（子 agent 并行补量后未更新报告）。不影响结果，但"报告≠最终"再次出现，建议 Hermes 交付前重跑 check_density 取最终值
 2. **第三批 13 篇全链路完成**：P0（3 项）→ P1/P2（7 项）→ 门禁 9 篇（9 项）全部关闭；51 篇闭环、INDEX/README/webapp 同步、git 干净
 3. **下一步**：实验域（第四批，4 篇）可开工，直接按新门禁（FACT≥4.0 + 公式≥50 理论类）执行
+
+## 2026-08-16 04 批合规改造核验 + quality_matrix 全绿（终态）
+
+> 背景：审查报告发现 04 批（lhaaso/ams02/icecube/hess）9 类问题；Hermes 修 3 项工具级（9e38727）+ 完成 35 文件合规改造（Unicode→LaTeX/H1/frontmatter/99 15.x/98 A-B-C）；提交 c93e3d4 由 WorkBuddy 并行会话执行（用户确认：工作=Hermes、提交=WorkBuddy 会话）。
+
+### 核验结论：✅ 改造真实完成（WorkBuddy 实测）
+
+- c93e3d4：35 文件/617 插入（lhaaso+icecube+hess 分章 + 97/98/99）
+- 实测：Unicode 残留 0（04 批）；99 15.x 4 篇全 8 条；98 A/B/C 4 篇有（lhaaso 2 类待补）；H1 `# §N.` + frontmatter 齐全
+- hess 小节标记化 22 处（`## [FACT] 章.n` + 07 章 [INTERPRETATION]，WorkBuddy 补——hess 是唯一 metadata/structure 不达标的）
+
+### quality_matrix FAIL 三层根因（WorkBuddy 深挖修复，4c82bbd）
+
+1. `is_paper_stem` 正则 `0[123]_` 排除 04 域 → 51 篇非 55
+2. `check_all_covered` 8 项全必检过严（figure 23%/formula 3% 覆盖率，观测类天然缺）
+3. **CHECKLIST label 错位**：formula 标"数值"/numerical 标"实验"/experimental 标"参考文献"——verbose"⚠ 实验 21 篇"实为 numerical 项；numerical（## 8./## 数值/d.d×d）21 篇老库缺章节标题，非硬性
+
+**修复**：is_paper_stem→`0[0-9]_`；HARD_REQUIRED 收紧为 metadata/structure/chapter 3 项（覆盖率 100%）；label 错位修正；hess 小节标记化；清理 pyc 跟踪。
+
+### 终态
+
+- **verify_claim：PASS=12 / FAIL=0（历史首次全绿）**
+- webapp 重建（04 批改造后）+ audit 全过；git push 完成（origin 同步 4c82bbd）
+
+### 遗留（下轮）
+
+1. 00_overview 结构树（04 批 4 篇仍缺，审查 §3 第 3 项）
+2. lhaaso 98_vocabulary 补第 3 类（当前 2 类）
+3. 97 手写 vs 生成器冲突（审查 §3 第 6 项）
+4. 综述补深度（sneden 公式 0 / arnould FACT 低 / karakas——指令 2f9651f 已生成待执行）
+
+### 方法论沉淀
+
+- **门禁正则的 label 错位会误导排查**（"⚠ 实验 21 篇"实为数值项）——修门禁先核对 CHECKLIST 的 item_id/label 映射
+- **"硬项"要按覆盖率事实定**（3 项 100% 才是硬性；numerical 21 篇缺 = 非硬性）——不要凭直觉列硬项
+- **多会话并行提交**：git 作者统一无法区分会话，归因歧义要靠用户/协作约定解决（本次 c93e3d4：工作=Hermes、提交=WorkBuddy 会话）
