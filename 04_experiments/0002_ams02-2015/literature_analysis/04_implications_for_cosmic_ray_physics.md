@@ -60,6 +60,8 @@ $$
 | 太阳调制势 $\phi$ | 0.4–0.6 GV（静磁近圆模型） | 0.50–0.62 GV（本文 fit） |
 | 变硬转折点 | 无（传统 Kolmogorov） | $R_0 = 336$ GV |
 
+[FACT] 传播指数 $\delta$ 的时钟方法测量（mewaldt-2001）给出 $\delta \approx 0.3$，与 AMS-02 隐含 $\delta \approx 0.7$ 存在显著张力（原文 p.6，§Implications），是当前 CR 传播研究的核心未决问题之一
+
 ## 4.5 图表分析
 
 **与库内文献对照**：
