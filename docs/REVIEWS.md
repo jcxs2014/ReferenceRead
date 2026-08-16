@@ -1053,3 +1053,36 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 - **数字守恒抽查脚本化**：PDF pdftotext 与分章 grep 对照（如 [Fe/H]、效率%、并合率等特征数值）应纳入 build_all 质控
 - **行数门槛要区分"全文件"vs"分章"口径**：97_quality_check 统计的是全文件（含 00/97/98/99），门槛按此判定；分章行数是辅证
 - **相似度 >10% = 分章搬运 00 内容**：脚本化监控（已纳入 quality_matrix？需确认）
+
+## 2026-08-16 9 篇密度门禁失败关闭核验（第三批终态）✅
+
+> commit 链：ac181a9（bell/hillas 入 FORMULA_FIRST）→ b9d9a9f（arnould/busso/karakas 公式补全）→ 5b4af24（kotera 82）→ f90ed21（nomoto-suzuki 134 手动提取）→ 30ffa3b（grevesse/mewaldt）
+
+### 核验结果：全部真实落地
+
+- **check_density.py 重跑：51/51 通过、0 失败** ✅（WorkBuddy 实测，非转述）
+- **git 0 M 干净** ✅
+- FORMULA_FIRST 名单确认含 bell-1978 / hillas-1984（注释注明 221/353 公式、26%/27% 解读批判）✅
+- 阈值注释已改为"基于质量标杆，不是现状最差值"——方法论被吸收 ✅
+- nomoto-suzuki 分章实测 131 处 `$`（check_density 134，口径略差但公式真实在分章），enriched.md 中间文件已清理 ✅
+- arnould 分章实测 113 处 `$`（公式真实落地）✅
+
+### 9 篇最终数据（check_density 实测）
+
+| 篇 | FACT | 公式 | 状态 |
+|---|---|---|---|
+| arnould-goriely-2003 | 4.9 | **169** | ✅（报告写 58，实 169——子 agent 补量超报告） |
+| busso-1999 | 10.0 | **95** | ✅ |
+| karakas-lattanzio-2014 | 21.2 | **224** | ✅ |
+| kotera-olinto-2011 | 9.4 | **82** | ✅ |
+| nomoto-suzuki-2014 | 12.7 | **134** | ✅ |
+| grevesse-sauval-1998 | 4.4 | **85** | ✅（报告写 51，实 85） |
+| mewaldt-2001-clocks | 4.4 | 292 | ✅ |
+| bell-1978 | 2.5 | 221 | ✅ [公式优先] |
+| hillas-1984 | 2.7 | 353 | ✅ [公式优先] |
+
+### 遗留提示
+
+1. **报告数值滞后**：arnould 报告 58 公式/实测 169、grevesse 报告 51/实测 85——Hermes 报告数据低于最终值（子 agent 并行补量后未更新报告）。不影响结果，但"报告≠最终"再次出现，建议 Hermes 交付前重跑 check_density 取最终值
+2. **第三批 13 篇全链路完成**：P0（3 项）→ P1/P2（7 项）→ 门禁 9 篇（9 项）全部关闭；51 篇闭环、INDEX/README/webapp 同步、git 干净
+3. **下一步**：实验域（第四批，4 篇）可开工，直接按新门禁（FACT≥4.0 + 公式≥50 理论类）执行
