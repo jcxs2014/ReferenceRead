@@ -1,0 +1,978 @@
+Article
+Ultrahigh-energy photons up to 1.4
+petaelectronvolts from 12 γ-ray Galactic
+sources
+https://doi.org/10.1038/s41586-021-03498-z A list of authors and affiliations appears at the end of the paper.
+Received: 21 October 2020
+The extension of the cosmic-ray spectrum beyond 1 petaelectronvolt (PeV; 1015
+Accepted: 26 March 2021 electronvolts) indicates the existence of the so-called PeVatrons—cosmic-ray
+Published online: 17 May 2021 factories that accelerate particles to PeV energies. We need to locate and identify such
+objects to find the origin of Galactic cosmic rays1. The principal signature of both
+Check for updates
+electron and proton PeVatrons is ultrahigh-energy (exceeding 100 TeV) γ radiation.
+Evidence of the presence of a proton PeVatron has been found in the Galactic Centre,
+according to the detection of a hard-spectrum radiation extending to 0.04 PeV (ref. 2).
+Although γ-rays with energies slightly higher than 0.1 PeV have been reported from a
+few objects in the Galactic plane3–6, unbiased identification and in-depth exploration
+of PeVatrons requires detection of γ-rays with energies well above 0.1 PeV. Here we
+report the detection of more than 530 photons at energies above 100
+teraelectronvolts and up to 1.4 PeV from 12 ultrahigh-energy γ-ray sources with a
+statistical significance greater than seven standard deviations. Despite having several
+potential counterparts in their proximity, including pulsar wind nebulae, supernova
+remnants and star-forming regions, the PeVatrons responsible for the
+ultrahigh-energy γ-rays have not yet been firmly localized and identified (except for
+the Crab Nebula), leaving open the origin of these extreme accelerators.
+LHAASO is a dual-task facility designed for cosmic-ray (CR) and γ-ray many hot spots as clusters of γ-rays in specific directions of the sky.
+studies at teralectronvolt and petaelectronvolt energies. It consists of While the study of the serendipitous search for γ-ray sources is under-
+three interconnected detectors—the Water Cherenkov Detector Array way, here we report 12 γ-ray sources with energies ≥100 TeV detected
+(WCDA), Kilometer Square Array (KM2A) and Wide Field-of-view Cher- with statistical significance ≥7σ (see Table 1). From two of them, γ-rays
+enkov Telescope Array (WFCTA)—located at 4,410 m above sea level in with energy exceeding 0.8 PeV were detected, and the energy of the
+Sichuan Province, China7 (see Extended Data Fig. 1). most energetic photon detected by LHAASO J2032+4102 is 1.4 PeV.
+Detailed studies of the performance of KM2A have been carried out The first source in the list of reported ≥100-TeV sources is the Crab
+by Monte Carlo simulations, as well as dedicated measurements using Nebula. An energy spectrum approaching 1 PeV provides the first
+the Crab Nebula as a standard candle8. At energies above 100 TeV, under- model-independent evidence that the Crab Nebula operates as an
+ground detectors of the deeply penetrating μ mesons provide excellent electron PeVatron. In KM2A, Crab is detected as a point-like source.
+rejection power (as good as 10−5 at 1 PeV) of the background contributed The majority of remaining sources represent diffuse γ-ray structures
+by CR-induced (hadronic) showers. The vast area of the surface detec- with angular extensions up to 1°, and all of them are located along the
+tors of the electromagnetic component of air showers, coupled with Galactic plane (see Extended Data Fig. 4). At 100 TeV, their fluxes vary
+the high γ–proton (p) separation efficiency, results in a sensitivity of from 0.4 to 4 CU (CU, flux of the Crab Nebula at 100 TeV; 1 CU = 6.1 × 10−17
+the full array—in terms of the minimum detectable energy flux (E2dN/dE, photons TeV−1 cm−2 s−1). In terms of the distance d, the linear size and
+where E is the particle energy and N is the number of particles)—that γ-ray luminosity of the sources at 100 TeV are l = 17.5 θ d pc and
+approaches 10−14 erg cm−2 s−1, which is substantially below the flux sen- L ≈1032( d ) 2 CU erg s−1, respectively, where θ 1° is (1 t k h p e c) angular
+sitivities of other current and planned space-borne and ground-based UHE 1kpc
+size of the emitter.
+γ-ray detectors. At 100 TeV, the angular and energy resolutions are about
+Figure 1 shows the spectral energy distributions of three luminous
+15–20 arcmin and better than 20%, respectively, allowing adequate spec-
+sources with fluxes exceeding 1 CU (at 100 TeV): LHAASO J1825-1326,
+troscopic and morphological studies. The detection of γ-rays from an
+LHAASO J1908+0621 and LHAASO J2226+6057. Above 100 TeV, the
+ultrahigh-energy (UHE) source of Crab Nebula strength (energy flux at
+100 TeV of E2dN/dE ≈ 10−12 erg cm−2 s−1) proceeds in the background-free spectra of these sources are steep, characterized by a power-law
+photon index of Γ ≈ 3. However, a closer look reveals that between
+regime with a rate of 0.1 photon per hour, which exceeds the detection
+10 TeV and500 TeV, the spectra experience gradual steepening with
+rate of CR-induced showers (after the so-called ‘muon cuts’) by more
+than an order of magnitude, even for extended, 1°-sized γ-ray emitters8. energy. To explore this tendency, the spectra were fitted by the
+so-called log-parabola function dN/dE ∝ E−Γ(E), where the local pho-
+The analysis of showers detected within a large field of view by the
+ton index Γ(E) = a + blogE (a nad b are free parameters) characterizes
+partly completed KM2A in less than one year of operation has revealed
+Nature | Vol 594 | 3 June 2021 | 33
+Article
+Table 1 | UHE γ-ray sources
+Source name RA (°) dec. (°) Significance above 100 TeV (×σ) E (PeV) Flux at 100 TeV (CU)
+max
+LHAASO J0534+2202 83.55 22.05 17.8 0.88 ± 0.11 1.00(0.14)
+LHAASO J1825-1326 276.45 −13.45 16.4 0.42 ± 0.16 3.57(0.52)
+LHAASO J1839-0545 279.95 −5.75 7.7 0.21 ± 0.05 0.70(0.18)
+LHAASO J1843-0338 280.75 −3.65 8.5 0.26−0.10+0.16 0.73(0.17)
+LHAASO J1849-0003 282.35 −0.05 10.4 0.35 ± 0.07 0.74(0.15)
+LHAASO J1908+0621 287.05 6.35 17.2 0.44 ± 0.05 1.36(0.18)
+LHAASO J1929+1745 292.25 17.75 7.4 0.71−0.07+0.16 0.38(0.09)
+LHAASO J1956+2845 299.05 28.75 7.4 0.42 ± 0.03 0.41(0.09)
+LHAASO J2018+3651 304.75 36.85 10.4 0.27 ± 0.02 0.50(0.10)
+LHAASO J2032+4102 308.05 41.05 10.5 1.42 ± 0.13 0.54(0.10)
+LHAASO J2108+5157 317.15 51.95 8.3 0.43 ± 0.05 0.38(0.09)
+LHAASO J2226+6057 336.75 60.95 13.6 0.57 ± 0.19 1.05(0.16)
+Celestial coordinates (RA, dec.); statistical significance of detection above 100 TeV (calculated using a point-like template for the Crab Nebula and LHAASO J2108+5157 and 0.3° extension
+templates for the other sources); the corresponding differential photon fluxes at 100 TeV; and detected highest photon energies. Errors are estimated as the boundary values of the area that
+contains ±34.14% of events with respect to the most probable value of the event distribution. In most cases, the distribution is a Gaussian and the error is 1σ.
+the slope of the tangent. For all three spectra, the log-parabola fits large spin-down luminosity, the Crab Nebula is a luminous γ-ray source.
+are preferred over simple power-law fits. The gradual steepening of The rotational powers of other pulsars are smaller by orders of magni-
+multi-hundred-teraelectronvolt γ-rays is partly due to the γ–γ absorp- tude. On the other hand, the magnetic field strength in the surrounding
+tion that occurs during their interactions with the diffuse far-infrared nebulae is typically smaller than 10 μG. This dramatically enhances the
+and microwave radiation fields. However, as follows from Fig. 1, for γ-ray production efficiency, which scales as B−2, and thus compensates
+all sources the effect of absorption appears to be small, even at the for the relatively modest rotational power of pulsars. On the basis of
+highest energies. These results demonstrate the capability of KM2A such arguments, pulsar wind nebulae have been predicted, and later
+for spectral measurements of sharply declining γ-ray fluxes. This established, as a prolific teraelectronvolt γ-ray source population9.
+achievement is the result of the combination of: (i) a 1-km2 detection The size of a pulsar wind nebula is determined by the region in which
+area providing adequate UHE photon statistics; (ii) suppression of the electrons, being accelerated at the termination shock, advect with the
+CR background at the level of 10−5, enabling background-free detec- nebular flow. Typically, it varies between a few to 10 parsecs. These
+tion of γ-rays; and (iii) an energy resolution of <20% constraining the hydrodynamical (usually asymmetric) formations are enveloped by
+spillover that mainly occurs in the neighbouring energy channels with larger and more regular structures consisting of relativistic electrons
+a width of Δ(logE) = 0.2. and positrons that have already left the nebula and propagate diffu-
+In Fig. 1, we show also the significance maps of γ-rays with E ≥ 25 TeV. sively in the interstellar medium9. The spectrum and energy-dependent
+The two-dimensional images of these sources extend to at least 1°, morphology of γ-rays depend on the character of propagation of elec-
+implying that γ-ray emitters occupy huge (≥104 pc3) regions in the trons10,11; therefore, it can be used to measure the diffusion coefficient
+Galactic plane. Although γ-ray emission itself indicates the presence in the interstellar medium9,12. It has been argued13,14 that a considerable
+of active or recent particle accelerators inside or in the proximity of fraction of the extended multi-teraelectronvolt γ-ray sources detected
+γ-ray-emitting regions, the localization and identification of particle by HAWC are linked to these giant ‘halos’. This could be also the case for
+accelerators is not a trivial task and requires deep theoretical and phe- some of the LHAASO sources that presumably host energetic pulsars
+nomenological studies based on comprehensive multi-wavelength (see Extended Data Table 2).
+data. A possible realization of this scenario is demonstrated in Extended
+Not surprisingly, in the vicinity of the extended UHE sources, one can Data Fig. 5 for LHAASO J1908+0621. It is assumed that electrons
+find potential counterparts for both the γ-ray production regions and are injected with a rate that closely follows the time history of the
+the nearby particle accelerators (see Extended Data Table 2). The list spin-down luminosity of the pulsar PSR J1907+0602, receiving a
+includes candidates that are potentially responsible for the electron and constant 6% of the spin-down power. The γ-ray spectral points with
+proton PeVatrons in the Milky Way: pulsars and pulsar wind nebulae, energies from gigaelectronvolt to several hundred teraelectronvolts
+supernova remnants and young massive star clusters. Detailed studies could be explained by a power-law spectrum of accelerated electrons
+of the spectral and morphological features of UHE sources and their with index α = 1.75, and a super-exponential cutoff at E = 0.8 PeV (see
+e 0
+astrophysical implications are beyond the scope of this paper. The Methods). Although acceleration at the wind termination shock could,
+results of in-depth studies of individual LHAASO sources, including the in principle, boost the energy of electrons to 1 PeV, their escape from
+data from both WCDA and KM2A, acquired over three decades from the acceleration site and further propagation over distances of tens of
+1 TeV to 1 PeV, will be published elsewhere. Here we limit the discussion parsecs is a challenge. Alternatively, UHE γ-rays can be explained by
+to a few general comments on the origin of the UHE radiation. interactions of protons with the ambient gas through the production
+The only firmly identified source in Table 1 is the Crab Nebula, a repre- and decay of π0 mesons. If the reported fluxes at gigaelectronvolt and
+sentative of pulsar wind nebulae, one of the largest nonthermal source teraelectronvolt energies are linked to the UHE source, it is difficult to
+populations in our Galaxy. The Crab Nebula is a peculiar pulsar wind fit the spectral points in the entire gigaelectronvolt–petaelectronvolt
+nebula. It differs from other members of this source population by the energy range of γ-rays using, for example, a simple power law with an
+Crab pulsar’s huge spin-down luminosity, L ≈ 5 × 1038 erg s−1, compact exponential cutoff or broken-power-law proton spectra. However, a
+0
+size (a few parsecs) and large nebular magnetic field, B ≈ 100 μG. The more complex spectral distribution—for example, a broken power
+latter makes the conversion of the energy of relativistic electrons to law with an exponential cutoff—can fit the data (see Methods and
+inverse Compton γ-rays inefficient, as low as 0.01%. Yet, thanks to the Extended Data Fig. 5). The production of hadronic UHE γ-rays can
+34 | Nature | Vol 594 | 3 June 2021
+10–11
+10–12
+10–13
+10–14
+101 102 103101 102 103101 102 103
+Energy (TeV) Energy (TeV) Energy (TeV)
+be realized in a scenario in which the accelerated particles have left and morphological studies of this object, which is located in a rather
+their acceleration site (for example, a supernova remnant) and have complex region crowded by several competing sources, is foreseen
+entered nearby high-density clouds15. The energy spectrum of protons for the coming 1–2 years.
+approaching the clouds depends not only on the initial (acceleration) Regardless of the nature of objects associated with the UHE sources,
+spectrum but also on the propagation (energy-dependent) timescales the photons detected by LHAASO far beyond 100 TeV prove the exist-
+of CRs and on the distances to the clouds. Therefore, one may indeed ence of Galactic PeVatrons. Moreover, it is likely that the Milky Way is
+expect unusual energy distributions of CRs inside the clouds16. In this full of these perfectly designed particle accelerators. The acceleration
+scenario, the middle-aged supernova remnant SNR G40.5-0.5, over- of protons to petaelectronvolt energies requires extreme physical
+lapping with the image of LHAASO J1908+0621, could play the role conditions, representing a challenge for any Galactic source popula-
+of the particle accelerator. It is too old to be a multi-teraelectronvolt tion, including supernova remnants and young massive star clusters,
+γ-ray emitter itself, but CR protons and nuclei accelerated at the early as suspected major contributors to Galactic CRs. Pulsar wind nebu-
+epochs of this supernova remnant can initiate high-energy emis- lae as potential (in fact, the only feasible) electron PeVatrons in our
+sion in the surrounding clouds. If confirmed, this would be the first Galaxy require even more extreme theoretical speculations. The 12
+strong evidence of acceleration of petaelectronvolt protons by an UHE sources reported here, detected at about 1 CU, reveal only the
+supernova remnant. tip of the iceberg. In the coming years, observations with LHAASO will
+Although supernova remnants remain prime candidates as sup- reduce the flux detection threshold by at least an order of magnitude.
+pliers of Galactic CRs, massive stars with powerful winds have been This will dramatically increase the number of UHE sources and, at the
+proposed as a viable alternative to supernova remnants17,18, primarily as same time, provide high-quality energy spectra and the morphology of
+contributors to the ‘knee’ region around 1 PeV. A preference for young UHE sources in the flux range of 1 CU. Extension of the spectra without
+massive star clusters as proton PeVatrons over supernova remnants an indication of a cutoff beyond several petaelectronvolts would not
+has recently been argued in the context of the 1/r-type (where r is the only robustly identify the hadronic origin of the UHE γ radiation but,
+distance from the cluster) spatial distributions of parent protons, more importantly, would reveal the sites of super-PeVatrons, the CR
+derived from the observations of extended teraelectronvolt γ-ray factories in the Milky Way responsible for the locally observed flux of
+sources associated with luminous stellar clusters, in particular with CRs well above the ‘knee’.
+Cygnus OB219. The positional coincidence of LHAASO J2032+4102
+with the Cygnus Cocoon that surrounds Cygnus OB2, and with pho-
+Online content
+tons exceeding 1 PeV emitted from it, can be treated as evidence of
+the operation of massive stars as hadronic PeVatrons. The leptonic Any methods, additional references, Nature Research reporting sum-
+(inverse Compton) origin of radiation can be excluded because of the maries, source data, extended data, supplementary information,
+lack of brightening of the γ-ray image towards Cygnus OB2. A decisive acknowledgements, peer review information; details of author contri-
+test for the acceleration of protons, presumably via collisions of the butions and competing interests; and statements of data and code avail-
+stellar winds, and continuous injection into the circumstellar medium ability are available at https://doi.org/10.1038/s41586-021-03498-z.
+over million-year timescales, would be the derivation of hard injec-
+tion spectra and a radial dependence of the density of UHE protons.
+1. Aloisio, R., Coccia, E. & Vissani, F. (eds) Multiple Messengers and Challenges in
+Adequate photon statistics provided by LHAASO for spectrometric Astroparticle Physics (Springer, 2018).
+Nature | Vol 594 | 3 June 2021 | 35
+)1–s
+2–mc
+gre(
+Ed/Nd2E
+LHAASO J2226+6057 LHAASO J1908+0621
+63 20
+8 62 15 7 10
+61
+6 5
+60
+0 5
+59 334 336 338 340 285 286 287 288 289 Right ascension (°) Right ascension (°)
+)°( noitanilceD )°( noitanilceD )°( noitanilceD
+LHAASO J1825-1326
+20 20
+–12 15 15 10 –13 10
+5 –14 5
+0 –15 0
+275 276 277 278 Right ascension (°)
+Fig. 1 | Spectral energy distributions and significance maps. a–c, Data are AIC = 11.6 and AIC = 14.8 for LHAASO J1825-1326. The insets show the
+LOG PL
+shown for LHAASO J2226+6057 (a), LHAASO J1908+0621 (b), and LHAASO significance maps of the three sources, obtained for γ-rays above 25 TeV. The
+J1825-1326 (c). Spectral fits with a log-parabola function (solid lines) in the form colour bars show the square root of test statistics (TS), which is equivalent to
+of [E/(10 TeV)]−a − blog[E/(10 TeV)] are compared with the power-law fits E−Γ for: a = 1.56, the significance. The significance ( TS) maps are smoothed with the
+b = 0.88 and Γ = 3.01 (a); a = 2.27, b = 0.46 and Γ = 2.89 (b); and a = 0.92, b = 1.19 Gaussian-type point spread function (PSF) of each source. The size of PSFs (68%
+and Γ = 3.36 (c). The dotted curves correspond to the log-parabola fits contamination regions) are shown at the bottom right of each map. We note
+corrected for the interstellar γ−γ absorption (see Methods for the radiation that the PSFs of the three sources are slightly different owing to different
+fields and Extended Data Fig. 6 for the opacity curves). The comparison of the inclination angles. Namely, the 68% contamination angles are 0.49° for
+power-law (PL) model and the log-parabola (LOG) model with the Akaike LHAASO J2226+6057, 0.45° for LHAASO J1908+0621 and 0.62° for LHAASO
+Information Criterion20 (AIC) gives: AIC = 12.3 and AIC = 24.4 for LHAASO J1825-1326. Error bars represent one standard deviation.
+LOG PL
+J2226+6057; AIC = 15.1 and AIC = 30.1 for LHAASO J1908+0621; and
+LOG PL
+Article
+2. HESS Collaboration. Acceleration of petaelectronvolt protons in the Galactic Centre. Y. F. Liang28, S. J. Lin18, B. Liu7, C. Liu1,2, D. Liu22, H. Liu8, H. D. Liu24, J. Liu1,2, J. L. Liu29,30,
+✉
+Nature 531, 476–479 (2016). J. S. Liu18, J. Y. Liu1,2, M. Y. Liu16, R. Y. Liu10 , S. M. Liu13, W. Liu1,2, Y. N. Liu23, Z. X. Liu9,
+3. Amenomori, M. et al. First detection of photons with energy beyond 100 TeV from an W. J. Long8, R. Lu19, H. K. Lv1,2, B. Q. Ma27, L. L. Ma1,2, X. H. Ma1,2, J. R. Mao25, A. Masood8,
+astrophysical source. Phys. Rev. Lett. 123, 051101 (2019). W. Mitthumsiri31, T. Montaruli20, Y. C. Nan22, B. Y. Pang8, P. Pattarakijwanich31, Z. Y. Pei11,
+4. Abeysekara, A. U. et al. Multiple Galactic sources with emission above 56 TeV detected by M. Y. Qi1,2, D. Ruffolo31, V. Rulev26, A. Sáiz31, L. Shao14, O. Shchegolev26,32, X. D. Sheng1,2,
+HAWC. Phys. Rev. Lett. 124, 021102 (2020). J. R. Shi1,2, H. C. Song27, Yu. V. Stenkin26,32, V. Stepanov26, Q. N. Sun8, X. N. Sun28, Z. B. Sun33,
+5. Abeysekara, A. U. et al. HAWC observations of the acceleration of very-high-energy P. H. T. Tam18, Z. B. Tang6,7, W. W. Tian3,17, B. D. Wang1,2, C. Wang33, H. Wang8, H. G. Wang11,
+cosmic rays in the Cygnus Cocoon. Nat. Astron. https://doi.org/10.1038/s41550-021- J. C. Wang25, J. S. Wang29,30, L. P. Wang22, L. Y. Wang1,2, R. N. Wang8, W. Wang18, W. Wang12,
+01318-y (2021). X. G. Wang28, X. J. Wang1,2, X. Y. Wang10, Y. D. Wang1,2, Y. J. Wang1,2, Y. P. Wang1,2,3,
+6. Amenomori, M. et al. Potential PeVatron supernova remnant G106.3+2.7 seen in the Zheng Wang6,1,2, Zhen Wang29,30, Z. H. Wang9, Z. X. Wang19, D. M. Wei13, J. J. Wei13, Y. J. Wei1,2,3,
+highest-energy gamma rays. Nat. Astron. https://doi.org/10.1038/s41550-020-01294-9 T. Wen19, C. Y. Wu1,2, H. R. Wu1,2, S. Wu1,2, W. X. Wu8, X. F. Wu13, S. Q. Xi8, J. Xia7,13, J. J. Xia8,
+(2021). G. M. Xiang3,15, G. Xiao1,2, H. B. Xiao11, G. G. Xin12, Y. L. Xin8, Y. Xing15, D. L. Xu29,30, R. X. Xu27,
+7. Cao, Z. A future project at Tibet: the large high altitude air shower observatory (LHAASO). L. Xue22, D. H. Yan25, C. W. Yang9, F. F. Yang6,1,2, J. Y. Yang18, L. L. Yang18, M. J. Yang1,2,
+✉
+Chin. Phys C 34, 249–252 (2010). R. Z. Yang7 , S. B. Yang19, Y. H. Yao9, Z. G. Yao1,2, Y. M. Ye23, L. Q. Yin1,2, N. Yin22, X. H. You1,2,
+8. Aharonian, F. et al. Observation of the Crab Nebula with LHAASO-KM2A – a performance Z. Y. You1,2,3, Y. H. Yu22, Q. Yuan13, H. D. Zeng13, T. X. Zeng6,1,2, W. Zeng19, Z. K. Zeng1,2,3, M. Zha1,2,
+study. Chin. Phys C 45, 025002 (2021). X. X. Zhai1,2, B. B. Zhang10, H. M. Zhang10, H. Y. Zhang22, J. L. Zhang17, J. W. Zhang9, L. Zhang14,
+9. Aharonian, F. A. Very High Energy Cosmic Gamma Radiation: A Crucial Window on the Li Zhang19, L. X. Zhang11, P. F. Zhang19, P. P. Zhang14, R. Zhang7,13, S. R. Zhang14, S. S. Zhang1,2,
+Extreme Universe (World Scientific, 2004). X. Zhang10, X. P. Zhang1,2, Yong Zhang1,2, Yi Zhang1,13, Y. F. Zhang8, Y. L. Zhang1,2, B. Zhao8,
+10. Liu, R.-Y. & Yan, H. On the unusually large spatial extent of the TeV nebula HESS J1825–137: J. Zhao1,2, L. Zhao6,7, L. Z. Zhao14, S. P. Zhao13,22, F. Zheng33, Y. Zheng8, B. Zhou1,2, H. Zhou29,30,
+implication from the energy-dependent morphology. Mon. Not. R. Astron. Soc. 494, J. N. Zhou15, P. Zhou10, R. Zhou9, X. X. Zhou8, C. G. Zhu22, F. R. Zhu8, H. Zhu17, K. J. Zhu6,1,2,3 &
+2618–2627 (2020). X. Zuo1,2
+11. Giacinti, G., et al. Halo fraction in TeV-bright pulsar wind nebulae. Astron. Astrophys. 636,
+A113 (2020).
+12. Abeysekara, A. U. et al. Extended gamma-ray sources around pulsars constrain the origin
+of the positron flux at Earth. Science 358, 911–914 (2017). 1Key Laboratory of Particle Astrophysics & Experimental Physics Division & Computing
+13. Linden, T. et al. Using HAWC to discover invisible pulsars. Phys. Rev. D 96, 103016 (2017). Center, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing, China.
+14. Sudoh, T., Linden, T. & Beacom, J. F. TeV halos are everywhere: prospects for new 2TIANFU Cosmic Ray Research Center, Chengdu, Sichuan, China. 3University of Chinese
+discoveries. Phys. Rev. D 100, 043016 (2019). Academy of Sciences, Beijing, China. 4Dublin Institute for Advanced Studies, Dublin, Ireland.
+15. Gabici, S. & Aharonian, F. A. Searching for Galactic cosmic-ray pevatrons with multi-TeV 5Max-Planck-Institut for Nuclear Physics, Heidelberg, Germany. 6State Key Laboratory of
+gamma rays and neutrinos. Astrophys. J. Lett. 665, L131–L134 (2007). Particle Detection and Electronics, Beijing, China. 7University of Science and Technology of
+16. Aharonian, F. A. & Atoyan, A. M. On the emissivity of π0-decay gamma radiation in the China, Hefei, China. 8School of Physical Science and Technology & School of Information
+vicinity of accelerators of Galactic cosmic rays. Astron. Astrophys. 309, 917–928 (1996).
+Science and Technology, Southwest Jiaotong University, Chengdu, China. 9College of
+17. Cesarsky, C. J. & Montmerle, T. Gamma-rays from active regions in the Galaxy – the
+possible contribution of stellar winds. Space Sci. Rev. 36, 173–193 (1983). Physics, Sichuan University, Chengdu, China. 10School of Astronomy and Space Science,
+18. Bykov, A. M. et al. High-energy particles and radiation in star-forming regions. Space Sci. Nanjing University, Nanjing, China. 11Center for Astrophysics, Guangzhou University,
+Rev. 216, 42 (2020). Guangzhou, China. 12School of Physics and Technology, Wuhan University, Wuhan, China.
+19. Aharonian, F., Yang, R. & de Oña Wilhelmi, E. Massive stars as major factories of Galactic 13Key Laboratory of Dark Matter and Space Astronomy, Purple Mountain Observatory, Chinese
+cosmic rays. Nat. Astron. 3, 561–567 (2019). Academy of Sciences, Nanjing, China. 14Hebei Normal University, Shijiazhuang, China. 15Key
+20. Akaike, H. A new look at the statistical model identification. IEEE Trans. Automat. Contr. Laboratory for Research in Galaxies and Cosmology, Shanghai Astronomical Observatory,
+19, 716C723 (1974) Chinese Academy of Sciences, Shanghai, China. 16Key Laboratory of Cosmic Rays (Tibet
+University), Ministry of Education, Lhasa, Tibet, China. 17National Astronomical Observatories,
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional affiliations. Chinese Academy of Sciences, Beijing, China. 18School of Physics and Astronomy & School of
+Physics (Guangzhou), Sun Yat-sen University, Zhuhai, China. 19School of Physics and
+© The Author(s), under exclusive licence to Springer Nature Limited 2021 Astronomy, Yunnan University, Kunming, China. 20Département de Physique Nucléaire et
+Corpusculaire, Faculté de Sciences, Université de Genève, Geneva, Switzerland.
+Zhen Cao1,2,3 ✉ , F. A. Aharonian4,5 ✉ , Q. An6,7, Axikegu8, L. X. Bai9, Y. X. Bai1,2, Y. W. Bao10, 21Dipartimento di Fisica dell’Università di Napoli “Federico II”, Complesso Universitario di
+D. Bastieri11, X. J. Bi1,2,3, Y. J. Bi1,2, H. Cai12, J. T. Cai11, Zhe Cao6,7, J. Chang13, J. F. Chang6,1,2, Monte Sant’Angelo, Naples, Italy. 22Institute of Frontier and Interdisciplinary Science,
+X. C. Chang1,2, B. M. Chen14, J. Chen9, L. Chen1,2,3, Liang Chen15, Long Chen8, M. J. Chen1,2, Shandong University, Qingdao, China. 23Department of Engineering Physics, Tsinghua
+M. L. Chen6,1,2, Q. H. Chen8, S. H. Chen1,2,3, S. Z. Chen1,2 ✉ , T. L. Chen16, X. L. Chen1,2,3, Y. Chen10, University, Beijing, China. 24School of Physics and Microelectronics, Zhengzhou University,
+N. Cheng1,2, Y. D. Cheng1,2, S. W. Cui14, X. H. Cui17, Y. D. Cui18, B. Z. Dai19, H. L. Dai1,2,13, Z. G. Dai10, Zhengzhou, China. 25Yunnan Observatories, Chinese Academy of Sciences, Kunming, China.
+Danzengluobu16, D. della Volpe20, B. D′Ettorre Piazzoli21, X. J. Dong1,2, J. H. Fan11, Y. Z. Fan13, 26Institute for Nuclear Research of Russian Academy of Sciences, Moscow, Russia. 27School of
+Z. X. Fan1,2, J. Fang19, K. Fang1,2, C. F. Feng22, L. Feng13, S. H. Feng1,2, Y. L. Feng13, B. Gao1,2, Physics, Peking University, Beijing, China. 28School of Physical Science and Technology,
+C. D. Gao22, Q. Gao16, W. Gao22, M. M. Ge19, L. S. Geng1,2, G. H. Gong23, Q. B. Gou1,2, M. H. Gu6,1,2,
+Guangxi University, Nanning, China. 29Tsung-Dao Lee Institute, Shanghai Jiao Tong University,
+J. G. Guo1,2,3, X. L. Guo8, Y. Q. Guo1,2, Y. Y. Guo1,2,3,13, Y. A. Han24, H. H. He1,2,3, H. N. He13,
+J. C. He1,2,3, S. L. He11, X. B. He18, Y. He8, M. Heller20, Y. K. Hor18, C. Hou1,2, X. Hou25, H. B. Hu1,2,3, Shanghai, China. 30School of Physics and Astronomy, Shanghai Jiao Tong University,
+S. Hu9, S. C. Hu1,2,3, X. J. Hu23, D. H. Huang8, Q. L. Huang1,2, W. H. Huang22, X. T. Huang22, Shanghai, China. 31Department of Physics, Faculty of Science, Mahidol University, Bangkok,
+Z. C. Huang8, F. Ji1,2, X. L. Ji6,1,2, H. Y. Jia8, K. Jiang6,7, Z. J. Jiang19, C. Jin1,2,3, D. Kuleshov26, Thailand. 32Moscow Institute of Physics and Technology, Moscow, Russia. 33National Space
+K. Levochkin26, B. B. Li14, Cong Li1,2, Cheng Li6,7, F. Li6,1,2, H. B. Li1,2, H. C. Li1,2, H. Y. Li7,13, J. Li6,1,2, Science Center, Chinese Academy of Sciences, Beijing, China. ✉e-mail: caozh@ihep.ac.cn;
+K. Li1,2, W. L. Li22, X. Li6,7, Xin Li8, X. R. Li1,2, Y. Li9, Y. Z. Li1,2,3, Zhe Li1,2, Zhuo Li27, E. W. Liang28, felix.aharonian@mpi-hd.mpg.de; chensz@ihep.ac.cn; ryliu@nju.edu.cn; yangrz@ustc.edu.cn
+36 | Nature | Vol 594 | 3 June 2021
+Methods The distributions of E of events that are in each E bin are plotted in
+true rec
+Extended Data Fig. 2a for all 12 bins in the energy range from 10 TeV to
+The LHAASO experiment 2.5 PeV. The distribution is defined as the fraction (dN/dE )/N, where
+true i
+The three major components of LHAASO. The Large High Altitude N is total number of events in the ith bin defined by the reconstructed
+i
+Air Shower Observatory (LHAASO)7 is a complex of extensive air show- energy E . It is found that the non-Gaussian effect is very small. The
+rec
+er (EAS) detector arrays located on Mountain Haizi (29° 21′ 27.6″ N, remaining effect brings some events that have higher true energies to
+100° 08′ 19.6 ″ E), 4,410 m above sea level, in Sichuan, China. It consists the bin at lower E , meaning that the shower energy is underestimated.
+rec
+of three interconnected detector arrays, KM2A, WCDA and WFCTA, as In the opposite direction, there is no clear overestimation effect due
+schematically illustrated in Extended Data Fig. 1. to a non-Gaussian tail. Integrating the fraction in the bin defines the
+WCDA21 reaches a sensitivity of 9 mCU per year for γ-ray sources of so-called bin purity. The purities in all bins are plotted as a function of
+a few teraelectronvolts by using three water ponds of a total area of energy in Extended Data Fig. 2b. The fraction of 67% around 100 TeV
+78,000 m2, filled to a depth of 4.5 m, that fully absorb the air shower indicates that the bin size matches the energy resolution, as expected.
+particles. The shower arrival direction is measured with an angular The remaining 33% of events mainly come from the adjacent bins, as
+resolution of about 0.2° above a few teraelectronvolts. WCDA cov- described by the Gaussian-like functions in Extended Data Fig. 2a. The
+ers a wide energy interval bridging FERMI-LAT and KM2A by having increasing trend with energy demonstrates that the spillover effect due
+the same sensitivity of FERMI-LAT and KM2A at 200 GeV and 20 TeV, to both Gaussian and non-Gaussian features of the resolution function
+respectively. As a detector that continuously surveys 1/6 of the sky at is decreasing with energy. Because the SEDs of γ-ray sources typically
+any moment, WCDA is a device designed for monitoring and following follow a very steep power law—for example, with an index of −3.09 for
+up any transient phenomenon that may happen in its energy window. the Crab Nebula8—the spillover effect in a wide energy range from 10 TeV
+WFCTA consists of 18 telescopes designed for detection of atmospheric to few petaelectronvolts was further examined by the following pro-
+Cherenkov light produced by secondary particles (mainly electrons cedure. Events generated using the Crab Nebula SED but cut at E are
+cut
+and positrons) from air showers initiated by primary CRs with energy reconstructed and plotted as the distribution of the number of events
+ranging from 50 TeV to 100 PeV. The large field of view of the telescopes, in bins defined by E . As E runs through 20 TeV, 40 TeV,..., 1.3 PeV and
+rec cut
+16° × 16° each, allows the telescope array to cover a wide patch of the 1.5 PeV, the spillover effect is determined by events in the bins above E .
+cut
+sky for diffused CR measurements. The combined operation of these As shown in Extended Data Fig. 3, the spillover mainly happens in the
+telescopes with KM2A and WCDA enables highly desired spectrum adjacent bin, and the fraction of events in the next-adjacent bin is very
+measurements of different CR species in a wide energy range that small. The effect is also reduced with energy. The fraction runs lower
+includes the spectral features known as ‘first knee’ and ‘second knee’. than 1% for E > 400 TeV even in the adjacent bin. The same tests were
+cut
+applied to J2226+6057 and J1825-1326, the most northern and southern
+KM2A and its performance. KM2A comprises an array7,21 of 5,195 scin- sources in Table 1, respectively, and similar results were found.
+tillation counters (EDs) deployed on a 15-m grid, and an array of 1,188 The critical part of KM2A is the muon detector (MD) array, consisting
+undersurface muon detectors (MDs) deployed on a 30-m grid, both of 1,188,36 m2 water Cherenkov detectors buried 2.5 m beneath the soil
+covering an area of 1 km2, plus a 0.3-km2 skirt array used to identify surface. Each tank is filled with pure water 1.2 m in depth. An 8-inch
+showers falling outside the central area, as illustrated in Extended Data PMT is immersed in the water volume at the roof centre of the tank to
+Fig. 1. For a more complete description of the EDs and MDs, the hard- collect the Cherenkov light produced by high-energy particles passing
+ware calibration, and the data selection and reconstruction procedure; through the water. The charge output is used to count the number of
+see ref. 8. Here, we provide a brief description. The KM2A half-array cur- particles (muons), with a resolution of σ/n≈20%/ n. The time resolu-
+rently in operation includes 2,365 EDs. Each ED is made of four plastic tion is about 10 ns. The electromagnetic component of the shower is
+scintillation tiles (100 cm × 25 cm × 1 cm) covered by a 5-mm-thick lead shielded by the soil overburden, which corresponds to about 20 radi-
+plate. Embedded wavelength-shifting fibres transfer the scintillation ation lengths, making each MD a very clean detector of > 1 GeV muons.
+light to a photomultiplyer tube (PMT). The charge output is used to The KM2A half-array consists of 578 MDs uniformly distributed with a
+measure the number of crossing shower particles with excellent linear- total active area of 18,800 m2, whose information is used to select
+ity for up to more than 104 particles. The time resolution is about 2 ns. γ-ray-induced showers. A shower initiated by a high-energy γ contains
+All of the EDs are synchronized within 0.2 ns. The shower trigger logic fewer muons than a primary CR-induced air shower. Thus, using the
+requires, for the KM2A half-array, at least 20 EDs fired within a window ratio N /N as a selection criterion (where N is the total number of
+μ e μ
+of 400 ns. This trigger allows fully efficient detection of shower events muons measured by MDs and N is the total number of particles counted
+e
+of energy above 10 TeV. The ED signals are used to determine the im- by EDs), KM2A is capable of rejecting the CR background by a factor
+pact point of the shower axis, the shower size and the arrival direction. of 10−2 at 20 TeV and 10−4 above 100 TeV. Together with an angular
+Above 60 TeV, the core location is determined with an accuracy better resolution of 0.3° (68% containment angle of flux from a point source),
+than 3 m, enabling a high-precision measurement of the shower arrival the KM2A half-array is an essentially background-free γ-ray detector
+direction with an angular resolution of ≤0.3° for γ-induced showers of at energies >100 TeV. Quantitatively, the differential sensitivity of the
+up to 40° zenith angle. This is verified by the observation of well known current half-array is sufficient to detect any source with an energy flux
+γ-ray point sources such as the Crab Nebula, as reported elsewhere8, greater than 1.8 × 10−13 erg cm−2 s−1 between 100 TeV and 178 TeV with a
+and LHAASO J2108+5157 (11th source in Table 1), which has nearly no significance of 5σ in a year of data taking. A significance of 30σ obtained
+extension measured. for the detection of the Crab Nebula in 136 days indicates that an inte-
+By reconstructing the shower profile, the particle density evaluated at grated sensitivity of 1.1 × 10−14 erg cm−2 s−1 was achieved above 25 TeV.
+a distance of 50 m from the shower core is used to estimate the energy of
+the primary γ-ray. The energy resolution is better than 14% for photons Data taken with KM2A-1/2 and SED measurements for three sources.
+above 100 TeV arriving from a zenith angle of <35°. This defines the bin The partial configuration of KM2A—a half-array with 2,365 EDs and 578
+size of Δ(logE) = 0.2 in the measurements of the spectral energy distri- MDs in stable operation—is detailed in ref. 8. KM2A has been operat-
+butions (SEDs) of the sources to minimize bin-to-bin migration mainly ing for data taking since 27 December 2019, for a live time of 308.33
+between adjacent bins. Further examination for any non-Gaussian days. After data reconstruction, showers with zenith angle <50° and
+tails of the energy resolution function—defined as the distribution of energy >100 TeV are selected as γ-like events using the muon content
+(E − E )/E , where E is the reconstructed photon energy and E is criterion, that is, N /N < 1/230. In total, about 84,000 γ-like events
+rec true true rec true μ e
+the thrown-in energy in the shower/detector simulation—is carried out. are used to survey the sky declination band −15° < δ < 75° in search for
+Article
+UHE sources. The sky map in celestial coordinates (right ascension, with energy close to 100 TeV have also been reported by the Cherenkov
+RA; declination, dec.) is divided into a grid of 0.1° × 0.1° bins, and filled telescope arrays HEGRA26 and MAGIC27. Apart from their scientific
+with detected events according to their reconstructed arrival direction value, these results exhibited the need to study the UHE sky at a depth
+(event map). The number of residual CR background events in each bin well below the Crab Nebula flux and at energies well beyond 100 TeV.
+(background map) is estimated using the direct integration method22, Table 1 demosntrates that LHAASO has achieved these targets. With the
+which was developed specifically for measurements with detector ar- fully completed facility, the search for ≥100-TeV sources at the level of
+rays4,23. Then the background map is subtracted from the event map, 0.1 CU would be a matter of one-year exposure.
+obtaining the source map. A smoothing procedure is applied to take
+into account the KM2A angular resolution. The significance of the Possible counterparts of LHAASO sources. For all twelve sources
+excess of γ-like events in each bin is estimated via a likelihood ratio reported in Table 1, we searched for their possible astrophysical asso-
+test between the one-source model (source signals plus background) ciations and teraelectronvolt counterparts located <1° away from the
+and the background-only model. Because the angular distribution measured centres, including pulsars and corresponding pulsar wind
+is clearly wider than the detector angular resolution, an a priori 0.3° nebulae, supernova remnants, young massive star clusters and H ii
+intrinsic extension of the sources is assumed as a Gaussian template in regions. The results are listed in Extended Data Table 2.
+the estimation of the significance. Twelve sources of γ-rays are found
+with signals above 7σ at energies above 100 TeV, as listed in Table 1. The Relevant background information and multi-wavelength analysis
+sky map of γ-rays above 100 TeV is shown in Extended Data Fig. 4. The 0.8 γ-ray opacity. The attenuation of high-energy Galactic γ-rays is due
+corresponding exposure time and photon statistics for each source to pair production (γγ → e+e−) from γ-rays interacting with background
+are shown in Extended Data Table 1. photons from both the cosmic microwave background (CMB) and in-
+Above 400 TeV, KM2A measures γ-rays essentially background-free. terstellar radiation fields (ISRF). The photon–photon pair production
+Every single photon has its own energy measured independently. The cross-section, averaged over directions of the background radiation
+highest-energy (E ) photons, which define the maximum energy field, depends on the product of the energies of colliding photons.
+max
+detected for each source, are listed in Table 1. To verify the detection For a given energy of γ-ray photons, E, this cross-section peaks at the
+γ
+and estimate the uncertainty associated with the measurement of wavelength of the background photons, λ ≈ 1[E/(1 TeV)]−1 μm. Thus, the
+γ
+E , a large number of photon events are generated using the geo- γ-ray opacity above and below 100 TeV is due to the absorption on CMB
+max
+metric parameters of the measured events over a wide energy range. and ISRF, respectively. The opacity was calculated by calculating the
+For instance, 10,000 events are generated for a 1.4-PeV photon. The line-of-sight integral of the product of the pair production cross-section
+distribution of thrown-in energies of events that have a total number of with the energy density of the radiation fields. The dependence of the
+particles recorded by the registered EDs and a number of EDs similar to pair production cross-section on the energy is given in ref. 28. The ISRF
+those of the detected values, within ±10%, is used to estimate the photon energy density is taken from ref. 29. The general formalism can be found
+energy and its error. Thus, the spillover effect due to any non-Gaussian in ref. 30. The γ-ray opacities for LHAASO J2226+6057, J1908+0621, J1825-
+tail is further checked. 10% is quite a large range of the total number of 1326 and the Crab Nebula are shown in Extended Data Fig. 6.
+particles (5σ from the measured value) and of the number of EDs (2σ
+from the measured value). For this highest-energy photon from the Fermi LAT analysis for LHAASO J1908+0621. To estimate the gigalec-
+Cygnus region, the measured ratio N/N = 1/941 rejects almost all CR tronvolt emissions in the region of LHAASO J1908+0621, we analysed
+μ e
+background. The chance probability is estimated to be 0.028% by using Fermi LAT data obtained over 11 years towards this source. For this
+1,044 observed events with reconstructed energy higher than 1.4 PeV analysis we selected the Fermi LAT Pass 8 database from 4 August 2008
+in the 1° cone centred at the source location given in Table 1. (MET 239557417) until 17 January 2020 (MET 600946580). A 10° × 10°
+For the three most significantly detected sources, LHAASO J1825- square region centred at the best-fit position of LHAASO J1908+0621
+1326, LHAASO J1908+0621 and LHAASO J2226+6057, we determine (RA = 287.18°, dec. = 6.18°) was chosen as the region of interest (ROI). We
+their SEDs. To calculate the photon fluxes correctly, the intrinsic extent used the ‘source’ event class, and the recommended data cut expression
+of the sources is estimated by quadratically subtracting the width of (DATA_QUAL >0)&&(LAT_CONFIG = = 1) to exclude time periods in which
+the point spread function (PSF), measured using the Crab Nebula spacecraft events affected the data quality. To reduce the background
+data, from the measured angular distributions; we find (0.30 ± 0.06)°, contamination from Earth’s albedo, only the events with zenith angles
+(0.58 ± 0.04)° and (0.36 ± 0.06)°, respectively. Over the entire energy less than 90° were taken into account in the analysis. Moreover, we used
+range from 10 TeV to 1 PeV, photon fluxes are calculated in 10 bins of Fermitools from the Conda distribution (https://github.com/fermi-lat/
+width Δ(logE) = 0.2 by taking into account the extents. The γ-ray signals Fermitools-conda) together with the latest version of the instrument
+and corresponding backgrounds are integrated over the angular range, response functions P8R3_SOURCE_V2. In our background model, we
+in which 90% of the probability of the Gaussian template is contained, included the sources in the Fermi LAT eight-year catalogue31 within the
+as the measured signal in each energy bin, respectively. The SEDs are ROI enlarged by 7°. The normalization factors and the spectral indices
+then derived using a forward unfolding procedure based on the least-χ2 of all sources within 5° of the ROI centre were set as free parameters.
+algorithm and are shown in Fig. 1. For the diffuse background components, we used the latest Galactic
+diffuse model gll_iem_v07.fits and the isotropic emission model iso_
+Previous measurements of 100-TeV γ-rays. The first attempts to P8R3_SOURCE_V2_v1.txt (https://fermi.gsfc.nasa.gov/ssc/data/access/
+explore the petaelectronvolt γ-ray sky with ground-based CR facilities lat/BackgroundModels.html) with their normalization parameters free.
+were made in the 1980s. Despite some exciting but controversial discov- The high-energy γ-ray emission region found in the KM2A data overlaps
+ery claims, these results have not been confirmed by detectors designed with the bright pulsar PSR J1907+0602. To suppress the contamination
+explicitly for γ-ray observations, in particular by CASA-MIA24,25. The from this pulsar, only the energy range above 30 GeV was taken into
+latter had adequate (~1/4 km2) area of surface detectors, however the account. The gigaelectronvolt emission from the LHAASO J1908+0621
+density of muon detectors (~1%) was not sufficient for suppression of region was estimated by modelling this region with the sources from the
+the background (hadronic) showers at a level better than 10−4, which 4FGL catalogue plus an additional component of a 0.5° radius centred at
+would allow detection of UHE sources reported in this paper. Recently, the best-fit position of the LHAASO source. The whole energy range from
+the ASγ3 and HAWC4 collaborations, using high-altitude air shower 30 to 250 GeV was divided in four logarithmically spaced energy bins,
+facilities, reported marginal detections of γ-rays above 100 TeV from and the γ-ray flux in each bin was obtained by a likelihood-based com-
+a few Galactic sources, including the Crab Nebula. Detections of γ-rays putation. The derived energy fluxes are shown in Extended Data Fig. 5.
+In the hadronic scenario, the proton injection spectrum is assumed
+Gas distributions. To derive the density of the molecular cloud in the vi- to be of the same form as equation (1), except using β = 1, because the
+cinity of LHAASO 1908+0621, we use the CO survey data from ref. 32. We acceleration of the proton is generally limited by the age of the sys-
+integrate the velocity range of 48−54 km s−1, which corresponds to a dis- tem or escape. The proton injection rate is assumed to be constant.
+tance of 3 kpc. We find significant CO emission towards PSR J1907+0602 The energy loss timescale of protons through the pp collision is
+and the supernova remnant SNR G40.5-0.5. The maximum of the KM2A t ≈ 5 × 106[n/(10 cm−3)]−1 yr, which is much longer than the expected
+pp
+significance map is between these two objects, where we also find some age of the system. Thus, the time-integrated proton spectrum should
+dense filaments. We use the standard assumption of a linear relation- follow the injection spectrum, and is given by
+ship between the velocity-integrated brightness temperature of the CO
+l N in (H e, W ) = C O X , an × d W the . c T o h lu e m co n n d v e e n r s s i i t o y n o f f a m ct o o le r c X ula = r 2 h . y 0 d × ro 1 g 0 e 20 n c , N m ( − H 2 2 K ) − , 1 t k h m at − i 1 s s , d d E N p =t age N 0 E − p αpexp[−(E p /E 0 )]. (6)
+2 CO CO CO
+is adopted. The derived gas mass in the γ-ray emission region is
+1.5 × 104M (M, mass of the Sun), assuming a distance of 2.4 kpc. Thus, We employ the semi-analytical method developed in ref. 35 to calcu-
+☉ ☉
+the average density is estimated as 10 cm−3. late the pionic γ-ray spectrum.
+Modelling leptonic and hadronic γ-ray production in LHAASO
+J1908+0621. Here we describe the details of phenomenological mod- Data availability
+elling of γ-rays in LHAASO J1908+0621. In the leptonic scenario, we The data supporting the conclusions of this paper are available through
+assume that the injection particle spectrum follows the form the LHAASO web page (http://english.ihep.cas.cn/lhaaso/index.html)
+in the section ‘Public Data’. All data are in ASCII, and the code used to
+dN
+Q(E)≡ =N E−αexp[−(E/E )β], (1) produce the figures is publicly accessible and listed in the Public Data
+dEdt 0 0
+section.
+where α is the power-law index of the injection spectrum, E is the cutoff
+0
+energy and N is the normalization factor, which is related to the injec- 21. He, H. Design of the LHAASO detectors. Rad. Det. Technol. Meth. 2, 7 (2018).
+0
+tion luminosity L of the particle through 22. Fleysher, R., Fleysher, L., Nemethy, P. & Mincer, A. I. Tests of statistical significance and
+inj background estimation in gamma-ray air shower experiments. Astrophys. J. 603,
+∞ dN 355–362 (2004).
+L =∫ E dE=ηL , (2) 23. Bartoli, B. et al. TeV gamma-ray survey of the northern sky using the ARGO-YBJ detector.
+inj Emin dEdt e s Astrophys. J. 779, 27 (2013).
+24. Cronin, J. W., Gibbs, K. G. & Weekes, T. C. The search for discrete astrophysical sources of
+energetic gamma radiation. Annu. Rev. Nucl. Part. Sci. 43, 883–925 (1993); erratum 43,
+where E is the minimum energy in the electron injection spectrum, 883–937 (1993).
+min
+L is the spindown luminosity of PSR J1907+0602 and η is the fraction 25. Aharonian, F., Buckley, J., Kifune, T. & Sinnis, G. High energy astrophysics with
+s e ground-based gamma ray detectors. Rep. Prog. Phys. 71, 096901 (2008).
+of the spindown luminosity converted to the electron injection lumi- 26. Aharonian, F. et al. The Crab nebula and pulsar between 500 GeV and 80 TeV:
+nosity. In equation (2), we consider that the injection rate history fol- observations with the HEGRA stereoscopic air Cerenkov telescopes. Astrophys. J. 614,
+lows the spindown history of the pulsar, assuming a braking index fixed 897–913 (2004).
+27. MAGIC Collaboration. MAGIC very large zenith angle observations of the Crab Nebula up
+at 2 and an initial rotation period P 0 . β indicates the sharpness of the to 100 TeV. Astron. Astrophys. 635, A158 (2020).
+cutoff. Previous analysis33 shows that β = 2 (that is, a super-exponential 28. Gould, R. J. & Schréder, G. Opacity of the Universe to high-energy photons. Phys. Rev.
+cutoff) is expected if the Bohm diffusion applies in the particle accel- Lett. 16, 252–254 (1966).
+29. Popescu, C. C. et al. A radiation transfer model for the Milky Way: I. Radiation fields
+eration region and a Ė∝E2 type energy loss process is taken into account and application to high-energy astrophysics. Mon. Not. R. Astron. Soc. 470, 2539–2558
+at the mean time. The time-integrated electron spectrum is influenced (2017).
+by the radiative cooling with a cooling rate 30. Moskalenko, I. V., Porter, T. A. & Strong, A. W. Attenuation of very high energy gamma rays
+by the Milky Way interstellar radiation field. Astrophys. J. Lett. 640, L155–L158 (2006).
+31. Abdollahi, S. et al. Fermi Large Area Telescope fourth source catalog. Astrophys. J. Suppl.
+2
+4  E  Ser. 247, 33 (2020).
+E e ̇ =− 3 σ T c   m e e c2     U B +f KN (E e )U ph   , (3) 32. D co a m m p e, l e T t . e M C ., O H s a u rt r m ve a y n . n A , s D tr . o & p T h h ys a . d J d . e 5 u 4 s 7 , , P 7 . 9 T 2 h – e 8 M 13 il ( k 2 y 0 W 0 a 1) y . in molecular clouds: a new
+33. Zirakashvili, V. N. & Aharonian, F. Analytical solutions for energy spectra of electrons
+where σ is the Thomson cross-section, U and U are the magnetic accelerated by nonrelativistic shock-waves in shell type supernova remnants. Astron.
+T B ph
+Astrophys. 465, 695–702 (2007).
+energy density and the radiation energy density, respectively. f
+KN 34. Khangulyan, D., Aharonian, F. A. & Kelner, S. R. Simple analytical approximations for
+accounts for the Klein–Nishina effect, and can be approximated by treatment of inverse Compton scattering of relativistic electrons in the blackbody
+f = {1 + [2.82kTE/(m2c4)]0.6}−1.9/0.6 for a blackbody-type radiation field radiation field. Astrophys. J. 783, 100 (2014).
+KN e e
+35. Kafexhiu, E., Aharonian, F., Taylor, A. M. & Vila, G. S. Parametrization of gamma-ray
+of temperature T, with k being the Boltzmann constant. The cooling
+production cross sections for p p interactions in a broad proton energy range from the
+timescale can be shorter than the age of the system t age at high energies, kinematic threshold to PeV energies. Phys. Rev. D 90, 123014 (2014).
+so the time-integrated spectrum will be influenced by the radiative 36. Manchester, R. N., Hobbs, G. B., Teoh, A. & Hobbs, M. The Australia Telescope National
+Facility pulsar catalogue. Astron. J. 129, 1993–2006 (2005).
+cooling processes. The spectrum evolution is described by
+37. Shan, S. S. et al. Distances of Galactic supernova remnants using red clump stars.
+Astrophys. J.S 238, 35 (2018).
+∂ dN ∂  dN 38. Acero, F. et al. Constraints on the Galactic population of TeV pulsar wind nebulae using
+∂t  dE e = ∂E e E e ̇ dE e +Q(E e ), (4)
+39. R
+Fe
+a
+r
+n
+m
+as
+i
+i
+L
+n
+a
+g
+r
+h
+g
+e
+e
+,
+A
+S
+r
+.
+e
+&
+a
+L
+T
+e
+e
+a
+le
+h
+s
+y
+c
+,
+o
+D
+p
+. A
+e
+.
+o
+D
+b
+i
+s
+s
+e
+ta
+rv
+n
+a
+c
+t
+e
+io
+s
+n
+to
+s.
+s
+A
+u
+s
+p
+tr
+e
+o
+r
+p
+no
+h
+v
+ys
+a
+.
+r
+J
+e
+.
+m
+77
+n
+3
+a
+,
+n
+7
+t
+7
+s
+(
+G
+2
+2
+0
+0
+13
+.4
+) .
++ 0.1, G24.7 − 0.6,
+and G28.6 − 0.1 and new molecular cloud associations. Mon. Not. R. Astron. Soc. 477,
+with solution 2243–2250 (2018).
+40. Gotthelf, E. V., Halpern, J. P., Terrier, R. & Mattana, F. Discovery of an energetic 38.5 ms
+dN
+=
+1
+∫
+Eeff
+Q(E′ ,t′)dE′ , (5)
+p
+Le
+u
+t
+l
+t
+s
+.
+a
+7
+r
+2
+p
+9
+o
+,
+w
+L1
+e
+6
+ri
+(
+n
+2
+g
+0
+t
+1
+h
+1)
+e
+.
+gamma-ray source IGR J18490-0000/HESS J1849-000. Astrophys. J.
+dE e E e ̇ Ee e e 41. Zhang, B. et al. The parallax of W43: a massive star-forming complex near the Galactic
+bar. Astrophys. J. 781, 89 (2014).
+where E can be calculated from t =∫ EeffdE′ /Ė(E′ ) and 42. Yang, J., Zhang, J.-L., Cai, Z.-Y., Lu, D.-R. & Tan, Y.-H. Molecular gas distribution around the
+t′=∫
+EeffdE ef
+″
+f
+/Ė(E″ ). The inverse Compton
+a
+s
+g
+p
+e
+ectr
+E
+u
+e
+m is c
+e
+alc
+e
+ula
+e
+ted fol- 43.
+s
+D
+u
+o
+p
+w
+e
+n
+rn
+e
+o
+s,
+v
+A
+a
+.
+r
+J
+e
+.
+m
+B.
+n
+,
+a
+P
+n
+a
+t
+u
+G
+ls
+4
+, T
+0
+.
+. 5
+&
+0
+S
+.
+a
+5
+l
+.
+t e
+C
+r
+h
+,
+i
+C
+n
+.
+.
+J
+J
+.
+.
+G
+As
+4
+tr
+0
+o
+.5
+n
+-
+.
+0
+A
+.
+s
+5
+t
+:
+r
+a
+o p
+p
+h
+re
+y
+v
+s
+i
+.
+o
+6
+u
+,
+s
+2
+l
+1
+y
+0
+u
+–
+n
+2
+r
+1
+e
+6
+c
+(
+o
+2
+g
+0
+n
+0
+is
+6
+e
+).
+d supernova
+lowin
+E
+g
+′e
+the a
+e
+na
+e
+lytic
+e
+al method developed in ref. 34. Parameters α, E , P
+remnant in Aquila. Astron. Astrophys. 92, 47–50 (1980).
+0 0 44. Gelfand, J. D., Slane, P. O. & Temim, T. The properties of the progenitor supernova, pulsar
+and η e are left free in the spectral fitting. wind, and neutron star inside PWN G54.1+0.3. Astrophys. J. 807, 30 (2015).
+Article
+45. Kirichenko, A. et al. Optical observations of PSR J2021+3651 in the Dragonfly nebula with of Science and Technology of China, led by C. Li; and from Southwest Jiaotong University, led
+the GTC. Astrophys. J. 802, 17 (2015). by H.Y.J. The CR event reconstruction is led by S.Z.C. with the participation of groups from IHEP,
+46. Azimlu, M. & Fich, M. Study of molecular clouds associated with H II regions. Astron. J. Shandong University and Southwest Jiaotong University. The data analysis by groups from
+141, 123 (2011). IHEP and Shandong University is led by S.Z.C.; from Sun Yat-sen University by P.H.T.T.; and from
+47. Paredes, J. M. et al. Radio continuum and near-infrared study of the MGRO J2019+37 the University of Science and Technology of China by R.Z.Y. The team at Purple Mt Observatory,
+region. Astron. Astrophys. 507, 241–250 (2009). led by Yi Zhang, performs an independent cross-check of the analysis. R.Z.Y. and R.Y.L. lead the
+48. Bartoli, B. et al. Observation of the TeV gamma-ray source MGRO J1908+06 with interpretation of the results, with participation of the groups from Nanjing University, led by
+ARGO-YBJ. Astrophys. J. 760, 110 (2012). Y.C. and X.Y.W.; from Yunan University, led by L. Zhang; from Purple Mt Observatory, led by Q.Y.
+49. Chaves, R. C. G. et al. The H.E.S.S. Galactic plane survey. Astron. Astrophys. 612, A1 (2018). Zhen Cao, F.A.A. and B.D.P. supervised the data analysis and interpretation and also lead the
+50. Rygl, K. L. J. et al. Parallaxes and proper motions of interstellar masers toward the Cygnus paper writing. S.M.L. and D.d.V. contribute as co-chairs of the editorial board of LHAASO. Many
+X star-forming complex. I. Membership of the Cygnus X region. Astron. Astrophys. 539, groups participated in the analysis procedures, including the groups from Mahidol University,
+A79 (2012). led by D.R.; from Shanghai Jiaotong University, led by H. Zhou; from Shanghai Observatory, led
+51. Kothes, R., Uyaniker, B. & Pineault, S. The supernova remnant G106.3+2.7 and its by Z.X.W.; from Peking University, led by Zhuo Li; from Guangxi University, led by E.W.L.; from
+pulsar-wind nebula: relics of triggered star formation in a complex environment. National Observatory, led by W.W.T.; from Wuhan University, led by P. H. T. Tam; and from
+Astrophys. J. 560, 236–243 (2001). Yunnan Observatory, led by J.C.W. All other groups—from the University of Chinese Academy
+of Science and Tianfu Cosmic ray Research Center, led by Zhen Cao; from State Key
+Laboratory of Particle Detection and Electronics, led by Q.A.; from Tsinghua University, led by
+Acknowledgements This work is supported in China by National Key R&D programme of China Y.N.L.; from the National Space Science Center, led by Z.B.S.; from Guangzhou University, led
+under grants 2018YFA0404201, 2018YFA0404202, 2018YFA0404203 and 2018YFA0404204 by J.H.F.; from Hebei Normal University, led by S.W.C.; from Zhengzhou University, led by
+and by NSFC (grant numbers 12022502, 11905227, U1931112, 11635011, 11761141001 and H.D.L.; from Sichuan University, led by C.W.Y.; from Tibet University, led by T.L.C.; and from the
+U2031105), and in Thailand by RTA6280002 from Thailand Science Research and Innovation. Institute for Nuclear Research and Moscow Institute of Physics and Technology, led by Yu.V.S.—
+We thank all staff members who work year-round at the LHAASO site at 4,400 m above sea contributed to detector construction and to reviewing the final version before submission.
+level to maintain the detector and keep the electricity power supply and other components of
+the experiment operating smoothly. We are grateful to Chengdu Management Committee of Competing interests The authors declare no competing interests.
+Tianfu New Area for constant financial support to research with LHAASO data.
+Additional information
+Author contributions This work is the result of the contributions and efforts of all members Supplementary information The online version contains supplementary material available at
+and institutes of the LHAASO Collaboration under the leadership of Zhen Cao, who is the https://doi.org/10.1038/s41586-021-03498-z.
+spokesperson of the LHAASO collaboration. Most of the listed 32 institutes participate in the Correspondence and requests for materials should be addressed to Z.C., F.A.A., S.Z.C., R.Y.L.
+construction of the LHAASO detectors. In particular, H.H.H. leads the design and construction or R.Z.Y.
+of KM2A, whose scintillator detector array is constructed by teams led by X.D.S. and muon Peer review information Nature thanks Razmik Mirzoyan and the other, anonymous,
+detector array is constructed by teams led by G.X. KM2A is operated by teams led by J.L. and reviewer(s) for their contribution to the peer review of this work. Peer reviewer reports are
+X. Zuo. The calibration of LHAASO detectors is led by H.H.H. with the participation of groups available.
+from IHEP, led by H.K.L. and X. Zuo; from Shandong University, led by C.F.F.; from the University Reprints and permissions information is available at http://www.nature.com/reprints.
+HTRON
+WFCTA
+ED
+MD
+150 m
+WCDA
+Extended Data Fig. 1 | Schematic drawing of the LHAASO layout7. Small red of 30 m. The three light-blue rectangles in the centre indicate WCDA, of
+dots indicate the 5,195 scintillator counters, with a spacing of 15 m in the central 78,000 m2 in total. Small black rectangles near WCDA indicate 18 telescopes of
+area of 1 km2 and of 30 m in the skirt area of 0.3 km2 of KM2A. Big blue dots WFCTA.
+indicate the 1,188 muon detectors distributed in the central area with a spacing
+Article
+1
+10−1
+10−2
+10−3
+0 0.5 1 1.5 2 2.5 3 3.5 4
+log(E /TeV)
+true
+noitcarF
+1
+(a)
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0
+1 1.5 2 2.5 3
+log(E /TeV)
+rec
+ytiruP
+niB
+(b)
+Extended Data Fig. 2 | γ-ray energy distributions in SED bins and energy E . A bin width of Δ(logE ) = 0.2 is selected, according to the energy
+rec rec
+corresponding bin purity. a, Distributions of thrown-in energies E in the resolution of 14% above 100 TeV (ref. 8). A power-law spectrum proportional to
+true
+simulation of events that are in the bins, defined by reconstructed energies E E−3.09 is assumed here. b, Bin purity, defined as the fraction of events with E in
+rec true
+above 10 TeV. The fraction on the vertical axis is defined as (dN/dE )/N, where the bin, as a function of E in the range from 10 TeV to 2.5 PeV.
+true i rec
+N is the total number of events in the ith bin, defined by the reconstructed
+i
+104
+3
+10
+102
+10
+1
+10−1
+10−2
+1 1.5 2 2.5 3 3.5 4
+log(E /TeV)
+rec
+stneve
+fo
+rebmuN
+Crab
+E =20 TeV
+cut
+E =40 TeV
+cut
+E =60 TeV
+cut
+E =80 TeV
+cut
+E =100 TeV
+cut
+E =300 TeV
+cut
+E =500 TeV
+cut
+E =700 TeV
+cut
+E =900 TeV
+cut
+E =1100 TeV
+cut
+E =1300 TeV
+cut
+E =1500 TeV
+cut
+Extended Data Fig. 3 | Distributions (dots) of events in the reconstructed at the E values listed in the key. The distributions demonstrate a clear
+cut
+energy bins from 10 TeV to 10 PeV. The input (solid grey line) events are spillover effect by the events in the bins above E . The effect becomes weaker
+cut
+generated using the power-law SED determined from the measured SED of the at higher energies. There is no indication of pollution of the bins above 1 PeV by
+Crab Nebula8. For each case, the input SED has an artificial cutoff (dashed lines) events at input energies lower than 0.3 PeV.
+Article
+Extended Data Fig. 4 | LHAASO sky map at energies above 100 TeV. The circles indicate the positions of known very-high-energy γ-ray sources.
+Extended Data Fig. 5 | Phenomenological fits to the γ−ray observations of The solid curves correspond to the hadronic model of radiation. Two types of
+LHAASO J1908+0621, and previous observations of potential counterparts. energy distributions are assumed for the parent proton population: (i) a single
+The inset shows the KM2A significance map, indicating the potential power-law spectrum of parent protons, N(E) ≈ E−1.85exp[−E/(380 TeV)] (thin solid
+counterparts of the UHE γ-ray source. The colour bar shows the significance curve); (ii) a broken power-law spectrum with an exponential cutoff of parent
+( TS). The green circle indicates the PSF of LHAASO. The Fermi LAT points for protons, with indices 1.2 and 2.7 below and above 25 TeV, respectively, and a
+LHAASO J1908+0621 analysed in this work, as well as ARGO48, HESS49 and cutoff energy of 1.3 PeV (thick solid curve). In the inset sky map, the black
+HAWC4 data, are shown together with the LHAASO measurements. The dotted diamond shows the position of PSR J1907+0602, the black contours correspond
+curve shows the leptonic model of radiation, assuming an injection of electron/ to the location of supernova remnant SNR G40.5-0.5 and the white circle is the
+positron pairs according to the pulsar’s spin-down behaviour, with a breaking position and size of HESS J1908+063. The cyan regions are the dense clumps
+index of 2 and an initial rotation period of 0.04 s. A fraction of 6% of the current described in Methods. The average density in the whole γ-ray emission region is
+spin-down power of the pulsar PSR J1907+0602 at a distance of 2.4 kpc is estimated to be about 10 cm−3. γ-ray absorption due to photon–photon pair
+assumed to be converted to e± pairs to support the γ-ray emission. The injection production (see Methods) is taken into account in the theoretical curve.
+spectrum of electrons is assumed to be N(E)∝E−1.75exp{−[E /(800 TeV)]2}.
+e e
+Article
+1.1
+1.05
+1
+0.95
+0.9
+0.85
+0.8
+0.75
+0.7
+10 100 1000
+τ-
+e
+LHAASO J2226+6057
+LHAASO J1908+0621
+LHAASO J1825-1326
+Crab
+Energy(TeV)
+Extended Data Fig. 6 | γ-ray opacity of LHAASO J2226+6057, J1908+0621, J1825-1326 and Crab Nebula. The absorption due to both ISRFs and CMB is taken into
+account.
+Extended Data Table 1 | Number of on-source events of energy >100 TeV, residual CR background events and corresponding
+exposure time for the 12 UHE sources
+Article
+Extended Data Table 2 | List of energetic astrophysical objects possibly associated with each LHAASO source
+The properties of pulsars are retrieved from the ATNF pulsar catalogue36 or as specified.
+aCharacteristic age of pulsars.
+bPresent spindown luminosity of pulsars.
+cNearby teraelectronvolt sources within 1° of the centre of the LHAASO source, according to http://tevcat.uchicago.edu/ (ref. 36).
+dFrom ref. 37.
+eFrom ref. 38.
+fFrom ref. 39.
+gFrom ref. 40.
+hFrom ref. 41.
+iFrom ref. 42.
+jFrom ref. 43.
+kFrom ref. 44.
+lFrom ref. 45.
+mFrom ref. 46.
+nFrom ref. 47.
+oFrom ref. 50.
+pFrom ref. 51.

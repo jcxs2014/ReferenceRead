@@ -1,0 +1,669 @@
+weekending
+PRL 114, 171103 (2015) PHYSICAL REVIEW LETTERS 1 MAY 2015
+Precision Measurement of the Proton Flux in Primary Cosmic Rays from Rigidity 1 GV
+to 1.8 TV with the Alpha Magnetic Spectrometer on the International Space Station
+M. Aguilar,26 D. Aisa,33,34 B. Alpat,33 A. Alvino,33 G. Ambrosi,33 K. Andeen,22 L. Arruda,24 N. Attig,21 P. Azzarello,33,16
+A. Bachlechner,1 F. Barao,24 A. Barrau,17 L. Barrin,15 A. Bartoloni,38 L. Basara,3,37 M. Battarbee,45 R. Battiston,37,a
+J. Bazo,33 U. Becker,9 M. Behlmann,9 B. Beischer,1 J. Berdugo,26 B. Bertucci,33,34 G. Bigongiari,35,36 V. Bindi,19
+S. Bizzaglia,33 M. Bizzarri,33,34 G. Boella,28,29 W. de Boer,22 K. Bollweg,20 V. Bonnivard,17 B. Borgia,38,39 S. Borsini,33
+M.J. Boschini,28 M. Bourquin,16 J. Burger,9 F. Cadoux,16 X.D. Cai,9 M. Capell,9 S. Caroff,3 J. Casaus,26 V. Cascioli,33
+G.Castellini,14I.Cernuda,26D.Cerreta,33,34F.Cervelli,35M.J.Chae,41Y.H.Chang,10A.I.Chen,9H.Chen,9G.M.Cheng,6
+H.S.Chen,6L.Cheng,42H.Y.Chou,10E.Choumilov,9V.Choutko,9C.H.Chung,1C.Clark,20R.Clavero,23G.Coignet,3
+C. Consolandi,19 A. Contin,7,8 C. Corti,19 E. Cortina Gil,16,b B. Coste,37,15 W. Creus,10 M. Crispoltoni,33,34 Z. Cui,42
+Y.M.Dai,5C.Delgado,26S.DellaTorre,28M.B.Demirköz,2L.Derome,17S.DiFalco,35L.DiMasso,33,34F.Dimiccoli,37
+C. Díaz,26 P. von Doetinchem,19 F. Donnini,33,34 W.J. Du,42 M. Duranti,33,34 D. D’Urso,33 A. Eline,9 F.J. Eppling,9
+T. Eronen,45 Y.Y. Fan,44,c L. Farnesini,33 J. Feng,3,d E. Fiandrini,33,34 A. Fiasson,3 E. Finch,32 P. Fisher,9 Y. Galaktionov,9
+G. Gallucci,35 B. García,26 R. García-López,23 C. Gargiulo,15 H. Gast,1 I. Gebauer,22 M. Gervasi,28,29 A. Ghelfi,17
+W.Gillard,10F.Giovacchini,26P.Goglov,9J.Gong,31C.Goy,3V.Grabski,27D.Grandi,28M.Graziani,33,34C.Guandalini,7,8
+I. Guerri,35,36 K.H. Guo,18 D. Haas,16,e M. Habiby,16 S. Haino,10,44 K.C. Han,25 Z.H. He,18 M. Heil,9 J. Hoffman,10
+T.H.Hsieh,9Z.C.Huang,18C.Huh,13M.Incagli,35M.Ionica,33,34W.Y.Jang,13H.Jinchi,25K.Kanishev,37,15G.N.Kim,13
+K.S. Kim,13 Th. Kirn,1 R. Kossakowski,3 O. Kounina,9 A. Kounine,9 V. Koutsenko,9 M.S. Krafczyk,9 G. La Vacca,28
+E. Laudi,33,34,f G. Laurenti,7,8 I. Lazzizzera,37 A. Lebedev,9 H.T. Lee,44 S.C. Lee,44 C. Leluc,16 G. Levi,7,8 H.L. Li,44,g
+J.Q.Li,31Q.Li,31Q.Li,9,hT.X.Li,18W.Li,4Y.Li,16,dZ.H.Li,6Z.Y.Li,44,dS.Lim,13C.H.Lin,44P.Lipari,38T.Lippert,21
+D.Liu,44H.Liu,31M.Lolli,7,8T.Lomtadze,35M.J.Lu,37,iS.Q.Lu,44,dY.S.Lu,6K.Luebelsmeyer,1J.Z.Luo,31S.S.Lv,18
+R.Majka,32C.Mañá,26J.Marín,26T.Martin,20G.Martínez,26N.Masi,7,8D.Maurin,17A.Menchaca-Rocha,27Q.Meng,31
+D.C. Mo,18 L. Morescalchi,35,j P. Mott,20 M. Müller,1 J.Q. Ni,18 N. Nikonov,22 F. Nozzoli,33 P. Nunes,24 A. Obermeier,1
+A. Oliva,26 M. Orcinha,24 F. Palmonari,7,8 C. Palomares,26 M. Paniccia,16 A. Papi,33 M. Pauluzzi,33,34 E. Pedreschi,35
+S. Pensotti,28,29 R. Pereira,19 N. Picot-Clemente,12 F. Pilo,35 A. Piluso,33,34 C. Pizzolotto,33 V. Plyaskin,9 M. Pohl,16
+V. Poireau,3 E. Postaci,2 A. Putze,3,k L. Quadrani,7,8 X.M. Qi,18 X. Qin,33,g Z.Y. Qu,44,l T. Räihä,1 P.G. Rancoita,28
+D. Rapin,16 J.S. Ricol,17 I. Rodríguez,26 S. Rosier-Lees,3 A. Rozhkov,9 D. Rozza,28 R. Sagdeev,11 J. Sandweiss,32
+P. Saouter,16 C. Sbarra,7,8 S. Schael,1 S.M. Schmidt,21 A. Schulz von Dratzig,1 G. Schwering,1 G. Scolieri,33 E.S. Seo,12
+B.S.Shan,4Y.H.Shan,4J.Y.Shi,31X.Y.Shi,9,mY.M.Shi,43T.Siedenburg,1D.Son,13F.Spada,38F.Spinella,35W.Sun,9
+W.H. Sun,9,n M. Tacconi,28,29,15 C.P. Tang,18 X.W. Tang,6 Z.C. Tang,6 L. Tao,3 D. Tescaro,23 Samuel C.C. Ting,9
+S.M.Ting,9N.Tomassetti,17J.Torsti,45C.Türkoğlu,2T.Urban,20V.Vagelli,22E.Valente,38,39C.Vannini,35E.Valtonen,45
+S.Vaurynovich,9M.Vecchi,40M.Velasco,26J.P.Vialle,3V.Vitale,33S.Vitillo,16L.Q.Wang,42N.H.Wang,42Q.L.Wang,5
+R.S. Wang,43 X. Wang,9 Z.X. Wang,18 Z.L. Weng,9 K. Whitman,19 J. Wienkenhöver,1 H. Wu,31 X. Wu,16 X. Xia,26,g
+M. Xie,9,h S. Xie,43 R.Q. Xiong,31 G.M. Xin,42 N.S. Xu,18 W. Xu,6,9 Q. Yan,9 J. Yang,41 M. Yang,6 Q.H. Ye,43 H. Yi,31
+Y.J.Yu,5Z.Q.Yu,6S.Zeissler,22J.H.Zhang,31M.T.Zhang,18X.B.Zhang,18Z.Zhang,18Z.M.Zheng,4H.L.Zhuang,6
+V. Zhukov,1 A. Zichichi,7,8 N. Zimmermann,1 P. Zuccon,9 and C. Zurbach30
+(AMS Collaboration)
+1I. Physics Institute and JARA-FAME, RWTH Aachen University, D-52056 Aachen, Germany
+2Department of Physics, Middle East Technical University (METU), 06800 Ankara, Turkey
+3Laboratoire d’Annecy–le–Vieux de Physique des Particules (LAPP), IN2P3/CNRS and Université de Savoie Mont Blanc,
+F-74941 Annecy-le-Vieux, France
+4Beihang University (BUAA), Beijing 100191, China
+5Institute of Electrical Engineering (IEE), Chinese Academy of Sciences, Beijing 100190, China
+6Institute of High Energy Physics (IHEP), Chinese Academy of Sciences, Beijing 100039, China
+7INFN Sezione di Bologna, I-40126 Bologna, Italy
+8Università di Bologna, I-40126 Bologna, Italy
+9Massachusetts Institute of Technology (MIT), Cambridge, Massachusetts 02139, USA
+10National Central University (NCU), Chung-Li, Tao Yuan 32054, Taiwan
+11East-West Center for Space Science, University of Maryland, College Park, Maryland 20742, USA
+0031-9007=15=114(17)=171103(9) 171103-1 Published by the American Physical Society
+weekending
+PRL 114, 171103 (2015) PHYSICAL REVIEW LETTERS 1 MAY 2015
+12IPST, University of Maryland, College Park, Maryland 20742, USA
+13CHEP, Kyungpook National University, 702-701 Daegu, Korea
+14CNR–IROE, I-50125 Firenze, Italy
+15European Organization for Nuclear Research (CERN), CH-1211 Geneva 23, Switzerland
+16DPNC, Université de Genève, CH-1211 Genève 4, Switzerland
+17Laboratoire de Physique Subatomique et de Cosmologie (LPSC), CNRS/IN2P3 and Université Grenoble–Alpes,
+F-38026 Grenoble, France
+18Sun Yat–Sen University (SYSU), Guangzhou 510275, China
+19Physics and Astronomy Department, University of Hawaii, Honolulu, Hawaii 96822, USA
+20National Aeronautics and Space Administration Johnson Space Center (JSC), and Jacobs-Sverdrup, Houston, Texas 77058, USA
+21Jülich Supercomputing Centre and JARA-FAME, Research Centre Jülich, D-52425 Jülich, Germany
+22Institut für Experimentelle Kernphysik, Karlsruhe Institute of Technology (KIT), D-76128 Karlsruhe, Germany
+23Instituto de Astrofísica de Canarias (IAC), E-38205 La Laguna, and Departamento de Astrofísica, Universidad de La Laguna,
+E-38206 La Laguna, Tenerife, Spain
+24Laboratório de Instrumentação e Física Experimental de Partículas (LIP), P-1000 Lisboa, Portugal
+25National Chung–Shan Institute of Science and Technology (NCSIST), Longtan, Tao Yuan 325, Taiwan
+26Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas (CIEMAT), E-28040 Madrid, Spain
+27Instituto de Física, Universidad Nacional Autónoma de México (UNAM), México, D. F. 01000, Mexico
+28INFN Sezione di Milano–Bicocca, I-20126 Milano, Italy
+29Università di Milano–Bicocca, I-20126 Milano, Italy
+30Laboratoire Univers et Particules de Montpellier (LUPM), IN2P3/CNRS and Université de Montpellier II,
+F-34095 Montpellier, France
+31Southeast University (SEU), Nanjing 210096, China
+32Physics Department, Yale University, New Haven, Connecticut 06520, USA
+33INFN Sezione di Perugia, I-06100 Perugia, Italy
+34Università di Perugia, I-06100 Perugia, Italy
+35INFN Sezione di Pisa, I-56100 Pisa, Italy
+36Università di Pisa, I-56100 Pisa, Italy
+37INFN TIFPA and Università di Trento, I-38123 Povo, Trento, Italy
+38INFN Sezione di Roma 1, I-00185 Roma, Italy
+39Università di Roma La Sapienza, I-00185 Roma, Italy
+40Instituto de Fìsica de São Carlos, Universidade de São Paulo, CP 369, 13560-970 São Carlos, São Paulo, Brazil
+41Department of Physics, Ewha Womans University, Seoul 120-750, Korea
+42Shandong University (SDU), Jinan, Shandong 250100, China
+43Shanghai Jiaotong University (SJTU), Shanghai 200030, China
+44Institute of Physics, Academia Sinica, Nankang, Taipei 11529, Taiwan
+45Space Research Laboratory, Department of Physics and Astronomy, University of Turku, FI-20014 Turku, Finland
+(Received 6 March 2015; published 30 April 2015)
+Aprecisemeasurementoftheprotonfluxinprimarycosmicrayswithrigidity(momentum/charge)from
+1 GV to 1.8 TVis presented based on 300 million events.Knowledge of the rigidity dependence of the
+proton flux is important in understanding the origin, acceleration, and propagation of cosmic rays. We
+presentthedetailedvariationwithrigidityofthefluxspectralindexforthefirsttime.Thespectralindex
+progressively hardens at high rigidities.
+DOI: 10.1103/PhysRevLett.114.171103 PACSnumbers:98.70.Sa,95.55.Vj,95.85.Ry,96.50.sb
+Protons are the most abundant charged particles in have reported different variations of the flux with energy
+cosmic rays. Knowledge of the precise behavior of the [2–6]. These measurements generated widespread interest.
+proton spectrum is important in understanding the origin, Inparticular,theATIC–2,CREAM,andPAMELAexperi-
+acceleration, and propagation of cosmic rays [1]. Recent ments showed deviations of the proton flux from a single
+important measurements of the proton flux in cosmic rays powerlaw.Manymodelswereproposedtoaccountforthe
+hardening of the flux based on different sources, accel-
+erationmechanisms,diffusivepropagationeffects,andtheir
+superposition [7]. In this Letter we report on the precise
+Published by the American Physical Society under the terms of
+measurement of the proton flux in primary cosmic rays in
+the Creative Commons Attribution 3.0 License. Further distri-
+butionofthisworkmustmaintainattributiontotheauthor(s)and the rigidity range from 1 GV to 1.8 TV based on data
+the published article’s title, journal citation, and DOI. collected by the Alpha Magnetic Spectrometer (AMS)
+171103-2
+duringthefirst30months(May19,2011toNovember26, The coincidence of signals from the four TOF planes
+2013) of operation onboard the International Space togetherwiththeabsenceofsignalsfromtheACCprovides
+Station (ISS). a charged particle trigger. The ACC has an efficiency of
+Detector.—AMS is a general purpose high energy 0.99999torejectcosmicrayswhichentertheinnertracker
+particle physics detector in space. The layout and descrip- fromtheside.Thecoincidenceof3outofthe4TOFlayers
+tion of the detector are presented in Ref. [8]. The key withnoACCrequirementwasusedtoprovideanunbiased
+elements used in this measurement are the permanent trigger.Theunbiasedtrigger,prescaledby1%,wasusedto
+magnet, the silicon tracker, four planes of time of flight measure the efficiency of the charged particle trigger. The
+(TOF) scintillation counters, and the array of anticoinci- efficiency of the unbiased trigger was estimated directly
+dence counters (ACCs). AMS also contains a transition from the data to be above 99.8% for all rigidities using
+radiationdetector(TRD),aringimagingČerenkovdetector eventsinwhichoneofthefourTOFlayersgavenosignal.
+(RICH), and an electromagnetic calorimeter (ECAL). The This allowed the estimation of the efficiency of each TOF
+three-dimensional imaging capability of the 17 radiation layer and, consequently, the efficiency of the unbiased
+lengthECALallowsforanaccuratemeasurementofthee(cid:1)
+trigger.
+energy E and of the shower shape. Beforelaunch,attheCERNSPS,AMSwasextensively
+The AMS coordinate system is concentric with the calibrated with 180 and 400 GeV=c proton beams and
+magnet. The x axis is parallel to the main component of beams of positrons, electrons, and pions from 10 to
+themagneticfieldandthezaxispointsvertically.The(y-z) 290 GeV=c.Intotal,calibrationswith18differentenergies
+plane is the bending plane. Above, below, and downward- andparticlesat2000positionswereperformed.Thesedata
+going refer to the AMS coordinate system. allow the determination of the tracker rigidity resolution
+Thecentralfieldofthemagnet[9]is1.4kG.Beforeflight, function with high precision and the verification of the
+thefieldwasmeasuredin120000locationstoanaccuracy absolute rigidity scale.
+ofbetterthan2G.Onorbit,themagnettemperaturevaries Since launch, the detector has been monitored and
+from −3 to þ15°C. The field strength is corrected with a controlled around the clock. The time, location, and
+measured temperature dependence of −0.09%=°C. orientation are provided by GPS units affixed to AMS
+Thetracker[10]hasninelayers,thefirst (L1)at thetop and to the ISS. The detector performance has been steady
+of the detector, the second (L2) just above the magnet, six over time.
+(L3toL8)withintheboreofthemagnet,andthelast(L9) Simulated events were produced using a dedicated
+justabovetheECAL.L2toL8constitutetheinnertracker. program developed by the collaboration from the GEANT-
+Each layer contains double-sided silicon microstrip detec- 4.9.6 package [12] based on Monte Carlo methods. This
+torswhichindependentlymeasurethexandycoordinates. program simulates electromagnetic and hadronic inter-
+The tracker accurately determines the trajectory of cosmic actions of particles in the material of AMS and generates
+rays by multiple measurements of the coordinates with a detector responses. The digitization of the signals is
+resolution in each layer of 10 μm in the bending (y) simulated precisely according to the measured character-
+direction. The inner tracker is held stable by a carbon isticsoftheelectronics.Thesimulatedeventsthenundergo
+fiberstructurewithnegligiblecoefficientofthermalexpan- thesamereconstructionasusedforthedata.Figure1shows
+sion.Thestabilityoftheinnertrackerismonitoredusing20
+acomparisonoftheinverserigidityfor400 GeV=cprotons
+IR laser beams which penetrate layers L2 through L8 and from the test beam and the Monte Carlo simulation. As
+provide submicron position measurements. Using cosmic
+raysovera2minutewindow,thepositionofL1isaligned
+with a precision of 5 μm with respect to the inner tracker
+andL9withaprecisionof6 μm.Together,thetrackerand
+themagnetmeasuretherigidityRofchargedcosmicrays.
+The maximum detectable rigidity (MDR) is 2 TVover the
+3 m lever arm from L1 to L9.
+Each layer of the tracker also provides an independent
+measurementoftheabsolutevalueofthechargejZjofthe
+cosmicray.Thechargeresolutionofthelayersoftheinner
+tracker together is ΔZ≃0.05 for jZj¼1 particles.
+Two planes of TOF counters [11] are located above L2 1 - 1 [ GV-1 ]
+Rigidity 400
+and two planes are located below the magnet. For jZj¼1
+-0.02 -0.01 0 0.01 0.02
+particles, the average time resolution of each counter has
+been measured to be 160 ps and the overall velocity
+(β ¼v=c) resolution to be Δβ=β2 ¼4%. This discrimi-
+nates between upward- and downward-going particles.
+stnevE
+weekending
+PRL 114, 171103 (2015) PHYSICAL REVIEW LETTERS 1 MAY 2015
+106
+400 GeV/c Test Beam Data
+105 400 GeV/c Monte Carlo Simulation
+104
+103
+102
+10
+FIG. 1 (color). The resolution function in inverse rigidity for
+400 GeV=cprotonsmeasuredinthetestbeamcomparedwiththe
+Monte Carlo simulation.
+171103-3
+weekending
+PRL 114, 171103 (2015) PHYSICAL REVIEW LETTERS 1 MAY 2015
+seen, the resolution has a pronounced Gaussian core with whereN iisthenumberofeventscorrectedwiththerigidity
+non-Gaussian tails of ∼5% and the simulation precisely resolution function (see below), A i is the effective accep-
+reproduces the measured resolution including the tails. tance, ϵ i is the trigger efficiency, and T i is the collection
+Selection.—In the first 30 months (7.96×107 s) AMS time.InthisLettertheprotonfluxwasmeasuredin72bins,
+collected 4.1×1010 cosmic ray events. The effective data i¼1 to 72, from 1 GV to 1.8 TV with bin widths chosen
+collection time includes only those seconds during which according to the rigidity resolution. The effective accep-
+thedetectorwasinnormaloperatingconditions,theAMSz tanceA i wascalculatedusingMonte Carlosimulation and
+axiswaswithin40°ofthelocalzenith,thetriggerlivetime thencorrectedforsmalldifferencesfoundbetweenthedata
+exceeded 50%, and the ISS was outside of the South and Monte Carlo event selection efficiencies. The trigger
+Atlantic Anomaly. Because of the influence of the geo- efficiency ϵ i is measured from data with the unbiased
+magneticfield,thiscollectiontimeforprimarycosmicrays trigger events. The trigger efficiency ranges from 90%
+increases with increasing rigidity becoming constant at to 95%. The 5% to 10% inefficiency is due to secondary
+6.29×107 s above 30 GV. δ rays in the magnetic field entering the ACC. The
+Byselectingeventstobedownwardgoingandtohavea Monte Carlo simulation agrees with the measured trigger
+reconstructed track in the inner tracker with jZj¼1, we efficiency within 0.5%.
+obtain1.1×1010events.Inordertohavethebestresolution Thebin-to-binmigrationofeventswascorrectedusinga
+at the highest rigidities, further selections are made by rigidity resolution function obtained from Monte Carlo
+requiringthetracktopassthroughL1andL9andtosatisfy simulation and verified with the test beam data, see for
+additionaltrackfittingqualitycriteriasuchasaχ2=d:f:<10 example Fig. 1. Among many unfolding procedures, we
+inthebendingcoordinate.Thenpositivelychargedparticles selected two. The validity of both were verified by our
+areselected.Inaddition,toselectonlyprimarycosmicrays, Monte Carlo simulation. In the first procedure the flux is
+wellabovethegeomagneticcutoff,themeasuredrigidityis obtained iteratively [19]. Initially, the flux is evaluated
+required to be greater than 1.2 times the maximum geo- using Eq. (1) without taking the rigidity resolution
+magnetic cutoff within the AMS field of view. The cutoff function into account. Subsequently, at each iteration,
+wascalculatedbybacktracing[13]particlesfromthetopof the folded Pacceptance A0 is calculated for each bin,
+AMS out to 50 Earth’s radii using the International A0 i ¼ð1=Φ i Þ j Φ j A j M ij, where M ij is the migration
+Geomagnetic Reference Field (IGRF) [14]. Finally, the matrix obtained from the rigidity resolution function.
+small contamination of low energy (below 2 GeV) pions Next, A0 is parametrized using a spline function. Finally,
+produced in the upper part of the detector is removed by the number of events is corrected bin by bin by a factor
+requiring that the mass, determined by combining the A=A0andthefluxisreevaluatedusingEq.(1).Theiteration
+velocity measured by the TOF with the rigidity, of the proceeds until the fluxes between two successive steps
+selected particle is larger than 0.5 GeV=c2. These proce- agree within 0.1%. The results in this Letter are based on
+duresresultedinasampleof3.0×108primarycosmicrays
+thisprocedure.Thesecondprocedureisbasedonaforward
+with Z ¼þ1. unfolding technique [20]. A set of spline functions with
+Since protons are the dominant component of cosmic differentnodepositionsisusedtoparametrizethecorrected
+rays,theselectedsampleof3.0×108eventshasonlysmall
+number of events per bin. The spline functions are folded
+contributions of other particles, mainly deuterons. The with the migration matrix M ij and fit to the data. The
+deuteron contribution decreases with rigidity; at 1 GV it average of those spline functions compatible with data is
+islessthan2%andat20GVitis0.6%[15,16].Deuterons used to obtain N i. The small differences between the two
+were not removed. The sample also contains protons from procedures (<0.5%) are accounted for as a systematic
+nucleiwhichinteractatthetopofAMS(forexample,inL1 error. We have checked the sensitivity of the results to the
+ortheTRD).Fromthemeasuredflux[17]andMonteCarlo binningbyincreasingthebinwidthbyfactorsof2and4as
+simulation thiscontributionis0.5%at 1GVdecreasingto well as reducing the bin width by factors of 2 and 4. The
+lessthan0.1%atandabove10GV.Contaminationfromeþ
+resultinguncertaintyiswellwithintheassignedsystematic
+and e− [18], overwhelmingly eþ, was estimated to be less errors.
+than 0.1% over the entire rigidity range. The background Extensive studies were made of the systematic errors.
+contributions from protons which originated in the inter- Theerrorsincludetheuncertaintiesinthetriggerefficiency,
+actionsofnucleiatthetopofAMSande(cid:1),bothnoticeable
+the acceptance, the background contamination, the geo-
+only below 2 GV, are subtracted from the flux and the magnetic cutoff factor, the event selection, the unfolding,
+uncertainties are accounted for in the systematic errors. the rigidity resolution function, and the absolute rigidity
+Analysis.—The isotropic proton flux Φ i for the ith scale. The trigger efficiency error is dominated by the
+rigidity bin ðR i ;R i þΔR i Þ is statistics available from the 1% prescaled unbiased event
+sample.Itisnegligible(lessthan0.4%)below500GVand
+N
+Φ ¼ i ; ð1Þ reaches1.5%at1.8TV.Thegeomagneticcutofffactorwas
+i AϵT ΔR
+i i i i varied from 1.0 to 1.4 and the resulting proton fluxes
+171103-4
+showed a systematic uncertainty of 2% at 1 GV and To ensure that the treatment of systematic errors
+negligible above 2 GV. We have also verified that using described above is correct, we performed several addi-
+the most recent IGRF model [21] and the IGRF model tional,independentverifications.Figure2showsexamples
+with external nonsymmetric magnetic fields [22] does not ofthestabilityofthemeasuredfluxfordifferentconditions
+introduce observable changes in the flux values nor in the (presented as the ratio to the average flux). Figure 2(a)
+systematic errors. shows the dependence of the integral of the proton flux
+The effective acceptance was corrected for small above30GV,i.e.,abovethemaximumgeomagneticcutoff,
+differencesbetweenthedataandtheMonteCarlosamples on the angle θ between the incoming proton direction and
+related to the event reconstruction andselection. Together, the AMS z axis; this verifies the systematic error assigned
+the correction was found to be 5% at 1 GV decreasing to the acceptance. Figure 2(b) shows the monthly integral
+below 2% above 10 GV, while the corresponding system- flux above 45 GV is within the systematic error of 0.4%.
+atic uncertainty is less than 1.5% above 2 GV.
+The detector is mostly made of carbon and aluminum.
+The corresponding inelastic cross sections of pþC
+and pþAl are known to within 10% at 1 GV and 4%
+at 300 GV [23], and 7% at 1.8 TV from model estima-
+tions [12]. The inelastic cross sections are used in the
+MonteCarlocalculationoftheeffectiveacceptanceand,to
+estimate the systematic error due to the uncertainty in the
+inelasticcrosssections,dedicatedsamplesofprotonswere
+simulatedwiththepþCandpþAlcrosssectionsvaried
+by(cid:1)10%.Fromtheanalysisofthesesamplestogetherwith
+the current knowledge of the cross sections, systematic
+errorsof1%at1GV,0.6%from10to300GV,and0.8%at
+1.8 TV were obtained.
+The rigidity resolution function was verified with data
+from both the ISS and the test beam. For this the residuals
+betweenthehitcoordinatesmeasuredintrackerlayersL1and
+L9andthoseobtainedfromthetrackfitusingtheinformation
+fromonlytheinnertrackerL2toL8werecomparedbetween
+dataandsimulation.Inordertovalidatethealignmentofthe
+externallayersthedifferencebetweentherigiditymeasured
+usingtheinformationfromL1toL8andfromL2toL9was
+compared between data and the simulation. The resulting
+uncertainty on the MDR was estimated to be 5%. The
+corresponding unfolding errors were obtained by varying
+thewidthoftheGaussiancoreoftheresolutionfunctionby
+5%andtheamplitudeofthenon-Gaussiantailsby∼20%(see
+forexampleFig.1)overtheentirerigidityrangeandfoundto
+be1%below 200 GVand3%at 1.8 TV.
+Therearetwocontributionstothesystematicuncertainty
+on the rigidity scale. The first is due to residual tracker
+misalignment. From the 400 GeV=c test beam data it
+was measured to be less then 1=300 TV−1. For the ISS
+data, this error was estimated by comparing the E=p ratio
+for electron and positron events, where E is the energy
+measured with the ECAL and p is the momentum mea-
+suredwiththetracker,seeRef.[24]fordetails.Itwasfound
+to be 1=26 TV−1, limited by the current high energy
+positron statistics. The second systematic error on the
+rigidity scale arises from the magnetic field map uncer-
+tainties (0.25%) and temperature correction uncertainties
+(0.1%). Taken in quadrature and weighted by the rigidity
+dependence of the flux, this amounts to a systematic error
+on the flux of less than 0.5% for rigidities above 2 GV.
+oitaR
+xulF
+θ[° ]
+6 8 10 12 14 16 18 20
+1.03
+(b)
+1.02 Data
+Systematic Uncertainty Range
+1.01
+1
+0.99
+0.98
+0.97
+oitaR
+xulF
+1.04
+1.03 Data
+1.02 Systematic Uncertainty Range
+1.01
+1
+0.99
+0.98
+0.97
+0.96
+Date
+09/11 01/12 05/12 09/12 01/13 05/13 09/13
+Rigidity [GV]
+100 200 300 400 500 600 1000
+oitaR
+xulF
+1.15 Systematic Uncertainty Range (c)
+1.1 Data at Different L1 Entry Regions
+1.05
+1
+0.95
+0.9
+0.85
+Data
+Systematic Uncertainty Range
+Rigidity [GV]
+1 10 102
+oitaR
+xulF
+weekending
+PRL 114, 171103 (2015) PHYSICAL REVIEW LETTERS 1 MAY 2015
+(a)
+1.05
+1.04 (d)
+1.03
+1.02
+1.01
+1
+0.99
+0.98
+0.97
+0.96
+0.95
+FIG. 2 (color). Independent verification of the systematic
+errors. The curves indicate the corresponding systematic errors.
+(a)Thevariationofthefluxratioabove30GVvstheangleθto
+theAMSzaxis.(b)Thevariationofthefluxratioabove45GVvs
+time.(c)Thevariationofthefluxratiovstherigidityfordifferent
+L1 entry regions (see inset). (d) The variation of the flux ratio
+measured using only the inner tracker (L2 to L8) vs the full
+tracker (L1 to L9).
+171103-5
+This verifies that the detector performance is stable over
+time and that the flux above 45 GV shows no observable
+effectfromsolarmodulationfluctuationsforthismeasure-
+ment period. The variation of the proton flux due to solar
+modulation will be the subject of a separate publication.
+Figure 2(c) shows that the ratios of fluxes obtained using
+events which pass through different sections of L1 to the
+averagefluxareingoodagreementandwithintheassigned
+systematic errors; this verifies the errors assigned to the
+tracker alignment. Lastly, as seen from Fig. 2(d), the flux
+obtained using the rigidity measured by only the inner
+Rigidity [GV]
+tracker isin goodagreementwith the flux measuredusing
+the full lever arm; this verifies the systematic errors 1 10 102 103
+assigned from the unfolding procedures and the rigidity
+resolution function for two extreme and important cases.
+First, at the inner tracker MDR (∼300 GV) where the
+unfolding effects and resolution functions of the inner
+tracker and the full lever arm (2 TV MDR) are very
+different. Second,at low rigidities (1 to 10 GV) where the
+unfoldingeffectsandthetailsintheresolutionfunctionsof
+the inner tracker and full lever arm are also very different
+due to large multiple and nuclear scattering.
+Most importantly, several independent analyses were
+performed on the same data sample by different study
+groups. The results of those analyses are consistent with
+this Letter.
+Results.—The measured proton flux Φ including stat-
+isticalerrorsandsystematicerrorsistabulatedinRef.[25]
+asafunctionoftherigidityatthetopoftheAMSdetector.
+Thecontributionstothesystematicerrorscomefrom(i)the
+trigger, (ii) the acceptance, background contamination,
+geomagnetic cutoff, and event selection, (iii) the rigidity
+resolution function and unfolding, and (iv) the absolute
+(cid:2) (cid:3) (cid:4) (cid:2) (cid:3) (cid:5)
+rigidityscale.Thecontributionsofindividualsourcestothe R γ R Δγ=s s
+systematicerrorareaddedinquadraturetoarriveatthetotal
+Φ¼C
+45 GV
+1þ
+R 0
+; ð3Þ
+systematic uncertainty. The Monte Carlo event samples
+have sufficient statistics such that they do not contribute where s quantifies the smoothness of the transition of the
+to the errors. Figure 3(a) shows the flux as a function of spectralindexfromγ forrigiditiesbelowthecharacteristic
+rigidity with the total errors, the sum in quadrature of transition rigidity R 0 to γþΔγ for rigidities above R 0.
+statistical and systematic errors [26]. In this and the Fittingovertherange45GVto1.8TVyieldsaχ2=d:f:¼
+subsequentfigures,thepointsareplacedalongtheabscissa 25=26 with C¼0.4544(cid:1)0.0004ðfitÞþ0.0037ðsysÞþ0.0027
+at R~ calculated for a flux ∝R−2.7 [27]. Figure 3(b) shows ðsolÞ m−2sr−1sec−1GV−1, γ ¼ −2.849 (cid:1) −0.0 0 0 . 4 0 7 02ðfitÞ − þ 0. 0 0 . 0 0 2 0 5 4
+the AMS flux as a function of kinetic energy E K together ðsysÞþ0.004ðsolÞ, Δγ ¼ 0.133þ0.032ðfitÞþ0.046ðs − y 0 s .0 Þ 0 (cid:1) 3
+withthemostrecentresults(i.e.,fromexperimentsafterthe −0.003 −0.021 −0.030
+0.005ðsolÞ, s¼0.024þ0.020ðfitÞþ0.027ðsysÞþ0.006ðsolÞ, and
+year 2000). −0.013 −0.016 −0.004
+A power law with a constant spectral index γ R 0 ¼336þ −4 6 4 8ðfitÞþ −2 6 8 6ðsysÞ(cid:1)1ðsolÞ GV. The first error
+quoted (fit) takes into account the statistical and uncorre-
+Φ¼CRγ ð2Þ lated systematic errors from the flux reported in this work
+[25]. The second (sys) is the error from the remaining
+whereRisinGVandCisanormalizationfactor,doesnot systematic errors, namely, from the rigidity resolution
+fitthefluxreportedinthiswork[25]andshowninFig.3(a) function and unfolding, and from the absolute rigidity
+at the 99.9% C.L. for R>45 GV. Applying solar modu- scale,withtheirbin-to-bincorrelationsaccountedforusing
+lationintheforcefieldapproximation[28]alsodoesnotfit themigrationmatrixM ij.Thethird(sol)istheuncertainty
+thedataatthe99.9%C.L.forR>45 GV.Wethereforefit due to the variation of the solar potential ϕ¼0.50 to
+the flux with a modified spectral index [29] 0.62GV[30].Thefitconfirmsthatabove45GVthefluxis
+]7.1VG
+1-ces1-rs2-m[
+7.2
+R ~
+×
+xulF
+×103
+14 (a)
+AMS-02
+12
+10
+8
+6
+4
+2
+0
+Kinetic Energy (E ) [GeV]
+K
+1 10 102 103 104
+]7.1VeG1-ces1-rs2-m[
+7.2E
+×
+xulF
+K
+weekending
+PRL 114, 171103 (2015) PHYSICAL REVIEW LETTERS 1 MAY 2015
+×103
+14 (b) AMS-02
+ATIC-2
+BESS-Polar II
+12 CREAM
+PAMELA
+10
+8
+6
+4
+2
+0
+FIG.3(color).
+(a)TheAMSprotonfluxmultipliedbyR~2.7
+and
+thetotalerrorasafunctionofrigidity.(b)Thefluxasafunction
+ofkineticenergyE K asmultipliedbyE2 K .7 compqarffieffiffidffiffiffiffiwffiffiffiffiiffitffihffiffiffiffirecent
+measurements[3–6].FortheAMSresultsE
+K
+≡ R~2þM2
+p
+−M
+p
+where M p is the proton mass.
+171103-6
+WethankformerNASAAdministratorDanielS.Goldin
+for his dedication to the legacy of the ISS as a scientific
+laboratoryandhisdecisionforNASAtoflyAMSasaDOE
+payload. We also acknowledge the continuous support of
+the NASA leadership including Charles Bolden and
+William Gerstenmeier and of the JSC and MSFC flight
+controlteamswhichhasallowedAMStooperateoptimally
+on the ISS for over three years. We are grateful for the
+support of Jim Siegrist and Michael Salamon of the DOE.
+WealsoacknowledgethecontinuoussupportfromMITand
+itsSchoolofScience,MichaelSipser,MarcKastner,Ernest
+Moniz, and Richard Milner. Research supported by: São
+Paulo Research Foundation (FAPESP) Grants No. 2014/
+19149-7 and No. 2014/50747-8, Brazil; CAS, NSFC,
+MOST, NLAA, the provincial governments of Shandong,
+Jiangsu, Guangdong, and the China Scholarship Council,
+China;theFinnishFundingAgencyforInnovation(Tekes)
+GrantsNo.40361/01andNo.40518/03andtheAcademyof
+FinlandGrantNo.258963,Finland;CNRS,IN2P3,CNES,
+Enigmass,andtheANR,France;J.Trümper,J.D.Woerner,
+and DLR and Forschungszentrum Jülich under Project
+No.JARA0052,Germany;INFNandASI,Italy,including
+thework of J. Bazo, D. D’Urso, F. Nozzoli,C. Pizzolotto,
+and V. Vitale at the ASI Science Data Center under ASI-
+INFNAgreementsNo.C/011/11/1andNo.2014-037-R.0,
+work at INFN Sezioni di Bologna, Milano-Bicocca,
+Perugia, Pisa, Roma, and Trento under ASI-INFN
+Contracts No. I/002/13/0 and No. 2013-002-R.0; Grants
+No. NRF-2009-0080142 and No. NRF-2012-010226 at
+CHEP, Kyungpook National University and No. NRF-
+2013-004883 at Ewha Womans University, Korea; the
+incompatiblewithasinglespectralindexatthe99.9%C.L. Consejo Nacional de Ciencia y Tecnología at UNAM,
+ThefitisshowninFig.4(a).Forillustration,thefitresults Mexico; CIEMAT, IAC, SEIDI MINECO, CDTI, and
+with Δγ set to zero are also shown in Fig. 4(a). CPAN, Spain; the Swiss National Science Foundation
+To obtain the detailed variation of γ with rigidity in a (SNSF), federal and cantonal authorities, Switzerland;
+model independent way, the spectral index is calculated Academia Sinica and the Ministry of Science and
+from Technology (MOST) under Grant No. 103-2682-M-008-
+002, former President of Academia Sinica Yuan-Tseh Lee
+γ ¼d½logðΦÞ(cid:3)=d½logðRÞ(cid:3) ð4Þ
+and former Ministers of MOST, Maw-Kuen Wu and Luo-
+Chuan Lee, Taiwan; and the Turkish Atomic Energy
+over independent rigidity intervals above 8.48 GV, see
+Authority at METU, Turkey. We gratefully acknowledge
+Ref.[25],withavariablewidthtohavesufficientsensitivity
+the strong support from CERN, including Rolf-Dieter
+to determine γ. The results are presented in Fig. 4(b). As
+Heuer, and from the European Space Agency. We are
+seen in Fig.4(b), the spectral index varies with rigidity. In
+grateful for important discussions with Barry Barish,
+particular, the spectral index progressively hardens with
+Jonathan Ellis, Jonathan Feng, Igor Moskalenko, Steve
+rigidity above ∼100 GV.
+Olsen, George Smoot, Michael Turner, Steven Weinberg,
+In conclusion, knowledge of the rigidity dependence of
+Frank Wilczek, and Arnold Wolfendale.
+the proton flux is important in understanding the origin,
+acceleration, and propagation of cosmic rays. Previous
+measurements of the proton flux in cosmic rays have
+aAlso at ASI, I-00133 Roma, Italy.
+reported different variations of the flux with energy and
+bPresent address: CP3, Université catholique de Louvain,
+this has generated many theoretical models. Our precise
+Belgium.
+measurementoftheprotonfluxfrom1GVto1.8TVisbased cAlso at Xi’an Jiaotong University (XJTU), Xi’an 710049,
+on300millioneventsanddetailedstudiesofthesystematic China.
+errors. The flux deviates from a single power law and dAlso at Sun Yat–Sen University (SYSU), Guangzhou
+progressively hardens at high rigidities. 510275, China.
+]7.1VG
+1-ces1-rs2-m[
+7 .2
+R ~
+×
+xulF
+×103
+AMS-02
+Fit to Eq. (3)
+Eq. (3) with
+Δγ
+=0
+10 102 103
+Rigidity [GV]
+xednI
+lartcepS
+weekending
+PRL 114, 171103 (2015) PHYSICAL REVIEW LETTERS 1 MAY 2015
+(a)
+(b)
+-2.5
+-2.55
+-2.6
+-2.65
+-2.7
+-2.75
+-2.8
+-2.85
+-2.9
+FIG.4(color).
+(a)TheAMSprotonfluxmultipliedbyR~2.7
+asa
+functionofrigidityR.ThesolidcurveindicatesthefitofEq.(3)
+to the data. For illustration, the dashed curve uses the same fit
+valuesbutwithΔγsettozero.(b)Thedependenceoftheproton
+flux spectral index γ on rigidity R.
+171103-7
+weekending
+PRL 114, 171103 (2015) PHYSICAL REVIEW LETTERS 1 MAY 2015
+ePresent address: SRON, Utrecht, Netherlands. S. Ting, Nucl. Phys. B, Proc. Suppl. 243–244, 12 (2013);
+fPresent address: at European Organization for Nuclear S.-C. Lee, in Proceedings of the 20th International
+Research (CERN), CH-1211 Geneva 23, Switzerland. Conference on Supersymmetry and Unification of Funda-
+gAlso at Shandong University (SDU), Jinan, Shandong mental Interactions (SUSY 2012), Beijing, 2012 (unpub-
+250100, China. lished);M.Aguilar,inProceedingsoftheXLInternational
+hAlso at Harbin Institute of Technology (HIT), Harbin Meeting on Fundamental Physics, Centro de Ciencias de
+150001, China. BenasquePedroPascual,2012(unpublished);S.Schael,in
+iAlso at University of Science and Technology of China Proceedings of the 10th Symposium on Sources and
+(USTC), Hefei 230026, China. DetectionofDarkMatterandDarkEnergyintheUniverse,
+jAlso at Università di Siena, I-53100 Siena, Italy. Los Angeles, 2012 (unpublished); B. Bertucci, Proc. Sci.,
+kAlso at Laboratoire dAnnecy-le-Vieux de Physique Théo- EPS-HEP(2011)67;M.Incagli,AIPConf.Proc.1223,43
+rique(LAPTh),CNRSandUniversitéSavoieMontBlanc, (2010); R. Battiston, Nucl. Instrum. Methods Phys. Res.,
+F-74941 Annecy-le-Vieux, France. Sect. A 588, 227 (2008).
+lAlso at Nankai University, Tianjin 300071, China. [9] K.Lübelsmeyeretal.,Nucl.Instrum.MethodsPhys.Res.,
+mAlsoatBeijingNormalUniversity(BNU),Beijing100875, Sect. A 654, 639 (2011).
+China. [10] B.Alpatetal.,Nucl.Instrum.MethodsPhys.Res.,Sect.A
+nAlsoatSoutheastUniversity(SEU),Nanjing210096,China. 613, 207 (2010).
+[1] See, for example, P. Blasi, Braz. J. Phys. 44, 426 (2014); [11] V.Bindietal.,Nucl.Instrum.MethodsPhys.Res.,Sect.A
+also Astron. Astrophys. Rev. 21, 70 (2013). 743, 22 (2014) and references therein.
+[2] M.Ackermannetal.,Phys.Rev.Lett.112,151103(2014); [12] J. Allison et al., IEEE Trans. Nucl. Sci. 53, 270 (2006);
+M.Hareyamaetal.,J.Phys.Conf.Ser.31,159(2006);M. S. Agostinelli et al., Nucl. Instrum. Methods Phys. Res.,
+Boezioetal.,Astropart.Phys.19,583(2003);E.Diehl,D. Sect. A 506, 250 (2003).
+Ellithorpe,D.Muller,andS.P.Swordy,Astropart.Phys.18, [13] J. Alcaraz et al., Phys. Lett. B 484, 10 (2000); see also
+487(2003);J.Alcarazetal.,Phys.Lett.B490,27(2000); Ref. [16].
+W. Menn et al., Astrophys. J. 533, 281 (2000); R. Bellotti [14] C.C. Finlay et al., Geophys. J. Int. 183, 1216 (2010).
+et al., Phys. Rev. D 60, 052002 (1999); M. Boezio et al., [15] P. Papini et al., Astrophys. J. 615, 259 (2004).
+Astrophys. J. 518, 457 (1999); K. Asakimori et al., [16] M. Aguilar et al., Phys. Rep. 366, 331 (2002).
+Astrophys. J. 502, 278 (1998); M. Ichimura et al., Phys. [17] The AMS Collaboration, Measurement of the Flux of
+Rev.D48,1949(1993);I.P.Ivanenkoetal.,inProceedings Helium Nuclei in Primary Cosmic Rays with the Alpha
+ofthe23rdInternationalCosmicRayConference,Calgary Magnetic Spectrometer on the International Space Station,
+(World Scientific, Singapore, 1993), p. 17. (tobepublished),willincludeadetailedcomparisonofthe
+[3] FortheATICexperimentseeA.D.Panovetal.,Bull.Russ. flux of protons and helium nuclei. Our measured helium
+Acad.Sci.Phys.73,564(2009);extractedfromD.Maurin, fluxspectralindexasafunctionofrigidityisdifferentthan
+F. Melot, and R. Taillet, Astron. Astrophys. 569, A32 our proton spectral index; The AMS Collaboration, Meas-
+(2014). urementoftheFluxofLightNucleiinPrimaryCosmicRays
+[4] We are grateful to the BESS-Polar Collaboration for withtheAlphaMagneticSpectrometerontheInternational
+providing the BESS-Polar II proton spectrum, measured Space Station (to be published).
+duringa25-dayAntarcticballoonflightinDecember2007 [18] M. Aguilar et al., Phys. Rev. Lett. 113, 121102 (2014).
+and January 2008. Statistical and systematic errors are [19] G.D’Agostini,Nucl.Instrum.MethodsPhys.Res.,Sect.A,
+combined. A publication detailing these measurements is 362, 487 (1995); V. Blobel, Report No. DESY-84-118,
+inpreparation.ForadescriptionoftheBESS-Polarexperi- 1984;A.Kondor,Nucl.Instrum.MethodsPhys.Res.,216,
+mentseeK.Abeetal.,Phys.Rev.Lett.108,051102(2012). 177 (1983).
+For the BESS experiment see Y. Shikaze et al., Astropart. [20] J.Albertetal.,Nucl.Instrum.MethodsPhys.Res.,Sect.A
+Phys.28,154(2007);S.Hainoetal.,Phys.Lett.B594,35 583, 494 (2007).
+(2004); T. Sanuki et al., Astrophys. J. 545, 1135 (2000). [21] IGRF-12 (2015), currently available at http://www.ngdc
+[5] For the CREAM experiment see Y.S. Yoon et al., .noaa.gov/IAGA/vmod/igrf.html (unpublished).
+Astrophys. J. 728, 122 (2011). [22] P.Bobik,G.Boella,M.J.Boschini,D.Grandi,M.Gervasi,
+[6] For the PAMELA experiment see O. Adriani et al., K.Kudela,S.Pensotti,andP.G.Rancoita,J.Geophys.Res.
+Astrophys. J. 765, 91 (2013); Science 332, 69 (2011). 111, A05205 (2006); N.A. Tsyganenko and M.I. Sitnov,
+[7] See,forexample,G.Bernard,T.Delahaye,P.Salati,andR. J. Geophys. Res. 110, A03208 (2005).
+Taillet, Astron. Astrophys. 555, A48 (2013); V.S. [23] N. Abgrall et al., Phys. Rev. C 84, 034604 (2011); J.R.
+Ptuskin, V. Zirakashvili, and E.S. Seo, Astrophys. J. 763, Letaw, R.Silberberg,and C.H.Tsao, Astrophys. J.Suppl.
+47 (2013); N. Tomassetti, Astrophys. J. Lett. 752, L13 Ser.51,271(1983);A.S.Carrolletal.,Phys.Lett.80B,319
+(2012); P. Blasi, E. Amato, and P.D. Serpico, Phys. (1979); S.P. Denisov, S.V. Donskov, Yu. P. Gorin, R.N.
+Rev. Lett. 109, 061101 (2012); A.E. Vladimirov, G. Krasnokutsky, A.I. Petrukhin, Yu.D. Prokoshkin, and
+Jóhannesson,I.V.Moskalenko,andT.A.Porter,Astrophys. D.A.Stoyanova,Nucl.Phys.B61,62(1973);G.Bellettini,
+J. 752, 68 (2012). G. Cocconi, A.N. Diddens, E. Lillethun, G. Matthiae,
+[8] A. Kounine, Int. J. Mod. Phys. E 21, 1230005 (2012); S. J.P. Scanlon, and A.M. Wetherell, Nucl. Phys. 79, 609
+Rosier-Lees, in Proceedings of Astroparticle Physics (1966); T. Bowen, M. Di Corato, W.H. Moore, and G.
+TEVPA/IDM, Amsterdam, 2014 (to be published); Tagliaferri, Il Nuovo Cimento 9, 908 (1958).
+171103-8
+weekending
+PRL 114, 171103 (2015) PHYSICAL REVIEW LETTERS 1 MAY 2015
+[24] L. Accardo et al., Phys. Rev. Lett. 113, 121101 (2014); [29] We have chosen this particular equation, which is a
+M. Aguilar et al., Phys. Rev. Lett. 110, 141102 (2013). double power law with a transition between low rigidity
+[25] See Supplemental Material at http://link.aps.org/ andhighrigiditypowerlaws,asitdescribesour datawell.
+supplemental/10.1103/PhysRevLett.114.171103 for the This function has been widely used for many years to
+tabulated flux. describe different physics phenomena, see for example
+[26] A progress report on our proton analysis was presented at Eq. (1), K. Beuermann et al., Astron. Astrophys. 352,
+the 33rd International Cosmic Ray Conference (2013). At L26 (1999) and Eq. (43), L. Hernquist, Astrophys. J. 356,
+thattime,ourunderstandingofthesystematicerrorsdidnot 359 (1990).
+allow an accurate determination of the behavior of the [30] I.G. Usoskin, G.A. Bazilevskaya, and G.A. Kovaltsov,
+proton flux. J. Geophys. Res. 116, A02104 (2011); K.G. McCracken
+[27] G.D. Lafferty and T.R. Wyatt, Nucl. Instrum. Methods and J. Beer, J. Geophys. Res. 112, A10101 (2007); I.G.
+Phys.Res.,Sect.A355,541(1995).WehaveusedEq.(6) Usoskin, K. Alanko-Huotari, G.A. Kovaltsov, and K.
+with R~ ≡x lw. Mursula, J. Geophys. Res. 110, A12108 (2005). We have
+[28] L.J. Gleeson and W.I. Axford, Astrophys. J. 154, 1011 also used more recent data from: http://cosmicrays.oulu.fi/
+(1968). phi/Phi_mon.txt.
+171103-9
