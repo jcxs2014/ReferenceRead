@@ -640,7 +640,7 @@ function buildDocs() {
   const container = document.getElementById("doc-container");
   container.innerHTML = `<section class="doc-section" data-slug="${active.slug}">${active.html}</section>`;
   injectGloss(container.querySelector("section[data-slug]"), active.slug);
-  // 首页渲染演化谱系树（38 篇可交互大纲）
+  // 首页渲染演化谱系树（51 篇可交互大纲）
   const sec = container.querySelector("section[data-slug]");
   if (sec && active.slug === "知识库首页") {
     renderEvolutionTree(sec);
