@@ -922,3 +922,88 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 2. **脚本链"全执行"≠"全正确"**——并行会话跑完 12 脚本的"成功"汇总掩盖了数据破坏；复验必须查 frontmatter 字段守恒（title/pages/sections/citations 逐项）
 3. **audit 的 2 项失败是有效预警**（title 空/registry 不一致）——执行侧应解读为"数据被破坏"而非"修复后重跑"
 4. 属性面板完整性 = frontmatter 字段白名单之外的字段（journal/doi/pages/sections）不被脚本触碰
+
+---
+
+## 2026-08-16 理论文献补充（13 篇）WorkBuddy 复验
+
+> 任务来源：`docs/文献补充执行指令.md` v2（commits 6d45490→8385749→8063113→fbef6d0→1762325）
+> Hermes 交付：commit `cd775ad`（13 篇精读入库）+ `9be0567`（§8 同步）
+> 复验口径：指令 §9 六项；自动化校验 + 视觉抽查 + PDF 对照
+
+### 复验结论：⚠️ 13 篇基本完成但质量参差——3 项 P0 必修、7 项 P1/P2 待优化
+
+### P0 / 必须修复（影响 webapp 解析或数据正确性）
+
+**① karakas-lattanzio-2014（0021）frontmatter 完全不符规范**
+- 00_overview.md **无 YAML frontmatter**（用 markdown 表格替代）：`head -30` 显示 `# 00 Overview` + `## Frontmatter` 表格，YAML 解析为 None
+- DOI 是**占位符** `10.1017/pas.2014.xxx`（xxx 明显未填充）——违反"不得编造"铁律
+- 影响：webapp build_registry 解析 frontmatter 会漏掉该篇；arxiv 实为 1405.0062（来自表格正确），但其他字段结构非法
+- **必须改为标准 YAML**：`---` 包裹 + title/authors/year/journal/category/pages/doi/arxiv/sections/citations/path
+
+**② eichler-1989（0023）并合率数值错误（差 2 量级）**
+- 分章 `01_eichler-1989.md` 行 18/27 表写：`$\sim 10^{-3}$ yr$^{-1}$` / `$\sim 3\times10^{-3}$ yr$^{-1}$`
+- PDF（Nature 340, 126，视觉读取第一栏底/第二栏顶）原文：`Clark et al.² estimated the formation rate in the Galaxy to be (3 ± 1.6) × 10⁻⁵ yr⁻¹`
+- **差 2 个数量级**，违反"数值/符号以原文 PDF 为准，禁止凭记忆改写"铁律（正确性铁律，2026-08-15 用户明确）
+- **必须改为** `(3 ± 1.6) × 10^{-5}` yr$^{-1}$（10⁻⁵，非 10⁻³）
+
+**③ README.md 域计数完全未同步（违反指令 §6）**
+- 当前：`| 01 | 宇宙线传播 | 6 |`、`| 02 | 宇宙线起源与 UHECR | 15 |`、`| 03 | 恒星核合成与元素丰度 | 17 |`、各域章节标题仍标 "(6 篇)/(15 篇)/(17 篇)"
+- 指令要求：01 域 6→7、02 域 15→20、03 域 17→24、**总数 38→51**
+- INDEX.md ✅ 已同步（51 篇含新编号）；README ❌ 未动——Hermes 报告的"§8 同步"不完整
+
+### P1 / 中等（行数/结构不达标）
+
+| 篇 | 问题 | 当前 | 门槛 |
+|---|---|---|---|
+| **bell-1978-ii（0019）** | 分章仅 1 个文件 48 行 | 全 156 行 | 路径 A 研究型 ≥500 |
+| **eichler-1989（0023）** | 分章 1 个文件 51 行（八段模板应完整） | 全 153 行 | 路径 B 研究型 ≥500 |
+| **drury-1983（0007）** | 综述偏浅 | 全 591 行 | 综述 ≥800 |
+| **arnould-goriely-2003（0018）** | 84 页大综述偏浅 | 全 738 行 | 综述 ≥800 |
+| **sneden-cowan-2008（0019）** | 综述偏浅 | 全 773 行 | 综述 ≥800 |
+| **busso-1999（0022）** | 分章 vs 00 相似度 | **16.34%** | <10% |
+
+**bell-1978-ii 结构性缺陷**：路径 A 应镜像 Bell 1978a 同级（0008_bell-1978 有 5 个分章 997 行），b 版仅有 `01_introduction.md` 48 行——需要按 §1-§6 子节拆分重写精读
+
+### P2 / 轻微
+
+- **drury-1983**：frontmatter 缺 authors（应为 `L. O'C. Drury`，老文献 Phys.Rep. 无 arXiv 可接受）
+- **nomoto-2013 / nomoto-suzuki-2014**：frontmatter 缺 sections（必填字段，模板里有）
+- **caprioli-2014-ii / giacalone-2017**：citations 用自定义字符串格式（`'caprioli-2014-ii → caprioli-2014 (path)'`），与其他 11 篇 wikilink `[[path|name]]` 不统一——webapp build_citations 解析可能漏
+- **.DS_Store 被 git 跟踪**：13 篇每篇目录各 1 个（57 个 M 里有部分），违反 .gitignore（已跟踪文件不受 ignore 影响）——建议 `find . -name .DS_Store -delete` + 批量 untrack
+- **sneden-cowan-2008**：arxiv 空（2008 ARA&A 无 arXiv 预印本，可接受）
+
+### 工作树未提交项
+
+- **57 M**：`97_quality_check.md`（13 篇新建 + 38 篇老文献被刷新——统计数字更新）+ 13 篇目录里的 `.DS_Store`
+- **2 ??**：busso-1999 的 `98_vocabulary.md` 和 `99_final_summary.md`（untracked！commit 9be0567 漏提交）
+- 用户报告"repo clean"不准确——Hermes 提交后又有改动未 commit
+
+### 通过项 ✅
+
+- 目录结构：13 篇均有 PDF+fulltext+literature_analysis（bell/eichler 分章文件数不足是结构问题见 P1）
+- INDEX.md：51 篇含新编号（drury/caprioli/kotera/bell-ii/giacalone/arnould/sneden/nomoto/karakas/busso/eichler/nomoto-suzuki 全在）
+- 97 占位检查：13 篇均无"需人工确认/TODO/占位"（质量门禁通过）
+- 相似度：12/13 篇 00 vs 分章相似度 <10%（仅 busso 超标 16.34%）
+- citations 指向有效性：0 缺失（91 个初始误报是 wikilink 无 .md 后缀，修正后全绿）
+- 数字守恒抽查：caprioli-2014（PDF ~10%/15-20% ↔ 分章 ~10/15/17/19/5/12%）✅；nomoto-2013 EMP 阈值 ✅；eichler ❌（见 P0 ②）
+
+### 修复建议（按优先级）
+
+1. **立即修（P0）**：
+   - karakas 改用标准 YAML frontmatter（参照 0014_alvesbatista-2019 模板）+ 补全 DOI（Karakas & Lattanzio 2014 PASA 真实 DOI：10.1017/pasa.2014.xx，可查 ADS）
+   - eichler 并合率改为 `10^{-5}`（两处）
+   - README.md 域计数更新（机械替换：6→7、15→20、17→24，3 处表格行）
+2. **本轮修（P1）**：
+   - bell-1978-ii 分章补全（按 Bell 1978b 原文 §1-§6 拆分为 5-6 个分章文件，至少 ≥500 行）
+   - eichler 八段模板补全 8 段（≥500 行）
+   - drury/arnould/sneden 综述补深度（≥800 行门槛）
+   - busso 重新生成 98/99（先 commit）+ 重写分章降低相似度
+3. **下次清理（P2）**：frontmatter 缺字段补齐 + .DS_Store 清理 + 57 M 统计刷新 commit
+4. **建议**：数字守恒增加自动化校验（PDF 数值与分章 grep 对照脚本），防止凭记忆写错量级再次发生
+
+### 复验方法论沉淀
+
+- **数字守恒抽查脚本化**：PDF pdftotext 与分章 grep 对照（如 [Fe/H]、效率%、并合率等特征数值）应纳入 build_all 质控
+- **行数门槛要区分"全文件"vs"分章"口径**：97_quality_check 统计的是全文件（含 00/97/98/99），门槛按此判定；分章行数是辅证
+- **相似度 >10% = 分章搬运 00 内容**：脚本化监控（已纳入 quality_matrix？需确认）

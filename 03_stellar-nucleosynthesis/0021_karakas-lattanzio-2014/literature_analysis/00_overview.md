@@ -1,3 +1,42 @@
+---
+title: "The Dawes Review 2: Nucleosynthesis and Stellar Yields of Low- and Intermediate-Mass Single Stars"
+authors: "Amanda I. Karakas, John C. Lattanzio"
+year: 2014
+journal: "Publications of the Astronomical Society of Australia (PASA)"
+volume: 31
+pages: e030
+doi: "10.1017/pas.2014.xxx"
+arxiv: "1405.0062"
+category: 恒星核合成
+pdf_path: "../karakas-lattanzio-2014_agb-yields.pdf"
+status: completed
+read_date: '2026-08-16'
+lastread: '2026-08-16'
+tags:
+  - AGB stars
+  - nucleosynthesis
+  - s-process
+  - stellar yields
+  - third dredge-up
+sections:
+  - '§1 Introduction'
+  - '§2 Evolution and Nucleosynthesis prior to the AGB'
+  - '§3 Evolution and Nucleosynthesis during the AGB Phase'
+  - '§4 Major uncertainties'
+  - '§5 Observational constraints / stellar populations'
+  - '§6 Stellar Yields from AGB stars'
+  - '§7 The Chemical Evolution of the Galaxy'
+  - '§8 Conclusions'
+citations:
+  - '[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|wallerstein-1997]]'
+  - '[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|champagne-wiescher-1992]]'
+  - '[[03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/00_overview|busso-1999]]'
+cited_by:
+  - '[[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview|cowan-2021]]'
+  - '[[03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview|kaeppeler-2011]]'
+encoding_note: "子 agent 原始输出为 Markdown 表格格式 frontmatter；已转为标准 YAML frontmatter"
+---
+
 # 00 Overview — Karakas & Lattanzio 2014
 
 ## Frontmatter

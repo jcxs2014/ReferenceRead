@@ -22,6 +22,17 @@ citations:
 - '[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]]'
 - '[[03_stellar-nucleosynthesis/0020_nomoto-2013/literature_analysis/00_overview|0020_nomoto-2013]]'
 path: 03_stellar-nucleosynthesis/0024_nomoto-suzuki-2014/literature_analysis/00_overview.md
+sections:
+  - '§1 Introduction'
+  - '§2 Progenitor Mass and Explosion Energy'
+  - '§3 8–10 M☉ and Electron Capture Supernovae'
+  - '§4 10–13 M☉ and Faint Supernovae'
+  - '§5 13–25 M☉ and Normal Supernovae'
+  - '§6 25–140 M☉, Hypernovae and Faint Supernovae'
+  - '§7 Very Massive Stars'
+  - '§8 Extremely Metal Poor Stars and Abundance Profiling'
+  - '§9 Yield Tables for Core-Collapse Supernovae'
+  - '§10 Concluding Remarks'
 ---
 > 本文件为文献精读档案的 00_overview.md（总览）
 >

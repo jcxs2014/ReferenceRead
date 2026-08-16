@@ -11,21 +11,21 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 6 个（✅） |
-| **合计** | **9 个分析文件，587 行** |
+| **合计** | **9 个分析文件，601 行** |
 
 ## 覆盖统计
 
 | 项目 | 数量 | 说明 |
 |---|---|---|
-| §1 标题数 | 1 | 主章节数 |
-| §2 标题数 | 46 | 分节数 |
+| §1 标题数 | 2 | 主章节数 |
+| §2 标题数 | 47 | 分节数 |
 | §3 标题数 | 9 | 子分节数 |
-| 图 (Figure) | 16 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
-| 表 (Table) | 3 | 同上 |
+| 图 (Figure) | 8 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 2 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 25 | 事实陈述 |
-| [INTERPRETATION] | 4 | 解读 |
-| [CRITIQUE] | 3 | 批判 |
+| [FACT] | 27 | 事实陈述 |
+| [INTERPRETATION] | 6 | 解读 |
+| [CRITIQUE] | 5 | 批判 |
 
 ## 完成度评分
 

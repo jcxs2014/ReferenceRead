@@ -1,21 +1,22 @@
 ---
-title: "Nucleosynthesis in Stars and the Chemical Enrichment of Galaxies"
-authors: "K. Nomoto, C. Kobayashi, N. Tominaga"
-year: "2013"
-journal: "Annu. Rev. Astron. Astrophys. 51, 457–509"
-pages: "457-509"
-doi: "10.1146/annurev-astro-082812-140956"
-keywords: "first star, galactic archaeology, gamma-ray burst, hypernova, metal-poor star, supernova"
-category: "恒星核合成"
+title: Nucleosynthesis in Stars and the Chemical Enrichment of Galaxies
+authors: K. Nomoto, C. Kobayashi, N. Tominaga
+year: '2013'
+journal: Annu. Rev. Astron. Astrophys. 51, 457–509
+pages: 457-509
+doi: 10.1146/annurev-astro-082812-140956
+keywords: first star, galactic archaeology, gamma-ray burst, hypernova, metal-poor
+  star, supernova
+category: 恒星核合成
 status: completed
-read_date: "2026-08-16"
-lastread: "2026-08-16"
+read_date: '2026-08-16'
+lastread: '2026-08-16'
 tags:
-  - core-collapse supernova
-  - EMP stars
-  - galactic chemical evolution
-  - Pop III
-  - hypernova
+- core-collapse supernova
+- EMP stars
+- galactic chemical evolution
+- Pop III
+- hypernova
 citations:
 - '[[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]]'
 - '[[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]]'
@@ -25,6 +26,19 @@ citations:
 - '[[03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview|0017_kaeppeler-2011]]'
 - '[[03_stellar-nucleosynthesis/0023_eichler-1989/literature_analysis/00_overview|0023_eichler-1989]]'
 path: 03_stellar-nucleosynthesis/0020_nomoto-2013/literature_analysis/00_overview.md
+arxiv: '1301.1418'
+pdf_path: ../nomoto-2013_nucleosynthesis-enrichment.pdf
+sections:
+- §1 Introduction
+- §2 Evolution and Nucleosynthesis of AGB Stars
+- §3 Explosive Nucleosynthesis in CC-SN
+- §4 Massive Stars
+- §5 Very Massive Stars
+- '§6 Type Ia SNe: Progenitors'
+- §7 Chemical Evolution of Galaxies
+- §8 EMP Stars & Abundance Profiling
+- §9 Galactic Archaeology Surveys
+- §10 Future Outlook
 ---
 > 本文件为文献精读档案的 00_overview.md（总览）
 >
