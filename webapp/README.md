@@ -1,6 +1,6 @@
 # papers/webapp/ — 交互知识库网页（构建与维护引导）
 
-> 将 `papers/background/` 知识库 + 38 篇论文精读，构建为**单文件离线交互网页**（`interactive.html`）。
+> 将 `papers/background/` 知识库 + 51 篇论文精读，构建为**单文件离线交互网页**（`interactive.html`）。
 > 本 README 是 webapp 的统一引导：目录结构 → 脚本分类 → 构建链执行步骤 → 注意事项。
 
 ## 目录结构
@@ -50,7 +50,7 @@ $PY webapp/scripts/build_glossary.py
 # 3. 全文索引（md → search_index.json）
 $PY webapp/scripts/build_search_index.py
 # 4. 主构建（background + 论文 → interactive.html）
-$PY webapp/scripts/build_webapp.py --include-papers    # 含 38 篇论文；仅背景用不带参数
+$PY webapp/scripts/build_webapp.py --include-papers    # 含 51 篇论文；仅背景用不带参数
 # 5. 审计（18 条断言 + 附检查，失败非零退出）
 $PY webapp/scripts/audit.py
 
@@ -65,7 +65,7 @@ bash scripts/verify_claim.sh               # 或 --full-rebuild 真重建
 ### 1. build_fm / build_citations 默认只读，不写文档库（P0 教训，见 docs/TROUBLESHOOTING A7）
 
 - **默认只读审计**：`build_fm.py` 校验 frontmatter 卫生（YAML/字段/[FACT] 残留），`build_citations.py` 统计校验 citations——**均不修改任何 md**（文档修改属文献阅读工作流）
-- **`--write` 显式才写**，且**存量库禁用**：build_fm 是"白名单重建"（只保留 8 字段，丢弃 journal/doi/arxiv/pages/sections 等增强字段——2026-08-15 曾致 38 篇属性面板字段丢失已回滚）；build_citations 会重写 38 篇 citations
+- **`--write` 显式才写**，且**存量库禁用**：build_fm 是"白名单重建"（只保留 8 字段，丢弃 journal/doi/arxiv/pages/sections 等增强字段——2026-08-15 曾致 38 篇属性面板字段丢失已回滚）；build_citations 会重写 51 篇 citations
 - **`--write` 仅限新库初始化场景**；跑前先 `git status` 确认工作树干净可回滚
 
 ### 2. 产物不入库
