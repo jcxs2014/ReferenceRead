@@ -21,11 +21,11 @@ read_date: '2026-08-16'
 lastread: '2026-08-16'
 tags: [球状激波, DSA, 粒子加速, 磁场几何, 准垂直, 准平行, 极区增强, SNR, SEP]
 citations:
-  - 'giacalone-2017 ← bell-1978 (02_cosmic-ray-origins/0008)'
-  - 'giacalone-2017 ← blandford-ostriker-1978 (02_cosmic-ray-origins/0009)'
-  - 'giacalone-2017 ← caprioli-2014 (02_cosmic-ray-origins/0016)'
-  - 'giacalone-2017 ← caprioli-2014 (Part II) (02_cosmic-ray-origins/0017)'
-  - 'giacalone-2017 ← blasi-2013 (02_cosmic-ray-origins/0004)'
+  - '[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview|bell-1978]]'
+  - '[[02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_overview|blandford-ostriker-1978]]'
+  - '[[02_cosmic-ray-origins/0016_caprioli-2014/literature_analysis/00_overview|caprioli-2014 (Paper I)]]'
+  - '[[02_cosmic-ray-origins/0017_caprioli-2014-ii/literature_analysis/00_overview|caprioli-2014 (Paper II)]]'
+  - '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|blasi-2013]]'
 path: 02_cosmic-ray-origins/0020_giacalone-2017/literature_analysis/00_overview.md
 ---
 > 状态：**精读完成**（2026-08-16）

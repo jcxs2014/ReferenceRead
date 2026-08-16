@@ -25,15 +25,15 @@ read_date: '2026-08-16'
 lastread: '2026-08-16'
 tags: [hybrid, MFA, resonant streaming instability, NRH, Bell 2004, free-escape boundary, precursor, turbulence spectrum]
 citations:
-  - 'caprioli-2014-ii → caprioli-2014 (02_cosmic-ray-origins/0016)'
-  - 'caprioli-2014-ii → bell-1978 (02_cosmic-ray-origins/0008)'
-  - 'caprioli-2014-ii → bell-2004 (NRH, non-resonant hybrid instability)'
-  - 'caprioli-2014-ii → blasi-amato-2006'
-  - 'caprioli-2014-ii → blasi-amato-2009'
-  - 'caprioli-2014-ii → rikaelme-spitkovsky-2009'
-  - 'amato-2014 → caprioli-2014-ii (02_cosmic-ray-origins/0005)'
-  - 'blasi-2013 → caprioli-2014-ii (02_cosmic-ray-origins/0004)'
-  - 'giacalone-2017 → caprioli-2014-ii (02_cosmic-ray-origins/0020)'
+  - '[[02_cosmic-ray-origins/0016_caprioli-2014/literature_analysis/00_overview|caprioli-2014 (Paper I)]]'
+  - '[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview|bell-1978]]'
+  - 'bell-2004 (non-resonant hybrid instability, NRH)'
+  - 'blasi-amato-2006'
+  - 'blasi-amato-2009'
+  - 'riquelme-spitkovsky-2009'
+  - 'amato-2014'
+  - 'blasi-2013'
+  - 'giacalone-2017'
 path: 02_cosmic-ray-origins/0017_caprioli-2014-ii/literature_analysis/00_overview.md
 ---
 > 状态：**精读完成**（2026-08-16）
