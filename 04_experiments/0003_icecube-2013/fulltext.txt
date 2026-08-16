@@ -1,0 +1,764 @@
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                         Evidence for High-Energy Extraterrestrial Neutrinos at the IceCube
+                         Detector                                                   
+                         IceCube Collaboration                                      
+                         Science 342, (2013);                                       
+                         DOI: 10.1126/science.1242856                               
+                                                                                    
+                                                                                    
+                                                                                    
+                         This copy is for your personal, non-commercial use only.   
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+              If you wish to distribute this article to others, you can order high-quality copies for your
+              colleagues, clients, or customers by clicking here.                   
+              Permission to republish or repurpose articles or portions of articles can be obtained by
+              following the guidelines here.                                        
+                                                                                    
+              The following resources related to this article are available online at
+              www.sciencemag.org (this information is current as of November 24, 2013 ):
+              Updated information and services, including high-resolution figures, can be found in the online
+              version of this article at:                                           
+              http://www.sciencemag.org/content/342/6161/1242856.full.html          
+              Supporting Online Material can be found at:                           
+              http://www.sciencemag.org/content/suppl/2013/11/20/342.6161.1242856.DC1.html
+              A list of selected additional articles on the Science Web sites related to this article can be
+              found at:                                                             
+              http://www.sciencemag.org/content/342/6161/1242856.full.html#related  
+              This article cites 25 articles, 1 of which can be accessed free:      
+              http://www.sciencemag.org/content/342/6161/1242856.full.html#ref-list-1
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+      Science (print ISSN 0036-8075; online ISSN 1095-9203) is published weekly, except the last week in December, by the
+      American Association for the Advancement of Science, 1200 New York Avenue NW, Washington, DC 20005. Copyright
+      2013 by the American Association for the Advancement of Science; all rights reserved. The title Science is a
+      registered trademark of AAAS.                                                 
+                                                                                333333333111111111000000000222222222
+                                                                                ,,,,,,,,,444444444222222222
+                                                                                rrrrrrrrreeeeeeeeebbbbbbbbbmmmmmmmmmeeeeeeeeevvvvvvvvvoooooooooNNNNNNNNN
+                                                                                nnnnnnnnnooooooooo
+                                                                                gggggggggrrrrrrrrrooooooooo.........gggggggggaaaaaaaaammmmmmmmmeeeeeeeeecccccccccnnnnnnnnneeeeeeeeeiiiiiiiiicccccccccsssssssss.........wwwwwwwwwwwwwwwwwwwwwwwwwww
+                                                                                mmmmmmmmmooooooooorrrrrrrrrfffffffff
+                                                                                dddddddddeeeeeeeeedddddddddaaaaaaaaaooooooooolllllllllnnnnnnnnnwwwwwwwwwoooooooooDDDDDDDDD
+
+                                                                                  
+                                RESEARCH        ARTICLE      SUMMARY              
+                                                                                  
+                                                                                  
+    Evidence    for High-Energy                                                   
+                                                      READ THE FULL ARTICLE ONLINE
+                                                      http://dx.doi.org/10.1126/science.1242856
+    Extraterrestrial    Neutrinos   at the                                        
+                                                          Cite this article as IceCube Collaboration,
+                                                          Science 342, 1242856 (2013).
+                                                          DOI: 10.1126/science.1242856
+    IceCube    Detector                                                           
+    IceCube Collaboration*                                                        
+                                                     FIGURES IN THE FULL ARTICLE  
+                                                     Fig. 1. Drawing of the IceCube array.
+    Introduction: Neutrino observations are a unique probe of the universe’s highest-energy phe-
+    nomena: Neutrinos are able to escape from dense astrophysical environments that photons cannot Fig. 2. Distribution of best-fi t deposited
+    and are unambiguous tracers of cosmic ray acceleration. As protons and nuclei are accelerated, energies and declinations.
+    they interact with gas and background light near the source to produce subatomic particles such as
+                                                     Fig. 3. Coordinates of the fi rst detected light
+    charged pions and kaons, which then decay, emitting neutrinos. We report on results of an all-sky
+                                                     from each event in the fi nal sample.
+    search for these neutrinos at energies above 30 TeV in the cubic kilometer Antarctic IceCube obser-
+    vatory between May 2010 and May 2012.            Fig. 4. Distributions of the deposited energies
+                                                     and declination angles of the observed events
+    Methods: We have isolated a sample of neutrinos by rejecting background muons from cosmic ray
+                                                     compared to model predictions.
+    showers in the atmosphere, selecting only those neutrino candidates that are fi rst observed in the
+    detector interior rather than on the detector boundary. This search is primarily sensitive to neutri- Fig. 5. Sky map in equatorial coordinates of
+    nos from all directions above 60 TeV, at which the lower-energy background atmospheric neutrinos the TS value from the maximum likelihood
+    become rare, with some sensitivity down to energies of 30 TeV. Penetrating muon backgrounds were point source analysis.
+    evaluated using an in-data control sample, with atmospheric neutrino predictions based on theo- Fig. 6. Distribution of deposited PMT charges
+    retical modeling and extrapolation from previous lower-energy measurements. (Q ).
+                                                       tot                        
+    Results: We observed 28 neutrino candidate events (two previously reported), substantially more Fig. 7. Neutrino effective area and volume.
+    than the 10.6 expected from atmospheric backgrounds, and ranging in energy from 30 to 1200
+    TeV. With the current level of statistics, we did not observe signifi cant clustering of these events in SUPPLEMENTARY MATERIALS
+    time or space, preventing the identifi cation of their sources at this time.  
+                                                     Materials and Methods        
+    Discussion: The data contain a mixture of neutrino fl avors compatible with fl avor equipartition, Event Displays 1 to 28
+    originate primarily from the Southern Hemisphere where high-energy neutrinos are not absorbed Neutrino Effective Areas
+    by Earth, and have a hard energy spectrum compat-                             
+    ible with that expected from cosmic ray accelerators.                         
+    Within our present knowledge, the directions, ener-                           
+    gies, and topologies of these events are not compatible                       
+    with expectations for terrestrial processes, deviating at                     
+    the 4σ level from standard assumptions for the atmo-                          
+    spheric background. These properties, in particular                           
+    the north-south asymmetry, generically disfavor any                           
+    purely atmospheric explanation for the data. Although                         
+    not compatible with an atmospheric explanation, the                           
+    data do match expectations for an origin in uniden-                           
+    tifi ed high-energy galactic or extragalactic neutrino                        
+    accelerators.                                                                 
+    A 250 TeV neutrino interaction in IceCube. At the neutrino                    
+    interaction point (bottom), a large particle shower is visible,               
+    with a muon produced in the interaction leaving up and to the                 
+    left. The direction of the muon indicates the direction of the                
+    original neutrino.                                                            
+    *The list of author affi liations is available in the full article online.    
+    Corresponding authors: C. Kopper (ckopper@icecube.wisc.edu); N. Kurahashi (naoko@icecube.wisc.edu); N. Whitehorn (nwhitehorn@icecube.wisc.edu)
+                      www.sciencemag.org SCIENCE VOL 342 22 NOVEMBER 2013   947   
+                                     Published by AAAS                            
+
+                                                                                  
+                                                RESEARCH        ARTICLE           
+                                                                                  
+                                                                                  
+                                                      high-energyanalysis:Datashownweretakenduring
+                                                      thefirstseasonrunningwiththecompletedIceCube
+     Evidence    for High-Energy                      array(86strings,betweenMay2011andMay2012)
+                                                      andtheprecedingconstructionseason(79strings,
+                                                      betweenMay2010andMay2011),withatotal
+     Extraterrestrial  Neutrinos                                                  
+                                                      combinedlivetimeof662days.  
+     at the  IceCube    Detector                      Results                     
+                                                      Inthe2-yeardataset,28eventswithin-detector
+                                                      deposited energiesbetween 30and1200 TeV
+     IceCube Collaboration*                           were observed (Fig. 2 and Table 1) on an ex-
+                                                      pected background of 10:6þ5:0 events from at-
+                                                                   −3:6           
+     Wereport onresultsofanall-skysearchfor high-energyneutrinoeventsinteracting withinthe mospheric muons and neutrinos (see Materials
+     IceCube neutrinodetectorconductedbetween May2010andMay2012.The searchfollowsup andMethods).Thetwomostenergeticofthese
+     ontheprevious detectionoftwo PeVneutrinoevents, withimprovedsensitivity andextended werethepreviouslyreportedPeVevents(3).Seven
+     energycoveragedowntoabout30TeV.Twenty-sixadditionaleventswereobserved,substantially events contained clearly identifiable muon tracks,
+     morethanexpected from atmosphericbackgrounds. Combined,bothsearches rejectapurely whereas the remaining 21 were showerlike, con-
+     atmospheric originforthe28eventsatthe4slevel.These28events,whichincludethe highest sistent with neutrino interactions other than n m
+     energy neutrinoseverobserved, have flavors,directions,andenergies inconsistentwith those chargedcurrent.Eventscontainingmuontracks
+     expected from theatmosphericmuonandneutrinobackgrounds. Theseproperties are,however, in general have better angular resolution, typi-
+     consistent withgenericpredictions foranadditionalcomponent ofextraterrestrial origin. callyofbetterthan1degree(4),comparedtothe
+                                                      10to15degreestypicalofeventswithoutvisible
+     High-energyneutrinoobservationscanpro- events by conducting an exploratory search for muons(seeMaterialsandMethods).Fourofthe
+         videinsightintothelong-standingproblem neutrinosatlowerenergieswithinteractionverti- low-energy tracklike events started near the de-
+         of the origins and acceleration mecha- ces well contained within the detector volume, tectorboundaryandweredown-going,consistent
+     nismsofhigh-energycosmicrays.Ascosmicray discarding events containing muon tracks orig- withthepropertiesoftheexpected6.0T3.4back-
+     protonsandnucleiareaccelerated,theyinteractwith inating outside of IceCube (Fig. 1). This event groundatmosphericmuons,asmeasuredfroma
+     gasandbackgroundlighttoproducechargedpions selection(seeMaterialsandMethods)allowsthe controlsampleofpenetratingmuonsindata.One
+     andkaons,whichthendecay,emittingneutrinos resultingsearchtohaveapproximatelyequalsen- ofthese—theonlysucheventinthesample—
+     withenergiesproportionaltotheenergiesofthe sitivity to neutrinos of all flavors and from all hadhitsintheIceTopsurfaceairshowerarray
+     high-energyprotons that produced them. These directions.Weobtainednearlyfullefficiencyfor compatible with its arrival time and direction
+     neutrinoscanbedetectedonEarthinlargeunder- interacting neutrinos above several hundred TeV, inIceCube(event28).Thepointsatwhichthe
+     grounddetectorsbytheproductionofsecondary with some sensitivity extending to neutrino ener- remaining events werefirst observed wereuni-
+     leptonsandhadronicshowerswhentheyinteract giesaslowas30TeV(seeMaterialsandMethods). formlydistributedthroughoutthedetector(Fig.3).
+     withthedetectormaterial.IceCube,alarge-volume Thedata-takingperiodissharedwiththeearlier Thisisconsistentwithexpectationsforneutrino
+     Cherenkovdetector (1) madeof5160 photomul-                                   
+     tipliers(PMTs)atdepthsbetween1450and2450m                                    
+     innaturalAntarcticice(Fig.1),hasbeendesigned                                 
+                              A                      B                            
+     todetecttheseneutrinosatTeV-PeVenergies.Re-                                  
+     cently,theFermicollaborationpresentedevidence                       -1450 m  
+                                                       Veto region 90 m           
+     for acceleration of low-energy (GeV) cosmic ray                              
+     protonsinsupernovaremnants(2);neutrinoobser-                                 
+     vations with IceCube would probe sources of                                  
+     cosmicraysatfarhigherenergies.                                               
+       ArecentIceCubesearchforneutrinosofEeV 125 m         Fiducial volume        
+     (106 TeV) energy found two events at energies                                
+     of1PeV(103TeV),abovewhatisgenerallyex-                                       
+     pectedfromatmosphericbackgroundsandapos-                                     
+     siblehintofanextraterrestrialsource(3).Although                              
+                                                                         -2085 m  
+     that analysis had some sensitivity to neutrino            80 m      -2165 m  
+     eventsofallflavorsabove1PeV,itwasmostsen-                                    
+     sitiveton meventsabove10PeVfromtheregion                                     
+                                      Veto region          Fiducial volume        
+     aroundthehorizon,abovewhichtheenergythresh-                                  
+     oldincreasedsharplyto100PeV.Asaresult,it                  10 m      -2450 m  
+     hadonlylimitedsensitivitytothetypeofevents Top           Side                
+     found,whichweretypicalofeithern orneutral                                    
+                       e      Fig.1.DrawingoftheIceCubearray.Resultsarefromthecompletepictureddetectorfor2011to
+     currenteventsandatthebottomofthedetectable                                   
+                              2012andfromapartialdetectormissingthedarkgraystringsinthebottomleftcornerforthe2010to
+     energyrange,preventingadetailedunderstanding 2011season.(AandB)Thesideview(B)showsacrosssectionofthedetectorindicatedinthetopview
+     ofthepopulationfromwhichtheyaroseandan (A) in blue. Events producing first light in the veto region (shaded area) were discarded as entering
+     answertothequestionoftheirorigin. tracks(usuallyfromcosmicraymuonsenteringthedetector).Mostbackgroundeventsarenearlyver-
+       Here,wepresentafollow-upanalysisdesigned tical,requiringathickvetocapatthetopofthedetector.Theshadedregioninthemiddlecontainsice
+     to characterize the flux responsible for these of high dust concentration (24). Because of the high degree of light absorption in this region, near
+                              horizontaleventscouldhaveenteredherewithoutbeingtaggedatthesidesofthedetectorwithouta
+     *FullauthorlistafterAcknowledgments. dedicatedtaggingregion.                 
+                      www.sciencemag.org SCIENCE VOL342 22NOVEMBER2013 1242856-1  
+
+                                                                                  
+                                                                                  
+                                                                                  
+     events and inconsistent with backgrounds from model(5),includingabenchmarkcharmcom- groundmuonevents.Significancewasevaluated
+     penetratingmuonsorwithdetectorartifacts,which ponent(6),reevaluatedusingcurrentmeasure- on the basis of the number of events, the total
+     wouldhavebeenexpectedtotracethelocationsof mentsofthecosmicrayspectruminthisenergy collected PMT charge of each, and the events’
+     either the fiducial volume boundary or the posi- range(7,8).Thisaddsanadditional1.5charm reconstructed energies and directions (see Mate-
+     tionsoftheinstrumentation. neutrinostoourmeanbackgroundestimateand rialsandMethods).Ourproceduredoesnotallow
+       Aspartofourblindanalysis,wetestedapre- predicts,onaverage,6.1(p/Kandcharm)back- us to separately incorporate uncertainties on the
+     defined fixed atmospheric-only neutrino flux ground neutrinos on top of the6.0 T 3.4 back- variousbackgroundcomponents.Tonevertheless
+                                                      obtain an indication of the range of possible
+                                                      significances, we calculated values relative to
+     Fig.2.Distributionofbest-fitde-                  background-only hypotheses with charm at the
+                         80                                                       
+     positedenergiesanddeclinations.                  levelcalled“standard”in(6)asabenchmarkflux
+     Sevenoftheeventscontainmuons 60                  aswellasatthelevelofourcurrent90%confi-
+     (crosses)withanangularresolution 40              dencelevel(CL)experimentalbounds(8)(corre-
+     ofabout1°,whereastheremainder                                                
+                         20                           sponding to 3.8 times standard). To prevent
+     areeitherelectromagnetic(EM)orha-                                            
+                                                      possibleconfirmationbias,wesplitthedataset dronic showers (filled circles) with an 0
+                                                      intotwosamples.Forthe26neweventsreported
+     energy-dependentresolutionofabout -20                                        
+                                                      here,usingthebenchmarkflux,weobtainasig-
+     15°.Errorbarsare68%confidencein-                                             
+                         -40                          nificance of 3.3s (one-sided). Combined using
+     tervalsincludingboth statisticaland                                          
+     systematicuncertainties.Energiesshown -60        Fisher’s method with the 2.8s observation of
+     are the energy deposited in the de- -80          theearlieranalysiswherethetwohighestenergy
+     tector,assumingthatalllightemission                                          
+                                                      eventswereoriginallyreported(3),andwhichuses
+     is from electromagnetic showers. For                                         
+                                   102          103                               
+                                                      the same benchmark atmospheric neutrino flux
+     n charged-currentevents,thisequals               model,weobtainafinalsignificancefortheentire
+      e                                                                           
+     theneutrinoenergy;otherwise,itisalowerlimitontheneutrinoenergy.ThegapinE between300TeV datasetof28eventsof4.1s.Thesamecalculation
+                                           dep                                    
+     and1PeVdoesnotappeartobesignificant:Gapsofthissizeorlargerappearin28%ofrealizationsofthe performedaposteriorionall28eventsgives4.8s.
+     best-fitcontinuouspower-lawflux.                 Thesetwofinalsignificanceswouldbereducedto
+                       )seerged(                                                  
+                       noitanilceD                                                
+  RESEARCH ARTICLE                                                                
+                                            Showers                               
+                                            Tracks                                
+                            Deposited EM-equivalent energy in detector (TeV)      
+     Table1.Propertiesofthe28events.Shownarethedepositedelectromagnetic- ofexitingmuonsorneutrinos.Errorsonenergyandtheangleincludeboth
+     equivalentenergy(theenergydepositedbytheeventsinIceCubeassumingall statistical and systematic effects. Systematic uncertainties on directions for
+     light was made in electromagnetic showers), as well as the arrival time and showerlikeeventsweredeterminedon an individualbasis;tracksystematic
+     directionofeacheventanditstopology(track-orshowerlike).Theenergyshown uncertaintieshereareequalto1°,whichisanupperlimitfromstudiesofthe
+     isequaltotheneutrinoenergyforn charged-currentevents,withinexperimen- cosmicrayshadowofthemoon(4).Additionalper-eventinformation,includ-
+                     e                                                            
+     taluncertainties,andisotherwisealowerlimitontheneutrinoenergybecause ingeventdisplays,canbefoundinthesupplementarymaterials.
+           Deposited     Time       Declination Rightascension Medianangularerror 
+     ID                                                                 Eventtype 
+          energy(TeV) (modifiedJuliandate) (degrees) (degrees) (degrees)          
+     1      47.6+ − 6 5 . . 5 4 55,351 −1.8      35.2        16.3        Shower   
+     2      117− +                                                                
+              1                                                                   
+              1                                                                   
+               5                                                                  
+               5        55,351       −28.0      282.6        25.4        Shower   
+     3     78.7+ − 1 8 0 .7 .8 55,451 −31.2     127.9        ≤1.4        Track    
+     4      165− +                                                                
+              1                                                                   
+              2                                                                   
+               5                                                                  
+               0        55,477       −51.2      169.5         7.1        Shower   
+     5      71.4+ − 9 9 . . 0 0 55,513 −0.4     110.6        ≤1.2        Track    
+     6      28.4+ − 2 2 . . 7 5 55,568 −27.2    133.9         9.8        Shower   
+     7      34.3+ − 3 4 . . 5 3 55,571 −45.1     15.6        24.1        Shower   
+     8     32.6+ − 1 1 0 1 . . 3 1 55,609 −21.2 182.4        ≤1.3        Track    
+     9      63.2+ − 7 8 . . 1 0 55,686 33.6     151.3        16.5        Shower   
+     10    97.2− +                                                                
+              1                                                                   
+              1                                                                   
+              2                                                                   
+              0                                                                   
+               .                                                                  
+               .                                                                  
+               4                                                                  
+               4        55,695       −29.4       5.0          8.1        Shower   
+     11    88.4− +                                                                
+              1                                                                   
+              1                                                                   
+              0                                                                   
+              2                                                                   
+               .                                                                  
+               .                                                                  
+               7                                                                  
+               5        55,715        −8.9      155.3        16.7        Shower   
+     12     104− +                                                                
+              1                                                                   
+              1                                                                   
+               3                                                                  
+               3        55,739       −52.8      296.1         9.8        Shower   
+     13     253− +                                                                
+              2                                                                   
+              2                                                                   
+               2                                                                  
+               6        55,756        40.3       67.9        ≤1.2        Track    
+     14    1041+ − 1 1 3 4 2 4 55,783 −27.9     265.6        13.2        Shower   
+     15     57.5+ − 8 7 . . 3 8 55,783 −49.7    287.3        19.7        Shower   
+     16     30.6+ − 3 3 . . 6 5 55,799 −22.6    192.1        19.4        Shower   
+     17     200− +                                                                
+              2                                                                   
+              2                                                                   
+               7                                                                  
+               7        55,800        14.5      247.4        11.6        Shower   
+     18     31.5+ − 4 3 . . 6 3 55,924 −24.8    345.6        ≤1.3        Track    
+     19     71.5+ − 7 7 . . 0 2 55,926 −59.7     76.9         9.7        Shower   
+     20    1141+ − 1 1 4 3 3 3 55,929 −67.2      38.3        10.7        Shower   
+     21     30.2+ − 3 3 . . 5 3 55,937 −24.0     9.0         20.9        Shower   
+     22     220− +                                                                
+              2                                                                   
+              2                                                                   
+               4                                                                  
+               1        55,942       −22.1      293.7        12.1        Shower   
+     23     82.2+ − 8 8 . . 6 4 55,950 −13.2    208.7        ≤1.9        Track    
+     24     30.5+ − 3 2 . . 2 6 55,951 −15.1    282.2        15.5        Shower   
+     25     33.5+ − 4 5 . . 9 0 55,967 −14.5    286.0        46.3        Shower   
+     26     210− +                                                                
+              2                                                                   
+              2                                                                   
+               6                                                                  
+               9        55,979        22.7      143.4        11.8        Shower   
+     27     60.2+ − 5 5 . . 6 6 56,009 −12.6    121.7         6.6        Shower   
+     28     46.1+ − 5 4 . . 7 4 56,049 −71.5    164.8        ≤1.3        Track    
+    1242856-2         22 NOVEMBER2013 VOL342 SCIENCE www.sciencemag.org           
+
+                                                                                  
+                                                                                  
+                                                                                  
+     3.6s and 4.5s, respectively, using charm at the sphericneutrinosareapoorfittothedatafora Another possibility is that the high-energy
+     levelofourcurrent90%CLexperimentalbound. varietyofreasons.Theobservedeventsaremuch eventsresultfromcharmedmesonproductionin
+                              higherinenergy,withaharderspectrum(Fig.4) airshowers(6,11).Theseproducehigher-energy
+     Discussion               thanexpectedfromanextrapolationofthewell- eventswithequalpartsn
+                                                                  e               
+                                                                   andn m,matchingour
+     Although there is some uncertainty in the ex- measured p/K atmospheric background at lower observed muon track fraction reasonably well.
+     pected atmosphericbackground rates, in partic- energies (8–10): Nine had reconstructed depos- However,oureventratesaresubstantiallyhigher
+     ular for the contribution from charmed meson ited energies above 100 TeV, with two events thanevenoptimisticmodels(11)andtheenergy
+     decays,theenergyspectrum,zenithdistribution, above1PeV,relativetoanexpectedbackground spectrum from charm production is too soft to
+     andshowertomuontrackratiooftheobserved from p/K atmospheric neutrinos of about one explainthedata.Increasing charmproduction
+     eventsstronglyconstrainthepossibilitythatour eventabove100TeV.Raisingthenormalization tothelevelrequiredtoexplainourobservations
+     eventsareentirelyofatmosphericorigin.Almost ofthisfluxbothviolatespreviouslimitsand,be- violates existing experimental bounds (8). Be-
+     alloftheobservedexcessisinshowersratherthan causeofn m biasinp andKdecay,predictstoo cause atmospheric neutrinos produced by any
+     muontracks,rulingoutanincreaseinpenetrating manymuontracksinourdata(two-thirdsoftracks mechanismaremadeincosmicrayairshowers,
+     muon background to the level required. Atmo- versusone-fourthobserved). down-goingatmosphericneutrinosfromthesouth-
+                                                      ern sky will, in general, be accompanied into
+                                                      IceCubebymuonsproducedinthesameparent
+     Fig.3.Coordinatesofthefirstde-                                               
+                                                      airshower.Theseaccompanyingmuonswilltrig-
+     tectedlightfromeacheventinthe 400                                            
+                                                      gerourmuonveto,removingmostoftheseevents
+     finalsample.Penetratingmuonevents                fromthesampleandbiasingatmosphericneutrinos
+     arefirstdetectedpredominantlyatthe 200           totheNorthernHemisphere.Mostofourevents,
+     detectorboundaries(topandrightsides),                                        
+                                                      however, arrive from the south. This places a
+     wheretheyfirstmakelightaftercross-                                           
+                          0                           strong model-independent constraint on any at-
+     ingthevetolayer.Neutrinoeventsshould                                         
+                                                      mosphericneutrinoproductionmechanismasan interact uniformly throughout the ap-
+     proximatelycylindricaldetectorvolume, -200       explanationforourdata.      
+     formingauniformdistributionin(r2,z),               Bycomparison,aneutrinofluxproducedin
+     withtheexceptionofinteractionsinthe -400         extraterrestrial sources would, like our data, be
+     lesstransparenticeregionmarked“Dust              heavilybiasedtowardshowersbecauseneutrino
+     layer,”whichistreatedaspartofthede- 0 2002 3002 4002 5002 oscillations over astronomical baselines tend to
+     tectorboundaryforpurposesofourevent              equalizeneutrinoflavors(12,13).Anequal-flavor
+     selection.Theobservedeventsarecon-                                           
+                                                      E−2neutrinoflux,forexample,wouldbeexpected
+     sistentwithauniformdistribution.                 to produce only one-fifth of track events (see
+                        )m(                                                       
+                        noitisop                                                  
+                        lacitreV     Dust layer                                   
+                                      r2 (m2)                                     
+         A                                  B                                     
+       102                                                                        
+       101                                                                        
+       100                                                                        
+       10-1                                                                       
+                    102             103                                           
+     syad                                                                         
+     266                                                                          
+     rep                                                                          
+     stnevE                                                                       
+                                                                  RESEARCH ARTICLE
+                                          10                                      
+                                          8                                       
+                                          6                                       
+                                          4                                       
+                                          2                                       
+                                          0                                       
+                                          -1.0     -0.5    0.0     0.5     1.0    
+            Deposited EM-equivalent energy in detector (TeV) sin(Declination)     
+     Fig. 4. Distributionsofthedepositedenergiesanddeclinationangles atmosphericmuonsinred.Thegreenlineshowsourbenchmarkatmospheric
+     oftheobservedeventscomparedtomodelpredictions.(AandB)Zenith neutrino flux (see the text), and the magenta line shows the experimental
+     angleentriesfordata(B)arethebest-fitzenithpositionforeachofthe28events; 90% bound. Because of a lack of statistics from data far above our cut
+     asmallnumberofevents(Table1)havezenithuncertaintieslargerthanthe threshold,theshapeofthedistributionsfrommuonsinthisfigurehasbeen
+     bin widths in this figure. Energies plotted (A) are reconstructed in-detector determined using Monte Carlo simulations with total rate normalized to the
+     visibleenergies,whicharelowerlimitsontheneutrinoenergy.Notethatde- estimateobtainedfromourin-datacontrolsample.Combinedstatisticaland
+     posited energy spectra are always harder than the spectrum of the neutrinos systematic uncertainties on the sum of backgrounds are indicated with a
+     thatproducedthembecauseoftheneutrinocrosssectionincreasingwith hatchedarea.Thegraylineshowsthebest-fitE−2astrophysicalspectrumwith
+     energy. The expected rate of atmospheric neutrinos is shown in blue, with aper-flavornormalization(1:1:1)ofE2F n(E)=1.2×10−8GeVcm−2s−1sr−1.
+                      www.sciencemag.org SCIENCE VOL342 22NOVEMBER2013 1242856-3  
+
+                                                                                  
+  RESEARCH ARTICLE                                                                
+                                                                                  
+     Materials and Methods). The observed zenith sion,ratherthanthesignificanceofaclusterof local maximum in thelikelihood mapwasalso
+     distribution is also typical of such a flux: As a events above predicted backgrounds. Note that conducted.Neitheroftheseanalysesyieldedsig-
+     result of absorption in Earth above tens of TeV becausemuontrackshavemuchsmallerangular nificantresults.
+     energy, most events (about 60%, depending on uncertainties than showers, their presence can In addition to clustering of events in space,
+     theenergyspectrum)fromevenanisotropichigh- skewthehighestTSvaluesandovershadowclus- weperformedtwotestsforclusteringofevents
+     energy extraterrestrial population would be ex- tersofshowerevents.Tocorrectforthiseffect, in time that calculate significances by compar-
+     pected to appear in the Southern Hemisphere. andbecausemuoneventsaremorelikelytobe ingtheactualarrivaltimestoeventtimesdrawn
+     Althoughthezenithdistributioniswellexplained atmosphericbackground,werepeatedeveryclus- from a random uniform distribution throughout
+     (Fig.4)byanisotropicflux,aslightsouthernex- tering analysis described here twice: once with thelivetime.Becausemanysources(16–18)are
+     cessremains,whichcouldbeexplainedeitherasa thefull28eventsandoncewithonlythe21shower expected to produce neutrinos in bursts, identi-
+     statisticalfluctuationorbyasourcepopulationthat events. ficationofsuchatimeclustercouldallowasso-
+     iseitherrelativelysmallorunevenlydistributed Whenusingallevents,thelikelihoodmap ciation with a source without reference to the
+     throughthesky.           reveals no significant clustering compared to limited angular resolution of most of the ob-
+       Thisdiscussioncanbequantifiedbyaglobal randomized maps. For the shower events, the servedneutrinos.Whenusingallevents,nosig-
+     fitofthedatatoacombinationofthep/Katmo- coordinates with thehighest TSareat right as- nificanttimeclusterwasobserved.Furthermore,
+     spheric neutrino background, atmospheric neutri- cension=281°,declination=−23°(galacticlon- eachspatialclusterinFig.5containingmorethan
+     nosfromcharmedmesondecays,andanisotropic gitude l = +12°, latitude b = −9°). Five events, one event was tested individually for evidence
+     equal-flavor extraterrestrial power-law flux. With including thesecondhighestenergy eventinthe oftimeclustering.Oftheeightregionstested,the
+     thenormalizationsofallcomponentsfreetofloat, sample,contributetothemainpartoftheexcess mostsignificantwasapairthatincludesthehighest
+     thismodelwasfittothetwo-dimensionaldepos- withtwo others nearby.Thefraction ofrandom- energy shower in the sample, but was still com-
+     ited energy and zenith distribution of the data izeddatasetsthatyieldasimilarorhigherTSat patiblewithrandomfluctuations.Thefiveshower
+     (Fig.2)intherangeof60TeV<E <2PeV, thisexactspotis0.2%.(Attheexactlocationofthe eventsofthedensestclustershownosignificant
+                      dep                                                         
+     abovemostoftheexpectedbackground(Fig.4). galacticcenter,thefractionis5.4%.)Thefinalsig- overalltimeclustering.
+     Thedataarewelldescribedinthisenergyrange nificance,estimatedasthefractionofrandomized
+     byanE−2neutrinospectrumwithaper-flavornor- mapswithasimilarorhigherTSanywhereinthe Materials andMethods
+     malizationofE2F(E)=(1.2T0.4)×10−8GeV sky,is8%.Thisdegreeofclusteringmaybecompat-
+     cm−2 s−1 sr−1. Although it is difficult to substan- iblewithasourceorsourcesinthegalacticcenter EventSelection
+     tively constrain the shape of the spectrum with region,butthepoorangularresolutionforshowers Backgroundsforcosmicneutrinosearchesarise
+     ourcurrentlimitedstatistics,afluxatthislevel and the wide distribution of the events do not entirelyfrominteractionsofcosmicraysinEarth’s
+     would have been expected to generate an ad- allowtheidentificationofanysourcesatthistime. atmosphere. These produce secondary muons
+     ditional three to six events in the 2 to 10 PeV Two other spatial clustering analyses were that penetrate into underground neutrino detec-
+     range;thelackofsucheventsinthesamplemay definedapriori.Weperformedagalacticplane torsfromabove,aswellasatmosphericneutrinos
+     indicateeitherasofterspectrum(thebestfitis correlation study using the full directional re- thatreachthedetectorfromalldirectionsbecause
+     E−2.2T0.4)orthepresenceofabreakorcutoffat constructionuncertaintyforeacheventtodefine ofthelowneutrinocrosssection,whichallows
+     PeVenergies.Whenlimitedtoonlyatmospheric thedegreeofoverlapwiththeplane.Theplane themtopenetrateEarthfromtheoppositehemi-
+     neutrinos,thebestfittothedatawouldrequirea widthwaschosentobeT2.5°onthebasisofTeV sphere.Theseparticlesareproducedinthedecays
+     charmflux4.5timeslargerthanthecurrentex- gamma-rayobservations(15).Amulticlustersearch ofsecondarypandKmesons;athighenergies,
+     perimental 90% CL upper bounds (8) and even usingthesumoflog-likelihoodvaluesatevery afluxfromthepromptdecayofcharmedmesons
+     then is disfavored at 4s with respect to a fit                               
+     allowinganextraterrestrialcontribution.                                      
+     Search forNeutrino Sources                                                   
+     To search for spatial clustering, indicating pos-                            
+     sibleneutrinosources,weconductedamaximum                                     
+     likelihoodpointsourceanalysis(14).Ateachpoint                                
+     in the sky, we tested a point source hypothesis                              
+     basedonfull-skyuncertaintymapsforeachevent                                   
+     obtained from the reconstruction. This yields a                              
+     skymapofteststatisticvalues[TS=2log(L/L),                                    
+                           0                                                      
+     where L is the maximized likelihood and L is                                 
+                          0                                                       
+     the likelihood under the null hypothesis], which                             
+     reflects any excess concentration of events rela-                            
+     tivetoaflatbackgrounddistribution(Fig.5).To                                  
+     accountfortrialsduetosearchingthewholesky,                                   
+     we estimate the significance of the highest TS                               
+     observedbyperformingthesameanalysisonthe                                     
+     data with the right ascension of the events ran-                             
+     domized. Thefinal significanceis then the frac-                              
+     tion of these randomized maps that have a TS                                 
+     valueanywhereintheskyashighorhigherthan Fig. 5. SkymapinequatorialcoordinatesoftheTSvaluefromthemaximumlikelihoodpoint
+     thatobservedindata.Thechanceprobabilitycal- sourceanalysis.Themostsignificantclusterconsistsoffiveevents—allshowersandincludingthesecond
+     culated this way is independent of Monte Carlo highestenergyeventinthesample—withafinalsignificanceof8%.Thisisnotsufficienttoidentifyany
+     simulation. Therefore,thesignificanceobtained neutrinosourcesfromtheclusteringstudy.Thegalacticplaneisshownasacurvedgraylinewiththegalactic
+     is against the hypothesis that all events in this centeratthebottomleftdenotedbyafilledgraysquare.Best-fitlocationsofindividualevents(listedin
+     sampleareuniformlydistributedinrightascen- Table1)areindicatedwithverticalcrosses(+)forshowersandangledcrosses(×)formuontracks.
+    1242856-4         22 NOVEMBER2013 VOL342 SCIENCE www.sciencemag.org           
+
+                                                                                  
+                                                                                  
+                                                                                  
+     (19) has been anticipated, although not yet ob- ensure that statistical fluctuations in the light fragmentation in n e and n t charged-current in-
+     served.Cosmicraymuonsarethedominantback- yieldwerelowenoughforenteringmuonstore- teractions and by neutral-current interactions of
+     groundinIceCubebecauseoftheirhighrateof liablyproducelightinthevetoregion.Thisevent neutrinosofallflavors.Attherelevantenergies
+     3kHz.Thesecanberemovedfromthesample selectionrejects99.999%ofthemuonbackground (≥50 TeV), showers, including tracks left by t
+     eitherbyusingonlyup-goingevents,bylimiting above6000photoelectrons(Fig.6)whileretaining leptons, have a length of roughly 10 m in ice
+     searchestoeventsatveryhighenergies(above nearly all neutrino events interacting within the andare,toagoodapproximation,pointsources
+     ~1PeV)(20,21),or,ashere,byrequiringanob- fiducialvolumeatenergiesaboveafewhundred oflight(23).Secondarymuontracksarecreated
+     servationoftheneutrinointeractionvertexusing TeV(Fig.7).Thisselectionislargelyindependent primarilyinn mcharged-currentinteractionsalong
+     thedetectorboundarytodetectandvetoentering ofneutrinoflavor,eventtopology,orarrivaldirec- withahadronicshowerattheneutrinointeraction
+     muontracks.              tion.Italsoremoves70%ofatmosphericneutrinos vertex,andhaveatypicalrangeontheorderof
+       Neutrinocandidateswereselectedbyfinding (22) in the Southern Hemisphere, where atmo- kilometers,largerthanthedimensionsofthede-
+     eventsthatoriginatedwithinthedetectorinterior. spheric neutrinos are usually accompanied into tector. Note that, for aflux consisting of a mix-
+     Included were those events that produced their thedetectorbymuonsproducedinthesameparent tureofflavors,this impliesthatshowerswillbe
+     firstlightwithinthefiducialvolume(Fig.1)and airshower.Topreventconfirmationbias,wecon- thedominanttopologybecausen mCCrepresents
+     wereofsufficientlyhighenergysuchthatanen- ductedablindanalysisdesignedonasubsample only asmall fraction of thetotal event rate: For
+     teringmuontrackwouldhavebeenreliablyiden- of10%ofthefulldataset. anequallymixedE−2spectrum,about80%ofthe
+     tifiedifpresent.Inparticular,werequiredthat      observedeventswouldappearasshowers.
+     eacheventhavefewerthanthreeofitsfirst250 Event Reconstruction AlthoughthedistributionofhitPMTsinthe
+     observed photoelectrons detected in the veto Neutrino interactions in IceCube have two pri- detector is approximately spherical for shower
+     region.Inaddition,werequiredthattheevent marytopologies:showersandmuontracks.Show- events, the detailed timing patterns of the pho-
+     produce at least 6000 photoelectrons overall to ersarecreatedbysecondaryleptonsandhadronic tons in theindividual PMTs retain thememory
+                                                      ofthedirectionoftheprimarylepton.Compar-
+                                                      isonofthesedistributionswithexpectationsfrom
+                                                      simulatedshowersyieldsatypicalmedianangular
+                                                      resolutionof10°to15°.Resolutionondeposited
+        107                                           energy, from the recorded waveform amplitudes,
+                                                      is typically 10 to 15%. In events with a muon
+                                                      track, the extension of the track in the detector
+        106                                           provides a much tighter constraint on direction
+                                                      thantheshapesofthewaveformsalone,improv-
+                                                      ing angular resolution greatly to better than 1°
+        105                                           (4). Energy reconstruction only yields a lower
+                                                      limitonneutrinoenergyasaresultoftheenergy
+        104                                           removed from the detector by escaping muons
+                                                      andneutrinos.Allquoteddirectionalandenergy
+                                                      reconstruction uncertainties are dominated by a
+        103                                           systematiccomponentarisingfromuncertainties
+                                                      in the optical properties of the ice(24) and the
+        102                                                                       
+                                                      opticalsensitivityofthePMTs(25).
+                                                      Atmospheric MuonBackground  
+        101                                           Remainingatmosphericmuonbackgroundcomes
+                                                      fromtracksthatproducetoolittlelightattheedge
+                                                      of the detector to be vetoed and instead emit
+        100                                                                       
+                                                      theirfirstdetectedphotonsintheinteriorvolume,
+                                                      mimickingastartingneutrino.Theseeventsusually
+        10-1                                          produce an observable muon track in the de-
+                                                      tectorlikethatfroman mcharged-currentevent.
+                                                      Muchmorerarely,catastrophicenergylosspro-
+        10-2                                                                      
+                                                      cessessuchasmuonbremsstrahlungcancreate
+                                                      ashowerlikesignal,especiallyinthecornersof
+        10-3                                          the detector where the exiting muon track may
+                                                      notbeobserved.              
+                        104                105          Thevetopassingrateforthroughgoingmuons,
+                                                      andthereforethetotalmuonbackgroundinthe
+                                                      analysis,canbeevaluateddirectlyfromthedata
+                                                      by implementing a two-layer anticoincidence de-
+                                                      tector. Entering events can be tagged with high
+                                                      efficiencyusingtheouterlayerofIceCube;the
+                                                      rateofthesetaggedeventsthatpassthenextveto
+                                                      layercanbeusedasacontrolsampletoevaluate
+                                                      therateatwhichmuonsaredetectedbyasingle
+                                                      detectorlayerasafunctionofobservedlightyield.
+                                                      This per-layer probability can be used to esti-
+                                                      matethefinalbackgroundrateafterapplication
+      syad                                                                        
+      266                                                                         
+      rep                                                                         
+      stnevE                                                                      
+                                                                  RESEARCH ARTICLE
+               Charge threshold                                                   
+                   Total collected PMT charge (photoelectrons)                    
+     Fig.6.DistributionofdepositedPMTcharges(Q ).Muonsathighertotalchargesarelesslikely
+                              tot                                                 
+     topassthevetolayerundetected,causingthemuonbackground(red,estimatedfromdata)tofallfaster
+     thantheoveralltriggerrate(uppermostline).Thedataeventsintheunshadedregion,atQ >6000,are
+                                              tot                                 
+     theeventsreportedinthiswork,witherrorbarsindicating68%Feldman-Cousinsintervals.Thebest-
+     fit E−2astrophysicalspectrum(grayline)andatmosphericneutrinoflux(blue)havebeendeterminedusing
+     MonteCarlosimulations,withthehatchedregionshowingcurrentexperimentaluncertaintiesontheatmo-
+     sphericneutrinobackground.Thelargestoftheseuncertaintiesisneutrinosfromcharmedmesondecays,a
+     fluxthathasyettobeobservedandisthusnotincludedintheblueregion;thehatchedregionincludesthe
+     bestexperimental1supperlimit(8).Forscale,twospecificcharmlevelsarealsoshown:abenchmark
+     theoreticalmodel(6)(greenline)andtheexperimental90%CLupperbound(8)(magentaline).
+                      www.sciencemag.org SCIENCE VOL342 22NOVEMBER2013 1242856-5  
+
+                                                                                  
+                                                                                  
+                                                                                  
+      A                                   B                                       
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                   Neutrino energy (TeV)               Neutrino energy (TeV)      
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+     of a geometrical correction factor of ~2 forthe ysis because of the steeply falling atmospheric ground in declination and deposited energy was
+     larger size of the analysis fiducial volume com- neutrino spectrum. Uncertainties in the atmo- calculated for each event after folding with the
+     pared to thedeep interior fiducial volume(after sphericneutrinobackgroundaredominatedby observed reconstruction uncertainties, and the
+     twovetolayers).Theresultingpredictedvetopass- thefluxfromcharmedmesondecays,whichis probabilityforanatmosphericneutrinoeventto
+     ingrateagreeswellwithdataatlowenergies, toosmalltohavebeenobservedthusfarandis havealargervaluethanobservedwascomputed.
+     whereweexpecttheeventratetobebackground- currently bounded above experimentally by a Becauseourcontrolsampleofbackgroundmuon
+     dominated (Fig. 6). In our signal region above 1s upper limit of 3.4 events (8). The spectrum eventshaslimitedstatistics,wecannotproducea
+     6000 photoelectrons, we observed three tagged and composition of cosmic rays and models of detailed map of the energies and angles of the
+     eventspassingtheinnervetoandsopredict6.0T hadronic interactions contribute a rate uncer- penetrating muon background. For this reason,
+     3.4 veto-penetrating muon events in the 2-year tainty at the relevant energies of þ30%, which the muon and neutrino background probabilities
+                                              −20%                                
+     dataset.                 dominates the uncertainties in the p/K compo- werecombinedbytakingthemaximumofthetwo
+                              nent of the spectrum (27). The measured 5% asthestatisticforeachevent,whichwillsomewhat
+     Atmospheric Neutrinos    uncertainty in the electromagnetic energy scale underestimatethesignificanceofanyexcess.
+     Atmosphericneutrinobackgrounds,includingan anddetectorlinearity contributesaproportional
+     as-yetunobservedcomponentfromcharmedmeson T15%uncertaintytotheatmosphericbackground ReferencesandNotes
+     decays, were estimated on the basis of a param- rates.Giventhechargethreshold,uncertaintyin 1. IceCubeCollaboration,Firstyearperformanceof
+     etrizationoftheatmosphericneutrinoflux(5,7), thelightyieldofhadronicshowers,whichisless theIceCubeneutrinotelescope.Astropart.Phys.26,
+                                                        155–173(2006).doi:10.1016/j.astropartphys.2006.
+     consistentwithpreviousIceCubemeasurements well constrained, can affect the estimated back- 06.007
+     oftheNorthernHemispheremuonneutrinos(8). ground neutrino rate. However, the light yield 2. Fermi-LATCollaboration,Detectionofthecharacteristic
+     Wehavealsoincludedasuppressionoftheatmo- for ahadronicshower is smaller than the well- pion-decaysignatureinsupernovaremnants.Science
+     spheric neutrino background from the Southern knownlightyieldforanelectromagneticshower
+                                                        339,807–811(2013).doi:10.1126/science.1231160
+                                                        pmid:23413352             
+     Hemisphere, resulting from the fact that accom- atthesameenergy,limitinganyresultingincrease
+                                                       3. IceCubeCollaboration,FirstobservationofPeV-energy
+     panyinghigh-energymuonsproducedinthesame inthebackgroundratetonolargerthan30%. neutrinoswithIceCube.Phys.Rev.Lett.111,021103
+     airshowercantriggerourmuonvetoiftheypen-           (2013).doi:10.1103/PhysRevLett.111.021103;
+     etratetothedepthofthedetector.Here,wehave BlindCalculationof Significance pmid:23889381
+     extended previous analytic calculations (22) of Weevaluatedthesignificanceoftheexcessover 4. IceCubeCollaboration,Observationofthecosmic-ray
+                                                        shadowoftheMoonwithIceCubearXiv:1305.6811
+     thissuppressionfactorusingtheCORSIKA(26) atmosphericbackgroundsonthebasisofboththe
+                                                        (2013).http://arxiv.org/abs/1305.6811
+     air shower simulation to determine the fraction totalrateand properties of the observed events. 5. M.Honda,T.Kajita,K.Kasahara,S.Midorikawa,
+     of atmospheric neutrinos accompanied at depth Fromeachevent,thetotaldepositedPMTcharge, T.Sanuki,Calculationofatmosphericneutrinoflux
+     bymuonsabove10TeV,atwhichtheywillbe reconstructed energy, and direction were used to usingtheinteractionmodelcalibratedwithatmospheric
+                                                        muondata.Phys.Rev.D75,043006(2007).
+     reliablydetectedbyourmuonveto.Thisfactor compute tail probabilities relative to the atmo-
+                                                        doi:10.1103/PhysRevD.75.043006
+     isastrongfunctionofneutrinoenergyandangle, spheric muon and neutrino backgrounds. Overall 6. R.Enberg,M.H.Reno,I.Sarcevic,Promptneutrinofluxes
+     with the strongest suppression expected at high significance was computed using the product of fromatmosphericcharm.Phys.Rev.D78,043005
+     energiesandmostdownwardangles.Thesuppres- theper-eventprobabilitiesasateststatistic. (2008).doi:10.1103/PhysRevD.78.043005
+     sionfactor,boundedaboveat90%tocoverun- Themuonbackgroundprobabilitywascom- 7. T.K.Gaisser,Spectrumofcosmic-raynucleons,kaon
+                                                        production,andtheatmosphericmuonchargeratio.
+     certaintiesinhadronicinteractionmodels,wasthen putedasthefractionoftheexpectedbackground Astropart.Phys.35,801–806(2012).doi:10.1016/
+     foldedwiththeNorthernHemispherespectrumto withdepositedchargegreaterthanobserved.Above j.astropartphys.2012.02.010
+     predicttheSouthernHemisphereeventrate. the highest charge event in the control sample, 8. IceCubeCollaboration,Aviewofpromptatmospheric
+       Thisproducesanestimateoftheatmospher- wesetanupperlimitonthepassingratebyassum- neutrinoswithIceCube.Nucl.Phys.B(Proc.Suppl.)
+     icneutrinobackgroundof4:6þ3:7 eventsinthe ingaconstantvetoefficiency.Similarly,thelikeli- 237–238,266–268(2013).doi:10.1016/j.nuclphysbps.
+     662-day live time. These even − ts 1:2 would be con- hoodratiobetweenanisotropicE−2astrophysical 2013.04.105
+                                                       9. IceCubeCollaboration,Searchforadiffusefluxof
+     centratedneartheenergythresholdoftheanal- fluxandtheexpectedatmosphericneutrinoback- astrophysicalmuonneutrinoswiththeIceCube
+     )2m(                                                                         
+      aera                                                                        
+      evitceffe                                                                   
+      onirtueN                                                                    
+                                          )notM(                                  
+                                          ssam                                    
+                                          tegrat                                  
+                                          onirtueN                                
+  RESEARCH ARTICLE                                                                
+                                                                     v            
+                                                                     e            
+                                      v e                            v µ          
+                                      v µ                            v τ          
+                                      v                                           
+                                       τ                                          
+     Fig.7.Neutrinoeffectiveareaandvolume.Eventratescanbeobtained neutrinos in Earth (28), relevant at energies above 100 TeV. (B) Effective
+     bymultiplyingtheeffectiveareasby4p,bythesumofnandnfluxes,and target mass as a function of energy. The deposited energy threshold in this
+     by the live time of 662 days. (A) Neutrino effective areas for each flavor searchcausessomeflavorbiasatlowenergiesbecauseofmissingenergyin
+     assuminganequalfluxofneutrinosandantineutrinosandaveragedoverall escapingparticlesfromn mandn tcharged-currentevents.Forn
+                                                                     e            
+                                                                      charged-current
+     arrival angles. At 6.3 PeV, resonant W production on atomic electrons in- events,wherealltheneutrinoenergyisvisibleinthedetector,fullefficiencyis
+     creasessensitivityton.Theeffectiveareaincludeseffectsfromattenuationof reachedabove100TeV.
+               e                                                                  
+    1242856-6         22 NOVEMBER2013 VOL342 SCIENCE www.sciencemag.org           
+
+                                                                                  
+                                                                  RESEARCH ARTICLE
+                                                                                  
+       40-stringdetector.Phys.Rev.D84,082001(2011). Acknowledgments:Weacknowledgesupportfromthe G.M.Spiczak,33C.Spiering,42M.Stamatikos,17T.Stanev,31A.Stasik,11
+       doi:10.1103/PhysRevD.84.082001 followingagencies:U.S.NationalScienceFoundation–Officeof T.Stezelberger,8R.G.Stokstad,8A.Stößl,42E.A.Strahler,13R.Ström,40
+     10. IceCube Collaboration, Measurement of the PolarPrograms,U.S.NationalScienceFoundation–Physics G.W.Sullivan,16H.Taavola,40I.Taboada,5A.Tamburro,31A.Tepe,41
+       atmospheric n flux in IceCube. Phys. Rev. Lett. Division,UniversityofWisconsinAlumniResearchFoundation, S.Ter-Antonyan,6G.Tešić,39S.Tilav,31P.A.Toale,37S.Toscano,27
+            e                                                                     
+       110, 151105 (2013). doi: 10.1103/PhysRevLett. theGridLaboratoryofWisconsin(GLOW)gridinfrastructureat E.Unger,10M.Usner,11N.vanEijndhoven,13A.VanOverloop,22
+       110.151105             theUniversityofWisconsin–Madison,andtheOpenScience J.vanSanten,27M.Vehring,1M.Voge,11M.Vraeghe,22C.Walck,34
+     11. E.V.Bugaev,V.A.Naumov,S.I.Sinegovsky, Grid(OSG)gridinfrastructure;U.S.DepartmentofEnergy, T.Waldenmaier,9M.Wallraff,1Ch.Weaver,27M.Wellons,27C.Wendt,27
+       E.S.Zaslavskaya,Promptleptonsincosmicrays. NationalEnergyResearchScientificComputingCenter,andthe S.Westerhoff,27N.Whitehorn,27*K.Wiebe,28C.H.Wiebusch,1
+       Nuov.Cim.12,41–73(1989).doi:10.1007/ LouisianaOpticalNetworkInitiative(LONI)gridcomputing D.R.Williams,37H.Wissing,16M.Wolf,34T.R.Wood,20K.Woschnagg,7
+       BF02509070             resources;NaturalSciencesandEngineeringResearchCouncil D.L.Xu,37X.W.Xu,6J.P.Yanez,42G.Yodh,23S.Yoshida,14P.Zarzhitsky,37
+     12. S.Choubey,W.Rodejohann,Flavorcompositionof ofCanada,WestGrid,andCompute/CalculCanada;Swedish J.Ziemann,19S.Zierke,1M.Zoll34
+       ultrahighenergyneutrinosatsourceandatneutrino ResearchCouncil,SwedishPolarResearchSecretariat,Swedish
+       telescopes.Phys.Rev.D80,113006(2009). NationalInfrastructureforComputing(SNIC),andKnutand 1III. Physikalisches Institut, RWTH Aachen University, D-52056
+       doi:10.1103/PhysRevD.80.113006 AliceWallenbergFoundation,Sweden;GermanMinistryfor Aachen,Germany.2SchoolofChemistryandPhysics,Universityof
+     13. S.Pakvasa,W.Rodejohann,T.J.Weiler,Flavorratios EducationandResearch(BMBF),DeutscheForschungsgemeinschaft Adelaide,Adelaide,SouthAustralia5005,Australia.3Department
+       ofastrophysicalneutrinos:Implicationsforprecision (DFG),HelmholtzAllianceforAstroparticlePhysics(HAP),and ofPhysicsandAstronomy,UniversityofAlaskaAnchorage,3211
+       measurements.J.HighEnergyPhys.2,005(2008). ResearchDepartmentofPlasmaswithComplexInteractions ProvidenceDrive,Anchorage,AK99508,USA.4CTSPS,Clark-
+       doi:10.1088/1126-6708/2008/02/005 (Bochum),Germany;FundforScientificResearch(FNRS-FWO), AtlantaUniversity,Atlanta,GA30314,USA.5SchoolofPhysicsand
+     14. J.Braunetal.,Methodsforpointsourceanalysisin FWOOdysseusprogramme,FlandersInstitutetoencourage CenterforRelativisticAstrophysics,GeorgiaInstituteofTechnology,
+       highenergyneutrinotelescopes.Astropart.Phys.29, scientificandtechnologicalresearchinindustry(IWT),and Atlanta,GA30332,USA.6DepartmentofPhysics,SouthernUniver-
+       299–305(2008).doi:10.1016/j.astropartphys. BelgianFederalSciencePolicyOffice(Belspo);Universityof sity,BatonRouge,LA70813,USA.7DepartmentofPhysics,Univer-
+       2008.02.007            Oxford,UK;MarsdenFund,NewZealand;AustralianResearch sityofCalifornia,Berkeley,Berkeley,CA94720,USA.8Lawrence
+     15. A.A.Abdoetal.,Ameasurementofthespatial Council;JapanSocietyforPromotionofScience(JSPS);the BerkeleyNationalLaboratory,Berkeley,CA94720,USA.9Institut
+       distributionofdiffuseTeVgamma-rayemissionfromthe SwissNationalScienceFoundation(SNSF),Switzerland;and fürPhysik,Humboldt-UniversitätzuBerlin,D-12489Berlin,Germany.
+       GalacticplanewithMilagro.Astrophys.J.688,1078 NationalResearchFoundationofKorea(NRF).Additionaldata 10FakultätfürPhysikundAstronomie,Ruhr-UniversitätBochum,
+       (2008).doi:10.1086/592213 andresourcesareavailableinthesupplementarymaterials. D-44780Bochum,Germany.11PhysikalischesInstitut,Universität
+     16. E.Waxman,J.Bahcall,Highenergyneutrinosfrom Theseincludedisplaysoftheneutrinocandidateeventsandlist Bonn,Nussallee12,D-53115Bonn,Germany.12UniversitéLibre
+       cosmologicalgamma-rayburstfireballs.Phys.Rev.Lett.78, precisearrivaltimes,aswellasmachine-readabletabular de Bruxelles,ScienceFaculty CP230,B-1050Brussels,Belgium.
+       2292–2295(1997).doi:10.1103/PhysRevLett.78.2292 neutrinoeffectiveareas(Fig.7).IceCubedataarearchivedat 13VrijeUniversiteitBrussel,DienstELEM,B-1050Brussels,Belgium.
+     17. K.Ioka,S.Razzaque,S.Kobayashi,P.Mészáros,TeV-PeV http://www.icecube.wisc.edu/science/data. 14DepartmentofPhysics,ChibaUniversity,Chiba263-8522,Japan.
+       neutrinosfromgiantflaresofmagnetarsandthe      15DepartmentofPhysicsandAstronomy,UniversityofCanterbury,
+       caseofSGR1806–20.Astrophys.J.633,1013(2005). IceCubeCollaboration: Private Bag 4800, Christchurch, New Zealand. 16Department of
+       doi:10.1086/466514     M.G.Aartsen,2R.Abbasi,27Y.Abdou,22M.Ackermann,42J.Adams,15 Physics, University of Maryland, College Park, MD 20742, USA.
+     18. IceCubeCollaboration,Neutrinoanalysisofthe2010 J.A.Aguilar,21M.Ahlers,27D.Altmann,9J.Auffenberg,27X.Bai,31 17Department of Physics and Center for Cosmology and Astro-
+       SeptemberCrabNebulaflareandtime-integrated M.Baker,27S.W.Barwick,23V.Baum,28R.Bay,7J.J.Beatty,17,18 ParticlePhysics,OhioStateUniversity,Columbus,OH43210,USA.
+       constraintsonneutrinoemissionfromtheCrab S.Bechet,12J.BeckerTjus,10K.-H.Becker,41M.L.Benabderrahmane,42 18DepartmentofAstronomy,OhioStateUniversity,Columbus,OH
+       usingIceCube.Astrophys.J.745,45(2012). S.BenZvi,27P.Berghaus,42D.Berley,16E.Bernardini,42A.Bernhard,30 43210,USA.19DepartmentofPhysics,TUDortmundUniversity,
+       doi:10.1088/0004-637X/745/1/45 D.Bertrand,12D.Z.Besson,25G.Binder,8,7D.Bindig,41M.Bissok,1 D-44221Dortmund,Germany.20DepartmentofPhysics,University
+     19. T.K.Gaisser,Atmosphericleptons,thesearchfora E.Blaufuss,16J.Blumenthal,1D.J.Boersma,40S.Bohaichuk,20 ofAlberta,Edmonton,AlbertaT6G2E1,Canada.21Départementde
+       promptcomponent.HighEnergyPhys.Phenomenol. C.Bohm,34D.Bose,13S.Böser,11O.Botner,40L.Brayeur,13H.-P.Bretz,42 physique nucléaire et corpusculaire, Université de Genève, CH-
+       arXiv:1303.1431(2013).http://arxiv.org/abs/1303.1431 A.M.Brown,15R.Bruijn,24J.Brunner,42M.Carson,22J.Casey,5 1211Genève,Switzerland.22DepartmentofPhysicsandAstrono-
+     20. IceCubeCollaboration,Extendingthesearch M.Casier,13D.Chirkin,27A.Christov,21B.Christy,16K.Clark,39 my,UniversityofGent,B-9000Gent,Belgium.23Departmentof
+       forneutrinopointsourceswithIceCubeabove F.Clevermann,19S.Coenders,1S.Cohen,24D.F.Cowen,39,38 PhysicsandAstronomy,UniversityofCalifornia,Irvine,Irvine,CA
+       thehorizon.Phys.Rev.Lett.103,221102 A.H.CruzSilva,42M.Danninger,34J.Daughhetee,5J.C.Davis,17 92697,USA.24LaboratoryforHighEnergyPhysics,ÉcolePolytech-
+       (2009).doi:10.1103/PhysRevLett.103.221102; M.Day,27C.DeClercq,13S.DeRidder,22P.Desiati,27K.D.deVries,13 niqueFédérale,CH-1015Lausanne,Switzerland.25Departmentof
+       pmid:20366087          M.deWith,9T.DeYoung,39J.C.Díaz-Vélez,27M.Dunkman,39 PhysicsandAstronomy,UniversityofKansas,Lawrence,KS66045,
+     21. IceCubeCollaboration,Constraintsontheextremely-high R.Eagan,39B.Eberhardt,28B.Eichmann,10J.Eisch,27R.W.Ellsworth,16 USA.26DepartmentofAstronomy,UniversityofWisconsin,Madison,
+       energycosmicneutrinofluxwiththeIceCube2008-2009 S.Euler,1P.A.Evenson,31O.Fadiran,27A.R.Fazely,6A.Fedynitch,10 WI53706,USA.27DepartmentofPhysicsandWisconsinIceCube
+       data.Phys.Rev.D83,092003(2011).doi:10.1103/ J.Feintzeig,27T.Feusels,22K.Filimonov,7C.Finley,34T.Fischer-Wasels,41 ParticleAstrophysicsCenter,UniversityofWisconsin,Madison,WI
+       PhysRevD.83.092003     S.Flis,34A.Franckowiak,11K.Frantzen,19T.Fuchs,19T.K.Gaisser,31 53706,USA.28InstituteofPhysics,UniversityofMainz,Staudinger
+     22. S.Schönert,T.K.Gaisser,E.Resconi,O.Schulz,Vetoing J.Gallagher,26L.Gerhardt,8,7L.Gladstone,27T.Glüsenkamp,42 Weg7,D-55099Mainz,Germany.29UniversitédeMons,7000Mons,
+       atmosphericneutrinosinahighenergyneutrino A.Goldschmidt,8G.Golup,13J.G.Gonzalez,31J.A.Goodman,16D.Góra,42 Belgium.30T.U.Munich,D-85748Garching,Germany.31BartolRe-
+       telescope.Phys.Rev.D79,043009(2009). D.T.Grandmont,20D.Grant,20A.Groß,30C.Ha,8,7A.HajIsmail,22 searchInstituteandDepartmentofPhysicsandAstronomy,University
+       doi:10.1103/PhysRevD.79.043009 P.Hallen,1A.Hallgren,40F.Halzen,27K.Hanson,12D.Heereman,12 of Delaware, Newark, DE 19716, USA. 32Department of Physics,
+     23. L.Rädel,C.Wiebusch,CalculationoftheCherenkovlight D.Heinen,1K.Helbing,41R.Hellauer,16S.Hickford,15G.C.Hill,2 UniversityofOxford,1KebleRoad,OxfordOX13NP,UK.33Depart-
+       yieldfromelectromagneticcascadesinicewithGeant4. K.D.Hoffman,16R.Hoffmann,41A.Homeier,11K.Hoshina,27 mentofPhysics,UniversityofWisconsin,RiverFalls,WI54022,USA.
+       Astropart.Phys.44,102–113(2013).doi:10.1016/ W.Huelsnitz,16P.O.Hulth,34K.Hultqvist,34S.Hussain,31A.Ishihara,14 34OskarKleinCentreandDepartmentofPhysics,StockholmUni-
+       j.astropartphys.2013.01.015 E.Jacobi,42J.Jacobsen,27K.Jagielski,1G.S.Japaridze,4K.Jero,27 versity,SE-10691Stockholm,Sweden.35DepartmentofPhysicsand
+     24. IceCubeCollaboration,MeasurementofSouthPoleice O.Jlelati,22B.Kaminsky,42A.Kappes,9T.Karg,42A.Karle,27J.L.Kelley,27 Astronomy,StonyBrookUniversity,StonyBrook,NY11794–3800,
+       transparencywiththeIceCubeLEDcalibrationsystem. J.Kiryluk,35J.Kläs,41S.R.Klein,8,7J.-H.Köhne,19G.Kohnen,29 USA. 36Department of Physics, Sungkyunkwan University, Suwon
+       Nucl.Instr.Meth.Phys.Res.A711,73–89(2013). H.Kolanoski,9L.Köpke,28C.Kopper,27*S.Kopper,41D.J.Koskinen,39 440-746,Korea.37DepartmentofPhysicsandAstronomy,University
+       doi:10.1016/j.nima.2013.01.054 M.Kowalski,11M.Krasberg,27K.Krings,1G.Kroll,28J.Kunnen,13 ofAlabama,Tuscaloosa,AL35487,USA.38DepartmentofAstronomy
+     25. IceCubeCollaboration,Calibrationandcharacterization N.Kurahashi,27*T.Kuwabara,31M.Labare,22H.Landsman,27 andAstrophysics,PennsylvaniaStateUniversity,UniversityPark,PA
+       oftheIceCubephotomultipliertube.Nucl.Instr.Meth. M.J.Larson,37M.Lesiak-Bzdak,35M.Leuermann,1J.Leute,30J.Lünemann,28 16802,USA.39DepartmentofPhysics,PennsylvaniaStateUniversity,
+       Phys.Res.A618,139–152(2010).doi:10.1016/ J.Madsen,33G.Maggi,13R.Maruyama,27K.Mase,14H.S.Matis,8 University Park, PA 16802, USA. 40Department of Physics and
+       j.nima.2010.03.102     F.McNally,27K.Meagher,16M.Merck,27T.Meures,12S.Miarecki,8,7 Astronomy,UppsalaUniversity,Box516,S-75120Uppsala,Sweden.
+     26. D.Heck,J.Knapp,J.Capdevielle,G.Schatz,T.Thouw, E.Middell,42N.Milke,19J.Miller,13L.Mohrmann,42T.Montaruli,21 41DepartmentofPhysics,UniversityofWuppertal,D-42119Wuppertal,
+       CORSIKA:AMonteCarloCodetoSimulateExtensive R.Morse,27R.Nahnhauer,42U.Naumann,41H.Niederhausen,35 Germany.42DESY,D-15735Zeuthen,Germany.
+       AirShowers(ForschungszentrumKarlsruheGmbH, S.C.Nowicki,20D.R.Nygren,8A.Obertacke,41S.Odrowski,20A.Olivas,16
+       Karlsruhe,Germany,1998). A.O’Murchadha,12L.Paul,1J.A.Pepper,37C.PérezdelosHeros,40 *Correspondingauthor.E-mail:ckopper@icecube.wisc.edu(C.K.);
+     27. A.Fedynitch,J.BeckerTjus,P.Desiati,Influenceof C.Pfendner,17D.Pieloth,19E.Pinat,12J.Posselt,41P.B.Price,7 naoko@icecube.wisc.edu(N.K.);nwhitehorn@icecube.wisc.edu
+       hadronicinteractionmodelsandthecosmicrayspectrum G.T.Przybylski,8L.Rädel,1M.Rameez,21K.Rawlins,3P.Redl,16 (N.W.)
+       onthehighenergyatmosphericmuonandneutrinoflux. R.Reimann,1E.Resconi,30W.Rhode,19M.Ribordy,24M.Richman,16
+                                                      SupplementaryMaterials      
+       Phys.Rev.D86,114024(2012).doi:10.1103/ B.Riedel,27J.P.Rodrigues,27C.Rott,36T.Ruhe,19B.Ruzybayev,31
+       PhysRevD.86.114024     D.Ryckbosch,22S.M.Saba,10T.Salameh,39H.-G.Sander,28M.Santander,27 www.sciencemag.org/content/342/6161/1242856/suppl/DC1
+     28. A.Cooper-Sarkar,S.Sarkar,Predictionsforhighenergy S.Sarkar,32K.Schatto,28F.Scheriau,19T.Schmidt,16M.Schmitz,19 EventDisplays1to28
+       neutrinocross-sectionsfromtheZEUSglobalPDFfits. S.Schoenen,1S.Schöneberg,10A.Schönwald,42A.Schukraft,1 NeutrinoEffectiveAreas
+       J.HighEnergyPhys.1,075(2008).doi:10.1088/ L.Schulte,11O.Schulz,30D.Seckel,31Y.Sestayo,30S.Seunarine,33 8July2013;accepted8October2013
+       1126-6708/2008/01/075  R.Shanidze,42C.Sheremata,20M.W.E.Smith,39D.Soldin,41 10.1126/science.1242856
+                      www.sciencemag.org SCIENCE VOL342 22NOVEMBER2013 1242856-7  
