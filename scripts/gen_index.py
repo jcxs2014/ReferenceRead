@@ -20,6 +20,7 @@ TOPICS = [
     ("01_cosmic-ray-propagation", "01. 宇宙线传播"),
     ("02_cosmic-ray-origins", "02. 宇宙线起源"),
     ("03_stellar-nucleosynthesis", "03. 恒星核合成与元素丰度"),
+    ("04_experiments", "04. 实验与观测"),
 ]
 
 # Author / journal / etc. extracted from each paper's 00_overview.md
