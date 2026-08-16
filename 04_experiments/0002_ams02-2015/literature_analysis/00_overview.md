@@ -1,8 +1,9 @@
 ---
 title: "Precision Measurement of the Proton Flux in Primary Cosmic Rays from Rigidity 1 GV to 1.8 TV with the AMS-02 on the ISS"
-authors: ["M. Aguilar", "D. Aisa", "B. Alpat", "et al. (AMS Collaboration)"]
+authors: "M. Aguilar, D. Aisa, B. Alpat, et al. (AMS Collaboration)"
 year: 2015
 read_date: '2026-08-16'
+status: completed
 journal: "Phys. Rev. Lett."
 volume: "114"
 pages: "171103"

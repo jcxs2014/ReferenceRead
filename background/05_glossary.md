@@ -12,7 +12,7 @@ path: background/05_glossary.md
 ---
 # 05. 全库术语表 (Glossary)
 
-> 从 51 篇 `98_vocabulary.md` 的 B 类术语提取汇总。
+> 从 55 篇 `98_vocabulary.md` 的 B 类术语提取汇总。
 > 去重前：1031 条引用；去重后：769 个独立术语。
 > 跨篇复用：104 个术语在多篇论文中独立出现。
 

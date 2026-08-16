@@ -201,7 +201,7 @@ def main() -> int:
             """从 wikilink [[path|stem]] 提取 stem；裸字串（非wikilink）返回 None（外部引用）。"""
             m = re.search(r'\[\[.+?\|(.+?)\]\]', c)
             return m.group(1) if m else None
-        dangling = sorted({c for p in papers for c in p.get("citations", [])
+        dangling = sorted({c for p in papers for c in p.get("citations") or []
                            if _stem(c) is not None and _stem(c) not in papers_stems_all})
         check("附: citations 无悬空(全库内指向)", not dangling,
               f"悬空 {len(dangling)}" + (f": {dangling[:5]}" if dangling else ""))
@@ -209,7 +209,7 @@ def main() -> int:
     # 图谱数据侧静态断言（渲染本身是运行时行为，由 headless 验证）：
     # 数据满足"21 篇 × 平均 ≥1.43 条引用 = ≥30 边"即可支撑图谱
     if papers is not None:
-        total_cits = sum(len(p.get("citations", [])) for p in papers)
+        total_cits = sum(len(p.get("citations") or []) for p in papers)
         check("附: 图谱数据 ≥30 条引用", total_cits >= 30,
               f"citations 总 {total_cits} 条（渲染由 headless 运行验证）")
         # P0-6 + P1-22 + 附24 防护：tags/authors/title 不含
@@ -239,7 +239,7 @@ def main() -> int:
         for p in papers:
             for field in ("title", "authors"):
                 val = p.get(field, "")
-                if val and bool(re.search(r"\*{1,2}", val)):
+                if val and isinstance(val, str) and bool(re.search(r"\*{1,2}", val)):
                     bad_bold += 1
                     print(f"[DETAIL]  {p.get('slug','?')} 的 {field} 含 markdown 标记: {val[:60]}")
         check("附: PAPERS title/authors 无 markdown 加粗 — 污染 0", bad_bold == 0,
@@ -265,7 +265,7 @@ def main() -> int:
         for e in _reg:
             for field in ("title", "authors", "journal"):
                 val = e.get(field, "")
-                if val and bool(re.search(r"\*{1,2}", val)):
+                if val and isinstance(val, str) and bool(re.search(r"\*{1,2}", val)):
                     reg_bold += 1
                     print(f"[DETAIL]  registry {e.get('stem','?')} 的 {field} 含标记: {val[:60]}")
         check("附: registry title/authors/journal 无 markdown 加粗 — 污染 0", reg_bold == 0,

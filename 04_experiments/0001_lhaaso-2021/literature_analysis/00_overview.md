@@ -1,11 +1,9 @@
 ---
 title: "Ultrahigh-energy photons up to 1.4 petaelectronvolts from 12 γ-ray Galactic sources"
-authors:
-  - "Zhen Cao"
-  - "F. A. Aharonian"
-  - "LHAASO Collaboration"
+authors: "Zhen Cao, F. A. Aharonian, LHAASO Collaboration"
 year: 2021
 read_date: '2026-08-16'
+status: completed
 journal: "Nature"
 volume: "594"
 pages: "33-36"
@@ -13,8 +11,8 @@ doi: "10.1038/s41586-021-03498-z"
 category: experiments
 sections: []
 citations:
-  - "[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/00_overview|0012_gabici-2019]]"
-  - "[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|0004_blasi-2013]]"
+  - '[[02_cosmic-ray-origins/0012_gabici-2019/literature_analysis/00_overview|gabici-2019]]'
+  - '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|blasi-2013]]'
 ---
 
 # LHAASO 1.4 PeV γ 射线源（Nature 594, 2021）
