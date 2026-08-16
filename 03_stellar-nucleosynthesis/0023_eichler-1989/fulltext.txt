@@ -1,70 +1,3 @@
-LETTERS TO NATURE
-
-evidence that during folding an early framework intermediate
-forms in which there is significant secondary structure™* and
-the proposal that the transition state occurs late on the folding
-pathway’. The initial results from our protein engineering study
-have begun to map out the energetics of these processes and to
-show new details such as a major loop not being formed in the
-
-transition state or the lack of hydrogen bonds from N caps to
-the exposed backbone NH groups of the helices. These studies
-now point to new questions that can be answered by studying
-further mutations. For example, are all the loops exposed to
-solvent in the transition state and are they the last elements of
-structure to be formed? Oo
-
-Received 20 April; accepted 7 June 1989.
-
-. Creighton, T. E. Proc. natn. Acad. Sci. US.A. 85, 5082-5086 (1988).
-
-. Udgaonkar, J. B. & Baldwin, R. L. Nature 335, 694-699 (1988).
-
-. Roder, H., Eléve, G. A. & Englander, S. W. Nature 335, 700-704 (1988).
-
-Beasty, A. M. ef al. Biochemistry 25, 2965-2974 (1989).
-
-. Garvey, E. P. & Matthews, C. R. Biochemistry 28, 2083-2093 (1989).
-
-Chen, B.-|, Baase, W. A. & Scheliman, J. A. Biochemistry 28, 691-699 (1989).
-
-Goldenberg, D. P., Frieden, R. W., Haack, J. A. & Morrison, T. B. Nature 338, 127-132 (1989).
-. Winter, G, Fersht, A. R., Wilkinson, A. J., Zoller, M. & Smith, M. Nature 299, 756-758 (1982).
-. Fersht, A. R. Biochemistry 26, 8031-8037 (1987).
-
-. Keltis, J. T., Jr, Nyberg, K., Sali, D. & Fersht, A. R. Nature 333, 784-786 (1988).
-
-11. Sali, D., Bycroft, M. & Fersht. A. R. Nature 335, 741-743 (1988).
-
-12. Kellis, J. T., Jr, Nyberg, K. & Fersht, A. R. Biochemistry 28, 4914-4922 (1989).
-
-B
-COMNDOAWHE
-
-LETTERS TO NATURE
-
-13, Mauguen, Y. ef al. Nature 297, 162-164 (1982).
-
-14. Schmid, F. X. & Baldwin, R. L. Proc. natn. Acad. Sci. US.A. 75, 4764-4768 (1978).
-
-15. Fersht, A. R., Leatherbarrow, R. J. & Wells, T. N. C. Biochemistry 26, 6030-6038 (1987).
-
-16. Tanford, C. Aav. Protein Chem, 24, 1-95 (1970).
-
-47. Fersht, A.R. Enzyme Structure and Mechanism 2nd edn (Freeman, New York, 1985).
-
-18. Fersht, A. R. Biochemistry 27, 1577-1580 (1988).
-
-19. Woifenden, R., Andersson, L., Cullis, P. M. & Southgate, C. C. B. Biochemistry 20, 849-855
-(1981).
-
-20. Presta, L. G. & Rose, G. D. Science 240, 1632-1641 (1988).
-
-21. Richardson, J. S. & Richardson, D. C. Science 240, 1648-1652 (1988).
-
-ACKNOWLEDGEMENTS. J.T.K. is a recipient of a NATO postdoctoral fellowship. L.S. is a recipient of
-an EMBO postdoctoral fellowship.
-
 Nucleosynthesis, neutrino bursts
 and y-rays from coalescing
 neutron stars
@@ -533,4 +466,3 @@ Si layers and their native oxides® deposited by molecular beam
 NATURE - VOL 340 - 13 JULY 1989
 
 © 1989 Nature Publishing Group
-
