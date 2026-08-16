@@ -65,7 +65,7 @@ path: background/06_controversy_evolution.md
 | 2020 | Weinrich et al. | A&A 639, A74：贝叶斯分析 → 晕大小 L ≥ 8 kpc 显著优于传统 4 kpc |
 | 2021 | Génolini et al. | PRD 104, 083005：min/med/max 传播模型作为暗物质搜寻反卷积标准 |
 
-**演化形态**：**参数空间收缩**（AMS-02 后 $\\sim 2\\times$ 不确定 → 持续收窄），未决但收敛中。
+**演化形态**：**参数空间收缩**（AMS-02 后 $\sim 2\times$ 不确定 → 持续收窄），未决但收敛中。
 
 ---
 

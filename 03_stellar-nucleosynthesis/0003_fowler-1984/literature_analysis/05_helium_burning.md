@@ -1,5 +1,5 @@
 ---
-title: "05. THE SYNTHESIS OF $^{12}{\\rm C}$ AND $^{16}{\\rm O}$ AND NEUTRON PRODUCTION IN HELIUM BURNING (Fowler §V)"
+title: "05. THE SYNTHESIS OF $^{12}{\rm C}$ AND $^{16}{\rm O}$ AND NEUTRON PRODUCTION IN HELIUM BURNING (Fowler §V)"
 authors: William A. Fowler
 year: '1984'
 journal: Reviews of Modern Physics 56, 149 (1984) — Nobel Lecture

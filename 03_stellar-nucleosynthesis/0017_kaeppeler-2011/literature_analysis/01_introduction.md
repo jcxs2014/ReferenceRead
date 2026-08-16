@@ -301,9 +301,9 @@ key_figures:
   - 'Fig. 1: 中子俘获过程的核素图'
   - 'Fig. 2: 反应流分布（main 与 weak s）'
 key_equations:
-  - '$\\lambda_{n\\gamma} = n_n \\langle\\sigma v\\rangle$ (中子俘获率)'
-  - '$\\phi_s = \\langle\\bar{\\sigma}\\rangle N_s$ (反应流)'
-  - '$B = \\langle\\bar{\\sigma}_p\\rangle N_p / (\\langle\\bar{\\sigma}_f\\rangle N_f)$ (分叉比)'
+  - '$\lambda_{n\gamma} = n_n \langle\sigma v\rangle$ (中子俘获率)'
+  - '$\phi_s = \langle\bar{\sigma}\rangle N_s$ (反应流)'
+  - '$B = \langle\bar{\sigma}_p\rangle N_p / (\langle\bar{\sigma}_f\rangle N_f)$ (分叉比)'
 key_topics:
   - 's/r/p 过程区分'
   - 'B2FH 与经典 s 过程模型'

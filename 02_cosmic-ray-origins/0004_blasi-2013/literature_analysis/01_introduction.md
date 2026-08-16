@@ -29,38 +29,38 @@ status: done
 
 - [FACT] \"In 1962 Bruno Rossi finalized the writing of his book Cosmic Rays ... the field of CR research had become a complex combination of several fields, from Astronomy to Plasma Physics and Particle Physics.\"
 - [FACT] \"Cosmic rays are mainly charged particles that contribute an energy density in the Galaxy of about 1 eV cm$^{-3}$. They are mainly protons ... with about 10% fraction of helium nuclei and smaller abundances of heavier elements.\"
-- [FACT] The knee: \"the prominent steepening of the spectrum at energy E_K = $3\\times10^{15}$ eV is named the knee: at this point the spectral slope of the differential flux changes from ~−2.7 to ~−3.1.\"
+- [FACT] The knee: \"the prominent steepening of the spectrum at energy E_K = $3\times10^{15}$ eV is named the knee: at this point the spectral slope of the differential flux changes from ~−2.7 to ~−3.1.\"
 - [FACT] 膝点之上化学组成：\"evidence that the chemical composition of CRs changes across the knee region with a trend to become increasingly more dominated by heavy nuclei at high energy, at least up to ~$10^{17}$ eV.\"
 - [FACT] KASCADE-Grande（Apel et al, 2013）：电子富（轻）与电子贫（重）簇射分离，轻成分在 $10^{17}$ eV 处出现类似 ankle 的结构；ICETOP（Aartsen et al, 2013）也得到类似结论。
 - [FACT] 与 Pierre Auger / HiRes / Telescope Array 的化学成分测量冲突：后者在 $10^{18}$ eV 处见轻成分主导。
-- [FACT] PAMELA：\"The slope of the proton spectrum below 230 GeV was measured to be $\\gamma_{1}$ = 2.89 ± 0.015, while the slope above 230 GeV becomes $\\gamma_{2}$ = 2.67 ± 0.03.\"
+- [FACT] PAMELA：\"The slope of the proton spectrum below 230 GeV was measured to be $\gamma_{1}$ = 2.89 ± 0.015, while the slope above 230 GeV becomes $\gamma_{2}$ = 2.67 ± 0.03.\"
 - [FACT] AMS-02 初步结果：\"do not confirm the existence of the spectral breaks in the protons and helium spectra, as observed by PAMELA.\"
 - [FACT] B/C ratio：\"provides the best estimate so far of the amount of matter that CRs traverse during their journey through the Galaxy.\"
 - [FACT] 正电子分数：\"the positron fraction increases with energy above ~10 GeV\" (PAMELA, AMS-02)。
 - [FACT] Baade & Zwicky (1934)；Ginzburg & Syrovatsky (1961) 首先提出 SNR 是 CR 源。
 - [FACT] \"gamma rays unambiguously associated with production of neutral pions have been detected from several SNRs close to molecular clouds.\"
-- [FACT] Tycho $\\gamma$ 射线：\"the gamma ray emission detected from the Tycho SNR (Giordano et al, 2012; Acciari et al, 2011) also appears to be most likely of hadronic origin.\"
+- [FACT] Tycho $\gamma$ 射线：\"the gamma ray emission detected from the Tycho SNR (Giordano et al, 2012; Acciari et al, 2011) also appears to be most likely of hadronic origin.\"
 - [FACT] \"an efficiency of ~10% in particle acceleration is required\" if SNRs are main contributors.
 
 **全粒子能谱全景**：
 - 质子为主（~90%）、氦核（~10%），重核更少；能量密度约 1 eV/cm$^{3}$
 - 低能端 (~30 GeV 以下) 被太阳调制
-- **膝点 knee** 在 $E_K = 3\\times10^{15}$ eV 处谱斜率从 $\\gamma\\approx2.7$ 变到 $\\approx3.1$
+- **膝点 knee** 在 $E_K = 3\times10^{15}$ eV 处谱斜率从 $\gamma\approx2.7$ 变到 $\approx3.1$
 - 膝点之上成分趋向重核主导，最高至 ~$10^{17}$ eV 后 Fe 谱可与轻成分相当
-- **PAMELA / CREAM / AMS-02 硬转折**：p 与 $^{4}{\\rm He}$ 在 230 GV 处硬化（$\\gamma_{1}$=2.89 → $\\gamma_{2}$=2.67）
-- **正电子分数异常**：>10 GeV 后 $\\Phi(e^{+})/(\\Phi(e^{+})+\\Phi(e^{-}))$ 上升；反质子分数正常下降
-- **SNR 作为主源的间接证据**：$\\gamma$ 射线 $\\pi^{0}$ 衰变（MC 邻近 SNR、Tycho）、X 射线窄磁边缘、DSA 理论；反推加速效率 ~10%
+- **PAMELA / CREAM / AMS-02 硬转折**：p 与 $^{4}{\rm He}$ 在 230 GV 处硬化（$\gamma_{1}$=2.89 → $\gamma_{2}$=2.67）
+- **正电子分数异常**：>10 GeV 后 $\Phi(e^{+})/(\Phi(e^{+})+\Phi(e^{-}))$ 上升；反质子分数正常下降
+- **SNR 作为主源的间接证据**：$\gamma$ 射线 $\pi^{0}$ 衰变（MC 邻近 SNR、Tycho）、X 射线窄磁边缘、DSA 理论；反推加速效率 ~10%
 
 **膝点物理解释（刚性依赖加速的叠加模型）**：
 
-[FACT] 假设各元素 p_max ∝ Z（刚性依赖），则膝点 = 各元素截止叠加。若 $E_{p,\\rm max}\\approx5\\times10^{15}$ eV，则 Fe（Z=26）$E_{Fe,\\rm max}\\approx26\\times5\\times10^{15}$ eV ≈ (1–2) × $10^{17}$ eV。
+[FACT] 假设各元素 p_max ∝ Z（刚性依赖），则膝点 = 各元素截止叠加。若 $E_{p,\rm max}\approx5\times10^{15}$ eV，则 Fe（Z=26）$E_{Fe,\rm max}\approx26\times5\times10^{15}$ eV ≈ (1–2) × $10^{17}$ eV。
 
 [CRITIQUE] 作者对\"膝点 = 银河系 CR 截止\"的解读较为朴素：后续 CTA、LHAASO 将揭示 10–1000 TeV 处的详细结构，可能动摇\"膝点 = 单个 Fe_max\"这种解释。
 
 **关键公式**：
 
 $$
-\\boxed{E_{Fe,\\rm max}\\approx Z_{Fe}\\cdot E_{p,\\rm max}=26\\times 5\\times10^{15}\\text{ eV}\\approx (1\\text{–}2)\\times10^{17}\\text{ eV}}
+\boxed{E_{Fe,\rm max}\approx Z_{Fe}\cdot E_{p,\rm max}=26\times 5\times10^{15}\text{ eV}\approx (1\text{–}2)\times10^{17}\text{ eV}}
 $$
 
 **关键参数**：
@@ -69,12 +69,12 @@ $$
 |--------|------|------|
 | 银河系 CR 能量密度 | ~1 eV/cm$^{3}$ | 质子主导 |
 | 质子分数 | ~90% | He 约 10%，重核更少 |
-| 膝点能量 $E_K$ | $3\\times10^{15}$ eV | 谱斜率从 −2.7 变到 −3.1 |
+| 膝点能量 $E_K$ | $3\times10^{15}$ eV | 谱斜率从 −2.7 变到 −3.1 |
 | 膝点以上重核主导上限 | ~$10^{17}$ eV | KASCADE-Grande, ICETOP |
-| 膝点叠加 Fe_max | (1–2) × $10^{17}$ eV | 若 p_max=$5\\times10^{15}$ eV |
+| 膝点叠加 Fe_max | (1–2) × $10^{17}$ eV | 若 p_max=$5\times10^{15}$ eV |
 | PAMELA 硬转折 | 230 GV | p, He 谱 |
-| $\\gamma_{1}$（p < 230 GV） | 2.89 ± 0.015 | 低能段斜率 |
-| $\\gamma_{2}$（p > 230 GV） | 2.67 ± 0.03 | 高能段斜率 |
+| $\gamma_{1}$（p < 230 GV） | 2.89 ± 0.015 | 低能段斜率 |
+| $\gamma_{2}$（p > 230 GV） | 2.67 ± 0.03 | 高能段斜率 |
 | 正电子分数上升阈值 | ~10 GeV | PAMELA, AMS-02 |
 | CR 加速效率 | ~10% | SNR 作为主源所需 |
 
