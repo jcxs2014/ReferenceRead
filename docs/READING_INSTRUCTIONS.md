@@ -423,6 +423,27 @@ literature_analysis/
 
 执行 Completeness Check 自检清单，确保无遗漏。
 
+### 密度门禁（精读深度自动审计）
+
+精读完成后，必须用 `scripts/check_density.py` 验证内容密度：
+
+```bash
+python3 scripts/check_density.py
+```
+
+通过标准：
+- **FACT密度 ≥ 4.0/千字**（理论类；公式优先论文入 FORMULA_FIRST 豁免）
+- **公式数 ≥ 50**（理论综述类；纯观测综述入 OBSERVATIONAL 豁免）
+- 解读批判占比暂不设阈值
+
+豁免名单（`scripts/check_density.py` 中定义）：
+- OBSERVATIONAL：`sneden-cowan-2008`（观测丰度综述）
+- FORMULA_FIRST：`amato-blasi/blandford-ostriker/blandford-eichler/bell-1978/hillas-1984/weinrich/genolini`（方程驱动型）
+
+门禁阈值按**质量标杆**（nomoto 12.7 / drury 7.2 / giacalone 4.4 的下沿）设定，禁止调至现状最差值让篇通过。
+
+> **注意**：子agent 并行批次的报告数值不等于最终值。交付前必须用 subprocess 重跑 check_density，以脚本输出为准。
+
 ---
 
 ## 26. 输出要求
