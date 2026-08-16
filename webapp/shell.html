@@ -116,7 +116,7 @@ body {
 .search-box {
   display:flex; align-items:center; gap:4px;
   padding:5px 10px; border:1px solid var(--border); border-radius:6px;
-  background:var(--card); flex-shrink:0; width:200px;
+  background:var(--card); flex-shrink:0; min-width:280px; max-width:400px;
 }
 .search-box input { border:none; outline:none; background:transparent; color:var(--fg); flex:1; font-size:13px; }
 .search-box .count { color:var(--fg-2); font-size:12px; min-width:36px; text-align:right; }
@@ -236,7 +236,7 @@ mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px
   }
   .app.sidebar-open .sidebar { width:300px; }
   .main { padding:20px 16px; }
-  .search-box { width:140px; }
+  .search-box { min-width:240px; max-width:90vw; }
 }
 
 /* ── 术语 hover（GLOSS） ─────────────────────────────────────────── */
@@ -265,6 +265,27 @@ mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px
 .evol-leaf { margin: .12rem 0; }
 .evol-leaf a { color: var(--accent); text-decoration: none; cursor: pointer; }
 .evol-leaf a:hover { text-decoration: underline; }
+#search-count {
+  font-size: 12px;
+  color: var(--fg-2);
+  margin-left: 6px;
+  line-height: 1.4;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+#search-count a.search-link {
+  color: #2563eb;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px dashed currentColor;
+}
+#search-count a.search-link:hover {
+  background: #fff3b0;
+  color: #9e6a03;
+}
+[data-theme="dark"] #search-count a.search-link { color: #79c0ff; }
+[data-theme="dark"] #search-count a.search-link:hover { background: #9e6a03; color: #fff3b0; }
 </style>
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
