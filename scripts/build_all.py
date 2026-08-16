@@ -70,6 +70,8 @@ STEPS: list[dict] = [
      "label": "audit"},
     {"id": "quality", "cmd": [PY, str(ROOT / "scripts" / "quality_matrix.py"), "--check"],
      "label": "quality_matrix"},
+    {"id": "density", "cmd": [PY, str(ROOT / "scripts" / "check_density.py"), "--check"],
+     "label": "density_gate"},
 ]
 
 
@@ -106,6 +108,8 @@ def main() -> None:
             cmd = [PY, str(WEBAPP / "scripts" / "build_webapp.py"), "--include-papers"]
         elif step["id"] == "audit":
             cmd = [PY, str(WEBAPP / "scripts" / "audit.py")]
+        elif step["id"] == "density":
+            cmd = [PY, str(ROOT / "scripts" / "check_density.py")] + (["--check"] if not args.dry else [])
         else:
             continue
 
