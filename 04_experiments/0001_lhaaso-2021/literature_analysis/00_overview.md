@@ -5,6 +5,7 @@ authors:
   - "F. A. Aharonian"
   - "LHAASO Collaboration"
 year: 2021
+read_date: '2026-08-16'
 journal: "Nature"
 volume: "594"
 pages: "33-36"

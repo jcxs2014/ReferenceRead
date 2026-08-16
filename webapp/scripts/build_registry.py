@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""build_registry.py — 读 27 个 frontmatter，生成 registry.json。
+"""build_registry.py — 读 55 个 frontmatter，生成 registry.json。
 
 遍历：
-  - 3 个分类目录下所有 NNNN_*/literature_analysis/00_overview.md（21 篇）
-  - background/*.md（6 篇，排除 README.md 与 00_key_values.md）
+  - 4 个分类目录下所有 NNNN_*/literature_analysis/00_overview.md（55 篇）
+  - background/*.md（7 篇，排除 README.md 与 00_home.md）
 
 对每条：
   1. 解析 YAML frontmatter
@@ -30,9 +30,10 @@ CATEGORY_MAP = {
     "01_cosmic-ray-propagation": "宇宙线传播",
     "02_cosmic-ray-origins": "宇宙线起源",
     "03_stellar-nucleosynthesis": "恒星核合成",
+    "04_experiments": "实验与观测",
 }
 
-# background 中需要生成 registry 条目的文件（6 篇；不含 README.md 与 00_home.md）
+# background 中需要生成 registry 条目的文件（7 篇；不含 README.md 与 00_home.md）
 BACKGROUND_FILES = {
     "00_key_values.md",
     "01_cosmic_rays.md",

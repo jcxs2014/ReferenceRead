@@ -317,7 +317,7 @@ const GLOSS  = __GLOSS_JSON__;
 
 const LS = "kb_";
 
-// ── 文献演化谱系树（51 篇，对应 README「文献演化关系」）──────────────── const EVOLUTION_TREE
+// ── 文献演化谱系树（55 篇，对应 README「文献演化关系」）──────────────── const EVOLUTION_TREE
 const EVOLUTION_TREE = [
   { label: "01 宇宙线传播", children: [
     { label: "框架基石 · CR 传播综述", children: [
@@ -395,7 +395,7 @@ function evolTreeHTML(nodes) {
 function renderEvolutionTree(container) {
   const box = document.createElement("div");
   box.className = "evol-box";
-  box.innerHTML = `<h3>📚 文献演化谱系（51 篇）</h3><p class="evol-hint">点击 ▸ 展开谱系分支，点击论文名跳转对应精读页</p>${evolTreeHTML(EVOLUTION_TREE)}`;
+  box.innerHTML = `<h3>📚 文献演化谱系（55 篇）</h3><p class="evol-hint">点击 ▸ 展开谱系分支，点击论文名跳转对应精读页</p>${evolTreeHTML(EVOLUTION_TREE)}`;
   container.appendChild(box);
   box.addEventListener("click", e => {
     const t = e.target.closest(".evol-toggle");
@@ -640,7 +640,7 @@ function buildDocs() {
   const container = document.getElementById("doc-container");
   container.innerHTML = `<section class="doc-section" data-slug="${active.slug}">${active.html}</section>`;
   injectGloss(container.querySelector("section[data-slug]"), active.slug);
-  // 首页渲染演化谱系树（51 篇可交互大纲）
+  // 首页渲染演化谱系树（55 篇可交互大纲）
   const sec = container.querySelector("section[data-slug]");
   if (sec && active.slug === "知识库首页") {
     renderEvolutionTree(sec);

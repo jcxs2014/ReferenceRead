@@ -43,9 +43,12 @@ def _paper_reg(stem: str) -> dict:
     return _registry.get(stem, {})
 
 
-def _clean_author(raw: str) -> str:
-    """Strip markdown bold, parenthetical notes, institution info, and all asterisks."""
-    s = raw.strip()
+def _clean_author(raw) -> str:
+    """Strip markdown bold, parenthetical notes, institution info, and all asterisks.
+    Accepts str or list (from YAML multi-author format)."""
+    if isinstance(raw, list):
+        raw = ", ".join(str(x) for x in raw)
+    s = str(raw).strip()
     # Remove ALL asterisk runs (markdown bold remaining on individual names)
     s = re.sub(r'\*+', '', s).strip()
     # Remove superscript ordinals (¹²³ etc.) that INDEX.md uses as author footnotes
@@ -258,7 +261,7 @@ def build(include_papers=False, out=None):
 
     # ── Paper docs ───────────────────────────────────────────────
     if include_papers:
-        for cat_dir in sorted(ROOT.glob("0[0-9]_*")):
+        for cat_dir in sorted(ROOT.glob("[0-9][0-9]_*/")):
             if not cat_dir.is_dir():
                 continue
             cat_label = PAPER_INFO.get(cat_dir.name, {"label": cat_dir.name})["label"]

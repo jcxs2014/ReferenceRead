@@ -2,6 +2,7 @@
 title: "Evidence for High-Energy Extraterrestrial Neutrinos at the IceCube Detector"
 authors: ["IceCube Collaboration (Aartsen M. G. et al.)"]
 year: 2013
+read_date: '2026-08-16'
 journal: "Science"
 volume: "342"
 pages: "1242856"

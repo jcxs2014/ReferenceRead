@@ -17,7 +17,7 @@ INTERACTIVE = WEBAPP / "interactive.html"
 REGISTRY = WEBAPP / "registry.json"
 INDEX = ROOT / "INDEX.md"
 GLOSSARY = ROOT / "background" / "05_glossary.md"
-CAT_DIRS = ["01_cosmic-ray-propagation", "02_cosmic-ray-origins", "03_stellar-nucleosynthesis"]
+CAT_DIRS = ["01_cosmic-ray-propagation", "02_cosmic-ray-origins", "03_stellar-nucleosynthesis", "04_experiments"]
 
 FAILED = []
 
