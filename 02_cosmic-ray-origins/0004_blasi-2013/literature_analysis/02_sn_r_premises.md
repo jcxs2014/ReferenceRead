@@ -41,7 +41,7 @@ $$
 \\tau^* = \\frac{X(E^*)}{\\bar n \\mu c} = 90 \\left(\\frac{H}{3 \\text{ kpc}}\\right) \\text{ Myr}
 $$
 
-其中 $X\\sim1$ g/cm$^{2}$；$\\mu\\approx1.4\\,m_p$；$\\bar n = n_{\\rm disc}\\cdot h/H = 5\\times10^{-2}\\cdot(n_{\\rm disc}/1\\text{ cm}^{-3})\\cdot(H/3\\text{ kpc})^{-1}$ cm$^{-3}$。
+其中 $X\\sim 1$ g/cm$^{2}$；$\\mu\\approx1.4\\,m_p$；$\\bar n = n_{\\rm disc}\\cdot h/H = 5\\times10^{-2}\\cdot(n_{\\rm disc}/1\\text{ cm}^{-3})\\cdot(H/3\\text{ kpc})^{-1}$ cm$^{-3}$。
 
 [FACT] \"$\\tau$* ~ 90 · (H/3 kpc) Myr\"（Eq. 1）——**比弹道时间大三至四个量级**，\"the strongest evidence so far for diffusive motion of CRs in the Galaxy.\"
 

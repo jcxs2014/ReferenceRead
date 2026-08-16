@@ -63,7 +63,7 @@ tags: [open questions, Hillas, source identification, BSM, LIV, magnetic fields,
 [FACT] Hillas (1984) 的最小约束：粒子能被束缚在加速区内的条件是 Larmor 半径 $r_L$ 小于加速器尺寸 $R$，给出：
 $$E_{max} = eBR$$
 $$R = l \cdot \delta$$
-其中 $l$ 是源 comoving 尺寸，$\delta$ 是流的 Lorentz factor（AGN jets $\delta\sim10$–50；GRB $\delta\sim10$–1000）。
+其中 $l$ 是源 comoving 尺寸，$\delta$ 是流的 Lorentz factor（AGN jets $\delta\sim 10$–50；GRB $\delta\sim 10$–1000）。
 
 [FACT] Shock 加速公式（Equation 1）：
 $$E_{max} = \eta \beta_{sh} eBR$$
@@ -161,7 +161,7 @@ $$L_{\rm photon} > 3\times10^{44} \text{ erg s}^{-1} \left(\frac{E/Z}{10^{18.5}\
 - Hackstein et al. (2016, 2018) 考虑 astrophysical + primordial seed，确认 Dolag 结论。
 
 [FACT] Farrar & Sutherland (2017) 在 JF12 GMF 模型下的 backtracking：
-- $R<10$ EV 偏转大（$\sim90°$）；
+- $R<10$ EV 偏转大（$\sim 90°$）；
 - $R>20$ EV 不同 GMF 模型给出一致偏转，**允许对 arrival directions 做 GMF 修正**（除银盘附近 $|b|<19.5°$）。
 
 [FACT] 利用 UHECR 约束 EGMF：Yüksel et al. (2012) 论证：Auger 观测到的 Cen A 相关若成立，暗示 $B\sim 20$ nG 的 EGMF。
@@ -198,7 +198,7 @@ $$E_{cr} = E_{Pl}\left(\frac{m^2}{M_{Pl}^n}|\xi|\right)^{1/(n+2)}$$
 
 [FACT] **Muon excess 的 BSM 解释**：
 - KASCADE-Grande 在 $>10^{16}$ eV 看到 muon 过量（Apel et al. 2017）；
-- Auger 也看到 $\sim1.5\times$ 过量（Aab et al. 2016a）；
+- Auger 也看到 $\sim 1.5\times$ 过量（Aab et al. 2016a）；
 - $f_0$（neutral pion branching ratio）决定 hadronic channel 的能量份额——若 $f_0$ 减小，muon 数增加；
 - Farrar & Allen (2013a,b)：若 chiral symmetry 在某 $\sqrt{s}$ 恢复，pion 可能变重、产生被抑制，能量流入 baryon-antibaryon 通道；
 - Anchordoqui et al. (2017)：可能产生 deconfined quark-gluon fireball；
@@ -257,7 +257,7 @@ $$\Phi_{\gamma}>10^{18}\text{eV} < 0.1\%$$
 | SNR Hillas max | $\sim 10$ TeV（无放大） | Equation 3 |
 | 最大 rigidity（拟合） | $\sim 10^{18.8}$ V | §3.2.5 |
 | 最佳拟合源谱指数 | $\gamma\sim 1.6$ | §3.2.5 |
-| EGMF deflection（$E>50$ EeV 质子） | $<2°$ 在 $\sim1/4$ 天空 | §3.2.6 |
+| EGMF deflection（$E>50$ EeV 质子） | $<2°$ 在 $\sim 1/4$ 天空 | §3.2.6 |
 | UHECR 传播 $\sqrt{s}$ | $\sim 40$ TeV（$\epsilon$=GeV, $E=10^{18}$ eV） | Equation 5 |
 | Auger muon excess | $\sim 1.5\times$ | Aab et al. 2016a |
 

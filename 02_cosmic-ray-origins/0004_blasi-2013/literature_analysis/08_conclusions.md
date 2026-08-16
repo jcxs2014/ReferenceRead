@@ -54,7 +54,7 @@ status: done
 
 **过渡区问题（$10^{17}$–$10^{19}$ eV）**：
 
-[FACT] 若 $E_{Fe,\\rm max}\\sim10^{17}$ eV，则银河 CR 在 ~$10^{17}$ eV 截止，远低于传统 ankle 位置（~$10^{18.5}$ eV）。
+[FACT] 若 $E_{Fe,\\rm max}\\sim 10^{17}$ eV，则银河 CR 在 ~$10^{17}$ eV 截止，远低于传统 ankle 位置（~$10^{18.5}$ eV）。
 
 [FACT] KASCADE-Grande（Apel et al. 2013）和 ICETOP 提示 $10^{17}$–$10^{19}$ eV 需要**额外 CR 分量**；$10^{18}$ eV 处轻/重核各半，与 Auger、HiRes、Telescope Array 观测的\"轻成分主导\"**不显然一致**。
 

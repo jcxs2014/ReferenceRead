@@ -103,7 +103,7 @@ $${}^{8}{\rm B} \rightarrow 2\,{}^{4}{\rm He} + e^{+} + \nu_{e}$$
 
 - 首步 $p+p\rightarrow d+e^{+}+\nu$ 截面在 1 MeV 实验室能量下仅 $\sim 10^{-47}\ {\rm cm^{2}} = 10^{-23}\ {\rm barn}$——极小，无法在实验室观测，也是 pp 链决定太阳寿命的原因。
 - pp 链总产能率 $\epsilon_{\rm pp} \propto \rho X^{2} T_{6}^{4}$（低温区间，弱温度依赖）
-- CNO 循环产能率 $\epsilon_{\rm CN} \propto \rho X X_{\rm CN} T_{6}^{16\sim20}$（强温度依赖）
+- CNO 循环产能率 $\epsilon_{\rm CN} \propto \rho X X_{\rm CN} T_{6}^{16\sim 20}$（强温度依赖）
 
 B$^2$FH 给出的 CN 循环产能率：
 $$\epsilon_{\rm CN} = (0.786 \pm 0.16)\cdot(X_{\rm C}\cdot X_{\rm H})\cdot 10^{28}\ {\rm erg\ s^{-1}\ g^{-1}}$$

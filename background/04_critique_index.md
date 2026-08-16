@@ -60,7 +60,7 @@ path: background/04_critique_index.md
 - **$\delta=0.3$–$0.6$ 范围过宽**（§2）：源自 B/C 高能段斜率不确定，直接影响 §6.2 各向异性论证。
 - **银河系 SN 率 $R_{SN}=30\,yr^{-1}$ 有 $\pm30\%$ 系统不确定**（§2）。
 - **注入处理保守**（§3.2）：未展开 dust sputtering 在重核加速中的作用。
-- **§4.2.1 论证共振不稳定性在 $\xi_{CR}\sim10\%$ 时失效是决定性的**（§4）：如果正确，传统 "$\delta$B/B ~ 1 饱和" 的教科书结论在 SNR 强加速下不适用。
+- **§4.2.1 论证共振不稳定性在 $\xi_{CR}\sim 10\%$ 时失效是决定性的**（§4）：如果正确，传统 "$\delta$B/B ~ 1 饱和" 的教科书结论在 SNR 强加速下不适用。
 - **filamentation 估计 ~200 TeV 距膝点差一个量级**（§4）：作者坦承"超年轻 SNR 可能负责 PeV 加速"，但未证明能量学足以支撑总通量。
 - **未处理 turbulent heating / wave damping 对 precursor 的影响**（§4）。
 - **Blasi 明确偏向 Morlino & Caprioli 对 Tycho 的解释**（§6.1），但仍承认"one is left to wander"。
@@ -74,7 +74,7 @@ path: background/04_critique_index.md
 ### 1.6 Amato (2014) — SNR 范式与 NLDSA
 
 - **强流区关键事实**（§5）：CR 效率越高，共振 Alfvén 波的放大越弱（$F_0 \lesssim 1$）——过去数十年文献普遍**误用弱流增长率**导致系统性高估。
-- **Bell 模式**（§5）：虽能解释 X 射线边缘的 $\sim100\,\mu$G 磁场，但不能直接解决 PeVatron 散射问题（尺度不匹配）。
+- **Bell 模式**（§5）：虽能解释 X 射线边缘的 $\sim 100\,\mu$G 磁场，但不能直接解决 PeVatron 散射问题（尺度不匹配）。
 - **逃逸粒子驱动的 Bell 模式**要求极年轻 SNR（$V_{sh}$ 高），抛射物质少、加速粒子总量不足——**能量学上难以支撑银河系 CR 总通量**。
 - **NLDSA 预测的总谱在两个层面与观测不符**（§6）：Blasi 明确指出。
 - **Blasi 坦言软化机制"依赖理论细节"**，很难判断哪个是真正答案。
@@ -114,7 +114,7 @@ path: background/04_critique_index.md
 ### 1.9 Burbidge, Burbidge, Fowler & Hoyle (1957) — 恒星核合成 B$^2$FH
 
 - **对超新星供能的判断后来被证实基本错误**（§7）：I 型超新星（今日 Ia 型）能量主要来自 $^{56}{\rm Ni}$ → $^{56}{\rm Co}$ → $^{56}{\rm Fe}$ 衰变链（63 天与 111 天半衰期）；Cf$^{254}$ 不是主要供能者。
-- **1957 年估计宇宙年龄 $\sim10^{10}$ yr**（§7）与今日 $\sim13.8\times10^9$ yr 相当接近。
+- **1957 年估计宇宙年龄 $\sim 10^{10}$ yr**（§7）与今日 $\sim 13.8\times10^9$ yr 相当接近。
 - **Li/Be/B 合成的讨论是探索性的**（§9）：今日已知其宇宙线散裂（CR spallation）起源。
 - **作者承认"是否所有重氢元素都在恒星内生成"尚无定论**（§1）：本文仅限定研究恒星内核合成。
 - **§2 核反应率的讨论**：当时对 $\alpha$ 俘获与 $p$ 俘获的速率数据精度远不如今日。
@@ -125,7 +125,7 @@ path: background/04_critique_index.md
 
 ### 1.10 Trimble (1975) — 恒星核合成综述
 
-- **1975 年 BBN 计算对 $\eta$ 的约束宽**（§4.6）：$10^{-10}<\eta<10^{-7}$，主要因 D 观测值争议；1990s COBE/WMAP 之后 $\eta$ 精确到 $\sim10^{-9}$。
+- **1975 年 BBN 计算对 $\eta$ 的约束宽**（§4.6）：$10^{-10}<\eta<10^{-7}$，主要因 D 观测值争议；1990s COBE/WMAP 之后 $\eta$ 精确到 $\sim 10^{-9}$。
 - **§I 历史叙述带"胜利者视角"**（§1）：Goldschmidt 对 Li/Be/B 的高估被呈现为错误，未讨论地壳富集效应。
 - **"standard abundances remarkably stable"**（§1）——但作者仅列出 $\geq3\times$ 变化的元素，$\times3$–$\times25$ 在关键核素上是定性的。
 - **B$^2$FH 与 Cameron (1957) 之间具体分歧未交代**（§1）。
@@ -144,7 +144,7 @@ path: background/04_critique_index.md
 - **对简并电子/质子/中子的 Fermi-Dirac 统计推广尚未完成**（§3）：核心坍缩场景下会引入重要修正。
 - **深地实验室 LUNA 将 $^{12}{\rm C}$($\alpha,\gamma$)$^{16}{\rm O}$ 推到 Fowler 时代无法触及的 300 keV 以下**（§3）：部分验证/修正了 Fig. 6 的两种外推。
 - **§4 太阳中微子问题**：Fowler 1984 年写 "Something is wrong"——30 年后答案是 **MSW 效应 + 中微子振荡**，SNO 2001 确认。Fowler 已把振荡列为第 3 种可能，显示其直觉。
-- **§5 $^{12}{\rm C}$($\alpha,\gamma$)$^{16}{\rm O}$ 反应率的 1.6 倍不确定度**（§5）：直到今天（2024）仍存在！LUNA 已将系统不确定度缩小至 $\sim10$–$20\%$，但仍**是恒星演化模型关键瓶颈**。
+- **§5 $^{12}{\rm C}$($\alpha,\gamma$)$^{16}{\rm O}$ 反应率的 1.6 倍不确定度**（§5）：直到今天（2024）仍存在！LUNA 已将系统不确定度缩小至 $\sim 10$–$20\%$，但仍**是恒星演化模型关键瓶颈**。
 - **§6 $^{12}{\rm C}$+$^{12}{\rm C}$、$^{16}{\rm O}$+$^{16}{\rm O}$ 反应率 2010–2020 年代有新截面测量**（§6）：显著影响大质量恒星演化模型与 Ia 超新星点燃条件。
 - **对电子简并在较低质量恒星中的作用一笔带过**（§6）：白矮星-Ia 超新星通道的关键。
 - **§7 FFN (1980–1984) 弱相互作用速率表**至今仍被许多模拟使用，但 1990 年代后有更多改进。
@@ -154,7 +154,7 @@ path: background/04_critique_index.md
 
 ### 1.12 Wallerstein et al. (1997) — 核合成与化学演化
 
-- **$^{12}{\rm C}$($\alpha,\gamma$)$^{16}{\rm O}$ 与 $^{14}{\rm N}$(p,$\gamma$)$^{15}{\rm O}$ 反应率 $\sim2\times$ 不确定度**（§99.5）：影响几乎所有核合成定量预测。
+- **$^{12}{\rm C}$($\alpha,\gamma$)$^{16}{\rm O}$ 与 $^{14}{\rm N}$(p,$\gamma$)$^{15}{\rm O}$ 反应率 $\sim 2\times$ 不确定度**（§99.5）：影响几乎所有核合成定量预测。
 - **$r$ 过程起源位点仍无定论**：中微子风、NS-NS 合并、Magnetorotational SN 等多场景竞争。
 - **1997 年后 NS-NS 合并**（§8）成为最受关注的 $r$ 过程位点；GW170817 千新星观测直接证实。
 - **对流理论仍不完善**：对流超射、第一次挖掘的 Li 耗竭、第三次挖掘效率均有参数化不确定性。
@@ -263,7 +263,7 @@ path: background/04_critique_index.md
 - **参考文献集中在主流期刊**（§1.31）：未广泛涉及俄文/德文原始资料。
 - **MACHO 的 8-50% 上限与 EROS 的 $<8\%$ 上限不完全一致**（§5.96）。
 - **BBN 对氘丰度系统误差敏感**（§5.97）。
-- **原初黑洞暗物质在 2016 后重新受关注**（§5.98）：2020 Subaru HSC 微透镜巡天排除了 $\sim10^{-11}$–$10^{-7}\,M_\odot$ 窗口，但窄窗口仍存在。
+- **原初黑洞暗物质在 2016 后重新受关注**（§5.98）：2020 Subaru HSC 微透镜巡天排除了 $\sim 10^{-11}$–$10^{-7}\,M_\odot$ 窗口，但窄窗口仍存在。
 - **19 世纪动力学方法数值精度很差**（§2.105）：Oort 的暗物质上限因此非常宽松。
 - **早期工作预设"暗物质=某种暗的重子天体"**（§2.106）：与后来的"暗物质=新粒子"范式完全不同。
 - **未讨论 $\Lambda$CDM 当前挑战**（§99.50）：小尺度危机（missing satellites, cusp-core, too-big-to-fail）、$H_0$ tension、$\sigma_8$ tension。
@@ -372,17 +372,17 @@ path: background/04_critique_index.md
 
 | 争议主题 | 不同观点 | 相关论文 | 现状 |
 |---|---|---|---|
-| 扩散谱指数 $\delta$ | Kolmogorov $\delta=0.3$ vs Kraichnan $\delta=0.54$ vs B/C 推断 $\delta=0.3$–$0.6$ | Strong 2007 §2.3, Blasi 2013 §2, Amato 2014 §2 | **未决**：AMS-02 后仍有 $\sim2\times$ 不确定 |
+| 扩散谱指数 $\delta$ | Kolmogorov $\delta=0.3$ vs Kraichnan $\delta=0.54$ vs B/C 推断 $\delta=0.3$–$0.6$ | Strong 2007 §2.3, Blasi 2013 §2, Amato 2014 §2 | **未决**：AMS-02 后仍有 $\sim 2\times$ 不确定 |
 | 银河晕高度 $z_h$ | 放射性时钟 $z_h\approx 4$ kpc vs 模型 $\sim 4$–$6$ kpc vs 更高值 | Strong 2007 §3.6, Grenier 2015 §3 | **未决**：AMS-02 后 $z_h$ 上限被压低 |
 | 再加速重要性 | 必需（解释 B/C 与反质子）vs 不必要 | Strong 2007 §2.5, Grenier 2015 §3 | **未决**：AMS-02 反质子数据提供约束 |
 | SNR 能否产生膝点 CR | 单 SNR 无法达到 PeV；超泡可行但能量学不确定 | Blasi 2013 §5, Amato 2014 §5 | **倾向"超泡可行"**：LHAASO 2021 发现银河系 PeVatron |
 | SNR 范式证据 | "三支柱"都间接，不足以证明范式正确 | Blasi 2013 §8, Amato 2014 §1 | **未决**：CTA 尚未运行 |
-| Bell 模式与 PeVatron | 强流区 Bell 波放大弱（$F_0\lesssim1$），过去被系统性高估 | Amato 2014 §5 | **已解决**：Amato 明确揭露系统性高估 |
+| Bell 模式与 PeVatron | 强流区 Bell 波放大弱（$F_0\lesssim 1$），过去被系统性高估 | Amato 2014 §5 | **已解决**：Amato 明确揭露系统性高估 |
 | NLDSA 谱 vs 观测 SNR $\gamma$ 谱 | 凹形谱比 $E^{-2}$ 硬 vs 观测几乎全更陡 | Amato 2014 §4, Blasi 2013 §6 | **倾向"NLDSA 需要修正"**：软化机制依赖理论细节 |
 | UHECR 起源 | Bottom-up (AGN/SNR/GRB) vs Top-down (X-particles/宇宙弦/monopole) | Bhattacharjee & Sigl 2000 §3,5,6 | **已解决**：Auger+IceCube 基本排除 Top-down，指向近邻 AGN/射电星系 |
 | UHECR 膝点成分 | Hillas（质子） vs Fichtel-Linsley（Fe） vs Maryland（重核为主） | Gaisser 1990 §99.6 | **倾向"重核为主"**：Auger Xmax 数据支持 |
 | 正电子超出起源 | 暗物质湮灭 vs 脉冲星 vs 扩散变化 | Blasi 2013 §8, Grenier 2015 §2 | **未决**：AMS-02 2020s 数据倾向"脉冲星"，但暗物质仍未排除 |
-| $^{12}{\rm C}$($\alpha,\gamma$)$^{16}{\rm O}$ 反应率 | S(300 keV) $\sim 1.0$–$2.0$ keV·b | Fowler 1984 §5, Wallerstein 1997 §99.5 | **未决**：LUNA 将不确定度缩小至 $\sim10$–$20\%$，但仍关键 |
+| $^{12}{\rm C}$($\alpha,\gamma$)$^{16}{\rm O}$ 反应率 | S(300 keV) $\sim 1.0$–$2.0$ keV·b | Fowler 1984 §5, Wallerstein 1997 §99.5 | **未决**：LUNA 将不确定度缩小至 $\sim 10$–$20\%$，但仍关键 |
 | $r$ 过程位点 | 中微子风 SN vs NS-NS 合并 vs Magnetorotational SN | B$^2$FH 1957 §6, Fowler 1984 §9, Wallerstein 1997 §8 | **已解决**：GW170817 证实 NS-NS 合并是主要位点，但中微子风可能仍贡献第一峰 |
 | $s$ 过程 $^{13}{\rm C}$ 口袋形成 | Ne 富集 vs 部分混合 vs 旋转混合 | Wallerstein 1997 §7,99.5 | **未决**：现代时序 AGB 计算有进展 |
 | 太阳金属丰度 Fe | Anders & Grevesse 7.50 vs Grevesse & Sauval 1998 vs AGSS09 7.45 vs Lodders 2003 7.46 | Anders & Grevesse 1998, Grevesse & Sauval 1998, Lodders 2003, Asplund 2009 | **未决**：Anstee-O'Mara 碰撞展宽终结早期 GS98 争议，但 AGSS09 日震学"阿喀琉斯之踵"仍未解决 |
@@ -395,7 +395,7 @@ path: background/04_critique_index.md
 | 太阳中微子问题 | 太阳模型错误 vs 中微子振荡 vs 地球物质效应 | Fowler 1984 §4 | **已解决**：SNO 2001 + MSW 效应 |
 | 泄漏盒模型物理含义 | $\tau_{esc}$ 与气体密度是物理量 vs 仅拟合参数 | Strong 2007 §15.5 | **已解决**：明确比物理值大 10× |
 | 银河年龄 | BBN+核宇宙化学计时 17.9 Gyr (1984) vs 13.8 Gyr (Planck) | Fowler 1984 §10, B$^2$FH 1957 §7 | **已解决**：$13.8\pm0.02$ Gyr (Planck) |
-| BBN Li-7 问题 | Fowler 时代估计 vs 现今观测 $\sim3\times$ 更大 | Fowler 1984 §2 | **未决**："cosmic lithium problem" |
+| BBN Li-7 问题 | Fowler 时代估计 vs 现今观测 $\sim 3\times$ 更大 | Fowler 1984 §2 | **未决**："cosmic lithium problem" |
 
 ---
 
