@@ -48,6 +48,26 @@ pages: "260-270 (PDF p18-27)"
 [FACT] Kratz et al. (2007) 建模认为 I 与 Ba 同时被 r-process 产生 → weak/main 分界线低于 ¹²⁹I。
 [FACT] 也有学者（如 Sneden & Cowan 2006、Bisterzo et al. 2006b）论证可能无需多位点；轻元素偏离可来自核物理核数据不确定或非 n-capture 主要源。
 
+[FACT] **Table 2 数据要点**（原文§6，p.259-260）：6 颗 r-rich 星（HD 221170, HD 115444, CS 22892-052, HE 1523-0901, BD+17°3248, CS 31082-001）在 Z≥56 区域，[X/Eu] 差值 < 0.2 dex 与太阳系统 r-only 一致。例外：CS 31082-001 在 Th、U 处显著超丰（"actinide boost"，log ε(Th)≃0.32, log ε(U)≃−0.20）。
+[FACT] **Δ₁ 修正示例续**：
+  - La：Δ₁ = +0.04 → Nr,pred = 0.17（vs 0.16）
+  - Ce：Δ₁ = +0.16 → Nr,pred = 0.30（vs 0.20）
+  - Nd：Δ₁ = +0.21 → Nr,pred = 0.13（vs 0.09）
+  - Sm：Δ₁ = +0.05 → Nr,pred = 0.08（vs 0.07）
+  - Eu：Δ₁ = 0.00（定义归一）
+  - Gd：Δ₁ = +0.16 → Nr,pred = 0.11（vs 0.08）
+  - Dy：Δ₁ = +0.09 → Nr,pred = 0.24（vs 0.21）
+  - Er：Δ₁ = +0.14 → Nr,pred = 0.14（vs 0.11）
+  - Ho：Δ₁ = −0.02 → Nr,pred = 0.04（vs 0.04）
+  - Pt：Δ₁ = +0.07 → Nr,pred = 1.53（vs 1.30）
+  - Au：Δ₁ = −0.24 → Nr,pred = 0.10（vs 0.18）
+[FACT] **同位素观测案例**（原文§6，p.263-266）：
+  - **Ba 同位素**：r-rich 星 HD 115444, BD+17°3248, CS 22892-052, CS 31082-001, CS 31082-001 测得 f₁₃₅₊₁₃₇ ≃ 0.17-0.25（观测）vs 预测 f^r = 0.2；s-rich 星 CS 31062-050, HD 175305 测得 f₁₃₅₊₁₃₇ ≃ 0.35-0.45 vs 预测 f^s = 0.39。
+  - **Eu 同位素**：r-rich 星（CS 22892-052, BD+17°3248, HD 115444, CS 31082-001, HD 6268）平均 f₁₅₁ = 0.50 ± 0.08，与 SS 值 0.478 吻合；s-rich 星（CS 31062-050, HD 175305）f₁₅₁ ≃ 0.57（高于预测 f^s=0.50）。
+  - **Sm 同位素**：r-rich HD 115444 得 f₁₅₂₊₁₅₄ = 0.56±0.11（预测 f^r=0.64）；s-rich HD 175305 得 0.23±0.06（预测 f^s=0.21）。
+[FACT] **Fig. 11 关键结论**：除 Ba 及以下，r-rich 星与 SS r-only 高度一致（在原子数据误差内）；Ba 以下（Sr-Y-Zr）明显偏离 r-only（通常低于 r-only）。Ag–Ba 之间完全空白。
+[FACT] **LEPP 过程**（Light Element Primary Process）：Travaglio et al. (2004) 提出除 main + weak s + r 外，另需一种主源贡献 8% 太阳 Sr、18% 太阳 Y 和 Zr；Montes et al. (2007) 用 HD 122563（Honda et al. 2006）支持；Qian & Wasserburg (2007) 用 HD 122563 与 CS 22892-052 完善两分量模型（原文§6.2，p.267-268）。
+
 [INTERPRETATION] §6.2 是 Cowan 2021 的核心接续点：2008 年提出"多个 r 位点"作为可能解释轻 r-process 异常；2017 年 NS-NS 并合 GW170817（Bloom et al. 2017；Drout et al. 2017）首次观测到重 r-process 的直接产物，2021 年综述将此与"主 r-process"位点关联。
 
 上一章：[05_s_process_observations](05_s_process_observations.md)

@@ -29,7 +29,13 @@ pages: "241-243 (PDF p2)"
 
 ## 1.4 逻辑结构
 
-[INTERPRETATION] 本节的核心功能是"划定战场"：把元素周期表的后半段标成 n-capture 领域，指出这个领域虽小（仅 10⁻⁶%）却包含 54 种元素，是恒星核合成研究中信息密度最高的区域，也是银河系化学演化最敏感的探针。
+[FACT] 极低金属晕星（ultralow-metallicity）三例：HE 0107-5240（[Fe/H]≃−5.3, Christlieb et al. 2002）；HE 1327-2326（[Fe/H]≃−5.5, Frebel et al. 2005）；HE 0557-4840（[Fe/H]≃−4.8, Norris et al. 2007）。三者均极 C-rich（[C/Fe] > +1.5）；HE 1327-2326 中 Sr 超丰（[Sr/Fe]≃+1），Sr 来源可能为超新星或 r-process 而非 s-process。由于其它 n-capture 元素均未探测，本文不再深入讨论（原文§1，p.242）。
+[FACT] 综述坐标：VandenBerg, Bolte & Stetson (1996) 球团年龄；McWilliam (1997) 丰度与化学演化；Wallerstein & Knapp (1998) C-rich 星；Freeman & Bland-Hawthorn (2002) 恒星族；Bromm & Larson (2004) 早期银河与恒星形成；Gratton, Sneden & Carretta (2004) 球团丰度；Beers & Christlieb (2005) 银河晕巡天（原文§1，p.242）。
+[FACT] 观测窗口：n-capture 元素观测主要限于冷巨星（T_eff < 5000 K，log g < 3），高温主序星光谱线过弱导致目前观测集中于红巨星支与 AGB 下方区域。
+[FACT] 化学演化探针：n-capture 元素对恒星参数（T_eff、log g、[Fe/H]）高度敏感——一个 dex 的 T_eff 误差可带来 n-capture 元素 [X/Fe] 数 dex 的误差；因此精确恒星大气参数是后续所有定量分析的前提。
+[FACT] 本文 9 章路线图：§2 核合成机制 → §3 太阳系统丰度 → §4 r-process 观测 → §5 s-process 观测 → §6 r-process 丰度含义 → §7 早期银河核合成 → §8 s-process 丰度含义 → §9 结论（原文§1，p.242）。
+
+[INTERPRETATION] 本节的核心功能是"划定战场"：把元素周期表的后半段标成 n-capture 领域，指出这个领域虽小（仅 10⁻⁶%）却包含 54 种元素，是恒星核合成研究中信息密度最高的区域，也是银河系化学演化最敏感的探针。极低金属度（[Fe/H] < −5）三例说明，即使在银河形成最早期，个别星已经显示 C-rich + Sr 超丰的核合成印记。
 
 上一章：[00_overview](00_overview.md)
 下一章：[02_heavy_element_formation](02_heavy_element_formation.md)

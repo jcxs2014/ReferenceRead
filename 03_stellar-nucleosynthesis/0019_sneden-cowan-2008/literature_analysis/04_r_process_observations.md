@@ -42,6 +42,16 @@ pages: "250-257 (PDF p8-14)"
 [FACT] Pt (Z=78) 是三 r 峰丰元素，但地面可测的仅 3064 Å 一条，且只在 n-capture 极丰星中可用；其他 Pt I 线 < 3000 Å 需卫星紫外光谱仪（当时未具备）。
 [FACT] Sneden et al. (2003) 与 Ivans et al. (2006) 仅给出 CS 22892-052、HD 221170 的 Sn (Z=50) 上限。
 
+[FACT] Table 2 给出 5 颗代表性 r-rich 星的详细 log ε 数据（含误差），覆盖 Ga→Os/U。示例星（原文§4，p.257-259）：
+  - **HD 221170**：R-type，[Fe/H]∼−2.5（Cowan et al. 1999；Sneden et al. 2003）。
+  - **HD 115444**：[Fe/H]=−1.6, T_eff=4454 K, log g=1.50（Westin et al. 2000）。
+  - **CS 22892-052**：r-II 经典，[Fe/H]=−3.1, [Eu/Fe]=+1.6（Sneden et al. 1996, 2003）。
+  - **HE 1523-0901**：[Fe/H]≃−4.35, T_eff=4408 K, log g=1.03——银河最贫金属度 r-rich 星（Frebel et al. 2007），同时测得 U、Th、Ir、Os。
+  - **BD+17°3248**：[Fe/H]≃−2.3, T_eff=4575 K（Cowan et al. 2002）。
+[FACT] **Fig. 4c 高分辨窗口**：CS 22892-052 在 4057-4065 Å 密集展现 Ba II 4058.9、Ce II 4060.5、Eu II 4134（扩展窗口）、La II 4102、Y II 4065、Sm II 4085、Eu II 4129 等；对比 HD 122563 同窗口谱线极弱——同样的低分辨（R∼2500）外观掩盖了截然不同的 n-capture 富集。
+[FACT] **La II 4102 Å** 观测注意事项：此线位于蓝区但受 CN 分子带干扰显著；低金属度下 [C/Fe] 变化导致 NLTE+分子拟合误差可达 0.2-0.3 dex（原文§4，p.255）。
+[FACT] **r-II 分类阈值**：[Eu/Ba] < 0 且 [Eu/Fe] > +1.0 且 [Fe/H] < −2.5；r-I：[Eu/Fe] 介于 +0.3 与 +1.0 之间；r-I 与 r-II 在 [Eu/Ba] 上都小于 0，仅在 [Eu/Fe] 强度上不同。
+
 [INTERPRETATION] §4 的要点：高分辨光谱 + 精确原子数据 = r-process 观测的两大支柱。Fig. 6 展示的"修正后星间一致"是全文后续 §6 定量对比的基础。Ag–Ba 之间的观测空白是 §6.2 讨论"多 r 位点"时的核心限制。
 
 上一章：[03_solar_system_abundances](03_solar_system_abundances.md)

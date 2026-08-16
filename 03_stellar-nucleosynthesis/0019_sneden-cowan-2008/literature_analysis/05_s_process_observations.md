@@ -41,6 +41,11 @@ pages: "257-260 (PDF p15-18)"
 
 [FACT] 绝大多数 C- 与 s-rich 星是双星成员。高金属度"Ba II"星中光谱双星占主导（McClure, Fletcher & Nemec 1980）。s-process 元素通过质量传递从更重的 AGB 伴星（现已为致密星）获得。
 
+[FACT] **双星证据定量**：Lucatello et al. (2005) 探测到 C- 与 s-rich 星样本中 60% 存在视向速度变化，据此推断此类星几乎全部为双星；Preston & Sneden (2000) 发现 BMP 双星比例约 2/3，高于统计预期。典型轨道周期 10²-10³ 天，偏心率低于同周期正常场星双星；且几乎所有系统都是 single-lined，伴星不可见——表明其质量较小（已致密化）。
+[FACT] **演化图景**：C/s-rich 次星原为同双星中质量较小的原恒星；主星（原质量较大）在 AGB 阶段把经 s-process 富集的碳+重元素通过质量传递送给次星，主星现已坍缩为致密星（白矮星或更致密），次星因此表现为当前观测到的 C- 与 s-rich 巨星。
+[FACT] **低金属下的 s-process 时间起点**：主星要演化到 AGB 才能释放 s-process 产物，因此低金属度（[Fe/H] < −3）下 s-process 的显著贡献需要较长时间；但 [La/Eu] 在 [Fe/H]≃−3 即显现 s-process 迹象（见 §7.1，Fig. 15），暗示双星质量传递可加速 s-process 在早期银河系中的分布。
+[FACT] **Pb-rich 星**：HD 196944、CS 29497-030、CS 31062-050、HE 0323-3236 等——Pb 超丰反映 s-process 终止点（N=126 堆积后 ²⁰⁸Pb β 衰变链），是"strong" s-process 成分的观测代表。
+
 [INTERPRETATION] §5 为 §8 的 AGB 模型对比提供观测靶标。CEMP-s/r/(s+r) 的分类框架后来被 Cowan 2021 沿用并扩展。Pb-rich 星（HD 196944 等）是"强 s-process"成分的典型代表。
 
 上一章：[04_r_process_observations](04_r_process_observations.md)

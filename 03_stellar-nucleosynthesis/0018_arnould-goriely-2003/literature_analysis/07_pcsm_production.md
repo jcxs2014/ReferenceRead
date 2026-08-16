@@ -8,18 +8,26 @@ read_date: '2026-08-16'
 
 # §7 极质量大恒星中的 p 过程：对不稳定性超新星（PCSN）
 
-## 7.1 极质量大恒星演化速写（§7.1）
+## 7.1 极质量大恒星演化速写（§7.1，p.57–59）
 
-- **质量范围**：ZAMS 质量 ~130–250 M☉ 的恒星，在 O/Ne 燃烧后核温度达到 ~10⁹ K，电子-正电子对产生导致**绝热指数 γ < 4/3**，触发坍缩。
-- **对不稳定性**：坍缩到 ~1000 km 后反弹，部分或全部爆炸，无中子星/黑洞残骸。
-- **观测对应**：可能对应超亮超新星（SLSN）、超亮 IIn 型超新星（如 SN2006gy、SN2005gj 等）。
+- **ZAMS 质量阈值**：作者把 M_ZAMS ≳ 130 M☉ 的恒星归为\"very massive stars\"（VMS），其 O 核坍缩阶段的行为不同于 §4 的 CCSN。原文 p.57："stars with M_ZAMS in the approximate range 100 ≲ M_ZAMS ≲ 250 M☉ suffer a thermonuclear explosion triggered by a copious e⁺–e⁻ pair production"。
+- **对不稳定性触发机制**：核心温度达到 T ≈ 10⁹ K 时，光子自发产生 e⁺e⁻ 对，γ = 1 + … 骤降至 4/3 以下，触发绝热失稳（原文 p.58 Fig. 39）。
+- **质量分档**（p.57）：MZAMS < ~100 M☉ → 脉动不稳定性后 Fe 核坍缩；100 ≲ M_ZAMS ≲ 250 M☉ → PCSN；MZAMS ≳ 250 M☉ → He 核耗尽后直接坍缩成黑洞。作者强调这些界限不确定，且自转会"enlarge the PCSN mass domain"（Ref. [156]）。
+- **Pop III 关联**：作者明确排除 Z=0 恒星对 p 过程的贡献——"these Z = 0 stars are of no concern here, as they do not contain the necessary seed s- and r-nuclides for the p-process"（p.57）。因此 §7 全部讨论 Z = Z☉ 的金属量模型。
+- **观测对应**：作者提及 PCSN 曾被用来解释某些超新星（Ref. [154]，暗示 SN1987A 类或极亮事件）；2003 年时尚未被 SLSN 观测（如 SN2006gy、SN2005gj）证实，这些发现出现在本文之后。
 
-## 7.2 PCSN 中的 p 过程（§7.2）
+## 7.2 PCSN 中的 p 过程（§7.2，p.58–60）
 
-- **物理条件**：PCSN 爆炸能量 10⁵² erg 量级，远超 SNII 的 10⁵¹ erg，导致更大质量的 O/Ne 壳被加热到 p 过程温度。
-- **p 核素产量**：PCSN 可产生**大 1–2 个数量级**的 p 核素总量，丰度谱形与 SNII 不同（更偏重 A>100 端）。
-- **作者观点**：若早期宇宙存在大量 PCSN 前身星（Pop III 中质量极大者），PCSN 可能主导**金属丰度很低时**的 p 核素供应，是低金属度 p 核素超丰的潜在解释。
-- **局限性**：2003 年时 PCSN 的天体物理模型与观测证据仍属推测性，作者持"开放但谨慎"的态度。
+- **140 M☉ 模型**：详细计算见 Ref. [158]（Heger, Woosley & Howard 2003 类）—— 一颗 Z=Z☉、损失质量的 M_ZAMS = 140 M☉ 恒星。原文 p.58："By the end of core He burning, the model star resembles a Wolf-Rayet star of spectroscopic type WNL. It is made of an oxygen core of about 50 M☉ surrounded by an extended He envelope still containing some hydrogen enriched with nitrogen."
+- **引爆过程**：核心 O 燃烧期间 e⁺e⁻ 对产生触发内核对流坍缩，伴随约 4 M☉ 的 O 爆炸性燃烧，时标 ~50 秒，释放动能 4.4×10⁵¹ erg（原文 p.58）。
+- **种子来源**：与 §5 SNII 类似，PCSN 的 p 过程种子来自完整 s 过程计算（§4.2 中的 ²²Ne(α,n)²⁵Mg 源），轻核（<Fe）丰度直接取自恒星演化计算（p.58）。
+- **反应网络**：沿用 §5 SNII 计算的网络（~20,000 反应、~2,000 核素，Ref. [24]），p.58。
+- **[FACT] 核素产量 vs 黑洞质量 M_bh**：原文 Fig. 40（p.59）展示了不同残余黑洞质量下的归一化 p 核素产量。关键结果（p.59）：
+  - **轻 p 核素（<Ba）匮乏**："a marked deficiency of the p-nuclides lighter than Ba relative to the heavy ones"。
+  - **机制**："trapping in the black hole remnant of the layers that are hot enough for producing significant amounts of the light p-nuclei, while not contributing to the synthesis of the heavy ones"——高温层被黑洞吞噬，只留下能生成重 p 核素的中等温层。
+- **[FACT] 参数不确定度**：M_bh 对峰值温度高度敏感，而峰值温度又取决于消耗的 O 总量、O 核初始质量，进而依赖金属度、质量损失率、对流描述、对流超混合等输入（p.59）——甚至不能排除无残余的情况（M_bh = 0）。
+- **作者结论**（p.60）：PCSN 是**有价值的补充位点**（尤其在 Pop III 时代或大质量 IMF 中），但其实际宇宙学贡献在 2003 年仍属推测。"Even the absence of a remnant cannot be excluded"，且 M_bh 值的敏感性意味着轻 p 核素"depletion level is quite uncertain"。
+- **宇宙化学意义**：若早期宇宙（高红移、低金属度阶段）PCSN 前身星丰富，则它们可能在**低金属度 p 核素超丰**中扮演关键角色——这与 §1 提到的某些极贫金属恒星的 p 核素异常吻合。
 
 ---
 

@@ -48,6 +48,20 @@ pages: "243-246 (PDF p3-6)"
 [FACT] τₙ ∼ τ_β 处出现 branching points，依赖中子密度与温度（如 ⁸⁵Kr, ¹³⁰Te, ²⁰⁴Pb 等关键点）。
 [FACT] 需要"weak"成分（大质量星 He 核心燃烧，A ≤ 88）与"strong"成分（解释约 50% 太阳 ²⁰⁸Pb）（Clayton & Rassbach 1967；Käppeler et al. 1982）。
 
+[FACT] **1⁴¹Ce branching 实例**（Käppeler et al. 1990）：高 nₙ 下 ¹⁴¹Ce 沿 s-process path 成为分支点——部分经中子俘获生成 ¹⁴²Ce，部分经 β 衰变生成 ¹⁴¹Pr，从而使 s-only 核 ¹⁴²Nd 部分被旁路（原文§2，p.244）。
+[FACT] **s-process 动力学三分**（Clayton et al. 1961；Seeger, Fowler & Clayton 1965；综述 Clayton 1968, ch.7）：
+  - **main**：解释 Z = 38–79 之间绝大多数 s 核（Fe 种子 + He 燃烧 ¹³C(α,n)¹⁶O 中子源）。
+  - **weak**：大质量星 He 核心燃烧，仅覆盖 A ≤ 88（Ca–Sr-Y-Zr 区），对 ls 峰贡献显著。
+  - **strong**：Clayton & Rassbach (1967) 与 Käppeler et al. (1982) 引入——用于解释约 50% 太阳系统 ²⁰⁸Pb，位点至今未完全确定（原文§2，p.244）。
+[FACT] r-process 环境候选汇总（原文§2，p.245-246）：
+  - **中子星外中子过剩区**（B²FH 1957, Cameron 1957）——经典位点。
+  - **ν-wind**（Woosley et al. 1994；Takahashi, Witti & Janka 1994；Terasawa et al. 2002；Wanajo et al. 2002；Thompson 2003）——超新星后 ν 流带走粒子；熵不足难以合成最重核。
+  - **双星 NS/NS 与 BH/NS 并合**（Lattimer et al. 1977；Rosswog et al. 1999；Freiburghaus, Rosswog & Thielemann 1999；Argast et al. 2004）。
+  - **低质量星 prompt 超新星爆发**（Mathews & Cowan 1990；Mathews, Bazan & Cowan 1992；Wheeler, Cowan & Hillebrandt 1998；Ishimaru & Wanajo 1999；Wanajo et al. 2003；Ning, Qian & Meyer 2007）。
+  - **吸积诱导坍缩**（Cohen et al. 2003；Qian & Wasserburg 2003）。
+  - **超新星爆炸中产生的气泡/喷流**（LeBlanc & Wilson 1970；Cameron 2001, 2003）。
+[FACT] **关键结论**：以上模型无一能成功再现天然 r-process 总丰度分布（Arnould, Goriely & Takahashi 2008）；r-process 位点至今未被确认（原文§2，p.246）。
+
 [INTERPRETATION] §2 是全文的核物理基础层：所有后续观测对比、同位素分解、位点讨论，都要回到 τₙ/τ_β 判据和中子幻数结构。Cowan 2021 的进展仍在这一框架内推进。
 
 上一章：[01_introduction](01_introduction.md)

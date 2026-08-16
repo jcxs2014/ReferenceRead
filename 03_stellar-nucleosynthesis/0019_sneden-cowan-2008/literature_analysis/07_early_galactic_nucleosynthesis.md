@@ -55,6 +55,11 @@ pages: "268-275 (PDF p28-34)"
 
 [FACT] 系统误差：恒星初始 r-only 产额（r-process yield）的不确定性是核宇宙年龄学的最大系统误差来源。
 
+[FACT] **CS 31082-001 actinide boost**（原文§7.2，p.272-273）：Th、U 在 CS 31082-001 的超丰导致 Th/U 时钟给出 12.5–15.7 Gyr（Cayrel 2001；Hill 2002；Schatz 2002；Wanajo 2002），但 Th/Eu 时钟给出的年龄与 Th/U 及与其它晕星均不一致——暗示这颗星可能经历了独特的 fission recycling（Schatz et al. 2002）。Plez et al. (2004) 发现该星 Pb 含量相对 Th、U 偏高反而偏低，与放射性衰变链预测矛盾。
+[FACT] **HE 1523-0901**（Frebel et al. 2007）：同时测得 U II 3859.6 Å、Th II 4019/4087 Å、Ir II、Os II；四种时钟对 U/Th、U/Ir、Th/Eu、Th/Os 一致性较好 → 13.2±2.7 Gyr，是目前最可靠的核宇宙年龄学案例之一。
+[FACT] **Ge (Z=32)**（原文§7.1，p.269-270）：Cowan et al. (2005) 11 颗晕星样本显示 [Ge/H] 与 [Fe/H] 强相关（[Ge/H] = [Fe/H] − 0.79），但与 [Eu/H] 无关——暗示早期银河 Ge 产生与 Fe 产生机制耦合（Type II SNe 中的 ν-process 产 p 中子经 ν-process → ⁷⁰Ge）。这一相关性可能指示 ν-process 是早期银河轻 n-capture 元素的另一个非 s/r 源。
+[FACT] **矮星系中的 r/s-process**（Shetrone et al. 2003；Venn et al. 2004；Geisler et al. 2007）：大质量矮椭球星系（如 Sculptor、Fornax）与银河系晕星在低 [Fe/H] 处 n-capture 相对丰度模式一致，但高金属度处差异明显（[α/Fe] 不同）——说明 r-process 在早期宇宙以相似方式运作，但 s-process 受到具体星系恒星形成历史的影响。
+
 [INTERPRETATION] §7.1 确立了 Eu（r-process 代表）在低金属度的散布行为是"稀少 r-process 事件"的最直接证据，这是 §6.2 多位点讨论的动力学背景。§7.2 的 Th/U 时钟为银河系年龄提供了独立于球团/宇宙学的标尺。
 
 上一章：[06_r_process_abundance_implications](06_r_process_abundance_implications.md)

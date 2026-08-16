@@ -39,6 +39,12 @@ pages: "275-281 (PDF p35-41)"
 
 [FACT] 关键信息：许多 CEMP-s 星同时有显著 r-process 底 + s-process 加富。需要 AGB 模型 + r-process 底 + 稀释三参数配合。
 
+[FACT] **Fig. 20 关键对比**：1.5 M_⊙ AGB 模型（ST/9）预测的 Y、Zr 与太阳系统 s-only 相比显著偏低，说明单一初始质量 AGB 模型无法同时匹配 ls 和 hs 峰——需要加入 weak s（大质量星 He 燃烧，A ≤ 88）补充 ls 元素，与 Clayton & Rassbach (1967) 原始论点一致。
+[FACT] **[hs/ls] 参数诊断价值**：观测星 [hs/ls] 值对 AGB 初始质量、¹³C 口袋效率、金属度均敏感。低 [hs/ls] 暗示高质量 AGB（更多热脉冲导致 ls 也大量生成）或弱 ¹³C 口袋（中子曝光不足）；高 [hs/ls] 指向低质量 AGB + 强 ¹³C 口袋。观测中 CEMP-s 星的 [hs/ls] 分布宽（−0.5 到 +1.0），暗示多套参数组合并存（原文§8，p.275-278）。
+[FACT] **s-process 的\"强\"成分与 Pb**：strong 成分产生约 50% 太阳 ²⁰⁸Pb；Pb-rich 星（HD 196944 [Pb/Fe]≃+2；CS 29497-030 [Pb/Fe]≃+3.4）是强 s-process 成分的观测代表（Van Eck et al. 2001；Ivans et al. 2005；Roederer et al. 2008）。
+[FACT] **¹³C 中子源**：¹³C(α,n)¹⁶O 反应在 He 壳层热脉冲后产生的 ¹³C 口袋中触发，T ∼ 9×10⁸ K；此温度下 ²²Ne(α,n)²⁵Mg 尚未激活（后者需 T > 3×10⁸ K，为低质量 AGB 次要源）。
+[FACT] **s-process 时间起点与早期银河**：主星（M ≳ 3 M_⊙）AGB 寿命 ∼ 10⁸ yr，远短于 [Fe/H]≃−2.5 时代的宇宙年龄（∼1 Gyr），但低质量星（M ≃ 1.3–2 M_⊙）AGB 寿命可达 ∼10⁹ yr——因此 s-process 在不同质量 AGb 子中分批进入 ISM，解释了 §7.1 中 [La/Eu] 随 [Fe/H] 缓慢升高的趋势。
+
 [CRITIQUE] §8.2 的三参数拟合（M_AGB、¹³C 口袋、[r/Fe]_ini 底）虽能拟合个别星，但参数空间宽泛，"envisaged models are quite possibly far from the reality"——作者明确承认理论模型远未逼近真实。
 
 [INTERPRETATION] §8 为 Käppeler 2011 的 AGB 内 s-process 综述铺路：Cowan 2008 提出参数标定框架，Käppeler 2011 进一步系统化并引入更多恒星演化约束。
