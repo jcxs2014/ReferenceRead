@@ -1476,6 +1476,400 @@ grams to improve the ability of hadronic models to interpret cosmic ray observab
        technologies are achieved. With a coordinated effort, the next generation observatories can
        explore more of the  5 million trans-GZK events the Earth's atmosphere receives per year.
 
+
+\begin{appendix}
+\section{Formulas}
+\label{app:formulas}
+
+Below we collect, in a self-contained form, the principal quantitative
+relations that recur throughout this review. We present them in the
+standard notation used in the ultrahigh-energy cosmic-ray (UHECR)
+literature and give a brief physical interpretation of each.
+
+\subsection*{A.1 Spectral quantities}
+
+The differential cosmic-ray flux $J(E)$ is customarily parametrised as a
+power law:
+\begin{equation}
+  \label{eq:spec}
+  J(E) \;=\; \frac{{\rm d}N}{{\rm d}E\,{\rm d}A\,{\rm d}t\,{\rm d}\Omega}
+  \;=\; J_0\!\left(\frac{E}{E_0}\right)^{-\gamma},
+\end{equation}
+where $J_0$ is the normalisation at a reference energy $E_0$ and
+$\gamma\simeq 2.7$ is the index below the ankle. The integral flux
+above a threshold $E_{\rm th}$ then reads
+\begin{equation}
+  \label{eq:intspec}
+  J(>E_{\rm th}) \;=\; \int_{E_{\rm th}}^{\infty} J(E)\,{\rm d}E
+  \;=\; \frac{J_0\,E_0^{\gamma}}{\gamma-1}\left(\frac{E}{E_0}\right)^{-(\gamma-1)}.
+\end{equation}
+The energy content per unit volume (for a cosmological distribution of
+sources with comoving density $n_{\rm s}$ and luminosity $L$) is
+\begin{equation}
+  \label{eq:uc}
+  u_{\rm CR} \;=\; \int_{E_{\min}}^{E_{\max}} E\,\frac{{\rm d}n}{{\rm d}E}\,{\rm d}E
+  \;=\; \frac{L\,n_{\rm s}}{4\pi\,c^2}\,t_{\rm age}.
+\end{equation}
+The GZK-suppressed flux above the cutoff follows approximately
+\begin{equation}
+  \label{eq:GZK}
+  J_{\rm GZK}(E) \;\simeq\; J_0\!\left(\frac{E}{E_{\rm GZK}}\right)^{-\gamma}
+  \exp\!\left(-\frac{E}{E_{\rm GZK}}\right),
+\end{equation}
+with $E_{\rm GZK}\simeq 5\times10^{19}$\,eV. The corresponding
+differential energy loss rate along the propagation path is
+\begin{equation}
+  \label{eq:dEdx}
+  -\frac{{\rm d}E}{{\rm d}x} \;=\; \sum_i \frac{E}{\lambda_i},
+\end{equation}
+where $\lambda_i$ denotes the mean free path for the $i$th energy-loss
+channel (photo-pion production, photodisintegration, pair production).
+The cosmic-ray horizon is then
+\begin{equation}
+  \label{eq:horizon}
+  d_{\rm h}(E) \;\simeq\; \sum_i \lambda_i\!\left(E\right)\;\approx\;
+  \left[-\frac{{\rm d}\ln E}{{\rm d}x}\right]^{-1}.
+\end{equation}
+
+\subsection*{A.2 Hillas condition and acceleration}
+
+The rigidity of a cosmic ray is
+\begin{equation}
+  \label{eq:rigidity}
+  R \;=\; \frac{E}{Ze},
+\end{equation}
+and the Larmor radius in a magnetic field $B$ reads
+\begin{equation}
+  \label{eq:larmor}
+  r_{\rm L} \;=\; \frac{pc}{ZeB} \;\simeq\; 1.1\,{\rm kpc}
+  \left(\frac{E}{100\,{\rm EeV}}\right)\!
+  \left(\frac{Z}{1}\right)^{-1}\!
+  \left(\frac{B}{1\,\mu{\rm G}}\right)^{-1}.
+\end{equation}
+The Hillas confinement criterion, $r_{\rm L}\le R$, translates into the
+maximum acceleration energy
+\begin{equation}
+  \label{eq:hillas}
+  E_{\max} \;=\; ZeBR \;\simeq\; 5.7\times10^{18}\,{\rm eV}\;
+  Z\,\beta\,\delta_{\rm sh}\,\left(\frac{B}{\mu{\rm G}}\right)\!
+  \left(\frac{R}{\rm kpc}\right),
+\end{equation}
+where $\beta$ is the Alfv\'en speed in units of $c$ and $\delta_{\rm sh}$
+the shock compression factor. The maximum energy is ultimately set by
+the competition between the acceleration timescale $t_{\rm acc}$ and the
+loss timescales $t_{\rm syn}$, $t_{\rm rad}$, $t_{\rm esc}$:
+\begin{equation}
+  \label{eq:tmax}
+  \frac{1}{t_{\rm max}} \;=\; \frac{1}{t_{\rm acc}} \;+\;
+  \frac{1}{t_{\rm syn}} \;+\; \frac{1}{t_{\rm rad}} \;+\;
+  \frac{1}{t_{\rm esc}}.
+\end{equation}
+For diffusive shock acceleration the characteristic acceleration time is
+\begin{equation}
+  \label{eq:tacc}
+  t_{\rm acc} \;=\; \frac{\eta}{c}\,\frac{r_{\rm L}}{\beta_{\rm sh}}
+  \;\simeq\; 10^{6}\,{\rm s}\;\eta\;
+  \left(\frac{E}{10^{20}\,{\rm eV}}\right)\!
+  \left(\frac{B}{1\,{\rm G}}\right)^{-1},
+\end{equation}
+with $\eta\gtrsim1$ the Bohm-diffusion parameter. Synchrotron cooling
+proceeds on the timescale
+\begin{equation}
+  \label{eq:synch}
+  t_{\rm syn} \;=\; \frac{6\pi m_e c}{\sigma_{\rm T}B^2}\,
+  \frac{m_p}{m_e}\,\frac{1}{Z^2}
+  \;\simeq\; 2.4\,{\rm s}\;\left(\frac{E}{10^{20}\,{\rm eV}}\right)^{-1}\!
+  \left(\frac{B}{1\,{\rm G}}\right)^{-1}.
+\end{equation}
+The magnetic dipole radiation loss for a magnetar is
+\begin{equation}
+  \label{eq:magdip}
+  \dot{E}_{\rm dip} \;=\; -\frac{B_{\rm p}^2\,R^6\,\Omega^4}{6c^3}
+  \sin^2\chi,
+\end{equation}
+and the characteristic spin-down luminosity of a neutron star of
+moment of inertia $I$ reads
+\begin{equation}
+  \label{eq:sdot}
+  L_{\rm sd} \;=\; -I\,\Omega\,\dot{\Omega}
+  \;=\; \frac{B_{\rm p}^2\,R^6\,\Omega^4}{6c^3}\sin^2\chi.
+\end{equation}
+
+\subsection*{A.3 Propagation and interactions}
+
+The differential transport (Boltzmann) equation for the propagating
+cosmic-ray density $f(r,E,t)$ in an isotropic photon background is
+\begin{equation}
+  \label{eq:boltz}
+  \frac{\partial f}{\partial t}
+  \;+\; v\,\boldsymbol{\Omega}\!\cdot\!\nabla_{\!r} f
+  \;=\; Q(E,\boldsymbol{r},t)
+  \;+\; \left[\frac{\partial f}{\partial t}\right]_{\!{\rm loss}}
+  \;+\; \left[\frac{\partial f}{\partial t}\right]_{\!{\rm bath}},
+\end{equation}
+where $Q$ is the source term and the last two terms on the right-hand
+side account for continuous energy losses and the secondary particle
+bath, respectively. The optical depth for photon-matter interaction
+over a comoving distance $D_{\rm C}$ is
+\begin{equation}
+  \label{eq:tau}
+  \tau(E,z) \;=\; \int_0^{D_{\rm C}(z)}
+  n_\gamma(\varepsilon,z')\,\sigma_{\gamma p}(\varepsilon,E)\,
+  \frac{1-\cos\theta_{\rm cm}}{2}\,{\rm d}l',
+\end{equation}
+and the interaction mean free path follows
+\begin{equation}
+  \label{eq:mfp}
+  \lambda_{\rm int}(E) \;=\; \left[\int_0^\infty\!{\rm d}\varepsilon\;
+  n_\gamma(\varepsilon)\,\sigma_{\gamma p}(\varepsilon,E)\,
+  \frac{1-\cos\theta_{\rm cm}}{2}\right]^{-1}.
+\end{equation}
+The dominant energy-loss channels for protons are photo-pion
+production, $p+\gamma_{\rm CMB}\to\Delta^+\to p+\pi^0,\,n+\pi^+$,
+whose cross section peaks near $\Delta$-resonance:
+\begin{equation}
+  \label{eq:delta}
+  \sigma_{\gamma p}(s) \;\simeq\; \sigma_\Delta\,
+  \frac{\Gamma_\Delta^2/4}{(s-m_\Delta^2)^2+\Gamma_\Delta^2 m_\Delta^2/4},
+\end{equation}
+with $s=m_p^2+2E\varepsilon(1-\cos\theta_{\rm cm})$ and
+$\sqrt{s_\Delta}\simeq 1232$\,MeV. Bethe--Heitler pair production,
+$p+\gamma\to p+e^+e^-$, proceeds with cross section
+\begin{equation}
+  \label{eq:bh}
+  \sigma_{\rm BH}(E) \;\simeq\; \frac{192\pi\,\alpha^2 r_e^2}{27}\,
+  \ln\!\left(\frac{2E\varepsilon}{m_e c^2}\right),
+\end{equation}
+and the photo-muon pair process $p+\gamma\to p+\mu^+\mu^-$ on
+\begin{equation}
+  \label{eq:bhmu}
+  \sigma_{\rm BH}^{(\mu)} \;\simeq\; \sigma_{\rm BH}^{(e)}\,
+  \left(\frac{m_e}{m_\mu}\right)^2\,
+  \ln\!\left(\frac{E}{m_\mu c^2}\right).
+\end{equation}
+For nuclei the photo-disintegration rate is
+\begin{equation}
+  \label{eq:pd}
+  \Lambda_{\rm pd}(E,A) \;=\; \int {\rm d}\varepsilon\;
+  n_\gamma(\varepsilon)\,c\,\sigma_{A\to A'}^{(\rm pd)}(\varepsilon),
+\end{equation}
+and the attenuation length for nuclei on the CMB is roughly
+\begin{equation}
+  \label{eq:nuclid}
+  \lambda_{\rm nuc}(E,A) \;\simeq\; \frac{c}{\Lambda_{\rm pd}+\Lambda_{\rm pp}},
+\end{equation}
+with $\Lambda_{\rm pp}$ the photo-pion contribution to the nuclear
+energy loss.
+
+\subsection*{A.4 Deflections and anisotropies}
+
+The RMS deflection angle for a cosmic ray crossing a magnetic field of
+strength $B$, coherence length $\ell_{\rm c}$ and total path length
+$L\gg\ell_{\rm c}$, in the diffusion regime, is
+\begin{equation}
+  \label{eq:defl}
+  \theta_{\rm RMS}^2 \;=\; \frac{L\,\ell_{\rm c}}{r_{\rm L}^2}\,
+  \left(\frac{1}{Ze}\right)^2.
+\end{equation}
+The corresponding RMS angular offset at Earth is
+\begin{equation}
+  \label{eq:angle}
+  \theta \;\simeq\; \left(\frac{B\,L}{E/Ze}\right)^{1/2}
+  \;\simeq\; 0.4^\circ\;
+  Z\left(\frac{E}{10^{20}\,{\rm eV}}\right)^{-1}\!
+  \left(\frac{B}{3\,{\rm nG}}\right)\!
+  \left(\frac{L}{30\,{\rm Mpc}}\right)^{1/2}.
+\end{equation}
+For a uniform distribution of sources the arrival-direction
+anisotropy multipole is
+\begin{equation}
+  \label{eq:dip}
+  \langle\cos\alpha\rangle \;=\; \frac{4}{15}\,
+  \left(\frac{\sigma}{E}\right),
+\end{equation}
+with $\sigma$ a source-cluster scale. The two-point autocorrelation
+function of the arrival directions, normalised to a uniform sky, is
+\begin{equation}
+  \label{eq:w}
+  w(\theta) \;=\; \frac{\langle N_1 N_2\rangle}
+  {\langle N_1\rangle\langle N_2\rangle}\;-\;1,
+\end{equation}
+while the angular correlation on a scale $\psi$ for a Poissonian
+sample reads
+\begin{equation}
+  \label{eq:pwr}
+  C_\ell \;=\; \frac{1}{2\ell+1}\sum_{m=-\ell}^{\ell}\,
+  |a_{\ell m}|^2,
+\end{equation}
+with $a_{\ell m}$ the spherical-harmonic coefficients of the
+arrival-direction map.
+
+\subsection*{A.5 Neutrinos and gamma rays}
+
+The cosmogenic (GZK) neutrino flux per flavour follows
+\begin{equation}
+  \label{eq:neu}
+  \frac{{\rm d}\Phi_\nu}{{\rm d}E_\nu}
+  \;=\; \int_0^{z_{\max}}{\rm d}z\;
+  \frac{{\rm d}n_{\rm s}}{{\rm d}z}\,
+  \frac{Q_{\nu}(E_\nu, z)}{4\pi\,H(z)\,\sqrt{\Omega_\Lambda+
+  \Omega_m(1+z)^3}},
+\end{equation}
+with a source-evolution term $Q_\nu$ set by the pion-decay chain
+$\pi^+\to\mu^+\nu_\mu\to e^+\nu_e\bar\nu_\mu$. The corresponding
+cosmogenic photon flux is
+\begin{equation}
+  \label{eq:gph}
+  \frac{{\rm d}\Phi_\gamma}{{\rm d}E_\gamma}
+  \;=\; \int{\rm d}E_p\,\frac{{\rm d}^2N_\gamma}{{\rm d}E_\gamma\,{\rm d}x}\,
+  J_p(E_p),
+\end{equation}
+and the neutral pion decay $0\to\gamma\gamma$ injects two photons of
+energy $E_\gamma\simeq E_\pi/2$. The pair-production opacity of the
+Extragalactic Background Light (EBL) for TeV--PeV photons is
+\begin{equation}
+  \label{eq:ebl}
+  \tau_\gamma(E_\gamma,z) \;=\; \int_0^z{\rm d}z'\,
+  \frac{{\rm d}t}{{\rm d}z'}\int_{-1}^{1}{\rm d}(\cos\theta)\,
+  \frac{1-\beta\cos\theta}{2}\,n_{\rm EBL}(\varepsilon,z')\,
+  \sigma_{\gamma\gamma}(\beta,\theta),
+\end{equation}
+where the $\gamma\gamma\to e^+e^-$ cross section is
+\begin{equation}
+  \label{eq:gammag}
+  \sigma_{\gamma\gamma}(s) \;=\; \frac{\pi\alpha^2}{2m_e^2}\,
+  \left(2+2\beta^2-\beta^4\right)\ln\!\frac{1+\beta}{1-\beta}
+  \;-\;\left(1+\beta^2\right)\!\left(1-\beta^2\right)^{1/2},
+\end{equation}
+with $\beta=\sqrt{1-4m_e^2/s}$ and $\sqrt{s}=2E_\gamma\varepsilon(1-\cos\theta)$.
+
+\subsection*{A.6 Magnetic-field constraints}
+
+The minimum-energy magnetic-field estimate for a radio source of
+emitting volume $V$ and synchrotron power $P_{\rm syn}$ is
+\begin{equation}
+  \label{eq:bmin}
+  B_{\min} \;\simeq\;
+  \left(\frac{85.5\,P_{\sin}}{V}\right)^{2/7},
+\end{equation}
+and the Faraday rotation measure
+\begin{equation}
+  \label{eq:rm}
+  {\rm RM} \;=\; 0.812\,\int_0^L n_e(l)\,B_\parallel(l)\,{\rm d}l
+  \quad [{\rm rad}\,{\rm m}^{-2}],
+\end{equation}
+provides a direct probe of the line-of-sight magnetic field weighted
+by the free-electron density. The coherence length $\ell_{\rm c}$ of
+the Extragalactic Magnetic Field can be constrained through UHECR
+deflections and the angular broadening of blazar emission:
+\begin{equation}
+  \label{eq:lambdac}
+  \lambda_{\rm synch} \;=\; \frac{4\pi\,c}{3\omega_{\rm p}^2}\,
+  \nu^2\,\frac{\ell_{\rm c}}{B_\ell^2},
+\end{equation}
+where $\omega_{\rm p}$ is the plasma frequency. Combining these probes
+yields the typical bound
+\begin{equation}
+  \label{eq:begmf}
+  B_{\rm EGMF} \;\lesssim\; 10^{-16}\,{\rm G}\;
+  \left(\frac{\ell_{\rm c}}{1\,{\rm kpc}}\right)^{1/2},
+\end{equation}
+consistent with the current limits from TeV blazar variability and
+UHECR arrival-direction data.
+
+\subsection*{A.7 Cosmological propagation factors}
+
+The comoving distance to redshift $z$ in a $\Lambda$CDM universe is
+\begin{equation}
+  \label{eq:cd}
+  D_{\rm C}(z) \;=\; c\int_0^z\frac{{\rm d}z'}{H(z')},
+\end{equation}
+with the Hubble parameter
+\begin{equation}
+  \label{eq:hubble}
+  H(z) \;=\; H_0\sqrt{\Omega_\Lambda+\Omega_m(1+z)^3+\Omega_r(1+z)^4}.
+\end{equation}
+The corresponding angular-diameter and luminosity distances are
+\begin{equation}
+  \label{eq:dal}
+  D_A \;=\; \frac{D_{\rm C}(z)}{1+z},
+\end{equation}
+\begin{equation}
+  \label{eq:dL}
+  D_L \;=\; (1+z)\,D_{\rm C}(z).
+\end{equation}
+The isotropic bolometric flux from a source at luminosity distance
+$D_L$ and luminosity $L$ is
+\begin{equation}
+  \label{eq:flx}
+  F \;=\; \frac{L}{4\pi D_L^2}.
+\end{equation}
+
+\subsection*{A.8 Source energetics and duty cycles}
+
+The isotropic-equivalent luminosity inferred from an observed flux $F$
+is
+\begin{equation}
+  \label{eq:liso}
+  L_{\rm iso} \;=\; 4\pi D_L^2 F,
+\end{equation}
+while the beaming-corrected luminosity for a cone of opening half-angle
+$\theta_{\rm j}$ is
+\begin{equation}
+  \label{eq:lbea}
+  L_{\rm true} \;=\; (1-\cos\theta_{\rm j})\,L_{\rm iso}
+  \;\simeq\; \frac{\theta_{\rm j}^2}{2}\,L_{\rm iso}.
+\end{equation}
+The duty cycle required to sustain a cosmic-ray energy density
+$u_{\rm CR}$ from a source population of comoving density $n_{\rm s}$
+and energy output per event $E_{\rm CR}$ is
+\begin{equation}
+  \label{eq:duty}
+  \eta_{\rm duty} \;=\; \frac{u_{\rm CR}}{n_{\rm s}\,E_{\rm CR}\,t_{\rm age}}.
+\end{equation}
+For a population of sources with luminosity function $\Phi(L,z)$, the
+all-sky surface density above a flux threshold is
+\begin{equation}
+  \label{eq:lf}
+  N(>F) \;=\; \int_0^{z_{\rm max}}{\rm d}z\;
+  \frac{{\rm d}V_{\rm C}}{{\rm d}z}\,\Phi\!\left(
+  \frac{4\pi D_L^2 F}{(1+z)^2}\right),
+\end{equation}
+and the cosmic energy density in a given channel scales as
+\begin{equation}
+  \label{eq:u_int}
+  u_{\rm ch} \;=\; \int_{t_1}^{t_2}\rho(z,t)\,{\rm d}t,
+\end{equation}
+which closes the link between the observed fluxes and the
+acceleration, propagation, and loss processes reviewed above.
+
+\begin{equation}
+  \label{eq:synchL}
+  L_{\rm syn} \;=\; \frac{4}{3}\,\sigma_{\rm T}c\,\gamma^2\,\beta^2\,u_B,
+\end{equation}
+\begin{equation}
+  \label{eq:brems}
+  \sigma_{\rm brems} \;\simeq\; \frac{16}{3}\,\alpha\,r_e^2\,
+  Z^2\,\ln\!\left(\frac{2\gamma m_e c^2}{I}\right),
+\end{equation}
+\begin{equation}
+  \label{eq:thom}
+  \sigma_{\rm T} \;=\; \frac{8\pi}{3}\left(\frac{\alpha\hbar}{m_e c}\right)^2
+  \;\approx\; 6.65\times10^{-25}\,{\rm cm}^2,
+\end{equation}
+\begin{equation}
+  \label{eq:chib}
+  I_{\chi} \;=\; 4\,\frac{m_p c^2}{\langle\tau_{\rm pp}\rangle}\;
+  \left(\frac{\Omega_{\rm CR}}{\Omega_{\rm DM}}\right)^2,
+\end{equation}
+\begin{equation}
+  \label{eq:critl}
+  L_{\rm crit}(z) \;=\; 4\pi\,c\,D_L^2(z)\,\frac{E}{t_{\rm age}(z)}.
+\end{equation}
+
+\end{appendix}
+
+
       8 Acknowledgements
 
        We thank Denis Allard, Venya Berezinsky, Peter Biermann, Klaus Dolag, Ralph Engel,
