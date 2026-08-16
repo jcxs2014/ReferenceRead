@@ -36,6 +36,22 @@ encoding_note: "fulltext.txt 为 ISO-8859-1；已转码为 /tmp/drury_1983_utf8.
 
 # L. O'C. Drury (1983) — DSA 综述精读
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_introduction` — 引言
+- `02_basic_theory` — 关键测量/数据
+- `03_shock_kinematics` — 机制分析/理论
+- `04_diffusive_acceleration` — 理论对比
+- `05_linear_modifications` — 背景与系统误差
+- `06_oblique_shocks` — 统计显著性
+- `07_time_dependent` — 未来展望/对比
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 1. 元数据核对（metadata verification）
 
 | 来源 | 值 |

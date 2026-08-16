@@ -84,6 +84,25 @@ path: 03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_ov
 | XVII | CONCLUSIONS | 全体 | 79–81 页 (P79–81) |
 | — | ACKNOWLEDGMENTS / REFERENCES | — | 82–90 页 (P82–90) |
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_preface_introduction` — 引言
+- `02_stellar_evolution` — 关键测量/数据
+- `03_hydrogen_burning` — 机制分析/理论
+- `04_x_process_light_elements` — 理论对比
+- `05_helium_burning` — 背景与系统误差
+- `06_advanced_burning` — 统计显著性
+- `07_s_process` — 未来展望/对比
+- `08_r_process` — 结论
+- `09_p_and_e_process` — 分析章节
+- `10_carbon_stars_and_conclusions` — 分析章节
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 1.1 论文中 Figure 与 Table 总清单
 
 **Figures (30 张)**：Fig. 1（H-R 图）, Fig. 2（12C 能级图）, Fig. 3（16O 能级图）, Fig. 4–26。

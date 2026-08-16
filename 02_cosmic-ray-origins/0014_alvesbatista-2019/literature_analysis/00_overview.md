@@ -24,6 +24,19 @@ path: 02_cosmic-ray-origins/0014_alvesbatista-2019/literature_analysis/00_overvi
 
 # 0. 文献基本信息
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_introduction` — 引言
+- `02_status_ultrahigh_energy` — 关键测量/数据
+- `03_open_questions` — 机制分析/理论
+- `04_conclusions_and_perspectives` — 理论对比
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 基本信息
 
 | 字段 | 内容 |

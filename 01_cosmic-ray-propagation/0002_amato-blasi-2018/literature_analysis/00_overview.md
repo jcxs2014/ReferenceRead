@@ -28,6 +28,23 @@ path: 01_cosmic-ray-propagation/0002_amato-blasi-2018/literature_analysis/00_ove
 
 # 0. 文献基本信息
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_introduction` — 引言
+- `02_standard_predictions` — 关键测量/数据
+- `03_self_excited_alfven_waves` — 机制分析/理论
+- `04_self_generated_transport` — 理论对比
+- `05_near_source_confinement` — 背景与系统误差
+- `06_cr_induced_galactic_winds` — 统计显著性
+- `07_secondary_particles_anomalies` — 未来展望/对比
+- `08_summary` — 结论
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 基本信息
 
 | 字段 | 内容 |

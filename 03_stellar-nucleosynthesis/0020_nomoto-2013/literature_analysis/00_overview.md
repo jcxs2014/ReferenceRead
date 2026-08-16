@@ -69,6 +69,25 @@ sections:
 
 > **元数据核查**：任务上下文的 frontmatter (category=恒星核合成, year=2013, pages=457-509) 与 PDF 第 1 页一致（Nomoto, Kobayashi, Tominaga 2013, Annu. Rev. A&A 51:457）；目录名 `0020_nomoto-2013` 亦一致——**无勘误**。
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_introduction` — 引言
+- `02_agb_stars` — 关键测量/数据
+- `03_ccsn_nucleosynthesis` — 机制分析/理论
+- `04_massive_stars` — 理论对比
+- `05_very_massive` — 背景与系统误差
+- `06_type_ia` — 统计显著性
+- `07_chemical_evolution` — 未来展望/对比
+- `08_emp_stars` — 结论
+- `09_galactic_archaeology` — 分析章节
+- `10_future_outlook` — 分析章节
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## Frontmatter
 
 - [FACT] **Review in Advance** 首版发布：2013 年 7 月 3 日

@@ -26,3 +26,18 @@ sections:
 read_date: '2026-08-16'
 lastread: '2026-08-16'
 ---
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_1_introduction` — 引言
+- `02_2_observations` — 关键测量/数据
+- `03_3_propagation` — 机制分析/理论
+- `04_4_transition` — 理论对比
+- `05_5_acceleration` — 背景与系统误差
+- `06_6_candidates` — 统计显著性
+- `07_7_8_search_acks` — 未来展望/对比
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+

@@ -65,6 +65,25 @@ sections:
 > 4. 出版标识：`Proceedings IAU Symposium No. 298, 2013                     © International Astronomical Union 2014`——2013 为会议年，2014 为出版年，故 year=2014 正确。
 > 5. Copyright 页脚 `https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press`——DOI 与任务上下文一致。
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_introduction` — 引言
+- `02_progenitor_energy` — 关键测量/数据
+- `03_8_10msun_ecsn` — 机制分析/理论
+- `04_10_13msun_faint` — 理论对比
+- `05_13_25msun_normal` — 背景与系统误差
+- `06_25_140msun_hn_faint` — 统计显著性
+- `07_very_massive_stars` — 未来展望/对比
+- `08_emp_profiling` — 结论
+- `09_yield_tables` — 分析章节
+- `10_conclusion` — 分析章节
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## Frontmatter
 
 - [FACT] 本文为 IAU Symp. 298 (Setting the scene for Gaia and LAMOST) 的口头综述报告，13 页篇幅

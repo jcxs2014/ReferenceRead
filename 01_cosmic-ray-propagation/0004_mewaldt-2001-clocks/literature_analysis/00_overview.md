@@ -24,6 +24,20 @@ path: 01_cosmic-ray-propagation/0004_mewaldt-2001-clocks/literature_analysis/00_
 
 # 0. 文献基本信息
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_introduction` — 引言
+- `02_acceleration_delay_clocks` — 关键测量/数据
+- `03_electron_capture_transport` — 机制分析/理论
+- `04_beta_decay_clocks` — 理论对比
+- `05_summary` — 背景与系统误差
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 基本信息
 
 | 字段 | 内容 |

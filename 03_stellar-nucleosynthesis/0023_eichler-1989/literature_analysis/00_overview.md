@@ -21,6 +21,22 @@ note: "Nature letter (3 pages)，PDF 为扫描版，pytesseract OCR 提取全文
 
 > 状态：**精读完成**（2026-08-16）
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_eichler-1989` — 概述/方法
+- `02_formation_channels_and_rates` — 关键测量/数据
+- `03_mass_transfer_and_dynamical_evolution` — 机制分析/理论
+- `04_decompression_and_r_process_synthesis` — 理论对比
+- `05_neutrino_bursts_and_energy_budget` — 背景与系统误差
+- `06_gamma_bursts_and_gravitational_waves` — 统计显著性
+- `07_observational_predictions_and_verification` — 未来展望/对比
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 论文定位
 
 **Eichler, Livio, Piran & Schramm (1989)**——中子星并合（NS-NS merger）是宇宙 r 过程核合成的天体物理位点。三位作者来自 Weizmann / NASA Goddard / Hebrew U / Washington U，Nature 3 页简报（1989年7月13日）。

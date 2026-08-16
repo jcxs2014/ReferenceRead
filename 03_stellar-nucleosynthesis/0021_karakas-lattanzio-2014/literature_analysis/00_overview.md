@@ -39,6 +39,26 @@ encoding_note: "子 agent 原始输出为 Markdown 表格格式 frontmatter；�
 
 # 00 Overview — Karakas & Lattanzio 2014
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_introduction` — 引言
+- `02_preagb` — 关键测量/数据
+- `03_agb_tp_hbb` — 机制分析/理论
+- `04_tdu` — 理论对比
+- `05_nucleosynthesis_tp` — 背景与系统误差
+- `06_nucleosynthesis_hbb_sprocess` — 统计显著性
+- `07_pies_superagb_fates` — 未来展望/对比
+- `08_uncertainties` — 结论
+- `09_yield_tables` — 分析章节
+- `10_galactic_chemical_evolution` — 分析章节
+- `11_conclusions` — 分析章节
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 精读版本说明
 子 agent 原始输出为 Markdown 表格格式 frontmatter；已转为标准 YAML frontmatter（见上方）。
 

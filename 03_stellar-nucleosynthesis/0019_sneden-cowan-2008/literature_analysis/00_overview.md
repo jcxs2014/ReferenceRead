@@ -37,6 +37,24 @@ paper_dir: 03_stellar-nucleosynthesis/0019_sneden-cowan-2008
 
 # Sneden, Cowan & Gallino 2008 — Neutron-Capture Elements in the Early Galaxy
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_introduction` — 引言
+- `02_heavy_element_formation` — 关键测量/数据
+- `03_solar_system_abundances` — 机制分析/理论
+- `04_r_process_observations` — 理论对比
+- `05_s_process_observations` — 背景与系统误差
+- `06_r_process_abundance_implications` — 统计显著性
+- `07_early_galactic_nucleosynthesis` — 未来展望/对比
+- `08_s_process_abundance_implications` — 结论
+- `09_summary_and_conclusions` — 分析章节
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 0. 勘误 / 元数据核查
 
 - 任务上下文: category=恒星核合成, year=2008, pages=241-288。

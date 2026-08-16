@@ -23,3 +23,16 @@ read_date: '2026-08-16'
 lastread: '2026-08-16'
 note: "PDF 为 MNRAS 扫描版（13页），pytesseract OCR 提取全文；原文结构由 OCR 可读段落 + ADS 辅助判定。"
 ---
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_introduction` — 引言
+- `02_acceleration_shock_front` — 关键测量/数据
+- `03_nonrelativistic_spectrum` — 机制分析/理论
+- `04_cosmic_ray_generation` — 理论对比
+- `05_conclusions` — 背景与系统误差
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+

@@ -24,6 +24,20 @@ path: 02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/00_overview.md
 
 # 0. 文献基本信息
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_why_bother` — 概述/方法
+- `02_observational_data` — 关键测量/数据
+- `03_acceleration_mechanisms` — 机制分析/理论
+- `04_propagation` — 理论对比
+- `05_conclusions` — 背景与系统误差
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 基本信息
 
 | 字段 | 内容 |

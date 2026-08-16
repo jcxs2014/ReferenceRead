@@ -29,6 +29,24 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview
 
 # 0. 文献基本信息
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_introduction_and_historical_reviews` — 引言
+- `02_observations` — 关键测量/数据
+- `03_basic_working_of_r_process` — 机制分析/理论
+- `04_experimental_developments_for_r_process` — 理论对比
+- `05_nuclear_modeling_of_r_process_input` — 背景与系统误差
+- `06_astrophysical_sites_and_their_ejecta` — 统计显著性
+- `07_electromagnetic_signatures_of_r_process` — 未来展望/对比
+- `08_abundance_evolution_in_galaxy` — 结论
+- `09_final_remarks_and_conclusions` — 分析章节
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 基本信息
 
 | 字段 | 内容 |

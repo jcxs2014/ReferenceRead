@@ -26,6 +26,20 @@ path: 02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview.md
 > **PDF 文本层为空白**（NASA ADS 扫描版），精读基于 PDF 视觉读取（页 147–156）+ 已知物理推导交叉验证。
 > 页码引用：MNRAS 182, 147–156（10 页）。
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_introduction` — 引言
+- `02_energy_spectrum` — 关键测量/数据
+- `03_alfven_waves` — 机制分析/理论
+- `04_application_snr` — 理论对比
+- `05_critical_assessment` — 背景与系统误差
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 元数据
 
 | 字段 | 内容 |

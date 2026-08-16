@@ -24,6 +24,20 @@ path: 02_cosmic-ray-origins/0009_blandford-ostriker-1978/literature_analysis/00_
 
 # 0. 文献基本信息
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_introduction` — 引言
+- `02_strong_shock_acceleration` — 关键测量/数据
+- `03_cosmic_ray_application` — 机制分析/理论
+- `04_extragalactic_radio_sources` — 理论对比
+- `05_critical_assessment` — 背景与系统误差
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 基本信息
 
 | 字段 | 内容 |

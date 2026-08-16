@@ -56,6 +56,24 @@ path: 02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md
   2. Onsala Space Observatory, Chalmers University of Technology（Black）
   3. Max-Planck-Institut für extraterrestrische Physik（Strong）
 
+
+
+## 0.3 论文结构树（路径 B）
+
+- `01_scope_and_nine_lives` — 概述/方法
+- `02_direct_measurements` — 关键测量/数据
+- `03_propagation_physics` — 机制分析/理论
+- `04_crwanderers` — 理论对比
+- `05_crism_interactions` — 背景与系统误差
+- `06_cr_stimuli` — 统计显著性
+- `07_tracers` — 未来展望/对比
+- `08_starbursts` — 结论
+- `09_conclusion` — 分析章节
+- `97_quality_check` — 分析章节
+- `98_vocabulary` — 分析章节
+- `99_final_summary` — 分析章节
+
+
 ## 关于文件名与元数据的说明
 > **[FACT]** 本 PDF 实际作者为 Grenier, Black & Strong (2015)，发表期刊为 Annu. Rev. Astron. Astrophys. 53:199–246。
 > **[FACT]** 存储目录命名 "02_cosmic-ray-origins/0006_thackeray-2016/" 与文件元数据不符。
