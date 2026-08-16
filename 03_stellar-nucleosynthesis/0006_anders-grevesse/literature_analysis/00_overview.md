@@ -82,11 +82,11 @@ path: 03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/00_ove
 
 ### 关联论文
 
-- [`0007_grevesse-sauval-1998`](../../0007_grevesse-sauval-1998/literature_analysis/00_overview.md) — 9 年后更新版本
-- [`0008_lodders-2003`](../../0008_lodders-2003/literature_analysis/00_overview.md) — 14 年后更新版本
-- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 20 年后 AGSS09 修订
-- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — Wallerstein 1997 §1 引用本表
+- [[03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/00_overview|0007_grevesse-sauval-1998]] — 9 年后更新版本
+- [[03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overview|0008_lodders-2003]] — 14 年后更新版本
+- [[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]] — 20 年后 AGSS09 修订
+- [[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]] — Wallerstein 1997 §1 引用本表
 
 ### 后续阅读
 
-- [`0007_grevesse-sauval-1998`](../../0007_grevesse-sauval-1998/literature_analysis/00_overview.md) — 9 年后更新版本
+- [[03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/00_overview|0007_grevesse-sauval-1998]] — 9 年后更新版本

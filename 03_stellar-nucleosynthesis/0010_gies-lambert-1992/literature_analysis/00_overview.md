@@ -158,6 +158,6 @@ REFERENCES
 
 ### 关联论文
 
-- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 太阳丰度基线（AGSS09 是更新版本）
-- [`0005_champagne-wiescher-1992`](../../0005_champagne-wiescher-1992/literature_analysis/00_overview.md) — CNO 循环与爆炸性 CNO 循环的观测约束
-- [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 §4 太阳中微子问题与 CNO 循环
+- [[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]] — 太阳丰度基线（AGSS09 是更新版本）
+- [[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]] — CNO 循环与爆炸性 CNO 循环的观测约束
+- [[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]] — Fowler 1984 §4 太阳中微子问题与 CNO 循环

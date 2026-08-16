@@ -210,10 +210,10 @@ literature_analysis/
 
 ### 关联论文
 
-- [`0002_al-dargazelli-1996`](../../0002_al-dargazelli-1996/literature_analysis/00_overview.md) — 同一时期碰撞星系作为 UHECR 源的另一论据
-- [`0003_gaisser-1990`](../../0003_gaisser-1990/literature_analysis/00_overview.md) — Gaisser 1990 是 BH/GS 2000 之前的标准综述
-- [`0001_strong-moskalenko-ptuskin-2007`](../../../01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) — Strong 2007 §4 同样涉及 GZK 传播
+- [[02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overview|0002_al-dargazelli-1996]] — 同一时期碰撞星系作为 UHECR 源的另一论据
+- [[02_cosmic-ray-origins/0003_gaisser-1990/literature_analysis/00_overview|0003_gaisser-1990]] — Gaisser 1990 是 BH/GS 2000 之前的标准综述
+- [[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview|0001_strong-moskalenko-ptuskin-2007]] — Strong 2007 §4 同样涉及 GZK 传播
 
 ### 后续阅读
 
-- [`0002_al-dargazelli-1996`](../../0002_al-dargazelli-1996/literature_analysis/00_overview.md) — 1996 年同主题论文，作为对比
+- [[02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overview|0002_al-dargazelli-1996]] — 1996 年同主题论文，作为对比

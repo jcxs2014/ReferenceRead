@@ -182,5 +182,5 @@ LITERATURE CITED (p.74-76, 123 references)
 
 ### 关联论文
 
-- [`0010_gies-lambert-1992`](../../0010_gies-lambert-1992/literature_analysis/00_overview.md) — Gies-Lambert 1992 提供 B 型星 CNO 观测，约束爆炸性 H 燃烧
-- [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 §4 是 Champagne-Wiescher 1992 的前身
+- [[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview|0010_gies-lambert-1992]] — Gies-Lambert 1992 提供 B 型星 CNO 观测，约束爆炸性 H 燃烧
+- [[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]] — Fowler 1984 §4 是 Champagne-Wiescher 1992 的前身

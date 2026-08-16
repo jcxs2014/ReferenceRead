@@ -215,10 +215,10 @@ XIII. Conclusion (P95)
 
 ### 关联论文
 
-- [`0002_trimble-1975`](../../0002_trimble-1975/literature_analysis/00_overview.md) — Trimble 1975 是 B$^2$FH 18 年后的权威更新综述
-- [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 Nobel Lecture 部分作者来自 B$^2$FH 团队
-- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — Wallerstein 1997 是 B$^2$FH 40 年回顾
+- [[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview|0002_trimble-1975]] — Trimble 1975 是 B$^2$FH 18 年后的权威更新综述
+- [[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]] — Fowler 1984 Nobel Lecture 部分作者来自 B$^2$FH 团队
+- [[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]] — Wallerstein 1997 是 B$^2$FH 40 年回顾
 
 ### 后续阅读
 
-- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — B$^2$FH 40 年进展综述
+- [[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]] — B$^2$FH 40 年进展综述

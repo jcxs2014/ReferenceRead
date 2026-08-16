@@ -153,5 +153,5 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overvie
 
 ### 关联论文
 
-- [`0005_champagne-wiescher-1992`](../../0005_champagne-wiescher-1992/literature_analysis/00_overview.md) — Champagne & Wiescher 1992 是 Fowler 1984 后的反应率更新
-- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B$^2$FH 的 s 过程在 Fowler 1984 重新评估
+- [[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]] — Champagne & Wiescher 1992 是 Fowler 1984 后的反应率更新
+- [[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]] — B$^2$FH 的 s 过程在 Fowler 1984 重新评估

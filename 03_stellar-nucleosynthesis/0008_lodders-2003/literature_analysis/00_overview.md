@@ -162,8 +162,8 @@ path: 03_stellar-nucleosynthesis/0008_lodders-2003/literature_analysis/00_overvi
 
 ### 关联论文
 
-- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 6 年后 AGSS09 修订
+- [[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]] — 6 年后 AGSS09 修订
 
 ### 后续阅读
 
-- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 6 年后 AGSS09
+- [[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]] — 6 年后 AGSS09

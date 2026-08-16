@@ -200,7 +200,7 @@ References: (p.33–41, 约 150 条)
 
 ### 关联论文
 
-- [`0006_grenier-2015`](../../../02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview.md) — Grenier 2015 用 AGSS09 丰度作为 CR 比较基准
-- [`0007_biermann-1996`](../../../02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md) — Biermann 1996 旧版用 Anders-Grevesse 丰度
-- [`0010_gies-lambert-1992`](../../0010_gies-lambert-1992/literature_analysis/00_overview.md) — Gies-Lambert 1992 用 1989 太阳丰度作为 B 型星基线
-- [`0011_kewley-2001-starburst`](../../0011_kewley-2001-starburst/literature_analysis/00_overview.md) — Kewley 2001 太阳丰度假设
+- [[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview|0006_grenier-2015]] — Grenier 2015 用 AGSS09 丰度作为 CR 比较基准
+- [[02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview|0007_biermann-1996]] — Biermann 1996 旧版用 Anders-Grevesse 丰度
+- [[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview|0010_gies-lambert-1992]] — Gies-Lambert 1992 用 1989 太阳丰度作为 B 型星基线
+- [[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview|0011_kewley-2001-starburst]] — Kewley 2001 太阳丰度假设

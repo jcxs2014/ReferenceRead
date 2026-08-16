@@ -94,4 +94,4 @@ path: 02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overv
 
 ### 关联论文
 
-- [`0001_bhattacharjee-sigl-2000`](../../0001_bhattacharjee-sigl-2000/literature_analysis/00_overview.md) — 同主题 BH/GS 2000 提供更完备综述
+- [[02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000/literature_analysis/00_overview|0001_bhattacharjee-sigl-2000]] — 同主题 BH/GS 2000 提供更完备综述

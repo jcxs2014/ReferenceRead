@@ -188,9 +188,9 @@ B2FH 1957 原始框架（8 过程）
 
 ### 关联论文
 
-- [`0005_champagne-wiescher-1992`](../../0005_champagne-wiescher-1992/literature_analysis/00_overview.md) — 爆炸性氢燃烧是 Wallerstein 1997 §5 的延伸
-- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — Wallerstein 1997 §1 引用 Anders-Grevesse 1989 太阳丰度
+- [[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]] — 爆炸性氢燃烧是 Wallerstein 1997 §5 的延伸
+- [[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]] — Wallerstein 1997 §1 引用 Anders-Grevesse 1989 太阳丰度
 
 ### 后续阅读
 
-- [`0005_champagne-wiescher-1992`](../../0005_champagne-wiescher-1992/literature_analysis/00_overview.md) — 爆炸性氢燃烧的更细致处理
+- [[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/00_overview|0005_champagne-wiescher-1992]] — 爆炸性氢燃烧的更细致处理

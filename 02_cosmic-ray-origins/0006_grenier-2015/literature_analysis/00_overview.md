@@ -157,7 +157,7 @@ Introduction / Scope of the Review
 
 ### 关联论文
 
-- [`0005_amato-2014`](../../0005_amato-2014/literature_analysis/00_overview.md) — Amato 2014 §6 涉及 CR-ISM 耦合
-- [`0004_blasi-2013`](../../0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 与 Grenier 2015 在 PeVatron 论证上互补
-- [`0009_asplund-2009-solar-composition`](../../../03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — CR 元素丰度比较依赖太阳丰度标准
-- [`0011_kewley-2001-starburst`](../../../03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview.md) — Grenier 2015 §8 综述星暴星系中 CR 角色
+- [[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview|0005_amato-2014]] — Amato 2014 §6 涉及 CR-ISM 耦合
+- [[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|0004_blasi-2013]] — Blasi 2013 与 Grenier 2015 在 PeVatron 论证上互补
+- [[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]] — CR 元素丰度比较依赖太阳丰度标准
+- [[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/00_overview|0011_kewley-2001-starburst]] — Grenier 2015 §8 综述星暴星系中 CR 角色

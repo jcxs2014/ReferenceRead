@@ -82,5 +82,5 @@ path: 03_stellar-nucleosynthesis/0012_dieterich-2014-h-burning-limit/literature_
 
 ### 关联论文
 
-- [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — Fowler 1984 §4 氢燃烧的演化理论
-- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — Wallerstein 1997 §3 pp 链与 CNO 循环
+- [[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]] — Fowler 1984 §4 氢燃烧的演化理论
+- [[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]] — Wallerstein 1997 §3 pp 链与 CNO 循环

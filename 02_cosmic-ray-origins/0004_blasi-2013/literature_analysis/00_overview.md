@@ -153,5 +153,5 @@ Blasi (2013), arXiv:1311.7346, 88 页
 
 ### 关联论文
 
-- [`0005_amato-2014`](../../0005_amato-2014/literature_analysis/00_overview.md) — Blasi 2013 + Amato 2014 是同一时期双论文，独立但互补
-- [`0006_grenier-2015`](../../0006_grenier-2015/literature_analysis/00_overview.md) — Grenier 2015 §4 综述 PeVatron 候选，与本论文 §5 Superbubble 论点相关
+- [[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview|0005_amato-2014]] — Blasi 2013 + Amato 2014 是同一时期双论文，独立但互补
+- [[02_cosmic-ray-origins/0006_grenier-2015/literature_analysis/00_overview|0006_grenier-2015]] — Grenier 2015 §4 综述 PeVatron 候选，与本论文 §5 Superbubble 论点相关

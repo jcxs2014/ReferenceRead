@@ -153,11 +153,11 @@ Kraft 1994, PASP 106:553
 
 ### 关联论文
 
-- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B$^2$FH 核合成框架，本文 CNO 丰度讨论的理论背景
-- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 现代太阳丰度，星族 II 丰度的对照基准
-- [`0010_gies-lambert-1992`](../../0010_gies-lambert-1992/literature_analysis/00_overview.md) — 早 B 型星 CNO 丰度，同族 CNO 循环研究
-- [`0014_cameron-1968`](../../0014_cameron-1968/literature_analysis/00_overview.md) — 元素丰度表经典，本文丰度讨论的数值基准
+- [[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]] — B$^2$FH 核合成框架，本文 CNO 丰度讨论的理论背景
+- [[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]] — 现代太阳丰度，星族 II 丰度的对照基准
+- [[03_stellar-nucleosynthesis/0010_gies-lambert-1992/literature_analysis/00_overview|0010_gies-lambert-1992]] — 早 B 型星 CNO 丰度，同族 CNO 循环研究
+- [[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/00_overview|0014_cameron-1968]] — 元素丰度表经典，本文丰度讨论的数值基准
 
 ### 后续阅读
 
-- [`0009_asplund-2009-solar-composition`](../../0009_asplund-2009-solar-composition/literature_analysis/00_overview.md) — 现代三维太阳大气丰度分析
+- [[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/00_overview|0009_asplund-2009-solar-composition]] — 现代三维太阳大气丰度分析

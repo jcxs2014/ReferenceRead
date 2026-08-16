@@ -187,12 +187,12 @@ A New Table of Abundances of the Elements in the Solar System
 
 ### 关联论文
 
-- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — B$^2$FH 1957 核合成框架，本文丰度表的理论骨架
-- [`0002_trimble-1975`](../../0002_trimble-1975/literature_analysis/00_overview.md) — 恒星核合成综合评述
-- [`0003_fowler-1984`](../../0003_fowler-1984/literature_analysis/00_overview.md) — r/s/p 过程系统化的后续发展
-- [`0006_anders-grevesse`](../../0006_anders-grevesse/literature_analysis/00_overview.md) — 本文丰度表的直接继承者与修订者
-- [`0007_grevesse-sauval-1998`](../../0007_grevesse-sauval-1998/literature_analysis/00_overview.md) — 现代太阳丰度迭代
+- [[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]] — B$^2$FH 1957 核合成框架，本文丰度表的理论骨架
+- [[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/00_overview|0002_trimble-1975]] — 恒星核合成综合评述
+- [[03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/00_overview|0003_fowler-1984]] — r/s/p 过程系统化的后续发展
+- [[03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/00_overview|0006_anders-grevesse]] — 本文丰度表的直接继承者与修订者
+- [[03_stellar-nucleosynthesis/0007_grevesse-sauval-1998/literature_analysis/00_overview|0007_grevesse-sauval-1998]] — 现代太阳丰度迭代
 
 ### 后续阅读
 
-- [`0006_anders-grevesse`](../../0006_anders-grevesse/literature_analysis/00_overview.md) — Anders & Grevesse 1989 取代本文成为标准丰度表
+- [[03_stellar-nucleosynthesis/0006_anders-grevesse/literature_analysis/00_overview|0006_anders-grevesse]] — Anders & Grevesse 1989 取代本文成为标准丰度表

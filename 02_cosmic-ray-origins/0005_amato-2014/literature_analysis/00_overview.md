@@ -173,4 +173,4 @@ References
 
 ### 关联论文
 
-- [`0004_blasi-2013`](../../0004_blasi-2013/literature_analysis/00_overview.md) — Blasi 2013 + Amato 2014 是同一时期双论文
+- [[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|0004_blasi-2013]] — Blasi 2013 + Amato 2014 是同一时期双论文

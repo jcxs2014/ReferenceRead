@@ -188,4 +188,4 @@ References
 
 ### 关联论文
 
-- [`0001_strong-moskalenko-ptuskin-2007`](../../../01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) — Strong 2007 §3.7 正电子/反质子背景估计与暗物质
+- [[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview|0001_strong-moskalenko-ptuskin-2007]] — Strong 2007 §3.7 正电子/反质子背景估计与暗物质

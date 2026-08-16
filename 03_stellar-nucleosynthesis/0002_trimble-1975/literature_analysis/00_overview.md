@@ -142,5 +142,5 @@ REFERENCES                                               pp. 966–969
 
 ### 关联论文
 
-- [`0004_wallerstein-1997`](../../0004_wallerstein-1997/literature_analysis/00_overview.md) — Trimble 1975 → Wallerstein 1997 又是 22 年更新
-- [`0001_b2fh-1957`](../../0001_b2fh-1957/literature_analysis/00_overview.md) — Trimble 1975 是 B$^2$FH 的 18 年后版本
+- [[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/00_overview|0004_wallerstein-1997]] — Trimble 1975 → Wallerstein 1997 又是 22 年更新
+- [[03_stellar-nucleosynthesis/0001_b2fh-1957/literature_analysis/00_overview|0001_b2fh-1957]] — Trimble 1975 是 B$^2$FH 的 18 年后版本
