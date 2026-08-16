@@ -352,6 +352,18 @@ def main() -> int:
         html_has_lang = bool(re.search(r'<html[^>]*\blang\s*=', html, re.I))
         check("附: <html> 必须有 lang 属性", html_has_lang)
 
+    # 附: 篇数一致性——PAPERS JSON 条目数 vs 静态文案"共 X 篇"模式
+    paper_count = len(papers)
+    doc_ids_with_mismatch = []
+    for doc in docs:
+        html = doc.get('html', '')
+        for m in re.finditer(r'共\s*(\d+)\s*篇', html):
+            declared = int(m.group(1))
+            if declared != paper_count:
+                doc_ids_with_mismatch.append(f'{doc["id"]}({declared}篇)')
+    check("附: 静态文案篇数一致性", len(doc_ids_with_mismatch) == 0,
+          f'{"; ".join(doc_ids_with_mismatch) if doc_ids_with_mismatch else "0 不一致"} ≠ {paper_count}篇(PAPERS)')
+
     print()
     if FAILED:
         print(f"审计结果: {len(FAILED)} 项失败 — {', '.join(FAILED)}")
