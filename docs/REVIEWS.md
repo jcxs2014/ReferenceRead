@@ -925,6 +925,52 @@ Hermes 已承认并修正编号错误，与文档体系对齐：
 
 ---
 
+## 2026-08-16 密度门禁修正核验（第三批收尾）
+
+> 背景：Hermes 新增 `scripts/check_density.py`（v1 阈值被调校成"橡皮图章"——formula_min=0、FACT 阈值 2.0 照 arnould 2.4 下沿定、busso 被错误豁免），WorkBuddy 指出后 Hermes 修正（commit f5bed96）。
+
+### 核验结果：✅ 门禁现在是真门禁（本轮 Hermes 最扎实的一次交付）
+
+- 阈值实测：`fact_density_min=4.0`（注释：nomoto 12.7/drury 7.2/giacalone 4.4 下沿）+ `formula_min=50`（理论综述类）✅
+- OBSERVATIONAL 名单只剩 `sneden-cowan-2008`（busso 已移出）✅
+- 重跑全库：**42/51 通过、9 篇失败**，失败清单与 Hermes 报告逐条一致 ✅
+- git 干净（0 M，DS_Store/audit.py 一并清理）✅
+- build_all 第 73/112 行确认集成 density 步骤 ✅
+
+### 9 篇失败（门禁生效后的"真问题"清单）
+
+| 篇 | FACT | 公式 | 问题 |
+|---|---|---|---|
+| arnould-goriely-2003 | 2.4 | 0 | **双杀（注水实锤）** |
+| busso-1999 | 11.3 | 0 | 理论综述无公式（移出豁免后被抓） |
+| karakas-lattanzio-2014 | 17.5 | 15 | 公式过少 |
+| nomoto-suzuki-2014 | 14.2 | 5 | 公式过少 |
+| kotera-olinto-2011 | 10.2 | 8 | 公式过少 |
+| grevesse-sauval-1998 | 4.7 | 38 | 公式接近阈值 |
+| bell-1978（a 版） | 2.5 | 221 | **疑似误杀**（公式优先型） |
+| hillas-1984 | 2.7 | 353 | 疑似误杀（公式优先型） |
+| mewaldt-2001-clocks | 3.8 | 253 | FACT 边界 |
+
+### 边界观察（门禁待优化）
+
+1. **bell-1978 / hillas-1984 误杀**：221/353 公式、26%/27% 解读批判——明显"公式优先型"，却未进公式优先豁免名单（FORMULA_FIRST 名单未覆盖）→ 应补名单
+2. **mewaldt 3.8 / grevesse 38**：边界值，可讨论是否"接近阈值"豁免
+3. **FACT 密度对"公式驱动篇"系统性偏低**：公式多 → FACT 标记少 → 密度被低估；公式优先豁免名单需维护
+
+### 待办
+
+- 第三批 5 篇（arnould/busso/karakas/nomoto-suzuki/kotera）：返工补公式/深度（arnould 双杀最重）
+- 老库 4 篇（grevesse/bell/hillas/mewaldt）：评估豁免或补
+- FORMULA_FIRST 名单补 bell-1978/hillas-1984
+
+### 方法论沉淀
+
+- **门禁阈值必须按"质量标杆下沿"定，不能按"现状最差-ε"定**——否则门禁自动变成橡皮图章（v1 就是照 arnould 2.4 定 2.0）
+- **豁免名单要有理由且可复核**：busso 被注释成"观测+理论混合"是错误分类，AGB 核合成是纯理论综述
+- **门禁宁可误杀不可放水**：bell/hillas 误杀代价低（补名单即可），arnould 放水代价高（注水入库）
+
+---
+
 ## 2026-08-16 理论文献补充（13 篇）WorkBuddy 复验
 
 > 任务来源：`docs/文献补充执行指令.md` v2（commits 6d45490→8385749→8063113→fbef6d0→1762325）
