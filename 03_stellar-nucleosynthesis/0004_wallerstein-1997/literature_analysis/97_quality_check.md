@@ -1,6 +1,4 @@
 # 97. Quality Check — 完成度自查
-> 上一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/10_carbon_stars_and_conclusions.md|10_carbon_stars_and_conclusions]]
-> 下一章：[[03_stellar-nucleosynthesis/0004_wallerstein-1997/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0004_wallerstein-1997`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
@@ -13,7 +11,7 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 11 个（✅） |
-| **合计** | **14 个分析文件，2106 行** |
+| **合计** | **14 个分析文件，2420 行** |
 
 ## 覆盖统计
 
@@ -25,8 +23,8 @@
 | 图 (Figure) | 11 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
 | 表 (Table) | 13 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 339 | 事实陈述 |
-| [INTERPRETATION] | 7 | 解读 |
+| [FACT] | 347 | 事实陈述 |
+| [INTERPRETATION] | 14 | 解读 |
 | [CRITIQUE] | 22 | 批判 |
 
 ## 完成度评分

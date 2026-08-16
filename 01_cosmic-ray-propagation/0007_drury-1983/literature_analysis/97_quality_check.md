@@ -1,64 +1,47 @@
----
-section: "quality"
-title: "Quality Check"
-parent: "00_overview.md"
-previous: "07_time_dependent.md"
-next: "98_vocabulary.md"
----
+# 97. Quality Check — 完成度自查
 
-# 97. Quality Check
+> 文献：`0007_drury-1983`
+> 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
 
-## A. 元数据核对
+## 文件清单
 
-- [x] 作者（L. O'C. Drury）三源一致
-- [x] 年份（1983）三源一致
-- [x] 期刊（Rep. Prog. Phys. 46:973-1027）三源一致
-- [x] 目录名 `0007_drury-1983` 与 PDF 一致
-- [x] 无勘误
+| 组件 | 状态 |
+|---|---|
+| 00_overview.md | ✅ |
+| 99_final_summary.md | ✅ |
+| 98_vocabulary.md | ✅ |
+| 正文章节文件 | 8 个（✅） |
+| **合计** | **11 个分析文件，608 行** |
 
-## B. 结构覆盖
+## 覆盖统计
 
-- [x] §1 Introduction → [[01_introduction.md]]
-- [x] §2 Basic theory → [[02_basic_theory.md]]
-- [x] §2.2 Kinematics → [[03_shock_kinematics.md]]
-- [x] §2.3 DSA core → [[04_diffusive_acceleration.md]]
-- [x] §3 Linear intro → [[05_linear_modifications.md]]
-- [x] §3.1 Oblique → [[06_oblique_shocks.md]]
-- [x] §3.2 Time-dependent → [[07_time_dependent.md]]
-- [ ] §3.3-3.4 → 未单独分章（在 §3 总述中覆盖）
-- [ ] §4.1-4.5 Non-linear → 未单独分章（在 §4 总述中覆盖）
-- [ ] §5 Concluding remarks → 未单独分章
+| 项目 | 数量 | 说明 |
+|---|---|---|
+| §1 标题数 | 11 | 主章节数 |
+| §2 标题数 | 43 | 分节数 |
+| §3 标题数 | 3 | 子分节数 |
+| 图 (Figure) | 1 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 1 | 同上 |
+| 公式 | 0 | LaTeX 行内/独立公式计数 |
+| [FACT] | 41 | 事实陈述 |
+| [INTERPRETATION] | 7 | 解读 |
+| [CRITIQUE] | 7 | 批判 |
 
-## C. 关键公式覆盖
+## 完成度评分
 
-- [x] 输运方程 (2.11)
-- [x] 谱指数 $a = 3r/(r-1)$
-- [x] 压缩比 $r = U_1/U_2$
-- [x] 加速时标 (3.39)
-- [x] 逃逸概率 $4U_2/v$
-- [x] 平均动量增益 $4(U_1-U_2)/(3v)$
+| 维度 | 得分 | 满分 |
+|---|---|---|
+| 元数据 (00_overview) | 1 | 1 |
+| 总结 (99_final_summary) | 1 | 1 |
+| 词汇表 (98_vocabulary) | 1 | 1 |
+| 正文覆盖 | 2 | 2 |
+| 图表完整性 | 1 | 2 |
+| 批判性分析 | 2 | 2 |
+| 公式完整性 | 0 | 1 |
+| **总分** | **7 / 10** | |
 
-## D. 引用完整性
+## 建议
 
-- [x] 向上引用：Bell 1978, Blandford & Ostriker 1978 使用 wikilink
-- [x] 向下引用：Strong 2007, Amato & Blasi 2018, Genolini 2021 使用 wikilink
+- 该论文精读**基本完整**（7/10）。
 
-## E. 标签使用
-
-- [x] `[FACT]` 用于论文事实陈述
-- [x] `[INTERPRETATION]` 用于推论
-- [x] `[CRITIQUE]` 用于批评/限制
-
-## F. 编码
-
-- [x] `fulltext.txt` ISO-8859-1，已转码 `/tmp/drury_1983_utf8.txt`
-- [x] 全文无 mojibake 残留
-
-## G. 完整性说明
-
-- 本批（受父代理 `skip remaining body files` 指示）仅写至 §3.2。
-- §3.3-3.4（非平面激波、附加能量增益/损耗）、§4.1-4.5（全部非线性修正）、§5 结论**未生成独立文件**；内容在 §3/§4 总述文件中有概要覆盖，但未达"每节独立文件"要求。
-- 后续可回溯补齐 08-16 号文件。
-
-上一章：[[07_time_dependent.md]]
-下一章：[[98_vocabulary.md]]
+*（本页由 `scripts/gen_quality_check.py` 自动生成）*

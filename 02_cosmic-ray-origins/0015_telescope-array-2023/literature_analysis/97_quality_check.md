@@ -1,58 +1,47 @@
-> 上一章：[[02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/05_conclusions.md|05_conclusions]]
-> 下一章：[[02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/98_vocabulary.md|98_vocabulary]]
----
-title: "97. Quality Check — Telescope Array Collaboration 2023"
----
+# 97. Quality Check — 完成度自查
 
-## Completeness Check
+> 文献：`0015_telescope-array-2023`
+> 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
 
-| 要求 | 状态 | 说明 |
-|------|------|------|
-| 分章完整 | ✅ | 01–05 + 97/98/99 共 8 文件 |
-| 与 00_overview 无重复 | ✅ | 00 为元数据，分章各章节内容独立 |
-| 所有数值覆盖 | ✅ | Table 1（能量/方向）、$D_0$（铁/质子）、PKS 1717+177 距离、NGC 6946 距离 |
-| 所有公式覆盖 | ✅ | GZK 公式、Hillas 判据、回旋半径、$S_{800}$ 能量关系 |
-| 无占位符 | ✅ | 全篇无"待补充""需人工确认" |
-| LaTeX 规范 | ✅ | 数学表达式用 `$...$`，核素/单位保留 Unicode |
+## 文件清单
 
-## 关键数值校验
+| 组件 | 状态 |
+|---|---|
+| 00_overview.md | ✅ |
+| 99_final_summary.md | ✅ |
+| 98_vocabulary.md | ✅ |
+| 正文章节文件 | 6 个（✅） |
+| **合计** | **9 个分析文件，677 行** |
 
-- $E = 244^{+29}_{-29}$ (stat.) $^{+51}_{-76}$ (syst.) EeV ✅
-- $S_{800} = 530 \pm 57$ m$^{-2}$ ✅
-- R.A. = $255.9°$, Dec. = $16.1°$ ✅
-- $D_0(\rm Fe) = 10.3^{+5.3}_{-3.0}$ Mpc, $D_0(\rm p) = 27.0^{+3.8}_{-3.0}$ Mpc ✅
-- 23 个触发 SD，核心距 NW 边缘 1.1 km ✅
-- 光子排除置信度 99.986% ✅
-- $1/1.27$ FD 校准因子，SD 原始 309 EeV → 244 EeV ✅
-- 28 个 $>100$ EeV 事件，13.5 年，$1.6\times10^4$ km$^2$ sr yr ✅
-- PKS 1717+177：距离 ~600 Mpc ($z=0.137$)，与质子反推方向 $\leq 2.5°$ ✅
-- NGC 6946：7.7 Mpc，未在 $\gamma$ 波段被探测 ✅
-- Local Void：R.A. ~279.5°, Dec. ~18.0° ✅
-- TA hot spot：R.A. 146.7°, Dec. 43.2°, $3.4\sigma$ ✅
-- 质心能量（质子假设）：$\sqrt{s} \approx 700$ TeV ✅
-- LHC 质子能量：7 TeV（正文为 $4\times10^7$ 倍）✅
+## 覆盖统计
 
-## 公式校验
+| 项目 | 数量 | 说明 |
+|---|---|---|
+| §1 标题数 | 1 | 主章节数 |
+| §2 标题数 | 54 | 分节数 |
+| §3 标题数 | 10 | 子分节数 |
+| 图 (Figure) | 6 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 4 | 同上 |
+| 公式 | 0 | LaTeX 行内/独立公式计数 |
+| [FACT] | 31 | 事实陈述 |
+| [INTERPRETATION] | 5 | 解读 |
+| [CRITIQUE] | 2 | 批判 |
 
-| 公式 | 位置 | 规范 |
-|------|------|------|
-| GZK 过程 $p+\gamma_{\rm CMB} \to \Delta^+$ | 01 §1.3 | ✅ |
-| Hillas 判据 $E_{\max} \sim Z\beta BL$ | 04 §4.6 | ✅ |
-| 回旋半径 $r_L = E/(ZBe)$ | 03 §3.1 | ✅ |
-| $S_{800}$ 能量关系 | 02 §2.3 | ✅ |
+## 完成度评分
 
-## 分章内容独立性确认
+| 维度 | 得分 | 满分 |
+|---|---|---|
+| 元数据 (00_overview) | 1 | 1 |
+| 总结 (99_final_summary) | 1 | 1 |
+| 词汇表 (98_vocabulary) | 1 | 1 |
+| 正文覆盖 | 2 | 2 |
+| 图表完整性 | 2 | 2 |
+| 批判性分析 | 1 | 2 |
+| 公式完整性 | 0 | 1 |
+| **总分** | **7 / 10** | |
 
-| 分章 | 独有内容 |
-|------|---------|
-| 01 | 历史对比表、TA 实验概况、GZK 原理 |
-| 02 | Table 1 完整重建属性、能量误差分析、粒子识别 |
-| 03 | GMF 反推（4 粒子×2 模型）、PKS 1717+177、NGC 6946、Local Void |
-| 04 | $D_0$ 计算、注入能量敏感性、Hillas 判据应用 |
-| 05 | 三种解释对比、TA hot spot 对比、批判性分析 |
+## 建议
 
-## 关键遗漏（论文未充分讨论）
+- 该论文精读**基本完整**（7/10）。
 
-1. TA vs Auger 能量标度差异（Verzi & Ivanov 2017）
-2. 瞬态源识别的时间延迟（补充材料提及但未深入）
-3. 系统误差不对称的物理含义（真实能量更可能低于 244 EeV）
+*（本页由 `scripts/gen_quality_check.py` 自动生成）*

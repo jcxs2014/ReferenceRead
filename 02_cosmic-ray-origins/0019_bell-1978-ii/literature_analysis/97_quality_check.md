@@ -1,10 +1,47 @@
-## 质量门禁
+# 97. Quality Check — 完成度自查
 
-| 检查项 | 状态 | 说明 |
-|--------|------|------|
-| frontmatter 完整 | ✅ | title/author/year/journal/pages/doi/citations/sections 全 |
-| YAML 解析 | ✅ | 字段格式正确 |
-| 分章数量 | ⚠️ | 扫描版 OCR 限制，仅 2 个分章文件（Introduction + Summary），§2-§4 已在 Introduction 内覆盖 |
-| citations 连线 | ✅ | 指向 bell-1978 (I) 和 blandford-ostriker-1978 |
-| 行数门槛 | ⚠️ | 扫描版，总行数受限（~200行） |
-| 97 覆盖率 | ⚠️ | 因 OCR 限制，方程和引用细节可能不完整 |
+> 文献：`0019_bell-1978-ii`
+> 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
+
+## 文件清单
+
+| 组件 | 状态 |
+|---|---|
+| 00_overview.md | ✅ |
+| 99_final_summary.md | ✅ |
+| 98_vocabulary.md | ✅ |
+| 正文章节文件 | 2 个（✅） |
+| **合计** | **5 个分析文件，119 行** |
+
+## 覆盖统计
+
+| 项目 | 数量 | 说明 |
+|---|---|---|
+| §1 标题数 | 0 | 主章节数 |
+| §2 标题数 | 6 | 分节数 |
+| §3 标题数 | 7 | 子分节数 |
+| 图 (Figure) | 0 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 0 | 同上 |
+| 公式 | 0 | LaTeX 行内/独立公式计数 |
+| [FACT] | 3 | 事实陈述 |
+| [INTERPRETATION] | 0 | 解读 |
+| [CRITIQUE] | 0 | 批判 |
+
+## 完成度评分
+
+| 维度 | 得分 | 满分 |
+|---|---|---|
+| 元数据 (00_overview) | 1 | 1 |
+| 总结 (99_final_summary) | 1 | 1 |
+| 词汇表 (98_vocabulary) | 1 | 1 |
+| 正文覆盖 | 2 | 2 |
+| 图表完整性 | 0 | 2 |
+| 批判性分析 | 0 | 2 |
+| 公式完整性 | 0 | 1 |
+| **总分** | **4 / 10** | |
+
+## 建议
+
+- 该论文精读**部分覆盖**（4/10）。可考虑补充正文分章、批判观点或公式整理。
+
+*（本页由 `scripts/gen_quality_check.py` 自动生成）*

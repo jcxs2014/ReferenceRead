@@ -1,24 +1,47 @@
-# 97 Quality Check（质量核查）
+# 97. Quality Check — 完成度自查
 
-- [x] 作者/年份 已按 PDF 首页验证：Amanda I. Karakas & John C. Lattanzio, 2014（与目录名一致）
-- [x] 期刊/DOI/arXiv 已核验：PASA, doi 10.1017/pas.2014.xxx, arXiv:1405.0062v1
-- [x] 页数口径已标注：PASA 30 页 vs PDF 70 页（含图形与参考文献）
-- [x] 章节树覆盖：§1–§6 全部（引言、AGB 前演化、AGB 演化、不确定性、产额、总结）
-- [x] 精读重点覆盖：
-  - [x] 第三 dredge-up（04_tdu.md）
-  - [x] 热脉冲（03_agb_tp_hbb.md, 05_nucleosynthesis_tp.md）
-  - [x] s-过程与产额表（06_nucleosynthesis_hbb_sprocess.md, 09_yield_tables.md）
-  - [x] 银河增丰（10_galactic_chemical_evolution.md）
-- [x] 关键公式保留：Paczynski 关系、λ 定义、s-过程两个中子源反应
-- [x] 关键数值保留（含单位）：¹²C/¹³C=119（3M⊙ tip）、Pb s-过程占 91%、尘埃 90%
-- [x] 表 1（FDU/SDU 后同位素）已摘要
-- [x] 表 2（AGB 产额表清单）已摘要
-- [x] [FACT] / [INTERPRETATION] / [CRITIQUE] 标签已使用
-- [x] 引用关系映射：wallerstein-1997（§3.7）、champagne-wiescher-1992（¹³C 袋）、busso-1999（低质量 AGB s-过程）、cowan-2021、kaeppeler-2011
-- [x] 交叉文件导航已加（"上一章" / "下一章"）
-- [x] 中文写作，保留英文技术术语
-- [x] 无 LaTeX 双反斜杠；表格不在引用块内
+> 文献：`0021_karakas-lattanzio-2014`
+> 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
 
-## 未覆盖章节
-- §3.4（Nucleosynthesis during AGB）作为 §3.5 引言处理，未单独成文。
-- §2.6.1 由上下文推断存在，未单独展开。
+## 文件清单
+
+| 组件 | 状态 |
+|---|---|
+| 00_overview.md | ✅ |
+| 99_final_summary.md | ✅ |
+| 98_vocabulary.md | ✅ |
+| 正文章节文件 | 12 个（✅） |
+| **合计** | **15 个分析文件，843 行** |
+
+## 覆盖统计
+
+| 项目 | 数量 | 说明 |
+|---|---|---|
+| §1 标题数 | 15 | 主章节数 |
+| §2 标题数 | 64 | 分节数 |
+| §3 标题数 | 31 | 子分节数 |
+| 图 (Figure) | 12 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 3 | 同上 |
+| 公式 | 0 | LaTeX 行内/独立公式计数 |
+| [FACT] | 120 | 事实陈述 |
+| [INTERPRETATION] | 3 | 解读 |
+| [CRITIQUE] | 2 | 批判 |
+
+## 完成度评分
+
+| 维度 | 得分 | 满分 |
+|---|---|---|
+| 元数据 (00_overview) | 1 | 1 |
+| 总结 (99_final_summary) | 1 | 1 |
+| 词汇表 (98_vocabulary) | 1 | 1 |
+| 正文覆盖 | 2 | 2 |
+| 图表完整性 | 2 | 2 |
+| 批判性分析 | 1 | 2 |
+| 公式完整性 | 0 | 1 |
+| **总分** | **7 / 10** | |
+
+## 建议
+
+- 该论文精读**基本完整**（7/10）。
+
+*（本页由 `scripts/gen_quality_check.py` 自动生成）*

@@ -1,6 +1,4 @@
 # 97. Quality Check — 完成度自查
-> 上一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/09_conclusion_and_references.md|09_conclusion_and_references]]
-> 下一章：[[03_stellar-nucleosynthesis/0009_asplund-2009-solar-composition/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0009_asplund-2009-solar-composition`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
@@ -13,7 +11,7 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 10 个（✅） |
-| **合计** | **13 个分析文件，1646 行** |
+| **合计** | **13 个分析文件，1656 行** |
 
 ## 覆盖统计
 

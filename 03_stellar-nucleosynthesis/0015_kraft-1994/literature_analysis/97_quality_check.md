@@ -1,6 +1,4 @@
 # 97. Quality Check — 完成度自查
-> 上一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/07_conclusions.md|07_conclusions]]
-> 下一章：[[03_stellar-nucleosynthesis/0015_kraft-1994/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0015_kraft-1994`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
@@ -13,21 +11,21 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 8 个（✅） |
-| **合计** | **10 个分析文件，1306 行** |
+| **合计** | **11 个分析文件，1367 行** |
 
 ## 覆盖统计
 
 | 项目 | 数量 | 说明 |
 |---|---|---|
-| §1 标题数 | 10 | 主章节数 |
-| §2 标题数 | 80 | 分节数 |
+| §1 标题数 | 11 | 主章节数 |
+| §2 标题数 | 84 | 分节数 |
 | §3 标题数 | 49 | 子分节数 |
-| 图 (Figure) | 10 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
-| 表 (Table) | 0 | 同上 |
+| 图 (Figure) | 11 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 1 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 272 | 事实陈述 |
-| [INTERPRETATION] | 17 | 解读 |
-| [CRITIQUE] | 9 | 批判 |
+| [FACT] | 274 | 事实陈述 |
+| [INTERPRETATION] | 19 | 解读 |
+| [CRITIQUE] | 11 | 批判 |
 
 ## 完成度评分
 

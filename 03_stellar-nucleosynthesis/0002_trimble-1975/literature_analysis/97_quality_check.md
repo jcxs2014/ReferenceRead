@@ -1,6 +1,4 @@
 # 97. Quality Check — 完成度自查
-> 上一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/10_references.md|10_references]]
-> 下一章：[[03_stellar-nucleosynthesis/0002_trimble-1975/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0002_trimble-1975`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
@@ -13,21 +11,21 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 11 个（✅） |
-| **合计** | **14 个分析文件，1479 行** |
+| **合计** | **14 个分析文件，1607 行** |
 
 ## 覆盖统计
 
 | 项目 | 数量 | 说明 |
 |---|---|---|
 | §1 标题数 | 14 | 主章节数 |
-| §2 标题数 | 103 | 分节数 |
-| §3 标题数 | 71 | 子分节数 |
+| §2 标题数 | 97 | 分节数 |
+| §3 标题数 | 68 | 子分节数 |
 | 图 (Figure) | 7 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
 | 表 (Table) | 2 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 163 | 事实陈述 |
-| [INTERPRETATION] | 27 | 解读 |
-| [CRITIQUE] | 29 | 批判 |
+| [FACT] | 169 | 事实陈述 |
+| [INTERPRETATION] | 31 | 解读 |
+| [CRITIQUE] | 33 | 批判 |
 
 ## 完成度评分
 

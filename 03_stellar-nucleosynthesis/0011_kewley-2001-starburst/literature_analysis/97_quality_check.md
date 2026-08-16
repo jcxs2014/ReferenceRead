@@ -1,6 +1,4 @@
 # 97. Quality Check — 完成度自查
-> 上一章：[[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/01_analysis.md|01_analysis]]
-> 下一章：[[03_stellar-nucleosynthesis/0011_kewley-2001-starburst/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0011_kewley-2001-starburst`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
@@ -13,7 +11,7 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 2 个（✅） |
-| **合计** | **5 个分析文件，1091 行** |
+| **合计** | **5 个分析文件，1102 行** |
 
 ## 覆盖统计
 

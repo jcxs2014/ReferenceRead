@@ -1,6 +1,4 @@
 # 97. Quality Check — 完成度自查
-> 上一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/10_references_conclusions.md|10_references_conclusions]]
-> 下一章：[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0005_amato-2014`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
@@ -13,7 +11,7 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 11 个（✅） |
-| **合计** | **14 个分析文件，1593 行** |
+| **合计** | **14 个分析文件，1603 行** |
 
 ## 覆盖统计
 

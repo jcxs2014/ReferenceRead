@@ -1,6 +1,4 @@
 # 97. Quality Check — 完成度自查
-> 上一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/10_references.md|10_references]]
-> 下一章：[[03_stellar-nucleosynthesis/0005_champagne-wiescher-1992/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0005_champagne-wiescher-1992`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
@@ -13,21 +11,21 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 11 个（✅） |
-| **合计** | **14 个分析文件，2374 行** |
+| **合计** | **14 个分析文件，2460 行** |
 
 ## 覆盖统计
 
 | 项目 | 数量 | 说明 |
 |---|---|---|
 | §1 标题数 | 14 | 主章节数 |
-| §2 标题数 | 106 | 分节数 |
-| §3 标题数 | 142 | 子分节数 |
+| §2 标题数 | 103 | 分节数 |
+| §3 标题数 | 136 | 子分节数 |
 | 图 (Figure) | 35 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
 | 表 (Table) | 2 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 335 | 事实陈述 |
-| [INTERPRETATION] | 10 | 解读 |
-| [CRITIQUE] | 24 | 批判 |
+| [FACT] | 333 | 事实陈述 |
+| [INTERPRETATION] | 15 | 解读 |
+| [CRITIQUE] | 32 | 批判 |
 
 ## 完成度评分
 

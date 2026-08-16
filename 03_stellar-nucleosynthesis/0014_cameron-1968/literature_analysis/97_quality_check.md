@@ -1,6 +1,4 @@
 # 97. Quality Check — 完成度自查
-> 上一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/03_nucleosynthesis_implications.md|03_nucleosynthesis_implications]]
-> 下一章：[[03_stellar-nucleosynthesis/0014_cameron-1968/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0014_cameron-1968`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
@@ -13,21 +11,21 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 4 个（✅） |
-| **合计** | **6 个分析文件，1177 行** |
+| **合计** | **7 个分析文件，1230 行** |
 
 ## 覆盖统计
 
 | 项目 | 数量 | 说明 |
 |---|---|---|
-| §1 标题数 | 9 | 主章节数 |
-| §2 标题数 | 32 | 分节数 |
+| §1 标题数 | 10 | 主章节数 |
+| §2 标题数 | 36 | 分节数 |
 | §3 标题数 | 15 | 子分节数 |
-| 图 (Figure) | 20 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
-| 表 (Table) | 53 | 同上 |
+| 图 (Figure) | 21 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 54 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 171 | 事实陈述 |
-| [INTERPRETATION] | 26 | 解读 |
-| [CRITIQUE] | 19 | 批判 |
+| [FACT] | 166 | 事实陈述 |
+| [INTERPRETATION] | 28 | 解读 |
+| [CRITIQUE] | 21 | 批判 |
 
 ## 完成度评分
 

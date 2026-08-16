@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **38 篇文献**、**385 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **51 篇文献**、**530 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -85,6 +85,19 @@
 | 目录 | [`01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0006_ruszkowski-pfrommer-2023/literature_analysis/99_final_summary.md) |
+
+### `0007_drury-1983`
+
+**An introduction to the theory of diffusive shock acceleration of energetic particles in tenuous plasmas**
+
+|  |  |
+|---|---|
+| 作者 | L. O'C. Drury |
+| 期刊 |  |
+| 分析文件 | 11 个（00_overview.md、01_introduction.md、02_basic_theory.md、03_shock_kinematics.md、04_diffusive_acceleration.md、…等 11 个） |
+| 目录 | [`01_cosmic-ray-propagation/0007_drury-1983/literature_analysis/`](01_cosmic-ray-propagation/0007_drury-1983/literature_analysis/) |
+| 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0007_drury-1983/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0007_drury-1983/literature_analysis/99_final_summary.md) |
 
 ---
 
@@ -284,6 +297,71 @@
 | 目录 | [`02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0015_telescope-array-2023/literature_analysis/99_final_summary.md) |
+
+### `0016_caprioli-2014`
+
+**Simulations of Ion Acceleration at Non-Relativistic Shocks. I. Acceleration Efficiency**
+
+|  |  |
+|---|---|
+| 作者 | D. Caprioli, A. Spitkovsky |
+| 期刊 | The Astrophysical Journal, **783**, 91 (17pp), 2014 |
+| 分析文件 | 13 个（00_overview.md、01_introduction.md、02_diffusive_shock_acceleration.md、03_supra_thermal_particles.md、04_acceleration_efficiency.md、…等 13 个） |
+| 目录 | [`02_cosmic-ray-origins/0016_caprioli-2014/literature_analysis/`](02_cosmic-ray-origins/0016_caprioli-2014/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0016_caprioli-2014/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0016_caprioli-2014/literature_analysis/99_final_summary.md) |
+
+### `0017_caprioli-2014-ii`
+
+**Simulations of Ion Acceleration at Non-Relativistic Shocks. II. Magnetic Field Amplification**
+
+|  |  |
+|---|---|
+| 作者 | D. Caprioli, A. Spitkovsky |
+| 期刊 | The Astrophysical Journal, **794**, 46 (12pp), 2014 |
+| 分析文件 | 10 个（00_overview.md、01_introduction.md、02_hybrid_simulations.md、03_magnetic_field_amplification.md、04_turbulence_spectrum.md、…等 10 个） |
+| 目录 | [`02_cosmic-ray-origins/0017_caprioli-2014-ii/literature_analysis/`](02_cosmic-ray-origins/0017_caprioli-2014-ii/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0017_caprioli-2014-ii/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0017_caprioli-2014-ii/literature_analysis/99_final_summary.md) |
+
+### `0018_kotera-olinto-2011`
+
+**The Astrophysics of Ultrahigh Energy Cosmic Rays**
+
+|  |  |
+|---|---|
+| 作者 | Kumiko Kotera, Angela V. Olinto |
+| 期刊 |  |
+| 分析文件 | 11 个（00_overview.md、01_1_introduction.md、02_2_observations.md、03_3_propagation.md、04_4_transition.md、…等 11 个） |
+| 目录 | [`02_cosmic-ray-origins/0018_kotera-olinto-2011/literature_analysis/`](02_cosmic-ray-origins/0018_kotera-olinto-2011/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0018_kotera-olinto-2011/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0018_kotera-olinto-2011/literature_analysis/99_final_summary.md) |
+
+### `0019_bell-1978-ii`
+
+**The acceleration of cosmic rays in shock fronts — II**
+
+|  |  |
+|---|---|
+| 作者 | A. R. Bell |
+| 期刊 |  |
+| 分析文件 | 5 个（00_overview.md、01_introduction.md、97_quality_check.md、98_vocabulary.md、99_final_summary.md） |
+| 目录 | [`02_cosmic-ray-origins/0019_bell-1978-ii/literature_analysis/`](02_cosmic-ray-origins/0019_bell-1978-ii/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0019_bell-1978-ii/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0019_bell-1978-ii/literature_analysis/99_final_summary.md) |
+
+### `0020_giacalone-2017`
+
+**The Acceleration of Charged Particles at a Spherical Shock Moving through an Irregular Magnetic Field**
+
+|  |  |
+|---|---|
+| 作者 | J. Giacalone |
+| 期刊 | The Astrophysical Journal, **848**, 123 (13pp), 2017 |
+| 分析文件 | 11 个（00_overview.md、01_introduction.md、02_numerical_model.md、03_results.md、04_implications.md、…等 11 个） |
+| 目录 | [`02_cosmic-ray-origins/0020_giacalone-2017/literature_analysis/`](02_cosmic-ray-origins/0020_giacalone-2017/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0020_giacalone-2017/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0020_giacalone-2017/literature_analysis/99_final_summary.md) |
 
 ---
 
@@ -510,15 +588,105 @@
 | 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0017_kaeppeler-2011/literature_analysis/99_final_summary.md) |
 
+### `0018_arnould-goriely-2003`
+
+**The p-process of stellar nucleosynthesis: astrophysics and nuclear physics status**
+
+|  |  |
+|---|---|
+| 作者 | Marcel Arnould, Steven Goriely |
+| 期刊 | Physics Reports 384 (2003) 1–84 |
+| 分析文件 | 14 个（00_overview.md、01_introduction.md、02_observed_abundances.md、03_nuclear_physics.md、04_pre_sn_production.md、…等 14 个） |
+| 目录 | [`03_stellar-nucleosynthesis/0018_arnould-goriely-2003/literature_analysis/`](03_stellar-nucleosynthesis/0018_arnould-goriely-2003/literature_analysis/) |
+| 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0018_arnould-goriely-2003/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0018_arnould-goriely-2003/literature_analysis/99_final_summary.md) |
+
+### `0019_sneden-cowan-2008`
+
+**Neutron-Capture Elements in the Early Galaxy**
+
+|  |  |
+|---|---|
+| 作者 | Christopher Sneden¹, John J. Cowan², Roberto Gallino³ |
+| 期刊 | Annual Review of Astronomy and Astrophysics |
+| 分析文件 | 13 个（00_overview.md、01_introduction.md、02_heavy_element_formation.md、03_solar_system_abundances.md、04_r_process_observations.md、…等 13 个） |
+| 目录 | [`03_stellar-nucleosynthesis/0019_sneden-cowan-2008/literature_analysis/`](03_stellar-nucleosynthesis/0019_sneden-cowan-2008/literature_analysis/) |
+| 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0019_sneden-cowan-2008/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0019_sneden-cowan-2008/literature_analysis/99_final_summary.md) |
+
+### `0020_nomoto-2013`
+
+**Nucleosynthesis in Stars and the Chemical Enrichment of Galaxies**
+
+|  |  |
+|---|---|
+| 作者 | K. Nomoto¹, C. Kobayashi², N. Tominaga³ |
+| 期刊 | Annu. Rev. Astron. Astrophys. **51**, 457–509 (2013) |
+| 分析文件 | 14 个（00_overview.md、01_introduction.md、02_agb_stars.md、03_ccsn_nucleosynthesis.md、04_massive_stars.md、…等 14 个） |
+| 目录 | [`03_stellar-nucleosynthesis/0020_nomoto-2013/literature_analysis/`](03_stellar-nucleosynthesis/0020_nomoto-2013/literature_analysis/) |
+| 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0020_nomoto-2013/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0020_nomoto-2013/literature_analysis/99_final_summary.md) |
+
+### `0021_karakas-lattanzio-2014`
+
+****
+
+|  |  |
+|---|---|
+| 作者 |  |
+| 期刊 |  |
+| 分析文件 | 15 个（00_overview.md、01_introduction.md、02_preagb.md、03_agb_tp_hbb.md、04_tdu.md、…等 15 个） |
+| 目录 | [`03_stellar-nucleosynthesis/0021_karakas-lattanzio-2014/literature_analysis/`](03_stellar-nucleosynthesis/0021_karakas-lattanzio-2014/literature_analysis/) |
+| 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0021_karakas-lattanzio-2014/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0021_karakas-lattanzio-2014/literature_analysis/99_final_summary.md) |
+
+### `0022_busso-1999`
+
+**Nucleosynthesis in Asymptotic Giant Branch Stars: Relevance for Galactic Enrichment and Solar System Formation**
+
+|  |  |
+|---|---|
+| 作者 | M. Busso, R. Gallino, G. J. Wasserburg |
+| 期刊 |  |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_stellar_evolution_prior_agb.md、03_agb_and_slow_n_capture.md、04_low_mass_agb_evolution.md、…等 9 个） |
+| 目录 | [`03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/`](03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/) |
+| 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/00_overview.md) |
+
+### `0023_eichler-1989`
+
+**Nucleosynthesis, neutrino bursts and γ-rays from coalescing neutron stars**
+
+|  |  |
+|---|---|
+| 作者 | David Eichner, Mario Livio, Tsvi Piran, David N. Schramm |
+| 期刊 |  |
+| 分析文件 | 5 个（00_overview.md、01_eichler-1989.md、97_quality_check.md、98_vocabulary.md、99_final_summary.md） |
+| 目录 | [`03_stellar-nucleosynthesis/0023_eichler-1989/literature_analysis/`](03_stellar-nucleosynthesis/0023_eichler-1989/literature_analysis/) |
+| 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0023_eichler-1989/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0023_eichler-1989/literature_analysis/99_final_summary.md) |
+
+### `0024_nomoto-suzuki-2014`
+
+**Supernova Yields for Chemical Evolution Modeling**
+
+|  |  |
+|---|---|
+| 作者 | K. Nomoto¹ (Kavli IPMU / University of Tokyo)；T. Suzuki² (College of Engineering, Chubu University) |
+| 期刊 | Proc. IAU Symp. **298** (Setting the scene for Gaia and LAMOST), 154–166 |
+| 分析文件 | 14 个（00_overview.md、01_introduction.md、02_progenitor_energy.md、03_8_10msun_ecsn.md、04_10_13msun_faint.md、…等 14 个） |
+| 目录 | [`03_stellar-nucleosynthesis/0024_nomoto-suzuki-2014/literature_analysis/`](03_stellar-nucleosynthesis/0024_nomoto-suzuki-2014/literature_analysis/) |
+| 概览 | [`00_overview.md`](03_stellar-nucleosynthesis/0024_nomoto-suzuki-2014/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](03_stellar-nucleosynthesis/0024_nomoto-suzuki-2014/literature_analysis/99_final_summary.md) |
+
 ---
 
 ## 统计
 
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
-| 01. 宇宙线传播 | 6 | 55 |
-| 02. 宇宙线起源 | 15 | 147 |
-| 03. 恒星核合成与元素丰度 | 17 | 183 |
-| **合计** | **38** | **385** |
+| 01. 宇宙线传播 | 7 | 66 |
+| 02. 宇宙线起源 | 20 | 197 |
+| 03. 恒星核合成与元素丰度 | 24 | 267 |
+| **合计** | **51** | **530** |
 
-> 最后更新: 2026-08-15（自动生成）
+> 最后更新: 2026-08-16（自动生成）

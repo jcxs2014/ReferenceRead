@@ -29,7 +29,7 @@ sections:
   - '§3 Linear modifications'
   - '§4 Non-linear modifications'
   - '§5 Concluding remarks'
-analysis_date: 2026-08-16
+analysis_date: '2026-08-16'
 encoding_note: "fulltext.txt 为 ISO-8859-1；已转码为 /tmp/drury_1983_utf8.txt 用于引用。"
 ---
 

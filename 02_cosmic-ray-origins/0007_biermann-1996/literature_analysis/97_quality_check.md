@@ -1,6 +1,4 @@
 # 97. Quality Check — 完成度自查
-> 上一章：[[02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/01_main_text.md|01_main_text]]
-> 下一章：[[02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0007_biermann-1996`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
@@ -13,7 +11,7 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 2 个（✅） |
-| **合计** | **5 个分析文件，874 行** |
+| **合计** | **5 个分析文件，880 行** |
 
 ## 覆盖统计
 

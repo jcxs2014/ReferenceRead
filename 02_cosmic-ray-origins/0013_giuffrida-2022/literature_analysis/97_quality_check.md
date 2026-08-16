@@ -1,33 +1,47 @@
-> 上一章：[[02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/04_methods.md|04_methods]]
-> 下一章：[[02_cosmic-ray-origins/0013_giuffrida-2022/literature_analysis/98_vocabulary.md|98_vocabulary]]
----
-title: "97. Quality Check"
----
+# 97. Quality Check — 完成度自查
 
-## Completeness Check
+> 文献：`0013_giuffrida-2022`
+> 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
 
-| 要求 | 状态 | 说明 |
-|------|------|------|
-| 所有章节覆盖 | ✅ | §1 Introduction, §2 Results (spectral/azimuthal), §3 Discussion, §4 Methods |
-| 所有图表覆盖 | ✅ | Fig 1 (多波段成像), Fig 2 (区域0/5 光谱), Fig 3 (密度/压缩比方位角调制), Fig 4 (置信等高线), Fig 5 (电离参数调制), Fig 6 (磁场梯度修正); Table 1 (拟合参数), Table 2 (观测列表), Table 3 (更新密度) |
-| 所有公式覆盖 | ✅ | $r_t = 5$–$7$、$EM = \bar{n}^2 V$、$\xi_i(\theta_{Bn})$ 平滑阶跃公式（原文公式 1）、$r_t = 6.34$ + CR 谱 $E^{-2.19}$ |
-| 所有数值覆盖 | ✅ | Table 1 完整 12 行参数、$v_s \approx 5000$ km s$^{-1}$、$r_t = 4 \to 7$、$kT = 1.35$ keV、$\xi_{\rm tot} = 18\%$ |
-| 与 00_overview 无逐字重复 | ✅ | 00 为元数据 + 一句总览 |
+## 文件清单
 
-## 关键数值校验
+| 组件 | 状态 |
+|---|---|
+| 00_overview.md | ✅ |
+| 99_final_summary.md | ✅ |
+| 98_vocabulary.md | ✅ |
+| 正文章节文件 | 5 个（✅） |
+| **合计** | **8 个分析文件，650 行** |
 
-- 区域 0 $n_{ISM} = 0.164 \pm 0.016$ cm$^{-3}$（对应 $r_t = 4$）✅
-- 区域 +4 $n_{ISM} = 0.34 \pm 0.13$ cm$^{-3}$（对应 $r_t \approx 7$）✅
-- Chandra 总曝光 669.85 + 68.87 = 738.72 ks ✅
-- XMM-Newton 曝光 MOS1 89, MOS2 94, pn 51 ks ✅
-- 模型参数 $p = 12\%$, $\xi_s = 6\%$, $\xi_B = 5\%$ → $r_t = 6.34$, 谱 $E^{-2.19}$ ✅
-- 射电观测 CR 谱 $E^{-2.2}$ vs 模型 $E^{-2.19}$ ✅
-- 银河系 SN 率 2/世纪，每次 $10^{51}$ erg，所需功率 $10^{41}$ erg s$^{-1}$ ✅
-- 总效率 18% 对应功率 $\sim 6 \times 10^{40}$ erg s$^{-1}$ ✅
+## 覆盖统计
 
-## 分章独立内容确认
+| 项目 | 数量 | 说明 |
+|---|---|---|
+| §1 标题数 | 1 | 主章节数 |
+| §2 标题数 | 52 | 分节数 |
+| §3 标题数 | 9 | 子分节数 |
+| 图 (Figure) | 7 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
+| 表 (Table) | 7 | 同上 |
+| 公式 | 0 | LaTeX 行内/独立公式计数 |
+| [FACT] | 31 | 事实陈述 |
+| [INTERPRETATION] | 3 | 解读 |
+| [CRITIQUE] | 2 | 批判 |
 
-- §1：SNR 作为 CR 工厂的能量预算论证、非线性 DSA 基本框架、SN 1006 作为理想目标的六条理由
-- §2：Table 1 完整 12 区域参数表、污染控制验证（面积变化±25% 密度不变）、上游不均匀性反证
-- §3：三条理论曲线参数对比、CR 谱指数定量验证、磁场梯度修正（Figure 6）
-- §4：XMM-Newton/Chandra 数据处理细节、体积计算 0.4% 精度验证、公式 1 参数表
+## 完成度评分
+
+| 维度 | 得分 | 满分 |
+|---|---|---|
+| 元数据 (00_overview) | 1 | 1 |
+| 总结 (99_final_summary) | 1 | 1 |
+| 词汇表 (98_vocabulary) | 1 | 1 |
+| 正文覆盖 | 2 | 2 |
+| 图表完整性 | 2 | 2 |
+| 批判性分析 | 1 | 2 |
+| 公式完整性 | 0 | 1 |
+| **总分** | **7 / 10** | |
+
+## 建议
+
+- 该论文精读**基本完整**（7/10）。
+
+*（本页由 `scripts/gen_quality_check.py` 自动生成）*

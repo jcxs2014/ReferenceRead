@@ -1,6 +1,4 @@
 # 97. Quality Check — 完成度自查
-> 上一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/04_references.md|04_references]]
-> 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/98_vocabulary.md|98_vocabulary]]
 
 > 文献：`0001_strong-moskalenko-ptuskin-2007`
 > 自动生成：统计 `literature_analysis/` 下所有 Markdown 文件。
@@ -13,7 +11,7 @@
 | 99_final_summary.md | ✅ |
 | 98_vocabulary.md | ✅ |
 | 正文章节文件 | 5 个（✅） |
-| **合计** | **8 个分析文件，2220 行** |
+| **合计** | **8 个分析文件，2196 行** |
 
 ## 覆盖统计
 
@@ -25,7 +23,7 @@
 | 图 (Figure) | 17 | `[FACT]/[INTERPRETATION]/[CRITIQUE]` 中的图表引用 |
 | 表 (Table) | 1 | 同上 |
 | 公式 | 0 | LaTeX 行内/独立公式计数 |
-| [FACT] | 230 | 事实陈述 |
+| [FACT] | 229 | 事实陈述 |
 | [INTERPRETATION] | 2 | 解读 |
 | [CRITIQUE] | 2 | 批判 |
 
