@@ -41,7 +41,7 @@
 | 洋葱分层 (onion-skin) | 25 $M_\odot$ 恒星从外到内 H→He→C→Ne→O→Si 依次燃烧 | 高频 | §06 |
 | 弱相互作用速率 (weak rates) | 涉及 Z 或 N 改变的反应速率；FFN (Fuller-Fowler-Newman) 数据库 | 高频 | §07 |
 | FFN 弱速率表 | Fuller, Fowler, Newman (1980–1984) 给出的弱相互作用速率数据库 | 高频 | §07 |
-| 有效 ft 值 (effective ft) | 弱衰变参量，log ft=5 对应 ⟨|M_F|$^{2}$⟩ = 0.062, ⟨|M_GT|$^{2}$⟩ = 0.039 | 中频 | §07 |
+| 有效 ft 值 (effective ft) | 弱衰变参量，log ft=5 对应 ⟨\|M_F\|$^{2}$⟩ = 0.062, ⟨\|M_GT\|$^{2}$⟩ = 0.039 | 中频 | §07 |
 | Hauser-Feshbach 统计模型 | 用于共振密集区域（如 Si 燃烧）的统计核反应截面方法 | 中频 | §06 |
 | FCZ 反应速率表 | Fowler, Caughlan, Zimmerman (1967/1975) 的现代核合成速率标准 | 高频 | §02 |
 | Caughlan-Fowler (1988) | 完整实验核天体物理反应速率汇编 (ADNDDT 40, 283) | 中频 | §00 |

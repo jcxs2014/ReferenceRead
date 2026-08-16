@@ -12,26 +12,26 @@
 | however | adv. | 转折 | 然而 | "...the values for Li, Be in the photosphere ... are **however** systematically low." | 先陈述一致性，再指出 Li/Be 反常 |
 | whereas | conj. | 对比 | 而 | "CI meteorites retain the bulk composition, **whereas** volatile elements are lost." | 对比陨石对难熔与挥发元素的不同保留 |
 | consequently | adv. | 因果 | 因此 | "Fe depletion in interstellar gas ... **consequently**, Fe may be more in mixed amorphous grains." | 前句是原因，本句推论 |
-| thus | adv. | 因果 | 从而 | "the smoothness hypothesis is seen to be a **nuclear** rather than a chemical effect, **thus** its validity in the 10–20% range fails." |
-| hence | adv. | 因果 | 因此 | "C1 provides the smoothest isotope-abundance curve; **hence** it is the reference standard." |
-| therefore | adv. | 因果 | 因此 | "the $Fe_{3}$$O_{4}$ mechanism alone cannot explain ... **therefore** Fe may be in mixed grains." |
-| although | conj. | 让步 | 尽管 | "**Although** the Q/M correction reduces the Fe discrepancy, it relies on Fe itself." |
-| despite | prep. | 让步 | 尽管 | "**Despite** the good agreement for most elements, five problem elements remain." |
-| nonetheless | adv. | 让步 | 尽管如此 | "The data are consistent within uncertainties; **nonetheless**, systematics must be checked." |
-| furthermore | adv. | 递进 | 而且 | "C1 escapes chemical fractionation; **furthermore**, it gives the smoothest curve." |
-| moreover | adv. | 递进 | 而且 | "C, N, O values are now solar-only; **moreover**, high-precision transition probabilities have improved them." |
+| thus | adv. | 因果 | 从而 | "the smoothness hypothesis is seen to be a **nuclear** rather than a chemical effect, **thus** its validity in the 10–20% range fails." |  |
+| hence | adv. | 因果 | 因此 | "C1 provides the smoothest isotope-abundance curve; **hence** it is the reference standard." |  |
+| therefore | adv. | 因果 | 因此 | "the $Fe_{3}$$O_{4}$ mechanism alone cannot explain ... **therefore** Fe may be in mixed grains." |  |
+| although | conj. | 让步 | 尽管 | "**Although** the Q/M correction reduces the Fe discrepancy, it relies on Fe itself." |  |
+| despite | prep. | 让步 | 尽管 | "**Despite** the good agreement for most elements, five problem elements remain." |  |
+| nonetheless | adv. | 让步 | 尽管如此 | "The data are consistent within uncertainties; **nonetheless**, systematics must be checked." |  |
+| furthermore | adv. | 递进 | 而且 | "C1 escapes chemical fractionation; **furthermore**, it gives the smoothest curve." |  |
+| moreover | adv. | 递进 | 而且 | "C, N, O values are now solar-only; **moreover**, high-precision transition probabilities have improved them." |  |
 | however | adv. | 限定 | 在……方面 | "All departures < 1$\sigma$; **however**, the $Fe_{3}$$O_{4}$ mechanism is not fully established." | 弱化前述结论 |
-| albeit | conj. | 让步 | 虽然 | "Ag-Cd irregularity persists, **albeit** only at 7%." |
-| owing to | prep. | 因果 | 由于 | "**Owing to** the deep gravity potential of neutron stars, the Fe/Si ratio is depressed." |
-| insofar as | conj. | 限定 | 在……范围内 | "C1 is reliable **insofar as** volatile element losses are small." |
-| for instance | phr. | 举例 | 例如 | "problem elements, **for instance** Ge, Pb, W, Fe, Mn." |
-| namely | adv. | 举例 | 即 | "three groups of discrepant elements: (A) nuclear, **namely** Li, Be; (B) poor data; (C) real problems." |
-| such as | phr. | 举例 | 例如 | "elements with mixed lines, **such as** B, F, Ag, In, Hf." |
-| in summary | phr. | 结论 | 总之 | §12 结论处用 |
-| overall | adv. | 结论 | 总体而言 | "**Overall** consistency between photospheric and meteoritic abundances is extremely good." |
-| initially | adv. | 时序 | 最初 | "The $Fe_{3}$$O_{4}$ mechanism was **initially** proposed by ..." |
-| subsequently | adv. | 时序 | 随后 | "New Sm II lifetimes ... **subsequently** resolved the solar-meteoritic discrepancy." |
-| given that | conj. | 条件因果 | 鉴于 | "**Given that** Q/M correction relies on Fe, SEP cannot solve the Fe problem." |
+| albeit | conj. | 让步 | 虽然 | "Ag-Cd irregularity persists, **albeit** only at 7%." |  |
+| owing to | prep. | 因果 | 由于 | "**Owing to** the deep gravity potential of neutron stars, the Fe/Si ratio is depressed." |  |
+| insofar as | conj. | 限定 | 在……范围内 | "C1 is reliable **insofar as** volatile element losses are small." |  |
+| for instance | phr. | 举例 | 例如 | "problem elements, **for instance** Ge, Pb, W, Fe, Mn." |  |
+| namely | adv. | 举例 | 即 | "three groups of discrepant elements: (A) nuclear, **namely** Li, Be; (B) poor data; (C) real problems." |  |
+| such as | phr. | 举例 | 例如 | "elements with mixed lines, **such as** B, F, Ag, In, Hf." |  |
+| in summary | phr. | 结论 | 总之 | §12 结论处用 |  |
+| overall | adv. | 结论 | 总体而言 | "**Overall** consistency between photospheric and meteoritic abundances is extremely good." |  |
+| initially | adv. | 时序 | 最初 | "The $Fe_{3}$$O_{4}$ mechanism was **initially** proposed by ..." |  |
+| subsequently | adv. | 时序 | 随后 | "New Sm II lifetimes ... **subsequently** resolved the solar-meteoritic discrepancy." |  |
+| given that | conj. | 条件因果 | 鉴于 | "**Given that** Q/M correction relies on Fe, SEP cannot solve the Fe problem." |  |
 
 ## B. 领域术语（本篇特有）
 

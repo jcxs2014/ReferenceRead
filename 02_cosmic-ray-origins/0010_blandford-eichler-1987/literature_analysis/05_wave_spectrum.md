@@ -104,7 +104,7 @@ B&E 指出：对于足够强的激波，**波振幅必然达到非线性水平**
 | — | Kolmogorov：$D_\parallel \propto v \, p^{-3}$ | §5.1 | Kolmogorov 谱下的扩散 |
 | — | Kraichnan：$D_\parallel \propto v \, p^{-2}$ | §5.1 | Kraichnan 谱下的扩散 |
 | 5.2 | 线性化 Vlasov 方程（波场中）| §5.1 | 波生长率的起点 |
-| — | $\gamma \propto (\partial f_0 / \partial p)|_{kv_\parallel = \Omega}$ | §5.1 | 共振生长率 |
+| — | $\gamma \propto (\partial f_0 / \partial p)\big\big|_{kv_\parallel = \Omega}$ | §5.1 | 共振生长率 |
 | 5.4 | $j_\perp = Ze \int d\mathbf{p}' f_1 v'_\perp$ | §5.1 | 垂直电流 |
 | 5.6 | Plemelj 共振贡献 | §5.1 | 共振电流的提取 |
 

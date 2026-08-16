@@ -311,23 +311,23 @@ path: background/00_key_values.md
 | 5 个问题元素（A&G 89 陨石-太阳差，dex） | Fe +0.16, Mn −0.14, Ge −0.25, Pb −0.25, W +0.43 | Anders & Grevesse 1989 |
 | 陨石-太阳一致度（AGSS09 vs CI） | 45 元素均值差 0.00 ± 0.05 dex | AGSS09 |
 | Li 太阳亏缺 | ~150×（陨石 vs 光球差 2.21 dex） | AGSS09 |
-| 太阳-陨石（GS98） | 除 Li 外全部 |Ph − Met| < 0.3 dex | Grevesse & Sauval 1998 |
-| Li 悖论（GS98） | 光球 Li 比原太阳少 160 倍 | — | Grevesse & Sauval 1998 |
-| 沉降修正（Lodders 2003） | 大气比原太阳金属度低 ~16%；$A(\text{El})_0 = A(\text{El}) + 0.074$ | — | Lodders 2003 |
-| Z/X 演化趋势 | AG89 0.0274 → AGS05 0.0165 → AGSS09 0.0181 | — | AGSS09 |
-| 原太阳扩散修正 | $+0.04$ dex（Z > He）、$+0.05$ dex（He） | — | AGSS09 |
-| 太阳金属性组成 | O 47%、C 17%、N 5% | — | Grevesse & Sauval 1998 |
-| C/O 比（AGSS09） | $10^{8.43-8.69}=0.28<1$ → 富 O 型 | — | AGSS09 |
-| 光球 R_BCZ（AGSS09 vs 日震） | 0.725 vs 0.7133 R⊙（张力未解） | — | AGSS09 |
-| Y_S（AGSS09 vs 日震） | 0.238 vs 0.249 | — | AGSS09 |
-| 恢复日震吻合需不透明度上调 | 10–20%（或 12%） | — | AGSS09 |
-| 陨石数据精度 | ±0.01–0.04 dex（比光球高一个量级） | — | Grevesse & Sauval 1998 |
-| 光球不确定度 | ±0.05–0.15 dex | — | Grevesse & Sauval 1998 |
-| 对流区底部迁移效应 | 10–15%（看不到） | — | Grevesse & Sauval 1998 |
-| 陨石换算公式（AGSS09） | $\log\varepsilon_X = 1.51 + \log N_X$（以 Si=7.51 归一） | — | AGSS09 |
-| 冰的冷凝温度（Lodders 2003，$10^{-4}$ bar） | $H_{2}$O 182 K（平衡）/ 121 K（抑制）；C 41 K（平衡）/ 626 K（石墨）；N 131 K / 58 K | — | Lodders 2003 |
-| 主量元素冷凝温度（Lodders 2003） | A$l_{2}$$O_{3}$ 1677 K → Fe 1357 K → Troilite 704 K → Magnetite 371 K → $H_{2}$O 182 K | — | Lodders 2003 |
-| 太阳系冷凝温度 | 大气 T + ~10 K | — | Lodders 2003 |
+| 太阳-陨石（GS98） | 除 Li 外全部 \|Ph − Met\| < 0.3 dex | Grevesse & Sauval 1998 |
+| Li 悖论（GS98） | 光球 Li 比原太阳少 160 倍 | Grevesse & Sauval 1998 |
+| 沉降修正（Lodders 2003） | 大气比原太阳金属度低 ~16%；$A(\text{El})_0 = A(\text{El}) + 0.074$ | Lodders 2003 |
+| Z/X 演化趋势 | AG89 0.0274 → AGS05 0.0165 → AGSS09 0.0181 | AGSS09 |
+| 原太阳扩散修正 | $+0.04$ dex（Z > He）、$+0.05$ dex（He） | AGSS09 |
+| 太阳金属性组成 | O 47%、C 17%、N 5% | Grevesse & Sauval 1998 |
+| C/O 比（AGSS09） | $10^{8.43-8.69}=0.28<1$ → 富 O 型 | AGSS09 |
+| 光球 R_BCZ（AGSS09 vs 日震） | 0.725 vs 0.7133 R⊙（张力未解） | AGSS09 |
+| Y_S（AGSS09 vs 日震） | 0.238 vs 0.249 | AGSS09 |
+| 恢复日震吻合需不透明度上调 | 10–20%（或 12%） | AGSS09 |
+| 陨石数据精度 | ±0.01–0.04 dex（比光球高一个量级） | Grevesse & Sauval 1998 |
+| 光球不确定度 | ±0.05–0.15 dex | Grevesse & Sauval 1998 |
+| 对流区底部迁移效应 | 10–15%（看不到） | Grevesse & Sauval 1998 |
+| 陨石换算公式（AGSS09） | $\log\varepsilon_X = 1.51 + \log N_X$（以 Si=7.51 归一） | AGSS09 |
+| 冰的冷凝温度（Lodders 2003，$10^{-4}$ bar） | $H_{2}$O 182 K（平衡）/ 121 K（抑制）；C 41 K（平衡）/ 626 K（石墨）；N 131 K / 58 K | Lodders 2003 |
+| 主量元素冷凝温度（Lodders 2003） | A$l_{2}$$O_{3}$ 1677 K → Fe 1357 K → Troilite 704 K → Magnetite 371 K → $H_{2}$O 182 K | Lodders 2003 |
+| 太阳系冷凝温度 | 大气 T + ~10 K | Lodders 2003 |
 
 ### 3.4 早 B 星 CNO 丰度（Gies & Lambert 1992）
 

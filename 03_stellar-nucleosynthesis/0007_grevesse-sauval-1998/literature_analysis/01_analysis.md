@@ -490,7 +490,7 @@ $$\boxed{X = 0.735, \quad Y = 0.248, \quad Z = 0.017, \quad Z/X = 0.023}$$
 | 48 | $Z_{\rm 1998} < Z_{\rm 1996}$ （因 CNO 新值略降） | 1998 版金属丰度比 1996 版略小（§6，原文 p.172） |
 | 49 | $T(\log\tau=-3)_{\rm new} = T_{\rm HM74}(\log\tau=-3) - 200\,\rm K$ | 修正模型浅层温度显式（§4.5，原文 p.168） |
 | 50 | $N_{\rm Fe\,I}^{\rm lines} = 65$ | Figure 1、2 采用 65 条 Fe I 线（§4.5，原文 p.169） |
-| 51 | $|\text{A_{el}^{sun} - A_{el}^{CI}}| \le \sigma_{\rm sun}$ | 除 Li 外所有元素太阳-陨石差异 ≤ 光球误差（§5 Fig.3，原文 p.171） |
+| 51 | $\lvert\text{A_{el}^{sun} - A_{el}^{CI}}\rvert \le \sigma_{\rm sun}$ | 除 Li 外所有元素太阳-陨石差异 ≤ 光球误差（§5 Fig.3，原文 p.171） |
 
 
 ---

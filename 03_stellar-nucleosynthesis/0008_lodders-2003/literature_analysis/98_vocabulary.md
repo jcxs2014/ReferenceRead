@@ -9,30 +9,30 @@
 
 | 单词 | 词性 | 逻辑功能 | 中文 | 原文例句 | 逻辑说明 |
 |------|------|----------|------|----------|----------|
-| however | adv. | 转折 | 然而 | "Old Z/X ≈ 0.0245; **however**, Allende Prieto's new C, O yield Z/X = 0.0177." |
-| whereas | conj. | 对比 | 而 | "Photospheric values are present-day, **whereas** solar-system values are protosolar (4.55 Gyr ago)." |
-| consequently | adv. | 因果 | 因此 | "C, O are depressed; **consequently**, metallicity and condensation temperatures must be recomputed." |
-| thus | adv. | 因果 | 从而 | "$fO_{2}$ drops by a factor of 2; **thus**, all oxide condensation temperatures decrease by ~10 K." |
-| hence | adv. | 因果 | 因此 | "The 0.8429 factor applies to all elements except H, He; **hence**, A(El)$_{0}$ = A(El) + 0.074." |
-| therefore | adv. | 因果 | 因此 | "CONDOR solves all 83 elements simultaneously; **therefore**, trace chemistry is self-consistently determined." |
-| although | conj. | 让步 | 尽管 | "**Although** meteoritic rock-forming elements agree with the photosphere, this does not preclude heavy-element settling." |
-| despite | prep. | 让步 | 尽管 | "**Despite** 23 years of solar-model development, Z/X has dropped by 34%." |
-| nonetheless | adv. | 让步 | 尽管如此 | "The model requires linear extrapolation to Z/X=0.0177; **nonetheless**, it is the best available scaling." |
-| furthermore | adv. | 递进 | 而且 | "CONDOR treats 2000 gas species; **furthermore**, it includes 1600 condensate phases." |
-| moreover | adv. | 递进 | 而且 | "CI chondrites preserve rock-forming bulk composition; **moreover**, their mineralogy is severely hydrated." |
-| insofar as | conj. | 限定 | 在……范围内 | "50% T is a better volatility index **insofar as** trace-element chemistry is concerned." |
-| owing to | prep. | 因果 | 由于 | "**Owing to** the low C/O ratio, graphite condensation is delayed to very low T." |
-| given that | conj. | 条件因果 | 鉴于 | "**Given that** $H_{2}$O/$H_{2}$ is $~5\times10^{-4}$, $fO_{2}$ is half the Anders & Grevesse (1989) value." |
-| albeit | conj. | 让步 | 虽然 | "The new Ne abundance is 0.2 dex lower, **albeit** within the uncertainties of earlier measurements." |
-| for instance | phr. | 举例 | 例如 | "volatile elements lost in CI, **for instance** H, C, N, O." |
-| namely | adv. | 举例 | 即 | "three condensates: **namely** troilite (FeS), magnetite ($Fe_{3}$$O_{4}$), and water ice." |
-| such as | phr. | 举例 | 例如 | "ultrarefractory elements **such as** W, Re, Os, Ir." |
-| in summary | phr. | 结论 | 总之 | §4 结论处 |
-| overall | adv. | 结论 | 总体而言 | "**Overall**, the condensation sequence is unchanged but shifted ~10 K." |
-| initially | adv. | 时序 | 最初 | "The Ca-Al-Ti phases condense **initially**, forming CAIs." |
-| subsequently | adv. | 时序 | 随后 | "CAIs condense first; **subsequently**, forsterite and enstatite remove Mg and Si." |
-| eventually | adv. | 时序 | 最终 | "FeS eventually condenses at 704 K, removing the bulk of S." |
-| in addition | phr. | 递进 | 此外 | "Major elements condense at ~1350 K; **in addition**, trace elements partition into host phases." |
+| however | adv. | 转折 | 然而 | "Old Z/X ≈ 0.0245; **however**, Allende Prieto's new C, O yield Z/X = 0.0177." |  |
+| whereas | conj. | 对比 | 而 | "Photospheric values are present-day, **whereas** solar-system values are protosolar (4.55 Gyr ago)." |  |
+| consequently | adv. | 因果 | 因此 | "C, O are depressed; **consequently**, metallicity and condensation temperatures must be recomputed." |  |
+| thus | adv. | 因果 | 从而 | "$fO_{2}$ drops by a factor of 2; **thus**, all oxide condensation temperatures decrease by ~10 K." |  |
+| hence | adv. | 因果 | 因此 | "The 0.8429 factor applies to all elements except H, He; **hence**, A(El)$_{0}$ = A(El) + 0.074." |  |
+| therefore | adv. | 因果 | 因此 | "CONDOR solves all 83 elements simultaneously; **therefore**, trace chemistry is self-consistently determined." |  |
+| although | conj. | 让步 | 尽管 | "**Although** meteoritic rock-forming elements agree with the photosphere, this does not preclude heavy-element settling." |  |
+| despite | prep. | 让步 | 尽管 | "**Despite** 23 years of solar-model development, Z/X has dropped by 34%." |  |
+| nonetheless | adv. | 让步 | 尽管如此 | "The model requires linear extrapolation to Z/X=0.0177; **nonetheless**, it is the best available scaling." |  |
+| furthermore | adv. | 递进 | 而且 | "CONDOR treats 2000 gas species; **furthermore**, it includes 1600 condensate phases." |  |
+| moreover | adv. | 递进 | 而且 | "CI chondrites preserve rock-forming bulk composition; **moreover**, their mineralogy is severely hydrated." |  |
+| insofar as | conj. | 限定 | 在……范围内 | "50% T is a better volatility index **insofar as** trace-element chemistry is concerned." |  |
+| owing to | prep. | 因果 | 由于 | "**Owing to** the low C/O ratio, graphite condensation is delayed to very low T." |  |
+| given that | conj. | 条件因果 | 鉴于 | "**Given that** $H_{2}$O/$H_{2}$ is $~5\times10^{-4}$, $fO_{2}$ is half the Anders & Grevesse (1989) value." |  |
+| albeit | conj. | 让步 | 虽然 | "The new Ne abundance is 0.2 dex lower, **albeit** within the uncertainties of earlier measurements." |  |
+| for instance | phr. | 举例 | 例如 | "volatile elements lost in CI, **for instance** H, C, N, O." |  |
+| namely | adv. | 举例 | 即 | "three condensates: **namely** troilite (FeS), magnetite ($Fe_{3}$$O_{4}$), and water ice." |  |
+| such as | phr. | 举例 | 例如 | "ultrarefractory elements **such as** W, Re, Os, Ir." |  |
+| in summary | phr. | 结论 | 总之 | §4 结论处 |  |
+| overall | adv. | 结论 | 总体而言 | "**Overall**, the condensation sequence is unchanged but shifted ~10 K." |  |
+| initially | adv. | 时序 | 最初 | "The Ca-Al-Ti phases condense **initially**, forming CAIs." |  |
+| subsequently | adv. | 时序 | 随后 | "CAIs condense first; **subsequently**, forsterite and enstatite remove Mg and Si." |  |
+| eventually | adv. | 时序 | 最终 | "FeS eventually condenses at 704 K, removing the bulk of S." |  |
+| in addition | phr. | 递进 | 此外 | "Major elements condense at ~1350 K; **in addition**, trace elements partition into host phases." |  |
 
 ## B. 领域术语（本篇特有）
 

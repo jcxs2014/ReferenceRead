@@ -11,27 +11,27 @@
 |------|------|----------|------|----------|----------|
 | however | adv. | 转折 | 然而 | "Li is depleted by a factor 160 ... **however**, Be and B are essentially undestroyed." | 承认 Li 消耗，再指出 Be/B 异常 |
 | whereas | conj. | 对比 | 而 | "Helium is inferred from helioseismology, **whereas** other elements come from spectroscopy." | 对比 He 与其他元素来源 |
-| consequently | adv. | 因果 | 因此 | "Fe I low-excitation lines give higher A(Fe); **consequently**, a model correction is needed." |
-| thus | adv. | 因果 | 从而 | "New Barklem-O'Mara collisional broadenings **thus** reconcile the Fe I and Fe II abundances." |
-| hence | adv. | 因果 | 因此 | "The 10–15% migration signature is not seen; **hence**, photospheric uncertainties remain too large." |
-| therefore | adv. | 因果 | 因此 | "Photospheric and meteoritic values agree; **therefore**, they are combined into the SAD." |
-| although | conj. | 让步 | 尽管 | "**Although** element migration should lower photospheric abundances by 10–15%, this is **not observed**." |
-| despite | prep. | 让步 | 尽管 | "**Despite** the excellent agreement overall, Li shows a 160-fold depletion." |
-| nonetheless | adv. | 让步 | 尽管如此 | "Helium has no photospheric line; **nonetheless**, its abundance is known to ±0.002 from helioseismology." |
-| furthermore | adv. | 递进 | 而且 | "Helioseismology constrains He; **furthermore**, new 3D modeling will refine other elements." |
-| moreover | adv. | 递进 | 而且 | "Solar composition is the benchmark for stellar evolution; **moreover**, it anchors galaxy chemical evolution." |
-| insofar as | conj. | 限定 | 在……范围内 | "Photosphere is the reference, **insofar as** it is the best-mixed and best-studied layer." |
-| owing to | prep. | 因果 | 由于 | "**Owing to** improved transition probabilities, solar-meteorite discrepancies have largely vanished." |
-| given that | conj. | 条件因果 | 鉴于 | "**Given that** the Li-depletion factor is 160, standard convection models cannot explain it." |
-| namely | adv. | 举例 | 即 | "three improvements: (1) atomic data, **namely** A_ij / gf; (2) 3D models; (3) new Fe analysis." |
-| such as | phr. | 举例 | 例如 | "several sources, **such as** Sunspots, SW, SEP, $\gamma$-rays." |
-| for instance | phr. | 举例 | 例如 | "volatiles lost in CI, **for instance** H, C, N, O." |
-| in summary | phr. | 结论 | 总之 | §6 结论处 |
-| overall | adv. | 结论 | 总体而言 | "**Overall**, solar and CI chondrite abundances agree perfectly." |
-| initially | adv. | 时序 | 最初 | "Russell (1929) **initially** quantified the solar atmospheric composition." |
-| subsequently | adv. | 时序 | 随后 | "GMA (1960) **subsequently** established the standard 42-element reference." |
-| eventually | adv. | 时序 | 最终 | "The Fe controversy was **eventually** resolved by the new photospheric model." |
-| in addition | phr. | 递进 | 此外 | "C, N, O are measured from molecular bands; **in addition**, atomic lines contribute." |
+| consequently | adv. | 因果 | 因此 | "Fe I low-excitation lines give higher A(Fe); **consequently**, a model correction is needed." |  |
+| thus | adv. | 因果 | 从而 | "New Barklem-O'Mara collisional broadenings **thus** reconcile the Fe I and Fe II abundances." |  |
+| hence | adv. | 因果 | 因此 | "The 10–15% migration signature is not seen; **hence**, photospheric uncertainties remain too large." |  |
+| therefore | adv. | 因果 | 因此 | "Photospheric and meteoritic values agree; **therefore**, they are combined into the SAD." |  |
+| although | conj. | 让步 | 尽管 | "**Although** element migration should lower photospheric abundances by 10–15%, this is **not observed**." |  |
+| despite | prep. | 让步 | 尽管 | "**Despite** the excellent agreement overall, Li shows a 160-fold depletion." |  |
+| nonetheless | adv. | 让步 | 尽管如此 | "Helium has no photospheric line; **nonetheless**, its abundance is known to ±0.002 from helioseismology." |  |
+| furthermore | adv. | 递进 | 而且 | "Helioseismology constrains He; **furthermore**, new 3D modeling will refine other elements." |  |
+| moreover | adv. | 递进 | 而且 | "Solar composition is the benchmark for stellar evolution; **moreover**, it anchors galaxy chemical evolution." |  |
+| insofar as | conj. | 限定 | 在……范围内 | "Photosphere is the reference, **insofar as** it is the best-mixed and best-studied layer." |  |
+| owing to | prep. | 因果 | 由于 | "**Owing to** improved transition probabilities, solar-meteorite discrepancies have largely vanished." |  |
+| given that | conj. | 条件因果 | 鉴于 | "**Given that** the Li-depletion factor is 160, standard convection models cannot explain it." |  |
+| namely | adv. | 举例 | 即 | "three improvements: (1) atomic data, **namely** A_ij / gf; (2) 3D models; (3) new Fe analysis." |  |
+| such as | phr. | 举例 | 例如 | "several sources, **such as** Sunspots, SW, SEP, $\gamma$-rays." |  |
+| for instance | phr. | 举例 | 例如 | "volatiles lost in CI, **for instance** H, C, N, O." |  |
+| in summary | phr. | 结论 | 总之 | §6 结论处 |  |
+| overall | adv. | 结论 | 总体而言 | "**Overall**, solar and CI chondrite abundances agree perfectly." |  |
+| initially | adv. | 时序 | 最初 | "Russell (1929) **initially** quantified the solar atmospheric composition." |  |
+| subsequently | adv. | 时序 | 随后 | "GMA (1960) **subsequently** established the standard 42-element reference." |  |
+| eventually | adv. | 时序 | 最终 | "The Fe controversy was **eventually** resolved by the new photospheric model." |  |
+| in addition | phr. | 递进 | 此外 | "C, N, O are measured from molecular bands; **in addition**, atomic lines contribute." |  |
 
 ## B. 领域术语（本篇特有）
 

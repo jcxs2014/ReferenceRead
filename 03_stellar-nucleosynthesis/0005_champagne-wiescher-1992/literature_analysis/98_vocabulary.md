@@ -14,24 +14,24 @@
 | consequently | adv. | 因果 | 因此 | "rate may be uncertain by **an order of magnitude**" 之前的 "**consequently**" | 前句是原因，本句是必然结果 |
 | whereas | conj. | 对比 | 而 | "HCNO rates are ... experimental ... **whereas** rp-process rates ... suspect" | 并列对比 HCNO 与 rp 数据质量差异 |
 | although | conj. | 让步 | 虽然 | "**Although** an impressive amount of effort has been devoted ..., a great deal of work remains to be done." | 承认已有进展，但结论不受影响 |
-| even though | conj. | 让步 | 即使 | 用于承认不确定度后仍主张某结论的让步 |
-| moreover | adv. | 递进 | 而且 | 作者累加证据时使用 |
-| furthermore | adv. | 递进 | 进一步 | "The rate is uncertain ...; **furthermore**, the J^$\pi$ assignment is disputed." |
-| nonetheless | adv. | 让步 | 尽管如此 | "The reaction rate is uncertain by a factor of 2–10; **nonetheless**, its dominant contribution is the 447 keV resonance." |
+| even though | conj. | 让步 | 即使 | 用于承认不确定度后仍主张某结论的让步 |  |
+| moreover | adv. | 递进 | 而且 | 作者累加证据时使用 |  |
+| furthermore | adv. | 递进 | 进一步 | "The rate is uncertain ...; **furthermore**, the J^$\pi$ assignment is disputed." |  |
+| nonetheless | adv. | 让步 | 尽管如此 | "The reaction rate is uncertain by a factor of 2–10; **nonetheless**, its dominant contribution is the 447 keV resonance." |  |
 | whereas | conj. | 对比 | 而 | "HCNO cycles are experimentally constrained, **whereas** rp-process rates remain highly suspect." | 对比两类过程数据状态 |
-| despite | prep. | 让步 | 尽管 | "**Despite** the large uncertainties, models of cataclysmic binaries rely on ... nuclear reaction input." |
-| insofar as | conj. | 限定 | 在……的范围内 | "HCNO rates are reliable **insofar as** the 13N(p,$\gamma$)14O reaction is concerned." |
-| owing to | prep. | 因果 | 由于 | "**Owing to** the extreme energy dependence of proton widths, the width estimate was in error." |
-| hence | adv. | 因果 | 因此 | "19Ne(p,$\gamma$)20Na rate cannot be estimated ...; **hence**, the rp-process trigger is uncertain." |
-| thus | adv. | 因果 | 从而 | "the 447-keV resonance may be J^$\pi$=$1^{-}$ or $0^{-}$, **thus** the rate is uncertain by several orders of magnitude." |
-| in summary | phr. | 结论 | 总之 | §6 结语用 |
-| overall | adv. | 结论 | 总体而言 | "The data and reaction rates are **overall** well understood, but a few ambiguities remain." |
-| initially | adv. | 时序 | 最初 | "The initial CNO abundance ... is converted to 34Ar within **0.5 s**." |
-| subsequently | adv. | 时序 | 随后 | "Initial CNO → 34Ar **subsequently** → 38Ca via ($\alpha$,p)." |
-| previously | adv. | 时序 | 此前 | "rates **previously** estimated by Wagoner et al. have been superseded by ... new nuclear spectroscopic data." |
-| namely | adv. | 举例 | 即 | "four impedance effects: waiting points, photodisintegration, bottlenecks, **namely** reaction cycles." |
-| such as | phr. | 举例 | 例如 | "impedance effects **such as** waiting points and bottlenecks" |
-| given that | conj. | 条件因果 | 鉴于 | "given that $\Gamma_\gamma$ ≪ $\Gamma_{\rm p}$, the resonance strength is dominated by $\Gamma_\gamma$." |
+| despite | prep. | 让步 | 尽管 | "**Despite** the large uncertainties, models of cataclysmic binaries rely on ... nuclear reaction input." |  |
+| insofar as | conj. | 限定 | 在……的范围内 | "HCNO rates are reliable **insofar as** the 13N(p,$\gamma$)14O reaction is concerned." |  |
+| owing to | prep. | 因果 | 由于 | "**Owing to** the extreme energy dependence of proton widths, the width estimate was in error." |  |
+| hence | adv. | 因果 | 因此 | "19Ne(p,$\gamma$)20Na rate cannot be estimated ...; **hence**, the rp-process trigger is uncertain." |  |
+| thus | adv. | 因果 | 从而 | "the 447-keV resonance may be J^$\pi$=$1^{-}$ or $0^{-}$, **thus** the rate is uncertain by several orders of magnitude." |  |
+| in summary | phr. | 结论 | 总之 | §6 结语用 |  |
+| overall | adv. | 结论 | 总体而言 | "The data and reaction rates are **overall** well understood, but a few ambiguities remain." |  |
+| initially | adv. | 时序 | 最初 | "The initial CNO abundance ... is converted to 34Ar within **0.5 s**." |  |
+| subsequently | adv. | 时序 | 随后 | "Initial CNO → 34Ar **subsequently** → 38Ca via ($\alpha$,p)." |  |
+| previously | adv. | 时序 | 此前 | "rates **previously** estimated by Wagoner et al. have been superseded by ... new nuclear spectroscopic data." |  |
+| namely | adv. | 举例 | 即 | "four impedance effects: waiting points, photodisintegration, bottlenecks, **namely** reaction cycles." |  |
+| such as | phr. | 举例 | 例如 | "impedance effects **such as** waiting points and bottlenecks" |  |
+| given that | conj. | 条件因果 | 鉴于 | "given that $\Gamma_\gamma$ ≪ $\Gamma_{\rm p}$, the resonance strength is dominated by $\Gamma_\gamma$." |  |
 
 ## B. 领域术语（本篇特有）
 

@@ -81,7 +81,7 @@ $$
 [FACT] §4.2.1 从最大到最小尺度逐层审视银河系中心外流（Fig. 38）：
 
 - **eROSITA bubbles**（Predehl et al. 2020）：$|b| \lesssim 80^\circ$ 的双极 X 射线结构；此前由 ROSAT（Snowden et al. 1997）发现
-- **Fermi Bubbles**（Su et al. 2010）：$|b| \lesssim 60^\circ$ 双极 γ 射线气泡，强度分布近似平坦、边缘锐利、高能截止约 100 GeV；HAWC 1–100 TeV upper limits 一致
+- **Fermi Bubbles**（Su et al. 2010）：$\lvert b\rvert \lesssim 60^\circ$ 双极 γ 射线气泡，强度分布近似平坦、边缘锐利、高能截止约 100 GeV；HAWC 1–100 TeV upper limits 一致
 - **Loop I**：延伸至 $b \sim 70^\circ$ 的射电结构，与 North Polar Spur（X 射线）空间重合
 - **S-PASS 偏振（2.3 GHz）**：$|b| \lesssim 50^\circ$ 高度有序的双极瓣，暗示外流塑造磁场（Carretti et al. 2013）
 - **Microwave Haze**（WMAP/Planck）：在 $|b| \lesssim 35^\circ$ 与 γ 射线气泡空间相关
@@ -187,7 +187,7 @@ $$
 | 1 GeV 质子刚性 | 10 | GV | §4.1 |
 | B/C 幂律指数 | $-0.33$ | — | §4.1 (AMS) |
 | 扩散系数 $\mathcal{D}_0$（1 GV） | $\sim 3\times 10^{28}$ | cm$^2$ s$^{-1}$ | §4.1 |
-| Fermi Bubble 纬度 | $|b| \lesssim 60^\circ$ | ° | §4.2 |
+| Fermi Bubble 纬度 | $\lvert b\rvert \lesssim 60^\circ$ | ° | §4.2 |
 | eROSITA Bubble 纬度 | $|b| \lesssim 80^\circ$ | ° | §4.2 |
 | Fermi Bubble γ 射线截止 | $\sim 100$ | GeV | §4.2 |
 | CR 能量密度提升（Galactic Center） | 3 个数量级 | × | §4.2 |
@@ -228,7 +228,7 @@ $$
 
 ### 2. 关键观察
 - eROSITA bubbles（cyan）$|b| \lesssim 80^\circ$
-- Fermi Bubbles（red）$|b| \lesssim 60^\circ$
+- Fermi Bubbles（red）$\lvert b\rvert \lesssim 60^\circ$
 - 空间重合指示共同的外流起源
 
 ### 3. 需要注意的问题
