@@ -119,7 +119,8 @@ def main():
     args = ap.parse_args()
 
     results = []
-    for domain in ["01_cosmic-ray-propagation", "02_cosmic-ray-origins", "03_stellar-nucleosynthesis"]:
+    for domain in ["01_cosmic-ray-propagation", "02_cosmic-ray-origins",
+                    "03_stellar-nucleosynthesis", "04_experiments"]:
         domain_root = ROOT / domain
         if not domain_root.exists():
             continue
