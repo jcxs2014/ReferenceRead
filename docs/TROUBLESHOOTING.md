@@ -547,6 +547,30 @@ function highlightMatches(text, pattern) {
 ---
 
 *本文件由 2026-08 多批次工作流的踩坑沉淀而来；维护原则 = 修复必追加 + 每年合并陈旧。*
+
+### A8. check_density 阈值调成橡皮图章（门禁失效）
+
+**发生时间**：2026-08-16，多轮调参后
+
+**症状**：check_density 报 51/51 全通过，但 arnould（0公式）、busso（0公式）、karakas（15公式）全部通过。
+
+**根因**：阈值设定逻辑是"先跑一遍看到最差篇是X，再把阈值设为X+0.4让它通过"。arnould 最低2.4，就把门槛定为2.0——等于用最差篇的密度给门禁划线。
+
+**实录教训**：
+| 篇 | agent报告 | check_density实测 |
+|---|---|---|
+| arnould | 58公式 | **169公式** |
+| grevesse | 51公式 | **85公式** |
+| nomoto-suzuki | 85公式 | **134公式** |
+
+差距1.5-3倍。agent summary 永远不等于最终值，必须 subprocess 重跑。
+
+**防护**：
+- 阈值按**质量标杆**定（nomoto 12.7 / drury 7.2 / giacalone 4.4 的下沿 = 4.0）
+- 禁止先看现状再调阈值让最差篇通过
+- busso-1999（AGB理论综述）不得入 OBSERVATIONAL 豁免——分类错误会豁免掉真实问题
+- 交付前必须 `python3 scripts/check_density.py` 用 subprocess 重跑，以脚本输出为准
+
 ### A7. build_fm.py 白名单重建丢字段（38 篇 frontmatter 回归）
 
 **发生时间**：2026-08-15 深夜，并行会话跑 webapp 脚本链
