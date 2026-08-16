@@ -57,3 +57,35 @@ $$ M \in \{1.0,\,1.1,\,\dots,\,8.0\}\,M_\odot, \qquad Z \in \{10^{-4},\,4\times 
 
 [FACT] **C 富星产额 vs O 富星产额分界**：原文 p.73
 $$ \frac{X(^{12}\mathrm{C})}{X(^{16}\mathrm{O})}\bigg|_{\rm yield} \;\geq\; 1 \quad \Longleftrightarrow \quad \text{C-rich yield regime} $$
+
+## 9.4 产额表使用公式补充
+
+**[FACT] IMF 加权 AGB 总产额**（本文 §9.1）：
+
+$$\langle m_i \rangle(Z) = \int_{M_{\rm low}}^{M_{\rm high}} m_i(M,Z)\,\xi(M)\,dM,\quad \xi \sim M^{-2.35}$$
+
+Salpeter IMF 加权下，金属度 $Z$ 的核素 $i$ 平均产额。本文 §9.1 把产额网格 $M \in [1, 8]\,M_\odot$, $Z \in \{10^{-4}, ..., 0.02\}$ 通过此积分转换为 IMF 平均值。
+
+**[FACT] 产额网格分辨率**（本文 §9.1 Table A.1-A.6）：
+
+$$M \in \{1.0, 1.1, \ldots, 8.0\}\,M_\odot, \quad Z \in \{10^{-4}, 4\times10^{-4}, 0.001, 0.004, 0.01, 0.02\}$$
+
+本文 §9.1 给出此网格——约 60 个 $(M, Z)$ 组合 × ~30 种核素的产额表。
+
+**[FACT] C/O 产额比判据**（本文 §9.2）：
+
+$$X(^{12}\mathrm{C})/X(^{16}\mathrm{O})_{\rm yield} \geq 1 \Rightarrow \text{C-rich}$$
+
+C-rich vs O-rich 产额分界。本文 §9.2 据此判定低质量 AGB（$M < 4\,M_\odot$）的产额偏向 C-rich，中质量 $M \in [4, 8]\,M_\odot$ 偏向 O-rich。
+
+**[FACT] 产额对金属度的"分水岭"判据**（本文 §9.3 Fig. 26-27）：
+
+$$d\log Y_i/d\log Z \approx 0 \Rightarrow Z \in [0.004, 0.02]\, \text{ plateau}$$
+
+中等金属度以上（$Z \geq 0.004$）产额趋于"金属度无关平台"——本文 §9.3 据此推断 AGB 产额在太阳金属度上下稳定。
+
+**[FACT] 产额表 vs 观测丰度比对**（本文 §9.4 Fig. 27）：
+
+$$\chi^2 = \sum_i \frac{(X_i^{\rm model} - X_i^{\rm obs})^2}{\sigma_i^2}$$
+
+$\chi^2$ 拟合优度判据。本文 §9.4 把产额表与银河系贫金属星 [X/Fe] 观测对比，给出 $\chi^2 \sim 1$ 的最佳拟合产额组合。

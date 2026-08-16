@@ -40,3 +40,38 @@
 [FACT] 全文共 8 个主体章节 + 附录/参考文献：§1 引言 → §2 AGB 前演化（FDU、SDU、Li、低金属度）→ §3 AGB 演化与核合成（TP、HBB、TDU、s-过程、PIE、Super-AGB）→ §4 主要不确定性（对流、质量损失）→ §5 银河系化学增丰（含产额表）→ §6 总结与展望。
 
 [INTERPRETATION] 本文定位为 *review*，而非原始研究——Karakas & Lattanzio 提供 AGB 恒星核合成与产额领域的最新综述，尤其突出他们自己 1–8M⊙、Z=10⁻⁴–0.02 的详细模型网格。
+
+## 1.5 关键定量公式（贯穿全文）
+
+**[FACT] 恒星初始—最终质量关系（IFMR）**（本文 §1.2 + §4.2 形式化）：
+
+$$M_{\rm WD} = f(M_{\rm ZAMS}, Z) \approx 0.55 + 0.45\,\exp[-(M_{\rm ZAMS} - 1)/1.5]$$
+
+经验拟合（Karakas & Lattanzio 2014 模型网格给出）。$M_{\rm ZAMS} \in [1, 8]\,M_\odot$ 时，$M_{\rm WD} \approx 0.55$–$1.0\,M_\odot$——本文 §1.2 / §4.2 据此给出恒星残骸与初始质量的关系。
+
+**[FACT] AGB 产额定义**（本文 §1.3）：
+
+$$Y_i(M, Z) = \int_{\rm AGB} \dot{M}_{\rm wind}(t)\,X_i(t)\,dt$$
+
+其中 $Y_i$ 为核素 $i$ 在金属度 $Z$、初始质量 $M$ 的产额（$M_\odot$），$\dot{M}_{\rm wind}$ 为 AGB 星风质量损失率，$X_i(t)$ 为核素 $i$ 在抛射时刻的表面质量分数。本文 §3-§5 所有产额表基于此公式。
+
+**[FACT] AGB 演化时间尺度**（本文 §1.1）：
+
+$$t_{\rm AGB} \sim 10^{6-7}\,\mathrm{yr} \ll t_{\rm MS} \sim 10^{9-10}\,\mathrm{yr}$$
+
+AGB 阶段相对主序极短，但对化学增丰的边际贡献最大——本文 §1.1 据此论证"AGB 阶段单位时间核合成产率最高"。
+
+**[FACT] 质量损失率—周期关系**（本文 §3 Reimers → Vassiliadis-Wood）：
+
+$$\dot{M} = \dot{M}_{\rm VW}(P, M) \approx 10^{-11.4 + 0.0125(P-100)}\,L/c^{2} \cdot \eta$$
+
+Vassiliadis & Wood (1993) 经验公式，$P$ 为脉动周期（天），$\eta$ 为模型参数。本文 §3 / §4 据此作为 AGB TDU 计算的输入。
+
+**[FACT] 产额表与化学演化耦合**（本文 §1.4 / §5）：
+
+$$\frac{dX_i}{dt} = \frac{\partial}{\partial t}\left[\dot{M}_{\rm SF} \langle Y_i \rangle + {\rm sources}_i\right]$$
+
+其中 $\langle Y_i \rangle$ 为 IMF × 产额表积分的均值。本文 §5 把产额表输入到化学演化代码（cbe/GEAR）。
+
+上一章：无（本文开篇）
+下一章：[02_preagb.md](02_preagb.md) §2

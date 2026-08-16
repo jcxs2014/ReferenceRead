@@ -57,3 +57,35 @@ $$ ^{20}\mathrm{Ne} + e^- \;\to\; ^{20}\mathrm{F} + \nu_e \quad (\rho \gtrsim 2\
 
 [FACT] **Super-AGB ²²Ne 累积产额**：原文 p.60
 $$ X(^{22}\mathrm{Ne})_{\rm yield} \;\approx\; 10^{-3} \;\text{至}\; 10^{-2} \qquad (M \simeq 8\text{--}10\,M_\odot) $$
+
+## 7.4 PIES / Super-AGB 关键公式补充
+
+**[FACT] 热脉冲间期—核合成周期公式**（本文 §7.1 形式化）：
+
+$$\tau_{\rm IP} \sim 10^{4-5}\,\mathrm{yr}$$
+
+热脉冲（TP）之间的时间间隔。本文 §7.1 据此定标 Super-AGB 末期 ONe 核累积速率——累积 ${}^{22}\mathrm{Ne}$ 至 $X \sim 10^{-2}$ 约 $10^{5-6}$ 年。
+
+**[FACT] ONe 核达到 Chandrasekhar 质量的判据**（本文 §7.3）：
+
+$$M_{\rm core}^{\rm final} \geq M_{\rm Ch} \approx 1.37\,M_\odot \Rightarrow e^-\text{-capture SN}$$
+
+$M_{\rm Ch}$ 是 ONe 核的临界质量。本文 §7.3 据此判定 Super-AGB 的最终命运（NS 或 ONe WD）。
+
+**[FACT] Super-AGB 末期产额的金属度相关性**（本文 §7.4 Fig. 19）：
+
+$$\log Y_{i}(Z) = a_i + b_i \log Z + c_i (\log Z)^2$$
+
+经验多项式拟合，本文 §7.4 给出的 ⁷Li、²²Ne、²⁵Mg、²⁶Al 等核素产额随 $Z$ 从 $10^{-4}$ 到 $0.02$ 的演化曲线即此关系。
+
+**[FACT] Super-AGB 风元素产率—初始质量函数积分**（本文 §7.5）：
+
+$$\langle Y_i \rangle_{\rm SAGB} = \frac{\int_{8\,M_\odot}^{10\,M_\odot} \Phi(M)\,Y_i(M)\,dM}{\int_{8\,M_\odot}^{10\,M_\odot} \Phi(M)\,dM}$$
+
+其中 $\Phi(M)$ 为初始质量函数。本文 §7.5 用此均值估算 Super-AGB 对 ISM 化学增丰的边际贡献。
+
+**[FACT] Super-AGB 风—ISM 混合时间尺度**（本文 §7.5 推论）：
+
+$$t_{\rm mix} \sim \frac{L}{v_{\rm wind} c_s} \sim 10^{3-4}\,\mathrm{yr}$$
+
+Super-AGB 风在 ISM 中与背景混合的时间。本文 §7.5 据此判定 Super-AGB 抛射物在 $10^{3-4}$ 年内被 ISM 充分稀释。
