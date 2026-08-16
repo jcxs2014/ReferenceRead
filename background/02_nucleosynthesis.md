@@ -385,6 +385,9 @@ $$f_\beta = \frac{\lambda_\beta}{\lambda_\beta + \lambda_n} \approx \frac{(\lang
 
 ---
 
+
+**AGB 现代综述**：**Busso, Gallino & Wasserburg (1999)** 系统建立 AGB 星核燃烧-对流-第三 dredge-up 图景，明确低质量 AGB（$M\lesssim 3\,M_\odot$）通过 $^{13}{\rm C}$ 口袋（辐射燃烧）与 $^{22}{\rm Ne}$ 源（热脉冲时）双中子源驱动 s 过程，并关联短寿命核素（26Al/41Ca/60Fe/107Pd）的 AGB 晚期污染。**Karakas & Lattanzio (2014, Dawes Review 2)** 更新低/中质量单星产额表（第三 dredge-up 效率、热脉冲、s 过程与 HBB），量化 AGB 对银河增丰贡献（¹²C ~50–60%、¹⁴N 主要部分、s 过程主体、~90% 尘埃）。
+
 ## 2.6 r 过程（快中子俘获）
 
 ### 2.6.1 基本定义与条件
@@ -493,6 +496,9 @@ $$\alpha(\alpha\alpha,\gamma){}^{12}{\rm C}, \quad \alpha(\alpha n,\gamma){}^{9}
 
 ---
 
+
+**r 过程观测-理论桥接**：**Sneden, Cowan & Gallino (2008)** 综述金属贫星 n-capture 观测——r-rich 晕星（如 CS 22892-052）Ba–Pt 重区段与太阳系 r-only 丰度高度一致（10 颗星），Th/Eu、Th/U 核宇宙年龄 **12–14 Gyr** 与宇宙学一致。**Eichler et al. (1989)** 提出双中子星并合作为 r 过程位点（并合率 $(3\pm1.6)\times10^{-5}$ yr$^{-1}$、中微子 $10^{53}$ erg、r 产物 ~0.1 M☉）——现代 kilonova/引力波观测（2017 GW170817）支持该位点。
+
 ## 2.7 p 过程
 
 ### 2.7.1 定义与识别
@@ -525,6 +531,9 @@ $$\frac{1}{\tau_\gamma(\gamma,n)} = \int \sigma(\gamma,n)\cdot\phi(\gamma)\ d\ga
 **$^{92}{\rm Mo}$ 的起源**：1997 年时是 p 过程核素中最难产生的同位素。Hoffman *et al.* (1996) 的 r 过程 $\alpha$ 过程模型在 Y$_{e}$ = 0.48 时首次成功产生 $^{92}{\rm Mo}$，暗示 $^{92}{\rm Mo}$ 可能来自 r 过程相关的 $\alpha$ 过程，而非纯 $\gamma$ 过程。
 
 ---
+
+
+**p 过程权威综述（Arnould & Goriely 2003）**：系统覆盖 p 核识别、反应网络（$(\gamma,n)/(\gamma,p)/(\gamma,\alpha)$ 光致嬗变 + 少量 $(\mathrm{p},\gamma)$）、天体物理位点（SN II O/Ne 层、p-过程前体、后续 PC-SN/Type Ia 补充）——p 核丰度整体偏低、138La/180Ta 预测低于观测 1–5 个数量级的未闭合问题仍是开放议题。
 
 ## 2.8 x 过程（轻元素 Li/Be/B）
 
@@ -602,6 +611,9 @@ $$\log N({\rm Li}) \approx 2.2 \quad (\text{约} 1.6\times 10^{-10}\ \text{相�
 3. 巨星/行星状星云（最缓慢，~$10^{-3}$ $M_\odot$ / 恒星）
 
 **$^{26}{\rm Al}$ 的 1809 keV $\gamma$ 线**（HEAO 3，近 5$\sigma$）证明核合成**现在仍在银河系中进行**——位点更可能是**新星**而非超新星高温区。
+
+
+**SN 核合成现代综述**：**Nomoto, Kobayashi & Tominaga (2013)** 给出恒星质量命运图（8–10 EC-SN / 10–25 CC-SN / 25–40 Hypernova / 40–140 失败 SN / 140–260 PISN / >260 IMBH）与核合成产额表，EMP 星丰度模式（CEMP-no、[α/Fe] 平台）约束 Pop III 前身星。**Nomoto & Suzuki (2014)** 的产额表纳入爆炸能/混合-回落唯象参数（E₅₁=30–50、⁵⁶Ni=0.3–0.5 M☉ 对应 Hypernova），供化学演化建模使用。
 
 ### 2.9.2 rp 过程（rapid proton capture）
 
