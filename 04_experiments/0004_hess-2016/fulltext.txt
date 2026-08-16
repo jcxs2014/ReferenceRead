@@ -1,0 +1,1194 @@
+0 0 M o n t h 2 0 1 6 | V O L 0 0 0 | N A T U R E | 1
+Letter
+doi:10.1038/nature17147
+Acceleration of petaelectronvolt protons in the 
+Galactic Centre
+HESS Collaboration*
+Galactic cosmic rays reach energies of at least a few petaelectronvolts1 
+(of the order of 1015 electronvolts). This implies that our Galaxy 
+contains petaelectronvolt accelerators (‘PeVatrons’), but all proposed 
+models of Galactic cosmic-ray accelerators encounter difficulties 
+at exactly these energies2. Dozens of Galactic accelerators capable 
+of accelerating particles to energies of tens of teraelectronvolts 
+(of the order of 1013 electronvolts) were inferred from recent γ-ray 
+observations3. However, none of the currently known accelerators—
+not even the handful of shell-type supernova remnants commonly 
+believed to supply most Galactic cosmic rays—has shown the 
+characteristic tracers of petaelectronvolt particles, namely, power-
+law spectra of γ-rays extending without a cut-off or a spectral break 
+to tens of teraelectronvolts4. Here we report deep γ-ray observations 
+with arcminute angular resolution of the region surrounding the 
+Galactic Centre, which show the expected tracer of the presence 
+of petaelectronvolt protons within the central 10 parsecs of the 
+Galaxy. We propose that the supermassive black hole Sagittarius 
+A* is linked to this PeVatron. Sagittarius A* went through active 
+phases in the past, as demonstrated by X-ray outbursts5 and an 
+outflow from the Galactic Centre6. Although its current rate of 
+particle acceleration is not sufficient to provide a substantial 
+contribution to Galactic cosmic rays, Sagittarius A* could have 
+plausibly been more active over the last 106–107 years, and therefore 
+should be considered as a viable alternative to supernova remnants 
+as a source of petaelectronvolt Galactic cosmic rays.
+The large photon statistics accumulated over the last 10 years of 
+observations with the High Energy Stereoscopic System (HESS), 
+together with improvements in the methods of data analysis, allow for 
+a deep study of the properties of the diffuse very-high-energy (VHE; 
+*Lists of participants and their affiliations appear at the end of the paper.
+more than 100 GeV) emission of the central molecular zone. This region 
+surrounding the Galactic Centre contains predominantly molecular gas 
+and extends (in projection) out to radius r ≈​ 250 pc at positive Galactic 
+longitudes and r ≈​ 150 pc at negative longitudes. The map of the central 
+molecular zone as seen in VHE γ​-rays (Fig. 1) shows a strong (although 
+not linear; see below) correlation between the brightness distribution 
+of VHE γ​-rays and the locations of massive gas-rich complexes. This 
+points towards a hadronic origin of the diffuse emission7, where the 
+γ​-rays result from the interactions of relativistic protons with the ambi-
+ent gas. The other important channel of production of VHE γ​-rays is 
+the inverse Compton (IC) scattering of electrons. However, the severe 
+radiative losses suffered by multi-TeV electrons in the Galactic Centre 
+region prevent them from propagating over scales comparable to the 
+size of the central molecular zone, thus disfavouring a leptonic origin of 
+the γ​-rays (see discussion in Methods and Extended Data Figs 1 and 2).
+The location and the particle injection rate history of the cosmic-ray 
+accelerator(s) responsible for the relativistic protons determine the 
+spatial distribution of these cosmic rays which, together with the gas 
+distribution, shape the morphology of the central molecular zone 
+seen in VHE γ​-rays. Figure 2 shows the radial profile of the E ≥​ 10 TeV 
+cosmic-ray energy density wCR up to r ≈​ 200 pc (for a Galactic Centre 
+distance of 8.5 kpc), determined from the γ​-ray luminosity and the 
+amount of target gas (see Extended Data Tables 1 and 2). This high 
+energy density in the central molecular zone is found to be an order of 
+magnitude larger than that of the ‘sea’ of cosmic rays that universally 
+fills the Galaxy, while the energy density of low energy (GeV) cosmic 
+rays in this region has a level comparable to it8. This requires the pres-
+ence of one or more accelerators of multi-TeV particles operating in 
+the central molecular zone.
+359.0
+359.5
+00.0
+00.5
+01.0
+Galactic longitude (degrees)
+–00.6
+–00.4
+–00.2
++00.0
++00.2
++00.4
++00.6
+Galactic latitude (degrees)
+Counts per pixel
+Sgr A*
+a
+359.5
+00.0
+Galactic longitude (degrees)
+–00.4
+–00.2
++00.0
++00.2
++00.4
+Sgr A*
+b
+–1.4
+–0.5
+1.9
+7.8
+23.0
+61.7
+160.0
+Figure 1 | VHE γ-ray image of the Galactic Centre region.  The colour 
+scale indicates counts per 0.02° ×​ 0.02° pixel. a, The black lines outline 
+the regions used to calculate the cosmic-ray energy density throughout 
+the central molecular zone. A section of 66° is excluded from the annuli 
+(see Methods). White contour lines indicate the density distribution of 
+molecular gas, as traced by its CS line emission30. Black star, location of 
+Sgr A*​. Inset (bottom left), simulation of a point-like source. The part of 
+the image shown boxed is magnified in b. b, Zoomed view of the inner  
+∼​70 pc and the contour of the region used to extract the spectrum of the 
+diffuse emission.
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+2 | N A T U R E | V O L 0 0 0 | 0 0 m o n t h 2 0 1 6
+Letter
+RESEARCH
+If the accelerator injects particles (here we consider protons through-
+out) at a continuous rate, 
+( )
+Q E
+p
+, the radial distribution of cosmic rays 
+in the central molecular zone, in the case of diffusive propagation, is 
+described9 as 
+(
+)=
+( )
+π ( )
+
+w
+E r t
+, ,
+Q
+E
+D E r
+CR
+4
+p
+ erfc(r/rdiff), where D(E) and rdiff are 
+the diffusion coefficient and radius, respectively. For timescales t 
+smaller than the proton–proton interaction time (tpp ≈​  
+5 ×​ 104(n/103)−1 yr, where n is the density of the hydrogen gas in cm−3), 
+the diffusion radius is 
+≈
+( )
+r
+D E t
+4
+diff
+. Thus, at distances r <​ rdiff, the 
+proton flux should decrease as ∼​1/r provided that the diffusion coef-
+ficient does not vary much throughout the central molecular zone. The 
+measurements clearly support the wCR(r) ∝​ 1/r dependence over the 
+entire central molecular zone region (Fig. 2) and disfavour both 
+wCR(r) ∝​ 1/r2 and wCR(r) ∝​ constant profiles (the former is expected if 
+cosmic rays are advected in a wind, and the latter in the case of a single 
+burst-like event of cosmic-ray injection). The 1/r profile of the cos-
+mic-ray density up to 200 pc indicates a quasi-continuous injection of 
+protons into the central molecular zone from a centrally located accel-
+erator on a timescale Δ​t exceeding the characteristic time of diffusive 
+escape of particles from the central molecular zone, that is, Δ​t ≥​ tdiff ≈​ 
+R2/6D ≈​ 2 ×​ 103(D/1030)−1 yr, where D (in cm2 s−1) is normalized to 
+the characteristic value of multi-TeV cosmic rays in the Galactic disk10. 
+In this regime the average injection rate of particles is found to 
+be 
+(≥
+)≈×
+( /
+)
+Q
+D
+10 TeV
+4
+10
+10
+p
+37
+30  erg s−1. The diffusion coefficient 
+itself depends on the power spectrum of the turbulent magnetic field, 
+which is unknown in the central molecular zone region. This intro-
+duces an uncertainty in the estimates of the injection power of relativ-
+istic protons. Yet, the diffusive nature of the propagation is constrained 
+by the condition R2/6D ≫ R/c. For a radius of the central molecular 
+zone region of 200 pc, this implies D ≪ 3 ×​ 1030 cm2 s−1, and, conse-
+quently, 
+. ×
+−
+ ≪
+Q
+1 2
+10
+erg s
+p
+38
+1.
+The energy spectrum of the diffuse γ​-ray emission (Fig. 3) has been 
+extracted from an annulus centred at Sagittarius (Sgr) A*​ (see Fig. 1). 
+The best fit to the data is found for a spectrum following a power law 
+extending with a photon index of ∼​2.3 to energies up to tens of TeV, 
+without a cut-off or a break. This is the first time, to our knowledge, 
+that such a γ​-ray spectrum, arising from hadronic interactions, has 
+been detected. Since these γ​-rays result from the decay of neutral pions 
+produced by pp interactions, the derivation of such a hard power-law 
+spectrum implies that the spectrum of the parent protons should extend 
+to energies close to 1 PeV. The best fit of a γ​-ray spectrum from neutral 
+pion decay to the HESS data is found for a proton spectrum following 
+a pure power law with an index of ~​2.4. We note that pp interactions 
+of 1 PeV protons could also be studied by the observation of emitted 
+neutrinos or X-rays from the synchrotron emission of secondary elec-
+trons and positrons (see Methods and Extended Data Figs 3 and 4). 
+However, the measured γ​-ray flux puts the expected fluxes of neutri-
+nos and X-rays below or at best close to the sensitivities of the current 
+instruments. Assuming a cut-off in the parent proton spectrum, the 
+corresponding secondary γ​-ray spectrum deviates from the HESS data 
+at 68%, 90% and 95% confidence levels for cut-offs at 2.9 PeV, 0.6 PeV 
+and 0.4 PeV, respectively. This is the first robust detection of a VHE 
+cosmic hadronic accelerator which operates as a source of PeV particles 
+(a ‘PeVatron’).
+Remarkably, the Galactic Centre PeVatron appears to be located 
+in the same region as the central γ​-ray source HESS J1745−​290 
+(refs 11–14). Unfortunately, the current data cannot provide an answer 
+as to whether there is an intrinsic link between these two objects. The 
+point-like source HESS J1745−​290 itself remains unidentified. Besides 
+Sgr A* (ref. ​15), other potential counterparts are the pulsar wind nebula 
+G 359.95−​0.04 (refs 16, 17) and a spike of annihilating dark matter18. 
+Moreover, it has also been suggested that this source might have a 
+diffuse origin, peaking towards the direction of the Galactic Centre 
+because of the higher concentration there of both gas and relativistic 
+particles15. In fact, this interpretation would imply an extension of the 
+spectrum of the central source to energies beyond 10 TeV, which how-
+ever is at odds with the detection of a clear cut-off in the spectrum of 
+HESS J1745−​290 at about 10 TeV (refs 19, 20; Fig. 3). Yet the attractive 
+idea of explaining the entire γ​-ray emission from the Galactic Centre by 
+Projected distance (pc)
+0
+wCR(≥10 TeV) (10–3 eV cm–3)
+2
+10
+20
+30
+6.0 × local cosmic-ray density
+1/r
+1/r2
+200
+180
+160
+140
+120
+100
+80
+60
+40
+20
+Figure 2 | Spatial distribution of the cosmic-ray density versus 
+projected distance from Sgr A*.  The vertical and horizontal error bars 
+show the 1σ statistical plus systematic errors and the bin size, respectively. 
+Fits to the data of a 1/r (red line, χ2/d.o.f. =​ 11.8/9), a 1/r2 (blue line, χ2/
+d.o.f. =​ 73.2/9) and a homogeneous (black line, χ2/d.o.f. =​ 61.2/9) cosmic-
+ray density radial profile integrated along the line of sight are shown. The 
+best fit of a 1/rα profile to the data is found for α =​ 1.10 ±​ 0.12 (1σ). The 
+1/r radial profile is clearly preferred for the HESS data.
+Energy, E (TeV)
+1
+10
+10–13
+10–12
+10–11
+10–10
+Diffuse emission (×10)
+Model (best ﬁt): diffuse emission
+ = 2.9 PeV
+68%
+cut,p
+Model: diffuse emission E
+ = 0.6 PeV
+90%
+cut,p
+Model: diffuse emission E
+ = 0.4 PeV
+95%
+cut,p
+Model: diffuse emission E
+HESS J1745–290
+E2 × ﬂux (TeV cm–2 s–1)
+Figure 3 | VHE γ-ray spectra of the diffuse emission and HESS  
+J1745−290.  The y axis shows fluxes multiplied by a factor E2, where E is the 
+energy on the x axis, in units of TeV cm−2 s−1. The vertical and horizontal 
+error bars show the 1σ statistical error and the bin size, respectively. Arrows 
+represent 2σ flux upper limits. The 1σ confidence bands of the best-fit 
+spectra of the diffuse and HESS J1745−290 are shown in red and blue 
+shaded areas, respectively. Spectral parameters are given in Methods. The 
+red lines show the numerical computations assuming that γ​-rays result from 
+the decay of neutral pions produced by proton–proton interactions. The 
+fluxes of the diffuse emission spectrum and models are multiplied by 10 to 
+visually separate them from the HESS J1745−290 spectrum.
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+0 0 M o n t h 2 0 1 6 | V O L 0 0 0 | N A T U R E | 3
+Letter RESEARCH
+run-away protons from the same centrally located accelerator can still 
+be compatible with the cut-off in the spectrum of the central source. 
+For example, the cut-off could be due to the absorption of γ​-rays caused 
+by interactions with the ambient infrared radiation field. It should be 
+noted that although the question of the link between the central γ​-ray 
+source and the proton PeVatron is interesting, it does not have a direct 
+impact on the main conclusions of the present work.
+The integration of the cosmic-ray radial distribution (Fig. 2) yields 
+the total energy Wp of E ≥​ 10 TeV protons confined in the central 
+molecular zone: Wp ≈​ 1.0 ×​ 1049 erg. A single supernova remnant 
+(SNR) would suffice to provide this rather modest energy in cosmic 
+rays. A possible candidate could be Sgr A East. Although this object has 
+already been excluded as a counterpart of HESS J1745−290 (ref. 21), 
+the multi-TeV protons accelerated by this object and then injected into 
+the central molecular zone could contribute to the diffuse γ​-ray com-
+ponent. Other potential sites of the acceleration of protons in the 
+Galactic Centre are the compact stellar clusters22. Formally, the 
+mechanical power in these clusters in the form of stellar winds, which 
+can provide adequate conditions for particle acceleration, is sufficient 
+to explain the required total energy of cosmic rays in the central molec-
+ular zone. However, the acceleration of protons to PeV energies requires 
+bulk motions in excess of 10,000 km s−1 which could only exist in the 
+stellar clusters because of very young supernova shocks23. Thus, the 
+mechanism of operation of PeVatrons in stellar clusters is reduced to 
+the presence of supernova shocks. On the other hand, since the accel-
+eration of PeV particles by shocks, either in individual SNRs or in stellar 
+clusters, cannot last much longer than 100 years (ref. 24), we would 
+need more than 10 supernova events to meet the requirement of con-
+tinuous injection of cosmic rays in the central molecular zone over 
+≫10 years
+3
+. For the central 10 pc region, such a high supernova rate 
+seems unlikely.
+We suggest that the supermassive black hole at the Galactic Centre 
+(Sgr A*​) is the most plausible supplier of ultra-relativistic protons 
+and nuclei; these particles could have been accelerated either in the 
+accretion flow (that is, in the immediate vicinity of the black hole15,25) 
+or somewhat further away—for example, at the site of termination of 
+an outflow26. If Sgr A*​ is indeed the particles’ source, the required 
+acceleration rate of about 1037–1038 erg s−1 would exceed by two or 
+three orders of magnitude the current bolometric luminosity of this 
+object27, and would constitute at least 1% of the current power pro-
+duced by accretion onto the supermassive black hole. Given that the 
+current accretion rate is relatively modest, and that at certain epochs 
+this supermassive (4 ×​ 106 solar masses) black hole could have operated 
+at a much higher accretion rate, we speculate that this higher rate could 
+also facilitate greater cosmic-ray production rates25. We note that an 
+average acceleration rate of 1039 erg s−1 of E >​ 10 TeV protons over the 
+last 106–107 years would be sufficient to explain the flux of cosmic rays 
+around the energy spectrum feature—the so-called ‘knee’—at 1 PeV. 
+If this explanation is correct, it could be a solution to one of the most 
+controversial and actively debated problems of the paradigm of the SNR 
+origin of Galactic cosmic rays24,28,29.
+Online Content Methods, along with any additional Extended Data display items and 
+Source Data, are available in the online version of the paper; references unique to 
+these sections appear only in the online paper.
+received 2 April 2015; accepted 4 January 2016. 
+Published online 16 March 2016.
+1.	
+Berezinskii, V. S., Bulanov, S. V., Dogiel, V. A. & Ptuskin, V. S. in Astrophysics of 
+Cosmic Rays (ed. Ginzburg, V. L.) 33–38 (North-Holland, 1990).
+2.	
+Malkov, M. A. & Drury, L. O. Nonlinear theory of diffusive acceleration of 
+particles by shock waves. Rep. Prog. Phys. 64, 429–481 (2001).
+3.	
+Hillas, A. M. Evolution of ground-based gamma-ray astronomy from the early 
+days to the Cherenkov Telescope Arrays. Astropart. Phys. 43, 19–43 (2013).
+4.	
+Aharonian, F. A. Gamma rays from supernova remnants. Astropart. Phys. 43, 
+71–80 (2013).
+5.	
+Clavel, M. et al. Echoes of multiple outbursts of Sagittarius A*​ revealed by 
+Chandra. Astron. Astrophys. 558, A32 (2013).
+6.	
+Su, M., Slatyer, T. R. & Finkbeiner, D. P. Giant gamma-ray bubbles from 
+Fermi-LAT: active galactic nucleus activity or bipolar galactic wind? Astrophys. J. 
+724, 1044–1082 (2010).
+7.	
+Aharonian, F. et al. Discovery of very-high-energy γ​-rays from the Galactic 
+Centre ridge. Nature 439, 695–698 (2006).
+8.	
+Yang, R., Jones, D. I. & Aharonian, F. Fermi-LAT observations of the Sagittarius B 
+complex. Astron. Astrophys. 580, A90 (2015).
+9.	
+Aharonian, F. Very High Energy Cosmic Gamma Radiation: A Crucial Window on 
+the Extreme Universe (World Scientific, 2004).
+10.	 Strong, A. W., Moskalenko, I. V. & Ptuskin, V. S. Cosmic-ray propagation and 
+interactions in the Galaxy. Annu. Rev. Nucl. Part. Sci. 57, 285–327 (2007).
+11.	 Aharonian, F. et al. Very high-energy gamma rays from the direction of 
+Sagittarius A*​. Astron. Astrophys. 425, L13–L17 (2004).
+12.	 Kosack, K. et al. TeV gamma-ray observations of the Galactic Center.  
+Astrophys. J. 608, L97–L100 (2004).
+13.	 Tsuchiya, K. et al. Detection of sub-TeV gamma rays from the Galactic center 
+direction by CANGAROO-II. Astrophys. J. 606, L115–L118 (2004).
+14.	 Albert, J. et al. Observation of gamma rays from the Galactic center with the 
+MAGIC telescope. Astrophys. J. 638, L101–L104 (2006).
+15.	 Aharonian, F. & Neronov, A. High-energy gamma rays from the massive black 
+hole in the Galactic center. Astrophys. J. 619, 306–313 (2005).
+16.	 Wang, Q. D., Lu, F. J. & Gotthelf, E. V. G359.95–0.04: pulsar candidate near Sgr A*​. 
+Mon. Not. R. Astron. Soc. 367, 937–944 (2006).
+17.	 Hinton, J. A. & Aharonian, F. Inverse Compton scenarios for the TeV gamma-ray 
+emission of the Galactic centre. Astrophys. J. 657, 302–307 (2007).
+18.	 Belikov, A. V., Zaharijas, G. & Silk, J. Study of the gamma-ray spectrum from the 
+Galactic Center in view of multi-TeV dark matter candidates. Phys. Rev. D 86, 
+083516 (2012).
+19.	 Aharonian, F. et al. Spectrum and variability of the Galactic center VHE γ​-ray 
+source HESS J1745–290. Astron. Astrophys. 503, 817–825 (2009).
+20.	 Archer, A. et al. Very-high energy observations of the Galactic center region by 
+VERITAS in 2010–2012. Astrophys. J. 790, 149 (2014).
+21.	 HESS Collaboration. Localising the VHE γ​-ray source at the Galactic Centre. 
+Mon. Not. R. Astron. Soc. 402, 1877–1882 (2010).
+22.	 Crocker, R. M. et al. γ​-rays and the far-infrared-radio continuum correlation 
+reveal a powerful Galactic Centre wind. Mon. Not. R. Astron. Soc. 411, L11–L15 
+(2011).
+23.	 Bykov, A. M. Nonthermal particles and photons in starburst regions and 
+superbubbles. Astron. Astrophys. Rev. 22, 1–54 (2014).
+24.	 Bell, A., Schure, K., Reville, B. & Giacinti, G. Cosmic ray acceleration and escape 
+from supernova remnants. Mon. Not. R. Astron. Soc. 431, 415–429 (2013).
+25.	 Istomin, Y. N. On the origin of galactic cosmic rays. New Astron. 27, 13–18 
+(2014).
+26.	 Atoyan, A. & Dermer, C. D. TeV emission from the Galactic center black hole 
+plerion. Astrophys. J. 617, L123–L126 (2004).
+27.	 Genzel, R., Eisenhauer, F. & Gillessen, S. The Galactic Center massive black hole 
+and nuclear star cluster. Rev. Mod. Phys. 82, 3121–3195 (2010).
+28.	 Cristofari, P., Gabici, S., Casanova, S., Terrier, R. & Parizot, E. Acceleration of 
+cosmic rays and gamma-ray emission from supernova remnants in the Galaxy. 
+Mon. Not. R. Astron. Soc. 434, 2748–2760 (2013).
+29.	 Parizot, E. Cosmic ray origin: lessons from ultra-high-energy cosmic rays and 
+the Galactic/extragalactic transition. Nucl. Phys. B 256–257 (Suppl.), 197–212 
+(2014).
+30.	 Tsuboi, M., Handa, T. & Ukita, N. Dense molecular clouds in the Galactic 
+Center region. I. Observations and data. Astrophys. J. 120 (Suppl.), 1–39 
+(1999).
+Acknowledgements The support of the Namibian authorities and of the 
+University of Namibia in facilitating the construction and operation of HESS 
+is gratefully acknowledged, as is the support by the German Ministry for 
+Education and Research (BMBF), the Max Planck Society, the German Research 
+Foundation (DFG), the French Ministry for Research, the CNRS-IN2P3 and the 
+Astroparticle Interdisciplinary Programme of the CNRS, the UK Science and 
+Technology Facilities Council (STFC), the IPNP of the Charles University, the 
+Czech Science Foundation, the Polish Ministry of Science and Higher Education, 
+the South African Department of Science and Technology and National 
+Research Foundation, and the University of Namibia. We thank the technical 
+support staff in Berlin, Durham, Hamburg, Heidelberg, Palaiseau, Paris, Saclay 
+and Namibia for the construction and operation of the equipment. R.C.G.C. is 
+funded by an EU FP7 Marie Curie grant (PIEF-GA-2012-332350), J. Conrad is a 
+Wallenberg Academy Fellow, and F.R. is a Heisenberg Fellow (DFG).
+Author Contributions F.A., S.G., E.M. and A.V. analysed and interpreted the data, 
+and prepared the manuscript. The whole HESS collaboration contributed to 
+the publication, with involvement at various stages ranging from the design, 
+construction and operation of the instrument, to the development and 
+maintenance of all software for data handling, data reduction and data analysis. 
+All authors reviewed, discussed and commented on the present results and on 
+the manuscript.
+Author Information Reprints and permissions information is available at 
+www.nature.com/reprints. The authors declare no competing financial 
+interests. Readers are welcome to comment on the online version of the paper. 
+Correspondence and requests for materials should be addressed to HESS 
+Collaboration (contact.hess@hess-experiment.eu).
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+4 | N A T U R E | V O L 0 0 0 | 0 0 m o n t h 2 0 1 6
+Letter
+RESEARCH
+1Universität Hamburg, Institut für Experimentalphysik, Luruper Chaussee 149, D 22761 
+Hamburg, Germany. 2Max-Planck-Institut für Kernphysik, PO Box 103980, D 69029 Heidelberg, 
+HESS Collaboration 
+A. Abramowski1, F. Aharonian2,3,4, F. Ait Benkhali2, A. G. Akhperjanian4,5, 
+E. O. Angüner6, M. Backes7, A. Balzer8, Y. Becherini9, J. Becker Tjus10, 
+D. Berge11, S. Bernhard12, K. Bernlöhr2, E. Birsin6, R. Blackwell13, 
+M. Böttcher14, C. Boisson15, J. Bolmont16, P. Bordas2, J. Bregeon17, F. Brun18, 
+P. Brun18, M. Bryan8, T. Bulik19, J. Carr20, S. Casanova2,21, N. Chakraborty2, 
+R. Chalme-Calvet16, R. C. G. Chaves17, A. Chen22, M. Chrétien16, 
+S. Colafrancesco22, G. Cologna23, J. Conrad24, C. Couturier16, Y. Cui25, 
+I. D. Davids7,14, B. Degrange26, C. Deil2, P. deWilt13, A. Djannati-Ataï27, 
+W. Domainko2, A. Donath2, L. O’C. Drury3, G. Dubus28, K. Dutson29, J. Dyks30, 
+M. Dyrda21, T. Edwards2, K. Egberts31, P. Eger2, J.-P. Ernenwein20, P. Espigat27, 
+C. Farnier24, S. Fegan26, F. Feinstein17, M. V. Fernandes1, D. Fernandez17, 
+A. Fiasson32, G. Fontaine26, A. Förster2, M. Füßling33, S. Gabici27, M. Gajdus6, 
+Y. A. Gallant17, T. Garrigoux16, G. Giavitto33, B. Giebels26, J. F. Glicenstein18, 
+D. Gottschall25, A. Goyal34, M.-H. Grondin35, M. Grudzińska19, D. Hadasch12, 
+S. Häffner36, J. Hahn2, J. Hawkes13, G. Heinzelmann1, G. Henri28, G. Hermann2, 
+O. Hervet15, A. Hillert2, J. A. Hinton2,29, W. Hofmann2, P. Hofverberg2, 
+C. Hoischen31, M. Holler26, D. Horns1, A. Ivascenko14, A. Jacholkowska16, 
+M. Jamrozy34, M. Janiak30, F. Jankowsky23, I. Jung-Richardt36, 
+M. A. Kastendieck1, K. Katarzyński37, U. Katz36, D. Kerszberg16, B. Khélifi27, 
+M. Kieffer16, S. Klepser33, D. Klochkov25, W. Kluźniak30, D. Kolitzus12, 
+Nu. Komin22, K. Kosack18, S. Krakau10, F. Krayzel32, P. P. Krüger14, H. Laffon35, 
+G. Lamanna32, J. Lau13, J. Lefaucheur27, V. Lefranc18, A. Lemiére27, 
+M. Lemoine-Goumard35, J.-P. Lenain16, T. Lohse6, A. Lopatin36, C.-C. Lu2, 
+R. Lui2, V. Marandon2, A. Marcowith17, C. Mariaud26, R. Marx2, G. Maurin32, 
+N. Maxted17, M. Mayer6, P. J. Meintjes38, U. Menzler10, M. Meyer24, 
+A. M. W. Mitchell2, R. Moderski30, M. Mohamed23, K. Morå24, E. Moulin18, 
+T. Murach6, M. de Naurois26, J. Niemiec21, L. Oakes6, H. Odaka2, S. Öttl12, 
+S. Ohm33, B. Opitz1, M. Ostrowski34, I. Oya33, M. Panter2, R. D. Parsons2, 
+M. Paz Arribas6, N. W. Pekeur14, G. Pelletier28, P.-O. Petrucci28, B. Peyaud18, 
+S. Pita27, H. Poon2, H. Prokoph9, G. Pühlhofer25, M. Punch27, A. Quirrenbach23, 
+S. Raab36, I. Reichardt27, A. Reimer12, O. Reimer12, M. Renaud17, 
+R. de los Reyes2, F. Rieger2,39, C. Romoli3, S. Rosier-Lees32, G. Rowell13, 
+B. Rudak30, C. B. Rulten15, V. Sahakian4,5, D. Salek40, D. A. Sanchez32, 
+A. Santangelo25, M. Sasaki25, R. Schlickeiser10, F. Schüssler18, A. Schulz33, 
+U. Schwanke6, S. Schwemmer23, A. S. Seyffert14, R. Simoni8, H. Sol15, 
+F. Spanier14, G. Spengler24, F. Spies1, Ł. Stawarz34, R. Steenkamp7, 
+C. Stegmann31,33, F. Stinzing36, K. Stycz33, I. Sushch14, J.-P. Tavernet16, 
+T. Tavernier27, A. M. Taylor3, R. Terrier27, M. Tluczykont1, C. Trichard32, R. Tuffs2, 
+K. Valerius36, J. van der Walt14, C. van Eldik36, B. van Soelen38, G. Vasileiadis17, 
+J. Veh36, C. Venter14, A. Viana2, P. Vincent16, J. Vink8, F. Voisin13, H. J. Völk2, 
+T. Vuillaume28, S. J. Wagner23, P. Wagner6, R. M. Wagner24, M. Weidinger10, 
+Q. Weitzel2, R. White29, A. Wierzcholska21,23, P. Willmann36, A. Wörnlein36, 
+D. Wouters18, R. Yang2, V. Zabalza29, D. Zaborov26, M. Zacharias23, 
+A. A. Zdziarski30, A. Zech15, F. Zefi26 & N. Żywucka34
+Germany. 3Dublin Institute for Advanced Studies, 31 Fitzwilliam Place, Dublin 2, Ireland. 
+4National Academy of Sciences of the Republic of Armenia, Marshall Baghramian Avenue, 
+24, 0019 Yerevan, Armenia. 5Yerevan Physics Institute, 2 Alikhanian Brothers Street, 375036 
+Yerevan, Armenia. 6Institut für Physik, Humboldt-Universität zu Berlin, Newtonstrasse 15, 
+D 12489 Berlin, Germany. 7University of Namibia, Department of Physics, Private Bag 
+13301, Windhoek, Namibia. 8GRAPPA, Anton Pannekoek Institute for Astronomy, University 
+of Amsterdam, Science Park 904, 1098 XH Amsterdam, The Netherlands. 9Department of 
+Physics and Electrical Engineering, Linnaeus University, 351 95 Växjö, Sweden. 10Institut für 
+Theoretische Physik, Lehrstuhl IV: Weltraum und Astrophysik, Ruhr-Universität Bochum, D 
+44780 Bochum, Germany. 11GRAPPA, Anton Pannekoek Institute for Astronomy and Institute 
+of High-Energy Physics, University of Amsterdam, Science Park 904, 1098 XH Amsterdam, The 
+Netherlands. 12Institut für Astro- und Teilchenphysik, Leopold-Franzens-Universität Innsbruck, 
+A-6020 Innsbruck, Austria. 13School of Chemistry and Physics, University of Adelaide, 
+Adelaide 5005, Australia. 14Centre for Space Research, North-West University, Potchefstroom 
+2520, South Africa. 15LUTH, Observatoire de Paris, CNRS, Université Paris Diderot, 5 Place 
+Jules Janssen, 92190 Meudon, France. 16LPNHE, Université Pierre et Marie Curie Paris 6, 
+Université Denis Diderot Paris 7, CNRS/IN2P3, 4 Place Jussieu, F-75252, Paris Cedex 5, France. 
+17Laboratoire Univers et Particules de Montpellier, Université Montpellier 2, CNRS/IN2P3, CC 
+72, Place Eugène Bataillon, F-34095 Montpellier Cedex 5, France. 18DSM/Irfu, CEA Saclay, F-
+91191 Gif-Sur-Yvette Cedex, France. 19Astronomical Observatory, The University of Warsaw, Al. 
+Ujazdowskie 4, 00-478 Warsaw, Poland. 20Aix Marseille Université, CNRS/IN2P3, CPPM UMR 
+7346, 13288 Marseille, France. 21Instytut Fizyki Jądrowej PAN, ul. Radzikowskiego 152, 31-342 
+Kraków, Poland. 22School of Physics, University of the Witwatersrand, 1 Jan Smuts Avenue, 
+Braamfontein, Johannesburg 2050, South Africa. 23Landessternwarte, Universität Heidelberg, 
+Königstuhl, D 69117 Heidelberg, Germany. 24Oskar Klein Centre, Department of Physics, 
+Stockholm University, Albanova University Center, SE-10691 Stockholm, Sweden. 25Institut 
+für Astronomie und Astrophysik, Universität Tübingen, Sand 1, D 72076 Tübingen, Germany. 
+26Laboratoire Leprince-Ringuet, Ecole Polytechnique, CNRS/IN2P3, F-91128 Palaiseau, 
+France. 27APC, AstroParticule et Cosmologie, Université Paris Diderot, CNRS/IN2P3, CEA/Irfu, 
+Observatoire de Paris, Sorbonne Paris Cité, 10, rue Alice Domon et Léonie Duquet, 75205 
+Paris Cedex 13, France. 28Université Grenoble Alpes, IPAG, F-38000 Grenoble, France; CNRS, 
+IPAG, F-38000 Grenoble, France. 29Department of Physics and Astronomy, The University of 
+Leicester, University Road, Leicester LE1 7RH, UK. 30Nicolaus Copernicus Astronomical Center, 
+ul. Bartycka 18, 00-716 Warsaw, Poland. 31Institut für Physik und Astronomie, Universität 
+Potsdam, Karl-Liebknecht-Strasse 24/25, D 14476 Potsdam, Germany. 32Laboratoire 
+d’Annecy-le-Vieux de Physique des Particules, Université Savoie Mont-Blanc, CNRS/IN2P3, 
+F-74941 Annecy-le-Vieux, France. 33DESY, D-15738 Zeuthen, Germany. 34Obserwatorium 
+Astronomiczne, Uniwersytet Jagielloński, ul. Orla 171, 30-244 Kraków, Poland. 35Université 
+Bordeaux, CNRS/IN2P3, Centre d’Études Nucléaires de Bordeaux Gradignan, 33175 
+Gradignan, France. 36Universität Erlangen-Nürnberg, Physikalisches Institut, Erwin-Rommel-
+Strasse 1, D 91058 Erlangen, Germany. 37Centre for Astronomy, Faculty of Physics, Astronomy 
+and Informatics, Nicolaus Copernicus University, Grudziadzka 5, 87-100 Torun, Poland. 
+38Department of Physics, University of the Free State, PO Box 339, Bloemfontein 9300, South 
+Africa. 39ITA Universität Heidelberg, Germany. 40GRAPPA, Institute of High-Energy Physics, 
+University of Amsterdam, Science Park 904, 1098 XH Amsterdam, The Netherlands.
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+Letter RESEARCH
+Methods
+Data and spectral analyses. The phase I of the HESS array consists of four 
+identical imaging atmospheric Cherenkov telescopes. The study presented in the 
+Letter makes use of data collected from 2004 to 2013. Data are taken in wobble 
+mode; the pointing direction is chosen at an alternating offset of 0.7° to 1.1° from 
+the target position31. Standard quality selection is applied to the data31, and after 
+the selection procedure the data set amounts to 226 h of live time at the nominal 
+position of Sgr A*​. The analysis technique used to select the γ​-ray events is based 
+on a semi-analytical model of the air shower development32. The background 
+level is calculated in each position using the Ring Background method33. The 
+map shown in Fig. 1 is the γ​-ray excess count map per 0.02° ×​ 0.02° smoothed 
+by the HESS point spread function and corrected for the telescope radial 
+acceptance.
+The spectral reconstruction is based on a forward-folding method34, based 
+itself on a maximum-likelihood procedure, comparing the energy distributions of 
+signal and background events to predefined spectral shapes. The energy spectra 
+(Fig. 3) are fitted by a power law, dN/dE =​ Φ1E−Γ1, where Φ1 is the flux normal-
+ization and Γ​1 is the spectral index, and by a power law with an exponential 
+cut-off, dN/dE =​ Φ0E−Γ0 ×​ exp(−​E/Ecut), where Φ0 is the flux normalization, Γ0 
+is the spectral index and Ecut is the cut-off energy; here E is in TeV. A likelihood- 
+ratio test between these two representations is performed to determine whether 
+a significant deviation from a pure power law is preferred by the data. The 
+best-fit spectra together with their 1σ confidence-level band are shown in 
+Fig. 3 (shaded red and blue regions). The spectral points are uncorrelated flux 
+points, obtained from the reconstructed best-fit spectrum. The error bars are 
+±​1σ (assuming a Poissonian distribution) of the excess number of events in the 
+energy bin.
+The diffuse emission spectrum is extracted from an annulus centred at Sgr A*​ 
+(right panel of Fig. 1) with inner and outer radii of 0.15° and 0.45°, respectively, 
+and a solid angle of 1.4 ×​ 10−4 sr. The best-fit spectrum is given by a power law 
+with Φ1 =​ (1.92 ±​ 0.08stat ±​ 0.28syst) ×​ 10−12 TeV−1 cm−2 s−1, and a photon index 
+Γ​1 =​ 2.32 ±​ 0.05stat ±​ 0.11syst. Its γ​-ray luminosity above 1 TeV is Lγ​(≥​1 Tev) =​  
+(5.69 ±​ 0.22stat ±​ 0.85syst) ×​ 1034 erg s−1. The fit of a power law with an exponential 
+energy cut-off is not preferred by the data. When compared with a pure power law, 
+the likelihood-ratio test gives a p value of 0.8 (∼​0.25 s.d. from the power-law fit). 
+In order to investigate the possibility of spatial variations of the spectral indices 
+over the central molecular zone, the spectra within all the regions (left panel of 
+Fig. 1) are reconstructed. All the indices are compatible, within 1σ, with an index 
+of 2.32 ±​ 0.05stat ±​ 0.10syst (see Extended Data Table 3). The spectrum of the central 
+source is extracted from a circular region of radius 0.1° centred on Sgr A*​. The 
+best-fit spectrum is a power law with an exponential cut-off with Φ0 =​ (2.55 ±​  
+0.04stat ±​ 0.37syst) ×​ 10−12 TeV−1 cm−2 s−1, a photon index of Γ​0 =​  
+2.14 ±​ 0.02stat ±​ 0.10syst, and an energy cut-off at Ecut =​ (10.7 ±​ 2.0stat ±​ 2.1syst) TeV. 
+When compared with a pure power law, the likelihood-ratio test gives a p value of 
+3 ×​ 10−5. A power law with an exponential cut-off is clearly preferred by the data.
+The diffuse γ​-ray spectrum from the decay of neutral pions produced by pp 
+interactions reflects the parent proton spectrum. The normalization of the pro-
+ton spectrum depends on a combination of the injection power, target mass and 
+propagation effects. Its shape, however, is completely defined by the observed 
+γ​-ray spectrum. In the case of a γ​-ray spectrum following a power law with 
+index Γ​1, the parent proton spectrum should follow a power law with an index 
+Γ​p ≈​ Γ​1 +​ 0.1 (ref. 9). Using the parameterization of ref. 35, the best-fit proton spec-
+trum to the HESS data is obtained for a power law with Γ​p ≈​ 2.4. The corres­ponding 
+1σ confidence band of this γ​-ray spectrum is described by the red shaded area in 
+Fig. 3. A fit to the data is also done with the γ​-ray spectral shape derived from a 
+proton spectrum following a power law with an exponential cut-off. When com-
+pared with a power law, the likelihood-ratio test gives a p value of 0.9 (∼​0.12 s.d. 
+from the power-law fit), and it is thus not preferred by the data. The lower limits 
+on the proton spectrum energy cut-off can thus be derived from this fit. The 68%, 
+90% and 95% confidence level deviation from the HESS data are found for proton 
+spectra following a power law with Γ​p ≈​ 2.4 and cut-offs (E68%
+cut,p, E90%
+cut,p and E95%
+cut,p) 
+at 2.9 PeV, 0.6 PeV and 0.4 PeV, respectively. Their corresponding γ​-ray spectra 
+are plotted in Fig. 3 (red long-dashed, dashed and dotted lines, respectively). The 
+numerical computation of the energy spectrum of cosmic-ray protons with energy 
+>​10 TeV escaping from the central source at a rate of ∼​ 8 ×​ 1037 erg s−1 over a 
+time of ∼​6 ×​ 1013 yr is shown in Fig. 3 (red solid line). Their injection spectrum is 
+Qp(E) ∝​ E−2.2 extending up to 4 PeV, and their transport is described by a diffusion 
+coefficient D(E) =​ 6 ×​ 1029(E/10)β cm2 s−1, with β​ =​ 0.3 (E is in TeV). The resulting 
+γ​-ray spectrum is compatible with the best-fit diffuse spectrum.
+Mass estimation and cosmic-ray energy density in the central molecular zone. 
+The derivation of the cosmic-ray density profile in the central molecular zone rests 
+on the distribution of target material (for cosmic-ray interactions). The bulk of the 
+gas in the Galactic Centre region is in the form of the molecular hydrogen (H2), 
+which is very difficult to detect directly. Therefore indirect methods of estimating 
+the mass using tracer molecules must be applied. Tracer molecules are typically 
+rare relative to H2 but much easier to detect and with an approximately known 
+ratio to H2. The mass estimates used in this Letter are based on the line emission 
+of the CS molecule at the J =​ 1–0 transition30. In order to evaluate the systematic 
+uncertainties in these estimates, other channels, such as the line emission from 
+transitions of 12C16O (ref. 36) and HCN (ref. 37) molecules, are also invoked. The 
+total mass in the inner 150 pc of the central molecular zone is estimated to be 
+(
+) ×
+−
++
+3
+10
+1
+2
+7M (refs 30, 38; M, solar mass) The regions shown in Fig. 1 (left) 
+almost completely cover the inner 150 pc of the central molecular zone and are used 
+to extract the radial distribution of cosmic rays. They are symmetrically distributed 
+around the centre of the central molecular zone, which is offset from Sgr A*​ by 
+∼​50 pc in positive Galactic longitudes (l ≈​ 0.33°). These regions are described as 
+follows.
+Ring 1 (R1): semi-annulus with [rin, rout] =​ [0.1°, 0.15°], where rin and rout are the 
+inner and outer radii, respectively. A section of 66° is excluded in order to avoid a 
+newly detected source which will be reported elsewhere. This section is bounded 
+by the opening angles of +​10° and −​56° from the positive Galactic longitude axis 
+(see Fig. 1). The average radial distance from Sgr A*​ is rd =​ 18.5 pc.
+Ring 2 (R2): semi-annulus [rin, rout] =​ [0.15°, 0.2°], rd =​ 25.9 pc.
+Ring 3 (R3): semi-annulus [rin, rout] =​ [0.2°, 0.3°], rd =​ 37.1 pc.
+Circle 1/1b (C1/C1b): circular region with 0.1° of radius centred at 
+l =​ 0.344°/359.544°, b =​ −​0.4588°, in Galactic coordinates, and rd =​ 59.3 pc.
+Circle 2/2b (C2/C2b): circular region with 0.1° of radius centred at 
+l =​ 0.544°/359.344°, b =​ −​0.04588°, rd =​ 89.0 pc.
+Circle 3 (C3): circular region with 0.1° of radius centred at l =​ 0.744°, 
+b =​ −​0.04588°, rd =​ 118.6 pc.
+Circle 4 (C4): circular region with 0.1° of radius centred at l =​ 0.944°, 
+b =​ −​0.04588°, rd =​ 148.3 pc.
+Circle 5 (C5): circular region with 0.1° of radius centred at l =​ 1.144°, 
+b =​ −​0.04588°, rd =​ 178.0 pc.
+If the γ​-ray emission is completely due to the decay of neutral pions produced 
+in proton–proton interactions, then the γ​-ray luminosity Lγ above energy Eγ is 
+related to the total energy of cosmic-ray protons Wp as
+η
+(≥
+) ≈
+(≥
+)
+( )
+π
+γ
+γ
+γ
+→
+L
+E
+W
+E
+t
+10
+1
+N
+p
+pp
+0
+where 
+π
+→
+tpp
+0 =1.6 ×​ 108 yr (1 cm−3/nH) is the proton energy loss timescale due to 
+neutral pion production in an environment of hydrogen gas of density nH (ref. 9), 
+and η​N ≈​ 1.5 accounts for the presence of nuclei heavier than hydrogen in both 
+cosmic rays and interstellar matter. The energy density (in eV cm−3) of cosmic 
+rays, wCR, averaged along the line of sight is then:
+η
+(≥
+) =
+(≥
+) ≈. ×
+
+.
+
+
+
+
+
+(≥
+)
+
+
+
+
+
+
+
+
+( )
+γ
+γ
+−
+−
+γ
+γ
+−
+⊙
+w
+E
+W
+E
+V
+L
+E
+M
+M
+10
+10
+1 8
+10
+1 5
+10
+10
+2
+p
+N
+CR
+2
+1
+34
+6
+1
+where M is the mass of the relevant region in solar masses, and Lγ is in erg s−1. The 
+γ​-ray luminosity above 1 TeV and the mass estimates (based on three tracers) for all 
+regions are presented in Extended Data Table 1. The cosmic-ray energy densities 
+in different regions, given in units of 10−3 eV cm−3, which is the value of the local 
+cosmic-ray energy density w0(≥​10 Tev) (as measured in the solar neighbourhood), 
+are presented in Extended Data Table 2.
+The uncertainty in the cosmic-ray energy density comes basically from the 
+uncertainty in the mass estimates. The independent estimates from different trac-
+ers result in cosmic-ray enhancement factors in the inner regions of the central 
+molecular zone (r ≤​ 25 pc from the Galactic Centre) as follows: 
+−
++
+16 5
+10 (CS), 
+−
++
+22 7
+14 
+(CO) and 
+−
++
+24 8
+16 (HCN). The cosmic-ray radial distribution is also computed for 
+all the different channels. The results (shown in Fig. 2 for CS line tracer) are in 
+good agreement with the 1/r profile with χ2/d.o.f. =​ 11.8/9, χ2/d.o.f. =​ 9.4/9 and 
+χ2/d.o.f. =​ 11.0/8 for mass estimates based on the CS, CO and HCN tracers, respec-
+tively. At the same time, the data are in obvious conflict with profiles of the type 
+w(r) ∝​ 1/r2 (χ2/d.o.f. =​ 73.2/9 (CS), χ2/d.o.f. =​ 78.0/9 (CO) and χ2/d.o.f. =​ 57.9/8 
+(HCN)), and of the type w(r) ∝​ constant (χ2/d.o.f. =​ 61.2/9 (CS), χ2/d.o.f. =​ 45.6/9 
+(CO) and χ2/d.o.f. =​ 77.1/8 (HCN)). Finally, when fitting a 1/rα profile to the data, 
+the best fit is found for α equal to 1.10 ±​ 0.12 (CS), 0.97 ±​ 0.13 (CO) and 1.24 ±​ 0.12 
+(HCN), with χ2/d.o.f. =​ 11.1/8, χ2/d.o.f. =​ 9.34/8 and χ2/d.o.f. =​ 6.5/7, respectively, 
+which confirms the preference for an 1/r density profile to describe the data.
+Spectral analysis within the central molecular zone. The findings of a PeVatron 
+accelerating protons in a quasi-continuous regime, over a sufficiently long 
+period of time to fill the whole central molecular zone, implies that the γ​-ray 
+energy spectral shape should be spatially independent over the central molecular 
+zone. The available statistics in each of these regions prevent us from testing the 
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+Letter
+RESEARCH
+­existence of a cut-off beyond 10 TeV. The indices of all the regions are presented 
+in Extended Data Table 3. All the indices are compatible within 1σ with an index 
+of 2.32 ±​ 0.05stat ±​ 0.10syst, as measured in the annulus in the right panel of Fig. 1, 
+and are used to derive the properties of the Galactic Centre PeVatron. The com-
+patibility of the measured spectral indices over the 200 pc of the central molecular 
+zone provides an additional piece of evidence for the scenario proposed in this 
+Letter.
+Multi-TeV γ-rays of leptonic origin? For the diffuse γ​-ray emission of Galactic 
+Centre, we consider quite specific conditions which strongly constrain the pos-
+sible scenarios of γ​-ray production. Two major radiation mechanisms are related 
+to interactions of ultrarelativistic protons and electrons, with the dense gas in the 
+central molecular zone and with the ambient infrared radiation fields, respectively. 
+To explain multi-TeV γ​-rays, the maximum energy of protons and electrons need 
+to be as large as ∼​1 PeV and ∼​100 TeV, respectively. Additionally, these particles 
+should effectively propagate and fill the entire central molecular zone. Whereas in 
+the case of the hadronic scenario one needs to postulate an existence of a PeVatron 
+in the Galactic Centre, any ‘leptonic’ model of γ​-ray production should address 
+the following questions: (i) whether the accelerator could be sufficiently effective 
+to boost the energy of electrons up to ≥​100 TeV under the severe radiative losses 
+in the Galactic Centre; (2) whether these electrons can escape the sites of their 
+production and propagate over distances of tens of parsecs; and (3) whether they 
+can explain the observed hard spectrum of multi-TeV γ​-rays.
+Acceleration of electrons to multi-100 TeV energies is more difficult than accel-
+eration of protons because of severe synchrotron and inverse Compton (IC) losses. 
+Formally, acceleration of electrons to energies beyond 100 TeV is possible in the 
+so-called extreme accelerators, where the acceleration proceeds at the maximum 
+possible rate allowed by classical electrodynamics, tacc ≈​ RL/c ≈​ 0.4(E/100)B−1 yr, 
+where E is the energy in TeV, B is the magnetic field in μ​G, c is the velocity of 
+light and RL is the Larmor radius. Even so, the escape of such energetic electrons 
+from the accelerator, and their propagation far enough (tens of parsecs) to fill 
+the central molecular zone, can be realized only for rather unrealistically weak 
+magnetic fields and fast diffusion. Indeed, the propagation time over a distance 
+R (in pc) and for a particle diffusion coefficient D (in cm2 s−1) is equal to tdiff 
+=​ R2/6D ≈​ 2 ×​ 103(R/200)2(D/1030) yr and, for typical interstellar conditions, is 
+much longer than the synchrotron loss time of electrons with energy Ee (in TeV), 
+tsynch ≈​ 10(B/100)−2(Ee/100)−1 yr (here B is in μ​G).
+The efficiency of a given γ​-ray emitting process is determined by the cooling 
+time of particles through that specific channel compared to the characteristic times 
+of other (radiative and non-radiative) processes. The cooling times of relativistic 
+electrons in the central molecular zone are shown in Extended Data Fig. 1. While 
+bremsstrahlung and IC scattering result in γ​-ray emission, the ionization and 
+synchrotron losses reduce the efficiency of γ​-ray production. Bremsstrahlung is 
+an effective mechanism of γ​-radiation at GeV energies. Above 100 GeV, IC cool-
+ing becomes more effective (tIC <​ tbr; where tIC and tbr are the electrons’ cooling 
+times through IC and bremsstrahlung, respectively), and strongly dominates over 
+bremsstrahlung at energies above 10 TeV. This can be seen in Extended Data Fig. 2, 
+where the results of calculations of the spectral energy distribution of broad-band 
+emission of electrons are shown. The calculations are performed for an acceleration 
+spectrum following a power law with an exponential cut-off at 100 TeV. Assuming 
+that electrons are injected in a continuous regime, the steady-state spectrum of 
+electrons is obtained by solving the kinetic equation which takes into account the 
+energy losses of electrons due to ionization, bremsstrahlung, synchrotron radiation 
+and IC scattering. At low energies, the losses due to the diffusive escape of elec-
+trons from the central molecular zone are more important. Although it has been 
+shown that the magnetic field in the Galactic Centre should have a lower limit of 
+B =​ 50 μ​G on 400 pc scales39, here we assume a very low B =​ 15 μ​G. Even with such 
+low magnetic field, it is seen that above 10 TeV the calculations do not match the 
+observed fluxes. If we assume, say, gas density higher by an order of magnitude 
+(for example, if γ​-rays are produced mainly in dense cores of molecular clouds), 
+then bremsstrahlung would dominate over the IC contribution, and the flux of 
+γ​-rays could be increased. However, for any reasonable magnetic field, the syn-
+chrotron losses above 10 TeV will dominate over bremsstrahlung. This will make 
+the steady-state electron spectrum steeper with power-law index α =​ α0 +​ 1 (α0 
+is the power-law index of the electron injection spectrum). Since the γ​-ray spec-
+trum produced owing to bremsstrahlung mimics the energy spectrum of parent 
+electrons (Γ​ =​ α), at energies of γ​-rays above a few TeV we should expect quite 
+a steep spectrum of γ​-rays, with a power-law index Γ​  >​ 3.4. This is in apparent 
+conflict with observations.
+Multiwavelength and multi-messenger signatures of PeVatrons. Galactic 
+PeVatrons have unique signatures which allow their unambiguous identification 
+among other particle accelerators. Such signatures are related to the neutral second-
+ary products resulting from hadronic interactions of accelerated PeV protons and 
+nuclei (E ≥​ 0.1 PeV per nucleon) with the ambient gas. The secondaries ­produced 
+at low energies, in particular MeV/GeV γ​-rays and the radio synchrotron emission 
+of primary and secondary electrons and positrons, do carry information about the 
+accelerator, however, strictly speaking, they are not directly linked to the PeV parti-
+cles. The extrapolations from low to high energies based on theoretical assumptions 
+are model-dependent, and therefore biased. Obviously, they cannot substitute for 
+direct measurements at highest energies.
+All three products of interactions of ultrarelativistic protons (γ​-rays, ­neutrinos 
+and electrons) generated through the production and decay of π0, π+ and 
+π− mesons, receive approximately 10% of the energy of primary protons, thus 
+multi-TeV secondary neutrals carry unequivocal information about the primary 
+PeV protons. First of all, this concerns ≥​10 TeV γ​-rays, because at such high 
+energies the efficiency of leptonic channels of production of high energy γ​-rays in 
+general, and in the central molecular zone, in particular, is dramatically reduced 
+(see above). The flux sensitivity as well as the angular and energy resolutions 
+achieved by the HESS array allow adequate studies of the acceleration sites and 
+the propagation of accelerated protons up to 1 PeV based on the morphological 
+and spectral properties of multi-TeV γ​-rays from the Galactic Centre.
+A second independent and straightforward proof of the hadronic origin of dif-
+fuse γ​-rays from the central molecular zone would be the detection of multi-TeV 
+neutrinos spatially correlated with γ​-rays. In Extended Data Fig. 3 we show the 
+fluxes of high energy neutrinos which should accompany the γ​-ray flux presented 
+in Fig. 3. The calculations are based on the parent proton spectrum derived from 
+γ​-ray data, therefore the only free parameter in these calculations is the high energy 
+cut-off E0 in the spectrum of parent protons. The condition for the detection of 
+high energy neutrinos by km3-scale detectors (such as IceCube or KM3Net) can be 
+expressed by a minimum flux of γ​-rays, assuming that both neutrinos and γ​-rays 
+are products of pp interactions. The estimate of detectability of neutrinos is most 
+robust (that is, less sensitive to the spectral shape) when normalized at a particle 
+energy of ∼​20 TeV. Namely, neutrinos can be detected by a km3 volume detector if 
+the differential flux of accompanying γ​-rays at 20 TeV exceeds 10−12 TeV cm−2 s−1 
+(ref. 40). Since the γ​-ray fluxes (Fig. 3) are quite close to this value, we may conclude 
+that multi-TeV neutrinos from the Galactic Centre can be marginally detected by 
+a km3-scale detector after several years of exposure.
+The third complementary channel of information about the PeV protons is 
+carried by the secondary electrons, through their synchrotron radiation. In pp 
+interactions, electrons are produced in a fair balance with neutrinos and photons 
+(their distribution almost coincides with the spectrum of the electronic neutri-
+nos)35, that is, they carry a significant fraction of the energy of the incident pro-
+ton. In environments with magnetic field B ≥​ 100 μ​G, the lifetime of secondary 
+electrons producing X-rays of energy ε​x (in keV) is quite short, ∼​15(B/100)−3/2 
+(ε​x/10)−1/2 yr, compared to other characteristic times—for example, to the propa-
+gation time of protons over the central molecular zone. Therefore, hard X-rays can 
+be considered as a ‘prompt’ radiation component emitted in hadronic interactions 
+simultaneously with γ​-rays and neutrinos. The energy release in X-rays calculated 
+self-consistently for the proton spectrum derived from the γ​-ray data exceeds 10% 
+of the energy released in multi-TeV neutrinos and γ​-rays (see in Extended Data 
+Fig. 4). In general, this is quite substantial, given the superior flux sensitivity of 
+X-ray instruments, especially for point like sources. However, since the radiation 
+component shown in Extended Data Fig. 4 is integrated over a very large (for 
+X-ray instruments) region with an angular size of ∼​1°, it is overshadowed by the 
+diffuse X-ray emission detected by XMM-Newton41. This makes the detection of 
+this component practically impossible.
+Finally, we mention relativistic neutrons as another potential messenger of had-
+ronic processes produced in the Galactic Centre, predominantly in the reaction 
+pp →​ pnπ+. However, because of the short lifetime of τ ≈​ 103 s, only neutrons 
+of energy En ≥​ mnd/(cτ) ≈​ 1018 eV (here mn is the neutron mass) could reach us 
+before they decay during the “free flight” from the Galactic Centre (d =​ 8.5 kpc is 
+the distance to the Galactic Centre). Thus if the proton spectrum in the Galactic 
+Centre extends to extremely high energies, one can probe, in principle, this addi-
+tional channel of information by detectors of cosmic rays, in particular by the 
+AUGER observatory.
+Alternative sources of PeV cosmic rays in the Galactic Centre. Several cos-
+mic-ray sources are present in the Galactic Centre region. Besides the Galactic 
+Centre supermassive black hole, discussed in this Letter, alternative sources of the 
+cosmic rays responsible for the γ​-ray emission from the central molecular zone 
+include supernova remnants (SNRs)42, stellar clusters22, and radio filaments43. Any 
+of these scenarios should satisfy the following conditions, derived from the HESS 
+observations of the central molecular zone: (i) the accelerator has to be located in 
+the inner ∼​10 pc of the Galaxy, (ii) the accelerator(s) has(have) to be continuous 
+over a timescale of at least thousands of years, and (iii) the acceleration has to 
+proceed up to PeV energies.
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+Letter RESEARCH
+SNRs. The acceleration mechanism operating at SNRs is widely believed to be 
+diffusive shock acceleration, characterized by an acceleration timescale 
+≈
+( )/
+t
+D E
+u
+acc
+s
+2, where D(E) ∝​ E/B is the Bohm diffusion coefficient of a cosmic 
+ray of energy E in a magnetic field B, and us is the shock speed. It is clear, then, that 
+the fastest acceleration rate is obtained for the largest possible values of the shock 
+speed and of the magnetic field strength.
+In the early free expansion phase of the SNR evolution, shock speeds as high 
+as ∼​104 km s−1 can be achieved. The magnetic field strength is also expected 
+to be very large during this early phase (up to about 0.1–1 mG; ref. 44) due to 
+efficient field amplification connected to the acceleration of cosmic rays at the 
+shock45. Under these circumstances, SNRs can accelerate protons up to an energy 
+of Emax ≈​ 1014(B/100)(us/10,000)2(Δ​tPeV) eV, where Δ​tPeV (in yr) is the duration 
+of the phase where shock speed and magnetic field are high enough to allow the 
+acceleration of particles up to PeV energies (B is in μ​G, us in km s−1). It has been 
+shown in ref. 24 that the duration of this phase is of the order of tens of years 
+(definitely less than a century). Thus, even though SNRs can potentially provide 
+PeV particles, they cannot act as (quasi) continuous injectors of such energetic 
+particles for a time of the order of thousands of years.
+Stellar clusters. Other possible cosmic-ray sources in the Galactic Centre region 
+are stellar clusters. Three are known in the inner ∼​0.1°–0.2° region: the central, 
+the Arches, and the Quintuplet cluster. The most likely sites for acceleration of 
+particles in stellar clusters are the stellar winds of the massive OB stars that form 
+the cluster, and the shocks of the supernovae which mark the end of the life of 
+these stars. However, in order to accelerate particles up to PeV energies, very large 
+shock velocities, of the order of at least 10,000 km s−1 are needed24. Velocities of 
+this order can hardly be found in stellar wind termination shocks, and thus SNR 
+shocks following the explosion of cluster member stars remain the best candidates 
+as particle accelerators.
+Both the Arches and the Quintuplet clusters are located outside the inner 
+∼​10 pc region23, and this disfavours their role as accelerators of the cosmic rays 
+responsible for the diffuse γ​-ray emission. On the contrary, the central cluster is 
+located well within the central 10 pc region, and thus should be considered as a 
+potential candidate for the acceleration of cosmic rays in the central molecular zone. 
+The γ​-ray observations suggest that the cosmic-ray source in the Galactic Centre 
+should act (quasi) continuously over time tinj of a few thousands of years. Given 
+that an SNR can accelerate PeV particles over a time interval tPeV (in yr) of less than 
+a century, we would need at least ∼​10(tPev/100)(tinj/1,000)−1 supernova explosions 
+happening over the last tinj (in yr) within the central cluster. Given the very small 
+size of the region (∼​0.4 pc), such a large supernova explosion rate is unrealistic.
+Radio filaments. It has been proposed in ref. 43 that the diffuse γ​-ray emission 
+from the central molecular zone was the result of non-thermal Bremsstrahlung 
+from relativistic electrons43,46. In this scenario, the putative sources of γ​-ray emit-
+ting electrons are the elongated radio filaments detected throughout the central 
+molecular zone region43. This is in tension with one of the main finding of this 
+Letter, that is, the location of the source of cosmic rays is in the inner ∼​10 pc of the 
+Galaxy. Though the acceleration mechanism is not discussed in ref. 43, ­filaments 
+are assumed to somehow accelerate electrons and then release them in the inter-
+stellar medium. In order to fill the whole central molecular zone region before 
+being cooled by synchrotron and IC losses, electrons are assumed to propagate 
+ballistically (that is, at the speed of light without a significant deflection in the 
+magnetic field). This unconventional assumption is made at the expenses of a very 
+large energy requirement: observations can be explained if the energy injection rate 
+of cosmic-ray electrons in the central molecular zone is of the order of ∼​1041 erg s−1 
+(ref. 43). This is a very large injection rate, being comparable to the total luminosity 
+of cosmic-ray protons in the whole Galaxy, and makes this scenario problematic.
+31.	 Aharonian, F. et al. Observations of the Crab Nebula with HESS. Astron. 
+Astrophys. 457, 899–915 (2006).
+32.	 de Naurois, M. & Rolland, L. A high performance likelihood reconstruction  
+of γ​-rays for imaging atmospheric Cherenkov telescopes. Astropart. Phys. 32, 
+231–252 (2009).
+33.	 Berge, D., Funk, S. & Hinton, J. A. Background modelling in very-high-energy  
+γ​-ray astronomy. Astron. Astrophys. 466, 1219–1229 (2007).
+34.	 Piron, F. et al. Temporal and spectral gamma-ray properties of Mkn 421 above 
+250 GeV from CAT observations between 1996 and 2000. Astron. Astrophys. 
+374, 895–906 (2001).
+35.	 Kelner, S., Aharonian, F. & Bugayov, V. Energy spectra of gamma-rays, 
+electrons and neutrinos produced at proton-proton interactions in the very 
+high energy regime. Phys. Rev. D 74, 034018 (2006); erratum 79, 039901 
+(2009).
+36.	 Oka, T. et al. A large-scale CO survey of the Galactic center. Astrophys. J.  
+118 (Suppl.), 455–515 (1998).
+37.	 Jones, P. et al. Spectral imaging of the Central Molecular Zone in multiple 
+3-mm molecular lines. Mon. Not. R. Astron. Soc. 419, 2961–2986 (2012).
+38.	 Ferrière, K., Gillard, W. & Jean, P. Spatial distribution of interstellar gas in the 
+innermost 3 kpc of our Galaxy. Astron. Astrophys. 467, 611–627 (2007).
+39.	 Crocker, R. M., Jones, D. I., Melia, F., Ott, J. & Protheroe, R. J. A lower limit of 50 
+microgauss for the magnetic field near the Galactic Centre. Nature 463, 65–67 
+(2010).
+40.	 Vissani, F., Aharonian, F. & Sahakyan, N. On the detectability of high-energy 
+galactic neutrino sources. Astropart. Phys. 34, 778–783 (2011).
+41.	 Heard, V. & Warwick, R. S. XMM-Newton observations of the Galactic Centre 
+region – I. The distribution of low-luminosity X-ray sources. Mon. Not. R. Astron. 
+Soc. 428, 3462–3477 (2013).
+42.	 Büsching, I., de Jager, O. C. & Snyman, J. Obtaining cosmic-ray propagation 
+parameters from diffuse very high energy gamma-ray emission from the 
+galactic center ridge. Astrophys. J. 656, 841–846 (2007).
+43.	 Yusef-Zadeh, F. et al. Interacting cosmic rays with molecular clouds: a 
+bremsstrahlung origin of diffuse high energy emission from the inner 2° ×​ 1° of 
+the Galactic center. Astrophys. J. 762, 33 (2013).
+44.	 Vink, J. Supernova remnants: the X-ray perspective. Astron. Astrophys. Rev. 20, 
+49 (2012).
+45.	 Bell, A. R. Turbulent amplification of magnetic field and diffusive shock 
+acceleration of cosmic rays. Mon. Not. R. Astron. Soc. 353, 550–558 (2004).
+46.	 Yusef-Zadeh, F. et al. The origin of diffuse X-ray and γ​-ray emission from the 
+Galactic center region: cosmic ray particles. Astrophys. J. 656, 847–869 (2007).
+47.	 Strong, A. W. & Moskalenko, I. V. Propagation of cosmic-ray nucleons in the 
+Galaxy. Astrophys. J. 509, 212–228 (1998).
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+Letter
+RESEARCH
+106
+108
+1010
+1012
+1014
+1016
+1018
+1020
+ 1
+ 100
+ 10000
+ 1e+06
+τcool(s)
+Energy (GeV)
+Synchrotron, B=10µG
+Synchrotron, B=100µG
+IC
+Bremsstrahlung
+Coulomb
+Extended Data Figure 1 | Cooling times of electrons in the Galactic 
+Centre as a function of energy. The cooling times (τcool) due to ionization 
+(or Coulomb) losses and bremsstrahlung are inversely proportional to 
+the gas density n; here n =​ 100 cm−3 is assumed. The cooling time of the 
+synchrotron radiation is proportional to 1/B2, where B is the magnetic 
+field. The synchrotron cooling times are given for magnetic fields  
+B =​ 10 μ​G and B =​ 100 μ​G. The total energy densities of the cosmic 
+microwave background and of local near-infrared (NIR) and far-infrared 
+(FIR) infrared radiation fields used to calculated the cooling time due to 
+the IC scattering are extracted from the GALPROP code47. The integrated 
+densities are 17.0 eV cm3 and 1.3 eV cm3 for NIR and FIR, respectively.
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+Letter RESEARCH
+10-13
+10-12
+10-11
+10-10
+100
+105
+1010
+105
+1010
+1015
+1020
+φ(E)(TeV s-1 cm-2)
+Energy(eV)
+Frequency(MHz)
+synchrotron
+ICs
+Bremstrahlung
+total
+5e-14
+5e-12
+1011
+1013
+Extended Data Figure 2 | Broad-band spectral energy distribution of 
+radiation by relativistic electrons.  The flux from synchrotron radiation, 
+bremsstrahlung and IC scattering is compared to the fluxes of diffuse γ​-ray 
+emission measured by HESS (black points with vertical error bars). The 
+flux of diffuse X-ray emission measured by XMM-Newton41 (black point 
+with horizontal error bar) and integrated over the central molecular zone 
+region is also shown. Inset (top right) shows a zoomed view of the spectral 
+energy distribution in the VHE range (100 GeV–100 TeV). The vertical 
+and horizontal error bars show the 1σ statistical errors and the bin size, 
+respectively.
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+Letter
+RESEARCH
+10-14
+10-13
+10-12
+10-11
+10-1
+100
+101
+102
+103
+φ(E)(erg s-1 cm-2)
+Energy(TeV)
+cutoff at 1 PeV
+10 PeV
+100 PeV
+Extended Data Figure 3 | The spectral energy distribution of high energy neutrinos—the counterparts of diffuse γ-rays from the Galactic Centre.  
+The energy spectrum of parent protons is derived from the γ​-ray data. The three curves correspond to different values of the exponential cut-off in the 
+proton spectrum: 1 PeV, 10 PeV and 100 PeV.
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+Letter RESEARCH
+10-15
+10-14
+10-13
+10-12
+10-11
+10-10
+10-9
+10-6
+10-4
+10-2
+100
+102
+104
+ 10000
+ 1e+08
+ 1e+12
+φ(E)(erg s-1 cm-2)
+Energy(eV)
+Frequency(MHz)
+Cutoff at 1 PeV
+10 PeV
+100 PeV
+Extended Data Figure 4 | The spectral energy distribution of synchrotron  
+radiation of secondary electrons produced in pp interactions.  The 
+spectra of protons are the same as in Extended Data Fig. 3. The magnetic 
+field is assumed to be 100 μ​G. The flux of diffuse X-ray emission measured 
+by XMM-Newton and integrated over the central molecular zone region is 
+also shown. The horizontal error bar corresponds to the bin size.
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+Letter
+RESEARCH
+Extended Data Table 1 | γ-ray luminosities and masses in different regions of the central molecular zone
+The errors quoted are 1σ​ statistical (stat) and systematic (sys) errors. The region C2b is not covered (nc) in the HCN line observations37.
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+Letter RESEARCH
+Extended Data Table 2 | Cosmic-ray energy densities in different regions of the central molecular zone
+The densities are given in units of 10−3 eV cm−3, which is the value of the local cosmic-ray energy density measured in the solar neighbourhood. The errors quoted are 1σ​ statistical plus systematic 
+errors. The region C2b is not covered (nc) in the HCN line observations37.
+© 2016 Macmillan Publishers Limited. All rights reserved
+
+Letter
+RESEARCH
+Extended Data Table 3 | Power-law spectral indices of the γ-ray energy spectrum in different regions of the central molecular zone
+The quoted errors are 1σ​ statistical (stat) and systematic (sys) errors.
+© 2016 Macmillan Publishers Limited. All rights reserved
