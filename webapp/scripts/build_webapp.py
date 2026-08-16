@@ -339,10 +339,11 @@ def build(include_papers=False, out=None):
     search_idx_path = WEBAPP / "search_index.json"
     if search_idx_path.exists():
         search_idx = json.loads(search_idx_path.read_text(encoding="utf-8"))
-        # 只注入 index 字段（含 count/total_entries 冗余）
+        # 注入完整对象 {index, count, total_entries}——前端 _buildSearchMap 检查
+        # SEARCH_INDEX.index，只注入 index 内容会导致顶层无 .index 字段而整体失效
         shell = shell.replace(
             "__SEARCH_INDEX_JSON__",
-            json.dumps(search_idx.get("index", {}), ensure_ascii=False, indent=2),
+            json.dumps(search_idx, ensure_ascii=False, indent=2),
         )
     else:
         shell = shell.replace("__SEARCH_INDEX_JSON__", "{}")
