@@ -273,8 +273,8 @@ Tables: 1–8 (Table 7 跨 15–16 页)
 ## 7.4 半径计算（Stefan–Boltzmann）
 
 [FACT] 关键公式：
-> **L = 4$\pi$R$^{2}$ $\sigma_{\rm SB}$ T_eff$^{4}$**
-> $\sigma_{\rm SB}$ = $5.6704\times10^{-5}$ erg cm$^{-2}$ s$^{-1}$ K$^{-4}$
+> **L = 4$$\pi$$R$^{2}$ $$\sigma_{\rm SB}$$ T_eff$^{4}$$**
+> $$\sigma_{\rm SB}$$ = $5.6704\times10^{-5}$ erg cm$^{-2}$ s$^{-1}$ K$^{-4}$
 
 ## 7.5 与干涉测量半径的交叉检验（Figure 3）
 
@@ -504,8 +504,8 @@ Tables: 1–8 (Table 7 跨 15–16 页)
 
 # 12. 关键公式汇总
 
-1. **Stefan–Boltzmann（半径）**：L = 4$\pi$R$^{2}$ $\sigma_{\rm SB}$ T_eff$^{4}$，$\sigma_{\rm SB}$ = $5.6704\times10^{-5}$ erg cm$^{-2}$ s$^{-1}$ K$^{-4}$
-2. **等效温度定义**：F = $\sigma_{\rm SB}$ T$^{4}$（黑体通量等同）
+1. **Stefan–Boltzmann（半径）**：L = 4$$\pi$$R$^{2}$ $$\sigma_{\rm SB}$$ T_eff$^{4}$，$$\sigma_{\rm SB}$$ = $5.6704\times10^{-5}$ erg cm$^{-2}$ s$^{-1}$ K$^{-4}$
+2. **等效温度定义**：F = $$\sigma_{\rm SB}$$ T$^{4}$（黑体通量等同）
 3. **Bessell ↔ Kron–Cousins 转换**（I 波段）：
    (V − IB) = −0.0364(V − IC)$^{2}$ + 1.4722(V − IC) − 1.3563
 4. **色温插值**：对每种颜色，resid(Teff) = (color_obs − color_synth(Teff)) → 内插至 resid = 0 得 Teff_color；对 20 个颜色取平均；std-dev 为误差。
