@@ -27,13 +27,13 @@ tags: [hybrid, MFA, resonant streaming instability, NRH, Bell 2004, free-escape 
 citations:
   - '[[02_cosmic-ray-origins/0016_caprioli-2014/literature_analysis/00_overview|caprioli-2014 (Paper I)]]'
   - '[[02_cosmic-ray-origins/0008_bell-1978/literature_analysis/00_overview|bell-1978]]'
+  - '[[02_cosmic-ray-origins/0005_amato-2014/literature_analysis/00_overview|amato-2014]]'
+  - '[[02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview|blasi-2013]]'
+  - '[[02_cosmic-ray-origins/0020_giacalone-2017/literature_analysis/00_overview|giacalone-2017]]'
   - 'bell-2004 (non-resonant hybrid instability, NRH)'
   - 'blasi-amato-2006'
   - 'blasi-amato-2009'
   - 'riquelme-spitkovsky-2009'
-  - 'amato-2014'
-  - 'blasi-2013'
-  - 'giacalone-2017'
 path: 02_cosmic-ray-origins/0017_caprioli-2014-ii/literature_analysis/00_overview.md
 ---
 > 状态：**精读完成**（2026-08-16）

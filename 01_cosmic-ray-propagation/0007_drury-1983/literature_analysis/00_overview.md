@@ -2,6 +2,7 @@
 id: drury-1983
 title: "An introduction to the theory of diffusive shock acceleration of energetic particles in tenuous plasmas"
 author: "L. O'C. Drury"
+authors: "L. O'C. Drury"
 affiliation: "Max-Planck-Institut für Kernphysik, Heidelberg, West Germany"
 year: 1983
 journal: "Reports on Progress in Physics"

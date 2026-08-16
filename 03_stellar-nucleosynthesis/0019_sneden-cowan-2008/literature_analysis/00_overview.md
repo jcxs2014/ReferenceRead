@@ -15,6 +15,8 @@ keywords:
   - Population II
   - stars
 status: completed
+read_date: '2026-08-16'
+lastread: '2026-08-16'
 sections:
   - '§1 Introduction'
   - '§2 Heavy Element Formation'
