@@ -197,8 +197,12 @@ def main() -> int:
               f"缺 {len(cit_empty)}" + (f": {cit_empty[:5]}" if cit_empty else ""))
         # citations 全部指向库内 stem（无库外 [[...]] 悬空）
         papers_stems_all = {p["stem"] for p in papers}
+        def _stem(c: str) -> str:
+            """从 wikilink [[path|stem]] 或裸字串中提取 stem"""
+            m = re.search(r'\[\[.+?\|(.+?)\]\]', c)
+            return m.group(1) if m else c.strip()
         dangling = sorted({c for p in papers for c in p.get("citations", [])
-                           if c not in papers_stems_all})
+                           if _stem(c) not in papers_stems_all})
         check("附: citations 无悬空(全库内指向)", not dangling,
               f"悬空 {len(dangling)}" + (f": {dangling[:5]}" if dangling else ""))
 
