@@ -404,5 +404,65 @@ path: background/00_key_values.md
 
 ---
 
-*来源文件（23 篇 99_final_summary.md）：Strong-Moskalenko-Ptuskin 2007（§1.1）；Bhattacharjee & Sigl 1999（§1.3）；Al-Dargazelli 1996（§1.3）；Gaisser 1990（§1.2）；Blasi 2013（§1.4）；Amato 2014（§1.4）；Grenier-Black-Strong 2015（§1.4）；Biermann 1996（§1.4）；B$^2$FH 1957（§2.1）；Trimble 1975（§2.1）；Fowler 1984（§2.1）；Wallerstein 1997（§2.1）；Cameron 1968（§2.1）；Champagne & Wiescher 1992（§2.2）；Kewley 2001（§2.3）；Dieterich 2014（§2.4）；Anders & Grevesse 1989（§3）；Grevesse & Sauval 1998（§3）；Lodders 2003（§3）；AGSS09（§3）；Gies & Lambert 1992（§3.4）；Kraft 1994（§3.5）；Bertone & Hooper 2018（§4）。*
+### 1.6 现代理论补充（DSA 数值 / UHECR 综述，第三批）
+
+| 物理量 | 数值 | 不确定度 | 论文来源 | 章节 |
+|---|---|---|---|---|
+| DSA 谱指数 $q=(r+2)/(r-1)$ | $r$=压缩比决定（强激波 $r=4\to q=2$） | — | Drury 1983 | §2.2 |
+| 加速时标 | $\sim\kappa/V^2$（扩散系数/激波速度） | — | Drury 1983 | §3.3 |
+| CR 加速效率（PIC 模拟） | **~10–20%**（动能转 CR） | — | Caprioli & Spitkovsky 2014 I | §4 |
+| 注入参数 $\xi_{\rm inj}$ / $\eta$ | $\xi\approx 3$–$3.5$；$\eta\approx 10^{-3}$–$10^{-4}$ | — | Caprioli & Spitkovsky 2014 I | §3 |
+| CR 逃逸密度（Run D） | $\epsilon_{\rm CR}\sim 10^{-4}$ → 放大 ISM 磁场 **10×+** | — | Caprioli & Spitkovsky 2014 II | §5 |
+| UHECR 能谱范围 | ~1 PeV–100 EeV（含 GZK 截断） | — | Kotera & Olinto 2011 | §3 |
+| UHECR 伴生中微子率 | **0.03–0.2 ν/年**（河外） | — | Kotera & Olinto 2011 | §6 |
+| 激波注入效率（太阳风质子） | ~1% 进入激波 | — | Bell 1978 II | §2 |
+| 球状激波加速空间分布 | 极区增强（准垂直/准平行分区） | — | Giacalone 2017 | §3 |
+
+### 2.5 现代核合成补充（p 过程 / r 桥接 / SN / AGB / NS 并合，第三批）
+
+| 物理量 | 数值 | 不确定度 | 论文来源 | 章节 |
+|---|---|---|---|---|
+| p 核 138La / 180Ta 预测 vs 观测 | 预测低 **1–5 个数量级**（未闭合） | — | Arnould & Goriely 2003 | §6 |
+| r 过程核宇宙年龄（Th/Eu、Th/U） | **12–14 Gyr**（r-rich 晕星） | — | Sneden, Cowan & Gallino 2008 | §8 |
+| r-rich 星与太阳系 r-only 一致 | 10 颗 r-rich 星（Ba–Pt 重区段） | — | Sneden, Cowan & Gallino 2008 | §4 |
+| 恒星命运质量图 | 8–10 EC-SN / 10–25 CC-SN / 25–40 HN / 40–140 失败 SN / 140–260 PISN / >260 IMBH | — | Nomoto, Kobayashi & Tominaga 2013 | §4.1 |
+| AGB 对银河增丰贡献 | ¹²C ~**50–60%**、¹⁴N 主要部分、s 过程主体、~90% 尘埃 | — | Karakas & Lattanzio 2014 | §10 |
+| 短寿命核素（AGB 晚期污染） | 26Al、41Ca、60Fe、107Pd（M ≲ 1.5 M☉） | — | Busso, Gallino & Wasserburg 1999 | §7 |
+| NS-NS 并合率（银河系） | **(3 ± 1.6) × 10⁻⁵ yr⁻¹** | — | Eichler, Livio, Piran & Schramm 1989 | §2 |
+| 并合中微子总能量 | ~10⁵³ erg | — | Eichler et al. 1989 | §4 |
+| NS 并合 r 过程产物质量 | ~0.1 M☉（富 r 产物） | — | Eichler et al. 1989 | §3 |
+| 超新星爆炸能 / ⁵⁶Ni（HN） | E₅₁ = 30–50；⁵⁶Ni = 0.3–0.5 M☉ | — | Nomoto & Suzuki 2014 | §5 |
+| 失败 SN r 过程产额 | 0.002–0.004 M☉ | — | Nomoto & Suzuki 2014 | §4 |
+
+## 5. 实验观测（04 域，第四批）
+
+### 5.1 LHAASO 2021（PeV γ 射线）
+
+| 物理量 | 数值 | 不确定度 | 论文来源 | 章节 |
+|---|---|---|---|---|
+| 最高能量光子 | **1.4 PeV**（J2032+4102） | — | Cao et al. 2021 | §2 |
+| >100 TeV 源 / 光子数 | **12 源**、>530 光子，全部 ≥7σ | — | Cao et al. 2021 | §2 |
+| 运行时间 | 308 天（KM2A） | — | Cao et al. 2021 | §1 |
+
+### 5.2 AMS-02 2015（质子谱）
+
+| 物理量 | 数值 | 不确定度 | 论文来源 | 章节 |
+|---|---|---|---|---|
+| 质子谱覆盖 | 1 GV–1.8 TV（300 M 事例） | 系统误差 <5% | Aguilar et al. 2015 | §2 |
+| 谱指数变硬 | >100 GV 以上变硬 | 99.9% C.L. 排除单幂律 | Aguilar et al. 2015 | §3 |
+
+### 5.3 IceCube 2013（天体物理中微子）
+
+| 物理量 | 数值 | 不确定度 | 论文来源 | 章节 |
+|---|---|---|---|---|
+| 高能中微子事件 | **28 起**（30 TeV–1.2 PeV，26 新增） | 背景 ~10.6 → 超 ~4σ | Aartsen et al. 2013 | §3-4 |
+
+### 5.4 HESS 2016（银河中心 PeVatron）
+
+| 物理量 | 数值 | 不确定度 | 论文来源 | 章节 |
+|---|---|---|---|---|
+| 银河中心 γ 扩散发射 | 0.1–40 TeV 能谱 | — | H.E.S.S. 2016 | §3 |
+| PeVatron 证据 | 质子加速到 PeV（谱/截断形态） | — | H.E.S.S. 2016 | §4 |
+
+*来源文件（55 篇 99_final_summary.md；第三批/第四批 17 篇见 §1.6/§2.5/§5）：Strong-Moskalenko-Ptuskin 2007（§1.1）；Bhattacharjee & Sigl 1999（§1.3）；Al-Dargazelli 1996（§1.3）；Gaisser 1990（§1.2）；Blasi 2013（§1.4）；Amato 2014（§1.4）；Grenier-Black-Strong 2015（§1.4）；Biermann 1996（§1.4）；B$^2$FH 1957（§2.1）；Trimble 1975（§2.1）；Fowler 1984（§2.1）；Wallerstein 1997（§2.1）；Cameron 1968（§2.1）；Champagne & Wiescher 1992（§2.2）；Kewley 2001（§2.3）；Dieterich 2014（§2.4）；Anders & Grevesse 1989（§3）；Grevesse & Sauval 1998（§3）；Lodders 2003（§3）；AGSS09（§3）；Gies & Lambert 1992（§3.4）；Kraft 1994（§3.5）；Bertone & Hooper 2018（§4）。*
 
