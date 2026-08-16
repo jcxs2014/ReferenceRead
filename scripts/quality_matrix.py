@@ -120,7 +120,7 @@ def paper_summary(row: dict) -> int:
 
 def is_paper_stem(stem_name: str) -> bool:
     """按目录名前缀判断是否论文（01_/02_/03_ = 论文，排除 background/ 等）。"""
-    return bool(re.match(r"0[123]_", stem_name))
+    return bool(re.match(r"0[0-9]_", stem_name))  # 01-04 域（04_experiments 已纳入）
 
 def find_all_papers() -> list[Path]:
     """递归找出所有 literature_analysis/00_overview.md 所在目录（论文根）。"""
@@ -202,11 +202,14 @@ def print_matrix(papers: list[tuple[str, dict]], verbose: bool = False) -> None:
             formats[fmt] = formats.get(fmt, 0) + 1
         print(f"  格式分布: {formats}")
 
+HARD_REQUIRED = {"metadata", "structure", "chapter", "numerical"}
+# 软指标（figure/table/formula/experimental）：观测/实验类文献天然少公式与图表章节，
+# 覆盖率仅展示不参与 FAIL 判定；硬项四者全库覆盖率 100%。
+
 def check_all_covered(papers: list[tuple[str, dict]]) -> bool:
-    """所有论文的所有必需项均覆盖返回 True（exit 0），否则 False（exit 1）。"""
-    col_keys = [k for k, _, _ in CHECKLIST]
+    """所有论文的硬必需项（metadata/structure/chapter/numerical）均覆盖返回 True。"""
     for stem, row in papers:
-        if not all(row[k] for k in col_keys):
+        if not all(row[k] for k in HARD_REQUIRED):
             return False
     return True
 
