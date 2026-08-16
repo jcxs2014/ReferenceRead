@@ -28,7 +28,7 @@ $$F_{ij} = \int \left[\dot{Y}(i \rightarrow j) - \dot{Y}(j \rightarrow i)\right]
 
 $$\dot{Y}_i = \sum_j \lambda_{ji}^{1} + \sum_{j,k} \lambda_{jk \rightarrow i}^{2} Y_k \tag{9}$$
 
-- 第一项：所有核素 j → i 的 **$\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变 + 光裂**
+- 第一项：所有核素 j → i 的 **$\beta^\pm$ 衰变 + 光裂**
 - 第二项：核素 j 与 k 间的**两粒子反应**产生 i
 
 ### 8.2.3 网络规模
@@ -38,7 +38,7 @@ $$\dot{Y}_i = \sum_j \lambda_{ji}^{1} + \sum_{j,k} \lambda_{jk \rightarrow i}^{2
 **[FACT]** 新网络包含：
 
 - **216 个稳定和不稳定核素**
-- **946 个核相互作用**——包括 **$\beta^{"+" if m.group(1)=="^{+}" else "-"}$/电子俘获弱相互作用**，以及 **(p,$\gamma$)、(p,$\alpha$)、($\alpha$,$\gamma$)、($\alpha$,p)** 反应及其逆反应
+- **946 个核相互作用**——包括 **$\beta^\pm$/电子俘获弱相互作用**，以及 **(p,$\gamma$)、(p,$\alpha$)、($\alpha$,$\gamma$)、($\alpha$,p)** 反应及其逆反应
 
 ### 8.2.4 计算的三种条件
 
@@ -132,7 +132,7 @@ $$(^{22}\text{Mg} \xrightarrow{\beta^+} ^{22}\text{Na} \rightarrow \ldots) \tag{
 
 ### 8.4.3 更高 A 的流
 
-**[FACT]** 沿质子滴线的一系列反应：$^{27}{\rm Si}$(p,$\gamma$)$^{28}{\rm P}$(p,$\gamma$)$^{29}{\rm S}$($\beta^{"+" if m.group(1)=="^{+}" else "-"}$$\nu$)$^{29}{\rm P}$(p,$\gamma$)$^{30}{\rm S}$。
+**[FACT]** 沿质子滴线的一系列反应：$^{27}{\rm Si}$(p,$\gamma$)$^{28}{\rm P}$(p,$\gamma$)$^{29}{\rm S}$($\beta^\pm$$\nu$)$^{29}{\rm P}$(p,$\gamma$)$^{30}{\rm S}$。
 
 **[FACT]** A ~ 40 区由**三个反应循环**特征化：**SiP、SCl、ArK**，通过瓶颈反应 **$^{31}{\rm S}$(p,$\gamma$)$^{32}{\rm Cl}$、$^{35}{\rm Ar}$(p,$\gamma$)$^{36}{\rm K}$** 分支互连。
 
@@ -140,7 +140,7 @@ $$(^{22}\text{Mg} \xrightarrow{\beta^+} ^{22}\text{Na} \rightarrow \ldots) \tag{
 
 **[FACT]** 燃烧 ~20 s 后达到此阶段。
 
-**[FACT]** A = 50 区，流通过 **$^{43}{\rm Ti}$(p,$\gamma$)$^{44}{\rm Y}$($\beta^{"+" if m.group(1)=="^{+}" else "-"}$$\nu$)$^{44}{\rm Ti}$(p,$\gamma$)$^{45}{\rm Y}$** 与 **$^{43}{\rm Sc}$(p,$\gamma$)$^{44}{\rm Ti}$(p,$\gamma$)$^{45}{\rm Y}$** 从 CaSc 循环泄漏。
+**[FACT]** A = 50 区，流通过 **$^{43}{\rm Ti}$(p,$\gamma$)$^{44}{\rm Y}$($\beta^\pm$$\nu$)$^{44}{\rm Ti}$(p,$\gamma$)$^{45}{\rm Y}$** 与 **$^{43}{\rm Sc}$(p,$\gamma$)$^{44}{\rm Ti}$(p,$\gamma$)$^{45}{\rm Y}$** 从 CaSc 循环泄漏。
 
 **[FACT]** 进一步反应达到端点 **$^{52}{\rm Fe}$**。
 
@@ -202,7 +202,7 @@ $$^{68}\text{Se}(p,\gamma)^{69}\text{Br}(p,\gamma)^{70}\text{Kr}(\beta^+)^{70}\t
 - **1 s 后**，($\alpha$,p) 过程产生 **$^{38}{\rm Ca}$**。
 - **$^{55}$,$^{56}{\rm Ni}$ 丰度在 1.5 s 达峰值**。
 - **5 s 后**，大部分原始物质达到 **$^{64}{\rm Ge}$**。
-- **$^{64}{\rm Ge}$ 丰度缓慢下降**——因破坏过程 $^{64}{\rm Ge}$(p,$\gamma$)$^{65}{\rm As}$ 与 $^{64}{\rm Ge}$($\beta^{"+" if m.group(1)=="^{+}" else "-"}$)$^{64}{\rm Ga}$ 均弱。
+- **$^{64}{\rm Ge}$ 丰度缓慢下降**——因破坏过程 $^{64}{\rm Ge}$(p,$\gamma$)$^{65}{\rm As}$ 与 $^{64}{\rm Ge}$($\beta^\pm$)$^{64}{\rm Ga}$ 均弱。
 - **$^{64}{\rm Ge}$ 最终转换为 $^{72}{\rm Kr}$**，20 s 后达到丰度峰值。
 
 ## 8.6 三情形端点核素对比

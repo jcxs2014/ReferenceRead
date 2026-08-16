@@ -108,7 +108,7 @@ $$\frac{N_x}{N_0} = \frac{2J_x + 1}{2J_0 + 1} \exp\left(-\frac{E_x}{kT}\right) \
 
 ### 5.3.5 §3.6.2 Stellar $\beta$-Decay Rates
 
-**[FACT]** 正电子发射（$\beta^{"+" if m.group(1)=="^{+}" else "-"}$）**基本上不受**所考虑的天体环境影响。
+**[FACT]** 正电子发射（$\beta^\pm$）**基本上不受**所考虑的天体环境影响。
 
 **[FACT]** **连续电子俘获**（continuum electron capture）随密度和温度**增强**。
 
@@ -120,7 +120,7 @@ $$\frac{N_x}{N_0} = \frac{2J_x + 1}{2J_0 + 1} \exp\left(-\frac{E_x}{kT}\right) \
 
 **[FACT]** 具体大小还依赖**气体平均分子量**——必须在模型计算框架内检验。
 
-**[FACT]** 此效应**随质量增加**而更显著（rp-process 中电子俘获相对 $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变越来越有利）。
+**[FACT]** 此效应**随质量增加**而更显著（rp-process 中电子俘获相对 $\beta^\pm$ 衰变越来越有利）。
 
 ## 5.4 关键参数与数值汇总
 

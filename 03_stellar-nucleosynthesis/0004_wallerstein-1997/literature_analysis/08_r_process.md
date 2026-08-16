@@ -39,12 +39,12 @@ sections:
 
 ## 8.1 Sec. XII: The r Process (Hoffman & Timmes)
 
-[FACT] B2FH 与 Cameron (1957) 提出：种子核（通常铁）在比 $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变时标快得多的时标上快速俘获大量中子。
+[FACT] B2FH 与 Cameron (1957) 提出：种子核（通常铁）在比 $\beta^\pm$ 衰变时标快得多的时标上快速俘获大量中子。
 
 [FACT] r 过程基本图景：
-- 中子俘获直至 (n,$\gamma$) ↔ ($\gamma$,n) 平衡 → $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变前进到更高 Z
+- 中子俘获直至 (n,$\gamma$) ↔ ($\gamma$,n) 平衡 → $\beta^\pm$ 衰变前进到更高 Z
 - 适当的中子照射下可合成 Th 和 U
-- 中子流下降后，$\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变填充每个 A 的第一个稳定核
+- 中子流下降后，$\beta^\pm$ 衰变填充每个 A 的第一个稳定核
 
 [FACT] **主要综述引用**：Hillebrandt (1978), Schramm (1982), Mathews & Ward (1985), Cowan et al. (1991), Meyer (1994)
 

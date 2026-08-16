@@ -822,7 +822,7 @@ path: background/05_glossary.md
 | `$^{23}{\rm Na}$, $^{27}{\rm Al}$ production` | 0015_kraft-1994 | Na、Al 合成 |
 | `$^{20}{\rm Ne}$($\alpha$,n)$^{24}{\rm Mg}$ 中子源` | 0001_b2fh-1957 | 高温中子源 |
 | `$^{20}{\rm Ne}$–$^{23}{\rm Na}$ chain` | 0015_kraft-1994 | 20Ne–23Na 反应链 |
-| `$^{26}{\rm Al}$ 1809 keV $\gamma$ 线` | 0003_fowler-1984 | 银河系内 $^{26}{\rm Al}$ $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变伴随的特征 $\gamma$ 线，证明核合成"今天"仍在进行 |
+| `$^{26}{\rm Al}$ 1809 keV $\gamma$ 线` | 0003_fowler-1984 | 银河系内 $^{26}{\rm Al}$ $\beta^\pm$ 衰变伴随的特征 $\gamma$ 线，证明核合成"今天"仍在进行 |
 
 ### $^{1}$
 

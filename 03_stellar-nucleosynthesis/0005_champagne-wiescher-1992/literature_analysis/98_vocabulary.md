@@ -38,8 +38,8 @@
 | 术语 | 中文 | 释义 | 首次出现章节 |
 |------|------|------|-------------|
 | explosive hydrogen burning | 爆炸性氢燃烧 | 极端 T、$\rho$ 下核反应时标与动力学自由落体时标（秒级）可比，从而在极短时间内点燃氢的燃烧模式 | §1 |
-| hot CNO (HCNO) cycles | 热 CNO 循环 | 当 $T_{9}$ ≳ 0.2 时 $^{13}{\rm N}$(p,$\gamma$)$^{14}{\rm O}$ 绕过 $^{13}{\rm N}$ $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变、$^{15}{\rm O}$($\alpha$,$\gamma$) 等 $\alpha$ 分支打开，CNO 循环以高温变体运作 | §2.1 |
-| rp-process | 快速质子俘获过程 | 质子俘获速率远快于 $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 衰变速率时，沿稳定线与质子滴线之间快速推进的重核合成过程 | §2.1 |
+| hot CNO (HCNO) cycles | 热 CNO 循环 | 当 $T_{9}$ ≳ 0.2 时 $^{13}{\rm N}$(p,$\gamma$)$^{14}{\rm O}$ 绕过 $^{13}{\rm N}$ $\beta^\pm$ 衰变、$^{15}{\rm O}$($\alpha$,$\gamma$) 等 $\alpha$ 分支打开，CNO 循环以高温变体运作 | §2.1 |
+| rp-process | 快速质子俘获过程 | 质子俘获速率远快于 $\beta^\pm$ 衰变速率时，沿稳定线与质子滴线之间快速推进的重核合成过程 | §2.1 |
 | np-process | 快速中子-质子过程 | 高温下 (n,p) 反应越过等待点的复合过程，Woosley (1985) 提出 | §5.3 |
 | $T_{9}$ | 以 $10^{9}$ K 为单位的温度 | $T_{9}$ = T / $10^{9}$ K；新星 $T_{9}$≈0.1–0.5，XRB $T_{9}$≈0.7–1.5 | §1.1 |
 | reaction network | 反应网络 | 耦合微分方程组，描述多种核素之间的 $\beta$ 衰变、(p,$\gamma$)、(p,$\alpha$)、($\alpha$,$\gamma$) 等反应及逆反应 | §2.1 |
@@ -50,7 +50,7 @@
 | $\omega$$\gamma$ (omega-gamma) | 共振强度 | $\omega$·$\Gamma_{\rm a}$·$\Gamma_{\rm b}$/$\Gamma$，用于窄共振 Maxwell 积分后的反应率 | §2.2 |
 | Hauser-Feshbach (HF) | 豪泽-费雪统计模型 | 高激发能、高能级密度下用统计方法计算反应截面 | §2.2 |
 | proton drip line | 质子滴线 | 复合核质子分离能为零时的边界，越过此边界无法继续质子俘获 | §2.2 |
-| waiting point | 等待点 | 反应流抵达质子滴线内侧一个质子，只能等待 $\beta^{"+" if m.group(1)=="^{+}" else "-"}$ 或 EC 衰变的重核 | §4.5.1 |
+| waiting point | 等待点 | 反应流抵达质子滴线内侧一个质子，只能等待 $\beta^\pm$ 或 EC 衰变的重核 | §4.5.1 |
 | photodisintegration | 光致分解 | 高能 $\gamma$ 将复合核打回质子的逆反应，抑制偶偶 T=1 核的 (p,$\gamma$) | §4.5.2 |
 | bottleneck reaction | 瓶颈反应 | 在 $T_{9}$ < 1 时通向更重元素唯一链路的奇偶 T=1/2 核 (p,$\gamma$) | §4.5.3 |
 | reaction cycles | 反应循环 | (p,$\alpha$)/(p,$\gamma$) 竞争导致的 NeNa、MgAl、SiP 等循环，是流的阻抗 | §4.5.4 |
