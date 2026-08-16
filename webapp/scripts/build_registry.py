@@ -243,8 +243,15 @@ def main() -> None:
             print(f"  - {e.get('path','?')}: title={e.get('title','?')}  quality={e.get('quality')}  kv={len(e.get('key_values',[]))}")
         print(f"[DRY] 将写入 {out_path}")
     else:
+        # 序列化前：所有字段转 str（防 year 是 int 时 .strip() 报错）
+        safe = []
+        for e in entries:
+            e2 = dict(e)
+            if isinstance(e2.get("year"), int):
+                e2["year"] = str(e2["year"])
+            safe.append(e2)
         out_path.write_text(
-            json.dumps(entries, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+            json.dumps(safe, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )
         print(f"[OK] 已写入 {out_path}，共 {len(entries)} 条")
 

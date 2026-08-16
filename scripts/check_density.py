@@ -70,7 +70,7 @@ def analyze_lit(dirpath: Path):
         total_words += words
 
         total_fact   += len(re.findall(r"\[FACT\]", text))
-        total_interp += len(re.findall(r"\[INTERP\]", text))
+        total_interp += len(re.findall(r"\[INTERPRETATION\]", text))
         total_crit   += len(re.findall(r"\[CRITIQUE\]", text))
         total_formulas += len(re.findall(r"\$[^$]+\$", text))
 

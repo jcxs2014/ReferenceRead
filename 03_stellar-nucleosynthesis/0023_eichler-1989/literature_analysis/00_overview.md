@@ -15,6 +15,7 @@ citations:
 status: completed
 sections: []
 read_date: '2026-08-16'
+lastread: '2026-08-16'
 note: "Nature letter (3 pages)，PDF 为扫描版，pytesseract OCR 提取全文。使用路径B（八段看板）分析。"
 ---
 

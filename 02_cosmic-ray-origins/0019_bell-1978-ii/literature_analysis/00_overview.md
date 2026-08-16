@@ -20,5 +20,6 @@ sections:
   - '§4 Cosmic Ray Generation by Shock Fronts'
   - '§5 Conclusions'
 read_date: '2026-08-16'
+lastread: '2026-08-16'
 note: "PDF 为 MNRAS 扫描版（13页），pytesseract OCR 提取全文；原文结构由 OCR 可读段落 + ADS 辅助判定。"
 ---

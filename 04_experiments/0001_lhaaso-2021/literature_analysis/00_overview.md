@@ -3,6 +3,7 @@ title: "Ultrahigh-energy photons up to 1.4 petaelectronvolts from 12 γ-ray Gala
 authors: "Zhen Cao, F. A. Aharonian, LHAASO Collaboration"
 year: 2021
 read_date: '2026-08-16'
+lastread: '2026-08-16'
 status: completed
 journal: "Nature"
 volume: "594"

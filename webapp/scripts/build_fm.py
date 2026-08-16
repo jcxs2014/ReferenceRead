@@ -264,13 +264,51 @@ def _extract_from_bullets(text: str) -> dict[str, str]:
 
 
 def extract_fields(text: str) -> dict[str, str]:
-    fm = _extract_from_table(text)
+    fm = _extract_from_yaml(text)
+    if not fm:
+        fm = _extract_from_table(text)
     if not fm:
         fm = _extract_from_bullets(text)
     # 提取 abstract（从全文）
     if not fm.get("abstract"):
         fm["abstract"] = _extract_abstract(text)
     return fm
+
+
+def _extract_from_yaml(text: str) -> dict[str, str]:
+    """从 YAML frontmatter（--- ... ---）提取元信息。"""
+    m = re.match(r"\s*---\s*\n(.*?)\n---\s*\n", text, re.DOTALL)
+    if not m:
+        return {}
+    block = m.group(1)
+    fields: dict[str, str] = {}
+    for line in block.splitlines():
+        if not line.strip() or line.strip().startswith("#"):
+            continue
+        kv = re.match(r"^([A-Za-z_]\w*)\s*:\s*(.*)", line)
+        if not kv:
+            continue
+        key = kv.group(1).lower()
+        val = kv.group(2).strip()
+        # 移除行内引号
+        if (val.startswith('"') and val.endswith('"')) or (val.startswith("'") and val.endswith("'")):
+            val = val[1:-1]
+        # 列表（citations 等）合并为字符串
+        if val.startswith("[") or val.startswith("-"):
+            val = val  # 列表保留为原始字符串
+        # 映射到 fm_key
+        fm_key = FIELD_MAP_TABLE.get(key) or FIELD_MAP_TABLE.get(_normalize_key(key))
+        if fm_key is None:
+            # 直接用 key 作为 fm_key（year/journal/authors/doi/arxiv/title/abstract 已是标准）
+            if key in ("title", "authors", "year", "journal", "volume", "pages", "doi", "arxiv", "category", "keywords", "abstract", "pdf_path"):
+                fm_key = key
+        if fm_key:
+            fields[fm_key] = _clean_field(val)
+    if "year" in fields:
+        y = _extract_year(fields["year"])
+        if y:
+            fields["year"] = y
+    return fields
 
 
 # ---------------------------------------------------------------------------

@@ -3,6 +3,7 @@ title: "Precision Measurement of the Proton Flux in Primary Cosmic Rays from Rig
 authors: "M. Aguilar, D. Aisa, B. Alpat, et al. (AMS Collaboration)"
 year: 2015
 read_date: '2026-08-16'
+lastread: '2026-08-16'
 status: completed
 journal: "Phys. Rev. Lett."
 volume: "114"

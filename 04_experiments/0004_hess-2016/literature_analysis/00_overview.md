@@ -3,6 +3,7 @@ title: "Acceleration of petaelectronvolt protons in the Galactic Centre"
 authors: "H.E.S.S. Collaboration"
 year: 2016
 read_date: '2026-08-16'
+lastread: '2026-08-16'
 status: completed
 journal: "Nature"
 volume: "531"

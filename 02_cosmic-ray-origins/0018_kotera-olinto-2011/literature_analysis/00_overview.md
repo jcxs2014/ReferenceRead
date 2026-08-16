@@ -24,4 +24,5 @@ sections:
   - '§7 Cosmic Ray Propagation at Ultrahigh Energies'
   - '§8 Conclusions and Outlook'
 read_date: '2026-08-16'
+lastread: '2026-08-16'
 ---
