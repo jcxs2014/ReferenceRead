@@ -1,0 +1,670 @@
+Setting the scene for Gaia and LAMOST
+
+Proceedings IAU Symposium No. 298, 2013                     c International Astronomical Union 2014
+
+S. Feltzing, G. Zhao, N. A. Walton & P. A. Whitelock, eds.  doi:10.1017/S1743921313006327
+
+Supernova Yields for Chemical Evolution
+                       Modeling
+
+                Ken'ichi Nomoto1 and Tomoharu Suzuki2
+
+         1 Kavli Institute for the Physics and Mathematics of the Universe (WPI)
+                   The University of Tokyo, Kashiwa, Chiba 277-8583, Japan
+                               email: nomoto@astron.s.u-tokyo.ac.jp
+
+       2 College of Engineering, Chubu University, Kasugai, Aichi 487-8501, Japan
+                                    email: tsuzuki@isc.chubu.ac.jp
+
+Abstract. We review the recent results of the nucleosynthesis yields of massive stars. We
+examine how those yields are affected by some hydrodynamical effects during the supernova
+explosions, namely, explosion energies from those of hypernovae to faint supernovae, mixing and
+fallback of processed materials, asphericity, etc. Those parameters in the supernova nucleosyn-
+thesis models are constrained from observational data of supernovae and metal-poor stars. The
+elemental abundance patterns observed in extremely metal-poor stars show some peculiarities
+relative to the solar abundance pattern, which suggests the important contributions of hyper-
+novae and faint supernovae in the early chemical enrichment of galaxies. These constraints on
+supernova nucleosynthesis are taken into account in the latest yield table for chemical evolution
+modeling.
+
+Keywords. stars: abundances, stars: evolution, supernovae: general, Galaxy: evolution, nuclear
+reactions, nucleosynthesis
+
+             1. Introduction
+
+                 In the Big Bang Universe, the first heavier elements, such as C, O, Ne, Mg, Si and
+              Fe, must be synthesized in the evolution and explosion of the first stars (metal-free =
+              Population III = Pop III stars) early in the history of the universe. The massive first stars
+              evolve to explode as the first supernovae (SNe), which release large explosion energies
+              and eject nucleosynthetically-enriched materials.
+
+                 In the early Universe when the metal content was extremely low, the enrichment by a
+              single supernova (SN) can dominate the pre-existing metal contents. Then the abundance
+              pattern of the enriched gas may reflect nucleosynthesis in the individual SN. The next
+              generation of stars formed from the enriched gas and the long-lived low mass stars may
+              be observed as extremely metal-poor (EMP) stars (Beers & Christlieb 2005). Thus the
+              abundance patterns of EMP stars can constrain the nucleosynthesis yields of the Pop III
+              SN and thus the mass range of the first stars. Beers & Christlieb (2005) have defined
+              the metal-poor stars with metallicity [Fe/H] to coin as follows: Very metal-poor (VMP)
+              stars for -3 [Fe/H] < -2, EMP stars for -4 [Fe/H] < -3, Ultra metal-poor (UMP)
+              stars for -5 [Fe/H] < -4, Hyper metal-poor (HMP) stars for -6 [Fe/H] < -5, and
+              Mega metal-poor (MMP) stars for [Fe/H] < -6.
+
+                 Actually, recent observations discovered several EMP stars, whose abundance patterns
+              are quite unusual, such as carbon enhanced metal-poor (CEMP) and hyper metal-poor
+              (HMP) stars (e.g., Beers & Christlieb 2005), being significantly different from previ-
+              ously known nucleosynthesis yields of massive stars. These new observations have raised
+              important challenges to the stellar evolution and nucleosynthesis theory.
+
+                                                                      154
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+Supernova Yields for Chemical Evolution Modeling  155
+
+   Interestingly, there is another challenge to the conventional stellar evolution and su-
+pernova models. That is the establishment of the Gamma-Ray Burst (GRB)-Supernova
+Connection (e.g., Woosley & Bloom 2006). Four GRB-associated SNe have been con-
+firmed spectroscopically so far. They are all very energetic supernovae, whose kinetic
+energy E exceeds 1052 erg, more than 10 times the kinetic energy of normal core-collapse
+SNe. (We use the explosion energy E for the final kinetic energy of the explosion.) In
+the present paper, we use the term `Hypernova (HN)' to describe such a hyper-energetic
+supernova with E51 = E/1051 erg > 10.
+
+                                             
+   Motivated by these challenges, we briefly review the recent results of core-collapse
+supernova models and their nucleosynthesis. The comparison between such stellar nu-
+cleosynthesis yields and the abundance patterns of EMP/UMP/HMP stars can provide
+a new approach to find out the individual supernova mechanism, especially for Pop III
+supernovae (see Nomoto, Kobayashi, & Tominaga 2013 for details).
+
+2. Progenitor's Mass and Explosion Energy
+
+   The fates of Pop III stars depend on the mass to which the initially low-mass stars grow
+through mass accretion. For various cases of feedback and mass accretion rates, Ohkubo
+et al. (2009) calculated the evolution of accreting Pop III stars to show that massive stars
+may form if the mass accretion is not much reduced during the main-sequence evolution
+(Fig. 1 (left), Ohkubo et al. 2009). It is possible that Pop III stars were even more massive
+than  300 M , if rapid mass accretion continues during the whole main-sequence phase
+of Pop III stars (Ohkubo et al. 2006). Here the models of stellar evolution, supernova
+explosions, and nucleosynthesis are described as a function of the main-sequence mass M .
+These models are constrained from the comparison of theoretical supernova light curves
+and spectra with observations.
+
+   As mentioned in the Introduction, the explosion energies of core-collapse supernovae
+are fundamentally important quantities, and an estimate of E  1 × 1051 ergs has often
+been used for nucleosynthesis calculations. A good example is SN1987A.
+
+   Important change has come from the establishment of the connection between long
+GRBs and core-collapse SNe from GRB 980425/SN 1998bw, GRB 030329/SN 2003dh,
+
+                Figure 1. (left:) Evolutionary tracks of the central temperature and central density of Pop
+                III massive stars with mass accretion (Ohkubo et al. 2009). The arrows indicate the direction
+                of the evolution. The numbers in brackets are the final masses for various accretion rates and
+                radiative feedback effects. The evolutionary track without accretion is shown for M = 1000 M .
+                (right:) The explosion energy as a function of the main-sequence mass of the progenitors for
+                several supernovae/hypernovae. Explosions of 13 - 25 M stars cluster at normal SNe, while
+                explosions of 25 - 40 M stars have a large variety ranging from hypernovae to faint SNe.
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+156  K. Nomoto & T. Suzuki
+
+GRB 031203/SN 2003lw, and GRB120422A/SN2012bz (Melandri et al. 2012 and ref-
+erences therein). These GRB-SNe are of Type Ic, showing the broad-line spectra (SNe
+BL-Ic). The properties of these GRB-SNe, such as the ejected mass (the main-sequence
+mass of the progenitor) and the kinetic energy of explosion, have been estimated from the
+comparison between the observed light curve and spectra and their theoretical models
+(Nomoto et al. 2006). As summarized in Figure 1 (right), these GRB-SNe have similar
+properties; they are all hypernovae with E51  30 - 50 and synthesize 0.3 - 0.5 M of
+56Ni. The mass estimates, obtained from fitting the optical light curves and spectra, place
+hypernovae at the high-mass end of SN progenitors.
+
+   An X-Ray Flash-SN connection has also been found: GRB 060218/SN 2006aj and GRB
+100316D/SN 2010bh. Compared with the above GRB-SNe, SN 2006aj is less energetic
+(E51  2) and its progenitor mass is smaller,  20 M , while SN 2010bf may be as
+energetic as E51  10 (Bufano et al. 2012 and references therein).
+
+   In contrast, SNe II 1997D and 1999br were very faint SNe with very low E (e.g., Turatto
+et al. 1998). In the E - M diagram (Fig. 1 (right)), therefore, we propose that SNe from
+stars with M > 20-25 M have different E, with a bright, energetic "hypernova branch"
+at one extreme and a faint, low-energy SN branch at the other (Nomoto et al. 2003).
+For the faint SNe, the explosion energy was so small that most 56Ni fell back onto the
+compact remnant. Thus the faint SN branch may become even a "failed" SN branch at
+larger M . Between the two branches, there may be a variety of SNe.
+
+   This trend might be interpreted as follows. Stars more massive than  25 M form
+a black hole at the end of their evolution. Stars with non-rotating black holes are likely
+to collapse "quietly", ejecting a small amount of heavy elements (Faint supernovae). In
+contrast, stars with rotating black holes are likely to give rise to hypernovae. The hyper-
+nova progenitors might form the rapidly rotating cores by spiraling-in of a companion
+star in a binary system.
+
+             3. 8 - 10 M Stars and Electron Capture Supernovae
+
+                 Stars in the mass range of 8 M < M < 10 M can become "electron capture super-
+              novae", if the electron-degenerate O-Ne-Mg core mass grows to 1.38 M and the central
+              density reaches 4 × 109 g cm-3 before the whole super-AGB envelope is lost by mass
+              loss. (Thus the lower limit of this mass range depends on the mass loss rate.) At such
+              a high central density, the electron Fermi energy exceeds the threshold for electron cap-
+              tures 24 Mg(e-, )24 Na(e-, )20 Ne and 20 Ne(e-, )20 F(e-, )20 O. The resultant decrease
+              in Ye triggers collapse (Nomoto 1987).
+
+                 The resultant explosion is induced by neutrino heating, and is weak with the kinetic
+              energy as low as E  1050 erg (Kitaura et al. 2006). These stars produce little -elements
+              and Fe-peak elements, but might be another source of Zn and light p-nuclei.
+
+                 Nucleosynthesis in the supernova explosion of a 9 M star (Wanajo et al. 2009) shows
+              that the largest overproduction is shared by 64 Zn, 70 Se, and 78 Kr. The 64 Zn production
+              provides an upper limit to the occurrence of exploding O-Ne-Mg cores at about 20% of all
+              core-collapse supernovae. This SN may produce a significant amount of weak r-process
+              elements as well as 48Ca from a neutron-rich blob (Wanajo et al. 2013). The ejecta mass
+              of 56Ni is 0.002-0.004 M , much smaller than the  0.1 M in more massive progenitors.
+              The light curve of electron capture supernova can be consistent with SN 1054 (the Crab
+              Nebula's supernova) (Nomoto et al. 1982, Tominaga et al. 2013a).
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+Supernova Yields for Chemical Evolution Modeling                                          157
+
+4. 10 - 13 M Stars and Faint Supernovae
+
+   The stars of 10 - 13 M undergo off-center neon ignition due to the efficient neutrino
+cooling in the semi-degenerate O+Ne+Mg core (Nomoto & Hashimoto 1988); this is in
+contrast to the 13 M star where neon is ignited at the center. The neon flame propagates
+inward due to core contraction. For 10 - 11 M , the neon flame is quenched and the
+central region forms an electron-degenerate O-Ne-Mg core surrounded by a layer with
+the neon-burning products, i.e., a Si-Fe-rich layer (Jones et al. 2013). It would become
+an electron capture supernova as in lower mass stars.
+
+   For stars with M > 11 M , the neon flame reaches the center (Nomoto & Hashimoto
+1988). Then, the core would evolve into an Fe core smaller than 1.4 M . The explosion of
+a star with such a small mass Fe core could be powered by neutrino heating, becoming a
+weak SN as in the electron capture supernovae with O-Ne-Mg cores (Mu¨ller et al. 2012).
+They would eject only a small amount of heavy elements.
+
+   The Fe core collapse of these stars would certainly lead to the formation of a neutron
+star (NS) because there exists a steep density gradient around  1.4 M , and the outer
+envelope is too extended to accrete and further increase the mass of the collapsing core
+beyond 1.4 M . The resultant SNe tend to be faint because a negligibly small amount
+of 56Ni is ejected (Mu¨ller et al. 2012). Such an SN may correspond to faint supernovae
+(Smartt 2009). A possible case of such a faint supernova from this mass range is the Type
+Ib SN 2005cz, which is unusually faint and rapidly fading (Kawabata et al. 2010).
+
+5. 13 - 25 M Stars and Normal Supernovae
+
+   These stars undergo Fe-core collapse to form a NS, and produce significant amounts of
+heavy elements from -elements to Fe-peak elements. The boundary mass between the
+NS and black hole (BH) formation, MNS/BH  20 - 25 M , is only tentative.
+
+   For this mass range, SN 1987A in the LMC has provided the most detailed constraints
+on the explosion model (Arnett et al. 1989). The modeling of nearby supernovae suggest
+that the stars in the mass range of 13 M -MNS/BH undergo neutron star-forming Fe
+core-collapse and induce normal core collapse supernovae. These SNe produce significant
+amounts of heavy elements from -elements to Fe-peak elements.
+
+6. 25 - 140 M Stars and Hypernovae & Faint Supernovae
+
+   These stars undergo Fe-core collapse to form a BH. As seen in Figure 1 (right), the
+resulting black hole-forming SNe seem to be bifurcate into two branches, Hypernovae and
+Faint SNe. If the BH has little angular momentum, little mass ejection would take place
+and it would be observed as a Faint SN. On the other hand, a rotating BH could eject
+matter in the form of jets to make a hypernova. Hypernovae produce a large amount of
+heavy elements from -elements to Fe-peak elements.
+
+                                             6.1. Hypernovae
+
+The right panel of Figure 2 shows the composition of the ejecta for a 25 M hypernova
+model (E51 = 10). The nucleosynthesis in a normal 25 M SN model (E51 = 1) is also
+shown for comparison in the left panel of Figure 2 (Umeda & Nomoto 2002).
+
+   We note the following characteristics of nucleosynthesis with very large explosion en-
+ergies (Nakamura et al. 2001, Nomoto et al. 2001):
+
+   (1) Both the complete and incomplete Si-burning regions shift outward in mass com-
+pared with normal supernovae, so that the mass ratio between the complete and incom-
+plete Si-burning regions becomes larger. As a result, higher energy explosions tend to
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+158  K. Nomoto & T. Suzuki
+
+produce larger [(Zn, Co, V)/Fe] and smaller [(Mn, Cr)/Fe], which can explain the trend
+observed in very metal-poor stars.
+
+   (2) In complete Si-burning of hypernovae, elements produced by -rich freeze-out are
+enhanced. Hence, elements synthesized through capturing -particles, such as 44 Ti, 48Cr,
+and 64 Ge (decaying into 44 Ca, 48 Ti, and 64 Zn, respectively) are more abundant.
+
+   (3) Oxygen burning takes place in more extended regions for larger E. More O, C,
+and Al are burned to produce a larger amount of burning products such as Si, S, and
+Ar. Therefore, hypernova nucleosynthesis is characterized by large abundance ratios of
+[Si,S/O], which can explain the abundance feature of M82 (Umeda et al. 2002).
+
+                                         6.2. Faint Supernovae
+
+In contrast to Hypernovae, faint supernovae undergo extensive fallback of processed ma-
+terials. The ejecta of fallback supernovae have large [C/Fe] - [Al/Fe] at low metallicity.
+These patterns could explain the abundance patterns observed in CEMP stars.
+
+   Note that, in spherical explosions, substantial fallback occurs for relatively low E.
+However, in the jet-induced explosions, fallback occurs even for high E explosions. Note
+also the stellar mass dependence of the abundance pattern is quite weak. In comparing
+with the observed patterns of CEMP stars, it is difficult to identify the progenitor's mass.
+
+                      6.3. Pulsation Instability in Pre-Collapse Stars
+
+Stars more massive than M  90 M undergo nuclear instabilities and associated pul-
+sations ( -mechanism) at various nuclear burning stages depending on the mass loss and
+thus metallicity (Heger & Woosley 2002).
+
+   (1) Oxygen Burning: For the M = 137 M Pop III star, the evolutionary track for
+the evolution of the central density and temperature is very close to (but outside of) the
+"e-e+ pair-instability region" of  < 4/3, where  denotes the adiabatic index (Fig. 1
+(left)). During oxygen burning, the central temperature and density of such a massive
+star oscillate several times (Woosley et al. 2007, Ohkubo et al. 2009). This is because
+in such massive stars radiation pressure is so dominant that  is close to 4/3, and thus
+the inner core of the stars easily expands with the nuclear energy released by O-burning.
+Once it expands, the temperature drops suddenly, the central O-burning is weakened,
+and the stellar core in turn shrinks. Since only a small amount of oxygen is burnt for each
+
+                Figure 2. Abundance distribution against the enclosed mass Mr after the explosion of Pop III
+                25 M stars with E51 = 1 (a) and E51 = 10 (b) (Umeda & Nomoto 2002, Tominaga et al. 2007b).
+                The high explosion energy in hypernovae leads to shift the complete and incomplete Si-burning
+                regions outward in mass and to enhance -rich freeze-out in the complete Si burning layer.
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+Supernova Yields for Chemical Evolution Modeling  159
+
+cycle, these pulsations occur many times. In extreme cases, the pulsation could induce
+dynamical mass ejection and optical brightening as might be observed in the brightest
+SN 2006gy (Woosley et al. 2007).
+
+   (2) Silicon Burning: M  90 M stars undergo nuclear instability due to silicon
+burning and pulsates several times (Umeda & Nomoto 2008). The amplitude of the
+pulsation due to Si-burning in the central density and temperature is smaller than O-
+burning (Ohkubo et al. 2009).
+
+   (3) Core-Collapse and 56Ni Production: Eventually, these  90 - 140 M stars
+undergo Fe-core collapse to form BHs. Then hypernova-like energetic SNe could occur
+to produce large amount 56 Ni. The synthesized 56Ni mass increases with the increasing
+E and M . For E = 3 × 1052 ergs, 56 Ni masses of up to 2.2, 2.3, 5.0, and 6.6 M can
+be produced for low metallicity (Z = 0.0001) progenitors with M = 30, 50, 80 and 100
+M (Umeda & Nomoto 2008). Thus the upper limit to the mass of 56Ni produced by
+core-collapse SNe (M < 140 M ) would be  10 M . The abundance pattern of the
+ejecta does not depend much on the stellar masses.
+
+   Because of the large ejecta mass, the expansion velocities may not be high enough to
+form broad line features, as has been observed in SN Ic 1999as (Nomoto 2012). Thanks
+to the large E and 56Ni mass, however, the SNe could be super-luminous supernovae
+(SLSNe) (Moriya et al. 2010).
+
+7. Very Massive Stars
+
+                     7.1. Pair-Instability Supernovae of 140 - 300 M Stars
+
+If very massive stars (M > 140 M ) do not lose much mass, they undergo ther-
+monuclear explosions triggered by pair creation instability (pair-instability supernovae:
+PISN) (Barkat et al. 1967). The star is completely disrupted without forming a BH and
+thus ejects a large amount of heavy elements, especially 56Ni (e.g., Umeda & Nomoto
+
+                Figure 3. Yields of the core-collapse hypernova (HN), pair-instability supernova (PISN), faint
+                SN, and Type Ia supernova are compared (Nomoto et al. 2013). The faint SN, PISN, and Type
+                Ia supernova are characterized with high [C/Fe], low [Zn/Fe] and large odd-even effect, and low
+                [/Fe], respectively, compared to the hypernova.
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+160               K. Nomoto & T. Suzuki
+
+2002, Heger & Woosley 2002). The largest mass of 56Ni obtained in the PISN models
+amounts to  40 M (Heger & Woosley 2002). The resultant radioactive decays of 56Ni
+and 56 Co could produce SLSNe.
+
+   Figure 3 shows the abundance patters in the ejecta of typical models of the core-
+collapse hypernova, PISN, faint SN, and Type Ia supernova (SN Ia). The abundance
+features of PISNe to be compared with the observed abundances are as follows:
+
+   · Abundance ratios of iron-peak elements: [Zn/Fe] < -0.8 and [Co/Fe] < -0.2. Such
+small Zn and Co productions (relative to Fe) are due to the low central temperature
+at the bounce of the collapsing core. This abundance feature of yields is intrinsic to
+PISNe, because, if the central temperature would become higher, the core collapse would
+continue due to photodisintegration effects.
+
+   · Explosive O-burning leads to large [(Si, S, Ca)/O] ( 0.8).
+   · The odd-even effect is significantly larger in PISNe than core-collapse SNe.
+
+     7.2. Stars with M > 300 M and Intermediate Mass Black Holes
+
+Stars with 300 M  < M < 3.5 × 105 M      enter the pair-instability region but are too
+                  
+massive to be disrupted by PISNe but undergo core collapse, forming intermediate-mass
+
+black holes (IMBHs). If such stars formed rapidly rotating black holes, jet-like mass
+
+ejection could possibly occur and produce processed material. In fact, for moderately
+
+aspherical explosions, the patterns of nucleosynthesis show small [O/Fe] and [Ne/Fe],
+
+and large [Mg/Fe], [Si/Fe] and [S/Fe]. Also [C/Si] is not so small compared with PISNe.
+
+These patterns match the observational data of both the intracluster medium and M82
+
+better than PISNe (Ohkubo et al. 2006).
+
+This result suggests that core-collapse explosions of very massive stars could contribute
+
+to chemical enrichment in clusters of galaxies. This might support the view that Pop III
+
+core-collapse very massive stars could be responsible for the origin of IMBHs.
+
+Stars more massive than  3.5×105 M (super-massive stars) collapse owing to general
+
+relativistic instability before reaching the main-sequence.
+
+8. Extremely Metal Poor Stars and Abundance Profiling
+
+        8.1. VMP Stars: Comparison with Normal Core-Collapse Supernova Yields
+
+The relatively small scatter of abundance ratios of r-process elements and the metallicity
+imply that VMP stars with -3 [Fe/H] < -2 are likely to form from the gases enriched
+by many SNe and to have the abundance pattern of well-mixed ejecta of many SNe. Thus
+the one-zone chemical evolution model can explain the abundance ratios (Kobayashi
+et al. 2006).
+
+   In Figure 4 (left), the averaged abundance pattern of VMP stars (-2.7 < [Fe/H] <
+-2.0, Cayrel et al. 2004) are compared with the SN and HN yields integrated over
+the progenitors of M = 10 - 50 M with the Salpeter's IMF (black solid, Tominaga
+et al. 2007b). The observed and theoretical patterns are in reasonable agreement for
+many elements, although N, K, and Sc are largely under-produced in the model.
+
+   There are two possible explanations for this discrepancy of N: (1) N was under-
+produced in the Pop III SN as in these models, but was enhanced as observed during
+the first dredge-up in the low-mass red-giant EMP stars (Suda et al. 2004, Weiss et al.
+2005). Actually, most EMP stars are red-giants. (2) N was enhanced in massive progeni-
+tor stars before the SN explosion. N is mainly synthesized by the mixing between the He
+convective shell and the H-rich envelope (e.g., Umeda et al. 2000, Iwamoto et al. 2005).
+Mixing can be enhanced by rotation (Heger & Langer 2000, Maeder & Meynet 2000).
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+Supernova Yields for Chemical Evolution Modeling  161
+
+Suppose that the Pop III SN progenitors were rotating faster than more metal-rich stars
+because of smaller mass loss, then [N/Fe] was enhanced as observed in EMP stars.
+
+   For underproduction of potassium, the neutrino absorption during the core-collapse
+may enhance Ye and thus [K/Fe] near the mass cut.
+
+                               8.2. Extremely Metal-Poor (EMP) Stars
+
+Figure 4 (right) shows the comparison between the averaged abundances of EMP stars
+(-4.2 < [Fe/H] < -3.5) and normal [C/Fe]  0 (Cayrel et al. 2004)) with the normal
+Pop III SN yield (blue dashed: 15 M , E51 = 1; Tominaga et al. 2007a). It is seen that
+the SN yield is in reasonable agreement with the observations for [(Mg, Al, Si)/Fe], but
+gives too small [(Mn, Co, Zn)/Fe].
+
+   If we compare the observations with the hypernova yield (black solid; M = 20 M ,
+E51 = 10) in Figure 4 (right), [(Ti, Co, Zn)/Fe] are larger and thus in much better
+agreement with observations than the SN yield. Another example of good agreement
+between the EMP star (BS 16467-062) and an HN model is seen in Figure 5a (Tominaga
+et al. 2013b).
+
+   The difference between the SN and HN models is seen in the abundance distribution of
+the SN and HN ejecta (Fig. 2). Both Co and Zn are synthesized in complete Si burning in
+a high temperature region, which is more extended in the mass coordinate in the higher
+E model. Figure 2 also shows that the mass fractions of Zn, Co, and V in the complete
+Si-burning region are larger because of higher entropy in the HN model than the SN
+model. As a result, the integrated ratios of Co/Fe and Zn/Fe are larger in higher energy
+explosions.
+
+                         8.3. Carbon-Enhanced Metal-Poor (CEMP) Stars
+
+A significant fraction of the metal-poor stars show such a large carbon enhancement as
+[C/Fe] +1, thus being called CEMP stars (e.g., Beers & Christlieb 2005 and references
+therein).
+
+   The faint SNe occur as a result of fallback of a large amount of radioactive 56Ni whose
+decay into Fe powers the SN light curve (Fig. 1 (right)). Since the fallback of carbon is
+less than Fe because of the outer location of C, large [C/Fe] results.
+
+                Figure 4. (left:) The abundance pattern of VMP stars with -2.7 < [Fe/H] < -2.0 filled circles
+                with bars is shown to be in good agreement with the IMF integrated yield of Pop III SNe and
+                HNe from 10 M to 50 M (black solid, Tominaga et al. 2007b), but not with the 200 M PISN
+                yield (blue dashed, Umeda & Nomoto 2002). (right:) Averaged elemental abundances of stars
+                with -4.2 < [Fe/H] < -3.5 compared with the normal SN yield (blue dashed: 15 M , E51 = 1)
+                and the HN yield (20 M , E51 = 10) with the mixing and fallback (black solid). The HN yield
+                have larger [(Ti, Co, Zn)/Fe] and thus is in better agreement with the EMP stars than the SN
+                yield.
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+162  K. Nomoto & T. Suzuki
+
+   Figure 5b shows that the abundance pattern of a CEMP star (CS 29498-043: Aoki
+et al. 2004) is well reproduced by a single faint SN (M = 25 M , Tominaga et al. 2013b).
+
+   The physical mechanism of the mixing-fallback that can yields [C/Fe] > 1 would be
+the jet-like explosion (Tominaga et al. 2007a) rather than the Rayleigh-Taylor instability
+resulting in [C/Fe] < + 0.5.
+
+   Most CEMP stars show [O/Mg] > 1. Faint SNe enhance [O/Fe] more than [Mg/Fe].
+This is because Mg is synthesized in the inner region, so that more Mg falls back onto
+the central remnant than O.
+
+                                  8.4. Hyper Metal-Poor (HMP) Stars
+
+The discoveries of two HMP stars have raised an important question as to whether the
+observed low mass ( 0.8 M ) HMP stars are actually Pop III stars or these HMP stars
+are the second generation stars formed from gases which were chemically enriched by a
+single Pop III SN (Umeda & Nomoto 2003). This is related to the questions of how the
+initial mass function depends on the metallicity. Thus identifying the origin of these HMP
+stars is indispensable to the understanding of the earliest star formation and chemical
+enrichment history of the Universe.
+
+   The elemental abundance patterns of these HMP stars provide a key to the answer to
+the above questions. The abundance patterns of HE1327-2326 (Frebel et al. 2005) and
+HE0107-5240 (Collet et al. 2006) are quite unusual. The striking similarity of [Fe/H]
+(=-5.4 and -5.2 for HE1327-2326 and HE0107-5240, respectively) and [C/Fe] ( +4)
+suggests that similar chemical enrichment mechanisms operated in forming these HMP
+stars. However, the N/C and (Na, Mg, Al)/Fe ratios are more than a factor of 10 larger
+
+                Figure 5. Comparison of the observed abundance patterns (1D-LTE: red filled circles with
+                bars and 3D-(N)LTE: blue filled triangles with bars if available) of EMP (BS 16467-062, Cayrel
+                et al. 2004), CEMP (CS 29498-43, Aoki et al. 2004), UMP (SDSS J102915+172927, Caffau
+                et al. 2011), and HMP stars (HE 0107-5240, Collet et al. 2006) with relevant SN models
+                (Tominaga et al. 2013b). The SN models are constructed for the 25 M progenitor (Iwamoto
+                et al. 2005). The explosion energies and ejected 56 Ni masses of SN models are E51 = 20 and
+                M (56 Ni) = 0.044 M (EMP star), E51 = 20 and M (56 Ni) = 9.1 × 10-4 M (CEMP star),
+                E51 = 20 and M (56 Ni) = 1.2×10-1 M (UMP star), and E51 = 5 and M (56 Ni) = 8.0×10-5 M
+                (HMP star).
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+Supernova Yields for Chemical Evolution Modeling                                          163
+
+in HE1327-2326. In order for the theoretical models to be viable, these similarities and
+differences should be explained self-consistently.
+
+   Iwamoto et al. (2005) showed that the above similarities and variations of the HMP
+stars can be well reproduced in unified manner by nucleosynthesis in the core-collapse
+"faint" SNe which undergo mixing-and-fallback (Umeda & Nomoto 2003). Furthermore,
+the abundance patterns have been reproduced by jet-induced explosions (Tominaga
+et al. 2007a). Iwamoto et al. (2005) thus argued that the HMP stars are the second
+generation low mass stars, whose formation was induced by the Pop III SN with efficient
+cooling of carbon-enriched gases.
+
+                                  8.5. Ultra Metal-Poor (UMP) Stars
+
+In contrast to the HMP stars, abundance patterns of UMP stars are similar to the EMP
+or CEMP stars, except for [Fe/H]. Thus the formation scenarios for the EMP or CEMP
+stars are applicable for the UMP stars (Fig. 5c).
+
+   3D calculations of the expansion of SN ejecta into the interstellar cloudy medium have
+shown that the resultant metallicity of the clouds takes a wide range of [Fe/H] from -5
+to -1 (Ritter et al. 2012). Thus the UMP stars could be formed from the low [Fe/H]
+cloud which is enriched by the same SN as for the EMP and CEMP stars.
+
+9. Yield Tables for Core-Collapse Supernovae
+
+   Since the 10 - 140 M stars make a main contribution to the enrichment of C to Fe-
+peak elements, nucleosynthesis yield tables from the stars in this mass range have been
+used for the study of cosmic and galactic chemical evolution. We thus first describe the
+yield tables from this mass range.
+
+   The yield table as a function of M and Z provided by Woosley & Weaver (1995: WW95)
+has been widely used for the chemical evolution studies. One problem of this table is that
+no mass loss is included in their pre-supernova evolution calculations. Another problem is
+that their core-collapse SN models tend to produce more Fe than SNe 1987A, 1993J, and
+1994I by a factor of  2 because of the relatively deep mass cut. Such large Fe yields leads
+to [/Fe]  0 in the ejecta, which would not be consistent with [/Fe] > 0.2 observed
+in metal-poor stars. Also there would be no room for SNe Ia to add Fe in the chemical
+evolution model. Thus in some chemical evolution models (Timmes et al. 1995, Romano
+et al. 2010), Fe yields are artificially reduced by a factor of 2. However, no reduction
+is made for other Fe-peak elements, which leads to wrong abundance ratios among the
+Fe-peak elements.
+
+   Portinari et al. (1998) obtained the C+O core masses from the stellar evolution models
+with mass loss and adopted WW95 yields for those C+O core masses. This approach
+has the following problems. i) The Fe yield problem in WW95 remains. ii) The C+O
+core structure (and the resultant yields) keeps the memory of mass loss, thus being
+significantly different between the models with and without mass loss even for the same
+core mass (Woosley et al. 1993). iii) The Mg production of the WW95's model with
+M = 40 M and E = 1 × 1051 erg is unreasonably small compared with other models
+(Woosley & Weaver 1995, Nomoto et al. 1997, Nomoto et al. 2006). This model is not
+used in Timmes et al. (1995) but makes a too large contribution in the GCE models by
+Portinari et al. (1998).
+
+   The yield table for the solar metallicity models by Hashimoto et al. (1989), Thielemann
+et al. (1996), and Nomoto et al. (1997) determined the mass cut by applying the 56Ni
+mass vs. the main-sequence mass relation obtained from the supernova light curves and
+spectra. However, no mass loss was included.
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+164  K. Nomoto & T. Suzuki
+
+   Recent versions of the nucleosynthesis yields for core-collapse SNe and HNe have been
+provided by several groups (e.g., Limongi & Chieffi 2006, Limongi & Chieffi 2012, Nomoto
+et al. 2006, Tominaga et al. 2007b, Heger & Woosley 2010). The yields by Nomoto
+et al. (2013) are given in the online table as functions of the main-sequence mass of the
+progenitor M and metallicity Z, including mass loss. The yields of Fe-peak elements
+are self-consistently obtained from the mixing and fallback. These yields are taken from
+Nomoto et al. (2006), Kobayashi et al. (2006) with the three updated models (Kobayashi
+et al. 2011), and the Z = 0.05 models.
+
+   For normal core-collapse SNe, E51 = 1 is assumed. The SN table for Z = 0 gives yields
+for M = 11, 13, 15, 18, 20, 25, 30, 40, and 100 M . The SN tables for Z = 0.001, 0.004,
+0.008, 0.02, and 0.05 gives yields for M = 13, 15, 18, 20, 25, 30, and 40 M (Nomoto
+et al. 2013).
+
+   For HNe, the (M - E) relation as estimated from observations and models of SNe
+(Fig. 1(right)) is adopted. Thus the HN table for Z = 0 gives yields for a set of
+(M/M , E51 ) = (20, 10), (25, 10), (30, 20), (40, 30), and (100, 60). The HN tables
+for Z = 0.001, 0.004, 0.008, 0.02, and 0.05 give yields for a set of (M/M , E51 ) = (20,
+10), (25, 10), (30, 20), and (40, 30) (Nomoto et al. 2013).
+
+   Tables of radioactive species are also given at the online site (Nomoto et al. 2013).
+
+10. Concluding Remarks
+
+   We report on the properties and nucleosynthesis of the two distinct classes of massive
+SNe: 1) very energetic Hypernovae, whose kinetic energy is more than 10 times that
+of normal core-collapse SNe, and 2) very faint and low energy SNe (Faint SNe). These
+two new classes of SNe are likely to be "black-hole-forming" SNe with rotating or non-
+rotating black holes. Nucleosynthesis in Hypernovae is characterized by larger abundance
+ratios (Zn,Co,V,Ti)/Fe than normal SNe, which can explain the observed ratios in EMP
+stars. Nucleosynthesis in Faint SNe is characterized by a large amount of fall-back, which
+explains the abundance pattern of the most Fe-poor stars.
+
+   These comparisons suggest that black-hole-forming SNe made important contributions
+to the early Galactic (and cosmic) chemical evolution. We discuss how nucleosynthetic
+properties resulted from such unusual supernovae are connected with the unusual abun-
+dance patterns of extremely metal-poor stars. Such connections may provide important
+constraints on the properties of first stars.
+
+   This research has been supported by World Premier International Research Center
+Initiative, MEXT, Japan.
+
+References
+
+Aoki, W., Norris, J. E., Ryan, S. G., et al. 2004, ApJ, 608, 971
+Arnett, W. D., Bahcall, J. N., Kirshner, R. P., & Woosley, S. E. 1989, ARAA, 27, 629
+Barkat, Z., Rakavy, G., & Sack, N. 1967, Phys. Rev. Letters, 18, 379
+Beers, T. C. & Christlieb, N. 2005, ARAA, 43, 531
+Bufano, F., et al. 2012, ApJ, 753, 67
+Caffau, E., et al. 2011, Nature, 477, 67
+Cayrel, R., et al. 2004, A&A, 416, 1117
+Christlieb, N., et al. 2002, Nature, 419, 904
+Collet, R., Asplund, M., & Trampedach, R. 2006, ApJ, 644, L121
+Frebel, A., et al. 2005, Nature, 434, 871
+Hashimoto, M., Nomoto, K., & Shigeyama, T. 1989, A&A, 210, L5
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+Supernova Yields for Chemical Evolution Modeling                                          165
+
+Heger, A. & Langer, N. 2000, ApJ, 544, 1016
+Heger, A. & Woosley, S. E. 2002, ApJ, 567, 532
+Heger, A. & Woosley, S. E. 2010, ApJ, 724, 341
+Iwamoto, N., Umeda, H., Tominaga, N., Nomoto, K., & Maeda, K., 2005, Science, 309, 451
+Jones, S, Hirschi, R., Nomoto, K., et al. 2013, ApJ, 772, 150
+Kawabata, K., Maeda, K., Nomoto, K., et al. 2010, Nature, 465, 326
+Kitaura, F. S., Janka, H.-Th., & Hillebrandt, W. 2006, A&A, 450, 345
+Kobayashi, C., Umeda, H., Nomoto, K., Tominaga, N., & Ohkubo, T. 2006, ApJ, 653, 1145
+Kobayashi, C., Karakas, I. A., & Umeda, H. 2011, MNRAS, 414, 3231
+Limongi, M. & Chieffi, A. 2006, ApJ, 647, 483
+Limongi, M. & Chieffi, A. 2012, ApJS, 199, 38
+Maeder, A. & Meynet, G. 2000, ARAA, 38, 143
+Melandri, A., et al. 2012, A&A, 547, 82
+Moriya, T., Tominaga, N., Tanaka, M., Maeda, K., & Nomoto, K. 2010, ApJ, 717, 83
+Mu¨ller, B., Janka, T., & Heger, A. 2012, ApJ, 761, 72
+Nakamura, T., Umeda, H., Iwamoto, K., Nomoto, K., et al. 2001, ApJ, 555, 880
+Nomoto, K, Sparks, W., Fesen, R., Gull, T., Miyaji, S., Sugimoto, D. 1982, Nature, 299, 803
+Nomoto, K. 1987, ApJ, 322, 206
+Nomoto, K. & Hashimoto, M. 1988, Phys. Rep., 163, 13
+Nomoto, K., Hashimoto, M., Tsujimoto, T., et al. 1997, Nuclear Phys., A616, 79c
+Nomoto, K., Mazzali, P. A., Nakamura, T., et al. 2001, in Supernovae and Gamma Ray Bursts,
+
+      eds. M. Livio et al. (Cambridge Univ. Press) 144 (astro-ph/0003077)
+Nomoto, K., et al. 2003, in IAU Symp. 212, A Massive Star Odyssey, from Main Sequence to
+
+      Supernova, eds. V. D. Hucht et al. (San Francisco: ASP) 395 (astro-ph/0209064)
+Nomoto, K., Tominaga, N., Umeda, H., Kobayashi, C., & Maeda, K. 2006, Nuclear Phys., A777,
+
+      424
+Nomoto, K. 2012, in IAU Symp. 279, Death of Massive Stars: Supernovae and Gamma-Ray
+
+      Bursts, ed. N. Kawai et al. (Cambridge: Cambridge Univ. Press) 1
+Nomoto, K., Kobayashi, C., & Tominaga, N. 2013, ARAA, 51, 457
+Ohkubo, T., Umeda, H., Maeda, K., Nomoto, K., Suzuki, T., Tsuruta, S., & Rees, M. J. 2006,
+
+      ApJ, 645, 1352
+Ohkubo, T., Nomoto, K., Umeda, H., Yoshida, N., & Tsuruta, S., 2009, ApJ, 706, 1184
+Portinari, L., Chiosi, C., & Bressan, A. 1998, A&A, 334, 505
+Ritter, J., Safranek-Shrader, C., Gnat, O., Milosavljevic, M., & Bromm, V. 2012, ApJ, 761, 56
+Romano, D., Karakas, A. I., Tosi, M., & Matteucci, F. 2010, A&A, 522, 32
+Smartt, S. J. 2009, ARAA, 47, 63
+Suda, T., Aikawa, M., Machida, M. N., Fujimoto, M. Y., & Iben, I., Jr. 2004, ApJ, 611, 476
+Thielemann, F.-K., Nomoto, K., & Hashimoto, M. 1996, ApJ, 460, 408
+Timmes, F. X., Woosley, S. E., & Weaver, T. A. 1995, ApJS, 98, 617
+Tominaga, N., Maeda, K., Umeda, H., Nomoto, K., Tanaka, M., Iwamoto, N., Suzuki, T., &
+
+      Mazzali, P. A. 2007a, ApJ, 657, L77
+Tominaga, N., Umeda, H., & Nomoto, K. 2007b, ApJ, 660, 516
+Tominaga, N., Blinnikov, S., & Nomoto, K. 2013a, ApJ, 771, L12
+Tominaga, N., Iwamoto, N., & Nomoto, K. 2013b, ApJ, submitted
+Turatto, M., Mazzali, P. A., Young, T., Nomoto, K., et al. 1998, ApJ, 498, L129
+Umeda, H., Nomoto, K., & Nakamura, T. 2000, in The First Stars, ed. A. Weiss, T. Abel, & V.
+
+      Hill (Berlin: Springer), 150
+Umeda, H. & Nomoto, K. 2002, ApJ, 565, 385
+Umeda, H., Nomoto, K., Tsuru, T., & Matsumoto, H. 2002, ApJ, 578, 855
+Umeda, H. & Nomoto, K. 2003, Nature, 422, 871
+Umeda, H. & Nomoto, K. 2008, ApJ, 673, 1014
+Wanajo, S., Nomoto, K., Janka, H.-T., Kitaura, F. S., & Mu¨ller, B. 2009, ApJ, 695, 208
+Wanajo, S., Janka, H.-T., & Mu¨ller, B. 2013, ApJ (Letters), 767, L26
+Weiss, A., Serenelli, A., Kitsikis, A., Schlattl, H., Christensen-Dalsgaard, J. 2005, A&A, 441,
+
+      1129
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+166  K. Nomoto & T. Suzuki
+
+Woosley, S. E., Langer, N., & Weaver, T. A. 1993, ApJ, 411, 823
+Woosley, S. E. & Weaver, T. A. 1995, ApJS, 101, 181 (WW95)
+Woosley, S. E. & Bloom, J. S. 2006, ARAA, 44, 507
+Woosley, S. E., Blinnikov, S., & Heger, A. 2007, Nature, 450, 390
+
+https://doi.org/10.1017/S1743921313006327 Published online by Cambridge University Press
+

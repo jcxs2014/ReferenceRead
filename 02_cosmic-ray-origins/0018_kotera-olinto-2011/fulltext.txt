@@ -1,0 +1,1840 @@
+arXiv:1101.4256v1 [astro-ph.HE] 22 Jan 2011                               Annu. Rev. Astron. Astrophys 2010 49 1056-8700/97/0610-00
+
+                                                            The Astrophysics of Ultrahigh
+                                                            Energy Cosmic Rays
+
+                                                                             Kumiko Kotera and Angela V. Olinto
+                                                                                 Department of Astronomy and Astrophysics,
+                                                                                 Kavli Institute for Cosmological Physics,
+                                                                                 The University of Chicago, Chicago, IL 60637, USA
+
+                                             Key Words
+                                             cosmic accelerators, magnetic fields, particle astrophysics, neutrinos, gamma-rays, compact
+                                             objects, active galaxies, cosmic background radiation, gamma-ray bursts
+
+                                             Abstract
+                                             The origin of the highest energy cosmic rays is still unknown. The discovery of their sources
+                                             will reveal the workings of the most energetic astrophysical accelerators in the universe. Cur-
+                                             rent observations show a spectrum consistent with an origin in extragalactic astrophysical
+                                             sources. Candidate sources range from the birth of compact objects to explosions related to
+                                             gamma-ray bursts or to events in active galaxies. We discuss the main effects of propagation
+                                             from cosmologically distant sources including interactions with cosmic background radia-
+                                             tion and magnetic fields. We examine possible acceleration mechanisms leading to a survey
+                                             of candidate sources and their signatures. New questions arise from an observed hint of sky
+                                             anisotropies and an unexpected evolution of composition indicators. Future observations
+                                             may reach the necessary sensitivity to achieve charged particle astronomy and to observe
+                                             ultrahigh energy photons and neutrinos, which will further illuminate the workings of the
+                                             universe at these extreme energies. In addition to fostering a new understanding of high-
+                                             energy astrophysical phenomena, the study of ultrahigh energy cosmic rays can constrain
+                                             the structure of the Galactic and extragalactic magnetic fields as well as probe particle
+                                             interactions at energies orders of magnitude higher than achieved in terrestrial accelerators.
+
+                                             1 Introduction
+                                             The observation that cosmic rays can exceed 1020 eV poses some interesting and challenging
+                                             questions: Where do they come from? How can they be accelerated to such high energies?
+                                             What kind of particles are they? What is the spatial distribution of their sources? What do
+                                             they tell us about these extreme cosmic accelerators? How strong are the magnetic fields
+                                             that they traverse on their way to Earth? How do they interact with the cosmic background
+
+                                                                                                                                                                            1
+      Figure 1:
+      All particle cosmic ray flux multiplied by E2 observed by ATIC (Ahn et al. 2008), Proton
+      (Grigorov et al. 1971), RUNJOB (Apanasenko et al. 2001), Tibet AS- (Chen 2008), KASCADE
+      (Kampert et al. 2004), KASCADE-Grande (Apel et al. 2009), HiRes-I (Abbasi et al. 2009),
+      HiRes-II (Abbasi et al. 2008b), and Auger (Abraham et al. 2010b). LHC energy reach of p - p
+      collisions (in the frame of a proton) is indicated for comparison.
+
+     radiation? What secondary particles are produced from these interactions? What can we
+     learn about particle interactions at these otherwise inaccessible energies? Here we review
+     recent progress towards answering these questions.
+
+        The dominant component of cosmic rays observed on Earth originate in the Galaxy. As
+     shown in Figure 1, the study of this striking non-thermal spectrum requires a large number
+     of instruments to cover over 8 orders of magnitude in energy and 24 in flux. Galactic
+     cosmic rays are likely to originate in supernova remnants (see, e.g., Hillas 2006, for a recent
+     update on the origin of Galactic cosmic rays). A transition from Galactic to extragalactic
+     cosmic rays should occur somewhere between 1 PeV ( 1015 eV) and 1 EeV ( 1018 eV).
+     Progress on determining this transition relies both on the study of the highest energies
+     reached in Galactic accelerators as well as the search for extragalactic accelerators that
+     produce ultrahigh energy cosmic rays (UHECRs).
+
+        We begin with a brief summary of recent observations (Section 2), which reveal a spec-
+
+2 Kotera & Olinto
+Figure 2:
+Spectrum of UHECRs multiplied by E3 observed by HiRes I (Abbasi et al. 2009) and Auger
+(Abraham et al. 2010b). Overlaid are simulated spectra obtained for different models of the
+Galactic to extragalactic transition and different injected chemical compositions and spectral
+indices, s, described in Section 2.1 and 4.
+
+trum whose shape supports the long-held notion that sources of UHECRs are extragalactic.
+As shown in Figure 2, the crucial spectral feature recently established at the highest ener-
+gies is a steep decline in flux above about 30 EeV. This feature is reminiscent of the effect of
+interactions between extragalactic cosmic rays and the cosmic background radiation, named
+the Greisen-Zatsepin-Kuzmin (GZK) cutoff (Greisen 1966; Zatsepin & Kuzmin 1966). An-
+other important feature shown in Figure 2 is the hardening of the spectrum at a few EeV,
+called the ankle, which may be caused by the transition from Galactic to extragalactic
+cosmic rays or by propagation losses if UHECRs are mostly protons.
+
+   As discussed in Section 2, recent reports of a trend toward a heavier composition from
+a few EeV up to 40 EeV together with hints of anisotropies in the sky distribution above
+60 EeV raise new and unexpected puzzles. An anisotropic sky distribution is expected for
+trans-GZK energies (i.e., energies above 60 EeV), if UHECRs are mainly protons, due to
+a combination of the GZK effect (which limits trans-GZK observed sources to lie within a
+few 100 Mpc), the anisotropic distribution of source bearing galaxies on 100 Mpc scales,
+
+                                                                                        Astrophysics of UHECRs 3
+     and the low magnetic deflection of light trans-GZK nuclei by the Galactic and extragalactic
+     magnetic fields. Therefore, the report of correlations between UHECRs above 55 EeV and
+     the distribution of nearby active galaxies (Abraham et al. 2007) can be simply interpreted as
+     protons from nearby sources within the so-called GZK sphere. However, composition indi-
+     cators from shower development observations argue for a transition to a heavier component
+     from a few EeV up to 40 EeV (Abraham et al. 2010a). Heavy nuclei dominated injection
+     models are quite rare in the astrophysical literature of candidate sources (see Section 6)
+     and if iron is the main component at the highest energies, Galactic magnetic fields should
+     wash out most anisotropic patterns around 60 EeV. Another possible interpretation of the
+     observed shower development properties is a change in hadronic interactions above 100 TeV
+     center of mass (TeV  1012 eV), an order of magnitude higher energy than will be reached
+     by the Large Hadron Collider (LHC) at CERN. A new puzzle is born: an injection at the
+     source dominated by heavy nuclei is astrophysically unexpected, while significant changes
+     in hadronic interactions represent novel particle physics.
+
+        To help discriminate between possible interpretations of recent results, we review in
+     Section 3 the well-known physics of the propagation of ultrahigh energy cosmic rays: their
+     interaction with the cosmic background radiation and the effect of cosmic magnetic fields.
+     The effect of propagation on the observed spectrum, sky distribution, and composition
+     depends on the source redshift evolution, the injected spectrum and composition, and the
+     evolution of cosmic backgrounds and magnetic fields. The spectrum is cut-off due to photo-
+     pion production of protons and photo-dissociation of nuclei off cosmic backgrounds. The
+     composition simplifies to either proton or iron (or a mixture of the two) at trans-GZK
+     energies. Anisotropies in the sky distribution of sources are blurred by magnetic fields
+     for heavier primaries while protons keep most of the original anisotropies at trans-GZK
+     energies.
+
+        Different scenarios for the transition between cosmic rays created in the Galaxy and those
+     from extragalactic sources are discussed in Section 4. Specific acceleration mechanisms
+     envisioned for reaching these extremely high energies are the topic of Section 5, including
+     shock acceleration, unipolar inductors, and other proposals. In Section 6, we survey known
+     astrophysical sites that are reasonable candidates for UHECR sources, from compact objects
+     such as, neutron stars (or magnetars), to gamma-ray bursts and active galaxies. Possible
+     signatures of different candidate sources are discussed in light of future observations of
+     UHECRs and other messengers of the extreme universe.
+
+        With a significant increase in the integrated exposure to cosmic rays above 60 EeV, next
+     generation observatories may reach the sensitivity necessary to achieve charged particle
+     astronomy and to observe ultrahigh energy photons and neutrinos, which will further illu-
+     minate the workings of the universe at the most extreme energies. We end with the ongoing
+     and future search plans for the cosmic sources of ultrahigh energy particles.
+
+        Due to the limited space, we refer readers interested in details of observational techniques
+     to Letessier-Selvon & Stanev (2011), Beatty & Westerhoff (2009), Bluemer et al. (2009),
+     and Nagano & Watson (2000). Previous reviews on the astrophysics of UHECRs can be
+     found in Cronin (2005), Olinto (2000), Berezinsky et al. (1990b), and Hillas (2006, 1984),
+     while Bhattacharjee & Sigl (2000) also include a survey of UHECRs from cosmological
+
+4 Kotera & Olinto
+Figure 3:
+Evolution of the exposures of past, current, and planned UHECR observatories over time: Fly's
+Eye (Baltrusaitis et al. 1985), AGASA (Chiba et al. 1992), HiRes (Boyer et al. 2002), Pierre
+Auger Observatory (Abraham et al. 2004), TA (Nonaka et al. 2009; Tokuno et al. 2009).
+Projected exposures for Auger North (Blu®mer et al. 2010) if construction start in 2016 and
+JEM-EUSO (Takahashi et al. 2009) if launched in 2017 including 20% duty cycle.
+
+relics. Stanev (2010) published a recent monograph on UHECRs while Gaisser (1991) covers
+cosmic rays of lower energies. Recent reviews cover the closely related high energy neutrinos
+(Anchordoqui & Montaruli 2010) and high energy gamma-rays (Hinton & Hofmann 2009).
+
+2 Cosmic Ray Observations at Ultrahigh Energies
+After many decades of efforts to discover the origin of cosmic rays, current observatories
+are now reaching the necessary exposure to begin unveiling this longstanding mystery (see
+Figure 3 for a the history of exposures for the largest observatories). The first detection of
+UHECRs dates back to Linsley (1963), but it was only during the 1990s that an interna-
+tional effort began to address these questions with the necessary large-scale observatories.
+The largest detectors operating during the 1990s were the Akeno Giant Air Shower Ar-
+ray (AGASA), a 100 km2 ground array of scintillators in Japan (Chiba et al. 1992), and
+the High Resolution Fly's Eye (HiRes) a pair of fluorescence telescopes that operated in
+Utah until 2006 (Boyer et al. 2002). During their lifetimes, AGASA reached an exposure
+
+                                                                                        Astrophysics of UHECRs 5
+     of 1.6 ◊ 103 km2 sr yr (or 1,600 L1) while HiRes reached twice that. To date, the highest
+     energy recorded event was a 320 EeV fluorescence detection (Bird et al. 1994) by the pioneer
+     fluorescence experiment Fly's Eye (Baltrusaitis et al. 1985).
+
+        Completed in 2008, the Pierre Auger Observatory is the largest observatory at present
+     (Abraham et al. 2004). Constructed in the province of Mendoza, Argentina, by a collabora-
+     tion of 18 countries, it consists of a 3,000 km2 array of water Cherenkov stations with 1.5 km
+     spacing in a triangular grid overlooked by four fluorescence telescopes. The combination of
+     the two techniques into a hybrid observatory maximizes the precision in the reconstruction
+     of air showers, allowing for large statistics with good control of systematics. The largest
+     observatory in the northern hemisphere, the Telescope Array (TA), is also hybrid (Nonaka
+     et al. 2009; Tokuno et al. 2009). Situated in Utah, it covers 762 km2 with scintillators
+     spaced every 1.2 km overlooked by three fluorescence telescopes.
+
+     2.1 Spectrum
+     The observed cosmic ray spectrum (Figure 1) can be described by a broken power law, E-s,
+     with spectral index s = 2.7 below the knee at  1 PeV (= 1015 eV) and s 3 between the
+     knee and the ankle around 3 EeV (Apel et al. 2009). Above the ankle, s 2.6 followed
+     by the recently established flux suppression above about 30 EeV. With exposures around
+     103L, the measured spectra at energies where the GZK effect was anticipated had conflicting
+     results: AGASA reported no flux supression at trans-GZK energies (Takeda et al. 1998),
+     while early results from HiRes were consistent with the GZK prediction (Abbasi et al.
+     2004). By 2006, HiRes accumulated enough statistics for the first significant observation of
+     the GZK suppression (Abbasi et al. 2008b), as displayed in Figure 2. This was confirmed
+     by the Auger Observatory (Abraham et al. 2008b) with a recent update starting at 1 EeV
+     (Abraham et al. 2010b) and based on 1.3◊104L exposure (shown in Figure 2). The displayed
+     error bars are statistical errors while the reported systematic error on the absolute energy
+     scale is about 22%. This systematic error allows for overall energy shifts that make the two
+     observations consistent within the estimated errors. The highest energy event reported by
+     Auger thus far is of 142 EeV (Abreu et al. 2010).
+
+        Figure 2 also shows the observed spectrum fit by different models of UHECR sources
+     (taken from Kotera et al. 2010b and references therein). In the mixed composition and
+     iron dominated models (Allard et al. 2007), the ankle indicates a transition from Galactic
+     to extragalactic cosmic rays (see Section 4), the source evolution is similar to the star
+     formation rate (SFR), and the injection spectra are relatively hard (s  2 - 2.1). In the
+     proton dominated models in the figure, the ankle is due to pair production propagation
+     losses (Berezinsky & Grigorieva 1988), named "dip models" (Berezinsky et al. 2006), and
+     the injection spectra are softer for a wide range of evolution models. Models with proton
+     primaries can also fit the spectrum with harder injection with a transition from Galactic to
+     extragalactic at the ankle (Wibig & Wolfendale 2004).
+
+        The confirmed presence of a spectral feature similar to the predicted GZK cutoff, settles
+     the question of whether acceleration in extragalactic sources can explain the high-energy
+
+           1In honor of UHECR pioneer John Linsley, we use the exposure unit L = 1 km2 sr yr.
+
+6 Kotera & Olinto
+Figure 4:
+Fraction of cosmic rays that survives propagation over a distance > D, for protons above 40, 60,
+and 100 EeV and for He, CNO, and Fe above 60 EeV. Black solid line shows where 50% of a given
+species can originate for a given atomic mass and energy. At trans-GZK energies (E 60 EeV),
+only protons and iron survive the propagation over D 50 Mpc. Adapted from Allard et al.
+(2007).
+
+spectrum, ending the need for exotic alternatives designed to avoid the GZK feature. How-
+ever, the possibility that the observed softening of the spectrum is mainly due to the maxi-
+mum energy of acceleration at the source, Emax, is not as easily dismissed. A confirmation
+that the observed softening is the GZK feature, awaits supporting evidence from the spec-
+tral shape, anisotropies, and composition at trans-GZK energies and the observation of
+produced secondaries such as neutrinos and photons.
+
+2.2 Anisotropies in the Sky Distribution
+The landmark measurement of a flux suppression at the highest energies encourages the
+search for sources in the nearby extragalactic universe using the arrival directions of trans-
+GZK cosmic rays. Above GZK energies, observable sources must lie within about 100
+Mpc, the so-called GZK horizon or GZK sphere (Harari et al. 2006; Allard et al. 2007
+
+                                                                                        Astrophysics of UHECRs 7
+      Figure 5:
+
+      Arrival directions of cosmic rays with energy E  55 EeV detected by Auger (black dots) in an
+      Aitoff-Hammer projection of the sky in Galactic coordinates restricted to |b| > 10 (Abreu et al.
+      2010). Shaded areas represent a smoothed density map (5 smoothing angle) of the 2MRS
+      galaxies within 200 Mpc over the Auger Observatory field of view.
+
+     and references therein). This effect is shown in Figure 4 where the fraction of cosmic rays
+     that arrive on Earth from a given distance is plotted for different energy protons (> 40,
+     60, and 100 EeV) and for different nuclei (He, CNO, and Fe) arriving with energies above
+     60 EeV. At these trans-GZK energies, light composite nuclei are promptly dissociated by
+     cosmic background photons (see Section 3), while protons and iron nuclei may reach us
+     from sources at distances up to about 100 Mpc. Since matter is known to be distributed
+     inhomogeneously within this distance scale, the cosmic ray arrival directions should exhibit
+     an anisotropic distribution above the GZK energy threshold, provided intervening magnetic
+     fields are not too strong. At the highest energies, the isotropic diffuse flux from sources far
+     beyond this GZK horizon should be strongly suppressed.
+
+        Attempts to detect anisotropies at ultrahigh energies date back to the mid 1990s when
+     hints of correlations with the local large scale structure and with distant BL Lacs objects
+     were claimed and debated (see Section 6.2). With the increase in the number of observed
+     ultrahigh energy events, these early claims have not been substantiated while different
+     correlations have been recently reported.
+
+        The most recent discussion of anisotropies in the sky distribution of ultrahigh energy
+     events began with the report that the arrival directions of the 27 cosmic rays observed by
+     Auger with energies above 57 EeV exhibited a statistically significant correlation with the
+     anisotropically distributed galaxies in the 12th VCV (V¥eron-Cetty & V¥eron 2006) catalog
+     of active galactic nuclei (AGN) (Abraham et al. 2007, 2008a). The correlation was most
+     significant for AGN with redshifts z < 0.018 (distances < 75 Mpc) and within 3.1 separa-
+     tion angles. An independent dataset confirmed the anisotropy at a confidence level of over
+     99% (Abraham et al. 2007, 2008a). The prescription established by the Auger collabora-
+     tion tested the departure from isotropy given the VCV AGN coverage of the sky, not the
+
+8 Kotera & Olinto
+hypothesis that the VCV AGN were the actual UHECR sources. In particular, a lack of
+events from the Virgo region showed that assuming the VCV AGN to be the sources gives
+a bad match to the observed event distribution (Gorbunov et al. 2008). No corresponding
+correlation was observed in the northern hemisphere by HiRes (Abbasi et al. 2008c) where
+the distribution of their 13 trans-GZK events is consistent with isotropy.
+
+   Figure 5 shows a map of the 69 events used in the recently published Auger update
+which includes another 42 trans-GZK events (Abreu et al. 2010). With the new events, the
+correlation with the VCV catalog is not as strong for the same parameters as the original
+period (20 events correlate out of the original 27 while only 12 correlate out of the new
+42). The data after the prescription period shows a departure from isotropy at the 3 level.
+With the currently estimated correlation fraction of 38%, a 5 significance will require at
+least another four years of Auger observations (Abreu et al. 2010).
+
+   The VCV catalog is not a catalog produced by an instrument or survey strategy, but
+an extensive compilation of known AGN in the literature. A better set of catalogs which
+give a more homogeneous and statistically complete survey of the nearby universe over the
+large field of view of Auger has become recently available. In particular, the Swift-BAT
+catalog of AGN (Tueller et al. 2010) and the 2MASS Redshift Survey (2MRS) catalog
+of galaxies (Huchra et al. 2005) are two catalogs where correlations may become more
+meaningful (George et al. 2008; Abreu et al. 2010). Figure 5 shows the example of Auger
+data superimposed on a density map generated with the 22,000 galaxies within 200 Mpc
+of the 2MRS catalog (Abreu et al. 2010) with Galactic latitude |b| > 10. The Auger
+trans-GZK events tend to align better with the distribution of galaxies in 2MRS (and with
+Swift-BAT AGN) than with the isotropic scenario, however a significance of the anisotropy
+or a source class identification is hard to access with the current limited statistics (Abreu
+et al. 2010).
+
+   Finally, the anisotropy reported by the test with the VCV catalog may indicate the effect
+of the large scale structure in the distribution of source harboring galaxies or it may be
+due to a nearby source. An interesting possibility is the cluster of Auger events around
+the direction of Centaurus A, the closest AGN (at  3.8 Mpc). The clustering around the
+Cen A region may also be due to the Centaurus cluster (as shown by the dark red region
+of Figure 5) which is much further away but on the general direction of Cen A (Kashti &
+Waxman 2008; Kotera & Lemoine 2008b). Only much higher statistics will tell if Cen A is
+the first UHECR source to be identified.
+
+2.3 Composition
+
+The third key measurement that can help resolve the mystery behind the origin of UHECRs
+is their composition as a function of energy observed on Earth. Composition measurements
+can be made directly up to energies of  100 TeV with space-based experiments (see, e.g.,
+Ahn et al. 2010). For higher energies, composition is derived from the observed development
+and particle content of the extensive airshower created by the primary cosmic ray when it
+interacts with the atmosphere.
+
+   Presently, the best indicator of the composition of the primary particle is the depth in the
+
+                                                                                        Astrophysics of UHECRs 9
+        Figure 6:
+
+         Xmax and RMS(Xmax) as a function of primary energy, as measured by Auger fluorescence
+        detectors (Abraham et al. 2010a). MC simulations from different hadronic interaction models are
+        displayed for primary protons (blue) and primary iron nuclei (red).
+
+       atmosphere of the shower maximum, Xmax, given in g/cm2. The average shower maximum,
+        Xmax , scales approximately as ln(E/A), where E is the energy and A is the atomic
+       mass of the primary cosmic ray which generated the shower (see, e.g., Letessier-Selvon &
+       Stanev 2011 and references therein). On average the shower maximum for protons occurs
+       deeper in the atmosphere than that for the same energy iron nucleus, Xmax p > Xmax F e .
+       In addition, proton showers fluctuate more about Xmax providing another measure of
+       composition, for example, the root mean square fluctuations about Xmax . Another useful
+       measure of composition is the particle content of the shower such as the number of muons:
+       proton showers have fewer muons than showers caused by heavier nuclei with the same
+       energy. In practice, observed shower maxima and particle numbers are compared with
+       Monte Carlo airshower simulations which involve an extrapolation to higher energies of
+       hadronic interactions known at energies of laboratory accelerators ( TeV).
+
+          Observations of shower properties from the knee to just below the ankle indicate a general
+       trend from light primaries dominating at the knee to heavier primaries dominating up to
+        0.1 EeV (see, e.g., Bluemer et al. 2009). These observations follow expectations that the
+       knee is created by a rigidity2 dependent end of Galactic cosmic rays which may be due to
+
+             2Rigidity is defined as particle momentum devided by charge, R  p/Z  E/Z
+
+10 Kotera & Olinto
+maximum acceleration at the sources and/or containment in the Galactic magnetic field.
+Just before the ankle, the trend seems to reverse back toward a lighter composition, being
+consistent with light primaries at 1 EeV as shown in Figure 6. Figure 6 shows Auger data
+on Xmax and RMS(Xmax) of 3754 events above 1 EeV together with a range covered by
+simulations for protons and iron nuclei using different hadronic models (Abraham et al.
+2010b). The dominance of light nuclei around a few EeV is also observed by HiRes who
+reported a final reconstruction of 815 events in Abbasi et al. (2010).
+
+   A surprising trend occurs in Auger data above 10 EeV, a change toward heavy primaries
+is seen both in Xmax as well as in RMS(Xmax) up to 40 EeV. As a mixture of different
+nuclei would increase the RMS(Xmax), the observed narrow distribution argues for a change
+toward a composition dominated by heavy nuclei. Due to different reconstruction methods,
+the HiRes measurement of fluctuations is not easily displayed in Figure 6, but their data
+trend remains closer to light primaries up to around 50 EeV. The two results are consistent
+within quoted errors, so the situation is currently unclear.
+
+   Shower properties observed by Auger up to 40 EeV are quite challenging to candidate
+acceleration models because they conflict with the prevailing view that the primaries are
+proton dominated. The observed hint of anisotropies also points to light primaries (Abreu
+et al. 2010). Studies of ultrahigh energy nuclei propagation require unusual choices in
+attempts to fit the observed composition indicators, such as a hard injection spectrum (s 
+1.6) with primaries dominated by nitrogen or silicon (Hooper & Taylor 2010). Given the
+measurement uncertainties, some reasonable but "disappointing" options are also possible
+such as models where protons have a low maximum energy and the observed steepening
+of the spectrum, above 30 EeV, is due to the maximum energy of iron nuclei (Aloisio
+et al. 2009; Allard et al. 2008; Allard 2009). In this case, the feature in the observed
+spectrum is mainly due to the maximum accelerator energy which is coincidently close to
+the expected GZK cutoff. As discussed in Section 6, most known astrophysical accelerators
+have Emax close to GZK energies, so the coincidence may actually be real. The challenge
+to extragalactic candidate sources is to explain the origin of such high metallicities in the
+accelerated material. These observations have also motivated a return to the possibility
+that Galactic cosmic ray sources significantly contribute at ultrahigh energies (Calvez et al.
+2010).
+
+   As recently highlighted in Schwarzschild (2010), changes to hadronic interactions from
+current extrapolations provide a plausible alternative interpretation to the observed shower
+development behavior. Auger probes interactions above 100 TeV center of mass, while
+hadronic interactions are only known around a TeV. The observation of anisotropies and
+secondary particles (neutrinos and gamma-rays) can lead to astrophysical constraints on
+the composition of UHECRs, opening the possibility for the study of hadronic interaction
+cross sections, multiplicities, and other interaction parameters at hundreds of TeV.
+
+   The detailed composition of UHECRs is still to be understood, but it is clear that pri-
+maries are not dominated by photons (Abraham et al. 2008; Abraham et al. 2009c) or
+neutrinos (Abraham et al. 2009a; Abbasi et al. 2008a). Limits on the photon fraction place
+stringent limits on models where UHECRs are generated by the decay of super heavy dark
+matter and topological defects. Unfortunately, the uncertainties on the UHECR source
+
+                                                                                        Astrophysics of UHECRs 11
+        Figure 7:
+        Proton energy loss lengths: black solid line for photo-pion production on CMB and IR-UV
+        photons; red solid line for pair production on CMB photons. Dashed lines represent the
+        interaction length (or mean free path to interaction) for photo-pion production on CMB photons
+        (thick) and IR-UV photons (thin), assuming the background of Stecker et al. (2006). The dotted
+        line indicates the losses due to cosmological expansion.
+
+       composition, spectrum, and redshift evolution translates to many orders of magnitude un-
+       certainty in the expected cosmogenic neutrino flux as discussed in Section 6.
+
+      3 The propagation of Ultrahigh Energy Cosmic Rays
+       While propagating from their sources to the observer, UHECRs experience two types of
+       processes: (i) interactions with cosmic backgrounds that affect their energy and their com-
+       position, but not their direction; and (ii) interactions with cosmic magnetic fields that affect
+       their direction and travel time, but not their energy and composition. Both leave a variety
+       of signatures on the observables of UHECRs and generate secondary neutrinos and gamma
+       rays (see Section 6.3).
+
+12 Kotera & Olinto
+3.1 Interaction processes on cosmic backgrounds
+
+In the intergalactic medium, cosmic rays primarily interact with the Cosmic Microwave
+Background (CMB) photons at the highest energies, and with infrared, optical, and ultra-
+violet background (IR-UV) photons at slightly lower energy (see, e.g., Kneiske et al. 2004;
+Stecker et al. 2006 for detailed background models).
+
+   Photohadronic interactions between protons and background photons mainly lead to
+pion production: p  - N + n (here N is a nucleon and n is the number of pi-
+ons produced), or to electron-positron pair production, also called Bethe-Heitler process:
+p  - p e+ e-. The energy threshold of these interactions for a photon of energy
+reads: Ep,  200 EeV ( CMB/ ) for pion production, and for pair production: Ep,ee 
+0.8 EeV ( CMB/ ), with CMB 2.7 kBTCMB  6 ◊ 10-4 eV, the mean energy of a CMB
+photon.
+
+   We plot in Figure 7 the energy loss lengths xloss  |E-1dE/c dt|-1 for these two processes,
+using analytical formulae by Stecker (1968) (also see Maximon 1968; Genzel et al. 1973;
+Begelman et al. 1990; Mu®cke et al. 1999). Above E  60 EeV, the distance that particles
+can travel without losing their energy shortens considerably. If cosmic rays originate from
+cosmological distances, their flux above this energy should be consequently suppressed,
+producing the well-known GZK feature in the UHECR spectrum (see Section 2.1). This
+property further imposes that the sources of the observed UHECRs at a given energy
+should be located in our local Universe, within a distance l xloss(E). Losses due to the
+cosmological expansion are also represented in Figure 7.
+
+   For primary cosmic rays with mass number A > 1, different interaction processes come
+into play. At ultrahigh energies, nuclei photo-disintegrate on CMB and IR-UV photons
+through three main types of processes that contribute at increasing energy ranges: the
+Giant Dipolar Resonance (for  8 - 30 MeV), the Quasi Deuteron process (for 
+20 - 150 MeV), and the Baryonic Resonance (for  150 MeV). In a first approximation,
+one can consider that the Lorentz factor of the primary nucleus remains unchanged through
+these interactions. Nuclei also experience photo-pair production that decreases the Lorentz
+factor without affecting the number of nucleons.
+
+   After pioneering work by Puget et al. (1976), energy losses for nuclei have been examined
+by several groups (Stecker & Salamon 1999; Epele & Roulet 1998a,b; Bertone et al. 2002;
+Khan et al. 2005; Allard et al. 2005, 2008; Hooper et al. 2005, 2008; Aloisio et al. 2008).
+One remarkable effect of the propagation of nuclei is that nuclei with mass number A < 20
+cannot travel farther than few tens of megaparsecs without disintegrating (see Figure 4). In
+particular, one can conclude that heavy nuclei could be found in abundance at trans-GZK
+energies only if the composition were essentially dominated by iron group nuclei. Such a
+composition can arise when the proton Emax is smaller than Ep,, so that only heavy nuclei
+are present at greater energies (Allard et al. 2008; Aloisio et al. 2009).
+
+   The effect of photo-hadronic interactions on the cosmic ray spectrum can be calculated
+analytically for protons (Berezinsky & Grigorieva 1988; Berezinsky et al. 2006). Numerical
+codes such as SOPHIA (Mu®cke et al. 1999) enable the precise evaluation of the cross-sections
+for photo-hadronic interactions taking into account various channels, and of the produced
+
+                                                                                        Astrophysics of UHECRs 13
+                         Galaxy (disk + halo)                         vicinity of the         source
+                           1kpc x 10kpc 10 - 100 kpc                      source
+
+                                                            clusters
+                                                              5 Mpc
+
+                         scattering centers                                                       source
+                            (radio halos,                                                     environment
+
+                         galactic winds, ...)                                                    (cluster)
+
+                                       1 Mpc                                                  5 - 10 Mpc
+
+supercluster?                                  30 - 40 Mpc            filaments               magnetic field
+            10 - 30 Mpc                                                  1 Mpc                       in voids?
+
+                                                                                10 - 300 Mpc
+
+Figure 8:
+
+Schematic representation of magnetized regions intervening in UHECR propagation. Their
+approximative characteristic length scales are indicated in grey.
+
+flux of secondary particles (pioneered by Berezinsky & Gazizov 1993). Numerical Monte-
+Carlo methods are best suited to model inhomogeneous distribution of sources, calculate
+secondary emissions, and treat the complex processes intervening in the propagation of
+nuclei in the intergalactic medium. Among the existing propagation codes that have been
+developed for this purpose, one might refer to the public code CRPropa (Armengaud et al.
+2007) and to the complete nuclei propagation tool by Allard et al. (2006).
+
+   The calculated spectra are in very good agreement with the observed spectra for a variety
+of chemical compositions, Galactic to extragalactic transition models, source evolution his-
+tories, and injection spectrum indices between 1.6 - 2.7, for a fixed maximum acceleration
+energy, Emax (see, e.g., Figure 2). Kachelriess & Semikoz (2006) demonstrate that relaxing
+the assumption of a single maximum acceleration energy and introducing a power-law dis-
+tribution of Emax leads to a change in the overall propagated spectrum slope. A key region
+for models to fit is the ankle around a few EeV where the spectral slope changes (see Section
+4). The precise shape of the GZK feature depends on the local source density and on the
+transient or continuously emitting natures of the sources (see, e.g., Aloisio & Boncioli 2010;
+Berezinsky et al. 2006; Blasi et al. 1999; Medina Tanco 1998; Miralda-Escud¥e & Waxman
+1996). For instance, if Emax 100 EeV a recovery of the spectrum at high energies can be
+observed by future detectors.
+
+3.2 The effects of Magnetic fields
+
+The absence of powerful astrophysical counterparts in the arrival directions of UHECRs
+is probably related to the effect of cosmic magnetic fields that deflect and delay particles
+during their propagation. Charged particles are subject to the influence of magnetic fields
+
+14 Kotera & Olinto
+in the source environment, in the intergalactic medium, and in the Galaxy, as depicted in
+Figure 8. Since very little is known about cosmic magnetic fields (for recent reviews see,
+e.g., Beck 2008; Kulsrud & Zweibel 2008; Vall¥ee 2004; Widrow 2002; Kronberg 1994), the
+parameter space for an accurate description is quite large. Different propagation regimes
+apply to different cosmic ray rigidities, from weak angular deflection at the highest energies
+or in weak magnetic fields, to the diffusive regime in strong fields or at low enough energies.
+Figure 8 shows schematic representations of magnetized regions intervening in UHECR
+propagation.
+
+   Much progress has been made in recent years on Galactic magnetic field observations (see
+Han et al. 1999, 2006; Han 2008; Jansson et al. 2009) and their effect on the propagation of
+UHECRs (Harari et al. 1999; Alvarez-Mun~iz et al. 2002; Tinyakov & Tkachev 2002, 2005).
+These studies conclude that the deflection for particles of charge Z and energy E should not
+exceed  10 Z (40 EeV/E). In particular, the regular component of the Galactic magnetic
+field can distort the angular images of cosmic ray sources: the flux may appear dispersed
+around the source or globally translated in the sky with a small dispersion (Harari et al.
+1999). Source image distortions are stronger for heavier nuclei (see, e.g., Giacinti et al.
+2010). Since Galactic magnetic fields are not uniform in the sky, angular deflections also
+depend on the observed direction (Harari et al. 1999; Kachelrieﬂ et al. 2007; Takami & Sato
+2008).
+
+   The extragalactic magnetic field (EGMF)3 is much less known. Measurements of Faraday
+rotation provide estimates of the magnetic fields in the core of clusters of galaxies, with
+typical strengths  1 - 40 µG (see above reviews). Outside clusters upper limits on the in-
+tegrated strength of the magnetic field parallel to the line of sight, B||, have been obtained
+using rotation measures (Ryu et al. 1998; Blasi et al. 1999): B||2 B 1/2 10-8 G Mpc1/2,
+where the field reversal scale, B 1 Mpc, given the typical turbulent velocities (e.g., Wax-
+man & Bahcall 1999). The future SKA project (Beck et al. 2007) will enlarge considerably
+the observations of the EGMF in our local Universe. Meanwhile, Neronov & Semikoz (2009)
+demonstrated that the observation of extended gamma-ray emission around point sources
+together with time delays in gamma-ray flares should provide robust measurements of the
+EGMF, and help constrain scenarios of its origin. Based on recent Fermi (Fermi Gamma-
+ray Space Telescope) observations, the existence of an EGMF of order 10?16 - 10?15 G has
+been suggested using upper limits on the secondary emission of a few blazars Neronov &
+Vovk (2010) and by the apparent (and debated, see e.g., Neronov et al. 2011) detection of
+pair halos in stacked images of a large number of sources Ando & Kusenko (2010). These
+new developments may lead to stronger constraints or even detections of the EGMF, which
+at present can range from 10-16 - 10-9 G.
+
+   The origins of extragalactic magnetic fields are not well understood (e.g., Kulsrud &
+Zweibel 2008). Some models set their origins in the primordial Universe (see Widrow 2002
+and references therein) other models through magnetic pollution from astrophysical sources
+such as galactic winds or jets from radio-galaxies (Kronberg et al. 1999; Birk et al. 2000;
+Aguirre et al. 2001; Cen et al. 2005; Bertone et al. 2005, 2006; Scannapieco et al. 2006).
+
+    3also called the intergalactic magnetic field (IGMF)
+
+                                                                                        Astrophysics of UHECRs 15
+        Figure 9:
+
+        Cumulative volume filling factor of the extragalactic magnetic field for different numerical
+        simulations. Blue dashed: Sigl et al. (2004), red dash-dotted: Dolag et al. (2005), pink long
+        dashed: Das et al. (2008), green solid: Donnert et al. (2009).
+
+       If magnetic fields have a primordial origin, they should be all-pervading and amplified in
+       dense regions by dynamical effects induced by large-scale structure formation. If galaxies
+       are the primary generators of magnetic enrichment, the field should be rather concentrated
+       in high peaked density regions and nearly suppressed in voids, depending on the efficiency
+       of the winds (Bertone et al. 2006). A combination of the two scenarios may occur, as
+       well as intermediate models in which magnetic pollution happens during the reionization
+       epoch, generating slightly inhomogeneous fields already at high redshift. Whatever the
+       origin of extragalactic fields, dynamical amplification in dense regions during structure
+       collapse should play a key role in setting up their present configuration (Bruni et al. 2003;
+       Siemieniec-Ozie∏blo & Golda 2004; King & Coles 2006; Ryu et al. 2008).
+
+          The structure and strength of the EGMF can strongly affect the propagation of UHECRs.
+       Early simulations of cosmic ray propagation in EGMFs considered homogeneous magnetic
+       fields or the lensing effect of the magnetized local supercluster (Medina Tanco et al. 1997;
+       Lemoine et al. 1997; Sigl et al. 1997; Medina Tanco 1998; Sigl et al. 1999; Ide et al. 2001;
+       Isola et al. 2002; Isola & Sigl 2002; Stanev et al. 2003). Analytical works of Wdowczyk &
+
+16 Kotera & Olinto
+Wolfendale (1979); Blasi & Olinto (1999); Waxman & Miralda-Escud¥e (1996); Achterberg
+et al. (1999); Harari et al. (2002b,a); Kotera & Lemoine (2008b), and Aharonian et al. (2010)
+have helped to establish the influence of the EGMF on observable UHECR quantities.
+
+   More recently, various groups have developed simulations of the formation of large scale
+structures including magnetic fields, in order to model more realistic inhomogeneous config-
+urations (Ryu et al. 1998; Sigl et al. 2004; Dolag et al. 2004, 2005; Bru®ggen et al. 2005; Ryu
+et al. 2008; Dubois & Teyssier 2008; Das et al. 2008; Donnert et al. 2009). Most of these
+authors set an initial magnetic seed at high redshift which is then evolved in time. The
+overall amplitude of the field is rescaled at the end of the simulation so as to reproduce the
+observed strength of magnetic fields in the core of clusters of galaxies. Ryu et al. (1998) and
+Das et al. (2008) estimate directly the intensity of the magnetic field using the vorticity and
+the energy density calculated from the kinetic properties of the gas. With these methods,
+magnetic fields generated by astrophysical feedback can be hard to implement (see, however
+Donnert et al. 2009 who have incorporated some of these effects).
+
+   These simulations lead to very discrepant results concerning the configuration of the fields
+(see Figure 9). These differences probably stem from the different methods and assumptions
+made by each group, and illustrate the inherent complexity of these simulations. Indeed,
+Ryu et al. (1998) and Sigl et al. (2004) assume that magnetic seeds are generated by
+Biermann battery effects around accretion shocks, whereas Dolag et al. (2005) implement
+a homogeneous seed around redshift z  20, and Donnert et al. (2009) add to the latter
+method astrophysical magnetic pollution in localized spots at lower redshifts. The difference
+in configuration probably also results from the Eulerian and Lagrangian treatments used
+by the different groups and limitations on dynamical range and resolution.
+
+   Such discrepancies on the magnetic fields impact the range of deflections induced on
+UHECRs. For instance, Sigl et al. (2004) find that protons with energy E > 100 EeV
+should be deflected by 10 - 20, while Dolag et al. (2004) find deflections of less than a
+degree at the same energy.
+
+   In the framework of UHECR propagation, a simpler and faster approach to model the
+inhomogeneous extragalactic magnetic field is to perform a scaling of the field strength to
+the underlying density field (Medina Tanco 1997; Takami et al. 2006; Takami & Sato 2008;
+Kotera & Lemoine 2008a). The assumed scaling law enables one to account for various
+types of magnetic field amplifications due to structure formation and for the high con-
+trast fields that should be produced by astrophysical pollution. In addition, an analytic
+stochastic approach can be effective in describing the propagation of UHECRs in the ex-
+tragalactic fields because of the high energy of the particles and the low magnetization of
+voids (Kotera & Lemoine 2008b). Indeed, the deflection of UHECRs by magnetic fields of
+strength B < 10-12 G is lower than typical instrument resolutions which are  1. Particle
+transport can then be viewed as a succession of rectilinear portions interrupted by deflec-
+tions on localized magnetized regions (such as filaments, halos of radio-galaxies and galactic
+winds). This model can be applied to the coherent field amplified in numerical simulations
+as well as for the local enrichment processes due to astrophysical sources, and provides an
+effective framework to calculate the influence of magnetic fields on observable quantities of
+UHECRs (see, for example, the expected angular deflection skymap for protons calculated
+
+                                                                                        Astrophysics of UHECRs 17
+        Figure 10:
+         Expected angular deflection skymap (in degrees) for protons with energy E 6 ◊ 1019 eV, calculated
+         using the method developed in Kotera & Lemoine (2008b). During their propagation, particles are
+         assumed to be deflected on magnetized scattering centers that are distributed according to the galaxy
+         density estimated using the PSCz catalog (Saunders et al. 2000). The gray mask indicates the regions in
+         the sky that are not covered by PSCz. Here, the parameters of the scattering centers (that sets a
+         particular configuration of the EGMF) are chosen so as to reproduce the typical parameters found in the
+         literature for magnetized filaments and radio halos: we assume that protons encounter  3 scattering
+         centers in average over a propagation distance of  100 Mpc and experience a deflection of order 1.7
+         after each encountering. White dots indicate the arrival direction of the cosmic rays of energy
+         E 6 ◊ 1019 eV detected by Auger (Abreu et al. 2010).
+
+       for particular assumptions on EGMF presented in Figure 10).
+
+          If the magnetic field is sufficiently strong, or the particle energy "not too high", UHECRs
+       may enter a diffusive regime. One can define the scattering time of a particle, tscatt, as the
+       timescale beyond which its quadratic deflection angle becomes of order unity (2  1).
+       This quantity depends on the properties of the turbulence of the magnetic field. Diffusion
+       occurs when the travel time exceeds tscatt, and the diffusion coefficients, which govern the
+       transport on timescales t tscatt, also depend on the properties of the turbulence.
+
+          The propagated spectrum of UHECRs in the diffusive regime can be calculated analyti-
+       cally for a given injection spectrum, density and distribution of sources, for homogeneous
+       magnetic fields (Aloisio & Berezinsky 2004; Lemoine 2005; Aloisio & Berezinsky 2004). In-
+       terestingly, Aloisio & Berezinsky (2004) have demonstrated that the analytical propagated
+       spectra for both rectilinear (without magnetic field) and diffusive propagations converge
+       when the typical distance between two sources is shorter than the characteristic propaga-
+       tion lengths (i.e. the scattering length and the energy loss lengths). This is particularly the
+       case of continuously distributed sources for which the diffusion of particles in the magnetic
+
+18 Kotera & Olinto
+field does affect the final spectrum.
+   When the strong magnetic field is not all pervading but limited to a particular geometry,
+
+the diffusive regime can lead to interesting confinement effects. For instance, the properties
+of UHECR transport in a strongly magnetized local supercluster or in clusters of galaxies
+have been discussed (e.g., Berezinsky et al. 1990a, 1997; Blasi & Olinto 1999; Lemoine et al.
+1999; Ide et al. 2001; Medina Tanco 2001, and see Section 6.3 for more references on clusters
+of galaxies).
+
+   Another interesting aspect of diffusion, from the point of view of phenomenology, is that
+of magnetic horizons that will be discussed in the next section. If the length of the path trav-
+elled by the particle, from source to observer, becomes larger than the Hubble length, cH0-1,
+the source cannot be seen in cosmic rays as it lies beyond the magnetic horizon. In a Hubble
+time, particles travel a linear distance d  c H0-1tscatt 1/2 65 Mpc (ctscatt/1 Mpc)1/2.
+Since tscatt, and hence d, increases with increasing energy, this produces a low-energy cut-off
+in the propagated spectrum.
+
+4 The Galactic to extragalactic transition
+
+The highest energy cosmic rays are likely to originate in extragalactic sources, given the
+strength of Galactic magnetic fields and the lack of correlations with the Galactic plane.
+Low energy cosmic rays are easily created and contained in the Galaxy, so a transition
+region should occur in some intermediate energy. "A hypothesis blessed by long tradition
+is that" Galactic cosmic rays end below 10 EeV "and above that a different source is active
+(most plausibly in the nearby supercluster of galaxies)" quoting Hillas (1984). Modern
+measurements of the spectrum place a plausible transition region around the ankle at a
+few EeV (Figure 1 and 2). However, the ankle can also be interpreted as the product of
+propagation losses due to pair production (Berezinsky & Grigorieva 1988; Berezinsky et al.
+2006) in proton dominated scenarios allowing for a transition at lower energies.
+
+   The knee in the cosmic ray spectrum is likely to signal the Emax for light nuclei of
+dominant Galactic sources and/or the maximum containment energy for light nuclei in the
+Galactic magnetic field. The same effect for heavier nuclei may cause the softer spectrum
+above the knee (see, e.g., Lemoine 2005; Hillas 2006). Extragalactic sources producing
+spectra harder than s = 3 can overtake the decaying Galactic flux around the ankle. Recent
+studies of a transition at the ankle which fit the observed spectrum and the composition
+trends in this energy region are discussed in Allard et al. (2005) where different models are
+contrasted. Models based on proton primaries with a hard spectrum (Wibig & Wolfendale
+2004), on a mixed composition with proportions similar to the Galactic mix, or even on a
+composition dominated by heavy nuclei (Allard et al. 2007) fit well the UHECR spectrum
+and composition data around the ankle. In Figure 2, we show two examples of the so-called
+"ankle transition models": one with source injection s = 2.1, source composition similar to
+the Galactic mixture, and source evolution that follows the SFR; and a second model with
+similar source evolution and s = 2, but a pure iron composition injected. Both models fit
+well the UHECR spectrum but predict different compositions throughout this energy range.
+
+   Ankle transition models work well for UHECR scenarios, but they were thought to chal-
+
+                                                                                        Astrophysics of UHECRs 19
+       lenge models for the origin of Galactic cosmic rays. The requirement that Galactic sources
+       reach energies close to the ankle strained traditional models where acceleration in supernova
+       remnants (SNRs) was expected to fade around 1 PeV (Lagage & Cesarsky 1983). A modi-
+       fication to the traditional SNR scenario, such as magnetic field amplification in SN shocks
+       (Bell & Lucek 2001), or a different progenitors such as Wolf-Rayet star winds (Biermann
+       & Cassinelli 1993), and trans-relativistic supernovae (Budnik et al. 2008) may explain the
+       energy gap from PeV to EeV. Taking into account magnetic field amplification and Alfvenic
+       drift in shocks of Type IIb SNRs, Ptuskin et al. (2010) find that Galactic cosmic ray iron
+       can reach Emax  5 EeV, allowing extragalactic cosmic rays to begin to dominate above
+       the ankle.
+
+          The possibility that the ankle is due to pair-production losses during the propagation of
+       extragalactic protons (Berezinsky & Grigorieva 1988) has motivated an alternative model
+       for the Galactic to extragalactic transition, called "dip models" (Berezinsky et al. 2006).
+       The energy of the predicted dip is close to the observed ankle and a good fit to the spectrum
+       over a large energy range is reached with a softer injection index as the dip proton models
+       shown in Figure 2. This option relaxes the need for Galactic cosmic rays to reach close to
+       EeV energies, however it needs to be tuned to avoid strong (unobserved) spectral features
+       between the knee and the ankle. Detailed models where the lower energy behavior of the
+       extragalactic component blends smoothly with the Galactic cosmic rays have been developed
+       using minimum energy and magnetic effects (Lemoine 2005; Aloisio & Berezinsky 2005;
+       Hillas 2006; Kotera & Lemoine 2008a; Globus et al. 2008). In some of these models a
+       feature is produced around the "second knee" which may be observed around 0.5 EeV. The
+       dip model can fit the observed spectrum if the injection is proton dominated (Berezinsky
+       et al. 2005; Allard et al. 2007) or with at most a primordial proton to helium mix (Hillas
+       2006), which gives a clear path for distinguishing it from mixed composition models. A
+       proton dominated flux below the ankle region is a necessary condition for this model to be
+       verified.
+
+          Clarifying the structure of the transition region is crucial for reaching a coherent picture
+       of the origin of Galactic and extragalactic cosmic rays. This will require accurate spectrum
+       and composition measurements from the knee to the ankle and beyond. KASCADE-Grande
+       (Apel et al. 2009) has made great progress above the knee, while UHECR projects have
+       started to lower their energy threshold such as the Auger Observatory enhancements (Abra-
+       ham et al. 2009b): HEAT (High Elevation Auger Telescopes) and AMIGA (Auger Muons
+       and Inll for the Ground Array); and the Telescope Array Low Energy Extension (TALE)
+       proposal. Having the same system covering a large range in energy will help control sys-
+       tematic offsets that degrade the accuracy of the needed precision. In addition, a strong
+       multi-wavelength program has shown that magnetic field amplification occurs in SNRs and
+       Galactic sources can reach further than previously believed. Finally, models of hadronic
+       interactions will benefit from the energy reach of the LHC which can probe hadronic interac-
+       tions at energies higher than the knee (Figure 1) and help constrain composition indicators
+       between the knee and the ankle.
+
+20 Kotera & Olinto
+5 Acceleration Mechanisms
+
+The acceleration of charged particles is easily achieved in the presence of electric fields.
+However, ubiquitous astrophysical plasmas destroy large scales electric fields throughout
+the universe. Occasionally, high voltage drops that may lead to particle acceleration can
+be found in some regions of the magnetosphere or the wind of neutron stars, or near black
+holes and their accretion disks. In contrast, magnetic fields are omnipresent in astrophysical
+objects. Their variations in space and time imply the existence of transient electric fields
+which can supply a consequent amount of energy to charged particles.
+
+   In our framework, acceleration mechanisms must fulfill the following criteria: they should
+enable charged particles to reach ultrahigh energies (from EeV to above 200 EeV) and the
+accelerated population should bear an injection spectrum (usually power-law) that would
+fit the observed UHECR spectrum after propagation. Below we summarize two of the most
+commonly cited acceleration mechanisms, Fermi acceleration and unipolar inductors, and
+briefly discuss other processes that have been proposed in the literature.
+
+5.1 Fermi acceleration at shock waves
+
+The principle of Fermi acceleration is the transfer of energy from macroscopic motion to
+microscopic particles through their interaction with magnetic inhomogeneities. In the ver-
+sion elaborated by Fermi himself (Fermi 1949), magnetic scattering centers had random
+velocities which led to an energy gain of order E/E  2, where  is the average ve-
+locity of the scattering centers in units of c. This process is now called 2nd order Fermi
+acceleration, while the 1st order Fermi process is the case where the macroscopic motion
+is coherent, such as a shock wave where particles can gain energy as they bounce back
+and forth, making E/E   (Axford et al. 1977; Bell 1978; Blandford & Ostriker 1978).
+Shock waves are quite frequent in the Universe, for instance where an ejecta encounters the
+interstellar medium. SNR shocks are believed to be the sites where Galactic cosmic rays are
+accelerated via 1st order Fermi processes. Popular shock regions for UHECR acceleration
+are GRB shocks, jets and hot spots of AGN, and gravitational accretion shocks.
+
+   Second order Fermi acceleration depends on the scattering time of particles in the mag-
+netic turbulence and thus on the characteristics of the latter, which are poorly known in
+astrophysical objects. It is less efficient than 1st order Fermi in the non relativistic limit
+( 1). In the relativistic case (Pelletier 1999), it has been applied to acceleration studies
+inside GRBs (Pelletier & Kersal¥e 2000; Gialis & Pelletier 2003, 2004, 2005).
+
+   First order Fermi processes under the `test particle' approximation4, lead to simple power-
+law predictions for the spectrum of the accelerated population (see, e.g., Gaisser 1991). Sev-
+eral recent studies show that 1st order Fermi acceleration at relativistic shock waves is more
+intricate, even under the test particle approximation (Gallant & Achterberg 1999; Lemoine
+& Pelletier 2003; Lemoine et al. 2006; Pelletier et al. 2009). Lemoine et al. (2006) have
+pointed out that Fermi acceleration cannot happen if the Larmor radius of the accelerated
+
+    4i.e., assuming that the density of accelerated particles is negligible compared to the thermal energy
+of the plasma in which the shock propagates, and hence that they do not produce a back-reaction on the
+shock.
+
+                                                                                        Astrophysics of UHECRs 21
+       particle is much smaller than the coherence length of the magnetic field. Indeed, the particle
+       is then captured on a field line and advected far away downstream since the magnetic field
+       is shock-compressed to a perpendicular configuration. Fermi acceleration should thus stop
+       after a first back and forth cycle around the shock, unless the magnetic field is strongly
+       amplified on spatial scales much smaller than the Larmor radius rL of the particle. It was
+       further demonstrated by Pelletier et al. (2009) that the noise associated with the motion
+       in the small scale turbulent magnetic field needs to overcome the unperturbed trajectory
+       in the large scale coherent field, which sets an upper bound to rL (see also, Niemiec et al.
+       2006).
+
+          Such requirements being hardly reached for ultra-relativistic shocks, as discussed by Pel-
+       letier et al. (2009), one might advocate that the most efficient Fermi acceleration occurs
+       around mildly relativistic shocks. The characteristics of the accelerated population strongly
+       depend on shock parameters (e.g., the shock Lorentz factor sh, temperature and pressure
+       values). No general tendency is easily derived, as can be concluded from the large span
+       of spectral properties obtained by the groups who have performed detailed studies of par-
+       ticle acceleration around mildly relativistic shocks in various situations (e.g., Bednarz &
+       Ostrowski 1998; Kirk et al. 2000).
+
+          Accelerated particles can act as precursors of the shock and induce significant modifi-
+       cations of the gas flow upstream and downstream. The current of energetic particles can
+       initiate plasma instabilities that tend to increase the level of magnetohydrodynamic (MHD)
+       turbulence which scatter the particles. The possibility that streaming instabilities amplify
+       the magnetic field, and that the acceleration efficiency could increase accordingly, was first
+       discussed in the framework of non relativistic shocks in SNRs (Bell 1978; Lagage & Cesarsky
+       1983). More detailed work was conducted by, e.g., McKenzie & Voelk (1982); Berezhko &
+       Ellison (1999); Lucek & Bell (2000); Malkov & O'C Drury (2001); Bell & Lucek (2001); Bell
+       (2004); Amato & Blasi (2005, 2006, 2009); Zirakashvili et al. (2008); Reville et al. (2008).
+       The estimated amplification of the upstream field is at most of two orders of magnitude.
+       The generalization of the instability to the relativistic regime (Milosavljevi¥c & Nakar 2006;
+       Reville et al. 2007; Pelletier et al. 2009) reveals that this mechanism is not sufficient to
+       allow efficient 1st order Fermi acceleration around ultra-relativistic shocks. Other mecha-
+       nisms outside the MHD range, such as Weibel like instabilities (Medvedev & Zakutnyaya
+       2009) or resonant Cerenkov effects with plasma modes (Pelletier et al. 2009) might yet
+       provide enough amplification to allow successful Fermi acceleration. Downstream of the
+       shock, the relativistic two stream Weibel instability could amplify the magnetic field on
+       small scales, to the level required by afterglow modeling of gamma-ray bursts (Gruzinov &
+       Waxman 1999; Medvedev & Loeb 1999). In order to make progress on these issues, many
+       groups are performing Particle-In-Cell simulations that endeavor to solve self-consistently
+       the field-particle interactions (e.g., Silva et al. 2003; Hededal & Nishikawa 2005; Dieckmann
+       et al. 2008; Spitkovsky 2008; Riquelme & Spitkovsky 2010). It is promising that the latest
+       simulations see evidences of Fermi acceleration and particle-wave interactions.
+
+          Finally, when modeling Fermi acceleration around shocks, mechanisms of "shear accelera-
+       tion" have to be taken into account. Particles traversing a velocity gradient perpendicularly
+       to a jet axis (instead of going along the axis as in the case of pure shock acceleration) can
+
+22 Kotera & Olinto
+experience acceleration (e.g., Rieger et al. 2007, see Rieger & Duffy 2005 for an application
+to acceleration of UHECRs in GRBs, Lyutikov & Ouyed 2007 for a variant). This mech-
+anism however depends on the characteristics of the plasma velocity gradients, which are
+not fixed, unlike the shock characteristics.
+
+5.2 Unipolar Inductors
+
+Unipolar inductors have been suggested as alternative ways to accelerate particles to ultra-
+high energies (see, e.g., Berezinsky et al. 1990b). Below we focus specifically on neutron
+stars, but acceleration may also be caused by unipolar inductors in other relativistic mag-
+netic rotators, such as black holes with magnetized disks that lose rotational energy in
+jets.
+
+   Rapidly rotating neutron stars generally create relativistic outflows ("winds"), where
+the combination of the rotational energy and the strong magnetic field induces an elec-
+tric field E = v ◊ B/c (where v and B are the velocity and the magnetic field of the
+outflowing plasma). The wind thus presents voltage drops where charged particles can
+be accelerated to high energy. This model was first developed in the framework of ordi-
+nary pulsars (see, e.g., Shapiro & Teukolsky 1983 and references therein), but the latter
+do not supply enough energy to reach the highest energies (E > 1020 eV). Blasi et al.
+(2000) pointed out that young neutron stars with millisecond rotation periods  and
+very high surface magnetic fields B (i.e., magnetars) could easily accelerate particles to:
+E()  3 ◊ 1021 eV Z1(B/2 ◊ 1015 G)(R/10 km)3(/104 s-1)2, where 1 = 0.1 is the
+fraction of the voltage drop experienced by a particle and R is the radius of the star. The
+spin down of the magnetar due to energy losses and the dependency of the particle acceler-
+ation energy on  lead to a power-law spectrum for the population of cosmic rays produced
+by a magnetar (Blasi et al. 2000; Arons 2003): dN/dE = 9c2I(1 + E/Eg)-1(2ZeBR3E)-1.
+I is the principal inertial momentum of the magnetar and Eg is the energy corresponding
+to its angular velocity, at which gravity wave losses and electromagnetic losses are equal.
+Arons (2003) calculated that UHECRs should be produced at the very early stages of the
+lives of magnetars (after a few days to get down to E  6 EeV), hence their emission can
+be considered as an impulsive burst. Note that this model was introduced in the AGASA
+era, in order to explain the absence of the GZK cut-off; with our current data however,
+such a hard injection spectrum (s = 1) is problematic as it does not fit the observed slope.
+An adequate distribution of initial voltages among magnetars can be found to soften the
+spectrum while leading to gravitational waves (Kotera 2011).
+
+   The toy model described above needs to be further investigated on several issues, for
+instance on the nature of the ions injected in the wind, on the mechanism through which
+the current in the wind taps the available voltage, and on the escape of the accelerated
+particles from the wind and the wind nebula. A detailed discussion of such issues can be
+found in Arons (2003).
+
+                                                                                        Astrophysics of UHECRs 23
+      5.3 Other models
+
+       Among other models that have been proposed in the literature, one might consider magnetic
+       reconnection acceleration, wake-field acceleration (often related to ponderomotive acceler-
+       ation), and re-acceleration in sheared jets. In a plasma, a local reconfiguration of the
+       magnetic field topology (or reconnection) happens when the plasma conductivity is not
+       high enough to support the current associated with a magnetic field structure (see Zweibel
+       & Yamada 2009 for a review). The field reaches a lower energy level configuration, and the
+       liberated energy can be devoted to particle acceleration. This mechanism, responsible for
+       the generation of high energy particles in solar flares, has been applied to UHECR accel-
+       eration in pulsar winds (Coroniti 1990; Lyubarsky & Kirk 2001), in newborn millisecond
+       pulsars (de Gouveia Dal Pino & Lazarian 2000), in termination shocks of pulsar winds
+       (Lyubarsky 2003), and in GRB outflows (Thompson 2006). Some authors also proposed
+       that, in Poynting-flux dominated flows (e.g., flows with Poynting to kinetic flux ratio 1),
+       1st order Fermi acceleration could aliment this mechanism, as particles reflected in the mag-
+       netized plasma could converge in the reconnection region (de Gouveia dal Pino & Lazarian
+       2005; Giannios 2010).
+
+          A wake-field is created in a plasma when waves with high charge separation travel through
+       the plasma. It leads to the formation of ponderomotive forces (longitudinal Lorentz invari-
+       ant nonlinear forces that a charged particle experiences in an inhomogeneous oscillating
+       electromagnetic field) that can accelerate particles if they are trapped in the wave: par-
+       ticles surf-ride the waves (Tajima & Dawson 1979; Chen et al. 2002). A simple form of
+       surf-riding acceleration was developed in the case of a pulsar wind by Buckley (1977) and
+       Contopoulos & Kazanas (2002). A detailed discussion for magnetar winds can also be found
+       in Arons (2003).
+
+          Other acceleration mechanisms have been proposed and may contribute to the acceler-
+       ation of cosmic rays in the Galaxy. These include a variety of second order processes and
+       many of them can be observed to operate in solar physics. However, they are believed to
+       be too slow to be relevant to the acceleration of UHECRs.
+
+      6 Candidate Sources and their signatures
+
+       The requirements for astrophysical objects to be sources of UHECRs are quite stringent.
+       After reviewing some of the basic requirements, we briefly discuss plausible sources such
+       as accretion shocks in large scale structures, active galactic nuclei, gamma-ray bursts, and
+       neutron stars or magnetars. For these different classes of candidate sources, we discuss the
+       possibility of locating the sources with UHECR observations and review possible ways of
+       discovering the sources with secondary photons and neutrinos.
+
+      6.1 Candidate Source Requirements
+       The Larmor radius, rL = E/ZeB  110 kpc Z-1(µG/B)(E/100 EeV), of UHECRs in
+       Galactic magnetic fields is much larger than the thickness of the Galactic disk. Thus, con-
+       finement in the Galaxy is not maintained at the highest energies, motivating the search
+
+24 Kotera & Olinto
+neutron star
+
+proto  n  10 20
+
+Fe eV
+white 10 20
+              eV  AGN
+dwarf
+
+                            AGN jets
+
+                  GRB       hot spots
+
+                       SNR
+
+                            IGM shocks
+
+Figure 11:
+Updated Hillas (1984) diagram. Above the blue (red) line protons (iron nuclei) can be confined to
+a maximum energy of Emax = 1020 eV. The most powerful candidate sources are shown with the
+uncertainties in their parameters.
+
+for extragalactic sources. Requiring that candidate sources be capable of confining par-
+ticles up to Emax, translates into a simple selection criterium for candidate sources with
+magnetic field strength B and extension R (Hillas 1984): rL  R, i.e., E  Emax 
+1 EeV Z (B/1 µG)(R/1 kpc). Figure 11 presents the so-called Hillas diagram where can-
+didate sources are placed in a B - R phase-space, taking into account the uncertainties
+on these parameters (see also Ptitsyna & Troitsky 2010 for an updated discussion on the
+Hillas diagram). Most astrophysical objects do not even reach the iron confinement line
+up to 1020 eV, leaving the best candidates for UHECR acceleration to be: neutron stars,
+Active Galactic Nuclei (AGN), Gamma Ray Bursts (GRBs), and accretion shocks in the
+intergalactic medium. The Hillas criterion is a necessary condition, but not sufficient. In
+particular, most UHECR acceleration models rely on time dependent environments and
+relativistic outflows where the Lorentz factor  1. In the rest frame of the magnetized
+plasma, particles can only be accelerated over a transverse distance R/, which changes
+subsequently the Hillas criterion.
+
+                                                                                        Astrophysics of UHECRs 25
+          The maximum accessible energy further depends on many details of the acceleration re-
+       gion but can be estimated by comparing the acceleration time, tacc, the escape time of
+       particles from the acceleration region tesc, the lifetime of the source, tage, and the energy
+       loss time due to expansion and to interactions with the ambient medium, tloss (see, e.g.,
+       Norman et al. 1995a; Lemoine & Waxman 2009). The condition for successful acceleration
+       can then be written tacc tesc, tage, tloss. The escape timescale tesc = R2/(2D), where D is
+       the diffusion coefficient, depends on the characteristics of the transport of particles in the
+       ambient medium, i.e., on the magnetic field and on the turbulence features. Detailed stud-
+       ies of this subject can be found in, e.g., Jokipii (1966); Giacalone & Jokipii (1999); Casse
+       et al. (2002); Yan & Lazarian (2002); Candia & Roulet (2004); Marcowith et al. (2006).
+       Energy losses during acceleration are generally due to synchrotron radiation, to interac-
+       tions with the radiative backgrounds, or to hadronic interactions, the latter process being
+       mostly inefficient in diluted astrophysical media. The timescale for energy losses through
+       synchrotron emission and pion production can be expressed in a generic way (Biermann &
+       Strittmatter 1987): trad = (6m4pc3/Tm2e)E-1B-2(1 + A)-1, where A = 240 U /UB cor-
+       responds to the ratio of the energy density of radiation leading to pion production U, to
+       the magnetic energy density UB = B2/8. In the central region of an AGN for example, as-
+       suming equipartition with the magnetic field (corresponding to the Eddington luminosity),
+       for E20 = E/1020 eV and BG = B/1G, trad  105s E20 -1BG-2. This timescale has to be com-
+       pared to the acceleration timescale which reads (Lemoine & Waxman 2009): tacc = A tL,
+       where tL is the Larmor timescale and A 1 for all types of Fermi acceleration (non, mildly,
+       or ultra-relativistic, 1st and 2nd order Fermi accelerations). For a non relativistic 1st order
+       Fermi acceleration for instance, A  g/sh 2 and tacc  107s g E20BG-1sh -2, where the shock
+       velocity sh 1 and g  D/(rLc) 1. Majoring this timescale with the radiative loss
+       timescale leads to a maximum acceleration energy in the central region of AGN of order:
+       Emax  1019 eV g-1/2BG-1/2sh.
+
+          In the generic case of acceleration in an outflow, Lemoine & Waxman (2009) compare this
+       acceleration time and the dynamical time tdyn  R/WWc of the outflow, to set a robust
+       lower bound on the luminosity that a source must possess in order to be able to accelerate
+       particles up to E = 1020 eVE20: L > LB  WR2B2/2 > 1045 Z-2E20 2 erg s-1. The
+       magnetic luminosity LB of the source is written as a function of the size of the acceleration
+       region R in the observer frame, in motion with Lorentz factor W (and velocity W) and
+       imparted with a magnetic field of characteristic strength B. This quantity is not straight-
+       forward to derive: the classical determination of the field strength using the synchrotron
+       emission (assuming equipartition between the total energy density of non thermal particles
+       and of the magnetic field for example), depends notably on the hardly known ratio between
+       the leptonic and hadronic accelerated particles (e.g., Beck & Krause 2005). In the case of
+       blazars for example, Celotti & Ghisellini (2008) discuss that their jets are not magnetically
+       dominated and that Faranoff-Riley I (FRI) radio galaxies, TeV blazars, and BL Lac objects
+       only possess magnetic luminosities of order 1042-44 erg s-1.
+
+          It should be noted that the escape of particles from acceleration regions is an intricate
+       issue that has been scarcely discussed in detail in the literature (note however the works
+       of Norman et al. 1995a; Mannheim et al. 2001; Rachen 2008; Allard & Protheroe 2009).
+
+26 Kotera & Olinto
+Mannheim et al. (2001) and Rachen (2008) argue that one promising way to have high
+energy particles leave the magnetized acceleration site would be that they be transformed
+into neutrons. However, it is not obvious that such a scenario could produce a power-law
+spectrum; the shape of the spectrum depends on the evolution of the optical depth to
+photo-pion production (see, e.g., Waxman 2001).
+
+   In addition to being able to accelerate up to Emax > 200 EeV, candidate UHECR ac-
+celerators should have luminosities that can account for the observed fluxes. A simple
+estimate of the required luminosity can be done assuming that all sources have the same
+injection spectral index s, a L19 steady luminosity in cosmic rays above E19  1019 eV,
+and that they are distributed homogeneously in the Universe with a density ns. To ac-
+count for the observed flux of UHECRs at E19, the main quantity at play, nsL19, scales
+as: (E3dN/dE)E=E19  1024 eV2 m-2 s-1 sr-1(ns/10-5 Mpc-3)(L19/1042 erg s-1), for the
+case of s = 2.3 and Emax = 1020.5 eV. For reference, the number density of normal galax-
+ies in the Universe today is of order 10-2 Mpc-3 (Blanton et al. 2003), and it drops to
+10-9-10-8 Mpc-3 for Faranoff-Riley II(FRII) type galaxies (Wall et al. 2005). For transient
+sources, this scaling can be translated into: (n s/10-9 Mpc-3 yr-1) (Etot,19/3 ◊ 1053 ergs),
+where n s is the birth rate of the source and Etot,19 the total injected energy in cosmic rays
+above E19.
+
+   Below we discuss the main astrophysical sites where UHECRs may originate.
+
+ 6.1.1 Gravitational accretion shocks The accretion of dark matter and gas pro-
+duce shocks around the largest structures of the Universe (clusters of galaxies, filaments,
+walls), where diffusive shock acceleration can happen. For clusters of galaxies, one can
+estimate the linear extension of the magnetized shock to  1 - 10 Mpc and the magnetic
+field intensity on both sides of the shock to  1 µG (see, e.g., the recent radio detection of
+synchrotron radiation from bow shocks in a merging cluster by van Weeren et al. 2010, that
+indicates the presence of micro-gauss level magnetic fields far from the cluster center), which
+would allow particles to be confined up to E  1020 eV. Note however that the strength
+of the magnetic field upstream of the shock could actually be 1 µG, as it was produced
+out of the weakly magnetized void; thus shock acceleration can occur only if the magnetic
+field upstream can be strongly amplified (M. Lemoine and E. Zweibel, private comm., and
+see tentative amplification mechanisms by Schlickeiser & Shukla 2003; Zweibel & Everett
+2010). The detection of very high energy gamma rays from these shocks would enable us to
+constrain these parameters. Clusters of galaxies have been considered as promising accel-
+erators by various authors: Norman et al. (1995b); Kang et al. (1996, 1997); Miniati et al.
+(2000); Ryu & Kang (2003); Inoue et al. (2005, 2007); Murase et al. (2008a). Recently,
+Vannoni et al. (2009) performed a detailed time-dependent numerical calculation, including
+energy losses due to interactions of protons with radiative backgrounds and demonstrated
+that for realistic shock speeds of a few thousand km/s and a background magnetic field close
+to 1 µG, the maximum energy achievable by protons cannot exceed a few times 1019 eV,
+due to radiative losses.
+
+                                                                                        Astrophysics of UHECRs 27
+        6.1.2 Active Galactic Nuclei AGN are composed of an accretion disk around a
+       central super-massive black hole and are sometimes associated with jets terminating in
+       lobes (or hot spots) which can be detected in radio. One can classify these objects into two
+       categories: radio quiet AGN with no prominent radio emission or jets and radio loud objects
+       presenting jets. Both categories could in principle accelerate particles in their nuclei: for
+       a black hole of mass Mbh  109 M , the equipartition magnetic field in the central region
+       yields B  300 G. Assuming the central region to be of order R  100 A.U., particles
+       could be confined up to Emax  150 EeV and accelerated to E 1020 eV by electrostatic
+       acceleration in the black hole magnetosphere (e.g., Boldt & Ghosh 1999). This energy is
+       hardly reached by particles in practice due to energy losses that they experience in this dense
+       region (see above and Norman et al. 1995a; Henri et al. 1999; Rieger & Mannheim 2000).
+       Radio loud galaxies could also accelerate particles in their inner jets, where one possible
+       mechanism at play could be shear acceleration (see end of Section 5.1 and e.g. Rieger et al.
+       2007). The quantity B R  0.3 G pc for the jets of Mbh  109 M , leading to Emax  300
+       EeV, but the acceleration is limited by photo-interactions and adiabatic losses making the
+       escape of UHE particles non trivial (Mannheim 1993). The most powerful radio-galaxies
+       (Faranoff-Riley II galaxies and their associated Flat Spectrum Radio Quasars, noted FSRQ)
+       present hot spots and bow shocks, formed at the termination of the jets by interaction with
+       the intergalactic medium. For these regions, the same estimates for particle confinement
+       energies as in jets can be found. For hot spots, shock acceleration and escape should
+       be easier than in the jet (see, e.g., Rachen & Biermann 1993), but the acceleration in
+       the bow shock is non trivial (Berezhko 2008). UHECR acceleration in AGN should lead to
+       particular signatures in the gamma-ray spectrum of these sources, through various emissions
+       such as proton synchrotron, photo-hadronic interactions that induce pair cascades, muon
+       synchrotron etc. With more gamma-ray data on each source over a wide energy range
+       (with, e.g., the future Cherenkov Telescope Array, or CTA), one could distinguish these
+       hadronic signatures from leptonic acceleration ones and probe the UHECR acceleration in
+       AGN (Hinton & Hofmann 2009). As discussed above, Lemoine & Waxman (2009) point out
+       that only FRII/FSRQ radio-galaxies with magnetic luminosity LB 1045 erg s-1 (following
+       the modeling of Celotti & Ghisellini 2008) meet the energetic requirements to accelerate
+       particles to the highest energies. Under this assumption, one may argue that the local
+       FRII galaxies are well known and do not seem to correlate with the arrival direction of the
+       highest energy events. Possible reasons for this could be that the extragalactic magnetic
+       fields are stronger than expected, and/or that cosmic rays are heavy nuclei. AGN are often
+       suggested as continuous emitters of UHECRs, however transient events such as AGN flares
+       more easily meet the UHECR acceleration requirements (Farrar & Gruzinov 2009). Other
+       transient models for UHECR acceleration are discussed next.
+
+        6.1.3 Gamma-ray Bursts The explosion of a GRB leads to the formation of multiple
+       shock regions which are potential acceleration zones for UHECRs. The value of the magnetic
+       field at these shocks is estimated to be of order B  106 G at a distance R  1012 cm from
+       the center. These values are derived for internal shocks that happen before the ejected
+       plasma reaches the interstellar medium, assuming B  1012 G near the central engine (of
+
+28 Kotera & Olinto
+size R  10 km) and an evolution B  R-1. The wide green region presented in Figure 11
+stems from this dependency: parameters can take different values at different times of the
+GRB explosion. These objects have been examined by various authors as possible sources
+of UHECRs (Waxman 1995, 2001; Vietri 1995; Gialis & Pelletier 2003; Murase et al. 2006,
+2008b). These authors invoke Fermi processes at external shocks (Vietri 1995), at mildly
+relativistic internal or reverse shocks (Waxman 1995, 2001; Murase et al. 2008b), or 2nd
+order Fermi processes through multiple interactions with mildly relativistic internal shocks
+(Gialis & Pelletier 2003). Overall, models allow acceleration up to  1020 eV provided
+that some assumptions on the source parameters are verified (e.g., magnetic field strength,
+turbulence, etc.). The flux of gamma-rays reaching the Earth from GRBs is generally
+comparable to the observed flux of UHECRs, implying a tight energetic requirement for
+GRBs to be the sources of UHECRs. With a GRB rate of  0.3 Gpc-3 yr-1 at z = 0, it
+can be calculated that the energy injected isotropically (regardless of beaming) in UHECRs
+is of order EUHECR 1053 erg, (Guetta & Piran 2007; Zitouni et al. 2008; Budnik et al.
+2008). Note also that the transient nature of these objects could possibly explain the lack
+of powerful counterparts correlating with the arrival direction of the highest energy cosmic
+rays.
+
+ 6.1.4 Neutron Stars Neutrons stars - young millisecond magnetars to be precise,
+easily fulfill the Hillas criterion, and might prove to be very good candidate sources, though
+they are scarcely discussed in the literature. Magnetars are neutron stars with extremely
+strong surface dipole fields of order 1015 G (see Wood & Thompson 2004, Harding & Lai
+2006 and Merghetti 2008 for reviews). Blasi et al. (2000) studied the possibility that UHE-
+CRs are accelerated through unipolar induction in the relativistic winds for rapidly rotating
+magnetars, building up on previous constraints by Venkatesan et al. (1997). The maximum
+energy reached by particles injected by these objects is very promising (see Section 5.2).
+Arons (2003) further developed the model and found that only 5% of the extragalactic mag-
+netar population need to be fast-rotators to account for the observed UHECR energetics.
+Magnetars, as GRBs, are transient sources and should not be observed in coincidence with
+UHECR arrival directions. The possibility of injecting large proportions of heavy nuclei
+into an acceleration region may be more easily met by young neutron stars than alternative
+models, due to their iron rich surface and early environment.
+
+6.2 Cosmic Ray Astronomy at Ultrahigh Energies
+
+One of the most puzzling facts concerning UHECRs is the absence of clear sources in the
+arrival directions of the highest energy events. Indeed, if sources are powerful astrophysical
+objects, one would expect to see a counterpart in the arrival direction at the highest observed
+energies. At trans-GZK energies, current upper limits on the strength of cosmic magnetic
+fields suggest that particles should not be deflected by more than a few degrees (unless they
+are heavy nuclei), thus some correlation should exist with the underlying baryonic matter.
+
+   As a result, many authors have searched for correlations between existing data and astro-
+physical object catalogs. For example, Tinyakov & Tkachev (2001, 2002); Gorbunov et al.
+
+                                                                                        Astrophysics of UHECRs 29
+(2002); Gorbunov & Troitsky (2005) found a correlation between HiRes event directions and
+BL Lac catalogs, that has been much debated (Evans et al. 2002, 2004; Tinyakov & Tkachev
+2004). Stanev et al. (1995) noted an association between arrival directions of UHECRs and
+the supergalactic plane that was not confirmed by AGASA results (Takeda et al. 1998) and
+that seems to have reappeared in the Auger results (Stanev 2009). The latest correlation
+result concerns the highest energy events (E > 55 EeV) detected by the Auger Observatory
+and AGN within distance < 75 Mpc (Abraham et al. 2007, 2008a; Abreu et al. 2010).
+
+   It must be underlined that the AGN correlating with the Auger events are mostly not
+very powerful Seyfert type galaxies, and are thus not favored as accelerators of UHECRs.
+Hence, what should be retained from that correlation is that it brings to light the hint of an
+anisotropic distribution of events at the highest energy with 99% CL, its most reasonable
+interpretation then being that events trace the large scale structures along which AGN are
+distributed. Another possible interpretation is that Auger may be observing in part the
+last scattering surface of UHECRs rather than their source population (Kotera & Lemoine
+2008b). The possibility that this `fake correlation' effect could play a non negligible role
+was shown numerically by Ryu et al. (2010).
+
+   Another explanation to the absence of counterparts in the arrival direction of UHECRs
+could also reside in the very nature of the sources. The delay induced by extragalactic
+magnetic fields of mean strength B and coherence length B on particles of charge Z and
+energy E with respect to photons over a distance D reads (Alcock & Hatchett 1978):
+
+t 2.3 ◊ 102 yrs Z2 D 2 B                          E -2 B 2              . (1)
+
+                    10 Mpc                        20  -9
+                            0.1 Mpc 10 eV             10 G
+
+For intergalactic magnetic fields of lower overall strength (B 10-12 G), this formula
+
+indicates that the time delay be shorter than a year over 100 Mpc. However, the cross-
+
+ing of one single magnetized filament (size rØi and field strength B) will lead to a slight
+
+deflection that induces a time delay with respect to a straight line of order (Alcock &
+
+Hatchett 1978; Waxman & Miralda-Escud¥e 1996; Harari et al. 2002b): ti  0.93 ◊
+103 yr (rØi/2 Mpc)2(Bi/10-8 G)2 (i/0.1 Mpc)(E/1020 eV)-2.
+
+For transient sources like GRBs, neutron stars, or AGN flares which have an activity
+
+timescale t, this delay is sufficient to erase any temporal coincidence between UHECRs
+
+and their progenitors (Vietri 1995; Waxman 1995). Because these bursts are fairly rare in
+
+our local Universe (where observed UHECRs originate), one only expects to see particles
+
+from a particular bursting source if their arrival times are spread out over t 103 yrs
+at 1020 eV. This spread should be particularly increased in the presence of magnetized
+
+scattering centers between the source and the observer. Kotera & Lemoine (2008b) and
+
+Kalli et al. (2011) discuss that this effect could induce an artificially enhanced correlation
+
+of UHECR arrival directions with the foreground matter density, which could be measured
+
+to identify the transient nature of the sources.
+
+As discussed in Section 2.3, UHECR sky anisotropies and their composition are tightly
+
+connected. In particular, if an anisotropy signal is measured above an energy Ethr assuming
+
+that it is produced by heavy nuclei of charge Z, one expects an anisotropy signal to be also
+
+present at energy > Ethr/Z due to the proton component, depending on the proton to
+
+30 Kotera & Olinto
+heavy nuclei ratio qp/qZ injected at the source (Lemoine & Waxman 2009). The evaluation
+of the anisotropy signals at both high and low energies should thus place constraints on the
+ratio qp/qZ .
+
+6.3 Multi-messenger approach
+
+Secondary neutrinos and photons can be produced by UHECRs when they interact with
+ambient baryonic matter and radiation fields inside the source or during their propagation
+from source to Earth. These particles travel in geodesics unaffected by magnetic fields and
+bear valuable information of the birthplace of their progenitors. The quest for sources of
+UHECRs has thus long been associated with the detection of neutrinos and gamma rays
+that might pinpoint the position of the accelerators in the sky.
+
+   The detection of these particles is not straightforward however: first, the propagation
+of gamma rays with energy exceeding several TeV is affected by their interaction with
+CMB and radio photons. These interactions lead to the production of high energy electron
+and positron pairs which in turn up-scatter CMB or radio photons by inverse Compton
+processes, initiating electromagnetic cascades. As a consequence, one does not expect to
+observe gamma rays of energy above  100 TeV from sources located beyond a horizon
+of a few Mpc (Wdowczyk et al. 1972; Protheroe 1986; Protheroe & Stanev 1993). Above
+EeV energies, photons can again propagate over large distances, depending on the radio
+background, and can reach observable levels around tens of EeV (Lee 1998). Secondary
+neutrinos are very useful because, unlike cosmic-rays and photons, they are not absorbed
+by the cosmic backgrounds while propagating through the Universe. In particular, they
+give a unique access to observing sources at PeV energies. However, their small interaction
+cross-section makes it difficult to detect them on the Earth requiring the construction of
+km3 or larger detectors (see, e.g., Anchordoqui & Montaruli 2010).
+
+   Secondary neutrinos and gamma-rays generated at UHECR sources have been investi-
+gated by a number of authors (Szabo & Protheroe 1994; Rachen & M¥esz¥aros 1998; Waxman
+& Bahcall 1999; Mu®cke et al. 1999; Mu®cke et al. 2000; Anchordoqui et al. 2008; Kachelrieﬂ
+et al. 2008; Ahlers et al. 2009; Allard & Protheroe 2009; Mannheim et al. 2001) with partic-
+ular focus on emissions from AGN and transient sources such as GRBs. The case of cluster
+accretion shocks has been studied by Inoue et al. (2007) and Murase et al. (2008a), and
+transient sources have been examined in details by Waxman & Bahcall (2000); Dai & Lu
+(2001); Dermer (2002); Murase et al. (2006, 2008b), and Murase & Ioka (2008) for GRBs
+and by Murase et al. (2009) for magnetars. The normalization and the very existence of
+these secondaries highly depend on assumptions about the opacity of the acceleration region
+and on the shape of the injection spectrum as well as on the phenomenological modeling of
+the acceleration. For instance, Waxman & Bahcall (1999) obtain an estimate for the cosmic
+neutrino flux, by comparing the neutrino luminosity to the observed cosmic ray luminos-
+ity, in the specific case where the proton photo-meson optical depth equals unity. If the
+source is optically thick, Allard & Protheroe (2009) demonstrate that cosmic rays are not
+accelerated to the highest energies and neutrinos above E  EeV are sharply suppressed.
+
+   The existence of secondaries from interactions during the propagation of cosmic rays is
+
+                                                                                        Astrophysics of UHECRs 31
+       less uncertain, but it is also subject to large variations according to the injected spectral
+       index, chemical composition, maximum acceleration energy, and source evolution history.
+       The magnetic field in the source environment, especially in clusters of galaxies, can play an
+       important role by confining the charged UHECRs and thus leading to increased interaction
+       probabilities (Berezinsky et al. 1997; Colafrancesco & Blasi 1998; Rordorf et al. 2004; de
+       Marco et al. 2006; Armengaud et al. 2006; Murase et al. 2008a; Wolfe et al. 2008; Kotera
+       et al. 2009).
+
+          A number of authors have estimated the cosmogenic neutrino flux with varying assump-
+       tions (e.g., Engel et al. 2001; Ave et al. 2005; Seckel & Stanev 2005; Hooper et al. 2005;
+       Berezinsky 2006; Stanev et al. 2006; Allard et al. 2006; Takami et al. 2009; Kotera et al.
+       2010b). Figure 12 summarizes the effects of different assumptions about the UHECR source
+       evolution, the Galactic to extragalactic transition, the injected chemical composition, and
+       Emax, on the cosmogenic neutrino flux. It demonstrates that the parameter space is cur-
+       rently poorly constrained with uncertainties of several orders of magnitude in the predicted
+       flux. UHECR models with large proton Emax(> 100 EeV), source evolution corresponding
+       to the star formation history or the GRB rate evolution, dip or ankle transition models,
+       and pure proton or mixed `Galactic' compositions are shaded in grey in Figure 12 and
+       give detectable fluxes in the EeV range with 0.06 - 0.2 neutrino per year at IceCube and
+       0.03 - 0.06 neutrino per year for the Auger Observatory. If EeV neutrinos are detected,
+       PeV information can help select between competing models of cosmic ray composition at
+       the highest energy and the Galactic to extragalactic transition at ankle energies. With im-
+       proved sensitivity, ZeV (=1021 eV) neutrino observatories, such as ANITA and JEM-EUSO
+       could explore the maximum acceleration energy.
+
+          The detectability of photons from the electromagnetic cascade triggered by pion pro-
+       duction interactions has been addressed by several groups (e.g., Lee 1998; Ferrigno et al.
+       2004; Armengaud et al. 2006; Gelmini et al. 2007; Kotera et al. 2010a). The dilution of
+       the cascaded signal - due to the deflection of the electrons and positrons generated during
+       the cascade - depends on the assumptions made regarding the configuration of the EGMF.
+       More specifically, the gamma-ray flux scales as the fraction of the line of sight in which
+       the magnetic field is smaller than the value B such that the deflection of the low energy
+       cascade is  (Kotera et al. 2010a). For reference, B 2 ◊ 10-14 G for  = 1. One
+       can refer to Figure 9 for numerical estimates of the magnetic filling factor to arrive at the
+       appropriate fraction for a specific line of sight and source location. Even under optimistic
+       assumption on the magnetic field configuration, only sources with extremely high luminosi-
+       ties LE,19 3 ◊ 1044 erg s-1(d/100 Mpc)-2 and LE,19 1043 erg s-1(d/100 Mpc)-2 for
+       E > 1019 eV could be detected by current instruments such as H.E.S.S. and by the future
+       CTA respectively, with fluxes of order  10-10 GeV cm-2 s-1 around 1 - 10 TeV (Ferrigno
+       et al. 2004; Kotera et al. 2010a).
+
+          Gabici & Aharonian (2005, 2007) argued that one should rather search for the GeV
+       photons emitted by the synchrotron radiation of the secondary electrons, in presence of
+       substantial magnetic fields in the source environment. Again, only the cases of rare powerful
+       sources with cosmic ray luminosity LE,19 > 1044-46 erg s-1 are promising in terms of
+       detectability with both current and up-coming instruments. A source with a cosmic ray
+
+32 Kotera & Olinto
+Figure 12:
+
+Cosmogenic neutrino flux for all flavors, for different UHECR parameters compared to instrument
+sensitivities. Pink solid line corresponds to a strong source evolution case (FRII evolution, see
+Wall et al. 2005) with a pure proton composition, dip transition model, and Emax = 3 ZeV. Blue
+lines correspond to uniform source evolution with: iron rich (30%) composition and EZ,max < Z
+10 EeV (dotted line) and pure iron injection and EZ,max = Z 100 EeV (solid). Grey shaded range
+brackets dip and ankle transition models, with evolution of star formation history for z < 4, pure
+proton and mixed `Galactic' compositions, and large proton Emax(> 100 EeV)). Including the
+uniform source evolution would broaden the shaded area down to the black solid line. Current
+experimental limits (solid lines) assume 90% confidence level and full mixing neutrino oscillation.
+The differential limit and the integral flux limit on a pure E-2 spectrum (straight line) are
+presented for IceCube 22 lines (pale blue, Abbasi et al. 2010), ANITA-II (green, Gorham et al.
+2010) and Auger South (red, Abraham et al. 2009a). For future instruments, we present the
+projected instrument sensitivities (dashed lines) for IceCube 80 lines (pale blue, acceptances from
+S. Yoshida, private communication, see also Karle 2010), and for JEM-EUSO (purple, Takahashi
+et al. 2009).
+
+                                                                                        Astrophysics of UHECRs 33
+       luminosity of LE,19  1044 erg s-1 located at a distance d  100 Mpc nearly overshoots
+       the observed cosmic ray spectrum and is thus marginally excluded. Farther sources, with
+       higher luminosity (e.g. LE,19 = 1046 erg s-1 at d = 1 Gpc) would thus be more promising
+       to observe in gamma-rays. Such distant sources would contribute to about 10% of the
+       observed spectrum of UHECRs up to E  1019 eV, and the cosmic rays produced with
+       higher energy would not reach the Earth due to energy losses.
+
+          Finally, sources located at a distance 10 Mpc accelerating UHECRs should produce
+       ultrahigh energy photons during their propagation, that can reach the Earth before expe-
+       riencing Compton cascading. Taylor et al. (2009) studied this potential signature in the
+       particular case of our closest radio-galaxy Cen A (3.8 Mpc) and concluded that Auger
+       should be able to detect 0.05 - 0.075 photon per year from Cen A, assuming that it is
+       responsible for 10% of the cosmic ray flux above 60 EeV, and assuming a 25% efficiency for
+       photon discrimination.
+
+          One last messenger that is scarcely discussed in relation to UHECRs is gravitational
+       waves. If anisotropy signals reveal that the source is of the transient type, one way to
+       establish if UHECR sources are GRBs or magnetars would be to look for gravitational
+       waves produced by the latter, as the former are believed to produce only faint signals below
+       detectability (e.g., Piran 2004). Kotera (2011) shows that the distribution of magnetar
+       initial voltages required to reconcile the produced spectrum to the observed one, should lead
+       to higher stochastic gravitational wave signals from these objects than previously calculated
+       (e.g., Regimbau & Mandic 2008). The observation of such a gravitational wave signal could
+       be a probe that these objects meet the requirements (in terms of magnetization, rotation
+       velocity, inertial momentum) to accelerate UHECRs to the highest energies.
+
+          It should be highlighted that due to the delay induced by EGMF on charged cosmic
+       rays (see Section 6.2), secondary neutrinos, photons, and gravitational waves should not
+       be detected in time coincidence with UHECRs if the sources are not continuously emitting
+       particles, but are transient such as GRBs and young magnetars.
+
+      7 The Search for Ultrahigh Energy Cosmic Ray Sources
+
+       The resolution of the long standing mystery of the origin of ultrahigh energy cosmic rays
+       will require a coordinated approach on three complementary fronts: the direct ultrahigh
+       energy cosmic ray frontier, the transition region between the knee and the ankle, and the
+       multi-messenger interface with high-energy photons and neutrinos.
+
+          The most direct route to a resolution of this open question would be a precise measure-
+       ment of the three pillars of UHECR observations: spectrum, anisotropies, and composition.
+       The spectrum is much better measured today than just a few years ago and will certainly
+       improve in the years to come with current observatories. The precise shape and energy
+       scale of the ankle and the cutoff are excellent selectors of models. For instance, a possible
+       recovery at the highest energies will clearly show the GZK nature of the cutoff as opposed
+       to a cutoff caused by the maximum acceleration energy. A precise energy scale for the ankle
+       will test a propagation dip versus a Galactic to extragalactic cosmic ray transition.
+
+          More discriminating than the precise shape of the spectrum, but much harder to plan for
+
+34 Kotera & Olinto
+success, is a clear observation of anisotropies. A nearby source, the first UHECR source,
+will clearly be a watershed in the field. A clear correlation with the large scale structure
+within 200 Mpc will also clear the path to zeroing in at the possible accelerators.
+
+   The most difficult but key observable of the three pillars is a clear composition measure-
+ment. The dependence on hadronic models to translate shower properties into composition
+measurements make it difficult to reach clear conclusions. Great progress in this arena can
+be done at the transition region between the knee and the ankle, where the LHC has a direct
+access to the energy scale. Progress on enlarging the range of cosmic ray measurements
+to higher energies from the knee (Kascade-Grande) and to lower energies from the ankle
+(Auger HEAT and AMIGA, and TALE) will help construct a unified model of the cosmic
+ray properties in a region that hadronic models can be tested at the LHC5.
+
+   A clear anisotropy determination, especially above 60 EeV, will help determine the com-
+position astrophysically. At these energies possible composition mixtures simplify tremen-
+dously for sources above tens of Mpc into two options: protons or iron-like. Iron-like nuclei
+will have much broader spread in arrival directions due to known magnetic fields erasing
+small scale anisotropies and opening the possibility of a clear signature of proton primaries
+for some anisotropic patterns. An astrophysically determined primary composition will
+open a fruitful avenue to compare interaction models with observed shower properties at
+energies orders of magnitude above the reach of laboratory accelerators.
+
+   The spectrum and composition between the knee and the ankle should signal the tran-
+sition from Galactic to extragalactic cosmic rays. A clear observation of a second knee
+or composition studies around the ankle can produce clear signatures of the transition.
+Anisotropies are not expected at these energies unless neutrons manage to escape accelera-
+tion sites. Progress in this energy range will also come from direct gamma-ray observations
+of cosmic accelerators (e.g., by Fermi, CTA, and HAWC) and their deeper understanding.
+Neutrinos in this energy range can also be crucial if sources can be identified or if cosmogenic
+neutrinos are observed in the PeV range (e.g., by IceCube or the future KM3NeT).
+
+   Observations of photons and neutrinos at ultrahigh energies will be extremely useful
+in distinguishing proposed scenarios (e.g., by IceCube, Auger, JEM-EUSO, and ANITA).
+Photons will only reach us from nearby accelerators, so they can be directly connected
+to acceleration sites. Neutrinos may be observed from nearby sources or from the diffuse
+background expected from the propagation of UHECRs from cosmologically distant objects.
+Having both a nearby view of the apparently brightest accelerators as well as the integrated
+flux from more distant objects will strongly constrain possible candidates.
+
+   As an exercise, we end by contrasting two of the many possible outcomes of future
+observations. In outcome A, the large scale structure correlation is confirmed above the
+5 level showing that UHECR sources exist within the GZK sphere and that their sky
+position is not smeared by more than a few degrees. These observations will imply that: 1)
+UHECR sources are more common than clusters of galaxies or powerful blazars, and 2) the
+composition above 60 EeV should be dominated by protons. If shower properties continue
+to show a trend toward iron-like behavior, it is likely to be due to changes in hadronic
+
+    5see http://www-ik.fzk.de/needs/ for a list of measurements that can be made at accelerator pro-
+grams to improve the ability of hadronic models to interpret cosmic ray observables.
+
+                                                                                        Astrophysics of UHECRs 35
+       interactions, given that at 60 EeV only iron or protons arrive from sources further than tens
+       of Mpc. This scenario is rich of multi-messengers: ultrahigh energy photons from nearby
+       sources and neutrinos from sources and the diffuse background should be observable. The
+       type of galaxies that UHECR events correlate with may signal an origin in active galaxies,
+       encouraging models based on central supermasive black holes. If starburst galaxies correlate
+       better, magnetars and GRBs would be better candidate sources. Protons above 60 EeV do
+       not prevent a mixed composition at EeV, so measurements of the composition at the ankle
+       will help determine the injected composition and source spectral index.
+
+          In case B, above 60 EeV the spectrum does not show a recovery, anisotropies are not
+       observed even after a significant increase in statistics, and shower properties indicate iron-
+       like primaries. In this case, the maximum energy of the accelerators are likely to be below
+       GZK energies for protons and the spectrum cutoff is likely to be a combined effect of the
+       maximum iron energy and the GZK effect. This coincidence is not an elegant solution but
+       it is a clear possibility. A heavy composition at injection is more natural for models based
+       on magnetars, while scenarios based on AGN and GRBs need to be modified to account
+       for the suprisingly heavy composition. In this scenario, cosmogenic neutrinos and photons
+       will not be easily detected leaving only the hope of observing a nearby source or of major
+       technological advances to reach down orders of magnitude in flux.
+
+          Great progress in the ultrahigh energy cosmic ray frontier may lead to a completely differ-
+       ent outcome than our speculative exercise above, but that will require a significant increase
+       in statistics at trans-GZK energies. Current data suggest that watershed anisotropies will
+       only become clear above 60 EeV and that very large statistics with good angular and energy
+       resolution will be required. Auger will add 7 ◊ 103L per year in the South while TA will
+       add about 2 ◊ 103L per year in the North. Current technologies can reach a goal of another
+       order of magnitude if deployed by bold scientists over very large areas (e.g., Auger North).
+       New technologies may ease the need for large number of detector units to cover similarly
+       large areas. Future space observatories (e.g., JEM-EUSO, OWL, Super-EUSO) promise a
+       new avenue to reach the necessary high statistics especially if improved photon detection
+       technologies are achieved. With a coordinated effort, the next generation observatories can
+       explore more of the  5 million trans-GZK events the Earth's atmosphere receives per year.
+
+      8 Acknowledgements
+
+       We thank Denis Allard, Venya Berezinsky, Peter Biermann, Klaus Dolag, Ralph Engel,
+       Susumu Inoue, Hyesung Kang, Martin Lemoine, Chris McKee, Teresa Montaruli, Sterl
+       Phinney, Dongsu Ryu, Dmitri Semikoz, Todor Stanev, and Ellen Zweibel for very helpful
+       input to this manuscript. We thank the Auger collaboration for the brilliant work at
+       the subject's frontier. This work was supported by the NSF grant PHY-0758017 at the
+       University of Chicago, and the Kavli Institute for Cosmological Physics through grant NSF
+       PHY-0551142 and an endowment from the Kavli Foundation.
+
+36 Kotera & Olinto
+ Literature Cited
+
+Abbasi, R. U. et al. 2004, Physical Review Letters, 92, 151101
+Abbasi, R. U. et al. 2008a, Astrophys. J., 684, 790
+Abbasi, R. U. et al. 2008b, Physical Review Letters, 100, 101101
+Abbasi, R. U. et al. 2008c, Astroparticle Physics, 30, 175
+Abbasi, R. U. et al. 2009, Astroparticle Physics, 32, 53
+Abbasi, R. U. et al. 2010, Physical Review Letters, 104, 161101
+Abraham, J. et al. 2004, Nucl. Instrum. Meth. in Phys. Res. A, 523, 50
+Abraham, J. et al. 2007, Science, 318, 938
+Abraham, J. et al. 2008a, Astroparticle Physics, 29, 188
+Abraham, J. et al. 2008b, Phys. Rev. Lett., 101, 061101
+Abraham, J. et al. 2008, Astropart. Phys., 29, 243
+Abraham, J. et al. 2009a, Phys. Rev. D, 79, 102001
+Abraham, J. et al. 2009b, Proceedings of the 31st Intl. Cosmic Ray Conference, Lodz, Poland
+Abraham, J. et al. 2009c, Astropart. Phys., 31, 399
+Abraham, J. et al. 2010a, Phys. Rev. Lett., 104, 091101
+Abraham, J. et al. 2010b, Physics Letters B, 685, 239
+Abreu, P. et al. 2010, Astroparticle Physics, 34, 314
+Achterberg, A., Gallant, Y. A., Norman, C. A., & Melrose, D. B. 1999, ArXiv Astrophysics e-prints
+Aguirre, A., Hernquist, L., Schaye, J., et al. 2001, ApJ, 560, 599
+Aharonian, F. A., Kelner, S. R., & Prosekin, A. Y. 2010, Phys. Rev. D, 82, 043002
+Ahlers, M., Anchordoqui, L. A., & Sarkar, S. 2009, Phys. Rev. D, 79, 083009
+Ahn, H. S. et al. 2008, in International Cosmic Ray Conference, ed. R. C. et al., Vol. 2, 79
+Ahn, H. S. et al. 2010, Astrophys. J., 714, L89
+Alcock, C. & Hatchett, S. 1978, Astrophys. J., 222, 456
+Allard, D. 2009, ArXiv e-prints, 0906.3156
+Allard, D., Ave, M., Busca, N., et al. 2006, JCAP, 9, 5
+Allard, D., Parizot, E., & Olinto, A. V. 2007, Astroparticle Physics, 27, 61
+Allard, D., Parizot, E., Olinto, A. V., Khan, E., & Goriely, S. 2005, A&A, 443, L29
+Allard, D. & Protheroe, R. J. 2009, A&A, 502, 803
+Allard, D. et al. 2008, JCAP, 10, 33
+Aloisio, R. & Berezinsky, V. 2004, ApJ, 612, 900
+Aloisio, R., Berezinsky, V., & Gazizov, A. 2008, ArXiv 0803.2494
+Aloisio, R., Berezinsky, V., & Gazizov, A. 2009, ArXiv e-prints, 0907.5194
+Aloisio, R. & Berezinsky, V. S. 2005, ApJ, 625, 249
+Aloisio, R. & Boncioli, D. 2010, arXiv:1002.4134
+Alvarez-Mun~iz, J., Engel, R., & Stanev, T. 2002, Astrophys. J. , 572, 185
+Amato, E. & Blasi, P. 2005, MNRAS, 364, L76
+Amato, E. & Blasi, P. 2006, MNRAS, 371, 1251
+Amato, E. & Blasi, P. 2009, MNRAS, 392, 1591
+Anchordoqui, L. A., Hooper, D., Sarkar, S., & Taylor, A. M. 2008, Astroparticle Physics, 29, 1
+Anchordoqui, L. A. & Montaruli, T. 2010, Ann. Rev. Nucl. Part. Sci., 60
+Ando, S. & Kusenko, A. 2010, ApJ Letters, 722, L39
+Apanasenko, A. V. et al. 2001, in International Cosmic Ray Conference, Vol. 5, 1622
+Apel, W. D. et al. 2009, 31st International Cosmic Ray Conference, Lodz, Poland, ArXiv 0906.4007
+Armengaud, E., Sigl, G., Beau, T., & Miniati, F. 2007, Astroparticle Physics, 28, 463
+
+                                                                                        Astrophysics of UHECRs 37
+        Armengaud, E., Sigl, G., & Miniati, F. 2006, Phys. Rev. D, 73, 083008
+        Arons, J. 2003, ApJ, 589, 871
+        Ave, M. et al. 2005, Astropart. Phys., 23, 19
+        Axford, W. I., Leer, E., & Skadron, G. 1977, in International Cosmic Ray Conference, Vol. 11,
+
+           International Cosmic Ray Conference, 132-137
+        Baltrusaitis, R. et al. 1985, Nucl. Instr. and Meth., A240, 410
+        Beatty, J. J. & Westerhoff, S. 2009, Ann. Rev. Nucl. Part. Sci., 59, 319
+        Beck, R. 2008, in AIP Conf Series, ed. F. A. Aharonian et al., Vol. 1085, 83
+        Beck, R., Gaensler, B., & Feretti, L. 2007, SKA and the Magnetic Universe (Springer-Verlag), 103
+        Beck, R. & Krause, M. 2005, Astronomische Nachrichten, 326, 414
+        Bednarz, J. & Ostrowski, M. 1998, Physical Review Letters, 80, 3911
+        Begelman, M. C., Rudak, B., & Sikora, M. 1990, ApJ, 362, 38
+        Bell, A. R. 1978, MNRAS, 182, 147
+        Bell, A. R. 2004, MNRAS, 353, 550
+        Bell, A. R. & Lucek, S. G. 2001, MNRAS, 321, 433
+        Berezhko, E. G. 2008, ApJ Letters, 684, L69
+        Berezhko, E. G. & Ellison, D. C. 1999, ApJ, 526, 385
+        Berezinsky, V. 2006, Nuclear Physics B Proceedings Supplements, 151, 260
+        Berezinsky, V., Gazizov, A., & Grigorieva, S. 2005, Phys. Lett. B, 612, 147
+        Berezinsky, V., Gazizov, A., & Grigorieva, S. 2006, Phys. Rev. D, 74, 043005
+        Berezinsky, V. S., Blasi, P., & Ptuskin, V. S. 1997, ApJ, 487, 529
+        Berezinsky, V. S. & Gazizov, A. Z. 1993, Phys. Rev. D, 47, 4206
+        Berezinsky, V. S. & Grigorieva, S. I. 1988, A&A, 199, 1
+        Berezinsky, V. S., Grigorieva, S. I., & Dogiel, V. A. 1990a, Astron. Astrophys. , 232, 582
+        Berezinsky, V. S. et al. 1990b, Astrophysics of cosmic rays (North Holland)
+        Bertone, G., Isola, C., Lemoine, M., & Sigl, G. 2002, Phys. Rev. D, 66, 103003
+        Bertone, S., Stoehr, F., & White, S. D. M. 2005, MNRAS, 359, 1201
+        Bertone, S., Vogt, C., & Enﬂlin, T. 2006, MNRAS, 370, 319
+        Bhattacharjee, A. & Sigl, G. 2000, Phys. Rep. 327, 327, 109
+        Biermann, P. L. & Cassinelli, J. P. 1993, Astron. Astrophys. , 277, 691
+        Biermann, P. L. & Strittmatter, P. A. 1987, ApJ, 322, 643
+        Bird, D. J. et al. 1994, Astrophys. J., 424, 491
+        Birk, G. T., Wiechen, H., Lesch, H., & Kronberg, P. P. 2000, A&A, 353, 108
+        Blandford, R. D. & Ostriker, J. P. 1978, ApJ Letters, 221, L29
+        Blanton, M. R., Hogg, D. W., Bahcall, N. A., et al. 2003, ApJ, 592, 819
+        Blasi, P., Burles, S., & Olinto, A. V. 1999, ApJl, 514, L79
+        Blasi, P., Epstein, R. I., & Olinto, A. V. 2000, ApJ Letters, 533, L123
+        Blasi, P. & Olinto, A. V. 1999, Phys. Rev. D, 59, 023001
+        Bluemer, J., Engel, R., & Hoerandel, J. R. 2009, Prog. Part. Nucl. Phys., 63, 293
+        Blu®mer, J. et al. 2010, New Journal of Physics, 12, 035001
+        Boldt, E. & Ghosh, P. 1999, MNRAS, 307, 491
+        Boyer, J. H. et al. 2002, Nuclear Instruments and Methods in Physics Research A, 482, 457
+        Bru®ggen, M., Ruszkowski, M., Simionescu, A., Hoeft, M., & Dalla Vecchia, C. 2005, ApJl, 631, L21
+        Bruni, M., Maartens, R., & Tsagas, C. G. 2003, MNRAS, 338, 785
+        Buckley, R. 1977, Nature, 266, 37
+        Budnik, R., Katz, B., MacFadyen, A., & Waxman, E. 2008, ApJ, 673, 928
+
+38 Kotera & Olinto
+Calvez, A., Kusenko, A., & Nagataki, S. 2010, Physical Review Letters, 105, 091101
+Candia, J. & Roulet, E. 2004, Journal of Cosmology and Astro-Particle Physics, 10, 7
+Casse, F., Lemoine, M., & Pelletier, G. 2002, Phys. Rev. D, 65, 023002
+Celotti, A. & Ghisellini, G. 2008, MNRAS, 385, 283
+Cen, R., Nagamine, K., & Ostriker, J. P. 2005, Astrophys. J., 635, 86
+Chen, D. 2008, in International Cosmic Ray Conference, Vol. 4, 103-106
+Chen, P., Tajima, T., & Takahashi, Y. 2002, Physical Review Letters, 89, 161101
+Chiba, N., Dion, G. M., Hayashida, N., et al. 1992, Astroparticle Physics, 1, 27
+Colafrancesco, S. & Blasi, P. 1998, Astroparticle Physics, 9, 227
+Contopoulos, I. & Kazanas, D. 2002, ApJ, 566, 336
+Coroniti, F. V. 1990, ApJ, 349, 538
+Cronin, J. W. 2005, Nuclear Physics B (Proc. Suppl.), 138
+Dai, Z. G. & Lu, T. 2001, ApJ, 551, 249
+Das, S., Kang, H., Ryu, D., & Cho, J. 2008, ApJ, 682, 29
+de Gouveia Dal Pino, E. M. & Lazarian, A. 2000, ApJ Letters, 536, L31
+de Gouveia dal Pino, E. M. & Lazarian, A. 2005, A&A, 441, 845
+de Marco, D., Hansen, P., Stanev, T., & Blasi, P. 2006, Phys. Rev. D, 73, 043004
+Dermer, C. D. 2002, ApJ, 574, 65
+Dieckmann, M. E., Shukla, P. K., & Drury, L. O. C. 2008, ApJ, 675, 586
+Dolag, K., Grasso, D., Springel, V., & Tkachev, I. 2004, Jour of Korean Astron. Soc., 37, 427
+Dolag, K. et al. 2005, JCAP, 1, 9
+Donnert, J., Dolag, K., Lesch, H., & Mu®ller, E. 2009, MNRAS, 392, 1008
+Dubois, Y. & Teyssier, R. 2008, A&A, 482, L13
+Engel, R., Seckel, D., & Stanev, T. 2001, Phys. Rev. D, 64, 093010
+Epele, L. N. & Roulet, E. 1998a, Physical Review Letters, 81, 3295
+Epele, L. N. & Roulet, E. 1998b, Journal of High Energy Physics, 10, 9
+Evans, N. W., Ferrer, F., & Sarkar, S. 2002, Astroparticle Physics, 17, 319
+Evans, N. W., Ferrer, F., & Sarkar, S. 2004, Phys. Rev. D, 69, 128302
+Farrar, G. R. & Gruzinov, A. 2009, ApJ, 693, 329
+Fermi, E. 1949, Physical Review, 75, 1169
+Ferrigno, C., Blasi, P., & de Marco, D. 2004, Nucl. Phys. B Proc. Suppl., 136, 191
+Gabici, S. & Aharonian, F. A. 2005, Physical Review Letters, 95, 251102
+Gabici, S. & Aharonian, F. A. 2007, ApJl, 665, L131
+Gaisser, T. K. 1991, Cosmic Rays and Particle Physics (Cambridge University Press)
+Gallant, Y. A. & Achterberg, A. 1999, MNRAS, 305, L6
+Gelmini, G., Kalashev, O., & Semikoz, D. V. 2007, Astroparticle Physics, 28, 390
+Genzel, H. et al. 1973, Photoproduction of elementary particles, Vol. 8 (Springer-Verlag)
+George, M. R., Fabian, A. C., Baumgartner, W. H., Mushotzky, R. F., & Tueller, J. 2008, MNRAS,
+
+   388, L59
+Giacalone, J. & Jokipii, J. R. 1999, ApJ, 520, 204
+Giacinti, G., Kachelrieﬂ, M., Semikoz, D. V., & Sigl, G. 2010, JCAP, 8, 36
+Gialis, D. & Pelletier, G. 2003, Astroparticle Physics, 20, 323
+Gialis, D. & Pelletier, G. 2004, A&A, 425, 395
+Gialis, D. & Pelletier, G. 2005, ApJ, 627, 868
+Giannios, D. 2010, MNRAS, L123
+Globus, N., Allard, D., & Parizot, E. 2008, A&A, 479, 97
+
+                                                                                        Astrophysics of UHECRs 39
+        Gorbunov, D., Tinyakov, P., Tkachev, I., & Troitsky, S. 2008, arXiv:0804.1088v1
+        Gorbunov, D. S., Tinyakov, P. G., Tkachev, I. I., & Troitsky, S. V. 2002, ApJl, 577, L93
+        Gorbunov, D. S. & Troitsky, S. V. 2005, Astroparticle Physics, 23, 175
+        Gorham, P. W. et al. 2010, arXiv:1003.2961
+        Greisen, K. 1966, Phys. Rev. Lett., 16, 748
+        Grigorov, N. L. et al. 1971, in ICRC, Vol. 1, 172
+        Gruzinov, A. & Waxman, E. 1999, ApJ, 511, 852
+        Guetta, D. & Piran, T. 2007, JCAP, 7, 3
+        Han, J. L. 2008, Nuclear Physics B Proceedings Supplements, 175, 62
+        Han, J. L., Manchester, R. N., Lyne, A. G., Qiao, G. J., & van Straten, W. 2006, ApJ, 642, 868
+        Han, J. L., Manchester, R. N., & Qiao, G. J. 1999, MNRAS, 306, 371
+        Harari, D., Mollerach, S., & Roulet, E. 1999, Journal of High Energy Physics, 8, 22
+        Harari, D., Mollerach, S., & Roulet, E. 2002a, Journal of High Energy Physics, 7, 6
+        Harari, D., Mollerach, S., & Roulet, E. 2006, JCAP, 11, 12
+        Harari, D., Mollerach, S., Roulet, E., & S¥anchez, F. 2002b, Journal of High Energy Physics, 3, 45
+        Hededal, C. B. & Nishikawa, K. 2005, ApJ Letters, 623, L89
+        Henri, G., Pelletier, G., Petrucci, P. O., & Renaud, N. 1999, Astroparticle Physics, 11, 347
+        Hillas, A. M. 1984, ARAA, 22, 425
+        Hillas, A. M. 2006, In the Porceedings of Cosmology, Galaxy Formation and Astroparticle Physics
+
+           on the pathway to the SKA, Klo ckner, H.-R., Jarvis, M. and Rawlings, S. (eds.), Oxford, United
+           Kingdom,, 9
+        Hinton, J. A. & Hofmann, W. 2009, ARAA, 47, 523
+        Hooper, D., Sarkar, S., & Taylor, A. M. 2008, Phys. Rev. D, 77, 103007
+        Hooper, D., Taylor, A., & Sarkar, S. 2005, Astroparticle Physics, 23, 11
+        Hooper, D. & Taylor, A. M. 2010, Astroparticle Physics, 33, 151
+        Huchra, J. P. et al. 2005, IAU Symposium No. 216
+        Ide, Y., Nagataki, S., Tsubaki, S., Yoshiguchi, H., & Sato, K. 2001, PASJ, 53, 1153
+        Inoue, S., Aharonian, F. A., & Sugiyama, N. 2005, ApJl, 628, L9
+        Inoue, S., Sigl, G., Miniati, F., & Armengaud, E. 2007, Proceedings of the 30th International Cosmic
+           Ray Conference, Merida, Mexico
+        Isola, C., Lemoine, M., & Sigl, G. 2002, Phys. Rev. D, 65, 023004
+        Isola, C. & Sigl, G. 2002, Phys. Rev. D, 66, 083002
+        Jansson, R. et al. 2009, JCAP, 0907, 21
+        Jokipii, J. R. 1966, ApJ, 146, 480
+        Kachelrieﬂ, M., Ostapchenko, S., & Tom`as, R. 2008, Phys. Rev. D, 77, 023007
+        Kachelrieﬂ, M., Serpico, P. D., & Teshima, M. 2007, Astroparticle Physics, 26, 378
+        Kalli, S., Lemoine, M., & Kotera, K. 2011, Astron. Astrophys., In press
+        Kampert, K.-H. et al. 2004, Nuclear Physics B Proceedings Supplements, 136, 273
+        Kang, H., Rachen, J. P., & Biermann, P. L. 1997, MNRAS, 286, 257
+        Kang, H., Ryu, D., & Jones, T. W. 1996, ApJ, 456, 422
+        Karle, A. 2010, arXiv: 1003.5715
+        Kashti, T. & Waxman, E. 2008, Journal of Cosmology and Astro-Particle Physics, 5, 6
+        Khan, E., Goriely, S., Allard, D., et al. 2005, Astroparticle Physics, 23, 191
+        King, E. J. & Coles, P. 2006, MNRAS, 365, 1288
+        Kirk, J. G., Guthmann, A. W., Gallant, Y. A., & Achterberg, A. 2000, ApJ, 542, 235
+        Kneiske, T. M., Bretz, T., Mannheim, K., & Hartmann, D. H. 2004, A&A, 413, 807
+
+40 Kotera & Olinto
+Kotera, K. 2011, in preparation
+Kotera, K., Allard, D., & Lemoine, M. 2010a, Astron. Astrophys., in press
+Kotera, K., Allard, D., Murase, K., et al. 2009, ApJ, 707, 370
+Kotera, K., Allard, D., & Olinto, A. V. 2010b, JCAP, 10, 13
+Kotera, K. & Lemoine, M. 2008a, Phys. Rev. D, 77, 023005
+Kotera, K. & Lemoine, M. 2008b, Phys. Rev. D, 77, 123003
+Kronberg, P. P. 1994, Reports on Progress in Physics, 57, 325
+Kronberg, P. P., Lesch, H., & Hopp, U. 1999, ApJ, 511, 56
+Kulsrud, R. M. & Zweibel, E. G. 2008, Reports on Progress in Physics,, 71, 046901
+Lagage, P. O. & Cesarsky, C. J. 1983, A&A, 125, 249
+Lee, S. 1998, Phys. Rev. D, 58, 043004
+Lemoine, M. 2005, Phys. Rev. D, 71, 083007
+Lemoine, M. & Pelletier, G. 2003, ApJl, 589, L73
+Lemoine, M., Pelletier, G., & Revenu, B. 2006, ApJl, 645, L129
+Lemoine, M., Sigl, G., & Biermann, P. 1999, ArXiv Astrophysics e-prints
+Lemoine, M., Sigl, G., Olinto, A. V., & Schramm, D. N. 1997, ApJl, 486, L115+
+Lemoine, M. & Waxman, E. 2009, JCAP, 0911, 009
+Letessier-Selvon, A. & Stanev, T. 2011, Rev. Mod. Phys.
+Linsley, J. 1963, Phys. Rev. Lett., 10, 146
+Lucek, S. G. & Bell, A. R. 2000, MNRAS, 314, 65
+Lyubarsky, Y. & Kirk, J. G. 2001, ApJ, 547, 437
+Lyubarsky, Y. E. 2003, MNRAS, 345, 153
+Lyutikov, M. & Ouyed, R. 2007, Astroparticle Physics, 27, 473
+Malkov, M. A. & O'C Drury, L. 2001, Reports on Progress in Physics, 64, 429
+Mannheim, K. 1993, A&A, 269, 67
+Mannheim, K., Protheroe, R. J., & Rachen, J. P. 2001, Phys. Rev. D, 63, 023003
+Marcowith, A., Lemoine, M., & Pelletier, G. 2006, A&A, 453, 193
+Maximon, L. 1968, J. Res. Nat. Bur. Standards B, 72, 79
+McKenzie, J. F. & Voelk, H. J. 1982, A&A, 116, 191
+Medina Tanco, G. 2001, in Lecture Notes in Physics, Berlin Springer Verlag, Vol. 576, Physics and
+
+   Astrophysics of Ultra-High-Energy Cosmic Rays, ed. M. Lemoine & G. Sigl, 155-+
+Medina Tanco, G. A. 1997, astro-ph/9707054
+Medina Tanco, G. A. 1998, ApJl, 505, L79
+Medina Tanco, G. A., de Gouveia dal Pino, E. M., & Horvath, J. E. 1997, Astropart.Phys., 6, 337
+Medvedev, M. V. & Loeb, A. 1999, ApJ, 526, 697
+Medvedev, M. V. & Zakutnyaya, O. V. 2009, ApJ, 696, 2269
+Milosavljevi¥c, M. & Nakar, E. 2006, ApJ, 641, 978
+Miniati, F., Ryu, D., Kang, H., et al. 2000, ApJ, 542, 608
+Miralda-Escud¥e, J. & Waxman, E. 1996, ApJl, 462, L59+
+Mu®cke, A. et al. 1999, Publications of the Astronomical Society of Australia, 16, 160
+Mu®cke, A. et al. 2000, Computer Physics Communications, 124, 290
+Murase, K., Inoue, S., & Nagataki, S. 2008a, ApJl, 689, L105
+Murase, K. & Ioka, K. 2008, ApJ, 676, 1123
+Murase, K., Ioka, K., Nagataki, S., & Nakamura, T. 2006, ApJl, 651, L5
+Murase, K., Ioka, K., Nagataki, S., & Nakamura, T. 2008b, Phys. Rev. D, 78, 023005
+Murase, K., M¥esz¥aros, P., & Zhang, B. 2009, Phys. Rev. D, 79, 103001
+
+                                                                                        Astrophysics of UHECRs 41
+        Nagano, M. & Watson, A. A. 2000, Reviews of Modern Physics, 72, 689
+        Neronov, A. & Semikoz, D. V. 2009, Phys. Rev. D, 80, 123012
+        Neronov, A., Semikoz, D. V., Tinyakov, P. G., & Tkachev, I. I. 2011, A& A, 526, A90
+        Neronov, A. & Vovk, I. 2010, Science, 328, 73
+        Niemiec, J., Ostrowski, M., & Pohl, M. 2006, ApJ, 650, 1020
+        Nonaka, T. et al. 2009, Nucl. Phys. Proc. Suppl., 190, 26
+        Norman, C. A., Melrose, D. B., & Achterberg, A. 1995a, ApJ, 454, 60
+        Norman, C. A., Melrose, D. B., & Achterberg, A. 1995b, Astrophys. J. , 454, 60
+        Olinto, A. V. 2000, Phys. Rep., 333, 329
+        Pelletier, G. 1999, A&A, 350, 705
+        Pelletier, G. & Kersal¥e, E. 2000, A&A, 361, 788
+        Pelletier, G., Lemoine, M., & Marcowith, A. 2009, MNRAS, 393, 587
+        Piran, T. 2004, Reviews of Modern Physics, 76, 1143
+        Protheroe, R. J. 1986, MNRAS, 221, 769
+        Protheroe, R. J. & Stanev, T. 1993, MNRAS, 264, 191
+        Ptitsyna, K. V. & Troitsky, S. V. 2010, Physics Uspekhi, 53, 691
+        Ptuskin, V., Zirakashvili, V., & Seo, E.-S. 2010, Ap. J., 718, 31
+        Puget, J. L., Stecker, F. W., & Bredekamp, J. H. 1976, ApJ, 205, 638
+        Rachen, J. P. 2008, in Proceedings of the XXth Rencontres de Blois, "Challenges in Particle Astro-
+
+           physics", edited by J. Dumarchez and J. T. Thanh Van, The Gioi Publisher
+        Rachen, J. P. & Biermann, P. L. 1993, A&A, 272, 161
+        Rachen, J. P. & M¥esza¥ros, P. 1998, Phys. Rev. D, 58, 123005
+        Regimbau, T. & Mandic, V. 2008, Classical and Quantum Gravity, 25, 184018
+        Reville, B., Kirk, J. G., Duffy, P., & O'Sullivan, S. 2007, A&A, 475, 435
+        Reville, B., O'Sullivan, S., Duffy, P., & Kirk, J. G. 2008, MNRAS, 386, 509
+        Rieger, F. M., Bosch-Ramon, V., & Duffy, P. 2007, Ap & SS, 309, 119
+        Rieger, F. M. & Duffy, P. 2005, ApJ Letters, 632, L21
+        Rieger, F. M. & Mannheim, K. 2000, A&A, 353, 473
+        Riquelme, M. A. & Spitkovsky, A. 2010, ApJ, 717, 1054
+        Rordorf, C., Grasso, D., & Dolag, K. 2004, Astroparticle Physics, 22, 167
+        Ryu, D., Das, S., & Kang, H. 2010, ApJ, 710, 1422
+        Ryu, D. & Kang, H. 2003, Journal of Korean Astronomical Society, 36, 105
+        Ryu, D., Kang, H., & Biermann, P. L. 1998, A&A, 335, 19
+        Ryu, D., Kang, H., Cho, J., & Das, S. 2008, Science, 320, 909
+        Saunders, W., Sutherland, W. J., Maddox, S. J., et al. 2000, MNRAS, 317, 55
+        Scannapieco, E., Pichon, C., Aracil, B., et al. 2006, MNRAS, 365, 615
+        Schlickeiser, R. & Shukla, P. K. 2003, ApJl, 599, L57
+        Schwarzschild, B. 2010, Phys. Today, 63N5, 15
+        Seckel, D. & Stanev, T. 2005, Physical Review Letters, 95, 141101
+        Shapiro, S. L. & Teukolsky, S. A. 1983, Black holes, white dwarfs, and neutron stars: The physics
+
+           of compact objects (John Wiley and Son. Inc.)
+        Siemieniec-Ozi∏eblo, G. & Golda, Z. A. 2004, A&A, 422, 23
+        Sigl, G., Lemoine, M., & Biermann, P. 1999, Astroparticle Physics, 10, 141
+        Sigl, G., Lemoine, M., & Olinto, A. V. 1997, PRD, 56, 4470
+        Sigl, G., Miniati, F., & Enﬂlin, T. A. 2004, Phys. Rev. D, 70, 043007
+        Silva, L. O., Fonseca, R. A., Tonge, J. W., et al. 2003, ApJ Letters, 596, L121
+
+42 Kotera & Olinto
+Spitkovsky, A. 2008, ApJl, 682, L5
+Stanev, T. 2009, Proc. Vulcano Workshop 2008, Eds. F. Giovanelli and G. Mannocchi, Societa
+
+   Italiana di Fisica, Bologna, 609
+Stanev, T. 2010, High Energy Cosmic Rays (Praxis Publishing, Chichester, UK)
+Stanev, T., de Marco, D., Malkan, M. A., & Stecker, F. W. 2006, Phys. Rev. D, 73, 043003
+Stanev, T., Seckel, D., & Engel, R. 2003, PRD, 68, 103004
+Stanev, T. et al. 1995, Physical Review Letters, 75, 3056
+Stecker, F. W. 1968, PhD thesis, AA (Harvard University)
+Stecker, F. W., Malkan, M. A., & Scully, S. T. 2006, ApJ, 648, 774
+Stecker, F. W. & Salamon, M. H. 1999, ApJ, 512, 521
+Szabo, A. P. & Protheroe, R. J. 1994, Astroparticle Physics, 2, 375
+Tajima, T. & Dawson, J. M. 1979, Physical Review Letters, 43, 267
+Takahashi, Y. et al. 2009, New J. Phys., 11, 065009
+Takami, H., Murase, K., Nagataki, S., & Sato, K. 2009, Astroparticle Physics, 31, 201
+Takami, H. & Sato, K. 2008, ApJ, 681, 1279
+Takami, H., Yoshiguchi, H., & Sato, K. 2006, ApJ, 639, 803
+Takeda, M. et al. 1998, Physical Review Letters, 81, 1163
+Taylor, A. M., Hinton, J. A., Blasi, P., & Ave, M. 2009, Physical Review Letters, 103, 051102
+Thompson, C. 2006, ApJ, 651, 333
+Tinyakov, P. G. & Tkachev, I. I. 2001, JETP Lett., 74, 1
+Tinyakov, P. G. & Tkachev, I. I. 2002, Astroparticle Physics, 18, 165
+Tinyakov, P. G. & Tkachev, I. I. 2004, Phys. Rev. D, 69, 128301
+Tinyakov, P. G. & Tkachev, I. I. 2005, Astroparticle Physics, 24, 32
+Tokuno, H. et al. 2009, Nucl. Instrum. Meth., A601, 364
+Tueller, J. et al. 2010, Astrophys. J. Suppl., 186, 378
+Vall¥ee, J. P. 2004, New Astronomy Review, 48, 763
+van Weeren, R. J., R®ottgering, H. J. A., Bru®ggen, M., & Hoeft, M. 2010, Science, 330, 347
+Vannoni, G., Aharonian, F. A., Gabici, S., Kelner, S. R., & Prosekin, A. 2009, ArXiv e-prints
+Venkatesan, A., Miller, M. C., & Olinto, A. V. 1997, ApJ, 484, 323
+V¥eron-Cetty, M.-P. & V¥eron, P. 2006, A&A, 455, 773
+Vietri, M. 1995, ApJ, 453, 883
+Wall, J. V., Jackson, C. A., Shaver, P. A., Hook, I. M., & Kellermann, K. I. 2005, A&A, 434, 133
+Waxman, E. 1995, Physical Review Letters, 75, 386
+Waxman, E. 2001, in Lecture Notes in Physics, Berlin Springer Verlag, Vol. 576, Phys Astrophys
+
+   of UHECRs, ed. M. Lemoine & G. Sigl, 122
+Waxman, E. & Bahcall, J. 1999, Phys. Rev. D, 59, 023002
+Waxman, E. & Bahcall, J. N. 2000, ApJ, 541, 707
+Waxman, E. & Miralda-Escud¥e, J. 1996, ApJl, 472, L89+
+Wdowczyk, J., Tkaczyk, W., & Wolfendale, A. W. 1972, J. Phys. A Math. Gen., 5, 1419
+Wdowczyk, J. & Wolfendale, A. W. 1979, Nature, 281, 356
+Wibig, T. & Wolfendale, A. W. 2004, arXiv:astro-ph/0410624
+Widrow, L. M. 2002, Reviews of Modern Physics, 74, 775
+Wolfe, B., Melia, F., Crocker, R. M., & Volkas, R. R. 2008, ApJ, 687, 193
+Yan, H. & Lazarian, A. 2002, Physical Review Letters, 89, B1102
+Zatsepin, G. & Kuzmin, V. 1966, J. Exp. Theor. Phys. Lett., 4, 78
+Zirakashvili, V. N., Ptuskin, V. S., & V®olk, H. J. 2008, ApJ, 678, 255
+
+                                                                                        Astrophysics of UHECRs 43
+        Zitouni, H., Daigne, F., Mochkovich, R., & Zerguini, T. H. 2008, MNRAS, 386, 1597
+        Zweibel, E. G. & Everett, J. E. 2010, ApJ, 709, 1412
+        Zweibel, E. G. & Yamada, M. 2009, ARAA, 47, 291
+
+44 Kotera & Olinto
+

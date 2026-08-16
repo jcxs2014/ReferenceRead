@@ -1,0 +1,710 @@
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20                            https://doi.org/10.3847/1538-4357/aa8df1
+
+© 2017. The American Astronomical Society. All rights reserved.
+
+    The Acceleration of Charged Particles at a Spherical Shock Moving
+                         through an Irregular Magnetic Field
+
+                                                             J. Giacalone
+
+                                       Department of Planetary Sciences, University of Arizona, Tucson, AZ, USA
+                  Received 2017 June 21; revised 2017 September 8; accepted 2017 September 18; published 2017 October 23
+
+                                                               Abstract
+
+We investigate the physics of charged-particle acceleration at spherical shocks moving into a uniform plasma
+containing a turbulent magnetic field with a uniform mean. This has applications to particle acceleration at
+astrophysical shocks, most notably, to supernovae blast waves. We numerically integrate the equations of motion
+of a large number of test protons moving under the influence of electric and magnetic fields determined from a
+kinematically defined plasma flow associated with a radially propagating blast wave. Distribution functions are
+determined from the positions and velocities of the protons. The unshocked plasma contains a magnetic field with a
+uniform mean and an irregular component having a Kolmogorov-like power spectrum. The field inside the blast
+wave is determined from Maxwell's equations. The angle between the average magnetic field and unit normal to
+the shock varies with position along its surface. It is quasi-perpendicular to the unit normal near the sphere's
+equator, and quasi-parallel to it near the poles. We find that the highest intensities of particles, accelerated by the
+shock, are at the poles of the blast wave. The particles "collect" at the poles as they approximately adhere to
+magnetic field lines that move poleward from their initial encounter with the shock at the equator, as the shock
+expands. The field lines at the poles have been connected to the shock the longest. We also find that the highest-
+energy protons are initially accelerated near the equator or near the quasi-perpendicular portion of the shock, where
+the acceleration is more rapid.
+
+Key words: acceleration of particles - ISM: magnetic fields - ISM: supernova remnants - shock waves - Sun:
+heliosphere - turbulence
+
+                            1. Introduction                           accelerated, but does not consider the origin of this source. The
+                                                                      Parker equation is applicable if the pitch-angle distribution is
+   Collisionless shocks exist in many astrophysical environ-          nearly isotropic. In DSA theory, the intensity of particles falls
+ments and are well-known sites of charged-particle accelera-          off exponentially with distance from the shock. This intensity
+tion. The underlying acceleration mechanism at shocks is              gradient causes a diffusive streaming of the particles. To be
+reasonably well understood. Particles are accelerated as they         internally consistent, this anisotropy must be small, leading to a
+pass through the strong plasma compression at the shock with a        condition for the so-called "injection energy" for a quasi-planar
+rate that depends partially on how well the particles are             shock (Giacalone & Jokipii 1999; Giacalone 2003; Zank et al.
+confined near the shock. In tenuous space plasmas, this is            2006). It can be written
+governed by the nature of the magnetic field. In diffusive shock
+acceleration theory (Axford et al. 1977; Krymsky 1977;                 h2 sin2 q + (1 +  2) sin2 q cos2 q 
+Bell 1978; Blandford & Ostriker 1978), the evolution of the           Einj = 9ER 1 +  2 2 2 , (1)
+distribution function in space, time, and energy is determined                        ( sin q + cos q)                    
+by the cosmic-ray or Parker transport equation (Parker 1965).
+This equation includes the main charged-particle transport            where ER = (1/2)mpU12 is the shock ram energy, mp is the
+effects such as advection, energy change, drift, and spatial          proton mass, U1 is the upstream plasma speed in the shock
+diffusion. The confinement of particles near the shock is related
+to diffusion coefficients, which depend on the magnetic field,        frame of reference,  is the angle between the unit shock
+including the power spectral density of its random component          normal and the average magnetic field, h = kA k, and
+(Jokipii 1966). Drift motions also play an important role              = k^ k. k^ and k are the diffusion coefficients perpend-
+(Jokipii 1982) and also depend on the magnetic field. The rate        icular and parallel to the magnetic field, respectively, and kA is
+of acceleration scales inversely with the diffusion coefficient       the antisymmetric diffusion coefficient.1
+(Forman & Drury 1983; Jokipii 1987, 1992), and because the
+diffusion of charged particles across the mean magnetic field is         Under certain conditions, the injection energy given by
+generally much smaller than that along the magnetic field             Equation (1) has a very strong dependence on the shock-normal
+(Giacalone & Jokipii 1999), shocks that move normal to the            angle. For instance, for h  1 and   1, this gives
+field are more rapid accelerators (Jokipii 1987). Thus, the           Einj » 9ER sec2 q. This expression has been used previously
+magnetic field is critical for determining the maximum energy         (e.g., Völk et al. 2003), and leads to the notion that nearly
+attainable from shock acceleration.
+                                                                      perpendicular shocks cannot accelerate low-energy particles.
+   The efficiency of accelerating low-energy particles is also
+important for determining the overall intensity, and this also        Some hybrid simulations, which satisfy these conditions,
+depends on the nature of the magnetic field. Diffusive shock          confirm this (Giacalone & Ellison 2000; Caprioli &
+acceleration (DSA) theory assumes a source of particles to be         Spitkovsky 2014). These conditions are not realistic for most
+
+                                                                      1 kA = (1 3)wrG for most cases of interest, where w is the particle speed and
+                                                                      rG its gyroradius.
+
+                                                                   1
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20                                                                                                   Giacalone
+
+astrophysical applications, however, because of the presence of           embedded in the unshocked plasma and investigate its effect on
+preexisting turbulence. The conditions noted above unrealisti-            the resulting energy spectra at various locations along the shock.
+cally neglect particle motion normal to the average magnetic              The next section discusses the new numerical model, with more
+field. In the limit q = 90, Equation (1) reduces to Einj =                details provided in the Appendix. Section 3 presents the results of
+9ER (1 + h2  2), whereas in the limit q = 0, we obtain                    our numerical calculations, and Section 4 discusses some relevant
+Einj = 9ER. These two expressions differ only by the value                astrophysical applications.
+(h  )2 = (kA k^)2. This ratio depends on the magnetic field,
+including its turbulent component, and is not necessarily large.                                   2. Numerical Model
+Magnetic field-line meandering, caused mostly by the largest
+scales in the fluctuating component of the magnetic field, leads             We consider a spherically symmetric shock propagating with
+to a significant enhancement in the motion of particles across            constant speed, Vsh, into a static and uniform plasma, which
+the mean-magnetic field such that this term can be small. In this         contains a turbulent spatially varying magnetic field. The magnetic
+case, which is applicable to a wide range of astrophysical                field is decomposed into two components: one that is constant,
+shocks, the acceleration of low-energy particles at perpend-              and one that is random. The random component varies in space
+icular shocks can be nearly as efficient as that at a parallel            and time. In the unshocked plasma, its spatial dependence is
+shock. Hybrid simulations including preexisting broadband                 determined from a sum of a very large number of individual plane
+magnetic turbulence, through which the shock propagates, have             waves with isotropically distributed wavevectors with random
+revealed that even thermal plasma can be efficiently accelerated          polarizations and phases. The amplitude of each individual
+at a perpendicular shock (Giacalone 2005b).                               wavemode is determined from a predefined Kolmogorov-like
+                                                                          power spectrum. The result is a kinematically defined turbulent
+   As noted above, the threshold given by Equation (1) ensures            magnetic field with a uniform mean and a random component
+internal consistency with DSA theory. Howerver, particles with            whose power-spectrum tensor is similar to isotropic Kolmogorov
+energies lower than this may still be accelerated by shocks. The          turbulence. We do not consider fluctuations caused by the
+mechanism by which this happens is not well understood, nor               streaming of energetic particles (e.g., Bell 1978; Lee 1983;
+is the number that is accelerated. The mechanism and number               Bell 2004) or by turbulent fluctuations in the plasma behind the
+likely depend on the initial particle distribution, the shock             shock (Giacalone & Jokipii 2007; Guo et al. 2012) in this study,
+parameters, and the nature of preexisting turbulence. The shock           and focus only on the effect of preexisting magnetic turbulence.
+kinetic physics is important. As plasma is advected into the
+shock, incoming energy flux is converted mostly into enthalpy                As the shock moves through the turbulent magnetic field, the
+flux, which has a contribution from both the thermal and                  shock modifies the field according to Maxwell's equations.
+suprathermal components of the downstream particle distribu-              Appendix A gives the details of our solution. In our model, the
+tion function. Hybrid simulations show that 20% of the                    plasma flow speed is assumed to be radial and constant behind
+energy flux incident on a strong parallel shock is converted into         the shock, and the shock speed itself is also constant. Our
+enthalpy flux of particles with energies greater than 2ER                 model is not consistent with the standard Sedov blast-wave
+(Giacalone et al. 1997).                                                  solution, in which the shock speed varies with time and the
+                                                                          plasma speed behind the shock varies in space and time. The
+   Of course, shocks are not infinitely planar. On the one hand, for      assumptions in our model are for convenience since they permit
+a curved shock, the angle between the mean-magnetic field and             closed-form analytic solutions to the turbulent magnetic field
+unit shock normal varies with position, and this leads to variations      behind the shock, provided it is known at some point far
+in the particle acceleration rate along the shock. This has               upstream in the unshocked plasma. Low-energy particles are
+important effects on the resulting particle intensity and energy          likely not affected considerably by this assumption because the
+spectra (Decker 1990; McComas & Schwadron 2006; Schwadron                 timescale for acceleration is shorter than the timescale
+et al. 2008; Guo et al. 2010; Kòta 2010; Schwadron et al. 2015).          associated with the evolution of the shock.
+On the other hand, magnetic field-line meandering creates
+variations in the angle between the local magnetic field and                 Figure 1 shows the magnetic field strength as a function of time
+shock normal, leading to some places along the shock where the            (top panel), at a fixed spatial location, and as a function of radial
+acceleration of low-energy particles is more efficient than others.       distance from the center of the blast wave (bottom panel), at a
+This can lead to a "patchy" intensity of low-energy particles along       fixed time, latitude, and longitude. We assume that the magnetic-
+the shock (cf. Giacalone 2005b; Giacalone & Jokipii 2009) with a          field fluctuations are static in the plasma frame upstream of the
+characteristic scale likely on the same order as the magnetic             shock; thus, since the ambient plasma is stationary, the field is
+turbulence coherence scale, Lc. When Lc is on the order of the            constant when plotted as a function of time at a given location, as
+radius of curvature of the shock, the physics of injection at a           seen in the top panel prior to the shock crossing. Once the shock
+planar shock, as discussed above, is not necessarily applicable.          has passed the observer, the magnetic field is seen to vary with
+                                                                          time because the observer is no longer in the fluid frame of
+   It is the purpose of this study to address the physics of particle     reference.
+acceleration at a spherical shock moving into a quasi-uniform
+plasma, which is applicable to a wide range of astrophysical                 Shown in Figure 2 are projections of magnetic field lines on the
+phenomena. The most direct example is the acceleration of                 x-z plane for three different values of the ratio of the turbulence
+particles at a supernovae remnant (SNR), which is widely thought          variance to the mean-field squared, indicated with the symbol s2,
+to be responsible for the production of galactic cosmic rays (GCR)        which increases from left to right. Two different times are shown,
+with energies below the "knee" in the GCR spectrum at about               which separates the upper and lower panels of this figure. The
+1015 eV. Because of computational limitations, we cannot feasibly         magnetic field lines are determined by simultaneously solving the
+model acceleration at a realistic SNR, but the results from our           equations dx ds = Bx B, dy ds = By B, and dz ds = Bz B,
+study provide important insights, discussed further in Section 4. In      where s is the distance along a field line, B is the magnitude of the
+this study, we include a preexisting turbulent magnetic field             field, and (Bx, By, Bz) is the magnetic field, B, in Cartesian
+                                                                          coordinates. The choice of field lines to display is arbitrary. We
+
+                                                                       2
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20                                                                                                                 Giacalone
+
+Figure 1. Top: magnetic field strength as a function of time at a fixed location,       test particles upstream of the shock. We start the numerical
+as indicated. Bottom: magnetic field strength as a function of radial distance          integration of Equation (4) at t0, with an initial radial position
+from the center of the blast wave at a fixed time, latitude, and longitude.             taken to be at the same location as the shock at this time, Vsh t0,
+                                                                                        with an initial speed w0 = Vsh, as measured in the local plasma
+chose those that intersected or came close to the blast wave to give                    frame. The particle is released with a uniform probability of being
+the best aesthetic visualization. The top three panels are for                          placed anywhere on the shock surface, so the source only depends
+t = 3Lc Vsh, which is when the blast-wave radius is larger than                         on radial position and time. The particles are also released
+Lc, and t = 0.3Lc Vsh for the bottom three panels, which is when                        isotropically in velocity space. The integration ends when time has
+the shock radius is smaller than Lc. Note that the angle between                        advanced to tmax. The distribution function is then determined
+the unit normal to the shock and the magnetic field varies                              from the final velocities and positions of all the particles.
+considerably along the shock front.
+                                                                                           Table 1 lists the parameters of each of the numerical
+   Using the electric and magnetic field solutions discussed in                         integrations performed in this study. There are three important
+Appendix A, we numerically integrate the equations of motion                            length scales: (1) the gyroradius, rg0, of a charged particle
+of an ensemble of individual protons, given in cgs units as                             moving with the initial speed at its release point, w0 = Vsh in a
+                                                                                        field with a strength equal to that of the average field, B0
+            dp = eE(r, q, f, t) + e w ´ B(r, q, f, t), (2)                              (rg0 = Vsh W0, where W0 is the cyclotron frequency); (2) the
+            dt        c                                                                 coherence scale of the magnetic fluctuations, Lc; and (3) the
+                                                                                        radius of the shock at the maximum time of the simulation,
+where p is the momentum, w is the velocity, E is the electric                           Rsh (tmax). Computational limits restrict us to study values of
+field, e is the proton charge, and c is the speed of light. (r, q, f)                   Lc rg0 = 106 or lower. This is because the maximum time of
+                                                                                        the calculation is of this same order times the cyclotron period,
+defines a standard spherical coordinate system, with  being the                         W-1 0 , and we require a time step shorter than W0-1 for numerical
+                                                                                        accuracy. We also integrate the trajectories of many millions of
+polar angle. We use a numerical scheme known as the                                     particles. We are not currently capable of simulating a realistic
+Burlisch-Stoer method (Press et al. 1986), which uses an                                SNR blast wave, which for typical parameters has a radius
+                                                                                        some ~4 ´ 109 times larger than the gyroradius of protons.
+adjustable time step in order to conserve total energy. Energy is                       This is discussed further in Section 4, along with other relevant
+conserved in our calculation to better than 10-5%.                                      astrophysical examples.
+
+   E and B are functions of all three spatial coordinates.                                 In some of our simulations, each particle is followed in a
+Therefore our model allows for the motion of particles away from                        different realization of the magnetic field, which is intended to
+magnetic lines of force, which is artificially suppressed in models                     give an "ensemble" average. We also consider the more
+that use at least one ignorable spatial coordinate (Jokipii                             realistic case in which the magnetic field realization is the same
+et al. 1993; Giacalone 1994; Jones et al. 1998). Thus, our model                        for every particle, however.
+correctly treats cross-field transport including effects from field-
+line meandering as well as the local transport off of field lines.                         We have also performed two additional simulations of a
+                                                                                        planar-shock front in order to compare with the results from the
+   We are interested in obtaining the distribution function of an                       spherical-shock case. We used the same model as that
+ensemble of particles at a particular time, tmax. This is determined                    described in Giacalone & Jokipii (2009) for the planar-shock
+from the final positions and plasma-frame velocities of the                             simulations. We chose parameters for the shock and magnetic
+protons. An individual proton is released at a time t0 = x1 3tmax,                      turbulence to be identical to that used in Run 3 in Table 1, as
+where  is a uniformly distributed random number between 0 and                           well as the same maximum simulation time. For the planar-
+1. The cube root follows by assuming a constant flux of source                          shock case, there is no adiabatic cooling of the particles. In one
+particles across the shock, n0 Vsh, and noting that the surface area                    of the planar-shock simulations, the mean field is perpendicular
+of the shock increases as it moves outward.2 n0 is the density of                       to the shock-normal direction, and for the other simulation, the
+                                                                                        mean field is parallel to it.
+( ) 2 The number of particles that have crossed the2shock between 0 and t is givent3t
+by N t) = ò 4pRsh n0 Vsh dt¢ = 4pn0 Vsh ò (t¢ dt¢ µ t . Thus, taking  as the23                                          3. Results
+
+                0        0                                                                 Figure 3 shows the final energy spectra, averaged over all
+ratio of the number of particles released between 0 and t compared to the total         particles at all locations, for three of our simulations. These
+number of particles, it is readily shown that t = x1 3tmax will give a release time     correspond to runs 1, 2, and 4 in Table 1. Energy is measured
+                                                                                        in the local plasma frame of reference. The magnetic turbulence
+that leads to a constant flux of particles crossing the shock per unit time per         coherence scale, Lc, is varied from 104rG0 (black histogram) to
+                                                                                        105rG0 (red) to 106rG0 (blue). In each case, the ratio of the final
+unit area.                                                                              shock radius to Lc is held fixed, and since Lc varies, so does the
+                                                                                        final shock radius. Thus, the blue spectrum, for example,
+                                                                                        corresponds to the largest final shock radius and the longest
+                                                                                        maximum time, tmax. This spectrum extends to the highest
+                                                                                        energy in this case because the particles have had the longest
+                                                                                        time to be accelerated.
+
+                                                                                           The peak in the spectrum for all three cases is at the
+                                                                                        injection energy, which is the same as the shock energy,
+                                                                                        ER = (1 2)mp Vs2h. For E < ER, the spectra fall off with
+                                                                                        decreasing energy due to adiabatic cooling of the particles in
+
+                                                                                     3
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20                          Giacalone
+
+Figure 2. Magnetic lines of force projected onto the x-z plane, determined from the model magnetic field. The turbulence variance increases from the left to the right
+panels, and the time of the blast wave increased from the lower panels to the top panels, as indicated.
+
+                        Table 1                                                     This is a non-diffusive kinetic effect typically seen in test-
+        Summary of Simulation Parameters                                            particle simulations of low-energy particles moving in
+                                                                                    synthesized magnetic turbulence (cf. Giacalone 2005a;
+Run Lc rg0 Vsh tmax Lc s2 Realizations plotted in                                   Giacalone & Jokipii 2009). This feature is not typically
+                                                                                    seen, however, in self-consistent hybrid simulations (e.g.,
+1  104  5    1 Ensemble    Figure 3                                                 Giacalone 2005b; Giacalone & Decker 2010) that include
+                                                                                    shock microstructure, such as the cross-shock potential,
+2  105  5    1 Ensemble    Figures 3, 4, 5, and 7                                   which is not included in our simplified model. Above this
+                                                                                    energy, the spectrum is approximately a power law up to
+3  105  5    1 Single      Figures 5 and 9                                          about 50-100ER. The slope is somewhat smaller than that
+                                                                                    predicted by simple diffusive shock acceleration theory
+4  106  5    1 Ensemble    Figure 3                                                 applied to a planar shock. This is mostly because the
+                                                                                    simulated spectrum includes contributions from particles
+5  105  5    0.3 Ensemble  Figure 8                                                 upstream of the shock, whereas the theory only applies
+                                                                                    downstream. At higher energies, the spectra are steeper. This
+6  104  50   1 Single      Figure 9                                                 steepening is caused by the finite acceleration time, but
+                                                                                    because the "local" acceleration rate varies along the shock,
+7  106  0.5  1 Single      Figure 9                                                 this also effects the resulting shape of the spectrum at high
+                                                                                    energies. The rate is fastest where the local shock-normal
+Note. In all simulations:Vsh = 2000 km s-1, the density compression ratio           angle is 90° (locally perpendicular) and slowest where it is 0°
+across the shock is 4 (strong shock limit) and the maximum shock radius is 5Lc.     (locally parallel), as discussed by Jokipii (1982, 1987)), and
+s2 is the variance divided by the square of the mean field.                         also shown below in Figure 6(c). Consider the special case in
+                                                                                    which the acceleration rate is constant along the shock. In this
+the downstream fluid flow. Above ER, there is a bump-like
+feature, extending to about 5ER, which is caused by particles
+that execute a single gyro-orbit around the shock front before
+being advected downstream. Because they drift along the
+shock during this single orbit in the same direction as the
+motional electric field, they gain a small amount of energy.
+
+                                                                                 4
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20                                                            Giacalone
+
+Figure 3. Differential flux spectra as a function of kinetic energy for three     Figure 4. Differential flux spectra as a function of kinetic energy for a spherical
+different values of Lc rg0: 104 (black), 105 (red), and 106 (blue). These are     shock (black) and planar shocks (red and blue), as indicated.
+obtained from simulations 1, 3, and 4, in reference to Table 1, respectively.
+Kinetic energy is normalized to the shock ram energy, ER = (1 2)mVs2h, and        y. I is defined
+the differential flux is normalized to n0 Vsh ER.
+                                                                                  I (x, z) = 4p ò dE, (3) ¥ dJ (x, z, E)
+case, we would expect the downstream spectrum to be a                                              n0 Vsh 1000ER  dE
+power law at low energies, and then become exponential at a
+characteristic energy that depends on the acceleration rate                       where dJ/dE is the differential intensity, determined from the
+(see also Appendix B). If the shock is parallel, this energy is                   distribution function by binning the particle final positions and
+much lower than if the shock is perpendicular. In the
+spherical-shock case, the final spectrum differs from these                       velocities. The position is normalized to Lc. n0 is the number
+two extremes because the acceleration rate varies.                                density of the "seed" particles. This is not the number density
+
+   Figure 4 shows a comparison of results between planar and                      of the ambient gas, but it is reasonable to expect that they may
+spherical shocks. The black spectrum is the case of a
+spherical shock, Run 3 from Table 1, as discussed above. The                      be related. It is known that high-Mach shocks dissipate their
+red spectrum is that obtained from a simulation in which the
+shock front was taken to be planar and the average magnetic                       energy by reflecting a fraction of the particles incident on the
+field is parallel to the shock normal, and the blue spectrum is                   shock, creating suprathermal "specularly reflected" ions (Leroy
+for a planar perpendicular shock on average. In all cases, the                    et al. 1981; Sckopke et al. 1983; Winske 1985). It is reasonable
+spectrum is computed from the final plasma-frame velocities
+and averaged over all positions, both upstream and down-                          to expect these to be further accelerated by the shock
+stream of the shock. There is no adiabatic cooling in the                         (e.g., Giacalone 2005b). Thus, n0 might reasonably be a
+planar-shock case, and therefore there are no particles below                     fraction of the number density of the ambient gas that is
+the injection energy. The blue spectrum extends to the
+highest energy, as expected, since the acceleration rate is the                   specularly reflected by the shock.
+most rapid at a perpendicular shock. Since the maximum time                          The left panel of Figure 5 is for the case in which a different
+is the same for all cases, a higher acceleration rate leads to a
+higher maximum energy. The energy spectrum for the                                realization of the turbulent magnetic field was used for each
+spherical-shock case, shown in black, does not extend to as                       particle. It represents the ensemble average. The right panel
+high an energy as that of the perpendicular shock and only                        shows the case in which each particle moved within the same
+slightly exceeds that of the planar parallel shock. It is clear                   magnetic field, defined by a single magnetic field realization.
+that adiabatic cooling is also important in determining the
+final spectrum in the spherical-shock case.                                          The peak intensity is at the shock, which is at 5Lc, but I also
+                                                                                  varies along the shock surface. In the left panel of Figure 5, we
+   The spectra shown in Figure 3 (and the black histogram of                      note that the flux of accelerated particles is highest in the polar
+Figure 4) were averaged over the entire space, but as shown in                    regions of the blast wave. This is where the magnetic field,
+Figure 5, the particle intensity is not uniform along the                         on average, is close to the direction of the unit normal to
+spherical shock. The figure shows a color-coded representa-                       the shock--the quasi-parallel portion. I also extends over a
+tion of the normalized flux, I, of high-energy particles with                     larger distance upstream--toward the uniform plasma outside
+energies above 1000ER in the (x, z) plane, averaged over all                      the blast wave--in the polar regions. This is caused by the
+                                                                                  diffusive decay of particles into the upstream region. The
+                                                                                  associated diffusion coefficient in the direction parallel to
+                                                                                  the local field, k, is larger than that across it k^ (e.g., Giacalone
+                                                                                  & Jokipii 1999). This results in a larger diffusive decay scale in
+                                                                                  the polar regions compared to the equator.
+
+                                                                               5
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20            Giacalone
+
+Figure 5. Color-coded representations of the flux of particles with energies above 1000ER, normalized to n0 Vsh, at t = tmax = 5Lc Vsh. I is given by Equation (3). The
+left panel shows the case in which each particle experienced a different magnetic field realization, thereby representing an "ensemble average"; whereas the right panel
+shows the results for the case in which only one magnetic realization was used. These results were obtained from simulations 2 (left) and 3 (right), respectively, in
+reference to Table 1. For this case, the ratio of the coherence scale to initial gyroradius of the particles is Lc rg0 = 105.
+
+Figure 6. (a) Illustration of the shock at two different times, t=T (black circle), and t = T - DT (red circle), and a single magnetic field line at the two different
+times, in blue. The field line is dashed for t = T - DT , the smaller shock radius. At t=T, the field line makes an angle  with respect to the shock-normal direction,
+as indicated. (b) The ratio of the time over which the field line makes a connection with the shock, DT , to the total time, T, as a function of . (c) The acceleration rate
+of particles from diffusive shock acceleration theory for two different values of  = k^ k, as indicated, normalized to the rate at a parallel shock (q = 0), as a function
+of . See text for more details.
+
+   I is maximum in the polar region of the shock because the          consider the geometry in Figure 6(a). At time T, a particular
+field lines in this region have been connected to the shock the       magnetic field line, in blue, makes an angle  with respect to
+longest, and the particles tend to remain close to magnetic lines     the unit normal to the shock, as indicated. This same field line
+of force. Thus, the particles collect at the poles. To show this,     was first crossed by the shock at the earlier time T - DT ,
+
+                                                                   6
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20                              Giacalone
+
+Figure 7. Differential intensity spectra, in units of n0 Vsh ER, as functions of        Figure 8. Same as Figure 6, except for the case of s2 = 0.3. This is from
+energy normalized to ER for simulation 2 in Table 1. In all cases shown, the            simulation 5 in Table 1.
+spectra were computed from the final energy of the particles, at t =
+tmax = 5Lc Vsh. The top panel shows spectra computed in two separate polar              the case of the ensemble average. The intense regions are
+angle bands, one near the equator (in blue, with the cosine of the polar angle          presumably related to the time over which the field lines have
+indicated in the legend), and the other at the upper polar region of the sphere (in     been connected to the shock, leading to "collection regions,"
+red). For the bottom panel, the energy spectra are computed from the final              but we did not attempt to establish this quantitatively.
+energy, but the two different polar-angle bands are determined from the initial
+locations, or release point, of the particles.  and m0 are defined in the text.            The higher intensity of particles near the poles seen in the
+                                                                                        left panel of Figure 5 does not imply that this is where the
+indicated in red. Thus, this field line is connected to the shock                       acceleration is most rapid. The acceleration rate, in fact, is
+for a time DT . Note that the intersection point starts at the                          slowest at the parallel shock and fastest at the perpendicular
+equator and moves poleward with time. Figure 6(b) shows the                             shock (Jokipii 1982, 1987), as shown in Figure 6(c). This panel
+connection time normalized to the total time, DT T , as a                               plots the acceleration rate, normalized to the rate at a parallel
+function of the angle . When q » 0, near the poles of the                               shock, as a function of  for two different values of  = k^ k,
+shock, this ratio is approximately one, which means that such a                         based on the expression derived in Appendix B. The high-
+field line has nearly always been connected to the shock.                               energy particles, having the highest intensities at the poles,
+Conversely, when q » 90, DT  T , meaning that the field                                 were initially accelerated closer to the equator, where the
+line has only been connected to the shock for a very short time.                        acceleration is more rapid, as discussed below.
+
+   For the case of a single realization, shown in the right panel                          Figures 7 and 8 show energy spectra computed from the final
+of Figure 5, the intensity is more randomly distributed than in                         plasma-frame energy of the particles in two different regions of
+
+                                                                                     7
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20                                                                                                Giacalone
+
+the sphere, separating those computed from the final locations         parallel diffusion coefficient (weaker pitch-angle scattering,
+of the particles from those computed using the initial locations.      larger mean free path of scattering), leading to a much slower
+The top panels in both figures are the energy spectra of               rate of acceleration at the parallel shock near the poles. Thus,
+particles whose final polar angle, qf is (a) near the equator          the highest-energy particles, which ultimately collect near the
+(-0.1 < m < 0.1, where m = cos qf ), as indicated, in blue; and        poles, were initially released near the equator, despite the
+(b) near the upper polar region (0.8 < m < 1), in red. In the          weaker turbulence. Note that for E > 104ER, the vast majority
+lower panel, the energy spectra are computed from the final            of the particles were released near the equator.
+energy of the particles, but are sorted by the initial polar angle
+where they were released, q0. For example, the blue spectra in            In the two previous figures, we focused on the differences
+the lower panels of Figures 7 and 8 show the final energy              between the injection and acceleration rates between the
+distribution of particles initially released near the equator          equator and poles of the shock in terms of the behavior of
+(-0.1 < m0 < 0.1, where m0 = cos q0); whereas the red                  the ensemble average. These were cases in which each particle
+spectra are for particles that were initially released near the        experienced a unique magnetic-field realization. For the case of
+upper pole (0.8 < m0 < 1).                                             a single magnetic-field realization, the results will differ from
+                                                                       the ensemble average case, depending on the relative size of the
+   Although the highest intensity of particles at the end of the       shock and turbulence coherence scale. This is addressed in
+simulation is reached at the poles, it is clear from the bottom        Figure 9. This figure shows results from three simulations, each
+panels of Figures 7 and 8 that the highest-energy particles            of which considers a single magnetic field realization. The
+initially encountered the shock near the equator. This is where        maximum shock radius is the same in all three cases, but the
+the shock moves normal to the average magnetic field. Thus,            turbulence coherence scale, Lc, varies. The results are from
+particles are initially accelerated very rapidly near the equator,     from Runs 3, 6, and 7 in Table 1. The left panel is for the case
+at the perpendicular shock. Because of the compression of the          of the highest value of Lc and lowest for that shown in the right
+magnetic field at the shock, they drift along its surface, in the      panel. The turbulence variance is held fixed for these three
+same direction as the motional electric field (in the shock frame      cases at s2 = 1. For the case in which Lc  Rsh, the field
+of reference), and gain energy. They also remain near the field        varies considerably over the shock front, but this variation is
+lines on which they began their motion. As the shock expands           less when Lc > Rsh. As above, we show energy spectra as a
+outward, the point of intersection of any given field line to the      function of the final plasma-frame energy of the particles.
+shock moves poleward, on average, as noted above. Thus, as             Colors are used to delineate different release locations, as
+the particles gain energy each time they cross the shock, they         defined by the initial "local" shock-normal angle, q0,L, at the
+also collect at the poles. The rate of acceleration decreases with     time each particle was released. This is represented by
+time because the local shock-normal angle becomes more                 m0,L = cos q0,L. For instance, the blue spectra correspond to
+parallel, on average, with time, as indicated in Figure 6.             particles initially released where the local shock-normal angle
+                                                                       was very nearly perpendicular to the shock normal, and the red
+   Note also that the intensity of low-energy particles (below a       spectra are for a locally parallel shock-normal angle.
+few hundred ER) released at the equator is lower than those
+released at the poles. This indicates that the acceleration               The left panel of Figure 9 shows that particles that are
+efficiency, or number of accelerated particles, is somewhat            initially injected where the local magnetic field is close to
+lower for particles injected near the equator than at the poles.       parallel to the shock normal are more efficiently injected than
+However, the acceleration efficiency at the equator is sufficient,     those where the local field is close to normal to the shock. For
+given the very high rate of acceleration there, that ultimately,       this case, the coherence scale of the turbulent fluctuations is
+the highest-energy particles in the system were initially              smaller than the final shock radius, and obviously is smaller
+released near the equator.                                             than the shock radius throughout the entire simulation. The
+                                                                       results suggest that for this case, injection is very much a local
+   Figure 8 is of the same format as Figure 7, but differs in the      process--that is, the injection is determined by the local shock-
+variance of the upstream turbulence. Figure 7, which shows             normal angle. This is consistent with previous studies of quasi-
+results from Run 5 in Table 1, is the case of a smaller variance       planar shocks that either do not include preexisting upstream
+of s2 = 0.3; in contrast, Figure 7 is for the case of s2 = 1           magnetic turbulence (Burgess 1987; Giacalone & Ellison 2000;
+(Run 2). We see the same overall behavior discussed above, but         Caprioli & Spitkovsky 2014) or do not include magnetic field-
+there are several noteworthy differences. For the case of a            line meandering (Baring et al. 1994). In contrast, for the case in
+smaller turbulence variance, the vast majority of lower-energy         which Lc is much smaller than the final shock radius, the
+particles, with energies between 5 < E ER < 500, were                  difference between particles injected where the field is nearly
+injected near the polar regions. Very few originated near the          parallel to the shock is much smaller than for particles injected
+equator. This difference is considerably larger for the case of a      where the field is more perpendicular. For this case, the
+smaller variance than for the larger variance used for Figure 7.       acceleration efficiency at the perpendicular shock (on average)
+The reason for this is that when the upstream turbulence has a         is quite high, even close to that at the parallel shock. This is
+small variance, fewer particles are injected at the quasi-             consistent with the findings of Giacalone (2005a, 2005b). It
+perpendicular shock (cf. Giacalone 2005a). However, because            should be noted that particles exist on average in the system
+the variance is smaller, the cross-field diffusion coefficient is      many thousands, even millions, of gyroperiods from the time
+also smaller (e.g., Giacalone & Jokipii 1999), and hence, the          they are released to the maximum simulation time. Those that
+acceleration rate, which scales as the inverse of the diffusion        encounter the shock many times, they experience a wide range
+coefficient, at the perpendicular shock is much higher than in         of local shock-normal angles each time they cross. The shock-
+the case of a larger turbulence variance (see the dashed curve in      normal angle when it is released is not the same the next time a
+Figure 6(c)). Thus, although the rate of injection of particles        particle encounters the shock.
+released near the equator is lower, the acceleration rate is
+higher. Moreover, the weaker turbulence also leads to a larger
+
+                                                                    8
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20            Giacalone
+
+Figure 9. Energy spectra based on the final velocities of the particles, but sorted by their initial release location relative to the "local" magnetic field. mL,0 = cos qL0,
+where qL0 is the angle between the local magnetic field and unit shock normal (radially outward) at the time each particle was released at the shock. In all cases, the
+maximum time, which is when the spectra are computed, are the same. Thus, the final shock radius is the same in all panels. The coherence scale of the fluctuations is
+
+varied. It is the largest in the leftmost panel and smallest in the rightmost panel.
+
+           4. Implications for Astrophysical Shocks                   applicable to the acceleration at very low energies--the injection
+                                                                      process--at SN shocks. An important parameter is the ratio of
+   Supernovae (SNe) blast waves are examples of an approxi-           the turbulence coherence scale to the radius of curvature of the
+mately spherically propagating shock front moving into a quasi-       blast wave, L = Lc Rsh. When L  1, the injection process is
+uniform medium containing a large-scale turbulent magnetic            not local, and particles are injected with nearly the same
+field. Older SN shocks have typical radii of several parsecs.         efficiency at the quasi-perpendicular shock as they are at the
+Assuming Rsh = 10 pc, a shock speed of Vsh = 2000 km s-1,             quasi-parallel shock. In contrast, when L > 1, the injection is
+and an interstellar field strength of 3 G, we obtain                  determined largely by the local orientation of the magnetic field
+Rsh rG0 ~ 4 ´ 109 for protons injected with a speed Vsh at            relative to the shock.
+the shock front. This is a few orders of magnitude larger than
+what we were able to simulate. We also assumed a constant                There is some question as to the value of Lc in interstellar
+shock speed, whereas SN shocks slow down with time as in the          space. Some studies report values on the order of a few pc
+well-known Sedov solution. Thus, our results are not directly         (Minter & Spangler 1996; Haverkorn et al. 2004; Malkov et al.
+applicable to the global acceleration of high-energy cosmic rays      2010; Iacobelli et al. 2013; Schwadron et al. 2014), whereas
+at an SN shock, but they may provide useful insights. For             others report a much higher value, on the order of 100 pc
+instance, we found that high-energy particles collect near the        (Lazaryan & Shutenkov 1990; Ohno & Shibata 1993;
+shock surface where the field lines have been connected to the        Haverkorn et al. 2006, 2008; Chepurnov & Lazarian 2010).
+shock the longest--the poles of the blast wave, in our case. This     It has been suggested that the higher value is that between the
+was seen in all our simulations, although those that used only a      spiral arms of the Milky Way and the lower value within the
+single field realization also had considerable localized random       spiral arms (cf. the review by Haverkorn & Spangler 2013).
+intensity enhancements. This result is likely applicable to SN        Regardless of the value, very young SN shocks clearly have a
+shocks that show a global X-ray asymmetry (cf. review by              radius of curvature that is likely smaller than Lc and the
+Reynolds 2008). This does not imply, however, that this is where      injection more likely local. For older SN shocks that are very
+the most rapid acceleration occurs. We found that the highest-        large, the injection is likely to be as efficient at the quasi-
+energy particles initially were injected near the equator, where      perpendicular region as it is at the quasi-parallel region.
+the shock normal is perpendicular to the mean magnetic field and
+where the acceleration is the most rapid. Our results are also           Transient interplanetary shocks in the solar wind are another
+                                                                      important application. Although they are not necessarily the
+                                                                      result of blast waves, their fronts are nevertheless non-planar.
+
+                                                                   9
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20                                                                                                Giacalone
+
+Shocks driven by coronal mass ejections (CMEs), for example,           presented, the results and interpretation are qualitatively
+produce very intense energetic particle events (Kahler et al.          similar.
+1984; Gosling 1993; Reames 1999; Cane & Lario 2006; Desai
+& Giacalone 2016). The global radius of the curvature of CME-             Another application is planetary bow shocks. For the case of
+driven shocks are on the order of their distance from the Sun,         Earth's bow shock, for example, the radius of curvature is
+and the turbulence coherence scale of the interplanetary               much smaller than Lc in the interplanetary magnetic field. Thus,
+magnetic field at 1 au is measured to be about 0.01 au (Jokipii        the acceleration of low-energy particles is determined largely
+& Coleman 1968; Matthaeus et al. 1986). Thus, for these                by the local shock-normal angle. Diffuse ions, accelerated by
+shocks, L  1, and we expect the injection of particles to be           the bow shock, are known to exist in the quasi-parallel portion
+nearly as efficient when the shock moves normal to the average         of the bow shock (Paschmann et al. 1981). It is interesting to
+magnetic field as when it moves along it. This may explain why         note that this is also the region where the field lines have been
+the intensity of low-energy (40 keV) solar particle events             connected to the shock the longest.
+does not show a strong dependence on the shock-normal angle
+(van Nes et al. 1984; Lario et al. 2005; Giacalone 2012), and                                      5. Conclusions
+why solar particles are usually enhanced at quasi-perpendicular
+shocks (cf. Decker et al. 1981). In some cases, even the                  We have performed several numerical simulations of particle
+acceleration of the thermal solar wind is found to be the source       acceleration at a spherical-shock wave moving into a uniform
+of higher-energy particles at quasi-perpendicular shocks               plasma containing a static turbulent magnetic field with a
+(Neergaard-Parker et al. 2014). It has been argued, however,           uniform mean. The shock in our model moves radially away
+that there must be a significant injection-threshold difference        from the origin with a constant speed. The angle between the
+between quasi-parallel and quasi-perpendicular shocks nearer           mean magnetic field and the shock propagation direction varies
+the Sun to explain certain compositional features seen in some         along the shock surface, being zero at both poles and 90
+solar energetic particle (SEP) events (Tylka & Lee 2006). SEP          degrees at the equator. In addition, the irregular turbulent
+events are also known to have a lateral asymmetry in the               component of the magnetic field leads to variations in the local
+behavior of the flux versus time, which is generally attributed        shock-normal angle. We numerically integrated the trajectories
+to the direction of propagation of the CME relative to the             of several million test particles released uniformly, isotropi-
+observer, and the evolution of the magnetic connection                 cally, and mono-energetically at the shock, with a constant flux,
+between the observer and the CME (Cane et al. 1988; Reames             and with a speed equal to the shock speed. From the final
+1999; Desai & Giacalone 2016). Moreover, as a CME-driven               particle position and energy, we determined distribution
+shock expands through the complex magnetic fields in the solar         functions, and energy spectra as functions of position and time.
+corona, the shock-normal angle varies along its surface, which
+leads to variations in the particle intensity, as noted by                The key results from our study are that (a) particles with
+Schwadron et al. (2015). Our results are not directly applicable       energies much higher than the injection energy (the same as the
+in this cases since we assumed a uniform average magnetic              shock ram energy, in our case) are most intense near the poles
+field in the unshocked plasma, as opposed to a Parker-spiral or        of the shock, where the mean magnetic field is parallel to the
+coronal magnetic field; however, based on our study, we                shock normal; (b) the highest-energy particles initially
+predict that high-energy particles are most intense at places          encountered the shock near the equator, where the shock
+along the shock where the field lines have been connected to           normal is perpendicular to the mean magnetic field; (c) when
+the shock the longest.                                                 the magnetic turbulence coherence scale, Lc, is larger than the
+                                                                       final radius of curvature of the shock, Rsh, the injection
+   The solar wind termination shock (TS) is another important          efficiency is largely determined by the angle between the local
+application. The radius of curvature of the TS is on the order of      magnetic field and shock-normal angle; and (d) when
+100 au, and Lc is certainly much smaller than this. Both               Rsh  Lc, the dependence of the injection efficiency on the
+Voyagers observed significant enhancements of low-energy               local shock-normal angle is much weaker.
+particles when they crossed the TS (Decker et al. 2005, 2008),
+and its surface was found to be very nearly perpendicular to the          The results of our study show that the evolution of the global
+interplanetary magnetic field (Burlaga et al. 2008). This is           topology of the magnetic field and shock surface shape have a
+consistent with our results (see also Giacalone & Decker 2010).        significant influence on the resulting variation in the intensity
+Higher-energy anomalous cosmic rays, however, did not peak             and energy spectrum of accelerated charged particles along the
+at the shock, and instead their intensity continued to increase        shock, as well as on their dynamical evolution in time. This is
+well beyond the TS (Stone et al. 2008). One explanation of this        relevant to a number of astrophysical shocks, as discussed in
+relies on the magnetic topology and TS shape--particularly             the previous section.
+that the shock is blunt shaped (Jokipii et al. 2004), and the
+nearly azimuthal interplanetary magnetic field leads to a                 I gratefully acknowledge useful conversations on this work
+configuration in which field lines at the "flanks" (or sides) of       with Randy Jokipii and Jozsef Kota. Randy Jokipii first
+the TS have been connected to the shock the longest. Because           interpreted the effect of cosmic rays collecting at the poles of a
+of this configuration, ACRs have the highest intensity near the        supernovae blast wave in unpublished diffusive shock accel-
+flanks and are transported in the shocked solar wind plasma in         eration calculations, which are also consistent with results
+the heliosheath, peaking well beyond the shock in the direction        presented in this study. I also acknowledge support from the
+of the Voyagers' path (McComas & Schwadron 2006; Kòta &                International Space Science Institute (ISSI), and useful
+Jokipii 2008; Schwadron et al. 2008). Although the magnetic            conversations with the members of the ISSI international team
+topology of the TS differs from that in the simulations we             "Physics of the Injection of Particle Acceleration at Astro-
+                                                                       physical, Heliospheric, and Laboratory Collisionless Shocks,"
+                                                                       led by R.Yamazaki and S.Matsukiyo, selected in 2013.
+                                                                       Conversations with A.Spitkovsky, in particular, partially
+                                                                       motivated this study. This work was supported, in part, by
+
+                                                                   10
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20                                                                    Giacalone
+
+NASA under grants NNX15AJ71G and NNX15AJ72G, and by                       and for the other two components, it is
+the NSF under grant AGS1135432.
+                                                                          ¶ (rBq,f(r, q, f, t)) = - ¶ (rU (r, t)Bq,f(r, q, f, t)). (6)
+                                                                          ¶t                           ¶r
+
+                              Appendix A                                     The derivatives appearing in these equations are with respect
+                          Numerical Model                                 to r and t only.
+
+              A.1. Spherical Shock: Plasma Velocity                          It is convenient to define a new variable z = r - Vsh t. From
+                                                                          Equation (4), we see that U is a function of  only. Replacing r
+   We consider a spherical shock moving radially outward from             with  in Equations (2) and (3), we find
+the origin of our coordinate system with a speed Vsh. We take
+this speed to be a constant and far greater than the sound and                    ¶               ¶
+Alfvén speed of the ambient gas through which the shock                            + U (z) ((z + Vsh t) Br) = 0    2          (7)
+propagates. The Mach numbers of the shock are very large, and
+therefore the plasma density increases by a factor of 4 across                     ¶t             ¶z 
+the shock everywhere along its surface (assuming an ideal
+monotonic gas). The ambient unshocked gas is assumed to be                and
+stationary. For r > Rsh = Vsh t, where r is radial distance from
+the origin and t is time, U = 0, where U is the plasma velocity.               ¶                  ¶
+For r < Rsh, we take U = U (r, t)r^.                                            + U (z) ((z + Vsh t)U (z)Bq,f) = 0.           (8)
+                                                                                ¶t                ¶z 
+   It is most convenient, as we show below, to also assume that
+the flow speed is constant in the region behind the shock wave.           These imply that (z + Vsh t)2Br and (z + Vsh t)Bq,f are constant
+We do not explicitly include a source of plasma or magnetic               along the characteristics of the plasma flow, U (z ). The
+field in our model, therefore, as we discuss further in the next          characteristic equation is dr dt = U (r, t). Thus, it follows that
+subsection, our solution is only practically applicable for
+r > (3 4)Rsh. The transition between the ambient and shocked                        dz = dr - Vsh = U (z) - Vsh, (9)
+plasma occurs over a scale, DS, assumed to be very small                            dt dt
+compared to the gyroradii of the particles of interest. For all
+simulations performed in this study, we take DS = 5c wp,                  where U (z ) is given by Equation (4). This equation is readily
+where c is the speed of light and wp is the proton plasma                 solved by integrating from some starting point (z0, t0) to (z, t),
+frequency in the ambient gas ahead of the shock.                          giving the required characteristic path to determine the
+
+   We assume a radial plasma flow velocity U = U (r, t)r^, with           magnetic field everywhere, provided it is known at the starting
+the following functional form:
+                                                                          point. We take the starting point to be far upstream of the
+                                                                          shock, in the ambient gas, so that z0  0. After some
+
+                                                                          manipulation, it follows that the complete solution, in terms
+                                                                          of the original variables (r, t), is given by
+
+                                                                                                       Vsh   r¢ 2
+                                                                               Br (r, q, f, t) =              Br,0(r¢, q, f)
+U (r, t) = Vsh 1 -       2                                                                        Vsh - U (r, t)  r 
+                                      . (4)
+      5 - 3 tanh((r - Vsh t) DS)                                                                             r¢ 
+                                                                          Bq,f(r, q, f, t) =           Vsh   Bq,f,0(r¢, q, f), (10)
+
+                                                                                                  Vsh - U (r, t)  r 
+
+   This form for U allows for an exact solution to Maxwell's              where
+equations for the magnetic field in the region behind the shock
+for the case in which the ambient gas has a turbulent irregular              r¢ = (5 2)(r - Vsh t)
+magnetic field. It is also is consistent with the description of the               - (3 2)DS ln [2 cosh((r - Vsh t) DS)] + Vsh t, (11)
+plasma flow given above. Note that for r  Vsh t, the flow
+moves with a speed (3 4)Vsh, and for r  Vsh t, the flow speed             and Br,0, Bq,0, Bf,0 are the components of the magnetic field in
+is zero. This is consistent with that expected of a strong shock          the ambient gas, which is a combination of a mean part that
+propagating radially outward from the origin.                             points in the z direction and has a magnitude B0, and an
+                                                                          irregular or random part. The random component of the
+   We also note that our assumed form of U has a non-zero                 magnetic field in the unshocked ambient gas is determined
+divergence in the plasma behind the shock. This will lead to a            from a sum of a large number of individual plane waves with
+cooling of the charged particles in this region. The cooling              isotropically distributed wavevectors and random phases. The
+timescale can be readily shown to be on the order of 2r Vsh.              fluctuations are assumed to be static in this frame. We use the
+                                                                          same form for the fluctuating part as described in Giacalone &
+       A.2. Spherical Shock: Electric and Magnetic Field                  Jokipii (1999) and Giacalone (2005a) with the appropriate
+                                                                          transformation of the Cartesian components to spherical
+   The electric and magnetic field vectors, E, B, respectively,           components. The amplitude of each wavemode is determined
+are obtained by solving Maxwell's equations using the plasma              from an assumed power spectrum of the form
+velocity discussed above, and assuming ideal magnetohydro-
+dynamics. It is readily shown from Faraday's law (and                                  P (kn) = 1 + (kn Lc )g A , (12)
+ · B = 0) that the evolution of the radial component is
+given by
+
+¶                   ¶ 2                                                   where kn is the wavenumber of each mode, Lc is the turbulence
+ + U (r, t) [r Br (r, q, f, t)] = 0,    (5)                               coherence scale,  is the power spectral index, and A is a
+ ¶t                 ¶r 
+                                                                          normalization constant that can be determined by noting that
+
+                                                                      11
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20                                                                                                 Giacalone
+
+the integral of the power spectrum over all wavemodes is the            shock), we have
+total variance, which is an input parameter. In all simulations
+presented in this study, we assume fully three-dimensional                    gg »  k cos2 q + k^ sin2 k q =  sin2 q + cos2 1 q , (16)
+Kolmogorov turbulence so that g = 2 + 5 3 = 11 3 (for
+details, see Giacalone & Jokipii 1999). The spacing between             where  = k^ k, and g is the acceleration rate for q = 0. This
+wavemodes, Dkn, is logarithmic, such that Dkn kn = 0.05.                equation is plotted in Figure 6(c) for two different values of ò,
+The minimum and maximum wavelengths are 0.5rG0 and                      which is assumed to be independent of energy as suggested by
+106rG0, respectively, where rG0 is the gyroradius of a particle         numerical simulations (Giacalone & Jokipii 1999).
+released in a field of strength B0 with a speed Vsh.
+                                                                                                       References
+   The electric field is related to the plasma flow velocity and
+the magnetic field using the usual ideal MHD approximation:             Axford, W. I., Leer, E., & Skadron, G. 1977, Proc. ICRC, 11, 132
+                                                                        Baring, M. G., Ellison, D. C., & Jones, F. C. 1994, ApJS, 90, 547
+                         E = - 1 U ´ B. (13)                            Bell, A. R. 1978, MNRAS, 182, 147
+                                   c                                    Bell, A. R. 2004, MNRAS, 353, 550
+                                                                        Blandford, R. D., & Ostriker, J. P. 1978, ApJL, 221, L29
+Because of our assumption of a constant plasma flow speed               Burgess, D. 1987, AnGeo, 5, 133
+behind the shock, our solution is only valid for r > (3 4)Rsh.          Burlaga, L. F., Ness, N. F., Acuna, M. H., et al. 2008, Natur, 454, 75
+The flow inside the shock has a speed (3 4)Vsh; thus, in a time         Cane, H. V., & Lario, D. 2006, SSRv, 123, 45
+t, a parcel of plasma located at r would have originated at             Cane, H. V., Reames, D. V., & von Rosenvinge, T. T. 1988, JGR, 93, 9555
+r - (3 4)Vsh t. Since r cannot be negative, there must be a             Caprioli, D., & Spitkovsky, A. 2014, ApJ, 783, 91
+source of plasma and magnetic field at the origin in order to           Chepurnov, A., & Lazarian, A. 2010, ApJ, 710, 853
+permit our solution for r < (3 4)Vsh t. We do not explicitly            Decker, R. B. 1990, JGR, 95, 11993
+include a source of magnetic field or plasma. As a                      Decker, R. B., Krimigis, S. M., Roelof, E. C., et al. 2005, Sci, 309, 2020
+consequence, B = 0 at r = (3 4)Vsh t. It can be readily shown           Decker, R. B., Krimigis, S. M., Roelof, E. C., et al. 2008, Natur, 454, 67
+from Equation (11) that r¢ = 0 at r = (3 4)Rsh. Because the             Decker, R. B., Pesses, M. E., & Krimigis, S. M. 1981, JGR, 86, 8819
+field vanishes at this position, the electric field also vanishes.      Desai, M. I., & Giacalone, J. 2016, LRSP, 13, 3
+Thus, any particle at this position would experience no force.          Forman, M. A., & Drury, L. 1983, Proc. ICRC, 2, 267
+As a result, particles never move inside the radius (3 4)Rsh in         Forman, M. A., & Morfill, G. 1979, Proc. ICRC, 5, 325
+all our simulations.                                                    Giacalone, J. 1994, GeoRL, 21, 2441
+                                                                        Giacalone, J. 2003, P&SS, 51, 659
+                              Appendix B                                Giacalone, J. 2005a, ApJ, 624, 765
+              Acceleration Rate at a Planar Shock                       Giacalone, J. 2005b, ApJL, 628, L37
+                                                                        Giacalone, J. 2012, ApJ, 761, 28
+   The time-dependent solution to the Parker equation applied           Giacalone, J., Burgess, D., Schwartz, S. J., Ellison, D. C., & Bennett, L. 1997,
+to a planar shock gives a distribution function, downstream of
+the shock, that is a power law from initial momentum to a 'cut-            JGR, 102, 19789
+off' momentum pc, above which the spectrum falls off sharply.           Giacalone, J., & Decker, R. B. 2010, ApJ, 710, 91
+pc increases with time with a rate, , that is approximately             Giacalone, J., & Ellison, D. C. 2000, JGR, 105, 12541
+(Forman & Morfill 1979; Jokipii 1987, 1992)                             Giacalone, J., & Jokipii, J. R. 1999, ApJ, 520, 204
+                                                                        Giacalone, J., & Jokipii, J. R. 2007, ApJL, 663, L41
+                g = 1 dpc » U1 , (14) 2 (r - 1)                         Giacalone, J., & Jokipii, J. R. 2009, ApJ, 701, 1865
+                      pc dt 3r (kxx1 + rkxx2)                           Gosling, J. T. 1993, JGR, 98, 18937
+                                                                        Guo, F., Jokipii, J. R., & Kòta, J. 2010, ApJ, 725, 128
+where U1 is the plasma flow speed upstream of the shock, in a           Guo, F., Li, S., Li, H., et al. 2012, ApJ, 747, 98
+frame moving with the shock, r is the ratio of the downstream           Haverkorn, M., Brown, J. C., Gaensler, M. M., & McClure-Griffiths, N. M.
+to upstream plasma density, and kxx1,2 is the diffusion
+coefficient normal to the shock upstream (1) and downstream                2008, ApJ, 680, 362
+(2) of the shock.  is the acceleration rate.                            Haverkorn, M., Gaensler, M. M., Brown, J. C., et al. 2006, ApJL, 637, L33
+                                                                        Haverkorn, M., Gaensler, M. M., McClure-Griffiths, N. M., Dickey, J. M., &
+   The diagonal elements of the spatial diffusion tensor can be
+decomposed into components along and across the magnetic                   Green, A. J. 2004, ApJ, 609, 776
+field as (cf. Giacalone & Jokipii 1999)                                 Haverkorn, M., & Spangler, S. R. 2013, SSRv, 178, 483
+                                                                        Iacobelli, M., Haverkorn, M., & Katgert, P. 2013, A&A, 549, A56
+                 kij = k^dij + (k - k^) 2 Bi Bj , (15)                  Jokipii, J. R. 1966, ApJ, 146, 480
+                                                B                       Jokipii, J. R. 1982, ApJ, 255, 716
+                                                                        Jokipii, J. R. 1987, ApJ, 313, 842
+where dij is the Kronecker delta and Bi is the magnetic field           Jokipii, J. R. 1992, in AIP Conf. Proc. 264 Particle Acceleration in Cosmic
+vector.
+                                                                           Plasmas, ed. G. P. Zank & T. K. Gaisser (Melville, NY: AIP), 137
+   Noting that Bx = B cos q and Bz = B sin q, then kxx =                Jokipii, J. R., & Coleman, P. J. 1968, JGR, 73, 5495
+k cos2 q + k^ sin2 q. Assuming, for simplicity, that kxx2               Jokipii, J. R., Giacalone, J., & Kòta, J. 2004, ApJL, 611, L141
+kxx1 (due to the enhancement of magnetic turbulence behind the          Jokipii, J. R., Kòta, J., & Giacalone, J. 1993, GeoRL, 20, 1759
+                                                                        Jones, F. C., Jokipii, J. R., & Baring, M. G. 1998, ApJ, 509, 238
+                                                                        Kahler, S. W., Sheeley, N. R., Jr., Howard, R. A., et al. 1984, JGR, 89, 9683
+                                                                        Kòta, J. 2010, ApJ, 723, 393
+                                                                        Kòta, J., & Jokipii, J. R. 2008, in AIP Conf. Proc. 1039, Particle Acceleration
+
+                                                                           and Transport in the Heliosphere and Beyond, ed. G. Li et al. (Melville,
+                                                                           NY: AIP), 397
+                                                                        Krymsky, G. F. 1977, DoSSR, 234, 1306
+                                                                        Lario, D., Hu, Q., Ho, G. C., et al. 2005, in Proc. of Solar Wind 11/SoHO 16,
+                                                                           Connecting Sun and Heliosphere Conf. (ESA SP-592), ed. B. Fleck,
+                                                                           T. H. Zurbuchen, & H. Lacoste (Paris: ESA), 81
+                                                                        Lazaryan, A. L., & Shutenkov, V. P. 1990, SvAL, 16, 297
+                                                                        Lee, M. A. 1983, JGR, 88, 6109
+                                                                        Leroy, M. M., Goodrich, C. C., Winske, D., Wu, C. S., & Papadopoulos, K.
+                                                                           1981, GeoRL, 8, 1269
+
+                                                                    12
+The Astrophysical Journal, 848:123 (13pp), 2017 October 20                                                                                                           Giacalone
+
+Malkov, M. A., Diamond, P. H., Drury, L. O'C., & Sagdeev, R. Z. 2010, ApJ,        Schwadron, N. A., Lee, M. A., Gorby, M., et al. 2015, ApJ, 810, 97
+   721, 750                                                                       Schwadron, N. A., Lee, M. A., & McComas, D. J. 2008, ApJ, 675
+
+Matthaeus, W. H., Goldstein, M. L., & King, J. H. 1986, JGR, 91, 59                  1584
+McComas, D. J., & Schwadron, N. A. 2006, GeoRL, 33, L04102                        Sckopke, N., Paschmann, G., Bame, S. J., Gosling, J. T., & Russell, C. T. 1983,
+Minter, A. H., & Spangler, S. R. 1996, ApJ, 458, 194
+Neergaard-Parker, L., Zank, G. P., & Hu, Q. 2014, ApJ, 782, 52                       JGR, 88, 6121
+Ohno, H., & Shibata, S. 1993, MNRAS, 262, 953                                     Stone, E. C., Cummings, A. C., McDonald, F. B., et al. 2008, Natur, 454, 71
+Parker, E. N. 1965, P&SS, 13, 9                                                   Tylka, A. J., & Lee, M. A. 2006, ApJ, 646, 1319
+Paschmann, G., Skopke, N., Papamastorakis, I., et al. 1981, JGR, 86, 4355         van Nes, P., Reinhard, R., Sanderson, T. R., Wenzel, K.-P., & Zwickl, R. D.
+Press, W. H., Flannery, B. P., Teukolsky, S. A., & Vetterling, W. T. 1986,
+                                                                                     1984, JGR, 89, 2122
+   Numerical Recipes (Cambridge: Cambridge Univ. Press)                           Völk, H. J., Berezhko, E. G., & Ksenofontov, L. T. 2003, A&A, 409, 563
+Reames, D. V. 1999, SSRv, 90, 413                                                 Winske, D. 1985, in Collisionless Shocks in the Heliosphere: Review of
+Reynolds, S. P. 2008, ARA&A, 46, 89
+Schwadron, N. A., Adams, F. C., Christian, E. R., et al. 2014, Sci, 343, 988         Current Research, Vol.35, ed. B. T. Tsuratani & R. G. Stone (Washington,
+                                                                                     D.C: AGU), 225
+                                                                                  Zank, G. P., Li, G., Florinski, V., et al. 2006, JGR, 111, A06108
+
+                                                                              13
+

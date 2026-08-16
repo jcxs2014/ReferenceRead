@@ -1,0 +1,1162 @@
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                                   doi:10.1088/0004-637X/783/2/91
+
+C 2014. The American Astronomical Society. All rights reserved. Printed in the U.S.A.
+
+SIMULATIONS OF ION ACCELERATION AT NON-RELATIVISTIC SHOCKS. I. ACCELERATION EFFICIENCY
+
+                                                           D. Caprioli and A. Spitkovsky
+
+                      Department of Astrophysical Sciences, Princeton University, 4 Ivy Ln., Princeton, NJ 08544, USA; caprioli@astro.princeton.edu
+                                                 Received 2013 October 9; accepted 2014 January 13; published 2014 February 20
+
+                                                                        ABSTRACT
+
+          We use two-dimensional and three-dimensional hybrid (kinetic ions-fluid electrons) simulations to investigate
+          particle acceleration and magnetic field amplification at non-relativistic astrophysical shocks. We show that diffusive
+          shock acceleration operates for quasi-parallel configurations (i.e., when the background magnetic field is almost
+          aligned with the shock normal) and, for large sonic and Alfve´nic Mach numbers, produces universal power-law
+          spectra  p-4, where p is the particle momentum. The maximum energy of accelerated ions increases with time,
+          and it is only limited by finite box size and run time. Acceleration is mainly efficient for parallel and quasi-parallel
+          strong shocks, where 10%-20% of the bulk kinetic energy can be converted to energetic particles and becomes
+          ineffective for quasi-perpendicular shocks. Also, the generation of magnetic turbulence correlates with efficient ion
+          acceleration and vanishes for quasi-perpendicular configurations. At very oblique shocks, ions can be accelerated
+          via shock drift acceleration, but they only gain a factor of a few in momentum and their maximum energy does
+          not increase with time. These findings are consistent with the degree of polarization and the morphology of the
+          radio and X-ray synchrotron emission observed, for instance, in the remnant of SN 1006. We also discuss the
+          transition from thermal to non-thermal particles in the ion spectrum (supra-thermal region) and we identify two
+          dynamical signatures peculiar of efficient particle acceleration, namely, the formation of an upstream precursor and
+          the alteration of standard shock jump conditions.
+
+          Key words: acceleration of particles - ISM: supernova remnants - magnetic fields - shock waves
+
+          Online-only material: color figures
+
+                         1. INTRODUCTION                                                   -rays from SNRs are often interpreted to be of hadronic origin
+                                                                                          (see, e.g., Caprioli 2011; Ackermann et al. 2013), suggesting
+   The problem of finding the sources of the energetic extrater-                          that nuclei acceleration can be efficient at SNR forward shocks
+restrial nuclei that we call cosmic rays (CRs) is a long-lasting                          (about 10% in Tycho; see Morlino & Caprioli 2012).
+one. Baade & Zwicky (1934) proposed supernova remnants
+(SNRs) to be responsible for such non-thermal particles, requir-                             Understanding particle acceleration at non-relativistic shocks,
+ing about 10%-30% of the kinetic energy of the SN ejecta to be                            and the conditions that may favor it, is not a problem limited
+channeled into accelerated particles. This energetic argument,                            to SNRs, however. Most astrophysical shocks are collisionless,
+coupled with the acceleration mechanism put forward by Fermi                              i.e., energy and momentum conversion is not mediated by inter-
+(1949, 1954), was at the basis of the theory of diffusive shock                           particle collisions, the mean free path for Coulomb scattering
+acceleration (DSA) developed in the late 1970s by several au-                             being much larger than the size of the system, but rather by
+thors (Krymskii 1977; Axford et al. 1977; Bell 1978a, 1978b;                              collective electromagnetic processes. There are many examples
+Blandford & Ostriker 1978). The most important feature of the                             of collisionless shocks besides SNR ones, in a very wide range
+DSA mechanism is that the spectrum of the accelerated particles                           of scales: in the solar system (e.g., the Earth's bow shock, the
+is predicted to be a universal power-law, with a spectral index                           interplanetary shocks triggered by coronal mass ejections, and
+that depends only on the shock compression ratio. Since for                               the solar-wind-related shocks), at the radio lobes of the jets of
+strong (i.e., large Mach number) shocks the compression ratio                             active galaxies, and also in clusters of galaxies. These shocks
+tends toward the asymptotic value of r = 4, particles are ex-                             span a wide range of sonic Mach numbers, magnetization, and
+pected to be accelerated with a spectrum f (p)  p-3r/(r-1)                                relative inclination between the shock velocity and the unper-
+p-4, with p being the modulus of the particle momentum (see,                              turbed magnetic field, but they are typically associated with
+e.g., Blandford & Ostriker 1978).                                                         some form of non-thermal emission, which attests to the pres-
+                                                                                          ence of accelerated particles.
+   This universality is crucial to account for the spectrum of
+Galactic CRs observed at Earth, which extends as a power-law                                 In many cases, astrophysical shocks are also associated with
+ E-2.7 from a few GeV up to a few times 106 GeV for protons,                              magnetic fields much larger than the ambient ones, up to
+and up to an additional factor Z for heavier nuclei with charge                           levels that cannot be accounted for by simple compression. For
+Z. The discrepancy between the spectrum predicted by DSA                                  instance, X-ray observations of young SNRs lead to inferred
+( E-2 in energy for relativistic particles) and the measured                              magnetic fields as large as a few hundreds G, a factor of 50-100
+one can be explained by accounting for the CR transport in                                larger than in the interstellar medium (see, e.g., Vo¨lk et al. 2005;
+the Galaxy (the residence time is inferred to be a decreasing                             Parizot et al. 2006 and references therein). Such amplified fields
+function of the energy) and for the differential escape from the                          are likely produced by accelerated ions via different plasma
+sources (e.g., Ptuskin & Zirakashvili 2005; Caprioli et al. 2011).                        instabilities (see, e.g., Bykov et al. 2013 for a review).
+Moreover, radio observations of SNRs suggest that the energy
+distribution of accelerated electrons (in the 1-10 GeV range) is                             CR spectra, acceleration efficiency, and magnetic field am-
+consistent with the DSA prediction (e.g., Trushkin 1998). Also,                           plification have been calculated via a two-fluid approach (see
+                                                                                          O'C. Drury 1983 for a review), via Monte Carlo simulations
+                                                                                          (e.g., Ellison et al. 1990, 1995, 1996; Jones & Ellison 1991;
+
+                                                                                       1
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                                                                                   Caprioli & Spitkovsky
+
+Niemiec & Ostrowski 2004; Vladimirov et al. 2006), as well as            previously not been reported in the literature. Moreover, for
+by solving the CR transport equation either numerically (e.g.,           the first time we present evidence for CR-modified shocks, i.e.,
+Berezhko & Vo¨lk 1997, 2004; Kang & Jones 1997, 2006; Kang               shocks whose dynamics is relevantly affected by the pressure
+et al. 2002; Zirakashvili & Aharonian 2010), or analytically             and energy density in the accelerated particles, which leads
+(Malkov 1997; Blasi 2002; Amato & Blasi 2006; Caprioli et al.            to very distinctive features like the formation of an upstream
+2010a; Caprioli 2012 and references therein). These methods              precursor and the modification of the standard jump conditions
+return very consistent results (Caprioli et al. 2010b), and can          of gaseous shocks. The improved energy conservation and
+tackle the large scale dynamics of the shock, also including the         longer run times compared to GS12 work enables us to refine
+CR back-reaction. Nevertheless, they need to be fed with micro-          the measurements of the accelerating efficiency of shocks as a
+physical prescriptions for particle scattering and injection, and        function of flow conditions.
+for the excitation of the magnetic turbulence.
+                                                                            The paper is structured as follows. In Section 2 we outline
+   To overcome these limitations and to self-consistently deal           the simulation technique and demonstrate that at strong parallel
+with the highly non-linear interplay between particles and elec-         shocks the momentum spectrum of accelerated ions is perfectly
+tromagnetic fields, numerical kinetic simulations are needed.            consistent with the prediction of DSA theory ( p-4), also
+Such simulations of non-relativistic collisionless shocks have           showing that its extent increases with time. In Section 3 we
+been carried out either in the full particle-in-cell (PIC) ap-           characterize the transition between thermal and non-thermal
+proach (see, e.g., Amano & Hoshino 2007, 2010; Riquelme &                particles, in particular discussing the properties of the peculiar
+Spitkovsky 2011; Niemiec et al. 2012), or in the hybrid (kinetic         supra-thermal region of the ion spectrum, while in Section 4
+ions-fluid electrons) approach (see, e.g., Winske 1985; Quest            we illustrate the dependence of the CR acceleration efficiency
+1988; Giacalone et al. 1993; Bennett & Ellison 1995; Winske              on the shock Mach number and magnetic inclination. An
+& Omidi 1996; Giacalone et al. 1997; Giacalone & Ellison                 important result is that, while at parallel shocks a fraction as
+2000; Giacalone 2004; Lipatov 2002; Gargate´ & Spitkovsky                large as 10%-20% of the shock ram pressure is converted into
+2012; Guo & Giacalone 2013 and references therein). A novel              accelerated ions, very oblique shocks are inefficient in producing
+approach to DSA exploiting Vlasov-Fokker-Plank simulations               energetic particles and magnetic turbulence (Section 5). The
+has also been recently proposed by Bell et al. (2013); such a            observational implications of these findings are also outlined,
+method does not include a self-consistent description of the in-         with special attention to the case of SN1006. Sections 6 and 7
+jection physics, but it represents a powerful tool for studying          provide a description of the dynamics of the CR-modified
+accelerated particles on large scales.                                   shocks and of the role played by shock drift acceleration
+                                                                         (SDA), respectively. The results of 3D simulations are shown in
+   In this paper we want to test, by means of kinetic hybrid             Section 8. We conclude in Section 9.
+simulations, the spectrum of ions accelerated at non-relativistic
+collisionless shocks via DSA, also investigating under which                     2. DIFFUSIVE SHOCK ACCELERATION
+conditions ion acceleration and magnetic field amplification are
+effective. Compared to PIC simulations, the hybrid approach              The simulations in this paper are carried out with the dHybrid
+does not resolve the small electron plasma scales, allowing
+us to simulate more macroscopic systems without losing any               code (Gargate´ et al. 2007), a massively parallel, Newtonian
+information about the shock dynamics, which is mostly driven
+by ions. Very importantly, the self-consistent treatment of the          (i.e., non-relativistic), hybrid code, in both its 2D and 3D
+interplay between accelerated particles and electromagnetic
+fields allows us to study the correlation between ion acceleration       configurations. Ions are treated kinetically and electrons as a
+and magnetic field amplification.
+                                                                         neutralizing fluid, with a prescribed polytropic equation of state.
+   We have performed two- and three-dimensional (2D and 3D)
+simulations of non-relativistic shocks with different strengths          Lengths are measured in units of the ion skin depth c/p, where
+(parameterized by how supersonic and super-Alfve´nic the up-
+stream flow is), and with different orientations of the initial mag-     c is the light speed and p = 4 ne2/m is the ion plasma
+netic field. The presented simulations cover an unprecedentedly
+large range of parameters that includes both weak and strong             frequency, with m, e, and n the ion mass, charge, and number
+shocks, and parallel, oblique and quasi-perpendicular configu-
+rations. A preliminary investigation of such a parameter space           density, respectively; time is measured in inverse cyclotron times
+has been performed, for instance, by Giacalone et al. (1997) and         -1
+Gargate´ & Spitkovsky (2012, hereafter GS12), but the present                 =  mc/eB0,  with  B0  the  strength  of  the  initial  magnetic
+one considerably improves on the previous analyses in several              c
+respects.
+                                                                         field. Finally, velocities are normalized to the Alfve´n speed
+   In particular, we improve on the work of GS12 by allowing             vA = B/ 4 mn = cp/c. All simulations include the three
+for much larger computational boxes and much longer time
+evolution, for a much larger parameter space in shock strengths          spatial components of the particle momentum, and the three
+and inclinations. We have also checked the results obtained in
+2D simulations against 3D ones, also performing an extensive             components of electric and magnetic fields.
+study of the dependence of the results on time resolution, which
+is crucial to account for the kinematics of high-energy particles,       Let us consider a 2D shock with Alfve´nic Mach number
+especially at high Mach numbers. All of these ingredients are
+necessary to properly lead to the formation of a power-law               MA = vsh/vA = 20, where we define vsh to be the upstream fluid
+tail, extending for orders of magnitude in the non-thermal
+regime with the slope predicted by the DSA theory, which has             velocity in the downstream reference frame. The initial magnetic
+
+                                                                         field B0 = B0x is in the same direction of vsh = -vshx (parallel
+                                                                         shock). Ions are initialized with thermal velocity vth = vA,
+                                                                         so that their temperature reads T0 = (1/2)mvA2 /kB , with
+                                                                         kB the Boltzmann constant. Electrons are initially in thermal
+
+                                                                         equilibrium with ions, i.e., Te = Ti = T0, and their adiabatic
+
+                                                                         index is chosen in such a way to reproduce the expected
+
+                                                                         jump conditions at the shock, as in GS12. The sound speed
+                                                                         is cs = 2 kBT0/m and hence the sonic Mach number
+                                                                         reads Ms = MA  , with  = 5/3 the ion adiabatic index.
+
+                                                                         This regime is typical of the cold interstellar medium: with
+                                                                         n = 0.1 cm-3, B0 = 3 G and T = 104 K one has
+                                                                         vA  cs  15 km s-1. Except when otherwise specified,
+
+                                                                      2
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                       Caprioli & Spitkovsky
+
+Figure 1. Downstream ion energy spectrum at different times, as in the legend. It is possible to note the thermal distribution, well fitted by a Maxwellian with
+temperature about 80% the one expected for Mach number 20 shock that does not accelerate particles (dashed line), and a non-thermal power-law tail extending to
+larger energies at later times. The spectrum is plotted multiplied by E1.5, to emphasize the agreement with the energy scaling predicted by DSA, which reads p-4 in
+momentum (see the inset and Equation (3)).
+
+(A color version of this figure is available in the online journal.)
+
+throughout the paper we indicate the shock strength simply                    Such a power-law is in remarkable agreement with the DSA
+                                                                              prediction for strong shocks for non-relativistic particles, as
+with M = MA  Ms. The reader may refer to, e.g., Giacalone                     we now discuss. In a nutshell, the DSA mechanism relies on
+                                                                              the fact that particles diffusing back and forth across the shock
+et al. (1997) for a survey of hybrid simulations of non-relativistic          repeatedly gain energy because of first-order Fermi acceleration
+                                                                              (Fermi 1954). The spectrum of the accelerated particles does
+shocks with different sonic and Alfve´nic Mach numbers.                       not depend on the details of the scattering, but only on the
+                                                                              density jump between upstream and downstream, r. For M 1
+The computational box measures (Lx, Ly) = (105, 102)                          the shock compression ratio is r 4, and the spectrum of
+                                                                              accelerated ions is predicted to be  p-q in momentum space,
+[c/p]2, with two cells per ion skin depth and 4 (macro)particles              with q = 3r/(r - 1) 4.
+
+per  cell;  the  time-step  is  chosen  as  t  =  5  ×  10-3-1.       The        The energy distribution f (E) can be calculated as
+
+                                                                   c              4p2f (p)dp = f (E)dE  f (E) = 4p2f (p) dp . (3)
+                                                                                                                                             dE
+shock evolution is followed for many ion cyclotron times, until
+t = 2500c-1.                                                                  In the non-relativistic regime E = p2/2m, so that (dp/dE) 
+                                                                              1/p  E-1/2 and f (E)  E-1.5; in the relativistic limit,
+The shock is produced by sending a supersonic flow against a                  instead, E  p and f (E)  E-2.
+
+reflecting wall (left side in figures); the interaction between                  In spite of the fact that simulations of non-relativistic col-
+                                                                              lisionless shocks have been performed for many years (see
+the initial stream and the reflected one produces a sharp                     Section 1), this is the first time--to our knowledge--that the
+                                                                              DSA prediction for strong shocks has been convincingly recov-
+discontinuity, which propagates to the right in the figures. As               ered in self-consistent simulations. Previous simulations, while
+                                                                              indeed showing evidence of supra-thermal ions and, occasion-
+a consequence, in the simulation the downstream fluid is at                   ally, of power-law distributions, have never been run for long
+                                                                              enough, and in sufficiently large computational boxes, to un-
+rest, and the kinetic energy of the upstream flow is converted                equivocally see ions accelerated through DSA over almost three
+                                                                              decades in energy (Figure 1). Moreover, in this work we account
+into thermal energy at the shock front. It is worth mentioning                for Mach numbers as large as 50, while most of the previous
+                                                                              work has been done for shocks with M 10; in such a regime
+that--in the literature--the shock Mach number is often quoted                the magnetosonic Mach number is vsh/ c2s + v2A 7, implying
+                                                                              r < 4 and, in turn, q > 4.
+as measured in the shock reference frame, here indicated as M~ ,
+                                                                                 dHybrid is a non-relativistic code, and cannot directly test
+which is related to M through the implicit relation                           the E-2 regime. However, the p-4 dependence is common to
+                                                                              both relativistic and non-relativistic particles; therefore, it is
+            M~ = M 1 + 1 , r = ( + 1)M~ (1) 2                                 reasonable to expect that the obtained momentum spectrum may
+                            r(M~ )          ( - 1)M~ 2 + 2                    really be universal.
+
+namely, M~ = 5/4M for a strong shock with r = 4.                                 By looking at the time evolution of the non-thermal ion
+   The downstream ion energy distribution is shown in Figure 1,               distribution in Figure 1, one notes that the spectral slope remains
+
+as a function of time; we can identify three main spectral
+regimes. At low energies, we have a thermal distribution, well-
+fitted with a Maxwellian (dashed line), the temperature of
+which--at late times--is 20% lower than the temperature one
+would predict for a strong shock without CRs. The main reason
+for this reduced heating of the downstream plasma is that about
+20% of the energy flux is channeled into non-thermal particles
+(also see Section 6 for more details on how CRs modify the
+global shock dynamics).
+
+   Always at late times, we see that the ion spectrum goes as
+E-1.5 for E 3Esh, where we introduced
+
+                 Esh = 1 mvsh2 = 1 mM2vA2 . (2)
+                            2           2
+
+                                                                           3
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                                                   Caprioli & Spitkovsky
+                                                     -4 -3.5 -3 -2.5 -2 -1.5 -1 -0.5
+                                                                                      0    0.5         1
+
+                                log [E f(E)] (t=2000-1)
+                                    10                                        c
+
+            3
+
+            2
+
+log (E/E )  1
+
+  10 sh     0
+
+            -1
+
+            -2
+
+            0    0.2  0.4  0.6      0.8                             1     1.2    1.4  1.6  1.8         2
+                                                                 x [c/p]
+                                                                                                x 104
+
+           100 Supra-thermal                                                          Post-shock
+                                                                                      Near downstream
+                                                                                      Far downstream
+
+E1.5 f(E)  10-1
+
+           10-2
+
+                           Thermal                               Non-thermal
+
+           10-3
+              10-1 10 inj 0 E 1021 102 103
+                                                                     E [mVsh/2]
+
+Figure 2. Top panel: ion energy spectrum (color code) as a function of x. The transition from the cold beam to the broad distribution marks the shock position,
+at 1150c/p. Note the population of high-energy ions diffusing ahead of the shock (for E 10Esh). Bottom panel: ion energy distribution at three different
+downstream locations, corresponding to the dashed boxes in the top panel. Immediately behind the shock (red curve) there is a "bridge" of supra-thermal particles
+smoothly connecting the thermal peak with the DSA power-law, while far downstream (blue curve) there is quite a sharp boundary between thermal and non-thermal
+ions at Einj  3-4Esh.
+
+(A color version of this figure is available in the online journal.)
+
+almost constant in time, while the high-energy cut-off, well-       namely, the determination of the conditions required for some
+fitted by an exponential  exp (-E/Emax) , with   1.5,               particles to take part in the DSA process.
+moves to larger and larger energies at later and later times.
+We stress that, since our simulation box is very large in the          In the past decades, many efforts have been dedicated to
+x-direction, Emax(t) is not artificially limited by the finite      the study of the effects of efficient acceleration at shocks (see
+size of the simulation until t 2000c-1 at least, but it is          references in Section 1), and in particular to the investigation
+only determined by the acceleration time. We will discuss the       of the dynamical back-reaction of CRs on the plasma flow
+properties of ion diffusion and the time evolution of Emax in a     and on the electromagnetic field. Excellent reviews on these
+more quantitative way in a forthcoming work.                        CR-modified shocks are, e.g., O'C. Drury (1983), Jones &
+                                                                    Ellison (1991), and Malkov & O'C. Drury (2001).
+               3. SUPRA-THERMAL PARTICLES
+                                                                       Any non-linear model of DSA, as well as any phenomenolog-
+   While far downstream the transition between the Maxwellian       ical model that aims to explain the non-thermal emission from
+and the power-law tail is very sharp, immediately behind the        astrophysical shocks, requires the knowledge of the fraction of
+shock the situation is quite different. As shown in Figure 2        particles injected in the power-law tail. Such a normalization
+(red curve), the post-shock ion distribution shows a "bridge"       can be worked out only within a self-consistent description of
+of about one order of magnitude in energy (from a few Esh           the shock transition, both in terms of electromagnetic fields and
+up to 10Esh), which can be fitted with a quite steep power-         particle distribution. Kinetic simulations can provide this infor-
+law  E-3. This spectral feature at supra-thermal energies           mation, which may then be fed into models that deal only with
+gradually disappears when moving downstream (Figure 2).             time- and length-scales much larger than the background plasma
+Far downstream ( 3000c/p behind the shock) the spectrum             ones. An assumption common to all of the non-linear approaches
+can be clearly separated into the thermal and the non-thermal       to DSA is that the shock is considered an infinitesimally thin
+distributions.                                                      transition where both isotropization and particle injection occur.
+
+   The supra-thermal region is important because it contains           A popular way of dealing with injection is represented by
+information about the thermalization of the incoming plasma         the thermal leakage model, which assumes that particles living
+stream. It also provides a hint that behind the shock there is      sufficiently far in the tail of the downstream Maxwellian, and
+a pool of particles with mildly non-thermal energies, which         sufficiently close to the shock, have gyroradii large enough to
+is crucial for understanding the problem of particle injection,     recross the shock in one orbit (see, e.g., Ellison et al. 1981;
+                                                                    Malkov 1997; Kang et al. 2002; Blasi et al. 2005). Conversely,
+                                                                    some authors interpreted the output of their kinetic simulations
+
+                                                                 4
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                Efficiency (%)                                                              Caprioli & Spitkovsky
+
+as evidence that most of the particles are injected by being                           15
+reflected at the shock surface (see Guo & Giacalone 2013                                                                                                                        M= 5
+and references therein), so that the idea of "leaking" may be                                                                                                                   M=10
+misleading.                                                                                                                                                                     M=30
+
+   The asymptotic (far downstream) ion distribution found in                           10 M=50
+our simulations shows that the fraction of injected particles can
+be effectively parameterized by defining a threshold energy,                            5
+Einj, which marks the boundary between the thermal and non-
+thermal distributions (see the bottom panel of Figure 2). The                          00  10  20  30  40      50  60  70  80
+number of non-thermal particles can be estimated by a simple
+continuity argument, the CR spectrum being steep enough to be                                           (deg)
+dominated by number by its lowest-energy boundary. If fth,d (E)
+is the Maxwellian distribution with the downstream temperature         Figure 3. Acceleration efficiency, defined as the fraction of the post-shock
+Td, the total number of injected ions must be calculated at            energy density in particles with E 10Esh, at t = 200c-1, for several
+fth(Einj).                                                             shock inclinations and Mach numbers. There is a very significant drop in the
+                                                                       acceleration efficiency for  45, and the largest efficiency is achieved for
+   In the context of the thermal-leakage model, the injection          fast, parallel shocks.
+momentum pinj = 2mEinj is expressed as a multiple of the
+downstream thermal momentum, namely,                                   (A color version of this figure is available in the online journal.)
+
+  pinj = injpth; pth = 2mkB Td .  (4)
+
+For a strong shock, pth = (4  - 1/( + 1)2)mvsh                         chosen as t = (0.01/M)c-1, in order to allow for a constant
+0.77mvsh, with  = 5/3. Note that here vsh is the velocity              Courant number (= vsht/x) throughout all the runs. The
+                                                                       shock evolution is followed until t = 200c-1 in all the cases. In
+of the upstream fluid in measured in the downstream reference          order to capture the potential role of the filamentation instability,
+                                                                       large computational boxes are needed (Caprioli & Spitkovsky
+frame, while the jump conditions are usually calculated in the         2013, hereafter CS13), and large Mach number shocks require
+                                                                       quite small time steps to enforce energy conservation, which is
+shock frame. From Figure 2 we infer Einj 4-5Esh, and thereby           not guaranteed in explicit hybrid methods (see, e.g., Giacalone
+                                                                       et al. 1993; Gargate´ et al. 2007).
+     inj 3-3.5 .                  (5)
+                                                                          We consider several obliquities, corresponding to  =
+A necessary caveat is that, even if we account for more than two       0, 20, 30, 45, 50, 60, 80 and several Mach numbers,
+                                                                       M = 5, 10, 30, 50, spanning a large parameter space meant
+orders of magnitude in the non-thermal tail, the energy spectrum       to account for the weak shocks in the solar system and in the
+                                                                       intra-cluster medium, but also for the strong shocks relevant for
+of the CRs accelerated, e.g., in SNR shocks, is expected to extend     SNRs.
+
+into the relativistic regime for several decades. Since the "real"        We checked the convergence of our results against the number
+                                                                       of particles per cell, the box size, and the time and space
+acceleration efficiency cannot be either larger than 1, or lower       resolution. This work extends the investigation of GS12 to
+than what we find (15%-20%), and since for a p-4 spectrum              much larger boxes, crucial not to artificially limit the growth of
+                                                                       Emax (because of ions escaping from the upstream boundary),
+the CR energy per decade is almost constant, a simple energetic        and to account for the effects of the filamentation instability.
+                                                                       Also, the simulations presented here have been run at a fixed
+argument suggests the normalization of a "real" CR spectrum to         Courant number (C  vsht/x), rather than at a fixed t
+be smaller by a factor of  log10(pmax/pinj) 5-10, depending            as in GS12: running a survey on M at a fixed time step
+on vsh/c, on pmax, and on the actual slope of the CR spectrum.         artificially suppresses ion acceleration at strong shocks, for
+                                                                       which energy is systematically worse conserved. Finally, GS12
+   The dependence on inj of the fraction of injected particles,        did not distinguish between supra-thermal and non-thermal ions,
+, is quite strong and reads:                                           thereby the acceleration efficiency they quote cannot be directly
+                                                                       interpreted as proper DSA efficiency. For all these reasons, we
+  4pi3njfth(pinj) 3  2                                                 argue that Figure 3 provides a physically consistent picture of
+      inj exp - inj .             (6)                                  CR acceleration efficiency at non-relativistic shocks, while the
+  n                                                                    results of GS12 are less conclusive. The present analysis also
+                                                                       extends the range of M up to 50, the range of  up to 80,
+An increase of 0.2-0.5 in the value of inj determined in self-         and supports the results obtained in the 2D configuration with
+consistent kinetic simulations should effectively compensate for       unprecedentedly large 3D simulations.
+the necessarily limited extension of the obtained non-thermal
+spectra. All these effects considered, we can conclude that               In Figure 3 the acceleration efficiency cr is plotted as a
+kinetic simulations suggest that for parallel non-relativistic         function of , for different Mach numbers, as in the legend.
+shocks a fraction of about 10-3-10-4 of the particles crossing         We define cr as the fraction of the post-shock energy density
+the shock is injected into the DSA process, and that the injection     in the shape of particles with energy larger than 10Esh. This
+momentum is pinj 3-4 pth. The actual mechanisms leading to             definition, independent of the shock Mach number, is consistent
+ion injection will be discussed in a forthcoming paper.                with the fact that these particles are observed to diffuse ahead of
+                                                                       the shock (see returning particles in the top panel in Figure 2),
+                4. ACCELERATION EFFICIENCY                             and to increase their energy with time. Alternative definitions
+
+   A crucial question is how ion injection and acceleration
+depend on shock strength (M) and obliquity, defined by the
+angle  between the normal to the shock and the background
+magnetic field B0.
+
+   To address this question, we have run several hybrid simula-
+tions with box size (Lx, Ly) = (40000, 500)[c/p]2, two cells
+for ion skin depth and four particles per cell; the time-step is
+
+                                                                    5
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                    Caprioli & Spitkovsky
+
+Btot/B0                                                                =0
+                                                                        = 20
+                                                                        = 30
+                                                                        = 45
+                                                                        = 50
+                                                                        = 60
+                                                                        = 80
+
+                                                                                                 x[c/p]
+
+Figure 4. Magnitude of the magnetic field for M = 30 shocks with different values of , as in the legend. Quasi-parallel configurations show magnetic field amplification
+in the upstream, up to factors of B/B0 = 3-4 ahead of the shock (at x  2000c/p), which implies quite large post-shock magnetic fields (Btot = 6-10B0, on
+average, with local peaks of Btot = 10-30B0). At quasi-perpendicular shocks, instead, the downstream magnetic field is just the one achieved by simple compression,
+apart from a narrow spike immediately behind the discontinuity.
+
+(A color version of this figure is available in the online journal.)
+
+or cuts in energy do not appreciably change the interpretation         corrugation driven by the CR precursor (CS13). These different
+of the results, as long as the two physical conditions above are       phenomena are illustrated in Figure 4, which shows the profile of
+met.                                                                   the magnitude of the magnetic field, averaged over the transverse
+                                                                       direction, for shocks with different inclinations and the same
+   The most striking result in Figure 3 is that the acceleration       M = 30.
+efficiency drops above   45. At quasi-parallel shocks (
+40), cr is almost independent of the inclination, especially for          The magnetic field topology is illustrated for M = 50
+low Mach numbers (M = 5, 10); conversely, cr tends to zero at          and different shock inclinations in Figures 6-8. The total
+high obliquities ( 60), at all the Mach numbers. Among the             magnetic field map (Figure 6) matches very well the density
+presented runs, the highest acceleration efficiency is achieved        pattern shown in Figure 5. In the parallel and quasi-parallel
+for M = 50, in the parallel configuration. For low-inclination         configurations, the filamentation instability (in the upstream)
+shocks, the typical efficiency is always between 5% and 15% at         and the Richtmyer-Meshkov instability (at the shock transition)
+the time considered (t = 200c-1). Since the maximum energy             produce the characteristic pattern of cavities and filaments
+is still increasing with time, these acceleration efficiencies may     discussed by Reville & Bell (2012) and CS13. Filaments
+not have saturated, yet. Comparisons with longer runs show that        always develop in the direction of the initial magnetic field B0,
+the evolution of cr with time is not strong, and that the value at     being produced by field-aligned currents. For high inclinations,
+t = 200c-1 is a good proxy of the value at later times for all         no magnetic modes are excited to non-linear levels in the
+the shock strengths and inclinations.                                  upstream, and the shock discontinuity results much sharper
+                                                                       than in the quasi-parallel cases. The physical explanation of
+   Our simulations clearly attest to a strong dependence of            this phenomenon is outlined in Section 7.
+the ion acceleration on the shock obliquity, favoring quasi-
+parallel shocks over quasi-perpendicular ones. These results              Figures 7 and 8 show the parallel and transverse (out of
+are quite different from those by GS12, where the maximum              plane) components of the magnetic field; the ordered parallel
+acceleration efficiency was achieved (1) for 15 shocks, and            component B0 cos  is subtracted from Bx to facilitate the
+(2) for M = 6. The reasons for these discrepancies are (1) the         comparison among different obliquities. As discussed by CS13,
+shock precursor is more extended for small , and is easily             when CR acceleration is efficient, the amplified field is coiled
+suppressed in simulations with small box in the longitudinal           around the upstream cavities, and turbulent in the downstream.
+direction; (2) simulations in GS12 have fixed t rather that fixed      At quasi-perpendicular shocks, instead, the downstream field is
+Courant numbers as those presented here; therefore, in GS12 the        mainly oriented along y, except in a thin layer (a few times the
+dynamics of high-energy particles is not properly accounted for        gyroradius of downstream thermal ions) behind the shock.
+at large M.
+                                                                          In the downstream, the spatial profile is quite different for
+            5. MAGNETIC FIELD AMPLIFICATION                            parallel and oblique cases. Quasi-perpendicular shocks show a
+                                                                       spike of strong field immediately behind the shock (the magnetic
+   Being driven by CR-induced instabilities, the magnetic field        overshoot associated with compression due to ion gyration; see,
+amplification naturally correlates with the abundance of non-          e.g., Alsop & Arons 1988), after which the field relaxes to its
+thermal ions. At quasi-perpendicular shocks, where acceleration        asymptotic value, according to the Rankine-Hugoniot condition
+is inefficient, the downstream magnetic field is ordered (along        B,d = rB,0. In parallel shocks, instead, the region with
+y) and only 4 times larger than the initial one, consistent with       large field (Bd  10B0) is much more extended, because of
+the simple compression of the transverse component of the field.       the amplification granted by the turbulent dynamo mechanism
+At quasi-parallel shocks, instead, the field is first amplified in     triggered by the corrugation of the shock surface (CS13).
+the precursor, then compressed at the shock, and eventually            Eventually, the magnetic field has to drop far downstream, in
+further enhanced by turbulent motions triggered by the shock           order to satisfy the asymptotic Rankine-Hugoniot condition
+                                                                       B,d = 0. The transverse magnetic field, which accelerated
+
+                                                                    6
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                                               Caprioli & Spitkovsky
+
+                                                         n/n0(t = 200c-1)  B0
+
+y[c/p]
+
+                                                                  x[c/p]
+
+y[c/p]
+
+                                                                  x[c/p]
+
+y[c/p]
+
+                                                                  x[c/p]
+
+y[c/p]
+
+                                                                  x[c/p]
+
+y[c/p]
+
+                                                                  x[c/p]
+
+y[c/p]
+
+                                                                  x[c/p]
+
+y[c/p]
+
+                                                                                                     x[c/p]
+
+Figure 5. Density maps for M = 50 shocks and  = 0, 20, 30, 45, 50, 60, 80, from top to bottom, respectively. The arrow indicates the direction of the initial
+magnetic field.
+(A color version of this figure is available in the online journal.)
+
+ions build up by winding and amplifying the initial field, must      and in the degree of polarization of the synchrotron emission
+relax on some damping length-scale, which is found to be larger      detected from astrophysical shocks.
+than the typical diffusion length of the accelerated ions.
+                                                                        The Galactic field is inferred to be coherent on scales of few
+   The amount of magnetic field amplification depends also on        tens of parsecs, comparable with the diameter of young SNRs. It
+the shock strength, as illustrated by Figure 9, which shows the      is thereby legitimate to wonder whether SNR blast waves might
+profile of Btot for shocks with different inclinations and Mach      allow to test different field obliquities in different regions of the
+numbers. Low Mach number shocks show the same trend out-             same object.
+lined for the M = 50 case, but the B/B factor is proportionally
+lower, both upstream and downstream. The fact that magnetic             In spite of the fact that it is usually hard to determine
+field amplification becomes more and more effective for stronger     the actual orientation of the Galactic magnetic field at SNR
+shocks is encouraging for large amplification factors inferred       locations, Reynoso et al. (2013) have exploited state-of-the-art
+in young SNRs, whose fast shocks are characterized by Mach           radio observations to claim evidence for the bilateral shape of
+numbers as large as 50-500.                                          the non-thermal emission of SN 1006 to be consistent with
+                                                                     a polar cap geometry. In other words, the two lobes showing
+            5.1. Observational Consequences: SN1006                  more prominent (radio and X-ray) synchrotron emission are
+                                                                     inferred to be orthogonal to the direction of the local Galactic
+   The strength and the degree of isotropy of the downstream         magnetic field. Very interestingly, these polar caps also show
+magnetic field have observational consequences in the intensity      a low degree of polarization in the radio band. Conversely, in
+                                                                     regions with low or null non-thermal X-ray emission the degree
+
+                                                                  7
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                                                  Caprioli & Spitkovsky
+
+                                                         Btot/B0(t = 200c-1)  B0
+
+y[c/p]
+
+                                                                   x[c/p]
+
+y[c/p]
+
+                                                                   x[c/p]
+
+y[c/p]
+
+                                                                   x[c/p]
+
+y[c/p]
+
+                                                                   x[c/p]
+
+y[c/p]
+
+                                                                   x[c/p]
+
+y[c/p]
+
+                                                                   x[c/p]
+
+y[c/p]
+
+                                                                                                 x[c/p]
+
+Figure 6. Magnitude of the magnetic field for M = 50 shocks and  = 0, 20, 30, 45, 50, 60, 80, from top to bottom, respectively.
+                                            (A color version of this figure is available in the online journal.)
+
+of polarization is as high as 70%, a value consistent with an         & Hoshino 2010; Riquelme & Spitkovsky 2011; Park et al.
+ordered magnetic field, inferred to be perpendicular to the shock     2012), and may rely on the fact that whistler waves, which
+normal. The observations by Reynoso et al. (2013) agree very          have been demonstrated to be important for electron accelera-
+well with our finding large, turbulent magnetic fields in the         tion (Riquelme & Spitkovsky 2011), are preferentially excited
+downstream of parallel shocks, and simply compressed fields at        at low-Mach-number oblique shocks. Whether quasi-parallel
+quasi-perpendicular shocks.                                           shocks can accelerate electrons is currently under investigation
+                                                                      (also see Masters et al. 2013 for some recent results about the
+   Turbulent fields are likely the result of an efficient ion         Saturn's bow shock).
+acceleration, so that the azimuthal variation of the degree of
+radio polarization in SN 1006 seems to support our findings.             As it is typically the case, the only smoking gun attesting to
+Also, the observed variation of the synchrotron emissivity is         efficient ion acceleration at parallel shocks would be represented
+consistent with a more effective magnetic field amplification in      by  -rays from the decay of neutral pions produced in nuclear
+the portions of the shell where the shock is parallel. However,       collision between CRs and the background gas. Interestingly,
+the emissivity might not depend on the magnetic file strength         TeV  -rays have been detected from SN 1006 exactly in
+only, but also on how efficiently electrons are accelerated.          correspondence of the polar caps (Acero et al. 2010). This
+                                                                      would be a strong hint of efficient ion acceleration, if such an
+   Electrons are indeed observed to be accelerated at oblique         emission were unequivocally proved to be hadronic. Detailed
+shocks, for instance at interplanetary shocks produced by so-         multi-wavelength studies are needed to support or disprove this
+lar coronal mass ejections (Wilson et al. 2012). This empir-          scenario.
+ical evidence is supported by PIC simulations (e.g., Amano
+
+                                                                   8
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                                                                            Caprioli & Spitkovsky
+
+                                                                                      Bx - B0cos (t = 200c-1)y[c/p]
+                                                                                                                               B0
+
+                                                                                                    x[c/p]
+
+y[c/p]
+
+                                                                  x[c/p]
+
+y[c/p]
+
+                                                                  x[c/p]
+
+y[c/p]
+
+                                                                  x[c/p]
+
+y[c/p]
+
+                                                                  x[c/p]
+
+y[c/p]
+
+                                                                  x[c/p]
+
+y[c/p]
+
+                                                                                                    x[c/p]
+
+Figure 7. Parallel magnetic field maps for M = 50 shocks and  = 0, 20, 30, 45, 50, 60, 80, from top to bottom, respectively. The color code is centered on
+the initial value to facilitate the comparison among different panels.
+(A color version of this figure is available in the online journal.)
+
+6. COSMIC-RAY-MODIFIED SHOCKS                                        flux conservation:
+
+   When acceleration is efficient, and pressure and energy                               n(x)u~(x) = const,                        (7)
+density in accelerated particles become comparable with the re-
+spective bulk quantities, one enters the regime of CR-modified       so that deceleration also leads to compression, and hence to
+shocks. In this section we discuss the two main dynamical con-       adiabatic heating. However, if some amplified magnetic modes
+sequences of efficient ion acceleration, namely, the formation       were dissipated, for instance because of non-linear Landau
+of a shock precursor and the modification of the shock jump          damping, there should be an additional source of heating, usually
+conditions that we observe in our simulations.                       referred to as turbulent (or Alfve´n) heating (see, e.g., McKenzie
+                                                                     & Vo¨lk 1982; Berezhko & Ellison 1999; Amato & Blasi 2006).
+                       6.1. Upstream Precursor
+                                                                        Let us consider a 2D simulation whose box size measures
+   The most prominent signature of a CR-modified shock is the        (Lx, Ly) = (4 × 104, 103)[c/p]2, with two cells per ion skin
+formation of a precursor, in which the upstream fluid is slowed      depth and four macroparticles per cell. The large transverse
+down because of the pressure in CRs diffusing back and forth         size is chosen in order to fully account for the effects of the
+across the shocks. Indicating with u~ the fluid velocity in the      filamentation instability, which can develop only if the box is
+shock reference frame, in the stationary limit one has from mass     larger than the gyroradius of the most energetic ions, at any time.
+                                                                     The formation of rarefied cavities and dense filaments associated
+
+                                                                  9
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                                                 Caprioli & Spitkovsky
+                                                                            B0
+                                                         Bz (t = 200c-1)
+
+y[c/p]
+
+                                                                    x[c/p]
+
+y[c/p]
+
+                                                                    x[c/p]
+
+y[c/p]
+
+                                                                    x[c/p]
+
+y[c/p]
+
+                                                                    x[c/p]
+
+y[c/p]
+
+                                                                    x[c/p]
+
+y[c/p]
+
+                                                                    x[c/p]
+
+y[c/p]
+
+                                                                                     x[c/p]
+Figure 8. Out-of-plane magnetic field maps for M = 50 shocks and  = 0, 20, 30, 45, 50, 60, 80, from top to bottom, respectively.
+
+                                             (A color version of this figure is available in the online journal.)
+
+with the streaming of accelerated ions may significantly alter the      to an increase of 60% only in T  P /n  n2/3. Very
+                                                                        interestingly, the increase in the plasma pressure is comparable
+results one would obtain with 1D simulations (CS13).                    with the increase in the magnetic pressure, PB = B2/8 , which
+                                                                        is due to the CR-induced instability. For the same run, the
+   In Figure 10 we show the ion px distribution as a function of
+position for M = 20 parallel shock. The flow is initialized at          magnitude of the magnetic field, averaged over the transverse
+the upstream boundary with bulk velocity -20vA and thermal              direction, is Btot  2-3B0 immediately ahead of the shock; the
+speed vth = vA; at x 104c/p the ion distribution retains                local field can be even larger (up to 6B0) due to filamentary
+basically the same properties. By looking at the bottom panel           inhomogeneities.
+
+of Figure 10, we see that the bulk flow becomes slower closer              The observed rough equipartition between thermal and mag-
+
+to the shock, and its thermal spread increases. In particular,          netic pressures throughout the precursor strongly suggests that
+
+immediately ahead of the shock the bulk velocity is reduced by          the free energy in the CR streaming is converted in both chan-
+about 12%, and the plasma temperature T  v2th is more than
+five times larger than the initial one.                                 nels, likely due to the turbulent nature of the perturbation. The
+
+   As expected from momentum flux conservation, the amount              net result is that the pre-shock Mach number is reduced by about
+
+of fluid braking matches very well the energy channeled into            a factor of three, as a consequence of both the decrease of the
+
+non-thermal ions, which at the considered time is about 13%.            bulk flow speed (by about 15%), and the increase of vth (which
+                                                                        is about 2.4 times larger than far upstream; see Figure 10). In the
+The adiabatic compression in the precursor, which in filaments
+reaches n/n  2, is not large enough to account for such a               presence of efficient particle acceleration, magnetic field ampli-
+heating: a variation of a factor of 2 in density would correspond
+                                                                        fication and turbulent heating of the background plasma lead to
+
+                                                                    10
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                                                           Caprioli & Spitkovsky
+
+                                            = 0Btot/B0                                                    M =5
+                                                                                                          M = 10
+                                                                                                  x[c/p]  M = 30
+                                                                                                          M = 50
+
+           = 45             =x[c4/5dp]eg                                                                  M =5
+                                                                                                          M = 10
+y[c/p]           Btot/B0(t = 198c-1)                                                                      M = 30
+ Btot/B0                                                                                                  M = 50
+                         x[c/p]
+
+                  =x[c8/0dp]eg
+
+           = 80                                                                                           M =5
+                                                                                                          M = 10
+Btot/B0                                                                                                   M = 30
+                                                                                                          M = 50
+
+                                                                                                         x[c/p]
+
+Figure 9. Magnitude of the magnetic field, averaged in the transverse direction, for three different inclinations ( = 0, 45, 80, from top to bottom, respectively).
+Different curves correspond to the same t = 200c-1 and different Mach numbers, as in the legends.
+(A color version of this figure is available in the online journal.)
+
+weaker subshocks, and in turn to a less efficient heating of the                                             In two-fluid models (see, e.g., O'C. Drury 1983; Malkov &
+downstream plasma (see Figure 1).                                                                         Vo¨lk 1996), the CR component is usually assumed to have the
+                                                                                                          adiabatic index of a relativistic gas,  = 4/3. When acceleration
+   The ion temperature in collisionless shocks may be di-                                                 is efficient, the total compression ratio (rtot, measured between
+rectly probed by measuring the optical H- emission pro-                                                   upstream and downstream infinity) may become larger than
+duced in SNRs expanding into partially neutral media (see,                                                4, since it must be calculated with an effective adiabatic
+e.g., Ghavamian et al. 2007; Blasi et al. 2012). In particular,                                           index 4/3  5/3 (see Equation (1)). Moreover, the
+Morlino et al. (2013) showed how to extract consistent informa-                                           possible escape of accelerated particles toward upstream infinity
+tion about the length-scale and the temperature of the upstream                                           may make the shock behave as partially radiative, thereby
+precursor by measuring the width of the narrow Balmer line pro-                                           contributing to increase the compressibility of the downstream
+duced by charge-exchange between neutrals and ions, even in the                                           plasma and, in turn, leading to rtot 4.
+presence of efficient CR acceleration.
+                                                                                                             Nevertheless, non-thermal particles alter the jump conditions
+                   6.2. Modified Jump Conditions                                                          in a similar way even in the fully non-relativistic case: the very
+                                                                                                          presence of energetic particles that do not obey the gaseous
+   Another important effect on the shock dynamics is the                                                  density (and entropy) jump at the shock is sufficient to lead to
+modification of the purely gaseous Rankine-Hugoniot jump                                                  a total compression ratio larger than 4. The relativistic equation
+conditions in the presence of non-thermal particles. Such an                                              of state for the CRs adopted in two-fluid approaches is actually
+effect can be outlined within a simple two-fluid approach: ions                                           needed to close the system of equations; conversely, in kinetic
+are separated into a thermal population, which has an adiabatic                                           approaches to CR-modified shocks, closure is provided by the
+index  and feels the usual entropy variation at the discontinuity,                                        solution of the CR transport, through different techniques (see,
+and a CR population, constituted by particles with gyroradii                                              e.g., Caprioli et al. 2010b).
+larger than the shock thickness, the distribution of which is
+approximately constant throughout the discontinuity.                                                         Very generally, the modification in the shock velocity profile
+                                                                                                          can be worked out as a function of the CR acceleration
+
+                                                                    11
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                                                                           Caprioli & Spitkovsky
+
+                                                         log[f(px)] @ t=820-1 c
+
+               px [mvsh]   5                                                                                                  0
+                           4                                                                                                  -1
+                           3         4000         5000   6000   7000    8000            9000         10000                    -2
+                           2                                   x [c/p]                                                        -3
+                           1                                                                                                  -4
+                           0                                                                                                  -5
+                          -1                                                                                      11000
+                          -2
+                          -3
+                          -4
+                          -5
+                          3000
+
+                          0.4                                                    v =0.88v ; v =2.4v
+                                                                                  bulk        sh     th           A
+
+                                                                                 v =0.94v ; v =1.8v
+                                                                                  bulk        sh     th           A
+
+                          0.3                                                    v =v ; v =v
+
+                                                                                  bulk sh            th A
+
+               f(px)      0.2
+
+                          0.1
+
+                                      0
+                                     -24 -23 -22 -21 -20 -19 -18 -17 -16 -15 -14 -13 -12 -11 -10
+
+                                                                                                       px [m vA]
+
+Figure 10. Top panel: ion px distribution, as a function of position, for a parallel shock with M = 20. The upstream beam of cold ions is converted into a hot
+Maxwellian distribution at the shock, around x = 5000c/p. Bottom panel: ion distribution in px for the three upstream locations in the top panel. The initial flow
+has vbulk = vsh = -20vA and thermal spread vth = va. When approaching the shock, the upstream fluid is slowed down because of the CR pressure, and heated up
+because of both adiabatic and turbulent heating.
+
+(A color version of this figure is available in the online journal.)
+
+efficiency by using mass and momentum conservation only. We             For strong shocks M~ 20      1, hence the total compression ratio
+                                                                        simply reads
+have already shown how the presence of a CR-induced shock
+                                                                                               rtot
+precursor leads to a weaker subshock, the compression ratio of                                              1  +  1/    M~  2
+                                                                                                                            1
+which reads                                                                                          rsub 1 -  . (11)
+                                ( + 1)M~ 12
+               rsub =                2.                        (8)      For the shock shown in Figure 10, one infers   0.12 and
+                               ( - 1)M~ 1 + 2                           Ms,1  5.7, which corresponds to M~ 1  5.6 (Equation (1)).
+                                                                        Plugging these values in Equations (8) and (11) returns rsub 
+Here M~1 is the sonic Mach number immediately upstream of               3.65 and finally rtot  4.23, in good agreement with the output
+
+the shock, with the fluid speed calculated in the shock reference       of the simulation.
+frame. M~ is related to Ms through the implicit relation in                Figure 11 shows the density profiles for M = 30 shocks
+
+Equation (1). The stationary momentum conservation including            with different inclinations: total compression ratios are typically
+
+gas and CR pressure reads
+
+0u~20 + Pg,0 + Pcr,0 = 1u~21 + Pg,1 + Pcr,1,                   (9)      around 4.2-4.4 for quasi-parallel shocks, where the acceleration
+
+                                                                        efficiency is about 10% or larger, while they are systematically
+
+where 0 and 1 correspond to quantities measured at upstream             lower for inefficient, quasi-perpendicular shocks. The determi-
+infinity and immediately in front of the subshock, and the
+subscripts g and cr refer to thermal gas and CRs, respectively.         nation of the actual value of rsub is more complicated because
+For simplicity, we have neglected the magnetic field pressure in        of the shock broadening induced by the filamentation instabil-
+Equations (8) and (9), but it is straightforward to include such
+a contribution in the calculation of the actual jump conditions         ity; in any case, the stationary calculation outlined above, while
+(see Caprioli et al. 2009).
+                                                                        providing an estimate of the asymptotic shock dynamics, is not
+   We assume Pcr,0 = 0, and normalize all the quantities to the
+ram pressure 0u~20, also introducing  = Pcr,1/0u~20, so that            adequate to describe the subshock structure, which is intrinsi-
+Equation (9) can be rewritten as
+                                                                        cally time-dependent in the simulation reference frame (see also
+
+                                                                        in Figure 11 the density spike present at quasi-perpendicular
+
+                                                                        shocks).
+
+                                                                        CR-induced precursors and modified jump-conditions may
+
+                                                                        also produce spectral features, since ions with different energies
+
+             1 + 1 = rsub 1 + 1 +  . (10)                               may in principle probe different compression ratios in their
+
+               M~  2           rtot        M~  2                        diffusive motion. However, in the presented simulations, it is
+                   0                           1
+                                                                        difficult to quantify this effect for low-energy particles, which
+
+                                                                    12
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                    Caprioli & Spitkovsky
+
+(x)                                                                    =0
+                                                                        = 20
+                                                                        = 30
+                                                                        = 45
+                                                                        = 50
+                                                                        = 60
+                                                                        = 80
+
+                                                                                   x[c/p]
+
+Figure 11. Density profile (integrated along the transverse direction) at t = 200c-1 for M = 30 shocks with inclinations as in the legend. Notice that for quasi-parallel
+shocks, where CR acceleration is efficient, the shock thickness is broader and the total compression ratio (i.e., the ratio between the density far downstream and far
+upstream) is about 4.2-4.4, systematically larger than for very oblique shocks.
+
+(A color version of this figure is available in the online journal.)
+
+are nominally sensitive to rsub, because in the supra-thermal          between upstream and downstream, are accelerated via SDA,
+region the spectrum is steeper for other reasons (see Section 2).      which allows some particles to gain energy quite rapidly. The
+On the other hand, high-energy particles, which should probe           energy gain per cycle is proportional to v/vsh, which means
+the total compression ratio rtot  4.3, are expected to have            that supra-thermal particles can almost double their velocity dur-
+a spectrum  E-1.43, hardly distinguishable from the linear             ing the first shock crossing (Chen & Armstrong 1975). However,
+prediction of E-1.5, especially considering the effects of the         after a few gyrations, particles experiencing SDA are advected
+exponential cut-off close to Emax.                                     downstream, and none of them can achieve energies larger than
+                                                                       a few times Esh.
+   The possibility of producing spectra significantly different
+from the standard DSA prediction has intrigued scientists for             Also, parallel shocks develop transverse magnetic fields in
+many years. However, concave spectra, flatter than p-4 at the          the upstream, but the obliquity is never expected to be larger
+highest energies, have never been convincingly observed in             than 45, since in the non-linear (B/B0 1) regime the
+SNRs, even when CR acceleration is inferred to be efficient            parallel component is found to grow as well, in turn always
+(Caprioli 2012). An extension of kinetic simulations to the            returning B/B  1. However, since B is enhanced by
+relativistic regime would be of primary importance to shed light       compression at the shock, it is hard to envision a scenario
+on the very reason of this apparent discrepancy.                       in which the downstream magnetic field does not show a
+                                                                       prominent component transverse to the bulk fluid motion. For
+                        7. DSA VERSUS SDA                              this reason, some particles impinging on the shock surface
+                                                                       are always reflected back by gyrating around this transverse
+   The ability of a shock to accelerate ions in the non-thermal        magnetic field, gaining energy via SDA. This process, strictly
+regime dramatically depends on the magnetic field topology,            related to the injection problem, will be discussed in greater
+in the following sense. At quasi-parallel shocks we invariably         detail in a forthcoming paper.
+observe a stream of ions with energies larger than a few times
+Esh propagating from the shock into the upstream plasma.                  In general, SDA is expected to produce a population of supra-
+The interaction between this stream and the incoming flow              thermal particles, which may look like a shifted Maxwellian
+excites magnetic perturbations, which favor the diffusion of           with temperature TSDA = Td exp[8r(r - 1)/(r + 1)3], which
+ions with larger and larger energies back and forth across the         means TSDA  2.2Td for a compression ratio r = 4 (Park
+shock. This diffusion allows ions to undergo first-order Fermi         et al. 2012). Such a prediction is in good agreement with the
+acceleration, and eventually produces the universal DSA power-         "bump" around a few times Esh observed at quasi-perpendicular
+law distribution.                                                      shocks in Figure 12, which shows the post-shock ion spectra for
+                                                                       several shock strengths and inclinations. The normalization of
+   At quasi-perpendicular shocks, instead, particles do not            such a bump seems to depend on the shock strength, being more
+seed the upstream plasma with self-generated waves beyond              prominent for larger M, but this effect is only due to the fact
+one ion gyroradius from the shock, and DSA cannot operate              that it takes more time to thermalize a more supersonic flow:
+spontaneously. We cannot exclude that, in the presence of a            when integrating in the downstream at a given time, the region
+suitable pre-existing magnetic turbulence, DSA might operate           of incomplete thermalization behind the shock (see Figure 2)
+at oblique shocks as well (see, e.g., Giacalone et al. 1994);          turns out to be more extended for high M.
+nevertheless, in this case the process is not guaranteed to be
+self-sustaining, and the achievable Emax may depend on the                If we are interested in CR acceleration over several orders of
+largest wavelength already present in the turbulence, rather than      magnitude, though, we cannot rely on SDA only, and we have
+being a dynamically evolving quantity.                                 to wonder under which conditions particles can be promoted
+                                                                       into the DSA regime. By looking at Figure 12, one can see
+   At quasi-perpendicular shocks, ions penetrate into the up-          that, at fixed M, the total number of supra-thermal particles
+stream only while gyrating around the ordered magnetic field.          does not depend dramatically on . The biggest difference is
+The ions that can probe, during one gyration, the velocity jump        that at oblique shocks reflected ions only undergo SDA, and
+
+                                                                   13
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                                                                      Caprioli & Spitkovsky
+
+                                                                                     2. Second, and probably most important, if accelerated ions
+
+                                                                                     can propagate into the upstream only for a gyroradius r0,
+
+                                                                                     the time available for any magnetic perturbation to grow
+                                                                                                                             -1)
+                                                                                     (i.e.,  the  advection  time  r0/vsh         is  drastically
+                                                                                                                               c
+
+                                                                                     reduced with respect to the case of a parallel shock, in
+
+                                                                                     which energetic particles can propagate for a diffusion
+
+                                                                                     length v/vshr0 r0.
+
+                                                                                     Without CR-induced instabilities, the upstream magnetic field
+                                                                                     topology is left unperturbed, the shock is not corrugated, and
+                                                                                     particles cannot seed magnetic waves on larger and larger scales,
+                                                                                     that can enhance the diffusion of particles with larger and larger
+                                                                                     energies.
+
+                                                                                        At parallel shocks, the upstream medium is seeded with long-
+                                                                                     wavelength perturbations, which steepen in the shock layer and
+                                                                                     lead to downstream fields that are generally oblique and that can
+                                                                                     effectively reflect incoming ions. Nevertheless, reflected ions
+                                                                                     can fly away from the shock by spiraling around the upstream
+                                                                                     field, which may be quasi-parallel at least for a fraction of
+                                                                                     the wave period. In other words, even if parallel shocks may
+                                                                                     often look oblique, their time-dependent configuration, whose
+                                                                                     period is likely determined by the period of the upstream waves,
+                                                                                     is intrinsically different from the steady structure of quasi-
+                                                                                     perpendicular shocks.
+
+                                                                                        Initially parallel shocks can naturally realize both the down-
+                                                                                     stream transverse field necessary for particle reflection and the
+                                                                                     upstream parallel field that allows ions to diffuse away from
+                                                                                     the shock. Perpendicular shocks, instead, do not trigger long
+                                                                                     wavelength modes, and cannot significantly alter their initial
+                                                                                     configuration.
+
+                                                                                        In summary, ion injection into the DSA process is a natural
+                                                                                     phenomenon at parallel shocks, while at oblique shocks it may
+                                                                                     require an ad-hoc pre-existent turbulence, with fluctuations of
+                                                                                     order B/B  1, possibly on scales larger than the typical
+                                                                                     gyroradius of ions with v  vsh.
+
+Figure 12. Post-shock particle spectra at t = 200c-1, for different Mach                                     8. 3D SIMULATIONS
+numbers (from top to bottom M = 5, 10, 30, 50), and for different shock
+obliquities, as in the legends. The black dashed line represents the downstream         We also performed 3D simulations to ensure that the results
+Maxwellian. Note how the non-thermal power-law tail develops only at low-            outlined in the previous section are not an artifact of the reduced
+inclination shocks. Also note how in high-M, quasi-perpendicular shocks a            space dimensionality. This is especially important because it has
+supra-thermal (1 E/Esh 10) region due to SDA is present.                             been suggested that cross-field diffusion, which is possible only
+(A color version of this figure is available in the online journal.)                 in 3D, may play a fundamental role in ion injection (e.g., Baring
+                                                                                     et al. 1995; Giacalone & Ellison 2000).
+their maximum energy is always 10Esh, while at quasi-parallel
+shocks some ions contribute to form a power-law tail, the extent                        We consider a shock with M = 6, and three inclina-
+of which grows with time.                                                            tions  = 0, 45, 80. The box measures (Lx, Ly, Lz) =
+                                                                                     (2000, 200, 200)[c/p]3, with two cells for ion skin depth and
+   We argue that the difference may be due to the geometry of the                    8 particles per cell; the time-step is t = 0.01c-1.
+field immediately upstream of the shock. An ordered transverse
+field prevents supra-thermal ions from penetrating into the                             The resulting downstream ion spectra are shown in Figure 13.
+upstream for more than one gyroradius, which dramatically                            The acceleration efficiency as a function of inclination follows
+reduces the excitation of magnetic turbulence upstream, for two                      the same trend described for the 2D cases: it is cr  12%, 3%
+main reasons.                                                                        and 1% for  = 0, 45 and 80, respectively.
+
+ 1. First, the anisotropy of particles reflected at the shock is                        Most interestingly, 3D simulations confirm the ineffective-
+     always in the direction of the flow, hence perpendicular to                     ness of DSA at very oblique shocks, despite the exact account
+     the magnetic field; in this configuration many instabilities,                   of the topology of the magnetic field lines. We do observe a large
+     such as the fire-hose and the resonant streaming instability,                   fraction of ions recrossing the shock and experiencing SDA, but
+     are suppressed (see, e.g., Bykov et al. 2013 for a recent                       no particles make it into the regime where DSA and magnetic
+     review).                                                                        field amplification are efficient; also, the maximum energy does
+                                                                                     not increase with time.
+
+                                                                                        The 3D structure of the self-generated turbulence is shown in
+                                                                                     Figure 14 for the three inclinations above. More precisely, the
+                                                                                     iso-value surfaces (10 levels in the interval Bz  [-1, 1]) and
+                                                                                     the color code (in the legend) show the value of the component
+                                                                                     of the magnetic field orthogonal to B0 (which is initialized in
+
+                                                                                 14
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                                            Caprioli & Spitkovsky
+
+                                                         log10[Ef(E)](t = 200c-1)
+
+log10(E/Esh)
+
+                                                         Log10[Ef(xE[)c]/(t p=] 200c )
+
+log10(E/Esh)
+
+                                                         g10[ f(x[)c]/(p] c )
+
+log10(E/Esh)
+
+                                                                       x[c/p]
+
+                                                                                         = 80 deg
+                                                                                         = 45 deg
+                                                                                         = 0 deg
+
+Ef(E)Ef(E)
+
+                                                                       E/Esh
+
+Figure 13. Post-shock particle spectra at t = 200c-1, for 3D simulations of M = 6 shock, for different shock obliquities. The top three panels correspond to
+ = 0, 45, 80, respectively. Bottom panel: integrated downstream spectrum for the three cases above, as in the legend. The non-thermal power-law tail develops
+only at low-inclination shocks, while at quasi-perpendicular shocks ions are only heated up by a factor of a few in energy because of SDA.
+
+(A color version of this figure is available in the online journal.)
+
+the xy-plane). The shock surface, found at x  600c/p, is                   than for the parallel configuration; the self-generated component
+always marked by an increase of Bz, but the upstream and                   of Bz, however, tends to fade a few hundreds of ions skin depths
+the downstream structures significantly depend on the shock                behind the shock.
+
+obliquity.                                                                    It is worth stressing that our results are not entirely incon-
+   In the parallel case,  = 0, there are several regions                   sistent with the previous ones that claimed ion acceleration to
+                                                                           be efficient at perpendicular shocks, possibly thanks to cross-
+(also in the upstream) in which the field is amplified at levels           field diffusion. The aforementioned results have been obtained
+of B/B0  1, and the turbulence is sustained up to large                    either with Monte Carlo simulations (Baring et al. 1995), or
+distances in the downstream; the magnetic structures have                  by tracking test-particles on top of the output of hybrid sim-
+                                                                           ulations seeded--by hand--with large-scale magnetic waves
+typical coherence lengths of a few tens to hundreds of c/p.                (Giacalone & Ellison 2000). In these cases the ion scattering is
+   In the quasi-perpendicular case ( = 80), instead, Bz is                 either prescribed (through the specification of a mean-free-path,
+                                                                           in Monte Carlo simulations) or artificially enhanced, because of
+always less than 0.1B0 in the upstream, and less than 0.3B0                the presence of some pre-existing turbulence. Our simulations,
+in the downstream. The actual magnetic field (not shown in the             instead, allow for a self-consistent description of both the shock
+                                                                           structure and the ion kinematics, and are long/large enough to
+figure) is mainly along y, and is consistently compressed in the
+
+shock transition, which is rather sharp, unlike in the parallel case.
+The  = 45 case shows some intermediate features, exhibiting
+some magnetic structures in the upstream, even if less prominent
+
+                                                                       15
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                Caprioli & Spitkovsky
+
+Figure 14. Self-generated component of the magnetic field, Bz, in units of the initial field B0, which lies in the xy-plane; the three panels correspond to t = 200c-1
+for different 3D simulations (Section 8) with inclinations  = 0, 45, 80 (top to bottom). The iso-volume rendering shows 10 levels of -1 Bz 1, with the
+respective color code in the legends. The shock position is marked by a plane of enhanced magnetic field, around x = 600c/p. The amount of magnetic field
+amplification is very different in the parallel case, where in the upstream there are several regions with Bz  B0, and the quasi-perpendicular case, where in the
+upstream Bz 0.1B0. Also, the magnetic field exhibits large-scale turbulent structures (both upstream and downstream) for  = 0, while it is mainly along By for
+ = 80. The  = 45 case shows intermediate properties.
+
+(A color version of this figure is available in the online journal.)
+
+potentially observe ions undergoing DSA in the self-generated          2. The extent of the non-thermal power-law tail increases
+magnetic turbulence. Throughout all of the parameter space con-           with time: energetic ions are able to self-generate magnetic
+sidered in this paper, for both 2D and 3D setups, we never find           turbulence to larger and larger scales, enhancing their own
+quasi-perpendicular shocks to be able to spontaneously generate           scattering and the probability of recrossing the shock. The
+long-wavelength waves upstream of the shock, and, in turn, to             maximum energy achievable is only limited by the available
+accelerate particles into the DSA regime.                                 computational resources (finite box size and running time).
+
+                          9. CONCLUSIONS                               3. The ion spectrum immediately behind the shock shows
+                                                                          a peculiar shape at energies 2 E/Esh 10, which
+   We used hybrid simulations of collisionless shocks to calcu-           deviates from both a Maxwellian and the DSA power-law.
+late under which conditions ion acceleration is efficient at non-         This supra-thermal region contains information about the
+relativistic collisionless shocks. We can summarize our main              post-shock thermalization, and the processes responsible
+results in the following points.                                          for injection of particles into the acceleration mechanism.
+
+ 1. We showed, for the first time within a PIC/hybrid approach,        4. At quasi-parallel shocks, the fraction of ions that undergo
+     that DSA can be very efficient (10%-20% in energy) at                acceleration is 10-3 of the total. A good parameteriza-
+     quasi-parallel shocks, producing non-thermal ion spectra             tion of the thermal-non-thermal transition is obtained by
+     with the expected universal distribution, a power-law  p-4           assuming that the DSA power-law tail is attached to the
+     in momentum, i.e.,  E-1.5 for non-relativistic ions.                 Maxwellian at the injection momentum pinj  3-4pth,
+                                                                          where pth is the downstream thermal momentum.
+
+                                                                   16
+The Astrophysical Journal, 783:91 (17pp), 2014 March 10                                                                                         Caprioli & Spitkovsky
+
+ 5. DSA occurs only at parallel and quasi-parallel shocks.                     Baade, W., & Zwicky, F. 1934, PNAS, 20, 259
+     Conversely,  45 shocks show evidence of SDA, but                          Baring, M. G., Ellison, D. C., & Jones, F. C. 1995, AdSpR, 15, 397
+     they are ineffective in accelerating particles above 10Esh.               Bell, A. R. 1978a, MNRAS, 182, 147
+     Such a limitation is intrinsic and does not depend either on              Bell, A. R. 1978b, MNRAS, 182, 443
+     the computational box, or on the reduced dimensionality of                Bell, A. R., Schure, K. M., Reville, B., & Giacinti, G. 2013, MNRAS, 431, 415
+     the simulations. 3D runs turn out to be very consistent with              Bennett, L., & Ellison, D. C. 1995, JGR, 100, 3439
+     2D simulations in this respect. These results apply only                  Berezhko, E. G., & Ellison, D. C. 1999, ApJ, 526, 385
+     to initially "laminar" flows and ordered magnetic fields:                 Berezhko, E. G., & Vo¨lk, H. J. 1997, APh, 7, 183
+     the addition of pre-existing turbulence may modify the                    Berezhko, E. G., & Vo¨lk, H. J. 2004, A&A, 427, 525
+     acceleration properties of the shocks.                                    Blandford, R. D., & Ostriker, J. P. 1978, ApJL, 221, L29
+                                                                               Blasi, P. 2002, APh, 16, 429
+ 6. Magnetic field amplification goes along with efficient ion                 Blasi, P., Gabici, S., & Vannoni, G. 2005, MNRAS, 361, 907
+     acceleration: the self-generated turbulence is present only at            Blasi, P., Morlino, G., Bandiera, R., Amato, E., & Caprioli, D. 2012, ApJ,
+     quasi-parallel shocks, and the total amplification achievable
+     in the simulation is larger for larger Mach numbers (up to                   755, 121
+     B/B0  6 upstream, for M = 50).                                            Bykov, A. M., Brandenburg, A., Malkov, M. A., & Osipov, S. M. 2013, SSRv,
+
+ 7. The presence of accelerated ions produces an upstream pre-                    178, 201
+     cursor, in which the fluid is slowed down and compressed.                 Caprioli, D. 2011, JCAP, 05, 026
+     The magnetic field amplification induced by CR-induced                    Caprioli, D. 2012, JCAP, 07, 038
+     instabilities also leads to a non-adiabatic heating of the                Caprioli, D., Amato, E., & Blasi, P. 2010a, APh, 33, 307
+     background plasma (turbulent heating), in such a way that                 Caprioli, D., Blasi, P., & Amato, E. 2011, APh, 34, 447
+     plasma and magnetic field pressure are almost in equipar-                 Caprioli, D., Blasi, P., Amato, E., & Vietri, M. 2009, MNRAS, 395, 895
+     tition throughout the precursor.                                          Caprioli, D., Kang, H., Vladimirov, A. E., & Jones, T. W. 2010b, MNRAS,
+
+ 8. When acceleration is efficient, the global shock dynamics                     407, 1773
+     is significantly modified by the presence of non-thermal                  Caprioli, D., & Spitkovsky, A. 2013, ApJL, 765, L20
+     particles: in this regime of CR-modified shocks, the total                Chen, G., & Armstrong, T. P. 1975, in International Cosmic Ray Conference,
+     compression ratio may become larger than 4, and the
+     downstream plasma is heated up less effectively.                             Vol. 5, 1814
+                                                                               Ellison, D. C., Baring, M. G., & Jones, F. C. 1995, ApJ, 453, 873
+   This paper is conceived as the first of a series aimed to                   Ellison, D. C., Baring, M. G., & Jones, F. C. 1996, ApJ, 473, 1029
+investigate several aspects of ion acceleration at non-relativistic            Ellison, D. C., Jones, F. C., & Eichler, D. 1981, JGZG, 50, 110
+shocks through hybrid simulations. Important points that are                   Ellison, D. C., Moebius, E., & Paschmann, G. 1990, ApJ, 352, 376
+not addressed in the present work, but that will be covered                    Fermi, E. 1949, PhRv, 75, 1169
+in forthcoming publications, are the nature and the properties                 Fermi, E. 1954, ApJ, 119, 1
+of the self-generated magnetic turbulence (also see CS13), the                 Gargate´, L., Bingham, R., Fonseca, R. A., & Silva, L. O. 2007, CoPhC,
+details of particle diffusion, and the mechanisms leading to ion
+injection.                                                                        176, 419
+                                                                               Gargate´, L., & Spitkovsky, A. 2012, ApJ, 744, 67
+   We thank L. Gargate´ for providing a version of dHybrid, P.                 Ghavamian, P., Laming, J. M., & Rakowski, C. E. 2007, ApJL, 654, L69
+Blasi, E. Amato, and M. Kunz for stimulating discussions, and                  Giacalone, J. 2004, ApJ, 609, 452
+an anonymous referee for thorough comments. This research                      Giacalone, J., Burgess, D., Schwartz, S. J., & Ellison, D. C. 1993, ApJ, 402, 550
+was supported by NSF grant AST-0807381 and NASA grant                          Giacalone, J., Burgess, D., Schwartz, S. J., Ellison, D. C., & Bennett, L.
+NNX12AD01G, and facilitated by the Max-Planck/Princeton
+Center for Plasma Physics. This work was also partially sup-                      1997, JGR, 102, 19789
+ported by a grant from the Simons Foundation (grant 267233                     Giacalone, J., & Ellison, D. C. 2000, JGR, 105, 12541
+to A.S.), and by the NSF under grant No. PHYS-1066293                          Giacalone, J., Jokipii, J. R., & Kota, J. 1994, JGR, 99, 19351
+and the hospitality of the Aspen Center for Physics. Simula-                   Guo, F., & Giacalone, J. 2013, ApJ, 773, 158
+tions were performed on the computational resources supported                  Jones, F. C., & Ellison, D. C. 1991, SSRv, 58, 259
+by the PICSciE-OIT TIGRESS High Performance Computing                          Kang, H., & Jones, T. W. 1997, ApJ, 476, 875
+Center and Visualization Laboratory. This research also used                   Kang, H., & Jones, T. W. 2006, APh, 25, 246
+the resources of the National Energy Research Scientific Com-                  Kang, H., Jones, T. W., & Gieseler, U. D. J. 2002, ApJ, 579, 337
+puting Center, which is supported by the Office of Science of                  Krymskii, G. F. 1977, DoSSR, 234, 1306
+the U.S. Department of Energy under Contract No. DE-AC02-                      Lipatov, A. S. 2002, The Hybrid Multiscale Simulation Technology: An
+05CH11231, and Teragrid/XSEDE's Ranger and Stampede un-
+der allocation No. TG-AST100035.                                                  Introduction with Application to Astrophysical and Laboratory Plasmas
+                                                                                  (Berlin: Springer)
+                            REFERENCES                                         Malkov, M. A. 1997, ApJ, 485, 638
+                                                                               Malkov, M. A., & O'C. Drury, L. 2001, RPPh, 64, 429
+Acero, F., Aharonian, F., Akhperjanian, A. G., et al. 2010, A&A, 516, A62      Malkov, M. A., & Vo¨lk, H. J. 1996, ApJ, 473, 347
+Ackermann, M., Ajello, M., Allafort, A., et al. 2013, Sci, 339, 807            Masters, A., Stawarz, L., Fujimoto, M., et al. 2013, NatPh, 9, 164
+Alsop, D., & Arons, J. 1988, PhFl, 31, 839                                     McKenzie, J. F., & Vo¨lk, H. J. 1982, A&A, 116, 191
+Amano, T., & Hoshino, M. 2007, ApJ, 661, 190                                   Morlino, G., Blasi, P., Bandiera, R., Amato, E., & Caprioli, D. 2013, ApJ,
+Amano, T., & Hoshino, M. 2010, PhRvL, 104, 181102                                 768, 148
+Amato, E., & Blasi, P. 2006, MNRAS, 371, 1251                                  Morlino, G., & Caprioli, D. 2012, A&A, 538, A81
+Axford, W. I., Leer, E., & Skadron, G. 1977, in International Cosmic Ray       Niemiec, J., & Ostrowski, M. 2004, ApJ, 610, 851
+                                                                               Niemiec, J., Pohl, M., Bret, A., & Wieland, V. 2012, ApJ, 759, 73
+   Conference, Vol. 11, 132                                                    O'C. Drury, L. 1983, RPPh, 46, 973
+                                                                               Parizot, E., Marcowith, A., Ballet, J., & Gallant, Y. A. 2006, A&A, 453, 387
+                                                                               Park, J., Workman, J. C., Blackman, E. G., Ren, C., & Siller, R. 2012, PhPl,
+                                                                                  19, 062904
+                                                                               Ptuskin, V. S., & Zirakashvili, V. N. 2005, A&A, 429, 755
+                                                                               Quest, K. B. 1988, JGR, 93, 9649
+                                                                               Reville, B., & Bell, A. R. 2012, MNRAS, 419, 2433
+                                                                               Reynoso, E. M., Hughes, J. P., & Moffett, D. A. 2013, AJ, 145, 104
+                                                                               Riquelme, M. A., & Spitkovsky, A. 2011, ApJ, 733, 63
+                                                                               Trushkin, S. A. 1998, BSAO, 46, 62
+                                                                               Vladimirov, A., Ellison, D. C., & Bykov, A. 2006, ApJ, 652, 1246
+                                                                               Vo¨lk, H. J., Berezhko, E. G., & Ksenofontov, L. T. 2005, A&A, 433, 229
+                                                                               Wilson, L. B., III, Koval, A., Szabo, A., et al. 2012, GeoRL, 39, 8109
+                                                                               Winske, D. 1985, SSRv, 42, 53
+                                                                               Winske, D., & Omidi, N. 1996, JGR, 101, 17287
+                                                                               Zirakashvili, V. N., & Aharonian, F. A. 2010, ApJ, 708, 965
+
+                                                                           17
+

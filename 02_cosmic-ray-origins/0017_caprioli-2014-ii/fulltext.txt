@@ -1,0 +1,770 @@
+The Astrophysical Journal, 794:46 (12pp), 2014 October 10                                 doi:10.1088/0004-637X/794/1/46
+
+C 2014. The American Astronomical Society. All rights reserved. Printed in the U.S.A.
+
+          SIMULATIONS OF ION ACCELERATION AT NON-RELATIVISTIC SHOCKS. II.
+                                      MAGNETIC FIELD AMPLIFICATION
+
+                                                 D. Caprioli and A. Spitkovsky
+
+       Department of Astrophysical Sciences, Princeton University, 4 Ivy Lane, Princeton, NJ 08544, USA; caprioli@astro.princeton.edu
+                                   Received 2014 January 31; accepted 2014 August 11; published 2014 September 23
+
+                                                             ABSTRACT
+
+We use large hybrid simulations to study ion acceleration and generation of magnetic turbulence due to the streaming
+of particles that are self-consistently accelerated at non-relativistic shocks. When acceleration is efficient, we find
+that the upstream magnetic field is significantly amplified. The total amplification factor is larger than 10 for shocks
+with Alfve´nic Mach number M = 100, and scales with the square root of M. The spectral energy density of excited
+magnetic turbulence is determined by the energy distribution of accelerated particles, and for moderately strong
+shocks (M 30) agrees well with the prediction of resonant streaming instability, in the framework of quasilinear
+theory of diffusive shock acceleration. For M 30, instead, Bell's non-resonant hybrid (NRH) instability is
+predicted and found to grow faster than resonant instability. NRH modes are excited far upstream by escaping
+particles, and initially grow without disrupting the current, their typical wavelengths being much shorter than the
+current ions' gyroradii. Then, in the nonlinear stage, most unstable modes migrate to larger and larger wavelengths,
+eventually becoming resonant in wavelength with the driving ions, which start diffuse. Ahead of strong shocks
+we distinguish two regions, separated by the free-escape boundary: the far upstream, where field amplification is
+provided by the current of escaping ions via NRH instability, and the shock precursor, where energetic particles are
+effectively magnetized, and field amplification is provided by the current in diffusing ions. The presented scalings
+of magnetic field amplification enable the inclusion of self-consistent microphysics into phenomenological models
+of ion acceleration at non-relativistic shocks.
+
+Key words: acceleration of particles - ISM: magnetic fields - ISM: supernova remnants - shock waves
+
+Online-only material: color figures
+
+                         1. INTRODUCTION                                                  supernova remnants (SNRs). Observed strength, variability,
+                                                                                          and morphology of the synchrotron emission produced by
+   Strong astrophysical shocks are often associated with non-                             relativistic electrons suggest that in young SNRs magnetic
+thermal emission and with magnetic field amplification. This                              fields are 50-100 times larger than in the interstellar medium
+evidence suggests that shocks are sites of efficient particle                             (ISM; see, e.g., Parizot et al. 2006; Uchiyama et al. 2007;
+acceleration, and that this overdensity of energetic particles is                         Morlino & Caprioli 2012; Reynoso et al. 2013 for diverse
+responsible for the excitation of magnetic turbulence via plasma                          observational facts). High-resolution X-ray images of SN1006
+instabilities.                                                                            also indicate that magnetic field amplification must occur in
+                                                                                          the shock precursor, and not downstream (see Morlino et al.
+   This paper is the second in a series of works that study dif-                          2010).
+ferent aspects of particle acceleration at non-relativistic col-
+lisionless shocks by means of self-consistent kinetic simu-                                  The main goal of this work is to use kinetic simulations to
+lations. In particular, we use unprecedentedly large hybrid                               study how particles energized via diffusive shock acceleration
+(kinetic ions-fluid electrons) simulations of high Mach number                            (DSA; e.g., Bell 1978; Blandford & Ostriker 1978) induce
+shocks to investigate the strongly nonlinear interplay between                            magnetic field amplification in non-relativistic collisionless
+accelerated particles and the electromagnetic field.                                      shocks. The back-reaction of such self-generated magnetic
+                                                                                          turbulence on particle scattering is presented in (Caprioli &
+   In the previous paper, Caprioli & Spitkovsky (2014a, here-                             Spitkovsky 2014b, hereafter Paper III). The present paper is
+after Paper I), we showed that ion acceleration can be very effi-                         structured as follows. In Section 2 we present the hybrid
+cient (10%-20% of the bulk flow energy channeled in energetic                             technique, along with some typical simulation outputs. Section 3
+particles), especially at parallel and quasi-parallel shocks, i.e.,                       provides a description of magnetic field amplification for shocks
+shocks propagating almost in the direction of the background                              with different strengths. The spectrum of the self-generated
+magnetic field, B0. Quasi-parallel shocks also show an effective                          magnetic turbulence is discussed in Section 4, and in Section 5
+amplification of the initial magnetic field due to the current of                         we outline the role of the non-resonant instability (Bell 2004).
+energetic ions that propagate anisotropically into the upstream.                          We conclude in Section 6.
+Also, two-dimensional (2D) and three-dimensional (3D) hy-
+brid simulations with large computational boxes in the trans-                                                 2. HYBRID SIMULATIONS
+verse direction revealed the formation of upstream filaments
+and cavities, which eventually trigger the Richtmyer-Meshkov                                 The simulations presented here have been performed with
+instability at the shock, and lead to further turbulent magnetic                          dHybrid, a massively parallel, non-relativistic, hybrid code
+field amplification in the downstream region (see Caprioli &                              (Gargate´ et al. 2007). In the hybrid limit, ions are treated
+Spitkovsky 2013, hereafter CS13).                                                         kinetically, while electrons are assumed to be a neutralizing fluid
+                                                                                          with a polytropic equation of state. Even in 2D setups, the three
+   The most prominent observational evidence of magnetic field
+amplification at strong shocks is found at the blast waves of
+
+                                                                                       1
+The Astrophysical Journal, 794:46 (12pp), 2014 October 10                                                                                          Caprioli & Spitkovsky
+
+                                     Table 1                                      and differences between computational boxes with different
+                Parameters of the Hybrid Runs in the Paper                        transverse sizes in the Appendix.
+
+Run        M         x (c/p) y (c/p) tmax(c-1)                       t (c-1 )        Figure 1 shows several physical quantities calculated in
+                                                                                  Run A (density, magnetic field, Alfve´n velocity), illustrating the
+A          20        5 × 104         1000              1000      5 × 10-4         typical magnetic and hydrodynamical structure of an evolved
+                                                       2500      5 × 10-4         strong shock (at t = 1000c-1). We notice the expected
+B          20           105          100                                          density jump 4 at the shock (xsh  6000 c/p), and the
+                                                        200        10-4           distinctive signatures of the filamentation instability induced
+C          100       3 × 104         2000               500                       by accelerated particles streaming ahead of the shock: the
+                                                        200     2.5 × 10-4        cavitation of the upstream, the shock corrugation (which triggers
+D          80        4 × 105         200                         10-2/M           the Richtmeyer-Meshkov instability), and the formation of
+                                                                                  turbulent structures in the downstream (CS13).
+E       10  50 2 × 104               500
+                                                                                     The long-term evolution (up to t = 2000c-1) of the post-
+components of the ion momentum and of the electromagnetic                         shock ion spectrum is shown in Figure 2 (from Run B).
+                                                                                  The cosmic-ray (CR) spectrum clearly shows the thermal
+field are retained.                                                               Maxwellian peak (p mvsh), and a non-thermal power-law
+                                                                                  tail, the extent of which grows with time. Such a power-law
+   Lengths are measured in units of the ion skin depth c/p,                       distribution is f (p)  p-4 in momentum, which corresponds
+                                                                                  to f (E)  E-1.5 in energy for non-relativistic particles, and
+where c is the light speed and p = 4 ne2/m is the ion                             agrees perfectly with the DSA prediction at strong shocks,
+                                                                                  over more than two decades in energy. An extensive discussion
+plasma frequency, with m, e, and n the ion mass, charge, and                      of the spectrum of the accelerated particles can be found in
+                                                                                  Paper I.
+number density, respectively; time is measured in units of
+-1                                                                                               2.2. The High Mach Number Regime
+     =     mc/eB0,   where   B0  is  the  modulus      of  the  background
+  c                                                                                  SNR shocks may have Mach numbers as large as a few
+                                                                                  hundred to a thousand, i.e., they are significantly stronger
+magnetic field B0. Velocities are normalized to the Alfve´n                       than M = 20 shocks discussed above. As pointed out in
+speed vA = B/ 4 mn = cc/p, and the shock strength is                              Paper I, the acceleration efficiency inferred from simulations
+                                                                                  is always about 10%-15% for M 10. Conversely, magnetic
+defined by the Alfve´nic Mach number MA = vsh/vA, where                           field amplification is found to be more effective for larger
+                                                                                  Mach numbers. We are interested in probing the high-M regime
+vsh = -vshx is the shock velocity; we also introduce the                          for testing how effective magnetic field amplification can be
+energy scale Esh = (m/2)vs2h. Ions are initialized with a thermal                 in SNRs.
+distribution characterized by a thermal velocity vA, so that the
+                                                                                     Figure 3 shows the relevant physical quantities for a very
+sonic Mach number Ms is roughly equal to MA; electrons are                        strong parallel shock with M = 100 (Run C). The density map
+                                                                                  (top panel) shows that the asymptotic compression r  4 is
+initially in thermal equilibrium with ions (see Paper I for more                  reached at x 5000 c/p. The formation of unmagnetized
+                                                                                  (high-MA) shocks is known to be mediated by Weibel instability
+details). In this paper we indicate the shock strength simply with                (e.g., Kato & Takabe 2010). However, once the shock is well-
+                                                                                  developed, the likely presence of accelerated ions is expected
+M = MA Ms. The shock is generated by the interaction of                           to amplify the magnetic field in the upstream, eventually
+the primary plasma flow (along -x) and the counter-streaming                      affecting the very nature of the shock transition itself. We argue
+                                                                                  that the dramatic filamentation of the upstream produced by
+flow produced by the reflecting wall set at x = 0. The shock                      accelerated ions (notice the prominent cavities and filaments
+                                                                                  for x 8000 c/p in Figure 3) is a general feature of high
+propagates to the right in the figures (see Paper I for more                      Mach number shocks. Both the thermal plasma and the magnetic
+                                                                                  field are pushed out of the cavities and accumulated in dense
+details).                                                                         filaments, where the magnetic field can be 20 B0 (second panel
+                                                                                  of Figure 3). Even when averaged over the transverse direction,
+   We use very large computational boxes, in order to properly                    the total magnetic field is more than 5-10 times larger than
+                                                                                  the initial one, and the region in which |B|  Btot > B0
+account for the diffusion length of the highest energy ions, and                  is significantly extended ahead of the shock. The region at
+                                                                                  5000 c/p x 8000 c/p represents an extreme case of
+study the time evolution of strong shocks up to M = 100. A                        CR-induced precursor, where the energy in energetic particles
+                                                                                  is so disproportionately large with respect to the thermal and
+list of the parameters (Mach number, box size, final time, and                    magnetic components that a dramatic modification of the shock
+                                                                                  hydrodynamics must occur. This might also be the manifestation
+time step in physical units) of the runs described in the paper                   of the acoustic instability in a CR precursor, where sound
+                                                                                  waves may become unstable and form weak "shocklets" that
+is in Table 1. High-M shocks are computationally challenging,                     significantly heat the upstream plasma (Drury & Falle 1986).
+
+even for modern supercomputers, since the time step required                         Even if the shock modification induced by CRs is prominent,
+                                                                                  in our simulations we do not expect CR spectra to become
+to properly conserve energy in hybrid simulations is inversely
+
+proportional to the typical velocity of the particles; therefore,
+
+it is necessary to find a tradeoff between the box size, in both
+
+the longitudinal and transverse dimensions, the shock strength,
+
+and the physical time covered by the simulation. To familiarize
+
+the reader with the shock structure that we will be discussing,
+
+in this section we present the typical results for a long-term
+
+evolution of M = 20 parallel shocks (i.e., with B0 vsh).
+
+Then, we investigate the properties of a much stronger shock
+
+(M = 100), in order to show how sensitively the shock dynamics
+
+depends on M.
+
+           2.1. Long-term Evolution of Strong Shocks
+
+   Let us consider a parallel shock with M = 20, in two different
+
+setups: a box of size (Lx, Ly) = (5×104, 103)[c/p]2, in which
+
+the shock evolution is followed until t = 1000c-1 (hereafter
+Run A), and a box of size (Lx, Ly) = (105, 102)[c/p]2, where
+
+the evolution is followed until t = 2500c-1 (Table 1, Run B).
+                             5 × 10-4-1
+The  time  step  is  t  =                          in  both  cases.  Run  A
+                                                c
+
+allows us to study the shock dynamics in a box with very
+
+large transverse size, fully accounting for the effects of the
+
+filamentation instability (CS13), while box B allows us to follow
+
+the shock for very long time and to study the development of
+
+the non-thermal tail to larger energies. We discuss analogies
+
+                                                                               2
+The Astrophysical Journal, 794:46 (12pp), 2014 October 10               Caprioli & Spitkovsky
+
+Figure 1. Relevant physical quantities for a parallel shock with M = 20 at t = 1000c-1 (Run A in Table 1). From top to bottom: ion density, modulus and three
+                                                                                      
+
+components of the magnetic field, and local Alfve´n velocity vA = |B|/ 4  mn, in units of their respective initial values. Only a portion of the computational box is
+shown, to emphasize the shock transition.
+
+(A color version of this figure is available in the online journal.)
+
+visibly concave as predicted by the nonlinear DSA theory (see,          corresponding deviation of the spectrum from a power law is
+e.g., Malkov & Drury 2001). Since also accelerated particles            hardly noticeable over (at most) two energy decades.
+are non-relativistic, the adiabatic index of the (gas+CRs) fluid is
+still 5/3, and the total and subshock compression ratios deviate           The M = 100 case illustrated here serves as a paradigm for
+from r = 4 by small amounts (because of the modification                very strong shocks investigated in large boxes; however, it can-
+of the shock jump conditions; see Section 6.2 in Paper I); the          not be followed for very long time due to computational expense.
+                                                                        As a tradeoff, we follow the longer-term evolution of a parallel
+
+                                                                     3
+The Astrophysical Journal, 794:46 (12pp), 2014 October 10                                                                                         Caprioli & Spitkovsky
+
+                                                                                 1975a; Bell 1978; Achterberg 1983). By solving the time-
+                                                                                 independent transport equation for Alfve´nic modes generated
+                                                                                 via resonant streaming instability for a shock weakly modified
+                                                                                 by the CR presence (see, e.g., Lagage & Cesarsky 1983; Amato
+                                                                                 & Blasi 2006, as well as Section 4.1), one gets:
+
+                                                                                                 P Pcr(x) B w(x) ; Pw(x) = 2 , (1)
+                                                                                                        M~ A                     8
+
+                                                                                 where Pw and Pcr are the magnetic and CR pressures, and
+                                                                                 M~ A = (1 + 1/r)MA is the Alfve´nic Mach number in the
+
+Figure 2. Time evolution of the downstream ion momentum spectrum for             shock reference frame (since r  4 for strong shocks, typically
+M = 20 parallel shock (Run B; see Table 1), showing both the thermal             M~ A 1.25MA). We have also introduced the transverse (self-
+component (p 2 mvsh), and accelerated particles. The non-thermal power-
+law tail  p-4 agrees with DSA prediction at strong shocks (see Paper I). The     generated) component of the field, whose modulus is B =
+maximum momentum increases until t  2000c-1, when the diffusion length           B2y + Bz2.      B                                    B2    (2/3)Bt2ot,
+of the most energetic ions becomes comparable with the box size.                             If     is  almost  isotropic,  one  has
+                                                                                                                                        
+(A color version of this figure is available in the online journal.)             and in turn Pw  Bt2ot/(12 ). Normalizing the pressures in
+                                                                                 Equation (1) to u~2, where u~ is the fluid velocity in the
+
+                                                                                 shock frame, and introducing the CR pressure at the shock,
+
+shock with M = 80 in a box with smaller transverse size (Run D                   cr  (Pcr(xsh)/u~2), one finally obtains:
+in Table 1; see Figure 4). The box is large enough to resolve the
+                                                                                                        Btot    2
+gyroradius of downstream thermal ions, but not to fully account
+                                                                                                                    3crMA.  ~               (2)
+for the strong filamentation in the upstream. Yet, such a run does
+                                                                                                        B0 sh
+capture the main features of the regime in which magnetic field
+amplification is very effective in the precursor (Btot/B0  5-10                  The actual value of cr can be derived by measuring the
+on average, with peaks of 15-20 B0), and allows us to follow                     deceleration of the fluid in the precursor, and it is strictly related
+the shock evolution up to 500c-1. The longer-term evolution of                   to the CR acceleration efficiency. In the range of Mach numbers
+parallel shocks with very high M can eventually be inferred by                   considered here, it varies between 10% and 15% at t = 200c-1
+                                                                                 (see Figure 3 in Paper I). Quite remarkably, plugging cr = 0.15
+comparison with the results obtained at lower M.                                 in Equation (2) provides a very good fit to the amplification
+                                                                                 factors inferred from simulations (dashed line in Figure 5).
+         3. MAGNETIC FIELD AMPLIFICATION                                         The extrapolation of Equation (2) to higher Mach numbers is
+                                                                                 consistent with the hypothesis that CR-induced instabilities can
+One of the most important problems in particle acceleration                      account for the effective magnetic field amplification inferred at
+                                                                                 the blast waves of young SNRs, if CR acceleration is efficient.
+at shocks is understanding how effectively CR-induced insta-                     In particular, a shock velocity of vsh  4000 kms-1 in a medium
+                                                                                 with B0 = 3 G and n = 1 cm-3 corresponds to MA  600, and
+bilities amplify the initial magnetic field. In this section we in-              would return Btot/B0  20 for cr = 0.2. It is worth noting that
+                                                                                 high Mach number shocks show strong filamentary structures
+vestigate magnetic field amplification as a function of the shock                (see Figure 3), so that physical conditions may vary significantly
+                                                                                 along y; nevertheless, the present analysis is still expected to
+strength, in a wide range of M up to 100. All the shocks are                     hold locally.
+parallel, and followed until t = 200c-1. The cases M = 100
+and M = 80 correspond to Runs C and D, respectively, while
+
+cases with M = 10, 20, 30, 50 correspond to Run E in Table 1.
+
+The top panel of Figure 5 shows the pre-shock profile of the
+
+total magnetic field, averaged over 200 c/p in the transverse                                      4. TURBULENCE SPECTRUM
+direction, and between 180 and 200c-1 in time. The position
+is given as measured from the shock (x = xsh), which is                             In this section we investigate the spectrum of the magnetic
+                                                                                 turbulence generated in the shock precursor by particles accel-
+estimated by following the peak of the magnetic field intensity                  erated via DSA, for shocks with moderately large and very large
+                                                                                 Mach numbers, which show different levels of magnetic field
+(also correlated with the peak in the ion density), and averaging                amplification.
+                         -1
+over  several  tens  of       .  Tracing  the  shock  position  by  looking         Let us start by considering a parallel shock with M = 20
+                           c                                                     (Run B), and in particular the self-generated magnetic field
+                                                                                 B(x). Its spectral energy distribution can be expressed by
+at the maximum gradient in the velocity profile returns very                     calculating the Fourier transform of B(x) in the wavenumber
+                                                                                 k space1 and by posing
+similar results. Time and space averages are needed to remove
+
+the fluctuations induced by filamentary inhomogeneities. Even
+
+the position of the shock itself may appreciably vary along y
+
+in simulations with large transverse size (see, e.g., Figure 3),
+
+but the profile of the upstream fluid is not very different in
+
+any horizontal slice sampling both cavities and filaments. The
+
+most important result is that the magnetic field amplification
+
+in the shock precursor is larger for shocks with larger M. The                                          B2 B2 kmax dk
+
+bottom panel of Figure 5 shows the mean value of Btot/B0 over                                           = 0                 F (k).          (3)
+a distance x = 10 MAc/p ahead of the shock, as a function                                               8 8 kmin k
+
+of MA; we chose integration intervals proportional to the Mach
+
+number since the precursor length scale is larger for stronger                   1 The spectral energy distribution in B is calculated by summing the
+                                                                                 spectral energy distribution in By and in Bz, and does not correspond to the
+shocks.                                                                          Fourier transform of B(x). If B~i (k) is the Fourier transform of Bi (x), then
+                                                                                 F(k)/k = |B~y (k)|2 + |B~z(k)|2.
+It is interesting to compare the results in Figure 5 with
+
+the prediction of resonant streaming instability (e.g., Skilling
+
+                                                                              4
+The Astrophysical Journal, 794:46 (12pp), 2014 October 10                Caprioli & Spitkovsky
+
+Figure 3. Relevant physical quantities for a parallel shock with M = 100 at t = 200c-1, as a function of x (Run C in Table 1). From top to bottom: parallel component
+of the ion momentum, ion density, total magnetic field, parallel, and out of plane components of the magnetic field, and Alfve´n velocity.
+
+(A color version of this figure is available in the online journal.)
+
+Here F(k) represents the magnetic energy density per unit loga-             The top panel of Figure 6 shows the spatial profile of B(x)
+                                                                         at t = 2000c-1, with the shock at xsh  104 c/p. F (k)
+rithmic bandwidth of waves with wavenumber k, normalized to              is calculated at the same t = 2000c-1, in three different
+the initial energy density B20 /(8 ). The maximum wavenumber             regions: the downstream (0 x xsh), the CR precursor
+kmax depends on the cell size, and kmin on the integration interval.
+
+                                                                      5
+The Astrophysical Journal, 794:46 (12pp), 2014 October 10          Caprioli & Spitkovsky
+
+Figure 4. Relevant physical quantities (as in Figure 1) for a parallel shock with M = 80 at t = 375c-1 (Run D in Table 1). The apparent regularity of upstream
+structures (with respect to Figures 1 and 3) is due to the reduced transverse size of the simulation box.
+
+(A color version of this figure is available in the online journal.)
+
+(xsh x 2×104 c/p), and the far upstream (2×104 c/p                 ions with the highest energy, which is of the order of 5000 c/p,
+x 105 c/p). The corresponding F(k) are shown in the                as we will discuss in Section 5.
+bottom panel, with matching color code. The CR precursor
+                                                                      First, we focus on the magenta curve corresponding to the
+region is chosen in order to encompass the diffusion length of     CR precursor. The wave spectrum is F(k)  k-1 (trend defined
+
+                                                                6
+The Astrophysical Journal, 794:46 (12pp), 2014 October 10              Caprioli & Spitkovsky
+
+Figure 5. Top panel: magnetic field upstream of the shock at t = 200c-1, for different Mach numbers as in the legend. Btot(x) is averaged over 200 c/p in
+the transverse size and over 20c-1 in time, in order to smooth time and space fluctuations. Bottom panel: total amplification factor, averaged over a distance
+x = 10 MAc/p ahead of the shock, as a function of the Alfve´nic Mach number (red symbols). The dashed line corresponds to Btot/B0 2 = 0.45 MA, and represents
+the prediction of resonant streaming instability (see Equation (2), with cr = 0.15).
+
+(A color version of this figure is available in the online journal.)
+
+by the line with symbols in the bottom panel of Figure 6)              Figure 6. Top panel: transverse (self-generated) component of B for a M = 20
+                                                                       parallel shock at t = 2000c-1 (Run B). Bottom panel: power spectrum of B
+between the two vertical lines indicating modes resonant with          as a function of wavenumber k. The color code matches corresponding shock
+ions with E = Esh (dashed) and with E = Emax  300Esh                   regions. The vertical dashed and dot-dashed line indicate modes resonant with
+(dot-dashed). We adopt a loose definition of resonance between         ions of energy Esh and Emax  300Esh, respectively. Symbols correspond to
+                                                                       F(k)  k-1, i.e., the spectral energy distribution produced by a  p-4 CR
+particles with energy E and modes with wavenumber k, namely            distribution via resonant streaming instability.
+krL(E, B0)  1, which ignores that the local field may be
+different from B0, and that only the component of p B matters          (A color version of this figure is available in the online journal.)
+for resonant interaction. F(k) deviates from the  k-1 trend for
+
+k 1/rL(Esh) and for k 1/rL(Emax), because of the lack of
+resonant ions in the precursor.
+
+   Besides the normalization, which is directly related to the
+
+different magnetic field strength in the precursor and behind the
+shock, F(k) has a similar shape throughout the simulation box
+
+(see different curves in Figure 6). The far upstream cyan curve
+
+shows a high-k steepening at a wavenumber resonant with ions
+with 10 Esh rather than with Esh, consistent with the fact that
+low-energy CRs do not make it far upstream.
+
+   Let us consider now the case of a stronger parallel shock
+with M = 80 (Run D), where magnetic field amplification is
+more efficient. The power spectrum F(k) at t = 500c-1 is
+shown in Figure 7. The biggest difference with respect to the
+M = 20 case is that F(k) is more than a factor of 10 larger in the
+precursor (magenta curve). Since F  (Btot/B0)2, such a result
+is consistent with the measurements of magnetic amplification
+
+in Section 3 (see Figure 5). Most of the energy in magnetic
+
+turbulence is still at wavenumbers resonant with accelerated
+particles (between the vertical lines); however, the peak in F(k)
+is not exactly at krL(Emax, B0)  1, but at a slightly higher k.
+This is just the effect of the actual field in the precursor being
+
+few times B0, and is consistent with most of the energy being
+in waves resonant with highest-energy ions, as for M = 20.
+
+Instead, the peak in the wave spectrum in the far upstream (cyan
+
+                                                                    7
+The Astrophysical Journal, 794:46 (12pp), 2014 October 10                                                                                              Caprioli & Spitkovsky
+
+                                                                                      condition. Quantities are measured in the shock frame, where
+                                                                                      stationarity is achieved (see Caprioli et al. 2009b for the solution
+                                                                                      of Equation (5) in the presence of efficient CR acceleration).
+                                                                                      Assuming equipartition between electromagnetic and kinetic
+                                                                                      energy density in the waves, we have (k, x)  2uF(k, x) and
+                                                                                      we can rewrite Equation (4) as
+
+                                                                                      u(x)Pw,0 F (k, x) = vA P(p¯k, x) , (6)
+                                                                                                    x  x
+
+                                                                                      where P(x, p) expresses the pressure in CRs per unit logarith-
+                                                                                      mic momentum bandwidth, i.e.,
+
+                                                                                      Pcr(x) = 1    dp4p2v(p)pf (x, p)   dp
+                                                                                                 3                          P(p, x) . (7)
+
+                                                                                                                         p
+
+Figure 7. As in Figure 6 for a parallel shock with M = 80, at t = 500c-1, when        Neglecting the shock modification in the precursor (i.e., taking
+Emax  100Esh (Run D). The magnetic field is significantly more amplified              constant fluid and Alfve´n velocity) and assuming that both P
+than in the M = 20 case, with F(k) in the precursor a factor of about 10 larger       and F vanish at upstream infinity, integration of Equation (6) is
+than in Figure 6. Note that the resonance at Emax (dot-dashed line) is calculated     straightforward and returns
+in B0: accounting for the amplified field would shift the resonance at higher k.
+                                                                                                          Pw,0F (k, x) = vA P(p¯k, x) . (8)
+(A color version of this figure is available in the online journal.)                                                          u
+
+curve in Figure 7) is at wavenumbers a factor of two to three                         Finally, integrating Equation (8) over resonant k and p gives
+larger than in the precursor (magenta curve): such an effect                          Equation (1). Equation (8) states an important fact: the spectral
+cannot be ascribed to the local magnetic field being much larger                      energy density in magnetic turbulence excited via resonant
+than B0, but rather contains information about the nature and the                     streaming instability is proportional to the energy density in
+evolution of unstable modes in the far upstream, as we comment                        CRs at the corresponding resonant momenta. For a f (p)  p-4
+in Section 5.                                                                         spectrum of non-relativistic (v = p/m) particles, P(p)  p,
+                                                                                      and most of the energy is at the highest momenta; therefore,
+                4.1. Resonant Streaming Instability                                   the corresponding wave spectrum is expected to be F(k)  k-1
+                                                                                      in the shock precursor2. The agreement between such a  k-1
+   In order to understand how magnetic energy is distributed in                       trend and the wave spectrum in the CR precursor for our M = 20
+wavelength, we consider the stationary equation for the growth                        run is remarkable (compare the magenta curve with the symbols
+and transport of magnetic turbulence in the upstream fluid (see,                      in the bottom panel of Figure 6). The scaling is less evident for
+e.g., McKenzie & Vo¨lk 1982):                                                         the M = 80 case (Figure 7) where the CR spectrum is steeper
+                                                                                      than p-4 because the non-thermal tail is not yet fully developed
+(k, x) = u(x) F(k, x) +  (k, x)F(k, x) , (4)                                          (see Paper I).
+x               x                                                                      The good agreement of simulations with the scaling B/B0 
+
+where (k, x) and F(k, x) are the energy flux and pressure per                           MA (Equation (2)) suggests that some form of resonant
+unit logarithmic bandwidth of waves with wavenumber k, and                            streaming instability should be prominent in CR precursors of
+ (k, x) is the rate at which the energy in magnetic turbulence                        SNR shocks. However, it is not entirely obvious whether the
+grows. In Equation (4) we have not explicitly included the                            Alfve´n velocity in Equation (8) should be calculated with B0
+damping of magnetic modes, which is inferred to heat the                              even in the nonlinear regime. PIC simulations in periodic boxes
+precursor up, keeping magnetic and gas pressure in equipartition                      showed that the Alfve´n velocity grows proportionally to the
+(see Section 6.1 in Paper I); therefore, our formulas describing                      magnetic field in the nonlinear stage of the instability (Riquelme
+the level of magnetization inferred in simulations effectively                        & Spitkovsky 2009), and the enhanced phase velocity of self-
+include wave damping. The growth rate of Alfve´n waves                                generated modes may play an important role in explaining the
+produced by resonant streaming instability reads (e.g., Skilling                      steep ion spectra observed in  -ray bright SNRs (Caprioli 2011,
+1975b; Bell 1978; Achterberg 1983):                                                   2012). Simulations presented here are not conclusive in this
+                                                                                      respect: longer runs of strong shocks are needed to convincingly
+ (k, x) = 4 vA     p4v(p) f (x, p)                         , (5)                      claim a (possible) steepening of about 10%-20% in the CR
+   3 Pw,0F (k, x)  x                                                                  spectral slope with respect to the canonical value of 4.
+                                    p=p¯k
+                                                                                         Finally, we point out that the magnetic spectrum has non-
+where Pw,0 = B02/(8 ), f(x, p) is the isotropic part of the                           negligible power even at scales rL(Emax): in Figure 7, F(k)
+local ion distribution, and p¯k = mc/k is the resonance                               0.1 for 1/rL(100Emax) k 1/rL(Emax). These modes may
+                                                                                      either be driven by escaping ions with energy larger than Emax,
+                                                                                      or be the signature of a large-wavelength instability, like the
+
+                                                                                      2 Note that, in the relativistic regime where v c, a CR spectrum
+                                                                                      f (p)  p-4 would correspond to constant energy per momentum decade, and
+                                                                                      in turn to a F(k) flat in wavenumber.
+
+                                                                                   8
+The Astrophysical Journal, 794:46 (12pp), 2014 October 10                                                                                            Caprioli & Spitkovsky
+
+                                                                                    of shock drift acceleration, but their current does not perturb the
+                                                                                    large-scale magnetic configuration.
+
+                                                                                            5. THE ROLE OF NRH MODES
+
+Figure 8. Power spectrum of the self-generated B, calculated in a region of            Both the level of amplification (Equation (2)) and the spec-
+5000 c/p upstream of the shock (M = 10, run E), for three different obliquities     trum of the self-generated magnetic turbulence in the precursor
+as in the legend. The dashed line corresponds to wavenumber k  1/rL(Esh),           (Figures 6 and 7) are consistent with resonant streaming insta-
+and symbols correspond to F (k)  k-1. Configurations at  = 0 and 45                 bility being the channel through which CRs amplify the initial
+are quite similar to each other and agree nicely with DSA prediction, while the     magnetic field. However, there is a short-wavelength instability
+magnetic energy for the quasi-perpendicular shock is significantly smaller.         (the non-resonant hybrid, NRH, instability; Bell 2004, 2005)
+                                                                                    that is predicted to grow faster than the resonant one.
+(A color version of this figure is available in the online journal.)
+                                                                                       Different flavors of streaming instability can be obtained by
+firehose instability, (see, e.g., Blandford & Eichler 1987; Shapiro                 linearizing the dispersion relations of circularly polarized waves
+et al. 1998).                                                                       with wave vectors aligned with a background magnetic field
+                                                                                    (see, e.g., Krall & Trivelpiece 1973), also including the return
+           4.2. Dependence on the Shock Obliquity                                   current of electrons balancing the positive CR current (see, e.g.,
+                                                                                    Amato & Blasi 2009 for a detailed kinetic derivation). In this
+As shown in Paper I, the amount of magnetic turbulence                              framework, the resonant (non-resonant) branch corresponds to
+                                                                                    waves for which the electric and magnetic field vectors, at a fixed
+                                                                                    point in space, rotate in the same sense as protons (electrons);
+                                                                                    such modes are usually referred to as left-handed (right-handed).
+                                                                                    In the quasi-linear limit, the maximum growth rate  contributed
+                                                                                    by the current of ions with momentum p propagating upstream
+                                                                                    with velocity vcr reads (see Equation (28) in Amato & Blasi
+                                                                                    2009)3:
+
+triggered by CR instabilities strongly depends on the shock                         res(p)                 mvcr nrh(p) cr (p) vcr
+                                                                                      c                  cr (p) ,      , (9)
+obliquity, being mostly prominent for parallel and quasi-parallel                                          2p      c  2 vA
+
+shocks. At quasi-perpendicular shocks, instead, few or no
+
+accelerated particles propagate into the upstream and the field                     where we introduced the number density of CRs with momen-
+
+is not amplified.                                                                   tum larger than p normalized to the density of the background
+                                                                                    plasma, cr (p)  ncr(> p)/n. Here vcr is the bulk CR ve-
+Figure 8 shows the spectrum of the self-generated magnetic                          locity as seen by the waves advected with the upstream fluid:
+
+turbulence (with B = Bz), calculated in a region of thickness                       for diffusing CRs that are almost isotropic in the shock refer-
+5000 c/p upstream of the shock at t = 200c-1, for different                         ence frame, vcr  vsh, while for escaping (i.e., free-streaming)
+shock inclinations  = 0, 45, 80; here,  is the angle                                CRs, vcr  2Emax/m (vcr  c for relativistic particles). The
+                                                                                    most-unstable wavenumbers corresponding to the growth rates
+between vsh and B0 = (B0 cos , B0 sin , 0). All of the runs                         in Equation are Kres 1/rL(p) and Knrh nrh/vA. Strictly
+                                                                                    speaking, the NRH instability at Knrh depends on the current
+have M = 10, box size (Lx, Ly) = (40,000 c/p, 500 c/p)                              due to all of the streaming CRs, while the resonant instability
+
+and  time  step  t  =  10-3  -1   (Run  E  in  Table  1).  As  in  Figure  6,
+
+                               c
+
+the vertical dashed line marks the wavenumber resonant with                         is driven only by CRs with p 1/Kres. While not completely
+ions with energy Esh. The  = 0 and  = 45 cases are
+similar to each other, and agree nicely with the F(k)  k-1                          accurate in the general case, cr provides a good description of
+trend discussed above. This is not surprising, since at  = 45                       the CR content both close to the shock, where p  mvsh, and
+                                                                                    far upstream, where p  pmax.
+the shock is still quite efficient in accelerating particles, even
+                                                                                       The ratio of the growth rates of NRH and resonant instability
+if filamentation instability is moderately suppressed and B/B0
+
+is smaller than in the parallel case (see Paper I). The inclined
+
+geometry of the background field facilitates the return of high-                    in Equation (9) is:
+energy particles, actually halving the diffusion time for  = 45,
+                                                                                                         
+and allowing the achievement of an Emax twice as large as in the                    W (p) = nrh            cr (p)vcrp/m M cr (mvcr), (10)
+
+parallel case. This effect is reflected also in the wave spectrum in                res                    vA
+Figure 8, with the  = 45 curve peaking at a wavenumber lower
+than for  = 0. For  = 80 (blue curve in Figure 8), instead,                         where we assumed cr (p)  1/p as for a f (p)  p-4 CR
+                                                                                    distribution, and introduced the effective Alfve´nic Mach number
+there are no accelerated ions streaming ahead of the shock, and                     of the CR current, M  vcr/vA. For diffusing CRs, which are
+no magnetic turbulence is effectively generated (F(k) 10-3                          almost isotropic in the shock frame and move with vcr vsh with
+                                                                                    respect to the upstream fluid, M  MA, and cr (mvsh)  10-3
+for krL(Esh) 1).                                                                    (see PaperI). This means that in precursors of shocks with
+                                                                                    MA W/ cr  30 the NRH instability grows faster than the
+   We conclude that resonant modes are excited for all shock                        resonant one (see also Amato & Blasi 2009).
+inclinations  45, where DSA acceleration is efficient.
+                                                                                       The crucial questions that we want to address are: what is the
+On one hand, at parallel shocks filamentation instability is                        maximum level of amplification achievable via NRH instability
+
+more effective and eventually leads to larger amplification                         3 The numerical factor in res should read 0.43, here approximated as
+                                                                                    1/ 2 for simplicity and analogy with nrh.
+factors (CS13); on the other hand, the field geometry of more
+
+oblique shocks prevents CRs from diffusing far from the shock,
+
+potentially reducing their acceleration time by a factor of
+ cos . Above   45, however, DSA is ineffective. As
+
+shown in Paper I, ions gain a factor of a few in energy because
+
+                                                                                 9
+The Astrophysical Journal, 794:46 (12pp), 2014 October 10                 Caprioli & Spitkovsky
+
+upstream of a SNR shock? What is the relative contribution of             wavelength of NRH modes becomes comparable with the gy-
+resonant and NRH instabilities in different shock regions? In             roradius of current CRs, i.e., K(b)rL(b)  1. In the nonlinear
+order to answer these questions in a quantitative way, we need            stage, right-handed NRH modes may become resonant in wave-
+to know how the growth rate and the maximally growing mode                length with ions driving the instability; when this happens, such
+evolve when the instability enters its nonlinear stage, i.e., when        ions are effectively scattered, and the current is disrupted. Since
+b  B/B0 1.                                                                cr M0 1 is a necessary condition for the growth of the NRH
+                                                                          instability to nonlinear levels (see, e.g., sec. 3.1 of Riquelme &
+   Riquelme & Spitkovsky (2009) have derived the nonlinear                Spitkovsky 2009), one has a limit on b independent of the CR
+dispersion relation for NRH modes, from which it is possible              density: b 3 M0. For relativistic CRs in the ISM, we have
+to work out phase velocity and growth rate (/k and  ) for                 b 3 c/vA  20-30, which means that CRs escaping from a
+arbitrary amplification factor b. From the imaginary part of              SNR might be able to pre-amplify the ISM field by more than
+Equation (A12) in Appendix A of their work, one can write and             one order of magnitude before being isotropized (see also Bell
+solve a differential equation for (b) for the fastest-growing             et al. 2013).
+mode (Equation (2) in the same paper); by inserting such
+a solution for (b) in the real part of Equation (A12), we                    In realistic shock precursors there must be two distinct
+eventually find  (b), which in the limit vA c reads:                      regions: (1) the far upstream region, where the current is
+                                                                          provided by free-streaming ions with E Emax that excite
+ 2 k(2K0 - k) K20 2b2 + 1    ccr M0 , (11)                                small-wavelength NRH modes, and (2) the CR precursor, where
+     =2     - 2 2 2 ; K0           vA,0                                   the current is sustained by diffusing CRs with vcr vsh. The
+v2A  b + 1 M (b + 1)                                                      boundary between the two regions is marked by the condition
+                                                                          b  b and represents the free-escape boundary widely adopted
+where the subscript 0 labels initial quantities (b 1),  (k) is            in DSA theory (see, e.g., Caprioli et al. 2010 and references
+the growth rate of the mode with wavenumber k, and K0 is the              therein). Moreover, any dynamical modification induced by
+fastest-growing mode. For b 1, one has v2A  vA2 ,0(b2 +1), and            energetic particles occurs in the precursor, where CRs are well
+the growth rate of the fastest-growing mode, (b) =  (K0, b),              magnetized and can exert pressure on the incoming fluid (see
+can be written as:                                                        Paper I); escaping particles can still remove energy from the
+                                                                          system, making the shock behaving as partially radiative (see,
+            2b2 + 1                        2b2                            e.g., Caprioli et al. 2009a).
+     (b) vA,0K0 1 - 2  0 1 - 2 ,                           (12)
+            M0                             M0                                We searched for NRH modes in our long global simulations,
+                                                                          which also account for shock evolution and self-consistent CR
+where the last equations holds for 1 2b2 M20. With                        currents, by considering the different polarization of resonant
+Equation (12) we can calculate the evolution of the amplification         and NRH modes (see, e.g., Gargate´ & Spitkovsky 2012). From
+factor in the nonlinear regime by integrating b(t) = b(t), with           Equation (10) we expect NRH modes to be prominent only
+t = 0 defined as the time when b(0)  1, obtaining                         for M 30; in the upstream of M = 20 shocks (Runs A
+                                                                          and B) we find regions where wave polarization is mainly
+     b(t )  e0t M20 - M0 M20 - 2                           . (13)         left-handed (i.e., resonant with accelerated ions), while for
+                                                                          M = 80 (Run D) modes are predominantly right-handed, i.e.,
+            1 - e20t M20 - 1 + M0 M20 - 2                                 generated by the NRH instability. Also, while for shocks with
+                                                                          M = 20 the spectral power density F(k) can be explained
+First, we notice that the maximum amplification factor provided           as due to resonant streaming instability (Figure 6), this is not
+by the NRH instability is bmax M0/ 2, which corresponds                   the case for higher Mach numbers. In the far upstream of the
+                                                                          M = 80 case, F(k) has a peak at wavelengths smaller than the
+to (bmax) 0; second, such a maximum is reached for                        gyroradius of ions with Emax  100Esh (Figure 7). Such a peak
+0tmax log( 2M0), which gives us the estimate of the                       moves to longer wavelengths closer to the shock, eventually
+                                                                          matching the wavenumber of modes resonant with Emax. In
+duration of the exponential phase. These results are in good              Run D, the density of escaping CRs is cr (E Emax)  10-4,
+                                                                          and for them M0 MA Emax/Esh; therefore, the growth
+agreement with PIC and hybrid simulations with controlled ion             rate of the fastest-growing mode is 0  0.07c. Run D
+                                                                          is long and large enough for the fastest-growing mode to
+beams (e.g., Riquelme & Spitkovsky 2009; Gargate´ et al. 2010),           reach saturation, since time and length scales are larger than
+                                                                          tsat  log(M)/0  100c-1 and Lsat vshtsat  8000 c/p.
+which show that bmax  M0 at saturation. Simulations also                  With the same parameters, we estimate b  3.7, which
+show that the exponential phase lasts for t  3-50-1, and that             nicely matches the level of field amplification at the boundary
+the instability saturates after few tmax. The additional growth           between precursor and far upstream, which in Figure 7 is set at
+                                                                          x  2 × 104 c/p.
+observed after tmax can be understood by accounting for the
+                                                                             The determination of the free-escape boundary for shocks
+contributionof modes with k  K0, whose slower growth rate                 with low Mach numbers cannot rely on the migration to longer
+is  (k)  k/K.                                                             wavelengths of NRH modes, since field amplification typically
+                                                                          proceeds in the linear regime, and resonant and NRH instabilities
+            5.1. The Free-escape Boundary                                 grow at almost the same rate. In this case, the current in escaping
+                                                                          ions is more easily disrupted, and the shock precursor extends for
+   An important difference between controlled simulations in              about one diffusion length of the ions with maximum energy;
+boxes with periodic boundary conditions and realistic shock               for an extended characterization of particle diffusion, and in
+precursors is that the CR current is not fixed, but is rather deter-      particular for the parameterization of the diffusion coefficient
+mined by scattering in the self-generated turbulence. The most
+unstable mode K0 is unable to deflect current ions because it
+is right-handed and has small-wavelength, namely K0rL(vcr)
+cr M2 1. Nevertheless, PIC simulations show that the most
+unstable wavenumber decreases as K(b) K0/b2 (Riquelme &
+Spitkovsky 2009), which implies K(b)rL(b)  b-3. There ex-
+ists a critical amplification factor b 3 cr M02 for which the
+
+                                                                      10
+The Astrophysical Journal, 794:46 (12pp), 2014 October 10                                                                                  Caprioli & Spitkovsky
+
+inferred from simulations of shocks with low and high Mach                     incoming plasma is dramatically slowed down and heated
+numbers, we remand to Paper III.                                               up (see Paper I).
+                                                                           2. Magnetic field amplification ahead of the shock is more ef-
+   We conclude this section with some caveats. First, most of the              fective for strong shocks. The amplification factor averaged
+findings above are based on 2D simulations with limited trans-                 over regions comparable with CR diffusion lengths is 10
+verse size and up to M = 80. The shock in Run C, which has                     for MA = 100, and scales as (Btot/B0)2  MA (Figure 5).
+M = 100 and very extended transverse size (Figure 3), shows                    The extrapolation of this trend to the Mach numbers of a
+how filamentation may be important for very strong shocks.                     few hundred relevant for young SNRs can account for their
+The complex pattern of cavities and filaments suggests that one-               large inferred magnetic fields of few hundred G.
+dimensional descriptions may not properly capture growth and               3. Upstream of shocks with M 30, the spectrum of
+saturation of the magnetic turbulence. Nevertheless, filamen-                  excited magnetic turbulence (Figure 6) is consistent with
+tation enhances the production of magnetic turbulence, both                    the prediction of resonant streaming instability (e.g., Bell
+upstream and downstream (CS13); we argue that simulations                      1978; Achterberg 1983); the energy distribution in waves
+with limited transverse size place lower limits on magnetic field              is determined by the energy distribution in accelerated
+amplification and CR scattering. Second, one may question the                  particles (Equation (8)). Amplification vanishes for quasi-
+applicability of the approach of Section 4.1, which only in-                   perpendicular shocks, where acceleration is inefficient and
+cludes resonant instability due to diffusing CRs, to very strong               the CR current is weak or even absent.
+shocks. Equation (4)-(8) should still be appropriate in the pre-           4. Shocks with MA 30 show a different behavior because
+cursor, which we defined as the region of the upstream where                   small-wavelength modes excited by the NRH instability
+CRs with E Emax are effectively scattered. Moreover, since                     grow faster than resonant ones (Bell 2004, 2005). NRH
+the free-escape boundary is determined by the condition that                   modes are excited by the escaping ions (which have energies
+NRH modes become comparable in wavelength to CR gyrora-                        close to the maximum energy Emax) and their wavelength
+dius, KrL(Emax)  1, in the precursor the resonant and NRH                      increases  (B/B0)2 until it becomes comparable with the
+instability must grow at a comparable rate. The proper transport               gyroradius of ions with Emax.
+equation for the upstream magnetic turbulence should include               5. For such high-MA shocks, we can distinguish two regions:
+also the current in escaping CRs and migration in wavelength,                  the far upstream region, where the current is provided
+which is indeed crucial for regulating escape and scattering of                by escaping CRs, and the precursor, where the current
+the most energetic CRs. However, we argue that Equation (5)                    is provided by the gradient in diffusing (magnetized)
+still captures the order of magnitude of the relevant growth rate              CRs. NRH instability dominates far upstream, while in
+in the precursor, thereby providing a good fit of the scaling of               the precursor resonant and NRH instabilities grow at a
+the total amplification factor at the shock (Figure 5). We defer to            comparable rate. The interface between the two regions
+forthcoming works a more detailed description of the interplay                 represents the so-called free-escape boundary.
+among NRH, resonant and filamentation instabilities, the possi-
+ble role of long-wavelength (firehose-like) instabilities, and the           These results can be used to include self-consistent micro-
+extension of the present results in 3D simulations.                       physics into models of particle acceleration at shocks, especially
+                                                                          into nonlinear approaches to DSA (see, e.g., Caprioli et al. 2010
+                          6. CONCLUSIONS                                  for a comparison of different techniques), which typically re-
+                                                                          quire prescriptions for the position of the free-escape boundary,
+   This paper is the second of a series aimed to investigate several      and for the dominant channels of magnetic field amplification.
+aspects of ion acceleration at non-relativistic shocks through            The total level of magnetic field amplification, and its scaling
+hybrid simulations. The first paper (Caprioli & Spitkovsky                with the shock Alfve´nic Mach number, is also crucial in model-
+2014a, Paper I) measured the spectrum of the accelerated                  ing synchrotron emission of non-thermal electrons accelerated
+particles, the dependence of the acceleration efficiency on               in non-relativistic shocks, for instance in SNRs, active galactic
+shock strength and inclination with respect to the upstream               nucleus lobes, and galaxy clusters. In forthcoming publications
+magnetic field, and the shock modification induced by efficient           we will cover diffusion of particles in the self-generated mag-
+CR acceleration. In this paper we investigate the magnetic                netic turbulence and the evolution of the maximum CR energy
+turbulence generated by super-Alfve´nic particles in the shock            with time (Caprioli & Spitkovsky 2014b), and the mechanisms
+precursor. To perform this study in a consistent way, in principle        that lead to the injection of ions into DSA, in order to provide
+one needs to: (1) follow the shock for very long time in physical         closure for the present series of papers.
+units, which requires a box sufficiently large in the direction
+of the shock propagation, in order to see the development of                 We thank L. Gargate´ for providing a version of dHybrid,
+the non-thermal ion tail; (2) use large boxes in the transverse           P. Blasi, E. Amato, and A. Bell for stimulating discussions,
+directions, in order to retain the modifications induced by               and the referee for the thorough comments and suggestions.
+the filamentation instability (Caprioli & Spitkovsky 2013);               This research was supported by NSF grant AST-0807381 and
+(3) run shocks with very high Mach numbers, in order to                   NASA grant NNX12AD01G, and facilitated by the Max-
+simulate conditions relevant to real SNR blast waves. Since it is         Planck/Princeton Center for Plasma Physics. This work was
+computationally impossible to satisfy all of these requirements           also partially supported by a grant from the Simons Foundation
+in the same run, we individually explored these limits in different       (grant No. 267233 to A.S.), and by the NSF under grant No.
+state-of-the-art simulations, always bearing in mind the physics          PHYS-1066293 and the hospitality of the Aspen Center for
+that may be missing when one or more of the points above is               Physics. Simulations were performed on the computational re-
+neglected. Our main findings are the following.                           sources supported by the PICSciE-OIT TIGRESS High Perfor-
+                                                                          mance Computing Center and Visualization Laboratory. This
+ 1. High Mach number shocks (M 50) can produce very                       research also used the resources of the National Energy Research
+     strong CR-induced precursors (e.g., Figure 3), in which the          Scientific Computing Center, which is supported by the Office
+
+                                                                      11
+The Astrophysical Journal, 794:46 (12pp), 2014 October 10               Caprioli & Spitkovsky
+
+Figure 9. Comparison of runs with different transverse size for M = 20 parallel shock (Run A is five times larger than Run B; see Table 1). Left panel: magnetic field
+profiles, as in the legend; B and max B correspond to the average over y and the maximum of Btot(x, y), as a function of x. max B in Run B is not shown since it
+almost coincides with B . The averaged profiles are quite similar in the two runs, even if the spread from the mean value may locally be quite large in Run A. Right
+panel: time evolution of non-thermal spectra for Run A (dashed lines) and B (solid lines). Spectra agree very well until t  800c-1, after which the diffusion length
+at Emax becomes comparable with the box size in Run A.
+
+(A color version of this figure is available in the online journal.)
+
+of Science of the U.S. Department of Energy under Contract              still adequate to study important quantities in the long-term
+No. DE-AC02-05CH11231, and XSEDE's Ranger and Stam-                     evolution of the shock, as the averaged level of magnetic
+pede under allocation No. TG-AST100035.                                 field amplification, thereby returning realistic ion power-law
+                                                                        distributions.
+                              APPENDIX
+                                                                                                    REFERENCES
+            DEPENDENCE ON THE TRANSVERSE
+                         SIZE OF THE BOX                                Achterberg, A. 1983, A&A, 119, 274
+                                                                        Amato, E., & Blasi, P. 2006, MNRAS, 371, 1251
+   A few comments on the role of the transverse box size are            Amato, E., & Blasi, P. 2009, MNRAS, 392, 1591
+needed. Figure 9 shows the comparison of magnetic field profiles        Bell, A. R. 1978, MNRAS, 182, 147
+(left panel) and non-thermal ions' spectra (right panel) in Runs        Bell, A. R. 2004, MNRAS, 353, 550
+A and B, which have Ly = 1000 c/p and Ly = 200 c/p,                     Bell, A. R. 2005, MNRAS, 358, 181
+respectively (see Table 1). The left panel of Figure 9 shows            Bell, A. R., Schure, K. M., Reville, B., & Giacinti, G. 2013, MNRAS,
+the profile of the total magnetic field Btot = |B|, for both
+Runs A and B. The upper curve illustrates the maximum value                431, 415
+of Btot(x) for Run A, while bottom curves correspond to the             Blandford, R., & Eichler, D. 1987, PhR, 154, 1
+average of Btot(x, y) over y, Btot . In Run B, max[Btot](x) is          Blandford, R. D., & Ostriker, J. P. 1978, ApJL, 221, L29
+almost indistinguishable from Btot , and is omitted in the plot.        Caprioli, D. 2011, JCAP, 05, 026
+It is important to notice that Btot is almost independent of            Caprioli, D. 2012, JCAP, 07, 038
+the actual transverse size of the box, as long as this is large         Caprioli, D., Blasi, P., & Amato, E. 2009a, MNRAS, 396, 2065
+enough to encompass the gyroradius of most of the ions. In              Caprioli, D., Blasi, P., Amato, E., & Vietri, M. 2009b, MNRAS, 395, 895
+simulations with large transverse size, however, filamentation          Caprioli, D., Kang, H., Vladimirov, A. E., & Jones, T. W. 2010, MNRAS, 407,
+leads to prominent inhomogeneities, and the local field may
+vary significantly (compare the red and the magenta curves in              1773
+Figure 9).                                                              Caprioli, D., & Spitkovsky, A. 2013, ApJL, 765, L20
+                                                                        Caprioli, D., & Spitkovsky, A. 2014a, ApJ, 783, 91
+   The ion spectra obtained in Runs A and B are very similar            Caprioli, D., & Spitkovsky, A. 2014b, ApJ, 794, 47
+to each other up to t 800c-1 (right panel of Figure 9).                 Drury, L. O'C., & Falle, S. A. E. G. 1986, MNRAS, 223, 353
+Beyond this time, the diffusion length of the highest-energy            Gargate´, L., Bingham, R., Fonseca, R. A., & Silva, L. O. 2007, CoPhC,
+ions becomes comparable with the longitudinal box size in
+Run A, and Emax does not increase any longer (left panel of                176, 419
+Figure 9). The DSA spectral slope is determined by the shock            Gargate´, L., Fonseca, R. A., Niemiec, J., et al. 2010, ApJL, 711, L127
+compression ratio only, but Emax(t) is determined by the strength       Gargate´, L., & Spitkovsky, A. 2012, ApJ, 744, 67
+and the topology of magnetic irregularities that scatter the ions.      Kato, T. N., & Takabe, H. 2010, ApJ, 721, 828
+The fact that Emax(t) does not depend on the transverse box size        Krall, N., & Trivelpiece, A. 1973, Principles of Plasma Physics (New York:
+until t 800c-1 implies that--on average--also the diffusion
+of accelerated ions is not strongly affected by filamentation.             McGraw-Hill)
+                                                                        Lagage, P. O., & Cesarsky, C. J. 1983, A&A, 118, 223
+   We conclude that large transverse sizes are needed to capture        Malkov, M. A., & Drury, L. O'C. 2001, RPPh, 64, 429
+the proper topology of the electromagnetic fields and the               McKenzie, J. F., & Vo¨lk, H. J. 1982, A&A, 116, 191
+shock corrugation, which may have observational implications            Morlino, G., Amato, E., Blasi, P., & Caprioli, D. 2010, MNRAS, 405, L21
+(see CS13). However, moderately large 2D simulations are                Morlino, G., & Caprioli, D. 2012, A&A, 538, A81
+                                                                        Parizot, E., et al. 2006, A&A, 453, 387
+                                                                        Reynoso, E. M., Hughes, J. P., & Moffett, D. A. 2013, AJ, 145, 104
+                                                                        Riquelme, M. A., & Spitkovsky, A. 2009, ApJ, 694, 626
+                                                                        Shapiro, V. D., Quest, K. B., & Okolicsanyi, M. 1998, GeoRL, 25, 845
+                                                                        Skilling, J. 1975a, MNRAS, 172, 557
+                                                                        Skilling, J. 1975b, MNRAS, 173, 245
+                                                                        Uchiyama, Y., Aharonian, F. A., Tanaka, T., Takahashi, T., & Maeda, Y.
+
+                                                                           2007, Natur, 449, 576
+
+                                                                    12
+

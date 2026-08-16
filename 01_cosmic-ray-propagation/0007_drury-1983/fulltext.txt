@@ -1,0 +1,2866 @@
+Rep. Prog. Phys., Vol. 46, pp. 973-1027, 1983. Printed in Great Britain
+
+An introduction to the theory of diffusive shock
+acceleration of energetic particles in tenuous plasmas
+
+L O'C Drury
+
+Max-Planck-Institut fur Kernphysik, Postfach 103980, D6900 Heidelberg-1, West Germany
+
+Abstract
+
+The central idea of diffusive shock acceleration is presented from microscopic and
+macroscopic viewpoints; applied to reactionless test particles in a steady plane shock
+the mechanism is shown to produce a power law spectrum in momentum with a slope
+which, to lowest order in the ratio of plasma to particle speed, depends only on the
+compression in the shock. The associated time scale is found (also by a macroscopic
+and a microscopic method) and the problems of spherical shocks, as exemplified by
+a point explosion and a stellar-wind terminator, are treated by singular perturbation
+theory. The effect of including the particle reaction is then studied. It is shown that
+if the scattering is due to resonant waves these can rapidly grow with unknown
+consequences. The possible steady modified shock structures are classified and gen-
+eralised Rankine-Hugoniot conditions found. Modifications of the spectrum are
+discussed on the basis of an exact, if rather artificial, solution, a high-energy asymptotic
+expansion and a perturbation expansion due to Blandford. It is pointed out that no
+steady solution can exist for very strong shocks; the possible time dependence is briefly
+discussed.
+
+This article was received in its present form in February 1983.
+
+@ 1983 The Institute of Physics  973
+974  L O'CDrury
+
+Contents                                                Page
+
+1. Introduction                                          975
+2. Basic theory                                          976
+                                                         976
+   2.1. Transport of energetic charged particles         978
+   2.2. Shock kinematics and scatter-free acceleration   982
+   2.3. Diffusive acceleration at shocks                 987
+3. Linear modifications                                  987
+   3.1. Oblique shocks                                   99 1
+    3.2. Time-dependent solutions                        995
+   3.3. Non-planar shocks                               1000
+    3.4. Additional energy gains and losses             1001
+                                                        1001
+   3.5. Effects of higher order in (V/u)                1002
+                                                        1003
+4. Non-linear modifications                             1014
+    4.1. Self-induced scattering                        1022
+    4.2. Shock structure                                1023
+   4.3. Non-linear effects on the particle spectrum     1024
+    4.4. Injection and selective acceleration           1025
+    4.5. Pressure divergence in non-linear shocks
+
+5 . Concluding remarks
+    References
+An introduction to the theory of diffusive shock acceleration  975
+
+1. Introduction
+
+The subject of this review is a mechanism, basically simple, whereby shock waves in
+tenuous ionised media such as fill interstellar and interplanetary space can accelerate
+energetic charged particles. While of interest in itself the idea's chief attraction is
+that it may be a first step towards understanding the universal acceleration mechanism
+long suspected by workers in high-energy astrophysics to exist and to be responsible
+for the galactic cosmic rays and the energetic electrons inferred in many non-thermal
+radio sources (the main evidence is that all the particle energy spectra seem to be
+power laws with very similar indices). As sometimes happens in the history of Science
+the concept appears to have been `in the air' and was independently and almost
+contemporaneously published by Krymsky (1977), Axford et a1 (1977), Bell (1978a, b)
+and Blandford and Ostriker (1978). Even prior to these four semirial papers which
+all, but with interesting variations, describe the same basic process of diffusive shock
+acceleration (also known as first-order or regular Fermi acceleration by shock waves)
+certain papers clearly foreshadowed the concept; thus Hoyle (1960),without specifying
+a mechanism, postulated that shocks could efficiently accelerate particles, Parker
+(1958) and Hudson (1965, 1967) attempted to obtain a first-order Fermi mechanism
+based on pairs of converging shocks and most notably Schatzman (1963) constructed
+a theory very similar to diffusive shock acceleration but based on perpendicular shocks.
+The idea is also implicit in the papers of Jokipii (1966, 1968), Fisk (1971) and Scholer
+and Morfill (1975).
+
+    In the six years since its first publication the concept has been considerably
+elaborated and is already the subject of reviews by Blandford (1979), Axford
+(1980, 1981a, b) and Toptyghin (1980). This review deals exclusively with the theo-
+retical aspects of the mechanism; the relevant observational data as well as much
+theoretical background can be found in the monograph by Longair (1981) and in the
+volumes of conference proceedings containing Blandford's (1979) and Axford's (1980)
+reviews. Virtually all work in this area has been reported (and criticised) at the
+biannual international cosmic-ray conferences (the last three were at Plovdiv in 1977,
+Kyoto in 1979 and Paris in 1981);the published proceedings are an invaluable guide
+to current research and contain discussions of the mechanism's application to the
+acceleration of the galactic cosmic rays (cf in particular the incisive criticism by
+Ginzburg and Ptuskin (1981)). The theses of Achterberg (1981) and Ellison (1981)
+are also useful sources.
+
+    A shock wave, or briefly a shock, can be generally defined as a transition layer
+which propagates through a plasma and changes its state. The physically important
+case, and the only one considered here, is where the shock compresses the plasma
+and some of the kinetic energy of the incoming plasma is transferred to internal
+degrees of freedom of the downstream plasma. The thickness of the transition layer
+(the shock front) is determined by the physical process responsible for this energy
+conversion. In an ordinary gas shock the energy is transferred by two-body collisions
+to the random thermal motion of the gas molecules and the thickness is of the order
+of a few collisional mean free paths. However, in tenuous plasmas collisions are rare
+and the energy transfer proceeds through collective electromagnetic effects; thus the
+976                L O'CDrury
+
+thickness of these collisionless shocks is of the order of the gyroradius of a thermal
+ion (or the Debye length if electrostatic effects are important). An energetic charged
+particle is one with sufficient momentum not to resonate with this electromagnetic
+turbulence in the shock front and thus see the shock essentially as a discontinuity
+(whereas the `thermal' particles interact strongly and are `heated'). The general
+properties of shocks are discussed in the books by Zeldovich and Raizer (1966),
+Whitham (1974) and Lighthill (1978); the standard reference on collisionless shocks
+is the monograph by Tidman and Krall (1971).
+
+    The notation and nomenclature used in this review is, in general, standard. The
+Dirac distribution is denoted as usual by S and the Heaviside unit step function by
+H . The symbol A is used both for the cross product of two vectors (denoted by
+boldface type) and for the exterior (or wedge) product of differential forms. `Cosmic
+ray' is often used as a convenient synonym for `energetic charged particle' and the
+definition of pitch in (2.1) is non-standard. Momentum always means kinetic momen-
+tum (not the canonical momentum which contains an electromagnetic part) but this
+does not affect the use of Liouville's theorem.
+
+2. Basic theory
+
+This section begins with a simple heuristic derivation of the diffusive transport equation.
+The kinematic structure (i.e. space-time geometry) of the electromagnetic and velocity
+fields at a shock is then discussed and scatter-free acceleration briefly considered.
+The third, and major, part discusses as simply as possible the fundamental ideas of
+diffusive shock acceleration.
+
+2.1. Transport of energetic charged particles
+
+We begin with the elementary result that in a uniform magnetic field a freely moving
+charged particle follows a helical trajectory, the superposition of a uniform translation
+parallel to the field and a regular gyration perpendicular to the field. The particle's
+pitch, p, is the cosine of the angle between its momentum vector p and the magnetic
+field B :
+
+                                            k=P`BIPB  (2.1)
+and its parallel and perpendicular momenta are
+
+                   PI1= PP
+
+                   p 1 = (1 -p 2)1'2p.
+
+The gyroradius is
+
+                   rg =p,/ZeB                         (2.3)
+
+where Z e is the particle's electric charge (in SI units; in Gaussian units the RHS must
+be multiplied by the speed of light).
+
+    Fortunately the real world is not as simple as first-year physics; cosmic magnetic
+fields are usually neither static nor uniform, they contain irregularities and variations
+which perturb the particles and lead to scattering. If we think of the simplest case, a
+homogeneous background medium permeated by a uniform magnetic field on which
+      An introduction to the theory of diffusive shock acceleration  977
+
+are imposed small static irregularities, then because the electric field is identically
+zero particles conserve their energy (and scalar momentum) on scattering but have
+their pitch changed (and also their gyrophase, but this is usually unimportant). If the
+scattering is `sufficientlystochastic' (it would be interesting to be able to give a precise
+
+- definition of this) the distribution function F(p,x, t ) or phase space density of the
+
+particles is kept close to isotropy, F ( p ,x, t ) f(p, x, t ) where f is the isotropic part of
+
+F,and the particle transport can be described by the diffusion equation
+
+      -af= V(KVf)                                                    (2.4)
+
+      at
+
+where K is the (anisotropic) diffusion tensor. Much effort has gone into calculating K
+in terms of the irregularity spectrum (see, for example, Volk (1973) or Skilling (1975)
+and references therein) but the general nature of the result is adequately shown by
+the following simple argument (cf Blandford (1979) and Longair (1981)).
+
+    The irregularities which are most effective at scattering a particle are those with
+
+length scales comparable to its gyroradius; the mean square field variation due to
+these is of the order of k I ( k ) where k - r g l and I ( k ) is the spatial power spectruln
+of the irregularities. The mean square variation in the field direction on the length
+scale rg is thus
+
+      cp2- kI(k)/Bg                                                  (2.5)
+
+where Bo is the uniform mean field. Each gyroperiod the particle's pitch angle is
+
+changed a random amount of the order of cp and after N periods the accumulated
+
+change is of the order of N1/2cp,This becomes of the order of unity, i.e. the particle
+
+`forgets' its original pitch, when N - q - 2 - B z [ k I ( k ) ] - 1 so that the mean free path
+
+along the field is All-Nr, and the scattering frequency U - V/Ali. The diffusion
+
+coefficient parallel to the field is thus
+
+      ~ 1 1 - ?jA ;f U -$,vB [kI( k ) ] - ' .                        (2.6)
+
+Between scatterings a particle accumulates a displacement perpendicular to the mean
+field of the order of
+
+      AL-N1'2cprg-rg                                                 (2.7)
+
+so that the perpendicular diffusion coefficient is
+
+                                           12  1
+      K ~ - ~ A-jr~,v/uN.
+
+Thus
+
+where K B =$rgv,the `Bohm' diffusion coefficient, is essentially the smallest diffusion
+coefficient allowed by this model of particle transport (it corresponds to a totally
+random field on the scale r g ) .
+
+    This assumes scattering by stationary magnetic irregularities (scattering centres)
+which is, of course, unrealistic. There are two types of scattering centre motion which
+must be considered. First, there can be large-scale motions of the background system
+which advect the centres with velocity U. Clearly this requires us to replace the time
+derivative in (2.4) by a convective derivative:
+
+      aa                                                             (2.10)
+
+      --H-+u.v
+
+      at at
+978      L O'CDrury
+
+and also, if the large-scale motion is convergent or divergent, we must add a term to
+represent adiabatic changes in the particle momenta. The form of this term can be
+deduced either by energy conservation or, more simply, by using Liouville's theorem;
+a convergence in position space must be matched by an equal divergence in momentum
+space. These heuristic arguments (similar to those used by Parker (1965); cf also
+Dolginov and Toptyghin (1966)) lead to the transport equation
+
+     z+U Vf =V(KVf) +$v* up - af               (2.11)
+     at                                    aP
+
+for diffusive transport in a medium where the scattering centres are fixed in the
+
+background.
+    There remains the second type of motion, that of the individual centres relative
+
+to the background. If this has a systematic component it should obviously be added
+to the background velocity U (the energetic particles cannot see the background
+directly, they can only sense the mean velocity of the scattering centres). The residual
+random component causes each particle to have its momentum changed by a random
+amount of the order of Ap - p V / v at each scattering where V is the velocity of a
+centre. This gives rise to a diffusion in momentum space with coefficient
+
+         D - f ( A p ) ' ~- V 2 p 2 / q q      (2.12)
+
+which represents classical second-order Fermi acceleration (Fermi 1949, 1954)so that
+the complete transport equation is
+
+                                               (2.13)
+
+A formal derivation of essentially this equation is given in the paper by Skilling (1975).
+The velocity V is the propagation speed of a small disturbance in the plasma, thus
+under astrophysical conditions it will usually be of the order of the AlfvCn speed and
+is often small enough to be neglected.
+
+2.2. Shock kinematics and scatter-free acceleration
+
+Let us leave, for the moment, the dynamical questions of scattering and transport and
+turn to the kinematical questions of the magnetic-field configuration at a shock and
+the particle trajectories in this field. At least locally we can treat the shock front as
+plane and the upstream and downstream media as uniform with velocities U 1 ,Uz and
+magnetic fields B 1 ,B2. In almost all cases the high plasma conductivity will ensure
+that the electric field vanishes in the plasma rest frame (so that = -U1,2AB^,^).
+Let us begin in an inertial frame moving with the upstream fluid and look at the
+velocity with which the point of intersection between a magnetic-field line and the
+shock front moves. There is a physically significant distinction between those shocks
+in which this velocity is subluminal and those in which it is greater than or equal to
+the speed of light; only in the first case can charged particles be reflected from the shock.
+
+    In the subluminal case, by boosting parallel to the field at the velocity of the
+intersection point, we find a proper Lorentz transformation which takes us to a frame
+
+in which U 1is parallel to B 1 ,E l= 0 and the shock front is stationary. We can then
+
+translate the origin to the shock front and rotate the coordinate system so that the
+
+upstream region is the half-space x <0 and U1lies in the xy plane. The electromagnetic
+An introduction to the theory of diffusive shock acceleration                      979
+
+matching conditions imply that
+
+                                                                                   (2.14)
+
+but Ez Bz = OjEZxBz=x0 .$EZx= 0; thus EZ= 0 and Uz is also parallel to BZ.In
+
+this way, if the shock is subluminal, we can construct an essentially unique frame in
+which the shock is stationary and the electric field vanishes everywhere (figure l(a)).
+
+Figure 1. The simplified normal   forms of the magnetic and    velocity fields at  il 'Bz
+the intersection point between a  magnetic-field line and the  front moves (a)
+luminally.                                                                         a steady plane shock where
+                                                                                   subluminally and ( b )super-
+
+   The kinematic structure of the shock is contained in the angles e l , e2between B 1 ,
+
+BZand the shock normal and the compression ratio r = U l x / U z xIf. = OZ = 0 the
+
+shock is said to be parallel, else oblique. The dynamical constraints imposed by mass
+momentum and energy conservation (which give the MHD Rankine-Hugoniot condi-
+tions: see de Hoffmann and Teller (1950) and Lust (1955a, b)) show that, except in
+
+very unusual circumstances, V zand Bz lie in the xy plane and relate e2 and r to the
+
+upstream dynamical parameters. The general formulae are quite complicated, but
+the special case of a strong shock (where the kinetic energy density and kinetic pressure
+dominate upstream) is simple and instructive. From mass conservation
+
+                                  PlUlX = p z U z x = A                            (2.15)
+
+where p is the mass density, momentum conservation gives
+
+                                                      u1, = u 2 y                  (2.16)
+
+                                         AUI, =AUzx+P
+where P is the downstream pressure and energy conservation gives
+
+                                                                                   (2.17)
+
+.$r=l+- 2E
+            P
+980                                  L O'CDrury
+
+where E is the downstream internal energy density. For a monatomic non-relativistic
+
+gas P = $ E and r = 4;for a relativistic gas P =;E and r = 7. From U1, = rUZxand
+
+U1, = U 2 ,we deduce that r tan 81 = tan 82.
+    But what if the point of intersection moves superluminally at velocity v > c ? Then
+
+a boost along the field at c 2 / v is a proper Lorentz transformation to a frame where
+this velocity is infinite, i.e. where the entire field line intersects the shock front
+simultaneously. In this frame the magnetic field upstream is perpendicular to the
+shock normal but the shock is not stationary; however, by boosting along the shock
+normal at the shock speed we can find a frame where the field B1 (and hence also
+B2)is still perpendicular to the shock normal and the shock is stationary. The incoming
+
+fluid flows in at velocity U1and at an angle el to the shock normal and exists at U2,
+
+02:the upstream electric field, -U1 A B1, is of magnitude UIBl cos 8; matching to the
+
+downstream field shows that E l=E 2# 0 and B2= rB1 (figure l(6)).
+
+    Thus in both the subluminal and superluminal cases we can find certain frames in
+which the electromagnetic field has an especially simple form. The luminal case does
+not admit such simplification, but is exceptional and physically should probably be
+regarded as a degenerate form of the superluminal case. We now examine energetic
+particle trajectories in these fields, a problem considered for the case of a purely
+perpendicular shock by Dorman and Freidman (1959), Shabanskii (1961) and Schatz-
+man (1963) and for the general case by Hudson (1965), Alekseev and Kropotkin
+(1970) and many subsequent workers.
+
+    Let us begin by looking at a superluminal shock; then the fields reduce to an
+electric field
+
+                 E = -UlxBley = -U2*B2ey                                        (2.18)
+
+perpendicular to the magnetic field
+
+                                                                                (2.19)
+
+The trajectory of an energetic particle in the upstream region consists of the usual
+helical motion in the B field superimposed on an ` EA B 'drift towards the shock at
+velocity U1,. As the particle (or rather its guiding centre) drifts through the shock
+the smaller downstream gyroradius causes a drift parallel to E which increases its
+momentum. This effect can be rather simply calculated in the limit U >> U1, by applying
+Liouville's theorem. The momentum gained by a particle is then almost independent
+of its gyrophase so that
+
+2n-p,2 d p A d~p11A2dx2 A dy2 A dzz = 2 x p ~ d1pLlA dpii1 A dxl A dy1 A dzl.   (2.20)
+
+But clearly dx2 A dy2 A dz2 = ( l / r ) dxl A dyl A d z l and pi12 =pill. Thus
+
+                 ~ 1 ~ 2P , Z= rpll d p i i                                     (2.21)
+                                                                                (2.22)
+and integrating
+
+                 p L 2 = rpll +constant.22
+
+    The constant can be found by noting that pI1 = 0 implies (in this limit, U >> UlX)pI2=
+0; it follows that
+
+                                                                                (2.23)
+         A n introduction to the theory of diffusiveshock acceleration  98 1
+
+i.e. the particle approximately conserves its first magnetic moment as it would have
+(and for exactly the same reason, namely approximate gyrophase independence) had
+the change in the magnetic field been adiabatic rather than abrupt.
+
+    We see that the perpendicular momentum of an energetic particle can be increased
+by a factor of the square root of the compression ratio. With r in the range 4-7 this
+is not much acceleration. Furthermore a subsequent expansion of the medium to its
+original density annuls the effect.
+
+    We now turn to the subluminal case. Here we can find a frame where the
+electromagnetic field reduces to a purely magnetic field and in which, therefore,
+particles must conserve their energy. Whereas in the superluminal case all particles
+were forced to go through the shock, and had in consequence to increase their energy
+to find enough downstream phase space, in this case, because they are not allowed
+to increase their energy, there is not enough phase space for all particles to be
+transmitted and some must be reflected. Considering particles of momentum p ,
+upstream pitch p1 and gyrophase a l , if these are transmitted with pitch p2 and
+gyrophase a 2then Liouville's theorem states that
+
+but      p 2 d p 1 A d a 1 A dxl = p 2 dp2 A dc12 A d ~ 2               (2.24)
+so that            dx1.2 = p1,zu dt COS 01,2                            (2.25)
+or
+         cos 01p1 d p l A d a l =COS 02p2 dp2 A da2
+
+                                                                        (2.26)
+
+and there is a similar formula for reflected particles. The assumption of approximate
+gyrophase invariance again implies approximate conservation of the magnetic moment,
+as verified by numerical simulations (e.g. Terasawa 1979).
+
+    If all particles incident on the shock from upstream were transmitted, then
+
+so that particles must be reflected if the downstream field is stronger than the upstream.
+There is, however, no need for particles incident from downstream to be reflected
+and indeed they are not as shown by Hudson (1965). An interesting and important
+implication of these formulae is that, if the upstream and downstream distributions
+are isotropic and have the same density, the combined distribution of particles
+transmitted through and reflected from the shock is also isotropic and has the same
+uniform density. This clearly follows on thermodynamic grounds; if the distribution
+were anisotropic this would imply a violation of the second law.
+
+    As far as acceleration is concerned the subluminal case looks even worse than the
+superluminal because we have perfect conservation of particle energy. However, this
+is to some extent an artefact of the frame we are using; with respect to other reference
+systems, in particular that in which the incoming fluid flows parallel to the shock
+normal, the reflected particles are accelerated. The effect can be quite substantial if
+982  L O'CDrury
+
+the transformation to the E = 0 frame involves `large'velocities, i.e. for quasi-perpen-
+dicular shocks, but is not enormous; the maximum kinetic energy gain of a non-
+relativistic particle is
+
+     AT - 4 T ( r - 1)                                     (2.28)
+
+and for a relativistic particle the momentum gain is only
+
+     Ap-2p(r-l)                                            (2.29)
+
+(Toptyghin 1980). Of course, these energy changes can be interpreted in terms of
+particle drifts at the shock parallel to the U A Belectric field (cf Webb et a1 1983).
+
+2.3. Diffusive acceleration at shocks
+
+We have seen in the last subsection that particles can gain energy by interacting once
+with a shock front. However, this effect, even in the most favourable cases, can only
+increase the energy of a particle by a moderate amount; furthermore, as the process
+is purely kinematic and reversible the spectrum of the accelerated particles is essentially
+the pre-acceleration spectrum shifted in energy. This situation is completely changed
+when diffusive effects are included. The number of times a particle interacts with the
+shock then becomes a random variable and some particles, by interacting many times
+with the shock, achieve very high energies. This stochastic aspect also means that the
+process destroys information (equivalently entropy is generated, not only in the
+background plasma, but also in the energetic particle distribution) so that the spectrum
+of the accelerated particles can be relatively independent of the details of the pre-
+acceleration spectrum. Studies of the simplest version of this effect, the steady diffusive
+acceleration of test particles at a one-dimensional parallel shock, have followed two
+approaches: a microscopic approach in which the energy changes and histories of
+individual particles are studied and a macroscopic approach which uses the formalism
+of the distribution function and its associated transport equation.
+
+2.3.1. The macroscopic approach. In this version (historically the first (Krymsky 1977,
+Axford et a1 1977, Blandford and Ostriker 1978)) it is assumed that the velocity of
+the particles is very much greater than that of the fluid and that scattering of the
+particles keeps the distribution function almost isotropic in the fluid frame (so that
+the diffusion approximation is valid), that this scattering is elastic, and that the scatterers
+behave as if they had an infinite effective mass (the particle energy in the local fluid
+frame does not change on scattering). The shock front is taken to be an infinite plane
+separating uniform upstream and downstream media and perpendicular to the uniform
+magnetic field (i.e. the field lines are parallel to the shock normal). From the standard
+theory of shock waves we know that there exists an inertial frame in which the shock
+front is stationary and occupies the y , z plane and in which the fluid flows parallel to
+the x axis. In this frame all quantities depend spatially only on x (it is in this sense
+that the problem is one-dimensional) and the flow velocity is steady and given by
+
+                                                                                                  (2.30)
+
+where U1and U,are the, constant, upstream and downstream velocities. The transport
+
+equation for the isotropic part of the energetic particle phase space density as seen
+A n introduction to the theory of diffusive shock acceleration  983
+
+in the local fluid frame, f (t,x , p ) , is then
+
+                                                                (2.31)
+
+where K ( x , p ) is the spatial diffusion coefficient for particles of momentum p along
+the field lines.
+
+    Having chosen a frame such that the background plasma flow is steady it is natural
+to look for steady solutions of (2.31). Upstream and downstream this reduces to
+
+                                                                (2.32)
+
+where U equals U 1or U2and is constant. The general solution is easily found to be
+
+                                                                (2.33)
+
+where g l and g 2 are arbitrary functions of p . If we now impose the natural boundary
+conditions that f tend to some given distribution f l far upstream, i.e. f ( x , p ) + f l ( p )
+as x + -CO, and remain finite downstream, i.e. If(x,p)I <CO as x +CO, then
+
+                                                                (2.34)
+
+as long as j,"dX`/K ( x ' ,p ) + *CO when x -j fa.(If this condition is not satisfied stricter
+
+boundary conditions are required.) The physical content here is simply that in the
+diffusion-advection equation (2.32) a steady state can be achieved by balancing the
+diffusive flux against the advected flux only in the upstream half-space.
+
+    To relate the two unknown functions f z and g l to f l we need two matching
+conditions at the shock. The key here is that a parallel shock does nothing locally to
+energetic particles; there is no discontinuity in the magnetic field and the particles
+simply continue their helical paths across the front. Thus the complete momentum
+space distribution function, as measured in the shock frame, must be continuous across
+the front.
+
+    In the diffusion approximation the angular dependence in the fluid frame of the
+complete distribution function, F ( x , p , k ) ,can be obtained by expanding F in a series
+of Legendre polynomials, truncating after two terms and setting the anisotropic part
+proportional to the gradient of the isotropic part; thus
+
+                           a                                    (2.35)
+
+F ( x , p , k )- f ( x ,P ) -PA G f( x ,P )
+
+where A is the `scattering mean free path' related to K by K =hu/3 where v is the
+particle velocity. Inserting expression (2.34) for the isotropic part and evaluating just
+upstream and just downstream from the shock gives
+
+                                                                                                  (2.36)
+
+                             [f2 x =o+.
+
+In this expression p (but not x ) is measured in the local fluid frame; on transforming
+to the shock frame, which moves at velocity -U relative to the fluid, to order U / v
+984      L O'C Drury
+
+the particle momenta transform as           (1- P )!        (2.37)
+
+                                   P -P)=P
+
+and in consequence, phase space densities being invariant,
+
+Equating the isotropic and anisotropic parts of the upstream and downstream distribu-
+tions then gives the two required matching conditions, namely
+
+         fl+gl =f2                                          (2.39)
+
+and
+
+     a                                                a
+     U $ -(f l + gI) +3U1g1 = UZP -fz.                      (2.40)
+     aP                                               aP
+
+These are usually interpreted as expressing continuity of the particle number density
+and particle streaming at all momenta.
+
+    It is interesting to note that these matching conditions are in a sense already
+contained within the transport equation (2.31) itself; if we require this to hold, not
+only upstream and downstream from the shock, but also at the front itself, then we
+recover exactly the above conditions. Of course, as U is discontinuous at the shock,
+
+and perhaps K also, we cannot require f to satisfy (2.31) there in the usual sense; we
+
+can, however, require that it be what is technically called a weak solution. Roughly
+speaking, this means that if we multiply both sides of the equation by a smooth test
+function, integrate across the shock from -E to E and interpret all ambiguous terms
+by formally applying integration by parts, then on taking the limit E + 0 the result
+
+should be an identity for all test functions. Thus multiplying by 5," dX'/K and noting
+
+that the worst singularity allowed by the representation (2.34) is a simple discontinuity
+
+in f at x = 0, after some manipulation and estimation we derive
+
+         [fl"'E= O(E)                                       (2.41)
+
+from which it follows that f is in fact continuous at x = 0. If we now use 1 as a test
+
+function we get
+
+                                                            (2.42)
+
+which gives the second matching condition and fixes the discontinuity in the derivative
+o f f . One can then show that if these conditions are satisfied the integral with any
+other test function is also O ( E ) .That we are able to derive the boundary conditions
+from the transport equation in this way is simply another expression of the fact that
+at the microscopic level a parallel shock does nothing to energetic particles and should
+not be given any deeper significance.
+
+    Eliminating gl between (2.39) and (2.40) and introducing r = U 1 / U 2 ,the shock
+compression ratio, we obtain
+
+                                                                                                  (2.43)
+A n introduction to the theory of diffusive shock acceleration  985
+
+as the required equation relating the distribution function f l far upstream to that
+downstream, f2. Setting a = 3r(r - l)-' the solution is easily found by elementary
+
+means to be
+
+                                                                (2.44)
+
+where b is an arbitrary constant of integration. The first term can be interpreted as
+the spectrum of particles advected into the shock from upstream and there accelerated;
+the second as representing particles injected from the thermal background plasma
+into the same acceleration process. Ignoring for the moment the second term, the
+first term can be written
+
+                                                                                                  (2.45)
+
+so that for those particles which are advected through the shock the downstream
+spectrum is obtained from the upstream spectrum by convolving with a truncated
+power law.
+
+    The significance of this is that if the upstream spectrum is softer than a power law
+spectrum with slope a, then the downstream spectrum has as asymptote at high
+momenta a power law spectrum of slope a regardless of the detailed form of the
+incoming spectrum. Furthermore, shocks in fluids with a ratio of specific heats y have
+a compression ratio
+
+r= Y + l                                                        (2.46)
+    y -1
+
+where M is the shock Mach number so that for the standard case of a strong shock
+in a non-relativistic plasma, y = 5/3, M + CO, we have r +4- and a +4+. This is
+encouragingly close to the index of 4.3 inferred for the source of the galactic cosmic
+rays.
+
+2.3.2. Microscopic derivation. The above macroscopic analysis is straightforward;
+however it appears to lack physical content (essentially because this has all gone into
+deriving the transport equation); at the end of a formal analysis we find a downstream
+spectrum which contains accelerated particles, but how were they accelerated and
+why should they have a power law spectrum? The advantage of the alternative
+microscopic derivation (Bell 1978a, see also Peacock 1981, Michel 1981) is that it
+reveals the basic physical processes responsible for the acceleration.
+
+    Let us consider an energetic particle which crosses the shock front from upstream
+to downstream and ask the question: what is its probability of never returning to the
+shock, that is of escaping downstream to CO? Denote the number density of particles
+having velocity U relative to the local fluid frame by n ; then from the diffusion model
+we know that n is constant downstream. The flux of such particles escaping to CO is
+nU2 whereas the flux entering the downstream region by crossing the front from
+
+                                                      1
+
+upstream to downstream is lopun dp/2 = nv/4 (assuming an almost isotropic distribu-
+
+tion; of the n particles one-half are moving to the right with an average projected
+velocity of one-half U). Thus the probability of not returning must be nU2(nv/4)-' =
+4U2/v which by assumption is small, i.e. almost all particles cross the shock many times.
+986      L O'CDrury
+
+    We now ask: what is the average change in a particle's momentum with respect
+to the local fluid frame when it crosses the shock? If the particle has momentum p ,
+velocity U and pitch p in the upstream fluid frame, then in the shock frame its
+momentum is p(1 + p U 1 / u ) . This is unchanged on crossing the shock, and thus relative
+to the downstream frame its momentum is p[1 + p ( U 1- U2)/z1]. Note that as we are
+only working to order U / Vwe can ignore the small changes in pitch angle as we go
+from frame to frame and also the anisotropy of the distribution when averaging. Thus
+the average change in momentum is
+
+(assuming isotropy, the probability of crossing the shock at an angle 8 is proportional
+to cos 8, hence the weighting factor of 2 p ) . On re-crossing the shock in the other
+direction U1 and U2 are interchanged, but p runs from 0 to -1 so that the answer
+is the same.
+
+    We can now calculate the downstream spectrum. It is rather easier to work here
+with the integral spectrum N ( x ,p ) , the number density of particles with momentum
+greater than p ,
+
+                                                                                                  (2.48)
+
+For simplicity (and with no real loss of generality) let us consider the case where all
+the particles are advected in from upstream with the same momentum p o . Then
+upstream,
+
+                                                                                                  (2.49)
+
+and because particles are conserved and never lose energy, downstream
+
+Let p n and v,, denote the momentum and associated velocity of a particle which returns
+from the downstream region n times and so makes a total of 2n crossings of the
+shock. In reality p n is a random variable with a complicated distribution, but for large
+n and v >>Uthe distribution is sharply peaked and to first order in U / V we may
+regard it as determinate and given by
+
+so that
+
+                     (2.52)
+
+The probability of the particle reaching this momentum, i.e. of returning n times from
+downstream, is
+
+                     (2.53)
+         An introduction to the theory of diffusive shock acceleration  987
+
+so that
+
+                                                                                                    (2.54)
+
+or
+                                                                                                    (2.55)
+
+The number density of particles accelerated to momentum p,, or more is the total
+number density of particles, N 2 ( p o )m, ultiplied by the probability of crossing the shock
+sufficiently often, P,; thus
+
+                                                                                                    (2.56)
+
+and
+
+in agreement with the macroscopic derivation.
+    This derivation shows very clearly that, as in all Fermi acceleration processes, the
+
+key to obtaining a power law is that the momentum gained by a particle in each
+elementary acceleration event should be proportional to the momentum it already
+has and to its probability of escaping from the acceleration region. However, unlike
+other Fermi processes, the constant of proportionality, which determines the slope of
+the power law, is not arbitrary but is fixed by the kinematics of the shock.
+
+3. Linear modifications
+
+The elementary and idealised theory of the last section can be generalised and made
+more realistic in several ways. It is convenient to divide these extensions into two
+classes according to whether the reaction of the particles on the acceleration process
+is considered; this section deals with those in which the particles are treated as test
+particles and their reaction ignored. This assumption, that they move without influence
+on one another or on the background plasma, means that the problem of their transport
+in a given plasma system is linear and as usual this greatly simplifies the mathematical
+analysis. In the last section the shock was parallel, steady and plane and the particles
+moved very much faster than the background plasma, were scattered elastically, were
+not subject to additional energy loss processes and did not react on the plasma system;
+the modifications produced by relaxing all but the last of these conditions will now
+be examined.
+
+3.1. Oblique shocks
+
+The restriction to parallel shocks seems to be a major defect of the elementary theory
+(the average shock obliquity is some 60" if the magnetic-field direction is uncorrelated
+with the direction of shock propagation). Of course, it is clear that the acceleration
+988  L O'CDrury
+
+mechanism continues to operate as long as particles can cross the front in both
+directions and be diffusively scattered on either side, but one might expect that the
+possibility of direct particle reflection from the shock would lead to significant alter-
+ations. Rather remarkably, at least to O ( U / v ) t,his is not the case.
+
+    Consider an oblique shock where the point of intersection between a magnetic-field
+line and the front moves subluminally; then there exists a unique frame where the
+
+electric field vanishes, the fluid flows in upstream parallel to the magnetic field B 1at
+
+velocity U 1and angle to the shock normal and exists downstream parallel to B2
+at velocity U , and angle O2 (figure l ( a ) ) . In the macroscopic approach the transport
+equation (2.11)for this problem reduces to
+
+where i = 1 if x <0, 2 if x > 0 and K ~ I K, ~ are the diffusion coefficients parallel and
+
+perpendicular to the field (normally K I >~ > K ~ ) .The upstream and downstream solutions
+are clearly exactly the same as in the parallel case if normal components are used,
+
+i.e. if U is interpreted as U cos 8 and K as K I c~os28 + K~ sin28. The problem of finding
+
+the correct matching conditions between these two solutions is not quite as easy as it
+is for the parallel shock because particles interact with an oblique shock in a non-trivial
+way. One can however argue that as long as the particles perceive the shock front
+merely as a kink in the magnetic field (unlike the low-energy particles constituting
+the background plasma which must be heated by collective effects in the front) the
+matching conditions must take the form of a linear relationship between the density
+
+f and the streaming S (in the shock frame) upstream and downstream:
+
+where s = -$Up(af/ap)-K af/ax.
+
+    Liouville's theorem implies that a possible solution must be f +=f-, S , = S - = 0,
+from which it follows that a = 1,c = 0. Requiring particle number conservation then
+shows that d = 1. The remaining parameter, b, has the dimensions of an inverse
+velocity and is clearly of order l / u . Thus when, as in all the cases here considered,
+S/f = O ( U )this term is essentially of order U / v and can be neglected. One must
+however be slightly cautious; the distributions at the shock front cannot have the
+simple anisotropies presupposed in the diffusion approach so that, although the above
+argument shows that within the diffusion approach the only possible matching condi-
+tions are continuity off and of the streaming, it is not obvious that this approximation
+can correctly describe acceleration at an oblique shock. Ignoring this worry, we see
+that within a macoscopic diffusion theory the upstream solutions, the downstream
+solutions and the matching conditions at the front for an oblique shock are all exactly
+the same as those for a parallel shock once normal components are used. Thus the
+spectrum is still determined by the same single parameter, the shock compression,
+and is essentially independent of the obliquity.
+
+    It is sometimes argued that if a fraction E of particles incident on the front are
+reflected then the first matching condition should be
+
+     f(0+)=(1-c)f(O-)  (3.3)
+
+(see Fisk 1971, Achterberg and Norman 1980) but this is clearly incorrect if the
+An introduction to the theory of diffusive shock acceleration  989
+
+reflection is of the magnetostatic type considered here. The second boundary condition
+can probably be justified by measuring the streaming, not directly at the front, but a
+few mean free paths away (cf Toptyghin 1980); however, the argument is rather
+delicate and the more convincing proof of its correctness is that the same results follow
+if we repeat, as always working only to first order in Ulv, the essential steps of the
+microscopic derivation.
+
+    Suppose a particle reaches the shock from upstream on a trajectory with pitch p1
+and gyrophase a l . It then interacts with the shock and is either transmitted with pitch
+and phase p 2 , a z or is reflected back with p 3 , a 3 . If transmitted it diffuses in the
+downstream region until either escaping to 00 or returning to the shock with p4, a4
+whereupon it is then transmitted back with p5, a5 into the upstream region (figure 2).
+Denote by T1 the set of p , CY values corresponding to upstream trajectories which
+
+lead to particle transmission through the shock, by R 1those leading to reflection, by
+T2 those downstream leading to transmission back upstream and let a superior bar
+
+denote the set of reversed trajectories; thus, for example,
+
+T2 = { ( p ,4 - p , CY)ETz).                                   (3.4)
+
+Figure 2. Schematic representation of the five sets of pitches and gyrophases used in the discussion.
+
+    Then clearly a particle which starts on a trajectory in T1after interacting with the
+
+shock proceeds downstream on a trajectory in Tz and one in R 1gets reflected onto
+
+a trajectory in R1.Together T1and R 1constitute the right hemisphere and Tz is the
+
+left hemisphere (no reflection from downstream)
+
+Ti u R =~{ ( p ,C Y ) ~<O p s 1, O G C Y < 2 ~ }               (3.5)
+      T z = { ( p ,C X ) -~ 1S p < O , O < CY < 2 ~ } .
+
+    Assuming that particles incident from upstream on the shock come from an almost
+isotropic and uniform distribution the probability of transmission is the ratio of the
+flux in T1to the total incident flux:
+990                         L O'CDrury
+By Liouville's theorem
+
+Thus, transforming to the downstream variables,
+
+and the flux into the downstream region is
+
+                        nu                          n
+                        -cos elp1 d p l A d a 1= --U cos 82
+                                                    4                                      (3.9)
+
+whereas the flux to CO is nU2cos oz. Thus exactly as in the case of the parallel shock
+
+the probability of escape after transmission is 4U2/v. The combined probability that
+a particle incident from upstream will cross the shock and escape is therefore
+4u2 COS 62/21 COS 81.
+
+    A particle which does not escape gains energy either by direct reflection, or by
+two transmissions across the shock. If its momentum with respect to the upstream
+fluid frame is p , then the expected momentum gain is
+
+                                                 r
+
+      +PTJ (p4Uz-psUdp4dp4~da4                                                             (3.10)
+
+                   T2
+
+(the probability of escaping is O ( U / u )and can be ignored in this calculation). But
+by repeated application of Liouville's theorem
+
+      I,, [R,-p3p1dp1Adcf1=         - p 32 d p 3 A d a 3 = p 2 d p Ada                     (3.11)
+
+                                                                                        I
+
+and
+
+                                                                                           (3.12)
+
+and
+
+Thus
+
+                                                                                           (3.14)
+
+    Finally by exactly the same argument as in the case of the parallel shock the slope
+of the integral spectrum is given by the ratio of the escape probability to the mean
+momentum gain:
+
+      d--In N - -4U2 cos 0 2 / u cos O1 -- -3 U2 COS 8 2                                   (3.15)
+      d lnp                 (AP)/P          U1 cos e1- U2 cos e 2
+               A n introduction to the theory of diffusive shock acceleration  99 1
+
+which, when expressed in terms of the shock compression ratio, r =
+U1cos Ol/U2cos 02, is independent of the obliquity. Thus if U is the conventional
+shock velocity (normal to the front, i.e. U = U1cos 81) the steady spectrum does not
+depend on the obliquity 8 if sec 8 << v / U (this constraint can be very severe for almost
+perpendicular shocks).
+
+3.2. Time-dependent solutions
+
+A dimensional argument suggests that the basic time scale associated with diffusive
+shock acceleration should be of order K/U' and this is confirmed by more detailed
+calculations (Forman and Morfill 1979, Krymsky et a1 1979, Vasil'yev et a1 1980,
+Axford 1981a, b). Following Axford (1981a, b) we study the model system of a steady
+planar shock in which a steady monoenergetic source of particles located in the shock
+is switched on at t = 0. Thus we look for time-dependent solutions of (2.31) with
+velocity profile (2.30), f(t, x , p ) = 0 at t = 0 and a source Q 6 ( p - p o ) at x = 0.
+
+    On taking the Laplace transform with respect to time:
+
+(2.31) becomes upstream ( i = 1) and downstream (i = 2)
+
+                                                                               (3.17)
+
+(for simplicity we assume K to be independent of x ) of which the solutions satisfying
+
+the boundary conditions g + 0 as x += *OaO re g CC exp (pix)where
+
+                                                         1/2
+                   1. [U.
+               pi  = 11- (-1)i  (1+$) i                                        (3.18)
+                     2Ki
+
+Let go(s, p ) = g ( s , 0 ,p ) be the transform of the spectrum at the shock; then the matching
+conditions
+
+                                                                               (3.19)
+
+imply that
+
+                                                                               (3.20)
+
+On letting Ai = (1+~ K ~ s)l//'U-?1 this can be written
+
+with solution
+992                        L O'CDrury
+
+    The time-dependent spectrum of accelerated particles at the shock can now
+formally be obtained by inverting the transform:
+
+(the path of integration lies to the right of all the singularities of the integrand). As
+usual, the asymptotic behaviour at large times is obtained by looking only at the
+contribution from the rightmost singularity of the integrand, here the simple pole at
+s = 0, which gives the steady spectrum
+
+                                                                                  (3.24)
+
+At the injection momentum p o this steady value is established immediately, i.e.
+
+                        fo(t, P o ) =fo(m, Po) = __3Q__ t > O .                   (3.25)
+                                                U1- U ,
+
+At a general time t > O and momentum p > p o (3.22) shows that the spectrum has the
+form
+
+where                          [1 +ioD                                            (3.26)
+and                                                                               (3.27)
+                           cp ( t )=- exp [ts - h (s)] ds
+
+                                     27rl -im
+
+                                                                                  (3.28)
+
+Physically we can interpret cp (t,p o , pl) either as the probability distribution function
+
+for the time taken to accelerate a particle from momentum p o to p1 or, by fixing t
+
+and regarding cp as a function of pl, as the particle momentum spectrum (normalised
+
+to the steady spectrum) resulting from the acceleration over a time interval t of a
+
+single burst of particles injected at momentum po.
+
+If we think of cp(t)as the acceleration time distribution for given p o , p1, then from
+
+the obvious relations:
+
+                           Iom cp ( t )exp (-ts) dt = exp [-h (s)]                (3.29)
+
+and h (0)= 0, we see that
+
+                           lop(t)dm t = 1                                         (3.30)
+
+so that the distribution is correctly normalised. On differentiating with respect to s
+       An introduction to the theory of diffusive shock acceleration              993
+
+I and then setting s = 0 we obtain an expression for the mean acceleration time:
+                          m a
+                      ( t )= tcp(t)d t = -h(O)
+                          0     as
+
+                                                                                  (3.31)
+
+Repeating this procedure we find the variance of the acceleration time:
+
+       2 2 a2                6                  -+ K:3 )dP-
+       (t )-(t) =-7h(O)=-                                                         (3.32)
+                      as                        U2 P
+                             u1-u2 po
+
+and in general the n th derivative of h at s = 0 gives the n th cumulant of the probability
+distribution cp(t).
+
+    It is interesting to note that if K has a power law dependence on momentum,
+K =pa, then for pl >>pothe relative width of the distribution:
+
+                                                                                  (3.33)
+
+Thus, unless K is almost independent of momentum ( a - 0) the peak in the acceleration
+
+time distribution is not very sharp.
+
+    For large values of s
+
+                      h ( s ) = P J s -- z =3 U 1 + ~ 2 1 n P l + O ( s - " 2 )   (3.34)
+
+where
+
+                                                                                  (3.35)
+
+and thus for small t
+
+The asymptotic behaviour of cp for large t is determined by the singularity of h ( s )
+with the most positive real part. Let
+
+                                                                                  (3.37)
+
+then the relevant singularity is at so and is a branch point of order Y = $ or !. It follows
+
+that for large times
+
+                      v(t)--- t-'-" exp [sot - h (sO)][l + ~ ( t - " * ) ] .      (3.38)
+
+                              U-v)
+
+    These asymptotic forms for the wings of the distribution and the first few moments
+provide sufficient information for most purposes. An explicit expression for cp can be
+found in the special case K independent of p and A 1= A 2(see Toptyghin (1980) and
+Axford (1981b) for details); the case K ocp" can also be solved in terms of parabolic
+cylinder functions (M Forman, personal communication).
+994                                L O'CDrury
+
+    The most important conclusion to be drawn from expression (3.31) for the mean
+acceleration time is that the time scale for acceleration of particles of momentum p
+in an unmodified shock is
+
+               3 t,,,(p) =-
+                                             -+- I                        (3.39)
+                                   u1-u2 ( KU11
+
+    An interesting alternative derivation of this result is possible from the microscopic
+viewpoint (cf Lagage and Cesarsky 1981). Recall that the particle flux across the
+shock into the upstream region is nv/4. But the total number of particles in the up-
+stream region (in a steady state) is j!mn exp ( U 1 x / K 1d)x = Kln/U1. Therefore the
+mean residence time of each particle must be ( K l n / U 1 )(nv/4)-' = 4 ~ 1 / U l v .This
+simple argument applied to the downstream region gives an infinite mean residence
+time, which is of course correct as there is a finite probability of escape. What we
+really require is the mean residence time of those particles which do not escape and
+to find this we need to know the probability of returning to the shock as a function
+of distance downstream.
+
+    Consider the steady solution of the diffusion equations corresponding to a source
+located a distance x o downstream and with an absorbing boundary at the origin:
+
+                  an a2n                                                  (3.40)
+
+               U -= K 7+ Q S ( X -X O )
+
+                 ax ax
+                n(0)=0 n(co)<W.
+
+It is clearly
+
+               Q
+               -[exp ( U X / K-)11 exp ( - U X ~ / K ) 0 s x s xo
+
+                                                                          (3.41)
+
+                                  (-UX~/K)I                      xo<x<co
+               U
+
+so that the flux to the origin is
+
+                                     an                                   (3.42)
+                                   K -= Q exp ( - U X ~ / K ) .
+
+                                     ax
+
+    Thus for a particle inserted into the flow a distance x o downstream the probability
+of diffusing back to the origin must be P,,, = exp ( - U X ~ / KIt) f.ollows that the number
+of particles downstream which will return to the shock is
+
+                                                                          (3.43)
+
+and thus the mean residence time downstream of these particles is ~ K ~ / U ,WVe.see
+that the mean time taken for a particle to complete one cycle of entering the
+downstream region, returning upstream and then re-entering the downstream region
+is
+
+                                                                                                (3.44)
+                A n introduction to the theory of diffusive shock acceleration    995
+With a mean momentum gain per cycle of                                          (3.45)
+                                                                                (3.46)
+this implies an acceleration time scale:
+
+3.3. Non-planar shocks
+
+In the simple theory the shock front was taken to be planar; it is reasonably clear
+that the condition for this assumption to be valid is that the diffusion length scale,
+K / U ,be small compared to the radius of curvature of the front, R. In practice this
+tends to be the case if the shock is propagating and the time scales allow significant
+diffusive acceleration; the shock time scale is typically R / U and R / U >> K / Uim~ plies
+R >> K / U .However, in view of the importance of spherical shocks, it is interesting to
+look at them in more detail. Two main cases have been considered: the blast wave
+from a point explosion and the shock terminating a stellar wind.
+
+3.3.1. The spherical explosion. This is the more interesting case because of its possible
+application to the acceleration of cosmic rays in supernova blast waves. It has been
+studied by Krymsky and Petukhov (1980) and Prishchep and Ptsukin (1981), both of
+whom approximate the flow behind the blast wave by a linear velocity field. By further
+assuming the diffusion coefficient to be independent of momentum and position they
+obtain integral representations for the solution of the transport equation (in terms of
+confluent hypergeometric functions) which they then approximate for small values of
+the diffusion coefficient. It seems more direct to use the presence of a small parameter
+from the start of the analysis and this has the further advantage of allowing more
+general solutions to be studied.
+
+    The transport equation (2.11) in spherical coordinates is
+
+                                                                                (3.47)
+
+where K is the radial component of the diffusion tensor, U is the radial velocity, d is
+the dimensionality ( d = 3 is the only physically significant case, but it is as easy to do
+the calculations for general d and it is interesting to see how the solutions depend on
+the number of spatial dimensions) and spherical symmetry is assumed. We consider
+a self-similar velocity field of the form
+
+                                                                                (3.48)
+
+where [= r/R( t )is a dimensionless co-moving radial coordinate and R ( t )is the radius
+
+of the shock front at time t ; (3.47) then becomes
+
+E %+ ( V - 1)[-af =-a ( E -J)f + (d - 1)
+      at at at
+R at
+
+where the dimensionless small parameter E = K/RR'.The matching conditions at
+
+[ = 1 are [f ] = 0 and [ E af/a[] = i V ( l ) p af/ap.
+996  L O'CDrury
+
+    Let us suppose all particles enter the acceleration process below some momentum
+po; because the acceleration time scale is short we expect a power law spectrum to
+be established from po up to some (time- and space-dependent) cut-off momentum.
+The amplitude of this spectrum is determined by the balance between advection out
+of the shock and advection and injection into the shock. If the seed particles are
+mainly advected in from a uniform external distribution we expect an almost constant
+spectrum, but if they are directly injected a dependence on the shock radius is quite
+possible. With these motivations (and because it works) we look for solutions with a
+time and momentum dependence of the form f ocp-"R ( t ) b . Clearly in the limit E + 0
+a should approach the spectral slope found for the planar shock; the aim here is to
+find out how rapid this approach is, i.e. to calculate the first-order corrections to a.
+
+    With the above ansatz (3.49)becomes
+
+     f + ( v - l ) ~ -a=f- Ea- + (adf - 1 ) - - - . E af    (3.50)
+     a5 a t a5                                5 at
+
+This is a standard type of singular perturbation problem; direct expansion of f in
+
+powers of e leads to 'outer' solutions which, in general, do not satisfy the full set of
+matching and boundary conditions and have to be matched to 'inner' boundary layer
+type expansions. The outer upstream solution is simply f = 0 (we are only looking at
+a momentum range where there are no upstream particles). The outer downstream
+solution is found by substituting f = 2zofie' in (3.50)and solving the resulting recur-
+rence relations. The first equation
+
+     (1-u ) t -a=f0 [b+ $ a ( d V+gav/ag)-y"                (3.51)
+
+             at
+
+simply represents particle advection without diffusion. It thus has a trivial solution in
+
+Lagrangian coordinates which, expressed in terms of 5, takes the more complicated
+
+form
+
+     f0=A5-ad'3exp ((b+ad/3)1' dg' ) (1- V(5))-"'           (3.52)
+
+                                      1 5'11- V(5" 1- V(1)
+
+The higher terms, which we do not actually need, can in principle be found in terms
+
+of quadratures and represent small corrections for the limited diffusion which does
+take place. Clearly, a direct matching of the upstream and downstream outer solutions
+is only possible for the trivial solution, f = 0 everywhere, so that an inner solution is
+needed.
+
+    To obtain this expansion, valid in the neighbourhood of the shock front, we
+
+introduce a new local variable 4' by setting 5 = 1+ E L . Then upstream, where V = 0,
+
+(3.50)becomes
+
+     (d - 1)-- "f>.                                         (3.53)
+
+            1 + E [a5
+
+Substituting the expansion f = Z z oeYi and imposing the boundary condition f +0 as
+
+5 + CO (to match the outer upstream solution) and f = A at 5 = 0 (to match the outer
+
+downstream solution) we easily find the first two terms to be
+
+     fo = A exp (-0                                         (3.54)
+     f l = -A exp (-1)[312+ (d +b 111.
+    An introduction to the theory of diffusive shock acceleration       997
+
+Thus to first order the inner upstream solution is
+
+    f = A exp(-[){l-~[&?+(d+b)[]+O(~~)} [ a O .                         (3.55)
+
+    This problem does not need an inner downstream expansion behind the shock (for
+the same reason that the downstream solution in the planar solution is constant), but
+for matching purposes it is convenient to re-express the outer solution in terms of the
+
+inner variable [. This gives
+
+        f = A [l + ~ [ ( b:+ V(l)+:V'(l)) [l- v ( l ) ] + O ( ~ ~ ) ] . (3.56)
+
+We now determine the spectral index, a, by joining the upstream and downstream
+
+solutions. The condition [f]= 0 has been automatically satisfied by choosing the same
+
+constant, A , in each region; the second condition, [af/a[] = -aV(l)f/3, gives
+
+                                                                     U
+    l+E+(d+b)+c-  V(l)+: V`(1)) [ l - V ( l ) ] - ' = - V ( l )         (3.57)
+                  3                                                  3
+
+or
+
+    U = 3u+ [ l + ( d + b ) ( - +K-+) + - - -K--] + O (v~'~()1) K -     (3.58)
+
+    U+- U-        RU+ RU- V(1)RU-
+
+where + and - denote values just in front of and just behind the shock, U + = &
+
+and U- =d [1- V(l)].
+
+    We see that in the limit E + 0 the spectral slope is that of the planar shock, as
+
+expected. The first-order correction consists of two parts. The first, as can be seen
+
+from its proportionality to d + b and the acceleration time scale tact, results from the
+
+finite rate at which particles gain energy; the accelerated particles were injected in
+
+the past when the shock was smaller and the injection rate different. The second,
+
+proportional to V'(l)/ V(1), results from adiabatic losses in the expanding flow behind
+
+the shock, but, at first sight rather surprisingly, only expansion above that due to the
+
+uniform linear enlargement of the shocked volume is significant (recall that U = VSR).
+Prishchep and Ptuskin (1981) consider the case b = 0 , d = 3 , V([)=constant and
+obtain a first-order correction which agrees with the above.
+
+    It is worth noting that the Sedov solution for a strong point explosion in a gas
+
+with y = 5/3 (Kahn 1975)gives V(i3-3(tE+ 1)(3[8+5)-1so that V'(1) = V(1) = 3/4;
+
+thus for this important case                                            (3.59)
+
+        `-3 [ a =4 1+ (3+b) (K++5)+ +0( E 2)
+                                             RU+ RU- RU-
+
+and, with a = 4, the approximate downstream solution (3.52) is
+
+This shows that because of the downstream adiabatic deceleration the energetic
+particles are concentrated in a relatively thin shell behind the shock.
+
+3.3.2. Stellar-wind terminal shocks. The other astrophysically significant case where
+acceleration at a spherical shock may be important is that of a stellar-wind terminal
+shock (Jokipii 1968, Fisk 1969, CassC and Paul 1980, Webb et a1 1982). A rough
+998                        L O'C Drury
+
+description of the dynamics of a stellar wind, sufficiently good for our purposes, is to
+say that after acceleration near the star the wind expands radially at constant velocity
+until its ram pressure drops to that of the external medium. A strong shock then
+separates the wind from the external flow which proceeds essentially at constant
+pressure (the flow downstream from a shock is subsonic) so that the velocity, if cooling
+is unimportant, goes approximately as the inverse square of the radius. Thus the
+radial velocity is
+
+                           U1             r<R                      (3.61)
+
+                           = U Z ( R / ~ ) r~>R
+
+when R is the radius of the shock.
+    The transport equation downstream, i.e. outside the shock, is
+
+                                                                   (3.62)
+
+with the general solution
+
+                                                                   (3.63)
+
+On setting
+
+                           IR RG ( Q,=exp
+                               00         dr) - 1
+
+                                     Kr
+
+this gives
+
+                           f(R)=A
+                           f (a)= A+@B
+
+                           3(R,) = -UB2.                           (3.64)
+
+                           dr  K
+
+It should be noted that @, although it can be very large, is not infinite. Thus the
+spectrum at infinity must be specified as one of the boundary conditions and it is not
+enough merely to require that the solution be bounded downstream.
+
+   Inside the shock, r <R , there is strong adiabatic deceleration in the expanding
+
+wind and the transport equation is
+
+                                                                   (3.65)
+
+The matching conditions at the shock are the usual ones, continuity o f f and of the
+streaming. The inner boundary condition depends on the behaviour of K . If K + 0 as
+r + 0, then any particles near the origin suffer catastrophic adiabatic cooling and f + 0
+as r + 0. However, if K does not go to zero, or if the boundary condition is applied
+at a finite radius, it will be necessary to supply more information.
+
+    This problem is non-trivial. However, by assuming K to be proportional to r and
+independent of momentum Webb et a1 (1982) were able to find a complete analytic
+solution. Although the answer is given in closed form and in terms of elementary
+functions it is extremely complicated and will not be reproduced here. Instead, as in
+       An introduction to the theory of difusive shock acceleration        999
+
+the blast wave case, I will consider the `small K ' limit as a perturbation to the plane
+shock theory.
+
+    Assume E = K ~ ( R ) / Uis~a Rsmall parameter and introduce the inner variable
+
+                                                                           (3.66)
+
+Then to first order in E the transport equation (3.65) becomes
+
+                                                                           (3.67)
+
+where
+
+       -a -In K --(y                  a In r - 8--In K P .                 (3.68)
+
+       a Inp
+
+The zeroth-order solution, as always, is fo = A ( p )exp (5) and the first-order solution
+
+is easily found to be
+
+       f = A e x p ( f ) ( l - ~ [ ( f - ~ ) f ' +2a( 2 2+p~a+A~) ~f1a1.p  (3.69)
+
+The inward streaming at the shock is
+
+                                                                           (3.70)
+
+and matching this to the streaming outside gives
+
+where Q is a source term representing injection at the shock and the 1J2B term is a
+source due to inward diffusion from infinity. Combining the two sources, for injection
+at a single momentum p o we find an approximate power law spectrum above p o with
+slope
+
+       -a l-n f =- 3u1 [1 + 2 E (A-:) (3.72] ) .
+       alnp U1-U2                     u,-u2 3
+
+    In this problem there also exists a tail of decelerated particles below p o , To see
+
+this we have to introduce an `inner' momentum variable as well. Let p = p o ( l+&II),
+
+then to zeroth order the transport equation reduces to
+
+       -a=f - a'f +-af                                                     (3.73)
+
+       a i a i 2 an
+
+which is to be solved subject to the boundary conditions f = exp ( f )for f <0, II = 0,
+continuity of the streaming across f = 0 and f + 0 as II+ -m.
+1000                         L O'CDrury
+
+The solution is              -1-erfI)*(l - n  5 <0,II<O  (3.74)
+
+     f = i [exp (lje)rf`c (
+
+which shows the typical effects of modulation by the stellar wind.
+    These results agree with the exact solution found by Webb et a1 (1982) and, as
+
+can be seen from figure 3, reproduce its qualitative features well; above the injection
+energy the spectrum is a slightly steeper power law than the plane shock theory would
+predict and inside the shock there is a `modulated'tail below the injection energy.
+
+Figure 3. The spectrum of particles (at radius r ) accelerated by a spherically symmetric stellar-wind terminal
+shock (radiusR). The source of particles is a monoenergetic density n l at infinity, the shock has a
+compression ratio of four and the diffusion coefficient is assumed to equal Ur everywhere (from Webb et
+a1 1982).
+
+    An interesting feature of this case is that the only reasonable source of `seed'
+particles for acceleration is direct injection at the shock from the thermal background
+
+(cf 9 4.4).Energetic particles released at the star, e.g. by flares, suffer strong adiabatic
+
+losses as they are advected to the shock and external cosmic rays have to diffuse
+inwards against the downstream flow which reduces their intensity by a factor @ =
+
+o (expe-').
+
+3.4. Additional energy gains and losses
+
+One can easily add terms to the basic transport equation (2.11) to represent other
+physical processes capable of changing a particle's momentum; obvious examples are
+synchrotron losses at high energy, ionisation losses at low energy, collisional losses
+An introduction to the theory of diffusive shock acceleration  1001
+
+and second-order Fermi acceleration in the downstream turbulence. However, it is
+not so easy to solve the resulting equations; simple exact solutions are unknown, but
+perturbation methods tend to work rather well. The crucial point is to compare the
+time scales. If the time scale associated with the added effect is longer than the
+diffusive acceleration time scale found in § 3.2, then the effect can be treated as a
+small perturbation in the same way that the adiabatic losses associated with spherical
+shocks were treated in § 3 . 3 . If it is shorter, then it is the diffusive acceleration which
+must, both physically and mathematically, be treated as a perturbation. Because the
+two time scales usually have very different momentum dependencies the effect, in a
+first approximation, is simply to fix a cut-off momentum where the two are equal and
+above or below which the spectrum has the typical power law form of shock acceler-
+ation. This crude rule is probably good enough for most applications. Collisional
+losses, adiabatic cooling and synchrotron losses are discussed by Bulanov and Dogel'
+(1979); the effect of a collisional-type loss term, -f/r, has been investigated by Volk
+et a1 (1981); Webb (in preparation) has studied the effect of second-order Fermi
+acceleration and synchrotron losses.
+
+3.5, Effects of higher order in ( U / u )
+
+As has been frequently emphasised the simple theory is correct only to O ( U / u ) .
+Actually the transport equation is correct to O ( U / v ) ' (see, for example, Gleeson and
+Axford 1967) but the shock matching conditions for oblique shocks are known only
+to O ( U / v ) .It is desirable to have a theory correct to higher order, first, for discussions
+of injection (cf § 4 . 4 ) and, secondly, for applications involving relativistic shocks.
+Unfortunately, this is a very difficult problem as a glance at the pioneering paper of
+Peacock (1981) will show. An analytic theory can probably be developed for the
+physically rather uninteresting case of a non-relativistic parallel shock, but apart from
+this future developments will probably depend on numerical simulations (cf the work
+of Ellison (1981)).
+
+4. Non-linear modifications
+
+The previous section dealt extensively with modifications of the basic theory which
+did not consider the reaction of the accelerated particles. However, this cannot in
+general be$ignored. It is easy to see from the elementary theory that the ratio of the
+downstream energetic particle pressure to that upstream is a ( a - 3-yJ-l where a =
+3r(r - l)-' is the slope of the power law and y c is the effective specific heat ratio of
+the particles ( 5 / 3 for non-relativistic, 4 / 3 for relativistic). Thus in the linear theory
+the downstream particle pressure diverges for strong shocks (a+4 ) and the reaction
+on the flow must be considered; even for moderate shocks the reaction must be
+considered if the upstream particle pressure is comparable to the gas pressure (as is
+observed in the interstellar medium). This means that the shock structure must be
+self-consistently calculated by including the cosmic-ray pressure in the fluid dynamics
+and cannot just be assumed given. Of course, the modification of the shock structure
+in turn implies changes in the spectrum of accelerated particles so that this is a highly
+non-linear problem.
+
+    There is a second type of reaction effect whch is not so non-linear-the effect of
+the energetic particles on the scattering. Streaming of particles through the background
+1002                              L O'CDrury
+
+plasma leads to an instability which excites waves. These then produce enhanced
+scattering of the particles and, in principle, the particles can themselves generate the
+scattering centres needed for their acceleration.
+
+    This quasilinear problem is dealt with first and then the fully non-linear problems
+are considered. Throughout this section we consider only parallel one-dimensional
+shocks.
+
+4.1. Self-induced scattering
+
+The idea that the upstream scattering required for diffusive acceleration could be
+produced by self-excited AlfvCn waves goes back to the paper of Bell (1978a). (There
+is no problem downstream, because behind a collisionless shock there is strong
+magnetic turbulence which produced plenty of scattering.) H e considered the standard
+
+transport equation (note that the velocity of the scattering centres is U - V where U
+is the fluid speed and V is the AlfvCn speed; the self-excited waves all travel in the
+
+same direction as the streaming)
+
+                 at ax ax ax af+ (U- V )- af = -a ( K -a)f (4.1)
+
+with an approximation from quasilinear theory for the diffusion coefficient
+
+                                              4 B2/8.rr                      (4.2)
+                                  K ( p ,x ) = -rgv-
+
+                                             3~ Ew
+
+where rg is the particle gyroradius, zi is its velocity and Ew(x,p ) is the energy density
+of AlfvCn waves (resonant with particles of momentum p ) per unit logarithmic
+bandwidth. The wave intensity is given by
+
+       aEW                               aEw
+       -+ (U- V )-= (V-r)Ew                                                  (4.3)
+                              at         ax
+
+where
+
+is an approximation from quasilinear theory for the growth rate due to the particle
+streaming and I? represents damping of the waves.
+
+    Bell looked for a steady solution of these equations in which there was no damping
+of the waves and found the simple solution
+
+       f(x, P ) = f i ( p ) + [ f z ( ~ ) - f i ( ~ ) I-(XlIxn)-'            (4.5)
+
+       Ew(x,p)=--                 v 47r  P 40[fz(p) -fi ( P)I(1-X/xn)-l
+
+                              U-v 3
+
+where
+
+                                                                             (4.6)
+
+    This shows what one would expect: the diffusion coefficient is small near the shock
+and increases (in fact, linearly) as one goes away from it. The quantity (47r/3)p4vf(p)
+is the pressure per logarithmic bandwidth of particles with momentum p so that the
+An introduction to the theory of diffusive shock acceleration  1003
+
+energy density of the excited waves at the shock is exactly the cosmic-ray pressure
+increase divided by the AlfvCn Mach number of the scattering centres. It is clear that
+the waves become non-linear for strong shocks or if the background magnetic field
+is weak (cf § 4.2.2.).
+
+    An interesting aspect of this solution, discovered by Lagage and Cesarsky (1982),
+is that the acceleration time scale associated with it is infinite. The reason is easy to
+see: the number of accelerated particles in the upstream region at some momentum
+
+                                            0 n ( 0 ,P ) dx
+
+                   I_, 1-x/xo
+
+diverges logarithmically. Thus the mean residence time upstream is infinite and the
+solution can never be established as a time-asymptotic state. Of course, in reality the
+diffusion coefficient cannot go on increasing indefinitely and some low level of pre-
+existing wave activity will provide a cut-off.
+
+4.2. Shock structure
+
+The harder problem, of determining a self-consistent shock structure, can also be
+traced back to one of the seminal papers on diffusive shock acceleration, that presented
+by W I Axford, E Leer and G Skadron at the 15th International Cosmic Ray
+Conference in Plovdiv (1977). This paper is, however, very short; more extensive
+discussions can be found in Drury and Volk (1981)and Axford et a1 (1982). Following
+these papers, we begin by looking at the simplest possible model in which this question
+can be asked.
+
+4.2.1. The two-fluid model. The problem posed, namely how the reaction modifies
+the shock structure, is essentially one in fluid dynamics. This suggests that we try an
+approach in which the accelerated particles are treated as a fluid and the details of
+the spectrum ignored. The background plasma can then be described by the Euler
+equations with the reaction of the particles incorporated as an additional cosmic-ray
+pressure, Pc, in the momentum equation; thus
+
+                                 9 + - (ap U ) = O
+
+                                           at ax (4.7)
+
+                                                               (4.9)
+
+where p, U,PG and EG are the density, velocity, pressure and internal energy density
+of the background gas, respectively. The internal energy density is related to the
+pressure through an `adiabatic exponent' or specific heat ratio Y G :
+
+PG= (YG- ~ ) E G                                               (4.10)
+
+(for a monatomic non-relativistic gas with no internal degrees of freedom y G = 5/3).
+   The cosmic-ray pressure is given by one `moment' of the distribution function:
+
+                                                               (4.1 1)
+1004                                L O'CDrury
+
+and the internal energy density by
+
+                                                        (4.12)
+
+where T is the particle kinetic energy.
+    By taking this moment of the transport equation we obtain a 'hydrodynamic'
+
+equation for the cosmic rays:
+
+                                                        (4.13)
+
+where
+
+                                                        (4.14)
+
+is an effective mean diffusion coefficient. Finally, the internal energy density is related
+to Pc through an 'adiabatic exponent' yc (4/3 for relativistic, 5/3 for non-relativistic
+particles) by
+
+                                    Pc = ( y c - 1)Ec.  (4.15)
+
+    The propagation of small periodic disturbances in this system has been investigated
+by Ptuskin (1981). He shows that perturbations with very short wavelengths are
+practically decoupled from the cosmic rays and propagate at the gas sound speed,
+( ~ G P G / P ) 'w/ ~he,reas very-long-wavelength perturbations couple to the cosmic rays
+
+and travel at the enhanced speed, [(YGPG + y c ~ c ) / p ] 1 / 2 .
+
+    To investigate shock structures in this system we look for steady solutions represent-
+ing transitions from one asymptotically uniform state (upstream) to another (down-
+stream). Assuming that all time derivatives are zero we can at once write down four
+first integrals:
+
+             pU=A                                       (4.16)
+                                                        (4.17)
+       AU +Pc +PG=B
+
+                                                        (4.18)
+
+                                    PG U yG D.          (4.19)
+
+The first three of these are simply statements of the conservation of mass, momentum
+and energy. The last, which states that the gas entropy is constant, is of a less
+fundamental nature and will, in general, only hold piece-wise; if a gas sub-shock has
+to be inserted in the transition, the entropy will increase there.
+
+    If we assume suitable values for the exponents yG and y c and the mean diffusion
+coefficient I? the above system consists of three algebraic equations and one differential
+equation in four unknowns. We can use the algebraic equations to eliminate in favour
+of one unknown (or combination of unknowns) and reduce the system to a single
+first-order ordinary differential equation in one unknown which then gives the shock
+structure (for details see Axford et a1 (1982)). An equivalent, but more geometrical,
+procedure is to use only the two linear algebraic equations to eliminate the density
+and the cosmic-ray pressure from the system and then to study the integral curves of
+An introduction to the theory of diffusive shock acceleration  1005
+
+the reduced system in the U, PG plane. This has some advantages in discussing the
+insertion of gas sub-shocks.
+
+    In the U, PG plane (see figure 4) the obvious inequalities p 3 0 ,P c 3 0 , P G L0
+confine us to the triangular region bounded by the lines U=O, PG=O and P c =
+B - A U - P G = O . The energy equation tells us that the diffusive component of the
+cosmic-ray energy flux is equal to a quadratic expression in U and PG;thus it vanishes
+on a second-order curve in the diagram which is easily seen to be a hyperbola. The
+portions of this curve, which will be called the Hugoniot, lying within the triangle
+correspond to all possible uniform flows having the same mass, momentum and energy
+fluxes as the given one. The initial and final asymptotic states must lie on this curve,
+but this is the only information yielded by the conservation laws alone. Of course, if
+we specify that one of the pressures vanishes identically, then there are only two
+possible states (the intersections of the corresponding side of the triangle with the
+hyperbola) which define the normal Rankine-Hugoniot relations.
+
+                                                                           U-
+
+Figure 4. The shock construction described in the text; the figure has been drawn for the case yc = 4/3,
+y~ = 5/3,M = 2.0 and N = 0.3 (from Drury and Volk 1981).
+
+    Thus to relate a given upstream state to a downstream state we must provide some
+physics beyond the basic conservation laws; in this simple model it consists of the
+assumption that the gas entropy only changes at gas sub-shocks and that the mean
+diffusion coefficient, K, is positive. In consequence, as the fluid flows through the
+transition from one uniform state to another, its state follows a path in the U, PG
+diagram (note that this is a standard specific volume-pressure diagram) which consists
+of sections of gas adiabats connected by jumps corresponding to sub-shocks. The
+jump conditions at such a sub-shock are the ordinary Rankine-Hugoniot conditions
+for a pure gas shock, consistent with our assumption that there is no local energetically
+significant effect of a gas shock on the cosmic rays. Thus the cosmic-ray pressure and
+energy flux are continuous across the shock and the conditions are
+
+[AU +PG]= [Pc]= 0                                              (4.20)
+1006                                 L O'CDrury
+and
+
+    If we temporarily use angle brackets for a mean as well as square brackets for a
+difference, i.e. [U]= U,- U , ( U )= (U2+Ul)/2, and note the identity
+
+      [XY 1= [Xl(Y)+(XXY1                              (4.22)
+
+the second condition can be written
+
+                                                       (4.23)
+
+and, on using the first condition, this simplifies to
+
+      A ( U ) = YG(PG).                                (4.24)
+
+This means that in the U, PGdiagram the jump at a sub-shock must be parallel to
+the line Pc = 0 and its mid-paint must lie on the line A U = YGPG. This line is the
+`sonic line' where the local velocity equals the local gas sound speed, (YGPG/P)~",
+and the jump must be from the supersonic to the subsonic side.
+
+    The sonic line has, however, a second significance; on any given gas adiabat the
+cosmic-ray pressure has a single maximum which is attained where the adiabat
+intersects this line. This is easily seen by substituting the differential form of the
+adiabatic relation, U d P G +Y G P G d U = 0, into the differential form of the momentum
+conservation equation:
+
+      dPc = -A d U -dPG = -(A U -YGPG) dU/ U.          (4.25)
+
+In the same way one can show that the quantity
+
+                                                                                                (4.26)
+
+has a single maximum on each gas adiabat when it intersects the line AU =
+YGPG+~ C P (Cthis is where the fluid velocity equals the propagation speed of a
+long-wavelength disturbance as found by Ptuskin (1981)). Thus, if an adiabat intersects
+the Hugoniot, it does so in two points, one on either side of this line.
+
+    We can now classify the possible types of transition (i.e. allowed shock structures)
+and obtain generalised Rankine-Hugoniot conditions. The key points are that as a
+fluid element goes through the transition its position coordinate, x, must increase
+monotonically, that equation (4.18)shows that aPc/ax is positive inside the Hugoniot
+curve and negative outside and that we know that on a gas adiabat Pc has a maximum
+at the sonic line.
+
+    The simplest possibility is that of a completely smooth transition. In the U, PG
+diagram such a structure is represented by a section of a gas adiabat starting and
+ending on the Hugoniot. As the path lies inside the Hugoniot where aPc/ax is positive
+and as x increases monotonically the cosmic-ray pressure must also increase monotoni-
+cally. It follows that such a solution can only exist if the section of adiabat does not
+cross the sonic line. This necessary condition is also sufficient because the differential
+equation can be inverted and integrated along such a path to yield a smooth shock
+structure. The simplest, but important and instructive, example is the cold plasma
+limit, P G = 0.
+      A n introduction to the theory of diffusive shock acceleration          1007
+
+    The section of gas adiabat then degenerates into part of the U axis and the
+integration is elementary. We have
+
+                 AU+Pc=B                                                      (4.27)
+
+and
+
+      1       Yc     upc = c +L5,                                             (4.28)
+      -AU2+-
+      2       yc- 1       y c - i ax
+
+Thus, on eliminating Pc in favour of U, aU/ax is given by a quadratic in U :
+
+         E-=- % + l ( U - U , ) ( U - U 2 )                                   (4.29)
+           ax 2
+
+where the zeros of the quadratic, U1 and U;?,are the upstream and downstream
+
+speeds. An integration then shows that the shock structure is basically a hyperbolic
+
+IxK). tangent velocity profile:
+      U ( x )=---Ul+U2 U1-Uz tanh( (1+ Yc)(U1- Uz)  xg ( x 'I                 (4.30)
+
+      2       2
+
+     The integration is elementary because the section of gas adiabat is straight; although
+
+this is exactly true only in the limit PG= 0, it is still a good approximation for weak
+
+shocks where the section of adiabat is so short that its curvature can be neglected.
+
+Thus we also obtain smooth shock structures of the same hyperbolic tangent type in
+
+the limit of infinitesimal shocks; with E = ( U ,- U,)/(U,+ U,)<< 1 the approximate
+
+[ I solution is easily found to be (J F McKenzie, personal communication)
+      =) U ( x ) = U 1-E tanh ( E Up+O(E)']                                   (4.31)
+                     xo K (x')
+
+with
+
+                                                                              (4.32)
+
+The transition length scale ('the shock thickness') is inversely proportional to the
+shock strength and, for small cosmic-ray pressures, directly proportional to Pc. These
+infinitesimal shocks travel at the velocity found by Ptuskin for long-wavelength
+disturbances:
+
+         U = [(YGPG+'YCpC)/k)]1'2*                                            (4.33)
+
+    Let us now consider the possibility of structures containing embedded gas sub-
+shocks. A sub-shock is represented in the diagram by a jump across the sonic line
+to the subsonic side. This jump must go directly to a point on the Hugoniot, i.e. the
+gas sub-shock must occur at the very end of the transition. To see this, suppose first
+that the subshock jumps to a point outside the Hugoniot. Then aPc/ax is negative
+and if x is to increase PC must decrease. Thus the adiabatic section following the
+sub-shock leads away from the Hugoniot and cannot end before running into the
+region Pc<O. If, however, the sub-shock jumps to a point inside the Hugoniot, then
+Pc must increase and the adiabat inevitably runs into the sonic line. A second
+sub-shock is impossible because jumps must start on the supersonic side of the sonic
+1008                                L O'C Drury
+
+line. The only possibility therefore is that the sub-shock jumps directly to the final
+downstream state.
+
+    In summary, the cosmic-ray reaction either smooths the shock structure completely,
+or the transition consists of a smooth part followed by an ordinary gas shock. The
+necessary and sufficient condition for the transition to be smooth is that the flow be
+everywhere supersonic. (This agrees with the general theory of Whitham (1974 p 353
+et seq).) However, beyond this qualitative description, the above discussion tells us
+how to quantitatively relate upstream and downstream states; that is, it allows us to
+obtain generalised Rankine-Hugoniot conditions. Of course, they do not have quite
+the certainty that attaches to the gas dynamic Rankine-Hugoniot conditions (which
+are based only on the fundamental conservation laws) and they leave, as will be seen,
+certain questions open, but the value of such information is obvious.
+
+    In detail, the prescription for finding the possible downstream states compatible
+with a given upstream state is first to calculate the mass, momentum and energy fluxes
+A , B and C. With these values one then constructs the triangle of possible states,
+the sonic line and the Hugoniot curve. If the Hugoniot intersects the sonic line, one
+also constructs the locus of all points from which a sub-shock jump takes one directly
+to the Hugoniot (this curve is the sheared reflection in the sonic line of the Hugoniot,
+hence also a hyperbola; for brevity I will call it the reflected Hugoniot). Then one
+constructs the gas adiabat through the point representing the upstream state. All
+intersections of this adiabat with the reflected Hugoniot or the Hugoniot which lie
+on the supersonic side of the sonic line correspond to possible shock structures. One
+such intersection is, of course, the point representing the upstream state; this corre-
+sponds to the solution of no shock at all, i.e. the downstream state is the same as that
+upstream. Excluding this trivial solution it is clear that at least one other solution
+exists and that the number of non-trivial solutions must be odd (counting intersections
+with the appropriate multiplicity). It is, however, not obvious that the solution is
+unique, and indeed an analytic investigation of strong shocks in the limit of small
+cosmic-ray pressures (for details see Drury and Volk (1981)),or simply calculation,
+shows that in the case yc = 4/3, y G = 5/3 there can exist three possible solutions for
+certain upstream conditions. This lack of uniqueness should not be too surprising
+(the problem is, after all, non-linear).
+
+    The specification of the upstream state requires four dimensional parameters
+(p, U,PG,Pc), but from these only two dimensionless combinations can be formed so
+that if we identify all upstream states which are related by pure scaling, the space of
+physically significant upstream states is two-dimensional and is conveniently para-
+metrised by the shock Mach number M :
+
+      M 2=pU2(YGPG+ yCPC)-l                           (4.34)
+
+(the ratio of the velocity of the shock with respect to the upstream fluid to the
+
+propagation speed of an infinitesimal shock) and the fractional contribution of the
+
+cosmic rays to the total pressure:
+
+                                    N = Pc(PG+Pc)-'.  (4.35)
+
+The structure of the solution space, relative to this parametrisation, is sketched in
+
+figure 5 . The vertical coordinate represents the downstream particle pressure (nor-
+malised to the total momentum flux) as a function of N and M over the physically
+significant region 0 s N s 1, M 1. This surface has a single cusp point where the
+gas adiabat and the reflected Hugoniot intersect with three-point contact and two fold
+A n introduction to the theory of diffusive shock acceleration  1009
+
+10  M+
+
+Figure 5. A sketch of the downstream ratio of the particle pressure to the total momentum flux as a
+function of the upstream parameters M and N . The dashed line on the surface indicates the approximate
+location of the boundary between those solutions with internal gas subshocks and those without.
+
+                                                                                N
+
+Figure 6. Calculated sections of the surface sketched in figure 5 at M =4.0(a), 5.0(6),5 . 5 ( c ) and 6.0(d).
+The chain line is an extrapolation from the linear test particle theory. This diagram shows clearly how
+non-linear effects enhance the acceleration and lead to multiple solutions in shocks with Mach numbers
+greater than about five (from Drury and Volk 1981).
+                         U+  %
+3 XI
+                              0 X+
+
+                              0 X+
+
+                                                          X*
+
+                                                                      (C )
+
+Figure 7. Three examples of shock structures: ( a )M = 2.0, N = 0.3, (6) M = 2.0, N = 0.8, ( c )M = 13.0,
+N = 0.3. The adiabatic exponent of the gas is 5/3,of the particles 4/3 and the solhtions have been scaled
+to unit mass and momentum fluxes (from Drury and Volk 1981).
+An introduction to the theory of diffusive shock acceleration  1011
+
+lines where they intersect with two-point contact. Between the two fold lines there
+exist three possible downstream states for every upstream state; at the fold lines two
+of these coalesce and disappear. The dashed line marks the boundary between smooth
+solctions and those which contain embedded sub-shocks. The results in figure 6 (which
+were calculated, not sketched) show sections of this surface at fixed M and figure 7
+shows three typical shock structures.
+
+    How should we interpret these results physically? This is a hard question. It is
+important to realise that all we have done is to classify the possible downstream states,
+if there exist steady solutions and if the simple two-fluid model is applicable; the
+stability of these shock structures and the possibility of their creation have not been
+
+discussed. Indeed there are good reasons (see D 4.5) for supposing that if K increases
+
+with p steady solutions cannot exist for strong shocks. Furthermore, the only thing
+we know about the cosmic rays in this simple two-fluid model is their pressure; their
+number density is unknown and this makes any discussion of, e.g. particle injection,
+very difficult. Nevertheless we can draw some tentative conclusions.
+
+    First, and most importantly, the model clearly indicates that shock waves tend to
+accelerate cosmic rays with high efficiency. The cosmic-ray diffusion is the major
+entropy generation process in both strong and weak shocks; only in moderate shocks
+(Mach 3 or so) are sub-shocks important. Taken literally, the model predicts that in
+very strong shocks 98"/0 of the incoming kinetic energy is converted to cosmic-ray
+energy (with relativistic particles providing the dominant downstream pressure the
+shock has a compression ratio of 7 and the fraction of the incoming kinetic energy
+
+not available for conversion is 7-* - 2%). While this almost certainly pushes the
+
+model beyond its limits of validity (unless K is bounded) it shows that there is no
+obvious reason why the acceleratior? efficiency should be low.
+
+    A second important point is that the reaction modifies the acceleration in two
+ways (a point noted by Blandford (1979)). The smoothing of the shock decreases the
+acceleration (this is the effect one intuitively expects) but there is also a second, more
+subtle, effect which can increase the acceleration. If, as will normally be the case, the
+cosmic rays have a 'softer' equation of state than the gas ( y c < y G ) a cosmic-ray-
+dominated shock will have a larger compression ratio than a gas-dominated shock;
+the additional acceleration due to this increased compression can more than com-
+pensate for that lost due to the smoothing.
+
+    The conflict between these two effects provides a plausible physical explanation
+for the occurrence of multiple solutions in strong shocks with small upstream cosmic-
+ray pressure: either the structure is essentially that of a gas shock and the cosmic-ray
+pressure, though amplified, is small or the shock is cosmic-ray-dominated with the
+resulting increased acceleration itself producing this domination; between these two
+stable states there exists a third unstable state which, if perturbed, tends either to the
+gas-dominated or the cosmic-ray-dominated state. This accords with the fact that, if
+the upstream cosmic-ray pressure is too high, the only solution is the cosmic-ray-
+dominated one.
+
+4.2.2. The two-fluid model with waves. The simple model analysed above assumes
+that the scattering of particles occurs from centres which move with the velocity of
+the fluid so that there is, in effect, a direct coupling between the cosmic rays and the
+gas. This is possible (for example, if the centres are tangential discontinuities), but
+we expect the scattering to be caused mainly by waves moving with respect to the
+gas. McKenzie and Volk (1981,1982) and Volk and McKenzie (1981) have shown
+that, if these waves are AlfvCn waves, they can be explicitly incorporated into a simple
+1012      L O'CDrury
+
+`hydrodynamical' model which, as well as yielding a non-linear version of Bell's result
+for the wave generation, indicates how the approximation of neglecting the wave
+velocity could be justified.
+
+    As before we consider for simplicity a steady parallel shock and write down the
+three conservation laws:
+
+                 pU=A                                             (4.36)
+                                                                  (4.37)
+      AU +PG +Pc+ Pw =B                                           (4.38)
+      $AU' +FG+F~ +F~ = C.
+
+The subscripts G, C and W refer to gas, cosmic rays and waves, the F are energy
+fluxes and the P are the pressures.
+
+    The gas energy flux consists of advection of the associated internal energy density
+EG with the fluid velocity U plus a pressure work term:
+
+          FG = UEG+ UPG.                                          (4.39)
+
+The cosmic-ray energy flux consists of the advection of internal energy at the velocity
+of the scattering centres, U - V,plus a pressure work term plus a diffusive flux:
+
+                                                                  (4.40)
+
+Finally the wave energy flux consists of the wave energy density advected at (U - V )
+plus the pressure work term:
+
+      Fw = (U - V ) E w+ UPw.                                     (4.41)
+
+The internal energies can be related to the pressures by
+
+                                       PC,G = ( 7 C . G - 1)EC,G  (4.42)
+and assuming the waves are AlfvCn waves:
+
+              E w = 2Pw                                           (4.43)
+
+(see Dewar 1970; also Xiaoqing and Mutao 1982).
+    This gives a system of five unknowns (p, U and the three pressures) related by
+
+three conservation equations; to complete the system we need the equations describing
+the energy exchanges between the three components. These are
+
+                                                                  (4.44)
+
+the divergence of the gas energy flux is the rate at which the fluid does work against
+the gas pressure gradient plus the wave dissipation, L :
+
+          -a F-c - ( U - V ) - .JPC                               (4.45)
+          ax             ax
+
+The divergence of the cosmic-ray energy flux is the rate at which the scattering centres
+do work against the cosmic-ray pressure gradient:
+
+      aFw apw aPc
+      -= U-+ v--L.                                                (4.46)
+      ax      ax         ax
+    A n introduction to the theory of diffusiveshock acceleration  1013
+
+The divergence of the wave energy flux is the rate at which the fluid does work against
+the wave pressure gradient plus the wave excitation by the cosmic-ray streaming minus
+the dissipation. Of course, these equations are not independent; if any two are
+assumed, the third can be deduced by using the differentiated forms of the conservation
+laws. The system is closed by prescribing some form for the dissipation, L , and noting
+
+that in a parallel shock the AlfvCn speed, V a U1".Clearly, the key feature which
+
+enables us to write down this system of equations is that AlfvCn waves are non-
+dispersive; however, it seems plausible that, even if dispersive waves were important
+sources of scattering, these equations, with V interpreted as a `mean wave speed',
+could be used as an approximate model.
+
+    The simplest case to consider is L = 0, i.e. no wave dissipation. The wave energy
+exchange equation can then be integrated to obtain a non-linear version of Bell's
+expression for the energy of the waves excited by the particle streaming. We have
+
+                     a           apW aPc
+                     -[(3U-2V)Pw-j=U-+V-                           (4.47)
+                     ax          ax                  ax
+
+or
+
+                         apw a                           apC
+                 2( U - V )-+ Pw -(3U-2 V )= v-.                   (4.48)
+                         ax  ax                          ax
+
+Using the relation, U OC V 2 ,we find that the integrating factor for the LHS is (U - V ) /V
+and thus
+
+                 a                        apC a
+                 -[2(U- V)'Pw/ VI = ( U - V )-=-Fc.                (4.49)
+                 ax                       ax ax
+
+It follows that
+
+                         ( U - V)' Ew =Fc +constant                (4.50)
+
+                             V
+
+(the energy equation can be used to eliminate Fc on the RHS; this gives the expression
+found by McKenzie and Volk). In agreement with the linear calculation of Bell, this
+shows that a fraction of the order of V / U of the energy given to the cosmic rays goes
+into exciting the waves.
+
+    This sounds relatively harmless and one is tempted to say that in the limit V<cU
+the wave excitation can be neglected and the simple two-fluid model used. This would,
+however, be premature: the problem is that the energy deposited in the waves, although
+small relative to the cosmic-ray energy, is much larger than that in the background
+magnetic field; the energy density available in the shock is of the order of i p y 2 , if
+the acceleration is efficient this implies a wave energy density of the order of fpUV
+whereas the background magnetic-field energy density is $pV2,Clearly, if V << U,the
+waves become non-linear very near the start of the shock structure unless the shock
+is inefficient. What happens thereafter is an interesting but unanswered question?.
+
+f I think it probable (but this is only speculation) that the magnetic field becomes so disordered that any
+attempt to decompose it into waves yields as many travelling forwards as backwards, the mean wave speed
+drops to zero and the irregularities stop growing. To put it another way, if the field is sufficiently disordered
+its irregularities are tied to the background plasma and cannot propagate through it like small-amplitude
+waves. However, it has been argued that just the opposite occurs, that the wave phase speed increases
+(Morrison et a1 1981) due to `trapping' effects (cf Volk and McKenzie 1981) and presumably diffusion is
+then an inappropriate model for the particle transport.
+1014  L O'CDrury
+
+One possibility, which at least has the merit of allowing a relatively straightforward
+mathematical analysis, is to suppose that some efficientdamping process transfers the
+excess energy from the waves to the gas.
+
+4.2.3. Two-fluid model with strongly damped waves. If we assume that some,
+unspecified, damping process keeps the wave energy density (and hence also the wave
+pressure) small in comparison to the other energy densities the system of equations
+derived above can be simplified to
+
+             pU=A                      (4.51)
+
+      AU +PC-k PG=B
+      $ A U+~F~+FG= c
+
+    This system can be analysed using a U, PG diagram in exactly the same way as
+the simple two-fluid model and clearly in the limit V<cU the two theories become
+identical. The differences are quantitative rather than qualitative; the Hugoniot is
+not a simple hyperbola, but a curve which looks like a hyperbola (at least that part
+which lies inside the triangle of physical states) and instead of gas adiabats one has
+to use the integral curves of the energy transfer equation; the conclusions derived
+from the two-fluid model are essentially unchanged.
+
+4.3. Non-linear eflects on the particle spectrum
+
+The simple hydrodynamic models discussed in the last subsection give some idea of
+how the shock structure reacts to the acceleration of energetic particles. The next
+problem is to see how this change in the structure influences the acceleration process
+and the spectrum of the accelerated particles. There are three obvious ways of tackling
+this problem; by looking for exact solutions, by trying asymptotic and perturbation
+expansions and by numerical methods. The first two of these have yielded useful
+information, the last has only begun to be applied, but will obviously be important
+in the future.
+
+4.3.1. A n exuct solution, There is one special case of acceleration at a modified shock
+where a complete consistent solution is known (Drury et a1 1982; see also Blandford
+and Payne 1981). The key point is that the steady-state transport equation
+
+        af a af 1aU af                 (4.52)
+
+      U -a=x - Ka-x- +a-x- P -3 ax ap
+
+can be solved, in the sense that a useful expression can be found for the Green function
+relating the upstream and downstream spectra, if the velocity U and the diffusion
+coefficient K are related by
+An introduction to the theory o f diffusive shock acceleration             1015
+
+where P is a constant. However, with P = (yc+ 1)/2 this is exactly the shock structure
+equation of 0 4.2 (the 'cold' plasma limit leading to smooth hyperbolic tangent type
+velocity transitions) and with P given by (4.32)the same equation applies in the weak
+
+shock limit. Thus in these cases a consistent analytic solution is possible if the diffusion
+
+coeficient is independent of momentum (so that I? = K ) .
+    To derive this solution we begin by changing the independent spatial variable from
+
+x to U so that (4.52)becomes
+
+                                                                           (4.54)
+
+The Euler operator p a / @ suggests a Mellin transform:
+
+                                                                           (4.55)
+
+and on using (4.53)we obtain the ordinary differential equation
+
+                                                                                                (4.56)
+
+which has three regular singular points (at U1, U2,CO) and can thus be reduced to
+Gauss's hypergeometric equation. The boundary conditions are applied at two of
+these singular points (g must be finite at U , and is known at VI) and the solution is
+
+                                                                                                     (4.57)
+
+where
+
+                                                                           (4.58)
+
+                                            1 U2
+                                  c = l+--
+
+                                     P U1-Uz
+
+(for the theory of the hypergeometric equation see, for example, Whittaker and
+Watson (1902)). Thus
+
+                                                                           (4.59)
+
+and it follows from the convolution theorem for the Mellin transform that  (4.60)
+
+               lom
+
+                                 f A P ) = f l ( P ' ) G ( P / P ' )dP'/P
+
+where G ( p / p ' ) , the Green function or spectrum produced by a monoenergetic
+upstream spectrum, is given by
+
+                                                                           (4.61)
+1016        L O'CDrury
+
+In evaluating this integral it is convenient to set
+
+                             s = In ( P l P ' )
+
+                                                     (4.62)
+
+                        u1,2
+
+         x 1 , 2 = ~U1 - U2
+
+                        U1 + U2
+
+         x 3 =x1 +x2 =-
+
+                         U1 - U2
+
+the integration contour can then be deformed and the integral expressed as a sum of
+residues at the poles of one of the gamma functions with the result
+
+for s >0 and G = 0 for s G 0. This rather complicated expression (which is, however,
+
+easy to compute as the terms in the series satisfy simple recurrence relations) shows
+that an upstream monoenergetic spectrum produces downstream a spectrum which is
+zero below the injection energy (no deceleration) and which consists of an infinite
+sum of power laws (in momentum) above this energy.
+
+      1  1
+
+Figure 8. The downstream spectrum produced from an upstream delta distribution centred on po by
+
+diffusive acceleration in a hyperbolic tangent type velocity transition of compression ratio 7 . Solutions are
+shown for five values of the dimensionless diffusion coefficient p : (1)0.1, (2) 0.5, (3) 1.0, (4) 2.0, (5)10.0
+(from Drury er al 1982).
+A n introduction to the theory of diffusive shock acceleration  1017
+
+    Figure 8 shows the result of a numerical evaluation of this spectrum for the case
+where the overall compression ratio of the shock is seven and five values of p. This
+
+parameter can be regarded as a dimensionless diffusion coefficient; in the limit p + CO
+
+the diffusion length scale is much larger than the shock thickness, the first term of
+
+the series dominates, the gamma functions disappear and
+
+                 G + 3x1exp (-3~x1)                             (4.64)
+
+which is, of course, the result found in the simple theory. But whereas that derivation
+assumed the shock to be thin compared to the particle gyroradius, this shows that in
+fact the result holds under the much weaker condition that the shock be thin compared
+
+to the diffusion length. In the other extreme, p + 0, diffusion is relatively unimportant
+
+and the spectrum is the upstream delta distribution shifted by adiabatic compression
+a factor of the cube root of the compression ratio in momentum and broadened a
+
+little. However, in the consistent cases, p is of order unity (the diffusion length then
+
+determines the shock thickness). Perhaps the most interesting feature of the solutions
+is that, although the spectrum is not a simple power law, it can be very well approxi-
+mated by one at momenta more than a few times the injection momentum; this is
+clear from figure 8 and is a consequence of the rapid convergence of the series (4.63)
+at large s. This asymptotic power law spectrum has a slope of
+
+                 -3x1(1 + x d P )                               (4.65)
+
+i.e. steeper than in an unmodified shock of the same compression ratio.
+    It is also possible to derive an asymptote for the low momentum end of the
+
+spectrum and to show from the spectrum that particle number is conserved and that
+the pressure has the value required by the hydrodynamic equations; the details can
+be found in the original papers.
+
+4.3.2. The high-energy asymptotic spectrum. We were able to find a solution of the
+transport equation in the last subsection only by assuming that the diffusion coefficient
+was momentum-independent. In reality K will normally be an increasing function of
+
+p . For example, the energy dependence of the primary to secondary ratio in the
+galactic cosmic rays is usually taken as evidence that their diffusion coefficient has a
+power law dependence on momentum, K ap",with a in the range 0.3-0.5. In any
+case K must eventually increase because it is bounded from below by the monotonically
+increasing value for Bohm diffusion ( K 5 K B =fr,v). This suggests that if there is a
+steady shock structure with length scale L and velocities of the order of U, it might
+be useful to look for asymptotic expansions of the high-energy end of the spectrum
+by treating K / L Uas a large parameter.
+
+    For simplicity let us suppose K = ~ ~ ( p / pw~he) r"e KO/LU>> 1and p o is so high that
+there are no pre-existing cosmic rays at momenta p >po. The problem is to study the
+asymptotic form of the solution of the steady transport equation (4.52) for p >po.
+For 1x1>: L, i.e. far upstream and downstream, dU/dx = 0 and the transport equation
+simplifies to the diffusion-advection equation. Thus upstream:
+
+and downstream:
+1018                                 L O'CDrury
+
+Let g = In f, s = In ( p / p o ) ;then (4.52) becomes
+
+                                                                       (4.68)
+
+We now make the ansatz g = giK-i and obtain the recurrence relations
+
+a2gi i a--g+j--a-ggii--l-j-- 1d u a  ( i - 1 ) d U gi-1- U -a gi-l= 0  i = 0, 1 , 2 . . ,
+                                     3 dx              ax
+T+                                                                                  (4.69)
+
+ax i=oax ax 3 dx as
+
+The boundary conditions on the gi(x,s) follow from the large x behaviour o f f :
+
+      X++W gi(x,s)+gt(s) i=O, 1,2,. ..
+
+      X+-W                           gi(x,s)+g;(s) i = o , 2 , 3,...   (4.70)
+
+                                     g1(x, s ) + g; (s) + UlX.
+
+The first equation, i = 0, is
+
+                                                                       (4.71)
+
+with solution                                                          (4.72)
+                                                                       (4.73)
+The next equation is
+
+                             -a-2-g+1---i=aogo,.d u
+
+                                        ax2 3 as dx
+Integrating and using the boundary conditions
+
+                                                                       (4.74)
+
+and if we choose the x origin such that
+
+                                                                       (4.75)
+
+then                                                                   (4.76)
+Thus
+
+                                                                       (4.77)
+
+using the notation of § 4.3.1.
+   Proceeding to i = 2
+
+      -a2-g2                                           1d U            (4.78)
+      ax 2 -x1x2(U1-U)(U-U*)+-- 3 dx
+       An introduction to the theory of diffusive shock acceleration  1019
+
+Integrating once and using the boundary conditions we obtain an equation for the s
+dependence of gl:
+
+where                                                                 (4.79)
+                                                                      (4.80)
+The solution is                                                       (4.81)
+
+                         Q,             Q $0
+
+                 g: =;Xi(3Xz+ff)
+
+                 s: = --3XlX2Q,S        a =o
+
+where we have dropped terms which only add a constant to g.
+    Thus the solution to first order is
+
+                                                                                                  (4.82)
+or
+
+                                                                                                  (4.83)
+
+It is interesting to note that this agrees with the exact solution found in § 4.3.1; if
+a = 0 and K dUldx = +(Ul - U ) ( U - U,) then Q, = K/P, g: = -3x1x2~s//3 and the
+high-energy spectral slope is -3,y1(1 + x 2 / / 3 ) .
+
+    However, if K increases with p , a >0, then the asymptotic slope is that predicted
+by the simple theory (as it clearly should be; but the point is of some importance as
+we will see). In principle, the series could be continued to higher orders, but the
+algebra grows at an alarming rate and there is no reason to suppose that the result
+would be very useful.
+
+4.3.3. Blandford's perturbation solution. A different approach has been taken by
+Blandford (1980) who regards the cosmic-ray reaction as a small perturbation and
+simultaneously expands the shock structure and the spectrum in powers of the ratio
+of the downstream cosmic-ray pressure to the kinetic momentum flux. This has the
+obvious disadvantage of only working when the shock is an inefficient accelerator of
+cosmic rays (a circumstance which the considerations of 0 4.2 suggest is rarely the
+case) and leads to rather complicated algebra. However, it does yield more information
+in those cases where it is applicable than the analyses of Pg4.2 and 4.3.2.
+
+    We begin by supposing that in terms of a small parameter E we can make the
+expansions:
+
+                 U = U ( o ) + E U ( 1 ) + E 2 U. .( 2 ) .
+
+                 f =Ef(o)+E2f(1j+. . ,                                (4.84)
+
+                                     W
+
+                 Pc=l0 $p'vfdp=O+~P:)+ ...
+1020                               L O'CDrury
+
+    On inserting these into the transport and dynamic equations to zeroth order we
+obtain the simple theory of acceleration at a gas shock with no reaction. Thus from
+§ 2 . 3 . 1 the solution is (for simplicity we assume K independent of x )
+
+                                                                       (4.85)
+
+where ,yl = Ul/(Ul- U,) and U\::,  are related by the Rankine-Hugoniot condi-
+
+tions.
+
+To obtain the first-order corrections to the shock structure it is convenient to use
+
+the integrated forms of the mass and momentum conservation laws:
+
+              pU=A                                                     (4.86)
+
+        A U +PG +P c =B.
+
+   The two scaling degrees of freedom can be used to hold A and B constant (so
+
+that they do not need to be expanded) and, following Blandford, we will also hold
+the shock (gas) Mach number constant (thus U1= U:"',PG1= P g ! ) . By using the
+adiabatic relation P G = U-' it is then easy to show that upstream
+
+        U`" = -U(O)
+
+                            1
+
+        Pg' =yPg:6(x)                                                  (4.87)
+
+        P g ) =(AV?'- ? P $ \ ) ~ ( x )
+
+where we define E by imposing the condition 6(0)= 1 . Thus
+
+                                                                                                  (4.88)
+
+Applying the Rankine-Hugoniot conditions to the sub-shock we then obtain the
+(x- independent) downstream perturbations
+
+                                       P g : = yPg: - 2AU`,"'          (4.89)
+                                      pCc2') --AU\O) - y P g :
+
+(note that AU:" +P g ; +Pgi = 0 as required by the constancy of B ) .
+
+    The first-order terms in the transport equations give
+
+                                                                       (4.90)
+               A n introduction to the theory o f diffusive shock acceleration  1021
+
+i.e. the spectral correction is obtained by solving the zeroth-order transport equation
+
+with a source term representing the non-linear effects. The results of 0 2.3.1 allow
+
+us to write down the Green function for the zeroth-order transport equation with an
+upstream source, S ( x - x ' ) S ( p - p ' ) with x ' s O :
+
+                       1
+
+  G ( x ,p , x ',p ' ) = -[I- exp ( U I X /11K
+
+                      U1
+
+                       x{exp ( U l ( x - x ' ) / ~ l H ( x ' - x ) + H ( x- x ' ) } H ( - x ) S ( p - p ' )
+
+in terms of which the first-order correction can be expressed purely in terms of
+
+quadratures :
+
+                    lop 0                                                       (4.92)
+
+               f`%, p ) = -m dx' d p ' G ( x ,P , x ' ,P ' M xP'',) .
+
+    The simplest case to consider is that where K is independent of p . Then O ( x ) =
+exp ( U : " X / Ka)nd the source term
+
+The parameter T = yP$;/AU:O' is, as in Blandford's paper, the inverse square Mach
+number of the shock. Thus, the downstream perturbation to the spectrum:
+
+                f`l'(0,P ) =f`o)`(Po),3xlCy2/2 - 2Tx1)In ( P l P O )            (4.94)
+
+and to first order
+
+               f ( O , p ) = f(O)+Ef(l)
+
+                                                                                (4.95)
+
+We see that for weak shocks the spectrum steepens but for strong shocks it flattens.
+The above expression agrees with that found by Blandford if a misprint in his equation
+(21) is corrected.
+
+    The case ~ c c cpan~also be considered, but the integrals involved have to be
+performed numerically. However, one can easily see that if K is an increasing function
+of p the downstream spectral slope at high momenta will be that appropriate to the
+overall compression ratio of the transition:
+
+                                                                                (4.96)
+
+whereas at low momenta it teiids to that appropriate to the compression ratio of the
+sub-shock:
+1022                              L 0'CDrury
+
+4.4. Injection and selective acceleration
+
+It seems very probable, both on theoretical grounds (the collective processes which
+
+heat the plasma within a collisionless shock do not necessarily produce Maxwellian
+
+distributions) and by extrapolation from observations of the Earth's bow shock, that
+
+if the shock structure contains a collisionless sub-shock this injects particles from the
+
+background plasma into the diffusive acceleration mechanism. However, it is very
+
+hard to quantify this effect, although interesting attempts have been made by Eichler
+
+(1979), Bulanov and Dogel' (1979) and Krymsky (1981) analytically and by Ellison
+
+(1981)numerically: while all agree that injection from the thermal background allows
+
+a strong shock, even with no upstream `seed' cosmic rays, to accelerate cosmic rays
+
+`efficiently'this result must largely be attributed to their common assumption that the
+
+process which scatters the high-energy particles is the same as that which heats the
+
+background plasma (whereas very different interactions could be involved). Until we
+
+have some theoretical understanding of the microscopic structure of a quasi-parallel
+
+collisionless shock we can probably do no better than follow Bell (1978b) and assume
+
+that some small fraction (say,    of the thermal particles advected into the shock
+
+obtain enough energy to enter the diffusive mechanism (cf Sonnerup 1979). From
+
+various observational constraints the existence of such a process is probably essential
+
+if diffusive shock acceleration is to be regarded as a viable theory for the origin of
+
+the galactic cosmic rays, a point emphasised by Eichler (1980).
+
+An interesting aspect (Eichler 1979, Ellison 1981), assuming injection to exist, is
+
+the question of selectivity in the acceleration: how is the composition of the accelerated
+
+particle at high energies related to that of the background plasma? There are clearly
+
+two effects here; the initial injection could be selective and if the shock structure has
+
+been modified the acceleration from the injection energy up to the observation energy
+
+will select those species with larger diffusion coefficients. Both effects suggest that
+
+the abundance of a species in the high-energy particles relative to that in the plasma
+
+should be a smooth, and probably increasing, function of its mass to charge ratio, but
+
+as with the injection itself there exists no quantitative theory.
+
+The phenomenological approach to injection suggested above can, of course, be
+
+incorporated into the two-fluid model of the shock structure discussed in 9: 4.2 (H J
+
+Volk, personal communication). One simply says that a fraction @ ( O s8 < 1)of the
+
+kinetic energy dissipated in the sub-shock goes into cosmic-ray energy so that the
+
+sub-shock jump conditions become
+
+                          [Pc]=O [Fc]=-8[$AU2]                     (4.98)
+
+or, in terms of the gas,
+
+                                   A[ U ]+[Pa]= 0                  (4.99)
+                                +A[U*]+ (1- e )[FG]= 0
+
+                                   - 0 +erc)(v=)yc(pa).
+
+Thus the jump in the U, PG diagram is still parallel to Pc = 0, but its midpoint now
+
+lies on the new line (assuming e to be a constant):
+
+With this new line one can then construct a new reflected Hugoniot and carry out the
+
+construction of § 4.2. However, whereas in 0 4.2 the existence of at least one non-trivial
+           An introduction to the theory of diffusiveshock acceleration              1023
+
+solution was guaranteed, with 8 >0 there exist some upstream states with no non-trivial
+
+solutions. The problem is that the cosmic-ray pressure still reaches its maximum on
+each gas adiabat at the old sonic line whereas weak subshocks, because of the energy
+drain due to injection, travel at less than the sound speed. The effect probably does
+not have much physical significance, but it serves as a warning not to assume that
+steady solutions must exist, a point examined in the next subsection.
+
+    Eichler (1979) claims, on the basis of his simplified model, that the reaction
+regulates the injection so that the overall acceleration efficiency is kept at about 50%.
+This is a very appealing idea, but unfortunately reaction effects are more complicated
+than his model allows (see the next subsection) so that without further work his
+conclusions cannot be accepted.
+
+4.5. Pressure divergence in non-linear shocks
+
+In § 4.2 we discussed how the reaction of the accelerated particles, expressed in terms
+of a non-zero cosmic-ray pressure, could modify steady shock structures. Then in
+§ 4.3 we examined particle acceleration in these modified steady shocks. We must
+now check whether this is consistent and the spectral modifications are compatible
+with the assumed cosmic-ray pressures., When we do this we find that we are led to
+a contradiction if K increases with p and the shock is strong. The problem is simple:
+if we assume a strong shock accelerating cosmic rays to have a steady structure, then
+because of the cosmic rays' softer equation of state the overall compression ratio of
+the transition will exceed four; but if K increases withp then the high-energy asymptotic
+slope of the spectrum is determined by the overall compression ratio. It will thus be
+flatter than f ( p )C C P - ~and the pressure integral
+
+                      P ~ = ? [ ~ ~ p d~p v f
+
+will diverge. We are forced to conclude that no steady structure can exist for strong
+
+shocks accelerating cosmic rays unless K is bounded from above (or additional effects
+
+are incorporated, e.g. a loss mechanism at high energies, which can provide a suitable
+
+cut-off).
+
+It is interesting to speculate about what sort of unsteady structure such a shock
+
+might have; the obvious alternatives are that the structure is periodic or that it changes
+
+secularly. I know of no detailed solutions relevant to this problem, but some informa-
+
+tion can be gleaned from the time dependence calculation of § 3.2.
+
+Let us suppose that the diffusion coefficient K ~ p an"d consider a burst of particles
+
+with momentum p Oreleased at t = 0 into an unmodified shock. The particle spectrum
+
+at the shock is then  -3x*
+
+                      fa(:) p(t,p7pO)                                                (4.101)
+
+in the notation of § 3.2. But if a >O, then at large times the system 'forgets' the
+injection momentum and the acceleration time distribution tends to a self-similar form:
+
+                      CP (t,P, PO) + t,lG(t/ta)                                      (4.102)
+
+where the acceleration time t a K K CCp". The cosmic-ray pressure at the shock:
+
+                      P C KjOp m3 ( " c - x 1 ) ~( t ,P,PO)dplp                      (4.103)
+
+where yc = 4/3 if the particles are relativistic, 5/3 if they are non-relativistic.
+1024                              L O'CDrury
+    Thus, as t + a,
+
+                          t3(rc-xl)lu-l         (4.104)
+
+    An alternative microscopic derivation of this power law time dependence is perhaps
+more convincing. The particles gain momentum at a rate
+
+                                                (4.105)
+
+so that
+
+                                  p at 'I",     (4.106)
+
+On the other hand, the number of particles, N , decreases due to escape so that
+
+                          N       -3xz a -3xJa  (4.107)
+
+and these remaining particles occupy a region of width L a K / Uat around the shock.
+
+Thus the pressure:
+
+                          - t3(vc-xl)/a-l       (4.108)
+
+The interesting aspect here is that the particle pressure can continue to increase
+
+after the injection has been switched off if cy <3(yC-x1). This of course assumes the
+
+shock to be infinitesimally thin; if we broaden the transition the momentum gain
+
+decreases, the escape rate increases and at some finite thickness the pressure growth
+
+rate will be zero. This suggests that there may exist strong shock solutions where
+
+there is no injection or advection of fresh particles, but where an ever decreasing
+
+number of ever more energetic particles maintain a constant downstream pressure
+
+and a shock structure whose width increases linearly with time. If the particles are
+
+relativistic and the overall compression of the secularly broadening transition is close
+
+to the steady value of seven this requires cy < O S . Interestingly, the particles which
+
+escape form a power law spectrum           so that this may be a way to get spectra
+
+flatter than 4. Any further discussion would involve us in too much speculation, but
+
+these simple arguments do suggest that both secular and periodic shock structures
+
+need to be investigated.
+
+5. Concluding remarks
+
+As stated in the introduction, and as I hope the presentation in 9 2.3 has shown, the
+central idea of diffusive shock acceleration is simple and persuasive. Assuming that
+the accelerated particles could be treated as reactionless 'test particles' and their
+transport as diffusive we found that a steady parallel plane shock produced a distribu-
+tion function which was a power law in momentum. In 9 3 we then showed that, as
+A n introduction to the theory of diffusive shock acceleration  1025
+
+long as the particles are fast and can return across the shock, the obliquity of the
+magnetic field is unimportant and that, at root because the acceleration is a con-
+sequence of Liouville's theorem, the sole determinant of the spectral slope is the
+compression of the plasma in the shock. However, the acceleration time scale and
+the spectral deviations induced by, for example, curvature of the shock, do depend
+on other factors, in particular the diffusion coefficient.
+
+    Unfortunately, the reaction of the accelerated particles cannot be neglected if they
+contribute significantly to the total pressure (as they must if the acceleration is efficient).
+One consequence of including recoil terms is that if the diffusion is supposed to occur
+through scattering off resonant AlfvCn waves these rapidly become non-linear in all
+except weak shocks as shown in $84.1 and 4.2.2. If we ignore this problem and
+assume, as in the rest of $ 4, that diffusive transport remains a valid approximation
+the reaction effects would be reasonably well understood were the diffusion coefficient
+constant, or at least bounded. Unfortunately this is only a convenient fiction. In
+reality it must increase and, because of the high-energy divergence of the particle
+pressure that this would cause if the shock were steady, acceleration by strong shocks
+must be treated as a time-dependent problem. Nor, at the other end of the spectrum,
+does there exist a satisfactory theory for the injection of particles from the thermal
+background into the diffusive acceleration mechanism.
+
+    Until these gaps in our understanding are filled (and this should be possible with
+modern numerical and analytical methods) it is hard to pass any final judgment on
+diffusive shock acceleration. However, it is worth noting that the problems which
+afflict the theory arise mainly from the fact that as an accelerator the mechanism is
+too good; presumably Nature is better than we are at finding ways of keeping it in
+check, but it is hard to see how the basic mechanism could be completely suppressed.
+I remain optimistic that with the discovery of diffusive shock acceleration we have
+made a step towards understanding the seventy year old problem of the origin of
+cosmic radiation.
+
+Ref erencest
+
+Achterberg B 1981 PhD Thesis University of Utrecht
+Achterberg B and Norman C 1980 Astron. Astrophys. 89 353-63
+Alekseev I I and Kropotkin A P 1970 Geomagn. Aeronom. 10 777-83
+Axford W I 1980 Proc. IAUIIUPAP Symp. No 94 (Dordrecht: D Reidel) pp 339-58
+
+-1981a Proc. 10th Texas Symp. on RelativisticAstrophysics,Baltimore. Ann. NYAcad. Sci. 375 297-313
+-1981b Proc. Int. School and Workshop on Plasma Astrophysics, Varenna. European Space Agency
+
+     SP-161, pp 425-49
+Axford W I, Leer E and McKenzie J F 1982 Astron. Astrophys. 111 317-25
+
+Axford W I, Leer E and Skadron G 1977 Proc. 15th Int. Cosmic Ray Conf., Plovdiv vol 11 (Budapest:
+
+     Central Research Institute for Physics) pp 132-7
+
+Bell A R 1978a Mon. Not. R. Astron. Soc. 182 147-56
+
+-1978b Mon. Not. R . Astron. Soc. 182 443-55
+
+Blandford R D 1979 Particle AccelerationMechanisms in Astrophysics,La Jolla. AIPConf. Proc. 56 335-50
+-1980 Astrophys. J. 238 410-6
+Blandford R D and Ostriker J P 1978 Astrophys. J. 221 L29-32
+
+Blandford R D and Payne D G 1981 Mon. Not. R. Astron. Soc. 194 1041-55
+
+Bulanov S V and Dogel' V A 1979 Pis. Astron. Z h . 5 521-5 (Engl. trans]. Sou. Astron. Lett. 5 278-81)
+
+t Only selected references are listed here. For an almost complete bibliography to mid-1981, see Axford
+
+( 198 1b).
+1026  L O'CDrury
+
+C a d M and Paul J A 1980 Astrophys. J. 237 236-43
+de Hoffmann F and Teller E 1950 Phys. Rev. 80 692-703
+Dewar R L 1970 Phys. Fluids 13 2710-20
+Dolginov A S and Toptyghin I N 1966 Zzu. Akad. Nauk SSSR Ser. Fiz. 30 1780-3 (Engl. transl. Bull.
+
+     Acad. Sci. USSR, Phys. Ser. 30 1852-5)
+Dorman L I and Freidman G I 1959 Problems of MHD and Plasma Physics, Riga (Riga: Verlag Akad.
+
+     Wiss. Lett. SSR) p 77
+Drury L O'C, Axford W I and Summers D 1982 Mon. Not. R. Astron. Soc. 198 833-41
+Drury L O'C and Volk H J 1981 Astrophys. J. 248 344-51
+Eichler D 1979 Astrophys. J. 229 419-23
+
+-1980 Astrophys. J. 237 809-13
+
+Ellison D 1981 PhD Thesis The Catholic University of America, Washington DC
+Fermi E 1949 Phys. Reu. 75 1169-74 ( = Collected Papers vol I1 pp. 655-66).
+
+-1954 Astrophys. J. 119 1-6 ( =Collected Papers vol I1 pp. 970-7).
+
+Fisk L A 1969 PhD Thesis University of California, San Diego
+
+-1971J. Geophys. Res. 76 1662-72
+
+Forman M and Morfill G 1979 Proc. 16th In!. Cosmic Ray Conf., Kyoto vol 5 (Tokyo: Institute for Cosmic
+     Ray Research) p 328 (Abstract only)
+
+Ginzburg V L and Ptuskin V S 1981 Proc. 27th Znt. Cosmic Ray Conf., Paris vol 2 (Saclay: Service de
+
+     Documentation du CEN) pp 336-9
+Gleeson L J and Axford W I 1967 Astrophys. J. 149 L115-8
+Hoyle F 1960 Mon. Not. R. Astron. Soc. 120 338-59
+Hudson P Is 1965 Mon. Not. R. Astron. Soc. 131 23-50
+
+-1967 Mon. Not. R. Astron. Soc. 137 205-20
+
+Jokipii J R 1966 Astrophys. J. 143 961-79
+
+-1968 Astrophys. J. 152 799-808
+
+Kahn F D 1975 Proc. 24th Znt. Cosmic Ray Conf.,Munchen vol 11 (Munchen: MPI fur Extraterrestrishe
+     Physik) pp 3566-91
+
+Krymsky G F 1977 Dokl. Akad. Nauk SSSR 234 1306-8 (Engl. transl. Sou. Phys.-Dokl. 23 327-8)
+
+-1981 Zzv. Akad. Nauk SSSR Ser. Fiz. 45 461-73
+
+Krymsky G F, Kuzmin A I, Petukhov S I and Turpanov A A 1979 Proc. 16th In!. Cosmic Ray Conf..
+
+     Kyoto vol 2 (Tokyo: Institute for Cosmic Ray Research) pp 39-43
+Krymsky G F and Petukhov S I 1980 Pis. Astron. Zh. 6 227-31 (Engl. transl. Sou. Astron. Lett. 6 124-6)
+Lagage P 0 and Cesarsky C J 1981 Proc. Int. School and Workshop on Plasma Astrophysics, Varenna.
+
+     European Space Agency SP-161, pp 317-8
+
+-1983 Astron. Astrophys. 118 223-8
+
+Lighthill J 1978 Waves in Fluids (Cambridge: Cambridge University Press)
+Longair M S 1981 High Energy Astrophysics (Cambridge: Cambridge University Press)
+Lust R 1955a 2.Naturf. 8a 277-84
+
+-1955b Z. Natu$. 10a 125-35
+
+McKenzie J F and Volk H J 1981 Proc. 17th In!. Cosmic Ruy Conf., Paris vol 9 (Saclay: Service de
+     Documentation du CEN) pp 242-5
+
+-1982 Astron. Astrophys. 116 191-200
+
+Michel F C 1981 Astrophys. J. 247 664-70
+
+Morrison P J, Scott J S, Holman G D and Ionson J A 1981 Steward Observatory Preprint No 316
+Parker E N 1958 Phys. Rev. 109 1328-44
+
+-1965 Planet Space Sci. 13 9-49
+
+Peacock J A 1981 Mon. Not. R. Astron. Soc. 196 135-52
+Prishchep V L and Ptuskin V S 1981 Astron. Zh. 58 779-89 (Engl. transl. Sou. Astron. 25 446-50)
+Ptuskin V S 1981 Astrophys. Space Sci. 76 265-78
+Schatzman E 1963 Ann. Astrophys. 26 234-49
+Scholer M and Morfill G E 1975 Solar Phys. 45 227-40
+Shabanskii V P 1961 Zh. Eksp. Teor. Fiz. 41 1107-11 (Engl. transl. Sou. Phys.-JETP 14 791-3)
+Skilling J 1975 Mon. Not. R. h t r 0 n . Soc. 172 557-66
+Sonnerup B U 0 1969 J. Geophys. Res. 74 1 3 0 1 4
+Terasawa T 1979 Planet. Space Sci. 27 193-201
+Tidman D A and Krall N A 1971 Shock Waves in CollisionlessPlasmas (New York: Wiley)
+Toptyghin I N 1980 Space Sci. Rev. 26 157-213
+An introduction to the theory of diffusive shock acceleration  1027
+
+Vasilyev V N, Toptygin I N and Chirkov A G 1980 Kosm. Zssled. 18 556-66 (Engl. transl. Cosmic Res.
+     18 401-10)
+
+Volk H J 1973 Astrophys. Space Sci. 25 471-90
+Volk H J and McKenzie J F 1981 Proc. 17th Znt. Cosmic Ray Conf., Paris vol 9 (Saclay: Service de
+
+     Documentation du CEN) pp 246-9
+
+Volk H J, Morfill G E and Forman M A 1981 Astrophys. J. 249 161-75
+Webb G, Forman M A and Axford W I 1982 Astrophys. J. submitted
+Webb G, Axford W I and Terasawa T 1983 Astrophys. J . to appear
+Whitham G B 1974 Linear and Nonlinear Waves (New York: Wiiey)
+Whittaker E T and Watson G N 1902 A Course of Modern Analysis (CamGidge: Cambridge University
+
+     Press)
+Xiaoqing L and Mutao S 1982 Solar Phys. 75 83,98
+Zeldovich Ya B and Raizer Yu P 1966 Physics of Shock Waves and High Temperature Phenomena (New
+
+     York: Academic)
+
