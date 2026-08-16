@@ -20,6 +20,7 @@ path: background/README.md
 | [`01_cosmic_rays.md`](01_cosmic_rays.md) | 宇宙线传播、加速、观测约束、UHECR、星系 CR | 8 篇（01×1 + 02×7） | 673 行 |
 | [`02_nucleosynthesis.md`](02_nucleosynthesis.md) | 恒星核合成：核过程框架（H/He燃烧→s/r/p过程） | 6 篇（03×6） | 910 行 |
 | [`03_astrophysics.md`](03_astrophysics.md) | 太阳丰度、恒星丰度观测、星暴星系、暗物质 | 7 篇（03×7） | 649 行 |
+| [`07_experimental_panorama.md`](07_experimental_panorama.md) | 实验观测全景：LHAASO/AMS-02/IceCube/HESS 方法、测量、理论约束 | 4 篇（04×4） | ~120 行 |
 
 ## 主题交叉关系
 
@@ -59,4 +60,4 @@ path: background/README.md
 3. **宇宙线**：再读 `01_cosmic_rays.md` 理解宇宙线物理
 4. **深入**：回到各篇论文的 `literature_analysis/` 精读原文
 
-> 最后更新：2026-08-12
+> 最后更新：2026-08-16

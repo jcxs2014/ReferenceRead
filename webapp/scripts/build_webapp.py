@@ -22,6 +22,7 @@ PAPER_INFO = {
     "01_cosmic-ray-propagation": {"label": "宇宙线传播"},
     "02_cosmic-ray-origins":     {"label": "宇宙线起源与 UHECR"},
     "03_stellar-nucleosynthesis":{"label": "恒星核合成与丰度"},
+    "04_experiments":          {"label": "实验与观测"},
 }
 
 # Load registry for enriched paper metadata (status, read_date, tags, citations)
@@ -242,6 +243,7 @@ def build(include_papers=False, out=None):
         ("04_critique_index.md",  "CRITIQUE 观点汇总"),
         ("05_glossary.md",        "全库术语表"),
         ("06_controversy_evolution.md", "争议演化时间线"),
+        ("07_experimental_panorama.md", "实验观测全景"),
     ]
 
     # ── Background docs ──────────────────────────────────────────
