@@ -289,6 +289,55 @@ mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px
 }
 #search-count:empty { display:none; }
 #search-count:not(:empty) { display:block; }
+
+.search-results-header {
+  font-size: 12px;
+  color: var(--fg-2);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 6px;
+}
+.search-results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 420px;
+  overflow-y: auto;
+}
+.search-results-list li {
+  border-bottom: 1px solid var(--border);
+}
+.search-results-list li:last-child { border-bottom: none; }
+.search-results-list a.search-link {
+  display: block;
+  padding: 8px 10px;
+  color: var(--fg);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.search-results-list a.search-link:hover,
+.search-results-list a.search-link:focus {
+  background: var(--search-hl);
+  outline: none;
+}
+.search-results-list .sr-section {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--fg);
+  margin-bottom: 2px;
+}
+.search-results-list .sr-path {
+  display: block;
+  font-size: 11px;
+  color: var(--fg-2);
+  font-family: ui-monospace, 'SF Mono', monospace;
+}
+/* 滚动条样式 */
+.search-results-list::-webkit-scrollbar { width:8px; }
+.search-results-list::-webkit-scrollbar-thumb { background:var(--border); border-radius:4px; }
+
 #search-count a.search-link {
   color: #2563eb;
   text-decoration: none;
@@ -853,11 +902,14 @@ function doSearch(query) {
   let indexEntries = null;
   if (_searchTermMap && _searchTermMap.has(q.toLowerCase())) {
     indexEntries = _searchTermMap.get(q.toLowerCase());
-    // 索引命中：弹窗显示计数 + 可点击章节名（跳到第一个 entry 文档），
-    // 不 return，继续走 fallback 高亮当前文档
-    const firstPath = indexEntries[0]?.path || "";
-    const linkText = _sectionNames(indexEntries);
-    count.innerHTML = `${indexEntries.length} 命中（<a href="#" class="search-link" data-search-path="${firstPath.replace(/"/g,'&quot;')}">${linkText}</a>）`;
+    // 索引命中：弹窗显示完整条目列表（可滚动，每行一个：section + path）
+    // 不返回，继续走 fallback 高亮当前文档
+    const itemsHtml = indexEntries.map(e => {
+      const path = (e.path || "").replace(/"/g, "&quot;");
+      const section = (e.section || "(root)").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      return `<li><a href="#" class="search-link" data-search-path="${path}"><span class="sr-section">${section}</span><span class="sr-path">${path}</span></a></li>`;
+    }).join("");
+    count.innerHTML = `<div class="search-results-header">${indexEntries.length} 命中</div><ul class="search-results-list">${itemsHtml}</ul>`;
   }
 
   // Fallback: live DOM walk for multi-word / fuzzy
