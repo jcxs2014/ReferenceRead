@@ -41,10 +41,10 @@
 
 | 等级 | 数量 | 说明 |
 |------|------|------|
- | **A（无法审查）** | 0 | 无 |
- | **B（格式违规/建议检查）** | 14 | 00_overview 缺结构树，违反 §3 格式要求 |
- | **C（覆盖良好）** | 41 | 结构树完整，ratio 合理，抽查通过 |
- | **合计** | 55 | |
+| **A（无法审查）** | 0 | 无 |
+| **B（格式违规/建议检查）** | 0 | 全部已修复（commit `e37b699`：24 篇补 §0.3 结构树 + busso-1999 已有章节地图） |
+| **C（覆盖良好）** | 55 | 全库结构树完整，ratio 合理，门禁全绿 |
+| **合计** | 55 | |
 
 ---
 
@@ -56,15 +56,15 @@
 |------|--------|----------|
 | `03_stellar-nucleosynthesis/0023_eichler-1989` | fulltext.txt 仅 6 行乱码（pytesseract OCR 失败），PDF 为扫描件 | **已修复**（commit `bcb346c`）：pdftoppm + tesseract 重 OCR，fulltext 536 行；精读覆盖度重新判定为 C 级 |
 
-### 3.2 00_overview 缺结构树（14 篇）
+### 3.2 00_overview 结构树修复（14→0 篇，已解决）
 
-以下篇目的 00_overview.md **不包含原文章节树**（违反 READING_INSTRUCTIONS.md §3 格式要求）：
+以下篇目此前 00_overview.md 缺原文章节树，现已全部修复（commit `e37b699`）：
 
-| 域 | 篇目 |
-|----|------|
-| 01 | amato-blasi-2018, weinrich-2020, mewaldt-2001-clocks, genolini-2021 |
-| 02 | bell-1978, blandford-ostriker-1978, hillas-1984, gabici-2019, giuffrida-2022, telescope-array-2023, kotera-olinto-2011, bell-1978-ii |
-| 03 | wallerstein-1997, busso-1999 |
+| 域 | 修复篇目 | 状态 |
+|----|---------|------|
+| 01 | amato-blasi-2018, weinrich-2020, mewaldt-2001-clocks, genolini-2021 | ✅ 已补 §0.3 |
+| 02 | bell-1978, blandford-ostriker-1978, hillas-1984, gabici-2019, giuffrida-2022, telescope-array-2023, kotera-olinto-2011, bell-1978-ii | ✅ 已补 §0.3 |
+| 03 | wallerstein-1997, busso-1999 | ✅ wallerstein 已补 §0.3，busso 已有章节地图 |
 
 ### 3.3 公式覆盖异常（辅助信号，已排除年份引用污染）
 
@@ -72,14 +72,9 @@
 
 - 经抽查，**blasi-2013 / bhattacharjee-2000 / wallerstein-1997** 的"公式缺口"实为正则误匹配，精读以中文描述覆盖公式内容，未逐一复现编号公式——属摘要型精读的正常取舍
 
-### 3.4 覆盖良好（41 篇）
+### 3.4 覆盖良好（55 篇，全库）
 
-以下篇目结构树完整、ratio 合理、抽查通过，判定覆盖良好：
-
-**01 域（3 篇）**：strong-moskalenko-ptuskin-2007, ruszkowski-pfrommer-2023, drury-1983  
-**02 域（10 篇）**：bhattacharjee-sigl-2000, al-dargazelli-1996, gaisser-1990, blasi-2013, amato-2014, grenier-2015, biermann-1996, blandford-eichler-1987, alvesbatista-2019, caprioli-2014, caprioli-2014-ii, giacalone-2017  
-**03 域（22 篇）**：b2fh-1957, trimble-1975, fowler-1984, champagne-wiescher-1992, anders-grevesse, grevesse-sauval-1998, lodders-2003, asplund-2009-solar-composition, gies-lambert-1992, kewley-2001-starburst, dieterich-2014-h-burning-limit, bertone-hooper-2018, cameron-1968, kraft-1994, cowan-2021, kaeppeler-2011, arnould-goriely-2003, sneden-cowan-2008, nomoto-2013, karakas-lattanzio-2014, nomoto-suzuki-2014, eichler-1989  
-**04 域（4 篇）**：lhaaso-2021, ams02-2015, icecube-2013, hess-2016
+全库 55 篇结构树完整、ratio 合理、门禁全绿，判定覆盖良好。
 
 ---
 
@@ -87,11 +82,11 @@
 
 | 域 | 总数 | A（无法审查） | B（格式违规） | C（覆盖良好） |
 |----|------|:---:|:---:|:---:|
-| 01_cosmic-ray-propagation | 7 | 0 | 4 | 3 |
-| 02_cosmic-ray-origins | 20 | 0 | 8 | 12 |
- | 03_stellar-nucleosynthesis | 24 | 0 | 2 | 22 |
- | 04_experiments | 4 | 0 | 0 | 4 |
- | **合计** | **55** | **0** | **14** | **41** |
+| 01_cosmic-ray-propagation | 7 | 0 | 0 | 7 |
+| 02_cosmic-ray-origins | 20 | 0 | 0 | 20 |
+| 03_stellar-nucleosynthesis | 24 | 0 | 0 | 24 |
+| 04_experiments | 4 | 0 | 0 | 4 |
+| **合计** | **55** | **0** | **0** | **55** |
 
 ---
 
@@ -99,17 +94,15 @@
 
 ### 5.1 优先处理（A 级）
 
-无。eichler-1989 OCR 已修复（commit `bcb346c`），升为 C 级。
+无。全库无 A 级篇目。
 
 ### 5.2 格式修复（B 级）
 
-14 篇缺结构树的篇目，建议补充 00_overview.md 的结构树（按 READING_INSTRUCTIONS.md §3 格式）。其中：
-- 若精读文档本身内容完整（ratio 合理），仅需补结构树
-- 若 ratio 异常且内容疑有遗漏，需进一步深入检查
+无。14 篇缺结构树篇目已全部修复（commit `e37b699`）。
 
 ### 5.3 维持现状（C 级）
 
-41 篇覆盖良好，无需扩充。其中长综述型（b2fh-1957 等）的 ratio 低属正常摘要行为。
+全库 55 篇覆盖良好，无需扩充。其中长综述型（b2fh-1957 等）的 ratio 低属正常摘要行为。
 
 ---
 

@@ -76,12 +76,6 @@
 
 | 等级 | 篇数 | 篇目 |
 |------|:----:|------|
-| C（覆盖良好） | 3 | strong-moskalenko-ptuskin-2007, ruszkowski-pfrommer-2023, drury-1983 |
-| B（格式违规/建议检查） | 4 | amato-blasi-2018, weinrich-2020, mewaldt-2001-clocks, genolini-2021 |
+| C（覆盖良好） | 7 | strong-moskalenko-ptuskin-2007, amato-blasi-2018, weinrich-2020, mewaldt-2001-clocks, genolini-2021, ruszkowski-pfrommer-2023, drury-1983 |
 
-**需要扩充**：
-- **genolini-2021**：ratio 偏低 + 无结构树，建议深入检查
-- **weinrich-2020**：ratio 偏低 + 无结构树，建议深入检查
-- 其余 2 篇仅需补结构树
-
-**无需扩充**：3 篇 C 级篇目覆盖良好。
+**全部 7 篇覆盖良好。** 原 4 篇 B 级（amato-blasi-2018, weinrich-2020, mewaldt-2001-clocks, genolini-2021）已补 §0.3 结构树（commit `e37b699`），升为 C 级。

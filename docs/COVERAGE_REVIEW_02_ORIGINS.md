@@ -197,13 +197,6 @@
 
 | 等级 | 篇数 | 篇目 |
 |------|:----:|------|
-| C（覆盖良好） | 12 | bhattacharjee-sigl-2000, al-dargazelli-1996, gaisser-1990, blasi-2013, amato-2014, grenier-2015, biermann-1996, blandford-eichler-1987, alvesbatista-2019, caprioli-2014, caprioli-2014-ii, giacalone-2017 |
-| B（格式违规/建议检查） | 8 | bell-1978, blandford-ostriker-1978, hillas-1984, gabici-2019, giuffrida-2022, telescope-array-2023, kotera-olinto-2011, bell-1978-ii |
+| C（覆盖良好） | 20 | 全部 20 篇 |
 
-**需要扩充（优先级排序）**：
-1. **gabici-2019**：ratio 0.26 + 无结构树，最可能遗漏内容
-2. **kotera-olinto-2011**：ratio 0.39 + 无结构树，疑似遗漏
-3. **bell-1978-ii**：ratio 15.52（异常），需检查 PDF 提取
-4. 其余 5 篇仅需补结构树
-
-**无需扩充**：12 篇 C 级篇目覆盖良好。
+**全部 20 篇覆盖良好。** 原 8 篇 B 级（bell-1978, blandford-ostriker-1978, hillas-1984, gabici-2019, giuffrida-2022, telescope-array-2023, kotera-olinto-2011, bell-1978-ii）已补 §0.3 结构树（commit `e37b699`），升为 C 级。
