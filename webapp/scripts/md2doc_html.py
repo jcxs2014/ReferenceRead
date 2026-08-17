@@ -19,37 +19,50 @@ else:
     DOC_ID = _arg4
 
 def inline_markdown(t_raw):
-    """Markdown inline formatting, splitting on $...$ to preserve math unescaped."""
-    parts = re.split(r'(\$\$[^$]+\$\$|\$[^$]+\$)', t_raw)
-    result = []
-    for i, part in enumerate(parts):
-        if i % 2 == 1:
-            # Math segment
-            kind = "block" if part.startswith("$$") and part.endswith("$$") else "inline"
-            inner = part[2:-2] if kind == "block" else part[1:-1]
-            if kind == "block":
-                result.append(
-                    '<span class="math block-wrap">'
+    """Markdown inline formatting, supporting bold/italic/code/link/wikilink
+    ACROSS $...$ math boundaries via the placeholder trick:
+      1. Stash $...$ segments to @@FMx@@ placeholders (immune to **/*/`/[/)
+      2. Run bold/italic/code/link/wikilink on the placeholder-flavored text
+         (pairs can now span math segments)
+      3. html.escape the non-math text
+      4. Restore math placeholders → <span class="math ..."> HTML (un-escaped)
+    Previously the script split on $...$ and re.sub'd bold inside each part
+    independently, so `**bold $x$ more**` failed to pair and the trailing
+    `**` leaked as literal text. Fixed 2026-08-17.
+    """
+    # Step 1: stash math segments to placeholders
+    formulas = []   # original $...$ or $$...$$ source (preserved verbatim)
+    def _stash(m):
+        idx = len(formulas)
+        formulas.append(m.group(0))
+        return f"@@FM{idx}@@"
+    t = re.sub(r"\$\$[^$]+\$\$|\$[^$]+\$", _stash, t_raw)
+
+    # Step 2a: escape HTML in the non-math text FIRST (before inserting <b>/<i>/<code>).
+    # Placeholders contain only '@','F','M',digits — none HTML-significant.
+    t = html.escape(t, quote=False)
+
+    # Step 2b: markdown inline transforms on escaped+placeholder text.
+    t = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t)
+    t = re.sub(r"(?<!\*)\*([^*]+?)\*(?!\*)", r"<i>\1</i>", t)
+    t = re.sub(r"`([^`]+?)`", r"<code>\1</code>", t)
+    t = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
+               r'<a href="\2" target="_blank" rel="noopener">\1</a>', t)
+    t = re.sub(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]", _wikilink_repl, t)
+
+    # Step 4: restore placeholders, wrapping math in <span class="math ...">
+    def _restore(idx):
+        fm = formulas[idx]
+        kind = "block" if fm.startswith("$$") and fm.endswith("$$") else "inline"
+        inner = fm[2:-2] if kind == "block" else fm[1:-1]
+        if kind == "block":
+            return ('<span class="math block-wrap">'
                     '<button class="copy-btn" title="复制 LaTeX 源码">📋 LaTeX</button>'
-                    '<span class="math-inner">' + inner + '</span></span>'
-                )
-            else:
-                result.append(f'<span class="math inline">{inner}</span>')
-        else:
-            s = html.escape(part, quote=False)
-            # bold
-            s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
-            s = re.sub(r"(?<!\*)\*([^*]+?)\*(?!\*)", r"<i>\1</i>", s)
-            # code
-            s = re.sub(r"`([^`]+?)`", r"<code>\1</code>", s)
-            # link: \1 = link text, \2 = URL
-            s = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
-                       r'<a href="\2" target="_blank" rel="noopener">\1</a>', s)
-            # wikilink: [[target|label]] / [[target]] → 内部文档链接（shell 事件委托路由）
-            #   target 可为相对 md 路径（论文/背景文档）或页内锚点；label 缺省取文件名 stem
-            s = re.sub(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]", _wikilink_repl, s)
-            result.append(s)
-    return "".join(result)
+                    f'<span class="math-inner">{inner}</span></span>')
+        return f'<span class="math inline">{inner}</span>'
+    for i in range(len(formulas)):
+        t = t.replace(f"@@FM{i}@@", _restore(i))
+    return t
 
 def _wikilink_repl(m):
     """[[target|label]] / [[target]] → <a class="wl" href="target">label</a>
