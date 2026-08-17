@@ -42,7 +42,7 @@ tags: [UHECR, Pierre Auger, Telescope Array, spectrum, composition, anisotropy, 
 - 分成 4 个能量 bin 后发现 $3.7\sigma$ 的"偶极幅度随能量增长"迹象——与 GZK horizon 收缩的预期一致。
 
 **小尺度各向异性**（$>40$ EeV）：
-- Auger 在角窗口 $1°$–$30°$ 内扫描最强 excess：$E_{Auger}>54$ EeV、半径 $12°$、中心 $(lpha,\delta)=(198°, -25°)$；
+- Auger 在角窗口 $1°$–$30°$ 内扫描最强 excess：$E_{Auger}>54$ EeV、半径 $12°$、中心 $(\alpha,\delta)=(198°, -25°)$；
 - 局部显著性 $4.3\sigma$，但考虑 scan 惩罚后 post-trial $0.4\sigma$（$p=69\%$）；
 - 这说明**Auger 没有发现统计显著的小尺度热点**。
 
@@ -105,7 +105,7 @@ tags: [UHECR, Pierre Auger, Telescope Array, spectrum, composition, anisotropy, 
 
 [FACT] **Muon puzzle**：
 - 数据中 muon 数量比模型预测多 30-60%；
-- $\sigma(X_0)pprox 50$ g/cm$^2$（来自 $p$-air 截面测量，$\lambda_I$ 为相互作用长度）；
+- $\sigma(X_0)\approx 50$ g/cm$^2$（来自 $p$-air 截面测量，$\lambda_I$ 为相互作用长度）；
 - 若要让涨落降到 $25$ g/cm$^2$，$p$-air 截面需翻倍——这将违反 QCD 幺正性（unitarity constraint）；
 - 可能的"救星"：baryon-antibaryon pair 增强（Pierog & Werner 2008）、eta-0 介子增强（Drescher 2008; Ostapchenko 2013）；
 - NA61 证实了 forward eta-0 增强，但 LHC 未发现 proton-antiproton 产生率增强。
@@ -113,24 +113,24 @@ tags: [UHECR, Pierre Auger, Telescope Array, spectrum, composition, anisotropy, 
 ## 2.3 关键公式
 
 **Rayleigh analysis**（大尺度各向异性）：
-$$f = rac{\sqrt{\langle\cos\phi
+$$f = \frac{\sqrt{\langle\cos\phi
 angle^2 + \langle\sin\phi
 angle^2}}{\sqrt{N}}$$
 
 **GZK 视界**（能量依赖）：
 $$d_{
 m GZK}(10^{19}\,{
-m eV}) pprox 1 	ext{ Gpc}$$
+m eV}) \approx 1 	ext{ Gpc}$$
 $$d_{
 m GZK}(5	imes10^{19}\,{
-m eV}) pprox 100	ext{--}300 	ext{ Mpc}$$
+m eV}) \approx 100	ext{--}300 	ext{ Mpc}$$
 
 **$X_{max}$ 与对数质量关系**：
 $$\langle X_{max}
 angle \propto \ln A$$
 
 **$X_0$ 涨落与截面关系**：
-$$rac{dP}{dX_0} \sim e^{-X_0/\lambda_I}, \quad \sigma(X_0) = \lambda_I$$
+$$\frac{dP}{dX_0} \sim e^{-X_0/\lambda_I}, \quad \sigma(X_0) = \lambda_I$$
 
 **成分拟合**（4-组分模板）：
 $$f(X_{max}) = \sum_i f_i \cdot P(X_{max}|i), \quad i \in \{p, He, N, Fe\}$$
@@ -185,7 +185,7 @@ $$L_{source}(z) \propto (1+z)^m$$
 
 **目的**：用 4 组分模板（p, He, N, Fe）展示成分随能量的交替主导。
 
-**关键数值**：p/He 最大值之比 $pprox 4$——提示 spallation 情景。
+**关键数值**：p/He 最大值之比 $\approx 4$——提示 spallation 情景。
 
 **作者解释**（[FACT]）："an interesting pattern of alternating dominance of certain mass groups"。
 
@@ -205,7 +205,7 @@ $$L_{source}(z) \propto (1+z)^m$$
 
 **目的**：展示 $p$-air 截面测量历史与 muon 数量偏差的证据。
 
-**关键数值**：$R_0 pprox 1.3$–$1.6$（数据 muon / QGSjet 预测）。
+**关键数值**：$R_0 \approx 1.3$–$1.6$（数据 muon / QGSjet 预测）。
 
 **作者解释**（[FACT]）："the discrepancy between the number of muons predicted by model calculations and that measured"——hadronic interaction 领域最重大的问题之一。
 
@@ -257,7 +257,7 @@ $$L_{source}(z) \propto (1+z)^m$$
 
 2. **TA 的赤纬依赖**：[FACT] §2.2 明确说 "TA does [show declination dependence]"——这可能对应于 North/Equatorial sky 的 UHECR 通量差异。
 
-3. **Spallation 参数 vs Peters cycle**：p/He 比值 $pprox 4$ 更符合 spallation（$Z^2$ 标度）。若 spallation 主导，则成分演化反映的是**传播**效应而非**源端**的最大能量。
+3. **Spallation 参数 vs Peters cycle**：p/He 比值 $\approx 4$ 更符合 spallation（$Z^2$ 标度）。若 spallation 主导，则成分演化反映的是**传播**效应而非**源端**的最大能量。
 
 4. **GZK cutoff 的观测**：HiRes 2008 声称发现，Auger 独立报告 $\sim 6\sigma$。但 2017 年 Auger 的更新结果把 GZK cutoff 的解释与成分混合一起做联合拟合。
 

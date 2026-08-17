@@ -96,18 +96,18 @@ sections:
 [FORMULAS] 短寿命核素、等时线与 AGB 污染方程：
 
 - **等时线方程（通用）**：$\left(\frac{D}{I}\right)_{\rm today}=\left(\frac{D}{I}\right)_0+\left(\frac{R}{S}\right)_0\left(\frac{S}{I}\right)_{\rm today}$（原文 p.278）。
-- **26Al → 26Mg 衰变链**：$^{26}{\rm Al}\xrightarrow{\beta^+,\tau=0.7\ {\rm Myr}}\;^{26}{\rm Mg}$；结晶时 $^{26}{\rm Al}/^{27}{\rm Al}=5\times10^{-5}$（原文 p.278）。
-- **107Pd → 107Ag**：$^{107}{\rm Pd}\xrightarrow{\beta^-,\tau=6.5\ {\rm Myr}}\;^{107}{\rm Ag}$（原文 p.278）。
-- **182Hf → 182W**：$^{182}{\rm Hf}\xrightarrow{\beta^-,\tau=9\ {\rm Myr}}\;^{182}{\rm W}$（原文 p.278）。
-- **41Ca 生成**：$^{40}{\rm Ca}(n,\gamma)^{41}{\rm Ca}$；He 壳内电子俘获寿命延长 $10\times$（原文 p.279）。
-- **26Al 生成（H 壳）**：$^{25}{\rm Mg}(p,\gamma)^{26}{\rm Al}$；竞争 $^{26}{\rm Al}(p,\gamma)^{27}{\rm Si}$（原文 p.279）。
-- **26Al 破坏（He 壳）**：$^{26}{\rm Al}(n,p)^{26}{\rm Mg}$ 与 $^{26}{\rm Al}(n,\alpha)^{23}{\rm Na}$，截面 $\sigma\approx 385\ {\rm mb}$（原文 p.279）。
-- **60Fe 生成链**：$^{59}{\rm Co}(n,\gamma)^{60}{\rm Co}(\beta^-,\tau=192\ {\rm d})^{60}{\rm Ni}$ 或 $^{59}{\rm Fe}(\beta^-,\tau=65\ {\rm d})^{59}{\rm Co}(n,\gamma)^{60}{\rm Co}(\beta^-)^{60}{\rm Fe}$（原文 p.279）。
+- **26Al → 26Mg 衰变链**：${}^{26}{\rm Al}\xrightarrow{\beta^+,\tau=0.7\ {\rm Myr}}\;{}^{26}{\rm Mg}$；结晶时 ${}^{26}{\rm Al}/^{27}{\rm Al}=5\times10^{-5}$（原文 p.278）。
+- **107Pd → 107Ag**：${}^{107}{\rm Pd}\xrightarrow{\beta^-,\tau=6.5\ {\rm Myr}}\;{}^{107}{\rm Ag}$（原文 p.278）。
+- **182Hf → 182W**：${}^{182}{\rm Hf}\xrightarrow{\beta^-,\tau=9\ {\rm Myr}}\;{}^{182}{\rm W}$（原文 p.278）。
+- **41Ca 生成**：${}^{40}{\rm Ca}(n,\gamma){}^{41}{\rm Ca}$；He 壳内电子俘获寿命延长 $10\times$（原文 p.279）。
+- **26Al 生成（H 壳）**：${}^{25}{\rm Mg}(p,\gamma){}^{26}{\rm Al}$；竞争 ${}^{26}{\rm Al}(p,\gamma){}^{27}{\rm Si}$（原文 p.279）。
+- **26Al 破坏（He 壳）**：${}^{26}{\rm Al}(n,p){}^{26}{\rm Mg}$ 与 ${}^{26}{\rm Al}(n,\alpha){}^{23}{\rm Na}$，截面 $\sigma\approx 385\ {\rm mb}$（原文 p.279）。
+- **60Fe 生成链**：${}^{59}{\rm Co}(n,\gamma){}^{60}{\rm Co}(\beta^-,\tau=192\ {\rm d}){}^{60}{\rm Ni}$ 或 ${}^{59}{\rm Fe}(\beta^-,\tau=65\ {\rm d}){}^{59}{\rm Co}(n,\gamma){}^{60}{\rm Co}(\beta^-){}^{60}{\rm Fe}$（原文 p.279）。
 - **稀释因子（AGB He 壳 vs 污染云）**：$M_{\rm He}/M_{\rm SC}\approx 1.46\times10^{-4}$（原文 p.279）。
 - **AGB 包层与污染云质量比**：$M_{\rm AGB}/M_{\rm SC}\approx 10^{-2}$（原文 p.279）。
 - **注入–凝结时标**：$\Delta t_{\rm inj-cond}\approx(0.5\text{-}0.7)\times10^6\ {\rm yr}$（原文 p.279）。
 - **短寿命源质量上限**：$M_{\rm AGB}\lesssim 1.5\,M_{\odot}$（26Al/41Ca 产量约束；原文 p.279）。
-- **26Al/60Fe 诊断比**：$(^{26}{\rm Al}/^{60}{\rm Fe})_{\rm AGB}\gg (^{26}{\rm Al}/^{60}{\rm Fe})_{\rm SN}$——AGB 源判据（原文 p.279）。
+- **26Al/60Fe 诊断比**：$({}^{26}{\rm Al}/^{60}{\rm Fe})_{\rm AGB}\gg ({}^{26}{\rm Al}/^{60}{\rm Fe})_{\rm SN}$——AGB 源判据（原文 p.279）。
 
 ## 7.4 与相关文献的交叉
 

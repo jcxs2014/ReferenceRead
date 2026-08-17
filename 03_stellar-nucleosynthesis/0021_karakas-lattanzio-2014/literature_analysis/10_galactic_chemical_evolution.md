@@ -55,7 +55,7 @@ $$ \left[\frac{X}{\mathrm{Fe}}\right](t) \;=\; \log_{10}\!\frac{\dot{X}_{\rm CC-
 $$ \tau_{\rm delay}(M,Z) \;\sim\; 10^{8}\text{--}10^{10}\,\mathrm{yr} \qquad (M \sim 1\text{--}4\,M_\odot) $$
 
 [FACT] **AGB 贡献的太阳邻域比例**：原文 p.72
-$$ f_{\rm AGB}(\,^{12}\mathrm{C}\,)_\odot \;\approx\; 50\text{--}60\%, \qquad f_{\rm AGB}(\,^{14}\mathrm{N}\,)_\odot \;\approx\; 50\text{--}60\% $$
+$$ f_{\rm AGB}(\,{}^{12}\mathrm{C}\,)_\odot \;\approx\; 50\text{--}60\%, \qquad f_{\rm AGB}(\,{}^{14}\mathrm{N}\,)_\odot \;\approx\; 50\text{--}60\% $$
 $$ f_{\rm AGB}(\mathrm{Pb})_\odot \;\approx\; 91\%, \qquad f_{\rm AGB}(\mathrm{Ba/La})_\odot \;\approx\; 80\text{--}100\% $$
 
 [FACT] **尘埃注入比例**：原文 p.3

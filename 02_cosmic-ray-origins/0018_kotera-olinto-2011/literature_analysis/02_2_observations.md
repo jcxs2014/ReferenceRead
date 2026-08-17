@@ -13,7 +13,7 @@
 ## 2. 原文内容
 
 **宇宙线能谱的 broken power law**：
-$$J(E) = J_0 \left(\frac{E}{E_0}\right)^{-s(E)}, \qquad s(E)=\begin{cases}2.7 & E<E_\mathrm{knee}\ (\approx 1\text{ PeV})\\ 3.0 & E_\mathrm{knee}<E<E_\mathrm{ankle}\ (\approx 3\text{ EeV})\\ 2.6 & E_\mathrm{ankle}<E<E_\mathrm{GZK}\ (\approx 30\text{ EeV})\end{cases}$$
+$$J(E) = J_0 \left(\frac{E}{E_0}\right)^{-s(E)}, \qquad s(E)=\begin{cases}2.7 & E\text{<}E_\mathrm{knee}\ (\approx 1\text{ PeV})\\ 3.0 & E_\mathrm{knee}\text{<}E\text{<}E_\mathrm{ankle}\ (\approx 3\text{ EeV})\\ 2.6 & E_\mathrm{ankle}\text{<}E\text{<}E_\mathrm{GZK}\ (\approx 30\text{ EeV})\end{cases}$$
 积分通量 $I(>E) = \int_E^\infty J(E')\,dE' = \frac{J_0\,E_0^{s}}{s-1}\left(\frac{E_0}{E}\right)^{s-1}$（$s>1$）。
 
 **Auger 曝光量**：$L = A_\mathrm{eff}\,\Omega\,T$，其中 $A_\mathrm{eff}\approx 3000\text{ km}^2$，$\Omega = 2\pi\text{ sr}$（南半天球），$T$ 为运行时间；单位 Linsley（1 L = 1 km²·sr·yr）。

@@ -82,7 +82,7 @@ $$[\mathrm{Pb/Fe}] \geq +2.0 \;\wedge\; [\mathrm{hs/ls}] \geq +1.5$$
 
 **[FACT] 单线双星光谱的径向速度变化限**（本文 §5.5 实证）：
 
-$$\Delta v_{\r} \gtrsim 5\,\mathrm{km/s},\quad P_{\r} \sim 10^{2-3}\,\mathrm{day}$$
+$$\Delta v_{r} \gtrsim 5\,\mathrm{km/s},\quad P_{r} \sim 10^{2-3}\,\mathrm{day}$$
 
 Lucatello et al. (2005) 在 60% 的 CEMP-s/r 星中检测到此量级 $\Delta v_r$，排除"非双星"假设。配合 Preston & Sneden (2000) 的 BMP 2/3 双星比例——本文 §5.5 的"几乎全部为双星"结论的实证基础（原文§5，p.259-260）。
 

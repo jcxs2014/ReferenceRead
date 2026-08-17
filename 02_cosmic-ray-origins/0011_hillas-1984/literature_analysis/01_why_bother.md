@@ -24,13 +24,13 @@ $$r_L = \frac{pc}{ZeB} \approx 1.08 \times 10^{15} \frac{E_{15}}{Z B_\mu} \; \rm
 
 其中 $E_{15}$ 以 $10^{15}$ eV 为单位，$B_\mu$ 以 $\mu$G 为单位。有效加速要求加速区尺度 $L \gtrsim r_L$。
 
-对**统计加速**（粒子在磁场中多次穿越加速区），有效尺度须放大 $\sim 1/\beta$（$eta c$ 为加速相关特征速度），得到 Hillas 判据：
+对**统计加速**（粒子在磁场中多次穿越加速区），有效尺度须放大 $\sim 1/\beta$（$\beta c$ 为加速相关特征速度），得到 Hillas 判据：
 
 $$B_\mu \cdot L_{\rm pc} > 2 \frac{E_{15}}{Z \beta}$$
 
 对**直接电磁感生加速**（如旋转磁化导体产生的 emf $\mathcal{E} \sim LvB/c$），类似条件：$L_{\rm pc} B_\mu \gtrsim E_{15}/(Z \beta)$。
 
-**量级**：对 $E = 10^{20}$ eV 的质子（$Z=1$，$eta \sim 1$），要求 $BL \gtrsim 2 \times 10^5 \; \mu$G·pc $= 2 \times 10^{15}$ V。
+**量级**：对 $E = 10^{20}$ eV 的质子（$Z=1$，$\beta \sim 1$），要求 $BL \gtrsim 2 \times 10^5 \; \mu$G·pc $= 2 \times 10^{15}$ V。
 
 ## 1.4 关键参数
 

@@ -56,7 +56,7 @@ path: 03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/04_experime
 
 ### Breit-Wigner 单能级共振
 
-$$\sigma_{n,\gamma}(E) = \pi \lambdabar^2 \sum_J \frac{(2J+1)}{(2I+1)(2i+1)} \frac{\Gamma_n \Gamma_\gamma}{(E-E_R)^2 + (\Gamma/2)^2}$$
+$$\sigma_{n,\gamma}(E) = \pi \bar{\lambda}^2 \sum_J \frac{(2J+1)}{(2I+1)(2i+1)} \frac{\Gamma_n \Gamma_\gamma}{(E-E_R)^2 + (\Gamma/2)^2}$$
 
 ### $\beta$-decay rate
 

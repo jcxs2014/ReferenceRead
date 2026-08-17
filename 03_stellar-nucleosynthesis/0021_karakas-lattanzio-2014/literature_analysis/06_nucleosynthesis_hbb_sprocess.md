@@ -30,8 +30,8 @@
 
 | 中子源 | 反应 | 主导星 |
 |-------|------|------|
-| ¹³C(α,n)¹⁶O | $^{13}$C + α → $^{16}$O + n | 低质量 AGB（M ≲ 3M⊙, log T ≈ 8–8.7） |
-| ²²Ne(α,n)²⁵Mg | $^{22}$Ne + α → $^{25}$Mg + n | 中质量 AGB（M ≳ 4M⊙, log T ≈ 8.8–9.0） |
+| ¹³C(α,n)¹⁶O | ${}^{13}$C + α → ${}^{16}$O + n | 低质量 AGB（M ≲ 3M⊙, log T ≈ 8–8.7） |
+| ²²Ne(α,n)²⁵Mg | ${}^{22}$Ne + α → ${}^{25}$Mg + n | 中质量 AGB（M ≳ 4M⊙, log T ≈ 8.8–9.0） |
 
 [FACT] ¹³C 中子源由 Busso et al. (1999, 03/0022) 详细建模——本文主要引用来源。
 
@@ -70,20 +70,20 @@
 
 ## 6.3 HBB + s-过程反应公式（LaTeX）
 
-[FACT] **CN 循环净反应**（HBB 把 TDU 送来的 $^{12}$C 转为 $^{14}$N）：原文 p.40
-$$ ^{12}\mathrm{C}(p,\gamma)^{13}\mathrm{N}(\beta^+)^{13}\mathrm{C}(p,\gamma)^{14}\mathrm{N} \;\Longrightarrow\; ^{12}\mathrm{C} \;\to\; ^{14}\mathrm{N} $$
+[FACT] **CN 循环净反应**（HBB 把 TDU 送来的 ${}^{12}$C 转为 ${}^{14}$N）：原文 p.40
+$$ {}^{12}\mathrm{C}(p,\gamma){}^{13}\mathrm{N}(\beta^+){}^{13}\mathrm{C}(p,\gamma){}^{14}\mathrm{N} \;\Longrightarrow\; {}^{12}\mathrm{C} \;\to\; {}^{14}\mathrm{N} $$
 
 [FACT] **Ne-Na 链**（HBB 表面 ²²Ne、²³Na 增丰源）：原文 p.41
-$$ ^{20}\mathrm{Ne}(p,\gamma)^{21}\mathrm{Na}(\beta^+)^{21}\mathrm{Ne}(p,\gamma)^{22}\mathrm{Na}(\beta^+)^{22}\mathrm{Mg}(p,\gamma)^{23}\mathrm{Al}(\beta^+)^{23}\mathrm{Mg} $$
+$$ {}^{20}\mathrm{Ne}(p,\gamma){}^{21}\mathrm{Na}(\beta^+){}^{21}\mathrm{Ne}(p,\gamma){}^{22}\mathrm{Na}(\beta^+){}^{22}\mathrm{Mg}(p,\gamma){}^{23}\mathrm{Al}(\beta^+){}^{23}\mathrm{Mg} $$
 
 [FACT] **Mg-Al 链**：原文 p.41
-$$ ^{25}\mathrm{Mg}(p,\gamma)^{26}\mathrm{Al}(\beta^+)^{26}\mathrm{Mg}(p,\gamma)^{27}\mathrm{Al} $$
+$$ {}^{25}\mathrm{Mg}(p,\gamma){}^{26}\mathrm{Al}(\beta^+){}^{26}\mathrm{Mg}(p,\gamma){}^{27}\mathrm{Al} $$
 
 [FACT] **HBB 底部温度判据**：原文 p.41
 $$ T_{\rm HBB} \;\approx\; 3\times 10^{7}\,\mathrm{K} \quad (\text{Ne-Na、Mg-Al 链激活阈值}) $$
 
-[FACT] **⁷Li 生成（间接）**：$^{7}$Be 被对流带到冷包络 β 衰变：原文 p.41
-$$ ^{7}\mathrm{Be}(p,\gamma)^{11}\mathrm{B}(\beta^+) \;\longrightarrow\; \text{对流} \;\longrightarrow\; ^{7}\mathrm{Be}(\beta^-)\,^{7}\mathrm{Li} $$
+[FACT] **⁷Li 生成（间接）**：${}^{7}$Be 被对流带到冷包络 β 衰变：原文 p.41
+$$ {}^{7}\mathrm{Be}(p,\gamma){}^{11}\mathrm{B}(\beta^+) \;\longrightarrow\; \text{对流} \;\longrightarrow\; {}^{7}\mathrm{Be}(\beta^-)\,{}^{7}\mathrm{Li} $$
 
 [FACT] **s-过程中子密度判据**：原文 p.43
 $$ N_n \;\lesssim\; 10^{8}\,\mathrm{n/cm}^{3} \qquad \text{(slow, 慢于 β 衰变时标)} $$
@@ -92,13 +92,13 @@ $$ N_n \;\lesssim\; 10^{8}\,\mathrm{n/cm}^{3} \qquad \text{(slow, 慢于 β 衰�
 $$ N_n \;\gtrsim\; 10^{20}\,\mathrm{n/cm}^{3} \qquad \text{(fast, 快于 β 衰变)} $$
 
 [FACT] **¹³C 中子源**（低质量 AGB，log T ≈ 8–8.7）：原文 p.44
-$$ ^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}, \qquad Q = +2.215\,\mathrm{MeV}, \qquad \log T \simeq 8\text{--}8.7 $$
+$$ {}^{13}\mathrm{C}(\alpha,n){}^{16}\mathrm{O}, \qquad Q = +2.215\,\mathrm{MeV}, \qquad \log T \simeq 8\text{--}8.7 $$
 
 [FACT] **²²Ne 中子源**（中质量 AGB，log T ≈ 8.8–9.0）：原文 p.44
-$$ ^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}, \qquad Q = -0.049\,\mathrm{MeV}, \qquad \log T \simeq 8.8\text{--}9.0 $$
+$$ {}^{22}\mathrm{Ne}(\alpha,n){}^{25}\mathrm{Mg}, \qquad Q = -0.049\,\mathrm{MeV}, \qquad \log T \simeq 8.8\text{--}9.0 $$
 
 [FACT] **¹³C 袋丰度**（interpulse 期缓慢燃烧为中子源）：原文 p.44
-$$ X(^{13}\mathrm{C})_{\rm pocket} \;\approx\; 0.01\text{--}0.05 \qquad (\text{质量分数}) $$
+$$ X({}^{13}\mathrm{C})_{\rm pocket} \;\approx\; 0.01\text{--}0.05 \qquad (\text{质量分数}) $$
 
 [FACT] **s-过程流沿稳定谷（β 平衡）**：原文 p.45
 $$ \lambda_\gamma\,N_{\rm stable}(A) \;=\; \sigma_A\,\phi_n\,N(A) \qquad (\sigma_A\,\phi_n = \text{neutron exposure}\,\tau) $$

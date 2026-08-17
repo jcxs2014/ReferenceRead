@@ -45,18 +45,18 @@ $$ T_{\rm engulfed} \;>\; 10^{8}\,\mathrm{K}, \qquad \Delta M_{\rm H-ingested} \
 $$ \frac{^{14}\mathrm{N}}{^{12}\mathrm{C}}\bigg|_{\mathrm{post\text{-}PIE}} \;\gg\; \frac{^{14}\mathrm{N}}{^{12}\mathrm{C}}\bigg|_{\mathrm{pre\text{-}PIE}} $$
 
 [FACT] **PIE 中 ²⁶Al 生成**：原文 p.55
-$$ ^{25}\mathrm{Mg}(p,\gamma)^{26}\mathrm{Al}(\beta^+)\,^{26}\mathrm{Mg} $$
+$$ {}^{25}\mathrm{Mg}(p,\gamma){}^{26}\mathrm{Al}(\beta^+)\,{}^{26}\mathrm{Mg} $$
 
 [FACT] **Super-AGB 最终核心质量**（决定命运分界）：原文 p.60
 $$ M_{\rm core}^{\rm final} \;<\; M_{\rm Chandrasekhar} \;\approx\; 1.38\,M_\odot \quad \Longrightarrow \quad \text{ONe WD} $$
 $$ M_{\rm core}^{\rm final} \;\gtrsim\; M_{\rm Chandrasekhar} \quad \Longrightarrow \quad e^-\text{-capture SN} \to \mathrm{NS} $$
 
 [FACT] **e- capture 触发条件**（ONe 核致密化）：原文 p.60
-$$ ^{24}\mathrm{Mg} + e^- \;\to\; ^{24}\mathrm{Na} + \nu_e \quad (\rho \gtrsim 4\times 10^9\,\mathrm{g\,cm^{-3}}) $$
-$$ ^{20}\mathrm{Ne} + e^- \;\to\; ^{20}\mathrm{F} + \nu_e \quad (\rho \gtrsim 2\times 10^{10}\,\mathrm{g\,cm^{-3}}) $$
+$$ {}^{24}\mathrm{Mg} + e^- \;\to\; {}^{24}\mathrm{Na} + \nu_e \quad (\rho \gtrsim 4\times 10^9\,\mathrm{g\,cm^{-3}}) $$
+$$ {}^{20}\mathrm{Ne} + e^- \;\to\; {}^{20}\mathrm{F} + \nu_e \quad (\rho \gtrsim 2\times 10^{10}\,\mathrm{g\,cm^{-3}}) $$
 
 [FACT] **Super-AGB ²²Ne 累积产额**：原文 p.60
-$$ X(^{22}\mathrm{Ne})_{\rm yield} \;\approx\; 10^{-3} \;\text{至}\; 10^{-2} \qquad (M \simeq 8\text{--}10\,M_\odot) $$
+$$ X({}^{22}\mathrm{Ne})_{\rm yield} \;\approx\; 10^{-3} \;\text{至}\; 10^{-2} \qquad (M \simeq 8\text{--}10\,M_\odot) $$
 
 ## 7.4 PIES / Super-AGB 关键公式补充
 
@@ -74,7 +74,7 @@ $M_{\rm Ch}$ 是 ONe 核的临界质量。本文 §7.3 据此判定 Super-AGB �
 
 **[FACT] Super-AGB 末期产额的金属度相关性**（本文 §7.4 Fig. 19）：
 
-$$\log Y_{i}(Z) = a_i + b_i \log Z + c_i (\log Z)^2$$
+$$\log Y_{i}(Z) = a_i + b_i \log Z + c_i (\log Z){}^2$$
 
 经验多项式拟合，本文 §7.4 给出的 ⁷Li、²²Ne、²⁵Mg、²⁶Al 等核素产额随 $Z$ 从 $10^{-4}$ 到 $0.02$ 的演化曲线即此关系。
 

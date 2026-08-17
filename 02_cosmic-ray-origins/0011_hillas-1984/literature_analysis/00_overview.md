@@ -57,7 +57,7 @@ path: 02_cosmic-ray-origins/0011_hillas-1984/literature_analysis/00_overview.md
 ### Hillas 判据推导
 粒子在加速区被磁场约束，gyroradius $r_g = E/(ZeB)$。有效加速要求 $r_g \lesssim L$，即：
 $$BL \gtrsim 
-rac{E}{Ze} pprox 10^{15} \,	ext{V}$$
+rac{E}{Ze} \approx 10^{15} \,	ext{V}$$
 其中 $E$ 以 EeV 为单位，$B$ 以 μG 为单位，$L$ 以 pc 为单位。
 
 ### 已知加速源评估

@@ -54,7 +54,7 @@ sections:
 [FACT] 但计算能力提升本身不够——输入物理必须完善：
 
 **关键物理缺失清单（1957 年 vs 1997 年）**：
-- **12C** 第二激发态 $\gamma$ 宽度：B2FH 时代不确定至少一个数量级（Hoyle 1954 预言的 7.65 MeV 态对 3$lpha$ 过程至关重要）
+- **12C** 第二激发态 $\gamma$ 宽度：B2FH 时代不确定至少一个数量级（Hoyle 1954 预言的 7.65 MeV 态对 3$\alpha$ 过程至关重要）
 - **强中微子损失**：中间质量恒星晚期演化中的中微子损失对初始质量—最终白矮星质量的映射至关重要。弱相互作用现代表述（Feynman-Gell-Mann 1958）在 B2FH 之后才建立；全计算至 1960s 末（Beaudet, Petrosian, Salpeter 1967; Festa & Ruderman 1969）
 - **中性流中微子贡献**（~15–30%）：1967/1968 电弱统一理论（Weinberg/Salam）之后才引入，但 Dicus 1972 才开始计算
 - **Rosseland 平均不透明度**：1955 年 Keller & Meyerott 只有 H+He 连续不透明度；Cox 1965 首次系统引入线跃迁；Iglesias, Rogers & Wilson 1990; Seaton 1994; Rogers & Iglesias 1992 之后才覆盖内部广泛条件的精确不透明度
@@ -97,7 +97,7 @@ u$ 冷却的 CO 核 (1–9 $M_\odot$) 或 ONe 核 (9–11 $M_\odot$) + 交替 H/
 [FACT] **白矮星形成率**：~0.5–1 yr^(-1)，通过比较观测的 WD 数-光度分布与冷却模型得到；与 1–11 $M_\odot$ 恒星的形成率一致
 
 [FACT] **质量损失 (Mass loss)**：
-- Deutsch (1956) 观测到 $lpha$ Her（M 超巨星）高质量损失率
+- Deutsch (1956) 观测到 $\alpha$ Her（M 超巨星）高质量损失率
 - Hoyle (1956) 推测质量损失对巨/超巨星演化影响可能超过核过程
 - Paczynski (1971a) 与 Härm & Schwarzschild (1975) 首次定量计算 AGB 质量损失
 
@@ -166,16 +166,16 @@ u$ 冷却的 CO 核 (1–9 $M_\odot$) 或 ONe 核 (9–11 $M_\odot$) + 交替 H/
 
 [FACT] **闪前的 He 层**：14N 丰度 = 原始 CNO 元素丰度
 
-[FACT] **闪初期**：14N 完全通过 14N($lpha$,$\gamma$)18F($eta$+,n)18O($lpha$,$\gamma$)22Ne 转化为 22Ne
+[FACT] **闪初期**：14N 完全通过 14N($\alpha$,$\gamma$)18F($\beta$+,n)18O($\alpha$,$\gamma$)22Ne 转化为 22Ne
 
 [FACT] **两个 s 过程中子源**：
 
 | 中子源 | 触发条件 | 适用模型 | 关键数值 |
 |---|---|---|---|
-| **22Ne($lpha$,n)25Mg** | 对流区底部温度 > 3.5×10^8 K | CO 核质量 ≥ 0.9 $M_\odot$ 的 AGB 星 | s 过程同位素丰度比太阳大几百倍 |
-| **13C($lpha$,n)16O** | 13C 口袋 (pocket) 形成后，~1.5×10^8 K | CO 核质量 < 0.9 $M_\odot$ 的 AGB 星 | 主要 s 过程中子源 |
+| **22Ne($\alpha$,n)25Mg** | 对流区底部温度 > 3.5×10^8 K | CO 核质量 ≥ 0.9 $M_\odot$ 的 AGB 星 | s 过程同位素丰度比太阳大几百倍 |
+| **13C($\alpha$,n)16O** | 13C 口袋 (pocket) 形成后，~1.5×10^8 K | CO 核质量 < 0.9 $M_\odot$ 的 AGB 星 | 主要 s 过程中子源 |
 
-[FACT] **B2FH 的历史性误差**：B2FH 猜测 21Ne($lpha$,n)24Mg 可能是恒星中子源，**但完全没有考虑 22Ne($lpha$,n)25Mg**（Cameron 1961 之后才被认识）
+[FACT] **B2FH 的历史性误差**：B2FH 猜测 21Ne($\alpha$,n)24Mg 可能是恒星中子源，**但完全没有考虑 22Ne($\alpha$,n)25Mg**（Cameron 1961 之后才被认识）
 
 [FACT] **13C 口袋 (pocket) 的起源**（至今未完全解决的开放问题）：
 1. Schwarzschild & Härm (1967)：对流壳层触及 H-He 不连续面 → 摄取 H → 与 12C 反应生成 13C → 内扩散至 ~1.5×10^8 K 产生中子。但含辐射压的计算未重现摄取。
@@ -192,7 +192,7 @@ u$ 冷却的 CO 核 (1–9 $M_\odot$) 或 ONe 核 (9–11 $M_\odot$) + 交替 H/
 - He 壳层闪 + 第三次挖掘 → 碳星（C > O 的恒星）
 - 产生 s 过程同位素的超丰
 - AGB 挖掘物质经历**仅部分 He 燃烧**，12C 质量丰度仅 ~0.15–0.25
-- 这意味着 **12C($lpha$,$\gamma$)16O / 3$lpha$ 比率的不确定性对挖掘物质中 C 丰度的影响远小于对 C/O 比的影响**（重要结论）
+- 这意味着 **12C($\alpha$,$\gamma$)16O / 3$\alpha$ 比率的不确定性对挖掘物质中 C 丰度的影响远小于对 C/O 比的影响**（重要结论）
 
 [FACT] **3He 与 7Li 在中等质量星中的产生**：
 - 3He 在主序星中心区域产生（Iben 1967b），比太阳低质量端（1–2 $M_\odot$）的 AGB 星保存并释放至 ISM——与类星体星云中高的 3He/H 比一致（Balsar et al. 1997）
@@ -265,12 +265,12 @@ u$)7Li 破坏 → Li 超丰（Cameron 1955; Cameron & Fowler 1971）
 [FACT] 大质量星内部演化（13 $M_\odot$ 以上）：
 - 依次安静燃烧：C → Ne → O → Si
 - 最终形成铁峰同位素（统计平衡态）的核心
-- Fe-Ni 核收缩加热 → 部分光致分解为 $lpha$ 粒子和中子
+- Fe-Ni 核收缩加热 → 部分光致分解为 $\alpha$ 粒子和中子
 - 核心塌缩至核物质密度 → **SN II 爆炸**
 
 [FACT] **SN 1987A 的关键证据**：
 - 初始质量 ~20 $M_\odot$ 的星爆炸时，**~0.1 $M_\odot$ 的 56Fe 被抛射至 ISM**（Arnett et al. 1989 光变曲线分析）
-- 56Ni → $eta$ 衰变 → 56Co → $eta$ 衰变 → 56Fe
+- 56Ni → $\beta$ 衰变 → 56Co → $\beta$ 衰变 → 56Fe
 - 激发态核能级退激产生的 $\gamma$ 射线帮助供能光变曲线
 - [FACT] 这证明 **SN II 是宇宙中铁的强来源**
 
@@ -298,21 +298,21 @@ u$)7Li 破坏 → Li 超丰（Cameron 1955; Cameron & Fowler 1971）
 2. **共同包层 (Common Envelope, CE)**：供星质量 >> 吸星质量或供星有深对流包层时，吸星无法调节结构 → 物质填满吸星 Roche 瓣 → CE 形成 → "鸡蛋搅拌器" 摩擦耗散 → CE 物质被驱散 → 轨道收缩
 3. **角动量损失**：引力波辐射 (GWR) 或磁星风 (MSW)
 
-[FACT] **CE 效率参数**：$lpha_{
+[FACT] **CE 效率参数**：$\alpha_{
 m CE}$ = $\Delta$E_remove / $\Delta$E_bind
 - 越小 → 轨道收缩越大
 - 近几十年有争议（Iben & Livio 1993）
-- 3D 光滑粒子流体动力学计算建议 $lpha_{
+- 3D 光滑粒子流体动力学计算建议 $\alpha_{
 m CE}$ ≈ 1（Rasio & Livio 1996; Yorke et al. 1995）
 
 [FACT] 银河系盘星出生函数（Iben & Tutukov 1984）：
-$$rac{d^3 n}{d \log A_0 \, dM_{10} \, dq_0} \sim 0.2 \, M_{10}^{-2.5} \, 	ext{yr}^{-1}$$
+$$\frac{d^3 n}{d \log A_0 \, dM_{10} \, dq_0} \sim 0.2 \, M_{10}^{-2.5} \, 	ext{yr}^{-1}$$
 - 积分 $A_{0}$ = 10^−1–10^6, $M_{10}$ = 0.8–100, $q_{0}$ = 0–1 → n ≈ 1 yr^(−1）（银河系主序逃逸率）
 
 [FACT] 轨道角动量守恒方程（保守转移）：
-$$J_{orb} = M_{1f} M_{2f} \left(rac{G A_f}{M_t}
-ight)^{1/2} = M_{10} M_{20} \left(rac{G A_0}{M_t}
-ight)^{1/2}$$
+$$J_{orb} = M_{1f} M_{2f} \left(\frac{G A_f}{M_t}
+\right)^{1/2} = M_{10} M_{20} \left(\frac{G A_0}{M_t}
+\right)^{1/2}$$
 
 ### 2.4.2 2. Scenario modeling
 
@@ -334,8 +334,8 @@ ight)^{1/2}$$
 - 核能释放解除电子简并 → 包层膨胀至巨星尺度
 
 [FACT] **L_max 与 M_WD 的关系**（Iben & Tutukov 1989）：
-$$rac{L_{max}}{L_\odot} = 46{,}000 \left(rac{M_{WD}}{M_\odot}
-ight)^{0.26}$$
+$$\frac{L_{max}}{L_\odot} = 46{,}000 \left(\frac{M_{WD}}{M_\odot}
+\right)^{0.26}$$
 - Paczynski-Uus 关系（用于 PN 中心星）：L_max/L☉ = 59,000 (M_WD/$M_\odot$)^0.52
 - 差异源于新星底层 WD 更冷、半径更小
 
@@ -373,8 +373,8 @@ ight)^{0.26}$$
 > **X 射线双星与脉冲星**
 
 [FACT] **LMXB** = NS 或 BH + 低质量主序/亚巨星供星：
-- 理论出生率：~2×10^(−5) yr^(−1)（$lpha_{
-m CE}$=1）至 ~2×10^(−6) yr^(−1)（$lpha_{
+- 理论出生率：~2×10^(−5) yr^(−1)（$\alpha_{
+m CE}$=1）至 ~2×10^(−6) yr^(−1)（$\alpha_{
 m CE}$=0.5）
 - NS 吸积 ~0.01 $M_\odot$ → 自转周期降至毫秒范围 (<10^3×10^(-3) s) → 毫秒脉冲星 (MSP)
 - 主序供星 → MSP + 供星被摧毁
@@ -425,7 +425,7 @@ m CE}$=0.5）
 | 触发超风的脉动周期 | > 400 d |
 | WD 形成率 | ~0.5–1 yr^(−1) |
 | WD 质量分布峰值 | 0.55–0.65 $M_\odot$ |
-| 12C($lpha$,$\gamma$)16O 速率确定性 | B2FH 后 40 年仍未确定 |
+| 12C($\alpha$,$\gamma$)16O 速率确定性 | B2FH 后 40 年仍未确定 |
 | CO 核质量 s 过程中子源阈值 | ≥ 0.9 $M_\odot$（22Ne 源） |
 | 22Ne 源触发温度 | > 3.5×10^8 K |
 | 13C 源触发温度 | ~ 1.5×10^8 K |

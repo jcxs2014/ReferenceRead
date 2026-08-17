@@ -49,28 +49,28 @@
 ## 5.3 热脉冲核合成方程（LaTeX）
 
 [FACT] **三重 α 反应速率**（$\varepsilon_{3\alpha}$ 的 $T$ 依赖极强，$\propto T^{40}$ 量级；决定壳闪的 thermonuclear instability）：原文 p.34
-$$ 3\,^4\mathrm{He} \;\xrightarrow{3\alpha}\; ^{12}\mathrm{C} \;+\; \gamma, \qquad \varepsilon_{3\alpha} \propto \rho^{2}\,Y^{3}\,T^{40} $$
+$$ 3\,{}^4\mathrm{He} \;\xrightarrow{3\alpha}\; {}^{12}\mathrm{C} \;+\; \gamma, \qquad \varepsilon_{3\alpha} \propto \rho^{2}\,Y^{3}\,T^{40} $$
 
 [FACT] **He intershell 壳闪后组成**（质量分数）：原文 p.34
-$$ X(^{4}\mathrm{He}) \simeq 0.70\text{--}0.75, \qquad X(^{12}\mathrm{C}) \simeq 0.20\text{--}0.25, \qquad X(^{16}\mathrm{O}) \simeq \mathrm{few}\,\% $$
+$$ X({}^{4}\mathrm{He}) \simeq 0.70\text{--}0.75, \qquad X({}^{12}\mathrm{C}) \simeq 0.20\text{--}0.25, \qquad X({}^{16}\mathrm{O}) \simeq \mathrm{few}\,\% $$
 
-[FACT] **壳闪核合成产物比例**（$^{12}$C/$^{16}$O 取决于 $\lambda_{^{12}\mathrm{C}(\alpha,\gamma)^{16}\mathrm{O}}$）：原文 p.34
-$$ \frac{dX(^{16}\mathrm{O})}{dt} \;=\; \lambda_{^{12}\mathrm{C}(\alpha,\gamma)^{16}\mathrm{O}}\,n(^{12}\mathrm{C})\,n_\alpha $$
+[FACT] **壳闪核合成产物比例**（${}^{12}$C/${}^{16}$O 取决于 $\lambda_{^{12}\mathrm{C}(\alpha,\gamma){}^{16}\mathrm{O}}$）：原文 p.34
+$$ \frac{dX({}^{16}\mathrm{O})}{dt} \;=\; \lambda_{^{12}\mathrm{C}(\alpha,\gamma){}^{16}\mathrm{O}}\,n({}^{12}\mathrm{C})\,n_\alpha $$
 
-[FACT] **$^{14}$N/$^{15}$N 上升**（3M$\odot$ tip-AGB $\approx 2500$；CNO 平衡）：原文 p.36
+[FACT] **${}^{14}$N/${}^{15}$N 上升**（3M$\odot$ tip-AGB $\approx 2500$；CNO 平衡）：原文 p.36
 $$ \frac{^{14}\mathrm{N}}{^{15}\mathrm{N}}\bigg|_{\mathrm{tip\,AGB}} \;\approx\; 2500 \quad (M=3M_\odot,\; Z=0.02) $$
 
-[FACT] **²²Ne 生成链**（由 $^{14}$N 累积）：原文 p.35
-$$ ^{14}\mathrm{N}(\alpha,\gamma)^{18}\mathrm{F}(\beta^+)^{18}\mathrm{O}(\alpha,\gamma)^{22}\mathrm{Ne} $$
+[FACT] **²²Ne 生成链**（由 ${}^{14}$N 累积）：原文 p.35
+$$ {}^{14}\mathrm{N}(\alpha,\gamma){}^{18}\mathrm{F}(\beta^+){}^{18}\mathrm{O}(\alpha,\gamma){}^{22}\mathrm{Ne} $$
 
 [FACT] **²²Ne 相对丰度变化**：原文 p.35
 $$ \frac{^{22}\mathrm{Ne}}{\mathrm{Ne}}\bigg|_{\mathrm{tip}} \;\approx\; 0.4 \qquad (\text{initial } 0.068,\; M=3M_\odot) $$
 
 [FACT] **¹⁹F 生成链**：原文 p.35
-$$ ^{14}\mathrm{N}(\alpha,n)^{17}\mathrm{F}(\beta^+)^{17}\mathrm{O}(\alpha,\gamma)^{21}\mathrm{Ne}(\alpha,\gamma)^{25}\mathrm{Mg}(\alpha,\gamma)^{29}\mathrm{Si}(\alpha,\gamma)^{33}\mathrm{S}\to\cdots\to\,^{19}\mathrm{F} $$
+$$ {}^{14}\mathrm{N}(\alpha,n){}^{17}\mathrm{F}(\beta^+){}^{17}\mathrm{O}(\alpha,\gamma){}^{21}\mathrm{Ne}(\alpha,\gamma){}^{25}\mathrm{Mg}(\alpha,\gamma){}^{29}\mathrm{Si}(\alpha,\gamma){}^{33}\mathrm{S}\to\cdots\to\,{}^{19}\mathrm{F} $$
 
 [FACT] **¹²C/¹³C 时间演化**：原文 p.35
-$$ \frac{d}{dt}\!\left(\frac{^{12}\mathrm{C}}{^{13}\mathrm{C}}\right) \;=\; \frac{1}{^{13}\mathrm{C}}\frac{d\,^{12}\mathrm{C}}{dt} - \frac{^{12}\mathrm{C}}{^{13}\mathrm{C}^{2}}\frac{d\,^{13}\mathrm{C}}{dt} $$
+$$ \frac{d}{dt}\!\left(\frac{^{12}\mathrm{C}}{^{13}\mathrm{C}}\right) \;=\; \frac{1}{^{13}\mathrm{C}}\frac{d\,{}^{12}\mathrm{C}}{dt} - \frac{^{12}\mathrm{C}}{^{13}\mathrm{C}^{2}}\frac{d\,{}^{13}\mathrm{C}}{dt} $$
 
 [FACT] **He 壳厚度随核质量减小**（决定壳闪幅度）：原文 p.34
 $$ \Delta M_{\rm shell} \;\propto\; \frac{1}{M_c^{3/2}} \quad \Longrightarrow \quad \text{更大 }\Delta M_{\rm shell}\text{ 导致更弱壳闪} $$

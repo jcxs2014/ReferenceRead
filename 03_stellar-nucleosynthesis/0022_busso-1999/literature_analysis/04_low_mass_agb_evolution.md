@@ -69,11 +69,11 @@ sections:
 
 [FORMULAS] 13C pocket 与中子源方程：
 
-- **13C 生成链**：$^{12}{\rm C}(p,\gamma)^{13}{\rm N}(\beta^+\nu)e^{+}^{13}{\rm C}(p,\gamma)^{14}{\rm N}$；在 $T\sim(0.8\text{-}0.9)\times10^8$ K 时全部 H 被烧光，残留 13C（原文 p.260）。
+- **13C 生成链**：$^{12}{\rm C}(p,\gamma)^{13}{\rm N}(\beta^+\nu)e^{+}\,{}^{13}{\rm C}(p,\gamma)^{14}{\rm N}$；在 $T\sim(0.8\text{-}0.9)\times10^8$ K 时全部 H 被烧光，残留 13C（原文 p.260）。
 - **13C pocket 质量（ST）**：$M(^{13}{\rm C})\approx 3\times 10^{-6}\,M_{\odot}/{\rm pulse}$（Gallino et al 1998；原文 p.265）。
 - **H 注入上界**：$X_{\rm H}\le 0.0015$，即 $N_{\rm H}/N_{^{12}{\rm C}}<0.1$（原文 p.265）。
 - **13C 燃烧中子源反应**：$^{13}{\rm C}(\alpha,n)^{16}{\rm O}$，$Q=2.21\ {\rm MeV}$；$T\sim 0.9\times10^8$ K（原文 p.255）。
-- **22Ne 生成链**：$^{14}{\rm N}(\alpha,\gamma)^{18}{\rm F}(\beta^+\nu)e^{+}^{18}{\rm O}(\alpha,\gamma)^{22}{\rm Ne}$（原文 p.260）。
+- **22Ne 生成链**：$^{14}{\rm N}(\alpha,\gamma)^{18}{\rm F}(\beta^+\nu)e^{+}\,{}^{18}{\rm O}(\alpha,\gamma)^{22}{\rm Ne}$（原文 p.260）。
 - **22Ne 中子源反应**：$^{22}{\rm Ne}(\alpha,n)^{25}{\rm Mg}$，$Q=4.71\ {\rm MeV}$；$T\gtrsim 3\times10^8$ K（原文 p.255）。
 - **13C 燃烧中子密度**：$N_n\lesssim 10^7\ {\rm cm^{-3}}$（原文 p.255）。
 - **22Ne 燃烧中子密度**：$N_n\sim 5\times10^{10}\ {\rm cm^{-3}}$（原文 p.265）。

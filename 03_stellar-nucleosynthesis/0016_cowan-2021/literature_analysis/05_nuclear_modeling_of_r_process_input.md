@@ -81,7 +81,7 @@ $$\lambda_\beta = \frac{G_F^2 |V_{ud}|^2 m_e^5 c^4}{2\pi^3 \hbar^7} f(Z,E_0) \la
 
 ### Hauser-Feshbach
 
-$$\sigma_{n,\gamma}(E_n) = \frac{\pi \lambdabar^2}{(2I_a+1)(2I_A+1)} \sum_J (2J+1) \frac{T_n T_\gamma}{T_{total}}$$
+$$\sigma_{n,\gamma}(E_n) = \frac{\pi \bar{\lambda}^2}{(2I_a+1)(2I_A+1)} \sum_J (2J+1) \frac{T_n T_\gamma}{T_{total}}$$
 
 ### 裂变穿透率（WKB）
 

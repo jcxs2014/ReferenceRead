@@ -17,8 +17,8 @@ nav_next: "04_10_13msun_faint.md"
 - [FACT] **前提**：电子简并的 **O-Ne-Mg 核**质量增长到 **1.38 M☉**，且**中心密度**达到 **4 × 10⁹ g cm⁻³**，此时**整个超 AGB 包层尚未被质量损失完全剥离**（因此质量区间**下限依赖于质量损失率**）
 - [FACT] **触发机制**：在该密度下电子费米能**超过电子俘获阈值**，发生级联反应：
 
-$$^{24}\mathrm{Mg}(e^-, \nu_e)^{24}\mathrm{Na}(e^-, \nu_e)^{20}\mathrm{Ne}$$
-$$^{20}\mathrm{Ne}(e^-, \nu_e)^{20}\mathrm{F}(e^-, \nu_e)^{20}\mathrm{O}$$
+$${}^{24}\mathrm{Mg}(e^-, \nu_e){}^{24}\mathrm{Na}(e^-, \nu_e){}^{20}\mathrm{Ne}$$
+$${}^{20}\mathrm{Ne}(e^-, \nu_e){}^{20}\mathrm{F}(e^-, \nu_e){}^{20}\mathrm{O}$$
 
 - [FACT] 结果：**Ye（电子分数）下降 → 触发坍缩**（Nomoto 1987）
 - [FACT] **命名**：由此产生的爆炸称为**电子俘获超新星 (EC-SN)**
@@ -65,17 +65,17 @@ $$
 电子费米能超过电子俘获阈值：
 
 $$
-E_{\mathrm{F}}(e^{-}) \geqslant Q\!\left(^{24}\!\mathrm{Mg} \to ^{24}\!\mathrm{Na}\right)
+E_{\mathrm{F}}(e^{-}) \geqslant Q\!\left({}^{24}\!\mathrm{Mg} \to {}^{24}\!\mathrm{Na}\right)
 $$
 
 ### 3.2 电子俘获级联（§3.1 原文核反应）
 
 $$
-^{24}\!\mathrm{Mg}\,(e^{-},\,\nu_{e})\,^{24}\!\mathrm{Na}\,(e^{-},\,\nu_{e})\,^{20}\!\mathrm{Ne}
+{}^{24}\!\mathrm{Mg}\,(e^{-},\,\nu_{e})\,{}^{24}\!\mathrm{Na}\,(e^{-},\,\nu_{e})\,{}^{20}\!\mathrm{Ne}
 $$
 
 $$
-^{20}\!\mathrm{Ne}\,(e^{-},\,\nu_{e})\,^{20}\!\mathrm{F}\,(e^{-},\,\nu_{e})\,^{20}\!\mathrm{O}
+{}^{20}\!\mathrm{Ne}\,(e^{-},\,\nu_{e})\,{}^{20}\!\mathrm{F}\,(e^{-},\,\nu_{e})\,{}^{20}\!\mathrm{O}
 $$
 
 坍缩触发条件由电子分数下降导致：
@@ -99,11 +99,11 @@ $$
 ### 3.4 ⁵⁶Ni 产量与占比上限（§3.3）
 
 $$
-M(^{56}\!\mathrm{Ni})_{\mathrm{EC-SN}} = 0.002\text{–}0.004\,M_{\odot}
+M({}^{56}\!\mathrm{Ni})_{\mathrm{EC-SN}} = 0.002\text{–}0.004\,M_{\odot}
 $$
 
 $$
-\frac{M(^{56}\!\mathrm{Ni})_{\mathrm{EC-SN}}}{M(^{56}\!\mathrm{Ni})_{\mathrm{normal}}} \approx \frac{0.003}{0.1}=3\times 10^{-2}
+\frac{M({}^{56}\!\mathrm{Ni})_{\mathrm{EC-SN}}}{M({}^{56}\!\mathrm{Ni})_{\mathrm{normal}}} \approx \frac{0.003}{0.1}=3\times 10^{-2}
 $$
 
 O-Ne-Mg 核爆炸占所有核心坍缩 SN 的比例上限：

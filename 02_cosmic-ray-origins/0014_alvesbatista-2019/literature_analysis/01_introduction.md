@@ -57,10 +57,10 @@ tags: [UHECR, introduction, MIAPP, Pierre Auger, Telescope Array]
 本节未引入显式公式，但隐含以下量纲关系：
 
 [FACT] 偶极调制幅度：
-$$d = rac{N_{max} - N_{min}}{N_{max} + N_{min}} = 6.5\%$$
+$$d = \frac{N_{max} - N_{min}}{N_{max} + N_{min}} = 6.5\%$$
 
 [FACT] Auger 与本动（CMB dipole）期望值比较：
-$$rac{d_{obs}}{d_{proper\ motion}} pprox 10$$
+$$\frac{d_{obs}}{d_{proper\ motion}} \approx 10$$
 
 **能量阈值定义**：
 $$E_{
