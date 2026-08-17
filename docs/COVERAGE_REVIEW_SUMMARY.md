@@ -4,6 +4,8 @@
 **审查日期**：2026-08-16  
 **审查人**：opencode agent（自动化信号扫描 + 针对性抽查）
 
+> **快照声明**：本报告的统计数据基于 commit **`4ea5341`**（2026-08-17 00:00 UTC+2）的 `papers` 工作树快照。此后若 `fulltext.txt`、`literature_analysis/` 或 `00_overview.md` 有任何修改，报告内 ratio、行数、等级判定等定量数据可能已过时。审阅者应以 `git log` 最新 commit 为准，必要时重跑 `scripts/check_density.py` 和 `scripts/verify_claim.sh` 校验。
+
 ---
 
 ## 1. 审查方法
