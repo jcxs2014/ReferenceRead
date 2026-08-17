@@ -56,7 +56,7 @@
 
 | 篇目 | 原问题 | 修复状态 |
 |------|--------|----------|
-| `03_stellar-nucleosynthesis/0023_eichler-1989` | fulltext.txt 仅 6 行乱码（pytesseract OCR 失败），PDF 为扫描件 | **已修复**（commit `bcb346c`）：pdftoppm + tesseract 重 OCR，fulltext 536 行；精读覆盖度重新判定为 C 级 |
+| `03_stellar-nucleosynthesis/0023_eichler-1989` | fulltext.txt 仅 6 行乱码（pytesseract OCR 失败），PDF 为扫描件 | **已修复**（commit `bcb346c` + `4ea5341`）：pdftoppm + tesseract 重 OCR，fulltext 468 行（`4ea5341` 清除 OCR 错页混入的 41 行无关内容）；精读覆盖度重新判定为 C 级 |
 
 ### 3.2 00_overview 结构树修复（14→0 篇，已解决）
 

@@ -63,7 +63,7 @@ path: "03_stellar-nucleosynthesis/0022_busso-1999/literature_analysis/00_overvie
 
 AGB 星处在恒星演化的晚期 (1–8 M☉)，拥有极厚对流包层和两层燃烧壳 (H shell + He shell)。热脉冲 (thermal pulse, TP) 周期性地加热 He shell，引发第三挖掘层 (third dredge-up, TDU)，将 He shell 内新合成的 12C 和 s 过程核素混入表面包层。本文整合了 1990 年代中后期在恒星演化模型、核反应数据与高分辨率光谱观测三方面的突破性进展，回答：AGB 星内部到底发生了什么，以及这如何塑造了银河系的化学演化。
 
-## 0.3 章节地图
+## 0.3 论文结构树
 
 | 章 | 页码 | 主题 |
 |---|---|---|
