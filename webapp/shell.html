@@ -720,15 +720,19 @@ function renderTabGroups() {
 }
 
 // ── Build / lazy-load doc sections (E2: only current doc in DOM) ───────────
-const docCache = {};   // slug -> HTML string
+const docCache = {};   // slug -> HTML string（构建时原始内容）
 
-// 2026-08-17 v2 性能优化：已渲染 section 的 DOM 节点缓存（LRU）。
-// 之前每次切换文献都把非当前 section remove() 销毁 → data-processed 守卫丢失，
-// 切回已看过的文献时 KaTeX 必须全量重渲染（大文献数百公式同步渲染阻塞主线程数百毫秒）。
-// 现改为 detach 到本 Map（最多保留 3 个），重开时直接挂回原节点：KaTeX 渲染结果、
-// gloss 包裹、copy-btn 全部保留，applyMath 全命中守卫，切换近乎零成本，DOM 规模仍收敛。
-const sectionCache = new Map();        // slug -> detached <section> element
-const MAX_CACHED_SECTIONS = 3;         // 当前页之外最多保留 3 个已渲染节点
+// 2026-08-17 v3 性能优化：渲染后 HTML 字符串缓存（LRU）。
+// 演进：v2 曾用"节点 detach 缓存"（Map 存 <section> 引用 + s.remove()），实测 12 篇切换后
+// DOM 计数仍涨到 31 万节点——detached 节点同样计入 DOM 计数，GC 不及时就累积
+// （"用久了卡、刷新就好"的根因）。v3 改为：节点移除前把渲染后 innerHTML 序列化为字符串
+// 缓存，节点随即 remove → 无引用可立即 GC，文档树始终只有当前 1 篇。
+// 挂回时 insertAdjacentHTML 反序列化，data-processed 守卫全命中 → 零 KaTeX 重渲染，
+// gloss 包裹同步保留；copy-btn 改用 document 级事件委托（监听器不随 innerHTML 序列化）。
+const sectionCache = {};               // slug -> 渲染后 innerHTML 字符串（含 data-processed/gloss）
+const CACHE_ORDER = [];                // LRU 访问顺序（尾部最新）
+const MAX_CACHED_SECTIONS = 8;         // 最多缓存 8 篇渲染后 html（字符串不持有 DOM 节点，
+                                       // 内存开销 ~2MB/篇可接受；太小则来回切换命中率低、频繁重渲染）
 
 // 术语 hover：把正文中命中 GLOSS 的术语包成 .gloss span（跳过 math/code/pre）
 const GLOSS_INDEX = (() => {
@@ -812,15 +816,31 @@ function buildDocs() {
   DOCS.forEach(d => { if (d.slug !== active.slug && !(d.slug in docCache)) docCache[d.slug] = d.html; });
 }
 
+function touchCache(slug) {
+  // LRU：把 slug 移到最新位；超出上限则淘汰最旧（丢弃字符串，无节点滞留）
+  const i = CACHE_ORDER.indexOf(slug);
+  if (i >= 0) CACHE_ORDER.splice(i, 1);
+  CACHE_ORDER.push(slug);
+  while (CACHE_ORDER.length > MAX_CACHED_SECTIONS) {
+    delete sectionCache[CACHE_ORDER.shift()];
+  }
+}
+
 function ensureDoc(slug) {
   // Ensure slug's section exists in DOM; load from cache or DOCS
   if (document.querySelector(`section[data-slug="${slug}"]`)) return;
   const container = document.getElementById("doc-container");
-  // 命中已渲染节点缓存 → 直接挂回（KaTeX/gloss/copy-btn 全保留，无需重渲染）
-  const cached = sectionCache.get(slug);
-  if (cached) {
-    sectionCache.delete(slug);
-    container.appendChild(cached);
+  // 命中渲染后字符串缓存 → 直接反序列化（data-processed/gloss/copy-btn 全保留，零 KaTeX 重渲染）
+  const rendered = sectionCache[slug];
+  if (rendered) {
+    container.insertAdjacentHTML("beforeend", `<section class="doc-section" data-slug="${slug}">${rendered}</section>`);
+    touchCache(slug);
+    // 首页演化树的事件监听不随 innerHTML 序列化 → 挂回时重建（先清旧容器防重复）
+    if (slug === "知识库首页" && typeof renderEvolutionTree === "function") {
+      const sec = container.querySelector(`section[data-slug="${slug}"]`);
+      const old = sec && sec.querySelector(".evol-box");
+      if (sec) { if (old) old.remove(); renderEvolutionTree(sec); }
+    }
     return;
   }
   const html = docCache[slug] || (() => {
@@ -912,17 +932,16 @@ function switchDoc(slug) {
     a.classList.toggle("active", a.dataset.slug === slug);
   });
 
-  // Show correct section; 非当前 section 进 LRU 缓存（最多保留 3 个已渲染节点），
-  // 超出才真正移除——切回已打开的文献零成本，DOM 规模仍收敛（性能优化 2026-08-17 v2）
+  // Show correct section; 非当前 section 序列化渲染结果进 LRU 字符串缓存后真正移除
+  // （v3 修复：字符串不持有 DOM 节点，节点无引用可立即 GC；文档树始终只有当前 1 篇，
+  //  彻底解决 v2"detached 节点累积到 31 万"的卡顿根因。切回已缓存文献时反序列化 +
+  //  data-processed 守卫命中 → 零 KaTeX 重渲染）
   document.querySelectorAll(".doc-section").forEach(s => {
     if (s.dataset.slug === slug) { s.classList.add("active"); return; }
     const sslug = s.dataset.slug;
-    if (!sectionCache.has(sslug) && sectionCache.size < MAX_CACHED_SECTIONS) {
-      sectionCache.set(sslug, s);
-    } else {
-      s.remove();
-      sectionCache.delete(sslug);
-    }
+    if (!sectionCache[sslug]) sectionCache[sslug] = s.innerHTML;  // 序列化渲染结果
+    touchCache(sslug);                                           // 更新 LRU + 淘汰最旧
+    s.remove();                                                  // 真正移除，交还 GC
   });
 
   renderTOC(slug);
@@ -1302,11 +1321,13 @@ function _buildTocCache(slug) {
   const sec = document.querySelector(`section[data-slug="${slug}"]`);
   if (!sec) return;
   const main = document.getElementById("main");
-  const secTop = sec.getBoundingClientRect().top - main.getBoundingClientRect().top + main.scrollTop;
+  const secRect = sec.getBoundingClientRect();
+  const secTop = secRect.top - main.getBoundingClientRect().top + main.scrollTop;
   _tocCache = { slug, items: [] };
   sec.querySelectorAll("h2,h3,h4").forEach(h => {
     if (!h.id) return;
-    _tocCache.items.push({ id: h.id, top: secTop + (h.getBoundingClientRect().top - sec.getBoundingClientRect().top) });
+    // secRect 提到循环外：避免每个标题都重复读取同元素布局（同步布局开销）
+    _tocCache.items.push({ id: h.id, top: secTop + (h.getBoundingClientRect().top - secRect.top) });
   });
   // 按 top 升序，供二分查找
   _tocCache.items.sort((a, b) => a.top - b.top);
@@ -1384,19 +1405,14 @@ function applyMath() {
       wrap.dataset.processed = "1";
       const inner = wrap.querySelector(".math-inner");
       const src   = inner.textContent;
-      // Add copy button only if not already present (avoids double-add on re-render)
+      // LaTeX 源存 dataset（v3：渲染后 inner.textContent 是 KaTeX 输出文本而非源码；
+      // 且监听器不随 innerHTML 序列化，源必须在可序列化的 data-* 上，点击由 document 级委托处理）
+      wrap.dataset.src = src;
       if (!wrap.querySelector(".copy-btn")) {
         const btn   = document.createElement("button");
         btn.className = "copy-btn";
         btn.textContent = "📋 LaTeX";
         btn.title = "复制 LaTeX 源码";
-        btn.addEventListener("click", (e) => {
-          e.stopPropagation();
-          navigator.clipboard.writeText(src).then(
-            () => { btn.textContent="✓"; btn.classList.add("copied"); setTimeout(()=>{btn.textContent="📋 LaTeX";btn.classList.remove("copied");},1500); },
-            () => { const t=document.createElement("textarea"); t.value=src; document.body.appendChild(t); t.select(); document.execCommand("copy"); document.body.removeChild(t); btn.textContent="✓"; setTimeout(()=>btn.textContent="📋 LaTeX",1500); }
-          );
-        });
         wrap.appendChild(btn);
       }
       try { katex.render(src, inner, {throwOnError:false, displayMode:true}); }
@@ -1404,7 +1420,9 @@ function applyMath() {
     }
 
     if (i < inlines.length || j < blocks.length) {
-      requestAnimationFrame(step);
+      // setTimeout 驱动（v3：headless/后台标签下 rAF 可能被饿死导致分片停滞；
+      // setTimeout(0) 任何环境稳定推进，时间片预算保证每片 ≤10ms 不阻塞主线程）
+      setTimeout(step, 0);
     } else if (token === mathAbortToken && typeof _buildTocCache === "function") {
       // 全部渲染完 → 修正标题位置缓存（公式高度影响标题偏移；首帧 katex 未就绪时
       // switchDoc 里已建过缓存，此处修正为公式渲染后的精确值）
@@ -1413,6 +1431,20 @@ function applyMath() {
   };
   step();
 }
+
+// copy-btn 事件委托（v3：序列化缓存方案下按钮随 innerHTML 反复重建，监听器不序列化，
+// 必须用 document 级委托；LaTeX 源从 wrap.dataset.src 取——渲染后 inner.textContent 是输出文本）
+document.addEventListener("click", e => {
+  const btn = e.target.closest(".copy-btn");
+  if (!btn) return;
+  const wrap = btn.closest(".math.block-wrap");
+  if (!wrap) return;
+  const src = wrap.dataset.src || "";
+  navigator.clipboard.writeText(src).then(
+    () => { btn.textContent="✓"; btn.classList.add("copied"); setTimeout(()=>{btn.textContent="📋 LaTeX";btn.classList.remove("copied");},1500); },
+    () => { const t=document.createElement("textarea"); t.value=src; document.body.appendChild(t); t.select(); document.execCommand("copy"); document.body.removeChild(t); btn.textContent="✓"; setTimeout(()=>btn.textContent="📋 LaTeX",1500); }
+  );
+});
 
 // ── Stats (M7 fix: dynamic from DOCS/PAPERS/TOCS) ─────────────────────────
 function updateStats() {
