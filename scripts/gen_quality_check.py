@@ -23,10 +23,19 @@ def collect_papers():
 
 def count_patterns(text: str) -> dict:
     """Count occurrences of figures, tables, formulas, and CRITIQUE tags."""
+    # 公式统计（2026-08-17 修复）：精读文档用 Markdown 数学 $...$/$$...$$，
+    # 旧正则只匹配 LaTeX 旧式 \[...\]/\(...\)/\tag{} → 恒为 0。
+    # 现三种写法都统计：block $$...$$（可跨行）+ inline $...$（单行，
+    # 排除 $$ 边界，用 (?<!\$) 与 (?!\$) 防误匹配）+ 旧式 \[...\]/\(...\)/\tag{}
+    block_formulas = len(re.findall(r"\$\$[^$]+\$\$", text))
+    inline_formulas = len(re.findall(r"(?<!\$)\$[^$\n]+\$(?!\$)", text))
+    legacy_formulas = len(re.findall(r"\\\[.*?\\\]|\\\(.*?\\\)|\\\tag\{", text, re.DOTALL))
     return {
         "figures": len(re.findall(r"\bFigure\b", text, re.IGNORECASE)),
         "tables": len(re.findall(r"\bTable\b", text, re.IGNORECASE)),
-        "formulas": len(re.findall(r"\\\[.*?\\\]|\\\(.*?\\\)|\\\tag\{", text, re.DOTALL)),
+        "formulas": block_formulas + inline_formulas + legacy_formulas,
+        "block_formulas": block_formulas,
+        "inline_formulas": inline_formulas,
         "critique": len(re.findall(r"\[CRITIQUE\]", text)),
         "interpretation": len(re.findall(r"\[INTERPRETATION\]", text)),
         "fact": len(re.findall(r"\[FACT\]", text)),
