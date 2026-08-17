@@ -389,8 +389,8 @@ N 从初级 $\rightarrow$ 次级 的转折点 = $0.23\ Z_\odot$
 $$\sigma_v^2 = \frac{GM}{2R} \quad \Rightarrow \quad M = \frac{2R\sigma_v^2}{G}$$
 
 **自转曲线**：
-$$v_{\mathrm{circ}}^2(r) = \frac{GM(<r)}{r}$$
-平坦旋转曲线 $\Rightarrow M(<r) \propto r$ — 暗晕存在的直接证据
+$$v_{\mathrm{circ}}^2(r) = \frac{GM(\text{<}r)}{r}$$
+平坦旋转曲线 $\Rightarrow M(\text{<}r) \propto r$ — 暗晕存在的直接证据
 
 **MOND 加速度标度**：
 $$a_0 \approx 1.2 \times 10^{-10}\ \mathrm{m/s^2}$$
