@@ -388,9 +388,13 @@ mark.search-hl { background:var(--search-hl); padding:1px 2px; border-radius:2px
 
 /* ── 阅读进度条（Medium 式）── */
 #reading-progress {
-  position: fixed; top: 0; left: 0; height: 3px; width: 0%;
+  position: fixed; top: 0; left: 0; height: 3px; width: 100%;
   background: linear-gradient(90deg, #2e8555, #4aa8df);
-  z-index: 2000; transition: width .08s linear;
+  z-index: 2000;
+  transform-origin: 0 0;            /* scaleX 从左往右 */
+  transform: scaleX(0);
+  will-change: transform;            /* 合成器层，避免滚动期间触发 layout */
+  transition: transform .08s linear;
 }
 
 </style>
@@ -893,9 +897,11 @@ function switchDoc(slug) {
     a.classList.toggle("active", a.dataset.slug === slug);
   });
 
-  // Show correct section (all sections always in DOM via ensureDoc)
+  // Show correct section; 卸载非当前 section 以收敛 DOM 规模（性能优化 2026-08-17：
+  // 浏览过的文档不再常驻，docCache 已存 html 字符串，重挂载成本低且 KaTeX 按需重渲染）
   document.querySelectorAll(".doc-section").forEach(s => {
-    s.classList.toggle("active", s.dataset.slug === slug);
+    if (s.dataset.slug === slug) s.classList.add("active");
+    else s.remove();
   });
 
   renderTOC(slug);
@@ -905,6 +911,8 @@ function switchDoc(slug) {
   else main.scrollTop = 0;
 
   applyMath();
+  // 重建当前文档标题位置缓存（滚动高亮二分查找用；须在 DOM 插入 + 显示后）
+  _buildTocCache(slug);
   // Close sidebar on mobile after switching
   if (window.innerWidth <= 900) closeSidebar();
 }
@@ -1017,7 +1025,8 @@ function _updateProgress() {
   if (!main || !bar) return;
   const total = main.scrollHeight - main.clientHeight;
   const ratio = total > 0 ? (main.scrollTop / total) : 0;
-  bar.style.width = (ratio * 100) + "%";
+  // transform: scaleX 不触发 layout（width 会）——滚动期间合成器层直接更新
+  bar.style.transform = "scaleX(" + ratio + ")";
 }
 document.addEventListener("DOMContentLoaded", () => {
   const bar = document.createElement("div");
@@ -1263,25 +1272,53 @@ document.getElementById("doc-container").addEventListener("click", (e) => {
 });
 
 // ── Scroll tracking + active TOC item ─────────────────────────────────────
-document.getElementById("main").addEventListener("scroll", () => {
-  const main  = document.getElementById("main");
-  const slug  = activeSlug;
-  scrollPos[slug] = main.scrollTop;
+// 性能优化（2026-08-17）：rAF 合并节流 + 标题位置缓存 + 二分查找，
+// 替代"每帧对全部标题 getBoundingClientRect()"的强制同步布局（layout thrashing）。
+let _scrollRaf = 0;
+let _tocCache = null;   // { slug: [{id, top}] } 当前文档标题相对滚动容器顶的偏移
 
+function _buildTocCache(slug) {
   const sec = document.querySelector(`section[data-slug="${slug}"]`);
   if (!sec) return;
-  let cur = null;
+  const main = document.getElementById("main");
+  const secTop = sec.getBoundingClientRect().top - main.getBoundingClientRect().top + main.scrollTop;
+  _tocCache = { slug, items: [] };
   sec.querySelectorAll("h2,h3,h4").forEach(h => {
-    if (h.getBoundingClientRect().top - main.getBoundingClientRect().top < 120) cur = h;
+    if (!h.id) return;
+    _tocCache.items.push({ id: h.id, top: secTop + (h.getBoundingClientRect().top - sec.getBoundingClientRect().top) });
   });
+  // 按 top 升序，供二分查找
+  _tocCache.items.sort((a, b) => a.top - b.top);
+}
+
+function _updateActiveToc(slug) {
+  const main = document.getElementById("main");
+  scrollPos[slug] = main.scrollTop;
+  // 二分查找最后一个 top <= scrollTop+120 的标题（= 当前视口顶部的标题）
+  const cache = _tocCache && _tocCache.slug === slug ? _tocCache.items : null;
+  let cur = null;
+  if (cache && cache.length) {
+    const target = main.scrollTop + 120;
+    let lo = 0, hi = cache.length - 1;
+    while (lo <= hi) {
+      const mid = (lo + hi) >> 1;
+      if (cache[mid].top <= target) { cur = cache[mid]; lo = mid + 1; }
+      else hi = mid - 1;
+    }
+  }
   document.querySelectorAll(".toc-item").forEach(a => a.classList.remove("active"));
   if (cur) {
     const a = document.querySelector(`.toc-item[data-id="${cur.id}"]`);
     if (a) a.classList.add("active");
   }
-
   // Back-to-top button visibility
   document.getElementById("btn-top").classList.toggle("visible", main.scrollTop > 600);
+}
+
+document.getElementById("main").addEventListener("scroll", () => {
+  if (_scrollRaf) cancelAnimationFrame(_scrollRaf);
+  const slug = activeSlug;
+  _scrollRaf = requestAnimationFrame(() => { _scrollRaf = 0; _updateActiveToc(slug); });
 });
 document.getElementById("btn-top").addEventListener("click", () => {
   document.getElementById("main").scrollTo({top:0, behavior:"smooth"});
@@ -1325,6 +1362,9 @@ function applyMath() {
     try { katex.render(src, inner, {throwOnError:false, displayMode:true}); }
     catch(e) { inner.style.fontFamily = "monospace"; }
   });
+  // KaTeX 渲染完成后再重建标题位置缓存（公式高度影响标题偏移；首帧 katex 未就绪时
+  // switchDoc 里已建过缓存，此处修正为公式渲染后的精确值）
+  if (typeof _buildTocCache === "function") _buildTocCache(activeSlug);
 }
 
 // ── Stats (M7 fix: dynamic from DOCS/PAPERS/TOCS) ─────────────────────────
