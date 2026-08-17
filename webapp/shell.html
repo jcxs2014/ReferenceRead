@@ -722,6 +722,14 @@ function renderTabGroups() {
 // ── Build / lazy-load doc sections (E2: only current doc in DOM) ───────────
 const docCache = {};   // slug -> HTML string
 
+// 2026-08-17 v2 性能优化：已渲染 section 的 DOM 节点缓存（LRU）。
+// 之前每次切换文献都把非当前 section remove() 销毁 → data-processed 守卫丢失，
+// 切回已看过的文献时 KaTeX 必须全量重渲染（大文献数百公式同步渲染阻塞主线程数百毫秒）。
+// 现改为 detach 到本 Map（最多保留 3 个），重开时直接挂回原节点：KaTeX 渲染结果、
+// gloss 包裹、copy-btn 全部保留，applyMath 全命中守卫，切换近乎零成本，DOM 规模仍收敛。
+const sectionCache = new Map();        // slug -> detached <section> element
+const MAX_CACHED_SECTIONS = 3;         // 当前页之外最多保留 3 个已渲染节点
+
 // 术语 hover：把正文中命中 GLOSS 的术语包成 .gloss span（跳过 math/code/pre）
 const GLOSS_INDEX = (() => {
   const idx = {};
@@ -807,11 +815,18 @@ function buildDocs() {
 function ensureDoc(slug) {
   // Ensure slug's section exists in DOM; load from cache or DOCS
   if (document.querySelector(`section[data-slug="${slug}"]`)) return;
+  const container = document.getElementById("doc-container");
+  // 命中已渲染节点缓存 → 直接挂回（KaTeX/gloss/copy-btn 全保留，无需重渲染）
+  const cached = sectionCache.get(slug);
+  if (cached) {
+    sectionCache.delete(slug);
+    container.appendChild(cached);
+    return;
+  }
   const html = docCache[slug] || (() => {
     const d = DOCS.find(x => x.slug === slug);
     return d ? d.html : "";
   })();
-  const container = document.getElementById("doc-container");
   container.insertAdjacentHTML("beforeend", `<section class="doc-section" data-slug="${slug}">${html}</section>`);
   injectGloss(container.querySelector(`section[data-slug="${slug}"]`), slug);
   docCache[slug] = html;  // already in mem from buildDocs pre-cache
@@ -897,11 +912,17 @@ function switchDoc(slug) {
     a.classList.toggle("active", a.dataset.slug === slug);
   });
 
-  // Show correct section; 卸载非当前 section 以收敛 DOM 规模（性能优化 2026-08-17：
-  // 浏览过的文档不再常驻，docCache 已存 html 字符串，重挂载成本低且 KaTeX 按需重渲染）
+  // Show correct section; 非当前 section 进 LRU 缓存（最多保留 3 个已渲染节点），
+  // 超出才真正移除——切回已打开的文献零成本，DOM 规模仍收敛（性能优化 2026-08-17 v2）
   document.querySelectorAll(".doc-section").forEach(s => {
-    if (s.dataset.slug === slug) s.classList.add("active");
-    else s.remove();
+    if (s.dataset.slug === slug) { s.classList.add("active"); return; }
+    const sslug = s.dataset.slug;
+    if (!sectionCache.has(sslug) && sectionCache.size < MAX_CACHED_SECTIONS) {
+      sectionCache.set(sslug, s);
+    } else {
+      s.remove();
+      sectionCache.delete(sslug);
+    }
   });
 
   renderTOC(slug);
@@ -1325,46 +1346,72 @@ document.getElementById("btn-top").addEventListener("click", () => {
 });
 
 // ── Math rendering (H2 fix: data-processed guard for inline) ───────────────
+let mathAbortToken = 0;  // 递增 token：切换文献/重渲染时中止进行中的分片渲染
+
 function applyMath() {
   if (!window.katex) return;
   const sec = document.querySelector(`section[data-slug="${activeSlug}"]`);
   if (!sec) return;
+  const token = ++mathAbortToken;   // 取消上一轮未完成的分片
 
-  // Inline: guard with data-processed
-  sec.querySelectorAll(".math.inline").forEach(el => {
-    if (el.dataset.processed) return;
-    el.dataset.processed = "1";
-    try { katex.render(el.textContent, el, {throwOnError:false, displayMode:false}); }
-    catch(e) { el.style.fontFamily = "monospace"; }
-  });
+  // 收集未渲染公式（DOM 缓存下已渲染节点全命中 data-processed 守卫，近乎零成本）
+  const inlines = [...sec.querySelectorAll(".math.inline")].filter(el => !el.dataset.processed);
+  const blocks  = [...sec.querySelectorAll(".math.block-wrap")].filter(w => !w.dataset.processed);
+  if (!inlines.length && !blocks.length) {
+    if (typeof _buildTocCache === "function") _buildTocCache(activeSlug);
+    return;
+  }
 
-  // Block: guard with data-processed; add copy button only once
-  sec.querySelectorAll(".math.block-wrap").forEach(wrap => {
-    if (wrap.dataset.processed) return;
-    wrap.dataset.processed = "1";
-    const inner = wrap.querySelector(".math-inner");
-    const src   = inner.textContent;
-    // Add copy button only if not already present (avoids double-add on re-render)
-    if (!wrap.querySelector(".copy-btn")) {
-      const btn   = document.createElement("button");
-      btn.className = "copy-btn";
-      btn.textContent = "📋 LaTeX";
-      btn.title = "复制 LaTeX 源码";
-      btn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        navigator.clipboard.writeText(src).then(
-          () => { btn.textContent="✓"; btn.classList.add("copied"); setTimeout(()=>{btn.textContent="📋 LaTeX";btn.classList.remove("copied");},1500); },
-          () => { const t=document.createElement("textarea"); t.value=src; document.body.appendChild(t); t.select(); document.execCommand("copy"); document.body.removeChild(t); btn.textContent="✓"; setTimeout(()=>btn.textContent="📋 LaTeX",1500); }
-        );
-      });
-      wrap.appendChild(btn);
+  // 分片渲染（2026-08-17 v2）：每片最多 10ms，rAF 让出主线程——大文献数百公式
+  // 首次打开时不再一次性同步阻塞交互（之前 switchDoc 全量渲染会卡顿数百毫秒）
+  const TIME_BUDGET = 10;
+  let i = 0, j = 0;
+  const step = () => {
+    if (token !== mathAbortToken) return;   // 已被新一轮渲染/切换取消
+    const deadline = performance.now() + TIME_BUDGET;
+
+    // Inline: guard with data-processed
+    while (i < inlines.length && performance.now() < deadline) {
+      const el = inlines[i++];
+      el.dataset.processed = "1";
+      try { katex.render(el.textContent, el, {throwOnError:false, displayMode:false}); }
+      catch(e) { el.style.fontFamily = "monospace"; }
     }
-    try { katex.render(src, inner, {throwOnError:false, displayMode:true}); }
-    catch(e) { inner.style.fontFamily = "monospace"; }
-  });
-  // KaTeX 渲染完成后再重建标题位置缓存（公式高度影响标题偏移；首帧 katex 未就绪时
-  // switchDoc 里已建过缓存，此处修正为公式渲染后的精确值）
-  if (typeof _buildTocCache === "function") _buildTocCache(activeSlug);
+
+    // Block: guard with data-processed; add copy button only once
+    while (j < blocks.length && performance.now() < deadline) {
+      const wrap = blocks[j++];
+      wrap.dataset.processed = "1";
+      const inner = wrap.querySelector(".math-inner");
+      const src   = inner.textContent;
+      // Add copy button only if not already present (avoids double-add on re-render)
+      if (!wrap.querySelector(".copy-btn")) {
+        const btn   = document.createElement("button");
+        btn.className = "copy-btn";
+        btn.textContent = "📋 LaTeX";
+        btn.title = "复制 LaTeX 源码";
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          navigator.clipboard.writeText(src).then(
+            () => { btn.textContent="✓"; btn.classList.add("copied"); setTimeout(()=>{btn.textContent="📋 LaTeX";btn.classList.remove("copied");},1500); },
+            () => { const t=document.createElement("textarea"); t.value=src; document.body.appendChild(t); t.select(); document.execCommand("copy"); document.body.removeChild(t); btn.textContent="✓"; setTimeout(()=>btn.textContent="📋 LaTeX",1500); }
+          );
+        });
+        wrap.appendChild(btn);
+      }
+      try { katex.render(src, inner, {throwOnError:false, displayMode:true}); }
+      catch(e) { inner.style.fontFamily = "monospace"; }
+    }
+
+    if (i < inlines.length || j < blocks.length) {
+      requestAnimationFrame(step);
+    } else if (token === mathAbortToken && typeof _buildTocCache === "function") {
+      // 全部渲染完 → 修正标题位置缓存（公式高度影响标题偏移；首帧 katex 未就绪时
+      // switchDoc 里已建过缓存，此处修正为公式渲染后的精确值）
+      _buildTocCache(activeSlug);
+    }
+  };
+  step();
 }
 
 // ── Stats (M7 fix: dynamic from DOCS/PAPERS/TOCS) ─────────────────────────
