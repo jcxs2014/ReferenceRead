@@ -40,13 +40,19 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/09_anomali
 ### 2. 关键观察
 [FACT] 在 **A=84, A=138, A=208** 处出现**急降**——对应 Fig. 2 中 s 过程丰度峰，对应 magic neutron numbers **N=50, 82, 126**。
 
+[INTERPRETATION] A=84,138,208 处的丰度峰与 §VII 中 FFN 电子俘获表的 A=21–60 范围不重叠，但共享同一物理原理——核壳结构导致的巨共振与中子壳闭合：在 §VII 中表现为 GT 共振激发能，在 §IX 中表现为 s 过程的截面悬崖。这种跨尺度的壳结构一致性是核天体物理最坚实的基石之一。
+
 [FACT] 在这些 A 值处**中子俘获进入新中子壳的截面极小**，有限的中子供给导致 $\sigma$N 积必须**下降到一个新平台**——正如观测所显示。
+
+[INTERPRETATION] 「有限中子供给」这一表述直接指向 §V 中的中子源讨论：22Ne(α,n)25Mg 的时变中子通量在 AGB intershell 中产生「中子脉冲」，脉冲之间的冻结期让 s 过程沿着 N=50,82,126 魔法数处堆积——Busso-1999 §3 将此过程量化为「13C 口袋模型」，把 Fowler 的定性描述变成了可计算的化学反应网络。
 
 [FACT] 定量解释见 Ulrich (1973) 与 Clayton & Ward (1974)。
 
 ## 9.3 s 过程的位点与中子源
 
 [FACT] **Iben (1975) 的"令人信服的答案"**：**s 过程位点是脉动红巨星的 He 燃烧壳层**，中子源为 **$^{22}{\rm Ne}$($\alpha$,n)$^{25}{\rm Mg}$**。
+
+[INTERPRETATION] Iben (1975) 的「脉动红巨星 He 壳层」结论与 Fowler §V 中 He 燃烧的中子源讨论（22Ne(α,n)）直接呼应，但 Fowler §IX 同时保留了 13C(α,n)16O（Truran 1983）——这一分歧正是 Busso-1999 §5「13C 口袋模型」的理论出发点：两种中子源在 AGB intershell 中的时序竞争。
 
 [FACT] 关键讨论见 Almeida & Kappeler (1983) 与 Truran (1983)。
 
@@ -69,6 +75,8 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/09_anomali
 [FACT] 在 magic neutron numbers 处，$\beta$ 衰变**必须打开闭合中子壳**（将中子转化为质子），因此**速率很小** → **A=50, 82, 126 处前身核丰度很大**。
 
 [FACT] 相应质子数比 s 过程核中的少 → 稳定子同量异位素**质量数更小**：
+
+[INTERPRETATION] r 过程峰在 s 过程峰之下的偏移（A=80 vs 84，A=130 vs 138，A=195 vs 208）恰好与 Anders-Grevesse (1989) 中 s-only 核素（如 84Sr, 138Ba, 208Pb）的丰度测量精确吻合——这意味着 r 过程的第一峰（A≈80）对应 78Kr、80Se、82Kr 等富中子前身核，可通过陨石同位素异常分离。
 - **r 过程峰**：A ≈ **80, 130, 195**
 - **s 过程峰**：A ≈ **84, 138, 208**
 
@@ -110,6 +118,8 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/09_anomali
 [FACT] 初始电子简并 → 温度升高 → **解除简并** → **热失控** → 膨胀与冷却 → 该事件是核心历史上的**第二次 He 闪**——只需少量 r 过程物质逃逸到星际介质，即可贡献太阳系 r 过程丰度。
 
 [FACT] Fowler 相信："a realistic astrophysical site for the thermal runaway, perhaps with different initial conditions, will be found."
+
+[INTERPRETATION] Fowler 1984 年对 Cameron-Cowan-Truran 模型的「相信但保留」态度，在 2017 年 GW170817 千新星观测中得到最终答案：中子星并合而非 He 核热失控，才是宇宙 r 过程的主要位点。Fowler 的犹豫——「或许用不同的初始条件」——恰恰反映了他对「天体物理位点」问题的深刻理解。
 
 ## 9.7 r 过程的位点争论
 

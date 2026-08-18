@@ -20,9 +20,13 @@
 ```
 $^{232}{\rm Th}$ : $20.0\times10^{9}$ 年
 $^{235}{\rm U}$  :  $6.51\times10^{9}$ 年
+
+[INTERPRETATION] 232Th/238U/235U 的三种半衰期构成一个「独立时钟组」——三种母体在核合成（主要是 r 过程，Fowler §IX）中产生的比例由 §IX 的等待点方法决定，而它们在太阳形成后独立衰变的时间由 §XII 计算。这把 §IX r 过程与 §XII 计时锁在同一套观测约束内。
 $^{238}{\rm U}$  : $10.3\times10^{9}$ 年
 ```
 [FACT] Fowler 用**"eon glasses"（永恒沙漏）**类比：上室是放射性母体，下室是子体。但与传统沙漏不同，核合成（恒星中产生）和天体吸收（恒星中销毁）同时在增减上下室。
+
+[INTERPRETATION] 「eon glasses」的比喻把天体吸收（astromagnetic，星际介质中 s 过程销毁）与核合成同时纳入计时，这一处理直接对应 §IX 中 187Re 的 astromagnetic 销毁（§10.1.7）——同位素丰度计时必须同时考虑「恒星产生」与「星际销毁」，否则年龄会被系统低估。
 
 [FACT] 丰度修正：取**陨石丰度**（假设自形成后封闭系统，形成于 45.5 亿年前），修正**45.5 亿年的自由衰变**后与理论计算对比。
 
@@ -106,6 +110,8 @@ $^{244}{\rm Pu}$/$^{238}{\rm U}$, $\tau$($^{244}{\rm Pu}$) = $0.117\times10^{9}$
 
 [FACT] 这些因素推导出 r 过程在银河系开始的**时间 14–19 十亿年**。
 
+[INTERPRETATION] Re/Os 计时器给出 14–19 Gyr 的范围与 Th/U 的 13.9–19.9 Gyr 高度重叠——这一「独立确认」是 §XII 的支柱性结论，但两者都依赖 §IX s 过程的 Nσ=const 规则（§10.1.6）——若 s 过程模型变化（如 Busso-1999 §5 的 13C 口袋），Re/Os 计时器会被重新校准。
+
 [FACT] **Macklin et al. (1983)** 与 **Hershberger et al. (1983)** 测量了 $^{187}{\rm Os}$ 基态到 9.75 keV 激发态的**非弹性中子散射截面**，支持 Woosley-Fowler 因子的**较低值** → 时间推至 **18–20 十亿年**——"concordant with the latest value from the Th/U nucleocosmochronology."
 
 ### 10.1.7 $^{187}{\rm Re}$ 寿命争议与 astromagnetic 效应
@@ -117,6 +123,8 @@ $^{244}{\rm Pu}$/$^{238}{\rm U}$, $\tau$($^{244}{\rm Pu}$) = $0.117\times10^{9}$
 [FACT] **银河环境中的有效寿命问题**：$^{187}{\rm Re}$ 在星际介质中被**s 过程（astromagnetic，天体吸收）**销毁——有效寿命降低，所有基于 Re/Os 的时间下移。
 
 [FACT] Yokoi, Takahashi, Arnould (1983) 详述——r 过程起始时间可能低至 **12 十亿年**。
+
+[INTERPRETATION] astromagnetic 效应把 r 过程起始时间从 14–19 Gyr 下压到 12 Gyr，这一「下调」与 §VIII 中 Pop III 星主导 S、Ar、Ca 的「上推」方向相反——两种效应的竞争决定了银河化学演化模型中「恒星诞生率」的初始时间：若 astromagnetic 占优，则银河系早期恒星形成更集中；若 Pop III 占优，则更分散。
 
 [FACT] Fowler 结束 Sec. XII："结束这一节前一节（结论节）之前，核宇宙化学计时中相当大的不确定性表明，正如核天体物理的所有方面，还有大量激动人心的实验与理论工作要做。Amen!"
 
