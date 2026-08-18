@@ -230,9 +230,31 @@ Rankine-Hugoniot（流体跳跃条件）
 
 [INTERPRETATION] 激波穿越概率的物理图像可以用"赌徒逃跑"类比：粒子在激波两侧随机游走（diffusion in space），每次穿越激波获得能量增益 $\Delta E/E \sim 1/r$（$r \approx 4$）。粒子逃离激波区域的概率随时间增加（因为扩散），因此能量增益的时间积分是有限的——这解释了为什么 DSA 产生幂律谱（有限的逃逸概率）而不是指数谱（如果粒子永远被激波捕获）。[INTERPRETATION]
 
-## 4.10 加速效率与 SNR 能量预算（从 fulltext 补充）
+## 4.11 DSA 与 SNR 多波段观测的对应（从 fulltext 补充）
 
-### 4.10.1 DSA 效率的定义与测量
+### 4.11.1 SNR 射电-伽马射线能谱诊断
+
+[FACT] B&E §4 的 DSA 理论预言了 SNR 中 CR 的空间分布和能谱形状，这些预言可以通过多波段观测来检验：① **射电观测**（$\nu \sim 1$ GHz）：同步辐射，来自 GeV 电子；② **X射线观测**（$\sim 0.5-10$ keV）：同步辐射，来自 TeV 电子；③ **伽马射线观测**（$\sim 0.1-100$ TeV）：来自 TeV 质子的 $\pi^0$ 衰变和 TeV 电子的逆Compton散射。这三个波段的相对强度和空间分布可以区分电子主导和质子主导的辐射区域。[FACT]
+
+[INTERPRETATION] 多波段诊断的物理基础：① **谱形诊断**：电子同步辐射谱斜率与 DSA 谱斜率直接相关（$S_\nu \propto \nu^{-(q-1)/2}$），而 $\pi^0$ 衰变谱有一个特征的"拐点"（$\sim 0.3 m_\pi c^2 \approx 70$ MeV），可以区分电子和质子成分；② **空间诊断**：电子辐射集中在 SNR 边缘（磁场压缩增强的区域），而质子辐射分布更均匀（因为质子的 gyroradius 更大）；③ **亮度诊断**：高亮度的 X 射线丝状结构（thin filaments）是磁场增强的证据，表明这些区域可能有较高的 DSA 效率。今天的 HESS、HAWC、VERITAS 观测已经广泛应用这些诊断方法，但 B&E 1987 年只有射电数据可用。[INTERPRETATION]
+
+[CRITIQUE] B&E 对 SNR 多波段观测的讨论主要基于射电数据，对 X 射线和伽马射线的讨论是预言性的而非分析性的。这是因为 1987 年的 X 射线望远镜（Einstein Observatory）的角分辨率不足以区分 SNR 的精细结构，伽马射线观测（Cos-B, EGRET）的灵敏度也不足以检测单个 SNR。今天的 Chandra（X射线）和 Fermi-LAT、HESS（伽马射线）已经使多波段诊断成为标准工具，但这些数据是在 B&E 论文之后 15-20 年才积累的。[CRITIQUE]
+
+### 4.11.2 SNR 年龄与 DSA 参数的时间演化
+
+[FACT] SNR 演化分为三个阶段：① **自由膨胀阶段**（free expansion，$t \lesssim 10^3$ yr）：激波速度 $u_{\rm sh} \approx$ const $\sim 10^4$ km/s，DSA 加速效率最高，CR 压力 $P_{\rm CR} \ll P_{\rm sh}$；② **Sedov-Taylor 阶段**（$t \sim 10^4-10^5$ yr）：自相似演化，$u_{\rm sh} \propto t^{-1/3}$，DSA 效率下降，$E_{\rm max}$ 降低；③ **辐射冷却阶段**（$t \gtrsim 10^5$ yr）：激波速度降低到 $\sim 100$ km/s，DSA 效率极低，CR 能量逐渐转化为辐射。B&E §4 主要讨论自由膨胀阶段的 DSA，对 Sedov-Taylor 阶段的处理是近似的。[FACT]
+
+[INTERPRETATION] SNR 年龄对 DSA 预言的影响：① $E_{\rm max}$ 随 SNR 年龄增加而降低（因为 $t_{\rm acc} \propto 1/u_{\rm sh}^2$ 且 $u_{\rm sh}$ 减小）；② 这解释了为什么年轻 SNR（如 Cas A，$t \sim 350$ yr）是 PeVatron 的最佳候选者——它们有更高的 $u_{\rm sh}$ 和更长的 $t_{\rm SNR}$；③ 老年 SNR（如 IC 443，$t \sim 10^4$ yr）主要贡献 GeV 伽马射线而非 TeV。B&E 的 DSA 理论需要结合 SNR 演化模型才能做出可观测预言，而 B&E 主要关注的是微观 DSA 物理本身，对 SNR 演化的时间依赖性处理不足。[INTERPRETATION]
+
+[CRITIQUE] B&E 没有给出 SNR 各演化阶段的 DSA 参数的时间依赖性——这是一个重要的缺失，因为 SNR 样本包含不同年龄的 SNR，它们的 DSA 参数（$E_{\rm max}$、$\eta$）应该是年龄的函数。今天的数值模拟（如 Caprioli & Spitkovsky 的 PIC 模拟）追踪了 SNR 整个演化周期的 DSA 演化，但 B&E 1987 年的处理停留在稳态近似。这使得他们的理论与观测的比较变得复杂——我们需要知道每个观测 SNR 的年龄，才能将观测到的 $E_{\rm max}$ 与理论预言比较。B&E 没有提供这个年龄依赖性的分析工具。[CRITIQUE]
+
+### 4.11.3 分子云与 SNR 的相互作用
+
+[FACT] 许多 SNR（如 W44, IC 443, W51C）与邻近分子云（MC）相互作用，这些系统提供了 DSA 加速 CR 的"实时实验室"：分子云中的质子被加速后与分子云气体碰撞，产生 $\pi^0$ 衰变伽马射线——这是 CR 质子存在的直接证据。此外，MC 的高密度（$n \sim 10^2-10^4$ cm$^{-3}$）使辐射损失增强，可用于诊断 TeV 粒子的存在（通过中性 $\pi$ 介子衰变产生的伽马射线）。[FACT]
+
+[INTERPRETATION] SNR-MC 相互作用系统的诊断价值：① **加速场所的直接证据**：MC 中的伽马射线辐射来自被加速粒子与MC气体的碰撞，这证明了 DSA 加速确实发生在 SNR 激波中；② **CR 密度分布**：MC 的几何形状可以帮助重建 CR 的空间分布——如果伽马射线强度沿 MC 边缘分布，则 CR 主要在激波附近；如果分布更均匀，则 CR 已从 SNR 中扩散出来；③ **年龄估计**：MC 中伽马射线的空间分布可以用于估计 CR 的扩散系数，从而约束银河系 CR 的传播参数。这些诊断在今天已被广泛应用（如 HESS 对 W44, IC 443 的观测），但在 B&E 1987 年这些观测尚不存在。[INTERPRETATION]
+
+[CRITIQUE] B&E 对 SNR-MC 相互作用的讨论很少——这是因为 1987 年还没有足够的伽马射线数据来验证 DSA 在这些系统中的预言。他们对 SNR-MC 系统的讨论主要是定性的（"这些系统可能有利于 CR 加速"），而非定量的。这个缺失在今天变得重要：Fermi-LAT 和 HESS 的 SNR-MC 观测提供了大量数据，B&E 的理论需要与这些数据进行定量比较，但他们 1987 年的论文没有提供足够的理论框架来进行这种比较。这使得某些 DSA 预言（如 $E_{\rm max}$ 在 SNR-MC 系统中的值）无法被直接验证，因为 B&E 的理论不包含环境效应（MC 密度、磁场增强等）的详细处理。[CRITIQUE]
 
 [FACT] 原文 §4.5 给出 DSA 效率 $\eta_{\rm DSA}$ 的定义：$\eta_{\rm DSA} = E_{\rm CR} / E_{\rm sh}$，其中 $E_{\rm CR}$ 是 CR 从激波中提取的总能量，$E_{\rm sh}$ 是激波的总动能。对典型 SNR（$E_{\rm SNR} \sim 10^{51}$ erg，$u_{\rm sh} \sim 5 \times 10^8$ cm/s），如果 $\eta_{\rm DSA} \sim 10\%$（B&E 的典型估计），则 $E_{\rm CR} \sim 10^{50}$ erg。B&E 指出，这个效率需要与观测的银河系 CR 能量密度 $u_{\rm CR} \sim 1$ eV/cm$^3$ 匹配：银河系中约有 $N_{\rm SNR} \sim 10^3$ 个活跃 SNR，每个 SNR 贡献 $E_{\rm CR} \sim 10^{50}$ erg，CR 在银河系中的约束时间 $\tau_{\rm esc} \sim 10^7$ yr，得到银河系 CR 功率 $\sim 10^{40}$ erg/s，与 SNR 的总动能输入 $\sim 10^{42}$ erg/s（假设 SNR 频率 $\sim 1/30$ yr$^{-1}$）相匹配。[FACT]
 
