@@ -255,7 +255,49 @@ Vlasov 方程（六维相空间）
 
 [INTERPRETATION] 从 Fermi (1949) 到 B&E (1987) 的发展逻辑是：① Fermi (1949) 揭示了"随机加速"的数学框架；② Axford & Leer (1977) 和 Bell (1978) 发现激波中的加速效率可以远高于随机加速；③ Blandford & Ostriker (1978) 给出了完整的数学推导；④ B&E (1987) 将这些发展系统化，并扩展到非线性理论和波-粒子自洽问题。这个逻辑链条在 B&E §1 的引言中已经给出，但只有在阅读 §3-§6 的具体推导后才能完全理解。[INTERPRETATION]
 
-## 3.12 数学推导细节补充（从 fulltext 补充）
+## 3.10 Boltzmann 方程的物理基础（从 fulltext 补充）
+
+### 3.10.1 Vlasov 方程与碰撞项
+
+[FACT] B&E §3 的起点是 Vlasov 方程（无碰撞Boltzmann方程）：$\partial f/\partial t + \mathbf{v} \cdot \nabla f + \dot{\mathbf{p}} \cdot \partial f/\partial \mathbf{p} = 0$，其中 $f(\mathbf{x}, \mathbf{p}, t)$ 是相空间分布函数，$\dot{\mathbf{p}} = Z e (\mathbf{E} + \mathbf{v} \times \mathbf{B})/c$ 是 Lorentz 力。这个方程描述了带电粒子在电磁场中的运动，假设粒子之间没有直接碰撞（等离子体物理中的"无碰撞"假设，在天体物理高密度环境中近似成立）。[FACT]
+
+[INTERPRETATION] Vlasov 方程的重要性：它是等离子体物理的基本方程，也是 Vlasov-Maxwell 方程组的一部分（与 Maxwell 方程耦合）。在宇宙线天体物理中，Vlasov 方程描述 CR 粒子在电磁场中的运动，而 CR 对电磁场的反作用由 Maxwell 方程描述——这两者的耦合产生了复杂的非线性现象（如 CR 驱动的 instability）。Vlasov 方程的解通常需要数值方法（如 Particle-in-Cell 模拟），但在某些简化条件下（如一维平面激波），它可以解析求解（得到 Dirac 类型的特征线）。[INTERPRETATION]
+
+[CRITIQUE] Vlasov 方程的"无碰撞"假设在某些情况下可能失效：在高密度环境（如 SNR 内部）中，粒子之间的 Coulomb 碰撞可能影响分布函数的演化。此外，当波-粒子相互作用显著时，Vlasov 方程需要与波谱方程耦合（B&E §5 的处理），这使得解析求解变得极其困难。B&E 对这些情况的处理是近似的（如 QLT 假设），但在强耦合regime（NL-DSA）中，这些近似可能失效。[CRITIQUE]
+
+### 3.10.2 Fokker-Planck 方程的推导
+
+[FACT] B&E §3 从 Vlasov 方程推导出 Fokker-Planck 方程，使用了"随机过程"方法：粒子的动量变化 $\Delta \mathbf{p}$ 被分解为"确定性漂移"（$\langle \Delta \mathbf{p} \rangle$）和"随机扩散"（$\langle \Delta \mathbf{p} \Delta \mathbf{p} \rangle$）。对 pitch-angle 散射，给出漂移系数 $A(\mu) = -\partial/\partial \mu [D_{\mu\mu}(\mu)]$ 和扩散系数 $D_{\mu\mu}(\mu) = (\Delta \mu)^2/(2\Delta t)$。代入 Fokker-Planck 方程：$\partial f/\partial t = -\partial/\partial p (A(p) f) + \partial^2/\partial p^2 [D(pp) f]$。[FACT]
+
+[INTERPRETATION] Fokker-Planck 方程的双时间尺度结构：① **快速尺度**（pitch-angle 散射，$t_{\rm scatter} \sim \lambda_{\rm mfp}/v$）：描述粒子在磁场中 pitch-angle 的快速变化；② **慢速尺度**（能量演化，$t_{\rm acc} \gg t_{\rm scatter}$）：描述能量缓慢增加。这两个时间尺度的分离允许我们用"导向中心"（guiding center）近似来处理粒子运动，而不需要追踪每次散射的细节——这是 B&E §3 的数学基础。B&E 的推导给出了 $A(p)$ 和 $D(pp)$ 的显式形式，这些形式决定了 DSA 的加速率。[INTERPRETATION]
+
+[CRITIQUE] Fokker-Planck 方程的推导基于"马尔可夫近似"（每次散射事件独立于历史）——但当波谱不是白噪声（white noise）时，这个近似可能失效。实际上，如果波场有记忆效应（波-波相互作用导致的相干性），则散射事件之间的独立性假设不成立。这种情况在强波幅regime（NL-DSA）中最可能发生，但 B&E 在 §3 的推导中没有讨论这个限制。[CRITIQUE]
+
+### 3.10.3 扩散系数的物理意义
+
+[FACT] B&E §3 给出了扩散系数的显式形式：$D_{\parallel} = (1/3) v^2 / \nu_{\rm scatter}$，其中 $\nu_{\rm scatter} = v / \lambda_{\rm mfp}$ 是 pitch-angle 散射频率。在准线性理论中，$\nu_{\rm scatter} \propto D_{kk}/B_0^2$，其中 $D_{kk}$ 是湍流功率谱。这个形式揭示了扩散系数与波谱的直接联系——波谱越强（$D_{kk}$ 越大），散射越频繁（$\nu_{\rm scatter}$ 越大），扩散系数越小（$D_{\parallel}$ 越小）。[FACT]
+
+[INTERPRETATION] 扩散系数的温度类比：在热力学中，热导率 $\kappa \propto C_v \lambda_{\rm mfp} v$ 描述热量传输——这里 $D_{\parallel} \propto v^2 / \nu_{\rm scatter}$ 有类似的形式，$\lambda_{\rm mfp}$ 越大，$\nu_{\rm scatter}$ 越小，$D_{\parallel}$ 越大。这个类比在理解 CR 扩散时很有用：强湍流（短 $\lambda_{\rm mfp}$）对应低热导率（热量传输慢），弱湍流（长 $\lambda_{\rm mfp}$）对应高热导率（热量传输快）。对 DSA 加速来说，我们需要适度的扩散（$D_{\parallel}$ 既不能太大也不能太小）——太大则粒子无法被激波捕获，太小则加速太快（违反能量守恒）。[INTERPRETATION]
+
+[CRITIQUE] B&E 给出的 $D_{\parallel}$ 形式基于各向同性湍流假设——但真实 ISM 湍流是各向异性的（尤其是受磁场方向约束的 Alfvén 湍流）。各向异性湍流导致的扩散也是各向异性的：$D_{\parallel} \neq D_{\perp}$，且 $D_{\perp} \ll D_{\parallel}$。这个各向异性在某些情况下是重要的（如磁场方向快速变化的环境中），但 B&E 没有在 §3 的推导中处理它。[CRITIQUE]
+
+## 3.11 Landau 阻尼与波-粒子相互作用（从 fulltext 补充）
+
+### 3.11.1 Landau 阻尼的物理机制
+
+[FACT] B&E §3 提到了 Landau 阻尼，但它主要与波-粒子相互作用中的波衰减有关（而不是 DSA 加速的直接机制）。Landau 阻尼是 Vlasov 方程的精确无碰撞效应：当粒子的速度接近波的相速度时，粒子从波中吸收能量（若粒子比波快）或向波释放能量（若粒子比波慢）。对平行传播的 Alfvén 波（相速度 $V_A$），与波共振的粒子满足 $v_\parallel = V_A$。[FACT]
+
+[INTERPRETATION] Landau 阻尼在 DSA 中的作用：虽然 B&E 主要讨论的是 wave-particle 散射（由不稳定性驱动），但 Landau 阻尼是波-粒子能量交换的另一条通道。在 NL-DSA 中，当 CR 驱动的波幅增长到足够强时，Landau 阻尼可能成为波能衰减的主要机制，从而影响饱和水平。Landau 阻尼率和 CR 驱动的波生长率的竞争决定了最终的波谱形状和 CR 加速效率。这个竞争机制在今天的高阶 PIC 模拟中被详细研究，但 B&E 1987 年的处理是近似的。[INTERPRETATION]
+
+[CRITIQUE] B&E 对 Landau 阻尼的讨论是简略的，没有给出具体的阻尼率表达式。他们主要关注不稳定性（波的生成），而对阻尼（波的衰减）只是简单提及。这个不对称处理可能导致对 NL-DSA 饱和水平的过高估计——如果 Landau 阻尼率比他们假设的更高，则实际波幅会比他们的估计更低，从而影响 DSA 效率和 $E_{\rm max}$ 的预言。[CRITIQUE]
+
+### 3.11.2 朗道流与相空间混合
+
+[FACT] Landau 阻尼的数学描述来自 Vlasov 方程的解：对小幅度波，分布函数 $f(v)$ 在 $v \approx V_A$ 附近与波发生能量交换，交换功率 $P = m v^2 (\partial f/\partial v)_{v=V_A}$。如果 $\partial f/\partial v < 0$（正梯度，典型星际介质），粒子从波中获取能量，表现为Landau吸收；如果 $\partial f/\partial v > 0$（负梯度），粒子向波释放能量，表现为受激放大。[FACT]
+
+[INTERPRETATION] Landau 阻尼与 CR 加速的联系：在 DSA 中，我们关心的是粒子如何从加速过程获取能量，而 Landau 阻尼描述的是粒子如何与波交换能量。这两个过程不是独立的——DSA 加速要求粒子从波中获取能量（即 Landu 阻尼的\"逆过程\"），而 Landau 阻尼本身描述的是趋于平衡态的趋势。在 QLT 框架下，这两种过程是同一个共振相互作用的不同方面：粒子被波散射时，既可能获取能量（加速），也可能损失能量（阻尼），净效果由分布函数的梯度决定。B&E 的处理通过 $df/dp$ 的符号来编码这个选择，而没有分别处理加速和阻尼过程。[INTERPRETATION]
+
+[CRITIQUE] B&E 的 QLT 处理假设波场是弱耦合的（$\delta B/B_0 \ll 1$），从而可以将加速和阻尼过程线性叠加。但在 NL-DSA 中，这个线性叠加假设可能失效——当波幅增大到 $\delta B/B_0 \sim 1$ 时，波-粒子相互作用变得强耦合，Landau 阻尼和 CR 驱动的波生长之间的竞争变得高度非线性。B&E 在 §6 的 NL-DSA 讨论中部分处理了这种非线性，但没有给出完整的处理方案。[CRITIQUE]
 
 ### 3.12.1 Pitch-Angle 扩散系数的推导
 
