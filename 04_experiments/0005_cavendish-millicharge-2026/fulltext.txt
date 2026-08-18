@@ -1,0 +1,894 @@
+=== PAGE 1 ===
+Cavendish Tests of Millicharged Particles
+Asher Berlin ,1,2 Zachary Bogorad ,1,2 Peter W. Graham ,3,4 and Harikrishnan Ramani
+5
+1Theory Division, Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA
+2Superconducting Quantum Materials and Systems Center (SQMS), Fermi National Accelerator Laboratory,
+Laboratory, Batavia, Illinois 60510, USA
+3Leinweber Institute for Theoretical Physics at Stanford, Department of Physics, Stanford University,
+Stanford, California 94305, USA
+4Kavli Institute for Particle Astrophysics and Cosmology, Department of Physics, Stanford University,
+Stanford, California 94305, USA
+5Department of Physics and Astronomy, University of Delaware and The Bartol Research Institute,
+Newark, Delaware 19716, USA
+(Received 17 November 2025; revised 5 February 2026; accepted 20 April 2026; published 10 July 2026)
+A terrestrial population of room-temperature millicharged particles can arise if they make up a dark
+matter subcomponent or if they are light enough to be produced in cosmic ray air showers. In a companion
+paper, we showed that a simple electrified shell acts as an efficient accumulator for such particles,
+parametrically enhancing their local density by many orders of magnitude. Here we demonstrate that
+Cavendish tests of Coulomb’s Law, performed since the late 18th century, function as both quasistatic
+accumulators and detectors for this overdensity. Reinterpretations of these past Cavendish tests thus
+provide some of the strongest bounds on a terrestrial millicharge population. We also propose surrounding
+a Cavendish test with an additional charged shell, which significantly improves the sensitivity and can even
+enable detection of the irreducible density of millicharged particles generated from cosmic rays. Using
+decades-old technology, this can outperform future accelerator searches for sub-GeV masses.
+DOI: 10.1103/83fd-mnpk
+One of the simplest extensions to the standard model
+(SM) involves the introduction of new particles χ with a
+small effective electromagnetic charge eqχ ≪1. Over the
+years such millicharged particles (mCPs) have attracted
+much attention [1–7] and many searches have been
+dedicated to finding them. Accelerator searches to produce
+and detect these particles [8–16] and SN1987A [17] have
+set limits on their existence. Additionally, ion trap [18],
+matter neutrality [19–21], and dark matter (DM) direct
+detection [22–24] experiments have been used to search for
+a local population of mCPs. Despite their simplicity and
+decades of scrutiny, mCPs are surprisingly unconstrained,
+with viable parameter space remaining for charges as large
+as qχ ∼10−1 for GeV-scale masses.
+Throughout a large range of parameter space, mCPs
+rapidly scatter with terrestrial matter and thermalize down to
+room temperature, 300 K ∼25 meV, resulting in large
+overdensities on Earth [25,26]. In this Letter, we highlight
+a novel way to detect such a population, which could arise if,
+e.g., mCPs make up a DM subcomponent or are produced
+locally in cosmic ray air showers [27] or nuclear decays [28].
+Here, we show that century-old Cavendish-type tests of
+Coulomb’s law can be reinterpreted to set some of the
+strongest limits on terrestrial mCPs. In Cavendish experi-
+ments, the electric field is measured inside an empty
+conducting shell, whose surface charge is driven by a
+quasistatic oscillating voltage source. Since mCPs are able
+to penetrate conducting surfaces, the electric field generated
+outside the shell induces a charge density of mCPs on the
+interior. A nonzero electric field measured inside the driven
+shell thus constitutes either a violation of Coulomb’s law
+(which can arise from, e.g., a nonzero photon mass or virtual
+particles [29]) or the presence of a pervasive background of
+mCPs, the latter of which is the focus of this Letter.
+In a companion paper [30], we demonstrated that a shell
+held at fixed voltage (e.g., a Van de Graaff generator)
+functions as an accumulator for terrestrial mCPs (regardless
+of their origin) by dragging them inward where they scatter
+and become electrically trapped in the interior, enhanc-
+ing their local density by as much as twelve orders
+of magnitude. In this Letter, we propose enclosing a
+Cavendish experiment within such an accumulator. This
+minimal modification allows for the exploration of an even
+larger region of new parameter space, with sensitivity to the
+irreducible mCP density generated from cosmic rays. Note
+Published by the American Physical Society under the terms of
+the Creative Commons Attribution 4.0 International license.
+Further distribution of this work must maintain attribution to
+the author(s) and the published article’s title, journal citation,
+and DOI. Funded by SCOAP3.
+PHYSICAL REVIEW LETTERS 137, 021804 (2026)
+Editors' Suggestion
+Featured in Physics
+0031-9007=26=137(2)=021804(8)
+021804-1
+Published by the American Physical Society
+
+=== PAGE 2 ===
+that a search for this irreducible population is equiva-
+lent to testing the model itself, independent of the mCP
+relic abundance, akin to an accelerator search. As we show
+below, a simple Cavendish experiment modified in this
+way can outperform future accelerator searches for
+sub-GeV mCPs.
+Cavendish tests—Since the mid-18th century, various
+experiments have been conducted to search for small
+deviations from Coulomb’s inverse square law [31,32].
+A well-known example, originally performed by Henry
+Cavendish in 1773 [33], involves measuring an electric
+field inside of a large charged conducting shell. While no
+such field is present when Gauss’s law is exact, violations
+of it will generally lead to a nonzero field in the interior of
+the shell. A typical implementation of such a “Cavendish
+test” uses an isolated series of concentric shells, where an
+outer shell is quasistatically oscillated at a frequency ν0 and
+voltage ϕ0 relative to ground, and an oscillating potential
+difference between two interior shells is measured [33–38].
+The most sensitive of these was performed in Ref. [37],
+which bounded the interior voltage difference to be smaller
+than ∼10−12 V.
+Since the 20th century, these have often been reinter-
+preted as measurements of the photon mass mγ. In
+particular, mγ ≠0 modifies Gauss’s law to be ∇· E ¼
+ρ −m2γϕ [32], where ρ is the local charge density and ϕ is
+the electric potential. In a Cavendish test, a photon mass is
+thus equivalent, from the perspective of the detector, to an
+effective uniform charge density ρeff ¼ −m2γϕ0 within the
+driven shell. In the absence of physical charges in the
+interior, ρ ¼ 0, the electric field a distance r from the center
+is then E ≃ρeffr=3, which oscillates at the same frequency
+as the driven voltage.
+This test of the photon mass is also necessarily a search
+for physical charges that are electrically pulled within the
+shells. In principle, both mCPs and SM ions can contribute
+to this effect. Crucially, however, the presence of the shells
+shields against SM charges while having a more limited
+effect on mCPs. This allows for the effective exclusion of
+SM ions by the experiment’s shells, while still allow-
+ing mCPs to diffuse into the interior. In particular, the work
+function of a conductor makes a barrier to positive
+mCPs ∼qχ × ðfew eVÞ. As a result, room-temperature
+mCPs with charge ≲300 K=ðfew eVÞ ∼10−2 can pass
+freely through metallic surfaces.
+Millicharge signals—In a Cavendish experiment, a
+signal arises from the charge density ρχ of mCPs distributed
+uniformly inside the electrically charged shell of voltage
+ϕ0 and radius R0. In the continuum limit where there are
+many mCPs within the shell, this sources a measur-
+able potential difference between radii r1; r2 < R0 of the
+form Δϕχ ¼ ðρχ=6Þðr2
+2 −r2
+1Þ.
+The behavior of mCPs can be divided into two regimes,
+depending on the degree to which their phase space is
+perturbed by the electric potential ϕ0 cos ðν0tÞ of the driven
+shell. First, in the small-coupling regime eqχϕ0 ≪Tχ,
+the mCP’s phase space is only slightly perturbed by the
+charged shell. Here, Tχ is the mCP’s ambient temperature,
+which is approximately equal to the environment’s temper-
+ature throughout the experiment, due to rapid scattering
+with nuclei. In this case, the amplitude of the oscillating
+induced charge density follows from the standard result for
+Debye screening in a weakly coupled plasma [39,40],
+corresponding to
+ρχ ≃εweakm2
+Dϕ0;
+ð1Þ
+where mD ¼ eqχ
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+nχ=Tχ
+p
+is the mCP’s contribution to the
+photon’s Debye mass. In Eq. (1), we have also introduced
+the dimensionless efficiency factor εweak ≤1 that accounts
+for the possibility that mCPs do not traverse the whole
+experiment within one oscillation. We define this precisely
+in Supplemental Material [41]. Comparing Eq. (1) to ρeff
+for a massive photon, we see that
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+εweak
+p
+mD plays the role
+of a photon mass in terms of its contribution as a source
+term in Gauss’s Law.
+Next, for large couplings qχ ≫Tχ=ðeϕ0Þ, the form of
+the induced charge density depends on whether mCPs lose
+energy from scattering within the charged shell. For
+instance, as shown in Supplemental Material [41], for
+free-streaming ballistic particles the charge density is
+smaller than the weak-coupling form in Eq. (1) by a factor
+of ∼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+Tχ=eqχϕ0
+p
+≪1. However, ρχ can instead be greatly
+enhanced if mCPs are able to efficiently diffuse into the
+charged shell within an oscillation time of the voltage, lose
+energy via scattering (with, e.g., the inner wall or air), and
+become electrically bound to the electrostatic potential until
+it flips sign. Thus, the net charge density inside the shell
+still oscillates with frequency ν0. As derived in Ref. [30],
+this accumulated charge density over a half-oscillation-time
+tosc ¼ ν−1
+0 =2 of the voltage is
+ρχ ≃ð2=πÞεstrongð3eqχnχVEtosc=R0Þ;
+ð2Þ
+where we have included a factor of 2=π from time-
+averaging over a half oscillation. Since the above expres-
+sion assumes a continuous distribution of mCPs, in our
+analysis we will restrict ourselves to a total accumulated
+charge larger than ðρχ=eqχÞR3
+0 ≳102. In Eq. (2), εstrong ≤1
+is a dimensionless efficiency factor that is Oð1Þ for an
+endless supply of mCPs that both diffuse and collisionally
+thermalize into the shell within an oscillation time (this is
+discussed
+more
+in
+Supplemental
+Material
+[41]
+and
+Ref. [30]). The effective accumulation velocity VE is given
+by [30],
+VE ≃ðeqχE0=mχÞ= maxðΓðairÞ
+p
+βE; vth=2R0Þ;
+ð3Þ
+PHYSICAL REVIEW LETTERS 137, 021804 (2026)
+021804-2
+
+=== PAGE 3 ===
+where E0 ¼ ϕ0=R0 is the electric field of the shell at its
+surface, ΓðairÞ
+p
+is the momentum-exchange rate for mCP-
+atomic collisions in air (see, e.g., Refs. [26,30]), and
+vth ≃
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+3Tχ=mχ
+p
+is the mCP thermal velocity.
+In Eq. (3), we have introduced the dimensionless
+parameter βE, which accounts for modifications of the
+electric field due to image charges from nearby conductors.
+As derived in Ref. [30], for an electric field that scales as a
+monopole
+or
+dipole
+at
+far
+distances,
+βE ≃1
+or
+βE ≃
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+πeqχϕ0=ð2TχÞ
+p
+≫1, respectively. This is relevant
+in regard to whether the experiment is placed indoors or
+outdoors; for an outdoor experiment, Earth’s crust gener-
+ates an image charge, which screens the monopole field at
+far distances [30], whereas for an indoor experiment we
+take the field to be a monopole field at short distances and
+then to be zero outside the (assumed conducting) walls of
+the room.
+As an example, let us consider an indoor experiment,
+such that the electric field is monopolelike wherever it is
+nonzero, corresponding to βE ≃1. In this case, Eq. (2) can
+be rewritten in a suggestive form,
+ρχ ≃
+
+εstrongm2
+Dϕ0
+
+6tosc= max ðtdiff; tthÞ
+
+;
+ð4Þ
+where tdiff ¼ πR2
+0=DðairÞ
+χ
+and tth ¼ 3πR0=ð2vthÞ are roughly
+the time it takes an mCP to collisionally diffuse or
+thermally free-stream a distance R0, respectively, and
+DðairÞ
+χ
+¼ Tχ=ðmχΓðairÞ
+p
+Þ is the mCP thermal diffusion coef-
+ficient in air [26]. Compared to Eq. (1), Eq. (4) is thus
+enhanced by the ratio of the oscillation time tosc and the
+mCP crossing time.
+The efficiency factors εweak and εstrong of Eqs. (1) and (2)
+are discussed in more detail in Supplemental Material [41],
+where it is shown that εweak and εstrong are exponentially
+suppressed if the time tdiff þ tth for mCPs to cross the
+experimental volume is large compared to the oscillation
+time tosc. As we will show below, for setups operated
+in atmospheric pressure, this exponential suppression
+becomes severe for sufficiently large charges, qχ ≫10−4.
+As discussed in detail in Ref. [30], the form of Eq. (2)
+neglects backreactions from coherent mCP self-inter-
+actions. This can arise if the repulsive force from the
+accumulated mCPs significantly perturbs the phase-space
+of newly arriving particles. This is most relevant when
+the interactions are mediated by a kinetically mixed dark
+photon [42] and the mCP’s contribution to the dark
+photon’s Debye mass is larger than the inverse size of
+the shell, m0
+D ≳R−1
+0 . For the Cavendish experiments dis-
+cussed below, such effects are negligible if the accumulated
+charge density is smaller than ρχ ≲109 cm−3 × ðeqχ=α0Þ,
+where α0 is the dark photon fine-structure constant. Since
+this corresponds to charge densities well above the
+sensitivity thresholds of the detectors discussed below, this
+does not significantly impact our final results.
+Recasting Cavendish tests—As shown in Supplemental
+Material [41], it is advantageous for a Cavendish experi-
+ment to oscillate the voltage at a sufficiently low frequency,
+since this allows the mCPs ample time to pass throughout
+the experimental volume. However, a variety of systematic
+noise sources are relevant for ν0 ≲1 Hz. This is discussed
+in the 1936 work of Plimpton and Lawton [34], which
+attempted to perform a Cavendish test with a DC outer shell
+voltage, but found that this was limited by mV-scale noise
+attributed to contact potentials. This was overcome in the
+same work by instead operating at Hz-scale frequencies,
+where they were instead limited by ∼μV Johnson noise.
+Various other Cavendish tests were performed in the late
+1960s and early 1970s, operating with reduced noise at
+higher frequencies of ∼100 Hz [35], ∼1 kHz [36], and
+∼1 MHz [37]. Although Ref. [37] obtained strong sensi-
+tivity to ∼10−12 V signals, ν0 ∼MHz is much too large to
+have facilitated sensitivity to slowly moving mCPs. We will
+therefore focus specifically on recasting the work of
+Plimpton and Lawton (PL) from 1936 [34] and Bartlett,
+Goldhagen, and Phillips (BGP) from 1970 [35], since these
+searches operated with low noise (∼μV and ∼nV, respec-
+tively) and sufficiently slow frequencies to be sensitive to a
+terrestrial mCP population.
+In Ref. [34], PL employed two shells with radii of 0.76 m
+and 0.61 m. The outer shell was either kept static or driven
+at a frequency of ν0 ≃2.2 Hz with a voltage amplitude of
+ϕ0 ≃3 kV. The enclosed galvanometer did not show
+voltages in excess of ∼1 mV or ∼1 μV for ν0 ≪1 Hz
+or ν0 ∼2 Hz, respectively. Note that ∼1 μV is consistent
+with the general expectation of thermal fluctuations
+between the shells, which have a mutual capacitance of
+C ≃0.3 nF and thus voltage fluctuations at the level
+of
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+300 K=C
+p
+∼μV.
+In recasting the results of PL, we adopt Δϕχ ≲1 mV for
+ν0 ¼ 10−1 Hz and Δϕχ ≲1 μV for ν0 ¼ 2.2 Hz when
+setting limits on the mCP-induced potential difference.
+This latter noise level is equivalent to the voltage induced
+by a total charge of Q ∼103e oscillating in and out of the
+setup every second, which can arise from a permeating
+background of mCPs.
+The one remaining parameter of PL’s apparatus needed
+for our analysis is the thickness of the shells. This is
+unfortunately unknown (they are described only as “sheet
+iron”), so we adopt a typical value of 1 mm for our analysis.
+While this introduces some uncertainty into our analysis,
+we have checked that varying the thickness between 1 mm
+and 3 cm does not significantly impact our final results.
+In Ref. [35], BGP further developed the setup of PL by
+employing a series of five concentric aluminum, steel, and
+copper spheres. The outermost sphere of radius 1.48 m
+served as a local ground, and a voltage was applied to the
+next inner sphere of radius 0.55 m. A lock-in amplifier was
+PHYSICAL REVIEW LETTERS 137, 021804 (2026)
+021804-3
+
+=== PAGE 4 ===
+then used to measure the voltage difference between the
+two innermost spheres of radii 0.46 m and 0.38 m. Finally,
+a middle sphere of radius 0.5 m was used as a shield. The
+total material thickness of the shells was ∼5 cm.
+BGP performed measurements at two sets of frequen-
+cies and voltages. Although a higher frequency run at
+ν0 ≃2.5 kHz was able to obtain moderately smaller noise
+levels, of more interest to us is a lower frequency run at
+ν0 ≃250 Hz that employed a voltage of ϕ0 ≃70 kV. The
+average of eight such runs obtained a noise level of 1.2 nV,
+which we take as the limit on Δϕχ. Note that this is also
+consistent with thermal Johnson noise, since the phase-
+sensitive voltage measurement enabled by the lock-in
+amplifier narrows the measurement bandwidth to ∼1=tint,
+where tint ∼1 hr is the total integration time. As a result, for
+2πν0τ ≫1 (where τ ¼ RC and R ∼108 Ω is the amplifier’s
+input resistance), thermal voltage fluctuations are sup-
+pressed to
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+300 K=C
+p
+=
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ν2
+0tintτ
+p
+∼nV (note that this scal-
+ing with integration time is possible since the signal has a
+well-defined frequency set by ν0.)
+Armed with these experimental inputs, recasting past
+limits from PL [34] and BGP [35] into the mCP parameter
+space is straightforward. For any assumed mCP mass and
+charge, the procedure described above gives a prediction
+for the resulting charge density and induced voltage
+difference Δϕχ. Since both experiments were performed
+indoors, we take the electric field of the shell to be
+monopolelike, corresponding to βE ≃1 in Eq. (3).
+As mentioned above, the fact that these experiments
+were operated indoors can affect their ultimate sensitivity.
+In particular, the size of the grounded structures enclosing
+the driven shell dictates the range of the electric field and
+thus limits the total number of accumulated mCPs. Since
+PL oscillated the voltage of the outermost shell, we take the
+enclosing room to be of radius 3 m, with conducting walls
+of thickness 30 cm and a vent of area 1 m2 with wind speed
+10 m=s. We have checked that more conservative assump-
+tions regarding the surrounding environment have only a
+minor effect on our final results. For instance, taking the
+radius of the enclosing room to be 1 m produces a
+negligible change, whereas assuming no ventilation slightly
+degrades the ν0 < 1 Hz run of PL [which is only the
+dominant limit for a small range of couplings, as shown in
+the “PL (static)” line in Supplemental Fig. S2]. BGP
+instead operated the voltage on an inner shell, and so we
+take the size of their enclosing structure to be that of the
+outermost shell.
+Our results are presented in Fig. 1, which shows the
+combined limits recast from PL and BGP for various
+choices of the ambient number density nχ (the individual
+limit derived from each experimental run is shown in the
+Supplemental Material [41]. The various features are
+simple to understand at the qualitative level. First, neither
+PL nor BGP provides any meaningful sensitivity for
+sufficiently large couplings, since in this case the enhanced
+interaction strength implies that the time for mCPs to
+diffuse throughout the experiment is much longer than the
+voltage oscillation time. Limits derived from BGP appear at
+smaller couplings compared to those from PL, due to the
+larger operating frequency and smaller noise level. See the
+Supplemental Material [41] for additional discussion along
+these lines.
+For mχ ≳qχE0=g⊕the gravitational field g⊕of the Earth
+overcomes the electric field of the driven shell, preventing
+its ability to accumulate mCPs. Also note that the signal is
+suppressed for sufficiently small masses. This is due to the
+fact that the mCP-atomic scattering cross section is reduced
+at small momentum-transfer from shielding of the nuclear
+charge by atomic electrons. Furthermore, more collisions
+are required to efficiently exchange energy for mCPs much
+lighter than the nucleus. Both of these effects suppress the
+ability for MeV-scale mCPs to scatter and become bound to
+the charged shell.
+It is interesting to note that the limits shown in Fig. 1 are
+competitive and complementary to those recently derived
+FIG. 1.
+New limits on the terrestrial density nχ of room-
+temperature millicharged particles (regardless of their origin),
+recast from past Cavendish experiments [34,35]. These are shown
+as blue shaded regions, labeled according to the assumed value of
+nχ. Also shown are previous limits from accelerator probes [8–
+16] and SN1987A [17] (gray), as well as limits from ion traps for
+a couple representative densities, nχ ¼ 1 cm−3 (solid cyan) and
+nχ ¼ 102 cm−3 (dashed cyan) [18]. A more detailed comparison
+to ion trap experiments is shown in Fig. ?. Above the solid gray
+line, millicharged dark matter quickly sheds its kinetic energy in
+Earth’s atmosphere before reaching surface-level and under-
+ground direct detection experiments. Below this line, direct
+detection experiments are sensitive to a millicharged dark matter
+population, provided that these particles make up a sufficiently
+large fraction of the dark matter density, fDM ≳10−8 [25]. Above
+the dashed black line, millicharged dark matter is able to
+efficiently thermalize as it passes through Earth, which leads
+to large terrestrial overdensities (see Ref. [30]).
+PHYSICAL REVIEW LETTERS 137, 021804 (2026)
+021804-4
+
+=== PAGE 5 ===
+from ion traps [18,43]. As shown in more detail in Fig. ? in
+Supplemental Material [41], these Cavendish tests are
+sensitive to smaller ambient number densities, as small
+as nχ ∼10−1 cm−3, as well as smaller couplings for the
+same assumed density. In comparison, current ion trap
+experiments are only sensitive to number densities of
+nχ ≳1 cm−3 and to larger couplings.
+Future sensitivity with an accumulator—As shown in
+our companion paper [30], the local mCP density can be
+drastically enhanced inside an “accumulator shell” held at
+fixed voltage, which follows from the same physics of
+Eq. (2). In particular, the overdensity of mCPs accumulated
+by a trap of radius Rtrap run for a total time ttrap is given by
+ntrap=nχ ≃3εðtrapÞ
+strongVðtrapÞ
+E
+ttrap=Rtrap, where VðtrapÞ
+E
+and εðtrapÞ
+strong
+are defined analogous to Eqs. (3) but with the relevant
+parameters being that of the static accumulator shell.
+If a Cavendish experiment is operated in the interior, its
+sensitivity is enhanced by the larger density. In particular,
+we consider a setup with an outer accumulator shell of
+radius Rtrap ¼ 2 m enclosing a “Cavendish shell” of radius
+R0 ¼ 1 m. We take the Cavendish shell to enclose a solid
+sphere of radius 0.5 m, which functions to enhance the
+likelihood that mCPs scatter and lose energy within the
+experimental volume. For concreteness, we take all
+material to be made of iron, and the thickness of both
+shells is assumed to be 1 mm. The accumulator shell is
+assumed to be held at a fixed voltage of ϕtrap ¼ −1 MV
+relative to ground; the sign of ϕtrap < 0 is chosen to target
+positively charged mCPs, which remain unbound with
+atomic nuclei [30], and which can accumulate due to
+Earth’s electric field.
+The Cavendish shell and enclosed solid sphere are taken
+to operate similar to the Cavendish experiment of BGP from
+1970 [35], corresponding to an oscillating shell potential of
+ϕ0 ¼ 50 kV with frequency ν0 ¼ 250 Hz. The potential
+difference between the Cavendish shell and the sphere is
+assumed to be measured with a lock-in amplifier also
+comparable to that used by BGP, but with an extended
+integration time of tint ¼ 1 yr instead of 1 hr, corresponding
+to a reduced noise level of 10−9 V ×
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+hr=yr
+p
+∼10−11 V. In
+principle, these noise levels can be parametrically reduced
+through the use of a resonantly tuned high-Q LC circuit. We
+do not consider this in detail, though, since these operate at
+cryogenic temperatures, substantially increasing the mCP
+diffusion time tdiff.
+Even a relatively conservative implementation of this
+experimental concept that is operated indoors at room
+temperature and atmospheric pressure can parametrically
+enhance the sensitivity shown in Fig. 1. However, we will
+consider a few additional modifications in order to extend
+the discovery prospects further. For instance, in our
+estimates, the voltage of the accumulator shell is held
+fixed for a period of ttrap ¼ 1 yr. Ideally, this should be
+operated outdoors, since the total number of trapped mCPs
+is ultimately limited by the size of an enclosure if it is
+placed indoors [30]. We also note that the time for an mCP
+to diffuse throughout several meters of room-temperature
+air becomes non-negligible compared to the voltage oscil-
+lation time for couplings qχ ≫10−3. This motivates oper-
+ating the inner region of the accumulator shell in vacuum,
+which significantly reduces the total diffusion time of the
+mCPs throughout the experimental volume. This requires
+maintaining vacuum through purely passive means, such as
+cryopumping, as most active measures would also deplete
+the trap of strongly coupled mCPs.
+In our estimates, we take the enclosed volume to operate
+at room temperature and at a pressure of 10−6 atm because
+this approximately saturates the benefit of operating with
+low vacuum (i.e., for smaller values, our results are
+approximately independent of this choice). Instead, for
+the largest mCP couplings we consider in this Letter, the
+reach of our setup is degraded for parametrically larger
+pressures, but is only mildly affected unless internal
+pressures exceed 10−4 atm. In this low pressure environ-
+ment, mCPs do not necessarily scatter with air molecules
+within the shells, in which case we approximate their
+motion as ballistic. This results in an increased kinetic
+energy as the mCPs are accelerated by the electric field of
+the inner shell, thereby further decreasing their diffusion
+time throughout the experiment and leading to an enhanced
+reach for larger charges.
+Following the formalism of Ref. [30], we calculate the
+overdensity of mCPs accumulated by a trap placed out-
+doors, which can be used to determine the reach of this
+setup. The projected model-independent sensitivity is
+shown in Supplemental Material [41] for various choices
+of the terrestrial mCP density nχ. Many of the qualitative
+features are similar to those in Fig. 1, with the main
+difference being that this setup is sensitive to significantly
+smaller number densities (as small as nχ ∼10−16 cm−3) and
+a much larger range of couplings.
+One caveat can arise in kinetically mixed models since
+mCPs effectively couple to both the dark and visible
+electric fields. As a result, the accumulated mCPs can then
+source a dark electric field that dominates the effect of the
+SM fields, thus halting further accumulation. This occurs
+once e02nχR0 ∼eqχE0, corresponding to an mCP-induced
+visible electric field Eχ ∼eqχnχR0 ∼ðeqχ=e0Þ2E0 ∼ϵ2E0,
+where ϵ ¼ eqχ=e0 is the kinetic mixing parameter and e0 is
+the dark photon gauge coupling. Hence, accumulation
+saturates once the mCPs screen an ϵ2 fraction of the driven
+Cavendish shell’s visible field. This is thus irrelevant to our
+analysis
+for
+kinetic
+mixing
+parameters
+larger
+than
+ϵ ≳
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+Δϕχ=ϕ0
+p
+∼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1 nV=100 kV
+p
+¼ 10−7. For the large
+majority of the parameter space explored in this Letter,
+this model dependence is not of concern. In particular, this
+leaves Fig. 2 unaffected (to be discussed below), while for
+e0 ∼1 it is relevant for only a small range of couplings in
+PHYSICAL REVIEW LETTERS 137, 021804 (2026)
+021804-5
+
+=== PAGE 6 ===
+Figs. 1 and ?. We also note that mCP annihilations into dark
+photons can limit the size of the symmetric abundance; this
+is irrelevant except for the largest densities (nχ ∼106 cm−3
+in Fig. 1) and smallest masses (∼MeV) that we consider, in
+which
+case
+such
+processes
+are
+important
+only
+for e0 ≫10−2.
+Cosmic pay population—An irreducible population of
+mCPs is generated by decays of mesons in cosmic ray air
+showers. As shown in Ref. [30], the resulting terres-
+trial density of thermalized mCPs can be as large as
+nχ ∼10−5 cm−3 × ðqχ=10−4Þ2 for mχ ≪1 GeV. We now
+use those results to show that a Cavendish experiment
+enclosed within an electrostatic accumulator is sensitive to
+this population. The projected reach is shown in Fig. 2,
+adopting the same experimental inputs as described above,
+and for both indoor and outdoor operations of the experi-
+ment. The indoor experiment is assumed to be surrounded
+by conducting walls. As described in Ref. [30], it may be
+possible to operate an indoor setup with sensitivity com-
+parable to that shown for an outdoor one, depending on the
+actual room design.
+Figure 2 shows results assuming that positively charged
+mCPs are either trapped or not trapped on Earth by the
+atmospheric electric field E⊕∼1V=cm, which gives rise to
+an approximately stable ϕ⊕∼0.3 MV voltage gap between
+the crust and ionosphere. As discussed below and in
+Ref. [26], mCPs necessarily couple to such long-ranged
+electromagnetic fields in this parameter space. Therefore,
+ϕ⊕is expected to prevent evaporation of light thermalized
+mCPs, significantly enhancing their local abundance. In
+Fig. 2, we have also presented the case where the role of the
+atmospheric electric field is neglected, mainly for the
+purpose of illustrating its enhancing effect; in this sense,
+the “E⊕¼ 0” regions are unrealistically conservative, and
+we expect detailed modeling to yield results similar to or
+even stronger than our “E⊕≠0” projections. This is
+because the local mCP density can be greatly increased
+in models involving kinetically mixed dark photon medi-
+ators, since the accumulation of positively charged mCPs
+by E⊕results in a dark electric field that forces mCPs to
+predominantly occupy a narrow radial region near Earth’s
+surface (see Ref. [30] for additional discussion).
+For comparison, we also show projections of various
+proposed accelerator searches, including LDMX [44] and
+those at the LHC [14]. As discussed in Supplemental
+Material [41], both accelerators and Cavendish tests fun-
+damentally explore the same model space of mCPs with
+long-ranged interactions. Hence, we see that for sub-GeV
+masses, a Cavendish test (using existing technology and
+noise levels achieved several decades ago) is competitive
+with, and for some masses exceeds, the ability of future
+accelerator searches. As mentioned above, our projections
+assume a Johnson-noise-limited readout operating for
+tint ¼ 1 yr. While Ref. [35] did not explicitly demonstrate
+that Johnson noise continues to dominate over other
+reducible systematic noise sources for tint ≫1 hr, we note
+that the sensitivity of our proposed setup could still over-
+take that of future accelerators for noise levels of ∼10−7 V,
+corresponding to an integration time of only ∼1 s.
+Discussion—Cavendish experiments are incredibly sen-
+sitive to the small electric fields sourced by a low-density
+background of room-temperature millicharged particles.
+We
+have
+exemplified
+this
+by
+recasting
+century-old
+Cavendish tests to provide new bounds that are comple-
+mentary, and sometimes stronger, than those derived from
+modern ion traps.
+We have also proposed enclosing such an experiment
+within a static charged “accumulator shell,” analogous to a
+large Van de Graaff generator, which enhances the ambient
+millicharge density. Remarkably, this simple experimental
+setup employing decades-old technology can enable sen-
+sitivity to the irreducible terrestrial population sourced by
+cosmic rays, outperforming future accelerator searches for
+sub-GeV millicharged particles. Note that the inclusion of
+an accumulator shell also serves as a discovery tool; the
+millicharge origin of a signal could be confirmed by testing
+FIG. 2.
+Projected sensitivity of a dedicated Cavendish test
+enclosed in an electric trap to the irreducible terrestrial density of
+millicharged particles produced by cosmic rays. We take the
+millicharged particles to efficiently (E⊕≠0) or not efficiently
+(E⊕¼ 0) couple to the atmospheric electric field, which can
+substantially enhance the local density of particles near and below
+the crust. We show both possibilities for clarity, but as discussed
+in Ref. [30], ignoring the effect of E⊕is unrealistic, and thus a
+detailed modeling is likely to yield results much closer to our
+E⊕≠0 projections. This cosmic ray population is irreducible and
+solely a function of the charge and mass, such that testing this
+local density is equivalent to testing the model itself. We consider
+setups placed inside a room of radius Rroom ¼ 10 m or placed
+outdoors. Also shown as the dashed orange line is a collection of
+projections for proposed future accelerator searches, taken from
+Refs. [14,44].
+PHYSICAL REVIEW LETTERS 137, 021804 (2026)
+021804-6
+
+=== PAGE 7 ===
+the correlation with runtime, size, and voltage of the
+accumulator.
+In this Letter, we have chosen to focus exclusively on
+Cavendish tests, due to their relative simplicity. However,
+note that various different kinds of sensors could be
+operated within an accumulator shell, such as ion traps,
+skipper charge-coupled devices, or other kinds of low-
+threshold sensors. We leave the exploration of such ideas to
+future work.
+Acknowledgments—We thank Paddy Fox and Kent Irwin
+for valuable conversations. This manuscript has been
+authored in part by Fermi Forward Discovery Group,
+LLC under Contract No. 89243024CSC000002 with the
+U.S. Department of Energy, Office of Science, Office of
+High Energy Physics. This material is based upon work
+supported by the U.S. Department of Energy, Office of
+Science, National Quantum Information Science Research
+Centers, Superconducting Quantum Materials and Systems
+Center
+(SQMS)
+under
+Contract
+No.
+DE-AC02-
+07CH11359. This work was supported in part by NSF
+Grants No. PHY-2310429, No. PHY-2515007, Simons
+Investigator Award No. 824870, the Gordon and Betty
+Moore Foundation Grant No. GBMF7946, the University
+of Delaware Research Foundation, and the John Templeton
+Foundation Award No. 63595.
+Data availability—The data that support the findings of
+this article are not publicly available. The data are available
+from the authors upon reasonable request.
+[1] E. Zavattini et al. (PVLAS Collaboration), Experimental
+observation of optical rotation generated in vacuum by a
+magnetic field, Phys. Rev. Lett. 96, 110406 (2006); 99,
+129901(E) (2007).
+[2] J. Chang et al., An excess of cosmic ray electrons at energies
+of 300–800 GeV, Nature (London) 456, 362 (2008).
+[3] O. Adriani et al. (PAMELA Collaboration), An anomalous
+positron abundance in cosmic rays with energies 1.5–
+100 GeV, Nature (London) 458, 607 (2009).
+[4] R. Barkana, Possible interaction between baryons and dark-
+matter particles revealed by the first stars, Nature (London)
+555, 71 (2018).
+[5] A. Berlin, D. Hooper, G. Krnjaic, and S. D. McDermott,
+Severely constraining dark matter interpretations of the 21-
+cm anomaly, Phys. Rev. Lett. 121, 011102 (2018).
+[6] R. Barkana, N. J. Outmezguine, D. Redigolo, and T.
+Volansky, Strong constraints on light dark matter interpre-
+tation of the EDGES signal, Phys. Rev. D 98, 103005
+(2018).
+[7] H. Liu, N. J. Outmezguine, D. Redigolo, and T. Volansky,
+Reviving millicharged dark matter for 21-cm cosmology,
+Phys. Rev. D 100, 123011 (2019).
+[8] S. Davidson, S. Hannestad, and G. Raffelt, Updated bounds
+on millicharged particles, J. High Energy Phys. 05 (2000) 003.
+[9] A. Haas, C. S. Hill, E. Izaguirre, and I. Yavin, Looking for
+milli-charged particles with a new experiment at the LHC,
+Phys. Lett. B 746, 117 (2015).
+[10] A. A. Prinz et al., Search for millicharged particles at SLAC,
+Phys. Rev. Lett. 81, 1175 (1998).
+[11] R. Acciarri et al. (ArgoNeuT Collaboration), Improved
+limits on millicharged particles using the ArgoNeuT
+experiment at Fermilab, Phys. Rev. Lett. 124, 131801
+(2020).
+[12] A. Ball et al. (milliQan Collaboration), Sensitivity to
+millicharged particles in future proton-proton collisions at
+the LHC with the milliQan detector, Phys. Rev. D 104,
+032002 (2021).
+[13] C. A. Argüelles Delgado, K. J. Kelly, and V. Muñoz
+Albornoz, Millicharged particles from the heavens: Single-
+and multiple-scattering signatures, J. High Energy Phys. 11
+(2021) 099.
+[14] R. Alemany Fernández et al. (PBC Collaboration), Sum-
+mary report of the physics beyond colliders study at CERN,
+arXiv:2505.00947.
+[15] A. Hayrapetyan et al. (CMS Collaboration), Search for
+fractionally charged particles in proton-proton collisions at
+s ¼ 13 TeV, Phys. Rev. Lett. 134, 131802 (2025).
+[16] S. Alcott et al., Search for millicharged particles in proton-
+proton collisions at
+ﬃﬃs
+p ¼ 13.6 TeV, Phys. Rev. Lett. 135,
+121802 (2025).
+[17] J. H. Chang, R. Essig, and S. D. McDermott, Supernova
+1987A constraints on sub-GeV dark sectors, millicharged
+particles, the QCD axion, and an axion-like particle, J. High
+Energy Phys. 09 (2018) 051.
+[18] D. Budker, P. W. Graham, H. Ramani, F. Schmidt-Kaler, C.
+Smorra, and S. Ulmer, Millicharged dark matter detection
+with ion traps, PRX Quantum 3, 010330 (2022).
+[19] P. C. Kim, E. R. Lee, I. T. Lee, M. L. Perl, V. Halyo, and D.
+Loomba, Search for fractional-charge particles in meteoritic
+material, Phys. Rev. Lett. 99, 161804 (2007).
+[20] D. C. Moore, A. D. Rider, and G. Gratta, Search for milli-
+charged particles using optically levitated microspheres,
+Phys. Rev. Lett. 113, 251801 (2014).
+[21] G. Afek, F. Monteiro, J. Wang, B. Siegel, S. Ghosh, and
+D. C. Moore, Limits on the abundance of millicharged
+particles bound to matter, Phys. Rev. D 104, 012004 (2021).
+[22] P. Adari et al. (SENSEI Collaboration), First direct-detec-
+tion results on sub-GeV dark matter using the SENSEI
+detector at SNOLAB, Phys. Rev. Lett. 134, 011804 (2025).
+[23] K. Aggarwal et al. (DAMIC-M Collaboration), Probing
+benchmark models of hidden-sector dark matter with
+DAMIC-M, Phys. Rev. Lett. 135, 071002 (2025).
+[24] E. Iles, S. Heeba, and K. Schutz, Dark matter direct
+detection experiments are sensitive to the millicharged
+background, Phys. Rev. Lett. 134, 121002 (2025).
+[25] M. Pospelov and H. Ramani, Earth-bound millicharge
+relics, Phys. Rev. D 103, 115031 (2021).
+[26] A. Berlin, H. Liu, M. Pospelov, and H. Ramani, Terrestrial
+density of strongly-coupled relics, Phys. Rev. D 109,
+075027 (2024).
+[27] R. Plestid, V. Takhistov, Y.-D. Tsai, T. Bringmann, A.
+Kusenko, and M. Pospelov, New constraints on milli-
+charged particles from cosmic-ray production, Phys. Rev.
+D 102, 115032 (2020).
+PHYSICAL REVIEW LETTERS 137, 021804 (2026)
+021804-7
+
+=== PAGE 8 ===
+[28] T. Gao and M. Pospelov, Constraints on millicharged
+particles from nuclear gamma-decays, arXiv:2507.17955.
+[29] J. Jaeckel, Probing minicharged particles with tests of
+Coulomb’s law, Phys. Rev. Lett. 103, 080402 (2009).
+[30] A. Berlin, Z. Bogorad, P. W. Graham, and H. Ramani,
+companion paper, Electric accumulation of millicharged
+particles, Phys. Rev. D 114, 015016 (2025).
+[31] G. Spavieri, G. T. Gillies, and M. Rodriguez, Physical
+implications of Coulomb’s law, Metrologia 41, S159
+(2004).
+[32] L.-C. Tu, J. Luo, and G. T. Gillies, The mass of the photon,
+Rep. Prog. Phys. 68, 77 (2005).
+[33] J. C. Maxwell, A Treatise on Electricity and Magnetism
+(Oxford University Press, Great Britain, 1873).
+[34] S. J. Plimpton and W. E. Lawton, A very accurate test of
+Coulomb’s law of force between charges, Phys. Rev. 50,
+1066 (1936).
+[35] D. F. Bartlett, P. E. Goldhagen, and E. A. Phillips, Exper-
+imental test of Coulomb’s law, Phys. Rev. D 2, 483 (1970).
+[36] G. D. Cochran and P. A. Franken, Bull. Am. Phys. Soc. 13,
+1379 (1968).
+[37] E. R. Williams, J. E. Faller, and H. A. Hill, New experi-
+mental test of Coulomb’s law: A laboratory upper limit on
+the photon rest mass, Phys. Rev. Lett. 26, 721 (1971).
+[38] R. E. Crandall, Photon mass experiment, Am. J. Phys. 51,
+698 (1983).
+[39] Landau and Lifshitz, Physical Kinetics (1979), Vol. 10.
+[40] A. Berlin, R. T. D’Agnolo, S. A. R. Ellis, P. Schuster, and N.
+Toro, Directly deflecting particle dark matter, Phys. Rev.
+Lett. 124, 011801 (2020).
+[41] See Supplemental Material at http://link.aps.org/suppleme
+ntal/10.1103/83fd-mnpk derives the induced mCP charge
+density inside a driven conducting shell across ballistic,
+collisional, and self-scattering regimes. We then decompose
+the accumulation efficiency factors (diffusion, gravity,
+room, binding) and derives the high-frequency suppression
+that exponentially damps the signal when the voltage
+oscillation is faster than the mCP transit time. Figures
+S1–S3 present the model-independent projected sensitivity
+of a vacuum accumulator-shell setup and the recast limits
+from past Plimpton-Lawton and BGP Cavendish experi-
+ments, compared against ion-trap bounds. A final section
+discusses the model dependencies of Cavendish tests.
+[42] B. Holdom, Two U(1)’s and epsilon charge shifts, Phys.
+Lett. 166B, 196 (1986).
+[43] D. Carney, H. Häffner, D. C. Moore, and J. M. Taylor,
+Trapped electrons and ions as particle detectors, Phys. Rev.
+Lett. 127, 061804 (2021).
+[44] A. Berlin, N. Blinov, G. Krnjaic, P. Schuster, and N. Toro,
+Dark matter, millicharges, axion and scalar particles, gauge
+bosons, and other new physics with LDMX, Phys. Rev. D
+99, 075001 (2019).
+PHYSICAL REVIEW LETTERS 137, 021804 (2026)
+021804-8
+

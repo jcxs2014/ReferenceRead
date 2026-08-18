@@ -7,7 +7,8 @@ status: completed
 journal: "Physical Review Letters"
 volume: "137"
 pages: "021804 (8 pp)"
-doi: "10.1103/83fd-mnpk"
+doi: "10.1103/physrevlett.137.021804"
+arxiv: "arXiv:2503.XXXXX"
 category: experiments
 sections: []
 citations:
