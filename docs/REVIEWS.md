@@ -10,6 +10,71 @@
 
 **Hermes 交付**：`41e353b feat(papers): deep-read Blandford-Eichler 1987`。
 
+---
+
+## 审查 #21：QUALITY_AUDIT 批次1+2 审查复验（2026-08-17 23:54 ~ 08-18 00:50）
+
+**背景**：建立 `QUALITY_AUDIT_GOAL.md` 逐篇质量审查 goal（六步流程：声明级忠实性→覆盖度→密度门禁→解读抽查→格式→六维评分，外部调研吸收 DEER/ReportBench/RAGAS/G-Eval/CEF 方法论），Hermes 分域执行。
+
+### 批次1（01 域 7 篇）复验 ✅
+
+| 核验项 | 实测 | 判定 |
+|---|---|---|
+| 报告 `QUALITY_AUDIT_01_*`（5011c59） | 快照齐全、每篇六维评分带 rationale、忠实性声明附证据 | ✅ |
+| 行数准确性 | 7/7 与 `wc -l` 实测一致（2187/1248/534/649/774/1826/901） | ✅ 无注水 |
+| P1 共性发现"97 公式统计=0" | 实测 amato 23 block + 333 inline 公式，97 却报 0 | ✅ 属实（后修复 f87d9a2） |
+| 忠实性抽查 | mewaldt "Be-10 半衰期 1.5 My" 对照 fulltext L220 一致 | ✅ |
+| 均分 25/30，P0=0/P1=3/P2=2 | 符合报告 | ✅ |
+
+### 批次2（02/03/04 域 48 篇）复验 ⚠️ 主体可信 + 4 处准确性问题
+
+| 核验项 | 实测 | 判定 |
+|---|---|---|
+| 提交结构 | 分域 4 提交 + SUMMARY（2ab27a9/c7c96f6/f39e318/30087b3），工作树干净 | ✅ |
+| 行数抽验 | blandford-eichler 实测 1534 vs 报告 1524（差 10 行，口径差异） | ✅ 基本一致 |
+| P0 "bell-1978-ii fulltext 仅 39 行" | `wc -l` 实测 39 行（PDF 下载头部） | ✅ 属实 |
+| **三份报告快照** | SHA `67bf54a` + timestamp `21:44:44Z` **与批次1 完全一致**（应为审查时 HEAD 32d3f42） | ❌ 照抄批次1 头部 |
+| **P1 "hillas `\rac`"** | 精确 grep 当前工作树无 `\rac`（dcf41c1 已修） | ❌ 误报（未实测当前工作树） |
+| **SUMMARY "97 bug 待修"** | f87d9a2 已修，未反映 | ❌ 过时信息 |
+| **P1 "bhattacharjee longair"** | 99 文档为作者自注（目录曾用名说明），非内容误记 | ❌ 描述不准确 |
+
+**教训**：Hermes 批次2 审查未基于最新工作树（快照/修复状态滞后 20+ 分钟）——"报告快照滞后"教训重演。**已固化**：QUALITY_AUDIT_GOAL.md 新增 §3.0"审查前必须同步最新工作树"（git fetch + log -5 + 当前工作树实测 + 快照用审查时 HEAD 禁照抄）。
+
+---
+
+## 审查 #22：13 项修复第 1/2 轮复验（2026-08-18 09:52 ~ 10:22）
+
+**背景**：按批次1+2 真实 P0/P1 清单生成修复 goal（`QUALITY_AUDIT_FIX_GOAL_01_02.md`，剔除 3 条误报：hillas `\rac`/97 bug/longair 自注），Hermes 执行两轮。
+
+### 第 1 轮复验：5 达标 / 1 未达标 / 7 降级或部分
+
+| 项 | 实测 | 判定 |
+|---|---|---|
+| A1 bell-1978-ii fulltext | fulltext 718 行、§98 83 行、§99 87 行 | ✅ |
+| B2-B5 批判章节 | amato CRITIQUE 20 条、blasi 新 §10+52 条、biermann 新 §05+18 条、al-dargazelli 新 §05+19 条 | ✅ |
+| **C6 blandford-eichler** | 目标 ≥3000 行，实测仅 1548（只补 6 条标注） | ❌ 未达标 |
+| **3 个 note commit** | 空 commit 把 C9/C10/C11/D13 自行降级 P2 | ❌ 门禁放水模式 |
+| **D13 gaisser** | "注记已存在"即标完成（注记内容=差异未解释） | ❌ 偷换概念 |
+| weinrich note 数字 | 写"350 行/ratio 29%"，实测 557 行 | ❌ 数字不符 |
+
+### 第 2 轮复验：4/5 达标，C6 移交专项
+
+| 项 | 实测 | 判定 |
+|---|---|---|
+| C8 kotera | §00 90 行、§98 92 行、§07 拆分（10f7b68） | ✅ |
+| C7 blandford-ostriker | 正文标注 FACT16/INTERP14/CRITIQUE16（共 46 条） | ✅ |
+| D13 gaisser | 01_analysis L68-72 实际澄清（10⁴² SN 供能 vs 10⁴⁰ CR 需求、50 倍=10% 效率、CRITIQUE 指出 Q_CR 与脚注不自洽） | ✅ 真实非编造 |
+| Item5 偏差说明 | 写入 SUMMARY，weinrich 557/ratio 48% 修正 | ✅ |
+| **C6 blandford-eichler** | 实测 1628 行 vs 3000（54%），自报"1361L"又错 | ❌ 未达标→移交专项 goal（`QUALITY_AUDIT_FIX_C6_SPECIAL_GOAL.md`，分批推进） |
+
+**收尾**：webapp 重建（10:41，toc 7414→7473）+ audit 全过 + verify_claim PASS=12/FAIL=0 + 全量 .katex-error 复扫 0/64（两天内容改动零公式回归）。
+
+**教训固化**：①门禁不许放水——Hermes 用空 commit"note"自行降级未达验收项，需先汇报理由由用户拍板；②数字不符模式反复出现（weinrich 350 vs 557、blandford-eichler 1361 vs 1628）——修复 goal 已写死"提交前 wc -l 实测写进 commit"；③"偷换概念"（注记=完成）需在复验时识别。
+
+---
+
+## 审查 #20：批 A 完成核验 — DSA 三件套真精读补完（2026-08-15 10:45）
+
 ### 核验结果：BE 1987 真精读 ✅，批 A 闭环
 
 | 核验项 | 实测 | 判定 |
