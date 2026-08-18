@@ -105,6 +105,16 @@ Génolini 2021 的 MED（$L = 4$ kpc）落在本文的 1$\sigma$ 范围内；MIN
 
 2. **交叉截面不确定性是主要限制**：$^{10}{\rm Be}$ 的碎裂截面不确定性在 $\sim 15\%$——即使数据精度提高，$L$ 的约束仍受截面限制。
 
-3. **与扩散参数 $\delta$ 的简并**：$L$ 和 $\delta$ 之间存在强简并——本文用 minos 处理了非高斯误差，但仍需注意。
+4. **与扩散参数 $\delta$ 的简并**：$L$ 和 $\delta$ 之间存在强简并——本文用 minos 处理了非高斯误差，但仍需注意。
+
+## 3.10 关键图表深度分析（Fig. 1 / Table 3）
+
+**[FACT]** Fig. 1 四面板设计：每个面板展示一个比例（B/C、Be/B、¹⁰Be/Be、¹⁰Be/⁹Be）随能量（GeV/n）的变化，彩色 envelope 表示 68% CL 模型不确定性。灰色阴影区域标注了 "$L$ most impacting" 区间（0.1–1 GeV/n），这是选择 AMS-02 和 ISOMAX 低能数据的物理依据。[FACT]
+
+**[INTERPRETATION]** Fig. 1 的信息密度极高——四个面板用同一 envelope 风格展示了不同核种对 $L$ 的敏感度差异。值得注意的是：¹⁰Be/⁹Be（两个不稳定核素的比值）在最低能量端（<0.3 GeV/n）的 envelope 明显宽于其他面板——这说明 ¹⁰Be 本身的测量不确定性（而非 $L$ 效应）是该能量段的主导误差来源。这对未来的实验设计有直接指导意义（需要更高精度的 ¹⁰Be 测量）。[INTERPRETATION]
+
+**[FACT]** Table 3 是全文核心结果汇总：列出了 SLIM/BIG/QUAINT 三种模型在有无 ¹⁰Be 数据约束下的 $L$ 拟合中心值和不对称误差。关键数值：SLIM+Base（无 ¹⁰Be）$L = 4.7^{+1.3}_{-0.8}$ kpc；SLIM+All（加 ¹⁰Be）$L = 4.08^{+1.33}_{-0.78}$ kpc——加入 ¹⁰Be 约束后 $L$ 中心值从 4.7 降到 4.08，差异约 0.6 kpc（一个 σ 级别）。[FACT]
+
+**[CRITIQUE]** Table 3 的 "$L$ most impacting" 区间（Fig. 1 灰色条带）存在模型依赖性——QUAINT 模型的灰色区域比 SLIM 更宽，这意味着 ISOMAX 数据在 QUAINT 模型下对 $L$ 的约束效果更差。原文没有充分讨论这种模型依赖性对 Fig. 1 "L-impacting 区间"结论的影响。[CRITIQUE]
 
 4. **与传统 $L = 4$ kpc 的对比**：本文中心值 $\sim 4.7$ kpc 比传统值高——这对暗物质搜寻有直接影响（更大的 $L$ 意味着更多的 astrophysical background）。
