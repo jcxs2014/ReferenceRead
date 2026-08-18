@@ -303,9 +303,23 @@ $$E_{\rm max} \sim 10^{15} \left(\frac{Z}{26}\right) \left(\frac{B}{100\,\mu{\rm
 
 4. **高能区 Fe 成分**（$10^5 - 10^9$ GeV）：B&E 时认为可能是 Fe 主导，后来 AMS-02 等观测表明膝点以上仍是质子主导——这是一个被修正的观测解读。
 
-## 2.15 宇宙线传播路径与次级产物（从 fulltext 补充）
+## 2.16 宇宙线的各向异性测量与方向重建（从 fulltext 补充）
 
-### 2.15.1 扩散-对流方程与传播函数
+### 2.16.1 宇宙线各向异性的观测证据
+
+[FACT] B&E §2 讨论了 CR 的各向异性（anisotropy）：由于银河系磁场对 CR 的散射，CR 流的方向应该是随机的，但观测发现存在微弱的各向异性：① **偶极 anisotropy**：在 $10^{14}-10^{15}$ eV 能区，CR 流方向指向银心方向，amplitude $\delta \sim 10^{-4}$；② **大尺度结构**： anisotropy 方向与银道面成一定角度，与局部磁场结构有关；③ **小尺度各向异性**：在更高能量（$>10^{17}$ eV），存在小尺度 anisotropy（angular scale $\sim 10^\circ$），可能是局部源（年老 SNR、分子云等）的贡献。B&E 在 1987 年对这些 anisotropy 的解释与今天不同——他们认为主要来自传播效应（diffusion anisotropy），而今天的研究表明部分 anisotropy 可能来自局部源贡献。[FACT]
+
+[INTERPRETATION] 各向异性测量的物理价值：① **传播诊断**：各向异性 amplitude $\delta$ 与扩散系数 $D$ 的关系为 $\delta \sim v_{\rm diff}/c \sim (c/3D) \cdot (u_{\rm gal} t_{\rm esc})$——测量 $\delta$ 可以约束 $D$；② **局部源探测**：如果 anisotropy 指向已知 SNR 或分子云，这个 SNR/分子云很可能是本地 CR 的贡献源；③ **磁场结构探针**：各向异性方向与局部磁场方向有关，可以用来诊断银道面附近的磁场方向。B&E 已经认识到各向异性测量对传播参数诊断的价值，但受限于 1987 年的观测精度，无法做精确约束。[INTERPRETATION]
+
+[CRITIQUE] B&E 对各向异性解释的局限性：① **他们假设各向异性全部来自传播**：但现代观测（尤其是 IceCube 170922A 与 TXS 0506+056 的对应）表明部分 anisotropy 可能来自局部源；② **他们没有考虑磁场镜点效应**：在某些磁场位型（如磁镜结构）中，CR 可能被捕获，导致更强的 anisotropy；③ **能量依赖的解释**：不同能量的 anisotropy 可能来自不同机制——低能（$<10^{15}$ eV）主要来自传播，高能（$>10^{17}$ eV）可能来自局部源。B&E 的处理过于简化，没有区分这些不同情况。[CRITIQUE]
+
+### 2.16.2 宇宙线到达方向的磁场偏转
+
+[FACT] 银河系磁场 $B \sim 5$ μG 会偏转带电 CR 粒子的轨迹：gyroradius $r_g = E/(ZeB) \approx 1$ kpc for $E/Z = 10^{18}$ eV。这意味着对 $E/Z < 10^{18}$ eV 的 CR，磁场偏转在传播时间尺度内是随机化的，各向异性被抑制；对 $E/Z > 10^{18}$ eV 的 CR，磁场偏转不完全，随方向保留了部分 anisotropy 信息。因此，对 UHE CR（$E > 10^{18}$ eV），方向重建（reconstructing the arrival direction back to the source）是一个挑战，但也不是完全不可能——多事件方向重建可以揭示 CR 来源的统计分布。[FACT]
+
+[INTERPRETATION] 磁场偏转对 CR 天文学的深层含义：① **"模糊"的天文图像**：低能 CR（$<10^{17}$ eV）由于磁场偏转，几乎不可能做单源方向重建——CR 天文学在这个能量区间本质上是"统计"的；② **高能 CR 的方向信息**：对 $E > 10^{18}$ eV 的 CR，方向信息部分保留，有可能做某种程度的单源定位（Pierre Auger 和 Telescope Array 已经观测到一些 UHECR hotspot）；③ **磁场建模的重要性**：精确的方向重建需要精确的银河系磁场模型——这是目前的一个主要不确定性来源。B&E 在 1987 年已经有了这个基本物理认识，但没有深入讨论其对 CR 天文学的影响。[INTERPRETATION]
+
+[CRITIQUE] B&E 对磁场偏转的讨论有几个不足：① **银河系磁场模型**：1987 年的磁场模型还很粗糙，今天的模型（如 JF2012）结合了旋转测量、脉冲星消光等数据，比 B&E 时代精确得多；② **能量范围**：B&E 主要关注 GeV-TeV CR，这些粒子的 gyroradius 远小于银河系尺度，磁场偏转完全随机化——他们对 UHE CR 的磁场偏转讨论有限；③ **河外磁场**：UHE CR 在穿越星系际空间时也受磁场偏转——这个效应在 B&E 时代几乎不了解，今天的 CMB 和星系团磁场观测正在逐步改善这个状况。B&E 的讨论对低能 CR 是充分的，但对 UHE CR 区间是不充分的。[CRITIQUE]
 
 [FACT] B&E §2 讨论了银河系内 CR 的传播方程（diffusion-convection equation）：
 $$\frac{\partial N}{\partial t} = \nabla \cdot (D \nabla N) - \mathbf{u} \cdot \nabla N - \frac{N}{t_{\rm esc}}$$
