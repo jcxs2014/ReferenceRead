@@ -214,7 +214,7 @@ $$\frac{\Delta T(\theta)}{T} = \begin{cases} \approx 1, & \theta \to 0° \text{�
 
 **[INTERPRETATION]** Fig. 9 直接验证 $L_{c}/R_{\text{sh}}$ 判据：
 
-$$\text{Injection regime} = egin{cases} \text{non-local}, & L_{c}/R_{\text{sh}} \gg 1 \\ \text{local}, & L_{c}/R_{\text{sh}} \ll 1 \end{cases}$$
+$$\text{Injection regime} = \begin{cases} \text{non-local}, & L_{c}/R_{\text{sh}} \gg 1 \\ \text{local}, & L_{c}/R_{\text{sh}} \ll 1 \end{cases}$$
 
 **[CRITIQUE]** Run 7 的 $V_{\text{sh}} t_{\text{max}}/L_{c} = 0.5$ 意味着模拟时间**短**于一个 $L_{c}$ 穿越时间 —— 粒子加速时间不足，高能谱可能被低估。
 
