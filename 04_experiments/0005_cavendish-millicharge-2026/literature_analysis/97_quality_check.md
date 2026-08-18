@@ -25,9 +25,9 @@
 | 图 (Figure) | 2 | Fig. 1 (PL/BGP recast)、Fig. 2 (accumulator 灵敏度) |
 | 表 (Table) | 8 | 各章参数表 + 参考文献分类表 |
 | 公式 | 8 | 公式 1–8（含积聚密度、Debye 屏蔽、积聚速度、不可约通量等） |
-| [FACT] | ~55 | 事实陈述 |
-| [INTERPRETATION] | ~10 | 解读 |
-| [CRITIQUE] | ~12 | 批判 |
+| [FACT] | 38 | 实测：grep -c '\[FACT\]' 各章 |
+| [INTERPRETATION] | 13 | 实测：grep -c '\[INTERPRETATION\]' 各章 |
+| [CRITIQUE] | 17 | 实测：grep -c '\[CRITIQUE\]' 各章 |
 
 ## 完成度评分
 
