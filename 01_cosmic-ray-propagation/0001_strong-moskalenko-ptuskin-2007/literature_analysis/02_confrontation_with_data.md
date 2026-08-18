@@ -495,6 +495,16 @@ $$\beta_\nu = (\gamma - 1)/2$$
 
 [FACT] 理论侧：银河系 CR 动力学模型与 CR 传播理论的关系。
 
+[INTERPRETATION] §5 Future Issues 中作者列出的 7 个开放问题，15 年后（到 2022 年 AMS-02 全部数据、HERMES 等计划、CTA 开始运行）来看，绝大多数仍无决定性答案——特别是正电子超量、CR 源分布、扩散系数能量依赖。这本身就是本综述"前瞻性"的一个证据，同时也说明宇宙线传播是"慢烧"的领域：数据积累慢、模型改进慢、共识形成更慢。
+
+[INTERPRETATION] "relative roles of diffusion, convection and reacceleration" 这一开放问题，实际上对应 §2 中传播方程 (1) 的三项主导物理。作者用"relative roles"这个措辞，暗示三项中任何一项的精确权重都尚未被定——这与 GALPROP 参数化中 $L_h$、$V_c$、$V_a$ 三个关键自由参数的经验性相印证。
+
+[INTERPRETATION] "are positrons and antiprotons explained as secondaries from primary CR or is there a – perhaps exotic – excess?" 这一句在 2007 年写下时，尚未出现 Pamela (2008) 和 AMS-02 (2013) 的正电子超量数据。作者把"exotic"（指暗物质或原初黑洞）明确列为可能解释，显示该综述在理论上是"开放"的，没有预设立场——这是一种值得称赞的科学态度，也在 15 年后被历史所验证。
+
+[CRITIQUE] §4 Summary Points 只列 3 条"要点"，过于简略——对于一个涵盖 189 篇文献、16 张 Figure 的综述而言，"要点"应当是方法论层面的总结，而非仅罗列"考虑所有数据""用数值模型""新数据需要新模型"这样的通用陈述。
+
+[CRITIQUE] §5 Future Issues 的开放问题列表中没有提及"CR 与暗物质的相互作用"（尽管 §5.5 中已作为正电子超量的一种解释出现），也没有提及"多信使宇宙线"（中微子、引力波）——这两个方向在 2008–2017 年间成为宇宙线研究的核心，但 2007 年综述完全没有触及。
+
 ---
 
 > 下一章：[[01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/03_figures.md|03_figures.md]]
