@@ -32,3 +32,5 @@ outline_ref: "§7 DSA VERSUS SDA"
 ## 我的理解 / Interpretation
 
 **[INTERPRETATION]** §7 提供**直观的物理图景**：DSA 与 SDA 不是两个独立机制，而是**磁拓扑选择的结果**。$\vartheta \approx 45°$ 是临界倾角——这一数值对**所有** SNR 相关观测（偏振、射电/X 射线亮度分布）有直接影响。这是 Bell 1978 解析理论中缺失的几何视角。
+
+**[CRITIQUE]** §7 的 DSA vs SDA 对比基于 **2D 平面模拟**——但真实 SNR 激波是 **3D 湍流结构**。在 3D 中，平行/垂直的边界可能不如 2D 清晰：湍流可以在"几何平行"区产生局部垂直磁场结构，从而引入额外的 SDA 贡献。这意味着 2D 模拟的 $\vartheta$ 临界角（$\approx 45°$）在真实 3D 环境中可能被"模糊化"——这是 2D 模拟推广到 3D 的系统性误差，Caprioli 系列论文（包括本文）都未讨论。[CRITIQUE]

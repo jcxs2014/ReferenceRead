@@ -33,3 +33,5 @@ outline_ref: "§5 MAGNETIC FIELD AMPLIFICATION"
 ## 我的理解 / Interpretation
 
 **[INTERPRETATION]** §5 是**把模拟联系到观测**的关键节。磁场放大与加速效率的同步"开启/关闭"是 DSA 自洽理论的强证据——Bell 1978 等解析理论把磁场放大作为额外输入，本文证明**加速本身就是放大机制**（通过自激湍流）。SN 1006 观测形态与模拟的一致性使这篇论文在观测天体物理界获得广泛引用（如 Giuffrida 2022, Giacalone 2017）。
+
+**[CRITIQUE]** §5 的 CR 驱动湍流放大机制在 2D PIC 模拟中观察到，但 3D 效应可能不同——2D 中平面外自由度被冻结，可能高估了自激 Alfvén 波的强度。此外，"加速效率和磁场放大同步"是 CAPRIOLI & SPITKOVSKY 2013 的 2D 模拟结论，3D PIC（如 CAPRIOLI 2020）显示该同步可能在斜激波条件下被打破。[CRITIQUE]
