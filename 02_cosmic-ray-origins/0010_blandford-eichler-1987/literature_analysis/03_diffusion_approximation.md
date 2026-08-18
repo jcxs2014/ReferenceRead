@@ -254,3 +254,19 @@ Vlasov 方程（六维相空间）
 [FACT] Fermi (1949) 的原始论文动机：费米研究银河系磁场的维持机制——若银河系磁场是宇宙线驱动的（CR 压力驱动湍流），则 CR 必须有足够高的能量密度。这促使他提出"随机磁云加速"作为 CR 来源的候选机制。DSA 的发展（Axford & Leer 1977, Bell 1978, Blandford & Ostriker 1978）在 Fermi 基础上认识到：激波的收敛流比随机磁云更高效，因为镜子（激波）是确定性地向粒子移动，而不是随机地移动。[FACT]
 
 [INTERPRETATION] 从 Fermi (1949) 到 B&E (1987) 的发展逻辑是：① Fermi (1949) 揭示了"随机加速"的数学框架；② Axford & Leer (1977) 和 Bell (1978) 发现激波中的加速效率可以远高于随机加速；③ Blandford & Ostriker (1978) 给出了完整的数学推导；④ B&E (1987) 将这些发展系统化，并扩展到非线性理论和波-粒子自洽问题。这个逻辑链条在 B&E §1 的引言中已经给出，但只有在阅读 §3-§6 的具体推导后才能完全理解。[INTERPRETATION]
+
+## 3.12 数学推导细节补充（从 fulltext 补充）
+
+### 3.12.1 Pitch-Angle 扩散系数的推导
+
+[FACT] 原文 §3.5 给出 pitch-angle 扩散系数 $D_{\mu\mu} = \frac{\pi}{2} \Omega (1-\mu^2) / [|k_{\rm res}| W(k_{\rm res})]$，其中 $k_{\rm res} = \Omega / (v_\parallel)$ 是共振波数。当波谱 $W(k) \propto k^{-\nu}$ 时，$D_{\mu\mu} \propto (1-\mu^2) / W(k_{\rm res})$。对 Kolmogorov 湍流（$\nu = 5/3$），$D_{\mu\mu} \propto (1-\mu^2) |\mu|^{-5/3}$；对 Kraichnan 湍流（$\nu = 3/2$），$D_{\mu\mu} \propto (1-\mu^2) |\mu|^{-3/2}$。这两个标度律在 $\mu \to 0$ 时都发散（$D_{\mu\mu} \to \infty$），这就是 QLT 在 $\mu = 0$ 附近失效的数学根源。[FACT]
+
+[INTERPRETATION] $D_{\mu\mu}$ 在 $\mu \to 0$ 的发散有深刻的物理含义：粒子在 pitch-angle $\mu = 0$（运动方向垂直于磁场）附近被散射的效率极低——这是因为当粒子绕磁场做螺旋运动时，其投射速度在磁场方向的分量接近零，与共振波的作用减弱。这个效应在真实等离子体中通过"共振布林曼"（resonant burn-out）或"非共振散射"来弥补，但 B&E 的 QLT 框架无法描述这些非共振效应，因此 $\mu = 0$ 盲区是 DSA 理论的一个已知缺口。这个缺口对 DSA 预测的影响（尤其是对高能粒子）至今仍是数值模拟研究的课题。[INTERPRETATION]
+
+[CRITIQUE] B&E 对 $D_{\mu\mu}$ 的推导假设了各向同性湍流（$W(k)$ 只是 $k$ 的函数，与波传播方向无关）。但真实 ISM 湍流是有方向的——尤其是压缩驱动湍流（compressively driven turbulence，如 SNR 激波后的湍流）具有优先方向性，导致 $W(k)$ 也是角度的函数。各向异性湍流中的粒子散射特性与各向同性情况有显著差异，B&E 的结果在这种情况下可能需要修正。这是 B&E 理论与实际应用之间又一个需要注意的差距。[CRITIQUE]
+
+### 3.12.2 随机微分方程与伊藤演算
+
+[FACT] 原文 §3.1-§3.3 的数学框架使用了随机微分方程（SDE）工具：粒子动量 $p$ 的演化被描述为 $\dot{p} = A(p) + \sqrt{B(p)}\Gamma(t)$，其中 $\Gamma(t)$ 是高斯白噪声（$\langle \Gamma(t) \rangle = 0$，$\langle \Gamma(t)\Gamma(t') \rangle = \delta(t-t')$）。对这类方程的解需要伊藤演算（Itô calculus），给出 Fokker-Planck 方程中的漂移系数 $A(p) = \langle \Delta p \rangle / \Delta t$ 和扩散系数 $B(p) = \langle (\Delta p)^2 \rangle / \Delta t$。B&E §3.2 正是从 SDE 的角度推导了 DSA 的 Fokker-Planck 方程。[FACT]
+
+[INTERPRETATION] SDE 框架是理解 DSA 的强大工具——它把粒子加速过程分解为"确定性漂移"（由激波压缩引起的平均动量增益）和"随机扩散"（由散射的角度随机性引起的动量扩散）。这个分解在物理上对应"加速"和"能量展宽"两个过程，在数学上对应 Fokker-Planck 方程的两个矩。这个框架也被现代蒙特卡洛粒子加速模拟（如 SIMFLUX、ELMAG 等）直接使用，说明 B&E 的数学框架在数值方法层面也是有效的。[INTERPRETATION]

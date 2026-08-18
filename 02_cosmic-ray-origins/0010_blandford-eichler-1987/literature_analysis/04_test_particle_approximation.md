@@ -213,3 +213,19 @@ Rankine-Hugoniot（流体跳跃条件）
 [CRITIQUE] B&E 对 $r=4$ 的推导假设了平静激波（steady shock）——但真实 SNR 激波是快速演化的：SNR 从自由膨胀阶段（$r \approx 4$，$M \gg 1$）到 Sedov-Taylor 阶段（$r$ 从大变小）再到辐射冷却阶段（$r$ 进一步减小）。如果 CR 加速主要发生在某个特定演化阶段，则有效压缩比可能不是常数，导致 CR 谱偏离 $q=4$ 的理想预言。此外，CR 的非线性反馈（§6）会使实际压缩比 >4（在 CR 压力主导的激波中），从而使 $q$ 值进一步偏离 test-particle 结果。[CRITIQUE]
 
 [INTERPRETATION] SNR 的 $E_{\rm max} \sim 10^{14}$ eV 是 PeV 宇宙线的来源，但对于 $10^{15}$ eV 以上的宇宙线（second knee 及以上），SNR 无法单独提供——这与 Blasi (2013) 综述中提到的"no proof that SNRs can accelerate CRs up to the knee energy"完全一致。B&E 1987 的这个定量估算在 40 年后仍然是 PeV astrophysics 的标准框架。[INTERPRETATION]
+
+## 4.9 关键公式详细推导（从 fulltext 补充）
+
+### 4.9.1 加速时间的完整推导
+
+[FACT] 原文 §4.3 给出加速时间 $t_{\rm acc} = 3D / (u_{\rm sh} - u_{\rm down})^2$。对强激波（$u_{\rm down} \approx u_{\rm sh}/4$），$t_{\rm acc} \approx 3D / (3u_{\rm sh}/4)^2 = (16/3) D / u_{\rm sh}^2$。代入 $D = D_0 (E/E_0)^{4/3}$（Kolmogorov）和 $u_{\rm sh} \approx 5 \times 10^7$ cm/s（典型 SNR），$E = 10^{15}$ eV 给出 $t_{\rm acc} \sim 10^6$ yr，与 SNR 的 Sedov 阶段时间尺度相当。[FACT]
+
+[INTERPRETATION] $t_{\rm acc} \propto D / u_{\rm sh}^2$ 揭示了 DSA 加速的关键物理：① 扩散系数 $D$ 越大（湍流越弱），加速越慢；② 激波速度 $u_{\rm sh}$ 越大（激波越强），加速越快。这两个物理效应在 SNR 演化中是相互竞争的——年轻 SNR（$u_{\rm sh}$ 大）但湍流强（$D$ 大），年老 SNR（$u_{\rm sh}$ 小）但湍流可能已衰减。因此 $E_{\rm max}$ 出现在 SNR 的某个特定演化阶段，而不是单调变化。[INTERPRETATION]
+
+[CRITIQUE] B&E 的加速时间公式假设 $D$ 是常数（与位置无关）——但真实 SNR 激波中的扩散系数是空间和能量依赖的。在上游（precursor 区），CR 驱动的波不稳定性可能使 $D$ 局部增大（波放大导致更强的散射）；在下游，湍流可能已部分衰减。更复杂的是，$D$ 的能量依赖（$D \propto E^{4/3}$）意味着高能粒子比低能粒子扩散得更快，这个效应在 $E_{\rm max}$ 的计算中是不可忽略的。B&E 的简化假设使 $E_{\rm max}$ 的精确预言存在显著不确定性——这个不确定性在后续非线性理论（§6）和数值模拟中被部分量化，但从未被完全消除。[CRITIQUE]
+
+### 4.9.2 激波穿越概率与驻留时间
+
+[FACT] 原文 §4.2 给出粒子在激波上游和下游之间的往返概率：$P_{\rm round-trip} = P_{\rm upstream \to downstream} \times P_{\rm downstream \to upstream}$。上游粒子穿越到下游的概率是 $P_{\rm cross} = 4D_\parallel / (L u_{\rm sh})$，其中 $L$ 是上游尺度，$D_\parallel$ 是沿磁场方向的扩散系数。在激波面附近的粒子会反复穿越，直到被下游散射捕获或逃逸。这个"往返次数"直接决定了粒子的平均能量增益率。[FACT]
+
+[INTERPRETATION] 激波穿越概率的物理图像可以用"赌徒逃跑"类比：粒子在激波两侧随机游走（diffusion in space），每次穿越激波获得能量增益 $\Delta E/E \sim 1/r$（$r \approx 4$）。粒子逃离激波区域的概率随时间增加（因为扩散），因此能量增益的时间积分是有限的——这解释了为什么 DSA 产生幂律谱（有限的逃逸概率）而不是指数谱（如果粒子永远被激波捕获）。[INTERPRETATION]
