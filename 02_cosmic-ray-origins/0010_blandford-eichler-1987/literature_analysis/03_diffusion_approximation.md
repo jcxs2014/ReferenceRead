@@ -29,6 +29,10 @@ $$\frac{\partial f}{\partial t} + \mathbf{v} \cdot \frac{\partial f}{\partial \m
 
 其中 $\mathbf{v}$ 是粒子速度，$\mathbf{F} = d\mathbf{p}/dt$ 是电磁力。当 $\mathbf{F}$ 为电磁力时，第三项可改写为 $\mathbf{F} \cdot (\partial f / \partial \mathbf{p})$。
 
+**[FACT]** Vlasov 方程是 DSA 理论的出发点——它描述了带电粒子在自洽电磁场中的演化。但 Vlasov 方程本身不包含碰撞/散射项，因此无法描述 Fermi 加速机制的"随机性"来源。B&E 的处理方式是将微观散射效应唯象地加入（通过 Fokker-Planck 方程），这在物理上依赖于"磁场湍流存在"的前提假设——而这个假设本身并没有在 §3 中严格证明。[FACT]
+
+**[CRITIQUE]** §3.1 对 Vlasov 方程的推导是数学上严密的，但在"为什么可以用 Fokker-Planck 近似来描述粒子-波相互作用"这一点上缺乏严格证明——这是一个至今仍在讨论的方法论问题（PIC 模拟是对这个近似的数值验证，但不是解析证明）。[CRITIQUE]
+
 B&E 的目标是将此 Vlasov 方程转化为**Boltzmann 方程**（含碰撞项），再进一步转化为**传输方程**。
 
 ## 3.3 §3.2 Fermi 加速
