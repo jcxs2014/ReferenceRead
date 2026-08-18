@@ -97,3 +97,34 @@ sections:
 - [[03_stellar-nucleosynthesis/0021_karakas-lattanzio-2014/literature_analysis/00_overview|Karakas & Lattanzio 2014]]：直接延续本文 §8 未解决的问题，给出 TDU 与 13C pocket 的最新进展
 - [[03_stellar-nucleosynthesis/0020_nomoto-2013/literature_analysis/00_overview|Nomoto et al. 2013]]：SN + AGB 的银河化学演化份额
 - [[03_stellar-nucleosynthesis/0016_cowan-2021/literature_analysis/00_overview|Cowan et al. 2021]]：s/r 过程在银河化学演化中的现代综合
+## 8.8 补充解读与批判（10 条 INTERPRETATION + 2 条 CRITIQUE）
+
+### 补充 [INTERPRETATION]
+
+[INTERPRETATION] §1.1 把 AGB 星定位为"低到中等质量恒星演化的晚期阶段"，并强调 C 与 s 过程元素的光球超丰——这一**双重富丰**特征（碳 + s 过程）把 AGB 星从"普通演化阶段"提升为**银河化学演化的关键节点**，因为碳与 s 过程元素**都**由 AGB 星注入 ISM。
+
+[INTERPRETATION] §1.3 Lambert (1985) 揭示的"C 与 s 过程丰度强相关"，是**TDU 把 He shell 合成产物带到表面**的直接观测证据——碳来自 CNO 循环的 3α 反应产物，s 过程元素来自 He shell 中子俘获，两者同时出现说明 TDU 是一次**同时把两个核合成区的产物混合到光球**的事件。
+
+[INTERPRETATION] §2 讨论 MS → S → Ba → CH → 碳星的谱型谱系，揭示了**"表面 C/O 比 + s 过程强度"两个独立参数**的耦合——碳星 (C/O > 1) 与 S 星 (Zr/Ohs 峰) 不是简单的演化先后关系，而是**不同的 AGB 演化分支**，这一谱系至今仍是 AGB 化学分类的骨架。
+
+[INTERPRETATION] §2 中 Tc (A=98, Merrill 1952) 作为**不稳定核素**在恒星中被发现，提供了**"恒星内部正在进行中子俘获"**的直接实时证据——比任何观测丰度模式都更具说服力，因为 Tc 的半衰期 (~4.2 × 10⁶ yr) 短于恒星演化时标，其存在意味着**当下**在发生 s 过程。
+
+[INTERPRETATION] §3 把 s 过程的主分量（"主峰"）与轻 s 分量（"弱分量"）分离，把 AGB 星的核合成产物从"单一 s 过程"分解为**"13C(α,n) 辐射燃烧主导的中子曝露"**——这一分解是本文最重要的概念贡献，奠定了后续所有 AGB s 过程模型（Karakas & Lattanzio 2014、Cowan 2021）的基础。
+
+[INTERPRETATION] §4 把 13C pocket 明确定位为**"辐射条件燃烧"**而非"对流条件燃烧"，解决了**中子密度的观测约束**（Rb/Sr 要求 N_n < 10⁷ cm⁻³）——这一范式转换把 AGB s 过程从"定性讨论"推进到"可定量计算的核合成"。
+
+[INTERPRETATION] §5 中 13C pocket 与 He intershell 的位置关系（"intershell 顶端的辐射层"）决定了 13C(α,n) 的中子释放**速率**与**总量**——这揭示了**AGB 结构细节**（intershell 厚度、对流边界位置）对 s 过程产出的直接控制，是 §8 结论"TDU 效率是主要不确定源"的物理根源。
+
+[INTERPRETATION] §6 提出的 13C 源的**初级性质**（τ ∝ Z⁻¹ 或 Z⁻⁰.⁶），使得 s 过程产出**在贫金属星中仍能高效进行**——这意味着 s 过程元素在银河早期就已经开始富集，解释了 Pop II 恒星（[Fe/H] < −1）中 Ba、La 等 s 过程超丰的观测事实。
+
+[INTERPRETATION] §6.4 中银河化学演化把不同金属丰度的 AGB s 过程产物"混合"起来形成太阳 s 过程丰度，给出了一个**关键概念**：太阳 s 过程谱**不是单一 AG 星的结果**，而是**银河系 ~10 Gyr 化学演化的时间积分**——这解释了为何 §3 现象学模型的"平均曝光参数"能够拟合太阳 s 过程主分量。
+
+[INTERPRETATION] §7 把 AGB 星作为 26Al、60Fe 等短寿命核素候选前身来源，把 AGB 核合成的影响从"银河化学演化"延伸到**太阳系形成的瞬时环境**——这意味着 AGB 星对**行星系统元素库存**可能有直接影响。
+
+[INTERPRETATION] §8.4 结论中"AGB 星作为银河 12C + s 过程主要来源"的定量份额估计，把本文从"AGB 内部核合成"综述提升为**银河化学演化模型的关键输入**——本文给出的 AGB s 过程 + 碳产量是后续银河化学演化代码（如 Nomoto 2013、Cowan 2021）的基础数据。
+
+### 补充 [CRITIQUE]
+
+[CRITIQUE] §3 中 "13C pocket 大小需要由 M(13C) = 3×10⁻⁶ M☉/脉冲为基准并调参以拟合 MS/S/C 星散布" 的表述，暴露了**13C pocket 大小缺乏第一性原理的预测**——它是由 TDU 混合效率、对流边界、核反应率共同决定的衍生量，但论文未给出该量对每个参数的敏感性，使得 §6 的银河化学演化输入**存在 ~因子 2 的不确定度**。
+
+[CRITIQUE] §7 讨论 26Al 的 AGB 贡献时指出"AGB 源必须为低质量星（M ≲ 1.5 M☉）"，但同时承认 **26Al 存在边际短缺**——短缺来自 TDU 传输细节与 26Al(p,γ)27Si 反应率的不确定。这**削弱**了 AGB 作为 26Al 主要前身来源的结论，但论文未给出 AGB 与 SN/超新星遗迹的 26Al 相对份额的定量比较，使读者难以判断 AGB 贡献是主导还是补充。
