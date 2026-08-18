@@ -361,3 +361,33 @@ B&E 讨论了几个注入模型，指出没有单一模型能解释所有观测�
 [INTERPRETATION] PIC 模拟对 NL-DSA 理解的贡献：① **微观过程可视化**：PIC 模拟可以"看到"两流体模型中假设为平均量的精细过程（如波-粒子共振、粒子束不稳定性、磁场放大等）；② **两流体模型验证**：在某些参数区间，PIC 模拟验证了两流体模型的预言（如 CR 压力对激波结构的修改），但在另一些参数区间揭示了偏离（如 precursor 区的精细结构）；③ **新现象发现**：PIC 模拟发现了两流体模型无法预言的现象（如激波面附近的静电电位势垒、离子束不稳定性 等），这些新现象正在改变 NL-DSA 的理论框架。B&E 时代没有 PIC 模拟，他们的两流体模型是当时可能的最好理论工具——今天的 PIC 模拟已经大幅推进了我们对 NL-DSA 的理解。[INTERPRETATION]
 
 [CRITIQUE] PIC 模拟也有其局限性：① **尺度差距**：PIC 模拟的激波只能代表微观尺度（小尺度湍流），无法忠实地代表真实 SNR 的宏观激波（包含多尺度物理）；② **参数限制**：PIC 模拟的参数（质量比 $m_i/m_e$、光速比 $c/v_{\rm th}$）与真实等离子体有显著差异，需要 extrapolation；③ **统计有限**：PIC 模拟的粒子数虽然远大于分析计算，但仍然远小于真实 CR 系统，统计误差不可忽略。因此，PIC 模拟应该被当作"数值实验"，而非"ground truth"——它的结果需要与两流体模型和观测对照，才能建立完整的 NL-DSA 理论框架。B&E 的两流体模型和现代 PIC 模拟是互补的工具，而非互相替代的工具。[CRITIQUE]
+
+## 6.18 辐射机制与粒子能量损失物理（从 fulltext 补充）
+
+### 6.18.1 同步辐射的详细物理
+
+[FACT] B&E §6 讨论了同步辐射，但没有给出完整的物理推导。相对论性电子在磁场中的同步辐射功率为：
+$$P_{\rm syn} = \frac{4}{3} \gamma^2 c \sigma_T \beta^2 \frac{B_\perp^2}{8\pi}$$
+其中 $\sigma_T = 6.65 \times 10^{-25}$ cm$^2$ 是汤姆孙散射截面，$B_\perp = B \sin\alpha$ 是垂直于速度的磁场分量，$\alpha$ 是 pitch-angle。辐射频谱在 $\nu \sim \nu_{\rm syn} = \frac{3}{2}\gamma^3 \frac{eB}{mc}$ 处有峰，谱分布为 $j_\nu(\nu) \propto \nu^{1/3} \exp(-\nu/\nu_c) F(\nu/\nu_c)$，其中 $F(x) \sim x^{0.7}$ for $x \ll 1$ and $F(x) \sim x^{0.4} \exp(-x)$ for $x \gg 1$。对典型 SNR 参数（$B \sim 100$ μG, $\gamma \sim 10^4$ for 5 GeV electrons），$\nu_{\rm syn} \sim 10^{14}$ Hz（红外-光学波段）。[FACT]
+
+[INTERPRETATION] 同步辐射的物理意义：① **轻子诊断**：同步辐射是轻子过程，其强度 $S_{\rm syn} \propto n_e B^{1+\alpha} \nu^{-\alpha}$，结合射电到X射线的多波段观测可以推断电子谱和磁场；② **磁场测量**：同步辐射频谱的峰值频率 $\nu_{\rm syn} \propto B \gamma^2$——如果电子能谱已知，$\nu_{\rm syn}$ 的测量可以直接给出 $B$ 的估计；③ **冷却时间**：同步辐射冷却时间 $t_{\rm syn} = E/P_{\rm syn} \propto 1/(B^2 \gamma)$，对高能电子（$\gamma \gg 10^5$），$t_{\rm syn} \ll t_{\rm SNR}$，因此高能电子在 SNR 演化过程中会快速冷却。B&E 的同步辐射讨论是概述性的，没有给出这些详细的物理关系——这些关系在今天是从观测数据提取 DSA 参数的关键工具。[INTERPRETATION]
+
+[CRITIQUE] B&E 对同步辐射的简化处理有几个重要后果：① **他们忽略了冷却效应**：高能电子在同步辐射中损失能量，导致观测到的电子谱偏离加速后的源谱——B&E 的 test-particle DSA 没有处理这个效应；② **他们假设单一磁场强度**：真实 SNR 中磁场在空间上是不均匀的（$B \sim 1/r$ 或更复杂），而 B&E 假设均匀磁场；③ **他们忽略了同步自吸收**：在某些低频（射电）波段，同步自吸收（synchrotron self-absorption）可能使辐射不透明，导致谱形偏离幂律。B&E 的处理对低频射电波段是足够的，但对X射线波段的解释需要考虑冷却效应和自吸收修正。今天的多波段 DSA 研究已经将这些效应整合到了理论框架中，而 B&E 的简化处理是这些发展的起点而非终点。[CRITIQUE]
+
+### 6.18.2 逆康普顿散射与γ射线产生
+
+[FACT] B&E §6 讨论了逆康普顿散射（IC scattering），但没有给出详细推导。相对论性电子与低频光子（CMB、IR、 optical）的逆康普顿散射截面为 $\sigma_{\rm IC} \approx \sigma_T (1 - \cos\theta)$（对低能光子，Thompson regime）或 $\sigma_{\rm IC} \approx \sigma_T (E_\gamma/E_e) \ln(E_\gamma/E_e)$（对高能光子，Klein-Nishina regime）。产生的 γ射线能量为 $E_\gamma \approx \frac{4}{3}\gamma^2 E_{\rm photon}$（Thompson regime）或 $E_\gamma \approx \gamma m c^2$（Klein-Nishina regime，$\gamma$ 射线极限）。对典型参数（$\gamma \sim 10^4$对应 5 GeV 电子，CMB 光子 $E_{\rm photon} \sim 6 \times 10^{-4}$ eV），$E_\gamma \sim 25$ GeV（落入 Fermi-LAT 能段）。[FACT]
+
+[INTERPRETATION] 逆康普顿散射的 DSA 诊断价值：① **轻子 vs 核子的区分**：如果 γ射线来自 IC 散射（轻子过程），则其强度应与射电同步辐射强度空间相关，且能谱形状应与电子谱一致；如果来自核子-核子碰撞，则应与分子云共位；② **电子加速的直接证据**：IC γ射线是电子加速的直接探针——通过测量 IC γ射线，可以推断电子的加速参数（$E_{\rm max}$、加速效率）；③ **多波段联合诊断**：结合射电同步辐射（低能电子）和 IC γ射线（高能电子），可以同时约束电子谱的不同能量区间。B&E 的 IC 讨论是 DSA 预言的补充，而非观测诊断的核心——今天的 DSA 验证大量依赖 IC γ射线的测量，因为核子-核子碰撞的信号比 IC 弱得多。[INTERPRETATION]
+
+[CRITIQUE] B&E 的 IC 处理过于简化：① **他们没有区分 CMB、IR、optical 光子场的贡献**：不同光子场对 IC γ射线的贡献取决于 SNR 的环境和年龄；② **他们忽略了 γ射线对电子冷却的反作用**：当 γ射线能量足够高时，电子冷却会产生正负电子对，这反过来修改电子谱；③ **他们没有讨论 IC 与核子-核子碰撞的区分**：这是 PeVatron 证认的核心问题，B&E 没有提供区分这两种机制的诊断工具。今天的 DSA 观测验证高度依赖 IC γ射线，但 IC 诊断的复杂性（多光子场、cooling effects、γγ湮灭）意味着从 IC 数据提取 DSA 参数需要复杂的模型拟合，而 B&E 的简化处理只是这个复杂分析的第一步。[CRITIQUE]
+
+### 6.18.3 核子-核子碰撞与π0衰变γ射线
+
+[FACT] 高能质子与周围核子（主要是氢核）的核子-核子碰撞产生次级粒子，包括中性 π介子（$\pi^0$），其衰变产生 γ射线：
+$$p + p \to \pi^0 + X, \quad \pi^0 \to \gamma + \gamma$$
+π$^0$ 衰变产生的 γ射线能谱峰值在 $E_\gamma \sim 70$ MeV（对应 π$^0$ 质量的特征），然后指数截断。γ射线产生率 $q_\gamma \approx \frac{1}{2} n_{\rm ISM} n_{\rm CR} \langle \sigma v \rangle_{\rm pp}$，其中 $\langle \sigma v \rangle_{\rm pp} \approx 3 \times 10^{-26}$ cm$^3$ s$^{-1}$（对 $E_p \gtrsim 10$ GeV）是核子碰撞截面。对典型 SNR 参数（$n_{\rm ISM} \sim 1$ cm$^{-3}$，$E_{\rm CR} \sim 10^{50}$ erg），π$^0$ 衰变 γ射线在 GeV-TeV 波段的积分通量可达 $S_\gamma \sim 10^{-12}$ erg cm$^{-2}$ s$^{-1}$（对距离 $d \sim 1$ kpc 的 SNR）。[FACT]
+
+[INTERPRETATION] π$^0$ 衰变 γ射线是 DSA 核子加速的直接探针：① **PeVatron 证认**：如果 SNR 确实充当 PeVatron，则核子-核子碰撞应产生 PeV 级 γ射线——这些 γ射线与 LHAASO 的 PeVatron 候选直接对应；② **空间诊断**：核子-核子碰撞需要高密度目标物质（分子云），因此 π$^0$ γ射线应与分子云空间共位——这提供了核子加速的独立证据；③ **与轻子辐射的区分**：如果 γ射线来自 π$^0$ 衰变，则其谱形在 $E_\gamma \sim 70$ MeV 处应有特征性弯折（对应 π$^0$ 质量），而 IC γ射线没有这个特征——这个弯折是区分轻子和核子过程的关键诊断。B&E 的核子碰撞讨论是预言性的，而今天的 γ射线观测正在检验这些预言。[INTERPRETATION]
+
+[CRITIQUE] B&E 对核子-核子碰撞的处理有几个重要遗漏：① **他们没有给出核子碰撞截面的详细能量依赖**：$\sigma_{\rm pp}(E)$ 随能量的变化（对数增长直到 $\sqrt{s} \sim 100$ GeV，然后缓慢下降）对高能 γ射线预言有重要影响；② **他们忽略了非弹性碰撞产生的次级粒子**：核子碰撞产生的次级粒子（如 $\pi^\pm$、$\mu^\pm$）也会产生辐射，这些次级辐射叠加在 π$^0$ 辐射上；③ **他们没有讨论核子碰撞的靶物质分布**：真实 SNR 周围的物质分布是不均匀的（分子云、尘埃），而 B&E 假设均匀分布。这些复杂性意味着今天从 γ射线数据提取 DSA 参数（如 $\epsilon_{\rm CR}$、$E_{\rm max}$）需要复杂的辐射转移模型，而 B&E 的简化处理只是第一步。[CRITIQUE]
