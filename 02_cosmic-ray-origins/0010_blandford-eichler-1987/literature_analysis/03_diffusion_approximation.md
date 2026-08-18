@@ -270,3 +270,29 @@ Vlasov 方程（六维相空间）
 [FACT] 原文 §3.1-§3.3 的数学框架使用了随机微分方程（SDE）工具：粒子动量 $p$ 的演化被描述为 $\dot{p} = A(p) + \sqrt{B(p)}\Gamma(t)$，其中 $\Gamma(t)$ 是高斯白噪声（$\langle \Gamma(t) \rangle = 0$，$\langle \Gamma(t)\Gamma(t') \rangle = \delta(t-t')$）。对这类方程的解需要伊藤演算（Itô calculus），给出 Fokker-Planck 方程中的漂移系数 $A(p) = \langle \Delta p \rangle / \Delta t$ 和扩散系数 $B(p) = \langle (\Delta p)^2 \rangle / \Delta t$。B&E §3.2 正是从 SDE 的角度推导了 DSA 的 Fokker-Planck 方程。[FACT]
 
 [INTERPRETATION] SDE 框架是理解 DSA 的强大工具——它把粒子加速过程分解为"确定性漂移"（由激波压缩引起的平均动量增益）和"随机扩散"（由散射的角度随机性引起的动量扩散）。这个分解在物理上对应"加速"和"能量展宽"两个过程，在数学上对应 Fokker-Planck 方程的两个矩。这个框架也被现代蒙特卡洛粒子加速模拟（如 SIMFLUX、ELMAG 等）直接使用，说明 B&E 的数学框架在数值方法层面也是有效的。[INTERPRETATION]
+
+## 3.13 扩散方程的物理来源与适用条件（从 fulltext 补充）
+
+### 3.13.1 从 Markov 过程到扩散方程
+
+[FACT] 扩散方程 $pf/\partial t = \nabla \cdot (D \nabla f)$ 的物理来源是最随机的 Markov 过程——即粒子速度的方向和大小在每次散射之间是统计无关的（无记忆性）。原文 §3.1 给出：这个假设等价于"散射时间 $\tau_{\rm sc} \ll t_{\rm acc}$"，即粒子在两次散射之间的自由飞行时间远小于加速时间尺度。在这个条件下，粒子动量的变化可以用连续随机过程描述，从而推导出扩散方程。[FACT]
+
+[INTERPRETATION] Markov 假设是 DSA 扩散方程的适用边界：① 当 $\tau_{\rm sc} \sim t_{\rm acc}$ 时（强湍流regime），粒子不能被视为无记忆的，扩散方程失效；② 当波-粒子相互作用是相干的（如在激波面附近的某些效应）时，Markov 假设失效，需要更复杂的动力学方程（不只是 Fokker-Planck）；③ 相对论性粒子在强磁场中的回旋运动有很长的相关时间，这也会偏离 Markov 假设。这些边界条件在 B&E 的讨论中被部分承认（§5 的 $\mu=0$ 问题），但没有被系统整理。[INTERPRETATION]
+
+[CRITIQUE] B&E 对 Markov 假设的适用条件讨论分散在 §3 和 §5 中，没有在一个地方明确指出哪些regime是扩散方程的有效描述范围。更重要的是，B&E 没有讨论一个关键的非 Markov 效应：当粒子的 Larmor 半径 $r_L$ 与湍流内禀尺度 $l_{\rm turb}$ 可比时（$r_L \sim l_{\rm turb}$），粒子的轨迹是弹道式的而非扩散式的。这个"弹道regime"在高能粒子（$r_L$ 大）或低能湍流（$l_{\rm turb}$ 小）时是重要的，B&E 的处理在这种情况下不适用。[CRITIQUE]
+
+### 3.13.2 扩散系数的能量依赖与磁场湍流谱
+
+[FACT] 原文 §3.5 给出空间扩散系数 $D_{xx} \propto p^{2-\nu}$，其中 $\nu$ 是湍流谱指数（$W(k) \propto k^{-\nu}$）。对 Kolmogorov 湍流（$\nu = 5/3$），$D_{xx} \propto p^{1/3}$；对 Kraichnan 湍流（$\nu = 3/2$），$D_{xx} \propto p^{1/2}$。这个标度关系直接决定了加速时间 $t_{\rm acc} \propto D/u_{\rm sh}^2 \propto p^{2-\nu}/u_{\rm sh}^2$ 的能量依赖。[FACT]
+
+[INTERPRETATION] 扩散系数的能量标度是连接微观湍流和宏观加速过程的桥梁：① 高能粒子（$p$ 大）扩散得更慢（$D \propto p^{1/3}$ 对 Kolmogorov），因此年轻 SNR 中高能粒子可以更有效地被加速；② 低能粒子扩散得快，在 SNR 早期演化阶段可能在加速到高能之前就逃逸了；③ 扩散系数对 $\nu$ 的敏感度（$D \propto p^{2-\nu}$）意味着 Kraichnan 谱比 Kolmogorov 谱产生更弱的能量依赖加速，这在观测上可以用来区分这两种湍流模型。B&E 的框架允许这种区分，但需要精确的观测数据（今天的 AMS-02 数据可以部分做到这一点）。[INTERPRETATION]
+
+[CRITIQUE] B&E 对 $D_{xx}$ 的推导假设湍流是各向同性的——但真实 SNR 环境中的湍流是各向异性的（尤其是压缩驱动湍流，优先在平行和垂直磁场方向有不同的功率谱）。各向异性湍流中的粒子扩散比各向同性情况更复杂：$D_{\parallel}$（沿磁场）和 $D_{\perp}$（垂直磁场）有不同的标度关系，甚至可能出现 $D_{\perp} \ll D_{\parallel}$ 的情况。B&E 的各向同性假设在准平行激波（SNR 前向激波）中是合理的近似，但对准垂直激波和中介层激波，这个假设可能需要修正。[CRITIQUE]
+
+### 3.13.3 磁场重联与 DSA 的潜在竞争
+
+[FACT] 磁场重联（magnetic reconnection）是另一种可以将磁能转化为粒子动能的过程。B&E §1 简要提到它是一种竞争加速机制，但认为在 SNR 环境中重联不如 DSA 高效。后续研究（包括 2000-2010 年代对太阳耀斑和 AGN jets 的观测）表明，重联可以产生幂律谱（$\alpha \sim -1$ 到 $-2$），与 DSA 预言的谱形可比拟。[FACT]
+
+[INTERPRETATION] 重联作为 DSA 竞争机制的可能性在今天重新引起关注：① 在某些环境中（如年轻 SNR 的 reverse shock，AGN jets），重联的效率可能比 B&E 1987 年估计的更高；② 重联的加速时间可能比 DSA 更短（在某些regime下），这对瞬态现象（如 γ射线暴）可能是重要的；③ 重联可以自然地解释某些非幂律谱（如双段幂律），因为它涉及不同的物理过程。B&E 对重联的否定性评价在今天看来是过于绝对的——他们基于 1987 年的有限观测数据做了判断，而 2000 年代以后的观测证据使这个结论需要重新审视。[INTERPRETATION]
+
+[CRITIQUE] B&E 对磁场重联的否定主要基于两点：① 重联在 SNR 中不像激波那样普遍（这在今天仍然基本正确）；② 重联的加速效率在 1987 年的理论估计中不如 DSA。但他们没有讨论重联的以下特点：① 重联可以产生与 DSA 不同的高能粒子分布（更各向异性）；② 重联可以在 DSA 不适用的regime（如极高 $\sigma$ 等离子体）中工作；③ 重联和 DSA 可能在某些环境中协同作用（reconnection-mediated DSA）。这个遗漏在今天看来是一个重要的盲点，因为重联加速在 2010 年代已经成为 CR 加速研究的热点之一。[CRITIQUE]
