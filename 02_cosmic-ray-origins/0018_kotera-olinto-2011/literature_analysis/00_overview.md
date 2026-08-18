@@ -36,7 +36,8 @@ lastread: '2026-08-16'
 - `04_4_transition` — 理论对比
 - `05_5_acceleration` — 背景与系统误差
 - `06_6_candidates` — 统计显著性
-- `07_7_8_search_acks` — 未来展望/对比
+- `07_seven_search` — 未来 UHECR 观测计划/多信使路线图
+- `08_acknowledgements` — 致谢与资助来源
 - `97_quality_check` — 分析章节
 - `98_vocabulary` — 分析章节
 - `99_final_summary` — 分析章节
