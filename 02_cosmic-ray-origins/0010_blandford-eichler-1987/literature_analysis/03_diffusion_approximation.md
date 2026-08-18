@@ -240,3 +240,17 @@ Vlasov 方程（六维相空间）
 [FACT] 空间扩散系数 $D_{xx} \propto D_{\mu\mu}/(1-\mu^2)$，其中 $D_{\mu\mu}$ 是 pitch-angle 扩散系数。当波谱是 Kolmogorov（$W(k) \propto k^{-5/3}$）时，共振条件 $k \sim 1/r_L$ 意味着 $D_{xx} \propto p^{4/3} v / B^2$。当波谱是 Kraichnan（$W(k) \propto k^{-3/2}$）时，$D_{xx} \propto p^{3/2} v / B^2$。[FACT]
 
 [INTERPRETATION] B&E 在 §3.5 对 $D_{xx}$ 的讨论揭示了一个关键对称性：扩散系数对波谱的敏感度（$p^{4/3}$ vs $p^{3/2}$）比对具体散射机制的敏感度更低——这意味着谱形 $dN/dE \propto E^{-(q)}$ 在相当宽的波谱假设下都是幂律的，只是 $q$ 的具体数值有小幅变化。这个对称性是 DSA 理论 robust 的数学基础。[INTERPRETATION]
+
+### 3.11.4 Boltzmann 方程与碰撞算子的物理图像
+
+[FACT] 原文 §3.1 的 Vlasov-Fokker-Planck 方程链：Vlasov 方程 $\partial f/\partial t + \mathbf{v}\cdot\nabla f + \mathbf{F}\cdot\nabla_p f = 0$ 描述无碰撞系统的相空间密度守恒；当 $\mathbf{F}$ 包含随机力（磁场湍流）时，随机相位近似（random phase approximation）将 Vlasov 方程转化为 Fokker-Planck 方程 $pf/\partial t = -\nabla_x\cdot(\mathbf{v}f) + \nabla_p\cdot(\langle\Delta\mathbf{p}\rangle f) + \nabla_p\nabla_p\cdot(\langle\Delta\mathbf{p}\Delta\mathbf{p}\rangle f/2)$。前两项是确定性对流，第三项是随机扩散。[FACT]
+
+[INTERPRETATION] B&E 的 Fokker-Planck 处理中最深刻的洞察是：$\langle\Delta p_\parallel\rangle$（平均动量变化）和 $\langle\Delta p_\parallel^2\rangle$（动量扩散）这两个矩直接由波-粒子共振条件决定。当波谱 $W(k)$ 给定时，这两个矩可以独立计算——这意味着 CR 谱形 $dN/dE$ 与具体的散射机制（Alfvén 波、磁声波等）通过波谱 $W(k)$ 间接耦合，但不敏感于散射机制的细节（只要 $W(k)$ 是幂律的）。这就是为什么 DSA 的幂律结果对散射模型的选择如此 robust。[INTERPRETATION]
+
+[CRITIQUE] B&E 的 Fokker-Planck 方程假设了统计平稳性（stationarity）和马尔可夫性（Markovian）——即散射事件之间的时间关联可以忽略。这个假设在弱湍流极限（QLT）中成立，但在强湍流或接近共振中心（$\mu \to 0$）时，时间关联不可忽略，Fokker-Planck 近似失效。真实 SNR 激波中的波湍流可能是强非线性的（$\delta B/B_0 \sim 1$），因此 B&E 的 Fokker-Planck 系数的适用范围是有限的——但这个局限性并不否定 DSA 的定性结论，只是要求在强湍流环境中谨慎使用定量结果。[CRITIQUE]
+
+### 3.11.5 Fermi 1949 vs DSA 的历史逻辑
+
+[FACT] Fermi (1949) 的原始论文动机：费米研究银河系磁场的维持机制——若银河系磁场是宇宙线驱动的（CR 压力驱动湍流），则 CR 必须有足够高的能量密度。这促使他提出"随机磁云加速"作为 CR 来源的候选机制。DSA 的发展（Axford & Leer 1977, Bell 1978, Blandford & Ostriker 1978）在 Fermi 基础上认识到：激波的收敛流比随机磁云更高效，因为镜子（激波）是确定性地向粒子移动，而不是随机地移动。[FACT]
+
+[INTERPRETATION] 从 Fermi (1949) 到 B&E (1987) 的发展逻辑是：① Fermi (1949) 揭示了"随机加速"的数学框架；② Axford & Leer (1977) 和 Bell (1978) 发现激波中的加速效率可以远高于随机加速；③ Blandford & Ostriker (1978) 给出了完整的数学推导；④ B&E (1987) 将这些发展系统化，并扩展到非线性理论和波-粒子自洽问题。这个逻辑链条在 B&E §1 的引言中已经给出，但只有在阅读 §3-§6 的具体推导后才能完全理解。[INTERPRETATION]

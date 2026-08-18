@@ -204,4 +204,12 @@ Rankine-Hugoniot（流体跳跃条件）
 
 [FACT] §4.4 指出逃逸时间 $\tau_{\rm esc} \sim L^2/D$，其中 $L$ 是有效加速区尺度。对于 SNR 前向激波，$L \sim R_{\rm SNR}/4$（激波半径的量级），当粒子 Larmor 半径 $r_L \sim R_{\rm SNR}$ 时，粒子开始能够逃逸——这定义了 $E_{\rm max}$。对典型 SNR（$B \sim 10 \mu{\rm G}$，$R_{\rm SNR} \sim 10$ pc），$E_{\rm max} \sim 10^{14}$ eV，与 knee 能量对应。[FACT]
 
+### 4.8.4 Rankine-Hugoniot 条件与激波压缩比
+
+[FACT] B&E §4.2（基于 BO 1978）给出激波两侧的 Rankine-Hugoniot 条件：对于无磁性、无粘滞性的理想流体，压缩比 $r = \rho_+/\rho_- = (\gamma+1)M^2 / [(\gamma-1)M^2 + 2]$，其中 $M$ 是 Mach 数，$\gamma = 5/3$ 是单原子气体的绝热指数。当 $M \gg 1$（强激波）时，$r \to (\gamma+1)/(\gamma-1) = 4$（对 $\gamma = 5/3$）。[FACT]
+
+[INTERPRETATION] 强激波的压缩比上限 $r=4$ 直接决定了 DSA 的谱指数 $q = 3r/(r-1) = 4$（对应微分谱 $E^{-2.0}$，积分谱 $E^{-1.0}$）。然而，实际观测到的 CR 谱是 $E^{-2.7}$（积分谱），与 $q=4$（$E^{-2.0}$ 微分）不一致。这个差异通过传播效应（Galaxy-halo 模型中的能量依赖扩散）来解释——低能粒子在银河系中停留更长时间（更强的扩散抑制），高能粒子更快逃逸，因此观测谱比源谱更陡。这个传播修正的框架（propagation effect）是 B&E §2.5 讨论的核心，也是 Gaisser (1990) 的主要贡献之一。[INTERPRETATION]
+
+[CRITIQUE] B&E 对 $r=4$ 的推导假设了平静激波（steady shock）——但真实 SNR 激波是快速演化的：SNR 从自由膨胀阶段（$r \approx 4$，$M \gg 1$）到 Sedov-Taylor 阶段（$r$ 从大变小）再到辐射冷却阶段（$r$ 进一步减小）。如果 CR 加速主要发生在某个特定演化阶段，则有效压缩比可能不是常数，导致 CR 谱偏离 $q=4$ 的理想预言。此外，CR 的非线性反馈（§6）会使实际压缩比 >4（在 CR 压力主导的激波中），从而使 $q$ 值进一步偏离 test-particle 结果。[CRITIQUE]
+
 [INTERPRETATION] SNR 的 $E_{\rm max} \sim 10^{14}$ eV 是 PeV 宇宙线的来源，但对于 $10^{15}$ eV 以上的宇宙线（second knee 及以上），SNR 无法单独提供——这与 Blasi (2013) 综述中提到的"no proof that SNRs can accelerate CRs up to the knee energy"完全一致。B&E 1987 的这个定量估算在 40 年后仍然是 PeV astrophysics 的标准框架。[INTERPRETATION]
