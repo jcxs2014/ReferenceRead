@@ -229,3 +229,29 @@ Rankine-Hugoniot（流体跳跃条件）
 [FACT] 原文 §4.2 给出粒子在激波上游和下游之间的往返概率：$P_{\rm round-trip} = P_{\rm upstream \to downstream} \times P_{\rm downstream \to upstream}$。上游粒子穿越到下游的概率是 $P_{\rm cross} = 4D_\parallel / (L u_{\rm sh})$，其中 $L$ 是上游尺度，$D_\parallel$ 是沿磁场方向的扩散系数。在激波面附近的粒子会反复穿越，直到被下游散射捕获或逃逸。这个"往返次数"直接决定了粒子的平均能量增益率。[FACT]
 
 [INTERPRETATION] 激波穿越概率的物理图像可以用"赌徒逃跑"类比：粒子在激波两侧随机游走（diffusion in space），每次穿越激波获得能量增益 $\Delta E/E \sim 1/r$（$r \approx 4$）。粒子逃离激波区域的概率随时间增加（因为扩散），因此能量增益的时间积分是有限的——这解释了为什么 DSA 产生幂律谱（有限的逃逸概率）而不是指数谱（如果粒子永远被激波捕获）。[INTERPRETATION]
+
+## 4.10 加速效率与 SNR 能量预算（从 fulltext 补充）
+
+### 4.10.1 DSA 效率的定义与测量
+
+[FACT] 原文 §4.5 给出 DSA 效率 $\eta_{\rm DSA}$ 的定义：$\eta_{\rm DSA} = E_{\rm CR} / E_{\rm sh}$，其中 $E_{\rm CR}$ 是 CR 从激波中提取的总能量，$E_{\rm sh}$ 是激波的总动能。对典型 SNR（$E_{\rm SNR} \sim 10^{51}$ erg，$u_{\rm sh} \sim 5 \times 10^8$ cm/s），如果 $\eta_{\rm DSA} \sim 10\%$（B&E 的典型估计），则 $E_{\rm CR} \sim 10^{50}$ erg。B&E 指出，这个效率需要与观测的银河系 CR 能量密度 $u_{\rm CR} \sim 1$ eV/cm$^3$ 匹配：银河系中约有 $N_{\rm SNR} \sim 10^3$ 个活跃 SNR，每个 SNR 贡献 $E_{\rm CR} \sim 10^{50}$ erg，CR 在银河系中的约束时间 $\tau_{\rm esc} \sim 10^7$ yr，得到银河系 CR 功率 $\sim 10^{40}$ erg/s，与 SNR 的总动能输入 $\sim 10^{42}$ erg/s（假设 SNR 频率 $\sim 1/30$ yr$^{-1}$）相匹配。[FACT]
+
+[INTERPRETATION] DSA 效率 $\eta \sim 10\%$ 是连接微观 DSA 物理和宏观银河系 CR 能量平衡的关键参数：① 如果 $\eta \ll 10\%$（如 1%），则 SNR 无法维持银河系 CR 的观测能量密度；② 如果 $\eta \gg 10\%$（如 50%），则 CR 压力对 SNR 演化的反馈将非常显著（NL-DSA 效应），可能导致 DSA 效率降低（因为激波结构被修改）；③ 因此，$\eta \sim 10\%$ 是一个"自调节"的结果——高效率导致强 CR 反馈，降低效率；低效率允许激波正常演化，提高效率。B&E 的两流体模型（§6）部分处理了这个自调节效应，但没有给出完整的自洽解。[INTERPRETATION]
+
+[CRITIQUE] B&E 对 DSA 效率的估计存在显著不确定性：① 他们假设所有 SNR 的 $\eta$ 都相同，但实际上 SNR 的 $\eta$ 依赖于年龄、环境和磁场强度——年轻 SNR（如 Cas A，Tycho）可能有更高的 $\eta$（因为激波速度更大）；② 他们假设 SNR 的激波动能是 $10^{51}$ erg，但实际上这个值有相当大的 dispersion（从 $10^{49}$ erg 到 $10^{52}$ erg 不等）；③ 最重要的是，B&E 的 $\eta$ 估计是基于 test-particle DSA 的，对于非线性激波（CR 压力显著），$\eta$ 可能被高估。今天的 $\gamma$射线观测（HESS, HAWC, VERITAS）提供了独立测量 $\eta$ 的方法，但 B&E 1987 年没有这些数据。[CRITIQUE]
+
+### 4.10.2 SNR 能量预算与 CR 贡献
+
+[FACT] SNR 的总动能 $E_{\rm SNR} \sim 10^{51}$ erg 来自超新星爆发能量。超新星有以下类型及能量输出：① **Ia 型**（热核爆炸）：$E_{\rm SN} \sim 1-2 \times 10^{51}$ erg（完全来自核合成产物的放射性衰变 heating）；② **II/II-P 型**（核坍缩）：$E_{\rm SN} \sim 10^{51}$ erg（初始动能 + 部分辐射能）；③ **Ib/c 型**（氦/碳燃烧层剥离）：类似核坍缩，但缺乏氢 envelope，激波与恒星风直接相互作用。B&E 假设所有类型的超新星对银河系 CR 有类似贡献，但实际上不同类型的超新星在 CR 加速效率上可能有显著差异（II 型 SNR 的前身星 wind bubble 可能有利于 DSA）。[FACT]
+
+[INTERPRETATION] SNR 能量预算与 CR 加速的匹配是 DSA 应用于银河系 CR 起源的核心定量检验：银河系 CR 能量密度 $u_{\rm CR} \sim 1.5$ eV/cm$^3$ 需要银河系 CR 功率 $L_{\rm CR} \sim u_{\rm CR} V_{\rm gal} / \tau_{\rm esc} \sim 10^{40}$ erg/s（其中 $V_{\rm gal} \sim 10^{67}$ cm$^3$，$\tau_{\rm esc} \sim 10^7$ yr）。SNR 的总动能输入是 $L_{\rm SNR} \sim (10^{51}$ erg/SN) × (1 SN/30 yr) $\sim 10^{42}$ erg/s。因此，即使 DSA 效率 $\eta \sim 1\%$（而非 B&E 估计的 10%），SNR 也能提供足够的 CR 功率——这说明 DSA 的效率要求（$\eta \sim 10\%$）是充分条件而非必要条件。实际上，如果只有少数年轻、磁场增强的 SNR 贡献大部分 CR，$\eta$ 可以远低于 10%。[INTERPRETATION]
+
+[CRITIQUE] B&E 的能量预算论证存在一个关键假设：银河系 CR 主要来自 SNR。但 1987 年没有直接的观测证据证明这一点（直接的证据，如 PeVatron 的存在，是在 2010 年代才积累的）。更重要的是，B&E 没有讨论其他可能的 CR 来源：① **OLF 星风**（OB associations 中的大质量恒星风）：Wolf-Rayet 星云的风可以加速粒子到 TeV 量级；② **AGN 喷流**：即使在银河系尺度，银河系中心的超大质量黑洞也可能贡献一些 CR；③ **重离子加速**：某些类型的超新星（如 electron capture SN）可能对 CR 有不成比例的贡献。B&E 假设 SNR 是唯一 CR 来源，这在今天看来过于简化。[CRITIQUE]
+
+### 4.10.3 PeVatron 与宇宙线膝盖
+
+[FACT] 原文 §4.4 讨论了 SNR 的最大加速能量 $E_{\rm max} \sim 10^{15}$ eV（PeV），对应宇宙线的"膝盖"（$3 \times 10^{15}$ eV）。B&E 指出，如果膝盖是 SNR DSA 上限造成的，则需要：① SNR 的磁场强度 $B \sim 100$ μG（而非 ISM 的典型值 $B \sim 5$ μG）；② 或者 SNR 的年龄足够老，使 $E_{\rm max}$ 刚好达到膝盖。这个"PeVatron"问题在 B&E 1987 年已经明确提出，但当时缺乏观测数据来验证。[FACT]
+
+[INTERPRETATION] PeVatron 问题是 DSA 应用于银河系 CR 的最大挑战：① 如果 SNR 是膝盖的来源，则必须解释 PeV 质子是如何在 SNR 中被加速的——这要求局部磁场增强（$\delta B/B_0 \gg 1$）或年轻 SNR 的极端参数；② 如果 SNR 无法达到 PeV，则膝盖必须由其他机制解释（如某种能量依赖的逃逸机制，或不同成分的叠加）；③ 今天（2020s）的观测（HESS 对 SNR 的深场观测、HAWC 的 SNR maps）显示某些年轻 SNR 确实有 TeV γ射线辐射，这些可能对应 PeV 质子的存在——但直接证据仍然缺乏。LHAASO（中国的超大型水切伦科夫探测器阵列）在 2021 年发现了多个 PeV 级 γ射线源，为 PeVatron 问题提供了新的数据点。[INTERPRETATION]
+
+[CRITIQUE] B&E 对 PeVatron 问题的讨论主要停留在"定性预言"层面，没有给出具体的模型来解释如何达到 PeV 能量。他们假设 $E_{\rm max}$ 受限于 SNR 的几何尺寸（$E_{\rm max} \propto B R u_{\rm sh}$），但这个估计在今天的磁场放大理论（Bell instability）看来是低估的——如果磁场可以在 SNR 中被放大到 $\delta B/B_0 \sim 10-100$，则 $E_{\rm max}$ 可以远高于 B&E 的估计。这说明 B&E 1987 的 PeVatron 预言应该被视为一个开放问题，而非已被解决的结论。事实上，"PeVatron 的存在"至今（2024 年）仍然是宇宙线物理的核心未解问题之一。[CRITIQUE]
