@@ -55,6 +55,10 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/08_abundan
 
 [FACT] **爆发性核合成**（explosive nucleosynthesis）**仍然是一个悬而未决的问题**（still an unsettled matter），正在深入研究中（Woosley, Axelrod, Weaver 1984 综述）。
 
+[INTERPRETATION] 爆发性核合成的「悬而未决」与 §III 中 S 因子外推的不确定性构成同构：两者都是「实验室可测 vs 恒星相关能量」之间的鸿沟——§III 是带电粒子反应的库仑势垒，§VIII 是爆发性核合成的激波传播细节；而 §VI Si 燃烧中的 56Ni/56Fe 分支正是这两者交汇的产物。
+
+[INTERPRETATION] 爆发性核合成的「悬而未决」与 §III 中 S 因子外推的不确定性构成同构：两者都是「实验室可测 vs 恒星相关能量」之间的鸿沟——§III 是带电粒子反应的库仑势垒，§VIII 是爆发性核合成的激波传播细节；而 §VI Si 燃烧中的 56Ni/56Fe 分支正是这两者交汇的产物。
+
 [FACT] 爆发性核合成的产物必然依赖于超新星爆发的具体物理细节（the detailed nature of supernova explosions）。
 
 ### Ideas concerning the nature of Type-I and Type-II supernova explosions
@@ -67,6 +71,8 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/08_abundan
 - **Type-II 超新星**（大质量）：**Si 燃烧产生 Fe 组核**（所有核中比结合能最大），核能不再可用 → **光致分解与电子俘获**导致核心坍缩 → **内层地幔**（仍有核燃料）中点燃爆发性核合成。
 
 [FACT] 这些想法"存活"了，但"多年来经历了相当大的修正"（Wheeler 1981 综述）。现代 Type-II 观点见 Weaver et al. (1983), Brown et al. (1982), Bethe et al. (1982, 1983)；现代 Type-I 观点见 Nomoto (1982a,b, 1984)。
+
+[INTERPRETATION] Type-I（电子简并碳爆发）与 Type-II（核心坍缩）的物理机制对比，与 Anders-Grevesse (1989) 中 C1 陨石的 C/Fe 比（0.24 的对数比）形成交叉验证：若 Type-I 主导则 C 贡献大，若 Type-II 主导则 Fe 组贡献大，两者比例约束了 Figs. 16–17 中 25 M_sun 单一恒星模型为何不足。
 
 ### we can return to the nuclear abundance problem by reference to Fig. 16
 
@@ -94,6 +100,8 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/08_abundan
 
 [FACT] 理论最终目标是**恒定的过度产量因子 ~10**。
 
+[INTERPRETATION] 「恒定过产比 ~10」这一经验目标是银河化学演化模型（Chemical Evolution）的核心输入——若某同位素的过产比偏离 10 太多，就说明该同位素的位点被遗漏；§VIII 中 S→Cr 的凹陷正是这种偏离，催生了 200 M_sun Pop III 星补偿方案。
+
 [FACT] Fig. 17 的结果**令人失望**——若期望单一 25 $M_\odot$ Pop I 超新星抛射物以**相对恒定的过产因子**匹配太阳系丰度。
 
 [FACT] **从 S 到 Cr 的丰度凹陷（dip）** 明显存在。
@@ -102,9 +110,13 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/08_abundan
 
 [FACT] Woosley, Axelrod, Weaver (1984) 讨论 **10–200 $M_\odot$** 质量范围的爆发丰度；**200 $M_\odot$ Pop III 星**产生大量 S、Ar、Ca，**可能补偿** Fig. 17 中的凹陷。
 
+[INTERPRETATION] 200 M_sun Pop III 星补偿方案与 Fowler §IX 的 Cameron-Cowan-Truran 热失控 r 过程模型（§9.6）共享同一物理图景：都是「罕见大质量恒星事件对银河化学演化的主导贡献」——前者补 S→Cr 区，后者补 r 过程第一峰，两者共同构成 1984 年「少数稀有事件主导宇宙元素丰度」的新范式。
+
 **Pop III 星的特征**：
 
 [FACT] Pop III 星质量范围 **100 $M_\odot$ ≲ M ≲ 300 $M_\odot$**，被认为是从**纯 H 和 He** 在银河系早期形成的**极快速演化**的大质量星——它们**没有重元素丰度**，因此在现今 Pop I 星与古老低质量 Pop II 星中**都没有对应体**。
+
+[INTERPRETATION] Pop III 星的「无重元素」假设与 Anders-Grevesse (1989) 的太阳系「初始丰度」概念形成张力：若 Pop III 主导了 S、Ar、Ca，则太阳系当前的 S/Fe 比值部分来自已经消失的 Pop III 星——这解释了为何 Anders-Grevesse 需要单独处理 Fe 的陨石 vs 太阳丰度差异（§5.2 中 log Fe = 7.67 vs 7.51）。
 
 ### Other authors have suggested a number of solutions to the problem depicted in Fig. 17
 
