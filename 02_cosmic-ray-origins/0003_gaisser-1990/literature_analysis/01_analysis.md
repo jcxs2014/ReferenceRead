@@ -65,7 +65,11 @@
 
 $$Q_{CR} = \frac{\rho_E \, V_S}{\tau_R} \sim 5 \times 10^{40} \text{ erg} \quad (1)$$
 
-（[CRITIQUE] 此处文本中的数值印刷为 $5\times10^{40}$，但前文声称功率匹配 $3\times10^{42}$，数量级上存在差异。结合下文推导，作者实际使用的 $\rho_{\rm E}$ ≈ 1 eV/cm$^{3}$、V_S ≈ $5\times10^{66}$ cm$^{3}$、$\tau_{\rm R}$ ≈ $5\times10^{6}$ yr 得到的结果应当为 $~3\times10^{41}$ erg/s，与超新星供给 $3\times10^{42}$ erg/s 相当接近——这是本文核心论据之一。）
+（[FACT] fulltext OCR 误读澄清：原文"3 × 10^42 erg/s"是超新星的总注入功率（SNR blast wave 贡献）；Eq. (1) 的 "5 × 10^40 erg/s"是维持银河系稳态 CR 谱所需的功率——两者不是同一物理量，不应直接比大小。超新星注入功率 > CR 需求功率 ~50 倍，恰好对应 SN 的 CR 加速效率 ~10%（Gaisser 的核心论据）。[FACT]
+
+[INTERPRETATION] 这两个数量级差异（10^42 vs 10^40）的物理意义：SNR 是唯一能够提供 ~10^42 erg/s 注入功率的天体，而银河系 CR 稳态只需要 ~10^40 erg/s——两者的比值 ~50 正好是 Gaisser 论证的"10% 效率"来源（SNR 动能只有约 10% 需要转化为 CR 才能匹配观测）。这不是矛盾，而是 Gaisser 论证的核心：这个效率在物理上是合理的（SNR 膨胀到 ISM 的动能中，只有有限比例能被粒子加速），因此 SNR 满足"功率匹配"条件。[INTERPRETATION]
+
+[CRITIQUE] "3 × 10^42 erg/s"引用的原始文献（脚注1）说明这是"one supernova every 30 years with a total kinetic energy of 2 × 10^51 ergs"——但 Gaisser 原文 Eq. (1) 的推导没有明确说明为何用 5 × 10^40 erg/s 而非 3 × 10^42 erg/s 来代表"power requirement"。若 Eq. (1) 中的 Q_CR 应该是 ~3 × 10^42 erg/s（SNR 实际供能），则 Vs/τ_R 的比值会相应改变，原文的 "匹配" 论证需要重新审视。这是 gaisser-1990 的真正逻辑漏洞：功率需求的计算与 SN 供能的引用之间存在不自洽的衔接。[CRITIQUE]
 
 **LIS 能量密度**：
 
