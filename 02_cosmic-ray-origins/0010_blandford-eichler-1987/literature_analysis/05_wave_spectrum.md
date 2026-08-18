@@ -324,3 +324,31 @@ BO 1978 §III 也讨论了自激发，但只是定性估算。B&E §5 给出了*
 [INTERPRETATION] LHAASO 发现对 DSA 理论的意义：① **PeVatron 的存在得到初步证实**：如果 LHAASO 源的高能截断来自 PeV 质子，则证明了 SNR 可以充当 PeVatron——这验证了 B&E 1987 的核心预言之一；② **对 DSA 参数的约束**：PeVatron 的存在要求 $E_{\rm max} \gtrsim 1$ PeV，这反过来约束 SNR 的磁场强度（$B \gtrsim 100$ μG）和年龄（$\lesssim 10^3$ yr）——与 HESS 和 HAWC 的结果共同约束 DSA 模型；③ **与 B&E 预言的关系**：B&E 预言 $E_{\rm max} \sim 10^{15}$ eV，但认为在典型 SNR 中很难达到；LHAASO 的发现暗示某些 SNR 可以达到甚至超过这个极限——这扩展了 B&E 的 DSA 框架的应用范围，同时保留了其核心物理。B&E 1987 是 PeVatron 概念的提出者，LHAASO 是其观测验证的第一步。[INTERPRETATION]
 
 [CRITIQUE] LHAASO 的 PeVatron 候选仍然存在重大不确定性：① **轻子 vs 核子**：目前无法排除 LHAASO 源的 TeV-PeV 伽马射线完全来自电子（轻子过程）——这意味着没有 PeV 质子，PeVatron 身份不成立；② **空间分布的复杂性**：LHAASO 的空间分辨能力有限（对 PeV 伽马射线），无法像 HESS 那样精确测量辐射的空间分布——这使空间诊断受限；③ **统计样本的有限性**：LHAASO 的 12 个 PeVatron 候选对统计研究仍然有限——需要 LHAASO 运行更长时间（~10 年）才能积累足够的样本来做统计研究。因此，当前的 LHAASO 结果应该被理解为"PeVatron 假说的诱人线索"，而非"PeVatron 存在的確凿证据"。B&E 1987 的 PeVatron 预言还需要更多观测来验证——这个验证过程可能需要 10-20 年才能完成。[CRITIQUE]
+
+## 5.16 DSA 不稳定性与波-粒子相互作用的微观物理（从 fulltext 补充）
+
+### 5.16.1 共振与非共振不稳定性 的数学结构
+
+[FACT] DSA 的微观物理由两类不稳定性主导：① **共振不稳定性**（Resonant instability）：CR 梯度驱动 Alfvén 波在共振尺度 $k_{\rm res} = 1/r_g$（回旋半径）处生长，生长率 $\gamma_{\rm res} \sim \Omega_{ci} (V_{\rm CR}/V_A - 1) (n_{\rm CR}/n_{\rm ISM})$。这个不稳定性是 B&E QLT 框架的基础，产生的波谱在 $k \sim k_{\rm res}$ 处有峰；② **非共振不稳定性**（Non-resonant instability，Bell 2004）：当 $V_{\rm CR} \gg V_A$ 时，不稳定性在 $k c/\omega_{ci} \lesssim V_{\rm CR}/V_A$ 的所有尺度上生长，生长率 $\gamma_{\rm NR} \sim \Omega_{ci} (V_{\rm CR}/V_A) (n_{\rm CR} Z / n_{\rm ISM})$。非共振不稳定性产生大振幅螺旋式磁场（filaments），其振幅可达 $\delta B/B_0 \sim 10-100$。[FACT]
+
+[INTERPRETATION] 两类不稳定性的物理分工：① **共振不稳定性**提供 DSA 所需的散射中心——被共振不稳定性放大的 Alfvén 波与 CR 发生回旋共振（$\omega - k_\parallel v_\parallel = \pm n\Omega_{ci}$），使 CR 的 pitch-angle 随机化，实现各向同性散射；② **非共振不稳定性**快速放大磁场，产生小尺度的强磁场湍流——这些湍流通过随机加速（Fermi 过程）进一步加速 CR，也可以作为 DSA 的散射中心。两类不稳定性共同建立 DSA 所需的自洽环境。B&E 的 QLT 框架只处理了共振不稳定性，对非共振 Bell 不稳定性（B&E 1987 年之后才被认识）没有讨论——这限制了他们对 DSA 微观物理的完整理解。[INTERPRETATION]
+
+[CRITIQUE] B&E 对不稳定性 的处理存在根本性缺陷：① **非共振不稳定性的缺失**：B&E 1987 没有讨论 Bell 不稳定性（2004 年才发现），无法解释观测到的强磁场放大（$\delta B/B_0 \sim 10-100$）；② **两种不稳定性的竞争**：在真实 SNR 中，共振和非共振不稳定性同时存在，相互竞争——哪个占主导取决于参数（$V_{\rm CR}/V_A$、$n_{\rm CR}/n_{\rm ISM}$ 等），B&E 没有讨论这种竞争；③ **不稳定性饱和的非线性饱和机制**：B&E 的处理假设不稳定性最终饱和，但没有给出饱和水平的定量预言——今天我们知道，饱和水平由波-波相互作用和 CR 分布的平滑化共同决定，而这需要数值模拟来确定。B&E 的不稳定性处理是 QLT 的，对于 NL-DSAregime 需要扩展到包括非共振不稳定性及其饱和机制。[CRITIQUE]
+
+### 5.16.2 波-粒子共振的微观图像
+
+[FACT] B&E §5 讨论了波-粒子共振，但没有给出完整的微观图像。回旋共振的标准条件是：
+$$\omega - k_\parallel v_\parallel \cos\theta = n\Omega_{ci}/\gamma, \quad n = 0, \pm 1, \pm 2, \ldots$$
+其中 $n=0$ 是朗之万共振（Landeau resonance），$n=\pm 1$ 是一阶回旋共振（primary cyclotron resonance），$n=-1$ 对应于粒子与波的反向运动（能量从粒子转移到波），$n=+1$ 对应于能量从波转移到粒子。在 DSA 中，粒子主要通过一阶回旋共振与 Alfvén 波交换能量：低能粒子（相对于波向后运动）从波获取能量（加速），高能粒子（相对于波向前运动）将能量给波（减速）。[FACT]
+
+[INTERPRETATION] 共振条件的物理含义：① **选择性加速**：只有满足共振条件的粒子才能与给定波发生能量交换——这意味着 DSA 对粒子能量的选择不是连续的，而是分立的（每个回旋谐波对应一个能量区间）；② **随机化的机制**：当粒子同时与多个波发生共振时，其 pitch-angle 被随机化——这是 DSA 散射的微观基础；③ **各向异性 vs 各向同性**：共振条件中的 $v_\parallel \cos\theta$ 项意味着粒子相对于磁场的方向（pitch-angle $\theta$）决定共振条件——这使 pitch-angle 分布的各向异性直接影响加速效率。B&E 的 Fokker-Planck 处理用唯像的散射频率 $\nu$ 描述这个微观共振过程，但没有从第一性原理推导 $\nu$ 与波谱的关系——这是 QLT 和 PIC 模拟的领域，B&E 的综述性处理有意地简化了这一步。[INTERPRETATION]
+
+[CRITIQUE] B&E 对共振图像的简化处理有几个重要后果：① **他们假设各向同性散射**：真实共振过程产生各向异性散射（不同 pitch-angle 的粒子散射率不同），而 B&E 假设散射率与 pitch-angle 无关；② **他们忽略了高阶谐波共振**：虽然 $n=\pm 1$ 共振是主要的，但高阶谐波（$n=\pm 2, \pm 3, \ldots$）在某些参数区间也可能贡献——B&E 没有讨论这些高阶共振的贡献；③ **他们对共振与 QLT 的关系没有明确说明**：QLT 假设波幅足够小，可以用微扰论处理——但 QLT 的有效性条件（$\delta B/B_0 \ll 1$）与 NL-DSA 中强波幅（$\delta B/B_0 \sim 1$）不一致。B&E 的共振图像是正确的，但他们的数学处理（QLT）在 NL-DSAregime 中可能失效——今天的 DSA 研究正在建立超越 QLT 的非微扰共振理论。[CRITIQUE]
+
+### 5.16.3 湍流级联与波谱的统计物理
+
+[FACT] B&E §5 的波谱讨论（Kolmogorov 和 Kraichnan）是静态的，没有讨论波谱的动态形成过程。真实湍流波谱通过级联过程（cascade）形成：① **能量注入尺度**：CR 驱动不稳定性在特定尺度（如 $L_{\rm inj} \sim c/\omega_{ci}$ for Bell）注入能量到湍流；② **惯性尺度范围**：能量从注入尺度向小尺度（耗散尺度）和大尺度（能量级联尺度）传播——在惯性尺度范围内，波谱呈幂律（如 $W(k) \propto k^{-\nu}$）；③ **耗散尺度**：当湍流尺度小到等离子体耗散尺度（如 $c/\omega_{pe}$ for electrons, $c/\omega_{pi}$ for ions）时，能量被等离子体吸收，转化为热能。Kolmogorov 预言 $\nu = 5/3$（三维湍流），Kraichnan 预言 $\nu = 3/2$（二维或阿尔文波主导的湍流）。[FACT]
+
+[INTERPRETATION] 湍流级联对 DSA 的意义：① **波谱决定散射率**：DSA 中的散射率 $\nu_{\rm sc} \propto W(k_{\rm res})$，而 $k_{\rm res} \sim 1/r_g \propto 1/p$——因此高能粒子与较小尺度的波共振，而低能粒子与较大尺度的波共振；② **能量依赖的散射率**：如果波谱是幂律的，则 $W(k) \propto k^{-\nu}$，从而 $\nu_{\rm sc}(p) \propto p^{\nu-1}$——这导致扩散系数 $D(pp) \propto \nu_{\rm sc} p^2 \propto p^{\nu+1}$，影响 DSA 的谱指数；③ **级联的时间尺度**：级联过程需要时间 $\tau_{\rm cas} \sim L^{2/3} / V_{\rm turb}^{1/3}$——如果 SNR 的年龄 $t_{\rm SNR} \lesssim \tau_{\rm cas}$，则湍流尚未建立准稳态分布，此时 DSA 的效率可能受到影响。B&E 假设波谱是准稳态的，但没有讨论其形成过程和时变特性——这是他们静态处理的一个局限性。[INTERPRETATION]
+
+[CRITIQUE] B&E 的静态波谱处理忽略了几个重要效应：① **波谱的演化**：真实 SNR 中，湍流级联使波谱随时间演化——在 SNR 演化过程中，$W(k)$ 的形状和幅度都在变化，DSA 参数（$q$、$E_{\rm max}$）因此也是时间依赖的；② **非均匀级联**：在激波附近，湍流级联可能被打断——激波面是能量注入的额外来源，使局部波谱偏离幂律；③ **粒子对级联的反作用**：高能 CR 粒子从波中获取能量（加速过程），同时也对波产生阻尼（CR 阻尼），这反过来修改湍流级联。这种 CR-湍流耦合是 NL-DSA 的核心，但 B&E 的线性处理无法描述它。今天的数值模拟（读 PIC 和磁流体动力学）正在逐步建立 CR-湍流耦合的完整图像，这超出了 B&E 1987 年的理论框架。[CRITIQUE]
