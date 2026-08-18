@@ -27,9 +27,13 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/05_helium_
 
 [FACT] **关键事实**：人体 65% 氧、18% 碳（按质量，其余主要氢）；太阳和类太阳主序星中 **O 占 0.85%、C 占 0.39%**，是比氦更重的元素中最丰富的两个。
 
-[FACT] $^{12}{\rm C}$/$^{16}{\rm O}$ 的比例取决于：氦燃烧的**密度、温度、持续时间**的复杂组合，但**直接依赖**于两个反应的相对速率：**3$\alpha$ → $^{12}{\rm C}$** vs **$^{12}{\rm C}$($\alpha$,$\gamma$)$^{16}{\rm O}$**。
+[FACT] **$^{12}{\rm C}$/$^{16}{\rm O}$ 的比例取决于**：氦燃烧的**密度、温度、持续时间**的复杂组合，但**直接依赖**于两个反应的相对速率：**3$\alpha$ → $^{12}{\rm C}$** vs **$^{12}{\rm C}$(α,γ)$^{16}{\rm O}$**。
+
+[INTERPRETATION] C/O 比直接决定后期恒星的命运：核心质量、电子简并压、AGB 热脉冲，以及最终是产生 O-Ne-Mg 白矮星还是继续到碳燃烧——所以 Fowler 称之为"头等重要的问题"。
 - 若 3$\alpha$ >> $^{12}{\rm C}$($\alpha$,$\gamma$)$^{16}{\rm O}$：无 $^{16}{\rm O}$ 产生；
 - 若 $^{12}{\rm C}$($\alpha$,$\gamma$)$^{16}{\rm O}$ >> 3$\alpha$：无 $^{12}{\rm C}$ 产生；
+
+[INTERPRETATION] 这条极端化逻辑直接对应 Fig. 6 的两条外推分歧：若取 Langanke-Koonin 提高 2.7 倍的外推，$^{12}{\rm C}({\alpha},{\gamma})^{16}{\rm O}$ 主导、人体与太阳将严重缺碳；若取降低 23% 的外推，3$\alpha$ 主导、氧将严重短缺。任何选择都影响 §VI 洋葱层结构与 §VIII 超新星抛射物的元素比。
 - $^{16}{\rm O}$($\alpha$,$\gamma$)$^{20}{\rm Ne}$ 通常**太慢可忽略**。
 
 ## 5.2 3$\alpha$ → $^{12}{\rm C}$：共识
@@ -71,13 +75,19 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/05_helium_
 - 截面外推范围：**跨越 $10^{7}$ 数量级**
 
 ### 3. 关键观察
-[FACT] **S 因子在低能区上升**（"the rise in the cross-section factor is due to the contributions of two bound states in the $^{16}{\rm O}$ nucleus just below the $^{12}{\rm C}$($\alpha$,$\gamma$)$^{16}{\rm O}$ threshold"）。
+[FACT] **S 因子在低能区上升**（"the rise in the cross-section factor is due to the contributions of two bound states in the $^{16}{\rm O}$ nucleus just below the $^{12}{\rm C}$(α,γ)$^{16}{\rm O}$ threshold"）。
+
+[INTERPRETATION] 两条束缚态把"平滑下降"的假设直接推翻——如果只做简单外推，会把 $^{12}{\rm C}$(α,γ)$^{16}{\rm O}$ 在恒星温度下的速率算低 1–2 个数量级，进而严重低估 O 产率。
 
 ### 4. Langanke-Koonin 1983 的结论
 [FACT] Langanke-Koonin (1983)：
 - 将 Fowler, Caughlan, Zimmerman (1975) 对 Caltech 数据的 1975 年外推**提高 2.7 倍**；
 - 将 Münster 数据的 1982 年外推**降低 23%**；
+
+[INTERPRETATION] 1.6 倍差异（Caltech 提高 2.7 倍 vs Münster 降低 23%）跨越了恒星 C/O 比的观测误差带，这直接解释了为何 Anders-Grevesse (1989) 的太阳 C/O 比值（log C=8.56, log O=8.93, C/O=0.24）在 1984–1989 年间无法用单一恒星模型复现，只能归因于 CNO 初始丰度差异或核反应速率不确定性。
 - 两套数据的**外推之间仍有 1.6 倍差异**。
+
+[INTERPRETATION] 从实验室 1.4 MeV 到恒星 Gamow 峰 0.3 MeV，跨越 $10^{7}$ 个截面的外推误差能被一个 1.6 倍"看似小"的不确定性完全吃掉——这是核天体物理最经典的"小误差大灾难"案例。
 
 ### 5. 教训
 [FACT] Dyer & Barnes (1974) 的半经验外推仅比 Langanke-Koonin (1983) 低 30%，其误差范围**恰好延伸到 Langanke-Koonin 1983 的值**——说明早期实验者的不确定性估计**是诚实的**。
@@ -98,6 +108,8 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/05_helium_
 
 [FACT] Starrfield et al. (1983) 与 Becker (1983) 的脉动分析**要求脉动驱动区存在大量氧**——氧在该区被交替电离/去电离；碳在该区完全电离，只会减小脉动幅度。
 
+[INTERPRETATION] PG 1159 星把"恒星内部 C/O 比"从天文学家的理论量转化为可观测的脉动量——这是"恒星震学"用宏观脉动反推微观成分的最早范例之一。
+
 [FACT] 目前尚不清楚 He 闪是否产生了足够的氧——He 闪一定涉及 3$\alpha$ → $^{12}{\rm C}$，但**持续时间是否足以让 $^{12}{\rm C}$($\alpha$,$\gamma$)$^{16}{\rm O}$ 参与仍存疑**。
 
 [FACT] 据 Starrfield 和 Becker，问题**可能不在核反应速率**上。
@@ -113,6 +125,8 @@ $^{13}{\rm C}$(p,$\gamma$)$^{14}{\rm N}$(e$^{+}$+$\nu$)$^{13}{\rm N}$
 ```
 → 后续 He 燃烧中通过 **$^{13}{\rm C}$($\alpha$,n)$^{16}{\rm O}$** 产生中子。
 
+[INTERPRETATION] 这条链的完整反应式 $^{13}{\rm C}(p,{\gamma})^{14}{\rm N}(e^+,{\nu})^{13}{\rm N}$ 在 §IV 的 CNO 循环中首次出现——这里 Fowler 把它从氦燃烧的副产物重读为 s 过程的中子源，把 §IV–§V 与 §IX 的 s 过程连接起来。
+
 ### 情形 2：CNO 循环**完成**（主产物 $^{14}{\rm N}$ ~95%）
 [FACT] 后续 He 燃烧中：
 ```
@@ -120,7 +134,11 @@ $^{14}{\rm N}$($\alpha$,$\gamma$)$^{18}{\rm F}$(e$^{+}$+$\nu$)$^{18}{\rm O}$($\a
 ```
 → 由 $^{18}{\rm O}$($\alpha$,n)$^{21}{\rm Ne}$($\alpha$,n)$^{24}{\rm Mg}$ 与 $^{22}{\rm Ne}$($\alpha$,n)$^{25}{\rm Mg}$ 产生中子。
 
+[INTERPRETATION] 两种中子源（$^{13}{\rm C}({\alpha},n)$ 低温 vs $^{22}{\rm Ne}({\alpha},n)$ 高温）分别对应 $T\sim 10^8$ K 的 AGB intershell 与 $T>3\times10^8$ K 的 He 壳层闪烁——Fowler §IX 中 s 过程的位点争论正是围绕这两种中子源的相对贡献展开，Busso-1999 §5 详细讨论了 13C 口袋模型。
+
 [FACT] 这些中子随后通过 **s 过程**和 **r 过程**合成重元素的**天体物理条件与位点**（直到 1984 年）仍是**争议与研究的核心**（见 Sec. XI）。
+
+[INTERPRETATION] He 燃烧里的中子源是核合成的"十字路口"：CNO 循环完成与否决定了走 $^{13}$C 还是 $^{22}$Ne 通道，进而决定了 s 过程产物的具体同位素分布——这正是 40 年后 AGB 星与 s 过程研究仍在争论的起点。
 
 ## 5.10 符号约定说明
 

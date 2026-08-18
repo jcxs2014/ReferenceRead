@@ -59,6 +59,8 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/06_advance
 
 [FACT] 图中**洋葱状分层**反映每一燃烧阶段**先发生在中心、后形成壳层环绕前一阶段**——后续阶段**修改**内层：例如 C 燃烧占中央 6.5 $M_\odot$，但内 1.9 $M_\odot$ 被后续 Ne/O/Si 燃烧修改。
 
+[INTERPRETATION] 洋葱分层不是抽象分类，而是可测量事实：每一层的质量半径、温度、密度对应到不同的超新星爆炸动力学——爆炸能否重新点燃某一层，取决于该层距铁核多远、密度多大。
+
 ## 6.4 Figure 9 — 更新后的 25 $M_\odot$ Pop I 丰度
 
 [FACT] Weaver, Woosley, Fuller (1983) 更新的超新星前丰度，比 Fig. 8 更详细，含 $^{20}{\rm Ne}$、$^{16}{\rm O}$、$^{4}{\rm He}$、$^{12}{\rm C}$、$^{28}{\rm Si}$、$^{32}{\rm S}$、$^{36}{\rm Ar}$、$^{40}{\rm Ca}$、$^{56}{\rm Fe}$ 等随内部质量分布。
@@ -99,9 +101,13 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/06_advance
 
 [FACT] 但 $^{28}{\rm Si}$ 及其后续产物**易被光致分解** ($\gamma$,$\alpha$)、($\gamma$,n)、($\gamma$,p)——硅燃烧通过**光致分解 → 核子/$\alpha$ 粒子捕获**网络逐步向 Fe 组攀爬。
 
+[INTERPRETATION] Si 燃烧本质是"光子驱动的热核熔炉"：不是靠温度让核聚变，而是靠光致分解把 Si 拆成 $\alpha$/n/p 碎片，再靠热平衡把它们重新组装到比结合能最大的 Fe 组——这是自然界最壮观的化学势平衡实例。
+
 [FACT] **爆炸性 Si 燃烧** 主产物：**$^{56}{\rm Ni}$**（后通过两次 $\beta$ 衰变 → $^{56}{\rm Fe}$）。
 
 [FACT] **准静态 Si 燃烧** 弱相互作用快，主产物为 **$^{56}{\rm Fe}$**（比 $^{56}{\rm Ni}$ 多两个中子）。
+
+[INTERPRETATION] 从 $^{56}$Ni 到 $^{56}$Fe 的差异看起来微小，但对超新星观测决定性的：$^{56}$Ni 通过 $\beta^+$ 衰变链释放的 1.17/1.33 MeV 和 847 keV $\gamma$ 线正是超新星后期光变的能量来源——"星尘"字面意义上由放射性衰变发光。
 
 ## 6.6 $\alpha$ 过程与 e 过程（B$^2$FH 分解）
 

@@ -91,6 +91,8 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/07_weak_ra
 
 [FACT] 由 Chandrasekhar 关系**核质量 ∝ 轻子分数$^{2}$**，较大最终核质量 → **更强的 bounce 后激波**。但 pre-collapse Si 燃烧中新电子俘获速率减小轻子分数 → 较小初始核质量 → 较少激波可耗散的物质 → 激波耗散减小（Weaver, Woosley, Fuller 1983）。
 
+[INTERPRETATION] 中子壳阻塞与激波强度之间是一对相互竞争的双向效应——"重核中轻子分数更大→激波更强"与"初始轻子分数被压低→激波更弱"——直到今天仍是核心坍缩超新星能否成功爆炸的关键争论点。
+
 ## 7.7 Bethe 1982 Caltech 访学
 
 [FACT] Hans Bethe 于 1982 年初作为 Caltech Fairchild Scholar 访问 Kellogg Lab，与 Yahil、Brown、Cooperstein、Wilson 合作完成两篇开创性论文：

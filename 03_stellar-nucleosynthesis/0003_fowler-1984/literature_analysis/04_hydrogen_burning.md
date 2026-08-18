@@ -33,13 +33,21 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/04_hydroge
 
 [FACT] 弱相互作用知识告诉我们：**每四个 H 核聚合成 He 时发射两个中微子**。
 
+[INTERPRETATION] 这与 §V 中 He 燃烧产生 $^{12}{\rm C}$/$^{16}{\rm O}$ 时释放的伽马射线形成对比——氢燃烧的能量输出约 26.7 MeV/4p，其中约 0.6 MeV 以中微子形式带走（~2.2%），直接决定了太阳的标准模型光度预测精度。
+
+[INTERPRETATION] Fowler-Cameron (1958) 的预言直接催生了 Davis 的实验方案（§4.3），也启发了 Bahcall 后来的标准太阳模型——这是实验核天体物理中"理论预言先行、实验验证滞后数十年"的经典案例，与 §V 的 3$\alpha$→$^{12}{\rm C}$ 的 Hoyle 共振预言相呼应。
+
 [FACT] Fowler (1958) 与 Cameron (1958) 详细阐述了 pp 链，指出**一小部分**来自 $^{7}{\rm Be}$ 与 $^{8}{\rm B}$ 衰变的中微子能量足够高，可通过与 $^{37}{\rm Cl}$ 核反应产生放射性 $^{37}{\rm Ar}$ 而被探测——探测方法由 **Pontecorvo (1946)** 与 **Alvarez (1948)** 建议。
+
+[INTERPRETATION] 从 Fowler-Cameron 的理论预测到 Davis 实验落地，跨越近 20 年——这本身就标志着核天体物理从"纸面计算"正式进入"可检验实验科学"，也是该领域获得诺贝尔奖的直接实验基础。
 
 ## 4.3 Homestake 实验与"三分之一缺失"
 
 [FACT] **Raymond Davis Jr.** 及其合作者**超过 25 年**一直在探测高能中微子，使用：
 - **装置**：**380,000 升** 四氯乙烯 ($C_{2}$$Cl_{3}$Cl, perchloroethylene) 储罐
 - **位置**：南达科他州 Lead 的 Homestake Gold Mine，**地下一英里**
+
+[INTERPRETATION] Homestake 实验把中微子问题从"太阳内部发生了什么"的形而上问题，转化为"探测效率 vs 标准太阳模型"的定量实验问题——此后所有争论（MSW、振荡、非标准模型）都必须回到 Homestake 数字本身，这就是 Davis 方法的力量。
 
 [FACT] 测量结果：**仅发现预期值约 1/4**（预期值基于 Bahcall et al. 1982 的模型相关计算）。
 
@@ -50,6 +58,8 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/04_hydroge
 
 [FACT] 文中承认对截面的争议"已基本解决"（见 Robertson et al. 1983, Osborne et al. 1982, Skelton & Kavanagh 1984）。
 
+[INTERPRETATION] "截面已基本解决"的宣称针对的是 $^{3}{\rm He}$(p,$\gamma$)$^{4}{\rm He}$ 与 $^{7}{\rm Be}$(p,$\gamma$)$^{8}{\rm B}$ 两个关键 pp-III 分支反应——正是这些反应决定 $^{8}{\rm B}$ 中微子流量；Fowler 承认截面不再是悬案，等于把焦点推向太阳模型本身或新物理（中微子振荡），为 30 年后 SNO 实验锁定 MSW 解埋下伏笔。
+
 ## 4.4 中微子探测的未来：Ga 探测器
 
 [FACT] 下一步是在$^{37}{\rm Cl}$ 之外增加对**低能中微子**的探测——通过 **$^{71}{\rm Ga}$ 核**吸收中微子产生放射性 $^{71}{\rm Ge}$。
@@ -57,6 +67,8 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/04_hydroge
 [FACT] 需要 **30–50 吨** 的镓，**50 吨的成本约 2500 万美元或 2 亿瑞典克朗**——国际合作正在筹集。
 
 [FACT] 文中强列建议：**氯探测器应继续维持低水平运行，直到 Cl 和 Ga 探测器能同时全功率运行**——否则关于太阳中微子流量时间变化的无休止猜测将接踵而来。
+
+[INTERPRETATION] Ga 探测器对 pp 链主分支（阈值 0.233 MeV）敏感，而 Cl 仅对 $^{8}{\rm B}$（阈值 0.814 MeV）敏感；两者互补才能分辨 pp、$^{7}{\rm Be}$、$^{8}{\rm B}$ 三条流的相对贡献——这正是后来 SAGE 与 GALLEX 实验的观测逻辑，最终确认了 pp 与 $^{7}{\rm Be}$ 流的亏损量级与 Cl 一致。
 
 ## 4.5 太阳中微子问题的意义
 
@@ -74,6 +86,8 @@ path: 03_stellar-nucleosynthesis/0003_fowler-1984/literature_analysis/04_hydroge
 [FACT] CNO 循环的重要性：
 - 以 $^{12}{\rm C}$、$^{16}{\rm O}$ 为种子，产生 $^{13}{\rm C}$、$^{14}{\rm N}$、$^{15}{\rm N}$、$^{15}{\rm O}$、$^{17}{\rm O}$
 - 这些核在后续**氦燃烧阶段**成为**中子的来源**（Sec. V 讨论）
+
+[INTERPRETATION] CNO 循环的 $T^{16-20}$ 依赖 vs pp 链的 $T^4$ 依赖（§4.6）决定了 $\sim1.3 M_\odot$ 附近 pp/CNO 的交叉——这一分界与 Anders-Grevesse (1989) 中太阳 Fe/C 比值的精度直接相关，因为 C/Fe 比在 CNO 主导区会被循环耗尽。
 
 ## 4.7 作者的逻辑链
 
