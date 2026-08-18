@@ -134,3 +134,11 @@ Bell 1978 的 §2（Particle Acceleration at a Shock Front）给出了完整的�
 2. **电子/质子比的解释**：BO 假设电子和质子的动量分布有相同的谱指数 $s \approx 4.5$，通过 equipartition 解释观测到的 $e^-/p^+ \sim 0.03$。这个假设需要更仔细的处理。
 
 3. **最高能宇宙线的来源**：$10^{18}$ eV 以上 SNR DSA 无法加速，必须另有机制——BO 当时尚未讨论 UHECR 的候选源（AGN、GRB 等）。
+
+## 3.9 [FACT]/[INTERPRETATION]/[CRITIQUE] 标注
+
+**[FACT]** §III 的能量可行性论证（BO Eq. 9–12）：SNR 动能 $10^{51}$ erg 中 $10\%$ 转化为 CR 能量 → $10^{50}$ erg / 粒子平均能量 $10^{14}$ eV → $10^{54}$ 个粒子/m³（银河系总 CR 能量 $10^{39}$ erg 需要 $10^{45}$ 个粒子）。原文 Eq. 11 的 $n_{\rm CR} \sim 10^{-10}$ cm$^{-3}$ 是正确的量级估算。[FACT]
+
+**[INTERPRETATION]** §III 的 10% 效率估算存在假设依赖性：原文 Eq. 10 取 $V_{\rm SNR} \sim 10^{57}$ cm³（Sedov 阶段），但 Eiley 阶段的 SNR 体积小 100 倍。若 CR 加速主要发生在 Eiley 阶段，则 $10\%$ 效率要求可能更易满足（或更难——取决于早期密度）。[INTERPRETATION]
+
+**[CRITIQUE]** §III 对 SNR 作为 CR 唯一源的论证依赖一个隐含假设：SNR 的每次爆发都贡献相似能量。但实际上 Core-collapse SN（Type Ib/Ic/II）和 Type Ia 的动力学环境差异巨大（wind bubble vs uniform ISM），加速效率可能差异 10 倍以上。BO 的"平均 10%"是一个过于简化的处理，忽略了 SN 类型的分散性。[CRITIQUE]

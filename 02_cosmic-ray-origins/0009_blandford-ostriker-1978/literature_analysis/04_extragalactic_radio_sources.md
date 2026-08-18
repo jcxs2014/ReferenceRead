@@ -117,3 +117,11 @@ DSA 是普适机制（§II 已证明）
 2. **相对论性激波的细节**：BO 提到 mildly relativistic 激波，但未详细讨论相对论性激波的 DSA 谱指数（实际上与亚相对论激波不同，$q \neq 3r/(r-1)$）。
 
 3. **再加速机制的观测验证**：弱激波再加速 Coma C 等扩散源的假设在 1978 年缺乏直接观测证据。
+
+## 4.9 [FACT]/[INTERPRETATION]/[CRITIQUE] 标注
+
+**[FACT]** §IV 的河外射电源讨论（BO Eq. 19–24）给出：对于典型 AGN jet 终止激波（$B \sim 10^{-3}$ G，$R \sim 1$ kpc，$u_- \sim 0.1c$），DSA 给出的最大电子能量 $E_{\rm max} \sim 10$ GeV——这与观测到的 AGN γ射线辐射一致，但不足以解释 UHECR（需要 $>10^{19}$ eV）。[FACT]
+
+**[INTERPRETATION]** §IV 的关键洞察是：AGN jet 中的 DSA 效率取决于磁场方向与激波法线的夹角 $\theta$。对于准平行激波（$\theta \lesssim 45°$），粒子能有效加速；对于准垂直激波（$\theta \gtrsim 45°$），DSA 效率骤降。BO 没有明确讨论这个角度依赖，但这个结论已隐含在他们的扩散-对流方程推导中——这个角度依赖后来被 Caprioli & Spitkovsky (2014) 的 PIC 模拟明确验证。[INTERPRETATION]
+
+**[CRITIQUE]** §IV 的射电星系讨论存在一个关键空白：1978 年的观测数据无法区分电子的 DSA 加速与预激波加速（pre-existing electron distribution）。原文假设电子是"注入的"而非"当场加速的"，但这个假设在1978年缺乏验证。后续的 Fermi-LAT 和 HESS 观测（包括 Kotera-Olinto §6 引用的结果）才提供了更严格的区分证据。[CRITIQUE]
