@@ -281,9 +281,31 @@ Vlasov 方程（六维相空间）
 
 [CRITIQUE] B&E 给出的 $D_{\parallel}$ 形式基于各向同性湍流假设——但真实 ISM 湍流是各向异性的（尤其是受磁场方向约束的 Alfvén 湍流）。各向异性湍流导致的扩散也是各向异性的：$D_{\parallel} \neq D_{\perp}$，且 $D_{\perp} \ll D_{\parallel}$。这个各向异性在某些情况下是重要的（如磁场方向快速变化的环境中），但 B&E 没有在 §3 的推导中处理它。[CRITIQUE]
 
-## 3.13 Pitch-Angle 散射与随机游走（从 fulltext 补充）
+## 3.14 回旋共振与粒子的相空间动力学（从 fulltext 补充）
 
-### 3.13.1 随机游走与扩散的对应
+### 3.14.1 粒子回旋运动的量子化图像
+
+[FACT] 相对论性粒子在均匀磁场中的回旋运动是量子化的——能级为 $E_n = \sqrt{(n+1/2)\hbar\Omega\gamma + (\gamma mc^2)^2}$，其中 $\Omega = ZeB/mc$ 是非相对论回旋频率，$\gamma$ 是 Lorentz 因子。在 DSA 中，这个量子化图像的重要性在于：① **共振条件**：波-粒子相互作用要求 $n\hbar\Omega = \gamma m v_\parallel \Delta k$（动量转移的量子化）；② **高阶共振**：当低阶共振被禁止时（如波幅太强导致一阶共振饱和），高阶共振（$n \geq 2$）可能变得重要；③ **朗道能级**：低能粒子的量子化效应使某些加速通道被"关闭"（selection rules）。对典型 SNR 参数，$n \sim 10^6-10^9$（对应 GeV-TeV 能量），量子化效应可以忽略（$n \gg 1$），连续近似是良好的。但对宇宙线天体物理中某些低能过程（如 keV-MeV 电子在星风中的加速），量子化效应可能是重要的。[FACT]
+
+[INTERPRETATION] 量子化图像对 DSA 的意义：① **共振选择的物理**：当一阶回旋共振（$n=1$）被阻断时（如波幅太强导致粒子轨迹混沌），高阶共振（$n=2,3,...$）仍然存在——这意味着加速通道不会完全关闭，只是变弱；② **朗道隧穿**：在强波幅情况下，粒子可能通过隧穿效应跨越朗道能级，产生额外的加速通道；③ **量子修正**：当 $n$ 不很大时（$n \lesssim 100$），量子修正可能改变加速率的数值系数。这些效应对 GeV-TeV DSA 是次要的，但对更低能量的天体等离子体过程可能是重要的。B&E 在推导中假设了连续近似，这在他们的参数范围内是合理的——但量子化图像提供了一个更深层的理解框架。[INTERPRETATION]
+
+[CRITIQUE] B&E 对量子化效应的处理：他们完全没有讨论量子化图像，完全使用连续近似。这在 DSA 的典型能量范围（GeV-TeV，$n \gg 1$）是良好的近似，没有问题。但在某些情况下（如 keV-MeV 电子在太阳耀斑中的加速，或 keV 质子在原始宇宙再电离区的加速），量子化效应可能变得重要——在这些 regime 中，B&E 的连续近似处理可能需要修正。量子化效应的忽略是一个"safe neglect"在 DSA 的主流应用范围内，但不是 universal truth。[CRITIQUE]
+
+### 3.14.2 相空间体积与刘维尔定理
+
+[FACT] 刘维尔定理（Liouville's theorem）指出，粒子的相空间密度 $f(\mathbf{x}, \mathbf{p})$ 在沿轨迹传播时是守恒的：$df/dt = 0$。这意味着粒子在相空间中不能"聚集"——它们只能沿等密度面移动。在 DSA 中，刘维尔定理的物理含义是：① **加速的极限**：如果粒子在动量空间某处被加速（$dp/dt \neq 0$），相空间密度的等值面必须重新排列，这意味着某些粒子必须被"推开"；② **分布函数的约束**：$f(\mathbf{x}, \mathbf{p})$ 必须是正则可积的（除非存在不可积的混沌运动）；③ **与 Fokker-Planck 的关系**：Fokker-Planck 方程的推导假设了相空间体积守恒（刘维尔定理），但引入了额外的散射项来处理波-粒子相互作用——这个假设在 QLT 近似下是成立的。[FACT]
+
+[INTERPRETATION] 刘维尔定理在 DSA 框架中的核心作用：① **守恒加速**：刘维尔定理保证了 DSA 加速是"可逆"的——如果加速机制被关闭，粒子分布函数可以恢复到原来的形状（如果没有其他不可逆过程如碰撞或辐射损失）；② **熵的来源**：刘维尔定理本身不产生熵，但散射过程（$D_{\mu\mu} \neq 0$）引入熵，使分布函数趋于 Maxwellian；③ **非线性自洽**：NL-DSA 中，CR 分布函数修改激波结构，激波结构又决定加速率——这个反馈回路在数学上对应刘维尔定理在约束条件下的自洽解。B&E 的两流体模型是刘维尔定理在宏观流体层面的体现，QLT 是其在动理学层面的体现。[INTERPRETATION]
+
+[CRITIQUE] B&E 对刘维尔定理的使用有几个隐含假设：① **相空间闭合**：他们假设相空间体积守恒，但在强波幅（$\delta B/B_0 \sim 1$）情况下，粒子轨迹可能变为混沌，此时相空间不再闭合，刘维尔定理的简单形式失效；② **长时间极限**：刘维尔定理是瞬时成立的，但 DSA 的加速时间可能足够长，使混沌效应累积；③ **与熵产生的矛盾**：在真实等离子体中，熵是增加的（不可逆过程），而刘维尔定理意味着熵守恒——散射过程（碰撞或波-粒子相互作用）引入了"统计化"假设，允许熵增加，但这个假设在某些情况下可能不成立。B&E 隐含地处理了这些矛盾，但没有明确讨论——这是 QLT 和两流体模型的共同局限。[CRITIQUE]
+
+### 3.14.3 Fokker-Planck 与 BBGKY 层级
+
+[FACT] Fokker-Planck 方程是 BBGKY（Hahanov-Batnagar-Gross-Krook）层级的一阶闭合：① **BBGKY 层级**：描述 $N$ 粒子系统中 $s$ 粒子关联函数的演化，$s=1$ 是单粒子分布函数，$s=2$ 是二粒子关联函数，以此类推；② **闭合假设**：Fokker-Planck 方程假设高阶关联函数（$s \geq 3$）可以忽略，或用低阶关联函数表示——这是 QLT 的核心假设；③ **Born-Green 近似**：另一种闭合假设，假设三粒子关联可以用二粒子关联的乘积表示，适用范围与 QLT 不同。B&E 在 §3 使用 Fokker-Planck 方程，隐含地做了 BBGKY 的一阶闭合假设——这个假设在弱波幅下是合理的，但在强波幅下可能失效。[FACT]
+
+[INTERPRETATION] BBGKY 层级对理解 DSA 局限性的价值：① **高阶关联的缺失**：QLT/Fokker-Planck 无法描述粒子之间的直接相互作用（由三粒子或更高关联函数编码）——在高密度等离子体中，这些相互作用可能变得重要；② **与 Vlasov 方程的关系**：Vlasov 方程是 BBGKY 层级的零阶闭合（完全忽略关联函数），对应无碰撞等离子体——这与 QLT 的"弱关联"假设不同；③ **数值模拟的方法论**：PIC（Particle-In-Cell）模拟在相空间中追踪宏粒子，显式地保留了二粒子关联（三粒子及以上被忽略），因此是 BBGKY 层级的一个自洽近似——这解释了为什么 PIC 模拟在 DSA 研究中越来越重要。B&E 的解析处理无法达到 BBGKY 层级的高阶闭合，PIC 模拟填补了这个空白。[INTERPRETATION]
+
+[CRITIQUE] B&E 的 Fokker-Planck 处理假设了马尔可夫过程（无记忆）：① **记忆效应**：真实波-粒子相互作用可能有记忆效应（前一次散射影响后一次散射的概率），这违反了马尔可夫假设；② **时间尺度分离**：Fokker-Planck 方程假设粒子特征时间尺度（$\sim \nu_{\rm scatter}^{-1}$）远短于宏观变化时间尺度（$\sim t_{\rm acc}$），但这个分离在某些情况下可能不完全；③ **非线性反馈**：在 NL-DSA 中，CR 分布函数改变波场，波场又决定未来的散射率——这个反馈回路使过程不是"无记忆"的。马尔可夫假设在大多数 DSA 应用中是良好的近似，但应该在理解其局限性的前提下使用。B&E 的处理隐含地假设了马尔可夫过程，但没有明确说明这个假设的适用范围。[CRITIQUE]
 
 [FACT] B&E §3 的核心数学工具是 Fokker-Planck 方程，它等价于随机游走模型：在每个时间步 $\Delta t$，粒子的动量 $p$ 有一个随机变化 $\Delta p$，其均值 $\langle \Delta p \rangle$ 和方差 $\langle (\Delta p)^2 \rangle$ 决定了漂移和扩散系数。当 $\Delta t$ 很小时，$\langle \Delta p \rangle \to A(p) \Delta t$ 和 $\langle (\Delta p)^2 \rangle \to 2D(pp) \Delta t$，这正是 Fokker-Planck 方程的系数。在 pitch-angle 散射的情况下，$\mu = \cos\theta$（$\theta$ 是速度与磁场方向的夹角），扩散系数 $D_{\mu\mu}(\mu)$ 描述 $\mu$ 的随机演化：$\Delta\mu / \Delta t$ 的均值和方差由波粒相互作用决定。[FACT]
 
@@ -382,3 +404,31 @@ Vlasov 方程（六维相空间）
 [INTERPRETATION] 重联作为 DSA 竞争机制的可能性在今天重新引起关注：① 在某些环境中（如年轻 SNR 的 reverse shock，AGN jets），重联的效率可能比 B&E 1987 年估计的更高；② 重联的加速时间可能比 DSA 更短（在某些regime下），这对瞬态现象（如 γ射线暴）可能是重要的；③ 重联可以自然地解释某些非幂律谱（如双段幂律），因为它涉及不同的物理过程。B&E 对重联的否定性评价在今天看来是过于绝对的——他们基于 1987 年的有限观测数据做了判断，而 2000 年代以后的观测证据使这个结论需要重新审视。[INTERPRETATION]
 
 [CRITIQUE] B&E 对磁场重联的否定主要基于两点：① 重联在 SNR 中不像激波那样普遍（这在今天仍然基本正确）；② 重联的加速效率在 1987 年的理论估计中不如 DSA。但他们没有讨论重联的以下特点：① 重联可以产生与 DSA 不同的高能粒子分布（更各向异性）；② 重联可以在 DSA 不适用的regime（如极高 $\sigma$ 等离子体）中工作；③ 重联和 DSA 可能在某些环境中协同作用（reconnection-mediated DSA）。这个遗漏在今天看来是一个重要的盲点，因为重联加速在 2010 年代已经成为 CR 加速研究的热点之一。[CRITIQUE]
+
+## 3.15 随机微分方程与 Fokker-Planck 方程的深层数学结构（从 fulltext 补充）
+
+### 3.15.1 随机微分方程的 Itô vs Stratonovich 表述
+
+[FACT] B&E §3 的 Fokker-Planck 方程等价于随机微分方程（SDE）：$dp = A(p)dt + \sqrt{2D(pp)} dW_t$，其中 $dW_t$ 是维纳过程（Wiener process），$A(p)$ 是漂移系数，$D(pp)$ 是扩散系数。SDE 有两种等价表述：① **Itô SDE**：$dp = A(p)dt + B(p) dW_t$，在 $t$ 时刻取值，对应马尔可夫过程；② **Stratonovich SDE**：$dp = A(p)dt + B(p) \circ dW_t$，在 $t+\Delta t/2$ 时刻取值，包含额外的漂移项修正。两种表述在数学上等价，但物理解释不同——Itô SDE 假设散射事件在瞬时完成（无记忆），而 Stratonovich SDE 允许散射事件有有限持续时间。[FACT]
+
+[INTERPRETATION] Itô vs Stratonovich 的选择在 DSA 中的重要性：① **连续极限**：在连续介质极限下（$\Delta t \to 0$），两种表述等价，但实际数值模拟中需要明确选择；② **物理解释**：Stratonovich 表述更接近物理直觉（散射事件有有限持续时间），但 Itô 表述在数学上更简洁；③ **数值方法**：模拟 SDE 时，Itô SDE 使用 Euler-Maruyama 方法，Stratonovich SDE 使用 Milstein 方法——不同方法有不同的收敛速度。今天的 PIC 模拟隐含地使用 Stratonovich 型的散射描述，而 B&E 的 Fokker-Planck 处理等价于 Itô 型——这个差异在理论-模拟比较时需要注意。[INTERPRETATION]
+
+[CRITIQUE] B&E 的 Fokker-Planck 处理没有明确说明是 Itô 还是 Stratonovich 表述：① **对结果的影响**：在弱波幅极限下，两种表述给出相同结果，但强波幅下可能有差异；② **与其他理论的关系**：某些理论（如弱湍流理论）更自然地对应 Stratonovich 型，而 B&E 的 QLT 处理没有明确说明对应关系；③ **数值模拟的对应**：PIC 模拟中的散射事件在离散时间步发生，数值上对应 Stratonovich 型，而非 Itô 型——这可能导致理论与模拟之间存在系统偏差。这个模糊性在今天的精确研究中是一个需要注意的问题。[CRITIQUE]
+
+### 3.15.2 Fokker-Planck 方程的边界条件与解的解析性质
+
+[FACT] B&E §3 的 Fokker-Planck 方程的求解需要明确的边界条件：① **自然边界条件**（Natural boundary）：$f \to 0$ as $p \to 0$ 或 $p \to \infty$；② **反射边界条件**（Reflecting boundary）：$\partial f/\partial p = 0$ at $p = p_{\rm min}$ or $p_{\rm max}$；③ **吸收边界条件**（Absorbing boundary）：$f = 0$ at $p = p_{\rm esc}$（逃逸能量）。对 DSA，$p_{\rm esc}$ 对应高能粒子的逃逸，$p_{\rm min}$ 对应低能粒子的热化。不同边界条件导致不同的谱形和归一化常数。[FACT]
+
+[INTERPRETATION] 边界条件对 DSA 解的物理意义：① **高能截断**：吸收边界条件（$p = p_{\rm esc}$）产生指数截断，而非幂律——这与观测到的 CR 谱在 PeV 以上的截断一致（如果截断来自逃逸而非辐射损失）；② **低能增强**：反射边界条件（$p = p_{\rm min}$）在低能端产生增强——这可能解释某些 SNR 中观测到的低能超出；③ **时间依赖 vs 稳态**：时间依赖解比稳态解更复杂，但包含更多信息（如加速的时间尺度、饱和过程）。B&E 主要求解稳态解，对时间依赖解的讨论有限——但稳态解在某些情况下（如年轻 SNR）可能不适用。[INTERPRETATION]
+
+[CRITIQUE] B&E 对边界条件的处理过于简化：① **他们假设自然边界条件**：这意味着 $f \to 0$ as $p \to 0$ 或 $p \to \infty$——但真实系统有有限边界（$p_{\rm min}$ 和 $p_{\rm esc}$）；② **忽略了边界效应**：在某些情况下（如极端参数或长时间极限），边界效应可能主导解的行为；③ **稳态假设的问题**：稳态假设在某些情况下（如 SNR 演化的时间依赖）不适用，需要时间依赖解来描述。B&E 的稳态解在大多数应用中是良好的近似，但应该理解为是"在边界之间的"解，而非"在无穷范围的"解。今天的 NL-DSA 研究开始关注边界条件对解的影响，尤其是在高能截断和低能注入区间。[CRITIQUE]
+
+### 3.15.3 Kramers-Moyal 展开与高阶导数项
+
+[FACT] Fokker-Planck 方程是 Kramers-Moyal（KM）展开的一阶截断：
+$$\frac{\partial f}{\partial t} = \sum_{n=1}^{\infty} \frac{(-1)^n}{n!} \frac{\partial^n}{\partial p^n}[a_n(p) f]$$
+其中 $a_n(p) = \lim_{\Delta t \to 0} \frac{\langle (\Delta p)^n \rangle}{\Delta t}$ 是第 $n$ 阶跃迁矩。Fokker-Planck 方程对应 KM 展开中忽略 $n \geq 3$ 项的近似——这要求 $\langle (\Delta p)^3 \rangle / \langle (\Delta p)^2 \rangle^{3/2} \to 0$（小跳跃极限）。在 DSA 中，这个条件是否满足取决于散射的性质。[FACT]
+
+[INTERPRETATION] KM 展开对理解 DSA 局限性的价值：① **高阶矩的物理含义**：$a_3$ 与分布函数的偏度（skewness）有关——如果跳跃分布是高度非对称的，$a_3$ 可能重要；② **从 Fokker-Planck 到 Master 方程**：当跳跃分布不是小跳跃时，需要保留更多 KM 项，甚至使用完整的 Master 方程（包含所有阶跃迁矩）；③ **数值验证**：PIC 模拟可以直接验证 KM 展开的适用性——如果模拟显示 $n \geq 3$ 项不可忽略，则 Fokker-Planck 方程的适用性存疑。今天的 PIC 模拟（Amato 2014, Brodw 2020）表明，在某些 regime 下，$a_3$ 项确实不可忽略，此时 Fokker-Planck 处理需要修正。[INTERPRETATION]
+
+[CRITIQUE] B&E 对 KM 展开的忽略意味着他们的 Fokker-Planck 处理隐含地假设了：① **小跳跃极限**：每次散射事件的动量变化 $\Delta p \ll p$；② **对称跳跃分布**：$\langle (\Delta p)^3 \rangle \approx 0$；③ **连续近似**：可以用泰勒展开截断到二阶。这些假设在弱波幅（QLT 适用）是良好的，但在强波幅（NL-DSA）可能失效。实际上，PIC 模拟已经显示，在激波面附近，粒子的动量跳跃分布可能是高度非对称的，$a_3$ 项不为零。这意味着 B&E 的 Fokker-Planck 处理在 NL-DSA regime 中的适用性需要谨慎验证——今天的研究正在逐步厘清 Fokker-Planck 方程在什么条件下有效，在什么条件下需要更一般的 Master 方程描述。[CRITIQUE]
