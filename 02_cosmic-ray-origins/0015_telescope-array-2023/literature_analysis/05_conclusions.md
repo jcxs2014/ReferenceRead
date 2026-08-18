@@ -65,3 +65,7 @@ TA 合作组在正文 §Summary 中给出的结论：
 | **TA >57 EeV hot spot** | Amaterasu 来自不同方向——hot spot 非最高能量事件主导 |
 | **Jansson & Farrar 2012** | GMF 模型，用于反推 |
 | **Pshirkov et al. 2011** | GMF 模型，用于反推 |
+
+**[INTERPRETATION]** Amaterasu 的观测意义需要放在 UHECR 实验近 60 年历史中理解：1962 年 Alvarez 发现首个 E>10^20 eV 事件（已撤稿再分析），1995 年 AGASA 首次确认超 GZK 事件，2007 年 Auger 确认 GZK 抑制——Amaterasu 是 2023 年在这个序列中的最新极端事件。它的"矛盾"在于：来自低密度区域（银河系外？）的 >10^20 eV 质子如何不被 GZK 截断？若真是 AGN 加速的质子，则要求该 AGN 的喷流几何极端准直（视张角<<1°）——这是当前喷流物理模型的极限。这意味着 Amaterasu 可能迫使 AGN 加速理论做根本性修正，或者它根本不是质子而是重核（Fe 核心的 GZK 截断能量更高）。[INTERPRETATION]
+
+**[CRITIQUE]** TA 的能量重建系统性误差（+51/-76 EeV）是一个被低估的问题：非对称误差（向下更大）意味着 Amaterasu 的真实能量更可能落在 110–244 EeV 区间而非 244–353 EeV。若真实能量为 110 EeV，则恰好在 GZK 抑制区内——这将使"矛盾"消失。论文的 Fig. 3（能量重建）和 Fig. 4（方向分析）都没有对这种向下兼容的情况做充分的讨论，存在一定的" cherry-picking" 嫌疑（选择有利于"新物理"解读的能段）。[CRITIQUE]
