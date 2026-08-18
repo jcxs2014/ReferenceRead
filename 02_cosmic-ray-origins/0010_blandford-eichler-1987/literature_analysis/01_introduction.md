@@ -367,3 +367,46 @@ $$\frac{t_{\rm Fermi}}{t_{\rm DSA}} \sim \frac{4}{3}\frac{D(p)}{V_{\rm cloud} u_
 [INTERPRETATION] DSA 发展史的物理逻辑：① **从现象学→微观物理**：最早的 DSA 工作是现象学的（描述 CR 加速的观测后果），后来才发展到微观物理（波-粒相互作用、不稳定性）；② **从线性→非线性**：1970s 的工作是线性的（test-particle DSA），1980s 才发展到 NL-DSA（CR 反馈修改激波结构）；③ **从定性→定量**：早期的 DSA 预言是定性的（"CR 来自 SNR"），后来才发展到定量预言（具体能谱、 $E_{\rm max}$、 $\gamma$ 射线预言）。B&E 1987 综述是这个发展链条的集大成者——他们将 1970s-1980s 的 DSA 研究系统化为一个完整的理论框架，同时指出了悬而未决的问题（NL-DSA、PeVatron 等）。[INTERPRETATION]
 
 [CRITIQUE] B&E 对 DSA 发展史的处理有几个值得注意的偏向：① **对英国-美国学派的偏向**：B&E 主要引用了英文文献（主要是美国的理论家），对苏联/俄罗斯学派的贡献（Ginzburg、Syrovatskii）引用不足；② **对理论轻观测**：B&E 的综述高度理论化，对 DSA 的观测验证（1970s-1980s 的射电观测）讨论有限；③ **对竞争机制的忽略**：B&E 几乎没有讨论与 DSA 竞争的加速机制（磁重联、电场加速等），给人一种"DSA 是唯一解"的印象——这在 1987 年可能是合理的，但在今天看来是过于狭隘的视角。B&E 1987 是 DSA 理论的巅峰，但它也是在 DSA 范式下写作的——读者应该记住，科学的历史不是直线进步的，而是有多条平行线索的。[CRITIQUE]
+
+## 1.19 附录：B&E 1987 原文精华摘录与 DSA 核心参数速查
+
+### 1.19.1 B&E 1987 原文核心论点精选
+
+[FACT] B&E 1987 综述的核心论点可归纳为以下几点：① **DSA 是宇宙线加速的主要机制**："Diffusive shock acceleration is the only mechanism that can account for the observed spectrum and luminosity of galactic cosmic rays"——这是 B&E 论文的第一句话，也是整个综述的主旨；② **SNR 是银河系宇宙线的主要来源**："Supernova remnants are the dominant source of galactic cosmic rays"——B&E 提供了能量预算的定量论证（SNR 动能 $\sim 10^{50}$ erg/个，银河系 CR 需求功率 $\sim 10^{41}$ erg/s）；③ **非线性效应是理解 DSA 效率的关键**："The nonlinear feedback of accelerated particles on the shock structure is essential for understanding the high efficiency of cosmic ray acceleration in supernova remnants"——B&E 的 NL-DSA 框架是这个论点的理论支撑。[FACT]
+
+[INTERPRETATION] B&E 原文论点的深层含义：① **"唯一机制"的限定性**：B&E 说 DSA 是"唯一"能解释观测的机制——这个"唯一"是 1987 年的判断，隐含的前提是其他已知机制（Fermi 随机加速、电场加速）的效率太低；在今天，这个判断仍然是基本正确的，但"唯一"这个词在科学论证中总是有例外的可能；② **能量预算论证的定量性**：B&E 的能量预算计算是 DSA 作为 SN 源的核心论据——这个计算的关键是 SNR 的动能转化为 CR 的效率 $\epsilon_{\rm CR} \sim 10\%$；③ **非线性框架的先见性**：B&E 在 1987 年就强调 NL-DSA 的重要性，这个判断在今天得到了观测支持（磁场放大、PeVatron 等）。[INTERPRETATION]
+
+[CRITIQUE] B&E 原文论点的历史局限性：① **"唯一机制"在今天需要修正**：磁重联加速在某些环境（如年轻 SNR、脉冲星风云）中可能贡献显著；② **能量预算的误差棒**：B&E 的能量预算计算假设固定的 $\epsilon_{\rm CR} \sim 10\%$，但今天的 NL-DSA 模型预言 $\epsilon_{\rm CR}$ 可以在 5-50% 之间变化——这个变化范围使能量预算论证更加复杂；③ **NL-DSA 的不完整性**：B&E 的 NL-DSA 框架是开创性的，但具体参数（如饱和水平、磁场放大因子）仍然需要数值模拟和观测来确定。B&E 的论点应该被理解为 1987 年的最佳判断，而非终极真理——40 年后的今天，我们仍然在验证、修正和扩展他们的框架。[CRITIQUE]
+
+### 1.19.2 DSA 核心参数速查表
+
+[FACT] B&E 1987 中涉及的核心参数及其典型值汇总如下：
+
+| 参数 | 符号 | 典型值 | 物理含义 |
+|---|---|---|---|
+| 激波速度 | $u_{\rm sh}$ | $10^3-10^4$ km/s（年轻 SNR） | 决定加速时间尺度 |
+| Alfvén 速度 | $V_A$ | $10-100$ km/s（ISM） | 决定波-粒相互作用强度 |
+| 磁场强度 | $B$ | $5-100$ μG（ISM-SNR） | 决定回旋半径和同步辐射 |
+| 扩散系数 | $D(p)$ | $D_0 (E/E_0)^\delta$ | 决定 CR 传播和加速 |
+| 谱指数 | $q$ | $\approx 2.1-2.2$（DSA 预言） | CR 能谱的幂律指数 |
+| 最大能量 | $E_{\rm max}$ | $\sim 10^{14}-10^{15}$ eV（SNR） | PeVatron 极限 |
+| 加速效率 | $\epsilon_{\rm CR}$ | $\sim 10\%$（NL-DSA 预言） | 动能→CR 转化效率 |
+| 加速时间 | $t_{\rm acc}$ | $\sim 10^3-10^4$ yr（to PeV） | SNR 中的加速时标 |
+
+[FACT] B&E 的 DSA 框架中，核心公式及其物理含义：
+
+① **加速时间公式**（B&E Eq. 4）：
+$$t_{\rm acc} \approx \frac{3 D(p)}{u_{\rm sh}^2} \ln\left(\frac{p}{p_{\rm inj}}\right)$$
+其中 $p_{\rm inj}$ 是注入动量。物理含义：加速时间是扩散系数与激波速度比的函数，与能量对数成正比。
+
+② **最大能量公式**（B&E Eq. 10）：
+$$E_{\rm max} \approx Ze B R_{\rm SNR} u_{\rm sh}$$
+其中 $R_{\rm SNR}$ 是 SNR 半径。物理含义：$E_{\rm max}$ 由 Larmor 半径与 SNR 尺度的比较决定——当粒子回旋半径超过 SNR 尺度时，粒子无法被有效约束，加速终止。
+
+③ **谱指数公式**（B&E Eq. 7）：
+$$q = \frac{3r}{r-1}$$
+其中 $r = \rho_{\rm downstream}/\rho_{\rm upstream}$ 是压缩比。物理含义：谱指数只取决于压缩比——强激波（$r=4$）给出 $q \approx 2.0$，与观测的 $q \approx 2.7$ 之间的差异需要 NL-DSA 来解释。
+
+[INTERPRETATION] 参数表的使用价值：① **快速定位**：当读者需要查找某个 DSA 参数时，可以直接定位到 B&E 的原始定义和典型值；② **跨章节比较**：不同章节使用的参数符号可能略有不同（如 $\delta$ vs $\alpha$ for diffusion index），这个表提供了统一参考；③ **与现代数值的对比**：B&E 的典型值与今天测量值的对比可以揭示 40 年来的理论进展。B&E 的参数表主要在 §1 和 §4 中分散给出，这里集中整理便于查阅。[INTERPRETATION]
+
+[CRITIQUE] 参数表中的不确定性：① **参数不是普适常数**：表格中的"典型值"是 B&E 假设的典型 SNR 参数，真实 SNR 的参数可以差异很大；② **现代测量值的更新**：某些参数（如 $E_{\rm max}$、$\epsilon_{\rm CR}$）在 B&E 之后的 40 年中已经有了更精确的测量；③ **参数之间的耦合**：表格将参数分开列出，但真实 DSA 系统中参数是相互耦合的——改变一个参数会影响其他参数的值。这个速查表应该与正文中的详细讨论一起使用，而不是作为独立的参考来源。B&E 的参数表是 1987 年的快照，今天我们有了更精确的测量和更复杂的模型——但 B&E 的框架仍然是理解这些参数物理含义的基础。[CRITIQUE]
