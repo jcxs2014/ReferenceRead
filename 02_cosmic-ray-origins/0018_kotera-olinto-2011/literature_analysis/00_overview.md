@@ -65,6 +65,26 @@ lastread: '2026-08-16'
 |---|---|
 | bhattacharjee-sigl-2000 | UHECR 起源于宇宙学距离（topological defect / 暗物质衰变），与 Kotera 的 AGN/GRB 框架竞争 |
 | hillas-1984 | Hillas criterion 是 Kotera 讨论加速上限的理论基础 |
-| alvesbatista-2019 | 传播模拟（SIDEBAND）对 Kotera §3-§4 的更新（10年后的数值模拟进展） |
+| alvesbatilla-2019 | 传播模拟（SIDEBAND）对 Kotera §3-§4 的更新（10年后的数值模拟进展） |
 | blandford-eichler-1987 | DSA 理论是 Kotera §5 讨论 UHECR 加速机制的理论基础 |
+
+## 0.5 关键词与主题标签
+
+| 标签 | 内容 |
+|---|---|
+| **天文物理** | 超高能宇宙线 / UHECR / GZK 截断 / 宇宙线起源 |
+| **加速机制** | Hillas criterion / DSA / Fermi 加速 / AGN jet / GRB |
+| **传播效应** | 光致π产生 / 光致离解 / CMB/EBL 相互作用 / GZK 视界 |
+| **观测实验** | Pierre Auger / Telescope Array / JEM-EUSO / AugerPrime |
+| **多信使** | 中微子 / γ射线 / 宇宙线天文学 / 各向异性 |
+| **银河-河外转换** | Ankle / Dip 模型 / Berezinsky fork / knee / second knee |
+
+## 0.6 阅读说明
+
+- 本精读基于 arXiv:1101.4256（Annual Review of Astronomy and Astrophysics 2011）
+- §2 观测数据截至 2010 年（Auger 2007/2010, HiRes, AGASA）
+- §3 传播讨论引用大量 Berezinsky & Grigoreva (1988) 等早期理论工作
+- §5 加速上限 Hillas criterion 引用 Hillas (1984) 的几何约束分析
+- §6 候选源讨论覆盖 AGN / GRB / Starburst / Cluster 四大类
+- §7 未来计划（2011年展望）：部分已实现（AugerPrime），部分推迟（JEM-EUSO→POEMMA）
 

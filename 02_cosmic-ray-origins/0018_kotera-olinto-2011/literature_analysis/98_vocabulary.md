@@ -45,3 +45,48 @@
 | 曝光量 L | Exposure L | 1 km²·sr·yr (致敬 Linsley) |
 | CRPropa | CRPropa | UHECR 传播蒙特卡洛公开代码 |
 | SOPHIA | SOPHIA | UHECR 传播解析工具 |
+| 巨人迹 | Giant component | 星系团 cosmic web 的主要结构 |
+| Hillas 判据 | Hillas criterion | E_max = β c Z e B R，候选源必要条件 |
+| 刚度 | Rigidity | R = pc/Ze = E/(Ze)，CR 磁刚度决定磁场中偏转 |
+| 膝 | Knee | ~4×10¹⁵ eV 处谱变陡 (Z×knee) |
+| 踝 | Ankle | ~3–5×10¹⁸ eV 处谱硬化 |
+| 第二膝 | Second knee | ~10¹⁷.5 eV 处质子膝 |
+| GZK 截断 | GZK cutoff | >5×10¹⁹ eV UHECR 与 CMB 光子产生 π → 通量抑制 |
+| GZK 视界 | GZK horizon | ~100 Mpc UHECR 可探测源的距离极限 |
+| 光致π产生 | Photo-pion production (pγ→pπ⁰/nπ⁺) | UHECR 与 CMB/EBL 光子产生强子，GZK 主要机制 |
+| 对产生 | Pair production (pγ→pe⁺e⁻) | Bethe-Heitler 过程，能量损失不改变粒子数 |
+| 光致离解 | Photodisintegration | UHECR 核在 CMB/IR 光子上碎裂，损失核子 |
+| 巨偶极共振 | Giant Dipole Resonance (GDR) | 光致离解主要机制 (ε~10–30 MeV) |
+| 准氘核过程 | Quasi-Deuteron (QD) | 光致离解次要机制 (ε~20–150 MeV) |
+| Berezinsky 叉 | Berezinsky fork | ankle = Galactic→EG 转换的特征能点 |
+| Dip 模型 | Dip model | ankle 是质子对产生传播效应，非真实转换 |
+| 增强型 | Enhancement | SNR 膨胀速度增加 (Type Ia SN in wind) |
+| 星风环境 | Stellar wind environment | Wolf-Rayet 星风，SNR 膨胀的稠密环境 |
+| 超级气泡 | Superbubble | OB 星协 + SN 反馈形成的多相气泡 |
+| blazar | Blazar | jet 视线方向的 AGN，UHECR 候选源 |
+| FRI/FRII | Fanaroff-Riley I/II | 射电星系形态分类，FRII jet 端亮 |
+| 耀变体 | Blazar (BL Lac / FSRQ) | 蝎虎座 BL Lac + 平谱射电类星体 FSRQ |
+| 星暴星系 | Starburst galaxy (SBG) | 高 SN rate，UHECR 强源 |
+| 星系团 | Galaxy cluster | 通过束流 (cluster shocks) 加速 UHECR |
+| 宇宙织构 | Cosmic string | 拓扑缺陷 UHECR 源模型 (罕见) |
+| 活动星系核 | AGN (Active Galactic Nucleus) | 大质量黑洞吸积，jet 加速 UHECR |
+| 伽马射线暴 | GRB (Gamma-ray burst) | 瞬时爆发，UHECR 候选（瞬发+余辉） |
+| 磁星 | Magnetar | 表面 B~10¹⁵ G，巨大感应电场加速 |
+| JEM-EUSO | JEM-EUSO | 国际空间站 UHECR 荧光探测，→ POEMMA |
+| AugerPrime | AugerPrime | Auger North + 固定 muon 探测器 → 成分分离 |
+| TA×4 | TA×4 | TA 四倍面积升级 (2025-) |
+| GRAND | Giant Radio Array for Neutrino Detection | 10⁴ km² 无线电探测阵列 → UHE 中微子 |
+| Auger North | Auger North | 北半球 Auger 扩展 → 全天覆盖 |
+| ANITA | ANITA | 南极气球 ν/CR 无线电探测 |
+| SKA | Square Kilometre Array | 巨大射电望远镜，UHECR 射电探测 |
+| IceCube-Gen2 | IceCube-Gen2 | 下一代冰立方，PeV 中微子 + UHECR 联合 |
+| 成分敏感度 | Composition sensitivity | FD/SD 组合 → 区分 p/He/Fe |
+| 空气簇射 | Extensive Air Shower (EAS) | UHECR 与大气作用产生的级联粒子 |
+| X_max | X_max | 簇射极大深度 (E/mass 相关) |
+| 荧光探测 | Fluorescence detection | 宇宙线大气簇射 N₂ 荧光 (HiRes/Auger/TA) |
+| 切伦科夫光 | Cherenkov radiation | 簇射粒子超光速介质辐射 (Auger/TA SD) |
+| 各向异性 | Anisotropy | UHECR 到达方向分布 (hot spot/cold spot) |
+| 局部超密度 | Local overdensity | 银河系局部 ~50 Mpc 内物质密度 |
+| 大尺度结构 | Large Scale Structure (LSS) | 星系团/丝状结构，<200 Mpc UHECR 相关 |
+| 随机磁场 | Random magnetic field | 银河系/星系际磁场，CR 扩散决定 |
+| 宇宙磁屏蔽 | Magnetic horizon | EG MF 造成 UHECR 有效源距离上限 |
