@@ -105,3 +105,29 @@ B&E 引言的精炼之处在于三个递进：
 2. **空间物理证据的时效性**：1987 年的空间物理观测（Voyager、ISEE 等）数据量有限。后续 Ulysses、Parker Solar Probe 等极大丰富了这个领域的数据。
 
 3. **本文的局限性**：B&E 明确不讨论非线性 DSA 以外的竞争性机制——这意味着本文的结论是"DSA 能做什么"而非"DSA 相对于其他机制为什么更好"。
+
+## 1.8 物理机制展开：为什么是激波？（从 fulltext 实测补充）
+
+### 1.8.1 无碰撞激波的物理图像
+
+[FACT] B&E §1 指出：碰撞less 激波（collisionless shock）中，粒子通过波-粒子相互作用（而非库仑碰撞）实现能量交换和熵增加。银河系热等离子体的库仑碰撞时间 $\tau_{\rm coulomb} \sim 10^9$ yr，远大于 SNR 激波的演化时间 $\sim 10^4$ yr——因此 SNR 激波必须是碰撞less 的，否则在粒子被加速到高能之前热气体就已经冷却了。[FACT]
+
+[INTERPRETATION] 碰撞less 激波的物理图像对理解 DSA 至关重要：粒子加速发生在激波附近，而非在整个等离子体体积中。这意味着加速效率直接正比于激波面积（$\propto R_{\rm SNR}^2$），解释了为何年轻 SNR（半径小）是高效的 CR 加速源——它们的激波速度大（$u_{\rm sh}$ 大），且激波面积虽然小但加速时间短，能在 SNR 冷却前达到更高能量。[INTERPRETATION]
+
+### 1.8.2 Fermi 机制的定量化
+
+[FACT] 原文第 115-125 行给出了 Fermi 机制的核心论断：high Mach number collisionless shock 中，粒子通过在收敛的流之间反复穿越获得幂律能量分布。关键公式 $q = 3r/(r-1)$（第4节的完整推导）在 §1 中已作为结论引用——B&E 暗示这是"test particle DSA"的标准结果。[FACT]
+
+[CRITIQUE] §1 的表述"quite high efficiency"（"quite high efficiency"）是模糊的——原文没有给出效率的精确定义。SNR 的 CR 加速效率 $\eta$ 定义为 $E_{\rm CR}/E_{\rm SNR\_kinetic}$，主流估算值从 10% 到 >50% 不等（取决于 SNR 演化阶段和磁场配置）。B&E 的"high efficiency"在 1987 年的语境下是合理的，但后续的非线性 DSA 研究（包括 B&E 自己 §6 的处理）表明，效率 >10% 会显著改变激波结构，使 $q$ 值偏离 test-particle 结果。[CRITIQUE]
+
+### 1.8.3 为什么是"第一阶"（first order）？
+
+[FACT] 原文§1 指出"first order Fermi acceleration"——这个命名是因为能量增益 $\Delta E/E \propto u/c$ 是一阶小量（相对于 $c$），而 Fermi (1949) 原始机制中 $\Delta E/E \propto (u/c)^2$ 是二阶小量。激波作为"反射镜"把 $u/c$ 从 $\sim 10^{-4}$（星际介质湍流）提升到 $\sim 10^{-1}$（SNR 激波），效率提升了约 1000 倍。[FACT]
+
+[INTERPRETATION] 一阶和二阶的本质区别不在于数学形式，而在于"谁是镜子"：Fermi 1949 的镜子是随机运动的磁云，镜子本身也在随机运动，所以粒子每次与镜子相遇的能量增益是镜子动能的二阶效应；而 DSA 的镜子是激波本身——激波相对于上下游流体的运动是确定性的（上游流体向激波汇聚，下游流体背离激波运动），所以粒子每次穿越获得的能量增益是一阶的。这个"镜子"的区别是 DSA 效率远高于 Fermi 1949 的物理根源。[INTERPRETATION]
+
+### 1.8.4 银河系外 CR 的证据
+
+[FACT] 原文第 128-132 行讨论银河系外加速证据：AGN (quasars, radio galaxies) 中的超音速流和强激波同样与粒子加速相关联。这与 CR 的"大一统"图景一致：同一物理机制（DSA）在从行星际到星系际再到星系间的各种尺度上都成立，只是激波参数（$u, B, R$）不同。[FACT]
+
+[CRITIQUE] 1987 年对 AGN 中 DSA 的讨论主要是定性的——B&E 承认当时没有像 SNR 那样具体的、通用的、与观测一致的 AGN CR 加速模型。直到 2000 年代（尤其是 Fermi-LAT 观测和 AGN 多波段研究）才有了更具体的 AGN CR 加速证据。因此 §1 对 AGN 的讨论是探索性的，不是本文的核心论据。[CRITIQUE]

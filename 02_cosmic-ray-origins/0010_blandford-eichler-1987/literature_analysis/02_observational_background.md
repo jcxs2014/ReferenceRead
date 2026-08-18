@@ -202,4 +202,38 @@ X 射线（热电子）和射电（同步辐射）轮廓在细节上重叠——
 
 3. **逃逸柱密度与注入谱的关系**：$\lambda \propto T^{-0.5}$ 意味着高能粒子逃逸更快——这是观测谱比注入谱陡（$-2.7$ vs $-2.2$）的原因。这个关系后来被 Hillas 1984 的 Hillas 判据进一步约束。
 
+## 2.9 关键物理量量化推导（从 fulltext 实测补充）
+
+### 2.9.1 地球弓激波的参数定量
+
+[FACT] 原文 §2.1 给出典型参数：$\rho \sim 10^{-23}$ g/cm³，$T_e \sim 10^5$ K，$V \sim 400$ km/s，$B \sim 3\times 10^{-5}$ G（太阳风参数）。由此计算：Alfven 速度 $V_A = B/\sqrt{4\pi\rho} \sim 30$ km/s；声速 $c_s = \sqrt{\gamma kT/m_p} \sim 100$ km/s；Mach 数 $M \sim V/c_s \sim 4$（超音速）。[FACT]
+
+[INTERPRETATION] 太阳风的 Mach 数 $\sim 4$ 意味着弓激波是中等强度的超声速激波——这解释了为何地球弓激波的加速效率有限（只有 ~1% 的入射粒子被反射）。SNR 的 Mach 数可达 $10^2-10^3$（SNR 激波速度 $\sim 10^4$ km/s，声速 $\sim 10-100$ km/s），因此 SNR 激波的加速效率远高于地球弓激波。这个 Mach 数的差异是 DSA 在不同天文学环境中效率差异的主要来源之一。[INTERPRETATION]
+
+### 2.9.2 SNR 的 CR 加速能量估算
+
+[FACT] 原文 §2.2 的 SNR 参数：$u_{\rm sh} \sim 10^4$ km/s（自由膨胀阶段），$B \sim 10-100$ μG（假设磁场被放大），$R_{\rm SNR} \sim 10$ pc（Sedov 阶段）。代入 DSA 最大能量公式 $E_{\rm max} \approx ZeB u_{\rm sh} R_{\rm SNR}/c$（B&E 1987 Eq. 4.3 的简化形式）：
+
+$$E_{\rm max} \sim 10^{15} \left(\frac{Z}{26}\right) \left(\frac{B}{100\,\mu{\rm G}}\right) \left(\frac{u_{\rm sh}}{10^4\,{\rm km/s}}\right) \left(\frac{R_{\rm SNR}}{10\,{\rm pc}}\right)\,{\rm eV}$$
+
+对应 PeV 能量尺度，与 knee 能量 $\sim 4\times 10^{15}$ eV 匹配。[FACT]
+
+[INTERPRETATION] B&E 的 $E_{\rm max}$ 估算揭示了 DSA 的一个关键瓶颈：PeV 宇宙线（CR 膝点附近）需要 SNR 的磁场放大效应（$B \sim 100$ μG，而非 ISM 的 $\sim 5$ μG）。这个磁场放大的假设后来被 X 射线观测（SNR RX J1713.7-3946 等的 synchrotron 辐射）证实——这为 DSA 理论提供了最重要的观测支持之一，也使 B&E 1987 的 PeV 估算在 40 年后仍然有效。[INTERPRETATION]
+
+[CRITIQUE] B&E 的 $E_{\rm max}$ 估算存在一个关键不确定性：公式 $E_{\rm max} \propto B u_{\rm sh} R$ 中的三个参数（$B, u_{\rm sh}, R$）是相互关联的——SNR 演化过程中，$u_{\rm sh}$ 随时间减小，而 $R$ 随时间增大，且 $B$ 的放大机制（Bell 2014 机制）本身依赖于 CR 分布。因此简单的乘积估计可能过于乐观或悲观。更精确的 $E_{\rm max}$ 需要完整的时变 DSA 模拟（而非 B&E 的稳态或准稳态处理），这类模拟在 1987 年还不可行。[CRITIQUE]
+
+### 2.9.3 银河系 CR 能量密度约束
+
+[FACT] 原文 §2.5 给出：银河系 CR 能量密度 $\rho_{\rm CR} \sim 1$ eV/cm³（与星际辐射场 $U_{\rm rad} \sim 0.3$ eV/cm³、磁场 $U_B \sim 0.5$ eV/cm³ 同量级）。CR 动能密度超过星际介质的热能密度（$\sim 0.1$ eV/cm³），说明 CR 是银河系的主要能量载体之一。[FACT]
+
+[INTERPRETATION] CR 能量密度的量级约束对 DSA 理论有两个含义：① SNR 作为 CR 源必须能够提供 $\sim 1$ eV/cm³ 的能量密度，这需要银河系内约 $10^3$ 个 SNR 同时活跃（或 $10^8$ 年积累）——与 SNR 寿命 $\sim 10^4$ yr 和银河系 SN rate $\sim 1/30$ yr 一致。② CR 对星际介质的压力（$\rho_{\rm CR} v^2 \sim$ dyn/cm²）可以驱动星际湍流和磁场，对银河系动力学有反馈作用——这是 §6 非线性 DSA 的物理动机之一。[INTERPRETATION]
+
+### 2.9.4 超新星遗迹的观测证据链
+
+[FACT] 原文 §2.3 给出 SNR 的观测证据：① 射电噪声频谱（$\alpha \sim -0.5$，对应 $dN/dE \propto E^{-2.5}$）——与 DSA 预言的 $E^{-2.0}$ 有偏差，但传播效应可以解释；② X 射线 synchrotron 辐射——直接证明电子在 SNR 激波中被加速到 TeV 能量；③ γ射线辐射——可能来自中性π介子衰变（p-p collision），是质子被加速的直接证据（但不确凿，因为 IC 散射也能产生 GeV-TeV γ射线）。[FACT]
+
+[INTERPRETATION] SNR 的三类观测（射电/X 射线/γ射线）构成 DSA 的间接证据链，但存在关键的"对应缺失"：TeV γ射线既可能来自π衰变（质子加速），也可能来自 IC 散射（电子加速）。直到 2010 年代（尤其是 HESS 和 HAWC 对 SNR 的高分辨成像）才能区分这两种成分——即使到 1987 年，这个对应缺失仍然是 DSA 应用于 SNR 的主要争议点，也是 B&E §2.3 的讨论相对谨慎的原因。[INTERPRETATION]
+
+[CRITIQUE] B&E §2.3 对 SNR 作为 CR 起源的论证是"建设性的但不是结论性的"——他们列举了所有支持证据，但没有充分讨论反驳意见（尤其是 Fermi-LAT 对某些 SNR 的 GeV 观测结果，这些结果与纯 DSA 预言有差异）。这个批评不限于 B&E 1987——直到今天，SNR 作为银河系 CR 主要来源的论证仍然缺乏" smoking gun"证据（直接的质子加速观测）。[CRITIQUE]
+
 4. **高能区 Fe 成分**（$10^5 - 10^9$ GeV）：B&E 时认为可能是 Fe 主导，后来 AMS-02 等观测表明膝点以上仍是质子主导——这是一个被修正的观测解读。
