@@ -235,3 +235,29 @@ B&E 讨论了几个注入模型，指出没有单一模型能解释所有观测�
 [INTERPRETATION] 辐射损失引入了一个"天花板"效应：即使 DSA 可以无限加速粒子，辐射损失也会把能量推到某个上限。这个天花板在天体物理环境中往往比 DSA 的 $E_{\rm max}$ 更低——对 SNR 中的电子，$E_{\rm syn} \sim 10$ TeV（典型 SNR 参数）；对质子，天花板在 PeV 以上（因为质子辐射损失效率低）。这解释了为什么 SNR 的 γ射线观测（来自电子同步辐射和π介子衰变）在 TeV 能量最敏感——在这个能量范围，SNR 的 DSA 加速和辐射过程都处于活跃状态。[INTERPRETATION]
 
 [CRITIQUE] B&E §6.6 对辐射修正的讨论相对简略，尤其是对强相互作用损失的处理（SNR 中 PeV 质子的主要损失通道）。他们主要关注电子，因为电子的辐射损失更容易观测（ synchrotron X 射线）。但对宇宙线起源问题，质子的加速是核心——B&E 对 PeV 以上质子辐射损失的简化处理导致他们对 $E_{\rm max}$ 的估计在 PeV 量级是不精确的。后续 NL-DSA 研究（Amato 2014, Blasi 2013）对此进行了更详细的处理，但 B&E 1987 的结论应该在这个背景下被理解。[CRITIQUE]
+
+## 6.13 非线性 DSA 的数学结构（从 fulltext 补充）
+
+### 6.13.1 两流体模型的方程结构
+
+[FACT] B&E §6 的两流体模型将系统分为两个组分：① **热流体组分**（thermal plasma）：用 Euler 方程描述，$\partial \rho/\partial t + \nabla \cdot (\rho \mathbf{u}) = 0$ 和 $\rho (\partial \mathbf{u}/\partial t + \mathbf{u} \cdot \nabla \mathbf{u}) = -\nabla P_{\rm th} - \nabla P_{\rm CR}$，其中 $P_{\rm CR} = (1/3) \int v f p^3 dp$ 是 CR 压力；② **CR 组分**：用 CR 能量方程描述，$\partial E_{\rm CR}/\partial t + \nabla \cdot (E_{\rm CR} \mathbf{u}) = -P_{\rm CR} \nabla \cdot \mathbf{u} + Q_{\rm acc} - Q_{\rm esc}$，其中 $Q_{\rm acc}$ 是 DSA 加速源项，$Q_{\rm esc}$ 是逃逸损失项。这两个方程通过 $P_{\rm CR}$ 相互耦合——这就是"两流体"的含义。[FACT]
+
+[INTERPRETATION] 两流体模型的数学结构揭示了 NL-DSA 的核心方程组：热流体的 Euler 方程被 CR 压力梯度修正（$-\nabla P_{\rm CR}$ 项），而 CR 能量方程中的对流项（$\nabla \cdot (E_{\rm CR} \mathbf{u})$）和加速项（$Q_{\rm acc}$）由热流体的速度场决定。这个耦合方程组的求解需要数值方法（因为它是非线性的），B&E 没有给出完整的数值解，只是做了定性分析和量纲估计。这个数学结构在今天仍然是 NL-DSA 数值模拟（如 ARTIS, CR-NET 等）的基础，说明 B&E 建立的方程组框架是持久的。[INTERPRETATION]
+
+[CRITIQUE] 两流体模型的一个重要假设：CR 被视为热流体中的一个额外压力项，而不是独立的相空间分布。这意味着两流体模型无法描述 CR 的相干效应（wave-particle interactions 的详细动力学），也无法描述 CR 分布函数随时间和能量的详细演化。实际上，CR 的真实行为应该用相空间分布函数 $f(\mathbf{x}, p, t)$ 来描述，而两流体模型只保留 $P_{\rm CR}(\mathbf{x}, t)$ 这个整体量。这是一个重大的简化——它在描述 CR 的整体动力学（激波结构）时是有效的，但在描述 CR 的微观动力学（加速过程细节）时失效。B&E 在 §6 的结尾也承认了这一点，但没有提出改进方案。[CRITIQUE]
+
+### 6.13.2 NL-DSA 的自相似解
+
+[FACT] B&E §6 指出，NL-DSA 的激波结构可以表示为自相似解：当 CR 压力与热流体压力达到某个特定比例时，激波结构进入自相似regime。这个自相似解的特点是：所有长度尺度（如 precursor 长度 $L$、激波面厚度 $\Delta_{\rm shock}$）都按同一因子缩放。自相似性使 NL-DSA 的数值计算更容易——只需要计算一次，然后按时间/空间缩放即可应用。[FACT]
+
+[INTERPRETATION] 自相似解的物理意义：当 CR 压力和热流体压力达到平衡比例时，激波的宏观结构不再依赖于具体的初始条件（SNR 的类型、年龄等），而只依赖于这个平衡比例本身。这个" universality"意味着 NL-DSA 的预言可能在不同 SNR 中是相似的——观测到的 SNR CR 谱的相似性（幂律形状的一致性）可能就是这种自相似性的反映。自相似解还揭示了 NL-DSA 与 test-particle DSA 之间的平滑过渡：当 CR 压力远小于热流体压力时，自相似解回到 test-particle 解；当 CR 压力与热流体压力可比时，出现非线性修正。[INTERPRETATION]
+
+[CRITIQUE] 自相似解的假设在真实 SNR 中可能不完全成立：① SNR 的演化是非自相似的（从自由膨胀到 Sedov-Taylor 到辐射冷却，每个阶段的动力学时间尺度不同）；② 真实环境（ISM 的非均匀性、磁场的方向变化）对激波结构有显著影响；③ CR 的注入效率在不同 SNR 中可能不同，破坏了自相似解所需的条件。因此，B&E 的自相似解应该被理解为一种理想化近似，而非真实 SNR 演化的精确描述。这种近似在定性讨论中是有用的，但在定量预言中需要谨慎使用。[CRITIQUE]
+
+### 6.13.3 NL-DSA 与观测对比的方法论
+
+[FACT] B&E §6 的结尾讨论了 NL-DSA 与观测对比的方法：① **单 SNR 方法**：对单个 SNR（如 Tycho, Cas A）拟合其多波段能谱（射电+X射线+γ射线），提取 NL-DSA 参数（$E_{\rm max}$、$\eta$、$B$ 等）；② **SNR 群体方法**：对一组 SNR 的统计分布进行整体分析，约束 NL-DSA 的平均参数。这个方法论在今天仍然是标准——但 B&E 1987 年的数据质量限制了这些方法的有效性（尤其是单 SNR 方法，2010 年代才有可能真正实施）。[FACT]
+
+[INTERPRETATION] 单 SNR 方法和 SNR 群体方法是互补的：单 SNR 方法可以揭示个别 SNR 的具体物理参数（年龄、磁场、加速效率），但受个体差异的影响；SNR 群体方法可以约束 NL-DSA 的平均参数，但无法反映个体差异。今天的观测数据（Fermi-LAT、HESS、HAWC、VERITAS 对多个 SNR 的观测）使这两种方法都可以实施，但 SNR 群体方法面临的一个共同问题是"选择偏差"：我们更容易观测到年轻的、磁场强的、距离近的 SNR，这些特性可能系统性地使样本偏向高效率 DSA。因此，从 SNR 样本推断 NL-DSA 的平均效率时，需要考虑选择偏差。B&E 没有讨论这个偏差，因为他们 1987 年的样本太小，无法进行统计研究。[INTERPRETATION]
+
+[CRITIQUE] B&E §6 的观测对比方法存在一个根本限制：1987 年的观测数据（主要是射电和 Einstein X-ray Observatory）只能提供积分量（如总 synchrotron 辐射通量），而无法提供空间分辨的谱信息。因此，B&E 无法区分不同空间位置的 NL-DSA 效应（如 precursor 区的 CR 分布、激波面附近的温度梯度等）。今天的多波段、空间分辨观测（Chandra X-ray 观测的 SNR 边缘精细结构、HESS γ射线成像）揭示了 NL-DSA 的许多具体特征（如 X-ray 丝状结构对应 magnetic filaments，γ射线空间分布对应 CR 分布），这些都超出了 B&E 1987 的观测验证范围。因此，B&E §6 的 NL-DSA 讨论应该被理解为理论预言，而非已被观测证实的结论。[CRITIQUE]
