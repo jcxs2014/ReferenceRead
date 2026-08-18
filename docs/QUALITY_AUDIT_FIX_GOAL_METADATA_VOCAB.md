@@ -34,8 +34,12 @@ frontmatter、98_vocabulary.md）；禁止动其他文献文件；禁止删除�
 【执行前】git fetch + git log --oneline -3 确认工作树最新；
 每项修复前用下方复验口径的 awk/grep 实测基线（不要引用旧数字）；完成后自查。
 
-【Tier A：小元数据缺口（10 个事实字段，从 PDF / crossref 补全）】
-DOI 缺 6（填真实 DOI，优先 crossref 或 PDF 首页）：
+【Tier A：小元数据缺口（事实字段，从 PDF / crossref 补全）】
+DOI 字段缺 6 篇（当前完全没有 doi: 行）。规则：能查到真实 DOI 的填真实值
+（优先 crossref 或 PDF 首页）；确属老文献 / 预印本无 DOI 的，在 doi: 字段填
+说明性文字（**参考先例 03/0014_cameron-1968：`doi: 未提供 (由 Elsevier 出版,ISBN
+前缀在 PDF 文件名中可见 ...)`**），禁止留空或留无字段。即每篇 doi: 字段必须
+存在且非空（真实值 OR 说明文字，二选一）：
   02_cosmic-ray-origins/0001_bhattacharjee-sigl-2000
   02_cosmic-ray-origins/0002_al-dargazelli-1996
   03_stellar-nucleosynthesis/0006_anders-grevesse
@@ -77,7 +81,7 @@ arnould-goriely-2003），其余 52 篇 frontmatter 缺 abstract: 字段。
 
 【红线】
 - 只动清单涉及文件；基于 fulltext 实测（PDF 用 pdftoppm 转图读取）
-- 禁止编造 DOI / 摘要 / 逻辑词；禁止空话凑数（抽查不通过打回）
+- 禁止编造 DOI（查不到填说明文字，参考 cameron-1968 先例；禁止凭空捏造编号）；禁止编造摘要 / 逻辑词；禁止空话凑数（抽查不通过打回）
 - 每项完成即自查（字段存在性 / 词条数）并如实报告实测数字
 - 严禁执行任何"恢复 26 篇缺失论文 / 重建索引"类动作（P0 已证伪）
 - abstract 与 vocab 为批量任务，可分多批提交，但每批 commit 只含本批文件
@@ -92,14 +96,21 @@ arnould-goriely-2003），其余 52 篇 frontmatter 缺 abstract: 字段。
 ```bash
 cd /Users/jcxs2014/Sites/HermesLocal/papers
 files=$(find . -name '00_overview.md' -path '*/literature_analysis/*' | sort)
-# frontmatter 字段存在性（在 --- 块内）
+
+# DOI 验收：字段存在 + 值非空 + 非纯占位（none/n-a/-/未找到/无）才算合格；
+# 说明文字（如 cameron-1968 的 "未提供 (...)"）视为合格
+doi_ok(){
+  v=$(awk 'BEGIN{fm=0} /^---[[:space:]]*$/{fm++; if(fm==2) exit; next} fm==1 && /^doi:/{sub(/^doi:[[:space:]]*/,""); print; exit}' "$1")
+  v=$(printf '%s' "$v" | tr -d '[:space:]')
+  [ -n "$v" ] && ! printf '%s' "$v" | grep -qiE '^(none|n/?a|-+|未找到?|无)$'
+}
 has_field(){ awk -v F="$1" 'BEGIN{fm=0} /^---[[:space:]]*$/{fm++; if(fm==2) exit; next} fm==1 && $0 ~ "^"F":"{print 1; exit}' "$2"; }
 
-# Tier A 验收：下列字段缺失数应为 0
-echo "DOI missing:    $(for f in $files; do [ -z "$(has_field doi $f)" ] && echo x; done | wc -l | tr -d ' ')"
-echo "journal missing:$(for f in $files; do [ -z "$(has_field journal $f)" ] && echo x; done | wc -l | tr -d ' ')"
-echo "sections missing:$(for f in $files; do [ -z "$(has_field sections $f)" ] && echo x; done | wc -l | tr -d ' ')"
-echo "abstract missing:$(for f in $files; do [ -z "$(has_field abstract $f)" ] && echo x; done | wc -l | tr -d ' ')"
+# Tier A 验收
+echo "DOI missing/empty: $(for f in $files; do doi_ok "$f" || echo x; done | wc -l | tr -d ' ')"
+echo "journal missing:   $(for f in $files; do [ -z "$(has_field journal $f)" ] && echo x; done | wc -l | tr -d ' ')"
+echo "sections missing:  $(for f in $files; do [ -z "$(has_field sections $f)" ] && echo x; done | wc -l | tr -d ' ')"
+echo "abstract missing:  $(for f in $files; do [ -z "$(has_field abstract $f)" ] && echo x; done | wc -l | tr -d ' ')"
 
 # Tier B2 验收：A 节逻辑词 <15 的篇数应为 0
 echo "vocab A <15: $(for vf in $(find . -name '98_vocabulary*.md' -path '*/literature_analysis/*'); do
@@ -107,6 +118,6 @@ echo "vocab A <15: $(for vf in $(find . -name '98_vocabulary*.md' -path '*/liter
   [ "$r" -lt 15 ] && echo x; done | wc -l | tr -d ' ')"
 ```
 
-目标验收值：**DOI 0 / journal 0 / sections 0 / abstract 0（即 55/55）/ vocab A <15 = 0**。
+目标验收值：**DOI 字段缺失/空值 = 0（每篇均有真实 DOI 或说明文字，参考 cameron-1968 先例）/ journal 0 / sections 0 / abstract 0（55/55）/ vocab A <15 = 0**。
 
 若 Hermes 自报数字与实测不符、或 abstract/vocab 出现编造/空话凑数，打回。
