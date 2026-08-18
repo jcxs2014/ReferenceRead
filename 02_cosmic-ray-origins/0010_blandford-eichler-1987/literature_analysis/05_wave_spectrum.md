@@ -185,9 +185,31 @@ BO 1978 §III 也讨论了自激发，但只是定性估算。B&E §5 给出了*
 
 [INTERPRETATION] 热力学类比的更深层含义：CR 加速的幂律谱（$dN/dE \propto E^{-q}$）对应于某种"标度不变性"（scale invariance）——正如平衡态热力学中找不到特征能量尺度一样，DSA 加速的幂律谱也找不到特征能量尺度。这个标度不变性是 DSA 理论的强大之处：它意味着我们可以在不知道具体参数的情况下预言谱形。但这也是它的局限性：当观测发现谱形偏离幂律（如 spectral breaks）时，我们需要引入新的物理机制（如能量依赖的扩散系数变化、或非线性反馈）来解释，而 B&E 的简化处理无法预言这些偏离。[INTERPRETATION]
 
-## 5.12 波-粒子散射的微观物理（从 fulltext 补充）
+## 5.13 Alfvén 波共振与非线性效应（从 fulltext 补充）
 
-### 5.12.1 散射中心的本质
+### 5.13.1 Alfvén 波的色散关系与相速度
+
+[FACT] Alfvén 波是等离子体中的基本电磁波，色散关系为 $\omega = k_\parallel V_A$（对平行传播，$\theta = 0$）和 $\omega^2 = k^2 V_A^2 \cos^2\theta$（对任意角度），其中 $V_A = B_0/\sqrt{4\pi\rho}$ 是 Alfvén 速度。在 CR 加速的语境下，Alfvén 波特别重要，因为：① CR 驱动的 streaming instability 主要产生平行传播的 Alfvén 波；② Alfvén 波与 CR 粒子的共振条件是 $v_\parallel - V_A = \omega/k_\parallel = V_A$（对粒子 frame 中的共振），这要求粒子速度超过 Alfvén 速度；③ Alfvén 波的能量密度 $W_A$ 决定了散射频率 $\nu_{\rm scatter} \propto W_A$。[FACT]
+
+[INTERPRETATION] Alfvén 波在 DSA 中的核心地位：① **波粒共振的介质**：Alfvén 波是 DSA 中粒子被散射的主要介质——没有 Alfvén 波，粒子就不会被有效散射，也就不会被加速；② **能量交换的媒介**：粒子在与 Alfvén 波交换能量时，既可能获取能量（加速），也可能损失能量（Landau 阻尼），净效果由 $df/dp$ 的符号决定；③ **不稳定性 的媒介**：当 CR 分布有正梯度（$df/dp > 0$）时，CR 驱动 Alfvén 波生长（CR streaming instability），这个被驱动的波场又散射 CR，维持加速过程。B&E 的处理把 Alfvén 波作为 DSA 加速的核心介质，这是正确的。[INTERPRETATION]
+
+[CRITIQUE] B&E 对 Alfvén 波的处理有以下几个简化：① **单色波假设**：他们假设了相干单色波，而真实 ISM 中的 Alfvén 波是宽带噪声（多个波数叠加）；② **线性色散关系**：他们使用了线性色散关系 $\omega = k V_A$，但当波幅很强（$\delta B/B_0 \sim 1$）时，色散关系会被非线性修改；③ **平行传播假设**：他们主要考虑平行传播的 Alfvén 波，而真实 SNR 激波中的磁场方向可能任意。今天的 NL-DSA 研究（包括 Bell 不稳定性、自调节饱和等）部分修正了这些简化，但 B&E 的 Alfvén 波框架仍然是理论基础。[CRITIQUE]
+
+### 5.13.2 波-波相互作用与湍流级联
+
+[FACT] 在真实 ISM 中，Alfvén 波不是孤立的——它们通过波-波相互作用形成湍流级联：① **Kolmogorov 级联**：能量从大尺度（$l_{\rm turb}$）向小尺度（$l_{\rm diss}$）级联，功率谱 $W(k) \propto k^{-5/3}$；② **Kraichnan 级联**：对强湍流（$\delta B/B_0 \sim 1$），级联率受 Alfvén 波频率限制，功率谱 $W(k) \propto k^{-3/2}$；③ **参数不稳定 性**：大振幅 Alfvén 波可以通过参数不稳定 性（parametric instability）衰变成小振幅波和声波。B&E §5 主要处理线性波-粒子相互作用，对波-波相互作用的讨论相对简略。[FACT]
+
+[INTERPRETATION] 波-波相互作用对 DSA 的影响：① **能谱形成**：Kolmogorov 或 Kraichnan 级联决定了波谱形状 $W(k)$，进而决定扩散系数 $D(E)$；② **饱和机制**：参数不稳定性可能是 CR streaming instability 的饱和机制之一——当波幅增大到一定程度，参数不稳定性开始耗散波能，限制波幅进一步增长；③ **各向异性发展**：在强磁场背景下，湍流级联产生各向异性波谱（$k_\perp \ll k_\parallel$），这反过来影响共振条件（$k_\parallel = \Omega_0/v_\parallel$）和散射率。B&E 没有处理这些波-波相互作用效应，这可能是他们 NL-DSA 框架的不足之一。[INTERPRETATION]
+
+[CRITIQUE] 波-波相互作用可能是 NL-DSA 中尚未完全解决的难题：① **级联方向**：在某些条件下，湍流级联可能不是从大尺度到小尺度（direct cascade），而是从小尺度到大尺度（inverse cascade），改变波谱形状；② **anisotropy 反馈**：各向异性波谱产生的扩散各向异性 $D_\parallel \neq D_\perp$，这又改变粒子在 pitch-angle 空间的分布，进而影响波-粒子相互作用——这个反馈回路还没有被完整的自洽理论描述；③ **与 CR feedback 的耦合**：CR 对波谱的修改（驱动某些 $k$，阻尼另一些 $k$）与波谱对 CR 的反馈（决定 $D(E)$）形成闭合，但这个闭合至今没有完整的解析理论。B&E 在 1987 年的处理是当时可能做到的最好程度，但这个问题在今天仍然是活跃的研究前沿。[CRITIQUE]
+
+### 5.13.3 剪切 Alfvén 波与伪声波
+
+[FACT] 在等离子体流体描述中，Alfvén 波有两种基本模式：① **剪切 Alfvén 波**（Shear Alfvén wave）：$\delta \mathbf{E} \perp \mathbf{B}_0$，$\delta \mathbf{B} \perp \mathbf{B}_0$ 且 $\nabla \cdot \delta \mathbf{B} = 0$，色散关系 $\omega = k_\parallel V_A$；② **伪声波**（Pseudo-sound 或 compressional Alfvén wave）：$\delta \mathbf{B} \parallel \mathbf{B}_0$，伴随密度扰动，色散关系 $\omega = k V_A$（对弱磁场）或更复杂的关系。在 DSA 中，剪切 Alfvén 波是主要的散射介质，因为它的偏振特性更适合与 CR 共振（$\mathbf{E}_1 \perp \mathbf{B}_0$ 的横波性质）。[FACT]
+
+[INTERPRETATION] 两种 Alfvén  mode 的不同作用：① **剪切 Alfvén 波**：主要负责 pitch-angle 散射（因为它的 $\mathbf{E}_1 \perp \mathbf{B}_0$ 偏振与粒子的回旋运动共振），是 DSA 加速的核心；② **伪声波**：主要导致磁场压缩（$\delta B_\parallel \neq 0$），可以影响激波结构和 CR 压力的空间分布，但对直接加速的贡献较小。B&E 的处理主要关注剪切 Alfvén 波，这是正确的——但伪声波在 NL-DSA 的激波结构中可能更重要（通过影响 precursor 的密度分布）。[INTERPRETATION]
+
+[CRITIQUE] B&E 对 compressional mode 的处理相对简略：① **它对 DSA 的贡献**：如果 compressional mode 与 CR 有共振相互作用，它也可能贡献于加速过程——但这在 B&E 的框架中没有明确处理；② **对激波结构的影响**：compressional mode 可以在激波上游形成密度增强区（类似"毯子"），影响 CR 前兆区的结构；③ **与剪切 Alfvén 波的耦合**：两种模式之间可以通过波-波相互作用转换，使波谱演化的描述更加复杂。今天的 PIC 模拟可以自洽地处理这两种模式，但 B&E 的解析处理只能分别处理，然后近似叠加——这是他们框架的固有局限。[CRITIQUE]
 
 [FACT] B&E §5 讨论了波-粒子相互作用的微观机制，但没有明确回答"散射中心是什么"这个问题。在真实 ISM 中，散射中心包括：① **磁湍流小尺度结构**（magnetic turbulence）：ISM 湍流在 $l \sim 10^8-10^{10}$ cm 尺度上有随机磁场扰动，可以散射粒子；② **Alfvén 波**：由 CR streaming instability 产生的相干波，可以在特定共振条件下散射粒子；③ **磁镜**（magnetic mirrors）：局部磁场增强区域（如磁云边界），可以对高阶共振粒子产生有效散射。B&E 的 QLT 框架主要处理①和②，而对③的讨论不足。[FACT]
 
