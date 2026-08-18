@@ -1,40 +1,718 @@
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+Mon. Not. R. astr. Soc. (1978) 182, 443-455
 
-1978MNRAS.182..443B
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+The acceleration of cosmic rays in shock fronts — II
 
-1978MNRAS.182..443B
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+*
+A. R. Bell Mullard Radio Astronomy Observatory, Cavendish Laboratory,
+Madingley Road, Cambridge CB3 0HE
 
-1978MNRAS.182..443B
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+Received 1977 August 22; in original form 1977 July 28
 
-1978MNRAS.182..443B
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+Summary. The acceleration to relativistic energies of the high-energy tail of
+the particle distribution produced by a shock front is discussed. In order to
+be accelerated, particles need to be able to pass through the shock without
+being strongly deflected and it is argued, using the Earth’s bow shock as an
+example, that a shock front produces large numbers of protons, and probably
+electrons also, which satisfy this condition. The resulting energy spectrum of
+these initially non-relativistic particles is calculated. It yields an estimate of
+the density of cosmic ray particles in a shocked gas and indicates that a large
+proportion of the random energy produced by a shock is given to accelerated
+particles. The synchrotron radio emission from the energetic electrons in a
+shocked gas is calculated, and the theoretical and observed flux densities of
+two supernova remnants (Tycho’s SNR and Cas A) are compared and found
+to agree satisfactorily. The implications for the minimum energy of radio
+sources are considered, and the effect of multiple shocks on the cosmic ray
+density evaluated.
 
-1978MNRAS.182..443B
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+1 Introduction
 
-1978MNRAS.182..443B
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+In Paper I (Bell 1978) I described a mechanism by which particles can be accelerated in the
+region surrounding an astrophysical shock front, a prior condition being that the particles
+are sufficiently energetic to pass through the shock itself without significant deflection. This
+implies that they must have initial energies above the post-shock thermal energy, and the
+purpose of the present paper is firstly to determine what the initial energy must be for effec-
+tive acceleration and how many particles are injected and accelerated to high energy, and
+secondly to consider the relevance of the acceleration mechanism to radio sources.
 
-1978MNRAS.182..443B
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+The energy necessary for injection depends on the structure of the shock front and
+especially on the shock thickness. Unfortunately, shocks of high Mach number are poorly
+understood (e.g. McKee 1974), and some aspects of the discussion here are correspondingly
+uncertain. The situation as regards the injection of protons is relatively clear, but that for
+electrons less clear and it is necessary to look for supporting evidence from the observed
 
-1978MNRAS.182..443B
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+* Present address: GEC-Marconi Ltd, Marconi Research Laboratories, Great Baddow, Chelmsford, Essex
+CM2 8HN.
 
-1978MNRAS.182..443B
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
 
-1978MNRAS.182..443B
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+S107 ‘OZ Aqng Uo AZoouyoaT, Jo aMTsUT eTUIOFIT[eD ye /310' s[eumnolpsofxo seruUT//:dyYy WoT pepeopUMod
+444 A. R. Bell
 
-1978MNRAS.182..443B
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+densities of cosmic ray electrons. Much of the discussion is based upon the theoretical
+description of shock fronts by Tidman & Krall (1971) and the review of observations of the
+Earth’s bow shock by Formisano (1974).
 
-1978MNRAS.182..443B
-                     Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+In Section 2, the conditions for the acceleration of a particle are considered and in
+Section 3 the energy spectrum is calculated for the energy range between barely supra-
+thermal and highly relativistic. The results of these sections are then combined in Section 4
+to estimate the cosmic ray density produced by a shock front. This allows the radio emission
+from a shocked gas to be calculated, and the values for two supernova remnants are com-
+pared with observations. In Section 5, the implications for the energy requirements of radio
+sources are discussed. In Section 6, the cosmic ray density is calculated for a gas which has
+been shocked many times.
 
-1978MNRAS.182..443B
-
+2 Conditions for acceleration
+2.1 PROTONS
+
+In Paper I it was assumed (i) that the particles being accelerated were sufficiently energetic
+to pass through the shock, i.e. the region in which the streaming energy is randomized, with-
+out significant deflection or change of kinetic energy, and (ii) that the particles were rela-
+tivistic. This second assumption can be dropped without affecting the validity of the
+acceleration mechanism, although the energy spectrum is different for sub-relativistic
+particles. The first assumption, however, cannot be obviated since particles which are
+deflected through an angle of the order of 7 by the shock have their energy changed by an
+amount comparable to the energy gained in passing once from upstream to downstream and
+back, as described in Paper I. Nevertheless, it is probable that the acceleration mechanism of
+Paper I applies to particles which are deflected through smaller but not negligible angles.
+Particles can be deflected in two ways:
+
+(a) By the magnetic field if the gyroradius inside the shock is comparable to or less than
+the shock thickness. Since the magnetic field within the shock is comparable with the down-
+stream time-averaged field, this condition corresponds to the shock thickness being greater
+than the downstream gyroradius.
+
+(b) By the electric field resulting from plasma oscillations within the shock. The poten-
+tials within the shock are unlikely to exceed 4mpuz/e (McKee 1974), the potential required
+to stop a proton (with mass mp) which is streaming into the shock with the shock velocity
+(u,). Any particle which has an energy significantly above that of the incoming protons
+(Ampvg) will not be strongly deflected in crossing the shock front.
+
+These statements concerning the magnitude of the magnetic field and electric potentials
+within the shock are in accordance both with the theoretical discussion by Tidman & Krall
+(1971) and with satellite measurements of the Earth’s bow shock (Formisano 1974). The
+latter show that the thickness of the shock transition (a few hundred kilometres) is much
+less than the gyroradius (a few thousand kilometres) of a proton with energy Am ps. Thus it
+is probable that a proton with a few times this energy will not be strongly deflected by the
+magnetic field as it crosses the shock, nor by the electric potentials as explained above. Such
+protons are then available for acceleration: by the mechanism described in Paper I. Protons
+with a kinetic energy of “mpuz, the energy of the cold protons convecting into the shock,
+must be deflected since, by definition, a shock entails an abrupt change in the bulk velocity
+of the instreaming gas. The deflection is probably then due to the electric fields (b).
+
+An indication of how many protons are accelerated by a shock front to an energy of a
+few times AMpvs can be obtained from observations of the Earth’s bow shock. The velocity
+
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+
+S107 ‘OZ Aqng Uo AZoouyoaT, Jo aMTsUT eTUIOFIT[eD ye /310' s[eumnolpsofxo seruUT//:dyYy WoT pepeopUMod
+The acceleration of cosmic rays — IT 445
+
+of the incoming plasma in this case is about 400 km/s and its Mach number is about 8 (Volk
+1970). Large numbers of protons are found to be accelerated to about 4(4%mpvg)
+(Ashbridge, Bame & Strong 1968). The number density of these suprathermal protons up-
+stream of the shock is sometimes 10 per cent of the number density of the solar wind
+protons convecting into the shock, but it is more often ~1 per cent or less. This implies that
+about one in a hundred of the solar wind protons convecting into the shock are accelerated
+to 4(Ympvs), although this proportion depends also on the degree to which these protons
+are trapped in the region near the shock. These protons are then sufficiently energetic for
+them to pass through the shock ‘undeflected’ if they encounter it subsequently.
+
+It is probable that the thickness of shock fronts with much higher velocities and Mach
+numbers, such as occur in supernova remnants for example, is less than the gyroradius of
+the downstream thermal protons (Tidman & Krall 1971) and so protons with energies a few
+times ’mpvg will also pass through such shocks unhindered. It is not known whether the ;
+proportion of incoming protons accelerated to this energy is the same for these shocks as it
+is for the Earth’s bow shock, but I here assume this to be the case and use the above
+measurements to estimate the proportion of protons overtaken by a shock which are
+injected into the acceleration process of Paper I. In Section 4 this estimate will be used to
+calculate the number of high-energy cosmic rays generated by a shock front.
+
+2.2 ELECTRONS
+
+The situation concerning the injection of electrons is even less clear than it is for protons
+since the gyroradius of an electron with a given energy is smaller by the factor (m,/mp)"””
+than that of a proton with the same energy. The thickness of a shock must therefore be
+correspondingly smaller for an electron not to be strongly deflected in crossing it. In the
+case of the Earth’s bow shock, the width of the magnetic transition is typically a few times
+the gyroradius (100km) in a solar-wind magnetic field of 10°°G of an electron with energy
+Yampvz, the characteristic thermal energy of the post-shock electrons. Thus electrons must
+have initial energies > 4m vz if the acceleration mechanism of Paper I is to be effective.
+Shocks of very high Mach number, however, may be purely electrostatic (Volk 1970) with
+a thickness of the order of a Debye length (Tidman & Krall 1971), which is much less than
+the gyroradius of a post-shock thermal electron. If this is so then electrons with energies
+a few times 4mpu; will be susceptible to further acceleration, as are the protons.
+
+Observations of the Earth’s bow shock point to the production of electrons with energies
+of up to 100(4%mpvs) (Anderson 1969). The proportion of electrons convected into the
+shock which are reflected upstream with energies greater than “mpu; can be in excess of
+1 in 30 (Scarf et al. 1971).
+
+2.3 SCALE LENGTHS
+
+In Paper I, an expression was derived for the scale length (x9) for the occurrence of Alfvén
+waves and energetic particles upstream. of the shock. If the radius of curvature of the shock
+is less than Lorit = Xo(v/Ug) (where v is the particle velocity), then the probability of return
+of an upstream energetic particle is reduced and the efficiency of acceleration is also
+reduced. This is important in the case of the Earth’s bow shock which has a radius of curva-
+ture of about 9x 107m. For the observed densities of suprathermal protons with energies a
+few times 4mpv2, the value of Lit is ~107m. At higher proton energies the value of Lrit is
+much increased because of the lower number density and higher velocity. Acceleration will
+thus occur at the Earth’s bow shock only for protons of the lowest energy. Electrons with
+
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+
+S107 ‘OZ Aqng Uo AZoouyoaT, Jo aMTsUT eTUIOFIT[eD ye /310' s[eumnolpsofxo seruUT//:dyYy WoT pepeopUMod
+446 A. R. Bell
+
+similar energies have velocities which are (my/me)" ? larger than those of the protons, so the
+acceleration of even low-energy electrons is unlikely.
+
+A similar problem occurs if the magnetic field changes direction on scales of the order of
+Lerit Or less. In such cases the equations of Paper I do not apply. In particular, magnetic
+mirrors may convect through the shock, sweeping away energetic particles and thus prevent-
+ing further acceleration.
+
+3 Acceleration of non-relativistic particles and the resulting energy spectrum
+
+It is interesting to calculate the proportion of particles injected with energies a few times
+Ympvs which are accelerated to cosmic ray energies (in excess of 1GeV). In Paper I, I
+derived the energy spectrum for relativistic particles, and the derivation is here extended to
+the non-relativistic regime in which the calculation is more complicated, owing to the energy
+dependence of the probability of return of a particle entering the downstream region, and
+the fractional energy increase of a particle as it crosses and recrosses the shock front. Low-
+energy protons have velocities which are not much larger than the shock velocity, thus
+making non-negligible the terms of order v,/v which were neglected in Paper I. However, the
+inclusion of these terms would greatly add to the complexity of the derivation, and the
+errors resulting from their neglect are small compared with the uncertainties in the injection
+of particles for acceleration. Consequently they are neglected here also and this results in
+a small error in the energy spectrum for protons with velocities not much greater than ug.
+The energy spectrum of electrons is much less affected because of their higher velocity. The
+notation used is that adopted in Paper I.
+
+From equation (3) of Paper I, the fraction of particles which escape during one cycle of
+crossing and recrossing the shock is n= 4u,/v. In calculating the energy gained by the
+particles, it is assumed that all particles with a particular kinetic energy T = (y — 1) mc? have
+their energy increased by the average amount AT in one cycle of crossing and recrossing the
+shock. An argument equivalent to that used in Paper I — equations (4)—(7) — but without
+the approximation v ~ c, yields
+
+4 v(u; — U2)
+
+AT=(T+Ex) > a (1)
+
+where Ep = mc’ is the particle’s rest mass energy. This equation for AT neglects terms which
+are of order v,/v. If Ny(T) is the number of particles accelerated to a kinetic energy of least T
+(ic. Ny is the integrated energy spectrum), then the number of particles (Aj) which escape
+in one cycle is
+
+AN, = N,(T) 4u3/v. (2)
+
+Equations (1) and (2) can now be combined in differential form by assuming that A7/T and
+AN,/N, are both small (which is true if v > v,):
+
+aN; _ NM 3c? U2 (3)
+aT (T+ Ep) v? uy—u
+This can now be integrated to yield the integrated energy spectrum
+T?+2E pT 7 4-9?
+mr)= |S, (4)
+To+ 2ERTo
+
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+
+S107 ‘OZ Aqng Uo AZoouyoaT, Jo aMTsUT eTUIOFIT[eD ye /310' s[eumnolpsofxo seruUT//:dyYy WoT pepeopUMod
+The acceleration of cosmic rays — IT 447
+
+logN
+
+protons
+
+0 2 4 log T }
+MeV
+Figure 1. The energy spectra of protons and electrons injected at an energy T, =10 keV.
+
+where wu is defined as in Paper I, and 79 is the kinetic energy of the injected particles. This
+expression is normalized so that Nj(T) =1, i.e. one particle is injected. The corresponding
+differential energy spectrum is
+
+N(T) = (u— I(T3 + 2ERTo)¢~Y/7(T + Eg)(T? + 2TER) YTD, (5)
+
+The energy spectra for protons and electrons are plotted in Fig. 1 for the case when the
+injection energy Jo is 10keV, which is equivalent to a shock velocity of 700km/s if
+To = 4(Amyvz). At relativistic energies (T > Ep) this reduces to
+
+N(T) = (w— 1(T3 + 2E RT)“ ~ YD? 1, (6)
+
+an expression which applies closely to electrons, but is in error by a numerical factor of at
+most 3 for protons, on account of the approximations made at low energies. Inspection of
+Fig. 1 reveals the following:
+
+(a) The energy spectrum is flatter for non-relativistic energies than for relativistic
+energies. In the non-relativistic regime N(T) « T~“*)/”. If the relativistic spectral index (u)
+is 2.5, then the non-relativistic spectral index is 1.75. The acceleration is thus more efficient
+for non-relativistic energies.
+
+(b) As a result of the difference in their rest mass energies, the proton spectrum is flatter
+than the electron spectrum for kinetic energies in the range mc? to myc”. This implies that,
+for equal numbers of electrons and protons injected at the same energy (<1GeV), the
+proton density at higher energies (> 1 GeV) is much greater than the electron density. The
+proton density exceeds the electron density by a factor
+
+[(To + 2mpc?)/(T> + 2mec?)] HY.
+
+For To <2m,c’, this factor reduced to (mp/m.)“~1/? = 280 if w=2.5. The condition
+Ty < 2m.c? is equivalent to requiring that the shock velocity is much less than 7000 km/s if
+the injection energy is 4(4mpvg). The velocities occurring in supernova explosions are of the
+order of 10000km/s, and the injection of equal numbers of protons and electrons at the
+resulting shock front gives rise to a proton to electron ratio of about 100 at energies greatly
+
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+
+S107 ‘OZ Aqng Uo AZoouyoaT, Jo aMTsUT eTUIOFIT[eD ye /310' s[eumnolpsofxo seruUT//:dyYy WoT pepeopUMod
+448 A. R. Bell
+
+Table 1.
+Ty v* Up Ue Up/Ue Np/Ne 10° Up
+(keV) (km/s) (MeV) (MeV) (at 100 GeV) yy, pe
+1 219 0.191 0.027 7.16 274 7.64
+10°° 389 0.451 0.061 7.39 273 5.70
+10! 692 1.06 0.138 7.70 272 4.25
+10° 1 230 2.49 0.308 8.11 268 3.15
+10? 2190 5.84 0.683 8.55 255 2.34
+107° 3890 13.6 1.553 8.76 224 1.72
+10° 6920 31.5 3.810 8.28 164 1.26
+10° 12300 72.5 10.43 6.95 95 0.92
+104 21 900 164.8 30.99 §.32 46 0.66
+
+* Defined by T, = 4(4mpvg).
+
+in excess of 1GeV. This ratio is close to that observed for cosmic rays arriving at the Earth
+(e.g. Meyer 1969).
+
+(c) Despite the large proton to electron ratio at high energies, the total kinetic energy of
+the protons and electrons is more nearly equal since the major contribution comes from
+particles with low energies. The proton to electron ratio, and the average energies per elec-
+tron (U,) and proton (U,) injected, are tabulated for different injection energies (i.e.
+different shock velocities) in Table 1.
+
+4 High-energy cosmic rays
+4.1 DENSITIES OF PROTONS AND ELECTRONS
+
+If, in passing through a shock front, a fraction ¢, of the protons in a gas are pre-accelerated
+to an energy Vp(4mpu;) at which they are injected into the acceleration mechanism of Paper
+I, then the density of high-energy protons in the post-shock gas is given (equation (6)) by
+
+(u—1)/2
+yo re (7)
+
+) Wpus
+N(T) = bpn(u — D(Wpmeu2c?)4—Y? ( + 42
+
+where x is the post-shock hydrogen density. If 4 = 2.5, this may be expressed as
+
+NpT) 235 em 3) \4 10*km/s! \Gev) ™ SY > (8)
+
+where the values 10? for dp and 4 for Wp are those found for the Earth’s bow shock
+(Section 2), and where it is assumed that WV pd3/4c? <1. This may be compared with a typical
+density of cosmic rays in the interstellar medium of 3 x 10°*(7/GeV) *5m > GeV | (Wentzel
+1974). For each proton overtaken by the shock front, an energy Up is given to protons with
+an energy greater than (4m uz). Hence a fraction ¢),U,/%mpv; of the kinetic streaming
+energy of the gas flowing into the shock is given to high-energy protons. This fraction, listed
+in Table 1 for $) = 10°? and Wp =4, is found to be greater than unity, indicating that the
+injection rate must be less than 10°. It is clear, nevertheless, that this acceleration process
+can generate large cosmic ray densities.
+
+As was discussed in Section 2, the energy of injection and the number injected are less
+easy to ascertain for electrons than for protons. However, since observations of the Earth’s
+bow shock show that the numbers of electrons and protons generated at an energy of a few
+times 4mpv? are roughly comparable and, since the assumption of equal proton and elec-
+
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+
+S107 ‘OZ Aqng Uo AZoouyoaT, Jo aMTsUT eTUIOFIT[eD ye /310' s[eumnolpsofxo seruUT//:dyYy WoT pepeopUMod
+The acceleration of cosmic rays — IT 449
+
+tron injection rates leads to a proton to electron ratio at high energies close to that observed,
+I shall proceed on the assumption that their injection rates are indeed comparable and take
+bp and ¢. = 10°° with injection energies of 4(Ampuz) (Wp = Ve = 4).
+
+The electron energy spectrum at energies > mc? is
+
+2\(u—1)/2
+Vey,
+e p ‘)
+
+T*, 9
+4m.c? 0°)
+
+Ne(T) = den(u — I(Wempmrze?)#— 0? (
+
+which can be recast in the form
+
+N.(T) = 0.0838(1 46x 10°34" (#5) (4) "(Ae (2)
+10°3/\ 4 cm ?/4 1.5 / \10*km/s
+
+wv Uv 24(u—1/2 T — Me
+x [ + (=)(—— ) (—) m™? GeV. (10)
+4 /\7000 km/s GeV
+
+4.2 FLUX DENSITIES OF RADIO SOURCES
+
+Energetic electrons gyrate under the influence of a magnetic field and produce synchrotron
+radio emission, the intensity of which can be calculated from the formulae given by
+Ginzburg & Syrovatskii (1965). The radio emissivity of a shocked gas is
+
+e(¥) = 2.94 x 10°4(1.435 x 105)" E(2a + 1) (5) ( <3) (**)" (=)
+
+where B is the magnetic field in the emitting region, a = 4(u — 1) is the spectral index of the
+radio emission, and &(u) is a weak function of u which is unity when u = 2.5. E(u) = 11.7a(u)
+where a(t) is the function tabulated by Ginzburg & Syrovatskii. The emissivity («uf if
+vs 2 7000 km/s) is strongly dependent on the shock velocity and the radio spectral index.
+Supernova remnants are an example of a type of astrophysical object in which shock
+fronts are very important. Supernova explosions eject material into the interstellar medium
+at velocities of many thousand km/s (Woltjer 1970). Many cubic parsecs of interstellar gas
+are shocked at these high velocities and equation (11) can be used to estimate the flux
+density of a supernova remnant if the synchrotron-emitting electrons are accelerated in the
+shock which precedes the outflow of ejected material. The calculated flux densities for two
+young supernova remnants, Tycho’s SNR (3C 10) and Cas A (3C 461), are given in Table 2,
+assuming that ¥.=4 and ¢,=10°°. The expansion of both these remnants is decelerating
+(Gull 1973a; Bell 1977), but the flux density is calculated in the approximation of uniform
+expansion at the mean velocity deduced from their size and age. Since the number of
+hydrogen atoms is conserved when a gas passes through a shock, the value of n can be taken
+to be the unshocked interstellar value if the volume of the radio source is taken to be the
+total volume swept over by the shock, i.e. the volume of the sphere occupied by the super-
+nova remnant. The magnetic field is taken to be 10°°G, a value typical of an interstellar field
+compressed in a shock, although the medium in which a supernova explodes may be
+disturbed and contain an enhanced magnetic field. In view of the uncertainties in the
+distance to Tycho’s SNR, its ambient density and the number of electrons injected into the
+acceleration mechanism, there is good agreement between the calculated and observed flux
+densities of Tycho’s SNR. This suggests that the radio emission from Tycho’s SNR can be
+explained in terms of electrons accelerated at the shock front moving into the interstellar gas.
+
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+
+S107 ‘OZ Aqng Uo AZoouyoaT, Jo aMTsUT eTUIOFIT[eD ye /310' s[eumnolpsofxo seruUT//:dyYy WoT pepeopUMod
+450 A. R. Bell
+
+Table 2.
+
+SNR Tycho Cas A
+
+n(cm”?) 0.20) 2(1,2)
+
+ox 0,6) 0.75)
+
+vg (km/s) 7500 5900,
+
+Observed flux density at 1 GHz (Jy) 60%) 2800)
+
+B(G) 19°33) 107°) 3 x 10-4)
+
+Calculated flux density at 1GHz (Jy) 19 3.2 1200
+electrons 1 x 10% 8 x 107!
+
+Energy (nf stecirons and protons 1 x 10%? 7x 10%
+shocked gas 2x 10° 3x 10%
+
+1. Gull (1973a).
+
+2. McKee (1974).
+
+3. This is a typical value for the compressed interstellar magnetic field.
+
+4. The magnetic field assuming equipartition of energy between the magnetic field and relati-
+
+vistic electrons.
+. van den Bergh (1971).
+6. Woltjer (1972).
+
+.o A)
+
+In Cas A, however, the observed and calculated flux densities differ by three orders of
+magnitude if the magnetic field is 10°°G. A possible reason for this is that the magnetic field
+in Cas A has been amplified by differential motions within the shell, resulting either from
+Rayleigh—Taylor instabilities (Gull 1973b), or from the passage of the fast-moving optical
+knots through the radio shell (Bell 1977). Indeed, the magnetic field in the compact radio
+peaks of Cas A must be much larger than 10°°G or else their internal pressure due to
+synchrotron electrons is impossibly high (Bell 1977). If the magnetic field is instead set to
+the value (3x 10*G) deduced by assuming equipartition between the energy in magnetic
+field and relativistic electrons, then the calculated flux density is 900 Jy, in better agreement
+with the observed value. The fast knots may also contribute to the radio emission by
+shocking the radio shell as they pass through it, thus accelerating more particles to high
+energies, and this may be related to the ‘blobby’ nature of the radio emission.
+
+There is no evidence that the shell of Tycho’s SNR is being intersected by fast-moving
+knots which could increase the radio emission, but it is probable that its shell was subject
+to the Rayleigh—Taylor instability at some time in the past, resulting in an increased
+magnetic field which may still persist. The calculated flux density in Table 2 is then too low.
+
+Table 2 also gives the total energy of the accelerated electrons with energies greater than
+To, and the total energy of the electrons and protons under the assumption that equal
+numbers of each are injected. The energy of the accelerated particles is a substantial fraction
+of the total energy given to the shocked interstellar gas (Yszm uy per baryon in the case of
+compression by a factor 4 at the shock front) under the crude assumption of uniform
+expansion. The large proportion of this energy which is given to the accelerated particles is a
+consequence of the high value of ¢, (107°). The total energy of the particles is also a large
+fraction of the total energy released in a supernova explosion, 10“—10*°J (e.g. Ginzburg &
+Syrovatskii 1964).
+
+5 Calculations of the minimum energy in radio sources
+
+A common calculation is that of the minimum energy of the magnetic field and relativistic
+electrons needed to account for the observed synchrotron emission from a radio source. This
+calculation usually takes account only of those electrons which radiate at frequencies higher
+
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+
+S107 ‘OZ Aqng Uo AZoouyoaT, Jo aMTsUT eTUIOFIT[eD ye /310' s[eumnolpsofxo seruUT//:dyYy WoT pepeopUMod
+The acceleration of cosmic rays — II 451
+
+than the low-frequency cut-off to the radio spectrum, neglecting both electrons of lower
+energy and also energetic protons. If, in reality, the energy spectrum of the electrons extends
+down to much lower energies as given by equation (5), then the minimum energy must be
+increased. In Cas A, these extra electrons increase the minimum energy by a factor of 2.5. If
+protons are injected into the acceleration process in equal numbers to the electrons, the
+minimum energy is increased by a further factor of 3.2, making 8.0 in total which is com-
+parable with the factor of 13.9 by which the minimum energy is increased if the low-energy
+particles are neglected but protons are assumed to outnumber the electrons at all energies by
+100 to 1. The large energy densities of the magnetic field and fast particles are an
+outstanding feature of non-thermal radio sources in general, and these considerations imply
+even higher energy densities.
+
+6 Effect of a shock front on pre-existing cosmic rays
+
+In previous sections the injection of particles into the acceleration mechanism has been
+considered as taking place at low energies, due to the existence of a ‘high-energy’ tail in the
+velocity distribution of the particles emerging from the shock front. An alternative source
+for the injection of particles is the cosmic ray population which already exists in the up-
+stream gas. Since cosmic rays are thought to fill the Galaxy, any shock front moving into the
+interstellar gas will encounter these cosmic rays and accelerate them to even higher energies.
+The differential energy spectrum R,(T) which results can be obtained from the integral
+
+R(T) = | ” dZ P(Z) O(T, 2), (12)
+0
+
+where P(Z) is the energy spectrum of the cosmic rays before they were shocked, and Q(T, Z)
+is the energy spectrum resulting from the acceleration of particles which are injected mono-
+energetically with an energy Z. Q(T, Z) is given by equation (5):
+
+QO when 7T<Z
+
+13
+(u —1)(Z?2 + 2ERZ)\Y YP (T + Ey T? + 2TER) “YY? when T>Z. (13)
+
+ovr, 2) =|
+
+If the previously existing cosmic rays resulted from the acceleration at an earlier shock of
+particles injected at the low energy To, then A(T) = N(T) (equation (5)) for T >To and
+P(T) = 0 for T < To. The integral in equation (12) can now be evaluated. Indeed it is possible
+to derive a more general function R,,(T) which is the energy spectrum of particles originally
+accelerated in a shock front, giving the energy spectrum P(T), but which have subsequently
+passed through a further n shocks. R,(T) is thus the energy spectrum resulting from the
+passage of a gas through a total of (7 +1) shocks. Only those particles injected at low
+energies in the first shock are considered, and those injected in the subsequent shocks are
+neglected (see (c) below). R,(T) is the energy probability distribution of one particle and is
+defined by
+
+a
+
+Ryl)= [dz Ry(Z) OUT, 2) 4)
+
+The general form of R,,(T) in the range T > To is
+R,(T) = (T§ + 2ToER)O YP (T+ Ep \(T? + 2TER) YP.
+
+(u—1)"*! [in( T? + 27Ee. |" nn
+
+2"n! T24+2T ER
+
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+
+S107 ‘OZ Aqng Uo AZoouyoaT, Jo aMTsUT eTUIOFIT[eD ye /310' s[eumnolpsofxo seruUT//:dyYy WoT pepeopUMod
+452 A. R. Bell
+
+log R,
+0
+-5
+-10 n=3
+n=2
+n=1
+n=0
+0 2 4 log/_T_'
+ool
+
+Figure 2. The energy spectra of electrons accelerated in an initial shock and which have passed through n
+subsequent shocks.
+
+This function is plotted in Fig. 2 for electrons initially injected with an energy Ty) = 10 keV.
+The effect of multiple shocks on the number and average energy of protons and electrons
+is given in Table 3. The following points should be noted:
+
+(a) At energies typical of electrons which emit radio waves, the energy spectrum flattens
+with succeeding shocks. Consequently the spectrum of radio emission also flattens.
+
+(b) The expression for R,(T7) is independent of the shock velocities, except for that of
+the initial shock, provided that the velocities of the subsequent shocks are less than that of
+the initial shock. The velocity of the initial shock determines To.
+
+(c) For sufficiently high energies, R,,(T)/Rn_1(T) is considerably greater than 2. This
+implies that particles injected at the initial shock and subsequently accelerated to higher
+energies outnumber the particles injected at low energies in each of the subsequent shocks.
+
+The further acceleration of cosmic rays may be important in the case of low-velocity
+shock fronts. In such shocks the number of particles injected at low energies which are
+accelerated to high energies is small, on account of its strong dependence on the shock
+velocity — equations (7) and (9). This may be relevant to old supernova remnants such as the
+Cygnus Loop in which the shock velocity is only a few hundred kilometres per second
+(Woltjer 1972). Van der Laan (1962) suggested that the radio emission is due to the com-
+pression of the interstellar magnetic field and cosmic rays in the region of strong cooling
+which occurs behind a radiative shock front. The present discussion indicates that further
+acceleration of the interstellar cosmic rays takes place at the shock front, resulting in a
+cosmic ray density which is greater than that given merely by adiabatic compression. It is
+also possible that the shocked gas is subjected to further shocks while being compressed
+(Falle 1975), thus increasing the cosmic ray density yet again. The increase in the energy of
+the particles implies an increased pressure which will restrict the compression of the gas.
+The resulting energy spectrum can be expected to be flatter than that of the ambient inter-
+stellar cosmic rays.
+
+A gas containing cosmic rays which passes through a shock front such as that of an old
+supernova remnant, and then at a later time re-expands adiabatically to its original volume,
+has the energy of its cosmic rays increased. A highly relativistic cosmic ray has its energy
+
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+
+S107 ‘OZ Aqng Uo AZoouyoaT, Jo aMTsUT eTUIOFIT[eD ye /310' s[eumnolpsofxo seruUT//:dyYy WoT pepeopUMod
+Downloaded from http://mnras.oxfordjournals.org/ at California Institute of Technology on July 20, 2015
+
+453
+
+5
+) ‘(Satue,)p =z Aq poured ,
+aA
+S 6'06€ S°8ST ver 06 L'vtl 6'T80E €
+° £88 €8P 07 Vol GLE 5898 z
+= eel 8°6 v9 L'8? ETI 6°70Z I
+iS OT OT oT ers T8°€ STE 0 0769 <OT
+> zwst9 1887 PO! rLt L'9@ yeLs €
+= roll a 9°9€ 6°87 98 ZS@Z z
+s SST Oz! 98 V8p E97 0'9r I
+Ss OT oT or 8°6L €89°0 3's 0 061z 201
+8 L'vs8 TLEp S81 EE SL S LET €
+8 Lvl 1'S6 ses 8'Se tr'z LSS 4
+<= wLI BT €01 zss 999°0 66'6 I
+oT oT oT 68 810 90° 0 769 101
+Z6EIT 9°€79 9 €6% SZ EE? v9 €
+T08T S0c1 6TL SOP 0L9°0 eel z
+06! SST wal 88S Z9T'0 orz I
+oT oT oT s°S8 L70°0 1610 0 612 001
+A2) [78 suodooya
+APD 0T=L APD T=L A2DT0=.. 0} Suojo3d Jo (A?) (A2N) (u) syooys (s/w) (A2%)
+(2) u/CL)4Y suonoes[e Jo Jaquinu ur eseveroUy ones Jaquinn 7) dn jo Jaquiny Pas °F
+"€ 1981
+
+'Ge77 C8 SVUNW8/6L ,
+
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+454 A. R. Bell
+
+increased on average by a factor of 3u2/(4u2 —u,) when overtaken by a shock, and this is
+greater than the increase of (u,/u2)'’? which is obtained purely by adiabatic compression.
+Hence the average increase in energy is greater than the average decrease which takes place
+in the subsequent adiabatic expansion, and this is also true for energetic particles which are
+not highly relativistic. Consequently, energy is given to the cosmic ray gas. Some of the
+particle energy is lost to the Alfvén waves which confined the particles near the shock, and
+this results in a steeper energy spectrum of the accelerated particles which is entirely
+accounted for by the appearance of the terms 1/M, in the expression for the spectral index
+of the differential energy spectrum given in equation (12) of Paper I. This energy loss is
+small for strong shocks.
+
+7 Conclusions
+
+Consideration of the theory of shock fronts and the results from satellite observations of the
+Earth’s bow shock indicates that electrons and protons are produced by a shock at energies
+such that the particles can be accelerated to high energies by the process described in Paper
+I, thus producing large numbers of cosmic rays. The quantities of protons and electrons in-
+jected into the acceleration mechanism are estimated and the non-relativistic energy spec-
+trum calculated, and these together give an estimate of the high-energy cosmic ray density
+in a shocked gas.
+The following approximations and assumptions have been made:
+
+(a) Protons and electrons with an energy of 4(4mpu;) are able to pass through a shock of
+very high Mach number without large deflection, and are therefore injected into the accelera-
+tion process (Section 2).
+
+(b) The proportion of incoming protons (¢,) and electrons (¢,) which are injected with
+energy 4(4mpu;) is 10°? in both cases (Section 4).
+
+(c) The terms of order v,/v are neglected in the calculation of non-relativistic energy
+spectrum and the approximation is made that AN;/N; and AT7/T are small. This leads to an
+error in the proton energy spectrum but the error is small compared with the uncertainties
+in the number of protons injected (Section 3).
+
+These assumptions and approximations yield expressions for the cosmic ray density in a
+shocked gas, and the cosmic ray electron density can be used to predict the intensity of
+radio emission from the gas. Application of the calculations to a crude model of Tycho’s
+supernova remnant in which the magnetic field is taken to be the interstellar field com-
+pressed in a shock gives a predicted flux density consistent with the observed value. In the
+case of Cas A, agreement between the predicted and observed flux densities is obtained if
+the magnetic field is much greater than the compressed interstellar value as has already been
+implied by previous work on this object.
+
+The further acceleration in a shock front of pre-existing cosmic rays may be important in
+relatively slow shock fronts such as occur in old supernova remnants.
+
+Acknowledgments
+I am grateful to Dr P. A. G. Scheuer for his help and encouragement in this work, and to
+
+Dr J. R. Shakeshaft, Dr S. F. Gull and the referee for helpful comments on the manuscript.
+I acknowledge the support of an SRC studentship.
+
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+
+S107 ‘OZ Aqng Uo AZoouyoaT, Jo aMTsUT eTUIOFIT[eD ye /310' s[eumnolpsofxo seruUT//:dyYy WoT pepeopUMod
+The acceleration of cosmic rays — II 455
+References
+
+Anderson, K. A., 1969. J. geophys. Res., 74,95.
+
+Ashbridge, J. R., Bame, S. J. & Strong, I. B., 1968. J. geophys. Res., 73,5777.
+
+Bell, A. R.. 1977. Mon. Not. R. astr. Soc., 179, 573.
+
+Bell, A. R., 1978. Mon. Not. R. astr. Soc., 182, 147.
+
+Falle, S. A. E. G., 1975. Mon. Not. R. astr. Soc., 172, 55.
+
+Formisano, V., 1974. Correlated interplanetary and magnetospheric observations, ed. Page, D. E.,
+D. Reidel Publ. Co.
+
+Ginzburg, V. L. & Syrovatskii, S. I., 1964. The origin of cosmic rays, Pergamon Press.
+
+Ginzburg, V. L. & Syrovatskii, S. I., 1965. A. Rev. Astr. Astrophys., 3, 297.
+
+Gull, S. F., 1973a. Mon. Not. R. astr. Soc., 162, 135.
+
+Gull, S. F., 1973b. Mon. Not. R. astr. Soc., 161, 47.
+
+McKee, C. F., 1974. Astrophys. J., 188, 335.
+
+Meyer, P., 1969. A. Rev. Astr. Astrophys., 7,1.
+
+Scarf, F. L., Fredericks, R. W., Frank, L. A. & Neugebauer, M., 1971. J. geophys. Res., 76, 5162.
+
+Tidman, D. A. & Krall, N. A., 1971. Shock waves in collisionless plasmas, Wiley Interscience.
+
+van den Bergh, S., 1971. Astrophys. J., 165, 457.
+
+van der Laan, H., 1962. Mon. Not. R. astr. Soc., 124, 125.
+
+Volk, H., 1970. Chapter Collisionless shocks, in Physics of hot plasmas, ed. Rye, B. J. & Taylor, J. C.,
+Plenum Press.
+
+Wentzel, D. G., 1974. A. Rev. Astr. Astrophys., 12,71.
+
+Woltjer, L., 1970. AU Symp. 39, p. 229, D. Reidel Publ. Co.
+
+Woltjer, L., 1972. A. Rev. Astr. Astrophys., 10, 33.
+
+© Royal Astronomical Society * Provided by the NASA Astrophysics Data System
+
+ST07~ “07 Aqne uo ASojouysI |, JO ayNITSU] eIUIOFITeD 3e /810° syeuIno[p1ojXo' seruU//:dqqy WO} popero[UMod
