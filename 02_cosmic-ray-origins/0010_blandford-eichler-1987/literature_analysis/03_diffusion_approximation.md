@@ -281,9 +281,31 @@ Vlasov 方程（六维相空间）
 
 [CRITIQUE] B&E 给出的 $D_{\parallel}$ 形式基于各向同性湍流假设——但真实 ISM 湍流是各向异性的（尤其是受磁场方向约束的 Alfvén 湍流）。各向异性湍流导致的扩散也是各向异性的：$D_{\parallel} \neq D_{\perp}$，且 $D_{\perp} \ll D_{\parallel}$。这个各向异性在某些情况下是重要的（如磁场方向快速变化的环境中），但 B&E 没有在 §3 的推导中处理它。[CRITIQUE]
 
-## 3.12 Landau 阻尼与波-粒子相互作用的深入分析（从 fulltext 补充）
+## 3.13 Pitch-Angle 散射与随机游走（从 fulltext 补充）
 
-### 3.12.1 朗道流与相空间混合
+### 3.13.1 随机游走与扩散的对应
+
+[FACT] B&E §3 的核心数学工具是 Fokker-Planck 方程，它等价于随机游走模型：在每个时间步 $\Delta t$，粒子的动量 $p$ 有一个随机变化 $\Delta p$，其均值 $\langle \Delta p \rangle$ 和方差 $\langle (\Delta p)^2 \rangle$ 决定了漂移和扩散系数。当 $\Delta t$ 很小时，$\langle \Delta p \rangle \to A(p) \Delta t$ 和 $\langle (\Delta p)^2 \rangle \to 2D(pp) \Delta t$，这正是 Fokker-Planck 方程的系数。在 pitch-angle 散射的情况下，$\mu = \cos\theta$（$\theta$ 是速度与磁场方向的夹角），扩散系数 $D_{\mu\mu}(\mu)$ 描述 $\mu$ 的随机演化：$\Delta\mu / \Delta t$ 的均值和方差由波粒相互作用决定。[FACT]
+
+[INTERPRETATION] 随机游走模型的价值：① **物理直观**：粒子在波场中的运动类似于赌徒在赌场中的随机行走——每次"游戏"（散射事件）的结果是不确定的，但大量游戏的统计行为是确定的；② **数学简化**：随机游走避免了追踪每个粒子的微观轨迹，只需要统计平均量（$\langle \Delta p \rangle$ 和 $\langle (\Delta p)^2 \rangle$）；③ **普适性**：随机游走模型在物理学中广泛使用（布朗运动、热传导、扩散等），DSA 中的应用是随机游走模型在天体物理中的具体体现。B&E 的处理将随机游走模型与 Fokker-Planck 方程对应起来，建立了 DSA 加速的数学框架。[INTERPRETATION]
+
+[CRITIQUE] 随机游走模型假设了散射事件之间的独立性（马尔可夫过程）：① 在某些情况下，波-波相互作用可能导致散射事件之间有记忆效应（非马尔可夫过程）；② 当波幅很强（$\delta B/B_0 \sim 1$）时，散射过程可能偏离简单的随机游走描述；③ 粒子之间的相互作用（碰撞效应）在高密度环境中可能改变散射统计。这些情况下，Fokker-Planck 方程可能不再适用，需要更复杂的动理学方程。B&E 在弱波幅假设下使用 Fokker-Planck 方程是合理的，但这个假设在 NL-DSA 中可能失效。[CRITIQUE]
+
+### 3.13.2 散射时间的统计估计
+
+[FACT] B&E §3 给出散射频率 $\nu_{\rm scatter}$ 的统计估计：从量纲分析，$\nu_{\rm scatter} \sim \Omega_0 / \Delta\mu^2$，其中 $\Omega_0 = ZeB_0/mc$ 是粒子在背景磁场中的拉莫尔频率，$\Delta\mu$ 是每次散射事件引起的 $\mu$ 变化。在准线性理论中，$\Delta\mu$ 与波谱幅度 $\delta B/B_0$ 和共振宽度 $\Delta k_{\rm res}$ 有关：$\Delta\mu \sim (1/\mu)(c k_{\rm res} / \Omega_0)(W(k_{\rm res})/B_0^2)^{1/2}$。因此，$\nu_{\rm scatter} \propto \Omega_0 (B_0^2/W) k_{\rm res}^2 \propto \Omega_0 (\delta B/B_0)^{-2} (l_{\rm turb}/R_{\rm L})^2$，其中 $R_{\rm L}$ 是拉莫尔半径。[FACT]
+
+[INTERPRETATION] 散射时间估计的物理含义：① **磁场依赖**：$\nu_{\rm scatter} \propto B_0^2/D_{kk}$——强磁场使拉莫尔半径变小，共振条件更严格，散射更难；② **波幅依赖**：$\nu_{\rm scatter} \propto (\delta B/B_0)^{-2}$——强湍流（$\delta B/B_0$ 大）导致更频繁的散射；③ **尺度依赖**：$\nu_{\rm scatter} \propto (l_{\rm turb}/R_{\rm L})^2$——湍流外尺度相对于拉莫尔半径越大，散射越频繁。这些标度关系揭示了散射率如何随等离子体参数变化——但 B&E 只给出了定性标度，没有给出精确数值系数。[INTERPRETATION]
+
+[CRITIQUE] 散射时间的统计估计有几个不确定性来源：① **波谱模型**：估计依赖波谱 $W(k)$ 的具体形式（Kolmogorov vs Kraichnan），不同模型给出不同系数；② **共振类型**：只考虑了一阶共振（$k_{\rm res} = \Omega_0/v_\parallel$），高阶共振的贡献没有包含；③ **各向异性效应**：估计假设各向同性湍流，但真实 ISM 湍流是各向异性的。这些不确定性使 $\nu_{\rm scatter}$ 的精确值难以确定，导致 $E_{\rm max}$ 等可观测量有较大误差范围。B&E 的量纲分析给出了标度关系，但无法确定数值系数——这是后续研究需要改进的地方。[CRITIQUE]
+
+### 3.13.3 各向异性散射与准线性理论的应用范围
+
+[FACT] B&E §3 的准线性理论（QLT）假设：① **波幅弱**：$\delta B/B_0 \ll 1$；② **散射各向同性**：粒子在 pitch-angle 空间的扩散近似各向同性；③ **宽带波谱**：$\Delta k/k \sim 1$，共振宽度远小于波数间隔。在这些条件下，QLT 给出了 $D_{\mu\mu}$ 的显式公式，可以计算散射时间和扩散系数。QLT 成功解释了 DSA 的基本特征（幂律谱、加速时间标度），但在强波幅 regime（NL-DSA）中失效。[FACT]
+
+[INTERPRETATION] QLT 的成功与局限：① **成功**：QLT 给出了 DSA 基本特征的解析推导，解释了为什么幂律谱是稳健的（$q = 3r/(r-1)$ 与散射细节无关）；② **局限**：QLT 无法预言 NL-DSA 中的新特征（如谱的截断、天花板效应）；③ **扩展**：现代理论（弱湍流理论、PIC 模拟）在 QLT 基础上加入了非线性效应，可以处理更强的波幅。B&E 的 QLT 框架是 NL-DSA 的起点，但不是终点——今天的 NL-DSA 理论已经大幅超越了 B&E 的处理范围。[INTERPRETATION]
+
+[CRITIQUE] QLT 的一个关键盲区：它假设波场是预先存在的，而非由 CR 自激发的。在真实 SNR 环境中，CR 驱动的 streaming instability 产生波场，波场的存在使 CR 被散射，这个散射又维持了波场的生长——这是一个自激发的耦合系统。QLT 的线性假设（波场独立于 CR）在这个自激发系统中不完全成立。今天的非线性理论（包括 Bell 不稳定性、自调节饱和等）部分处理了这个耦合，但完整的自洽理论仍然是活跃的研究课题。B&E 在 §5 的自洽分析中部分处理了这个问题，但没有给出完整的解决方案。[CRITIQUE]
 
 [FACT] Landau 阻尼的数学描述来自 Vlasov 方程的解：对小幅度波，分布函数 $f(v)$ 在 $v \approx V_A$ 附近与波发生能量交换，交换功率 $P = m v^2 (\partial f/\partial v)_{v=V_A}$。如果 $\partial f/\partial v < 0$（正梯度，典型星际介质），粒子从波中获取能量，表现为Landau吸收；如果 $\partial f/\partial v > 0$（负梯度），粒子向波释放能量，表现为受激放大。[FACT]
 
