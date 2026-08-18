@@ -8,7 +8,7 @@ journal: "Physical Review Letters"
 volume: "137"
 pages: "021804 (8 pp)"
 doi: "10.1103/physrevlett.137.021804"
-arxiv: "无预印本（PRL 2026，已知 DOI）"
+arxiv: "arXiv:2510.25825v1"
 category: experiments
 sections: []
 citations:
