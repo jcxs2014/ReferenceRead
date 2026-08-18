@@ -220,3 +220,23 @@ Vlasov 方程（六维相空间）
 3. **$D_{pp} \propto p^2$ 与谱指数**：这个比例关系直接导致幂律谱。若偏离，谱形会改变。
 
 4. **动量空间扩散 vs 逃逸时间**：B&E 指出逃逸时间近似（leaky box）意外地好——但只有在注入谱接近 $E^{-2}$ 时才成立。
+
+## 3.11 Fermi 加速完整推导（从 fulltext 实测补充）
+
+### 3.11.1 Fermi 1949 的二阶机制
+
+[FACT] Fermi (1949) 的原始机制是**二阶**的：粒子在随机运动的磁云之间被散射，每次碰撞的能量增益 $\Delta E/E \sim (u/c)^2$（二阶小量）。这与 DSA 的一阶机制（$\Delta E/E \sim u/c$，一阶）相比，效率相差一个 $(u/c)$ 因子。原文 §3.2 详细讨论了这个差异。[FACT]
+
+[INTERPRETATION] Fermi 1949 的"二阶"本质解释了为什么它在很长一段时间内没有被认真考虑为 CR 加速的主要机制：每次碰撞的能量增益太小，需要极长的加速时间。但在 DSA（一阶）框架中，激波作为"反射镜"把粒子困在激波附近，等价于把 $u/c$ 放大到接近 1，从而实现有效加速。这个从"随机磁云"到"激波面"的物理图像转变是 DSA 理论最核心的洞察。[INTERPRETATION]
+
+### 3.11.2 扩散-对流方程的推导
+
+[FACT] B&E 从 Vlasov 方程（第 742-750 行）出发，推导了粒子传输方程 $\partial f/\partial t + \mathbf{v}\cdot\nabla f + \dot{p}\cdot\nabla_p f = (\partial f/\partial t)_c$。在磁场湍流背景下，散射项 $(\partial f/\partial t)_c$ 可以用 Fokker-Planck 近似表达为 $\partial/\partial p (D_{pp}\partial f/\partial p) + \cdots$。[FACT]
+
+[CRITIQUE] B&E 的推导依赖于**准线性理论**（QLT）假设：波-粒子相互作用是弱耦合的，波的相干长度 >> 粒子 Larmor 半径。这个假设在真实 SNR 激波中可能失效，因为湍流在离子注入后变得强非线性（Caprioli 2014 的 PIC 模拟显示这种非线性可以自维持）。因此 B&E 的 Fokker-Planck 系数的数值精度是有限的，其定性结论（幂律谱）仍然 robust，但具体谱指数可能因 QLT 失效而偏离 $q = 3r/(r-1)$。[CRITIQUE]
+
+### 3.11.3 扩散系数与波谱的关系
+
+[FACT] 空间扩散系数 $D_{xx} \propto D_{\mu\mu}/(1-\mu^2)$，其中 $D_{\mu\mu}$ 是 pitch-angle 扩散系数。当波谱是 Kolmogorov（$W(k) \propto k^{-5/3}$）时，共振条件 $k \sim 1/r_L$ 意味着 $D_{xx} \propto p^{4/3} v / B^2$。当波谱是 Kraichnan（$W(k) \propto k^{-3/2}$）时，$D_{xx} \propto p^{3/2} v / B^2$。[FACT]
+
+[INTERPRETATION] B&E 在 §3.5 对 $D_{xx}$ 的讨论揭示了一个关键对称性：扩散系数对波谱的敏感度（$p^{4/3}$ vs $p^{3/2}$）比对具体散射机制的敏感度更低——这意味着谱形 $dN/dE \propto E^{-(q)}$ 在相当宽的波谱假设下都是幂律的，只是 $q$ 的具体数值有小幅变化。这个对称性是 DSA 理论 robust 的数学基础。[INTERPRETATION]

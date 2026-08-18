@@ -185,3 +185,23 @@ Rankine-Hugoniot（流体跳跃条件）
 2. **各向同性假设**：B&E 假设粒子在激波附近各向同性——但准线性理论在 $\mu \to 0$ 时失效。真实激波中各向异性可能显著。
 
 3. **$q = 3r/(r-1)$ 的普适性**：这个公式在理想情况下成立。但实际激波中的 $r$ 可能随位置和时间变化——CR 加速效率 $\eta$ 会反馈到 $r$。
+
+## 4.8 强激波下的粒子加速（从 fulltext 实测补充）
+
+### 4.8.1 稳态解的完整推导
+
+[FACT] §4.3 的稳态解（第 1310-1400 行）给出：在强激波（$r=4$）情况下，粒子分布函数在激波处的渐近行为是 $f(p) \propto p^{-q}$，其中 $q = 3r/(r-1)$。这个结果在 CR 能量远小于 $p_{\rm max}$ 时精确成立。[FACT]
+
+[INTERPRETATION] $q = 3r/(r-1)$ 的推导中最关键的几何因素是：粒子在激波两侧穿越次数的净差（downstream 穿越率 - upstream 穿越率）与压缩比 $r$ 成正比。这个非对称性是 DSA 一阶本质的体现——它解释了为何 DSA 效率远高于 Fermi 1949 的二阶机制。[INTERPRETATION]
+
+### 4.8.2 时间依赖解与最大能量
+
+[FACT] §4.4 的时间依赖解（第 1400-1500 行）讨论了非稳态激波的粒子谱：当加速时间 $t_{\rm acc} < t_{\rm esc}$（逃逸时间）时，粒子谱在 $p < p_{\rm max}(t)$ 范围内仍是幂律，但 $p_{\rm max}$ 本身随时间增长，$p_{\rm max} \propto t^{1/2}$（对常数扩散系数）。[FACT]
+
+[CRITIQUE] B&E 的时间依赖解假设扩散系数 $D(p)$ 是常数（与能量无关）——这对低能粒子（GeV 量级）是合理的近似，但对高能粒子（TeV 以上），$D \propto p^{4/3}$（Kolmogorov）或 $p^{3/2}$（Kraichnan），时间依赖行为会偏离 $p_{\rm max} \propto t^{1/2}$。若考虑能量依赖的扩散，最大能量可能增长得更慢（$p_{\rm max} \propto t^{3/5}$ 或更慢），这对 SNR 中 PeV 宇宙线的加速时间估算有重要影响。[CRITIQUE]
+
+### 4.8.3 逃逸损失与幂律截断
+
+[FACT] §4.4 指出逃逸时间 $\tau_{\rm esc} \sim L^2/D$，其中 $L$ 是有效加速区尺度。对于 SNR 前向激波，$L \sim R_{\rm SNR}/4$（激波半径的量级），当粒子 Larmor 半径 $r_L \sim R_{\rm SNR}$ 时，粒子开始能够逃逸——这定义了 $E_{\rm max}$。对典型 SNR（$B \sim 10 \mu{\rm G}$，$R_{\rm SNR} \sim 10$ pc），$E_{\rm max} \sim 10^{14}$ eV，与 knee 能量对应。[FACT]
+
+[INTERPRETATION] SNR 的 $E_{\rm max} \sim 10^{14}$ eV 是 PeV 宇宙线的来源，但对于 $10^{15}$ eV 以上的宇宙线（second knee 及以上），SNR 无法单独提供——这与 Blasi (2013) 综述中提到的"no proof that SNRs can accelerate CRs up to the knee energy"完全一致。B&E 1987 的这个定量估算在 40 年后仍然是 PeV astrophysics 的标准框架。[INTERPRETATION]

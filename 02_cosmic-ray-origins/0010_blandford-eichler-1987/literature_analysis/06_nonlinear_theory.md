@@ -158,6 +158,32 @@ B&E 讨论了几个注入模型，指出没有单一模型能解释所有观测�
 
 §6 的框架后来被 Ellison (1985)、Ramppbacka & Ellison (1999)、Caprioli et al. (2006-2012) 等用数值模拟验证和扩展。
 
+## 6.10 非线性理论与 CR-激波反馈（从 fulltext 实测补充）
+
+### 6.10.1 两流体模型的核心方程
+
+[FACT] §6 的两流体模型（第 2465-2600 行）将 CR 视为与热气体耦合的独立流体，用两个方程描述：① CR 传输方程（包含空间扩散和对流）；② 热气体动力学方程（包含 CR 压力梯度作为源项）。稳态自洽解满足 $d(u_{\rm sh} + V_A)/dx = 0$，这意味着 CR 压力在激波上游建立了"预压"区域。[FACT]
+
+[INTERPRETATION] CR 压力的预压效应（precursor）是非线性 DSA 与线性 DSA 的最显著差异：在测试粒子 DSA 中，激波面是间断面（jump condition 由 Rankine-Hugoniot 方程决定）；在非线性 DSA 中，CR 压力在上游建立梯度，提前加热气体，使实际激波面变厚。这个 precursor 结构是 DSA 理论后来被 CR 中微子探测间接验证的基础之一（Auger 的 anisotropy 测量）。[INTERPRETATION]
+
+### 6.10.2 谱指数的修正
+
+[FACT] 当考虑 CR 的非线性反馈时，压缩比 $r$ 不再是常数，而是 CR 压力占比 $\eta = P_{\rm CR}/(\rho u^2)$ 的函数。自洽方程给出 $r(\eta)$，代回 $q = 3r/(r-1)$ 得到非线性谱指数 $q_{\rm NL}(\eta)$。对于强激波（$r \to 4$），$q_{\rm NL} \to 5$（对应更陡�谱）——这与 SNR 观测的 $E^{-2.7}$ 谱（$q \approx 4.4$）更接近。[FACT]
+
+[CRITIQUE] B&E 的两流体模型假设 CR 压力各向同性（标量压力）——但真实非线性激波中，CR 分布在激波上游是高度各向异性的（streaming），各向异性压力张量 $P_{ij}^{\rm CR}$ 不能简单地用标量 $P_{\rm CR}$ 近似。这个各向异性效应在 B&E 的两流体处理中被忽略，但在近年 PIC 模拟中被重新发现——Caprioli & Spitkovsky (2014) 的结果显示，各向异性 CR 压力可以产生超音速的 precursor，甚至在某些条件下使激波本身变得不稳（Bell 2014 的 "Bell instability"）。[CRITIQUE]
+
+### 6.10.3 注入与离子起始
+
+[FACT] §6.5 的离子注入讨论（第 2700-2800 行）：离子注入 DSA 需要满足两个条件：① 离子 Larmor 半径 $r_L$ > 热离子 Larmor 半径（"ion injection" threshold）；② 离子必须能够穿越激波（即满足 $\mu > \mu_{\rm crit}$）。B&E 给出注入阈值 $T_i \gtrsim 10-100$ keV，对应 $E_i \sim 1-10$ MeV/nucleon。[FACT]
+
+[INTERPRETATION] 注入阈值 $T_i \sim 10-100$ keV 解释了为何 GeV 以上的 CR 加速需要强激波（SNR）：只有 SNR 激波的 $T_{\rm shock} \sim 10^6-10^8$ K 才能持续提供注入所需的热离子。这个阈值也是 DSA 与 Cowie (1977) 的"background Fermi"机制的本质区别——后者无法满足注入条件，因此只能加速少数已存在的高能粒子，无法解释 CR 谱的幂律主体。[INTERPRETATION]
+
+### 6.10.4 与 Drury (1983) 的关系
+
+[FACT] B&E §6 的两流体处理与 Drury (1983) 的处理在数学上是等价的——两者都从 CR 传输方程和气体动力学方程出发，得到相同的自洽稳态解。区别在于：B&E 给出了更多关于波谱演化和离子注入的细节；Drury 更侧重于数学结构的清晰性。B&E 在脚注中明确承认这一等价性。[FACT]
+
+[CRITIQUE] B&E 与 Drury (1983) 的等价性意味着 B&E 没有在数学上提供显著的新结果——但 B&E 的物理洞察（尤其是关于离子注入和非线性谱修正的讨论）仍然是重要的。实际上，Caprioli 2014 的 PIC 模拟显示，两流体模型在定性上正确（能预测 CR 压力的 precursor 结构），但在定量上（预测 $E_{\rm max}$ 和 CR 谱的精确形状）存在系统性偏差——这是因为两流体模型无法描述粒子轨道的相干效应，而这种相干效应在高能端（$E \sim E_{\rm max}$）占主导地位。[CRITIQUE]
+
 ## 6.10 潜在问题与值得关注的地方
 
 1. **注入机制仍是开放问题**：B&E 承认没有单一模型能解释所有观测。直到今天（2020s），注入机制仍是 DSA 理论的薄弱环节。
