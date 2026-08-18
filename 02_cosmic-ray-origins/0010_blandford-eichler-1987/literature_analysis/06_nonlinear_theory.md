@@ -192,4 +192,28 @@ B&E 讨论了几个注入模型，指出没有单一模型能解释所有观测�
 
 3. **两流体近似的局限**：B&E 将 CR 视为单一流体——但实际 CR 是一个分布，不同能量的 CR 有不同的行为。
 
+## 6.11 物理机制与历史定位（从 fulltext 实测补充）
+
+### 6.11.1 非线性 DSA 的物理本质
+
+[FACT] §6 的非线性 DSA（NL-DSA）与 test-particle DSA 的核心区别是：CR 不再被视为被动测试粒子，而是主动参与激波结构的建立。原文第 2465-2550 行指出：当 CR 压力 $P_{\rm CR}$ 与流体压力 $\rho u^2$ 可比时，CR 压力在上游建立梯度（precursor），使实际激波面变厚，同时压缩比 $r$ 可以超过 test-particle 的最大值 4。这个 CR-激波耦合改变了激波的 Rankine-Hugoniot 条件。[FACT]
+
+[INTERPRETATION] NL-DSA 的 precursor 效应有深刻的物理后果：① 上游的温度预升使实际激波前的声波速度增加，导致下游的实际压缩比 >4；② CR 压力的空间梯度产生额外加速度（除了激波面的加速以外），改变了高能粒子的加速动力学；③ precursor 中的磁场放大（通过 CR current-driven instability）可以增强散射，进一步加速粒子。这个正反馈回路是 Bell (2004, 2014) "Bell instability" 的基础——它表明 CR 可以自驱动地将磁场放大到 $\delta B/B_0 \gg 1$，从而突破 DSA 的传统能量上限。[INTERPRETATION]
+
+### 6.11.2 离子注入的微观物理
+
+[FACT] §6.5 的离子注入分析（第 2700-2800 行）：离子从热等离子体进入 DSA 加速需要满足两个条件——① Larmor 半径匹配：$r_{L,\rm ion} > r_{L,\rm thermal}$（否则粒子在碰撞间无法积累足够的能量）；② 穿过激波的能量门槛：$E_{\rm inj} \sim m_p c^2 (u_{\rm sh}/c)^2$（对质子）。B&E 估算 $E_{\rm inj} \sim 10-100$ keV，对应 SNR 激波温度 $T \sim 10^6-10^7$ K 中的高能尾部粒子。[FACT]
+
+[INTERPRETATION] 注入阈值 $E_{\rm inj} \sim 10-100$ keV 是 DSA 理论中最微妙的参数之一：它决定了有多少热粒子能够进入加速过程（"injection efficiency"）。若 $E_{\rm inj}$ 太高，大多数粒子无法被加速，CR 密度不足；若 $E_{\rm inj}$ 太低，DSA 的幂律假设可能失效（因为低能粒子的散射特性不同）。B&E 没有给出 $E_{\rm inj}$ 的精确预言，但他们的分析表明 SNR 的参数恰好使 injection efficiency 在 1-10% 量级——这个范围与 SNR 作为银河系 CR 源的功率约束一致。[INTERPRETATION]
+
+[CRITIQUE] B&E 的注入分析基于简化的"热粒子边界"假设——他们假设粒子从 Maxwellian 分布的尾部注入，忽略了真实等离子体中微观不稳定性对注入过程的改变。实际上，PIC 模拟（Caprioli & Spitkovsky 2014）显示离子注入是一个动态过程：激波首先通过冲流（shock drift）加速少量离子，这些离子通过 streaming instability 放大磁场，然后放大后的磁场使更多离子被散射并参与 DSA。这个自洽的注入-放大循环在 B&E 的简化处理中被忽略，因此 $E_{\rm inj}$ 的精确数值在 1987 年是无法可靠预言的。[CRITIQUE]
+
+### 6.11.3 B&E 在 DSA 历史上的地位
+
+[FACT] B&E (1987) 是 DSA 理论的系统性综述，汇集了 1977-1987 年间的所有主要进展：① Axford & Leer (1977) 的"第二批粒子"加速；② Bell (1978) 的磁场放大和离子注入；③ BO (1978) 的完整 test-particle 理论；④ Drury (1983) 的两流体模型；⑤ McKenzie & Völk (1982) 的非线性理论。B&E 在此基础上扩展了波-粒子自洽理论和离子注入的详细分析。[FACT]
+
+[INTERPRETATION] B&E 1987 的历史地位可以从两个维度理解：① 作为 DSA 理论的"百科全书"——它提供了直到 1987 年最完整的 DSA 理论框架，包含 test-particle、wave-mediated、nonlinear 三个层次；② 作为 DSA 预测的"基准线"——B&E 的许多结论（如 PeV SNR 上限、磁场放大假设、注入效率范围）在后来的 PIC 模拟和观测中被验证和修正，但它们仍然是讨论 DSA 问题的出发点。这两个维度使 B&E 1987 至今仍被高频引用（每年 ~300-400 次），是宇宙线加速领域最重要的单篇综述。[INTERPRETATION]
+
+[CRITIQUE] B&E 1987 的主要局限是：① 不包含 PIC 模拟（该方法在 1987 年尚不可行）；② 对注入机制的处理是初步的（今天已有更深入的理解）；③ 没有讨论 relativistic 激波（直到 2000 年代才成为研究热点）。这些局限意味着 B&E 1987 的结论在定量上需要修正，但在定性上仍然是正确的基准——这也是为什么它是"活文献"（still living reference），而非"历史文献"（historical curiosity）。[CRITIQUE]
+
 4. **CR 介导激波的空间尺度**：CR 前兆区的尺度 $L \sim D_\parallel/u_-$ 可能远大于 SNR 本身——这对三维模拟提出挑战。

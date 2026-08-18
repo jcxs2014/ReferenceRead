@@ -159,4 +159,12 @@ BO 1978 §III 也讨论了自激发，但只是定性估算。B&E §5 给出了*
 
 [CRITIQUE] §5 的自激发分析假设 CR 分布是单色的（单能量）或简单幂律——但真实 SNR 中的 CR 分布从 GeV 到 PeV 是连续谱，且 $df/dp$ 的符号在 $p < p_{\rm max}$ 和 $p > p_{\rm max}$ 区域相反。这意味着自激发在低能端和高能端有不同的行为：低能粒子的正梯度驱动波生长，高能粒子的负梯度驱动波阻尼（damping）。§5 没有明确处理这个双稳态问题，这导致波谱 $W(k)$ 的真实形状可能与 §5 的线性预言有显著偏差。[CRITIQUE]
 
+### 5.8.3 阿尔文波与磁声波的散射特性
+
+[FACT] §5.1 区分了两种主要波动模式：Alfven 波（沿磁场方向偏振，$k \parallel B_0$）和磁声波（fast magnetosonic modes，$k \perp B_0$）。对 DSA 重要的是：只有能够与粒子共振的波才能散射粒子——对 Alfven 波，共振条件是 $k_{\rm res} = \Omega / v_\parallel \approx 1/r_L$；对磁声波，$k_{\rm res} \approx \Omega / v_\perp$。两种波都可以提供散射，但效率不同。[FACT]
+
+[INTERPRETATION] B&E 对 Alfven/磁声波区别的讨论揭示了 DSA 对磁场拓扑的敏感性：准平行激波（$\theta_{\rm Bn} \lesssim 45°$）中，Alfven 波能够有效散射粒子（$k \parallel B$），因此 DSA 效率高；准垂直激波（$\theta_{\rm Bn} \gtrsim 45°$）中，Alfven 波的共振条件更难满足（波沿磁场传播，但激波法线与磁场夹角大），DSA 效率降低。这个几何敏感性在 Bell (1978) 和 B&E §4 的处理中被简化，但它是决定不同类型激波加速效率差异的关键因素——也是后续 PIC 模拟（Caprioli & Spitkovsky 2014）重新发现的关键效应之一。[INTERPRETATION]
+
+[CRITIQUE] B&E 对磁声波散射的讨论相对简略——他们主要关注 Alfven 波，因为 Alfven 波在 SNR 环境中占主导（低 beta 等离子体）。但磁声波在某些环境（AGN jets, galaxy clusters）中可能更重要，B&E 的处理在这些环境中可能需要修正。此外，真实 ISM 中湍流同时包含 Alfven 和磁声波模式，两者对 DSA 的联合效应比 B&E 的单独处理更复杂。[CRITIQUE]
+
 3. **Kolmogorov vs Kraichnan 的选择**：观测上 ISM 湍流谱更接近 Kraichnan，但 B&E 未给出明确选择。
