@@ -1,21 +1,24 @@
-# 文献基本信息 (Frontmatter)
-
+---
+title: "Electric Accumulation of Millicharged Particles"
+authors: "Asher Berlin, Zachary Bogorad, Peter W. Graham, Harikrishnan Ramani"
+year: 2026
+journal: "Physical Review D"
+volume: 114
+issue: 1
+pages: 015016
+doi: "10.1103/physrevd.114.015016"
+arxiv: "arXiv:2510.25825"  # companion paper; PRD version arXiv pending
+path: 04_experiments/0005_electric-accumulation-2026
+read_date: '2026-08-19'
+lastread: '2026-08-19'
+status: completed
+citations:
+  - "0006_cavendish-millicharge-2026"
+  - "0002_ams02-2015"
+  - "0003_icecube-2013"
 ---
 
-| 字段 | 内容 |
-|------|------|
-| 标题 | Electric accumulation of millicharged particles |
-| 作者 | Asher Berlin¹², Zachary Bogorad¹², Peter W. Graham³⁴, Harikrishnan Ramani⁵ |
-| 机构 | ¹² Fermi National Accelerator Laboratory (SQMS Center); ³⁴ Stanford University (Leinweber Institute, Kavli IPAC); ⁵ University of Delaware (Bartol Research Institute) |
-| 期刊 | Physical Review D 114, 015016 (2026) |
-| DOI | 10.1103/physrevd.114.015016 |
-| 收稿/接收/发表 | 2025-11-17 / 2026-02-19 / 2026-07-10 |
-| 页面 | 18 页 (015016-1 至 015016-18) |
-| 标签 | Editors' Suggestion; Featured in Physics; SCOAP³; CC BY 4.0 |
-| arXiv | 2510.25825 (companion paper arXiv；本文 arXiv 编号未确认) |
-| 全文来源 | `/Users/jcxs2014/Sites/HermesLocal/papers/04_experiments/0005_electric-accumulation-2026/fulltext.txt` |
-
----
+# 0. 文献基本信息
 
 ## 0.1 论文核心摘要
 
@@ -33,7 +36,6 @@
 
 ```
 Electric accumulation of millicharged particles
-├── Abstract (L14-L25)
 ├── I. INTRODUCTION (L26-L118)
 │     [背景] SM 不完备；mCP 扩展简单但未被约束
 │     [主张] 带电壳层可将局部 mCP 密度提升 12 个量级
@@ -50,16 +52,9 @@ Electric accumulation of millicharged particles
 │     ├── A. Indoors vs outdoors (L793-L987)
 │     └── B. Electrical trapping (L988-L1156)
 ├── V. RESULTS (L1157-L1511)
-│     ├── A. Experimental variations (L1236-L1290)
-│     ├── B. DM & cosmic-ray millicharges (L1291-L1329)
-│     ├── C. Kinetically mixed models (L1330-L1451)
-│     └── D. Detection prospects (L1467-L1511)
 ├── VI. CONCLUSION (L1512-L1550)
-├── ACKNOWLEDGMENTS & DATA AVAILABILITY (L1550-L1580)
 ├── Appendix A: Accumulation (L1581-L1809)
-│     [推导] V_E 的流体方程与弹道极限
-├── Appendix B: Diffusion and Drift (L1810-L1876)
-└── References [1]-[64] (L1876-L2073)
+└── Appendix B: Diffusion and Drift (L1810-L1876)
 ```
 
 ## 0.3 关键术语速查
@@ -95,8 +90,8 @@ Electric accumulation of millicharged particles
 | 03_accumulation_in_the_lab.md | §IV + A/B | 8 段 |
 | 04_results.md | §V | 8 段 |
 | 05_conclusion.md | §VI | 8 段 |
-| 06_appendix_a_indoors_outdoors.md | Appendix A | 8 段 |
-| 07_appendix_b_electrical_trapping.md | Appendix B + IV.B | 8 段 |
+| 06_appendix_a.md | Appendix A | 8 段 |
+| 07_appendix_b.md | Appendix B | 8 段 |
 | 08_references.md | 参考文献 | 分类索引 |
 | 97_quality_check.md | 质量自查 | checklist |
 | 98_vocabulary.md | 词汇/术语 | 学术词表 |
