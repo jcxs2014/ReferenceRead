@@ -19,10 +19,10 @@
 [INTERPRETATION] 0.3 MV 的大气电压是一个持续稳定数十亿年的全球电路系统的表现。这种持续稳定的大气电结构为 mCP 捕获提供了可靠的背景条件。
 
 [FACT] 结果：qχ ≳ (300 K)/(0.3 MeV) ~ 10⁻⁷ 的正电荷 mCPs 在热化后被 φ⊕ 捕获，主要停留在地壳以下，高度约：
-$$h \\sim \\frac{300 \\ \\text{K}}{e q_\\chi E_\\oplus} \\sim 1 \\ \\text{mm} \\times q_\\chi^{-1}$$
+$$h \\sim \\frac{300 \,\text{K}}{e q_\\chi E_\\oplus} \\sim 1 \,\text{mm} \\times q_\\chi^{-1}$$
 
 [FACT] 对于动生混合暗光子模型，电捕获饱和：当正 mCPs 积累到一定程度，产生的排斥暗电场可抵消地球大气场，对应体积平均密度上限：
-$$n_\\chi \\sim \\frac{3 e q_\\chi E_\\oplus}{e_0^2 R_\\oplus} \\sim 10^{-5} \\ \\text{cm}^{-3} \\times \\left(\\frac{q_\\chi}{10^{-3}}\\right) \\left(\\frac{10^{-1}}{e_0}\\right)^2$$
+$$n_\\chi \\sim \\frac{3 e q_\\chi E_\\oplus}{e_0^2 R_\\oplus} \\sim 10^{-5} \,\text{cm}^{-3} \\times \\left(\\frac{q_\\chi}{10^{-3}}\\right) \\left(\\frac{10^{-1}}{e_0}\\right)^2$$
 
 ## 2.3 A. 暗物质子成分
 
