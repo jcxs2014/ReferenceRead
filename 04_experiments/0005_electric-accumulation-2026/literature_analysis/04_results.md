@@ -3,7 +3,7 @@
 ## 4.1 密度增强因子
 
 [FACT] Accumulator 的核心结果：在时间 t 内，壳内 mCP 密度相对于地球平均密度的增强因子为：
-$$\\frac{n_{\\text{trap}}}{n_\\chi} \\sim 10^{12} \\times \\left(\\frac{t}{\\text{yr}}\\right)$$
+$$\frac{n_{\text{trap}}}{n_\chi} \sim 10^{12} \times \left(\frac{t}{\text{yr}}\right)$$
 
 [INTERPRETATION] 10¹² 倍增强的物理来源：VE ~ 10 m/s（由 ~10 MV 电压和 ~10 cm 半径壳层决定），而 R₀ ~ 0.1 m，代入 n_trap ≃ 3ε_trap n_χ VE t/R₀ 得到 ~10¹² 的数值结果。这个增强因子使原本不可探测的稀疏 population 进入现有探测器的灵敏度范围。
 

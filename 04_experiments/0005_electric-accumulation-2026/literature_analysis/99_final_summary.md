@@ -15,7 +15,7 @@
 **mCP（millicharged particles）**：通过动生混合或直接电磁荷产生的新粒子，有效电荷 qχ ≲ 10⁻¹ e。
 
 **Accumulator**：带电压壳层（如 Van de Graaff generator）作为 mCP 收集器，密度增强因子：
-$$n_{\\text{trap}} / n_\\chi \\sim 10^{12} \\times (t/\\text{yr})$$
+$$n_{\text{trap}} / n_\chi \sim 10^{12} \times (t/\text{yr})$$
 
 **不可约宇宙线通量**：即使 mCP 不构成暗物质，宇宙线在大气中产生的次级 mCP 仍可被探测——这使实验等价于对 mCP 粒子本身的直接检验。
 

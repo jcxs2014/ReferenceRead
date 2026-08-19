@@ -21,12 +21,12 @@
 ## 3.3 密度增长动力学
 
 [FACT] 地面 mCPs 以由电加速速度 VE 决定的速率在壳层中积累。在时间 t 内积累的密度为：
-$$n_{\\text{trap}} \\simeq 3 \\varepsilon_{\\text{trap}} n_\\chi V_E t / R_0$$
+$$n_{\text{trap}} \simeq 3 \varepsilon_{\text{trap}} n_\chi V_E t / R_0$$
 
 其中 ε_trap ≤ 1 是无量纲效率因子，对于充分碰撞热化的 mCP 供给是 O(1)。
 
 [FACT] 加速速度 VE 与壳层表面电场 E₀ = φ₀/R₀ 的关系（附录 A 推导）：
-$$V_E \\simeq \\frac{e q_\\chi E_0 / m_\\chi}{\\max\\left(\\sqrt{\\Gamma^{(\\text{air})}_p / p}, \;v_{\\text{th}} / (2R_0)\\right)}$$
+$$V_E \simeq \frac{e q_\chi E_0 / m_\chi}{\max\left(\sqrt{\Gamma^{(\text{air})}_p / p}, \;v_{\text{th}} / (2R_0)\right)}$$
 
 其中 Γ^{(air)}_p 是 mCP-原子碰撞的动量交换率，v_th = √(3Tχ/mχ) 是 mCP 热速度。分母中的"max"：第一项适用于高碰撞情形（碰撞主导），第二项适用于弹道自由流情形。
 
@@ -47,7 +47,7 @@ $$V_E \\simeq \\frac{e q_\\chi E_0 / m_\\chi}{\\max\\left(\\sqrt{\\Gamma^{(\\tex
 [FACT] 为在 ~1 年时间尺度上最大化灵敏度，accumulator 最好放在室外，因为收集的 mCPs 总数最终受限于电场范围所决定的最大封闭空间。
 
 [FACT] 对于室内情形（半径 R_room 的房间，墙壁厚度 ΔR_room，通风口面积 A_vent），mCPs 在时间 t 内被收集的上限为：
-$$N_{\\text{trap}} \\lesssim n_\\chi 4\\pi R_{\\text{room}}^2 t \\left[ \\frac{R_{\\text{room}}}{3t} + \\frac{A_{\\text{vent}} V_{\\text{vent}}}{4\\pi R_{\\text{room}}^2} + \\frac{D^{(\\text{wall})}_\\chi}{\\Delta R_{\\text{room}}} + \\frac{V^{(\\text{air})}_g}{4}\\right]$$
+$$N_{\text{trap}} \lesssim n_\chi 4\pi R_{\text{room}}^2 t \left[ \frac{R_{\text{room}}}{3t} + \frac{A_{\text{vent}} V_{\text{vent}}}{4\pi R_{\text{room}}^2} + \frac{D^{(\text{wall})}_\chi}{\Delta R_{\text{room}}} + \frac{V^{(\text{air})}_g}{4}\right]$$
 
 其中：D^{(wall)}_χ = Tχ/(mχΓ^{(wall)}_p) 是 mCP 在墙中的扩散系数；V^{(air)}_g = g⊕/Γ^{(air)}_p 是 mCP 在地球重力场中的漂移速度。
 

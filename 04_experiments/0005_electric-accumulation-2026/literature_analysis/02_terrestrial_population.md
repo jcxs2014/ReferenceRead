@@ -19,10 +19,10 @@
 [INTERPRETATION] 0.3 MV 的大气电压是一个持续稳定数十亿年的全球电路系统的表现。这种持续稳定的大气电结构为 mCP 捕获提供了可靠的背景条件。
 
 [FACT] 结果：qχ ≳ (300 K)/(0.3 MeV) ~ 10⁻⁷ 的正电荷 mCPs 在热化后被 φ⊕ 捕获，主要停留在地壳以下，高度约：
-$$h \\sim \\frac{300 \,\text{K}}{e q_\\chi E_\\oplus} \\sim 1 \,\text{mm} \\times q_\\chi^{-1}$$
+$$h \sim \frac{300 \,\text{K}}{e q_\chi E_\oplus} \sim 1 \,\text{mm} \times q_\chi^{-1}$$
 
 [FACT] 对于动生混合暗光子模型，电捕获饱和：当正 mCPs 积累到一定程度，产生的排斥暗电场可抵消地球大气场，对应体积平均密度上限：
-$$n_\\chi \\sim \\frac{3 e q_\\chi E_\\oplus}{e_0^2 R_\\oplus} \\sim 10^{-5} \,\text{cm}^{-3} \\times \\left(\\frac{q_\\chi}{10^{-3}}\\right) \\left(\\frac{10^{-1}}{e_0}\\right)^2$$
+$$n_\chi \sim \frac{3 e q_\chi E_\oplus}{e_0^2 R_\oplus} \sim 10^{-5} \,\text{cm}^{-3} \times \left(\frac{q_\chi}{10^{-3}}\right) \left(\frac{10^{-1}}{e_0}\right)^2$$
 
 ## 2.3 A. 暗物质子成分
 
@@ -47,12 +47,12 @@ $$n_\\chi \\sim \\frac{3 e q_\\chi E_\\oplus}{e_0^2 R_\\oplus} \\sim 10^{-5} \,\
 [FACT] 相对论性宇宙线 mCPs（引用 16, 29, 30, 54, 55）可以有效散射进入地壳，热化到室温。即使最终非相对论性 population 会从地球蒸发，其在大气中的缓慢扩散也会增强 mCP 密度。
 
 [FACT] 若 mCPs 不能被地球引力或电磁场束缚，最终会蒸发。此时在深度 x > 0（大气顶部以下）的非相对论 mCP 密度为：
-$$n_\\chi(x) \\simeq \\int dE_\\chi \\frac{d\\Phi^{(\\text{CR})}_\\chi}{dE_\\chi} P^{\\oplus}_{\\text{th}} \\frac{\\min(x,x_{\\text{th}}) - x_{\\text{LSS}}}{D_\\chi}$$
+$$n_\chi(x) \simeq \int dE_\chi \frac{d\Phi^{(\text{CR})}_\chi}{dE_\chi} P^{\oplus}_{\text{th}} \frac{\min(x,x_{\text{th}}) - x_{\text{LSS}}}{D_\chi}$$
 
 其中：x_th = 热化深度；x_LSS = 最后散射面；P^{\\oplus}_{th} = 热化概率；D_χ = 扩散系数。
 
 [FACT] 若 mCPs 被地球捕获（引力或电磁），积累时间 ~ t⊕ ≈ 4.5 × 10⁹ yr，体积平均密度为：
-$$n_\\chi \\simeq \\frac{3 t_\\oplus}{R_\\oplus} \\int dE_\\chi \\frac{d\\Phi^{(\\text{CR})}_\\chi}{dE_\\chi} P^{\\oplus}_{\\text{th}}$$
+$$n_\chi \simeq \frac{3 t_\oplus}{R_\oplus} \int dE_\chi \frac{d\Phi^{(\text{CR})}_\chi}{dE_\chi} P^{\oplus}_{\text{th}}$$
 
 [INTERPRETATION] 不可约性的重要意义：探测宇宙线 mCP population 等价于直接探测该粒子本身，与加速器探测等价，无需假设 mCP 是否构成暗物质或其宇宙学丰度。
 
