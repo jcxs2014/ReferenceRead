@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> **共 56 篇文献**、**600 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **56 篇文献**、**609 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -16,7 +16,7 @@
 |---|---|
 | 作者 | Andrew W. Strong$^{1}$, Igor V. Moskalenko$^{2}$, Vladimir S. Ptuskin$^{3}$ |
 | 期刊 |  |
-| 分析文件 | 8 个（00_overview.md、01_theoretical_background.md、02_confrontation_with_data.md、03_figures.md、04_references.md、…等 8 个） |
+| 分析文件 | 9 个（00_overview.md、01_theoretical_background.md、02_confrontation_with_data.md、03_figures.md、04_references.md、…等 9 个） |
 | 目录 | [`01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0001_strong-moskalenko-ptuskin-2007/literature_analysis/99_final_summary.md) |
@@ -124,7 +124,7 @@
 |---|---|
 | 作者 | S S Al-Dargazelli, A W Wolfendale, A Smialkowski, J Wdowczyk |
 | 期刊 | Journal of Physics G: Nuclear and Particle Physics |
-| 分析文件 | 5 个（00_overview.md、01_analysis.md、97_quality_check.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 6 个（00_overview.md、01_analysis.md、05_critical_assessment.md、97_quality_check.md、98_vocabulary.md、…等 6 个） |
 | 目录 | [`02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/`](02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0002_al-dargazelli-1996/literature_analysis/99_final_summary.md) |
@@ -150,7 +150,7 @@
 |---|---|
 | 作者 | Pasquale Blasi |
 | 期刊 |  |
-| 分析文件 | 14 个（00_overview.md、01_introduction.md、02_sn_r_premises.md、03_test_particle_dsa.md、04_nl_dsa.md、…等 14 个） |
+| 分析文件 | 15 个（00_overview.md、01_introduction.md、02_sn_r_premises.md、03_test_particle_dsa.md、04_nl_dsa.md、…等 15 个） |
 | 目录 | [`02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/`](02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0004_blasi-2013/literature_analysis/99_final_summary.md) |
@@ -189,7 +189,7 @@
 |---|---|
 | 作者 | Peter L. Biermann |
 | 期刊 |  |
-| 分析文件 | 5 个（00_overview.md、01_main_text.md、97_quality_check.md、98_vocabulary.md、99_final_summary.md） |
+| 分析文件 | 6 个（00_overview.md、01_main_text.md、05_critical_assessment.md、97_quality_check.md、98_vocabulary.md、…等 6 个） |
 | 目录 | [`02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/`](02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0007_biermann-1996/literature_analysis/99_final_summary.md) |
@@ -332,7 +332,7 @@
 |---|---|
 | 作者 | Kumiko Kotera, Angela V. Olinto |
 | 期刊 |  |
-| 分析文件 | 11 个（00_overview.md、01_1_introduction.md、02_2_observations.md、03_3_propagation.md、04_4_transition.md、…等 11 个） |
+| 分析文件 | 12 个（00_overview.md、01_1_introduction.md、02_2_observations.md、03_3_propagation.md、04_4_transition.md、…等 12 个） |
 | 目录 | [`02_cosmic-ray-origins/0018_kotera-olinto-2011/literature_analysis/`](02_cosmic-ray-origins/0018_kotera-olinto-2011/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0018_kotera-olinto-2011/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0018_kotera-olinto-2011/literature_analysis/99_final_summary.md) |
@@ -689,9 +689,9 @@
 
 |  |  |
 |---|---|
-| 作者 | - "Zhen Cao |
+| 作者 | Zhen Cao, F. A. Aharonian, LHAASO Collaboration |
 | 期刊 |  |
-| 分析文件 | 12 个（00_overview.md、01_detector_and_method.md、02_key_measurements.md、03_scientific_implications.md、04_comparison_with_theory.md、…等 12 个） |
+| 分析文件 | 13 个（00_overview.md、01_detector_and_method.md、02_key_measurements.md、03_scientific_implications.md、04_comparison_with_theory.md、…等 13 个） |
 | 目录 | [`04_experiments/0001_lhaaso-2021/literature_analysis/`](04_experiments/0001_lhaaso-2021/literature_analysis/) |
 | 概览 | [`00_overview.md`](04_experiments/0001_lhaaso-2021/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](04_experiments/0001_lhaaso-2021/literature_analysis/99_final_summary.md) |
@@ -702,9 +702,9 @@
 
 |  |  |
 |---|---|
-| 作者 | ["M. Aguilar", "D. Aisa", "B. Alpat", "et al. (AMS Collaboration)"] |
+| 作者 | M. Aguilar, D. Aisa, B. Alpat, et al. (AMS Collaboration) |
 | 期刊 |  |
-| 分析文件 | 12 个（00_overview.md、01_detector_and_method.md、02_proton_flux_results.md、03_spectral_index_anomaly.md、04_implications_for_cosmic_ray_physics.md、…等 12 个） |
+| 分析文件 | 13 个（00_overview.md、01_detector_and_method.md、02_proton_flux_results.md、03_spectral_index_anomaly.md、04_implications_for_cosmic_ray_physics.md、…等 13 个） |
 | 目录 | [`04_experiments/0002_ams02-2015/literature_analysis/`](04_experiments/0002_ams02-2015/literature_analysis/) |
 | 概览 | [`00_overview.md`](04_experiments/0002_ams02-2015/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](04_experiments/0002_ams02-2015/literature_analysis/99_final_summary.md) |
@@ -715,9 +715,9 @@
 
 |  |  |
 |---|---|
-| 作者 | ["IceCube Collaboration (Aartsen M. G. et al.)"] |
+| 作者 | IceCube Collaboration (Aartsen M. G. et al.) |
 | 期刊 |  |
-| 分析文件 | 12 个（00_overview.md、01_detector_and_method.md、02_event_selection_and_background.md、03_neutrino_candidate_events.md、04_statistical_significance.md、…等 12 个） |
+| 分析文件 | 13 个（00_overview.md、01_detector_and_method.md、02_event_selection_and_background.md、03_neutrino_candidate_events.md、04_statistical_significance.md、…等 13 个） |
 | 目录 | [`04_experiments/0003_icecube-2013/literature_analysis/`](04_experiments/0003_icecube-2013/literature_analysis/) |
 | 概览 | [`00_overview.md`](04_experiments/0003_icecube-2013/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](04_experiments/0003_icecube-2013/literature_analysis/99_final_summary.md) |
@@ -728,9 +728,9 @@
 
 |  |  |
 |---|---|
-| 作者 | ["H.E.S.S. Collaboration"] |
+| 作者 | H.E.S.S. Collaboration |
 | 期刊 |  |
-| 分析文件 | 12 个（00_overview.md、01_detector_and_method.md、02_diffuse_emission_observations.md、03_gamma_ray_spectrum_analysis.md、04_pevatron_evidence.md、…等 12 个） |
+| 分析文件 | 13 个（00_overview.md、01_detector_and_method.md、02_diffuse_emission_observations.md、03_gamma_ray_spectrum_analysis.md、04_pevatron_evidence.md、…等 13 个） |
 | 目录 | [`04_experiments/0004_hess-2016/literature_analysis/`](04_experiments/0004_hess-2016/literature_analysis/) |
 | 概览 | [`00_overview.md`](04_experiments/0004_hess-2016/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](04_experiments/0004_hess-2016/literature_analysis/99_final_summary.md) |
@@ -742,8 +742,8 @@
 |  |  |
 |---|---|
 | 作者 | Asher Berlin, Zachary Bogorad, Peter W. Graham, Harikrishnan Ramani |
-| 期刊 | Physical Review Letters 137, 021804 (2026) |
-| 分析文件 | 9 个（00_overview.md、01_theory_mcp_background.md、02_recasting_cavendish.md、03_accumulator_design.md、04_cosmic_ray_population.md、05_references_and_further_reading.md、97_quality_check.md、98_vocabulary.md、99_final_summary.md） |
+| 期刊 |  |
+| 分析文件 | 9 个（00_overview.md、01_theory_mcp_background.md、02_recasting_cavendish.md、03_accumulator_design.md、04_cosmic_ray_population.md、…等 9 个） |
 | 目录 | [`04_experiments/0005_cavendish-millicharge-2026/literature_analysis/`](04_experiments/0005_cavendish-millicharge-2026/literature_analysis/) |
 | 概览 | [`00_overview.md`](04_experiments/0005_cavendish-millicharge-2026/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](04_experiments/0005_cavendish-millicharge-2026/literature_analysis/99_final_summary.md) |
@@ -754,10 +754,10 @@
 
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
-| 01. 宇宙线传播 | 7 | 66 |
-| 02. 宇宙线起源 | 20 | 201 |
+| 01. 宇宙线传播 | 7 | 67 |
+| 02. 宇宙线起源 | 20 | 205 |
 | 03. 恒星核合成与元素丰度 | 24 | 276 |
-| 04. 实验与观测 | 5 | 57 |
-| **合计** | **56** | **600** |
+| 04. 实验与观测 | 5 | 61 |
+| **合计** | **56** | **609** |
 
-> 最后更新: 2026-08-18（cavendish-millicharge-2026 入库，56篇）
+> 最后更新: 2026-08-19（自动生成）
