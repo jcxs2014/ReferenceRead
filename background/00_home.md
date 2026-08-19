@@ -12,7 +12,7 @@ path: background/00_home.md
 ---
 # 知识库首页
 
-本知识库涵盖 **宇宙线传播与起源**（27 篇）、**恒星核合成与丰度**（24 篇）、**实验与观测**（4 篇）共 55 篇学术论文的深度精读笔记，配有术语表与数值速查表。
+本知识库涵盖 **宇宙线传播与起源**（27 篇）、**恒星核合成与丰度**（24 篇）、**实验与观测**（5 篇）共 56 篇学术论文的深度精读笔记，配有术语表与数值速查表。
 
 ## 论文导航
 
@@ -20,7 +20,7 @@ path: background/00_home.md
 | 文档 | 说明 |
 |---|---|
 | [[00_home.md\|知识库首页]] | 主题域分布与导航 |
-| [[00_key_values.md\|全库关键数值速查表]] | 55 篇论文核心数值与公式汇总 |
+| [[00_key_values.md\|全库关键数值速查表]] | 56 篇论文核心数值与公式汇总 |
 | [[01_cosmic_rays.md\|宇宙线（传播与起源）]] | CR 传播方程、扩散、衰变、太阳调制 |
 | [[02_nucleosynthesis.md\|恒星核合成]] | BBN、大爆炸核合成与宇宙学丰度 |
 | [[03_astrophysics.md\|太阳丰度与天体物理]] | 太阳系统化学丰度、元素起源 |
@@ -85,7 +85,7 @@ path: background/00_home.md
 - [[03_stellar-nucleosynthesis/0023_eichler-1989/literature_analysis/00_overview.md|Nucleosynthesis, neutrino bursts and γ-rays from coalescing neutron stars]]
 - [[03_stellar-nucleosynthesis/0024_nomoto-suzuki-2014/literature_analysis/00_overview.md|Supernova Yields for Chemical Evolution Modeling]]
 
-### 论文 · 实验与观测（4 篇）
+### 论文 · 实验与观测（5 篇）
 - [[04_experiments/0001_lhaaso-2021/literature_analysis/00_overview.md|Ultrahigh-energy photons up to 1.4 petaelectronvolts from 12 γ-ray Galactic sources]]
 - [[04_experiments/0002_ams02-2015/literature_analysis/00_overview.md|Precision Measurement of the Proton Flux in Primary Cosmic Rays from Rigidity 1 GV to 1.8 TV with the AMS-02 on the ISS]]
 - [[04_experiments/0003_icecube-2013/literature_analysis/00_overview.md|Evidence for High-Energy Extraterrestrial Neutrinos at the IceCube Detector]]

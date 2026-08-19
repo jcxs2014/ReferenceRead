@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **55 篇文献**、**591 个分析文件**。按主题分类，点击链接进入分析文档。
+> **共 56 篇文献**、**600 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -735,6 +735,19 @@
 | 概览 | [`00_overview.md`](04_experiments/0004_hess-2016/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](04_experiments/0004_hess-2016/literature_analysis/99_final_summary.md) |
 
+### `0005_cavendish-millicharge-2026`
+
+**Cavendish Tests of Millicharged Particles**
+
+|  |  |
+|---|---|
+| 作者 | Asher Berlin, Zachary Bogorad, Peter W. Graham, Harikrishnan Ramani |
+| 期刊 | Physical Review Letters 137, 021804 (2026) |
+| 分析文件 | 9 个（00_overview.md、01_theory_mcp_background.md、02_recasting_cavendish.md、03_accumulator_design.md、04_cosmic_ray_population.md、05_references_and_further_reading.md、97_quality_check.md、98_vocabulary.md、99_final_summary.md） |
+| 目录 | [`04_experiments/0005_cavendish-millicharge-2026/literature_analysis/`](04_experiments/0005_cavendish-millicharge-2026/literature_analysis/) |
+| 概览 | [`00_overview.md`](04_experiments/0005_cavendish-millicharge-2026/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](04_experiments/0005_cavendish-millicharge-2026/literature_analysis/99_final_summary.md) |
+
 ---
 
 ## 统计
@@ -744,7 +757,7 @@
 | 01. 宇宙线传播 | 7 | 66 |
 | 02. 宇宙线起源 | 20 | 201 |
 | 03. 恒星核合成与元素丰度 | 24 | 276 |
-| 04. 实验与观测 | 4 | 48 |
-| **合计** | **55** | **591** |
+| 04. 实验与观测 | 5 | 57 |
+| **合计** | **56** | **600** |
 
-> 最后更新: 2026-08-16（自动生成）
+> 最后更新: 2026-08-18（cavendish-millicharge-2026 入库，56篇）
