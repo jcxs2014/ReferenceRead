@@ -1,3 +1,4 @@
+---
 title: "Cavendish Tests of Millicharged Particles"
 authors: "Asher Berlin, Zachary Bogorad, Peter W. Graham, Harikrishnan Ramani"
 year: 2026
@@ -15,7 +16,7 @@ citations:
   - '[[04_experiments/0002_ams02-2015/literature_analysis/00_overview|ams02-2015]]'
   - '[[04_experiments/0003_icecube-2013/literature_analysis/00_overview|icecube-2013]]'
 path: 04_experiments/0005_cavendish-millicharge-2026
-
+---
 # 0. 文献基本信息
 
 > 论文：Cavendish Tests of Millicharged Particles（PRLETTER 137, 021804, 2026）
