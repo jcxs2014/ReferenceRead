@@ -15,7 +15,7 @@ sections: []
 citations:
   - '[[04_experiments/0002_ams02-2015/literature_analysis/00_overview|ams02-2015]]'
   - '[[04_experiments/0003_icecube-2013/literature_analysis/00_overview|icecube-2013]]'
-path: 04_experiments/0005_cavendish-millicharge-2026
+path: 04_experiments/0006_cavendish-millicharge-2026
 ---
 # 0. 文献基本信息
 

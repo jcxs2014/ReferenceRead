@@ -1,6 +1,6 @@
 # 97. Quality Check — 完成度自查
 
-> 文献：`0005_cavendish-millicharge-2026`
+> 文献：`0006_cavendish-millicharge-2026`
 
 ## 文件清单
 

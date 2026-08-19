@@ -1,0 +1,2076 @@
+Electric accumulation of millicharged particles
+Asher Berlin ,1,2,* Zachary Bogorad ,1,2,† Peter W. Graham ,3,4,‡ and Harikrishnan Ramani
+5,§
+1Theory Division, Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA
+2Superconducting Quantum Materials and Systems Center (SQMS),
+Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA
+3Leinweber Institute for Theoretical Physics at Stanford, Department of Physics, Stanford University,
+Stanford, California 94305, USA
+4Kavli Institute for Particle Astrophysics and Cosmology, Department of Physics,
+Stanford University, Stanford, California 94305, USA
+5Department of Physics and Astronomy, University of Delaware
+and the Bartol Research Institute, Newark, Delaware 19716, USA
+(Received 17 November 2025; accepted 19 February 2026; published 10 July 2026)
+A terrestrial population of millicharged particles that interact significantly with normal matter can arise if
+they make up a dark matter subcomponent or if they are light enough to be produced in cosmic-ray air
+showers. Such particles thermalize to terrestrial temperatures through repeated scatters with normal matter
+in Earth’s environment. We show that a simple electrified shell (for example, a Van de Graaff generator)
+functions as an efficient accumulator of such room-temperature millicharged particles, parametrically
+enhancing their local density by as much as 12 orders of magnitude. This can be used to boost the
+sensitivity of any detector housed in the shell’s interior, such as ion traps and tests of Coulomb’s law. In a
+companion paper, we apply this specifically to Cavendish tests of Coulomb’s law, and we show that a well-
+established setup can probe a large region of unexplored parameter space, with sensitivity to the irreducible
+density of millicharged particles generated from cosmic rays that outperforms future accelerator searches
+for sub-GeV masses.
+DOI: 10.1103/gj7k-9wkr
+I. INTRODUCTION
+Although many theories have been proposed to solve the
+plethora of outstanding puzzles indicating that the Standard
+Model (SM) is incomplete, the new particles predicted by
+these theories have yet to be directly observed [1]. It is
+widely believed that this is a consequence of these particles
+possessing either a feeble coupling beyond the sensitivity
+of precision experiments or a mass above the reach of high-
+energy colliders [2–4].
+There is, however, a simple and largely unconstrained
+extension to the SM that does not involve extremely small
+interactions or large masses. There are theories that predict
+new particles χ with a small effective electromagnetic
+charge qχ ≲10−1, referred to as millicharged particles
+(mCPs). Such particles can naturally arise from the kinetic
+mixing between a new long-ranged U(1) gauge boson and
+the SM photon [5]. They also are viable dark matter (DM)
+candidates and have been invoked to explain a multitude of
+experimental anomalies [6–12]. This minimal extension to
+the SM is largely unexplored despite decades of scrutiny,
+with viable parameter space remaining for charges as large
+as qχ ∼10−1 for GeV-scale masses.
+For a large range of couplings and masses, mCPs are
+strongly coupled to the SM due to the long-ranged nature of
+the interaction. For instance, if present on Earth, these
+particles can rapidly scatter off of terrestrial matter, thereby
+thermalizing down to ambient temperatures and building up
+to non-negligible densities [13,14]. Such a terrestrial
+population can arise if, for example, mCPs make up a
+small subcomponent of the total Galactic DM density, or if
+they are light enough to be produced on Earth in nuclear
+decays [15] or cosmic-ray air showers [16]. Note that in the
+latter case, a search for this irreducible population is
+equivalent to testing the model itself, akin to an accelerator
+search, and it does not require the mCPs to make up any of
+the DM.
+Since ambient temperatures of 300 K ∼25 meV are well
+below the energy thresholds of typical experimental sen-
+sors, a dense terrestrial population of strongly coupled
+*Contact author: aberlin@fnal.gov
+†Contact author: zbogorad@fnal.gov
+‡Contact author: pwgraham@stanford.edu
+§Contact author: hramani@udel.edu
+Published by the American Physical Society under the terms of
+the Creative Commons Attribution 4.0 International license.
+Further distribution of this work must maintain attribution to
+the author(s) and the published article’s title, journal citation,
+and DOI. Funded by SCOAP3.
+PHYSICAL REVIEW D 114, 015016 (2026)
+Editors' Suggestion
+Featured in Physics
+2470-0010=2026=114(1)=015016(18)
+015016-1
+Published by the American Physical Society
+mCPs remains an untested possibility. Various detection
+strategies have been investigated [17–20], with the strong-
+est current limits arising from considerations of anomalous
+heating in ion trap experiments [17,18].
+In this work, we propose a simple modification that
+drastically increases the sensitivity of any of these exper-
+imental strategies. In particular, the local density of mCPs
+(irrespective of their origin) can be enhanced by enclosing a
+detector within a shell of fixed voltage. As shown sche-
+matically in Fig. 1, this electrified shell functions as a trap
+by dragging ambient mCPs inwards where they scatter,
+become electrically bound to the interior region, and
+accumulate to much larger densities. We find that such
+an accumulator operating for a time t can enhance the local
+density of mCPs by as much as ∼1012 × ðt=yrÞ compared
+to the average terrestrial value.
+Since the interior of the accumulator experiences neg-
+ligible electric fields (aside from that sourced by mCPs), it
+can, in principle, house a precision detector sensitive to the
+induced millicharge overdensity. While we focus on the
+general implementation of an accumulator in this work, we
+note that it can enable various search strategies to probe a
+large region of unexplored parameter space. In a companion
+paper [21], we apply this to a simple experimental setup with
+the goal of measuring the small electric field sourced by the
+millicharge overdensity. As shown there, an accumulator
+paired with decades-old detection technology can enable
+sensitivity to the irreducible mCP density generated from
+cosmic rays, at a level which outperforms future accelerator
+searches for sub-GeV masses.
+The rest of this paper is organized as follows: In Sec. II,
+we provide an overview of mCP models. In Sec. III, we
+discuss how such particles behave on Earth, and we
+calculate the irreducible density of mCPs sourced by
+cosmic rays. In Sec. IV, we discuss how mCPs accumulate
+within an electrified shell. We present our final results in
+Sec. V, and we conclude in Sec. VI. Appendixes are
+referred to throughout the main text, which provide addi-
+tional technical details of our analysis.
+II. MODEL OVERVIEW
+Particles with small effective electromagnetic charge
+arise naturally within the context of dark sectors charged
+under a new dark photon A0 that kinetically mixes with the
+SM photon [5]:
+L ⊃ϵ
+2 F0μνFμν −j0μA0μ;
+ð1Þ
+where F0μν and Fμν are the dark and SM field strengths, ϵ is
+the small dimensionless kinetic mixing parameter, and j0μ is
+the dark current arising from particles χ directly charged
+under the A0.
+The kinetic mixing term can be diagonalized to leading
+order in ϵ ≪1 by the field redefinition A0 →A0 þ ϵA,
+where A is the SM photon field. As a result, χ picks up an
+effective charge under the SM photon of eqχ ≃ϵe0, where e0
+is the dark gauge coupling. We note that similar conclusions
+hold if the dark photon has a nonzero mass mA0. However, in
+this case, χ behaves as though it has an effective electro-
+magnetic charge only on length scales smaller than the dark
+photon’s Compton wavelength ∼m−1
+A0 , since at greater dis-
+tances any long-ranged interaction mediated by the A0 is
+exponentially screened [14,22]. In this work, wewill take the
+interaction to be long-ranged on laboratory scales, corre-
+sponding to mA0 ≲1 m−1 ∼10−7 eV, and will comment on
+the impact of particular values of mA0 when relevant.
+In the simplest models, ϵ is generated by loops of N
+generations of heavy particles charged under both sectors,
+such that ϵ ∼Ne0e=ð4πÞ2 and hence qχ ∼Nα0=4π, where
+α0 ¼ e02=4π is the dark fine-structure constant. It is there-
+fore natural to expect millicharges of size qχ ∼N × 10−3
+for a dark gauge coupling comparable to ones in the SM.
+Millicharges parametrically smaller than this value are also
+possible in scenarios where e0 ≪e, or those in which ϵ is
+generated to leading order at two-loops or via higher-
+dimensional operators [23,24].
+Alternatively, χ may couple directly to the SM photon if it
+carriesanelectric chargeunder electromagnetism[25–28].In
+this scenario, gauge transformations under the SM U(1) are
+well-defined provided that both the mCP and electron
+FIG. 1.
+A schematic of our experimental proposal. An outer
+large “accumulator shell” of radius R0 is charged to strong
+negative voltage, ϕ0. This attracts positively charged millicharged
+particles χþ, which lose energy after scattering on any material
+inside the shell and become electrically trapped within the cavity
+of the shell, parametrically enhancing their local density. Here,
+we model the material inside the accumulator shell as a solid
+sphere. In a real experiment, an mCP detector (not shown here)
+would be placed somewhere inside the accumulator shell to detect
+this millicharge overdensity (see Ref. [21]). The trajectories of
+various millicharged particles are shown with arrows, with the
+color of the arrow used to show regions where the particles are
+moving with greater (red) or smaller (blue) kinetic energy.
+BERLIN, BOGORAD, GRAHAM, and RAMANI
+PHYS. REV. D 114, 015016 (2026)
+015016-2
+charges, qχ and qe, take integer values with respect to some
+fundamentalchargeunit.Thesmall couplingofthemCPthen
+arises from taking e ≪1, so that eqχ ≪1 while qe ≫1.
+Unlike models with massive dark photons, here the inter-
+action is arbitrarily long-ranged in vacuum. When relevant,
+we will discuss how our analysis depends on these model-
+specific details.
+III. TERRESTRIAL POPULATION
+We now provide a brief overview of how a terrestrial
+mCP population can arise. For a more detailed discussion,
+see Refs. [13,14].
+For sufficiently large charges, mCPs that pass through
+the Earth drastically slow down due to collisions with
+terrestrial atoms. The minimum coupling required for this
+to occur within an Earth radius R⊕is shown in Fig. 2 for
+various choices of the mCP’s initial boost times velocity
+γχvχ. For γχvχ ≫1, we follow the standard analytic
+estimates for stopping power via ionizing scatters (as in
+Ref. [29]), while for γχvχ ≪1, we adopt the calculation
+from Ref. [14] for energy loss through elastic atomic
+scatters; in this case, mCP-nuclear scattering is suppressed
+for mχ ≲a−1
+Z =vχ, where aZ ∼ð10 keVÞ−1 is the Thomas-
+Fermi radius. For intermediate values γχvχ ∼1, we adopt
+the results from the data-driven analysis in Ref. [30].
+For couplings qχ ≳me=μχN, negatively-charged mCPs
+are efficiently captured into bound states with atomic
+nuclei, where me is the electron mass and μχN is the
+mCP-nuclear reduced mass [13,14]. We note that calcu-
+lations in Secs. IVand V partially extend into this region of
+parameter space. However, since our treatment assumes
+that mCPs are unbound, our results should be applied only
+to positively-charged mCPs, which exist as a free plasma
+on Earth throughout most of our parameter space of
+interest; since even this ceases to be true if qχ ≳
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ð300 KmeÞ=ðRyμχeÞ
+p
+≃4 × 10−2 for mχ ≫me (in which
+case positively-charged mCPs form room-temperature
+bound states with electrons), we refrain from considering
+such charges entirely. In the above expression, Ry is the
+Rydberg constant and μχe is the mCP-electron reduced
+mass. We also note that various searches limit the abun-
+dance of mCPs bound to terrestrial matter [19,40–42], but
+these typically apply to larger couplings or larger ambient
+densities than we consider here.
+For mχ ≫1 GeV, these mCPs become gravitationally
+bound and accumulate on Earth after slowing down, leading
+to large overdensities [13,14]. Conversely, for mχ ≲1 GeV,
+their thermal velocity at room temperature exceeds the
+terrestrial escape velocity. Thus, absent any additional
+interactions, such particles evaporate off of the Earth.
+Even in this case, however, the increased residence time
+spent by mCPs as they slowly diffuse throughout the Earth
+before evaporating can lead to a large overdensity [14].
+For any mass, the terrestrial density of positively-
+charged mCPs can be further enhanced by the trapping
+effects of the atmospheric electric field [14], which pos-
+sesses a typical value of E⊕∼1V=cm near the surface. E⊕
+exists throughout the atmosphere, giving rise to an average
+voltage difference ϕ⊕∼0.3 MV between the ionosphere
+and crust. This value of ϕ⊕is the typical one during fair
+weather conditions and is maintained by the global atmos-
+pheric electrical circuit. During thunderstorms or geo-
+magnetic activity, the potential profile of ϕ⊕is locally
+distorted on small scales, but is otherwise stable between
+the crust and ionosphere. We thus do not expect weather
+activity to change these conclusions, although a detailed
+study is beyond the scope of this work.
+Therefore, positively-charged mCPs with qχ ≳ð300 KÞ=
+ð0.3 MeVÞ ∼10−7 are trapped by ϕ⊕after thermalizing to
+room temperature and reside primarily below the crust,
+extending a height ∼300 K=ðeqχE⊕Þ ∼1 mm × q−1
+χ above
+the surface. However, for interactions mediated by a
+kinetically-mixed dark photon, this electrical trapping
+saturates once the accumulation of positively-charged
+mCPs sources a significantly strong repulsive dark electric
+field to overcome the effect of Earth’s visible field,
+corresponding to a volume-averaged density of
+nχ ∼3eqχE⊕
+e02R⊕
+∼10−5 cm−3 ×
+ qχ
+10−3
+10−1
+e0
+2
+:
+ð2Þ
+FIG. 2.
+The minimum coupling qχ required for a millicharged
+particle of mass mχ to cool down to room temperature within an
+Earth radius after scattering with terrestrial atoms, for various
+choices of the particle’s initial boost times velocity γχvχ
+(γχvχ ¼ 10−3 for millicharged dark matter, and γχvχ ≳1 for
+relativistic millicharged particles, such as those created by cosmic
+rays). In gray, we also show existing limits from accelerator
+probes [29,31–38] and SN1987A [39].
+ELECTRIC ACCUMULATION OF MILLICHARGED PARTICLES
+PHYS. REV. D 114, 015016 (2026)
+015016-3
+For models involving kinetically-mixed dark photons,
+Eq. (2) corresponds to the maximal value of the mCP
+density (averaged over the Earth) that can be bound by the
+atmospheric electric field. Strictly speaking, this is a bound
+on the difference between the positive and negative mCPs
+(nχþ −nχ−), and hence nχþ þ nχ−can exceed this upper
+limit. However, in this case, there is no benefit from the
+trapping effect of E⊕.
+For kinetically mixed models, the self-repulsive force
+from this dark electric field repels the mCPs to the Earth’s
+surface before the density saturates to the average value
+shown in Eq. (2) (this effect vanishes for mCPs directly
+coupled to the photon due to the conductivity of the Earth).
+This occurs once the dark repulsion overcomes the mCP’s
+thermal kinetic energy as well as Earth’s gravitational field
+g⊕, corresponding to volume-averaged densities of
+nχ ∼300 K
+ðe0R⊕Þ2 ∼10−12 cm−3 ×
+10−1
+e0
+2
+ð3Þ
+and
+nχ ∼3mχg⊕
+e02R⊕
+∼10−11 cm−3 ×
+ mχ
+GeV
+10−1
+e0
+2
+;
+ð4Þ
+respectively. Once the average mCP density (more pre-
+cisely, the asymmetry nχþ −nχ−) exceeds both of these
+values, this population of mCPs will reside primarily near
+the surface. More specifically, energy conservation (i.e.,
+that the total thermal kinetic energy of the mCPs is
+comparable to the work required to change the radius
+occupied by this population) implies that such particles
+occupy an annulus of radius R⊕and radial thickness
+δrχ ∼300 K=ðe0hnχiR⊕Þ, where hnχi is the mCP density
+volume-averaged over the Earth. As a result, the local
+density near the surface is significantly enhanced compared
+to the volume-averaged one by R⊕=δrχ ∼hm0
+Di2R2
+⊕≫1,
+where hm0
+Di is the mCP’s contribution to the volume-
+averaged Debye mass of the dark photon.
+Furthermore, the symmetric abundance of mCPs can be
+affected by mCP annihilations into electrons or dark
+photons, provided that negatively charged mCPs do not
+efficiently bind to nuclei. However, this depends on the
+particular size of the terrestrial density and is generally not
+relevant for the populations that we consider in this work.
+In the subsections below, we apply the above consid-
+erations to two example sources of a terrestrial overdensity
+of mCPs. This corresponds to mCPs that make up a DM
+subcomponent, and the irreducible density that is produced
+in cosmic-ray air showers. Below, we focus primarily on
+mCPs that couple directly to the SM photon, since models
+involving kinetic mixing introduce additional dynamics
+that can significantly enhance or suppress the terrestrial
+density, depending on the particular value of the dark
+photon mass and gauge coupling. Therefore, the results
+shown in the figures below apply predominantly to direct
+mCP-photon interactions; modifications that arise in mod-
+els involving kinetically mixed dark photons will be
+explicitly discussed when relevant.
+A. Dark matter subcomponent
+For qχ ≳10−7 × ðmχ=GeVÞ1=2, corresponding to most of
+the parameter space of interest, mCPs equilibrate with the
+SM bath in the early Universe when the radiation temper-
+ature is T ≳mχ. These large couplings also imply that
+mCPs remain tightly coupled to the photon-baryon fluid
+during the epoch of recombination, which is highly con-
+strained by measurements of the cosmic microwave back-
+ground if mCPs constitute an Oð1Þ fraction of the DM
+density. However, cosmological data does not preclude the
+possibility that a subpercent DM subcomponent interacts
+strongly with the SM [43–46].
+Thus, the thermal cosmological abundance of strongly
+coupled mCPs must be depleted to a small fraction fDM ≪
+1 of the total DM density. This can occur if, for example,
+they efficiently annihilate to pairs of SM fermions or dark
+photons, which is possible for qχ ≫10−3 × ðmχ=GeVÞ or
+e0 ≫10−2 × ðmχ=GeVÞ1=2. More generally, mCP annihi-
+lations to lighter states that saturate perturbative unitarity
+can reduce the thermal abundance to fractional densities as
+small as fDM ∼10−10 × ðmχ=GeVÞ2 [47]. This fraction can
+be further reduced to exponentially smaller values if, for
+instance, the initial reheat temperature of the Universe is
+significantly less than mχ, in which case mCPs do not
+efficiently thermalize with the SM bath [48–51].
+Strongly coupled relics with fDM ≪1 are also relatively
+unconstrained by terrestrial direct-detection experiments
+searching for DM scattering. For instance, these experi-
+ments are signal-limited for DM fractions of fDM ≲10−8
+[13]. Typical experiments are also insensitive to any value
+of fDM if qχ ≳10−4 × ðmχ=GeVÞ1=2, in which case mCP
+DM scatters and rapidly cools down to room temperature,
+well below threshold, before encountering near-surface
+detectors. A detailed analysis of the sensitivity of direct-
+detection experiments in this strongly coupled regime was
+performed in Ref. [52], which ignored model-dependent
+long-distance effects arising from the solar wind and
+terrestrial magnetic fields.
+Upon cooling down to room temperature, the local phase
+space of mCP DM is drastically modified compared to the
+Galactic population. As shown in Fig. 2, an incoming
+millicharged DM particle with velocity vχ ∼10−3 and
+charge qχ ≳few × 10−8 × ðmχ=GeVÞ1=2 scatters with ter-
+restrial matter and sheds an Oð1Þ fraction of its kinetic
+energy on Earth [14]. By conservation of flux, this leads to
+large local overdensities. For mχ ≫1 GeV, these particles
+are gravitationally bound and accumulate on Earth over
+terrestrial timescales to densities as large as ∼1016 times
+their Galactic density for a large range of couplings [14].
+BERLIN, BOGORAD, GRAHAM, and RAMANI
+PHYS. REV. D 114, 015016 (2026)
+015016-4
+For mχ ≪1 GeV, their increased residence time spent on
+Earth before evaporation can result in overdensities as large
+as ∼108 [14].
+The predicted size of these overdensities can be
+significantly modified if χ couples to electromagnetic
+fields on planetary or solar length scales, which in turn
+depends on the particular value of the A0 mass [14,52,53].
+For instance, for mA0 ≲R−1
+⊙∼10−16 eV or mA0 ≲R−1
+⊕∼
+10−14 eV (where R⊙and R⊕are the solar and Earth radii,
+respectively), mCPs can efficiently couple to the long-
+ranged magnetic field generated by the solar wind or the
+Earth, reducing their ability to penetrate into Earth’s
+environment. For mA0 ≲h−1
+atm ∼10−12 eV (where hatm is
+the height of the ionosphere) and qχ ≫10−7, the coupling
+of mCPs to the atmospheric electric field can instead
+enhance the trapping of positively charged mCPs below
+the atmosphere, as discussed in detail above.
+Due to the strong model dependence of these long-ranged
+electromagnetic effects, we remain agnostic regarding their
+importance for mCP DM by parametrizing the abundance of
+mCP DM solely in terms of its local terrestrial number
+density, denoted as nχ. Translating this to the mCP’s Galactic
+density requires specification of the A0 mass and detailed
+modeling of Galactic, solar, and terrestrial electromagnetic
+fields, which is beyond the scope of this work.
+B. Irreducible cosmic-ray population
+Independent of the Galactic population, an irreducible
+density of terrestrial mCPs arises from cosmic-ray air
+showers. In particular, for mχ ≪10 GeV, the dominant
+production mechanism is through the decay of secondary
+cosmic-ray mesons. The salient feature of this production
+mechanism is that it is independent of model-dependent
+details regarding the early Universe and propagation
+through the solar and terrestrial magnetic fields, since such
+particles are produced locally in Earth’s atmosphere.
+The relativistic population of cosmic-ray mCPs has been
+worked out in detail in Refs. [16,29,30,54,55], where it was
+shown that neutrino and DM detectors have some sensi-
+tivity to these particles, ultimately limited by the small flux.
+Although most of these mCPs are produced relativistically,
+they can efficiently scatter in Earth’s crust, thermalizing to
+terrestrial temperatures. Even if the resulting nonrelativistic
+population eventually evaporates from the Earth, its slow
+diffusion throughout the atmosphere implies an enhance-
+ment to the mCP density.
+In this work, we use the results of Ref. [14], which
+calculated this nonrelativistic population of mCPs pro-
+duced by cosmic rays. For the sake of brevity, we simply
+quote here the main relevant results. If mCPs are not bound
+by Earth’s gravitational or electric fields, then they even-
+tually evaporate. In this case, the resulting density of
+nonrelativistic mCPs at a depth x > 0 below the top of
+the atmosphere is [14]
+nχðxÞ ≃
+Z
+dEχ
+dΦðCRÞ
+χ
+dEχ
+Pr⊕
+th
+min ðx; xthÞ −xLSS
+Dχ
+;
+ð5Þ
+where xth > 0 is the depth below the top of the atmosphere
+at which an initially produced mCP cools down to ambient
+temperature through repeated scattering, and xLSS > 0 is
+the depth of the “last scattering surface”—i.e., the point at
+which an outgoing thermalized mCP stops scattering and
+free-streams away from the Earth. Above, the integral is
+over the initial energy Eχ of the mCP, ΦðCRÞ
+χ
+is the flux of
+mCPs generated by cosmic rays, Pr⊕
+th is the probability that
+an mCP cools down to the ambient temperature of Earth,
+and Dχ is the diffusion coefficient of the thermalized mCP
+(parametrically, the product of the collisional mean free
+path and thermal velocity).
+Millicharged particles can instead accumulate on Earth if
+they become gravitationally or electromagnetically bound.
+In the former case, this is possible for mχ ≫1 GeV.
+However, cosmic-ray production of particles much heavier
+than a GeV is rare, and so this applies only to a small part of
+parameter space. It is thus more generic for mCPs produced
+by cosmic rays to become electromagnetically bound to the
+Earth [14]. As discussed above, the degree to which this can
+occur depends on the nature of the interaction. Unlike mCP
+DM, however, mCPs produced by cosmic rays are initially
+relativistic, such that they can easily enter Earth’s envi-
+ronment, independent of their couplings to long-ranged
+magnetic fields.
+After such mCPs scatter and thermalize to room
+temperature, their small energy can suppress their ability
+to overcome Earth’s electromagnetic fields. For instance,
+for qχ ≳10−9 ×
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+mχ=MeV
+p
+, their gyroradius in Earth’s
+magnetic field is much smaller than R⊕, meaning that
+such particles remain confined, except possibly near the
+poles. More importantly, as discussed above, positively
+charged mCPs remain bound by the atmospheric electric
+field for qχ ≳10−7. However, due to modifications that
+can arise in kinetically mixed models, we will instead
+consider the two extremes where mCPs do or do not
+become trapped by Earth’s electromagnetic fields over the
+age of the Earth,1 t⊕≃4.5 × 109 yr.
+In the case that thermalized mCPs produced by cosmic
+rays become gravitationally or electromagnetically bound,
+they accumulate for a time t⊕. The density of this population,
+volume-averaged over the Earth, is given by [14]
+nχ ≃3t⊕
+R⊕
+Z
+dEχ
+dΦðCRÞ
+χ
+dEχ
+Pr⊕
+th:
+ð6Þ
+1Direct evidence in the form of fulgurites shows that the global
+atmospheric electrical circuit has been active for at least
+∼ð0.25–0.5Þ × 109 yr, while indirect evidence points to much
+longer timescales, comparable to t⊕[56].
+ELECTRIC ACCUMULATION OF MILLICHARGED PARTICLES
+PHYS. REV. D 114, 015016 (2026)
+015016-5
+The radial profile of this density depends on the nature of the
+mCP interaction. For instance, if mCPs directly couple to the
+SM photon, then their density is approximately uniform
+below the crust for mχ ≲few × GeV, or it is highly peaked
+near Earth’s center for mχ ≫few × GeV (due to Earth’s
+gravitational field) [14]. Instead, if mCPs interact through a
+kinetically mixed dark photon and become electromagneti-
+cally bound by Earth’s atmospheric voltage, the repulsive
+effect from the resulting dark electric field can cause mCPs to
+reside primarily near the surface, parametrically enhancing
+their local density [see the discussion near Eqs. (3) and (4)].
+Due to the significant model dependence of this effect, we
+will focus on mCPs that couple directly to the SM photon in
+our results below.
+Using the full formalism outlined in Ref. [14], we
+determine the thermalized mCP density produced by cosmic
+rays. We improve upon the analysis of Ref. [14], however, by
+making use of the publicly available code of Ref. [29] for
+determining ΦðCRÞ
+χ
+, which includes the dominant contribu-
+tions for sub-GeV mCPs arising from decays of π, η, ρ, ω, ϕ,
+and J=ψ mesons. We have also supplemented this with ϒ
+decays, following the semianalytic procedure of Ref. [55].
+Although we do not include other processes, we note that for
+masses mχ ≳10 GeV, the Drell-Yan process dominates the
+total yield [55].
+It has also recently been claimed in Refs. [54,55] that
+proton
+bremsstrahlung
+is
+the
+dominant
+production
+mechanism for mCPs in the (0.1 −1Þ GeV mass range,
+since it benefits from the resonant enhancement of photon–
+vector meson mixing. However, this resonant enhancement
+corresponds to one subprocess of vector meson production.
+Since the latter has already been incorporated in our analysis,
+as well as in other studies, it remains unclear as to why
+bremsstrahlung is found to yield significantly larger fluxes.
+For this reason, we conservatively choose not to incorporate
+bremsstrahlung into our analysis. However, it remains a
+possibility that bremsstrahlung processes populate a forward
+region of kinematic phase space that is not otherwise
+accounted for in more data-driven models. In this sense,
+the inclusion of such processes could substantially enhance
+the predicted mCP flux in the 100 MeV–1 GeV mass range,
+making our results conservative in this part of param-
+eter space.
+Our results for the irreducible nonrelativistic density of
+mCPs sourced by cosmic rays is shown in Fig. 3, evaluated
+at a depth of 1 m below the surface of the crust (these
+results also apply to the density inside a conducting
+building above the surface). In the left panel, we assume
+that mCPs do not couple to the atmospheric electric field,
+such that they do not remain bound to the Earth after
+thermalizing to room temperature. In this case, there is
+substantial depth dependence to nχ, with greater densities
+further underground. This is because such mCPs are not
+bound to the Earth and thermalize to room temperature very
+FIG. 3.
+The terrestrial density nχ of positively charged millicharged particles that are produced by cosmic rays and thermalize to room
+temperature through scattering with Earth’s environment, as a function of the particle’s mass mχ and charge qχ. In gray, we also show
+existing limits from accelerator probes [29,31–38] and SN1987A [39]. In the left panel, “E⊕¼ 0” means we ignore the coupling of
+millicharged particles to the atmospheric electric field. In the right panel, “E⊕≠0” means we instead assume that the millicharged
+particles couple to the atmospheric electric field, such that positively charged particles can become electrically bound below the
+atmosphere. In both panels, we evaluate the density at a depth of 1 m below the crust (these results also apply to the density inside a
+conducting building above the surface). In the left panel, there is substantial depth dependence to nχ, with greater densities further
+underground. In the right panel, there is negligible depth dependence below the crust.
+BERLIN, BOGORAD, GRAHAM, and RAMANI
+PHYS. REV. D 114, 015016 (2026)
+015016-6
+deep (≫1 km) underground, leading to the approximately
+linear scaling with depth in Eq. (5).
+In the right panel, we instead take the mCPs to couple
+directly to the atmospheric electric field E⊕∼1V=cm,
+such that they are trapped below the atmosphere for
+qχ ≫10−7. This drastically enhances the terrestrial den-
+sity of sub-GeV mCPs that would otherwise evaporate
+from the Earth and results in densities as large as nχ ∼
+10−5 cm−3 × ðqχ=10−4Þ2 for mχ ≪1 GeV. In this case,
+such mCPs remain bound to the Earth, and for sub-GeV
+masses, there is little depth dependence to nχ. Note that
+the densities are the same in both panels for mχ ≫1 GeV,
+since in this case mCPs are gravitationally bound to the
+Earth independently of their coupling to terrestrial electro-
+magnetic fields.
+We see the enhancing effect of the atmospheric electric
+field E⊕by comparing the right panel of Fig. 3 to the left
+panel. If mCPs directly couple to the SM photon, neglect-
+ing E⊕is overly pessimistic, and we expect a more detailed
+analysis to result in densities comparable to the right panel
+of Fig. 3. As discussed above, for interactions instead
+mediated by a dark photon, this local density can be
+suppressed or enhanced compared to the right panel of
+Fig. 3, but it is strictly greater than the densities shown in
+the left panel. For instance, the effect of E⊕is shorted out if
+the mCP density grows to the point that it sources a dark
+electric force of comparable strength, corresponding to a
+maximal electrically bound mCP density as given above in
+Eq. (2). However, even in this case, Earth’s magnetic field
+can
+still
+suppress
+the
+evaporation
+of
+light
+mCPs.
+Furthermore, as discussed near Eqs. (3) and (4), the
+repulsive effect of the dark electric field can significantly
+increase the local mCP density near the surface.
+It is important to emphasize that the mCP population
+generated by cosmic rays is irreducible and solely a
+function of the particle’s charge and mass. Hence, testing
+this local density is equivalent to testing the model itself,
+akin to an accelerator search. In the rest of this work, we
+discuss ways to enhance the local density of such mCPs.
+IV. ACCUMULATION IN THE LAB
+Here, we explore a simple setup to enhance the local mCP
+density in the lab relative to the average value on Earth. As
+depictedinFig.1,thiscanbeachievedbyholdinganopen-air
+spherical shell of radius R0 at a fixed voltage ϕ0 < 0 relative
+to ground,2 analogous to a standard Van de Graaff generator.3
+This “accumulator shell” traps mCPs from the immediate
+environment and can be independently operated prior to the
+running of a dedicated experiment to detect the collected
+mCPs. A detector placed on the interior of the trap is
+immersed in a larger local mCP density ntrap, enhancing
+its sensitivity to the terrestrial mCP population.
+Crucially, the shell shields against SM charges, such that
+only mCPs can penetrate into the interior. In particular, the
+separation of nuclear and electronic wave functions at
+conducting surfaces generally leads to a potential barrier of
+the order of a few eV [18]. As a result, room-temperature
+particles with charge much greater than 300 K=eV ∼few ×
+10−2 cannot efficiently penetrate metal barriers. This allows
+for the effective exclusion of SM ions by the accumulator,
+while still allowing mCPs to diffuse into its interior. This is
+the main differentiating factor between mCPs and free SM
+ions. Furthermore, while mCPs can bind to the macro-
+scopic electrostatic potential of the accumulator, in the
+parameter space we consider they do not bind with
+individual SM particles (see Ref. [13]).4
+Thus, for Tχ=ðeϕ0Þ ≪qχ ≪Tχ=eV, mCPs of temper-
+ature Tχ can diffuse into the interior cavity of the charged
+shell, lose energy via scattering in the material, and become
+electrically bound to its electrostatic potential. In general,
+terrestrial mCPs accumulate within the trap shell at a rate
+set by the electric accumulation velocity VE. The density
+accumulated in a time t is given by
+ntrap ≃3εtrapnχVEt=R0:
+ð7Þ
+Above, εtrap ≤1 is a dimensionless efficiency factor that is
+Oð1Þ for anendless supply ofmCPsthat are stronglycoupled
+enough to collisionally thermalize within the shell (this will
+be discussed later in Secs. IVA and IV B). As derived in
+Appendix A, the accumulation velocity VE is related to the
+electric field E0 ¼ ϕ0=R0 at the shell’s surface by
+VE ≃
+eqχE0=mχ
+maxðΓðairÞ
+p
+βE; vth=2R0Þ
+;
+ð8Þ
+where ΓðairÞ
+p
+is the momentum exchange rate for mCP-atomic
+collisions in air, and vth ≃
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+3Tχ=mχ
+p
+is the mCP thermal
+velocity at temperature Tχ (which, due to rapid scattering
+with nuclei, is approximately equal to the environment’s
+temperature). In the denominator of Eq. (8), the first term in
+the “max” applies to highly collisional mCPs, whereas the
+second quantity applies to ballistically free-streaming par-
+ticles. Thus, the incorporation of the collision rate ΓðairÞ
+p
+only
+serves to reduce the total accumulation rate compared to that
+in the ballistic regime.
+2We will often abuse this notation and take eqχϕ0 > 0, but it
+should be understood that ϕ0 is an attractive potential.
+3Holding the voltage fixed requires continuous charging of the
+device, since the conductivity of the atmosphere would otherwise
+discharge the shell within minutes.
+4This same distinguishing behavior between mCPs and SM
+ions implies that whatever charging mechanism is utilized for the
+accumulator will not strongly impact the density of mCPs in the
+interior. For instance, in the case of a Van de Graaff generator,
+the motorized belt used to carry SM charges onto the shell is
+unable to form bonds with room-temperature mCPs for qχ ≪0.1.
+ELECTRIC ACCUMULATION OF MILLICHARGED PARTICLES
+PHYS. REV. D 114, 015016 (2026)
+015016-7
+In Eq. (8), we have also introduced the dimensionless
+parameter βE, which accounts for screening effects of the
+shell’s electric field from the local environment. As derived
+in Appendix A, for an electric field that scales as a
+monopole (r−2) or dipole (r−3) at far distances, βE ≃1
+or βE ≃
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+πeqχϕ0=ð2TχÞ
+p
+≫1, respectively. For instance,
+in the absence of any nearby image charges induced by the
+shell (such as if the shell is placed indoors near the center of
+a much larger enclosing conducting structure), the electric
+field is purely that of a monopole wherever it is nonzero.
+However, if the shell is placed outdoors near Earth’s
+surface, the conducting nature of the crust generates an
+image charge below its surface, leading to a dipole-like
+field at sufficiently far distances.
+As an example, let us consider a monopole-like electric
+field, corresponding to βE ≃1. In this case, in the highly
+collisional regime, ΓðairÞ
+p
+≫vth=R0, Eq. (8) is simply the
+terminal velocity of an mCP as it is attracted by the electric
+fieldandcollideswithsurrounding airmolecules.Instead,for
+ΓðairÞ
+p
+≪vth=R0, this givesVE ≃v2esc=vth ≫vth, wherevesc is
+the electrical escape velocity of the shell, corresponding to
+the Sommerfeld-enhanced capture rate of ballistically free-
+streaming mCPs in a long-ranged potential.
+To calculate the collision rate ΓðairÞ
+p
+, we follow the
+approach of Ref. [14]. In particular, we employ semi-
+analytic solutions to the Schrödinger equation from
+Refs. [57,58] with an mCP-atomic interaction governed
+by the Thomas-Fermi nuclear potential. Parametrically,
+ΓðairÞ
+p
+∼ðμχN=mχÞnðairÞ
+N
+σTvrel, where nðairÞ
+N
+is the number
+density of ambient atoms in the air, σT is the transfer
+cross section for mCP-atomic collisions, and vrel is the
+relative thermal velocity.
+In Eq. (7), we introduced the efficiency factor εtrap. We
+now further decompose this as
+εtrap ¼ εroomεbound:
+ð9Þ
+The first factor, εroom, accounts for the finite size of the
+laboratory room (if the accumulator is placed indoors),
+whereas the second factor, εbound, accounts for the ability
+for mCPs to scatter and become electrically bound to the
+accumulator. In the following subsections, we discuss each
+of these in turn.
+A. Indoors vs outdoors
+In our estimates, the voltage of the accumulator shell is
+held fixed for a time t ¼ 1 yr. In order to maximize the
+sensitivity for such timescales, the accumulator should
+ideally be operated outdoors, since the total number of
+ambient mCPs that it is able to collect is ultimately limited
+by the size of the largest enclosure dictating the range of the
+electric field.
+For instance, let us take the electric field of the
+accumulator to be confined to a room of radius Rroom,
+whose walls are of thickness ΔRroom, and with a ventilation
+opening of area Avent that pushes air (and collisionally
+coupled mCPs) into the room at velocity Vvent. The total
+number Ntrap of mCPs collected in the accumulator over a
+time t is limited by the number of particles originating in
+the room, entering through the ventilation, and diffusing in
+through the walls. As derived in Appendix B, this requires
+imposing that
+Ntrap ≲nχ4πR2roomt
+Rroom
+3t
+þ AventVvent
+4πR2room
+þ DðwallÞ
+χ
+ΔRroom
+þ VðairÞ
+g
+4
+
+;
+ð10Þ
+where DðwallÞ
+χ
+¼ Tχ=ðmχΓðwallÞ
+p
+Þ is the mCP diffusion coef-
+ficient in the room’s walls and VðairÞ
+g
+¼ g⊕=ΓðairÞ
+p
+is the
+mCP’s drift velocity in Earth’s gravitational field5 g⊕. We
+incorporate the requirement of Eq. (10) into the efficiency
+factor of Eq. (9) by taking
+εroom ¼ min½1; Veff
+room=VE;
+ð11Þ
+where we define the effective velocity
+Veff
+room ≡
+Rroom
+R0
+2Rroom
+3t
+þAventVvent
+4πR2room
+þ DðwallÞ
+χ
+ΔRroom
+þVðairÞ
+g
+4
+
+:
+ð12Þ
+It is worth examining the various terms of Eq. (12) for a
+concrete setup consisting of an accumulator operated for a
+time t ¼ 1 yr in a room of radius Rroom ¼ 10 m, walls of
+thickness ΔRroom ¼ 1 m, and a vent of area Aarea ¼ 1 m2
+and air speed Vvent ¼ 10 m=s. In this case, the first term in
+Eq. (12) is negligible compared to the second term:
+Rroom=t∼10−5 cm=sec≪AventVvent=ð4πR2roomÞ∼1 cm=sec.
+For sufficiently small charges, the third and fourth terms of
+Eq. (12) take simple approximate forms. In particular, for
+qχ ≪10−4, we find that for mχ ≪1 GeV,
+5Note that VðairÞ
+g
+is the gravitational drift velocity in air, not the
+wall. This accounts for the fact that in steady-state, conservation
+of flux implies that mCPs can develop an overdensity in the
+ceiling of the building at the level of VðairÞ
+g
+=VðwallÞ
+g
+≫1. This
+occurs provided that mCPs pass through the ceiling before
+diffusing transversely to the building’s side walls, which is
+possible if the transverse length scale of the roof is greater than
+∼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ΔRroomvthΓðwallÞ
+p
+q
+=ΓðairÞ
+p
+. We have checked that for reasonable
+parameters, this is satisfied throughout the majority of the
+relevant parameter space. We do not incorporate the loss of
+mCPs from the sides of the roof in our estimates, but it would
+have at most a minor effect, and only for the largest masses and
+smallest charges that we consider.
+BERLIN, BOGORAD, GRAHAM, and RAMANI
+PHYS. REV. D 114, 015016 (2026)
+015016-8
+DðwallÞ
+χ
+ΔRroom
+∼108 cm
+s ×
+10−6
+qχ
+2MeV
+mχ
+5=2
+ð13Þ
+and
+VðairÞ
+g
+4
+∼102 cm
+s ×
+10−6
+qχ
+2MeV
+mχ
+3=2
+;
+ð14Þ
+while for mχ ≫1 GeV, we have
+DðwallÞ
+χ
+ΔRroom
+∼10−1 cm
+s ×
+10−6
+qχ
+2
+ð15Þ
+and
+VðairÞ
+g
+4
+∼10−1 cm
+s ×
+10−6
+qχ
+2
+mχ
+102 GeV
+
+:
+ð16Þ
+In the case that diffusion through the walls, correspond-
+ing to the third term of Eq. (12), dominates over the other
+terms, it is a limiting experimental factor if the naive
+rate of electrical accumulation in the trap is larger than
+the rate of new particles diffusing into the room—i.e.,
+VER2
+0 ≳DðwallÞ
+χ
+R2room=ΔRroom. This occurs for a room
+smaller than
+Rroom ≲
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+R0ΔRroomnðwallÞ
+N
+=nðairÞ
+N
+q
+vesc=vth
+≃10 km ×
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+qχ
+10−3
+ϕ0
+MV
+R0
+m
+ΔRroom
+m
+r
+;
+ð17Þ
+where nðwallÞ
+N
+and nðairÞ
+N
+are the nuclear density of material in
+the wall or air, respectively. Thus, operating the trap
+indoors degrades the accumulated density for any reason-
+ably sized indoor environment. Note, however, that this can
+be mitigated by efficient air ventilation (especially for
+larger charges) or running the accumulator outdoors well
+before the operation of an enclosed mCP experiment.
+B. Electrical trapping
+In order for an mCP to become electrically bound to the
+accumulator, we will take the condition that the energy
+eqχϕ0 ≫Tχ gained in the shell’s potential well must be lost
+through collisions with atoms nearby the shell. As dis-
+cussed in Ref. [14], the energy-exchange rate ΓE for mCP-
+atomic scattering is related to the momentum-exchange rate
+Γp by ΓE ≃ðμχN=mNÞΓp, where mN is the atomic mass. An
+mCP can lose an Oð1Þ fraction of its energy in a region of
+material of length ΔR if
+ΓEΔR2=Dχ ≳1:
+ð18Þ
+For example, we find that in a meter of room-temperature
+iron, Eq. (18) requires qχ ≳10−5 × ðMeV=mχÞ5=4 for mχ ≪
+1 GeV and qχ ≳10−9 ×ðmχ=102 GeVÞ1=4 for mχ ≫1 GeV.
+The probability PrðshellÞ
+th
+that mCPs thermalize in the shell
+can be Oð1Þ if Eq. (18) is satisfied after summing over all
+elements of the accumulator. In this case, the specific form
+of PrðshellÞ
+th
+then depends on the mCP’s collisional mean free
+path in air, lðairÞ
+p
+≃vth=ΓðairÞ
+p
+. For instance, if lðairÞ
+p
+≲R0,
+mCPs undergo a tightly coupled random walk with a strong
+bias to remain close to the shell, such that PrðshellÞ
+th
+≃1 if
+Eq. (18) is satisfied.
+Instead, if lðairÞ
+p
+≫R0, then even mCPs that encounter
+the shell may reflect off and free-stream away a significant
+distance before fully thermalizing. In this case, such mCPs
+may escape entirely by diffusing out of the enclosing room
+or being carried away by a gust of wind. This is increas-
+ingly likely for lower-mass particles, since many momen-
+tum exchanges (∼mN=μχN) are required for efficient energy
+transfer. As a result, the chance that mCPs reflect off of the
+accumulator before exchanging a meaninful amount of
+energy becomes significant for mχ ≪mN. As derived in
+Ref. [14], we can account for this by taking PrðshellÞ
+th
+≃
+erfð
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+3mχ=4mN
+p
+Þ if Eq. (18) is satisfied and lðairÞ
+p
+≫R0.
+Along these lines, also note that an mCP only needs to
+lose a small fraction of its incoming energy to become
+electrically bound, which is weaker than the Oð1Þ energy-
+loss requirement of Eq. (18). However, thermalized mCPs
+satisfying Eq. (18) remain close to the accumulator, and
+they are less subject to effects of the environment at further
+distances that could remove them from the immediate
+vicinity. In this sense, our analysis is conservative and
+ignores mCPs that become weakly bound to the accumu-
+lator and are able to propagate out to far distances.
+Even after mCPs efficiently thermalize with the shell,
+they may still evaporate. After a time t, the fraction of
+mCPs that remain bound to the shell can be approximated
+by ð1 −e−ΓevaptÞ=ðΓevaptÞ, where the evaporation rate is
+roughly [14]
+Γevap ≃3
+2R0
+ﬃﬃﬃﬃﬃﬃﬃﬃ
+2Tχ
+πmχ
+s
+
+1 þ eqχϕ0
+Tχ
+
+e−eqχϕ0=Tχ:
+ð19Þ
+Thus far, we have taken the electric force from the
+accumulator to be the dominant long-ranged force acting
+on the terrestrial mCP population. This is valid, provided
+that the electric force from the shell dominates over Earth’s
+gravitational field—i.e.,
+qχ ≳mχg⊕
+E0
+∼10−12 ×
+ mχ
+GeV
+kV=cm
+E0
+
+:
+ð20Þ
+ELECTRIC ACCUMULATION OF MILLICHARGED PARTICLES
+PHYS. REV. D 114, 015016 (2026)
+015016-9
+If this is not satisfied, mCPs are gravitationally stripped
+from the shell (which could be overcome by running the
+setup in free fall). In our analysis, we refrain from
+considering couplings less than 3 times this critical value.
+From Eq. (20), we see that this is unimportant for light
+mCPs produced by cosmic rays but is potentially relevant
+for mCP DM with mχ ≳1 TeV.
+Even for mCPs that are not stripped from the shell,
+Earth’s gravitational field can still significantly perturb the
+distribution of mCPs in the interior. For instance, instead of
+being uniformly distributed throughout the shell, mCPs will
+tend to sit toward the bottom of the interior cavity if
+mχ ≳Tχ=ðg⊕R0Þ ∼250 TeV × ðTχ=300 KÞðm=R0Þ.
+For
+masses a few orders of magnitude larger, mCPs reside
+within the barrier of the shell, making their detection
+increasingly difficult. Since Eq. (7) assumes a uniformly
+distributed charged density, we refrain from considering
+mCPs heavier than 100 TeV.
+We incorporate the requirements of Eqs. (18), (19), and
+(20) into the efficiency factor of Eq. (9) by taking
+εbound ¼ PrðshellÞ
+th
+1 −e−Γevapt
+Γevapt
+;
+ð21Þ
+if qχ > Tχ=ðeϕ0Þ and Eqs. (18) and (20) are satisfied, and
+εbound ¼ 0 if not.
+Throughout this discussion, we have treated mCPs as an
+ideal gas. However, this may not always be the case.
+Positively charged mCPs, which remain unbound with
+nuclei, move more freely than negatively charged mCPs.
+Thus, the former accumulate first inside the shell. As the
+density of positively charged mCPs increases, their elec-
+trical repulsion pushes them outwards toward the shell’s
+interior boundary. This effect is negligible when the self-
+potential is less than the mCP’s kinetic energy, such that the
+density
+remains
+approximately
+uniformly
+distributed
+throughout the interior cavity. However, if enough pos-
+itively charged mCPs accumulate, the energy gained by
+another mCP occupying the central region will eventually
+exceed the temperature.
+Therefore, if only positively charged mCPs accumulate,
+this can hinder the growth of the millicharge density near a
+detector placed in the center of the cavity, since, in this
+case, all further accumulated particles will tend to occupy a
+small region near the shell wall. However, the accumulating
+population of positively charged mCPs will also attract
+negatively charged SM particles (electrons or ions). This
+equilibrium configuration corresponds to zero net charge
+density in the interior cavity, with the positive millicharge
+being canceled by negative SM charge. On timescales
+much greater than a day, we expect that this equilibrium
+configuration can be attained, since all materials compos-
+ing the apparatus have some finite conductivity. Of course,
+if needed, it should also be possible to purposely engineer a
+faster way for these negative SM charges to reach the
+interior. This neutralizing SM population would generally
+not interfere with the mCP detectors discussed in Sec. V D
+and Ref. [21] (such as ion traps or Cavendish experiments)
+because of their differing ability to penetrate dense
+material.
+V. RESULTS
+Using the formalism described above, we determine the
+mCP overdensity ntrap=nχ collected by the accumulator
+over a time t ¼ 1 yr. In particular, we consider a room-
+temperature setup consisting of a trap shell of radius R0 ¼
+2 m and thickness 1 mm that encloses a solid sphere of
+radius 0.5 m, the latter of which enhances the likelihood for
+mCPs to collisionally thermalize and become electrically
+bound [see Eq. (18)]. For concreteness, we take all material
+to be made of iron. The outer shell is held at a fixed voltage
+of ϕ0 ¼ −1 MV relative to ground (the sign of ϕ0 < 0 is
+chosen to target positively charged mCPs, which remain
+unbound with atomic nuclei, as discussed in Sec. III). Note
+that these parameters are well within what is achievable
+today, comparable to large existing open-air Van de Graaff
+generators on public display [59].
+In Fig. 4, we show the overdensity ntrap=nχ of mCPs
+accumulated for different experimental configurations,
+which shows that this setup can enhance the local density
+by as much as 12 orders of magnitude. We take the
+accumulator to be placed outdoors (left) or indoors (right);
+in the latter case, we take the enclosing room to be of radius
+Rroom ¼ 10 m with walls of thickness ΔRroom ¼ 30 cm and
+with
+a
+vent
+of
+area
+Avent ¼ 1 m2
+and
+air
+speed
+Vvent ¼ 10 m=s. We have checked that more conservative
+assumptions, such as much smaller room sizes and com-
+plete lack of ventilation, degrade the predicted overden-
+sities for an indoor setup by an order of magnitude at most.
+For either of these setups, the overdensity is suppressed
+at very small or very large masses. For mχ ≪10 GeV, the
+kinematic mismatch between the mCP mass and the masses
+of typical nuclei means that mCPs are less able to
+efficiently exchange energy with material in the interior
+of the accumulator [see Eq. (18)]. Instead, the dominant
+suppression at high masses arises from the fact that Earth’s
+gravitational field overtakes the effect of the trap’s electric
+field, hindering the collection of mCPs [see Eq. (20)].
+The overdensities are also suppressed at sufficiently
+small or large charges. For very small charges, the
+evaporation rate Γevap of Eq. (19) becomes non-negligible,
+and mCPs do not efficiently bind to the shell. This can be
+seen in Fig. 4, which shows a falloff in ntrap=nχ for charges
+only slightly greater than the critical value qχ ∼Tχ=ðeϕ0Þ.
+Instead, for very large charges, the overdensity is
+ultimately limited by the formation of mCP-electron bound
+states (see Sec. III), as well as the inability of positively
+charged mCPs to penetrate the repulsive voltage difference
+present near the surface of any conducting material [18]
+[see the discussion above Eq. (7)]. For the former, we
+BERLIN, BOGORAD, GRAHAM, and RAMANI
+PHYS. REV. D 114, 015016 (2026)
+015016-10
+refrain from considering couplings larger than ∼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+Tχ=Ry
+p
+,
+while for the latter, we incorporate the fraction of mCPs
+that are able to overtake a surface barrier of ∼5 eV as a
+simple Boltzmann factor dictated by the mCP temperature.
+As discussed in Sec. IV, if the accumulator is placed
+outdoors, then image charges generated by Earth’s crust
+result in the accumulator’s electric field scaling as a dipole
+at far distances [this enters in the form for βE in Eq. (8)].
+Despite this suppression, an outdoor setup accumulates a
+larger overdensity due to the approximately endless supply
+of mCPs nearby. This is evident in Fig. 4, which shows that
+the accumulated overdensity is suppressed by a couple
+orders of magnitude for a setup operated indoors. Note that
+for large masses, the gravitational pull of mCPs through the
+ceiling of the enclosure mitigates this suppression.
+A. Experimental variations
+Here, we briefly comment on experimental variations
+away from the baseline parameters adopted above. For
+instance, although we have focused on a geometrically
+large accumulator, parametrically smaller setups retain
+many of the benefits of this proposal. In fact, for an electric
+field E0 fixed to a value below the dielectric strength of air
+(∼3 MV=m), the scaling ntrap ∝E0=R0 in Eq. (7) implies
+that smaller radii R0 can even enhance the accumulated
+mCP density. However, in this case ϕ0 is also reduced,
+increasing the minimum charge for which mCPs can
+efficiently bind to the accumulator. Although a smaller
+accumulator possesses less material to facilitate mCP
+energy loss through scattering, only a small amount of
+material is needed for the larger values of qχ considered in
+this work. As a result, a compact tabletop version of our
+proposal involves limited drawbacks and is ideal for a pilot
+experiment.
+The accumulator could also be run at cryogenic temper-
+atures, which offers various advantages and disadvantages.
+At lower temperatures, more feebly coupled mCPs are
+trapped at a fixed voltage, enhancing the accumulated
+density at small coupling. However, the introduction of a
+specialized refrigeration system would require additional
+shielding, likely limiting the range of the accumulator’s
+electric field. We therefore do not consider this possibility
+further.
+In the analysis above, we showed that the accumulation
+of mCPs can be hindered if operated indoors, such as if the
+accumulator is enclosed within a larger conducting struc-
+ture, since this limits the range of the shell’s electric field.
+Indeed, this is what was assumed for our setup labeled
+“indoors,” which showed reduced accumulation overden-
+sities in Fig. 4. However, this is not necessarily the case for
+a realistic experiment. For instance, this suppression can be
+significantly mitigated if the walls of the surrounding
+enclosure are partially insulating, such that the accumu-
+lator’s electric field can penetrate out to substantially larger
+distances. Thus, if an Oð1Þ solid-angle fraction of the
+enclosure involves insulating material, an indoor setup will
+FIG. 4.
+The overdensity ntrap=nχ of millicharged particles accumulated by an electric trap (compared to the average nearby terrestrial
+density), as a function of the millicharge qχ and mass mχ. The trap consists of a room-temperature shell of radius R0 ¼ 2 m, held at a
+voltage of ϕ0 ¼ −1 MV for a time t ¼ 1 yr. We consider a setup operated outdoors (left) or indoors (right). In gray, we also show
+existing limits from accelerator probes [29,31–38] and SN1987A [39]. The region of parameter space for which overdensities can
+develop is limited to a finite region of masses and couplings: at small masses, millicharged particles are less efficient at thermalizing in
+the shell through scattering, and at large masses, Earth’s gravitational field overtakes the effect of the accumulator’s electric field; for
+small charges, millicharged particles are not electrostatically bound to the shell, whereas for large charges, they form bound states with
+electrons and cannot freely penetrate conducting surfaces.
+ELECTRIC ACCUMULATION OF MILLICHARGED PARTICLES
+PHYS. REV. D 114, 015016 (2026)
+015016-11
+instead accumulate overdensities at a level more compa-
+rable to what is shown for the “outdoors” projection
+in Fig. 4.
+B. Dark matter and cosmic-ray millicharges
+Figure 4 describes the overdensity of mCPs that an
+electrified shell can accumulate compared to the average
+terrestrial density nχ, regardless of the origin of nχ. As
+mentioned in Secs. III A and III B, this ambient terrestrial
+population can arise from, for example, a Galactic DM
+subcomponent, or locally from cosmic-ray air showers. In
+the former case, Ref. [14] showed that nχ can be larger than
+the Galactic density of mCPs by as much as ∼1016 over a
+wide range of couplings and masses. The results shown in
+Fig. 4 therefore imply that, compared to the Galactic value,
+the density of an mCP DM subcomponent can be locally
+enhanced in the laboratory by as much as 28 orders of
+magnitude.
+The irreducible terrestrial density of mCPs produced by
+cosmic rays was shown in Fig. 3, depending on whether or
+not mCPs efficiently couple to the atmospheric electric
+field. These results can be multiplied by the overdensity in
+Fig. 4 to obtain the irreducible mCP density accumulated
+within an electrified shell. This is shown in Fig. 5 for an
+outdoor or indoor setup. In these cases, the accumulated
+density of mCPs can be as large as nχ ∼106 cm−3 or
+∼104 cm−3, respectively, if mCPs efficiently couple to the
+atmospheric electric field, and nχ ∼10−2 cm−3 if not.
+For the outdoor setup, we take the accumulator to be
+placed at a height h ∼1 m above the ground. However, a
+population of mCPs coupled to the atmospheric electric
+field resides dominantly below the crust, extending a
+distance ∼Tχ=ðeqχE⊕Þ above the surface. We conserva-
+tively incorporate this effect as a Boltzmann factor
+nχ ∝exp½−eqχE⊕h=Tχ, which suppresses ntrap in the
+top-left panel of Fig. 5 for qχ ≳Oð10−4Þ. Note, however,
+that this is overly pessimistic, as the value of the electric
+field at the crust is dominated by E0 ≫E⊕near the
+accumulator. Instead, for the indoor setup, we assume that
+the accumulator is placed 1 m underground, such that there
+is no suppression for such couplings (this is qualitatively
+similar to operating inside of a conducting building slightly
+above ground).
+C. Kinetically mixed models
+For most of the above discussion, we treated mCPs as
+genuinely charged under the SM photon. However, when
+the interaction is mediated by an ultralight dark photon,
+such that qχ ¼ ϵe0=e, mCPs effectively couple to both the
+dark and visible photons. In Sec. III, we discussed how
+such additional interactions can modify the population of
+mCPs trapped on Earth by the atmospheric electric field.
+For instance, the repulsive effect of the dark electric field
+can result in mCPs residing predominantly near Earth’s
+surface, parametrically increasing the local density com-
+pared to what was assumed in generating Fig. 5. Similar
+considerations apply to the role of the accumulator as well.
+In this case, the accumulated mCPs backreact and prevent
+further accumulation of charge once they source a dark
+electric field E0 whose force on the incoming mCPs
+overcomes that of the visible field. This occurs once
+e0E0 ∼e02ntrapR0 ∼eqχE0;
+ð22Þ
+corresponding to an mCP-induced visible electric field
+Eχ ∼eqχntrapR0 ∼ðeqχ=e0Þ2E0 ∼ϵ2E0:
+ð23Þ
+As a result, the accumulation of charge quenches once the
+mCPs screen an ϵ2 fraction of the shell’s visible electric
+field. For the accumulation of a single charge species,
+analogous to Eq. (2), this occurs when the accumulated
+mCP density grows to
+ntrap ∼3eqχϕ0
+e02R2
+0
+∼106 cm−3 ×
+ qχ
+10−3
+10−1
+e0
+2
+ð24Þ
+for R0 ¼ 2 m and ϕ0 ¼ 1 MV. Thus, at the perturbative
+limit ϵ ≲1 where e0 ∼eqχ, this model dependence does not
+affect the results of Fig. 5. However, for large values of the
+dark gauge coupling, the accumulated density could
+saturate before reaching the largest values of ntrap shown
+in Fig. 5.
+Even if the effect of E0 overcomes that of E0 and mCPs
+are successfully attracted to the accumulator, the force from
+E0 may repel the mCPs to the shell’s interior boundary. This
+depends on the mCP’s kinetic energy and occurs for
+densities larger than
+ntrap ∼
+Tχ
+ðe0R0Þ2 ∼1 cm−3 ×
+0.1
+e0
+2
+ð25Þ
+for R0 ¼ 2 m and Tχ ¼ 300 K. This corresponds to the
+largest density that freely diffuses through the interior
+cavity of the shell. Note, though, that in the next section (as
+well as in Ref. [21]), we discuss detection strategies that are
+sensitive to densities much smaller than those in Eqs. (24)
+and (25), so this model dependence does not strongly
+impact the projected experimental sensitivity.6
+As discussed in Sec. IV B, the accumulation of positively
+charged mCPs inside the shell will likely bring in excess
+negatively charged SM particles (for example, electrons) to
+cancel the net visible charge. However, in a kinetically
+mixed model, the situation is more complicated. An
+6For densities smaller than Eq. (25), two-stream plasma
+instabilities do not develop, since the length scale ∼m0−1
+D
+of
+the fastest-growing mode is larger than R0, where m0
+D is the
+mCP’s contribution to the dark photon’s Debye mass [60,61].
+BERLIN, BOGORAD, GRAHAM, and RAMANI
+PHYS. REV. D 114, 015016 (2026)
+015016-12
+overdensity of positive millicharges has not only a net
+visible charge, but also a net dark charge that is generically
+much greater, since e0 ≫ϵe0 ¼ eqχ. These positive mCPs
+thus may also attract negative mCPs that cancel the total
+dark charge. Although the negative mCPs may be bound to
+nuclei (which is possible in certain regions of parameter
+space), they may still diffuse into the interior of the shell
+(for example, if the vacuum is imperfect) and build up to a
+density that cancels the dark field in the interior cavity of
+the shell.
+Therefore, we should actually regard Eqs. (24) and (25)
+as being limits on the net mCP asymmetry rather than on the
+total number density; a symmetric millicharge population
+can accumulate in the interior cavity to a total number
+density that is larger than Eqs. (24) and (25), since as
+negative mCPs enter, they reduce the total dark charge,
+FIG. 5.
+Using the results of Figs. 3 and 4, we determine the accumulated density ntrap of positively charged millicharged particles
+initially produced by cosmic rays. In the top row, the notation “E⊕≠0” indicates that we take the millicharges to efficiently couple to
+the atmospheric electric field, whereas in the bottom row “E⊕¼ 0” indicates that the role of the atmospheric electric field is neglected
+(this is shown for the purpose of illustrating the enhancing effect of E⊕). For millicharged particles that couple directly to the photon, we
+expect that detailed modeling will result in densities similar to the results for “E⊕≠0.” These results can be significantly modified if the
+interaction is mediated by a kinetically mixed dark photon, potentially yielding densities that are parametrically larger than those shown
+here, depending on the specific model parameters. In gray, we also show existing limits from accelerator probes [29,31–38] and
+SN1987A [39]. In the left column, “outdoors” means that the accumulator is operated 1 m above the crust, whereas in the right column
+“indoors” means that the accumulator is operated inside a room 1 m below the crust (this latter scenario is qualitatively similar to
+operating inside a conducting building slightly above ground).
+ELECTRIC ACCUMULATION OF MILLICHARGED PARTICLES
+PHYS. REV. D 114, 015016 (2026)
+015016-13
+allowing more positive mCPs to enter as well. This is
+relevant, since many detector technologies (for example,
+ion traps or Cavendish experiments, as discussed below)
+are sensitive to the total number density of mCPs, not to the
+asymmetry. Thus, the signals in such detectors could be
+much larger than the naive limits from Eqs. (24) and (25)
+(for example, if the ambient density of millicharges exceeds
+those limits). However, note that this larger density is
+irrelevant if the detectors are already sensitive to densities
+below those in Eqs. (24) and (25), which we show is
+possible in Ref. [21]. Regardless, for detectors that are not
+sensitive to the densities in Eqs. (24) and (25), it is
+advantageous to pursue schemes that facilitate both species
+of millicharge to enter the accumulator, since this will
+significantly boost their ultimate discovery potential.
+Aside from the collective effects discussed above,
+momentum exchange from scattering between single pairs
+of χþ and χ−introduces an additional drag on the
+accumulating positively charged mCPs. This amounts to
+including an additional contribution to the momentum
+exchange rate Γp from such processes, and so it is only
+important when this dominates over mCP-SM scattering.
+Since the local mCP number density is typically parametri-
+cally smaller than the ambient density of atoms, this is a
+small effect for most scenarios considered here. More
+generally, mCP self-scattering is irrelevant when the
+corresponding mean free path is greater than the size of
+the experiment, ðα02nχ=T2χÞR0 ≲1, which is a weaker
+requirement than demanding nχ to be smaller than the
+density shown in Eq. (25) by a factor of TχR0 ∼105.
+D. Detection prospects
+Several detection strategies can be employed to search
+for the mCP population accumulated within the electro-
+static trap. Here, we provide a short overview of various
+approaches. More details regarding one of these strategies
+are provided in a companion paper [21], while other
+approaches will be developed further in upcoming work.
+A well-established method for measuring ambient mCPs
+involves ion traps [17,18]. These experiments exploit the
+stability of trapped ions in shallow potential wells to search
+for heating from mCP Rutherford scattering. Ion traps have
+been shown to be sensitive to mCP densities as small as
+nχ ∼1 cm−3 for GeV-scale masses [18]. The number
+densities shown in Fig. 5 fall within this existing sensitivity
+range, provided such an ion trap can be implemented inside
+the electrostatic accumulator. We defer a detailed assess-
+ment of an ion-trap-based detector housed within an
+accumulator to future work.
+A second method for detecting mCPs relies on their in-
+medium effects on the photon’s dispersion relation. This
+principle has previously been applied in the context of
+resonant detectors to search for mCP DM [20,22] and for
+mCPs produced in the Sun [62,63]. In a companion paper
+[21], we investigate how a local thermalized population of
+mCPs can be detected using Cavendish-type experiments
+originally designed to probe deviations from Gauss’s law.
+In particular, century-old experiments measuring electric
+fields inside a shell driven with an oscillating voltage
+achieved sensitivity to electric fields that could be sourced
+by charge densities as small as qχnχ ∼10−4 cm−3 [64].
+Reproducing such experiments within an electrostatic
+accumulator would thus gain orders of magnitude of
+new sensitivity to terrestrial mCPs, including those pro-
+duced by cosmic rays.
+A third method for detecting a thermalized mCP pop-
+ulation was proposed in Ref. [13]. In this case, the potential
+difference of a dc electrostatic accelerator is used to
+accelerate thermalized mCPs to higher energies. These
+accelerated mCPs are then directed into existing low-
+threshold sensors. As shown in Ref. [13], this approach
+is sensitive to cosmic-ray-produced mCPs even without the
+use of an electrostatic trap. The feasibility of integrating
+such a dc accelerator within the trap considered here, to
+further enhance its sensitivity, will be investigated in
+future work.
+VI. CONCLUSION
+In this work, we have demonstrated that a conducting
+shell held at a large voltage (such as a Van de Graaff
+generator) can act as a powerful accumulator for a local
+room-temperature population of millicharged particles
+(mCPs). Such a device is capable of enhancing the local
+density of mCPs by up to 12 orders of magnitude compared
+to the ambient terrestrial population. This dramatic ampli-
+fication should enable a broad range of existing detection
+strategies—such as ion traps, Cavendish-type experiments,
+and electrostatic acceleration techniques—to achieve sen-
+sitivity well beyond current limits.
+The overdensity generated within the accumulator
+extends to both cosmologically produced mCPs and the
+population locally sourced by cosmic rays. The latter
+represents an irreducible population (i.e., probing it is a
+direct probe of the particle, agnostic to its cosmological
+abundance). For realistic experimental configurations, we
+find that accumulated densities can fall within the reach of
+precision ion-trap measurements, Cavendish experiments,
+and electrostatic accelerator experiments, highlighting the
+near-term feasibility of probing previously unexplored
+parameter space.
+Our results open a new direction in the search for light
+particles beyond the Standard Model and is a complementary
+approach to accelerator-based searches. In a companion
+paper [21], we show how a simple Cavendish test housed
+within an accumulator can probe currently unexplored
+parameter space, outperforming future accelerator searches
+for sub-GeV mCPs. Futurework will focus on the integration
+of other concrete detection strategies within the accumulator
+and potential optimizations such as cryogenic operation.
+BERLIN, BOGORAD, GRAHAM, and RAMANI
+PHYS. REV. D 114, 015016 (2026)
+015016-14
+Together, these efforts chart a clear experimental path toward
+the discovery or exclusion of mCPs across a vast range of
+masses and couplings.
+ACKNOWLEDGMENTS
+We thank Paddy Fox and Kevin Kelly for valuable
+conversations. This manuscript has been authored in part
+by Fermi Forward Discovery Group, LLC under Contract
+No. 89243024CSC000002 with the U.S. Department of
+Energy, Office of Science, Office of High Energy Physics.
+This material is based upon work supported by the U.S.
+Department
+of Energy,
+Office
+of Science, National
+Quantum
+Information
+Science
+Research
+Centers,
+Superconducting Quantum Materials and Systems Center
+(SQMS) under Contract No. DE-AC02-07CH11359. This
+work was supported in part by NSF Grant No. PHY-
+2310429, Simons Investigator Award No. 824870, the
+Gordon
+and
+Betty
+Moore
+Foundation
+Grant
+No. GBMF7946, and the John Templeton Foundation
+Award No. 63595.
+DATA AVAILABILITY
+The data are not publicly available. The data are
+available from the authors upon reasonable request.
+APPENDIX A: ACCUMULATION
+In this appendix, we derive the form of the accumulation
+velocity VE in Eq. (8). Let us first investigate the highly
+collisional regime, in which case mCPs can be approxi-
+mated as an ideal fluid. The Euler equation in the presence
+of external electric E and gravitational g fields is then
+∂tVχ þ ðVχ · ∇ÞVχ þ ΓpVχ ¼ eqχ
+mχ
+E þ g −∇Pχ
+mχnχ
+;
+ðA1Þ
+where Vχ is the mCP bulk velocity and Pχ ≃Tχnχ is the
+mCP pressure. As derived in Ref. [14], the momentum-
+exchange rate from mCP-atomic collisions is
+Γp ≃nN ×
+(
+3¯v2
+0hvrel=σTi−1
+ðmχ ≪mNÞ
+ðmN=mχÞð3¯v2
+0Þ−1hσTv3
+reli
+ðmχ ≫mNÞ
+;
+ðA2Þ
+where σT is the transfer cross section; the brackets refer to a
+thermal averageoftherelativevelocityvrel with a Maxwellian
+distribution of variance ¯v2
+0 ≡Tχ=mχ þ TN=mN; and nN, mN,
+and TN are the nuclear density, mass, and temperature,
+respectively. In the highly collisional limit, we can ignore
+the first two terms on the left-hand side of Eq. (A1), which
+then gives
+Vχ ≃eqχE
+mχΓp
+þ g
+Γp
+−Dχ
+nχ
+∇nχ;
+ðA3Þ
+where Dχ ¼ Tχ=ðmχΓpÞ is the diffusion coefficient, and we
+approximated the mCP temperature Tχ as uniform. The first
+two terms in Eq. (A3) correspond to the bulk drift velocity in
+an external electric or gravitational field, whereas the third
+term is simply the bulk motion due to thermal diffusion away
+from pressure gradients.
+Equation (A3) is valid in the limit that mCPs rapidly
+scatter off of atoms, such that their temperature closely
+tracks the temperauture TN of the immediate environment.
+This requires both the momentum-exchange rate Γp and the
+energy-exchange rate ΓE ≃ðμχN=mNÞΓp to be large. In our
+analysis, we take the incoming mCPs to have an initial
+temperature Tχ ≃TN; hence, we have ignored the fact that
+for the smallest masses and couplings considered in this
+work, the suppression in ΓE implies that mCPs can gain
+kinetic energy greater than TN after accelerating into the
+accumulator. We have checked that the main effect of such
+acceleration is to increase the rate for mCP-atomic scatter-
+ing, since the nuclear charge is less screened by atomic
+electrons for larger momentum transfer. Our approximation
+in Eq. (A3) is therefore conservative.
+If eqχE ≫mχg, then we can ignore the second term in
+Eq. (A3), in which case the induced current of mCPs is
+jχ ≃eqχ
+
+nχ
+eqχE
+mχΓp
+−Dχ∇nχ
+
+:
+ðA4Þ
+The standard diffusion equation then follows directly from
+continuity of this current, eqχ∂tnχ þ ∇· jχ ¼ 0. In the
+steady-state limit, we can ignore the first term involving
+the time derivative, which in the case of spherical symmetry
+yields
+nχ
+eqχE
+mχΓp
+−Dχ∇nχ ¼ constant
+r2
+ˆr:
+ðA5Þ
+Equation (A5) can be analytically solved for the number
+density nχ in the simple case that the electric field scales as
+E ¼ −E0ðR0=rÞ−nˆr for r ≥R0, where R0 is the radius of
+the shell and n is some positive integer. In doing so, we
+normalize the number density to a constant at a distance far
+from the shell, limr→∞nχðrÞ ¼ n∞, and enforce an absorb-
+ing boundary condition at the shell, nχðR0Þ ¼ 0, corre-
+sponding to a perfectly efficient electric trap. Substituting
+the solution for nχ back in Eq. (A4), we find that for n ¼ 2
+or n ¼ 3 (corresponding to a monopole or an approxi-
+mately dipole electric field, respectively),
+ELECTRIC ACCUMULATION OF MILLICHARGED PARTICLES
+PHYS. REV. D 114, 015016 (2026)
+015016-15
+jχðrÞ ¼ −ðeqχÞ2n∞E0
+mχΓp
+R0
+r
+2
+ˆr ×
+8
+<
+:
+ð1 −e−cEÞ−1 ≃1
+ðn ¼ 2Þ
+Erfð
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+cE=2
+p
+Þ−1
+ﬃﬃﬃﬃﬃ
+2
+πcE
+q
+≃
+ﬃﬃﬃﬃﬃ
+2
+πcE
+q
+ðn ¼ 3Þ ;
+cE ≡eqχϕ0
+Tχ
+;
+ðA6Þ
+where in the second equality of each line we take
+cE ≡eqχϕ0=Tχ ≫1, corresponding to mCPs that are
+efficiently bound to the shell. Identifying the accumulation
+velocity as VE ¼ jχðR0Þ=ðeqχn∞Þ, we see that Eq. (A6)
+reproduces Eq. (8) in the limit that mCPs are highly
+collisional and strongly bound to the shell. Note that this
+applies only to spherically symmetric potentials; for a
+dipole, we thus expect Oð1Þ corrections, accounting for the
+fact that the electric field is not radial for an Oð1Þ fraction
+of solid angles.
+Now, let us consider the ballistic limit, in which case we
+can ignore collisions between mCPs and air before they
+accumulate in the potential ϕ0 of the driven shell. In this
+case, we can derive the accumulation of particles for a
+general
+spherically
+symmetric
+electric
+potential.
+We
+write
+the
+electric
+potential
+energy
+of
+an
+mCP
+as
+eqχϕðrÞ ¼ −1
+2 mχv2escjϕðrÞ=ϕ0j, where ϕ0 ¼ jϕðR0Þj, and
+vesc ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2eqχϕ0=mχ
+p
+is the electrical escape velocity of the
+shell. The trajectory of an mCP with initial velocity vth ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+3Tχ=mχ
+p
+is determined by the one-dimensional effective
+potential energy,
+UeffðrÞ ¼ −1
+2 mχv2esc
+
+ϕðrÞ
+ϕ0
+ þ vthb
+2r2 ;
+ðA7Þ
+where b is the mCP impact parameter with respect to the
+center of the potential. At the mCP’s distance of closest
+approach rmin, Ueff is equal to the mCP’s initial kinetic
+energy, yielding
+b ¼ rmin
+
+1 þ v2esc
+v2
+th
+
+ϕðrminÞ
+ϕ0
+
+1=2
+:
+ðA8Þ
+Taking rmin ¼ R0 then determines the maximum impact
+parameter for which an mCP passes through the shell,
+bmax ¼ R0
+
+1 þ v2esc
+v2
+th
+1=2
+:
+ðA9Þ
+Thus, for vesc ≫vth, the accumulation rate is dictated by
+vthb2max ≃vthR2
+0
+vesc
+vth
+2
+¼ R2
+0
+eqχE0=mχ
+vth=2R0
+;
+ðA10Þ
+corresponding to the ballistic regime of Eq. (8). Once again,
+this applies only to a spherically symmetric potential. In the
+case of a dipole, which is not symmetric or purely radial,
+we thus expect that this is not a good approximation when
+rmin ≃R0, in which case an incoming mCP traverses a large
+range of solid angles before its closest approach to the shell.
+However, this is not a concern for the majority of the
+parameter space that we consider, since for rmin ≪R0,
+mCPs follow approximately radial trajectories, leading to
+only Oð1Þ corrections.
+APPENDIX B: DIFFUSION AND DRIFT
+In Eq. (10), we used the fact that the diffusion flux
+through a barrier of thickness Δx scales as Dχ=Δx, and that
+the flux induced by gravity scales as Vg ¼ g=Γp. This can
+be seen from the fluid equations
+∂tρχ þ ∇· jχ ¼ 0;
+jχ ≃ρχ
+eqχE
+mχΓp
+þ g
+Γp
+
+−Dχ∇ρχ;
+ðB1Þ
+where ρχ and jχ are the millicharge and millicurrent
+densities. Above, the first line is simply continuity of
+mCPs. The second line follows from the Euler equation, as
+in Eq. (A4), but now including the gravitational term.
+If the gravitational field dominates, then jχ ≃ρχVg,
+where Vg ¼ g=Γp is the gravitational drift velocity. We
+next take the current density jχ in Eq. (B1) to be dictated
+solely by diffusion, jχ ¼ −Dχ∇ρχ. Define the region of the
+barrier as x ∈ðx0; xabsÞ, where xabs −x0 ¼ Δx and an
+electric absorber (trap) is placed at xabs. We denote the
+outside air (x < x0) as region 1 and the interior of the
+barrier as region 2. We also take the diffusion coefficient to
+be constant in each region. Integrating from x1 in region 1
+to x2 in region 2, we then have
+ρχðx2Þ −ρχðx1Þ ¼ −jχ
+x0 −x1
+Dχðx1Þ þ x2 −x0
+Dχðx2Þ
+
+:
+ðB2Þ
+Enforcing the absorbing boundary condition nðxabsÞ ¼ 0,
+this reduces to
+ρχðxÞ ¼ jχ ×
+8
+<
+:
+x0−x
+Dχðx1Þ þ xabs−x0
+Dχðx2Þ
+ðx < x0Þ
+xabs−x
+Dχðx2Þ
+ðx0 < x < xabsÞ :
+ðB3Þ
+Now, we demand that for x ≪x0, ρχðxÞ ≃¯ρχ, where ¯ρχ is
+the ambient charge density. Using this in the expression
+above and solving for jχ then gives
+BERLIN, BOGORAD, GRAHAM, and RAMANI
+PHYS. REV. D 114, 015016 (2026)
+015016-16
+jχ ≃¯ρχ
+
+x0
+Dχðx1Þ þ xabs −x0
+Dχðx2Þ
+−1
+≃¯ρχ
+Dχðx2Þ
+Δx
+;
+ðB4Þ
+where in the second equality, we took Dχðx2Þ ≪Dχðx1Þ due to the much larger density of the barrier compared to air.
+[1] G. Aad et al. (ATLAS Collaboration), The quest to discover
+supersymmetry at the ATLAS experiment, Phys. Rep. 1116,
+261 (2025).
+[2] R. Essig et al., Working group report: New light weakly
+coupled particles, in Snowmass 2013: Snowmass on the
+Mississippi (2013), arXiv:1311.0029.
+[3] M. Battaglieri et al., US Cosmic Visions: New ideas in dark
+matter 2017: Community report, in U.S. Cosmic Visions:
+New Ideas in Dark Matter (2017), arXiv:1707.04591.
+[4] P. Agrawal et al., Feebly-interacting particles: FIPs 2020
+workshop report, Eur. Phys. J. C 81, 1015 (2021).
+[5] B. Holdom, Two U(1)’s and Epsilon charge shifts, Phys.
+Lett. 166B, 196 (1986).
+[6] E. Zavattini et al. (PVLAS Collaboration), Experimental
+observation of optical rotation generated in vacuum by a
+magnetic field, Phys. Rev. Lett. 96, 110406 (2006); Phys.
+Rev. Lett. 99, 129901(E) (2007).
+[7] J. Chang et al., An excess of cosmic ray electrons at energies
+of 300–800 GeV, Nature (London) 456, 362 (2008).
+[8] O. Adriani et al. (PAMELA Collaboration), An anomalous
+positronabundanceincosmicrayswith energies1.5–100GeV,
+Nature (London) 458, 607 (2009).
+[9] R. Barkana, Possible interaction between baryons and dark-
+matter particles revealed by the first stars, Nature (London)
+555, 71 (2018).
+[10] A. Berlin, D. Hooper, G. Krnjaic, and S. D. McDermott,
+Severely constraining dark matter interpretations of the
+21-cm anomaly, Phys. Rev. Lett. 121, 011102 (2018).
+[11] R. Barkana, N. J. Outmezguine, D. Redigolo, and T.
+Volansky, Strong constraints on light dark matter interpre-
+tation of the EDGES signal, Phys. Rev. D 98, 103005
+(2018).
+[12] H. Liu, N. J. Outmezguine, D. Redigolo, and T. Volansky,
+Reviving millicharged dark matter for 21-cm cosmology,
+Phys. Rev. D 100, 123011 (2019).
+[13] M. Pospelov and H. Ramani, Earth-bound millicharge
+relics, Phys. Rev. D 103, 115031 (2021).
+[14] A. Berlin, H. Liu, M. Pospelov, and H. Ramani, Terrestrial
+density of strongly-coupled relics, Phys. Rev. D 109,
+075027 (2024).
+[15] T. Gao and M. Pospelov, Constraints on millicharged
+particles from nuclear gamma-decays, arXiv:2507.17955.
+[16] R. Plestid, V. Takhistov, Y.-D. Tsai, T. Bringmann, A.
+Kusenko, and M. Pospelov, New constraints on milli-
+charged particles from cosmic-ray production, Phys. Rev.
+D 102, 115032 (2020).
+[17] D. Carney, H. Häffner, D. C. Moore, and J. M. Taylor,
+Trapped electrons and ions as particle detectors, Phys. Rev.
+Lett. 127, 061804 (2021).
+[18] D. Budker, P. W. Graham, H. Ramani, F. Schmidt-Kaler, C.
+Smorra, and S. Ulmer, Millicharged dark matter detection
+with ion traps, PRX Quantum 3, 010330 (2022).
+[19] G. Afek, F. Monteiro, J. Wang, B. Siegel, S. Ghosh, and
+D. C. Moore, Limits on the abundance of millicharged
+particles bound to matter, Phys. Rev. D 104, 012004 (2021).
+[20] A. Berlin, R. Tito D’Agnolo, S. A. R. Ellis, and J. I.
+Radkovski, Signals of millicharged dark matter in light-
+shining-through-wall experiments, J. High Energy Phys. 08
+(2023) 017.
+[21] A. Berlin, Z. Bogorad, P. W. Graham, and H. Ramani,
+companion paper, Cavendish tests of millicharged particles,
+Phys. Rev. Lett. 137, 021804 (2026).
+[22] A. Berlin, R. T. D’Agnolo, S. A. R. Ellis, P. Schuster, and N.
+Toro, Directly deflecting particle dark matter, Phys. Rev.
+Lett. 124, 011801 (2020).
+[23] N. Arkani-Hamed and N. Weiner, LHC signals for a
+SuperUnified theory of dark matter, J. High Energy Phys.
+12 (2008) 104.
+[24] T. Gherghetta, J. Kersten, K. Olive, and M. Pospelov,
+Evaluating the price of tiny kinetic mixing, Phys. Rev. D
+100, 095001 (2019).
+[25] X.-G. Wen and E. Witten, Electric and magnetic charges in
+superstring models, Nucl. Phys. B261, 651 (1985).
+[26] M. Gell-Mann, P. Ramond, and R. Slansky, Color embed-
+dings, charge assignments, and proton stability in unified
+gauge theories, Rev. Mod. Phys. 50, 721 (1978).
+[27] G. G. Athanasiu, J. J. Atick, M. Dine, and W. Fischler,
+Remarks on Wilson lines, modular invariance and possible
+string relics in Calabi-Yau compactifications, Phys. Lett. B
+214, 55 (1988).
+[28] P. Langacker and G. Steigman, Requiem for an FCHAMP?
+fractionally charged, massive particle, Phys. Rev. D 84,
+065040 (2011).
+[29] C. A. Argüelles Delgado, K. J. Kelly, and V. Muñoz
+Albornoz, Millicharged particles from the heavens: Single-
+and multiple-scattering signatures, J. High Energy Phys. 11
+(2021) 099.
+[30] R. Harnik, R. Plestid, M. Pospelov, and H. Ramani, Milli-
+charged cosmic rays and low recoil detectors, Phys. Rev. D
+103, 075029 (2021).
+[31] S. Davidson, S. Hannestad, and G. Raffelt, Updated bounds
+on millicharged particles, J. High Energy Phys. 05 (2000)
+003.
+[32] A. Haas, C. S. Hill, E. Izaguirre, and I. Yavin, Looking for
+milli-charged particles with a new experiment at the LHC,
+Phys. Lett. B 746, 117 (2015).
+[33] A. A. Prinz et al., Search for millicharged particles at SLAC,
+Phys. Rev. Lett. 81, 1175 (1998).
+ELECTRIC ACCUMULATION OF MILLICHARGED PARTICLES
+PHYS. REV. D 114, 015016 (2026)
+015016-17
+[34] R. Acciarri et al. (ArgoNeuT Collaboration), Improved
+limits on millicharged particles using the ArgoNeuT experi-
+ment at Fermilab, Phys. Rev. Lett. 124, 131801 (2020).
+[35] A. Ball et al. (milliQan Collaboration), Sensitivity to
+millicharged particles in future proton-proton collisions at
+the LHC with the milliQan detector, Phys. Rev. D 104,
+032002 (2021).
+[36] R. Alemany Fernández et al. (PBC Collaboration), Sum-
+mary report of the physics beyond colliders study at CERN,
+arXiv:2505.00947.
+[37] A. Hayrapetyan et al. (CMS Collaboration), Search for
+fractionally charged particles in proton-proton collisions at
+s ¼ 13 TeV, Phys. Rev. Lett. 134, 131802 (2025).
+[38] S. Alcott et al., Search for millicharged particles in proton-
+proton collisions at
+ﬃﬃs
+p ¼ 13.6 TeV, Phys. Rev. Lett. 135,
+121802 (2025).
+[39] J. H. Chang, R. Essig, and S. D. McDermott, Supernova
+1987A constraints on sub-GeV dark sectors, millicharged
+particles, the QCD axion, and an axion-like particle, J. High
+Energy Phys. 09 (2018) 051.
+[40] M. Marinelli and G. Morpurgo, Searches of fractionally
+charged particles in matter with the magnetic levitation
+technique, Phys. Rep. 85, 161 (1982).
+[41] P. C. Kim, E. R. Lee, I. T. Lee, M. L. Perl, V. Halyo, and D.
+Loomba, Search for fractional-charge particles in meteoritic
+material, Phys. Rev. Lett. 99, 161804 (2007).
+[42] D. C. Moore, A. D. Rider, and G. Gratta, Search for milli-
+charged particles using optically levitated microspheres,
+Phys. Rev. Lett. 113, 251801 (2014).
+[43] S. L. Dubovsky, D. S. Gorbunov, and G. I. Rubtsov, Nar-
+rowing the window for millicharged particles by CMB
+anisotropy, JETP Lett. 79, 1 (2004).
+[44] R. de Putter, O. Dor´e, J. Gleyzes, D. Green, and J. Meyers,
+Dark matter interactions, helium, and the cosmic microwave
+background, Phys. Rev. Lett. 122, 041301 (2019).
+[45] E. D. Kovetz, V. Poulin, V. Gluscevic, K. K. Boddy, R.
+Barkana, and M. Kamionkowski, Tighter limits on dark
+matter explanations of the anomalous EDGES 21 cm signal,
+Phys. Rev. D 98, 103529 (2018).
+[46] M. A. Buen-Abad, R. Essig, D. McKeen, and Y.-M. Zhong,
+Cosmological constraints on dark matter interactions with
+ordinary matter, Phys. Rep. 961, 1 (2022).
+[47] K. Griest and M. Kamionkowski, Unitarity limits on the
+mass and radius of dark matter particles, Phys. Rev. Lett. 64,
+615 (1990).
+[48] A. Berlin, H. Liu, M. Pospelov, and H. Ramani, Low-energy
+signals from the formation of dark-matter–nucleus bound
+states, Phys. Rev. D 105, 095028 (2022).
+[49] X. Gan and Y.-D. Tsai, Cosmic millicharge background
+and reheating probes, J. High Energy Phys. 07 (2023)
+094.
+[50] K. K. Boddy, K. Freese, G. Montefalcone, and B. Shams Es
+Haghi, Minimal dark matter freeze-in with low reheating
+temperatures and implications for direct detection, Phys.
+Rev. D 111, 063537 (2025).
+[51] N. Bernal, C. S. Fong, and O. Zapata, Probing low-reheating
+scenarios with minimal freeze-in dark matter, J. High
+Energy Phys. 02 (2024) 161.
+[52] T. Emken, R. Essig, C. Kouvaris, and M. Sholapurkar,
+Direct detection of strongly interacting sub-GeV dark matter
+via electron recoils, J. Cosmol. Astropart. Phys. 09 (2019)
+070.
+[53] D. Dunsky, L. J. Hall, and K. Harigaya, CHAMP cosmic
+rays, J. Cosmol. Astropart. Phys. 07 (2018) 015.
+[54] M. Du, R. Fang, and Z. Liu, Millicharged particles from
+proton bremsstrahlung in the atmosphere, J. High Energy
+Phys. 08 (2022) 174.
+[55] H. Wu, E. Hardy, and N. Song, Searching for heavy
+millicharged particles from the atmosphere, Phys. Rev. D
+110, 115037 (2024).
+[56] R. G. Harrison, The global atmospheric electrical circuit and
+climate, Surv. Geophys. 25, 441 (2004).
+[57] S. Tulin, H.-B. Yu, and K. M. Zurek, Beyond collisionless
+dark matter: Particle physics dynamics for dark matter halo
+structure, Phys. Rev. D 87, 115007 (2013).
+[58] B. Colquhoun, S. Heeba, F. Kahlhoefer, L. Sagunski, and S.
+Tulin, Semiclassical regime for dark matter self-interactions,
+Phys. Rev. D 103, 035006 (2021).
+[59] B. M. of Science, Giant Van de Graaff, https://spark.iop.org/
+giant-van-de-graaff.
+[60] R. Lasenby, Long range dark matter self-interactions and
+plasma instabilities, J. Cosmol. Astropart. Phys. 11 (2020)
+034.
+[61] W. DeRocco and P. Giffin, Dark plasmas in the nonlinear
+regime: Constraints from particle-in-cell simulations, Phys.
+Rev. D 111, 095031 (2025).
+[62] A. Berlin and K. Schutz, Helioscope for gravitationally
+bound millicharged particles, Phys. Rev. D 105, 095012
+(2022).
+[63] A. Berlin, S. Rajendran, H. Ramani, and E. H. Tanin, Direct
+deflection of millicharged radiation, J. High Energy Phys.
+04 (2024) 198.
+[64] S. J. Plimpton and W. E. Lawton, A very accurate test of
+Coulomb’s law of force between charges, Phys. Rev. 50,
+1066 (1936).
+BERLIN, BOGORAD, GRAHAM, and RAMANI
+PHYS. REV. D 114, 015016 (2026)
+015016-18
