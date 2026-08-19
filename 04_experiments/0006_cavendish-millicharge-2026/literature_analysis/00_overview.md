@@ -23,12 +23,12 @@ path: 04_experiments/0006_cavendish-millicharge-2026
 
 ## 核心发现
 
-Berlin 等提出将**百年历史的 Cavendish 库仑定律检验**重新解释为**毫电荷粒子（millicharged particles, mCPs）的探测工具**：带电导体壳内部本应无电场，但若存在穿过壳体的 mCPs，则壳内会积累 mCPs 并产生可测电压。他们重新解读了 **Plimpton–Lawton (1936, PL)** 和 **Bartlett–Goldhagen–Phillips (1970, BGP)** 两个 Cavendish 实验，给出对 mCP 电荷 q_χ 和数密度 n_χ 的新约束——这些约束与离子阱实验互补，在某些参数空间更强。进一步，他们在 Cavendish 装置外加一层**静电 accumulator 壳**（-1 MV, R=2 m），可探测宇宙线空气簇射产生的**不可约 mCP 通量**（n_χ ~ 10⁻⁵ cm⁻³ (q/10⁻⁴)²），灵敏度达到 n_χ ~ 10⁻¹⁶ cm⁻³，**超越未来加速器（LDMX、LHC）对 sub-GeV mCPs 的灵敏度**——仅用几十年的老技术即可做到。
+Berlin 等提出将**百年历史的 Cavendish 库仑定律检验**重新解释为**毫电荷粒子（millicharged particles, mCPs）的探测工具**：带电导体壳内部本应无电场，但若存在穿过壳体的 mCPs，则壳内会积累 mCPs 并产生可测电压。他们重新解读了 **Plimpton–Lawton (1936, PL)** 和 **Bartlett–Goldhagen–Phillips (1970, BGP)** 两个 Cavendish 实验，给出对 mCP 电荷 q_χ 和数密度 n_χ 的新约束——这些约束与离子阱实验互补，在某些参数空间更强。进一步，他们在 Cavendish 装置外加一层**静电 accumulator 壳**（-1 MV, R=2 m），可探测宇宙线空气簇射产生的**不可约 mCP 通量**（n_χ ~ 10^{-}^{5} cm^{-}^{3} (q/10^{-}^{4})^{2}），灵敏度达到 n_χ ~ 10^{-}^{1}^{6} cm^{-}^{3}，**超越未来加速器（LDMX、LHC）对 sub-GeV mCPs 的灵敏度**——仅用几十年的老技术即可做到。
 
 ## 文献定位
 
 - **观测类型**：重新解读历史 Cavendish 库仑定律检验 + 提出新型 accumulator 方案
-- **核心约束**：mCP 电荷 q_χ（10⁻⁶–10⁻²）与数密度 n_χ（10⁻¹–10⁶ cm⁻³）；mCP 质量 m_χ（1 MeV–1 GeV）
+- **核心约束**：mCP 电荷 q_χ（10^{-}^{6}–10^{-}^{2}）与数密度 n_χ（10^{-}^{1}–10^{6} cm^{-}^{3}）；mCP 质量 m_χ（1 MeV–1 GeV）
 - **相关库内文献**：ams02-2015（宇宙线次级反质子/正电子，mCP 产生机制相关）、icecube-2013（高能宇宙线观测）
 - **领域坐标**：粒子物理 / 暗物质直接探测 / 精密电学测量交叉；PRLETTER 封面推荐（Physics Feature）
 

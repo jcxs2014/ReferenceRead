@@ -66,7 +66,7 @@ $$V_E \simeq \frac{eq_\chi E_0}{m_\chi / \tau_{\rm air}} \left/ \max\left(\tau_{
 | $T$ | 300 | K | 室温 |
 | $q_\chi$ | $10^{-6}$–$10^{-2}$ | 无量纲 | mCP 电荷 |
 | $m_\chi$ | $1$ MeV–$1$ GeV | GeV | mCP 质量 |
-| $n_\chi$ | $10^{-1}$–$10^{6}$ | cm⁻³ | 环境 mCP 数密度 |
+| $n_\chi$ | $10^{-1}$–$10^{6}$ | cm^{-}^{3} | 环境 mCP 数密度 |
 | $q_\chi$ 加速器限 | $10^{-4}$ | 无量纲 | GeV 尺度尚未排除 |
 | 积聚提升 | $10^{12}$ | 无量纲 | accumulator 密度增强上限 |
 

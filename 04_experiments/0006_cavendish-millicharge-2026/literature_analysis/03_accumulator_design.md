@@ -47,7 +47,7 @@ $$n_{\rm trap} = n_\chi \simeq 3\, \epsilon_{\rm strong}^{(\rm trap)}\, V_E^{(\r
 
 **[FACT]** 积聚饱和对**动力学混合参数 $\epsilon \gtrsim \sqrt{\Delta\phi_\chi/\phi_0} \sim \sqrt{1\,\mathrm{nV}/100\,\mathrm{kV}} = 10^{-7}$** 的模型无关；对本信 Letter 探索的大多数参数空间**不重要**。
 
-**[FACT]** 模型无关灵敏度（Supplemental Material [41]）：$n_\chi$ 可低至 $\sim 10^{-16}$ cm⁻³，覆盖的 $q_\chi$ 范围比 Fig. 1 宽得多。
+**[FACT]** 模型无关灵敏度（Supplemental Material [41]）：$n_\chi$ 可低至 $\sim 10^{-16}$ cm^{-}^{3}，覆盖的 $q_\chi$ 范围比 Fig. 1 宽得多。
 
 ## 3.3 关键公式
 
@@ -76,7 +76,7 @@ $$E_\chi \sim \left(\frac{eq_\chi}{e'}\right)^2 E_0 = \epsilon^2 E_0$$
 | $t_{\rm int}$ | $1$ yr $\approx 8.76\times10^6$ | s |
 | 噪声（外推） | $\sim 10^{-11}$ | V |
 | 内压 | $10^{-6}$ | atm |
-| 最低可探测 $n_\chi$ | $\sim 10^{-16}$ | cm⁻³ |
+| 最低可探测 $n_\chi$ | $\sim 10^{-16}$ | cm^{-}^{3} |
 
 ## 3.5 图表分析
 
@@ -84,7 +84,7 @@ $$E_\chi \sim \left(\frac{eq_\chi}{e'}\right)^2 E_0 = \epsilon^2 E_0$$
 
 ## 3.6 作者的逻辑
 
-**问题** → Cavendish 本身灵敏度不够 → **方法** → 套 accumulator 壳（同 companion paper [30] 物理）→ **设计** → 2 m 铁壳 / -1 MV / 室内真空 10⁻⁶ atm / 1 yr 积分 → **结果** → 噪声降至 $10^{-11}$ V，密度 $10^{10}$ 提升 → **局限** → 暗光子动力学混合积聚饱和仅对 $\epsilon \ll 10^{-7}$ 无关。
+**问题** → Cavendish 本身灵敏度不够 → **方法** → 套 accumulator 壳（同 companion paper [30] 物理）→ **设计** → 2 m 铁壳 / -1 MV / 室内真空 10^{-}^{6} atm / 1 yr 积分 → **结果** → 噪声降至 $10^{-11}$ V，密度 $10^{10}$ 提升 → **局限** → 暗光子动力学混合积聚饱和仅对 $\epsilon \ll 10^{-7}$ 无关。
 
 ## 3.7 我的理解（INTERPRETATION）
 
