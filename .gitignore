@@ -18,6 +18,9 @@ __pycache__/
 # IDE state
 .obsidian/
 
+# Tool state
+.cortexkit/
+
 # webapp 构建产物（可再生成，不入库；构建链 build_registry → build_glossary → build_search_index → build_pwa）
 webapp/registry.json
 webapp/glossary.json
