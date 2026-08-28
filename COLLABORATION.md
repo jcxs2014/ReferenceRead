@@ -26,6 +26,12 @@
 
 ## 📨 消息列表
 
+### [2026-08-28 08:59 UTC] [Hermes] → All
+**Hermes 加入 papers 协作系统**
+- 身份：Hermes
+- 状态：✅ 已加入
+- 本次任务：迁移系统记忆 + 整理工作记录
+
 ### [系统初始化] → All
 **Papers 项目独立工作区协作系统已部署**
 - **项目**：`HermesLocal/papers`（天体物理文献深度精读库，57 篇 / 4 域）
@@ -79,13 +85,37 @@
 
 | 任务 | 负责人 (IDE) | 状态 | 最后更新 (UTC) |
 |------|----------|------|----------|
+| 迁移系统记忆到协作板 + 整理工作记录 | [Hermes] | ✅ 已完成 | 2026-08-28 |
 | （示例）查看消息板 | [Opencode-IDE] | 🔄 进行中 | 2026-06-22 |
 
 ---
 
 ## 📝 协作日志
 
-*（此区域自动生成，记录重要的协作事件）*
+### [2026-08-19] 系统记忆迁移（来自 HERMES_MEMORY/2026-08-19.md）
+
+#### 事件：内置 `memory` 工具整轮锁死
+- 现象：Hermes 报"Memory 工具在此会话完全损坏（连续多次报内部错误）"，放弃更新；三条教训暂存聊天待重试。
+- 根因（查 `agent.log` / `errors.log` 实证，非崩溃，是护栏叠加）：
+  1. **超限拒绝（主因）**：`memory_char_limit: 2200` 硬上限，实际 MEMORY.md 已 ~4287–4677 字符（现盘上 8114 字节 / 58 行），任何增写被拒。
+  2. **漂移守卫（11:16）**：`Refusing to write MEMORY.md ... wouldn't round-trip (manual edit / patch tool / sister-session write)` → 生成 `.bak` 快照（目录里 5 个 `.bak`）。
+  3. **调用姿势错**：`operations must be a list of {action, content?, old_text?}`；`replace` 要求 `old_text` 逐字匹配，全失败。
+  4. **断路器**：`Memory consolidation failed 7 times this turn. Stop retrying` → 强制停写。
+- 结论：护栏本身正常；"整轮完全写不进"是脆性（全局单文件 + 硬上限 + 漂移无解锁出口 + 跨机改写）。记忆未丢（盘上可读）。
+- 决策：重构为**工作区根目录文件式记忆**（`HermesLocal/HERMES_MEMORY/`），落地于本目录；内置工具仅留作极轻量小事实。
+
+#### 下午事项（13:40 起）
+- **electric-accumulation-2026 入库完成**：`04_experiments/0005_electric-accumulation-2026`（PRD 114, 015016, Berlin et al. 2026）；cavendish 重编号 `0005_cavendish` → `0006_cavendish-millicharge-2026`；精读 12 个 md 文件 / 586 行 / FACT=87 / INTERP=29 / CRIT=5；Commit `dfb771d` / `116afb9` / `7733f67` / `4cf1f44`；审计全部 29 项通过 ✅。
+- **记忆系统迁移**：`papers_MEMORY.md` 完成三条教训整合；与 `HERMES_MEMORY/papers_MEMORY.md` 内容对齐；commit `59d290b`。
+
+#### Commit 纪律教训（本会话记录）
+1. commit message 写"N文件"必须与 `git ls-files | wc -l` 实测吻合（本会话：报11实12）
+2. `git add -f` 禁止加隐藏文件，否则绕过 .gitignore 使 .DS_Store 进 commit
+3. 总结必须列出所有 commit hash，漏报即不完整（本会话漏了 4cf1f44）
+
+#### 公式 LaTeX 教训（补）
+- electric-accumulation-0005: `\\chi` 双反斜杠致全篇公式无法渲染
+- 已入 `hermes-delivery-quality` SKILL.md 第八节：commit 前必须扫 `\\\\[a-zA-Z]{2,}` pattern
 
 ---
 
