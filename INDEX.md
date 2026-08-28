@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **57 篇文献**、**621 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **58 篇文献**、**630 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -362,6 +362,19 @@
 | 目录 | [`02_cosmic-ray-origins/0020_giacalone-2017/literature_analysis/`](02_cosmic-ray-origins/0020_giacalone-2017/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0020_giacalone-2017/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0020_giacalone-2017/literature_analysis/99_final_summary.md) |
+
+### `0021_zhang-2026`
+
+**Source models of ultrahigh-energy cosmic rays**
+
+|  |  |
+|---|---|
+| 作者 | Bing Theodore Zhang |
+| 期刊 |  |
+| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_latest_observations.md、03_implications.md、04_candidate_sources.md、…等 9 个） |
+| 目录 | [`02_cosmic-ray-origins/0021_zhang-2026/literature_analysis/`](02_cosmic-ray-origins/0021_zhang-2026/literature_analysis/) |
+| 概览 | [`00_overview.md`](02_cosmic-ray-origins/0021_zhang-2026/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0021_zhang-2026/literature_analysis/99_final_summary.md) |
 
 ---
 
@@ -768,9 +781,9 @@
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
 | 01. 宇宙线传播 | 7 | 67 |
-| 02. 宇宙线起源 | 20 | 205 |
+| 02. 宇宙线起源 | 21 | 214 |
 | 03. 恒星核合成与元素丰度 | 24 | 276 |
 | 04. 实验与观测 | 6 | 73 |
-| **合计** | **57** | **621** |
+| **合计** | **58** | **630** |
 
 > 最后更新: 2026-08-28（自动生成）

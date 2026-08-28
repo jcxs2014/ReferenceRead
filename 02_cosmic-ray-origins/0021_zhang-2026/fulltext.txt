@@ -1,0 +1,694 @@
+arXiv:2608.27078v1 [astro-ph.HE] 27 Aug 2026  Source models of ultrahigh-energy cosmic rays
+
+                                              Bing Theodore Zhang,,
+
+                                              Key Laboratory of Particle Astrophysics, Institute of High Energy Physics, Chinese Academy of Sciences,
+                                                Beijing 100049, China
+                                              TIANFU Cosmic Ray Research Center, Chengdu, China
+                                                E-mail: zhangbing@ihep.ac.cn
+
+                                                We investigate potential sources of ultrahigh-energy cosmic rays (UHECRs) and their acceleration
+                                                mechanisms, focusing on astrophysical phenomena associated with massive stellar deaths and
+                                                supermassive black holes. These phenomena include gamma-ray bursts (GRBs), engine-driven
+                                                supernovae/hypernovae, magnetars, newly born pulsars, binary neutron star mergers (BNS), tidal
+                                                disruption events (TDEs), and active galactic nuclei (AGN). While high-luminosity GRBs (HL
+                                                GRBs) are constrained as UHECR sources by high-energy neutrino observations, low-luminosity
+                                                GRBs (LL GRBs) and engine-driven supernovae remain promising candidates, with intermediate-
+                                                mass nuclei as the dominant components. Compact binary mergers and -process nucleosynthesis
+                                                in neutron-rich environments may also contribute to ultraheavy UHECRs. The composition
+                                                of UHECRs from TDEs depends on the properties of the disrupted stars. AGN, particularly
+                                                radio galaxies, remain promising sources, with acceleration occurring in their large-scale jets and
+                                                lobes. Shear acceleration mechanisms have been proposed as a viable alternative for accelerating
+                                                UHECRs, involving the re-acceleration of low-energy cosmic rays and being compatible with
+                                                the observed spectrum and composition. Future multi-messenger observations, especially from
+                                                upcoming observatories, are expected to provide critical data to refine our understanding of
+                                                UHECR origins, test existing models, and explore new acceleration mechanisms.
+
+                                              7th International Symposium on Ultra High Energy Cosmic Rays (UHECR2024)                                                    https://pos.sissa.it/
+                                              17-21 November 2024
+                                              Malargüe, Mendoza, Argentina
+
+                                                  Speaker
+
+                                              © Copyright owned by the author(s) under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives
+                                              4.0 International License (CC BY-NC-ND 4.0) All rights for text and data mining, AI training, and similar technologies for
+                                              commercial purposes, are reserved. ISSN 1824-8039 . Published by SISSA Medialab.
+Source models of ultrahigh-energy cosmic rays  Bing Theodore Zhang
+
+1. Introduction
+
+     Ultrahigh-energy cosmic rays (UHECRs) are relativistic charged nuclei originating from space,
+with energies exceeding the EeV threshold. The origin of UHECRs remains one of the most sig-
+nificant unresolved problems in modern astroparticle physics [1]. Since their first detection in the
+1960s [2], substantial progress has been made in measuring their energy spectrum. Significant
+advances have also been achieved in determining the composition of UHECRs, which is crucial
+for understanding their origins [3]. The large-scale anisotropy of UHECRs, particularly the dipole
+observed by the Auger Collaboration, provides strong evidence that UHECRs originate from extra-
+galactic sources [4]. This suggests that UHECR sources are correlated with the local distribution
+of matter in the Universe.
+
+     In the following sections, we summarize the latest observations of UHECRs, discuss methods
+to infer the properties of their sources, examine potential astrophysical candidates, and provide a
+concluding summary and perspective.
+
+2. Latest observations
+
+     Around an energy of  4 EeV, there is an "ankle", marking the transition from Galactic to
+extragalactic origins1. At an energy of around  10 EeV, there is a feature known as the "instep".
+There is also a steep flux suppression beyond  40 EeV [5, 6]. The suppression could be due
+to interactions with CMB/EBL photons, known as the GZK cutoff [7, 8], or it may reflect the
+maximum acceleration energy at the sources [1]. However, a discrepancy has been observed
+between the measured spectra of Auger and the Telescope Array (TA), which may be related to
+differences in energy scale measurements [9]. Recently, TA detected the Amaterasu particle with
+an energy of  = 240 EeV, the second-highest-energy cosmic ray detected on Earth [10]. The
+highest-energy UHECR, at 320 EeV, was detected by the Fly's Eye air shower detector in 1991 [11].
+However, no clear sources have been identified for these highest-energy CRs.
+
+     The depth of the cosmic-ray shower maximum, max, is a measurable quantity used to infer the
+particle composition [2]. Auger data suggest a mixed composition of UHECRs, with intermediate-
+mass nuclei(e.g., carbon and oxygen) and/or heavy nuclei (e.g., iron) contributing significantly
+beyond 10 EeV [12]. In particular, the fraction of protons gradually decreases above the ankle,
+while intermediate-mass nuclei may become dominant at higher energies. The contribution of
+heavy nuclei appears negligible in the energy range of 1018.4 - 1019.4 eV [12], but these results
+are strongly influenced by hadronic interaction models. The distribution of max, measured by TA
+is consistent with Auger data, although the interpretation is still debated [13]. Recently, the TA
+collaboration has studied the mass composition based on the arrival directions of UHECRs. They
+found that the composition is consistent with heavy nuclei. Furthermore, the observed isotropy of
+UHECRs above 100 EeV suggests that their composition is even heavier, possibly exceeding iron
+nuclei [14, 15].
+
+     The measurement of the dipole is one of the key achievements in UHECR detection. The
+significance of the dipole is currently around 6.8 above 8 EeV [16]. On intermediate scales, a
+hot spot has been observed in the Centaurus constellation with a significance of 4 for UHECRs
+
+    1The transition could also occur at lower energy.
+
+                                                          2
+Source models of ultrahigh-energy cosmic rays                                          Bing Theodore Zhang
+
+with energies above 8 EeV. Potential sources in this region include the radio galaxy Cen A and the
+starburst galaxy NGC 4945. The correlation with starburst galaxies (SBGs) has a significance of
+4.7 [17]. The TA collaboration has also observed a hot spot with a significance of 3.2 [10], as
+well as an excess in the Perseus-Pisces supercluster with the same significance of 3.2 [10]. More
+statistics are needed to fully understand the source properties of UHECRs.
+
+3. Implications of the sources of UHECRs
+
+     Where do UHECRs originate? Traditionally, potential sources have been inferred based on
+their acceleration capabilities and energy budgets. In recent years, however, we can also explore
+the source properties more effectively by studying the observed compositions and anisotropy.
+Additionally, the rigidity distribution of UHECRs provides further constraints on their sources.
+
+3.1 Hillas condition and energetics of UHECRs
+
+     The Hillas condition is often considered a confinement condition, representing the maximum
+acceleration capability of a source [18]. Assuming the maximum magnetic luminosity is smaller
+than the bolometric luminosity,   bol, the required minimum bolometric luminosity is
+
+                                1 2  45 2 -1 2  2
+                  bol,min >                           10                               ,                    (1)
+                                           
+                                                                              20
+                                2                                       10 eV
+
+where  is the nuclear charge,  is the Lorentz factor, and  is the dimensionless velocity of
+
+the source. Various sources meet this condition, making them potential candidates for UHECRs.
+
+These sources include energetic transients in star-forming galaxies, such as trans-relativistic super-
+
+novae/hypernovae [19-23], long and short gamma-ray bursts (GRBs) [24-26], and binary neutron
+
+star mergers (BNS) [27-29]. Magnetars and young pulsars have also been proposed as possible
+
+sources [30]. High-energy sources related to supermassive black holes are powerful accelerators,
+
+including active galactic nuclei (AGN) [31-33] and tidal disruption events (TDEs) [34-36]. Merger
+
+shocks within galaxy clusters [37, 38] and galactic superwinds of starburst galaxies (SBGs) [39, 40]
+
+could also accelerate UHECRs. An open question is whether the sources of UHECRs share similar
+properties. Assuming the maximum energy depends on luminosity, max  (/0)1/2, it is easy
+to see that the rigidity follows a power law distribution: (max)  max -pop for a given luminosity
+
+function. Recent analysis suggests narrow rigidity and nearly identical sources, with a factor of 2
+
+dispersion in maximum rigidity [41]. However, acceleration mechanisms may not directly reflect
+
+the luminosity function. This conclusion depends on the source models, including where and how
+
+the acceleration occurs.
+
+The total energy generation density of UHECRs above  3 EeV, as inferred from observations,
+
+is inj  6×1044 erg Mpc-3 yr-1 for mixed composition [6]. Ref. [42] studied the differential energy
+
+generation  rate  density  for  different  species,  finding    19.5    (0.4  -  1.5)  ×  1044  erg  Mpc-3  yr-1
+
+                                                                    
+
+for UHECRs with spectral index   1.5 at  = 1019.5 eV, see the lower left panel in Fig. 1. We
+
+show the energetics of various UHECR sources in the right panel of Fig. 1, where we can see that
+
+most of the candidate sources satisfy the required energetics.
+
+                                                     3
+Source models of ultrahigh-energy cosmic rays  Bing Theodore Zhang
+
+            Figure 1: Energy injection rate of UHECRs and energetics of potential sources [6, 42].
+
+3.2 Composition is the key to identifying the sources of UHECRs
+
+     The source properties can be inferred from the combined fit of the observed energy spectrum
+and composition [3, 43]. The best-fit results involve an injection ratio of H : He : N : Si : Fe =
+0 : 24.5% : 68.1% : 4.9% : 2.5% [3]. We can see that UHECR source has a mixed composition.
+In particular, there is a large fraction of intermediate- and heavy-mass nuclei, while the proton
+component is very small. At GeV energies, CRs are primarily protons, which is consistent with the
+solar composition [44]. The present-day solar composition for H, He, and metals is  = 0.793,
+ = 0.2469, and  = 0.0141, respectively, and the most abundant heavy nuclei are O, C, Ne, and
+Fe [45]. However, the fitting results suggest that UHECR sources require a significant enhancement
+of heavier nuclei, and the solar composition does not explain the observed data [36].
+
+     For sources linked to the deaths of massive stars or compact stars, UHECRs could be accelerated
+in the ejecta or winds. Intermediate- and heavy-mass nuclei could be drawn from stellar ejecta
+through the accretion disk via a "one-time" injection process, entrained through mixing with stellar
+ejecta or produced through explosive nucleosynthesis in the jets [46]. Low-energy CRs could be
+further accelerated to the UHE energy range in the large-scale jet of radio galaxies [47, 48]. Ref. [47]
+considers the injection of low-energy CRs at TeV energies via the discrete shear acceleration
+mechanism considering further enhancement of heavy nuclei in radio galaxies. Future precise
+measurements of the composition, especially the single-component spectrum, could confirm such a
+scenario. Intermediate and heavy nuclei could be further enhanced during the acceleration process,
+with the enhancement scaling as  ( /)2, especially for particles with a large charge-to-mass
+ratio [49].
+
+     The survival of nuclei is one of the main arguments for identifing the sources of UHECRs.
+We show the photonuclear and photomeson production cross sections for five chemical species in
+
+                                                          4
+Source models of ultrahigh-energy cosmic rays                                                     Bing Theodore Zhang
+
+                                                                         104
+
+                                               Energy loss length [Mpc]  103  Pt
+
+                                                                              Fe
+
+                                                                         102  P
+
+                                                                         101  O
+
+                                                                                         He
+
+                                                                         100
+
+                                                                         1019 1020 E [eV] 1021 1022
+
+Figure 2: Right figure: Photonuclear and photomeson production cross sections for five chemical species.
+Right: Energy loss length of various nuclei, including ultraheavy UHECR nuclei [26].
+
+Fig. 2. We can estimate the energy-loss timescale using the following formula,
+
+-1                                                                              1 
+  ( ) = 2  ¯ (¯) (¯)¯                                                                         2 ,                   (2)
+2 ¯th                                                                         ¯/2  
+
+where  is the Lorentz factor of UHECRs with mass number , ¯th is the threshold energy
+measured in the rest frame of the initial nucleus (NRF), and d/d is the differential number density
+
+of target photons [36]. Here,  (¯) =  (¯) is the photohadronic cross section related to the
+
+photomeson or photodisintegration process.     The inelasticity is              (¯)               =     ,  where    is the
+                                                                                                      
+
+total number of nucleons in the parent nucleus, and  is the number of ejected nucleons in each
+
+channel. The survival of nuclei challenges luminous sources as the origin of the observed UHECR
+
+nuclei in the internal shock model, such as HL GRBs, TDEs, and luminous blazars. Note that the
+
+external reverse/forward shock model is not affected [21, 23, 36].
+
+3.3 Sources inferred from anisotropy constraints
+
+     The absence of small-scale anisotropy constrains the effective source number density,  >
+10-5 - 10-4 Mpc-3 [50], challenging "rare" steady sources [51]. Transients as UHECR sources
+could avoid these constrains [52, 53]. Recently, Ref. [54] studied the anisotropy correlated with
+galaxies in the local sheet, considering transient sources in star-forming galaxies (or dwarfs). The
+constraint on the burst rate density is 50 Gpc-3 yr-1 <  < 30000 Gpc-3 yr-1, which is consistent
+with long-duration GRBs or trans-relativistic supernovae/hypernovae. The observed correlation
+with nearby starburst galaxies could be due to the echo of a past burst from Cen A [55, 56].
+
+4. Candidate sources of UHECRs
+
+4.1 Massive stellar deaths
+
+     In recent years, there has been a surge in the detection of transient high-energy sources
+across the entire electromagnetic spectrum, from radio to gamma rays. We consider transient
+sources linked to the deaths of massive stars, including gamma-ray bursts (GRBs), engine-driven
+supernovae/hypernovae, pulsars, and magnetar-driven transients.
+
+                                               5
+Source models of ultrahigh-energy cosmic rays  Bing Theodore Zhang
+
+Figure 3: Left panel: A schematic diagram about the origin of UHECR nuclei from GRBs. Right panel:
+The mean and standard deviation of the measured Xmax distributions as a function of energy. Figure adapted
+from Ref. [23, 64].
+
+     GRBs are the brightest and probably the most powerful high-energy astrophysical phenomena
+in the Universe [57]. High-luminosity GRBs (HL GRBs) have typical isotropic radiation lumi-
+nosities of  1051 - 1053 erg s-1. GRBs are considered promising sources of UHECRs due to
+their acceleration capability and energetics [24, 25]. However, the baryonic content of the GRB
+jet is strongly constrained by the absence of coincident detections of GRBs and high-energy neu-
+trinos [58]. A detailed analysis of thousands of GRBs showed that the prompt neutrino emission
+from all GRBs in the Universe is limited to 1% of the diffuse astrophysical neutrino flux [59]. In
+the future, multi-messenger observations of GRBs is critical to testing their ability to be the sources
+of UHECRs. In contrast, low-luminosity GRBs could dominate diffuse neutrino flux detected by
+IceCube [19].
+
+     Typically, UHECR nuclei cannot survive in the prompt emission region In the afterglow phase,
+nuclei can survive for both HL and LL GRBs [21, 23]. There are several reasons to consider LL
+GRBs as source of UHECRs, rather than HL GRBs. First, unlike HL GRBs, LL GRBs allow
+nuclei to survive. Second, the narrow-rigidity problem could be alleviated if the external shock
+accelerates the CRs. Third, the event rate of LL GRBs is higher than that of HL GRBs. In Fig. 3,
+we show an example in which the relativistic outflow can extract nuclei from the stellar core and
+accelerate them to ultrahigh energies in the energy dissipation region via internal shocks or external
+reverse-forward shocks. We show the energy spectrum of the UHECR nuclei of the Jet-B model
+with mass fractions O = 0.511, Si = 0.364 and S = 0.108, where the UHECR nuclei are in the
+complete survival regime. Newborn pulsars and magnetars are formed following the massive stellar
+collapse and low-mass neutron star merger remnant. Heavy nuclei may originate from the neutron
+star's surface and accelerate to the UHE energy range [30, 60-62]. Current limits on the diffuse
+UHE neutrino flux from Auger and IceCube started to constrain the relevant parameter space [63].
+
+4.2 Compact binary mergers
+
+     Compact binary mergers include binary neutron star mergers (NS-NS) and black hole-neutron
+star mergers (BH-NS). Short GRBs are often associated with NS-NS and BH-NS mergers, and their
+jets are efficient acceleration sites for CRs, similar to those of long GRBs. For merger shocks, the
+
+                                                          6
+Source models of ultrahigh-energy cosmic rays                  Bing Theodore Zhang
+
+large charge number can enable ultra-heavy UHECR (UH-UHECR) nuclei to be accelerated to the
+
+UHE energy range. UH nuclei are synthesized as a result of the r-process occurring in neutron-
+
+rich environments. The third-peak material exists in the equatorial plane (dynamical ejecta).
+
+Merger shocks from NS-NS or BH-NS mergers have been suggested as sources of UH-UHECR
+
+nuclei, which could be associated with the origin of the Amaterasu particle [26, 65]. Ref. [26]
+
+performed a combined fit to Auger and TA data with UH-UHECR nuclei and found that the energy
+
+generation rate density is UH-UHECR Auger  (0.1 - 15) × 1042 erg Mpc-3 yr-1 for Auger data and
+TA             (1.4 - 5.6) × 1043 erg Mpc-3 yr-1 for TA data.
+                                                               This energy bound is consistent
+   UH-UHECR
+
+with the prediction for NS-NS or NS-BH events [26].
+
+4.3 Tidal disruption events
+
+     Tidal disruption events are violent processes in which a star is disrupted by a central supermas-
+sive black hole (SMBH) [66]. TDEs have been suggested as sources of UHECRs [34-36, 67-69].
+A fraction of TDEs have relativistic jets, e.g., Sw J1644, Sw J2058, Sw J1112, and AT 2022cmc.
+UHECRs could be accelerated in the internal and external reverse/forward shocks of TDE jets [36].
+Ref. [68] showed that the maximum acceleration energy is achieved at hundreds of days after the
+optical discovery for off-axis jets considering the effect of sideways escape. The energy output of
+jetted TDEs such as the off-axis AT2018hyz event is comparable to the required energy injection
+rate of UHECRs.
+
+     The composition of UHECRs is linked to the disrupted stars, where UHECRs are accelerated in
+either the internal shock or the external reverse shock. Tidal disruption of a main-sequence star does
+not adequately explain UHECR observations. Ref. [36] considers white dwarfs (WDs) disrupted
+by an intermediate-mass black hole (IMBH). They found that while common carbon-oxygen WDs
+(CO-WDs) poorly fit the spectrum, they could still account for the UHECR composition. In contrast,
+oxygen-neon-magnesium WDs (ONeMg-WDs) better match the Auger spectrum and composition,
+with an initial mass composition of O = 0.12, Ne = 0.76, and Mg = 0.12. However, ONeMg-
+WDs are much rarer than CO-WDs, with a roughly  1/30 ratio compared to CO-WDs. However,
+CR nuclei accelerated in the internal shock, prompt emission region, cannot survive, unlike those
+in low-luminosity TDEs [36].
+
+4.4 Active galactic nuclei
+
+     Active galactic nuclei (AGN) are considered promising sources of UHECRs. Radio-loud AGN
+(or jetted AGN) have multiple sites of efficient electron and ion acceleration, including the black
+hole vicinity (several ), inner jet, kiloparsec-scale jet, and jet lobes (see Ref. [70]).
+
+     Blazars, a subclass of AGNs, are particularly powerful high-energy sources where CR nuclei
+can be accelerated to ultrahigh energies [29, 71]. In the case of BL Lacs, UHECR nuclei are
+efficiently accelerated; however, in FSRQs, the accelerated nuclei tend to disintegrate due to the
+intense radiation field in the vicinity of the jet [29]. FSRQs are also thought to be excellent sources of
+UHE neutrinos. High-energy neutrino emissions from blazars are constrained by experiments such
+as Auger, particularly for optimistic models (e.g.,  = 2.3). However, this is highly model-dependent
+due to uncertainties in spectral indices [71].
+
+     In recent years, radio galaxies have received great attention as UHECR sources. Acceleration
+processes in kiloparsec-scale jets and lobes have been studied in greater detail, particularly through
+
+                                               7
+Source models of ultrahigh-energy cosmic rays  Bing Theodore Zhang
+
+        Figure 4: Various acceleration processes in AGN jets. Figure adapted from Ref. [47, 73, 74].
+
+advanced numerical simulations. For relativistic jets, one intriguing process is one-shot accelera-
+tion, where CRs experience a dramatic energy boost of  2 if the angle between the initial and
+final directions of flight exceeds /2, accelerating particles to extremely high energies in a single
+interaction [72]. The shear acceleration mechanisms have been proposed as a viable alternative
+for accelerating UHECRs in the jet-cocoon system. The discrete shear acceleration process, a type
+of Fermi acceleration mechanism, results in CRs being accelerated and exhibiting a power-law
+energy spectrum. The escaping spectrum of CRs is hard, /   , with  = 0 - 1. The
+maximum attainable energy is estimated as , max    coccoc 1/2jet1/2jet jet  1.6 EeV, where
+  2.2. Hydrodynamic flow through hydromagnetic flux tubes in the backflows of radio galaxy
+lobes provides a conducive environment for accelerating CRs to ultrahigh energies [73]. This
+acceleration process can be understood through two overlapping mechanisms: first-order Fermi
+acceleration driven by shocks and second-order Fermi acceleration facilitated by strong turbulence.
+Within a single flux tube, the maximum energy attainable by cosmic rays at a shock is approximately
+equivalent to the Hillas energy limit max  , where  is the flow velocity along the flux tube
+and  is the width of the flux tube.
+
+     Concerning the composition of UHECRs, their origin and the processes involved in their
+acceleration remain areas of active research. The Espresso and Shear acceleration mechanisms are
+known to play a role in the acceleration of low-energy Galactic CRs. Ref. [47] considers injection
+at TeV energies and further assumes that the fraction of intermediate- and heavy-mass nuclei is
+enhanced by a factor of  3. However, if the injection occurs at the same rigidity, it becomes
+challenging to simultaneously fit both the spectrum and the composition.
+
+     It is believed that different acceleration sites within AGNs could contribute to the varying
+compositions of UHECRs detected on Earth. The nature of particle disintegration and the specific
+interactions with the radiation field in the jet regions could play key roles in shaping the observed
+UHECR spectrum.
+
+                                                          8
+Source models of ultrahigh-energy cosmic rays          Bing Theodore Zhang
+
+(a)                                               (b)
+
+Figure 5: Left panel: Predicted multiwavelength SED from the kiloparsec-scale jet after the injection of
+primary high-energy electrons (solid blue lines) and UHECR nuclei (solid red lines). Figure adapted from
+Ref. [75]. Right panel: Expected neutrino flux from UHECRs accelerated in Cen A. Figure adapted from
+Ref. [74].
+
+5. Secondary gamma-rays and neutrinos from UHECR sources
+
+     Secondary gamma-rays and neutrinos produced inside UHECR sources are powerful tools for
+exploring UHECR sources. The sources where UHECR nuclei can survive would be optically thin
+to high-energy gamma rays. Here, we discuss observations of the radio galaxy Centaurus A (Cen
+A). UHECRs could be accelerated in the large-scale jet of Cen A, where interactions with ambient
+matter and photons lead to the production of secondary neutrinos and gamma rays. In Fig. 5(a), the
+detection of de-excitation gamma rays is possible with the next-generation ground-based gamma-ray
+telescopes. High-energy neutrinos from the Cen A jet are shown in Fig. 5(b).
+
+6. Summary and perspective
+
+     The study of UHECRs has progressed significantly in the Auger and TA era, offering new
+insights into their sources, composition, and anisotropy. Sources related to massive stellar deaths,
+including HL and LL GRBs, engine-driven supernovae, pulsars, and pulsar-driven transients, can
+provide enhanced intermediate- and heavy-mass nuclei to explain the observed composition. While
+high-energy neutrino observations constrain HL GRBs, LL GRBs and engine-driven supernovae
+offer more promising conditions for UHECR production.
+
+     Compact binary mergers (NS-NS and BH-NS) may also contribute, especially to the production
+of ultraheavy UHECRs via r-processes in neutron-rich environments. Pulsars, magnetars, and TDEs
+are additional potential sources of UHECRs, with accelerated particles originating from the surfaces
+of neutron stars or the jets of disrupted stars near supermassive black holes.
+
+     AGN, particularly radio galaxies, are promising candidates, with CR nuclei accelerated in large-
+scale jets and lobes. However, the interactions in AGN jets and radiation fields remain complex and
+are still under study. Acceleration processes in kiloparsec-scale jets and lobes of radio galaxies are
+promising mechanisms for accelerating UHECRs.
+
+                                               9
+Source models of ultrahigh-energy cosmic rays  Bing Theodore Zhang
+
+     Looking ahead, next-generation observatories like AugerPrime [76] will provide more detailed
+data, improving mass resolution and enabling the identification of new UHECR events. These future
+observations will help refine our understanding of UHECR origins and acceleration mechanisms,
+offering crucial multi-messenger insights into this cosmic mystery.
+
+7. Acknowledgments
+
+     We extend our gratitude to our colleagues for their valuable contributions to advancing our
+understanding of UHECR sources. In particular, we thank Kohta Murase, Peter Mészáros, Shigeo
+Kimura, Shunsaku Horiuchi, and others for their insightful input and collaboration.
+
+References
+
+ [1] Kumiko Kotera and Angela V. Olinto. The Astrophysics of Ultrahigh Energy Cosmic Rays.
+      Ann. Rev. Astron. Astrophys., 49:119-153, 2011.
+
+ [2] K. Greisen. Cosmic ray showers. Ann. Rev. Nucl. Part. Sci., 10:63-108, 1960.
+
+ [3] A. Abdul Halim et al. Constraining the sources of ultra-high-energy cosmic rays across
+      and above the ankle with the spectrum and composition data measured at the Pierre Auger
+      Observatory. JCAP, 05:024, 2023.
+
+ [4] Alexander Aab et al. Observation of a Large-scale Anisotropy in the Arrival Directions of
+      Cosmic Rays above 8 × 1018 eV. Science, 357(6537):1266-1270, 2017.
+
+ [5] Alexander Aab et al. Measurement of the cosmic-ray energy spectrum above 2.5×1018 eV
+      using the Pierre Auger Observatory. Phys. Rev. D, 102(6):062005, 2020.
+
+ [6] Alexander Aab et al. Features of the Energy Spectrum of Cosmic Rays above 2.5×1018 eV
+      Using the Pierre Auger Observatory. Phys. Rev. Lett., 125(12):121106, 2020.
+
+ [7] Kenneth Greisen. End to the cosmic ray spectrum? Phys. Rev. Lett., 16:748-750, 1966.
+
+ [8] G. T. Zatsepin and V. A. Kuzmin. Upper limit of the spectrum of cosmic rays. JETP Lett.,
+      4:78-80, 1966. [Pisma Zh. Eksp. Teor. Fiz.4,114(1966)].
+
+ [9] Douglas R. Bergman et al. Measurement of UHECR energy spectrum with the Pierre Auger
+      Observatory and the Telescope Array. PoS, ICRC2023:406, 2024.
+
+[10] Jihyun Kim et al. Highlights from the Telescope Array Experiment. PoS, ICRC2023:008,
+      2024.
+
+[11] D. J. Bird et al. Detection of a cosmic ray with measured energy well beyond the expected
+      spectral cutoff due to cosmic microwave radiation. Astrophys. J., 441:144-150, 1995.
+
+[12] Adila Abdul Halim et al. Studies of the mass composition of cosmic rays and proton-proton
+      interaction cross-sections at ultra-high energies with the Pierre Auger Observatory. PoS,
+      ICRC2023:438, 2023.
+
+                                                          10
+Source models of ultrahigh-energy cosmic rays  Bing Theodore Zhang
+
+[13] Adila Abdul Halim et al. Depth of maximum of air-shower profiles: testing the compati-
+      bility of the measurements at the Pierre Auger Observatory and the Telescope Array. PoS,
+      ICRC2023:249, 2023.
+
+[14] R. U. Abbasi et al. Isotropy of Cosmic Rays beyond 1020 eV Favors Their Heavy Mass
+      Composition. Phys. Rev. Lett., 133(4):041001, 2024.
+
+[15] R. U. Abbasi et al. Mass composition of ultrahigh energy cosmic rays from distribution of
+      their arrival directions with the Telescope Array. Phys. Rev. D, 110(2):022006, 2024.
+
+[16] A. Abdul Halim et al. Large-scale Cosmic-ray Anisotropies with 19 yr of Data from the Pierre
+      Auger Observatory. Astrophys. J., 976(1):48, 2024.
+
+[17] Francesco Salamida. Highlights from the Pierre Auger Observatory. PoS, ICRC2023:016,
+      2023.
+
+[18] A. M. Hillas. The Origin of Ultrahigh-Energy Cosmic Rays. Ann. Rev. Astron. Astrophys.,
+      22:425-444, 1984.
+
+[19] Kohta Murase, Kunihito Ioka, Shigehiro Nagataki, and Takashi Nakamura. High Energy
+      Neutrinos and Cosmic-Rays from Low-Luminosity Gamma-Ray Bursts? Astrophys. J.,
+      651:L5-L8, 2006.
+
+[20] Xiang-Yu Wang, Soebur Razzaque, Peter Meszaros, and Zi-Gao Dai. High-energy Cosmic
+      Rays and Neutrinos from Semi-relativistic Hypernovae. Phys. Rev., D76:083009, 2007.
+
+[21] Kohta Murase, Kunihito Ioka, Shigehiro Nagataki, and Takashi Nakamura. High-energy
+      cosmic-ray nuclei from high- and low-luminosity gamma-ray bursts and implications for
+      multi-messenger astronomy. Phys. Rev., D78:023005, 2008.
+
+[22] S. Chakraborty, A. Ray, A. M. Soderberg, A. Loeb, and P. Chandra. Ultra High Energy Cosmic
+      Ray Acceleration in Engine-driven Relativistic Supernovae. Nature Commun., 2:175, 2011.
+
+[23] B. Theodore Zhang, Kohta Murase, Shigeo S. Kimura, Shunsaku Horiuchi, and Peter
+      Mészáros. Low-luminosity gamma-ray bursts as the sources of ultrahigh-energy cosmic
+      ray nuclei. Phys. Rev., D97:083010, 2018.
+
+[24] Eli Waxman. Cosmological origin for cosmic rays above 10**19-eV. Astrophys. J., 452:L1-
+      L4, 1995.
+
+[25] Mario Vietri. On the acceleration of ultrahigh-energy cosmic rays in gamma-ray bursts.
+      Astrophys. J., 453:883-889, 1995.
+
+[26] B. Theodore Zhang, Kohta Murase, Nick Ekanger, Mukul Bhattacharya, and Shunsaku Hori-
+      uchi. Ultraheavy Ultrahigh-Energy Cosmic Rays. Phys. Rev. Lett., 136(18):181002, 2026.
+
+[27] Hajime Takami, Koutarou Kyutoku, and Kunihito Ioka. High-Energy Radiation from Rem-
+      nants of Neutron Star Binary Mergers. Phys. Rev. D, 89(6):063006, 2014.
+
+                                                          11
+Source models of ultrahigh-energy cosmic rays  Bing Theodore Zhang
+
+[28] Shigeo S. Kimura, Kohta Murase, and Peter Mészáros. Super-Knee Cosmic Rays from Galactic
+      Neutron Star Merger Remnants. Astrophys. J., 866(1):51, 2018.
+
+[29] Xavier Rodrigues, Daniel Biehl, Denise Boncioli, and Andrew M. Taylor. Binary neutron star
+      merger remnants as sources of cosmic rays below the "Ankle". Astropart. Phys., 106:10-17,
+      2019.
+
+[30] Ke Fang, Kumiko Kotera, and Angela V. Olinto. Newly-born pulsars as sources of ultrahigh
+      energy cosmic rays. Astrophys. J., 750:118, 2012.
+
+[31] F. Takahara. On the Origin of Highest Energy Cosmic Rays. Progress of Theoretical Physics,
+      83(6):1071-1075, June 1990.
+
+[32] Jorg P. Rachen and Peter L. Biermann. Extragalactic ultrahigh-energy cosmic rays. 1. Contri-
+      bution from hot spots in FR-II radio galaxies. Astron. Astrophys., 272:161-175, 1993.
+
+[33] Kohta Murase, Charles D. Dermer, Hajime Takami, and Giulia Migliori. Blazars as Ultra-High-
+      Energy Cosmic-Ray Sources: Implications for TeV Gamma-Ray Observations. Astrophys. J.,
+      749:63, 2012.
+
+[34] Glennys R. Farrar and Andrei Gruzinov. Giant AGN Flares and Cosmic Ray Bursts. Astrophys.
+      J., 693:329-332, 2009.
+
+[35] Glennys R. Farrar and Tsvi Piran. Tidal disruption jets as the source of Ultra-High Energy
+      Cosmic Rays. 2014.
+
+[36] B. Theodore Zhang, Kohta Murase, Foteini Oikonomou, and Zhuo Li. High-energy cosmic
+      ray nuclei from tidal disruption events: Origin, survival, and implications. Phys. Rev.,
+      D96(6):063007, 2017.
+
+[37] C. A. Norman, D. B. Melrose, and A. Achterberg. The Origin of Cosmic Rays above 10 18.5
+      eV. Astrophys. J., 454:60, 1995.
+
+[38] H. Kang, D. Ryu, and T. W. Jones. Cluster accretion shocks as possible acceleration sites for
+      ultrahigh-energy protons below the Greisen cutoff. Astrophys. J., 456:422-427, 1996.
+
+[39] J. R. Jokipii and G. E. Morfill. On the origin of high-energy cosmic rays. Astrophys. J. Lett.,
+      290:L1-L4, March 1985.
+
+[40] Luis A. Anchordoqui, Gustavo E. Romero, and Jorge A. Combi. Heavy nuclei at the end of
+      the cosmic ray spectrum? Phys. Rev., D60:103001, 1999.
+
+[41] Domenik Ehlert, Foteini Oikonomou, and Michael Unger. Curious case of the maximum
+      rigidity distribution of cosmic-ray accelerators. Phys. Rev. D, 107(10):103045, 2023.
+
+[42] Yu Jiang, B. Theodore Zhang, and Kohta Murase. Energetics of ultrahigh-energy cosmic-ray
+      nuclei. Phys. Rev. D, 104(4):043017, 2021.
+
+                                                          12
+Source models of ultrahigh-energy cosmic rays  Bing Theodore Zhang
+
+[43] Alexander Aab et al. Combined fit of spectrum and composition data as measured by the
+      Pierre Auger Observatory. JCAP, 1704(04):038, 2017.
+
+[44] S. Navas et al. Review of particle physics. Phys. Rev. D, 110(3):030001, 2024.
+
+[45] Katharina Lodders. Solar System Abundances of the Elements. pages 379-417, 2010.
+
+[46] Brian D. Metzger, Dimitrios Giannios, and Shunsaku Horiuchi. Heavy Nuclei Synthesized
+      in Gamma-Ray Burst Outflows as the Source of UHECRs. Mon. Not. Roy. Astron. Soc.,
+      415:2495, 2011.
+
+[47] Shigeo S. Kimura, Kohta Murase, and B. Theodore Zhang. Ultrahigh-energy Cosmic-ray
+      Nuclei from Black Hole Jets: Recycling Galactic Cosmic Rays through Shear Acceleration.
+      Phys. Rev. D, 97(2):023026, 2018.
+
+[48] Damiano Caprioli. "Espresso" Acceleration of Ultra-high-energy Cosmic Rays. Astrophys.
+      J., 811(2):L38, 2015.
+
+[49] Damiano Caprioli, Dennis T. Yi, and Anatoly Spitkovsky. Chemical Enhancements in Shock-
+      Accelerated Particles: Ab initio Simulations. Phys. Rev. Lett., 119(17):171101, 2017.
+
+[50] Pedro Abreu et al. Bounds on the Density of Sources of Ultra-High Energy Cosmic Rays from
+      the Pierre Auger Observatory. JCAP, 05:009, 2013.
+
+[51] Hajime Takami, Kohta Murase, and Charles D. Dermer. Isotropy constraints on powerful
+      sources of ultrahigh-energy cosmic rays at 1019 eV. Astrophys. J., 817(1):59, 2016.
+
+[52] Kohta Murase and Hajime Takami. Implications of Ultra-High-Energy Cosmic Rays for
+      Transient Sources in the Auger Era. Astrophys. J. Lett., 690:L14-L17, 2009.
+
+[53] Hajime Takami and Kohta Murase. The Role of Structured Magnetic Fields on Constraining
+      Properties of Transient Sources of Ultra-high-energy Cosmic Rays. Astrophys. J., 748:9, 2012.
+
+[54] Sullivan Marafico, Jonathan Biteau, Antonio Condorelli, Olivier Deligny, and Johan Bregeon.
+      Closing the net on transient sources of ultra-high-energy cosmic rays, 5 2024.
+
+[55] Anthony R. Bell and James H. Matthews. Echoes of the past: ultra-high-energy cosmic rays
+      accelerated by radio galaxies, scattered by starburst galaxies. Mon. Not. Roy. Astron. Soc.,
+      511(1):448-456, 2022.
+
+[56] A. M. Taylor, J. H. Matthews, and A. R. Bell. UHECR echoes from the Council of Giants.
+      Mon. Not. Roy. Astron. Soc., 524(1):631-642, 2023.
+
+[57] Peter Meszaros. Gamma-Ray Bursts. Rept. Prog. Phys., 69:2259-2322, 2006.
+
+[58] R. Abbasi et al. An absence of neutrinos associated with cosmic-ray acceleration in -ray
+      bursts. Nature, 484:351-353, 2012.
+
+[59] R. Abbasi et al. Searches for Neutrinos from Gamma-Ray Bursts Using the IceCube Neutrino
+      Observatory. Astrophys. J., 939(2):116, 2022.
+
+                                                          13
+Source models of ultrahigh-energy cosmic rays  Bing Theodore Zhang
+
+[60] Pasquale Blasi, Richard I. Epstein, and Angela V. Olinto. Ultrahigh-energy cosmic rays from
+      young neutron star winds. Astrophys. J. Lett., 533:L123, 2000.
+
+[61] Jonathan Arons. Magnetars in the metagalaxy: an origin for ultrahigh-energy cosmic rays in
+      the nearby universe. Astrophys. J., 589:871-892, 2003.
+
+[62] Kohta Murase. Ultrahigh-Energy Photons as a Probe of Nearby Transient Ultrahigh-Energy
+      Cosmic-Ray Sources and Possible Lorentz-Invariance Violation. Phys. Rev. Lett., 103:081102,
+      2009.
+
+[63] Ke Fang, Kumiko Kotera, Kohta Murase, and Angela V. Olinto. Testing the Newborn Pulsar
+      Origin of Ultrahigh Energy Cosmic Rays with EeV Neutrinos. Phys.Rev., D90(10):103005,
+      2014.
+
+[64] B. Theodore Zhang and Kohta Murase. Ultrahigh-energy cosmic-ray nuclei and neutrinos
+      from engine-driven supernovae. Phys. Rev. D, 100(10):103004, 2019.
+
+[65] Glennys R. Farrar. Binary neutron star mergers as the source of the highest energy cosmic
+      rays, 5 2024.
+
+[66] Martin J. Rees. Tidal disruption of stars by black holes of 10 to the 6th-10 to the 8th solar
+      masses in nearby galaxies. Nature, 333:523-528, 1988.
+
+[67] Claire Guépin, Kumiko Kotera, Enrico Barausse, Ke Fang, and Kohta Murase. Ultra-High
+      Energy Cosmic Rays and Neutrinos from Tidal Disruptions by Massive Black Holes. 2017.
+
+[68] Tsvi Piran and Paz Beniamini. Ultra high energy cosmic rays from tidal disruption events.
+      JCAP, 11:049, 2023.
+
+[69] Pavlo Plotko, Walter Winter, Cecilia Lunardini, and Chengchao Yuan. Ultra-High-Energy
+      Cosmic Rays from Neutrino-Emitting Tidal Disruption Events. 10 2024.
+
+[70] A. P. Marscher. Jets in Active Galactic Nuclei. arXiv e-prints, page arXiv:0909.2576,
+      September 2009.
+
+[71] Kohta Murase, Yoshiyuki Inoue, and Charles D. Dermer. Diffuse Neutrino Intensity from
+      the Inner Jets of Active Galactic Nuclei: Impacts of External Photon Fields and the Blazar
+      Sequence. Phys. Rev., D90(2):023007, 2014.
+
+[72] Rostom Mbarek and Damiano Caprioli. Bottom-up Acceleration of Ultra-High-Energy Cosmic
+      Rays in the Jets of Active Galactic Nuclei. Astrophys. J., 886:8, 4 2019.
+
+[73] Anthony Bell, James Matthews, Katherine Blundell, and Anabella Araudo. Cosmic Ray
+      Acceleration in Hydromagnetic Flux Tubes. Mon. Not. Roy. Astron. Soc., 487(4):4571-4579,
+      2019.
+
+[74] Rostom Mbarek, Damiano Caprioli, and Kohta Murase. High-energy Neutrino Emission from
+      Espresso-reaccelerated Ions in Jets of Active Galactic Nuclei. Astrophys. J., 942(1):37, 2023.
+
+                                                          14
+Source models of ultrahigh-energy cosmic rays      Bing Theodore Zhang
+
+[75] B. Theodore Zhang and Kohta Murase. Nuclear and electromagnetic cascades induced by
+      ultra-high-energy cosmic rays in radio galaxies: implications for Centaurus A. Mon. Not. Roy.
+      Astron. Soc., 524(1):76-89, 2023.
+
+[76] Antonella Castellina. AugerPrime: the Pierre Auger Observatory Upgrade. EPJ Web Conf.,
+      210:06002, 2019.
+
+                                               15
+
