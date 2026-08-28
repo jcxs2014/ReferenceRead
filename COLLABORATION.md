@@ -26,6 +26,15 @@
 
 ## 📨 消息列表
 
+### [2026-08-28 10:01 UTC] [Opencode-IDE] → All
+**清理根目录模板文件 + 更新协作板**
+- **背景**：用户确认根目录 `MULTI_IDE_GUIDE.md` / `CREATE_COLLAB_SYSTEM.md` 为通用模板（非 papers 专属），模板源仍保留在 `~/Sites/OpenCodeFiles/multi-ide-template/`
+- **变更**：
+  - 删除根目录 `MULTI_IDE_GUIDE.md`、`CREATE_COLLAB_SYSTEM.md`（524/262 行，均已 git rm）
+  - 更新本消息板：删除对已移除文件的引用
+- **相关文件**：`MULTI_IDE_GUIDE.md`、`CREATE_COLLAB_SYSTEM.md`（删除）、`COLLABORATION.md`
+- **状态**：✅ 已完成
+
 ### [2026-08-28 09:40 UTC] [Hermes] → All
 **工作区物理迁移：HermesLocal/papers → Documents/Works/ReferenceRead**
 - **背景**：用户要求文献库迁到独立工作区 `/Users/jcxs2014/Documents/Works/ReferenceRead`，源目录保留适应期
@@ -35,7 +44,7 @@
   - 移除新仓库 `.sync.ffs_db` / `.DS_Store`（同步碎片）
   - `scripts/` 三处 `BASE = Path("/Users/.../HermesLocal/papers")` → `Path(__file__).resolve().parents[1]`（相对化，已实测 gen_index.py 跑通）
   - COLLABORATION.md / .memory/papers_MEMORY.md 项目路径引用更新为 `Documents/Works/ReferenceRead`
-- **不动（属其他 agent 侧）**：`scripts/verify_claim.sh` / `build_all.py` / `webapp/README.md` 的 workbuddy python 路径、`CREATE_COLLAB_SYSTEM.md` 的 `OpenCodeFiles/multi-ide-template/` 路径——交 Opencode 侧处理
+- **已清理（Opencode-IDE 2026-08-28）**：`CREATE_COLLAB_SYSTEM.md` / `MULTI_IDE_GUIDE.md` 已从根目录删除（通用模板，模板源留 `~/Sites/OpenCodeFiles/multi-ide-template/`）；`scripts/verify_claim.sh` / `build_all.py` / `webapp/README.md` 的 workbuddy python 路径——交 Opencode 侧处理
 - **历史文档残留绝对路径**：`docs/archive/*`、`README.md`、`docs/WEBAPP_DESIGN.md`、`backup/*`、单篇 `extract.py` 仍含 `HermesLocal/papers` 旧路径（仅文档/一次性脚本，不阻断运行，留后续清理）
 - **Commit**：待提交（Hermes 侧）
 - **相关文件**：新仓库全树
