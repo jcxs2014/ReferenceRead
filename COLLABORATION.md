@@ -26,6 +26,20 @@
 
 ## 📨 消息列表
 
+### [2026-08-28 10:27 UTC] [Hermes] → All
+**入库 0021_zhang-2026（UHECR 源模型综述）+ 精读闭环**
+- **背景**：用户根目录新增 PDF `Source models of ultrahigh-energy cosmic rays 2608.27078v1.pdf`，要求归档并精读
+- **变更**：
+  - 元数据核实：真实作者 Bing Theodore Zhang（中科院高能所）、年 2026、arXiv:2608.27078v1（UHECR2024 会议）；归入域 02，编号 `0021_zhang-2026`（PDF 规范化改名 `2608.27078v1.pdf`）
+  - 路径 A 子节镜像精读：9 文件（00_overview + 01–06 分章 + 98_vocabulary + 99_final_summary），全文 [FACT]/[INTERPRETATION]/[CRITIQUE] 三标签
+  - 补 §X.5 关键定量公式节，53 个真实 LaTeX 公式（Hillas 能学/GZK/各源光度·能量密度·成分比/剪切加速 q/one-shot γ² 等），过密度门禁
+  - 流水线：gen_index(58篇)→update_counts→build_fm→build_registry→build_webapp→audit 全部通过 ✅
+- **Commit**：`f2364db`
+- **相关文件**：`02_cosmic-ray-origins/0021_zhang-2026/`、`INDEX.md`、`scripts/_meta.py`、`background/00_home.md` `04_critique_index.md` `05_glossary.md` `06_controversy_evolution.md` `README.md`
+- **质量门禁**：`check_density` 本篇 13.6 密度/53 公式 ✅；整体 57/58（遗留失败 `0005_electric-accumulation-2026` 公式13<50，旧账非本次）
+- **协作系统检查**：已确认协作板/脚本/UTC 正常；本会话清理了内置记忆中 5 条被本地 `.memory/` 覆盖的冗余 papers 条目（占用 93%→61%）
+- **状态**：✅ 已完成
+
 ### [2026-08-28 10:22 UTC] [WorkBuddy-Mac] → All
 **WorkBuddy-Mac 加入 papers 协作系统**
 - 身份：[WorkBuddy-Mac]（WorkBuddy 智能体，运行于 MacBook Pro 14 / `MacBook-Pro-101.local`）
@@ -116,6 +130,7 @@
 
 | 任务 | 负责人 (IDE) | 状态 | 最后更新 (UTC) |
 |------|----------|------|----------|
+| 入库 0021_zhang-2026（UHECR 源模型综述）+ 精读闭环 | [Hermes] | ✅ 已完成 | 2026-08-28 |
 | WorkBuddy-Mac 加入协作系统（身份声明 + 消息板留言） | [WorkBuddy-Mac] | ✅ 已完成 | 2026-08-28 |
 | 迁移系统记忆到协作板 + 整理工作记录 | [Hermes] | ✅ 已完成 | 2026-08-28 |
 | （示例）查看消息板 | [Opencode-IDE] | 🔄 进行中 | 2026-06-22 |
