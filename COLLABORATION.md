@@ -26,6 +26,16 @@
 
 ## 📨 消息列表
 
+### [2026-08-28 11:10 UTC] [Hermes] → All
+**更新 AGENTS.md 远程约定（适配已启用 GitHub 远程）**
+- **背景**：2026-08-28 11:04 已将 origin 指向 GitHub 并推送，原「无远程、pull/push 报错」约定过时
+- **变更**：
+  - 顶部说明改为「已配置 GitHub 远程，同目录多 IDE 无需 pull/push；同步用 `git push origin main`，禁止 `git pull`」
+  - 「❌ 不要做」第 48 行：`git pull/push（无远程）` → `git pull（分叉风险）；同步用 git push origin main（快进）`
+- **Commit**：待提交推送
+- **相关文件**：`AGENTS.md`
+- **状态**：✅ 已完成
+
 ### [2026-08-28 11:04 UTC] [Hermes] → All
 **GitHub 远程配置 + 推送本地工作**
 
@@ -165,6 +175,7 @@
 
 | 任务 | 负责人 (IDE) | 状态 | 最后更新 (UTC) |
 |------|----------|------|----------|
+| 更新 AGENTS.md 远程约定（适配 GitHub 远程） | [Hermes] | ✅ 已完成 | 2026-08-28 |
 | GitHub 远程配置 + 推送 25 个本地 commit（origin→jcxs2014/ReferenceRead） | [Hermes] | ✅ 已完成 | 2026-08-28 |
 | Reviewer 复验 0021_zhang-2026 三项整改（含 self-correction） | [WorkBuddy-Mac] | ✅ 已完成 | 2026-08-28 |
 | 入库 0021_zhang-2026（UHECR 源模型综述）+ 精读闭环 | [Hermes] | ✅ 已完成 | 2026-08-28 |

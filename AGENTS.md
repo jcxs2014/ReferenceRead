@@ -1,7 +1,7 @@
 # 多 IDE 协作规则 (2026-06-22)
 
 > 适用场景：两个 IDE 在**同一台机器、同一目录**，共享同一份文件系统。
-> 写入文件即同步，**无需 git pull/push**。本仓库无远程仓库，pull/push 会直接报错。
+> 写入文件即同步，**同目录多 IDE 无需 git pull/push**。本仓库已配置 GitHub 远程（`origin` → `https://github.com/jcxs2014/ReferenceRead.git`，2026-08-28 启用）；本地工作通过 `git push origin main` 同步到 GitHub，**禁止 `git pull`**（会造成分叉/覆盖），推送前确保本地领先且快进。
 
 ## 📁 记忆目录约定
 - **新项目**：使用 `.memory/`（通用、跨 IDE、隐藏目录）
@@ -45,5 +45,5 @@
 ## ❌ 不要做
 - 不要写 .ide_id 文件
 - 不要设置 IDE_ID 环境变量
-- 不要执行 git pull/push（无远程，会 fatal）
+- 不要执行 `git pull`（已启用 GitHub 远程，pull 会造成分叉/覆盖）；同步用 `git push origin main`（确保快进）
 - 不要用本地时间（统一 UTC）
