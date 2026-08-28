@@ -737,11 +737,11 @@
 
 ### `0005_electric-accumulation-2026`
 
-****
+**Electric Accumulation of Millicharged Particles**
 
 |  |  |
 |---|---|
-| 作者 |  |
+| 作者 | Asher Berlin, Zachary Bogorad, Peter W. Graham, Harikrishnan Ramani |
 | 期刊 |  |
 | 分析文件 | 12 个（00_overview.md、01_model_and_introduction.md、02_terrestrial_population.md、03_accumulation_in_the_lab.md、04_results.md、…等 12 个） |
 | 目录 | [`04_experiments/0005_electric-accumulation-2026/literature_analysis/`](04_experiments/0005_electric-accumulation-2026/literature_analysis/) |
@@ -773,4 +773,4 @@
 | 04. 实验与观测 | 6 | 73 |
 | **合计** | **57** | **621** |
 
-> 最后更新: 2026-08-19（自动生成）
+> 最后更新: 2026-08-28（自动生成）

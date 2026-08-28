@@ -4,7 +4,7 @@ import re
 import sys
 from pathlib import Path
 
-BASE = Path("/Users/jcxs2014/Sites/HermesLocal/papers")
+BASE = Path(__file__).resolve().parents[1]
 
 
 def collect_papers():

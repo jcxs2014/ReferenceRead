@@ -5,7 +5,7 @@
 
 ## 项目身份
 
-- **项目路径**：`HermesLocal/papers`（独立 git 仓库）
+- **项目路径**：`Documents/Works/ReferenceRead`（独立 git 仓库）
 - **主题**：天体物理文献深度精读（宇宙线传播 / 起源于 / 恒星核合成 / 实验观测）
 - **主题域**：`01_propagation` / `02_origin` / `03_nucleosynthesis` / `04_experiments`
 - **当前规模**：**57 篇**（域 01=7 / 02=20 / 03=24 / 04=6）

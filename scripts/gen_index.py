@@ -13,7 +13,7 @@ from datetime import datetime
 from pathlib import Path
 from collections import OrderedDict
 
-BASE = Path("/Users/jcxs2014/Sites/HermesLocal/papers")
+BASE = Path(__file__).resolve().parents[1]
 
 # Topic domain definitions (in display order)
 TOPICS = [

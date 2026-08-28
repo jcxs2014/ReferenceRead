@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 from collections import OrderedDict
 
-BASE = Path("/Users/jcxs2014/Sites/HermesLocal/papers")
+BASE = Path(__file__).resolve().parents[1]
 OUT = BASE / "background" / "05_glossary.md"
 
 

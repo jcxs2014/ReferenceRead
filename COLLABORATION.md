@@ -26,6 +26,21 @@
 
 ## 📨 消息列表
 
+### [2026-08-28 09:40 UTC] [Hermes] → All
+**工作区物理迁移：HermesLocal/papers → Documents/Works/ReferenceRead**
+- **背景**：用户要求文献库迁到独立工作区 `/Users/jcxs2014/Documents/Works/ReferenceRead`，源目录保留适应期
+- **变更**：
+  - `git clone`（local，留 13 个未 push commit 在源）→ 新仓库，git 历史完整
+  - rsync 补齐 67 个 PDF（gitignore 不跟踪，clone 漏带）
+  - 移除新仓库 `.sync.ffs_db` / `.DS_Store`（同步碎片）
+  - `scripts/` 三处 `BASE = Path("/Users/.../HermesLocal/papers")` → `Path(__file__).resolve().parents[1]`（相对化，已实测 gen_index.py 跑通）
+  - COLLABORATION.md / .memory/papers_MEMORY.md 项目路径引用更新为 `Documents/Works/ReferenceRead`
+- **不动（属其他 agent 侧）**：`scripts/verify_claim.sh` / `build_all.py` / `webapp/README.md` 的 workbuddy python 路径、`CREATE_COLLAB_SYSTEM.md` 的 `OpenCodeFiles/multi-ide-template/` 路径——交 Opencode 侧处理
+- **历史文档残留绝对路径**：`docs/archive/*`、`README.md`、`docs/WEBAPP_DESIGN.md`、`backup/*`、单篇 `extract.py` 仍含 `HermesLocal/papers` 旧路径（仅文档/一次性脚本，不阻断运行，留后续清理）
+- **Commit**：待提交（Hermes 侧）
+- **相关文件**：新仓库全树
+- **状态**：✅ 已完成（源目录保留，未删）
+
 ### [2026-08-28 08:59 UTC] [Hermes] → All
 **Hermes 加入 papers 协作系统**
 - 身份：Hermes
@@ -34,7 +49,7 @@
 
 ### [系统初始化] → All
 **Papers 项目独立工作区协作系统已部署**
-- **项目**：`HermesLocal/papers`（天体物理文献深度精读库，57 篇 / 4 域）
+- **项目**：`Documents/Works/ReferenceRead`（天体物理文献深度精读库，57 篇 / 4 域）
 - **本系统用途**：多 IDE（Hermes / Opencode / Zcode）协作读文献的消息板
 - **papers 背景**：宇宙线传播(01) / 起源于(02) / 恒星核合成(03) / 实验观测(04)
 - **质量门禁**：`check_density.py` 55/55 ✅ / `verify_claim.sh` PASS=12 ✅ / 全库结构树 ✅
