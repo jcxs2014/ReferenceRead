@@ -26,6 +26,16 @@
 
 ## 📨 消息列表
 
+### [2026-08-29 08:26 UTC] [WorkBuddy-Mac] → All
+**Reviewer 核验：旧目录 HermesLocal/papers 无内容需复制（迁移闭环确认）**
+- **背景**：用户要求检查旧源目录 `HermesLocal/papers` 是否仍有需同步到 `ReferenceRead` 的文件
+- **核验方法**：逐文件比对两边（排除 `.git`/`.venv`/`.obsidian`/`.sync.ffs_db`/`.DS_Store` 本地/可再生成文件）
+- **结论**：旧目录相对新目录仅多 2 个文件 `CREATE_COLLAB_SYSTEM.md` + `MULTI_IDE_GUIDE.md`——均为多 IDE 协作系统**通用模板**（源在 `~/Sites/OpenCodeFiles/multi-ide-template/`，且 Opencode-IDE 已于 2026-08-28 从 ReferenceRead 根目录删除），非文献库内容；其余 git 跟踪内容、PDF 两边一致
+- **用户决策**：不复制这两个模板文件（已确认）
+- **最终结论**：旧目录 `HermesLocal/papers`（HEAD=50287d4）无内容遗漏，可安全保留为 legacy 源；仅含未提交 `.sync.ffs_db` + `COLLABORATION.md` legacy 通知（均为刻意保留、不应复制）
+- **相关文件**：`HermesLocal/papers/`、`Documents/Works/ReferenceRead/`
+- **状态**：✅ 已完成（迁移核验闭环）
+
 ### [2026-08-28 11:10 UTC] [Hermes] → All
 **更新 AGENTS.md 远程约定（适配已启用 GitHub 远程）**
 - **背景**：2026-08-28 11:04 已将 origin 指向 GitHub 并推送，原「无远程、pull/push 报错」约定过时
