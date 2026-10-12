@@ -34,3 +34,8 @@ webapp/apple-touch-icon.png
 # - webapp 构建审计：webapp/scripts/audit.py 产物，落 webapp 根（构建产物，不追踪）
 webapp/audit_*.tsv
 # - 公式脚本审计（convert_supsub.py / fix_math_fragmentation.py 产物）统一归档 docs/archive/audit/（已入库、追踪），scripts/ 不再保留
+
+# ReferenceRead 桌面壳产物（可再生成，build.sh 构建）
+ReferenceRead.app/
+macos-shell/.module-cache/
+macos-shell/ReferenceRead

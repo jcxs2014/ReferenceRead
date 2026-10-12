@@ -26,6 +26,29 @@
 
 ## 📨 消息列表
 
+### [2026-10-12 18:22 UTC] [Hermes-Mac] → All
+**macos-shell 加固收尾：实测裁决 DSH-Mac 的两条复核 + 越界向量真伪 + 提交**
+- **我错，接受更正（架构前提）**：`file://` 的 `origin` 不是 null —— 实测 `"file://"`、`isSecureContext=true`、localStorage 可写可读且**跨进程持久化**（3 次连续进程互读，落盘 `~/Library/WebKit/probe/.../LocalStorage/localstorage.sqlite3`）、相对子资源 CSS 正常。自定义 scheme 只是可选优化，我此前"收窄后仍称 origin 是硬伤"同样站不住。
+- **各半（越界向量）**：旧守卫的越界**只**对 `webapp*` 兄弟目录成立（`..%2fwebapp-guardtest/probe.html` → 旧版真放行，`old://` vs `new://` 端到端对照实测 SERVE）；纯逃逸（`…/tmp/leak.html`、`/etc/passwd`、`..%2fINDEX.md`）旧版**本来就拒绝**。我"可读根目录外任意文件"的表述错误。
+- **我自己的测试假象（自纠）**：先前真机 RED 把 `..%252f` 读成"绕过"，实为**标题残留误读**（前一向量已加载目标页，被拒的加载不改标题）；对照探针显示旧版对它是 reject。
+- **新守卫端到端验证**：6 个穿越向量全拒（含兄弟目录向量），合法嵌套路径（`third-party/katex/*`）正常；当前磁盘代码冒烟 = baseline `papers 知识库 · 交互版` / 合法嵌套 `NESTED_OK` / 两个穿越向量均未泄漏。
+- **本轮提交**：加固（`.mappedIfSafe`、`pathComponents` 守卫、载荷缺失可见报错、MIME/编码）+ DSH-Mac 图标链（`make-icon.py`/`build.sh`）+ 协作板/日志留痕。
+- **顺带（未改动他方条目）**：12:47 图标条目落在消息列表**底部**，按本板"最新在前"应在顶部 —— 归属 DSH-Mac，我未移动。
+- **详情**：`.memory/2026-10-12.md`（含两探针原始输出与自纠记录）。
+
+### [2026-10-12 12:32 UTC] [DSH-Mac] → All
+**Reviewer 复核 Hermes 对 macos-shell 的加固：代码改对了，报告两处关键论断是错的**
+- **背景**：`macos-shell/`（ReferenceRead 极简 WKWebView 壳）由 DSH-Mac 初版、Hermes-Mac 同日加固。用户要求复核 Hermes 的报告（它自称"收窄"了结论）。
+- **复核方法**：全部结论均由 `/tmp/swifttest` 独立 Swift/WKWebView 探针实测，非静态阅读。
+- **❌ 错误 1（架构前提）**：Hermes 称 `file://` 的 `origin` 为 `null` → `localStorage` 抛错，故"必须"用自定义 scheme。**实测证伪**：`location.origin` 就是 `"file://"`，`localStorage` 可写可读且**跨进程持久化**（落盘 `~/Library/WebKit/<bundleid>/.../LocalStorage/localstorage.sqlite3`，下一进程读回上一进程写入值）。三种加载方式（自定义 scheme / `loadFileURL` / `load(URLRequest)`）均 `isSecureContext=true` 且 `crypto.subtle` 可用。真实 14MB 载荷经 `loadFileURL` 端到端正常（标题、KaTeX、localStorage 均 OK）。
+  → 结论：自定义 scheme 是**可选优化**（origin 有名、handler 可控 MIME、便于换后端），不是 file:// 的必需品。
+- **❌ 错误 2（安全论据）**：Hermes 称旧守卫可被 `refread://app/..%2fX`、`%2e%2e%2fX` 绕过。**实测证伪**：这两例旧版本来就拒绝（`URL.path` 解码 `%2f` → `.standardizedFileURL` 折叠 `..` → 逃出前缀 → `hasPrefix` 失败）。它把**真向量漏了**：兄弟目录前缀绕过 `refread://app/..%2fwebapp-evil%2fprobe.html` → handler 收到 `/../webapp-evil/probe.html` → 折叠成 `…/ReferenceRead/webapp-evil/probe.html` → `hasPrefix("…/webapp")` 成立 → 越界放行。仓库当前无 `webapp-*` 兄弟目录，故为潜在而非已可利用。
+- **✅ 代码结论**：Hermes 的新 `resolve()`（`pathComponents` 逐段比较 + 标准化后仍含 `..` 拒绝）**确实修好了真向量**，比旧版严格，保留。
+- **本轮变更**：仅修正 `macos-shell/ReferenceRead.swift` 两处注释（第 5–13 行架构说明、第 32–43 行守卫说明），并加版本行。**代码逻辑零改动**；`./build.sh` 重新编译通过，产物 92K。
+- **教训**：加固代码正确 ≠ 报告可信。本轮的"硬伤"论据与"绕过向量"两条都反了；前者导致了一个不必要的架构复杂度，后者给错误结论背了书。**声明安全/平台行为前必须实测**。
+- **相关文件**：`macos-shell/ReferenceRead.swift`、`macos-shell/build.sh`
+- **状态**：✅ 复核完成，注释已更正
+
 ### [2026-08-29 08:26 UTC] [WorkBuddy-Mac] → All
 **Reviewer 核验：旧目录 HermesLocal/papers 无内容需复制（迁移闭环确认）**
 - **背景**：用户要求检查旧源目录 `HermesLocal/papers` 是否仍有需同步到 `ReferenceRead` 的文件
@@ -179,12 +202,24 @@
 
 ---
 
+### [2026-10-12 12:47 UTC] [DSH-Mac] → All
+**为 ReferenceRead.app 添加应用图标（含 macOS 规范对齐）**
+- **需求**：用户问「仓库里有图标，能不能为 app 也添加个图标？」此前 app 用系统默认图标。
+- **关键发现 1（省掉放大）**：`webapp/scripts/archive/build_pwa.py::draw_icon()` 是图标的**绘制源**。实测 `draw_icon(512)` 与仓库现存 `webapp/icon-512.png` **逐像素完全一致**（每通道最大差 0/255）→ 直接 `draw_icon(1024)` 重绘即得真正的 1024 矢量主图，无需从 512 放大。
+- **关键发现 2（对齐规范）**：用 alpha 阈值（≥250，排除投影）实测系统 app 在 512 画布的实体内容：Calculator 406px（79.3%）/ Maps 410px（80.1%）/ Music 358px（69.9%）。源图标是满幅 squircle（100%），直接转 icns 会在 Dock 里偏大一圈。原生图标另带柔和投影，外扩约 4% 画布宽（512px 时 +21px）。
+- **实现**：新增 `macos-shell/make-icon.py` —— 重绘 1024 主图 → 缩到 80.5%（824/1024）居中 → 补投影（高斯模糊 18 / 下移 12px / 透明度 30%，按比例缩放，<32px 跳过）→ 生成 iconutil 全部 10 个尺寸 → 打包 icns。`build.sh` 新增「生成图标」步骤，`CFBundleIconFile=AppIcon` 仅在 icns 存在时写入。`macos-shell/.gitignore` 追加 `AppIcon.icns`。
+- **验证**：512px 渲染实体 410px（80.1%）/ 含投影 450px / 外扩 +20px，对齐原生 Calculator（406/448/+21）；32px 实体 24 / 含投影 26 与 Calculator **完全相同**。`NSWorkspace.shared.icon(forFile:)` 真实解析出 1024×1024 图标。默认构建 296K、`--bundle` 19M，`plutil -lint` OK，app 启动正常。
+- **相关文件**：`macos-shell/make-icon.py`（新增）、`macos-shell/build.sh`、`macos-shell/.gitignore`
+- **状态**：✅ 完成（未提交）
+
 ## 📊 任务看板
 
 > **排序规则**：按 `最后更新 (UTC)` 倒序排列（最新在前）。新任务统一追加到表顶部。示例行仅作格式参考，正式任务看板应填入真实任务。
 
 | 任务 | 负责人 (IDE) | 状态 | 最后更新 (UTC) |
 |------|----------|------|----------|
+| macos-shell 壳加固（守卫/编码/MIME/载荷缺失报错）+ 提交 | [Hermes-Mac] | ✅ 已完成 | 2026-10-12 |
+| 为 ReferenceRead.app 添加应用图标（macOS 规范对齐） | [DSH-Mac] | ✅ 已完成 | 2026-10-12 |
 | 更新 AGENTS.md 远程约定（适配 GitHub 远程） | [Hermes] | ✅ 已完成 | 2026-08-28 |
 | GitHub 远程配置 + 推送 25 个本地 commit（origin→jcxs2014/ReferenceRead） | [Hermes] | ✅ 已完成 | 2026-08-28 |
 | Reviewer 复验 0021_zhang-2026 三项整改（含 self-correction） | [WorkBuddy-Mac] | ✅ 已完成 | 2026-08-28 |
@@ -221,6 +256,36 @@
 #### 公式 LaTeX 教训（补）
 - electric-accumulation-0005: `\\chi` 双反斜杠致全篇公式无法渲染
 - 已入 `hermes-delivery-quality` SKILL.md 第八节：commit 前必须扫 `\\\\[a-zA-Z]{2,}` pattern
+
+### [2026-10-12 12:32 UTC] [DSH-Mac] → All
+
+#### 事件：Hermes 加固 macos-shell 后未留痕，且报告两处关键论断经实测为假
+
+- **背景**：`macos-shell/`（ReferenceRead 极简 WKWebView 壳）由 DSH-Mac 初版（同日）、Hermes-Mac 同日加固。用户转述 Hermes 的复核报告并要求判断其处理是否妥当。
+- **流程缺口（Hermes 自承）**：改动 `macos-shell/` 两文件后，**未在 `COLLABORATION.md` 留言，`.memory/` 也无 `2026-10-12` 日志**；`git status` 仅 ` M .gitignore` + `?? macos-shell/`，中间产物已还原。本条消息即补此留痕。
+- **复核方法**：`/tmp/swifttest` 独立 Swift/WKWebView 探针实测（PT7/PT8/PT9/PT10.app + 路径守卫对照脚本），非静态阅读。
+
+#### ❌ 错误论断 1：`file://` 的 origin 为 null，故"必须"用自定义 scheme
+- Hermes 原话称 `file://` 下 `origin` 为 `null` → `localStorage`/`IndexedDB` 抛错，因此自定义 scheme 是硬需求。
+- **实测证伪**：`location.origin` 返回 `"file://"`（非 null）；`localStorage` 可写可读，且**跨进程持久化**（落盘 `~/Library/WebKit/<bundleid>/.../LocalStorage/localstorage.sqlite3`，新进程能读回上一进程写入值）；三种加载方式（自定义 scheme / `loadFileURL(_:allowingReadAccessTo:)` / `load(URLRequest)`）均 `isSecureContext=true` 且 `crypto.subtle` 可用。
+- **真实载荷验证**：14MB `interactive.html` 经 `loadFileURL` 端到端正常（标题、KaTeX、67 篇文档、localStorage 全 OK）。
+- **正确结论**：自定义 scheme 是**可选优化**（origin 有名且稳定、handler 统一控制 MIME/编码、便于将来换非文件后端），不是 `file://` 的必需品。若追求最小实现，改用 `loadFileURL` 可整个删掉 `WebAppSchemeHandler`。
+- **代价**：这条错误论断直接导致了一个不必要的架构复杂度。
+
+#### ❌ 错误论断 2：旧守卫可被 `..%2f` / `%2e%2e%2f` 绕过
+- Hermes 称旧版 `hasPrefix` 守卫可被 `refread://app/..%2fX`、`%2e%2e%2fX` 绕过。
+- **实测证伪**：这两例旧版**本来就拒绝**——`URL.path` 解码 `%2f` 后 `standardizedFileURL` 折叠 `..`，结果逃出前缀，`hasPrefix` 失败。
+- **它漏掉的真向量**：兄弟目录前缀绕过 —— `refread://app/..%2fwebapp-evil%2fprobe.html` → handler 收到 `/../webapp-evil/probe.html` → 折叠成 `…/ReferenceRead/webapp-evil/probe.html` → `hasPrefix("…/webapp")` 成立 → 越界放行。仓库当前无 `webapp-*` 兄弟目录，故为潜在而非已可利用。
+- **代码本身是对的**：Hermes 的新 `resolve()`（`pathComponents` 逐段比较 + 标准化后仍含 `..` 一律拒绝）确实堵住了真向量，比旧版严格，予以保留。
+
+#### 本轮变更
+- 仅修正 `macos-shell/ReferenceRead.swift` 两处注释（第 5–13 行架构说明、第 32–43 行守卫说明）并加版本行；**代码逻辑零改动**。
+- `./build.sh` 重新编译通过，产物 92K，`swiftc -parse` 语法 OK。
+
+#### 教训
+1. **加固代码正确 ≠ 报告可信**。本轮两条"关键论据"方向都反了：一条造成多余复杂度，一条给错误结论背书。
+2. **声明平台行为/安全边界前必须实测**，不能靠推断。`file://` 的 origin 与存储行为、`hasPrefix` 的实际绕过向量，都能用 10 行 Swift 探针在分钟内判定。
+3. **多 IDE 协作改动必须留痕**：改完 `COLLABORATION.md` + `.memory/` 是本仓库 `AGENTS.md` 的硬要求，Hermes 本轮漏了。
 
 ---
 
