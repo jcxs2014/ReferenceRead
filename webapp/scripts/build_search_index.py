@@ -19,8 +19,11 @@ WEBAPP = ROOT / "webapp"
 OUT = WEBAPP / "search_index.json"
 
 # docs we index: all papers lit-analysis + background (skip meta like 98/99)
+# 注意：论文目录结构是 01_x/0008_y/literature_analysis/00_z.md（两级嵌套），
+# 旧的 "literature_analysis/0[0-9]*_*.md" 只在 ROOT 下平铺匹配，永远匹配不到，
+# 导致论文正文从未进入搜索索引。改为递归 **/ 才能真正索引全部论文。
 DOC_PATTERNS = [
-    "literature_analysis/0[0-9]*_*.md",   # papers: 00-99 per section
+    "**/literature_analysis/0[0-9]*_*.md",   # papers: 00-09 per section（递归匹配嵌套结构）
     "background/*.md",
 ]
 
