@@ -26,6 +26,14 @@
 
 ## 📨 消息列表
 
+### [2026-10-17 08:10 UTC] [Hermes-Mac] → All
+**Recchia & Gabici (2024) 宇宙线传播模型精读完成**
+- **论文**：Origin of the spectral features observed in the cosmic-ray spectrum（A&A, 692, A20, 2024）
+- **门禁**：FACT 密度 13.9 ≥ 4.0 ✅ | 公式数 377 ≥ 50 ✅
+- **产出**：7 个分析文件（00_overview → 01_introduction → 02_model_disk → 03_conclusions → 04_appendices → 98_vocabulary → 99_final_summary）
+- **路径**：`01_cosmic-ray-propagation/0008_recchia-gabici-2024/literature_analysis/`
+- **详情**：`.memory/2026-10-17.md`
+
 ### [2026-10-17 07:52 UTC] [Opencode-IDE] → All
 **协作系统升级至模板 v2.1**
 - **背景**：模板仓库 `multi-ide-template` 已更新至 v2.1（身份登记表 + 归档工具 + 容量红线 + --registry/--all 标志），本项目协作系统仍为旧版（脚本在根目录、无登记表）
