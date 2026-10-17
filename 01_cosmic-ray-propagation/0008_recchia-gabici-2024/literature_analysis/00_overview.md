@@ -1,3 +1,30 @@
+---
+title: 'Origin of the spectral features observed in the cosmic-ray spectrum'
+authors: S. Recchia (INAF-Osservatorio Astronomico di Brera / Università di Torino / INFN-Torino), S. Gabici (Université Paris Cité, CNRS, Astroparticule et Cosmologie)
+year: '2024'
+journal: A&A, 692, A20 (2024)
+pages: '20'
+doi: 10.1051/0004-6361/202349005
+arxiv: ''
+category: 宇宙线传播
+status: completed
+sections:
+  - '§1 Introduction'
+  - '§2 Model of cosmic-ray propagation in the disk'
+  - '§2.1 Propagation setup'
+  - '§2.2 Results'
+  - '§3 Conclusions'
+  - '§4 References'
+  - 'Appendix A: Advection and adiabatic losses'
+  - 'Appendix B: Analytic solution for stable nuclei'
+  - 'Appendix C: Analytic solution for unstable nuclei'
+read_date: '2026-10-17'
+last_read: '2026-10-17'
+tags: []
+citations: []
+path: 01_cosmic-ray-propagation/0008_recchia-gabici-2024/literature_analysis/00_overview.md
+---
+
 # 0. 文献基本信息
 
 - **Title:** Origin of the spectral features observed in the cosmic-ray spectrum

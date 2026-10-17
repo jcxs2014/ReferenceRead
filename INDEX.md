@@ -1,6 +1,6 @@
 # Papers Index — 文献索引
 
-> 共 **58 篇文献**、**630 个分析文件**。按主题分类，点击链接进入分析文档。
+> 共 **59 篇文献**、**639 个分析文件**。按主题分类，点击链接进入分析文档。
 
 > 每篇分析的入口：`00_overview.md`（文献信息+结构树）→ 正文分章文件 → `98_vocabulary.md`（词汇表）→ `99_final_summary.md`（总结）
 
@@ -98,6 +98,19 @@
 | 目录 | [`01_cosmic-ray-propagation/0007_drury-1983/literature_analysis/`](01_cosmic-ray-propagation/0007_drury-1983/literature_analysis/) |
 | 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0007_drury-1983/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0007_drury-1983/literature_analysis/99_final_summary.md) |
+
+### `0008_recchia-gabici-2024`
+
+**Origin of the spectral features observed in the cosmic-ray spectrum**
+
+|  |  |
+|---|---|
+| 作者 | S. Recchia (INAF-Osservatorio Astronomico di Brera / Università di Torino / INFN-Torino), S. Gabici (Université Paris Cité, CNRS, Astroparticule et Cosmologie) |
+| 期刊 |  |
+| 分析文件 | 8 个（00_overview.md、01_introduction.md、02_model_disk.md、03_conclusions.md、04_appendices.md、…等 8 个） |
+| 目录 | [`01_cosmic-ray-propagation/0008_recchia-gabici-2024/literature_analysis/`](01_cosmic-ray-propagation/0008_recchia-gabici-2024/literature_analysis/) |
+| 概览 | [`00_overview.md`](01_cosmic-ray-propagation/0008_recchia-gabici-2024/literature_analysis/00_overview.md) |
+| 总结 | [`99_final_summary.md`](01_cosmic-ray-propagation/0008_recchia-gabici-2024/literature_analysis/99_final_summary.md) |
 
 ---
 
@@ -371,7 +384,7 @@
 |---|---|
 | 作者 | Bing Theodore Zhang |
 | 期刊 |  |
-| 分析文件 | 9 个（00_overview.md、01_introduction.md、02_latest_observations.md、03_implications.md、04_candidate_sources.md、…等 9 个） |
+| 分析文件 | 10 个（00_overview.md、01_introduction.md、02_latest_observations.md、03_implications.md、04_candidate_sources.md、…等 10 个） |
 | 目录 | [`02_cosmic-ray-origins/0021_zhang-2026/literature_analysis/`](02_cosmic-ray-origins/0021_zhang-2026/literature_analysis/) |
 | 概览 | [`00_overview.md`](02_cosmic-ray-origins/0021_zhang-2026/literature_analysis/00_overview.md) |
 | 总结 | [`99_final_summary.md`](02_cosmic-ray-origins/0021_zhang-2026/literature_analysis/99_final_summary.md) |
@@ -780,10 +793,10 @@
 
 | 分类 | 篇数 | 分析文件 |
 |---|---|---|
-| 01. 宇宙线传播 | 7 | 67 |
-| 02. 宇宙线起源 | 21 | 214 |
+| 01. 宇宙线传播 | 8 | 75 |
+| 02. 宇宙线起源 | 21 | 215 |
 | 03. 恒星核合成与元素丰度 | 24 | 276 |
 | 04. 实验与观测 | 6 | 73 |
-| **合计** | **58** | **630** |
+| **合计** | **59** | **639** |
 
-> 最后更新: 2026-08-28（自动生成）
+> 最后更新: 2026-10-17（自动生成）
