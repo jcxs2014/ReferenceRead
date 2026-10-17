@@ -30,7 +30,7 @@ set -e
 
 # ============ 配置 ============
 SCRIPT_VERSION="2.1"
-TEMPLATE_DIR="$(cd "$(dirname "$0")" && pwd)"
+TEMPLATE_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 
 # 颜色定义
 RED='\033[0;31m'
@@ -220,19 +220,31 @@ fi
 cp "$TEMPLATE_DIR/COLLABORATION.md" "$TARGET_DIR/COLLABORATION.md"
 echo -e "${GREEN}✅ COLLABORATION.md${NC}"
 
-# sync_memory.sh → 软链接
-ln -sf "$TEMPLATE_DIR/sync_memory.sh" "$TARGET_DIR/sync_memory.sh"
-echo -e "${GREEN}✅ sync_memory.sh (软链接)${NC}"
+# 创建 collab/ 子目录（脚本与配置集中存放）
+mkdir -p "$TARGET_DIR/collab"
 
-# check_collab.sh → 软链接
-ln -sf "$TEMPLATE_DIR/check_collab.sh" "$TARGET_DIR/check_collab.sh"
-echo -e "${GREEN}✅ check_collab.sh (软链接)${NC}"
+# sync_memory.sh → 软链接（放在 collab/ 下）
+ln -sf "$TEMPLATE_DIR/collab/sync_memory.sh" "$TARGET_DIR/collab/sync_memory.sh"
+echo -e "${GREEN}✅ collab/sync_memory.sh (软链接)${NC}"
 
-# setup_multi_ide.sh → 软链接（仅当尚未是正确链接时）
-if [ ! -L "$TARGET_DIR/setup_multi_ide.sh" ] || [ "$(readlink "$TARGET_DIR/setup_multi_ide.sh")" != "$TEMPLATE_DIR/setup_multi_ide.sh" ]; then
-    ln -sf "$TEMPLATE_DIR/setup_multi_ide.sh" "$TARGET_DIR/setup_multi_ide.sh"
+# check_collab.sh → 软链接（放在 collab/ 下）
+ln -sf "$TEMPLATE_DIR/collab/check_collab.sh" "$TARGET_DIR/collab/check_collab.sh"
+echo -e "${GREEN}✅ collab/check_collab.sh (软链接)${NC}"
+
+# setup_multi_ide.sh → 软链接（放在 collab/ 下，仅当尚未是正确链接时）
+if [ ! -L "$TARGET_DIR/collab/setup_multi_ide.sh" ] || [ "$(readlink "$TARGET_DIR/collab/setup_multi_ide.sh")" != "$TEMPLATE_DIR/collab/setup_multi_ide.sh" ]; then
+    ln -sf "$TEMPLATE_DIR/collab/setup_multi_ide.sh" "$TARGET_DIR/collab/setup_multi_ide.sh"
 fi
-echo -e "${GREEN}✅ setup_multi_ide.sh (软链接)${NC}"
+echo -e "${GREEN}✅ collab/setup_multi_ide.sh (软链接)${NC}"
+
+# archive_split.py → 归档工具（拷贝，放在 collab/ 下）
+cp "$TEMPLATE_DIR/collab/archive_split.py" "$TARGET_DIR/collab/archive_split.py"
+chmod +x "$TARGET_DIR/collab/archive_split.py"
+echo -e "${GREEN}✅ collab/archive_split.py (归档工具)${NC}"
+
+# collab_identities.json → 身份登记表（拷贝，放在 collab/ 下）
+cp "$TEMPLATE_DIR/collab/collab_identities.json" "$TARGET_DIR/collab/collab_identities.json"
+echo -e "${GREEN}✅ collab/collab_identities.json (身份登记表)${NC}"
 
 # AGENTS.md 由 AI 子 agent 按项目分析后生成（脚本仅确保目录存在）
 echo -e "${GREEN}✅ $MEMORY_DIR/ (内容待 AI 子 agent 初始化)${NC}"
@@ -245,9 +257,12 @@ echo "=========================================="
 echo ""
 echo "已部署文件："
 echo "  - $TARGET_DIR/COLLABORATION.md"
-echo "  - $TARGET_DIR/sync_memory.sh (软链接)"
-echo "  - $TARGET_DIR/check_collab.sh (软链接)"
-echo "  - $TARGET_DIR/setup_multi_ide.sh (软链接)"
+echo "  - $TARGET_DIR/collab/ (工具集目录)"
+echo "    ├── sync_memory.sh (软链接)"
+echo "    ├── check_collab.sh (软链接)"
+echo "    ├── setup_multi_ide.sh (软链接)"
+echo "    ├── archive_split.py (归档工具)"
+echo "    └── collab_identities.json (身份登记表)"
 echo "  - $TARGET_DIR/$MEMORY_DIR/ (目录，内容待 AI 子 agent 初始化)"
 echo ""
 echo "📌 下一步："
@@ -261,10 +276,10 @@ echo "  3. 调用子 agent 分析项目结构，生成 .gitignore + 初始化 .m
 echo ""
 echo "  4. 验证安装："
 echo "     cd $TARGET_DIR"
-echo "     ./check_collab.sh \"<你的IDE名>\""
+echo "     ./collab/check_collab.sh \"<你的IDE名>\""
 echo ""
 echo "  5. 查看记忆目录："
-echo "     ./sync_memory.sh --memory-dir"
+echo "     ./collab/sync_memory.sh --memory-dir"
 echo ""
 echo "  6. 工作流："
 echo "     - 工作前：./check_collab.sh \"<你的IDE名>\""

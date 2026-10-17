@@ -31,13 +31,15 @@
 
 ## 工作流程
 
-1. **工作记忆**：每次工作后用 `./sync_memory.sh "IDE名" "描述"` 做**本地 commit 留痕**
+1. **工作记忆**：每次工作后用 `./collab/sync_memory.sh "IDE名" "描述"` 做**本地 commit 留痕**
 2. **协作消息板**：在 `COLLABORATION.md` 中直接留言——同目录 IDE 写入后即时可见
 3. **查看/同步脚本**：
-   - `./sync_memory.sh "IDE名" "描述"` - 本地提交记忆与消息板
-   - `./sync_memory.sh "描述"` - 不标注 IDE
-   - `./sync_memory.sh --memory-dir` - 显示当前记忆目录
-   - `./check_collab.sh [本IDE名]` - 读取消息板 + 过滤"其他 IDE 消息"
+   - `./collab/sync_memory.sh "IDE名" "描述"` - 本地提交记忆与消息板
+   - `./collab/sync_memory.sh "描述"` - 不标注 IDE
+   - `./collab/sync_memory.sh --memory-dir` - 显示当前记忆目录
+   - `./collab/check_collab.sh [本IDE名]` - 读取消息板 + 过滤"其他 IDE 消息"
+   - `./collab/check_collab.sh --registry` - 显示已登记的 IDE 身份列表
+   - `./collab/check_collab.sh --all` - 显示完整消息板（默认仅最近 20 条）
 4. **首次使用**：在对话中声明身份（如"我是 Opencode-IDE"）
 5. **任务看板**：在 `COLLABORATION.md` 的"任务看板"区域更新任务状态
 6. **时间戳**：消息、任务看板、commit message **全部使用 UTC**

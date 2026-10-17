@@ -55,6 +55,7 @@ show_help() {
     echo "选项："
     echo "  -h, --help     显示此帮助信息"
     echo "  --memory-dir   显示当前使用的记忆目录"
+    echo "  --registry     显示已登记的 IDE 身份列表"
     echo ""
     echo "当前记忆目录: $MEMORY_DIR"
     echo ""
@@ -83,7 +84,47 @@ if [[ "$1" == "--memory-dir" ]]; then
     exit 0
 fi
 
-cd "$(dirname "$0")"
+# 显示已登记的 IDE 身份列表
+if [[ "$1" == "--registry" ]]; then
+    echo "=========================================="
+    echo "  已登记的 IDE 身份列表"
+    echo "=========================================="
+    echo ""
+    REGISTRY="collab/collab_identities.json"
+    if [ ! -f "$REGISTRY" ]; then
+        echo -e "${YELLOW}⚠️  $REGISTRY 不存在${NC}"
+        echo "   身份登记表尚未创建"
+        exit 0
+    fi
+    # 解析 JSON 并显示 canonical + aliases
+    python3 -c "
+import json, sys
+try:
+    d = json.load(open('$REGISTRY'))
+    identities = d.get('identities', [])
+    if not identities:
+        print('  (暂无登记身份)')
+    for i, ident in enumerate(identities, 1):
+        canonical = ident.get('canonical', '?')
+        confirmed = ident.get('confirmed', False)
+        aliases = ident.get('aliases', [])
+        status = '✅' if confirmed else '⚠️ '
+        print(f'  {i}. {status} {canonical}')
+        if aliases:
+            print('     aliases: ' + ', '.join(aliases))
+        note = ident.get('_note', '')
+        if note:
+            print(f'     note: {note[:80]}...' if len(note) > 80 else f'     note: {note}')
+    print()
+    print(f'机器后缀约定: {d.get(\"_机器后缀约定\", \"未设置\")}')
+except Exception as e:
+    print(f'  解析失败: {e}', file=sys.stderr)
+    exit(1)
+"
+    exit 0
+fi
+
+cd "$(dirname "$0")/.."
 
 # 0. 检查 Git 仓库
 if ! git rev-parse --git-dir > /dev/null 2>&1; then
@@ -114,13 +155,30 @@ echo ""
 if [ -f "COLLABORATION.md" ]; then
     echo -e "${BLUE}📋 协作消息板内容：${NC}"
     echo "=========================================="
-    cat COLLABORATION.md
+    # C1: 默认限长，--all 才全文
+    if [ "${2:-}" = "--all" ]; then
+        cat COLLABORATION.md
+    else
+        echo "（默认仅显示最近 20 条；全文请加 --all）"
+        grep -n '^### \[[0-9]\{4\}-' COLLABORATION.md | head -20
+    fi
     echo "=========================================="
     echo ""
 else
     echo -e "${YELLOW}⚠️  协作消息板文件不存在：${NC}"
     echo "   创建空文件：touch COLLABORATION.md"
     echo ""
+fi
+
+# 2.5 容量红线检查
+if [ -f "COLLABORATION.md" ]; then
+    SZ=$(wc -c < COLLABORATION.md)
+    if [ "$SZ" -ge 71680 ]; then
+        echo -e "${RED}⚠️  COLLABORATION.md = ${SZ} B，已超单次读取上限 71680，请归档：${NC}"
+        echo "      python3 archive_split.py            # 先看计划"
+        echo "      python3 archive_split.py --apply    # 执行"
+        echo ""
+    fi
 fi
 
 # 3. 显示最近的工作记忆提交记录
@@ -131,7 +189,7 @@ echo ""
 # 4. 识别消息板中其他 IDE 的消息
 if [ -f "COLLABORATION.md" ] && [ -n "$MY_IDE" ]; then
     echo -e "${GREEN}👥 其他 IDE 的最近消息（不含 [$MY_IDE]）：${NC}"
-    OTHER_MSGS=$(grep -E "^### .* \[" COLLABORATION.md 2>/dev/null | grep -v "\[$MY_IDE\]" | tail -5 || true)
+    OTHER_MSGS=$(grep -E '^### \[[0-9]{4}-' COLLABORATION.md 2>/dev/null | grep -v "\[$MY_IDE\]" | head -5 || true)
     if [ -n "$OTHER_MSGS" ]; then
         echo "$OTHER_MSGS"
     else
@@ -143,7 +201,7 @@ fi
 # 5. 显示待处理的任务
 if [ -f "COLLABORATION.md" ]; then
     echo -e "${GREEN}✅ 待处理任务：${NC}"
-    grep -B 1 "⏳ 等待中" COLLABORATION.md 2>/dev/null || echo -e "${YELLOW}（无待处理任务）${NC}"
+    grep -E -B1 "⏳|等待中|TODO" COLLABORATION.md 2>/dev/null || echo -e "${YELLOW}（无待处理任务）${NC}"
     echo ""
 fi
 

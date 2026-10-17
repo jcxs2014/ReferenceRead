@@ -1,0 +1,50 @@
+{
+  "_说明": "协作板身份登记表。canonical 是板面抬头 […] 里必须出现的规范写法；aliases 是已确定的别名；inferred_aliases 是从板面统计推断的（confirmed=false 语义），用这些别名发消息会打印告警，确认后移入 aliases。",
+  "_如何新增": "新实例直接在 identities 里加一条；canonical 用统一的 <名字>-<机器名> 格式，不要再加后缀变体。",
+  "_机器后缀约定": "主机器用 -Mac 后缀（如 Opencode-Mac），其他机器用 -Mini/-Win 等区分（如 Opencode-Mini）。避免多机冲突。",
+  "identities": [
+    {
+      "canonical": "Hermes",
+      "confirmed": true,
+      "aliases": ["Hermes-Mac"],
+      "inferred_aliases": [],
+      "_note": "Hermes 执行方 agent，协作板身份声明为 Hermes"
+    },
+    {
+      "canonical": "WorkBuddy-Mac",
+      "confirmed": true,
+      "aliases": [],
+      "inferred_aliases": [],
+      "_note": "审查方 agent（WorkBuddy）"
+    },
+    {
+      "canonical": "Opencode-IDE",
+      "confirmed": true,
+      "aliases": [],
+      "inferred_aliases": [],
+      "_note": "Opencode TUI 实例"
+    },
+    {
+      "canonical": "CodeBuddy-Mac",
+      "confirmed": true,
+      "aliases": [],
+      "inferred_aliases": [],
+      "_note": "CodeBuddy IDE 实例"
+    },
+    {
+      "canonical": "DSH-Mac",
+      "confirmed": true,
+      "aliases": [],
+      "inferred_aliases": [],
+      "_note": "DSH IDE 实例"
+    },
+    {
+      "canonical": "ZCode-Mac",
+      "confirmed": true,
+      "aliases": [],
+      "inferred_aliases": [],
+      "_note": "ZCode IDE 实例"
+    }
+  ],
+  "_约定_未登记": "未登记的 IDE 仍可发消息（抬头写自己声明的名字），但会被记录为 inferred 写法，建议事后补登记。"
+}

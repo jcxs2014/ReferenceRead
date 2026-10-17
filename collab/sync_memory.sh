@@ -87,7 +87,7 @@ if [[ "$1" == "--memory-dir" ]]; then
     exit 0
 fi
 
-cd "$(dirname "$0")"
+cd "$(dirname "$0")/.."
 
 # 仅检查模式
 if [[ "$1" == "--check" ]]; then
@@ -170,7 +170,7 @@ if [ -f "COLLABORATION.md" ]; then
     echo ""
     echo "📋 协作消息板最近消息："
     echo "=========================================="
-    grep -A 3 "^### \[" COLLABORATION.md | tail -20 || echo "（无消息）"
+    grep -E '^### \[[0-9]{4}-' COLLABORATION.md | head -20 || echo "（无消息）"
     echo "=========================================="
     echo ""
 fi
@@ -181,7 +181,7 @@ echo "   - 如有更新已提交（本地留痕）"
 echo "   - 同目录 IDE 即时可见（无需 pull/push）"
 echo ""
 echo "📌 下一步："
-echo "   - 查看消息板：cat COLLABORATION.md"
+echo "   - 查看消息板：./check_collab.sh"
 echo "   - 检查状态：./sync_memory.sh --check"
 echo "   - 查看其他 IDE 消息：./check_collab.sh [本IDE名]"
 echo ""
